@@ -1,0 +1,123 @@
+<?php
+/**
+* Mahara: Electronic portfolio, weblog, resume builder and social networking
+* Copyright (C) 2006 onwards Catalyst IT Ltd (http://www.catalyst.net.nz)
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*
+* @package    mahara
+* @subpackage lang (Japanese)
+* @translator Mitsuhiro Yoshida (http://mitstek.com/)
+* @started    2008-01-19 11:25:00 GMT
+* @updated    2008-05-07 05:43:23 GMT
+* @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
+* @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
+*
+*/
+
+defined('INTERNAL') || die();
+
+$string['pluginname'] = 'プロファイル';
+$string['profile'] = 'プロファイル';
+$string['myfiles'] = 'マイファイル';
+$string['mandatory'] = '必須';
+$string['public'] = '公開';
+$string['profileiconsize'] = 'アイコンサイズ';
+$string['aboutdescription'] = 'あなたの本名をここに入力してください。システム内の人に異なる名前を表示したい場合、ニックネーム欄に別名を入力してください。';
+$string['contactdescription'] = 'あなたがビューに置かない限り、すべての情報は非公開となります。';
+$string['messagingdescription'] = 'あなたの連絡先と同じく、この情報は非公開です。';
+$string['viewmyprofile'] = '私のプロファイルを表示する';
+$string['aboutme'] = '私について';
+$string['contact'] = '連絡先';
+$string['messaging'] = 'メッセージング';
+$string['general'] = '一般';
+$string['firstname'] = '名';
+$string['lastname'] = '姓';
+$string['fullname'] = 'フルネーム';
+$string['institution'] = 'インスティテューション';
+$string['studentid'] = '学籍番号';
+$string['preferredname'] = 'ニックネーム';
+$string['introduction'] = '自己紹介';
+$string['email'] = 'メールアドレス';
+$string['officialwebsite'] = 'オフィシャルウェブURI';
+$string['personalwebsite'] = 'パーソナルウェブURI';
+$string['blogaddress'] = 'ブログアドレス';
+$string['address'] = '郵便番号';
+$string['town'] = '市区町村';
+$string['city'] = '都道府県';
+$string['country'] = '国';
+$string['homenumber'] = '自宅電話';
+$string['businessnumber'] = '勤務先電話';
+$string['mobilenumber'] = '携帯電話';
+$string['faxnumber'] = 'FAX番号';
+$string['icqnumber'] = 'ICQナンバー';
+$string['msnnumber'] = 'MSNチャット';
+$string['aimscreenname'] = 'AIMスクリーンネーム';
+$string['yahoochat'] = 'Yahooチャット';
+$string['skypeusername'] = 'Skypeユーザ名';
+$string['jabberusername'] = 'Jabberユーザ名';
+$string['occupation'] = '職業';
+$string['industry'] = '職種';
+$string['name'] = '名称';
+$string['principalemailaddress'] = '主メールアドレス';
+$string['emailaddress'] = '代替メールアドレス';
+$string['saveprofile'] = 'プロファイルを保存する';
+$string['profilesaved'] = 'プロファイルが正常に保存されました。';
+$string['profilefailedsaved'] = 'プロファイルの保存に失敗しました。';
+$string['emailvalidation_subject'] = 'メールアドレスの確認';
+$string['emailvalidation_body'] = '%s さん、こんにちは。
+
+Mahara内のあなたのユーザアカウントにメールアドレス「 %s 」が追加されました。下記リンクにアクセスして、このメールアドレスを有効化してください。
+
+%s';
+$string['validationemailwillbesent'] = 'あなたのプロファイル保存後、確認メールが送信されます。';
+$string['emailactivation'] = 'メール有効化';
+$string['emailactivationsucceeded'] = 'メールが正常に有効化されました。';
+$string['emailactivationfailed'] = 'メールの有効化に失敗しました。';
+$string['unvalidatedemailalreadytaken'] = 'あなたが確認しようとしているメールアドレスは、すでに登録されています。';
+$string['emailingfailed'] = 'プロファイルが保存されましたが、次のメールアドレスにメール送信されませんでした: %s';
+$string['loseyourchanges'] = '変更が取り消されてもよろしいですか?';
+$string['editprofile'] = 'プロファイルを編集する';
+$string['profileicons'] = 'プロファイルアイコン';
+$string['Default'] = 'デフォルト';
+$string['deleteselectedicons'] = '選択したアイコンを削除する';
+$string['profileicon'] = 'プロファイルアイコン';
+$string['noimagesfound'] = 'イメージはありません。';
+$string['uploadedprofileiconsuccessfully'] = '新しいプロファイルアイコンが正常にアップロードされました。';
+$string['profileiconsetdefaultnotvalid'] = 'デフォルトのプロファイルアイコンを設定できません。選択が有効ではありません。';
+$string['profileiconsdefaultsetsuccessfully'] = 'デフォルトのプロファイルアイコンが正常に設定されました。';
+$string['profileiconsdeletedsuccessfully'] = 'プロファイルアイコンが正常に削除されました。';
+$string['profileiconsnoneselected'] = '削除するためのプロファイルアイコンが選択されていません。';
+$string['onlyfiveprofileicons'] = 'あなたは5つのファイルのみアップロードできます。';
+$string['or'] = 'または';
+$string['profileiconuploadexceedsquota'] = 'このプロファイルアイコンのアップロードで、あなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
+$string['profileiconimagetoobig'] = 'あなたがアップロードしたイメージは、大き過ぎます(%sx%s pixels)。%sx%s ピクセル以下のサイズにしてください。';
+$string['uploadingfile'] = 'ファイルのアップロード中 ...';
+$string['uploadprofileicon'] = 'プロファイルアイコンをアップロードする';
+$string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイルアイコンをアップロードすることができます。アイコンのアップロード後、あなたのデフォルトアイコンとして表示するアイコンを1つ選択してください。 16x16 から　%sx%s ピクセルの間であなたのアイコンを作成してください。';
+$string['setdefault'] = 'デフォルトに設定する';
+$string['Title'] = 'タイトル';
+$string['imagetitle'] = 'イメージタイトル';
+$string['usenodefault'] = 'デフォルトを使用しない';
+$string['usingnodefaultprofileicon'] = '現在、デフォルトのプロファイルアイコンを使用していません。';
+$string['Created'] = '作成日時';
+$string['Description'] = '説明';
+$string['Download'] = 'ダウンロード';
+$string['lastmodified'] = '最終更新日時';
+$string['Owner'] = 'オーナー';
+$string['Preview'] = 'プレビュー';
+$string['Size'] = 'サイズ';
+$string['Type'] = 'タイプ';
+
+?>
