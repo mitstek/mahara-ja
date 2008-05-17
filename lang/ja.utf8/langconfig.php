@@ -1,7 +1,7 @@
 <?php
 /**
  * Mahara: Electronic portfolio, weblog, resume builder and social networking
- * Copyright (C) 2006-2007 Catalyst IT Ltd (http://www.catalyst.net.nz)
+ * Copyright (C) 2006 onwards Catalyst IT Ltd (http://www.catalyst.net.nz)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,15 +18,16 @@
  *
  * @package    mahara
  * @subpackage lang (Japanese)
- * @Translator Mitsuhiro Yoshida (http://mitstek.com)
+ * @translator Mitsuhiro Yoshida (http://mitstek.com/)
+ * @started    2008-01-19 11:25:00 GMT
+ * @updated    2008-05-17 12:24:56 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
- * @copyright  (C) 2006,2007 Catalyst IT Ltd http://catalyst.net.nz
+ * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
  */
 
 defined('INTERNAL') || die();
 
-$string['parentlanguage'] = '';
 $string['strftimedate'] = '%%d %%B %%Y';
 $string['strftimedateshort'] = '%%d %%B';
 $string['strftimedatetime'] = '%%d %%B %%Y, %%l:%%M %%p';
@@ -40,7 +41,6 @@ $string['strftimerecentfull'] = '%%a, %%d %%b %%Y, %%l:%%M %%p';
 $string['strftimetime'] = '%%l:%%M %%p';
 $string['strfdaymonthyearshort'] = '%%d/%%m/%%Y';
 $string['thislanguage'] = '日本語';
-
-
+$string['parentlanguage'] = ''; // TBD
 
 ?>
