@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-17 12:25:51 GMT
+ * @updated    2008-05-18 11:22:40 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -123,6 +123,7 @@ $string['editaccesspagedescription2'] = '<p>デフォルトでは、あなたの
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
 $string['overridingstartstopdatesdescription'] = 'あなたは、開始日および終了日をオーバーライドすることができます。アクセス権を与えたとしても、開始日の前および終了日の後には、他のユーザはビューを閲覧することができません。';
 $string['emptylabel'] = 'このラベルのテキストを入力するには、ここをクリックしてください。';
+$string['empty_block'] = 'ここに配置するアーティファクトを左側のツリーより選択してください。';
 $string['viewinformationsaved'] = 'ビューインフォメーションが正常に保存されました。';
 $string['canteditdontown'] = 'あなたの所有でないため、このビューを編集できません。';
 $string['canteditdontownfeedback'] = 'あなたの所有でないため、このフィードバックを編集できません。';
