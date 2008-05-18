@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-17 12:24:48 GMT
+ * @updated    2008-05-18 05:49:42 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -38,5 +38,6 @@ $string['loggedouthomedefaultcontent'] = '<h2>Maharaにようこそ</h2>
 <p>Maharaはユーザを結び、コミュニティを作成することのできる、十分な機能を有したeポートフォリオ、ウェブログ、レジュメビルダおよびソーシャルネットワーキングシステムです。Maharahaは、あなたに個人学習および開発環境を構築するツールを提供します。</p>
 
 <p>Maharaに関する詳細は、For more information you can read <a href=\"about.php\">About</a>をお読みください。また、私たちに<a href=\"contact.php\">お気軽にお問い合わせください</a>。</p>';
+$string['uploadcopyrightdefaultcontent'] = 'はい: 私がアップロードを試みているファイルは、私に所有権があるファイル、または私が複製および配布を許可したファイルです。私がこのファイルを使用することで、国内の著作権法を侵害することはありません。また、このファイルは、サイトの使用条件に合致しています。';
 
 ?>
