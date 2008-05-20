@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-17 12:47:54 GMT
+ * @updated    2008-05-20 05:42:38 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -241,6 +241,7 @@ $string['lastname'] = '姓';
 $string['studentid'] = 'IDナンバー';
 $string['displayname'] = '表示名';
 $string['fullname'] = 'フルネーム';
+$string['registerstep1description'] = 'ようこそ! このサイトを使用するには、最初にユーザ登録してください。また、<a href=\"terms.php\">使用条件</a>に同意する必要があります。私たちの<a href=\"privacy.php\">プライバシー保護方針/a>に従って、ここで収集したデータは保存されます。';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムに登録できません。';
 $string['membershipexpiry'] = 'メンバーシップ有効期限切れ';
 $string['institutionfull'] = 'あなたが選択したインスティテューションは、これ以上の登録を受け付けていません。';
@@ -285,7 +286,7 @@ $string['forgotpassemailmessagehtml'] = '<p>%s さん</p>
 <p>%s サイト管理者</p>
 
 <p><a href=\"forgotpass.php?key=%s\">forgotpass.php?key=%s</a></p>';
-$string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは、私共に責任があります。もう一度お試しください。';
+$string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは、私たちに責任があります。もう一度お試しください。';
 $string['forgotpassnosuchemailaddress'] = 'あなたが入力したメールアドレスは、このサイトにユーザに合致しません。';
 $string['forgotpasswordenternew'] = '続けるには、あなたの新しいパスワードを入力してください。';
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';

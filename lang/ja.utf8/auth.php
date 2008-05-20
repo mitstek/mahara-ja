@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-17 12:24:15 GMT
+ * @updated    2008-05-20 05:36:05 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -53,12 +53,17 @@ $string['wessoout'] = 'あちらへSSOする';
 $string['theyssoin'] = 'こちらにSSOさせる';
 $string['application'] = 'アプリケーション';
 $string['cantretrievekey'] = 'リモートサーバのパブリックキーの検索中、エラーが発生しました。<br />アプリケーションおよびWWWルートフィールドが正しいこと、およびリモートホストのネットワークが有効にされていることを確認してください。';
+$string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s に使用しようとしています。';
 $string['errnoauthinstances'] = '私たちには、次のロケーションのホストに対する、どの認証プラグインインスタンスも設定されていないようです:';
 $string['errornotvalidsslcertificate'] = '有効なSSLサーバ証明書ではありません。';
 $string['errnoxmlrcpinstances'] = '私たちには、次のロケーションのホストに対するXMLRPC認証プラグインインスタンスが設定されていないようです:';
 $string['errnoxmlrcpwwwroot'] = '私たちには、次のロケーションのホストに対するレコードがありません。';
+$string['errnoxmlrpcuser'] = '現在、あなたを認証することができません。可能性のある理由として下記が考えられます:
+
+*あなたのSSOセッションが失効した。他のアプリケーションに戻って、Maharaにログインするためのリンクを再度クリックしてください。
+*あなたのMaharaに対するSSOが許可されていない。あなたがSSOできるかどうか管理者にご確認ください。';
 $string['unabletosigninviasso'] = 'SSO経由でサインインできません。';
-$string['xmlrpccouldnotlogyouin'] = '申し訳ございません、あなたをログインされることができませんでした :(';
+$string['xmlrpccouldnotlogyouin'] = '申し訳ございません、あなたをログインさせることができませんでした :(';
 $string['xmlrpccouldnotlogyouindetail'] = '申し訳ございません、今回はあなたをMaharaにログインされることができませんでした。ログインを再度お試しください。問題が続く場合、あなたの管理者にご連絡ください。';
 $string['requiredfields'] = '必須プロファイルフィールド';
 $string['requiredfieldsset'] = '必須プロファイルフィールドセット';
