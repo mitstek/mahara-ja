@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-20 05:42:38 GMT
+ * @updated    2008-05-21 10:17:42 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -242,6 +242,8 @@ $string['studentid'] = 'IDナンバー';
 $string['displayname'] = '表示名';
 $string['fullname'] = 'フルネーム';
 $string['registerstep1description'] = 'ようこそ! このサイトを使用するには、最初にユーザ登録してください。また、<a href=\"terms.php\">使用条件</a>に同意する必要があります。私たちの<a href=\"privacy.php\">プライバシー保護方針/a>に従って、ここで収集したデータは保存されます。';
+$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p> あなたは正常にユーザ登録されました! あなたのアバターとして表示する、任意のプロファイルアイコンを選択することができます。</p>';
+$string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは、必須入力フィールドです。あなたのユーザ登録が完了する前に、すべての必須入力フィールドに入力してください。/p>';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムに登録できません。';
 $string['membershipexpiry'] = 'メンバーシップ有効期限切れ';
 $string['institutionfull'] = 'あなたが選択したインスティテューションは、これ以上の登録を受け付けていません。';
@@ -328,6 +330,7 @@ $string['days'] = '日';
 $string['weeks'] = '週';
 $string['months'] = '月';
 $string['years'] = '年';
+$string['sitecontentnotfound'] = '% テキストは利用できません。';
 $string['name'] = '氏名';
 $string['email'] = 'メールアドレス';
 $string['subject'] = '件名';

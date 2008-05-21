@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-17 12:21:44 GMT
+ * @updated    2008-05-21 09:43:13 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -66,6 +66,7 @@ $string['filetypedescription'] = '<p>あなたは、ここでユーザがアッ�
 $string['folder'] = 'フォルダ';
 $string['foldercreated'] = 'フォルダが作成されました。';
 $string['home'] = 'ホーム';
+$string['htmlremovedmessage'] = 'あなたが閲覧しているファイル<strong>%s</strong>は、<a href=\"%s\">%s</a>によりアップロードされたものです。以下に表示されているファイルは不適切なコンテンツのため、削除に向けてフィルタされています。また、ここではオリジナルの概略のみ表示されています。';
 $string['image'] = 'イメージ';
 $string['lastmodified'] = '最終更新日';
 $string['myfiles'] = 'マイファイル';
