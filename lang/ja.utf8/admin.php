@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-17 12:24:00 GMT
+ * @updated    2008-05-23 05:28:00 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -196,6 +196,17 @@ $string['uploadcsverrorinvalidusername'] = 'あなたのファイルの　%s 行
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には、必須の「 %s 」フィールドが含まれていません。';
 $string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」は、すでに登録されています。';
 $string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」は、すでに他のユーザに取得されています。';
+$string['uploadcsvpagedescription'] = '<p>あなたは、この機能により、新しいユーザを<acronym title=\"Comma Separated Values\">CSV</acronym>ファイルを使用してアップロードすることができます。</p>
+
+<p>CSVファイルの先頭行は、CSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
+
+<pre>username,password,email,firstname,lastname,studentid</pre>
+
+<p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを常に含んでください。また、インスティテューションにアップロードするユーザすべてのフィールドは、必須およびロックフィールドにすることができます。あなたは、すべてのインスティテューションの<a href=\"%s\">フィールドを必須入力フィールドにする</a>、または<a href=\"%s\">ロックすることができます</a>。</p>
+
+<p>必要に応じて、あなたのCSVファイルには、他のプロファイルフィールドを含むことができます。フィールドの完全な一覧は以下の通りです:</p>
+
+%s';
 $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効でないか、Maharaが動作しているサーバがメールを送信するよう設定されていません。サーバエラーログには、さらに詳細が記録されています。現在のところ、これらのユーザに手動でコンタクトしてください:';
 $string['uploadcsvusersaddedsuccessfully'] = 'ファイル内のユーザが正常に追加されました。';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイルのユーザが多過ぎるため、ユーザは追加されませんでした。インスティテューションのユーザ数が許可された最大ユーザ数を超えました。';

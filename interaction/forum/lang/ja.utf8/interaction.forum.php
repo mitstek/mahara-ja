@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-18 17:42:19 GMT
+ * @updated    2008-05-23 07:23:36 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -86,6 +86,8 @@ $string['newtopic'] = '新しいトピック';
 $string['noforums'] = 'このグループにフォーラムはありません。';
 $string['notopics'] = 'このフォーラムにトピックはありません。';
 $string['Open'] = 'オープン';
+$string['Order'] = '並び順';
+$string['orderdescription'] = '他のフォーラムに対して、あなたがこのフォーラムを配置したい場所を選択してください。';
 $string['Post'] = '投稿';
 $string['postedin'] = '%s が %s に投稿しました。';
 $string['Poster'] = '投稿者';
@@ -124,7 +126,8 @@ $string['unsubscribefromtopic'] = 'トピックのメール購読を解除する
 $string['updateselectedtopics'] = '選択したトピックを更新する';
 $string['today'] = '今日';
 $string['yesterday'] = '昨日';
-$string['strftimerecentrelative'] = '%v - %k:%M'; // TBD
+$string['strftimerecentrelative'] = '%v - %H:%M';
+$string['strftimerecentfullrelative'] = '%v - %H:%M';
 $string['topics'] = 'トピック: %%s'; // TBD
 
 ?>

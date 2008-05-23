@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-21 10:17:42 GMT
+ * @updated    2008-05-23 07:15:56 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -219,7 +219,7 @@ $string['passwordsaved'] = 'あなたの新しいパスワードが保存され�
 $string['passwordsdonotmatch'] = 'パスワードが合致しません。';
 $string['passwordtooeasy'] = 'あなたのパスワードは簡単すぎます! 難しいパスワードを入力してください。';
 $string['register'] = 'ユーザ登録';
-$string['sessiontimedout'] = 'あなたのセッションはタイムアウトしました。続けるには、あなたのログイン情報を入力してください。';
+$string['sessiontimedout'] = 'あなたのセッションはタイムアウトしました。続けるには、再度ログインしてください。';
 $string['sessiontimedoutpublic'] = 'あなたのセッションはタイムアウトしました。閲覧を続けるには、<a href=\"?login\">ログイン</a>してください。';
 $string['sessiontimedoutreload'] = 'あなたのセッションはタイムアウトしました。再度ログインするには、ページをリロードしてください。';
 $string['username'] = 'ユーザ名';
@@ -365,7 +365,7 @@ $string['accountprefs'] = 'プリファレンス';
 $string['preferences'] = 'プリファレンス';
 $string['activityprefs'] = '活動プリファレンス';
 $string['notifications'] = '通知';
-$string['institutionmembership'] = 'インスティテューション・メンバーシップ';
+$string['institutionmembership'] = 'インスティテューションメンバーシップ';
 $string['institutionmembershipdescription'] = 'ここには、あなたがメンバーとなっているインスティテューションが表示されます。あなたは、インスティテューションのメンバーシップをリクエストすることもできます。また、インスティテューションが参加を招待した場合、あなたは招待を承認または拒否することができます。';
 $string['youareamemberof'] = 'あなたは　%s のメンバーです。';
 $string['leaveinstitution'] = 'インスティテューションを離れる';
