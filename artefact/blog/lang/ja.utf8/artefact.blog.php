@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-17 12:21:15 GMT
+ * @updated    2008-05-25 17:28:12 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -33,7 +33,7 @@ $string['blog'] = 'ブログ';
 $string['blogs'] = 'ブログ';
 $string['addblog'] = 'ブログを追加する';
 $string['addpost'] = '記事を追加する';
-$string['alignment'] = 'アラインメント';
+$string['alignment'] = '配置';
 $string['attach'] = '添付';
 $string['attachedfilelistloaded'] = '添付ファイル一覧がロードされました。';
 $string['attachedfiles'] = '添付ファイル';
@@ -52,6 +52,7 @@ $string['blogpostsaved'] = 'ブログ記事が保存されました。';
 $string['blogsettings'] = 'ブログ設定';
 $string['blogtitle'] = 'タイトル';
 $string['blogtitledesc'] = '例) 「Jillの看護実習日記」';
+$string['border'] = '枠線';
 $string['browsemyfiles'] = 'マイファイルを閲覧する';
 $string['cancel'] = 'キャンセル';
 $string['commentsallowed'] = 'コメント';
@@ -112,13 +113,13 @@ $string['viewblog'] = 'ブログを表示する';
 $string['youarenottheownerofthisblog'] = 'あなたは、このブログのオーナーではありません。';
 $string['youarenottheownerofthisblogpost'] = 'あなたは、このブログ記事のオーナーではありません。';
 $string['cannotdeleteblogpost'] = 'このブログ記事の削除中にエラーが発生しました。';
-$string['baseline'] = 'ベースライン';
-$string['top'] = 'トップ';
-$string['middle'] = 'ミドル';
-$string['bottom'] = 'ボトム';
-$string['texttop'] = 'テキストトップ';
-$string['absolutemiddle'] = 'アブソルートミドル';
-$string['absolutebottom'] = 'アブソルートボトム';
+$string['baseline'] = 'ベースライン揃え';
+$string['top'] = '上揃え';
+$string['middle'] = '中央揃え';
+$string['bottom'] = '下揃え';
+$string['texttop'] = 'テキスト上揃え';
+$string['absolutemiddle'] = '中央揃え (絶対指定)';
+$string['absolutebottom'] = '下揃え (絶対指定)';
 $string['left'] = '左';
 $string['right'] = '右';
 $string['posttitledesc'] = 'タイトルはあなたの記事の上に表示されます。'; // TBD
