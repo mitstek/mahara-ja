@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-17 12:22:42 GMT
+ * @updated    2008-05-26 23:27:50 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -37,7 +37,7 @@ $string['iagreetothetermsandconditions'] = '私は使用条件に同意します
 $string['passwordformdescription'] = 'あなたのパスワードには、少なくとも6文字必要です。また、1文字の数字および2文字の英字を含む必要があります。';
 $string['passwordinvalidform'] = 'あなたのパスワードには、少なくとも6文字必要です。また、1文字の数字および2文字の英字を含む必要があります。';
 $string['registeredemailsubject'] = 'あなたは %s に登録されました。';
-$string['registeredemailmessagetext'] = 'Hi さん
+$string['registeredemailmessagetext'] = '%s さん
 
 %s への登録ありがとうございます。サインアップ処理を完了するには、次のリンクに従ってください:
 
@@ -45,7 +45,7 @@ register.php?key=%s
 
 --
 %s チーム';
-$string['registeredemailmessagehtml'] = '<p>Hi さん</p>
+$string['registeredemailmessagehtml'] = '<p>%s さん</p>
 <p>%s への登録ありがとうございます。サインアップ処理を完了するには、次のリンクに従ってください:</p>
 <p><a href=\"register.php?key=%s\">register.php?key=%s</a></p>
 <pre>--
