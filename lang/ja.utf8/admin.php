@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-23 05:28:00 GMT
+ * @updated    2008-05-29 05:27:37 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -243,6 +243,7 @@ $string['resetpassworddescription'] = 'ここにテキストを入力した場�
 $string['forcepasswordchange'] = '次のログイン時、パスワード変更を強制する';
 $string['forcepasswordchangedescription'] = '次回のログイン時、ユーザはパスワード変更ページへ移動されます。';
 $string['sitestaff'] = 'サイトスタッフ';
+$string['sitestaffdescription'] = '有効にした場合、ユーザは管理コミュニティの作成、送信されたビューの受信およびリリース、ユーザプロファイルの主要な情報へアクセスすることができます。';
 $string['siteadmins'] = 'サイト管理者';
 $string['siteadmin'] = 'サイト管理者';
 $string['siteadmindescription'] = 'サイト管理者は、サイト内であらゆる処理を実行することができ、どこへでも移動することができます。';
