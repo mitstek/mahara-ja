@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-17 12:24:37 GMT
+ * @updated    2008-05-31 21:26:28 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -184,7 +184,7 @@ $string['nobodyawaitsfriendapproval'] = 'あなたのフレンドになるため
 $string['sendfriendrequest'] = 'フレンドリクエストを送信する!';
 $string['addtomyfriends'] = 'マイフレンドに追加する!';
 $string['friendshiprequested'] = 'フレンドシップがリクエストされました!';
-$string['existingfriend'] = '既存のフレンド';
+$string['existingfriend'] = '現在のフレンド';
 $string['nosearchresultsfound'] = '該当データはありません :(';
 $string['friend'] = 'フレンド';
 $string['friends'] = 'フレンド';
