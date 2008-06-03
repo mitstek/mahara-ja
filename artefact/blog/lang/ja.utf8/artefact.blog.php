@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-25 17:28:12 GMT
+ * @updated    2008-06-03 00:40:01 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -57,7 +57,7 @@ $string['browsemyfiles'] = 'マイファイルを閲覧する';
 $string['cancel'] = 'キャンセル';
 $string['commentsallowed'] = 'コメント';
 $string['commentsallowedno'] = 'このブログにコメントを許可しない';
-$string['commentsallowedyes'] = 'ログインユーザにこのブログのコメントを許可する';
+$string['commentsallowedyes'] = 'ログインユーザに対して、このブログへのコメントを許可する';
 $string['commentsnotify'] = 'コメント通知';
 $string['commentsnotifydesc'] = 'あなたのブログ記事にコメントが追加された場合、任意でコメント追加の通知を受信することができます。';
 $string['commentsnotifyno'] = 'このブログへのコメントを私に通知しない';

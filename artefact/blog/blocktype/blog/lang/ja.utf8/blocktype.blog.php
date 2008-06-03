@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-17 12:19:42 GMT
+ * @updated    2008-06-03 00:36:35 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -30,6 +30,6 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'ブログ';
 $string['description'] = 'ブログ全体を表示する';
-$string['defaulttitledescription'] = 'ここを空白にした場合、ブログタイトルが使用されます。';
+$string['defaulttitledescription'] = '空白にした場合、ブログタイトルが使用されます。';
 
 ?>
