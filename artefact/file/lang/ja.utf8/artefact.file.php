@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-21 09:43:13 GMT
+ * @updated    2008-06-03 11:04:56 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -35,9 +35,9 @@ $string['changessaved'] = '変更が保存されました。';
 $string['contents'] = 'コンテンツ';
 $string['copyrightnotice'] = '著作権表示';
 $string['create'] = '作成';
-$string['Created'] = '作成日';
+$string['Created'] = '作成日時';
 $string['createfolder'] = 'フォルダを作成する';
-$string['Date'] = '登録日';
+$string['Date'] = '登録日時';
 $string['defaultquota'] = 'デフォルトクオータ';
 $string['defaultquotadescription'] = 'あなたは、新しいユーザがクオータとして持つことのできるディスクスペース総量をここで設定することができます。既存のユーザのクオータは変更されません。';
 $string['deletefile?'] = '本当にこのファイルを削除してもよろしいですか?';
@@ -68,7 +68,7 @@ $string['foldercreated'] = 'フォルダが作成されました。';
 $string['home'] = 'ホーム';
 $string['htmlremovedmessage'] = 'あなたが閲覧しているファイル<strong>%s</strong>は、<a href=\"%s\">%s</a>によりアップロードされたものです。以下に表示されているファイルは不適切なコンテンツのため、削除に向けてフィルタされています。また、ここではオリジナルの概略のみ表示されています。';
 $string['image'] = 'イメージ';
-$string['lastmodified'] = '最終更新日';
+$string['lastmodified'] = '最終更新日時';
 $string['myfiles'] = 'マイファイル';
 $string['Name'] = '名称';
 $string['namefieldisrequired'] = '名称フィールドは必修入力です。';

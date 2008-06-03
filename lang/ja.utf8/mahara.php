@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-26 23:29:56 GMT
+ * @updated    2008-06-03 10:59:51 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -331,7 +331,7 @@ $string['weeks'] = '週';
 $string['months'] = '月';
 $string['years'] = '年';
 $string['sitecontentnotfound'] = '% テキストは利用できません。';
-$string['name'] = '氏名';
+$string['name'] = '名称';
 $string['email'] = 'メールアドレス';
 $string['subject'] = '件名';
 $string['message'] = 'メッセージ';

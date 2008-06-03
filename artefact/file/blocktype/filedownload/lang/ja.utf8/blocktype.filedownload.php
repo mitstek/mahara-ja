@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-17 12:21:21 GMT
+ * @updated    2008-06-03 10:49:30 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -28,7 +28,7 @@
 
 defined('INTERNAL') || die();
 
-$string['title'] = 'ダウンロードするファイル';
+$string['title'] = 'ダウンロードできるファイル';
 $string['description'] = 'ユーザがダウンロードできるファイルを選択してください。';
 $string['Files'] = 'ファイル';
 
