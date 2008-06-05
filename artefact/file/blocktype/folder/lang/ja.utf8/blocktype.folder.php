@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-17 12:21:26 GMT
+ * @updated    2008-06-05 14:15:59 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,7 +29,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'フォルダ';
-$string['description'] = 'あなたのファイルエリアのフォルダです。';
+$string['description'] = 'あなたのファイルエリアの単一フォルダです。';
 $string['defaulttitledescription'] = '空白にした場合、フォルダのタイトルが使用されます。';
 
 ?>
