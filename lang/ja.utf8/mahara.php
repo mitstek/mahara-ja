@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-06-03 10:59:51 GMT
+ * @updated    2008-06-06 04:30:39 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -69,8 +69,8 @@ $string['sendrequest'] = 'リクエストを送信する';
 $string['reason'] = '理由';
 $string['select'] = '選択';
 $string['tags'] = 'タグ';
-$string['tagsdesc'] = 'このアイテムにカンマで区切ったタグを入力してください。';
-$string['tagsdescprofile'] = 'このアイテムにカンマで区切ったタグを入力してください。「profile」タグが付けられたアイテムは、あなたのサイドバーに表示されます。';
+$string['tagsdesc'] = 'このアイテムに関する、カンマで区切ったタグを入力してください。';
+$string['tagsdescprofile'] = 'このアイテムに関する、カンマで区切ったタグを入力してください。「profile」タグが付けられたアイテムは、あなたのサイドバーに表示されます。';
 $string['youhavenottaggedanythingyet'] = 'あなたは、またタグ付けしていません。';
 $string['selfsearch'] = 'マイポートフォリオを検索する';
 $string['ssopeers'] = 'SSOピア';

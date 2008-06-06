@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-06-04 02:31:17 GMT
+ * @updated    2008-06-06 04:33:20 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -152,7 +152,7 @@ $string['err.removecolumn'] = 'カラムの削除に失敗しました。';
 $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除してもよろしいですか?';
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
 $string['blocksintructionnoajax'] = 'あなたのビューに追加するブロックを選択してください。あなたはブロックのタイトルバーにある矢印を使って、ブロックの位置を変更することができます。';
-$string['blocksinstructionajax'] = 'あなたのビューレイアウトにブロックを追加するには、下のエリアにブロックをドラッグしてください。ビュー内でブロックをドラッグすることで、あなたはブロックの配置を変更することができます。';
+$string['blocksinstructionajax'] = 'あなたのビューレイアウトにブロックを追加するには、この行の下にブロックをドラッグしてください。あなたのビュー内でブロックをドラッグすることで、ブロックの配置を変更することができます。';
 $string['addnewblockhere'] = 'ここに新しいブロックを追加する';
 $string['add'] = '追加';
 $string['addcolumn'] = 'カラムを追加する';

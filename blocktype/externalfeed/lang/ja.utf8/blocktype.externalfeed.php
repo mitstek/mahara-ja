@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-17 12:23:08 GMT
+ * @updated    2008-06-06 04:40:44 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -33,7 +33,7 @@ $string['description'] = '埋め込み外部RSSまたはATOMフィードです�
 $string['feedlocation'] = 'フィードロケーション';
 $string['feedlocationdesc'] = 'RSSまたはATOMフィードの有効なURI';
 $string['showfeeditemsinfull'] = 'フィードアイテムを完全に表示しますか?';
-$string['showfeeditemsinfulldesc'] = 'フィードアイテムの要約を表示するか、またはそれぞれのフィードアイテムの詳細を表示するか指定します。';
+$string['showfeeditemsinfulldesc'] = 'ここでは、フィードアイテムの要約を表示するか、またはそれぞれのフィードアイテムの詳細を表示するか選択してください。';
 $string['invalidurl'] = '指定されたURIが無効またはフィードを構文解析できません。';
 $string['invalidfeed'] = 'フィードが有効ではないようです。レポートされたエラーは次のとおりです: %s';
 $string['lastupdatedon'] = '最終更新日時: %s';
