@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-17 12:24:25 GMT
+ * @updated    2008-06-06 07:31:14 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -34,7 +34,7 @@ $string['pgsqldbextensionnotloaded'] = 'あなたのサーバの設定には、p
 $string['mysqldbextensionnotloaded'] = 'あなたのサーバの設定には、mysql拡張モジュールが含まれていません。データをリレーショナルデータベースに保存するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。また、インストルされていない場合、インストールしてください。';
 $string['mysqldbtypedeprecated'] = 'あなたは設定ファイルにdbtyp「mysql」を使用しています。「mysql5」に変更してください - 「mysql」は廃止されました。';
 $string['unknowndbtype'] = 'あなたのサーバ設定は、不明なデータベースタイプを参照しています。有効な値は「postgres8」および「mysql5」です。config.phpでデータベースタイプを変更してください。';
-$string['libxmlextensionnotloaded'] = 'あなたのサーバの設定には、libxml拡張モジュールが含まれていません。インストーラおよびバックアップでXMLデータを構文解析するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。また、インストールされていない場合、インストールしてください。';
+$string['xmlextensionnotloaded'] = 'あなたのサーバの設定には、%s 拡張モジュールが含まれていません。様々なソースのXMLデータを構文解析するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。また、インストールされていない場合、インストールしてください。';
 $string['gdextensionnotloaded'] = 'あなたのサーバの設定には、gd拡張モジュールが含まれていません。アップロードされたイメージのリサイズおよび他の処理を実行するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。また、インストールされていない場合、インストールしてください。';
 $string['sessionextensionnotloaded'] = 'あなたのサーバの設定には、session拡張モジュールが含まれていません。ユーザログインをサポートするため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。また、インストールされていない場合、インストールしてください。';
 $string['registerglobals'] = 'あなたは危険なPHP設定、register_globalsをonにしています。Maharaは、この問題の対処を試みますが、設定の修正を強くお勧めします。';
@@ -84,6 +84,7 @@ $string['missingparamblocktype'] = '最初に追加するブロックタイプ�
 $string['missingparamcolumn'] = 'カラム設定がありません。';
 $string['missingparamorder'] = '並び替え順の設定がありません。';
 $string['missingparamid'] = 'IDがありません。';
+$string['libxmlextensionnotloaded'] = 'あなたのサーバの設定には、libxml拡張モジュールが含まれていません。インストーラおよびバックアップでXMLデータを構文解析するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。また、インストールされていない場合、インストールしてください。'; // TBD
 $string['opensslextensionnotloaded'] = 'あなたのサーバの設定には、openssl拡張モジュールが含まれていません。ユーザログインをサポートするため、Maharaではこのモジュールを必要としませんが、あなたがネットワーキングサポートを有効したい場合、必要です。'; // TBD
 $string['curlextensionnotloaded'] = 'あなたのサーバの設定には、curl拡張モジュールが含まれていません。ユーザログインをサポートするため、Maharaではこのモジュールを必要としませんが、あなたがネットワーキングサポートを有効したい場合、必要です。'; // TBD
 $string['xmlrpcextensionnotloaded'] = 'あなたのサーバの設定には、xmlrpc拡張モジュールが含まれていません。ユーザログインをサポートするため、Maharaではこのモジュールを必要としませんが、あなたがネットワーキングサポートを有効したい場合、必要です。'; // TBD

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-29 05:27:37 GMT
+ * @updated    2008-06-06 07:43:01 GMT
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -196,13 +196,24 @@ $string['uploadcsverrorinvalidusername'] = 'あなたのファイルの　%s 行
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には、必須の「 %s 」フィールドが含まれていません。';
 $string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」は、すでに登録されています。';
 $string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」は、すでに他のユーザに取得されています。';
-$string['uploadcsvpagedescription'] = '<p>あなたは、この機能により、新しいユーザを<acronym title=\"Comma Separated Values\">CSV</acronym>ファイルを使用してアップロードすることができます。</p>
+$string['uploadcsvpagedescription2'] = '<p>あなたは、この機能により、新しいユーザを<acronym title=\"Comma Separated Values\">CSV</acronym>ファイルを使用してアップロードすることができます。</p>
 
 <p>CSVファイルの先頭行は、CSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
 <pre>username,password,email,firstname,lastname,studentid</pre>
 
-<p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを常に含んでください。また、インスティテューションにアップロードするユーザすべてのフィールドは、必須およびロックフィールドにすることができます。あなたは、すべてのインスティテューションの<a href=\"%s\">フィールドを必須入力フィールドにする</a>、または<a href=\"%s\">ロックすることができます</a>。</p>
+<p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、すべてのユーザに対して必須入力にしたフィールドも含んでください。インスティテューションにアップロードするユーザすべてのフィールドは、必須入力およびロックフィールドにすることができます。すべてのインスティテューションの<a href=\"%s\">フィールドを必須入力フィールドにする</a>、または<a href=\"%s\">ロックフィールドにすることができます</a>。</p>
+
+<p>必要に応じて、あなたのCSVファイルには、他のプロファイルフィールドを含むことができます。フィールドの完全な一覧は以下の通りです:</p>
+
+%s';
+$string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたは、この機能により、新しいユーザを<acronym title=\"Comma Separated Values\">CSV</acronym>ファイルを使用してアップロードすることができます。</p>
+
+<p>CSVファイルの先頭行は、CSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
+
+<pre>username,password,email,firstname,lastname,studentid</pre>
+
+<p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、サイト管理者が必須入力にしたフィールド、あなたがインスティテューションでロックフィールドにしたフィールドも含んでください。あなたが管理するインスティテューションの<a href=\"%s\">ロックフィールドを設定</a>することができます。</p>
 
 <p>必要に応じて、あなたのCSVファイルには、他のプロファイルフィールドを含むことができます。フィールドの完全な一覧は以下の通りです:</p>
 
@@ -355,6 +366,17 @@ $string['installed'] = 'インストール済み';
 $string['errors'] = 'エラー';
 $string['install'] = 'インストール';
 $string['reinstall'] = '再インストール';
+$string['uploadcsvpagedescription'] = '<p>あなたは、この機能により、新しいユーザを<acronym title=\"Comma Separated Values\">CSV</acronym>ファイルを使用してアップロードすることができます。</p>
+
+<p>CSVファイルの先頭行は、CSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
+
+<pre>username,password,email,firstname,lastname,studentid</pre>
+
+<p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを常に含んでください。また、インスティテューションにアップロードするユーザすべてのフィールドは、必須およびロックフィールドにすることができます。あなたは、すべてのインスティテューションの<a href=\"%s\">フィールドを必須入力フィールドにする</a>、または<a href=\"%s\">ロックすることができます</a>。</p>
+
+<p>必要に応じて、あなたのCSVファイルには、他のプロファイルフィールドを含むことができます。フィールドの完全な一覧は以下の通りです:</p>
+
+%s'; // TBD
 $string['institutionusersupdatedrequesters'] = 'ユーザが追加されました。'; // TBD
 $string['institutionusersupdatedmembers'] = 'ユーザが削除されました。'; // TBD
 $string['institutionusersupdatednonmembers'] = '招待状が送信されました。'; // TBD
