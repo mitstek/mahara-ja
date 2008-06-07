@@ -19,8 +19,8 @@
  * @package    mahara
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
- * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-20 05:36:05 GMT
+ * @started    2008-01-19 11:25:00 UTC
+ * @updated    2008-06-07 03:51:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -33,7 +33,7 @@ $string['wwwroot'] = 'WWWルート';
 $string['port'] = 'ポートナンバー';
 $string['protocol'] = 'プロトコル';
 $string['changepasswordurl'] = 'パスワード変更URI';
-$string['cannotremove'] = 'このインスティテューションに関する唯一のプラグインのため、この認証プラグインを削除することはできません。';
+$string['cannotremove'] = 'インスティテューションに関する唯一のプラグインのため、この認証プラグインを削除することはできません。';
 $string['cannotremoveinuse'] = '他のユーザに使用されているため、この認証プラグインを削除することはできません。このプラグインを削除する前に、ユーザレコードを更新してください。';
 $string['saveinstitutiondetailsfirst'] = '認証プラグインを設定する前に、インスティテューション詳細を保存してください。';
 $string['editauthority'] = '認証局を編集する';

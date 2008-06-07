@@ -19,8 +19,8 @@
  * @package    mahara
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
- * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-17 12:23:45 GMT
+ * @started    2008-01-19 11:25:00 UTC
+ * @updated    2008-06-07 03:50:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *

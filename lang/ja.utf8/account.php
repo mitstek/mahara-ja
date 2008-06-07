@@ -19,8 +19,8 @@
  * @package    mahara
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
- * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-17 12:23:37 GMT
+ * @started    2008-01-19 11:25:00 UTC
+ * @updated    2008-06-07 03:50:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -31,7 +31,7 @@ defined('INTERNAL') || die();
 $string['changepassworddesc'] = 'あなたのパスワードを変更したい場合、ここで詳細を入力してください。';
 $string['changepasswordotherinterface'] = 'あなたは、異なるインターフェースで<a href=\"%s\">パスワードを変更</a>することができます。';
 $string['oldpasswordincorrect'] = 'これは、あなたの現在のパスワードではありません。';
-$string['accountoptionsdesc'] = 'ここで一般アカウントオプションを設定してください。';
+$string['accountoptionsdesc'] = 'あなたは、ここで一般アカウントオプションを設定することができます。';
 $string['friendsnobody'] = 'だれも私をフレンドとして追加できません。';
 $string['friendsauth'] = '新しいフレンドになるには、私の承認が必要です。';
 $string['friendsauto'] = '新しいフレンドは、自動的に承認されます。';
