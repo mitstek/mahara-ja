@@ -19,8 +19,8 @@
  * @package    mahara
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
- * @started    2008-01-19 11:25:00 GMT
- * @updated    2008-05-17 12:24:56 GMT
+ * @started    2008-01-19 11:25:00 UTC
+ * @updated    2008-06-07 04:41:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -28,18 +28,18 @@
 
 defined('INTERNAL') || die();
 
-$string['strftimedate'] = '%%d %%B %%Y';
-$string['strftimedateshort'] = '%%d %%B';
-$string['strftimedatetime'] = '%%d %%B %%Y, %%l:%%M %%p';
-$string['strftimedaydate'] = '%%A, %%d %%B %%Y';
-$string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%l:%%M %%p';
-$string['strftimedayshort'] = '%%A, %%d %%B';
-$string['strftimedaytime'] = '%%a, %%k:%%M';
-$string['strftimemonthyear'] = '%%B %%Y';
-$string['strftimerecent'] = '%%d %%b, %%k:%%M';
-$string['strftimerecentfull'] = '%%a, %%d %%b %%Y, %%l:%%M %%p';
-$string['strftimetime'] = '%%l:%%M %%p';
-$string['strfdaymonthyearshort'] = '%%d/%%m/%%Y';
+$string['strftimedate'] = '%%Y年 %%m月 %%d日';
+$string['strftimedateshort'] = '%%m/%%d';
+$string['strftimedatetime'] = '%%Y年 %%m月 %%d日 %H:%M';
+$string['strftimedaydate'] = '%%Y年 %%m月 %%d日(%A)';
+$string['strftimedaydatetime'] = '%%Y年 %%m月 %%d日(%%A) %%H:%%M';
+$string['strftimedayshort'] = '%%Y年 %%m月 %%d日';
+$string['strftimedaytime'] = '(%%a) %%H:%%M';
+$string['strftimemonthyear'] = '%%Y年 %%m月';
+$string['strftimerecent'] = '%%m月 %%d日 %%H:%%M';
+$string['strftimerecentfull'] = '%%Y年 %%m月 %%d日(%%a) %%H:%%M';
+$string['strftimetime'] = '%%H:%%M';
+$string['strfdaymonthyearshort'] = '%%Y/%%m/%%d';
 $string['thislanguage'] = '日本語';
 $string['parentlanguage'] = ''; // TBD
 
