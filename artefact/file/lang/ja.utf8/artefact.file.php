@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-07 03:44:20 UTC
+ * @updated    2008-06-08 00:16:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -78,7 +78,7 @@ $string['movefailednotfileartefact'] = 'ファイル、フォルダおよびイ�
 $string['movefailednotowner'] = 'あなたには、このフォルダにファイルを移動するパーミッションがありません。';
 $string['movefailed'] = '移動に失敗しました。';
 $string['nofilesfound'] = 'ファイルはありません。';
-$string['overwrite'] = 'オーバーライト';
+$string['overwrite'] = '上書き';
 $string['Owner'] = 'オーナー';
 $string['parentfolder'] = '親フォルダ';
 $string['Preview'] = 'プレビュー';
@@ -88,11 +88,11 @@ $string['timeouterror'] = 'ファイルのアップロードに失敗しまし�
 $string['title'] = '名称';
 $string['titlefieldisrequired'] = '名称フィールドは必須入力項目です。';
 $string['Type'] = 'タイプ';
-$string['unlinkthisfilefromblogposts?'] = 'このファイルは１つまたはそれ以上のブログ記事に添付されています。ファイルを削除した場合、それらの記事からファイルが削除されます。';
+$string['unlinkthisfilefromblogposts?'] = 'このファイルは、１つまたはそれ以上のブログ記事に添付されています。ファイルを削除した場合、それらの記事からファイルが削除されます。';
 $string['upload'] = 'アップロード';
-$string['uploadexceedsquota'] = 'このファイルのアップロードで、あなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
+$string['uploadexceedsquota'] = 'このファイルをアップロードすることで、あなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
 $string['uploadfile'] = 'ファイルをアップロードする';
-$string['uploadfileexistsoverwritecancel'] = 'この名称のファイルがすでに登録されています。あなたがアップロードしようとしているファイルをリネームするか、既存のファイルにオーバーライトすることができます。';
+$string['uploadfileexistsoverwritecancel'] = 'この名称のファイルは、すでに登録されています。あなたがアップロードしようとしているファイルをリネームするか、既存のファイルに上書きすることができます。';
 $string['uploadingfiletofolder'] = '%s を %s へアップロード中';
 $string['uploadoffilecomplete'] = '%s のアップロードが完了しました。';
 $string['uploadoffilefailed'] = '%s のアップロードに失敗しました。';
@@ -105,10 +105,10 @@ $string['application'] = '不明なアプリケーション';
 $string['au'] = 'AUオーディオファイル';
 $string['avi'] = 'AVIビデオファイル';
 $string['bmp'] = 'ビットマップイメージ';
-$string['doc'] = 'MSワードドキュメント';
+$string['doc'] = 'MS Wordドキュメント';
 $string['dss'] = 'デジタル音声標準サウンドファイル';
 $string['gif'] = 'GIFイメージ';
-$string['html'] = 'HTMlファイル';
+$string['html'] = 'HTMLファイル';
 $string['jpg'] = 'JPEGイメージ';
 $string['jpeg'] = 'JPEGイメージ';
 $string['js'] = 'Javaスクリプトファイル';
