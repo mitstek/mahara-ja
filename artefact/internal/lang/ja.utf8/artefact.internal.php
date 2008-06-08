@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-07 03:45:11 UTC
+ * @updated    2008-06-08 05:48:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -34,7 +34,7 @@ $string['myfiles'] = 'マイファイル';
 $string['mandatory'] = '必須';
 $string['public'] = '公開';
 $string['profileiconsize'] = 'アイコンサイズ';
-$string['aboutdescription'] = 'あなたの本名をここに入力してください。システム内の人に異なる名前を表示したい場合、ニックネーム欄に別名を入力してください。';
+$string['aboutdescription'] = 'あなたの本名をここに入力してください。システム内のユーザに異なる名前を表示したい場合、ニックネーム欄に別名を入力してください。';
 $string['contactdescription'] = 'あなたがビューに置かない限り、すべての情報は非公開となります。';
 $string['messagingdescription'] = 'あなたの連絡先と同じく、この情報は非公開です。';
 $string['viewmyprofile'] = '私のプロファイルを表示する';
@@ -84,7 +84,7 @@ Mahara内のあなたのユーザアカウントにメールアドレス「 %s �
 $string['validationemailwillbesent'] = 'あなたのプロファイル保存後、確認メールが送信されます。';
 $string['emailactivation'] = 'メール有効化';
 $string['emailactivationsucceeded'] = 'メールが正常に有効化されました。';
-$string['emailactivationfailed'] = 'メールの有効化に失敗しました。';
+$string['emailactivationfailed'] = 'メール有効化に失敗しました。';
 $string['unvalidatedemailalreadytaken'] = 'あなたが確認しようとしているメールアドレスは、すでに登録されています。';
 $string['emailingfailed'] = 'プロファイルが保存されましたが、次のメールアドレスにメール送信されませんでした: %s';
 $string['loseyourchanges'] = '変更が取り消されてもよろしいですか?';
@@ -101,11 +101,11 @@ $string['profileiconsdeletedsuccessfully'] = 'プロファイルアイコンが�
 $string['profileiconsnoneselected'] = '削除するためのプロファイルアイコンが選択されていません。';
 $string['onlyfiveprofileicons'] = 'あなたは5つのファイルのみアップロードできます。';
 $string['or'] = 'または';
-$string['profileiconuploadexceedsquota'] = 'このプロファイルアイコンのアップロードで、あなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
-$string['profileiconimagetoobig'] = 'あなたがアップロードしたイメージは、大き過ぎます(%sx%s pixels)。%sx%s ピクセル以下のサイズにしてください。';
+$string['profileiconuploadexceedsquota'] = 'このプロファイルアイコンをアップロードすることで、あなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
+$string['profileiconimagetoobig'] = 'あなたがアップロードしたイメージは、大き過ぎます(%sx%s ピクセル)。%sx%s ピクセル以下のサイズにしてください。';
 $string['uploadingfile'] = 'ファイルのアップロード中 ...';
 $string['uploadprofileicon'] = 'プロファイルアイコンをアップロードする';
-$string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイルアイコンをアップロードすることができます。アイコンのアップロード後、あなたのデフォルトアイコンとして表示するアイコンを1つ選択してください。 16x16 から　%sx%s ピクセルの間であなたのアイコンを作成してください。';
+$string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイルアイコンをアップロードすることができます。アイコンのアップロード後、あなたのデフォルトアイコンとして表示するアイコンを1つ選択してください。16x16 から　%sx%s ピクセルの間であなたのアイコンを作成してください。';
 $string['setdefault'] = 'デフォルトに設定する';
 $string['Title'] = 'タイトル';
 $string['imagetitle'] = 'イメージタイトル';
