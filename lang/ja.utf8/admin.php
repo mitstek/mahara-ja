@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-07 03:50:56 UTC
+ * @updated    2008-06-08 06:42:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -136,7 +136,7 @@ $string['savechanges'] = '変更を保存する';
 $string['savefailed'] = '保存に失敗しました。';
 $string['sitepageloaded'] = 'サイトページがロードされました。';
 $string['termsandconditions'] = '使用条件';
-$string['uploadcopyright'] = '著作権宣言文のアップロード';
+$string['uploadcopyright'] = 'アップロード著作権宣言文';
 $string['adminfile'] = '管理ファイル';
 $string['adminpublicdirname'] = '公開';
 $string['adminpublicdirdescription'] = 'ログアウトしたユーザからアクセス可能なファイルです。';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-07 03:54:25 UTC
+ * @updated    2008-06-08 08:51:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -225,6 +225,7 @@ $string['sessiontimedoutreload'] = 'あなたのセッションはタイムア�
 $string['username'] = 'ユーザ名';
 $string['preferredname'] = 'ニックネーム';
 $string['usernamehelp'] = 'このシステムにアクセスするため、あなたに与えられたユーザ名です。';
+$string['youaremasqueradingas'] = 'あなたは %s としてログインしています。';
 $string['yournewpassword'] = 'あなたの新しいパスワード';
 $string['yournewpasswordagain'] = 'あなたの新しいパスワードをもう一度';
 $string['invalidsesskey'] = '無効なセッションキー';
@@ -406,6 +407,7 @@ $string['profileimage'] = 'プロファイルイメージ';
 $string['primaryemailinvalid'] = 'あなたの主メールアドレスが有効ではありません。';
 $string['addemail'] = 'メールアドレスを追加する';
 $string['search'] = '検索';
+$string['searchusers'] = 'ユーザを検索する';
 $string['Query'] = 'クエリ';
 $string['query'] = 'クエリ';
 $string['querydescription'] = '検索語';
