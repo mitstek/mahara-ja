@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-08 06:42:57 UTC
+ * @updated    2008-06-09 03:19:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -278,6 +278,7 @@ $string['becomeadminagain'] = 'もう一度 %s になる';
 $string['loginasdenied'] = 'パーミッションなしで他のユーザとしてログインを試みました。';
 $string['loginastwice'] = 'すでにログインしているのにかかわらず、他のユーザとしてのログインを試みました。';
 $string['loginasrestorenodata'] = 'リストアするユーザデータがありません。';
+$string['loginasoverridepasswordchange'] = '現在、他のユーザとしてログインを試みています。あなたは、パスワードの変更画面を無視して、%sとにかくログインする%sこともできます。';
 $string['admininstitutions'] = 'インスティテューションの管理';
 $string['adminauthorities'] = '認証局の管理';
 $string['addinstitution'] = 'インスティテューションを追加する';
