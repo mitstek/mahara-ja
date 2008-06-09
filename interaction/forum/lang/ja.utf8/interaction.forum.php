@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-07 03:48:45 UTC
+ * @updated    2008-06-09 17:27:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -36,7 +36,7 @@ $string['Body'] = '本文';
 $string['cantaddposttoforum'] = 'あなたは、このフォーラムに投稿できません。';
 $string['cantaddposttotopic'] = 'あなたは、このトピックに投稿できません。';
 $string['cantaddtopic'] = 'あなたは、このフォーラムにトピックを追加できません。';
-$string['cantdeletepost'] = 'あなたは、このフォーラムのトピックを削除できません。';
+$string['cantdeletepost'] = 'あなたは、このフォーラムの投稿を削除できません。';
 $string['cantdeletethispost'] = 'あなたは、この投稿を削除できません。';
 $string['cantdeletetopic'] = 'あなたは、このフォーラムのトピックを削除できません。';
 $string['canteditpost'] = 'あなたは、この投稿を編集できません。';
@@ -46,8 +46,8 @@ $string['cantfindpost'] = 'ID %s の投稿が見つかりませんでした。';
 $string['cantfindtopic'] = 'ID %s のトピックが見つかりませんでした。';
 $string['cantviewforums'] = 'あなたは、このグループのフォーラムを閲覧できません。';
 $string['cantviewtopic'] = 'あなたは、このフォーラムのトピックを閲覧できません。';
-$string['chooseanaction'] = '処理を選択 ...';
-$string['clicksetsubject'] = '件名入力は、ここをクリックしてください。';
+$string['chooseanaction'] = '処理を選択する ...';
+$string['clicksetsubject'] = '件名を入力するには、ここをクリックしてください。';
 $string['Closed'] = 'クローズド';
 $string['Close'] = 'クローズ';
 $string['closeddescription'] = 'クローズドトピックでは、モデレータおよびグループオーナーのみ返信することができます。';
