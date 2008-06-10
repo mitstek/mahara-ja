@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-07 03:50:30 UTC
+ * @updated    2008-06-10 02:33:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -41,7 +41,7 @@ $string['typeadminmessages'] = '管理メッセージ';
 $string['typeinstitutionmessage'] = 'インスティテューションメッセージ';
 $string['type'] = '活動タイプ';
 $string['attime'] = '-';
-$string['prefsdescr'] = 'あなたがメールオプションのどちらかを選択しても、通知は活動ログに登録されます。しかし、活動ログに登録された通知は、自動的に既読にされます。';
+$string['prefsdescr'] = 'あなたがメールオプションのどちらを選択しても、通知は活動ログに記録されます。また、活動ログに記録された通知は、自動的に既読にされます。';
 $string['subject'] = '件名';
 $string['date'] = '日時';
 $string['read'] = '既読';
@@ -70,22 +70,22 @@ $string['newcontactusfrom'] = '新しいお問い合わせ:';
 $string['newcontactus'] = '新しいお問い合わせ';
 $string['newfeedbackonview'] = 'ビューの新しいフィードバック';
 $string['newfeedbackonartefact'] = 'アーティファクトの新しいフィードバック';
-$string['newviewaccessmessage'] = 'あなたは、ビュー「 %s 」のアクセスリストに %s から追加されました。';
+$string['newviewaccessmessage'] = 'あなたは、ビュー「 %s 」のアクセスリストに %s によって追加されました。';
 $string['newviewaccesssubject'] = '新しいビューアクセス';
 $string['viewmodified'] = 'がビューを変更しました。';
 $string['ongroup'] = 'グループ:';
 $string['ownedby'] = 'オーナー:';
-$string['objectionablecontentview'] = '好ましくないコンテンツ';
-$string['objectionablecontentartefact'] = '好ましくないコンテンツ';
+$string['objectionablecontentview'] = '好ましくないコンテンツ - ビュー: %s / 報告者: %s';
+$string['objectionablecontentartefact'] = '好ましくないコンテンツ - アーティファクト: %s / 報告者: %s';
 $string['newgroupmembersubj'] = '%s さんがグループメンバーになりました!';
 $string['removedgroupmembersubj'] = 'もう %s さんはグループメンバーではありません。';
 $string['addtowatchlist'] = 'ウォッチリストに追加する';
 $string['removefromwatchlist'] = 'ウォッチリストから削除する';
 $string['missingparam'] = '次の活動タイプに関する必要なパラメータ %s が空です: %s';
 $string['institutionrequestsubject'] = '%s が %s のメンバーシップをリクエストしました。';
-$string['institutionrequestmessage'] = 'あなたはインスティテューションメンバーページでインスティテューションにユーザを追加できます:';
+$string['institutionrequestmessage'] = 'あなたはインスティテューションメンバーページで、インスティテューションにユーザを追加することができます:';
 $string['institutioninvitesubject'] = 'あなたはインスティテューション %s への参加を招待されました。';
-$string['institutioninvitemessage'] = 'あなたは、インスティテューション設定ページで、このインスティテューションのメンバーシップを承認することができます。';
+$string['institutioninvitemessage'] = 'あなたは、インスティテューション設定ページで、このインスティテューションのメンバーシップを承認することができます:';
 $string['onview'] = 'ビュー:'; // TBD
 $string['onartefact'] = 'アーティファクト:'; // TBD
 

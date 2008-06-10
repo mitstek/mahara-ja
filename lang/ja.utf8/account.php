@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-07 03:50:09 UTC
+ * @updated    2008-06-10 02:27:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,7 +29,7 @@
 defined('INTERNAL') || die();
 
 $string['changepassworddesc'] = 'あなたのパスワードを変更したい場合、ここで詳細を入力してください。';
-$string['changepasswordotherinterface'] = 'あなたは、異なるインターフェースで<a href=\"%s\">パスワードを変更</a>することができます。';
+$string['changepasswordotherinterface'] = 'あなたは、異なるインターフェースで<a href=\"%s\">パスワードを変更する</a>ことができます。';
 $string['oldpasswordincorrect'] = 'これは、あなたの現在のパスワードではありません。';
 $string['accountoptionsdesc'] = 'あなたは、ここで一般アカウントオプションを設定することができます。';
 $string['friendsnobody'] = 'だれも私をフレンドとして追加できません。';
@@ -45,7 +45,7 @@ $string['messagesnobody'] = 'だれも私にメッセージを送信できませ
 $string['messagesfriends'] = 'マイフレンドリストに登録したユーザは、私にメッセージを送信できます。';
 $string['messagesallow'] = 'だれでも私にメッセージを送信できます。';
 $string['language'] = '言語';
-$string['showviewcolumns'] = 'ビューの編集時、コントロールにカラムの「追加」および「削除」ボタンを表示する';
+$string['showviewcolumns'] = 'ビューの編集時、カラムの「追加」および「削除」ボタンを表示する';
 $string['prefssaved'] = 'プリファレンスが保存されました。';
 $string['prefsnotsaved'] = 'あなたのプリファレンスの保存に失敗しました!';
 
