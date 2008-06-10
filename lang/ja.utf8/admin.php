@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-09 03:19:41 UTC
+ * @updated    2008-06-10 18:05:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -47,13 +47,13 @@ $string['performinginstallsandupgrades'] = 'インストールおよびアップ
 $string['runupgrade'] = 'アップグレードを実行する';
 $string['successfullyinstalled'] = 'Maharaが正常にインストールされました!';
 $string['thefollowingupgradesareready'] = '下記アップグレードの準備ができました:';
-$string['upgradeloading'] = 'ローディング...';
+$string['upgradeloading'] = 'ローディング ...';
 $string['upgrades'] = 'アップグレード';
 $string['upgradesuccess'] = 'アップグレードが正常に完了しました。';
 $string['upgradesuccesstoversion'] = '次のバージョンへ正常にアップグレードしました:';
 $string['upgradefailure'] = 'アップグレードに失敗しました!';
 $string['noupgrades'] = 'アップグレードはありません! あなたは最新版を使用しています!';
-$string['youcanupgrade'] = 'あなたは、Maharaを %s (%s) から %s (%s) へアップグレードできます!';
+$string['youcanupgrade'] = 'あなたは、Maharaを %s (%s) から %s (%s) へアップグレードすることができます!';
 $string['Plugin'] = 'プラグイン';
 $string['adminhome'] = '管理ホーム';
 $string['configsite'] = 'サイト設定';
@@ -67,7 +67,7 @@ $string['editsitepagesdescription'] = 'サイトのページコンテンツを�
 $string['linksandresourcesmenu'] = 'リンクおよびリソースメニュー';
 $string['linksandresourcesmenudescription'] = 'リンクおよびリソースメニューのリンクおよびファイルを管理します。';
 $string['adminfiles'] = '管理ファイル';
-$string['adminfilesdescription'] = 'メニューに配置できるファイルをアップロードおよび管理します。';
+$string['adminfilesdescription'] = 'リンクおよびリソースメニューに配置できるファイルをアップロードおよび管理します。';
 $string['networking'] = 'ネットワーキング';
 $string['networkingdescription'] = 'Maharaのネットワーキングを設定します。';
 $string['staffusers'] = 'スタッフユーザ';
@@ -84,7 +84,7 @@ $string['uploadcsv'] = 'CSVでユーザを追加する';
 $string['uploadcsvdescription'] = '新しいユーザを含んだCSVファイルをアップロードします。';
 $string['usersearch'] = 'ユーザ検索';
 $string['usersearchdescription'] = 'すべてのユーザを検索して、検索されたユーザに対して管理行為を実施します。';
-$string['usersearchinstructions'] = 'ユーザの姓名のイニシャルをクリックするか、検索ボックスに名前を入力することにより、あなたはユーザを検索することができます。あなたがメールアドレスを検索したい場合、検索ボックスにメールアドレスを入力することもできます。';
+$string['usersearchinstructions'] = 'あなたは、ユーザの姓名のイニシャルをクリックするか、検索ボックスに名前を入力することにより、ユーザを検索することができます。あなたがメールアドレスを検索したい場合、検索ボックスにメールアドレスを入力することもできます。';
 $string['institutionmembersdescription'] = 'ユーザとインスティテューションを関連付けます。';
 $string['institutionstaffdescription'] = 'スタッフのパーミッションをユーザに割り当てます。';
 $string['institutionadminsdescription'] = 'インスティテューション管理者アクセス権を割り当てます。';
@@ -111,7 +111,7 @@ $string['setsiteoptionsfailed'] = '%s オプションの設定に失敗しまし
 $string['sitedefault'] = 'サイトデフォルト';
 $string['sitelanguagedescription'] = 'サイトのデフォルト言語';
 $string['sitename'] = 'サイト名';
-$string['sitenamedescription'] = 'サイト名はサイトおよびサイトから送信されるメールの特定の場所に表示されます。';
+$string['sitenamedescription'] = 'サイト名は、サイトおよびサイトから送信されるメールに表示されます。';
 $string['siteoptionspagedescription'] = 'ここでは、サイト全体にデフォルトとして適用されるグローバルオプションを設定することができます。';
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['sitethemedescription'] = 'サイトのデフォルトテーマ';
@@ -183,12 +183,12 @@ $string['emailusersaboutnewaccountdescription'] = '新しいアカウント詳�
 $string['forceuserstochangepassword'] = 'パスワード変更を強制しますか?';
 $string['forceuserstochangepassworddescription'] = '初回ログイン時、ユーザにパスワードの変更を強制するかどうか設定します。';
 $string['uploadcsvinstitution'] = '新しいユーザのインスティテューションおよび認証方法';
-$string['uploadcsvconfigureauthplugin'] = 'CSVファイルでユーザを追加する前に、認証プラグインを設定してください。';
+$string['uploadcsvconfigureauthplugin'] = 'あなたがCSVファイルでユーザを追加する前に、認証プラグインを設定してください。';
 $string['csvfiledescription'] = '追加するユーザを含むファイル';
 $string['uploadcsverrorinvalidfieldname'] = 'フィールド名「 %s 」が無効です。';
 $string['uploadcsverrorrequiredfieldnotspecified'] = '必須フィールド「 %s 」がフォーマット行で指定されていません。';
-$string['uploadcsverrornorecords'] = 'ファイルにレコードが含まれていないようです (ヘッダは問題ありません)。';
-$string['uploadcsverrorunspecifiedproblem'] = '何らかの理由により、あなたのCSVファイルのレコードを追加することができませんでした。あなたのフィルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href=\"https://eduforge.org/tracker/?func=add&group_id=176&atid=739\">バクレポートを作成してください</a> (パスワードは空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
+$string['uploadcsverrornorecords'] = 'ファイルにレコードが含まれていないようです (ヘッダには問題ありません)。';
+$string['uploadcsverrorunspecifiedproblem'] = '何らかの理由により、あなたのCSVファイルのレコードを追加することができませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href=\"https://eduforge.org/tracker/?func=add&group_id=176&atid=739\">バクレポートを作成してください</a> (パスワードは空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
 $string['uploadcsverrorinvalidemail'] = 'あなたのファイルの　%s 行目にエラーがあります: このユーザのメールアドレスが正しい形式ではありません。';
 $string['uploadcsverrorincorrectnumberoffields'] = 'あなたのファイルの　%s 行目にエラーがあります: この行には、正しい数のフィールドが含まれていません。';
 $string['uploadcsverrorinvalidpassword'] = 'あなたのファイルの　%s 行目にエラーがあります: このユーザのパスワードが正しい形式ではありません。';
@@ -196,7 +196,7 @@ $string['uploadcsverrorinvalidusername'] = 'あなたのファイルの　%s 行
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には、必須の「 %s 」フィールドが含まれていません。';
 $string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」は、すでに登録されています。';
 $string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」は、すでに他のユーザに取得されています。';
-$string['uploadcsvpagedescription2'] = '<p>あなたは、この機能により、新しいユーザを<acronym title=\"Comma Separated Values\">CSV</acronym>ファイルを使用してアップロードすることができます。</p>
+$string['uploadcsvpagedescription2'] = '<p>あなたは、この機能により、<acronym title=\"Comma Separated Values\">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
 
 <p>CSVファイルの先頭行は、CSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
@@ -204,24 +204,24 @@ $string['uploadcsvpagedescription2'] = '<p>あなたは、この機能により�
 
 <p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、すべてのユーザに対して必須入力にしたフィールドも含んでください。インスティテューションにアップロードするユーザすべてのフィールドは、必須入力およびロックフィールドにすることができます。すべてのインスティテューションの<a href=\"%s\">フィールドを必須入力フィールドにする</a>、または<a href=\"%s\">ロックフィールドにすることができます</a>。</p>
 
-<p>必要に応じて、あなたのCSVファイルには、他のプロファイルフィールドを含むことができます。フィールドの完全な一覧は以下の通りです:</p>
+<p>必要に応じて、あなたのCSVファイルには、他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
 
 %s';
-$string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたは、この機能により、新しいユーザを<acronym title=\"Comma Separated Values\">CSV</acronym>ファイルを使用してアップロードすることができます。</p>
+$string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたは、この機能により、<acronym title=\"Comma Separated Values\">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
 
-<p>CSVファイルの先頭行は、CSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
+<p>CSVファイルの先頭行には、CSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
 <pre>username,password,email,firstname,lastname,studentid</pre>
 
 <p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、サイト管理者が必須入力にしたフィールド、あなたがインスティテューションでロックフィールドにしたフィールドも含んでください。あなたが管理するインスティテューションの<a href=\"%s\">ロックフィールドを設定</a>することができます。</p>
 
-<p>必要に応じて、あなたのCSVファイルには、他のプロファイルフィールドを含むことができます。フィールドの完全な一覧は以下の通りです:</p>
+<p>必要に応じて、あなたのCSVファイルには、他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
 
 %s';
 $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効でないか、Maharaが動作しているサーバがメールを送信するよう設定されていません。サーバエラーログには、さらに詳細が記録されています。現在のところ、これらのユーザに手動でコンタクトしてください:';
 $string['uploadcsvusersaddedsuccessfully'] = 'ファイル内のユーザが正常に追加されました。';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイルのユーザが多過ぎるため、ユーザは追加されませんでした。インスティテューションのユーザ数が許可された最大ユーザ数を超えました。';
-$string['adminuserspagedescription'] = '<p>あなたは、どのユーザがサイトを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。</p><p>システムには、少なくとも1名のユーザを登録する必要があります。</p>';
+$string['adminuserspagedescription'] = '<p>あなたは、どのユーザがサイトを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。</p><p>システムには、少なくとも1名の管理者を登録する必要があります。</p>';
 $string['institutionadminuserspagedescription'] = 'あなたは、どのユーザがインスティテューションを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。';
 $string['potentialadmins'] = '潜在的な管理者';
 $string['currentadmins'] = '現在の管理者';
@@ -245,14 +245,14 @@ $string['unsuspendusers'] = 'ユーザの利用停止を解除する';
 $string['usersdeletedsuccessfully'] = 'ユーザが正常に削除されました。';
 $string['usersunsuspendedsuccessfully'] = 'ユーザの利用停止が正常に解除されました。';
 $string['suspendingadmin'] = '利用停止にした管理者';
-$string['usersuspended'] = 'ユーザが利用停止されました。';
+$string['usersuspended'] = 'ユーザが利用停止にされました。';
 $string['userunsuspended'] = 'ユーザの利用停止が解除されました。';
 $string['accountsettings'] = 'アカウント設定';
 $string['siteaccountsettings'] = 'サイトアカウント設定';
 $string['resetpassword'] = 'パスワードのリセット';
 $string['resetpassworddescription'] = 'ここにテキストを入力した場合、ユーザの現在のパスワードと入れ替えられます。';
-$string['forcepasswordchange'] = '次のログイン時、パスワード変更を強制する';
-$string['forcepasswordchangedescription'] = '次回のログイン時、ユーザはパスワード変更ページへ移動されます。';
+$string['forcepasswordchange'] = '次回ログイン時、パスワード変更を強制する';
+$string['forcepasswordchangedescription'] = '次回ログイン時、ユーザはパスワード変更ページへ移動されます。';
 $string['sitestaff'] = 'サイトスタッフ';
 $string['sitestaffdescription'] = '有効にした場合、ユーザは管理コミュニティの作成、送信されたビューの受信およびリリース、ユーザプロファイルの主要な情報へアクセスすることができます。';
 $string['siteadmins'] = 'サイト管理者';
@@ -264,8 +264,8 @@ $string['suspended'] = '停止中';
 $string['suspendedreason'] = '利用停止の理由';
 $string['suspendedreasondescription'] = 'ユーザの次回ログイン時、表示されるテキストです。';
 $string['unsuspenduser'] = 'ユーザの利用停止を解除する';
-$string['thisuserissuspended'] = 'このユーザは利用停止されました。';
-$string['suspendedby'] = 'このユーザは %s により利用停止されました。';
+$string['thisuserissuspended'] = 'このユーザは利用停止にされました。';
+$string['suspendedby'] = 'このユーザは %s により利用停止にされました。';
 $string['filequota'] = 'ファイル容量制限 (MB)';
 $string['filequotadescription'] = 'ユーザファイルエリアでの利用可能な合計保存領域です。';
 $string['confirmremoveuserfrominstitution'] = 'このインスティテューションから、本当にユーザを削除してもよろしいですか?';
@@ -276,7 +276,7 @@ $string['createuser'] = 'ユーザを作成する';
 $string['loginasuser'] = '%s としてログインする';
 $string['becomeadminagain'] = 'もう一度 %s になる';
 $string['loginasdenied'] = 'パーミッションなしで他のユーザとしてログインを試みました。';
-$string['loginastwice'] = 'すでにログインしているのにかかわらず、他のユーザとしてのログインを試みました。';
+$string['loginastwice'] = 'すでにログインしているにもかかわらず、他のユーザとしてのログインを試みました。';
 $string['loginasrestorenodata'] = 'リストアするユーザデータがありません。';
 $string['loginasoverridepasswordchange'] = '現在、他のユーザとしてログインを試みています。あなたは、パスワードの変更画面を無視して、%sとにかくログインする%sこともできます。';
 $string['admininstitutions'] = 'インスティテューションの管理';
@@ -310,8 +310,8 @@ $string['institutionadministration'] = 'インスティテューション管理'
 $string['institutionmembers'] = 'インスティテューションメンバー';
 $string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
 $string['institutionmemberspagedescription'] = 'このページでは、あなたのインスティテューションにメンバーシップをリクエストしたユーザを閲覧およびメンバーとして登録することができます。また、あなたのインスティテューションからユーザを削除および招待することができます。';
-$string['institutionusersinstructionsrequesters'] = '左側のユーザ一覧には、あなたのインスティテューションに参加をリクエストした、すべてのユーザが表示されます。あなたは、表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザをインスティテューションに追加したい場合、またはユーザのメンバーシップリクエストを拒否したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「メンバーを追加する」ボタンをクリックするで、右側ボックスのすべてのユーザをインスティテューションに追加することができます。「リクエストを拒否する」ボタンをクリックすることで、右側ボックスのユーザのメンバーシップリクエストを拒否することができます。';
-$string['institutionusersinstructionsnonmembers'] = '左側のユーザ一覧には、あなたのインスティテューションのメンバーではない、すべてのユーザが表示されます。あなたは、表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザをインスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックするで、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。';
+$string['institutionusersinstructionsrequesters'] = '左側のユーザ一覧には、あなたのインスティテューションに参加をリクエストした、すべてのユーザが表示されます。あなたは、表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザをインスティテューションに追加したい場合、またはユーザのメンバーシップリクエストを拒否したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「メンバーを追加する」ボタンをクリックすることで、右側ボックスのすべてのユーザをインスティテューションに追加することができます。「リクエストを拒否する」ボタンをクリックすることで、右側ボックスのユーザのメンバーシップリクエストを拒否することができます。';
+$string['institutionusersinstructionsnonmembers'] = '左側のユーザ一覧には、あなたのインスティテューションのメンバーではない、すべてのユーザが表示されます。あなたは、表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザをインスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックすることで、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。';
 $string['institutionusersinstructionsmembers'] = '左側のユーザ一覧には、あなたのインスティテューションのすべてのユーザが表示されます。あなたは、表示されるユーザ数を減らすため、検索ボックスを使用することができます。ユーザをインスティテューションから削除する場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを削除する」ボタンをクリックすることで、右側ボックスのすべてのユーザが削除されます。左側ボックスのユーザは、インスティテューションに参加したままの状態になります。';
 $string['editmembers'] = 'メンバーを編集する';
 $string['editstaff'] = 'スタッフを編集する';
@@ -345,8 +345,8 @@ $string['institutionusersupdated_removeMembers'] = 'ユーザが削除されま�
 $string['institutionusersupdated_inviteUser'] = '招待が送信されました。';
 $string['maxuseraccounts'] = '許可する最大ユーザアカウント数';
 $string['maxuseraccountsdescription'] = 'インスティテューションに関連付けることのできる最大ユーザアカウント数です。制限がない場合、このフィールドは空白にしてください。';
-$string['institutionuserserrortoomanyusers'] = 'ユーザは追加されませんでした。インスティテューションで許可される最大ユーザ数を超えることはできません。インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼することで、あなたはユーザを追加することができます。';
-$string['institutionuserserrortoomanyinvites'] = 'あなたの招待は送信されませんでした。既存のユーザ+招待者数は、インスティテューションで許可される最大ユーザ数を超えることはできません。インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼することで、あなたはユーザを招待することができます。';
+$string['institutionuserserrortoomanyusers'] = 'ユーザは追加されませんでした。インスティテューションで許可される最大ユーザ数を超えることはできません。インスティテューションからユーザを削除するか、サイト管理者に最大ユーザアカウント数の増加を依頼することで、あなたはユーザを追加することができます。';
+$string['institutionuserserrortoomanyinvites'] = 'あなたの招待は送信されませんでした。既存のユーザ + 招待者数は、インスティテューションで許可される最大ユーザアカウント数を超えることはできません。インスティテューションからユーザを削除するか、サイト管理者に最大ユーザアカウント数の増加を依頼することで、あなたはユーザを招待することができます。';
 $string['Members'] = 'メンバー';
 $string['Maximum'] = '最大';
 $string['Staff'] = 'スタッフ';
