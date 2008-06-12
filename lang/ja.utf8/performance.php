@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-07 03:54:54 UTC
+ * @updated    2008-06-12 19:40:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -35,7 +35,7 @@ $string['included'] = 'インクルードファイル';
 $string['dbqueries'] = 'DBクエリ';
 $string['reads'] = 'リード';
 $string['writes'] = 'ライト';
-$string['ticks'] = 'ﾃｨｯｸ';
+$string['ticks'] = 'ティック';
 $string['sys'] = 'sys';
 $string['user'] = 'ユーザ';
 $string['cuser'] = 'cuser';

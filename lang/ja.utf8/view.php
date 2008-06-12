@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-07 03:55:19 UTC
+ * @updated    2008-06-12 19:49:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -56,7 +56,7 @@ $string['submitthisviewto'] = '評価のためビュー';
 $string['forassessment'] = 'を送信する';
 $string['accessfromdate'] = '%s 以前、誰もこのビューを閲覧できません。';
 $string['accessuntildate'] = '%s 以降、誰もこのビューを閲覧できません。';
-$string['accessbetweendates'] = '%s 以前または  %s 以降、誰もこのビューを閲覧できません。';
+$string['accessbetweendates'] = '%s 以前または %s 以降、誰もこのビューを閲覧できません。';
 $string['artefactsinthisview'] = 'このビューのアーティファクト';
 $string['whocanseethisview'] = '誰がこのビューを閲覧できますか';
 $string['view'] = 'ビュー';
@@ -84,16 +84,16 @@ $string['removedfromwatchlist'] = 'このビューがあなたのウォッチリ
 $string['addfeedbackfailed'] = 'フィードバックの追加に失敗しました。';
 $string['addtowatchlist'] = 'ビューをウォッチリストに追加する';
 $string['removefromwatchlist'] = 'ウォッチリストからビューを削除する';
-$string['alreadyinwatchlist'] = 'このビューはすでにあなたのウォッチリストに登録されています。';
-$string['attachedfileaddedtofolder'] = '添付ファイル「 %s 」があなたの「 %s 」フォルダに追加されました。';
+$string['alreadyinwatchlist'] = 'このビューは、すでにあなたのウォッチリストに登録されています。';
+$string['attachedfileaddedtofolder'] = '添付ファイル「 %s 」が、あなたの「 %s 」フォルダに追加されました。';
 $string['attachfile'] = '添付ファイル';
 $string['complaint'] = 'クレーム';
 $string['date'] = '日時';
 $string['feedback'] = 'フィードバック';
 $string['feedbackattachdirname'] = '評価ファイル';
 $string['feedbackattachdirdesc'] = 'ビュー評価に添付されるファイルです。';
-$string['feedbackattachmessage'] = '添付ファイルがあなたの %s フォルダに追加されました。';
-$string['feedbackonthisartefactwillbeprivate'] = 'このアーティファクトのフィードバックは、オナーのみ閲覧することができます。';
+$string['feedbackattachmessage'] = '添付ファイルが、あなたの %s フォルダに追加されました。';
+$string['feedbackonthisartefactwillbeprivate'] = 'このアーティファクトのフィードバックは、オーナーのみ閲覧することができます。';
 $string['feedbackonviewbytutorofgroup'] = '%s のフィードバック 投稿者: %s (%s)';
 $string['feedbacksubmitted'] = 'フィードバックが送信されました。';
 $string['makepublic'] = '公開する';
@@ -119,16 +119,16 @@ $string['cantsubmitviewtogroup'] = 'あなたは、このビューを評価の�
 $string['cantdeleteview'] = 'あなたはこのビューを削除できません。';
 $string['deletespecifiedview'] = 'ビュー「 %s 」を削除する';
 $string['deleteviewconfirm'] = '本当にこのビューを削除してもよろしいですか? 元に戻すことはできません。';
-$string['editaccesspagedescription2'] = '<p>デフォルトでは、あなたのみビューを閲覧することができます。ここでは、あなたのビューの情報を閲覧させたいかユーザを選択することができます。パブリック、ログインユーザ、フレンドにアクセス権を与えるには、「追加」をクリックしてください。個別のユーザまたはグループを検索するには、検索ボックスを使用してください。すべての追加されたユーザまたはグループは、右側のウインドウ枠に表示されます。</p>
+$string['editaccesspagedescription2'] = '<p>デフォルトでは、あなたのみビューを閲覧することができます。ここでは、あなたのビュー情報を閲覧させたいユーザを選択することができます。パブリック、ログインユーザ、フレンドにアクセス権を与えるには、「追加」をクリックしてください。個別のユーザまたはグループを検索するには、検索ボックスを使用してください。すべての追加されたユーザまたはグループは、右側のウィンドウ枠に表示されます。</p>
 <p>追加処理を終えて続けるには、「保存」ボタンをクリックしてください。</p>';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
 $string['overridingstartstopdatesdescription'] = 'あなたは、開始日および終了日をオーバーライドすることができます。アクセス権を与えたとしても、開始日の前および終了日の後には、他のユーザはビューを閲覧することができません。';
 $string['emptylabel'] = 'このラベルのテキストを入力するには、ここをクリックしてください。';
 $string['empty_block'] = 'ここに配置するアーティファクトを左側のツリーより選択してください。';
-$string['viewinformationsaved'] = 'ビューインフォメーションが正常に保存されました。';
+$string['viewinformationsaved'] = 'ビュー情報が正常に保存されました。';
 $string['canteditdontown'] = 'あなたの所有ではないため、このビューを編集できません。';
 $string['canteditdontownfeedback'] = 'あなたの所有ではないため、このフィードバックを編集できません。';
-$string['canteditsubmitted'] = 'グループ「 %s 」による評価に対して送信されたため、あなたはこのビューを編集することはできません。あなたのビューをチューターがリリースするまで、お待ちください。';
+$string['canteditsubmitted'] = 'グループ「 %s 」による評価を目的として送信されたため、あなたはこのビューを編集することはできません。あなたのビューをチューターがリリースするまで、お待ちください。';
 $string['feedbackchangedtoprivate'] = 'フィードバックがプライベートに変更されました。';
 $string['addtutors'] = 'チューターを追加する';
 $string['viewcreatedsuccessfully'] = 'ビューが正常に作成されました。';
@@ -136,7 +136,7 @@ $string['viewaccesseditedsuccessfully'] = 'ビューアクセスが正常に保�
 $string['viewsavedsuccessfully'] = 'ビューが正常に保存されました。';
 $string['invalidcolumn'] = 'カラム %s は範囲外です。';
 $string['confirmcancelcreatingview'] = 'このビューの作成は、完了していません。本当にキャンセルしてもよろしいですか?';
-$string['editblockspagedescription'] = '<p>あなたのビューでどのブロックを表示するか、下記のタブより選択してください。ブロックは、あなたのビューレイアウトにドラッグ&ドロップすることができます。詳細は、ヘルプアイコン (?) をクリックしてください。</p>';
+$string['editblockspagedescription'] = '<p>どのブロックをあなたのビューで表示するか、下記のタブより選択してください。ブロックは、あなたのビューレイアウトにドラッグ&ドロップすることができます。詳細は、ヘルプアイコン (?) をクリックしてください。</p>';
 $string['displaymyview'] = 'マイビューを表示する';
 $string['editthisview'] = 'このビューを編集する';
 $string['success.addblocktype'] = 'ブロックが正常に追加されました。';
@@ -168,7 +168,7 @@ $string['changemyviewlayout'] = 'マイビューのレイアウトを変更す�
 $string['viewcolumnspagedescription'] = '最初に、あなたのビューのカラム数を選択してください。次のステップで、あなたはカラム幅を変更することができます。';
 $string['viewlayoutpagedescription'] = 'あなたのビューカラムをどのように配置するか選択してください。';
 $string['changeviewlayout'] = 'ビューレイアウトを変更する';
-$string['backtoyourview'] = 'あなたのビューに戻る';
+$string['backtoyourview'] = 'マイビューに戻る';
 $string['viewlayoutchanged'] = 'ビューレイアウトが変更されました。';
 $string['numberofcolumns'] = 'カラム数';
 $string['by'] = 'by';
