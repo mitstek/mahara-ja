@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-08 08:51:26 UTC
+ * @updated    2008-06-13 16:41:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -97,7 +97,7 @@ $string['accountcreatedtext'] = '%s さん
 ユーザ名: %s
 パスワード: %s
 
-スタートするには、サイトを訪問してください
+利用開始するには、サイトを訪問してください!
 
 %s サイト管理者';
 $string['accountcreatedchangepasswordtext'] = '%s さん
@@ -109,7 +109,7 @@ $string['accountcreatedchangepasswordtext'] = '%s さん
 
 初回ログイン時、あなたはパスワード変更を求められます。
 
-スタートするには、サイトを訪問してください!
+利用開始するには、サイトを訪問してください!
 
 %s サイト管理者';
 $string['accountcreatedhtml'] = '<p>%s さん</p>
@@ -121,7 +121,7 @@ $string['accountcreatedhtml'] = '<p>%s さん</p>
 <li><strong>パスワード:</strong> %s</li>
 </ul>
 
-<p>スタートするには、<a href=\"\"></a>を訪問してください!</p>
+<p>利用開始するには、<a href=\"\"></a>を訪問してください!</p>
 
 <p>%s サイト管理者</p>';
 $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
@@ -135,7 +135,7 @@ $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 
 <p>初回ログイン時、あなたはパスワード変更を求められます。</p>
 
-<p>スタートするには、<a href=\"\"></a>を訪問してください!</p>
+<p>利用開始するには、<a href=\"\"></a>を訪問してください!</p>
 
 <p>%s サイト管理者</p>';
 $string['accountexpirywarning'] = 'アカウント終了通知';
@@ -207,14 +207,14 @@ $string['cookiesnotenabled'] = 'あなたのブラウザでは、クッキーが
 $string['institution'] = 'インスティテューション';
 $string['loggedoutok'] = 'あなたは正常にログアウトしました。';
 $string['login'] = 'ログイン';
-$string['loginfailed'] = 'あなたには、正しいログイン情報が提供されていないようです。あなたのユーザ名およびパスワードが正しいかご確認ください。';
+$string['loginfailed'] = 'あなたは、正しいログイン情報を提供していないようです。あなたのユーザ名およびパスワードが正しいかご確認ください。';
 $string['loginto'] = '%s にログインする';
 $string['newpassword'] = '新しいパスワード';
 $string['nosessionreload'] = 'ログインするには、ページをリロードしてください。';
 $string['oldpassword'] = '現在のパスワード';
 $string['password'] = 'パスワード';
-$string['passwordhelp'] = 'あなたがシステムに使用するパスワードです。';
-$string['passwordnotchanged'] = 'あなたはパスワードを変更していません。新しいパスワードを入力してください。';
+$string['passwordhelp'] = 'あなたがシステムへのアクセスに使用するパスワードです。';
+$string['passwordnotchanged'] = 'あなたは、パスワードを変更していません。新しいパスワードを入力してください。';
 $string['passwordsaved'] = 'あなたの新しいパスワードが保存されました。';
 $string['passwordsdonotmatch'] = 'パスワードが合致しません。';
 $string['passwordtooeasy'] = 'あなたのパスワードは簡単すぎます! 難しいパスワードを入力してください。';
@@ -249,7 +249,7 @@ $string['registeringdisallowed'] = '申し訳ございません、現在、あ�
 $string['membershipexpiry'] = 'メンバーシップ有効期限切れ';
 $string['institutionfull'] = 'あなたが選択したインスティテューションは、これ以上の登録を受け付けていません。';
 $string['registrationnotallowed'] = 'あなたが選択したインスティテューションは、自己登録を許可していません。';
-$string['registrationcomplete'] = '%s への登録ありがとうございます。';
+$string['registrationcomplete'] = '%s へのご登録ありがとうございます。';
 $string['language'] = '言語';
 $string['cantchangepassword'] = '申し訳ございません、このインターフェース経由でパスワードを変更することはできません - 代わりにインスティテューションインターフェースを使用してください。';
 $string['forgotpassword'] = 'パスワードを忘れましたか?';
@@ -261,7 +261,7 @@ $string['forgotpassemailmessagetext'] = '%s さん
 
 あなたの %s アカウントに関するパスワードリセットのリクエストを受け付けました。
 
-パスワードのリセット処理を続けるには、下記リンクをクリックしてください。
+パスワードリセット処理を続けるには、下記リンクをクリックしてください。
 
 forgotpass.php?key=%s
 
@@ -278,7 +278,7 @@ $string['forgotpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたの %s アカウントに関するパスワードリセットのリクエストを受け付けました。</p>
 
-<p>パスワードのリセット処理を続けるには、下記リンクをクリックしてください。</p>
+<p>パスワードリセット処理を続けるには、下記リンクをクリックしてください。</p>
 
 <p><a href=\"forgotpass.php?key=%s\">forgotpass.php?key=%s</a></p>
 
@@ -290,7 +290,7 @@ $string['forgotpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p><a href=\"forgotpass.php?key=%s\">forgotpass.php?key=%s</a></p>';
 $string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは、私たちに責任があります。もう一度お試しください。';
-$string['forgotpassnosuchemailaddress'] = 'あなたが入力したメールアドレスは、このサイトにユーザに合致しません。';
+$string['forgotpassnosuchemailaddress'] = 'あなたが入力したメールアドレスは、このサイトのユーザに合致しません。';
 $string['forgotpasswordenternew'] = '続けるには、あなたの新しいパスワードを入力してください。';
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';
 $string['passwordchangedok'] = 'あなたのパスワードが正常に変更されました。';
@@ -298,9 +298,9 @@ $string['noinstitutionsetpassemailsubject'] = '%s: %s のメンバーシップ';
 $string['noinstitutionsetpassemailmessagetext'] = '%s さん
 
 あなたは %s のメンバーではなくなりました。 
-あなたは続けて %s を現在のユーザ名 %s で使用することができますが、アカウントに新しいパスワードを設定する必要があります。
+続けて %s を現在のユーザ名 %s で使用することができますが、アカウントに新しいパスワードを設定する必要があります。
 
-パスワードのリセット処理を続けるには、下記リンクをクリックしてください。
+パスワードリセット処理を続けるには、下記リンクをクリックしてください。
 
 forgotpass.php?key=%s
 
@@ -314,9 +314,9 @@ forgotpass.php?key=%s';
 $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたは %s のメンバーではなくなりました。</p> 
-<p>あなたは続けて %s を現在のユーザ名 %s で使用することができますが、アカウントに新しいパスワードを設定する必要があります。</p>
+<p>続けて %s を現在のユーザ名 %s で使用することができますが、アカウントに新しいパスワードを設定する必要があります。</p>
 
-<p>パスワードのリセット処理を続けるには、下記リンクをクリックしてください。</p>
+<p>パスワードリセット処理を続けるには、下記リンクをクリックしてください。</p>
 
 <p><a href=\"forgotpass.php?key=%s\">forgotpass.php?key=%s</a></p>
 
@@ -388,7 +388,7 @@ $string['config'] = '設定';
 $string['sendmessage'] = 'メッセージを送信する';
 $string['notinstallable'] = 'インストールできません!';
 $string['installedplugins'] = 'インストール済みプラグイン';
-$string['notinstalledplugins'] = 'インストール未了プラグイン';
+$string['notinstalledplugins'] = '未インストールプラグイン';
 $string['plugintype'] = 'プラグインタイプ';
 $string['settingssaved'] = '設定が保存されました。';
 $string['settingssavefailed'] = '設定の保存に失敗しました。';
@@ -402,7 +402,7 @@ $string['collapse'] = '折りたたむ';
 $string['more...'] = 'さらに ...';
 $string['nohelpfound'] = 'このアイテムのヘルプファイルはありません。';
 $string['nohelpfoundpage'] = 'このページのヘルプファイルはありません。';
-$string['couldnotgethelp'] = 'ヘルプページの検索にエラーが発生しました。';
+$string['couldnotgethelp'] = 'ヘルプページの検索中にエラーが発生しました。';
 $string['profileimage'] = 'プロファイルイメージ';
 $string['primaryemailinvalid'] = 'あなたの主メールアドレスが有効ではありません。';
 $string['addemail'] = 'メールアドレスを追加する';
@@ -432,11 +432,11 @@ $string['clamlost'] = 'Clam AVがファイルのアップロード時に動作�
 $string['clamfailed'] = 'Clam AVの動作にエラーが発生しました。エラーメッセージは、%s です。Clam AVのアウトプットは次のとおりです:';
 $string['clamunknownerror'] = 'clamに不明なエラーが発生しました。';
 $string['image'] = 'イメージ';
-$string['filenotimage'] = 'あなたがアップロードしたイメージは、有効ではありません。PNG、JPEGまたはGIFファイルをアップロードしてください。';
+$string['filenotimage'] = 'あなたがアップロードしたファイルジは、有効なイメージではありません。PNG、JPEGまたはGIFファイルをアップロードしてください。';
 $string['uploadedfiletoobig'] = 'ファイルが大き過ぎます。詳細は、あなたの管理者にお尋ねください。';
 $string['notphpuploadedfile'] = 'アップロード処理中にファイルを喪失しました。これは通常起きることではありません。詳細は、あなたの管理者にお尋ねください。';
 $string['virusfounduser'] = 'あなたがアップロードした %s にウイルスの感染が発見されました! あなたのファイルは正常にアップロードされませんでした。';
-$string['fileunknowntype'] = 'あなたがアップロードしたファイルのタイプが決定していません。あなたのファイルが破損したか、設定に問題があります。あなたの管理者にご連絡ください。';
+$string['fileunknowntype'] = 'あなたがアップロードしたファイルのタイプを判定できませんでした。あなたのファイルが破損したか、設定に問題があります。あなたの管理者にご連絡ください。';
 $string['filetypenotallowed'] = 'あなたは、このタイプのファイルのアップロードを許可されていません。詳細は、あなたの管理者にお尋ねください。';
 $string['virusrepeatsubject'] = '警告: %s はウイルスの繰り返しアップロード者です。';
 $string['virusrepeatmessage'] = 'ユーザ %s がアップロードした複数のファイルにウイルスが感染しています。';
