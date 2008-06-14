@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-10 18:05:09 UTC
+ * @updated    2008-06-14 10:33:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -266,7 +266,7 @@ $string['suspendedreasondescription'] = 'ユーザの次回ログイン時、表
 $string['unsuspenduser'] = 'ユーザの利用停止を解除する';
 $string['thisuserissuspended'] = 'このユーザは利用停止にされました。';
 $string['suspendedby'] = 'このユーザは %s により利用停止にされました。';
-$string['filequota'] = 'ファイル容量制限 (MB)';
+$string['filequota'] = 'ファイルクオータ (MB)';
 $string['filequotadescription'] = 'ユーザファイルエリアでの利用可能な合計保存領域です。';
 $string['confirmremoveuserfrominstitution'] = 'このインスティテューションから、本当にユーザを削除してもよろしいですか?';
 $string['adduser'] = 'ユーザを追加する';
@@ -275,10 +275,10 @@ $string['adduserpagedescription'] = '<p>あなたは、ここで新しいユー�
 $string['createuser'] = 'ユーザを作成する';
 $string['loginasuser'] = '%s としてログインする';
 $string['becomeadminagain'] = 'もう一度 %s になる';
-$string['loginasdenied'] = 'パーミッションなしで他のユーザとしてログインを試みました。';
+$string['loginasdenied'] = 'パーミッションなしで、他のユーザとしてログインを試みました。';
 $string['loginastwice'] = 'すでにログインしているにもかかわらず、他のユーザとしてのログインを試みました。';
 $string['loginasrestorenodata'] = 'リストアするユーザデータがありません。';
-$string['loginasoverridepasswordchange'] = '現在、他のユーザとしてログインを試みています。あなたは、パスワードの変更画面を無視して、%sとにかくログインする%sこともできます。';
+$string['loginasoverridepasswordchange'] = '現在、あなたは他のユーザとしてログインを試みています。パスワードの変更画面を無視して、%sとにかくログインする%sこともできます。';
 $string['admininstitutions'] = 'インスティテューションの管理';
 $string['adminauthorities'] = '認証局の管理';
 $string['addinstitution'] = 'インスティテューションを追加する';
