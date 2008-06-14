@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-12 16:19:06 UTC
+ * @updated    2008-06-14 12:34:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -137,10 +137,10 @@ $string['group'] = 'グループ';
 $string['groups'] = 'グループ';
 $string['notamember'] = 'あなたは、このグループのメンバーではありません。';
 $string['reasonoptional'] = '理由 (任意)';
-$string['request'] = 'リクエスト';
+$string['request'] = 'リクエストする';
 $string['friendformaddsuccess'] = '%s があなたのフレンドリストに追加されました。';
 $string['friendformremovesuccess'] = '%s があなたのフレンドリストから削除されました。';
-$string['friendformrequestsuccess'] = 'フレンドシップリクエストを %s に送信する';
+$string['friendformrequestsuccess'] = '%s にフレンドシップリクエストが送信されました。';
 $string['friendformacceptsuccess'] = '承認されたフレンドリクエスト';
 $string['friendformrejectsuccess'] = '拒否されたフレンドリクエスト';
 $string['addtofriendslist'] = 'フレンドリストに追加する';
