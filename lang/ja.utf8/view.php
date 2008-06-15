@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-12 19:49:58 UTC
+ * @updated    2008-06-15 07:05:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -103,9 +103,9 @@ $string['placefeedback'] = 'フィードバックを投稿する';
 $string['print'] = 'プリント';
 $string['thisfeedbackispublic'] = 'このフィードバックは公開されます。';
 $string['thisfeedbackisprivate'] = 'このフィードバックは非公開です。';
-$string['makeprivate'] = 'プライベートに変更する';
+$string['makeprivate'] = '非公開に変更する';
 $string['reportobjectionablematerial'] = '好ましくない内容を報告する';
-$string['reportsent'] = 'あなたのレポートが送信されました。';
+$string['reportsent'] = 'あなたの報告が送信されました。';
 $string['updatewatchlistfailed'] = 'ウォッチリストの更新に失敗しました。';
 $string['watchlistupdated'] = 'あなたのウォッチリストが更新されました。';
 $string['editmyview'] = 'マイビューを編集する';
@@ -115,11 +115,11 @@ $string['profileicon'] = 'プロファイルアイコン';
 $string['allviews'] = 'すべてのビュー';
 $string['submitviewconfirm'] = '評価のため「 %s 」を「 %s 」に送信する場合、チューターがビューを評定するまで、あなたのビューを編集することができません。本当にこのビューを送信してもよろしいですか?';
 $string['submitviewtogroup'] = '評価のため「 %s 」を「 %s 」に送信する';
-$string['cantsubmitviewtogroup'] = 'あなたは、このビューを評価のため、このグループに送信することはできません。';
+$string['cantsubmitviewtogroup'] = 'あなたは、このビューの評価を目的として、このグループに送信することはできません。';
 $string['cantdeleteview'] = 'あなたはこのビューを削除できません。';
 $string['deletespecifiedview'] = 'ビュー「 %s 」を削除する';
 $string['deleteviewconfirm'] = '本当にこのビューを削除してもよろしいですか? 元に戻すことはできません。';
-$string['editaccesspagedescription2'] = '<p>デフォルトでは、あなたのみビューを閲覧することができます。ここでは、あなたのビュー情報を閲覧させたいユーザを選択することができます。パブリック、ログインユーザ、フレンドにアクセス権を与えるには、「追加」をクリックしてください。個別のユーザまたはグループを検索するには、検索ボックスを使用してください。すべての追加されたユーザまたはグループは、右側のウィンドウ枠に表示されます。</p>
+$string['editaccesspagedescription2'] = '<p>デフォルトでは、あなたのみビューを閲覧することができます。ここでは、あなたのビュー情報を閲覧させたいユーザを選択することができます。公開、ログインユーザ、フレンドにアクセス権を与えるには、「追加」をクリックしてください。個別のユーザまたはグループを検索するには、検索ボックスを使用してください。すべての追加されたユーザまたはグループは、右側のウィンドウ枠に表示されます。</p>
 <p>追加処理を終えて続けるには、「保存」ボタンをクリックしてください。</p>';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
 $string['overridingstartstopdatesdescription'] = 'あなたは、開始日および終了日をオーバーライドすることができます。アクセス権を与えたとしても、開始日の前および終了日の後には、他のユーザはビューを閲覧することができません。';
@@ -129,14 +129,14 @@ $string['viewinformationsaved'] = 'ビュー情報が正常に保存されまし
 $string['canteditdontown'] = 'あなたの所有ではないため、このビューを編集できません。';
 $string['canteditdontownfeedback'] = 'あなたの所有ではないため、このフィードバックを編集できません。';
 $string['canteditsubmitted'] = 'グループ「 %s 」による評価を目的として送信されたため、あなたはこのビューを編集することはできません。あなたのビューをチューターがリリースするまで、お待ちください。';
-$string['feedbackchangedtoprivate'] = 'フィードバックがプライベートに変更されました。';
+$string['feedbackchangedtoprivate'] = 'フィードバックが非公開に変更されました。';
 $string['addtutors'] = 'チューターを追加する';
 $string['viewcreatedsuccessfully'] = 'ビューが正常に作成されました。';
 $string['viewaccesseditedsuccessfully'] = 'ビューアクセスが正常に保存されました。';
 $string['viewsavedsuccessfully'] = 'ビューが正常に保存されました。';
 $string['invalidcolumn'] = 'カラム %s は範囲外です。';
 $string['confirmcancelcreatingview'] = 'このビューの作成は、完了していません。本当にキャンセルしてもよろしいですか?';
-$string['editblockspagedescription'] = '<p>どのブロックをあなたのビューで表示するか、下記のタブより選択してください。ブロックは、あなたのビューレイアウトにドラッグ&ドロップすることができます。詳細は、ヘルプアイコン (?) をクリックしてください。</p>';
+$string['editblockspagedescription'] = '<p>どのブロックをあなたのビューで表示するか、下記のタブより選択してください。あなたのビューレイアウトにブロックをドラッグ&ドロップすることができます。詳細は、ヘルプアイコン (?) をクリックしてください。</p>';
 $string['displaymyview'] = 'マイビューを表示する';
 $string['editthisview'] = 'このビューを編集する';
 $string['success.addblocktype'] = 'ブロックが正常に追加されました。';
