@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-07 03:55:40 UTC
+ * @updated    2008-06-17 04:23:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,8 +29,8 @@
 defined('INTERNAL') || die();
 
 $string['emailsubject'] = '%s';
-$string['emailheader'] = 'あなたに %s から通知メールが送信されました。メッセージは次のとおりです:';
-$string['emailfooter'] = 'これは %s から自動的に作成された通知メールです。あなたの通知プリファレンスを更新するには、%s にアクセスしてください。';
+$string['emailheader'] = 'あなたに %s から通知メールが送信されました。メッセージは以下のとおりです:';
+$string['emailfooter'] = 'これは %s から自動的に生成された通知メールです。あなたの通知プリファレンスを更新するには、%s にアクセスしてください。';
 $string['referurl'] = '詳細 %s';
 $string['name'] = 'メール';
 $string['emailbodynoreply'] = 'これは %s で自動的に生成された通知です。このメッセージに返信しないでください。以下、あなたの通知に関するコンテンツです。

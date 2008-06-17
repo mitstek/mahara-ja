@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-07 03:55:57 UTC
+ * @updated    2008-06-17 04:24:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -28,11 +28,11 @@
 
 defined('INTERNAL') || die();
 
-$string['emailsubject'] = '%s のメッセージ: デイリーダイジェスト';
-$string['emailbodynoreply'] = 'これは %s で自動的に生成された通知です。以下、あなたの通知に関するデイリーダイジェストです。
+$string['emailsubject'] = '%s からのメッセージ: デイリーダイジェスト';
+$string['emailbodynoreply'] = 'これは %s から自動的に生成された通知メールです。以下、あなたの通知に関するデイリーダイジェストです。
 
 --------------------------------------------------';
-$string['emailbodyending'] = 'あなたの通知プリファレンスを更新するには: %s';
+$string['emailbodyending'] = 'あなたの通知プリファレンスを更新するには、%s にアクセスしてください。';
 $string['name'] = 'メールダイジェスト';
 
 ?>
