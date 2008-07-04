@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-14 10:33:57 UTC
+ * @updated    2008-07-04 12:13:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -134,7 +134,7 @@ $string['pagetext'] = 'ページテキスト';
 $string['privacy'] = 'プライバシー保護方針';
 $string['savechanges'] = '変更を保存する';
 $string['savefailed'] = '保存に失敗しました。';
-$string['sitepageloaded'] = 'サイトページがロードされました。';
+$string['sitepageloaded'] = 'サイトページが読み込まれました。';
 $string['termsandconditions'] = '使用条件';
 $string['uploadcopyright'] = 'アップロード著作権宣言文';
 $string['adminfile'] = '管理ファイル';
@@ -154,7 +154,7 @@ $string['loggedinmenu'] = 'ログインメニュー';
 $string['loggedoutmenu'] = '公開リンクおよびリソース';
 $string['menuitemdeleted'] = 'メニューアイテムが削除されました。';
 $string['menuitemsaved'] = 'メニューアイテムが保存されました。';
-$string['menuitemsloaded'] = 'メニューアイテムがロードされました。';
+$string['menuitemsloaded'] = 'メニューアイテムが読み込まれました。';
 $string['name'] = '名称';
 $string['noadminfiles'] = '利用可能な管理ファイルはありません。';
 $string['public'] = '公開';

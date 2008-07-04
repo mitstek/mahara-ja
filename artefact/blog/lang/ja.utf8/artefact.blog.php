@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-07 03:42:58 UTC
+ * @updated    2008-07-04 12:11:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -35,7 +35,7 @@ $string['addblog'] = 'ブログを追加する';
 $string['addpost'] = '記事を追加する';
 $string['alignment'] = '配置';
 $string['attach'] = '添付';
-$string['attachedfilelistloaded'] = '添付ファイル一覧がロードされました。';
+$string['attachedfilelistloaded'] = '添付ファイル一覧が読み込まれました。';
 $string['attachedfiles'] = '添付ファイル';
 $string['attachments'] = '添付書類';
 $string['blogdesc'] = '説明';
@@ -84,7 +84,7 @@ $string['myblogs'] = 'マイブログ';
 $string['newattachmentsexceedquota'] = 'この記事にアップロードした新しいファイルの合計サイズが、あなたのクオータを超えました。あなたが追加した添付ファイルを削除することで、記事を保存することができます。';
 $string['newblog'] = '新しいブログ';
 $string['newblogpost'] = '新しいブログ記事';
-$string['nopostsaddone'] = 'まだ記事はありません。%s追加してください%s!';
+$string['nopostsaddone'] = 'まだ記事はありません。%s記事を追加してください%s!';
 $string['noimageshavebeenattachedtothispost'] = 'この記事にイメージは追加されませんでした。イメージを挿入できるようにするには、事前にイメージをアップロードするか添付してください。';
 $string['nofilesattachedtothispost'] = '添付ファイルなし';
 $string['noresults'] = 'ブログ投稿はありません。';
