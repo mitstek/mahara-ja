@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-07-04 12:11:32 UTC
+ * @updated    2008-07-05 08:57:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -74,7 +74,7 @@ $string['draft'] = '下書き';
 $string['edit'] = '編集';
 $string['editblogpost'] = 'ブログ記事を編集する';
 $string['erroraccessingblogfilesfolder'] = 'ブログファイルフォルダへのアクセス中にエラーが発生しました。';
-$string['errorsavingattachments'] = 'ブログ記事の添付ファイルの保存中にエラーが発生しました。';
+$string['errorsavingattachments'] = 'ブログ記事の添付ファイル保存中にエラーが発生しました。';
 $string['horizontalspace'] = '水平方向のスペース';
 $string['insert'] = '挿入';
 $string['insertimage'] = 'イメージを挿入する';
@@ -85,7 +85,7 @@ $string['newattachmentsexceedquota'] = 'この記事にアップロードした�
 $string['newblog'] = '新しいブログ';
 $string['newblogpost'] = '新しいブログ記事';
 $string['nopostsaddone'] = 'まだ記事はありません。%s記事を追加してください%s!';
-$string['noimageshavebeenattachedtothispost'] = 'この記事にイメージは追加されませんでした。イメージを挿入できるようにするには、事前にイメージをアップロードするか添付してください。';
+$string['noimageshavebeenattachedtothispost'] = 'この記事にイメージは追加されませんでした。イメージを挿入できるようにするには、事前にイメージをアップロードするか、添付してください。';
 $string['nofilesattachedtothispost'] = '添付ファイルなし';
 $string['noresults'] = 'ブログ投稿はありません。';
 $string['postbody'] = '本文';
