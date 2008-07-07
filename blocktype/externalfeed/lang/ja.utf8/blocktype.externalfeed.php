@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-09 17:21:35 UTC
+ * @updated    2008-07-07 01:03:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -37,6 +37,6 @@ $string['showfeeditemsinfulldesc'] = 'ここでは、フィードアイテムの
 $string['invalidurl'] = '指定されたURIが無効、またはフィードを構文解析できません。';
 $string['invalidfeed'] = 'フィードが有効ではないようです。レポートされたエラーは次のとおりです: %s';
 $string['lastupdatedon'] = '最終更新日時: %s';
-$string['defaulttitledescription'] = '空白にした場合、フィードのタイトルが使用されます。';
+$string['defaulttitledescription'] = 'ここを空白にした場合、フィードのタイトルが使用されます。';
 
 ?>
