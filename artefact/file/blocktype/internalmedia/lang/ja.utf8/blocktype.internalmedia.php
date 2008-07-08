@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-07 03:44:00 UTC
+ * @updated    2008-07-08 02:22:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -33,6 +33,6 @@ $string['description'] = '埋め込みメディアのファイルを選択して
 $string['media'] = 'メディア';
 $string['flashanimation'] = 'Flashアニメーション';
 $string['typeremoved'] = 'このブロックでは、管理者によって許可されないメディアタイプを示します。';
-$string['configdesc'] = 'ユーザがブロックに埋め込むことのできるファイルタイプを設定してください。アーティファクトプラグインで無効にされているファイルタイプを有効にすることはできませんので注意してください。すでにブロックで使用されているファイルタイプを無効にした場合、そのファイルは表示されなくなります。';
+$string['configdesc'] = 'このブロックにユーザが埋め込むことのできるファイルタイプを設定してください。アーティファクトプラグインで無効にされているファイルタイプを有効にすることはできませんので注意してください。すでにブロックで使用されているファイルタイプを無効にした場合、そのファイルは表示されなくなります。';
 
 ?>
