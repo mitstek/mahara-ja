@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-07 03:44:38 UTC
+ * @updated    2008-07-08 20:29:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -30,7 +30,7 @@ defined('INTERNAL') || die();
 
 $string['title'] = '連絡先';
 $string['description'] = '表示する連絡先を選択してください。';
-$string['dontshowemail'] = 'メールアドレスを表示しない';
+$string['dontshowemail'] = 'メールアドレスを表示しません。';
 $string['fieldstoshow'] = '表示するフィールド';
 
 ?>

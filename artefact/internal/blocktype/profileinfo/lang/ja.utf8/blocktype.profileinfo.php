@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-07 03:44:52 UTC
+ * @updated    2008-07-08 20:33:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -31,10 +31,10 @@ defined('INTERNAL') || die();
 $string['title'] = 'プロファイル情報';
 $string['description'] = '表示するプロファイル情報を選択してください。';
 $string['aboutme'] = '私について';
-$string['fieldstoshow'] = '表示するフレンド';
+$string['fieldstoshow'] = '表示するフィールド';
 $string['introtext'] = '自己紹介テキスト';
-$string['useintroductioninstead'] = '自己紹介フィールドのチェックボックスをチェックして、このフィールドを空白にすることで、代わりにあなたの自己紹介フィールドを使用することができます。';
-$string['dontshowprofileicon'] = 'プロファイルアイコンを表示しない';
-$string['dontshowemail'] = 'メールアドレスを表示しない';
+$string['useintroductioninstead'] = '「表示するフィールド」の「自己紹介」チェックボックスをチェックして、このフィールドを空白にすることで、代わりにあなたの自己紹介フィールドを使用することができます。';
+$string['dontshowprofileicon'] = 'プロファイルアイコンを表示しません。';
+$string['dontshowemail'] = 'メールアドレスを表示しません。';
 
 ?>
