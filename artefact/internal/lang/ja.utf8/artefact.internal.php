@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-08 05:48:23 UTC
+ * @updated    2008-07-11 03:05:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -35,7 +35,7 @@ $string['mandatory'] = '必須';
 $string['public'] = '公開';
 $string['profileiconsize'] = 'アイコンサイズ';
 $string['aboutdescription'] = 'あなたの本名をここに入力してください。システム内のユーザに異なる名前を表示したい場合、ニックネーム欄に別名を入力してください。';
-$string['contactdescription'] = 'あなたがビューに置かない限り、すべての情報は非公開となります。';
+$string['contactdescription'] = 'あなたがビューに置かない限り、この情報はすべて非公開となります。';
 $string['messagingdescription'] = 'あなたの連絡先と同じく、この情報は非公開です。';
 $string['viewmyprofile'] = '私のプロファイルを表示する';
 $string['aboutme'] = '私について';
@@ -98,7 +98,7 @@ $string['uploadedprofileiconsuccessfully'] = '新しいプロファイルアイ�
 $string['profileiconsetdefaultnotvalid'] = 'デフォルトのプロファイルアイコンを設定できません。選択が有効ではありません。';
 $string['profileiconsdefaultsetsuccessfully'] = 'デフォルトのプロファイルアイコンが正常に設定されました。';
 $string['profileiconsdeletedsuccessfully'] = 'プロファイルアイコンが正常に削除されました。';
-$string['profileiconsnoneselected'] = '削除するためのプロファイルアイコンが選択されていません。';
+$string['profileiconsnoneselected'] = '削除するプロファイルアイコンが選択されていません。';
 $string['onlyfiveprofileicons'] = 'あなたは5つのファイルのみアップロードできます。';
 $string['or'] = 'または';
 $string['profileiconuploadexceedsquota'] = 'このプロファイルアイコンをアップロードすることで、あなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
