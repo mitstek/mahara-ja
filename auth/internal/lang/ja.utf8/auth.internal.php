@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-07 03:46:39 UTC
+ * @updated    2008-07-12 04:03:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -34,8 +34,8 @@ $string['description'] = 'Maharaデータベースで認証する';
 $string['completeregistration'] = '登録を完了する';
 $string['emailalreadytaken'] = 'このメールアドレスは、すでに登録されています。';
 $string['iagreetothetermsandconditions'] = '私は使用条件に同意します。';
-$string['passwordformdescription'] = 'あなたのパスワードには、少なくとも6文字必要です。また、1文字の数字および2文字の英字を含む必要があります。';
-$string['passwordinvalidform'] = 'あなたのパスワードには、少なくとも6文字必要です。また、1文字の数字および2文字の英字を含む必要があります。';
+$string['passwordformdescription'] = 'あなたのパスワードには、少なくとも半角6文字必要です。また、1文字の数字および2文字の英字を含む必要があります。';
+$string['passwordinvalidform'] = 'あなたのパスワードには、少なくとも半角6文字必要です。また、1文字の数字および2文字の英字を含む必要があります。';
 $string['registeredemailsubject'] = 'あなたは %s に登録されました。';
 $string['registeredemailmessagetext'] = '%s さん
 
@@ -51,11 +51,11 @@ $string['registeredemailmessagehtml'] = '<p>%s さん</p>
 <pre>--
 %s チーム</pre>';
 $string['registeredok'] = '<p>あなたは、正常にユーザ登録されました。アカウントを有効化するため、あなたのメールアドレス宛に送信されたインストラクションをご覧ください。</p>';
-$string['registrationnosuchkey'] = '申し訳ございません、このキーによるユーザ登録は存在しないようです。恐らく、あなたのユーザ登録完了までに24時間以上経過したと思われます。そうでない場合、私たちに責任があります。';
+$string['registrationnosuchkey'] = '申し訳ございません、このキーによるユーザ登録は存在しないようです。もしかしたら、ユーザ登録完了まで、24時間以上経過しましたか? そうでない場合、私たちに責任があります。';
 $string['registrationunsuccessful'] = '申し訳ございません、あなたのユーザ登録は正常に完了しませんでした。これはあなたではなく、私たちに責任があります。後ほど再度お試しください。';
 $string['usernamealreadytaken'] = '申し訳ございません、このユーザ名はすでに取得されています。';
-$string['usernameinvalidform'] = 'あなたのユーザ名には、英数字、ピリオド、アンダースコアおよび@記号のみ含むことができます。また、ユーザ名の長さは、3文字から30文字にしてください。';
-$string['youmaynotregisterwithouttandc'] = '<a href=\"terms.php\">使用条件</a>に同意しない限り、あなたを登録することはできません。';
+$string['usernameinvalidform'] = 'あなたのユーザ名には、英数字、ピリオド、アンダースコアおよび@記号のみ含むことができます。また、ユーザ名の長さは、半角3文字から30文字にしてください。';
+$string['youmaynotregisterwithouttandc'] = '<a href=\"terms.php\">使用条件</a>に同意しない限り、あなたはユーザ登録されません。';
 $string['youmustagreetothetermsandconditions'] = 'あなたは、<a href=\"terms.php\">使用条件</a>に同意する必要があります。';
 
 ?>
