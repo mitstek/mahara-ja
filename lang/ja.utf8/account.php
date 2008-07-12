@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-10 02:27:12 UTC
+ * @updated    2008-07-12 16:10:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -36,7 +36,7 @@ $string['friendsnobody'] = 'だれも私をフレンドとして追加できま�
 $string['friendsauth'] = '新しいフレンドになるには、私の承認が必要です。';
 $string['friendsauto'] = '新しいフレンドは、自動的に承認されます。';
 $string['friendsdescr'] = 'フレンドコントロール';
-$string['updatedfriendcontrolsetting'] = 'フレンドコントロールを更新しました。';
+$string['updatedfriendcontrolsetting'] = 'フレンドコントロールが更新されました。';
 $string['wysiwygdescr'] = 'HTMLエディタ';
 $string['on'] = 'On';
 $string['off'] = 'Off';

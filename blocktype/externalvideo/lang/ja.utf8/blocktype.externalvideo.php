@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-09 17:22:21 UTC
+ * @updated    2008-07-12 16:04:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -31,7 +31,7 @@ defined('INTERNAL') || die();
 $string['title'] = '外部ビデオ';
 $string['description'] = '埋め込み外部ビデオです。';
 $string['videourl'] = 'ビデオURI';
-$string['videourldescription2'] = 'ビデオが設置されている場所の、埋め込みコードまたはURIをペーストしてください。あなたは次のサイトよりビデオを埋め込むことができます:';
+$string['videourldescription2'] = 'ビデオが設置されている場所の、埋め込みコードまたはURIをペーストしてください。あなたは、次のサイトよりビデオを埋め込むことができます:';
 $string['width'] = '幅';
 $string['height'] = '高さ';
 $string['videourldescription'] = 'ビデオが設置されているページのURIをペーストしてください。'; // TBD

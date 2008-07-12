@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-10 02:33:00 UTC
+ * @updated    2008-07-12 16:13:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -63,7 +63,7 @@ $string['monitored'] = 'モニター';
 $string['stopmonitoringsuccess'] = 'モニタリングを正常に停止しました。';
 $string['stopmonitoringfailed'] = 'モニタリングの停止に失敗しました。';
 $string['newwatchlistmessage'] = 'あなたのウォッチリストの新しい活動';
-$string['newwatchlistmessageview'] = 'がビュー「 %s 」を変更しました。';
+$string['newwatchlistmessageview'] = '%s がビュー「 %s 」を変更しました。';
 $string['newviewsubject'] = '新しいビューが作成されました。';
 $string['newviewmessage'] = '%s が新しいビュー「 %s 」を作成しました。';
 $string['newcontactusfrom'] = '新しいお問い合わせ:';
@@ -84,7 +84,7 @@ $string['removefromwatchlist'] = 'ウォッチリストから削除する';
 $string['missingparam'] = '次の活動タイプに関する必要なパラメータ %s が空です: %s';
 $string['institutionrequestsubject'] = '%s が %s のメンバーシップをリクエストしました。';
 $string['institutionrequestmessage'] = 'あなたはインスティテューションメンバーページで、インスティテューションにユーザを追加することができます:';
-$string['institutioninvitesubject'] = 'あなたはインスティテューション %s への参加を招待されました。';
+$string['institutioninvitesubject'] = 'あなたは、インスティテューション %s への参加を招待されました。';
 $string['institutioninvitemessage'] = 'あなたは、インスティテューション設定ページで、このインスティテューションのメンバーシップを承認することができます:';
 $string['onview'] = 'ビュー:'; // TBD
 $string['onartefact'] = 'アーティファクト:'; // TBD
