@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-07-14 09:50:42 UTC
+ * @updated    2008-07-14 16:31:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -67,7 +67,7 @@ $string['editsitepagesdescription'] = 'サイト内の様々なページコン�
 $string['linksandresourcesmenu'] = 'リンクおよびリソースメニュー';
 $string['linksandresourcesmenudescription'] = 'リンクおよびリソースメニュー内のリンクおよびファイルを管理します。';
 $string['adminfiles'] = '管理ファイル';
-$string['adminfilesdescription'] = 'リンクおよびリソースメニューに配置できるファイルをアップロードおよび管理します。';
+$string['adminfilesdescription'] = 'リンクおよびリソースメニュー内に配置できるファイルをアップロードおよび管理します。';
 $string['networking'] = 'ネットワーキング';
 $string['networkingdescription'] = 'Maharaのネットワーキングを設定します。';
 $string['staffusers'] = 'スタッフユーザ';
@@ -105,7 +105,7 @@ $string['pathtofile'] = 'fileのパス';
 $string['pathtofiledescription'] = '「file」プログラムへのファイルシステムパスです。';
 $string['searchplugin'] = '検索プラグイン';
 $string['searchplugindescription'] = '使用する検索プラグイン';
-$string['sessionlifetime'] = 'セッションのライフタイム';
+$string['sessionlifetime'] = 'セッションライフタイム';
 $string['sessionlifetimedescription'] = '活動していないログインユーザが自動的にログアウトされる時間 (分) です。';
 $string['setsiteoptionsfailed'] = '%s オプションの設定に失敗しました。';
 $string['sitedefault'] = 'サイトデフォルト';
@@ -124,7 +124,7 @@ $string['viruschecking'] = 'ウイルスチェック';
 $string['viruscheckingdescription'] = 'チェックした場合、アップロードファイルに対するClamAVを使用したウイルスチェックが有効にされます。';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
-$string['editsitepagespagedescription'] = 'ここでは、ホームページ (ログインおよびログアウトユーザ別に) およびフッタのページリンク等、サイト内のいくつかのページコンテンツを編集することができます。';
+$string['editsitepagespagedescription'] = 'ここでは、 (ログインおよびログアウトユーザ別に) ホームページおよびフッタのページリンク等、サイト内のいくつかのページコンテンツを編集することができます。';
 $string['home'] = 'ホーム';
 $string['loadsitepagefailed'] = 'サイトページのロードに失敗しました。';
 $string['loggedouthome'] = 'ログアウトホーム';
@@ -145,9 +145,9 @@ $string['confirmdeletemenuitem'] = '本当にこのアイテムを削除して�
 $string['deletingmenuitem'] = 'メニューアイテムの削除中';
 $string['deletefailed'] = 'メニューアイテムの削除に失敗しました。';
 $string['externallink'] = '外部リンク';
-$string['editmenus'] = 'メニューの編集';
+$string['editmenus'] = 'リンクおよびリソースを編集する';
 $string['linkedto'] = 'リンク先';
-$string['linksandresourcesmenupagedescription'] = 'リンクおよびリソースメニューは、ほとんどのページですべてのユーザに表示されます。あなたは他のウェブサイトのリンクおよび%s管理ファイル%sセクションでアップロードしたファイルのリンクを追加することができます。';
+$string['linksandresourcesmenupagedescription'] = 'リンクおよびリソースメニューは、ほとんどのページですべてのユーザに表示されます。あなたは、他のウェブサイトのリンクおよび%s管理ファイル%sセクションでアップロードしたファイルのリンクを追加することができます。';
 $string['loadingmenuitems'] = 'メニューアイテムのロード中';
 $string['loadmenuitemsfailed'] = 'メニューアイテムのロードに失敗しました。';
 $string['loggedinmenu'] = 'ログインメニュー';
@@ -220,7 +220,7 @@ $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたは、こ�
 %s';
 $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効でないか、Maharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログには、さらに詳細が記録されています。現在のところ、これらのユーザに手動でコンタクトしてください:';
 $string['uploadcsvusersaddedsuccessfully'] = 'ファイル内のユーザが正常に追加されました。';
-$string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイルのユーザが多過ぎるため、ユーザは追加されませんでした。インスティテューションのユーザ数が許可された最大ユーザ数を超えました。';
+$string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるため、ユーザは追加されませんでした。許可された最大ユーザ数をインスティテューションのユーザ数が超えました。';
 $string['adminuserspagedescription'] = '<p>あなたは、どのユーザがサイトを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。</p><p>システムには、少なくとも1名の管理者を登録する必要があります。</p>';
 $string['institutionadminuserspagedescription'] = 'あなたは、どのユーザがインスティテューションを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。';
 $string['potentialadmins'] = '潜在的な管理者';
@@ -279,7 +279,7 @@ $string['becomeadminagain'] = 'もう一度 %s になる';
 $string['loginasdenied'] = 'パーミッションなしで、他のユーザとしてログインを試みました。';
 $string['loginastwice'] = 'すでにログインしているにもかかわらず、他のユーザとしてのログインを試みました。';
 $string['loginasrestorenodata'] = 'リストアするユーザデータがありません。';
-$string['loginasoverridepasswordchange'] = '現在、あなたは他のユーザとしてログインを試みています。パスワードの変更画面を無視して、%sとにかくログインする%sこともできます。';
+$string['loginasoverridepasswordchange'] = '現在、あなたは他のユーザとしてログインを試みています。パスワード変更画面を無視して、%sとにかくログインする%sこともできます。';
 $string['admininstitutions'] = 'インスティテューションの管理';
 $string['adminauthorities'] = '認証局の管理';
 $string['addinstitution'] = 'インスティテューションを追加する';
@@ -298,7 +298,7 @@ $string['defaultmembershipperiod'] = 'デフォルトのメンバーシップ期
 $string['defaultmembershipperioddescription'] = 'どのくらいの期間、新しいメンバーはインスティテューションに参加することができますか。';
 $string['authenticatedby'] = '認証方法';
 $string['remoteusername'] = '外部認証のユーザ名';
-$string['remoteusernamedescription'] = 'ユーザが外部データベースにより認証され、あなたが外部データベースの異なるIDとユーザを関連付けたい場合、ここにリモートユーザ名を入力してください。';
+$string['remoteusernamedescription'] = 'ユーザが外部データベースにより認証された後、あなたが外部データベースの異なるIDとユーザを関連付けたい場合、ここにリモートユーザ名を入力してください。';
 $string['institutionsettings'] = 'インスティテューション設定';
 $string['changeinstitution'] = 'インスティテューションを変更する';
 $string['institutionstaff'] = 'インスティテューションスタッフ';
@@ -312,7 +312,7 @@ $string['institutionmembers'] = 'インスティテューションメンバー';
 $string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
 $string['institutionmemberspagedescription'] = 'このページでは、あなたのインスティテューションにメンバーシップをリクエストしたユーザを閲覧およびメンバーとして登録することができます。また、あなたのインスティテューションからユーザを削除および招待することができます。';
 $string['institutionusersinstructionsrequesters'] = '左側のユーザ一覧には、あなたのインスティテューションに参加をリクエストした、すべてのユーザが表示されます。あなたは、表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザをインスティテューションに追加したい場合、またはユーザのメンバーシップリクエストを拒否したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「メンバーを追加する」ボタンをクリックすることで、右側ボックスのすべてのユーザをインスティテューションに追加することができます。「リクエストを拒否する」ボタンをクリックすることで、右側ボックスのユーザのメンバーシップリクエストを拒否することができます。';
-$string['institutionusersinstructionsnonmembers'] = '左側のユーザ一覧には、あなたのインスティテューションのメンバーではない、すべてのユーザが表示されます。あなたは、表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザをインスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックすることで、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。';
+$string['institutionusersinstructionsnonmembers'] = '左側のユーザ一覧には、あなたのインスティテューションのメンバーではない、すべてのユーザが表示されます。あなたは、表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザに対して、インスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックすることで、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。';
 $string['institutionusersinstructionsmembers'] = '左側のユーザ一覧には、あなたのインスティテューションのすべてのユーザが表示されます。あなたは、表示されるユーザ数を減らすため、検索ボックスを使用することができます。ユーザをインスティテューションから削除する場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを削除する」ボタンをクリックすることで、右側ボックスのすべてのユーザが削除されます。左側ボックスのユーザは、インスティテューションに参加したままの状態になります。';
 $string['editmembers'] = 'メンバーを編集する';
 $string['editstaff'] = 'スタッフを編集する';
@@ -346,8 +346,8 @@ $string['institutionusersupdated_removeMembers'] = 'ユーザが削除されま�
 $string['institutionusersupdated_inviteUser'] = '招待が送信されました。';
 $string['maxuseraccounts'] = '許可する最大ユーザアカウント数';
 $string['maxuseraccountsdescription'] = 'インスティテューションに関連付けることのできる最大ユーザアカウント数です。制限がない場合、このフィールドは空白にしてください。';
-$string['institutionuserserrortoomanyusers'] = 'ユーザは追加されませんでした。インスティテューションで許可される最大ユーザ数を超えることはできません。インスティテューションからユーザを削除するか、サイト管理者に最大ユーザアカウント数の増加を依頼することで、あなたはユーザを追加することができます。';
-$string['institutionuserserrortoomanyinvites'] = 'あなたの招待は送信されませんでした。既存のユーザ + 招待者数は、インスティテューションで許可される最大ユーザアカウント数を超えることはできません。インスティテューションからユーザを削除するか、サイト管理者に最大ユーザアカウント数の増加を依頼することで、あなたはユーザを招待することができます。';
+$string['institutionuserserrortoomanyusers'] = 'ユーザは追加されませんでした。メンバー数は、インスティテューションで許可される最大ユーザ数を超えることはできません。あなたは、少数のユーザを追加するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼することができます。';
+$string['institutionuserserrortoomanyinvites'] = 'あなたの招待は送信されませんでした。既存のユーザ + 招待者数は、インスティテューションで許可される最大ユーザアカウント数を超えることはできません。あなたは、少数のユーザを招待するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼することができます。';
 $string['Members'] = 'メンバー';
 $string['Maximum'] = '最大';
 $string['Staff'] = 'スタッフ';
