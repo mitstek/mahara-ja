@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-16 18:55:44 UTC
+ * @updated    2008-07-18 08:53:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -164,8 +164,8 @@ $string['rejectfriendshipreason'] = 'リクエストを拒否する理由';
 $string['friendrequestacceptedsubject'] = 'フレンドリクエストが承認されました。';
 $string['friendrequestacceptedmessage'] = '%s があなたのフレンドリクエストを承認しました。同時にあなたのフレンドリストに追加されました。';
 $string['friendrequestrejectedsubject'] = 'フレンドリクエストが拒否されました。';
-$string['friendrequestrejectedmessage'] = '%s は、あなたのフレンドリクエストを拒否しました。';
-$string['friendrequestrejectedmessagereason'] = '%s は、あなたのフレンドリクエストを拒否しました。
+$string['friendrequestrejectedmessage'] = '%s があなたのフレンドリクエストを拒否しました。';
+$string['friendrequestrejectedmessagereason'] = '%s があなたのフレンドリクエストを拒否しました。
 拒否理由は:';
 $string['allfriends'] = 'すべてのフレンド';
 $string['currentfriends'] = '現在のフレンド';
@@ -201,10 +201,10 @@ $string['messagesent'] = 'メッセージが送信されました!';
 $string['messagenotsent'] = 'メッセージの送信に失敗しました。';
 $string['newusermessage'] = '%s からの新しいメッセージ';
 $string['sendmessageto'] = '%s にメッセージを送信する';
-$string['denyfriendrequest'] = 'フレンドリクエストを拒否する';
+$string['denyfriendrequest'] = 'フレンドシップリクエストを拒否する';
 $string['sendfriendshiprequest'] = '%s にフレンドシップリクエストを送信する';
 $string['cantdenyrequest'] = 'これは有効なフレンドシップリクエストではありません。';
-$string['cantrequestfrienship'] = 'あなたは、このユーザからフレンドシップをリクエストできません。';
+$string['cantrequestfrienship'] = 'あなたは、このユーザにフレンドシップをリクエストできません。';
 $string['cantmessageuser'] = 'あなたは、このユーザにメッセージを送信できません。';
 $string['requestedfriendship'] = 'リクエストされたフレンドシップ';
 $string['notinanygroups'] = 'どのグループにも属していません。';
