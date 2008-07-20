@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-13 16:41:11 UTC
+ * @updated    2008-07-20 16:43:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -45,7 +45,7 @@ $string['complete'] = '完了';
 $string['Failed'] = '失敗';
 $string['loading'] = 'ローディング ...';
 $string['showtags'] = 'マイタグを表示する';
-$string['errorprocessingform'] = 'このフォームでの送信にエラーが発生しました。マークされたフィールドを確認して、再度送信してください。';
+$string['errorprocessingform'] = 'このフォームによる送信中にエラーが発生しました。マークされたフィールドを確認して、再度送信してください。';
 $string['description'] = '説明';
 $string['remove'] = '削除';
 $string['no'] = 'No';
@@ -107,7 +107,7 @@ $string['accountcreatedchangepasswordtext'] = '%s さん
 ユーザ名: %s
 パスワード: %s
 
-初回ログイン時、あなたはパスワード変更を求められます。
+初回ログイン時、あなたはパスワードの変更を求められます。
 
 利用開始するには、サイトを訪問してください!
 
@@ -133,7 +133,7 @@ $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 <li><strong>パスワード:</strong> %s</li>
 </ul>
 
-<p>初回ログイン時、あなたはパスワード変更を求められます。</p>
+<p>初回ログイン時、あなたはパスワードの変更を求められます。</p>
 
 <p>利用開始するには、<a href=\"\"></a>を訪問してください!</p>
 
@@ -235,7 +235,7 @@ $string['mustspecifyoldpassword'] = 'あなたの現在のパスワードを入�
 $string['captchatitle'] = 'CAPTCHAイメージ';
 $string['captchaimage'] = 'CAPTCHAイメージ';
 $string['captchadescription'] = 'イメージの右側に表示されている文字を入力してください。入力する文字は、大文字小文字の区別をしません。';
-$string['captchaincorrect'] = 'イメージに表示される文字を入力してください。';
+$string['captchaincorrect'] = 'イメージに表示されている文字を入力してください。';
 $string['emailaddress'] = 'メールアドレス';
 $string['firstname'] = '名';
 $string['lastname'] = '姓';
@@ -253,7 +253,7 @@ $string['registrationcomplete'] = '%s へのご登録ありがとうございま
 $string['language'] = '言語';
 $string['cantchangepassword'] = '申し訳ございません、このインターフェース経由でパスワードを変更することはできません - 代わりにインスティテューションインターフェースを使用してください。';
 $string['forgotpassword'] = 'パスワードを忘れましたか?';
-$string['forgotpasswordtext'] = 'あなたがパスワードを忘れた場合、あなたのプロファイルに登録した主メールアドレスを下記に入力してください。あなたが新しいパスワードを作成することのできるキーを送信します。';
+$string['forgotpasswordtext'] = 'パスワードを忘れた場合、あなたのプロファイルに登録した主メールアドレスを下記に入力してください。あなたが新しいパスワードを作成することのできるキーを送信します。';
 $string['passwordreminder'] = 'パスワードリマインダ';
 $string['pwchangerequestsent'] = 'あなたのパスワードを変更するためのリンクを記載したメールが、まもなく送信されます。';
 $string['forgotpassemailsubject'] = '%s のパスワード変更リクエスト';
