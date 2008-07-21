@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-17 04:24:54 UTC
+ * @updated    2008-07-21 19:36:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -30,8 +30,8 @@ defined('INTERNAL') || die();
 
 $string['solrurl'] = 'Solr URI';
 $string['indexcontrol'] = 'インデックスコントロール';
-$string['reindexusers'] = 'ユーザインデックスを再構築する';
-$string['reindexartefacts'] = 'アーティファクトインデックスを再構築する';
-$string['reindexviews'] = 'ビューインデックスを再構築する';
+$string['reindexusers'] = 'ユーザを再インデックスする。';
+$string['reindexartefacts'] = 'アーティファクトを再インデックスする。';
+$string['reindexviews'] = 'ビューを再インデックスする。';
 
 ?>
