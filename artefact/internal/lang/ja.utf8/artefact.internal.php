@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-07-11 03:05:46 UTC
+ * @updated    2008-07-22 16:38:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -50,8 +50,8 @@ $string['studentid'] = '学籍番号';
 $string['preferredname'] = 'ニックネーム';
 $string['introduction'] = '自己紹介';
 $string['email'] = 'メールアドレス';
-$string['officialwebsite'] = 'オフィシャルウェブURI';
-$string['personalwebsite'] = 'パーソナルウェブURI';
+$string['officialwebsite'] = 'オフィシャルウェブサイトURI';
+$string['personalwebsite'] = 'パーソナルウェブサイトURI';
 $string['blogaddress'] = 'ブログアドレス';
 $string['address'] = '郵便番号';
 $string['town'] = '市区町村';
