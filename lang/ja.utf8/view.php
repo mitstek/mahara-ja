@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-15 07:05:46 UTC
+ * @updated    2008-07-22 17:10:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -122,7 +122,7 @@ $string['deleteviewconfirm'] = '本当にこのビューを削除してもよろ
 $string['editaccesspagedescription2'] = '<p>デフォルトでは、あなたのみビューを閲覧することができます。ここでは、あなたのビュー情報を閲覧させたいユーザを選択することができます。公開、ログインユーザ、フレンドにアクセス権を与えるには、「追加」をクリックしてください。個別のユーザまたはグループを検索するには、検索ボックスを使用してください。すべての追加されたユーザまたはグループは、右側のウィンドウ枠に表示されます。</p>
 <p>追加処理を終えて続けるには、「保存」ボタンをクリックしてください。</p>';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
-$string['overridingstartstopdatesdescription'] = 'あなたは、開始日および終了日をオーバーライドすることができます。アクセス権を与えたとしても、開始日の前および終了日の後には、他のユーザはビューを閲覧することができません。';
+$string['overridingstartstopdatesdescription'] = 'あなたは、開始日および終了日をオーバーライドすることができます。アクセス開始日およびアクセス終了日をどのように設定したとしても、開始日の前および終了日の後には、他のユーザはビューを閲覧することができません。';
 $string['emptylabel'] = 'このラベルのテキストを入力するには、ここをクリックしてください。';
 $string['empty_block'] = 'ここに配置するアーティファクトを左側のツリーより選択してください。';
 $string['viewinformationsaved'] = 'ビュー情報が正常に保存されました。';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-07-22 16:38:50 UTC
+ * @updated    2008-07-22 16:50:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -34,9 +34,9 @@ $string['myfiles'] = 'マイファイル';
 $string['mandatory'] = '必須';
 $string['public'] = '公開';
 $string['profileiconsize'] = 'アイコンサイズ';
-$string['aboutdescription'] = 'あなたの本名をここに入力してください。システム内のユーザに異なる名前を表示したい場合、ニックネーム欄に別名を入力してください。';
+$string['aboutdescription'] = 'あなたの本名をここに入力してください。あなたがシステム内のユーザに異なる名前を表示したい場合、ニックネーム欄に別名を入力してください。';
 $string['contactdescription'] = 'あなたがビューに置かない限り、この情報はすべて非公開となります。';
-$string['messagingdescription'] = 'あなたの連絡先と同じく、この情報は非公開です。';
+$string['messagingdescription'] = 'あなたの連絡先と同じく、この情報も非公開です。';
 $string['viewmyprofile'] = '私のプロファイルを表示する';
 $string['aboutme'] = '私について';
 $string['contact'] = '連絡先';
@@ -105,7 +105,7 @@ $string['profileiconuploadexceedsquota'] = 'このプロファイルアイコン
 $string['profileiconimagetoobig'] = 'あなたがアップロードしたイメージは、大き過ぎます(%sx%s ピクセル)。%sx%s ピクセル以下のサイズにしてください。';
 $string['uploadingfile'] = 'ファイルのアップロード中 ...';
 $string['uploadprofileicon'] = 'プロファイルアイコンをアップロードする';
-$string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイルアイコンをアップロードすることができます。アイコンのアップロード後、あなたのデフォルトアイコンとして表示するアイコンを1つ選択してください。16x16 から　%sx%s ピクセルの間であなたのアイコンを作成してください。';
+$string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイルアイコンをアップロードすることができます。アイコンのアップロード後、あなたのデフォルトアイコンとして表示するアイコンを1つ選択してください。16x16 から%sx%s ピクセルの間であなたのアイコンを作成してください。';
 $string['setdefault'] = 'デフォルトに設定する';
 $string['Title'] = 'タイトル';
 $string['imagetitle'] = 'イメージタイトル';
