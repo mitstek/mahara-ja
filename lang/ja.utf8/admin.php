@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-07-14 16:31:05 UTC
+ * @updated    2008-08-02 21:39:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -162,9 +162,9 @@ $string['savingmenuitem'] = 'メニューアイテムの保存中';
 $string['type'] = 'タイプ';
 $string['adminfilespagedescription'] = 'あなたは、ここで%sリンクおよびリソースメニュー%sに含むことのできるファイルをアップロードすることができます。公開ディレクトリのファイルは「公開リンクおよびリソース」に追加できるのに対して、ホームディレクトリのファイルは「ログインメニュー」に追加することができます。';
 $string['networkingextensionsmissing'] = '申し訳ございません、インストール済みPHPでいくつかの必須拡張モジュールが不足しているため、あなたはMaharaネットワーキングを設定できません。';
-$string['publickey'] = '公開キー';
-$string['publickeydescription'] = 'この公開キーは自動的に生成され、28日ごとにローテートされます。';
-$string['publickeyexpires'] = '公開キー有効期限';
+$string['publickey'] = '公開鍵';
+$string['publickeydescription'] = 'この公開鍵は自動的に生成され、28日ごとにローテートされます。';
+$string['publickeyexpires'] = '公開鍵の有効期限';
 $string['enablenetworkingdescription'] = 'Moodleおよび他のアプリケーションを動作させているサーバと、あなたのMaharaサーバが通信することを許可します。';
 $string['enablenetworking'] = 'ネットワーキングを有効にする';
 $string['networkingenabled'] = 'ネットワーキングが有効にされました。';
