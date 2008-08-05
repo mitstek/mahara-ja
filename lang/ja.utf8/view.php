@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-07-22 17:10:59 UTC
+ * @updated    2008-08-05 16:51:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -46,6 +46,8 @@ $string['ownerformat'] = '氏名表示フォーマット';
 $string['ownerformatdescription'] = '他のユーザがあなたのビューを閲覧する場合、あなたの名前をどのように表示しますか?';
 $string['artefacts'] = 'アーティファクト';
 $string['myviews'] = 'マイビュー';
+$string['groupviews'] = 'グループビュー';
+$string['groupviewsfor'] = '%s のグループビュー';
 $string['reallyaddaccesstoemptyview'] = 'あなたのビューには、アーティファクトが含まれていません。本当にこれらのユーザに対してビューへのアクセス権を与えますか?';
 $string['viewdeleted'] = 'ビューが削除されました。';
 $string['viewsubmitted'] = 'ビューが送信されました。';
@@ -66,6 +68,8 @@ $string['Views'] = 'ビュー';
 $string['viewsubmittedtogroup'] = 'このビューは、<a href=\"group/view.php?id=%s\">%s</a>に送信されました。';
 $string['nobodycanseethisview'] = '誰もこのビューを閲覧できません。';
 $string['noviews'] = 'あなたのビューはありません。';
+$string['viewsownedbygroup'] = 'このグループが所有しているビュー';
+$string['viewssharedtogroup'] = 'このグループに共有されているビュー';
 $string['public'] = '公開';
 $string['loggedin'] = 'ログインユーザ';
 $string['friends'] = 'フレンド';
@@ -76,6 +80,7 @@ $string['grouplower'] = 'グループ';
 $string['tutors'] = 'チューター';
 $string['loggedinlower'] = 'ログインユーザ';
 $string['publiclower'] = '公開';
+$string['everyoneingroup'] = 'グループのユーザすべて';
 $string['inviteusertojoingroup'] = 'このユーザをグループに招待する';
 $string['addusertogroup'] = 'このユーザをグループに追加する';
 $string['addedtowatchlist'] = 'このビューがあなたのウォッチリストに追加されました。';
@@ -193,6 +198,7 @@ $string['Browse'] = '閲覧';
 $string['Search'] = '検索';
 $string['noartefactstochoosefrom'] = '申し訳ございません、選択するアーティファクトがありません。';
 $string['access'] = 'アクセス';
+$string['noaccesstoview'] = 'あなたには、このビューにアクセスするパーミッションがありません。';
 $string['editaccesspagedescription'] = '<p>デフォルトでは、あなたのみあなたのビューを閲覧することができます。ここでは、あなたの他に誰がビューを閲覧することができるか選択できます。</p>'; // TBD
 $string['feedbackmadeprivate'] = 'フィードバックがプライベートに変更されました。'; // TBD
 $string['format.renderfull'] = 'アーティファクト全体を表示する'; // TBD

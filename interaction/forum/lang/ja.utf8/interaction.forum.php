@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-09 17:27:29 UTC
+ * @updated    2008-08-05 16:54:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -70,10 +70,12 @@ $string['edittopic'] = 'トピックを編集する';
 $string['edittopicsuccess'] = 'トピックが正常に編集されました。';
 $string['forumsuccessfulsubscribe'] = 'フォーラムメール購読が正常に登録されました。';
 $string['forumsuccessfulunsubscribe'] = 'フォーラムメール購読が正常に解除されました。';
-$string['groupowner'] = 'グループオーナー';
-$string['groupownerlist'] = 'グループオーナー:';
+$string['gotoforums'] = 'フォーラムに移動する';
+$string['groupadmins'] = 'グループ管理者';
+$string['groupadminlist'] = 'グループ管理者:';
 $string['Key'] = 'キー';
 $string['lastpost'] = '最新の投稿';
+$string['latestforumposts'] = '最新のフォーラム投稿';
 $string['Moderators'] = 'モデレータ';
 $string['moderatorslist'] = 'モデレータ';
 $string['moderatorsdescription'] = 'モデレータは、トピックおよび投稿を編集および削除することができます。また、オープン、クローズ、投稿のスティッキー設定および設定解除することもできます。';
@@ -83,6 +85,7 @@ $string['newforum'] = '新しいフォーラム';
 $string['newforumpostin'] = '%s の新しいフォーラム投稿';
 $string['newpost'] = '新しい投稿:';
 $string['newtopic'] = '新しいトピック';
+$string['noforumpostsyet'] = 'このグループフォーラムに投稿はありません。';
 $string['noforums'] = 'このグループにフォーラムはありません。';
 $string['notopics'] = 'このフォーラムにトピックはありません。';
 $string['Open'] = 'オープン';
@@ -128,6 +131,8 @@ $string['today'] = '今日';
 $string['yesterday'] = '昨日';
 $string['strftimerecentrelative'] = '%v - %H:%M';
 $string['strftimerecentfullrelative'] = '%v - %H:%M';
+$string['groupowner'] = 'グループオーナー'; // TBD
+$string['groupownerlist'] = 'グループオーナー:'; // TBD
 $string['topics'] = 'トピック: %%s'; // TBD
 
 ?>

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-07-22 17:08:02 UTC
+ * @updated    2008-08-05 16:47:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -421,6 +421,12 @@ $string['Artefact'] = 'アーティファクト';
 $string['Artefacts'] = 'アーティファクト';
 $string['artefactnotfound'] = 'ID %s のアーティファクトは見つかりませんでした。';
 $string['artefactnotrendered'] = 'アーティファクトが提出されていません。';
+$string['nodeletepermission'] = 'あなたには、このアーティファクトを削除するパーミッションがありません。';
+$string['noeditpermission'] = 'あなたには、このアーティファクトを編集するパーミッションがありません。';
+$string['Permissions'] = 'パーミッション';
+$string['republish'] = '公開';
+$string['view'] = 'ビュー';
+$string['artefactnotpublishable'] = 'アーティファクト %s は、ビュー %s で公開できません。';
 $string['allusers'] = 'すべてのユーザ';
 $string['quarantinedirname'] = '隔離場所';
 $string['clammovedfile'] = 'ファイルが隔離場所に移動されました。';

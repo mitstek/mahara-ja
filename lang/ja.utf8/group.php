@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-07-18 08:53:45 UTC
+ * @updated    2008-08-05 17:00:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -56,15 +56,16 @@ $string['reason'] = '理由';
 $string['approve'] = '承認';
 $string['reject'] = '拒否';
 $string['groupalreadyexists'] = 'この名称のグループは、すでに登録されています。';
-$string['owner'] = 'オーナー';
+$string['Created'] = '作成日';
+$string['groupadmins'] = 'グループ管理者';
+$string['grouptype'] = 'グループタイプ';
+$string['member'] = 'メンバー';
 $string['members'] = 'メンバー';
+$string['Members'] = 'メンバー';
 $string['memberrequests'] = 'メンバーシップリクエスト';
 $string['declinerequest'] = 'リクエストを拒否する';
 $string['submittedviews'] = '送信済みビュー';
 $string['releaseview'] = 'ビューをリリースする';
-$string['tutor'] = 'チューター';
-$string['tutors'] = 'チューター';
-$string['member'] = 'メンバー';
 $string['invite'] = '招待';
 $string['remove'] = '削除';
 $string['updatemembership'] = 'メンバーシップを更新する';
@@ -173,6 +174,7 @@ $string['pendingfriends'] = '保留中のフレンド';
 $string['backtofriendslist'] = 'フレンドリストに戻る';
 $string['findnewfriends'] = '新しいフレンドを探す';
 $string['Views'] = 'ビュー';
+$string['Files'] = 'ファイル';
 $string['seeallviews'] = 'すべての %s ビューを表示する ...';
 $string['noviewstosee'] = 'あなたが閲覧できるものはありません :(';
 $string['whymakemeyourfriend'] = 'あなたが私をフレンドにする理由:';
@@ -226,6 +228,18 @@ $string['deleteinteractionsure'] = '本当にこの処理を実行してもよ�
 $string['interactiondeleted'] = '%s が正常に削除されました。';
 $string['addnewinteraction'] = '新しい %s を追加する';
 $string['title'] = 'タイトル';
+$string['Role'] = 'ロール';
+$string['changerole'] = 'ロールを変更する';
+$string['changeroleofuseringroup'] = 'ロールを変更する - ユーザ: %s / グループ: %s';
+$string['currentrole'] = '現在のロール';
+$string['changeroleto'] = '変更後のロール';
+$string['rolechanged'] = 'ロールが変更されました。';
+$string['removefromgroup'] = 'グループから削除する';
+$string['userremoved'] = 'ユーザが削除されました。';
+$string['About'] = 'About';
+$string['owner'] = 'オーナー'; // TBD
+$string['tutor'] = 'チューター'; // TBD
+$string['tutors'] = 'チューター'; // TBD
 $string['groupmembershipchangemessagetutor'] = 'あなたは、このグループのチューターに昇格しました。'; // TBD
 $string['groupmembershipchangemessagemember'] = 'あなたは、このグループのチューターから降格しました。'; // TBD
 $string['groupmembershipchangemessageremove'] = 'あなたは、このグループから削除されました。'; // TBD

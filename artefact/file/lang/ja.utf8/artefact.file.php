@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-07-08 02:41:46 UTC
+ * @updated    2008-08-05 16:42:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -53,6 +53,7 @@ $string['file'] = 'ファイル';
 $string['File'] = 'ファイル';
 $string['filealreadyindestination'] = 'あなたが移動しようとしたファイルは、すでにフォルダに登録されています。';
 $string['files'] = 'ファイル';
+$string['Files'] = 'ファイル';
 $string['fileexists'] = 'ファイル登録済み';
 $string['fileexistsonserver'] = 'ファイル名 %s のファイルは、すでに登録されています。';
 $string['fileexistsoverwritecancel'] = 'このファイル名のファイルは、すでに登録されています。あなたは、別のファイル名にするか、既存のファイルに上書きすることができます。';
@@ -64,9 +65,12 @@ $string['filethingdeleted'] = '%s が削除されました。';
 $string['filetypes'] = 'アップロード可能なファイルタイプを設定する';
 $string['filetypedescription'] = '<p>あなたは、ここでユーザがアップロードできるファイルを設定することができます。この設定では、どのようなファイルをアップロードするかコントロールします。あなたがウイルスチェックを有効にしている場合、アップロードするファイルの種類と共にウイルスもチェックします。</p><p>「不明なアプリケーション」は、いくつかのムービーファイルおよびアーカイブファイル (gzip等) をアップロードするため必要ですので、注意してください。<p>';
 $string['folder'] = 'フォルダ';
+$string['Folders'] = 'フォルダ';
 $string['foldercreated'] = 'フォルダが作成されました。';
+$string['groupfiles'] = 'グループファイル';
 $string['home'] = 'ホーム';
 $string['htmlremovedmessage'] = 'あなたが閲覧しているファイル「 <strong>%s</strong> 」は、<a href=\"%s\">%s</a> によりアップロードされたものです。以下に表示されているファイルは不適切なコンテンツのため、削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
+$string['htmlremovedmessagenoowner'] = 'あなたは、ファイル「 <strong>%s</strong> 」を閲覧しています。以下に表示されているファイルは不適切なコンテンツのため、削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
 $string['image'] = 'イメージ';
 $string['lastmodified'] = '最終更新日時';
 $string['myfiles'] = 'マイファイル';
