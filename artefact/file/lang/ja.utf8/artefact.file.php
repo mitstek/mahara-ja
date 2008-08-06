@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-05 16:42:44 UTC
+ * @updated    2008-08-06 06:41:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -37,7 +37,7 @@ $string['copyrightnotice'] = '著作権表示';
 $string['create'] = '作成';
 $string['Created'] = '作成日時';
 $string['createfolder'] = 'フォルダを作成する';
-$string['Date'] = '登録日時';
+$string['Date'] = '登録日';
 $string['defaultquota'] = 'デフォルトクオータ';
 $string['defaultquotadescription'] = 'あなたは、新しいユーザがクオータとして持つことのできるディスクスペース総量をここで設定することができます。既存のユーザのクオータは変更されません。';
 $string['deletefile?'] = '本当にこのファイルを削除してもよろしいですか?';
