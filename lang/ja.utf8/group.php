@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-05 17:00:55 UTC
+ * @updated    2008-08-07 07:50:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -59,6 +59,10 @@ $string['groupalreadyexists'] = 'この名称のグループは、すでに登�
 $string['Created'] = '作成日';
 $string['groupadmins'] = 'グループ管理者';
 $string['grouptype'] = 'グループタイプ';
+$string['hasrequestedmembership'] = 'このグループのメンバーシップをリクエストしました。';
+$string['hasbeeninvitedtojoin'] = 'このグループへの参加を招待しました。';
+$string['groupinvitesfrom'] = '参加の招待:';
+$string['requestedmembershipin'] = 'リクエストしたメンバーシップ:';
 $string['member'] = 'メンバー';
 $string['members'] = 'メンバー';
 $string['Members'] = 'メンバー';
@@ -85,6 +89,7 @@ $string['leavegroup'] = 'このグループから離れる';
 $string['joingroup'] = 'このグループに参加する';
 $string['requestjoingroup'] = 'このグループへの参加をリクエストする';
 $string['grouphaveinvite'] = 'あなたは、このグループへの参加を招待されました。';
+$string['grouphaveinvitewithrole'] = 'あなたは、このグループへの参加を次のロールで招待されました。';
 $string['groupnotinvited'] = 'あなたは、このグループへの参加を招待されていません。';
 $string['groupinviteaccepted'] = '招待が正常に受理されました! あなたはグループメンバーとなりました。';
 $string['groupinvitedeclined'] = '招待が正常に拒否されました!';
