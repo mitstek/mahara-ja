@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-06 06:41:14 UTC
+ * @updated    2008-08-09 22:36:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -39,7 +39,7 @@ $string['Created'] = '作成日時';
 $string['createfolder'] = 'フォルダを作成する';
 $string['Date'] = '登録日';
 $string['defaultquota'] = 'デフォルトクオータ';
-$string['defaultquotadescription'] = 'あなたは、新しいユーザがクオータとして持つことのできるディスクスペース総量をここで設定することができます。既存のユーザのクオータは変更されません。';
+$string['defaultquotadescription'] = 'あなたは、新しいユーザがクオータとして持つことのできるディスクスペース総量をここで設定することができます。既存のユーザのクオータは、変更されません。';
 $string['deletefile?'] = '本当にこのファイルを削除してもよろしいですか?';
 $string['deletefolder?'] = '本当にこのフォルダを削除してもよろしいですか?';
 $string['Description'] = '説明';
@@ -76,8 +76,8 @@ $string['lastmodified'] = '最終更新日時';
 $string['myfiles'] = 'マイファイル';
 $string['Name'] = '名称';
 $string['namefieldisrequired'] = '名称フィールドは必修入力です。';
-$string['movefaileddestinationinartefact'] = 'あなたはフォルダの中に自フォルダを入れることはできません。';
-$string['movefaileddestinationnotfolder'] = 'あなたはフォルダ内にのみファイルを移動することができます。';
+$string['movefaileddestinationinartefact'] = 'あなたは、フォルダの中に自フォルダを入れることはできません。';
+$string['movefaileddestinationnotfolder'] = 'あなたは、フォルダ内にのみファイルを移動することができます。';
 $string['movefailednotfileartefact'] = 'ファイル、フォルダおよびイメージアーティファクトのみ移動できます。';
 $string['movefailednotowner'] = 'あなたには、このフォルダにファイルを移動するパーミッションがありません。';
 $string['movefailed'] = '移動に失敗しました。';
@@ -88,9 +88,9 @@ $string['parentfolder'] = '親フォルダ';
 $string['Preview'] = 'プレビュー';
 $string['savechanges'] = '変更を保存する';
 $string['Size'] = 'サイズ';
-$string['timeouterror'] = 'ファイルのアップロードに失敗しました: 再度ファイルのアップロードをお試しください。';
+$string['timeouterror'] = 'ファイルのアップロードに失敗しました: ファイルのアップロードを再度お試しください。';
 $string['title'] = '名称';
-$string['titlefieldisrequired'] = '名称フィールドは必須入力項目です。';
+$string['titlefieldisrequired'] = '名称フィールドは、必須入力項目です。';
 $string['Type'] = 'タイプ';
 $string['unlinkthisfilefromblogposts?'] = 'このファイルは、１つまたはそれ以上のブログ記事に添付されています。ファイルを削除した場合、これらの記事からファイルが削除されます。';
 $string['upload'] = 'アップロード';
@@ -101,8 +101,8 @@ $string['uploadingfiletofolder'] = '%s を %s へアップロード中';
 $string['uploadoffilecomplete'] = '%s のアップロードが完了しました。';
 $string['uploadoffilefailed'] = '%s のアップロードに失敗しました。';
 $string['uploadoffiletofoldercomplete'] = '%s の %s へのアップロードが完了しました。';
-$string['uploadoffiletofolderfailed'] = '%s の %s へのアップロードが失敗しました。';
-$string['youmustagreetothecopyrightnotice'] = '著作権に同意してください。';
+$string['uploadoffiletofolderfailed'] = '%s の %s へのアップロードに失敗しました。';
+$string['youmustagreetothecopyrightnotice'] = 'あなたは、著作権表示に同意する必要があります。';
 $string['ai'] = 'Postscriptドキュメント';
 $string['aiff'] = 'AIFFオーディオファイル';
 $string['application'] = '不明なアプリケーション';
