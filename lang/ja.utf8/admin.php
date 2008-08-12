@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-02 21:39:48 UTC
+ * @updated    2008-08-12 22:40:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -65,9 +65,9 @@ $string['siteoptionsdescription'] = '名称、言語およびテーマ等、基�
 $string['editsitepages'] = 'サイトページを編集する';
 $string['editsitepagesdescription'] = 'サイト内の様々なページコンテンツを編集します。';
 $string['linksandresourcesmenu'] = 'リンクおよびリソースメニュー';
-$string['linksandresourcesmenudescription'] = 'リンクおよびリソースメニュー内のリンクおよびファイルを管理します。';
+$string['linksandresourcesmenudescription'] = '「リンクおよびリソースメニュー」内のリンクおよびファイルを管理します。';
 $string['adminfiles'] = '管理ファイル';
-$string['adminfilesdescription'] = 'リンクおよびリソースメニュー内に配置できるファイルをアップロードおよび管理します。';
+$string['adminfilesdescription'] = '「リンクおよびリソースメニュー」内に配置できるファイルをアップロードおよび管理します。';
 $string['networking'] = 'ネットワーキング';
 $string['networkingdescription'] = 'Maharaのネットワーキングを設定します。';
 $string['staffusers'] = 'スタッフユーザ';
@@ -77,7 +77,7 @@ $string['adminusersdescription'] = 'サイト管理者アクセス権を割り�
 $string['institutions'] = 'インスティテューション';
 $string['institutiondetails'] = 'インスティテューション詳細';
 $string['institutionauth'] = 'インスティテューション認証局';
-$string['institutionsdescription'] = 'インスティテューションをインストールおよびインストール済みインスティテューションを管理します。';
+$string['institutionsdescription'] = 'インスティテューションのインストールおよびインストール済みインスティテューションを管理します。';
 $string['adminnotifications'] = '管理者通知';
 $string['adminnotificationsdescription'] = '管理者が受信したシステム通知の概要です。';
 $string['uploadcsv'] = 'CSVでユーザを追加する';
@@ -118,7 +118,7 @@ $string['sitethemedescription'] = 'サイトのデフォルトテーマ';
 $string['theme'] = 'テーマ';
 $string['updatesiteoptions'] = 'サイトオプションを更新する';
 $string['usersallowedmultipleinstitutions'] = 'ユーザに複数インスティテューションを許可する';
-$string['usersallowedmultipleinstitutionsdescription'] = 'チェックした場合、メンバーは同時に複数のインスティテューションのメンバーになることができます。';
+$string['usersallowedmultipleinstitutionsdescription'] = 'チェックした場合、ユーザは同時に複数のインスティテューションのメンバーになることができます。';
 $string['usersseenewthemeonlogin'] = '次回ログイン時、ユーザに新しいテーマが表示されます。';
 $string['viruschecking'] = 'ウイルスチェック';
 $string['viruscheckingdescription'] = 'チェックした場合、アップロードファイルに対するClamAVを使用したウイルスチェックが有効にされます。';
@@ -147,7 +147,7 @@ $string['deletefailed'] = 'メニューアイテムの削除に失敗しまし�
 $string['externallink'] = '外部リンク';
 $string['editmenus'] = 'リンクおよびリソースを編集する';
 $string['linkedto'] = 'リンク先';
-$string['linksandresourcesmenupagedescription'] = 'リンクおよびリソースメニューは、ほとんどのページですべてのユーザに表示されます。あなたは、他のウェブサイトのリンクおよび%s管理ファイル%sセクションでアップロードしたファイルのリンクを追加することができます。';
+$string['linksandresourcesmenupagedescription'] = '「リンクおよびリソースメニュー」は、ほとんどのページですべてのユーザに表示されます。あなたは、他のウェブサイトのリンクおよび%s管理ファイル%sセクションでアップロードしたファイルのリンクを追加することができます。';
 $string['loadingmenuitems'] = 'メニューアイテムのロード中';
 $string['loadmenuitemsfailed'] = 'メニューアイテムのロードに失敗しました。';
 $string['loggedinmenu'] = 'ログインメニュー';
@@ -160,7 +160,7 @@ $string['noadminfiles'] = '利用可能な管理ファイルはありません�
 $string['public'] = '公開';
 $string['savingmenuitem'] = 'メニューアイテムの保存中';
 $string['type'] = 'タイプ';
-$string['adminfilespagedescription'] = 'あなたは、ここで%sリンクおよびリソースメニュー%sに含むことのできるファイルをアップロードすることができます。公開ディレクトリのファイルは「公開リンクおよびリソース」に追加できるのに対して、ホームディレクトリのファイルは「ログインメニュー」に追加することができます。';
+$string['adminfilespagedescription'] = 'あなたは、ここで「%sリンクおよびリソースメニュー%s」に含むことのできるファイルをアップロードすることができます。公開ディレクトリのファイルは「公開リンクおよびリソース」に追加できるのに対して、ホームディレクトリのファイルは「ログインメニュー」に追加することができます。';
 $string['networkingextensionsmissing'] = '申し訳ございません、インストール済みPHPでいくつかの必須拡張モジュールが不足しているため、あなたはMaharaネットワーキングを設定できません。';
 $string['publickey'] = '公開鍵';
 $string['publickeydescription'] = 'この公開鍵は自動的に生成され、28日ごとにローテートされます。';
@@ -187,7 +187,7 @@ $string['uploadcsvconfigureauthplugin'] = 'あなたがCSVファイルでユー�
 $string['csvfiledescription'] = '追加するユーザを含むファイル';
 $string['uploadcsverrorinvalidfieldname'] = 'フィールド名「 %s 」が無効です。';
 $string['uploadcsverrorrequiredfieldnotspecified'] = '必須フィールド「 %s 」がフォーマット行で指定されていません。';
-$string['uploadcsverrornorecords'] = 'ファイルにレコードが含まれていないようです (ヘッダには問題ありません)。';
+$string['uploadcsverrornorecords'] = 'ファイルにレコードが含まれていないようです (ヘッダに問題はありません)。';
 $string['uploadcsverrorunspecifiedproblem'] = '何らかの理由により、あなたのCSVファイルのレコードを追加することができませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href=\"https://eduforge.org/tracker/?func=add&group_id=176&atid=739\">バクレポートを作成してください</a> (パスワードは空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
 $string['uploadcsverrorinvalidemail'] = 'あなたのファイルの　%s 行目にエラーがあります: このユーザのメールアドレスは、正しい形式ではありません。';
 $string['uploadcsverrorincorrectnumberoffields'] = 'あなたのファイルの　%s 行目にエラーがあります: この行には、正しい数のフィールドが含まれていません。';
@@ -202,7 +202,7 @@ $string['uploadcsvpagedescription2'] = '<p>あなたは、この機能により�
 
 <pre>username,password,email,firstname,lastname,studentid</pre>
 
-<p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、すべてのユーザに対して必須入力にしたフィールドも含んでください。インスティテューションにアップロードするユーザすべてのフィールドは、必須入力およびロックフィールドにすることができます。すべてのインスティテューションの<a href=\"%s\">フィールドを必須入力フィールドにする</a>、または<a href=\"%s\">ロックフィールドにすることができます</a>。</p>
+<p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、すべてのユーザに対して必須入力にしたフィールドを含んでください。あなたがユーザをアップロードするインスティテューションのロックフィールドも含んでください。すべてのインスティテューションの<a href=\"%s\">必須入力フィールドを設定</a>、または<a href=\"%s\">個別のインスティテューションのロックフィールドを設定することができます</a>。</p>
 
 <p>必要に応じて、あなたのCSVファイルには、他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
 
@@ -213,7 +213,7 @@ $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたは、こ�
 
 <pre>username,password,email,firstname,lastname,studentid</pre>
 
-<p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、サイト管理者が必須入力にしたフィールド、あなたがインスティテューションでロックフィールドにしたフィールドも含んでください。あなたが管理するインスティテューションの<a href=\"%s\">ロックフィールドを設定</a>することができます。</p>
+<p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、サイト管理者が必須入力にしたフィールド、あなたがインスティテューションでロックしたフィールドも含んでください。あなたが管理するインスティテューションの<a href=\"%s\">ロックフィールドを設定</a>することができます。</p>
 
 <p>必要に応じて、あなたのCSVファイルには、他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
 
@@ -221,7 +221,7 @@ $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたは、こ�
 $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効でないか、Maharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログには、さらに詳細が記録されています。現在のところ、これらのユーザに手動でコンタクトしてください:';
 $string['uploadcsvusersaddedsuccessfully'] = 'ファイル内のユーザが正常に追加されました。';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるため、ユーザは追加されませんでした。許可された最大ユーザ数をインスティテューションのユーザ数が超えました。';
-$string['adminuserspagedescription'] = '<p>あなたは、どのユーザがサイトを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。</p><p>システムには、少なくとも1名の管理者を登録する必要があります。</p>';
+$string['adminuserspagedescription'] = '<p>あなたは、どのユーザがサイトを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。</p><p>システムには、少なくとも1名の管理者を設定する必要があります。</p>';
 $string['institutionadminuserspagedescription'] = 'あなたは、どのユーザがインスティテューションを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。';
 $string['potentialadmins'] = '潜在的な管理者';
 $string['currentadmins'] = '現在の管理者';
@@ -303,7 +303,7 @@ $string['institutionsettings'] = 'インスティテューション設定';
 $string['changeinstitution'] = 'インスティテューションを変更する';
 $string['institutionstaff'] = 'インスティテューションスタッフ';
 $string['institutionadmins'] = 'インスティテューション管理者';
-$string['institutionadmin'] = 'インスティテューション管理';
+$string['institutionadmin'] = 'インスティテューション管理者';
 $string['institutionadministrator'] = 'インスティテューション管理者';
 $string['institutionadmindescription'] = 'チェックした場合、ユーザはこのインスティテューションのすべてのユーザを管理することができます。';
 $string['settingsfor'] = '設定:';
