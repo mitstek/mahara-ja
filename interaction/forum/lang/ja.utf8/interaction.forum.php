@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-05 16:54:20 UTC
+ * @updated    2008-08-12 02:30:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -50,7 +50,7 @@ $string['chooseanaction'] = '処理を選択する ...';
 $string['clicksetsubject'] = '件名を入力するには、ここをクリックしてください。';
 $string['Closed'] = 'クローズド';
 $string['Close'] = 'クローズ';
-$string['closeddescription'] = 'クローズドトピックでは、モデレータおよびグループオーナーのみ返信することができます。';
+$string['closeddescription'] = 'クローズドトピックでは、モデレータおよびグループ管理者のみ返信することができます。';
 $string['Count'] = 'カウント';
 $string['currentmoderators'] = '現在のモデレータ';
 $string['deleteforum'] = 'フォーラムを削除する';
@@ -68,8 +68,8 @@ $string['editstothispost'] = 'この投稿を編集する';
 $string['edittitle'] = 'フォーラムを編集する';
 $string['edittopic'] = 'トピックを編集する';
 $string['edittopicsuccess'] = 'トピックが正常に編集されました。';
-$string['forumsuccessfulsubscribe'] = 'フォーラムメール購読が正常に登録されました。';
-$string['forumsuccessfulunsubscribe'] = 'フォーラムメール購読が正常に解除されました。';
+$string['forumsuccessfulsubscribe'] = 'フォーラムのメール購読が正常に登録されました。';
+$string['forumsuccessfulunsubscribe'] = 'フォーラムのメール購読が正常に解除されました。';
 $string['gotoforums'] = 'フォーラムに移動する';
 $string['groupadmins'] = 'グループ管理者';
 $string['groupadminlist'] = 'グループ管理者:';
@@ -77,7 +77,7 @@ $string['Key'] = 'キー';
 $string['lastpost'] = '最新の投稿';
 $string['latestforumposts'] = '最新のフォーラム投稿';
 $string['Moderators'] = 'モデレータ';
-$string['moderatorslist'] = 'モデレータ';
+$string['moderatorslist'] = 'モデレータ:';
 $string['moderatorsdescription'] = 'モデレータは、トピックおよび投稿を編集および削除することができます。また、オープン、クローズ、投稿のスティッキー設定および設定解除することもできます。';
 $string['name'] = 'フォーラム';
 $string['nameplural'] = 'フォーラム';
@@ -114,7 +114,7 @@ $string['Topic'] = 'トピック';
 $string['topiclower'] = 'トピック';
 $string['topicslower'] = 'トピック';
 $string['topicclosedsuccess'] = 'トピックが正常にクローズされました。';
-$string['topicisclosed'] = 'このトピックはクローズされました。モデレータおよびグループオーナーのみ新しい返信を投稿できます。';
+$string['topicisclosed'] = 'このトピックはクローズされました。モデレータおよびグループ管理者のみ新しい返信を投稿できます。';
 $string['topicopenedsuccess'] = 'トピックが正常にオープンされました。';
 $string['topicstickysuccess'] = 'トピックが正常にスティッキー設定されました。';
 $string['topicsubscribesuccess'] = 'トピックのメール購読が正常に設定されました。';
