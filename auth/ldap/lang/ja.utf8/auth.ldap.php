@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-06-07 03:47:01 UTC
+ * @updated    2008-08-13 04:46:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -42,6 +42,6 @@ $string['password'] = 'パスワード';
 $string['searchsubcontexts'] = 'サブコンテクストを検索する';
 $string['userattribute'] = 'ユーザ属性';
 $string['usertype'] = 'ユーザタイプ';
-$string['weautocreateusers'] = 'ユーザを自動作成する';
+$string['weautocreateusers'] = 'こちらでユーザを自動作成する';
 
 ?>
