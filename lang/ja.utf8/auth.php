@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-13 04:52:07 UTC
+ * @updated    2008-08-13 13:21:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -44,7 +44,7 @@ $string['xmlrpcserverurl'] = 'XML-RPCサーバURI';
 $string['ipaddress'] = 'IPアドレス';
 $string['shortname'] = '短いサイト名';
 $string['name'] = 'サイト名';
-$string['nodataforinstance'] = '認証インスタンスのデータがありません。';
+$string['nodataforinstance'] = '認証インスタンスのデータが見つかりません。';
 $string['authname'] = '認証局名';
 $string['weautocreateusers'] = 'こちらでユーザを自動作成する';
 $string['theyautocreateusers'] = 'こちらにユーザを自動作成させる';
@@ -57,7 +57,7 @@ $string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが�
 $string['errnoauthinstances'] = '私たちには、次のロケーションのホストに対する、どの認証プラグインインスタンスも設定されていないようです:';
 $string['errornotvalidsslcertificate'] = '有効なSSLサーバ証明書ではありません。';
 $string['errnoxmlrcpinstances'] = '私たちには、次のロケーションのホストに対するXMLRPC認証プラグインインスタンスが設定されていないようです:';
-$string['errnoxmlrcpwwwroot'] = '私たちには、次のロケーションのホストに対するレコードがありません。';
+$string['errnoxmlrcpwwwroot'] = '私たちには、次のロケーションのホストに対するレコードがありません:';
 $string['errnoxmlrpcuser'] = '現在、あなたを認証することができません。可能性のある理由として下記が考えられます:
 
 *あなたのSSOセッションが失効した。他のアプリケーションに戻って、Maharaにログインするためのリンクを再度クリックしてください。
