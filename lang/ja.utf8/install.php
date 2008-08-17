@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-07-18 15:34:47 UTC
+ * @updated    2008-08-17 14:38:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -34,7 +34,7 @@ $string['aboutdefaultcontent'] = '<h2>Maharaとは</h2>
 
 <p>Maharaはユーザを結び、コミュニティを作成することのできる、十分な機能を有したeポートフォリオ、ウェブログ、レジュメビルダおよびソーシャルネットワーキングシステムです。Maharaは、ユーザに対して個人学習、専門教育および開発環境を構築するツールを提供します。</p>
 
-<p>Maharaとは、マオリ語 (Te Reo Māori) で、「熟考」または「思索」を意味します。教授方略の熟考なしには技術的解決策を開発できないという信念と共に、プロジェクト協力者の献身による、ユーザを中心とした生涯学習およびアプリケーション開発に、その名称が反映されています。</p>
+<p>Maharaとは、マオリ語 (Te Reo Māori) で、「熟考」または「思索」を意味します。教授方略の熟考なしには技術ソリューションを開発できないという信念と共に、プロジェクト協力者の献身による、ユーザを中心とした生涯学習およびアプリケーション開発に、その名称が反映されています。</p>
 
 <p>Maharaは (GNU General Public License 一般公衆利用許諾契約書の下)、無償のオープンソースソフトウェアとして提供されます。下記条件を同意することにより、あなたにMaharaのコピー、使用および修正が許可されていることを意味します:</p>
 
