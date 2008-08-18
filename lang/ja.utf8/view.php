@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-05 16:51:04 UTC
+ * @updated    2008-08-18 22:06:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -97,7 +97,7 @@ $string['date'] = '日時';
 $string['feedback'] = 'フィードバック';
 $string['feedbackattachdirname'] = '評価ファイル';
 $string['feedbackattachdirdesc'] = 'ビュー評価に添付されるファイルです。';
-$string['feedbackattachmessage'] = '添付ファイルが、あなたの %s フォルダに追加されました。';
+$string['feedbackattachmessage'] = '添付ファイルが、あなたの「 %s 」フォルダに追加されました。';
 $string['feedbackonthisartefactwillbeprivate'] = 'このアーティファクトのフィードバックは、オーナーのみ閲覧することができます。';
 $string['feedbackonviewbytutorofgroup'] = '%s のフィードバック 投稿者: %s (%s)';
 $string['feedbacksubmitted'] = 'フィードバックが送信されました。';
@@ -106,7 +106,7 @@ $string['nopublicfeedback'] = '公開フィードバックはありません。'
 $string['notifysiteadministrator'] = 'サイト管理者に通知する';
 $string['placefeedback'] = 'フィードバックを投稿する';
 $string['print'] = 'プリント';
-$string['thisfeedbackispublic'] = 'このフィードバックは公開されます。';
+$string['thisfeedbackispublic'] = 'このフィードバックは公開されています。';
 $string['thisfeedbackisprivate'] = 'このフィードバックは非公開です。';
 $string['makeprivate'] = '非公開に変更する';
 $string['reportobjectionablematerial'] = '好ましくない内容を報告する';
@@ -118,10 +118,10 @@ $string['backtocreatemyview'] = 'マイビューの作成に戻る';
 $string['friend'] = 'フレンド';
 $string['profileicon'] = 'プロファイルアイコン';
 $string['allviews'] = 'すべてのビュー';
-$string['submitviewconfirm'] = '評価のため「 %s 」を「 %s 」に送信する場合、チューターがビューを評定するまで、あなたのビューを編集することができません。本当にこのビューを送信してもよろしいですか?';
+$string['submitviewconfirm'] = '評価のため「 %s 」を「 %s 」に送信する場合、チューターがビューを評定するまで、あなたのビューを編集することはできません。本当にこのビューを送信してもよろしいですか?';
 $string['submitviewtogroup'] = '評価のため「 %s 」を「 %s 」に送信する';
 $string['cantsubmitviewtogroup'] = 'あなたは、このビューの評価を目的として、このグループに送信することはできません。';
-$string['cantdeleteview'] = 'あなたはこのビューを削除できません。';
+$string['cantdeleteview'] = 'あなたは、このビューを削除できません。';
 $string['deletespecifiedview'] = 'ビュー「 %s 」を削除する';
 $string['deleteviewconfirm'] = '本当にこのビューを削除してもよろしいですか? 元に戻すことはできません。';
 $string['editaccesspagedescription2'] = '<p>デフォルトでは、あなたのみビューを閲覧することができます。ここでは、あなたのビュー情報を閲覧させたいユーザを選択することができます。公開、ログインユーザ、フレンドにアクセス権を与えるには、「追加」をクリックしてください。個別のユーザまたはグループを検索するには、検索ボックスを使用してください。すべての追加されたユーザまたはグループは、右側のウィンドウ枠に表示されます。</p>
@@ -141,7 +141,7 @@ $string['viewaccesseditedsuccessfully'] = 'ビューアクセスが正常に保�
 $string['viewsavedsuccessfully'] = 'ビューが正常に保存されました。';
 $string['invalidcolumn'] = 'カラム %s は範囲外です。';
 $string['confirmcancelcreatingview'] = 'このビューの作成は、完了していません。本当にキャンセルしてもよろしいですか?';
-$string['editblockspagedescription'] = '<p>どのブロックをあなたのビューで表示するか、下記のタブより選択してください。あなたのビューレイアウトにブロックをドラッグ&ドロップすることができます。詳細は、ヘルプアイコン (?) をクリックしてください。</p>';
+$string['editblockspagedescription'] = '<p>どのブロックをあなたのビューで表示するか、以下のタブより選択してください。あなたのビューレイアウトにブロックをドラッグ&ドロップすることができます。詳細は、ヘルプアイコン (?) をクリックしてください。</p>';
 $string['displaymyview'] = 'マイビューを表示する';
 $string['editthisview'] = 'このビューを編集する';
 $string['success.addblocktype'] = 'ブロックが正常に追加されました。';
@@ -156,7 +156,7 @@ $string['success.removecolumn'] = 'カラムが正常に削除されました。
 $string['err.removecolumn'] = 'カラムの削除に失敗しました。';
 $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除してもよろしいですか?';
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
-$string['blocksintructionnoajax'] = 'あなたのビューに追加するブロックを選択してください。あなたはブロックのタイトルバーにある矢印を使って、ブロックの位置を変更することができます。';
+$string['blocksintructionnoajax'] = 'あなたのビューに追加するブロックを選択してください。あなたはブロックタイトルバーの矢印を使って、ブロックの位置を変更することができます。';
 $string['blocksinstructionajax'] = 'あなたのビューレイアウトにブロックを追加するには、この行の下にブロックをドラッグしてください。あなたのビュー内でブロックをドラッグすることで、ブロックの配置を変更することができます。';
 $string['addnewblockhere'] = 'ここに新しいブロックを追加する';
 $string['add'] = '追加';
@@ -193,7 +193,7 @@ $string['blocktypecategory.feeds'] = '外部フィード';
 $string['blocktypecategory.fileimagevideo'] = 'ファイル、イメージおよびビデオ';
 $string['blocktypecategory.general'] = '一般';
 $string['notitle'] = 'タイトルなし';
-$string['clickformoreinformation'] = '詳細表示およびフィードバックの投稿は、こちらをクリックしてください。';
+$string['clickformoreinformation'] = '詳細情報およびフィードバックの投稿は、こちらをクリックしてください。';
 $string['Browse'] = '閲覧';
 $string['Search'] = '検索';
 $string['noartefactstochoosefrom'] = '申し訳ございません、選択するアーティファクトがありません。';
