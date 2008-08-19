@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-17 15:07:26 UTC
+ * @updated    2008-08-19 17:02:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -357,6 +357,7 @@ $string['siteadministration'] = 'サイト管理';
 $string['useradministration'] = 'ユーザ管理';
 $string['unreadmessages'] = '未読メッセージ';
 $string['unreadmessage'] = '未読メッセージ';
+$string['siteclosed'] = 'データベースアップグレードのため、サイトは一時的に閉鎖されています。サイト管理者は、ログインすることができます。';
 $string['termsandconditions'] = '使用条件';
 $string['privacystatement'] = 'プライバシー保護方針';
 $string['about'] = 'About';
