@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-18 22:06:19 UTC
+ * @updated    2008-08-21 22:26:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -81,14 +81,14 @@ $string['tutors'] = 'チューター';
 $string['loggedinlower'] = 'ログインユーザ';
 $string['publiclower'] = '公開';
 $string['everyoneingroup'] = 'グループのユーザすべて';
-$string['inviteusertojoingroup'] = 'このユーザをグループに招待する';
+$string['inviteusertojoingroup'] = 'このユーザをグループへの参加に招待する';
 $string['addusertogroup'] = 'このユーザをグループに追加する';
 $string['addedtowatchlist'] = 'このビューがあなたのウォッチリストに追加されました。';
 $string['attachment'] = '添付ファイル';
 $string['removedfromwatchlist'] = 'このビューがあなたのウォッチリストから削除されました。';
 $string['addfeedbackfailed'] = 'フィードバックの追加に失敗しました。';
 $string['addtowatchlist'] = 'ビューをウォッチリストに追加する';
-$string['removefromwatchlist'] = 'ウォッチリストからビューを削除する';
+$string['removefromwatchlist'] = 'ビューをウォッチリストから削除する';
 $string['alreadyinwatchlist'] = 'このビューは、すでにあなたのウォッチリストに登録されています。';
 $string['attachedfileaddedtofolder'] = '添付ファイル「 %s 」が、あなたの「 %s 」フォルダに追加されました。';
 $string['attachfile'] = '添付ファイル';
@@ -127,7 +127,7 @@ $string['deleteviewconfirm'] = '本当にこのビューを削除してもよろ
 $string['editaccesspagedescription2'] = '<p>デフォルトでは、あなたのみビューを閲覧することができます。ここでは、あなたのビュー情報を閲覧させたいユーザを選択することができます。公開、ログインユーザ、フレンドにアクセス権を与えるには、「追加」をクリックしてください。個別のユーザまたはグループを検索するには、検索ボックスを使用してください。すべての追加されたユーザまたはグループは、右側のウィンドウ枠に表示されます。</p>
 <p>追加処理を終えて続けるには、「保存」ボタンをクリックしてください。</p>';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
-$string['overridingstartstopdatesdescription'] = 'あなたは、開始日および終了日をオーバーライドすることができます。アクセス開始日およびアクセス終了日をどのように設定したとしても、開始日の前および終了日の後には、他のユーザはビューを閲覧することができません。';
+$string['overridingstartstopdatesdescription'] = 'あなたは、開始日および終了日をオーバーライドすることができます。アクセス開始日およびアクセス終了日をどのように設定したとしても、開始日以前および終了日以降には、他のユーザはビューを閲覧することができません。';
 $string['emptylabel'] = 'このラベルのテキストを入力するには、ここをクリックしてください。';
 $string['empty_block'] = 'ここに配置するアーティファクトを左側のツリーより選択してください。';
 $string['viewinformationsaved'] = 'ビュー情報が正常に保存されました。';
@@ -156,7 +156,7 @@ $string['success.removecolumn'] = 'カラムが正常に削除されました。
 $string['err.removecolumn'] = 'カラムの削除に失敗しました。';
 $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除してもよろしいですか?';
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
-$string['blocksintructionnoajax'] = 'あなたのビューに追加するブロックを選択してください。あなたはブロックタイトルバーの矢印を使って、ブロックの位置を変更することができます。';
+$string['blocksintructionnoajax'] = 'あなたのビューに追加するブロックを選択してください。あなたはブロックタイトルバーの矢印を使って、ブロックの配置を変更することができます。';
 $string['blocksinstructionajax'] = 'あなたのビューレイアウトにブロックを追加するには、この行の下にブロックをドラッグしてください。あなたのビュー内でブロックをドラッグすることで、ブロックの配置を変更することができます。';
 $string['addnewblockhere'] = 'ここに新しいブロックを追加する';
 $string['add'] = '追加';
