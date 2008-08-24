@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-15 17:56:50 UTC
+ * @updated    2008-08-24 13:07:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -128,6 +128,8 @@ $string['groupnotfound'] = 'ID %s のグループはありません。';
 $string['groupconfirmleave'] = '本当にこのグループから離れてもよろしいですか?';
 $string['groupconfirmleavehasviews'] = '本当にこのグループから離れてもよろしいですか? いくつかのあなたのビューでは、このグループをアクセスコントロールに使用しています。このグループから離れることで、グループのメンバーがあなたのビューにアクセスできなくなります。';
 $string['cantleavegroup'] = 'あなたは、このグループから離れることはできません。';
+$string['usercantleavegroup'] = 'このユーザは、このグループから離れることはできません。';
+$string['usercannotchangetothisrole'] = 'ユーザは、このロールに変更できません。';
 $string['leavespecifiedgroup'] = 'グループ「 %s 」から離れる';
 $string['memberslist'] = 'メンバー:';
 $string['nogroups'] = 'グループなし';
