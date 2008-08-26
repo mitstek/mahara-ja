@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-12 22:45:49 UTC
+ * @updated    2008-08-26 06:10:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -66,8 +66,10 @@ $string['editsitepages'] = 'サイトページを編集する';
 $string['editsitepagesdescription'] = 'サイト内の様々なページコンテンツを編集します。';
 $string['linksandresourcesmenu'] = 'リンクおよびリソースメニュー';
 $string['linksandresourcesmenudescription'] = '「リンクおよびリソース」メニュー内のリンクおよびファイルを管理します。';
-$string['adminfiles'] = '管理ファイル';
-$string['adminfilesdescription'] = '「リンクおよびリソース」メニュー内に配置できるファイルをアップロードおよび管理します。';
+$string['sitefiles'] = 'サイトファイル';
+$string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトビューに置くことのできるファイルをアップロードおよび管理します。';
+$string['siteviews'] = 'サイトビュー';
+$string['siteviewsdescription'] = 'サイト全体のビューおよびビューテンプレートを作成および管理します。';
 $string['networking'] = 'ネットワーキング';
 $string['networkingdescription'] = 'Maharaのネットワーキングを設定します。';
 $string['staffusers'] = 'スタッフユーザ';
@@ -88,6 +90,10 @@ $string['usersearchinstructions'] = 'ユーザの姓名のイニシャルをク�
 $string['institutionmembersdescription'] = 'ユーザとインスティテューションを関連付けます。';
 $string['institutionstaffdescription'] = 'スタッフパーミッションをユーザに割り当てます。';
 $string['institutionadminsdescription'] = 'インスティテューション管理者アクセス権を割り当てます。';
+$string['institutionviews'] = 'インスティテューションビュー';
+$string['institutionviewsdescription'] = 'インスティテューションのビューおよびビューテンプレートを作成および管理します。';
+$string['institutionfiles'] = 'インスティテューションファイル';
+$string['institutionfilesdescription'] = 'インスティテューションビューで使用するファイルをアップロードおよび管理します。';
 $string['pluginadmin'] = 'プラグイン管理';
 $string['pluginadmindescription'] = 'プラグインをインストールおよび設定します。';
 $string['allowpublicviews'] = '公開ビューを許可する';
@@ -137,7 +143,7 @@ $string['savefailed'] = '保存に失敗しました。';
 $string['sitepageloaded'] = 'サイトページが読み込まれました。';
 $string['termsandconditions'] = '使用条件';
 $string['uploadcopyright'] = 'アップロード著作権宣言文';
-$string['adminfile'] = '管理ファイル';
+$string['sitefile'] = 'サイトファイル';
 $string['adminpublicdirname'] = '公開';
 $string['adminpublicdirdescription'] = 'ログアウトしたユーザからアクセス可能なファイルです。';
 $string['badmenuitemtype'] = '不明なメニューアイテムタイプ';
@@ -156,7 +162,7 @@ $string['menuitemdeleted'] = 'メニューアイテムが削除されました�
 $string['menuitemsaved'] = 'メニューアイテムが保存されました。';
 $string['menuitemsloaded'] = 'メニューアイテムが読み込まれました。';
 $string['name'] = '名称';
-$string['noadminfiles'] = '利用可能な管理ファイルはありません。';
+$string['nositefiles'] = '利用できるサイトファイルは、ありません。';
 $string['public'] = '公開';
 $string['savingmenuitem'] = 'メニューアイテムの保存中';
 $string['type'] = 'タイプ';
@@ -368,6 +374,10 @@ $string['installed'] = 'インストール済み';
 $string['errors'] = 'エラー';
 $string['install'] = 'インストール';
 $string['reinstall'] = '再インストール';
+$string['adminfiles'] = '管理ファイル'; // TBD
+$string['adminfilesdescription'] = '「リンクおよびリソース」メニュー内に配置できるファイルをアップロードおよび管理します。'; // TBD
+$string['adminfile'] = '管理ファイル'; // TBD
+$string['noadminfiles'] = '利用可能な管理ファイルはありません。'; // TBD
 $string['uploadcsvpagedescription'] = '<p>あなたは、この機能により、新しいユーザを<acronym title=\"Comma Separated Values\">CSV</acronym>ファイルを使用してアップロードすることができます。</p>
 
 <p>CSVファイルの先頭行は、CSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>

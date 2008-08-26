@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-21 22:26:23 UTC
+ * @updated    2008-08-26 06:16:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -47,7 +47,7 @@ $string['ownerformatdescription'] = '他のユーザがあなたのビューを�
 $string['artefacts'] = 'アーティファクト';
 $string['myviews'] = 'マイビュー';
 $string['groupviews'] = 'グループビュー';
-$string['groupviewsfor'] = '%s のグループビュー';
+$string['institutionviews'] = 'インスティテューションビュー';
 $string['reallyaddaccesstoemptyview'] = 'あなたのビューには、アーティファクトが含まれていません。本当にこれらのユーザに対してビューへのアクセス権を与えますか?';
 $string['viewdeleted'] = 'ビューが削除されました。';
 $string['viewsubmitted'] = 'ビューが送信されました。';
@@ -199,6 +199,16 @@ $string['Search'] = '検索';
 $string['noartefactstochoosefrom'] = '申し訳ございません、選択するアーティファクトがありません。';
 $string['access'] = 'アクセス';
 $string['noaccesstoview'] = 'あなたには、このビューにアクセスするパーミッションがありません。';
+$string['Template'] = 'テンプレート';
+$string['allowcopying'] = 'コピーを許可する';
+$string['templatedescription'] = 'このチェックボックスをチェックした場合、ユーザにあなたのビューを自分のビューとしてコピーできるようにします。';
+$string['copiedblocksandartefactsfromtemplate'] = '%d のブロックおよび %d のアーティファクトを %s からコピーしました。';
+$string['viewfilesdirname'] = 'ビューファイル';
+$string['copythisview'] = 'このビューをコピーする';
+$string['createemptyview'] = '空のビューを作成する';
+$string['copyaview'] = 'ビューをコピーする';
+$string['Untitled'] = 'タイトルなし';
+$string['groupviewsfor'] = '%s のグループビュー'; // TBD
 $string['editaccesspagedescription'] = '<p>デフォルトでは、あなたのみあなたのビューを閲覧することができます。ここでは、あなたの他に誰がビューを閲覧することができるか選択できます。</p>'; // TBD
 $string['feedbackmadeprivate'] = 'フィードバックがプライベートに変更されました。'; // TBD
 $string['format.renderfull'] = 'アーティファクト全体を表示する'; // TBD
