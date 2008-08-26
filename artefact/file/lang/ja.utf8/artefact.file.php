@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-09 22:36:21 UTC
+ * @updated    2008-08-26 21:44:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,7 +29,7 @@
 defined('INTERNAL') || die();
 
 $string['pluginname'] = 'ファイル';
-$string['adminfilesloaded'] = '管理ファイルが読み込まれました。';
+$string['sitefilesloaded'] = 'サイトファイルがロードされました。';
 $string['bytes'] = 'バイト';
 $string['changessaved'] = '変更が保存されました。';
 $string['contents'] = 'コンテンツ';
@@ -156,6 +156,7 @@ $string['mpg'] = 'MPGムービー';
 $string['ram'] = 'RAM Real Playerムービー';
 $string['rpm'] = 'RPM Real Playerムービー';
 $string['rm'] = 'RM Real Playerムービー';
+$string['adminfilesloaded'] = '管理ファイルが読み込まれました。'; // TBD
 $string['mp4'] = 'MP4オーディオファイル'; // TBD
 
 ?>

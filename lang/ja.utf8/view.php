@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-26 06:16:03 UTC
+ * @updated    2008-08-26 22:42:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -203,11 +203,20 @@ $string['Template'] = 'テンプレート';
 $string['allowcopying'] = 'コピーを許可する';
 $string['templatedescription'] = 'このチェックボックスをチェックした場合、ユーザにあなたのビューを自分のビューとしてコピーできるようにします。';
 $string['copiedblocksandartefactsfromtemplate'] = '%d のブロックおよび %d のアーティファクトを %s からコピーしました。';
+$string['filescopiedfromviewtemplate'] = '%s からコピーされたファイル';
 $string['viewfilesdirname'] = 'ビューファイル';
+$string['viewfilesdirdesc'] = 'コピーされたビューのファイル';
+$string['thisviewmaybecopied'] = 'コピーが許可されています。';
 $string['copythisview'] = 'このビューをコピーする';
 $string['createemptyview'] = '空のビューを作成する';
 $string['copyaview'] = 'ビューをコピーする';
 $string['Untitled'] = 'タイトルなし';
+$string['copyfornewusers'] = '新しいユーザにコピーする';
+$string['copyfornewusersdescription'] = '新しいユーザが作成された場合、このビューをユーザポートフォリオ内にパーソナルコピーとして作成します。';
+$string['copyfornewmembers'] = '新しいインスティテューションメンバーにコピーする';
+$string['copyfornewmembersdescription'] = '%s のすべての新しいメンバーに対して、このビューのパーソナルコピーを自動的に作成します。';
+$string['copyfornewgroups'] = '新しいグループにコピーする';
+$string['copyfornewgroupsdescription'] = '以下のグループタイプの新しいグループすべてに対して、このビューをコピーします:';
 $string['groupviewsfor'] = '%s のグループビュー'; // TBD
 $string['editaccesspagedescription'] = '<p>デフォルトでは、あなたのみあなたのビューを閲覧することができます。ここでは、あなたの他に誰がビューを閲覧することができるか選択できます。</p>'; // TBD
 $string['feedbackmadeprivate'] = 'フィードバックがプライベートに変更されました。'; // TBD
