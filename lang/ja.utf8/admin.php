@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-26 06:10:23 UTC
+ * @updated    2008-08-26 22:47:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -189,7 +189,7 @@ $string['emailusersaboutnewaccountdescription'] = '新しいアカウント詳�
 $string['forceuserstochangepassword'] = 'パスワード変更を強制しますか?';
 $string['forceuserstochangepassworddescription'] = '初回ログイン時、ユーザにパスワードの変更を強制するかどうか設定します。';
 $string['uploadcsvinstitution'] = '新しいユーザのインスティテューションおよび認証方法';
-$string['uploadcsvconfigureauthplugin'] = 'あなたがCSVファイルでユーザを追加する前に、認証プラグインを設定してください。';
+$string['configureauthplugin'] = 'あなたがユーザを追加するには、最初に認証プラグインを設定する必要があります。';
 $string['csvfiledescription'] = '追加するユーザを含むファイル';
 $string['uploadcsverrorinvalidfieldname'] = 'フィールド名「 %s 」が無効です。';
 $string['uploadcsverrorrequiredfieldnotspecified'] = '必須フィールド「 %s 」がフォーマット行で指定されていません。';
@@ -374,6 +374,7 @@ $string['installed'] = 'インストール済み';
 $string['errors'] = 'エラー';
 $string['install'] = 'インストール';
 $string['reinstall'] = '再インストール';
+$string['uploadcsvconfigureauthplugin'] = 'あなたがCSVファイルでユーザを追加する前に、認証プラグインを設定してください。'; // TBD
 $string['adminfiles'] = '管理ファイル'; // TBD
 $string['adminfilesdescription'] = '「リンクおよびリソース」メニュー内に配置できるファイルをアップロードおよび管理します。'; // TBD
 $string['adminfile'] = '管理ファイル'; // TBD
