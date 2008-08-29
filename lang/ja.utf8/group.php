@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-24 13:07:15 UTC
+ * @updated    2008-08-29 00:40:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -142,6 +142,7 @@ $string['allgroups'] = 'すべてのグループ';
 $string['trysearchingforgroups'] = '%s参加したいグループの検索%sを試してみてください!';
 $string['nogroupsfound'] = 'グループがありません :(';
 $string['group'] = 'グループ';
+$string['Group'] = 'グループ';
 $string['groups'] = 'グループ';
 $string['notamember'] = 'あなたは、このグループのメンバーではありません。';
 $string['reasonoptional'] = '理由 (任意)';
