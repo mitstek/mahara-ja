@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-29 00:40:55 UTC
+ * @updated    2008-09-01 09:22:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -58,6 +58,7 @@ $string['reject'] = '拒否';
 $string['groupalreadyexists'] = 'この名称のグループは、すでに登録されています。';
 $string['Created'] = '作成日';
 $string['groupadmins'] = 'グループ管理者';
+$string['Admin'] = '管理者';
 $string['grouptype'] = 'グループタイプ';
 $string['hasrequestedmembership'] = 'がこのグループのメンバーシップをリクエストしました。';
 $string['hasbeeninvitedtojoin'] = 'がこのグループへの参加を招待されました。';
