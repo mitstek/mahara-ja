@@ -32,6 +32,6 @@ $string['title'] = 'XMLRPC';
 $string['description'] = '外部アプリケーションのSSOで認証する';
 $string['notusable'] = 'XMLRPC、CurlおよびOpenSSL PHP拡張モジュールをインストールしてください。';
 $string['networkingdisabledonthissite'] = 'このサイトでは、ネットワーキングが無効にされています。';
-$string['youhaveloggedinfrom'] = 'あなたは、<a href=\"%s\">%s</a>からログインしています。';
+$string['youhaveloggedinfrom'] = 'あなたは、<a href="%s">%s</a>からログインしています。';
 
 ?>

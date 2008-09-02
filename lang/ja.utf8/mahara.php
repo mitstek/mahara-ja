@@ -75,7 +75,7 @@ $string['youhavenottaggedanythingyet'] = 'あなたは、またタグ付けし�
 $string['selfsearch'] = 'マイポートフォリオを検索する';
 $string['ssopeers'] = 'SSOピア';
 $string['quota'] = 'クオータ';
-$string['quotausage'] = 'あなたの利用クオータは、<span id=\\\"quota_used\\\">%s</span> / <span id=\\\"quota_total\\\">%s</span> です。';
+$string['quotausage'] = 'あなたの利用クオータは、<span id="quota_used">%s</span> / <span id="quota_total">%s</span> です。';
 $string['updatefailed'] = 'アップデートが失敗しました。';
 $string['strftimenotspecified'] = '未設定';
 $string['invitedgroup'] = '招待されたグループ';
@@ -114,19 +114,19 @@ $string['accountcreatedchangepasswordtext'] = '%s さん
 %s サイト管理者';
 $string['accountcreatedhtml'] = '<p>%s さん</p>
 
-<p>あなたの新しいアカウントが <a href=\\\"\\\">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>
+<p>あなたの新しいアカウントが <a href="">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>
 
 <ul>
 <li><strong>ユーザ名:</strong> %s</li>
 <li><strong>パスワード:</strong> %s</li>
 </ul>
 
-<p>利用開始するには、<a href=\\\"\\\"></a>を訪問してください!</p>
+<p>利用開始するには、<a href=""></a>を訪問してください!</p>
 
 <p>%s サイト管理者</p>';
 $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 
-<p>あなたの新しいアカウントが <a href=\\\"\\\">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>
+<p>あなたの新しいアカウントが <a href="">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>
 
 <ul>
 <li><strong>ユーザ名:</strong> %s</li>
@@ -135,7 +135,7 @@ $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 
 <p>初回ログイン時、あなたはパスワードの変更を求められます。</p>
 
-<p>利用開始するには、<a href=\\\"\\\"></a>を訪問してください!</p>
+<p>利用開始するには、<a href=""></a>を訪問してください!</p>
 
 <p>%s サイト管理者</p>';
 $string['accountexpirywarning'] = 'アカウント終了通知';
@@ -156,7 +156,7 @@ $string['accountexpirywarninghtml'] = '<p>%s さん</p>
 
 <p>エクスポートツールを使用して、あなたのポートフォリオのコンテンツを保存することをお勧めします。この機能の使用に関するインストラクションは、ユーザガイドに記載されています。</p>
 
-<p>あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問は、<a href=\\\"%s\\\">お気軽にお問い合わせください</a>:</P>
+<p>あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問は、<a href="%s">お気軽にお問い合わせください</a>:</P>
 
 <p>%s サイト管理者</p>';
 $string['institutionexpirywarning'] = 'インスティテューションメンバーシップ終了通知';
@@ -173,7 +173,7 @@ $string['institutionexpirywarninghtml'] = '<p>%s さん</p>
 
 <p>あなたの %s のメンバーシップ %s は %s で終了します。</p>
 
-<p>あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は、<a href=\\\"%s\\\">お気軽にお問い合わせください</a>:</P>
+<p>あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は、<a href="%s">お気軽にお問い合わせください</a>:</P>
 
 <p>%s サイト管理者</p>';
 $string['accountinactive'] = '申し訳ございません、あなたのアカウントは、現在有効ではありません。';
@@ -220,7 +220,7 @@ $string['passwordsdonotmatch'] = 'パスワードが合致しません。';
 $string['passwordtooeasy'] = 'あなたのパスワードは簡単すぎます! 難しいパスワードを入力してください。';
 $string['register'] = 'ユーザ登録';
 $string['sessiontimedout'] = 'あなたのセッションはタイムアウトしました。続けるには、再度ログインしてください。';
-$string['sessiontimedoutpublic'] = 'あなたのセッションはタイムアウトしました。閲覧を続けるには、<a href=\\\"%s\\\">ログイン</a>してください。';
+$string['sessiontimedoutpublic'] = 'あなたのセッションはタイムアウトしました。閲覧を続けるには、<a href="%s">ログイン</a>してください。';
 $string['sessiontimedoutreload'] = 'あなたのセッションはタイムアウトしました。再度ログインするには、ページをリロードしてください。';
 $string['username'] = 'ユーザ名';
 $string['preferredname'] = 'ニックネーム';
@@ -243,7 +243,7 @@ $string['lastname'] = '姓';
 $string['studentid'] = 'IDナンバー';
 $string['displayname'] = '表示名';
 $string['fullname'] = 'フルネーム';
-$string['registerstep1description'] = 'ようこそ! このサイトを使用するには、最初にユーザ登録してください。また、<a href=\\\"terms.php\\\">使用条件</a>に同意する必要があります。ここで収集したデータは、私たちの<a href=\\\"privacy.php\\\">プライバシー保護方針</a>に従って保存されます。';
+$string['registerstep1description'] = 'ようこそ! このサイトを使用するには、最初にユーザ登録してください。また、<a href="terms.php">使用条件</a>に同意する必要があります。ここで収集したデータは、私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
 $string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常にユーザ登録されました! あなたのアバターとして表示する、任意のプロファイルアイコンを選択することができます。</p>';
 $string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは、必須入力フィールドです。あなたのユーザ登録が完了する前に、すべての必須入力フィールドに入力してください。/p>';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムに登録できません。';
@@ -281,15 +281,15 @@ $string['forgotpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p>パスワードリセット処理を続けるには、下記リンクをクリックしてください。</p>
 
-<p><a href=\\\"forgotpass.php?key=%s\\\">forgotpass.php?key=%s</a></p>
+<p><a href="forgotpass.php?key=%s">forgotpass.php?key=%s</a></p>
 
 <p>あなたがパスワードのリセットをリクエストしていない場合、このメールは無視してください。</p>
 
-<p>上記内容に関するご質問は、<a href=\\\"contact.php\\\">お気軽にお問い合わせください</a>。</p>
+<p>上記内容に関するご質問は、<a href="contact.php">お気軽にお問い合わせください</a>。</p>
 
 <p>%s サイト管理者</p>
 
-<p><a href=\\\"forgotpass.php?key=%s\\\">forgotpass.php?key=%s</a></p>';
+<p><a href="forgotpass.php?key=%s">forgotpass.php?key=%s</a></p>';
 $string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは、私たちに責任があります。もう一度お試しください。';
 $string['forgotpassnosuchemailaddress'] = 'あなたが入力したメールアドレスは、このサイトのユーザに合致しません。';
 $string['forgotpasswordenternew'] = '続けるには、あなたの新しいパスワードを入力してください。';
@@ -319,13 +319,13 @@ $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p>パスワードリセット処理を続けるには、下記リンクをクリックしてください。</p>
 
-<p><a href=\\\"forgotpass.php?key=%s\\\">forgotpass.php?key=%s</a></p>
+<p><a href="forgotpass.php?key=%s">forgotpass.php?key=%s</a></p>
 
-<p>上記内容に関するご質問は、<a href=\\\"contact.php\\\">お気軽にお問い合わせください</a>。</p>
+<p>上記内容に関するご質問は、<a href="contact.php">お気軽にお問い合わせください</a>。</p>
 
 <p>%s サイト管理者</p>
 
-<p><a href=\\\"forgotpass.php?key=%s\\\">forgotpass.php?key=%s</a></p>';
+<p><a href="forgotpass.php?key=%s">forgotpass.php?key=%s</a></p>';
 $string['noenddate'] = '終了日なし';
 $string['day'] = '日';
 $string['days'] = '日';

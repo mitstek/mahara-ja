@@ -65,7 +65,7 @@ $string['view'] = 'ビュー';
 $string['views'] = 'ビュー';
 $string['View'] = 'ビュー';
 $string['Views'] = 'ビュー';
-$string['viewsubmittedtogroup'] = 'このビューは、<a href=\"group/view.php?id=%s\">%s</a>に送信されました。';
+$string['viewsubmittedtogroup'] = 'このビューは、<a href="group/view.php?id=%s">%s</a>に送信されました。';
 $string['nobodycanseethisview'] = '誰もこのビューを閲覧できません。';
 $string['noviews'] = 'あなたのビューはありません。';
 $string['viewsownedbygroup'] = 'このグループが所有しているビュー';

@@ -47,7 +47,7 @@ register.php?key=%s
 %s チーム';
 $string['registeredemailmessagehtml'] = '<p>%s さん</p>
 <p>%s への登録ありがとうございます。サインアップ処理を完了するには、次のリンクに従ってください:</p>
-<p><a href=\"register.php?key=%s\">register.php?key=%s</a></p>
+<p><a href="register.php?key=%s">register.php?key=%s</a></p>
 <pre>--
 %s チーム</pre>';
 $string['registeredok'] = '<p>あなたは、正常にユーザ登録されました。アカウントを有効化するため、あなたのメールアドレス宛に送信されたインストラクションをご覧ください。</p>';
@@ -55,7 +55,7 @@ $string['registrationnosuchkey'] = '申し訳ございません、このキー�
 $string['registrationunsuccessful'] = '申し訳ございません、あなたのユーザ登録は正常に完了しませんでした。これはあなたではなく、私たちに責任があります。後ほど再度お試しください。';
 $string['usernamealreadytaken'] = '申し訳ございません、このユーザ名はすでに取得されています。';
 $string['usernameinvalidform'] = 'あなたのユーザ名には、英数字、ピリオド、アンダースコアおよび@記号のみ含むことができます。また、ユーザ名の長さは、半角3文字から30文字の間にしてください。';
-$string['youmaynotregisterwithouttandc'] = '<a href=\"terms.php\">使用条件</a>の順守に同意しない限り、あなたはユーザ登録されません。';
-$string['youmustagreetothetermsandconditions'] = 'あなたは、<a href=\"terms.php\">使用条件</a>に同意する必要があります。';
+$string['youmaynotregisterwithouttandc'] = '<a href="terms.php">使用条件</a>の順守に同意しない限り、あなたはユーザ登録されません。';
+$string['youmustagreetothetermsandconditions'] = 'あなたは、<a href="terms.php">使用条件</a>に同意する必要があります。';
 
 ?>

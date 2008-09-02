@@ -194,7 +194,7 @@ $string['csvfiledescription'] = '追加するユーザを含むファイル';
 $string['uploadcsverrorinvalidfieldname'] = 'フィールド名「 %s 」が無効です。';
 $string['uploadcsverrorrequiredfieldnotspecified'] = '必須フィールド「 %s 」がフォーマット行で指定されていません。';
 $string['uploadcsverrornorecords'] = 'ファイルにレコードが含まれていないようです (ヘッダに問題はありません)。';
-$string['uploadcsverrorunspecifiedproblem'] = '何らかの理由により、あなたのCSVファイルのレコードを追加することができませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href=\"https://eduforge.org/tracker/?func=add&group_id=176&atid=739\">バクレポートを作成してください</a> (パスワードは空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
+$string['uploadcsverrorunspecifiedproblem'] = '何らかの理由により、あなたのCSVファイルのレコードを追加することができませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href="https://eduforge.org/tracker/?func=add&group_id=176&atid=739">バクレポートを作成してください</a> (パスワードは空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
 $string['uploadcsverrorinvalidemail'] = 'あなたのファイルの　%s 行目にエラーがあります: このユーザのメールアドレスは、正しい形式ではありません。';
 $string['uploadcsverrorincorrectnumberoffields'] = 'あなたのファイルの　%s 行目にエラーがあります: この行には、正しい数のフィールドが含まれていません。';
 $string['uploadcsverrorinvalidpassword'] = 'あなたのファイルの　%s 行目にエラーがあります: このユーザのパスワードは、正しい形式ではありません。';
@@ -202,24 +202,24 @@ $string['uploadcsverrorinvalidusername'] = 'あなたのファイルの　%s 行
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には、必須の「 %s 」フィールドが含まれていません。';
 $string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」は、すでに登録されています。';
 $string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」は、すでに他のユーザに取得されています。';
-$string['uploadcsvpagedescription2'] = '<p>あなたは、この機能により、<acronym title=\"Comma Separated Values\">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
+$string['uploadcsvpagedescription2'] = '<p>あなたは、この機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
 
 <p>CSVファイルの先頭行は、CSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
 <pre>username,password,email,firstname,lastname,studentid</pre>
 
-<p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、すべてのユーザに対して必須入力にしたフィールドを含んでください。あなたがユーザをアップロードするインスティテューションのロックフィールドも含んでください。すべてのインスティテューションの<a href=\"%s\">必須入力フィールドを設定</a>、または<a href=\"%s\">個別のインスティテューションのロックフィールドを設定することができます</a>。</p>
+<p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、すべてのユーザに対して必須入力にしたフィールドを含んでください。あなたがユーザをアップロードするインスティテューションのロックフィールドも含んでください。すべてのインスティテューションの<a href="%s">必須入力フィールドを設定</a>、または<a href="%s">個別のインスティテューションのロックフィールドを設定することができます</a>。</p>
 
 <p>必要に応じて、あなたのCSVファイルには、他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
 
 %s';
-$string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたは、この機能により、<acronym title=\"Comma Separated Values\">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
+$string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたは、この機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
 
 <p>CSVファイルの先頭行には、CSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
 <pre>username,password,email,firstname,lastname,studentid</pre>
 
-<p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、サイト管理者が必須入力にしたフィールド、あなたがインスティテューションでロックしたフィールドも含んでください。あなたが管理するインスティテューションの<a href=\"%s\">ロックフィールドを設定</a>することができます。</p>
+<p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、サイト管理者が必須入力にしたフィールド、あなたがインスティテューションでロックしたフィールドも含んでください。あなたが管理するインスティテューションの<a href="%s">ロックフィールドを設定</a>することができます。</p>
 
 <p>必要に応じて、あなたのCSVファイルには、他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
 
@@ -379,13 +379,13 @@ $string['adminfiles'] = '管理ファイル'; // TBD
 $string['adminfilesdescription'] = '「リンクおよびリソース」メニュー内に配置できるファイルをアップロードおよび管理します。'; // TBD
 $string['adminfile'] = '管理ファイル'; // TBD
 $string['noadminfiles'] = '利用可能な管理ファイルはありません。'; // TBD
-$string['uploadcsvpagedescription'] = '<p>あなたは、この機能により、新しいユーザを<acronym title=\"Comma Separated Values\">CSV</acronym>ファイルを使用してアップロードすることができます。</p>
+$string['uploadcsvpagedescription'] = '<p>あなたは、この機能により、新しいユーザを<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用してアップロードすることができます。</p>
 
 <p>CSVファイルの先頭行は、CSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
 <pre>username,password,email,firstname,lastname,studentid</pre>
 
-<p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを常に含んでください。また、インスティテューションにアップロードするユーザすべてのフィールドは、必須およびロックフィールドにすることができます。あなたは、すべてのインスティテューションの<a href=\"%s\">フィールドを必須入力フィールドにする</a>、または<a href=\"%s\">ロックすることができます</a>。</p>
+<p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを常に含んでください。また、インスティテューションにアップロードするユーザすべてのフィールドは、必須およびロックフィールドにすることができます。あなたは、すべてのインスティテューションの<a href="%s">フィールドを必須入力フィールドにする</a>、または<a href="%s">ロックすることができます</a>。</p>
 
 <p>必要に応じて、あなたのCSVファイルには、他のプロファイルフィールドを含むことができます。フィールドの完全な一覧は以下の通りです:</p>
 
