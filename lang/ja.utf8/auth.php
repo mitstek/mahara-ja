@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-13 13:21:26 UTC
+ * @updated    2008-09-02 15:29:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -50,6 +50,7 @@ $string['weautocreateusers'] = 'こちらでユーザを自動作成する';
 $string['theyautocreateusers'] = 'こちらにユーザを自動作成させる';
 $string['parent'] = '親認証局';
 $string['wessoout'] = 'あちらへSSOする';
+$string['weimportcontent'] = 'あちらからコンテンツをインポートする (いくつかのアプリケーションのみ)';
 $string['theyssoin'] = 'こちらにSSOさせる';
 $string['application'] = 'アプリケーション';
 $string['cantretrievekey'] = 'リモートサーバのパブリックキーの検索中、エラーが発生しました。<br />アプリケーションおよびWWWルートフィールドが正しいこと、およびリモートホストのネットワークが有効にされていることを確認してください。';
