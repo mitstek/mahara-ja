@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-12 02:30:07 UTC
+ * @updated    2008-09-04 04:03:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -111,6 +111,7 @@ $string['subscribetoforum'] = 'フォーラムをメール購読する';
 $string['subscribetotopic'] = 'トピックをメール購読する';
 $string['Subject'] = '件名';
 $string['Topic'] = 'トピック';
+$string['Topics'] = 'トピック';
 $string['topiclower'] = 'トピック';
 $string['topicslower'] = 'トピック';
 $string['topicclosedsuccess'] = 'トピックが正常にクローズされました。';
