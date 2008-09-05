@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-05 01:19:02 UTC
+ * @updated    2008-09-05 08:46:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -231,6 +231,7 @@ $string['selectaviewtocopy'] = 'あなたがコピーしたいビューを選択
 $string['listviews'] = 'リストビュー';
 $string['nocopyableviewsfound'] = 'あなたがコピーできるビューはありません。';
 $string['noownersfound'] = 'オーナーが見つかりませんでした。';
+$string['displayingviewsby'] = '%s によるビューを表示';
 $string['groupviewsfor'] = '%s のグループビュー'; // TBD
 $string['editaccesspagedescription'] = '<p>デフォルトでは、あなたのみあなたのビューを閲覧することができます。ここでは、あなたの他に誰がビューを閲覧することができるか選択できます。</p>'; // TBD
 $string['feedbackmadeprivate'] = 'フィードバックがプライベートに変更されました。'; // TBD
