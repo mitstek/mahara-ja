@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-27 07:24:27 UTC
+ * @updated    2008-09-05 01:19:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -159,7 +159,7 @@ $string['err.removecolumn'] = 'カラムの削除に失敗しました。';
 $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除してもよろしいですか?';
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
 $string['blocksintructionnoajax'] = 'あなたのビューに追加するブロックを選択してください。あなたはブロックタイトルバーの矢印を使って、ブロックの配置を変更することができます。';
-$string['blocksinstructionajax'] = 'あなたのビューレイアウトにブロックを追加するには、この行の下にブロックをドラッグしてください。あなたのビュー内でブロックをドラッグすることで、ブロックの配置を変更することができます。';
+$string['blocksinstructionajax'] = 'あなたのビューレイアウトにブロックを追加するには、この下にドラッグしてください。あなたのビュー内でドラッグすることで、ブロックの配置を変更することができます。';
 $string['addnewblockhere'] = 'ここに新しいブロックを追加する';
 $string['add'] = '追加';
 $string['addcolumn'] = 'カラムを追加する';
@@ -210,6 +210,7 @@ $string['viewfilesdirname'] = 'ビューファイル';
 $string['viewfilesdirdesc'] = 'コピーされたビューのファイル';
 $string['thisviewmaybecopied'] = 'コピーが許可されています。';
 $string['copythisview'] = 'このビューをコピーする';
+$string['copyview'] = 'ビューをコピーする';
 $string['createemptyview'] = '空のビューを作成する';
 $string['copyaview'] = 'ビューをコピーする';
 $string['Untitled'] = 'タイトルなし';
@@ -219,6 +220,17 @@ $string['copyfornewmembers'] = '新しいインスティテューションメン
 $string['copyfornewmembersdescription'] = '%s のすべての新しいメンバーに対して、このビューのパーソナルコピーを自動的に作成します。';
 $string['copyfornewgroups'] = '新しいグループにコピーする';
 $string['copyfornewgroupsdescription'] = '以下のグループタイプの新しいグループすべてに対して、このビューをコピーします:';
+$string['searchviews'] = 'ビューを検索する';
+$string['searchowners'] = 'オーナーを検索する';
+$string['owner'] = 'オーナー';
+$string['Owner'] = 'オーナー';
+$string['owners'] = 'オーナー';
+$string['show'] = '表示';
+$string['searchviewsbyowner'] = 'ビューをオーナーで検索します:';
+$string['selectaviewtocopy'] = 'あなたがコピーしたいビューを選択してください:';
+$string['listviews'] = 'リストビュー';
+$string['nocopyableviewsfound'] = 'あなたがコピーできるビューはありません。';
+$string['noownersfound'] = 'オーナーが見つかりませんでした。';
 $string['groupviewsfor'] = '%s のグループビュー'; // TBD
 $string['editaccesspagedescription'] = '<p>デフォルトでは、あなたのみあなたのビューを閲覧することができます。ここでは、あなたの他に誰がビューを閲覧することができるか選択できます。</p>'; // TBD
 $string['feedbackmadeprivate'] = 'フィードバックがプライベートに変更されました。'; // TBD
