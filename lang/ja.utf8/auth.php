@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-03 15:29:29 UTC
+ * @updated    2008-09-06 17:47:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -47,7 +47,7 @@ $string['name'] = 'サイト名';
 $string['nodataforinstance'] = '認証インスタンスのデータが見つかりません。';
 $string['authname'] = '認証局名';
 $string['weautocreateusers'] = 'こちらでユーザを自動作成する';
-$string['theyautocreateusers'] = 'こちらにユーザを自動作成させる';
+$string['theyautocreateusers'] = 'あちらでユーザを自動作成させる';
 $string['parent'] = '親認証局';
 $string['wessoout'] = 'あちらへSSOする';
 $string['weimportcontent'] = 'こちらにコンテンツをインポートさせる';
