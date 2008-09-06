@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-26 22:47:45 UTC
+ * @updated    2008-09-06 18:02:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -65,7 +65,7 @@ $string['siteoptionsdescription'] = '名称、言語およびテーマ等、基�
 $string['editsitepages'] = 'サイトページを編集する';
 $string['editsitepagesdescription'] = 'サイト内の様々なページコンテンツを編集します。';
 $string['linksandresourcesmenu'] = 'リンクおよびリソースメニュー';
-$string['linksandresourcesmenudescription'] = '「リンクおよびリソース」メニュー内のリンクおよびファイルを管理します。';
+$string['linksandresourcesmenudescription'] = '「リンクおよびリソースメニュー」内のリンクおよびファイルを管理します。';
 $string['sitefiles'] = 'サイトファイル';
 $string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトビューに置くことのできるファイルをアップロードおよび管理します。';
 $string['siteviews'] = 'サイトビュー';
