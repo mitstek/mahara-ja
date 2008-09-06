@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-02 15:35:50 UTC
+ * @updated    2008-09-06 08:59:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -57,7 +57,7 @@ $string['To'] = '終了日';
 $string['All'] = 'すべて';
 $string['next'] = '次へ';
 $string['nextpage'] = '次のページ';
-$string['previous'] = '戻る';
+$string['previous'] = '前へ';
 $string['prevpage'] = '前のページ';
 $string['first'] = '最初';
 $string['firstpage'] = '最初のページ';
