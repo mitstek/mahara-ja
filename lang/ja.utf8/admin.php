@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-06 18:02:29 UTC
+ * @updated    2008-09-09 03:08:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -294,6 +294,8 @@ $string['deleteinstitution'] = 'インスティテューションを削除する
 $string['deleteinstitutionconfirm'] = '本当にこのインスティテューションを削除してもよろしいですか?';
 $string['institutionaddedsuccessfully'] = 'インスティテューションが正常に追加されました。このインスティテューションの認証プラグインを設定してください。';
 $string['institutiondeletedsuccessfully'] = 'インスティテューションが正常に削除されました。';
+$string['noauthpluginforinstitution'] = 'このインスティテューションに関して、あなたのサイト管理者は認証プラグインを設定していません。';
+$string['adminnoauthpluginforinstitution'] = 'このインスティテューションに関して、認証プラグインを設定してください。';
 $string['institutionname'] = 'インスティテューション名';
 $string['institutionnamealreadytaken'] = 'このインスティテューション名は、すでに取得されています。';
 $string['institutiondisplayname'] = 'インスティテューション表示名';
