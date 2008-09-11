@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-06 08:59:57 UTC
+ * @updated    2008-09-11 07:54:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -253,45 +253,48 @@ $string['registrationnotallowed'] = 'あなたが選択したインスティテ�
 $string['registrationcomplete'] = '%s へのご登録ありがとうございます。';
 $string['language'] = '言語';
 $string['cantchangepassword'] = '申し訳ございません、このインターフェース経由でパスワードを変更することはできません - 代わりに、あなたのインスティテューションのインターフェースを使用してください。';
-$string['forgotpassword'] = 'パスワードを忘れましたか?';
-$string['forgotpasswordtext'] = 'パスワードを忘れた場合、あなたのプロファイルに登録した主メールアドレスを下記に入力してください。あなたが新しいパスワードを作成することのできるキーを送信します。';
-$string['passwordreminder'] = 'パスワードリマインダ';
+$string['forgotusernamepassword'] = 'あなたのユーザ名またはパスワードを忘れましたが?';
+$string['forgotusernamepasswordtext'] = '<p>あなたがユーザ名またはパスワードを忘れた場合、あなたのプロファイルに登録された主メールアドレスを下記に入力してください。あなたが新しいパスワードを作成することのできるメッセージを送信します。</p>
+<p>パスワードを忘れて、あなたのユーザ名が分かる場合、ユーザ名を入力することもできます。</p>';
+$string['lostusernamepassword'] = 'ユーザ名/パスワードを忘れました。';
+$string['emailaddressorusername'] = 'メールアドレスまたはユーザ名';
 $string['pwchangerequestsent'] = 'あなたのパスワードを変更するためのリンクを記載したメールが、まもなく送信されます。';
-$string['forgotpassemailsubject'] = '%s のパスワード変更リクエスト';
-$string['forgotpassemailmessagetext'] = '%s さん
+$string['forgotusernamepasswordemailsubject'] = '%s に関するユーザ名/パスワード詳細';
+$string['forgotusernamepasswordemailmessagetext'] = '%s さん
 
-あなたの %s アカウントに関するパスワードリセットのリクエストを受け付けました。
+あなたの %s のアカウントに関するユーザ名/パスワードのリクエストを受け付けました。
 
-パスワードリセット処理を続けるには、下記リンクをクリックしてください。
+あなたのユーザ名は、%s です。
 
-forgotpass.php?key=%s
+あなたのパスワードをリセットしたい場合、下記のリンクをクリックしてください:
+
+%s
 
 あなたがパスワードのリセットをリクエストしていない場合、このメールは無視してください。
 
-上記内容に関するご質問は、お気軽にお問い合わせください。
+上記内容に関するご質問は、お気軽にお問い合わせください:
 
-contact.php
+%s
 
-%s サイト管理者
+%s サイト管理者';
+$string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 
-forgotpass.php?key=%s';
-$string['forgotpassemailmessagehtml'] = '<p>%s さん</p>
+<p>あなたの %s のアカウントに関するユーザ名/パスワードのリクエストを受け付けました。</p>
 
-<p>あなたの %s アカウントに関するパスワードリセットのリクエストを受け付けました。</p>
+<p>あなたのユーザ名は、<strong>%s</strong> です。</p>
 
-<p>パスワードリセット処理を続けるには、下記リンクをクリックしてください。</p>
+<p>あなたのパスワードをリセットしたい場合、下記のリンクをクリックしてください:</p>
 
-<p><a href="forgotpass.php?key=%s">forgotpass.php?key=%s</a></p>
+<p><a href="%s">%s</a></p>
 
 <p>あなたがパスワードのリセットをリクエストしていない場合、このメールは無視してください。</p>
 
-<p>上記内容に関するご質問は、<a href="contact.php">お気軽にお問い合わせください</a>。</p>
+<p>上記内容に関するご質問は、<a href="%s">お気軽にお問い合わせください</a>。</p>
 
-<p>%s サイト管理者</p>
 
-<p><a href="forgotpass.php?key=%s">forgotpass.php?key=%s</a></p>';
+<p>%s サイト管理者</p>';
 $string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは、私たちに責任があります。もう一度お試しください。';
-$string['forgotpassnosuchemailaddress'] = 'あなたが入力したメールアドレスは、このサイトのユーザに合致しません。';
+$string['forgotpassnosuchemailaddressorusername'] = 'あなたが入力したメールアドレスは、このサイトのユーザに合致しません。';
 $string['forgotpasswordenternew'] = '続けるには、あなたの新しいパスワードを入力してください。';
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';
 $string['passwordchangedok'] = 'あなたのパスワードが正常に変更されました。';
@@ -705,6 +708,43 @@ $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['importedfrom'] = 'インポート元 %s';
 $string['incomingfolderdesc'] = '他のネットワークホストからインポートされたファイル';
 $string['remotehost'] = 'リモートホスト %s';
+$string['forgotpassword'] = 'パスワードを忘れましたか?'; // TBD
+$string['forgotpasswordtext'] = 'パスワードを忘れた場合、あなたのプロファイルに登録した主メールアドレスを下記に入力してください。あなたが新しいパスワードを作成することのできるキーを送信します。'; // TBD
+$string['passwordreminder'] = 'パスワードリマインダ'; // TBD
+$string['forgotpassemailsubject'] = '%s のパスワード変更リクエスト'; // TBD
+$string['forgotpassemailmessagetext'] = '%s さん
+
+あなたの %s アカウントに関するパスワードリセットのリクエストを受け付けました。
+
+パスワードリセット処理を続けるには、下記リンクをクリックしてください。
+
+forgotpass.php?key=%s
+
+あなたがパスワードのリセットをリクエストしていない場合、このメールは無視してください。
+
+上記内容に関するご質問は、お気軽にお問い合わせください。
+
+contact.php
+
+%s サイト管理者
+
+forgotpass.php?key=%s'; // TBD
+$string['forgotpassemailmessagehtml'] = '<p>%s さん</p>
+
+<p>あなたの %s アカウントに関するパスワードリセットのリクエストを受け付けました。</p>
+
+<p>パスワードリセット処理を続けるには、下記リンクをクリックしてください。</p>
+
+<p><a href="forgotpass.php?key=%s">forgotpass.php?key=%s</a></p>
+
+<p>あなたがパスワードのリセットをリクエストしていない場合、このメールは無視してください。</p>
+
+<p>上記内容に関するご質問は、<a href="contact.php">お気軽にお問い合わせください</a>。</p>
+
+<p>%s サイト管理者</p>
+
+<p><a href="forgotpass.php?key=%s">forgotpass.php?key=%s</a></p>'; // TBD
+$string['forgotpassnosuchemailaddress'] = 'あなたが入力したメールアドレスは、このサイトのユーザに合致しません。'; // TBD
 $string['youareloggedinas'] = 'あなたは %s としてログインしています。'; // TBD
 
 ?>
