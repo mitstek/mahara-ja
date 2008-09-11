@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-11 03:54:56 UTC
+ * @updated    2008-09-11 07:20:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -119,6 +119,7 @@ $string['editmyview'] = 'マイビューを編集する';
 $string['backtocreatemyview'] = 'マイビューの作成に戻る';
 $string['friend'] = 'フレンド';
 $string['profileicon'] = 'プロファイルアイコン';
+$string['Added'] = '追加済み';
 $string['allviews'] = 'すべてのビュー';
 $string['submitviewconfirm'] = '評価のため「 %s 」を「 %s 」に送信する場合、チューターがビューを評定するまで、あなたのビューを編集することはできません。本当にこのビューを送信してもよろしいですか?';
 $string['submitviewtogroup'] = '評価のため「 %s 」を「 %s 」に送信する';
