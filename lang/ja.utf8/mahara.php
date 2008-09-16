@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-11 07:54:24 UTC
+ * @updated    2008-09-16 03:36:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -70,7 +70,7 @@ $string['reason'] = '理由';
 $string['select'] = '選択';
 $string['tags'] = 'タグ';
 $string['tagsdesc'] = 'このアイテムに関する、カンマで区切ったタグを入力してください。';
-$string['tagsdescprofile'] = 'このアイテムに関する、カンマで区切ったタグを入力してください。「profile」タグが付けられたアイテムは、あなたのサイドバーに表示されます。';
+$string['tagsdescprofile'] = 'このアイテムに関する、カンマで区切ったタグを入力してください。「プロファイル」タグが付けられたアイテムは、あなたのサイドバーに表示されます。';
 $string['youhavenottaggedanythingyet'] = 'あなたは、またタグ付けしていません。';
 $string['selfsearch'] = 'マイポートフォリオを検索する';
 $string['ssopeers'] = 'SSOピア';
@@ -290,7 +290,6 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 <p>あなたがパスワードのリセットをリクエストしていない場合、このメールは無視してください。</p>
 
 <p>上記内容に関するご質問は、<a href="%s">お気軽にお問い合わせください</a>。</p>
-
 
 <p>%s サイト管理者</p>';
 $string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは、私たちに責任があります。もう一度お試しください。';

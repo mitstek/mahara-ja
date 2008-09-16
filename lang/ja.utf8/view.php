@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-11 07:20:03 UTC
+ * @updated    2008-09-16 04:09:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -54,8 +54,8 @@ $string['viewsubmitted'] = 'ビューが送信されました。';
 $string['editviewnameanddescription'] = 'ビュー詳細を編集する';
 $string['editviewaccess'] = 'ビューアクセスを編集する';
 $string['deletethisview'] = 'このビューを削除する';
-$string['submitthisviewto'] = '評価のためビュー';
-$string['forassessment'] = 'を送信する';
+$string['submitthisviewto'] = '評価のため';
+$string['forassessment'] = 'に対して、このビューを送信する';
 $string['accessfromdate'] = '%s 以前、誰もこのビューを閲覧できません。';
 $string['accessuntildate'] = '%s 以降、誰もこのビューを閲覧できません。';
 $string['accessbetweendates'] = '%s 以前または %s 以降、誰もこのビューを閲覧できません。';
@@ -121,7 +121,7 @@ $string['friend'] = 'フレンド';
 $string['profileicon'] = 'プロファイルアイコン';
 $string['Added'] = '追加済み';
 $string['allviews'] = 'すべてのビュー';
-$string['submitviewconfirm'] = '評価のため「 %s 」を「 %s 」に送信する場合、チューターがビューを評定するまで、あなたのビューを編集することはできません。本当にこのビューを送信してもよろしいですか?';
+$string['submitviewconfirm'] = 'あなたが評価のため「 %s 」を「 %s 」に送信する場合、チューターがビューを採点するまで、あなたのビューを編集することはできません。本当にこのビューを送信してもよろしいですか?';
 $string['submitviewtogroup'] = '評価のため「 %s 」を「 %s 」に送信する';
 $string['cantsubmitviewtogroup'] = 'あなたは、このビューの評価を目的として、このグループに送信することはできません。';
 $string['cantdeleteview'] = 'あなたは、このビューを削除できません。';
