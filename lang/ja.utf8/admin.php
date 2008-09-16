@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-15 05:42:42 UTC
+ * @updated    2008-09-16 07:48:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -169,7 +169,7 @@ $string['type'] = 'タイプ';
 $string['adminfilespagedescription'] = 'あなたは、ここで「%sリンクおよびリソース」メニュー%sに含むことのできるファイルをアップロードすることができます。公開ディレクトリのファイルは「公開リンクおよびリソース」に追加できるのに対して、ホームディレクトリのファイルは「ログインメニュー」に追加することができます。';
 $string['networkingextensionsmissing'] = '申し訳ございません、インストール済みPHPでいくつかの必須拡張モジュールが不足しているため、あなたはMaharaネットワーキングを設定できません。';
 $string['publickey'] = '公開鍵';
-$string['publickeydescription'] = 'この公開鍵は自動的に生成され、28日ごとにローテートされます。';
+$string['publickeydescription2'] = 'この公開鍵は自動的に生成され、%s 日ごとにローテートされます。';
 $string['publickeyexpires'] = '公開鍵の有効期限';
 $string['enablenetworkingdescription'] = 'Moodleおよび他のアプリケーションを動作させているサーバと、あなたのMaharaサーバが通信することを許可します。';
 $string['enablenetworking'] = 'ネットワーキングを有効にする';
@@ -281,7 +281,7 @@ $string['adduserpagedescription'] = '<p>あなたは、ここで新しいユー�
 $string['createuser'] = 'ユーザを作成する';
 $string['newuseremailnotsent'] = '新しいユーザへのウェルカムメール送信に失敗しました。';
 $string['loginasuser'] = '%s としてログインする';
-$string['becomeadminagain'] = 'もう一度 %s になる';
+$string['becomeadminagain'] = '%s に戻る';
 $string['loginasdenied'] = 'パーミッションなしで、他のユーザとしてログインを試みました。';
 $string['loginastwice'] = 'すでにログインしているにもかかわらず、他のユーザとしてのログインを試みました。';
 $string['loginasrestorenodata'] = 'リストアするユーザデータがありません。';
@@ -377,6 +377,7 @@ $string['installed'] = 'インストール済み';
 $string['errors'] = 'エラー';
 $string['install'] = 'インストール';
 $string['reinstall'] = '再インストール';
+$string['publickeydescription'] = 'この公開鍵は自動的に生成され、28日ごとにローテートされます。'; // TBD
 $string['institutionaddedsuccessfully'] = 'インスティテューションが正常に追加されました。このインスティテューションの認証プラグインを設定してください。'; // TBD
 $string['registrationalloweddescription'] = 'ユーザがこのインスティテューションのシステムに登録できるかどうか設定します。'; // TBD
 $string['uploadcsvconfigureauthplugin'] = 'あなたがCSVファイルでユーザを追加する前に、認証プラグインを設定してください。'; // TBD

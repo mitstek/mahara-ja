@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-24 13:06:00 UTC
+ * @updated    2008-09-16 07:57:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -63,6 +63,7 @@ $string['versionphpmissing'] = 'プラグイン %s %s のversion.phpがありま
 $string['blocktypeprovidedbyartefactnotinstallable'] = 'これは、アーティファクトプラグイン %s の一部としてインストールされます。';
 $string['blockconfigdatacalledfromset'] = 'configデータを直接設定しないでください。代わりにPluginBlocktype::instance_config_saveを使用してください。';
 $string['invaliddirection'] = '無効な移動先: %s';
+$string['onlyoneprofileviewallowed'] = 'あなたは、1件のプロファイルビューのみ許可されています。';
 $string['unrecoverableerror'] = '回復不能なエラーが発生しました。恐らく、あなたはシステムバグに遭遇したと思われます。';
 $string['unrecoverableerrortitle'] = '%s - サイト利用不可';
 $string['parameterexception'] = '必須パラメータが指定されていません。';
