@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-16 07:48:23 UTC
+ * @updated    2008-09-16 17:10:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -97,7 +97,9 @@ $string['institutionfilesdescription'] = 'インスティテューションビ�
 $string['pluginadmin'] = 'プラグイン管理';
 $string['pluginadmindescription'] = 'プラグインをインストールおよび設定します。';
 $string['allowpublicviews'] = '公開ビューを許可する';
-$string['allowpublicviewsdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なビューを作成することができます。';
+$string['allowpublicviewsdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なポートフォリオビューを作成することができます。';
+$string['allowpublicprofiles'] = '公開プロファイルを許可する';
+$string['allowpublicprofilesdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なプロファイルビューを作成することができます。';
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
 $string['defaultaccountinactiveexpiredescription'] = 'ログインがない状態で、どのくらいの期間、アカウントはアクティブのままですか。';
 $string['defaultaccountinactivewarn'] = '休眠/有効期限の警告期間';
