@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-08 23:41:35 UTC
+ * @updated    2008-09-18 05:59:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -39,7 +39,7 @@ $string['attachedfilelistloaded'] = '添付ファイル一覧が読み込まれ�
 $string['attachedfiles'] = '添付ファイル';
 $string['attachments'] = '添付書類';
 $string['blogdesc'] = '説明';
-$string['blogdescdesc'] = '例) 「Jillの経験および熟考の記録」';
+$string['blogdescdesc'] = '例) 「Jillの経験および内省の記録」';
 $string['blogdoesnotexist'] = 'あなたは存在しないブログへのアクセスを試みています。';
 $string['blogpostdoesnotexist'] = 'あなたは存在しないブログ記事へのアクセスを試みています。';
 $string['blogfilesdirdescription'] = 'ブログ記事の添付としてファイルがアップロードされました。';
@@ -51,7 +51,7 @@ $string['blogpostpublished'] = 'ブログ記事が公開されました。';
 $string['blogpostsaved'] = 'ブログ記事が保存されました。';
 $string['blogsettings'] = 'ブログ設定';
 $string['blogtitle'] = 'タイトル';
-$string['blogtitledesc'] = '例) 「Jillの看護実習日記」';
+$string['blogtitledesc'] = '例) 「Jillの看護実習日誌」';
 $string['border'] = '枠線';
 $string['browsemyfiles'] = 'マイファイルを閲覧する';
 $string['cancel'] = 'キャンセル';
