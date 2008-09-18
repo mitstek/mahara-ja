@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-17 04:20:36 UTC
+ * @updated    2008-09-18 08:51:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -56,8 +56,8 @@ $string['viewsubmitted'] = 'ビューが送信されました。';
 $string['editviewnameanddescription'] = 'ビュー詳細を編集する';
 $string['editviewaccess'] = 'ビューアクセスを編集する';
 $string['deletethisview'] = 'このビューを削除する';
-$string['submitthisviewto'] = '評価のため';
-$string['forassessment'] = 'に対して、このビューを送信する';
+$string['submitthisviewto'] = '評価のため、このビューを';
+$string['forassessment'] = 'に送信する';
 $string['accessfromdate'] = '%s 以前、誰もこのビューを閲覧できません。';
 $string['accessuntildate'] = '%s 以降、誰もこのビューを閲覧できません。';
 $string['accessbetweendates'] = '%s 以前または %s 以降、誰もこのビューを閲覧できません。';
