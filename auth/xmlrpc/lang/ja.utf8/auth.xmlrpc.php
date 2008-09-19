@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-30 17:27:59 UTC
+ * @updated    2008-09-19 06:52:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -32,6 +32,7 @@ $string['title'] = 'XMLRPC';
 $string['description'] = '外部アプリケーションのSSOで認証する';
 $string['notusable'] = 'XMLRPC、CurlおよびOpenSSL PHP拡張モジュールをインストールしてください。';
 $string['networkingdisabledonthissite'] = 'このサイトでは、ネットワーキングが無効にされています。';
+$string['networkservers'] = 'ネットワークサーバ';
 $string['youhaveloggedinfrom'] = 'あなたは、<a href="%s">%s</a>からログインしています。';
 
 ?>

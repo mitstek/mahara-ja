@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-16 07:56:30 UTC
+ * @updated    2008-09-19 06:53:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -73,7 +73,6 @@ $string['tagsdesc'] = 'このアイテムに関する、カンマで区切った
 $string['tagsdescprofile'] = 'このアイテムに関する、カンマで区切ったタグを入力してください。「プロファイル」タグが付けられたアイテムは、あなたのサイドバーに表示されます。';
 $string['youhavenottaggedanythingyet'] = 'あなたは、またタグ付けしていません。';
 $string['selfsearch'] = 'マイポートフォリオを検索する';
-$string['ssopeers'] = 'SSOピア';
 $string['quota'] = 'クオータ';
 $string['quotausage'] = 'あなたの利用クオータは、<span id="quota_used">%s</span> / <span id="quota_total">%s</span> です。';
 $string['updatefailed'] = 'アップデートが失敗しました。';
@@ -709,6 +708,7 @@ $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['importedfrom'] = 'インポート元 %s';
 $string['incomingfolderdesc'] = '他のネットワークホストからインポートされたファイル';
 $string['remotehost'] = 'リモートホスト %s';
+$string['ssopeers'] = 'SSOピア'; // TBD
 $string['forgotpassword'] = 'パスワードを忘れましたか?'; // TBD
 $string['forgotpasswordtext'] = 'パスワードを忘れた場合、あなたのプロファイルに登録した主メールアドレスを下記に入力してください。あなたが新しいパスワードを作成することのできるキーを送信します。'; // TBD
 $string['passwordreminder'] = 'パスワードリマインダ'; // TBD
