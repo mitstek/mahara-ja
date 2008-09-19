@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-18 08:51:00 UTC
+ * @updated    2008-09-19 04:50:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -123,7 +123,7 @@ $string['friend'] = 'フレンド';
 $string['profileicon'] = 'プロファイルアイコン';
 $string['Added'] = '追加済み';
 $string['allviews'] = 'すべてのビュー';
-$string['submitviewconfirm'] = 'あなたが評価のため「 %s 」を「 %s 」に送信する場合、チューターがビューを採点するまで、あなたのビューを編集することはできません。本当にこのビューを送信してもよろしいですか?';
+$string['submitviewconfirm'] = 'あなたが「 %s 」を「 %s 」に評価のため送信する場合、チューターによるビューの採点完了まで、あなたのビューを編集することはできません。本当にこのビューを送信してもよろしいですか?';
 $string['submitviewtogroup'] = '評価のため「 %s 」を「 %s 」に送信する';
 $string['cantsubmitviewtogroup'] = 'あなたは、このビューの評価を目的として、このグループに送信することはできません。';
 $string['cantdeleteview'] = 'あなたは、このビューを削除できません。';
