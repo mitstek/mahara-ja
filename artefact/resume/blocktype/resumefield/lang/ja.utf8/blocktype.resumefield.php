@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-11 00:11:40 UTC
+ * @updated    2008-09-19 15:35:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -31,7 +31,7 @@ defined('INTERNAL') || die();
 $string['title'] = 'レジュメフィールド';
 $string['description'] = 'レジュメ情報を表示します。';
 $string['fieldtoshow'] = '表示するフィールド';
-$string['filloutyourresume'] = 'さらにフィールドを追加するには、%sあなたのレジュメの内容を入力してください%s!';
+$string['filloutyourresume'] = 'さらにフィールドを追加するには、%sあなたのレジュメに内容を入力してください%s!';
 $string['defaulttitledescription'] = 'ここを空白にした場合、フィールド名が使用されます。';
 
 ?>
