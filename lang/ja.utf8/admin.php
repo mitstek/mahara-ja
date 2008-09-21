@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-21 08:50:21 UTC
+ * @updated    2008-09-21 08:52:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -168,7 +168,7 @@ $string['nositefiles'] = '利用できるサイトファイルは、ありませ
 $string['public'] = '公開';
 $string['savingmenuitem'] = 'メニューアイテムの保存中';
 $string['type'] = 'タイプ';
-$string['adminfilespagedescription'] = 'あなたは、ここで「%sリンクおよびリソースメニュー」%sに含むことのできるファイルをアップロードすることができます。公開ディレクトリのファイルは「公開リンク&リソース」に追加できるのに対して、ホームディレクトリのファイルは「ログインメニュー」に追加することができます。';
+$string['adminfilespagedescription'] = 'あなたは、ここで「%sリンクおよびリソース」メニュー%sに含むことのできるファイルをアップロードすることができます。公開ディレクトリのファイルは「公開リンクおよびリソース」に追加できるのに対して、ホームディレクトリのファイルは「ログインメニュー」に追加することができます。';
 $string['networkingextensionsmissing'] = '申し訳ございません、インストール済みPHPでいくつかの必須拡張モジュールが不足しているため、あなたはMaharaネットワーキングを設定できません。';
 $string['publickey'] = '公開鍵';
 $string['publickeydescription2'] = 'この公開鍵は自動的に生成され、%s 日ごとにローテートされます。';
