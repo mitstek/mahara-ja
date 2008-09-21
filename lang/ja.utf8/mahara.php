@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-21 08:16:03 UTC
+ * @updated    2008-09-21 08:46:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -85,13 +85,13 @@ $string['pendingfriends'] = '保留中のフレンド';
 $string['profile'] = 'プロファイル';
 $string['views'] = 'ビュー';
 $string['linksandresources'] = 'リンクおよびリソース';
-$string['accessforbiddentoadminsection'] = 'あなたは管理セクションへのアクセスを禁止されています。';
+$string['accessforbiddentoadminsection'] = 'あなたは、管理セクションへのアクセスを禁止されています。';
 $string['accountdeleted'] = '申し訳ございません、あなたのアカウントは削除されました。';
 $string['accountexpired'] = '申し訳ございません、あなたのアカウントの有効期限が切れました。';
 $string['accountcreated'] = ': 新しいアカウント';
 $string['accountcreatedtext'] = '%s さん
 
-あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は下記のとおりです:
+あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は、下記のとおりです:
 
 ユーザ名: %s
 パスワード: %s
@@ -101,7 +101,7 @@ $string['accountcreatedtext'] = '%s さん
 %s サイト管理者';
 $string['accountcreatedchangepasswordtext'] = '%s さん
 
-あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は下記のとおりです:
+あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は、下記のとおりです:
 
 ユーザ名: %s
 パスワード: %s
@@ -113,7 +113,7 @@ $string['accountcreatedchangepasswordtext'] = '%s さん
 %s サイト管理者';
 $string['accountcreatedhtml'] = '<p>%s さん</p>
 
-<p>あなたの新しいアカウントが <a href="">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>
+<p>あなたの新しいアカウントが <a href="">%s</a> に作成されました。あなたの詳細情報は、下記のとおりです:</p>
 
 <ul>
 <li><strong>ユーザ名:</strong> %s</li>
@@ -125,7 +125,7 @@ $string['accountcreatedhtml'] = '<p>%s さん</p>
 <p>%s サイト管理者</p>';
 $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 
-<p>あなたの新しいアカウントが <a href="">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>
+<p>あなたの新しいアカウントが <a href="">%s</a> に作成されました。あなたの詳細情報は、下記のとおりです:</p>
 
 <ul>
 <li><strong>ユーザ名:</strong> %s</li>
