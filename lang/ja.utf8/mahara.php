@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-19 06:53:13 UTC
+ * @updated    2008-09-21 08:16:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -430,7 +430,7 @@ $string['nodeletepermission'] = 'あなたには、このアーティファク�
 $string['noeditpermission'] = 'あなたには、このアーティファクトを編集するパーミッションがありません。';
 $string['Permissions'] = 'パーミッション';
 $string['republish'] = '公開';
-$string['view'] = 'ビュー';
+$string['view'] = '表示';
 $string['artefactnotpublishable'] = 'アーティファクト %s は、ビュー %s で公開できません。';
 $string['allusers'] = 'すべてのユーザ';
 $string['quarantinedirname'] = '隔離場所';
