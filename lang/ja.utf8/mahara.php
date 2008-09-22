@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-21 08:46:44 UTC
+ * @updated    2008-09-22 12:32:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -84,6 +84,8 @@ $string['pendingfriend'] = '保留中のフレンド';
 $string['pendingfriends'] = '保留中のフレンド';
 $string['profile'] = 'プロファイル';
 $string['views'] = 'ビュー';
+$string['onlineusers'] = 'オンラインユーザ';
+$string['lastminutes'] = '直近の %s 分間';
 $string['linksandresources'] = 'リンクおよびリソース';
 $string['accessforbiddentoadminsection'] = 'あなたは、管理セクションへのアクセスを禁止されています。';
 $string['accountdeleted'] = '申し訳ございません、あなたのアカウントは削除されました。';
