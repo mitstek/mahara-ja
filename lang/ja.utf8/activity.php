@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-12 21:55:24 UTC
+ * @updated    2008-09-22 16:56:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -41,7 +41,7 @@ $string['typeadminmessages'] = '管理メッセージ';
 $string['typeinstitutionmessage'] = 'インスティテューションメッセージ';
 $string['type'] = '活動タイプ';
 $string['attime'] = '-';
-$string['prefsdescr'] = 'あなたがメールオプションのどちらを選択しても、通知は活動ログに記録されます。また、活動ログに記録された通知は、自動的に既読にされます。';
+$string['prefsdescr'] = 'あなたがメールオプションのどちらを選択しても、活動ログに通知が記録されます。また、活動ログに記録された通知は、自動的に既読にされます。';
 $string['subject'] = '件名';
 $string['date'] = '日時';
 $string['read'] = '既読';
@@ -77,13 +77,13 @@ $string['ongroup'] = 'グループ:';
 $string['ownedby'] = 'オーナー:';
 $string['objectionablecontentview'] = '好ましくないコンテンツ - ビュー: %s / 報告者: %s';
 $string['objectionablecontentartefact'] = '好ましくないコンテンツ - アーティファクト: %s / 報告者: %s';
-$string['newgroupmembersubj'] = '%s さんがグループメンバーになりました!';
-$string['removedgroupmembersubj'] = 'もう %s さんはグループメンバーではありません。';
+$string['newgroupmembersubj'] = '%s がグループメンバーになりました!';
+$string['removedgroupmembersubj'] = 'もう %s はグループメンバーではありません。';
 $string['addtowatchlist'] = 'ウォッチリストに追加する';
 $string['removefromwatchlist'] = 'ウォッチリストから削除する';
 $string['missingparam'] = '次の活動タイプに関する必要なパラメータ %s が空です: %s';
 $string['institutionrequestsubject'] = '%s が %s のメンバーシップをリクエストしました。';
-$string['institutionrequestmessage'] = 'あなたはインスティテューションメンバーページで、ユーザをインスティテューションに追加することができます:';
+$string['institutionrequestmessage'] = 'あなたは、インスティテューションメンバーページで、ユーザをインスティテューションに追加することができます:';
 $string['institutioninvitesubject'] = 'あなたは、インスティテューション %s への参加を招待されました。';
 $string['institutioninvitemessage'] = 'あなたは、インスティテューション設定ページで、このインスティテューションのメンバーシップを承認することができます:';
 $string['onview'] = 'ビュー:'; // TBD
