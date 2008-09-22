@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-04 04:03:58 UTC
+ * @updated    2008-09-22 07:06:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -78,14 +78,14 @@ $string['lastpost'] = '最新の投稿';
 $string['latestforumposts'] = '最新のフォーラム投稿';
 $string['Moderators'] = 'モデレータ';
 $string['moderatorslist'] = 'モデレータ:';
-$string['moderatorsdescription'] = 'モデレータは、トピックおよび投稿を編集および削除することができます。また、オープン、クローズ、投稿のスティッキー設定および設定解除することもできます。';
+$string['moderatorsdescription'] = 'モデレータは、トピックおよび投稿を編集および削除することができます。また、オープン、クローズ、トピックのスティッキー設定および設定解除することもできます。';
 $string['name'] = 'フォーラム';
 $string['nameplural'] = 'フォーラム';
 $string['newforum'] = '新しいフォーラム';
 $string['newforumpostin'] = '%s の新しいフォーラム投稿';
 $string['newpost'] = '新しい投稿:';
 $string['newtopic'] = '新しいトピック';
-$string['noforumpostsyet'] = 'このグループフォーラムに投稿はありません。';
+$string['noforumpostsyet'] = 'このグループに投稿はありません。';
 $string['noforums'] = 'このグループにフォーラムはありません。';
 $string['notopics'] = 'このフォーラムにトピックはありません。';
 $string['Open'] = 'オープン';
@@ -119,7 +119,7 @@ $string['topicisclosed'] = 'このトピックはクローズされました。�
 $string['topicopenedsuccess'] = 'トピックが正常にオープンされました。';
 $string['topicstickysuccess'] = 'トピックが正常にスティッキー設定されました。';
 $string['topicsubscribesuccess'] = 'トピックのメール購読が正常に設定されました。';
-$string['topicunstickysuccess'] = 'トピックが正常にスティッキー解除されました。';
+$string['topicunstickysuccess'] = 'トピックが正常にスティッキー設定解除されました。';
 $string['topicunsubscribesuccess'] = 'トピックのメール購読が正常に解除されました。';
 $string['topicupdatefailed'] = 'トピックの更新に失敗しました。';
 $string['typenewpost'] = '新しいフォーラム投稿';
