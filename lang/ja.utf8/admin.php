@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-21 08:52:27 UTC
+ * @updated    2008-09-24 05:09:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -43,7 +43,7 @@ $string['installsuccess'] = '次のバージョンを正常にインストール
 $string['toversion'] = 'アップグレード後';
 $string['notinstalled'] = 'インストール未了';
 $string['nothingtoupgrade'] = 'アップグレードの必要はありません。';
-$string['performinginstallsandupgrades'] = 'インストールおよびアップグレードの実行中 ...';
+$string['performinginstallsandupgrades'] = 'インストールおよびアップグレード実行中 ...';
 $string['runupgrade'] = 'アップグレードを実行する';
 $string['successfullyinstalled'] = 'Maharaが正常にインストールされました!';
 $string['thefollowingupgradesareready'] = '下記アップグレードの準備ができました:';
@@ -52,7 +52,7 @@ $string['upgrades'] = 'アップグレード';
 $string['upgradesuccess'] = 'アップグレードが正常に完了しました。';
 $string['upgradesuccesstoversion'] = '次のバージョンへ正常にアップグレードしました:';
 $string['upgradefailure'] = 'アップグレードに失敗しました!';
-$string['noupgrades'] = 'アップグレードはありません! あなたは最新版を使用しています!';
+$string['noupgrades'] = 'アップグレードはありません! あなたは、最新版を使用しています!';
 $string['youcanupgrade'] = 'あなたは、Maharaを %s (%s) から %s (%s) へアップグレードすることができます!';
 $string['Plugin'] = 'プラグイン';
 $string['adminhome'] = '管理ホーム';
@@ -81,7 +81,7 @@ $string['institutiondetails'] = 'インスティテューション詳細';
 $string['institutionauth'] = 'インスティテューション認証局';
 $string['institutionsdescription'] = 'インスティテューションのインストールおよびインストール済みインスティテューションを管理します。';
 $string['adminnotifications'] = '管理者通知';
-$string['adminnotificationsdescription'] = '管理者が受信したシステム通知の概要です。';
+$string['adminnotificationsdescription'] = '管理者が受信するシステム通知の概要です。';
 $string['uploadcsv'] = 'CSVでユーザを追加する';
 $string['uploadcsvdescription'] = '新しいユーザを含んだCSVファイルをアップロードします。';
 $string['usersearch'] = 'ユーザ検索';
@@ -168,7 +168,7 @@ $string['nositefiles'] = '利用できるサイトファイルは、ありませ
 $string['public'] = '公開';
 $string['savingmenuitem'] = 'メニューアイテムの保存中';
 $string['type'] = 'タイプ';
-$string['adminfilespagedescription'] = 'あなたは、ここで「%sリンクおよびリソース」メニュー%sに含むことのできるファイルをアップロードすることができます。公開ディレクトリのファイルは「公開リンクおよびリソース」に追加できるのに対して、ホームディレクトリのファイルは「ログインメニュー」に追加することができます。';
+$string['adminfilespagedescription'] = 'あなたは、ここで%s「リンクおよびリソース」メニュー%sに含むことのできるファイルをアップロードすることができます。公開ディレクトリのファイルは「公開リンクおよびリソース」に追加できるのに対して、ホームディレクトリのファイルは「ログインメニュー」に追加することができます。';
 $string['networkingextensionsmissing'] = '申し訳ございません、インストール済みPHPでいくつかの必須拡張モジュールが不足しているため、あなたはMaharaネットワーキングを設定できません。';
 $string['publickey'] = '公開鍵';
 $string['publickeydescription2'] = 'この公開鍵は自動的に生成され、%s 日ごとにローテートされます。';
@@ -252,7 +252,7 @@ $string['suspendedusersdescription'] = 'サイト利用に関して、ユーザ�
 $string['unsuspendusers'] = 'ユーザの利用停止を解除する';
 $string['usersdeletedsuccessfully'] = 'ユーザが正常に削除されました。';
 $string['usersunsuspendedsuccessfully'] = 'ユーザの利用停止が正常に解除されました。';
-$string['suspendingadmin'] = '利用停止にした管理者';
+$string['suspendingadmin'] = '利用停止を実行した管理者';
 $string['usersuspended'] = 'ユーザが利用停止にされました。';
 $string['userunsuspended'] = 'ユーザの利用停止が解除されました。';
 $string['accountsettings'] = 'アカウント設定';
@@ -304,7 +304,7 @@ $string['institutionnamealreadytaken'] = 'このインスティテューショ�
 $string['institutiondisplayname'] = 'インスティテューション表示名';
 $string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
 $string['registrationallowed'] = 'ユーザ登録を許可しますか?';
-$string['registrationalloweddescription2'] = 'あなたのシステム内にある、このインスティテューションに、ユーザが登録フォームを使用して登録できるかどうか設定します。';
+$string['registrationalloweddescription2'] = 'あなたのシステム内にある、このインスティテューションに対して、ユーザが登録フォームで登録できるかどうか設定します。';
 $string['defaultmembershipperiod'] = 'デフォルトのメンバーシップ期間';
 $string['defaultmembershipperioddescription'] = 'どのくらいの期間、新しいメンバーはインスティテューションに参加することができますか。';
 $string['authenticatedby'] = '認証方法';
@@ -324,7 +324,7 @@ $string['notadminforinstitution'] = 'あなたはこのインスティテュー�
 $string['institutionmemberspagedescription'] = 'このページでは、あなたのインスティテューションにメンバーシップをリクエストしたユーザを閲覧およびメンバーとして登録することができます。また、あなたのインスティテューションからユーザを削除および招待することができます。';
 $string['institutionusersinstructionsrequesters'] = '左側のユーザ一覧には、あなたのインスティテューションに参加をリクエストした、すべてのユーザが表示されます。あなたは、表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザをインスティテューションに追加したい場合、またはユーザのメンバーシップリクエストを拒否したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「メンバーを追加する」ボタンをクリックすることで、右側ボックスのすべてのユーザをインスティテューションに追加することができます。「リクエストを拒否する」ボタンをクリックすることで、右側ボックスのユーザのメンバーシップリクエストを拒否することができます。';
 $string['institutionusersinstructionsnonmembers'] = '左側のユーザ一覧には、あなたのインスティテューションのメンバーではない、すべてのユーザが表示されます。あなたは、表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザに対して、インスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックすることで、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。';
-$string['institutionusersinstructionsmembers'] = '左側のユーザ一覧には、あなたのインスティテューションのすべてのユーザが表示されます。あなたは、表示されるユーザ数を減らすため、検索ボックスを使用することができます。ユーザをインスティテューションから削除する場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを削除する」ボタンをクリックすることで、右側ボックスのすべてのユーザが削除されます。左側ボックスのユーザは、インスティテューションに参加したままの状態になります。';
+$string['institutionusersinstructionsmembers'] = '左側のユーザ一覧には、あなたのインスティテューションのすべてのユーザが表示されます。あなたは、表示されるユーザ数を減らすため、検索ボックスを使用することができます。ユーザをインスティテューションから削除する場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを削除する」ボタンをクリックすることで、右側ボックスのすべてのユーザが削除されます。左側ボックスのユーザは、インスティテューションに参加したままの状態です。';
 $string['editmembers'] = 'メンバーを編集する';
 $string['editstaff'] = 'スタッフを編集する';
 $string['editadmins'] = '管理者を編集する';
