@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-19 04:50:44 UTC
+ * @updated    2008-09-24 05:54:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -231,7 +231,7 @@ $string['owners'] = 'オーナー';
 $string['show'] = '表示';
 $string['searchviewsbyowner'] = 'ビューをオーナーで検索します:';
 $string['selectaviewtocopy'] = 'あなたがコピーしたいビューを選択してください:';
-$string['listviews'] = 'リストビュー';
+$string['listviews'] = 'ビューを一覧表示する';
 $string['nocopyableviewsfound'] = 'あなたがコピーできるビューはありません。';
 $string['noownersfound'] = 'オーナーが見つかりませんでした。';
 $string['viewsby'] = '%s のビュー';
