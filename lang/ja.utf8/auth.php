@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-10 21:36:43 UTC
+ * @updated    2008-09-24 20:45:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -42,7 +42,7 @@ $string['updateuserinfoonlogin'] = 'ログイン時、ユーザ情報を更新�
 $string['updateuserinfoonlogindescription'] = 'リモートサーバのユーザ情報を検索し、ユーザがログインするたびに、あなたのローカルユーザレコードを更新します。';
 $string['xmlrpcserverurl'] = 'XML-RPCサーバURI';
 $string['ipaddress'] = 'IPアドレス';
-$string['shortname'] = '短いサイト名';
+$string['shortname'] = 'あなたのサイトの省略名';
 $string['name'] = 'サイト名';
 $string['nodataforinstance'] = '認証インスタンスのデータが見つかりません。';
 $string['authname'] = '認証局名';
@@ -53,7 +53,7 @@ $string['wessoout'] = 'あちらへSSOする';
 $string['weimportcontent'] = 'こちらにコンテンツをインポートさせる';
 $string['theyssoin'] = 'こちらにSSOさせる';
 $string['application'] = 'アプリケーション';
-$string['cantretrievekey'] = 'リモートサーバのパブリックキーの検索中、エラーが発生しました。<br />アプリケーションおよびWWWルートフィールドが正しいこと、およびリモートホストのネットワークが有効にされていることを確認してください。';
+$string['cantretrievekey'] = 'リモートサーバのパブリックキー検索中、エラーが発生しました。<br />アプリケーションおよびWWWルートフィールドが正しいこと、およびリモートホストのネットワークが有効にされていることを確認してください。';
 $string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s での使用を試みています。';
 $string['errnoauthinstances'] = '私たちには、%s のホストに関して、認証プラグインインスタンスが設定されていないようです。';
 $string['errornotvalidsslcertificate'] = '有効なSSLサーバ証明書ではありません。';
