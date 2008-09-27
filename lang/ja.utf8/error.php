@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-16 07:57:41 UTC
+ * @updated    2008-09-27 13:25:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -54,7 +54,7 @@ $string['dbconnfailed'] = 'Maharaがアプリケーションデータベース�
 エラー内容は:';
 $string['blocktypenametaken'] = 'ブロックタイプ %s は、すでに他のプラグイン (%s) に取得されています。';
 $string['artefacttypenametaken'] = 'アーティファクトタイプ %s は、すでに他のプラグイン (%s) に取得されています。';
-$string['classmissing'] = 'クラス %s (タイプ % - プラグイン %s) がありません。';
+$string['classmissing'] = 'クラス %s (タイプ %s - プラグイン %s) がありません。';
 $string['artefacttypeclassmissing'] = 'すべてのアーティファクトタイプには、クラスを実装する必要があります。%s がありません。';
 $string['artefactpluginmethodmissing'] = 'アーティファクトプラグイン %s で必要な %s が実装されていません。';
 $string['blocktypelibmissing'] = 'ブロック %s のlib.phpがアーティファクトプラグイン %s 内にありません。';
