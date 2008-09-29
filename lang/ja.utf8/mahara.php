@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-22 12:32:54 UTC
+ * @updated    2008-09-29 16:35:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -364,6 +364,7 @@ $string['editmyprofilepage'] = 'プロファイルページを編集する';
 $string['unreadmessages'] = '未読メッセージ';
 $string['unreadmessage'] = '未読メッセージ';
 $string['siteclosed'] = 'データベースアップグレードのため、サイトは一時的に閉鎖されています。サイト管理者は、ログインすることができます。';
+$string['siteclosedlogindisabled'] = 'データベースアップグレードのため、サイトは一時的に閉鎖されています。<a href="%s">今からアップグレードを実行する。</a>';
 $string['termsandconditions'] = '使用条件';
 $string['privacystatement'] = 'プライバシー保護方針';
 $string['about'] = 'About';

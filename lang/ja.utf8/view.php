@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-24 05:54:55 UTC
+ * @updated    2008-09-29 16:32:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -69,7 +69,8 @@ $string['View'] = 'ビュー';
 $string['Views'] = 'ビュー';
 $string['viewsubmittedtogroup'] = 'このビューは、<a href="group/view.php?id=%s">%s</a>に送信されました。';
 $string['nobodycanseethisview'] = '誰もこのビューを閲覧できません。';
-$string['noviews'] = 'あなたのビューはありません。';
+$string['noviews'] = 'ビューはありません。';
+$string['youhavenoviews'] = 'あなたのビューはありません。';
 $string['viewsownedbygroup'] = 'このグループが所有しているビュー';
 $string['viewssharedtogroup'] = 'このグループで共有されているビュー';
 $string['viewssharedtogroupbyothers'] = 'このグループで共有されている、他のメンバーのビュー';
@@ -171,6 +172,7 @@ $string['moveblockleft'] = 'このブロックを左に移動する';
 $string['moveblockdown'] = 'このブロックを下に移動する';
 $string['moveblockup'] = 'このブロックを上に移動する';
 $string['moveblockright'] = 'このブロックを右に移動する';
+$string['Configure'] = '設定';
 $string['configureblock'] = 'このブロックを設定する';
 $string['removeblock'] = 'このブロックを削除する';
 $string['blocktitle'] = 'ブロックタイトル';
@@ -235,7 +237,8 @@ $string['listviews'] = 'ビューを一覧表示する';
 $string['nocopyableviewsfound'] = 'あなたがコピーできるビューはありません。';
 $string['noownersfound'] = 'オーナーが見つかりませんでした。';
 $string['viewsby'] = '%s のビュー';
-$string['closepreview'] = 'プレビューを閉じる';
+$string['close'] = '閉じる';
+$string['closepreview'] = 'プレビューを閉じる'; // TBD
 $string['displayingviewsby'] = '%s によるビューを表示'; // TBD
 $string['groupviewsfor'] = '%s のグループビュー'; // TBD
 $string['editaccesspagedescription'] = '<p>デフォルトでは、あなたのみあなたのビューを閲覧することができます。ここでは、あなたの他に誰がビューを閲覧することができるか選択できます。</p>'; // TBD
