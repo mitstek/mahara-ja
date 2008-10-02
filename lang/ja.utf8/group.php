@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-01 09:22:31 UTC
+ * @updated    2008-10-02 21:40:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -32,8 +32,8 @@ $string['groupname'] = 'グループ名';
 $string['creategroup'] = 'グループを作成する';
 $string['groupmemberrequests'] = '保留中のメンバーシップリクエスト';
 $string['sendinvitation'] = '招待状を送信する';
-$string['invitetogroupsubject'] = 'あなたはグループへの参加を招待されました。';
-$string['invitetogroupmessage'] = '%s がグループ「 %s 」へのあなたの参加を招待しました。詳細は下記リンクをクリックしてください。';
+$string['invitetogroupsubject'] = 'あなたは、グループへの参加を招待されました。';
+$string['invitetogroupmessage'] = '%s がグループ「 %s 」へのあなたの参加を招待しました。詳細は、下記リンクをクリックしてください。';
 $string['inviteuserfailed'] = 'ユーザの招待に失敗しました。';
 $string['userinvited'] = '招待状が送信されました。';
 $string['addedtogroupsubject'] = 'あなたはグループに追加されました。';
@@ -122,8 +122,8 @@ $string['groupsimin'] = '私が参加しているグループ';
 $string['groupsiown'] = '私が所有しているグループ';
 $string['groupsiminvitedto'] = '私が招待されているグループ';
 $string['groupsiwanttojoin'] = '私が参加したいグループ';
-$string['therearependingrequests'] = 'このグループには、%s 件のメンバーシップリクエストの保留があります。';
-$string['thereispendingrequest'] = 'このグループには、1 件のメンバーシップリクエストの保留があります。';
+$string['therearependingrequests'] = 'このグループには、%s 件の保留メンバーシップリクエストがあります。';
+$string['thereispendingrequest'] = 'このグループには、1 件の保留メンバーシップリクエストがあります。';
 $string['requestedtojoin'] = 'あなたは、このグループへの参加をリクエストしました。';
 $string['groupnotfound'] = 'ID %s のグループはありません。';
 $string['groupconfirmleave'] = '本当にこのグループから離れてもよろしいですか?';
@@ -164,8 +164,8 @@ $string['removefromfriendslist'] = 'フレンドリストから削除する';
 $string['removefromfriends'] = '%s をフレンドリストから削除する';
 $string['confirmremovefriend'] = 'あなたのフレンドリストから、本当にこのユーザを削除してもよろしいですか?';
 $string['removedfromfriendslistsubject'] = 'フレンドリストから削除されました。';
-$string['removedfromfriendslistmessage'] = '%s がフレンドリストからあなたを削除しました。';
-$string['removedfromfriendslistmessagereason'] = '%s がフレンドリストからあなたを削除しました。
+$string['removedfromfriendslistmessage'] = '%s があなたをフレンドリストから削除しました。';
+$string['removedfromfriendslistmessagereason'] = '%s があなたをフレンドリストから削除しました。
 削除理由は:';
 $string['cantremovefriend'] = 'あなたは、このユーザをフレンドリストから削除できません。';
 $string['friendshipalreadyrequested'] = 'あなたは %s のフレンドリストへの追加をリクエストしました。';
