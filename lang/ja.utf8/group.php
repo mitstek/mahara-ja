@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-10-02 21:40:20 UTC
+ * @updated    2008-10-03 15:51:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -30,7 +30,7 @@ defined('INTERNAL') || die();
 
 $string['groupname'] = 'グループ名';
 $string['creategroup'] = 'グループを作成する';
-$string['groupmemberrequests'] = '保留中のメンバーシップリクエスト';
+$string['groupmemberrequests'] = '保留中メンバーシップリクエスト';
 $string['sendinvitation'] = '招待状を送信する';
 $string['invitetogroupsubject'] = 'あなたは、グループへの参加を招待されました。';
 $string['invitetogroupmessage'] = '%s がグループ「 %s 」へのあなたの参加を招待しました。詳細は、下記リンクをクリックしてください。';
@@ -51,7 +51,7 @@ $string['membershiptype.controlled'] = '管理メンバーシップ';
 $string['membershiptype.invite'] = '招待のみ';
 $string['membershiptype.request'] = 'リクエストメンバーシップ';
 $string['membershiptype.open'] = 'オープンメンバーシップ';
-$string['pendingmembers'] = '保留中のメンバー';
+$string['pendingmembers'] = '保留中メンバー';
 $string['reason'] = '理由';
 $string['approve'] = '承認';
 $string['reject'] = '拒否';
@@ -122,8 +122,8 @@ $string['groupsimin'] = '私が参加しているグループ';
 $string['groupsiown'] = '私が所有しているグループ';
 $string['groupsiminvitedto'] = '私が招待されているグループ';
 $string['groupsiwanttojoin'] = '私が参加したいグループ';
-$string['therearependingrequests'] = 'このグループには、%s 件の保留メンバーシップリクエストがあります。';
-$string['thereispendingrequest'] = 'このグループには、1 件の保留メンバーシップリクエストがあります。';
+$string['therearependingrequests'] = 'このグループには、%s 件の保留中メンバーシップリクエストがあります。';
+$string['thereispendingrequest'] = 'このグループには、1 件の保留中メンバーシップリクエストがあります。';
 $string['requestedtojoin'] = 'あなたは、このグループへの参加をリクエストしました。';
 $string['groupnotfound'] = 'ID %s のグループはありません。';
 $string['groupconfirmleave'] = '本当にこのグループから離れてもよろしいですか?';
@@ -179,7 +179,7 @@ $string['friendrequestrejectedmessagereason'] = '%s があなたのフレンド�
 拒否理由は:';
 $string['allfriends'] = 'すべてのフレンド';
 $string['currentfriends'] = '現在のフレンド';
-$string['pendingfriends'] = '保留中のフレンド';
+$string['pendingfriends'] = '保留中フレンド';
 $string['backtofriendslist'] = 'フレンドリストに戻る';
 $string['findnewfriends'] = '新しいフレンドを探す';
 $string['Views'] = 'ビュー';
@@ -189,7 +189,7 @@ $string['noviewstosee'] = 'あなたが閲覧できるものはありません :
 $string['whymakemeyourfriend'] = 'あなたが私をフレンドにする理由:';
 $string['approverequest'] = 'リクエストを承認する!';
 $string['denyrequest'] = 'リクエストを拒否する';
-$string['pending'] = '保留';
+$string['pending'] = '保留中';
 $string['trysearchingforfriends'] = 'あなたのネットワークを広げるため、%s新しいフレンドの検索%sを試してみてください。';
 $string['nobodyawaitsfriendapproval'] = 'あなたのフレンドになるための承認を待っているユーザはいません。';
 $string['sendfriendrequest'] = 'フレンドリクエストを送信する!';
