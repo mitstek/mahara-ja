@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-29 16:32:57 UTC
+ * @updated    2008-10-05 09:42:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -209,7 +209,7 @@ $string['noaccesstoview'] = 'あなたには、このビューにアクセスす
 $string['Template'] = 'テンプレート';
 $string['allowcopying'] = 'コピーを許可する';
 $string['templatedescription'] = 'このチェックボックスをチェックした場合、ユーザにあなたのビューを自分のビューとしてコピーできるようにします。';
-$string['copiedblocksandartefactsfromtemplate'] = '%d のブロックおよび %d のアーティファクトを %s からコピーしました。';
+$string['copiedblocksandartefactsfromtemplate'] = '%d 個のブロックおよび %d 件のアーティファクトを %s からコピーしました。';
 $string['filescopiedfromviewtemplate'] = '%s からコピーされたファイル';
 $string['viewfilesdirname'] = 'ビューファイル';
 $string['viewfilesdirdesc'] = 'コピーされたビューのファイル';
@@ -236,7 +236,7 @@ $string['selectaviewtocopy'] = 'あなたがコピーしたいビューを選択
 $string['listviews'] = 'ビューを一覧表示する';
 $string['nocopyableviewsfound'] = 'あなたがコピーできるビューはありません。';
 $string['noownersfound'] = 'オーナーが見つかりませんでした。';
-$string['viewsby'] = '%s のビュー';
+$string['viewsby'] = 'ビュー by %s';
 $string['close'] = '閉じる';
 $string['closepreview'] = 'プレビューを閉じる'; // TBD
 $string['displayingviewsby'] = '%s によるビューを表示'; // TBD
