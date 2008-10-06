@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-08-17 14:38:24 UTC
+ * @updated    2008-10-06 02:51:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -30,11 +30,11 @@ defined('INTERNAL') || die();
 
 $string['aboutdefaultcontent'] = '<h2>Maharaとは</h2>
 
-<p>Maharaは、マシー大学 (Massey University)、オークランド工科大学 (Auckland University of Technology)、オープン・ポリテクニック・ニュージーランド (The Open Polytechnic of New Zealand)、ビクトリア大学ウェリントン (Victoria University of Wellington) を含む、ニュージーランド高等教育委員会のeラーニング共同開発ファンド (eCDF, Tertiary Education Commission\'s e-learning Collaborative Development Fund) の資金援助により、2006年に設立された共同事業です。</p>
+<p>Maharaは、マシー大学 (Massey University)、オークランド工科大学 (Auckland University of Technology)、オープン・ポリテクニック・ニュージーランド (The Open Polytechnic of New Zealand)、ビクトリア大学ウェリントン (Victoria University of Wellington) を含む、ニュージーランド高等教育委員会のeラーニング共同開発ファンド (eCDF, Tertiary Education Commission's e-learning Collaborative Development Fund) の資金援助により、2006年に設立された共同事業の成果です。</p>
 
 <p>Maharaはユーザを結び、コミュニティを作成することのできる、十分な機能を有したeポートフォリオ、ウェブログ、レジュメビルダおよびソーシャルネットワーキングシステムです。Maharaは、ユーザに対して個人学習、専門教育および開発環境を構築するツールを提供します。</p>
 
-<p>Maharaとは、マオリ語 (Te Reo Māori) で、「熟考」または「思索」を意味します。教授方略の熟考なしには技術ソリューションを開発できないという信念と共に、プロジェクト協力者の献身による、ユーザを中心とした生涯学習およびアプリケーション開発に、その名称が反映されています。</p>
+<p>Maharaとは、マオリ語 (Te Reo Māori) で、「熟考」または「思索」を意味します。教授方略の熟考なしには技術的解決策を開発できないという信念と共に、プロジェクト協力者の献身による、ユーザを中心とした生涯学習およびアプリケーション開発に、その名称が反映されています。</p>
 
 <p>Maharaは (GNU General Public License 一般公衆利用許諾契約書の下)、無償のオープンソースソフトウェアとして提供されます。下記条件を同意することにより、あなたにMaharaのコピー、使用および修正が許可されていることを意味します:</p>
 
@@ -51,12 +51,12 @@ $string['homedefaultcontent'] = '<h2>Maharaにようこそ</h2>
 
 <p>Maharaはユーザを結び、コミュニティを作成することのできる、十分な機能を有したeポートフォリオ、ウェブログ、レジュメビルダおよびソーシャルネットワーキングシステムです。Maharahaは、あなたに個人学習および開発環境を構築するツールを提供します。</p>
 
-<p>Maharaに関する詳細は、For more information you can read <a href="about.php">About</a>をお読みください。また、私たちに<a href="contact.php">お気軽にお問い合わせください</a>。</p>';
+<p>Maharaに関する詳細は、<a href="about.php">About</a>をお読みください。また、私たちに<a href="contact.php">お気軽にお問い合わせください</a>。</p>';
 $string['loggedouthomedefaultcontent'] = '<h2>Maharaにようこそ</h2>
 
 <p>Maharaはユーザを結び、コミュニティを作成することのできる、十分な機能を有したeポートフォリオ、ウェブログ、レジュメビルダおよびソーシャルネットワーキングシステムです。Maharahaは、あなたに個人学習および開発環境を構築するツールを提供します。</p>
 
-<p>Maharaに関する詳細は、For more information you can read <a href="about.php">About</a>をお読みください。また、私たちに<a href="contact.php">お気軽にお問い合わせください</a>。</p>';
+<p>Maharaに関する詳細は、<a href="about.php">About</a>をお読みください。また、私たちに<a href="contact.php">お気軽にお問い合わせください</a>。</p>';
 $string['privacydefaultcontent'] = '<h2>プライバシー保護方針</h2>
 
 <h3>イントロダクション</h3>
@@ -110,7 +110,7 @@ $string['termsandconditionsdefaultcontent'] = '<h2>使用条件</h2>
 
 <h3>あなたの義務</h3>
 
-<p>すべてのユーザは、使用条件に加えて、<a href="privacy.php">プライバシー保護方針</a>を読んだ上で、その内容を考慮する必要があります。</p>
+<p>すべてのユーザは、使用条件に加えて、<a href="privacy.php">プライバシー保護方針</a>を読んだ上、その内容を考慮する必要があります。</p>
 
 <p>サイト管理者により設定された一定期間または一定の休眠期間により、あなたの[Mahara]アカウントは無効となります。あなたのアカウントの有効期限が切れる前、メールによるリマインダが送信されます。将来的に再利用できるよう、あなたのパーソナルコンピュータに最新のポートフォリオを保存されることをお勧めします。</p>
 
