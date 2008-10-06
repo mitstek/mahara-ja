@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-10-06 02:51:02 UTC
+ * @updated    2008-10-06 03:42:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -30,7 +30,7 @@ defined('INTERNAL') || die();
 
 $string['aboutdefaultcontent'] = '<h2>Maharaとは</h2>
 
-<p>Maharaは、マシー大学 (Massey University)、オークランド工科大学 (Auckland University of Technology)、オープン・ポリテクニック・ニュージーランド (The Open Polytechnic of New Zealand)、ビクトリア大学ウェリントン (Victoria University of Wellington) を含む、ニュージーランド高等教育委員会のeラーニング共同開発ファンド (eCDF, Tertiary Education Commission's e-learning Collaborative Development Fund) の資金援助により、2006年に設立された共同事業の成果です。</p>
+<p>Maharaは、マシー大学 (Massey University)、オークランド工科大学 (Auckland University of Technology)、オープン・ポリテクニック・ニュージーランド (The Open Polytechnic of New Zealand)、ビクトリア大学ウェリントン (Victoria University of Wellington) を含む、ニュージーランド高等教育委員会のeラーニング共同開発ファンド (eCDF, Tertiary Education Commission\'s e-learning Collaborative Development Fund) の資金援助により、2006年に設立された共同事業の成果です。</p>
 
 <p>Maharaはユーザを結び、コミュニティを作成することのできる、十分な機能を有したeポートフォリオ、ウェブログ、レジュメビルダおよびソーシャルネットワーキングシステムです。Maharaは、ユーザに対して個人学習、専門教育および開発環境を構築するツールを提供します。</p>
 
