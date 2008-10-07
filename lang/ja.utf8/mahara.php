@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-29 16:35:10 UTC
+ * @updated    2008-10-07 02:29:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -201,14 +201,14 @@ $string['accountsuspended'] = '%s 現在、あなたのアカウントは利用�
 $string['youraccounthasbeensuspended'] = 'あなたのアカウントが利用停止されました。';
 $string['youraccounthasbeenunsuspended'] = 'あなたのアカウントの利用停止が解除されました。';
 $string['changepassword'] = 'パスワードを変更する';
-$string['changepasswordinfo'] = '開始する前に、あなたのパスワードを変更してください。';
+$string['changepasswordinfo'] = '開始する前に、あなたはパスワードを変更する必要があります。';
 $string['confirmpassword'] = 'パスワードをもう一度';
 $string['javascriptnotenabled'] = 'あなたのブラウザでは、このサイトに対してJavaスクリプトが有効にされていません。Maharaでは、あなたがログインする前にJavaスクリプトを有効にする必要があります。';
 $string['cookiesnotenabled'] = 'あなたのブラウザでは、クッキーが有効にされていないか、このサイトからのクッキーがブロックされています。Maharaでは、あなたがログインする前にクッキーを有効にする必要があります。';
 $string['institution'] = 'インスティテューション';
 $string['loggedoutok'] = 'あなたは正常にログアウトしました。';
 $string['login'] = 'ログイン';
-$string['loginfailed'] = 'あなたは、正しいログイン情報を提供していないようです。あなたのユーザ名およびパスワードが正しいかご確認ください。';
+$string['loginfailed'] = 'あなたは、正しいログイン情報を提供していないようです。あなたのユーザ名およびパスワードが正しいどうか確認してください。';
 $string['loginto'] = '%s にログインする';
 $string['newpassword'] = '新しいパスワード';
 $string['nosessionreload'] = 'ログインするには、ページをリロードしてください。';
@@ -220,9 +220,9 @@ $string['passwordsaved'] = 'あなたの新しいパスワードが保存され�
 $string['passwordsdonotmatch'] = 'パスワードが合致しません。';
 $string['passwordtooeasy'] = 'あなたのパスワードは簡単すぎます! 難しいパスワードを入力してください。';
 $string['register'] = 'ユーザ登録';
-$string['sessiontimedout'] = 'あなたのセッションはタイムアウトしました。続けるには、再度ログインしてください。';
-$string['sessiontimedoutpublic'] = 'あなたのセッションはタイムアウトしました。閲覧を続けるには、<a href="%s">ログイン</a>してください。';
-$string['sessiontimedoutreload'] = 'あなたのセッションはタイムアウトしました。再度ログインするには、ページをリロードしてください。';
+$string['sessiontimedout'] = 'あなたのセッションは、タイムアウトしました。続けるには、再度ログインしてください。';
+$string['sessiontimedoutpublic'] = 'あなたのセッションは、タイムアウトしました。閲覧を続けるには、<a href="%s">ログイン</a>してください。';
+$string['sessiontimedoutreload'] = 'あなたのセッションは、タイムアウトしました。再度ログインするには、ページをリロードしてください。';
 $string['username'] = 'ユーザ名';
 $string['preferredname'] = 'ニックネーム';
 $string['usernamehelp'] = 'このシステムにアクセスするため、あなたに与えられたユーザ名です。';
@@ -244,8 +244,8 @@ $string['lastname'] = '姓';
 $string['studentid'] = 'IDナンバー';
 $string['displayname'] = '表示名';
 $string['fullname'] = 'フルネーム';
-$string['registerstep1description'] = 'ようこそ! このサイトを使用するには、最初にユーザ登録してください。また、<a href="terms.php">使用条件</a>に同意する必要があります。ここで収集したデータは、私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
-$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常にユーザ登録されました! あなたのアバターとして表示する、任意のプロファイルアイコンを選択することができます。</p>';
+$string['registerstep1description'] = 'ようこそ! このサイトを使用するには、最初にユーザ登録してください。また、あなたは、<a href="terms.php">使用条件</a>に同意する必要があります。ここで収集したデータは、私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
+$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは、正常にユーザ登録されました! あなたのアバターとして表示する、任意のプロファイルアイコンを選択することができます。</p>';
 $string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは、必須入力フィールドです。あなたのユーザ登録が完了する前に、すべての必須入力フィールドに入力してください。/p>';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムに登録できません。';
 $string['membershipexpiry'] = 'メンバーシップ有効期限切れ';
@@ -256,7 +256,7 @@ $string['language'] = '言語';
 $string['cantchangepassword'] = '申し訳ございません、このインターフェース経由でパスワードを変更することはできません - 代わりに、あなたのインスティテューションのインターフェースを使用してください。';
 $string['forgotusernamepassword'] = 'あなたのユーザ名またはパスワードを忘れましたが?';
 $string['forgotusernamepasswordtext'] = '<p>あなたがユーザ名またはパスワードを忘れた場合、あなたのプロファイルに登録された主メールアドレスを下記に入力してください。あなたが新しいパスワードを作成することのできるメッセージを送信します。</p>
-<p>パスワードを忘れて、あなたのユーザ名が分かる場合、ユーザ名を入力することもできます。</p>';
+<p>あなたがパスワードを忘れて、ユーザ名を忘れていない場合、ユーザ名を入力することもできます。</p>';
 $string['lostusernamepassword'] = 'ユーザ名/パスワードを忘れました。';
 $string['emailaddressorusername'] = 'メールアドレスまたはユーザ名';
 $string['pwchangerequestsent'] = 'あなたのパスワードを変更するためのリンクを記載したメールが、まもなく送信されます。';
@@ -364,7 +364,7 @@ $string['editmyprofilepage'] = 'プロファイルページを編集する';
 $string['unreadmessages'] = '未読メッセージ';
 $string['unreadmessage'] = '未読メッセージ';
 $string['siteclosed'] = 'データベースアップグレードのため、サイトは一時的に閉鎖されています。サイト管理者は、ログインすることができます。';
-$string['siteclosedlogindisabled'] = 'データベースアップグレードのため、サイトは一時的に閉鎖されています。<a href="%s">今からアップグレードを実行する。</a>';
+$string['siteclosedlogindisabled'] = 'データベースアップグレードのため、サイトは一時的に閉鎖されています。<a href="%s">今からアップグレードを実行します。</a>';
 $string['termsandconditions'] = '使用条件';
 $string['privacystatement'] = 'プライバシー保護方針';
 $string['about'] = 'About';
@@ -375,7 +375,7 @@ $string['preferences'] = 'プリファレンス';
 $string['activityprefs'] = '活動プリファレンス';
 $string['notifications'] = '通知';
 $string['institutionmembership'] = 'インスティテューションメンバーシップ';
-$string['institutionmembershipdescription'] = 'ここには、あなたがメンバーとなっているインスティテューションが表示されます。あなたは、インスティテューションのメンバーシップをリクエストすることもできます。また、インスティテューションがあなたに参加を招待した場合、あなたは招待を承認または拒否することができます。';
+$string['institutionmembershipdescription'] = 'ここには、あなたがメンバーとなっているインスティテューションが表示されます。あなたは、インスティテューションのメンバーシップをリクエストすることもできます。また、インスティテューションがあなたに参加招待した場合、あなたは招待を承認または拒否することができます。';
 $string['youareamemberof'] = 'あなたは　%s のメンバーです。';
 $string['leaveinstitution'] = 'インスティテューションを離れる';
 $string['reallyleaveinstitution'] = '本当にこのインスティテューションから離れてもよろしいですか?';
@@ -440,7 +440,7 @@ $string['quarantinedirname'] = '隔離場所';
 $string['clammovedfile'] = 'ファイルが隔離場所に移動されました。';
 $string['clamdeletedfile'] = 'ファイルが削除されました。';
 $string['clamdeletedfilefailed'] = 'ファイルを削除できませんでした。';
-$string['clambroken'] = 'あなたの管理者がファイルのアップロードに関してウイルスチェックを有効にしましたが、設定が正しくないようです。あなたのファイルは正常にアップロードされませんでした。あなたの管理者にメール通知が送信されましたので、管理者は問題を修正することができます。このファイルのアップロードを後でお試しください。';
+$string['clambroken'] = 'あなたの管理者がファイルのアップロードに関して、ウイルスチェックを有効にしましたが、設定が正しくないようです。あなたのファイルは、正常にアップロードされませんでした。あなたの管理者にメール通知が送信されましたので、管理者は問題を修正することができます。このファイルのアップロードを後でお試しください。';
 $string['clamemailsubject'] = '%s :: Clam AV通知';
 $string['clamlost'] = 'Clam AVがファイルのアップロード時に動作するよう設定されていますが、Clam AVのパス「 %s 」が正しくありません。';
 $string['clamfailed'] = 'Clam AVの動作にエラーが発生しました。エラーメッセージは、%s です。Clam AVのアウトプットは次のとおりです:';
