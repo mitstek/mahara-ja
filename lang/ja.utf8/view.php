@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-10-05 09:42:38 UTC
+ * @updated    2008-10-09 04:34:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -92,8 +92,8 @@ $string['addedtowatchlist'] = 'このビューがあなたのウォッチリス�
 $string['attachment'] = '添付ファイル';
 $string['removedfromwatchlist'] = 'このビューがあなたのウォッチリストから削除されました。';
 $string['addfeedbackfailed'] = 'フィードバックの追加に失敗しました。';
-$string['addtowatchlist'] = 'ビューをウォッチリストに追加する';
-$string['removefromwatchlist'] = 'ビューをウォッチリストから削除する';
+$string['addtowatchlist'] = 'ウォッチリストにビューを追加する';
+$string['removefromwatchlist'] = 'ウォッチリストからビューを削除する';
 $string['alreadyinwatchlist'] = 'このビューは、すでにあなたのウォッチリストに登録されています。';
 $string['attachedfileaddedtofolder'] = '添付ファイル「 %s 」が、あなたの「 %s 」フォルダに追加されました。';
 $string['attachfile'] = '添付ファイル';
