@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-10-09 04:34:45 UTC
+ * @updated    2008-10-10 01:06:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,9 +29,9 @@
 defined('INTERNAL') || die();
 
 $string['createview'] = 'ビューを作成する';
-$string['createviewstepone'] = 'ビューの作成ステップ1: 詳細';
-$string['createviewsteptwo'] = 'ビューの作成ステップ2: レイアウト';
-$string['createviewstepthree'] = 'ビューの作成ステップ3: アクセス';
+$string['createviewstepone'] = 'ビューの作成 ステップ1: 詳細';
+$string['createviewsteptwo'] = 'ビューの作成 ステップ2: レイアウト';
+$string['createviewstepthree'] = 'ビューの作成 ステップ3: アクセス';
 $string['editviewdetails'] = 'ビュー「 %s 」の詳細を編集する';
 $string['editblocksforview'] = 'ビュー「 %s 」を編集する';
 $string['editaccessforview'] = 'ビュー「 %s 」のアクセスを編集する';
@@ -131,7 +131,7 @@ $string['cantdeleteview'] = 'あなたは、このビューを削除できませ
 $string['deletespecifiedview'] = 'ビュー「 %s 」を削除する';
 $string['deleteviewconfirm'] = '本当にこのビューを削除してもよろしいですか? 元に戻すことはできません。';
 $string['editaccesspagedescription2'] = '<p>デフォルトでは、あなたのみビューを閲覧することができます。ここでは、あなたのビュー情報を閲覧させたいユーザを選択することができます。公開、ログインユーザ、フレンドにアクセス権を与えるには、「追加」をクリックしてください。個別のユーザまたはグループを検索するには、検索ボックスを使用してください。すべての追加されたユーザまたはグループは、右側のウィンドウ枠に表示されます。</p>
-<p>追加処理を終えて続けるには、「保存」ボタンをクリックしてください。</p>';
+<p>追加処理を終了して続けるには、「保存」ボタンをクリックしてください。</p>';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
 $string['overridingstartstopdatesdescription'] = 'あなたは、開始日および終了日をオーバーライドすることができます。アクセス開始日およびアクセス終了日をどのように設定したとしても、開始日以前および終了日以降には、他のユーザはビューを閲覧することができません。';
 $string['emptylabel'] = 'このラベルのテキストを入力するには、ここをクリックしてください。';
@@ -177,7 +177,7 @@ $string['configureblock'] = 'このブロックを設定する';
 $string['removeblock'] = 'このブロックを削除する';
 $string['blocktitle'] = 'ブロックタイトル';
 $string['changemyviewlayout'] = 'マイビューのレイアウトを変更する';
-$string['viewcolumnspagedescription'] = '最初に、あなたのビューのカラム数を選択してください。次のステップで、あなたはカラム幅を変更することができます。';
+$string['viewcolumnspagedescription'] = '最初に、あなたのビューのカラム数を選択してください。次のステップで、あなたは、カラム幅を変更することができます。';
 $string['viewlayoutpagedescription'] = 'あなたのビューカラムをどのように配置するか選択してください。';
 $string['changeviewlayout'] = 'ビューレイアウトを変更する';
 $string['backtoyourview'] = 'マイビューに戻る';
@@ -208,7 +208,7 @@ $string['access'] = 'アクセス';
 $string['noaccesstoview'] = 'あなたには、このビューにアクセスするパーミッションがありません。';
 $string['Template'] = 'テンプレート';
 $string['allowcopying'] = 'コピーを許可する';
-$string['templatedescription'] = 'このチェックボックスをチェックした場合、ユーザにあなたのビューを自分のビューとしてコピーできるようにします。';
+$string['templatedescription'] = 'このチェックボックスをチェックした場合、あなたのビューを閲覧できるユーザに対して、自分のビューとしてコピーできるようにします。';
 $string['copiedblocksandartefactsfromtemplate'] = '%d 個のブロックおよび %d 件のアーティファクトを %s からコピーしました。';
 $string['filescopiedfromviewtemplate'] = '%s からコピーされたファイル';
 $string['viewfilesdirname'] = 'ビューファイル';
@@ -220,9 +220,9 @@ $string['createemptyview'] = '空のビューを作成する';
 $string['copyaview'] = 'ビューをコピーする';
 $string['Untitled'] = 'タイトルなし';
 $string['copyfornewusers'] = '新しいユーザにコピーする';
-$string['copyfornewusersdescription'] = '新しいユーザが作成された場合、このビューをユーザポートフォリオ内にパーソナルコピーとして作成します。';
+$string['copyfornewusersdescription'] = '新しいユーザが作成された場合、このビューをユーザポートフォリオ内にパーソナルコピーとして自動作成します。';
 $string['copyfornewmembers'] = '新しいインスティテューションメンバーにコピーする';
-$string['copyfornewmembersdescription'] = '%s のすべての新しいメンバーに対して、このビューのパーソナルコピーを自動的に作成します。';
+$string['copyfornewmembersdescription'] = '%s のすべての新しいメンバーに対して、このビューのパーソナルコピーを自動作成します。';
 $string['copyfornewgroups'] = '新しいグループにコピーする';
 $string['copyfornewgroupsdescription'] = '以下のグループタイプの新しいグループすべてに対して、このビューをコピーします:';
 $string['searchviews'] = 'ビューを検索する';
