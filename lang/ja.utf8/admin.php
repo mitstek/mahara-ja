@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-24 05:09:27 UTC
+ * @updated    2008-10-12 04:51:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -96,9 +96,9 @@ $string['institutionfiles'] = 'インスティテューションファイル';
 $string['institutionfilesdescription'] = 'インスティテューションビューで使用するファイルをアップロードおよび管理します。';
 $string['pluginadmin'] = 'プラグイン管理';
 $string['pluginadmindescription'] = 'プラグインをインストールおよび設定します。';
-$string['allowpublicviews'] = '公開ビューを許可する';
+$string['allowpublicviews'] = 'パブリックビューを許可する';
 $string['allowpublicviewsdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なポートフォリオビューを作成することができます。';
-$string['allowpublicprofiles'] = '公開プロファイルを許可する';
+$string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowpublicprofilesdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なプロファイルビューを作成することができます。';
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
 $string['defaultaccountinactiveexpiredescription'] = 'ログインがない状態で、どのくらいの期間、アカウントはアクティブのままですか。';
@@ -146,7 +146,7 @@ $string['sitepageloaded'] = 'サイトページが読み込まれました。';
 $string['termsandconditions'] = '使用条件';
 $string['uploadcopyright'] = 'アップロード著作権宣言文';
 $string['sitefile'] = 'サイトファイル';
-$string['adminpublicdirname'] = '公開';
+$string['adminpublicdirname'] = 'パブリック';
 $string['adminpublicdirdescription'] = 'ログアウトしたユーザからアクセス可能なファイルです。';
 $string['badmenuitemtype'] = '不明なメニューアイテムタイプ';
 $string['confirmdeletemenuitem'] = '本当にこのアイテムを削除してもよろしいですか?';
@@ -159,16 +159,16 @@ $string['linksandresourcesmenupagedescription'] = '「リンクおよびリソ�
 $string['loadingmenuitems'] = 'メニューアイテムのロード中';
 $string['loadmenuitemsfailed'] = 'メニューアイテムのロードに失敗しました。';
 $string['loggedinmenu'] = 'ログイン後の「リンクおよびリソース」';
-$string['loggedoutmenu'] = '公開「リンクおよびリソース」';
+$string['loggedoutmenu'] = 'パブリックの「リンクおよびリソース」';
 $string['menuitemdeleted'] = 'メニューアイテムが削除されました。';
 $string['menuitemsaved'] = 'メニューアイテムが保存されました。';
 $string['menuitemsloaded'] = 'メニューアイテムが読み込まれました。';
 $string['name'] = '名称';
 $string['nositefiles'] = '利用できるサイトファイルは、ありません。';
-$string['public'] = '公開';
+$string['public'] = 'パブリック';
 $string['savingmenuitem'] = 'メニューアイテムの保存中';
 $string['type'] = 'タイプ';
-$string['adminfilespagedescription'] = 'あなたは、ここで%s「リンクおよびリソース」メニュー%sに含むことのできるファイルをアップロードすることができます。公開ディレクトリのファイルは「公開リンクおよびリソース」に追加できるのに対して、ホームディレクトリのファイルは「ログインメニュー」に追加することができます。';
+$string['adminfilespagedescription'] = 'あなたは、ここで%s「リンクおよびリソース」メニュー%sに含むことのできるファイルをアップロードすることができます。パブリックディレクトリのファイルはパブリックの「リンクおよびリソース」メニューに追加できるのに対して、ホームディレクトリのファイルはログイン後の「リンクおよびリソース」メニューに追加することができます。';
 $string['networkingextensionsmissing'] = '申し訳ございません、インストール済みPHPでいくつかの必須拡張モジュールが不足しているため、あなたはMaharaネットワーキングを設定できません。';
 $string['publickey'] = '公開鍵';
 $string['publickeydescription2'] = 'この公開鍵は自動的に生成され、%s 日ごとにローテートされます。';

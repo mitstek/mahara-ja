@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-10-10 01:06:57 UTC
+ * @updated    2008-10-12 04:55:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -75,7 +75,7 @@ $string['viewsownedbygroup'] = 'このグループが所有しているビュー
 $string['viewssharedtogroup'] = 'このグループで共有されているビュー';
 $string['viewssharedtogroupbyothers'] = 'このグループで共有されている、他のメンバーのビュー';
 $string['viewssubmittedtogroup'] = 'このグループに送信されたビュー';
-$string['public'] = '公開';
+$string['public'] = 'パブリック';
 $string['loggedin'] = 'ログインユーザ';
 $string['friends'] = 'フレンド';
 $string['groups'] = 'グループ';
@@ -84,7 +84,7 @@ $string['friendslower'] = 'フレンド';
 $string['grouplower'] = 'グループ';
 $string['tutors'] = 'チューター';
 $string['loggedinlower'] = 'ログインユーザ';
-$string['publiclower'] = '公開';
+$string['publiclower'] = 'パブリック';
 $string['everyoneingroup'] = 'グループのユーザすべて';
 $string['inviteusertojoingroup'] = 'このユーザをグループへの参加に招待する';
 $string['addusertogroup'] = 'このユーザをグループに追加する';
@@ -106,14 +106,14 @@ $string['feedbackattachmessage'] = '添付ファイルが、あなたの「 %s �
 $string['feedbackonthisartefactwillbeprivate'] = 'このアーティファクトのフィードバックは、オーナーのみ閲覧することができます。';
 $string['feedbackonviewbytutorofgroup'] = '%s のフィードバック 投稿者: %s (%s)';
 $string['feedbacksubmitted'] = 'フィードバックが送信されました。';
-$string['makepublic'] = '公開する';
-$string['nopublicfeedback'] = '公開フィードバックはありません。';
+$string['makepublic'] = 'パブリックにする';
+$string['nopublicfeedback'] = 'パブリックフィードバックはありません。';
 $string['notifysiteadministrator'] = 'サイト管理者に通知する';
 $string['placefeedback'] = 'フィードバックを投稿する';
 $string['print'] = 'プリント';
-$string['thisfeedbackispublic'] = 'このフィードバックは公開されています。';
-$string['thisfeedbackisprivate'] = 'このフィードバックは非公開です。';
-$string['makeprivate'] = '非公開に変更する';
+$string['thisfeedbackispublic'] = 'このフィードバックは、パブリック (公開) にされています。';
+$string['thisfeedbackisprivate'] = 'このフィードバックは、プライベート (非公開) です。';
+$string['makeprivate'] = 'プライベート (非公開) に変更する';
 $string['reportobjectionablematerial'] = '好ましくない内容を報告する';
 $string['reportsent'] = 'あなたの報告が送信されました。';
 $string['updatewatchlistfailed'] = 'ウォッチリストの更新に失敗しました。';
@@ -130,7 +130,7 @@ $string['cantsubmitviewtogroup'] = 'あなたは、このビューの評価を�
 $string['cantdeleteview'] = 'あなたは、このビューを削除できません。';
 $string['deletespecifiedview'] = 'ビュー「 %s 」を削除する';
 $string['deleteviewconfirm'] = '本当にこのビューを削除してもよろしいですか? 元に戻すことはできません。';
-$string['editaccesspagedescription2'] = '<p>デフォルトでは、あなたのみビューを閲覧することができます。ここでは、あなたのビュー情報を閲覧させたいユーザを選択することができます。公開、ログインユーザ、フレンドにアクセス権を与えるには、「追加」をクリックしてください。個別のユーザまたはグループを検索するには、検索ボックスを使用してください。すべての追加されたユーザまたはグループは、右側のウィンドウ枠に表示されます。</p>
+$string['editaccesspagedescription2'] = '<p>デフォルトでは、あなたのみビューを閲覧することができます。ここでは、あなたのビュー情報を閲覧させたいユーザを選択することができます。パブリック、ログインユーザ、フレンドにアクセス権を与えるには、「追加」をクリックしてください。個別のユーザまたはグループを検索するには、検索ボックスを使用してください。すべての追加されたユーザまたはグループは、右側のウィンドウ枠に表示されます。</p>
 <p>追加処理を終了して続けるには、「保存」ボタンをクリックしてください。</p>';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
 $string['overridingstartstopdatesdescription'] = 'あなたは、開始日および終了日をオーバーライドすることができます。アクセス開始日およびアクセス終了日をどのように設定したとしても、開始日以前および終了日以降には、他のユーザはビューを閲覧することができません。';
@@ -140,7 +140,7 @@ $string['viewinformationsaved'] = 'ビュー情報が正常に保存されまし
 $string['canteditdontown'] = 'あなたの所有ではないため、このビューを編集できません。';
 $string['canteditdontownfeedback'] = 'あなたの所有ではないため、このフィードバックを編集できません。';
 $string['canteditsubmitted'] = 'グループ「 %s 」による評価を目的として送信されたため、あなたはこのビューを編集することはできません。あなたのビューをチューターがリリースするまで、お待ちください。';
-$string['feedbackchangedtoprivate'] = 'フィードバックが非公開に変更されました。';
+$string['feedbackchangedtoprivate'] = 'フィードバックがプライベート (非公開) に変更されました。';
 $string['addtutors'] = 'チューターを追加する';
 $string['viewcreatedsuccessfully'] = 'ビューが正常に作成されました。';
 $string['viewaccesseditedsuccessfully'] = 'ビューアクセスが正常に保存されました。';

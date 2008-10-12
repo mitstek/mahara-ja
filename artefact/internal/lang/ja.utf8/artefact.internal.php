@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-18 18:40:10 UTC
+ * @updated    2008-10-12 04:40:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -32,11 +32,11 @@ $string['pluginname'] = 'プロファイル';
 $string['profile'] = 'プロファイル';
 $string['myfiles'] = 'マイファイル';
 $string['mandatory'] = '必須';
-$string['public'] = '公開';
+$string['public'] = 'パブリック';
 $string['profileiconsize'] = 'アイコンサイズ';
 $string['aboutdescription'] = 'あなたの本名をここに入力してください。あなたがシステム内のユーザに対して異なる名前を表示したい場合、ニックネーム欄に別名を入力してください。';
-$string['contactdescription'] = 'あなたがビューに置かない限り、この情報はすべて非公開となります。';
-$string['messagingdescription'] = 'あなたの連絡先と同じく、この情報も非公開です。';
+$string['contactdescription'] = 'あなたがビューに置かない限り、この情報はすべてプライベート (非公開) となります。';
+$string['messagingdescription'] = 'あなたの連絡先と同じく、この情報もプライベート (非公開) です。';
 $string['viewmyprofile'] = '私のプロファイルを表示する';
 $string['aboutme'] = '私について';
 $string['contact'] = '連絡先';
