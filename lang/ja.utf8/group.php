@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-10-03 15:51:23 UTC
+ * @updated    2008-10-15 04:15:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -225,6 +225,7 @@ $string['addusertogroup'] = '追加';
 $string['inviteusertojoingroup'] = '招待';
 $string['invitemembertogroup'] = '%s を「 %s 」に招待する';
 $string['cannotinvitetogroup'] = 'あなたは、このユーザをグループに招待できません。';
+$string['useralreadyinvitedtogroup'] = 'このユーザは、すでに招待されているか、このグループのメンバーになっています。';
 $string['removefriend'] = 'フレンドを削除する';
 $string['denyfriendrequestlower'] = 'フレンドリクエストを拒否する';
 $string['groupinteractions'] = 'グループ活動';
