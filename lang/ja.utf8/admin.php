@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-10-12 04:51:47 UTC
+ * @updated    2008-10-17 21:40:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -109,8 +109,6 @@ $string['defaultaccountlifetimedescription'] = '有効期限が切れるまで�
 $string['language'] = '言語';
 $string['pathtoclam'] = 'clamのパス';
 $string['pathtoclamdescription'] = 'clamscanまたはclamdscanへのファイルシステムパスです。';
-$string['pathtofile'] = 'fileのパス';
-$string['pathtofiledescription'] = '「file」プログラムへのファイルシステムパスです。';
 $string['searchplugin'] = '検索プラグイン';
 $string['searchplugindescription'] = '使用する検索プラグイン';
 $string['sessionlifetime'] = 'セッションライフタイム';
@@ -379,6 +377,8 @@ $string['installed'] = 'インストール済み';
 $string['errors'] = 'エラー';
 $string['install'] = 'インストール';
 $string['reinstall'] = '再インストール';
+$string['pathtofile'] = 'fileのパス'; // TBD
+$string['pathtofiledescription'] = '「file」プログラムへのファイルシステムパスです。'; // TBD
 $string['publickeydescription'] = 'この公開鍵は自動的に生成され、28日ごとにローテートされます。'; // TBD
 $string['institutionaddedsuccessfully'] = 'インスティテューションが正常に追加されました。このインスティテューションの認証プラグインを設定してください。'; // TBD
 $string['registrationalloweddescription'] = 'ユーザがこのインスティテューションのシステムに登録できるかどうか設定します。'; // TBD
