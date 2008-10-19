@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-18 18:31:07 UTC
+ * @updated    2008-10-19 08:18:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -156,6 +156,29 @@ $string['mpg'] = 'MPGムービー';
 $string['ram'] = 'RAM Real Playerムービー';
 $string['rpm'] = 'RPM Real Playerムービー';
 $string['rm'] = 'RM Real Playerムービー';
+$string['profileiconsize'] = 'プロファイルアイコンサイズ';
+$string['profileicons'] = 'プロファイルアイコン';
+$string['Default'] = 'デフォルト';
+$string['deleteselectedicons'] = '選択されたアイコンを削除する';
+$string['profileicon'] = 'プロファイルアイコン';
+$string['noimagesfound'] = 'イメージはありません。';
+$string['uploadedprofileiconsuccessfully'] = '新しいプロファイルアイコンが正常にアップロードされました。';
+$string['profileiconsetdefaultnotvalid'] = 'デフォルトのプロファイルアイコンを設定できませんでした。選択が正しくありません。';
+$string['profileiconsdefaultsetsuccessfully'] = 'デフォルトプロファイルアイコンが正常に設定されました。';
+$string['profileiconsdeletedsuccessfully'] = 'プロファイルアイコンが正常に削除されました。';
+$string['profileiconsnoneselected'] = '削除するアイコンが選択されていません。';
+$string['onlyfiveprofileicons'] = 'あなたは、5つのプロファイルアイコンのみアップロードすることができます。';
+$string['or'] = 'または';
+$string['profileiconuploadexceedsquota'] = 'このファイルをアップロードすることで、あなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
+$string['profileiconimagetoobig'] = 'あなたがアップロードしたイメージは、大き過ぎます(%sx%s ピクセル)。%sx%s ピクセル以下のサイズにしてください。';
+$string['uploadingfile'] = 'ファイルのアップロード中 ...';
+$string['uploadprofileicon'] = 'プロファイルアイコンをアップロードする';
+$string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイルアイコンをアップロードすることができます。アイコンのアップロード後、あなたのデフォルトアイコンとして表示するアイコンを1つ選択してください。16x16 から%sx%s ピクセルの間であなたのアイコンを作成してください。';
+$string['setdefault'] = 'デフォルトに設定する';
+$string['Title'] = 'タイトル';
+$string['imagetitle'] = 'イメージタイトル';
+$string['usenodefault'] = 'デフォルトを使用しない';
+$string['usingnodefaultprofileicon'] = '現在、デフォルトのプロファイルアイコンはありません。';
 $string['adminfilesloaded'] = '管理ファイルが読み込まれました。'; // TBD
 $string['mp4'] = 'MP4オーディオファイル'; // TBD
 
