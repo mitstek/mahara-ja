@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-10-12 04:55:09 UTC
+ * @updated    2008-10-21 00:06:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -58,9 +58,9 @@ $string['editviewaccess'] = 'ビューアクセスを編集する';
 $string['deletethisview'] = 'このビューを削除する';
 $string['submitthisviewto'] = '評価のため、このビューを';
 $string['forassessment'] = 'に送信する';
-$string['accessfromdate'] = '%s 以前、誰もこのビューを閲覧できません。';
-$string['accessuntildate'] = '%s 以降、誰もこのビューを閲覧できません。';
-$string['accessbetweendates'] = '%s 以前または %s 以降、誰もこのビューを閲覧できません。';
+$string['accessfromdate2'] = '%s 以前、誰もこのビューを閲覧できません。';
+$string['accessuntildate2'] = '%s 以降、誰もこのビューを閲覧できません。';
+$string['accessbetweendates2'] = '%s 以前または %s 以降、誰もこのビューを閲覧できません。';
 $string['artefactsinthisview'] = 'このビューのアーティファクト';
 $string['whocanseethisview'] = '誰がこのビューを閲覧できますか';
 $string['view'] = 'ビュー';
@@ -68,7 +68,7 @@ $string['views'] = 'ビュー';
 $string['View'] = 'ビュー';
 $string['Views'] = 'ビュー';
 $string['viewsubmittedtogroup'] = 'このビューは、<a href="group/view.php?id=%s">%s</a>に送信されました。';
-$string['nobodycanseethisview'] = '誰もこのビューを閲覧できません。';
+$string['nobodycanseethisview2'] = 'あなたのみ、このビューを閲覧できます。';
 $string['noviews'] = 'ビューはありません。';
 $string['youhavenoviews'] = 'あなたのビューはありません。';
 $string['viewsownedbygroup'] = 'このグループが所有しているビュー';
@@ -238,6 +238,10 @@ $string['nocopyableviewsfound'] = 'あなたがコピーできるビューはあ
 $string['noownersfound'] = 'オーナーが見つかりませんでした。';
 $string['viewsby'] = 'ビュー by %s';
 $string['close'] = '閉じる';
+$string['accessfromdate'] = '%s 以前、誰もこのビューを閲覧できません。'; // TBD
+$string['accessuntildate'] = '%s 以降、誰もこのビューを閲覧できません。'; // TBD
+$string['accessbetweendates'] = '%s 以前または %s 以降、誰もこのビューを閲覧できません。'; // TBD
+$string['nobodycanseethisview'] = '誰もこのビューを閲覧できません。'; // TBD
 $string['closepreview'] = 'プレビューを閉じる'; // TBD
 $string['displayingviewsby'] = '%s によるビューを表示'; // TBD
 $string['groupviewsfor'] = '%s のグループビュー'; // TBD
