@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-10-21 00:06:32 UTC
+ * @updated    2008-10-23 05:17:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -86,6 +86,7 @@ $string['tutors'] = 'チューター';
 $string['loggedinlower'] = 'ログインユーザ';
 $string['publiclower'] = 'パブリック';
 $string['everyoneingroup'] = 'グループのユーザすべて';
+$string['token'] = 'シークレットURI';
 $string['inviteusertojoingroup'] = 'このユーザをグループへの参加に招待する';
 $string['addusertogroup'] = 'このユーザをグループに追加する';
 $string['addedtowatchlist'] = 'このビューがあなたのウォッチリストに追加されました。';
