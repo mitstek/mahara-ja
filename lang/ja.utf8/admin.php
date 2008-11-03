@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-10-17 21:40:09 UTC
+ * @updated    2008-11-03 11:34:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -122,12 +122,15 @@ $string['siteoptionspagedescription'] = 'ここでは、サイト全体にデフ
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['sitethemedescription'] = 'サイトのデフォルトテーマ';
 $string['theme'] = 'テーマ';
+$string['trustedsitesforembeddedcontent'] = '埋め込みコンテンツのための信頼されたサイト';
+$string['trustedsitesforembeddedcontentdescription'] = 'あなたのユーザに対して、他のサイトからのビデオ埋め込みをできるようにしたい場合、下記より信頼されたサイトを選択してください。';
 $string['updatesiteoptions'] = 'サイトオプションを更新する';
 $string['usersallowedmultipleinstitutions'] = 'ユーザに複数インスティテューションを許可する';
 $string['usersallowedmultipleinstitutionsdescription'] = 'チェックした場合、ユーザは同時に複数のインスティテューションのメンバーになることができます。';
 $string['usersseenewthemeonlogin'] = '次回ログイン時、ユーザに新しいテーマが表示されます。';
 $string['viruschecking'] = 'ウイルスチェック';
 $string['viruscheckingdescription'] = 'チェックした場合、アップロードファイルに対するClamAVを使用したウイルスチェックが有効にされます。';
+$string['htmlfilter_YouTube'] = 'ユーザが作成したHTMLにおいて、YouTubeからコピーされた埋め込みコードの使用を許可します。';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
 $string['editsitepagespagedescription'] = 'ここでは、(ログインおよびログアウトユーザ別に) ホームページおよびフッタのページリンク等、サイト全体のいくつかのページコンテンツを編集することができます。';
