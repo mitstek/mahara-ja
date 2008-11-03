@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-10-23 05:17:29 UTC
+ * @updated    2008-11-03 11:04:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -111,6 +111,7 @@ $string['makepublic'] = 'パブリックにする';
 $string['nopublicfeedback'] = 'パブリックフィードバックはありません。';
 $string['notifysiteadministrator'] = 'サイト管理者に通知する';
 $string['placefeedback'] = 'フィードバックを投稿する';
+$string['placefeedbacknotallowed'] = 'あなたは、このビューへのフィードバック投稿を許可されていません。';
 $string['print'] = 'プリント';
 $string['thisfeedbackispublic'] = 'このフィードバックは、パブリック (公開) にされています。';
 $string['thisfeedbackisprivate'] = 'このフィードバックは、プライベート (非公開) です。';
