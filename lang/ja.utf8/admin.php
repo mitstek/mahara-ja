@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-03 11:34:49 UTC
+ * @updated    2008-11-04 04:03:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -106,6 +106,8 @@ $string['defaultaccountinactivewarn'] = '休眠/有効期限の警告期間';
 $string['defaultaccountinactivewarndescription'] = 'アカウントの有効期限切れまたは休眠状態に関するメッセージがユーザに送信されるまでの期間です。';
 $string['defaultaccountlifetime'] = 'デフォルトのアカウント存続期間';
 $string['defaultaccountlifetimedescription'] = '有効期限が切れるまで、新しく作成されたユーザはどのくらいの期間、利用することができますか。';
+$string['embeddedcontent'] = '埋め込みコンテンツ';
+$string['embeddedcontentdescription'] = 'あなたのユーザに対して、他のサイトからのビデオ埋め込みをできるようにしたい場合、下記より信頼されたサイトを選択してください。';
 $string['language'] = '言語';
 $string['pathtoclam'] = 'clamのパス';
 $string['pathtoclamdescription'] = 'clamscanまたはclamdscanへのファイルシステムパスです。';
@@ -122,15 +124,13 @@ $string['siteoptionspagedescription'] = 'ここでは、サイト全体にデフ
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['sitethemedescription'] = 'サイトのデフォルトテーマ';
 $string['theme'] = 'テーマ';
-$string['trustedsitesforembeddedcontent'] = '埋め込みコンテンツのための信頼されたサイト';
-$string['trustedsitesforembeddedcontentdescription'] = 'あなたのユーザに対して、他のサイトからのビデオ埋め込みをできるようにしたい場合、下記より信頼されたサイトを選択してください。';
+$string['trustedsites'] = '信頼されたサイト';
 $string['updatesiteoptions'] = 'サイトオプションを更新する';
 $string['usersallowedmultipleinstitutions'] = 'ユーザに複数インスティテューションを許可する';
 $string['usersallowedmultipleinstitutionsdescription'] = 'チェックした場合、ユーザは同時に複数のインスティテューションのメンバーになることができます。';
 $string['usersseenewthemeonlogin'] = '次回ログイン時、ユーザに新しいテーマが表示されます。';
 $string['viruschecking'] = 'ウイルスチェック';
 $string['viruscheckingdescription'] = 'チェックした場合、アップロードファイルに対するClamAVを使用したウイルスチェックが有効にされます。';
-$string['htmlfilter_YouTube'] = 'ユーザが作成したHTMLにおいて、YouTubeからコピーされた埋め込みコードの使用を許可します。';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
 $string['editsitepagespagedescription'] = 'ここでは、(ログインおよびログアウトユーザ別に) ホームページおよびフッタのページリンク等、サイト全体のいくつかのページコンテンツを編集することができます。';
@@ -380,6 +380,9 @@ $string['installed'] = 'インストール済み';
 $string['errors'] = 'エラー';
 $string['install'] = 'インストール';
 $string['reinstall'] = '再インストール';
+$string['trustedsitesforembeddedcontent'] = '埋め込みコンテンツのための信頼されたサイト'; // TBD
+$string['trustedsitesforembeddedcontentdescription'] = 'あなたのユーザに対して、他のサイトからのビデオ埋め込みをできるようにしたい場合、下記より信頼されたサイトを選択してください。'; // TBD
+$string['htmlfilter_YouTube'] = 'ユーザが作成したHTMLにおいて、YouTubeからコピーされた埋め込みコードの使用を許可します。'; // TBD
 $string['pathtofile'] = 'fileのパス'; // TBD
 $string['pathtofiledescription'] = '「file」プログラムへのファイルシステムパスです。'; // TBD
 $string['publickeydescription'] = 'この公開鍵は自動的に生成され、28日ごとにローテートされます。'; // TBD
