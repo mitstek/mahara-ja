@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-04 04:03:02 UTC
+ * @updated    2008-11-11 03:36:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -96,6 +96,7 @@ $string['institutionfiles'] = 'インスティテューションファイル';
 $string['institutionfilesdescription'] = 'インスティテューションビューで使用するファイルをアップロードおよび管理します。';
 $string['pluginadmin'] = 'プラグイン管理';
 $string['pluginadmindescription'] = 'プラグインをインストールおよび設定します。';
+$string['adminsonly'] = '管理者のみ';
 $string['allowpublicviews'] = 'パブリックビューを許可する';
 $string['allowpublicviewsdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なポートフォリオビューを作成することができます。';
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
@@ -108,6 +109,7 @@ $string['defaultaccountlifetime'] = 'デフォルトのアカウント存続期�
 $string['defaultaccountlifetimedescription'] = '有効期限が切れるまで、新しく作成されたユーザはどのくらいの期間、利用することができますか。';
 $string['embeddedcontent'] = '埋め込みコンテンツ';
 $string['embeddedcontentdescription'] = 'あなたのユーザに対して、他のサイトからのビデオ埋め込みをできるようにしたい場合、下記より信頼されたサイトを選択してください。';
+$string['Everyone'] = '誰でも';
 $string['language'] = '言語';
 $string['pathtoclam'] = 'clamのパス';
 $string['pathtoclamdescription'] = 'clamscanまたはclamdscanへのファイルシステムパスです。';
@@ -131,6 +133,8 @@ $string['usersallowedmultipleinstitutionsdescription'] = 'チェックした場�
 $string['usersseenewthemeonlogin'] = '次回ログイン時、ユーザに新しいテーマが表示されます。';
 $string['viruschecking'] = 'ウイルスチェック';
 $string['viruscheckingdescription'] = 'チェックした場合、アップロードファイルに対するClamAVを使用したウイルスチェックが有効にされます。';
+$string['whocancreatepublicgroups'] = '誰がパブリックグループを作成できますか';
+$string['whocancreatepublicgroupsdescription'] = 'ここでは、一般公衆から閲覧可能なグループを作成することのできるユーザを選択します。';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
 $string['editsitepagespagedescription'] = 'ここでは、(ログインおよびログアウトユーザ別に) ホームページおよびフッタのページリンク等、サイト全体のいくつかのページコンテンツを編集することができます。';
