@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-11 03:41:42 UTC
+ * @updated    2008-11-11 03:52:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -61,7 +61,7 @@ $string['groupadmins'] = 'グループ管理者';
 $string['Admin'] = '管理者';
 $string['grouptype'] = 'グループタイプ';
 $string['publiclyviewablegroup'] = 'パブリックに閲覧可能なグループですか?';
-$string['publiclyviewablegroupdescription'] = '誰でも (このサイトのメンバではない人も含めて) フォーラムを含む、このグループを閲覧できるようにしますか?';
+$string['publiclyviewablegroupdescription'] = '誰でも (このサイトのメンバーではない人も含めて) フォーラムを含む、このグループを閲覧できるようにしますか?';
 $string['hasrequestedmembership'] = 'がこのグループのメンバーシップをリクエストしました。';
 $string['hasbeeninvitedtojoin'] = 'がこのグループへの参加を招待されました。';
 $string['groupinvitesfrom'] = '参加の招待:';
