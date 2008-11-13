@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-12 04:02:21 UTC
+ * @updated    2008-11-13 07:03:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -150,6 +150,7 @@ $string['group'] = 'グループ';
 $string['Group'] = 'グループ';
 $string['groups'] = 'グループ';
 $string['notamember'] = 'あなたは、このグループのメンバーではありません。';
+$string['notmembermayjoin'] = 'このページを閲覧するには、あなたはグループ「 %s 」に参加する必要があります。';
 $string['reasonoptional'] = '理由 (任意)';
 $string['request'] = 'リクエストする';
 $string['friendformaddsuccess'] = '%s があなたのフレンドリストに追加されました。';

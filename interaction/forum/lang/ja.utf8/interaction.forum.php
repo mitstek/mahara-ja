@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-10-01 05:37:12 UTC
+ * @updated    2008-11-13 07:06:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -32,6 +32,8 @@ $string['addpostsuccess'] = '投稿が正常に追加されました。';
 $string['addtitle'] = 'フォーラムを追加する';
 $string['addtopic'] = 'トピックを追加する';
 $string['addtopicsuccess'] = 'トピックが正常に追加されました。';
+$string['autosubscribeusers'] = 'ユーザを自動的にメール購読させますか?';
+$string['autosubscribeusersdescription'] = 'このフォーラムに対して、ユーザが自動的にメール購読されるかどうか選択してください。';
 $string['Body'] = '本文';
 $string['cantaddposttoforum'] = 'あなたは、このフォーラムに投稿できません。';
 $string['cantaddposttotopic'] = 'あなたは、このトピックに投稿できません。';
