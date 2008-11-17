@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-18 05:59:26 UTC
+ * @updated    2008-11-17 17:37:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -40,9 +40,9 @@ $string['attachedfiles'] = '添付ファイル';
 $string['attachments'] = '添付書類';
 $string['blogdesc'] = '説明';
 $string['blogdescdesc'] = '例) 「Jillの経験および内省の記録」';
-$string['blogdoesnotexist'] = 'あなたは存在しないブログへのアクセスを試みています。';
-$string['blogpostdoesnotexist'] = 'あなたは存在しないブログ記事へのアクセスを試みています。';
-$string['blogfilesdirdescription'] = 'ブログ記事の添付としてファイルがアップロードされました。';
+$string['blogdoesnotexist'] = 'あなたは、存在しないブログへのアクセスを試みています。';
+$string['blogpostdoesnotexist'] = 'あなたは、存在しないブログ記事へのアクセスを試みています。';
+$string['blogfilesdirdescription'] = 'ブログ記事の添付として、ファイルがアップロードされました。';
 $string['blogfilesdirname'] = 'ブログファイル';
 $string['blogpost'] = 'ブログ記事';
 $string['blogdeleted'] = 'ブログが削除されました。';
@@ -67,7 +67,7 @@ $string['createasdraftdesc'] = 'ブログ記事を作成しますが、あなた
 $string['createblog'] = 'ブログを作成する';
 $string['delete'] = '削除';
 $string['deleteblog?'] = '本当にこのブログを削除してもよろしいですか?';
-$string['deleteblogpost?'] = '本当のこの記事を削除してもよろしいですか?';
+$string['deleteblogpost?'] = '本当にこの記事を削除してもよろしいですか?';
 $string['description'] = '説明';
 $string['dimensions'] = 'サイズ';
 $string['draft'] = '下書き';
@@ -94,7 +94,7 @@ $string['postedbyon'] = '投稿者: %s  投稿日時: %s';
 $string['posttitle'] = 'タイトル';
 $string['posts'] = '投稿';
 $string['publish'] = '公開';
-$string['publishfailed'] = 'エラーが発生しました。あなたの記事は公開されませんでした。';
+$string['publishfailed'] = 'エラーが発生しました。あなたの記事は、公開されませんでした。';
 $string['publishblogpost?'] = '本当にこの記事を公開してもよろしいですか?';
 $string['published'] = '公開済み';
 $string['remove'] = '削除';
