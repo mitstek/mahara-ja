@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-10-18 04:39:30 UTC
+ * @updated    2008-11-18 22:43:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -711,6 +711,7 @@ $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['importedfrom'] = 'インポート元 %s';
 $string['incomingfolderdesc'] = '他のネットワークホストからインポートされたファイル';
 $string['remotehost'] = 'リモートホスト %s';
+$string['Copyof'] = '%s のコピー';
 $string['ssopeers'] = 'SSOピア'; // TBD
 $string['forgotpassword'] = 'パスワードを忘れましたか?'; // TBD
 $string['forgotpasswordtext'] = 'パスワードを忘れた場合、あなたのプロファイルに登録した主メールアドレスを下記に入力してください。あなたが新しいパスワードを作成することのできるキーを送信します。'; // TBD

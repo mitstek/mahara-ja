@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-17 17:37:33 UTC
+ * @updated    2008-11-18 22:49:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -122,6 +122,9 @@ $string['absolutemiddle'] = '中央揃え (絶対指定)';
 $string['absolutebottom'] = '下揃え (絶対指定)';
 $string['left'] = '左';
 $string['right'] = '右';
+$string['copyfull'] = '他のユーザは、あなたの %s を自分のコピーとして取得できる';
+$string['copyreference'] = '他のユーザは、あなたの %s をビューに表示できる';
+$string['copynocopy'] = 'ビューにコピーする場合、このブロックを完全にスキップする';
 $string['posttitledesc'] = 'タイトルはあなたの記事の上に表示されます。'; // TBD
 
 ?>

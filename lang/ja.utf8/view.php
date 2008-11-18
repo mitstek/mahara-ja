@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-03 11:04:19 UTC
+ * @updated    2008-11-18 22:42:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -240,6 +240,8 @@ $string['nocopyableviewsfound'] = 'あなたがコピーできるビューはあ
 $string['noownersfound'] = 'オーナーが見つかりませんでした。';
 $string['viewsby'] = 'ビュー by %s';
 $string['close'] = '閉じる';
+$string['blockcopypermission'] = 'ブロックのコピーパーミッション';
+$string['blockcopypermissiondesc'] = 'このビューを他のユーザがコピーできるようにした場合、あなたは、このブロックをどのようにコピーできるか選択することができます。';
 $string['accessfromdate'] = '%s 以前、誰もこのビューを閲覧できません。'; // TBD
 $string['accessuntildate'] = '%s 以降、誰もこのビューを閲覧できません。'; // TBD
 $string['accessbetweendates'] = '%s 以前または %s 以降、誰もこのビューを閲覧できません。'; // TBD
