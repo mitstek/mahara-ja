@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-18 22:49:19 UTC
+ * @updated    2008-11-19 06:01:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -125,6 +125,8 @@ $string['right'] = '右';
 $string['copyfull'] = '他のユーザは、あなたの %s を自分のコピーとして取得できる';
 $string['copyreference'] = '他のユーザは、あなたの %s をビューに表示できる';
 $string['copynocopy'] = 'ビューにコピーする場合、このブロックを完全にスキップする';
+$string['viewposts'] = 'コピーされた記事 (%s)';
+$string['postscopiedfromview'] = '%s からコピーされた記事';
 $string['posttitledesc'] = 'タイトルはあなたの記事の上に表示されます。'; // TBD
 
 ?>
