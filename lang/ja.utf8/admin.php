@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-11 03:36:35 UTC
+ * @updated    2008-11-23 17:46:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -102,11 +102,11 @@ $string['allowpublicviewsdescription'] = '「Yes」に設定した場合、ロ�
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowpublicprofilesdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なプロファイルビューを作成することができます。';
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
-$string['defaultaccountinactiveexpiredescription'] = 'ログインがない状態で、どのくらいの期間、アカウントはアクティブのままですか。';
+$string['defaultaccountinactiveexpiredescription'] = 'ユーザログインがない状態で、どのくらいの期間、ユーザアカウントはアクティブのままですか。';
 $string['defaultaccountinactivewarn'] = '休眠/有効期限の警告期間';
-$string['defaultaccountinactivewarndescription'] = 'アカウントの有効期限切れまたは休眠状態に関するメッセージがユーザに送信されるまでの期間です。';
+$string['defaultaccountinactivewarndescription'] = 'ユーザアカウントの有効期限切れまたは休眠状態に関するメッセージがユーザに送信されるまでの期間です。';
 $string['defaultaccountlifetime'] = 'デフォルトのアカウント存続期間';
-$string['defaultaccountlifetimedescription'] = '有効期限が切れるまで、新しく作成されたユーザはどのくらいの期間、利用することができますか。';
+$string['defaultaccountlifetimedescription'] = 'ユーザアカウントの有効期限が切れるまで、新しく作成されたユーザはどのくらいの期間、利用することができますか。';
 $string['embeddedcontent'] = '埋め込みコンテンツ';
 $string['embeddedcontentdescription'] = 'あなたのユーザに対して、他のサイトからのビデオ埋め込みをできるようにしたい場合、下記より信頼されたサイトを選択してください。';
 $string['Everyone'] = '誰でも';
@@ -211,7 +211,7 @@ $string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で
 $string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」は、すでに他のユーザに取得されています。';
 $string['uploadcsvpagedescription2'] = '<p>あなたは、この機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
 
-<p>CSVファイルの先頭行は、CSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
+<p>CSVファイルの先頭行には、CSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
 <pre>username,password,email,firstname,lastname,studentid</pre>
 
@@ -233,7 +233,7 @@ $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたは、こ�
 %s';
 $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効でないか、Maharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログには、さらに詳細が記録されています。現在のところ、これらのユーザに手動でコンタクトしてください:';
 $string['uploadcsvusersaddedsuccessfully'] = 'ファイル内のユーザが正常に追加されました。';
-$string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるため、ユーザは追加されませんでした。許可された最大ユーザ数をインスティテューションのユーザ数が超えました。';
+$string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるため、ユーザは追加されませんでした。許可されたインスティテューションの最大ユーザ数を超えました。';
 $string['adminuserspagedescription'] = '<p>あなたは、どのユーザがサイトを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。</p><p>システムには、少なくとも1名の管理者を設定する必要があります。</p>';
 $string['institutionadminuserspagedescription'] = 'あなたは、どのユーザがインスティテューションを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。';
 $string['potentialadmins'] = '潜在的な管理者';
