@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-13 07:03:21 UTC
+ * @updated    2008-11-27 18:41:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -239,7 +239,7 @@ $string['notallowedtoeditinteractions'] = 'あなたは、このグループの�
 $string['notallowedtodeleteinteractions'] = 'あなたは、このグループの活動を削除できません。';
 $string['interactionsaved'] = '%s が正常に保存されました。';
 $string['deleteinteraction'] = '%s 「 %s 」を削除する';
-$string['deleteinteractionsure'] = '本当にこの処理を実行してもよろしいですか? もとに戻すことはできません。';
+$string['deleteinteractionsure'] = '本当にこの処理を実行してもよろしいですか? 元に戻すことはできません。';
 $string['interactiondeleted'] = '%s が正常に削除されました。';
 $string['addnewinteraction'] = '新しい %s を追加する';
 $string['title'] = 'タイトル';
