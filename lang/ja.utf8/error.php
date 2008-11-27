@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-10-14 00:07:36 UTC
+ * @updated    2008-11-27 07:35:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,13 +29,13 @@
 defined('INTERNAL') || die();
 
 $string['phpversion'] = 'Maharaは、PHP 5.1.3以下では動作しません。あなたのPHPバージョンをアップグレードするか、Maharaを別のホストに移動してください。';
-$string['jsonextensionnotloaded'] = 'あなたのサーバ設定には、JSON拡張モジュールが含まれていません。ブラウザへのデータ送受信のため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。また、インストールされていない場合、インストールしてください。';
-$string['pgsqldbextensionnotloaded'] = 'あなたのサーバ設定には、pgsql拡張モジュールが含まれていません。データをリレーショナルデータベースに保存するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。また、インストールされていない場合、インストールしてください。';
-$string['mysqldbextensionnotloaded'] = 'あなたのサーバ設定には、mysql拡張モジュールが含まれていません。データをリレーショナルデータベースに保存するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。また、インストールされていない場合、インストールしてください。';
-$string['unknowndbtype'] = 'あなたのサーバ設定は、不明なデータベースタイプを参照しています。有効な値は「postgres8」および「mysql5」です。config.phpのデータベースタイプ設定を変更してください。';
-$string['xmlextensionnotloaded'] = 'あなたのサーバ設定には、%s 拡張モジュールが含まれていません。様々なソースのXMLデータを構文解析するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。また、インストールされていない場合、インストールしてください。';
-$string['gdextensionnotloaded'] = 'あなたのサーバ設定には、gd拡張モジュールが含まれていません。アップロードされたイメージのリサイズおよび他の処理を実行するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。また、インストールされていない場合、インストールしてください。';
-$string['sessionextensionnotloaded'] = 'あなたのサーバ設定には、session拡張モジュールが含まれていません。ユーザログインをサポートするため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。また、インストールされていない場合、インストールしてください。';
+$string['jsonextensionnotloaded'] = 'あなたのサーバ設定には、JSON拡張モジュールが含まれていません。ブラウザへのデータ送受信のため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。インストールされていない場合、インストールしてください。';
+$string['pgsqldbextensionnotloaded'] = 'あなたのサーバ設定には、pgsql拡張モジュールが含まれていません。リレーショナルデータベースにデータを保存するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。インストールされていない場合、インストールしてください。';
+$string['mysqldbextensionnotloaded'] = 'あなたのサーバ設定には、mysql拡張モジュールが含まれていません。リレーショナルデータベースにデータを保存するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。インストールされていない場合、インストールしてください。';
+$string['unknowndbtype'] = 'あなたのサーバ設定は、不明なデータベースタイプを参照しています。有効な値は「postgres8」および「mysql5」です。config.php内のデータベースタイプ設定を変更してください。';
+$string['xmlextensionnotloaded'] = 'あなたのサーバ設定には、%s 拡張モジュールが含まれていません。様々なソースのXMLデータを構文解析するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。インストールされていない場合、インストールしてください。';
+$string['gdextensionnotloaded'] = 'あなたのサーバ設定には、gd拡張モジュールが含まれていません。アップロードされたイメージのリサイズおよび他の処理を実行するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。インストールされていない場合、インストールしてください。';
+$string['sessionextensionnotloaded'] = 'あなたのサーバ設定には、session拡張モジュールが含まれていません。ユーザログインをサポートするため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。インストールされていない場合、インストールしてください。';
 $string['registerglobals'] = 'あなたは危険なPHP設定、register_globalsをonにしています。Maharaは、この問題の対処を試みますが、設定の修正を強くお勧めします。';
 $string['magicquotesgpc'] = 'あなたは危険なPHP設定、magic_quotes_gpcをonにしています。Maharaは、この問題の対処を試みますが、設定の修正を強くお勧めします。';
 $string['magicquotesruntime'] = 'あなたは危険なPHP設定、magic_quotes_runtimeをonにしています。Maharaは、この問題の対処を試みますが、設定の修正を強くお勧めします。';
@@ -43,7 +43,7 @@ $string['magicquotessybase'] = 'あなたは危険なPHP設定、magic_quotes_sy
 $string['safemodeon'] = 'あなたのサーバは、セーフモードで動作しているようです。Maharaは、セーフモードでの運用をサポートしていません。php.iniファイルまたはサイトのApache設定でセーフモードを無効にしてください。
 
 あなたが共有ホスティングサービスを利用している場合、ホスティングプロバイダに依頼する以外、safe_modeを無効にするためにできることは多くありません。別のホスティングサービスへの変更を考えても良いでしょう。';
-$string['datarootinsidedocroot'] = 'あなたはデータルートをドキュメントルート内に設定したようです。これには多大なセキュリティ上の問題があり、誰でも (他の人のセッションをハイジャックするため) 直接セッションデータをリクエストすることができます。また、他の人がアップロードした、アクセスを許可されていないファイルにアクセスすることができます。データルートをドキュメントルートの外に設定してください。';
+$string['datarootinsidedocroot'] = 'あなたはドキュメントルート内にデータルートを設定したようです。これには多大なセキュリティ上の問題があり、誰でも (他の人のセッションをハイジャックするため) 直接セッションデータをリクエストすることができます。また、他の人がアップロードした、アクセスを許可されていないファイルにアクセスすることができます。データルートをドキュメントルートの外に設定してください。';
 $string['datarootnotwritable'] = 'あなたが定義したルートディレクトリ「 %s 」に書込み権がありません。これは、セッションデータ、ユーザファイル、その他アップロードする必要のあるファイルをアップロードできないことを意味します。ディレクトリが存在しているかどうか確認してください。ディレクトリが存在している場合、ディレクトリにウェブサーバユーザの所有権を与えてください。';
 $string['couldnotmakedatadirectories'] = '何らかの理由で、いくつかのコアデータディレクトリを作成することができませんでした。前もって、Maharaがデータディレクトリの書込み権を確認しましたので、このエラーが発生することはないと考えられます。データルートディレクトリのパーミッションを確認してください。';
 $string['dbconnfailed'] = 'Maharaがアプリケーションデータベースに接続できませんでした。
@@ -58,8 +58,8 @@ $string['artefacttypenametaken'] = 'アーティファクトタイプ %s は、�
 $string['classmissing'] = 'クラス %s (タイプ %s - プラグイン %s) がありません。';
 $string['artefacttypeclassmissing'] = 'すべてのアーティファクトタイプには、クラスを実装する必要があります。%s がありません。';
 $string['artefactpluginmethodmissing'] = 'アーティファクトプラグイン %s で必要な %s が実装されていません。';
-$string['blocktypelibmissing'] = 'ブロック %s のlib.phpがアーティファクトプラグイン %s 内にありません。';
-$string['blocktypemissingconfigform'] = 'ブロックタイプ %s は、instance_config_formを実装する必要があります。';
+$string['blocktypelibmissing'] = 'アーティファクトプラグイン %s 内にブロック %s のlib.phpがありません。';
+$string['blocktypemissingconfigform'] = 'ブロックタイプ %s では、instance_config_formを実装する必要があります。';
 $string['versionphpmissing'] = 'プラグイン %s %s のversion.phpがありません!';
 $string['blocktypeprovidedbyartefactnotinstallable'] = 'これは、アーティファクトプラグイン %s の一部としてインストールされます。';
 $string['blockconfigdatacalledfromset'] = 'configデータを直接設定しないでください。代わりにPluginBlocktype::instance_config_saveを使用してください。';
@@ -74,12 +74,12 @@ $string['notfoundexception'] = 'あなたが探しているページは見つか
 $string['accessdenied'] = 'アクセスが拒否されました。';
 $string['viewnotfoundexceptiontitle'] = 'ビューが見つかりませんでした。';
 $string['viewnotfoundexceptionmessage'] = 'あなたは、存在しないビューにアクセスを試みました!';
-$string['viewnotfound'] = 'ID %s のビューはありません。';
-$string['artefactnotfoundmaybedeleted'] = 'ID %s のアーティファクトはありません (もしかして、削除されましたか?)。';
-$string['artefactnotfound'] = 'ID %s のアーティファクトはありません。';
+$string['viewnotfound'] = 'ID %s のビューは見つかりませんでした。';
+$string['artefactnotfoundmaybedeleted'] = 'ID %s のアーティファクトは見つかりませんでした (もしかして、削除されましたか?)。';
+$string['artefactnotfound'] = 'ID %s のアーティファクトは見つかりませんでした。';
 $string['notartefactowner'] = 'あなたは、このアーティファクトを所有していません。';
-$string['blockinstancednotfound'] = 'ID %s のブロックインスタンスはありません。';
-$string['interactioninstancenotfound'] = 'ID %s の活動インスタンスはありません。';
+$string['blockinstancednotfound'] = 'ID %s のブロックインスタンスは見つかりませんでした。';
+$string['interactioninstancenotfound'] = 'ID %s の活動インスタンスは見つかりませんでした。';
 $string['invalidviewaction'] = '無効なビューコントロール: %s';
 $string['missingparamblocktype'] = '最初に追加するブロックタイプを選択してください。';
 $string['missingparamcolumn'] = 'カラム設定がありません。';
