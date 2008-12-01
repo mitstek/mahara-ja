@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-27 18:41:03 UTC
+ * @updated    2008-12-01 15:05:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -221,11 +221,9 @@ $string['denyfriendrequest'] = 'フレンドシップリクエストを拒否す
 $string['sendfriendshiprequest'] = '%s にフレンドシップリクエストを送信する';
 $string['cantdenyrequest'] = 'これは有効なフレンドシップリクエストではありません。';
 $string['cantrequestfrienship'] = 'あなたは、このユーザにフレンドシップをリクエストできません。';
-$string['cantmessageuser'] = 'あなたは、このユーザにメッセージを送信できません。';
 $string['requestedfriendship'] = 'リクエストされたフレンドシップ';
 $string['notinanygroups'] = 'どのグループにも属していません。';
 $string['numberoffriends'] = 'フレンド (%s / %s)';
-$string['nofriends'] = 'フレンドなし :(';
 $string['addusertogroup'] = '追加';
 $string['inviteusertojoingroup'] = '招待';
 $string['invitemembertogroup'] = '%s を「 %s 」に招待する';
@@ -252,6 +250,7 @@ $string['rolechanged'] = 'ロールが変更されました。';
 $string['removefromgroup'] = 'グループから削除する';
 $string['userremoved'] = 'ユーザが削除されました。';
 $string['About'] = 'About';
+$string['nofriends'] = 'フレンドなし :('; // TBD
 $string['owner'] = 'オーナー'; // TBD
 $string['tutor'] = 'チューター'; // TBD
 $string['tutors'] = 'チューター'; // TBD
