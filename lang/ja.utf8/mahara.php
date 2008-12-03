@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-18 22:43:38 UTC
+ * @updated    2008-12-03 18:27:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -69,13 +69,13 @@ $string['sendrequest'] = 'リクエストを送信する';
 $string['reason'] = '理由';
 $string['select'] = '選択';
 $string['tags'] = 'タグ';
-$string['tagsdesc'] = 'このアイテムに関する、カンマで区切ったタグを入力してください。';
-$string['tagsdescprofile'] = 'このアイテムに関する、カンマで区切ったタグを入力してください。「プロファイル」タグが付けられたアイテムは、あなたのサイドバーに表示されます。';
+$string['tagsdesc'] = 'このアイテムに関して、カンマで区切ったタグを入力してください。';
+$string['tagsdescprofile'] = 'このアイテムに関して、カンマで区切ったタグを入力してください。「プロファイル」タグが付けられたアイテムは、あなたのサイドバーに表示されます。';
 $string['youhavenottaggedanythingyet'] = 'あなたは、またタグ付けしていません。';
 $string['selfsearch'] = 'マイポートフォリオを検索する';
 $string['quota'] = 'クオータ';
 $string['quotausage'] = 'あなたの利用クオータは、<span id="quota_used">%s</span> / <span id="quota_total">%s</span> です。';
-$string['updatefailed'] = 'アップデートが失敗しました。';
+$string['updatefailed'] = 'アップデートに失敗しました。';
 $string['strftimenotspecified'] = '未設定';
 $string['invitedgroup'] = '招待されたグループ';
 $string['invitedgroups'] = '招待されたグループ';
@@ -98,7 +98,7 @@ $string['accountcreatedtext'] = '%s さん
 ユーザ名: %s
 パスワード: %s
 
-利用開始するには、サイトを訪問してください!
+利用開始するには、サイトにアクセスしてください!
 
 %s サイト管理者';
 $string['accountcreatedchangepasswordtext'] = '%s さん
@@ -110,7 +110,8 @@ $string['accountcreatedchangepasswordtext'] = '%s さん
 
 初回ログイン時、あなたはパスワードの変更を求められます。
 
-利用開始するには、サイトを訪問してください!
+利用開始するには、サイトにアクセスしてください!
+
 
 %s サイト管理者';
 $string['accountcreatedhtml'] = '<p>%s さん</p>
@@ -122,7 +123,7 @@ $string['accountcreatedhtml'] = '<p>%s さん</p>
 <li><strong>パスワード:</strong> %s</li>
 </ul>
 
-<p>利用開始するには、<a href=""></a>を訪問してください!</p>
+<p>利用開始するには、<a href=""></a>にアクセスしてください!</p>
 
 <p>%s サイト管理者</p>';
 $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
@@ -136,7 +137,7 @@ $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 
 <p>初回ログイン時、あなたはパスワードの変更を求められます。</p>
 
-<p>利用開始するには、<a href=""></a>を訪問してください!</p>
+<p>利用開始するには、<a href=""></a>にアクセスしてください!</p>
 
 <p>%s サイト管理者</p>';
 $string['accountexpirywarning'] = 'アカウント終了通知';
@@ -197,7 +198,7 @@ $string['accountinactivewarninghtml'] = '<p>%s さん</p>
 <p>サイトにログインすることで、あなたのアカウントが無効になることを防ぐことができます。</p>
 
 <p>%s サイト管理者</p>';
-$string['accountsuspended'] = '%s 現在、あなたのアカウントは利用停止されています。利用停止理由は:<blockquote>%s</blockquote>';
+$string['accountsuspended'] = '%s 現在、あなたのアカウントは利用停止されています。あなたの利用停止理由は:<blockquote>%s</blockquote>';
 $string['youraccounthasbeensuspended'] = 'あなたのアカウントが利用停止されました。';
 $string['youraccounthasbeenunsuspended'] = 'あなたのアカウントの利用停止が解除されました。';
 $string['changepassword'] = 'パスワードを変更する';
@@ -446,7 +447,7 @@ $string['clamlost'] = 'Clam AVがファイルのアップロード時に動作�
 $string['clamfailed'] = 'Clam AVの動作にエラーが発生しました。エラーメッセージは、%s です。Clam AVのアウトプットは次のとおりです:';
 $string['clamunknownerror'] = 'clamに不明なエラーが発生しました。';
 $string['image'] = 'イメージ';
-$string['filenotimage'] = 'あなたがアップロードしたファイルジは、有効なイメージではありません。PNG、JPEGまたはGIFファイルをアップロードしてください。';
+$string['filenotimage'] = 'あなたがアップロードしたファイルは、有効なイメージではありません。PNG、JPEGまたはGIFファイルをアップロードしてください。';
 $string['uploadedfiletoobig'] = 'ファイルが大き過ぎます。詳細は、あなたの管理者にお尋ねください。';
 $string['notphpuploadedfile'] = 'アップロード処理中にファイルを喪失しました。これは通常起きることではありません。詳細は、あなたの管理者にお尋ねください。';
 $string['virusfounduser'] = 'あなたがアップロードした %s にウイルスの感染が発見されました! あなたのファイルは正常にアップロードされませんでした。';
