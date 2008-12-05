@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-13 07:06:14 UTC
+ * @updated    2008-12-05 04:59:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -85,7 +85,7 @@ $string['moderatorsdescription'] = 'モデレータは、トピックおよび�
 $string['name'] = 'フォーラム';
 $string['nameplural'] = 'フォーラム';
 $string['newforum'] = '新しいフォーラム';
-$string['newforumpostin'] = '%s の新しいフォーラム投稿';
+$string['newforumpostby'] = '%s: %s: 新しいフォーラム投稿  by %s';
 $string['newpost'] = '新しい投稿:';
 $string['newtopic'] = '新しいトピック';
 $string['noforumpostsyet'] = 'このグループに投稿はありません。';
@@ -105,6 +105,7 @@ $string['re'] = 'Re: %s';
 $string['regulartopics'] = '標準トピック';
 $string['Reply'] = '返信';
 $string['replyto'] = '返信:';
+$string['replytotopicby'] = '%s: %s:  「　%s　」 への返信 by %s';
 $string['Sticky'] = 'スティッキー';
 $string['stickydescription'] = 'スティッキートピックは、すべてのページトップに表示されます。';
 $string['stickytopics'] = 'スティッキートピック';
@@ -135,6 +136,7 @@ $string['today'] = '今日';
 $string['yesterday'] = '昨日';
 $string['strftimerecentrelative'] = '%v - %H:%M';
 $string['strftimerecentfullrelative'] = '%v - %H:%M';
+$string['newforumpostin'] = '%s の新しいフォーラム投稿'; // TBD
 $string['groupowner'] = 'グループオーナー'; // TBD
 $string['groupownerlist'] = 'グループオーナー:'; // TBD
 $string['topics'] = 'トピック: %%s'; // TBD
