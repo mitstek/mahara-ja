@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-12-05 04:59:09 UTC
+ * @updated    2008-12-05 05:01:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -85,7 +85,7 @@ $string['moderatorsdescription'] = 'モデレータは、トピックおよび�
 $string['name'] = 'フォーラム';
 $string['nameplural'] = 'フォーラム';
 $string['newforum'] = '新しいフォーラム';
-$string['newforumpostby'] = '%s: %s: 新しいフォーラム投稿  by %s';
+$string['newforumpostby'] = '%s: %s: 新しいフォーラム投稿 by %s';
 $string['newpost'] = '新しい投稿:';
 $string['newtopic'] = '新しいトピック';
 $string['noforumpostsyet'] = 'このグループに投稿はありません。';
