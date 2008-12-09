@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-12-03 18:27:56 UTC
+ * @updated    2008-12-09 21:39:40 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -111,7 +111,6 @@ $string['accountcreatedchangepasswordtext'] = '%s さん
 初回ログイン時、あなたはパスワードの変更を求められます。
 
 利用開始するには、サイトにアクセスしてください!
-
 
 %s サイト管理者';
 $string['accountcreatedhtml'] = '<p>%s さん</p>
@@ -455,8 +454,9 @@ $string['fileunknowntype'] = 'あなたがアップロードしたファイル�
 $string['filetypenotallowed'] = 'あなたは、このタイプのファイルのアップロードを許可されていません。詳細は、あなたの管理者にお尋ねください。';
 $string['virusrepeatsubject'] = '警告: %s はウイルスの繰り返しアップロード者です。';
 $string['virusrepeatmessage'] = 'ユーザ %s がアップロードした複数のファイルにウイルスが感染しています。';
-$string['youraccounthasbeensuspendedtext'] = 'あなたのアカウントが利用停止されました。';
-$string['youraccounthasbeenunsuspendedtext'] = 'あなたのアカウントの利用停止が解除されました。';
+$string['youraccounthasbeensuspendedtext2'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。';
+$string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。利用停止の理由は:';
+$string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは、再度このサイトにログインして利用することができます。';
 $string['sizemb'] = 'MB';
 $string['sizekb'] = 'KB';
 $string['sizegb'] = 'GB';
@@ -713,6 +713,8 @@ $string['importedfrom'] = 'インポート元 %s';
 $string['incomingfolderdesc'] = '他のネットワークホストからインポートされたファイル';
 $string['remotehost'] = 'リモートホスト %s';
 $string['Copyof'] = '%s のコピー';
+$string['youraccounthasbeensuspendedtext'] = 'あなたのアカウントが利用停止されました。'; // TBD
+$string['youraccounthasbeenunsuspendedtext'] = 'あなたのアカウントの利用停止が解除されました。'; // TBD
 $string['ssopeers'] = 'SSOピア'; // TBD
 $string['forgotpassword'] = 'パスワードを忘れましたか?'; // TBD
 $string['forgotpasswordtext'] = 'パスワードを忘れた場合、あなたのプロファイルに登録した主メールアドレスを下記に入力してください。あなたが新しいパスワードを作成することのできるキーを送信します。'; // TBD
