@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-12-06 12:04:48 UTC
+ * @updated    2008-12-16 15:47:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -32,6 +32,7 @@ $string['createview'] = 'ビューを作成する';
 $string['createviewstepone'] = 'ビューの作成 ステップ1: レイアウト';
 $string['createviewsteptwo'] = 'ビューの作成 ステップ2: 詳細';
 $string['createviewstepthree'] = 'ビューの作成 ステップ3: アクセス';
+$string['createtemplate'] = 'テンプレートを作成する';
 $string['editviewdetails'] = 'ビュー「 %s 」の詳細を編集する';
 $string['editblocksforview'] = 'ビュー「 %s 」を編集する';
 $string['editaccessforview'] = 'ビュー「 %s 」のアクセスを編集する';
