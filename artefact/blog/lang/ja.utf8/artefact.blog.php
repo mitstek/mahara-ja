@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-19 06:01:20 UTC
+ * @updated    2008-12-18 04:42:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -78,6 +78,7 @@ $string['errorsavingattachments'] = 'ブログ記事の添付ファイル保存�
 $string['horizontalspace'] = '水平方向のスペース';
 $string['insert'] = '挿入';
 $string['insertimage'] = 'イメージを挿入する';
+$string['moreoptions'] = '詳細オプション';
 $string['mustspecifytitle'] = 'あなたの記事のタイトルを入力してください。';
 $string['mustspecifycontent'] = 'あなたの記事のコンテンツを入力してください。';
 $string['myblogs'] = 'マイブログ';
