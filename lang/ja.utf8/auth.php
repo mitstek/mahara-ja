@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-24 18:36:56 UTC
+ * @updated    2008-12-19 16:37:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -30,7 +30,7 @@ defined('INTERNAL') || die();
 
 $string['host'] = 'ホスト名またはIPアドレス';
 $string['wwwroot'] = 'WWWルート';
-$string['port'] = 'ポートナンバー';
+$string['port'] = 'ポート番号';
 $string['protocol'] = 'プロトコル';
 $string['changepasswordurl'] = 'パスワード変更URI';
 $string['cannotremove'] = 'インスティテューションに関する唯一のプラグインのため、私たちは、この認証プラグインを削除することはできません。';
