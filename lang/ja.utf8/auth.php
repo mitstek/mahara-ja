@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-12-19 16:37:44 UTC
+ * @updated    2008-12-21 23:37:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -68,6 +68,7 @@ $string['xmlrpccouldnotlogyouin'] = '申し訳ございません、あなたを�
 $string['xmlrpccouldnotlogyouindetail'] = '申し訳ございません、今回はあなたをMaharaにログインさせることができませんでした。ログインを再度お試しください。問題が続く場合、あなたの管理者にご連絡ください。';
 $string['requiredfields'] = '必須プロファイルフィールド';
 $string['requiredfieldsset'] = '必須プロファイルフィールドセット';
+$string['noauthpluginconfigoptions'] = 'このプラグインに関する設定オプションはありません。';
 $string['errnoxmlrcpinstances'] = '私たちには、次のロケーションのホストに対するXMLRPC認証プラグインインスタンスが設定されていないようです:'; // TBD
 $string['errnoxmlrcpwwwroot'] = '私たちには、次のロケーションのホストに対するレコードがありません:'; // TBD
 

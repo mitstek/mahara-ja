@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-12-01 15:09:17 UTC
+ * @updated    2008-12-21 23:40:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -251,6 +251,7 @@ $string['rolechanged'] = 'ロールが変更されました。';
 $string['removefromgroup'] = 'グループから削除する';
 $string['userremoved'] = 'ユーザが削除されました。';
 $string['About'] = 'About';
+$string['Joined'] = '登録日';
 $string['nofriends'] = 'フレンドなし :('; // TBD
 $string['owner'] = 'オーナー'; // TBD
 $string['tutor'] = 'チューター'; // TBD

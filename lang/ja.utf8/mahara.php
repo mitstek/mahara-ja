@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-12-09 21:39:40 UTC
+ * @updated    2008-12-21 23:42:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -713,6 +713,8 @@ $string['importedfrom'] = 'インポート元 %s';
 $string['incomingfolderdesc'] = '他のネットワークホストからインポートされたファイル';
 $string['remotehost'] = 'リモートホスト %s';
 $string['Copyof'] = '%s のコピー';
+$string['loggedinusersonly'] = 'ログインユーザのみ';
+$string['allowpublicaccess'] = 'パブリックアクセス (ログインなし) を許可する';
 $string['youraccounthasbeensuspendedtext'] = 'あなたのアカウントが利用停止されました。'; // TBD
 $string['youraccounthasbeenunsuspendedtext'] = 'あなたのアカウントの利用停止が解除されました。'; // TBD
 $string['ssopeers'] = 'SSOピア'; // TBD
