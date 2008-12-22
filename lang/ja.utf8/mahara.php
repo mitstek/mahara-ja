@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-12-21 23:42:05 UTC
+ * @updated    2008-12-22 04:50:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -329,6 +329,7 @@ $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 <p>%s サイト管理者</p>
 
 <p><a href="forgotpass.php?key=%s">forgotpass.php?key=%s</a></p>';
+$string['debugemail'] = '注意: このメールは、%s <%s> 宛のメールですが、設定ファイルの「sendallemailto」設定により、あなたに送信されています。';
 $string['noenddate'] = '終了日なし';
 $string['day'] = '日';
 $string['days'] = '日';

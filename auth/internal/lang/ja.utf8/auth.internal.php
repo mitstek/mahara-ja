@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-22 17:22:28 UTC
+ * @updated    2008-12-22 04:42:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -43,11 +43,15 @@ $string['registeredemailmessagetext'] = '%s さん
 
 register.php?key=%s
 
+メールに含まれているリンクは、24時間のみ有効です。
+
 --
 %s チーム';
 $string['registeredemailmessagehtml'] = '<p>%s さん</p>
 <p>%s への登録ありがとうございます。サインアップ処理を完了するには、次のリンクに従ってください:</p>
 <p><a href="register.php?key=%s">register.php?key=%s</a></p>
+<p>メールに含まれているリンクは、24時間のみ有効です。</p>
+
 <pre>--
 %s チーム</pre>';
 $string['registeredok'] = '<p>あなたは、正常にユーザ登録されました。アカウントを有効化するため、あなたのメールアドレス宛に送信されたインストラクションをご覧ください。</p>';
