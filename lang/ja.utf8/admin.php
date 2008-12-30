@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-12-21 23:33:46 UTC
+ * @updated    2008-12-30 00:00:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -278,6 +278,7 @@ $string['unsuspenduser'] = 'ユーザの利用停止を解除する';
 $string['thisuserissuspended'] = 'このユーザは利用停止にされました。';
 $string['suspendedby'] = 'このユーザは %s により利用停止にされました。';
 $string['deleteuser'] = 'ユーザを削除する';
+$string['userdeletedsuccessfully'] = 'ユーザが正常に削除されました。';
 $string['confirmdeleteuser'] = '本当にこのユーザを削除してもよろしいですか?';
 $string['filequota'] = 'ファイルクオータ (MB)';
 $string['filequotadescription'] = 'ユーザファイルエリアでの利用可能な合計保存領域です。';
