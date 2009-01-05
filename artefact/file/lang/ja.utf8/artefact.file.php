@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-22 07:18:58 UTC
+ * @updated    2009-01-05 05:14:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,9 +29,8 @@
 defined('INTERNAL') || die();
 
 $string['pluginname'] = 'ファイル';
-$string['sitefilesloaded'] = 'サイトファイルが読み込まれました。';
+$string['adminfilesloaded'] = '管理ファイルが読み込まれました。';
 $string['bytes'] = 'バイト';
-$string['cannoteditfolder'] = 'あなたには、このフォルダにコンテンツを追加するパーミッションがありません。';
 $string['changessaved'] = '変更が保存されました。';
 $string['contents'] = 'コンテンツ';
 $string['copyrightnotice'] = '著作権表示';
@@ -54,7 +53,6 @@ $string['file'] = 'ファイル';
 $string['File'] = 'ファイル';
 $string['filealreadyindestination'] = 'あなたが移動しようとしたファイルは、すでにフォルダに登録されています。';
 $string['files'] = 'ファイル';
-$string['Files'] = 'ファイル';
 $string['fileexists'] = 'ファイル登録済み';
 $string['fileexistsonserver'] = 'ファイル名 %s のファイルは、すでに登録されています。';
 $string['fileexistsoverwritecancel'] = 'このファイル名のファイルは、すでに登録されています。あなたは、別のファイル名にするか、既存のファイルに上書きすることができます。';
@@ -66,12 +64,9 @@ $string['filethingdeleted'] = '%s が削除されました。';
 $string['filetypes'] = 'アップロード可能なファイルタイプを設定する';
 $string['filetypedescription'] = '<p>あなたは、ここでユーザがアップロードできるファイルを設定することができます。この設定では、どのようなファイルをアップロードするかコントロールします。あなたがウイルスチェックを有効にしている場合、アップロードするファイルの種類と共にウイルスもチェックします。</p><p>「不明なアプリケーション」は、いくつかのムービーファイルおよびアーカイブファイル (gzip等) をアップロードするため必要ですので、注意してください。<p>';
 $string['folder'] = 'フォルダ';
-$string['Folders'] = 'フォルダ';
 $string['foldercreated'] = 'フォルダが作成されました。';
-$string['groupfiles'] = 'グループファイル';
 $string['home'] = 'ホーム';
 $string['htmlremovedmessage'] = 'あなたが閲覧しているファイル「 <strong>%s</strong> 」は、<a href="%s">%s</a> によりアップロードされたものです。以下に表示されているファイルは不適切なコンテンツのため、削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
-$string['htmlremovedmessagenoowner'] = 'あなたは、ファイル「 <strong>%s</strong> 」を閲覧しています。以下に表示されているファイルは不適切なコンテンツのため、削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
 $string['image'] = 'イメージ';
 $string['lastmodified'] = '最終更新日時';
 $string['myfiles'] = 'マイファイル';
@@ -157,30 +152,5 @@ $string['mpg'] = 'MPGムービー';
 $string['ram'] = 'RAM Real Playerムービー';
 $string['rpm'] = 'RPM Real Playerムービー';
 $string['rm'] = 'RM Real Playerムービー';
-$string['profileiconsize'] = 'プロファイルアイコンサイズ';
-$string['profileicons'] = 'プロファイルアイコン';
-$string['Default'] = 'デフォルト';
-$string['deleteselectedicons'] = '選択されたアイコンを削除する';
-$string['profileicon'] = 'プロファイルアイコン';
-$string['noimagesfound'] = 'イメージはありません。';
-$string['uploadedprofileiconsuccessfully'] = '新しいプロファイルアイコンが正常にアップロードされました。';
-$string['profileiconsetdefaultnotvalid'] = 'デフォルトのプロファイルアイコンを設定できませんでした。選択が正しくありません。';
-$string['profileiconsdefaultsetsuccessfully'] = 'デフォルトプロファイルアイコンが正常に設定されました。';
-$string['profileiconsdeletedsuccessfully'] = 'プロファイルアイコンが正常に削除されました。';
-$string['profileiconsnoneselected'] = '削除するアイコンが選択されていません。';
-$string['onlyfiveprofileicons'] = 'あなたは、5つのプロファイルアイコンのみアップロードすることができます。';
-$string['or'] = 'または';
-$string['profileiconuploadexceedsquota'] = 'このファイルをアップロードすることで、あなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
-$string['profileiconimagetoobig'] = 'あなたがアップロードしたイメージは、大き過ぎます(%sx%s ピクセル)。%sx%s ピクセル以下のサイズにしてください。';
-$string['uploadingfile'] = 'ファイルのアップロード中 ...';
-$string['uploadprofileicon'] = 'プロファイルアイコンをアップロードする';
-$string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイルアイコンをアップロードすることができます。アイコンのアップロード後、あなたのデフォルトアイコンとして表示するアイコンを1つ選択してください。16x16 から%sx%s ピクセルの間であなたのアイコンを作成してください。';
-$string['setdefault'] = 'デフォルトに設定する';
-$string['Title'] = 'タイトル';
-$string['imagetitle'] = 'イメージタイトル';
-$string['usenodefault'] = 'デフォルトを使用しない';
-$string['usingnodefaultprofileicon'] = '現在、デフォルトのプロファイルアイコンはありません。';
-$string['adminfilesloaded'] = '管理ファイルが読み込まれました。'; // TBD
-$string['mp4'] = 'MP4オーディオファイル'; // TBD
 
 ?>

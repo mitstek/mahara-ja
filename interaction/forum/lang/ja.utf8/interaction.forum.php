@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-12-05 05:01:12 UTC
+ * @updated    2009-01-05 05:16:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -32,8 +32,6 @@ $string['addpostsuccess'] = '投稿が正常に追加されました。';
 $string['addtitle'] = 'フォーラムを追加する';
 $string['addtopic'] = 'トピックを追加する';
 $string['addtopicsuccess'] = 'トピックが正常に追加されました。';
-$string['autosubscribeusers'] = 'ユーザを自動的にメール購読させますか?';
-$string['autosubscribeusersdescription'] = 'このフォーラムに対して、ユーザが自動的にメール購読されるかどうか選択してください。';
 $string['Body'] = '本文';
 $string['cantaddposttoforum'] = 'あなたは、このフォーラムに投稿できません。';
 $string['cantaddposttotopic'] = 'あなたは、このトピックに投稿できません。';
@@ -70,25 +68,21 @@ $string['editstothispost'] = 'この投稿を編集する';
 $string['edittitle'] = 'フォーラムを編集する';
 $string['edittopic'] = 'トピックを編集する';
 $string['edittopicsuccess'] = 'トピックが正常に編集されました。';
-$string['forumname'] = 'フォーラム名';
 $string['forumsuccessfulsubscribe'] = 'フォーラムのメール購読が正常に登録されました。';
 $string['forumsuccessfulunsubscribe'] = 'フォーラムのメール購読が正常に解除されました。';
-$string['gotoforums'] = 'フォーラムに移動する';
-$string['groupadmins'] = 'グループ管理者';
-$string['groupadminlist'] = 'グループ管理者:';
+$string['groupowner'] = 'グループオーナー';
+$string['groupownerlist'] = 'グループオーナー:';
 $string['Key'] = 'キー';
 $string['lastpost'] = '最新の投稿';
-$string['latestforumposts'] = '最新のフォーラム投稿';
 $string['Moderators'] = 'モデレータ';
 $string['moderatorslist'] = 'モデレータ:';
 $string['moderatorsdescription'] = 'モデレータは、トピックおよび投稿を編集および削除することができます。また、オープン、クローズ、トピックのスティッキー設定および設定解除することもできます。';
 $string['name'] = 'フォーラム';
 $string['nameplural'] = 'フォーラム';
 $string['newforum'] = '新しいフォーラム';
-$string['newforumpostby'] = '%s: %s: 新しいフォーラム投稿 by %s';
+$string['newforumpostin'] = '%s の新しいフォーラム投稿';
 $string['newpost'] = '新しい投稿:';
 $string['newtopic'] = '新しいトピック';
-$string['noforumpostsyet'] = 'このグループに投稿はありません。';
 $string['noforums'] = 'このグループにフォーラムはありません。';
 $string['notopics'] = 'このフォーラムにトピックはありません。';
 $string['Open'] = 'オープン';
@@ -105,7 +99,6 @@ $string['re'] = 'Re: %s';
 $string['regulartopics'] = '標準トピック';
 $string['Reply'] = '返信';
 $string['replyto'] = '返信:';
-$string['replytotopicby'] = '%s: %s:  「　%s　」 への返信 by %s';
 $string['Sticky'] = 'スティッキー';
 $string['stickydescription'] = 'スティッキートピックは、すべてのページトップに表示されます。';
 $string['stickytopics'] = 'スティッキートピック';
@@ -115,7 +108,6 @@ $string['subscribetoforum'] = 'フォーラムをメール購読する';
 $string['subscribetotopic'] = 'トピックをメール購読する';
 $string['Subject'] = '件名';
 $string['Topic'] = 'トピック';
-$string['Topics'] = 'トピック';
 $string['topiclower'] = 'トピック';
 $string['topicslower'] = 'トピック';
 $string['topicclosedsuccess'] = 'トピックが正常にクローズされました。';
@@ -136,9 +128,5 @@ $string['today'] = '今日';
 $string['yesterday'] = '昨日';
 $string['strftimerecentrelative'] = '%v - %H:%M';
 $string['strftimerecentfullrelative'] = '%v - %H:%M';
-$string['newforumpostin'] = '%s の新しいフォーラム投稿'; // TBD
-$string['groupowner'] = 'グループオーナー'; // TBD
-$string['groupownerlist'] = 'グループオーナー:'; // TBD
-$string['topics'] = 'トピック: %%s'; // TBD
 
 ?>

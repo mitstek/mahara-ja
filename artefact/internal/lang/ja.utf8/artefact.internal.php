@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-22 17:17:48 UTC
+ * @updated    2009-01-05 05:14:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -33,6 +33,7 @@ $string['profile'] = 'プロファイル';
 $string['myfiles'] = 'マイファイル';
 $string['mandatory'] = '必須';
 $string['public'] = 'パブリック';
+$string['profileiconsize'] = 'アイコンサイズ';
 $string['aboutdescription'] = 'あなたの本名をここに入力してください。あなたがシステム内のユーザに対して異なる名前を表示したい場合、ニックネーム欄に別名を入力してください。';
 $string['contactdescription'] = 'あなたがビューに置かない限り、この情報はすべてプライベート (非公開) となります。';
 $string['messagingdescription'] = 'あなたの連絡先と同じく、この情報もプライベート (非公開) となります。';
@@ -88,7 +89,28 @@ $string['unvalidatedemailalreadytaken'] = 'あなたが確認しようとして�
 $string['emailingfailed'] = 'プロファイルが保存されましたが、次のメールアドレスにメール送信できませんでした: %s';
 $string['loseyourchanges'] = '変更を取り消してもよろしいですか?';
 $string['editprofile'] = 'プロファイルを編集する';
+$string['profileicons'] = 'プロファイルアイコン';
+$string['Default'] = 'デフォルト';
+$string['deleteselectedicons'] = '選択したアイコンを削除する';
+$string['profileicon'] = 'プロファイルアイコン';
+$string['noimagesfound'] = 'イメージはありません。';
+$string['uploadedprofileiconsuccessfully'] = '新しいプロファイルアイコンが正常にアップロードされました。';
+$string['profileiconsetdefaultnotvalid'] = 'デフォルトのプロファイルアイコンを設定できません。選択が有効ではありません。';
+$string['profileiconsdefaultsetsuccessfully'] = 'デフォルトのプロファイルアイコンが正常に設定されました。';
+$string['profileiconsdeletedsuccessfully'] = 'プロファイルアイコンが正常に削除されました。';
+$string['profileiconsnoneselected'] = '削除するプロファイルアイコンが選択されていません。';
+$string['onlyfiveprofileicons'] = 'あなたは5つのファイルのみアップロードできます。';
+$string['or'] = 'または';
+$string['profileiconuploadexceedsquota'] = 'このプロファイルアイコンをアップロードすることで、あなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
+$string['profileiconimagetoobig'] = 'あなたがアップロードしたイメージは、大き過ぎます(%sx%s ピクセル)。%sx%s ピクセル以下のサイズにしてください。';
+$string['uploadingfile'] = 'ファイルのアップロード中 ...';
+$string['uploadprofileicon'] = 'プロファイルアイコンをアップロードする';
+$string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイルアイコンをアップロードすることができます。アイコンのアップロード後、あなたのデフォルトアイコンとして表示するアイコンを1つ選択してください。16x16 から%sx%s ピクセルの間であなたのアイコンを作成してください。';
+$string['setdefault'] = 'デフォルトに設定する';
 $string['Title'] = 'タイトル';
+$string['imagetitle'] = 'イメージタイトル';
+$string['usenodefault'] = 'デフォルトを使用しない';
+$string['usingnodefaultprofileicon'] = '現在、デフォルトのプロファイルアイコンを使用していません。';
 $string['Created'] = '作成日時';
 $string['Description'] = '説明';
 $string['Download'] = 'ダウンロード';
@@ -97,27 +119,5 @@ $string['Owner'] = 'オーナー';
 $string['Preview'] = 'プレビュー';
 $string['Size'] = 'サイズ';
 $string['Type'] = 'タイプ';
-$string['profileiconsize'] = 'アイコンサイズ'; // TBD
-$string['profileicons'] = 'プロファイルアイコン'; // TBD
-$string['Default'] = 'デフォルト'; // TBD
-$string['deleteselectedicons'] = '選択したアイコンを削除する'; // TBD
-$string['profileicon'] = 'プロファイルアイコン'; // TBD
-$string['noimagesfound'] = 'イメージはありません。'; // TBD
-$string['uploadedprofileiconsuccessfully'] = '新しいプロファイルアイコンが正常にアップロードされました。'; // TBD
-$string['profileiconsetdefaultnotvalid'] = 'デフォルトのプロファイルアイコンを設定できません。選択が有効ではありません。'; // TBD
-$string['profileiconsdefaultsetsuccessfully'] = 'デフォルトのプロファイルアイコンが正常に設定されました。'; // TBD
-$string['profileiconsdeletedsuccessfully'] = 'プロファイルアイコンが正常に削除されました。'; // TBD
-$string['profileiconsnoneselected'] = '削除するプロファイルアイコンが選択されていません。'; // TBD
-$string['onlyfiveprofileicons'] = 'あなたは5つのファイルのみアップロードできます。'; // TBD
-$string['or'] = 'または'; // TBD
-$string['profileiconuploadexceedsquota'] = 'このプロファイルアイコンをアップロードすることで、あなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。'; // TBD
-$string['profileiconimagetoobig'] = 'あなたがアップロードしたイメージは、大き過ぎます(%sx%s ピクセル)。%sx%s ピクセル以下のサイズにしてください。'; // TBD
-$string['uploadingfile'] = 'ファイルのアップロード中 ...'; // TBD
-$string['uploadprofileicon'] = 'プロファイルアイコンをアップロードする'; // TBD
-$string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイルアイコンをアップロードすることができます。アイコンのアップロード後、あなたのデフォルトアイコンとして表示するアイコンを1つ選択してください。16x16 から%sx%s ピクセルの間であなたのアイコンを作成してください。'; // TBD
-$string['setdefault'] = 'デフォルトに設定する'; // TBD
-$string['imagetitle'] = 'イメージタイトル'; // TBD
-$string['usenodefault'] = 'デフォルトを使用しない'; // TBD
-$string['usingnodefaultprofileicon'] = '現在、デフォルトのプロファイルアイコンを使用していません。'; // TBD
 
 ?>

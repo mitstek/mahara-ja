@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-09-20 17:29:51 UTC
+ * @updated    2009-01-05 05:15:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -34,6 +34,5 @@ $string['videourl'] = 'ビデオURI';
 $string['videourldescription2'] = 'ビデオが設置されている場所の、埋め込みコードまたはURIをペーストしてください。あなたは、次のサイトよりビデオを埋め込むことができます:';
 $string['width'] = '幅';
 $string['height'] = '高さ';
-$string['videourldescription'] = 'ビデオが設置されているページのURIをペーストしてください。'; // TBD
 
 ?>

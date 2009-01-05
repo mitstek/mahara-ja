@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-12-21 23:40:16 UTC
+ * @updated    2009-01-05 05:17:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -56,25 +56,15 @@ $string['reason'] = '理由';
 $string['approve'] = '承認';
 $string['reject'] = '拒否';
 $string['groupalreadyexists'] = 'この名称のグループは、すでに登録されています。';
-$string['Created'] = '作成日';
-$string['groupadmins'] = 'グループ管理者';
-$string['Admin'] = '管理者';
-$string['grouptype'] = 'グループタイプ';
-$string['publiclyviewablegroup'] = 'パブリックに閲覧可能なグループですか?';
-$string['publiclyviewablegroupdescription'] = '誰でも (このサイトのメンバーではない人も含めて) フォーラムを含む、このグループを閲覧できるようにしますか?';
-$string['usersautoadded'] = 'ユーザを自動追加しますか?';
-$string['usersautoaddeddescription'] = 'このグループに対して、新しいユーザすべてを自動追加しますか?';
-$string['hasrequestedmembership'] = 'がこのグループのメンバーシップをリクエストしました。';
-$string['hasbeeninvitedtojoin'] = 'がこのグループへの参加を招待されました。';
-$string['groupinvitesfrom'] = '参加の招待:';
-$string['requestedmembershipin'] = 'リクエストされたメンバーシップ:';
-$string['member'] = 'メンバー';
+$string['owner'] = 'オーナー';
 $string['members'] = 'メンバー';
-$string['Members'] = 'メンバー';
 $string['memberrequests'] = 'メンバーシップリクエスト';
 $string['declinerequest'] = 'リクエストを拒否する';
 $string['submittedviews'] = '送信済みビュー';
 $string['releaseview'] = 'ビューをリリースする';
+$string['tutor'] = 'チューター';
+$string['tutors'] = 'チューター';
+$string['member'] = 'メンバー';
 $string['invite'] = '招待';
 $string['remove'] = '削除';
 $string['updatemembership'] = 'メンバーシップを更新する';
@@ -94,7 +84,6 @@ $string['leavegroup'] = 'このグループから離れる';
 $string['joingroup'] = 'このグループに参加する';
 $string['requestjoingroup'] = 'このグループへの参加をリクエストする';
 $string['grouphaveinvite'] = 'あなたは、このグループへの参加を招待されました。';
-$string['grouphaveinvitewithrole'] = 'あなたは、このグループへの参加を次のロールで招待されました';
 $string['groupnotinvited'] = 'あなたは、このグループへの参加を招待されていません。';
 $string['groupinviteaccepted'] = '招待が正常に受理されました! あなたはグループメンバーとなりました。';
 $string['groupinvitedeclined'] = '招待が正常に拒否されました!';
@@ -133,8 +122,6 @@ $string['groupnotfound'] = 'ID %s のグループはありません。';
 $string['groupconfirmleave'] = '本当にこのグループから離れてもよろしいですか?';
 $string['groupconfirmleavehasviews'] = '本当にこのグループから離れてもよろしいですか? いくつかのあなたのビューでは、このグループをアクセスコントロールに使用しています。このグループから離れることで、グループのメンバーがあなたのビューにアクセスできなくなります。';
 $string['cantleavegroup'] = 'あなたは、このグループから離れることはできません。';
-$string['usercantleavegroup'] = 'このユーザは、このグループから離れることはできません。';
-$string['usercannotchangetothisrole'] = 'ユーザは、このロールに変更できません。';
 $string['leavespecifiedgroup'] = 'グループ「 %s 」から離れる';
 $string['memberslist'] = 'メンバー:';
 $string['nogroups'] = 'グループなし';
@@ -147,10 +134,8 @@ $string['allgroups'] = 'すべてのグループ';
 $string['trysearchingforgroups'] = '%s参加したいグループの検索%sを試してみてください!';
 $string['nogroupsfound'] = 'グループがありません :(';
 $string['group'] = 'グループ';
-$string['Group'] = 'グループ';
 $string['groups'] = 'グループ';
 $string['notamember'] = 'あなたは、このグループのメンバーではありません。';
-$string['notmembermayjoin'] = 'このページを閲覧するには、あなたはグループ「 %s 」に参加する必要があります。';
 $string['reasonoptional'] = '理由 (任意)';
 $string['request'] = 'リクエストする';
 $string['friendformaddsuccess'] = '%s があなたのフレンドリストに追加されました。';
@@ -188,7 +173,6 @@ $string['pendingfriends'] = '保留中フレンド';
 $string['backtofriendslist'] = 'フレンドリストに戻る';
 $string['findnewfriends'] = '新しいフレンドを探す';
 $string['Views'] = 'ビュー';
-$string['Files'] = 'ファイル';
 $string['seeallviews'] = 'すべての %s ビューを表示する ...';
 $string['noviewstosee'] = 'あなたが閲覧できるものはありません :(';
 $string['whymakemeyourfriend'] = 'あなたが私をフレンドにする理由:';
@@ -225,11 +209,11 @@ $string['cantmessageuser'] = 'あなたは、このユーザにメッセージ�
 $string['requestedfriendship'] = 'リクエストされたフレンドシップ';
 $string['notinanygroups'] = 'どのグループにも属していません。';
 $string['numberoffriends'] = 'フレンド (%s / %s)';
+$string['nofriends'] = 'フレンドなし :(';
 $string['addusertogroup'] = '追加';
 $string['inviteusertojoingroup'] = '招待';
 $string['invitemembertogroup'] = '%s を「 %s 」に招待する';
 $string['cannotinvitetogroup'] = 'あなたは、このユーザをグループに招待できません。';
-$string['useralreadyinvitedtogroup'] = 'このユーザは、すでに招待されているか、このグループのメンバーになっています。';
 $string['removefriend'] = 'フレンドを削除する';
 $string['denyfriendrequestlower'] = 'フレンドリクエストを拒否する';
 $string['groupinteractions'] = 'グループ活動';
@@ -242,23 +226,5 @@ $string['deleteinteractionsure'] = '本当にこの処理を実行してもよ�
 $string['interactiondeleted'] = '%s が正常に削除されました。';
 $string['addnewinteraction'] = '新しい %s を追加する';
 $string['title'] = 'タイトル';
-$string['Role'] = 'ロール';
-$string['changerole'] = 'ロールを変更する';
-$string['changeroleofuseringroup'] = 'ロールを変更する - ユーザ: %s / グループ: %s';
-$string['currentrole'] = '現在のロール';
-$string['changeroleto'] = '変更後のロール';
-$string['rolechanged'] = 'ロールが変更されました。';
-$string['removefromgroup'] = 'グループから削除する';
-$string['userremoved'] = 'ユーザが削除されました。';
-$string['About'] = 'About';
-$string['Joined'] = '登録日';
-$string['nofriends'] = 'フレンドなし :('; // TBD
-$string['owner'] = 'オーナー'; // TBD
-$string['tutor'] = 'チューター'; // TBD
-$string['tutors'] = 'チューター'; // TBD
-$string['groupmembershipchangemessagetutor'] = 'あなたは、このグループのチューターに昇格しました。'; // TBD
-$string['groupmembershipchangemessagemember'] = 'あなたは、このグループのチューターから降格しました。'; // TBD
-$string['groupmembershipchangemessageremove'] = 'あなたは、このグループから削除されました。'; // TBD
-$string['groupmembershipchangemessagedeclinerequest'] = 'このグループに参加する、あなたのリクエストは拒否されました。'; // TBD
 
 ?>

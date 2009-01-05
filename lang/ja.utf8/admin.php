@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-12-30 00:00:49 UTC
+ * @updated    2009-01-05 05:16:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -66,10 +66,8 @@ $string['editsitepages'] = 'サイトページを編集する';
 $string['editsitepagesdescription'] = 'サイト内の様々なページコンテンツを編集します。';
 $string['linksandresourcesmenu'] = 'リンクおよびリソースメニュー';
 $string['linksandresourcesmenudescription'] = '「リンクおよびリソースメニュー」内のリンクおよびファイルを管理します。';
-$string['sitefiles'] = 'サイトファイル';
-$string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトビューに置くことのできるファイルをアップロードおよび管理します。';
-$string['siteviews'] = 'サイトビュー';
-$string['siteviewsdescription'] = 'サイト全体のビューおよびビューテンプレートを作成および管理します。';
+$string['adminfiles'] = '管理ファイル';
+$string['adminfilesdescription'] = '「リンクおよびリソース」メニュー内に配置できるファイルをアップロードおよび管理します。';
 $string['networking'] = 'ネットワーキング';
 $string['networkingdescription'] = 'Maharaのネットワーキングを設定します。';
 $string['staffusers'] = 'スタッフユーザ';
@@ -90,29 +88,21 @@ $string['usersearchinstructions'] = 'ユーザの姓名のイニシャルをク�
 $string['institutionmembersdescription'] = 'ユーザとインスティテューションを関連付けます。';
 $string['institutionstaffdescription'] = 'スタッフパーミッションをユーザに割り当てます。';
 $string['institutionadminsdescription'] = 'インスティテューション管理者アクセス権を割り当てます。';
-$string['institutionviews'] = 'インスティテューションビュー';
-$string['institutionviewsdescription'] = 'インスティテューションのビューおよびビューテンプレートを作成および管理します。';
-$string['institutionfiles'] = 'インスティテューションファイル';
-$string['institutionfilesdescription'] = 'インスティテューションビューで使用するファイルをアップロードおよび管理します。';
 $string['pluginadmin'] = 'プラグイン管理';
 $string['pluginadmindescription'] = 'プラグインをインストールおよび設定します。';
-$string['adminsonly'] = '管理者のみ';
 $string['allowpublicviews'] = 'パブリックビューを許可する';
 $string['allowpublicviewsdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なポートフォリオビューを作成することができます。';
-$string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
-$string['allowpublicprofilesdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なプロファイルビューを作成することができます。';
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
 $string['defaultaccountinactiveexpiredescription'] = 'ユーザログインがない状態で、どのくらいの期間、ユーザアカウントはアクティブのままですか。';
 $string['defaultaccountinactivewarn'] = '休眠/有効期限の警告期間';
 $string['defaultaccountinactivewarndescription'] = 'ユーザアカウントの有効期限切れまたは休眠状態に関するメッセージがユーザに送信されるまでの期間です。';
 $string['defaultaccountlifetime'] = 'デフォルトのアカウント存続期間';
 $string['defaultaccountlifetimedescription'] = 'ユーザアカウントの有効期限が切れるまで、新しく作成されたユーザはどのくらいの期間、利用することができますか。';
-$string['embeddedcontent'] = '埋め込みコンテンツ';
-$string['embeddedcontentdescription'] = 'あなたのユーザに対して、他のサイトからのビデオ埋め込みをできるようにしたい場合、下記より信頼されたサイトを選択してください。';
-$string['Everyone'] = '誰でも';
 $string['language'] = '言語';
 $string['pathtoclam'] = 'clamのパス';
 $string['pathtoclamdescription'] = 'clamscanまたはclamdscanへのファイルシステムパスです。';
+$string['pathtofile'] = 'fileのパス';
+$string['pathtofiledescription'] = '「file」プログラムへのファイルシステムパスです。';
 $string['searchplugin'] = '検索プラグイン';
 $string['searchplugindescription'] = '使用する検索プラグイン';
 $string['sessionlifetime'] = 'セッションライフタイム';
@@ -126,15 +116,12 @@ $string['siteoptionspagedescription'] = 'ここでは、サイト全体にデフ
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['sitethemedescription'] = 'サイトのデフォルトテーマ';
 $string['theme'] = 'テーマ';
-$string['trustedsites'] = '信頼されたサイト';
 $string['updatesiteoptions'] = 'サイトオプションを更新する';
 $string['usersallowedmultipleinstitutions'] = 'ユーザに複数インスティテューションを許可する';
 $string['usersallowedmultipleinstitutionsdescription'] = 'チェックした場合、ユーザは同時に複数のインスティテューションのメンバーになることができます。';
 $string['usersseenewthemeonlogin'] = '次回ログイン時、ユーザに新しいテーマが表示されます。';
 $string['viruschecking'] = 'ウイルスチェック';
 $string['viruscheckingdescription'] = 'チェックした場合、アップロードファイルに対するClamAVを使用したウイルスチェックが有効にされます。';
-$string['whocancreatepublicgroups'] = '誰がパブリックグループを作成できますか';
-$string['whocancreatepublicgroupsdescription'] = 'ここでは、一般公衆から閲覧可能なグループを作成することのできるユーザを選択します。';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
 $string['editsitepagespagedescription'] = 'ここでは、(ログインおよびログアウトユーザ別に) ホームページおよびフッタのページリンク等、サイト全体のいくつかのページコンテンツを編集することができます。';
@@ -150,7 +137,7 @@ $string['savefailed'] = '保存に失敗しました。';
 $string['sitepageloaded'] = 'サイトページが読み込まれました。';
 $string['termsandconditions'] = '使用条件';
 $string['uploadcopyright'] = 'アップロード著作権宣言文';
-$string['sitefile'] = 'サイトファイル';
+$string['adminfile'] = '管理ファイル';
 $string['adminpublicdirname'] = 'パブリック';
 $string['adminpublicdirdescription'] = 'ログアウトしたユーザからアクセス可能なファイルです。';
 $string['badmenuitemtype'] = '不明なメニューアイテムタイプ';
@@ -169,7 +156,7 @@ $string['menuitemdeleted'] = 'メニューアイテムが削除されました�
 $string['menuitemsaved'] = 'メニューアイテムが保存されました。';
 $string['menuitemsloaded'] = 'メニューアイテムが読み込まれました。';
 $string['name'] = '名称';
-$string['nositefiles'] = '利用できるサイトファイルは、ありません。';
+$string['noadminfiles'] = '利用可能な管理ファイルはありません。';
 $string['public'] = 'パブリック';
 $string['savingmenuitem'] = 'メニューアイテムの保存中';
 $string['type'] = 'タイプ';
@@ -196,7 +183,7 @@ $string['emailusersaboutnewaccountdescription'] = '新しいアカウント詳�
 $string['forceuserstochangepassword'] = 'パスワード変更を強制しますか?';
 $string['forceuserstochangepassworddescription'] = '初回ログイン時、ユーザにパスワードの変更を強制するかどうか設定します。';
 $string['uploadcsvinstitution'] = '新しいユーザのインスティテューションおよび認証方法';
-$string['configureauthplugin'] = 'あなたがユーザを追加するには、最初に認証プラグインを設定する必要があります。';
+$string['uploadcsvconfigureauthplugin'] = 'あなたがCSVファイルでユーザを追加する前に、認証プラグインを設定してください。';
 $string['csvfiledescription'] = '追加するユーザを含むファイル';
 $string['uploadcsverrorinvalidfieldname'] = 'フィールド名「 %s 」が無効です。';
 $string['uploadcsverrorrequiredfieldnotspecified'] = '必須フィールド「 %s 」がフォーマット行で指定されていません。';
@@ -267,8 +254,10 @@ $string['resetpassworddescription'] = 'ここにテキストを入力した場�
 $string['forcepasswordchange'] = '次回ログイン時、パスワード変更を強制する';
 $string['forcepasswordchangedescription'] = '次回ログイン時、ユーザはパスワード変更ページへ移動されます。';
 $string['sitestaff'] = 'サイトスタッフ';
+$string['sitestaffdescription'] = '有効にした場合、ユーザは管理コミュニティの作成、送信されたビューの受信およびリリース、ユーザプロファイルの主要な情報へアクセスすることができます。';
 $string['siteadmins'] = 'サイト管理者';
 $string['siteadmin'] = 'サイト管理者';
+$string['siteadmindescription'] = 'サイト管理者は、サイト内であらゆる処理を実行することができ、どこへでも移動することができます。';
 $string['accountexpiry'] = 'アカウント有効期限';
 $string['accountexpirydescription'] = 'ユーザのログインが自動的に無効にされる日付です。';
 $string['suspended'] = '停止中';
@@ -277,13 +266,8 @@ $string['suspendedreasondescription'] = 'ユーザの次回ログイン時、表
 $string['unsuspenduser'] = 'ユーザの利用停止を解除する';
 $string['thisuserissuspended'] = 'このユーザは利用停止にされました。';
 $string['suspendedby'] = 'このユーザは %s により利用停止にされました。';
-$string['deleteuser'] = 'ユーザを削除する';
-$string['userdeletedsuccessfully'] = 'ユーザが正常に削除されました。';
-$string['confirmdeleteuser'] = '本当にこのユーザを削除してもよろしいですか?';
 $string['filequota'] = 'ファイルクオータ (MB)';
 $string['filequotadescription'] = 'ユーザファイルエリアでの利用可能な合計保存領域です。';
-$string['addusertoinstitution'] = 'インスティテューションにユーザを追加する';
-$string['removeuserfrominstitution'] = 'このインスティテューションからユーザを削除する';
 $string['confirmremoveuserfrominstitution'] = 'このインスティテューションから、本当にユーザを削除してもよろしいですか?';
 $string['adduser'] = 'ユーザを追加する';
 $string['adduserdescription'] = '新しいユーザを作成します。';
@@ -374,7 +358,6 @@ $string['Staff'] = 'スタッフ';
 $string['Admins'] = '管理者';
 $string['noinstitutions'] = 'インスティテューションはありません。';
 $string['noinstitutionsdescription'] = 'あなたがユーザをインスティテューションと関連付けたい場合、最初にインスティテューションを作成してください。';
-$string['Lockedfields'] = 'ロックフィールド';
 $string['Query'] = 'クエリ';
 $string['Institution'] = 'インスティテューション';
 $string['confirm'] = '承認';
@@ -389,34 +372,5 @@ $string['installed'] = 'インストール済み';
 $string['errors'] = 'エラー';
 $string['install'] = 'インストール';
 $string['reinstall'] = '再インストール';
-$string['sitestaffdescription'] = '有効にした場合、ユーザは管理コミュニティの作成、送信されたビューの受信およびリリース、ユーザプロファイルの主要な情報へアクセスすることができます。'; // TBD
-$string['siteadmindescription'] = 'サイト管理者は、サイト内であらゆる処理を実行することができ、どこへでも移動することができます。'; // TBD
-$string['trustedsitesforembeddedcontent'] = '埋め込みコンテンツのための信頼されたサイト'; // TBD
-$string['trustedsitesforembeddedcontentdescription'] = 'あなたのユーザに対して、他のサイトからのビデオ埋め込みをできるようにしたい場合、下記より信頼されたサイトを選択してください。'; // TBD
-$string['htmlfilter_YouTube'] = 'ユーザが作成したHTMLにおいて、YouTubeからコピーされた埋め込みコードの使用を許可します。'; // TBD
-$string['pathtofile'] = 'fileのパス'; // TBD
-$string['pathtofiledescription'] = '「file」プログラムへのファイルシステムパスです。'; // TBD
-$string['publickeydescription'] = 'この公開鍵は自動的に生成され、28日ごとにローテートされます。'; // TBD
-$string['institutionaddedsuccessfully'] = 'インスティテューションが正常に追加されました。このインスティテューションの認証プラグインを設定してください。'; // TBD
-$string['registrationalloweddescription'] = 'ユーザがこのインスティテューションのシステムに登録できるかどうか設定します。'; // TBD
-$string['uploadcsvconfigureauthplugin'] = 'あなたがCSVファイルでユーザを追加する前に、認証プラグインを設定してください。'; // TBD
-$string['adminfiles'] = '管理ファイル'; // TBD
-$string['adminfilesdescription'] = '「リンクおよびリソース」メニュー内に配置できるファイルをアップロードおよび管理します。'; // TBD
-$string['adminfile'] = '管理ファイル'; // TBD
-$string['noadminfiles'] = '利用可能な管理ファイルはありません。'; // TBD
-$string['uploadcsvpagedescription'] = '<p>あなたは、この機能により、新しいユーザを<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用してアップロードすることができます。</p>
-
-<p>CSVファイルの先頭行は、CSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
-
-<pre>username,password,email,firstname,lastname,studentid</pre>
-
-<p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを常に含んでください。また、インスティテューションにアップロードするユーザすべてのフィールドは、必須およびロックフィールドにすることができます。あなたは、すべてのインスティテューションの<a href="%s">フィールドを必須入力フィールドにする</a>、または<a href="%s">ロックすることができます</a>。</p>
-
-<p>必要に応じて、あなたのCSVファイルには、他のプロファイルフィールドを含むことができます。フィールドの完全な一覧は以下の通りです:</p>
-
-%s'; // TBD
-$string['institutionusersupdatedrequesters'] = 'ユーザが追加されました。'; // TBD
-$string['institutionusersupdatedmembers'] = 'ユーザが削除されました。'; // TBD
-$string['institutionusersupdatednonmembers'] = '招待状が送信されました。'; // TBD
 
 ?>
