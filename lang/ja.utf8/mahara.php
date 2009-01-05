@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-12-22 04:50:52 UTC
+ * @updated    2009-01-05 21:11:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -716,46 +716,5 @@ $string['remotehost'] = 'リモートホスト %s';
 $string['Copyof'] = '%s のコピー';
 $string['loggedinusersonly'] = 'ログインユーザのみ';
 $string['allowpublicaccess'] = 'パブリックアクセス (ログインなし) を許可する';
-$string['youraccounthasbeensuspendedtext'] = 'あなたのアカウントが利用停止されました。'; // TBD
-$string['youraccounthasbeenunsuspendedtext'] = 'あなたのアカウントの利用停止が解除されました。'; // TBD
-$string['ssopeers'] = 'SSOピア'; // TBD
-$string['forgotpassword'] = 'パスワードを忘れましたか?'; // TBD
-$string['forgotpasswordtext'] = 'パスワードを忘れた場合、あなたのプロファイルに登録した主メールアドレスを下記に入力してください。あなたが新しいパスワードを作成することのできるキーを送信します。'; // TBD
-$string['passwordreminder'] = 'パスワードリマインダ'; // TBD
-$string['forgotpassemailsubject'] = '%s のパスワード変更リクエスト'; // TBD
-$string['forgotpassemailmessagetext'] = '%s さん
-
-あなたの %s アカウントに関するパスワードリセットのリクエストを受け付けました。
-
-パスワードリセット処理を続けるには、下記リンクをクリックしてください。
-
-forgotpass.php?key=%s
-
-あなたがパスワードのリセットをリクエストしていない場合、このメールは無視してください。
-
-上記内容に関するご質問は、お気軽にお問い合わせください。
-
-contact.php
-
-%s サイト管理者
-
-forgotpass.php?key=%s'; // TBD
-$string['forgotpassemailmessagehtml'] = '<p>%s さん</p>
-
-<p>あなたの %s アカウントに関するパスワードリセットのリクエストを受け付けました。</p>
-
-<p>パスワードリセット処理を続けるには、下記リンクをクリックしてください。</p>
-
-<p><a href="forgotpass.php?key=%s">forgotpass.php?key=%s</a></p>
-
-<p>あなたがパスワードのリセットをリクエストしていない場合、このメールは無視してください。</p>
-
-<p>上記内容に関するご質問は、<a href="contact.php">お気軽にお問い合わせください</a>。</p>
-
-<p>%s サイト管理者</p>
-
-<p><a href="forgotpass.php?key=%s">forgotpass.php?key=%s</a></p>'; // TBD
-$string['forgotpassnosuchemailaddress'] = 'あなたが入力したメールアドレスは、このサイトのユーザに合致しません。'; // TBD
-$string['youareloggedinas'] = 'あなたは %s としてログインしています。'; // TBD
 
 ?>

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-22 07:18:58 UTC
+ * @updated    2009-01-05 21:05:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -180,7 +180,5 @@ $string['Title'] = 'タイトル';
 $string['imagetitle'] = 'イメージタイトル';
 $string['usenodefault'] = 'デフォルトを使用しない';
 $string['usingnodefaultprofileicon'] = '現在、デフォルトのプロファイルアイコンはありません。';
-$string['adminfilesloaded'] = '管理ファイルが読み込まれました。'; // TBD
-$string['mp4'] = 'MP4オーディオファイル'; // TBD
 
 ?>

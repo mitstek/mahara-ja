@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-12-21 23:40:16 UTC
+ * @updated    2009-01-05 21:09:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -224,7 +224,6 @@ $string['cantrequestfrienship'] = 'あなたは、このユーザにフレンド
 $string['cantmessageuser'] = 'あなたは、このユーザにメッセージを送信できません。';
 $string['requestedfriendship'] = 'リクエストされたフレンドシップ';
 $string['notinanygroups'] = 'どのグループにも属していません。';
-$string['numberoffriends'] = 'フレンド (%s / %s)';
 $string['addusertogroup'] = '追加';
 $string['inviteusertojoingroup'] = '招待';
 $string['invitemembertogroup'] = '%s を「 %s 」に招待する';
@@ -252,13 +251,5 @@ $string['removefromgroup'] = 'グループから削除する';
 $string['userremoved'] = 'ユーザが削除されました。';
 $string['About'] = 'About';
 $string['Joined'] = '登録日';
-$string['nofriends'] = 'フレンドなし :('; // TBD
-$string['owner'] = 'オーナー'; // TBD
-$string['tutor'] = 'チューター'; // TBD
-$string['tutors'] = 'チューター'; // TBD
-$string['groupmembershipchangemessagetutor'] = 'あなたは、このグループのチューターに昇格しました。'; // TBD
-$string['groupmembershipchangemessagemember'] = 'あなたは、このグループのチューターから降格しました。'; // TBD
-$string['groupmembershipchangemessageremove'] = 'あなたは、このグループから削除されました。'; // TBD
-$string['groupmembershipchangemessagedeclinerequest'] = 'このグループに参加する、あなたのリクエストは拒否されました。'; // TBD
 
 ?>

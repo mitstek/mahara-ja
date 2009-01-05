@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-12-16 15:47:20 UTC
+ * @updated    2009-01-05 21:11:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -243,18 +243,5 @@ $string['viewsby'] = 'ビュー by %s';
 $string['close'] = '閉じる';
 $string['blockcopypermission'] = 'ブロックのコピーパーミッション';
 $string['blockcopypermissiondesc'] = 'このビューを他のユーザがコピーできるようにした場合、あなたは、このブロックをどのようにコピーできるか選択することができます。';
-$string['accessfromdate'] = '%s 以前、誰もこのビューを閲覧できません。'; // TBD
-$string['accessuntildate'] = '%s 以降、誰もこのビューを閲覧できません。'; // TBD
-$string['accessbetweendates'] = '%s 以前または %s 以降、誰もこのビューを閲覧できません。'; // TBD
-$string['nobodycanseethisview'] = '誰もこのビューを閲覧できません。'; // TBD
-$string['closepreview'] = 'プレビューを閉じる'; // TBD
-$string['displayingviewsby'] = '%s によるビューを表示'; // TBD
-$string['groupviewsfor'] = '%s のグループビュー'; // TBD
-$string['editaccesspagedescription'] = '<p>デフォルトでは、あなたのみあなたのビューを閲覧することができます。ここでは、あなたの他に誰がビューを閲覧することができるか選択できます。</p>'; // TBD
-$string['feedbackmadeprivate'] = 'フィードバックがプライベートに変更されました。'; // TBD
-$string['format.renderfull'] = 'アーティファクト全体を表示する'; // TBD
-$string['format.rendermetadata'] = 'このアーティファクトのメタデータを表示する'; // TBD
-$string['private'] = 'プライベート'; // TBD
-$string['viewlayout'] = 'ビューレイアウト'; // TBD
 
 ?>

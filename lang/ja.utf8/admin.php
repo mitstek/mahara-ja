@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-12-30 00:00:49 UTC
+ * @updated    2009-01-05 21:09:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -389,34 +389,5 @@ $string['installed'] = 'インストール済み';
 $string['errors'] = 'エラー';
 $string['install'] = 'インストール';
 $string['reinstall'] = '再インストール';
-$string['sitestaffdescription'] = '有効にした場合、ユーザは管理コミュニティの作成、送信されたビューの受信およびリリース、ユーザプロファイルの主要な情報へアクセスすることができます。'; // TBD
-$string['siteadmindescription'] = 'サイト管理者は、サイト内であらゆる処理を実行することができ、どこへでも移動することができます。'; // TBD
-$string['trustedsitesforembeddedcontent'] = '埋め込みコンテンツのための信頼されたサイト'; // TBD
-$string['trustedsitesforembeddedcontentdescription'] = 'あなたのユーザに対して、他のサイトからのビデオ埋め込みをできるようにしたい場合、下記より信頼されたサイトを選択してください。'; // TBD
-$string['htmlfilter_YouTube'] = 'ユーザが作成したHTMLにおいて、YouTubeからコピーされた埋め込みコードの使用を許可します。'; // TBD
-$string['pathtofile'] = 'fileのパス'; // TBD
-$string['pathtofiledescription'] = '「file」プログラムへのファイルシステムパスです。'; // TBD
-$string['publickeydescription'] = 'この公開鍵は自動的に生成され、28日ごとにローテートされます。'; // TBD
-$string['institutionaddedsuccessfully'] = 'インスティテューションが正常に追加されました。このインスティテューションの認証プラグインを設定してください。'; // TBD
-$string['registrationalloweddescription'] = 'ユーザがこのインスティテューションのシステムに登録できるかどうか設定します。'; // TBD
-$string['uploadcsvconfigureauthplugin'] = 'あなたがCSVファイルでユーザを追加する前に、認証プラグインを設定してください。'; // TBD
-$string['adminfiles'] = '管理ファイル'; // TBD
-$string['adminfilesdescription'] = '「リンクおよびリソース」メニュー内に配置できるファイルをアップロードおよび管理します。'; // TBD
-$string['adminfile'] = '管理ファイル'; // TBD
-$string['noadminfiles'] = '利用可能な管理ファイルはありません。'; // TBD
-$string['uploadcsvpagedescription'] = '<p>あなたは、この機能により、新しいユーザを<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用してアップロードすることができます。</p>
-
-<p>CSVファイルの先頭行は、CSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
-
-<pre>username,password,email,firstname,lastname,studentid</pre>
-
-<p>この先頭行には、<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを常に含んでください。また、インスティテューションにアップロードするユーザすべてのフィールドは、必須およびロックフィールドにすることができます。あなたは、すべてのインスティテューションの<a href="%s">フィールドを必須入力フィールドにする</a>、または<a href="%s">ロックすることができます</a>。</p>
-
-<p>必要に応じて、あなたのCSVファイルには、他のプロファイルフィールドを含むことができます。フィールドの完全な一覧は以下の通りです:</p>
-
-%s'; // TBD
-$string['institutionusersupdatedrequesters'] = 'ユーザが追加されました。'; // TBD
-$string['institutionusersupdatedmembers'] = 'ユーザが削除されました。'; // TBD
-$string['institutionusersupdatednonmembers'] = '招待状が送信されました。'; // TBD
 
 ?>

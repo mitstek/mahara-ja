@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2008-11-22 17:39:54 UTC
+ * @updated    2009-01-05 21:08:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -86,7 +86,5 @@ $string['institutionrequestsubject'] = '%s が %s のメンバーシップをリ
 $string['institutionrequestmessage'] = 'あなたは、インスティテューションメンバーページで、ユーザをインスティテューションに追加することができます:';
 $string['institutioninvitesubject'] = 'あなたは、インスティテューション %s への参加を招待されました。';
 $string['institutioninvitemessage'] = 'あなたは、インスティテューション設定ページで、このインスティテューションのメンバーシップを承認することができます:';
-$string['onview'] = 'ビュー:'; // TBD
-$string['onartefact'] = 'アーティファクト:'; // TBD
 
 ?>
