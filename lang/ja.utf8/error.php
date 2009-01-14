@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-12 04:11:29 UTC
+ * @updated    2009-01-14 21:27:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -37,6 +37,7 @@ $string['xmlextensionnotloaded'] = 'あなたのサーバ設定には、%s 拡�
 $string['gdextensionnotloaded'] = 'あなたのサーバ設定には、gd拡張モジュールが含まれていません。アップロードされたイメージのリサイズおよび他の処理を実行するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。インストールされていない場合、インストールしてください。';
 $string['gdfreetypenotloaded'] = 'あなたのサーバ設定のgd拡張モジュールには、Freetypeサポートが含まれていません。CAPTCHAイメージを作成するため、MaharaではFreetypeサポートを必要とします。gd拡張モジュールでFreetypeサポートが設定されているかどうか確認してください。';
 $string['sessionextensionnotloaded'] = 'あなたのサーバ設定には、session拡張モジュールが含まれていません。ユーザログインをサポートするため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。インストールされていない場合、インストールしてください。';
+$string['curllibrarynotinstalled'] = 'あなたのサーバ設定には、curl拡張モジュールが含まれていません。Moodle統合および外部フィードを検索するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。インストールされていない場合、インストールしてください。';
 $string['registerglobals'] = 'あなたは危険なPHP設定、register_globalsをonにしています。Maharaは、この問題の対処を試みますが、設定の修正を強くお勧めします。';
 $string['magicquotesgpc'] = 'あなたは危険なPHP設定、magic_quotes_gpcをonにしています。Maharaは、この問題の対処を試みますが、設定の修正を強くお勧めします。';
 $string['magicquotesruntime'] = 'あなたは危険なPHP設定、magic_quotes_runtimeをonにしています。Maharaは、この問題の対処を試みますが、設定の修正を強くお勧めします。';
