@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-05 22:45:05 UTC
+ * @updated    2009-01-14 21:39:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -191,6 +191,16 @@ $string['promiscuousmodeenabled'] = '自動登録が有効にされました。'
 $string['promiscuousmodedescription'] = 'すべてのホストに対してインスティテューションレコードを作成し、ユーザがMaharaにログインできるようにします。';
 $string['wwwroot'] = 'WWWルート';
 $string['wwwrootdescription'] = 'これは、あなたのユーザがMaharaにアクセスするためのURIです。また、SSLキーが作成されるURIでもあります。';
+$string['proxysettings'] = 'プロクシ設定';
+$string['proxyaddress'] = 'プロクシアドレス';
+$string['proxyaddressdescription'] = 'あなたのサイトがインターネットにアクセスするためプロクシサーバを使用している場合、「ホスト名:ポート番号」表記法で指定してください。';
+$string['proxyaddressset'] = 'プロクシアドレスセット';
+$string['proxyauthmodel'] = 'プロクシ認証モデル';
+$string['proxyauthmodeldescription'] = '適切な場合、あなたのプロクシ認証モデルを選択してください。';
+$string['proxyauthmodelset'] = 'プロクシ認証モデルが設定されました。';
+$string['proxyauthcredentials'] = 'プロクシ証明書';
+$string['proxyauthcredentialsdescription'] = 'あなたのプロクシがウェブサーバに認証するため必要な証明書を「ユーザ名:パスワード」のフォーマットで指定してください。';
+$string['proxyauthcredntialsset'] = 'プロクシ認証証明書セット';
 $string['csvfile'] = 'CSVファイル';
 $string['emailusersaboutnewaccount'] = 'ユーザにアカウント情報をメール送信しますか?';
 $string['emailusersaboutnewaccountdescription'] = '新しいアカウント詳細情報をユーザにメール送信するかどうか設定します。';
