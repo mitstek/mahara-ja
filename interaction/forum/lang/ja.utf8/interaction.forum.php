@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-05 21:08:27 UTC
+ * @updated    2009-01-15 06:02:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -56,7 +56,6 @@ $string['closeddescription'] = 'クローズドトピックでは、モデレー
 $string['Count'] = 'カウント';
 $string['currentmoderators'] = '現在のモデレータ';
 $string['deleteforum'] = 'フォーラムを削除する';
-$string['deletedpost'] = 'この投稿は削除されています。';
 $string['deletepost'] = '投稿を削除する';
 $string['deletepostsuccess'] = '投稿が正常に削除されました。';
 $string['deletepostsure'] = '本当にこの処理を実行してもよろしいですか? 元に戻すことはできません。';
@@ -95,6 +94,7 @@ $string['Open'] = 'オープン';
 $string['Order'] = '並び順';
 $string['orderdescription'] = '他のフォーラムに対して、あなたがこのフォーラムを配置したい場所を選択してください。';
 $string['Post'] = '投稿';
+$string['postbyuserwasdeleted'] = '%s による投稿が削除されました。';
 $string['postedin'] = '%s が %s に投稿しました。';
 $string['Poster'] = '投稿者';
 $string['postreply'] = '返信';
