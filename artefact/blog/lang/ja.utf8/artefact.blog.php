@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-05 07:06:07 UTC
+ * @updated    2009-01-26 02:48:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -42,7 +42,7 @@ $string['blogdesc'] = '説明';
 $string['blogdescdesc'] = '例) 「Jillの経験および内省の記録」';
 $string['blogdoesnotexist'] = 'あなたは、存在しないブログへのアクセスを試みています。';
 $string['blogpostdoesnotexist'] = 'あなたは、存在しないブログ記事へのアクセスを試みています。';
-$string['blogfilesdirdescription'] = 'ブログ記事の添付として、ファイルがアップロードされました。';
+$string['blogfilesdirdescription'] = 'ブログ記事の添付としてアップロードされたファイルです。';
 $string['blogfilesdirname'] = 'ブログファイル';
 $string['blogpost'] = 'ブログ記事';
 $string['blogdeleted'] = 'ブログが削除されました。';
