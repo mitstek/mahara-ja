@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-14 21:27:54 UTC
+ * @updated    2009-01-29 16:15:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -70,10 +70,10 @@ $string['onlyoneprofileviewallowed'] = 'あなたは、1件のプロファイル
 $string['unrecoverableerror'] = '回復不能なエラーが発生しました。恐らく、あなたはシステムバグに遭遇したと思われます。';
 $string['unrecoverableerrortitle'] = '%s - サイト利用不可';
 $string['parameterexception'] = '必須パラメータが指定されていません。';
-$string['accessdeniedexception'] = 'あなたには、このページを閲覧するアクセス権限がありません。';
 $string['notfound'] = '不明';
 $string['notfoundexception'] = 'あなたが探しているページは見つかりませんでした。';
 $string['accessdenied'] = 'アクセスが拒否されました。';
+$string['accessdeniedexception'] = 'あなたには、このページを閲覧するアクセス権限がありません。';
 $string['viewnotfoundexceptiontitle'] = 'ビューが見つかりませんでした。';
 $string['viewnotfoundexceptionmessage'] = 'あなたは、存在しないビューにアクセスを試みました!';
 $string['viewnotfound'] = 'ID %s のビューは見つかりませんでした。';
