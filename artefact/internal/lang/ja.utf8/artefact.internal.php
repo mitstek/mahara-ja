@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-28 14:38:01 UTC
+ * @updated    2009-01-31 19:41:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -85,7 +85,7 @@ $string['emailactivation'] = 'メール有効化';
 $string['emailactivationsucceeded'] = 'メールが正常に有効化されました。';
 $string['emailactivationfailed'] = 'メール有効化に失敗しました。';
 $string['unvalidatedemailalreadytaken'] = 'あなたが確認しようとしているメールアドレスは、すでに登録されています。';
-$string['emailingfailed'] = 'プロファイルが保存されましたが、次のメールアドレスにメール送信できませんでした: %s';
+$string['emailingfailed'] = 'プロファイルが保存されましたが、次のメールアドレス宛にメール送信できませんでした: %s';
 $string['loseyourchanges'] = '変更を取り消してもよろしいですか?';
 $string['editprofile'] = 'プロファイルを編集する';
 $string['Title'] = 'タイトル';
