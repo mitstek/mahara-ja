@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-05 07:07:43 UTC
+ * @updated    2009-02-01 17:21:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -34,8 +34,8 @@ $string['description'] = 'Maharaデータベースで認証する';
 $string['completeregistration'] = '登録を完了する';
 $string['emailalreadytaken'] = 'このメールアドレスは、すでに登録されています。';
 $string['iagreetothetermsandconditions'] = '私は使用条件に同意します。';
-$string['passwordformdescription'] = 'あなたのパスワードには、少なくとも半角6文字必要です。また、1文字の数字および2文字の英字を含む必要があります。';
-$string['passwordinvalidform'] = 'あなたのパスワードには、少なくとも半角6文字必要です。また、1文字の数字および2文字の英字を含む必要があります。';
+$string['passwordformdescription'] = 'あなたのパスワードには、少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
+$string['passwordinvalidform'] = 'あなたのパスワードには、少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
 $string['registeredemailsubject'] = 'あなたは %s に登録されました。';
 $string['registeredemailmessagetext'] = '%s さん
 
