@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-05 21:07:51 UTC
+ * @updated    2009-02-08 17:31:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -30,6 +30,6 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'マイビュー';
 $string['otherusertitle'] = '%s のビュー';
-$string['description'] = 'あなたのプロファイルでユーザが閲覧することのできるビューすべてを表示します。';
+$string['description'] = 'あなたのプロファイルでユーザが閲覧することのできる、すべてのビューを表示します。';
 
 ?>
