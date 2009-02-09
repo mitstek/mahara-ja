@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-05 21:11:44 UTC
+ * @updated    2009-02-09 14:29:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -212,6 +212,11 @@ $string['noaccesstoview'] = 'あなたには、このビューにアクセスす
 $string['Template'] = 'テンプレート';
 $string['allowcopying'] = 'コピーを許可する';
 $string['templatedescription'] = 'このチェックボックスをチェックした場合、あなたのビューを閲覧できるユーザに対して、自分のビューとしてコピーできるようにします。';
+$string['choosetemplatepagedescription'] = '<p>ここでは、新しいビュー作成の出発点として、あなたがコピーを許可されているビューを検索することができます。ビューの名称をクリックすることで、あなたはそれぞれのビューのプレビューを表示することができます。あなたがコピーしたいビューを見つけた場合、ビューのコピーを作成するため、該当する「ビューをコピーする」ボタンをクリックして、コピーされたビューの修正を開始してください。</p>';
+$string['choosetemplategrouppagedescription'] = '<p>ここでは、新しいビュー作成の出発点として、このグループがコピーを許可されているビューを検索することができます。ビューの名称をクリックすることで、あなたはそれぞれのビューのプレビューを表示することができます。あなたがコピーしたいビューを見つけた場合、ビューのコピーを作成するため、該当する「ビューをコピーする」ボタンをクリックして、コピーされたビューの修正を開始してください。</p>
+<p><strong>注意:</strong> 現在、グループでは、ブログまたはブログ記事をコピーすることはできません。</p>';
+$string['choosetemplateinstitutionpagedescription'] = '<p>ここでは、新しいビュー作成の出発点として、このインスティテューションがコピーを許可されているビューを検索することができます。ビューの名称をクリックすることで、あなたはそれぞれのビューのプレビューを表示することができます。あなたがコピーしたいビューを見つけた場合、ビューのコピーを作成するため、該当する「ビューをコピーする」ボタンをクリックして、コピーされたビューの修正を開始してください。</p>
+<p><strong>注意:</strong> 現在、インスティテューションでは、ブログまたはブログ記事をコピーすることはできません。</p>';
 $string['copiedblocksandartefactsfromtemplate'] = '%d 個のブロックおよび %d 件のアーティファクトを %s からコピーしました。';
 $string['filescopiedfromviewtemplate'] = '%s からコピーされたファイル';
 $string['viewfilesdirname'] = 'ビューファイル';
