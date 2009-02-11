@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-15 06:02:17 UTC
+ * @updated    2009-02-11 18:55:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -33,7 +33,7 @@ $string['addtitle'] = 'フォーラムを追加する';
 $string['addtopic'] = 'トピックを追加する';
 $string['addtopicsuccess'] = 'トピックが正常に追加されました。';
 $string['autosubscribeusers'] = 'ユーザを自動的にメール購読させますか?';
-$string['autosubscribeusersdescription'] = 'このフォーラムに対して、ユーザが自動的にメール購読されるかどうか選択してください。';
+$string['autosubscribeusersdescription'] = 'このフォーラムに対して、グループユーザが自動的にメール購読されるかどうか選択してください。';
 $string['Body'] = '本文';
 $string['cantaddposttoforum'] = 'あなたは、このフォーラムに投稿できません。';
 $string['cantaddposttotopic'] = 'あなたは、このトピックに投稿できません。';
@@ -87,7 +87,7 @@ $string['newforum'] = '新しいフォーラム';
 $string['newforumpostby'] = '%s: %s: 新しいフォーラム投稿 by %s';
 $string['newpost'] = '新しい投稿:';
 $string['newtopic'] = '新しいトピック';
-$string['noforumpostsyet'] = 'このグループに投稿はありません。';
+$string['noforumpostsyet'] = 'まだ、このグループに投稿はありません。';
 $string['noforums'] = 'このグループにフォーラムはありません。';
 $string['notopics'] = 'このフォーラムにトピックはありません。';
 $string['Open'] = 'オープン';
