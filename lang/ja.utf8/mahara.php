@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-09 12:32:41 UTC
+ * @updated    2009-02-12 14:20:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -90,7 +90,7 @@ $string['linksandresources'] = 'リンクおよびリソース';
 $string['accessforbiddentoadminsection'] = 'あなたは、管理セクションへのアクセスを禁止されています。';
 $string['accountdeleted'] = '申し訳ございません、あなたのアカウントは削除されました。';
 $string['accountexpired'] = '申し訳ございません、あなたのアカウントの有効期限が切れました。';
-$string['accountcreated'] = ': 新しいアカウント';
+$string['accountcreated'] = '%s: 新しいアカウント';
 $string['accountcreatedtext'] = '%s さん
 
 あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は、下記のとおりです:
@@ -98,7 +98,7 @@ $string['accountcreatedtext'] = '%s さん
 ユーザ名: %s
 パスワード: %s
 
-利用開始するには、サイトにアクセスしてください!
+利用開始するには、%s にアクセスしてください!
 
 %s サイト管理者';
 $string['accountcreatedchangepasswordtext'] = '%s さん
@@ -110,7 +110,7 @@ $string['accountcreatedchangepasswordtext'] = '%s さん
 
 初回ログイン時、あなたはパスワードの変更を求められます。
 
-利用開始するには、サイトにアクセスしてください!
+利用開始するには、%s にアクセスしてください!
 
 %s サイト管理者';
 $string['accountcreatedhtml'] = '<p>%s さん</p>
@@ -122,7 +122,7 @@ $string['accountcreatedhtml'] = '<p>%s さん</p>
 <li><strong>パスワード:</strong> %s</li>
 </ul>
 
-<p>利用開始するには、<a href=""></a>にアクセスしてください!</p>
+<p>利用開始するには、<a href="%s">%s</a>にアクセスしてください!</p>
 
 <p>%s サイト管理者</p>';
 $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
@@ -136,7 +136,7 @@ $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 
 <p>初回ログイン時、あなたはパスワードの変更を求められます。</p>
 
-<p>利用開始するには、<a href=""></a>にアクセスしてください!</p>
+<p>利用開始するには、<a href="%s">%s</a>にアクセスしてください!</p>
 
 <p>%s サイト管理者</p>';
 $string['accountexpirywarning'] = 'アカウント終了通知';
@@ -245,7 +245,7 @@ $string['studentid'] = 'IDナンバー';
 $string['displayname'] = '表示名';
 $string['fullname'] = 'フルネーム';
 $string['registerstep1description'] = 'ようこそ! このサイトを使用するには、最初にユーザ登録してください。また、あなたは、<a href="terms.php">使用条件</a>に同意する必要があります。ここで収集したデータは、私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
-$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは、正常にユーザ登録されました! あなたのアバターとして表示する、任意のプロファイルアイコンを選択することができます。</p>';
+$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは、正常に %s にユーザ登録されました! あなたのアバターとして表示する、任意のプロファイルアイコンを選択することができます。</p>';
 $string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは、必須入力フィールドです。あなたのユーザ登録が完了する前に、すべての必須入力フィールドに入力してください。/p>';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムにユーザ登録できません。';
 $string['membershipexpiry'] = 'メンバーシップ有効期限切れ';
@@ -306,11 +306,11 @@ $string['noinstitutionsetpassemailmessagetext'] = '%s さん
 
 パスワードリセット処理を続けるには、下記リンクをクリックしてください。
 
-forgotpass.php?key=%s
+%sforgotpass.php?key=%s
 
 上記内容に関するご質問は、お気軽にお問い合わせください。
 
-contact.php
+%scontact.php
 
 %s サイト管理者
 
@@ -322,13 +322,13 @@ $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p>パスワードリセット処理を続けるには、下記リンクをクリックしてください。</p>
 
-<p><a href="forgotpass.php?key=%s">forgotpass.php?key=%s</a></p>
+<p><a href="%sforgotpass.php?key=%s">%sforgotpass.php?key=%s</a></p>
 
-<p>上記内容に関するご質問は、<a href="contact.php">お気軽にお問い合わせください</a>。</p>
+<p>上記内容に関するご質問は、<a href="%scontact.php">お気軽にお問い合わせください</a>。</p>
 
 <p>%s サイト管理者</p>
 
-<p><a href="forgotpass.php?key=%s">forgotpass.php?key=%s</a></p>';
+<p><a href="%sforgotpass.php?key=%s">%sforgotpass.php?key=%s</a></p>';
 $string['debugemail'] = '注意: このメールは、%s <%s> 宛のメールですが、設定ファイルの「sendallemailto」設定により、あなたに送信されています。';
 $string['noenddate'] = '終了日なし';
 $string['day'] = '日';

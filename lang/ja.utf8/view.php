@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-02-09 14:29:08 UTC
+ * @updated    2009-02-12 14:21:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -68,7 +68,7 @@ $string['view'] = 'ビュー';
 $string['views'] = 'ビュー';
 $string['View'] = 'ビュー';
 $string['Views'] = 'ビュー';
-$string['viewsubmittedtogroup'] = 'このビューは、<a href="group/view.php?id=%s">%s</a>に送信されました。';
+$string['viewsubmittedtogroup'] = 'このビューは、<a href="%sgroup/view.php?id=%s">%s</a>に送信されました。';
 $string['nobodycanseethisview2'] = 'あなたのみ、このビューを閲覧できます。';
 $string['noviews'] = 'ビューはありません。';
 $string['youhavenoviews'] = 'あなたのビューはありません。';
