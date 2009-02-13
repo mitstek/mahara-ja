@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-02-12 14:20:12 UTC
+ * @updated    2009-02-13 01:05:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -452,7 +452,6 @@ $string['uploadedfiletoobig'] = 'ファイルが大き過ぎます。詳細は�
 $string['notphpuploadedfile'] = 'アップロード処理中にファイルを喪失しました。これは通常起きることではありません。詳細は、あなたの管理者にお尋ねください。';
 $string['virusfounduser'] = 'あなたがアップロードした %s にウイルスの感染が発見されました! あなたのファイルは正常にアップロードされませんでした。';
 $string['fileunknowntype'] = 'あなたがアップロードしたファイルのタイプを判定できませんでした。あなたのファイルが破損したか、設定に問題があります。あなたの管理者にご連絡ください。';
-$string['filetypenotallowed'] = 'あなたは、このタイプのファイルのアップロードを許可されていません。詳細は、あなたの管理者にお尋ねください。';
 $string['virusrepeatsubject'] = '警告: %s はウイルスの繰り返しアップロード者です。';
 $string['virusrepeatmessage'] = 'ユーザ %s がアップロードした複数のファイルにウイルスが感染しています。';
 $string['youraccounthasbeensuspendedtext2'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。';

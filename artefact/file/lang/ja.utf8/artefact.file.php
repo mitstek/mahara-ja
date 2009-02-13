@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-05 21:05:47 UTC
+ * @updated    2009-02-13 01:05:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -63,8 +63,6 @@ $string['filemoved'] = 'ファイルが正常に移動されました。';
 $string['filenamefieldisrequired'] = 'ファイルフィールドは、必須入力項目です。';
 $string['fileinstructions'] = 'ビューに含めるため、あなたのイメージ、ドキュメントまたは他のファイルをアップロードしてください。ファイルまたはフォルダを移動するには、フォルダ上にドラッグ&ドロップしてください。';
 $string['filethingdeleted'] = '%s が削除されました。';
-$string['filetypes'] = 'アップロード可能なファイルタイプを設定する';
-$string['filetypedescription'] = '<p>あなたは、ここでユーザがアップロードできるファイルを設定することができます。この設定では、どのようなファイルをアップロードするかコントロールします。あなたがウイルスチェックを有効にしている場合、アップロードするファイルの種類と共にウイルスもチェックします。</p><p>「不明なアプリケーション」は、いくつかのムービーファイルおよびアーカイブファイル (gzip等) をアップロードするため必要ですので、注意してください。<p>';
 $string['folder'] = 'フォルダ';
 $string['Folders'] = 'フォルダ';
 $string['foldercreated'] = 'フォルダが作成されました。';
