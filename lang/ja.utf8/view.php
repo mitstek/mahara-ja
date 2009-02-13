@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-02-12 14:21:14 UTC
+ * @updated    2009-02-13 06:21:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -51,7 +51,7 @@ $string['artefacts'] = 'アーティファクト';
 $string['myviews'] = 'マイビュー';
 $string['groupviews'] = 'グループビュー';
 $string['institutionviews'] = 'インスティテューションビュー';
-$string['reallyaddaccesstoemptyview'] = 'あなたのビューには、アーティファクトが含まれていません。本当にこれらのユーザに対してビューへのアクセス権を与えますか?';
+$string['reallyaddaccesstoemptyview'] = 'あなたのビューには、ブロックが含まれていません。本当にこれらのユーザに対してビューへのアクセス権を与えますか?';
 $string['viewdeleted'] = 'ビューが削除されました。';
 $string['viewsubmitted'] = 'ビューが送信されました。';
 $string['editviewnameanddescription'] = 'ビュー詳細を編集する';
