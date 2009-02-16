@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-02-13 06:21:39 UTC
+ * @updated    2009-02-16 03:28:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -246,6 +246,9 @@ $string['nocopyableviewsfound'] = 'あなたがコピーできるビューはあ
 $string['noownersfound'] = 'オーナーが見つかりませんでした。';
 $string['viewsby'] = 'ビュー by %s';
 $string['close'] = '閉じる';
+$string['viewscopiedfornewusersmustbecopyable'] = '新しいユーザがビューをコピーできるよう設定する前に、あなたはビューのコピーを許可する必要があります。';
+$string['viewscopiedfornewgroupsmustbecopyable'] = '新しいグループがビューをコピーできるよう設定する前に、あなたはビューのコピーを許可する必要があります。';
+$string['copynewusergroupneedsloggedinaccess'] = '新しいユーザまたはグループにコピーされるビューに対して、ログインユーザのアクセス権を与える必要があります。';
 $string['blockcopypermission'] = 'ブロックのコピーパーミッション';
 $string['blockcopypermissiondesc'] = 'このビューを他のユーザがコピーできるようにした場合、あなたは、このブロックをどのようにコピーできるか選択することができます。';
 
