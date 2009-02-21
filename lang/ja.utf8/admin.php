@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-02-17 16:02:07 UTC
+ * @updated    2009-02-21 17:44:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -103,6 +103,14 @@ $string['htmlfiltersdescription'] = 'HTML Purifierの新しいフィルタを有
 $string['newfiltersdescription'] = 'あなたが新しいHTMLフィルタをダウンロードした場合、%s フォルダでファイルを解凍した後、下記のボタンをクリックすることで、インストールすることができます。';
 $string['filtersinstalled'] = 'フィルタがインストールされました。';
 $string['nofiltersinstalled'] = 'HTMLフィルタは、インストールされませんでした。';
+$string['Field'] = 'フィールド';
+$string['Value'] = '値';
+$string['datathatwillbesent'] = '送信されるデータ';
+$string['sendweeklyupdates'] = '更新内容を週に1回送信しますか?';
+$string['sendweeklyupdatesdescription'] = 'チェックした場合、あなたのサイトは、週に1回、統計資料とともに更新内容をmahara.orgに送信します。';
+$string['Register'] = '登録';
+$string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます!';
+$string['registeryourmaharasite'] = 'あなたのMaharaサイトを登録します。';
 $string['adminsonly'] = '管理者のみ';
 $string['allowpublicviews'] = 'パブリックビューを許可する';
 $string['allowpublicviewsdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なポートフォリオビューを作成することができます。';
