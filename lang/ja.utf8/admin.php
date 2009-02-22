@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-02-21 17:44:53 UTC
+ * @updated    2009-02-22 16:07:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -48,6 +48,7 @@ $string['performinginstallsandupgrades'] = 'インストールおよびアップ
 $string['runupgrade'] = 'アップグレードを実行する';
 $string['successfullyinstalled'] = 'Maharaが正常にインストールされました!';
 $string['thefollowingupgradesareready'] = '下記アップグレードの準備ができました:';
+$string['registerthismaharasite'] = 'このMaharaサイトを登録する';
 $string['upgradeloading'] = 'ローディング ...';
 $string['upgrades'] = 'アップグレード';
 $string['upgradesuccess'] = 'アップグレードが正常に完了しました。';
@@ -109,8 +110,13 @@ $string['datathatwillbesent'] = '送信されるデータ';
 $string['sendweeklyupdates'] = '更新内容を週に1回送信しますか?';
 $string['sendweeklyupdatesdescription'] = 'チェックした場合、あなたのサイトは、週に1回、統計資料とともに更新内容をmahara.orgに送信します。';
 $string['Register'] = '登録';
+$string['registrationfailedtrylater'] = 'エラーコード %s により、登録が失敗しました。後ほど再度お試しください。';
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます!';
 $string['registeryourmaharasite'] = 'あなたのMaharaサイトを登録します。';
+$string['registeryourmaharasitedetail'] = '<p>あなたは、<a href="http://mahara.org/">mahara.org</a>にあなたのMaharaサイトを登録することができます。登録は無料です。また、登録することで、私たちは、世界のMaharaインストール状況を作成することができます。</p>
+<p>あなたは、mahara.orgに送信された情報を閲覧することができます - あなたのユーザに関する個人情報は一切送信されません。</p>
+<p>あなたが、「更新内容を週に1回送信しますか?」をチェックした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
+<p>サイトを登録した後、この通知は取り除かれます。あなたは、更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更することができます。</p>';
 $string['adminsonly'] = '管理者のみ';
 $string['allowpublicviews'] = 'パブリックビューを許可する';
 $string['allowpublicviewsdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なポートフォリオビューを作成することができます。';
