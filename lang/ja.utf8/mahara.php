@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-02-23 18:41:50 UTC
+ * @updated    2009-02-23 18:46:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -454,14 +454,14 @@ $string['virusfounduser'] = 'あなたがアップロードした %s にウイ�
 $string['fileunknowntype'] = 'あなたがアップロードしたファイルのタイプを判定できませんでした。あなたのファイルが破損したか、設定に問題があります。あなたの管理者にご連絡ください。';
 $string['virusrepeatsubject'] = '警告: %s はウイルスの繰り返しアップロード者です。';
 $string['virusrepeatmessage'] = 'ユーザ %s がアップロードした複数のファイルにウイルスが感染しています。';
-$string['phpuploaderror'] = 'ファイルのアップロード中にエラーが発生しました: %s (エラーコード %s)';
-$string['phpuploaderror_1'] = 'アップロードファイルがphp.ini内のupload_max_filesizeディレクティブを超過しました。';
-$string['phpuploaderror_2'] = 'アップロードファイルがHTMLふぉオームで指定されているMAX_FILE_SIZEディレクティブを超過しました。';
+$string['phpuploaderror'] = 'ファイルアップロード中にエラーが発生しました: %s (エラーコード %s)';
+$string['phpuploaderror_1'] = 'アップロードファイルがphp.iniのupload_max_filesizeディレクティブを超過しました。';
+$string['phpuploaderror_2'] = 'アップロードファイルがHTMLフォームで指定されているMAX_FILE_SIZEディレクティブを超過しました。';
 $string['phpuploaderror_3'] = 'アップロードファイルは、一部分のみアップロードされました。';
 $string['phpuploaderror_4'] = 'アップロードされたファイルはありません。';
 $string['phpuploaderror_6'] = '一時フォルダがありません。';
 $string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。';
-$string['phpuploaderror_8'] = '拡張子が原因で、ファイルアップロードが中止されました。';
+$string['phpuploaderror_8'] = 'ファイルアップロードは、拡張子が原因で中止されました。';
 $string['adminphpuploaderror'] = 'ファイルアップロードエラーは、恐らくあなたのサーバ設定を原因としています。';
 $string['youraccounthasbeensuspendedtext2'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。';
 $string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。利用停止の理由は:';
