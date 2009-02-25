@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-05 21:09:21 UTC
+ * @updated    2009-02-25 04:10:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -52,6 +52,7 @@ $string['parent'] = '親認証局';
 $string['wessoout'] = 'あちらへSSOする';
 $string['weimportcontent'] = 'こちらにコンテンツをインポートさせる (一部のアプリケーションのみ)';
 $string['theyssoin'] = 'こちらにSSOさせる';
+$string['authloginmsg'] = 'ユーザがMaharaログインフォーム経由でログインを試みる場合、表示されるメッセージを入力してください。';
 $string['application'] = 'アプリケーション';
 $string['cantretrievekey'] = 'リモートサーバのパブリックキー検索中、エラーが発生しました。<br />アプリケーションおよびWWWルートフィールドが正しいこと、およびリモートホストのネットワークが有効にされていることを確認してください。';
 $string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s に対する使用を試みています。';
