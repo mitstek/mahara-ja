@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-15 05:59:59 UTC
+ * @updated    2009-03-02 15:04:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -114,7 +114,7 @@ $string['topicclosedsuccess'] = 'トピックが正常にクローズされま�
 $string['topicisclosed'] = 'このトピックはクローズされました。モデレータおよびグループ管理者のみ新しい返信を投稿できます。';
 $string['topicopenedsuccess'] = 'トピックが正常にオープンされました。';
 $string['topicstickysuccess'] = 'トピックが正常にスティッキー設定されました。';
-$string['topicsubscribesuccess'] = 'トピックのメール購読が正常に設定されました。';
+$string['topicsubscribesuccess'] = 'トピックのメール購読が正常に登録されました。';
 $string['topicunstickysuccess'] = 'トピックが正常にスティッキー設定解除されました。';
 $string['topicunsubscribesuccess'] = 'トピックのメール購読が正常に解除されました。';
 $string['topicupdatefailed'] = 'トピックの更新に失敗しました。';
