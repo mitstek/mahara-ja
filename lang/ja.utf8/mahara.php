@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-02-23 18:46:39 UTC
+ * @updated    2009-03-03 20:43:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -726,5 +726,6 @@ $string['Copyof'] = '%s のコピー';
 $string['loggedinusersonly'] = 'ログインユーザのみ';
 $string['allowpublicaccess'] = 'パブリックアクセス (ログインなし) を許可する';
 $string['thisistheprofilepagefor'] = 'これは、%s のプロファイルページです。';
+$string['pleasedonotreplytothismessage'] = 'このメッセージに返信しないでください。';
 
 ?>
