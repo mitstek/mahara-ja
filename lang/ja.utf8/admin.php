@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-02-22 16:07:17 UTC
+ * @updated    2009-03-03 18:00:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -276,6 +276,7 @@ $string['potentialstaff'] = '潜在的なスタッフ';
 $string['currentstaff'] = '現在のスタッフ';
 $string['staffusersupdated'] = 'スタッフユーザが更新されました。';
 $string['deleteusers'] = 'ユーザを削除する';
+$string['deleteuser'] = 'ユーザを削除する';
 $string['confirmdeleteusers'] = '本当に選択されたユーザを削除してもよろしいですか?';
 $string['exportingnotsupportedyet'] = 'ユーザプロファイルのエクスポートは、まだサポートされていません。';
 $string['exportuserprofiles'] = 'ユーザプロファイルをエクスポートする';
@@ -308,7 +309,6 @@ $string['suspendedreasondescription'] = 'ユーザの次回ログイン時、表
 $string['unsuspenduser'] = 'ユーザの利用停止を解除する';
 $string['thisuserissuspended'] = 'このユーザは利用停止にされました。';
 $string['suspendedby'] = 'このユーザは %s により利用停止にされました。';
-$string['deleteuser'] = 'ユーザを削除する';
 $string['userdeletedsuccessfully'] = 'ユーザが正常に削除されました。';
 $string['confirmdeleteuser'] = '本当にこのユーザを削除してもよろしいですか?';
 $string['filequota'] = 'ファイルクオータ (MB)';
@@ -316,6 +316,10 @@ $string['filequotadescription'] = 'ユーザファイルエリアでの利用可
 $string['addusertoinstitution'] = 'インスティテューションにユーザを追加する';
 $string['removeuserfrominstitution'] = 'このインスティテューションからユーザを削除する';
 $string['confirmremoveuserfrominstitution'] = 'このインスティテューションから、本当にユーザを削除してもよろしいですか?';
+$string['usereditdescription'] = 'あなたは、ここでこのユーザアカウントの閲覧および詳細設定することができます。以下であなたは、<a href="#suspend">このアカウントを利用停止または削除suspend or delete this account</a>することができます。また、<a href="#institutions">このユーザが関わっているインスティテューション内</a>で、設定を変更することもできます。';
+$string['suspenddeleteuser'] = 'ユーザの利用停止/削除';
+$string['suspenddeleteuserdescription'] = 'あなたは、ここでユーザアカウントを利用停止または完全に削除することができます。利用停止されたユーザは、利用停止が解除されるまで、ログインすることができません。利用停止されたユーザは利用停止解除することができますが、削除されたユーザは元に戻すことは<b>できません</b>ので注意してください。';
+$string['deleteusernote'] = 'この処理は、<b>元に戻すことができません</b>ので注意してください。';
 $string['adduser'] = 'ユーザを追加する';
 $string['adduserdescription'] = '新しいユーザを作成します。';
 $string['adduserpagedescription'] = '<p>あなたは、ここで新しいユーザをシステムに追加することができます。ユーザが追加された場合、ユーザ名およびパスワードを含んだ新しいユーザ情報がユーザ宛にメール送信されます。初回ログイン時、ユーザはパスワードの変更を求められます。</p>';
