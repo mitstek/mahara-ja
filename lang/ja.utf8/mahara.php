@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-03-03 20:43:29 UTC
+ * @updated    2009-03-13 20:01:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -87,6 +87,7 @@ $string['views'] = 'ビュー';
 $string['onlineusers'] = 'オンラインユーザ';
 $string['lastminutes'] = '直近の %s 分間';
 $string['linksandresources'] = 'リンクおよびリソース';
+$string['accesstotallydenied_institutionsuspended'] = 'あなたのインスティテューション %s は、現在利用停止されています。利用再開されるまで、 %s にログインすることはできません。詳細は、あなたのインスティテューションにご連絡ください。';
 $string['accessforbiddentoadminsection'] = 'あなたは、管理セクションへのアクセスを禁止されています。';
 $string['accountdeleted'] = '申し訳ございません、あなたのアカウントは削除されました。';
 $string['accountexpired'] = '申し訳ございません、あなたのアカウントの有効期限が切れました。';
@@ -157,26 +158,57 @@ $string['accountexpirywarninghtml'] = '<p>%s さん</p>
 
 <p>エクスポートツールを使用して、あなたのポートフォリオのコンテンツを保存することをお勧めします。この機能の使用に関するインストラクションは、ユーザガイドに記載されています。</p>
 
-<p>あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問は、<a href="%s">お気軽にお問い合わせください</a>:</P>
+<p>あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問は、<a href="%s">お気軽にお問い合わせください</a>。</P>
 
 <p>%s サイト管理者</p>';
-$string['institutionexpirywarning'] = 'インスティテューションメンバーシップ終了通知';
-$string['institutionexpirywarningtext'] = '%s さん
+$string['institutionmembershipexpirywarning'] = 'インスティテューションメンバーシップアカウント終了通知';
+$string['institutionmembershipexpirywarningtext'] = '%s さん
 
-あなたの %s のメンバーシップ %s は %s で終了します。
+あなたの %s における %s のメンバーシップは %s で終了します。
 
 あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は、お気軽にお問い合わせください:
 
 %s
 
 %s サイト管理者';
-$string['institutionexpirywarninghtml'] = '<p>%s さん</p>
+$string['institutionmembershipexpirywarninghtml'] = '<p>%s さん</p>
 
-<p>あなたの %s のメンバーシップ %s は %s で終了します。</p>
+<p>あなたの %s における %s のメンバーシップは %s で終了します。</p>
 
-<p>あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は、<a href="%s">お気軽にお問い合わせください</a>:</P>
+<p>あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は、<a href="%s">お気軽にお問い合わせください</a>。</P>
 
 <p>%s サイト管理者</p>';
+$string['institutionexpirywarning'] = 'インスティテューション終了通知';
+$string['institutionexpirywarningtext_institution'] = '%s さん
+
+%s の %s におけるメンバーシップは %s で終了します。
+
+あなたのインスティテューションメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は、お気軽にお問い合わせください:
+
+%s
+
+%s サイト管理者';
+$string['institutionexpirywarninghtml_institution'] = '<p>%s さん</p>
+
+<p>%s の %s におけるメンバーシップは %s で終了します。</p>
+
+<p>あなたのインスティテューションメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は、<a href="%s">お気軽にお問い合わせください</a>。</P>
+
+<p>%s サイト管理者</p>';
+$string['institutionexpirywarningtext_site'] = '%s さん
+
+インスティテューション「 %a 」は %s で終了します。
+
+%s のメンバーシップの有効期限を延長したい場合、お問い合わせください:
+
+%s サイト管理者';
+$string['institutionexpirywarninghtml_site'] = '<p>%s さん</p>
+
+<p>インスティテューション「 %a 」は %s で終了します。</p>
+
+<p>%s のメンバーシップの有効期限を延長したい場合、<a href="%s">お問い合わせください</a>。</P>
+
+<p>%s サイト管理者';
 $string['accountinactive'] = '申し訳ございません、あなたのアカウントは、現在有効ではありません。';
 $string['accountinactivewarning'] = 'アカウント無効通知';
 $string['accountinactivewarningtext'] = '%s さん
