@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-03-15 06:38:42 UTC
+ * @updated    2009-03-15 16:50:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -281,7 +281,7 @@ $string['confirmdeleteusers'] = '本当に選択されたユーザを削除し�
 $string['exportingnotsupportedyet'] = 'ユーザプロファイルのエクスポートは、まだサポートされていません。';
 $string['exportuserprofiles'] = 'ユーザプロファイルをエクスポートする';
 $string['nousersselected'] = 'ユーザが選択されていません。';
-$string['suspenduser'] = 'ユーザを利用停止にする';
+$string['suspenduser'] = 'ユーザを利用停止する';
 $string['suspendedusers'] = '利用停止ユーザ';
 $string['suspensionreason'] = '利用停止理由';
 $string['errorwhilesuspending'] = '利用停止中にエラーが発生しました。';
@@ -290,7 +290,7 @@ $string['unsuspendusers'] = 'ユーザの利用停止を解除する';
 $string['usersdeletedsuccessfully'] = 'ユーザが正常に削除されました。';
 $string['usersunsuspendedsuccessfully'] = 'ユーザの利用停止が正常に解除されました。';
 $string['suspendingadmin'] = '利用停止を実行した管理者';
-$string['usersuspended'] = 'ユーザが利用停止にされました。';
+$string['usersuspended'] = 'ユーザが利用停止されました。';
 $string['userunsuspended'] = 'ユーザの利用停止が解除されました。';
 $string['accountsettings'] = 'アカウント設定';
 $string['siteaccountsettings'] = 'サイトアカウント設定';
@@ -307,8 +307,8 @@ $string['suspended'] = '停止中';
 $string['suspendedreason'] = '利用停止の理由';
 $string['suspendedreasondescription'] = 'ユーザの次回ログイン時、表示されるテキストです。';
 $string['unsuspenduser'] = 'ユーザの利用停止を解除する';
-$string['thisuserissuspended'] = 'このユーザは利用停止にされました。';
-$string['suspendedby'] = 'このユーザは %s により利用停止にされました。';
+$string['thisuserissuspended'] = 'このユーザは利用停止されました。';
+$string['suspendedby'] = 'このユーザは %s により利用停止されました。';
 $string['userdeletedsuccessfully'] = 'ユーザが正常に削除されました。';
 $string['confirmdeleteuser'] = '本当にこのユーザを削除してもよろしいですか?';
 $string['filequota'] = 'ファイルクオータ (MB)';
@@ -346,7 +346,7 @@ $string['institutionname'] = 'インスティテューション名';
 $string['institutionnamealreadytaken'] = 'このインスティテューション名は、すでに取得されています。';
 $string['institutiondisplayname'] = 'インスティテューション表示名';
 $string['institutionexpiry'] = 'インスティテューション有効期限';
-$string['institutionexpirydescription'] = 'このインスティテューションのメンバーシップが %s において一時停止される日付です。';
+$string['institutionexpirydescription'] = 'このインスティテューションのメンバーシップが %s において利用停止される日付です。';
 $string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
 $string['registrationallowed'] = 'ユーザ登録を許可しますか?';
 $string['registrationalloweddescription2'] = 'あなたのシステム内にある、このインスティテューションに対して、ユーザが登録フォームで登録できるかどうか設定します。';
