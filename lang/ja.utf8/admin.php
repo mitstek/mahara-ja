@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-03-03 20:41:58 UTC
+ * @updated    2009-03-15 06:38:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -345,6 +345,8 @@ $string['adminnoauthpluginforinstitution'] = 'このインスティテューシ�
 $string['institutionname'] = 'インスティテューション名';
 $string['institutionnamealreadytaken'] = 'このインスティテューション名は、すでに取得されています。';
 $string['institutiondisplayname'] = 'インスティテューション表示名';
+$string['institutionexpiry'] = 'インスティテューション有効期限';
+$string['institutionexpirydescription'] = 'このインスティテューションのメンバーシップが %s において一時停止される日付です。';
 $string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
 $string['registrationallowed'] = 'ユーザ登録を許可しますか?';
 $string['registrationalloweddescription2'] = 'あなたのシステム内にある、このインスティテューションに対して、ユーザが登録フォームで登録できるかどうか設定します。';
