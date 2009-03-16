@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-03-15 16:50:09 UTC
+ * @updated    2009-03-16 22:38:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -131,6 +131,10 @@ $string['defaultaccountlifetimedescription'] = 'ユーザアカウントの有�
 $string['embeddedcontent'] = '埋め込みコンテンツ';
 $string['embeddedcontentdescription'] = 'あなたのユーザに対して、他のサイトからのビデオ埋め込みをできるようにしたい場合、下記より信頼されたサイトを選択してください。';
 $string['Everyone'] = '誰でも';
+$string['institutionautosuspend'] = '有効期限切れインスティテューションの自動停止';
+$string['institutionautosuspenddescription'] = 'チェックした場合、有効期限切れのインスティテューションが自動的に停止されます。';
+$string['institutionexpirynotification'] = 'インスティテューション有効期限の警告期限';
+$string['institutionexpirynotificationdescription'] = 'サイトおよびインスティテューション管理者に対して、サイト有効期限切れ前に通知メッセージが送信されます。';
 $string['language'] = '言語';
 $string['pathtoclam'] = 'clamのパス';
 $string['pathtoclamdescription'] = 'clamscanまたはclamdscanへのファイルシステムパスです。';
