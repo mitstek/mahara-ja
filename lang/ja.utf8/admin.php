@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-03-16 22:38:49 UTC
+ * @updated    2009-03-19 19:10:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -417,6 +417,16 @@ $string['Admins'] = '管理者';
 $string['noinstitutions'] = 'インスティテューションはありません。';
 $string['noinstitutionsdescription'] = 'あなたがユーザをインスティテューションと関連付けたい場合、最初にインスティテューションを作成してください。';
 $string['Lockedfields'] = 'ロックフィールド';
+$string['errorwhileunsuspending'] = '利用停止解除中にエラーが発生しました。';
+$string['institutionsuspended'] = 'インスティテューションが利用停止されました。';
+$string['institutionunsuspended'] = 'インスティテューションの利用停止が解除されました。';
+$string['suspendedinstitution'] = '利用停止';
+$string['suspendinstitution'] = 'インスティテューションを利用停止する';
+$string['suspendinstitutiondescription'] = 'ここであなたは、インスティテューションを利用停止することができます。利用停止されたインスティテューションのユーザは、インスティテューションが利用停止解除されるまで、ログインすることはできません。';
+$string['suspendedinstitutionmessage'] = 'このインスティテューションは、利用停止されています。';
+$string['unsuspendinstitution'] = 'インスティテューションの利用停止を解除する';
+$string['unsuspendinstitutiondescription'] = 'ここであなたは、インスティテューションの利用停止を解除することができます。利用停止されたインスティテューションのユーザは、インスティテューションが利用停止解除されるまで、ログインすることはできません。<br /><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止解除することは、結果として、毎日、再度利用停止されることになります。';
+$string['unsuspendinstitutiondescription_top'] = '<strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止解除することは、結果として、毎日、再度利用停止されることになります。';
 $string['Query'] = 'クエリ';
 $string['Institution'] = 'インスティテューション';
 $string['confirm'] = '承認';
