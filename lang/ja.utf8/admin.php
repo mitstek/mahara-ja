@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-03-19 19:10:54 UTC
+ * @updated    2009-03-19 19:13:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -425,8 +425,8 @@ $string['suspendinstitution'] = 'インスティテューションを利用停�
 $string['suspendinstitutiondescription'] = 'ここであなたは、インスティテューションを利用停止することができます。利用停止されたインスティテューションのユーザは、インスティテューションが利用停止解除されるまで、ログインすることはできません。';
 $string['suspendedinstitutionmessage'] = 'このインスティテューションは、利用停止されています。';
 $string['unsuspendinstitution'] = 'インスティテューションの利用停止を解除する';
-$string['unsuspendinstitutiondescription'] = 'ここであなたは、インスティテューションの利用停止を解除することができます。利用停止されたインスティテューションのユーザは、インスティテューションが利用停止解除されるまで、ログインすることはできません。<br /><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止解除することは、結果として、毎日、再度利用停止されることになります。';
-$string['unsuspendinstitutiondescription_top'] = '<strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止解除することは、結果として、毎日、再度利用停止されることになります。';
+$string['unsuspendinstitutiondescription'] = 'ここであなたは、インスティテューションの利用停止を解除することができます。利用停止されたインスティテューションのユーザは、インスティテューションが利用停止解除されるまで、ログインすることはできません。<br /><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止解除することは、結果として、毎日、再度利用停止されることにつながります。';
+$string['unsuspendinstitutiondescription_top'] = '<strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止解除することは、結果として、毎日、再度利用停止されることにつながります。';
 $string['Query'] = 'クエリ';
 $string['Institution'] = 'インスティテューション';
 $string['confirm'] = '承認';
