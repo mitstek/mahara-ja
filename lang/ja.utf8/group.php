@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-05 21:09:44 UTC
+ * @updated    2009-03-23 03:13:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -216,7 +216,10 @@ $string['sendmessage'] = 'メッセージを送信する';
 $string['messagesent'] = 'メッセージが送信されました!';
 $string['messagenotsent'] = 'メッセージの送信に失敗しました。';
 $string['newusermessage'] = '%s からの新しいメッセージ';
+$string['newusermessageemailbody'] = '%s があなたにメッセージを送信しました。メッセージを閲覧するには、%s にアクセスしてください。';
 $string['sendmessageto'] = '%s にメッセージを送信する';
+$string['viewmessage'] = 'メッセージを表示する';
+$string['Reply'] = '返信';
 $string['denyfriendrequest'] = 'フレンドシップリクエストを拒否する';
 $string['sendfriendshiprequest'] = '%s にフレンドシップリクエストを送信する';
 $string['cantdenyrequest'] = 'これは有効なフレンドシップリクエストではありません。';
