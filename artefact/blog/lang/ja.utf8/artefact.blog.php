@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-02-09 14:29:20 UTC
+ * @updated    2009-04-07 23:54:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -43,8 +43,6 @@ $string['blogdesc'] = '説明';
 $string['blogdescdesc'] = '例) 「Jillの経験および内省の記録」';
 $string['blogdoesnotexist'] = 'あなたは、存在しないブログへのアクセスを試みています。';
 $string['blogpostdoesnotexist'] = 'あなたは、存在しないブログ記事へのアクセスを試みています。';
-$string['blogfilesdirdescription'] = 'ブログ記事の添付としてアップロードされたファイルです。';
-$string['blogfilesdirname'] = 'ブログファイル';
 $string['blogpost'] = 'ブログ記事';
 $string['blogdeleted'] = 'ブログが削除されました。';
 $string['blogpostdeleted'] = 'ブログ記事が削除されました。';
@@ -74,7 +72,6 @@ $string['dimensions'] = 'サイズ';
 $string['draft'] = '下書き';
 $string['edit'] = '編集';
 $string['editblogpost'] = 'ブログ記事を編集する';
-$string['erroraccessingblogfilesfolder'] = 'ブログファイルフォルダへのアクセス中にエラーが発生しました。';
 $string['errorsavingattachments'] = 'ブログ記事の添付ファイル保存中にエラーが発生しました。';
 $string['horizontalspace'] = '水平方向のスペース';
 $string['insert'] = '挿入';
