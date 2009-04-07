@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-02-13 01:05:20 UTC
+ * @updated    2009-04-07 20:16:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -30,22 +30,28 @@ defined('INTERNAL') || die();
 
 $string['pluginname'] = 'ファイル';
 $string['sitefilesloaded'] = 'サイトファイルが読み込まれました。';
+$string['addafile'] = 'ファイルを追加する';
 $string['bytes'] = 'バイト';
 $string['cannoteditfolder'] = 'あなたには、このフォルダにコンテンツを追加するパーミッションがありません。';
 $string['changessaved'] = '変更が保存されました。';
+$string['clickanddragtomovefile'] = '%s を移動するには、クリック&ドラッグしてください。';
 $string['contents'] = 'コンテンツ';
 $string['copyrightnotice'] = '著作権表示';
 $string['create'] = '作成';
 $string['Created'] = '作成日時';
 $string['createfolder'] = 'フォルダを作成する';
+$string['customagreement'] = 'カスタム同意書';
 $string['Date'] = '登録日';
+$string['defaultagreement'] = 'デフォルト同意書';
 $string['defaultquota'] = 'デフォルトクオータ';
 $string['defaultquotadescription'] = 'あなたは、新しいユーザがクオータとして持つことのできるディスクスペース総量をここで設定することができます。既存のユーザのクオータは、変更されません。';
 $string['deletefile?'] = '本当にこのファイルを削除してもよろしいですか?';
 $string['deletefolder?'] = '本当にこのフォルダを削除してもよろしいですか?';
 $string['Description'] = '説明';
 $string['destination'] = '作成場所';
+$string['detachfilewarning'] = 'あなたがこのファイルを削除した場合、あなたのポートフォリオ内の他の %s アイテムから分離されます。';
 $string['Download'] = 'ダウンロード';
+$string['downloadfile'] = '%s をダウンロードする';
 $string['downloadoriginalversion'] = 'オリジナルバージョンをダウンロードする';
 $string['editfile'] = 'ファイルを編集する';
 $string['editfolder'] = 'フォルダを編集する';
@@ -56,16 +62,18 @@ $string['filealreadyindestination'] = 'あなたが移動しようとしたフ�
 $string['files'] = 'ファイル';
 $string['Files'] = 'ファイル';
 $string['fileexists'] = 'ファイル登録済み';
-$string['fileexistsonserver'] = 'ファイル名 %s のファイルは、すでに登録されています。';
 $string['fileexistsoverwritecancel'] = 'このファイル名のファイルは、すでに登録されています。あなたは、別のファイル名にするか、既存のファイルに上書きすることができます。';
 $string['filelistloaded'] = 'ファイルリストが読み込まれました。';
 $string['filemoved'] = 'ファイルが正常に移動されました。';
 $string['filenamefieldisrequired'] = 'ファイルフィールドは、必須入力項目です。';
 $string['fileinstructions'] = 'ビューに含めるため、あなたのイメージ、ドキュメントまたは他のファイルをアップロードしてください。ファイルまたはフォルダを移動するには、フォルダ上にドラッグ&ドロップしてください。';
 $string['filethingdeleted'] = '%s が削除されました。';
+$string['filewithnameexists'] = '名称「 %s 」のファイルまたはフォルダは、すでに存在しています。';
 $string['folder'] = 'フォルダ';
 $string['Folders'] = 'フォルダ';
 $string['foldercreated'] = 'フォルダが作成されました。';
+$string['foldernamerequired'] = '新しいフォルダ名を入力してください。';
+$string['gotofolder'] = '%s に移動する';
 $string['groupfiles'] = 'グループファイル';
 $string['home'] = 'ホーム';
 $string['htmlremovedmessage'] = 'あなたが閲覧しているファイル「 <strong>%s</strong> 」は、<a href="%s">%s</a> によりアップロードされたものです。以下に表示されているファイルは不適切なコンテンツのため、削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
@@ -85,14 +93,17 @@ $string['overwrite'] = '上書き';
 $string['Owner'] = 'オーナー';
 $string['parentfolder'] = '親フォルダ';
 $string['Preview'] = 'プレビュー';
+$string['requireagreement'] = '同意を必要とする';
 $string['savechanges'] = '変更を保存する';
+$string['selectafile'] = 'ファイルを選択する';
 $string['Size'] = 'サイズ';
 $string['timeouterror'] = 'ファイルのアップロードに失敗しました: ファイルのアップロードを再度お試しください。';
 $string['title'] = '名称';
 $string['titlefieldisrequired'] = '名称フィールドは、必須入力項目です。';
 $string['Type'] = 'タイプ';
-$string['unlinkthisfilefromblogposts?'] = 'このファイルは、１つまたはそれ以上のブログ記事に添付されています。ファイルを削除した場合、これらの記事からファイルが削除されます。';
 $string['upload'] = 'アップロード';
+$string['uploadagreement'] = 'アップロード同意書';
+$string['uploadagreementdescription'] = 'サイトにファイルをアップロードする前、あなたが以下のテキストへの同意をユーザに強制したい場合、このオプションを有効にしてください。';
 $string['uploadexceedsquota'] = 'このファイルをアップロードすることで、あなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
 $string['uploadfile'] = 'ファイルをアップロードする';
 $string['uploadfileexistsoverwritecancel'] = 'この名称のファイルは、すでに登録されています。あなたがアップロードしようとしているファイルをリネームするか、既存のファイルに上書きすることができます。';
@@ -101,7 +112,10 @@ $string['uploadoffilecomplete'] = '%s のアップロードが完了しました
 $string['uploadoffilefailed'] = '%s のアップロードに失敗しました。';
 $string['uploadoffiletofoldercomplete'] = '%s の %s へのアップロードが完了しました。';
 $string['uploadoffiletofolderfailed'] = '%s の %s へのアップロードに失敗しました。';
+$string['usecustomagreement'] = 'カスタムアグリーメントを使用する';
 $string['youmustagreetothecopyrightnotice'] = 'あなたは、著作権表示に同意する必要があります。';
+$string['fileuploadedtofolderas'] = '%s が %s に「 %s 」としてアップロードされました。';
+$string['fileuploadedas'] = '%s が「 %s 」としてアップロードされました。';
 $string['ai'] = 'Postscriptドキュメント';
 $string['aiff'] = 'AIFFオーディオファイル';
 $string['application'] = '不明なアプリケーション';
