@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-03-23 03:13:26 UTC
+ * @updated    2009-04-07 19:20:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -225,6 +225,7 @@ $string['sendfriendshiprequest'] = '%s にフレンドシップリクエスト�
 $string['cantdenyrequest'] = 'これは有効なフレンドシップリクエストではありません。';
 $string['cantrequestfrienship'] = 'あなたは、このユーザにフレンドシップをリクエストできません。';
 $string['cantmessageuser'] = 'あなたは、このユーザにメッセージを送信できません。';
+$string['cantviewmessage'] = 'あなたは、このメッセージを閲覧できません。';
 $string['requestedfriendship'] = 'リクエストされたフレンドシップ';
 $string['notinanygroups'] = 'どのグループにも属していません。';
 $string['addusertogroup'] = '追加';

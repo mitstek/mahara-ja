@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-03-13 20:01:22 UTC
+ * @updated    2009-04-07 19:19:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -48,6 +48,7 @@ $string['showtags'] = 'マイタグを表示する';
 $string['errorprocessingform'] = 'このフォームによる送信中にエラーが発生しました。マークされたフィールドを確認して、再度送信してください。';
 $string['description'] = '説明';
 $string['remove'] = '削除';
+$string['Close'] = '閉じる';
 $string['no'] = 'No';
 $string['yes'] = 'Yes';
 $string['none'] = 'なし';
