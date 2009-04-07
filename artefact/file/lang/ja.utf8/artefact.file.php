@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-04-07 20:16:19 UTC
+ * @updated    2009-04-07 20:20:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -112,7 +112,7 @@ $string['uploadoffilecomplete'] = '%s のアップロードが完了しました
 $string['uploadoffilefailed'] = '%s のアップロードに失敗しました。';
 $string['uploadoffiletofoldercomplete'] = '%s の %s へのアップロードが完了しました。';
 $string['uploadoffiletofolderfailed'] = '%s の %s へのアップロードに失敗しました。';
-$string['usecustomagreement'] = 'カスタムアグリーメントを使用する';
+$string['usecustomagreement'] = 'カスタム同意書を使用する';
 $string['youmustagreetothecopyrightnotice'] = 'あなたは、著作権表示に同意する必要があります。';
 $string['fileuploadedtofolderas'] = '%s が %s に「 %s 」としてアップロードされました。';
 $string['fileuploadedas'] = '%s が「 %s 」としてアップロードされました。';
