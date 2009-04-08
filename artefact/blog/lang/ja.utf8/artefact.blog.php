@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-26 02:48:20 UTC
+ * @updated    2009-04-08 05:08:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -37,7 +37,7 @@ $string['alignment'] = '配置';
 $string['attach'] = '添付';
 $string['attachedfilelistloaded'] = '添付ファイル一覧が読み込まれました。';
 $string['attachedfiles'] = '添付ファイル';
-$string['attachments'] = '添付書類';
+$string['attachments'] = '添付ファイル';
 $string['blogdesc'] = '説明';
 $string['blogdescdesc'] = '例) 「Jillの経験および内省の記録」';
 $string['blogdoesnotexist'] = 'あなたは、存在しないブログへのアクセスを試みています。';
