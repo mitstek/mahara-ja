@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-04-07 23:54:45 UTC
+ * @updated    2009-04-08 04:51:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -52,7 +52,6 @@ $string['blogsettings'] = 'ブログ設定';
 $string['blogtitle'] = 'タイトル';
 $string['blogtitledesc'] = '例) 「Jillの看護実習日誌」';
 $string['border'] = '枠線';
-$string['browsemyfiles'] = 'マイファイルを閲覧する';
 $string['cancel'] = 'キャンセル';
 $string['commentsallowed'] = 'コメント';
 $string['commentsallowedno'] = 'このブログにコメントを許可しない';
