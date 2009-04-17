@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-04-07 20:20:09 UTC
+ * @updated    2009-04-17 04:44:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -88,6 +88,7 @@ $string['movefaileddestinationnotfolder'] = 'あなたは、フォルダ内に�
 $string['movefailednotfileartefact'] = 'ファイル、フォルダおよびイメージアーティファクトのみ移動できます。';
 $string['movefailednotowner'] = 'あなたには、このフォルダにファイルを移動するパーミッションがありません。';
 $string['movefailed'] = '移動に失敗しました。';
+$string['nametoolong'] = '名称が長すぎます。さらに短い名称を入力してください。';
 $string['nofilesfound'] = 'ファイルはありません。';
 $string['overwrite'] = '上書き';
 $string['Owner'] = 'オーナー';
