@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-05-06 18:04:56 UTC
+ * @updated    2009-05-06 18:07:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -28,20 +28,6 @@
 
 defined('INTERNAL') || die();
 
-$string['strftimedate'] = '%Y年 %m月 %d日';
-$string['strftimedateshort'] = '%m/%d';
-$string['strftimedatetime'] = '%Y年 %m月 %d日 %H:%M';
-$string['strftimedatetimeshort'] = '%Y/%m/%d %H:%M';
-$string['strftimedaydate'] = '%Y年 %m月 %d日(%A)';
-$string['strftimedaydatetime'] = '%Y年 %m月 %d日(%A) %H:%M';
-$string['strftimedayshort'] = '%Y年 %m月 %d日';
-$string['strftimedaytime'] = '(%a) %H:%M';
-$string['strftimemonthyear'] = '%Y年 %m月';
-$string['strftimerecent'] = '%m月 %d日 %H:%M';
-$string['strftimerecentfull'] = '%Y年 %m月 %d日(%a) %H:%M';
-$string['strftimetime'] = '%H:%M';
-$string['strfdaymonthyearshort'] = '%Y/%m/%d';
-$string['strftimew3cdatetime'] = '%Y-%m-%dT%T%z';
-$string['thislanguage'] = '日本語';
+$string['Export'] = 'エクスポート';
 
 ?>

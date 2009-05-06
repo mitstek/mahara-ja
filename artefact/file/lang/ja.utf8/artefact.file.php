@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-04-17 04:44:55 UTC
+ * @updated    2009-05-06 18:06:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -70,6 +70,7 @@ $string['fileinstructions'] = 'ビューに含めるため、あなたのイメ�
 $string['filethingdeleted'] = '%s が削除されました。';
 $string['filewithnameexists'] = '名称「 %s 」のファイルまたはフォルダは、すでに存在しています。';
 $string['folder'] = 'フォルダ';
+$string['Folder'] = 'フォルダ';
 $string['Folders'] = 'フォルダ';
 $string['foldercreated'] = 'フォルダが作成されました。';
 $string['foldernamerequired'] = '新しいフォルダ名を入力してください。';
