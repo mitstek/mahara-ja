@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-05-06 18:05:36 UTC
+ * @updated    2009-05-07 01:32:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,5 +29,6 @@
 defined('INTERNAL') || die();
 
 $string['import'] = 'インポート';
+$string['noimportpluginsenabled'] = '管理者によりインポートプラグインが有効にされていないため、あなたはこの機能を使用することはできません。';
 
 ?>
