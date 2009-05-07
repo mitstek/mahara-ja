@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-05-07 01:32:54 UTC
+ * @updated    2009-05-07 15:30:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -30,5 +30,7 @@ defined('INTERNAL') || die();
 
 $string['Export'] = 'エクスポート';
 $string['noexportpluginsenabled'] = '管理者によりエクスポートプラグインが有効にされていないため、あなたはこの機能を使用することはできません。';
+$string['unabletoexportportfoliousingoptions'] = '選択されたオプションでポートフォリオをエクスポートできません。';
+$string['zipnotinstalled'] = 'あなたのシステムには、ZIPコマンドがありません。この機能を有効にするには、ZIPをインストールしてください。';
 
 ?>
