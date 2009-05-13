@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-04-07 19:27:27 UTC
+ * @updated    2009-05-13 00:08:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -68,7 +68,7 @@ $string['view'] = 'ビュー';
 $string['views'] = 'ビュー';
 $string['View'] = 'ビュー';
 $string['Views'] = 'ビュー';
-$string['viewsubmittedtogroup'] = 'このビューは、<a href="%sgroup/view.php?id=%s">%s</a>に送信されました。';
+$string['viewsubmittedtogroup'] = 'このビューは、<a href="%s">%s</a>に送信されました。';
 $string['nobodycanseethisview2'] = 'あなたのみ、このビューを閲覧できます。';
 $string['noviews'] = 'ビューはありません。';
 $string['youhavenoviews'] = 'あなたのビューはありません。';
@@ -142,7 +142,7 @@ $string['empty_block'] = 'ここに配置するアーティファクトを左側
 $string['viewinformationsaved'] = 'ビュー情報が正常に保存されました。';
 $string['canteditdontown'] = 'あなたの所有ではないため、このビューを編集できません。';
 $string['canteditdontownfeedback'] = 'あなたの所有ではないため、このフィードバックを編集できません。';
-$string['canteditsubmitted'] = 'グループ「 %s 」による評価を目的として送信されたため、あなたはこのビューを編集することはできません。あなたのビューをチューターがリリースするまで、お待ちください。';
+$string['canteditsubmitted'] = '%s による評価を目的として送信されたため、あなたはこのビューを編集することはできません。あなたのビューをチューターがリリースするまで、お待ちください。';
 $string['feedbackchangedtoprivate'] = 'フィードバックがプライベート (非公開) に変更されました。';
 $string['addtutors'] = 'チューターを追加する';
 $string['viewcreatedsuccessfully'] = 'ビューが正常に作成されました。';

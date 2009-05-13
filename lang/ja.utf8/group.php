@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-04-07 19:20:21 UTC
+ * @updated    2009-05-13 00:06:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -81,7 +81,7 @@ $string['updatemembership'] = 'メンバーシップを更新する';
 $string['memberchangefailed'] = 'いくつかのメンバーシップ情報の更新に失敗しました。';
 $string['memberchangesuccess'] = 'メンバーシップのステータスが正常に変更されました。';
 $string['viewreleasedsubject'] = 'あなたのビューがリリースされました。';
-$string['viewreleasedmessage'] = 'あなたがグループ「 %s 」に送信したビューは、 %s によってリリースされました。';
+$string['viewreleasedmessage'] = 'あなたが %s に送信したビューは、 %s によってリリースされました。';
 $string['viewreleasedsuccess'] = 'ビューが正常にリリースされました。';
 $string['groupmembershipchangesubject'] = 'グループメンバーシップ: %s';
 $string['groupmembershipchangedmessagetutor'] = 'あなたは、このグループのチューターに昇格しました。';
