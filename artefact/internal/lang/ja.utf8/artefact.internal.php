@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-05-06 18:14:23 UTC
+ * @updated    2009-05-16 10:44:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -97,6 +97,8 @@ $string['Owner'] = 'オーナー';
 $string['Preview'] = 'プレビュー';
 $string['Size'] = 'サイズ';
 $string['Type'] = 'タイプ';
+$string['profileinformation'] = 'プロファイル情報';
+$string['profilepage'] = 'プロファイルページ';
 $string['viewprofilepage'] = 'プロファイルページを表示する';
 $string['viewallprofileinformation'] = 'すべてのプロファイル情報を表示する';
 
