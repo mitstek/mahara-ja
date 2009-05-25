@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-05-06 18:06:33 UTC
+ * @updated    2009-05-25 05:45:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -99,6 +99,7 @@ $string['requireagreement'] = '同意を必要とする';
 $string['savechanges'] = '変更を保存する';
 $string['selectafile'] = 'ファイルを選択する';
 $string['Size'] = 'サイズ';
+$string['spaceused'] = '使用スペース';
 $string['timeouterror'] = 'ファイルのアップロードに失敗しました: ファイルのアップロードを再度お試しください。';
 $string['title'] = '名称';
 $string['titlefieldisrequired'] = '名称フィールドは、必須入力項目です。';
