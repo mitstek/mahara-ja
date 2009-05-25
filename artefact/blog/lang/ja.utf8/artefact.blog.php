@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-04-08 05:05:21 UTC
+ * @updated    2009-05-25 05:59:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -82,10 +82,12 @@ $string['myblogs'] = 'マイブログ';
 $string['newattachmentsexceedquota'] = 'この記事にアップロードした新しいファイルの合計サイズが、あなたのクオータを超えました。あなたが追加した添付ファイルを削除することで、記事を保存することができます。';
 $string['newblog'] = '新しいブログ';
 $string['newblogpost'] = 'ブログ「 %s 」の新しいブログ記事';
+$string['newerposts'] = '新しい記事';
 $string['nopostsaddone'] = 'まだ記事はありません。%s記事を追加してください%s!';
 $string['noimageshavebeenattachedtothispost'] = 'この記事にイメージは追加されませんでした。イメージを挿入できるようにするには、事前にイメージをアップロードするか、添付してください。';
 $string['nofilesattachedtothispost'] = '添付ファイルなし';
 $string['noresults'] = 'ブログ投稿はありません。';
+$string['olderposts'] = '古い記事';
 $string['postbody'] = '本文';
 $string['postedon'] = '投稿日時';
 $string['postedbyon'] = '投稿者: %s  投稿日時: %s';
@@ -125,5 +127,8 @@ $string['copyreference'] = '他のユーザは、あなたの %s をビューに
 $string['copynocopy'] = 'ビューにコピーする場合、このブロックを完全にスキップする';
 $string['viewposts'] = 'コピーされた記事 (%s)';
 $string['postscopiedfromview'] = '%s からコピーされた記事';
+$string['youhavenoblogs'] = 'あなたは、ブログがありません。';
+$string['youhaveoneblog'] = 'あなたには、1 件のブログがあります。';
+$string['youhaveblogs'] = 'あなたには、%s 件のブログがあります。';
 
 ?>
