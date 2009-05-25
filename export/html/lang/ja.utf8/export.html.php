@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-05-06 18:11:03 UTC
+ * @updated    2009-05-25 04:55:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,6 +29,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'スタンドアロンHTMLウェブサイト';
+$string['description'] = 'あなたのポートフォリオデータを内蔵したウェブサイトを作成します。あなたは、このファイルをインポートすることはできませんが、標準的なウェブブラウザで閲覧することができます。';
 $string['usersportfolio'] = '%s - ポートフォリオ';
 
 ?>
