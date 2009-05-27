@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-05-25 05:38:01 UTC
+ * @updated    2009-05-27 03:23:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -45,6 +45,7 @@ $string['unabletogenerateexport'] = 'エクスポートを生成できません�
 $string['viewstoexport'] = 'エクスポートするビュー';
 $string['whatdoyouwanttoexport'] = '何をエクスポートしますか?';
 $string['youarehere'] = 'あなたは、ここにいます';
+$string['youmustselectatleastoneviewtoexport'] = 'あなたは、エクスポートするビューを少なくとも1つ選択する必要があります。';
 $string['zipnotinstalled'] = 'あなたのシステムには、ZIPコマンドがありません。この機能を有効にするには、ZIPをインストールしてください。';
 
 ?>
