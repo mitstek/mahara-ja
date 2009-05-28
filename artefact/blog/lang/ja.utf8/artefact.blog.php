@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-05-25 05:59:55 UTC
+ * @updated    2009-05-28 03:38:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -63,6 +63,7 @@ $string['commentsnotifyyes'] = 'このブログへのコメントを私に通知
 $string['createandpublishdesc'] = 'ブログ記事を作成し、他のユーザが閲覧できるようにします。';
 $string['createasdraftdesc'] = 'ブログ記事を作成しますが、あなたが公開するまで、他のユーザは閲覧することはできません。';
 $string['createblog'] = 'ブログを作成する';
+$string['dataimportedfrom'] = '%s からインポートされたデータ';
 $string['delete'] = '削除';
 $string['deleteblog?'] = '本当にこのブログを削除してもよろしいですか?';
 $string['deleteblogpost?'] = '本当にこの記事を削除してもよろしいですか?';
@@ -71,6 +72,7 @@ $string['dimensions'] = 'サイズ';
 $string['draft'] = '下書き';
 $string['edit'] = '編集';
 $string['editblogpost'] = 'ブログ記事を編集する';
+$string['entriesimportedfromleapexport'] = 'LEAPエクスポートよりインポートされた、他の場所にインポートできなかったエントリです。';
 $string['errorsavingattachments'] = 'ブログ記事の添付ファイル保存中にエラーが発生しました。';
 $string['horizontalspace'] = '水平方向のスペース';
 $string['insert'] = '挿入';
