@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-05-25 05:54:20 UTC
+ * @updated    2009-05-29 03:57:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -178,7 +178,8 @@ $string['moveblockdown'] = 'このブロックを下に移動する';
 $string['moveblockup'] = 'このブロックを上に移動する';
 $string['moveblockright'] = 'このブロックを右に移動する';
 $string['Configure'] = '設定';
-$string['configureblock'] = 'このブロックを設定する';
+$string['configureblock'] = 'ブロックを設定する';
+$string['configurethisblock'] = 'このブロックを設定する';
 $string['removeblock'] = 'このブロックを削除する';
 $string['blocktitle'] = 'ブロックタイトル';
 $string['changemyviewlayout'] = 'マイビューのレイアウトを変更する';
