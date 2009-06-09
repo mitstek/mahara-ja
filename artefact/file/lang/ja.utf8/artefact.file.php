@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-05-25 05:45:54 UTC
+ * @updated    2009-06-09 07:06:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -91,6 +91,7 @@ $string['movefailednotowner'] = 'あなたには、このフォルダにファ�
 $string['movefailed'] = '移動に失敗しました。';
 $string['nametoolong'] = '名称が長すぎます。さらに短い名称を入力してください。';
 $string['nofilesfound'] = 'ファイルはありません。';
+$string['notpublishable'] = 'あなたには、このファイルを公開するパーミッションがありません。';
 $string['overwrite'] = '上書き';
 $string['Owner'] = 'オーナー';
 $string['parentfolder'] = '親フォルダ';
@@ -195,5 +196,6 @@ $string['Title'] = 'タイトル';
 $string['imagetitle'] = 'イメージタイトル';
 $string['usenodefault'] = 'デフォルトを使用しない';
 $string['usingnodefaultprofileicon'] = '現在、デフォルトのプロファイルアイコンはありません。';
+$string['wrongfiletypeforblock'] = 'あなたがアップロードしたファイルは、このブロックにとって、正しいタイプではありません。';
 
 ?>
