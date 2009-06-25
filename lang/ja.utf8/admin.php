@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-05-05 17:26:22 UTC
+ * @updated    2009-06-25 11:40:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -37,7 +37,6 @@ $string['component'] = 'コンポーネントまたはプラグイン';
 $string['continue'] = '続ける';
 $string['coredata'] = 'コアデータ';
 $string['coredatasuccess'] = 'コアデータを正常にインストールしました。';
-$string['databasenotutf8'] = 'あなたは、UTF-8データベースを使用していません。Maharaでは、文字コードUTF-8の使用が推奨されています。';
 $string['fromversion'] = 'アップグレード前';
 $string['information'] = 'インフォメーション';
 $string['installsuccess'] = '次のバージョンを正常にインストールしました:';

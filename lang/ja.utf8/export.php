@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-05-27 03:23:36 UTC
+ * @updated    2009-06-25 11:46:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -34,6 +34,7 @@ $string['clicktopreview'] = 'プレビューするには、ここをクリック
 $string['Export'] = 'エクスポート';
 $string['exportgeneratedsuccessfully'] = 'エクスポートが正常に生成されました。%sダウンロードするには、ここをクリック%s';
 $string['exportgeneratedsuccessfullyjs'] = 'エクスポートが正常に生成されました。%s続ける%s';
+$string['exportpagedescription'] = 'ここでは、あなたのポートフォリオをエクスポートすることができます。このツールは、サイト設定を除く、あなたのポートフォリオ情報すべて、およびビューをエクスポートします。';
 $string['exportyourportfolio'] = 'あなたのポートフォリオを生成する';
 $string['generateexport'] = 'エクスポートを生成する';
 $string['noexportpluginsenabled'] = '管理者によりエクスポートプラグインが有効にされていないため、あなたはこの機能を使用することはできません。';

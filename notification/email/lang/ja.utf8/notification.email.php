@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-03-23 08:11:24 UTC
+ * @updated    2009-06-25 11:39:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -32,7 +32,6 @@ $string['emailsubject'] = '%s';
 $string['emailheader'] = 'あなたに %s から通知メールが送信されました。メッセージは、以下のとおりです:';
 $string['emailfooter'] = 'これは %s から自動的に生成された通知メールです。あなたの通知プリファレンスを更新するには、%s にアクセスしてください。';
 $string['referurl'] = '詳細 %s';
-$string['unsubscribemessage'] = '%s からメール購読解除するには、%s にアクセスしてください。';
 $string['name'] = 'メール';
 
 ?>

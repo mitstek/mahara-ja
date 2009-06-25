@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-03-02 15:04:17 UTC
+ * @updated    2009-06-25 11:38:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -70,6 +70,17 @@ $string['edittitle'] = 'フォーラムを編集する';
 $string['edittopic'] = 'トピックを編集する';
 $string['edittopicsuccess'] = 'トピックが正常に編集されました。';
 $string['forumname'] = 'フォーラム名';
+$string['forumposttemplate'] = '%s: %s: %s
+By %s - %s
+
+%s
+
+------------------------------------------------------------------------
+オンライン上で投稿を閲覧するには、次のリンクにアクセスしてください:
+%s
+
+この %s から購読解除するには、次のリンクにアクセスしてください:
+%s';
 $string['forumsuccessfulsubscribe'] = 'フォーラムのメール購読が正常に登録されました。';
 $string['forumsuccessfulunsubscribe'] = 'フォーラムのメール購読が正常に解除されました。';
 $string['gotoforums'] = 'フォーラムに移動する';
@@ -84,7 +95,7 @@ $string['moderatorsdescription'] = 'モデレータは、トピックおよび�
 $string['name'] = 'フォーラム';
 $string['nameplural'] = 'フォーラム';
 $string['newforum'] = '新しいフォーラム';
-$string['newforumpostby'] = '%s: %s: 新しいフォーラム投稿 by %s';
+$string['newforumpostnotificationsubject'] = '%s: %s';
 $string['newpost'] = '新しい投稿:';
 $string['newtopic'] = '新しいトピック';
 $string['noforumpostsyet'] = 'まだ、このグループに投稿はありません。';
@@ -104,8 +115,8 @@ $string['potentialmoderators'] = '潜在的なモデレータ';
 $string['re'] = 'Re: %s';
 $string['regulartopics'] = '標準トピック';
 $string['Reply'] = '返信';
+$string['replyforumpostnotificationsubject'] = 'Re: %s: %s';
 $string['replyto'] = '返信:';
-$string['replytotopicby'] = '%s: %s:  「　%s　」 への返信 by %s';
 $string['Sticky'] = 'スティッキー';
 $string['stickydescription'] = 'スティッキートピックは、すべてのページトップに表示されます。';
 $string['stickytopics'] = 'スティッキートピック';
@@ -123,6 +134,7 @@ $string['topicisclosed'] = 'このトピックはクローズされました。�
 $string['topicopenedsuccess'] = 'トピックが正常にオープンされました。';
 $string['topicstickysuccess'] = 'トピックが正常にスティッキー設定されました。';
 $string['topicsubscribesuccess'] = 'トピックのメール購読が正常に登録されました。';
+$string['topicsuccessfulunsubscribe'] = 'トピックのメール購読が正常に解除されました。';
 $string['topicunstickysuccess'] = 'トピックが正常にスティッキー設定解除されました。';
 $string['topicunsubscribesuccess'] = 'トピックのメール購読が正常に解除されました。';
 $string['topicupdatefailed'] = 'トピックの更新に失敗しました。';
@@ -132,6 +144,9 @@ $string['Unsubscribe'] = 'メール購読解除';
 $string['unsubscribefromforum'] = 'フォーラムのメール購読を解除する';
 $string['unsubscribefromtopic'] = 'トピックのメール購読を解除する';
 $string['updateselectedtopics'] = '選択したトピックを更新する';
+$string['youcannotunsubscribeotherusers'] = 'あなたは、他のユーザをメール購読解除できません。';
+$string['youarenotsubscribedtothisforum'] = 'あなたは、このフォーラムをメール購読していません。';
+$string['youarenotsubscribedtothistopic'] = 'あなたは、このトピックをメール購読していません。';
 $string['today'] = '今日';
 $string['yesterday'] = '昨日';
 $string['strftimerecentrelative'] = '%v - %H:%M';
