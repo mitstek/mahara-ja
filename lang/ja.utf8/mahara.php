@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-05-13 06:37:38 UTC
+ * @updated    2009-06-25 11:32:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -393,7 +393,6 @@ $string['institutionmemberconfirmsubject'] = 'インスティテューション�
 $string['institutionmemberconfirmmessage'] = 'あなたは %s にメンバーとして追加されました。';
 $string['institutionmemberrejectsubject'] = 'インスティテューションメンバーシップのリクエストが拒否されました。';
 $string['institutionmemberrejectmessage'] = 'あなたの %s に対するメンバーシップのリクエストは拒否されました。';
-$string['emailname'] = 'Maharaシステム';
 $string['config'] = '設定';
 $string['sendmessage'] = 'メッセージを送信する';
 $string['notinstallable'] = 'インストールできません!';

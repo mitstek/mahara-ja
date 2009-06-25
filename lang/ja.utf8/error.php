@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-29 16:15:21 UTC
+ * @updated    2009-06-25 11:44:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -54,6 +54,7 @@ $string['dbconnfailed'] = 'Maharaがアプリケーションデータベース�
 * あなたが管理者の場合、あなたのデータベースの設定およびデータベースが利用可能かどうか確認してください。
 
 エラー内容は:';
+$string['dbnotutf8'] = 'あなたは、UTF-8データベースを使用していません。Maharaでは、すべてのデータを内部にUTF-8で保存します。あなたのデータベースをドロップして、UTF-8エンコーディングを使用するよう、再作成してください。';
 $string['dbversioncheckfailed'] = 'あなたのデータベースサーバのバージョンは、Maharaを正常に動作させるのに十分な新しいバージョンではありません。あなたのサーバは、%s %s ですが、Maharaは少なくともバージョン %s を必要とします。';
 $string['blocktypenametaken'] = 'ブロックタイプ %s は、すでに他のプラグイン (%s) に取得されています。';
 $string['artefacttypenametaken'] = 'アーティファクトタイプ %s は、すでに他のプラグイン (%s) に取得されています。';
