@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-06-25 11:40:06 UTC
+ * @updated    2009-06-26 10:36:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -232,6 +232,8 @@ $string['forceuserstochangepassworddescription'] = '初回ログイン時、ユ�
 $string['uploadcsvinstitution'] = '新しいユーザのインスティテューションおよび認証方法';
 $string['configureauthplugin'] = 'あなたがユーザを追加するには、最初に認証プラグインを設定する必要があります。';
 $string['csvfiledescription'] = '追加するユーザを含むファイル';
+$string['csverroremptyfile'] = 'CSVファイルが空です。';
+$string['invalidfilename'] = 'ファイル「 %s 」が存在しません。';
 $string['uploadcsverrorinvalidfieldname'] = 'フィールド名「 %s 」が無効です。';
 $string['uploadcsverrorrequiredfieldnotspecified'] = '必須フィールド「 %s 」がフォーマット行で指定されていません。';
 $string['uploadcsverrornorecords'] = 'ファイルにレコードが含まれていないようです (ヘッダに問題はありません)。';
