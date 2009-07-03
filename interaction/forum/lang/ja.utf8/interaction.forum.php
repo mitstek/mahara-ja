@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-06-25 11:38:28 UTC
+ * @updated    2009-07-03 17:46:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -70,13 +70,13 @@ $string['edittitle'] = 'フォーラムを編集する';
 $string['edittopic'] = 'トピックを編集する';
 $string['edittopicsuccess'] = 'トピックが正常に編集されました。';
 $string['forumname'] = 'フォーラム名';
-$string['forumposttemplate'] = '%s: %s: %s
-By %s - %s
+$string['forumposttemplate'] = '%s by %s
+%s
+------------------------------------------------------------------------
 
 %s
 
-------------------------------------------------------------------------
-オンライン上で投稿を閲覧するには、次のリンクにアクセスしてください:
+------------------------------------------------------------------------オンライン上で投稿を閲覧するには、次のリンクにアクセスしてください:
 %s
 
 この %s から購読解除するには、次のリンクにアクセスしてください:
