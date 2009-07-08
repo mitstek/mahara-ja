@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-06-25 11:39:48 UTC
+ * @updated    2009-07-08 23:25:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -352,7 +352,7 @@ $string['defaultmembershipperioddescription'] = 'どのくらいの期間、新�
 $string['authenticatedby'] = '認証方法';
 $string['authenticatedbydescription'] = 'このユーザに関するMaharaへの認証方法を設定します。';
 $string['remoteusername'] = '外部認証のユーザ名';
-$string['remoteusernamedescription'] = 'ユーザが外部データベースにより認証された後、あなたが外部データベースの異なるIDとユーザを関連付けたい場合、ここにリモートユーザ名を入力してください。';
+$string['remoteusernamedescription'] = 'XMLRPC認証プラグインを使用して、ユーザがリモートサイトから %s にログインした場合、これはリモートサイトのユーザを識別するユーザ名となります。';
 $string['institutionsettings'] = 'インスティテューション設定';
 $string['institutionsettingsdescription'] = 'ここであなたは、システム内にある、このユーザのインスティテューションメンバーシップ設定を変更することができます。';
 $string['changeinstitution'] = 'インスティテューションを変更する';
