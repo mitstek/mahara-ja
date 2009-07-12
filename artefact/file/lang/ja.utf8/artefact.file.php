@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-06-09 07:06:36 UTC
+ * @updated    2009-07-12 23:47:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -84,6 +84,7 @@ $string['lastmodified'] = '最終更新日時';
 $string['myfiles'] = 'マイファイル';
 $string['Name'] = '名称';
 $string['namefieldisrequired'] = '名称フィールドは、必須入力項目です。';
+$string['maxuploadsize'] = '最大アップロードサイズ';
 $string['movefaileddestinationinartefact'] = 'あなたは、フォルダの中に自フォルダを入れることはできません。';
 $string['movefaileddestinationnotfolder'] = 'あなたは、フォルダ内にのみファイルを移動することができます。';
 $string['movefailednotfileartefact'] = 'ファイル、フォルダおよびイメージアーティファクトのみ移動できます。';
