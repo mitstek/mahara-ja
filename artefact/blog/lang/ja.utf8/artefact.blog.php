@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-05-28 03:38:11 UTC
+ * @updated    2009-07-14 04:05:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -120,8 +120,7 @@ $string['top'] = '上揃え';
 $string['middle'] = '中央揃え';
 $string['bottom'] = '下揃え';
 $string['texttop'] = 'テキスト上揃え';
-$string['absolutemiddle'] = '中央揃え (絶対指定)';
-$string['absolutebottom'] = '下揃え (絶対指定)';
+$string['textbottom'] = 'テキストボタン';
 $string['left'] = '左';
 $string['right'] = '右';
 $string['copyfull'] = '他のユーザは、あなたの %s を自分のコピーとして取得できる';
