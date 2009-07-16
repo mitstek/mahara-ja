@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-05-13 00:06:19 UTC
+ * @updated    2009-07-16 04:17:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -31,6 +31,7 @@ defined('INTERNAL') || die();
 $string['groupname'] = 'グループ名';
 $string['creategroup'] = 'グループを作成する';
 $string['groupmemberrequests'] = '保留中メンバーシップリクエスト';
+$string['membershiprequests'] = 'メンバーシップリクエスト';
 $string['sendinvitation'] = '招待状を送信する';
 $string['invitetogroupsubject'] = 'あなたは、グループへの参加を招待されました。';
 $string['invitetogroupmessage'] = '%s がグループ「 %s 」へのあなたの参加を招待しました。詳細は、下記リンクをクリックしてください。';
@@ -126,8 +127,6 @@ $string['groupsimin'] = '私が参加しているグループ';
 $string['groupsiown'] = '私が所有しているグループ';
 $string['groupsiminvitedto'] = '私が招待されているグループ';
 $string['groupsiwanttojoin'] = '私が参加したいグループ';
-$string['therearependingrequests'] = 'このグループには、%s 件の保留中メンバーシップリクエストがあります。';
-$string['thereispendingrequest'] = 'このグループには、1 件の保留中メンバーシップリクエストがあります。';
 $string['requestedtojoin'] = 'あなたは、このグループへの参加をリクエストしました。';
 $string['groupnotfound'] = 'ID %s のグループはありません。';
 $string['groupconfirmleave'] = '本当にこのグループから離れてもよろしいですか?';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-02-25 04:10:00 UTC
+ * @updated    2009-07-16 04:17:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -50,7 +50,8 @@ $string['weautocreateusers'] = 'こちらでユーザを自動作成する';
 $string['theyautocreateusers'] = 'あちらでユーザを自動作成させる';
 $string['parent'] = '親認証局';
 $string['wessoout'] = 'あちらへSSOする';
-$string['weimportcontent'] = 'こちらにコンテンツをインポートさせる (一部のアプリケーションのみ)';
+$string['weimportcontent'] = 'こちらにコンテンツをインポートさせる';
+$string['weimportcontentdescription'] = '(一部のアプリケーションのみ)';
 $string['theyssoin'] = 'こちらにSSOさせる';
 $string['authloginmsg'] = 'ユーザがMaharaログインフォーム経由でログインを試みる場合、表示されるメッセージを入力してください。';
 $string['application'] = 'アプリケーション';
