@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-05-23 12:46:06 UTC
+ * @updated    2009-07-17 15:35:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -39,6 +39,7 @@ $string['wall'] = 'ウォール';
 $string['wholewall'] = 'すべてのウォールを表示する';
 $string['reply'] = '返信';
 $string['delete'] = '投稿を削除する';
+$string['deletepost'] = '投稿を削除する';
 $string['Post'] = '投稿';
 $string['deletepostsure'] = '本当にこの処理を実行してもよろしいですか? 元に戻すことはできません。';
 $string['deletepostsuccess'] = '投稿が正常に削除されました。';
