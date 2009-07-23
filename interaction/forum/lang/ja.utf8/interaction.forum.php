@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-07-03 17:50:56 UTC
+ * @updated    2009-07-23 14:34:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -54,6 +54,7 @@ $string['Closed'] = 'クローズド';
 $string['Close'] = 'クローズ';
 $string['closeddescription'] = 'クローズドトピックでは、モデレータおよびグループ管理者のみ返信することができます。';
 $string['Count'] = 'カウント';
+$string['createtopicusersdescription'] = '「グループメンバーすべて」を設定した場合、すべてのメンバーが新しいトピックを作成すること、既存のトピックに返信することができます。「モデレータおよびグループ管理者のみ」を設定した場合、モデレータおよびグループ管理者のみ、新しいトピックを開始することができます。しかし、「モデレータおよびグループ管理者のみ」を設定して、トピックが存在するようになった場合、すべてのユーザが返信することができます。';
 $string['currentmoderators'] = '現在のモデレータ';
 $string['deleteforum'] = 'フォーラムを削除する';
 $string['deletepost'] = '投稿を削除する';
@@ -91,6 +92,7 @@ $string['Key'] = 'キー';
 $string['lastpost'] = '最新の投稿';
 $string['latestforumposts'] = '最新のフォーラム投稿';
 $string['Moderators'] = 'モデレータ';
+$string['moderatorsandgroupadminsonly'] = 'モデレータおよびグループ管理者のみ';
 $string['moderatorslist'] = 'モデレータ:';
 $string['moderatorsdescription'] = 'モデレータは、トピックおよび投稿を編集および削除することができます。また、オープン、クローズ、トピックのスティッキー設定および設定解除することもできます。';
 $string['name'] = 'フォーラム';
@@ -145,6 +147,7 @@ $string['Unsubscribe'] = 'メール購読解除';
 $string['unsubscribefromforum'] = 'フォーラムのメール購読を解除する';
 $string['unsubscribefromtopic'] = 'トピックのメール購読を解除する';
 $string['updateselectedtopics'] = '選択したトピックを更新する';
+$string['whocancreatetopics'] = '誰がトピックを作成できますか?';
 $string['youcannotunsubscribeotherusers'] = 'あなたは、他のユーザをメール購読解除できません。';
 $string['youarenotsubscribedtothisforum'] = 'あなたは、このフォーラムをメール購読していません。';
 $string['youarenotsubscribedtothistopic'] = 'あなたは、このトピックをメール購読していません。';
