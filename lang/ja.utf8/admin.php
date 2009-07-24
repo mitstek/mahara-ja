@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-07-08 23:25:26 UTC
+ * @updated    2009-07-24 12:04:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -154,7 +154,7 @@ $string['trustedsites'] = '信頼されたサイト';
 $string['updatesiteoptions'] = 'サイトオプションを更新する';
 $string['usersallowedmultipleinstitutions'] = 'ユーザに複数インスティテューションを許可する';
 $string['usersallowedmultipleinstitutionsdescription'] = 'チェックした場合、ユーザは同時に複数のインスティテューションのメンバーになることができます。';
-$string['usersseenewthemeonlogin'] = '次回ログイン時、ユーザに新しいテーマが表示されます。';
+$string['usersseenewthemeonlogin'] = '次回ログイン時、他のユーザに新しいテーマが表示されます。';
 $string['viruschecking'] = 'ウイルスチェック';
 $string['viruscheckingdescription'] = 'チェックした場合、すべてのアップロードファイルに対するClamAVを使用したウイルスチェックが有効にされます。';
 $string['whocancreatepublicgroups'] = '誰がパブリックグループを作成できますか';
