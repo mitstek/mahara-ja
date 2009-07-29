@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-07-29 07:03:11 UTC
+ * @updated    2009-07-29 07:07:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -43,7 +43,7 @@ $string['Post'] = '投稿';
 $string['maxcharacters'] = '1投稿あたり、最大 %s 文字入力可能です。';
 $string['sorrymaxcharacters'] = '申し訳ございません、あなたは %s 文字以上、投稿することができません。';
 $string['postsizelimit'] = '投稿サイズ制限';
-$string['postsizelimitdescription'] = 'ここであなたは、ウォールの投稿サイズを制限することができます。既存の投稿に関しては、変更されることはありません。';
+$string['postsizelimitdescription'] = 'ここであなたは、ウォールの投稿サイズを制限することができます。既存の投稿に関して、変更されることはありません。';
 $string['postsizelimitmaxcharacters'] = '最大文字数';
 $string['postsizelimitinvalid'] = 'これは、有効な数字ではありません。';
 $string['postsizelimittoosmall'] = 'この制限は、ゼロ以下に設定できません。';
