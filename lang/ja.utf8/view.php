@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-07-30 16:00:19 UTC
+ * @updated    2009-07-31 05:10:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -172,12 +172,18 @@ $string['add'] = '追加';
 $string['addcolumn'] = 'カラムを追加する';
 $string['removecolumn'] = 'このカラムを削除する';
 $string['moveblockleft'] = '%s ブロックを左に移動する';
+$string['movethisblockleft'] = 'このブロックを左に移動する';
 $string['moveblockdown'] = '%s ブロックを下に移動する';
+$string['movethisblockdown'] = 'このブロックを下に移動する';
 $string['moveblockup'] = '%s ブロックを上に移動する';
+$string['movethisblockup'] = 'このブロックを上に移動する';
 $string['moveblockright'] = '%s ブロックを右に移動する';
+$string['movethisblockright'] = 'このブロックを右に移動する';
 $string['Configure'] = '設定';
 $string['configureblock'] = '%s ブロックを設定する';
+$string['configurethisblock'] = 'このブロックを設定する';
 $string['removeblock'] = '%s ブロックを削除する';
+$string['removethisblock'] = 'このブロックを削除する';
 $string['blocktitle'] = 'ブロックタイトル';
 $string['changemyviewlayout'] = 'マイビューのレイアウトを変更する';
 $string['viewcolumnspagedescription'] = '最初に、あなたのビューのカラム数を選択してください。次のステップで、あなたは、カラム幅を変更することができます。';
