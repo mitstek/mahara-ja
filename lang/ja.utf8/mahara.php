@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-06-25 11:32:19 UTC
+ * @updated    2009-08-03 00:41:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -49,6 +49,7 @@ $string['errorprocessingform'] = 'このフォームによる送信中にエラ�
 $string['description'] = '説明';
 $string['remove'] = '削除';
 $string['Close'] = '閉じる';
+$string['help'] = 'ヘルプ';
 $string['no'] = 'No';
 $string['yes'] = 'Yes';
 $string['none'] = 'なし';
