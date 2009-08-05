@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-07-24 12:04:13 UTC
+ * @updated    2009-08-05 03:03:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -41,6 +41,7 @@ $string['fromversion'] = 'アップグレード前';
 $string['information'] = 'インフォメーション';
 $string['installsuccess'] = '次のバージョンを正常にインストールしました:';
 $string['toversion'] = 'アップグレード後';
+$string['localdatasuccess'] = 'ローカルカスタマイゼーションを正常にインストールしました。';
 $string['notinstalled'] = 'インストール未了';
 $string['nothingtoupgrade'] = 'アップグレードの必要はありません。';
 $string['performinginstallsandupgrades'] = 'インストールおよびアップグレード実行中 ...';
