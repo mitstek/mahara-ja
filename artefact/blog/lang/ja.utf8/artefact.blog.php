@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-07-14 04:05:27 UTC
+ * @updated    2009-08-18 04:48:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -64,6 +64,7 @@ $string['createandpublishdesc'] = 'ブログ記事を作成し、他のユーザ
 $string['createasdraftdesc'] = 'ブログ記事を作成しますが、あなたが公開するまで、他のユーザは閲覧することはできません。';
 $string['createblog'] = 'ブログを作成する';
 $string['dataimportedfrom'] = '%s からインポートされたデータ';
+$string['defaultblogtitle'] = '%s のブログ';
 $string['delete'] = '削除';
 $string['deleteblog?'] = '本当にこのブログを削除してもよろしいですか?';
 $string['deleteblogpost?'] = '本当にこの記事を削除してもよろしいですか?';
