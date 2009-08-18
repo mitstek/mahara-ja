@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-08-17 03:01:49 UTC
+ * @updated    2009-08-18 03:32:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -56,6 +56,8 @@ $string['closeddescription'] = 'クローズドトピックでは、モデレー
 $string['Count'] = 'カウント';
 $string['createtopicusersdescription'] = '「グループメンバーすべて」を設定した場合、すべてのメンバーが新しいトピックを作成すること、既存のトピックに返信することができます。「モデレータおよびグループ管理者のみ」を設定した場合、モデレータおよびグループ管理者のみ、新しいトピックを開始することができます。しかし、「モデレータおよびグループ管理者のみ」を設定して、トピックが存在するようになった場合、すべてのユーザが返信することができます。';
 $string['currentmoderators'] = '現在のモデレータ';
+$string['defaultforumtitle'] = '一般的なディスカッション';
+$string['defaultforumdescription'] = '%s 一般的なディスカッションフォーラム';
 $string['deleteforum'] = 'フォーラムを削除する';
 $string['deletepost'] = '投稿を削除する';
 $string['deletepostsuccess'] = '投稿が正常に削除されました。';
@@ -71,6 +73,15 @@ $string['edittitle'] = 'フォーラムを編集する';
 $string['edittopic'] = 'トピックを編集する';
 $string['edittopicsuccess'] = 'トピックが正常に編集されました。';
 $string['forumname'] = 'フォーラム名';
+$string['forumposthtmltemplate'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s by %s</strong><br>%s</div>
+
+<div style="margin: 1em 0;">%s</div>
+
+<div style="font-size: smaller; border-top: 1px solid #999;">
+<p>オンライン上で投稿を閲覧するには、次のリンクにアクセスしてください:<br><a href="%s">%s</a></p>
+<p>
+この %s から購読解除するには、次のリンクにアクセスしてください: <a href="%s">%s</a></p>
+</div>';
 $string['forumposttemplate'] = '%s by %s
 %s
 ------------------------------------------------------------------------
