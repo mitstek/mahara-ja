@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-06-25 11:44:34 UTC
+ * @updated    2009-08-21 04:28:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -69,6 +69,7 @@ $string['blocktypeprovidedbyartefactnotinstallable'] = 'これは、アーティ
 $string['blockconfigdatacalledfromset'] = 'configデータを直接設定しないでください。代わりにPluginBlocktype::instance_config_saveを使用してください。';
 $string['invaliddirection'] = '無効な移動先: %s';
 $string['onlyoneprofileviewallowed'] = 'あなたは、1件のプロファイルビューのみ許可されています。';
+$string['onlyoneblocktypeperview'] = '1つ以上の %s ブロックタイプをビューに追加できません。';
 $string['unrecoverableerror'] = '回復不能なエラーが発生しました。恐らく、あなたはシステムバグに遭遇したと思われます。';
 $string['unrecoverableerrortitle'] = '%s - サイト利用不可';
 $string['parameterexception'] = '必須パラメータが指定されていません。';
