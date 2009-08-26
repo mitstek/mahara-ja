@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-08-10 04:53:46 UTC
+ * @updated    2009-08-26 05:03:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -122,6 +122,10 @@ $string['allowpublicviews'] = 'パブリックビューを許可する';
 $string['allowpublicviewsdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なポートフォリオビューを作成することができます。';
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowpublicprofilesdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なプロファイルビューを作成することができます。';
+$string['captchaonregisterform'] = 'ユーザ登録にCaptchaを必須とする';
+$string['captchaonregisterformdescription'] = 'ユーザ登録フォームの送信時、ユーザがCaptchaイメージの文字を入力する必要があります。';
+$string['captchaoncontactform'] = '「お問い合わせ」にCaptchaを必須とする';
+$string['captchaoncontactformdescription'] = 'お問い合わせフォームの送信時、ログイン未了ユーザがCaptchaイメージの文字を入力する必要があります。';
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
 $string['defaultaccountinactiveexpiredescription'] = 'ユーザログインがない状態で、どのくらいの期間、ユーザアカウントはアクティブのままですか。';
 $string['defaultaccountinactivewarn'] = '休眠/有効期限の警告期間';
