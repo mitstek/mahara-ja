@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-08-04 06:27:54 UTC
+ * @updated    2009-08-26 00:54:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -242,6 +242,8 @@ $string['youraccounthasbeensuspended'] = 'あなたのアカウントが利用�
 $string['youraccounthasbeenunsuspended'] = 'あなたのアカウントの利用停止が解除されました。';
 $string['changepassword'] = 'パスワードを変更する';
 $string['changepasswordinfo'] = '開始する前に、あなたはパスワードを変更する必要があります。';
+$string['chooseusernamepassword'] = 'あなたのユーザ名およびパスワードを選択する';
+$string['chooseusernamepasswordinfo'] = 'あなたが %s にログインするには、ユーザ名およびパスワードが必要です。あなたのユーザ名およびパスワードを選択してください。';
 $string['confirmpassword'] = 'パスワードをもう一度';
 $string['javascriptnotenabled'] = 'あなたのブラウザでは、このサイトに対してJavaスクリプトが有効にされていません。Maharaでは、あなたがログインする前にJavaスクリプトを有効にする必要があります。';
 $string['cookiesnotenabled'] = 'あなたのブラウザでは、クッキーが有効にされていないか、このサイトからのクッキーがブロックされています。Maharaでは、あなたがログインする前にクッキーを有効にする必要があります。';
@@ -767,5 +769,6 @@ $string['loggedinusersonly'] = 'ログインユーザのみ';
 $string['allowpublicaccess'] = 'パブリックアクセス (ログインなし) を許可する';
 $string['thisistheprofilepagefor'] = 'これは、%s のプロファイルページです。';
 $string['pleasedonotreplytothismessage'] = 'このメッセージに返信しないでください。';
+$string['deleteduser'] = '削除済みユーザ';
 
 ?>
