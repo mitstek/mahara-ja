@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-08-26 05:03:10 UTC
+ * @updated    2009-09-02 06:50:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -31,7 +31,7 @@ defined('INTERNAL') || die();
 $string['administration'] = '管理';
 $string['installation'] = 'インストール';
 $string['release'] = 'リリース %s (%s)';
-$string['copyright'] = 'Copyright &copy; 2006 onwards, Catalyst IT Ltd';
+$string['copyright'] = 'Copyright &copy; 2006 onwards, <a href="http://wiki.mahara.org/Contributors">Catalyst IT Ltd and others</a>';
 $string['agreelicense'] = '同意します';
 $string['component'] = 'コンポーネントまたはプラグイン';
 $string['continue'] = '続ける';
