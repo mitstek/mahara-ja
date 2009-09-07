@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-05-16 10:43:59 UTC
+ * @updated    2009-09-07 05:56:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -56,7 +56,6 @@ $string['enddate'] = '終了年月日';
 $string['date'] = '日付';
 $string['position'] = 'ポジション';
 $string['qualification'] = '資格';
-$string['description'] = '説明';
 $string['title'] = 'タイトル';
 $string['employer'] = '雇用主';
 $string['jobtitle'] = '職名';
@@ -66,6 +65,7 @@ $string['qualtype'] = '資格タイプ';
 $string['qualname'] = '資格名';
 $string['qualdescription'] = '資格説明';
 $string['contribution'] = '寄稿';
+$string['detailsofyourcontribution'] = 'あなたの寄稿詳細';
 $string['compositedeleteconfirm'] = '本当にこれを削除してもよろしいですか?';
 $string['compositesaved'] = '正常に保存されました。';
 $string['compositesavefailed'] = '保存に失敗しました。';
