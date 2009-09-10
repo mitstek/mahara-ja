@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-08-26 00:54:04 UTC
+ * @updated    2009-09-10 07:48:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -80,6 +80,31 @@ $string['tags'] = 'タグ';
 $string['tagsdesc'] = 'このアイテムに関して、カンマで区切ったタグを入力してください。';
 $string['tagsdescprofile'] = 'このアイテムに関して、カンマで区切ったタグを入力してください。「プロファイル」タグが付けられたアイテムは、あなたのサイドバーに表示されます。';
 $string['youhavenottaggedanythingyet'] = 'あなたは、またタグ付けしていません。';
+$string['mytags'] = 'マイタグ';
+$string['Tag'] = 'タグ';
+$string['itemstaggedwith'] = '「 %s 」でタグ付けされたアイテム';
+$string['numitems'] = '%s アイテム';
+$string['searchresultsfor'] = '検索結果:';
+$string['sortalpha'] = 'タグをアルファベット順にソートする';
+$string['sortfreq'] = 'タグを頻度によりソートする';
+$string['sortresultsby'] = 'ソート結果:';
+$string['date'] = '日時';
+$string['filterresultsby'] = 'フィルタ結果:';
+$string['tagfilter_all'] = 'すべて';
+$string['tagfilter_file'] = 'ファイル';
+$string['tagfilter_image'] = 'イメージ';
+$string['tagfilter_text'] = 'テキスト';
+$string['tagfilter_view'] = 'ビュー';
+$string['edittags'] = 'タグを編集する';
+$string['selectatagtoedit'] = '編集するタグを選択してください。';
+$string['edittag'] = '<a href="%s">%s</a> を編集する';
+$string['editthistag'] = 'このタグを編集する';
+$string['edittagdescription'] = 'あなたのポートフォリオに関して、「 %s 」でタグ付けされたすべてのアイテムが更新されます。';
+$string['deletetag'] = '<a href="%s">%s</a> を削除する';
+$string['confirmdeletetag'] = '本当に、あなたのポートフォリオ内すべてのアイテムから、このタグを削除してもよろしいですか?';
+$string['deletetagdescription'] = 'あなたのポートフォリオ内すべてのアイテムから、このタグを削除します。';
+$string['tagupdatedsuccessfully'] = 'タグが正常に更新されました。';
+$string['tagdeletedsuccessfully'] = 'タグが正常に削除されました。';
 $string['selfsearch'] = 'マイポートフォリオを検索する';
 $string['quota'] = 'クオータ';
 $string['quotausage'] = 'あなたの利用クオータは、<span id="quota_used">%s</span> / <span id="quota_total">%s</span> です。';

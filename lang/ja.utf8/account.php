@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-02-13 21:00:23 UTC
+ * @updated    2009-09-10 07:24:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -49,6 +49,8 @@ $string['messagesfriends'] = 'マイフレンドリストに登録したユー�
 $string['messagesallow'] = 'だれでも私にメッセージを送信できます。';
 $string['language'] = '言語';
 $string['showviewcolumns'] = 'ビューの編集時、カラムの「追加」および「削除」ボタンを表示する';
+$string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
+$string['tagssideblockmaxtagsdescription'] = 'あなたのタグクラウドに表示されるタグの最大数です。';
 $string['prefssaved'] = 'プリファレンスが保存されました。';
 $string['prefsnotsaved'] = 'あなたのプリファレンスの保存に失敗しました!';
 
