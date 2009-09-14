@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-09-10 07:59:58 UTC
+ * @updated    2009-09-14 23:34:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -85,6 +85,7 @@ $string['Tag'] = 'タグ';
 $string['itemstaggedwith'] = '「 %s 」でタグ付けされたアイテム';
 $string['numitems'] = '%s アイテム';
 $string['searchresultsfor'] = '検索結果:';
+$string['alltags'] = 'すべてのタグ';
 $string['sortalpha'] = 'タグをアルファベット順でソートする';
 $string['sortfreq'] = 'タグを使用頻度順でソートする';
 $string['sortresultsby'] = 'ソート結果:';
