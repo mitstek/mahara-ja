@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-09-10 07:38:02 UTC
+ * @updated    2009-09-16 07:07:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -117,6 +117,12 @@ $string['registeryourmaharasitedetail'] = '<p>あなたは、<a href="http://mah
 <p>あなたは、mahara.orgに送信された情報を閲覧することができます - あなたのユーザに関する個人情報は一切送信されません。</p>
 <p>あなたが、「更新内容を週に1回送信しますか?」をチェックした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
 <p>サイトを登録した後、この通知は取り除かれます。あなたは、更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更することができます。</p>';
+$string['Close'] = 'クローズ';
+$string['closesite'] = 'サイトをクローズする';
+$string['closesitedetail'] = 'あなたは、管理者を除く、すべてのユーザに対して、サイトをクローズすることができます。この処理は、データベースアップグレードの処理の準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで、管理者のみログインすることができます。';
+$string['Open'] = 'オープン';
+$string['reopensite'] = 'サイトを再オープンする';
+$string['reopensitedetail'] = 'あなたのサイトは、クローズされています。アップグレードが完了するまで、サイト管理者のみログインすることができます。';
 $string['adminsonly'] = '管理者のみ';
 $string['allowpublicviews'] = 'パブリックビューを許可する';
 $string['allowpublicviewsdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なポートフォリオビューを作成することができます。';
