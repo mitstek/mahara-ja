@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-09-28 03:54:13 UTC
+ * @updated    2009-09-28 04:02:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -61,6 +61,7 @@ $string['emptyfolder'] = '空のフォルダ';
 $string['file'] = 'ファイル';
 $string['File'] = 'ファイル';
 $string['filealreadyindestination'] = 'あなたが移動しようとしたファイルは、すでにフォルダに登録されています。';
+$string['fileappearsinviews'] = 'このファイルは、あなたの1つまたはそれ以上のビューに使用されています。';
 $string['fileattached'] = 'このファイルは、あなたのポートフォリオ内にある、他の %s 件のアイテムに添付されています。';
 $string['files'] = 'ファイル';
 $string['Files'] = 'ファイル';
@@ -74,6 +75,7 @@ $string['filethingdeleted'] = '%s が削除されました。';
 $string['filewithnameexists'] = '名称「 %s 」のファイルまたはフォルダは、すでに存在しています。';
 $string['folder'] = 'フォルダ';
 $string['Folder'] = 'フォルダ';
+$string['folderappearsinviews'] = 'このフォルダは、あなたの1つまたはそれ以上のビューに使用されています。';
 $string['Folders'] = 'フォルダ';
 $string['foldernotempty'] = 'このフォルダは、空ではありません。';
 $string['foldercreated'] = 'フォルダが作成されました。';
@@ -84,7 +86,6 @@ $string['home'] = 'ホーム';
 $string['htmlremovedmessage'] = 'あなたが閲覧しているファイル「 <strong>%s</strong> 」は、<a href="%s">%s</a> によりアップロードされたものです。以下に表示されているファイルは不適切なコンテンツのため、削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
 $string['htmlremovedmessagenoowner'] = 'あなたは、ファイル「 <strong>%s</strong> 」を閲覧しています。以下に表示されているファイルは不適切なコンテンツのため、削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
 $string['image'] = 'イメージ';
-$string['itemappearsinviews'] = 'このアイテムは、あなたのビューの %s に使用されています。';
 $string['lastmodified'] = '最終更新日時';
 $string['myfiles'] = 'マイファイル';
 $string['Name'] = '名称';
