@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-09-28 04:02:16 UTC
+ * @updated    2009-10-05 06:26:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -204,5 +204,15 @@ $string['imagetitle'] = 'イメージタイトル';
 $string['usenodefault'] = 'デフォルトを使用しない';
 $string['usingnodefaultprofileicon'] = '現在、デフォルトのプロファイルアイコンはありません。';
 $string['wrongfiletypeforblock'] = 'あなたがアップロードしたファイルは、このブロックにとって、正しいタイプではありません。';
+$string['Contents'] = 'コンテンツ';
+$string['Continue'] = '続ける';
+$string['extractfilessuccess'] = '%s 個のフォルダおよび %s 個のファイルが作成されました。';
+$string['filesextractedfromziparchive'] = 'Zip書庫から解凍されたファイル';
+$string['fileswillbeextractedintofolder'] = 'ファイルは、%s に解凍されます。';
+$string['insufficientquotaforunzip'] = 'このファイルを解凍するには、あなたの残りファイルクオータが小さすぎます。';
+$string['pleasewaitwhileyourfilesarebeingunzipped'] = 'あなたのファイルは、解凍中です。しばらくお待ちください。';
+$string['spacerequired'] = '必要サイズ';
+$string['Unzip'] = '解凍';
+$string['unzipprogress'] = '%s 個のファイル/フォルダが作成されました。';
 
 ?>
