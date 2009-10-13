@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-09-16 07:07:08 UTC
+ * @updated    2009-10-13 18:15:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -344,9 +344,24 @@ $string['suspenddeleteuserdescription'] = 'あなたは、ここでユーザア�
 $string['deleteusernote'] = 'この処理は、<b>元に戻すことができません</b>ので注意してください。';
 $string['adduser'] = 'ユーザを追加する';
 $string['adduserdescription'] = '新しいユーザを作成します。';
-$string['adduserpagedescription'] = '<p>あなたは、ここで新しいユーザをシステムに追加することができます。ユーザが追加された場合、ユーザ名およびパスワードを含んだ新しいユーザ情報がユーザ宛にメール送信されます。初回ログイン時、ユーザはパスワードの変更を求められます。</p>';
+$string['basicinformationforthisuser'] = 'このユーザの基本情報です。';
+$string['clickthebuttontocreatetheuser'] = 'ユーザを作成するには、ボタンをクリックしてください。';
+$string['createnewuserfromscratch'] = 'ユーザをスクラッチから作成する';
 $string['createuser'] = 'ユーザを作成する';
+$string['failedtoobtainuploadedleapfile'] = 'アップロードされたLEAP2Aファイルの取得に失敗しました。';
+$string['failedtounzipleap2afile'] = 'LEAP2Aファイルの解凍に失敗しました。詳細は、エラーログを確認してください。';
+$string['fileisnotaziporxmlfile'] = 'このファイルは、ZIPファイルまたはXMLファイルとして認識されませんでした。';
+$string['howdoyouwanttocreatethisuser'] = 'どのように、このユーザを作成しますか?';
+$string['leap2aimportfailed'] = '<p><strong>申し訳ございません - LEAP2Aファイルのインポートに失敗しました。</strong></p><p>これは、あなたが有効なLEAP2Aファイルをアップロードに選択しなかったからだと考えられます。また、LEAP2Aファイルが有効な場合、Maharaのバグが、あなたのファイルのアップロードを失敗させていることも考えられます。</p><p><a href="add.php">戻って、ファイルのアップロードを再度お試しください</a>。この問題が持続する場合、<a href="http://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。その場合、あなたのファイルのコピーも準備してください!</p>';
 $string['newuseremailnotsent'] = '新しいユーザへのウェルカムメール送信に失敗しました。';
+$string['newusercreated'] = '新しいユーザアカウントが正常に作成されました。';
+$string['noleap2axmlfiledetected'] = 'leap2a.xmlファイルが見つかりませんでした - 再度、あなたのエクスポートファイルを確認してください。';
+$string['Or...'] = 'または ...';
+$string['userwillreceiveemailandhastochangepassword'] = '新しいアカウント詳細を記載したEメールがユーザに送信されます。新しく作成されたユーザは、初回ログイン時、パスワードを変更を求められます。';
+$string['uploadleap2afile'] = 'LEAP2Aをアップロードする';
+$string['usercreationmethod'] = '1 - ユーザ作成方法';
+$string['basicdetails'] = '2 - 基本情報';
+$string['create'] = '3 - 作成';
 $string['loginasuser'] = '%s としてログインする';
 $string['becomeadminagain'] = '%s に戻る';
 $string['loginasdenied'] = 'パーミッションなしで、他のユーザとしてログインを試みました。';
@@ -426,6 +441,7 @@ $string['institutionusersupdated_removeMembers'] = 'ユーザが削除されま�
 $string['institutionusersupdated_inviteUser'] = '招待が送信されました。';
 $string['maxuseraccounts'] = '許可する最大ユーザアカウント数';
 $string['maxuseraccountsdescription'] = 'インスティテューションに関連付けることのできる最大ユーザアカウント数です。制限がない場合、このフィールドは空白にしてください。';
+$string['institutionmaxusersexceeded'] = 'このインスティテューションは、ユーザ数が上限に達しました。このユーザを追加できるようにするには、あなたは、このインスティテューションが許可するユーザ数を増やす必要があります。';
 $string['institutionuserserrortoomanyusers'] = 'ユーザは追加されませんでした。メンバー数は、インスティテューションで許可される最大ユーザ数を超えることはできません。あなたは、少数のユーザを追加するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼することができます。';
 $string['institutionuserserrortoomanyinvites'] = 'あなたの招待は送信されませんでした。既存のユーザ + 招待者数は、インスティテューションで許可される最大ユーザアカウント数を超えることはできません。あなたは、少数のユーザを招待するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼することができます。';
 $string['Members'] = 'メンバー';
