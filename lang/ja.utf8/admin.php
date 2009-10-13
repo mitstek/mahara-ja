@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-10-13 18:15:30 UTC
+ * @updated    2009-10-13 18:22:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -352,7 +352,7 @@ $string['failedtoobtainuploadedleapfile'] = 'アップロードされたLEAP2A�
 $string['failedtounzipleap2afile'] = 'LEAP2Aファイルの解凍に失敗しました。詳細は、エラーログを確認してください。';
 $string['fileisnotaziporxmlfile'] = 'このファイルは、ZIPファイルまたはXMLファイルとして認識されませんでした。';
 $string['howdoyouwanttocreatethisuser'] = 'どのように、このユーザを作成しますか?';
-$string['leap2aimportfailed'] = '<p><strong>申し訳ございません - LEAP2Aファイルのインポートに失敗しました。</strong></p><p>これは、あなたが有効なLEAP2Aファイルをアップロードに選択しなかったからだと考えられます。また、LEAP2Aファイルが有効な場合、Maharaのバグが、あなたのファイルのアップロードを失敗させていることも考えられます。</p><p><a href="add.php">戻って、ファイルのアップロードを再度お試しください</a>。この問題が持続する場合、<a href="http://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。その場合、あなたのファイルのコピーも準備してください!</p>';
+$string['leap2aimportfailed'] = '<p><strong>申し訳ございません - LEAP2Aファイルのインポートに失敗しました。</strong></p><p>これは、あなたが有効なLEAP2Aファイルをアップロードに選択しなかったからだと考えられます。また、LEAP2Aファイルが有効な場合、Maharaのバグが、あなたのファイルのアップロードを失敗させていることも考えられます。</p><p><a href="add.php">戻って、ファイルのアップロードを再度お試しください</a>。この問題が持続する場合、エラー状況を<a href="http://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。その場合、あなたのファイルのコピーを準備してください!</p>';
 $string['newuseremailnotsent'] = '新しいユーザへのウェルカムメール送信に失敗しました。';
 $string['newusercreated'] = '新しいユーザアカウントが正常に作成されました。';
 $string['noleap2axmlfiledetected'] = 'leap2a.xmlファイルが見つかりませんでした - 再度、あなたのエクスポートファイルを確認してください。';
