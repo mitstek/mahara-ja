@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-10-05 06:26:50 UTC
+ * @updated    2009-10-13 05:53:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -207,9 +207,11 @@ $string['wrongfiletypeforblock'] = 'あなたがアップロードしたファ�
 $string['Contents'] = 'コンテンツ';
 $string['Continue'] = '続ける';
 $string['extractfilessuccess'] = '%s 個のフォルダおよび %s 個のファイルが作成されました。';
-$string['filesextractedfromziparchive'] = 'Zip書庫から解凍されたファイル';
+$string['filesextractedfromarchive'] = 'アーカイブから解凍されたファイル';
+$string['filesextractedfromziparchive'] = 'Zipアーカイブから解凍されたファイル';
 $string['fileswillbeextractedintofolder'] = 'ファイルは、%s に解凍されます。';
 $string['insufficientquotaforunzip'] = 'このファイルを解凍するには、あなたの残りファイルクオータが小さすぎます。';
+$string['invalidarchive'] = 'アーカイブファイルの読み込み中にエラーが発生しました。';
 $string['pleasewaitwhileyourfilesarebeingunzipped'] = 'あなたのファイルは、解凍中です。しばらくお待ちください。';
 $string['spacerequired'] = '必要サイズ';
 $string['Unzip'] = '解凍';
