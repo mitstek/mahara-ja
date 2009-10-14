@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-10-13 05:53:53 UTC
+ * @updated    2009-10-14 05:42:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -180,6 +180,7 @@ $string['mpg'] = 'MPGムービー';
 $string['ram'] = 'RAM Real Playerムービー';
 $string['rpm'] = 'RPM Real Playerムービー';
 $string['rm'] = 'RM Real Playerムービー';
+$string['cantcreatetempprofileiconfile'] = '一時プロファイルアイコンイメージを %s に書き込むことができませんでした。';
 $string['profileiconsize'] = 'プロファイルアイコンサイズ';
 $string['profileicons'] = 'プロファイルアイコン';
 $string['Default'] = 'デフォルト';
