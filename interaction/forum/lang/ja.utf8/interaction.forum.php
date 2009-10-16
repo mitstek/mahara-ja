@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-08-18 03:32:47 UTC
+ * @updated    2009-10-16 08:12:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -78,9 +78,8 @@ $string['forumposthtmltemplate'] = '<div style="padding: 0.5em 0; border-bottom:
 <div style="margin: 1em 0;">%s</div>
 
 <div style="font-size: smaller; border-top: 1px solid #999;">
-<p>オンライン上で投稿を閲覧するには、次のリンクにアクセスしてください:<br><a href="%s">%s</a></p>
-<p>
-この %s から購読解除するには、次のリンクにアクセスしてください: <a href="%s">%s</a></p>
+<p><a href="%s">この投稿にオンライン上で返信する</a></p>
+<p><a href="%s">この %s から購読解除する</a></p>
 </div>';
 $string['forumposttemplate'] = '%s by %s
 %s
