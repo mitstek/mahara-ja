@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-10-14 05:42:07 UTC
+ * @updated    2009-10-20 03:22:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -31,6 +31,7 @@ defined('INTERNAL') || die();
 $string['pluginname'] = 'ファイル';
 $string['sitefilesloaded'] = 'サイトファイルが読み込まれました。';
 $string['addafile'] = 'ファイルを追加する';
+$string['archive'] = 'アーカイブ';
 $string['bytes'] = 'バイト';
 $string['cannoteditfolder'] = 'あなたには、このフォルダにコンテンツを追加するパーミッションがありません。';
 $string['changessaved'] = '変更が保存されました。';
