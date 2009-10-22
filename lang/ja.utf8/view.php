@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-10-20 01:39:05 UTC
+ * @updated    2009-10-22 02:39:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -173,6 +173,7 @@ $string['blocksinstructionajax'] = 'あなたのビューレイアウトにブ�
 $string['addnewblockhere'] = 'ここに新しいブロックを追加する';
 $string['add'] = '追加';
 $string['addcolumn'] = 'カラムを追加する';
+$string['remove'] = '削除';
 $string['removecolumn'] = 'このカラムを削除する';
 $string['moveblockleft'] = '%s ブロックを左に移動する';
 $string['movethisblockleft'] = 'このブロックを左に移動する';
