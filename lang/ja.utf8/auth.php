@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-07-16 04:17:22 UTC
+ * @updated    2009-10-27 06:32:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -57,6 +57,7 @@ $string['authloginmsg'] = 'ユーザがMaharaログインフォーム経由で�
 $string['application'] = 'アプリケーション';
 $string['cantretrievekey'] = 'リモートサーバのパブリックキー検索中、エラーが発生しました。<br />アプリケーションおよびWWWルートフィールドが正しいこと、およびリモートホストのネットワークが有効にされていることを確認してください。';
 $string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s に対する使用を試みています。';
+$string['errorcouldnotgeneratenewsslkey'] = '新しいSSLキーを生成することができませんでした。本当に、このマシンにopensslおよびopenssl用PHPモジュールがインストールされていますか?';
 $string['errnoauthinstances'] = '私たちには、%s のホストに関して、認証プラグインインスタンスが設定されていないようです。';
 $string['errornotvalidsslcertificate'] = '有効なSSLサーバ証明書ではありません。';
 $string['errnoxmlrpcinstances'] = '私たちには、%s のホストに関して、XMLRPCプラグインインスタンスが設定されていないようです。';
