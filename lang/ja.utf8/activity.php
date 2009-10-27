@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-05 21:08:45 UTC
+ * @updated    2009-10-27 01:12:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -39,6 +39,7 @@ $string['typevirusrepeat'] = 'ウイルスアップロードの繰り返し';
 $string['typevirusrelease'] = 'ウイルスフラグリリース';
 $string['typeadminmessages'] = '管理メッセージ';
 $string['typeinstitutionmessage'] = 'インスティテューションメッセージ';
+$string['typegroupmessage'] = 'グループメッセージ';
 $string['type'] = '活動タイプ';
 $string['attime'] = '-';
 $string['prefsdescr'] = 'あなたがメールオプションのどちらを選択しても、活動ログに通知が記録されます。また、活動ログに記録された通知は、自動的に既読にされます。';
@@ -86,5 +87,7 @@ $string['institutionrequestsubject'] = '%s が %s のメンバーシップをリ
 $string['institutionrequestmessage'] = 'あなたは、インスティテューションメンバーページで、ユーザをインスティテューションに追加することができます:';
 $string['institutioninvitesubject'] = 'あなたは、インスティテューション %s への参加を招待されました。';
 $string['institutioninvitemessage'] = 'あなたは、インスティテューション設定ページで、このインスティテューションのメンバーシップを承認することができます:';
+$string['viewsubmittedsubject'] = '%s に送信されたビュー';
+$string['viewsubmittedmessage'] = '%s がビュー「 %s 」を %s に送信しました。';
 
 ?>
