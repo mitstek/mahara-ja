@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-07-08 23:25:18 UTC
+ * @updated    2009-10-29 03:25:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -319,6 +319,7 @@ $string['usereditdescription'] = 'あなたは、ここでこのユーザアカ�
 $string['suspenddeleteuser'] = 'ユーザの利用停止/削除';
 $string['suspenddeleteuserdescription'] = 'あなたは、ここでユーザアカウントを利用停止または完全に削除することができます。利用停止されたユーザは、利用停止が解除されるまで、ログインすることができません。利用停止されたユーザは利用停止解除することができますが、削除されたユーザは元に戻すことは<b>できません</b>ので注意してください。';
 $string['deleteusernote'] = 'この処理は、<b>元に戻すことができません</b>ので注意してください。';
+$string['youcannotadministerthisuser'] = 'あなたは、このユーザを管理できません。';
 $string['adduser'] = 'ユーザを追加する';
 $string['adduserdescription'] = '新しいユーザを作成します。';
 $string['adduserpagedescription'] = '<p>あなたは、ここで新しいユーザをシステムに追加することができます。ユーザが追加された場合、ユーザ名およびパスワードを含んだ新しいユーザ情報がユーザ宛にメール送信されます。初回ログイン時、ユーザはパスワードの変更を求められます。</p>';
