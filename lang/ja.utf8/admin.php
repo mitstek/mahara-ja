@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-05-05 17:27:36 UTC
+ * @updated    2009-10-29 03:25:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -269,6 +269,7 @@ $string['suspendedby'] = 'このユーザは %s により利用停止にされ�
 $string['filequota'] = 'ファイルクオータ (MB)';
 $string['filequotadescription'] = 'ユーザファイルエリアでの利用可能な合計保存領域です。';
 $string['confirmremoveuserfrominstitution'] = 'このインスティテューションから、本当にユーザを削除してもよろしいですか?';
+$string['youcannotadministerthisuser'] = 'あなたは、このユーザを管理できません。';
 $string['adduser'] = 'ユーザを追加する';
 $string['adduserdescription'] = '新しいユーザを作成します。';
 $string['adduserpagedescription'] = '<p>あなたは、ここで新しいユーザをシステムに追加することができます。ユーザが追加された場合、ユーザ名およびパスワードを含んだ新しいユーザ情報がユーザ宛にメール送信されます。初回ログイン時、ユーザはパスワードの変更を求められます。</p>';
