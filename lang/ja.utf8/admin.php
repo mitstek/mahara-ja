@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-10-29 03:25:29 UTC
+ * @updated    2009-11-05 06:37:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -153,7 +153,7 @@ $string['usersallowedmultipleinstitutionsdescription'] = 'チェックした場�
 $string['usersseenewthemeonlogin'] = '次回ログイン時、ユーザに新しいテーマが表示されます。';
 $string['viruschecking'] = 'ウイルスチェック';
 $string['viruscheckingdescription'] = 'チェックした場合、すべてのアップロードファイルに対するClamAVを使用したウイルスチェックが有効にされます。';
-$string['whocancreatepublicgroups'] = '誰がパブリックグループを作成できますか';
+$string['whocancreatepublicgroups'] = '誰がパブリックグループを作成できますか?';
 $string['whocancreatepublicgroupsdescription'] = 'ここでは、一般公衆から閲覧可能なグループを作成することのできるユーザを選択します。';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
