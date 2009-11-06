@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-09-14 23:34:15 UTC
+ * @updated    2009-11-06 02:32:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -796,5 +796,6 @@ $string['allowpublicaccess'] = 'パブリックアクセス (ログインなし)
 $string['thisistheprofilepagefor'] = 'これは、%s のプロファイルページです。';
 $string['pleasedonotreplytothismessage'] = 'このメッセージに返信しないでください。';
 $string['deleteduser'] = '削除済みユーザ';
+$string['recentupdates'] = '最新情報';
 
 ?>
