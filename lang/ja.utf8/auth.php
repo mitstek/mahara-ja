@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-11-04 08:19:13 UTC
+ * @updated    2009-11-09 04:21:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -56,6 +56,7 @@ $string['theyssoin'] = 'こちらにSSOさせる';
 $string['authloginmsg'] = 'ユーザがMaharaログインフォーム経由でログインを試みる場合、表示されるメッセージを入力してください。';
 $string['application'] = 'アプリケーション';
 $string['cantretrievekey'] = 'リモートサーバのパブリックキー検索中、エラーが発生しました。<br />アプリケーションおよびWWWルートフィールドが正しいこと、およびリモートホストのネットワークが有効にされていることを確認してください。';
+$string['ssodirection'] = 'SSOの方向';
 $string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s に対する使用を試みています。';
 $string['errorcouldnotgeneratenewsslkey'] = '新しいSSLキーを生成することができませんでした。本当に、このマシンにopensslおよびopenssl用PHPモジュールがインストールされていますか?';
 $string['errnoauthinstances'] = '私たちには、%s のホストに関して、認証プラグインインスタンスが設定されていないようです。';
