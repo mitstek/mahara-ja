@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-11-09 04:27:15 UTC
+ * @updated    2009-11-18 21:14:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -148,6 +148,7 @@ $string['institutionautosuspenddescription'] = 'チェックした場合、有�
 $string['institutionexpirynotification'] = 'インスティテューション有効期限の警告期限';
 $string['institutionexpirynotificationdescription'] = 'サイトおよびインスティテューション管理者に対して、サイト有効期限切れ前に通知メッセージが送信されます。';
 $string['language'] = '言語';
+$string['country'] = '国';
 $string['pathtoclam'] = 'clamのパス';
 $string['pathtoclamdescription'] = 'clamscanまたはclamdscanへのファイルシステムパスです。';
 $string['searchplugin'] = '検索プラグイン';
@@ -161,6 +162,7 @@ $string['showtagssideblock'] = 'タグクラウドを有効にする';
 $string['showtagssideblockdescription'] = 'チェックした場合、ユーザに対して、最も頻繁に使用されたタグが、サイトのマイポートフォリオセクション内のサイドブロックに表示されます。';
 $string['sitedefault'] = 'サイトデフォルト';
 $string['sitelanguagedescription'] = 'サイトのデフォルト言語';
+$string['sitecountrydescription'] = 'サイトのデフォルトの国';
 $string['sitename'] = 'サイト名';
 $string['sitenamedescription'] = 'サイト名は、サイトおよびサイトから送信されるメールに表示されます。';
 $string['siteoptionspagedescription'] = 'ここでは、サイト全体にデフォルトとして適用されるグローバルオプションを設定することができます。';
