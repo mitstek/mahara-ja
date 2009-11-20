@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-11-09 04:34:46 UTC
+ * @updated    2009-11-20 05:08:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -43,6 +43,8 @@ $string['updatedfriendcontrolsetting'] = 'フレンドコントロールが更�
 $string['wysiwygdescr'] = 'HTMLエディタ';
 $string['on'] = 'On';
 $string['off'] = 'Off';
+$string['disabled'] = '無効';
+$string['enabled'] = '有効';
 $string['messagesdescr'] = '他のユーザからのメッセージ';
 $string['messagesnobody'] = 'だれも私にメッセージを送信できません。';
 $string['messagesfriends'] = 'マイフレンドリストに登録したユーザは、私にメッセージを送信できます。';
@@ -53,6 +55,9 @@ $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'あなたのタグクラウドに表示されるタグの最大数です。';
 $string['prefssaved'] = 'プリファレンスが保存されました。';
 $string['prefsnotsaved'] = 'あなたのプリファレンスの保存に失敗しました!';
+$string['maildisabled'] = 'Eメールが無効にされました。';
+$string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたため、あなたのメールアドレス宛のメール送信は停止されました。アカウントプリファレンスの %s にて、Eメールを有効にする前に、あなたのEメールアカウントが正常に動作しているか確認してください。';
+$string['maildisableddescription'] = 'あなたのアカウント宛のメール送信は停止されました。アカウントプリファレンスページにて、<a href="%s">あなたのEメールを再度有効</a>にすることができます。';
 $string['deleteaccount'] = 'アカウントを削除する';
 $string['deleteaccountdescription'] = 'アカウントを削除した場合、今後、あなたのプロファイル情報およびビューを他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧することができますが、投稿者名が表示されないようになります。';
 $string['accountdeleted'] = 'あなたのアカウントが正常に削除されました。';
