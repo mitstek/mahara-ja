@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-11-20 05:11:21 UTC
+ * @updated    2009-11-20 05:23:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -362,7 +362,7 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 
 <p>%s サイト管理者</p>';
 $string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは、私たちに責任があります。もう一度お試しください。';
-$string['forgotpassemaildisabled'] = '申し訳ございません、あなたが入力したユーザ名のEメールアドレスは、無効にされています。あなたのパスワードをリセットするには、管理者にご連絡ください。';
+$string['forgotpassemaildisabled'] = '申し訳ございません、あなたが入力したユーザ名またはEメールアドレスを持つユーザのEメールアドレスは、無効にされています。あなたのパスワードをリセットするには、管理者にご連絡ください。';
 $string['forgotpassnosuchemailaddressorusername'] = 'あなたが入力したメールアドレスは、このサイトのユーザに合致しません。';
 $string['forgotpasswordenternew'] = '続けるには、あなたの新しいパスワードを入力してください。';
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';
