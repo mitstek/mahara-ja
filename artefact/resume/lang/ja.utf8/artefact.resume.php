@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-09-07 05:56:22 UTC
+ * @updated    2009-11-25 23:23:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -57,6 +57,7 @@ $string['date'] = '日付';
 $string['position'] = 'ポジション';
 $string['qualification'] = '資格';
 $string['title'] = 'タイトル';
+$string['description'] = '説明';
 $string['employer'] = '雇用主';
 $string['jobtitle'] = '職名';
 $string['jobdescription'] = 'ポジション説明';
