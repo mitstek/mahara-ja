@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-11-16 21:12:46 UTC
+ * @updated    2010-01-07 16:35:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -432,7 +432,7 @@ $string['userstoaddorreject'] = '追加/拒否するユーザ';
 $string['addmembers'] = 'メンバーを追加する';
 $string['inviteuserstojoin'] = 'ユーザをインスティテューションに招待する';
 $string['Non-members'] = '非メンバー';
-$string['userstobeinvited'] = '招待されたユーザ';
+$string['userstobeinvited'] = '招待されるユーザ';
 $string['inviteusers'] = 'ユーザを招待する';
 $string['removeusersfrominstitution'] = 'インスティテューションからユーザを削除する';
 $string['currentmembers'] = '現在のメンバー';
