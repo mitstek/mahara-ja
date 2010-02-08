@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-11-16 21:13:55 UTC
+ * @updated    2010-02-08 18:16:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -255,5 +255,7 @@ $string['removefromgroup'] = 'グループから削除する';
 $string['userremoved'] = 'ユーザが削除されました。';
 $string['About'] = 'About';
 $string['Joined'] = '登録日';
+$string['instructions:invite'] = 'これは、招待のみ可能なグループです。ユーザプロファイルページからユーザを招待してください。';
+$string['instructions:controlled'] = 'これは、管理メンバーシップのグループです。ユーザプロファイルページからユーザを追加してください。';
 
 ?>

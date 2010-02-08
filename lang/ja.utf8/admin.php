@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-01-07 16:35:39 UTC
+ * @updated    2010-02-08 18:12:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -59,6 +59,8 @@ $string['noupgrades'] = 'アップグレードはありません! あなたは�
 $string['youcanupgrade'] = 'あなたは、Maharaを %s (%s) から %s (%s) へアップグレードすることができます!';
 $string['Plugin'] = 'プラグイン';
 $string['jsrequiredforupgrade'] = 'あなたがインストールまたはアップグレードを実行するには、Javaスクリプトを有効にする必要があります。';
+$string['dbnotutf8warning'] = 'あなたは、UTF-8データベースを使用していません。Maharaは、すべてのデータを内部的にUTF-8で保存します。あなたは、このアップグレードを試みることもできますが、データベースをUTF-8にコンバートすることをお勧めします。';
+$string['dbcollationmismatch'] = 'あなたのデータベースカラムは、データベースデフォルトとは異なるコレーションを使用しています。すべてのカラムが、データベースと同じコレーションを使用していることを確認してください。';
 $string['adminhome'] = '管理ホーム';
 $string['configsite'] = 'サイト設定';
 $string['configusers'] = 'ユーザ管理';

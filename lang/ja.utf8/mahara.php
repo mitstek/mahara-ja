@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-11-16 21:17:58 UTC
+ * @updated    2010-02-08 18:25:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -362,6 +362,7 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 
 <p>%s サイト管理者</p>';
 $string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは、私たちに責任があります。もう一度お試しください。';
+$string['forgotpassemaildisabled'] = '申し訳ございません、あなたが入力したEメールアドレスまたはユーザ名のメール送信は、無効にされています。あなたのパスワードをリセットするには、管理者にご連絡ください。';
 $string['forgotpassnosuchemailaddressorusername'] = 'あなたが入力したメールアドレスは、このサイトのユーザに合致しません。';
 $string['forgotpasswordenternew'] = '続けるには、あなたの新しいパスワードを入力してください。';
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';
@@ -398,6 +399,7 @@ $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p><a href="%sforgotpass.php?key=%s">%sforgotpass.php?key=%s</a></p>';
 $string['debugemail'] = '注意: このメールは、%s <%s> 宛のメールですが、設定ファイルの「sendallemailto」設定により、あなたに送信されています。';
+$string['divertingemailto'] = 'メールを %s に転送する';
 $string['noenddate'] = '終了日なし';
 $string['day'] = '日';
 $string['days'] = '日';
@@ -519,7 +521,7 @@ $string['clamunknownerror'] = 'clamに不明なエラーが発生しました。
 $string['image'] = 'イメージ';
 $string['filenotimage'] = 'あなたがアップロードしたファイルは、有効なイメージではありません。PNG、JPEGまたはGIFファイルをアップロードしてください。';
 $string['uploadedfiletoobig'] = 'ファイルが大き過ぎます。詳細は、あなたの管理者にお尋ねください。';
-$string['notphpuploadedfile'] = 'アップロード処理中にファイルを喪失しました。これは通常起きることではありません。詳細は、あなたの管理者にお尋ねください。';
+$string['notphpuploadedfile'] = 'アップロード処理中にファイルを喪失しました。これは通常起きることではありません。詳細は、あなたの管理者にご連絡ください。';
 $string['virusfounduser'] = 'あなたがアップロードした %s にウイルスの感染が発見されました! あなたのファイルは正常にアップロードされませんでした。';
 $string['fileunknowntype'] = 'あなたがアップロードしたファイルのタイプを判定できませんでした。あなたのファイルが破損したか、設定に問題があります。あなたの管理者にご連絡ください。';
 $string['virusrepeatsubject'] = '警告: %s はウイルスの繰り返しアップロード者です。';
