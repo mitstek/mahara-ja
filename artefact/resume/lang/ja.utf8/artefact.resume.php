@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-11-25 23:23:07 UTC
+ * @updated    2010-02-08 18:30:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -85,5 +85,7 @@ $string['moveup'] = '上へ';
 $string['movedown'] = '下へ';
 $string['viewyourresume'] = 'あなたのレジュメを表示する';
 $string['resumeofuser'] = '%s のレジュメ';
+$string['employeraddress'] = '雇用主住所';
+$string['institutionaddress'] = 'インスティテューション住所';
 
 ?>

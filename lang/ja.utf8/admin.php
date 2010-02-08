@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-01-07 16:41:00 UTC
+ * @updated    2010-02-08 18:56:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -59,6 +59,8 @@ $string['noupgrades'] = 'アップグレードはありません! あなたは�
 $string['youcanupgrade'] = 'あなたは、Maharaを %s (%s) から %s (%s) へアップグレードすることができます!';
 $string['Plugin'] = 'プラグイン';
 $string['jsrequiredforupgrade'] = 'あなたがインストールまたはアップグレードを実行するには、Javaスクリプトを有効にする必要があります。';
+$string['dbnotutf8warning'] = 'あなたは、UTF-8データベースを使用していません。Maharaは、すべてのデータを内部的にUTF-8で保存します。あなたは、このアップグレードを試みることもできますが、データベースをUTF-8にコンバートすることをお勧めします。';
+$string['dbcollationmismatch'] = 'あなたのデータベースカラムは、データベースデフォルトとは異なるコレーションを使用しています。すべてのカラムが、データベースと同じコレーションを使用していることを確認してください。';
 $string['adminhome'] = '管理ホーム';
 $string['configsite'] = 'サイト設定';
 $string['configusers'] = 'ユーザ管理';
@@ -168,13 +170,16 @@ $string['sitenamedescription'] = 'サイト名は、サイトおよびサイト�
 $string['siteoptionspagedescription'] = 'ここでは、サイト全体にデフォルトとして適用されるグローバルオプションを設定することができます。';
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['sitethemedescription'] = 'サイトのデフォルトテーマ';
+$string['smallviewheaders'] = 'スモールビューページヘッダ';
+$string['smallviewheadersdescription'] = 'チェックした場合、ビューの閲覧または編集時、ブロック内にスモールヘッダおよびサイトナビゲーションが表示されます。';
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'ユーザのタグクラウド内に表示されるタグのデフォルト数です。';
-$string['theme'] = 'テーマ';
 $string['trustedsites'] = '信頼されたサイト';
 $string['updatesiteoptions'] = 'サイトオプションを更新する';
 $string['usersallowedmultipleinstitutions'] = 'ユーザに複数インスティテューションを許可する';
 $string['usersallowedmultipleinstitutionsdescription'] = 'チェックした場合、ユーザは同時に複数のインスティテューションのメンバーになることができます。';
+$string['userscanchooseviewthemes'] = 'ユーザがビューテーマを選択できる';
+$string['userscanchooseviewthemesdescription'] = 'チェックした場合、ユーザはビューの編集時、テーマを選択することができます。選択したテーマを使用して、他のユーザにビューが表示されます。';
 $string['usersseenewthemeonlogin'] = '次回ログイン時、他のユーザに新しいテーマが表示されます。';
 $string['viruschecking'] = 'ウイルスチェック';
 $string['viruscheckingdescription'] = 'チェックした場合、すべてのアップロードファイルに対するClamAVを使用したウイルスチェックが有効にされます。';

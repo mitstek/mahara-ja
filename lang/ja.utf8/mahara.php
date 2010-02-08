@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-11-20 05:23:10 UTC
+ * @updated    2010-02-08 18:59:40 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -399,6 +399,7 @@ $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p><a href="%sforgotpass.php?key=%s">%sforgotpass.php?key=%s</a></p>';
 $string['debugemail'] = '注意: このメールは、%s <%s> 宛のメールですが、設定ファイルの「sendallemailto」設定により、あなたに送信されています。';
+$string['divertingemailto'] = 'メールを %s に転送する';
 $string['noenddate'] = '終了日なし';
 $string['day'] = '日';
 $string['days'] = '日';
@@ -429,8 +430,6 @@ $string['findgroups'] = 'グループを探す';
 $string['returntosite'] = 'サイトに戻る';
 $string['siteadministration'] = 'サイト管理';
 $string['useradministration'] = 'ユーザ管理';
-$string['viewmyprofilepage'] = 'プロファイルページを表示する';
-$string['editmyprofilepage'] = 'プロファイルページを編集する';
 $string['unreadmessages'] = '未読メッセージ';
 $string['unreadmessage'] = '未読メッセージ';
 $string['siteclosed'] = 'データベースアップグレードのため、サイトは一時的に閉鎖されています。サイト管理者は、ログインすることができます。';
@@ -520,7 +519,7 @@ $string['clamunknownerror'] = 'clamに不明なエラーが発生しました。
 $string['image'] = 'イメージ';
 $string['filenotimage'] = 'あなたがアップロードしたファイルは、有効なイメージではありません。PNG、JPEGまたはGIFファイルをアップロードしてください。';
 $string['uploadedfiletoobig'] = 'ファイルが大き過ぎます。詳細は、あなたの管理者にお尋ねください。';
-$string['notphpuploadedfile'] = 'アップロード処理中にファイルを喪失しました。これは通常起きることではありません。詳細は、あなたの管理者にお尋ねください。';
+$string['notphpuploadedfile'] = 'アップロード処理中にファイルを喪失しました。これは通常起きることではありません。詳細は、あなたの管理者にご連絡ください。';
 $string['virusfounduser'] = 'あなたがアップロードした %s にウイルスの感染が発見されました! あなたのファイルは正常にアップロードされませんでした。';
 $string['fileunknowntype'] = 'あなたがアップロードしたファイルのタイプを判定できませんでした。あなたのファイルが破損したか、設定に問題があります。あなたの管理者にご連絡ください。';
 $string['virusrepeatsubject'] = '警告: %s はウイルスの繰り返しアップロード者です。';
@@ -785,6 +784,7 @@ $string['country.eh'] = '西サハラ';
 $string['country.ye'] = 'イエメン共和国';
 $string['country.zm'] = 'ザンビア共和国';
 $string['country.zw'] = 'ジンバブエ共和国';
+$string['nocountryselected'] = '国が選択されていません。';
 $string['system'] = 'システム';
 $string['done'] = '完了';
 $string['back'] = '戻る';
@@ -798,8 +798,12 @@ $string['Copyof'] = '%s のコピー';
 $string['loggedinusersonly'] = 'ログインユーザのみ';
 $string['allowpublicaccess'] = 'パブリックアクセス (ログインなし) を許可する';
 $string['thisistheprofilepagefor'] = 'これは、%s のプロファイルページです。';
+$string['viewmyprofilepage'] = 'プロファイルページを表示する';
+$string['editmyprofilepage'] = 'プロファイルページを編集する';
+$string['usersprofile'] = '%s のプロファイル';
 $string['pleasedonotreplytothismessage'] = 'このメッセージに返信しないでください。';
 $string['deleteduser'] = '削除済みユーザ';
 $string['recentupdates'] = '最新情報';
+$string['theme'] = 'テーマ';
 
 ?>

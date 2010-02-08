@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-10-22 02:39:53 UTC
+ * @updated    2010-02-08 18:37:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,13 +29,11 @@
 defined('INTERNAL') || die();
 
 $string['createview'] = 'ビューを作成する';
-$string['createviewstepone'] = 'ビューの作成 ステップ1: レイアウト';
-$string['createviewsteptwo'] = 'ビューの作成 ステップ2: 詳細';
-$string['createviewstepthree'] = 'ビューの作成 ステップ3: アクセス';
-$string['createtemplate'] = 'テンプレートを作成する';
-$string['editviewdetails'] = 'ビュー「 %s 」の詳細を編集する';
-$string['editblocksforview'] = 'ビュー「 %s 」を編集する';
-$string['editaccessforview'] = 'ビュー「 %s 」のアクセスを編集する';
+$string['edittitle'] = 'タイトルを編集する';
+$string['edittitleanddescription'] = 'タイトルおよび説明を編集する';
+$string['editcontent'] = 'コンテンツを編集する';
+$string['editcontentandlayout'] = 'コンテンツおよびレイアウトを編集する';
+$string['editaccess'] = 'アクセスを編集する';
 $string['next'] = '次へ';
 $string['back'] = '戻る';
 $string['title'] = 'ビュータイトル';
@@ -55,8 +53,6 @@ $string['institutionviews'] = 'インスティテューションビュー';
 $string['reallyaddaccesstoemptyview'] = 'あなたのビューには、ブロックが含まれていません。本当にこれらのユーザに対してビューへのアクセス権を与えますか?';
 $string['viewdeleted'] = 'ビューが削除されました。';
 $string['viewsubmitted'] = 'ビューが送信されました。';
-$string['editviewnameanddescription'] = 'ビュー詳細を編集する';
-$string['editviewaccess'] = 'ビューアクセスを編集する';
 $string['deletethisview'] = 'このビューを削除する';
 $string['submitthisviewto'] = '評価のため、このビューを';
 $string['forassessment'] = 'に送信する';
@@ -197,6 +193,7 @@ $string['backtoyourview'] = 'マイビューに戻る';
 $string['viewlayoutchanged'] = 'ビューレイアウトが変更されました。';
 $string['numberofcolumns'] = 'カラム数';
 $string['by'] = 'by';
+$string['viewtitleby'] = '%s by <a href="%s">%s</a>';
 $string['in'] = '-';
 $string['noblocks'] = '申し訳ございません、このカテゴリにブロックはありません :(';
 $string['Preview'] = 'プレビュー';
@@ -219,6 +216,7 @@ $string['Search'] = '検索';
 $string['noartefactstochoosefrom'] = '申し訳ございません、選択するアーティファクトがありません。';
 $string['access'] = 'アクセス';
 $string['noaccesstoview'] = 'あなたには、このビューにアクセスするパーミッションがありません。';
+$string['changeviewtheme'] = 'あなたがこのビューに選択したテーマは、廃止されています。異なるテーマを選択してください。';
 $string['Template'] = 'テンプレート';
 $string['allowcopying'] = 'コピーを許可する';
 $string['templatedescription'] = 'このチェックボックスをチェックした場合、あなたのビューを閲覧できるユーザに対して、自分のビューとしてコピーできるようにします。';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-07-17 15:35:31 UTC
+ * @updated    2010-02-08 18:30:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -92,6 +92,7 @@ $string['unvalidatedemailalreadytaken'] = 'あなたが確認しようとして�
 $string['emailingfailed'] = 'プロファイルが保存されましたが、次のメールアドレス宛にメール送信できませんでした: %s';
 $string['loseyourchanges'] = '変更を取り消してもよろしいですか?';
 $string['editprofile'] = 'プロファイルを編集する';
+$string['editmyprofile'] = 'マイプロファイルを編集する';
 $string['Title'] = 'タイトル';
 $string['Created'] = '作成日時';
 $string['Description'] = '説明';
