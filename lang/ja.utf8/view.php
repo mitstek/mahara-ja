@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-02-08 18:37:50 UTC
+ * @updated    2010-02-27 16:39:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -40,7 +40,8 @@ $string['title'] = 'ビュータイトル';
 $string['description'] = 'ビュー説明';
 $string['startdate'] = 'アクセス開始日';
 $string['stopdate'] = 'アクセス終了日';
-$string['startdatemustbebeforestopdate'] = '開始日は終了日の前に設定してください。';
+$string['stopdatecannotbeinpast'] = '終了日には、過去の日付を設定することはできません。';
+$string['startdatemustbebeforestopdate'] = '開始日は、終了日の前に設定してください。';
 $string['unrecogniseddateformat'] = '不明なデータフォーマット';
 $string['ownerformat'] = '氏名表示フォーマット';
 $string['ownerformatdescription'] = '他のユーザがあなたのビューを閲覧する場合、あなたの名前をどのように表示しますか?';
