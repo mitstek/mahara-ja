@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-10-29 03:34:42 UTC
+ * @updated    2010-03-09 05:32:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -84,6 +84,8 @@ $string['viewnotfound'] = 'ID %s のビューは見つかりませんでした�
 $string['youcannotviewthisusersprofile'] = 'あなたは、このユーザのプロファイルを閲覧できません。';
 $string['artefactnotfoundmaybedeleted'] = 'ID %s のアーティファクトは見つかりませんでした (もしかして、削除されましたか?)。';
 $string['artefactnotfound'] = 'ID %s のアーティファクトは見つかりませんでした。';
+$string['artefactnotinview'] = 'アーティファクト %s は、ビュー %s にありません。';
+$string['artefactonlyviewableinview'] = 'このタイプのアーティファクトは、ビュー内でのみ閲覧することができます。';
 $string['notartefactowner'] = 'あなたは、このアーティファクトを所有していません。';
 $string['blockinstancednotfound'] = 'ID %s のブロックインスタンスは見つかりませんでした。';
 $string['interactioninstancenotfound'] = 'ID %s の活動インスタンスは見つかりませんでした。';

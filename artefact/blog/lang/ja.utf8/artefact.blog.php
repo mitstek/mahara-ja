@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-02-20 23:53:41 UTC
+ * @updated    2010-03-09 05:34:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -37,6 +37,7 @@ $string['alignment'] = '配置';
 $string['attach'] = '添付';
 $string['attachedfilelistloaded'] = '添付ファイル一覧が読み込まれました。';
 $string['attachedfiles'] = '添付ファイル';
+$string['attachment'] = '添付ファイル';
 $string['attachments'] = '添付ファイル';
 $string['blogcopiedfromanotherview'] = '注意: このブロックは、別のビューからコピーされました。あなたは、このブロックを移動したり、削除することができますが、%s の内容を変更することはできません。';
 $string['blogdesc'] = '説明';
@@ -132,5 +133,7 @@ $string['postscopiedfromview'] = '%s からコピーされた記事';
 $string['youhavenoblogs'] = 'あなたは、ブログがありません。';
 $string['youhaveoneblog'] = 'あなたには、1 件のブログがあります。';
 $string['youhaveblogs'] = 'あなたには、%s 件のブログがあります。';
+$string['feedsnotavailable'] = 'このアーティファクトタイプでは、フィードは利用できません。';
+$string['feedrights'] = '著作権 %s';
 
 ?>

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-03-01 04:54:05 UTC
+ * @updated    2010-03-09 05:36:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -309,14 +309,12 @@ $string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある�
 </pre>
 <p>上記、mahara-export-leap-user8-1265165366.zipおよびmahara-export-leap-user1-1266458159.zipは、import.csvとして、同一ディレクトリにあります。</p>
 <p>あなたが多くのユーザをインポートする場合、注意してください。インポート処理には、長時間を要します。</p>';
-$string['Directory'] = 'ディレクトリ';
-$string['bulkleap2aimportdirdescription'] = 'import.csvおよびLEAP2Aファイルを含む、あなたのサーバのディレクトリです。';
+$string['importfilenotreadable'] = 'LEAP2Aファイル %s を読むことができません。';
 $string['importednuserssuccessfully'] = '%d / %d のユーザを正常にインポートしました。';
 $string['Import'] = 'インポート';
 $string['bulkimportdirdoesntexist'] = 'ディレクトリ %s が存在しません。';
 $string['unabletoreadbulkimportdir'] = 'ディレクトリ %s を読むことができません。';
 $string['unabletoreadcsvfile'] = 'csvファイル %s を読むことができません。';
-$string['importfilenotreadable'] = 'LEAP2Aファイル %s を読むことができません。';
 $string['importfileisnotazipfile'] = 'インポートファイル %s は、ZIPファイルではないようです。';
 $string['unzipfailed'] = 'LEAP2Aファイル %s の解凍に失敗しました。詳細情報は、エラーログをご覧ください。';
 $string['importfailedfornusers'] = '%d / %d のユーザのインポートに失敗しました。';
@@ -496,6 +494,8 @@ $string['unsuspendinstitution'] = 'インスティテューションの利用停
 $string['unsuspendinstitutiondescription'] = 'ここであなたは、インスティテューションの利用停止を解除することができます。利用停止されたインスティテューションのユーザは、インスティテューションが利用停止解除されるまで、ログインすることはできません。<br /><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止解除することは、結果として、毎日、再度利用停止されることにつながります。';
 $string['unsuspendinstitutiondescription_top'] = '<strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止解除することは、結果として、毎日、再度利用停止されることにつながります。';
 $string['unsuspendinstitutiondescription_top_instadmin'] = '利用停止されたインスティテューションのユーザは、ログインすることができません。インスティテューションの利用停止を解除するには、管理者にご連絡ください。';
+$string['bulkexport'] = 'ユーザをエクスポートする';
+$string['bulkexporttitle'] = 'ユーザをLEAP2Aファイルにエクスポートする';
 $string['Query'] = 'クエリ';
 $string['Institution'] = 'インスティテューション';
 $string['confirm'] = '承認';
