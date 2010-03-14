@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-11-20 05:08:11 UTC
+ * @updated    2010-03-14 18:03:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -53,6 +53,8 @@ $string['language'] = '言語';
 $string['showviewcolumns'] = 'ビューの編集時、カラムの「追加」および「削除」ボタンを表示する';
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'あなたのタグクラウドに表示されるタグの最大数です。';
+$string['hiderealname'] = '実名を隠す';
+$string['hiderealnamedescription'] = 'あなたがニックネームを設定した場合、そして、あなたの実名検索により、他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
 $string['prefssaved'] = 'プリファレンスが保存されました。';
 $string['prefsnotsaved'] = 'あなたのプリファレンスの保存に失敗しました!';
 $string['maildisabled'] = 'Eメールが無効にされました。';
