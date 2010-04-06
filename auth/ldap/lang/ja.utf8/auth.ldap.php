@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-11-16 21:09:07 UTC
+ * @updated    2010-04-06 05:59:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -44,5 +44,6 @@ $string['userattribute'] = 'ユーザ属性';
 $string['usertype'] = 'ユーザタイプ';
 $string['weautocreateusers'] = 'こちらでユーザを自動作成する';
 $string['updateuserinfoonlogin'] = 'ログイン時、ユーザ情報を更新する';
+$string['cannotconnect'] = 'LDAPホストに接続できません。';
 
 ?>
