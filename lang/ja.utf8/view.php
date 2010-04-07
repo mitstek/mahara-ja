@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-03-16 18:54:09 UTC
+ * @updated    2010-04-07 06:29:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -208,6 +208,8 @@ $string['25,50,25'] = '大きな中央カラム';
 $string['15,70,15'] = 'さらに大きな中央カラム';
 $string['20,30,30,20'] = '大きな中央カラム';
 $string['noviewlayouts'] = '%s カラムビューのビューレイアウトがありません。';
+$string['cantaddcolumn'] = 'あなたは、これ以上、このビューにカラムを追加することはできません。';
+$string['cantremovecolumn'] = 'あなたは、このビューから最終カラムを削除することはできません。';
 $string['blocktypecategory.feeds'] = '外部フィード';
 $string['blocktypecategory.fileimagevideo'] = 'ファイル、イメージおよびビデオ';
 $string['blocktypecategory.general'] = '一般';
