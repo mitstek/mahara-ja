@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-04-08 05:20:00 UTC
+ * @updated    2010-04-08 19:24:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -67,6 +67,7 @@ $string['views'] = 'ビュー';
 $string['View'] = 'ビュー';
 $string['Views'] = 'ビュー';
 $string['viewsubmittedtogroup'] = 'このビューは、<a href="%s">%s</a>に送信されました。';
+$string['viewsubmittedtogroupon'] = 'このビューは、<a href="%s">%s</a>に対して %s　%s に送信されました。';
 $string['nobodycanseethisview2'] = 'あなたのみ、このビューを閲覧できます。';
 $string['noviews'] = 'ビューはありません。';
 $string['youhavenoviews'] = 'あなたのビューはありません。';
@@ -78,6 +79,7 @@ $string['viewssharedtogroupbyothers'] = 'このグループで共有されてい
 $string['viewssubmittedtogroup'] = 'このグループに送信されたビュー';
 $string['submitaviewtogroup'] = 'このグループにビューを送信する';
 $string['youhavesubmitted'] = 'あなたは、このグループに <a href="%s">%s</a> を送信しました。';
+$string['youhavesubmittedon'] = 'このビューは、このグループに対して、<a href="%s">%s</a>を %s　%s に送信しました。';
 $string['public'] = 'パブリック';
 $string['loggedin'] = 'ログインユーザ';
 $string['friends'] = 'フレンド';
@@ -201,6 +203,7 @@ $string['viewtitleby'] = '%s by <a href="%s">%s</a>';
 $string['in'] = '-';
 $string['noblocks'] = '申し訳ございません、このカテゴリにブロックはありません :(';
 $string['Preview'] = 'プレビュー';
+$string['timeofsubmission'] = '送信日時';
 $string['25,25,25,25'] = '等幅';
 $string['33,33,33'] = '等幅';
 $string['50,50'] = '等幅';
