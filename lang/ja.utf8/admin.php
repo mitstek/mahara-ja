@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-04-07 06:25:34 UTC
+ * @updated    2010-04-08 05:11:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -128,14 +128,13 @@ $string['reopensite'] = 'サイトを再オープンする';
 $string['reopensitedetail'] = 'あなたのサイトは、クローズされています。アップグレードが完了するまで、サイト管理者のみログインすることができます。';
 $string['adminsonly'] = '管理者のみ';
 $string['adminsandstaffonly'] = '管理者およびスタッフのみ';
+$string['advanced'] = '高度';
 $string['allowpublicviews'] = 'パブリックビューを許可する';
 $string['allowpublicviewsdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なポートフォリオビューを作成することができます。';
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowpublicprofilesdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なプロファイルビューを作成することができます。';
-$string['captchaonregisterform'] = 'ユーザ登録にCaptchaを必須とする';
-$string['captchaonregisterformdescription'] = 'ユーザ登録フォームの送信時、ユーザがCaptchaイメージの文字を入力する必要があります。';
-$string['captchaoncontactform'] = '「お問い合わせ」にCaptchaを必須とする';
-$string['captchaoncontactformdescription'] = 'お問い合わせフォームの送信時、ログイン未了ユーザがCaptchaイメージの文字を入力する必要があります。';
+$string['antispam'] = 'アンチスパム';
+$string['antispamdescription'] = 'パブリック閲覧可能なフォーラムに適用されるアンチスパム基準のタイプです。';
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
 $string['defaultaccountinactiveexpiredescription'] = 'ユーザログインがない状態で、どのくらいの期間、ユーザアカウントはアクティブのままですか。';
 $string['defaultaccountinactivewarn'] = '休眠/有効期限の警告期間';
@@ -150,6 +149,7 @@ $string['institutionautosuspenddescription'] = 'チェックした場合、有�
 $string['institutionexpirynotification'] = 'インスティテューション有効期限の警告期限';
 $string['institutionexpirynotificationdescription'] = 'サイトおよびインスティテューション管理者に対して、サイト有効期限切れ前に通知メッセージが送信されます。';
 $string['language'] = '言語';
+$string['none'] = 'なし';
 $string['country'] = '国';
 $string['pathtoclam'] = 'clamのパス';
 $string['pathtoclamdescription'] = 'clamscanまたはclamdscanへのファイルシステムパスです。';
@@ -164,6 +164,7 @@ $string['showselfsearchsideblock'] = 'ポートフォリオ検索を有効にす
 $string['showselfsearchsideblockdescription'] = 'サイトのマイポートフォリオセクション内に「マイポートフォリオを検索する」サイドブロックを表示します。';
 $string['showtagssideblock'] = 'タグクラウドを有効にする';
 $string['showtagssideblockdescription'] = 'チェックした場合、ユーザに対して、最も頻繁に使用されたタグが、サイトのマイポートフォリオセクション内のサイドブロックに表示されます。';
+$string['simple'] = 'シンプル';
 $string['sitedefault'] = 'サイトデフォルト';
 $string['sitelanguagedescription'] = 'サイトのデフォルト言語';
 $string['sitecountrydescription'] = 'サイトのデフォルトの国';
@@ -174,6 +175,10 @@ $string['siteoptionsset'] = 'サイトオプションが更新されました。
 $string['sitethemedescription'] = 'サイトのデフォルトテーマ';
 $string['smallviewheaders'] = 'スモールビューページヘッダ';
 $string['smallviewheadersdescription'] = 'チェックした場合、ビューの閲覧または編集時、ブロック内にスモールヘッダおよびサイトナビゲーションが表示されます。';
+$string['spamhaus'] = 'Spamhaus URIブラックリストを有効にする';
+$string['spamhausdescription'] = 'チェックした場合、Spamhaus DNSBLを使用して、URIがチェックされます。';
+$string['surbl'] = 'SURBL URIブラックリスト';
+$string['surbldescription'] = 'チェックした場合、SURBL DNSBLを使用して、URIがチェックされます。';
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'ユーザのタグクラウド内に表示されるタグのデフォルト数です。';
 $string['trustedsites'] = '信頼されたサイト';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-02-08 18:59:40 UTC
+ * @updated    2010-04-08 05:15:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -301,10 +301,6 @@ $string['invalidsesskey'] = '無効なセッションキー';
 $string['cannotremovedefaultemail'] = 'あなたの主メールアドレスは削除できません。';
 $string['emailtoolong'] = 'メールアドレスの長さは、半角255文字以内にしてください。';
 $string['mustspecifyoldpassword'] = 'あなたの現在のパスワードを入力してください。';
-$string['captchatitle'] = 'CAPTCHAイメージ';
-$string['captchaimage'] = 'CAPTCHAイメージ';
-$string['captchadescription'] = 'イメージの右側に表示されている文字を入力してください。入力する文字は、大文字小文字の区別をしません。';
-$string['captchaincorrect'] = 'イメージに表示されている文字を入力してください。';
 $string['Site'] = 'サイト';
 $string['emailaddress'] = 'メールアドレス';
 $string['firstname'] = '名';
@@ -465,6 +461,9 @@ $string['Requests'] = 'リクエスト';
 $string['Invitations'] = '招待';
 $string['config'] = '設定';
 $string['sendmessage'] = 'メッセージを送信する';
+$string['spamtrap'] = 'スパムトラップ';
+$string['formerror'] = 'あなたの送信の処理中にエラーが発生しました。再度お試しください。';
+$string['formerroremail'] = 'あなたの問題が続いている場合、%s より私たちにご連絡ください。';
 $string['notinstallable'] = 'インストールできません!';
 $string['installedplugins'] = 'インストール済みプラグイン';
 $string['notinstalledplugins'] = '未インストールプラグイン';
