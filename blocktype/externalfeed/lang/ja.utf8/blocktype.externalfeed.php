@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-02-03 05:29:11 UTC
+ * @updated    2010-04-08 04:56:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -32,6 +32,8 @@ $string['title'] = '外部フィード';
 $string['description'] = '外部RSSまたはATOMフィードを埋め込みます。';
 $string['feedlocation'] = 'フィードロケーション';
 $string['feedlocationdesc'] = '有効なRSSまたはATOMフィードのURI';
+$string['itemstoshow'] = '表示するアイテム数';
+$string['itemstoshowdescription'] = '範囲: 1～20';
 $string['showfeeditemsinfull'] = 'フィードアイテムを完全に表示しますか?';
 $string['showfeeditemsinfulldesc'] = 'ここでは、フィードアイテムの要約を表示するか、それぞれのフィードアイテムの詳細を表示するか選択してください。';
 $string['invalidurl'] = '指定されたURIが有効ではありません。あなたは、httpおよびhttpsのURIからのみフィードを表示することができます。';
