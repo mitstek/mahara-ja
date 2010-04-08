@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-04-08 05:11:50 UTC
+ * @updated    2010-04-08 05:39:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -134,7 +134,7 @@ $string['allowpublicviewsdescription'] = '「Yes」に設定した場合、ロ�
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowpublicprofilesdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なプロファイルビューを作成することができます。';
 $string['antispam'] = 'アンチスパム';
-$string['antispamdescription'] = 'パブリック閲覧可能なフォーラムに適用されるアンチスパム基準のタイプです。';
+$string['antispamdescription'] = 'パブリックに表示されるフォームに適用されるアンチスパム基準タイプです。';
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
 $string['defaultaccountinactiveexpiredescription'] = 'ユーザログインがない状態で、どのくらいの期間、ユーザアカウントはアクティブのままですか。';
 $string['defaultaccountinactivewarn'] = '休眠/有効期限の警告期間';
