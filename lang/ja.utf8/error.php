@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-11-16 21:13:31 UTC
+ * @updated    2010-04-16 17:05:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -43,6 +43,7 @@ $string['registerglobals'] = 'あなたは危険なPHP設定、register_globals�
 $string['magicquotesgpc'] = 'あなたは危険なPHP設定、magic_quotes_gpcをonにしています。Maharaは、この問題の対処を試みますが、設定の修正を強くお勧めします。';
 $string['magicquotesruntime'] = 'あなたは危険なPHP設定、magic_quotes_runtimeをonにしています。Maharaは、この問題の対処を試みますが、設定の修正を強くお勧めします。';
 $string['magicquotessybase'] = 'あなたは危険なPHP設定、magic_quotes_sybaseをonにしています。Maharaは、この問題の対処を試みますが、設定の修正を強くお勧めします。';
+$string['mimemagicnotloaded'] = 'あなたのサーバ設定には、mime_magic拡張モジュールが含まれていません。ファイルタイプの検出に関して、Maharaにトラブルが発生する可能性があります。';
 $string['safemodeon'] = 'あなたのサーバは、セーフモードで動作しているようです。Maharaは、セーフモードでの運用をサポートしていません。php.iniファイルまたはサイトのApache設定でセーフモードを無効にしてください。
 
 あなたが共有ホスティングサービスを利用している場合、ホスティングプロバイダに依頼する以外、safe_modeを無効にするためにできることは多くありません。別のホスティングサービスへの変更を考えても良いでしょう。';
