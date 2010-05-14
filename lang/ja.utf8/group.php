@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-04-09 04:35:01 UTC
+ * @updated    2010-05-14 01:01:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -52,6 +52,10 @@ $string['membershiptype.controlled'] = '管理メンバーシップ';
 $string['membershiptype.invite'] = '招待のみ';
 $string['membershiptype.request'] = 'リクエストメンバーシップ';
 $string['membershiptype.open'] = 'オープンメンバーシップ';
+$string['membershiptype.abbrev.controlled'] = '管理';
+$string['membershiptype.abbrev.invite'] = '招待';
+$string['membershiptype.abbrev.request'] = 'リクエスト';
+$string['membershiptype.abbrev.open'] = 'オープン';
 $string['pendingmembers'] = '保留中メンバー';
 $string['reason'] = '理由';
 $string['approve'] = '承認';
@@ -65,6 +69,7 @@ $string['publiclyviewablegroup'] = 'パブリックに閲覧可能なグルー�
 $string['publiclyviewablegroupdescription'] = '誰でも (このサイトのメンバーではない人も含めて) フォーラムを含む、このグループを閲覧できるようにしますか?';
 $string['usersautoadded'] = 'ユーザを自動追加しますか?';
 $string['usersautoaddeddescription'] = 'このグループに対して、新しいユーザすべてを自動追加しますか?';
+$string['grouptypedescription'] = '%s > %s';
 $string['hasrequestedmembership'] = 'がこのグループのメンバーシップをリクエストしました。';
 $string['hasbeeninvitedtojoin'] = 'がこのグループへの参加を招待されました。';
 $string['groupinvitesfrom'] = '参加の招待:';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-03-09 05:34:41 UTC
+ * @updated    2010-05-14 00:50:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -34,6 +34,7 @@ $string['blogs'] = 'ブログ';
 $string['addblog'] = 'ブログを追加する';
 $string['addpost'] = '記事を追加する';
 $string['alignment'] = '配置';
+$string['allowcommentsonpost'] = 'あなたのブログにコメントを許可します。';
 $string['attach'] = '添付';
 $string['attachedfilelistloaded'] = '添付ファイル一覧が読み込まれました。';
 $string['attachedfiles'] = '添付ファイル';
@@ -54,13 +55,6 @@ $string['blogtitle'] = 'タイトル';
 $string['blogtitledesc'] = '例) 「Jillの看護実習日誌」';
 $string['border'] = '枠線';
 $string['cancel'] = 'キャンセル';
-$string['commentsallowed'] = 'コメント';
-$string['commentsallowedno'] = 'このブログにコメントを許可しない';
-$string['commentsallowedyes'] = 'ログインユーザに対して、このブログへのコメントを許可する';
-$string['commentsnotify'] = 'コメント通知';
-$string['commentsnotifydesc'] = 'あなたのブログ記事にコメントが追加された場合、任意でコメント追加の通知を受信することができます。';
-$string['commentsnotifyno'] = 'このブログへのコメントを私に通知しない';
-$string['commentsnotifyyes'] = 'このブログへのコメントを私に通知する';
 $string['createandpublishdesc'] = 'ブログ記事を作成し、他のユーザが閲覧できるようにします。';
 $string['createasdraftdesc'] = 'ブログ記事を作成しますが、あなたが公開するまで、他のユーザは閲覧することはできません。';
 $string['createblog'] = 'ブログを作成する';
@@ -83,6 +77,7 @@ $string['moreoptions'] = '詳細オプション';
 $string['mustspecifytitle'] = 'あなたの記事のタイトルを入力してください。';
 $string['mustspecifycontent'] = 'あなたの記事のコンテンツを入力してください。';
 $string['myblogs'] = 'マイブログ';
+$string['myblog'] = 'マイブログ';
 $string['newattachmentsexceedquota'] = 'この記事にアップロードした新しいファイルの合計サイズが、あなたのクオータを超えました。あなたが追加した添付ファイルを削除することで、記事を保存することができます。';
 $string['newblog'] = '新しいブログ';
 $string['newblogpost'] = 'ブログ「 %s 」の新しいブログ記事';

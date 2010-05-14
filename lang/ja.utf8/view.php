@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-04-08 19:29:31 UTC
+ * @updated    2010-05-14 00:57:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -98,30 +98,14 @@ $string['addusertogroup'] = 'このユーザをグループに追加する';
 $string['addedtowatchlist'] = 'このビューがあなたのウォッチリストに追加されました。';
 $string['attachment'] = '添付ファイル';
 $string['removedfromwatchlist'] = 'このビューがあなたのウォッチリストから削除されました。';
-$string['addfeedbackfailed'] = 'フィードバックの追加に失敗しました。';
 $string['addtowatchlist'] = 'ウォッチリストにビューを追加する';
 $string['removefromwatchlist'] = 'ウォッチリストからビューを削除する';
 $string['alreadyinwatchlist'] = 'このビューは、すでにあなたのウォッチリストに登録されています。';
 $string['attachedfileaddedtofolder'] = '添付ファイル「 %s 」が、あなたの「 %s 」フォルダに追加されました。';
-$string['attachfile'] = '添付ファイル';
 $string['complaint'] = 'クレーム';
 $string['date'] = '日時';
-$string['feedback'] = 'フィードバック';
-$string['feedbackattachdirname'] = '評価ファイル';
-$string['feedbackattachdirdesc'] = 'ビュー評価に添付されるファイルです。';
-$string['feedbackattachmessage'] = '添付ファイルが、あなたの「 %s 」フォルダに追加されました。';
-$string['feedbackonthisartefactwillbeprivate'] = 'このアーティファクトのフィードバックは、オーナーのみ閲覧することができます。';
-$string['feedbackonviewbytutorofgroup'] = '%s のフィードバック 投稿者: %s (%s)';
-$string['feedbacksubmitted'] = 'フィードバックが送信されました。';
-$string['makepublic'] = 'パブリックにする';
-$string['nopublicfeedback'] = 'パブリックフィードバックはありません。';
 $string['notifysiteadministrator'] = 'サイト管理者に通知する';
-$string['placefeedback'] = 'フィードバックを投稿する';
-$string['placefeedbacknotallowed'] = 'あなたは、このビューへのフィードバック投稿を許可されていません。';
 $string['print'] = 'プリント';
-$string['thisfeedbackispublic'] = 'このフィードバックは、パブリック (公開) にされています。';
-$string['thisfeedbackisprivate'] = 'このフィードバックは、プライベート (非公開) です。';
-$string['makeprivate'] = 'プライベート (非公開) に変更する';
 $string['reportobjectionablematerial'] = '好ましくない内容を報告する';
 $string['reportsent'] = 'あなたの報告が送信されました。';
 $string['updatewatchlistfailed'] = 'ウォッチリストの更新に失敗しました。';
@@ -146,9 +130,7 @@ $string['emptylabel'] = 'このラベルのテキストを入力するには、�
 $string['empty_block'] = 'ここに配置するアーティファクトを左側のツリーより選択してください。';
 $string['viewinformationsaved'] = 'ビュー情報が正常に保存されました。';
 $string['canteditdontown'] = 'あなたの所有ではないため、このビューを編集できません。';
-$string['canteditdontownfeedback'] = 'あなたの所有ではないため、このフィードバックを編集できません。';
 $string['canteditsubmitted'] = '%s による評価を目的として送信されたため、あなたはこのビューを編集することはできません。あなたのビューをチューターがリリースするまで、お待ちください。';
-$string['feedbackchangedtoprivate'] = 'フィードバックがプライベート (非公開) に変更されました。';
 $string['addtutors'] = 'チューターを追加する';
 $string['viewcreatedsuccessfully'] = 'ビューが正常に作成されました。';
 $string['viewaccesseditedsuccessfully'] = 'ビューアクセスが正常に保存されました。';
@@ -268,7 +250,8 @@ $string['copynewusergroupneedsloggedinaccess'] = '新しいユーザまたはグ
 $string['viewcopywouldexceedquota'] = 'このビューを追加することで、あなたのファイルクオータを越えてしまいます。';
 $string['blockcopypermission'] = 'ブロックのコピーパーミッション';
 $string['blockcopypermissiondesc'] = 'このビューを他のユーザがコピーできるようにした場合、あなたは、このブロックをどのようにコピーできるか選択することができます。';
-$string['comment'] = 'コメント';
-$string['comments'] = 'コメント';
+$string['dashboard'] = 'ダッシュボード';
+$string['profile'] = 'プロファイル';
+$string['portfolio'] = 'ポートフォリオ';
 
 ?>

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-04-08 18:46:23 UTC
+ * @updated    2010-05-14 01:05:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -126,6 +126,12 @@ $string['closesitedetail'] = 'あなたは、管理者を除く、すべての�
 $string['Open'] = 'オープン';
 $string['reopensite'] = 'サイトを再オープンする';
 $string['reopensitedetail'] = 'あなたのサイトは、クローズされています。アップグレードが完了するまで、サイト管理者のみログインすることができます。';
+$string['siteinformation'] = 'サイト情報';
+$string['sitestatistics'] = 'サイト統計';
+$string['databasesize'] = 'データベースサイズ';
+$string['maharaversion'] = 'Maharaバージョン';
+$string['activeusers'] = 'アクティブユーザ';
+$string['Cron'] = 'Cron';
 $string['adminsonly'] = '管理者のみ';
 $string['adminsandstaffonly'] = '管理者およびスタッフのみ';
 $string['advanced'] = '高度';
@@ -133,6 +139,7 @@ $string['allowpublicviews'] = 'パブリックビューを許可する';
 $string['allowpublicviewsdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なポートフォリオビューを作成することができます。';
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowpublicprofilesdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なプロファイルビューを作成することができます。';
+$string['anonymouscomments'] = '匿名コメント';
 $string['antispam'] = 'アンチスパム';
 $string['antispamdescription'] = 'パブリックに表示されるフォームに適用されるアンチスパム基準タイプです。';
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
@@ -503,6 +510,7 @@ $string['unsuspendinstitutiondescription_top'] = '<strong>注意:</strong> 有�
 $string['unsuspendinstitutiondescription_top_instadmin'] = '利用停止されたインスティテューションのユーザは、ログインすることができません。インスティテューションの利用停止を解除するには、管理者にご連絡ください。';
 $string['bulkexport'] = 'ユーザをエクスポートする';
 $string['bulkexporttitle'] = 'ユーザをLEAP2Aファイルにエクスポートする';
+$string['bulkexportusernames'] = 'エクスポートするユーザ名';
 $string['Query'] = 'クエリ';
 $string['Institution'] = 'インスティテューション';
 $string['confirm'] = '承認';
@@ -520,5 +528,12 @@ $string['reinstall'] = '再インストール';
 $string['None'] = 'なし';
 $string['Simple'] = 'シンプル';
 $string['Advanced'] = '高度';
+$string['sitesettingslegend'] = 'サイト設定';
+$string['usersettingslegend'] = 'ユーザ設定';
+$string['searchsettingslegend'] = '検索設定';
+$string['institutionsettingslegend'] = 'インスティテューション設定';
+$string['accountsettingslegend'] = 'アカウント設定';
+$string['securitysettingslegend'] = 'セキュリティ設定';
+$string['generalsettingslegend'] = '一般設定';
 
 ?>
