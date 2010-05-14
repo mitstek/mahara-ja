@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-14 01:01:09 UTC
+ * @updated    2010-05-14 05:23:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -74,6 +74,11 @@ $string['hasrequestedmembership'] = 'がこのグループのメンバーシッ�
 $string['hasbeeninvitedtojoin'] = 'がこのグループへの参加を招待されました。';
 $string['groupinvitesfrom'] = '参加の招待:';
 $string['requestedmembershipin'] = 'リクエストされたメンバーシップ:';
+$string['controlledmembership'] = '管理グループメンバーシップ';
+$string['invitemembership'] = '招待のみメンバーシップ';
+$string['changedgroupmembership'] = 'グループメンバーシップが正常に更新されました。';
+$string['changedgroupmembershipsubject'] = 'あなたのグループメンバーシップが変更されました。';
+$string['cantremovemember'] = 'チューターは、メンバーを削除できません。';
 $string['member'] = 'メンバー';
 $string['members'] = 'メンバー';
 $string['Members'] = 'メンバー';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-14 02:35:34 UTC
+ * @updated    2010-05-14 05:35:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -28,21 +28,9 @@
 
 defined('INTERNAL') || die();
 
-$string['strftimedate'] = '%%Y年 %%m月 %%d日';
-$string['strftimedateshort'] = '%%m/%%d';
-$string['strftimedatetime'] = '%%Y年 %%m月 %%d日 %%H:%%M';
-$string['strftimedatetimeshort'] = '%%Y/%%m/%%d %%H:%%M';
-$string['strftimedaydate'] = '%%Y年 %%m月 %%d日(%A)';
-$string['strftimedaydatetime'] = '%%Y年 %%m月 %%d日(%%A) %%H:%%M';
-$string['strftimedayshort'] = '%%Y年 %%m月 %%d日';
-$string['strftimedaytime'] = '(%%a) %%H:%%M';
-$string['strftimemonthyear'] = '%%Y年 %%m月';
-$string['strftimerecent'] = '%%m月 %%d日 %H:%M';
-$string['strftimerecentfull'] = '%%Y年 %%m月 %%d日(%%a) %%H:%%M';
-$string['strftimetime'] = '%%H:%%M';
-$string['strfdaymonthyearshort'] = '%%Y/%%m/%%d';
-$string['strftimew3cdatetime'] = '%%Y-%%m-%%dT%%T%%z';
-$string['strftimew3cdate'] = '%%Y-%%m-%%d';
-$string['thislanguage'] = '日本語';
+$string['title'] = 'マイインボックス';
+$string['messagetypes'] = '表示するメッセージタイプ';
+$string['maxitems'] = '表示するアイテムの最大数';
+$string['nomessages'] = 'メッセージなし';
 
 ?>

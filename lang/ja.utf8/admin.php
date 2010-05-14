@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-14 01:05:54 UTC
+ * @updated    2010-05-14 05:30:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -127,11 +127,17 @@ $string['Open'] = 'オープン';
 $string['reopensite'] = 'サイトを再オープンする';
 $string['reopensitedetail'] = 'あなたのサイトは、クローズされています。アップグレードが完了するまで、サイト管理者のみログインすることができます。';
 $string['siteinformation'] = 'サイト情報';
+$string['viewfullsitestatistics'] = 'サイト統計詳細を表示する';
 $string['sitestatistics'] = 'サイト統計';
+$string['siteinstalled'] = 'サイトインストール';
 $string['databasesize'] = 'データベースサイズ';
+$string['diskusage'] = 'ディスク使用量';
 $string['maharaversion'] = 'Maharaバージョン';
 $string['activeusers'] = 'アクティブユーザ';
+$string['viewsperuser'] = 'ビューを作成したユーザは、それぞれ約 %s ページのビューを持っています。';
 $string['Cron'] = 'Cron';
+$string['cronnotrunning'] = 'Cronは、動作していません。Cronのセットアップに関するインストラクションは、<a href="http://wiki.mahara.org/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。';
+$string['youraverageuser'] = 'あなたのユーザ平均 ...';
 $string['adminsonly'] = '管理者のみ';
 $string['adminsandstaffonly'] = '管理者およびスタッフのみ';
 $string['advanced'] = '高度';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-04-08 18:58:09 UTC
+ * @updated    2010-05-14 05:45:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -50,6 +50,7 @@ $string['description'] = '説明';
 $string['remove'] = '削除';
 $string['Close'] = '閉じる';
 $string['Help'] = 'ヘルプ';
+$string['applychanges'] = '変更を適用する';
 $string['no'] = 'No';
 $string['yes'] = 'Yes';
 $string['none'] = 'なし';
@@ -441,6 +442,8 @@ $string['accountprefs'] = 'プリファレンス';
 $string['preferences'] = 'プリファレンス';
 $string['activityprefs'] = '活動プリファレンス';
 $string['notifications'] = '通知';
+$string['inbox'] = 'インボックス';
+$string['gotoinbox'] = 'インボックスに移動する';
 $string['institutionmembership'] = 'インスティテューションメンバーシップ';
 $string['institutionmembershipdescription'] = 'ここには、あなたがメンバーとなっているインスティテューションが表示されます。あなたは、インスティテューションのメンバーシップをリクエストすることもできます。また、インスティテューションがあなたに参加招待した場合、あなたは招待を承認または拒否することができます。';
 $string['youareamemberof'] = 'あなたは　%s のメンバーです。';
@@ -792,6 +795,8 @@ $string['back'] = '戻る';
 $string['backto'] = '%s に戻る';
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['formatpostbbcode'] = 'BBコードを使用して、あなたの投稿を書式設定することができます。%s詳細情報%s';
+$string['Total'] = '合計';
+$string['Visits'] = '訪問';
 $string['importedfrom'] = 'インポート元 %s';
 $string['incomingfolderdesc'] = '他のネットワークホストからインポートされたファイル';
 $string['remotehost'] = 'リモートホスト %s';
@@ -802,9 +807,26 @@ $string['thisistheprofilepagefor'] = 'これは、%s のプロファイルペー
 $string['viewmyprofilepage'] = 'プロファイルページを表示する';
 $string['editmyprofilepage'] = 'プロファイルページを編集する';
 $string['usersprofile'] = '%s のプロファイル';
+$string['mydashboard'] = 'マイダッシュボード';
+$string['editdashboard'] = '編集';
+$string['usersdashboard'] = '%s のダッシュボード';
+$string['topicsimfollowing'] = '私がフォローしているトピック';
+$string['recentactivity'] = 'マイメッセージ';
+$string['mymessages'] = 'マイメッセージ';
 $string['pleasedonotreplytothismessage'] = 'このメッセージに返信しないでください。';
 $string['deleteduser'] = '削除済みユーザ';
-$string['recentupdates'] = '最新情報';
 $string['theme'] = 'テーマ';
+$string['createcollect'] = '作成および収集';
+$string['createcollectsubtitle'] = 'あなたのポートフォリオを作成します。';
+$string['updateyourprofile'] = 'あなたの<a href="%s">プロファイル</a>を編集する';
+$string['uploadyourfiles'] = 'あなたの<a href="%s">ファイル</a>をアップロードする';
+$string['createyourresume'] = 'あなたの<a href="%s">レジュメ</a>を作成する';
+$string['publishablog'] = '<a href="%s">ブログ</a>を公開する';
+$string['Organise'] = '整理';
+$string['organisesubtitle'] = 'あなたのポートフォリオをビューに表示します。';
+$string['sharenetwork'] = '共有およびネットワーク';
+$string['sharenetworksubtitle'] = 'フレンドに会って、グループに参加します。';
+$string['findfriendslinked'] = '<a href="%s">フレンド</a>を探す';
+$string['joingroups'] = '<a href="%s">グループ</a>に参加する';
 
 ?>

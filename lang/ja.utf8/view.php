@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-14 00:57:00 UTC
+ * @updated    2010-05-14 05:40:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -46,6 +46,7 @@ $string['unrecogniseddateformat'] = '不明なデータフォーマット';
 $string['ownerformat'] = '氏名表示フォーマット';
 $string['ownerformatdescription'] = '他のユーザがあなたのビューを閲覧する場合、あなたの名前をどのように表示しますか?';
 $string['profileviewtitle'] = 'プロファイルビュー';
+$string['dashboardviewtitle'] = 'ダッシュボードビュー';
 $string['editprofileview'] = 'プロファイルビューを編集する';
 $string['artefacts'] = 'アーティファクト';
 $string['myviews'] = 'マイビュー';

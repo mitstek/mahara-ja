@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-14 01:02:29 UTC
+ * @updated    2010-05-14 01:11:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -41,6 +41,7 @@ $string['editcomment'] = 'コメントを編集する';
 $string['feedback'] = 'フィードバック';
 $string['feedbackattachdirname'] = 'コメントファイル';
 $string['feedbacksubmitted'] = 'フィードバックが送信されました。';
+$string['makepublic'] = 'パブリックにする';
 $string['reallydeletethiscomment'] = '本当にこのコメントを削除してもよろしいですか?';
 $string['typefeedback'] = 'フィードバック';
 
