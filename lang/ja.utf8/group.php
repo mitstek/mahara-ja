@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-15 04:54:32 UTC
+ * @updated    2010-05-15 05:22:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -196,7 +196,7 @@ $string['whymakemeyourfriend'] = 'あなたが私をフレンドにする理由:
 $string['approverequest'] = 'リクエストを承認する!';
 $string['denyrequest'] = 'リクエストを拒否する';
 $string['pending'] = '保留中';
-$string['trysearchingforfriends'] = 'あなたのネットワークを広げるため、%s新しいフレンドの検索%sを試してみてください。';
+$string['trysearchingforfriends'] = 'あなたのネットワークを広げるため、%s新しいフレンドの検索%sをお試しください。';
 $string['nobodyawaitsfriendapproval'] = 'あなたのフレンドになるための承認を待っているユーザはいません。';
 $string['sendfriendrequest'] = 'フレンドリクエストを送信する!';
 $string['addtomyfriends'] = 'マイフレンドに追加する!';
