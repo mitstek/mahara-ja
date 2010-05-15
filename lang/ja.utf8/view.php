@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-14 05:40:50 UTC
+ * @updated    2010-05-15 05:16:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -43,6 +43,7 @@ $string['stopdate'] = 'アクセス終了日';
 $string['stopdatecannotbeinpast'] = '終了日には、過去の日付を設定することはできません。';
 $string['startdatemustbebeforestopdate'] = '開始日は、終了日の前に設定してください。';
 $string['unrecogniseddateformat'] = '不明なデータフォーマット';
+$string['allowcommentsonview'] = 'チェックした場合、あなたのビューを閲覧できるユーザがコメントを投稿することができます。';
 $string['ownerformat'] = '氏名表示フォーマット';
 $string['ownerformatdescription'] = '他のユーザがあなたのビューを閲覧する場合、あなたの名前をどのように表示しますか?';
 $string['profileviewtitle'] = 'プロファイルビュー';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-14 05:28:12 UTC
+ * @updated    2010-05-15 05:31:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -28,6 +28,8 @@
 
 defined('INTERNAL') || die();
 
+$string['title'] = '最新ビュー';
 $string['viewstoshow'] = '表示するビューの最大数';
+$string['viewstoshowdescription'] = '設定範囲: 1～100';
 
 ?>

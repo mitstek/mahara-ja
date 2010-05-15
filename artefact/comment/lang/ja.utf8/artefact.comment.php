@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-14 01:11:18 UTC
+ * @updated    2010-05-15 05:34:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -35,6 +35,7 @@ $string['comment'] = 'コメント';
 $string['comments'] = 'コメント';
 $string['allowcomments'] = 'コメントを許可する';
 $string['attachfile'] = '添付ファイル';
+$string['cantedithasreplies'] = 'あなたは、最新のコメントのみ編集することができます。';
 $string['commentremoved'] = 'コメントが削除されました。';
 $string['commentupdated'] = 'コメントが更新されました。';
 $string['editcomment'] = 'コメントを編集する';

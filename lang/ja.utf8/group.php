@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-14 05:23:16 UTC
+ * @updated    2010-05-15 05:20:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -78,6 +78,7 @@ $string['controlledmembership'] = '管理グループメンバーシップ';
 $string['invitemembership'] = '招待のみメンバーシップ';
 $string['changedgroupmembership'] = 'グループメンバーシップが正常に更新されました。';
 $string['changedgroupmembershipsubject'] = 'あなたのグループメンバーシップが変更されました。';
+$string['cantremoveuserisadmin'] = 'チューターは、管理者および他のチューターを削除することはできません。';
 $string['cantremovemember'] = 'チューターは、メンバーを削除できません。';
 $string['member'] = 'メンバー';
 $string['members'] = 'メンバー';
@@ -154,7 +155,7 @@ $string['youowngroup'] = 'あなたは、このグループのオーナーです
 $string['groupsnotin'] = '私が参加していないグループ';
 $string['allgroups'] = 'すべてのグループ';
 $string['allgroupmembers'] = 'グループメンバーすべて';
-$string['trysearchingforgroups'] = '%s参加したいグループの検索%sを試してみてください!';
+$string['trysearchingforgroups'] = '%s参加したいグループの検索%sをお試しください!';
 $string['nogroupsfound'] = 'グループがありません :(';
 $string['group'] = 'グループ';
 $string['Group'] = 'グループ';
@@ -205,7 +206,7 @@ $string['whymakemeyourfriend'] = 'あなたが私をフレンドにする理由:
 $string['approverequest'] = 'リクエストを承認する!';
 $string['denyrequest'] = 'リクエストを拒否する';
 $string['pending'] = '保留中';
-$string['trysearchingforfriends'] = 'あなたのネットワークを広げるため、%s新しいフレンドの検索%sを試してみてください。';
+$string['trysearchingforfriends'] = 'あなたのネットワークを広げるため、%s新しいフレンドの検索%sをお試しください。';
 $string['nobodyawaitsfriendapproval'] = 'あなたのフレンドになるための承認を待っているユーザはいません。';
 $string['sendfriendrequest'] = 'フレンドリクエストを送信する!';
 $string['addtomyfriends'] = 'マイフレンドに追加する!';
