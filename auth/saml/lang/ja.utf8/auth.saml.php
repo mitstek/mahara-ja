@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-02-08 18:34:06 UTC
+ * @updated    2010-05-18 06:08:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -35,6 +35,7 @@ $string['errorretryexceeded'] = '再試行の最大回数 (%s) を越えまし�
 $string['errnosamluser'] = 'ユーザが見つかりませんでした。';
 $string['errorbadlib'] = 'SimpleSAMLPHPライブラリディレクトリ「 %s 」が正しくありません。';
 $string['errorbadconfig'] = 'SimpleSAMLPHP設定ディレクトリ「 %s 」が正しくありません。';
+$string['errorbadcombo'] = 'リモートユーザを選択していない場合のみ、あなたは、ユーザ自動作成を選択することができます。';
 $string['institutionattribute'] = 'インスティテューション属性 (%s を含む)';
 $string['institutionvalue'] = '属性をチェックするためのインスティテューション値';
 $string['institutionregex'] = 'インスティテューション省略名を部分的に文字列一致させる';
@@ -48,5 +49,6 @@ $string['userattribute'] = 'ユーザ属性';
 $string['simplesamlphplib'] = 'SimpleSAMLPHPライブラリディレクトリ';
 $string['simplesamlphpconfig'] = 'SimpleSAMLPHP設定ディレクトリ';
 $string['weautocreateusers'] = 'こちらでユーザを自動作成する';
+$string['remoteuser'] = 'ユーザ属性をリモートユーザに合致させる';
 
 ?>

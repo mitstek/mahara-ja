@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-14 05:45:59 UTC
+ * @updated    2010-05-18 05:15:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -807,9 +807,11 @@ $string['thisistheprofilepagefor'] = 'これは、%s のプロファイルペー
 $string['viewmyprofilepage'] = 'プロファイルページを表示する';
 $string['editmyprofilepage'] = 'プロファイルページを編集する';
 $string['usersprofile'] = '%s のプロファイル';
+$string['profiledescription'] = 'あなたのプロファイルビューは、あなたの表示名またはプロファイルアイコンをクリックしたユーザが閲覧することになるビューです。';
 $string['mydashboard'] = 'マイダッシュボード';
 $string['editdashboard'] = '編集';
 $string['usersdashboard'] = '%s のダッシュボード';
+$string['dashboarddescription'] = 'あなたのダッシュボードビューは、あなたがログインして最初にホームページ上で閲覧することになるビューです。このビューは、あなたのみアクセスすることができます。';
 $string['topicsimfollowing'] = '私がフォローしているトピック';
 $string['recentactivity'] = 'マイメッセージ';
 $string['mymessages'] = 'マイメッセージ';
@@ -824,9 +826,11 @@ $string['createyourresume'] = 'あなたの<a href="%s">レジュメ</a>を作�
 $string['publishablog'] = '<a href="%s">ブログ</a>を公開する';
 $string['Organise'] = '整理';
 $string['organisesubtitle'] = 'あなたのポートフォリオをビューに表示します。';
+$string['organisedescription'] = 'あなたのポートフォリオを<a href="%s">ビュー</a>に整理することができます。異なる閲覧者に対して、異なるビューを作成します - あなたがビューに含む構成要素を選択します。';
 $string['sharenetwork'] = '共有およびネットワーク';
 $string['sharenetworksubtitle'] = 'フレンドに会って、グループに参加します。';
 $string['findfriendslinked'] = '<a href="%s">フレンド</a>を探す';
 $string['joingroups'] = '<a href="%s">グループ</a>に参加する';
+$string['sharenetworkdescription'] = 'あなたは、誰がどのくらいの期間、それぞれのビューにアクセスできるか微調整することができます。';
 
 ?>
