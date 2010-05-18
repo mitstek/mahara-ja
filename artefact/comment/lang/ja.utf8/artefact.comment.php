@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-18 05:38:42 UTC
+ * @updated    2010-05-18 06:18:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -58,7 +58,7 @@ $string['makepublicnotallowed'] = 'あなたは、このコメントをパブリ
 $string['makepublicrequestsubject'] = 'リクエスト: プライベートコメントをパブリックに変更する';
 $string['makepublicrequestbyauthormessage'] = 'あなたがコメントをパブリックにするよう、%s がリクエストしました。';
 $string['makepublicrequestbyownermessage'] = 'あなたがあなたのコメントをパブリックにするよう、%s がリクエストしました。';
-$string['makepublicrequestsent'] = 'コメントをパブリックにするリクエストのメッセージが %s に送信されました。';
+$string['makepublicrequestsent'] = 'コメントをパブリックにするリクエストメッセージが %s に送信されました。';
 $string['newfeedbacknotificationsubject'] = '%s の新しいフィードバック';
 $string['placefeedback'] = 'フィードバックを投稿する';
 $string['reallydeletethiscomment'] = '本当にこのコメントを削除してもよろしいですか?';
