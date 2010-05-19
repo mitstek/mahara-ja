@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-17 06:18:20 UTC
+ * @updated    2010-05-19 06:25:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -134,10 +134,20 @@ $string['databasesize'] = 'データベースサイズ';
 $string['diskusage'] = 'ディスク使用量';
 $string['maharaversion'] = 'Maharaバージョン';
 $string['activeusers'] = 'アクティブユーザ';
+$string['loggedinsince'] = '%s 本日 / %s %s 以降 / %s 全期間';
+$string['groupmemberaverage'] = 'それぞれのユーザは、平均 %s のグループに属しています。';
 $string['viewsperuser'] = 'ビューを作成したユーザは、それぞれ約 %s ページのビューを持っています。';
 $string['Cron'] = 'Cron';
 $string['cronnotrunning'] = 'Cronは、動作していません。Cronのセットアップに関するインストラクションは、<a href="http://wiki.mahara.org/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。';
 $string['youraverageuser'] = 'あなたのユーザ平均 ...';
+$string['statsnofriends'] = 'フレンド数: 0';
+$string['statsnoviews'] = 'ビュー数: 0';
+$string['statsnogroups'] = '所属グループ数: 0';
+$string['groupcountsbytype'] = 'グループタイプごとのグループ数';
+$string['groupcountsbyjointype'] = 'アクセスタイプごとのグループ数';
+$string['blockcountsbytype'] = 'ポートフォリオビューで最も使用されたブロック';
+$string['groupstatstabletitle'] = '最大グループ';
+$string['viewstatstabletitle'] = '人気ビュー';
 $string['adminsonly'] = '管理者のみ';
 $string['adminsandstaffonly'] = '管理者およびスタッフのみ';
 $string['advanced'] = '高度';
@@ -179,7 +189,7 @@ $string['setsiteoptionsfailed'] = '%s オプションの設定に失敗しまし
 $string['showselfsearchsideblock'] = 'ポートフォリオ検索を有効にする';
 $string['showselfsearchsideblockdescription'] = 'サイトのマイポートフォリオセクション内に「マイポートフォリオを検索する」サイドブロックを表示します。';
 $string['showtagssideblock'] = 'タグクラウドを有効にする';
-$string['showtagssideblockdescription'] = 'チェックした場合、ユーザに対して、最も頻繁に使用されたタグが、サイトのマイポートフォリオセクション内のサイドブロックに表示されます。';
+$string['showtagssideblockdescription'] = 'チェックした場合、ユーザに対して、最も使用されたタグが、サイトのマイポートフォリオセクション内のサイドブロックに表示されます。';
 $string['simple'] = 'シンプル';
 $string['sitedefault'] = 'サイトデフォルト';
 $string['sitelanguagedescription'] = 'サイトのデフォルト言語';
@@ -211,7 +221,7 @@ $string['viruscheckingdescription'] = 'チェックした場合、すべての�
 $string['whocancreategroups'] = '誰がグループを作成できますか?';
 $string['whocancreategroupsdescription'] = 'ここでは、新しいグループを作成することのできるユーザを選択します。';
 $string['whocancreatepublicgroups'] = '誰がパブリックグループを作成できますか?';
-$string['whocancreatepublicgroupsdescription'] = 'ここでは、一般公衆から閲覧可能なグループを作成することのできるユーザを選択します。';
+$string['whocancreatepublicgroupsdescription'] = 'ここでは、パブリックに閲覧可能なグループを作成することのできるユーザを選択します。';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
 $string['editsitepagespagedescription'] = 'ここでは、(ログインおよびログアウトユーザ別に) ホームページおよびフッタのページリンク等、サイト全体のいくつかのページコンテンツを編集することができます。';

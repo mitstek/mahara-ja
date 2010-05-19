@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-15 05:20:53 UTC
+ * @updated    2010-05-19 06:14:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -67,6 +67,7 @@ $string['Admin'] = '管理者';
 $string['grouptype'] = 'グループタイプ';
 $string['publiclyviewablegroup'] = 'パブリックに閲覧可能なグループですか?';
 $string['publiclyviewablegroupdescription'] = '誰でも (このサイトのメンバーではない人も含めて) フォーラムを含む、このグループを閲覧できるようにしますか?';
+$string['publicvisibility'] = 'パブリックに閲覧可能';
 $string['usersautoadded'] = 'ユーザを自動追加しますか?';
 $string['usersautoaddeddescription'] = 'このグループに対して、新しいユーザすべてを自動追加しますか?';
 $string['grouptypedescription'] = '%s > %s';
@@ -78,6 +79,12 @@ $string['controlledmembership'] = '管理グループメンバーシップ';
 $string['invitemembership'] = '招待のみメンバーシップ';
 $string['changedgroupmembership'] = 'グループメンバーシップが正常に更新されました。';
 $string['changedgroupmembershipsubject'] = 'あなたのグループメンバーシップが変更されました。';
+$string['addedtogroupsmessage'] = '%s があなたをグループに追加しました:
+
+%s';
+$string['removedfromgroupsmessage'] = '%s があなたをグループから削除しました:
+
+%s';
 $string['cantremoveuserisadmin'] = 'チューターは、管理者および他のチューターを削除することはできません。';
 $string['cantremovemember'] = 'チューターは、メンバーを削除できません。';
 $string['member'] = 'メンバー';
@@ -151,6 +158,8 @@ $string['nogroups'] = 'グループなし';
 $string['deletespecifiedgroup'] = 'グループ「 %s 」を削除する';
 $string['requestjoinspecifiedgroup'] = 'グループ「 %s 」への参加をリクエストする';
 $string['youaregroupmember'] = 'あなたは、このグループのメンバーです。';
+$string['youaregrouptutor'] = 'あなたは、このグループのチューターです。';
+$string['youaregroupadmin'] = 'あなたは、このグループの管理者です。';
 $string['youowngroup'] = 'あなたは、このグループのオーナーです。';
 $string['groupsnotin'] = '私が参加していないグループ';
 $string['allgroups'] = 'すべてのグループ';
@@ -162,6 +171,7 @@ $string['Group'] = 'グループ';
 $string['groups'] = 'グループ';
 $string['notamember'] = 'あなたは、このグループのメンバーではありません。';
 $string['notmembermayjoin'] = 'このページを閲覧するには、あなたはグループ「 %s 」に参加する必要があります。';
+$string['declinerequestsuccess'] = 'グループメンバーシップのリクエストが正常に拒否されました。';
 $string['reasonoptional'] = '理由 (任意)';
 $string['request'] = 'リクエストする';
 $string['friendformaddsuccess'] = '%s があなたのフレンドリストに追加されました。';
