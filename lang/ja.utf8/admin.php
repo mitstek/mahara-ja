@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-19 06:03:54 UTC
+ * @updated    2010-05-19 06:27:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -160,7 +160,7 @@ $string['setsiteoptionsfailed'] = '%s オプションの設定に失敗しまし
 $string['showselfsearchsideblock'] = 'ポートフォリオ検索を有効にする';
 $string['showselfsearchsideblockdescription'] = 'サイトのマイポートフォリオセクション内に「マイポートフォリオを検索する」サイドブロックを表示します。';
 $string['showtagssideblock'] = 'タグクラウドを有効にする';
-$string['showtagssideblockdescription'] = 'チェックした場合、ユーザに対して、最も頻繁に使用されたタグが、サイトのマイポートフォリオセクション内のサイドブロックに表示されます。';
+$string['showtagssideblockdescription'] = 'チェックした場合、ユーザに対して、最も使用されたタグが、サイトのマイポートフォリオセクション内のサイドブロックに表示されます。';
 $string['sitedefault'] = 'サイトデフォルト';
 $string['sitelanguagedescription'] = 'サイトのデフォルト言語';
 $string['sitename'] = 'サイト名';
