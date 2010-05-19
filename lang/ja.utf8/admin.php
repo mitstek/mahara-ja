@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-19 06:25:29 UTC
+ * @updated    2010-05-19 06:44:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -134,7 +134,7 @@ $string['databasesize'] = 'データベースサイズ';
 $string['diskusage'] = 'ディスク使用量';
 $string['maharaversion'] = 'Maharaバージョン';
 $string['activeusers'] = 'アクティブユーザ';
-$string['loggedinsince'] = '%s 本日 / %s %s 以降 / %s 全期間';
+$string['loggedinsince'] = '%s=本日 / %s=%s以降 / %s=全期間';
 $string['groupmemberaverage'] = 'それぞれのユーザは、平均 %s のグループに属しています。';
 $string['viewsperuser'] = 'ビューを作成したユーザは、それぞれ約 %s ページのビューを持っています。';
 $string['Cron'] = 'Cron';
