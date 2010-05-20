@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-18 05:15:01 UTC
+ * @updated    2010-05-20 06:55:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -820,9 +820,9 @@ $string['deleteduser'] = '削除済みユーザ';
 $string['theme'] = 'テーマ';
 $string['createcollect'] = '作成および収集';
 $string['createcollectsubtitle'] = 'あなたのポートフォリオを作成します。';
-$string['updateyourprofile'] = 'あなたの<a href="%s">プロファイル</a>を編集する';
-$string['uploadyourfiles'] = 'あなたの<a href="%s">ファイル</a>をアップロードする';
-$string['createyourresume'] = 'あなたの<a href="%s">レジュメ</a>を作成する';
+$string['updateyourprofile'] = '<a href="%s">プロファイル</a>を編集する';
+$string['uploadyourfiles'] = '<a href="%s">ファイル</a>をアップロードする';
+$string['createyourresume'] = '<a href="%s">レジュメ</a>を作成する';
 $string['publishablog'] = '<a href="%s">ブログ</a>を公開する';
 $string['Organise'] = '整理';
 $string['organisesubtitle'] = 'あなたのポートフォリオをビューに表示します。';

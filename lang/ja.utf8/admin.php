@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-19 06:44:49 UTC
+ * @updated    2010-05-20 07:11:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -140,9 +140,13 @@ $string['viewsperuser'] = 'ビューを作成したユーザは、それぞれ�
 $string['Cron'] = 'Cron';
 $string['cronnotrunning'] = 'Cronは、動作していません。Cronのセットアップに関するインストラクションは、<a href="http://wiki.mahara.org/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。';
 $string['youraverageuser'] = 'あなたのユーザ平均 ...';
+$string['statsmaxfriends'] = '平均フレンド数: %s (最もフレンドの多いユーザ: <a href="%s">%s</a> - フレンド数: %d)';
 $string['statsnofriends'] = 'フレンド数: 0';
+$string['statsmaxviews'] = '平均ビュー数: %s (最もビューの多いユーザ: <a href="%s">%s</a> - ビュー数: %d)';
 $string['statsnoviews'] = 'ビュー数: 0';
+$string['statsmaxgroups'] = '平均所属グループ数: %s (最も所属グループの多いユーザ: <a href="%s">%s</a> - 所属グループ数: %d)';
 $string['statsnogroups'] = '所属グループ数: 0';
+$string['statsmaxquotaused'] = '平均利用ディスククオータ: %s (最も利用クオータの多いユーザ: <a href="%s">%s</a> - 利用クオータ: %d)';
 $string['groupcountsbytype'] = 'グループタイプごとのグループ数';
 $string['groupcountsbyjointype'] = 'アクセスタイプごとのグループ数';
 $string['blockcountsbytype'] = 'ポートフォリオビューで最も使用されたブロック';
