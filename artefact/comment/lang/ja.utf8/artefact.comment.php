@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-18 06:18:02 UTC
+ * @updated    2010-05-22 20:18:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -39,8 +39,10 @@ $string['Attachments'] = '添付ファイル';
 $string['cantedithasreplies'] = 'あなたは、最新のコメントのみ編集することができます。';
 $string['canteditnotauthor'] = 'あなたは、このコメントの投稿者ではありません。';
 $string['cantedittooold'] = 'あなたは、投稿後 %d 分以内のコメントのみ編集することができます。';
+$string['commentmadepublic'] = 'コメントがパブリックにされました。';
 $string['commentdeletedauthornotification'] = 'あなたの %s のコメントが削除されました:';
 $string['commentdeletednotificationsubject'] = '%s のコメントが削除されました。';
+$string['commentnotinview'] = 'コメント %d は、ビュー %d にありません。';
 $string['commentremoved'] = 'コメントが削除されました。';
 $string['commentremovedbyauthor'] = '投稿者によりコメントが削除されました。';
 $string['commentremovedbyowner'] = 'オーナーによりコメントが削除されました。';
@@ -52,6 +54,7 @@ $string['feedback'] = 'フィードバック';
 $string['feedbackattachdirname'] = 'コメントファイル';
 $string['feedbackattachdirdesc'] = 'あなたのポートフォリオのコメントに添付されたファイル';
 $string['feedbackattachmessage'] = 'あなたの %s フォルダに添付ファイルが追加されました。';
+$string['feedbackonviewbyuser'] = '%s のフィードバック by %s';
 $string['feedbacksubmitted'] = 'フィードバックが送信されました。';
 $string['makepublic'] = 'パブリックにする';
 $string['makepublicnotallowed'] = 'あなたは、このコメントをパブリックにすることはできません。';

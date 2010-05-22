@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-10-30 13:59:05 UTC
+ * @updated    2010-05-22 19:40:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -48,6 +48,7 @@ $string['generateexport'] = 'エクスポートを生成する';
 $string['noexportpluginsenabled'] = '管理者によりエクスポートプラグインが有効にされていないため、あなたはこの機能を使用することはできません。';
 $string['justsomeviews'] = 'いくつかのマイビューのみ';
 $string['pleasewaitwhileyourexportisbeinggenerated'] = 'あなたのエクスポートを生成しています。お待ちください ...';
+$string['selectall'] = 'すべてを選択する';
 $string['setupcomplete'] = 'セットアップ完了';
 $string['Starting'] = '開始';
 $string['unabletoexportportfoliousingoptions'] = '選択されたオプションでポートフォリオをエクスポートできません。';

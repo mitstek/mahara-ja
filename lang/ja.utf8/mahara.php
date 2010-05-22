@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-20 06:55:45 UTC
+ * @updated    2010-05-22 19:35:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -795,6 +795,8 @@ $string['back'] = '戻る';
 $string['backto'] = '%s に戻る';
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['formatpostbbcode'] = 'BBコードを使用して、あなたの投稿を書式設定することができます。%s詳細情報%s';
+$string['Created'] = '作成日';
+$string['Updated'] = '更新日';
 $string['Total'] = '合計';
 $string['Visits'] = '訪問';
 $string['importedfrom'] = 'インポート元 %s';

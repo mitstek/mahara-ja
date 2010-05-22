@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-20 07:11:08 UTC
+ * @updated    2010-05-22 20:48:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -116,10 +116,13 @@ $string['Register'] = '登録';
 $string['registrationfailedtrylater'] = 'エラーコード %s により、登録が失敗しました。後ほど再度お試しください。';
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます!';
 $string['registeryourmaharasite'] = 'あなたのMaharaサイトを登録します。';
+$string['registeryourmaharasitesummary'] = '<p>あなたは、<a href="http://mahara.org/">mahara.org</a>にあなたのMaharaサイトを登録することができます。また、登録することで、私たちは、世界のMaharaインストール状況を作成することができます。サイトを登録することで、この通知が取り除かれます。</p>
+<p>あなたがサイトを登録する場合、送信される情報を<strong><a href="%sadmin/registersite.php">サイト登録ページ</a></strong>にて、プレビューすることができます。</p>';
 $string['registeryourmaharasitedetail'] = '<p>あなたは、<a href="http://mahara.org/">mahara.org</a>にあなたのMaharaサイトを登録することができます。登録は無料です。また、登録することで、私たちは、世界のMaharaインストール状況を作成することができます。</p>
 <p>あなたは、mahara.orgに送信された情報を閲覧することができます - あなたのユーザに関する個人情報は一切送信されません。</p>
 <p>あなたが、「更新内容を週に1回送信しますか?」をチェックした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
 <p>サイトを登録した後、この通知は取り除かれます。あなたは、更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更することができます。</p>';
+$string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは、<a href="%sadmin/site/options.php">サイトオプション</a>ページにて、</p>サイト更新内容の週ごとの送信を有効または無効にすることができます。';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
 $string['closesitedetail'] = 'あなたは、管理者を除く、すべてのユーザに対して、サイトをクローズすることができます。この処理は、データベースアップグレードの処理の準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで、管理者のみログインすることができます。';
@@ -139,6 +142,7 @@ $string['groupmemberaverage'] = 'それぞれのユーザは、平均 %s のグ�
 $string['viewsperuser'] = 'ビューを作成したユーザは、それぞれ約 %s ページのビューを持っています。';
 $string['Cron'] = 'Cron';
 $string['cronnotrunning'] = 'Cronは、動作していません。Cronのセットアップに関するインストラクションは、<a href="http://wiki.mahara.org/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。';
+$string['Loggedin'] = 'ログイン';
 $string['youraverageuser'] = 'あなたのユーザ平均 ...';
 $string['statsmaxfriends'] = '平均フレンド数: %s (最もフレンドの多いユーザ: <a href="%s">%s</a> - フレンド数: %d)';
 $string['statsnofriends'] = 'フレンド数: 0';
@@ -150,6 +154,7 @@ $string['statsmaxquotaused'] = '平均利用ディスククオータ: %s (最も
 $string['groupcountsbytype'] = 'グループタイプごとのグループ数';
 $string['groupcountsbyjointype'] = 'アクセスタイプごとのグループ数';
 $string['blockcountsbytype'] = 'ポートフォリオビューで最も使用されたブロック';
+$string['userstatstabletitle'] = '日次ユーザ統計';
 $string['groupstatstabletitle'] = '最大グループ';
 $string['viewstatstabletitle'] = '人気ビュー';
 $string['adminsonly'] = '管理者のみ';

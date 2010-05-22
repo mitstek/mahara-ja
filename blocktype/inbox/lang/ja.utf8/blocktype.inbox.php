@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-15 05:32:29 UTC
+ * @updated    2010-05-22 19:39:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,9 +29,11 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'マイインボックス';
+$string['description'] = 'あなたの選択された最近のインボックスメッセージを表示します。';
 $string['messagetypes'] = '表示するメッセージタイプ';
 $string['maxitems'] = '表示するアイテムの最大数';
 $string['maxitemsdescription'] = '設定範囲: 1～100';
+$string['More'] = 'さらに';
 $string['nomessages'] = 'メッセージなし';
 
 ?>
