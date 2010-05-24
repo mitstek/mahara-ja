@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-05 21:09:56 UTC
+ * @updated    2010-05-24 06:20:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -30,11 +30,11 @@ defined('INTERNAL') || die();
 
 $string['aboutdefaultcontent'] = '<h2>Maharaとは</h2>
 
-<p>Maharaは、マシー大学 (Massey University)、オークランド工科大学 (Auckland University of Technology)、オープン・ポリテクニック・ニュージーランド (The Open Polytechnic of New Zealand)、ビクトリア大学ウェリントン (Victoria University of Wellington) を含む、ニュージーランド高等教育委員会のeラーニング共同開発ファンド (eCDF, Tertiary Education Commission\'s e-learning Collaborative Development Fund) の資金援助により、2006年に設立された共同事業の成果です。</p>
+<p>Maharaは、マシー大学 (Massey University)、オークランド工科大学 (Auckland University of Technology)、オープン・ポリテクニック・ニュージーランド (The Open Polytechnic of New Zealand)、ビクトリア大学ウェリントン (Victoria University of Wellington) を含む、ニュージーランド高等教育委員会のeラーニング共同開発ファンド (eCDF, Tertiary Education Commission&#39;s e-learning Collaborative Development Fund) の資金援助により、2006年に設立された共同事業の成果です。</p>
 
 <p>Maharaはユーザを結び、コミュニティを作成することのできる、十分な機能を有したeポートフォリオ、ウェブログ、レジュメビルダおよびソーシャルネットワーキングシステムです。Maharaは、ユーザに対して個人学習、専門教育および開発環境を構築するツールを提供します。</p>
 
-<p>Maharaとは、マオリ語 (Te Reo Māori) で、「熟考」または「思索」を意味します。教授方略の熟考なしには、技術的解決策を開発できないという信念と共に、プロジェクト協力者の献身による、ユーザを中心とした生涯学習およびアプリケーション開発に、その名称が反映されています。</p>
+<p>Maharaとは、マオリ語 (Te Reo Māori) で、「熟考」または「思索」を意味します。教授方略の熟考なしには、技術的解決策を開発できないという信念とともに、プロジェクト協力者の献身による、ユーザを中心とした生涯学習およびアプリケーション開発に、その名称が反映されています。</p>
 
 <p>Maharaは (GNU General Public License 一般公衆利用許諾契約書の下)、無償のオープンソースソフトウェアとして提供されます。下記条件を同意することにより、あなたにMaharaのコピー、使用および修正が許可されていることを意味します:</p>
 

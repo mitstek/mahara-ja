@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-22 20:48:49 UTC
+ * @updated    2010-05-24 06:44:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -141,6 +141,7 @@ $string['loggedinsince'] = '%s=本日 / %s=%s以降 / %s=全期間';
 $string['groupmemberaverage'] = 'それぞれのユーザは、平均 %s のグループに属しています。';
 $string['viewsperuser'] = 'ビューを作成したユーザは、それぞれ約 %s ページのビューを持っています。';
 $string['Cron'] = 'Cron';
+$string['runningnormally'] = '正常動作';
 $string['cronnotrunning'] = 'Cronは、動作していません。Cronのセットアップに関するインストラクションは、<a href="http://wiki.mahara.org/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。';
 $string['Loggedin'] = 'ログイン';
 $string['youraverageuser'] = 'あなたのユーザ平均 ...';
@@ -154,6 +155,11 @@ $string['statsmaxquotaused'] = '平均利用ディスククオータ: %s (最も
 $string['groupcountsbytype'] = 'グループタイプごとのグループ数';
 $string['groupcountsbyjointype'] = 'アクセスタイプごとのグループ数';
 $string['blockcountsbytype'] = 'ポートフォリオビューで最も使用されたブロック';
+$string['Rank'] = 'ランク';
+$string['rankingsupdated'] = 'ランキング更新日時: %s';
+$string['uptodate'] = '最新';
+$string['latestversionis'] = '最新バージョン: <a href="%s">%s</a>';
+$string['viewsbytype'] = 'タイプ別ビュー';
 $string['userstatstabletitle'] = '日次ユーザ統計';
 $string['groupstatstabletitle'] = '最大グループ';
 $string['viewstatstabletitle'] = '人気ビュー';
@@ -540,9 +546,13 @@ $string['unsuspendinstitutiondescription'] = 'ここであなたは、インス�
 $string['unsuspendinstitutiondescription_top'] = '<strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止解除することは、結果として、毎日、再度利用停止されることにつながります。';
 $string['unsuspendinstitutiondescription_top_instadmin'] = '利用停止されたインスティテューションのユーザは、ログインすることができません。インスティテューションの利用停止を解除するには、管理者にご連絡ください。';
 $string['bulkexport'] = 'ユーザをエクスポートする';
+$string['bulkexportempty'] = 'エクスポートに合致するユーザはありません。ユーザ名のリストを再度確認してください。';
 $string['bulkexporttitle'] = 'ユーザをLEAP2Aファイルにエクスポートする';
+$string['bulkexportdescription'] = 'エクスポートするインスティテューションを選択、<b>または</b>ユーザ名のリストを指定してください:';
 $string['bulkexportusernames'] = 'エクスポートするユーザ名';
+$string['bulkexportusernamesdescription'] = 'データとともにエクスポートされるユーザのリストです (1行あたり1ユーザ)。';
 $string['couldnotexportusers'] = '次のユーザをエクスポートすることができませんでした: %s';
+$string['exportingusername'] = 'エクスポート %s ...';
 $string['Query'] = 'クエリ';
 $string['Institution'] = 'インスティテューション';
 $string['confirm'] = '承認';

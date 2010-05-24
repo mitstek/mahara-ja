@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-14 05:44:12 UTC
+ * @updated    2010-05-24 06:54:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -78,6 +78,10 @@ $string['emailvalidation_body'] = '%s さん、こんにちは。
 
 Mahara内のあなたのユーザアカウントにメールアドレス「 %s 」が追加されました。下記リンクにアクセスして、このメールアドレスを有効化してください。
 
+%s
+
+このメールアドレスがあなたのメールアドレスであり、あなたがMaharaアカウントの作成をリクエストしていない場合、以下リンクをクリックして、メール有効化を拒否してください。
+
 %s';
 $string['validationemailwillbesent'] = 'あなたのプロファイル保存後、確認メールが送信されます。';
 $string['validationemailsent'] = '確認メールが送信されました。';
@@ -85,6 +89,7 @@ $string['emailactivation'] = 'メール有効化';
 $string['emailactivationsucceeded'] = 'メールが正常に有効化されました。';
 $string['emailalreadyactivated'] = 'メールは、すでに有効化されています。';
 $string['emailactivationfailed'] = 'メール有効化に失敗しました。';
+$string['emailactivationdeclined'] = 'メール有効化が正常に拒否されました。';
 $string['verificationlinkexpired'] = '確認リンクの有効期限が切れました。';
 $string['invalidemailaddress'] = '無効なメールアドレスです。';
 $string['unvalidatedemailalreadytaken'] = 'あなたが確認しようとしているメールアドレスは、すでに登録されています。';
