@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-24 06:54:12 UTC
+ * @updated    2010-05-24 07:01:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -80,7 +80,7 @@ Mahara内のあなたのユーザアカウントにメールアドレス「 %s �
 
 %s
 
-このメールアドレスがあなたのメールアドレスであり、あなたがMaharaアカウントの作成をリクエストしていない場合、以下リンクをクリックして、メール有効化を拒否してください。
+このメールアドレスがあなたのメールアドレスであり、あなたがMaharaのアカウント作成をリクエストしていない場合、以下のリンクをクリックして、メール有効化を拒否してください。
 
 %s';
 $string['validationemailwillbesent'] = 'あなたのプロファイル保存後、確認メールが送信されます。';
