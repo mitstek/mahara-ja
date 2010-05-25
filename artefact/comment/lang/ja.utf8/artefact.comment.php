@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-22 20:18:13 UTC
+ * @updated    2010-05-25 22:18:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -68,5 +68,37 @@ $string['reallydeletethiscomment'] = '本当にこのコメントを削除して
 $string['thiscommentisprivate'] = 'このコメントは、プライベート (非公開) です。';
 $string['typefeedback'] = 'フィードバック';
 $string['youhaverequestedpublic'] = 'あなたは、このコメントをパブリックにするよう、リクエストしました。';
+$string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が %s にコメントを投稿しました。</strong><br />%s</div>
+
+<div style="margin: 1em 0;">%s</div>
+
+<div style="font-size: smaller; border-top: 1px solid #999;">
+<p><a href="%s">このコメントにオンライン上で返信する</a></p>
+</div>';
+$string['feedbacknotificationtext'] = '%s が %s にコメントを投稿しました。
+%s
+------------------------------------------------------------------------
+
+%s
+
+------------------------------------------------------------------------
+オンライン上でコメントを閲覧および返信するには、次のリンクをクリックしてください:
+%s';
+$string['feedbackdeletedhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s のコメントが削除されました。</strong><br />%s</div>
+
+<div style="margin: 1em 0;">%s</div>
+
+<div style="font-size: smaller; border-top: 1px solid #999;">
+<p><a href="%s">%s</a></p>
+</div>';
+$string['feedbackdeletedtext'] = '%s のコメントが削除されました。
+%s
+------------------------------------------------------------------------
+
+%s
+
+------------------------------------------------------------------------
+%s をオンライン上で閲覧するには、次のリンクをクリックしてください:
+%s';
 
 ?>
