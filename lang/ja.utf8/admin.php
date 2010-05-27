@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-24 06:44:15 UTC
+ * @updated    2010-05-27 18:33:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -201,6 +201,8 @@ $string['searchplugindescription'] = '使用する検索プラグイン';
 $string['sessionlifetime'] = 'セッションライフタイム';
 $string['sessionlifetimedescription'] = '活動していないログインユーザが自動的にログアウトされる時間 (分) です。';
 $string['setsiteoptionsfailed'] = '%s オプションの設定に失敗しました。';
+$string['showonlineuserssideblock'] = 'オンラインユーザを表示する';
+$string['showonlineuserssideblockdescription'] = 'チェックした場合、ユーザに対して、サイト右側のサイドブロック内にオンラインユーザのリストが表示されます。';
 $string['showselfsearchsideblock'] = 'ポートフォリオ検索を有効にする';
 $string['showselfsearchsideblockdescription'] = 'サイトのマイポートフォリオセクション内に「マイポートフォリオを検索する」サイドブロックを表示します。';
 $string['showtagssideblock'] = 'タグクラウドを有効にする';
@@ -211,7 +213,7 @@ $string['sitelanguagedescription'] = 'サイトのデフォルト言語';
 $string['sitecountrydescription'] = 'サイトのデフォルトの国';
 $string['sitename'] = 'サイト名';
 $string['sitenamedescription'] = 'サイト名は、サイトおよびサイトから送信されるメールに表示されます。';
-$string['siteoptionspagedescription'] = 'ここでは、サイト全体にデフォルトとして適用されるグローバルオプションを設定することができます。';
+$string['siteoptionspagedescription'] = 'ここでは、サイト全体にデフォルトとして適用されるグローバルオプションを設定することができます。<br />注意:無効にされたオプションは、あなたのconfig.phpファイルによりオーバーライドされます。';
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['sitethemedescription'] = 'サイトのデフォルトテーマ';
 $string['smallviewheaders'] = 'スモールビューページヘッダ';
