@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-15 05:16:59 UTC
+ * @updated    2010-05-28 19:06:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -114,6 +114,7 @@ $string['updatewatchlistfailed'] = 'ウォッチリストの更新に失敗し�
 $string['watchlistupdated'] = 'あなたのウォッチリストが更新されました。';
 $string['editmyview'] = 'マイビューを編集する';
 $string['backtocreatemyview'] = 'マイビューの作成に戻る';
+$string['viewvisitcount'] = 'アクセス数: %s  記録: %s - %s';
 $string['friend'] = 'フレンド';
 $string['profileicon'] = 'プロファイルアイコン';
 $string['Added'] = '追加済み';
