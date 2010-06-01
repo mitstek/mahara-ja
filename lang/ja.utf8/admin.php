@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-27 18:33:04 UTC
+ * @updated    2010-06-01 17:44:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -359,6 +359,8 @@ $string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある�
 </pre>
 <p>上記、mahara-export-leap-user8-1265165366.zipおよびmahara-export-leap-user1-1266458159.zipは、import.csvとして、同一ディレクトリにあります。</p>
 <p>あなたが多くのユーザをインポートする場合、注意してください。インポート処理には、長時間を要します。</p>';
+$string['importfile'] = 'バルクエクスポートファイル';
+$string['importfilemissinglisting'] = 'バルクエクスポートファイルのファイル名が「usernames.csv」ではありません。これらのユーザをエクスポートするため、あなたは、Maharaバルクエクスポータを使用しましたか?';
 $string['importfilenotafile'] = '送信中にエラーが発生しました: ファイルを認識できませんでした。';
 $string['importfilenotreadable'] = 'LEAP2Aファイル %s を読むことができません。';
 $string['bulkleap2aimportfiledescription'] = 'あなたのサーバのZIPファイルには、エクスポートされたユーザすべて (LEAP2Aフォーマット) およびユーザ名のCSVリストが含まれます。';
@@ -370,7 +372,7 @@ $string['unabletoreadcsvfile'] = 'csvファイル %s を読むことができま
 $string['importfileisnotazipfile'] = 'インポートファイル %s は、ZIPファイルではないようです。';
 $string['unzipfailed'] = 'LEAP2Aファイル %s の解凍に失敗しました。詳細情報は、エラーログをご覧ください。';
 $string['importfailedfornusers'] = '%d / %d のユーザのインポートに失敗しました。';
-$string['invalidlistingfile'] = '無効なユーザ名リストです。これらのユーザをエクスポートするため、あなたは、Maharaバルクエクスポータを使用しましたが?';
+$string['invalidlistingfile'] = '無効なユーザ名リストです。これらのユーザをエクスポートするため、あなたは、Maharaバルクエクスポータを使用しましたか?';
 $string['adminuserspagedescription'] = '<p>あなたは、どのユーザがサイトを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。</p><p>システムには、少なくとも1名の管理者を設定する必要があります。</p>';
 $string['institutionadminuserspagedescription'] = 'あなたは、どのユーザがインスティテューションを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。';
 $string['potentialadmins'] = '潜在的な管理者';
@@ -549,6 +551,7 @@ $string['unsuspendinstitutiondescription_top'] = '<strong>注意:</strong> 有�
 $string['unsuspendinstitutiondescription_top_instadmin'] = '利用停止されたインスティテューションのユーザは、ログインすることができません。インスティテューションの利用停止を解除するには、管理者にご連絡ください。';
 $string['bulkexport'] = 'ユーザをエクスポートする';
 $string['bulkexportempty'] = 'エクスポートに合致するユーザはありません。ユーザ名のリストを再度確認してください。';
+$string['bulkexportinstitution'] = 'すべてのユーザをエクスポートするインスティテューション';
 $string['bulkexporttitle'] = 'ユーザをLEAP2Aファイルにエクスポートする';
 $string['bulkexportdescription'] = 'エクスポートするインスティテューションを選択、<b>または</b>ユーザ名のリストを指定してください:';
 $string['bulkexportusernames'] = 'エクスポートするユーザ名';
