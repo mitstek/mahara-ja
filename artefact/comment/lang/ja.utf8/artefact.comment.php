@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-25 22:18:54 UTC
+ * @updated    2010-06-04 17:51:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -50,6 +50,7 @@ $string['commentremovedbyadmin'] = '管理者によりコメントが削除さ�
 $string['commentupdated'] = 'コメントが更新されました。';
 $string['editcomment'] = 'コメントを編集する';
 $string['editcommentdescription'] = 'あなたは、新しい返信が追加されていない %d 分以内のコメントを更新することができます。この時間終了後、あなたは、コメントを削除して、新たなコメントを追加することはできます。';
+$string['entriesimportedfromleapexport'] = 'LEAPエクスポートよりインポートされた、他の場所にインポートできなかったエントリです。';
 $string['feedback'] = 'フィードバック';
 $string['feedbackattachdirname'] = 'コメントファイル';
 $string['feedbackattachdirdesc'] = 'あなたのポートフォリオのコメントに添付されたファイル';
