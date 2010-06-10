@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-19 06:14:30 UTC
+ * @updated    2010-06-10 18:31:40 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -67,10 +67,10 @@ $string['Admin'] = '管理者';
 $string['grouptype'] = 'グループタイプ';
 $string['publiclyviewablegroup'] = 'パブリックに閲覧可能なグループですか?';
 $string['publiclyviewablegroupdescription'] = '誰でも (このサイトのメンバーではない人も含めて) フォーラムを含む、このグループを閲覧できるようにしますか?';
-$string['publicvisibility'] = 'パブリックに閲覧可能';
+$string['Type'] = 'タイプ';
+$string['publiclyvisible'] = 'パブリックに閲覧可';
 $string['usersautoadded'] = 'ユーザを自動追加しますか?';
 $string['usersautoaddeddescription'] = 'このグループに対して、新しいユーザすべてを自動追加しますか?';
-$string['grouptypedescription'] = '%s > %s';
 $string['hasrequestedmembership'] = 'がこのグループのメンバーシップをリクエストしました。';
 $string['hasbeeninvitedtojoin'] = 'がこのグループへの参加を招待されました。';
 $string['groupinvitesfrom'] = '参加の招待:';
@@ -172,6 +172,13 @@ $string['groups'] = 'グループ';
 $string['notamember'] = 'あなたは、このグループのメンバーではありません。';
 $string['notmembermayjoin'] = 'このページを閲覧するには、あなたはグループ「 %s 」に参加する必要があります。';
 $string['declinerequestsuccess'] = 'グループメンバーシップのリクエストが正常に拒否されました。';
+$string['addmembers'] = 'メンバーを追加する';
+$string['invitationssent'] = '%d 通の招待状が送信されました。';
+$string['newmembersadded'] = '%d 名の新しいユーザが追加されました。';
+$string['potentialmembers'] = '潜在的なメンバー';
+$string['sendinvitations'] = '招待状を送信する';
+$string['userstobeadded'] = '追加されるユーザ';
+$string['userstobeinvited'] = '招待されるユーザ';
 $string['reasonoptional'] = '理由 (任意)';
 $string['request'] = 'リクエストする';
 $string['friendformaddsuccess'] = '%s があなたのフレンドリストに追加されました。';
@@ -276,8 +283,9 @@ $string['removefromgroup'] = 'グループから削除する';
 $string['userremoved'] = 'ユーザが削除されました。';
 $string['About'] = 'About';
 $string['Joined'] = '登録日';
-$string['instructions:invite'] = 'これは、招待のみ可能なグループです。ユーザプロファイルページからユーザを招待してください。';
-$string['instructions:controlled'] = 'これは、管理メンバーシップのグループです。ユーザプロファイルページからユーザを追加してください。';
+$string['membersdescription:invite'] = 'これは、「招待のみ」グループです。あなたは、ユーザをユーザプロファイルページより招待、または<a href="%s">一度に複数の招待状を送信することができます</a>。';
+$string['membersdescription:controlled'] = 'これは、「管理メンバーシップ」グループです。あなたは、ユーザをユーザプロファイルページより追加、または<a href="%s">一度に多くのユーザを追加することができます</a>。';
 $string['submit'] = '送信';
+$string['allowssubmissions'] = '送信を許可する';
 
 ?>

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-06-03 17:06:47 UTC
+ * @updated    2010-06-10 18:12:28 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -174,5 +174,7 @@ $string['indentflatindent'] = 'インデントなし';
 $string['indentmodedescription'] = 'このフォーラム内のトピックが、どのようにインデントされるか指定してください。';
 $string['maxindent'] = '最大インデントレベル';
 $string['maxindentdescription'] = 'トピックの最大インデントレベルを設定してください。この設定は、インデントモードが「最大インデントレベルまで拡張する」に設定された場合のみ適用されます。';
+$string['closetopics'] = '新しいトピックをクローズする';
+$string['closetopicsdescription'] = 'チェックした場合、このフォーラム内の新しいトピックがデフォルトでクローズされます。モデレータおよびグループ管理者のみ、クローズされたトピックに返信することができます。';
 
 ?>
