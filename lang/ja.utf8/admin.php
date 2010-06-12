@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-06-01 17:44:12 UTC
+ * @updated    2010-06-12 21:01:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -70,8 +70,8 @@ $string['siteoptions'] = 'サイトオプション';
 $string['siteoptionsdescription'] = '名称、言語およびテーマ等、基本的なサイトオプションを設定します。';
 $string['editsitepages'] = 'サイトページを編集する';
 $string['editsitepagesdescription'] = 'サイト内の様々なページコンテンツを編集します。';
-$string['linksandresourcesmenu'] = 'リンクおよびリソースメニュー';
-$string['linksandresourcesmenudescription'] = '「リンクおよびリソースメニュー」内のリンクおよびファイルを管理します。';
+$string['menus'] = 'メニュー';
+$string['menusdescription'] = '「リンクおよびリソースメニュー」およびフッタメニュー内のリンクおよびファイルを管理します。';
 $string['sitefiles'] = 'サイトファイル';
 $string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトビューに置くことのできるファイルをアップロードおよび管理します。';
 $string['siteviews'] = 'サイトビュー';
@@ -262,8 +262,8 @@ $string['confirmdeletemenuitem'] = '本当にこのアイテムを削除して�
 $string['deletingmenuitem'] = 'メニューアイテムの削除中';
 $string['deletefailed'] = 'メニューアイテムの削除に失敗しました。';
 $string['externallink'] = '外部リンク';
-$string['editmenus'] = 'リンクおよびリソースを編集する';
 $string['linkedto'] = 'リンク先';
+$string['linksandresourcesmenu'] = 'リンクおよびリソースメニュー';
 $string['linksandresourcesmenupagedescription'] = '「リンクおよびリソース」メニューは、ほとんどのページですべてのユーザに表示されます。あなたは、他のウェブサイトのリンクおよび%s管理ファイル%sセクションでアップロードしたファイルのリンクを追加することができます。';
 $string['loadingmenuitems'] = 'メニューアイテムのロード中';
 $string['loadmenuitemsfailed'] = 'メニューアイテムのロードに失敗しました。';
@@ -277,6 +277,9 @@ $string['nositefiles'] = '利用できるサイトファイルは、ありませ
 $string['public'] = 'パブリック';
 $string['savingmenuitem'] = 'メニューアイテムの保存中';
 $string['type'] = 'タイプ';
+$string['footermenu'] = 'フッタメニュー';
+$string['footermenudescription'] = 'フッタメニュー内のリンクを有効または無効にします。';
+$string['footerupdated'] = 'フッタが更新されました。';
 $string['adminfilespagedescription'] = 'あなたは、ここで%s「リンクおよびリソース」メニュー%sに含むことのできるファイルをアップロードすることができます。パブリックディレクトリのファイルはパブリックの「リンクおよびリソース」メニューに追加できるのに対して、ホームディレクトリのファイルはログイン後の「リンクおよびリソース」メニューに追加することができます。';
 $string['networkingextensionsmissing'] = '申し訳ございません、インストール済みPHPでいくつかの必須拡張モジュールが不足しているため、あなたはMaharaネットワーキングを設定できません。';
 $string['publickey'] = '公開鍵';
