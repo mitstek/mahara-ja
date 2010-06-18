@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-06-12 21:01:46 UTC
+ * @updated    2010-06-18 06:50:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -156,6 +156,7 @@ $string['groupcountsbytype'] = 'グループタイプごとのグループ数';
 $string['groupcountsbyjointype'] = 'アクセスタイプごとのグループ数';
 $string['blockcountsbytype'] = 'ポートフォリオビューで最も使用されたブロック';
 $string['Rank'] = 'ランク';
+$string['registrationrankdescription'] = '更新情報を毎週mahara.orgに送信している他の登録サイトすべてと比較した、このサイトのランクです。';
 $string['rankingsupdated'] = 'ランキング更新日時: %s';
 $string['uptodate'] = '最新';
 $string['latestversionis'] = '最新バージョン: <a href="%s">%s</a>';
@@ -194,6 +195,8 @@ $string['none'] = 'なし';
 $string['country'] = '国';
 $string['pathtoclam'] = 'clamのパス';
 $string['pathtoclamdescription'] = 'clamscanまたはclamdscanへのファイルシステムパスです。';
+$string['registerterms'] = '登録同意';
+$string['registertermsdescription'] = 'ユーザ登録の前、ユーザに使用条件への同意を強制します。このオプションを有効にする前、あなたのサイト使用条件ページを編集する必要があります。';
 $string['remoteavatars'] = 'リモートアバタを表示する';
 $string['remoteavatarsdescription'] = 'チェックした場合、ユーザのデフォルトプロファイルアイコンに<a href="http://www.gravatar.com">Gravatar</a>サービスが利用されます。';
 $string['searchplugin'] = '検索プラグイン';
@@ -262,6 +265,7 @@ $string['confirmdeletemenuitem'] = '本当にこのアイテムを削除して�
 $string['deletingmenuitem'] = 'メニューアイテムの削除中';
 $string['deletefailed'] = 'メニューアイテムの削除に失敗しました。';
 $string['externallink'] = '外部リンク';
+$string['editlinksandresources'] = '「リンクおよびリソース」を編集する';
 $string['linkedto'] = 'リンク先';
 $string['linksandresourcesmenu'] = 'リンクおよびリソースメニュー';
 $string['linksandresourcesmenupagedescription'] = '「リンクおよびリソース」メニューは、ほとんどのページですべてのユーザに表示されます。あなたは、他のウェブサイトのリンクおよび%s管理ファイル%sセクションでアップロードしたファイルのリンクを追加することができます。';
