@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-10-27 01:12:50 UTC
+ * @updated    2010-06-21 15:02:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -30,7 +30,6 @@ defined('INTERNAL') || die();
 
 $string['typemaharamessage'] = 'システムメッセージ';
 $string['typeusermessage'] = '他のユーザからのメッセージ';
-$string['typefeedback'] = 'フィードバック';
 $string['typewatchlist'] = 'ウォッチリスト';
 $string['typeviewaccess'] = '新しいビューアクセス';
 $string['typecontactus'] = 'お問い合わせ';
@@ -69,9 +68,8 @@ $string['newviewsubject'] = '新しいビューが作成されました。';
 $string['newviewmessage'] = '%s が新しいビュー「 %s 」を作成しました。';
 $string['newcontactusfrom'] = '新しいお問い合わせ:';
 $string['newcontactus'] = '新しいお問い合わせ';
-$string['newfeedbackonview'] = 'ビューの新しいフィードバック';
-$string['newfeedbackonartefact'] = 'アーティファクトの新しいフィードバック';
 $string['newviewaccessmessage'] = 'あなたは、ビュー「 %s 」のアクセスリストに %s によって追加されました。';
+$string['newviewaccessmessagenoowner'] = 'あなたは、ビュー「 %s 」のアクセスリストに追加されました。';
 $string['newviewaccesssubject'] = '新しいビューアクセス';
 $string['viewmodified'] = 'がビューを変更しました。';
 $string['ongroup'] = 'グループ:';
