@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-28 19:06:19 UTC
+ * @updated    2010-06-24 16:21:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -49,6 +49,7 @@ $string['ownerformatdescription'] = '他のユーザがあなたのビューを�
 $string['profileviewtitle'] = 'プロファイルビュー';
 $string['dashboardviewtitle'] = 'ダッシュボードビュー';
 $string['editprofileview'] = 'プロファイルビューを編集する';
+$string['grouphomepageviewtitle'] = 'グループホームページビュー';
 $string['artefacts'] = 'アーティファクト';
 $string['myviews'] = 'マイビュー';
 $string['groupviews'] = 'グループビュー';
@@ -256,5 +257,7 @@ $string['blockcopypermissiondesc'] = 'このビューを他のユーザがコピ
 $string['dashboard'] = 'ダッシュボード';
 $string['profile'] = 'プロファイル';
 $string['portfolio'] = 'ポートフォリオ';
+$string['grouphomepage'] = 'グループホームページ';
+$string['grouphomepagedescription'] = 'グループホームページビューは、このグループのAboutタブに表示されるコンテンツです。';
 
 ?>
