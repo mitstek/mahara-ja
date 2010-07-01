@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-06-04 17:51:12 UTC
+ * @updated    2010-07-01 05:04:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -33,7 +33,9 @@ $string['Comment'] = 'コメント';
 $string['Comments'] = 'コメント';
 $string['comment'] = 'コメント';
 $string['comments'] = 'コメント';
+$string['Allow'] = '許可';
 $string['allowcomments'] = 'コメントを許可する';
+$string['approvalrequired'] = 'コメントは、モデレートされています。あなたがこのコメントをパブリックにした場合、オーナーにより承認されるまで、他のユーザに表示されることはありません。';
 $string['attachfile'] = '添付ファイル';
 $string['Attachments'] = '添付ファイル';
 $string['cantedithasreplies'] = 'あなたは、最新のコメントのみ編集することができます。';
@@ -63,6 +65,9 @@ $string['makepublicrequestsubject'] = 'リクエスト: プライベートコメ
 $string['makepublicrequestbyauthormessage'] = 'あなたがコメントをパブリックにするよう、%s がリクエストしました。';
 $string['makepublicrequestbyownermessage'] = 'あなたがあなたのコメントをパブリックにするよう、%s がリクエストしました。';
 $string['makepublicrequestsent'] = 'コメントをパブリックにするリクエストメッセージが %s に送信されました。';
+$string['Moderate'] = 'モデレート';
+$string['moderatecomments'] = 'コメントをモデレートする';
+$string['moderatecommentsdescription'] = 'あなたに承認されるまで、コメントはプライベートのままにされます。';
 $string['newfeedbacknotificationsubject'] = '%s の新しいフィードバック';
 $string['placefeedback'] = 'フィードバックを投稿する';
 $string['reallydeletethiscomment'] = '本当にこのコメントを削除してもよろしいですか?';
