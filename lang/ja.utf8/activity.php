@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-11-16 21:12:17 UTC
+ * @updated    2010-07-02 14:56:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -72,6 +72,7 @@ $string['newcontactus'] = '新しいお問い合わせ';
 $string['newfeedbackonview'] = 'ビューの新しいフィードバック';
 $string['newfeedbackonartefact'] = 'アーティファクトの新しいフィードバック';
 $string['newviewaccessmessage'] = 'あなたは、ビュー「 %s 」のアクセスリストに %s によって追加されました。';
+$string['newviewaccessmessagenoowner'] = 'あなたは、ビュー「 %s 」のアクセスリストに追加されました。';
 $string['newviewaccesssubject'] = '新しいビューアクセス';
 $string['viewmodified'] = 'がビューを変更しました。';
 $string['ongroup'] = 'グループ:';

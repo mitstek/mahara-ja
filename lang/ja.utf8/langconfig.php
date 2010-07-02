@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-11-16 21:14:23 UTC
+ * @updated    2010-07-02 14:57:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -43,5 +43,6 @@ $string['strftimetime'] = '%%H:%%M';
 $string['strfdaymonthyearshort'] = '%%Y/%%m/%%d';
 $string['strftimew3cdatetime'] = '%%Y-%%m-%%dT%%T%%z';
 $string['thislanguage'] = '日本語';
+$string['locales'] = 'ja.JP.utf8';
 
 ?>
