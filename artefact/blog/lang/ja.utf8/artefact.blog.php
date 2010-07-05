@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-14 00:50:11 UTC
+ * @updated    2010-07-05 04:43:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -130,5 +130,6 @@ $string['youhaveoneblog'] = 'あなたには、1 件のブログがあります�
 $string['youhaveblogs'] = 'あなたには、%s 件のブログがあります。';
 $string['feedsnotavailable'] = 'このアーティファクトタイプでは、フィードは利用できません。';
 $string['feedrights'] = '著作権 %s';
+$string['enablemultipleblogstext'] = 'あなたには、1件のブログがあります。あなたが2件目のブログを作成したい場合、<a href="%saccount/">アカウント設定</a>ページにて、複数ブログオプションを有効にしてください。';
 
 ?>

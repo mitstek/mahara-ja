@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-06-24 16:21:16 UTC
+ * @updated    2010-07-05 04:40:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -154,6 +154,8 @@ $string['success.addcolumn'] = 'カラムが正常に追加されました。';
 $string['err.addcolumn'] = '新しいカラムの追加に失敗しました。';
 $string['success.removecolumn'] = 'カラムが正常に削除されました。';
 $string['err.removecolumn'] = 'カラムの削除に失敗しました。';
+$string['success.changetheme'] = 'テーマが正常に更新されました。';
+$string['err.changetheme'] = 'テーマを更新できませんでした。';
 $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除してもよろしいですか?';
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
 $string['blocksintructionnoajax'] = 'あなたのビューに追加するブロックを選択してください。あなたはブロックタイトルバーの矢印を使って、ブロックの配置を変更することができます。';
