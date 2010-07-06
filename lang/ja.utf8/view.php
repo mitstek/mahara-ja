@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-07-05 04:40:46 UTC
+ * @updated    2010-07-06 08:23:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -135,6 +135,8 @@ $string['empty_block'] = 'ここに配置するアーティファクトを左側
 $string['viewinformationsaved'] = 'ビュー情報が正常に保存されました。';
 $string['canteditdontown'] = 'あなたの所有ではないため、このビューを編集できません。';
 $string['canteditsubmitted'] = '%s による評価を目的として送信されたため、あなたはこのビューを編集することはできません。あなたのビューをチューターがリリースするまで、お待ちください。';
+$string['Submitted'] = '送信済み';
+$string['submittedforassessment'] = '評価のため送信済み';
 $string['addtutors'] = 'チューターを追加する';
 $string['viewcreatedsuccessfully'] = 'ビューが正常に作成されました。';
 $string['viewaccesseditedsuccessfully'] = 'ビューアクセスが正常に保存されました。';
