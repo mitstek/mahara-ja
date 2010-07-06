@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-07-05 04:43:32 UTC
+ * @updated    2010-07-06 07:38:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -82,11 +82,13 @@ $string['newattachmentsexceedquota'] = 'この記事にアップロードした�
 $string['newblog'] = '新しいブログ';
 $string['newblogpost'] = 'ブログ「 %s 」の新しいブログ記事';
 $string['newerposts'] = '新しい記事';
-$string['nopostsaddone'] = 'まだ記事はありません。%s記事を追加してください%s!';
+$string['nopostsyet'] = 'まだ記事はありません';
+$string['addone'] = '記事を追加してください!';
 $string['noimageshavebeenattachedtothispost'] = 'この記事にイメージは追加されませんでした。イメージを挿入できるようにするには、事前にイメージをアップロードするか、添付してください。';
 $string['nofilesattachedtothispost'] = '添付ファイルなし';
 $string['noresults'] = 'ブログ投稿はありません。';
 $string['olderposts'] = '古い記事';
+$string['post'] = '投稿';
 $string['postbody'] = '本文';
 $string['postedon'] = '投稿日時';
 $string['postedbyon'] = '投稿者: %s  投稿日時: %s';
