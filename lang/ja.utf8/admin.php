@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-06-18 06:50:47 UTC
+ * @updated    2010-07-08 03:21:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -64,6 +64,9 @@ $string['dbcollationmismatch'] = 'あなたのデータベースカラムは、�
 $string['adminhome'] = '管理ホーム';
 $string['configsite'] = 'サイト設定';
 $string['configusers'] = 'ユーザ管理';
+$string['groups'] = 'グループ';
+$string['managegroups'] = 'グループ管理';
+$string['Extensions'] = '拡張機能';
 $string['configextensions'] = '拡張機能管理';
 $string['manageinstitutions'] = 'インスティテューション管理';
 $string['siteoptions'] = 'サイトオプション';
@@ -93,6 +96,9 @@ $string['uploadcsvdescription'] = '新しいユーザを含んだCSVファイル
 $string['usersearch'] = 'ユーザ検索';
 $string['usersearchdescription'] = 'すべてのユーザを検索して、検索されたユーザに対して管理行為を実施します。';
 $string['usersearchinstructions'] = 'ユーザの姓名のイニシャルをクリックするか、検索ボックスに名前を入力することにより、あなたはユーザを検索することができます。あなたがメールアドレスを検索したい場合、検索ボックスにメールアドレスを入力することもできます。';
+$string['administergroups'] = 'グループを管理する';
+$string['administergroupsdescription'] = 'グループ管理者を割り当ておよびグループを削除します。';
+$string['groupcategoriesdescription'] = 'グループカテゴリを追加および編集します。';
 $string['institutionmembersdescription'] = 'ユーザとインスティテューションを関連付けます。';
 $string['institutionstaffdescription'] = 'スタッフパーミッションをユーザに割り当てます。';
 $string['institutionadminsdescription'] = 'インスティテューション管理者アクセス権を割り当てます。';
@@ -107,6 +113,15 @@ $string['htmlfiltersdescription'] = 'HTML Purifierの新しいフィルタを有
 $string['newfiltersdescription'] = 'あなたが新しいHTMLフィルタをダウンロードした場合、%s フォルダでファイルを解凍した後、下記のボタンをクリックすることで、インストールすることができます。';
 $string['filtersinstalled'] = 'フィルタがインストールされました。';
 $string['nofiltersinstalled'] = 'HTMLフィルタは、インストールされませんでした。';
+$string['groupcategories'] = 'グループカテゴリ';
+$string['allowgroupcategories'] = 'グループカテゴリを有効にする';
+$string['enablegroupcategories'] = 'グループカテゴリを有効にする';
+$string['addcategories'] = 'カテゴリを追加する';
+$string['allowgroupcategoriesdescription'] = 'チェックした場合、管理者は、ユーザがグループに割り当てることのできるカテゴリを作成することができます。';
+$string['groupoptionsset'] = 'グループオプションを有効にする';
+$string['groupcategorydeleted'] = 'カテゴリが削除されました。';
+$string['confirmdeletecategory'] = '本当にこのカテゴリを削除してもよろしいですか?';
+$string['groupcategoriespagedescription'] = 'グループ作成時、ここで一覧表示されているグループを割り当てることができます。また、グループ検索時、これらのグループ名を使用して、グループをフィルタすることができます。';
 $string['Field'] = 'フィールド';
 $string['Value'] = '値';
 $string['datathatwillbesent'] = '送信されるデータ';
@@ -584,10 +599,19 @@ $string['Simple'] = 'シンプル';
 $string['Advanced'] = '高度';
 $string['sitesettingslegend'] = 'サイト設定';
 $string['usersettingslegend'] = 'ユーザ設定';
+$string['groupsettingslegend'] = 'グループ設定';
 $string['searchsettingslegend'] = '検索設定';
 $string['institutionsettingslegend'] = 'インスティテューション設定';
 $string['accountsettingslegend'] = 'アカウント設定';
 $string['securitysettingslegend'] = 'セキュリティ設定';
 $string['generalsettingslegend'] = '一般設定';
+$string['groupname'] = 'グループ名';
+$string['groupmembers'] = 'メンバー';
+$string['groupadmins'] = '管理者';
+$string['grouptype'] = 'グループタイプ';
+$string['groupvisible'] = '可視性';
+$string['groupmanage'] = '管理';
+$string['groupdelete'] = '削除';
+$string['managegroupdescription'] = 'このグループの管理者を割り当ておよび割り当て解除するため、このフォームを使用してください。';
 
 ?>

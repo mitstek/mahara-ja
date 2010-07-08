@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-06-24 16:19:54 UTC
+ * @updated    2010-07-08 03:24:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -71,6 +71,11 @@ $string['Type'] = 'タイプ';
 $string['publiclyvisible'] = 'パブリックに閲覧可';
 $string['usersautoadded'] = 'ユーザを自動追加しますか?';
 $string['usersautoaddeddescription'] = 'このグループに対して、新しいユーザすべてを自動追加しますか?';
+$string['groupcategory'] = 'グループカテゴリ';
+$string['allcategories'] = 'すべてのカテゴリ';
+$string['groupoptionsset'] = 'グループオプションが更新されました。';
+$string['nocategoryselected'] = 'カテゴリ未選択';
+$string['categoryunassigned'] = 'カテゴリ未割り当て';
 $string['hasrequestedmembership'] = 'がこのグループのメンバーシップをリクエストしました。';
 $string['hasbeeninvitedtojoin'] = 'がこのグループへの参加を招待されました。';
 $string['groupinvitesfrom'] = '参加の招待:';
