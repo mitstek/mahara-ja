@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-07-08 03:21:09 UTC
+ * @updated    2010-07-08 03:29:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -114,7 +114,7 @@ $string['newfiltersdescription'] = 'あなたが新しいHTMLフィルタをダ�
 $string['filtersinstalled'] = 'フィルタがインストールされました。';
 $string['nofiltersinstalled'] = 'HTMLフィルタは、インストールされませんでした。';
 $string['groupcategories'] = 'グループカテゴリ';
-$string['allowgroupcategories'] = 'グループカテゴリを有効にする';
+$string['allowgroupcategories'] = 'グループカテゴリを許可する';
 $string['enablegroupcategories'] = 'グループカテゴリを有効にする';
 $string['addcategories'] = 'カテゴリを追加する';
 $string['allowgroupcategoriesdescription'] = 'チェックした場合、管理者は、ユーザがグループに割り当てることのできるカテゴリを作成することができます。';
@@ -612,6 +612,6 @@ $string['grouptype'] = 'グループタイプ';
 $string['groupvisible'] = '可視性';
 $string['groupmanage'] = '管理';
 $string['groupdelete'] = '削除';
-$string['managegroupdescription'] = 'このグループの管理者を割り当ておよび割り当て解除するため、このフォームを使用してください。';
+$string['managegroupdescription'] = 'グループの管理者を割り当ておよび割り当て解除するため、このフォームを使用してください。';
 
 ?>
