@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-07-08 03:29:52 UTC
+ * @updated    2010-07-08 03:40:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -122,6 +122,10 @@ $string['groupoptionsset'] = 'グループオプションを有効にする';
 $string['groupcategorydeleted'] = 'カテゴリが削除されました。';
 $string['confirmdeletecategory'] = '本当にこのカテゴリを削除してもよろしいですか?';
 $string['groupcategoriespagedescription'] = 'グループ作成時、ここで一覧表示されているグループを割り当てることができます。また、グループ検索時、これらのグループ名を使用して、グループをフィルタすることができます。';
+$string['groupadminsforgroup'] = '「 %s 」のグループ管理者';
+$string['potentialadmins'] = '潜在的な管理者';
+$string['currentadmins'] = '現在の管理者';
+$string['groupadminsupdated'] = 'グループ管理者が更新されました。';
 $string['Field'] = 'フィールド';
 $string['Value'] = '値';
 $string['datathatwillbesent'] = '送信されるデータ';
@@ -397,8 +401,6 @@ $string['importfailedfornusers'] = '%d / %d のユーザのインポートに失
 $string['invalidlistingfile'] = '無効なユーザ名リストです。これらのユーザをエクスポートするため、あなたは、Maharaバルクエクスポータを使用しましたか?';
 $string['adminuserspagedescription'] = '<p>あなたは、どのユーザがサイトを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。</p><p>システムには、少なくとも1名の管理者を設定する必要があります。</p>';
 $string['institutionadminuserspagedescription'] = 'あなたは、どのユーザがインスティテューションを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。';
-$string['potentialadmins'] = '潜在的な管理者';
-$string['currentadmins'] = '現在の管理者';
 $string['adminusersupdated'] = '管理ユーザが更新されました。';
 $string['staffuserspagedescription'] = 'あなたは、どのユーザがサイトのスタッフになるか、選択することができます。現在のスタッフは右側に表示され、潜在的なスタッフは左側に表示されます。';
 $string['institutionstaffuserspagedescription'] = 'あなたは、どのユーザがあなたのインスティテューションのスタッフになるか、選択することができます。現在のスタッフは右側に表示され、潜在的なスタッフは左側に表示されます。';
