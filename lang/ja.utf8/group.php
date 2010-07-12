@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-07-08 15:38:51 UTC
+ * @updated    2010-07-12 04:28:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -81,8 +81,8 @@ $string['hasrequestedmembership'] = 'がこのグループのメンバーシッ�
 $string['hasbeeninvitedtojoin'] = 'がこのグループへの参加を招待されました。';
 $string['groupinvitesfrom'] = '参加の招待:';
 $string['requestedmembershipin'] = 'リクエストされたメンバーシップ:';
-$string['controlledmembership'] = '管理グループメンバーシップ';
-$string['invitemembership'] = '招待のみメンバーシップ';
+$string['editgroupmembership'] = 'グループメンバーシップを編集する';
+$string['editmembershipforuser'] = '%s のグループメンバーシップを編集する';
 $string['changedgroupmembership'] = 'グループメンバーシップが正常に更新されました。';
 $string['changedgroupmembershipsubject'] = 'あなたのグループメンバーシップが変更されました。';
 $string['addedtogroupsmessage'] = '%s があなたをグループに追加しました:
