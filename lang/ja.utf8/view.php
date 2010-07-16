@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-07-06 08:23:58 UTC
+ * @updated    2010-07-16 17:12:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -111,6 +111,10 @@ $string['notifysiteadministrator'] = 'サイト管理者に通知する';
 $string['print'] = 'プリント';
 $string['reportobjectionablematerial'] = '好ましくない内容を報告する';
 $string['reportsent'] = 'あなたの報告が送信されました。';
+$string['viewobjectionableunmark'] = 'ビュー「 %s 」、またはその中に好ましくないコンテンツが含まれていると報告されています。もはや好ましくないコンテンツを含んでいない場合、あなたはボタンをクリックして、この注意を取り除いた上で、他の管理者に通知することができます。';
+$string['notobjectionable'] = '好ましい';
+$string['viewunobjectionablesubject'] = 'ビュー %s が好ましいと %s によってマークされました。';
+$string['viewunobjectionablebody'] = '% (%s) が %s によって確認され、もはや好ましくないコンテンツは含まれていないとマークされました。';
 $string['updatewatchlistfailed'] = 'ウォッチリストの更新に失敗しました。';
 $string['watchlistupdated'] = 'あなたのウォッチリストが更新されました。';
 $string['editmyview'] = 'マイビューを編集する';
