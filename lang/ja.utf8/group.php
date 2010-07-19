@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-07-12 04:28:14 UTC
+ * @updated    2010-07-19 23:51:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -81,6 +81,8 @@ $string['hasrequestedmembership'] = 'がこのグループのメンバーシッ�
 $string['hasbeeninvitedtojoin'] = 'がこのグループへの参加を招待されました。';
 $string['groupinvitesfrom'] = '参加の招待:';
 $string['requestedmembershipin'] = 'リクエストされたメンバーシップ:';
+$string['viewnotify'] = 'ビュー通知';
+$string['viewnotifydescription'] = 'チェックした場合、グループメンバーが自分のビューをグループ内で共有設定することで、すべてのグループメンバーに通知が送信されます。この設定を有効にした場合、規模の大きなグループでは、多くの通知が発生する可能性があります。';
 $string['editgroupmembership'] = 'グループメンバーシップを編集する';
 $string['editmembershipforuser'] = '%s のグループメンバーシップを編集する';
 $string['changedgroupmembership'] = 'グループメンバーシップが正常に更新されました。';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-07-08 15:45:08 UTC
+ * @updated    2010-07-19 23:42:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -43,10 +43,12 @@ $string['registerglobals'] = 'あなたは危険なPHP設定、register_globals�
 $string['magicquotesgpc'] = 'あなたは危険なPHP設定、magic_quotes_gpcをonにしています。Maharaは、この問題の対処を試みますが、設定の修正を強くお勧めします。';
 $string['magicquotesruntime'] = 'あなたは危険なPHP設定、magic_quotes_runtimeをonにしています。Maharaは、この問題の対処を試みますが、設定の修正を強くお勧めします。';
 $string['magicquotessybase'] = 'あなたは危険なPHP設定、magic_quotes_sybaseをonにしています。Maharaは、この問題の対処を試みますが、設定の修正を強くお勧めします。';
-$string['mimemagicnotloaded'] = 'あなたのサーバには、ファイルタイプの検出に問題があります。Fileinfo拡張モジュール (PHP 5.3+用) またはmime_magic拡張モジュール (古いPHPバージョン用) をインストールしてください。';
 $string['safemodeon'] = 'あなたのサーバは、セーフモードで動作しているようです。Maharaは、セーフモードでの運用をサポートしていません。php.iniファイルまたはサイトのApache設定でセーフモードを無効にしてください。
 
 あなたが共有ホスティングサービスを利用している場合、ホスティングプロバイダに依頼する以外、safe_modeを無効にするためにできることは多くありません。別のホスティングサービスへの変更を考えても良いでしょう。';
+$string['apcstatoff'] = 'あなたのサーバは、apc.stat=0によりAPCを動作しているようです。Maharaは、この設定をサポートしていません。php.iniファイルでapc.stat=1に設定してください。
+
+あなたが共有ホスティングサービスを利用している場合、ホスティングプロバイダに依頼する以外、apc.statを有効にするためにできることは多くありません。別のホスティングサービスへの変更を考えても良いでしょう。';
 $string['datarootinsidedocroot'] = 'あなたはドキュメントルート内にデータルートを設定したようです。これには多大なセキュリティ上の問題があり、誰でも (他の人のセッションをハイジャックするため) 直接セッションデータをリクエストすることができます。また、他の人がアップロードした、アクセスを許可されていないファイルにアクセスすることができます。データルートをドキュメントルートの外に設定してください。';
 $string['datarootnotwritable'] = 'あなたが定義したルートディレクトリ「 %s 」に書込み権がありません。これは、セッションデータ、ユーザファイル、その他アップロードする必要のあるファイルをアップロードできないことを意味します。ディレクトリが存在しているかどうか確認してください。ディレクトリが存在している場合、ディレクトリにウェブサーバユーザの所有権を与えてください。';
 $string['couldnotmakedatadirectories'] = '何らかの理由で、いくつかのコアデータディレクトリを作成することができませんでした。前もって、Maharaがデータディレクトリの書込み権を確認しましたので、このエラーが発生することはないと考えられます。データルートディレクトリのパーミッションを確認してください。';
