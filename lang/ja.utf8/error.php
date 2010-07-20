@@ -54,7 +54,7 @@ $string['dbconnfailed'] = 'Maharaがアプリケーションデータベース�
 * あなたが管理者の場合、あなたのデータベースの設定およびデータベースが利用可能かどうか確認してください。
 
 エラー内容は:';
-$string['dbnotutf8'] = 'あなたは、UTF-8データベースを使用していません。Maharaでは、すべてのデータを内部にUTF-8で保存します。あなたのデータベースをドロップして、UTF-8エンコーディングを使用するよう、再作成してください。';
+$string['dbnotutf8'] = 'あなたはUTF-8データベースを使用していません。Maharaでは、すべてのデータを内部にUTF-8で保存します。あなたのデータベースをドロップして、UTF-8エンコーディングを使用するよう、再作成してください。';
 $string['dbversioncheckfailed'] = 'あなたのデータベースサーバのバージョンは、Maharaを正常に動作させるのに十分な新しいバージョンではありません。あなたのサーバは、%s %s ですが、Maharaは少なくともバージョン %s を必要とします。';
 $string['blocktypenametaken'] = 'ブロックタイプ %s は、すでに他のプラグイン (%s) に取得されています。';
 $string['artefacttypenametaken'] = 'アーティファクトタイプ %s は、すでに他のプラグイン (%s) に取得されています。';
@@ -67,7 +67,7 @@ $string['versionphpmissing'] = 'プラグイン %s %s のversion.phpがありま
 $string['blocktypeprovidedbyartefactnotinstallable'] = 'これは、アーティファクトプラグイン %s の一部としてインストールされます。';
 $string['blockconfigdatacalledfromset'] = 'configデータを直接設定しないでください。代わりにPluginBlocktype::instance_config_saveを使用してください。';
 $string['invaliddirection'] = '無効な移動先: %s';
-$string['onlyoneprofileviewallowed'] = 'あなたは、1件のプロファイルビューのみ許可されています。';
+$string['onlyoneprofileviewallowed'] = 'あなたは1件のプロファイルビューのみ許可されています。';
 $string['unrecoverableerror'] = '回復不能なエラーが発生しました。恐らく、あなたはシステムバグに遭遇したと思われます。';
 $string['unrecoverableerrortitle'] = '%s - サイト利用不可';
 $string['parameterexception'] = '必須パラメータが指定されていません。';
@@ -76,11 +76,11 @@ $string['notfoundexception'] = 'あなたが探しているページは見つか
 $string['accessdenied'] = 'アクセスが拒否されました。';
 $string['accessdeniedexception'] = 'あなたには、このページを閲覧するアクセス権限がありません。';
 $string['viewnotfoundexceptiontitle'] = 'ビューが見つかりませんでした。';
-$string['viewnotfoundexceptionmessage'] = 'あなたは、存在しないビューにアクセスを試みました!';
+$string['viewnotfoundexceptionmessage'] = 'あなたは存在しないビューにアクセスを試みました!';
 $string['viewnotfound'] = 'ID %s のビューは見つかりませんでした。';
 $string['artefactnotfoundmaybedeleted'] = 'ID %s のアーティファクトは見つかりませんでした (もしかして、削除されましたか?)。';
 $string['artefactnotfound'] = 'ID %s のアーティファクトは見つかりませんでした。';
-$string['notartefactowner'] = 'あなたは、このアーティファクトを所有していません。';
+$string['notartefactowner'] = 'あなたはこのアーティファクトを所有していません。';
 $string['blockinstancednotfound'] = 'ID %s のブロックインスタンスは見つかりませんでした。';
 $string['interactioninstancenotfound'] = 'ID %s の活動インスタンスは見つかりませんでした。';
 $string['invalidviewaction'] = '無効なビューコントロール: %s';
