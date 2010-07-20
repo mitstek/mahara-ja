@@ -72,11 +72,11 @@ $string['reason'] = '理由';
 $string['select'] = '選択';
 $string['tags'] = 'タグ';
 $string['tagsdesc'] = 'このアイテムに関して、カンマで区切ったタグを入力してください。';
-$string['tagsdescprofile'] = 'このアイテムに関して、カンマで区切ったタグを入力してください。「プロファイル」タグが付けられたアイテムは、あなたのサイドバーに表示されます。';
+$string['tagsdescprofile'] = 'このアイテムに関して、カンマで区切ったタグを入力してください。「プロファイル」タグが付けられたアイテムはあなたのサイドバーに表示されます。';
 $string['youhavenottaggedanythingyet'] = 'あなたはまたタグ付けしていません。';
 $string['selfsearch'] = 'マイポートフォリオを検索する';
 $string['quota'] = 'クオータ';
-$string['quotausage'] = 'あなたの利用クオータは、<span id="quota_used">%s</span> / <span id="quota_total">%s</span> です。';
+$string['quotausage'] = 'あなたの利用クオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span> です。';
 $string['updatefailed'] = 'アップデートに失敗しました。';
 $string['strftimenotspecified'] = '未設定';
 $string['invitedgroup'] = '招待されたグループ';
@@ -95,7 +95,7 @@ $string['accountexpired'] = '申し訳ございません、あなたのアカウ
 $string['accountcreated'] = '%s: 新しいアカウント';
 $string['accountcreatedtext'] = '%s さん
 
-あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は、下記のとおりです:
+あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は下記のとおりです:
 
 ユーザ名: %s
 パスワード: %s
@@ -105,7 +105,7 @@ $string['accountcreatedtext'] = '%s さん
 %s サイト管理者';
 $string['accountcreatedchangepasswordtext'] = '%s さん
 
-あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は、下記のとおりです:
+あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は下記のとおりです:
 
 ユーザ名: %s
 パスワード: %s
@@ -117,7 +117,7 @@ $string['accountcreatedchangepasswordtext'] = '%s さん
 %s サイト管理者';
 $string['accountcreatedhtml'] = '<p>%s さん</p>
 
-<p>あなたの新しいアカウントが <a href="">%s</a> に作成されました。あなたの詳細情報は、下記のとおりです:</p>
+<p>あなたの新しいアカウントが <a href="">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>
 
 <ul>
 <li><strong>ユーザ名:</strong> %s</li>
@@ -129,7 +129,7 @@ $string['accountcreatedhtml'] = '<p>%s さん</p>
 <p>%s サイト管理者</p>';
 $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 
-<p>あなたの新しいアカウントが <a href="">%s</a> に作成されました。あなたの詳細情報は、下記のとおりです:</p>
+<p>あなたの新しいアカウントが <a href="">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>
 
 <ul>
 <li><strong>ユーザ名:</strong> %s</li>
@@ -146,9 +146,9 @@ $string['accountexpirywarningtext'] = '%s さん
 
 あなたの %s のアカウントは %s で終了します。
 
-エクスポートツールを使用して、あなたのポートフォリオのコンテンツを保存することをお勧めします。この機能の使用に関するインストラクションは、ユーザガイドに記載されています。
+エクスポートツールを使用して、あなたのポートフォリオのコンテンツを保存することをお勧めします。この機能の使用に関するインストラクションはユーザガイドに記載されています。
 
-あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問は、お気軽にお問い合わせください:
+あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問はお気軽にお問い合わせください:
 
 %s
 
@@ -157,9 +157,9 @@ $string['accountexpirywarninghtml'] = '<p>%s さん</p>
 
 <p>あなたの %s のアカウントは %s で終了します。</p>
 
-<p>エクスポートツールを使用して、あなたのポートフォリオのコンテンツを保存することをお勧めします。この機能の使用に関するインストラクションは、ユーザガイドに記載されています。</p>
+<p>エクスポートツールを使用して、あなたのポートフォリオのコンテンツを保存することをお勧めします。この機能の使用に関するインストラクションはユーザガイドに記載されています。</p>
 
-<p>あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問は、<a href="%s">お気軽にお問い合わせください</a>:</P>
+<p>あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>:</P>
 
 <p>%s サイト管理者</p>';
 $string['institutionexpirywarning'] = 'インスティテューションメンバーシップ終了通知';
@@ -167,7 +167,7 @@ $string['institutionexpirywarningtext'] = '%s さん
 
 あなたの %s のメンバーシップ %s は %s で終了します。
 
-あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は、お気軽にお問い合わせください:
+あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽にお問い合わせください:
 
 %s
 
@@ -176,14 +176,14 @@ $string['institutionexpirywarninghtml'] = '<p>%s さん</p>
 
 <p>あなたの %s のメンバーシップ %s は %s で終了します。</p>
 
-<p>あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は、<a href="%s">お気軽にお問い合わせください</a>:</P>
+<p>あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>:</P>
 
 <p>%s サイト管理者</p>';
-$string['accountinactive'] = '申し訳ございません、あなたのアカウントは、現在有効ではありません。';
+$string['accountinactive'] = '申し訳ございません、あなたのアカウントは現在有効ではありません。';
 $string['accountinactivewarning'] = 'アカウント無効通知';
 $string['accountinactivewarningtext'] = '%s さん
 
-%s のあなたのアカウントは、%s で無効になります。
+%s のあなたのアカウントは%s で無効になります。
 
 アカウントが無効になった場合、あなたのアカウントを管理者が再度有効にするまで、ログインすることはできません。
 
@@ -192,7 +192,7 @@ $string['accountinactivewarningtext'] = '%s さん
 %s サイト管理者';
 $string['accountinactivewarninghtml'] = '<p>%s さん</p>
 
-<p>%s のあなたのアカウントは、%s で無効になります。</p>
+<p>%s のあなたのアカウントは%s で無効になります。</p>
 
 <p>アカウントが無効になった場合、あなたのアカウントを管理者が再度有効にするまで、ログインすることはできません。</p>
 
@@ -205,8 +205,8 @@ $string['youraccounthasbeenunsuspended'] = 'あなたのアカウントの利用
 $string['changepassword'] = 'パスワードを変更する';
 $string['changepasswordinfo'] = '開始する前に、あなたはパスワードを変更する必要があります。';
 $string['confirmpassword'] = 'パスワードをもう一度';
-$string['javascriptnotenabled'] = 'あなたのブラウザでは、このサイトに対してJavaスクリプトが有効にされていません。Maharaでは、あなたがログインする前にJavaスクリプトを有効にする必要があります。';
-$string['cookiesnotenabled'] = 'あなたのブラウザでは、クッキーが有効にされていないか、このサイトからのクッキーがブロックされています。Maharaでは、あなたがログインする前にクッキーを有効にする必要があります。';
+$string['javascriptnotenabled'] = 'あなたのブラウザではこのサイトに対してJavaスクリプトが有効にされていません。Maharaではあなたがログインする前にJavaスクリプトを有効にする必要があります。';
+$string['cookiesnotenabled'] = 'あなたのブラウザではクッキーが有効にされていないか、このサイトからのクッキーがブロックされています。Maharaではあなたがログインする前にクッキーを有効にする必要があります。';
 $string['institution'] = 'インスティテューション';
 $string['loggedoutok'] = 'あなたは正常にログアウトしました。';
 $string['login'] = 'ログイン';
@@ -222,9 +222,9 @@ $string['passwordsaved'] = 'あなたの新しいパスワードが保存され�
 $string['passwordsdonotmatch'] = 'パスワードが合致しません。';
 $string['passwordtooeasy'] = 'あなたのパスワードは簡単すぎます! 難しいパスワードを入力してください。';
 $string['register'] = 'ユーザ登録';
-$string['sessiontimedout'] = 'あなたのセッションは、タイムアウトしました。続けるには、再度ログインしてください。';
-$string['sessiontimedoutpublic'] = 'あなたのセッションは、タイムアウトしました。閲覧を続けるには、<a href="%s">ログイン</a>してください。';
-$string['sessiontimedoutreload'] = 'あなたのセッションは、タイムアウトしました。再度ログインするには、ページをリロードしてください。';
+$string['sessiontimedout'] = 'あなたのセッションはタイムアウトしました。続けるには再度ログインしてください。';
+$string['sessiontimedoutpublic'] = 'あなたのセッションはタイムアウトしました。閲覧を続けるには<a href="%s">ログイン</a>してください。';
+$string['sessiontimedoutreload'] = 'あなたのセッションはタイムアウトしました。再度ログインするには、ページをリロードしてください。';
 $string['username'] = 'ユーザ名';
 $string['preferredname'] = 'ニックネーム';
 $string['usernamehelp'] = 'このシステムにアクセスするため、あなたに与えられたユーザ名です。';
@@ -233,11 +233,11 @@ $string['yournewpassword'] = 'あなたの新しいパスワード';
 $string['yournewpasswordagain'] = 'あなたの新しいパスワードをもう一度';
 $string['invalidsesskey'] = '無効なセッションキー';
 $string['cannotremovedefaultemail'] = 'あなたの主メールアドレスは削除できません。';
-$string['emailtoolong'] = 'メールアドレスの長さは、半角255文字以内にしてください。';
+$string['emailtoolong'] = 'メールアドレスの長さは半角255文字以内にしてください。';
 $string['mustspecifyoldpassword'] = 'あなたの現在のパスワードを入力してください。';
 $string['captchatitle'] = 'CAPTCHAイメージ';
 $string['captchaimage'] = 'CAPTCHAイメージ';
-$string['captchadescription'] = 'イメージの右側に表示されている文字を入力してください。入力する文字は、大文字小文字の区別をしません。';
+$string['captchadescription'] = 'イメージの右側に表示されている文字を入力してください。入力する文字は大文字小文字の区別をしません。';
 $string['captchaincorrect'] = 'イメージに表示されている文字を入力してください。';
 $string['Site'] = 'サイト';
 $string['emailaddress'] = 'メールアドレス';
@@ -246,13 +246,13 @@ $string['lastname'] = '姓';
 $string['studentid'] = 'IDナンバー';
 $string['displayname'] = '表示名';
 $string['fullname'] = 'フルネーム';
-$string['registerstep1description'] = 'ようこそ! このサイトを使用するには、最初にユーザ登録してください。また、あなたは<a href="terms.php">使用条件</a>に同意する必要があります。ここで収集したデータは、私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
+$string['registerstep1description'] = 'ようこそ! このサイトを使用するには、最初にユーザ登録してください。また、あなたは<a href="terms.php">使用条件</a>に同意する必要があります。ここで収集したデータは私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
 $string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s にユーザ登録されました! あなたのアバターとして表示する、任意のプロファイルアイコンを選択することができます。</p>';
-$string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは、必須入力フィールドです。あなたのユーザ登録が完了する前に、すべての必須入力フィールドに入力してください。/p>';
+$string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須入力フィールドです。あなたのユーザ登録が完了する前に、すべての必須入力フィールドに入力してください。/p>';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムにユーザ登録できません。';
 $string['membershipexpiry'] = 'メンバーシップ有効期限切れ';
-$string['institutionfull'] = 'あなたが選択したインスティテューションは、これ以上の登録を受け付けていません。';
-$string['registrationnotallowed'] = 'あなたが選択したインスティテューションは、自己登録を許可していません。';
+$string['institutionfull'] = 'あなたが選択したインスティテューションはこれ以上の登録を受け付けていません。';
+$string['registrationnotallowed'] = 'あなたが選択したインスティテューションは自己登録を許可していません。';
 $string['registrationcomplete'] = '%s へのご登録ありがとうございます。';
 $string['language'] = '言語';
 $string['cantchangepassword'] = '申し訳ございません、このインターフェース経由でパスワードを変更することはできません - 代わりに、あなたのインスティテューションのインターフェースを使用してください。';
@@ -267,7 +267,7 @@ $string['forgotusernamepasswordemailmessagetext'] = '%s さん
 
 あなたの %s のアカウントに関するユーザ名/パスワードのリクエストを受け付けました。
 
-あなたのユーザ名は、%s です。
+あなたのユーザ名は%s です。
 
 あなたのパスワードをリセットしたい場合、下記のリンクをクリックしてください:
 
@@ -275,7 +275,7 @@ $string['forgotusernamepasswordemailmessagetext'] = '%s さん
 
 あなたがパスワードのリセットをリクエストしていない場合、このメールは無視してください。
 
-上記内容に関するご質問は、お気軽にお問い合わせください:
+上記内容に関するご質問はお気軽にお問い合わせください:
 
 %s
 
@@ -284,7 +284,7 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたの %s のアカウントに関するユーザ名/パスワードのリクエストを受け付けました。</p>
 
-<p>あなたのユーザ名は、<strong>%s</strong> です。</p>
+<p>あなたのユーザ名は<strong>%s</strong> です。</p>
 
 <p>あなたのパスワードをリセットしたい場合、下記のリンクをクリックしてください:</p>
 
@@ -292,12 +292,12 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたがパスワードのリセットをリクエストしていない場合、このメールは無視してください。</p>
 
-<p>上記内容に関するご質問は、<a href="%s">お気軽にお問い合わせください</a>。</p>
+<p>上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>。</p>
 
 <p>%s サイト管理者</p>';
-$string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは、私たちに責任があります。もう一度お試しください。';
-$string['forgotpassnosuchemailaddressorusername'] = 'あなたが入力したメールアドレスは、このサイトのユーザに合致しません。';
-$string['forgotpasswordenternew'] = '続けるには、あなたの新しいパスワードを入力してください。';
+$string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは私たちに責任があります。もう一度お試しください。';
+$string['forgotpassnosuchemailaddressorusername'] = 'あなたが入力したメールアドレスはこのサイトのユーザに合致しません。';
+$string['forgotpasswordenternew'] = '続けるにはあなたの新しいパスワードを入力してください。';
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';
 $string['passwordchangedok'] = 'あなたのパスワードが正常に変更されました。';
 $string['noinstitutionsetpassemailsubject'] = '%s: %s のメンバーシップ';
@@ -306,11 +306,11 @@ $string['noinstitutionsetpassemailmessagetext'] = '%s さん
 あなたは %s のメンバーではなくなりました。 
 続けて %s を現在のユーザ名 %s で使用することができますが、アカウントに新しいパスワードを設定する必要があります。
 
-パスワードリセット処理を続けるには、下記リンクをクリックしてください。
+パスワードリセット処理を続けるには下記リンクをクリックしてください。
 
 %sforgotpass.php?key=%s
 
-上記内容に関するご質問は、お気軽にお問い合わせください。
+上記内容に関するご質問はお気軽にお問い合わせください。
 
 %scontact.php
 
@@ -322,16 +322,16 @@ $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 <p>あなたは %s のメンバーではなくなりました。</p> 
 <p>続けて %s を現在のユーザ名 %s で使用することができますが、アカウントに新しいパスワードを設定する必要があります。</p>
 
-<p>パスワードリセット処理を続けるには、下記リンクをクリックしてください。</p>
+<p>パスワードリセット処理を続けるには下記リンクをクリックしてください。</p>
 
 <p><a href="%sforgotpass.php?key=%s">%sforgotpass.php?key=%s</a></p>
 
-<p>上記内容に関するご質問は、<a href="%scontact.php">お気軽にお問い合わせください</a>。</p>
+<p>上記内容に関するご質問は<a href="%scontact.php">お気軽にお問い合わせください</a>。</p>
 
 <p>%s サイト管理者</p>
 
 <p><a href="%sforgotpass.php?key=%s">%sforgotpass.php?key=%s</a></p>';
-$string['debugemail'] = '注意: このメールは、%s <%s> 宛のメールですが、設定ファイルの「sendallemailto」設定により、あなたに送信されています。';
+$string['debugemail'] = '注意: このメールは%s <%s> 宛のメールですが、設定ファイルの「sendallemailto」設定により、あなたに送信されています。';
 $string['noenddate'] = '終了日なし';
 $string['day'] = '日';
 $string['days'] = '日';
@@ -366,7 +366,7 @@ $string['viewmyprofilepage'] = 'プロファイルページを表示する';
 $string['editmyprofilepage'] = 'プロファイルページを編集する';
 $string['unreadmessages'] = '未読メッセージ';
 $string['unreadmessage'] = '未読メッセージ';
-$string['siteclosed'] = 'データベースアップグレードのため、サイトは一時的に閉鎖されています。サイト管理者は、ログインすることができます。';
+$string['siteclosed'] = 'データベースアップグレードのため、サイトは一時的に閉鎖されています。サイト管理者はログインすることができます。';
 $string['siteclosedlogindisabled'] = 'データベースアップグレードのため、サイトは一時的に閉鎖されています。<a href="%s">今からアップグレードを実行します。</a>';
 $string['termsandconditions'] = '使用条件';
 $string['privacystatement'] = 'プライバシー保護方針';
@@ -378,7 +378,7 @@ $string['preferences'] = 'プリファレンス';
 $string['activityprefs'] = '活動プリファレンス';
 $string['notifications'] = '通知';
 $string['institutionmembership'] = 'インスティテューションメンバーシップ';
-$string['institutionmembershipdescription'] = 'ここには、あなたがメンバーとなっているインスティテューションが表示されます。あなたはインスティテューションのメンバーシップをリクエストすることもできます。また、インスティテューションがあなたに参加招待した場合、あなたは招待を承認または拒否することができます。';
+$string['institutionmembershipdescription'] = 'ここにはあなたがメンバーとなっているインスティテューションが表示されます。あなたはインスティテューションのメンバーシップをリクエストすることもできます。また、インスティテューションがあなたに参加招待した場合、あなたは招待を承認または拒否することができます。';
 $string['youareamemberof'] = 'あなたは　%s のメンバーです。';
 $string['leaveinstitution'] = 'インスティテューションを離れる';
 $string['reallyleaveinstitution'] = '本当にこのインスティテューションから離れてもよろしいですか?';
@@ -431,26 +431,26 @@ $string['Artefact'] = 'アーティファクト';
 $string['Artefacts'] = 'アーティファクト';
 $string['artefactnotfound'] = 'ID %s のアーティファクトは見つかりませんでした。';
 $string['artefactnotrendered'] = 'アーティファクトが提出されていません。';
-$string['nodeletepermission'] = 'あなたには、このアーティファクトを削除するパーミッションがありません。';
-$string['noeditpermission'] = 'あなたには、このアーティファクトを編集するパーミッションがありません。';
+$string['nodeletepermission'] = 'あなたにはこのアーティファクトを削除するパーミッションがありません。';
+$string['noeditpermission'] = 'あなたにはこのアーティファクトを編集するパーミッションがありません。';
 $string['Permissions'] = 'パーミッション';
 $string['republish'] = '公開';
 $string['view'] = '表示';
-$string['artefactnotpublishable'] = 'アーティファクト %s は、ビュー %s で公開できません。';
+$string['artefactnotpublishable'] = 'アーティファクト %s はビュー %s で公開できません。';
 $string['allusers'] = 'すべてのユーザ';
 $string['quarantinedirname'] = '隔離場所';
 $string['clammovedfile'] = 'ファイルが隔離場所に移動されました。';
 $string['clamdeletedfile'] = 'ファイルが削除されました。';
 $string['clamdeletedfilefailed'] = 'ファイルを削除できませんでした。';
-$string['clambroken'] = 'あなたの管理者がファイルのアップロードに関して、ウイルスチェックを有効にしましたが、設定が正しくないようです。あなたのファイルは、正常にアップロードされませんでした。あなたの管理者にメール通知が送信されましたので、管理者は問題を修正することができます。このファイルのアップロードを後でお試しください。';
+$string['clambroken'] = 'あなたの管理者がファイルのアップロードに関して、ウイルスチェックを有効にしましたが、設定が正しくないようです。あなたのファイルは正常にアップロードされませんでした。あなたの管理者にメール通知が送信されましたので、管理者は問題を修正することができます。このファイルのアップロードを後でお試しください。';
 $string['clamemailsubject'] = '%s :: Clam AV通知';
 $string['clamlost'] = 'Clam AVがファイルのアップロード時に動作するよう設定されていますが、Clam AVのパス「 %s 」が正しくありません。';
-$string['clamfailed'] = 'Clam AVの動作にエラーが発生しました。エラーメッセージは、%s です。Clam AVのアウトプットは次のとおりです:';
+$string['clamfailed'] = 'Clam AVの動作にエラーが発生しました。エラーメッセージは%s です。Clam AVのアウトプットは次のとおりです:';
 $string['clamunknownerror'] = 'clamに不明なエラーが発生しました。';
 $string['image'] = 'イメージ';
-$string['filenotimage'] = 'あなたがアップロードしたファイルは、有効なイメージではありません。PNG、JPEGまたはGIFファイルをアップロードしてください。';
-$string['uploadedfiletoobig'] = 'ファイルが大き過ぎます。詳細は、あなたの管理者にお尋ねください。';
-$string['notphpuploadedfile'] = 'アップロード処理中にファイルを喪失しました。これは通常起きることではありません。詳細は、あなたの管理者にお尋ねください。';
+$string['filenotimage'] = 'あなたがアップロードしたファイルは有効なイメージではありません。PNG、JPEGまたはGIFファイルをアップロードしてください。';
+$string['uploadedfiletoobig'] = 'ファイルが大き過ぎます。詳細はあなたの管理者にお尋ねください。';
+$string['notphpuploadedfile'] = 'アップロード処理中にファイルを喪失しました。これは通常起きることではありません。詳細はあなたの管理者にお尋ねください。';
 $string['virusfounduser'] = 'あなたがアップロードした %s にウイルスの感染が発見されました! あなたのファイルは正常にアップロードされませんでした。';
 $string['fileunknowntype'] = 'あなたがアップロードしたファイルのタイプを判定できませんでした。あなたのファイルが破損したか、設定に問題があります。あなたの管理者にご連絡ください。';
 $string['virusrepeatsubject'] = '警告: %s はウイルスの繰り返しアップロード者です。';
@@ -458,12 +458,12 @@ $string['virusrepeatmessage'] = 'ユーザ %s がアップロードした複数�
 $string['phpuploaderror'] = 'ファイルアップロード中にエラーが発生しました: %s (エラーコード %s)';
 $string['phpuploaderror_1'] = 'アップロードファイルがphp.iniのupload_max_filesizeディレクティブを超過しました。';
 $string['phpuploaderror_2'] = 'アップロードファイルがHTMLフォームで指定されているMAX_FILE_SIZEディレクティブを超過しました。';
-$string['phpuploaderror_3'] = 'アップロードファイルは、一部分のみアップロードされました。';
+$string['phpuploaderror_3'] = 'アップロードファイルは一部分のみアップロードされました。';
 $string['phpuploaderror_4'] = 'アップロードされたファイルはありません。';
 $string['phpuploaderror_6'] = '一時フォルダがありません。';
 $string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。';
-$string['phpuploaderror_8'] = 'ファイルアップロードは、拡張子が原因で中止されました。';
-$string['adminphpuploaderror'] = 'ファイルアップロードエラーは、恐らくあなたのサーバ設定を原因としています。';
+$string['phpuploaderror_8'] = 'ファイルアップロードは拡張子が原因で中止されました。';
+$string['adminphpuploaderror'] = 'ファイルアップロードエラーは恐らくあなたのサーバ設定を原因としています。';
 $string['youraccounthasbeensuspendedtext2'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。';
 $string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。利用停止の理由は:';
 $string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度このサイトにログインして利用することができます。';
@@ -726,7 +726,7 @@ $string['remotehost'] = 'リモートホスト %s';
 $string['Copyof'] = '%s のコピー';
 $string['loggedinusersonly'] = 'ログインユーザのみ';
 $string['allowpublicaccess'] = 'パブリックアクセス (ログインなし) を許可する';
-$string['thisistheprofilepagefor'] = 'これは、%s のプロファイルページです。';
+$string['thisistheprofilepagefor'] = 'これは%s のプロファイルページです。';
 $string['pleasedonotreplytothismessage'] = 'このメッセージに返信しないでください。';
 $string['deleteduser'] = '削除済みユーザ';
 
