@@ -29,9 +29,9 @@
 defined('INTERNAL') || die();
 
 $string['changepassworddesc'] = 'あなたのパスワードを変更したい場合、ここで詳細を入力してください。';
-$string['changepasswordotherinterface'] = 'あなたは、異なるインターフェースで<a href="%s">パスワードを変更する</a>ことができます。';
+$string['changepasswordotherinterface'] = 'あなたは異なるインターフェースで<a href="%s">パスワードを変更する</a>ことができます。';
 $string['oldpasswordincorrect'] = 'これは、あなたの現在のパスワードではありません。';
-$string['accountoptionsdesc'] = 'あなたは、ここで一般アカウントオプションを設定することができます。';
+$string['accountoptionsdesc'] = 'あなたはここで一般アカウントオプションを設定することができます。';
 $string['friendsnobody'] = 'だれも私をフレンドとして追加できません。';
 $string['friendsauth'] = '新しいフレンドになるには、私の承認が必要です。';
 $string['friendsauto'] = '新しいフレンドは、自動的に承認されます。';
