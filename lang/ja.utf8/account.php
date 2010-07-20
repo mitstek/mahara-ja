@@ -29,12 +29,12 @@
 defined('INTERNAL') || die();
 
 $string['changepassworddesc'] = 'あなたのパスワードを変更したい場合、ここで詳細を入力してください。';
-$string['changepasswordotherinterface'] = 'あなたは、異なるインターフェースで<a href="%s">パスワードを変更する</a>ことができます。';
+$string['changepasswordotherinterface'] = 'あなたは異なるインターフェースで<a href="%s">パスワードを変更する</a>ことができます。';
 $string['oldpasswordincorrect'] = 'これは、あなたの現在のパスワードではありません。';
 $string['changeusernameheading'] = 'ユーザ名を変更する';
 $string['changeusername'] = '新しいユーザ名';
 $string['changeusernamedesc'] = 'あなたが %s へのログインに使用するユーザ名です。あなたのユーザ名は、半角英数字3～30文字にしてください。また、ユーザ名には、空白を除く、半角英数字および標準的な記号を使用することができます。';
-$string['accountoptionsdesc'] = 'あなたは、ここで一般アカウントオプションを設定することができます。';
+$string['accountoptionsdesc'] = 'あなたはここで一般アカウントオプションを設定することができます。';
 $string['friendsnobody'] = 'だれも私をフレンドとして追加できません。';
 $string['friendsauth'] = '新しいフレンドになるには、私の承認が必要です。';
 $string['friendsauto'] = '新しいフレンドは、自動的に承認されます。';
@@ -55,7 +55,7 @@ $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'あなたのタグクラウドに表示されるタグの最大数です。';
 $string['enablemultipleblogs'] = '複数ブログを有効にする';
 $string['enablemultipleblogsdescription'] = 'デフォルトでは、あなたは1つのブログのみMaharaに作成することができます。あなたが1つ以上のブログを作成したい場合、このオプションをチェックしてください。';
-$string['disablemultipleblogserror'] = '1つのブログのみ作成していない限り、あなたは、複数ブログを無効にすることはできません。';
+$string['disablemultipleblogserror'] = '1つのブログのみ作成していない限り、あなたは複数ブログを無効にすることはできません。';
 $string['hiderealname'] = '実名を隠す';
 $string['hiderealnamedescription'] = 'あなたがニックネームを設定した場合、そして、あなたの実名検索により、他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
 $string['showhomeinfo'] = 'ホームページにMaharaに関する情報を表示する';

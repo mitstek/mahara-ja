@@ -55,11 +55,11 @@ $string['upgrades'] = 'アップグレード';
 $string['upgradesuccess'] = 'アップグレードが正常に完了しました。';
 $string['upgradesuccesstoversion'] = '次のバージョンへ正常にアップグレードしました:';
 $string['upgradefailure'] = 'アップグレードに失敗しました!';
-$string['noupgrades'] = 'アップグレードはありません! あなたは、最新版を使用しています!';
-$string['youcanupgrade'] = 'あなたは、Maharaを %s (%s) から %s (%s) へアップグレードすることができます!';
+$string['noupgrades'] = 'アップグレードはありません! あなたは最新版を使用しています!';
+$string['youcanupgrade'] = 'あなたはMaharaを %s (%s) から %s (%s) へアップグレードすることができます!';
 $string['Plugin'] = 'プラグイン';
 $string['jsrequiredforupgrade'] = 'あなたがインストールまたはアップグレードを実行するには、Javaスクリプトを有効にする必要があります。';
-$string['dbnotutf8warning'] = 'あなたは、UTF-8データベースを使用していません。Maharaは、すべてのデータを内部的にUTF-8で保存します。あなたは、このアップグレードを試みることもできますが、データベースをUTF-8にコンバートすることをお勧めします。';
+$string['dbnotutf8warning'] = 'あなたはUTF-8データベースを使用していません。Maharaは、すべてのデータを内部的にUTF-8で保存します。あなたはこのアップグレードを試みることもできますが、データベースをUTF-8にコンバートすることをお勧めします。';
 $string['dbcollationmismatch'] = 'あなたのデータベースカラムは、データベースデフォルトとは異なるコレーションを使用しています。すべてのカラムが、データベースと同じコレーションを使用していることを確認してください。';
 $string['adminhome'] = '管理ホーム';
 $string['configsite'] = 'サイト設定';
@@ -135,16 +135,16 @@ $string['Register'] = '登録';
 $string['registrationfailedtrylater'] = 'エラーコード %s により、登録が失敗しました。後ほど再度お試しください。';
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます!';
 $string['registeryourmaharasite'] = 'あなたのMaharaサイトを登録します。';
-$string['registeryourmaharasitesummary'] = '<p>あなたは、<a href="http://mahara.org/">mahara.org</a>にあなたのMaharaサイトを登録することができます。また、登録することで、私たちは、世界のMaharaインストール状況を作成することができます。サイトを登録することで、この通知が取り除かれます。</p>
+$string['registeryourmaharasitesummary'] = '<p>あなたは<a href="http://mahara.org/">mahara.org</a>にあなたのMaharaサイトを登録することができます。また、登録することで、私たちは、世界のMaharaインストール状況を作成することができます。サイトを登録することで、この通知が取り除かれます。</p>
 <p>あなたがサイトを登録する場合、送信される情報を<strong><a href="%sadmin/registersite.php">サイト登録ページ</a></strong>にて、プレビューすることができます。</p>';
-$string['registeryourmaharasitedetail'] = '<p>あなたは、<a href="http://mahara.org/">mahara.org</a>にあなたのMaharaサイトを登録することができます。登録は無料です。また、登録することで、私たちは、世界のMaharaインストール状況を作成することができます。</p>
-<p>あなたは、mahara.orgに送信された情報を閲覧することができます - あなたのユーザに関する個人情報は一切送信されません。</p>
+$string['registeryourmaharasitedetail'] = '<p>あなたは<a href="http://mahara.org/">mahara.org</a>にあなたのMaharaサイトを登録することができます。登録は無料です。また、登録することで、私たちは、世界のMaharaインストール状況を作成することができます。</p>
+<p>あなたはmahara.orgに送信された情報を閲覧することができます - あなたのユーザに関する個人情報は一切送信されません。</p>
 <p>あなたが、「更新内容を週に1回送信しますか?」をチェックした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
-<p>サイトを登録した後、この通知は取り除かれます。あなたは、更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更することができます。</p>';
-$string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは、<a href="%sadmin/site/options.php">サイトオプション</a>ページにて、</p>サイト更新内容の週ごとの送信を有効または無効にすることができます。';
+<p>サイトを登録した後、この通知は取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更することができます。</p>';
+$string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページにて、</p>サイト更新内容の週ごとの送信を有効または無効にすることができます。';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
-$string['closesitedetail'] = 'あなたは、管理者を除く、すべてのユーザに対して、サイトをクローズすることができます。この処理は、データベースアップグレードの処理の準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで、管理者のみログインすることができます。';
+$string['closesitedetail'] = 'あなたは管理者を除く、すべてのユーザに対して、サイトをクローズすることができます。この処理は、データベースアップグレードの処理の準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで、管理者のみログインすることができます。';
 $string['Open'] = 'オープン';
 $string['reopensite'] = 'サイトを再オープンする';
 $string['reopensitedetail'] = 'あなたのサイトは、クローズされています。アップグレードが完了するまで、サイト管理者のみログインすることができます。';
@@ -289,7 +289,7 @@ $string['externallink'] = '外部リンク';
 $string['editlinksandresources'] = '「リンクおよびリソース」を編集する';
 $string['linkedto'] = 'リンク先';
 $string['linksandresourcesmenu'] = 'リンクおよびリソースメニュー';
-$string['linksandresourcesmenupagedescription'] = '「リンクおよびリソース」メニューは、ほとんどのページですべてのユーザに表示されます。あなたは、他のウェブサイトのリンクおよび%s管理ファイル%sセクションでアップロードしたファイルのリンクを追加することができます。';
+$string['linksandresourcesmenupagedescription'] = '「リンクおよびリソース」メニューは、ほとんどのページですべてのユーザに表示されます。あなたは他のウェブサイトのリンクおよび%s管理ファイル%sセクションでアップロードしたファイルのリンクを追加することができます。';
 $string['loadingmenuitems'] = 'メニューアイテムのロード中';
 $string['loadmenuitemsfailed'] = 'メニューアイテムのロードに失敗しました。';
 $string['loggedinmenu'] = 'ログイン後の「リンクおよびリソース」';
@@ -305,7 +305,7 @@ $string['type'] = 'タイプ';
 $string['footermenu'] = 'フッタメニュー';
 $string['footermenudescription'] = 'フッタメニュー内のリンクを有効または無効にします。';
 $string['footerupdated'] = 'フッタが更新されました。';
-$string['adminfilespagedescription'] = 'あなたは、ここで%s「リンクおよびリソース」メニュー%sに含むことのできるファイルをアップロードすることができます。パブリックディレクトリのファイルはパブリックの「リンクおよびリソース」メニューに追加できるのに対して、ホームディレクトリのファイルはログイン後の「リンクおよびリソース」メニューに追加することができます。';
+$string['adminfilespagedescription'] = 'あなたはここで%s「リンクおよびリソース」メニュー%sに含むことのできるファイルをアップロードすることができます。パブリックディレクトリのファイルはパブリックの「リンクおよびリソース」メニューに追加できるのに対して、ホームディレクトリのファイルはログイン後の「リンクおよびリソース」メニューに追加することができます。';
 $string['networkingextensionsmissing'] = '申し訳ございません、インストール済みPHPでいくつかの必須拡張モジュールが不足しているため、あなたはMaharaネットワーキングを設定できません。';
 $string['publickey'] = '公開鍵';
 $string['publickeydescription2'] = 'この公開鍵は自動的に生成され、%s 日ごとにローテートされます。';
@@ -353,7 +353,7 @@ $string['uploadcsverrorinvalidusername'] = 'あなたのファイルの　%s 行
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には、必須の「 %s 」フィールドが含まれていません。';
 $string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」は、すでに登録されています。';
 $string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」は、すでに他のユーザに取得されています。';
-$string['uploadcsvpagedescription2'] = '<p>あなたは、この機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
+$string['uploadcsvpagedescription2'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
 
 <p>CSVファイルの先頭行には、CSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
@@ -364,7 +364,7 @@ $string['uploadcsvpagedescription2'] = '<p>あなたは、この機能により�
 <p>必要に応じて、あなたのCSVファイルには、他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
 
 %s';
-$string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたは、この機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
+$string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
 
 <p>CSVファイルの先頭行には、CSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
@@ -379,7 +379,7 @@ $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメール
 $string['uploadcsvusersaddedsuccessfully'] = 'ファイル内のユーザが正常に追加されました。';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるため、ユーザは追加されませんでした。許可されたインスティテューションの最大ユーザ数を超えました。';
 $string['bulkleap2aimport'] = 'LEAP2Aファイルからユーザをインポートする';
-$string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある複数のLEAP2Aファイルを使用して、ユーザを一度にインポートすることができます。あなたは、ファイルシステムのディレクトリにおいて、すべてのLEAP2A ZIPファイルおよびファイル名にユーザ名をマッピングするimport.csvと呼ばれるCSVファイルを指定する必要があります。</p>
+$string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある複数のLEAP2Aファイルを使用して、ユーザを一度にインポートすることができます。あなたはファイルシステムのディレクトリにおいて、すべてのLEAP2A ZIPファイルおよびファイル名にユーザ名をマッピングするimport.csvと呼ばれるCSVファイルを指定する必要があります。</p>
 <p>import.csvは、以下のようになります:</p>
 <pre>
 &nbsp;&nbsp;bob,mahara-export-leap-user8-1265165366.zip<br>
@@ -388,7 +388,7 @@ $string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある�
 <p>上記、mahara-export-leap-user8-1265165366.zipおよびmahara-export-leap-user1-1266458159.zipは、import.csvとして、同一ディレクトリにあります。</p>
 <p>あなたが多くのユーザをインポートする場合、注意してください。インポート処理には、長時間を要します。</p>';
 $string['importfile'] = 'バルクエクスポートファイル';
-$string['importfilemissinglisting'] = 'バルクエクスポートファイルのファイル名が「usernames.csv」ではありません。これらのユーザをエクスポートするため、あなたは、Maharaバルクエクスポータを使用しましたか?';
+$string['importfilemissinglisting'] = 'バルクエクスポートファイルのファイル名が「usernames.csv」ではありません。これらのユーザをエクスポートするため、あなたはMaharaバルクエクスポータを使用しましたか?';
 $string['importfilenotafile'] = '送信中にエラーが発生しました: ファイルを認識できませんでした。';
 $string['importfilenotreadable'] = 'LEAP2Aファイル %s を読むことができません。';
 $string['bulkleap2aimportfiledescription'] = 'あなたのサーバのZIPファイルには、エクスポートされたユーザすべて (LEAP2Aフォーマット) およびユーザ名のCSVリストが含まれます。';
@@ -400,12 +400,12 @@ $string['unabletoreadcsvfile'] = 'csvファイル %s を読むことができま
 $string['importfileisnotazipfile'] = 'インポートファイル %s は、ZIPファイルではないようです。';
 $string['unzipfailed'] = 'LEAP2Aファイル %s の解凍に失敗しました。詳細情報は、エラーログをご覧ください。';
 $string['importfailedfornusers'] = '%d / %d のユーザのインポートに失敗しました。';
-$string['invalidlistingfile'] = '無効なユーザ名リストです。これらのユーザをエクスポートするため、あなたは、Maharaバルクエクスポータを使用しましたか?';
-$string['adminuserspagedescription'] = '<p>あなたは、どのユーザがサイトを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。</p><p>システムには、少なくとも1名の管理者を設定する必要があります。</p>';
-$string['institutionadminuserspagedescription'] = 'あなたは、どのユーザがインスティテューションを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。';
+$string['invalidlistingfile'] = '無効なユーザ名リストです。これらのユーザをエクスポートするため、あなたはMaharaバルクエクスポータを使用しましたか?';
+$string['adminuserspagedescription'] = '<p>あなたはどのユーザがサイトを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。</p><p>システムには、少なくとも1名の管理者を設定する必要があります。</p>';
+$string['institutionadminuserspagedescription'] = 'あなたはどのユーザがインスティテューションを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。';
 $string['adminusersupdated'] = '管理ユーザが更新されました。';
-$string['staffuserspagedescription'] = 'あなたは、どのユーザがサイトのスタッフになるか、選択することができます。現在のスタッフは右側に表示され、潜在的なスタッフは左側に表示されます。';
-$string['institutionstaffuserspagedescription'] = 'あなたは、どのユーザがあなたのインスティテューションのスタッフになるか、選択することができます。現在のスタッフは右側に表示され、潜在的なスタッフは左側に表示されます。';
+$string['staffuserspagedescription'] = 'あなたはどのユーザがサイトのスタッフになるか、選択することができます。現在のスタッフは右側に表示され、潜在的なスタッフは左側に表示されます。';
+$string['institutionstaffuserspagedescription'] = 'あなたはどのユーザがあなたのインスティテューションのスタッフになるか、選択することができます。現在のスタッフは右側に表示され、潜在的なスタッフは左側に表示されます。';
 $string['potentialstaff'] = '潜在的なスタッフ';
 $string['currentstaff'] = '現在のスタッフ';
 $string['staffusersupdated'] = 'スタッフユーザが更新されました。';
@@ -450,11 +450,11 @@ $string['filequotadescription'] = 'ユーザファイルエリアでの利用可
 $string['addusertoinstitution'] = 'インスティテューションにユーザを追加する';
 $string['removeuserfrominstitution'] = 'このインスティテューションからユーザを削除する';
 $string['confirmremoveuserfrominstitution'] = 'このインスティテューションから、本当にユーザを削除してもよろしいですか?';
-$string['usereditdescription'] = 'あなたは、ここでこのユーザアカウントの閲覧および詳細設定することができます。以下であなたは、<a href="#suspend">このアカウントを利用停止または削除</a>することができます。また、<a href="#institutions">このユーザが関わっているインスティテューション内</a>で、設定を変更することもできます。';
+$string['usereditdescription'] = 'あなたはここでこのユーザアカウントの閲覧および詳細設定することができます。以下であなたは<a href="#suspend">このアカウントを利用停止または削除</a>することができます。また、<a href="#institutions">このユーザが関わっているインスティテューション内</a>で、設定を変更することもできます。';
 $string['suspenddeleteuser'] = 'ユーザの利用停止/削除';
-$string['suspenddeleteuserdescription'] = 'あなたは、ここでユーザアカウントを利用停止または完全に削除することができます。利用停止されたユーザは、利用停止が解除されるまで、ログインすることができません。利用停止されたユーザは利用停止解除することができますが、削除されたユーザは元に戻すことは<b>できません</b>ので注意してください。';
+$string['suspenddeleteuserdescription'] = 'あなたはここでユーザアカウントを利用停止または完全に削除することができます。利用停止されたユーザは、利用停止が解除されるまで、ログインすることができません。利用停止されたユーザは利用停止解除することができますが、削除されたユーザは元に戻すことは<b>できません</b>ので注意してください。';
 $string['deleteusernote'] = 'この処理は、<b>元に戻すことができません</b>ので注意してください。';
-$string['youcannotadministerthisuser'] = 'あなたは、このユーザを管理できません。';
+$string['youcannotadministerthisuser'] = 'あなたはこのユーザを管理できません。';
 $string['adduser'] = 'ユーザを追加する';
 $string['adduserdescription'] = '新しいユーザを作成します。';
 $string['basicinformationforthisuser'] = 'このユーザの基本情報です。';
@@ -507,7 +507,7 @@ $string['authenticatedbydescription'] = 'このユーザに関するMaharaへの
 $string['remoteusername'] = '外部認証のユーザ名';
 $string['remoteusernamedescription'] = 'XMLRPC認証プラグインを使用して、ユーザがリモートサイトから %s にログインした場合、これはリモートサイトのユーザを識別するユーザ名となります。';
 $string['institutionsettings'] = 'インスティテューション設定';
-$string['institutionsettingsdescription'] = 'ここであなたは、システム内にある、このユーザのインスティテューションメンバーシップ設定を変更することができます。';
+$string['institutionsettingsdescription'] = 'ここであなたはシステム内にある、このユーザのインスティテューションメンバーシップ設定を変更することができます。';
 $string['changeinstitution'] = 'インスティテューションを変更する';
 $string['institutionstaff'] = 'インスティテューションスタッフ';
 $string['institutionadmins'] = 'インスティテューション管理者';
@@ -519,9 +519,9 @@ $string['institutionadministration'] = 'インスティテューション管理'
 $string['institutionmembers'] = 'インスティテューションメンバー';
 $string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
 $string['institutionmemberspagedescription'] = 'このページでは、あなたのインスティテューションにメンバーシップをリクエストしたユーザを閲覧およびメンバーとして登録することができます。また、あなたのインスティテューションからユーザを削除および招待することができます。';
-$string['institutionusersinstructionsrequesters'] = '左側のユーザ一覧には、あなたのインスティテューションに参加をリクエストした、すべてのユーザが表示されます。あなたは、表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザをインスティテューションに追加したい場合、またはユーザのメンバーシップリクエストを拒否したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「メンバーを追加する」ボタンをクリックすることで、右側ボックスのすべてのユーザをインスティテューションに追加することができます。「リクエストを拒否する」ボタンをクリックすることで、右側ボックスのユーザのメンバーシップリクエストを拒否することができます。';
-$string['institutionusersinstructionsnonmembers'] = '左側のユーザ一覧には、あなたのインスティテューションのメンバーではない、すべてのユーザが表示されます。あなたは、表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザに対して、インスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックすることで、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。';
-$string['institutionusersinstructionsmembers'] = '左側のユーザ一覧には、あなたのインスティテューションのすべてのユーザが表示されます。あなたは、表示されるユーザ数を減らすため、検索ボックスを使用することができます。ユーザをインスティテューションから削除する場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを削除する」ボタンをクリックすることで、右側ボックスのすべてのユーザが削除されます。左側ボックスのユーザは、インスティテューションに参加したままの状態です。';
+$string['institutionusersinstructionsrequesters'] = '左側のユーザ一覧には、あなたのインスティテューションに参加をリクエストした、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザをインスティテューションに追加したい場合、またはユーザのメンバーシップリクエストを拒否したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「メンバーを追加する」ボタンをクリックすることで、右側ボックスのすべてのユーザをインスティテューションに追加することができます。「リクエストを拒否する」ボタンをクリックすることで、右側ボックスのユーザのメンバーシップリクエストを拒否することができます。';
+$string['institutionusersinstructionsnonmembers'] = '左側のユーザ一覧には、あなたのインスティテューションのメンバーではない、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザに対して、インスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックすることで、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。';
+$string['institutionusersinstructionsmembers'] = '左側のユーザ一覧には、あなたのインスティテューションのすべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。ユーザをインスティテューションから削除する場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを削除する」ボタンをクリックすることで、右側ボックスのすべてのユーザが削除されます。左側ボックスのユーザは、インスティテューションに参加したままの状態です。';
 $string['editmembers'] = 'メンバーを編集する';
 $string['editstaff'] = 'スタッフを編集する';
 $string['editadmins'] = '管理者を編集する';
@@ -554,9 +554,9 @@ $string['institutionusersupdated_removeMembers'] = 'ユーザが削除されま�
 $string['institutionusersupdated_inviteUser'] = '招待が送信されました。';
 $string['maxuseraccounts'] = '許可する最大ユーザアカウント数';
 $string['maxuseraccountsdescription'] = 'インスティテューションに関連付けることのできる最大ユーザアカウント数です。制限がない場合、このフィールドは空白にしてください。';
-$string['institutionmaxusersexceeded'] = 'このインスティテューションは、ユーザ数が上限に達しました。このユーザを追加できるようにするには、あなたは、このインスティテューションが許可するユーザ数を増やす必要があります。';
-$string['institutionuserserrortoomanyusers'] = 'ユーザは追加されませんでした。メンバー数は、インスティテューションで許可される最大ユーザ数を超えることはできません。あなたは、少数のユーザを追加するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼することができます。';
-$string['institutionuserserrortoomanyinvites'] = 'あなたの招待は送信されませんでした。既存のユーザ + 招待者数は、インスティテューションで許可される最大ユーザアカウント数を超えることはできません。あなたは、少数のユーザを招待するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼することができます。';
+$string['institutionmaxusersexceeded'] = 'このインスティテューションは、ユーザ数が上限に達しました。このユーザを追加できるようにするには、あなたはこのインスティテューションが許可するユーザ数を増やす必要があります。';
+$string['institutionuserserrortoomanyusers'] = 'ユーザは追加されませんでした。メンバー数は、インスティテューションで許可される最大ユーザ数を超えることはできません。あなたは少数のユーザを追加するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼することができます。';
+$string['institutionuserserrortoomanyinvites'] = 'あなたの招待は送信されませんでした。既存のユーザ + 招待者数は、インスティテューションで許可される最大ユーザアカウント数を超えることはできません。あなたは少数のユーザを招待するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼することができます。';
 $string['Members'] = 'メンバー';
 $string['Maximum'] = '最大';
 $string['Staff'] = 'スタッフ';
@@ -570,10 +570,10 @@ $string['institutionsuspended'] = 'インスティテューションが利用停
 $string['institutionunsuspended'] = 'インスティテューションの利用停止が解除されました。';
 $string['suspendedinstitution'] = '利用停止';
 $string['suspendinstitution'] = 'インスティテューションを利用停止する';
-$string['suspendinstitutiondescription'] = 'ここであなたは、インスティテューションを利用停止することができます。利用停止されたインスティテューションのユーザは、インスティテューションが利用停止解除されるまで、ログインすることはできません。';
+$string['suspendinstitutiondescription'] = 'ここであなたはインスティテューションを利用停止することができます。利用停止されたインスティテューションのユーザは、インスティテューションが利用停止解除されるまで、ログインすることはできません。';
 $string['suspendedinstitutionmessage'] = 'このインスティテューションは、利用停止されています。';
 $string['unsuspendinstitution'] = 'インスティテューションの利用停止を解除する';
-$string['unsuspendinstitutiondescription'] = 'ここであなたは、インスティテューションの利用停止を解除することができます。利用停止されたインスティテューションのユーザは、インスティテューションが利用停止解除されるまで、ログインすることはできません。<br /><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止解除することは、結果として、毎日、再度利用停止されることにつながります。';
+$string['unsuspendinstitutiondescription'] = 'ここであなたはインスティテューションの利用停止を解除することができます。利用停止されたインスティテューションのユーザは、インスティテューションが利用停止解除されるまで、ログインすることはできません。<br /><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止解除することは、結果として、毎日、再度利用停止されることにつながります。';
 $string['unsuspendinstitutiondescription_top'] = '<strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止解除することは、結果として、毎日、再度利用停止されることにつながります。';
 $string['unsuspendinstitutiondescription_top_instadmin'] = '利用停止されたインスティテューションのユーザは、ログインすることができません。インスティテューションの利用停止を解除するには、管理者にご連絡ください。';
 $string['bulkexport'] = 'ユーザをエクスポートする';

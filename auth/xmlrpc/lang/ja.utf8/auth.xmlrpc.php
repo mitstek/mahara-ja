@@ -33,6 +33,6 @@ $string['description'] = '外部アプリケーションからのSSOで認証す
 $string['notusable'] = 'XMLRPC、CurlおよびOpenSSL PHP拡張モジュールをインストールしてください。';
 $string['networkingdisabledonthissite'] = 'このサイトでは、ネットワーキングが無効にされています。';
 $string['networkservers'] = 'ネットワークサーバ';
-$string['youhaveloggedinfrom'] = 'あなたは、<a href="%s">%s</a>　からログインしています。';
+$string['youhaveloggedinfrom'] = 'あなたは<a href="%s">%s</a>　からログインしています。';
 
 ?>

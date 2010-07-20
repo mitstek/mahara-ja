@@ -36,7 +36,7 @@ $string['options_rows_desc'] = 'あなたが表示したい行数です。';
 $string['options_columns_title'] = 'カラム';
 $string['options_columns_desc'] = 'あなたが表示したいカラム数です。';
 $string['options_order_title'] = '表示順';
-$string['options_order_desc'] = 'あなたは、グループメンバーの表示順に関して、最新グループメンバーまたはランダムを選択することができます。';
+$string['options_order_desc'] = 'あなたはグループメンバーの表示順に関して、最新グループメンバーまたはランダムを選択することができます。';
 $string['Latest'] = '最新';
 $string['Random'] = 'ランダム';
 
