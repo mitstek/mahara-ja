@@ -48,7 +48,7 @@ $string['sorrymaxcharacters'] = '申し訳ございません、あなたは %s �
 $string['postsizelimit'] = '投稿サイズ制限';
 $string['postsizelimitdescription'] = 'ここであなたはウォールの投稿サイズを制限することができます。既存の投稿に関して、変更されることはありません。';
 $string['postsizelimitmaxcharacters'] = '最大文字数';
-$string['postsizelimitinvalid'] = 'これは、有効な数字ではありません。';
-$string['postsizelimittoosmall'] = 'この制限は、ゼロ以下に設定できません。';
+$string['postsizelimitinvalid'] = 'これは有効な数字ではありません。';
+$string['postsizelimittoosmall'] = 'この制限はゼロ以下に設定できません。';
 
 ?>
