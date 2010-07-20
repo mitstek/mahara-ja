@@ -54,12 +54,12 @@ $string['registeredemailmessagehtml'] = '<p>%s さん</p>
 
 <pre>--
 %s チーム</pre>';
-$string['registeredok'] = '<p>あなたは、正常にユーザ登録されました。アカウントを有効化するため、あなたのメールアドレス宛に送信されたインストラクションをご覧ください。</p>';
+$string['registeredok'] = '<p>あなたは正常にユーザ登録されました。アカウントを有効化するため、あなたのメールアドレス宛に送信されたインストラクションをご覧ください。</p>';
 $string['registrationnosuchkey'] = '申し訳ございません、このキーによるユーザ登録は存在していないようです。もしかしたら、ユーザ登録完了まで、24時間以上経過しましたか? そうでない場合、私たちに責任があります。';
 $string['registrationunsuccessful'] = '申し訳ございません、あなたのユーザ登録は正常に完了しませんでした。これは、あなたではなく、私たちに責任があります。後ほど再度お試しください。';
 $string['usernamealreadytaken'] = '申し訳ございません、このユーザ名は、すでに取得されています。';
 $string['usernameinvalidform'] = 'ユーザ名には、半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは、半角3文字から30文字の間にしてください。空白は、許可されません。';
 $string['youmaynotregisterwithouttandc'] = '<a href="terms.php">使用条件</a>の順守に同意しない限り、あなたはユーザ登録されません。';
-$string['youmustagreetothetermsandconditions'] = 'あなたは、<a href="terms.php">使用条件</a>に同意する必要があります。';
+$string['youmustagreetothetermsandconditions'] = 'あなたは<a href="terms.php">使用条件</a>に同意する必要があります。';
 
 ?>
