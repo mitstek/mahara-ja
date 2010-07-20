@@ -42,7 +42,7 @@ $string['exportingartefactsprogress'] = 'アーティファクトのエクスポ
 $string['exportingfooter'] = 'フッタのエクスポート中';
 $string['exportingviews'] = 'ビューのエクスポート中';
 $string['exportingviewsprogress'] = 'ビューのエクスポート中: %s/%s';
-$string['exportpagedescription'] = 'ここでは、あなたのポートフォリオをエクスポートすることができます。このツールは、サイト設定を除く、あなたのポートフォリオ情報すべて、およびビューをエクスポートします。';
+$string['exportpagedescription'] = 'ここではあなたのポートフォリオをエクスポートすることができます。このツールはサイト設定を除く、あなたのポートフォリオ情報すべて、およびビューをエクスポートします。';
 $string['exportyourportfolio'] = 'あなたのポートフォリオを生成する';
 $string['generateexport'] = 'エクスポートを生成する';
 $string['noexportpluginsenabled'] = '管理者によりエクスポートプラグインが有効にされていないため、あなたはこの機能を使用することはできません。';
@@ -59,6 +59,6 @@ $string['whatdoyouwanttoexport'] = '何をエクスポートしますか?';
 $string['writingfiles'] = 'ファイル書き出し中';
 $string['youarehere'] = 'あなたはここにいます';
 $string['youmustselectatleastoneviewtoexport'] = 'あなたはエクスポートするビューを少なくとも1つ選択する必要があります。';
-$string['zipnotinstalled'] = 'あなたのシステムには、ZIPコマンドがありません。この機能を有効にするには、ZIPをインストールしてください。';
+$string['zipnotinstalled'] = 'あなたのシステムにはZIPコマンドがありません。この機能を有効にするには、ZIPをインストールしてください。';
 
 ?>

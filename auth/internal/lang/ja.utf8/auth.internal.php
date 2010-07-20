@@ -32,10 +32,10 @@ $string['internal'] = '内部';
 $string['title'] = '内部';
 $string['description'] = 'Maharaデータベースで認証する';
 $string['completeregistration'] = '登録を完了する';
-$string['emailalreadytaken'] = 'このメールアドレスは、すでに登録されています。';
+$string['emailalreadytaken'] = 'このメールアドレスはすでに登録されています。';
 $string['iagreetothetermsandconditions'] = '私は使用条件に同意します。';
-$string['passwordformdescription'] = 'あなたのパスワードには、少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
-$string['passwordinvalidform'] = 'あなたのパスワードには、少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
+$string['passwordformdescription'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
+$string['passwordinvalidform'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
 $string['registeredemailsubject'] = 'あなたは %s に登録されました。';
 $string['registeredemailmessagetext'] = '%s さん
 
@@ -43,22 +43,22 @@ $string['registeredemailmessagetext'] = '%s さん
 
 register.php?key=%s
 
-メールに含まれているリンクは、24時間のみ有効です。
+メールに含まれているリンクは24時間のみ有効です。
 
 --
 %s チーム';
 $string['registeredemailmessagehtml'] = '<p>%s さん</p>
 <p>%s への登録ありがとうございます。サインアップ処理を完了するには、次のリンクに従ってください:</p>
 <p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>
-<p>メールに含まれているリンクは、24時間のみ有効です。</p>
+<p>メールに含まれているリンクは24時間のみ有効です。</p>
 
 <pre>--
 %s チーム</pre>';
 $string['registeredok'] = '<p>あなたは正常にユーザ登録されました。アカウントを有効化するため、あなたのメールアドレス宛に送信されたインストラクションをご覧ください。</p>';
 $string['registrationnosuchkey'] = '申し訳ございません、このキーによるユーザ登録は存在していないようです。もしかしたら、ユーザ登録完了まで、24時間以上経過しましたか? そうでない場合、私たちに責任があります。';
-$string['registrationunsuccessful'] = '申し訳ございません、あなたのユーザ登録は正常に完了しませんでした。これは、あなたではなく、私たちに責任があります。後ほど再度お試しください。';
-$string['usernamealreadytaken'] = '申し訳ございません、このユーザ名は、すでに取得されています。';
-$string['usernameinvalidform'] = 'ユーザ名には、半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは、半角3文字から30文字の間にしてください。空白は、許可されません。';
+$string['registrationunsuccessful'] = '申し訳ございません、あなたのユーザ登録は正常に完了しませんでした。これはあなたではなく、私たちに責任があります。後ほど再度お試しください。';
+$string['usernamealreadytaken'] = '申し訳ございません、このユーザ名はすでに取得されています。';
+$string['usernameinvalidform'] = 'ユーザ名には半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3文字から30文字の間にしてください。空白は許可されません。';
 $string['youmaynotregisterwithouttandc'] = '<a href="terms.php">使用条件</a>の順守に同意しない限り、あなたはユーザ登録されません。';
 $string['youmustagreetothetermsandconditions'] = 'あなたは<a href="terms.php">使用条件</a>に同意する必要があります。';
 
