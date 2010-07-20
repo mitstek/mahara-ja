@@ -33,8 +33,8 @@ $string['wwwroot'] = 'WWWルート';
 $string['port'] = 'ポート番号';
 $string['protocol'] = 'プロトコル';
 $string['changepasswordurl'] = 'パスワード変更URI';
-$string['cannotremove'] = 'インスティテューションに関する唯一のプラグインのため、私たちは、この認証プラグインを削除することはできません。';
-$string['cannotremoveinuse'] = '他のユーザに使用されているため、私たちは、この認証プラグインを削除することはできません。あなたが、このプラグインを削除できるようになる前に、ユーザレコードを更新する必要があります。';
+$string['cannotremove'] = 'インスティテューションに関する唯一のプラグインのため、私たちはこの認証プラグインを削除することはできません。';
+$string['cannotremoveinuse'] = '他のユーザに使用されているため、私たちはこの認証プラグインを削除することはできません。あなたが、このプラグインを削除できるようになる前に、ユーザレコードを更新する必要があります。';
 $string['saveinstitutiondetailsfirst'] = '認証プラグインを設定する前に、インスティテューション詳細を保存してください。';
 $string['editauthority'] = '認証局を編集する';
 $string['addauthority'] = '認証局を追加する';
@@ -55,11 +55,11 @@ $string['authloginmsg'] = 'ユーザがMaharaログインフォーム経由で�
 $string['application'] = 'アプリケーション';
 $string['cantretrievekey'] = 'リモートサーバのパブリックキー検索中、エラーが発生しました。<br />アプリケーションおよびWWWルートフィールドが正しいこと、およびリモートホストのネットワークが有効にされていることを確認してください。';
 $string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s に対する使用を試みています。';
-$string['errnoauthinstances'] = '私たちには、%s のホストに関して、認証プラグインインスタンスが設定されていないようです。';
+$string['errnoauthinstances'] = '私たちには%s のホストに関して、認証プラグインインスタンスが設定されていないようです。';
 $string['errornotvalidsslcertificate'] = '有効なSSLサーバ証明書ではありません。';
-$string['errnoxmlrpcinstances'] = '私たちには、%s のホストに関して、XMLRPCプラグインインスタンスが設定されていないようです。';
-$string['errnoxmlrpcwwwroot'] = '私たちには、%s のホストに関して、レコードがありません。';
-$string['errnoxmlrpcuser'] = '現時点では、あなたを認証することができませんでした。可能性のある理由として下記が考えられます:
+$string['errnoxmlrpcinstances'] = '私たちには%s のホストに関して、XMLRPCプラグインインスタンスが設定されていないようです。';
+$string['errnoxmlrpcwwwroot'] = '私たちには%s のホストに関して、レコードがありません。';
+$string['errnoxmlrpcuser'] = '現時点ではあなたを認証することができませんでした。可能性のある理由として下記が考えられます:
 
 *あなたのSSOセッションが失効しました。他のアプリケーションに戻って、Maharaにログインするためのリンクを再度クリックしてください。
 *あなたのMaharaに対するSSOが許可されていません。あなたがSSOできるかどうか管理者にご確認ください。';
