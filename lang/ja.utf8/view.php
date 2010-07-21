@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-07-21 14:14:42 UTC
+ * @updated    2010-07-21 14:18:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -130,7 +130,7 @@ $string['cantsubmitviewtogroup'] = 'あなたはこのビューの評価を目�
 $string['cantdeleteview'] = 'あなたはこのビューを削除できません。';
 $string['deletespecifiedview'] = 'ビュー「 %s 」を削除する';
 $string['deleteviewconfirm'] = '本当にこのビューを削除してもよろしいですか? 元に戻すことはできません。';
-$string['deleteviewconfirmnote'] = '<p><strong>注意:</strong> このビューに追加されたコンテンツブロックすべては削除されません。しかし、ビューに投稿されたフィードバックすべては削除されます。最初にエクスポートによるビューのバックアップをお考えください。</p>';
+$string['deleteviewconfirmnote'] = '<p><strong>注意:</strong> このビューに追加されたコンテンツブロックすべて削除されません。しかし、ビューに投稿されたフィードバックすべては削除されます。最初にエクスポートによるビューのバックアップをお考えください。</p>';
 $string['editaccesspagedescription2'] = '<p>デフォルトではあなたのみビューを閲覧することができます。ここではあなたのビュー情報を閲覧させたいユーザを選択することができます。パブリック、ログインユーザ、フレンドにアクセス権を与えるには「追加」をクリックしてください。個別のユーザまたはグループを検索するには、検索ボックスを使用してください。すべての追加されたユーザまたはグループは右側のウィンドウ枠に表示されます。</p>
 <p>追加処理を終了して続けるには「保存」ボタンをクリックしてください。</p>';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
