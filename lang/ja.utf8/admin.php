@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-07-15 12:25:12 UTC
+ * @updated    2010-07-22 15:33:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -585,7 +585,7 @@ $string['bulkexportusernames'] = 'エクスポートするユーザ名';
 $string['bulkexportusernamesdescription'] = 'データとともにエクスポートされるユーザのリストです (1行あたり1ユーザ)。';
 $string['couldnotexportusers'] = '次のユーザをエクスポートすることができませんでした: %s';
 $string['exportingusername'] = 'エクスポート %s ...';
-$string['Query'] = 'クエリ';
+$string['Search'] = '検索';
 $string['Institution'] = 'インスティテューション';
 $string['confirm'] = '承認';
 $string['invitedby'] = '招待者';

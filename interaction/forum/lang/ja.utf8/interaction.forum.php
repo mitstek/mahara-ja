@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-06-10 18:12:28 UTC
+ * @updated    2010-07-22 15:33:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -125,6 +125,7 @@ $string['postedin'] = '%s が %s に投稿しました。';
 $string['Poster'] = '投稿者';
 $string['postreply'] = '返信';
 $string['Posts'] = '投稿';
+$string['allposts'] = 'すべての投稿';
 $string['postsvariable'] = '投稿: %s';
 $string['potentialmoderators'] = '潜在的なモデレータ';
 $string['re'] = 'Re: %s';
