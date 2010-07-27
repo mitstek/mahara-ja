@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-07-22 15:33:51 UTC
+ * @updated    2010-07-27 17:16:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -471,7 +471,7 @@ $string['newusercreated'] = '新しいユーザアカウントが正常に作成
 $string['noleap2axmlfiledetected'] = 'leap2a.xmlファイルが見つかりませんでした - 再度、あなたのエクスポートファイルを確認してください。';
 $string['Or...'] = 'または ...';
 $string['userwillreceiveemailandhastochangepassword'] = '新しいアカウント詳細を記載したEメールがユーザに送信されます。新しく作成されたユーザは初回ログイン時、パスワードを変更を求められます。';
-$string['uploadleap2afile'] = 'LEAP2Aをアップロードする';
+$string['uploadleap2afile'] = 'LEAP2Aファイルをアップロードする';
 $string['usercreationmethod'] = '1 - ユーザ作成方法';
 $string['basicdetails'] = '2 - 基本情報';
 $string['create'] = '3 - 作成';
