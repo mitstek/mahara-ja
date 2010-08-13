@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-03-09 05:26:36 UTC
+ * @updated    2010-08-13 21:26:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -73,8 +73,8 @@ $string['viewsubmittedtogroup'] = 'このビューは<a href="%s">%s</a>に送�
 $string['nobodycanseethisview2'] = 'あなたのみ、このビューを閲覧できます。';
 $string['noviews'] = 'ビューはありません。';
 $string['youhavenoviews'] = 'あなたのビューはありません。';
-$string['youhaveoneview'] = 'あなたには1 件のビューがあります。';
-$string['youhaveviews'] = 'あなたには%s 件のビューがあります。';
+$string['youhaveoneview'] = 'あなたには 1 件のビューがあります。';
+$string['youhaveviews'] = 'あなたには %s 件のビューがあります。';
 $string['viewsownedbygroup'] = 'このグループが所有しているビュー';
 $string['viewssharedtogroup'] = 'このグループで共有されているビュー';
 $string['viewssharedtogroupbyothers'] = 'このグループで共有されている、他のメンバーのビュー';
