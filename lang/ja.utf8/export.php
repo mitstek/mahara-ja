@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-26 20:33:28 UTC
+ * @updated    2010-08-13 20:52:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -31,6 +31,7 @@ defined('INTERNAL') || die();
 $string['allmydata'] = '私のすべてのデータ';
 $string['chooseanexportformat'] = 'エクスポートフォーマットを選択する';
 $string['clicktopreview'] = 'プレビューするには、ここをクリック';
+$string['collectionstoexport'] = 'エクスポートするコレクション';
 $string['creatingzipfile'] = 'ZIPファイル作成中';
 $string['Done'] = '完了';
 $string['Export'] = 'エクスポート';
@@ -46,6 +47,7 @@ $string['exportpagedescription'] = 'ここではあなたのポートフォリ�
 $string['exportyourportfolio'] = 'あなたのポートフォリオを生成する';
 $string['generateexport'] = 'エクスポートを生成する';
 $string['noexportpluginsenabled'] = '管理者によりエクスポートプラグインが有効にされていないため、あなたはこの機能を使用することはできません。';
+$string['justsomecollections'] = 'いくすかのマイコレクションのみ';
 $string['justsomeviews'] = 'いくつかのマイビューのみ';
 $string['pleasewaitwhileyourexportisbeinggenerated'] = 'あなたのエクスポートを生成しています。お待ちください ...';
 $string['reverseselection'] = 'すべての選択を解除する';
@@ -58,6 +60,7 @@ $string['viewstoexport'] = 'エクスポートするビュー';
 $string['whatdoyouwanttoexport'] = '何をエクスポートしますか?';
 $string['writingfiles'] = 'ファイル書き出し中';
 $string['youarehere'] = 'あなたはここにいます';
+$string['youmustselectatleastonecollectiontoexport'] = 'あなたはエクスポートするコレクションを少なくとも1つ選択する必要があります。';
 $string['youmustselectatleastoneviewtoexport'] = 'あなたはエクスポートするビューを少なくとも1つ選択する必要があります。';
 $string['zipnotinstalled'] = 'あなたのシステムにはZIPコマンドがありません。この機能を有効にするには、ZIPをインストールしてください。';
 
