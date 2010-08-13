@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-07-21 14:18:52 UTC
+ * @updated    2010-08-13 21:26:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -70,12 +70,12 @@ $string['views'] = 'ビュー';
 $string['View'] = 'ビュー';
 $string['Views'] = 'ビュー';
 $string['viewsubmittedtogroup'] = 'このビューは<a href="%s">%s</a>に送信されました。';
-$string['viewsubmittedtogroupon'] = 'このビューは<a href="%s">%s</a>に対して %s　%s に送信されました。';
+$string['viewsubmittedtogroupon'] = 'このビューは<a href="%s">%s</a>に対して %s に送信されました。';
 $string['nobodycanseethisview2'] = 'あなたのみ、このビューを閲覧できます。';
 $string['noviews'] = 'ビューはありません。';
 $string['youhavenoviews'] = 'あなたのビューはありません。';
-$string['youhaveoneview'] = 'あなたには1 件のビューがあります。';
-$string['youhaveviews'] = 'あなたには%s 件のビューがあります。';
+$string['youhaveoneview'] = 'あなたには 1 件のビューがあります。';
+$string['youhaveviews'] = 'あなたには %s 件のビューがあります。';
 $string['viewsownedbygroup'] = 'このグループが所有しているビュー';
 $string['viewssharedtogroup'] = 'このグループで共有されているビュー';
 $string['viewssharedtogroupbyothers'] = 'このグループで共有されている、他のメンバーのビュー';
@@ -131,8 +131,8 @@ $string['cantdeleteview'] = 'あなたはこのビューを削除できません
 $string['deletespecifiedview'] = 'ビュー「 %s 」を削除する';
 $string['deleteviewconfirm'] = '本当にこのビューを削除してもよろしいですか? 元に戻すことはできません。';
 $string['deleteviewconfirmnote'] = '<p><strong>注意:</strong> このビューに追加されたコンテンツブロックすべて削除されません。しかし、ビューに投稿されたフィードバックすべては削除されます。最初にエクスポートによるビューのバックアップをお考えください。</p>';
-$string['editaccesspagedescription2'] = '<p>デフォルトではあなたのみビューを閲覧することができます。ここではあなたのビュー情報を閲覧させたいユーザを選択することができます。パブリック、ログインユーザ、フレンドにアクセス権を与えるには「追加」をクリックしてください。個別のユーザまたはグループを検索するには、検索ボックスを使用してください。すべての追加されたユーザまたはグループは右側のウィンドウ枠に表示されます。</p>
-<p>追加処理を終了して続けるには「保存」ボタンをクリックしてください。</p>';
+$string['editaccessdescription'] = '<p>デフォルトでは、あなたの %s のみ閲覧することができます。このページでアクセスルールを追加することで、あなたの %s を他のユーザと共有することができます。</p>
+<p>あなたの設定完了後、続けるためスクロールダウンして「保存」をクリックしてください。</p>';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
 $string['overridingstartstopdatesdescription'] = 'あなたは開始日および終了日をオーバーライドすることができます。アクセス開始日およびアクセス終了日をどのように設定したとしても、開始日以前および終了日以降には他のユーザはビューを閲覧することができません。';
 $string['emptylabel'] = 'このラベルのテキストを入力するには、ここをクリックしてください。';
@@ -224,6 +224,7 @@ $string['changeviewtheme'] = 'あなたがこのビューに選択したテー�
 $string['Template'] = 'テンプレート';
 $string['allowcopying'] = 'コピーを許可する';
 $string['templatedescription'] = 'このチェックボックスをチェックした場合、あなたのビューを閲覧できるユーザに対して、自分のビューとしてコピーできるようにします。';
+$string['templatedescriptionplural'] = 'このチェックボックスをチェックした場合、あなたのビューを閲覧できるユーザに対して、自分のビューとしてコピーできるようにします。';
 $string['choosetemplatepagedescription'] = '<p>ここでは新しいビュー作成の出発点として、あなたがコピーを許可されているビューを検索することができます。ビューの名称をクリックすることで、あなたはそれぞれのビューのプレビューを表示することができます。あなたがコピーしたいビューを見つけた場合、ビューのコピーを作成するため、該当する「ビューをコピーする」ボタンをクリックして、コピーされたビューの修正を開始してください。</p>';
 $string['choosetemplategrouppagedescription'] = '<p>ここでは新しいビュー作成の出発点として、このグループがコピーを許可されているビューを検索することができます。ビューの名称をクリックすることで、あなたはそれぞれのビューのプレビューを表示することができます。あなたがコピーしたいビューを見つけた場合、ビューのコピーを作成するため、該当する「ビューをコピーする」ボタンをクリックして、コピーされたビューの修正を開始してください。</p>
 <p><strong>注意:</strong> 現在、グループではブログまたはブログ記事をコピーすることはできません。</p>';
