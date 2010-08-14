@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-08-12 05:07:14 UTC
+ * @updated    2010-08-14 19:24:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -28,9 +28,13 @@
 
 defined('INTERNAL') || die();
 
+$string['completed'] = '完了済み';
+$string['completiondate'] = '完了日';
+$string['completeddesc'] = 'あなたのプランを完了済みにします。';
 $string['description'] = '説明';
 $string['deleteplanconfirm'] = '本当にこのプランを削除してもよろしいですか? このプランを削除することで、プランの中に含まれているすべてのタスクも削除されます。';
 $string['deleteplan'] = 'プランを削除する';
+$string['deletethisplan'] = 'プランを削除する: %s';
 $string['editplan'] = 'プランを編集する';
 $string['editingplan'] = 'プランの編集';
 $string['managetasks'] = 'タスクを管理する';
@@ -42,11 +46,16 @@ $string['plan'] = 'プラン';
 $string['plans'] = 'プラン';
 $string['plandeletedsuccessfully'] = 'プランが正常に削除されました。';
 $string['plannotdeletedsuccessfully'] = 'プランの削除中にエラーが発生しました。';
+$string['plannotsavedsuccessfully'] = 'このフォームの送信中にエラーが発生しました。マークされたフィールドを確認して再度お試しください。';
 $string['plansavedsuccessfully'] = 'プランが正常に保存されました。';
+$string['planstasks'] = 'プラン「 %s 」のタスク';
+$string['planstasksdesc'] = '下記のタスクを追加するか右側のボタンをクリックして、あなたのプランを作成してください。';
 $string['saveplan'] = 'プランを保存する';
 $string['title'] = 'タイトル';
+$string['titledesc'] = 'タイトルはそれぞれの「マイプラン」ブロックタイプでのタイトル表示に使用されます。';
 $string['deletetaskconfirm'] = '本当にこのタスクを削除してもよろしいですか?';
 $string['deletetask'] = 'タスクを削除する';
+$string['deletethistask'] = 'タスクを削除する: %s';
 $string['edittask'] = 'タスクを編集する';
 $string['editingtask'] = 'タスクの編集';
 $string['mytasks'] = 'マイタスク';
