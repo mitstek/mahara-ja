@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-08-14 19:24:25 UTC
+ * @updated    2010-08-14 19:29:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -52,7 +52,7 @@ $string['planstasks'] = 'プラン「 %s 」のタスク';
 $string['planstasksdesc'] = '下記のタスクを追加するか右側のボタンをクリックして、あなたのプランを作成してください。';
 $string['saveplan'] = 'プランを保存する';
 $string['title'] = 'タイトル';
-$string['titledesc'] = 'タイトルはそれぞれの「マイプラン」ブロックタイプでのタイトル表示に使用されます。';
+$string['titledesc'] = 'それぞれの「マイプラン」ブロックタイプ内タスクにタイトルを表示するために使用されます。';
 $string['deletetaskconfirm'] = '本当にこのタスクを削除してもよろしいですか?';
 $string['deletetask'] = 'タスクを削除する';
 $string['deletethistask'] = 'タスクを削除する: %s';
