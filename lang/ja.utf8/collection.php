@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-08-13 21:43:49 UTC
+ * @updated    2010-08-15 17:20:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -41,10 +41,11 @@ $string['Collection'] = 'コレクション';
 $string['collections'] = 'コレクション';
 $string['collectionaccess'] = 'コレクションアクセス';
 $string['collectionaccesseditedsuccessfully'] = 'コレクションが正常に保存されました。';
-$string['collectioneditaccess'] = 'あなたには、このコレクション内の %d 件のビューに対する編集アクセス権があります。';
+$string['collectioneditaccess'] = 'あなたには、このコレクション内の %d 件のビューに対する編集アクセス権があります';
 $string['collectionconfirmdelete'] = 'このコレクション内のビューは削除されません。本当にこのコレクションを削除してもよろしいですか?';
 $string['collectioncreatedsuccessfully'] = 'コレクションが正常に作成されました。';
 $string['collectiondeleted'] = 'コレクションが正常に削除されました。';
+$string['collectiondescription'] = 'コレクションは相互にリンクして同一アクセスパーミッションを持つ一連のビューです。あなたが好きなだけコレクションを作成することができますが、ビューを1つ以上のコレクションに表示することはできません。';
 $string['confirmcancelcreatingcollection'] = 'このコレクションは完了していません。本当にキャンセルしてもよろしいですか?';
 $string['collectionsaved'] = 'コレクションが正常に保存されました。';
 $string['deletecollection'] = 'コレクションを削除する';
