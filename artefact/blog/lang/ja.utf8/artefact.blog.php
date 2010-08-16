@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-07-06 07:38:47 UTC
+ * @updated    2010-08-16 18:54:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -35,6 +35,7 @@ $string['addblog'] = 'ブログを追加する';
 $string['addpost'] = '記事を追加する';
 $string['alignment'] = '配置';
 $string['allowcommentsonpost'] = 'あなたのブログにコメントを許可します。';
+$string['allposts'] = 'すべての記事';
 $string['attach'] = '添付';
 $string['attachedfilelistloaded'] = '添付ファイル一覧が読み込まれました。';
 $string['attachedfiles'] = '添付ファイル';
