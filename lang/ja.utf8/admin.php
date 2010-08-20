@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-07-27 17:16:24 UTC
+ * @updated    2010-08-20 03:43:28 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -174,9 +174,6 @@ $string['statsmaxquotaused'] = '平均利用ディスククオータ: %s (最も
 $string['groupcountsbytype'] = 'グループタイプごとのグループ数';
 $string['groupcountsbyjointype'] = 'アクセスタイプごとのグループ数';
 $string['blockcountsbytype'] = 'ポートフォリオビューで最も使用されたブロック';
-$string['Rank'] = 'ランク';
-$string['registrationrankdescription'] = '更新情報を毎週mahara.orgに送信している他の登録サイトすべてと比較した、このサイトのランクです。';
-$string['rankingsupdated'] = 'ランキング更新日時: %s';
 $string['uptodate'] = '最新';
 $string['latestversionis'] = '最新バージョン: <a href="%s">%s</a>';
 $string['viewsbytype'] = 'タイプ別ビュー';
