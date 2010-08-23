@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-07-22 15:33:04 UTC
+ * @updated    2010-08-23 06:15:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -146,7 +146,6 @@ $string['grouprequestmessagereason'] = '%s があなたのグループ「 %s 」
 %s';
 $string['cantdeletegroup'] = 'あなたはこのグループを削除できません。';
 $string['groupconfirmdelete'] = '本当にこのグループを削除してもよろしいですか?';
-$string['groupconfirmdeletehasviews'] = '本当にこのグループを削除してもよろしいですか? いくつかのあなたのビューではこのグループをアクセスコントロールに使用しています。このグループを削除することで、グループのメンバーがあなたのビューにアクセスできなくなります。';
 $string['deletegroup'] = 'グループが正常に削除されました。';
 $string['allmygroups'] = 'すべてのマイグループ';
 $string['groupsimin'] = '私が参加しているグループ';
