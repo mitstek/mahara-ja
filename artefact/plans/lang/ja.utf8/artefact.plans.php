@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-08-14 19:29:42 UTC
+ * @updated    2010-08-24 08:57:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -28,9 +28,6 @@
 
 defined('INTERNAL') || die();
 
-$string['completed'] = '完了済み';
-$string['completiondate'] = '完了日';
-$string['completeddesc'] = 'あなたのプランを完了済みにします。';
 $string['description'] = '説明';
 $string['deleteplanconfirm'] = '本当にこのプランを削除してもよろしいですか? このプランを削除することで、プランの中に含まれているすべてのタスクも削除されます。';
 $string['deleteplan'] = 'プランを削除する';
@@ -53,6 +50,10 @@ $string['planstasksdesc'] = '下記のタスクを追加するか右側のボタ
 $string['saveplan'] = 'プランを保存する';
 $string['title'] = 'タイトル';
 $string['titledesc'] = 'それぞれの「マイプラン」ブロックタイプ内タスクにタイトルを表示するために使用されます。';
+$string['alltasks'] = 'すべてのタスク';
+$string['completed'] = '完了済み';
+$string['completiondate'] = '完了日';
+$string['completeddesc'] = 'あなたのプランを完了済みにします。';
 $string['deletetaskconfirm'] = '本当にこのタスクを削除してもよろしいですか?';
 $string['deletetask'] = 'タスクを削除する';
 $string['deletethistask'] = 'タスクを削除する: %s';
