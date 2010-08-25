@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-08-15 17:47:13 UTC
+ * @updated    2010-08-25 21:45:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -838,5 +838,6 @@ $string['sharenetworksubtitle'] = 'フレンドに会って、グループに参
 $string['findfriendslinked'] = '<a href="%s">フレンド</a>を探す';
 $string['joingroups'] = '<a href="%s">グループ</a>に参加する';
 $string['sharenetworkdescription'] = 'あなたは誰がどのくらいの期間、それぞれのビューにアクセスできるか微調整することができます。';
+$string['howtodisable'] = '* あなたはこのボックスの可視性を<a href="%s">設定</a>ページにてコントロールすることができます。';
 
 ?>
