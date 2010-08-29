@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-08-16 18:54:30 UTC
+ * @updated    2010-08-29 20:59:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -123,6 +123,9 @@ $string['texttop'] = 'テキスト上揃え';
 $string['textbottom'] = 'テキストボタン';
 $string['left'] = '左';
 $string['right'] = '右';
+$string['src'] = 'イメージURI';
+$string['image_list'] = '添付イメージ';
+$string['alt'] = '説明';
 $string['copyfull'] = '他のユーザはあなたの %s を自分のコピーとして取得できる';
 $string['copyreference'] = '他のユーザはあなたの %s をビューに表示できる';
 $string['copynocopy'] = 'ビューをコピーする場合、このブロックを完全にスキップする';
