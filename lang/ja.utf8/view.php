@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-08-31 16:51:31 UTC
+ * @updated    2010-08-13 21:26:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -165,7 +165,6 @@ $string['success.changetheme'] = 'テーマが正常に更新されました。'
 $string['err.changetheme'] = 'テーマを更新できませんでした。';
 $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除してもよろしいですか?';
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
-$string['blockconfigurationrenderingerror'] = 'レンダリングできなかったため、ブロック設定に失敗しました。';
 $string['blocksintructionnoajax'] = 'あなたのビューに追加するブロックを選択してください。あなたはブロックタイトルバーの矢印を使って、ブロックの配置を変更することができます。';
 $string['blocksinstructionajax'] = 'あなたのビューレイアウトにブロックを追加するには、この下にドラッグしてください。あなたのビュー内でドラッグすることで、ブロックの配置を変更することができます。';
 $string['addnewblockhere'] = 'ここに新しいブロックを追加する';
