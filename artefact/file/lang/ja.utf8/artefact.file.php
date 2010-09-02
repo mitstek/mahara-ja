@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-07-06 08:30:44 UTC
+ * @updated    2010-09-02 15:57:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -51,6 +51,12 @@ $string['Date'] = '登録日';
 $string['defaultagreement'] = 'デフォルト同意書';
 $string['defaultquota'] = 'デフォルトクオータ';
 $string['defaultquotadescription'] = 'あなたは新しいユーザがクオータとして持つことのできるディスクスペース総量をここで設定することができます。既存のユーザのクオータは変更されません。';
+$string['maxquotaenabled'] = 'サイト全体の最大クオータを強制する';
+$string['maxquota'] = '最大クオータ';
+$string['maxquotatoolow'] = '最大クオータはデフォルトクオータより小さくすることができません。';
+$string['maxquotaexceeded'] = 'あなたはこのサイトに設定されている最大利用可能なサイズ (%s) を超えてクオータを指定しました。値を小さくする、または最大サイズを増やすため、サイト管理者に連絡してください。';
+$string['maxquotaexceededform'] = '%s より小さなファイルクオータを指定してください。';
+$string['maxquotadescription'] = 'あなたは管理者がユーザに与えることのできる最大クオータを設定することができます。既存のユーザのクオータは影響を受けません。';
 $string['deletefile?'] = '本当にこのファイルを削除してもよろしいですか?';
 $string['deletefolder?'] = '本当にこのフォルダを削除してもよろしいですか?';
 $string['Description'] = '説明';
