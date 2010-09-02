@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-08-15 17:20:25 UTC
+ * @updated    2010-09-02 16:20:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,7 +29,10 @@
 defined('INTERNAL') || die();
 
 $string['pluginname'] = 'コレクション';
+$string['about'] = 'About';
 $string['access'] = 'アクセス';
+$string['accesscantbeused'] = 'アクセスオーバーライドは保存されませんでした。選択されたビューアクセス (シークレットURI) は複数のビューで使用することができません。';
+$string['accessoverride'] = 'アクセスオーバーライド';
 $string['accesssaved'] = 'コレクションアクセスが正常に保存されました。';
 $string['accessignored'] = 'いくつかのシークレットURIタイプは無視されました。';
 $string['add'] = '追加';
@@ -48,6 +51,7 @@ $string['collectiondeleted'] = 'コレクションが正常に削除されまし
 $string['collectiondescription'] = 'コレクションは相互にリンクして同一アクセスパーミッションを持つ一連のビューです。あなたが好きなだけコレクションを作成することができますが、ビューを1つ以上のコレクションに表示することはできません。';
 $string['confirmcancelcreatingcollection'] = 'このコレクションは完了していません。本当にキャンセルしてもよろしいですか?';
 $string['collectionsaved'] = 'コレクションが正常に保存されました。';
+$string['created'] = '作成日';
 $string['deletecollection'] = 'コレクションを削除する';
 $string['deletespecifiedcollection'] = 'コレクション「 %s 」を削除する';
 $string['deletingcollection'] = 'コレクションの削除';
@@ -60,16 +64,25 @@ $string['editviews'] = 'コレクションビューを編集する';
 $string['editviewaccess'] = 'ビューアクセスを編集する';
 $string['editaccess'] = 'コレクションアクセスを編集する';
 $string['emptycollectionnoeditaccess'] = 'あなたは空のコレクションのアクセスを編集することはできません。最初にビューを追加してください。';
+$string['emptycollection'] = '空のコレクション';
+$string['incorrectaccesstype'] = '注意: アクセスタイプ「シークレットURI」はオーバーライドアクセスタイプとして設定することができません。この設定は無視され、既存のビューアクセスは保持されます。しかし、選択されたオーバーライドビューに他のアクセスタイプを含んでいる場合、既存のアクセスタイプは解除され、それらのアクセスタイプが適用されます。';
 $string['manageviews'] = 'ビューを管理する';
 $string['mycollections'] = 'マイコレクション';
 $string['name'] = 'コレクション名';
 $string['newcollection'] = '新しいコレクション';
 $string['nocollectionsaddone'] = 'まだコレクションはありません。%sコレクションを追加してください%s!';
+$string['nooverride'] = 'オーバーライドはありません。';
+$string['nooverridesaved'] = 'ビューのオーバーライドアクセスは選択されていません。';
 $string['noviewsavailable'] = '追加できるビューはありません。';
 $string['noviewsaddsome'] = 'コレクションにビューはありません。%sビューを追加してください%s!';
 $string['noviews'] = 'ビューはありません。';
+$string['overrideaccess'] = 'アクセスをオーバーライドする';
+$string['potentialviews'] = '潜在的ビュー';
+$string['saveapply'] = '適用して保存する';
 $string['savecollection'] = 'コレクションを保存する';
 $string['update'] = '更新';
+$string['usecollectionname'] = 'コレクション名を使用しますか?';
+$string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしてください。';
 $string['viewaddedtocollection'] = 'コレクションにビューが追加されました。';
 $string['viewcollection'] = 'ビューコレクション詳細';
 $string['viewcount'] = 'ビュー';
@@ -78,6 +91,7 @@ $string['viewnavigation'] = 'ビューナビゲーションバー';
 $string['viewnavigationdesc'] = 'このコレクション内すべてのビューに水平ナビゲーションバーをデフォルトで追加します。';
 $string['views'] = 'ビュー';
 $string['viewsaddedtocollection'] = 'コレクションにビューが追加されました。';
+$string['viewstobeadded'] = '追加されるビュー';
 $string['viewconfirmremove'] = '本当にこのビューをコレクションから削除してもよろしいですか?';
 
 ?>
