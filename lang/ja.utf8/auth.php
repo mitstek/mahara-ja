@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-11-09 04:21:13 UTC
+ * @updated    2010-09-03 15:09:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -74,5 +74,7 @@ $string['requiredfields'] = '必須プロファイルフィールド';
 $string['requiredfieldsset'] = '必須プロファイルフィールドセット';
 $string['noauthpluginconfigoptions'] = 'このプラグインに関する設定オプションはありません。';
 $string['hostwwwrootinuse'] = 'すでに別のインスティテューション (%s) により、WWWルートが使用されています。';
+$string['duplicateremoteusername'] = '外部認証ユーザ名はすでにユーザ %s によって使用されています。外部認証ユーザ名は認証メソッド内でユニーク (固有) である必要があります。';
+$string['duplicateremoteusernameformerror'] = '外部認証ユーザ名は認証メソッド内でユニーク (固有) である必要があります。';
 
 ?>
