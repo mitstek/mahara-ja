@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-09-02 15:57:00 UTC
+ * @updated    2010-09-03 16:47:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -57,6 +57,7 @@ $string['maxquotatoolow'] = '最大クオータはデフォルトクオータよ
 $string['maxquotaexceeded'] = 'あなたはこのサイトに設定されている最大利用可能なサイズ (%s) を超えてクオータを指定しました。値を小さくする、または最大サイズを増やすため、サイト管理者に連絡してください。';
 $string['maxquotaexceededform'] = '%s より小さなファイルクオータを指定してください。';
 $string['maxquotadescription'] = 'あなたは管理者がユーザに与えることのできる最大クオータを設定することができます。既存のユーザのクオータは影響を受けません。';
+$string['deletingfailed'] = '削除に失敗しました: すでにファイルまたはフォルダが存在していません。';
 $string['deletefile?'] = '本当にこのファイルを削除してもよろしいですか?';
 $string['deletefolder?'] = '本当にこのフォルダを削除してもよろしいですか?';
 $string['Description'] = '説明';
@@ -67,12 +68,15 @@ $string['downloadfile'] = '%s をダウンロードする';
 $string['downloadoriginalversion'] = 'オリジナルバージョンをダウンロードする';
 $string['editfile'] = 'ファイルを編集する';
 $string['editfolder'] = 'フォルダを編集する';
+$string['editingfailed'] = '編集に失敗しました: すでにファイルまたはフォルダが存在していません。';
 $string['emptyfolder'] = '空のフォルダ';
 $string['file'] = 'ファイル';
 $string['File'] = 'ファイル';
+$string['fileadded'] = 'ファイルが選択されました。';
 $string['filealreadyindestination'] = 'あなたが移動しようとしたファイルはすでにフォルダに登録されています。';
 $string['fileappearsinviews'] = 'このファイルはあなたの1つまたはそれ以上のビューに使用されています。';
 $string['fileattached'] = 'このファイルはあなたのポートフォリオ内にある、他の %s 件のアイテムに添付されています。';
+$string['fileremoved'] = 'ファイルが削除されました。';
 $string['files'] = 'ファイル';
 $string['Files'] = 'ファイル';
 $string['fileexists'] = 'ファイル登録済み';
@@ -106,6 +110,7 @@ $string['movefaileddestinationnotfolder'] = 'あなたはフォルダ内にの�
 $string['movefailednotfileartefact'] = 'ファイル、フォルダおよびイメージアーティファクトのみ移動できます。';
 $string['movefailednotowner'] = 'あなたにはこのフォルダにファイルを移動するパーミッションがありません。';
 $string['movefailed'] = '移動に失敗しました。';
+$string['movingfailed'] = '移動に失敗しました: すでにファイルまたはフォルダが存在していません。';
 $string['nametoolong'] = '名称が長すぎます。さらに短い名称を入力してください。';
 $string['nofilesfound'] = 'ファイルはありません。';
 $string['notpublishable'] = 'あなたにはこのファイルを公開するパーミッションがありません。';
@@ -114,8 +119,10 @@ $string['Owner'] = 'オーナー';
 $string['parentfolder'] = '親フォルダ';
 $string['Preview'] = 'プレビュー';
 $string['requireagreement'] = '同意を必要とする';
+$string['removingfailed'] = '削除に失敗しました: すでにファイルまたはフォルダが存在していません。';
 $string['savechanges'] = '変更を保存する';
 $string['selectafile'] = 'ファイルを選択する';
+$string['selectingfailed'] = '選択に失敗しました: すでにファイルまたはフォルダが存在していません。';
 $string['Size'] = 'サイズ';
 $string['spaceused'] = '使用スペース';
 $string['timeouterror'] = 'ファイルのアップロードに失敗しました: ファイルのアップロードを再度お試しください。';
