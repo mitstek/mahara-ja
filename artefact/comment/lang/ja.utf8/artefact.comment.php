@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-07-01 05:04:04 UTC
+ * @updated    2010-09-06 16:42:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -65,6 +65,7 @@ $string['makepublicrequestsubject'] = 'リクエスト: プライベートコメ
 $string['makepublicrequestbyauthormessage'] = 'あなたがコメントをパブリックにするよう、%s がリクエストしました。';
 $string['makepublicrequestbyownermessage'] = 'あなたがあなたのコメントをパブリックにするよう、%s がリクエストしました。';
 $string['makepublicrequestsent'] = 'コメントをパブリックにするリクエストメッセージが %s に送信されました。';
+$string['messageempty'] = 'メッセージが空白です。あなたがファイルを添付した場合のみ、空白メッセージは許可されます。';
 $string['Moderate'] = 'モデレート';
 $string['moderatecomments'] = 'コメントをモデレートする';
 $string['moderatecommentsdescription'] = 'あなたに承認されるまで、コメントはプライベートのままにされます。';
