@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-09-09 16:35:07 UTC
+ * @updated    2010-09-09 16:52:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -286,7 +286,7 @@ $string['Role'] = 'ロール';
 $string['changerole'] = 'ロールを変更する';
 $string['changeroleofuseringroup'] = 'ロールを変更する - ユーザ: %s / グループ: %s';
 $string['currentrole'] = '現在のロール';
-$string['changerolefromto'] = 'ロール %s を変更する';
+$string['changerolefromto'] = 'ロール「 %s 」を次のロールに変更する';
 $string['rolechanged'] = 'ロールが変更されました。';
 $string['removefromgroup'] = 'グループから削除する';
 $string['userremoved'] = 'ユーザが削除されました。';
