@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-02-20 23:52:37 UTC
+ * @updated    2010-09-21 17:18:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -37,6 +37,7 @@ $string['alignment'] = '配置';
 $string['attach'] = '添付';
 $string['attachedfilelistloaded'] = '添付ファイル一覧が読み込まれました。';
 $string['attachedfiles'] = '添付ファイル';
+$string['attachment'] = '添付ファイル';
 $string['attachments'] = '添付ファイル';
 $string['blogcopiedfromanotherview'] = '注意: このブロックは別のビューからコピーされました。あなたはこのブロックを移動したり、削除することができますが、%s の内容を変更することはできません。';
 $string['blogdesc'] = '説明';
