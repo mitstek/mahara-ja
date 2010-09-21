@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-03-15 17:05:16 UTC
+ * @updated    2010-09-21 17:24:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -38,6 +38,7 @@ $string['ldapfieldforemail'] = 'メールアドレスのLDAPフィールド';
 $string['ldapfieldforfirstname'] = '名のLDAPフィールド';
 $string['ldapfieldforsurname'] = '姓のLDAPフィールド';
 $string['ldapversion'] = 'LDAPバージョン';
+$string['starttls'] = 'TLS暗号化';
 $string['password'] = 'パスワード';
 $string['searchsubcontexts'] = 'サブコンテクストを検索する';
 $string['userattribute'] = 'ユーザ属性';
