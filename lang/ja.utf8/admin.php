@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-09-08 14:10:27 UTC
+ * @updated    2010-10-04 15:41:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -346,7 +346,7 @@ $string['uploadcsverrornorecords'] = 'ファイルにレコードが含まれて
 $string['uploadcsverrorunspecifiedproblem'] = '何らかの理由により、あなたのCSVファイルのレコードを追加することができませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href="https://eduforge.org/tracker/?func=add&group_id=176&atid=739">バクレポートを作成してください</a> (パスワードは空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
 $string['uploadcsverrorinvalidemail'] = 'あなたのファイルの　%s 行目にエラーがあります: このユーザのメールアドレスは正しい形式ではありません。';
 $string['uploadcsverrorincorrectnumberoffields'] = 'あなたのファイルの　%s 行目にエラーがあります: この行には正しい数のフィールドが含まれていません。';
-$string['uploadcsverrorinvalidpassword'] = 'あなたのファイルの　%s 行目にエラーがあります: このユーザのパスワードは正しい形式ではありません。';
+$string['uploadcsverrorinvalidpassword'] = 'あなたのファイルの　%s 行目にエラーがあります: パスワードは少なくとも半角英数字6文字にしてください。そしてパスワードには半角数字1文字および半角英文字2文字以上を含む必要があります。';
 $string['uploadcsverrorinvalidusername'] = 'あなたのファイルの　%s 行目にエラーがあります: このユーザのユーザ名は正しい形式ではありません。';
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には必須の「 %s 」フィールドが含まれていません。';
 $string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」はすでに登録されています。';
