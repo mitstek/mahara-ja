@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-08-31 16:56:10 UTC
+ * @updated    2010-10-06 14:03:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -194,6 +194,7 @@ $string['changeviewlayout'] = 'ビューレイアウトを変更する';
 $string['backtoyourview'] = 'マイビューに戻る';
 $string['viewlayoutchanged'] = 'ビューレイアウトが変更されました。';
 $string['numberofcolumns'] = 'カラム数';
+$string['changecolumnlayoutfailed'] = 'カラムレイアウトを変更できませんでした。同時に他のユーザがレイアウトを編集したようです。';
 $string['by'] = 'by';
 $string['viewtitleby'] = '%s by <a href="%s">%s</a>';
 $string['in'] = '-';
