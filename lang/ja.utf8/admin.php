@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-10-04 15:41:15 UTC
+ * @updated    2010-10-20 20:26:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -214,6 +214,8 @@ $string['pathtoclam'] = 'clamのパス';
 $string['pathtoclamdescription'] = 'clamscanまたはclamdscanへのファイルシステムパスです。';
 $string['registerterms'] = '登録同意';
 $string['registertermsdescription'] = 'ユーザ登録の前、ユーザに使用条件への同意を強制します。このオプションを有効にする前、あなたのサイト使用条件ページを編集する必要があります。';
+$string['allowmobileuploads'] = 'モバイルアップロードを有効にする';
+$string['allowmobileuploadsdescription'] = 'チェックした場合、ユーザは認証トークンを設定することができます - このトークンを使用してアップロードされたコンテンツはアーティファクトとして保存されます。';
 $string['remoteavatars'] = 'リモートアバタを表示する';
 $string['remoteavatarsdescription'] = 'チェックした場合、ユーザのデフォルトプロファイルアイコンに<a href="http://www.gravatar.com">Gravatar</a>サービスが利用されます。';
 $string['searchplugin'] = '検索プラグイン';

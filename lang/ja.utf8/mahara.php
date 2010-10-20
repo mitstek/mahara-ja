@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-08-27 03:57:06 UTC
+ * @updated    2010-10-20 20:24:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -471,6 +471,7 @@ $string['sendmessage'] = 'メッセージを送信する';
 $string['spamtrap'] = 'スパムトラップ';
 $string['formerror'] = 'あなたの送信の処理中にエラーが発生しました。再度お試しください。';
 $string['formerroremail'] = 'あなたの問題が続いている場合、%s より私たちにご連絡ください。';
+$string['blacklisteddomaininurl'] = 'このフィールドにはブラックリストに登録されたドメイン %s のURIが含まれています。';
 $string['notinstallable'] = 'インストールできません!';
 $string['installedplugins'] = 'インストール済みプラグイン';
 $string['notinstalledplugins'] = '未インストールプラグイン';

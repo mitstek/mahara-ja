@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-15 05:08:45 UTC
+ * @updated    2010-10-20 20:22:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -59,6 +59,8 @@ $string['disablemultipleblogserror'] = '1つのブログのみ作成していな
 $string['hiderealname'] = '実名を隠す';
 $string['hiderealnamedescription'] = 'あなたがニックネームを設定した場合、そして、あなたの実名検索により、他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
 $string['showhomeinfo'] = 'ホームページにMaharaに関する情報を表示する';
+$string['mobileuploadtoken'] = 'モバイルアップロードトークン';
+$string['mobileuploadtokendescription'] = 'アップロードを有効にするため、ここおよびあなたの携帯電話にトークンを入力してください (注意: それぞれのアップロード終了、自動的に変更されます)。<br />問題が発生した場合 - ここおよびあなたの携帯電話の入力内容をリセットしてください。';
 $string['prefssaved'] = 'プリファレンスが保存されました。';
 $string['prefsnotsaved'] = 'あなたのプリファレンスの保存に失敗しました!';
 $string['maildisabled'] = 'Eメールが無効にされました。';
