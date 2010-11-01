@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-09-03 16:47:42 UTC
+ * @updated    2010-11-01 03:29:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -100,6 +100,7 @@ $string['home'] = 'ホーム';
 $string['htmlremovedmessage'] = 'あなたが閲覧しているファイル「 <strong>%s</strong> 」は<a href="%s">%s</a> によりアップロードされたものです。以下に表示されているファイルは不適切なコンテンツのため、削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
 $string['htmlremovedmessagenoowner'] = 'あなたはファイル「 <strong>%s</strong> 」を閲覧しています。以下に表示されているファイルは不適切なコンテンツのため、削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
 $string['image'] = 'イメージ';
+$string['Images'] = 'イメージ';
 $string['lastmodified'] = '最終更新日時';
 $string['myfiles'] = 'マイファイル';
 $string['Name'] = '名称';
