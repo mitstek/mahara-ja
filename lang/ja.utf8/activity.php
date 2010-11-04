@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-07-16 16:48:12 UTC
+ * @updated    2010-11-04 16:07:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -89,5 +89,6 @@ $string['deleteallnotifications'] = 'すべての通知を削除する';
 $string['reallydeleteallnotifications'] = '本当にあなたのすべての通知を削除してもよろしいですか?';
 $string['viewsubmittedsubject'] = '%s に送信されたビュー';
 $string['viewsubmittedmessage'] = '%s がビュー「 %s 」を %s に送信しました。';
+$string['adminnotificationerror'] = 'ユーザ通知エラーは恐らくあなたのサーバ設定に起因します。';
 
 ?>
