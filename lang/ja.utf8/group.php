@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-09-09 16:52:46 UTC
+ * @updated    2010-11-05 02:49:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -95,6 +95,9 @@ $string['removedfromgroupsmessage'] = '%s があなたをグループから削�
 %s';
 $string['cantremoveuserisadmin'] = 'チューターは管理者および他のチューターを削除することはできません。';
 $string['cantremovemember'] = 'チューターはメンバーを削除できません。';
+$string['current'] = '現在';
+$string['requests'] = 'リクエスト';
+$string['invites'] = '招待';
 $string['member'] = 'メンバー';
 $string['members'] = 'メンバー';
 $string['Members'] = 'メンバー';

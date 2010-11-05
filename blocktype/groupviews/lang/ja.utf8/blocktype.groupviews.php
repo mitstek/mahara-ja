@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-06-24 16:18:43 UTC
+ * @updated    2010-11-05 02:52:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -30,5 +30,9 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'グループビュー';
 $string['description'] = 'グループ内で共有されるビューを表示します。';
+$string['displaygroupviews'] = 'グループビューを表示しますか?';
+$string['displaygroupviewsdesc'] = 'グループビュー - グループ内で作成されたビュー';
+$string['displaysharedviews'] = '共有ビューを表示しますか?';
+$string['displaysharedviewsdesc'] = '共有ビュー - グループメンバーにより共有される個人のポートフォリオ';
 
 ?>
