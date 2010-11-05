@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-06-24 16:33:45 UTC
+ * @updated    2010-11-05 02:32:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -30,7 +30,7 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'グループメンバー';
 $string['description'] = 'このグループのメンバーを一覧表示します。';
-$string['show_all'] = 'このグループのメンバーすべてを表示します ...';
+$string['show_all'] = 'このグループのメンバーすべてを表示する ...';
 $string['options_rows_title'] = '行';
 $string['options_rows_desc'] = 'あなたが表示したい行数です。';
 $string['options_columns_title'] = 'カラム';
