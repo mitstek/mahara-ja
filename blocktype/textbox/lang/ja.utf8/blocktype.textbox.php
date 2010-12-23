@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-05 21:07:57 UTC
+ * @updated    2010-12-23 22:29:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,7 +29,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'テキストボックス';
-$string['description'] = 'あなたのビューにメモを追加します。';
+$string['description'] = 'あなたのページにメモを追加します。';
 $string['blockcontent'] = 'ブロックコンテンツ';
 
 ?>

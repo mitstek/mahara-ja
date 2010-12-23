@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-09-17 21:32:28 UTC
+ * @updated    2010-12-23 22:28:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,7 +29,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'クリエイティブ・コモンズ・ライセンス';
-$string['description'] = 'あなたのビューにクリエイティブ・コモンズ・ライセンスを添付します。';
+$string['description'] = 'あなたのページにクリエイティブ・コモンズ・ライセンスを添付します。';
 $string['blockcontent'] = 'コンテンツをブロックする';
 $string['alttext'] = 'クリエイティブ・コモンズ・ライセンス';
 $string['licensestatement'] = 'この作品は<a rel="license" href="%s">Creative Commons %s 3.0 Unported License</a>により、利用許諾されています。';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-10-20 20:22:43 UTC
+ * @updated    2010-12-23 22:30:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -50,7 +50,7 @@ $string['messagesnobody'] = 'だれも私にメッセージを送信できませ
 $string['messagesfriends'] = 'マイフレンドリストに登録したユーザは私にメッセージを送信できます。';
 $string['messagesallow'] = 'だれでも私にメッセージを送信できます。';
 $string['language'] = '言語';
-$string['showviewcolumns'] = 'ビューの編集時、カラムの「追加」および「削除」ボタンを表示する';
+$string['showviewcolumns'] = 'ページの編集時、カラムの「追加」および「削除」ボタンを表示する';
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'あなたのタグクラウドに表示されるタグの最大数です。';
 $string['enablemultipleblogs'] = '複数ブログを有効にする';
@@ -67,7 +67,7 @@ $string['maildisabled'] = 'Eメールが無効にされました。';
 $string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたため、あなたのメールアドレス宛のメール送信は停止されました。アカウントプリファレンスの %s にて、Eメールを有効にする前に、あなたのEメールアカウントが正常に動作しているか確認してください。';
 $string['maildisableddescription'] = 'あなたのアカウント宛のメール送信は停止されました。アカウントプリファレンスページにて、<a href="%s">あなたのEメールを再度有効</a>にすることができます。';
 $string['deleteaccount'] = 'アカウントを削除する';
-$string['deleteaccountdescription'] = 'アカウントを削除した場合、今後、あなたのプロファイル情報およびビューを他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧することができますが、投稿者名が表示されないようになります。';
+$string['deleteaccountdescription'] = 'アカウントを削除した場合、今後、あなたのプロファイル情報およびページを他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧することができますが、投稿者名が表示されないようになります。';
 $string['accountdeleted'] = 'あなたのアカウントが正常に削除されました。';
 
 ?>

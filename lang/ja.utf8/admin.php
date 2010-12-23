@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-11-05 02:12:11 UTC
+ * @updated    2010-12-23 10:12:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -240,7 +240,7 @@ $string['sitenamedescription'] = 'サイト名はサイトおよびサイトか�
 $string['siteoptionspagedescription'] = 'ここではサイト全体にデフォルトとして適用されるグローバルオプションを設定することができます。<br />注意:無効にされたオプションはあなたのconfig.phpファイルによりオーバーライドされます。';
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['sitethemedescription'] = 'サイトのデフォルトテーマ';
-$string['smallviewheaders'] = 'スモールビューページヘッダ';
+$string['smallviewheaders'] = 'スモールページヘッダ';
 $string['smallviewheadersdescription'] = 'チェックした場合、ビューの閲覧または編集時、ブロック内にスモールヘッダおよびサイトナビゲーションが表示されます。';
 $string['spamhaus'] = 'Spamhaus URIブラックリストを有効にする';
 $string['spamhausdescription'] = 'チェックした場合、Spamhaus DNSBLを使用して、URIがチェックされます。';

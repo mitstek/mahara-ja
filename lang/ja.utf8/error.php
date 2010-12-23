@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-08-13 14:58:34 UTC
+ * @updated    2010-12-23 22:31:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -72,8 +72,8 @@ $string['versionphpmissing'] = 'プラグイン %s %s のversion.phpがありま
 $string['blocktypeprovidedbyartefactnotinstallable'] = 'これはアーティファクトプラグイン %s の一部としてインストールされます。';
 $string['blockconfigdatacalledfromset'] = 'configデータを直接設定しないでください。代わりにPluginBlocktype::instance_config_saveを使用してください。';
 $string['invaliddirection'] = '無効な移動先: %s';
-$string['onlyoneprofileviewallowed'] = 'あなたは1件のプロファイルビューのみ許可されています。';
-$string['onlyoneblocktypeperview'] = '1つ以上の %s ブロックタイプをビューに追加できません。';
+$string['onlyoneprofileviewallowed'] = 'あなたは1件のプロファイルページのみ許可されています。';
+$string['onlyoneblocktypeperview'] = '1つ以上の %s ブロックタイプをページに追加できません。';
 $string['unrecoverableerror'] = '回復不能なエラーが発生しました。恐らく、あなたはシステムバグに遭遇したと思われます。';
 $string['unrecoverableerrortitle'] = '%s - サイト利用不可';
 $string['parameterexception'] = '必須パラメータが指定されていません。';
@@ -81,18 +81,18 @@ $string['notfound'] = '不明';
 $string['notfoundexception'] = 'あなたが探しているページは見つかりませんでした。';
 $string['accessdenied'] = 'アクセスが拒否されました。';
 $string['accessdeniedexception'] = 'あなたにはこのページを閲覧するアクセス権がありません。';
-$string['viewnotfoundexceptiontitle'] = 'ビューが見つかりませんでした。';
-$string['viewnotfoundexceptionmessage'] = 'あなたは存在しないビューにアクセスを試みました!';
-$string['viewnotfound'] = 'ID %s のビューは見つかりませんでした。';
+$string['viewnotfoundexceptiontitle'] = 'ページが見つかりませんでした。';
+$string['viewnotfoundexceptionmessage'] = 'あなたは存在しないページにアクセスを試みました!';
+$string['viewnotfound'] = 'ID %s のページは見つかりませんでした。';
 $string['youcannotviewthisusersprofile'] = 'あなたはこのユーザのプロファイルを閲覧できません。';
 $string['artefactnotfoundmaybedeleted'] = 'ID %s のアーティファクトは見つかりませんでした (もしかして、削除されましたか?)。';
 $string['artefactnotfound'] = 'ID %s のアーティファクトは見つかりませんでした。';
-$string['artefactnotinview'] = 'アーティファクト %s はビュー %s にありません。';
-$string['artefactonlyviewableinview'] = 'このタイプのアーティファクトはビュー内でのみ閲覧することができます。';
+$string['artefactnotinview'] = 'アーティファクト %s はページ %s にありません。';
+$string['artefactonlyviewableinview'] = 'このタイプのアーティファクトはページ内でのみ閲覧することができます。';
 $string['notartefactowner'] = 'あなたはこのアーティファクトを所有していません。';
 $string['blockinstancednotfound'] = 'ID %s のブロックインスタンスは見つかりませんでした。';
 $string['interactioninstancenotfound'] = 'ID %s の活動インスタンスは見つかりませんでした。';
-$string['invalidviewaction'] = '無効なビューコントロール: %s';
+$string['invalidviewaction'] = '無効なページコントロール: %s';
 $string['missingparamblocktype'] = '最初に追加するブロックタイプを選択してください。';
 $string['missingparamcolumn'] = 'カラム設定がありません。';
 $string['missingparamorder'] = '並び替え順の設定がありません。';

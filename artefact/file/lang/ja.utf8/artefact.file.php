@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-11-01 03:29:37 UTC
+ * @updated    2010-12-23 22:22:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -34,8 +34,8 @@ $string['addafile'] = 'ファイルを追加する';
 $string['archive'] = 'アーカイブ';
 $string['bytes'] = 'バイト';
 $string['cannoteditfolder'] = 'あなたにはこのフォルダにコンテンツを追加するパーミッションがありません。';
-$string['cannoteditfoldersubmitted'] = 'あなたは送信済みビューのフォルダにコンテンツを追加できません。';
-$string['cannotremovefromsubmittedfolder'] = 'あなたは送信済みビューのフォルダからコンテンツを削除できません。';
+$string['cannoteditfoldersubmitted'] = 'あなたは送信済みページのフォルダにコンテンツを追加できません。';
+$string['cannotremovefromsubmittedfolder'] = 'あなたは送信済みページのフォルダからコンテンツを削除できません。';
 $string['changessaved'] = '変更が保存されました。';
 $string['clickanddragtomovefile'] = '%s を移動するには、クリック&ドラッグしてください。';
 $string['contents'] = 'コンテンツ';
@@ -74,7 +74,7 @@ $string['file'] = 'ファイル';
 $string['File'] = 'ファイル';
 $string['fileadded'] = 'ファイルが選択されました。';
 $string['filealreadyindestination'] = 'あなたが移動しようとしたファイルはすでにフォルダに登録されています。';
-$string['fileappearsinviews'] = 'このファイルはあなたの1つまたはそれ以上のビューに使用されています。';
+$string['fileappearsinviews'] = 'このファイルはあなたの1つまたはそれ以上のページに使用されています。';
 $string['fileattached'] = 'このファイルはあなたのポートフォリオ内にある、他の %s 件のアイテムに添付されています。';
 $string['fileremoved'] = 'ファイルが削除されました。';
 $string['files'] = 'ファイル';
@@ -84,12 +84,12 @@ $string['fileexistsoverwritecancel'] = 'このファイル名のファイルは�
 $string['filelistloaded'] = 'ファイルリストが読み込まれました。';
 $string['filemoved'] = 'ファイルが正常に移動されました。';
 $string['filenamefieldisrequired'] = 'ファイルフィールドは必須入力項目です。';
-$string['fileinstructions'] = 'ビューに含めるため、あなたのイメージ、ドキュメントまたは他のファイルをアップロードしてください。ファイルまたはフォルダを移動するには、フォルダ上にドラッグ&ドロップしてください。';
+$string['fileinstructions'] = 'ページに含めるため、あなたのイメージ、ドキュメントまたは他のファイルをアップロードしてください。ファイルまたはフォルダを移動するには、フォルダ上にドラッグ&ドロップしてください。';
 $string['filethingdeleted'] = '%s が削除されました。';
 $string['filewithnameexists'] = '名称「 %s 」のファイルまたはフォルダはすでに存在しています。';
 $string['folder'] = 'フォルダ';
 $string['Folder'] = 'フォルダ';
-$string['folderappearsinviews'] = 'このフォルダはあなたの1つまたはそれ以上のビューに使用されています。';
+$string['folderappearsinviews'] = 'このフォルダはあなたの1つまたはそれ以上のページに使用されています。';
 $string['Folders'] = 'フォルダ';
 $string['foldernotempty'] = 'このフォルダは空ではありません。';
 $string['foldercreated'] = 'フォルダが作成されました。';
