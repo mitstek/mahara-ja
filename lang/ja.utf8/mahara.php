@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-14 16:53:29 UTC
+ * @updated    2010-12-23 23:08:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -420,8 +420,8 @@ $string['processing'] = '処理中';
 $string['requiredfieldempty'] = '必須入力フィールドが空白です。';
 $string['unknownerror'] = '不明なエラーが発生しました (0x20f91a0)。';
 $string['home'] = 'ホーム';
+$string['mycontent'] = 'マイコンテンツ';
 $string['myportfolio'] = 'マイポートフォリオ';
-$string['myviews'] = 'マイビュー';
 $string['settings'] = '設定';
 $string['myfriends'] = 'マイフレンド';
 $string['findfriends'] = 'フレンドを探す';

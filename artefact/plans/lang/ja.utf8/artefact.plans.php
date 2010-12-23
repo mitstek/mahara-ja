@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-08-24 08:57:11 UTC
+ * @updated    2010-12-23 23:07:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -35,12 +35,12 @@ $string['deletethisplan'] = 'プランを削除する: %s';
 $string['editplan'] = 'プランを編集する';
 $string['editingplan'] = 'プランの編集';
 $string['managetasks'] = 'タスクを管理する';
-$string['myplans'] = 'マイプラン';
 $string['newplan'] = '新しいプラン';
 $string['noplansaddone'] = 'まだプランはありません。%sプランを追加してください%s!';
 $string['noplans'] = '表示するプランはありません。';
 $string['plan'] = 'プラン';
 $string['plans'] = 'プラン';
+$string['Plans'] = 'プラン';
 $string['plandeletedsuccessfully'] = 'プランが正常に削除されました。';
 $string['plannotdeletedsuccessfully'] = 'プランの削除中にエラーが発生しました。';
 $string['plannotsavedsuccessfully'] = 'このフォームの送信中にエラーが発生しました。マークされたフィールドを確認して再度お試しください。';
