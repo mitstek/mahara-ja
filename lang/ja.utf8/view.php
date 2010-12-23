@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-23 23:13:34 UTC
+ * @updated    2010-12-23 23:33:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -101,7 +101,7 @@ $string['newsecreturl'] = '新しいシークレットURI';
 $string['reallydeletesecreturl'] = '本当にこのURIを削除してもよろしいですか?';
 $string['secreturldeleted'] = 'あなたのシークレットURIが削除されました。';
 $string['secreturlupdated'] = 'シークレットURIが更新されました。';
-$string['generatesecreturl'] = '%s の新しいシークレットURIを生成する';
+$string['generatesecreturl'] = '%s の新しいシークレットURIを生成します。';
 $string['secreturls'] = 'シークレットURI';
 $string['inviteusertojoingroup'] = 'このユーザをグループへの参加に招待する';
 $string['addusertogroup'] = 'このユーザをグループに追加する';
@@ -128,6 +128,12 @@ $string['viewvisitcount'] = 'アクセス数: %s  記録: %s - %s';
 $string['friend'] = 'フレンド';
 $string['profileicon'] = 'プロファイルアイコン';
 $string['Added'] = '追加済み';
+$string['share'] = '共有';
+$string['sharewith'] = '共有対象';
+$string['accesslist'] = 'アクセスリスト';
+$string['sharewithmygroups'] = 'マイグループと共有する';
+$string['otherusersandgroups'] = '他のユーザおよびグループと共有する';
+$string['moreoptions'] = '高度な設定';
 $string['allviews'] = 'すべてのビュー';
 $string['submitviewconfirm'] = 'あなたが「 %s 」を「 %s 」に評価のため送信する場合、チューターによるビューの採点完了まで、あなたのビューを編集することができません。本当にこのビューを送信してもよろしいですか?';
 $string['submitviewtogroup'] = '評価のため「 %s 」を「 %s 」に送信する';
