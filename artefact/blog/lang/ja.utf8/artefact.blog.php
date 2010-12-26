@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-08-29 20:59:10 UTC
+ * @updated    2010-12-26 22:55:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -131,9 +131,9 @@ $string['copyreference'] = '他のユーザはあなたの %s をビューに表
 $string['copynocopy'] = 'ビューをコピーする場合、このブロックを完全にスキップする';
 $string['viewposts'] = 'コピーされた記事 (%s)';
 $string['postscopiedfromview'] = '%s からコピーされた記事';
-$string['youhavenoblogs'] = 'あなたはブログがありません。';
-$string['youhaveoneblog'] = 'あなたには1 件のブログがあります。';
-$string['youhaveblogs'] = 'あなたには%s 件のブログがあります。';
+$string['youhavenoblogs'] = 'あなたにはブログがありません。';
+$string['youhaveoneblog'] = 'あなたには 1件のブログがあります。';
+$string['youhaveblogs'] = 'あなたには %s 件のブログがあります。';
 $string['feedsnotavailable'] = 'このアーティファクトタイプではフィードは利用できません。';
 $string['feedrights'] = '著作権 %s';
 $string['enablemultipleblogstext'] = 'あなたには1件のブログがあります。あなたが2件目のブログを作成したい場合、<a href="%saccount/">アカウント設定</a>ページにて、複数ブログオプションを有効にしてください。';
