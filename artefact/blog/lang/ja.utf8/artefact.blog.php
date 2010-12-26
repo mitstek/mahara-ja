@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-09-21 17:18:23 UTC
+ * @updated    2010-12-26 22:55:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -130,8 +130,8 @@ $string['copyreference'] = '他のユーザはあなたの %s をビューに表
 $string['copynocopy'] = 'ビューをコピーする場合、このブロックを完全にスキップする';
 $string['viewposts'] = 'コピーされた記事 (%s)';
 $string['postscopiedfromview'] = '%s からコピーされた記事';
-$string['youhavenoblogs'] = 'あなたはブログがありません。';
-$string['youhaveoneblog'] = 'あなたには1 件のブログがあります。';
-$string['youhaveblogs'] = 'あなたには%s 件のブログがあります。';
+$string['youhavenoblogs'] = 'あなたにはブログがありません。';
+$string['youhaveoneblog'] = 'あなたには 1件のブログがあります。';
+$string['youhaveblogs'] = 'あなたには %s 件のブログがあります。';
 
 ?>
