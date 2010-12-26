@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-26 22:02:32 UTC
+ * @updated    2010-12-26 22:52:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -129,9 +129,9 @@ $string['copyreference'] = '他のユーザはあなたの %s をページに表
 $string['copynocopy'] = 'ページをコピーする場合、このブロックを完全にスキップする';
 $string['viewposts'] = 'コピーされたエントリ (%s)';
 $string['postscopiedfromview'] = '%s からコピーされたエントリ';
-$string['youhavenoblogs'] = 'あなたは日誌がありません。';
-$string['youhaveoneblog'] = 'あなたには1 件の日誌があります。';
-$string['youhaveblogs'] = 'あなたには%s 件の日誌があります。';
+$string['youhavenoblogs'] = 'あなたには日誌がありません。';
+$string['youhaveoneblog'] = 'あなたには 1件の日誌があります。';
+$string['youhaveblogs'] = 'あなたには %s 件の日誌があります。';
 $string['feedsnotavailable'] = 'このアーティファクトタイプではフィードは利用できません。';
 $string['feedrights'] = '著作権 %s';
 $string['enablemultipleblogstext'] = 'あなたには1件の日誌があります。あなたが2件目の日誌を作成したい場合、<a href="%saccount/">アカウント設定</a>ページにて、複数日誌オプションを有効にしてください。';
