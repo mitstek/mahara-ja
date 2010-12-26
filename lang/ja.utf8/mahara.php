@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-23 23:34:52 UTC
+ * @updated    2010-12-26 22:27:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -98,7 +98,7 @@ $string['tagfilter_all'] = 'すべて';
 $string['tagfilter_file'] = 'ファイル';
 $string['tagfilter_image'] = 'イメージ';
 $string['tagfilter_text'] = 'テキスト';
-$string['tagfilter_view'] = 'ビュー';
+$string['tagfilter_view'] = 'ページ';
 $string['edittags'] = 'タグを編集する';
 $string['selectatagtoedit'] = '編集するタグを選択してください。';
 $string['edittag'] = '<a href="%s">%s</a> を編集する';
@@ -120,7 +120,7 @@ $string['logout'] = 'ログアウト';
 $string['pendingfriend'] = '保留中のフレンド';
 $string['pendingfriends'] = '保留中のフレンド';
 $string['profile'] = 'プロファイル';
-$string['views'] = 'ビュー';
+$string['views'] = 'ページ';
 $string['onlineusers'] = 'オンラインユーザ';
 $string['lastminutes'] = '直近の %s 分間';
 $string['linksandresources'] = 'リンクおよびリソース';
@@ -512,7 +512,7 @@ $string['noeditpermission'] = 'あなたにはこのアーティファクトを�
 $string['Permissions'] = 'パーミッション';
 $string['republish'] = '公開';
 $string['view'] = '表示';
-$string['artefactnotpublishable'] = 'アーティファクト %s はビュー %s で公開できません。';
+$string['artefactnotpublishable'] = 'アーティファクト %s はページ %s で公開できません。';
 $string['allusers'] = 'すべてのユーザ';
 $string['attachment'] = '添付ファイル';
 $string['quarantinedirname'] = '隔離場所';
@@ -813,11 +813,11 @@ $string['thisistheprofilepagefor'] = 'これは%s のプロファイルページ
 $string['viewmyprofilepage'] = 'プロファイルページを表示する';
 $string['editmyprofilepage'] = 'プロファイルページを編集する';
 $string['usersprofile'] = '%s のプロファイル';
-$string['profiledescription'] = 'あなたのプロファイルビューはあなたの表示名またはプロファイルアイコンをクリックしたユーザが閲覧することになるビューです。';
+$string['profiledescription'] = 'プロファイルページはあなたの表示名またはプロファイルアイコンをクリックしたユーザが閲覧することになるページです。';
 $string['mydashboard'] = 'マイダッシュボード';
 $string['editdashboard'] = '編集';
 $string['usersdashboard'] = '%s のダッシュボード';
-$string['dashboarddescription'] = 'あなたのダッシュボードビューはあなたがログインして最初にホームページ上で閲覧することになるビューです。このビューはあなたのみアクセスすることができます。';
+$string['dashboarddescription'] = 'ダッシュボードページはあなたがログインして最初にホームページ上で閲覧することになるページです。このページはあなたのみアクセスすることができます。';
 $string['topicsimfollowing'] = '私がフォローしているトピック';
 $string['recentactivity'] = 'マイメッセージ';
 $string['mymessages'] = 'マイメッセージ';
@@ -831,15 +831,15 @@ $string['createcollectsubtitle'] = 'あなたのポートフォリオを作成�
 $string['updateyourprofile'] = '<a href="%s">プロファイル</a>を編集する';
 $string['uploadyourfiles'] = '<a href="%s">ファイル</a>をアップロードする';
 $string['createyourresume'] = '<a href="%s">レジュメ</a>を作成する';
-$string['publishablog'] = '<a href="%s">ブログ</a>を公開する';
+$string['publishablog'] = '<a href="%s">日誌</a>を公開する';
 $string['Organise'] = '整理';
-$string['organisesubtitle'] = 'あなたのポートフォリオをビューに表示します。';
-$string['organisedescription'] = 'あなたのポートフォリオを<a href="%s">ビュー</a>に整理することができます。異なる閲覧者に対して、異なるビューを作成します - あなたがビューに含む構成要素を選択します。';
+$string['organisesubtitle'] = 'あなたのポートフォリオのショーケースです。';
+$string['organisedescription'] = 'あなたのポートフォリオを<a href="%s">ページ</a>に整理することができます。異なる閲覧者に対して、異なるページを作成します - あなたがページに含む構成要素を選択します。';
 $string['sharenetwork'] = '共有およびネットワーク';
 $string['sharenetworksubtitle'] = 'フレンドに会って、グループに参加します。';
 $string['findfriendslinked'] = '<a href="%s">フレンド</a>を探す';
 $string['joingroups'] = '<a href="%s">グループ</a>に参加する';
-$string['sharenetworkdescription'] = 'あなたは誰がどのくらいの期間、それぞれのビューにアクセスできるか微調整することができます。';
+$string['sharenetworkdescription'] = '<br />あなたのプライバシーをコントロールします。';
 $string['howtodisable'] = '* あなたはこのボックスの可視性を<a href="%s">設定</a>ページにてコントロールすることができます。';
 
 ?>

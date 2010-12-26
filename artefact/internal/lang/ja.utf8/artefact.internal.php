@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-09-02 15:28:53 UTC
+ * @updated    2010-12-23 23:37:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -30,7 +30,6 @@ defined('INTERNAL') || die();
 
 $string['pluginname'] = 'プロファイル';
 $string['profile'] = 'プロファイル';
-$string['myfiles'] = 'マイファイル';
 $string['mandatory'] = '必須';
 $string['public'] = 'パブリック';
 $string['aboutdescription'] = 'あなたの本名をここに入力してください。あなたがシステム内のユーザに異なる名前を表示したい場合、ニックネーム欄に別名を入力してください。';
@@ -97,8 +96,6 @@ $string['unvalidatedemailalreadytaken'] = 'あなたが確認しようとして�
 $string['addbutton'] = '追加';
 $string['emailingfailed'] = 'プロファイルが保存されましたが、次のメールアドレス宛にメール送信できませんでした: %s';
 $string['loseyourchanges'] = '変更を取り消してもよろしいですか?';
-$string['editprofile'] = 'プロファイルを編集する';
-$string['editmyprofile'] = 'マイプロファイルを編集する';
 $string['Title'] = 'タイトル';
 $string['Created'] = '作成日時';
 $string['Description'] = '説明';
