@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-26 22:27:29 UTC
+ * @updated    2010-12-28 06:26:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -813,7 +813,7 @@ $string['thisistheprofilepagefor'] = 'これは%s のプロファイルページ
 $string['viewmyprofilepage'] = 'プロファイルページを表示する';
 $string['editmyprofilepage'] = 'プロファイルページを編集する';
 $string['usersprofile'] = '%s のプロファイル';
-$string['profiledescription'] = 'プロファイルページはあなたの表示名またはプロファイルアイコンをクリックしたユーザが閲覧することになるページです。';
+$string['profiledescription'] = 'プロファイルページはあなたの表示名またはプロファイル写真をクリックしたユーザが閲覧することになるページです。';
 $string['mydashboard'] = 'マイダッシュボード';
 $string['editdashboard'] = '編集';
 $string['usersdashboard'] = '%s のダッシュボード';

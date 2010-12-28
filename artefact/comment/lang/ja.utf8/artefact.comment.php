@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-10-05 03:17:24 UTC
+ * @updated    2010-12-28 06:09:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -44,7 +44,7 @@ $string['cantedittooold'] = 'あなたは投稿後 %d 分以内のコメント�
 $string['commentmadepublic'] = 'コメントがパブリックにされました。';
 $string['commentdeletedauthornotification'] = 'あなたの %s のコメントが削除されました:';
 $string['commentdeletednotificationsubject'] = '%s のコメントが削除されました。';
-$string['commentnotinview'] = 'コメント %d はビュー %d にありません。';
+$string['commentnotinview'] = 'コメント %d はページ %d にありません。';
 $string['commentremoved'] = 'コメントが削除されました。';
 $string['commentremovedbyauthor'] = '投稿者によりコメントが削除されました。';
 $string['commentremovedbyowner'] = 'オーナーによりコメントが削除されました。';

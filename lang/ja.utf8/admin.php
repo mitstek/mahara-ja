@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-23 10:12:13 UTC
+ * @updated    2010-12-28 06:21:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -76,9 +76,9 @@ $string['editsitepagesdescription'] = 'サイト内の様々なページコン�
 $string['menus'] = 'メニュー';
 $string['menusdescription'] = '「リンクおよびリソースメニュー」およびフッタメニュー内のリンクおよびファイルを管理します。';
 $string['sitefiles'] = 'サイトファイル';
-$string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトビューに置くことのできるファイルをアップロードおよび管理します。';
-$string['siteviews'] = 'サイトビュー';
-$string['siteviewsdescription'] = 'サイト全体のビューおよびビューテンプレートを作成および管理します。';
+$string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトページに置くことのできるファイルをアップロードおよび管理します。';
+$string['siteviews'] = 'サイトページ';
+$string['siteviewsdescription'] = 'サイト全体のページおよびページテンプレートを作成および管理します。';
 $string['networking'] = 'ネットワーキング';
 $string['networkingdescription'] = 'Maharaのネットワーキングを設定します。';
 $string['staffusers'] = 'スタッフユーザ';
@@ -103,10 +103,10 @@ $string['groupcategoriesdescription'] = 'グループカテゴリを追加およ
 $string['institutionmembersdescription'] = 'ユーザとインスティテューションを関連付けます。';
 $string['institutionstaffdescription'] = 'スタッフパーミッションをユーザに割り当てます。';
 $string['institutionadminsdescription'] = 'インスティテューション管理者アクセス権を割り当てます。';
-$string['institutionviews'] = 'インスティテューションビュー';
-$string['institutionviewsdescription'] = 'インスティテューションのビューおよびビューテンプレートを作成および管理します。';
+$string['institutionviews'] = 'インスティテューションページ';
+$string['institutionviewsdescription'] = 'インスティテューションのページおよびページテンプレートを作成および管理します。';
 $string['institutionfiles'] = 'インスティテューションファイル';
-$string['institutionfilesdescription'] = 'インスティテューションビューで使用するファイルをアップロードおよび管理します。';
+$string['institutionfilesdescription'] = 'インスティテューションページで使用するファイルをアップロードおよび管理します。';
 $string['pluginadmin'] = 'プラグイン管理';
 $string['pluginadmindescription'] = 'プラグインをインストールおよび設定します。';
 $string['htmlfilters'] = 'HTMLフィルタ';
@@ -159,7 +159,7 @@ $string['maharaversion'] = 'Maharaバージョン';
 $string['activeusers'] = 'アクティブユーザ';
 $string['loggedinsince'] = '%s=本日 / %s=%s以降 / %s=全期間';
 $string['groupmemberaverage'] = 'それぞれのユーザは平均 %s のグループに属しています。';
-$string['viewsperuser'] = 'ビューを作成したユーザはそれぞれ約 %s ページのビューを持っています。';
+$string['viewsperuser'] = 'ページを作成したユーザはそれぞれ約 %s ページを持っています。';
 $string['Cron'] = 'Cron';
 $string['runningnormally'] = '正常動作';
 $string['cronnotrunning'] = 'Cronは動作していません。Cronのセットアップに関するインストラクションは<a href="http://wiki.mahara.org/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。';
@@ -167,29 +167,29 @@ $string['Loggedin'] = 'ログイン';
 $string['youraverageuser'] = 'あなたのユーザ平均 ...';
 $string['statsmaxfriends'] = '平均フレンド数: %s (最もフレンドの多いユーザ: <a href="%s">%s</a> - フレンド数: %d)';
 $string['statsnofriends'] = 'フレンド数: 0';
-$string['statsmaxviews'] = '平均ビュー数: %s (最もビューの多いユーザ: <a href="%s">%s</a> - ビュー数: %d)';
-$string['statsnoviews'] = 'ビュー数: 0';
+$string['statsmaxviews'] = '平均ページ数: %s (最もページの多いユーザ: <a href="%s">%s</a> - ページ数: %d)';
+$string['statsnoviews'] = 'ページ数: 0';
 $string['statsmaxgroups'] = '平均所属グループ数: %s (最も所属グループの多いユーザ: <a href="%s">%s</a> - 所属グループ数: %d)';
 $string['statsnogroups'] = '所属グループ数: 0';
 $string['statsmaxquotaused'] = '平均利用ディスククオータ: %s (最も利用クオータの多いユーザ: <a href="%s">%s</a> - 利用クオータ: %d)';
 $string['groupcountsbytype'] = 'グループタイプごとのグループ数';
 $string['groupcountsbyjointype'] = 'アクセスタイプごとのグループ数';
-$string['blockcountsbytype'] = 'ポートフォリオビューで最も使用されたブロック';
+$string['blockcountsbytype'] = 'ポートフォリオページで最も使用されたブロック';
 $string['uptodate'] = '最新';
 $string['latestversionis'] = '最新バージョン: <a href="%s">%s</a>';
-$string['viewsbytype'] = 'タイプ別ビュー';
+$string['viewsbytype'] = 'タイプ別ページ';
 $string['userstatstabletitle'] = '日次ユーザ統計';
 $string['groupstatstabletitle'] = '最大グループ';
-$string['viewstatstabletitle'] = '人気ビュー';
+$string['viewstatstabletitle'] = '人気ページ';
 $string['adminsonly'] = '管理者のみ';
 $string['adminsandstaffonly'] = '管理者およびスタッフのみ';
 $string['advanced'] = '高度';
-$string['allowpublicviews'] = 'パブリックビューを許可する';
-$string['allowpublicviewsdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なポートフォリオビューを作成することができます。';
+$string['allowpublicviews'] = 'パブリックページを許可する';
+$string['allowpublicviewsdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なポートフォリオページを作成することができます。';
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
-$string['allowpublicprofilesdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なプロファイルビューを作成することができます。';
+$string['allowpublicprofilesdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なプロファイルページを作成することができます。';
 $string['anonymouscomments'] = '匿名コメント';
-$string['anonymouscommentsdescription'] = 'チェックした場合、パブリックビューまたはシークレットURIアクセス可能なビューに対して、未ログインユーザがコメントを投稿することができます。';
+$string['anonymouscommentsdescription'] = 'チェックした場合、パブリックページまたはシークレットURIアクセス可能なページに対して、未ログインユーザがコメントを投稿することができます。';
 $string['antispam'] = 'アンチスパム';
 $string['antispamdescription'] = 'パブリックに表示されるフォームに適用されるアンチスパム基準タイプです。';
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
@@ -241,7 +241,7 @@ $string['siteoptionspagedescription'] = 'ここではサイト全体にデフォ
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['sitethemedescription'] = 'サイトのデフォルトテーマ';
 $string['smallviewheaders'] = 'スモールページヘッダ';
-$string['smallviewheadersdescription'] = 'チェックした場合、ビューの閲覧または編集時、ブロック内にスモールヘッダおよびサイトナビゲーションが表示されます。';
+$string['smallviewheadersdescription'] = 'チェックした場合、ユーザ作成によるポートフォリオページの閲覧または編集時、ブロック内にスモールヘッダおよびサイトナビゲーションが表示されます。';
 $string['spamhaus'] = 'Spamhaus URIブラックリストを有効にする';
 $string['spamhausdescription'] = 'チェックした場合、Spamhaus DNSBLを使用して、URIがチェックされます。';
 $string['surbl'] = 'SURBL URIブラックリスト';
@@ -252,8 +252,8 @@ $string['trustedsites'] = '信頼されたサイト';
 $string['updatesiteoptions'] = 'サイトオプションを更新する';
 $string['usersallowedmultipleinstitutions'] = 'ユーザに複数インスティテューションを許可する';
 $string['usersallowedmultipleinstitutionsdescription'] = 'チェックした場合、ユーザは同時に複数のインスティテューションのメンバーになることができます。';
-$string['userscanchooseviewthemes'] = 'ユーザがビューテーマを選択できる';
-$string['userscanchooseviewthemesdescription'] = 'チェックした場合、ユーザはビューの編集時、テーマを選択することができます。選択したテーマを使用して、他のユーザにビューが表示されます。';
+$string['userscanchooseviewthemes'] = 'ユーザがページテーマを選択できる';
+$string['userscanchooseviewthemesdescription'] = 'チェックした場合、ユーザはページの編集時、テーマを選択することができます。選択したテーマを使用して、他のユーザにページが表示されます。';
 $string['userscanhiderealnames'] = 'ユーザが実名を隠すことができる';
 $string['userscanhiderealnamesdescription'] = 'チェックした場合、ニックネームを設定したユーザはニックネームのみ検索対象として、実名を検索されないようにすることができます (サイト管理セクションでは常にユーザを実名にて検索することができます)。';
 $string['usersseenewthemeonlogin'] = '次回ログイン時、他のユーザに新しいテーマが表示されます。';

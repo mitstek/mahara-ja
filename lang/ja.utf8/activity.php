@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-11-04 16:07:35 UTC
+ * @updated    2010-12-28 06:15:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -31,7 +31,7 @@ defined('INTERNAL') || die();
 $string['typemaharamessage'] = 'システムメッセージ';
 $string['typeusermessage'] = '他のユーザからのメッセージ';
 $string['typewatchlist'] = 'ウォッチリスト';
-$string['typeviewaccess'] = '新しいビューアクセス';
+$string['typeviewaccess'] = '新しいページアクセス';
 $string['typecontactus'] = 'お問い合わせ';
 $string['typeobjectionable'] = '好ましくないコンテンツ';
 $string['typevirusrepeat'] = 'ウイルスアップロードの繰り返し';
@@ -55,27 +55,25 @@ $string['failedtomarkasread'] = 'あなたの通知を既読にできません�
 $string['deletednotifications'] = '%s 件の通知が削除されました。';
 $string['failedtodeletenotifications'] = 'あなたの通知の削除に失敗しました。';
 $string['stopmonitoring'] = 'モニタリングを停止する';
-$string['viewsandartefacts'] = 'ビューおよびアーティファクト';
-$string['views'] = 'ビュー';
 $string['artefacts'] = 'アーティファクト';
 $string['groups'] = 'グループ';
 $string['monitored'] = 'モニター';
 $string['stopmonitoringsuccess'] = 'モニタリングを正常に停止しました。';
 $string['stopmonitoringfailed'] = 'モニタリングの停止に失敗しました。';
 $string['newwatchlistmessage'] = 'あなたのウォッチリストの新しい活動';
-$string['newwatchlistmessageview'] = '%s がビュー「 %s 」を変更しました。';
-$string['newviewsubject'] = '新しいビューが作成されました。';
-$string['newviewmessage'] = '%s が新しいビュー「 %s 」を作成しました。';
+$string['newwatchlistmessageview'] = '%s がページ「 %s 」を変更しました。';
+$string['newviewsubject'] = '新しいページが作成されました。';
+$string['newviewmessage'] = '%s が新しいページ「 %s 」を作成しました。';
 $string['newcontactusfrom'] = '新しいお問い合わせ:';
 $string['newcontactus'] = '新しいお問い合わせ';
-$string['newviewaccessmessage'] = 'あなたはビュー「 %s 」のアクセスリストに %s によって追加されました。';
-$string['newviewaccessmessagenoowner'] = 'あなたはビュー「 %s 」のアクセスリストに追加されました。';
-$string['newviewaccesssubject'] = '新しいビューアクセス';
-$string['viewmodified'] = 'がビューを変更しました。';
+$string['newviewaccessmessage'] = 'あなたはページ「 %s 」のアクセスリストに %s によって追加されました。';
+$string['newviewaccessmessagenoowner'] = 'あなたはページ「 %s 」のアクセスリストに追加されました。';
+$string['newviewaccesssubject'] = '新しいページアクセス';
+$string['viewmodified'] = 'がページを変更しました。';
 $string['ongroup'] = 'グループ:';
 $string['ownedby'] = 'オーナー:';
-$string['objectionablecontentview'] = '好ましくないコンテンツ - ビュー: %s / 報告者: %s';
-$string['objectionablecontentviewartefact'] = '好ましくないコンテンツ - ビュー: %s (%s)/ 報告者: %s';
+$string['objectionablecontentview'] = '好ましくないコンテンツ - ページ: %s / 報告者: %s';
+$string['objectionablecontentviewartefact'] = '好ましくないコンテンツ - ページ: %s (%s)/ 報告者: %s';
 $string['newgroupmembersubj'] = '%s がグループメンバーになりました!';
 $string['removedgroupmembersubj'] = 'もう %s はグループメンバーではありません。';
 $string['addtowatchlist'] = 'ウォッチリストに追加する';
@@ -87,8 +85,8 @@ $string['institutioninvitesubject'] = 'あなたはインスティテューシ�
 $string['institutioninvitemessage'] = 'あなたはインスティテューション設定ページで、このインスティテューションのメンバーシップを承認することができます:';
 $string['deleteallnotifications'] = 'すべての通知を削除する';
 $string['reallydeleteallnotifications'] = '本当にあなたのすべての通知を削除してもよろしいですか?';
-$string['viewsubmittedsubject'] = '%s に送信されたビュー';
-$string['viewsubmittedmessage'] = '%s がビュー「 %s 」を %s に送信しました。';
+$string['viewsubmittedsubject'] = '%s に送信されたページ';
+$string['viewsubmittedmessage'] = '%s がページ「 %s 」を %s に送信しました。';
 $string['adminnotificationerror'] = 'ユーザ通知エラーは恐らくあなたのサーバ設定に起因します。';
 
 ?>

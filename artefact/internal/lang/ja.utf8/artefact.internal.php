@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-23 23:37:17 UTC
+ * @updated    2010-12-28 06:11:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -33,7 +33,7 @@ $string['profile'] = 'プロファイル';
 $string['mandatory'] = '必須';
 $string['public'] = 'パブリック';
 $string['aboutdescription'] = 'あなたの本名をここに入力してください。あなたがシステム内のユーザに異なる名前を表示したい場合、ニックネーム欄に別名を入力してください。';
-$string['infoisprivate'] = 'あなたが他のユーザと共有するため、ビューに置かない限り、この情報はプライベート (非公開) となります。';
+$string['infoisprivate'] = 'あなたが他のユーザと共有するため、ページに置かない限り、この情報はプライベート (非公開) となります。';
 $string['viewmyprofile'] = '私のプロファイルを表示する';
 $string['aboutme'] = '私について';
 $string['contact'] = '連絡先';

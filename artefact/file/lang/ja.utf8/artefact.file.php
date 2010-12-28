@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-23 22:22:57 UTC
+ * @updated    2010-12-28 06:31:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -198,30 +198,30 @@ $string['mpg'] = 'MPGムービー';
 $string['ram'] = 'RAM Real Playerムービー';
 $string['rpm'] = 'RPM Real Playerムービー';
 $string['rm'] = 'RM Real Playerムービー';
-$string['cantcreatetempprofileiconfile'] = '一時プロファイルアイコンイメージを %s に書き込むことができませんでした。';
-$string['profileiconsize'] = 'プロファイルアイコンサイズ';
-$string['profileicons'] = 'プロファイルアイコン';
+$string['cantcreatetempprofileiconfile'] = '一時プロファイル写真イメージを %s に書き込むことができませんでした。';
+$string['profileiconsize'] = 'プロファイル写真サイズ';
+$string['profileicons'] = 'プロファイル写真';
 $string['Default'] = 'デフォルト';
-$string['deleteselectedicons'] = '選択されたアイコンを削除する';
-$string['profileicon'] = 'プロファイルアイコン';
+$string['deleteselectedicons'] = '選択されたプロファイル写真を削除する';
+$string['profileicon'] = 'プロファイル写真';
 $string['noimagesfound'] = 'イメージはありません。';
-$string['uploadedprofileiconsuccessfully'] = '新しいプロファイルアイコンが正常にアップロードされました。';
-$string['profileiconsetdefaultnotvalid'] = 'デフォルトのプロファイルアイコンを設定できませんでした。選択が正しくありません。';
-$string['profileiconsdefaultsetsuccessfully'] = 'デフォルトプロファイルアイコンが正常に設定されました。';
-$string['profileiconsdeletedsuccessfully'] = 'プロファイルアイコンが正常に削除されました。';
-$string['profileiconsnoneselected'] = '削除するアイコンが選択されていません。';
-$string['onlyfiveprofileicons'] = 'あなたは5つのプロファイルアイコンのみアップロードすることができます。';
+$string['uploadedprofileiconsuccessfully'] = '新しいプロファイル写真が正常にアップロードされました。';
+$string['profileiconsetdefaultnotvalid'] = 'デフォルトのプロファイル写真を設定できませんでした。選択が正しくありません。';
+$string['profileiconsdefaultsetsuccessfully'] = 'デフォルトプロファイル写真が正常に設定されました。';
+$string['profileiconsdeletedsuccessfully'] = 'プロファイル写真が正常に削除されました。';
+$string['profileiconsnoneselected'] = '削除するプロファイル写真が選択されていません。';
+$string['onlyfiveprofileicons'] = 'あなたは5つのプロファイル写真のみアップロードすることができます。';
 $string['or'] = 'または';
 $string['profileiconuploadexceedsquota'] = 'このファイルをアップロードすることで、あなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
 $string['profileiconimagetoobig'] = 'あなたがアップロードしたイメージは大き過ぎます(%sx%s ピクセル)。%sx%s ピクセル以下のサイズにしてください。';
 $string['uploadingfile'] = 'ファイルのアップロード中 ...';
-$string['uploadprofileicon'] = 'プロファイルアイコンをアップロードする';
-$string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイルアイコンをアップロードすることができます。アイコンのアップロード後、あなたのデフォルトアイコンとして表示するアイコンを1つ選択してください。16x16 から%sx%s ピクセルの間であなたのアイコンを作成してください。';
+$string['uploadprofileicon'] = 'プロファイル写真をアップロードする';
+$string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイル写真をアップロードすることができます。プロファイル写真のアップロード後、あなたのデフォルト写真として表示する写真を1つ選択してください。16x16 から%sx%s ピクセルの間であなたの写真を作成してください。';
 $string['setdefault'] = 'デフォルトに設定する';
 $string['Title'] = 'タイトル';
 $string['imagetitle'] = 'イメージタイトル';
 $string['usenodefault'] = 'デフォルトを使用しない';
-$string['usingnodefaultprofileicon'] = '現在、デフォルトのプロファイルアイコンはありません。';
+$string['usingnodefaultprofileicon'] = '現在、デフォルトのプロファイル写真はありません。';
 $string['wrongfiletypeforblock'] = 'あなたがアップロードしたファイルはこのブロックにとって、正しいタイプではありません。';
 $string['Contents'] = 'コンテンツ';
 $string['Continue'] = '続ける';

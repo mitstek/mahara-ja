@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-08-16 19:04:04 UTC
+ * @updated    2010-12-28 06:24:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -41,14 +41,14 @@ $string['exportingartefactplugindata'] = 'アーティファクトプラグイ�
 $string['exportingartefacts'] = 'アーティファクトのエクスポート中';
 $string['exportingartefactsprogress'] = 'アーティファクトのエクスポート中: %s/%s';
 $string['exportingfooter'] = 'フッタのエクスポート中';
-$string['exportingviews'] = 'ビューのエクスポート中';
-$string['exportingviewsprogress'] = 'ビューのエクスポート中: %s/%s';
-$string['exportpagedescription'] = 'ここではあなたのポートフォリオをエクスポートすることができます。このツールはサイト設定を除く、あなたのポートフォリオ情報すべて、およびビューをエクスポートします。';
+$string['exportingviews'] = 'ページのエクスポート中';
+$string['exportingviewsprogress'] = 'ページのエクスポート中: %s/%s';
+$string['exportpagedescription'] = 'ここではあなたのポートフォリオをエクスポートすることができます。このツールはサイト設定を除く、あなたのポートフォリオ情報すべて、およびページをエクスポートします。';
 $string['exportyourportfolio'] = 'あなたのポートフォリオを生成する';
 $string['generateexport'] = 'エクスポートを生成する';
 $string['noexportpluginsenabled'] = '管理者によりエクスポートプラグインが有効にされていないため、あなたはこの機能を使用することはできません。';
 $string['justsomecollections'] = 'いくつかのマイコレクションのみ';
-$string['justsomeviews'] = 'いくつかのマイビューのみ';
+$string['justsomeviews'] = 'いくつかのマイページのみ';
 $string['pleasewaitwhileyourexportisbeinggenerated'] = 'あなたのエクスポートを生成しています。お待ちください ...';
 $string['reverseselection'] = 'すべての選択を解除する';
 $string['selectall'] = 'すべてを選択する';
@@ -56,12 +56,12 @@ $string['setupcomplete'] = 'セットアップ完了';
 $string['Starting'] = '開始';
 $string['unabletoexportportfoliousingoptions'] = '選択されたオプションでポートフォリオをエクスポートできません。';
 $string['unabletogenerateexport'] = 'エクスポートを生成できません。';
-$string['viewstoexport'] = 'エクスポートするビュー';
+$string['viewstoexport'] = 'エクスポートするページ';
 $string['whatdoyouwanttoexport'] = '何をエクスポートしますか?';
 $string['writingfiles'] = 'ファイル書き出し中';
 $string['youarehere'] = 'あなたはここにいます';
 $string['youmustselectatleastonecollectiontoexport'] = 'あなたはエクスポートするコレクションを少なくとも1つ選択する必要があります。';
-$string['youmustselectatleastoneviewtoexport'] = 'あなたはエクスポートするビューを少なくとも1つ選択する必要があります。';
+$string['youmustselectatleastoneviewtoexport'] = 'あなたはエクスポートするページを少なくとも1つ選択する必要があります。';
 $string['zipnotinstalled'] = 'あなたのシステムにはZIPコマンドがありません。この機能を有効にするには、ZIPをインストールしてください。';
 
 ?>
