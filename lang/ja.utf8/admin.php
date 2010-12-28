@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-28 06:21:02 UTC
+ * @updated    2010-12-28 10:17:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -217,7 +217,7 @@ $string['registertermsdescription'] = 'ユーザ登録の前、ユーザに使�
 $string['allowmobileuploads'] = 'モバイルアップロードを有効にする';
 $string['allowmobileuploadsdescription'] = 'チェックした場合、ユーザは認証トークンを設定することができます - このトークンを使用してアップロードされたコンテンツはアーティファクトとして保存されます。';
 $string['remoteavatars'] = 'リモートアバタを表示する';
-$string['remoteavatarsdescription'] = 'チェックした場合、ユーザのデフォルトプロファイルアイコンに<a href="http://www.gravatar.com">Gravatar</a>サービスが利用されます。';
+$string['remoteavatarsdescription'] = 'チェックした場合、ユーザのデフォルトプロファイル写真に<a href="http://www.gravatar.com">Gravatar</a>サービスが利用されます。';
 $string['searchplugin'] = '検索プラグイン';
 $string['searchplugindescription'] = '使用する検索プラグイン';
 $string['searchusernames'] = 'ユーザ名を検索する';

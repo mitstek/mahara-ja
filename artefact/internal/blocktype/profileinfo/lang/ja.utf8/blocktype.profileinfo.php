@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-07-09 00:42:48 UTC
+ * @updated    2010-12-28 09:37:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -34,8 +34,8 @@ $string['aboutme'] = '私について';
 $string['fieldstoshow'] = '表示するフィールド';
 $string['introtext'] = '自己紹介テキスト';
 $string['useintroductioninstead'] = '「表示するフィールド」の「自己紹介」チェックボックスをチェックして、このフィールドを空白にすることで、あなたのプロファイルの「自己紹介」フィールドを代わりに使用することができます。';
-$string['dontshowprofileicon'] = 'プロファイルアイコンを表示しません。';
+$string['dontshowprofileicon'] = 'プロファイル写真を表示しません。';
 $string['dontshowemail'] = 'メールアドレスを表示しません。';
-$string['uploadaprofileicon'] = 'あなたにはプロファイルアイコンがありません。<a href="%sartefact/file/profileicons.php" target="_blank">アップロードしてください</a>。';
+$string['uploadaprofileicon'] = 'あなたにはプロファイル写真がありません。<a href="%sartefact/file/profileicons.php" target="_blank">アップロードしてください</a>。';
 
 ?>
