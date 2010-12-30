@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-23 23:14:20 UTC
+ * @updated    2010-12-30 07:25:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -183,6 +183,7 @@ $string['notamember'] = 'あなたはこのグループのメンバーではあ�
 $string['notmembermayjoin'] = 'このページを閲覧するには、あなたはグループ「 %s 」に参加する必要があります。';
 $string['declinerequestsuccess'] = 'グループメンバーシップのリクエストが正常に拒否されました。';
 $string['notpublic'] = 'このグループはパブリックではありません。';
+$string['moregroups'] = 'さらにグループを表示する';
 $string['addmembers'] = 'メンバーを追加する';
 $string['invitationssent'] = '%d 通の招待状が送信されました。';
 $string['newmembersadded'] = '%d 名の新しいユーザが追加されました。';
@@ -263,7 +264,6 @@ $string['Reply'] = '返信';
 $string['denyfriendrequest'] = 'フレンドシップリクエストを拒否する';
 $string['sendfriendshiprequest'] = '%s にフレンドシップリクエストを送信する';
 $string['cantdenyrequest'] = 'これは有効なフレンドシップリクエストではありません。';
-$string['cantrequestfrienship'] = 'あなたはこのユーザにフレンドシップをリクエストできません。';
 $string['cantmessageuser'] = 'あなたはこのユーザにメッセージを送信できません。';
 $string['cantviewmessage'] = 'あなたはこのメッセージを閲覧できません。';
 $string['requestedfriendship'] = 'リクエストされたフレンドシップ';

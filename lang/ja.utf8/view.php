@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-28 10:20:39 UTC
+ * @updated    2010-12-30 07:33:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -142,6 +142,8 @@ $string['cantdeleteview'] = 'あなたはこのページを削除できません
 $string['deletespecifiedview'] = 'ページ「 %s 」を削除する';
 $string['deleteviewconfirm'] = '本当にこのページを削除してもよろしいですか? 元に戻すことはできません。';
 $string['deleteviewconfirmnote'] = '<p><strong>注意:</strong> このページに追加されたコンテンツブロックすべて削除されません。しかし、ページに投稿されたフィードバックすべては削除されます。最初にエクスポートによるページのバックアップをお考えください。</p>';
+$string['editaccesspagedescription3'] = 'デフォルトでは、あなたのページをあなたのみ閲覧できます。このページにアクセスルールを追加することで、あなたは他のユーザとページを共有することができます。アクセスルールを追加した後、ページ下部の「保存」ボタンをクリックしてください。';
+$string['editaccessinvalidviewset'] = '無効な一連のページおよびコレクションのアクセスを編集しようとしました。';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
 $string['overridingstartstopdatesdescription'] = 'あなたは開始日および終了日をオーバーライドすることができます。アクセス開始日およびアクセス終了日をどのように設定したとしても、開始日以前および終了日以降には他のユーザはページを閲覧することができません。';
 $string['emptylabel'] = 'このラベルのテキストを入力するには、ここをクリックしてください。';
@@ -155,6 +157,7 @@ $string['addtutors'] = 'チューターを追加する';
 $string['viewcreatedsuccessfully'] = 'ページが正常に作成されました。';
 $string['viewaccesseditedsuccessfully'] = 'ページアクセスが正常に保存されました。';
 $string['viewsavedsuccessfully'] = 'ページが正常に保存されました。';
+$string['updatedaccessfornumviews'] = '%d ページのアクセスルールが更新されました。';
 $string['invalidcolumn'] = 'カラム %s は範囲外です。';
 $string['confirmcancelcreatingview'] = 'このページの作成は完了していません。本当にキャンセルしてもよろしいですか?';
 $string['editblockspagedescription'] = '<p>以下のタブより選択してブロックをドラッグ&ドロップすることで、あなたのページを作成します。</p>';
