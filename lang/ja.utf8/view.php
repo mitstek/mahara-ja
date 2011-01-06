@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-30 07:33:50 UTC
+ * @updated    2011-01-06 02:14:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -69,14 +69,10 @@ $string['view'] = 'ページ';
 $string['views'] = 'ページ';
 $string['View'] = 'ページ';
 $string['Views'] = 'ページ';
-$string['page'] = 'ページ';
-$string['pages'] = 'ページ';
-$string['Page'] = 'ページ';
-$string['Pages'] = 'ページ';
 $string['viewsubmittedtogroup'] = 'このページは<a href="%s">%s</a>に送信されました。';
 $string['viewsubmittedtogroupon'] = 'このページは<a href="%s">%s</a>に対して %s に送信されました。';
 $string['nobodycanseethisview2'] = 'あなたのみ、このページを閲覧できます。';
-$string['nopages'] = 'ページはありません。';
+$string['noviews'] = 'ページはありません。';
 $string['youhavenoviews'] = 'あなたのページはありません。';
 $string['youhaventcreatedanyviewsyet'] = 'あなたはまだページを作成していません。';
 $string['youhaveoneview'] = 'あなたには 1 件のページがあります。';
