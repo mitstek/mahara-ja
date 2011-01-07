@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-01-06 02:14:23 UTC
+ * @updated    2011-01-07 02:41:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -128,6 +128,7 @@ $string['share'] = '共有';
 $string['sharewith'] = '共有対象';
 $string['accesslist'] = 'アクセスリスト';
 $string['sharewithmygroups'] = 'マイグループと共有する';
+$string['shareview'] = 'ページを共有する';
 $string['otherusersandgroups'] = '他のユーザおよびグループと共有する';
 $string['moreoptions'] = '高度な設定';
 $string['allviews'] = 'すべてのページ';
@@ -157,7 +158,7 @@ $string['updatedaccessfornumviews'] = '%d ページのアクセスルールが�
 $string['invalidcolumn'] = 'カラム %s は範囲外です。';
 $string['confirmcancelcreatingview'] = 'このページの作成は完了していません。本当にキャンセルしてもよろしいですか?';
 $string['editblockspagedescription'] = '<p>以下のタブより選択してブロックをドラッグ&ドロップすることで、あなたのページを作成します。</p>';
-$string['displaymyview'] = 'マイページを表示する';
+$string['displayview'] = 'ページを表示する';
 $string['editthisview'] = 'このページを編集する';
 $string['success.addblocktype'] = 'ブロックが正常に追加されました。';
 $string['err.addblocktype'] = 'あなたのページにブロックを追加できませんでした。';
