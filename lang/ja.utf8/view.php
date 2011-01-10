@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-01-07 02:41:53 UTC
+ * @updated    2011-01-10 07:25:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -282,5 +282,9 @@ $string['profile'] = 'プロファイル';
 $string['portfolio'] = 'ポートフォリオ';
 $string['grouphomepage'] = 'グループホームページ';
 $string['grouphomepagedescription'] = 'グループホームページはこのグループのAboutタブに表示されるコンテンツです。';
+$string['sharedviews'] = '共有ページ';
+$string['titleanddescription'] = 'タイトル、説明、タグ';
+$string['tagsonly'] = 'タグのみ';
+$string['sharedviewsdescription'] = 'このページではあなたが共有しているページの中から、直近に修正またはコメントされたページが一覧表示されます。これらの共有ページには直接あなたが共有しているページ、オーナーのフレンドが共有しているページ、あなたのグループが共有しているページがあります。';
 
 ?>
