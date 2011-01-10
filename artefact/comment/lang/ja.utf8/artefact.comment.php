@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-28 06:09:04 UTC
+ * @updated    2011-01-10 07:17:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -59,6 +59,7 @@ $string['feedbackattachdirdesc'] = 'あなたのポートフォリオのコメ�
 $string['feedbackattachmessage'] = 'あなたの %s フォルダに添付ファイルが追加されました。';
 $string['feedbackonviewbyuser'] = '%s のフィードバック by %s';
 $string['feedbacksubmitted'] = 'フィードバックが送信されました。';
+$string['lastcomment'] = '最新のコメント';
 $string['makepublic'] = 'パブリックにする';
 $string['makepublicnotallowed'] = 'あなたはこのコメントをパブリックにすることはできません。';
 $string['makepublicrequestsubject'] = 'リクエスト: プライベートコメントをパブリックに変更する';
@@ -74,6 +75,7 @@ $string['placefeedback'] = 'フィードバックを投稿する';
 $string['reallydeletethiscomment'] = '本当にこのコメントを削除してもよろしいですか?';
 $string['thiscommentisprivate'] = 'このコメントはプライベート (非公開) です。';
 $string['typefeedback'] = 'フィードバック';
+$string['viewcomment'] = 'コメントを表示する';
 $string['youhaverequestedpublic'] = 'あなたはこのコメントをパブリックにするよう、リクエストしました。';
 $string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が %s にコメントを投稿しました。</strong><br />%s</div>
 
