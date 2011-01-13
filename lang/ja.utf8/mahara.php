@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-28 10:19:16 UTC
+ * @updated    2011-01-13 23:06:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -269,7 +269,6 @@ $string['accountinactivewarninghtml'] = '<p>%s さん</p>
 $string['accountsuspended'] = '%s 現在、あなたのアカウントは利用停止されています。あなたの利用停止理由は:<blockquote>%s</blockquote>';
 $string['youraccounthasbeensuspended'] = 'あなたのアカウントが利用停止されました。';
 $string['youraccounthasbeenunsuspended'] = 'あなたのアカウントの利用停止が解除されました。';
-$string['changepassword'] = 'パスワードを変更する';
 $string['changepasswordinfo'] = '開始する前に、あなたはパスワードを変更する必要があります。';
 $string['chooseusernamepassword'] = 'あなたのユーザ名およびパスワードを選択する';
 $string['chooseusernamepasswordinfo'] = 'あなたが %s にログインするには、ユーザ名およびパスワードが必要です。あなたのユーザ名およびパスワードを選択してください。';
@@ -420,7 +419,7 @@ $string['processing'] = '処理中';
 $string['requiredfieldempty'] = '必須入力フィールドが空白です。';
 $string['unknownerror'] = '不明なエラーが発生しました (0x20f91a0)。';
 $string['home'] = 'ホーム';
-$string['mycontent'] = 'マイコンテンツ';
+$string['Content'] = 'コンテンツ';
 $string['myportfolio'] = 'マイポートフォリオ';
 $string['settings'] = '設定';
 $string['myfriends'] = 'マイフレンド';
@@ -443,6 +442,7 @@ $string['account'] = 'マイアカウント';
 $string['accountprefs'] = 'プリファレンス';
 $string['preferences'] = 'プリファレンス';
 $string['activityprefs'] = '活動プリファレンス';
+$string['changepassword'] = 'パスワードを変更する';
 $string['notifications'] = '通知';
 $string['inbox'] = 'インボックス';
 $string['gotoinbox'] = 'インボックスに移動する';
