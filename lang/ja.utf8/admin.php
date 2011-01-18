@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-01-13 23:05:57 UTC
+ * @updated    2011-01-18 15:21:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -328,6 +328,7 @@ $string['proxyaddressdescription'] = 'あなたのサイトがインターネッ
 $string['proxyaddressset'] = 'プロクシアドレスセット';
 $string['proxyauthmodel'] = 'プロクシ認証モデル';
 $string['proxyauthmodeldescription'] = '適切な場合、あなたのプロクシ認証モデルを選択してください。';
+$string['proxyauthmodelbasic'] = 'ベーシック (NCSA)';
 $string['proxyauthmodelset'] = 'プロクシ認証モデルが設定されました。';
 $string['proxyauthcredentials'] = 'プロクシ証明書';
 $string['proxyauthcredentialsdescription'] = 'あなたのプロクシがウェブサーバに認証するため必要な証明書を「ユーザ名:パスワード」のフォーマットで指定してください。';
