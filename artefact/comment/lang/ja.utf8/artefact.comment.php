@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-01-10 07:17:47 UTC
+ * @updated    2011-01-20 02:42:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -45,6 +45,7 @@ $string['commentmadepublic'] = 'コメントがパブリックにされました
 $string['commentdeletedauthornotification'] = 'あなたの %s のコメントが削除されました:';
 $string['commentdeletednotificationsubject'] = '%s のコメントが削除されました。';
 $string['commentnotinview'] = 'コメント %d はページ %d にありません。';
+$string['commentratings'] = 'コメントレーティングを有効にする';
 $string['commentremoved'] = 'コメントが削除されました。';
 $string['commentremovedbyauthor'] = '投稿者によりコメントが削除されました。';
 $string['commentremovedbyowner'] = 'オーナーによりコメントが削除されました。';
@@ -72,6 +73,7 @@ $string['moderatecomments'] = 'コメントをモデレートする';
 $string['moderatecommentsdescription'] = 'あなたに承認されるまで、コメントはプライベートのままにされます。';
 $string['newfeedbacknotificationsubject'] = '%s の新しいフィードバック';
 $string['placefeedback'] = 'フィードバックを投稿する';
+$string['rating'] = 'レーティング';
 $string['reallydeletethiscomment'] = '本当にこのコメントを削除してもよろしいですか?';
 $string['thiscommentisprivate'] = 'このコメントはプライベート (非公開) です。';
 $string['typefeedback'] = 'フィードバック';
