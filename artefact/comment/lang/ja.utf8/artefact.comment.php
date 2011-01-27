@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-01-20 02:42:52 UTC
+ * @updated    2011-01-27 05:33:40 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -111,5 +111,7 @@ $string['feedbackdeletedtext'] = '%s のコメントが削除されました。
 ------------------------------------------------------------------------
 %s をオンライン上で閲覧するには、次のリンクをクリックしてください:
 %s';
+$string['artefactdefaultpermissions'] = 'デフォルトのコメントパーミッション';
+$string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトでは、作成時にコメントの投稿が有効にされます。ユーザはそれぞれのアーティファクトにて、これらの設定をオーバーライドすることができます。';
 
 ?>
