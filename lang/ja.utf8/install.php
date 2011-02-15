@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-02-15 02:06:14 UTC
+ * @updated    2011-02-15 02:08:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -41,16 +41,16 @@ $string['aboutdefaultcontent'] = '<h1>Maharaとは</h1>
 </ul>';
 $string['homedefaultcontent'] = '<h1>Maharaにようこそ</h1>
 
-<p>[<b>あなたの組織名</b>]はオンラインコミュニティを作成するための十分な機能を有するインターネット上のポートフォリオシステムです。</p>
+<p>[<b>あなたの組織名</b>]はオンラインコミュニティを構築するための十分な機能を有するインターネット上のポートフォリオシステムです。</p>
 
 <p>Maharaに関する詳細は<a href="about.php">About</a> [このページを忘れずに編集してください] をお読みください。また、私たちに<a href="contact.php">お気軽にお問い合わせください</a>。</p>
 
 <p>あなたはこのテキストを「サイト管理 > サイト設定 > サイトページを編集する」にて編集することができます。</p>';
 $string['loggedouthomedefaultcontent'] = '<h1>Maharaにようこそ</h1>
 
-<p>[<b>あなたの組織名</b>]はオンラインコミュニティを作成するための十分な機能を有するインターネット上のポートフォリオシステムです。</p>
+<p>[<b>あなたの組織名</b>]はオンラインコミュニティを構築するための十分な機能を有するインターネット上のポートフォリオシステムです。</p>
 
-<p>詳細は<a href="about.php">About</a> [このページを忘れずに編集してください] をお読みください。また、私たちに<a href="contact.php">お気軽にお問い合わせください</a>。</p>
+<p>Maharaに関する詳細は<a href="about.php">About</a> [このページを忘れずに編集してください] をお読みください。また、私たちに<a href="contact.php">お気軽にお問い合わせください</a>。</p>
 
 <p>あなたはこのテキストを「サイト管理 > サイト設定 > サイトページを編集する」にて編集することができます。</p>';
 $string['privacydefaultcontent'] = '<h1>プライバシー保護方針</h1>
