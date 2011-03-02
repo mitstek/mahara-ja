@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-18 06:08:44 UTC
+ * @updated    2011-03-02 14:16:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -36,6 +36,7 @@ $string['errnosamluser'] = 'ユーザが見つかりませんでした。';
 $string['errorbadlib'] = 'SimpleSAMLPHPライブラリディレクトリ「 %s 」が正しくありません。';
 $string['errorbadconfig'] = 'SimpleSAMLPHP設定ディレクトリ「 %s 」が正しくありません。';
 $string['errorbadcombo'] = 'リモートユーザを選択していない場合のみ、あなたはユーザ自動作成を選択することができます。';
+$string['errormissinguserattributes'] = 'あなたは認証されたようですが、私たちは必要なユーザ属性を受信していません。あなたのアイデンティティプロバイダ (IdP) が、姓名およびメールアドレスに対するSSOフィールドをMaharaの動作しているサービスプロバイダにリリースしているか確認してください。または、このサーバのウェブマスタにご連絡ください。';
 $string['institutionattribute'] = 'インスティテューション属性 (%s を含む)';
 $string['institutionvalue'] = '属性をチェックするためのインスティテューション値';
 $string['institutionregex'] = 'インスティテューション省略名を部分的に文字列一致させる';
