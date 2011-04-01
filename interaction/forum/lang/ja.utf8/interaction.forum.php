@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-02-09 18:36:55 UTC
+ * @updated    2011-04-01 01:02:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -118,6 +118,7 @@ $string['Open'] = 'オープン';
 $string['Order'] = '並び順';
 $string['orderdescription'] = '他のフォーラムに対して、あなたがこのフォーラムを配置したい場所を選択してください。';
 $string['Post'] = '投稿';
+$string['postaftertimeout'] = 'あなたは %s 分のタイムアウト後に変更を送信しました。あなたの変更は適用されません。';
 $string['postbyuserwasdeleted'] = '%s による投稿が削除されました。';
 $string['postdelay'] = '投稿遅延';
 $string['postdelaydescription'] = '新しい投稿がメール購読者に送信される前、経過する必要のある最小時間 (分) です。投稿者はこの時間中、投稿内容を編集することができます。';
@@ -178,5 +179,6 @@ $string['maxindentdescription'] = 'トピックの最大インデントレベル
 $string['closetopics'] = '新しいトピックをクローズする';
 $string['closetopicsdescription'] = 'チェックした場合、このフォーラム内の新しいトピックがデフォルトでクローズされます。モデレータおよびグループ管理者のみ、クローズされたトピックに返信することができます。';
 $string['activetopicsdescription'] = 'あなたのグループ内で最近更新されたトピックです。';
+$string['timeleftnotice'] = 'あなたが編集を終了するまで %s 分あります。';
 
 ?>
