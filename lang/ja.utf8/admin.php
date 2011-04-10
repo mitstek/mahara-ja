@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-01-18 15:21:59 UTC
+ * @updated    2011-04-10 15:35:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -246,6 +246,8 @@ $string['spamhaus'] = 'Spamhaus URIブラックリストを有効にする';
 $string['spamhausdescription'] = 'チェックした場合、Spamhaus DNSBLを使用して、URIがチェックされます。';
 $string['surbl'] = 'SURBL URIブラックリスト';
 $string['surbldescription'] = 'チェックした場合、SURBL DNSBLを使用して、URIがチェックされます。';
+$string['disableexternalresources'] = 'ユーザHTMLの外部リソースを無効にする';
+$string['disableexternalresourcesdescription'] = 'ユーザが他のホストからイメージのようなデータ埋め込みを防ぐため、外部リソースの埋め込みを無効にします。';
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'ユーザのタグクラウド内に表示されるタグのデフォルト数です。';
 $string['trustedsites'] = '信頼されたサイト';
