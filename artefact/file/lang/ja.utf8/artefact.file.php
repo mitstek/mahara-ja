@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-28 06:31:41 UTC
+ * @updated    2011-04-12 21:04:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -235,5 +235,8 @@ $string['pleasewaitwhileyourfilesarebeingunzipped'] = 'あなたのファイル�
 $string['spacerequired'] = '必要サイズ';
 $string['Unzip'] = '解凍';
 $string['unzipprogress'] = '%s 個のファイル/フォルダが作成されました。';
+$string['filepermission.view'] = '閲覧';
+$string['filepermission.edit'] = '編集';
+$string['filepermission.republish'] = '公開';
 
 ?>
