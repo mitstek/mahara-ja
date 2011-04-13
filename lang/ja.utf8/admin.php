@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-04-10 15:35:15 UTC
+ * @updated    2011-04-13 14:42:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -109,6 +109,9 @@ $string['institutionfiles'] = 'インスティテューションファイル';
 $string['institutionfilesdescription'] = 'インスティテューションページで使用するファイルをアップロードおよび管理します。';
 $string['pluginadmin'] = 'プラグイン管理';
 $string['pluginadmindescription'] = 'プラグインをインストールおよび設定します。';
+$string['missingplugin'] = 'インストール済みプラグイン (%s) が見つかりませんでした。';
+$string['installedpluginsmissing'] = '次のプラグインがインストールされていますが、見つけることができませんでした。';
+$string['ensurepluginsexist'] = 'あなたのインストール済みプラグインが %s 配下に設置され、ウェブサーバから読むことができることを確認してください。';
 $string['htmlfilters'] = 'HTMLフィルタ';
 $string['htmlfiltersdescription'] = 'HTML Purifierの新しいフィルタを有効にします。';
 $string['newfiltersdescription'] = 'あなたが新しいHTMLフィルタをダウンロードした場合、%s フォルダでファイルを解凍した後、下記のボタンをクリックすることで、インストールすることができます。';
