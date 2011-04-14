@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-04-13 14:42:18 UTC
+ * @updated    2011-04-14 14:24:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -268,6 +268,9 @@ $string['whocancreategroups'] = '誰がグループを作成できますか?';
 $string['whocancreategroupsdescription'] = 'ここでは新しいグループを作成することのできるユーザを選択します。';
 $string['whocancreatepublicgroups'] = '誰がパブリックグループを作成できますか?';
 $string['whocancreatepublicgroupsdescription'] = 'ここではパブリックに閲覧可能なグループを作成することのできるユーザを選択します。';
+$string['wysiwyg'] = 'HTMLエディタ';
+$string['wysiwygdescription'] = 'サイト全体としてHTMLエディタを有効にするか、ユーザ自身がHTMLエディタを有効または無効にできるか指定します。';
+$string['wysiwyguserdefined'] = 'ユーザ定義';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
 $string['editsitepagespagedescription'] = 'ここでは(ログインおよびログアウトユーザ別に) ホームページおよびフッタのページリンク等、サイト全体のいくつかのページコンテンツを編集することができます。';
