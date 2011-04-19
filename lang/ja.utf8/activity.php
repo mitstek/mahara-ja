@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-28 06:15:45 UTC
+ * @updated    2011-04-19 17:10:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -73,7 +73,43 @@ $string['viewmodified'] = 'がページを変更しました。';
 $string['ongroup'] = 'グループ:';
 $string['ownedby'] = 'オーナー:';
 $string['objectionablecontentview'] = '好ましくないコンテンツ - ページ: %s / 報告者: %s';
-$string['objectionablecontentviewartefact'] = '好ましくないコンテンツ - ページ: %s (%s)/ 報告者: %s';
+$string['objectionablecontentviewartefact'] = '好ましくないコンテンツ - ページ: %s (%s) / 報告者: %s';
+$string['objectionablecontentviewhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」の好ましくないコンテンツ / 報告者: %s<strong></strong><br />%s</div>
+
+<div style="margin: 1em 0;">%s</div>
+
+<div style="font-size: smaller; border-top: 1px solid #999;">
+<p>クレーム対象: <a href="%s">%s</a></p>
+<p>報告者: <a href="%s">%s</a></p>
+</div>';
+$string['objectionablecontentviewtext'] = '「 %s 」の好ましくないコンテンツ / 報告者: %s
+------------------------------------------------------------------------
+
+%s
+
+------------------------------------------------------------------------
+ページを閲覧するには次のリンクをクリックしてください:
+%s
+報告者のプロファイルを閲覧するには次のリンクをクリックしてください:
+%s';
+$string['objectionablecontentviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」の好ましくないコンテンツ / アーティファクト: %s / 報告者: %s<strong></strong><br />%s</div>
+
+<div style="margin: 1em 0;">%s</div>
+
+<div style="font-size: smaller; border-top: 1px solid #999;">
+<p>クレーム対象: <a href="%s">%s</a></p>
+<p>報告者: <a href="%s">%s</a></p>
+</div>';
+$string['objectionablecontentviewartefacttext'] = '「 %s 」の好ましくないコンテンツ / アーティファクト: %s / 報告者: %s
+------------------------------------------------------------------------
+
+%s
+
+------------------------------------------------------------------------
+ページを閲覧するには次のリンクをクリックしてください:
+%s
+報告者のプロファイルを閲覧するには次のリンクをクリックしてください:
+%s';
 $string['newgroupmembersubj'] = '%s がグループメンバーになりました!';
 $string['removedgroupmembersubj'] = 'もう %s はグループメンバーではありません。';
 $string['addtowatchlist'] = 'ウォッチリストに追加する';
