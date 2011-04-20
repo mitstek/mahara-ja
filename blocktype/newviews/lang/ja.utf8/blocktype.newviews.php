@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-28 06:13:58 UTC
+ * @updated    2011-04-20 14:42:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -32,5 +32,6 @@ $string['title'] = '最新ページ';
 $string['description'] = 'このサイトで最近更新されたページを一覧表示します。';
 $string['viewstoshow'] = '表示するページの最大数';
 $string['viewstoshowdescription'] = '設定範囲: 1～100';
+$string['defaulttitledescription'] = 'タイトルフィールドを空白にした場合、デフォルトタイトルが適用されます。';
 
 ?>

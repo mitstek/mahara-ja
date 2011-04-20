@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-02-27 16:45:24 UTC
+ * @updated    2011-04-20 14:42:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -35,5 +35,6 @@ $string['nogroupstochoosefrom'] = '申し訳ございません、選択できる
 $string['poststoshow'] = '表示する最大投稿数';
 $string['poststoshowdescription'] = '設定範囲: 1-100';
 $string['recentforumpostsforgroup'] = '%s フォーラムの最近の投稿';
+$string['defaulttitledescription'] = 'タイトルフィールドを空白にした場合、デフォルトタイトルが適用されます。';
 
 ?>

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-11-05 02:32:43 UTC
+ * @updated    2011-04-20 14:42:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -39,5 +39,6 @@ $string['options_order_title'] = '表示順';
 $string['options_order_desc'] = 'あなたはグループメンバーの表示順に関して、最新グループメンバーまたはランダムを選択することができます。';
 $string['Latest'] = '最新';
 $string['Random'] = 'ランダム';
+$string['defaulttitledescription'] = 'タイトルフィールドを空白にした場合、デフォルトタイトルが適用されます。';
 
 ?>

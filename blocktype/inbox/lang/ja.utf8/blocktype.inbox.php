@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-22 19:39:01 UTC
+ * @updated    2011-04-20 14:42:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -35,5 +35,6 @@ $string['maxitems'] = '表示するアイテムの最大数';
 $string['maxitemsdescription'] = '設定範囲: 1～100';
 $string['More'] = 'さらに';
 $string['nomessages'] = 'メッセージなし';
+$string['defaulttitledescription'] = 'タイトルフィールドを空白にした場合、デフォルトタイトルが適用されます。';
 
 ?>

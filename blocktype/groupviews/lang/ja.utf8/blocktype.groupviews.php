@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-28 06:12:55 UTC
+ * @updated    2011-04-20 14:42:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -34,5 +34,6 @@ $string['displaygroupviews'] = 'グループページを表示しますか?';
 $string['displaygroupviewsdesc'] = 'グループページ - グループ内で作成されたページ';
 $string['displaysharedviews'] = '共有ページを表示しますか?';
 $string['displaysharedviewsdesc'] = '共有ページ - グループメンバーにより共有される個人のポートフォリオ';
+$string['defaulttitledescription'] = 'タイトルフィールドを空白にした場合、デフォルトタイトルが適用されます。';
 
 ?>
