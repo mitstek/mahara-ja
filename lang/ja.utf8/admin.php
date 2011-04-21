@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-04-14 14:24:30 UTC
+ * @updated    2011-04-21 16:38:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -341,6 +341,18 @@ $string['proxyauthmodelset'] = 'プロクシ認証モデルが設定されまし
 $string['proxyauthcredentials'] = 'プロクシ証明書';
 $string['proxyauthcredentialsdescription'] = 'あなたのプロクシがウェブサーバに認証するため必要な証明書を「ユーザ名:パスワード」のフォーマットで指定してください。';
 $string['proxyauthcredntialsset'] = 'プロクシ認証証明書セット';
+$string['emailsettings'] = 'Eメール設定';
+$string['emailsmtphosts'] = 'SMTPホスト';
+$string['emailsmtphostsdescription'] = 'メール送信に使用するSMTPサーバです。例) smtp1.example.com';
+$string['emailsmtpport'] = 'SMTPポート';
+$string['emailsmtpportdescription'] = 'SMTPサーバが25以外のポートを使用する場合、ここで指定してください。';
+$string['emailsmtpuser'] = 'ユーザ';
+$string['emailsmtpuserdescription'] = 'SMTPサーバに認証が必要な場合、対応するフィールドにユーザ認証情報を入力してください。';
+$string['emailsmtppass'] = 'パスワード';
+$string['emailsmtpsecure'] = 'SMTP暗号化';
+$string['emailsmtpsecuredescription'] = 'SMTPサーバが暗号化をサポートする場合、ここで有効にしてください。';
+$string['emailsmtpsecuressl'] = 'SSL';
+$string['emailsmtpsecuretls'] = 'TLS';
 $string['csvfile'] = 'CSVファイル';
 $string['emailusersaboutnewaccount'] = 'ユーザにアカウント情報をメール送信しますか?';
 $string['emailusersaboutnewaccountdescription'] = '新しいアカウント詳細情報をユーザにメール送信するかどうか設定します。';
@@ -437,6 +449,8 @@ $string['usersuspended'] = 'ユーザが利用停止されました。';
 $string['userunsuspended'] = 'ユーザの利用停止が解除されました。';
 $string['accountsettings'] = 'アカウント設定';
 $string['siteaccountsettings'] = 'サイトアカウント設定';
+$string['changeusername'] = 'ユーザ名を変更する';
+$string['changeusernamedescription'] = 'このユーザのユーザ名を変更します。ユーザ名の長さは半角3～30文字にしてください。ユーザ名にはスペースを除く、文字、数字および一般的な記号を含むことができます。';
 $string['resetpassword'] = 'パスワードのリセット';
 $string['resetpassworddescription'] = 'ここにテキストを入力した場合、ユーザの現在のパスワードと入れ替えられます。';
 $string['forcepasswordchange'] = '次回ログイン時、パスワード変更を強制する';
@@ -465,6 +479,8 @@ $string['suspenddeleteuser'] = 'ユーザの利用停止/削除';
 $string['suspenddeleteuserdescription'] = 'あなたはここでユーザアカウントを利用停止または完全に削除することができます。利用停止されたユーザは利用停止が解除されるまで、ログインすることができません。利用停止されたユーザは利用停止解除することができますが、削除されたユーザは元に戻すことは<b>できません</b>ので注意してください。';
 $string['deleteusernote'] = 'この処理は<b>元に戻すことができません</b>ので注意してください。';
 $string['youcannotadministerthisuser'] = 'あなたはこのユーザを管理できません。';
+$string['usernamechangenotallowed'] = '選択された認証方法ではユーザ名の変更が許可されていません。';
+$string['passwordchangenotallowed'] = '選択された認証方法ではパスワードの変更が許可されていません。';
 $string['adduser'] = 'ユーザを追加する';
 $string['adduserdescription'] = '新しいユーザを作成します。';
 $string['basicinformationforthisuser'] = 'このユーザの基本情報です。';
