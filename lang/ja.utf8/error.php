@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-23 22:31:32 UTC
+ * @updated    2011-04-27 15:53:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -97,5 +97,6 @@ $string['missingparamblocktype'] = '最初に追加するブロックタイプ�
 $string['missingparamcolumn'] = 'カラム設定がありません。';
 $string['missingparamorder'] = '並び替え順の設定がありません。';
 $string['missingparamid'] = 'IDがありません。';
+$string['themenameinvalid'] = 'テーマ名「 %s 」に無効な文字が含まれています。';
 
 ?>
