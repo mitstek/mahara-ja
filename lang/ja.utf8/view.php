@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-01-10 07:25:05 UTC
+ * @updated    2011-04-28 15:54:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -138,7 +138,7 @@ $string['cantsubmitviewtogroup'] = 'あなたはこのページの評価を目�
 $string['cantdeleteview'] = 'あなたはこのページを削除できません。';
 $string['deletespecifiedview'] = 'ページ「 %s 」を削除する';
 $string['deleteviewconfirm'] = '本当にこのページを削除してもよろしいですか? 元に戻すことはできません。';
-$string['deleteviewconfirmnote'] = '<p><strong>注意:</strong> このページに追加されたコンテンツブロックすべて削除されません。しかし、ページに投稿されたフィードバックすべては削除されます。最初にエクスポートによるページのバックアップをお考えください。</p>';
+$string['deleteviewconfirmnote'] = '<strong>注意:</strong> あなたがこのページにリンクしているすべてのファイルおよび日誌エントリは継続して利用することができます。<br />テキストボックスに直接入力されたテキスト、およびこのページに投稿されたフィードバックは削除されます。';
 $string['editaccesspagedescription3'] = 'デフォルトでは、あなたのページをあなたのみ閲覧できます。このページにアクセスルールを追加することで、あなたは他のユーザとページを共有することができます。アクセスルールを追加した後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editaccessinvalidviewset'] = '無効な一連のページおよびコレクションのアクセスを編集しようとしました。';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
