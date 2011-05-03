@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-04-27 15:52:40 UTC
+ * @updated    2011-05-03 16:23:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -353,6 +353,8 @@ $string['emailsmtpsecure'] = 'SMTP暗号化';
 $string['emailsmtpsecuredescription'] = 'SMTPサーバが暗号化をサポートする場合、ここで有効にしてください。';
 $string['emailsmtpsecuressl'] = 'SSL';
 $string['emailsmtpsecuretls'] = 'TLS';
+$string['emailnoreplyaddress'] = 'システムメールアドレス';
+$string['emailnoreplyaddressdescription'] = 'このメールアドレスからEメールが送信されたことになります。';
 $string['csvfile'] = 'CSVファイル';
 $string['emailusersaboutnewaccount'] = 'ユーザにアカウント情報をメール送信しますか?';
 $string['emailusersaboutnewaccountdescription'] = '新しいアカウント詳細情報をユーザにメール送信するかどうか設定します。';
