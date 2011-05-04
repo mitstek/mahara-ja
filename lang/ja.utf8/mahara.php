@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-04-20 14:40:35 UTC
+ * @updated    2011-05-04 17:09:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -60,9 +60,13 @@ $string['To'] = '終了日';
 $string['All'] = 'すべて';
 $string['enable'] = '有効にする';
 $string['disable'] = '無効にする';
+$string['show'] = '表示';
+$string['hide'] = '非表示';
 $string['pluginenabled'] = 'プラグインが有効にされました。';
 $string['plugindisabled'] = 'プラグインが無効にされました。';
 $string['pluginnotenabled'] = 'プラグインが有効にされていません。あなたはまず %s プラグインを有効にする必要があります。';
+$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるため、URIを知っているユーザはアクセスすることができます。機能を有効または無効にする代わりに、以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることで、プラグインを表示または非表示にすることができます。';
+$string['pluginexplainartefactblocktypes'] = '「artefact (アーティファクト)」タイプのプラグインを非表示にした場合、Maharaシステムは同時に関連するブロックの表示を停止します。';
 $string['next'] = '次へ';
 $string['nextpage'] = '次のページ';
 $string['previous'] = '前へ';
