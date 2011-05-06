@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-04-19 17:10:47 UTC
+ * @updated    2011-05-06 17:19:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -120,7 +120,7 @@ $string['institutionrequestmessage'] = 'あなたはインスティテューシ�
 $string['institutioninvitesubject'] = 'あなたはインスティテューション %s への参加を招待されました。';
 $string['institutioninvitemessage'] = 'あなたはインスティテューション設定ページで、このインスティテューションのメンバーシップを承認することができます:';
 $string['deleteallnotifications'] = 'すべての通知を削除する';
-$string['reallydeleteallnotifications'] = '本当にあなたのすべての通知を削除してもよろしいですか?';
+$string['reallydeleteallnotifications'] = '本当にこの活動タイプに関して、あなたのすべての通知を削除してもよろしいですか?';
 $string['viewsubmittedsubject'] = '%s に送信されたページ';
 $string['viewsubmittedmessage'] = '%s がページ「 %s 」を %s に送信しました。';
 $string['adminnotificationerror'] = 'ユーザ通知エラーは恐らくあなたのサーバ設定に起因します。';
