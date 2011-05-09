@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-06 17:17:53 UTC
+ * @updated    2011-05-03 16:23:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -415,7 +415,6 @@ $string['importfilemissinglisting'] = 'バルクエクスポートファイル�
 $string['importfilenotafile'] = '送信中にエラーが発生しました: ファイルを認識できませんでした。';
 $string['importfilenotreadable'] = 'Leap2Aファイル %s を読むことができません。';
 $string['bulkleap2aimportfiledescription'] = 'あなたのサーバのZIPファイルにはエクスポートされたユーザすべて (Leap2Aフォーマット) およびユーザ名のCSVリストが含まれます。';
-$string['unzipnotinstalled'] = 'あなたのシステムではunzipコマンドを実行できない、または「$cfg->pathtounzip」設定が正しくありません。ZIPエクスポートファイルのインポートを有効にするには、unzipをインストールするか、「$cfg->pathtounzip」設定を訂正してください。';
 $string['importednuserssuccessfully'] = '%d / %d のユーザを正常にインポートしました。';
 $string['Import'] = 'インポート';
 $string['bulkimportdirdoesntexist'] = 'ディレクトリ %s が存在しません。';
