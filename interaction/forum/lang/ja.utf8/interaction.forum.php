@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-02-09 18:36:59 UTC
+ * @updated    2011-05-10 08:32:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -68,7 +68,7 @@ $string['deletetopicsuccess'] = 'トピックが正常に削除されました�
 $string['deletetopicsure'] = '本当にこの処理を実行してもよろしいですか? 元に戻すことはできません。';
 $string['editpost'] = '投稿を編集する';
 $string['editpostsuccess'] = '投稿が正常に編集されました。';
-$string['editstothispost'] = 'この投稿を編集する';
+$string['editstothispost'] = 'この投稿に対する編集';
 $string['edittitle'] = 'フォーラムを編集する';
 $string['edittopic'] = 'トピックを編集する';
 $string['edittopicsuccess'] = 'トピックが正常に編集されました。';
