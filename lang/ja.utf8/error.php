@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-09 16:31:32 UTC
+ * @updated    2011-05-11 09:24:28 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -102,5 +102,6 @@ $string['missingparamcolumn'] = 'カラム設定がありません。';
 $string['missingparamorder'] = '並び替え順の設定がありません。';
 $string['missingparamid'] = 'IDがありません。';
 $string['themenameinvalid'] = 'テーマ名「 %s 」に無効な文字が含まれています。';
+$string['timezoneidentifierunusable'] = 'あなたのウェブサイトのPHPはタイムゾーンID (%z) に対して、有益な値を返していないようです - LEAP2Aエクスポート等の日付フォーマットが壊れる可能性があります。';
 
 ?>

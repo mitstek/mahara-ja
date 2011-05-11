@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-09 16:36:26 UTC
+ * @updated    2011-05-11 09:20:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -117,6 +117,7 @@ $string['htmlfiltersdescription'] = 'HTML Purifierの新しいフィルタを有
 $string['newfiltersdescription'] = 'あなたが新しいHTMLフィルタをダウンロードした場合、%s フォルダでファイルを解凍した後、下記のボタンをクリックすることで、インストールすることができます。';
 $string['filtersinstalled'] = 'フィルタがインストールされました。';
 $string['nofiltersinstalled'] = 'HTMLフィルタはインストールされませんでした。';
+$string['warnings'] = '警告';
 $string['groupcategories'] = 'グループカテゴリ';
 $string['allowgroupcategories'] = 'グループカテゴリを許可する';
 $string['enablegroupcategories'] = 'グループカテゴリを有効にする';
