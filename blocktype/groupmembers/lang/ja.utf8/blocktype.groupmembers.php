@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-04-20 14:42:06 UTC
+ * @updated    2011-05-16 14:50:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -31,10 +31,8 @@ defined('INTERNAL') || die();
 $string['title'] = 'グループメンバー';
 $string['description'] = 'このグループのメンバーを一覧表示します。';
 $string['show_all'] = 'このグループのメンバーすべてを表示する ...';
-$string['options_rows_title'] = '行';
-$string['options_rows_desc'] = 'あなたが表示したい行数です。';
-$string['options_columns_title'] = 'カラム';
-$string['options_columns_desc'] = 'あなたが表示したいカラム数です。';
+$string['options_numtoshow_title'] = '表示メンバー';
+$string['options_numtoshow_desc'] = 'あなたが表示したいメンバー数です。';
 $string['options_order_title'] = '表示順';
 $string['options_order_desc'] = 'あなたはグループメンバーの表示順に関して、最新グループメンバーまたはランダムを選択することができます。';
 $string['Latest'] = '最新';

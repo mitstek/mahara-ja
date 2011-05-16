@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-04 17:09:03 UTC
+ * @updated    2011-05-16 14:40:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -433,7 +433,7 @@ $string['mygroups'] = 'マイグループ';
 $string['findgroups'] = 'グループを探す';
 $string['returntosite'] = 'サイトに戻る';
 $string['siteadministration'] = 'サイト管理';
-$string['useradministration'] = 'ユーザ管理';
+$string['institutionaladministration'] = 'インスティテューション管理';
 $string['unreadmessages'] = '未読メッセージ';
 $string['unreadmessage'] = '未読メッセージ';
 $string['siteclosed'] = 'データベースアップグレードのため、サイトは一時的に閉鎖されています。サイト管理者はログインすることができます。';

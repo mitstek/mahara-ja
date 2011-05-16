@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-11 09:20:36 UTC
+ * @updated    2011-05-16 14:47:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -454,7 +454,7 @@ $string['userunsuspended'] = 'ユーザの利用停止が解除されました�
 $string['accountsettings'] = 'アカウント設定';
 $string['siteaccountsettings'] = 'サイトアカウント設定';
 $string['changeusername'] = 'ユーザ名を変更する';
-$string['changeusernamedescription'] = 'このユーザのユーザ名を変更します。ユーザ名の長さは半角3～30文字にしてください。ユーザ名にはスペースを除く、文字、数字および一般的な記号を含むことができます。';
+$string['changeusernamedescription'] = 'このユーザのユーザ名を変更します。ユーザ名の長さは半角3～236文字にしてください。ユーザ名にはスペースを除く、文字、数字および一般的な記号を含むことができます。';
 $string['resetpassword'] = 'パスワードのリセット';
 $string['resetpassworddescription'] = 'ここにテキストを入力した場合、ユーザの現在のパスワードと入れ替えられます。';
 $string['forcepasswordchange'] = '次回ログイン時、パスワード変更を強制する';
