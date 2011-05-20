@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-11 09:27:50 UTC
+ * @updated    2011-05-20 16:34:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -41,7 +41,7 @@ $string['strftimerecent'] = '%%m月 %%d日 %%H:%%M';
 $string['strftimerecentfull'] = '%%Y年 %%m月 %%d日(%%a) %%H:%%M';
 $string['strftimetime'] = '%%H:%%M';
 $string['strfdaymonthyearshort'] = '%%Y/%%m/%%d';
-$string['strftimew3cdatetime'] = '%%Y-%%m-%%dT%%H:%%I:%%S%%z';
+$string['strftimew3cdatetime'] = '%%Y-%%m-%%dT%%H:%%M:%%S%%z';
 $string['strftimew3cdate'] = '%%Y-%%m-%%d';
 $string['thislanguage'] = '日本語';
 $string['locales'] = 'ja_JP.utf8,Japanese_Japan.932';
