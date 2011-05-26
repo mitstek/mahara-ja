@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-26 17:19:32 UTC
+ * @updated    2011-05-26 17:32:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,6 +29,6 @@
 defined('INTERNAL') || die();
 
 $string['exactusersearch'] = 'ユーザ厳密検索';
-$string['exactusersearchdescription'] = 'チェックした場合、「ユーザを検索する」ボックスおよび「フレンドを探す」ページの結果には、検索キーワード全体に合致するプロファイルフィールドのあるユーザのみ表示されます。';
+$string['exactusersearchdescription'] = 'チェックした場合、「ユーザを検索する」ボックスおよび「フレンドを探す」ページの結果には、検索キーワード全体に合致するプロファイルフィールドのユーザのみ表示されます。';
 
 ?>
