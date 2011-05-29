@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-28 06:23:36 UTC
+ * @updated    2011-05-29 14:37:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -39,6 +39,8 @@ $string['add'] = '追加';
 $string['addviews'] = 'ページを追加する';
 $string['addviewstocollection'] = 'コレクションにページを追加する';
 $string['back'] = '戻る';
+$string['cantdeletecollection'] = 'あなたはこのコレクションを削除できません。';
+$string['canteditdontown'] = 'あなたの所有ではないため、このコレクションを編集することはできません。';
 $string['collection'] = 'コレクション';
 $string['Collection'] = 'コレクション';
 $string['collections'] = 'コレクション';

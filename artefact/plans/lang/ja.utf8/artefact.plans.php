@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-23 23:07:45 UTC
+ * @updated    2011-05-29 14:36:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -28,6 +28,7 @@
 
 defined('INTERNAL') || die();
 
+$string['canteditdontownplan'] = 'あなたの所有ではないため、このプランを編集することはできません。';
 $string['description'] = '説明';
 $string['deleteplanconfirm'] = '本当にこのプランを削除してもよろしいですか? このプランを削除することで、プランの中に含まれているすべてのタスクも削除されます。';
 $string['deleteplan'] = 'プランを削除する';
@@ -51,6 +52,7 @@ $string['saveplan'] = 'プランを保存する';
 $string['title'] = 'タイトル';
 $string['titledesc'] = 'それぞれの「マイプラン」ブロックタイプ内タスクにタイトルを表示するために使用されます。';
 $string['alltasks'] = 'すべてのタスク';
+$string['canteditdontowntask'] = 'あなたの所有ではないため、このタスクを編集することはできません。';
 $string['completed'] = '完了済み';
 $string['completiondate'] = '完了日';
 $string['completeddesc'] = 'あなたのプランを完了済みにします。';
