@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-02-16 17:12:26 UTC
+ * @updated    2011-05-31 15:09:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -248,6 +248,8 @@ $string['friends'] = 'フレンド';
 $string['user'] = 'ユーザ';
 $string['users'] = 'ユーザ';
 $string['Friends'] = 'フレンド';
+$string['Everyone'] = '誰でも';
+$string['myinstitutions'] = 'マイインスティテューション';
 $string['friendlistfailure'] = 'あなたのフレンドリストの変更に失敗しました。';
 $string['userdoesntwantfriends'] = 'このユーザは新しいフレンドを欲していません。';
 $string['cannotrequestfriendshipwithself'] = 'あなたはあなた自身にフレンドシップをリクエストできません。';
