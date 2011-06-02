@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-06-01 16:04:34 UTC
+ * @updated    2011-06-02 16:36:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -127,10 +127,13 @@ $string['groupoptionsset'] = 'グループオプションを有効にする';
 $string['groupcategorydeleted'] = 'カテゴリが削除されました。';
 $string['confirmdeletecategory'] = '本当にこのカテゴリを削除してもよろしいですか?';
 $string['groupcategoriespagedescription'] = 'グループ作成時、ここで一覧表示されているグループを割り当てることができます。また、グループ検索時、これらのグループ名を使用して、グループをフィルタすることができます。';
+$string['groupquotas'] = '「 %s 」のグループクオータ';
+$string['groupfilequotadescription'] = 'グループファイルエリアでの利用可能な合計保存領域です。';
 $string['groupadminsforgroup'] = '「 %s 」のグループ管理者';
 $string['potentialadmins'] = '潜在的な管理者';
 $string['currentadmins'] = '現在の管理者';
 $string['groupadminsupdated'] = 'グループ管理者が更新されました。';
+$string['groupquotaupdated'] = 'グループクオータが更新されました。';
 $string['Field'] = 'フィールド';
 $string['Value'] = '値';
 $string['datathatwillbesent'] = '送信されるデータ';
@@ -649,6 +652,7 @@ $string['grouptype'] = 'グループタイプ';
 $string['groupvisible'] = '可視性';
 $string['groupmanage'] = '管理';
 $string['groupdelete'] = '削除';
+$string['managegroupquotadescription'] = 'このグループのグループファイルクオータを変更するため、このフォームを使用してください。';
 $string['managegroupdescription'] = 'グループの管理者を割り当ておよび割り当て解除するため、このフォームを使用してください。';
 
 ?>

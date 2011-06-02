@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-06-01 16:04:52 UTC
+ * @updated    2011-06-02 16:30:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -59,6 +59,8 @@ $string['maxquotatoolow'] = '最大クオータはデフォルトクオータよ
 $string['maxquotaexceeded'] = 'あなたはこのサイトに設定されている最大利用可能なサイズ (%s) を超えてクオータを指定しました。値を小さくする、または最大サイズを増やすため、サイト管理者に連絡してください。';
 $string['maxquotaexceededform'] = '%s より小さなファイルクオータを指定してください。';
 $string['maxquotadescription'] = 'あなたは管理者がユーザに与えることのできる最大クオータを設定することができます。既存のユーザのクオータは影響を受けません。';
+$string['defaultgroupquota'] = 'デフォルトグループクオータ';
+$string['defaultgroupquotadescription'] = 'あなたは新しいグループがファイルエリアに使用することのできる最大クオータを設定することができます。既存のグループのクオータは影響を受けません。';
 $string['deletingfailed'] = '削除に失敗しました: すでにファイルまたはフォルダが存在していません。';
 $string['deletefile?'] = '本当にこのファイルを削除してもよろしいですか?';
 $string['deletefolder?'] = '本当にこのフォルダを削除してもよろしいですか?';
