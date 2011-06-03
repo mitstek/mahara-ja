@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-29 14:37:24 UTC
+ * @updated    2011-06-03 17:07:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -53,6 +53,7 @@ $string['collectioncreatedsuccessfully'] = 'コレクションが正常に作成
 $string['collectioncreatedsuccessfullyshare'] = 'あなたのコレクションが正常に作成されました。下記のアクセスリンクを使用して、あなたのコレクションを他のユーザと共有してください。';
 $string['collectiondeleted'] = 'コレクションが正常に削除されました。';
 $string['collectiondescription'] = 'コレクションは相互にリンクして同一アクセスパーミッションを持つ一連のページです。あなたが好きなだけコレクションを作成することができますが、ページを1つ以上のコレクションに表示することはできません。';
+$string['collectiontitle'] = 'コレクションタイトル';
 $string['confirmcancelcreatingcollection'] = 'このコレクションは完了していません。本当にキャンセルしてもよろしいですか?';
 $string['collectionsaved'] = 'コレクションが正常に保存されました。';
 $string['created'] = '作成日';
@@ -93,5 +94,9 @@ $string['viewnavigationdesc'] = 'このコレクション内すべてのペー�
 $string['viewsaddedtocollection'] = 'コレクションにページが追加されました。';
 $string['viewstobeadded'] = '追加されるページ';
 $string['viewconfirmremove'] = '本当にこのページをコレクションから削除してもよろしいですか?';
+$string['collectioncopywouldexceedquota'] = 'このコレクションをコピーすることで、あなたのファイルクオータを超過します。';
+$string['copiedpagesblocksandartefactsfromtemplate'] = '%d ページ、%d ブロックおよび %d アーティファクトを %s からコピーしました。';
+$string['by'] = 'by';
+$string['copycollection'] = 'コレクションをコピーする';
 
 ?>

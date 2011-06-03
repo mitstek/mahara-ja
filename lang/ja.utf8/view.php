@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-17 16:18:50 UTC
+ * @updated    2011-06-03 17:12:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -51,6 +51,7 @@ $string['ownerformatdescription'] = '他のユーザがあなたのページを�
 $string['profileviewtitle'] = 'プロファイルページ';
 $string['dashboardviewtitle'] = 'ダッシュボードページ';
 $string['grouphomepageviewtitle'] = 'グループホームページ';
+$string['viewname'] = 'ページ名';
 $string['artefacts'] = 'アーティファクト';
 $string['groupviews'] = 'グループページ';
 $string['institutionviews'] = 'インスティテューションページ';
