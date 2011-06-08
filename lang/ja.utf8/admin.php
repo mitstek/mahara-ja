@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-06-02 16:36:48 UTC
+ * @updated    2011-06-08 16:42:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -208,6 +208,8 @@ $string['defaultaccountlifetimedescription'] = 'ユーザアカウントの有�
 $string['embeddedcontent'] = '埋め込みコンテンツ';
 $string['embeddedcontentdescription'] = 'あなたのユーザに対して、他のサイトからのビデオ埋め込みをできるようにしたい場合、下記より信頼されたサイトを選択してください。';
 $string['Everyone'] = '誰でも';
+$string['generatesitemap'] = 'サイトマップを生成する';
+$string['generatesitemapdescription'] = 'パブリックにアクセス可能なページ、グループおよびフォーラムトピックからサイトマップファイルを生成します。';
 $string['homepageinfo'] = 'ホームページ情報を表示する';
 $string['homepageinfodescription'] = 'チェックした場合、Maharaに関する情報および利用状況がMaharaホームページに表示されます。ログインユーザにはこれらの情報を表示しないオプションがあります。';
 $string['institutionautosuspend'] = '有効期限切れインスティテューションの自動停止';
