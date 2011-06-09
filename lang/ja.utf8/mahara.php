@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-06-02 16:37:52 UTC
+ * @updated    2011-06-09 17:59:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -77,6 +77,8 @@ $string['last'] = '最後';
 $string['lastpage'] = '最後のページ';
 $string['accept'] = '承認';
 $string['memberofinstitutions'] = '%s のメンバー';
+$string['staffofinstitutions'] = '%s のスタッフ';
+$string['adminofinstitutions'] = '%s の管理者';
 $string['reject'] = '拒否';
 $string['sendrequest'] = 'リクエストを送信する';
 $string['reason'] = '理由';
@@ -128,6 +130,8 @@ $string['profile'] = 'プロファイル';
 $string['views'] = 'ページ';
 $string['onlineusers'] = 'オンラインユーザ';
 $string['lastminutes'] = '直近の %s 分間';
+$string['allonline'] = 'すべてのオンラインユーザを表示する';
+$string['noonlineusersfound'] = 'オンラインユーザはいません。';
 $string['linksandresources'] = 'リンクおよびリソース';
 $string['accesstotallydenied_institutionsuspended'] = 'あなたのインスティテューション %s は現在利用停止されています。利用再開されるまで、 %s にログインすることはできません。詳細はあなたのインスティテューションにご連絡ください。';
 $string['accessforbiddentoadminsection'] = 'あなたは管理セクションへのアクセスを禁止されています。';
@@ -281,6 +285,8 @@ $string['confirmpassword'] = 'パスワードをもう一度';
 $string['javascriptnotenabled'] = 'あなたのブラウザではこのサイトに対してJavaスクリプトが有効にされていません。Maharaではあなたがログインする前にJavaスクリプトを有効にする必要があります。';
 $string['cookiesnotenabled'] = 'あなたのブラウザではクッキーが有効にされていないか、このサイトからのクッキーがブロックされています。Maharaではあなたがログインする前にクッキーを有効にする必要があります。';
 $string['institution'] = 'インスティテューション';
+$string['institutioncontacts'] = '「 %s 」連絡先';
+$string['institutionlink'] = '<a href="%s">%s</a>';
 $string['loggedoutok'] = 'あなたは正常にログアウトしました。';
 $string['login'] = 'ログイン';
 $string['loginfailed'] = 'あなたは正しいログイン情報を提供していないようです。あなたのユーザ名およびパスワードが正しいどうか確認してください。';
@@ -468,6 +474,8 @@ $string['institutionmemberconfirmsubject'] = 'インスティテューション�
 $string['institutionmemberconfirmmessage'] = 'あなたは %s にメンバーとして追加されました。';
 $string['institutionmemberrejectsubject'] = 'インスティテューションメンバーシップのリクエストが拒否されました。';
 $string['institutionmemberrejectmessage'] = 'あなたの %s に対するメンバーシップのリクエストは拒否されました。';
+$string['noinstitutionstafffound'] = 'インスティテューションスタッフは登録されていません。';
+$string['noinstitutionadminfound'] = 'インスティテューション管理者は登録されていません。';
 $string['Memberships'] = 'メンバーシップ';
 $string['Requests'] = 'リクエスト';
 $string['Invitations'] = '招待';
