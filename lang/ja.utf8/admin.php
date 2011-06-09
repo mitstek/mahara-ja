@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-06-09 17:42:50 UTC
+ * @updated    2011-06-09 17:46:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -219,7 +219,7 @@ $string['institutionexpirynotificationdescription'] = 'サイトおよびイン�
 $string['language'] = '言語';
 $string['none'] = 'なし';
 $string['onlineuserssideblockmaxusers'] = 'オンラインユーザ制限';
-$string['onlineuserssideblockmaxusersdescription'] = 'オンラインユーザサイドブロックに表示する最大ユーザ数です。';
+$string['onlineuserssideblockmaxusersdescription'] = 'オンラインユーザサイドブロックに表示される最大ユーザ数です。';
 $string['country'] = '国';
 $string['pathtoclam'] = 'clamのパス';
 $string['pathtoclamdescription'] = 'clamscanまたはclamdscanへのファイルシステムパスです。';
