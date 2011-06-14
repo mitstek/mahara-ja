@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-06-09 17:46:17 UTC
+ * @updated    2011-06-14 18:17:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -377,13 +377,17 @@ $string['uploadcsverrorinvalidfieldname'] = 'フィールド名「 %s 」が無�
 $string['uploadcsverrorrequiredfieldnotspecified'] = '必須フィールド「 %s 」がフォーマット行で指定されていません。';
 $string['uploadcsverrornorecords'] = 'ファイルにレコードが含まれていないようです (ヘッダに問題はありません)。';
 $string['uploadcsverrorunspecifiedproblem'] = '何らかの理由により、あなたのCSVファイルのレコードを追加することができませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href="https://eduforge.org/tracker/?func=add&group_id=176&atid=739">バクレポートを作成してください</a> (パスワードは空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
+$string['uploadcsverrorwrongnumberoffields'] = 'あなたのファイルの　%s 行目にエラーがあります: フィールド数が正しくありません。';
 $string['uploadcsverrorinvalidemail'] = 'あなたのファイルの　%s 行目にエラーがあります: このユーザのメールアドレスは正しい形式ではありません。';
 $string['uploadcsverrorincorrectnumberoffields'] = 'あなたのファイルの　%s 行目にエラーがあります: この行には正しい数のフィールドが含まれていません。';
 $string['uploadcsverrorinvalidpassword'] = 'あなたのファイルの　%s 行目にエラーがあります: パスワードは少なくとも半角英数字6文字にしてください。そしてパスワードには半角数字1文字および半角英文字2文字以上を含む必要があります。';
 $string['uploadcsverrorinvalidusername'] = 'あなたのファイルの　%s 行目にエラーがあります: このユーザのユーザ名は正しい形式ではありません。';
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には必須の「 %s 」フィールドが含まれていません。';
 $string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」はすでに登録されています。';
-$string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」はすでに他のユーザに取得されています。';
+$string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」はすでに他のユーザにより取得されています。';
+$string['uploadcsverrorremoteusertaken'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでにユーザ「 %s 」により取得されています。';
+$string['uploadcsverrorusernotininstitution'] = 'あなたのファイルの　%s 行目にエラーがあります: ユーザ「 %s 」はインスティテューション「 %s 」のメンバーではありません。';
+$string['uploadcsverroruserinaninstitution'] = 'あなたのファイルの　%s 行目にエラーがあります: ユーザ「 %s 」は次のインスティテューションのメンバーです: %s あなたはこのユーザの認証方法を「No Institution」に変更することはできません。';
 $string['uploadcsvpagedescription2'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
@@ -407,8 +411,14 @@ $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの�
 
 %s';
 $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効でないか、Maharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動でコンタクトしてください:';
-$string['uploadcsvusersaddedsuccessfully'] = 'ファイル内のユーザが正常に追加されました。';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるため、ユーザは追加されませんでした。許可されたインスティテューションの最大ユーザ数を超えました。';
+$string['updateusers'] = 'ユーザを更新する';
+$string['updateusersdescription'] = 'CSVファイルで指定したインスティテューションのメンバーになっているユーザが含まれている場合、あなたはファイルのデータよりユーザ詳細を上書きすることができます。使用に注意してください。';
+$string['csvfileprocessedsuccessfully'] = 'あなたのCSVファイルが正常に処理されました。';
+$string['nousersadded'] = 'ユーザは追加されませんでした。';
+$string['numbernewusersadded'] = '新しいユーザが追加されました: %s';
+$string['numberusersupdated'] = 'ユーザが更新されました: %d';
+$string['showupdatedetails'] = '更新詳細を表示する';
 $string['bulkleap2aimport'] = 'Leap2Aファイルからユーザをインポートする';
 $string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある複数のLeap2Aファイルを使用して、ユーザを一度にインポートすることができます。あなたはファイルシステムのディレクトリにおいて、すべてのLeap2A ZIPファイルおよびファイル名にユーザ名をマッピングするimport.csvと呼ばれるCSVファイルを指定する必要があります。</p>
 <p>import.csvは以下のようになります:</p>
