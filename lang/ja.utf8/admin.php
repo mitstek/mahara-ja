@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-16 14:47:24 UTC
+ * @updated    2011-06-14 18:02:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -376,7 +376,7 @@ $string['uploadcsverrorinvalidpassword'] = 'あなたのファイルの　%s 行
 $string['uploadcsverrorinvalidusername'] = 'あなたのファイルの　%s 行目にエラーがあります: このユーザのユーザ名は正しい形式ではありません。';
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には必須の「 %s 」フィールドが含まれていません。';
 $string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」はすでに登録されています。';
-$string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」はすでに他のユーザに取得されています。';
+$string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」はすでに他のユーザにより取得されています。';
 $string['uploadcsvpagedescription2'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
