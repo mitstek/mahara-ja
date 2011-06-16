@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-31 15:09:56 UTC
+ * @updated    2011-06-16 18:34:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -61,6 +61,8 @@ $string['reason'] = '理由';
 $string['approve'] = '承認';
 $string['reject'] = '拒否';
 $string['groupalreadyexists'] = 'この名称のグループはすでに登録されています。';
+$string['invalidshortname'] = '無効なグループ省略名です。';
+$string['shortnameformat'] = 'グループ省略名は半角英数字2～255文字にしてください。また、グループ省略名には半角英数字、「.」、「-」および「_」を使用することができます。';
 $string['Created'] = '作成日';
 $string['groupadmins'] = 'グループ管理者';
 $string['Admin'] = '管理者';
