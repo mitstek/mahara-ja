@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-06-14 18:17:15 UTC
+ * @updated    2011-06-16 18:39:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -193,6 +193,8 @@ $string['adminsandstaffonly'] = '管理者およびスタッフのみ';
 $string['advanced'] = '高度';
 $string['allowpublicviews'] = 'パブリックページを許可する';
 $string['allowpublicviewsdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なポートフォリオページを作成することができます。';
+$string['allowinstitutionpublicviews'] = 'インスティテューションパブリックページを許可する';
+$string['allowinstitutionpublicviewsdescription'] = '「Yes」に設定した場合、このインスティテューションに属しているユーザはログインユーザだけではなく、その他のユーザからもアクセス可能なポートフォリオページを作成することができます。';
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowpublicprofilesdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なプロファイルページを作成することができます。';
 $string['anonymouscomments'] = '匿名コメント';
