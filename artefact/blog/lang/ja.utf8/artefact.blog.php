@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-26 22:52:30 UTC
+ * @updated    2011-06-17 18:05:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -81,6 +81,7 @@ $string['newattachmentsexceedquota'] = 'このエントリにアップロード�
 $string['newblog'] = '新しい日誌';
 $string['newblogpost'] = '日誌「 %s 」の新しい日誌エントリ';
 $string['newerposts'] = '新しいエントリ';
+$string['noblogfound'] = 'デフォルト日誌が見つかりませんでした。これはシステムのバグであると考えられます。この問題を解消するには、あなたがアカウント設定ページにて、「複数日誌を有効にする」オプションを有効にする必要があります。';
 $string['nopostsyet'] = 'まだエントリはありません';
 $string['addone'] = 'エントリを追加してください!';
 $string['noimageshavebeenattachedtothispost'] = 'このエントリにイメージは追加されませんでした。イメージを挿入できるようにするには、事前にイメージをアップロードするか、添付してください。';
