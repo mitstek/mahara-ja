@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-06-08 17:22:39 UTC
+ * @updated    2011-06-20 19:01:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -130,6 +130,7 @@ $string['share'] = '共有';
 $string['sharewith'] = '共有対象';
 $string['accesslist'] = 'アクセスリスト';
 $string['sharewithmygroups'] = 'マイグループと共有する';
+$string['sharewithusers'] = 'ユーザと共有する';
 $string['shareview'] = 'ページを共有する';
 $string['otherusersandgroups'] = '他のユーザおよびグループと共有する';
 $string['moreoptions'] = '高度な設定';

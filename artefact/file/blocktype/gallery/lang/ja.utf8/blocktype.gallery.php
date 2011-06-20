@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-11-01 03:44:09 UTC
+ * @updated    2011-06-20 19:14:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -31,12 +31,30 @@ defined('INTERNAL') || die();
 $string['title'] = 'イメージギャラリー';
 $string['description'] = 'あなたのファイルエリアからのイメージコレクションです。';
 $string['select'] = 'イメージ選択';
-$string['selectfolder'] = '私のフォルダの1つからイメージすべてを表示します。';
-$string['selectimages'] = '私が表示するイメージを選択します。';
+$string['selectfolder'] = '私のフォルダの1つからイメージすべてを表示します (後でアップロードされたイメージを含む)。';
+$string['selectimages'] = '表示するイメージを私が選択します。';
+$string['selectexternal'] = '外部ギャラリーよりイメージを表示します。';
+$string['externalgalleryurl'] = 'ギャラリーURIまたはRSS';
+$string['externalgalleryurldesc'] = 'あなたは次の外部ギャラリーを埋め込むことができます:';
 $string['width'] = '幅';
 $string['widthdescription'] = 'あなたのイメージの幅 (ピクセル) を指定してください。イメージがこの幅にサイズ変更されます。イメージのオリジナルサイズを使用する場合、空白のままにしてください。';
 $string['style'] = 'スタイル';
 $string['stylethumbs'] = 'サムネイル';
+$string['stylesquares'] = 'サムネイル (正方形)';
 $string['styleslideshow'] = 'スライドショー';
+$string['cannotdisplayslideshow'] = 'スライドショーを表示できません。';
+$string['gallerysettings'] = 'ギャラリー設定';
+$string['previewwidth'] = '最大写真幅';
+$string['flickrsettings'] = 'Flickr設定';
+$string['flickrapikey'] = 'Flickr APIキー';
+$string['flickrsets'] = 'Flickrセット';
+$string['pbsettings'] = 'Photobucket設定';
+$string['pbapikey'] = 'Photobucket APIキー';
+$string['pbapiprivatekey'] = 'Photobucket APIプライベートキー';
+$string['photobucketphotosandalbums'] = 'Photobucketユーザ写真およびアルバム';
+$string['Photo'] = '写真';
+$string['by'] = 'by';
+$string['panoramiouserphotos'] = 'Panoramioユーザ写真';
+$string['picasaalbums'] = 'Picasaアルバム';
 
 ?>
