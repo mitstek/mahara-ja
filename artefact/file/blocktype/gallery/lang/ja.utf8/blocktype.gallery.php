@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-06-20 19:14:44 UTC
+ * @updated    2011-06-23 20:53:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -44,17 +44,27 @@ $string['stylesquares'] = 'サムネイル (正方形)';
 $string['styleslideshow'] = 'スライドショー';
 $string['cannotdisplayslideshow'] = 'スライドショーを表示できません。';
 $string['gallerysettings'] = 'ギャラリー設定';
+$string['useslimbox2'] = 'Slimbox 2を使用する';
+$string['useslimbox2desc'] = 'Slimbox 2 (Lightbox 2のビジュアルクローン) は現在のページにイメージをオーバーレイするためのシンプルで控えめなスクリプトです。';
+$string['photoframe'] = 'フォトフレームを使用する';
+$string['photoframedesc'] = '有効にした場合、ギャラリー内のそれぞれの写真のサムネイルの周りにフレームが描画されます。';
 $string['previewwidth'] = '最大写真幅';
+$string['previewwidthdesc'] = 'Slimbox2で表示される場合、写真がリサイズされる最大幅を設定してください。';
 $string['flickrsettings'] = 'Flickr設定';
 $string['flickrapikey'] = 'Flickr APIキー';
+$string['flickrapikeydesc'] = 'Flickrのフォトセットを表示するには、あなたは有効なFlickr APIキーが必要です。<a href="http://www.flickr.com/services/api/keys/apply/" target="_blank">あなたのキーをオンラインで取得してください</a>。';
 $string['flickrsets'] = 'Flickrセット';
 $string['pbsettings'] = 'Photobucket設定';
 $string['pbapikey'] = 'Photobucket APIキー';
+$string['pbapikeydesc'] = 'Photobucketのフォトアルバムを表示するには、あなたは有効なAPIキーおよびAPIプライベートキーが必要です。<br /><a href="http://developer.photobucket.com/" target="_blank">Photobucket開発者ウェブサイト</a>にアクセスして利用規約に同意、サインアップした後、APIキーを取得してください。';
 $string['pbapiprivatekey'] = 'Photobucket APIプライベートキー';
 $string['photobucketphotosandalbums'] = 'Photobucketユーザ写真およびアルバム';
 $string['Photo'] = '写真';
 $string['by'] = 'by';
+$string['panoramiocopyright'] = 'Panoramioから提供された写真は、そのオーナーが著作権を有します。';
 $string['panoramiouserphotos'] = 'Panoramioユーザ写真';
 $string['picasaalbums'] = 'Picasaアルバム';
+$string['windowslivephotoalbums'] = 'Windows Liveフォトギャラリーアルバム';
+$string['externalnotsupported'] = 'あなたが提供した外部URIはサポートされていません。';
 
 ?>
