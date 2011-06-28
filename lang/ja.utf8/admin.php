@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-06-17 17:46:41 UTC
+ * @updated    2011-06-28 16:27:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -201,6 +201,8 @@ $string['anonymouscomments'] = '匿名コメント';
 $string['anonymouscommentsdescription'] = 'チェックした場合、パブリックページまたはシークレットURIアクセス可能なページに対して、未ログインユーザがコメントを投稿することができます。';
 $string['antispam'] = 'アンチスパム';
 $string['antispamdescription'] = 'パブリックに表示されるフォームに適用されるアンチスパム基準タイプです。';
+$string['dropdownmenu'] = 'ドロップダウンナビゲーション';
+$string['dropdownmenudescription'] = 'チェックした場合、サブナビゲーションを表示するために、メインのMaharaナビゲーションがドロップダウンフォーマットを使用します。';
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
 $string['defaultaccountinactiveexpiredescription'] = 'ユーザログインがない状態で、どのくらいの期間、ユーザアカウントはアクティブのままですか。';
 $string['defaultaccountinactivewarn'] = '休眠/有効期限の警告期間';

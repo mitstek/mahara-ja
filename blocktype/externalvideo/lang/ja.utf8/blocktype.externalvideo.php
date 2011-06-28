@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-24 16:08:35 UTC
+ * @updated    2011-06-28 16:23:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -41,5 +41,6 @@ $string['youtube'] = 'YouTube';
 $string['teachertube'] = 'TeacherTube';
 $string['prezi'] = 'Prezi';
 $string['glogster'] = 'Glogster';
+$string['vimeo'] = 'Vimeo';
 
 ?>
