@@ -118,9 +118,9 @@ $string['registeryourmaharasitedetail'] = '<p>あなたは<a href="http://mahara
 <p>サイトを登録した後、この通知は取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更することができます。</p>';
 $string['adminsonly'] = '管理者のみ';
 $string['allowpublicviews'] = 'パブリックビューを許可する';
-$string['allowpublicviewsdescription'] = 'チェックした場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なポートフォリオビューを作成することができます。';
+$string['allowpublicviewsdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なポートフォリオビューを作成することができます。';
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
-$string['allowpublicprofilesdescription'] = 'チェックした場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なプロファイルビューを作成することができます。';
+$string['allowpublicprofilesdescription'] = '「Yes」に設定した場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なプロファイルビューを作成することができます。';
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
 $string['defaultaccountinactiveexpiredescription'] = 'ユーザログインがない状態で、どのくらいの期間、ユーザアカウントはアクティブのままですか。';
 $string['defaultaccountinactivewarn'] = '休眠/有効期限の警告期間';
