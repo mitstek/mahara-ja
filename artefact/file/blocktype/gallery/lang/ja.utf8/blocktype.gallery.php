@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-06-23 20:53:00 UTC
+ * @updated    2011-06-29 17:57:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -47,7 +47,7 @@ $string['gallerysettings'] = 'ギャラリー設定';
 $string['useslimbox2'] = 'Slimbox 2を使用する';
 $string['useslimbox2desc'] = 'Slimbox 2 (Lightbox 2のビジュアルクローン) は現在のページにイメージをオーバーレイするためのシンプルで控えめなスクリプトです。';
 $string['photoframe'] = 'フォトフレームを使用する';
-$string['photoframedesc'] = '有効にした場合、ギャラリー内のそれぞれの写真のサムネイルの周りにフレームが描画されます。';
+$string['photoframedesc'] = 'チェックした場合、ギャラリー内のそれぞれの写真のサムネイルの周りにフレームが描画されます。';
 $string['previewwidth'] = '最大写真幅';
 $string['previewwidthdesc'] = 'Slimbox2で表示される場合、写真がリサイズされる最大幅を設定してください。';
 $string['flickrsettings'] = 'Flickr設定';
