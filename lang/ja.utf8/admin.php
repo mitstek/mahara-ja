@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-05 07:10:26 UTC
+ * @updated    2011-07-05 19:02:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -665,7 +665,18 @@ $string['useradded'] = 'ユーザが追加されました。';
 $string['invitationsent'] = '招待状が送信されました。';
 $string['editselectedusers'] = '選択したユーザを編集する';
 $string['bulkactions'] = 'バルク処理';
+$string['editselectedusersdescription'] = 'あなたが検索ページで選択したユーザを利用停止、削除、認証方法変更またはCSVファイルでダウンロードします。';
+$string['exportusersascsv'] = 'ユーザをCSVフォーマットでエクスポートする';
 $string['Download'] = 'ダウンロード';
+$string['suspendusers'] = 'ユーザを利用停止する';
+$string['Suspend'] = '利用停止';
+$string['bulksuspenduserssuccess'] = '%d 名のユーザを利用停止しました。';
+$string['changeauthmethod'] = '認証方法を変更する';
+$string['someusersnotinauthinstanceinstitution'] = 'あなたが選択した何名かのユーザは、この認証方法を使用するインスティテューションに属していません。';
+$string['bulkchangeauthmethodsuccess'] = '%d 名のユーザの認証方法をリセットしました。';
+$string['bulkchangeauthmethodresetpassword'] = 'あなたはパスワードを必要とする認証方法を選択しました。%d 名のユーザにはパスワードが割り当てられていないため、それらのユーザのパスワードがリセットされるまでログインすることはできません。';
+$string['bulkdeleteuserssuccess'] = '%d 名のユーザを削除しました。';
+$string['selectedusers'] = '選択済みユーザ';
 $string['remoteuser'] = 'リモートユーザ名';
 $string['notificationssaved'] = '通知設定が保存されました。';
 $string['onlyshowingfirst'] = '最初に表示';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-05 07:09:40 UTC
+ * @updated    2011-07-05 19:07:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -856,5 +856,6 @@ $string['joingroups'] = '<a href="%s">グループ</a>に参加する';
 $string['sharenetworkdescription'] = '<br />あなたのプライバシーをコントロールします。';
 $string['howtodisable'] = '* あなたはこのボックスの可視性を<a href="%s">設定</a>ページにてコントロールすることができます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
+$string['filenotfound'] = 'ファイルが見つかりませんでした。';
 
 ?>
