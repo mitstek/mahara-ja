@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-06-29 17:44:44 UTC
+ * @updated    2011-07-05 07:10:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -663,6 +663,10 @@ $string['invitedby'] = '招待者';
 $string['requestto'] = 'リクエスト先';
 $string['useradded'] = 'ユーザが追加されました。';
 $string['invitationsent'] = '招待状が送信されました。';
+$string['editselectedusers'] = '選択したユーザを編集する';
+$string['bulkactions'] = 'バルク処理';
+$string['Download'] = 'ダウンロード';
+$string['remoteuser'] = 'リモートユーザ名';
 $string['notificationssaved'] = '通知設定が保存されました。';
 $string['onlyshowingfirst'] = '最初に表示';
 $string['resultsof'] = '検索結果';
