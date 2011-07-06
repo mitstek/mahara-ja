@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-05 19:02:39 UTC
+ * @updated    2011-07-06 19:24:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -94,6 +94,8 @@ $string['adminnotifications'] = '管理者通知';
 $string['adminnotificationsdescription'] = '管理者が受信するシステム通知の概要です。';
 $string['uploadcsv'] = 'CSVでユーザを追加する';
 $string['uploadcsvdescription'] = '新しいユーザを含んだCSVファイルをアップロードします。';
+$string['uploadgroupcsv'] = 'CSVでグループを追加する';
+$string['uploadgroupmemberscsv'] = 'CSVでグループメンバーを更新する';
 $string['usersearch'] = 'ユーザ検索';
 $string['usersearchdescription'] = 'すべてのユーザを検索して、検索されたユーザに対して管理行為を実施します。';
 $string['usersearchinstructions'] = 'ユーザの姓名のイニシャルをクリックするか、検索ボックスに名前を入力することにより、あなたはユーザを検索することができます。あなたがメールアドレスを検索したい場合、検索ボックスにメールアドレスを入力することもできます。';
@@ -375,6 +377,8 @@ $string['forceuserstochangepassworddescription'] = '初回ログイン時、ユ�
 $string['uploadcsvinstitution'] = '新しいユーザのインスティテューションおよび認証方法';
 $string['configureauthplugin'] = 'あなたがユーザを追加するには、最初に認証プラグインを設定する必要があります。';
 $string['csvfiledescription'] = '追加するユーザを含むファイル';
+$string['groupcsvfiledescription'] = '追加するグループを含むファイル';
+$string['groupmemberscsvfiledescription'] = '更新するグループメンバーを含むファイル';
 $string['csverroremptyfile'] = 'CSVファイルが空です。';
 $string['invalidfilename'] = 'ファイル「 %s 」が存在しません。';
 $string['uploadcsverrorinvalidfieldname'] = 'フィールド名「 %s 」が無効、またはヘッダ行より多いフィールドが指定されています。';
@@ -414,14 +418,28 @@ $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの�
 <p>必要に応じて、あなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
 
 %s';
+$string['uploadgroupcsverrorgroupnamealreadyexists'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ名 (groupname)「 %s 」はすでに使用されています。';
+$string['uploadgroupcsverrorinvalidshortname'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname) 「 %s 」が有効ではありません。';
+$string['uploadgroupcsverrorinvalidgrouptype'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループタイプ (grouptype) 「 %s 」が有効ではありません。';
+$string['uploadgroupcsverrorshortnamealreadytaken'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname) 「 %s 」はすでに取得されています。';
+$string['uploadgroupmemberscsverrorduplicateusername'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」およびユーザ名 (username)「 %s 」はすでにこのファイルで指定されています。';
+$string['uploadgroupmemberscsverrorinvalidrole'] = 'あなたのファイルの %s 行目にエラーが発生しました: 指定されたグループに対して、ロール「 %s 」は有効ではありません。';
+$string['uploadgroupmemberscsverrornoadminlisted'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」にはロール「admin」を指定されたユーザがありません。';
+$string['uploadgroupmemberscsverrornosuchshortname'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」が存在しないか、インスティテューション「 %s 」の一部ではありません。';
+$string['uploadgroupmemberscsverrornosuchusername'] = 'あなたのファイルの %s 行目にエラーが発生しました: ユーザ名 (username)「 %s 」は存在しません。';
+$string['uploadgroupmemberscsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーが発生しました: ユーザ名 (username)「 %s 」はインスティテューション「 %s 」に属していません。';
 $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効でないか、Maharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動でコンタクトしてください:';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるため、ユーザは追加されませんでした。許可されたインスティテューションの最大ユーザ数を超えました。';
 $string['updateusers'] = 'ユーザを更新する';
 $string['updateusersdescription'] = 'CSVファイルで指定したインスティテューションのメンバーになっているユーザが含まれている場合、あなたはファイルのデータよりユーザ詳細を上書きすることができます。使用に注意してください。';
+$string['updategroups'] = 'グループを更新する';
 $string['csvfileprocessedsuccessfully'] = 'あなたのCSVファイルが正常に処理されました。';
 $string['nousersadded'] = 'ユーザは追加されませんでした。';
+$string['nogroupsadded'] = 'グループは追加されませんでした。';
 $string['numbernewusersadded'] = '新しいユーザが追加されました: %s';
+$string['numbernewgroupsadded'] = '新しいグループが追加されました: %s';
 $string['numberusersupdated'] = 'ユーザが更新されました: %d';
+$string['numbergroupsupdated'] = 'グループが更新されました: %d';
 $string['showupdatedetails'] = '更新詳細を表示する';
 $string['bulkleap2aimport'] = 'Leap2Aファイルからユーザをインポートする';
 $string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある複数のLeap2Aファイルを使用して、ユーザを一度にインポートすることができます。あなたはファイルシステムのディレクトリにおいて、すべてのLeap2A ZIPファイルおよびファイル名にユーザ名をマッピングするimport.csvと呼ばれるCSVファイルを指定する必要があります。</p>
