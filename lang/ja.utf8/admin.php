@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-06 19:24:51 UTC
+ * @updated    2011-07-07 17:36:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -102,6 +102,8 @@ $string['usersearchinstructions'] = 'ユーザの姓名のイニシャルをク�
 $string['administergroups'] = 'グループを管理する';
 $string['administergroupsdescription'] = 'グループ管理者を割り当ておよびグループを削除します。';
 $string['groupcategoriesdescription'] = 'グループカテゴリを追加および編集します。';
+$string['uploadgroupcsvdescription'] = '新しいグループ情報を含むCSVファイルをアップロードします。';
+$string['uploadgroupmemberscsvdescription'] = 'グループメンバー情報を含むCSVファイルをアップロードします。';
 $string['institutionmembersdescription'] = 'ユーザとインスティテューションを関連付けます。';
 $string['institutionstaffdescription'] = 'スタッフパーミッションをユーザに割り当てます。';
 $string['institutionadminsdescription'] = 'インスティテューション管理者アクセス権を割り当てます。';
@@ -431,8 +433,9 @@ $string['uploadgroupmemberscsverrorusernotininstitution'] = 'あなたのファ�
 $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効でないか、Maharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動でコンタクトしてください:';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるため、ユーザは追加されませんでした。許可されたインスティテューションの最大ユーザ数を超えました。';
 $string['updateusers'] = 'ユーザを更新する';
-$string['updateusersdescription'] = 'CSVファイルで指定したインスティテューションのメンバーになっているユーザが含まれている場合、あなたはファイルのデータよりユーザ詳細を上書きすることができます。使用に注意してください。';
+$string['updateusersdescription'] = 'あなたのCSVファイルに、指定したインスティテューションのメンバーのユーザが含まれている場合、ファイルのデータによりユーザ詳細が上書きされることになります。使用に注意してください。';
 $string['updategroups'] = 'グループを更新する';
+$string['updategroupsdescription'] = 'あなたのCSVファイルに、Maharaシステム内のグループが含まれている場合、ファイルのデータによりグループ詳細が上書きされることになります。使用に注意してください。';
 $string['csvfileprocessedsuccessfully'] = 'あなたのCSVファイルが正常に処理されました。';
 $string['nousersadded'] = 'ユーザは追加されませんでした。';
 $string['nogroupsadded'] = 'グループは追加されませんでした。';
@@ -578,6 +581,8 @@ $string['defaultmembershipperiod'] = 'デフォルトのメンバーシップ期
 $string['defaultmembershipperioddescription'] = 'どのくらいの期間、新しいメンバーはインスティテューションに参加することができますか。';
 $string['showonlineusers'] = 'オンラインユーザを表示する';
 $string['showonlineusersdesc'] = 'このインスティテューションメンバーにオンラインユーザを表示します。設定が異なる場合、最も寛容な設定が使用されます。';
+$string['Logo'] = 'ロゴ';
+$string['logodescription'] = 'あなたのインスティテューションメンバーに標準的なヘッダロゴの代わりに表示されるイメージをここでアップロードすることができます。最良の結果のため、このイメージをあなたのインスティテューションのサイトロゴと同じ大きさにしてください。';
 $string['authenticatedby'] = '認証方法';
 $string['authenticatedbydescription'] = 'このユーザに関するMaharaへの認証方法を設定します。';
 $string['remoteusername'] = '外部認証のユーザ名';
@@ -624,10 +629,14 @@ $string['userstoberemoved'] = '削除するユーザ';
 $string['removeusers'] = 'ユーザを削除する';
 $string['declinerequests'] = 'リクエストを拒否する';
 $string['nousersupdated'] = '更新されたユーザはありません。';
+$string['revokeinvitations'] = '招待を取り消す';
+$string['invitedusers'] = '招待されたユーザ';
+$string['userstobeuninvited'] = '招待するユーザ';
 $string['institutionusersupdated_addUserAsMember'] = 'ユーザが追加されました。';
 $string['institutionusersupdated_declineRequestFromUser'] = 'リクエストが拒否されました。';
 $string['institutionusersupdated_removeMembers'] = 'ユーザが削除されました。';
 $string['institutionusersupdated_inviteUser'] = '招待が送信されました。';
+$string['institutionusersupdated_uninvite_users'] = '招待が取り消されました。';
 $string['maxuseraccounts'] = '許可する最大ユーザアカウント数';
 $string['maxuseraccountsdescription'] = 'インスティテューションに関連付けることのできる最大ユーザアカウント数です。制限がない場合、このフィールドは空白にしてください。';
 $string['institutionmaxusersexceeded'] = 'このインスティテューションはユーザ数が上限に達しました。このユーザを追加できるようにするには、あなたはこのインスティテューションが許可するユーザ数を増やす必要があります。';
