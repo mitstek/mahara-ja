@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-07 17:41:01 UTC
+ * @updated    2011-07-10 17:54:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -62,5 +62,28 @@ $string['usernameinvalidform'] = 'ユーザ名には半角英数字および標�
 $string['usernameinvalidadminform'] = 'ユーザ名には半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3文字から236文字の間にしてください。空白は許可されません。';
 $string['youmaynotregisterwithouttandc'] = '<a href="terms.php">使用条件</a>の順守に同意しない限り、あなたはユーザ登録されません。';
 $string['confirmcancelregistration'] = '本当にこの登録をキャンセルしてもよろしいですか? キャンセルの結果として、あなたのリクエストがシステムから削除されます。';
+$string['confirmemailsubject'] = '%s 登録のメール確認';
+$string['confirmemailmessagetext'] = '%s さん、こんにちは。
+
+%s でのアカウント登録ありがとうございます。あなたのメールアドレスを確認するため、下記のリンクをクリックしてください。
+インスティテューション管理者に通知され、あなたの申請を承認するかどうか検討されます。あなたにはその結果が通知されます。
+
+%sregister.php?key=%s
+
+このリンクは24時間後に無効となります。
+
+--
+%s チーム';
+$string['confirmemailmessagehtml'] = '<p>%s さん、こんにちは。</p>
+
+<p>%s でのアカウント登録ありがとうございます。あなたのメールアドレスを確認するため、下記のリンクをクリックしてください。
+インスティテューション管理者に通知され、あなたの申請を承認するかどうか検討されます。あなたにはその結果が通知されます。</p>
+
+<p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>
+
+<p>このリンクは24時間後に無効となります。/p>
+
+<pre>--
+%s チーム</pre>';
 
 ?>
