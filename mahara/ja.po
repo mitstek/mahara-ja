@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mahara\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/mahara\n"
-"PO-Revision-Date: 2011-07-16 03:02+0900\n"
+"PO-Revision-Date: 2011-07-16 03:09+0900\n"
 "Last-Translator: Mitsuhiro Yoshida <mits@mitstek.com>\n"
 "Language: \n"
 "Language-Team: \n"
@@ -9189,7 +9189,7 @@ msgstr "<p>あなたはこの機能により、<acronym title="Comma Separated V
 "\n"
 "<p>grouptypeフィールドには以下の設定値を含むことができます: %s</p>\n"
 "\n"
-"<p>必要に応じて、あなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>\n"
+"<p>必要に応じて、あなたのCSVファイルには他のフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>\n"
 "\n"
 "%s\n"
 
@@ -9246,7 +9246,7 @@ msgstr "<p>あなたはこの機能により、<acronym title="Comma Separated V
 "\n"
 "<p>shortnameフィールドには、あなたが<a href="%s" title="%s">ここ</a>でグループを作成した時に使用した名称と同じにする必要があります。</p>\n"
 "\n"
-"<p>roleフィールドにはグループタイプに応じて次の設定値を使うことができます: <tt>admin</tt>、<tt>member</tt>または<tt>tutor</tt></p>\n"
+"<p>roleフィールドにはグループタイプに応じて次の設定値を使用することができます: <tt>admin</tt>、<tt>member</tt>または<tt>tutor</tt></p>\n"
 
 #: lang/ja.utf8/admin.php uploadcsvsomeuserscouldnotbeemailed
 msgctxt "lang/ja.utf8/admin.php uploadcsvsomeuserscouldnotbeemailed"
