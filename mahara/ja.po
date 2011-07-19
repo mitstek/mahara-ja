@@ -1,19 +1,18 @@
-
 msgid ""
 msgstr ""
 "Project-Id-Version: mahara\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/mahara\n"
-"PO-Revision-Date: 2011-07-16 01:55+0900\n"
+"POT-Creation-Date: 2011-07-18 07:52-0500\n"
+"PO-Revision-Date: 2011-07-13 04:56+0000\n"
 "Last-Translator: Mitsuhiro Yoshida <mits@mitstek.com>\n"
-"Language: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-07-19 10:49+0000\n"
+"X-Generator: Launchpad (build 13453)\n"
 
-
-
-
+"Language: \n"
 #: artefact/blog/blocktype/blog/lang/ja.utf8/blocktype.blog.php title
 msgctxt "artefact/blog/blocktype/blog/lang/ja.utf8/blocktype.blog.php title"
 msgid "Journal"
@@ -322,6 +321,8 @@ msgstr "あなたのエントリのコンテンツを入力してください。
 #: artefact/blog/lang/ja.utf8/artefact.blog.php name
 msgctxt "artefact/blog/lang/ja.utf8/artefact.blog.php name"
 msgid "Name"
+msgstr ""
+
 #: artefact/blog/lang/ja.utf8/artefact.blog.php newattachmentsexceedquota
 msgctxt "artefact/blog/lang/ja.utf8/artefact.blog.php newattachmentsexceedquota"
 msgid "The total size of the new files that you have uploaded to this entry would exceed your quota.  You may be able to save the entry if you remove some of the attachments you have just added."
@@ -381,6 +382,11 @@ msgstr "エントリ"
 msgctxt "artefact/blog/lang/ja.utf8/artefact.blog.php postbody"
 msgid "Body"
 msgstr "本文"
+
+#: artefact/blog/lang/ja.utf8/artefact.blog.php postbodydesc
+msgctxt "artefact/blog/lang/ja.utf8/artefact.blog.php postbodydesc"
+msgid ""
+msgstr ""
 
 #: artefact/blog/lang/ja.utf8/artefact.blog.php postedon
 msgctxt "artefact/blog/lang/ja.utf8/artefact.blog.php postedon"
@@ -3431,6 +3437,21 @@ msgstr "アカデミックゴール"
 msgctxt "artefact/resume/lang/ja.utf8/artefact.resume.php careergoal"
 msgid "Career Goals"
 msgstr "キャリアゴール"
+
+#: artefact/resume/lang/ja.utf8/artefact.resume.php defaultpersonalgoal
+msgctxt "artefact/resume/lang/ja.utf8/artefact.resume.php defaultpersonalgoal"
+msgid ""
+msgstr ""
+
+#: artefact/resume/lang/ja.utf8/artefact.resume.php defaultacademicgoal
+msgctxt "artefact/resume/lang/ja.utf8/artefact.resume.php defaultacademicgoal"
+msgid ""
+msgstr ""
+
+#: artefact/resume/lang/ja.utf8/artefact.resume.php defaultcareergoal
+msgctxt "artefact/resume/lang/ja.utf8/artefact.resume.php defaultcareergoal"
+msgid ""
+msgstr ""
 
 #: artefact/resume/lang/ja.utf8/artefact.resume.php personalskill
 msgctxt "artefact/resume/lang/ja.utf8/artefact.resume.php personalskill"
@@ -13746,6 +13767,11 @@ msgctxt "lang/ja.utf8/install.php uploadcopyrightdefaultcontent"
 msgid "Yes: The file I am attempting to upload is my own or I have express permission to reproduce and/or distribute this item.  My use of this file does not breach any local Copyright legislation. This file also adheres to the Terms and Conditions outlined on this site."
 msgstr "はい: 私がアップロードを試みているファイルは私に所有権があるファイル、または私に複製および配布が明確に許可されたファイルです。私がこのファイルを使用することで、国内の著作権法を侵害することはありません。また、このファイルはサイトの使用条件に合致しています。"
 
+#: lang/ja.utf8/langconfig.php parentlanguage
+msgctxt "lang/ja.utf8/langconfig.php parentlanguage"
+msgid ""
+msgstr ""
+
 #: lang/ja.utf8/langconfig.php strftimedate
 msgctxt "lang/ja.utf8/langconfig.php strftimedate"
 msgid "%%#d %%B %%Y"
@@ -14778,6 +14804,11 @@ msgctxt "lang/ja.utf8/mahara.php password"
 msgid "Password"
 msgstr "パスワード"
 
+#: lang/ja.utf8/mahara.php passworddescription
+msgctxt "lang/ja.utf8/mahara.php passworddescription"
+msgid ""
+msgstr ""
+
 #: lang/ja.utf8/mahara.php passwordhelp
 msgctxt "lang/ja.utf8/mahara.php passwordhelp"
 msgid "The password you use to access the system"
@@ -14833,6 +14864,11 @@ msgctxt "lang/ja.utf8/mahara.php preferredname"
 msgid "Display Name"
 msgstr "ニックネーム"
 
+#: lang/ja.utf8/mahara.php usernamedescription
+msgctxt "lang/ja.utf8/mahara.php usernamedescription"
+msgid ""
+msgstr ""
+
 #: lang/ja.utf8/mahara.php usernamehelp
 msgctxt "lang/ja.utf8/mahara.php usernamehelp"
 msgid "The username you have been given to access this system."
@@ -14883,15 +14919,30 @@ msgctxt "lang/ja.utf8/mahara.php emailaddress"
 msgid "Email address"
 msgstr "メールアドレス"
 
+#: lang/ja.utf8/mahara.php emailaddressdescription
+msgctxt "lang/ja.utf8/mahara.php emailaddressdescription"
+msgid ""
+msgstr ""
+
 #: lang/ja.utf8/mahara.php firstname
 msgctxt "lang/ja.utf8/mahara.php firstname"
 msgid "First name"
 msgstr "名"
 
+#: lang/ja.utf8/mahara.php firstnamedescription
+msgctxt "lang/ja.utf8/mahara.php firstnamedescription"
+msgid ""
+msgstr ""
+
 #: lang/ja.utf8/mahara.php lastname
 msgctxt "lang/ja.utf8/mahara.php lastname"
 msgid "Last name"
 msgstr "姓"
+
+#: lang/ja.utf8/mahara.php lastnamedescription
+msgctxt "lang/ja.utf8/mahara.php lastnamedescription"
+msgid ""
+msgstr ""
 
 #: lang/ja.utf8/mahara.php studentid
 msgctxt "lang/ja.utf8/mahara.php studentid"
@@ -15750,6 +15801,8 @@ msgstr "アーティファクト %s はページ %s で公開できません。"
 #: lang/ja.utf8/mahara.php belongingto
 msgctxt "lang/ja.utf8/mahara.php belongingto"
 msgid "Belonging to"
+msgstr ""
+
 #: lang/ja.utf8/mahara.php allusers
 msgctxt "lang/ja.utf8/mahara.php allusers"
 msgid "All users"
@@ -17205,9 +17258,13 @@ msgstr "訪問"
 #: lang/ja.utf8/mahara.php after
 msgctxt "lang/ja.utf8/mahara.php after"
 msgid "after"
+msgstr ""
+
 #: lang/ja.utf8/mahara.php before
 msgctxt "lang/ja.utf8/mahara.php before"
 msgid "before"
+msgstr ""
+
 #: lang/ja.utf8/mahara.php importedfrom
 msgctxt "lang/ja.utf8/mahara.php importedfrom"
 msgid "Imported from %s"
