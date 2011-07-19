@@ -150,7 +150,7 @@ msgstr "説明"
 
 #: artefact/blog/lang/ja.utf8/artefact.blog.php blogdescdesc
 msgctxt "artefact/blog/lang/ja.utf8/artefact.blog.php blogdescdesc"
-msgid "e.g., ‘A record of Jill's experiences and reflections’."
+msgid "e.g., ‘A record of Jill\'s experiences and reflections’."
 msgstr "例) 「Jillの経験および内省の記録」"
 
 #: artefact/blog/lang/ja.utf8/artefact.blog.php blogdoesnotexist
@@ -235,7 +235,7 @@ msgstr "%s からインポートされたデータ"
 
 #: artefact/blog/lang/ja.utf8/artefact.blog.php defaultblogtitle
 msgctxt "artefact/blog/lang/ja.utf8/artefact.blog.php defaultblogtitle"
-msgid "%s's Journal"
+msgid "%s\'s Journal"
 msgstr "%s の日誌"
 
 #: artefact/blog/lang/ja.utf8/artefact.blog.php delete
@@ -615,8 +615,8 @@ msgstr "著作権 %s"
 
 #: artefact/blog/lang/ja.utf8/artefact.blog.php enablemultipleblogstext
 msgctxt "artefact/blog/lang/ja.utf8/artefact.blog.php enablemultipleblogstext"
-msgid "You have one journal. If you would like to start a second one, enable the multiple journals option on the <a href="%saccount/">account settings</a> page."
-msgstr "あなたには1件の日誌があります。あなたが2件目の日誌を作成したい場合、<a href="%saccount/">アカウント設定</a>ページにて、複数日誌オプションを有効にしてください。"
+msgid "You have one journal. If you would like to start a second one, enable the multiple journals option on the <a href=\"%saccount/\">account settings</a> page."
+msgstr "あなたには1件の日誌があります。あなたが2件目の日誌を作成したい場合、<a href=\"%saccount/\">アカウント設定</a>ページにて、複数日誌オプションを有効にしてください。"
 
 #: artefact/blog/lang/en.utf8/help/forms/editblog.tags.html
 msgctxt "artefact/blog/lang/en.utf8/help/forms/editblog.tags.html"
@@ -984,19 +984,19 @@ msgstr "あなたはこのコメントをパブリックにするよう、リク
 
 #: artefact/comment/lang/ja.utf8/artefact.comment.php feedbacknotificationhtml
 msgctxt "artefact/comment/lang/ja.utf8/artefact.comment.php feedbacknotificationhtml"
-msgid "<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s commented on %s</strong><br>%s</div>\n"
+msgid "<div style=\"padding: 0.5em 0; border-bottom: 1px solid #999;\"><strong>%s commented on %s</strong><br>%s</div>\n"
 "\n"
-"<div style="margin: 1em 0;">%s</div>\n"
+"<div style=\"margin: 1em 0;\">%s</div>\n"
 "\n"
-"<div style="font-size: smaller; border-top: 1px solid #999;">\n"
-"<p><a href="%s">Reply to this comment online</a></p>\n"
+"<div style=\"font-size: smaller; border-top: 1px solid #999;\">\n"
+"<p><a href=\"%s\">Reply to this comment online</a></p>\n"
 "</div>\n"
-msgstr "<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が %s にコメントを投稿しました。</strong><br />%s</div>\n"
+msgstr "<div style=\"padding: 0.5em 0; border-bottom: 1px solid #999;\"><strong>%s が %s にコメントを投稿しました。</strong><br />%s</div>\n"
 "\n"
-"<div style="margin: 1em 0;">%s</div>\n"
+"<div style=\"margin: 1em 0;\">%s</div>\n"
 "\n"
-"<div style="font-size: smaller; border-top: 1px solid #999;">\n"
-"<p><a href="%s">このコメントにオンライン上で返信する</a></p>\n"
+"<div style=\"font-size: smaller; border-top: 1px solid #999;\">\n"
+"<p><a href=\"%s\">このコメントにオンライン上で返信する</a></p>\n"
 "</div>\n"
 
 #: artefact/comment/lang/ja.utf8/artefact.comment.php feedbacknotificationtext
@@ -1022,19 +1022,19 @@ msgstr "%s が %s にコメントを投稿しました。\n"
 
 #: artefact/comment/lang/ja.utf8/artefact.comment.php feedbackdeletedhtml
 msgctxt "artefact/comment/lang/ja.utf8/artefact.comment.php feedbackdeletedhtml"
-msgid "<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>A comment on %s was removed</strong><br>%s</div>\n"
+msgid "<div style=\"padding: 0.5em 0; border-bottom: 1px solid #999;\"><strong>A comment on %s was removed</strong><br>%s</div>\n"
 "\n"
-"<div style="margin: 1em 0;">%s</div>\n"
+"<div style=\"margin: 1em 0;\">%s</div>\n"
 "\n"
-"<div style="font-size: smaller; border-top: 1px solid #999;">\n"
-"<p><a href="%s">%s</a></p>\n"
+"<div style=\"font-size: smaller; border-top: 1px solid #999;\">\n"
+"<p><a href=\"%s\">%s</a></p>\n"
 "</div>\n"
-msgstr "<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s のコメントが削除されました。</strong><br />%s</div>\n"
+msgstr "<div style=\"padding: 0.5em 0; border-bottom: 1px solid #999;\"><strong>%s のコメントが削除されました。</strong><br />%s</div>\n"
 "\n"
-"<div style="margin: 1em 0;">%s</div>\n"
+"<div style=\"margin: 1em 0;\">%s</div>\n"
 "\n"
-"<div style="font-size: smaller; border-top: 1px solid #999;">\n"
-"<p><a href="%s">%s</a></p>\n"
+"<div style=\"font-size: smaller; border-top: 1px solid #999;\">\n"
+"<p><a href=\"%s\">%s</a></p>\n"
 "</div>\n"
 
 #: artefact/comment/lang/ja.utf8/artefact.comment.php feedbackdeletedtext
@@ -1521,7 +1521,7 @@ msgstr "%s が削除されました。"
 
 #: artefact/file/lang/ja.utf8/artefact.file.php filewithnameexists
 msgctxt "artefact/file/lang/ja.utf8/artefact.file.php filewithnameexists"
-msgid "A file or folder with the name "%s" already exists."
+msgid "A file or folder with the name \"%s\" already exists."
 msgstr "名称「 %s 」のファイルまたはフォルダはすでに存在しています。"
 
 #: artefact/file/lang/ja.utf8/artefact.file.php folder
@@ -1576,8 +1576,8 @@ msgstr "ホーム"
 
 #: artefact/file/lang/ja.utf8/artefact.file.php htmlremovedmessage
 msgctxt "artefact/file/lang/ja.utf8/artefact.file.php htmlremovedmessage"
-msgid "You are viewing <strong>%s</strong> by <a href="%s">%s</a>. The file displayed below has been filtered to remove malicious content, and is only a rough representation of the original."
-msgstr "あなたが閲覧しているファイル「 <strong>%s</strong> 」は<a href="%s">%s</a> によりアップロードされたものです。以下に表示されているファイルは不適切なコンテンツのため、削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。"
+msgid "You are viewing <strong>%s</strong> by <a href=\"%s\">%s</a>. The file displayed below has been filtered to remove malicious content, and is only a rough representation of the original."
+msgstr "あなたが閲覧しているファイル「 <strong>%s</strong> 」は<a href=\"%s\">%s</a> によりアップロードされたものです。以下に表示されているファイルは不適切なコンテンツのため、削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。"
 
 #: artefact/file/lang/ja.utf8/artefact.file.php htmlremovedmessagenoowner
 msgctxt "artefact/file/lang/ja.utf8/artefact.file.php htmlremovedmessagenoowner"
@@ -1806,12 +1806,12 @@ msgstr "あなたは著作権表示に同意する必要があります。"
 
 #: artefact/file/lang/ja.utf8/artefact.file.php fileuploadedtofolderas
 msgctxt "artefact/file/lang/ja.utf8/artefact.file.php fileuploadedtofolderas"
-msgid "%s uploaded to %s as "%s""
+msgid "%s uploaded to %s as \"%s\""
 msgstr "%s が %s に「 %s 」としてアップロードされました。"
 
 #: artefact/file/lang/ja.utf8/artefact.file.php fileuploadedas
 msgctxt "artefact/file/lang/ja.utf8/artefact.file.php fileuploadedas"
-msgid "%s uploaded as "%s""
+msgid "%s uploaded as \"%s\""
 msgstr "%s が「 %s 」としてアップロードされました。"
 
 #: artefact/file/lang/ja.utf8/artefact.file.php ai
@@ -2402,7 +2402,7 @@ msgstr "表示する連絡先を選択してください。"
 
 #: artefact/internal/blocktype/contactinfo/lang/ja.utf8/blocktype.contactinfo.php dontshowemail
 msgctxt "artefact/internal/blocktype/contactinfo/lang/ja.utf8/blocktype.contactinfo.php dontshowemail"
-msgid "Don't show email address"
+msgid "Don\'t show email address"
 msgstr "メールアドレスを表示しません。"
 
 #: artefact/internal/blocktype/contactinfo/lang/ja.utf8/blocktype.contactinfo.php fieldstoshow
@@ -2442,18 +2442,18 @@ msgstr "「表示するフィールド」の「自己紹介」チェックボッ
 
 #: artefact/internal/blocktype/profileinfo/lang/ja.utf8/blocktype.profileinfo.php dontshowprofileicon
 msgctxt "artefact/internal/blocktype/profileinfo/lang/ja.utf8/blocktype.profileinfo.php dontshowprofileicon"
-msgid "Don't show a profile picture"
+msgid "Don\'t show a profile picture"
 msgstr "プロファイル写真を表示しません。"
 
 #: artefact/internal/blocktype/profileinfo/lang/ja.utf8/blocktype.profileinfo.php dontshowemail
 msgctxt "artefact/internal/blocktype/profileinfo/lang/ja.utf8/blocktype.profileinfo.php dontshowemail"
-msgid "Don't show email address"
+msgid "Don\'t show email address"
 msgstr "メールアドレスを表示しません。"
 
 #: artefact/internal/blocktype/profileinfo/lang/ja.utf8/blocktype.profileinfo.php uploadaprofileicon
 msgctxt "artefact/internal/blocktype/profileinfo/lang/ja.utf8/blocktype.profileinfo.php uploadaprofileicon"
-msgid "You have no profile pictures. <a href="%sartefact/file/profileicons.php" target="_blank">Upload one</a>"
-msgstr "あなたにはプロファイル写真がありません。<a href="%sartefact/file/profileicons.php" target="_blank">アップロードしてください</a>。"
+msgid "You have no profile pictures. <a href=\"%sartefact/file/profileicons.php\" target=\"_blank\">Upload one</a>"
+msgstr "あなたにはプロファイル写真がありません。<a href=\"%sartefact/file/profileicons.php\" target=\"_blank\">アップロードしてください</a>。"
 
 #: artefact/internal/lang/ja.utf8/artefact.internal.php pluginname
 msgctxt "artefact/internal/lang/ja.utf8/artefact.internal.php pluginname"
@@ -2935,7 +2935,7 @@ msgstr "表示するプラン"
 
 #: artefact/plans/lang/ja.utf8/artefact.plans.php canteditdontownplan
 msgctxt "artefact/plans/lang/ja.utf8/artefact.plans.php canteditdontownplan"
-msgid "You can't edit this plan because you don't own it."
+msgid "You can\'t edit this plan because you don\'t own it."
 msgstr "あなたの所有ではないため、このプランを編集することはできません。"
 
 #: artefact/plans/lang/ja.utf8/artefact.plans.php description
@@ -2955,7 +2955,7 @@ msgstr "プランを削除する"
 
 #: artefact/plans/lang/ja.utf8/artefact.plans.php deletethisplan
 msgctxt "artefact/plans/lang/ja.utf8/artefact.plans.php deletethisplan"
-msgid "Delete plan: '%s'"
+msgid "Delete plan: \'%s\'"
 msgstr "プランを削除する: %s"
 
 #: artefact/plans/lang/ja.utf8/artefact.plans.php editplan
@@ -3025,7 +3025,7 @@ msgstr "プランが正常に保存されました。"
 
 #: artefact/plans/lang/ja.utf8/artefact.plans.php planstasks
 msgctxt "artefact/plans/lang/ja.utf8/artefact.plans.php planstasks"
-msgid "Plan '%s' tasks."
+msgid "Plan \'%s\' tasks."
 msgstr "プラン「 %s 」のタスク"
 
 #: artefact/plans/lang/ja.utf8/artefact.plans.php planstasksdesc
@@ -3055,7 +3055,7 @@ msgstr "すべてのタスク"
 
 #: artefact/plans/lang/ja.utf8/artefact.plans.php canteditdontowntask
 msgctxt "artefact/plans/lang/ja.utf8/artefact.plans.php canteditdontowntask"
-msgid "You can't edit this task because you don't own it."
+msgid "You can\'t edit this task because you don\'t own it."
 msgstr "あなたの所有ではないため、このタスクを編集することはできません。"
 
 #: artefact/plans/lang/ja.utf8/artefact.plans.php completed
@@ -3085,7 +3085,7 @@ msgstr "タスクを削除する"
 
 #: artefact/plans/lang/ja.utf8/artefact.plans.php deletethistask
 msgctxt "artefact/plans/lang/ja.utf8/artefact.plans.php deletethistask"
-msgid "Delete task: '%s'"
+msgid "Delete task: \'%s\'"
 msgstr "タスクを削除する: %s"
 
 #: artefact/plans/lang/ja.utf8/artefact.plans.php edittask
@@ -3769,7 +3769,7 @@ msgstr "内部"
 
 #: auth/internal/lang/ja.utf8/auth.internal.php description
 msgctxt "auth/internal/lang/ja.utf8/auth.internal.php description"
-msgid "Authenticate against Mahara's database"
+msgid "Authenticate against Mahara\'s database"
 msgstr "Maharaデータベースで認証する"
 
 #: auth/internal/lang/ja.utf8/auth.internal.php completeregistration
@@ -3832,7 +3832,7 @@ msgctxt "auth/internal/lang/ja.utf8/auth.internal.php registeredemailmessagehtml
 msgid "<p>Hi %s,</p>\n"
 "<p>Thank you for registering an account on %s. Please follow this link\n"
 "to complete the signup process:</p>\n"
-"<p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>\n"
+"<p><a href=\"%sregister.php?key=%s\">%sregister.php?key=%s</a></p>\n"
 "<p>The link will expire in 24 hours.</p>\n"
 "\n"
 "<pre>--\n"
@@ -3840,7 +3840,7 @@ msgid "<p>Hi %s,</p>\n"
 "The %s Team</pre>\n"
 msgstr "<p>%s さん</p>\n"
 "<p>%s への登録ありがとうございます。サインアップ処理を完了するには、次のリンクに従ってください:</p>\n"
-"<p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>\n"
+"<p><a href=\"%sregister.php?key=%s\">%sregister.php?key=%s</a></p>\n"
 "<p>メールに含まれているリンクは24時間のみ有効です。</p>\n"
 "\n"
 "<pre>--\n"
@@ -3878,8 +3878,8 @@ msgstr "ユーザ名には半角英数字および標準的な記号を使用す
 
 #: auth/internal/lang/ja.utf8/auth.internal.php youmaynotregisterwithouttandc
 msgctxt "auth/internal/lang/ja.utf8/auth.internal.php youmaynotregisterwithouttandc"
-msgid "You may not register unless you agree to abide by the <a href="terms.php">Terms and Conditions</a>"
-msgstr "<a href="terms.php">使用条件</a>の順守に同意しない限り、あなたはユーザ登録されません。"
+msgid "You may not register unless you agree to abide by the <a href=\"terms.php\">Terms and Conditions</a>"
+msgstr "<a href=\"terms.php\">使用条件</a>の順守に同意しない限り、あなたはユーザ登録されません。"
 
 #: auth/ldap/lang/ja.utf8/auth.ldap.php title
 msgctxt "auth/ldap/lang/ja.utf8/auth.ldap.php title"
@@ -4158,7 +4158,7 @@ msgstr "あなたは認証されたようですが、私たちは必要なユー
 
 #: auth/saml/lang/ja.utf8/auth.saml.php institutionattribute
 msgctxt "auth/saml/lang/ja.utf8/auth.saml.php institutionattribute"
-msgid "Institution attribute (contains "%s")"
+msgid "Institution attribute (contains \"%s\")"
 msgstr "インスティテューション属性 (%s を含む)"
 
 #: auth/saml/lang/ja.utf8/auth.saml.php institutionvalue
@@ -4371,8 +4371,8 @@ msgstr "ネットワークサーバ"
 
 #: auth/xmlrpc/lang/ja.utf8/auth.xmlrpc.php youhaveloggedinfrom
 msgctxt "auth/xmlrpc/lang/ja.utf8/auth.xmlrpc.php youhaveloggedinfrom"
-msgid "You have logged in from <a href="%s">%s</a>."
-msgstr "あなたは<a href="%s">%s</a>　からログインしています。"
+msgid "You have logged in from <a href=\"%s\">%s</a>."
+msgstr "あなたは<a href=\"%s\">%s</a>　からログインしています。"
 
 #: auth/xmlrpc/lang/en.utf8/help/forms/auth_config.appname.html
 msgctxt "auth/xmlrpc/lang/en.utf8/help/forms/auth_config.appname.html"
@@ -5100,7 +5100,7 @@ msgstr "マイフレンド"
 
 #: blocktype/myfriends/lang/ja.utf8/blocktype.myfriends.php otherusertitle
 msgctxt "blocktype/myfriends/lang/ja.utf8/blocktype.myfriends.php otherusertitle"
-msgid "%s's Friends"
+msgid "%s\'s Friends"
 msgstr "%s のフレンド"
 
 #: blocktype/myfriends/lang/ja.utf8/blocktype.myfriends.php description
@@ -5130,7 +5130,7 @@ msgstr "マイグループ"
 
 #: blocktype/mygroups/lang/ja.utf8/blocktype.mygroups.php otherusertitle
 msgctxt "blocktype/mygroups/lang/ja.utf8/blocktype.mygroups.php otherusertitle"
-msgid "%s's Groups"
+msgid "%s\'s Groups"
 msgstr "%s のグループ"
 
 #: blocktype/mygroups/lang/ja.utf8/blocktype.mygroups.php description
@@ -5145,7 +5145,7 @@ msgstr "マイページ"
 
 #: blocktype/myviews/lang/ja.utf8/blocktype.myviews.php otherusertitle
 msgctxt "blocktype/myviews/lang/ja.utf8/blocktype.myviews.php otherusertitle"
-msgid "%s's pages"
+msgid "%s\'s pages"
 msgstr "%s のページ"
 
 #: blocktype/myviews/lang/ja.utf8/blocktype.myviews.php description
@@ -5175,8 +5175,8 @@ msgstr "ページのコレクションをシンプルなナビゲーションと
 
 #: blocktype/navigation/lang/ja.utf8/blocktype.navigation.php nocollections
 msgctxt "blocktype/navigation/lang/ja.utf8/blocktype.navigation.php nocollections"
-msgid "No collections. <a href="%scollection/edit.php?new=1">Create one</a>."
-msgstr "コレクションはありません。<a href="%scollection/create.php">コレクションを作成してください</a>。"
+msgid "No collections. <a href=\"%scollection/edit.php?new=1\">Create one</a>."
+msgstr "コレクションはありません。<a href=\"%scollection/create.php\">コレクションを作成してください</a>。"
 
 #: blocktype/newviews/lang/ja.utf8/blocktype.newviews.php title
 msgctxt "blocktype/newviews/lang/ja.utf8/blocktype.newviews.php title"
@@ -5265,7 +5265,7 @@ msgstr "ウォール"
 
 #: blocktype/wall/lang/ja.utf8/blocktype.wall.php otherusertitle
 msgctxt "blocktype/wall/lang/ja.utf8/blocktype.wall.php otherusertitle"
-msgid "%s's Wall"
+msgid "%s\'s Wall"
 msgstr "%s のウォール"
 
 #: blocktype/wall/lang/ja.utf8/blocktype.wall.php description
@@ -5385,7 +5385,7 @@ msgstr "スタンドアロンHTMLウェブサイト"
 
 #: export/html/lang/ja.utf8/export.html.php description
 msgctxt "export/html/lang/ja.utf8/export.html.php description"
-msgid "Creates a self-contained website with your portfolio data. You cannot import this again, but it's readable in a standard web browser."
+msgid "Creates a self-contained website with your portfolio data. You cannot import this again, but it\'s readable in a standard web browser."
 msgstr "あなたのポートフォリオデータを内蔵したウェブサイトを作成します。あなたはこのファイルをインポートすることはできませんが、標準的なウェブブラウザで閲覧することができます。"
 
 #: export/html/lang/ja.utf8/export.html.php usersportfolio
@@ -5420,8 +5420,8 @@ msgstr "Leap2A"
 
 #: export/leap/lang/ja.utf8/export.leap.php description
 msgctxt "export/leap/lang/ja.utf8/export.leap.php description"
-msgid "Gives you an export in the <a href="http://wiki.leapspecs.org/2A/specification">Leap2A standard format</a>. You can later use this to import your data into <a href="https://wiki.mahara.org/index.php/Developer_Area/Import//Export/Interoperability">other Leap2A compliant systems</a>, although the export is hard for humans to read."
-msgstr "<a href="http://wiki.leapspecs.org/2A/specification">Leap2Aスタンダードフォーマット</a>のエクスポートを作成します。あなたは後で、このデータを<a href="http://wiki.mahara.org/Developer_Area/Import//Export/Interoperability">他のLeap2A互換システム</a>にインポートすることができます。エクスポートは人間に読むことが難しいフォーマットで作成されます。"
+msgid "Gives you an export in the <a href=\"http://wiki.leapspecs.org/2A/specification\">Leap2A standard format</a>. You can later use this to import your data into <a href=\"https://wiki.mahara.org/index.php/Developer_Area/Import//Export/Interoperability\">other Leap2A compliant systems</a>, although the export is hard for humans to read."
+msgstr "<a href=\"http://wiki.leapspecs.org/2A/specification\">Leap2Aスタンダードフォーマット</a>のエクスポートを作成します。あなたは後で、このデータを<a href=\"http://wiki.mahara.org/Developer_Area/Import//Export/Interoperability\">他のLeap2A互換システム</a>にインポートすることができます。エクスポートは人間に読むことが難しいフォーマットで作成されます。"
 
 #: grouptype/course/lang/ja.utf8/grouptype.course.php name
 msgctxt "grouptype/course/lang/ja.utf8/grouptype.course.php name"
@@ -5604,17 +5604,17 @@ msgstr "あなたはこのトピックを編集できません。"
 
 #: interaction/forum/lang/ja.utf8/interaction.forum.php cantfindforum
 msgctxt "interaction/forum/lang/ja.utf8/interaction.forum.php cantfindforum"
-msgid "Coudn't find forum with id %s"
+msgid "Coudn\'t find forum with id %s"
 msgstr "ID %s のフォーラムが見つかりませんでした。"
 
 #: interaction/forum/lang/ja.utf8/interaction.forum.php cantfindpost
 msgctxt "interaction/forum/lang/ja.utf8/interaction.forum.php cantfindpost"
-msgid "Couldn't find post with id %s"
+msgid "Couldn\'t find post with id %s"
 msgstr "ID %s の投稿が見つかりませんでした。"
 
 #: interaction/forum/lang/ja.utf8/interaction.forum.php cantfindtopic
 msgctxt "interaction/forum/lang/ja.utf8/interaction.forum.php cantfindtopic"
-msgid "Couldn't find topic with id %s"
+msgid "Couldn\'t find topic with id %s"
 msgstr "ID %s のトピックが見つかりませんでした。"
 
 #: interaction/forum/lang/ja.utf8/interaction.forum.php cantviewforums
@@ -5659,7 +5659,7 @@ msgstr "カウント"
 
 #: interaction/forum/lang/ja.utf8/interaction.forum.php createtopicusersdescription
 msgctxt "interaction/forum/lang/ja.utf8/interaction.forum.php createtopicusersdescription"
-msgid "If set to "All group members", anyone can create new topics and reply to existing topics.  If set to "Moderators and group admins", only moderators and group administrators can start new topics, but once topics exist, all users can post replies to them."
+msgid "If set to \"All group members\", anyone can create new topics and reply to existing topics.  If set to \"Moderators and group admins\", only moderators and group administrators can start new topics, but once topics exist, all users can post replies to them."
 msgstr "「グループメンバーすべて」を設定した場合、すべてのメンバーが新しいトピックを作成すること、既存のトピックに返信することができます。「モデレータおよびグループ管理者のみ」を設定した場合、モデレータおよびグループ管理者のみ、新しいトピックを開始することができます。しかし、「モデレータおよびグループ管理者のみ」を設定して、トピックが存在するようになった場合、すべてのユーザが返信することができます。"
 
 #: interaction/forum/lang/ja.utf8/interaction.forum.php currentmoderators
@@ -5704,7 +5704,7 @@ msgstr "トピックを削除する"
 
 #: interaction/forum/lang/ja.utf8/interaction.forum.php deletetopicvariable
 msgctxt "interaction/forum/lang/ja.utf8/interaction.forum.php deletetopicvariable"
-msgid "Delete topic '%s'"
+msgid "Delete topic \'%s\'"
 msgstr "トピック「 %s 」を削除する"
 
 #: interaction/forum/lang/ja.utf8/interaction.forum.php deletetopicsuccess
@@ -5754,21 +5754,21 @@ msgstr "フォーラム名"
 
 #: interaction/forum/lang/ja.utf8/interaction.forum.php forumposthtmltemplate
 msgctxt "interaction/forum/lang/ja.utf8/interaction.forum.php forumposthtmltemplate"
-msgid "<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s by %s</strong><br>%s</div>\n"
+msgid "<div style=\"padding: 0.5em 0; border-bottom: 1px solid #999;\"><strong>%s by %s</strong><br>%s</div>\n"
 "\n"
-"<div style="margin: 1em 0;">%s</div>\n"
+"<div style=\"margin: 1em 0;\">%s</div>\n"
 "\n"
-"<div style="font-size: smaller; border-top: 1px solid #999;">\n"
-"<p><a href="%s">Reply to this post online</a></p>\n"
-"<p><a href="%s">Unsubscribe from this %s</a></p>\n"
+"<div style=\"font-size: smaller; border-top: 1px solid #999;\">\n"
+"<p><a href=\"%s\">Reply to this post online</a></p>\n"
+"<p><a href=\"%s\">Unsubscribe from this %s</a></p>\n"
 "</div>\n"
-msgstr "<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s by %s</strong><br>%s</div>\n"
+msgstr "<div style=\"padding: 0.5em 0; border-bottom: 1px solid #999;\"><strong>%s by %s</strong><br>%s</div>\n"
 "\n"
-"<div style="margin: 1em 0;">%s</div>\n"
+"<div style=\"margin: 1em 0;\">%s</div>\n"
 "\n"
-"<div style="font-size: smaller; border-top: 1px solid #999;">\n"
-"<p><a href="%s">この投稿にオンライン上で返信する</a></p>\n"
-"<p><a href="%s">この %s から購読解除する</a></p>\n"
+"<div style=\"font-size: smaller; border-top: 1px solid #999;\">\n"
+"<p><a href=\"%s\">この投稿にオンライン上で返信する</a></p>\n"
+"<p><a href=\"%s\">この %s から購読解除する</a></p>\n"
 "</div>\n"
 
 #: interaction/forum/lang/ja.utf8/interaction.forum.php forumposttemplate
@@ -6240,8 +6240,8 @@ msgstr "あなたのパスワードを変更したい場合、ここで詳細を
 
 #: lang/ja.utf8/account.php changepasswordotherinterface
 msgctxt "lang/ja.utf8/account.php changepasswordotherinterface"
-msgid "You may <a href="%s">change your password</a> through a different interface"
-msgstr "あなたは異なるインターフェースで<a href="%s">パスワードを変更する</a>ことができます。"
+msgid "You may <a href=\"%s\">change your password</a> through a different interface"
+msgstr "あなたは異なるインターフェースで<a href=\"%s\">パスワードを変更する</a>ことができます。"
 
 #: lang/ja.utf8/account.php oldpasswordincorrect
 msgctxt "lang/ja.utf8/account.php oldpasswordincorrect"
@@ -6426,8 +6426,8 @@ msgstr "多くのメッセージがサーバに戻ってきたため、あなた
 
 #: lang/ja.utf8/account.php maildisableddescription
 msgctxt "lang/ja.utf8/account.php maildisableddescription"
-msgid "Sending of email to your account has been disabled. You may <a href="%s">re-enable your email</a> from the account preferences page."
-msgstr "あなたのアカウント宛のメール送信は停止されました。アカウントプリファレンスページにて、<a href="%s">あなたのEメールを再度有効</a>にすることができます。"
+msgid "Sending of email to your account has been disabled. You may <a href=\"%s\">re-enable your email</a> from the account preferences page."
+msgstr "あなたのアカウント宛のメール送信は停止されました。アカウントプリファレンスページにて、<a href=\"%s\">あなたのEメールを再度有効</a>にすることができます。"
 
 #: lang/ja.utf8/account.php deleteaccount
 msgctxt "lang/ja.utf8/account.php deleteaccount"
@@ -6436,7 +6436,7 @@ msgstr "アカウントを削除する"
 
 #: lang/ja.utf8/account.php deleteaccountdescription
 msgctxt "lang/ja.utf8/account.php deleteaccountdescription"
-msgid "If you delete your account, your profile information and your pages will no longer be visible to other users.  The content of any forum posts you have written will still be visible, but the author's name will no longer be displayed."
+msgid "If you delete your account, your profile information and your pages will no longer be visible to other users.  The content of any forum posts you have written will still be visible, but the author\'s name will no longer be displayed."
 msgstr "アカウントを削除した場合、今後、あなたのプロファイル情報およびページを他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧することができますが、投稿者名が表示されないようになります。"
 
 #: lang/ja.utf8/account.php accountdeleted
@@ -6621,7 +6621,7 @@ msgstr "新しいページが作成されました。"
 
 #: lang/ja.utf8/activity.php newviewmessage
 msgctxt "lang/ja.utf8/activity.php newviewmessage"
-msgid "%s has created a new page "%s""
+msgid "%s has created a new page \"%s\""
 msgstr "%s が新しいページ「 %s 」を作成しました。"
 
 #: lang/ja.utf8/activity.php newcontactusfrom
@@ -6636,12 +6636,12 @@ msgstr "新しいお問い合わせ"
 
 #: lang/ja.utf8/activity.php newviewaccessmessage
 msgctxt "lang/ja.utf8/activity.php newviewaccessmessage"
-msgid "You have been added to the access list for the page "%s" by %s"
+msgid "You have been added to the access list for the page \"%s\" by %s"
 msgstr "あなたはページ「 %s 」のアクセスリストに %s によって追加されました。"
 
 #: lang/ja.utf8/activity.php newviewaccessmessagenoowner
 msgctxt "lang/ja.utf8/activity.php newviewaccessmessagenoowner"
-msgid "You have been added to the access list for the page "%s""
+msgid "You have been added to the access list for the page \"%s\""
 msgstr "あなたはページ「 %s 」のアクセスリストに追加されました。"
 
 #: lang/ja.utf8/activity.php newviewaccesssubject
@@ -6666,36 +6666,36 @@ msgstr "オーナー:"
 
 #: lang/ja.utf8/activity.php objectionablecontentview
 msgctxt "lang/ja.utf8/activity.php objectionablecontentview"
-msgid "Objectionable content on Page "%s" reported by %s"
+msgid "Objectionable content on Page \"%s\" reported by %s"
 msgstr "好ましくないコンテンツ - ページ: %s / 報告者: %s"
 
 #: lang/ja.utf8/activity.php objectionablecontentviewartefact
 msgctxt "lang/ja.utf8/activity.php objectionablecontentviewartefact"
-msgid "Objectionable content on Page "%s" in "%s" reported by %s"
+msgid "Objectionable content on Page \"%s\" in \"%s\" reported by %s"
 msgstr "好ましくないコンテンツ - ページ: %s (%s) / 報告者: %s"
 
 #: lang/ja.utf8/activity.php objectionablecontentviewhtml
 msgctxt "lang/ja.utf8/activity.php objectionablecontentviewhtml"
-msgid "<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">Objectionable content on "%s" reported by %s<strong></strong><br>%s</div>\n"
+msgid "<div style=\"padding: 0.5em 0; border-bottom: 1px solid #999;\">Objectionable content on \"%s\" reported by %s<strong></strong><br>%s</div>\n"
 "\n"
-"<div style="margin: 1em 0;">%s</div>\n"
+"<div style=\"margin: 1em 0;\">%s</div>\n"
 "\n"
-"<div style="font-size: smaller; border-top: 1px solid #999;">\n"
-"<p>Complaint relates to: <a href="%s">%s</a></p>\n"
-"<p>Reported by: <a href="%s">%s</a></p>\n"
+"<div style=\"font-size: smaller; border-top: 1px solid #999;\">\n"
+"<p>Complaint relates to: <a href=\"%s\">%s</a></p>\n"
+"<p>Reported by: <a href=\"%s\">%s</a></p>\n"
 "</div>\n"
-msgstr "<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」の好ましくないコンテンツ / 報告者: %s<strong></strong><br />%s</div>\n"
+msgstr "<div style=\"padding: 0.5em 0; border-bottom: 1px solid #999;\">「 %s 」の好ましくないコンテンツ / 報告者: %s<strong></strong><br />%s</div>\n"
 "\n"
-"<div style="margin: 1em 0;">%s</div>\n"
+"<div style=\"margin: 1em 0;\">%s</div>\n"
 "\n"
-"<div style="font-size: smaller; border-top: 1px solid #999;">\n"
-"<p>クレーム対象: <a href="%s">%s</a></p>\n"
-"<p>報告者: <a href="%s">%s</a></p>\n"
+"<div style=\"font-size: smaller; border-top: 1px solid #999;\">\n"
+"<p>クレーム対象: <a href=\"%s\">%s</a></p>\n"
+"<p>報告者: <a href=\"%s\">%s</a></p>\n"
 "</div>\n"
 
 #: lang/ja.utf8/activity.php objectionablecontentviewtext
 msgctxt "lang/ja.utf8/activity.php objectionablecontentviewtext"
-msgid "Objectionable content on "%s" reported by %s\n"
+msgid "Objectionable content on \"%s\" reported by %s\n"
 "%s\n"
 "------------------------------------------------------------------------\n"
 "\n"
@@ -6704,7 +6704,7 @@ msgid "Objectionable content on "%s" reported by %s\n"
 "------------------------------------------------------------------------\n"
 "To see the page, follow this link:\n"
 "%s\n"
-"To see the reporter's profile, follow this link:\n"
+"To see the reporter\'s profile, follow this link:\n"
 "%s\n"
 msgstr "「 %s 」の好ましくないコンテンツ / 報告者: %s\n"
 "------------------------------------------------------------------------\n"
@@ -6719,26 +6719,26 @@ msgstr "「 %s 」の好ましくないコンテンツ / 報告者: %s\n"
 
 #: lang/ja.utf8/activity.php objectionablecontentviewartefacthtml
 msgctxt "lang/ja.utf8/activity.php objectionablecontentviewartefacthtml"
-msgid "<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">Objectionable content on "%s" in "%s" reported by %s<strong></strong><br>%s</div>\n"
+msgid "<div style=\"padding: 0.5em 0; border-bottom: 1px solid #999;\">Objectionable content on \"%s\" in \"%s\" reported by %s<strong></strong><br>%s</div>\n"
 "\n"
-"<div style="margin: 1em 0;">%s</div>\n"
+"<div style=\"margin: 1em 0;\">%s</div>\n"
 "\n"
-"<div style="font-size: smaller; border-top: 1px solid #999;">\n"
-"<p>Complaint relates to: <a href="%s">%s</a></p>\n"
-"<p>Reported by: <a href="%s">%s</a></p>\n"
+"<div style=\"font-size: smaller; border-top: 1px solid #999;\">\n"
+"<p>Complaint relates to: <a href=\"%s\">%s</a></p>\n"
+"<p>Reported by: <a href=\"%s\">%s</a></p>\n"
 "</div>\n"
-msgstr "<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」の好ましくないコンテンツ / アーティファクト: %s / 報告者: %s<strong></strong><br />%s</div>\n"
+msgstr "<div style=\"padding: 0.5em 0; border-bottom: 1px solid #999;\">「 %s 」の好ましくないコンテンツ / アーティファクト: %s / 報告者: %s<strong></strong><br />%s</div>\n"
 "\n"
-"<div style="margin: 1em 0;">%s</div>\n"
+"<div style=\"margin: 1em 0;\">%s</div>\n"
 "\n"
-"<div style="font-size: smaller; border-top: 1px solid #999;">\n"
-"<p>クレーム対象: <a href="%s">%s</a></p>\n"
-"<p>報告者: <a href="%s">%s</a></p>\n"
+"<div style=\"font-size: smaller; border-top: 1px solid #999;\">\n"
+"<p>クレーム対象: <a href=\"%s\">%s</a></p>\n"
+"<p>報告者: <a href=\"%s\">%s</a></p>\n"
 "</div>\n"
 
 #: lang/ja.utf8/activity.php objectionablecontentviewartefacttext
 msgctxt "lang/ja.utf8/activity.php objectionablecontentviewartefacttext"
-msgid "Objectionable content on "%s" in "%s" reported by %s\n"
+msgid "Objectionable content on \"%s\" in \"%s\" reported by %s\n"
 "%s\n"
 "------------------------------------------------------------------------\n"
 "\n"
@@ -6747,7 +6747,7 @@ msgid "Objectionable content on "%s" in "%s" reported by %s\n"
 "------------------------------------------------------------------------\n"
 "To see the page, follow this link:\n"
 "%s\n"
-"To see the reporter's profile, follow this link:\n"
+"To see the reporter\'s profile, follow this link:\n"
 "%s\n"
 msgstr "「 %s 」の好ましくないコンテンツ / アーティファクト: %s / 報告者: %s\n"
 "------------------------------------------------------------------------\n"
@@ -6822,7 +6822,7 @@ msgstr "%s に送信されたページ"
 
 #: lang/ja.utf8/activity.php viewsubmittedmessage
 msgctxt "lang/ja.utf8/activity.php viewsubmittedmessage"
-msgid "%s has submitted their page "%s" to %s"
+msgid "%s has submitted their page \"%s\" to %s"
 msgstr "%s がページ「 %s 」を %s に送信しました。"
 
 #: lang/ja.utf8/activity.php adminnotificationerror
@@ -6847,8 +6847,8 @@ msgstr "リリース %s (%s)"
 
 #: lang/ja.utf8/admin.php copyright
 msgctxt "lang/ja.utf8/admin.php copyright"
-msgid "Copyright &copy; 2006 onwards, <a href="http://wiki.mahara.org/Contributors">Catalyst IT Ltd and others</a>"
-msgstr "Copyright &copy; 2006 onwards, <a href="http://wiki.mahara.org/Contributors">Catalyst IT Ltd and others</a>"
+msgid "Copyright &copy; 2006 onwards, <a href=\"http://wiki.mahara.org/Contributors\">Catalyst IT Ltd and others</a>"
+msgstr "Copyright &copy; 2006 onwards, <a href=\"http://wiki.mahara.org/Contributors\">Catalyst IT Ltd and others</a>"
 
 #: lang/ja.utf8/admin.php installmahara
 msgctxt "lang/ja.utf8/admin.php installmahara"
@@ -7327,7 +7327,7 @@ msgstr "グループ作成時、ここで一覧表示されているグループ
 
 #: lang/ja.utf8/admin.php groupadminsforgroup
 msgctxt "lang/ja.utf8/admin.php groupadminsforgroup"
-msgid "Group administrators for '%s'"
+msgid "Group administrators for \'%s\'"
 msgstr "「 %s 」のグループ管理者"
 
 #: lang/ja.utf8/admin.php potentialadmins
@@ -7392,26 +7392,26 @@ msgstr "あなたのMaharaサイトを登録します。"
 
 #: lang/ja.utf8/admin.php registeryourmaharasitesummary
 msgctxt "lang/ja.utf8/admin.php registeryourmaharasitesummary"
-msgid "<p>You can choose to register your Mahara Site with <a href="http://mahara.org/">mahara.org</a>, and help us to build up a picture of the Mahara installation base around the world.  Registering will remove this notice.</p>\n"
-"<p>You can register your site, and preview the information that will be sent on the <strong><a href="%sadmin/registersite.php">Site Registration page.</a></strong></p>\n"
-msgstr "<p>あなたは<a href="http://mahara.org/">mahara.org</a>にあなたのMaharaサイトを登録することができます。また、登録することで、私たちは世界のMaharaインストール状況を作成することができます。サイトを登録することで、この通知が取り除かれます。</p>\n"
-"<p>あなたがサイトを登録する場合、送信される情報を<strong><a href="%sadmin/registersite.php">サイト登録ページ</a></strong>にて、プレビューすることができます。</p>\n"
+msgid "<p>You can choose to register your Mahara Site with <a href=\"http://mahara.org/\">mahara.org</a>, and help us to build up a picture of the Mahara installation base around the world.  Registering will remove this notice.</p>\n"
+"<p>You can register your site, and preview the information that will be sent on the <strong><a href=\"%sadmin/registersite.php\">Site Registration page.</a></strong></p>\n"
+msgstr "<p>あなたは<a href=\"http://mahara.org/\">mahara.org</a>にあなたのMaharaサイトを登録することができます。また、登録することで、私たちは世界のMaharaインストール状況を作成することができます。サイトを登録することで、この通知が取り除かれます。</p>\n"
+"<p>あなたがサイトを登録する場合、送信される情報を<strong><a href=\"%sadmin/registersite.php\">サイト登録ページ</a></strong>にて、プレビューすることができます。</p>\n"
 
 #: lang/ja.utf8/admin.php registeryourmaharasitedetail
 msgctxt "lang/ja.utf8/admin.php registeryourmaharasitedetail"
-msgid "<p>You can choose to register your Mahara Site with <a href="http://mahara.org/">mahara.org</a>. Registration is free, and helps us build up a picture of the Mahara installation base around the world.</p>\n"
+msgid "<p>You can choose to register your Mahara Site with <a href=\"http://mahara.org/\">mahara.org</a>. Registration is free, and helps us build up a picture of the Mahara installation base around the world.</p>\n"
 "<p>You can see the information that will be sent to mahara.org - nothing that can personally identify any of your users will be sent.</p>\n"
 "<p>If you tick "send weekly updates", Mahara will automatically send an update to mahara.org once a week with your updated information.</p>\n"
-"<p>Registering will remove this notice. You will be able to change whether you send weekly updates on the <a href="%sadmin/site/options.php">site options</a> page.</p>\n"
-msgstr "<p>あなたは<a href="http://mahara.org/">mahara.org</a>にあなたのMaharaサイトを登録することができます。登録は無料です。また、登録することで、私たちは世界のMaharaインストール状況を作成することができます。</p>\n"
+"<p>Registering will remove this notice. You will be able to change whether you send weekly updates on the <a href=\"%sadmin/site/options.php\">site options</a> page.</p>\n"
+msgstr "<p>あなたは<a href=\"http://mahara.org/\">mahara.org</a>にあなたのMaharaサイトを登録することができます。登録は無料です。また、登録することで、私たちは世界のMaharaインストール状況を作成することができます。</p>\n"
 "<p>あなたはmahara.orgに送信された情報を閲覧することができます - あなたのユーザに関する個人情報は一切送信されません。</p>\n"
 "<p>あなたが、「更新内容を週に1回送信しますか?」をチェックした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>\n"
-"<p>サイトを登録した後、この通知は取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更することができます。</p>\n"
+"<p>サイトを登録した後、この通知は取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href=\"%sadmin/site/options.php\">サイトオプション</a>ページで変更することができます。</p>\n"
 
 #: lang/ja.utf8/admin.php siteregistered
 msgctxt "lang/ja.utf8/admin.php siteregistered"
-msgid "Your site has been registered. You can turn weekly updates on and off on the <a href="%sadmin/site/options.php">site options</a> page.</p>"
-msgstr "あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページにて、</p>サイト更新内容の週ごとの送信を有効または無効にすることができます。"
+msgid "Your site has been registered. You can turn weekly updates on and off on the <a href=\"%sadmin/site/options.php\">site options</a> page.</p>"
+msgstr "あなたのサイトが正常に登録されました。あなたは<a href=\"%sadmin/site/options.php\">サイトオプション</a>ページにて、</p>サイト更新内容の週ごとの送信を有効または無効にすることができます。"
 
 #: lang/ja.utf8/admin.php Close
 msgctxt "lang/ja.utf8/admin.php Close"
@@ -7510,8 +7510,8 @@ msgstr "正常動作"
 
 #: lang/ja.utf8/admin.php cronnotrunning
 msgctxt "lang/ja.utf8/admin.php cronnotrunning"
-msgid "Cron is not running.<br>See the <a href="http://wiki.mahara.org/System_Administrator's_Guide/Installing_Mahara">installation guide</a> for instructions on how to set it up."
-msgstr "Cronは動作していません。Cronのセットアップに関するインストラクションは<a href="http://wiki.mahara.org/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。"
+msgid "Cron is not running.<br>See the <a href=\"http://wiki.mahara.org/System_Administrator\'s_Guide/Installing_Mahara\">installation guide</a> for instructions on how to set it up."
+msgstr "Cronは動作していません。Cronのセットアップに関するインストラクションは<a href=\"http://wiki.mahara.org/System_Administrator%27s_Guide/Installing_Mahara\">installation guide</a>をご覧ください。"
 
 #: lang/ja.utf8/admin.php Loggedin
 msgctxt "lang/ja.utf8/admin.php Loggedin"
@@ -7525,8 +7525,8 @@ msgstr "あなたのユーザ平均 ..."
 
 #: lang/ja.utf8/admin.php statsmaxfriends
 msgctxt "lang/ja.utf8/admin.php statsmaxfriends"
-msgid "Has %s friends (most is <a href="%s">%s</a> with %d)"
-msgstr "平均フレンド数: %s (最もフレンドの多いユーザ: <a href="%s">%s</a> - フレンド数: %d)"
+msgid "Has %s friends (most is <a href=\"%s\">%s</a> with %d)"
+msgstr "平均フレンド数: %s (最もフレンドの多いユーザ: <a href=\"%s\">%s</a> - フレンド数: %d)"
 
 #: lang/ja.utf8/admin.php statsnofriends
 msgctxt "lang/ja.utf8/admin.php statsnofriends"
@@ -7535,8 +7535,8 @@ msgstr "フレンド数: 0"
 
 #: lang/ja.utf8/admin.php statsmaxviews
 msgctxt "lang/ja.utf8/admin.php statsmaxviews"
-msgid "Has made %s pages (most is <a href="%s">%s</a> with %d)"
-msgstr "平均ページ数: %s (最もページの多いユーザ: <a href="%s">%s</a> - ページ数: %d)"
+msgid "Has made %s pages (most is <a href=\"%s\">%s</a> with %d)"
+msgstr "平均ページ数: %s (最もページの多いユーザ: <a href=\"%s\">%s</a> - ページ数: %d)"
 
 #: lang/ja.utf8/admin.php statsnoviews
 msgctxt "lang/ja.utf8/admin.php statsnoviews"
@@ -7545,8 +7545,8 @@ msgstr "ページ数: 0"
 
 #: lang/ja.utf8/admin.php statsmaxgroups
 msgctxt "lang/ja.utf8/admin.php statsmaxgroups"
-msgid "Is in %s groups (most is <a href="%s">%s</a> with %d)"
-msgstr "平均所属グループ数: %s (最も所属グループの多いユーザ: <a href="%s">%s</a> - 所属グループ数: %d)"
+msgid "Is in %s groups (most is <a href=\"%s\">%s</a> with %d)"
+msgstr "平均所属グループ数: %s (最も所属グループの多いユーザ: <a href=\"%s\">%s</a> - 所属グループ数: %d)"
 
 #: lang/ja.utf8/admin.php statsnogroups
 msgctxt "lang/ja.utf8/admin.php statsnogroups"
@@ -7555,8 +7555,8 @@ msgstr "所属グループ数: 0"
 
 #: lang/ja.utf8/admin.php statsmaxquotaused
 msgctxt "lang/ja.utf8/admin.php statsmaxquotaused"
-msgid "Has used about %s of disk quota (most is <a href="%s">%s</a> with %s)"
-msgstr "平均利用ディスククオータ: %s (最も利用クオータの多いユーザ: <a href="%s">%s</a> - 利用クオータ: %d)"
+msgid "Has used about %s of disk quota (most is <a href=\"%s\">%s</a> with %s)"
+msgstr "平均利用ディスククオータ: %s (最も利用クオータの多いユーザ: <a href=\"%s\">%s</a> - 利用クオータ: %d)"
 
 #: lang/ja.utf8/admin.php groupcountsbytype
 msgctxt "lang/ja.utf8/admin.php groupcountsbytype"
@@ -7580,8 +7580,8 @@ msgstr "最新"
 
 #: lang/ja.utf8/admin.php latestversionis
 msgctxt "lang/ja.utf8/admin.php latestversionis"
-msgid "latest version is <a href="%s">%s</a>"
-msgstr "最新バージョン: <a href="%s">%s</a>"
+msgid "latest version is <a href=\"%s\">%s</a>"
+msgstr "最新バージョン: <a href=\"%s\">%s</a>"
 
 #: lang/ja.utf8/admin.php viewsbytype
 msgctxt "lang/ja.utf8/admin.php viewsbytype"
@@ -7765,7 +7765,7 @@ msgstr "登録同意"
 
 #: lang/ja.utf8/admin.php registertermsdescription
 msgctxt "lang/ja.utf8/admin.php registertermsdescription"
-msgid "Force users to agree to the Terms and Conditions before registration.  You should edit your site's Terms and Conditions page before enabling this option."
+msgid "Force users to agree to the Terms and Conditions before registration.  You should edit your site\'s Terms and Conditions page before enabling this option."
 msgstr "ユーザ登録の前、ユーザに使用条件への同意を強制します。このオプションを有効にする前、あなたのサイト使用条件ページを編集する必要があります。"
 
 #: lang/ja.utf8/admin.php allowmobileuploads
@@ -7785,8 +7785,8 @@ msgstr "リモートアバタを表示する"
 
 #: lang/ja.utf8/admin.php remoteavatarsdescription
 msgctxt "lang/ja.utf8/admin.php remoteavatarsdescription"
-msgid "If checked, the <a href="http://www.gravatar.com">Gravatar</a> service will be used for users' default profile pictures."
-msgstr "チェックした場合、ユーザのデフォルトプロファイル写真に<a href="http://www.gravatar.com">Gravatar</a>サービスが利用されます。"
+msgid "If checked, the <a href=\"http://www.gravatar.com\">Gravatar</a> service will be used for users\' default profile pictures."
+msgstr "チェックした場合、ユーザのデフォルトプロファイル写真に<a href=\"http://www.gravatar.com\">Gravatar</a>サービスが利用されます。"
 
 #: lang/ja.utf8/admin.php searchplugin
 msgctxt "lang/ja.utf8/admin.php searchplugin"
@@ -7805,7 +7805,7 @@ msgstr "ユーザ名を検索する"
 
 #: lang/ja.utf8/admin.php searchusernamesdescription
 msgctxt "lang/ja.utf8/admin.php searchusernamesdescription"
-msgid "Allow usernames to be searched on as part of "Search Users"."
+msgid "Allow usernames to be searched on as part of \"Search Users\"."
 msgstr "「ユーザを検索する」の対象として、ユーザ名も検索されるようにします。"
 
 #: lang/ja.utf8/admin.php sessionlifetime
@@ -7840,7 +7840,7 @@ msgstr "ポートフォリオ検索を有効にする"
 
 #: lang/ja.utf8/admin.php showselfsearchsideblockdescription
 msgctxt "lang/ja.utf8/admin.php showselfsearchsideblockdescription"
-msgid "Display the "Search My Portfolio" side block in the Portfolio section of the site"
+msgid "Display the \"Search My Portfolio\" side block in the Portfolio section of the site"
 msgstr "サイトのポートフォリオセクション内に「マイポートフォリオを検索する」サイドブロックを表示します。"
 
 #: lang/ja.utf8/admin.php showtagssideblock
@@ -8295,7 +8295,7 @@ msgstr "ネットワーキングが無効にされました。"
 
 #: lang/ja.utf8/admin.php networkingpagedescription
 msgctxt "lang/ja.utf8/admin.php networkingpagedescription"
-msgid "Mahara's networking features allow it to communicate with Mahara or Moodle sites running on the same or another machine. If networking is enabled, you can use it to configure single-sign-on for users who log in at either Moodle or Mahara."
+msgid "Mahara\'s networking features allow it to communicate with Mahara or Moodle sites running on the same or another machine. If networking is enabled, you can use it to configure single-sign-on for users who log in at either Moodle or Mahara."
 msgstr "Maharaのネットワーキング機能では同じサーバまたは別のサーバで動作しているMaharaまたはMoodleと連携することができます。ネットワーキングが有効にされた場合、MoodleまたはMaharaにログインしたユーザに対するシングルサインオンを設定することができます。"
 
 #: lang/ja.utf8/admin.php networkingunchanged
@@ -8360,7 +8360,7 @@ msgstr "プロクシ認証モデル"
 
 #: lang/ja.utf8/admin.php proxyauthmodeldescription
 msgctxt "lang/ja.utf8/admin.php proxyauthmodeldescription"
-msgid "Select your proxy's authentication model, if appropriate"
+msgid "Select your proxy\'s authentication model, if appropriate"
 msgstr "適切な場合、あなたのプロクシ認証モデルを選択してください。"
 
 #: lang/ja.utf8/admin.php proxyauthmodelbasic
@@ -8510,12 +8510,12 @@ msgstr "ファイル「 %s 」が存在しません。"
 
 #: lang/ja.utf8/admin.php uploadcsverrorinvalidfieldname
 msgctxt "lang/ja.utf8/admin.php uploadcsverrorinvalidfieldname"
-msgid "The field name "%s" is invalid, or you have more fields than your header row specifies"
+msgid "The field name \"%s\" is invalid, or you have more fields than your header row specifies"
 msgstr "フィールド名「 %s 」が無効、またはヘッダ行より多いフィールドが指定されています。"
 
 #: lang/ja.utf8/admin.php uploadcsverrorrequiredfieldnotspecified
 msgctxt "lang/ja.utf8/admin.php uploadcsverrorrequiredfieldnotspecified"
-msgid "A required field "%s" has not been specified in the format line"
+msgid "A required field \"%s\" has not been specified in the format line"
 msgstr "必須フィールド「 %s 」がフォーマット行で指定されていません。"
 
 #: lang/ja.utf8/admin.php uploadcsverrornorecords
@@ -8525,8 +8525,8 @@ msgstr "ファイルにレコードが含まれていないようです (ヘッ�
 
 #: lang/ja.utf8/admin.php uploadcsverrorunspecifiedproblem
 msgctxt "lang/ja.utf8/admin.php uploadcsverrorunspecifiedproblem"
-msgid "The records in your CSV file could not be inserted for some reason. If your file is in the correct format then this is a bug and you should <a href="https://eduforge.org/tracker/?func=add&group_id=176&atid=739">create a bug report</a>, attaching the CSV file (remember to blank out passwords!) and, if possible, the error log file"
-msgstr "何らかの理由により、あなたのCSVファイルのレコードを追加することができませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href="https://eduforge.org/tracker/?func=add&group_id=176&atid=739">バクレポートを作成してください</a> (パスワードは空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。"
+msgid "The records in your CSV file could not be inserted for some reason. If your file is in the correct format then this is a bug and you should <a href=\"https://eduforge.org/tracker/?func=add&group_id=176&atid=739\">create a bug report</a>, attaching the CSV file (remember to blank out passwords!) and, if possible, the error log file"
+msgstr "何らかの理由により、あなたのCSVファイルのレコードを追加することができませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href=\"https://eduforge.org/tracker/?func=add&group_id=176&atid=739\">バクレポートを作成してください</a> (パスワードは空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。"
 
 #: lang/ja.utf8/admin.php uploadcsverrorinvalidemail
 msgctxt "lang/ja.utf8/admin.php uploadcsverrorinvalidemail"
@@ -8550,39 +8550,39 @@ msgstr "あなたのファイルの　%s 行目にエラーがあります: こ�
 
 #: lang/ja.utf8/admin.php uploadcsverrormandatoryfieldnotspecified
 msgctxt "lang/ja.utf8/admin.php uploadcsverrormandatoryfieldnotspecified"
-msgid "Line %s of the file does not have the required "%s" field"
+msgid "Line %s of the file does not have the required \"%s\" field"
 msgstr "このファイルの %s 行目には必須の「 %s 」フィールドが含まれていません。"
 
 #: lang/ja.utf8/admin.php uploadcsverroruseralreadyexists
 msgctxt "lang/ja.utf8/admin.php uploadcsverroruseralreadyexists"
-msgid "Line %s of the file specifies the username "%s" that already exists"
+msgid "Line %s of the file specifies the username \"%s\" that already exists"
 msgstr "このファイルの %s 行目で指定されているユーザ名「 %s 」はすでに登録されています。"
 
 #: lang/ja.utf8/admin.php uploadcsverroremailaddresstaken
 msgctxt "lang/ja.utf8/admin.php uploadcsverroremailaddresstaken"
-msgid "Line %s of the file specifies the e-mail address "%s" that is already taken by another user"
+msgid "Line %s of the file specifies the e-mail address \"%s\" that is already taken by another user"
 msgstr "このファイルの %s 行目で指定されているメールアドレス「 %s 」はすでに他のユーザにより取得されています。"
 
 #: lang/ja.utf8/admin.php uploadcsvpagedescription2
 msgctxt "lang/ja.utf8/admin.php uploadcsvpagedescription2"
-msgid "<p>You may use this facility to upload new users via a <acronym title="Comma Separated Values">CSV</acronym> file.</p>\n"
+msgid "<p>You may use this facility to upload new users via a <acronym title=\"Comma Separated Values\">CSV</acronym> file.</p>\n"
 "   \n"
 "<p>The first row of your CSV file should specify the format of your CSV data. For example, it should look like this:</p>\n"
 "\n"
 "<pre>username,password,email,firstname,lastname,studentid</pre>\n"
 "\n"
-"<p>This row must include the <tt>username</tt>, <tt>password</tt>, <tt>email</tt>, <tt>firstname</tt> and <tt>lastname</tt> fields. It must also includes fields that you have made mandatory for all users to fill out, and any fields locked for the institution you are uploading the users for. You can <a href="%s">configure the mandatory fields</a> for all institutions, or <a href="%s">configure the locked fields for each institution</a>.</p>\n"
+"<p>This row must include the <tt>username</tt>, <tt>password</tt>, <tt>email</tt>, <tt>firstname</tt> and <tt>lastname</tt> fields. It must also includes fields that you have made mandatory for all users to fill out, and any fields locked for the institution you are uploading the users for. You can <a href=\"%s\">configure the mandatory fields</a> for all institutions, or <a href=\"%s\">configure the locked fields for each institution</a>.</p>\n"
 "\n"
 "<p>Your CSV file may include any other profile fields as you require. The full list of fields is:</p>\n"
 "\n"
 "%s\n"
-msgstr "<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>\n"
+msgstr "<p>あなたはこの機能により、<acronym title=\"Comma Separated Values\">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>\n"
 "\n"
 "<p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>\n"
 "\n"
 "<pre>username,password,email,firstname,lastname,studentid</pre>\n"
 "\n"
-"<p>この先頭行には<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、すべてのユーザに対して必須入力にしたフィールドを含んでください。あなたがユーザをアップロードするインスティテューションのロックフィールドも含んでください。すべてのインスティテューションの<a href="%s">必須入力フィールドを設定</a>、または<a href="%s">個別のインスティテューションのロックフィールドを設定することができます</a>。</p>\n"
+"<p>この先頭行には<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、すべてのユーザに対して必須入力にしたフィールドを含んでください。あなたがユーザをアップロードするインスティテューションのロックフィールドも含んでください。すべてのインスティテューションの<a href=\"%s\">必須入力フィールドを設定</a>、または<a href=\"%s\">個別のインスティテューションのロックフィールドを設定することができます</a>。</p>\n"
 "\n"
 "<p>必要に応じて、あなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>\n"
 "\n"
@@ -8590,24 +8590,24 @@ msgstr "<p>あなたはこの機能により、<acronym title="Comma Separated V
 
 #: lang/ja.utf8/admin.php uploadcsvpagedescription2institutionaladmin
 msgctxt "lang/ja.utf8/admin.php uploadcsvpagedescription2institutionaladmin"
-msgid "<p>You may use this facility to upload new users via a <acronym title="Comma Separated Values">CSV</acronym> file.</p>\n"
+msgid "<p>You may use this facility to upload new users via a <acronym title=\"Comma Separated Values\">CSV</acronym> file.</p>\n"
 "\n"
 "<p>The first row of your CSV file should specify the format of your CSV data. For example, it should look like this:</p>\n"
 "\n"
 "<pre>username,password,email,firstname,lastname,studentid</pre>\n"
 "\n"
-"<p>This row must include the <tt>username</tt>, <tt>password</tt>, <tt>email</tt>, <tt>firstname</tt> and <tt>lastname</tt> fields. It must also include any fields that the site administrator has made mandatory, and any fields that are locked for your institution. You can <a href="%s">configure the locked fields</a> for the institution(s) you manage.</p>\n"
+"<p>This row must include the <tt>username</tt>, <tt>password</tt>, <tt>email</tt>, <tt>firstname</tt> and <tt>lastname</tt> fields. It must also include any fields that the site administrator has made mandatory, and any fields that are locked for your institution. You can <a href=\"%s\">configure the locked fields</a> for the institution(s) you manage.</p>\n"
 "\n"
 "<p>Your CSV file may include any other profile fields as you require. The full list of fields is:</p>\n"
 "\n"
 "%s\n"
-msgstr "<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>\n"
+msgstr "<p>あなたはこの機能により、<acronym title=\"Comma Separated Values\">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>\n"
 "\n"
 "<p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>\n"
 "\n"
 "<pre>username,password,email,firstname,lastname,studentid</pre>\n"
 "\n"
-"<p>この先頭行には<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、サイト管理者が必須入力にしたフィールド、あなたがインスティテューションでロックしたフィールドも含んでください。あなたが管理するインスティテューションの<a href="%s">ロックフィールドを設定</a>することができます。</p>\n"
+"<p>この先頭行には<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、サイト管理者が必須入力にしたフィールド、あなたがインスティテューションでロックしたフィールドも含んでください。あなたが管理するインスティテューションの<a href=\"%s\">ロックフィールドを設定</a>することができます。</p>\n"
 "\n"
 "<p>必要に応じて、あなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>\n"
 "\n"
@@ -8870,7 +8870,7 @@ msgstr "ユーザ名を変更する"
 
 #: lang/ja.utf8/admin.php changeusernamedescription
 msgctxt "lang/ja.utf8/admin.php changeusernamedescription"
-msgid "Change this user's username. Usernames are 3-236 characters long, and may contain letters, numbers, and most common symbols excluding spaces."
+msgid "Change this user\'s username. Usernames are 3-236 characters long, and may contain letters, numbers, and most common symbols excluding spaces."
 msgstr "このユーザのユーザ名を変更します。ユーザ名の長さは半角3～236文字にしてください。ユーザ名にはスペースを除く、文字、数字および一般的な記号を含むことができます。"
 
 #: lang/ja.utf8/admin.php resetpassword
@@ -8880,7 +8880,7 @@ msgstr "パスワードのリセット"
 
 #: lang/ja.utf8/admin.php resetpassworddescription
 msgctxt "lang/ja.utf8/admin.php resetpassworddescription"
-msgid "If you enter text here, it will replace the user's current password."
+msgid "If you enter text here, it will replace the user\'s current password."
 msgstr "ここにテキストを入力した場合、ユーザの現在のパスワードと入れ替えられます。"
 
 #: lang/ja.utf8/admin.php forcepasswordchange
@@ -8915,7 +8915,7 @@ msgstr "アカウント有効期限"
 
 #: lang/ja.utf8/admin.php accountexpirydescription
 msgctxt "lang/ja.utf8/admin.php accountexpirydescription"
-msgid "Date on which the user's login is automatically disabled."
+msgid "Date on which the user\'s login is automatically disabled."
 msgstr "ユーザのログインが自動的に無効にされる日付です。"
 
 #: lang/ja.utf8/admin.php suspended
@@ -8965,7 +8965,7 @@ msgstr "ファイルクオータ (MB)"
 
 #: lang/ja.utf8/admin.php filequotadescription
 msgctxt "lang/ja.utf8/admin.php filequotadescription"
-msgid "Total storage available in the user's files area."
+msgid "Total storage available in the user\'s files area."
 msgstr "ユーザファイルエリアでの利用可能な合計保存領域です。"
 
 #: lang/ja.utf8/admin.php addusertoinstitution
@@ -8985,8 +8985,8 @@ msgstr "このインスティテューションから、本当にユーザを削
 
 #: lang/ja.utf8/admin.php usereditdescription
 msgctxt "lang/ja.utf8/admin.php usereditdescription"
-msgid "Here you can view and set details for this user account. Below, you can also <a href="#suspend">suspend or delete this account</a>, or change settings for this user in the <a href="#institutions">institutions they are in</a>."
-msgstr "あなたはここでこのユーザアカウントの閲覧および詳細設定することができます。以下であなたは<a href="#suspend">このアカウントを利用停止または削除</a>することができます。また、<a href="#institutions">このユーザが関わっているインスティテューション内</a>で、設定を変更することもできます。"
+msgid "Here you can view and set details for this user account. Below, you can also <a href=\"#suspend\">suspend or delete this account</a>, or change settings for this user in the <a href=\"#institutions\">institutions they are in</a>."
+msgstr "あなたはここでこのユーザアカウントの閲覧および詳細設定することができます。以下であなたは<a href=\"#suspend\">このアカウントを利用停止または削除</a>することができます。また、<a href=\"#institutions\">このユーザが関わっているインスティテューション内</a>で、設定を変更することもできます。"
 
 #: lang/ja.utf8/admin.php usereditwarning
 msgctxt "lang/ja.utf8/admin.php usereditwarning"
@@ -9075,8 +9075,8 @@ msgstr "どのように、このユーザを作成しますか?"
 
 #: lang/ja.utf8/admin.php leap2aimportfailed
 msgctxt "lang/ja.utf8/admin.php leap2aimportfailed"
-msgid "<p><strong>Sorry - Importing the Leap2A file failed.</strong></p><p>This could be because you did not select a valid Leap2A file to upload or because the version of your LEAP2A file is not supported by this Mahara version. Alternatively, there may be a bug in Mahara causing your file to fail, even though it is valid.</p><p>Please <a href="add.php">go back and try again</a>, and if the problem persists, you may want to post to the <a href="http://mahara.org/forums/">Mahara Forums</a> to ask for help. Be prepared to be asked for a copy of your file!</p>"
-msgstr "<p><strong>申し訳ございません - Leap2Aファイルのインポートに失敗しました。</strong></p><p>これはあなたが有効なLeap2Aファイルをアップロードに選択しなかったからだと考えられます。また、Leap2Aファイルが有効な場合、Maharaのバグが、あなたのファイルのアップロードを失敗させていることも考えられます。</p><p><a href="add.php">戻って、ファイルのアップロードを再度お試しください</a>。この問題が持続する場合、エラー状況を<a href="http://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。その場合、あなたのファイルのコピーを準備してください!</p>"
+msgid "<p><strong>Sorry - Importing the Leap2A file failed.</strong></p><p>This could be because you did not select a valid Leap2A file to upload or because the version of your LEAP2A file is not supported by this Mahara version. Alternatively, there may be a bug in Mahara causing your file to fail, even though it is valid.</p><p>Please <a href=\"add.php\">go back and try again</a>, and if the problem persists, you may want to post to the <a href=\"http://mahara.org/forums/\">Mahara Forums</a> to ask for help. Be prepared to be asked for a copy of your file!</p>"
+msgstr "<p><strong>申し訳ございません - Leap2Aファイルのインポートに失敗しました。</strong></p><p>これはあなたが有効なLeap2Aファイルをアップロードに選択しなかったからだと考えられます。また、Leap2Aファイルが有効な場合、Maharaのバグが、あなたのファイルのアップロードを失敗させていることも考えられます。</p><p><a href=\"add.php\">戻って、ファイルのアップロードを再度お試しください</a>。この問題が持続する場合、エラー状況を<a href=\"http://mahara.org/forums/\">Maharaフォーラム</a>に投稿してください。その場合、あなたのファイルのコピーを準備してください!</p>"
 
 #: lang/ja.utf8/admin.php newuseremailnotsent
 msgctxt "lang/ja.utf8/admin.php newuseremailnotsent"
@@ -9290,7 +9290,7 @@ msgstr "インスティテューション設定"
 
 #: lang/ja.utf8/admin.php institutionsettingsdescription
 msgctxt "lang/ja.utf8/admin.php institutionsettingsdescription"
-msgid "Here you can change settings regarding this user's membership with institutions in the system."
+msgid "Here you can change settings regarding this user\'s membership with institutions in the system."
 msgstr "ここであなたはシステム内にある、このユーザのインスティテューションメンバーシップ設定を変更することができます。"
 
 #: lang/ja.utf8/admin.php changeinstitution
@@ -9350,17 +9350,17 @@ msgstr "このページではあなたのインスティテューションにメ
 
 #: lang/ja.utf8/admin.php institutionusersinstructionsrequesters
 msgctxt "lang/ja.utf8/admin.php institutionusersinstructionsrequesters"
-msgid "The list of users on the left shows all users who have asked to join your institution.  You can use the search box to reduce the number of users displayed.  If you would like to add users to the institution, or decline their membership requests, first move some users to the right hand side by selecting one or more users and then clicking on the right arrow.  The "Add members" button will add all the users on the right to the institution.  The "Decline requests" button will remove the membership requests of the users on the right."
+msgid "The list of users on the left shows all users who have asked to join your institution.  You can use the search box to reduce the number of users displayed.  If you would like to add users to the institution, or decline their membership requests, first move some users to the right hand side by selecting one or more users and then clicking on the right arrow.  The \"Add members\" button will add all the users on the right to the institution.  The \"Decline requests\" button will remove the membership requests of the users on the right."
 msgstr "左側のユーザ一覧にはあなたのインスティテューションに参加をリクエストした、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザをインスティテューションに追加したい場合、またはユーザのメンバーシップリクエストを拒否したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「メンバーを追加する」ボタンをクリックすることで、右側ボックスのすべてのユーザをインスティテューションに追加することができます。「リクエストを拒否する」ボタンをクリックすることで、右側ボックスのユーザのメンバーシップリクエストを拒否することができます。"
 
 #: lang/ja.utf8/admin.php institutionusersinstructionsnonmembers
 msgctxt "lang/ja.utf8/admin.php institutionusersinstructionsnonmembers"
-msgid "The list of users on the left shows all users who are not yet members of your institution.  You can use the search box to reduce the number of users displayed.  To invite users to join the institution, first move some users to the right hand side by selecting one or more users and then clicking on the right arrow to move those users to the list on the right.  The "Invite Users" button will send invitations to all the users on the right.  These users will not be associated with the institution until they accept the invitation."
+msgid "The list of users on the left shows all users who are not yet members of your institution.  You can use the search box to reduce the number of users displayed.  To invite users to join the institution, first move some users to the right hand side by selecting one or more users and then clicking on the right arrow to move those users to the list on the right.  The \"Invite Users\" button will send invitations to all the users on the right.  These users will not be associated with the institution until they accept the invitation."
 msgstr "左側のユーザ一覧にはあなたのインスティテューションのメンバーではない、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザに対して、インスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックすることで、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。"
 
 #: lang/ja.utf8/admin.php institutionusersinstructionsmembers
 msgctxt "lang/ja.utf8/admin.php institutionusersinstructionsmembers"
-msgid "The list of users on the left shows all members of the institution.  You can use the search box to reduce the number of users displayed.  To remove users from the institution, first move some users to the right hand side by selecting one or more users on the left and then clicking on the right arrow.  The users you selected will move to the right hand side.  The "Remove Users" button will remove all the users on the right from the institution.  The users on the left will remain in the institution."
+msgid "The list of users on the left shows all members of the institution.  You can use the search box to reduce the number of users displayed.  To remove users from the institution, first move some users to the right hand side by selecting one or more users on the left and then clicking on the right arrow.  The users you selected will move to the right hand side.  The \"Remove Users\" button will remove all the users on the right from the institution.  The users on the left will remain in the institution."
 msgstr "左側のユーザ一覧にはあなたのインスティテューションのすべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。ユーザをインスティテューションから削除する場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを削除する」ボタンをクリックすることで、右側ボックスのすべてのユーザが削除されます。左側ボックスのユーザはインスティテューションに参加したままの状態です。"
 
 #: lang/ja.utf8/admin.php editmembers
@@ -9535,7 +9535,7 @@ msgstr "ユーザは追加されませんでした。メンバー数はインス
 
 #: lang/ja.utf8/admin.php institutionuserserrortoomanyinvites
 msgctxt "lang/ja.utf8/admin.php institutionuserserrortoomanyinvites"
-msgid "Your invitations were not sent.  The number of existing members plus the number of outstanding invitations cannot exceed the institution's maximum number of users.  You can invite fewer users, remove some users from the institution, or ask the site administrator to increase the maximum number of users."
+msgid "Your invitations were not sent.  The number of existing members plus the number of outstanding invitations cannot exceed the institution\'s maximum number of users.  You can invite fewer users, remove some users from the institution, or ask the site administrator to increase the maximum number of users."
 msgstr "あなたの招待は送信されませんでした。既存のユーザ + 招待者数はインスティテューションで許可される最大ユーザアカウント数を超えることはできません。あなたは少数のユーザを招待するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼することができます。"
 
 #: lang/ja.utf8/admin.php Members
@@ -9575,7 +9575,7 @@ msgstr "ロックフィールド"
 
 #: lang/ja.utf8/admin.php disabledlockedfieldhelp
 msgctxt "lang/ja.utf8/admin.php disabledlockedfieldhelp"
-msgid "Note: Disabled check boxes are for profile fields which are locked in the institution settings for "%s".  These profile fields are locked at the site level and cannot be unlocked here."
+msgid "Note: Disabled check boxes are for profile fields which are locked in the institution settings for \"%s\".  These profile fields are locked at the site level and cannot be unlocked here."
 msgstr "注意: 無効にされたチェックボックスはインスティテューション設定「 %s 」にてロックされたプロファイルフィールドです。これらのプロファイルフィールドはサイトレベルでロックされているため、ここでロック解除することはできません。"
 
 #: lang/ja.utf8/admin.php errorwhileunsuspending
@@ -9675,7 +9675,7 @@ msgstr "次のユーザをエクスポートすることができませんでし
 
 #: lang/ja.utf8/admin.php exportingusername
 msgctxt "lang/ja.utf8/admin.php exportingusername"
-msgid "Exporting '%s'..."
+msgid "Exporting \'%s\'..."
 msgstr "エクスポート %s ..."
 
 #: lang/ja.utf8/admin.php Search
@@ -9870,13 +9870,13 @@ msgstr "パスワード変更URI"
 
 #: lang/ja.utf8/auth.php cannotremove
 msgctxt "lang/ja.utf8/auth.php cannotremove"
-msgid "We can't remove this auth plugin, as it's the only \n"
+msgid "We can\'t remove this auth plugin, as it\'s the only \n"
 "plugin that exists for this institution.\n"
 msgstr "インスティテューションに関する唯一のプラグインのため、私たちはこの認証プラグインを削除することはできません。"
 
 #: lang/ja.utf8/auth.php cannotremoveinuse
 msgctxt "lang/ja.utf8/auth.php cannotremoveinuse"
-msgid "We can't remove this auth plugin, as it's being used by some users.\n"
+msgid "We can\'t remove this auth plugin, as it\'s being used by some users.\n"
 "You must update their records before you can remove this plugin.\n"
 msgstr "他のユーザに使用されているため、私たちはこの認証プラグインを削除することはできません。あなたが、このプラグインを削除できるようになる前に、ユーザレコードを更新する必要があります。"
 
@@ -9972,7 +9972,7 @@ msgstr "こちらにSSOさせる"
 
 #: lang/ja.utf8/auth.php authloginmsg
 msgctxt "lang/ja.utf8/auth.php authloginmsg"
-msgid "Enter a message to display when a user tries to log in via Mahara's login form"
+msgid "Enter a message to display when a user tries to log in via Mahara\'s login form"
 msgstr "ユーザがMaharaログインフォーム経由でログインを試みる場合、表示されるメッセージを入力してください。"
 
 #: lang/ja.utf8/auth.php application
@@ -10002,7 +10002,7 @@ msgstr "新しいSSLキーを生成することができませんでした。本
 
 #: lang/ja.utf8/auth.php errnoauthinstances
 msgctxt "lang/ja.utf8/auth.php errnoauthinstances"
-msgid "We don't seem to have any authentication plugin instances configured for the host at %s"
+msgid "We don\'t seem to have any authentication plugin instances configured for the host at %s"
 msgstr "私たちには%s のホストに関して、認証プラグインインスタンスが設定されていないようです。"
 
 #: lang/ja.utf8/auth.php errornotvalidsslcertificate
@@ -10012,12 +10012,12 @@ msgstr "有効なSSLサーバ証明書ではありません。"
 
 #: lang/ja.utf8/auth.php errnoxmlrpcinstances
 msgctxt "lang/ja.utf8/auth.php errnoxmlrpcinstances"
-msgid "We don't seem to have any XMLRPC authentication plugin instances configured for the host at %s"
+msgid "We don\'t seem to have any XMLRPC authentication plugin instances configured for the host at %s"
 msgstr "私たちには%s のホストに関して、XMLRPCプラグインインスタンスが設定されていないようです。"
 
 #: lang/ja.utf8/auth.php errnoxmlrpcwwwroot
 msgctxt "lang/ja.utf8/auth.php errnoxmlrpcwwwroot"
-msgid "We don't have a record for any host at %s"
+msgid "We don\'t have a record for any host at %s"
 msgstr "私たちには%s のホストに関して、レコードがありません。"
 
 #: lang/ja.utf8/auth.php errnoxmlrpcuser
@@ -10093,7 +10093,7 @@ msgstr "アクセス"
 
 #: lang/ja.utf8/collection.php accesscantbeused
 msgctxt "lang/ja.utf8/collection.php accesscantbeused"
-msgid "Access override not saved. The chosen pages access (Secret URL) can't be used for multiple pages."
+msgid "Access override not saved. The chosen pages access (Secret URL) can\'t be used for multiple pages."
 msgstr "アクセスオーバーライドは保存されませんでした。選択されたページアクセス (シークレットURI) は複数のページで使用することができません。"
 
 #: lang/ja.utf8/collection.php accessoverride
@@ -10138,7 +10138,7 @@ msgstr "あなたはこのコレクションを削除できません。"
 
 #: lang/ja.utf8/collection.php canteditdontown
 msgctxt "lang/ja.utf8/collection.php canteditdontown"
-msgid "You can't edit this collection because you don't own it."
+msgid "You can\'t edit this collection because you don\'t own it."
 msgstr "あなたの所有ではないため、このコレクションを編集することはできません。"
 
 #: lang/ja.utf8/collection.php collection
@@ -10223,7 +10223,7 @@ msgstr "コレクションを削除する"
 
 #: lang/ja.utf8/collection.php deletespecifiedcollection
 msgctxt "lang/ja.utf8/collection.php deletespecifiedcollection"
-msgid "Delete collection '%s'"
+msgid "Delete collection \'%s\'"
 msgstr "コレクション「 %s 」を削除する"
 
 #: lang/ja.utf8/collection.php deletingcollection
@@ -10423,7 +10423,7 @@ msgstr "あなたのサーバ設定にはmysql拡張モジュールが含まれ�
 
 #: lang/ja.utf8/error.php unknowndbtype
 msgctxt "lang/ja.utf8/error.php unknowndbtype"
-msgid "Your server configuration references an unknown database type. Valid values are "postgres8" and "mysql5". Please change the database type setting in config.php."
+msgid "Your server configuration references an unknown database type. Valid values are \"postgres8\" and \"mysql5\". Please change the database type setting in config.php."
 msgstr "あなたのサーバ設定は不明なデータベースタイプを参照しています。有効な値は「postgres8」および「mysql5」です。config.php内のデータベースタイプ設定を変更してください。"
 
 #: lang/ja.utf8/error.php domextensionnotloaded
@@ -10504,7 +10504,7 @@ msgstr "あなたのサーバはapc.stat=0によりAPCを動作しているよ�
 
 #: lang/ja.utf8/error.php datarootinsidedocroot
 msgctxt "lang/ja.utf8/error.php datarootinsidedocroot"
-msgid "You have set up your data root to be inside your document root. This is a large security problem, as then anyone can directly request session data (in order to hijack other peoples' sessions), or files that they are not allowed to access that other people have uploaded. Please configure the data root to be outside of the document root."
+msgid "You have set up your data root to be inside your document root. This is a large security problem, as then anyone can directly request session data (in order to hijack other peoples\' sessions), or files that they are not allowed to access that other people have uploaded. Please configure the data root to be outside of the document root."
 msgstr "あなたはドキュメントルート内にデータルートを設定したようです。これには多大なセキュリティ上の問題があり、誰でも (他の人のセッションをハイジャックするため) 直接セッションデータをリクエストすることができます。また、他の人がアップロードした、アクセスを許可されていないファイルにアクセスすることができます。データルートをドキュメントルートの外に設定してください。"
 
 #: lang/ja.utf8/error.php datarootnotwritable
@@ -10569,7 +10569,7 @@ msgstr "すべてのアーティファクトタイプにはクラスを実装す
 
 #: lang/ja.utf8/error.php artefactpluginmethodmissing
 msgctxt "lang/ja.utf8/error.php artefactpluginmethodmissing"
-msgid "Artefact plugin %s must implement %s and doesn't"
+msgid "Artefact plugin %s must implement %s and doesn\'t"
 msgstr "アーティファクトプラグイン %s で必要な %s が実装されていません。"
 
 #: lang/ja.utf8/error.php blocktypelibmissing
@@ -10654,7 +10654,7 @@ msgstr "ページが見つかりませんでした。"
 
 #: lang/ja.utf8/error.php viewnotfoundexceptionmessage
 msgctxt "lang/ja.utf8/error.php viewnotfoundexceptionmessage"
-msgid "You tried to access a page that didn't exist!"
+msgid "You tried to access a page that didn\'t exist!"
 msgstr "あなたは存在しないページにアクセスを試みました!"
 
 #: lang/ja.utf8/error.php viewnotfound
@@ -10664,7 +10664,7 @@ msgstr "ID %s のページは見つかりませんでした。"
 
 #: lang/ja.utf8/error.php youcannotviewthisusersprofile
 msgctxt "lang/ja.utf8/error.php youcannotviewthisusersprofile"
-msgid "You cannot view this user's profile"
+msgid "You cannot view this user\'s profile"
 msgstr "あなたはこのユーザのプロファイルを閲覧できません。"
 
 #: lang/ja.utf8/error.php artefactnotfoundmaybedeleted
@@ -10729,7 +10729,7 @@ msgstr "IDがありません。"
 
 #: lang/ja.utf8/error.php themenameinvalid
 msgctxt "lang/ja.utf8/error.php themenameinvalid"
-msgid "The name of the theme '%s' contains invalid characters."
+msgid "The name of the theme \'%s\' contains invalid characters."
 msgstr "テーマ名「 %s 」に無効な文字が含まれています。"
 
 #: lang/ja.utf8/error.php timezoneidentifierunusable
@@ -10854,7 +10854,7 @@ msgstr "いくつかのマイページのみ"
 
 #: lang/ja.utf8/export.php nonexistentfile
 msgctxt "lang/ja.utf8/export.php nonexistentfile"
-msgid "Tried to add non-existent file: '%s'"
+msgid "Tried to add non-existent file: \'%s\'"
 msgstr "存在しないファイルの追加を試みました: %s"
 
 #: lang/ja.utf8/export.php pleasewaitwhileyourexportisbeinggenerated
@@ -10959,7 +10959,7 @@ msgstr "あなたはグループへの参加を招待されました。"
 
 #: lang/ja.utf8/group.php invitetogroupmessage
 msgctxt "lang/ja.utf8/group.php invitetogroupmessage"
-msgid "%s has invited you to join a group, '%s'.  Click on the link below for more information."
+msgid "%s has invited you to join a group, \'%s\'.  Click on the link below for more information."
 msgstr "%s がグループ「 %s 」へのあなたの参加を招待しました。詳細は下記リンクをクリックしてください。"
 
 #: lang/ja.utf8/group.php inviteuserfailed
@@ -10979,7 +10979,7 @@ msgstr "あなたはグループに追加されました。"
 
 #: lang/ja.utf8/group.php addedtogroupmessage
 msgctxt "lang/ja.utf8/group.php addedtogroupmessage"
-msgid "%s has added you to a group, '%s'.  Click on the link below to see the group"
+msgid "%s has added you to a group, \'%s\'.  Click on the link below to see the group"
 msgstr "%s があなたをグループ「 %s 」に追加しました。グループを表示するには、下記リンクをクリックしてください。"
 
 #: lang/ja.utf8/group.php adduserfailed
@@ -11009,12 +11009,12 @@ msgstr "グループが正常に保存されました。"
 
 #: lang/ja.utf8/group.php invalidgroup
 msgctxt "lang/ja.utf8/group.php invalidgroup"
-msgid "The group doesn't exist"
+msgid "The group doesn\'t exist"
 msgstr "グループがありません。"
 
 #: lang/ja.utf8/group.php canteditdontown
 msgctxt "lang/ja.utf8/group.php canteditdontown"
-msgid "You can't edit this group because you don't own it"
+msgid "You can\'t edit this group because you don\'t own it"
 msgstr "あなたの所有ではないため、このグループを編集できません。"
 
 #: lang/ja.utf8/group.php groupdescription
@@ -11327,12 +11327,12 @@ msgstr "メンバーシップのステータスが正常に変更されました
 
 #: lang/ja.utf8/group.php viewreleasedsubject
 msgctxt "lang/ja.utf8/group.php viewreleasedsubject"
-msgid "Your page "%s" has been released from %s by %s"
+msgid "Your page \"%s\" has been released from %s by %s"
 msgstr "あなたのページ「 %s 」が %s から %s によってリリースされました。"
 
 #: lang/ja.utf8/group.php viewreleasedmessage
 msgctxt "lang/ja.utf8/group.php viewreleasedmessage"
-msgid "Your page "%s" has been released from %s by %s"
+msgid "Your page \"%s\" has been released from %s by %s"
 msgstr "あなたのページ「 %s 」が %s から %s によってリリースされました。"
 
 #: lang/ja.utf8/group.php viewreleasedsuccess
@@ -11531,7 +11531,7 @@ msgstr "すべてのマイグループ"
 
 #: lang/ja.utf8/group.php groupsimin
 msgctxt "lang/ja.utf8/group.php groupsimin"
-msgid "Groups I'm In"
+msgid "Groups I\'m In"
 msgstr "私が参加しているグループ"
 
 #: lang/ja.utf8/group.php groupsiown
@@ -11541,7 +11541,7 @@ msgstr "私が所有しているグループ"
 
 #: lang/ja.utf8/group.php groupsiminvitedto
 msgctxt "lang/ja.utf8/group.php groupsiminvitedto"
-msgid "Groups I'm Invited To"
+msgid "Groups I\'m Invited To"
 msgstr "私が招待されているグループ"
 
 #: lang/ja.utf8/group.php groupsiwanttojoin
@@ -11566,7 +11566,7 @@ msgstr "本当にこのグループから離れてもよろしいですか?"
 
 #: lang/ja.utf8/group.php cantleavegroup
 msgctxt "lang/ja.utf8/group.php cantleavegroup"
-msgid "You can't leave this group"
+msgid "You can\'t leave this group"
 msgstr "あなたはこのグループから離れることはできません。"
 
 #: lang/ja.utf8/group.php usercantleavegroup
@@ -11581,7 +11581,7 @@ msgstr "ユーザはこのロールに変更できません。"
 
 #: lang/ja.utf8/group.php leavespecifiedgroup
 msgctxt "lang/ja.utf8/group.php leavespecifiedgroup"
-msgid "Leave group '%s'"
+msgid "Leave group \'%s\'"
 msgstr "グループ「 %s 」から離れる"
 
 #: lang/ja.utf8/group.php memberslist
@@ -11596,12 +11596,12 @@ msgstr "グループなし"
 
 #: lang/ja.utf8/group.php deletespecifiedgroup
 msgctxt "lang/ja.utf8/group.php deletespecifiedgroup"
-msgid "Delete group '%s'"
+msgid "Delete group \'%s\'"
 msgstr "グループ「 %s 」を削除する"
 
 #: lang/ja.utf8/group.php requestjoinspecifiedgroup
 msgctxt "lang/ja.utf8/group.php requestjoinspecifiedgroup"
-msgid "Request to join group '%s'"
+msgid "Request to join group \'%s\'"
 msgstr "グループ「 %s 」への参加をリクエストする"
 
 #: lang/ja.utf8/group.php youaregroupmember
@@ -11626,7 +11626,7 @@ msgstr "あなたはこのグループのオーナーです。"
 
 #: lang/ja.utf8/group.php groupsnotin
 msgctxt "lang/ja.utf8/group.php groupsnotin"
-msgid "Groups I'm not in"
+msgid "Groups I\'m not in"
 msgstr "私が参加していないグループ"
 
 #: lang/ja.utf8/group.php allgroups
@@ -11671,7 +11671,7 @@ msgstr "あなたはこのグループのメンバーではありません。"
 
 #: lang/ja.utf8/group.php notmembermayjoin
 msgctxt "lang/ja.utf8/group.php notmembermayjoin"
-msgid "You must join the group '%s' to see this page."
+msgid "You must join the group \'%s\' to see this page."
 msgstr "このページを閲覧するには、あなたはグループ「 %s 」に参加する必要があります。"
 
 #: lang/ja.utf8/group.php declinerequestsuccess
@@ -11832,7 +11832,7 @@ msgstr "あなたはこのユーザをフレンドリストから削除できま
 
 #: lang/ja.utf8/group.php friendshipalreadyrequested
 msgctxt "lang/ja.utf8/group.php friendshipalreadyrequested"
-msgid "You have requested to be added to %s's friends list"
+msgid "You have requested to be added to %s\'s friends list"
 msgstr "あなたは %s のフレンドリストへの追加をリクエストしました。"
 
 #: lang/ja.utf8/group.php friendshipalreadyrequestedowner
@@ -12008,7 +12008,7 @@ msgstr "あなたのフレンドリストの変更に失敗しました。"
 
 #: lang/ja.utf8/group.php userdoesntwantfriends
 msgctxt "lang/ja.utf8/group.php userdoesntwantfriends"
-msgid "This user doesn't want any new friends"
+msgid "This user doesn\'t want any new friends"
 msgstr "このユーザは新しいフレンドを欲していません。"
 
 #: lang/ja.utf8/group.php cannotrequestfriendshipwithself
@@ -12115,12 +12115,12 @@ msgstr "招待"
 
 #: lang/ja.utf8/group.php invitemembertogroup
 msgctxt "lang/ja.utf8/group.php invitemembertogroup"
-msgid "Invite %s to join '%s'"
+msgid "Invite %s to join \'%s\'"
 msgstr "%s を「 %s 」に招待する"
 
 #: lang/ja.utf8/group.php cannotinvitetogroup
 msgctxt "lang/ja.utf8/group.php cannotinvitetogroup"
-msgid "You can't invite this user to this group"
+msgid "You can\'t invite this user to this group"
 msgstr "あなたはこのユーザをグループに招待できません。"
 
 #: lang/ja.utf8/group.php useralreadyinvitedtogroup
@@ -12165,7 +12165,7 @@ msgstr "%s が正常に保存されました。"
 
 #: lang/ja.utf8/group.php deleteinteraction
 msgctxt "lang/ja.utf8/group.php deleteinteraction"
-msgid "Delete %s '%s'"
+msgid "Delete %s \'%s\'"
 msgstr "%s 「 %s 」を削除する"
 
 #: lang/ja.utf8/group.php deleteinteractionsure
@@ -12245,13 +12245,13 @@ msgstr "登録日"
 
 #: lang/ja.utf8/group.php membersdescription:invite
 msgctxt "lang/ja.utf8/group.php membersdescription:invite"
-msgid "This is an invite-only group. You can invite users through their profile pages or <a href="%s">send multiple invitations at once</a>."
-msgstr "これは「招待のみ」グループです。あなたはユーザをユーザプロファイルページより招待、または<a href="%s">一度に複数の招待状を送信することができます</a>。"
+msgid "This is an invite-only group. You can invite users through their profile pages or <a href=\"%s\">send multiple invitations at once</a>."
+msgstr "これは「招待のみ」グループです。あなたはユーザをユーザプロファイルページより招待、または<a href=\"%s\">一度に複数の招待状を送信することができます</a>。"
 
 #: lang/ja.utf8/group.php membersdescription:controlled
 msgctxt "lang/ja.utf8/group.php membersdescription:controlled"
-msgid "This is a controlled membership group. You can add users through their profile pages or <a href="%s">add many users at once</a>."
-msgstr "これは「管理メンバーシップ」グループです。あなたはユーザをユーザプロファイルページより追加、または<a href="%s">一度に多くのユーザを追加することができます</a>。"
+msgid "This is a controlled membership group. You can add users through their profile pages or <a href=\"%s\">add many users at once</a>."
+msgstr "これは「管理メンバーシップ」グループです。あなたはユーザをユーザプロファイルページより追加、または<a href=\"%s\">一度に多くのユーザを追加することができます</a>。"
 
 #: lang/ja.utf8/group.php submit
 msgctxt "lang/ja.utf8/group.php submit"
@@ -13565,7 +13565,7 @@ msgctxt "lang/ja.utf8/install.php aboutdefaultcontent"
 msgid "<h1>About</h1>\n"
 "<p><i>Add text about your organisation or the installation here</i></p>\n"
 "\n"
-"<p>[<i>Name of your installation here</i>] is powered by <a href="http://mahara.org">Mahara</a>. Mahara is provided freely as Open Source software (under the GNU General Public License). In brief, this means that you are allowed to copy, use and modify Mahara provided you agree to:</p>\n"
+"<p>[<i>Name of your installation here</i>] is powered by <a href=\"http://mahara.org\">Mahara</a>. Mahara is provided freely as Open Source software (under the GNU General Public License). In brief, this means that you are allowed to copy, use and modify Mahara provided you agree to:</p>\n"
 "\n"
 "<ul>\n"
 "    <li>provide the source code to others; </li>\n"
@@ -13576,7 +13576,7 @@ msgstr "<h1>Maharaとは</h1>\n"
 "\n"
 "<p>あなたの組織またはインストールに関するテキストをここに追加してください。</p>\n"
 "\n"
-"<p>[<b>あなたの組織名</b>]は<a href="http://mahara.org">Mahara</a>により構築されています。Maharaは (GNU General Public License 一般公衆利用許諾契約書の下)、無償のオープンソースソフトウェアとして提供されます。下記条件に同意することにより、あなたにMaharaのコピー、使用および修正が許可されていることを意味します:</p>\n"
+"<p>[<b>あなたの組織名</b>]は<a href=\"http://mahara.org\">Mahara</a>により構築されています。Maharaは (GNU General Public License 一般公衆利用許諾契約書の下)、無償のオープンソースソフトウェアとして提供されます。下記条件に同意することにより、あなたにMaharaのコピー、使用および修正が許可されていることを意味します:</p>\n"
 "\n"
 "<ul>\n"
 "<li>他の人にソースコードを提供する。</li>\n"
@@ -13590,14 +13590,14 @@ msgid "<h1>Welcome</h1>\n"
 "\n"
 "<p>[<i>Name of your installation here</i>] is a fully featured electronic portfolio system with social networking features to create online learning communities.</p>\n"
 "\n"
-"<p>For more information you can read <a href="about.php">About</a> [<i>please ensure you also edit this page</i>] or alternatively please feel free to <a href="contact.php">Contact Us</a>.</p>\n"
+"<p>For more information you can read <a href=\"about.php\">About</a> [<i>please ensure you also edit this page</i>] or alternatively please feel free to <a href=\"contact.php\">Contact Us</a>.</p>\n"
 "\n"
 "<p><i>You can edit this text via Edit Site Pages in Configure Site in Site Administration</i></p>\n"
 msgstr "<h1>Maharaにようこそ</h1>\n"
 "\n"
 "<p>[<b>あなたの組織名</b>]はオンラインコミュニティを構築するための十分な機能を有するインターネット上のポートフォリオシステムです。</p>\n"
 "\n"
-"<p>Maharaに関する詳細は<a href="about.php">About</a> [このページを忘れずに編集してください] をお読みください。また、私たちに<a href="contact.php">お気軽にお問い合わせください</a>。</p>\n"
+"<p>Maharaに関する詳細は<a href=\"about.php\">About</a> [このページを忘れずに編集してください] をお読みください。また、私たちに<a href=\"contact.php\">お気軽にお問い合わせください</a>。</p>\n"
 "\n"
 "<p>あなたはこのテキストを「サイト管理 > サイト設定 > サイトページを編集する」にて編集することができます。</p>\n"
 
@@ -13607,14 +13607,14 @@ msgid "<h1>Welcome</h1>\n"
 "\n"
 "<p>[<i>Name of your installation here</i>] is a fully featured electronic portfolio system with social networking features to create online learning communities.</p>\n"
 "\n"
-"<p>For more information you can read <a href="about.php">About</a> [<i>please ensure you also edit this page</i>] or alternatively please feel free to <a href="contact.php">Contact Us</a>.</p>\n"
+"<p>For more information you can read <a href=\"about.php\">About</a> [<i>please ensure you also edit this page</i>] or alternatively please feel free to <a href=\"contact.php\">Contact Us</a>.</p>\n"
 "\n"
 "<p><i>You can edit this text via Edit Site Pages in Configure Site in Site Administration</i></p>\n"
 msgstr "<h1>Maharaにようこそ</h1>\n"
 "\n"
 "<p>[<b>あなたの組織名</b>]はオンラインコミュニティを構築するための十分な機能を有するインターネット上のポートフォリオシステムです。</p>\n"
 "\n"
-"<p>Maharaに関する詳細は<a href="about.php">About</a> [このページを忘れずに編集してください] をお読みください。また、私たちに<a href="contact.php">お気軽にお問い合わせください</a>。</p>\n"
+"<p>Maharaに関する詳細は<a href=\"about.php\">About</a> [このページを忘れずに編集してください] をお読みください。また、私たちに<a href=\"contact.php\">お気軽にお問い合わせください</a>。</p>\n"
 "\n"
 "<p>あなたはこのテキストを「サイト管理 > サイト設定 > サイトページを編集する」にて編集することができます。</p>\n"
 
@@ -13658,7 +13658,7 @@ msgid "<h1>Privacy Statement</h1>\n"
 "\n"
 "<h2>Contact</h2>\n"
 "\n"
-"<p>If you have any questions regarding this Statement or believe we have not adhered to the above criteria, please <a href="contact.php">Contact Us</a> and we will use all reasonable efforts to remedy the issue.</p>\n"
+"<p>If you have any questions regarding this Statement or believe we have not adhered to the above criteria, please <a href=\"contact.php\">Contact Us</a> and we will use all reasonable efforts to remedy the issue.</p>\n"
 msgstr "<h1>プライバシー保護方針</h1>\n"
 "\n"
 "<h2>イントロダクション</h2>\n"
@@ -13697,7 +13697,7 @@ msgstr "<h1>プライバシー保護方針</h1>\n"
 "\n"
 "<h2>お問い合わせ</h2>\n"
 "\n"
-"<p>あなたが、この記述に対してご質問をお持ちの場合、または私たちが上記方針を遵守していないと思われる場合、私たちに<a href="contact.php">ご連絡ください</a>。私たちはご指摘の問題を解決するため努力させていただきます。</p>\n"
+"<p>あなたが、この記述に対してご質問をお持ちの場合、または私たちが上記方針を遵守していないと思われる場合、私たちに<a href=\"contact.php\">ご連絡ください</a>。私たちはご指摘の問題を解決するため努力させていただきます。</p>\n"
 
 #: lang/ja.utf8/install.php termsandconditionsdefaultcontent
 msgctxt "lang/ja.utf8/install.php termsandconditionsdefaultcontent"
@@ -13709,21 +13709,21 @@ msgid "<h1>Terms and Conditions</h1>\n"
 "\n"
 "<h2>Our obligations</h2>\n"
 "\n"
-"<p>The [<i>name of site</i>] Site Administrators will undertake all reasonable steps to provide all users with a safe , secure and operational electronic portfolio system.  If at any time you feel your rights as a user have not been upheld or you have any questions regarding the below, please <a href="contact.php">Contact Us</a> immediately.</p>\n"
+"<p>The [<i>name of site</i>] Site Administrators will undertake all reasonable steps to provide all users with a safe , secure and operational electronic portfolio system.  If at any time you feel your rights as a user have not been upheld or you have any questions regarding the below, please <a href=\"contact.php\">Contact Us</a> immediately.</p>\n"
 "\n"
 "<p>[<i>name of site</i>] will occasionally be unavailable for short periods of time as we release new system features.  We will endeavour to provide at least 3 working days notice of any scheduled outage.</p>\n"
 "\n"
-"<p>You are encouraged to report objectionable material or inappropriate behaviour to the <a href="contact.php">Site Administrator</a> immediately.  We will ensure the matter is investigated in a timely manner.</p>\n"
+"<p>You are encouraged to report objectionable material or inappropriate behaviour to the <a href=\"contact.php\">Site Administrator</a> immediately.  We will ensure the matter is investigated in a timely manner.</p>\n"
 "\n"
 "<p>Site Administrators may access your portfolio and its contents at anytime, however they will avoid doing so unless specifically required to support your use of [<i>name of site</i>] or as per these Terms and Conditions.</p>\n"
 "\n"
 "<h2>Your obligations</h2>\n"
 "\n"
-"<p> The <a href="privacy.php">Privacy Statement</a> should be considered an extension of these Terms and Conditions and be read by all users.</p>\n"
+"<p> The <a href=\"privacy.php\">Privacy Statement</a> should be considered an extension of these Terms and Conditions and be read by all users.</p>\n"
 "\n"
 "<p>Your [<i>name of site</i>] account will expire after a given period of time or after given period of inactivity, as set by the Site Administrator. You will receive an email reminder shortly before your account is due to expire and we suggest you save your portfolio to your personal computer at this time, so that you may reuse it in the future.</p>\n"
 "\n"
-"<p>All files and content you upload to [<i>name of site</i>] are subject to New Zealand Copyright legislation.  You are responsible for ensuring you have appropriate permission to reproduce and publish any work that is not your own.  Incidents of plagiarism will be dealt with in accordance to your educational institution's policy.</p>\n"
+"<p>All files and content you upload to [<i>name of site</i>] are subject to New Zealand Copyright legislation.  You are responsible for ensuring you have appropriate permission to reproduce and publish any work that is not your own.  Incidents of plagiarism will be dealt with in accordance to your educational institution\'s policy.</p>\n"
 "\n"
 "<p>You must not use your portfolio to store or display offensive material.  If the Site Administrator receives report of any objectionable material within your portfolio, your account will be suspended and your access to [<i>name of site</i>] frozen pending an investigation in accordance to the Student Conduct Policy or equivalent of your educational institution.  Where no Conduct Policy exists the matter will be referred to an appropriate staff member of your institution or organisation.</p>\n"
 "\n"
@@ -13731,7 +13731,7 @@ msgid "<h1>Terms and Conditions</h1>\n"
 "\n"
 "<p>Inappropriate behaviour includes misuse of the objectionable material reporting system, intentionally attempting to load files with virus content, placing objectionable or excessive feedback or comments on any other users portfolio and any other behaviour deemed to be nuisance or offensive by the Site Administrator.</p>\n"
 "\n"
-"<p>Any unsolicited contact you receive as a result of personal information you have publicly released via your portfolio is your responsibility, however any misconduct in behaviour from users of the system should be reported to the <a href="contact.php">Site Administrator</a> immediately.  We may occasionally make minor adjustments to our Terms and Condition to reflect changes to the system and in response to user feedback.  As such we suggest you check the Terms and Conditions each time you visit this site.  We will however notify users of any major changes to the Terms and Conditions via the [<i>name of site</i>] homepage.</p>\n"
+"<p>Any unsolicited contact you receive as a result of personal information you have publicly released via your portfolio is your responsibility, however any misconduct in behaviour from users of the system should be reported to the <a href=\"contact.php\">Site Administrator</a> immediately.  We may occasionally make minor adjustments to our Terms and Condition to reflect changes to the system and in response to user feedback.  As such we suggest you check the Terms and Conditions each time you visit this site.  We will however notify users of any major changes to the Terms and Conditions via the [<i>name of site</i>] homepage.</p>\n"
 msgstr "<h1>使用条件</h1>\n"
 "\n"
 "<p>[これはあなたの法務部門が編集するためのデフォルトの使用条件です]</p>\n"
@@ -13740,17 +13740,17 @@ msgstr "<h1>使用条件</h1>\n"
 "\n"
 "<h2>私たちの義務</h2>\n"
 "\n"
-"<p>[<b>サイト名</b>]サイト管理者はすべてのユーザに対して、安全で常に利用可能なeポートフォリオシステムを提供するため、あらゆる適切な措置をとることを保証します。あなたのユーザとしての権利が保護されていないと思われた場合、また以下の内容に関してご質問をお持ちの場合、すぐに私たちに<a href="contact.php">ご連絡ください</a>。\n"
+"<p>[<b>サイト名</b>]サイト管理者はすべてのユーザに対して、安全で常に利用可能なeポートフォリオシステムを提供するため、あらゆる適切な措置をとることを保証します。あなたのユーザとしての権利が保護されていないと思われた場合、また以下の内容に関してご質問をお持ちの場合、すぐに私たちに<a href=\"contact.php\">ご連絡ください</a>。\n"
 "\n"
 "<p>新しい機能をリリースするため、[<b>サイト名</b>]を短時間利用できない場合があります。すべての定期的な利用停止に関して、私たちは少なくとも3就業日前にお伝えいたします。</p>\n"
 "\n"
-"<p>好ましくないコンテンツ、または不適切な言動に関して、すぐに<a href="contact.php">サイト管理者にご連絡ください</a>。ご報告の内容を私たちは迅速に調査させていただきます。</p>\n"
+"<p>好ましくないコンテンツ、または不適切な言動に関して、すぐに<a href=\"contact.php\">サイト管理者にご連絡ください</a>。ご報告の内容を私たちは迅速に調査させていただきます。</p>\n"
 "\n"
 "<p>サイト管理者は常にあなたのポートフォリオおよびコンテンツにアクセスできます。しかし、サイト管理者はあなたの[<b>サイト名</b>]使用のサポートに関して特別に必要な場合を除いて、または使用条件に基づき、そのような行為を避けます。</p>\n"
 "\n"
 "<h2>あなたの義務</h2>\n"
 "\n"
-"<p>すべてのユーザは使用条件に加えて、<a href="privacy.php">プライバシー保護方針</a>を読んだ上、その内容を考慮する必要があります。</p>\n"
+"<p>すべてのユーザは使用条件に加えて、<a href=\"privacy.php\">プライバシー保護方針</a>を読んだ上、その内容を考慮する必要があります。</p>\n"
 "\n"
 "<p>サイト管理者により設定された一定期間または一定の休眠期間により、あなたの[<b>サイト名</b>]アカウントは無効となります。あなたのアカウントの有効期限が切れる前、メールによるリマインダが送信されます。将来的に再利用できるよう、あなたのパーソナルコンピュータに最新のポートフォリオを保存されることをお勧めします。</p>\n"
 "\n"
@@ -13760,7 +13760,7 @@ msgstr "<h1>使用条件</h1>\n"
 "\n"
 "<p>不適切な行動には好ましくないコンテンツの乱用、ウイルスを含んだファイルの意図的なアップロード、好ましくないまたは過度のフィードバックまたはコメントを他のポートフォリオユーザに投稿、および管理者から迷惑または攻撃的と判断されるすべての行為を含みます。</p>\n"
 "\n"
-"<p>あなたのポートフォリオを経由して公開した個人情報を原因とする、あなたが受信する未承諾のコンタクトにはあなたに責任があるものとします。システム内のユーザによる不正行為がある場合、ただちに<a href="contact.php">サイト管理者にご連絡ください</a>。システム変更およびユーザのフィードバックに基づき、私たちは使用条件を若干変更する場合があります。あなたがこのサイトを訪問するたび、使用条件の確認をお勧めします。使用条件の主要な変更に関して、私たちは[<b>サイト名</b>]ホームページにて、ユーザに告知します。</p>\n"
+"<p>あなたのポートフォリオを経由して公開した個人情報を原因とする、あなたが受信する未承諾のコンタクトにはあなたに責任があるものとします。システム内のユーザによる不正行為がある場合、ただちに<a href=\"contact.php\">サイト管理者にご連絡ください</a>。システム変更およびユーザのフィードバックに基づき、私たちは使用条件を若干変更する場合があります。あなたがこのサイトを訪問するたび、使用条件の確認をお勧めします。使用条件の主要な変更に関して、私たちは[<b>サイト名</b>]ホームページにて、ユーザに告知します。</p>\n"
 
 #: lang/ja.utf8/install.php uploadcopyrightdefaultcontent
 msgctxt "lang/ja.utf8/install.php uploadcopyrightdefaultcontent"
@@ -14044,12 +14044,12 @@ msgstr "プラグインが有効にされていません。あなたはまず %s
 
 #: lang/ja.utf8/mahara.php pluginexplainaddremove
 msgctxt "lang/ja.utf8/mahara.php pluginexplainaddremove"
-msgid "Plugins in Mahara are always installed and can be accessed if users know the URLs and would otherwise have access. Rather than enabling and disabling the functionality, plugins are hidden or made visible by clicking on the 'Hide' or 'Show' links beside the plugins below."
+msgid "Plugins in Mahara are always installed and can be accessed if users know the URLs and would otherwise have access. Rather than enabling and disabling the functionality, plugins are hidden or made visible by clicking on the \'Hide\' or \'Show\' links beside the plugins below."
 msgstr "Maharaプラグインは常にインストールされるため、URIを知っているユーザはアクセスすることができます。機能を有効または無効にする代わりに、以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることで、プラグインを表示または非表示にすることができます。"
 
 #: lang/ja.utf8/mahara.php pluginexplainartefactblocktypes
 msgctxt "lang/ja.utf8/mahara.php pluginexplainartefactblocktypes"
-msgid "When hiding an 'artefact' type plugin, the Mahara system also stops the display of the blocks related to it."
+msgid "When hiding an \'artefact\' type plugin, the Mahara system also stops the display of the blocks related to it."
 msgstr "「artefact (アーティファクト)」タイプのプラグインを非表示にした場合、Maharaシステムは同時に関連するブロックの表示を停止します。"
 
 #: lang/ja.utf8/mahara.php next
@@ -14134,7 +14134,7 @@ msgstr "このアイテムに関して、カンマで区切ったタグを入力
 
 #: lang/ja.utf8/mahara.php tagsdescprofile
 msgctxt "lang/ja.utf8/mahara.php tagsdescprofile"
-msgid "Enter comma separated tags for this item. Items tagged with 'profile' are displayed in your sidebar."
+msgid "Enter comma separated tags for this item. Items tagged with \'profile\' are displayed in your sidebar."
 msgstr "このアイテムに関して、カンマで区切ったタグを入力してください。「プロファイル」タグが付けられたアイテムはあなたのサイドバーに表示されます。"
 
 #: lang/ja.utf8/mahara.php youhavenottaggedanythingyet
@@ -14244,8 +14244,8 @@ msgstr "編集するタグを選択してください。"
 
 #: lang/ja.utf8/mahara.php edittag
 msgctxt "lang/ja.utf8/mahara.php edittag"
-msgid "Edit <a href="%s">%s</a>"
-msgstr "<a href="%s">%s</a> を編集する"
+msgid "Edit <a href=\"%s\">%s</a>"
+msgstr "<a href=\"%s\">%s</a> を編集する"
 
 #: lang/ja.utf8/mahara.php editthistag
 msgctxt "lang/ja.utf8/mahara.php editthistag"
@@ -14254,13 +14254,13 @@ msgstr "このタグを編集する"
 
 #: lang/ja.utf8/mahara.php edittagdescription
 msgctxt "lang/ja.utf8/mahara.php edittagdescription"
-msgid "All items in your portfolio tagged "%s" will be updated"
+msgid "All items in your portfolio tagged \"%s\" will be updated"
 msgstr "あなたのポートフォリオに関して、「 %s 」でタグ付けされたすべてのアイテムが更新されます。"
 
 #: lang/ja.utf8/mahara.php deletetag
 msgctxt "lang/ja.utf8/mahara.php deletetag"
-msgid "Delete <a href="%s">%s</a>"
-msgstr "<a href="%s">%s</a> を削除する"
+msgid "Delete <a href=\"%s\">%s</a>"
+msgstr "<a href=\"%s\">%s</a> を削除する"
 
 #: lang/ja.utf8/mahara.php confirmdeletetag
 msgctxt "lang/ja.utf8/mahara.php confirmdeletetag"
@@ -14294,8 +14294,8 @@ msgstr "クオータ"
 
 #: lang/ja.utf8/mahara.php quotausage
 msgctxt "lang/ja.utf8/mahara.php quotausage"
-msgid "You have used <span id="quota_used">%s</span> of your <span id="quota_total">%s</span> quota."
-msgstr "あなたの利用クオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span> です。"
+msgid "You have used <span id=\"quota_used\">%s</span> of your <span id=\"quota_total\">%s</span> quota."
+msgstr "あなたの利用クオータは<span id=\"quota_used\">%s</span> / <span id=\"quota_total\">%s</span> です。"
 
 #: lang/ja.utf8/mahara.php updatefailed
 msgctxt "lang/ja.utf8/mahara.php updatefailed"
@@ -14437,26 +14437,26 @@ msgstr "%s さん\n"
 msgctxt "lang/ja.utf8/mahara.php accountcreatedhtml"
 msgid "<p>Dear %s</p>\n"
 "\n"
-"<p>A new account has been created for you on <a href="%s">%s</a>. Your details are as follows:</p>\n"
+"<p>A new account has been created for you on <a href=\"%s\">%s</a>. Your details are as follows:</p>\n"
 "\n"
 "<ul>\n"
 "    <li><strong>Username:</strong> %s</li>\n"
 "    <li><strong>Password:</strong> %s</li>\n"
 "</ul>\n"
 "\n"
-"<p>Visit <a href="%s">%s</a> to get started!</p>\n"
+"<p>Visit <a href=\"%s\">%s</a> to get started!</p>\n"
 "\n"
 "<p>Regards, %s Site Administrator</p>\n"
 msgstr "<p>%s さん</p>\n"
 "\n"
-"<p>あなたの新しいアカウントが <a href="">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>\n"
+"<p>あなたの新しいアカウントが <a href=\"\">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>\n"
 "\n"
 "<ul>\n"
 "<li><strong>ユーザ名:</strong> %s</li>\n"
 "<li><strong>パスワード:</strong> %s</li>\n"
 "</ul>\n"
 "\n"
-"<p>利用開始するには、<a href="%s">%s</a>にアクセスしてください!</p>\n"
+"<p>利用開始するには、<a href=\"%s\">%s</a>にアクセスしてください!</p>\n"
 "\n"
 "<p>%s サイト管理者</p>\n"
 
@@ -14464,7 +14464,7 @@ msgstr "<p>%s さん</p>\n"
 msgctxt "lang/ja.utf8/mahara.php accountcreatedchangepasswordhtml"
 msgid "<p>Dear %s</p>\n"
 "\n"
-"<p>A new account has been created for you on <a href="%s">%s</a>. Your details are as follows:</p>\n"
+"<p>A new account has been created for you on <a href=\"%s\">%s</a>. Your details are as follows:</p>\n"
 "\n"
 "<ul>\n"
 "    <li><strong>Username:</strong> %s</li>\n"
@@ -14473,12 +14473,12 @@ msgid "<p>Dear %s</p>\n"
 "\n"
 "<p>Once you log in for the first time, you will be asked to change your password.</p>\n"
 "\n"
-"<p>Visit <a href="%s">%s</a> to get started!</p>\n"
+"<p>Visit <a href=\"%s\">%s</a> to get started!</p>\n"
 "\n"
 "<p>Regards, %s Site Administrator</p>\n"
 msgstr "<p>%s さん</p>\n"
 "\n"
-"<p>あなたの新しいアカウントが <a href="">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>\n"
+"<p>あなたの新しいアカウントが <a href=\"\">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>\n"
 "\n"
 "<ul>\n"
 "<li><strong>ユーザ名:</strong> %s</li>\n"
@@ -14487,7 +14487,7 @@ msgstr "<p>%s さん</p>\n"
 "\n"
 "<p>初回ログイン時、あなたはパスワードの変更を求められます。</p>\n"
 "\n"
-"<p>利用開始するには、<a href="%s">%s</a>にアクセスしてください!</p>\n"
+"<p>利用開始するには、<a href=\"%s\">%s</a>にアクセスしてください!</p>\n"
 "\n"
 "<p>%s サイト管理者</p>\n"
 
@@ -14529,7 +14529,7 @@ msgid "<p>Dear %s,</p>\n"
 "\n"
 "<p>We recommend you save the contents of your portfolio using the Export tool. Instructions on using this feature may be found within the user guide.</p>\n"
 "\n"
-"<p>If you wish to extend your account access or have any questions regarding the above, please feel free to <a href="%s">Contact Us</a>.</p>\n"
+"<p>If you wish to extend your account access or have any questions regarding the above, please feel free to <a href=\"%s\">Contact Us</a>.</p>\n"
 "\n"
 "<p>Regards, %s Site Administrator</p>\n"
 msgstr "<p>%s さん</p>\n"
@@ -14538,7 +14538,7 @@ msgstr "<p>%s さん</p>\n"
 "\n"
 "<p>エクスポートツールを使用して、あなたのポートフォリオのコンテンツを保存することをお勧めします。この機能の使用に関するインストラクションはユーザガイドに記載されています。</p>\n"
 "\n"
-"<p>あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>。</P>\n"
+"<p>あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問は<a href=\"%s\">お気軽にお問い合わせください</a>。</P>\n"
 "\n"
 "<p>%s サイト管理者</p>\n"
 
@@ -14574,14 +14574,14 @@ msgid "<p>Dear %s,</p>\n"
 "\n"
 "<p>Your membership of %s on %s will expire within %s.</p>\n"
 "\n"
-"<p>If you wish to extend your membership or have any questions regarding the above, please feel free to <a href="%s">Contact Us</a>.</p>\n"
+"<p>If you wish to extend your membership or have any questions regarding the above, please feel free to <a href=\"%s\">Contact Us</a>.</p>\n"
 "\n"
 "<p>Regards, %s Site Administrator</p>\n"
 msgstr "<p>%s さん</p>\n"
 "\n"
 "<p>あなたの %s における %s のメンバーシップは %s で終了します。</p>\n"
 "\n"
-"<p>あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>。</P>\n"
+"<p>あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は<a href=\"%s\">お気軽にお問い合わせください</a>。</P>\n"
 "\n"
 "<p>%s サイト管理者</p>\n"
 
@@ -14594,9 +14594,9 @@ msgstr "インスティテューション終了通知"
 msgctxt "lang/ja.utf8/mahara.php institutionexpirywarningtext_institution"
 msgid "Dear %s,\n"
 "\n"
-"%s's membership of %s will expire within %s.\n"
+"%s\'s membership of %s will expire within %s.\n"
 "\n"
-"If you wish to extend your institution's membership or have any questions regarding the above, please feel free to contact us:\n"
+"If you wish to extend your institution\'s membership or have any questions regarding the above, please feel free to contact us:\n"
 "\n"
 "%s\n"
 "\n"
@@ -14615,16 +14615,16 @@ msgstr "%s さん\n"
 msgctxt "lang/ja.utf8/mahara.php institutionexpirywarninghtml_institution"
 msgid "<p>Dear %s,</p>\n"
 "\n"
-"<p>%s's membership of %s will expire within %s.</p>\n"
+"<p>%s\'s membership of %s will expire within %s.</p>\n"
 "\n"
-"<p>If you wish to extend your institution's membership or have any questions regarding the above, please feel free to <a href="%s">Contact Us</a>.</p>\n"
+"<p>If you wish to extend your institution\'s membership or have any questions regarding the above, please feel free to <a href=\"%s\">Contact Us</a>.</p>\n"
 "\n"
 "<p>Regards, %s Site Administrator</p>\n"
 msgstr "<p>%s さん</p>\n"
 "\n"
 "<p>%s の %s におけるメンバーシップは %s で終了します。</p>\n"
 "\n"
-"<p>あなたのインスティテューションメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>。</P>\n"
+"<p>あなたのインスティテューションメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は<a href=\"%s\">お気軽にお問い合わせください</a>。</P>\n"
 "\n"
 "<p>%s サイト管理者</p>\n"
 
@@ -14632,7 +14632,7 @@ msgstr "<p>%s さん</p>\n"
 msgctxt "lang/ja.utf8/mahara.php institutionexpirywarningtext_site"
 msgid "Dear %s,\n"
 "\n"
-"The institution '%s' will expire within %s.\n"
+"The institution \'%s\' will expire within %s.\n"
 "\n"
 "You may wish to contact them to extend their membership of %s.\n"
 "\n"
@@ -14649,7 +14649,7 @@ msgstr "%s さん\n"
 msgctxt "lang/ja.utf8/mahara.php institutionexpirywarninghtml_site"
 msgid "<p>Dear %s,</p>\n"
 "\n"
-"<p>The institution '%s' will expire within %s.</p>\n"
+"<p>The institution \'%s\' will expire within %s.</p>\n"
 "\n"
 "<p>You may wish to contact them to extend their membership of %s.</p>\n"
 "\n"
@@ -14658,7 +14658,7 @@ msgstr "<p>%s さん</p>\n"
 "\n"
 "<p>インスティテューション「 %a 」は %s で終了します。</p>\n"
 "\n"
-"<p>%s のメンバーシップの有効期限を延長したい場合、<a href="%s">お問い合わせください</a>。</P>\n"
+"<p>%s のメンバーシップの有効期限を延長したい場合、<a href=\"%s\">お問い合わせください</a>。</P>\n"
 "\n"
 "<p>%s サイト管理者\n"
 
@@ -14846,8 +14846,8 @@ msgstr "あなたのセッションはタイムアウトしました。続ける
 
 #: lang/ja.utf8/mahara.php sessiontimedoutpublic
 msgctxt "lang/ja.utf8/mahara.php sessiontimedoutpublic"
-msgid "Your session has timed out. You may <a href="%s">log in</a> to continue browsing"
-msgstr "あなたのセッションはタイムアウトしました。閲覧を続けるには<a href="%s">ログイン</a>してください。"
+msgid "Your session has timed out. You may <a href=\"%s\">log in</a> to continue browsing"
+msgstr "あなたのセッションはタイムアウトしました。閲覧を続けるには<a href=\"%s\">ログイン</a>してください。"
 
 #: lang/ja.utf8/mahara.php sessiontimedoutreload
 msgctxt "lang/ja.utf8/mahara.php sessiontimedoutreload"
@@ -14966,13 +14966,13 @@ msgstr "ようこそ! このサイトを使用するには、最初にユーザ�
 
 #: lang/ja.utf8/mahara.php registeragreeterms
 msgctxt "lang/ja.utf8/mahara.php registeragreeterms"
-msgid "You must also agree to the <a href="terms.php">terms and conditions</a>."
-msgstr "また、あなたは<a href="terms.php">使用条件</a>に同意する必要があります。"
+msgid "You must also agree to the <a href=\"terms.php\">terms and conditions</a>."
+msgstr "また、あなたは<a href=\"terms.php\">使用条件</a>に同意する必要があります。"
 
 #: lang/ja.utf8/mahara.php registerprivacy
 msgctxt "lang/ja.utf8/mahara.php registerprivacy"
-msgid "The data we collect here will be stored according to our <a href="privacy.php">privacy statement</a>."
-msgstr "ここで収集したデータは私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。"
+msgid "The data we collect here will be stored according to our <a href=\"privacy.php\">privacy statement</a>."
+msgstr "ここで収集したデータは私たちの<a href=\"privacy.php\">プライバシー保護方針</a>に従って保存されます。"
 
 #: lang/ja.utf8/mahara.php registerstep3fieldsoptional
 msgctxt "lang/ja.utf8/mahara.php registerstep3fieldsoptional"
@@ -15016,7 +15016,7 @@ msgstr "言語"
 
 #: lang/ja.utf8/mahara.php cantchangepassword
 msgctxt "lang/ja.utf8/mahara.php cantchangepassword"
-msgid "Sorry, you are unable to change your password through this interface - please use your institution's interface instead"
+msgid "Sorry, you are unable to change your password through this interface - please use your institution\'s interface instead"
 msgstr "申し訳ございません、このインターフェース経由でパスワードを変更することはできません - 代わりに、あなたのインスティテューションのインターフェースを使用してください。"
 
 #: lang/ja.utf8/mahara.php forgotusernamepassword
@@ -15098,11 +15098,11 @@ msgid "<p>Dear %s,</p>\n"
 "\n"
 "<p>If you wish to reset your password, please follow the link below:</p>\n"
 "\n"
-"<p><a href="%s">%s</a></p>\n"
+"<p><a href=\"%s\">%s</a></p>\n"
 "\n"
 "<p>If you did not request a password reset, please ignore this email.</p>\n"
 "\n"
-"<p>If you have any questions regarding the above, please feel free to <a href="%s">contact us</a>.</p>\n"
+"<p>If you have any questions regarding the above, please feel free to <a href=\"%s\">contact us</a>.</p>\n"
 "\n"
 "<p>Regards, %s Site Administrator</p>\n"
 msgstr "<p>%s さん</p>\n"
@@ -15113,11 +15113,11 @@ msgstr "<p>%s さん</p>\n"
 "\n"
 "<p>あなたのパスワードをリセットしたい場合、下記のリンクをクリックしてください:</p>\n"
 "\n"
-"<p><a href="%s">%s</a></p>\n"
+"<p><a href=\"%s\">%s</a></p>\n"
 "\n"
 "<p>あなたがパスワードのリセットをリクエストしていない場合、このメールは無視してください。</p>\n"
 "\n"
-"<p>上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>。</p>\n"
+"<p>上記内容に関するご質問は<a href=\"%s\">お気軽にお問い合わせください</a>。</p>\n"
 "\n"
 "<p>%s サイト管理者</p>\n"
 
@@ -15133,7 +15133,7 @@ msgstr "このユーザに関して保存されているメールアドレス宛
 
 #: lang/ja.utf8/mahara.php forgotpassnosuchemailaddressorusername
 msgctxt "lang/ja.utf8/mahara.php forgotpassnosuchemailaddressorusername"
-msgid "The email address or username you entered doesn't match any users for this site"
+msgid "The email address or username you entered doesn\'t match any users for this site"
 msgstr "あなたが入力したメールアドレスはこのサイトのユーザに合致しません。"
 
 #: lang/ja.utf8/mahara.php forgotpasswordenternew
@@ -15201,13 +15201,13 @@ msgid "<p>Dear %s,</p>\n"
 "\n"
 "<p>Please follow the link below to continue the reset process.</p>\n"
 "\n"
-"<p><a href="%sforgotpass.php?key=%s">%sforgotpass.php?key=%s</a></p>\n"
+"<p><a href=\"%sforgotpass.php?key=%s\">%sforgotpass.php?key=%s</a></p>\n"
 "\n"
-"<p>If you have any questions regarding the above, please feel free to <a href="%scontact.php">contact us</a>.</p>\n"
+"<p>If you have any questions regarding the above, please feel free to <a href=\"%scontact.php\">contact us</a>.</p>\n"
 "\n"
 "<p>Regards, %s Site Administrator</p>\n"
 "\n"
-"<p><a href="%sforgotpass.php?key=%s">%sforgotpass.php?key=%s</a></p>\n"
+"<p><a href=\"%sforgotpass.php?key=%s\">%sforgotpass.php?key=%s</a></p>\n"
 msgstr "<p>%s さん</p>\n"
 "\n"
 "<p>あなたは %s のメンバーではなくなりました。</p> \n"
@@ -15215,17 +15215,17 @@ msgstr "<p>%s さん</p>\n"
 "\n"
 "<p>パスワードリセット処理を続けるには下記リンクをクリックしてください。</p>\n"
 "\n"
-"<p><a href="%sforgotpass.php?key=%s">%sforgotpass.php?key=%s</a></p>\n"
+"<p><a href=\"%sforgotpass.php?key=%s\">%sforgotpass.php?key=%s</a></p>\n"
 "\n"
-"<p>上記内容に関するご質問は<a href="%scontact.php">お気軽にお問い合わせください</a>。</p>\n"
+"<p>上記内容に関するご質問は<a href=\"%scontact.php\">お気軽にお問い合わせください</a>。</p>\n"
 "\n"
 "<p>%s サイト管理者</p>\n"
 "\n"
-"<p><a href="%sforgotpass.php?key=%s">%sforgotpass.php?key=%s</a></p>\n"
+"<p><a href=\"%sforgotpass.php?key=%s\">%sforgotpass.php?key=%s</a></p>\n"
 
 #: lang/ja.utf8/mahara.php debugemail
 msgctxt "lang/ja.utf8/mahara.php debugemail"
-msgid "NOTICE: This e-mail was intended for %s <%s> but has been sent to you as per the "sendallemailto" configuration setting."
+msgid "NOTICE: This e-mail was intended for %s <%s> but has been sent to you as per the \"sendallemailto\" configuration setting."
 msgstr "注意: このメールは%s <%s> 宛のメールですが、設定ファイルの「sendallemailto」設定により、あなたに送信されています。"
 
 #: lang/ja.utf8/mahara.php divertingemailto
@@ -15300,12 +15300,12 @@ msgstr "送信者名が送信されていません。"
 
 #: lang/ja.utf8/mahara.php emailnotsent
 msgctxt "lang/ja.utf8/mahara.php emailnotsent"
-msgid "Failed to send contact email. Error message: "%s""
+msgid "Failed to send contact email. Error message: \"%s\""
 msgstr "コンタクトメールの送信に失敗しました。エラーメッセージ: %s"
 
 #: lang/ja.utf8/mahara.php namedfieldempty
 msgctxt "lang/ja.utf8/mahara.php namedfieldempty"
-msgid "The required field "%s" is empty"
+msgid "The required field \"%s\" is empty"
 msgstr "必須入力フィールド「 %s 」が空白です。"
 
 #: lang/ja.utf8/mahara.php processing
@@ -15400,8 +15400,8 @@ msgstr "データベースアップグレードのため、サイトは一時的
 
 #: lang/ja.utf8/mahara.php siteclosedlogindisabled
 msgctxt "lang/ja.utf8/mahara.php siteclosedlogindisabled"
-msgid "The site is temporarily closed for a database upgrade.  <a href="%s">Perform the upgrade now.</a>"
-msgstr "データベースアップグレードのため、サイトは一時的に閉鎖されています。<a href="%s">今からアップグレードを実行します。</a>"
+msgid "The site is temporarily closed for a database upgrade.  <a href=\"%s\">Perform the upgrade now.</a>"
+msgstr "データベースアップグレードのため、サイトは一時的に閉鎖されています。<a href=\"%s\">今からアップグレードを実行します。</a>"
 
 #: lang/ja.utf8/mahara.php termsandconditions
 msgctxt "lang/ja.utf8/mahara.php termsandconditions"
@@ -16252,7 +16252,7 @@ msgstr "コスタリカ共和国"
 
 #: lang/ja.utf8/mahara.php country.ci
 msgctxt "lang/ja.utf8/mahara.php country.ci"
-msgid "Cote D'ivoire"
+msgid "Cote D\'ivoire"
 msgstr "コートジボワール共和国"
 
 #: lang/ja.utf8/mahara.php country.hr
@@ -16562,7 +16562,7 @@ msgstr "キリバス共和国"
 
 #: lang/ja.utf8/mahara.php country.kp
 msgctxt "lang/ja.utf8/mahara.php country.kp"
-msgid "Korea, Democratic People's Republic of"
+msgid "Korea, Democratic People\'s Republic of"
 msgstr "朝鮮民主主義人民共和国"
 
 #: lang/ja.utf8/mahara.php country.kr
@@ -16582,7 +16582,7 @@ msgstr "キルギスタン共和国"
 
 #: lang/ja.utf8/mahara.php country.la
 msgctxt "lang/ja.utf8/mahara.php country.la"
-msgid "Lao People's Democratic Republic"
+msgid "Lao People\'s Democratic Republic"
 msgstr "ラオス人民民主共和国"
 
 #: lang/ja.utf8/mahara.php country.lv
@@ -17312,7 +17312,7 @@ msgstr "プロファイルページを編集する"
 
 #: lang/ja.utf8/mahara.php usersprofile
 msgctxt "lang/ja.utf8/mahara.php usersprofile"
-msgid "%s's Profile"
+msgid "%s\'s Profile"
 msgstr "%s のプロファイル"
 
 #: lang/ja.utf8/mahara.php profiledescription
@@ -17332,7 +17332,7 @@ msgstr "編集"
 
 #: lang/ja.utf8/mahara.php usersdashboard
 msgctxt "lang/ja.utf8/mahara.php usersdashboard"
-msgid "%s's Dashboard"
+msgid "%s\'s Dashboard"
 msgstr "%s のダッシュボード"
 
 #: lang/ja.utf8/mahara.php dashboarddescription
@@ -17342,7 +17342,7 @@ msgstr "ダッシュボードページはあなたがログインして最初に
 
 #: lang/ja.utf8/mahara.php topicsimfollowing
 msgctxt "lang/ja.utf8/mahara.php topicsimfollowing"
-msgid "Topics I'm Following"
+msgid "Topics I\'m Following"
 msgstr "私がフォローしているトピック"
 
 #: lang/ja.utf8/mahara.php recentactivity
@@ -17392,23 +17392,23 @@ msgstr "あなたのポートフォリオを作成します。"
 
 #: lang/ja.utf8/mahara.php updateyourprofile
 msgctxt "lang/ja.utf8/mahara.php updateyourprofile"
-msgid "Update your <a href="%s">Profile</a>"
-msgstr "<a href="%s">プロファイル</a>を編集する"
+msgid "Update your <a href=\"%s\">Profile</a>"
+msgstr "<a href=\"%s\">プロファイル</a>を編集する"
 
 #: lang/ja.utf8/mahara.php uploadyourfiles
 msgctxt "lang/ja.utf8/mahara.php uploadyourfiles"
-msgid "Upload your <a href="%s">Files</a>"
-msgstr "<a href="%s">ファイル</a>をアップロードする"
+msgid "Upload your <a href=\"%s\">Files</a>"
+msgstr "<a href=\"%s\">ファイル</a>をアップロードする"
 
 #: lang/ja.utf8/mahara.php createyourresume
 msgctxt "lang/ja.utf8/mahara.php createyourresume"
-msgid "Create your <a href="%s">Resume</a>"
-msgstr "<a href="%s">レジュメ</a>を作成する"
+msgid "Create your <a href=\"%s\">Resume</a>"
+msgstr "<a href=\"%s\">レジュメ</a>を作成する"
 
 #: lang/ja.utf8/mahara.php publishablog
 msgctxt "lang/ja.utf8/mahara.php publishablog"
-msgid "Publish a <a href="%s">Journal</a>"
-msgstr "<a href="%s">日誌</a>を公開する"
+msgid "Publish a <a href=\"%s\">Journal</a>"
+msgstr "<a href=\"%s\">日誌</a>を公開する"
 
 #: lang/ja.utf8/mahara.php Organise
 msgctxt "lang/ja.utf8/mahara.php Organise"
@@ -17422,8 +17422,8 @@ msgstr "あなたのポートフォリオのショーケースです。"
 
 #: lang/ja.utf8/mahara.php organisedescription
 msgctxt "lang/ja.utf8/mahara.php organisedescription"
-msgid "Organise your portfolio into <a href="%s">pages.</a>  Create different pages for different audiences - you choose the elements to include."
-msgstr "あなたのポートフォリオを<a href="%s">ページ</a>に整理することができます。異なる閲覧者に対して、異なるページを作成します - あなたがページに含む構成要素を選択します。"
+msgid "Organise your portfolio into <a href=\"%s\">pages.</a>  Create different pages for different audiences - you choose the elements to include."
+msgstr "あなたのポートフォリオを<a href=\"%s\">ページ</a>に整理することができます。異なる閲覧者に対して、異なるページを作成します - あなたがページに含む構成要素を選択します。"
 
 #: lang/ja.utf8/mahara.php sharenetwork
 msgctxt "lang/ja.utf8/mahara.php sharenetwork"
@@ -17437,13 +17437,13 @@ msgstr "フレンドに会って、グループに参加します。"
 
 #: lang/ja.utf8/mahara.php findfriendslinked
 msgctxt "lang/ja.utf8/mahara.php findfriendslinked"
-msgid "Find <a href="%s">Friends</a>"
-msgstr "<a href="%s">フレンド</a>を探す"
+msgid "Find <a href=\"%s\">Friends</a>"
+msgstr "<a href=\"%s\">フレンド</a>を探す"
 
 #: lang/ja.utf8/mahara.php joingroups
 msgctxt "lang/ja.utf8/mahara.php joingroups"
-msgid "Join <a href="%s">Groups</a>"
-msgstr "<a href="%s">グループ</a>に参加する"
+msgid "Join <a href=\"%s\">Groups</a>"
+msgstr "<a href=\"%s\">グループ</a>に参加する"
 
 #: lang/ja.utf8/mahara.php sharenetworkdescription
 msgctxt "lang/ja.utf8/mahara.php sharenetworkdescription"
@@ -17452,8 +17452,8 @@ msgstr "<br />あなたのプライバシーをコントロールします。"
 
 #: lang/ja.utf8/mahara.php howtodisable
 msgctxt "lang/ja.utf8/mahara.php howtodisable"
-msgid "You have hidden the information box.  You can control its visibility in <a href="%s">Settings</a>."
-msgstr "* あなたはこのボックスの可視性を<a href="%s">設定</a>ページにてコントロールすることができます。"
+msgid "You have hidden the information box.  You can control its visibility in <a href=\"%s\">Settings</a>."
+msgstr "* あなたはこのボックスの可視性を<a href=\"%s\">設定</a>ページにてコントロールすることができます。"
 
 #: lang/ja.utf8/mahara.php setblocktitle
 msgctxt "lang/ja.utf8/mahara.php setblocktitle"
@@ -17602,7 +17602,7 @@ msgstr "終了日なし"
 
 #: lang/ja.utf8/pieforms.php rule.before.before
 msgctxt "lang/ja.utf8/pieforms.php rule.before.before"
-msgid "This can not be after the field "%s""
+msgid "This can not be after the field \"%s\""
 msgstr "フィールド「 %s 」の後に設定することはできません"
 
 #: lang/ja.utf8/pieforms.php rule.email.email
@@ -17642,7 +17642,7 @@ msgstr "このフィールドは必須入力フィールドです。"
 
 #: lang/ja.utf8/pieforms.php rule.validateoptions.validateoptions
 msgctxt "lang/ja.utf8/pieforms.php rule.validateoptions.validateoptions"
-msgid "The option "%s" is invalid"
+msgid "The option \"%s\" is invalid"
 msgstr "オプション「 %s 」が正しくありません"
 
 #: lang/ja.utf8/pieforms.php rule.maxvalue.maxvalue
@@ -17722,12 +17722,12 @@ msgstr "アクセス日時"
 
 #: lang/ja.utf8/view.php newstopdatecannotbeinpast
 msgctxt "lang/ja.utf8/view.php newstopdatecannotbeinpast"
-msgid "The end date for '%s' access cannot be in the past"
+msgid "The end date for \'%s\' access cannot be in the past"
 msgstr "「 %s 」へのアクセス終了日には過去の日付を設定できません。"
 
 #: lang/ja.utf8/view.php newstartdatemustbebeforestopdate
 msgctxt "lang/ja.utf8/view.php newstartdatemustbebeforestopdate"
-msgid "The start date for '%s' access must be before the end date"
+msgid "The start date for \'%s\' access must be before the end date"
 msgstr "「 %s 」へのアクセス開始日は終了日の前に設定してください。"
 
 #: lang/ja.utf8/view.php unrecogniseddateformat
@@ -17857,13 +17857,13 @@ msgstr "ページ"
 
 #: lang/ja.utf8/view.php viewsubmittedtogroup
 msgctxt "lang/ja.utf8/view.php viewsubmittedtogroup"
-msgid "This page has been submitted to <a href="%s">%s</a>"
-msgstr "このページは<a href="%s">%s</a>に送信されました。"
+msgid "This page has been submitted to <a href=\"%s\">%s</a>"
+msgstr "このページは<a href=\"%s\">%s</a>に送信されました。"
 
 #: lang/ja.utf8/view.php viewsubmittedtogroupon
 msgctxt "lang/ja.utf8/view.php viewsubmittedtogroupon"
-msgid "This page was submitted to <a href="%s">%s</a> on %s"
-msgstr "このページは<a href="%s">%s</a>に対して %s に送信されました。"
+msgid "This page was submitted to <a href=\"%s\">%s</a> on %s"
+msgstr "このページは<a href=\"%s\">%s</a>に対して %s に送信されました。"
 
 #: lang/ja.utf8/view.php nobodycanseethisview2
 msgctxt "lang/ja.utf8/view.php nobodycanseethisview2"
@@ -17882,7 +17882,7 @@ msgstr "あなたのページはありません。"
 
 #: lang/ja.utf8/view.php youhaventcreatedanyviewsyet
 msgctxt "lang/ja.utf8/view.php youhaventcreatedanyviewsyet"
-msgid "You haven't created any pages yet."
+msgid "You haven\'t created any pages yet."
 msgstr "あなたはまだページを作成していません。"
 
 #: lang/ja.utf8/view.php youhaveoneview
@@ -17922,13 +17922,13 @@ msgstr "このグループにページを送信する"
 
 #: lang/ja.utf8/view.php youhavesubmitted
 msgctxt "lang/ja.utf8/view.php youhavesubmitted"
-msgid "You have submitted <a href="%s">%s</a> to this group"
-msgstr "あなたはこのグループに <a href="%s">%s</a> を送信しました。"
+msgid "You have submitted <a href=\"%s\">%s</a> to this group"
+msgstr "あなたはこのグループに <a href=\"%s\">%s</a> を送信しました。"
 
 #: lang/ja.utf8/view.php youhavesubmittedon
 msgctxt "lang/ja.utf8/view.php youhavesubmittedon"
-msgid "You submitted <a href="%s">%s</a> to this group on %s"
-msgstr "あなたはこのグループに対して、<a href="%s">%s</a> を %s　%s に送信しました。"
+msgid "You submitted <a href=\"%s\">%s</a> to this group on %s"
+msgstr "あなたはこのグループに対して、<a href=\"%s\">%s</a> を %s　%s に送信しました。"
 
 #: lang/ja.utf8/view.php public
 msgctxt "lang/ja.utf8/view.php public"
@@ -18047,7 +18047,7 @@ msgstr "このページはすでにあなたのウォッチリストに登録さ
 
 #: lang/ja.utf8/view.php attachedfileaddedtofolder
 msgctxt "lang/ja.utf8/view.php attachedfileaddedtofolder"
-msgid "The attached file %s has been added to your '%s' folder."
+msgid "The attached file %s has been added to your \'%s\' folder."
 msgstr "添付ファイル「 %s 」が、あなたの「 %s 」フォルダに追加されました。"
 
 #: lang/ja.utf8/view.php complaint
@@ -18177,12 +18177,12 @@ msgstr "すべてのページ"
 
 #: lang/ja.utf8/view.php submitviewconfirm
 msgctxt "lang/ja.utf8/view.php submitviewconfirm"
-msgid "If you submit '%s' to '%s' for assessment, you will not be able to edit the page until your tutor has finished marking it.  Are you sure you want to submit this page now?"
+msgid "If you submit \'%s\' to \'%s\' for assessment, you will not be able to edit the page until your tutor has finished marking it.  Are you sure you want to submit this page now?"
 msgstr "あなたが「 %s 」を「 %s 」に評価のため送信する場合、チューターによるページの採点完了まで、あなたのページを編集することができません。本当にこのページを送信してもよろしいですか?"
 
 #: lang/ja.utf8/view.php submitviewtogroup
 msgctxt "lang/ja.utf8/view.php submitviewtogroup"
-msgid "Submit '%s' to '%s' for assessment"
+msgid "Submit \'%s\' to \'%s\' for assessment"
 msgstr "評価のため「 %s 」を「 %s 」に送信する"
 
 #: lang/ja.utf8/view.php cantsubmitviewtogroup
@@ -18202,7 +18202,7 @@ msgstr "ページ「 %s 」を削除する"
 
 #: lang/ja.utf8/view.php deleteviewconfirm
 msgctxt "lang/ja.utf8/view.php deleteviewconfirm"
-msgid "Do you really want to delete this page? It cannot be undone.<br/>Please consider creating a backup of this page by <a href="%sexport/" target="_blank">exporting</a> it."
+msgid "Do you really want to delete this page? It cannot be undone.<br/>Please consider creating a backup of this page by <a href=\"%sexport/\" target=\"_blank\">exporting</a> it."
 msgstr "本当にこのページを削除してもよろしいですか? 元に戻すことはできません。"
 
 #: lang/ja.utf8/view.php deleteviewconfirmnote
@@ -18247,12 +18247,12 @@ msgstr "ページ情報が正常に保存されました。"
 
 #: lang/ja.utf8/view.php canteditdontown
 msgctxt "lang/ja.utf8/view.php canteditdontown"
-msgid "You can't edit this page because you don't own it"
+msgid "You can\'t edit this page because you don\'t own it"
 msgstr "あなたの所有ではないため、このページを編集できません。"
 
 #: lang/ja.utf8/view.php canteditsubmitted
 msgctxt "lang/ja.utf8/view.php canteditsubmitted"
-msgid "You can't edit this page because it has been submitted for assessment to "%s". You will have to wait until a tutor releases the page."
+msgid "You can\'t edit this page because it has been submitted for assessment to \"%s\". You will have to wait until a tutor releases the page."
 msgstr "%s による評価を目的として送信されたため、あなたはこのページを編集することはできません。あなたのページをチューターがリリースするまで、お待ちください。"
 
 #: lang/ja.utf8/view.php Submitted
@@ -18512,7 +18512,7 @@ msgstr "あなたのページカラムをどのように配置するか選択し
 
 #: lang/ja.utf8/view.php changeviewlayout
 msgctxt "lang/ja.utf8/view.php changeviewlayout"
-msgid "Change my page's column layout"
+msgid "Change my page\'s column layout"
 msgstr "マイページのカラムレイアウトを変更する"
 
 #: lang/ja.utf8/view.php viewlayoutchanged
@@ -18538,7 +18538,7 @@ msgstr "by"
 #: lang/ja.utf8/view.php viewtitleby
 msgctxt "lang/ja.utf8/view.php viewtitleby"
 msgid "%s by <a href="
-msgstr "%s by <a href="%s">%s</a>"
+msgstr "%s by <a href=\"%s\">%s</a>"
 
 #: lang/ja.utf8/view.php in
 msgctxt "lang/ja.utf8/view.php in"
@@ -18707,18 +18707,18 @@ msgstr "このチェックボックスをチェックした場合、あなたの
 
 #: lang/ja.utf8/view.php choosetemplatepagedescription
 msgctxt "lang/ja.utf8/view.php choosetemplatepagedescription"
-msgid "<p>Here you can search through the pages that you are allowed to copy as a starting point for making a new page. You can see a preview of each page by clicking on its name. Once you have found the page you wish to copy, click the corresponding "Copy Page" button to make a copy and begin customising it.</p>"
+msgid "<p>Here you can search through the pages that you are allowed to copy as a starting point for making a new page. You can see a preview of each page by clicking on its name. Once you have found the page you wish to copy, click the corresponding \"Copy Page\" button to make a copy and begin customising it.</p>"
 msgstr "<p>ここでは新しいページ作成の出発点として、あなたがコピーを許可されているページを検索することができます。ページの名称をクリックすることで、あなたはそれぞれのページのプレビューを表示することができます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため、該当する「ページをコピーする」ボタンをクリックして、コピーされたページの修正を開始してください。</p>"
 
 #: lang/ja.utf8/view.php choosetemplategrouppagedescription
 msgctxt "lang/ja.utf8/view.php choosetemplategrouppagedescription"
-msgid "<p>Here you can search through the pages that this group is allowed to copy as a starting point for making a new page. You can see a preview of each page by clicking on its name. Once you have found the page you wish to copy, click the corresponding "Copy Page" button to make a copy and begin customising it.</p><p><strong>Note:</strong> Groups cannot currently make copies of Journals or Journal Entriess.</p>"
+msgid "<p>Here you can search through the pages that this group is allowed to copy as a starting point for making a new page. You can see a preview of each page by clicking on its name. Once you have found the page you wish to copy, click the corresponding \"Copy Page\" button to make a copy and begin customising it.</p><p><strong>Note:</strong> Groups cannot currently make copies of Journals or Journal Entriess.</p>"
 msgstr "<p>ここでは新しいページ作成の出発点として、このグループがコピーを許可されているページを検索することができます。ページの名称をクリックすることで、あなたはそれぞれのページのプレビューを表示することができます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため、該当する「ページをコピーする」ボタンをクリックして、コピーされたページの修正を開始してください。</p>\n"
 "<p><strong>注意:</strong> 現在、グループでは日誌または日誌エントリをコピーすることはできません。</p>\n"
 
 #: lang/ja.utf8/view.php choosetemplateinstitutionpagedescription
 msgctxt "lang/ja.utf8/view.php choosetemplateinstitutionpagedescription"
-msgid "<p>Here you can search through the pages that this institution is allowed to copy as a starting point for making a new page. You can see a preview of each page by clicking on its name. Once you have found the page you wish to copy, click the corresponding "Copy Page" button to make a copy and begin customising it.</p><p><strong>Note:</strong> Institutions cannot currently make copies of Journals or Journal Entries.</p>"
+msgid "<p>Here you can search through the pages that this institution is allowed to copy as a starting point for making a new page. You can see a preview of each page by clicking on its name. Once you have found the page you wish to copy, click the corresponding \"Copy Page\" button to make a copy and begin customising it.</p><p><strong>Note:</strong> Institutions cannot currently make copies of Journals or Journal Entries.</p>"
 msgstr "<p>ここでは新しいページ作成の出発点として、このインスティテューションがコピーを許可されているページを検索することができます。ページの名称をクリックすることで、あなたはそれぞれのページのプレビューを表示することができます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため、該当する「ページをコピーする」ボタンをクリックして、コピーされたページの修正を開始してください。</p>\n"
 "<p><strong>注意:</strong> 現在、インスティテューションでは日誌または日誌エントリをコピーすることはできません。</p>\n"
 
@@ -18779,7 +18779,7 @@ msgstr "新しいユーザにコピーする"
 
 #: lang/ja.utf8/view.php copyfornewusersdescription
 msgctxt "lang/ja.utf8/view.php copyfornewusersdescription"
-msgid "Whenever a new user is created, automatically make a personal copy of this page in the user's portfolio."
+msgid "Whenever a new user is created, automatically make a personal copy of this page in the user\'s portfolio."
 msgstr "新しいユーザが作成された場合、このページをユーザポートフォリオ内にパーソナルコピーとして自動作成します。"
 
 #: lang/ja.utf8/view.php copyfornewmembers
