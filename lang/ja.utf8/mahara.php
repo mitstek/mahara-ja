@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-05 19:07:04 UTC
+ * @updated    2011-07-19 11:36:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -823,7 +823,6 @@ $string['remotehost'] = 'リモートホスト %s';
 $string['Copyof'] = '%s のコピー';
 $string['loggedinusersonly'] = 'ログインユーザのみ';
 $string['allowpublicaccess'] = 'パブリックアクセス (ログインなし) を許可する';
-$string['thisistheprofilepagefor'] = 'これは%s のプロファイルページです。';
 $string['viewmyprofilepage'] = 'プロファイルページを表示する';
 $string['editmyprofilepage'] = 'プロファイルページを編集する';
 $string['usersprofile'] = '%s のプロファイル';

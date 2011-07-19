@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-14 00:53:37 UTC
+ * @updated    2011-07-19 11:36:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -35,7 +35,6 @@ $string['achievements'] = '業績';
 $string['goals'] = 'ゴール';
 $string['skills'] = 'スキル';
 $string['interests'] = '興味';
-$string['myresume'] = 'マイレジュメ';
 $string['mygoals'] = 'マイゴール';
 $string['myskills'] = 'マイスキル';
 $string['coverletter'] = 'カバーレター';
@@ -77,7 +76,6 @@ $string['compositedeleteconfirm'] = '本当にこれを削除してもよろし�
 $string['compositesaved'] = '正常に保存されました。';
 $string['compositesavefailed'] = '保存に失敗しました。';
 $string['compositedeleted'] = '正常に削除されました。';
-$string['backtoresume'] = 'マイレジュメに戻る';
 $string['personalgoal'] = 'パーソナルゴール';
 $string['academicgoal'] = 'アカデミックゴール';
 $string['careergoal'] = 'キャリアゴール';
