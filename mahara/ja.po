@@ -1,22 +1,18 @@
-# Japanese translation for mahara-lang
-# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
-# This file is distributed under the same license as the mahara-lang package.
-# Mitsuhiro Yoshida <mits@mitstek.com>, 2008 onwards.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: mahara-lang\n"
-"Report-Msgid-Bugs-To: Mitsuhiro Yoshida <mits@mitstek.com>\n"
-"POT-Creation-Date: 2011-07-07 07:07-0500\n"
-"PO-Revision-Date: 2011-07-19 01:50+0900\n"
-"Last-Translator: \n"
-"Language-Team: Mitsuhiro Yoshida <mits@mitstek.com>\n"
+"Project-Id-Version: mahara\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/mahara\n"
+"POT-Creation-Date: 2011-07-18 07:52-0500\n"
+"PO-Revision-Date: 2011-07-13 04:56+0000\n"
+"Last-Translator: Mitsuhiro Yoshida <mits@mitstek.com>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-18 16:50+0000\n"
-"X-Generator: Launchpad (build 13376)\n"
+"X-Launchpad-Export-Date: 2011-07-19 10:49+0000\n"
+"X-Generator: Launchpad (build 13453)\n"
 
+"Language: \n"
 #: artefact/blog/blocktype/blog/lang/ja.utf8/blocktype.blog.php title
 msgctxt "artefact/blog/blocktype/blog/lang/ja.utf8/blocktype.blog.php title"
 msgid "Blog"
@@ -207,6 +203,11 @@ msgctxt "artefact/blog/lang/ja.utf8/artefact.blog.php commentsallowed"
 msgid "Comments"
 msgstr "コメント"
 
+#: artefact/blog/lang/ja.utf8/artefact.blog.php commentsalloweddesc
+msgctxt "artefact/blog/lang/ja.utf8/artefact.blog.php commentsalloweddesc"
+msgid ""
+msgstr ""
+
 #: artefact/blog/lang/ja.utf8/artefact.blog.php commentsallowedno
 msgctxt "artefact/blog/lang/ja.utf8/artefact.blog.php commentsallowedno"
 msgid "Do not allow comments on this blog"
@@ -335,6 +336,8 @@ msgstr "マイブログ"
 #: artefact/blog/lang/ja.utf8/artefact.blog.php name
 msgctxt "artefact/blog/lang/ja.utf8/artefact.blog.php name"
 msgid "Name"
+msgstr ""
+
 #: artefact/blog/lang/ja.utf8/artefact.blog.php newattachmentsexceedquota
 msgctxt "artefact/blog/lang/ja.utf8/artefact.blog.php newattachmentsexceedquota"
 msgid "The total size of the new files that you have uploaded to this post would exceed your quota.  You may be able to save the post if you remove some of the attachments you have just added."
@@ -374,6 +377,11 @@ msgstr "ブログ投稿はありません。"
 msgctxt "artefact/blog/lang/ja.utf8/artefact.blog.php postbody"
 msgid "Body"
 msgstr "本文"
+
+#: artefact/blog/lang/ja.utf8/artefact.blog.php postbodydesc
+msgctxt "artefact/blog/lang/ja.utf8/artefact.blog.php postbodydesc"
+msgid ""
+msgstr ""
 
 #: artefact/blog/lang/ja.utf8/artefact.blog.php postedon
 msgctxt "artefact/blog/lang/ja.utf8/artefact.blog.php postedon"
@@ -5607,6 +5615,11 @@ msgctxt "lang/ja.utf8/admin.php addnewmembers"
 msgid "Add new members"
 msgstr "新しいメンバーを追加する"
 
+#: lang/ja.utf8/admin.php addnewmembersdescription
+msgctxt "lang/ja.utf8/admin.php addnewmembersdescription"
+msgid ""
+msgstr ""
+
 #: lang/ja.utf8/admin.php usersrequested
 msgctxt "lang/ja.utf8/admin.php usersrequested"
 msgid "Users who have requested membership"
@@ -8373,6 +8386,11 @@ msgctxt "lang/ja.utf8/install.php uploadcopyrightdefaultcontent"
 msgid "Yes: The file I am attempting to upload is my own or I have express permission to reproduce and/or distribute this item.  My use of this file does not breach any of my local Copyright legislation. This file also adheres to the Terms and Conditions outlined on this site."
 msgstr "はい: 私がアップロードを試みているファイルは私に所有権があるファイル、または私に複製および配布が明確に許可されたファイルです。私がこのファイルを使用することで、国内の著作権法を侵害することはありません。また、このファイルはサイトの使用条件に合致しています。"
 
+#: lang/ja.utf8/langconfig.php parentlanguage
+msgctxt "lang/ja.utf8/langconfig.php parentlanguage"
+msgid ""
+msgstr ""
+
 #: lang/ja.utf8/langconfig.php strftimedate
 msgctxt "lang/ja.utf8/langconfig.php strftimedate"
 msgid "%%d %%B %%Y"
@@ -9082,6 +9100,11 @@ msgctxt "lang/ja.utf8/mahara.php password"
 msgid "Password"
 msgstr "パスワード"
 
+#: lang/ja.utf8/mahara.php passworddescription
+msgctxt "lang/ja.utf8/mahara.php passworddescription"
+msgid ""
+msgstr ""
+
 #: lang/ja.utf8/mahara.php passwordhelp
 msgctxt "lang/ja.utf8/mahara.php passwordhelp"
 msgid "The password you use to access the system"
@@ -9136,6 +9159,11 @@ msgstr "ユーザ名"
 msgctxt "lang/ja.utf8/mahara.php preferredname"
 msgid "Preferred Name"
 msgstr "ニックネーム"
+
+#: lang/ja.utf8/mahara.php usernamedescription
+msgctxt "lang/ja.utf8/mahara.php usernamedescription"
+msgid ""
+msgstr ""
 
 #: lang/ja.utf8/mahara.php usernamehelp
 msgctxt "lang/ja.utf8/mahara.php usernamehelp"
@@ -9202,15 +9230,30 @@ msgctxt "lang/ja.utf8/mahara.php emailaddress"
 msgid "Email address"
 msgstr "メールアドレス"
 
+#: lang/ja.utf8/mahara.php emailaddressdescription
+msgctxt "lang/ja.utf8/mahara.php emailaddressdescription"
+msgid ""
+msgstr ""
+
 #: lang/ja.utf8/mahara.php firstname
 msgctxt "lang/ja.utf8/mahara.php firstname"
 msgid "First name"
 msgstr "名"
 
+#: lang/ja.utf8/mahara.php firstnamedescription
+msgctxt "lang/ja.utf8/mahara.php firstnamedescription"
+msgid ""
+msgstr ""
+
 #: lang/ja.utf8/mahara.php lastname
 msgctxt "lang/ja.utf8/mahara.php lastname"
 msgid "Last name"
 msgstr "姓"
+
+#: lang/ja.utf8/mahara.php lastnamedescription
+msgctxt "lang/ja.utf8/mahara.php lastnamedescription"
+msgid ""
+msgstr ""
 
 #: lang/ja.utf8/mahara.php studentid
 msgctxt "lang/ja.utf8/mahara.php studentid"
@@ -9964,6 +10007,8 @@ msgstr "アーティファクトが提出されていません。"
 #: lang/ja.utf8/mahara.php belongingto
 msgctxt "lang/ja.utf8/mahara.php belongingto"
 msgid "Belonging to"
+msgstr ""
+
 #: lang/ja.utf8/mahara.php allusers
 msgctxt "lang/ja.utf8/mahara.php allusers"
 msgid "All users"
