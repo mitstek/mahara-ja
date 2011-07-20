@@ -11,8 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2011-07-20 17:01+0000\n"
 "X-Generator: Launchpad (build 13468)\n"
-
 "Language: \n"
+
 #: artefact/blog/blocktype/blog/lang/en.utf8/blocktype.blog.php title
 msgctxt "artefact/blog/blocktype/blog/lang/en.utf8/blocktype.blog.php title"
 msgid "Blog"
