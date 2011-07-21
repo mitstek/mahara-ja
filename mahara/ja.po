@@ -4585,12 +4585,12 @@ msgstr "ユーザ接続のインスティテューションが解決されませ
 #: auth/saml/lang/en.utf8/auth.saml.php errorbadssphp
 msgctxt "auth/saml/lang/en.utf8/auth.saml.php errorbadssphp"
 msgid "Invalid SimpleSAMLphp session handler - must not be phpsession"
-msgstr ""
+msgstr "無効なSimpleSAMLphpセッションハンドラです - PHPセッションを使用しないでください。"
 
 #: auth/saml/lang/en.utf8/auth.saml.php errorbadssphplib
 msgctxt "auth/saml/lang/en.utf8/auth.saml.php errorbadssphplib"
 msgid "Invalid SimpleSAMLphp library configuration"
-msgstr ""
+msgstr "無効なSimpleSAML phpライブラリ設定です。"
 
 #: auth/saml/lang/en.utf8/auth.saml.php errorretryexceeded
 msgctxt "auth/saml/lang/en.utf8/auth.saml.php errorretryexceeded"
@@ -4635,27 +4635,27 @@ msgstr "属性をチェックするためのインスティテューション値
 #: auth/saml/lang/en.utf8/auth.saml.php link
 msgctxt "auth/saml/lang/en.utf8/auth.saml.php link"
 msgid "Link acounts"
-msgstr ""
+msgstr "アカウントをリンクする"
 
 #: auth/saml/lang/en.utf8/auth.saml.php linkaccounts
 msgctxt "auth/saml/lang/en.utf8/auth.saml.php linkaccounts"
 msgid "Do you want to link remote account %s with local account %s ?"
-msgstr ""
+msgstr "リモートアカウント %s をローカルアカウント %s とリンクしてもよろしいですか?"
 
 #: auth/saml/lang/en.utf8/auth.saml.php loginlink
 msgctxt "auth/saml/lang/en.utf8/auth.saml.php loginlink"
 msgid "Allow users to link own account"
-msgstr ""
+msgstr "ユーザにアカウントのリンクを許可する"
 
 #: auth/saml/lang/en.utf8/auth.saml.php logintolink
 msgctxt "auth/saml/lang/en.utf8/auth.saml.php logintolink"
 msgid "Local login to %s to link to remote account"
-msgstr ""
+msgstr "リモートアカウントにリンクするため、 %s にローカルログインする"
 
 #: auth/saml/lang/en.utf8/auth.saml.php logintolinkdesc
 msgctxt "auth/saml/lang/en.utf8/auth.saml.php logintolinkdesc"
 msgid "<p><b>You are currently connected with remote user %s.  Please login with your local account to link them together, or register if you do not currently have an account on %s.</b></p>"
-msgstr ""
+msgstr "<p><b>現在、あなたはリモートユーザ %s としてログインしています。リモートアカウントとリンクするために、あなたのローカルアカウントを使ってログインしてください。あなたが %s にアカウントを持っていない場合、ユーザ登録してください。</b></p>"
 
 #: auth/saml/lang/en.utf8/auth.saml.php institutionregex
 msgctxt "auth/saml/lang/en.utf8/auth.saml.php institutionregex"
@@ -4665,7 +4665,7 @@ msgstr "インスティテューション省略名を部分的に文字列一致
 #: auth/saml/lang/en.utf8/auth.saml.php login
 msgctxt "auth/saml/lang/en.utf8/auth.saml.php login"
 msgid "SSO Login"
-msgstr ""
+msgstr "SSOログイン"
 
 #: auth/saml/lang/en.utf8/auth.saml.php notusable
 msgctxt "auth/saml/lang/en.utf8/auth.saml.php notusable"
@@ -4770,6 +4770,15 @@ msgid ""
 msgstr ""
 "<h3>インスティテューションチェック値</h3>\n"
 "<p>これは、アイデンティティプロバイダ (IdP) から渡された、どのインスティテューションにユーザが属しているか示す属性値に関して、チェックされる値です。インスティテューション正規表現のチェックボックスがチェックされた場合、インスティテューション属性値のチェックに使用するため、この値を正規表現にすることができます。</p>\n"
+
+#: auth/saml/lang/en.utf8/help/forms/auth_config.loginlink.html
+msgctxt "auth/saml/lang/en.utf8/help/forms/auth_config.loginlink.html"
+msgid ""
+"<h3>Login Link</h3>\n"
+"<p>Allow users to link their own local Mahara accout to the authenticated SAML account.  This depends on the Remote User option being enabled. </p>\n"
+msgstr ""
+"<h3>ログインリンク</h3>\n"
+"<p>ユーザに対して、自身のローカルMaharaアカウントをSAML認証アカウントとリンクできるようにします。これはリモートユーザオプションが有効にされていることに依存します。</p>\n"
 
 #: auth/saml/lang/en.utf8/help/forms/auth_config.remoteuser.html
 msgctxt "auth/saml/lang/en.utf8/help/forms/auth_config.remoteuser.html"
@@ -13788,6 +13797,32 @@ msgstr ""
 "<p>ユーザのEメールが無効にされた場合、内蔵のメッセージングシステムを使用してメッセージを受信することができます。</p>\n"
 "<p>あなたの設定に応じてEメールが送信者に返送された場合、Eメールは自動的に無効にされる可能性があります。</p>\n"
 
+#: lang/en.utf8/help/forms/edituser_site.remoteusername.html
+msgctxt "lang/en.utf8/help/forms/edituser_site.remoteusername.html"
+msgid ""
+"<h3>Username for external authentication</h3>\n"
+"<p>When a user is authenticated by some service external to Mahara,\n"
+"this field contains the identifier for the user on the remote service.\n"
+"It is possible for a user to have several remote usernames stored in\n"
+"Mahara, but each one must be associated with a different external\n"
+"authentication method.</p>\n"
+"<p>The current rules for the update of this field are as follows:</p>\n"
+"<ul>\n"
+"  <li>If you wipe the contents of this field and submit, any external\n"
+"  username associated with this user and the selected authentication\n"
+"  method will be deleted.</li>\n"
+"  <li>If you update the contents of this field to anything other than\n"
+"  the default, the external username will be reset, or a new one will\n"
+"  be created if it doesn't exist yet.</li>\n"
+"  <li>If you leave the contents of this field on the default and\n"
+"  submit, a new external username will be created if one doesn't exist\n"
+"  yet.  However, if the user already has an external username for the\n"
+"  selected authentication method, and it's different to the default,\n"
+"  it will not be overwritten.</li>\n"
+"</ul>\n"
+msgstr ""
+"\n"
+
 #: lang/en.utf8/help/forms/edituser_site.staff.html
 msgctxt "lang/en.utf8/help/forms/edituser_site.staff.html"
 msgid ""
@@ -19548,7 +19583,7 @@ msgstr "アクセス数: %s  記録: %s - %s"
 #: lang/en.utf8/view.php profilenotshared
 msgctxt "lang/en.utf8/view.php profilenotshared"
 msgid "Full access to this user profile is restricted."
-msgstr ""
+msgstr "このユーザプロファイルに対するフルアクセスは制限されています。"
 
 #: lang/en.utf8/view.php friend
 msgctxt "lang/en.utf8/view.php friend"

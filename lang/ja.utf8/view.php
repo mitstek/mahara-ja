@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-19 11:36:42 UTC
+ * @updated    2011-07-21 18:09:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -123,6 +123,7 @@ $string['viewunobjectionablebody'] = '% (%s) が %s によって確認され、�
 $string['updatewatchlistfailed'] = 'ウォッチリストの更新に失敗しました。';
 $string['watchlistupdated'] = 'あなたのウォッチリストが更新されました。';
 $string['viewvisitcount'] = 'アクセス数: %s  記録: %s - %s';
+$string['profilenotshared'] = 'このユーザプロファイルに対するフルアクセスは制限されています。';
 $string['friend'] = 'フレンド';
 $string['profileicon'] = 'プロファイル写真';
 $string['Added'] = '追加済み';

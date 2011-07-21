@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-03-02 14:16:08 UTC
+ * @updated    2011-07-21 18:39:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -31,6 +31,8 @@ defined('INTERNAL') || die();
 $string['defaultinstitution'] = 'デフォルトインスティテューション';
 $string['description'] = 'SAML 2.0 IdPサービスで認証する';
 $string['errorbadinstitution'] = 'ユーザ接続のインスティテューションが解決されませんでした。';
+$string['errorbadssphp'] = '無効なSimpleSAMLphpセッションハンドラです - PHPセッションを使用しないでください。';
+$string['errorbadssphplib'] = '無効なSimpleSAML phpライブラリ設定です。';
 $string['errorretryexceeded'] = '再試行の最大回数 (%s) を越えました - アイデンティティサービスに問題があります。';
 $string['errnosamluser'] = 'ユーザが見つかりませんでした。';
 $string['errorbadlib'] = 'SimpleSAMLPHPライブラリディレクトリ「 %s 」が正しくありません。';
@@ -39,7 +41,13 @@ $string['errorbadcombo'] = 'リモートユーザを選択していない場合�
 $string['errormissinguserattributes'] = 'あなたは認証されたようですが、私たちは必要なユーザ属性を受信していません。あなたのアイデンティティプロバイダ (IdP) が、姓名およびメールアドレスに対するSSOフィールドをMaharaの動作しているサービスプロバイダにリリースしているか確認してください。または、このサーバのウェブマスタにご連絡ください。';
 $string['institutionattribute'] = 'インスティテューション属性 (%s を含む)';
 $string['institutionvalue'] = '属性をチェックするためのインスティテューション値';
+$string['link'] = 'アカウントをリンクする';
+$string['linkaccounts'] = 'リモートアカウント %s をローカルアカウント %s とリンクしてもよろしいですか?';
+$string['loginlink'] = 'ユーザにアカウントのリンクを許可する';
+$string['logintolink'] = 'リモートアカウントにリンクするため、 %s にローカルログインする';
+$string['logintolinkdesc'] = '<p><b>現在、あなたはリモートユーザ %s としてログインしています。リモートアカウントとリンクするために、あなたのローカルアカウントを使ってログインしてください。あなたが %s にアカウントを持っていない場合、ユーザ登録してください。</b></p>';
 $string['institutionregex'] = 'インスティテューション省略名を部分的に文字列一致させる';
+$string['login'] = 'SSOログイン';
 $string['notusable'] = 'SimpleSAMLPHP SPライブラリをインストールしてください。';
 $string['samlfieldforemail'] = 'メールアドレスのSSOフィールド';
 $string['samlfieldforfirstname'] = '名のSSOフィールド';
