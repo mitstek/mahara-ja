@@ -1764,7 +1764,7 @@ msgstr "このフォルダは空ではありません。"
 #: artefact/file/lang/en.utf8/artefact.file.php foldercontainsprofileicons
 msgctxt "artefact/file/lang/en.utf8/artefact.file.php foldercontainsprofileicons"
 msgid "The folder contains %s profile picture(s)."
-msgstr ""
+msgstr "フォルダには %s 個のプロファイル写真を含みます。"
 
 #: artefact/file/lang/en.utf8/artefact.file.php foldercreated
 msgctxt "artefact/file/lang/en.utf8/artefact.file.php foldercreated"
@@ -1814,12 +1814,12 @@ msgstr "イメージ"
 #: artefact/file/lang/en.utf8/artefact.file.php imagesdir
 msgctxt "artefact/file/lang/en.utf8/artefact.file.php imagesdir"
 msgid "images"
-msgstr ""
+msgstr "イメージ"
 
 #: artefact/file/lang/en.utf8/artefact.file.php imagesdirdesc
 msgctxt "artefact/file/lang/en.utf8/artefact.file.php imagesdirdesc"
 msgid "Image files"
-msgstr ""
+msgstr "イメージファイル"
 
 #: artefact/file/lang/en.utf8/artefact.file.php lastmodified
 msgctxt "artefact/file/lang/en.utf8/artefact.file.php lastmodified"
@@ -2329,7 +2329,7 @@ msgstr "デフォルト"
 #: artefact/file/lang/en.utf8/artefact.file.php defaultprofileicon
 msgctxt "artefact/file/lang/en.utf8/artefact.file.php defaultprofileicon"
 msgid "This is currently set as your default profile picture."
-msgstr ""
+msgstr "現在、あなたのデフォルトプロファイル写真に設定されています。"
 
 #: artefact/file/lang/en.utf8/artefact.file.php deleteselectedicons
 msgctxt "artefact/file/lang/en.utf8/artefact.file.php deleteselectedicons"
@@ -2404,7 +2404,7 @@ msgstr "プロファイル写真をアップロードする"
 #: artefact/file/lang/en.utf8/artefact.file.php uploadedprofileicon
 msgctxt "artefact/file/lang/en.utf8/artefact.file.php uploadedprofileicon"
 msgid "Uploaded profile picture"
-msgstr ""
+msgstr "アップロードされたプロファイル写真"
 
 #: artefact/file/lang/en.utf8/artefact.file.php profileiconsiconsizenotice
 msgctxt "artefact/file/lang/en.utf8/artefact.file.php profileiconsiconsizenotice"

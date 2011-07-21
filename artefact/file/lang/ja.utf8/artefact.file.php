@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-19 11:36:13 UTC
+ * @updated    2011-07-21 00:47:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -96,6 +96,7 @@ $string['Folder'] = 'フォルダ';
 $string['folderappearsinviews'] = 'このフォルダはあなたの1つまたはそれ以上のページに使用されています。';
 $string['Folders'] = 'フォルダ';
 $string['foldernotempty'] = 'このフォルダは空ではありません。';
+$string['foldercontainsprofileicons'] = 'フォルダには %s 個のプロファイル写真を含みます。';
 $string['foldercreated'] = 'フォルダが作成されました。';
 $string['foldernamerequired'] = '新しいフォルダ名を入力してください。';
 $string['gotofolder'] = '%s に移動する';
@@ -105,6 +106,8 @@ $string['htmlremovedmessage'] = 'あなたが閲覧しているファイル「 <
 $string['htmlremovedmessagenoowner'] = 'あなたはファイル「 <strong>%s</strong> 」を閲覧しています。以下に表示されているファイルは不適切なコンテンツのため、削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
 $string['image'] = 'イメージ';
 $string['Images'] = 'イメージ';
+$string['imagesdir'] = 'イメージ';
+$string['imagesdirdesc'] = 'イメージファイル';
 $string['lastmodified'] = '最終更新日時';
 $string['myfiles'] = 'マイファイル';
 $string['Name'] = '名称';
@@ -206,6 +209,7 @@ $string['cantcreatetempprofileiconfile'] = '一時プロファイル写真イメ
 $string['profileiconsize'] = 'プロファイル写真サイズ';
 $string['profileicons'] = 'プロファイル写真';
 $string['Default'] = 'デフォルト';
+$string['defaultprofileicon'] = '現在、あなたのデフォルトプロファイル写真に設定されています。';
 $string['deleteselectedicons'] = '選択されたプロファイル写真を削除する';
 $string['profileicon'] = 'プロファイル写真';
 $string['noimagesfound'] = 'イメージはありません。';
@@ -220,6 +224,7 @@ $string['profileiconuploadexceedsquota'] = 'このファイルをアップロー
 $string['profileiconimagetoobig'] = 'あなたがアップロードしたイメージは大き過ぎます(%sx%s ピクセル)。%sx%s ピクセル以下のサイズにしてください。';
 $string['uploadingfile'] = 'ファイルのアップロード中 ...';
 $string['uploadprofileicon'] = 'プロファイル写真をアップロードする';
+$string['uploadedprofileicon'] = 'アップロードされたプロファイル写真';
 $string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイル写真をアップロードすることができます。プロファイル写真のアップロード後、あなたのデフォルト写真として表示する写真を1つ選択してください。16x16 から%sx%s ピクセルの間であなたの写真を作成してください。';
 $string['setdefault'] = 'デフォルトに設定する';
 $string['Title'] = 'タイトル';
