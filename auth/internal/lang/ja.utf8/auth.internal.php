@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-22 17:27:47 UTC
+ * @updated    2011-07-25 03:12:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -85,6 +85,59 @@ $string['confirmemailmessagehtml'] = '<p>%s さん、こんにちは。</p>
 
 <pre>--
 %s チーム</pre>';
+$string['emailconfirmedok'] = 'p>正常にあなたのメールを確認しました。まもなく、登録詳細に関してあなた宛にメールが送信されます。</p>';
+$string['registrationcancelledok'] = 'あなたは正常に登録申請をキャンセルしました。';
+$string['registrationconfirm'] = '登録を承認しますか?';
+$string['registrationconfirmdescription'] = 'インスティテューション管理者が登録を承認する必要があります。';
+$string['registrationdeniedemailsubject'] = '%s への登録却下';
+$string['registrationdeniedmessage'] = '%s さん、こんにちは。
+
+私たちは　%s におけるインスティテューションへのあなたの登録申請を受領しましたが、あなたにアクセス権を授与しないことに決定しました。
+
+あなたがこの決定を不適切だと考える場合、Eメールにてご連絡ください。
+
+%s';
+$string['registrationdeniedmessagereason'] = '%s さん、こんにちは。
+
+私たちは　%s におけるインスティテューションへのあなたの登録申請を受領しましたが、以下の理由であなたにアクセス権を授与しないことに決定しました:
+
+%s
+
+あなたがこの決定を不適切だと考える場合、Eメールにてご連絡ください。
+
+%s';
+$string['registeredokawaitingemail'] = 'あなたの登録申請が正常に送信されました。あなたのメールアドレスを確認して処理を進めるため、あなた宛にEメールが送信されます。';
 $string['registrationreason'] = '登録理由';
+$string['registrationreasondesc'] = 'あなたが選択したインスティテューションへの登録申請理由、および管理者があなたの申請を処理することに関して有益であると思われる詳細を記述してください。この情報なしでは、登録を完了することはできません。';
+$string['pendingregistrationadminemailsubject'] = 'インスティテューション「 %s　」( %s )への新しいユーザ登録';
+$string['pendingregistrationadminemailtext'] = '%s さん、こんにちは。
+
+新しいユーザがインスティテューション「 %s 」への参加をリクエストしました。
+
+このインスティテューションの管理者として登録されているため、あなたはこの登録リクエストを承認または拒否する必要があります。この処理を実行するには、次のリンクにアクセスしてください: %s
+
+登録理由詳細は下記のとおりです:
+
+氏名: %s
+メールアドレス: %s
+登録理由:
+%s
+
+--
+%s チーム';
+$string['pendingregistrationadminemailhtml'] = '<p>%s さん、こんにちは。</p>
+
+<p>新しいユーザがインスティテューション「 %s 」への参加をリクエストしました。</p>
+
+<p>このインスティテューションの管理者として登録されているため、あなたはこの登録リクエストを承認または拒否する必要があります。この処理を実行するには、次のリンクにアクセスしてください:<a href=%s>%s</a></p>
+
+<p>登録理由詳細は下記のとおりです:</p>
+
+<p>氏名: %s</p>
+<p>メールアドレス: %s</p>
+<p>登録理由:</p>
+<p>%s</p>
+<pre>--
+%s チーム</pre>';
 
 ?>

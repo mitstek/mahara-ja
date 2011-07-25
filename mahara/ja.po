@@ -4230,27 +4230,27 @@ msgstr "<p>%s さん、こんにちは。</p>\n"
 #: auth/internal/lang/en.utf8/auth.internal.php emailconfirmedok
 msgctxt "auth/internal/lang/en.utf8/auth.internal.php emailconfirmedok"
 msgid "<p>You have successfully confirmed your email. You will be notified with further registration details soon.</p>"
-msgstr ""
+msgstr "p>正常にあなたのメールを確認しました。まもなく、登録詳細に関してあなた宛にメールが送信されます。</p>"
 
 #: auth/internal/lang/en.utf8/auth.internal.php registrationcancelledok
 msgctxt "auth/internal/lang/en.utf8/auth.internal.php registrationcancelledok"
 msgid "You have successfully cancelled your registration application."
-msgstr ""
+msgstr "あなたは正常に登録申請をキャンセルしました。"
 
 #: auth/internal/lang/en.utf8/auth.internal.php registrationconfirm
 msgctxt "auth/internal/lang/en.utf8/auth.internal.php registrationconfirm"
 msgid "Confirm registration?"
-msgstr ""
+msgstr "登録を承認しますか?"
 
 #: auth/internal/lang/en.utf8/auth.internal.php registrationconfirmdescription
 msgctxt "auth/internal/lang/en.utf8/auth.internal.php registrationconfirmdescription"
 msgid "Registration must be approved by institution adminstrators."
-msgstr ""
+msgstr "インスティテューション管理者が登録を承認する必要があります。"
 
 #: auth/internal/lang/en.utf8/auth.internal.php registrationdeniedemailsubject
 msgctxt "auth/internal/lang/en.utf8/auth.internal.php registrationdeniedemailsubject"
 msgid "Registration attempt at %s denied."
-msgstr ""
+msgstr "%s への登録却下"
 
 #: auth/internal/lang/en.utf8/auth.internal.php registrationdeniedmessage
 msgctxt "auth/internal/lang/en.utf8/auth.internal.php registrationdeniedmessage"
@@ -4264,7 +4264,13 @@ msgid "Hello %s,\n"
 "\n"
 "Regards\n"
 "%s"
-msgstr ""
+msgstr "%s さん、こんにちは。\n"
+"\n"
+"私たちは　%s におけるインスティテューションへのあなたの登録申請を受領しましたが、あなたにアクセス権を授与しないことに決定しました。\n"
+"\n"
+"あなたがこの決定を不適切だと考える場合、Eメールにてご連絡ください。\n"
+"\n"
+"%s"
 
 #: auth/internal/lang/en.utf8/auth.internal.php registrationdeniedmessagereason
 msgctxt "auth/internal/lang/en.utf8/auth.internal.php registrationdeniedmessagereason"
@@ -4280,12 +4286,20 @@ msgid "Hello %s,\n"
 "\n"
 "Regards\n"
 "%s"
-msgstr ""
+msgstr "%s さん、こんにちは。\n"
+"\n"
+"私たちは　%s におけるインスティテューションへのあなたの登録申請を受領しましたが、以下の理由であなたにアクセス権を授与しないことに決定しました:\n"
+"\n"
+"%s\n"
+"\n"
+"あなたがこの決定を不適切だと考える場合、Eメールにてご連絡ください。\n"
+"\n"
+"%s"
 
 #: auth/internal/lang/en.utf8/auth.internal.php registeredokawaitingemail
 msgctxt "auth/internal/lang/en.utf8/auth.internal.php registeredokawaitingemail"
 msgid "You have successfully submitted your application for registration.  An email should have been sent to you in order to confirm your email and continue the process."
-msgstr ""
+msgstr "あなたの登録申請が正常に送信されました。あなたのメールアドレスを確認して処理を進めるため、あなた宛にEメールが送信されます。"
 
 #: auth/internal/lang/en.utf8/auth.internal.php registrationreason
 msgctxt "auth/internal/lang/en.utf8/auth.internal.php registrationreason"
@@ -4295,12 +4309,12 @@ msgstr "登録理由"
 #: auth/internal/lang/en.utf8/auth.internal.php registrationreasondesc
 msgctxt "auth/internal/lang/en.utf8/auth.internal.php registrationreasondesc"
 msgid "The reason for requesting registration with your chosen institution and any other details you think might be useful for the administrator in processing your application.  The registration cannot be completed without this information."
-msgstr ""
+msgstr "あなたが選択したインスティテューションへの登録申請理由、および管理者があなたの申請を処理することに関して有益であると思われる詳細を記述してください。この情報なしでは、登録を完了することはできません。"
 
 #: auth/internal/lang/en.utf8/auth.internal.php pendingregistrationadminemailsubject
 msgctxt "auth/internal/lang/en.utf8/auth.internal.php pendingregistrationadminemailsubject"
 msgid "New user registration for institution '%s' at %s."
-msgstr ""
+msgstr "インスティテューション「 %s　」( %s )への新しいユーザ登録"
 
 #: auth/internal/lang/en.utf8/auth.internal.php pendingregistrationadminemailtext
 msgctxt "auth/internal/lang/en.utf8/auth.internal.php pendingregistrationadminemailtext"
@@ -4320,7 +4334,21 @@ msgid "Hi %s,\n"
 "--\n"
 "Regards,\n"
 "The %s Team"
-msgstr ""
+msgstr "%s さん、こんにちは。\n"
+"\n"
+"新しいユーザがインスティテューション「 %s 」への参加をリクエストしました。\n"
+"\n"
+"このインスティテューションの管理者として登録されているため、あなたはこの登録リクエストを承認または拒否する必要があります。この処理を実行するには、次のリンクにアクセスしてください: %s\n"
+"\n"
+"登録理由詳細は下記のとおりです:\n"
+"\n"
+"氏名: %s\n"
+"メールアドレス: %s\n"
+"登録理由:\n"
+"%s\n"
+"\n"
+"--\n"
+"%s チーム"
 
 #: auth/internal/lang/en.utf8/auth.internal.php pendingregistrationadminemailhtml
 msgctxt "auth/internal/lang/en.utf8/auth.internal.php pendingregistrationadminemailhtml"
@@ -4335,7 +4363,20 @@ msgid "<p>Hi %s,</p>\n"
 "<pre>--\n"
 "Regards,\n"
 "The %s Team</pre>"
-msgstr ""
+msgstr "<p>%s さん、こんにちは。</p>\n"
+"\n"
+"<p>新しいユーザがインスティテューション「 %s 」への参加をリクエストしました。</p>\n"
+"\n"
+"<p>このインスティテューションの管理者として登録されているため、あなたはこの登録リクエストを承認または拒否する必要があります。この処理を実行するには、次のリンクにアクセスしてください:<a href='%s'>%s</a></p>\n"
+"\n"
+"<p>登録理由詳細は下記のとおりです:</p>\n"
+"\n"
+"<p>氏名: %s</p>\n"
+"<p>メールアドレス: %s</p>\n"
+"<p>登録理由:</p>\n"
+"<p>%s</p>\n"
+"<pre>--\n"
+"%s チーム</pre>"
 
 #: auth/ldap/lang/en.utf8/auth.ldap.php title
 msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php title"
