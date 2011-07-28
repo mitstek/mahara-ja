@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-21 18:09:48 UTC
+ * @updated    2011-07-28 19:58:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -238,6 +238,7 @@ $string['noartefactstochoosefrom'] = '申し訳ございません、選択する
 $string['access'] = 'アクセス';
 $string['noaccesstoview'] = 'あなたにはこのページにアクセスするパーミッションがありません。';
 $string['changeviewtheme'] = 'あなたがこのページに選択したテーマは廃止されています。異なるテーマを選択してください。';
+$string['nothemeselected'] = 'テーマ未選択';
 $string['Template'] = 'テンプレート';
 $string['allowcopying'] = 'コピーを許可する';
 $string['retainviewrights'] = 'ページのコピー時、ページアクセスを保持する';

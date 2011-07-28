@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-19 11:36:30 UTC
+ * @updated    2011-07-28 19:58:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -90,6 +90,7 @@ $string['institutions'] = 'インスティテューション';
 $string['institutiondetails'] = 'インスティテューション詳細';
 $string['institutionauth'] = 'インスティテューション認証局';
 $string['institutionsdescription'] = 'インスティテューションのインストールおよびインストール済みインスティテューションを管理します。';
+$string['lastinstitution'] = '前のインスティテューション';
 $string['adminnotifications'] = '管理者通知';
 $string['adminnotificationsdescription'] = '管理者が受信するシステム通知の概要です。';
 $string['uploadcsv'] = 'CSVでユーザを追加する';
@@ -607,6 +608,12 @@ $string['showonlineusers'] = 'オンラインユーザを表示する';
 $string['showonlineusersdesc'] = 'このインスティテューションメンバーにオンラインユーザを表示します。設定が異なる場合、最も寛容な設定が使用されます。';
 $string['Logo'] = 'ロゴ';
 $string['logodescription'] = 'あなたのインスティテューションメンバーに標準的なヘッダロゴの代わりに表示されるイメージをここでアップロードすることができます。最良の結果のため、このイメージをあなたのインスティテューションのサイトロゴと同じ大きさにしてください。';
+$string['customtheme'] = 'カスタムテーマ設定';
+$string['customtheme.link'] = 'リンク';
+$string['customtheme.navfg'] = 'ナビゲーションテキスト';
+$string['customtheme.subfg'] = 'サブナビゲーションテキスト';
+$string['customtheme.sidebarlink'] = 'サイドブロックリンク';
+$string['customstylesforinstitution'] = '%s のカスタムスタイル';
 $string['authenticatedby'] = '認証方法';
 $string['authenticatedbydescription'] = 'このユーザに関するMaharaへの認証方法を設定します。';
 $string['remoteusername'] = '外部認証のユーザ名';
@@ -626,6 +633,7 @@ $string['notadminforinstitution'] = 'あなたはこのインスティテュー�
 $string['institutionmemberspagedescription'] = 'このページではあなたのインスティテューションにメンバーシップをリクエストしたユーザを閲覧およびメンバーとして登録することができます。また、あなたのインスティテューションからユーザを削除および招待することができます。';
 $string['institutionusersinstructionsrequesters'] = '左側のユーザ一覧にはあなたのインスティテューションに参加をリクエストした、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザをインスティテューションに追加したい場合、またはユーザのメンバーシップリクエストを拒否したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「メンバーを追加する」ボタンをクリックすることで、右側ボックスのすべてのユーザをインスティテューションに追加することができます。「リクエストを拒否する」ボタンをクリックすることで、右側ボックスのユーザのメンバーシップリクエストを拒否することができます。';
 $string['institutionusersinstructionsnonmembers'] = '左側のユーザ一覧にはあなたのインスティテューションのメンバーではない、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザに対して、インスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックすることで、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。';
+$string['institutionusersinstructionslastinstitution'] = '左側のユーザ一覧にはあなたのインスティテューションのメンバーではなく、選択されたインスティテューションを離れたすべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザに対して、インスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックすることで、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。';
 $string['institutionusersinstructionsmembers'] = '左側のユーザ一覧にはあなたのインスティテューションのすべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。ユーザをインスティテューションから削除する場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを削除する」ボタンをクリックすることで、右側ボックスのすべてのユーザが削除されます。左側ボックスのユーザはインスティテューションに参加したままの状態です。';
 $string['editmembers'] = 'メンバーを編集する';
 $string['editstaff'] = 'スタッフを編集する';
@@ -637,13 +645,16 @@ $string['institutionstudentiddescription'] = 'インスティテューション�
 $string['userstodisplay'] = '表示するユーザ:';
 $string['institutionusersrequesters'] = 'インスティテューションのメンバーシップをリクエストしたユーザ';
 $string['institutionusersnonmembers'] = 'まだメンバーシップをリクエストしていないユーザ';
+$string['institutionuserslastinstitution'] = 'インスティテューションを離れたユーザ';
 $string['institutionusersmembers'] = 'すでにインスティテューションのメンバーになっているユーザ';
+$string['institutionusersinvited'] = '招待されたユーザ';
 $string['addnewmembers'] = '新しいメンバーを追加する';
 $string['usersrequested'] = 'メンバーシップをリクエストしたユーザ';
 $string['userstobeadded'] = 'メンバーとして追加されるユーザ';
 $string['userstoaddorreject'] = '追加/拒否するユーザ';
 $string['addmembers'] = 'メンバーを追加する';
 $string['inviteuserstojoin'] = 'ユーザをインスティテューションに招待する';
+$string['userswhohaveleft'] = 'インスティテューション %s を離れたユーザ';
 $string['Non-members'] = '非メンバー';
 $string['userstobeinvited'] = '招待されるユーザ';
 $string['inviteusers'] = 'ユーザを招待する';

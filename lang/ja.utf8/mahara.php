@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-19 11:36:38 UTC
+ * @updated    2011-07-28 19:57:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -280,6 +280,7 @@ $string['accountsuspended'] = '%s 現在、あなたのアカウントは利用�
 $string['youraccounthasbeensuspended'] = 'あなたのアカウントが利用停止されました。';
 $string['youraccounthasbeenunsuspended'] = 'あなたのアカウントの利用停止が解除されました。';
 $string['changepasswordinfo'] = '開始する前に、あなたはパスワードを変更する必要があります。';
+$string['chooseinstitution'] = 'あなたのインスティテューションを選択する';
 $string['chooseusernamepassword'] = 'あなたのユーザ名およびパスワードを選択する';
 $string['chooseusernamepasswordinfo'] = 'あなたが %s にログインするには、ユーザ名およびパスワードが必要です。あなたのユーザ名およびパスワードを選択してください。';
 $string['confirmpassword'] = 'パスワードをもう一度';
@@ -382,7 +383,7 @@ $string['passwordchangedok'] = 'あなたのパスワードが正常に変更さ
 $string['noinstitutionsetpassemailsubject'] = '%s: %s のメンバーシップ';
 $string['noinstitutionsetpassemailmessagetext'] = '%s さん
 
-あなたは %s のメンバーではなくなりました。 
+あなたは %s のメンバーではなくなりました。
 続けて %s を現在のユーザ名 %s で使用することができますが、アカウントに新しいパスワードを設定する必要があります。
 
 パスワードリセット処理を続けるには下記リンクをクリックしてください。
@@ -395,10 +396,10 @@ $string['noinstitutionsetpassemailmessagetext'] = '%s さん
 
 %s サイト管理者
 
-forgotpass.php?key=%s';
+%sforgotpass.php?key=%s';
 $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 
-<p>あなたは %s のメンバーではなくなりました。</p> 
+<p>あなたは %s のメンバーではなくなりました。</p>
 <p>続けて %s を現在のユーザ名 %s で使用することができますが、アカウントに新しいパスワードを設定する必要があります。</p>
 
 <p>パスワードリセット処理を続けるには下記リンクをクリックしてください。</p>
@@ -410,6 +411,37 @@ $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 <p>%s サイト管理者</p>
 
 <p><a href="%sforgotpass.php?key=%s">%sforgotpass.php?key=%s</a></p>';
+$string['noinstitutionoldpassemailsubject'] = '%s: %s のメンバーシップ';
+$string['noinstitutionoldpassemailmessagetext'] = '%s さん
+
+あなたは %s のメンバーではなくなりました。
+あなたは続けて %s を現在のユーザ名 %s およびアカウントに設定したパスワードを使用することができます。
+
+あなたのパスワードを忘れてしまった場合、以下のページにアクセスして、あなたのユーザ名を入力することでパスワードをリセットすることができます。
+
+%sforgotpass.php
+
+上記内容に関するご質問はお気軽にお問い合わせください。
+
+%scontact.php
+
+%s サイト管理者
+
+%sforgotpass.php';
+$string['noinstitutionoldpassemailmessagehtml'] = '<p>%s さん</p>
+
+<p>あなたは %s のメンバーではなくなりました。</p>
+<p>あなたは続けて %s を現在のユーザ名 %s およびアカウントに設定したパスワードを使用することができます。</p>
+
+<p>パスワードを忘れてしまった場合、以下のページにアクセスして、あなたのユーザ名を入力することでパスワードをリセットすることができます。</p>
+
+<p><a href="%sforgotpass.php">%sforgotpass.php</a></p>
+
+<p>上記内容に関するご質問はお気軽に<a href="%scontact.php">お問い合わせください</a>。</p>。
+
+<p>%s サイト管理者</p>
+
+<p><a href="%sforgotpass.php">%sforgotpass.php</a></p>';
 $string['debugemail'] = '注意: このメールは%s <%s> 宛のメールですが、設定ファイルの「sendallemailto」設定により、あなたに送信されています。';
 $string['divertingemailto'] = 'メールを %s に転送する';
 $string['noenddate'] = '終了日なし';
@@ -527,6 +559,7 @@ $string['Permissions'] = 'パーミッション';
 $string['republish'] = '公開';
 $string['view'] = '表示';
 $string['artefactnotpublishable'] = 'アーティファクト %s はページ %s で公開できません。';
+$string['belongingto'] = '所属';
 $string['allusers'] = 'すべてのユーザ';
 $string['attachment'] = '添付ファイル';
 $string['quarantinedirname'] = '隔離場所';
@@ -817,6 +850,8 @@ $string['Created'] = '作成日';
 $string['Updated'] = '更新日';
 $string['Total'] = '合計';
 $string['Visits'] = '訪問';
+$string['after'] = '後';
+$string['before'] = '前';
 $string['importedfrom'] = 'インポート元 %s';
 $string['incomingfolderdesc'] = '他のネットワークホストからインポートされたファイル';
 $string['remotehost'] = 'リモートホスト %s';

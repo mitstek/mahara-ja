@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-19 11:36:10 UTC
+ * @updated    2011-07-28 19:57:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -77,6 +77,7 @@ $string['insertimage'] = 'イメージを挿入する';
 $string['moreoptions'] = '詳細オプション';
 $string['mustspecifytitle'] = 'あなたのエントリのタイトルを入力してください。';
 $string['mustspecifycontent'] = 'あなたのエントリのコンテンツを入力してください。';
+$string['name'] = '名称';
 $string['newattachmentsexceedquota'] = 'このエントリにアップロードした新しいファイルの合計サイズが、あなたのクオータを超えました。あなたが追加した添付ファイルを削除することで、エントリを保存することができます。';
 $string['newblog'] = '新しい日誌';
 $string['newblogpost'] = '日誌「 %s 」の新しい日誌エントリ';
