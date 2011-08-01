@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-28 20:13:39 UTC
+ * @updated    2011-08-01 18:45:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -425,6 +425,7 @@ $string['uploadgroupcsverrorgroupnamealreadyexists'] = 'あなたのファイル
 $string['uploadgroupcsverrorinvalidshortname'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname) 「 %s 」が有効ではありません。';
 $string['uploadgroupcsverrorinvalidgrouptype'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループタイプ (grouptype) 「 %s 」が有効ではありません。';
 $string['uploadgroupcsverrorshortnamealreadytaken'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname) 「 %s 」はすでに取得されています。';
+$string['uploadgroupcsverrorusernamesnotlastfield'] = '「usernames」フィールドはヘッダの最後のフィールドにしてください。';
 $string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいグループをアップロードすることができます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
@@ -609,10 +610,18 @@ $string['showonlineusersdesc'] = 'このインスティテューションメン�
 $string['Logo'] = 'ロゴ';
 $string['logodescription'] = 'あなたのインスティテューションメンバーに標準的なヘッダロゴの代わりに表示されるイメージをここでアップロードすることができます。最良の結果のため、このイメージをあなたのインスティテューションのサイトロゴと同じ大きさにしてください。';
 $string['customtheme'] = 'カスタムテーマ設定';
+$string['customtheme.background'] = '背景色';
+$string['customtheme.backgroundfg'] = 'テキスト背景色';
 $string['customtheme.link'] = 'リンク';
+$string['customtheme.headings'] = 'ヘッディング';
+$string['customtheme.navbg'] = 'ナビゲーション背景色';
 $string['customtheme.navfg'] = 'ナビゲーションテキスト';
+$string['customtheme.subbg'] = 'サブナビゲーション背景色';
 $string['customtheme.subfg'] = 'サブナビゲーションテキスト';
+$string['customtheme.sidebarbg'] = 'サイドブロック背景色';
+$string['customtheme.sidebarfg'] = 'サイドブロックコンテンツ背景色';
 $string['customtheme.sidebarlink'] = 'サイドブロックリンク';
+$string['customtheme.rowbg'] = '列背景色';
 $string['customstylesforinstitution'] = '%s のカスタムスタイル';
 $string['authenticatedby'] = '認証方法';
 $string['authenticatedbydescription'] = 'このユーザに関するMaharaへの認証方法を設定します。';
@@ -634,7 +643,8 @@ $string['institutionmemberspagedescription'] = 'このページではあなた�
 $string['institutionusersinstructionsrequesters'] = '左側のユーザ一覧にはあなたのインスティテューションに参加をリクエストした、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザをインスティテューションに追加したい場合、またはユーザのメンバーシップリクエストを拒否したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「メンバーを追加する」ボタンをクリックすることで、右側ボックスのすべてのユーザをインスティテューションに追加することができます。「リクエストを拒否する」ボタンをクリックすることで、右側ボックスのユーザのメンバーシップリクエストを拒否することができます。';
 $string['institutionusersinstructionsnonmembers'] = '左側のユーザ一覧にはあなたのインスティテューションのメンバーではない、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザに対して、インスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックすることで、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。';
 $string['institutionusersinstructionslastinstitution'] = '左側のユーザ一覧にはあなたのインスティテューションのメンバーではなく、選択されたインスティテューションを離れたすべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザに対して、インスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックすることで、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。';
-$string['institutionusersinstructionsmembers'] = '左側のユーザ一覧にはあなたのインスティテューションのすべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。ユーザをインスティテューションから削除する場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを削除する」ボタンをクリックすることで、右側ボックスのすべてのユーザが削除されます。左側ボックスのユーザはインスティテューションに参加したままの状態です。';
+$string['institutionusersinstructionsmembers'] = '左側のユーザ一覧にはあなたのインスティテューションのすべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。ユーザをインスティテューションから削除するには、最初に1名またはそれ以上のユーザを左側のボックスで選択した後、右矢印をクリックしてください。あなたが選択したユーザが右側のボックスに移動されます。「ユーザを削除する」ボタンをクリックすることで、右側ボックスのすべてのユーザが削除されます。左側ボックスのユーザはインスティテューションに参加したままの状態です。';
+$string['institutionusersinstructionsinvited'] = '左側のユーザ一覧にはインスティテューションへの参加の招待が送信されたすべてのユーザおよび誰が承認または拒否したか表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。インスティテューションへの招待を取り消すには、最初に1名またはそれ以上のユーザを左側のボックスで選択した後、右矢印をクリックしてください。あなたが選択したユーザが右側のボックスに移動されます。「招待を取り消す」ボタンをクリックすることで、右側ボックスのすべてのユーザへの招待が取り消されます。左側ボックスのユーザはインスティテューションに招待されたままの状態で、いつでもインスティテューションに参加することができます。';
 $string['editmembers'] = 'メンバーを編集する';
 $string['editstaff'] = 'スタッフを編集する';
 $string['editadmins'] = '管理者を編集する';
@@ -688,9 +698,16 @@ $string['disabledlockedfieldhelp'] = '注意: 無効にされたチェックボ�
 $string['defaultinstitutionquotadescription'] = 'あなたはこのインスティテューションの新しいユーザに割り当てられるディスクスペース総量を設定することができます。このインスティテューションに関する既存ユーザのクオータは変更されません。';
 $string['approve'] = '承認';
 $string['deny'] = '拒否';
+$string['approveregistrationfor'] = '「 %s %s 」の登録を承認する';
+$string['approveregistrationmessage'] = 'ユーザの登録を承認して、インスティテューション「 %s 」に追加します。本当にこの登録を承認してもよろしいですか?';
+$string['denyregistrationfor'] = '「 %s %s 」の登録を拒否する';
+$string['denyregistrationmessage'] = 'ユーザの登録を拒否します。本当にこの登録を拒否してもよろしいですか?';
 $string['nopendingregistrations'] = 'このインスティテューションの登録保留はありません。';
 $string['pendingregistration'] = '登録保留';
 $string['pendingregistrations'] = '登録保留';
+$string['pendingregistrationspagedescription'] = '<p>このページでは自己登録およびあなたのインスティテューションのメンバーシップをリクエストしたユーザを閲覧すること、登録を承認または拒否することができます。<p>
+
+<p>登録を承認することで、あなたはユーザをインスティテューションのメンバーに追加することになります。承認されたユーザにはアカウントの有効化に関して、さらなるインストラクションを記載したメールが送信されます。登録を拒否した場合、申請が拒否された旨の自動返信メールが送信されます。</p>';
 $string['nosuchinstitution'] = 'そのようなインスティテューションはありません。';
 $string['registrationapprovedsuccessfully'] = '登録は正常に承認されました。';
 $string['registrationdeniedreason'] = '拒否理由';
