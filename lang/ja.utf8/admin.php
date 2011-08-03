@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-08-01 18:45:05 UTC
+ * @updated    2011-08-03 17:56:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -609,6 +609,8 @@ $string['showonlineusers'] = 'オンラインユーザを表示する';
 $string['showonlineusersdesc'] = 'このインスティテューションメンバーにオンラインユーザを表示します。設定が異なる場合、最も寛容な設定が使用されます。';
 $string['Logo'] = 'ロゴ';
 $string['logodescription'] = 'あなたのインスティテューションメンバーに標準的なヘッダロゴの代わりに表示されるイメージをここでアップロードすることができます。最良の結果のため、このイメージをあなたのインスティテューションのサイトロゴと同じ大きさにしてください。';
+$string['deletelogo'] = 'ロゴを削除する';
+$string['deletelogodescription'] = 'あなたのインスティテューションテーマのロゴを標準ヘッダロゴに戻します。';
 $string['customtheme'] = 'カスタムテーマ設定';
 $string['customtheme.background'] = '背景色';
 $string['customtheme.backgroundfg'] = 'テキスト背景色';
@@ -623,6 +625,8 @@ $string['customtheme.sidebarfg'] = 'サイドブロックコンテンツ背景�
 $string['customtheme.sidebarlink'] = 'サイドブロックリンク';
 $string['customtheme.rowbg'] = '列背景色';
 $string['customstylesforinstitution'] = '%s のカスタムスタイル';
+$string['resetcolours'] = '色をリセットする';
+$string['resetcoloursdesc'] = 'デフォルト色にリストアします。';
 $string['authenticatedby'] = '認証方法';
 $string['authenticatedbydescription'] = 'このユーザに関するMaharaへの認証方法を設定します。';
 $string['remoteusername'] = '外部認証のユーザ名';
