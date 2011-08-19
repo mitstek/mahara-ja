@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-26 16:52:52 UTC
+ * @updated    2011-08-19 16:54:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -111,5 +111,15 @@ $string['profileinformation'] = 'プロファイル情報';
 $string['profilepage'] = 'プロファイルページ';
 $string['viewprofilepage'] = 'プロファイルページを表示する';
 $string['viewallprofileinformation'] = 'すべてのプロファイル情報を表示する';
+$string['Note'] = 'ノート';
+$string['Notes'] = 'ノート';
+$string['mynotes'] = 'マイノート';
+$string['notesfor'] = '%s のノート';
+$string['containedin'] = '含まれる場所:';
+$string['notesdescription'] = 'あなたのページのテキストボックスブロック内で作成したHTML形式のノートです。';
+$string['editnote'] = 'ノートを編集する';
+$string['confirmdeletenote'] = 'このノートは %d ブロックおよび %d ページで使用されています。あなたが削除した場合、現在このテキストを含むすべてのブロックには空白が表示されてしまいます。';
+$string['notedeleted'] = 'ノートが削除されました。';
+$string['noteupdated'] = 'ノートが更新されました。';
 
 ?>
