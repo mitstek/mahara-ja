@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-08-03 17:51:18 UTC
+ * @updated    2011-08-17 15:17:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -51,6 +51,8 @@ $string['Date'] = '登録日';
 $string['defaultagreement'] = 'デフォルト同意書';
 $string['defaultquota'] = 'デフォルトクオータ';
 $string['defaultquotadescription'] = 'あなたは新しいユーザがクオータとして持つことのできるディスクスペース総量をここで設定することができます。既存のユーザのクオータは変更されません。';
+$string['updateuserquotas'] = 'ユーザクオータを更新する';
+$string['updateuserquotasdesc'] = 'チェックした場合、あなたが上で選択したデフォルトクオータが既存のユーザすべてに適用されます。';
 $string['institutionoverride'] = 'インスティテューションクオータ';
 $string['institutionoverridedescription'] = 'あなたはインスティテューション管理者がユーザに与えることのできる最大クオータを設定することができます。同時にそれぞれのインスティテューションのデフォルトクオータを設定することができます。';
 $string['maxquotaenabled'] = 'サイト全体の最大クオータを強制する';
@@ -61,6 +63,8 @@ $string['maxquotaexceededform'] = '%s より小さなファイルクオータを
 $string['maxquotadescription'] = 'あなたは管理者がユーザに与えることのできる最大クオータを設定することができます。既存のユーザのクオータは影響を受けません。';
 $string['defaultgroupquota'] = 'デフォルトグループクオータ';
 $string['defaultgroupquotadescription'] = 'あなたは新しいグループがファイルエリアに使用することのできる最大クオータを設定することができます。既存のグループのクオータは影響を受けません。';
+$string['updategroupquotas'] = 'グループクオータを更新する';
+$string['updategroupquotasdesc'] = 'チェックした場合、あなたが上で選択したデフォルトクオータが既存のグループすべてに適用されます。';
 $string['deletingfailed'] = '削除に失敗しました: すでにファイルまたはフォルダが存在していません。';
 $string['deletefile?'] = '本当にこのファイルを削除してもよろしいですか?';
 $string['deletefolder?'] = '本当にこのフォルダを削除してもよろしいですか?';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-08-03 18:14:16 UTC
+ * @updated    2011-08-19 06:38:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -28,16 +28,11 @@
 
 defined('INTERNAL') || die();
 
-$string['title'] = 'タグ付き日誌エントリ';
-$string['description'] = '特定のタグが付けられた日誌エントリを表示します。';
-$string['blockheading'] = 'タグ付き日誌エントリ';
-$string['defaulttitledescription'] = 'ここを空白にした場合、日誌のタイトルが使用されます。';
-$string['postsperpage'] = '1ページあたりのエントリ数';
-$string['taglist'] = 'マイタグ';
-$string['notags'] = '「 %s 」がタグ付けされた記事はありません。';
-$string['notagsavailable'] = 'あなたはタグを作成していません。';
-$string['postedin'] = '-';
-$string['itemstoshow'] = '表示するアイテム数';
-$string['configerror'] = 'ブロック設定中にエラーが発生しました。';
+$string['title'] = 'テキストボックス';
+$string['description'] = 'あなたのページにテキストボックスを追加します。';
+$string['blockcontent'] = 'ブロックコンテンツ';
+$string['usecontentfromanothertextbox'] = '別のテキストボックスのコンテンツを使用する';
+$string['textusedinotherblocks'] = 'あなたがこのブロックのテキストを編集した場合、テキストが表示されている %s 件の他のブロックも更新されます。';
+$string['managealltextboxcontent'] = 'すべてのテキストボックスコンテンツを管理する';
 
 ?>
