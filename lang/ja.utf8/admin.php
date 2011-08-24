@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-08-17 15:16:44 UTC
+ * @updated    2011-08-24 16:13:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -204,6 +204,8 @@ $string['allowpublicprofiles'] = 'パブリックプロファイルを許可す�
 $string['allowpublicprofilesdescription'] = 'チェックした場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なプロファイルページを作成することができます。';
 $string['anonymouscomments'] = '匿名コメント';
 $string['anonymouscommentsdescription'] = 'チェックした場合、パブリックページまたはシークレットURIアクセス可能なページに対して、未ログインユーザがコメントを投稿することができます。';
+$string['loggedinprofileviewaccess'] = 'ログインユーザがプロファイルを閲覧できる';
+$string['loggedinprofileviewaccessdescription'] = 'チェックした場合、ログインユーザすべてがユーザのプロファイルページを閲覧できるようになります。';
 $string['antispam'] = 'アンチスパム';
 $string['antispamdescription'] = 'パブリックに表示されるフォームに適用されるアンチスパム基準タイプです。';
 $string['dropdownmenu'] = 'ドロップダウンナビゲーション';
@@ -330,6 +332,7 @@ $string['type'] = 'タイプ';
 $string['footermenu'] = 'フッタメニュー';
 $string['footermenudescription'] = 'フッタメニュー内のリンクを有効または無効にします。';
 $string['footerupdated'] = 'フッタが更新されました。';
+$string['footercustomlink'] = 'ここにURIを入力することで、あなたはデフォルトページ「 %s 」に優先させることができます。デフォルト値を使用する場合、空白のままにしてください。';
 $string['adminfilespagedescription'] = 'あなたはここで%s「リンクおよびリソース」メニュー%sに含むことのできるファイルをアップロードすることができます。パブリックディレクトリのファイルはパブリックの「リンクおよびリソース」メニューに追加できるのに対して、ホームディレクトリのファイルはログイン後の「リンクおよびリソース」メニューに追加することができます。';
 $string['networkingextensionsmissing'] = '申し訳ございません、インストール済みPHPでいくつかの必須拡張モジュールが不足しているため、あなたはMaharaネットワーキングを設定できません。';
 $string['publickey'] = '公開鍵';

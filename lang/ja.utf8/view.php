@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-28 19:58:42 UTC
+ * @updated    2011-08-24 16:29:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -131,10 +131,12 @@ $string['share'] = '共有';
 $string['sharewith'] = '共有対象';
 $string['accesslist'] = 'アクセスリスト';
 $string['sharewithmygroups'] = 'マイグループと共有する';
+$string['sharewithmyinstitutions'] = '私のインスティテューションと共有する';
 $string['sharewithusers'] = 'ユーザと共有する';
 $string['shareview'] = 'ページを共有する';
 $string['otherusersandgroups'] = '他のユーザおよびグループと共有する';
 $string['moreoptions'] = '高度な設定';
+$string['moreinstitutions'] = 'さらにインスティテューションを表示する';
 $string['allviews'] = 'すべてのページ';
 $string['submitviewconfirm'] = 'あなたが「 %s 」を「 %s 」に評価のため送信する場合、チューターによるページの採点完了まで、あなたのページを編集することができません。本当にこのページを送信してもよろしいですか?';
 $string['submitviewtogroup'] = '評価のため「 %s 」を「 %s 」に送信する';
