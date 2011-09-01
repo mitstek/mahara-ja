@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-28 19:57:24 UTC
+ * @updated    2011-09-01 14:18:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -284,6 +284,7 @@ $string['chooseinstitution'] = 'あなたのインスティテューションを
 $string['chooseusernamepassword'] = 'あなたのユーザ名およびパスワードを選択する';
 $string['chooseusernamepasswordinfo'] = 'あなたが %s にログインするには、ユーザ名およびパスワードが必要です。あなたのユーザ名およびパスワードを選択してください。';
 $string['confirmpassword'] = 'パスワードをもう一度';
+$string['deleteaccount'] = '次のアカウントを削除する: %s / %s';
 $string['javascriptnotenabled'] = 'あなたのブラウザではこのサイトに対してJavaスクリプトが有効にされていません。Maharaではあなたがログインする前にJavaスクリプトを有効にする必要があります。';
 $string['cookiesnotenabled'] = 'あなたのブラウザではクッキーが有効にされていないか、このサイトからのクッキーがブロックされています。Maharaではあなたがログインする前にクッキーを有効にする必要があります。';
 $string['institution'] = 'インスティテューション';
