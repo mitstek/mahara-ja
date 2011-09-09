@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-01 14:18:32 UTC
+ * @updated    2011-09-09 16:43:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -51,6 +51,7 @@ $string['remove'] = '削除';
 $string['Close'] = '閉じる';
 $string['Help'] = 'ヘルプ';
 $string['applychanges'] = '変更を適用する';
+$string['general'] = '一般';
 $string['no'] = 'No';
 $string['yes'] = 'Yes';
 $string['none'] = 'なし';

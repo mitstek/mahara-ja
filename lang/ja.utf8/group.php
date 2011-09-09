@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-06-16 18:34:41 UTC
+ * @updated    2011-09-09 17:32:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -47,15 +47,16 @@ $string['groupsaved'] = 'グループが正常に保存されました。';
 $string['invalidgroup'] = 'グループがありません。';
 $string['canteditdontown'] = 'あなたの所有ではないため、このグループを編集できません。';
 $string['groupdescription'] = 'グループ説明';
+$string['Membership'] = 'メンバーシップ';
+$string['Roles'] = 'ロール';
+$string['Open'] = 'オープン';
+$string['Controlled'] = '管理';
 $string['membershiptype'] = 'グループメンバーシップタイプ';
 $string['membershiptype.controlled'] = '管理メンバーシップ';
-$string['membershiptype.invite'] = '招待のみ';
-$string['membershiptype.request'] = 'リクエストメンバーシップ';
 $string['membershiptype.open'] = 'オープンメンバーシップ';
 $string['membershiptype.abbrev.controlled'] = '管理';
-$string['membershiptype.abbrev.invite'] = '招待';
-$string['membershiptype.abbrev.request'] = 'リクエスト';
 $string['membershiptype.abbrev.open'] = 'オープン';
+$string['requestmembership'] = 'リクエストメンバーシップ';
 $string['pendingmembers'] = '保留中メンバー';
 $string['reason'] = '理由';
 $string['approve'] = '承認';
@@ -65,6 +66,9 @@ $string['invalidshortname'] = '無効なグループ省略名です。';
 $string['shortnameformat'] = 'グループ省略名は半角英数字2～255文字にしてください。また、グループ省略名には半角英数字、「.」、「-」および「_」を使用することができます。';
 $string['Created'] = '作成日';
 $string['groupadmins'] = 'グループ管理者';
+$string['editroles'] = '誰がページを編集できますか?';
+$string['editrolesdescription'] = 'グループページを作成および編集できるロールです。';
+$string['allexceptmember'] = '一般メンバーを除く全員';
 $string['Admin'] = '管理者';
 $string['grouptype'] = 'グループタイプ';
 $string['publiclyviewablegroup'] = 'パブリックに閲覧可能なグループですか?';
@@ -95,8 +99,6 @@ $string['addedtogroupsmessage'] = '%s があなたをグループに追加しま
 $string['removedfromgroupsmessage'] = '%s があなたをグループから削除しました:
 
 %s';
-$string['cantremoveuserisadmin'] = 'チューターは管理者および他のチューターを削除することはできません。';
-$string['cantremovemember'] = 'チューターはメンバーを削除できません。';
 $string['current'] = '現在';
 $string['requests'] = 'リクエスト';
 $string['invites'] = '招待';
@@ -115,13 +117,6 @@ $string['memberchangesuccess'] = 'メンバーシップのステータスが正�
 $string['viewreleasedsubject'] = 'あなたのページ「 %s 」が %s から %s によってリリースされました。';
 $string['viewreleasedmessage'] = 'あなたのページ「 %s 」が %s から %s によってリリースされました。';
 $string['viewreleasedsuccess'] = 'ページが正常にリリースされました。';
-$string['groupmembershipchangesubject'] = 'グループメンバーシップ: %s';
-$string['groupmembershipchangedmessagetutor'] = 'あなたはこのグループのチューターに昇格しました。';
-$string['groupmembershipchangedmessagemember'] = 'あなたはこのグループのチューターから降格しました。';
-$string['groupmembershipchangedmessageremove'] = 'あなたはこのグループから登録抹消されました。';
-$string['groupmembershipchangedmessagedeclinerequest'] = 'このグループに対する、あなたの参加リクエストは拒否されました。';
-$string['groupmembershipchangedmessageaddedtutor'] = 'あなたはこのグループのチューターとして追加されました。';
-$string['groupmembershipchangedmessageaddedmember'] = 'あなたはこのグループのメンバーとして追加されました。';
 $string['leavegroup'] = 'このグループから離れる';
 $string['joingroup'] = 'このグループに参加する';
 $string['requestjoingroup'] = 'このグループへの参加をリクエストする';
@@ -140,10 +135,6 @@ $string['couldnotjoingroup'] = 'あなたはこのグループに参加できま
 $string['grouprequestsent'] = 'グループメンバーシップのリクエストが送信されました。';
 $string['couldnotrequestgroup'] = 'グループメンバーシップのリクエストを送信できませんでした。';
 $string['cannotrequestjoingroup'] = 'あなたはこのグループへの参加をリクエストできません。';
-$string['groupjointypeopen'] = 'このグループのメンバーシップはオープンです。自由に参加してください!';
-$string['groupjointypecontrolled'] = 'このグループのメンバーシップは管理されています。あなたはこのグループに参加できません。';
-$string['groupjointypeinvite'] = 'このグループのメンバーシップは招待のみです。';
-$string['groupjointyperequest'] = 'このグループのメンバーシップはリクエストのみです。';
 $string['grouprequestsubject'] = '新しいグループメンバーシップのリクエスト';
 $string['grouprequestmessage'] = '%s があなたのグループ「 %s 」への参加を希望しています。';
 $string['grouprequestmessagereason'] = '%s があなたのグループ「 %s 」への参加を希望しています。参加を希望する理由は次のとおりです:
@@ -170,7 +161,6 @@ $string['nogroups'] = 'グループなし';
 $string['deletespecifiedgroup'] = 'グループ「 %s 」を削除する';
 $string['requestjoinspecifiedgroup'] = 'グループ「 %s 」への参加をリクエストする';
 $string['youaregroupmember'] = 'あなたはこのグループのメンバーです。';
-$string['youaregrouptutor'] = 'あなたはこのグループのチューターです。';
 $string['youaregroupadmin'] = 'あなたはこのグループの管理者です。';
 $string['youowngroup'] = 'あなたはこのグループのオーナーです。';
 $string['groupsnotin'] = '私が参加していないグループ';
@@ -300,9 +290,9 @@ $string['userremoved'] = 'ユーザが削除されました。';
 $string['About'] = 'About';
 $string['aboutgroup'] = '%s について';
 $string['Joined'] = '登録日';
-$string['membersdescription:invite'] = 'これは「招待のみ」グループです。あなたはユーザをユーザプロファイルページより招待、または<a href="%s">一度に複数の招待状を送信することができます</a>。';
 $string['membersdescription:controlled'] = 'これは「管理メンバーシップ」グループです。あなたはユーザをユーザプロファイルページより追加、または<a href="%s">一度に多くのユーザを追加することができます</a>。';
 $string['submit'] = '送信';
 $string['allowssubmissions'] = '送信を許可する';
+$string['allowssubmissionsdescription'] = 'グループにページを送信できるメンバーです。';
 
 ?>
