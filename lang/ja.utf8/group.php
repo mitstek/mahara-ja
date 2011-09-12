@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-09 17:32:52 UTC
+ * @updated    2011-09-12 05:20:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -50,6 +50,8 @@ $string['groupdescription'] = 'グループ説明';
 $string['Membership'] = 'メンバーシップ';
 $string['Roles'] = 'ロール';
 $string['Open'] = 'オープン';
+$string['opendescription'] = 'ユーザはグループ管理者の承認なしにグループに参加することができます。';
+$string['requestdescription'] = 'ユーザはグループ管理者にメンバーシップリクエストを送信することができます。';
 $string['Controlled'] = '管理';
 $string['membershiptype'] = 'グループメンバーシップタイプ';
 $string['membershiptype.controlled'] = '管理メンバーシップ';
