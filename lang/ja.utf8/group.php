@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-12 05:20:34 UTC
+ * @updated    2011-09-12 05:36:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -53,11 +53,14 @@ $string['Open'] = 'オープン';
 $string['opendescription'] = 'ユーザはグループ管理者の承認なしにグループに参加することができます。';
 $string['requestdescription'] = 'ユーザはグループ管理者にメンバーシップリクエストを送信することができます。';
 $string['Controlled'] = '管理';
+$string['controlleddescription'] = 'グループ管理者はユーザの同意なしにグループにユーザを追加することができます。また、メンバーはグループを離れることはできません。';
 $string['membershiptype'] = 'グループメンバーシップタイプ';
 $string['membershiptype.controlled'] = '管理メンバーシップ';
 $string['membershiptype.open'] = 'オープンメンバーシップ';
 $string['membershiptype.abbrev.controlled'] = '管理';
 $string['membershiptype.abbrev.open'] = 'オープン';
+$string['membershipopencontrolled'] = 'メンバーシップをオープンおよび管理の両方にすることはできません。';
+$string['membershipopenrequest'] = 'オープンメンバーシップグループではメンバーシップリクエストを受け付けません。';
 $string['requestmembership'] = 'リクエストメンバーシップ';
 $string['pendingmembers'] = '保留中メンバー';
 $string['reason'] = '理由';
@@ -101,6 +104,7 @@ $string['addedtogroupsmessage'] = '%s があなたをグループに追加しま
 $string['removedfromgroupsmessage'] = '%s があなたをグループから削除しました:
 
 %s';
+$string['cantremovememberfromgroup'] = 'あなたはユーザを %s から削除できません。';
 $string['current'] = '現在';
 $string['requests'] = 'リクエスト';
 $string['invites'] = '招待';
@@ -134,6 +138,8 @@ $string['leftgroupfailed'] = 'グループを離れることができません�
 $string['couldnotleavegroup'] = 'あなたはこのグループから離れることはできません。';
 $string['joinedgroup'] = 'あなたはグループメンバーになりました。';
 $string['couldnotjoingroup'] = 'あなたはこのグループに参加できません。';
+$string['membershipcontrolled'] = 'このグループのメンバーシップは管理メンバーシップです。';
+$string['membershipbyinvitationonly'] = 'このグループのメンバーシップは招待のみです。';
 $string['grouprequestsent'] = 'グループメンバーシップのリクエストが送信されました。';
 $string['couldnotrequestgroup'] = 'グループメンバーシップのリクエストを送信できませんでした。';
 $string['cannotrequestjoingroup'] = 'あなたはこのグループへの参加をリクエストできません。';
