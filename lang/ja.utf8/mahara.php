@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-09 16:43:49 UTC
+ * @updated    2011-09-13 08:53:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -462,7 +462,6 @@ $string['nosendernamefound'] = '送信者名が送信されていません。';
 $string['emailnotsent'] = 'コンタクトメールの送信に失敗しました。エラーメッセージ: %s';
 $string['namedfieldempty'] = '必須入力フィールド「 %s 」が空白です。';
 $string['processing'] = '処理中';
-$string['requiredfieldempty'] = '必須入力フィールドが空白です。';
 $string['unknownerror'] = '不明なエラーが発生しました (0x20f91a0)。';
 $string['home'] = 'ホーム';
 $string['Content'] = 'コンテンツ';
@@ -854,6 +853,7 @@ $string['Total'] = '合計';
 $string['Visits'] = '訪問';
 $string['after'] = '後';
 $string['before'] = '前';
+$string['Visibility'] = '可視性';
 $string['importedfrom'] = 'インポート元 %s';
 $string['incomingfolderdesc'] = '他のネットワークホストからインポートされたファイル';
 $string['remotehost'] = 'リモートホスト %s';

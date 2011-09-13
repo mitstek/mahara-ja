@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-12 05:36:43 UTC
+ * @updated    2011-09-13 09:15:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -94,6 +94,16 @@ $string['groupinvitesfrom'] = '参加の招待:';
 $string['requestedmembershipin'] = 'リクエストされたメンバーシップ:';
 $string['viewnotify'] = '共有ページ通知';
 $string['viewnotifydescription'] = 'チェックした場合、グループメンバーが自分のページをグループ内で共有設定することで、すべてのグループメンバーに通知が送信されます。この設定を有効にした場合、規模の大きなグループでは多くの通知が発生する可能性があります。';
+$string['hiddengroup'] = '非表示グループ';
+$string['hiddengroupdescription'] = 'このグループを「グループを探す」ページに一覧表示しません。';
+$string['hidemembers'] = 'メンバーシップを隠す';
+$string['hidemembersdescription'] = '非メンバーからグループのメンバーシップ一覧を隠します。';
+$string['hidemembersfrommembers'] = 'メンバーからメンバーシップを隠す';
+$string['hidemembersfrommembersdescription'] = 'グループ管理者を除き、メンバーは一覧表示されません。管理者はグループホームページに一覧表示されます。';
+$string['friendinvitations'] = 'フレンドの招待';
+$string['invitefriendsdescription'] = 'チェックした場合、メンバーはフレンドに対してグループへの参加を招待することができます。この設定に関わらず、グループ管理者は常に誰にでも招待状を送信することができます。';
+$string['Recommendations'] = 'レコメンデーション';
+$string['suggestfriendsdescription'] = 'チェックした場合、グループホームページ内のボタンを使って、メンバーは簡単にこのグループのレコメンデーション (推奨文) をフレンドに送信することができます。';
 $string['editgroupmembership'] = 'グループメンバーシップを編集する';
 $string['editmembershipforuser'] = '%s のグループメンバーシップを編集する';
 $string['changedgroupmembership'] = 'グループメンバーシップが正常に更新されました。';
@@ -184,6 +194,7 @@ $string['notmembermayjoin'] = 'このページを閲覧するには、あなた�
 $string['declinerequestsuccess'] = 'グループメンバーシップのリクエストが正常に拒否されました。';
 $string['notpublic'] = 'このグループはパブリックではありません。';
 $string['moregroups'] = 'さらにグループを表示する';
+$string['deletegroupnotificationsubject'] = 'グループ「 %s 」が削除されました。';
 $string['addmembers'] = 'メンバーを追加する';
 $string['invitationssent'] = '%d 通の招待状が送信されました。';
 $string['newmembersadded'] = '%d 名の新しいユーザが追加されました。';
@@ -207,7 +218,6 @@ $string['requestedfriendlistmessage'] = 'あなたがフレンドとして追加
 $string['requestedfriendlistmessagereason'] = 'あなたがフレンドとして追加することを %a がリクエストしました。あなたは下記リンクまたはフレンドリストページでフレンドを追加することができます。リクエストの理由は:';
 $string['removefromfriendslist'] = 'フレンドリストから削除する';
 $string['removefromfriends'] = '%s をフレンドリストから削除する';
-$string['confirmremovefriend'] = 'あなたのフレンドリストから、本当にこのユーザを削除してもよろしいですか?';
 $string['removedfromfriendslistsubject'] = 'フレンドリストから削除されました。';
 $string['removedfromfriendslistmessage'] = '%s があなたをフレンドリストから削除しました。';
 $string['removedfromfriendslistmessagereason'] = '%s があなたをフレンドリストから削除しました。
@@ -230,7 +240,6 @@ $string['backtofriendslist'] = 'フレンドリストに戻る';
 $string['findnewfriends'] = '新しいフレンドを探す';
 $string['Views'] = 'ページ';
 $string['Files'] = 'ファイル';
-$string['seeallviews'] = 'すべての %s ページを表示する ...';
 $string['noviewstosee'] = 'あなたが閲覧できるものはありません :(';
 $string['whymakemeyourfriend'] = 'あなたが私をフレンドにする理由:';
 $string['approverequest'] = 'リクエストを承認する!';

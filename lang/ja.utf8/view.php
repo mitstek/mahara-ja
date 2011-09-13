@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-09 17:37:31 UTC
+ * @updated    2011-09-13 09:01:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -48,6 +48,8 @@ $string['unrecogniseddateformat'] = '不明なデータフォーマット';
 $string['allowcommentsonview'] = 'チェックした場合、ユーザがコメントを投稿することができます。';
 $string['ownerformat'] = '氏名表示フォーマット';
 $string['ownerformatdescription'] = '他のユーザがあなたのページを閲覧する場合、あなたの名前をどのように表示しますか?';
+$string['Locked'] = 'ロック';
+$string['lockedgroupviewdesc'] = 'あなたがこのページをロックした場合、グループ管理者のみ編集することができます。';
 $string['profileviewtitle'] = 'プロファイルページ';
 $string['dashboardviewtitle'] = 'ダッシュボードページ';
 $string['grouphomepageviewtitle'] = 'グループホームページ';
