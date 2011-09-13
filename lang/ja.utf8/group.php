@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-13 09:15:52 UTC
+ * @updated    2011-09-13 09:21:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -99,7 +99,7 @@ $string['hiddengroupdescription'] = 'このグループを「グループを探�
 $string['hidemembers'] = 'メンバーシップを隠す';
 $string['hidemembersdescription'] = '非メンバーからグループのメンバーシップ一覧を隠します。';
 $string['hidemembersfrommembers'] = 'メンバーからメンバーシップを隠す';
-$string['hidemembersfrommembersdescription'] = 'グループ管理者を除き、メンバーは一覧表示されません。管理者はグループホームページに一覧表示されます。';
+$string['hidemembersfrommembersdescription'] = 'グループ管理者を除き、メンバーを一覧表示できないようになります。管理者はグループホームページ内に一覧表示されます。';
 $string['friendinvitations'] = 'フレンドの招待';
 $string['invitefriendsdescription'] = 'チェックした場合、メンバーはフレンドに対してグループへの参加を招待することができます。この設定に関わらず、グループ管理者は常に誰にでも招待状を送信することができます。';
 $string['Recommendations'] = 'レコメンデーション';
