@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-18 06:31:58 UTC
+ * @updated    2011-09-21 21:20:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -386,6 +386,8 @@ $string['emailsmtpsecuressl'] = 'SSL';
 $string['emailsmtpsecuretls'] = 'TLS';
 $string['emailnoreplyaddress'] = 'システムメールアドレス';
 $string['emailnoreplyaddressdescription'] = 'このメールアドレスからEメールが送信されたことになります。';
+$string['defaultnotificationmethod'] = 'デフォルトの通知方法';
+$string['defaultnotificationmethoddescription'] = '新しいユーザへの通知方法です。';
 $string['csvfile'] = 'CSVファイル';
 $string['emailusersaboutnewaccount'] = 'ユーザにアカウント情報をメール送信しますか?';
 $string['emailusersaboutnewaccountdescription'] = '新しいアカウント詳細情報をユーザにメール送信するかどうか設定します。';

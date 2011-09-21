@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-09 16:38:36 UTC
+ * @updated    2011-09-21 21:58:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -41,7 +41,7 @@ $string['typeinstitutionmessage'] = 'インスティテューションメッセ�
 $string['typegroupmessage'] = 'グループメッセージ';
 $string['type'] = '活動タイプ';
 $string['attime'] = '-';
-$string['prefsdescr'] = 'あなたがメールオプションのどちらを選択しても、活動ログに通知が記録されます。また、活動ログに記録された通知は自動的に既読にされます。';
+$string['prefsdescr'] = 'あなたがメールオプションのどちらを選択しても、受信箱に通知が記録されます。また、受信箱に記録された通知は自動的に既読にされます。';
 $string['subject'] = '件名';
 $string['date'] = '日時';
 $string['read'] = '既読';
