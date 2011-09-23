@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-06-08 02:02:57 UTC
+ * @updated    2011-09-23 04:05:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -97,6 +97,7 @@ $string['viewstobeadded'] = '追加されるページ';
 $string['viewconfirmremove'] = '本当にこのページをコレクションから削除してもよろしいですか?';
 $string['collectioncopywouldexceedquota'] = 'このコレクションをコピーすることで、あなたのファイルクオータを超過します。';
 $string['copiedpagesblocksandartefactsfromtemplate'] = '%d ページ、%d ブロックおよび %d アーティファクトを %s からコピーしました。';
+$string['copiedblogpoststonewjournal'] = 'コピーされた日誌エントリは新しい別の日誌に登録されました。';
 $string['by'] = 'by';
 $string['copycollection'] = 'コレクションをコピーする';
 

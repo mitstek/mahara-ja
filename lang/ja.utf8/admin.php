@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-21 21:20:29 UTC
+ * @updated    2011-09-23 04:18:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -126,6 +126,7 @@ $string['institutionfilesdescription'] = 'インスティテューションペ�
 $string['pluginadmin'] = 'プラグイン管理';
 $string['pluginadmindescription'] = 'プラグインをインストールおよび設定します。';
 $string['missingplugin'] = 'インストール済みプラグイン (%s) が見つかりませんでした。';
+$string['missingplugindisabled'] = 'インストール済みプラグイン (%s) が見つからないため、無効にされました。';
 $string['installedpluginsmissing'] = '次のプラグインがインストールされていますが、見つけることができませんでした。';
 $string['ensurepluginsexist'] = 'あなたのインストール済みプラグインが %s 配下に設置され、ウェブサーバから読むことができることを確認してください。';
 $string['htmlfilters'] = 'HTMLフィルタ';
@@ -440,20 +441,25 @@ $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの�
 $string['uploadgroupcsverrorgroupnamealreadyexists'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ名 (groupname)「 %s 」はすでに使用されています。';
 $string['uploadgroupcsverrorinvalidshortname'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname) 「 %s 」が有効ではありません。';
 $string['uploadgroupcsverrorinvalidgrouptype'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループタイプ (grouptype) 「 %s 」が有効ではありません。';
+$string['uploadgroupcsverrorinvalideditroles'] = 'あなたのファイルの %s 行目にエラーが発生しました: 編集ロール「 %s 」が有効ではありません。';
 $string['uploadgroupcsverrorshortnamealreadytaken'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname) 「 %s 」はすでに取得されています。';
 $string['uploadgroupcsverrorusernamesnotlastfield'] = '「usernames」フィールドはヘッダの最後のフィールドにしてください。';
+$string['uploadgroupcsverroropencontrolled'] = '%s 行目: グループにはオープンおよび管理メンバーシップの両方を設定することはできません。';
+$string['uploadgroupcsverroropenrequest'] = '%s 行目: オープンメンバーシップのグループにはメンバーシップをリクエストすることはできません。';
 $string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいグループをアップロードすることができます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
-<pre>shortname,displayname,grouptype</pre>
+<pre>shortname,displayname,editroles</pre>
 
-<p>この先頭行には<tt>shortname</tt>、<tt>displayname</tt>および<tt>grouptype</tt>フィールドを含んでください。</p>
+<p>この先頭行には<tt>shortname</tt>、<tt>displayname</tt>および<tt>editroles</tt>フィールドを含んでください。</p>
 
-<p>grouptypeフィールドには以下の設定値を含むことができます: %s</p>
+<p>rolesフィールドには以下の設定値を含むことができます: %s</p>
 
 <p>必要に応じて、あなたのCSVファイルには他のフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
 
+%s';
+$string['uploadgroupcsveditrolesdescription'] = '<p>editrolesフィールドには以下の設定値を含むことができます: %s</p>
 %s';
 $string['uploadgroupmemberscsverrorduplicateusername'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」およびユーザ名 (username)「 %s 」はすでにこのファイルで指定されています。';
 $string['uploadgroupmemberscsverrorinvalidrole'] = 'あなたのファイルの %s 行目にエラーが発生しました: 指定されたグループに対して、ロール「 %s 」は有効ではありません。';
