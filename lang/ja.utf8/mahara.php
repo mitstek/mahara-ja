@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-13 08:53:29 UTC
+ * @updated    2011-09-23 04:46:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -68,6 +68,18 @@ $string['plugindisabled'] = 'プラグインが無効にされました。';
 $string['pluginnotenabled'] = 'プラグインが有効にされていません。あなたはまず %s プラグインを有効にする必要があります。';
 $string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるため、URIを知っているユーザはアクセスすることができます。機能を有効または無効にする代わりに、以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることで、プラグインを表示または非表示にすることができます。';
 $string['pluginexplainartefactblocktypes'] = '「artefact (アーティファクト)」タイプのプラグインを非表示にした場合、Maharaシステムは同時に関連するブロックの表示を停止します。';
+$string['pluginbrokenanddisabledtitle'] = '不完全なプラグイン  (%s) が無効にされました。';
+$string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインのロードを試みましたが、ロードすることができませんでした。
+さらなるエラーを避けるため、このプラグインは無効にされました。
+
+プラグインにより生成されたエラーメッセージは下記のとおりです:
+----------------------------------------------------------------------------
+
+%s
+
+----------------------------------------------------------------------------
+
+プラグインを再度有効にするには、あなたのサイトの拡張機能管理ページにアクセスしてください。';
 $string['next'] = '次へ';
 $string['nextpage'] = '次のページ';
 $string['previous'] = '前へ';
