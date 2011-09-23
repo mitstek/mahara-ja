@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-12 05:02:48 UTC
+ * @updated    2011-09-23 04:37:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -74,6 +74,8 @@ $string['classmissing'] = 'クラス %s (タイプ %s - プラグイン %s) が�
 $string['artefacttypeclassmissing'] = 'すべてのアーティファクトタイプにはクラスを実装する必要があります。%s がありません。';
 $string['artefactpluginmethodmissing'] = 'アーティファクトプラグイン %s で必要な %s が実装されていません。';
 $string['blocktypelibmissing'] = 'アーティファクトプラグイン %s 内にブロック %s のlib.phpがありません。';
+$string['unabletosetmultipleblogs'] = 'ユーザ「 %s 」のビュー「 %s 」のコピーによる複数日誌の有効化に失敗しました。これは<a href="%s">アカウント</a>ページにて、手動で設定することができます。';
+$string['pleaseloginforjournals'] = 'あなたの日誌および記事すべてを閲覧すには、ログアウトした後に再度ログインする必要があります。';
 $string['blocktypemissingconfigform'] = 'ブロックタイプ %s ではinstance_config_formを実装する必要があります。';
 $string['versionphpmissing'] = 'プラグイン %s %s のversion.phpがありません!';
 $string['blocktypeprovidedbyartefactnotinstallable'] = 'これはアーティファクトプラグイン %s の一部としてインストールされます。';
