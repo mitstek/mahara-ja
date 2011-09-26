@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-08-17 15:17:06 UTC
+ * @updated    2011-09-26 06:35:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -92,7 +92,7 @@ $string['fileexistsoverwritecancel'] = 'このファイル名のファイルは�
 $string['filelistloaded'] = 'ファイルリストが読み込まれました。';
 $string['filemoved'] = 'ファイルが正常に移動されました。';
 $string['filenamefieldisrequired'] = 'ファイルフィールドは必須入力項目です。';
-$string['fileinstructions'] = 'ページに含めるため、あなたのイメージ、ドキュメントまたは他のファイルをアップロードしてください。ファイルまたはフォルダを移動するには、フォルダ上にドラッグ&ドロップしてください。';
+$string['fileinstructions'] = 'ページに含めるため、あなたのイメージ、ドキュメントまたは他のファイルをアップロードしてください。あなたは一度にアップロードするため、複数のファイルを選択することができます。フォルダを移動するには、フォルダ上にドラッグ&ドロップしてください。';
 $string['filethingdeleted'] = '%s が削除されました。';
 $string['filewithnameexists'] = '名称「 %s 」のファイルまたはフォルダはすでに存在しています。';
 $string['folder'] = 'フォルダ';
