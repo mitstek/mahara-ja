@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-26 19:44:15 UTC
+ * @updated    2011-09-26 19:49:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -106,7 +106,7 @@ $string['friendinvitations'] = 'フレンドの招待';
 $string['invitefriendsdescription'] = 'チェックした場合、メンバーはフレンドに対してグループへの参加を招待することができます。この設定に関わらず、グループ管理者は常に誰にでも招待状を送信することができます。';
 $string['invitefriends'] = 'フレンドを招待する';
 $string['Recommendations'] = 'レコメンデーション';
-$string['suggestfriendsdescription'] = 'チェックした場合、グループホームページ内のボタンを使って、メンバーは簡単にこのグループのレコメンデーション (推奨文) をフレンドに送信することができます。';
+$string['suggestfriendsdescription'] = 'チェックした場合、グループホームページ内のボタンを使って、メンバーは簡単にこのグループへのレコメンデーション (推奨文) をフレンドに送信することができます。';
 $string['suggesttofriends'] = 'フレンドへの提案';
 $string['userstosendrecommendationsto'] = 'レコメンデーションが送信されるユーザ';
 $string['suggestgroupnotificationsubject'] = 'あなたのグループ参加を %s が提案しました。';
