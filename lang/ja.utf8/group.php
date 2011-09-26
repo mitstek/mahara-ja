@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-23 06:03:33 UTC
+ * @updated    2011-09-26 19:44:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -56,8 +56,10 @@ $string['Controlled'] = '管理';
 $string['controlleddescription'] = 'グループ管理者はユーザの同意なしにグループにユーザを追加することができます。また、メンバーはグループを離れることはできません。';
 $string['membershiptype'] = 'グループメンバーシップタイプ';
 $string['membershiptype.controlled'] = '管理メンバーシップ';
+$string['membershiptype.approve'] = '承認メンバーシップ';
 $string['membershiptype.open'] = 'オープンメンバーシップ';
 $string['membershiptype.abbrev.controlled'] = '管理';
+$string['membershiptype.abbrev.approve'] = 'ノーマル';
 $string['membershiptype.abbrev.open'] = 'オープン';
 $string['membershipopencontrolled'] = 'メンバーシップをオープンおよび管理の両方にすることはできません。';
 $string['membershipopenrequest'] = 'オープンメンバーシップグループではメンバーシップリクエストを受け付けません。';
@@ -102,8 +104,15 @@ $string['hidemembersfrommembers'] = 'メンバーからメンバーシップを�
 $string['hidemembersfrommembersdescription'] = 'グループ管理者を除き、メンバーを一覧表示できないようになります。管理者はグループホームページ内に一覧表示されます。';
 $string['friendinvitations'] = 'フレンドの招待';
 $string['invitefriendsdescription'] = 'チェックした場合、メンバーはフレンドに対してグループへの参加を招待することができます。この設定に関わらず、グループ管理者は常に誰にでも招待状を送信することができます。';
+$string['invitefriends'] = 'フレンドを招待する';
 $string['Recommendations'] = 'レコメンデーション';
 $string['suggestfriendsdescription'] = 'チェックした場合、グループホームページ内のボタンを使って、メンバーは簡単にこのグループのレコメンデーション (推奨文) をフレンドに送信することができます。';
+$string['suggesttofriends'] = 'フレンドへの提案';
+$string['userstosendrecommendationsto'] = 'レコメンデーションが送信されるユーザ';
+$string['suggestgroupnotificationsubject'] = 'あなたのグループ参加を %s が提案しました。';
+$string['suggestgroupnotificationmessage'] = 'あなたのグループ参加を %s が提案しました: グループ「 %s 」(%s)';
+$string['recommendationssent'] = '%d 件のレコメンデーションが送信されました。';
+$string['suggestinvitefriends'] = 'あなたはフレンドの招待およびレコメンデーションの両方を同時に有効にすることはできません。';
 $string['editgroupmembership'] = 'グループメンバーシップを編集する';
 $string['editmembershipforuser'] = '%s のグループメンバーシップを編集する';
 $string['changedgroupmembership'] = 'グループメンバーシップが正常に更新されました。';
@@ -195,6 +204,7 @@ $string['declinerequestsuccess'] = 'グループメンバーシップのリク�
 $string['notpublic'] = 'このグループはパブリックではありません。';
 $string['moregroups'] = 'さらにグループを表示する';
 $string['deletegroupnotificationsubject'] = 'グループ「 %s 」が削除されました。';
+$string['deletegroupnotificationmessage'] = 'あなたはグループ %s (%s) のメンバーでした。現在、このグループは削除されています。';
 $string['addmembers'] = 'メンバーを追加する';
 $string['invitationssent'] = '%d 通の招待状が送信されました。';
 $string['newmembersadded'] = '%d 名の新しいユーザが追加されました。';
