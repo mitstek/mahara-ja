@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-26 19:49:09 UTC
+ * @updated    2011-09-28 03:56:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -113,6 +113,7 @@ $string['suggestgroupnotificationsubject'] = 'あなたのグループ参加を 
 $string['suggestgroupnotificationmessage'] = 'あなたのグループ参加を %s が提案しました: グループ「 %s 」(%s)';
 $string['recommendationssent'] = '%d 件のレコメンデーションが送信されました。';
 $string['suggestinvitefriends'] = 'あなたはフレンドの招待およびレコメンデーションの両方を同時に有効にすることはできません。';
+$string['suggestfriendsrequesterror'] = 'あなたはオープンまたはリクエストグループでのみ、フレンドのレコメンデーションを有効にできます。';
 $string['editgroupmembership'] = 'グループメンバーシップを編集する';
 $string['editmembershipforuser'] = '%s のグループメンバーシップを編集する';
 $string['changedgroupmembership'] = 'グループメンバーシップが正常に更新されました。';
