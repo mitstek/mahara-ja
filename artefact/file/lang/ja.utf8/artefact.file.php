@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-26 06:38:25 UTC
+ * @updated    2011-10-01 06:50:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -55,7 +55,7 @@ $string['updateuserquotas'] = 'ユーザクオータを更新する';
 $string['updateuserquotasdesc'] = 'チェックした場合、あなたが上で選択したデフォルトクオータが既存のユーザすべてに適用されます。';
 $string['institutionoverride'] = 'インスティテューションクオータ';
 $string['institutionoverridedescription'] = 'あなたはインスティテューション管理者がユーザに与えることのできる最大クオータを設定することができます。同時にそれぞれのインスティテューションのデフォルトクオータを設定することができます。';
-$string['maxquotaenabled'] = 'サイト全体の最大クオータを強制する';
+$string['maxquotaenabled'] = 'サイト全体に最大クオータを強制する';
 $string['maxquota'] = '最大クオータ';
 $string['maxquotatoolow'] = '最大クオータはデフォルトクオータより小さくすることができません。';
 $string['maxquotaexceeded'] = 'あなたはこのサイトに設定されている最大利用可能なサイズ (%s) を超えてクオータを指定しました。値を小さくする、または最大サイズを増やすため、サイト管理者に連絡してください。';
