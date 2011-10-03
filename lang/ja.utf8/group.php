@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-28 03:56:26 UTC
+ * @updated    2011-10-03 05:30:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -244,6 +244,8 @@ $string['friendrequestrejectedsubject'] = 'フレンドリクエストが拒否�
 $string['friendrequestrejectedmessage'] = '%s があなたのフレンドリクエストを拒否しました。';
 $string['friendrequestrejectedmessagereason'] = '%s があなたのフレンドリクエストを拒否しました。
 拒否理由は:';
+$string['acceptfriendshiprequestfailed'] = 'フレンドリクエストの承認に失敗しました。';
+$string['addtofriendsfailed'] = 'あなたのフレンドリストへの %s の追加に失敗しました。';
 $string['allfriends'] = 'すべてのフレンド';
 $string['currentfriends'] = '現在のフレンド';
 $string['pendingfriends'] = '保留中フレンド';
