@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-28 04:21:50 UTC
+ * @updated    2011-10-07 05:13:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -572,6 +572,7 @@ $string['Permissions'] = 'パーミッション';
 $string['republish'] = '公開';
 $string['view'] = '表示';
 $string['artefactnotpublishable'] = 'アーティファクト %s はページ %s で公開できません。';
+$string['nopublishpermissiononartefact'] = 'あなたには %s を公開するパーミッションがありません。';
 $string['belongingto'] = '所属';
 $string['allusers'] = 'すべてのユーザ';
 $string['attachment'] = '添付ファイル';
