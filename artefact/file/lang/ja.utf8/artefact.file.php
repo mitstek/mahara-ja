@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-10-01 06:50:25 UTC
+ * @updated    2011-10-11 01:52:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -160,6 +160,7 @@ $string['ai'] = 'Postscriptドキュメント';
 $string['aiff'] = 'AIFFオーディオファイル';
 $string['application'] = '不明なアプリケーション';
 $string['au'] = 'AUオーディオファイル';
+$string['audio'] = 'オーディオファイル';
 $string['avi'] = 'AVIビデオファイル';
 $string['bmp'] = 'ビットマップイメージ';
 $string['doc'] = 'MS Wordドキュメント';
@@ -198,6 +199,7 @@ $string['tar'] = 'TAR書庫';
 $string['gz'] = 'Gzip圧縮ファイル';
 $string['bz2'] = 'Bzip2圧縮ファイル';
 $string['txt'] = 'プレインテキストファイル';
+$string['video'] = 'ビデオファイル';
 $string['wav'] = 'WAVオーディオファイル';
 $string['wmv'] = 'WMVビデオファイル';
 $string['xml'] = 'XMLファイル';
