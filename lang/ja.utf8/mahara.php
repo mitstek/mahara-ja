@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-10-07 05:13:02 UTC
+ * @updated    2011-10-27 15:44:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -111,6 +111,7 @@ $string['sortfreq'] = 'タグを使用頻度順でソートする';
 $string['sortresultsby'] = 'ソート結果:';
 $string['date'] = '日時';
 $string['dateformatguide'] = 'フォーマット「YYYY/MM/DD」を使用してください。';
+$string['dateofbirthformatguide'] = 'フォーマット「YYYY/MM/DD」を使用してください。';
 $string['datetimeformatguide'] = 'フォーマット「YYYY/MM/DD HH:MM」を使用してください。';
 $string['filterresultsby'] = 'フィルタ結果:';
 $string['tagfilter_all'] = 'すべて';

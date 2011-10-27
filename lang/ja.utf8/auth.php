@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-09-03 15:09:02 UTC
+ * @updated    2011-10-27 15:41:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -67,6 +67,7 @@ $string['errnoxmlrpcuser'] = '現時点ではあなたを認証することが�
 
 *あなたのSSOセッションが失効しました。他のアプリケーションに戻って、Maharaにログインするためのリンクを再度クリックしてください。
 *あなたのMaharaに対するSSOが許可されていません。あなたがSSOできるかどうか管理者にご確認ください。';
+$string['toomanytries'] = 'あなたは最大ログイン回数を超過しました。アカウントは5分間ロックされます。';
 $string['unabletosigninviasso'] = 'SSO経由でサインインできません。';
 $string['xmlrpccouldnotlogyouin'] = '申し訳ございません、あなたをログインさせることができませんでした :(';
 $string['xmlrpccouldnotlogyouindetail'] = '申し訳ございません、今回はあなたをMaharaにログインさせることができませんでした。ログインを再度お試しください。問題が続く場合、あなたの管理者にご連絡ください。';
