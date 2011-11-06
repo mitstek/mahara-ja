@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-09-03 15:09:02 UTC
+ * @updated    2011-11-06 14:15:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -76,5 +76,6 @@ $string['noauthpluginconfigoptions'] = 'このプラグインに関する設定�
 $string['hostwwwrootinuse'] = 'すでに別のインスティテューション (%s) により、WWWルートが使用されています。';
 $string['duplicateremoteusername'] = '外部認証ユーザ名はすでにユーザ %s によって使用されています。外部認証ユーザ名は認証メソッド内でユニーク (固有) である必要があります。';
 $string['duplicateremoteusernameformerror'] = '外部認証ユーザ名は認証メソッド内でユニーク (固有) である必要があります。';
+$string['cannotjumpasmasqueradeduser'] = '別のユーザとして代理ログインしているため、あなたは他のアプリケーションにジャンプできません。';
 
 ?>
