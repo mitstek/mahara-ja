@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-23 04:29:17 UTC
+ * @updated    2011-11-18 02:27:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -362,6 +362,8 @@ $string['promiscuousmodeenabled'] = '自動登録が有効にされました。'
 $string['promiscuousmodedescription'] = 'すべてのホストに対してインスティテューションレコードを作成し、ユーザがMaharaにログインできるようにします。';
 $string['wwwroot'] = 'WWWルート';
 $string['wwwrootdescription'] = 'これはあなたのユーザがMaharaにアクセスするためのURIです。また、SSLキーが作成されるURIでもあります。';
+$string['deletekey'] = 'このキーを削除する';
+$string['keydeleted'] = 'パブリックキーの削除および再生成が完了しました。';
 $string['proxysettings'] = 'プロクシ設定';
 $string['proxyaddress'] = 'プロクシアドレス';
 $string['proxyaddressdescription'] = 'あなたのサイトがインターネットにアクセスするためプロクシサーバを使用している場合、「ホスト名:ポート番号」表記法で指定してください。';
