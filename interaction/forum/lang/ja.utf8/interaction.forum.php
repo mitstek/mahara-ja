@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-10 08:32:33 UTC
+ * @updated    2011-11-24 13:00:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -108,7 +108,7 @@ $string['moderatorsdescription'] = 'モデレータはトピックおよび投�
 $string['name'] = 'フォーラム';
 $string['nameplural'] = 'フォーラム';
 $string['newforum'] = '新しいフォーラム';
-$string['newforumpostnotificationsubject'] = '%s: %s';
+$string['newforumpostnotificationsubjectline'] = '%s';
 $string['newpost'] = '新しい投稿:';
 $string['newtopic'] = '新しいトピック';
 $string['noforumpostsyet'] = 'まだこのグループに投稿はありません。';
@@ -132,7 +132,7 @@ $string['potentialmoderators'] = '潜在的なモデレータ';
 $string['re'] = 'Re: %s';
 $string['regulartopics'] = '標準トピック';
 $string['Reply'] = '返信';
-$string['replyforumpostnotificationsubject'] = 'Re: %s: %s';
+$string['replyforumpostnotificationsubjectline'] = 'Re: %s';
 $string['replyto'] = '返信:';
 $string['Sticky'] = 'スティッキー';
 $string['stickydescription'] = 'スティッキートピックはすべてのページトップに表示されます。';
