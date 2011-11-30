@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-13 09:01:50 UTC
+ * @updated    2011-11-30 14:05:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -101,6 +101,7 @@ $string['secreturldeleted'] = 'あなたのシークレットURIが削除され�
 $string['secreturlupdated'] = 'シークレットURIが更新されました。';
 $string['generatesecreturl'] = '%s の新しいシークレットURIを生成します。';
 $string['secreturls'] = 'シークレットURI';
+$string['publicaccessnotallowed'] = 'あなたのインスティテューションまたはサイト管理者がパブリックページおよびシークレットURIを無効にしました。あなたがここで閲覧することのできるシークレットURI一覧すべては、現在使用することができません。';
 $string['inviteusertojoingroup'] = 'このユーザをグループへの参加に招待する';
 $string['addusertogroup'] = 'このユーザをグループに追加する';
 $string['addedtowatchlist'] = 'このページがあなたのウォッチリストに追加されました。';
