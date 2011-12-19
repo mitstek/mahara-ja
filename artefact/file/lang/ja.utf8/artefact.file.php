@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-10-11 01:52:12 UTC
+ * @updated    2011-12-19 01:24:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -83,7 +83,7 @@ $string['File'] = 'ファイル';
 $string['fileadded'] = 'ファイルが選択されました。';
 $string['filealreadyindestination'] = 'あなたが移動しようとしたファイルはすでにフォルダに登録されています。';
 $string['fileappearsinviews'] = 'このファイルはあなたの1つまたはそれ以上のページに使用されています。';
-$string['fileattached'] = 'このファイルはあなたのポートフォリオ内にある、他の %s 件のアイテムに添付されています。';
+$string['fileattachedtoportfolioitems'] = 'このファイルは、あなたのポートフォリオ内の %s アイテムに添付されました。';
 $string['fileremoved'] = 'ファイルが削除されました。';
 $string['files'] = 'ファイル';
 $string['Files'] = 'ファイル';
@@ -222,7 +222,7 @@ $string['noimagesfound'] = 'イメージはありません。';
 $string['profileiconaddedtoimagesfolder'] = 'あなたのプロファイル写真が「 %s 」フォルダにアップロードされました。';
 $string['profileiconsetdefaultnotvalid'] = 'デフォルトのプロファイル写真を設定できませんでした。選択が正しくありません。';
 $string['profileiconsdefaultsetsuccessfully'] = 'デフォルトプロファイル写真が正常に設定されました。';
-$string['profileiconsdeletedsuccessfully'] = 'プロファイル写真が正常に削除されました。';
+$string['nprofilepictures'] = 'プロファイル写真';
 $string['profileiconsnoneselected'] = '削除するプロファイル写真が選択されていません。';
 $string['onlyfiveprofileicons'] = 'あなたは5つのプロファイル写真のみアップロードすることができます。';
 $string['or'] = 'または';
@@ -240,7 +240,9 @@ $string['usingnodefaultprofileicon'] = '現在、デフォルトのプロファ�
 $string['wrongfiletypeforblock'] = 'あなたがアップロードしたファイルはこのブロックにとって、正しいタイプではありません。';
 $string['Contents'] = 'コンテンツ';
 $string['Continue'] = '続ける';
-$string['extractfilessuccess'] = '%s 個のフォルダおよび %s 個のファイルが作成されました。';
+$string['nfolders'] = '%s フォルダ';
+$string['nfiles'] = '%s ファイル';
+$string['createdtwothings'] = '%s および %s を作成しました。';
 $string['filesextractedfromarchive'] = 'アーカイブから解凍されたファイル';
 $string['filesextractedfromziparchive'] = 'Zipアーカイブから解凍されたファイル';
 $string['fileswillbeextractedintofolder'] = 'ファイルは%s に解凍されます。';

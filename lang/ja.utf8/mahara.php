@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-10-27 15:44:19 UTC
+ * @updated    2011-12-19 01:12:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -103,7 +103,7 @@ $string['youhavenottaggedanythingyet'] = 'あなたはまたタグ付けして�
 $string['mytags'] = 'マイタグ';
 $string['Tag'] = 'タグ';
 $string['itemstaggedwith'] = '「 %s 」でタグ付けされたアイテム';
-$string['numitems'] = '%s アイテム';
+$string['nitems'] = '%s アイテム';
 $string['searchresultsfor'] = '検索結果:';
 $string['alltags'] = 'すべてのタグ';
 $string['sortalpha'] = 'タグをアルファベット順でソートする';
