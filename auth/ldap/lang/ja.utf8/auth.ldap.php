@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-12 14:00:04 UTC
+ * @updated    2011-12-22 16:00:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -34,9 +34,11 @@ $string['notusable'] = 'PHP LDAP拡張モジュールをインストールして
 $string['contexts'] = 'コンテクスト';
 $string['distinguishedname'] = '識別名';
 $string['hosturl'] = 'ホストURI';
+$string['ldapfieldforpreferredname'] = '表示名のLDAPフィールド';
 $string['ldapfieldforemail'] = 'メールアドレスのLDAPフィールド';
 $string['ldapfieldforfirstname'] = '名のLDAPフィールド';
 $string['ldapfieldforsurname'] = '姓のLDAPフィールド';
+$string['ldapfieldforstudentid'] = '学生IDのLDAPフィールド';
 $string['ldapversion'] = 'LDAPバージョン';
 $string['starttls'] = 'TLS暗号化';
 $string['password'] = 'パスワード';
