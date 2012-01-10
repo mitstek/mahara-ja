@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-11-30 14:05:53 UTC
+ * @updated    2012-01-10 17:16:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -145,8 +145,9 @@ $string['submitviewtogroup'] = '評価のため「 %s 」を「 %s 」に送信�
 $string['cantsubmitviewtogroup'] = 'あなたはこのページの評価を目的として、このグループに送信することはできません。';
 $string['cantdeleteview'] = 'あなたはこのページを削除できません。';
 $string['deletespecifiedview'] = 'ページ「 %s 」を削除する';
-$string['deleteviewconfirm'] = '本当にこのページを削除してもよろしいですか? 元に戻すことはできません。';
-$string['deleteviewconfirmnote'] = '<strong>注意:</strong> あなたがこのページにリンクしているすべてのファイルおよび日誌エントリは継続して利用することができます。<br />テキストボックスに直接入力されたテキスト、およびこのページに投稿されたフィードバックは削除されます。';
+$string['deleteviewconfirm1'] = '本当にこのページを削除してもよろしいですか? 元に戻すことはできません。';
+$string['deleteviewconfirmbackup'] = '<a href="%sexport/" target="_blank">エクスポート</a>により、このページのバックアップを作成することを検討してください。';
+$string['deleteviewconfirmnote1'] = '<strong>注意:</strong> このページにリンクしたすべてのファイルおよび日誌を利用することはできます。<br/>しかし、このページに投稿されたすべてのフィードバックは削除されます。';
 $string['editaccesspagedescription3'] = 'デフォルトでは、あなたのページをあなたのみ閲覧できます。このページにアクセスルールを追加することで、あなたは他のユーザとページを共有することができます。アクセスルールを追加した後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editsecreturlsintable'] = '個別に設定する必要があるため、このページでは<b>シークレットURI</b>を設定できません。シークレットURIを設定するには、<a href="%sview/share.php">コレクションおよびページの一覧</a>に戻ってください。';
 $string['editaccessinvalidviewset'] = '無効な一連のページおよびコレクションのアクセスを編集しようとしました。';

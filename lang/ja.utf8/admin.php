@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-11-18 02:27:20 UTC
+ * @updated    2012-01-10 17:18:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -543,6 +543,10 @@ $string['usersunsuspendedsuccessfully'] = 'ユーザの利用停止が正常に�
 $string['suspendingadmin'] = '利用停止を実行した管理者';
 $string['usersuspended'] = 'ユーザが利用停止されました。';
 $string['userunsuspended'] = 'ユーザの利用停止が解除されました。';
+$string['expiredusers'] = '有効期限切れユーザ';
+$string['expired'] = '有効期限';
+$string['unexpireusers'] = '有効期限切れユーザを復活する';
+$string['usersreactivated'] = 'ユーザを復活しました。';
 $string['accountsettings'] = 'アカウント設定';
 $string['siteaccountsettings'] = 'サイトアカウント設定';
 $string['changeusername'] = 'ユーザ名を変更する';
@@ -561,10 +565,11 @@ $string['suspendedreason'] = '利用停止の理由';
 $string['suspendedreasondescription'] = 'ユーザの次回ログイン時、表示されるテキストです。';
 $string['unsuspenduser'] = 'ユーザの利用停止を解除する';
 $string['thisuserissuspended'] = 'このユーザは利用停止されました。';
-$string['suspendedby'] = 'このユーザは %s により利用停止されました。';
+$string['suspendedinfo'] = 'このユーザは %s によって %s に利用停止されました。';
 $string['userdeletedsuccessfully'] = 'ユーザが正常に削除されました。';
 $string['confirmdeleteuser'] = '本当にこのユーザを削除してもよろしいですか?';
 $string['filequota'] = 'ファイルクオータ (MB)';
+$string['quotaused'] = '利用クオータ';
 $string['filequotadescription'] = 'ユーザファイルエリアでの利用可能な合計保存領域です。';
 $string['addusertoinstitution'] = 'インスティテューションにユーザを追加する';
 $string['removeuserfrominstitution'] = 'このインスティテューションからユーザを削除する';

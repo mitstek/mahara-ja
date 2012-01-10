@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-12-20 14:40:33 UTC
+ * @updated    2012-01-09 23:01:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -38,6 +38,7 @@ $string['strftimedayshort'] = '%%Y年 %%m月 %%d日';
 $string['strftimedaytime'] = '(%%a) %%H:%%M';
 $string['strftimemonthyear'] = '%%Y年 %%m月';
 $string['strftimerecent'] = '%%m月 %%d日 %%H:%%M';
+$string['strftimerecentyear'] = '%%Y年 %%m月 %%d日 %%H:%%M';
 $string['strftimerecentfull'] = '%%Y年 %%m月 %%d日(%%a) %%H:%%M';
 $string['strftimetime'] = '%%H:%%M';
 $string['strfdaymonthyearshort'] = '%%Y/%%m/%%d';

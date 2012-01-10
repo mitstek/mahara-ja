@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-12-22 16:04:05 UTC
+ * @updated    2012-01-09 23:13:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -112,5 +112,8 @@ $string['postmaxlessthanuploadmax'] = 'あなたのPHP post_max_size (%s) はupl
 $string['smallpostmaxsize'] = 'あなたのPHP post_max_size (%s) 設定は小さすぎます。%s より大きなファイルをアップロードした場合、エラー表示なしにアップロードが失敗してしまいます。';
 $string['notenoughsessionentropy'] = 'あなたのsession.entropy_length設定は小さすぎます。生成されるセッションIDをランダムおよび予測不能にするため、あなたのphp.ini内で少なくとも16以上の値を設定してください。';
 $string['noreplyaddressmissingorinvalid'] = 'システムメールアドレスに空白または有効ではないメールアドレスが設定されています。<a href="%s">サイトオプション内の「Eメール設定」</a>の設定内容を確認してください。';
+$string['openbasedirenabled'] = 'あなたのサーバでは、PHPの「open_basedir」制限が有効にされています。';
+$string['openbasedirpaths'] = 'Maharaは次のパス内でのみファイルを開くことができます: %s';
+$string['openbasedirwarning'] = 'いくつかの外部サイトへのリクエストを完了できない可能性があります。特に、フィードの更新が停止してしまう場合があります。';
 
 ?>
