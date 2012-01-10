@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-01-10 17:18:36 UTC
+ * @updated    2012-01-10 17:28:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -545,7 +545,7 @@ $string['usersuspended'] = 'ユーザが利用停止されました。';
 $string['userunsuspended'] = 'ユーザの利用停止が解除されました。';
 $string['expiredusers'] = '有効期限切れユーザ';
 $string['expired'] = '有効期限';
-$string['unexpireusers'] = '有効期限切れユーザを復活する';
+$string['unexpireusers'] = '有効期限切れユーザを復活させる';
 $string['usersreactivated'] = 'ユーザを復活しました。';
 $string['accountsettings'] = 'アカウント設定';
 $string['siteaccountsettings'] = 'サイトアカウント設定';
