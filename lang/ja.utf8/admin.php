@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-01-10 22:07:59 UTC
+ * @updated    2012-02-02 09:00:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -618,6 +618,8 @@ $string['addinstitution'] = 'インスティテューションを追加する';
 $string['authplugin'] = '認証プラグイン';
 $string['deleteinstitution'] = 'インスティテューションを削除する';
 $string['deleteinstitutionconfirm'] = '本当にこのインスティテューションを削除してもよろしいですか?';
+$string['institutionstillhas'] = 'このインスティテューションにはまだ %s が登録されています。';
+$string['institutionauthinuseby'] = 'このインスティテューション認証はまだ %s によって使用されています。';
 $string['institutiononly'] = 'インスティテューションのみ';
 $string['institutionaddedsuccessfully2'] = 'インスティテューションが正常に追加されました。';
 $string['institutiondeletedsuccessfully'] = 'インスティテューションが正常に削除されました。';
