@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-12-19 01:12:41 UTC
+ * @updated    2012-02-08 01:08:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -488,6 +488,8 @@ $string['findgroups'] = 'グループを探す';
 $string['returntosite'] = 'サイトに戻る';
 $string['siteadministration'] = 'サイト管理';
 $string['institutionadministration'] = 'インスティテューション管理';
+$string['siteinformation'] = 'サイト情報';
+$string['institutioninformation'] = 'インスティテューション情報';
 $string['unreadmessages'] = '未読メッセージ';
 $string['unreadmessage'] = '未読メッセージ';
 $string['siteclosed'] = 'データベースアップグレードのため、サイトは一時的に閉鎖されています。サイト管理者はログインすることができます。';
@@ -868,6 +870,7 @@ $string['Visits'] = '訪問';
 $string['after'] = '後';
 $string['before'] = '前';
 $string['Visibility'] = '可視性';
+$string['hidden'] = '非表示';
 $string['importedfrom'] = 'インポート元 %s';
 $string['incomingfolderdesc'] = '他のネットワークホストからインポートされたファイル';
 $string['remotehost'] = 'リモートホスト %s';
