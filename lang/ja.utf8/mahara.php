@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-02-08 01:08:21 UTC
+ * @updated    2012-02-09 15:54:40 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -564,6 +564,7 @@ $string['results'] = '結果';
 $string['Results'] = '結果';
 $string['noresultsfound'] = '該当データはありません。';
 $string['users'] = 'ユーザ';
+$string['searchwithin'] = '検索対象';
 $string['artefact'] = 'アーティファクト';
 $string['Artefact'] = 'アーティファクト';
 $string['Artefacts'] = 'アーティファクト';
@@ -871,6 +872,9 @@ $string['after'] = '後';
 $string['before'] = '前';
 $string['Visibility'] = '可視性';
 $string['hidden'] = '非表示';
+$string['lastupdate'] = '最終更新日時';
+$string['lastupdateorcomment'] = '最終更新日時またはコメント';
+$string['Title'] = 'タイトル';
 $string['importedfrom'] = 'インポート元 %s';
 $string['incomingfolderdesc'] = '他のネットワークホストからインポートされたファイル';
 $string['remotehost'] = 'リモートホスト %s';
