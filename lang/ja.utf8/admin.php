@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-02-08 01:39:05 UTC
+ * @updated    2012-02-16 14:22:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -402,6 +402,7 @@ $string['forceuserstochangepassworddescription'] = '初回ログイン時、ユ�
 $string['uploadcsvinstitution'] = '新しいユーザのインスティテューションおよび認証方法';
 $string['configureauthplugin'] = 'あなたがユーザを追加するには、最初に認証プラグインを設定する必要があります。';
 $string['csvfiledescription'] = '追加するユーザを含むファイル';
+$string['csvmaxusersdescription'] = 'このファイルには %s 以上含むことができません。';
 $string['groupcsvfiledescription'] = '追加するグループを含むファイル';
 $string['groupmemberscsvfiledescription'] = '更新するグループメンバーを含むファイル';
 $string['csverroremptyfile'] = 'CSVファイルが空です。';
@@ -443,6 +444,7 @@ $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの�
 <p>必要に応じて、あなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
 
 %s';
+$string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれている行が多すぎます。あなたは %s 以上含むことができません。';
 $string['uploadgroupcsverrorgroupnamealreadyexists'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ名 (groupname)「 %s 」はすでに使用されています。';
 $string['uploadgroupcsverrorinvalidshortname'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname) 「 %s 」が有効ではありません。';
 $string['uploadgroupcsverrorinvalidgrouptype'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループタイプ (grouptype) 「 %s 」が有効ではありません。';
@@ -786,6 +788,7 @@ $string['withselectedusers'] = '選択したユーザに対して';
 $string['getreports'] = 'レポートを取得する';
 $string['bulkactions'] = 'バルク処理';
 $string['editselectedusersdescription1'] = 'あなたがユーザ検索ページで選択したユーザの利用停止、削除または認証方法を変更します。';
+$string['uneditableusers'] = 'あなたは編集することのできない %s 件のユーザを選択しました。選択されたユーザはリストから取り除かれます。';
 $string['exportusersascsv'] = 'ユーザをCSVフォーマットでエクスポートする';
 $string['Download'] = 'ダウンロード';
 $string['suspendusers'] = 'ユーザを利用停止する';

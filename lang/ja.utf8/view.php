@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-02-09 15:55:10 UTC
+ * @updated    2012-02-16 14:14:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -87,6 +87,7 @@ $string['viewssubmittedtogroup'] = 'このグループに送信されたペー�
 $string['submitaviewtogroup'] = 'このグループにページを送信する';
 $string['youhavesubmitted'] = 'あなたはこのグループに <a href="%s">%s</a> を送信しました。';
 $string['youhavesubmittedon'] = 'あなたはこのグループに対して、<a href="%s">%s</a> を %s　%s に送信しました。';
+$string['listedinpages'] = 'ページ内一覧';
 $string['public'] = 'パブリック';
 $string['loggedin'] = 'ログインユーザ';
 $string['friends'] = 'フレンド';
