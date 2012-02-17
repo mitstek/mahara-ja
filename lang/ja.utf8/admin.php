@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-02-16 14:22:32 UTC
+ * @updated    2012-02-17 19:47:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -588,6 +588,7 @@ $string['youcannotadministerthisuser'] = 'あなたはこのユーザを管理�
 $string['usernamechangenotallowed'] = '選択された認証方法ではユーザ名の変更が許可されていません。';
 $string['passwordchangenotallowed'] = '選択された認証方法ではパスワードの変更が許可されていません。';
 $string['thisuserdeleted'] = 'このユーザは削除されました。';
+$string['disableemail'] = 'メールを無効にする';
 $string['adduser'] = 'ユーザを追加する';
 $string['adduserdescription'] = '新しいユーザを作成します。';
 $string['basicinformationforthisuser'] = 'このユーザの基本情報です。';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-01-04 16:27:51 UTC
+ * @updated    2012-02-17 19:47:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -40,6 +40,7 @@ $string['errorbadconfig'] = 'SimpleSAMLPHP設定ディレクトリ「 %s 」が�
 $string['errorbadcombo'] = 'リモートユーザを選択していない場合のみ、あなたはユーザ自動作成を選択することができます。';
 $string['errorbadinstitutioncombo'] = 'このインスティテューション属性およびインスティテューション値の組み合わせの認証インスタンスはすでに存在します。';
 $string['errormissinguserattributes'] = 'あなたは認証されたようですが、私たちは必要なユーザ属性を受信していません。あなたのアイデンティティプロバイダ (IdP) が、姓名およびメールアドレスに対するSSOフィールドをMaharaの動作しているサービスプロバイダにリリースしているか確認してください。または、このサーバのウェブマスタにご連絡ください。';
+$string['errorremoteuser'] = '「usersuniquebyusername」が無効にされた場合、リモートユーザとの合致は必須です。';
 $string['institutionattribute'] = 'インスティテューション属性 (%s を含む)';
 $string['institutionvalue'] = '属性をチェックするためのインスティテューション値';
 $string['link'] = 'アカウントをリンクする';
