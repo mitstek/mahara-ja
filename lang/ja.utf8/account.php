@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-21 21:08:59 UTC
+ * @updated    2012-02-21 18:41:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -56,10 +56,10 @@ $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'あなたのタグクラウドに表示されるタグの最大数です。';
 $string['enablemultipleblogs'] = '複数日誌を有効にする';
 $string['enablemultipleblogsdescription'] = 'デフォルトでは、あなたは1つの日誌のみMaharaに作成することができます。あなたが1つ以上の日誌を作成したい場合、このオプションをチェックしてください。';
-$string['disablemultipleblogserror'] = '1つの日誌のみ作成していない限り、あなたは複数日誌を無効にすることはできません。';
 $string['hiderealname'] = '実名を隠す';
 $string['hiderealnamedescription'] = 'あなたがニックネームを設定した場合、そして、あなたの実名検索により、他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
-$string['showhomeinfo'] = 'ホームページにMaharaに関する情報を表示する';
+$string['showhomeinfo1'] = 'ホームページ情報';
+$string['showhomeinfodescription'] = 'ホームページ上に %s の使用方法に関する情報を表示します。';
 $string['mobileuploadtoken'] = 'モバイルアップロードトークン';
 $string['mobileuploadtokendescription'] = 'アップロードを有効にするため、ここおよびあなたの携帯電話にトークンを入力してください (注意: それぞれのアップロード終了、自動的に変更されます)。<br />問題が発生した場合 - ここおよびあなたの携帯電話の入力内容をリセットしてください。';
 $string['prefssaved'] = 'プリファレンスが保存されました。';

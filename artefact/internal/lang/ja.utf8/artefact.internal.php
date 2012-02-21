@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-08-19 16:54:43 UTC
+ * @updated    2012-02-21 18:38:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -40,7 +40,6 @@ $string['viewmyprofile'] = '私のプロファイルを表示する';
 $string['aboutme'] = '私について';
 $string['contact'] = '連絡先';
 $string['messaging'] = 'メッセージング';
-$string['general'] = '一般';
 $string['firstname'] = '名';
 $string['lastname'] = '姓';
 $string['fullname'] = 'フルネーム';
@@ -76,7 +75,7 @@ $string['saveprofile'] = 'プロファイルを保存する';
 $string['profilesaved'] = 'プロファイルが正常に保存されました。';
 $string['profilefailedsaved'] = 'プロファイルの保存に失敗しました。';
 $string['emailvalidation_subject'] = 'メールアドレスの確認';
-$string['emailvalidation_body'] = '%s さん、こんにちは。
+$string['emailvalidation_body1'] = '%s さん、こんにちは。
 
 Mahara内のあなたのユーザアカウントにメールアドレス「 %s 」が追加されました。下記リンクにアクセスして、このメールアドレスを有効化してください。
 

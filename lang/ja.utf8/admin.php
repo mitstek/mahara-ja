@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-02-17 19:47:24 UTC
+ * @updated    2012-02-21 18:42:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -716,6 +716,7 @@ $string['userstoberemoved'] = '削除するユーザ';
 $string['removeusers'] = 'ユーザを削除する';
 $string['declinerequests'] = 'リクエストを拒否する';
 $string['nousersupdated'] = '更新されたユーザはありません。';
+$string['errorupdatinginstitutionusers'] = 'インスティテューションユーザ更新中にエラーが発生しました。';
 $string['revokeinvitations'] = '招待を取り消す';
 $string['invitedusers'] = '招待されたユーザ';
 $string['userstobeuninvited'] = '招待するユーザ';
