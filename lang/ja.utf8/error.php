@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-02-21 18:51:47 UTC
+ * @updated    2012-02-24 18:52:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -115,7 +115,7 @@ $string['notenoughsessionentropy'] = 'あなたのsession.entropy_length設定�
 $string['noreplyaddressmissingorinvalid'] = 'システムメールアドレスに空白または有効ではないメールアドレスが設定されています。<a href="%s">サイトオプション内の「Eメール設定」</a>の設定内容を確認してください。';
 $string['openbasedirenabled'] = 'あなたのサーバでは、PHPの「open_basedir」制限が有効にされています。';
 $string['openbasedirpaths'] = 'Maharaは次のパス内でのみファイルを開くことができます: %s';
-$string['openbasedirwarning'] = 'いくつかの外部サイトへのリクエストを完了できない可能性があります。特に、フィードの更新が停止してしまう場合があります。';
+$string['openbasedirwarning'] = 'いくつかの外部サイトへのリクエストを完了できない可能性があります。特にフィードの更新が停止してしまう場合があります。';
 $string['gdlibrarylacksgifsupport'] = 'インストール済みPHP GDライブラリは、GIFイメージの作成および読み込みをサポートしません。GIFイメージのアップロードには、フルサポートが必要です。';
 $string['gdlibrarylacksjpegsupport'] = 'インストール済みPHP GDライブラリは、JPEG/JPGイメージの作成および読み込みをサポートしません。JPEG/JPGイメージのアップロードには、フルサポートが必要です。';
 $string['gdlibrarylackspngsupport'] = 'インストール済みPHP GDライブラリは、PNGイメージの作成および読み込みをサポートしません。PNGイメージのアップロードには、フルサポートが必要です。';
