@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-02-21 18:42:42 UTC
+ * @updated    2012-02-24 18:36:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -790,7 +790,7 @@ $string['withselectedusers'] = '選択したユーザに対して';
 $string['getreports'] = 'レポートを取得する';
 $string['bulkactions'] = 'バルク処理';
 $string['editselectedusersdescription1'] = 'あなたがユーザ検索ページで選択したユーザの利用停止、削除または認証方法を変更します。';
-$string['uneditableusers'] = 'あなたは編集することのできない %s 件のユーザを選択しました。選択されたユーザはリストから取り除かれます。';
+$string['uneditableusers'] = 'あなたは編集することのできない %s ユーザを選択しました。選択されたユーザはリストから取り除かれます。';
 $string['exportusersascsv'] = 'ユーザをCSVフォーマットでエクスポートする';
 $string['Download'] = 'ダウンロード';
 $string['suspendusers'] = 'ユーザを利用停止する';
