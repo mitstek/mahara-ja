@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-02-16 14:14:17 UTC
+ * @updated    2012-02-27 12:28:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -215,6 +215,7 @@ $string['numberofcolumns'] = 'カラム数';
 $string['changecolumnlayoutfailed'] = 'カラムレイアウトを変更できませんでした。同時に他のユーザがレイアウトを編集したようです。';
 $string['by'] = 'by';
 $string['viewtitleby'] = '%s by <a href="%s">%s</a>';
+$string['viewauthor'] = 'by <a href="%s">%s</a>';
 $string['in'] = '-';
 $string['noblocks'] = '申し訳ございません、このカテゴリにブロックはありません :(';
 $string['timeofsubmission'] = '送信日時';
