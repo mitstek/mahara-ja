@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-03-02 15:56:45 UTC
+ * @updated    2012-03-02 16:04:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -239,7 +239,7 @@ $string['homepageinfodescription'] = 'チェックした場合、Maharaに関す
 $string['institutionautosuspend'] = '有効期限切れインスティテューションの自動停止';
 $string['institutionautosuspenddescription'] = 'チェックした場合、有効期限切れのインスティテューションが自動的に停止されます。';
 $string['institutionexpirynotification'] = 'インスティテューション有効期限の警告期限';
-$string['institutionexpirynotificationdescriptioninfo'] = 'インスティテューション有効期限前、サイトおよびインスティテューション管理者宛に通知メッセージが送信されます。';
+$string['institutionexpirynotificationdescriptioninfo'] = 'サイトおよびインスティテューション管理者に対して、サイト有効期限切れ前に通知メッセージが送信されます。';
 $string['language'] = '言語';
 $string['none'] = 'なし';
 $string['onlineuserssideblockmaxusers'] = 'オンラインユーザ制限';
