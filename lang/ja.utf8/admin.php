@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-02-27 12:37:02 UTC
+ * @updated    2012-03-02 15:56:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -239,7 +239,7 @@ $string['homepageinfodescription'] = 'チェックした場合、Maharaに関す
 $string['institutionautosuspend'] = '有効期限切れインスティテューションの自動停止';
 $string['institutionautosuspenddescription'] = 'チェックした場合、有効期限切れのインスティテューションが自動的に停止されます。';
 $string['institutionexpirynotification'] = 'インスティテューション有効期限の警告期限';
-$string['institutionexpirynotificationdescription'] = 'サイトおよびインスティテューション管理者に対して、サイト有効期限切れ前に通知メッセージが送信されます。';
+$string['institutionexpirynotificationdescriptioninfo'] = 'インスティテューション有効期限前、サイトおよびインスティテューション管理者宛に通知メッセージが送信されます。';
 $string['language'] = '言語';
 $string['none'] = 'なし';
 $string['onlineuserssideblockmaxusers'] = 'オンラインユーザ制限';
@@ -261,11 +261,11 @@ $string['sessionlifetime'] = 'セッションライフタイム';
 $string['sessionlifetimedescription'] = '活動していないログインユーザが自動的にログアウトされる時間 (分) です。';
 $string['setsiteoptionsfailed'] = '%s オプションの設定に失敗しました。';
 $string['showonlineuserssideblock'] = 'オンラインユーザを表示する';
-$string['showonlineuserssideblockdescription'] = 'チェックした場合、ユーザに対して、サイト右側のサイドブロック内にオンラインユーザのリストが表示されます。';
+$string['showonlineuserssideblockdescriptionmessage'] = 'チェックした場合、ユーザに対して、オンラインユーザ一覧のサイドブロックが表示されます。';
 $string['showselfsearchsideblock'] = 'ポートフォリオ検索を有効にする';
-$string['showselfsearchsideblockdescription'] = 'サイトのポートフォリオセクション内に「マイポートフォリオを検索する」サイドブロックを表示します。';
+$string['showselfsearchsideblockdescription1'] = '「マイポートフォリオを検索する」サイドブロックがサイト内のいくつかの場所に表示されます。';
 $string['showtagssideblock'] = 'タグクラウドを有効にする';
-$string['showtagssideblockdescription'] = 'チェックした場合、ユーザに対して、最も使用されたタグが、サイトのポートフォリオセクション内のサイドブロックに表示されます。';
+$string['showtagssideblockdescription1'] = 'チェックした場合、ユーザに対して、最も使用されたタグがサイト内のいくつかの場所に表示されます。';
 $string['simple'] = 'シンプル';
 $string['sitedefault'] = 'サイトデフォルト';
 $string['sitelanguagedescription'] = 'サイトのデフォルト言語';
@@ -298,9 +298,9 @@ $string['userscanhiderealnamesdescription'] = 'チェックした場合、ニッ
 $string['usersseenewthemeonlogin'] = '次回ログイン時、他のユーザに新しいテーマが表示されます。';
 $string['viruschecking'] = 'ウイルスチェック';
 $string['viruscheckingdescription'] = 'チェックした場合、すべてのアップロードファイルに対するClamAVを使用したウイルスチェックが有効にされます。';
-$string['whocancreategroups'] = '誰がグループを作成できますか?';
+$string['whocancreategroups'] = 'グループを作成する';
 $string['whocancreategroupsdescription'] = 'ここでは新しいグループを作成することのできるユーザを選択します。';
-$string['whocancreatepublicgroups'] = '誰がパブリックグループを作成できますか?';
+$string['whocancreatepublicgroups'] = 'パブリックグループを作成する';
 $string['whocancreatepublicgroupsdescription'] = 'ここではパブリックに閲覧可能なグループを作成することのできるユーザを選択します。';
 $string['wysiwyg'] = 'HTMLエディタ';
 $string['wysiwygdescription'] = 'サイト全体としてHTMLエディタを有効にするか、ユーザ自身がHTMLエディタを有効または無効にできるか指定します。';
@@ -638,13 +638,13 @@ $string['institutionexpiry'] = 'インスティテューション有効期限';
 $string['institutionexpirydescription'] = 'このインスティテューションのメンバーシップが %s において利用停止される日付です。';
 $string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
 $string['registrationallowed'] = 'ユーザ登録を許可しますか?';
-$string['registrationalloweddescription2'] = 'あなたのシステム内にある、このインスティテューションに対して、ユーザが登録フォームで登録できるかどうか設定します。登録が無効にされた場合、非メンバーはインスティテューションのメンバーシップをリクエストできません。同様に、メンバーがインスティテューションから離脱できない、または任意に自分のユーザアカウントを削除できないようになります。';
+$string['registrationalloweddescription3'] = 'あなたのシステム内にある、このインスティテューションに対して、ユーザが登録フォームで登録できるかどうか設定します。登録が無効にされた場合、非メンバーはインスティテューションのメンバーシップをリクエストできません。同様に、メンバーがインスティテューションから離脱できない、または自分のユーザアカウントを削除できないようになります。';
 $string['registrationconfirm'] = '登録を承認しますか?';
 $string['registrationconfirmdescription'] = 'インスティテューション管理者が登録を承認する必要があります。';
 $string['defaultmembershipperiod'] = 'デフォルトのメンバーシップ期間';
 $string['defaultmembershipperioddescription'] = 'どのくらいの期間、新しいメンバーはインスティテューションに参加することができますか。';
 $string['showonlineusers'] = 'オンラインユーザを表示する';
-$string['showonlineusersdesc'] = 'このインスティテューションメンバーにオンラインユーザを表示します。設定が異なる場合、最も寛容な設定が使用されます。';
+$string['showonlineusersdescription'] = 'このインスティテューションのメンバーに表示されるオンラインユーザです。ユーザに複数インスティテューションが許可されている場合、最も制約の少ないインスティテューション設定が使用されます。';
 $string['Logo'] = 'ロゴ';
 $string['logodescription'] = 'あなたのインスティテューションメンバーに標準的なヘッダロゴの代わりに表示されるイメージをここでアップロードすることができます。最良の結果のため、このイメージをあなたのインスティテューションのサイトロゴと同じ大きさにしてください。';
 $string['deletelogo'] = 'ロゴを削除する';
