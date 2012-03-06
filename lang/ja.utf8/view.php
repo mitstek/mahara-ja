@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-03-06 10:15:12 UTC
+ * @updated    2012-03-06 10:19:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -115,7 +115,7 @@ $string['attachedfileaddedtofolder'] = '添付ファイル「 %s 」が、あな
 $string['complaint'] = 'クレーム';
 $string['date'] = '日時';
 $string['notifyadministrator'] = '管理者に通知する';
-$string['notifyadministratorconfirm'] = '本当にこのページを好ましくないコンテンツが含まれているページとして報告してもよろしいですか?';
+$string['notifyadministratorconfirm'] = '本当にこのページに好ましくない内容が含まれている旨、報告してもよろしいですか?';
 $string['print'] = 'プリント';
 $string['reportobjectionablematerial'] = '好ましくない内容を報告する';
 $string['reportsent'] = 'あなたの報告が送信されました。';
