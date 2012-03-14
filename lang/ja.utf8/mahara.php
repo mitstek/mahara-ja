@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-03-02 16:06:34 UTC
+ * @updated    2012-03-14 16:22:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -177,7 +177,7 @@ $string['accountcreatedchangepasswordtext'] = '%s さん
 %s サイト管理者';
 $string['accountcreatedhtml'] = '<p>%s さん</p>
 
-<p>あなたの新しいアカウントが <a href="">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>
+<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>
 
 <ul>
 <li><strong>ユーザ名:</strong> %s</li>
@@ -189,7 +189,7 @@ $string['accountcreatedhtml'] = '<p>%s さん</p>
 <p>%s サイト管理者</p>';
 $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 
-<p>あなたの新しいアカウントが <a href="">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>
+<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>
 
 <ul>
 <li><strong>ユーザ名:</strong> %s</li>
