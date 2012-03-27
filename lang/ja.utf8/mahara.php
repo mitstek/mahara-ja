@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-03-18 15:18:03 UTC
+ * @updated    2012-03-27 19:03:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -864,8 +864,8 @@ $string['back'] = '戻る';
 $string['backto'] = '%s に戻る';
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['formatpostbbcode'] = 'BBコードを使用して、あなたの投稿を書式設定することができます。%s詳細情報%s';
-$string['Created'] = '作成日';
-$string['Updated'] = '更新日';
+$string['Created'] = '作成';
+$string['Updated'] = '更新';
 $string['Total'] = '合計';
 $string['Visits'] = '訪問';
 $string['after'] = '後';
@@ -910,8 +910,6 @@ $string['sharenetwork'] = '共有およびネットワーク';
 $string['sharenetworksubtitle'] = 'フレンドに会って、グループに参加します。';
 $string['findfriendslinked'] = '<a href="%s">フレンド</a>を探す';
 $string['joingroups'] = '<a href="%s">グループ</a>に参加する';
-$string['controlyourprivacy'] = 'あなたのプライバシーをコントロールする';
-$string['discusstopics'] = 'ディスカッショントピック';
 $string['howtodisable'] = '* あなたはこのボックスの可視性を<a href="%s">設定</a>ページにてコントロールすることができます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['filenotfound'] = 'ファイルが見つかりませんでした。';

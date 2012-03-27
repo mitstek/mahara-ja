@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-23 04:05:48 UTC
+ * @updated    2012-03-27 19:06:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -57,7 +57,7 @@ $string['collectiontitle'] = 'コレクションタイトル';
 $string['confirmcancelcreatingcollection'] = 'このコレクションは完了していません。本当にキャンセルしてもよろしいですか?';
 $string['collectionsaved'] = 'コレクションが正常に保存されました。';
 $string['copyacollection'] = 'コレクションをコピーする';
-$string['created'] = '作成日';
+$string['created'] = '作成';
 $string['deletecollection'] = 'コレクションを削除する';
 $string['deletespecifiedcollection'] = 'コレクション「 %s 」を削除する';
 $string['deletingcollection'] = 'コレクションの削除';

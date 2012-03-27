@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-12-22 15:59:35 UTC
+ * @updated    2012-03-27 19:05:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -71,7 +71,7 @@ $string['reject'] = '拒否';
 $string['groupalreadyexists'] = 'この名称のグループはすでに登録されています。';
 $string['invalidshortname'] = '無効なグループ省略名です。';
 $string['shortnameformat'] = 'グループ省略名は半角英数字2～255文字にしてください。また、グループ省略名には半角英数字、「.」、「-」および「_」を使用することができます。';
-$string['Created'] = '作成日';
+$string['Created'] = '作成';
 $string['groupadmins'] = 'グループ管理者';
 $string['editroles'] = '誰がページを編集できますか?';
 $string['editrolesdescription'] = 'グループページを作成および編集できるロールです。';
