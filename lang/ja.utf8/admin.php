@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-03-27 18:31:44 UTC
+ * @updated    2012-04-02 16:56:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -239,7 +239,7 @@ $string['homepageinfodescription'] = 'チェックした場合、Maharaに関す
 $string['institutionautosuspend'] = '有効期限切れインスティテューションの自動停止';
 $string['institutionautosuspenddescription'] = 'チェックした場合、有効期限切れのインスティテューションが自動的に停止されます。';
 $string['institutionexpirynotification'] = 'インスティテューション有効期限の警告期限';
-$string['institutionexpirynotificationdescriptioninfo'] = 'サイトおよびインスティテューション管理者に対して、サイト有効期限切れ前に通知メッセージが送信されます。';
+$string['institutionexpirynotificationdescriptioninfo'] = 'サイトおよびインスティテューション管理者に対して、インスティテューション有効期限切れ前に通知メッセージが送信されます。';
 $string['language'] = '言語';
 $string['none'] = 'なし';
 $string['onlineuserssideblockmaxusers'] = 'オンラインユーザ制限';
@@ -261,11 +261,11 @@ $string['sessionlifetime'] = 'セッションライフタイム';
 $string['sessionlifetimedescription'] = '活動していないログインユーザが自動的にログアウトされる時間 (分) です。';
 $string['setsiteoptionsfailed'] = '%s オプションの設定に失敗しました。';
 $string['showonlineuserssideblock'] = 'オンラインユーザを表示する';
-$string['showonlineuserssideblockdescriptionmessage'] = 'チェックした場合、ユーザに対して、オンラインユーザ一覧のサイドブロックが表示されます。';
+$string['showonlineuserssideblockdescriptionmessage'] = 'チェックした場合、ユーザに対してオンラインユーザ一覧のサイドブロックが表示されます。';
 $string['showselfsearchsideblock'] = 'ポートフォリオ検索を有効にする';
 $string['showselfsearchsideblockdescription1'] = '「マイポートフォリオを検索する」サイドブロックがサイト内のいくつかの場所に表示されます。';
 $string['showtagssideblock'] = 'タグクラウドを有効にする';
-$string['showtagssideblockdescription1'] = 'チェックした場合、ユーザに対して、最も使用されたタグがサイト内のいくつかの場所に表示されます。';
+$string['showtagssideblockdescription1'] = 'チェックした場合、ユーザに対して、最も使用されたタグ一覧がサイト内のいくつかの場所に表示されます。';
 $string['simple'] = 'シンプル';
 $string['sitedefault'] = 'サイトデフォルト';
 $string['sitelanguagedescription'] = 'サイトのデフォルト言語';
@@ -638,7 +638,7 @@ $string['institutionexpiry'] = 'インスティテューション有効期限';
 $string['institutionexpirydescription'] = 'このインスティテューションのメンバーシップが %s において利用停止される日付です。';
 $string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
 $string['registrationallowed'] = 'ユーザ登録を許可しますか?';
-$string['registrationalloweddescription3'] = 'あなたのシステム内にある、このインスティテューションに対して、ユーザが登録フォームで登録できるかどうか設定します。登録が無効にされた場合、非メンバーはインスティテューションのメンバーシップをリクエストできません。同様に、メンバーがインスティテューションから離脱できない、または自分のユーザアカウントを削除できないようになります。';
+$string['registrationalloweddescription3'] = 'あなたのサイト内のインスティテューションに対して、ユーザが登録フォームで登録できるかどうか設定します。登録が無効にされた場合、非メンバーはインスティテューションのメンバーシップをリクエストできません。同様に、メンバーはインスティテューションから離脱できない、または自分のユーザアカウントを削除できないようになります。';
 $string['registrationconfirm'] = '登録を承認しますか?';
 $string['registrationconfirmdescription'] = 'インスティテューション管理者が登録を承認する必要があります。';
 $string['defaultmembershipperiod'] = 'デフォルトのメンバーシップ期間';
