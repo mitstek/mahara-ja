@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-03-27 19:03:41 UTC
+ * @updated    2012-04-02 17:13:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -807,6 +807,8 @@ $string['Created'] = '作成';
 $string['Updated'] = '更新';
 $string['Total'] = '合計';
 $string['Visits'] = '訪問';
+$string['after'] = '後';
+$string['before'] = '前';
 $string['importedfrom'] = 'インポート元 %s';
 $string['incomingfolderdesc'] = '他のネットワークホストからインポートされたファイル';
 $string['remotehost'] = 'リモートホスト %s';
