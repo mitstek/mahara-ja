@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-12-19 01:24:01 UTC
+ * @updated    2012-04-03 14:04:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -235,7 +235,8 @@ $string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>
 $string['setdefault'] = 'デフォルトに設定する';
 $string['Title'] = 'タイトル';
 $string['imagetitle'] = 'イメージタイトル';
-$string['usenodefault'] = 'デフォルトを使用しない';
+$string['standardavatartitle'] = '標準または外部アバター';
+$string['standardavatarnote'] = '標準または外部プロファイル写真';
 $string['usingnodefaultprofileicon'] = '現在、デフォルトのプロファイル写真はありません。';
 $string['wrongfiletypeforblock'] = 'あなたがアップロードしたファイルはこのブロックにとって、正しいタイプではありません。';
 $string['Contents'] = 'コンテンツ';

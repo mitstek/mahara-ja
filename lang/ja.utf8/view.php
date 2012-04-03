@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-03-06 10:19:26 UTC
+ * @updated    2012-04-03 14:05:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -268,6 +268,7 @@ $string['copythisview'] = 'このページをコピーする';
 $string['copyview'] = 'ページをコピーする';
 $string['createemptyview'] = '空のページを作成する';
 $string['copyaview'] = 'ページをコピーする';
+$string['copyvieworcollection'] = 'ページまたはコレクションをコピーする';
 $string['Untitled'] = 'タイトルなし';
 $string['copyfornewusers'] = '新しいユーザにコピーする';
 $string['copyfornewusersdescription'] = '新しいユーザが作成された場合、このページをユーザポートフォリオ内にパーソナルコピーとして自動作成します。';
