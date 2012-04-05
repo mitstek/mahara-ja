@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-04-03 14:05:18 UTC
+ * @updated    2012-04-05 16:46:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -248,7 +248,7 @@ $string['changeviewtheme'] = 'あなたがこのページに選択したテー�
 $string['nothemeselected'] = 'テーマ未選択';
 $string['Template'] = 'テンプレート';
 $string['allowcopying'] = 'コピーを許可する';
-$string['retainviewrights'] = 'ページのコピー時、ページアクセスを保持する';
+$string['retainviewrights1'] = 'ページまたはコレクションのコピー時、ページアクセスを保持する';
 $string['templatedescription'] = 'このチェックボックスをチェックした場合、あなたのページを閲覧できるユーザに対して、自分のページとしてコピーできるようにします。';
 $string['templatedescriptionplural'] = 'このチェックボックスをチェックした場合、あなたのページを閲覧できるユーザに対して、自分のページとしてコピーできるようにします。';
 $string['retainviewrightsdescription'] = 'このページまたはコレクションが他のユーザによりコピーされた後、あなたがこのページまたはコレクションを閲覧できるようにしたい場合、このチェックボックスをチェックしてください。希望すれば、コピー後にユーザが閲覧アクセスを無効にすることができます。このページのコピーからコピーされたページまたはコレクションは同じアクセスを保持することはありません。';
