@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-03-27 18:31:39 UTC
+ * @updated    2012-04-10 13:44:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -419,6 +419,7 @@ $string['uploadcsverrorinvalidusername'] = 'あなたのファイルの　%s 行
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には必須の「 %s 」フィールドが含まれていません。';
 $string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」はすでに登録されています。';
 $string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」はすでに他のユーザにより取得されています。';
+$string['uploadcsverrorduplicateremoteuser'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでに他のユーザにより取得されています。';
 $string['uploadcsverrorremoteusertaken'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでにユーザ「 %s 」により取得されています。';
 $string['uploadcsverrorusernotininstitution'] = 'あなたのファイルの　%s 行目にエラーがあります: ユーザ「 %s 」はインスティテューション「 %s 」のメンバーではありません。';
 $string['uploadcsverroruserinaninstitution'] = 'あなたのファイルの　%s 行目にエラーがあります: ユーザ「 %s 」は次のインスティテューションのメンバーです: %s あなたはこのユーザの認証方法を「No Institution」に変更することはできません。';
