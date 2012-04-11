@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-19 11:37:41 UTC
+ * @updated    2012-04-11 15:51:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -79,6 +79,7 @@ $string['mustspecifytitle'] = 'あなたの記事のタイトルを入力して�
 $string['mustspecifycontent'] = 'あなたの記事のコンテンツを入力してください。';
 $string['myblogs'] = 'マイブログ';
 $string['myblog'] = 'マイブログ';
+$string['name'] = '名称';
 $string['newattachmentsexceedquota'] = 'この記事にアップロードした新しいファイルの合計サイズが、あなたのクオータを超えました。あなたが追加した添付ファイルを削除することで、記事を保存することができます。';
 $string['newblog'] = '新しいブログ';
 $string['newblogpost'] = 'ブログ「 %s 」の新しいブログ記事';
