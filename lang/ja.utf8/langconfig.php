@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-01-09 23:01:18 UTC
+ * @updated    2012-04-24 05:07:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -47,7 +47,7 @@ $string['strftimew3cdatetime'] = '%%Y-%%m-%%dT%%H:%%M:%%S%%z';
 $string['strftimew3cdate'] = '%%Y-%%m-%%d';
 $string['thislanguage'] = '日本語';
 $string['locales'] = 'ja_JP.utf8,Japanese_Japan.932';
-$string['pluralrule'] = 'n != 1';
+$string['pluralrule'] = '0';
 $string['pluralfunction'] = 'plural_ja_utf8';
 
 ?>
