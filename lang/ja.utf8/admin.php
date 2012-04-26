@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-04-05 16:34:19 UTC
+ * @updated    2012-04-26 15:54:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -135,6 +135,15 @@ $string['htmlfiltersdescription'] = 'HTML Purifierの新しいフィルタを有
 $string['newfiltersdescription'] = 'あなたが新しいHTMLフィルタをダウンロードした場合、%s フォルダでファイルを解凍した後、下記のボタンをクリックすることで、インストールすることができます。';
 $string['filtersinstalled'] = 'フィルタがインストールされました。';
 $string['nofiltersinstalled'] = 'HTMLフィルタはインストールされませんでした。';
+$string['allowediframesites'] = '許可済みiframeソース';
+$string['allowediframesitesdescriptionshort'] = '埋め込み外部iframeコンテンツのパーミッションを設定します。';
+$string['allowediframesitesdescription'] = 'ユーザはHTML &lt;iframe&gt; エレメント内に以下の外部サイトからコンテンツを埋め込むことができます。これは一般的に他の場所で提供されているビデオを表示するために使用されます。このページにて、許可されるサイト一覧を修正することができます。';
+$string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、ユーザに対してアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが、同一サイト内におけるiframeソーステキストの一部合致は許可されます。';
+$string['iframeurldescription'] = 'iframeソースURI (http:// なし) の先頭に合致するテキストです。半角英数字、「.」「/」「_」および「-」のみ許可されます。';
+$string['iframedisplaynamedescription'] = 'ユーザに表示されるサイト名です。';
+$string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含むことができます。';
+$string['iframeiconhost'] = 'アイコンホスト';
+$string['iframeiconhostdescription'] = '必要であれば、あなたはファビコン (favicon) イメージ用の異なるホストを指定することができます。同一名称のサイトすべてに対して、このアイコンが使用されます。';
 $string['warnings'] = '警告';
 $string['groupcategories'] = 'グループカテゴリ';
 $string['allowgroupcategories'] = 'グループカテゴリを許可する';
