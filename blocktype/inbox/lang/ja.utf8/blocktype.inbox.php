@@ -28,8 +28,8 @@
 
 defined('INTERNAL') || die();
 
-$string['title'] = 'マイインボックス';
-$string['description'] = 'あなたの選択された最近のインボックスメッセージを表示します。';
+$string['title'] = 'マイ受信箱';
+$string['description'] = 'あなたの選択された最近の受信箱メッセージを表示します。';
 $string['messagetypes'] = '表示するメッセージタイプ';
 $string['maxitems'] = '表示するアイテムの最大数';
 $string['maxitemsdescription'] = '設定範囲: 1～100';
