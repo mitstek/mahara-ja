@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-23 06:04:35 UTC
+ * @updated    2012-05-02 06:57:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -89,7 +89,7 @@ $string['confirmemailmessagehtml'] = '<p>%s さん、こんにちは。</p>
 
 <pre>--
 %s チーム</pre>';
-$string['emailconfirmedok'] = 'p>正常にあなたのメールを確認しました。まもなく、登録詳細に関してあなた宛にメールが送信されます。</p>';
+$string['emailconfirmedok'] = '<p>正常にあなたのメールを確認しました。まもなく、登録詳細に関してあなた宛にメールが送信されます。</p>';
 $string['registrationcancelledok'] = 'あなたは正常に登録申請をキャンセルしました。';
 $string['registrationconfirm'] = '登録を承認しますか?';
 $string['registrationconfirmdescription'] = 'インスティテューション管理者が登録を承認する必要があります。';
