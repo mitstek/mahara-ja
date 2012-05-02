@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-23 06:04:35 UTC
+ * @updated    2012-05-02 06:53:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -67,29 +67,19 @@ $string['usernameinvalidadminform'] = 'ユーザ名には半角英数字およ�
 $string['youmaynotregisterwithouttandc'] = '<a href="terms.php">使用条件</a>の順守に同意しない限り、あなたはユーザ登録されません。';
 $string['confirmcancelregistration'] = '本当にこの登録をキャンセルしてもよろしいですか? キャンセルの結果として、あなたのリクエストがシステムから削除されます。';
 $string['confirmemailsubject'] = '%s 登録のメール確認';
-$string['confirmemailmessagetext'] = '%s さん、こんにちは。
+$string['approvalemailsubject'] = '%s 登録リクエスト受信';
+$string['approvalemailmessagetext'] = '%s さん
 
-%s でのアカウント登録ありがとうございます。あなたのメールアドレスを確認するため、下記のリンクをクリックしてください。
-インスティテューション管理者に通知され、あなたの申請を承認するかどうか検討されます。あなたにはその結果が通知されます。
-
-%sregister.php?key=%s
-
-このリンクは24時間後に無効となります。
-
+%s へのアカウントリクエストありがとうございます。あなたの申請に関して、インスティテューション管理者宛に通知されました。申請内容が確認され次第、あなた宛に別のEメールが送信されます。
 --
 %s チーム';
-$string['confirmemailmessagehtml'] = '<p>%s さん、こんにちは。</p>
+$string['approvalemailmessagehtml'] = '<p>%s さん</p>
 
-<p>%s でのアカウント登録ありがとうございます。あなたのメールアドレスを確認するため、下記のリンクをクリックしてください。
-インスティテューション管理者に通知され、あなたの申請を承認するかどうか検討されます。あなたにはその結果が通知されます。</p>
-
-<p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>
-
-<p>このリンクは24時間後に無効となります。/p>
+<p>%s へのアカウントリクエストありがとうございます。あなたの申請に関して、インスティテューション管理者宛に通知されました。申請内容が確認され次第、あなた宛に別のEメールが送信されます。</p>
 
 <pre>--
 %s チーム</pre>';
-$string['emailconfirmedok'] = 'p>正常にあなたのメールを確認しました。まもなく、登録詳細に関してあなた宛にメールが送信されます。</p>';
+$string['emailconfirmedok'] = '<p>正常にあなたのメールを確認しました。まもなく、登録詳細に関してあなた宛にメールが送信されます。</p>';
 $string['registrationcancelledok'] = 'あなたは正常に登録申請をキャンセルしました。';
 $string['registrationconfirm'] = '登録を承認しますか?';
 $string['registrationconfirmdescription'] = 'インスティテューション管理者が登録を承認する必要があります。';
@@ -110,9 +100,9 @@ $string['registrationdeniedmessagereason'] = '%s さん、こんにちは。
 あなたがこの決定を不適切だと考える場合、Eメールにてご連絡ください。
 
 %s';
-$string['registeredokawaitingemail'] = 'あなたの登録申請が正常に送信されました。あなたのメールアドレスを確認して処理を進めるため、あなた宛にEメールが送信されます。';
+$string['registeredokawaitingemail2'] = 'あなたの登録申請が正常に送信されました。インスティテューション管理者に通知されました。申請が処理され次第、あなた宛にEメールが送信されます。';
 $string['registrationreason'] = '登録理由';
-$string['registrationreasondesc'] = 'あなたが選択したインスティテューションへの登録申請理由、および管理者があなたの申請を処理することに関して有益であると思われる詳細を記述してください。この情報なしでは、登録を完了することはできません。';
+$string['registrationreasondesc1'] = 'あなたが選択したインスティテューションへの登録申請理由、および管理者があなたの申請を処理することに関して有益であると思われる詳細を記述してください。';
 $string['pendingregistrationadminemailsubject'] = 'インスティテューション「 %s　」( %s )への新しいユーザ登録';
 $string['pendingregistrationadminemailtext'] = '%s さん、こんにちは。
 
