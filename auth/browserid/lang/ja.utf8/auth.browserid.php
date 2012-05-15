@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-02-16 14:28:34 UTC
+ * @updated    2012-05-15 04:44:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -34,6 +34,7 @@ $string['description'] = 'BrowserIDで認証する';
 $string['badassertion'] = 'BrowserIDアサーション (表明) が有効ではありません: %s';
 $string['badverification'] = 'BrowserIDベリファイアの有効なJSONアウトプットをMaharaが受信しませんでした。';
 $string['login'] = 'BrowserIDログイン';
+$string['register'] = 'BrowserID登録';
 $string['missingassertion'] = 'BrowserIDが英数字アサーション (表明) を戻しませんでした。';
 $string['emailalreadyclaimed'] = 'すでに他のユーザアカウントがメールアドレス「 %s 」を取得しています。';
 $string['emailclaimedasusername'] = 'すでに他のユーザアカウントがメールアドレス「 %s 」をユーザ名として取得しています。';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-04-26 15:54:56 UTC
+ * @updated    2012-05-15 04:41:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -196,7 +196,7 @@ $string['groupmemberaverage'] = 'それぞれのユーザは平均 %s のグル�
 $string['viewsperuser'] = 'ページを作成したユーザはそれぞれ約 %s ページを持っています。';
 $string['Cron'] = 'Cron';
 $string['runningnormally'] = '正常動作';
-$string['cronnotrunning'] = 'Cronは動作していません。Cronのセットアップに関するインストラクションは<a href="http://wiki.mahara.org/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。';
+$string['cronnotrunning1'] = '<span class="error">Cronが動作していません。</span><br />cronのセットアップに関するインストラクションは<a href="http://wiki.mahara.org/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronをセットアップしている場合、直近の1つまたはそれ以上の処理が正しく実行されませんでした。';
 $string['Loggedin'] = 'ログイン';
 $string['youraverageuser'] = 'あなたのユーザ平均 ...';
 $string['statsmaxfriends'] = '平均フレンド数: %s (最もフレンドの多いユーザ: <a href="%s">%s</a> - フレンド数: %d)';
@@ -752,7 +752,7 @@ $string['defaultinstitutionquotadescription'] = 'あなたはこのインステ�
 $string['updateinstitutionuserquotasdesc'] = 'チェックした場合、あなたが上で選択したデフォルトクオータが既存のメンバーすべてに適用されます。';
 $string['approve'] = '承認';
 $string['deny'] = '拒否';
-$string['approveregistrationfor'] = '「 %s %s 」の登録を承認する';
+$string['approveregistrationfor2'] = '「 %s %s <%s> 」の登録を承認する';
 $string['approveregistrationmessage'] = 'ユーザの登録を承認して、インスティテューション「 %s 」に追加します。本当にこの登録を承認してもよろしいですか?';
 $string['denyregistrationfor'] = '「 %s %s 」の登録を拒否する';
 $string['denyregistrationmessage'] = 'ユーザの登録を拒否します。本当にこの登録を拒否してもよろしいですか?';
@@ -769,6 +769,7 @@ $string['registrationdeniedreasondesc'] = '申請拒否理由に関するユー�
 $string['registrationdeniedsuccessful'] = '登録は正常に拒否されました。';
 $string['registrationdeniedunsuccessful'] = '登録拒否に失敗しました。';
 $string['registrationreason'] = '登録理由';
+$string['makeuserinstitutionstaff'] = '初回ログイン時、このメールアドレスのオーナーにインスティテューションスタッフのパーミッションを自動的に割り当てます。';
 $string['errorwhileunsuspending'] = '利用停止解除中にエラーが発生しました。';
 $string['institutionsuspended'] = 'インスティテューションが利用停止されました。';
 $string['institutionunsuspended'] = 'インスティテューションの利用停止が解除されました。';
