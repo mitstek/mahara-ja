@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-05-02 06:41:54 UTC
+ * @updated    2012-05-18 17:35:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -88,6 +88,7 @@ $string['first'] = '最初';
 $string['firstpage'] = '最初のページ';
 $string['last'] = '最後';
 $string['lastpage'] = '最後のページ';
+$string['maxitemsperpage'] = '1ページあたりの最大アイテム数';
 $string['accept'] = '承認';
 $string['memberofinstitutions'] = '%s のメンバー';
 $string['staffofinstitutions'] = '%s のスタッフ';
