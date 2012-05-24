@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-05-18 17:35:55 UTC
+ * @updated    2012-05-24 13:52:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -309,6 +309,7 @@ $string['loggedoutok'] = 'あなたは正常にログアウトしました。';
 $string['login'] = 'ログイン';
 $string['loginfailed'] = 'あなたは正しいログイン情報を提供していないようです。あなたのユーザ名およびパスワードが正しいどうか確認してください。';
 $string['loginto'] = '%s にログインする';
+$string['orloginvia'] = 'または次の認証によりログインする:';
 $string['newpassword'] = '新しいパスワード';
 $string['nosessionreload'] = 'ログインするには、ページをリロードしてください。';
 $string['oldpassword'] = '現在のパスワード';
