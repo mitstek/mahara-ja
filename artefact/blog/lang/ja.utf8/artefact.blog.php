@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-01-22 01:39:39 UTC
+ * @updated    2012-05-24 03:37:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -50,6 +50,7 @@ $string['blogpost'] = '日誌エントリ';
 $string['blogdeleted'] = '日誌が削除されました。';
 $string['blogpostdeleted'] = '日誌エントリが削除されました。';
 $string['blogpostpublished'] = '日誌エントリが公開されました。';
+$string['blogpostunpublished'] = '日誌エントリが非公開にされました。';
 $string['blogpostsaved'] = '日誌エントリが保存されました。';
 $string['blogsettings'] = '日誌設定';
 $string['blogtitle'] = 'タイトル';
@@ -96,6 +97,7 @@ $string['postedbyon'] = '投稿者: %s  投稿日時: %s';
 $string['posttitle'] = 'タイトル';
 $string['posts'] = 'エントリ';
 $string['publish'] = '公開';
+$string['unpublish'] = '非公開';
 $string['publishfailed'] = 'エラーが発生しました。あなたのエントリは公開されませんでした。';
 $string['publishblogpost?'] = '本当にこのエントリを公開してもよろしいですか?';
 $string['published'] = '公開済み';

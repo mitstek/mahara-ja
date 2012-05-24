@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-04-03 14:04:37 UTC
+ * @updated    2012-05-24 03:36:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -241,6 +241,7 @@ $string['usingnodefaultprofileicon'] = '現在、デフォルトのプロファ�
 $string['wrongfiletypeforblock'] = 'あなたがアップロードしたファイルはこのブロックにとって、正しいタイプではありません。';
 $string['Contents'] = 'コンテンツ';
 $string['Continue'] = '続ける';
+$string['Decompress'] = '解凍';
 $string['nfolders'] = '%s フォルダ';
 $string['nfiles'] = '%s ファイル';
 $string['createdtwothings'] = '%s および %s を作成しました。';
@@ -251,7 +252,6 @@ $string['insufficientquotaforunzip'] = 'このファイルを解凍するには�
 $string['invalidarchive'] = 'アーカイブファイルの読み込み中にエラーが発生しました。';
 $string['pleasewaitwhileyourfilesarebeingunzipped'] = 'あなたのファイルは解凍中です。しばらくお待ちください。';
 $string['spacerequired'] = '必要サイズ';
-$string['Unzip'] = '解凍';
 $string['unzipprogress'] = '%s 個のファイル/フォルダが作成されました。';
 $string['filepermission.view'] = '閲覧';
 $string['filepermission.edit'] = '編集';
