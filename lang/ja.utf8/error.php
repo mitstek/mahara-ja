@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-04-05 16:44:41 UTC
+ * @updated    2012-05-25 16:52:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -122,5 +122,6 @@ $string['gdlibrarylacksjpegsupport'] = 'インストール済みPHP GDライブ�
 $string['gdlibrarylackspngsupport'] = 'インストール済みPHP GDライブラリは、PNGイメージの作成および読み込みをサポートしません。PNGイメージのアップロードには、フルサポートが必要です。';
 $string['nopasswordsaltset'] = 'サイト全体のパスワードsaltが設定されていません。あなたのconfig.phpを編集して、「passwordsaltmain」パラメータに妥当なシークレットフレーズを設定してください。';
 $string['passwordsaltweak'] = 'あなたのサイト全体のパスワードsaltの強さが十分ではありません。あなたのconfig.phpを編集して、さらに長いシークレットフレーズを「passwordsaltmain」パラメータに設定してください。';
+$string['notproductionsite'] = 'このサイトは実運用モードに入っていません。いくつかのデータは利用できないか、古い可能性があります。';
 
 ?>
