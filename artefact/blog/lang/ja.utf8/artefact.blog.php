@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-05-24 03:37:45 UTC
+ * @updated    2012-06-05 23:23:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -139,5 +139,6 @@ $string['youhaveblogs'] = 'あなたには %s 件の日誌があります。';
 $string['feedsnotavailable'] = 'このアーティファクトタイプではフィードは利用できません。';
 $string['feedrights'] = '著作権 %s';
 $string['enablemultipleblogstext'] = 'あなたには1件の日誌があります。あなたが2件目の日誌を作成したい場合、<a href="%saccount/">アカウント設定</a>ページにて、複数日誌オプションを有効にしてください。';
+$string['hiddenblogsnotification'] = '新たに日誌が作成されましたが、あなたのアカウントでは複数日誌オプションが有効にされていません。あなたは<a href="%saccount/">アカウント設定</a>ページにて、複数日誌オプションを設定することができます。';
 
 ?>
