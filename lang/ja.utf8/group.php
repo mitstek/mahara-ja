@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-03-27 19:05:15 UTC
+ * @updated    2012-06-08 18:15:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -131,6 +131,7 @@ $string['invites'] = '招待';
 $string['member'] = 'メンバー';
 $string['members'] = 'メンバー';
 $string['Members'] = 'メンバー';
+$string['nmembers'] = '%s メンバー';
 $string['memberrequests'] = 'メンバーシップリクエスト';
 $string['declinerequest'] = 'リクエストを拒否する';
 $string['submittedviews'] = '送信済みページ';

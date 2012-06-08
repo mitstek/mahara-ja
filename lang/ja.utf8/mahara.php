@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-04-10 13:46:36 UTC
+ * @updated    2012-06-08 18:16:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -871,6 +871,7 @@ $string['Visits'] = '訪問';
 $string['after'] = '後';
 $string['before'] = '前';
 $string['Visibility'] = '可視性';
+$string['nusers'] = '%s ユーザ';
 $string['hidden'] = '非表示';
 $string['lastupdate'] = '最終更新日時';
 $string['lastupdateorcomment'] = '最終更新日時またはコメント';
