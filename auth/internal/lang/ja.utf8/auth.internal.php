@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-02-12 14:10:56 UTC
+ * @updated    2012-06-10 14:27:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -58,7 +58,7 @@ $string['registeredok'] = '<p>あなたは正常にユーザ登録されまし�
 $string['registrationnosuchkey'] = '申し訳ございません、このキーによるユーザ登録は存在していないようです。もしかしたら、ユーザ登録完了まで、24時間以上経過しましたか? そうでない場合、私たちに責任があります。';
 $string['registrationunsuccessful'] = '申し訳ございません、あなたのユーザ登録は正常に完了しませんでした。これはあなたではなく、私たちに責任があります。後ほど再度お試しください。';
 $string['usernamealreadytaken'] = '申し訳ございません、このユーザ名はすでに取得されています。';
-$string['usernameinvalidform'] = 'ユーザ名には半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3文字から30文字の間にしてください。空白は許可されません。';
+$string['usernameinvalidform'] = 'ユーザ名には半角英数字および標準的な記号を使用することができます。ユーザ名の長さは半角3-30文字の間にしてください。空白は許可されません。';
 $string['youmaynotregisterwithouttandc'] = '<a href="terms.php">使用条件</a>の順守に同意しない限り、あなたはユーザ登録されません。';
 $string['youmustagreetothetermsandconditions'] = 'あなたは<a href="terms.php">使用条件</a>に同意する必要があります。';
 
