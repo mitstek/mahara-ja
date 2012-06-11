@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-05-24 13:52:21 UTC
+ * @updated    2012-06-11 20:48:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -110,6 +110,12 @@ $string['alltags'] = 'すべてのタグ';
 $string['sortalpha'] = 'タグをアルファベット順でソートする';
 $string['sortfreq'] = 'タグを使用頻度順でソートする';
 $string['sortresultsby'] = 'ソート結果:';
+$string['sortedby'] = '並び替え';
+$string['adminfirst'] = 'Adminを最初に';
+$string['nameatoz'] = '名: A -> Z';
+$string['nameztoa'] = '名: Z -> A';
+$string['firstjoined'] = '登録日昇順';
+$string['lastjoined'] = '登録日降順';
 $string['date'] = '日時';
 $string['dateformatguide'] = 'フォーマット「YYYY/MM/DD」を使用してください。';
 $string['dateofbirthformatguide'] = 'フォーマット「YYYY/MM/DD」を使用してください。';
@@ -877,6 +883,7 @@ $string['Visits'] = '訪問';
 $string['after'] = '後';
 $string['before'] = '前';
 $string['Visibility'] = '可視性';
+$string['nusers'] = '%s ユーザ';
 $string['hidden'] = '非表示';
 $string['lastupdate'] = '最終更新日時';
 $string['lastupdateorcomment'] = '最終更新日時またはコメント';
@@ -922,5 +929,6 @@ $string['howtodisable'] = '* あなたはこのボックスの可視性を<a hre
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['filenotfound'] = 'ファイルが見つかりませんでした。';
 $string['betweenxandy'] = '範囲: %s - %s';
+$string['cleanurlallowedcharacters'] = '半角英数小文字および「-」のみ許可されます。';
 
 ?>

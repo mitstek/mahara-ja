@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-04-05 16:46:20 UTC
+ * @updated    2012-06-10 14:18:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -38,6 +38,9 @@ $string['editaccess'] = 'アクセスを編集する';
 $string['next'] = '次へ';
 $string['back'] = '戻る';
 $string['title'] = 'ページタイトル';
+$string['viewurl'] = 'ページURI';
+$string['viewurldescription'] = 'あなたのページの読みやすいURIです。このフィールドの長さは半角3-100文字にしてください。';
+$string['userviewurltaken'] = 'このURIはすでに取得されています。別のURIを選択してください。';
 $string['description'] = 'ページ説明';
 $string['startdate'] = 'アクセス開始日時';
 $string['stopdate'] = 'アクセス終了日時';
@@ -76,6 +79,7 @@ $string['viewsubmittedtogroup'] = 'このページは<a href="%s">%s</a>に送�
 $string['viewsubmittedtogroupon'] = 'このページは<a href="%s">%s</a>に対して %s に送信されました。';
 $string['nobodycanseethisview2'] = 'あなたのみ、このページを閲覧できます。';
 $string['noviews'] = 'ページはありません。';
+$string['nviews'] = '%s ページ';
 $string['youhavenoviews'] = 'あなたのページはありません。';
 $string['youhaventcreatedanyviewsyet'] = 'あなたはまだページを作成していません。';
 $string['youhaveoneview'] = 'あなたには 1 件のページがあります。';

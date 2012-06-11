@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-05-15 04:41:50 UTC
+ * @updated    2012-06-11 21:43:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -144,6 +144,24 @@ $string['iframedisplaynamedescription'] = 'ユーザに表示されるサイト�
 $string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含むことができます。';
 $string['iframeiconhost'] = 'アイコンホスト';
 $string['iframeiconhostdescription'] = '必要であれば、あなたはファビコン (favicon) イメージ用の異なるホストを指定することができます。同一名称のサイトすべてに対して、このアイコンが使用されます。';
+$string['cleanurls'] = 'クリーンURI';
+$string['cleanurlsdescription'] = '<p>ユーザプロファイル、グループホームページおよびポートフォリオページに関して、人間が解読可能なURIを使用して、あなたのサイトを設定することができます。例えば、下記のようになります:
+<ul>
+<li>http://mahara.example.com/user/bob</li>
+<li>http://mahara.example.com/group/bobs-group</li>
+<li>http://mahara.example.com/user/bob/bobs-portfolio-page</li>
+</ul>
+
+受信リクエストのURIを書き換えることができるよう、あなたのサーバ管理者はこのオプションを有効にする前にウェブサーバを設定する必要があります。</p>
+<p>この作業のインストラクションに関して、Mahara wikiの<a href=" https://wiki.mahara.org/index.php/System_Administrator%%27s_Guide/Clean_URL_Configuration" target="_blank">「クリーンURI設定 (英語)」</a>をご覧ください。</p>';
+$string['cleanurlsdisabled'] = 'クリーンURIは無効にされています。';
+$string['cleanurlsettings'] = 'クリーンURI設定';
+$string['regenerateurls'] = 'URIを再生成する';
+$string['regenerateurlsdescription'] = 'サイトからクリーンURIすべてを削除した後、ユーザ名、グループ名およびページタイトルを使用して自動的に生成します。';
+$string['regenerateurlsconfirm'] = '本当にこの処理を実行してもよろしいですか? ユーザによって選択された既存のURIすべてが置換されます。';
+$string['generateduserurls'] = '%s プロファイルURIを生成しました。';
+$string['generatedgroupurls'] = '%s グループホームページURIを生成しました。';
+$string['generatedviewurls'] = '%s ポートフォリオURIを生成しました。';
 $string['warnings'] = '警告';
 $string['groupcategories'] = 'グループカテゴリ';
 $string['allowgroupcategories'] = 'グループカテゴリを許可する';
@@ -565,7 +583,7 @@ $string['usersreactivated'] = 'ユーザを復活しました。';
 $string['accountsettings'] = 'アカウント設定';
 $string['siteaccountsettings'] = 'サイトアカウント設定';
 $string['changeusername'] = 'ユーザ名を変更する';
-$string['changeusernamedescription'] = 'このユーザのユーザ名を変更します。ユーザ名の長さは半角3～236文字にしてください。ユーザ名にはスペースを除く、文字、数字および一般的な記号を含むことができます。';
+$string['changeusernamedescription'] = 'このユーザのユーザ名を変更します。ユーザ名の長さは半角3-236文字にしてください。ユーザ名にはスペースを除く、文字、数字および一般的な記号を含むことができます。';
 $string['resetpassword'] = 'パスワードのリセット';
 $string['resetpassworddescription'] = 'ここにテキストを入力した場合、ユーザの現在のパスワードと入れ替えられます。';
 $string['forcepasswordchange'] = '次回ログイン時、パスワード変更を強制する';

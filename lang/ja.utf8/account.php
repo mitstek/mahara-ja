@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-02-21 18:41:58 UTC
+ * @updated    2012-06-10 14:16:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -33,9 +33,13 @@ $string['changepasswordotherinterface'] = 'あなたは異なるインターフ�
 $string['oldpasswordincorrect'] = 'これはあなたの現在のパスワードではありません。';
 $string['changeusernameheading'] = 'ユーザ名を変更する';
 $string['changeusername'] = '新しいユーザ名';
-$string['changeusernamedesc'] = 'あなたが %s へのログインに使用するユーザ名です。あなたのユーザ名は半角英数字3～30文字にしてください。また、ユーザ名には空白を除く、半角英数字および標準的な記号を使用することができます。';
+$string['changeusernamedesc'] = 'あなたが %s へのログインに使用するユーザ名です。ユーザ名の長さは半角3-30文字にしてください。ユーザ名には空白を除く、半角英数字および標準的な記号を使用することができます。';
 $string['usernameexists'] = 'このユーザ名は取得されています。別のユーザ名を選択してください。';
 $string['accountoptionsdesc'] = 'あなたはここで一般アカウントオプションを設定することができます。';
+$string['changeprofileurl'] = 'プロファイルURIを変更する';
+$string['profileurl'] = 'プロファイルURI';
+$string['profileurldescription'] = 'あなたのプロファイルページのURIです。このフィールドの長さは半角3-30文字にしてください。';
+$string['urlalreadytaken'] = 'このプロファイルURIはすでに取得されています。別のURIを選択してください。';
 $string['friendsnobody'] = 'だれも私をフレンドとして追加できません。';
 $string['friendsauth'] = '新しいフレンドになるには私の承認が必要です。';
 $string['friendsauto'] = '新しいフレンドは自動的に承認されます。';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-05-25 16:52:10 UTC
+ * @updated    2012-06-11 03:58:40 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -95,6 +95,7 @@ $string['accessdeniedexception'] = 'あなたにはこのページを閲覧す�
 $string['viewnotfoundexceptiontitle'] = 'ページが見つかりませんでした。';
 $string['viewnotfoundexceptionmessage'] = 'あなたは存在しないページにアクセスを試みました!';
 $string['viewnotfound'] = 'ID %s のページは見つかりませんでした。';
+$string['viewnotfoundbyname'] = 'ページ %s (ユーザ: %s) が見つかりませんでした。';
 $string['youcannotviewthisusersprofile'] = 'あなたはこのユーザのプロファイルを閲覧できません。';
 $string['artefactnotfoundmaybedeleted'] = 'ID %s のアーティファクトは見つかりませんでした (もしかして、削除されましたか?)。';
 $string['artefactnotfound'] = 'ID %s のアーティファクトは見つかりませんでした。';
