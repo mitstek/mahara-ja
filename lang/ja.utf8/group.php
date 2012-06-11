@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-10 14:21:52 UTC
+ * @updated    2012-06-11 04:14:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -215,7 +215,7 @@ $string['sendinvitations'] = '招待状を送信する';
 $string['userstobeadded'] = '追加されるユーザ';
 $string['userstobeinvited'] = '招待されるユーザ';
 $string['reasonoptional'] = '理由 (任意)';
-$string['request'] = 'リクエストする';
+$string['request'] = 'リクエスト';
 $string['friendformaddsuccess'] = '%s があなたのフレンドリストに追加されました。';
 $string['friendformremovesuccess'] = '%s があなたのフレンドリストから削除されました。';
 $string['friendformrequestsuccess'] = '%s にフレンドシップリクエストが送信されました。';
