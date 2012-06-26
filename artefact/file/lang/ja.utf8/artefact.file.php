@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-05-24 03:36:10 UTC
+ * @updated    2012-06-26 17:12:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -48,6 +48,15 @@ $string['confirmdeletefolder'] = '本当にこのフォルダを削除しても�
 $string['confirmdeletefolderandcontents'] = '本当にこのフォルダおよびすべてのコンテンツを削除してもよろしいですか?';
 $string['customagreement'] = 'カスタム同意書';
 $string['Date'] = '登録日';
+$string['resizeonupload'] = 'アップロード時、イメージをリサイズする';
+$string['resizeonuploaddescription'] = 'アップロード時、自動的に大きなイメージをリサイズします。';
+$string['resizeonuploaduseroption'] = 'ユーザオプションを表示する';
+$string['resizeonuploaduseroptiondescription'] = 'アップロード時に自動的に大きなイメージをリサイズするオプションをユーザに表示します。';
+$string['resizeonuploadenable'] = '大きなイメージの自動リサイズを有効にする';
+$string['resizeonuploadenablefilebrowser'] = '%sx%s pxより大きなイメージの自動リサイズを有効にします (推奨)。';
+$string['resizeonuploadmaxwidth'] = '最大幅';
+$string['resizeonuploadmaxheight'] = '最大高さ';
+$string['resizeonuploadenabledescription'] = '最大高さおよび幅を超えた場合、アップロード時にイメージをリサイズします。';
 $string['defaultagreement'] = 'デフォルト同意書';
 $string['defaultquota'] = 'デフォルトクオータ';
 $string['defaultquotadescription'] = 'あなたは新しいユーザがクオータとして持つことのできるディスクスペース総量をここで設定することができます。既存のユーザのクオータは変更されません。';
@@ -156,6 +165,7 @@ $string['usecustomagreement'] = 'カスタム同意書を使用する';
 $string['youmustagreetothecopyrightnotice'] = 'あなたは著作権表示に同意する必要があります。';
 $string['fileuploadedtofolderas'] = '%s が %s に「 %s 」としてアップロードされました。';
 $string['fileuploadedas'] = '%s が「 %s 」としてアップロードされました。';
+$string['insufficientmemoryforresize'] = '(イメージのリサイズのために十分なメモリがありません。アップロード前にリサイズすることをお考えください)';
 $string['ai'] = 'Postscriptドキュメント';
 $string['aiff'] = 'AIFFオーディオファイル';
 $string['application'] = '不明なアプリケーション';

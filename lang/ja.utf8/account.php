@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-10 14:16:07 UTC
+ * @updated    2012-06-26 16:46:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -75,5 +75,7 @@ $string['maildisableddescription'] = 'あなたのアカウント宛のメール
 $string['deleteaccount'] = 'アカウントを削除する';
 $string['deleteaccountdescription'] = 'アカウントを削除した場合、今後、あなたのプロファイル情報およびページを他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧することができますが、投稿者名が表示されないようになります。';
 $string['accountdeleted'] = 'あなたのアカウントが正常に削除されました。';
+$string['resizeonuploaduserdefault'] = 'デフォルトで「アップロード時、大きなイメージをリサイズする」を有効にする';
+$string['resizeonuploaduserdefaultdescription'] = 'この設定を有効にすることで、ファイルアップロード時の「アップロード時、大きなイメージをリサイズする」オプションがデフォルトで有効にされます。無効にすることで、当該オプションがデフォルトで無効にされます。';
 
 ?>
