@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-27 01:03:38 UTC
+ * @updated    2012-06-27 15:25:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,6 +29,7 @@
 defined('INTERNAL') || die();
 
 $string['add'] = '追加';
+$string['addone'] = '追加';
 $string['cancel'] = 'キャンセル';
 $string['delete'] = '削除';
 $string['edit'] = '編集';
