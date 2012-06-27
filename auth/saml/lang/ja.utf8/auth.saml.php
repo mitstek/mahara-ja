@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-02-21 18:55:16 UTC
+ * @updated    2012-06-27 01:03:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -40,6 +40,7 @@ $string['errorbadconfig'] = 'SimpleSAMLPHP設定ディレクトリ「 %s 」が�
 $string['errorbadcombo'] = 'リモートユーザを選択していない場合のみ、あなたはユーザ自動作成を選択することができます。';
 $string['errorbadinstitutioncombo'] = 'このインスティテューション属性およびインスティテューション値の組み合わせの認証インスタンスはすでに存在します。';
 $string['errormissinguserattributes1'] = 'あなたは認証されたようですが、私たちは必要なユーザ属性を受信していません。あなたのアイデンティティプロバイダ (IdP) が、姓名およびメールアドレスに対するSSOフィールドを %s にリリースしているか確認してください。または、管理者にご連絡ください。';
+$string['errorregistrationenabledwithautocreate'] = 'インスティテューションが登録を有効にされています。セキュリティ上の理由から、ユーザ自動作成を除きます。';
 $string['errorremoteuser'] = '「usersuniquebyusername」が無効にされた場合、リモートユーザとの合致は必須です。';
 $string['institutionattribute'] = 'インスティテューション属性 (%s を含む)';
 $string['institutionvalue'] = '属性をチェックするためのインスティテューション値';

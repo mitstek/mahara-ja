@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-11 20:48:39 UTC
+ * @updated    2012-06-27 01:03:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -142,7 +142,6 @@ $string['quota'] = 'クオータ';
 $string['quotausage'] = 'あなたの利用クオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span> です。';
 $string['groupquota'] = 'グループクオータ';
 $string['updatefailed'] = 'アップデートに失敗しました。';
-$string['strftimenotspecified'] = '未設定';
 $string['invitedgroup'] = '招待されたグループ';
 $string['invitedgroups'] = '招待されたグループ';
 $string['logout'] = 'ログアウト';
