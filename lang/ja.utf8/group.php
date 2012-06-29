@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-11 21:56:46 UTC
+ * @updated    2012-06-29 16:48:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -80,7 +80,6 @@ $string['editroles'] = '誰がページを編集できますか?';
 $string['editrolesdescription'] = 'グループページを作成および編集できるロールです。';
 $string['allexceptmember'] = '一般メンバーを除く全員';
 $string['Admin'] = '管理者';
-$string['grouptype'] = 'グループタイプ';
 $string['publiclyviewablegroup'] = 'パブリックに閲覧可能なグループですか?';
 $string['publiclyviewablegroupdescription'] = '誰でも (このサイトのメンバーではない人も含めて) フォーラムを含む、このグループを閲覧できるようにしますか?';
 $string['Type'] = 'タイプ';
@@ -139,6 +138,7 @@ $string['memberrequests'] = 'メンバーシップリクエスト';
 $string['declinerequest'] = 'リクエストを拒否する';
 $string['submittedviews'] = '送信済みページ';
 $string['releaseview'] = 'ページをリリースする';
+$string['releasecollection'] = 'コレクションをリリースする';
 $string['invite'] = '招待';
 $string['remove'] = '削除';
 $string['updatemembership'] = 'メンバーシップを更新する';
@@ -146,7 +146,10 @@ $string['memberchangefailed'] = 'いくつかのメンバーシップ情報の�
 $string['memberchangesuccess'] = 'メンバーシップのステータスが正常に変更されました。';
 $string['viewreleasedsubject'] = 'あなたのページ「 %s 」が %s から %s によってリリースされました。';
 $string['viewreleasedmessage'] = 'あなたのページ「 %s 」が %s から %s によってリリースされました。';
+$string['collectionreleasedsubject'] = 'あなたのコレクション「 %s 」が %s から %s によってリリースされました。';
+$string['collectionreleasedmessage'] = 'あなたのコレクション「 %s 」が %s から %s によってリリースされました。';
 $string['viewreleasedsuccess'] = 'ページが正常にリリースされました。';
+$string['collectionreleasedsuccess'] = 'コレクションが正常にリリースされました。';
 $string['leavegroup'] = 'このグループから離れる';
 $string['joingroup'] = 'このグループに参加する';
 $string['requestjoingroup'] = 'このグループへの参加をリクエストする';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-27 15:25:07 UTC
+ * @updated    2012-06-29 16:44:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -325,7 +325,7 @@ $string['passwordnotchanged'] = 'あなたはパスワードを変更してい�
 $string['passwordsaved'] = 'あなたの新しいパスワードが保存されました。';
 $string['passwordsdonotmatch'] = 'パスワードが合致しません。';
 $string['passwordtooeasy'] = 'あなたのパスワードは簡単すぎます! 難しいパスワードを入力してください。';
-$string['register'] = 'ユーザ登録';
+$string['register'] = '登録';
 $string['sessiontimedout'] = 'あなたのセッションはタイムアウトしました。続けるには再度ログインしてください。';
 $string['sessiontimedoutpublic'] = 'あなたのセッションはタイムアウトしました。閲覧を続けるには<a href="%s">ログイン</a>してください。';
 $string['sessiontimedoutreload'] = 'あなたのセッションはタイムアウトしました。再度ログインするには、ページをリロードしてください。';
