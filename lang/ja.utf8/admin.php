@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-11 21:43:55 UTC
+ * @updated    2012-06-29 17:16:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -223,6 +223,7 @@ $string['statsmaxviews'] = '平均ページ数: %s (最もページの多いユ�
 $string['statsnoviews'] = 'ページ数: 0';
 $string['statsmaxgroups'] = '平均所属グループ数: %s (最も所属グループの多いユーザ: <a href="%s">%s</a> - 所属グループ数: %d)';
 $string['statsnogroups'] = '所属グループ数: 0';
+$string['statsnoquota'] = 'ストレージ未使用';
 $string['statsmaxquotaused'] = '平均利用ディスククオータ: %s (最も利用クオータの多いユーザ: <a href="%s">%s</a> - 利用クオータ: %s)';
 $string['groupcountsbytype'] = 'グループタイプごとのグループ数';
 $string['groupcountsbyjointype'] = 'アクセスタイプごとのグループ数';
@@ -233,6 +234,14 @@ $string['viewsbytype'] = 'タイプ別ページ';
 $string['userstatstabletitle'] = '日次ユーザ統計';
 $string['groupstatstabletitle'] = '最大グループ';
 $string['viewstatstabletitle'] = '人気ページ';
+$string['exportstatsascsv'] = '統計をCSVフォーマットでエクスポートする';
+$string['nostats'] = '利用可能な統計はありません。';
+$string['statistics'] = '統計';
+$string['institutionstatisticsfor'] = '「 %s 」のインスティテューション統計';
+$string['institutioncreated'] = 'インスティテューション作成';
+$string['registrationstatstabletitle'] = '今週の登録統計';
+$string['historicalstatstabletitle'] = 'フィールド「 %s 」の歴史的統計';
+$string['institutionstatstabletitle'] = 'インスティテューション統計比較';
 $string['adminsonly'] = '管理者のみ';
 $string['adminsandstaffonly'] = '管理者およびスタッフのみ';
 $string['advanced'] = '高度';

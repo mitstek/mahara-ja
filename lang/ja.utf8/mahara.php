@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-29 16:44:51 UTC
+ * @updated    2012-06-29 17:10:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -488,6 +488,7 @@ $string['emailnotsent'] = 'コンタクトメールの送信に失敗しまし�
 $string['namedfieldempty'] = '必須入力フィールド「 %s 」が空白です。';
 $string['processing'] = '処理中';
 $string['unknownerror'] = '不明なエラーが発生しました (0x20f91a0)。';
+$string['overview'] = '概要';
 $string['home'] = 'ホーム';
 $string['Content'] = 'コンテンツ';
 $string['myportfolio'] = 'マイポートフォリオ';
@@ -930,5 +931,12 @@ $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['filenotfound'] = 'ファイルが見つかりませんでした。';
 $string['betweenxandy'] = '範囲: %s - %s';
 $string['cleanurlallowedcharacters'] = '半角英数小文字および「-」のみ許可されます。';
+$string['registration'] = '登録';
+$string['modified'] = '修正';
+$string['historical'] = '歴史';
+$string['members'] = 'メンバー';
+$string['blocks'] = 'ブロック';
+$string['artefacts'] = 'アーティファクト';
+$string['posts'] = '投稿';
 
 ?>
