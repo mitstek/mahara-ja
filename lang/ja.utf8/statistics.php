@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-29 18:48:31 UTC
+ * @updated    2012-06-29 18:52:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -138,9 +138,9 @@ $string['enablenetworking'] = '有効なネットワーク';
 $string['installation_key'] = 'インストールキー';
 $string['lang'] = '言語';
 $string['newstats'] = '新しい統計';
-$string['plugin_artefact_blog_version'] = 'アーティファクトプラグイン: 日誌バージョン';
-$string['plugin_artefact_comment_version'] = 'アーティファクトプラグイン: コメントバージョン';
-$string['plugin_artefact_file_version'] = 'アーティファクトプラグイン: ファイルバージョン';
+$string['plugin_artefact_blog_version'] = 'アーティファクトプラグイン: 「日誌」バージョン';
+$string['plugin_artefact_comment_version'] = 'アーティファクトプラグイン: 「コメント」バージョン';
+$string['plugin_artefact_file_version'] = 'アーティファクトプラグイン: 「ファイル」バージョン';
 $string['plugin_artefact_internal_version'] = 'アーティファクトプラグイン: 「XXXXXX」バージョン';
 $string['plugin_artefact_plans_version'] = 'アーティファクトプラグイン: 「プラン」バージョン';
 $string['plugin_artefact_resume_version'] = 'アーティファクトプラグイン: 「レジュメ」バージョン';
@@ -150,7 +150,7 @@ $string['plugin_auth_internal_version'] = '認証プラグイン: 「内部」�
 $string['plugin_auth_ldap_version'] = '認証プラグイン:  「LDAP」バージョン';
 $string['plugin_auth_none_version'] = '認証プラグイン:  「なし」バージョン';
 $string['plugin_auth_saml_version'] = '認証プラグイン:  「SAML」 バージョン';
-$string['plugin_auth_xmlrpc_version'] = '認証プラグイン:  XML-RPCバージョン';
+$string['plugin_auth_xmlrpc_version'] = '認証プラグイン:  「XML-RPC」バージョン';
 $string['plugin_blocktype_blogpost_version'] = 'ブロックタイププラグイン: 「日誌エントリ」バージョン';
 $string['plugin_blocktype_blog_version'] = 'ブロックタイププラグイン: 「日誌」バージョン';
 $string['plugin_blocktype_contactinfo_version'] = 'ブロックタイププラグイン: 「連絡先」バージョン';
