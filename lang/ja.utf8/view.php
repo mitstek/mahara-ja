@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-10 14:18:32 UTC
+ * @updated    2012-06-29 16:34:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -65,6 +65,7 @@ $string['viewdeleted'] = 'ページが削除されました。';
 $string['viewsubmitted'] = 'ページが送信されました。';
 $string['deletethisview'] = 'このページを削除する';
 $string['submitthisviewto'] = 'このページを評価のため';
+$string['submitthiscollectionto'] = 'このコレクションを評価のため';
 $string['forassessment'] = 'に送信する';
 $string['accessfromdate2'] = '%s 以前、誰もこのページを閲覧できません。';
 $string['accessuntildate2'] = '%s 以降、誰もこのページを閲覧できません。';
@@ -77,6 +78,8 @@ $string['View'] = 'ページ';
 $string['Views'] = 'ページ';
 $string['viewsubmittedtogroup'] = 'このページは<a href="%s">%s</a>に送信されました。';
 $string['viewsubmittedtogroupon'] = 'このページは<a href="%s">%s</a>に対して %s に送信されました。';
+$string['collectionsubmittedtogroup'] = 'このコレクションは<a href="%s">%s</a>に送信されました。';
+$string['collectionsubmittedtogroupon'] = 'このコレクションは<a href="%s">%s</a>に送信されました。送信日時: %s';
 $string['nobodycanseethisview2'] = 'あなたのみ、このページを閲覧できます。';
 $string['noviews'] = 'ページはありません。';
 $string['nviews'] = '%s ページ';
@@ -87,8 +90,8 @@ $string['youhaveviews'] = 'あなたには %s 件のページがあります。'
 $string['viewsownedbygroup'] = 'このグループが所有しているページ';
 $string['viewssharedtogroup'] = 'このグループで共有されているページ';
 $string['viewssharedtogroupbyothers'] = 'このグループで共有されている、他のメンバーのページ';
-$string['viewssubmittedtogroup'] = 'このグループに送信されたページ';
-$string['submitaviewtogroup'] = 'このグループにページを送信する';
+$string['submissionstogroup'] = 'このグループへの送信';
+$string['submittogroup'] = 'このグループにページまたはコレクションを送信する';
 $string['youhavesubmitted'] = 'あなたはこのグループに <a href="%s">%s</a> を送信しました。';
 $string['youhavesubmittedon'] = 'あなたはこのグループに対して、<a href="%s">%s</a> を %s　%s に送信しました。';
 $string['listedinpages'] = 'ページ内一覧';
@@ -145,9 +148,13 @@ $string['otherusersandgroups'] = '他のユーザおよびグループと共有�
 $string['moreoptions'] = '高度な設定';
 $string['moreinstitutions'] = 'さらにインスティテューションを表示する';
 $string['allviews'] = 'すべてのページ';
-$string['submitviewconfirm'] = 'あなたが「 %s 」を「 %s 」に評価のため送信する場合、チューターによるページの採点完了まで、あなたのページを編集することができません。本当にこのページを送信してもよろしいですか?';
+$string['submitconfirm'] = '評価のために「 %s 」を「 %s 」に送信した場合、チューターが評価を終えるまで、あなたはコンテンツを編集することができません。本当に送信してもよろしいですか?';
+$string['collectionsubmitted'] = 'コレクションが送信されました。';
+$string['viewsalreadysubmitted'] = 'このコレクション内のいくつかのページはすでに送信されています:<br />%s<br />それらのページがリリースされるまで、あなたはコレクションを送信することができません。';
 $string['submitviewtogroup'] = '評価のため「 %s 」を「 %s 」に送信する';
 $string['cantsubmitviewtogroup'] = 'あなたはこのページの評価を目的として、このグループに送信することはできません。';
+$string['cantsubmitcollectiontogroup'] = 'あなたはこのコレクションを送信できません。';
+$string['cantsubmittogroup'] = 'あなたはこのグループに送信できません。';
 $string['cantdeleteview'] = 'あなたはこのページを削除できません。';
 $string['deletespecifiedview'] = 'ページ「 %s 」を削除する';
 $string['deleteviewconfirm1'] = '本当にこのページを削除してもよろしいですか? 元に戻すことはできません。';
