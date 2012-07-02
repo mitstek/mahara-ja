@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-29 16:48:14 UTC
+ * @updated    2012-07-02 16:07:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -335,5 +335,14 @@ $string['submit'] = '送信';
 $string['allowssubmissions'] = '送信を許可する';
 $string['allowsubmissions'] = '送信を許可する';
 $string['allowssubmissionsdescription1'] = 'メンバーはグループにページを送信することができます。送信後、ページはロックされます。送信されたページはグループチューターまたは管理者がリリースするまで、編集することはできません。';
+$string['allowssubmissionsdescription'] = 'メンバーはグループにページを送信することができます。';
+$string['report'] = 'レポート';
+$string['grouphasntcreatedanyviewsyet'] = 'このグループはまだページを作成していません。';
+$string['noviewssharedwithgroupyet'] = 'まだこのグループで共有されているページはありません。';
+$string['groupsharedviewsscrolled'] = 'あなたは共有ページリストの最後までスクロールしました。';
+$string['groupcreatedviewsscrolled'] = 'あなたはグループページリストの最後までスクロールしました。';
+$string['nnonmembers'] = '%s 非メンバー';
+$string['membercommenters'] = '関わっているメンバー';
+$string['extcommenters'] = '関わっている非メンバー';
 
 ?>

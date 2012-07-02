@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-29 16:34:03 UTC
+ * @updated    2012-07-02 15:54:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -317,5 +317,6 @@ $string['tagsonly'] = 'タグのみ';
 $string['sharedviewsdescription'] = 'このページではあなたが共有しているページの中から、直近に修正またはコメントされたページが一覧表示されます。これらの共有ページには直接あなたが共有しているページ、オーナーのフレンドが共有しているページ、あなたのグループが共有しているページがあります。';
 $string['sharedwith'] = '共有対象';
 $string['Me'] = '私';
+$string['sharedby'] = '共有';
 
 ?>
