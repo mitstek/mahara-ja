@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-29 17:10:55 UTC
+ * @updated    2012-07-03 12:49:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -931,9 +931,10 @@ $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['filenotfound'] = 'ファイルが見つかりませんでした。';
 $string['betweenxandy'] = '範囲: %s - %s';
 $string['cleanurlallowedcharacters'] = '半角英数小文字および「-」のみ許可されます。';
-$string['registration'] = '登録';
+$string['content'] = 'コンテンツ';
 $string['modified'] = '修正';
 $string['historical'] = '歴史';
+$string['institutions'] = 'インスティテューション';
 $string['members'] = 'メンバー';
 $string['blocks'] = 'ブロック';
 $string['artefacts'] = 'アーティファクト';

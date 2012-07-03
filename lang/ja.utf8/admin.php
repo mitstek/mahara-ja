@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-29 17:16:12 UTC
+ * @updated    2012-07-03 12:50:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -239,7 +239,7 @@ $string['nostats'] = '利用可能な統計はありません。';
 $string['statistics'] = '統計';
 $string['institutionstatisticsfor'] = '「 %s 」のインスティテューション統計';
 $string['institutioncreated'] = 'インスティテューション作成';
-$string['registrationstatstabletitle'] = '今週の登録統計';
+$string['contentstatstabletitle'] = '今週のコンテンツ統計';
 $string['historicalstatstabletitle'] = 'フィールド「 %s 」の歴史的統計';
 $string['institutionstatstabletitle'] = 'インスティテューション統計比較';
 $string['adminsonly'] = '管理者のみ';
