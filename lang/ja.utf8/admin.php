@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-07-03 12:50:01 UTC
+ * @updated    2012-07-04 13:03:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -137,7 +137,7 @@ $string['filtersinstalled'] = 'フィルタがインストールされました�
 $string['nofiltersinstalled'] = 'HTMLフィルタはインストールされませんでした。';
 $string['allowediframesites'] = '許可済みiframeソース';
 $string['allowediframesitesdescriptionshort'] = '埋め込み外部iframeコンテンツのパーミッションを設定します。';
-$string['allowediframesitesdescription'] = 'ユーザはHTML &lt;iframe&gt; エレメント内に以下の外部サイトからコンテンツを埋め込むことができます。これは一般的に他の場所で提供されているビデオを表示するために使用されます。このページにて、許可されるサイト一覧を修正することができます。';
+$string['allowediframesitesdescription'] = 'ユーザはHTML &lt;iframe&gt; エレメント内に以下の外部サイトからコンテンツを埋め込むことができます。これは一般的に他の場所で提供されているコンテンツを表示するために使用されます。このページにて、許可されるサイト一覧を修正することができます。';
 $string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、ユーザに対してアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが、同一サイト内におけるiframeソーステキストの一部合致は許可されます。';
 $string['iframeurldescription'] = 'iframeソースURI (http:// なし) の先頭に合致するテキストです。半角英数字、「.」「/」「_」および「-」のみ許可されます。';
 $string['iframedisplaynamedescription'] = 'ユーザに表示されるサイト名です。';

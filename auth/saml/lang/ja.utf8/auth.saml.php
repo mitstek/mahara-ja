@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-27 01:03:30 UTC
+ * @updated    2012-07-04 12:59:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -50,7 +50,7 @@ $string['loginlink'] = 'ユーザにアカウントのリンクを許可する';
 $string['logintolink'] = 'リモートアカウントにリンクするため、 %s にローカルログインする';
 $string['logintolinkdesc'] = '<p><b>現在、あなたはリモートユーザ %s としてログインしています。リモートアカウントとリンクするために、あなたのローカルアカウントを使ってログインしてください。あなたが %s にアカウントを持っていない場合、ユーザ登録してください。</b></p>';
 $string['institutionregex'] = 'インスティテューション省略名を部分的に文字列一致させる';
-$string['login'] = 'SSOログイン';
+$string['login'] = 'SSO';
 $string['notusable'] = 'SimpleSAMLPHP SPライブラリをインストールしてください。';
 $string['samlfieldforemail'] = 'メールアドレスのSSOフィールド';
 $string['samlfieldforfirstname'] = '名のSSOフィールド';

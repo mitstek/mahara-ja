@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-26 17:12:56 UTC
+ * @updated    2012-07-04 12:57:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -45,7 +45,7 @@ $string['Created'] = '作成日時';
 $string['createfolder'] = 'フォルダを作成する';
 $string['confirmdeletefile'] = '本当にこのファイルを削除してもよろしいですか?';
 $string['confirmdeletefolder'] = '本当にこのフォルダを削除してもよろしいですか?';
-$string['confirmdeletefolderandcontents'] = '本当にこのフォルダおよびすべてのコンテンツを削除してもよろしいですか?';
+$string['confirmdeletefolderandcontents'] = '本当にこのフォルダおよびコンテンツを削除してもよろしいですか?';
 $string['customagreement'] = 'カスタム同意書';
 $string['Date'] = '登録日';
 $string['resizeonupload'] = 'アップロード時、イメージをリサイズする';
