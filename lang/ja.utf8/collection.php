@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-07-04 13:04:55 UTC
+ * @updated    2012-07-05 15:23:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -39,13 +39,22 @@ $string['add'] = '追加';
 $string['addviews'] = 'ページを追加する';
 $string['addviewstocollection'] = 'コレクションにページを追加する';
 $string['back'] = '戻る';
-$string['cantdeletecollection'] = 'あなたはこのコレクションを削除できません。';
+$string['cantlistgroupcollections'] = 'あなたはグループコレクションの一覧表示を許可されていません。';
+$string['cantlistinstitutioncollections'] = 'あなたはインスティテューションコレクションの一覧表示を許可されていません。';
+$string['canteditgroupcollections'] = 'あなたはグループコレクションの編集を許可されていません。';
+$string['canteditinstitutioncollections'] = 'あなたはインスティテューションコレクションの編集を許可されていません。';
+$string['canteditcollection'] = 'あなたはこのコレクションの編集を許可されていません。';
+$string['cantcreatecollection'] = 'あなたはこのコレクションの作成を許可されていません。';
+$string['cantdeletecollection'] = 'あなたはこのコレクションの削除を許可されていません。';
 $string['canteditdontown'] = 'あなたの所有ではないため、このコレクションを編集することはできません。';
 $string['canteditsubmitted'] = '評価のため「 %s 」に送信されたため、あなたはこのコレクションを編集することはできません。リリースされるまで、あなたは待つ必要があります。';
 $string['collection'] = 'コレクション';
 $string['Collection'] = 'コレクション';
 $string['collections'] = 'コレクション';
 $string['Collections'] = 'コレクション';
+$string['groupcollections'] = 'グループコレクション';
+$string['institutioncollections'] = 'インスティテューションコレクション';
+$string['sitecollections'] = 'サイトコレクション';
 $string['collectionaccess'] = 'コレクションアクセス';
 $string['collectionaccesseditedsuccessfully'] = 'コレクションが正常に保存されました。';
 $string['collectioneditaccess'] = 'あなたには、このコレクション内の %d 件のページに対する編集アクセス権があります';
@@ -75,6 +84,7 @@ $string['emptycollection'] = '空のコレクション';
 $string['manageviews'] = 'ページを管理する';
 $string['name'] = 'コレクション名';
 $string['newcollection'] = '新しいコレクション';
+$string['nocollections'] = 'まだコレクションはありません。';
 $string['nocollectionsaddone'] = 'まだコレクションはありません。%sコレクションを追加してください%s!';
 $string['nooverride'] = 'オーバーライドはありません。';
 $string['noviewsavailable'] = '追加できるページはありません。';

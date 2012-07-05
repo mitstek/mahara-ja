@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-07-02 16:07:33 UTC
+ * @updated    2012-07-05 15:18:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -259,6 +259,7 @@ $string['currentfriends'] = '現在のフレンド';
 $string['pendingfriends'] = '保留中フレンド';
 $string['backtofriendslist'] = 'フレンドリストに戻る';
 $string['findnewfriends'] = '新しいフレンドを探す';
+$string['Collections'] = 'コレクション';
 $string['Views'] = 'ページ';
 $string['Files'] = 'ファイル';
 $string['noviewstosee'] = 'あなたが閲覧できるものはありません :(';
@@ -344,5 +345,7 @@ $string['groupcreatedviewsscrolled'] = 'あなたはグループページリス�
 $string['nnonmembers'] = '%s 非メンバー';
 $string['membercommenters'] = '関わっているメンバー';
 $string['extcommenters'] = '関わっている非メンバー';
+$string['groupparticipationreports'] = '参加者レポート';
+$string['groupparticipationreportsdesc'] = 'チェックした場合、グループ管理者はすべてのグループ、共有ページおよび誰がコメントしたのか表示するレポートにアクセスすることができます。';
 
 ?>
