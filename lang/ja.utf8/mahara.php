@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-07-04 13:05:44 UTC
+ * @updated    2012-07-06 16:43:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -939,5 +939,7 @@ $string['members'] = 'メンバー';
 $string['blocks'] = 'ブロック';
 $string['artefacts'] = 'アーティファクト';
 $string['posts'] = '投稿';
+$string['facebookdescription'] = 'Maharaはeポートフォリオおよびソーシャルネットワーキングを構築するためのオープンソースウェブアプリケーションです。
+Maharaは自分の学習に関するポートフォリオを作成および管理するためのツールをユーザに提供します。また、ソーシャルネットワーキング機能により、ユーザ同士が相互に交流を図ることができます。';
 
 ?>
