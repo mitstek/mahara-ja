@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-07-04 13:03:52 UTC
+ * @updated    2012-07-23 04:33:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -494,11 +494,13 @@ $string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能によ�
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
-<pre>shortname,displayname,editroles</pre>
+<pre>shortname,displayname,roles</pre>
 
-<p>この先頭行には<tt>shortname</tt>、<tt>displayname</tt>および<tt>editroles</tt>フィールドを含んでください。</p>
+<p>この先頭行には<tt>shortname</tt>、<tt>displayname</tt>および<tt>roles</tt>フィールドを含んでください。</p>
 
 <p>rolesフィールドには以下の設定値を含むことができます: %s</p>
+
+%s
 
 <p>必要に応じて、あなたのCSVファイルには他のフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
 
