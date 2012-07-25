@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-07-06 16:43:02 UTC
+ * @updated    2012-07-25 14:13:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -933,7 +933,7 @@ $string['betweenxandy'] = '範囲: %s - %s';
 $string['cleanurlallowedcharacters'] = '半角英数小文字および「-」のみ許可されます。';
 $string['content'] = 'コンテンツ';
 $string['modified'] = '修正';
-$string['historical'] = '歴史';
+$string['historical'] = '歴史的データ';
 $string['institutions'] = 'インスティテューション';
 $string['members'] = 'メンバー';
 $string['blocks'] = 'ブロック';
