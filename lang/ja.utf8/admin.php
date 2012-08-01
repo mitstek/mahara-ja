@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-07-23 04:33:02 UTC
+ * @updated    2012-08-01 16:17:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -237,6 +237,7 @@ $string['viewstatstabletitle'] = '人気ページ';
 $string['exportstatsascsv'] = '統計をCSVフォーマットでエクスポートする';
 $string['nostats'] = '利用可能な統計はありません。';
 $string['statistics'] = '統計';
+$string['institutionstatistics'] = 'インスティテューション統計';
 $string['institutionstatisticsfor'] = '「 %s 」のインスティテューション統計';
 $string['institutioncreated'] = 'インスティテューション作成';
 $string['contentstatstabletitle'] = '今週のコンテンツ統計';
@@ -317,6 +318,8 @@ $string['spamhaus'] = 'Spamhaus URIブラックリストを有効にする';
 $string['spamhausdescription'] = 'チェックした場合、Spamhaus DNSBLを使用して、URIがチェックされます。';
 $string['staffuserreports'] = 'スタッフレポートアクセス';
 $string['staffuserreportsdescription'] = 'チェックした場合、インスティテューション内ユーザのレポートページにサイトおよびインスティテューションスタッフがアクセスできるようになります。通常、このページは管理者に制限され、ページアクセスリストを含むユーザ詳細情報が一覧表示されます。';
+$string['staffuserstats'] = 'スタッフ統計アクセス';
+$string['staffuserstatsdescription'] = 'チェックした場合、インスティテューション内のユーザ統計ページにインスティテューションスタッフがアクセスできるようになります。通常、このページは管理者およびサイトスタッフのみに制限されています。';
 $string['surbl'] = 'SURBL URIブラックリスト';
 $string['surbldescription'] = 'チェックした場合、SURBL DNSBLを使用して、URIがチェックされます。';
 $string['disableexternalresources'] = 'ユーザHTMLの外部リソースを無効にする';
@@ -360,6 +363,8 @@ $string['sitefile'] = 'サイトファイル';
 $string['adminpublicdirname'] = 'パブリック';
 $string['adminpublicdirdescription'] = 'ログアウトしたユーザからアクセス可能なファイルです。';
 $string['badmenuitemtype'] = '不明なメニューアイテムタイプ';
+$string['badurl'] = '無効なリンクが提供されました。';
+$string['oneormorelinksarebad'] = '1つまたはそれ以上のリンクが有効ではありません。';
 $string['confirmdeletemenuitem'] = '本当にこのアイテムを削除してもよろしいですか?';
 $string['deletingmenuitem'] = 'メニューアイテムの削除中';
 $string['deletefailed'] = 'メニューアイテムの削除に失敗しました。';
@@ -775,6 +780,7 @@ $string['Staff'] = 'スタッフ';
 $string['Admins'] = '管理者';
 $string['noinstitutions'] = 'インスティテューションはありません。';
 $string['noinstitutionsdescription'] = 'あなたがユーザをインスティテューションと関連付けたい場合、最初にインスティテューションを作成してください。';
+$string['noinstitutionsstatsdescription'] = 'あなたのユーザに利用できるインスティテューションがないため、インスティテューション統計を利用することはできません。';
 $string['Lockedfields'] = 'ロックフィールド';
 $string['disabledlockedfieldhelp'] = '注意: 無効にされたチェックボックスはインスティテューション設定「 %s 」にてロックされたプロファイルフィールドです。これらのプロファイルフィールドはサイトレベルでロックされているため、ここでロック解除することはできません。';
 $string['defaultinstitutionquotadescription'] = 'あなたはこのインスティテューションの新しいユーザに割り当てられるディスクスペース総量を設定することができます。このインスティテューションに関する既存ユーザのクオータは変更されません。';

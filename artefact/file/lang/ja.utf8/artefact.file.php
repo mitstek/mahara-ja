@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-07-04 12:57:36 UTC
+ * @updated    2012-08-01 16:08:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -91,8 +91,10 @@ $string['file'] = 'ファイル';
 $string['File'] = 'ファイル';
 $string['fileadded'] = 'ファイルが選択されました。';
 $string['filealreadyindestination'] = 'あなたが移動しようとしたファイルはすでにフォルダに登録されています。';
-$string['fileappearsinviews'] = 'このファイルはあなたの1つまたはそれ以上のページに使用されています。';
-$string['fileattachedtoportfolioitems'] = 'このファイルは、あなたのポートフォリオ内の %s アイテムに添付されました。';
+$string['fileappearsinviews'] = 'このファイルはあなたの1つまたはそれ以上のページに表示されます。';
+$string['fileattachedtoportfolioitems'] = 'このファイルはあなたのポートフォリオ内の %s アイテムに添付されました。';
+$string['profileiconattachedtoportfolioitems'] = 'このプロファイル写真はあなたのポートフォリオ内の他のアイテムに添付されます。';
+$string['profileiconappearsinviews'] = 'このプロファイル写真はあなたの1つまたはそれ以上のページに表示されます。';
 $string['fileremoved'] = 'ファイルが削除されました。';
 $string['files'] = 'ファイル';
 $string['Files'] = 'ファイル';

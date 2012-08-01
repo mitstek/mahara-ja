@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-07-25 14:13:45 UTC
+ * @updated    2012-08-01 16:10:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -904,7 +904,7 @@ $string['editdashboard'] = '編集';
 $string['usersdashboard'] = '%s のダッシュボード';
 $string['dashboarddescription'] = 'ダッシュボードページはあなたがログインして最初にホームページ上で閲覧することになるページです。このページはあなたのみアクセスすることができます。';
 $string['topicsimfollowing'] = '私がフォローしているトピック';
-$string['recentactivity'] = 'マイメッセージ';
+$string['inboxblocktitle'] = '受信ボックス';
 $string['mymessages'] = 'マイメッセージ';
 $string['pleasedonotreplytothismessage'] = 'このメッセージに返信しないでください。';
 $string['deleteduser'] = '削除済みユーザ';
