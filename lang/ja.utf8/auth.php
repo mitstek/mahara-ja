@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-07-04 13:04:16 UTC
+ * @updated    2012-08-06 15:52:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -78,5 +78,9 @@ $string['hostwwwrootinuse'] = 'すでに別のインスティテューション 
 $string['duplicateremoteusername'] = '外部認証ユーザ名はすでにユーザ %s によって使用されています。外部認証ユーザ名は認証メソッド内でユニーク (固有) である必要があります。';
 $string['duplicateremoteusernameformerror'] = '外部認証ユーザ名は認証メソッド内でユニーク (固有) である必要があります。';
 $string['cannotjumpasmasqueradeduser'] = '別のユーザとして代理ログインしているため、あなたは他のアプリケーションにジャンプできません。';
+$string['mobileuploadnotenabled'] = '申し訳ございません、モバイルアップロードが有効にされていません。';
+$string['mobileuploadtokennotset'] = 'あなたのモバイルアップロードトークンを空白にすることはできません。あなたのモバイルアプリケーション設定を確認した後、再度お試しください。';
+$string['mobileuploadusernamenotset'] = 'あなたのモバイルアップロードユーザ名を空白にすることはできません。あなたのモバイルアプリケーション設定を確認した後、再度お試しください。';
+$string['mobileuploadtokennotfound'] = '申し訳ございません、モバイルアップロードトークンが見つかりませんでした。あなたのサイトおよびモバイルアプリケーション設定を確認してください。';
 
 ?>

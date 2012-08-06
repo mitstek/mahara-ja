@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-07-05 15:18:44 UTC
+ * @updated    2012-08-06 15:53:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -75,6 +75,10 @@ $string['groupalreadyexists'] = 'この名称のグループはすでに登録�
 $string['invalidshortname'] = '無効なグループ省略名です。';
 $string['shortnameformat'] = 'グループ省略名の長さは半角2-255文字にしてください。グループ省略名には半角英数字、「.」、「-」および「_」を使用することができます。';
 $string['Created'] = '作成';
+$string['Available'] = '利用可能';
+$string['editability'] = '編集可能';
+$string['windowstart'] = '開始日時';
+$string['windowend'] = '終了日時';
 $string['groupadmins'] = 'グループ管理者';
 $string['editroles'] = '誰がページを編集できますか?';
 $string['editrolesdescription'] = 'グループページを作成および編集できるロールです。';
@@ -116,6 +120,7 @@ $string['suggestgroupnotificationmessage'] = 'あなたのグループ参加を 
 $string['recommendationssent'] = '%d 件のレコメンデーションが送信されました。';
 $string['suggestinvitefriends'] = 'あなたはフレンドの招待およびレコメンデーションの両方を同時に有効にすることはできません。';
 $string['suggestfriendsrequesterror'] = 'あなたはオープンまたはリクエストグループでのみ、フレンドのレコメンデーションを有効にできます。';
+$string['editwindowendbeforestart'] = '終了日時は開始日時の後に設定してください。';
 $string['editgroupmembership'] = 'グループメンバーシップを編集する';
 $string['editmembershipforuser'] = '%s のグループメンバーシップを編集する';
 $string['changedgroupmembership'] = 'グループメンバーシップが正常に更新されました。';
