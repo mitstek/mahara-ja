@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-28 03:55:16 UTC
+ * @updated    2012-08-09 18:19:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -37,7 +37,11 @@ $string['taglist'] = 'マイタグ';
 $string['notags'] = '「 %s 」がタグ付けされた記事はありません。';
 $string['notagsavailable'] = 'あなたはタグを作成していません。';
 $string['postedin'] = '-';
+$string['postedon'] = '-';
 $string['itemstoshow'] = '表示するアイテム数';
 $string['configerror'] = 'ブロック設定中にエラーが発生しました。';
+$string['showjournalitemsinfull'] = '日誌アイテムをフルに表示する';
+$string['showjournalitemsinfulldesc'] = 'チェックした場合、日誌エントリが表示されます。そうでない場合、日誌エントリのタイトルのみ表示されます。';
+$string['tag'] = 'タグ';
 
 ?>
