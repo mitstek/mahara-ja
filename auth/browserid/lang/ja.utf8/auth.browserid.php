@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-07-04 12:58:25 UTC
+ * @updated    2012-08-14 18:30:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -31,6 +31,7 @@ defined('INTERNAL') || die();
 $string['browserid'] = 'BrowserID';
 $string['title'] = 'BrowserID';
 $string['description'] = 'BrowserIDで認証する';
+$string['notusable'] = 'PHP cURL拡張モジュールをインストールした後、BrowserIDベリファイアへの接続をチェックしてください。';
 $string['badassertion'] = 'BrowserIDアサーション (表明) が有効ではありません: %s';
 $string['badverification'] = 'BrowserIDベリファイアの有効なJSONアウトプットをMaharaが受信しませんでした。';
 $string['login'] = 'BrowserID';

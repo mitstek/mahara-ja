@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-08-01 16:10:17 UTC
+ * @updated    2012-08-14 17:21:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -585,6 +585,7 @@ $string['artefactnotfound'] = 'ID %s のアーティファクトは見つかり�
 $string['artefactnotrendered'] = 'アーティファクトが提出されていません。';
 $string['nodeletepermission'] = 'あなたにはこのアーティファクトを削除するパーミッションがありません。';
 $string['noeditpermission'] = 'あなたにはこのアーティファクトを編集するパーミッションがありません。';
+$string['cantbedeleted'] = 'このアーティファクトまたはサブアーティファクトが送信済みページにあるため、このアーティファクトを削除することはできません。';
 $string['Permissions'] = 'パーミッション';
 $string['republish'] = '公開';
 $string['view'] = '表示';
