@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-03-23 04:29:55 UTC
+ * @updated    2012-08-16 16:37:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -35,8 +35,9 @@ $string['element.bytes.gigabytes'] = 'GB';
 $string['element.bytes.invalidvalue'] = '値は数値にしてください';
 $string['element.calendar.invalidvalue'] = '無効な日付/時間が指定されました';
 $string['element.date.or'] = 'or';
-$string['element.date.monthnames'] = '一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月';
+$string['element.date.monthnames'] = '1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月';
 $string['element.date.notspecified'] = '指定なし';
+$string['element.date.at'] = '-';
 $string['element.expiry.days'] = '日';
 $string['element.expiry.weeks'] = '週';
 $string['element.expiry.months'] = '月';
