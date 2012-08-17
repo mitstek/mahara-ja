@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-08-01 16:17:22 UTC
+ * @updated    2012-08-17 16:01:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -582,6 +582,7 @@ $string['exportingnotsupportedyet'] = 'ユーザプロファイルのエクス�
 $string['exportuserprofiles'] = 'ユーザプロファイルをエクスポートする';
 $string['nousersselected'] = 'ユーザが選択されていません。';
 $string['suspenduser'] = 'ユーザを利用停止する';
+$string['suspendeduserstitle'] = '利用停止および有効期限切れユーザ';
 $string['suspendedusers'] = '利用停止ユーザ';
 $string['suspensionreason'] = '利用停止理由';
 $string['errorwhilesuspending'] = '利用停止中にエラーが発生しました。';
