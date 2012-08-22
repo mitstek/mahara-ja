@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-08-04 19:00:05 UTC
+ * @updated    2012-08-22 18:22:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -58,7 +58,7 @@ $string['language'] = '言語';
 $string['showviewcolumns'] = 'ページの編集時、カラムの「追加」および「削除」ボタンを表示する';
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'あなたのタグクラウドに表示されるタグの最大数です。';
-$string['enablemultipleblogs'] = '複数日誌を有効にする';
+$string['enablemultipleblogs1'] = '複数日誌';
 $string['enablemultipleblogsdescription'] = 'デフォルトでは、あなたは1つの日誌のみMaharaに作成することができます。あなたが1つ以上の日誌を作成したい場合、このオプションをチェックしてください。';
 $string['hiderealname'] = '実名を隠す';
 $string['hiderealnamedescription'] = 'あなたがニックネームを設定した場合、そして、あなたの実名検索により、他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
@@ -76,7 +76,7 @@ $string['maildisableddescription'] = 'あなたのアカウント宛のメール
 $string['deleteaccount'] = 'アカウントを削除する';
 $string['deleteaccountdescription'] = 'アカウントを削除した場合、今後、あなたのプロファイル情報およびページを他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧することができますが、投稿者名が表示されないようになります。';
 $string['accountdeleted'] = 'あなたのアカウントが正常に削除されました。';
-$string['resizeonuploaduserdefault'] = 'デフォルトで「アップロード時、大きなイメージをリサイズする」を有効にする';
-$string['resizeonuploaduserdefaultdescription'] = 'この設定を有効にすることで、ファイルアップロード時の「アップロード時、大きなイメージをリサイズする」オプションがデフォルトで有効にされます。無効にすることで、当該オプションがデフォルトで無効にされます。';
+$string['resizeonuploaduserdefault1'] = 'アップロード時、大きなイメージをリサイズする';
+$string['resizeonuploaduserdefaultdescription1'] = 'チェックした場合、「アップロード時、大きなイメージをリサイズする」オプションがデフォルトで有効にされます。また、最大高さおよび幅を超えたイメージはアップロード時にリサイズされます。個別のイメージアップロード時、あなたはこのデフォルト設定を無効にすることができます。';
 
 ?>

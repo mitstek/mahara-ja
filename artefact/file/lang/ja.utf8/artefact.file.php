@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-08-14 17:16:17 UTC
+ * @updated    2012-08-22 18:15:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -52,13 +52,13 @@ $string['customagreement'] = 'カスタム同意書';
 $string['Date'] = '登録日';
 $string['resizeonupload'] = 'アップロード時、イメージをリサイズする';
 $string['resizeonuploaddescription'] = 'アップロード時、自動的に大きなイメージをリサイズします。';
-$string['resizeonuploaduseroption'] = 'ユーザオプションを表示する';
-$string['resizeonuploaduseroptiondescription'] = 'アップロード時に自動的に大きなイメージをリサイズするオプションをユーザに表示します。';
-$string['resizeonuploadenable'] = '大きなイメージの自動リサイズを有効にする';
-$string['resizeonuploadenablefilebrowser'] = '%sx%s pxより大きなイメージの自動リサイズを有効にします (推奨)。';
+$string['resizeonuploaduseroption1'] = 'ユーザオプション';
+$string['resizeonuploaduseroptiondescription1'] = 'チェックした場合、アップロード時に自動的に大きなイメージをリサイズするオプションをユーザに表示します。';
+$string['resizeonuploadenable1'] = '大きなイメージを自動的にリサイズする';
+$string['resizeonuploadenablefilebrowser1'] = '%sx%s pxより大きなイメージを自動的にリサイズします (推奨)。';
 $string['resizeonuploadmaxwidth'] = '最大幅';
 $string['resizeonuploadmaxheight'] = '最大高さ';
-$string['resizeonuploadenabledescription'] = '最大高さおよび幅を超えた場合、アップロード時にイメージをリサイズします。';
+$string['resizeonuploadenabledescription1'] = 'チェックした場合、最大高さおよび幅の設定値を超えた大きなイメージをアップロード時にリサイズします。';
 $string['defaultagreement'] = 'デフォルト同意書';
 $string['defaultquota'] = 'デフォルトクオータ';
 $string['defaultquotadescription'] = 'あなたは新しいユーザがクオータとして持つことのできるディスクスペース総量をここで設定することができます。既存のユーザのクオータは変更されません。';

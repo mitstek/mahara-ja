@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-08-06 15:53:11 UTC
+ * @updated    2012-08-22 18:09:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -78,7 +78,9 @@ $string['Created'] = '作成';
 $string['Available'] = '利用可能';
 $string['editability'] = '編集可能';
 $string['windowstart'] = '開始日時';
+$string['windowstartdesc'] = 'この日時以前、メンバーはグループを編集することはできません。';
 $string['windowend'] = '終了日時';
+$string['windowenddesc'] = 'この日時以降、メンバーはグループを編集することはできません。';
 $string['groupadmins'] = 'グループ管理者';
 $string['editroles'] = '誰がページを編集できますか?';
 $string['editrolesdescription'] = 'グループページを作成および編集できるロールです。';
