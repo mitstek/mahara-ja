@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-08-22 18:22:57 UTC
+ * @updated    2012-08-28 03:49:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -65,7 +65,6 @@ $string['hiderealnamedescription'] = 'あなたがニックネームを設定し
 $string['showhomeinfo1'] = 'ホームページ情報';
 $string['showhomeinfodescription'] = 'ホームページ上に %s の使用方法に関する情報を表示します。';
 $string['mobileuploadtoken'] = 'モバイルアップロードトークン';
-$string['mobileuploadtokendescription'] = 'アップロードを有効にするため、ここおよびあなたの携帯電話にトークンを入力してください (注意: それぞれのアップロード終了、自動的に変更されます)。<br />問題が発生した場合 - ここおよびあなたの携帯電話の入力内容をリセットしてください。';
 $string['badmobileuploadtoken'] = '申し訳ございません、アップロードトークンが無効です - トークンの長さは少なくとも半角6文字にしてください。';
 $string['prefssaved'] = 'プリファレンスが保存されました。';
 $string['prefsnotsaved'] = 'あなたのプリファレンスの保存に失敗しました!';
