@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-08-28 03:48:20 UTC
+ * @updated    2012-08-30 03:53:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -162,6 +162,7 @@ $string['regenerateurlsconfirm'] = '本当にこの処理を実行してもよ�
 $string['generateduserurls'] = '%s プロファイルURIを生成しました。';
 $string['generatedgroupurls'] = '%s グループホームページURIを生成しました。';
 $string['generatedviewurls'] = '%s ポートフォリオURIを生成しました。';
+$string['cleanurlsdescriptionshort'] = '人間が解読可能なURIを設定します。';
 $string['warnings'] = '警告';
 $string['groupcategories'] = 'グループカテゴリ';
 $string['allowgroupcategories'] = 'グループカテゴリを許可する';
