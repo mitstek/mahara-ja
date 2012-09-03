@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-08-30 03:53:46 UTC
+ * @updated    2012-09-03 20:05:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -98,6 +98,7 @@ $string['adminusers'] = '管理ユーザ';
 $string['adminusersdescription'] = 'サイト管理者アクセス権を割り当てます。';
 $string['institution'] = 'インスティテューション';
 $string['institutions'] = 'インスティテューション';
+$string['Institutions'] = 'インスティテューション';
 $string['institutiondetails'] = 'インスティテューション詳細';
 $string['institutionauth'] = 'インスティテューション認証局';
 $string['institutionsdescription'] = 'インスティテューションのインストールおよびインストール済みインスティテューションを管理します。';
