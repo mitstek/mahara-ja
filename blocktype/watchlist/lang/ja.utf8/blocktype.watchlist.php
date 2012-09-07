@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-12 05:24:08 UTC
+ * @updated    2012-09-07 03:41:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -28,7 +28,7 @@
 
 defined('INTERNAL') || die();
 
-$string['title'] = 'マイウォッチページ';
+$string['title'] = 'ウォッチページ';
 $string['description'] = 'あなたのウォッチリストのページを表示します。';
 $string['nopages'] = 'あなたのウォッチリストにページはありません。';
 $string['itemstoshow'] = '表示するアイテム数';
