@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-29 18:52:08 UTC
+ * @updated    2012-09-07 03:34:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -33,7 +33,6 @@ $string['allowpublicprofiles'] = 'パブリックプロファイルの許可';
 $string['allowpublicviews'] = 'パブリックページの許可';
 $string['artefact_type_academicgoal'] = 'アーティファクト: アカデミックゴール';
 $string['artefact_type_academicskill'] = 'アーティファクト: アカデミックスキル';
-$string['artefact_type_activity'] = 'アーティファクト: PLD活動';
 $string['artefact_type_address'] = 'アーティファクト: 郵便番号';
 $string['artefact_type_aimscreenname'] = 'アーティファクト: AIMスクリーンネーム';
 $string['artefact_type_archive'] = 'アーティファクト: 圧縮ファイル';
@@ -50,7 +49,6 @@ $string['artefact_type_comment'] = 'アーティファクト: コメント';
 $string['artefact_type_contactinformation'] = 'アーティファクト: 連絡先';
 $string['artefact_type_country'] = 'アーティファクト: 国';
 $string['artefact_type_coverletter'] = 'アーティファクト: カバーレター';
-$string['artefact_type_cpd'] = 'アーティファクト: PLD';
 $string['artefact_type_educationhistory'] = 'アーティファクト: 教育履歴';
 $string['artefact_type_email'] = 'アーティファクト: メールアドレス';
 $string['artefact_type_employmenthistory'] = 'アーティファクト: 職歴';
@@ -89,7 +87,6 @@ $string['artefact_type_yahoochat'] = 'アーティファクト: Yahooチャッ�
 $string['blocktype_blog'] = 'ブロック: 日誌';
 $string['blocktype_blogpost'] = 'ブロック: 日誌エントリ';
 $string['blocktype_contactinfo'] = 'ブロック: 連絡先';
-$string['blocktype_cpds'] = 'ブロック: PLD';
 $string['blocktype_creativecommons'] = 'ブロック: クリエイティブ・コモンズ';
 $string['blocktype_entireresume'] = 'ブロック: レジュメ全体';
 $string['blocktype_externalfeed'] = 'ブロック: 外部フィード';
@@ -144,7 +141,7 @@ $string['plugin_artefact_file_version'] = 'アーティファクトプラグイ�
 $string['plugin_artefact_internal_version'] = 'アーティファクトプラグイン: 「XXXXXX」バージョン';
 $string['plugin_artefact_plans_version'] = 'アーティファクトプラグイン: 「プラン」バージョン';
 $string['plugin_artefact_resume_version'] = 'アーティファクトプラグイン: 「レジュメ」バージョン';
-$string['plugin_auth_browserid_version'] = '認証プラグイン: 「BrowserID」バージョン';
+$string['plugin_auth_browserid_version'] = '認証プラグイン: 「Persona」バージョン';
 $string['plugin_auth_imap_version'] = '認証プラグイン: 「IMAP」バージョン';
 $string['plugin_auth_internal_version'] = '認証プラグイン: 「内部」バージョン';
 $string['plugin_auth_ldap_version'] = '認証プラグイン:  「LDAP」バージョン';
@@ -154,7 +151,6 @@ $string['plugin_auth_xmlrpc_version'] = '認証プラグイン:  「XML-RPC」�
 $string['plugin_blocktype_blogpost_version'] = 'ブロックタイププラグイン: 「日誌エントリ」バージョン';
 $string['plugin_blocktype_blog_version'] = 'ブロックタイププラグイン: 「日誌」バージョン';
 $string['plugin_blocktype_contactinfo_version'] = 'ブロックタイププラグイン: 「連絡先」バージョン';
-$string['plugin_blocktype_cpds_version'] = 'ブロックタイププラグイン: 「PLD」バージョン';
 $string['plugin_blocktype_creativecommons_version'] = 'ブロックタイププラグイン: 「クリエイティブ・コモンズ」バージョン';
 $string['plugin_blocktype_entireresume_version'] = 'ブロックタイププラグイン: 「日誌全体」バージョン';
 $string['plugin_blocktype_externalfeed_version'] = 'ブロックタイププラグイン: 「外部フィード」バージョン';
