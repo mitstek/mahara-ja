@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-07-05 15:23:15 UTC
+ * @updated    2012-09-10 19:03:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -85,10 +85,10 @@ $string['manageviews'] = 'ページを管理する';
 $string['name'] = 'コレクション名';
 $string['newcollection'] = '新しいコレクション';
 $string['nocollections'] = 'まだコレクションはありません。';
-$string['nocollectionsaddone'] = 'まだコレクションはありません。%sコレクションを追加してください%s!';
+$string['nocollectionsaddone'] = 'まだコレクションはありません。%sコレクションを追加してください%s。';
 $string['nooverride'] = 'オーバーライドはありません。';
 $string['noviewsavailable'] = '追加できるページはありません。';
-$string['noviewsaddsome'] = 'コレクションにページはありません。%sページを追加してください%s!';
+$string['noviewsaddsome'] = 'コレクションにページはありません。%sページを追加してください%s。';
 $string['noviews'] = 'ページはありません。';
 $string['overrideaccess'] = 'アクセスをオーバーライドする';
 $string['potentialviews'] = '潜在的ページ';

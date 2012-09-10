@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-09-05 04:53:22 UTC
+ * @updated    2012-09-10 19:43:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -31,7 +31,7 @@ defined('INTERNAL') || die();
 $string['administration'] = '管理';
 $string['installation'] = 'インストール';
 $string['release'] = 'リリース %s (%s)';
-$string['copyright'] = 'Copyright &copy; 2006 onwards, <a href="http://wiki.mahara.org/Contributors">Catalyst IT Ltd and others</a>';
+$string['copyright'] = 'Copyright &copy; 2006 onwards, <a href="http://wiki.mahara.org/Contributors">Catalyst IT and others</a>';
 $string['installmahara'] = 'Maharaをインストールする';
 $string['component'] = 'コンポーネントまたはプラグイン';
 $string['continue'] = '続ける';
@@ -58,7 +58,7 @@ $string['upgradesuccess'] = 'アップグレードが正常に完了しました
 $string['upgradesuccesstoversion'] = '次のバージョンへ正常にアップグレードしました:';
 $string['upgradefailure'] = 'アップグレードに失敗しました!';
 $string['noupgrades'] = 'アップグレードはありません! あなたは最新版を使用しています!';
-$string['youcanupgrade'] = 'あなたはMaharaを %s (%s) から %s (%s) へアップグレードすることができます!';
+$string['youcanupgrade'] = 'あなたはMaharaを %s (%s) から %s (%s) へアップグレードすることができます。';
 $string['upgradeinprogress'] = '%s に開始されたアップグレードは完了していません。<a href="?rerun=1">このアップグレードを実行します</a>。';
 $string['Plugin'] = 'プラグイン';
 $string['jsrequiredforupgrade'] = 'あなたがインストールまたはアップグレードを実行するには、Javaスクリプトを有効にする必要があります。';
@@ -136,7 +136,7 @@ $string['htmlfiltersdescription'] = 'HTML Purifierの新しいフィルタを有
 $string['newfiltersdescription'] = 'あなたが新しいHTMLフィルタをダウンロードした場合、%s フォルダでファイルを解凍した後、下記のボタンをクリックすることにより、インストールすることができます。';
 $string['filtersinstalled'] = 'フィルタがインストールされました。';
 $string['nofiltersinstalled'] = 'HTMLフィルタはインストールされませんでした。';
-$string['allowediframesites'] = '許可済みiframeソース';
+$string['allowediframesites'] = '許可されるiframeソース';
 $string['allowediframesitesdescriptionshort'] = '埋め込み外部iframeコンテンツのパーミッションを設定します。';
 $string['allowediframesitesdescription'] = 'ユーザはHTML &lt;iframe&gt; エレメント内に以下の外部サイトからコンテンツを埋め込むことができます。これは一般的に他の場所で提供されているコンテンツを表示するために使用されます。このページにて、許可されるサイト一覧を修正することができます。';
 $string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、ユーザに対してアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが、同一サイト内におけるiframeソーステキストの一部合致は許可されます。';
@@ -169,7 +169,7 @@ $string['groupcategories'] = 'グループカテゴリ';
 $string['allowgroupcategories'] = 'グループカテゴリを許可する';
 $string['enablegroupcategories'] = 'グループカテゴリを有効にする';
 $string['addcategories'] = 'カテゴリを追加する';
-$string['allowgroupcategoriesdescription'] = 'チェックした場合、管理者はユーザがグループに割り当てることのできるカテゴリを作成することができます。';
+$string['allowgroupcategoriesdescription'] = 'チェックした場合、サイト管理者はユーザがグループに割り当てることのできるカテゴリを作成することができます。';
 $string['groupoptionsset'] = 'グループオプションを有効にする';
 $string['groupcategorydeleted'] = 'カテゴリが削除されました。';
 $string['confirmdeletecategory'] = '本当にこのカテゴリを削除してもよろしいですか?';
@@ -256,7 +256,7 @@ $string['allowinstitutionpublicviewsdescription'] = 'チェックした場合、
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowpublicprofilesdescription'] = 'チェックした場合、ログインユーザだけではなく、その他のユーザからもアクセス可能なプロファイルページを作成することができます。';
 $string['anonymouscomments'] = '匿名コメント';
-$string['anonymouscommentsdescription'] = 'チェックした場合、パブリックページまたはシークレットURIアクセス可能なページに対して、未ログインユーザがコメントを投稿することができます。';
+$string['anonymouscommentsdescription'] = 'チェックした場合、パブリックページまたはシークレットURIアクセス可能なページに対して、誰でもコメントを投稿することができます。';
 $string['loggedinprofileviewaccess'] = 'ログインユーザがプロファイルを閲覧できる';
 $string['loggedinprofileviewaccessdescription'] = 'チェックした場合、ログインユーザすべてがユーザのプロファイルページを閲覧できるようになります。';
 $string['antispam'] = 'アンチスパム';
@@ -283,7 +283,7 @@ $string['institutionexpirynotificationdescriptioninfo'] = 'サイトおよびイ
 $string['language'] = '言語';
 $string['none'] = 'なし';
 $string['onlineuserssideblockmaxusers'] = 'オンラインユーザ制限';
-$string['onlineuserssideblockmaxusersdescription'] = 'オンラインユーザサイドブロックに表示される最大ユーザ数です。';
+$string['onlineuserssideblockmaxusersdescription'] = 'オンラインユーザサイドバーに表示される最大ユーザ数です。';
 $string['country'] = '国';
 $string['pathtoclam'] = 'clamのパス';
 $string['pathtoclamdescription'] = 'clamscanまたはclamdscanへのファイルシステムパスです。';
@@ -301,11 +301,11 @@ $string['sessionlifetime'] = 'セッションライフタイム';
 $string['sessionlifetimedescription'] = '活動していないログインユーザが自動的にログアウトされる時間 (分) です。';
 $string['setsiteoptionsfailed'] = '%s オプションの設定に失敗しました。';
 $string['showonlineuserssideblock'] = 'オンラインユーザを表示する';
-$string['showonlineuserssideblockdescriptionmessage'] = 'チェックした場合、ユーザに対してオンラインユーザ一覧のサイドブロックが表示されます。';
+$string['showonlineuserssideblockdescriptionmessage'] = 'チェックした場合、ユーザに対してオンラインユーザ一覧のサイドバーが表示されます。';
 $string['showselfsearchsideblock'] = 'ポートフォリオ検索を有効にする';
-$string['showselfsearchsideblockdescription1'] = '「マイポートフォリオを検索する」サイドブロックがサイト内のいくつかの場所に表示されます。';
+$string['showselfsearchsideblockdescription1'] = '「マイポートフォリオを検索する」サイドバーがサイト内のいくつかの場所に表示されます。';
 $string['showtagssideblock'] = 'タグクラウドを有効にする';
-$string['showtagssideblockdescription1'] = 'チェックした場合、ユーザに対して、最も使用されたタグ一覧がサイト内のいくつかの場所に表示されます。';
+$string['showtagssideblockdescription1'] = 'チェックした場合、ユーザに対して、最も使用されたタグ一覧のサイドバーがサイト内のいくつかの場所に表示されます。';
 $string['simple'] = 'シンプル';
 $string['sitedefault'] = 'サイトデフォルト';
 $string['sitelanguagedescription'] = 'サイトのデフォルト言語';
@@ -341,7 +341,7 @@ $string['usersseenewthemeonlogin'] = '次回ログイン時、他のユーザに
 $string['viruschecking'] = 'ウイルスチェック';
 $string['viruscheckingdescription'] = 'チェックした場合、すべてのアップロードファイルに対するClamAVを使用したウイルスチェックが有効にされます。';
 $string['whocancreategroups'] = 'グループを作成する';
-$string['whocancreategroupsdescription'] = 'ここでは新しいグループを作成することのできるユーザを選択します。';
+$string['whocancreategroupsdescription'] = '新しいグループを作成することのできるユーザを決定します。';
 $string['whocancreatepublicgroups'] = 'パブリックグループを作成する';
 $string['whocancreatepublicgroupsdescription'] = 'ここではパブリックに閲覧可能なグループを作成することのできるユーザを選択します。';
 $string['wysiwyg'] = 'HTMLエディタ';
@@ -686,9 +686,9 @@ $string['institutionexpiry'] = 'インスティテューション有効期限';
 $string['institutionexpirydescription'] = 'このインスティテューションのメンバーシップが %s において利用停止される日付です。';
 $string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
 $string['registrationallowed'] = 'ユーザ登録を許可しますか?';
-$string['registrationalloweddescription3'] = 'あなたのサイト内のインスティテューションに対して、ユーザが登録フォームで登録できるかどうか設定します。登録が無効にされた場合、非メンバーはインスティテューションのメンバーシップをリクエストできません。同様に、メンバーはインスティテューションから離脱できない、または自分のユーザアカウントを削除できないようになります。';
+$string['registrationalloweddescription3'] = 'チェックした場合、ユーザは登録フォームを使用して、このインスティテューションに登録することができます。登録が無効にされた場合、非メンバーはインスティテューションのメンバーシップをリクエストできません。同様に、メンバーはインスティテューションから離脱できない、または自分のユーザアカウントを削除できないようになります。';
 $string['registrationconfirm'] = '登録を承認しますか?';
-$string['registrationconfirmdescription'] = 'インスティテューション管理者が登録を承認する必要があります。';
+$string['registrationconfirmdescription'] = 'チェックした場合、インスティテューション管理者が登録を承認する必要があります。';
 $string['defaultmembershipperiod'] = 'デフォルトのメンバーシップ期間';
 $string['defaultmembershipperioddescription'] = 'どのくらいの期間、新しいメンバーはインスティテューションに参加することができますか。';
 $string['showonlineusers'] = 'オンラインユーザを表示する';
@@ -706,9 +706,9 @@ $string['customtheme.navbg'] = 'ナビゲーション背景色';
 $string['customtheme.navfg'] = 'ナビゲーションテキスト';
 $string['customtheme.subbg'] = 'サブナビゲーション背景色';
 $string['customtheme.subfg'] = 'サブナビゲーションテキスト';
-$string['customtheme.sidebarbg'] = 'サイドブロック背景色';
-$string['customtheme.sidebarfg'] = 'サイドブロックコンテンツ背景色';
-$string['customtheme.sidebarlink'] = 'サイドブロックリンク';
+$string['customtheme.sidebarbg'] = 'サイドバー背景色';
+$string['customtheme.sidebarfg'] = 'サイドバーコンテンツ背景色';
+$string['customtheme.sidebarlink'] = 'サイドバーリンク';
 $string['customtheme.rowbg'] = '列背景色';
 $string['customstylesforinstitution'] = '%s のカスタムスタイル';
 $string['resetcolours'] = '色をリセットする';
@@ -726,7 +726,6 @@ $string['institutionadmin'] = 'インスティテューション管理者';
 $string['institutionadministrator'] = 'インスティテューション管理者';
 $string['institutionadmindescription'] = 'チェックした場合、ユーザはこのインスティテューションのすべてのユーザを管理することができます。';
 $string['settingsfor'] = '設定:';
-$string['institutionadministration'] = 'インスティテューション管理';
 $string['institutionmembers'] = 'インスティテューションメンバー';
 $string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
 $string['institutionmemberspagedescription'] = 'このページではあなたのインスティテューションにメンバーシップをリクエストしたユーザを閲覧およびメンバーとして登録することができます。また、あなたのインスティテューションからユーザを削除および招待することができます。';
