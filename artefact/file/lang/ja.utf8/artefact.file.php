@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-08-22 18:15:58 UTC
+ * @updated    2012-09-10 18:34:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -190,17 +190,17 @@ $string['mp3'] = 'MP3オーディオファイル';
 $string['mp4_audio'] = 'MP4オーディオファイル';
 $string['mp4_video'] = 'MP4ビデオファイル';
 $string['mpeg'] = 'MPEGムービー';
-$string['odb'] = 'Openofficeデータベース';
-$string['odc'] = 'Openoffice Calcファイル';
-$string['odf'] = 'Openoffice Formulaファイル';
-$string['odg'] = 'penoffice Graphicsファイル';
-$string['odi'] = 'Openofficeイメージ';
-$string['odm'] = 'Openoffice Masterドキュメントファイル';
-$string['odp'] = 'Openofficeプレゼンテーション';
-$string['ods'] = 'Openofficeスプレッドシート';
-$string['odt'] = 'Openofficeドキュメント';
-$string['oth'] = 'Openofficeウェブドキュメント';
-$string['ott'] = 'Openofficeテンプレートドキュメント';
+$string['odb'] = 'OpenOffice / LibreOffice Baseデータベースファイル';
+$string['odc'] = 'OpenOffice / LibreOffice Calcファイル';
+$string['odf'] = 'OpenOffice / LibreOffice formulaファイル';
+$string['odg'] = 'OpenOffice / LibreOffice graphicsファイル';
+$string['odi'] = 'OpenOffice / LibreOfficeイメージファイル';
+$string['odm'] = 'OpenOffice / LibreOffice masterドキュメントファイル';
+$string['odp'] = 'OOpenOffice / LibreOffice Impressファイル';
+$string['ods'] = 'OpenOffice / LibreOffice Spreadsheetファイル';
+$string['odt'] = 'OpenOffice / LibreOffice Writer ドキュメント';
+$string['oth'] = 'OpenOffice / LibreOfficeウェブドキュメント';
+$string['ott'] = 'OpenOffice / LibreOfficeテンプレートドキュメント';
 $string['pdf'] = 'PDFドキュメント';
 $string['png'] = 'PNGイメージ';
 $string['ppt'] = 'MS Powerpointドキュメント';
@@ -222,9 +222,9 @@ $string['swf'] = 'SWF Flashムービー';
 $string['flv'] = 'FLV Flashムービー';
 $string['mov'] = 'MOV Quicktimeムービー';
 $string['mpg'] = 'MPGムービー';
-$string['ram'] = 'RAM Real Playerムービー';
-$string['rpm'] = 'RPM Real Playerムービー';
-$string['rm'] = 'RM Real Playerムービー';
+$string['ram'] = 'RAM RealPlayerムービー';
+$string['rpm'] = 'RPM RealPlayerムービー';
+$string['rm'] = 'RM RealPlayerムービー';
 $string['cantcreatetempprofileiconfile'] = '一時プロファイル写真イメージを %s に書き込むことができませんでした。';
 $string['profileiconsize'] = 'プロファイル写真サイズ';
 $string['profileicons'] = 'プロファイル写真';

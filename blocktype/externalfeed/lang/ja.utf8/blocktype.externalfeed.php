@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-09-21 21:15:20 UTC
+ * @updated    2012-09-10 18:44:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -31,9 +31,9 @@ defined('INTERNAL') || die();
 $string['title'] = '外部フィード';
 $string['description'] = '外部RSSまたはATOMフィードを埋め込みます。';
 $string['authuser'] = 'HTTPユーザ名';
-$string['authuserdesc'] = 'このフィードへのアクセスに必要なHTTP基本認証のユーザ名です (必要であれば)。';
+$string['authuserdesc'] = 'このフィードへのアクセスに必要なユーザ名 (HTTP基本認証) です (必要であれば)。';
 $string['authpassword'] = 'HTTPパスワード';
-$string['authpassworddesc'] = 'このフィードへのアクセスに必要なHTTP基本認証のパスワードです (必要であれば)。';
+$string['authpassworddesc'] = 'このフィードへのアクセスに必要なパスワード (HTTP基本認証) です (必要であれば)。';
 $string['feedlocation'] = 'フィードロケーション';
 $string['feedlocationdesc'] = '有効なRSSまたはATOMフィードのURI';
 $string['insecuresslmode'] = '安全ではないSSLモード';

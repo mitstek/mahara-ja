@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-06-29 17:57:08 UTC
+ * @updated    2012-09-10 18:25:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,7 +29,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'イメージギャラリー';
-$string['description'] = 'あなたのファイルエリアからのイメージコレクションです。';
+$string['description1'] = 'あなたのファイルエリアまたは外部ギャラリーからのイメージコレクションです。';
 $string['select'] = 'イメージ選択';
 $string['selectfolder'] = '私のフォルダの1つからイメージすべてを表示します (後でアップロードされたイメージを含む)。';
 $string['selectimages'] = '表示するイメージを私が選択します。';
@@ -49,7 +49,7 @@ $string['useslimbox2desc'] = 'Slimbox 2 (Lightbox 2のビジュアルクロー�
 $string['photoframe'] = 'フォトフレームを使用する';
 $string['photoframedesc'] = 'チェックした場合、ギャラリー内のそれぞれの写真のサムネイルの周りにフレームが描画されます。';
 $string['previewwidth'] = '最大写真幅';
-$string['previewwidthdesc'] = 'Slimbox2で表示される場合、写真がリサイズされる最大幅を設定してください。';
+$string['previewwidthdesc'] = 'Slimbox 2で表示される場合、写真がリサイズされる最大幅を設定してください。';
 $string['flickrsettings'] = 'Flickr設定';
 $string['flickrapikey'] = 'Flickr APIキー';
 $string['flickrapikeydesc'] = 'Flickrのフォトセットを表示するには、あなたは有効なFlickr APIキーが必要です。<a href="http://www.flickr.com/services/api/keys/apply/" target="_blank">あなたのキーをオンラインで取得してください</a>。';
