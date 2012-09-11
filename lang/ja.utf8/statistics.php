@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-09-07 03:34:21 UTC
+ * @updated    2012-09-10 21:40:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -28,7 +28,6 @@
 
 defined('INTERNAL') || die();
 
-$string['fieldname'] = '翻訳予定';
 $string['allowpublicprofiles'] = 'パブリックプロファイルの許可';
 $string['allowpublicviews'] = 'パブリックページの許可';
 $string['artefact_type_academicgoal'] = 'アーティファクト: アカデミックゴール';
@@ -115,7 +114,7 @@ $string['blocktype_resumefield'] = 'ブロック: レジュメフィールド';
 $string['blocktype_taggedposts'] = 'ブロック: タグ付き日誌エントリ';
 $string['blocktype_textbox'] = 'ブロック: テキストボックス';
 $string['blocktype_wall'] = 'ブロック: ウォール';
-$string['blocktype_watchlist'] = 'ブロック: マイウォッチページ';
+$string['blocktype_watchlist'] = 'ブロック: ウォッチページ';
 $string['count_block_instance'] = 'ブロック数';
 $string['count_blocktype_wall_post'] = 'ウォール投稿数';
 $string['count_group'] = 'グループ数';
@@ -164,7 +163,7 @@ $string['plugin_blocktype_groupmembers_version'] = 'ブロックタイププラ�
 $string['plugin_blocktype_groupviews_version'] = 'ブロックタイププラグイン: 「グループページ」バージョン';
 $string['plugin_blocktype_html_version'] = 'ブロックタイププラグイン: 「HTML」バージョン';
 $string['plugin_blocktype_image_version'] = 'ブロックタイププラグイン: 「イメージ」バージョン';
-$string['plugin_blocktype_inbox_version'] = 'ブロックタイププラグイン: 「マイ受信箱」バージョン';
+$string['plugin_blocktype_inbox_version'] = 'ブロックタイププラグイン: 「受信箱」バージョン';
 $string['plugin_blocktype_internalmedia_version'] = 'ブロックタイププラグイン: 「埋め込みメディア」バージョン';
 $string['plugin_blocktype_myfriends_version'] = 'ブロックタイププラグイン: 「マイフレンド」バージョン';
 $string['plugin_blocktype_mygroups_version'] = 'ブロックタイププラグイン: 「マイグループ」バージョン';
@@ -179,14 +178,14 @@ $string['plugin_blocktype_resumefield_version'] = 'ブロックタイププラ�
 $string['plugin_blocktype_taggedposts_version'] = 'ブロックタイププラグイン: 「タグ付き日誌エントリ」バージョン';
 $string['plugin_blocktype_textbox_version'] = 'ブロックタイププラグイン: 「テキストボックス」バージョン';
 $string['plugin_blocktype_wall_version'] = 'ブロックタイププラグイン: 「ウォール」バージョン';
-$string['plugin_blocktype_watchlist_version'] = 'ブロックタイププラグイン: 「マイウォッチページ」バージョン';
+$string['plugin_blocktype_watchlist_version'] = 'ブロックタイププラグイン: 「ウォッチページ」バージョン';
 $string['plugin_export_html_version'] = 'エクスポートプラグイン: 「HTML」バージョン';
 $string['plugin_export_leap_version'] = 'エクスポートプラグイン: 「Leap2A」バージョン';
 $string['plugin_grouptype_course_version'] = 'グループタイププラグイン: 「コース」バージョン';
 $string['plugin_grouptype_standard_version'] = 'グループタイププラグイン: 「標準」バージョン';
 $string['plugin_import_file_version'] = 'インポートプラグイン: 「ファイル」バージョン';
 $string['plugin_import_leap_version'] = 'インポートプラグイン: 「Leap2A」バージョン';
-$string['plugin_interaction_forum_version'] = 'プラグイン: 「フォーラム」バージョン';
+$string['plugin_interaction_forum_version'] = 'インタラクションプラグイン: 「フォーラム」バージョン';
 $string['plugin_notification_emaildigest_version'] = '通知プラグイン: 「メールダイジェスト」バージョン';
 $string['plugin_notification_email_version'] = '通知プラグイン: 「メール」バージョン';
 $string['plugin_notification_internal_version'] = '通知プラグイン: 「内部」バージョン';

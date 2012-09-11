@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-09-10 19:43:21 UTC
+ * @updated    2012-09-10 21:34:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -238,6 +238,7 @@ $string['groupstatstabletitle'] = '最大グループ';
 $string['viewstatstabletitle'] = '人気ページ';
 $string['exportstatsascsv'] = '統計をCSVフォーマットでエクスポートする';
 $string['nostats'] = '利用可能な統計はありません。';
+$string['site'] = 'サイト';
 $string['statistics'] = '統計';
 $string['institutionstatistics'] = 'インスティテューション統計';
 $string['institutionstatisticsfor'] = '「 %s 」のインスティテューション統計';

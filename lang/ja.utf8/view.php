@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-09-07 03:51:31 UTC
+ * @updated    2012-09-10 21:36:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -232,7 +232,7 @@ $string['by'] = 'by';
 $string['viewtitleby'] = '%s by <a href="%s">%s</a>';
 $string['viewauthor'] = 'by <a href="%s">%s</a>';
 $string['in'] = '-';
-$string['noblocks'] = '申し訳ございません、このカテゴリにブロックはありません :(';
+$string['noblocks'] = '申し訳ございません、このカテゴリにブロックはありません。';
 $string['timeofsubmission'] = '送信日時';
 $string['column'] = 'カラム';
 $string['columns'] = 'カラム';
