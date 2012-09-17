@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-08-20 03:50:09 UTC
+ * @updated    2012-09-17 05:49:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -35,5 +35,6 @@ $string['preparing'] = '%s を準備中';
 $string['exportingdatafor'] = '%s のデータをエクスポート中';
 $string['buildingindexpage'] = 'インデックスページを構築中';
 $string['copyingextrafiles'] = '追加ファイルをコピー中';
+$string['duplicatepagetitle'] = 'ページタイトル重複のため、エクスポートに失敗しました。タイトルがユニークであることを確認してください。';
 
 ?>
