@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-11-28 15:06:25 UTC
+ * @updated    2012-09-17 04:57:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -133,6 +133,7 @@ $string['re'] = 'Re: %s';
 $string['regulartopics'] = '標準トピック';
 $string['Reply'] = '返信';
 $string['replyforumpostnotificationsubjectline'] = 'Re: %s';
+$string['Re:'] = 'Re:';
 $string['replyto'] = '返信:';
 $string['Sticky'] = 'スティッキー';
 $string['stickydescription'] = 'スティッキートピックはすべてのページトップに表示されます。';
