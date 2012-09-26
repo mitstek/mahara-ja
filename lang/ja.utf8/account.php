@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-08-22 18:22:39 UTC
+ * @updated    2012-09-26 18:23:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -77,5 +77,7 @@ $string['deleteaccountdescription'] = 'アカウントを削除した場合、�
 $string['accountdeleted'] = 'あなたのアカウントが正常に削除されました。';
 $string['resizeonuploaduserdefault1'] = 'アップロード時、大きなイメージをリサイズする';
 $string['resizeonuploaduserdefaultdescription1'] = 'チェックした場合、「アップロード時、大きなイメージをリサイズする」オプションがデフォルトで有効にされます。また、最大高さおよび幅を超えたイメージはアップロード時にリサイズされます。個別のイメージアップロード時、あなたはこのデフォルト設定を無効にすることができます。';
+$string['devicedetection'] = 'デバイス検出';
+$string['devicedetectiondescription'] = 'このサイトの閲覧時のモバイルデバイス検出を有効にします。';
 
 ?>

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-09-10 21:34:48 UTC
+ * @updated    2012-09-26 18:21:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -881,5 +881,7 @@ $string['groupmanage'] = '管理';
 $string['groupdelete'] = '削除';
 $string['managegroupquotadescription'] = 'このグループのグループファイルクオータを変更するため、このフォームを使用してください。';
 $string['managegroupdescription'] = 'グループの管理者を割り当ておよび割り当て解除するため、このフォームを使用してください。';
+$string['userscandisabledevicedetection'] = 'ユーザがデバイス検出を無効にできる';
+$string['userscandisabledevicedetectiondescription'] = 'チェックした場合、ユーザはこのサイト閲覧時のモバイルデバイス検出を無効にすることができます。';
 
 ?>
