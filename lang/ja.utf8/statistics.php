@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-09-10 21:40:52 UTC
+ * @updated    2012-10-07 17:20:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -32,7 +32,7 @@ $string['allowpublicprofiles'] = 'パブリックプロファイルの許可';
 $string['allowpublicviews'] = 'パブリックページの許可';
 $string['artefact_type_academicgoal'] = 'アーティファクト: アカデミックゴール';
 $string['artefact_type_academicskill'] = 'アーティファクト: アカデミックスキル';
-$string['artefact_type_address'] = 'アーティファクト: 郵便番号';
+$string['artefact_type_address'] = 'アーティファクト: 番地以下';
 $string['artefact_type_aimscreenname'] = 'アーティファクト: AIMスクリーンネーム';
 $string['artefact_type_archive'] = 'アーティファクト: 圧縮ファイル';
 $string['artefact_type_audio'] = 'アーティファクト: オーディオファイル';
@@ -79,7 +79,7 @@ $string['artefact_type_profileicon'] = 'アーティファクト: プロファ�
 $string['artefact_type_skypeusername'] = 'アーティファクト: Skypeユーザ名';
 $string['artefact_type_studentid'] = 'アーティファクト: 学生ID';
 $string['artefact_type_task'] = 'アーティファクト: タスク';
-$string['artefact_type_town'] = 'アーティファクト: 市町村';
+$string['artefact_type_town'] = 'アーティファクト: 市区町村';
 $string['artefact_type_video'] = 'アーティファクト: ビデオファイル';
 $string['artefact_type_workskill'] = 'アーティファクト: ワークスキル';
 $string['artefact_type_yahoochat'] = 'アーティファクト: Yahooチャット';
