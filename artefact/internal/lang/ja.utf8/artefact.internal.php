@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-31 19:41:39 UTC
+ * @updated    2012-10-07 17:17:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -53,7 +53,7 @@ $string['email'] = 'メールアドレス';
 $string['officialwebsite'] = 'オフィシャルウェブサイトURI';
 $string['personalwebsite'] = 'パーソナルウェブサイトURI';
 $string['blogaddress'] = 'ブログアドレス';
-$string['address'] = '郵便番号';
+$string['address'] = '番地以下';
 $string['town'] = '市区町村';
 $string['city'] = '都道府県';
 $string['country'] = '国';
