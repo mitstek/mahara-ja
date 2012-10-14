@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-10 08:32:06 UTC
+ * @updated    2012-10-14 08:54:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -126,7 +126,7 @@ $string['unsubscribefromtopic'] = 'トピックのメール購読を解除する
 $string['updateselectedtopics'] = '選択したトピックを更新する';
 $string['today'] = '今日';
 $string['yesterday'] = '昨日';
-$string['strftimerecentrelative'] = '%v - %H:%M';
-$string['strftimerecentfullrelative'] = '%v - %H:%M';
+$string['strftimerecentrelative'] = '%%v - %%H:%%M';
+$string['strftimerecentfullrelative'] = '%%v - %%H:%%M';
 
 ?>
