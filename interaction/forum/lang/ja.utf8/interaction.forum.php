@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-09-17 04:57:15 UTC
+ * @updated    2012-10-14 08:44:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -168,8 +168,8 @@ $string['youarenotsubscribedtothisforum'] = 'あなたはこのフォーラム�
 $string['youarenotsubscribedtothistopic'] = 'あなたはこのトピックをメール購読していません。';
 $string['today'] = '今日';
 $string['yesterday'] = '昨日';
-$string['strftimerecentrelative'] = '%v - %H:%M';
-$string['strftimerecentfullrelative'] = '%v - %H:%M';
+$string['strftimerecentrelative'] = '%%v - %%H:%%M';
+$string['strftimerecentfullrelative'] = '%%v - %%H:%%M';
 $string['indentmode'] = 'フォーラムのインデントモード';
 $string['indentfullindent'] = '完全に広げる';
 $string['indentmaxindent'] = '最大インデントレベルまで広げる';
