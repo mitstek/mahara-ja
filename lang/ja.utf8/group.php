@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-09-10 19:10:05 UTC
+ * @updated    2012-11-20 21:46:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -194,6 +194,7 @@ $string['groupsimin'] = '私が参加しているグループ';
 $string['groupsiown'] = '私が所有しているグループ';
 $string['groupsiminvitedto'] = '私が招待されているグループ';
 $string['groupsiwanttojoin'] = '私が参加したいグループ';
+$string['groupsicanjoin'] = '私が参加できるグループ';
 $string['requestedtojoin'] = 'あなたはこのグループへの参加をリクエストしました。';
 $string['groupnotfound'] = 'ID %s のグループはありません。';
 $string['groupnotfoundname'] = 'グループ「 %s 」が見つかりませんでした。';
