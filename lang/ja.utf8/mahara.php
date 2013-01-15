@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-09-07 03:30:08 UTC
+ * @updated    2013-01-15 06:39:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -141,6 +141,7 @@ $string['selfsearch'] = 'マイポートフォリオを検索する';
 $string['resultsperpage'] = '1ページあたりの表示ユーザ数';
 $string['quota'] = 'クオータ';
 $string['quotausage'] = 'あなたの利用クオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span> です。';
+$string['quotausagegroup'] = 'このグループの利用クオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span> です。';
 $string['groupquota'] = 'グループクオータ';
 $string['updatefailed'] = 'アップデートに失敗しました。';
 $string['invitedgroup'] = '招待されたグループ';

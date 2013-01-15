@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-09-10 21:36:38 UTC
+ * @updated    2013-01-15 06:40:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -45,6 +45,8 @@ $string['description'] = 'ページ説明';
 $string['startdate'] = 'アクセス開始日時';
 $string['stopdate'] = 'アクセス終了日時';
 $string['accessdates'] = 'アクセス日時';
+$string['stopdatecannotbeinpast'] = '終了日には過去の日付を設定できません。';
+$string['startdatemustbebeforestopdate'] = '開始日は終了日の前に設定してください。';
 $string['newstopdatecannotbeinpast'] = '「 %s 」へのアクセス終了日には過去の日付を設定できません。';
 $string['newstartdatemustbebeforestopdate'] = '「 %s 」へのアクセス開始日は終了日の前に設定してください。';
 $string['unrecogniseddateformat'] = '不明なデータフォーマット';
