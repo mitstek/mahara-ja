@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-11-30 06:10:09 UTC
+ * @updated    2013-01-16 05:02:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -629,8 +629,7 @@ $string['removeuserfrominstitution'] = 'このインスティテューション�
 $string['confirmremoveuserfrominstitution'] = 'このインスティテューションから、本当にユーザを削除してもよろしいですか?';
 $string['usereditdescription'] = 'あなたはここでこのユーザアカウントの閲覧および詳細設定することができます。以下であなたは<a href="#suspend">このアカウントを利用停止または削除</a>することができます。また、<a href="#institutions">このユーザが関わっているインスティテューション内</a>で、設定を変更することもできます。';
 $string['usereditwarning'] = '注意: アカウントを変更することで、(現在ログインしている場合) ユーザがログアウトされることになります。';
-$string['suspenddeleteuser'] = 'ユーザの利用停止/削除';
-$string['suspenddeleteuserdescription'] = 'あなたはここでユーザアカウントを利用停止または完全に削除することができます。利用停止されたユーザは利用停止が解除されるまで、ログインすることができません。利用停止されたユーザは利用停止解除することができますが、削除されたユーザは元に戻すことは<b>できません</b>ので注意してください。';
+$string['suspenduserdescription'] = 'アカウントの利用停止が解除されるまで、利用停止ユーザはログインできません。';
 $string['deleteusernote'] = 'この処理は<b>元に戻すことができません</b>ので注意してください。';
 $string['youcannotadministerthisuser'] = 'あなたはこのユーザを管理できません。';
 $string['usernamechangenotallowed'] = '選択された認証方法ではユーザ名の変更が許可されていません。';

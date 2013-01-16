@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-29 16:04:47 UTC
+ * @updated    2013-01-16 04:58:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -95,6 +95,7 @@ $string['postedon'] = '投稿日時';
 $string['postedbyon'] = '投稿者: %s  投稿日時: %s';
 $string['posttitle'] = 'タイトル';
 $string['posts'] = 'エントリ';
+$string['nposts'] = '%s エントリ';
 $string['publish'] = '公開';
 $string['unpublish'] = '非公開';
 $string['publishfailed'] = 'エラーが発生しました。あなたのエントリは公開されませんでした。';

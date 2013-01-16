@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-01-15 06:39:31 UTC
+ * @updated    2013-01-16 05:00:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -158,8 +158,8 @@ $string['noonlineusersfound'] = 'オンラインユーザはいません。';
 $string['linksandresources'] = 'リンクおよびリソース';
 $string['accesstotallydenied_institutionsuspended'] = 'あなたのインスティテューション %s は現在利用停止されています。利用再開されるまで、 %s にログインすることはできません。詳細はあなたのインスティテューションにご連絡ください。';
 $string['accessforbiddentoadminsection'] = 'あなたは管理セクションへのアクセスを禁止されています。';
-$string['accountdeleted'] = '申し訳ございません、あなたのアカウントは削除されました。';
-$string['accountexpired'] = '申し訳ございません、あなたのアカウントの有効期限が切れました。';
+$string['accountdeleted'] = '申し訳ございません、あなたのアカウントは削除されました。<a href="%scontact.php">サイト管理者にご連絡ください</a>。';
+$string['accountexpired'] = '申し訳ございません、あなたのアカウントの有効期限が切れました。あなたのアカウントを再度有効にするには、<a href="%scontact.php">サイト管理者にご連絡ください</a>。';
 $string['accountcreated'] = '%s: 新しいアカウント';
 $string['accountcreatedtext'] = '%s さん
 
