@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-10 14:13:52 UTC
+ * @updated    2013-01-17 22:42:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -109,6 +109,8 @@ $string['pendingregistrationadminemailtext'] = '%s さん、こんにちは。
 新しいユーザがインスティテューション「 %s 」への参加をリクエストしました。
 
 このインスティテューションの管理者として登録されているため、あなたはこの登録リクエストを承認または拒否する必要があります。この処理を実行するには、次のリンクにアクセスしてください: %s
+
+あなたはこの登録リクエストを %s 以内に承認または拒否する必要があります。
 
 登録理由詳細は下記のとおりです:
 

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-01-16 05:02:16 UTC
+ * @updated    2013-01-17 22:47:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -267,6 +267,8 @@ $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休�
 $string['defaultaccountinactiveexpiredescription'] = 'ユーザログインがない状態で、どのくらいの期間、ユーザアカウントはアクティブのままですか。';
 $string['defaultaccountinactivewarn'] = '休眠/有効期限の警告期間';
 $string['defaultaccountinactivewarndescription'] = 'ユーザアカウントの有効期限切れまたは休眠状態に関するメッセージがユーザに送信されるまでの期間です。';
+$string['defaultregistrationexpirylifetime'] = 'デフォルトの登録存続期間';
+$string['defaultregistrationexpirylifetimedescription'] = '管理者が対応する必要のある登録申請はどのくらいの期間存続しますか。';
 $string['defaultaccountlifetime'] = 'デフォルトのアカウント存続期間';
 $string['defaultaccountlifetimedescription'] = 'ユーザアカウントの有効期限が切れるまで、新しく作成されたユーザはどのくらいの期間、利用することができますか。';
 $string['embeddedcontent'] = '埋め込みコンテンツ';
