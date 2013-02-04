@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-02-04 18:20:38 UTC
+ * @updated    2013-02-04 18:31:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -900,9 +900,9 @@ $string['usershaveloggedinsince'] = '次の日時以降ログインしたこと�
 $string['usershavenotloggedinsince'] = '次の日時以降ログインしたことのないユーザ';
 $string['lastlogin'] = '最終ログイン';
 $string['masqueradingreasonrequired'] = 'マスカレーディングの理由を必要とする';
-$string['masqueradingreasonrequireddescription'] = 'チェックした場合、管理者は他のユーザとしてマスカレーディング (ログイン) する場合に理由を入力する必要があります。この理由は記録されます。また、「ユーザにマスカレーディングを通知する」設定が有効にされた場合、マスカレーディングに関する通知がユーザにも送信されます。';
+$string['masqueradingreasonrequireddescription'] = 'チェックした場合、管理者は他のユーザとしてマスカレーディングする時に理由を入力する必要があります。この理由は記録されます。また、「ユーザにマスカレーディングを通知する」設定が有効にされた場合、マスカレーディングに関する通知がユーザにも送信されます。';
 $string['masqueradingnotified'] = 'ユーザにマスカレーディングを通知する';
-$string['masqueradingnotifieddescription'] = 'チェックした場合、管理者がユーザをマスカレーディングした時に通知されます。通知には誰が、いつ、なぜ (「マスカレーディングの理由を必要とする」が有効の場合) マスカレーディングしたのか記されます。';
+$string['masqueradingnotifieddescription'] = 'チェックした場合、管理者がユーザをマスカレーディングした時に通知されます。通知には誰が、いつ、なぜ (「マスカレーディングの理由を必要とする」が有効の場合) マスカレーディングしたのか記載されます。';
 $string['masquerade'] = '続ける';
 $string['masqueradereason'] = '理由';
 $string['masqueradereasondescription'] = 'このユーザとしてログインする理由を入力してください。注意: この理由はユーザに通知されませんが、ログとして記録されます。';
