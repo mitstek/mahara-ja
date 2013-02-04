@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-01-17 22:47:41 UTC
+ * @updated    2013-02-04 18:20:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -349,6 +349,13 @@ $string['whocancreatepublicgroupsdescription'] = 'ここではパブリックに
 $string['wysiwyg'] = 'HTMLエディタ';
 $string['wysiwygdescription'] = 'サイト全体としてHTMLエディタを有効にするか、ユーザ自身がHTMLエディタを有効または無効にできるか指定します。';
 $string['wysiwyguserdefined'] = 'ユーザ定義';
+$string['eventloglevel'] = 'イベントログ';
+$string['eventlogleveldescription'] = 'どのイベントを記録しますか?';
+$string['eventlogexpiry'] = 'イベントログ有効期限';
+$string['eventlogexpirydescription'] = 'どのくらいの期間、イベントログを保持しますか?';
+$string['eventloglevelnone'] = 'なし';
+$string['eventloglevelmasq'] = 'マスカレーディング';
+$string['eventloglevelall'] = 'すべて';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
 $string['editsitepagespagedescription'] = 'ここでは(ログインおよびログアウトユーザ別に) ホームページおよびフッタのページリンク等、サイト全体のいくつかのページコンテンツを編集することができます。';
@@ -873,6 +880,7 @@ $string['institutionsettingslegend'] = 'インスティテューション設定'
 $string['accountsettingslegend'] = 'アカウント設定';
 $string['securitysettingslegend'] = 'セキュリティ設定';
 $string['generalsettingslegend'] = '一般設定';
+$string['loggingsettingslegend'] = 'ロギング設定';
 $string['groupname'] = 'グループ名';
 $string['groupmembers'] = 'メンバー';
 $string['groupadmins'] = '管理者';
@@ -891,5 +899,22 @@ $string['usershaveneverloggedin'] = 'ログインしたことのないユーザ'
 $string['usershaveloggedinsince'] = '次の日時以降ログインしたことのあるユーザ';
 $string['usershavenotloggedinsince'] = '次の日時以降ログインしたことのないユーザ';
 $string['lastlogin'] = '最終ログイン';
+$string['masqueradingreasonrequired'] = 'マスカレーディングの理由を必要とする';
+$string['masqueradingreasonrequireddescription'] = 'チェックした場合、管理者は他のユーザとしてマスカレーディング (ログイン) する場合に理由を入力する必要があります。この理由は記録されます。また、「ユーザにマスカレーディングを通知する」設定が有効にされた場合、マスカレーディングに関する通知がユーザにも送信されます。';
+$string['masqueradingnotified'] = 'ユーザにマスカレーディングを通知する';
+$string['masqueradingnotifieddescription'] = 'チェックした場合、管理者がユーザをマスカレーディングした時に通知されます。通知には誰が、いつ、なぜ (「マスカレーディングの理由を必要とする」が有効の場合) マスカレーディングしたのか記されます。';
+$string['masquerade'] = '続ける';
+$string['masqueradereason'] = '理由';
+$string['masqueradereasondescription'] = 'このユーザとしてログインする理由を入力してください。注意: この理由はユーザに通知されませんが、ログとして記録されます。';
+$string['masqueradenotificationdone'] = 'このマスカレーディングセッションがユーザに通知されました。';
+$string['masqueradenotifiedreasondescription'] = 'このユーザとしてログインする理由を入力してください。注意: ユーザにはマスカレーディングの理由とともに、あなたの氏名、日時を含むメッセージが送信されます。';
+$string['masqueradetime'] = 'マスカレーディング開始日時';
+$string['masquerader'] = 'マスカレーディング管理者';
+$string['masqueradee'] = 'ユーザ';
+$string['loginaslog'] = 'マスカレーディングセッション';
+$string['masqueradingnotloggedwarning'] = '<b>注意</b>: マスカレーディングセッションのロギングは現在無効にされています。このテーブルのデータを閲覧するには、管理者が「 <a href="%sadmin/site/options.php">サイト設定</a> 」内の「ロギング設定」を有効にする必要があります。';
+$string['masqueradenotificationsubject'] = '管理者があなたとしてログインしました。';
+$string['masqueradenotificationnoreason'] = '管理者「 %s 」が %s のあなたのアカウントにログインしました。';
+$string['masqueradenotificationreason'] = '管理者「 %s 」が %s のあなたのアカウントにログインしました。理由は次のとおりです: %s';
 
 ?>
