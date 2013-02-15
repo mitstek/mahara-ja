@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-01-15 06:38:48 UTC
+ * @updated    2013-02-15 05:53:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -149,6 +149,7 @@ $string['savechanges'] = '変更を保存する';
 $string['selectafile'] = 'ファイルを選択する';
 $string['selectingfailed'] = '選択に失敗しました: すでにファイルまたはフォルダが存在していません。';
 $string['Size'] = 'サイズ';
+$string['License'] = 'ライセンス';
 $string['spaceused'] = '使用スペース';
 $string['timeouterror'] = 'ファイルのアップロードに失敗しました: ファイルのアップロードを再度お試しください。';
 $string['title'] = '名称';

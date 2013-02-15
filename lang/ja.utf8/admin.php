@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-02-04 18:31:11 UTC
+ * @updated    2013-02-15 06:03:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -87,6 +87,7 @@ $string['editsitepagesdescription'] = 'サイト内の様々なページコン�
 $string['menus'] = 'メニュー';
 $string['menusdescription'] = '「リンクおよびリソースメニュー」およびフッタメニュー内のリンクおよびファイルを管理します。';
 $string['sitefiles'] = 'サイトファイル';
+$string['sitelicenses'] = 'ライセンス';
 $string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトページに置くことのできるファイルをアップロードおよび管理します。';
 $string['siteviews'] = 'サイトページ';
 $string['siteviewsdescription'] = 'サイト全体のページおよびページテンプレートを作成および管理します。';
@@ -291,6 +292,10 @@ $string['pathtoclam'] = 'clamのパス';
 $string['pathtoclamdescription'] = 'clamscanまたはclamdscanへのファイルシステムパスです。';
 $string['registerterms'] = '登録同意';
 $string['registertermsdescription'] = 'ユーザ登録の前、ユーザに使用条件への同意を強制します。このオプションを有効にする前、あなたのサイト使用条件ページを編集する必要があります。';
+$string['licensemetadata'] = 'ラインセンスメタデータ';
+$string['licensemetadatadescription'] = 'ユーザ作成コンテンツに関して、ライセンスメタデータをリクエストおよび保存します。';
+$string['licenseallowcustom'] = 'カスタムライセンスを許可する';
+$string['licenseallowcustomdescription'] = 'ライセンスメタデータに関して、ユーザがライセンスのURIを入力できるようにします。チェックしない場合、ユーザはサイト管理者が設定したライセンスに制限されます。';
 $string['allowmobileuploads'] = 'モバイルアップロードを有効にする';
 $string['allowmobileuploadsdescription'] = 'チェックした場合、ユーザは認証トークンを設定することができます - このトークンを使用してアップロードされたコンテンツはアーティファクトとして保存されます。';
 $string['remoteavatars'] = 'リモートアバタを表示する';
@@ -402,6 +407,12 @@ $string['footermenudescription'] = 'フッタメニュー内のリンクを有�
 $string['footerupdated'] = 'フッタが更新されました。';
 $string['footercustomlink'] = 'ここにURIを入力することで、あなたはデフォルトページ「 %s 」に優先させることができます。デフォルト値を使用する場合、空白のままにしてください。';
 $string['adminfilespagedescription'] = 'あなたはここで%s「リンクおよびリソース」メニュー%sに含むことのできるファイルをアップロードすることができます。パブリックディレクトリのファイルはパブリックの「リンクおよびリソース」メニューに追加できるのに対して、ホームディレクトリのファイルはログイン後の「リンクおよびリソース」メニューに追加することができます。';
+$string['licensenamelabel'] = 'URI';
+$string['licensedisplaynamelabel'] = '表示名';
+$string['licenseshortnamelabel'] = '頭字語';
+$string['licenseiconlabel'] = 'アイコン';
+$string['addsitelicense'] = 'ライセンスを追加する';
+$string['licensesave'] = '保存';
 $string['networkingextensionsmissing'] = '申し訳ございません、インストール済みPHPでいくつかの必須拡張モジュールが不足しているため、あなたはMaharaネットワーキングを設定できません。';
 $string['publickey'] = '公開鍵';
 $string['publickeydescription2'] = 'この公開鍵は自動的に生成され、%s 日ごとにローテートされます。';
@@ -701,6 +712,7 @@ $string['defaultmembershipperiod'] = 'デフォルトのメンバーシップ期
 $string['defaultmembershipperioddescription'] = 'どのくらいの期間、新しいメンバーはインスティテューションに参加することができますか。';
 $string['showonlineusers'] = 'オンラインユーザを表示する';
 $string['showonlineusersdescription'] = 'このインスティテューションのメンバーに表示されるオンラインユーザです。ユーザに複数インスティテューションが許可されている場合、最も制約の少ないインスティテューション設定が使用されます。';
+$string['licensedefault'] = 'デフォルトライセンス';
 $string['Logo'] = 'ロゴ';
 $string['logodescription'] = 'あなたのインスティテューションメンバーに標準的なヘッダロゴの代わりに表示されるイメージをここでアップロードすることができます。最良の結果のため、このイメージをあなたのインスティテューションのサイトロゴと同じ大きさにしてください。';
 $string['deletelogo'] = 'ロゴを削除する';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-11-28 13:58:02 UTC
+ * @updated    2013-02-15 05:53:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -35,6 +35,7 @@ $string['achievements'] = '業績';
 $string['goals'] = 'ゴール';
 $string['skills'] = 'スキル';
 $string['interests'] = '興味';
+$string['license'] = 'ライセンス';
 $string['mygoals'] = 'マイゴール';
 $string['myskills'] = 'マイスキル';
 $string['coverletter'] = 'カバーレター';

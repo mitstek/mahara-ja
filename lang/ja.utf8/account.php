@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-09-26 18:23:27 UTC
+ * @updated    2013-02-15 05:59:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -50,6 +50,9 @@ $string['on'] = 'On';
 $string['off'] = 'Off';
 $string['disabled'] = '無効';
 $string['enabled'] = '有効';
+$string['licensedefault'] = 'デフォルトライセンス';
+$string['licensedefaultdescription'] = 'あなたのコンテンツのデフォルトライセンスです。';
+$string['licensedefaultinherit'] = 'インスティテューションデフォルトを使用する';
 $string['messagesdescr'] = '他のユーザからのメッセージ';
 $string['messagesnobody'] = 'だれも私にメッセージを送信できません。';
 $string['messagesfriends'] = 'マイフレンドリストに登録したユーザは私にメッセージを送信できます。';
