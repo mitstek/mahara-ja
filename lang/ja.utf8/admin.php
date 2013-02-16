@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-02-15 06:03:08 UTC
+ * @updated    2013-02-16 06:50:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -88,6 +88,8 @@ $string['menus'] = 'メニュー';
 $string['menusdescription'] = '「リンクおよびリソースメニュー」およびフッタメニュー内のリンクおよびファイルを管理します。';
 $string['sitefiles'] = 'サイトファイル';
 $string['sitelicenses'] = 'ライセンス';
+$string['sitelicensesdescription'] = 'ユーザがコンテンツに使用できるライセンス一覧を設定します。';
+$string['sitelicensesdisablednote'] = '<b>注意</b>: 現在、ライセンスメタデータは無効にされています。ユーザがライセンスを指定できるようにするには、あなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「一般設定」セクションにて、ライセンスメタデータを有効にする必要があります。';
 $string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトページに置くことのできるファイルをアップロードおよび管理します。';
 $string['siteviews'] = 'サイトページ';
 $string['siteviewsdescription'] = 'サイト全体のページおよびページテンプレートを作成および管理します。';
@@ -412,7 +414,10 @@ $string['licensedisplaynamelabel'] = '表示名';
 $string['licenseshortnamelabel'] = '頭字語';
 $string['licenseiconlabel'] = 'アイコン';
 $string['addsitelicense'] = 'ライセンスを追加する';
+$string['licensedeleted'] = 'ライセンスが削除されました。';
 $string['licensesave'] = '保存';
+$string['licensesaved'] = 'ライセンスが保存されました。';
+$string['licenseurlnone'] = '%s のURIを指定してください。';
 $string['networkingextensionsmissing'] = '申し訳ございません、インストール済みPHPでいくつかの必須拡張モジュールが不足しているため、あなたはMaharaネットワーキングを設定できません。';
 $string['publickey'] = '公開鍵';
 $string['publickeydescription2'] = 'この公開鍵は自動的に生成され、%s 日ごとにローテートされます。';
