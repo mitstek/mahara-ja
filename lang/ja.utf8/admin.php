@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-02-16 06:50:56 UTC
+ * @updated    2013-02-17 18:29:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -717,7 +717,10 @@ $string['defaultmembershipperiod'] = 'デフォルトのメンバーシップ期
 $string['defaultmembershipperioddescription'] = 'どのくらいの期間、新しいメンバーはインスティテューションに参加することができますか。';
 $string['showonlineusers'] = 'オンラインユーザを表示する';
 $string['showonlineusersdescription'] = 'このインスティテューションのメンバーに表示されるオンラインユーザです。ユーザに複数インスティテューションが許可されている場合、最も制約の少ないインスティテューション設定が使用されます。';
+$string['licensemandatory'] = 'ライセンス情報を要求する';
+$string['licensemandatorydescription'] = 'チェックした場合、ユーザはアーティファクト作成時にライセンスを選択する必要があります。そうでない場合、ライセンスフィールドを空白のままにすることができます。';
 $string['licensedefault'] = 'デフォルトライセンス';
+$string['licensedefaultdescription'] = 'インスティテューションメンバーにより作成またはアップロードされたコンテンツのデフォルトのライセンスです。ユーザはアカウント設定ページおよび個々のアイテムにて、この設定をオーバーライドすることができます。';
 $string['Logo'] = 'ロゴ';
 $string['logodescription'] = 'あなたのインスティテューションメンバーに標準的なヘッダロゴの代わりに表示されるイメージをここでアップロードすることができます。最良の結果のため、このイメージをあなたのインスティテューションのサイトロゴと同じ大きさにしてください。';
 $string['deletelogo'] = 'ロゴを削除する';

@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-02-17 06:25:01 UTC
+ * @updated    2013-02-17 18:21:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -142,11 +142,13 @@ $string['resultsperpage'] = '1ページあたりの表示ユーザ数';
 $string['license'] = 'ライセンス';
 $string['licensedesc'] = 'このコンテンツのライセンスです。';
 $string['licensenone'] = '未選択';
+$string['licensingadvanced'] = 'ライセンス詳細';
 $string['licensor'] = 'ライセンサ';
 $string['licensordesc'] = 'このコンテンツのライセンサです。';
 $string['licensorurl'] = 'オリジナルURI';
 $string['licensorurldesc'] = 'このコンテンツのオリジナルURIです。';
 $string['licensemandatoryerror'] = 'ライセンスフィールドは必須入力フィールドです。';
+$string['licensenocustomerror'] = 'このライセンスはこのサイトで許可されていません。';
 $string['quota'] = 'クオータ';
 $string['quotausage'] = 'あなたの利用クオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span> です。';
 $string['quotausagegroup'] = 'このグループの利用クオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span> です。';
