@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-02-17 18:29:55 UTC
+ * @updated    2013-02-19 07:07:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -295,7 +295,7 @@ $string['pathtoclamdescription'] = 'clamscanまたはclamdscanへのファイル
 $string['registerterms'] = '登録同意';
 $string['registertermsdescription'] = 'ユーザ登録の前、ユーザに使用条件への同意を強制します。このオプションを有効にする前、あなたのサイト使用条件ページを編集する必要があります。';
 $string['licensemetadata'] = 'ラインセンスメタデータ';
-$string['licensemetadatadescription'] = 'ユーザ作成コンテンツに関して、ライセンスメタデータをリクエストおよび保存します。';
+$string['licensemetadatadescription'] = 'ユーザ作成コンテンツに関して、ライセンスメタデータを要求および保存します。';
 $string['licenseallowcustom'] = 'カスタムライセンスを許可する';
 $string['licenseallowcustomdescription'] = 'ライセンスメタデータに関して、ユーザがライセンスのURIを入力できるようにします。チェックしない場合、ユーザはサイト管理者が設定したライセンスに制限されます。';
 $string['allowmobileuploads'] = 'モバイルアップロードを有効にする';
@@ -409,6 +409,7 @@ $string['footermenudescription'] = 'フッタメニュー内のリンクを有�
 $string['footerupdated'] = 'フッタが更新されました。';
 $string['footercustomlink'] = 'ここにURIを入力することで、あなたはデフォルトページ「 %s 」に優先させることができます。デフォルト値を使用する場合、空白のままにしてください。';
 $string['adminfilespagedescription'] = 'あなたはここで%s「リンクおよびリソース」メニュー%sに含むことのできるファイルをアップロードすることができます。パブリックディレクトリのファイルはパブリックの「リンクおよびリソース」メニューに追加できるのに対して、ホームディレクトリのファイルはログイン後の「リンクおよびリソース」メニューに追加することができます。';
+$string['extralicensesdescription'] = '注意: 次のライセンスはいくつかのコンテンツで使用されていますが、設定されていません。';
 $string['licensenamelabel'] = 'URI';
 $string['licensedisplaynamelabel'] = '表示名';
 $string['licenseshortnamelabel'] = '頭字語';
@@ -417,6 +418,7 @@ $string['addsitelicense'] = 'ライセンスを追加する';
 $string['licensedeleted'] = 'ライセンスが削除されました。';
 $string['licensesave'] = '保存';
 $string['licensesaved'] = 'ライセンスが保存されました。';
+$string['licenseurldup'] = 'URIはユニーク (固有) である必要があります。ここで %s は繰り返し使用されています。';
 $string['licenseurlnone'] = '%s のURIを指定してください。';
 $string['networkingextensionsmissing'] = '申し訳ございません、インストール済みPHPでいくつかの必須拡張モジュールが不足しているため、あなたはMaharaネットワーキングを設定できません。';
 $string['publickey'] = '公開鍵';
@@ -721,6 +723,7 @@ $string['licensemandatory'] = 'ライセンス情報を要求する';
 $string['licensemandatorydescription'] = 'チェックした場合、ユーザはアーティファクト作成時にライセンスを選択する必要があります。そうでない場合、ライセンスフィールドを空白のままにすることができます。';
 $string['licensedefault'] = 'デフォルトライセンス';
 $string['licensedefaultdescription'] = 'インスティテューションメンバーにより作成またはアップロードされたコンテンツのデフォルトのライセンスです。ユーザはアカウント設定ページおよび個々のアイテムにて、この設定をオーバーライドすることができます。';
+$string['licensedefaultmandatory'] = 'ユーザがライセンスの選択を要求される場合、あなたはここでデフォルトライセンスを選択する必要があります。あなたがデフォルトライセンスを選択したくない場合、ユーザにライセンスを要求しないでください。';
 $string['Logo'] = 'ロゴ';
 $string['logodescription'] = 'あなたのインスティテューションメンバーに標準的なヘッダロゴの代わりに表示されるイメージをここでアップロードすることができます。最良の結果のため、このイメージをあなたのインスティテューションのサイトロゴと同じ大きさにしてください。';
 $string['deletelogo'] = 'ロゴを削除する';
