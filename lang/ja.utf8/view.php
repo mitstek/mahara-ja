@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-01-17 04:59:40 UTC
+ * @updated    2013-03-05 22:57:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -323,5 +323,9 @@ $string['sharedviewsdescription'] = 'このページではあなたが共有し�
 $string['sharedwith'] = '共有対象';
 $string['Me'] = '私';
 $string['sharedby'] = '共有';
+$string['retractable'] = '格納';
+$string['retractabledescription'] = 'ヘッダをクリックしてこのブロックを格納できるようにするには、このオプションを有効にしてください。';
+$string['retractedonload'] = '自動格納';
+$string['retractedonloaddescription'] = 'このブロックを自動的に格納するには、このオプションを有効にしてください。';
 
 ?>
