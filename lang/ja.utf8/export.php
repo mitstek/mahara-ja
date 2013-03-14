@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-03-02 16:00:36 UTC
+ * @updated    2013-03-14 16:35:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -35,8 +35,11 @@ $string['collectionstoexport'] = 'エクスポートするコレクション';
 $string['creatingzipfile'] = 'ZIPファイル作成中';
 $string['Done'] = '完了';
 $string['Export'] = 'エクスポート';
+$string['clickheretodownload'] = 'ダウンロードするには、ここをクリック';
+$string['continue'] = '続ける';
 $string['exportgeneratedsuccessfully'] = 'エクスポートが正常に生成されました。%sダウンロードするには、ここをクリック%s';
-$string['exportgeneratedsuccessfullyjs'] = 'エクスポートが正常に生成されました。%s続ける%s';
+$string['exportgeneratedsuccessfully1'] = 'エクスポートが正常に生成されました。';
+$string['exportgeneratedwitherrors'] = 'エクスポートが生成されましたが、いくつかのエラーが発生しています。';
 $string['exportingartefactplugindata'] = 'アーティファクトプラグインデータのエクスポート中';
 $string['exportingartefacts'] = 'アーティファクトのエクスポート中';
 $string['exportingartefactsprogress'] = 'アーティファクトのエクスポート中: %s/%s';
@@ -52,6 +55,17 @@ $string['justsomeviews'] = 'いくつかのマイページのみ';
 $string['includefeedback'] = 'フィードバックを含む';
 $string['includefeedbackdescription'] = 'すべてのユーザコメントがHTMLエクスポートに含まれます。';
 $string['nonexistentfile'] = '存在しないファイルの追加を試みました: %s';
+$string['nonexistentprofileicon'] = '存在しないプロファイルアイコン「 %s 」を追加しようとしました。';
+$string['nonexistentresizedprofileicon'] = '存在しないリサイズ済みプロファイルアイコン「 %s 」を追加しようとしました。';
+$string['unabletocopyartefact'] = 'アーティファクトファイル「 %s 」をコピーできませんでした。';
+$string['unabletocopyprofileicon'] = 'プロファイルアイコン「 %s 」をコピーできませんでした。';
+$string['unabletocopyresizedprofileicon'] = 'リサイズ済みプロファイルアイコン「 %s 」をコピーできませんでした。';
+$string['couldnotcreatedirectory'] = 'ディレクトリ「 %s 」を作成できませんでした。';
+$string['couldnotcreatestaticdirectory'] = '静的ディレクトリ「 %s 」を作成できませんでした。';
+$string['couldnotcopystaticfile'] = '静的ファイル「 %s 」をコピーできませんでした。';
+$string['couldnotcopyattachment'] = '添付「 %s 」をコピーできませんでした。';
+$string['couldnotcopyfilesfromto'] = 'ディレクトリ「 %s 」から「 %s 」にファイルをコピーできませんでした。';
+$string['couldnotwriteLEAPdata'] = 'ファイルにLEAPデータを書き込めませんでした。';
 $string['pleasewaitwhileyourexportisbeinggenerated'] = 'あなたのエクスポートを生成しています。お待ちください ...';
 $string['reverseselection'] = 'すべての選択を解除する';
 $string['selectall'] = 'すべてを選択する';
