@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-02-19 07:07:09 UTC
+ * @updated    2013-04-23 06:47:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -921,6 +921,7 @@ $string['usershaveloggedin'] = 'ログインしたことのあるユーザ';
 $string['usershaveneverloggedin'] = 'ログインしたことのないユーザ';
 $string['usershaveloggedinsince'] = '次の日時以降ログインしたことのあるユーザ';
 $string['usershavenotloggedinsince'] = '次の日時以降ログインしたことのないユーザ';
+$string['duplicateemailfilter'] = '重複メールアドレスをフィルタする';
 $string['lastlogin'] = '最終ログイン';
 $string['masqueradingreasonrequired'] = 'マスカレーディングの理由を必要とする';
 $string['masqueradingreasonrequireddescription'] = 'チェックした場合、管理者は他のユーザとしてマスカレーディングする時に理由を入力する必要があります。この理由は記録されます。また、「ユーザにマスカレーディングを通知する」設定が有効にされた場合、マスカレーディングに関する通知がユーザにも送信されます。';

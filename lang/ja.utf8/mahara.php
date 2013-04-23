@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-02-17 18:21:26 UTC
+ * @updated    2013-04-23 06:30:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -371,6 +371,7 @@ $string['language'] = '言語';
 $string['itemdeleted'] = 'アイテムが削除されました。';
 $string['itemupdated'] = 'アイテムが更新されました。';
 $string['approvalrequired'] = '要承認';
+$string['authentication'] = '認証';
 $string['cantchangepassword'] = '申し訳ございません、このインターフェース経由でパスワードを変更することはできません - 代わりに、あなたのインスティテューションのインターフェースを使用してください。';
 $string['forgotusernamepassword'] = 'あなたのユーザ名またはパスワードを忘れましたが?';
 $string['forgotusernamepasswordtextprimaryemail'] = '<p>あなたがユーザ名またはパスワードを忘れた場合、あなたのプロファイルに登録された主メールアドレスを下記に入力してください。あなたが新しいパスワードを作成することのできるメッセージを送信します。</p>
@@ -491,6 +492,7 @@ $string['years'] = '年';
 $string['sitecontentnotfound'] = '%s テキストは利用できません。';
 $string['name'] = '名称';
 $string['email'] = 'Eメール';
+$string['emails'] = 'Eメール';
 $string['subject'] = '件名';
 $string['message'] = 'メッセージ';
 $string['messagesent'] = 'あなたのメッセージが送信されました。';
