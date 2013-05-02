@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-09-10 18:44:28 UTC
+ * @updated    2013-05-02 22:30:40 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -46,5 +46,6 @@ $string['invalidurl'] = '指定されたURIが有効ではありません。あ�
 $string['invalidfeed'] = 'フィードが有効ではないようです。レポートされたエラーは次のとおりです: %s';
 $string['lastupdatedon'] = '最終更新日時: %s';
 $string['defaulttitledescription'] = 'ここを空白にした場合、フィードのタイトルが使用されます。';
+$string['reenterpassword'] = 'あなたはフィードのURIを変更しました。パスワードを再入力 (または) 削除してください。';
 
 ?>
