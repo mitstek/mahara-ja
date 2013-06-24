@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-01-16 04:58:03 UTC
+ * @updated    2013-06-24 21:23:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -83,7 +83,7 @@ $string['newattachmentsexceedquota'] = 'このエントリにアップロード�
 $string['newblog'] = '新しい日誌';
 $string['newblogpost'] = '日誌「 %s 」の新しい日誌エントリ';
 $string['newerposts'] = '新しいエントリ';
-$string['nodefaultblogfound'] = 'デフォルトの日誌が見つかりませんでした。このシステムバグを修正するには、あなたは<a href="%saccount/">アカウント設定</a>ページにて複数日誌オプションを有効にする必要があります。';
+$string['nodefaultblogfound'] = 'デフォルトの日誌が見つかりませんでした。このシステムバグを修正するには、あなたは<a href="%saccount/index.php">アカウント設定</a>ページにて複数日誌オプションを有効にする必要があります。';
 $string['nopostsyet'] = 'まだエントリはありません';
 $string['noimageshavebeenattachedtothispost'] = 'このエントリにイメージは追加されませんでした。イメージを挿入できるようにするには、事前にイメージをアップロードするか、添付してください。';
 $string['nofilesattachedtothispost'] = '添付ファイルなし';
@@ -138,8 +138,8 @@ $string['youhaveoneblog'] = 'あなたには 1件の日誌があります。';
 $string['youhaveblogs'] = 'あなたには %s 件の日誌があります。';
 $string['feedsnotavailable'] = 'このアーティファクトタイプではフィードは利用できません。';
 $string['feedrights'] = '著作権 %s';
-$string['enablemultipleblogstext'] = 'あなたには1件の日誌があります。あなたが2件目の日誌を作成したい場合、<a href="%saccount/">アカウント設定</a>ページにて、複数日誌オプションを有効にしてください。';
-$string['hiddenblogsnotification'] = '新たに日誌が作成されましたが、あなたのアカウントでは複数日誌オプションが有効にされていません。あなたは<a href="%saccount/">アカウント設定</a>ページにて、複数日誌オプションを設定することができます。';
+$string['enablemultipleblogstext'] = 'あなたには1件の日誌があります。あなたが2件目の日誌を作成したい場合、<a href="%saccount/index.php">アカウント設定</a>ページにて、複数日誌オプションを有効にしてください。';
+$string['hiddenblogsnotification'] = '新たに日誌が作成されましたが、あなたのアカウントでは複数日誌オプションが有効にされていません。あなたは<a href="%saccount/index.php">アカウント設定</a>ページにて、複数日誌オプションを設定することができます。';
 $string['shortcutaddpost'] = '新しいエントリを追加する:';
 $string['shortcutgo'] = 'Go';
 $string['shortcutnewentry'] = '新しいエントリ';
