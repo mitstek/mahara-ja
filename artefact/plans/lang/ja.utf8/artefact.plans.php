@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-29 14:36:32 UTC
+ * @updated    2013-06-28 01:46:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -67,6 +67,7 @@ $string['notasks'] = '表示するタスクはありません。';
 $string['notasksaddone'] = 'まだタスクはありません。%sタスクを追加してください%s!';
 $string['savetask'] = 'タスクを保存する';
 $string['task'] = 'タスク';
+$string['Task'] = 'タスク';
 $string['tasks'] = 'タスク';
 $string['taskdeletedsuccessfully'] = 'タスクが正常に削除されました。';
 $string['tasksavedsuccessfully'] = 'タスクが正常に保存されました。';
