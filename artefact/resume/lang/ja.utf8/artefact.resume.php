@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-02-15 05:53:35 UTC
+ * @updated    2013-06-28 01:40:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -49,6 +49,7 @@ $string['visastatus'] = 'ビザステータス';
 $string['female'] = '女性';
 $string['male'] = '男性';
 $string['gender'] = '性別';
+$string['gendernotspecified'] = '(未指定)';
 $string['maritalstatus'] = '配偶者の有無';
 $string['resumesaved'] = 'レジュメが保存されました。';
 $string['resumesavefailed'] = 'あなたのレジュメの更新に失敗しました。';

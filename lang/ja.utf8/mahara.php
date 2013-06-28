@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-06-24 21:25:25 UTC
+ * @updated    2013-06-28 01:39:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -127,6 +127,7 @@ $string['tagfilter_file'] = 'ファイル';
 $string['tagfilter_image'] = 'イメージ';
 $string['tagfilter_text'] = 'テキスト';
 $string['tagfilter_view'] = 'ページ';
+$string['tagfilter_collection'] = 'コレクション';
 $string['edittags'] = 'タグを編集する';
 $string['selectatagtoedit'] = '編集するタグを選択してください';
 $string['edittag'] = '<a href="%s">%s</a> を編集する';

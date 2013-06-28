@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-10-07 17:18:22 UTC
+ * @updated    2013-06-28 01:39:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -120,5 +120,6 @@ $string['editnote'] = 'ノートを編集する';
 $string['confirmdeletenote'] = 'このノートは %d ブロックおよび %d ページで使用されています。あなたが削除した場合、現在このテキストを含むすべてのブロックには空白が表示されてしまいます。';
 $string['notedeleted'] = 'ノートが削除されました。';
 $string['noteupdated'] = 'ノートが更新されました。';
+$string['html'] = 'ノート';
 
 ?>
