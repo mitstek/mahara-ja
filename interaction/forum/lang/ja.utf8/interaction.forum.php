@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-10-14 08:43:55 UTC
+ * @updated    2013-07-01 03:22:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -120,6 +120,7 @@ $string['orderdescription'] = '他のフォーラムに対して、あなたが�
 $string['Post'] = '投稿';
 $string['postaftertimeout'] = 'あなたは %s 分のタイムアウト後に変更を送信しました。あなたの変更は適用されません。';
 $string['postbyuserwasdeleted'] = '%s による投稿が削除されました。';
+$string['postsbyuserweredeleted'] = '%s 件の投稿 (投稿者: %s) が削除されました。';
 $string['postdelay'] = '投稿遅延';
 $string['postdelaydescription'] = '新しい投稿がメール購読者に送信される前、経過する必要のある最小時間 (分) です。投稿者はこの時間中、投稿内容を編集することができます。';
 $string['postedin'] = '%s が %s に投稿しました。';
