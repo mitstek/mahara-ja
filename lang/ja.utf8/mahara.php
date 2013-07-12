@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-02-17 18:21:26 UTC
+ * @updated    2013-07-12 15:32:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -140,6 +140,7 @@ $string['tagdeletedsuccessfully'] = 'タグが正常に削除されました。'
 $string['selfsearch'] = 'マイポートフォリオを検索する';
 $string['resultsperpage'] = '1ページあたりの表示ユーザ数';
 $string['license'] = 'ライセンス';
+$string['licenseother'] = 'その他のライセンス (URIを入力してください)';
 $string['licensedesc'] = 'このコンテンツのライセンスです。';
 $string['licensenone'] = '未選択';
 $string['licensingadvanced'] = 'ライセンス詳細';
