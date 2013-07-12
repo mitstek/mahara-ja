@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-06-24 21:24:05 UTC
+ * @updated    2013-07-12 15:44:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -519,6 +519,7 @@ $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの�
 $string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれている行が多すぎます。あなたは %s 以上含むことができません。';
 $string['uploadgroupcsverrorgroupnamealreadyexists'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ名 (groupname)「 %s 」はすでに使用されています。';
 $string['uploadgroupcsverrorinvalidshortname'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname) 「 %s 」が有効ではありません。';
+$string['uploadgroupcsverrorshortnamemissing'] = 'あなたのファイルの %s 行目にエラーが発生しました: 省略名「 %s 」のグループは存在しません。';
 $string['uploadgroupcsverrorinvalidgrouptype'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループタイプ (grouptype) 「 %s 」が有効ではありません。';
 $string['uploadgroupcsverrorinvalideditroles'] = 'あなたのファイルの %s 行目にエラーが発生しました: 編集ロール (editroles ) 「 %s 」が有効ではありません。';
 $string['uploadgroupcsverrorshortnamealreadytaken'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname) 「 %s 」はすでに取得されています。';
