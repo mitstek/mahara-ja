@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-07-12 16:21:17 UTC
+ * @updated    2013-07-12 16:38:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -275,6 +275,11 @@ $string['defaultregistrationexpirylifetime'] = 'デフォルトの登録存続�
 $string['defaultregistrationexpirylifetimedescription'] = '管理者が対応する必要のある登録申請はどのくらいの期間存続しますか。';
 $string['defaultaccountlifetime'] = 'デフォルトのアカウント存続期間';
 $string['defaultaccountlifetimedescription'] = 'ユーザアカウントの有効期限が切れるまで、新しく作成されたユーザはどのくらいの期間、利用することができますか。';
+$string['defaultaccountlifetimeupdate'] = 'ユーザアカウント存続期間のオーバーライド';
+$string['defaultaccountlifetimeupdatedescription'] = '「デフォルトのアカウント存続期間」が設定されている場合、ユーザ有効期限に関する対応方法を選択してください。';
+$string['defaultaccountlifetimeupdatenone'] = '新しく作成されたユーザのみ';
+$string['defaultaccountlifetimeupdatesome'] = '新しいユーザおよびアカウント存続期間が設定されていないユーザ (サイト管理者を除く)';
+$string['defaultaccountlifetimeupdateall'] = 'すべてのユーザアカウント (サイト管理者を除く)';
 $string['embeddedcontent'] = '埋め込みコンテンツ';
 $string['embeddedcontentdescription'] = 'あなたのユーザに対して、他のサイトからのビデオ埋め込みをできるようにしたい場合、下記より信頼されたサイトを選択してください。';
 $string['Everyone'] = '誰でも';
