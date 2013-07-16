@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-07-16 22:20:43 UTC
+ * @updated    2013-07-16 22:28:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -66,7 +66,7 @@ $string['qualification'] = '資格';
 $string['title'] = 'タイトル';
 $string['description'] = '説明';
 $string['bookurl'] = 'URI';
-$string['notvalidurl'] = '有効なURLではありません。';
+$string['notvalidurl'] = '有効なURIではありません。';
 $string['employer'] = '雇用主';
 $string['jobtitle'] = '職名';
 $string['jobdescription'] = 'ポジション説明';
