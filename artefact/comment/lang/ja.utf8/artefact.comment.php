@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-01-27 05:33:40 UTC
+ * @updated    2013-07-24 06:16:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -60,6 +60,8 @@ $string['feedbackattachdirdesc'] = 'あなたのポートフォリオのコメ�
 $string['feedbackattachmessage'] = 'あなたの %s フォルダに添付ファイルが追加されました。';
 $string['feedbackonviewbyuser'] = '%s のフィードバック by %s';
 $string['feedbacksubmitted'] = 'フィードバックが送信されました。';
+$string['feedbacksubmittedmoderatedanon'] = 'フィードバックが送信されました。モデレーションを待っています。';
+$string['feedbacksubmittedprivateanon'] = 'プライベートフィードバックが送信されました。';
 $string['lastcomment'] = '最新のコメント';
 $string['makepublic'] = 'パブリックにする';
 $string['makepublicnotallowed'] = 'あなたはこのコメントをパブリックにすることはできません。';
