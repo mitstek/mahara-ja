@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-07-12 15:42:45 UTC
+ * @updated    2013-07-25 04:13:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -234,6 +234,7 @@ $string['profileicons'] = 'プロファイル写真';
 $string['Default'] = 'デフォルト';
 $string['defaultprofileicon'] = '現在、あなたのデフォルトプロファイル写真に設定されています。';
 $string['deleteselectedicons'] = '選択されたプロファイル写真を削除する';
+$string['editprofileicon'] = 'プロファイル写真を編集する';
 $string['profileicon'] = 'プロファイル写真';
 $string['noimagesfound'] = 'イメージはありません。';
 $string['profileiconaddedtoimagesfolder'] = 'あなたのプロファイル写真が「 %s 」フォルダにアップロードされました。';
