@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-10-07 17:20:29 UTC
+ * @updated    2013-08-01 05:30:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -98,6 +98,7 @@ $string['blocktype_groupinfo'] = 'ブロック: グループ情報';
 $string['blocktype_groupmembers'] = 'ブロック: グループメンバー';
 $string['blocktype_groupviews'] = 'ブロック: グループページ';
 $string['blocktype_html'] = 'ブロック: HTML';
+$string['blocktype_pdf'] = 'ブロック: PDF';
 $string['blocktype_image'] = 'ブロック: イメージ';
 $string['blocktype_inbox'] = 'ブロック: マイ受信箱';
 $string['blocktype_internalmedia'] = 'ブロック: 埋め込みメディア';
