@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-07-25 04:13:47 UTC
+ * @updated    2013-08-09 03:42:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -85,6 +85,7 @@ $string['Details'] = '詳細';
 $string['Download'] = 'ダウンロード';
 $string['downloadfile'] = '%s をダウンロードする';
 $string['downloadoriginalversion'] = 'オリジナルバージョンをダウンロードする';
+$string['dragdrophere'] = 'アップロードするには、ここにファイルをドロップしてください。';
 $string['editfile'] = 'ファイルを編集する';
 $string['editfolder'] = 'フォルダを編集する';
 $string['editingfailed'] = '編集に失敗しました: すでにファイルまたはフォルダが存在していません。';
