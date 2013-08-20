@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-07-22 18:47:25 UTC
+ * @updated    2013-08-20 00:36:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -298,6 +298,7 @@ $string['onlineuserssideblockmaxusersdescription'] = 'オンラインユーザ�
 $string['country'] = '国';
 $string['pathtoclam'] = 'clamのパス';
 $string['pathtoclamdescription'] = 'clamscanまたはclamdscanへのファイルシステムパスです。';
+$string['pathtoclamnotset'] = '(未設定)';
 $string['registerterms'] = '登録同意';
 $string['registertermsdescription'] = 'ユーザ登録の前、ユーザに使用条件への同意を強制します。このオプションを有効にする前、あなたのサイト使用条件ページを編集する必要があります。';
 $string['licensemetadata'] = 'ラインセンスメタデータ';
@@ -384,15 +385,6 @@ $string['savefailed'] = '保存に失敗しました。';
 $string['sitepageloaded'] = 'サイトページが読み込まれました。';
 $string['termsandconditions'] = '使用条件';
 $string['uploadcopyright'] = 'アップロード著作権宣言文';
-$string['additionalhtml'] = '追加HTML';
-$string['additionalhtmlcontent'] = 'コンテンツ';
-$string['additionalhtmldescription'] = 'あなたがすべてのページに追加したいHTMLコンテンツを編集してください。ここであなたは、カウンタおよびGoogle Analyticsのようなサービスを埋め込むことができます。あなたはHEADタグが終わる前、BODYタグが始まった直後、またはBODYタグが終わる直前にHTMLを定義することができます。';
-$string['additionalhtmlfooter'] = 'BODYが終わる前';
-$string['additionalhtmlhead'] = 'HEAD内';
-$string['additionalhtmllocation'] = 'ロケーション';
-$string['additionalhtmlsaved'] = 'コンテンツが保存されました。';
-$string['additionalhtmltopofbody'] = 'BODYが始まる時';
-$string['discardcontentedits'] = 'あなたの変更を破棄してもよろしいですか?';
 $string['sitefile'] = 'サイトファイル';
 $string['adminpublicdirname'] = 'パブリック';
 $string['adminpublicdirdescription'] = 'ログアウトしたユーザからアクセス可能なファイルです。';
