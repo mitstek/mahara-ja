@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-08-20 00:36:17 UTC
+ * @updated    2013-08-20 05:03:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -296,7 +296,7 @@ $string['none'] = 'なし';
 $string['onlineuserssideblockmaxusers'] = 'オンラインユーザ制限';
 $string['onlineuserssideblockmaxusersdescription'] = 'オンラインユーザサイドバーに表示される最大ユーザ数です。';
 $string['country'] = '国';
-$string['pathtoclam'] = 'clamのパス';
+$string['pathtoclam'] = 'ClamAVのパス';
 $string['pathtoclamdescription'] = 'clamscanまたはclamdscanへのファイルシステムパスです。';
 $string['pathtoclamnotset'] = '(未設定)';
 $string['registerterms'] = '登録同意';

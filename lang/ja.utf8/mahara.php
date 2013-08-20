@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-08-06 04:11:20 UTC
+ * @updated    2013-08-20 05:07:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -615,6 +615,7 @@ $string['clamdeletedfilefailed'] = 'ファイルを削除できませんでし�
 $string['clambroken'] = 'あなたの管理者がファイルのアップロードに関して、ウイルスチェックを有効にしましたが、設定が正しくないようです。あなたのファイルは正常にアップロードされませんでした。あなたの管理者にメール通知が送信されましたので、管理者は問題を修正することができます。このファイルのアップロードを後でお試しください。';
 $string['clamemailsubject'] = '%s :: Clam AV通知';
 $string['clamlost'] = 'Clam AVがファイルのアップロード時に動作するよう設定されていますが、Clam AVのパス「 %s 」が正しくありません。';
+$string['clamnotset'] = 'あなたはウイルスチェックを有効にしましたが、「ClamAVのパス」を設定していません。あなたのconfig.phpファイルに「$cfg->pathtoclam」を追加してClamAVのパスを設定するまで、ウイルスチェックは有効になりません。';
 $string['clamfailed'] = 'Clam AVの動作にエラーが発生しました。エラーメッセージは%s です。Clam AVのアウトプットは次のとおりです:';
 $string['clamunknownerror'] = 'clamに不明なエラーが発生しました。';
 $string['image'] = 'イメージ';
