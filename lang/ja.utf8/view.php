@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-08-21 04:37:22 UTC
+ * @updated    2013-08-21 04:40:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -268,7 +268,7 @@ $string['20,30,30,20'] = '20-30-30-20';
 $string['noviewlayouts'] = '%s カラムページのレイアウトがありません。';
 $string['cantaddcolumn'] = 'あなたはこれ以上、このページにカラムを追加することはできません。';
 $string['cantremovecolumn'] = 'あなたはこのページから最終カラムを削除することはできません。';
-$string['blocktypecategory.external'] = '外部コンテンツ';
+$string['blocktypecategory.external'] = '外部';
 $string['blocktypecategory.fileimagevideo'] = 'ファイル、イメージおよびビデオ';
 $string['blocktypecategory.general'] = '一般';
 $string['blocktypecategory.internal'] = '個人情報';
