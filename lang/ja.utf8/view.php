@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-07-12 15:39:12 UTC
+ * @updated    2013-08-21 04:08:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -227,7 +227,7 @@ $string['removethisblock'] = 'このブロックを削除する';
 $string['blocktitle'] = 'ブロックタイトル';
 $string['changemyviewlayout'] = 'マイページのレイアウトを変更する';
 $string['viewcolumnspagedescription'] = '最初に、あなたのページのカラム数を選択してください。次のステップで、あなたはカラム幅を変更することができます。';
-$string['viewlayoutpagedescription'] = 'あなたのページカラムをどのように配置するか選択してください。';
+$string['viewlayoutpagedescription'] = 'あなたのページをどのように配置するか選択してください。';
 $string['changeviewlayout'] = 'マイページのカラムレイアウトを変更する';
 $string['viewlayoutchanged'] = 'ページレイアウトが変更されました。';
 $string['numberofcolumns'] = 'カラム数';
@@ -240,11 +240,11 @@ $string['noblocks'] = '申し訳ございません、このカテゴリにブロ
 $string['timeofsubmission'] = '送信日時';
 $string['column'] = 'カラム';
 $string['columns'] = 'カラム';
-$string['20,20,20,20,20'] = '等幅';
-$string['25,25,25,25'] = '等幅';
-$string['33,33,33'] = '等幅';
-$string['50,50'] = '等幅';
 $string['100'] = '等幅';
+$string['50,50'] = '等幅';
+$string['33,33,33'] = '等幅';
+$string['25,25,25,25'] = '等幅';
+$string['20,20,20,20,20'] = '等幅';
 $string['67,33'] = '大きな左カラム';
 $string['33,67'] = '大きな右カラム';
 $string['25,50,25'] = '大きな中央カラム';

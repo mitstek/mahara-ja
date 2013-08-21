@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-26 21:55:13 UTC
+ * @updated    2013-08-21 04:14:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,7 +29,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = '最新の日誌エントリ';
-$string['description'] = '最新の日誌エントリを表示します。';
+$string['description'] = '最新の日誌エントリを表示します (「コンテンツ -> 日誌」をご覧ください)。';
 $string['itemstoshow'] = '表示するアイテム数';
 $string['postedin'] = '-';
 $string['postedon'] = '投稿日時';

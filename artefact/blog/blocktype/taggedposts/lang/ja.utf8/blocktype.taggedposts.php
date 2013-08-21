@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-08-09 18:19:52 UTC
+ * @updated    2013-08-21 04:15:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,7 +29,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'タグ付き日誌エントリ';
-$string['description'] = '特定のタグが付けられた日誌エントリを表示します。';
+$string['description'] = '特定のタグが付けられた日誌エントリを表示します (「コンテンツ -> 日誌」をご覧ください)。';
 $string['blockheading'] = 'タグ付き日誌エントリ';
 $string['defaulttitledescription'] = 'ここを空白にした場合、日誌のタイトルが使用されます。';
 $string['postsperpage'] = '1ページあたりのエントリ数';
