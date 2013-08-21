@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-08-21 04:08:46 UTC
+ * @updated    2013-08-21 04:37:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -226,12 +226,23 @@ $string['removeblock'] = '%s ブロックを削除する';
 $string['removethisblock'] = 'このブロックを削除する';
 $string['blocktitle'] = 'ブロックタイトル';
 $string['changemyviewlayout'] = 'マイページのレイアウトを変更する';
+$string['createcustomlayout'] = 'カスタムレイアウトを作成する';
+$string['createnewlayout'] = '新しいレイアウトを作成する';
+$string['basicoptions'] = '基本オプション';
+$string['advancedoptions'] = '高度なオプション';
 $string['viewcolumnspagedescription'] = '最初に、あなたのページのカラム数を選択してください。次のステップで、あなたはカラム幅を変更することができます。';
 $string['viewlayoutpagedescription'] = 'あなたのページをどのように配置するか選択してください。';
 $string['changeviewlayout'] = 'マイページのカラムレイアウトを変更する';
 $string['viewlayoutchanged'] = 'ページレイアウトが変更されました。';
 $string['numberofcolumns'] = 'カラム数';
 $string['changecolumnlayoutfailed'] = 'カラムレイアウトを変更できませんでした。同時に他のユーザがレイアウトを編集したようです。';
+$string['changerowlayoutfailed'] = '列のレイアウトを変更できませんでした。同時に他のユーザがレイアウトを編集している可能性があります。後で再度お試しください。';
+$string['Row'] = '列';
+$string['addarow'] = '列を追加する';
+$string['removethisrow'] = 'この列を削除する';
+$string['columnlayout'] = 'カラムレイアウト';
+$string['layoutpreview'] = 'レイアウトプレビュー';
+$string['Help'] = 'ヘルプ';
 $string['by'] = 'by';
 $string['viewtitleby'] = '%s by <a href="%s">%s</a>';
 $string['viewauthor'] = 'by <a href="%s">%s</a>';
@@ -239,23 +250,33 @@ $string['in'] = '-';
 $string['noblocks'] = '申し訳ございません、このカテゴリにブロックはありません。';
 $string['timeofsubmission'] = '送信日時';
 $string['column'] = 'カラム';
+$string['row'] = '行';
 $string['columns'] = 'カラム';
-$string['100'] = '等幅';
-$string['50,50'] = '等幅';
-$string['33,33,33'] = '等幅';
-$string['25,25,25,25'] = '等幅';
-$string['20,20,20,20,20'] = '等幅';
-$string['67,33'] = '大きな左カラム';
-$string['33,67'] = '大きな右カラム';
-$string['25,50,25'] = '大きな中央カラム';
-$string['15,70,15'] = 'さらに大きな中央カラム';
-$string['20,30,30,20'] = '大きな中央カラム';
+$string['rows'] = '行';
+$string['100'] = '100';
+$string['50,50'] = '50-50';
+$string['33,33,33'] = '33-33-33';
+$string['25,25,25,25'] = '25-25-25-25';
+$string['20,20,20,20,20'] = '20-20-20-20-20';
+$string['67,33'] = '67-33';
+$string['33,67'] = '33-67';
+$string['25,25,50'] = '25-25-50';
+$string['50,25,25'] = '50-25-25';
+$string['25,50,25'] = '25-50-25';
+$string['15,70,15'] = '15-70-15';
+$string['20,30,30,20'] = '20-30-30-20';
 $string['noviewlayouts'] = '%s カラムページのレイアウトがありません。';
 $string['cantaddcolumn'] = 'あなたはこれ以上、このページにカラムを追加することはできません。';
 $string['cantremovecolumn'] = 'あなたはこのページから最終カラムを削除することはできません。';
 $string['blocktypecategory.external'] = '外部コンテンツ';
 $string['blocktypecategory.fileimagevideo'] = 'ファイル、イメージおよびビデオ';
 $string['blocktypecategory.general'] = '一般';
+$string['blocktypecategory.internal'] = '個人情報';
+$string['blocktypecategorydesc.external'] = '外部オプションを表示するには、クリックしてください。';
+$string['blocktypecategorydesc.fileimagevideo'] = 'メディアオプションを表示するには、クリックしてください。';
+$string['blocktypecategorydesc.general'] = '一般オプションを表示するには、クリックしてください。';
+$string['blocktypecategorydesc.internal'] = '個人情報オプションを表示するには、クリックしてください。';
+$string['blocktypecategorydesc.blog'] = '日誌オプションを表示するには、クリックしてください。';
 $string['notitle'] = 'タイトルなし';
 $string['clickformoreinformation'] = '詳細情報およびフィードバックの投稿はこちらをクリックしてください。';
 $string['Browse'] = '閲覧';
@@ -328,5 +349,11 @@ $string['retractable'] = '格納';
 $string['retractabledescription'] = 'ヘッダをクリックしてこのブロックを格納できるようにするには、このオプションを有効にしてください。';
 $string['retractedonload'] = '自動格納';
 $string['retractedonloaddescription'] = 'このブロックを自動的に格納するには、このオプションを有効にしてください。';
+$string['textbox'] = 'テキストボックス';
+$string['textboxtooltip'] = 'テキストボックスを追加する';
+$string['image'] = 'イメージ';
+$string['imagetooltip'] = '単一イメージを追加する';
+$string['addcontent'] = 'コンテンツを追加する';
+$string['theme'] = 'テーマ';
 
 ?>
