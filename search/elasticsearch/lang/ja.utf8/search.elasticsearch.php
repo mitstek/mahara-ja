@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-08-22 07:03:16 UTC
+ * @updated    2013-08-22 07:05:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -36,6 +36,7 @@ $string['artefacttypemaplegend'] = 'アーティファクトタイプ階層';
 $string['blogpost'] = '日誌タイプ';
 $string['collection'] = 'コレクション';
 $string['confignotset'] = '(未設定)';
+$string['cronlimit'] = 'Cronレコード制限';
 $string['forum'] = 'フォーラム';
 $string['forumpost'] = 'フォーラム投稿';
 $string['forumtopic'] = 'フォーラムトピック';
@@ -49,10 +50,12 @@ $string['page'] = 'ページ';
 $string['pages'] = 'ページ';
 $string['pagetitle'] = '検索';
 $string['password'] = '認証パスワード';
+$string['passwordlength'] = '(パスワード長: %s)';
 $string['port'] = 'イラスティック検索ポート';
 $string['Portfolio'] = 'ポートフォリオ';
 $string['record'] = 'レコード';
 $string['records'] = 'レコード';
+$string['resetallindexes'] = 'すべてのインデックスをリセットする';
 $string['resetlegend'] = 'インデックスリセット';
 $string['resume'] = 'レジュメ';
 $string['tags'] = 'タグ';
