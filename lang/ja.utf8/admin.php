@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-08-20 05:03:26 UTC
+ * @updated    2013-08-22 06:40:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -556,7 +556,7 @@ $string['uploadgroupmemberscsverrornoadminlisted'] = 'あなたのファイル�
 $string['uploadgroupmemberscsverrornosuchshortname'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」が存在しないか、インスティテューション「 %s 」の一部ではありません。';
 $string['uploadgroupmemberscsverrornosuchusername'] = 'あなたのファイルの %s 行目にエラーが発生しました: ユーザ名 (username)「 %s 」は存在しません。';
 $string['uploadgroupmemberscsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーが発生しました: ユーザ名 (username)「 %s 」はインスティテューション「 %s 」に属していません。';
-$string['uploadgroupmemberscsvpagedescription2'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用してこのインスティテューションでコントロールされるグループ内のグループメンバーを更新することができます。</p>
+$string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用してこのインスティテューションでコントロールされるグループ内のグループメンバーを更新することができます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
@@ -566,7 +566,9 @@ p>この行は上記のフィールドすべてを含む必要がありますが
 
 <p>shortnameフィールドには、あなたが<a href="%s" title="%s">ここ</a>でグループを作成した時に使用した名称と同じにする必要があります。</p>
 
-<p>roleフィールドにはグループタイプに応じて次の設定値を使用することができます: <tt>admin</tt>、<tt>member</tt>または<tt>tutor</tt></p>';
+<p>roleフィールドにはグループタイプに応じて次の設定値を使用することができます: <tt>admin</tt>、<tt>member</tt>または<tt>tutor</tt></p>
+
+<div class="warning">すべてのCSVファイルアップロードにより、グループ管理者を含む既存のグループメンバーすべてが完全に削除されます。あなたのCSVファイル内に少なくとも1名の管理者が存在することを確認してください。</div>';
 $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効でないか、Maharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動でコンタクトしてください:';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるため、ユーザは追加されませんでした。許可されたインスティテューションの最大ユーザ数を超えました。';
 $string['updateusers'] = 'ユーザを更新する';
