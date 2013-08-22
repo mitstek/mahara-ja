@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-08-13 17:29:14 UTC
+ * @updated    2013-08-22 06:47:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -98,6 +98,8 @@ $string['viewnotfoundexceptionmessage'] = 'あなたは存在しないページ�
 $string['viewnotfound'] = 'ID %s のページは見つかりませんでした。';
 $string['viewnotfoundbyname'] = 'ページ %s (ユーザ: %s) が見つかりませんでした。';
 $string['youcannotviewthisusersprofile'] = 'あなたはこのユーザのプロファイルを閲覧できません。';
+$string['invalidlayoutselection'] = 'あなたは存在しないレイアウトの選択を試みました!';
+$string['previewimagegenerationfailed'] = '申し訳ございません、プレビューイメージの生成中に問題が発生しました。';
 $string['artefactnotfoundmaybedeleted'] = 'ID %s のアーティファクトは見つかりませんでした (もしかして、削除されましたか?)。';
 $string['artefactnotfound'] = 'ID %s のアーティファクトは見つかりませんでした。';
 $string['artefactnotinview'] = 'アーティファクト %s はページ %s にありません。';
@@ -108,6 +110,7 @@ $string['interactioninstancenotfound'] = 'ID %s の活動インスタンスは�
 $string['invalidviewaction'] = '無効なページコントロール: %s';
 $string['missingparamblocktype'] = '最初に追加するブロックタイプを選択してください。';
 $string['missingparamcolumn'] = 'カラム設定がありません。';
+$string['missingparamrow'] = '行設定がありません。';
 $string['missingparamorder'] = '並び替え順の設定がありません。';
 $string['missingparamid'] = 'IDがありません。';
 $string['themenameinvalid'] = 'テーマ名「 %s 」に無効な文字が含まれています。';
