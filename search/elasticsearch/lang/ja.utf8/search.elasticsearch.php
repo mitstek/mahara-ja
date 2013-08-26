@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-08-26 05:41:37 UTC
+ * @updated    2013-08-26 05:44:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -43,7 +43,7 @@ $string['forumpost'] = 'フォーラム投稿';
 $string['forumtopic'] = 'フォーラムトピック';
 $string['Group'] = 'グループ';
 $string['host'] = 'ホスト';
-$string['hostdescription'] = 'イラスティックサーバのホスト名です。デフォルトは「127.0.0.1」です。';
+$string['hostdescription'] = 'イラスティック検索サーバのホスト名です。デフォルトは「127.0.0.1」です。';
 $string['indexname'] = 'インデックス名';
 $string['indexnamedescription'] = 'イラスティック検索インデックス名です。デフォルトは「mahara」です。';
 $string['license'] = 'ライセンス';
