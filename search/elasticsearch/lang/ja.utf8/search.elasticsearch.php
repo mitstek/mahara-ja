@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-08-29 00:50:58 UTC
+ * @updated    2013-09-02 07:04:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -32,6 +32,7 @@ $string['admin'] = '管理者';
 $string['all'] = 'すべて';
 $string['analyzer'] = 'イラスティック検索アナライザ';
 $string['analyzerdescription'] = '使用するイラスティック検索アナライザクラスです。デフォルトは「mahara_analyzer」です。';
+$string['artefacttypedescription'] = 'あなたがインデックスに含みたいアーティファクトタイプをチェックしてください。階層定義されたアーティファクトタイプのみ有効です。変更を反映させるため、あなたはキュー内のアーティファクトをリセットする必要があります。';
 $string['artefacttypelegend'] = 'アーティファクトタイプ';
 $string['artefacttypemaplegend'] = 'アーティファクトタイプ階層';
 $string['atoz'] = 'A -> Z';
@@ -42,6 +43,7 @@ $string['collection'] = 'コレクション';
 $string['confignotset'] = '(未設定)';
 $string['createdby'] = '作成者: %s';
 $string['cronlimit'] = 'Cronレコード制限';
+$string['cronlimitdescription'] = 'それぞれのcron実行に関して、キューからイラスティックサーバに送られる最大レコード数です (無制限の場合、空白またはゼロにしてください)。';
 $string['dateoldestfirst'] = '日付 (古い順)';
 $string['daterecentfirst'] = '日付 (新しい順)';
 $string['deleted'] = '削除済み';
@@ -81,6 +83,7 @@ $string['tags'] = 'タグ';
 $string['tagsonly'] = 'タグのみ';
 $string['Text'] = 'テキスト';
 $string['types'] = 'イラスティック検索タイプ';
+$string['typesdescription'] = 'インデックスするカンマ区切りのエレメント一覧です。デフォルトは次のとおりです: usr,interaction_instance,interaction_forum_post,group,view,artefact';
 $string['usedonpage'] = 'ページ使用';
 $string['usedonpages'] = 'ページ使用';
 $string['username'] = '認証ユーザ名';
