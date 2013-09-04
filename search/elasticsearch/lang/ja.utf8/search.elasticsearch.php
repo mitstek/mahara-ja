@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-09-02 07:04:49 UTC
+ * @updated    2013-09-04 00:20:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -34,6 +34,7 @@ $string['analyzer'] = 'イラスティック検索アナライザ';
 $string['analyzerdescription'] = '使用するイラスティック検索アナライザクラスです。デフォルトは「mahara_analyzer」です。';
 $string['artefacttypedescription'] = 'あなたがインデックスに含みたいアーティファクトタイプをチェックしてください。階層定義されたアーティファクトタイプのみ有効です。変更を反映させるため、あなたはキュー内のアーティファクトをリセットする必要があります。';
 $string['artefacttypelegend'] = 'アーティファクトタイプ';
+$string['artefacttypemapdescription'] = 'それぞれのアーティファクトタイプに関して、「|」で区切られた階層を入力してください (1行あたり1アーティファクト)。';
 $string['artefacttypemaplegend'] = 'アーティファクトタイプ階層';
 $string['atoz'] = 'A -> Z';
 $string['blogpost'] = '日誌タイプ';
