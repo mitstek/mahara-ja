@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-09-09 06:21:40 UTC
+ * @updated    2013-09-09 06:25:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -78,7 +78,7 @@ $string['record'] = 'レコード';
 $string['records'] = 'レコード';
 $string['relevance'] = '関連性';
 $string['resetallindexes'] = 'すべてのインデックスをリセットする';
-$string['resetdescription'] = 'このテーブルでは、Elasticsearchサーバに送信するためにキューに入っているそれぞれのタイプの現在のレコード数を表示しています。アイテムは検索プラグインのcronタスクが実行されるたびに、Elasticsearchサーバに送信されます (5分ごと)。検索インデックスをリセット、すべてのレコードを削除、そしてレコードを再度キューに入れるには、下のボタンをクリックしてください。';
+$string['resetdescription'] = 'このテーブルでは、Elasticsearchサーバに送信するためにキューに入れられているそれぞれのタイプの現在のレコード数を表示しています。アイテムは検索プラグインのcronタスクが実行されるたびに、Elasticsearchサーバに送信されます (5分ごと)。検索インデックスをリセット、すべてのレコードを削除、そしてレコードを再度キューに入れるには、下のボタンをクリックしてください。';
 $string['resetlegend'] = 'インデックスリセット';
 $string['resume'] = 'レジュメ';
 $string['sortby'] = '並べ替え';
