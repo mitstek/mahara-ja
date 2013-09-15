@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-08-21 04:40:21 UTC
+ * @updated    2013-09-15 22:02:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -236,10 +236,10 @@ $string['changeviewlayout'] = 'マイページのカラムレイアウトを変�
 $string['viewlayoutchanged'] = 'ページレイアウトが変更されました。';
 $string['numberofcolumns'] = 'カラム数';
 $string['changecolumnlayoutfailed'] = 'カラムレイアウトを変更できませんでした。同時に他のユーザがレイアウトを編集したようです。';
-$string['changerowlayoutfailed'] = '列のレイアウトを変更できませんでした。同時に他のユーザがレイアウトを編集している可能性があります。後で再度お試しください。';
-$string['Row'] = '列';
-$string['addarow'] = '列を追加する';
-$string['removethisrow'] = 'この列を削除する';
+$string['changerowlayoutfailed'] = '行のレイアウトを変更できませんでした。同時に他のユーザがレイアウトを編集している可能性があります。後で再度お試しください。';
+$string['Row'] = '行';
+$string['addarow'] = '行を追加する';
+$string['removethisrow'] = 'この行を削除する';
 $string['columnlayout'] = 'カラムレイアウト';
 $string['layoutpreview'] = 'レイアウトプレビュー';
 $string['Help'] = 'ヘルプ';
