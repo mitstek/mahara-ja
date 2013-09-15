@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-09-10 18:39:34 UTC
+ * @updated    2013-09-15 22:55:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -40,9 +40,21 @@ $string['ldapfieldforfirstname'] = '名のLDAPフィールド';
 $string['ldapfieldforsurname'] = '姓のLDAPフィールド';
 $string['ldapfieldforstudentid'] = '学生IDのLDAPフィールド';
 $string['ldapversion'] = 'LDAPバージョン';
+$string['nocreate'] = '新しいアカウントを作成しない';
 $string['starttls'] = 'TLS暗号化';
 $string['password'] = 'パスワード';
 $string['searchsubcontexts'] = 'サブコンテクストを検索する';
+$string['syncgroupsautocreate'] = '未作成のグループを自動作成する';
+$string['syncgroupsgroupattribute'] = 'グループ属性';
+$string['syncgroupsgroupclass'] = 'グループクラス';
+$string['syncgroupsmemberattribute'] = 'グループメンバー属性';
+$string['syncgroupssettings'] = 'グループ同期';
+$string['syncuserscreate'] = 'cronでユーザを自動作成する';
+$string['syncuserssettings'] = 'ユーザ同期';
+$string['syncusersupdate'] = 'cronでユーザを情報を更新する';
+$string['syncusersgonefromldapdonothing'] = '何もしない';
+$string['syncusersgonefromldapsuspend'] = 'ユーザアカウントを利用停止する';
+$string['syncusersgonefromldapdelete'] = 'ユーザアカウントおよびコンテンツすべてを削除する';
 $string['userattribute'] = 'ユーザ属性';
 $string['usertype'] = 'ユーザタイプ';
 $string['weautocreateusers'] = 'こちらでユーザを自動作成する';
