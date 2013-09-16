@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-09-15 22:02:55 UTC
+ * @updated    2013-09-16 11:07:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -186,6 +186,7 @@ $string['viewsavedsuccessfully'] = 'ページが正常に保存されました�
 $string['updatedaccessfornumviews'] = '%d ページのアクセスルールが更新されました。';
 $string['invalidcolumn'] = 'カラム %s は範囲外です。';
 $string['confirmcancelcreatingview'] = 'このページの作成は完了していません。本当にキャンセルしてもよろしいですか?';
+$string['groupviewurltaken'] = 'このURIのページはすでに存在しています。';
 $string['editblockspagedescription'] = '<p>以下のタブより選択してブロックをドラッグ&ドロップすることで、あなたのページを作成します。</p>';
 $string['displayview'] = 'ページを表示する';
 $string['editthisview'] = 'このページを編集する';
