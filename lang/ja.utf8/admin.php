@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-08-22 06:40:46 UTC
+ * @updated    2013-09-18 01:16:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -759,7 +759,7 @@ $string['authenticatedbydescription'] = 'このユーザに関するMaharaへの
 $string['remoteusername'] = '外部認証のユーザ名';
 $string['remoteusernamedescription1'] = '外部認証プラグインを使用して、ユーザがリモートサイトから %s にログインした場合、これはリモートサイトのユーザを識別するユーザ名となります。';
 $string['institutionsettings'] = 'インスティテューション設定';
-$string['institutionsettingsdescription'] = 'ここであなたはシステム内にある、このユーザのインスティテューションメンバーシップ設定を変更することができます。';
+$string['institutionsettingsdescription'] = 'あなたが管理者をしているインスティテューションに関して、このユーザのメンバーシップ設定を変更することができます。';
 $string['changeinstitution'] = 'インスティテューションを変更する';
 $string['institutionstaff'] = 'インスティテューションスタッフ';
 $string['institutionadmins'] = 'インスティテューション管理者';
