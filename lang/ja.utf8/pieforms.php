@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-02-17 06:35:30 UTC
+ * @updated    2013-09-21 03:40:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -44,6 +44,8 @@ $string['element.expiry.months'] = '月';
 $string['element.expiry.years'] = '年';
 $string['element.expiry.noenddate'] = '終了日なし';
 $string['element.select.other'] = 'その他';
+$string['element.color.or'] = 'または';
+$string['element.color.transparent'] = '透明';
 $string['rule.before.before'] = 'フィールド「 %s 」の後に設定することはできません';
 $string['rule.email.email'] = 'メールアドレスが有効ではありません';
 $string['rule.integer.integer'] = 'フィールドは整数にしてください';
