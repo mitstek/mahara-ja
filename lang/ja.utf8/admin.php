@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-09-18 01:16:56 UTC
+ * @updated    2013-09-23 17:19:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -87,10 +87,14 @@ $string['editsitepagesdescription'] = 'サイト内の様々なページコン�
 $string['menus'] = 'メニュー';
 $string['menusdescription'] = '「リンクおよびリソースメニュー」およびフッタメニュー内のリンクおよびファイルを管理します。';
 $string['sitefiles'] = 'サイトファイル';
+$string['sitefonts'] = 'フォント';
+$string['sitefontsdescription'] = 'サイト内のユーザすべてが使用できるフォントをアップロードおよび管理します。';
 $string['sitelicenses'] = 'ライセンス';
 $string['sitelicensesdescription'] = 'ユーザがコンテンツに使用できるライセンス一覧を設定します。';
 $string['sitelicensesdisablednote'] = '<b>注意</b>: 現在、ライセンスメタデータは無効にされています。ユーザがライセンスを指定できるようにするには、あなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「一般設定」セクションにて、ライセンスメタデータを有効にする必要があります。';
 $string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトページに置くことのできるファイルをアップロードおよび管理します。';
+$string['siteskins'] = 'サイトスキン';
+$string['siteskinsdescription'] = 'サイト内のユーザすべてが使用できるページスキンを作成および管理します。';
 $string['siteviews'] = 'サイトページ';
 $string['siteviewsdescription'] = 'サイト全体のページおよびページテンプレートを作成および管理します。';
 $string['networking'] = 'ネットワーキング';
@@ -331,6 +335,8 @@ $string['sitenamedescription'] = 'サイト名はサイトおよびサイトか�
 $string['siteoptionspagedescription'] = 'ここではサイト全体にデフォルトとして適用されるグローバルオプションを設定することができます。<br />注意:無効にされたオプションはあなたのconfig.phpファイルによりオーバーライドされます。';
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['sitethemedescription'] = 'サイトのデフォルトテーマ - あなたのテーマが表示されていない場合、エラーログをご確認ください。';
+$string['skins'] = 'ページスキン';
+$string['skinsinstitutiondescription'] = 'このインスティテューションのユーザがページに「スキン」を設定できるようにします。';
 $string['smallviewheaders'] = 'スモールページヘッダ';
 $string['smallviewheadersdescription'] = 'チェックした場合、ユーザ作成によるポートフォリオページの閲覧または編集時、ブロック内にスモールヘッダおよびサイトナビゲーションが表示されます。';
 $string['spamhaus'] = 'Spamhaus URIブラックリストを有効にする';
