@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-09-23 17:32:44 UTC
+ * @updated    2013-09-25 04:35:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -49,10 +49,13 @@ $string['syncgroupscron'] = 'cronジョブ経由でグループを自動同期�
 $string['syncgroupsexcludelist'] = 'これらの名称のLDAPグループを除く';
 $string['syncgroupsgroupattribute'] = 'グループ属性';
 $string['syncgroupsgroupclass'] = 'グループクラス';
+$string['syncgroupsgrouptype'] = '自動作成グループのロールタイプ';
 $string['syncgroupsincludelist'] = 'これらの名称のLDAPグループを含む';
 $string['syncgroupsmemberattribute'] = 'グループメンバー属性';
+$string['syncgroupsmemberattributeisdn'] = 'メンバー属性はDNですか?';
 $string['syncgroupsnestedgroups'] = 'ネストグループを処理する';
 $string['syncgroupssettings'] = 'グループ同期';
+$string['syncgroupsuserattribute'] = 'グループ名が保存されるユーザ属性';
 $string['syncgroupsusergroupnames'] = 'これらのグループ名のみ';
 $string['syncuserscreate'] = 'cronジョブ経由でユーザを自動作成する';
 $string['syncuserscron'] = 'cronジョブ経由でユーザを自動同期する';
