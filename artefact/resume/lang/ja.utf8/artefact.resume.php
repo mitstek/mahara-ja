@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-07-16 22:28:02 UTC
+ * @updated    2013-09-26 22:57:28 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -34,6 +34,7 @@ $string['educationandemployment'] = '教育 & 雇用';
 $string['achievements'] = '業績';
 $string['goals'] = 'ゴール';
 $string['skills'] = 'スキル';
+$string['goalsandskills'] = 'ゴールおよびスキル';
 $string['interests'] = '興味';
 $string['license'] = 'ライセンス';
 $string['mygoals'] = 'マイゴール';
@@ -95,5 +96,12 @@ $string['viewyourresume'] = 'あなたのレジュメを表示する';
 $string['resumeofuser'] = '%s のレジュメ';
 $string['employeraddress'] = '雇用主住所';
 $string['institutionaddress'] = 'インスティテューション住所';
+$string['attachfile'] = '添付ファイル';
+$string['Attachments'] = '添付';
+$string['attachmentdesc'] = '%s の添付';
+$string['nodescription'] = '(説明なし)';
+$string['cannotfindcreateartefact'] = '見つからない、またはアーティファクトを作成できません。';
+$string['duplicateattachment'] = 'すでにこのセクションの別のエントリにファイル「 %s 」が使用されています。あなたは同一ファイルを2度使用することはできません。';
+$string['duplicateattachments'] = 'すでにこのセクションの別のエントリにファイル「 %s 」が使用されています。あなたは同一ファイルを2度使用することはできません。';
 
 ?>
