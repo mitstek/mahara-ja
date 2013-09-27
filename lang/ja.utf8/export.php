@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-03-14 16:35:31 UTC
+ * @updated    2013-09-26 23:54:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -65,7 +65,7 @@ $string['couldnotcreatestaticdirectory'] = '静的ディレクトリ「 %s 」�
 $string['couldnotcopystaticfile'] = '静的ファイル「 %s 」をコピーできませんでした。';
 $string['couldnotcopyattachment'] = '添付「 %s 」をコピーできませんでした。';
 $string['couldnotcopyfilesfromto'] = 'ディレクトリ「 %s 」から「 %s 」にファイルをコピーできませんでした。';
-$string['couldnotwriteLEAPdata'] = 'ファイルにLEAPデータを書き込めませんでした。';
+$string['couldnotwriteLEAPdata'] = 'ファイルにLeap2Aデータを書き込めませんでした。';
 $string['pleasewaitwhileyourexportisbeinggenerated'] = 'あなたのエクスポートを生成しています。お待ちください ...';
 $string['reverseselection'] = 'すべての選択を解除する';
 $string['selectall'] = 'すべてを選択する';
