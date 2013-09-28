@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-09-25 04:35:45 UTC
+ * @updated    2013-09-28 11:58:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -45,6 +45,10 @@ $string['starttls'] = 'TLS暗号化';
 $string['password'] = 'パスワード';
 $string['searchsubcontexts'] = 'サブコンテクストを検索する';
 $string['syncgroupsautocreate'] = '未作成のグループを自動作成する';
+$string['syncgroupsbyclass'] = 'LDAPオブジェクトとして保存されているグループを同期する';
+$string['syncgroupsbyuserfield'] = 'ユーザ属性として保存されているグループを同期する';
+$string['syncgroupscontexts'] = 'これらのコンテクストのみ同期する';
+$string['syncgroupscontextsdesc'] = 'ユーザ認証コンテクストをデフォルトとするには、空白のままにしてください。';
 $string['syncgroupscron'] = 'cronジョブ経由でグループを自動同期する';
 $string['syncgroupsexcludelist'] = 'これらの名称のLDAPグループを除く';
 $string['syncgroupsgroupattribute'] = 'グループ属性';
@@ -57,6 +61,7 @@ $string['syncgroupsnestedgroups'] = 'ネストグループを処理する';
 $string['syncgroupssettings'] = 'グループ同期';
 $string['syncgroupsuserattribute'] = 'グループ名が保存されるユーザ属性';
 $string['syncgroupsusergroupnames'] = 'これらのグループ名のみ';
+$string['syncgroupsusergroupnamesdesc'] = 'すべての値を受け入れるには、空白のままにしてください。グループ名はカンマで区切ってください。';
 $string['syncuserscreate'] = 'cronジョブ経由でユーザを自動作成する';
 $string['syncuserscron'] = 'cronジョブ経由でユーザを自動同期する';
 $string['syncusersextrafilterattribute'] = '同期のための追加LDAPフィルタ';
