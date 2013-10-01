@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-09-10 18:34:34 UTC
+ * @updated    2013-10-01 01:21:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -33,6 +33,7 @@ $string['sitefilesloaded'] = 'サイトファイルが読み込まれました�
 $string['addafile'] = 'ファイルを追加する';
 $string['archive'] = 'アーカイブ';
 $string['bytes'] = 'バイト';
+$string['cannotviewfolder'] = 'あなたにはこのフォルダのコンテンツを閲覧するパーミッションがありません。';
 $string['cannoteditfolder'] = 'あなたにはこのフォルダにコンテンツを追加するパーミッションがありません。';
 $string['cannoteditfoldersubmitted'] = 'あなたは送信済みページのフォルダにコンテンツを追加できません。';
 $string['cannotremovefromsubmittedfolder'] = 'あなたは送信済みページのフォルダからコンテンツを削除できません。';
