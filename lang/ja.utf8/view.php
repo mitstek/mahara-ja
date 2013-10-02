@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-09-16 11:07:11 UTC
+ * @updated    2013-10-02 01:14:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -179,6 +179,7 @@ $string['canteditdontown'] = 'あなたの所有ではないため、このペ�
 $string['canteditsubmitted'] = '%s による評価を目的として送信されたため、あなたはこのページを編集することはできません。あなたのページをチューターがリリースするまで、お待ちください。';
 $string['Submitted'] = '送信済み';
 $string['submittedforassessment'] = '評価のため送信済み';
+$string['blocknotinview'] = 'ID「 %d 」のブロックはページにありません。';
 $string['viewcreatedsuccessfully'] = 'ページが正常に作成されました。';
 $string['viewaccesseditedsuccessfully'] = 'ページアクセスが正常に保存されました。';
 $string['viewsavedsuccessfully'] = 'ページが正常に保存されました。';
