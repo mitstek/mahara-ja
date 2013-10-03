@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-07-21 19:40:47 UTC
+ * @updated    2013-10-03 07:38:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -144,5 +144,9 @@ $string['hiddenblogsnotification'] = '新たに日誌が作成されましたが
 $string['shortcutaddpost'] = '新しいエントリを追加する:';
 $string['shortcutgo'] = 'Go';
 $string['shortcutnewentry'] = '新しいエントリ';
+$string['duplicatedblog'] = '複製日誌';
+$string['existingblogs'] = '既存日誌';
+$string['duplicatedpost'] = '複製日誌エントリ';
+$string['existingposts'] = '既存日誌エントリ';
 
 ?>
