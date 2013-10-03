@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-05-15 22:04:23 UTC
+ * @updated    2013-10-03 01:32:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -147,6 +147,7 @@ $string['iframeurldescription'] = 'iframeソースURI (http:// なし) の先頭
 $string['iframedisplaynamedescription'] = 'ユーザに表示されるサイト名です。';
 $string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含むことができます。';
 $string['iframeiconhost'] = 'アイコンホスト';
+$string['urlalreadyexists'] = 'このURIはすでに存在します。あなたは2度追加することはできません。';
 $string['iframeiconhostdescription'] = '必要であれば、あなたはファビコン (favicon) イメージ用の異なるホストを指定することができます。同一名称のサイトすべてに対して、このアイコンが使用されます。';
 $string['cleanurls'] = 'クリーンURI';
 $string['cleanurlsdescription'] = '<p>ユーザプロファイル、グループホームページおよびポートフォリオページに関して、人間が解読可能なURIを使用して、あなたのサイトを設定することができます。例えば、下記のようになります:
