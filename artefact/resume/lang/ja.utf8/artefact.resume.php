@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-09-26 22:57:28 UTC
+ * @updated    2013-10-04 05:14:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -96,6 +96,8 @@ $string['viewyourresume'] = 'あなたのレジュメを表示する';
 $string['resumeofuser'] = '%s のレジュメ';
 $string['employeraddress'] = '雇用主住所';
 $string['institutionaddress'] = 'インスティテューション住所';
+$string['duplicatedresumefieldvalue'] = '複製値';
+$string['existingresumefieldvalues'] = '既存値';
 $string['attachfile'] = '添付ファイル';
 $string['Attachments'] = '添付';
 $string['attachmentdesc'] = '%s の添付';

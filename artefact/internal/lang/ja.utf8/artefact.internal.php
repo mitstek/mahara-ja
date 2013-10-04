@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-09-26 23:01:00 UTC
+ * @updated    2013-10-04 05:13:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -122,5 +122,7 @@ $string['confirmdeletenote'] = 'このノートは %d ブロックおよび %d �
 $string['notedeleted'] = 'ノートが削除されました。';
 $string['noteupdated'] = 'ノートが更新されました。';
 $string['html'] = 'ノート';
+$string['duplicatedprofilefieldvalue'] = '複製値';
+$string['existingprofilefieldvalues'] = '既存値';
 
 ?>

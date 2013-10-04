@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-06-28 01:46:50 UTC
+ * @updated    2013-10-04 05:14:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -71,5 +71,10 @@ $string['Task'] = 'タスク';
 $string['tasks'] = 'タスク';
 $string['taskdeletedsuccessfully'] = 'タスクが正常に削除されました。';
 $string['tasksavedsuccessfully'] = 'タスクが正常に保存されました。';
+$string['ntasks'] = '%s タスク';
+$string['duplicatedplan'] = '複製プラン';
+$string['existingplans'] = '既存プラン';
+$string['duplicatedtask'] = '複製タスク';
+$string['existingtasks'] = '既存タスク';
 
 ?>
