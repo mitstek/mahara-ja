@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-10-04 05:24:45 UTC
+ * @updated    2013-10-04 05:29:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -56,7 +56,9 @@ $string['currentskin'] = '現在のスキン';
 $string['skintitle'] = 'スキンタイトル';
 $string['skindescription'] = 'スキン説明';
 $string['skinaccessibility'] = 'スキンアクセシビリティ';
+$string['backgroundfixed'] = '固定';
 $string['backgroundscroll'] = 'スクロール';
+$string['viewwidth'] = 'ページ幅';
 $string['textfontfamily'] = 'テキストフォント';
 $string['fontsize'] = 'フォントサイズ';
 $string['headerlogoimage'] = 'Maharaロゴイメージ';
@@ -84,6 +86,7 @@ $string['fontname'] = 'フォント名';
 $string['fontstyle'] = 'フォントスタイル';
 $string['bold'] = '太字';
 $string['italic'] = 'イタリック';
+$string['bolditalic'] = '太字イタリック';
 $string['fonttype'] = 'フォントタイプ';
 $string['fontfiles'] = 'フォントファイル';
 $string['fontfilesvg'] = 'SVGフォントファイル';
