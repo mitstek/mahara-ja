@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-05 21:06:17 UTC
+ * @updated    2013-10-09 04:32:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -28,7 +28,7 @@
 
 defined('INTERNAL') || die();
 
-$string['title'] = 'あなたのレジュメ全体';
+$string['title1'] = '私のレジュメ全体';
 $string['description'] = 'あなたのレジュメ全体を表示する素早い方法です。';
 $string['History'] = '履歴';
 
