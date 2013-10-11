@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-10-04 05:29:42 UTC
+ * @updated    2013-10-11 07:28:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -53,15 +53,33 @@ $string['siteskins'] = 'サイトスキン';
 $string['userskins'] = 'マイスキン';
 $string['publicskins'] = 'パブリックスキン';
 $string['currentskin'] = '現在のスキン';
+$string['noskin'] = 'スキンなし';
+$string['skingeneraloptions'] = '一般';
+$string['skinbackgroundoptions'] = 'スキン背景';
+$string['viewbackgroundoptions'] = 'ページ背景';
+$string['viewheaderoptions'] = 'ページヘッダ';
+$string['viewcontentoptions'] = 'ページフォントおよび色';
+$string['viewtableoptions'] = 'ページテーブルおよびボタン';
 $string['skintitle'] = 'スキンタイトル';
 $string['skindescription'] = 'スキン説明';
 $string['skinaccessibility'] = 'スキンアクセシビリティ';
+$string['Untitled'] = 'タイトルなし';
+$string['backgroundcolor'] = '背景色';
+$string['bodybgcolor'] = 'スキン背景色';
+$string['viewbgcolor'] = 'ページ背景色';
+$string['textcolor'] = 'テキスト色';
+$string['headingcolor'] = 'ヘッディングテキスト色';
 $string['backgroundfixed'] = '固定';
 $string['backgroundscroll'] = 'スクロール';
 $string['viewwidth'] = 'ページ幅';
 $string['textfontfamily'] = 'テキストフォント';
+$string['headingfontfamily'] = 'ヘッディングフォント';
 $string['fontsize'] = 'フォントサイズ';
 $string['headerlogoimage'] = 'Maharaロゴイメージ';
+$string['headerlogoimagenormal'] = 'デフォルトテーマロゴ';
+$string['tableheader'] = 'ヘッダ背景色';
+$string['tableheadertext'] = 'ヘッダテキスト色';
+$string['buttontextcolor'] = 'ボタンテキスト色';
 $string['skincustomcss'] = 'カスタムCSS';
 $string['chooseviewskin'] = 'ページスキンを選択する';
 $string['chooseskin'] = 'スキンを選択する';
@@ -88,7 +106,10 @@ $string['bold'] = '太字';
 $string['italic'] = 'イタリック';
 $string['bolditalic'] = '太字イタリック';
 $string['fonttype'] = 'フォントタイプ';
+$string['headingandtext'] = 'ヘッディングおよびテキスト';
+$string['headingonly'] = 'ヘッディングのみ';
 $string['fontfiles'] = 'フォントファイル';
+$string['notvalidfontfile'] = 'これは有効な %s フォントファイルではありません。';
 $string['fontfilesvg'] = 'SVGフォントファイル';
 $string['fontfilettf'] = 'TTFフォントファイル';
 $string['fontfilewoff'] = 'WOFFフォントファイル';
