@@ -1,0 +1,11 @@
+<h3>LDAPオブジェクトとして保存されているグループを同期する</h3>
+<p>あなたのグループがLDAP内でスタンドアロンレコードとして保存されている場合、このオプションを有効にしてください。</p>
+<p>例:</p>
+<pre>
+dn: cn=languagestudents,ou=groups,dc=mahara,dc=org
+objectClass: groupOfUniqueNames
+cn: languagestudents
+uniqueMember: uid=user1,dc=mahara,dc=org
+uniqueMember: uid=user2,dc=mahara,dc=org
+uniqueMember: cn=frenchclass,ou=groups,dc=mahara,dc=org
+</pre>
