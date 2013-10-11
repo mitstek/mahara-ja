@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-09-27 00:05:29 UTC
+ * @updated    2013-10-11 05:38:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -99,6 +99,7 @@ $string['viewnotfound'] = 'ID %s のページは見つかりませんでした�
 $string['viewnotfoundbyname'] = 'ページ %s (ユーザ: %s) が見つかりませんでした。';
 $string['youcannotviewthisusersprofile'] = 'あなたはこのユーザのプロファイルを閲覧できません。';
 $string['invalidlayoutselection'] = 'あなたは存在しないレイアウトの選択を試みました!';
+$string['invalidnumrows'] = 'あなたは許可された最大行以上のレイアウトの作成を試みました (これは可能であるべきではありません。あなたのサイト管理者にご連絡ください)。';
 $string['previewimagegenerationfailed'] = '申し訳ございません、プレビューイメージの生成中に問題が発生しました。';
 $string['artefactnotfoundmaybedeleted'] = 'ID %s のアーティファクトは見つかりませんでした (もしかして、削除されましたか?)。';
 $string['artefactnotfound'] = 'ID %s のアーティファクトは見つかりませんでした。';
