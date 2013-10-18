@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-10-18 05:46:21 UTC
+ * @updated    2013-10-18 05:49:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,9 +19,9 @@ $string['notusable'] = 'PHP LDAP拡張モジュールをインストールして
 $string['attributename'] = '値を基にグループを同期する場合に使用するLDAP属性名です (必須および大文字小文字を区別します)。';
 $string['cannotdeleteandsuspend'] = '同時に -d および -s を指定することはできません。';
 $string['cli_info_sync_groups'] = 'このコマンドラインPHPスクリプトはLDAPディレクトリとグループのインスティテューションリストの同期を試みます。
-存在しないグループは作成されて、「インスティテューション名 : LDAP属性値」のような名称になります。';
+存在しないグループは作成され、「インスティテューション名 : LDAP属性値」のような名称になります。';
 $string['cli_info_sync_groups_attribute'] = 'このコマンドラインPHPスクリプトはLDAP属性の異なる値を基にLDAPディレクトリとグループのインスティテューションリストの同期を試みます。
-存在しないグループは作成されて、「インスティテューション名 : LDAP属性値」のような名称になります。';
+存在しないグループは作成され、「インスティテューション名 : LDAP属性値」のような名称になります。';
 $string['cli_info_sync_users'] = 'このコマンドラインPHPスクリプトはLDAPディレクトリとMaharaアカウントのインスティテューションリストの同期を試みます。';
 $string['contexts'] = 'コンテクスト';
 $string['distinguishedname'] = '識別名';
