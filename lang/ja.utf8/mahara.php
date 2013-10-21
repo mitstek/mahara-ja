@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-09-25 00:48:42 UTC
+ * @updated    2013-10-21 22:57:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -295,7 +295,7 @@ $string['accountinactivewarninghtml'] = '<p>%s さん</p>
 <p>サイトにログインすることで、あなたのアカウントが無効になることを防ぐことができます。</p>
 
 <p>%s サイト管理者</p>';
-$string['accountsuspended'] = '%s 現在、あなたのアカウントは利用停止されています。あなたの利用停止理由は:<blockquote>%s</blockquote>';
+$string['accountsuspended'] = '%s 現在、あなたのアカウントは利用停止されています。<br />あなたの利用停止理由は: %s';
 $string['youraccounthasbeensuspended'] = 'あなたのアカウントが利用停止されました。';
 $string['youraccounthasbeenunsuspended'] = 'あなたのアカウントの利用停止が解除されました。';
 $string['changepasswordinfo'] = '開始する前に、あなたはパスワードを変更する必要があります。';
