@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-10-04 05:14:59 UTC
+ * @updated    2013-10-21 21:40:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -55,7 +55,7 @@ $string['bookurl'] = 'URI';
 $string['notvalidurl'] = '有効なURIではありません。';
 $string['employer'] = '雇用主';
 $string['jobtitle'] = '職名';
-$string['jobdescription'] = 'ポジション説明';
+$string['positiondescription'] = 'ポジション説明';
 $string['institution'] = 'インスティテューション';
 $string['qualtype'] = '資格タイプ';
 $string['qualname'] = '資格名';
