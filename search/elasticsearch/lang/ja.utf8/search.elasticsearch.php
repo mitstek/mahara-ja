@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-09-09 06:25:29 UTC
+ * @updated    2013-10-22 22:25:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -62,6 +62,7 @@ $string['Portfolio'] = 'ポートフォリオ';
 $string['record'] = 'レコード';
 $string['records'] = 'レコード';
 $string['relevance'] = '関連性';
+$string['reset'] = 'リセット';
 $string['resetallindexes'] = 'すべてのインデックスをリセットする';
 $string['resetdescription'] = 'このテーブルでは、Elasticsearchサーバに送信するためにキューに入れられているそれぞれのタイプの現在のレコード数を表示しています。アイテムは検索プラグインのcronタスクが実行されるたびに、Elasticsearchサーバに送信されます (5分ごと)。検索インデックスをリセット、すべてのレコードを削除、そしてレコードを再度キューに入れるには、下のボタンをクリックしてください。';
 $string['resetlegend'] = 'インデックスリセット';
