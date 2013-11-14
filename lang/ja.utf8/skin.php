@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-10-11 07:28:39 UTC
+ * @updated    2013-11-14 06:02:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -23,6 +23,7 @@ $string['deletespecifiedskin'] = 'スキン「 %s 」を削除する';
 $string['deleteskinconfirm'] = '本当にこのスキンを削除してもよろしいですか? 元に戻すことはできません。';
 $string['importskins'] = 'スキンをインポートする';
 $string['validxmlfile'] = '有効なXMLファイル';
+$string['notvalidxmlfile'] = 'アップロードされたファイルは有効なXMLファイルではありません。';
 $string['import'] = 'インポート';
 $string['exportthisskin'] = 'このスキンをエクスポートする';
 $string['exportskins'] = 'スキンをエクスポートする';
@@ -30,12 +31,18 @@ $string['createskin'] = 'スキンを作成する';
 $string['editskin'] = 'スキンを編集する';
 $string['skinsaved'] = 'スキンが正常に保存されました。';
 $string['skinimported'] = 'スキンが正常にインポートされました。';
+$string['addtofavorites'] = 'お気に入りに追加する';
+$string['removefromfavorites'] = 'お気に入りから削除する';
+$string['skinaddedtofavorites'] = 'お気に入りにスキンが追加されました。';
+$string['skinremovedfromfavorites'] = 'お気に入りからスキンが削除されました。';
+$string['cantremoveskinfromfavorites'] = 'お気に入りからスキンを削除できません。';
 $string['noskins'] = 'スキンがありません。';
 $string['skin'] = 'スキン';
 $string['skins'] = 'スキン';
 $string['allskins'] = 'すべてのスキン';
 $string['siteskins'] = 'サイトスキン';
 $string['userskins'] = 'マイスキン';
+$string['favoriteskins'] = 'お気に入りスキン';
 $string['publicskins'] = 'パブリックスキン';
 $string['currentskin'] = '現在のスキン';
 $string['noskin'] = 'スキンなし';
@@ -54,16 +61,25 @@ $string['bodybgcolor'] = 'スキン背景色';
 $string['viewbgcolor'] = 'ページ背景色';
 $string['textcolor'] = 'テキスト色';
 $string['headingcolor'] = 'ヘッディングテキスト色';
+$string['bodybgimage'] = 'スキン背景イメージ';
+$string['viewbgimage'] = 'ページ背景イメージ';
 $string['backgroundfixed'] = '固定';
 $string['backgroundscroll'] = 'スクロール';
 $string['viewwidth'] = 'ページ幅';
 $string['textfontfamily'] = 'テキストフォント';
 $string['headingfontfamily'] = 'ヘッディングフォント';
 $string['fontsize'] = 'フォントサイズ';
-$string['headerlogoimage'] = 'Maharaロゴイメージ';
 $string['headerlogoimagenormal'] = 'デフォルトテーマロゴ';
+$string['normallinkcolor'] = '通常リンク色';
+$string['hoverlinkcolor'] = 'ハイライトリンク色';
+$string['linkunderlined'] = '下線リンク';
+$string['tableborder'] = 'テーブル枠線色';
 $string['tableheader'] = 'ヘッダ背景色';
 $string['tableheadertext'] = 'ヘッダテキスト色';
+$string['tableoddrows'] = '奇数行の背景色';
+$string['tableevenrows'] = '偶数行の背景色';
+$string['normalbuttoncolor'] = '通常ボタン色';
+$string['hoverbuttoncolor'] = 'ハイライトボタン色';
 $string['buttontextcolor'] = 'ボタンテキスト色';
 $string['skincustomcss'] = 'カスタムCSS';
 $string['chooseviewskin'] = 'ページスキンを選択する';
@@ -85,6 +101,7 @@ $string['deletefont'] = 'フォントを削除する';
 $string['deletespecifiedfont'] = 'フォント「 %s 」を削除する';
 $string['deletefontconfirm'] = '本当にこのフォントを削除してもよろしいですか? 元に戻すことはできません。';
 $string['fontdeleted'] = 'フォントが削除されました。';
+$string['cantdeletefont'] = 'あなたはこのフォントを削除できません。';
 $string['fontname'] = 'フォント名';
 $string['fontstyle'] = 'フォントスタイル';
 $string['bold'] = '太字';
@@ -109,8 +126,11 @@ $string['preview'] = 'プレビュー';
 $string['samplesize'] = 'サイズ';
 $string['sampletext'] = 'テキスト';
 $string['samplefonttitle'] = 'フォント名';
+$string['sampletitle19'] = '句読点';
+$string['installgwfont'] = 'Googleフォントをインストールする';
 $string['gwfzipfile'] = '有効なZIPファイル';
 $string['fontlicence'] = 'フォントライセンス';
 $string['fontsort.alpha'] = 'アルファベット';
+$string['fontsort.style'] = 'スタイル数';
 
 ?>
