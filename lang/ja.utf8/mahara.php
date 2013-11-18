@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-08-06 04:11:02 UTC
+ * @updated    2013-11-18 06:40:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -574,7 +574,7 @@ $string['nodeletepermission'] = 'あなたにはこのアーティファクト�
 $string['noeditpermission'] = 'あなたにはこのアーティファクトを編集するパーミッションがありません。';
 $string['Permissions'] = 'パーミッション';
 $string['republish'] = '公開';
-$string['view'] = '表示';
+$string['view'] = 'ページ';
 $string['artefactnotpublishable'] = 'アーティファクト %s はページ %s で公開できません。';
 $string['nopublishpermissiononartefact'] = 'あなたには %s を公開するパーミッションがありません。';
 $string['belongingto'] = '所属';
