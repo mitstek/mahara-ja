@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-11-14 05:55:26 UTC
+ * @updated    2013-11-18 06:28:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -534,7 +534,7 @@ $string['confirminvitation'] = '招待を承認する';
 $string['joininstitution'] = 'インスティテューションに参加する';
 $string['decline'] = '拒否';
 $string['requestmembershipofaninstitution'] = 'インスティテューションメンバーシップのリクエスト';
-$string['optionalinstitutionid'] = 'インスティテューションID (任意)';
+$string['optionalinstitutionid'] = 'インスティテューションID';
 $string['institutionmemberconfirmsubject'] = 'インスティテューションメンバーシップの承認';
 $string['institutionmemberconfirmmessage'] = 'あなたは %s にメンバーとして追加されました。';
 $string['institutionmemberrejectsubject'] = 'インスティテューションメンバーシップのリクエストが拒否されました。';
