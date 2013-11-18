@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-11-12 16:07:34 UTC
+ * @updated    2013-11-18 06:47:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -323,7 +323,6 @@ $string['siteoptionsset'] = 'サイトオプションが更新されました。
 $string['sitethemedescription'] = 'サイトのデフォルトテーマ - あなたのテーマが表示されていない場合、エラーログをご確認ください。';
 $string['skins'] = 'ページスキン';
 $string['skinsinstitutiondescription'] = 'このインスティテューションのユーザがページに「スキン」を設定できるようにします。';
-$string['skinssitedescription'] = 'サイトユーザがページに「スキン」を設定できるようにします。';
 $string['smallviewheaders'] = 'スモールページヘッダ';
 $string['smallviewheadersdescription'] = 'チェックした場合、ユーザ作成によるポートフォリオページの閲覧または編集時、ブロック内にスモールヘッダおよびサイトナビゲーションが表示されます。';
 $string['spamhaus'] = 'Spamhaus URIブラックリストを有効にする';

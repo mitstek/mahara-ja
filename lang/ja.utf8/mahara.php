@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-11-18 06:28:52 UTC
+ * @updated    2013-11-18 06:37:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -591,7 +591,7 @@ $string['noeditpermission'] = 'あなたにはこのアーティファクトを�
 $string['cantbedeleted'] = 'このアーティファクトまたはサブアーティファクトが送信済みページにあるため、このアーティファクトを削除することはできません。';
 $string['Permissions'] = 'パーミッション';
 $string['republish'] = '公開';
-$string['view'] = '表示';
+$string['view'] = 'ページ';
 $string['artefactnotpublishable'] = 'アーティファクト %s はページ %s で公開できません。';
 $string['nopublishpermissiononartefact'] = 'あなたには %s を公開するパーミッションがありません。';
 $string['belongingto'] = '所属';
