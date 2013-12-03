@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-11-18 06:47:58 UTC
+ * @updated    2013-12-03 22:18:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -362,6 +362,8 @@ $string['eventlogexpirydescription'] = 'どのくらいの期間、イベント�
 $string['eventloglevelnone'] = 'なし';
 $string['eventloglevelmasq'] = 'マスカレーディング';
 $string['eventloglevelall'] = 'すべて';
+$string['sitefilesaccess'] = 'サイトファイルにアクセスする';
+$string['sitefilesaccessdescription'] = 'チェックした場合、ログインユーザはサブフォルダ内のサイトファイルにアクセスすることができるようになります。デフォルトでは、トップレベルのディレクトリのファイルのみアクセスすることができます。';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
 $string['editsitepagespagedescription'] = 'ここでは(ログインおよびログアウトユーザ別に) ホームページおよびフッタのページリンク等、サイト全体のいくつかのページコンテンツを編集することができます。';
