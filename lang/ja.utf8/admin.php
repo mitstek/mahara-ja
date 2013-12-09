@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-12-03 22:18:29 UTC
+ * @updated    2013-12-09 02:53:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -939,6 +939,7 @@ $string['masqueradenotifiedreasondescription'] = 'このユーザとしてログ
 $string['masqueradetime'] = 'マスカレーディング開始日時';
 $string['masquerader'] = 'マスカレーディング管理者';
 $string['masqueradee'] = 'ユーザ';
+$string['nomasquerades'] = 'マスカレーディングセッションのロギングが有効にされているため、別のユーザとしてマスカレード (代理ログイン) した管理者はいません。';
 $string['loginaslog'] = 'マスカレーディングセッション';
 $string['masqueradingnotloggedwarning'] = '<b>注意</b>: マスカレーディングセッションのロギングは現在無効にされています。このテーブルのデータを閲覧するには、管理者が「 <a href="%sadmin/site/options.php">サイト設定</a> 」内の「ロギング設定」を有効にする必要があります。';
 $string['masqueradenotificationsubject'] = '管理者があなたとしてログインしました。';

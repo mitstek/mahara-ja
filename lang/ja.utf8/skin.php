@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-11-14 06:02:16 UTC
+ * @updated    2013-12-09 03:17:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -36,6 +36,10 @@ $string['removefromfavorites'] = 'お気に入りから削除する';
 $string['skinaddedtofavorites'] = 'お気に入りにスキンが追加されました。';
 $string['skinremovedfromfavorites'] = 'お気に入りからスキンが削除されました。';
 $string['cantremoveskinfromfavorites'] = 'お気に入りからスキンを削除できません。';
+$string['metatitle'] = 'スキン情報';
+$string['title'] = 'タイトル';
+$string['displayname'] = 'オーナー';
+$string['description'] = '説明';
 $string['noskins'] = 'スキンがありません。';
 $string['skin'] = 'スキン';
 $string['skins'] = 'スキン';
@@ -45,6 +49,7 @@ $string['userskins'] = 'マイスキン';
 $string['favoriteskins'] = 'お気に入りスキン';
 $string['publicskins'] = 'パブリックスキン';
 $string['currentskin'] = '現在のスキン';
+$string['skinnotselected'] = 'スキン未選択';
 $string['noskin'] = 'スキンなし';
 $string['skingeneraloptions'] = '一般';
 $string['skinbackgroundoptions'] = 'スキン背景';
@@ -85,6 +90,7 @@ $string['skincustomcss'] = 'カスタムCSS';
 $string['chooseviewskin'] = 'ページスキンを選択する';
 $string['chooseskin'] = 'スキンを選択する';
 $string['viewskinchanged'] = 'ページスキンが変更されました。';
+$string['manageskins'] = 'スキンを管理する';
 $string['sitefontsmenu'] = 'フォント';
 $string['sitefonts'] = 'フォント';
 $string['nofonts'] = 'フォントがありません。';
@@ -111,6 +117,7 @@ $string['fonttype'] = 'フォントタイプ';
 $string['headingandtext'] = 'ヘッディングおよびテキスト';
 $string['headingonly'] = 'ヘッディングのみ';
 $string['fontfiles'] = 'フォントファイル';
+$string['fontfileeot'] = 'EOTフォントファイル';
 $string['notvalidfontfile'] = 'これは有効な %s フォントファイルではありません。';
 $string['fontfilesvg'] = 'SVGフォントファイル';
 $string['fontfilettf'] = 'TTFフォントファイル';
