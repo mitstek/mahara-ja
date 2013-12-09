@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-12-09 03:13:52 UTC
+ * @updated    2013-12-09 03:19:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -547,7 +547,7 @@ $string['Invitations'] = '招待';
 $string['institutionmembershipfullsubject'] = 'インスティテューションメンバーシップ定員到達';
 $string['institutionmembershipfullmessagetext'] = '%s さん
 
-%s - %s の最大ユーザ数にに到達しました。
+%s - %s の最大ユーザ数に到達しました。
 
 既存のユーザアカウントを整理するか、このインスティテューションに関する最大ユーザアカウント数の増加をご依頼ください。すべてのサイト管理者は制限を増加させることができます。
 
