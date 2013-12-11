@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-10-02 01:14:38 UTC
+ * @updated    2013-12-11 05:04:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -104,6 +104,8 @@ $string['attachment'] = '添付ファイル';
 $string['removedfromwatchlist'] = 'このページがあなたのウォッチリストから削除されました。';
 $string['addtowatchlist'] = 'ウォッチリストにページを追加する';
 $string['removefromwatchlist'] = 'ウォッチリストからページを削除する';
+$string['addtowatchlistartefact'] = 'ウォッチリストにページ「 %s 」を追加する';
+$string['removefromwatchlistartefact'] = 'ウォッチリストからページ「 %s 」を削除する';
 $string['alreadyinwatchlist'] = 'このページはすでにあなたのウォッチリストに登録されています。';
 $string['attachedfileaddedtofolder'] = '添付ファイル「 %s 」が、あなたの「 %s 」フォルダに追加されました。';
 $string['complaint'] = 'クレーム';
