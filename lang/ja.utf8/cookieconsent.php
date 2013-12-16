@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-12-16 04:31:32 UTC
+ * @updated    2013-12-16 04:37:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -46,6 +46,10 @@ $string['cookietypessocial'] = 'ソーシャルメディア';
 $string['consentmode'] = 'コンセントモード';
 $string['stylingoptions'] = 'スタイリングオプション';
 $string['pluginstyle'] = 'スタイル';
+$string['pluginstyledark'] = 'ダーク';
+$string['pluginstylelight'] = 'ライト';
+$string['bannerposition'] = 'バナーポジション';
+$string['tabposition'] = 'タブポジション';
 $string['hideprivacytab'] = 'プライバシー設定タブを隠す';
 $string['featureoptions'] = '機能オプション';
 $string['pagerefresh'] = 'ページリフレッシュ';
