@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-12-18 06:39:32 UTC
+ * @updated    2013-12-18 06:59:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -120,6 +120,7 @@ $string['skincustomcss'] = 'カスタムCSS';
 $string['skincustomcssdescription'] = 'カスタムCSSはスキンプレビューイメージに反映されません。';
 $string['chooseviewskin'] = 'ページスキンを選択する';
 $string['chooseskin'] = 'スキンを選択する';
+$string['notsavedyet'] = '未保存';
 $string['viewskinchanged'] = 'ページスキンが変更されました。';
 $string['manageskins'] = 'スキンを管理する';
 $string['sitefontsmenu'] = 'フォント';
@@ -134,13 +135,17 @@ $string['fontvariantadded'] = 'フォントスタイルが正常に追加され�
 $string['editfont'] = 'フォントを編集する';
 $string['fontedited'] = 'フォントが正常に編集されました。';
 $string['editproperties'] = 'フォント属性を編集する';
+$string['viewfontspecimen'] = 'フォント見本を表示する';
 $string['deletefont'] = 'フォントを削除する';
 $string['deletespecifiedfont'] = 'フォント「 %s 」を削除する';
 $string['deletefontconfirm'] = '本当にこのフォントを削除してもよろしいですか? 元に戻すことはできません。';
 $string['fontdeleted'] = 'フォントが削除されました。';
 $string['cantdeletefont'] = 'あなたはこのフォントを削除できません。';
 $string['fontname'] = 'フォント名';
+$string['invalidfonttitle'] = '無効なフォントタイトルです。少なくとも1つの半角英数字を含む必要があります。';
+$string['genericfontfamily'] = '一般フォントファミリー';
 $string['fontstyle'] = 'フォントスタイル';
+$string['regular'] = '標準';
 $string['bold'] = '太字';
 $string['italic'] = 'イタリック';
 $string['bolditalic'] = '太字イタリック';
@@ -162,18 +167,53 @@ $string['fonttype.google'] = 'Googleウェブフォント';
 $string['fonttypes.google'] = 'Googleウェブフォント';
 $string['preview'] = 'プレビュー';
 $string['samplesize'] = 'サイズ';
+$string['samplesort'] = '並べ替え';
 $string['sampletext'] = 'テキスト';
 $string['samplefonttitle'] = 'フォント名';
+$string['sampletitle11'] = 'ラテンアルファベット (ASCII only)';
+$string['sampletext11'] = 'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz';
+$string['sampletitle12'] = 'ラテンアルファベット (ISO/IEC 8859-1)';
+$string['sampletext12'] = 'ÀàÁáÂâÃãÄäÅåÆæÇçÈèÉéÊêËëÌìÍíÎîÏïÐðÑñÒòÓóÔôÕõÖöØøÙùÚúÛûÜüÝýÞþß';
+$string['sampletitle13'] = 'ラテンアルファベット (ISO/IEC 8859-2)';
+$string['sampletext13'] = 'ĀāĂăĄąĆćČčĎďĐđĒēĖėĘęĚěĞğĢģĪīĬĭĮįİıĶķĹĺĻļĽľŁłŃńŅņŇňŌōŐőŒœŔŕŖŗŘřŚśŞşŠšŢţŤťŪūŬŭŮůŰűŲųŹźŻżŽžſ';
+$string['sampletitle14'] = 'キリルアルファベット (ISO/IEC 8859-5)';
+$string['sampletext14'] = 'АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя';
+$string['sampletitle15'] = 'ギリシャアルファベット (ISO/IEC 8859-7)';
+$string['sampletext15'] = 'ΑαΒβΓγΔδΕεΖζΗηΘθΙιΚκΛλΜμΝνΞξΟοΠπΡρΣσςΤτΥυΦφΧχΨψΩω';
+$string['sampletitle18'] = '数字および分数';
+$string['sampletext18'] = '1234567890¼½¾⅓⅔⅛⅜⅝⅞¹²³';
 $string['sampletitle19'] = '句読点';
+$string['sampletext19'] = '&!?»«@$€§*#%/(){}[]';
+$string['sampletitle20'] = 'Lorem ipsum...';
+$string['sampletext20'] = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+$string['sampletitle21'] = 'Grumpy wizards make...';
+$string['sampletext21'] = 'Grumpy wizards make toxic brew for the evil Queen and Jack.';
+$string['sampletitle22'] = 'The quick brown fox...';
+$string['sampletext22'] = 'The quick brown fox jumps over the lazy dog.';
 $string['installgwfont'] = 'Googleフォントをインストールする';
 $string['archivereadingerror'] = 'ZIP書庫の読み込み中にエラーが発生しました。';
 $string['gwfontadded'] = 'Googleフォントが正常にインストールされました。';
 $string['gwfontsnotavailable'] = '現在、Googleフォントは利用できません。';
 $string['gwfzipfile'] = '有効なZIPファイル';
+$string['notvalidzipfile'] = 'これは有効なZIPファイルではありません。';
 $string['fontlicence'] = 'フォントライセンス';
 $string['fontlicencenotfound'] = 'フォントライセンスが見つかりませんでした。';
 $string['fontsort.alpha'] = 'アルファベット';
 $string['fontsort.date'] = '追加日時';
+$string['fontsort.popularity'] = '人気度';
 $string['fontsort.style'] = 'スタイル数';
+$string['fontsort.trending'] = 'トレンディング';
+$string['previewheading'] = 'Lorem ipsum';
+$string['previewsubhead1'] = 'Scriptum';
+$string['previewsubhead2'] = 'Imago';
+$string['previewtextline1'] = 'Lorem ipsum dolor sit amet,';
+$string['previewtextline2'] = 'consectetur adipiscing elit.';
+$string['previewtextline3'] = 'Donec cursus orci turpis.';
+$string['previewtextline4'] = 'Donec et bibendum augue.';
+$string['previewtextline5'] = 'Vestibulum ante ipsum primis';
+$string['previewtextline6'] = 'in faucibus orci luctus et';
+$string['previewtextline7'] = 'ultrices posuere cubilia Curae;';
+$string['previewtextline8'] = 'Cras odio enim, sodales at';
+$string['previewtextline9'] = 'rutrum et, sollicitudin non nisi.';
 
 ?>
