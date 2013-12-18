@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-12-18 06:27:52 UTC
+ * @updated    2013-12-18 06:35:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -74,7 +74,11 @@ $string['backgroundcolor'] = '背景色';
 $string['bodybgcolor'] = 'スキン背景色';
 $string['viewbgcolor'] = 'ページ背景色';
 $string['textcolor'] = 'テキスト色';
+$string['textcolordescription'] = 'これは通常テキストの色です。';
 $string['headingcolor'] = 'ヘッディングテキスト色';
+$string['headingcolordescription'] = 'これはページヘッディングの色です。';
+$string['emphasizedcolor'] = '強調テキスト色';
+$string['emphasizedcolordescription'] = 'これはページサブヘッディングおよび強調テキストの色です。';
 $string['bodybgimage'] = 'スキン背景イメージ';
 $string['viewbgimage'] = 'ページ背景イメージ';
 $string['backgroundrepeat'] = '背景イメージの繰り返し';
@@ -82,13 +86,17 @@ $string['backgroundrepeatboth'] = '両方向に繰り返す';
 $string['backgroundrepeatx'] = '水平に繰り返す';
 $string['backgroundrepeaty'] = '垂直に繰り返す';
 $string['backgroundrepeatno'] = '繰り返さない';
+$string['backgroundattachment'] = '背景イメージ添付';
 $string['backgroundfixed'] = '固定';
 $string['backgroundscroll'] = 'スクロール';
+$string['backgroundposition'] = '背景イメージポジション';
 $string['viewwidth'] = 'ページ幅';
 $string['textfontfamily'] = 'テキストフォント';
 $string['headingfontfamily'] = 'ヘッディングフォント';
 $string['fontsize'] = 'フォントサイズ';
 $string['headerlogoimagenormal'] = 'デフォルトテーマロゴ';
+$string['headerlogoimagelight1'] = '白色Maharaロゴおよびテキスト (暗色のヘッダ背景に適しています)';
+$string['headerlogoimagedark1'] = '暗色Maharaロゴおよびテキスト (明色のヘッダ背景に適しています)';
 $string['normallinkcolor'] = '通常リンク色';
 $string['hoverlinkcolor'] = 'ハイライトリンク色';
 $string['linkunderlined'] = '下線リンク';
