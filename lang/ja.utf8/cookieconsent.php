@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-12-16 04:37:23 UTC
+ * @updated    2013-12-18 00:54:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -43,24 +43,35 @@ $string['example'] = '例';
 $string['generaloptions'] = '一般オプション';
 $string['cookietypes'] = 'クッキータイプ';
 $string['cookietypessocial'] = 'ソーシャルメディア';
+$string['cookietypesanalytics'] = 'アナリティクス';
+$string['cookietypesadvertising'] = '広告';
 $string['consentmode'] = 'コンセントモード';
+$string['consentmodeexplicit'] = '明確 - ビジターが承諾するまでクッキーを設定しません。';
+$string['consentmodeimplicit'] = '暗黙 - クッキーを設定して、ビジターによる使用停止を許可します。';
 $string['stylingoptions'] = 'スタイリングオプション';
 $string['pluginstyle'] = 'スタイル';
 $string['pluginstyledark'] = 'ダーク';
 $string['pluginstylelight'] = 'ライト';
 $string['bannerposition'] = 'バナーポジション';
 $string['tabposition'] = 'タブポジション';
+$string['tabpositionbottomright'] = '右下部';
+$string['tabpositionbottomleft'] = '左下部';
+$string['tabpositionverticalleft'] = '左側';
+$string['tabpositionverticalright'] = '右側';
 $string['hideprivacytab'] = 'プライバシー設定タブを隠す';
 $string['featureoptions'] = '機能オプション';
 $string['pagerefresh'] = 'ページリフレッシュ';
 $string['usessl'] = 'SSLを使用する';
 $string['addcode'] = 'コードを追加する';
+$string['advertisingDefaultTitle'] = '広告';
 $string['socialDefaultTitle'] = 'ソーシャルメディア';
+$string['analyticsDefaultTitle'] = 'アナリティクス';
 $string['defaultTitle'] = 'デフォルトクッキータイトル';
 $string['defaultDescription'] = 'デフォルトクッキー説明';
 $string['closeWindow'] = 'ウィンドウを閉じる';
 $string['hideDetails'] = '詳細を隠す';
 $string['allowCookiesImplicit'] = '閉じる';
+$string['savePreference'] = 'プリファレンスを保存する';
 $string['privacySettings'] = 'プライバシー設定';
 $string['privacySettingsDialogTitleA'] = 'プライバシー設定';
 $string['preferenceUseGlobal'] = 'グローバル設定を使用する';
