@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-12-18 00:54:42 UTC
+ * @updated    2013-12-18 00:57:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -61,6 +61,7 @@ $string['tabpositionverticalright'] = '右側';
 $string['hideprivacytab'] = 'プライバシー設定タブを隠す';
 $string['featureoptions'] = '機能オプション';
 $string['pagerefresh'] = 'ページリフレッシュ';
+$string['ignoredonottrack'] = '追跡拒否 (do not track) を無視する';
 $string['usessl'] = 'SSLを使用する';
 $string['addcode'] = 'コードを追加する';
 $string['advertisingDefaultTitle'] = '広告';
@@ -69,7 +70,10 @@ $string['analyticsDefaultTitle'] = 'アナリティクス';
 $string['defaultTitle'] = 'デフォルトクッキータイトル';
 $string['defaultDescription'] = 'デフォルトクッキー説明';
 $string['closeWindow'] = 'ウィンドウを閉じる';
+$string['seeDetails'] = '詳細を表示する';
+$string['seeDetailsImplicit'] = 'あなたの設定を変更する';
 $string['hideDetails'] = '詳細を隠す';
+$string['allowCookies'] = 'クッキーを許可する';
 $string['allowCookiesImplicit'] = '閉じる';
 $string['savePreference'] = 'プリファレンスを保存する';
 $string['privacySettings'] = 'プライバシー設定';
