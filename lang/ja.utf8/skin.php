@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-12-18 06:35:54 UTC
+ * @updated    2013-12-18 06:40:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -86,6 +86,14 @@ $string['viewwidth'] = 'ページ幅';
 $string['textfontfamily'] = 'テキストフォント';
 $string['headingfontfamily'] = 'ヘッディングフォント';
 $string['fontsize'] = 'フォントサイズ';
+$string['fontsizesmallest'] = '最小';
+$string['fontsizesmaller'] = '極小';
+$string['fontsizesmall'] = '小';
+$string['fontsizemedium'] = '中';
+$string['fontsizelarge'] = '大';
+$string['fontsizelarger'] = '極大';
+$string['fontsizelargest'] = '最大';
+$string['headerlogoimage1'] = 'ロゴ';
 $string['headerlogoimagenormal'] = 'デフォルトテーマロゴ';
 $string['headerlogoimagelight1'] = '白色Maharaロゴおよびテキスト (暗色のヘッダ背景に適しています)';
 $string['headerlogoimagedark1'] = '暗色Maharaロゴおよびテキスト (明色のヘッダ背景に適しています)';
@@ -147,6 +155,8 @@ $string['sampletext'] = 'テキスト';
 $string['samplefonttitle'] = 'フォント名';
 $string['gwfzipfile'] = '有効なZIPファイル';
 $string['fontlicence'] = 'フォントライセンス';
+$string['fontlicencenotfound'] = 'フォントライセンスが見つかりませんでした。';
 $string['fontsort.alpha'] = 'アルファベット';
+$string['fontsort.date'] = '追加日時';
 
 ?>
