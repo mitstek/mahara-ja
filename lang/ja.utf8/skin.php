@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-12-18 00:43:02 UTC
+ * @updated    2013-12-18 06:17:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -57,9 +57,13 @@ $string['viewbackgroundoptions'] = 'ページ背景';
 $string['viewheaderoptions'] = 'ページヘッダ';
 $string['viewcontentoptions'] = 'ページフォントおよび色';
 $string['viewtableoptions'] = 'ページテーブルおよびボタン';
+$string['viewadvancedoptions'] = '高度';
 $string['skintitle'] = 'スキンタイトル';
 $string['skindescription'] = 'スキン説明';
 $string['skinaccessibility'] = 'スキンアクセシビリティ';
+$string['privateskinaccess'] = 'これはプライベートスキンです。';
+$string['publicskinaccess'] = 'これはパブリックスキンです。';
+$string['siteskinaccess'] = 'これはサイトスキンです。';
 $string['Untitled'] = 'タイトルなし';
 $string['backgroundcolor'] = '背景色';
 $string['bodybgcolor'] = 'スキン背景色';
@@ -87,6 +91,7 @@ $string['normalbuttoncolor'] = '通常ボタン色';
 $string['hoverbuttoncolor'] = 'ハイライトボタン色';
 $string['buttontextcolor'] = 'ボタンテキスト色';
 $string['skincustomcss'] = 'カスタムCSS';
+$string['skincustomcssdescription'] = 'カスタムCSSはスキンプレビューイメージに反映されません。';
 $string['chooseviewskin'] = 'ページスキンを選択する';
 $string['chooseskin'] = 'スキンを選択する';
 $string['viewskinchanged'] = 'ページスキンが変更されました。';
