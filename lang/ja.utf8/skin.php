@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-12-09 03:17:23 UTC
+ * @updated    2013-12-18 00:43:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -135,6 +135,9 @@ $string['sampletext'] = 'テキスト';
 $string['samplefonttitle'] = 'フォント名';
 $string['sampletitle19'] = '句読点';
 $string['installgwfont'] = 'Googleフォントをインストールする';
+$string['archivereadingerror'] = 'ZIP書庫の読み込み中にエラーが発生しました。';
+$string['gwfontadded'] = 'Googleフォントが正常にインストールされました。';
+$string['gwfontsnotavailable'] = '現在、Googleフォントは利用できません。';
 $string['gwfzipfile'] = '有効なZIPファイル';
 $string['fontlicence'] = 'フォントライセンス';
 $string['fontsort.alpha'] = 'アルファベット';
