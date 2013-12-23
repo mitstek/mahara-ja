@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-12-18 06:59:16 UTC
+ * @updated    2013-12-23 09:43:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -195,6 +195,7 @@ $string['archivereadingerror'] = 'ZIP書庫の読み込み中にエラーが発�
 $string['gwfontadded'] = 'Googleフォントが正常にインストールされました。';
 $string['gwfontsnotavailable'] = '現在、Googleフォントは利用できません。';
 $string['gwfzipfile'] = '有効なZIPファイル';
+$string['gwfzipdescription'] = 'すべての選択済みGoogleフォントをインストールする有効なZIPファイルです。';
 $string['notvalidzipfile'] = 'これは有効なZIPファイルではありません。';
 $string['fontlicence'] = 'フォントライセンス';
 $string['fontlicencenotfound'] = 'フォントライセンスが見つかりませんでした。';
