@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-10-22 22:25:34 UTC
+ * @updated    2013-12-23 09:37:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -46,6 +46,7 @@ $string['indexnamedescription'] = 'Elasticsearchインデックス名です。�
 $string['license'] = 'ライセンス';
 $string['Media'] = 'メディア';
 $string['noticeenabled'] = '現在、イラスティック検索プラグインは有効にされています。イラスティック検索プラグインを無効にするには、<a href="%s">サイトオプションの検索設定</a>にて、選択解除してください。';
+$string['noticenotactive'] = 'ホスト: %s およびポート %s のElasticsearchサーバにアクセスできません。動作しているかどうか確認してください。';
 $string['noticenotenabled'] = '現在、Elasticsearchプラグインは無効にされています。Elasticsearchプラグインを有効にするには、<a href="%s">サイトオプションの検索設定</a>にて、選択してください。';
 $string['noticepostgresrequired'] = '現在のところ、ElasticsearchプラグインはPostgresqlデータベースのみで動作します。';
 $string['noticepostgresrequiredtitle'] = '機能利用不可';
