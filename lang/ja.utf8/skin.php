@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-12-29 08:08:22 UTC
+ * @updated    2013-12-29 08:31:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -127,6 +127,16 @@ $string['manageskins'] = 'スキンを管理する';
 $string['sitefontsmenu'] = 'フォント';
 $string['sitefonts'] = 'フォント';
 $string['sitefontsdescription'] = '<p>あなたのサイトのスキンで使用するため、以下のフォントがインストールされています。</p>';
+$string['installfontinstructions'] = '<p>
+CSS @font-faceルールによってウェブページに埋め込むことのできるフォントを追加します。すべての作者/開発者がこれを許可するわけではないことに留意してください。
+</p>
+<p>
+あなたがウェブページへの埋め込み許可された適切なフリーフォントを見つけた場合、次のフォーマットに変換する必要があります:
+<br />TrueTypeフォント、Embedded OpenTypeフォント、Web Open Font FormatフォントおよびScalable Vector Graphicフォント。
+</p>
+<p>
+あなたは<a href="http://www.fontsquirrel.com/fontface/generator/" target="_blank">FontSquirrel Online Generator</a>を変換に使用することができます。
+</p>';
 $string['nofonts'] = 'フォントがありません。';
 $string['font'] = 'フォント';
 $string['fonts'] = 'フォント';
@@ -164,7 +174,7 @@ $string['svgdescription'] = 'Scalable Vector Graphicsフォント (iPadおよび
 $string['fontfilettf'] = 'TTFフォントファイル';
 $string['ttfdescription'] = 'TrueTypeフォント (Firefox 3.5+, Opera 10+, Safari 3.1+, Chrome 4.0.249.4+)';
 $string['fontfilewoff'] = 'WOFFフォントファイル';
-$string['woffdescription'] = 'Web Open Font Formatフォント (for Firefox 3.6+, Internet Explorer 9+, Chrome 5+)';
+$string['woffdescription'] = 'Web Open Font Formatフォント (Firefox 3.6+, Internet Explorer 9+, Chrome 5+)';
 $string['fontfilelicence'] = 'ライセンスファイル';
 $string['fontnotice'] = 'フォント通知';
 $string['fontnoticedescription'] = 'フォントおよび作者に関して説明するため、CSSファイルに1行追加されました。';
@@ -204,6 +214,13 @@ $string['installgwfont'] = 'Googleフォントをインストールする';
 $string['archivereadingerror'] = 'ZIP書庫の読み込み中にエラーが発生しました。';
 $string['gwfontadded'] = 'Googleフォントが正常にインストールされました。';
 $string['gwfontsnotavailable'] = '現在、Googleフォントは利用できません。';
+$string['gwfinstructions'] = '<ol>
+<li><a href="http://www.google.com/fonts/" target="_blank">Googleフォント</a>にアクセスしてください。</li>
+<li>あなたのコレクションに追加するフォントを選択してください。</li>
+<li>ZIPファイルとして、フォントをコレクションにダウンロードしてください。</li>
+<li>このフォームにZIPファイルをアップロードしてください。</li>
+<li>Googleフォントをインストールしてください。</li>
+</ol>';
 $string['gwfzipfile'] = '有効なZIPファイル';
 $string['gwfzipdescription'] = 'すべての選択済みGoogleフォントをインストールする有効なZIPファイルです。';
 $string['notvalidzipfile'] = 'これは有効なZIPファイルではありません。';
