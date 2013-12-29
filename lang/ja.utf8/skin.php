@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-12-23 09:43:42 UTC
+ * @updated    2013-12-29 08:08:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -32,6 +32,7 @@ $string['createskin'] = 'スキンを作成する';
 $string['editskin'] = 'スキンを編集する';
 $string['skinsaved'] = 'スキンが正常に保存されました。';
 $string['skinimported'] = 'スキンが正常にインポートされました。';
+$string['clicktoedit'] = 'クリックしてスキンを編集する';
 $string['clickimagetoedit'] = 'イメージをクリックして編集する';
 $string['addtofavorites'] = 'お気に入りに追加する';
 $string['removefromfavorites'] = 'お気に入りから削除する';
@@ -125,6 +126,7 @@ $string['viewskinchanged'] = 'ページスキンが変更されました。';
 $string['manageskins'] = 'スキンを管理する';
 $string['sitefontsmenu'] = 'フォント';
 $string['sitefonts'] = 'フォント';
+$string['sitefontsdescription'] = '<p>あなたのサイトのスキンで使用するため、以下のフォントがインストールされています。</p>';
 $string['nofonts'] = 'フォントがありません。';
 $string['font'] = 'フォント';
 $string['fonts'] = 'フォント';
@@ -153,11 +155,20 @@ $string['fonttype'] = 'フォントタイプ';
 $string['headingandtext'] = 'ヘッディングおよびテキスト';
 $string['headingonly'] = 'ヘッディングのみ';
 $string['fontfiles'] = 'フォントファイル';
+$string['fontfileeot'] = 'EOTフォントファイル';
+$string['eotdescription'] = 'Embedded OpenTypeフォント (Internet Explorer 4+)';
 $string['notvalidfontfile'] = 'これは有効な %s フォントファイルではありません。';
+$string['nosuchfont'] = '提供された名称のフォントはありません。';
 $string['fontfilesvg'] = 'SVGフォントファイル';
+$string['svgdescription'] = 'Scalable Vector Graphicsフォント (iPadおよびiPhone)';
 $string['fontfilettf'] = 'TTFフォントファイル';
+$string['ttfdescription'] = 'TrueTypeフォント (Firefox 3.5+, Opera 10+, Safari 3.1+, Chrome 4.0.249.4+)';
 $string['fontfilewoff'] = 'WOFFフォントファイル';
+$string['woffdescription'] = 'Web Open Font Formatフォント (for Firefox 3.6+, Internet Explorer 9+, Chrome 5+)';
 $string['fontfilelicence'] = 'ライセンスファイル';
+$string['fontnotice'] = 'フォント通知';
+$string['fontnoticedescription'] = 'フォントおよび作者に関して説明するため、CSSファイルに1行追加されました。';
+$string['filepathnotwritable'] = '「 %s 」にファイルを書き込めません。';
 $string['showfonts'] = '表示';
 $string['fonttypes.all'] = 'すべてのフォント';
 $string['fonttype.site'] = 'ローカルフォント';
