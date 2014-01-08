@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-11-18 06:48:22 UTC
+ * @updated    2014-01-08 17:11:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -26,7 +26,7 @@ $string['cannotextractfilesubmitted'] = 'あなたは送信済みページでフ
 $string['cannotextractfileinfoldersubmitted'] = 'あなたは送信済みページのフォルダ内でファイルを解凍できません。';
 $string['changessaved'] = '変更が保存されました。';
 $string['clickanddragtomovefile'] = '%s を移動するには、クリック&ドラッグしてください。';
-$string['contents'] = 'コンテンツ';
+$string['foldercontents'] = 'フォルダコンテンツ';
 $string['copyrightnotice'] = '著作権表示';
 $string['create'] = '作成';
 $string['Created'] = '作成日時';
@@ -131,6 +131,7 @@ $string['notpublishable'] = 'あなたにはこのファイルを公開するパ
 $string['overwrite'] = '上書き';
 $string['Owner'] = 'オーナー';
 $string['parentfolder'] = '親フォルダ';
+$string['phpzipneeded'] = 'この機能を利用できるようにするには、PHP Zip拡張モジュールが必要です。';
 $string['Preview'] = 'プレビュー';
 $string['requireagreement'] = '同意を必要とする';
 $string['removingfailed'] = '削除に失敗しました: すでにファイルまたはフォルダが存在していません。';
@@ -262,5 +263,14 @@ $string['unzipprogress'] = '%s 個のファイル/フォルダが作成されま
 $string['filepermission.view'] = '閲覧';
 $string['filepermission.edit'] = '編集';
 $string['filepermission.republish'] = '公開';
+$string['downloadfolderzip'] = 'フォルダをZIPファイルとしてダウンロードする';
+$string['downloadfolderzipblock'] = 'ダウンロードリンクを表示する';
+$string['downloadfolderzipdescription'] = 'チェックした場合、ユーザは「メディア -> フォルダブロック」経由でフォルダをZIPファイルとしてダウンロードすることができます。';
+$string['downloadfolderzipdescriptionblock'] = 'チェックした場合、ユーザはフォルダをZIPファイルとしてダウンロードすることができます。';
+$string['downloadfolderziplink'] = 'ダウンロード';
+$string['folderdownloadnofolderfound'] = 'ID %d のフォルダが見つかりません。';
+$string['zipfilenameprefix'] = 'フォルダ';
+$string['keepzipfor'] = 'ZIPファイルの保持期間';
+$string['keepzipfordescription'] = 'ZIPファイルを保持する秒数です。';
 
 ?>
