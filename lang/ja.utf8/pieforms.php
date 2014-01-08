@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-09-21 03:40:29 UTC
+ * @updated    2014-01-08 16:21:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,6 +19,7 @@ $string['element.bytes.megabytes'] = 'MB';
 $string['element.bytes.gigabytes'] = 'GB';
 $string['element.bytes.invalidvalue'] = '値は数値にしてください';
 $string['element.calendar.invalidvalue'] = '無効な日付/時間が指定されました';
+$string['element.calendar.opendatepicker'] = '日付ピッカを開く';
 $string['element.date.or'] = 'or';
 $string['element.date.monthnames'] = '1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月';
 $string['element.date.notspecified'] = '指定なし';
