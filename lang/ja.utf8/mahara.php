@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-01-08 16:28:58 UTC
+ * @updated    2014-01-10 04:34:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -498,6 +498,7 @@ $string['emailnotsent'] = 'コンタクトメールの送信に失敗しまし�
 $string['namedfieldempty'] = '必須入力フィールド「 %s 」が空白です。';
 $string['processing'] = '処理中';
 $string['unknownerror'] = '不明なエラーが発生しました (0x20f91a0)。';
+$string['skipmenu'] = 'メインコンテンツにスキップする';
 $string['dropdownmenu'] = 'メニュー';
 $string['overview'] = '概要';
 $string['home'] = 'ホーム';
