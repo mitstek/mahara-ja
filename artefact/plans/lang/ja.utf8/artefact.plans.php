@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-10-04 05:14:19 UTC
+ * @updated    2014-01-15 02:31:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -32,7 +32,7 @@ $string['plannotdeletedsuccessfully'] = 'プランの削除中にエラーが発
 $string['plannotsavedsuccessfully'] = 'このフォームの送信中にエラーが発生しました。マークされたフィールドを確認して再度お試しください。';
 $string['plansavedsuccessfully'] = 'プランが正常に保存されました。';
 $string['planstasks'] = 'プラン「 %s 」のタスク';
-$string['planstasksdesc'] = '下記のタスクを追加するか右側のボタンをクリックして、あなたのプランを作成してください。';
+$string['planstasksdescription'] = 'あなたのプランを作成するには、以下にタスクを追加するか、「 %s 」ボタンを使用してください。';
 $string['saveplan'] = 'プランを保存する';
 $string['title'] = 'タイトル';
 $string['titledesc'] = 'それぞれの「マイプラン」ブロックタイプ内タスクにタイトルを表示するために使用されます。';
