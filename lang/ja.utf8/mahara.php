@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-01-10 04:34:18 UTC
+ * @updated    2014-01-22 05:36:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -42,6 +42,7 @@ $string['general'] = '一般';
 $string['tabs'] = 'タブ';
 $string['tab'] = 'タブ';
 $string['selected'] = '選択済み';
+$string['disabled'] = '無効';
 $string['admin'] = '管理';
 $string['menu'] = 'メニュー';
 $string['no'] = 'No';
@@ -614,6 +615,7 @@ $string['nopublishpermissiononartefact'] = 'あなたには %s を公開する�
 $string['belongingto'] = '所属';
 $string['allusers'] = 'すべてのユーザ';
 $string['attachment'] = '添付ファイル';
+$string['editaccess'] = 'アクセスを編集する';
 $string['quarantinedirname'] = '隔離場所';
 $string['clammovedfile'] = 'ファイルが隔離場所に移動されました。';
 $string['clamdeletedfile'] = 'ファイルが削除されました。';

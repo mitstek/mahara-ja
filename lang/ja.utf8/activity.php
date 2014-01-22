@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-01-08 16:32:11 UTC
+ * @updated    2014-01-22 05:36:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -29,6 +29,7 @@ $string['typenewpost'] = 'フォーラム投稿';
 $string['type'] = '活動タイプ';
 $string['attime'] = '-';
 $string['prefsdescr'] = 'あなたがメールオプションのどちらを選択しても、受信箱に通知が記録されます。また、受信箱に記録された通知は自動的に既読にされます。';
+$string['messagetype'] = 'メッセージタイプ';
 $string['subject'] = '件名';
 $string['date'] = '日時';
 $string['read'] = '既読';

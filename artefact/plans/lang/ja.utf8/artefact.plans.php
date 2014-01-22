@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-01-15 02:31:17 UTC
+ * @updated    2014-01-22 05:40:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -38,8 +38,10 @@ $string['title'] = 'タイトル';
 $string['titledesc'] = 'それぞれの「マイプラン」ブロックタイプ内タスクにタイトルを表示するために使用されます。';
 $string['alltasks'] = 'すべてのタスク';
 $string['canteditdontowntask'] = 'あなたの所有ではないため、このタスクを編集することはできません。';
-$string['completed'] = '完了済み';
-$string['completiondate'] = '完了日';
+$string['completed'] = '完了';
+$string['incomplete'] = '未完了';
+$string['overdue'] = '期限超過';
+$string['completiondate'] = '完了予定日';
 $string['completeddesc'] = 'あなたのプランを完了済みにします。';
 $string['deletetaskconfirm'] = '本当にこのタスクを削除してもよろしいですか?';
 $string['deletetask'] = 'タスクを削除する';
