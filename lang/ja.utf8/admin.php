@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-01-15 02:38:53 UTC
+ * @updated    2014-01-27 06:46:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -68,6 +68,11 @@ $string['manageinstitutions'] = 'インスティテューション管理';
 $string['siteoptions'] = 'サイトオプション';
 $string['siteoptionsdescription'] = '名称、言語およびテーマ等、基本的なサイトオプションを設定します。';
 $string['editsitepages'] = 'サイトページを編集する';
+$string['editinstitutionsitepages'] = 'インスティテューションサイトページを編集する';
+$string['pageinstitutionbad'] = 'あなたはインスティテューション「 %s 」のサイトページにアクセスおよび編集することはできません。';
+$string['institutionsitepages'] = 'インスティテューションサイトページ';
+$string['usedefault'] = 'サイトデフォルトを使用する';
+$string['usedefaultdescription'] = 'この特定ページタイプに対して、代わりにサイトのデフォルト「サイトページ」テキストを使用します。';
 $string['editsitepagesdescription'] = 'サイト内の様々なページコンテンツを編集します。';
 $string['menus'] = 'メニュー';
 $string['menusdescription'] = '「リンクおよびリソースメニュー」およびフッタメニュー内のリンクおよびファイルを管理します。';
@@ -823,6 +828,8 @@ $string['Admins'] = '管理者';
 $string['noinstitutions'] = 'インスティテューションはありません。';
 $string['noinstitutionsdescription'] = 'あなたがユーザをインスティテューションと関連付けたい場合、最初にインスティテューションを作成してください。';
 $string['noinstitutionsstatsdescription'] = 'あなたのユーザに利用できるインスティテューションがないため、インスティテューション統計を利用することはできません。';
+$string['noinstitutionsitepages'] = 'あなたにはインスティテューションサイトページを編集するためのパーミッションがありません。または、まだインスティテューションが作成されていません。';
+$string['noinstitutionsitepagesadmin'] = 'あなたがサイト管理者の場合、<a href="%s">サイト設定</a>のデフォルトサイトページを編集してください。';
 $string['Lockedfields'] = 'ロックフィールド';
 $string['disabledlockedfieldhelp'] = '注意: 無効にされたチェックボックスはインスティテューション設定「 %s 」にてロックされたプロファイルフィールドです。これらのプロファイルフィールドはサイトレベルでロックされているため、ここでロック解除することはできません。';
 $string['defaultinstitutionquotadescription'] = 'あなたはこのインスティテューションの新しいユーザに割り当てられるディスクスペース総量を設定することができます。このインスティテューションに関する既存ユーザのクオータは変更されません。';
