@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-12-23 09:38:53 UTC
+ * @updated    2014-01-29 06:18:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -304,6 +304,8 @@ $string['searchplugindescription'] = '使用する検索プラグイン';
 $string['searchconfigerror'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能 -> プラグインタイプ: search」の設定を確認してください。設定を確認した後、searchの「リセット」ボタンをクリックする必要があります。';
 $string['searchusernames'] = 'ユーザ名を検索する';
 $string['searchusernamesdescription'] = '「ユーザを検索する」の対象として、ユーザ名も検索されるようにします。';
+$string['searchuserspublic'] = 'パブリック検索にユーザを表示する';
+$string['searchuserspublicdescription'] = 'パブリック検索結果にユーザ名の表示を許可します。これには「publicsearchallowed」の設定を「true」にして、パブリック検索を許可する検索プラグイン (例 Elasticsearch) を使用する必要があります。この設定を変更するには、検索インデックスの再構築が必要です。';
 $string['sessionlifetime'] = 'セッションライフタイム';
 $string['sessionlifetimedescription'] = '活動していないログインユーザが自動的にログアウトされる時間 (分) です。';
 $string['setsiteoptionsfailed'] = '%s オプションの設定に失敗しました。';
