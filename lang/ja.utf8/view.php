@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-12-24 15:50:06 UTC
+ * @updated    2014-01-29 06:20:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -151,6 +151,7 @@ $string['deletespecifiedview'] = 'ページ「 %s 」を削除する';
 $string['deleteviewconfirm1'] = '本当にこのページを削除してもよろしいですか? 元に戻すことはできません。';
 $string['deleteviewconfirmbackup'] = '<a href="%sexport/" target="_blank">エクスポート</a>により、このページのバックアップを作成することを検討してください。';
 $string['deleteviewconfirmnote1'] = '<strong>注意:</strong> このページにリンクしたすべてのファイルおよび日誌を利用することはできます。<br/>しかし、このページに投稿されたすべてのフィードバックは削除されます。';
+$string['deleteviewconfirmnote2'] = 'このページはコレクション「<a href="%s">%s</a>」の一部です。';
 $string['editaccesspagedescription3'] = 'デフォルトでは、あなたのページをあなたのみ閲覧できます。このページにアクセスルールを追加することで、あなたは他のユーザとページを共有することができます。アクセスルールを追加した後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editaccessdescription'] = 'チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editaccessgrouppagedescription'] = 'デフォルトでは、ページおよびコレクションを追加および編集できるグループメンバーのみ、グループコレクションおよびページを閲覧することができます。チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
