@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-01-22 05:36:00 UTC
+ * @updated    2014-02-01 07:21:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -937,19 +937,18 @@ $string['choosetheme'] = 'テーマを選択する ...';
 $string['Hide'] = '非表示にする';
 $string['createcollect'] = '作成および収集';
 $string['createcollectsubtitle'] = 'あなたのポートフォリオを作成します。';
-$string['updateyourprofile'] = '<a href="%s">プロファイル</a>を編集する';
-$string['uploadyourfiles'] = '<a href="%s">ファイル</a>をアップロードする';
-$string['createyourresume'] = '<a href="%s">レジュメ</a>を作成する';
-$string['publishablog'] = '<a href="%s">日誌</a>を公開する';
+$string['updateprofile'] = 'あなたのプロファイルを更新する';
+$string['uploadfiles'] = 'あなたのファイルをアップロードする';
+$string['createresume'] = 'あなたのレジュメを作成する';
+$string['publishblog'] = '日誌を公開する';
 $string['Organise'] = '整理';
 $string['organisesubtitle'] = 'あなたのポートフォリオのショーケースです。';
 $string['organisedescription'] = 'あなたのポートフォリオを<a href="%s">ページ</a>に整理することができます。異なる閲覧者に対して、異なるページを作成します - あなたがページに含む構成要素を選択します。';
 $string['sharenetwork'] = '共有およびネットワーク';
 $string['sharenetworksubtitle'] = 'フレンドを探して、グループに参加します。';
-$string['findfriendslinked'] = '<a href="%s">フレンド</a>を探す';
-$string['joingroups'] = '<a href="%s">グループ</a>に参加する';
-$string['controlyourprivacylinked'] = 'あなたの<a href="%s">プライバシー</a>をコントロールする';
-$string['discusstopicslinked'] = '<a href="%s">トピック</a>を議論する';
+$string['joinsomegroups'] = 'グループに参加する';
+$string['controlyourprivacy'] = 'あなたのプライバシーをコントロールする';
+$string['discusstopics'] = 'トッピックを議論する';
 $string['howtodisable'] = '* あなたはこのボックスの可視性を<a href="%s">設定</a>ページにてコントロールすることができます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['filenotfound'] = 'ファイルが見つかりませんでした。';
