@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-12-18 00:57:36 UTC
+ * @updated    2014-02-04 04:50:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['cookieconsent'] = 'クッキーコンセント';
-$string['readfulltext'] = '新しいディレクティブのフルテキストを読む';
+$string['readfulltext1'] = 'ディレクティブの全文を読む';
 $string['directive2009136'] = 'ディレクティブ2009/136/EC';
 $string['readdirectiveBG'] = 'ディレクティブ2009/136/ECを読む (ブルガリア語)';
 $string['readdirectiveCS'] = 'ディレクティブ2009/136/ECを読む (チェコ語)';
@@ -39,6 +39,9 @@ $string['readdirectiveSK'] = 'ディレクティブ2009/136/ECを読む (スロ�
 $string['readdirectiveSL'] = 'ディレクティブ2009/136/ECを読む (スロベニア語)';
 $string['readdirectiveSV'] = 'ディレクティブ2009/136/ECを読む (スウェーデン語)';
 $string['cookieconsentenable'] = 'クッキーコンセントを有効にしますか?';
+$string['cookieconsentenabled'] = 'クッキーコンセントが有効にされ、設定が保存されました。';
+$string['cookieconsentdisabled'] = 'クッキーコンセントが無効にされました。';
+$string['example1social'] = 'FacebookボタンおよびTwitterウィジェット';
 $string['example'] = '例';
 $string['generaloptions'] = '一般オプション';
 $string['cookietypes'] = 'クッキータイプ';
@@ -63,12 +66,12 @@ $string['featureoptions'] = '機能オプション';
 $string['pagerefresh'] = 'ページリフレッシュ';
 $string['ignoredonottrack'] = '追跡拒否 (do not track) を無視する';
 $string['usessl'] = 'SSLを使用する';
-$string['addcode'] = 'コードを追加する';
 $string['advertisingDefaultTitle'] = '広告';
 $string['socialDefaultTitle'] = 'ソーシャルメディア';
 $string['analyticsDefaultTitle'] = 'アナリティクス';
 $string['defaultTitle'] = 'デフォルトクッキータイトル';
 $string['defaultDescription'] = 'デフォルトクッキー説明';
+$string['learnMore'] = '詳細情報';
 $string['closeWindow'] = 'ウィンドウを閉じる';
 $string['seeDetails'] = '詳細を表示する';
 $string['seeDetailsImplicit'] = 'あなたの設定を変更する';
@@ -78,7 +81,9 @@ $string['allowCookiesImplicit'] = '閉じる';
 $string['savePreference'] = 'プリファレンスを保存する';
 $string['privacySettings'] = 'プライバシー設定';
 $string['privacySettingsDialogTitleA'] = 'プライバシー設定';
+$string['changeForAllSitesLink'] = 'すべてのウェブサイトの設定を変更する';
 $string['preferenceUseGlobal'] = 'グローバル設定を使用する';
+$string['notUsingCookies'] = 'このウェブサイトはクッキーを使用しません。';
 $string['allSitesSettingsDialogTitleA'] = 'プライバシー設定';
 $string['backToSiteSettings'] = 'ウェブサイト設定に戻る';
 
