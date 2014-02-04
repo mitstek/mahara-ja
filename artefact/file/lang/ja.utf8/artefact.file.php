@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-01-08 17:11:23 UTC
+ * @updated    2014-02-04 04:36:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -25,7 +25,8 @@ $string['cannotremovefromsubmittedfolder'] = 'あなたは送信済みページ�
 $string['cannotextractfilesubmitted'] = 'あなたは送信済みページでファイルを解凍できません。';
 $string['cannotextractfileinfoldersubmitted'] = 'あなたは送信済みページのフォルダ内でファイルを解凍できません。';
 $string['changessaved'] = '変更が保存されました。';
-$string['clickanddragtomovefile'] = '%s を移動するには、クリック&ドラッグしてください。';
+$string['clickanddragtomovefile'] = '%s を移動するには、クリック&ドラッグまたはスペースを押してください。';
+$string['moveto'] = '%s に移動する';
 $string['foldercontents'] = 'フォルダコンテンツ';
 $string['copyrightnotice'] = '著作権表示';
 $string['create'] = '作成';
@@ -240,6 +241,7 @@ $string['uploadprofileicon'] = 'プロファイル写真をアップロードす
 $string['uploadedprofileicon'] = 'アップロードされたプロファイル写真';
 $string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイル写真をアップロードすることができます。プロファイル写真のアップロード後、あなたのデフォルト写真として表示する写真を1つ選択してください。16x16 から%sx%s ピクセルの間であなたの写真を作成してください。';
 $string['setdefault'] = 'デフォルトに設定する';
+$string['markfordeletion'] = '削除マークを付ける';
 $string['Title'] = 'タイトル';
 $string['imagetitle'] = 'イメージタイトル';
 $string['standardavatartitle'] = '標準または外部アバター';
