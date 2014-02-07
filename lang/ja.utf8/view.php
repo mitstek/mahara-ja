@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-01-29 06:20:12 UTC
+ * @updated    2014-02-07 07:01:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -29,7 +29,6 @@ $string['userviewurltaken'] = 'このURIはすでに取得されています。�
 $string['description'] = 'ページ説明';
 $string['startdate'] = 'アクセス開始日時';
 $string['stopdate'] = 'アクセス終了日時';
-$string['accessdates'] = 'アクセス日時';
 $string['stopdatecannotbeinpast'] = '終了日には過去の日付を設定できません。';
 $string['startdatemustbebeforestopdate'] = '開始日は終了日の前に設定してください。';
 $string['newstopdatecannotbeinpast'] = '「 %s 」へのアクセス終了日には過去の日付を設定できません。';
@@ -196,6 +195,8 @@ $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定
 $string['blockconfigurationrenderingerror'] = 'レンダリングできなかったため、ブロック設定に失敗しました。';
 $string['blocksintructionnoajax'] = 'あなたのページに追加するブロックを選択してください。あなたはブロックタイトルバーの矢印を使って、ブロックの配置を変更することができます。';
 $string['blocksinstructionajax'] = 'このエリアではあなたのページがどのように表示されるかプレビューを表示します。<br />あなたのページレイアウトにブロックを追加するには、この行の下にドラッグしてください。あなたのページ内でドラッグすることで、ブロックの配置を変更することができます。';
+$string['addblock'] = 'ブロックを追加する: %s';
+$string['blockcell'] = 'セル';
 $string['addnewblockhere'] = 'ここに新しいブロックを追加する';
 $string['add'] = '追加';
 $string['addcolumn'] = 'カラムを追加する';
@@ -209,9 +210,12 @@ $string['moveblockup'] = '%s ブロックを上に移動する';
 $string['movethisblockup'] = 'このブロックを上に移動する';
 $string['moveblockright'] = '%s ブロックを右に移動する';
 $string['movethisblockright'] = 'このブロックを右に移動する';
+$string['moveblock'] = '%s ブロックを移動する';
+$string['movethisblock'] = 'このブロックを移動する';
 $string['Configure'] = '設定';
 $string['configureblock'] = '%s ブロックを設定する';
 $string['configurethisblock'] = 'このブロックを設定する';
+$string['closeconfiguration'] = '設定を閉じる';
 $string['removeblock'] = '%s ブロックを削除する';
 $string['removethisblock'] = 'このブロックを削除する';
 $string['blocktitle'] = 'ブロックタイトル';
