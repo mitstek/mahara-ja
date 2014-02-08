@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-07 07:01:56 UTC
+ * @updated    2014-02-08 05:04:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -197,6 +197,10 @@ $string['blocksintructionnoajax'] = 'あなたのページに追加するブロ�
 $string['blocksinstructionajax'] = 'このエリアではあなたのページがどのように表示されるかプレビューを表示します。<br />あなたのページレイアウトにブロックを追加するには、この行の下にドラッグしてください。あなたのページ内でドラッグすることで、ブロックの配置を変更することができます。';
 $string['addblock'] = 'ブロックを追加する: %s';
 $string['blockcell'] = 'セル';
+$string['cellposition'] = '行 %s カラム %s';
+$string['blockorder'] = 'ポジション';
+$string['blockordertop'] = 'カラムトップ';
+$string['blockorderafter'] = '「 %s 」の後';
 $string['addnewblockhere'] = 'ここに新しいブロックを追加する';
 $string['add'] = '追加';
 $string['addcolumn'] = 'カラムを追加する';
