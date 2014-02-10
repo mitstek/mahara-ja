@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-01-10 04:46:03 UTC
+ * @updated    2014-02-10 20:07:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -41,6 +41,7 @@ $string['skinaddedtofavorites'] = 'お気に入りにスキンが追加されま
 $string['skinremovedfromfavorites'] = 'お気に入りからスキンが削除されました。';
 $string['cantremoveskinfromfavorites'] = 'お気に入りからスキンを削除できません。';
 $string['viewmetadata'] = 'スキン情報を表示する';
+$string['closemetadata'] = 'スキン情報を閉じる';
 $string['metatitle'] = 'スキン情報';
 $string['title'] = 'タイトル';
 $string['displayname'] = 'オーナー';
