@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-04 04:50:30 UTC
+ * @updated    2014-02-12 04:18:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -45,18 +45,25 @@ $string['example1social'] = 'FacebookボタンおよびTwitterウィジェット
 $string['example'] = '例';
 $string['generaloptions'] = '一般オプション';
 $string['cookietypes'] = 'クッキータイプ';
+$string['cookietypesdesc'] = 'あなたのサイトで使用しているクッキータイプを選択してください。';
 $string['cookietypessocial'] = 'ソーシャルメディア';
 $string['cookietypesanalytics'] = 'アナリティクス';
 $string['cookietypesadvertising'] = '広告';
+$string['cookietypesnecessary'] = '厳密に必要';
 $string['consentmode'] = 'コンセントモード';
 $string['consentmodeexplicit'] = '明確 - ビジターが承諾するまでクッキーを設定しません。';
 $string['consentmodeimplicit'] = '暗黙 - クッキーを設定して、ビジターによる使用停止を許可します。';
 $string['stylingoptions'] = 'スタイリングオプション';
 $string['pluginstyle'] = 'スタイル';
+$string['pluginstyledesc'] = 'クッキーコンセントの概観を変更します。';
 $string['pluginstyledark'] = 'ダーク';
 $string['pluginstylelight'] = 'ライト';
 $string['bannerposition'] = 'バナーポジション';
+$string['bannerpositiontop'] = '上部';
+$string['bannerpositionpush'] = '上部からプッシュする (実験用)';
+$string['bannerpositionbottom'] = '下部';
 $string['tabposition'] = 'タブポジション';
+$string['tabpositiondesc'] = 'プライバシー設定タブが表示される場所を選択してください。';
 $string['tabpositionbottomright'] = '右下部';
 $string['tabpositionbottomleft'] = '左下部';
 $string['tabpositionverticalleft'] = '左側';
