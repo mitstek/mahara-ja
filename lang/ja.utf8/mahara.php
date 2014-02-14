@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-04 04:45:25 UTC
+ * @updated    2014-02-14 04:24:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -141,6 +141,8 @@ $string['license'] = 'ライセンス';
 $string['licenseother'] = 'その他のライセンス (URIを入力してください)';
 $string['licensedesc'] = 'このコンテンツのライセンスです。';
 $string['licensenone'] = '未選択';
+$string['licensenonedetailed'] = '%s はこのコンテンツのライセンスを選択していません。';
+$string['licensenonedetailedowner'] = 'あなたはこのコンテンツのライセンスを選択していません。';
 $string['licensingadvanced'] = 'ライセンス詳細';
 $string['licensor'] = 'ライセンサ';
 $string['licensordesc'] = 'このコンテンツのライセンサです。';

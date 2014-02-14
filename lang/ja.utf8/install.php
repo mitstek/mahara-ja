@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-01-27 06:33:43 UTC
+ * @updated    2014-02-14 04:24:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -107,19 +107,19 @@ $string['termsandconditionsdefaultcontent'] = '<h1>使用条件</h1>
 
 <p>あなたのポートフォリオを経由して公開した個人情報を原因とする、あなたが受信する未承諾のコンタクトにはあなたに責任があるものとします。システム内のユーザによる不正行為がある場合、ただちに<a href="contact.php">サイト管理者にご連絡ください</a>。システム変更およびユーザのフィードバックに基づき、私たちは使用条件を若干変更する場合があります。あなたがこのサイトを訪問するたび、使用条件の確認をお勧めします。使用条件の主要な変更に関して、私たちは[<b>サイト名</b>]ホームページにて、ユーザに告知します。</p>';
 $string['uploadcopyrightdefaultcontent'] = 'はい: 私がアップロードを試みているファイルは私に所有権があるファイル、または私に複製および配布が明確に許可されたファイルです。私がこのファイルを使用することで、国内の著作権法を侵害することはありません。また、このファイルはサイトの使用条件に合致しています。';
-$string['licensedisplaynamebysa'] = 'クリエイティブ・コモンズ 表示-継承 3.0 非移植';
-$string['licensedisplaynameby'] = 'クリエイティブ・コモンズ 表示 3.0 非移植';
-$string['licensedisplaynamebynd'] = 'クリエイティブ・コモンズ 表示-非営利-改変禁止 3.0 非移植';
-$string['licensedisplaynamebyncsa'] = 'クリエイティブ・コモンズ 表示-非営利-継承 3.0 非移植';
-$string['licensedisplaynamebync'] = 'クリエイティブ・コモンズ 表示-非営利 3.0 非移植';
-$string['licensedisplaynamebyncnd'] = 'クリエイティブ・コモンズ 表示-非営利-改変禁止 3.0 非移植';
+$string['licensedisplaynamebysa'] = 'クリエイティブ・コモンズ 表示-継承 4.0 非移植';
+$string['licensedisplaynameby'] = 'クリエイティブ・コモンズ 表示 4.0 非移植';
+$string['licensedisplaynamebynd'] = 'クリエイティブ・コモンズ 表示-非営利-改変禁止 4.0 非移植';
+$string['licensedisplaynamebyncsa'] = 'クリエイティブ・コモンズ 表示-非営利-継承 4.0 非移植';
+$string['licensedisplaynamebync'] = 'クリエイティブ・コモンズ 表示-非営利 4.0 非移植';
+$string['licensedisplaynamebyncnd'] = 'クリエイティブ・コモンズ 表示-非営利-改変禁止 4.0 非移植';
 $string['licensedisplaynamegfdl'] = 'GNU自由文書ライセンス v1.3';
-$string['licenseshortnamebysa'] = 'CC-BY-SA-3.0';
-$string['licenseshortnameby'] = 'CC-BY-3.0';
-$string['licenseshortnamebynd'] = 'CC-BY-ND-3.0';
-$string['licenseshortnamebyncsa'] = 'CC-BY-NC-SA-3.0';
-$string['licenseshortnamebync'] = 'CC-BY-NC-3.0';
-$string['licenseshortnamebyncnd'] = 'CC-BY-NC-ND-3.0';
+$string['licenseshortnamebysa'] = 'CC-BY-SA-4.0';
+$string['licenseshortnameby'] = 'CC-BY-4.0';
+$string['licenseshortnamebynd'] = 'CC-BY-ND-4.0';
+$string['licenseshortnamebyncsa'] = 'CC-BY-NC-SA-4.0';
+$string['licenseshortnamebync'] = 'CC-BY-NC-4.0';
+$string['licenseshortnamebyncnd'] = 'CC-BY-NC-ND-4.0';
 $string['licenseshortnamegfdl'] = 'GFDL-1.3';
 $string['sitepageconfigdefault'] = '「サイト管理 > サイト設定 > サイトページを編集する」';
 $string['sitepageconfiginstitution'] = '「サイト管理 > インスティテューション > サイトページを編集する」';
