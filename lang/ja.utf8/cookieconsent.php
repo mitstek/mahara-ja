@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-12 04:18:50 UTC
+ * @updated    2014-02-16 17:20:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -59,20 +59,23 @@ $string['pluginstyledesc'] = 'クッキーコンセントの概観を変更し�
 $string['pluginstyledark'] = 'ダーク';
 $string['pluginstylelight'] = 'ライト';
 $string['bannerposition'] = 'バナーポジション';
-$string['bannerpositiontop'] = '上部';
-$string['bannerpositionpush'] = '上部からプッシュする (実験用)';
-$string['bannerpositionbottom'] = '下部';
+$string['bannerpositiondesc'] = '画面最上部または最下部のどちらにコンセントバナーを表示するか選択してください。';
+$string['bannerpositiontop'] = '最上部';
+$string['bannerpositionpush'] = '最上部からプッシュする (実験用)';
+$string['bannerpositionbottom'] = '最下部';
 $string['tabposition'] = 'タブポジション';
 $string['tabpositiondesc'] = 'プライバシー設定タブが表示される場所を選択してください。';
-$string['tabpositionbottomright'] = '右下部';
-$string['tabpositionbottomleft'] = '左下部';
+$string['tabpositionbottomright'] = '右最下部';
+$string['tabpositionbottomleft'] = '左最下部';
 $string['tabpositionverticalleft'] = '左側';
 $string['tabpositionverticalright'] = '右側';
 $string['hideprivacytab'] = 'プライバシー設定タブを隠す';
+$string['hideprivacytabdesc'] = 'オリジナルの埋め込みプライバシー設定リンクを使用する場合 (例 あなたのテーマテンプレート内)、あなたは標準プライバシー設定タブを無効にしても良いでしょう。';
 $string['featureoptions'] = '機能オプション';
 $string['pagerefresh'] = 'ページリフレッシュ';
 $string['ignoredonottrack'] = '追跡拒否 (do not track) を無視する';
 $string['usessl'] = 'SSLを使用する';
+$string['usessldesc'] = 'SSLを使用してページにクッキーコンセントを表示する場合、あなたはこのオプションを選択する必要があります。';
 $string['advertisingDefaultTitle'] = '広告';
 $string['socialDefaultTitle'] = 'ソーシャルメディア';
 $string['analyticsDefaultTitle'] = 'アナリティクス';
