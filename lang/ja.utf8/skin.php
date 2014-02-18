@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-10 20:07:34 UTC
+ * @updated    2014-02-18 03:29:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -28,6 +28,7 @@ $string['validxmlfile'] = '有効なXMLファイル';
 $string['notvalidxmlfile'] = 'アップロードされたファイルは有効なXMLファイルではありません。';
 $string['import'] = 'インポート';
 $string['exportthisskin'] = 'このスキンをエクスポートする';
+$string['exportspecific'] = '「 %s 」をエクスポートする';
 $string['exportskins'] = 'スキンをエクスポートする';
 $string['createskin'] = 'スキンを作成する';
 $string['editskin'] = 'スキンを編集する';
@@ -36,11 +37,14 @@ $string['skinimported'] = 'スキンが正常にインポートされました�
 $string['clicktoedit'] = 'クリックしてスキンを編集する';
 $string['clickimagetoedit'] = 'イメージをクリックして編集する';
 $string['addtofavorites'] = 'お気に入りに追加する';
+$string['addtofavoritesspecific'] = '「 %s 」をお気に入りに追加する';
 $string['removefromfavorites'] = 'お気に入りから削除する';
+$string['removefromfavoritesspecific'] = '「 %s 」をお気に入りから削除する';
 $string['skinaddedtofavorites'] = 'お気に入りにスキンが追加されました。';
 $string['skinremovedfromfavorites'] = 'お気に入りからスキンが削除されました。';
 $string['cantremoveskinfromfavorites'] = 'お気に入りからスキンを削除できません。';
 $string['viewmetadata'] = 'スキン情報を表示する';
+$string['viewmetadataspecific'] = '「 %s 」の情報を表示する';
 $string['closemetadata'] = 'スキン情報を閉じる';
 $string['metatitle'] = 'スキン情報';
 $string['title'] = 'タイトル';
