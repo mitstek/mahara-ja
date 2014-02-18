@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-04 04:36:59 UTC
+ * @updated    2014-02-18 03:31:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -27,6 +27,8 @@ $string['cannotextractfileinfoldersubmitted'] = 'あなたは送信済みペー�
 $string['changessaved'] = '変更が保存されました。';
 $string['clickanddragtomovefile'] = '%s を移動するには、クリック&ドラッグまたはスペースを押してください。';
 $string['moveto'] = '%s に移動する';
+$string['editfolderspecific'] = 'フォルダ「 %s 」を編集する';
+$string['deletefolderspecific'] = 'フォルダ「 %s 」を削除する';
 $string['foldercontents'] = 'フォルダコンテンツ';
 $string['copyrightnotice'] = '著作権表示';
 $string['create'] = '作成';
@@ -251,6 +253,7 @@ $string['wrongfiletypeforblock'] = 'あなたがアップロードしたファ�
 $string['Contents'] = 'コンテンツ';
 $string['Continue'] = '続ける';
 $string['Decompress'] = '解凍';
+$string['decompressspecific'] = '「 %s 」を解凍する';
 $string['nfolders'] = '%s フォルダ';
 $string['nfiles'] = '%s ファイル';
 $string['createdtwothings'] = '%s および %s を作成しました。';

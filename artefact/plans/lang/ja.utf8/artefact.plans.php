@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-01-22 05:40:49 UTC
+ * @updated    2014-02-18 03:32:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -21,6 +21,7 @@ $string['deletethisplan'] = 'プランを削除する: %s';
 $string['editplan'] = 'プランを編集する';
 $string['editingplan'] = 'プランの編集';
 $string['managetasks'] = 'タスクを管理する';
+$string['managetasksspecific'] = '「 %s 」のタスクを管理する';
 $string['newplan'] = '新しいプラン';
 $string['noplansaddone'] = 'まだプランはありません。%sプランを追加してください%s!';
 $string['noplans'] = '表示するプランはありません。';

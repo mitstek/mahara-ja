@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-18 02:48:14 UTC
+ * @updated    2014-02-18 03:33:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -929,6 +929,7 @@ $string['groupadmins'] = '管理者';
 $string['grouptype'] = 'グループタイプ';
 $string['groupvisible'] = '可視性';
 $string['groupmanage'] = '管理';
+$string['groupmanagespecific'] = '「 %s 」を管理する';
 $string['groupdelete'] = '削除';
 $string['managegroupquotadescription'] = 'このグループのグループファイルクオータを変更するため、このフォームを使用してください。';
 $string['managegroupdescription'] = 'グループの管理者を割り当ておよび割り当て解除するため、このフォームを使用してください。';
