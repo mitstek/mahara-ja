@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-08 05:04:12 UTC
+ * @updated    2014-02-18 02:43:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -138,6 +138,9 @@ $string['otherusersandgroups'] = '他のユーザおよびグループと共有�
 $string['moreoptions'] = '高度な設定';
 $string['moreinstitutions'] = 'さらにインスティテューションを表示する';
 $string['allviews'] = 'すべてのページ';
+$string['addaccess'] = '「 %s 」へのアクセスを追加する';
+$string['addaccessinstitution'] = 'インスティテューション「 %s 」へのアクセスを追加する';
+$string['addaccessgroup'] = 'グループ「 %s 」へのアクセスを追加する';
 $string['submitconfirm'] = '評価のために「 %s 」を「 %s 」に送信した場合、チューターが評価を終えるまで、あなたはコンテンツを編集することができません。本当に送信してもよろしいですか?';
 $string['collectionsubmitted'] = 'コレクションが送信されました。';
 $string['viewsalreadysubmitted'] = 'このコレクション内のいくつかのページはすでに送信されています:<br />%s<br />それらのページがリリースされるまで、あなたはコレクションを送信することができません。';
