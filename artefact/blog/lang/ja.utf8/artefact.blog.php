@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-10-03 07:38:17 UTC
+ * @updated    2014-02-18 02:47:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -50,6 +50,8 @@ $string['dataimportedfrom'] = '%s からインポートされたデータ';
 $string['defaultblogtitle'] = '%s の日誌';
 $string['delete'] = '削除';
 $string['deleteblog?'] = '本当にこの日誌を削除してもよろしいですか?';
+$string['deletebloghaspost?'] = 'この日誌は %d エントリを含みます。本当にこの日誌を削除してもよろしいですか?';
+$string['deletebloghasview?'] = 'この日誌は %d ページで使用されているエントリを含みます。本当にこの日誌を削除してもよろしいですか?';
 $string['deleteblogpost?'] = '本当にこのエントリを削除してもよろしいですか?';
 $string['description'] = '説明';
 $string['dimensions'] = 'サイズ';
