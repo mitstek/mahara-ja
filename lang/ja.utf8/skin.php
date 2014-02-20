@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-18 03:29:22 UTC
+ * @updated    2014-02-20 04:59:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -35,7 +35,8 @@ $string['editskin'] = 'スキンを編集する';
 $string['skinsaved'] = 'スキンが正常に保存されました。';
 $string['skinimported'] = 'スキンが正常にインポートされました。';
 $string['clicktoedit'] = 'クリックしてスキンを編集する';
-$string['clickimagetoedit'] = 'イメージをクリックして編集する';
+$string['skinpreview'] = '「 %s 」のプレビュー';
+$string['skinpreviewedit'] = '「 %s 」のプレビュー - 編集するにはクリック';
 $string['addtofavorites'] = 'お気に入りに追加する';
 $string['addtofavoritesspecific'] = '「 %s 」をお気に入りに追加する';
 $string['removefromfavorites'] = 'お気に入りから削除する';
