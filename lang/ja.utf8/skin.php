@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-20 04:59:16 UTC
+ * @updated    2014-02-21 03:58:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -31,6 +31,7 @@ $string['exportthisskin'] = 'このスキンをエクスポートする';
 $string['exportspecific'] = '「 %s 」をエクスポートする';
 $string['exportskins'] = 'スキンをエクスポートする';
 $string['createskin'] = 'スキンを作成する';
+$string['editthisskin'] = 'このスキンを編集する';
 $string['editskin'] = 'スキンを編集する';
 $string['skinsaved'] = 'スキンが正常に保存されました。';
 $string['skinimported'] = 'スキンが正常にインポートされました。';

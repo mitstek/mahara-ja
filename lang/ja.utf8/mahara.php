@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-18 03:27:45 UTC
+ * @updated    2014-02-21 03:57:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -51,14 +51,16 @@ $string['admin'] = '管理';
 $string['menu'] = 'メニュー';
 $string['no'] = 'No';
 $string['yes'] = 'Yes';
-$string['none'] = 'なし';
 $string['at'] = '@';
 $string['From'] = '開始日';
 $string['To'] = '終了日';
-$string['All'] = 'すべて';
 $string['ascending'] = '昇順';
 $string['descending'] = '降順';
 $string['sortorder'] = 'ファイルの並び順';
+$string['All'] = 'すべて';
+$string['none'] = 'なし';
+$string['selectall'] = 'すべてを選択する';
+$string['selectnone'] = 'すべての選択を解除する';
 $string['enable'] = '有効にする';
 $string['disable'] = '無効にする';
 $string['show'] = '表示';
