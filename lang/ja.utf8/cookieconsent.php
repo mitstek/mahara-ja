@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-16 17:20:09 UTC
+ * @updated    2014-02-22 12:37:28 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -41,8 +41,14 @@ $string['readdirectiveSV'] = 'ディレクティブ2009/136/ECを読む (スウ�
 $string['cookieconsentenable'] = 'クッキーコンセントを有効にしますか?';
 $string['cookieconsentenabled'] = 'クッキーコンセントが有効にされ、設定が保存されました。';
 $string['cookieconsentdisabled'] = 'クッキーコンセントが無効にされました。';
+$string['cookieconsent2'] = '追加サイト修正';
+$string['additionalmodifications'] = 'クッキーコントロールを完全に有効にしたい場合、あなたのテーマヘッダファイルまたは<tt>$cfg->additionalhtmlhead</tt>設定をを修正または更新する必要があります。';
+$string['instructiontext3'] = '「 %s 」のクラスを<tt>&lt;script&gt;</tt>タグに追加する';
 $string['example1social'] = 'FacebookボタンおよびTwitterウィジェット';
 $string['example'] = '例';
+$string['examplebefore'] = '前:';
+$string['exampleafter'] = '後 (変更は太字):';
+$string['itdidntwork'] = '動作しませんでした。';
 $string['generaloptions'] = '一般オプション';
 $string['cookietypes'] = 'クッキータイプ';
 $string['cookietypesdesc'] = 'あなたのサイトで使用しているクッキータイプを選択してください。';
@@ -51,7 +57,9 @@ $string['cookietypesanalytics'] = 'アナリティクス';
 $string['cookietypesadvertising'] = '広告';
 $string['cookietypesnecessary'] = '厳密に必要';
 $string['consentmode'] = 'コンセントモード';
-$string['consentmodeexplicit'] = '明確 - ビジターが承諾するまでクッキーを設定しません。';
+$string['consentmodedesc1'] = 'ブラウザの「行動追跡拒否 (do not track)」設定が有効にされている場合、(下記「機能オプション」でオーバーライドされない限り」) クッキーコンセントは常に明示モードを使用します。';
+$string['consentmodedesc2'] = '最新バージョンのInternet Explorerでは「行動追跡拒否 (do not track)」設定がデフォルトで有効にされています。';
+$string['consentmodeexplicit'] = '明示 - ビジターが承諾するまでクッキーを設定しません。';
 $string['consentmodeimplicit'] = '暗黙 - クッキーを設定して、ビジターによる使用停止を許可します。';
 $string['stylingoptions'] = 'スタイリングオプション';
 $string['pluginstyle'] = 'スタイル';
@@ -73,12 +81,19 @@ $string['hideprivacytab'] = 'プライバシー設定タブを隠す';
 $string['hideprivacytabdesc'] = 'オリジナルの埋め込みプライバシー設定リンクを使用する場合 (例 あなたのテーマテンプレート内)、あなたは標準プライバシー設定タブを無効にしても良いでしょう。';
 $string['featureoptions'] = '機能オプション';
 $string['pagerefresh'] = 'ページリフレッシュ';
-$string['ignoredonottrack'] = '追跡拒否 (do not track) を無視する';
+$string['pagerefreshdesc'] = 'あなたにクッキー同意を認識する必要のあるサーバサイドアプリケーションがある場合、このオプションを選択することで同意後にページがリロードされます。';
+$string['ignoredonottrack'] = '行動追跡拒否 (do not track) を無視する';
+$string['ignoredonottrackdesc'] = 'この設定を有効にした場合、クッキーコンセントは訪問者のブラウザの「行動追跡拒否 (do not track) 」ヘッダを無視することを意味します。';
 $string['usessl'] = 'SSLを使用する';
 $string['usessldesc'] = 'SSLを使用してページにクッキーコンセントを表示する場合、あなたはこのオプションを選択する必要があります。';
 $string['advertisingDefaultTitle'] = '広告';
 $string['socialDefaultTitle'] = 'ソーシャルメディア';
+$string['socialDefaultDescription'] = 'Facebook、Twitterおよび他のソーシャルウェブサイトが適切に動作するためには、あなたが誰であるか知る必要があります。';
 $string['analyticsDefaultTitle'] = 'アナリティクス';
+$string['analyticsDefaultDescription'] = 'あなたの経験を改善するため、このウェブサイトサイトの利用に関して、匿名で記録します。';
+$string['advertisingDefaultDescription'] = '過去の行動および興味に基づき、あなたに広告が自動的に選択されます。';
+$string['necessaryDefaultTitle'] = '厳密に必要';
+$string['necessaryDefaultDescription'] = 'このウェブサイトのいくつかのクッキーは厳密に必要であるため、無効にすることができません。';
 $string['defaultTitle'] = 'デフォルトクッキータイトル';
 $string['defaultDescription'] = 'デフォルトクッキー説明';
 $string['learnMore'] = '詳細情報';
