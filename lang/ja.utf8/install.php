@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-14 04:24:13 UTC
+ * @updated    2014-02-24 13:06:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -121,7 +121,7 @@ $string['licenseshortnamebyncsa'] = 'CC-BY-NC-SA-4.0';
 $string['licenseshortnamebync'] = 'CC-BY-NC-4.0';
 $string['licenseshortnamebyncnd'] = 'CC-BY-NC-ND-4.0';
 $string['licenseshortnamegfdl'] = 'GFDL-1.3';
-$string['sitepageconfigdefault'] = '「サイト管理 > サイト設定 > サイトページを編集する」';
-$string['sitepageconfiginstitution'] = '「サイト管理 > インスティテューション > サイトページを編集する」';
+$string['generalpageconfigdefault'] = '「管理 > サイト設定 > 一般ページ」';
+$string['generalpageconfiginstitution'] = '「管理 > インスティテューション > 一般ページ」';
 
 ?>
