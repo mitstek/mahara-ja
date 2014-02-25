@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-29 15:58:09 UTC
+ * @updated    2014-02-25 05:12:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -61,7 +61,7 @@ $string['monitored'] = 'モニター';
 $string['stopmonitoringsuccess'] = 'モニタリングを正常に停止しました。';
 $string['stopmonitoringfailed'] = 'モニタリングの停止に失敗しました。';
 $string['newwatchlistmessage'] = 'あなたのウォッチリストの新しい活動';
-$string['newwatchlistmessageview'] = '%s がページ「 %s 」を変更しました。';
+$string['newwatchlistmessageview1'] = 'ページ「 %s 」 (作成者 %s) が変更されました。';
 $string['newviewsubject'] = '新しいページが作成されました。';
 $string['newviewmessage'] = '%s が新しいページ「 %s 」を作成しました。';
 $string['newcontactusfrom'] = '新しいお問い合わせ:';
