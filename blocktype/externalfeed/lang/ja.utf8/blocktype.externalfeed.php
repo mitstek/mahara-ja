@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-05-02 22:38:19 UTC
+ * @updated    2014-02-27 04:13:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -30,6 +30,7 @@ $string['showfeeditemsinfulldesc'] = 'ここではフィードアイテムの要
 $string['invalidurl'] = '指定されたURIが有効ではありません。あなたはhttpおよびhttpsのURIからのみフィードを表示することができます。';
 $string['invalidfeed'] = 'フィードが有効ではないようです。レポートされたエラーは次のとおりです: %s';
 $string['lastupdatedon'] = '最終更新日時: %s';
+$string['publishedon'] = '公開日時: %s';
 $string['defaulttitledescription'] = 'ここを空白にした場合、フィードのタイトルが使用されます。';
 $string['reenterpassword'] = 'あなたはフィードのURIを変更しました。パスワードを再入力 (または削除) してください。';
 
