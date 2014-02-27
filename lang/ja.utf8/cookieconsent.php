@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-22 12:37:28 UTC
+ * @updated    2014-02-27 04:41:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -98,18 +98,28 @@ $string['defaultTitle'] = 'デフォルトクッキータイトル';
 $string['defaultDescription'] = 'デフォルトクッキー説明';
 $string['learnMore'] = '詳細情報';
 $string['closeWindow'] = 'ウィンドウを閉じる';
+$string['notificationTitle'] = 'このサイトにおけるあなたの経験は次のクッキーにより改善されます';
 $string['seeDetails'] = '詳細を表示する';
 $string['seeDetailsImplicit'] = 'あなたの設定を変更する';
 $string['hideDetails'] = '詳細を隠す';
 $string['allowCookies'] = 'クッキーを許可する';
 $string['allowCookiesImplicit'] = '閉じる';
+$string['allowForAllSites'] = 'すべてのサイトに許可する';
 $string['savePreference'] = 'プリファレンスを保存する';
 $string['privacySettings'] = 'プライバシー設定';
 $string['privacySettingsDialogTitleA'] = 'プライバシー設定';
+$string['privacySettingsDialogTitleB'] = '(このウェブサイトに対して)';
+$string['privacySettingsDialogSubtitle'] = 'あなたが誰であるか記憶するため、このサイトのいくつかの機能ではあなたの同意を必要とします。';
 $string['changeForAllSitesLink'] = 'すべてのウェブサイトの設定を変更する';
 $string['preferenceUseGlobal'] = 'グローバル設定を使用する';
+$string['preferenceConsent'] = '同意します';
+$string['preferenceDecline'] = '同意しません';
 $string['notUsingCookies'] = 'このウェブサイトはクッキーを使用しません。';
 $string['allSitesSettingsDialogTitleA'] = 'プライバシー設定';
+$string['allSitesSettingsDialogTitleB'] = '(すべてのウェブサイトに対して)';
 $string['backToSiteSettings'] = 'ウェブサイト設定に戻る';
+$string['preferenceAsk'] = '私に毎回尋ねる';
+$string['preferenceAlways'] = '常に許可する';
+$string['preferenceNever'] = '許可しない';
 
 ?>
