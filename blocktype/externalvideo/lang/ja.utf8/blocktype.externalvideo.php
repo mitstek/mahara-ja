@@ -30,8 +30,8 @@ defined('INTERNAL') || die();
 
 $string['title'] = '外部ビデオ';
 $string['description'] = '外部ビデオを埋め込みます。';
-$string['videourl'] = 'ビデオURI';
-$string['videourldescription2'] = 'ビデオが設置されている場所の、埋め込みコードまたはURIをペーストしてください。あなたは次のサイトよりビデオを埋め込むことができます:';
+$string['videourl'] = 'ビデオURL';
+$string['videourldescription2'] = 'ビデオが設置されている場所の、埋め込みコードまたはURLをペーストしてください。あなたは次のサイトよりビデオを埋め込むことができます:';
 $string['width'] = '幅';
 $string['height'] = '高さ';
 
