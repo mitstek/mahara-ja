@@ -15,8 +15,8 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'Google Apps';
 $string['description'] = 'Googleカレンダーおよびドキュメントを埋め込みます。';
-$string['appscodeorurl'] = 'コードまたはURIを埋め込む';
-$string['appscodeorurldesc'] = 'Google Appsを外部から閲覧できるページのコードまたはURIを貼り付けてください。';
+$string['appscodeorurl'] = 'コードまたはURLを埋め込む';
+$string['appscodeorurldesc'] = 'Google Appsを外部から閲覧できるページのコードまたはURLを貼り付けてください。';
 $string['height'] = '高さ';
 
 ?>
