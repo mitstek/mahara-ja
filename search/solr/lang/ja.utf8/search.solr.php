@@ -28,7 +28,7 @@
 
 defined('INTERNAL') || die();
 
-$string['solrurl'] = 'Solr URI';
+$string['solrurl'] = 'Solr URL';
 $string['indexcontrol'] = 'インデックスコントロール';
 $string['reindexusers'] = 'ユーザを再インデックスする';
 $string['reindexartefacts'] = 'アーティファクトを再インデックスする';
