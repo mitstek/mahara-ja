@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-10-21 21:40:17 UTC
+ * @updated    2014-03-15 16:12:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -90,5 +90,11 @@ $string['nodescription'] = '(説明なし)';
 $string['cannotfindcreateartefact'] = '見つからない、またはアーティファクトを作成できません。';
 $string['duplicateattachment'] = 'すでにこのセクションの別のエントリにファイル「 %s 」が使用されています。あなたは同一ファイルを2度使用することはできません。';
 $string['duplicateattachments'] = 'すでにこのセクションの別のエントリにファイル「 %s 」が使用されています。あなたは同一ファイルを2度使用することはできません。';
+$string['editacademicgoal'] = 'アカデミックゴールを編集する';
+$string['editcareergoal'] = 'キャリアゴールを編集する';
+$string['editpersonalgoal'] = 'パーソナルゴールを編集する';
+$string['editacademicskill'] = 'アカデミックスキルを編集する';
+$string['editpersonalskill'] = 'パーソナルスキルを編集する';
+$string['editworkskill'] = 'ワークスキルを編集する';
 
 ?>
