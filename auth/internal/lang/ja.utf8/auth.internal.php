@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-09 22:45:10 UTC
+ * @updated    2014-03-15 16:49:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -25,6 +25,8 @@ $string['passwordformdescription'] = 'あなたのパスワードには少なく
 $string['passwordinvalidform'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。
 <br />
 セキュリティ上の理由から、パスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。';
+$string['recaptcharegistertitle'] = 'reCAPTCHAチャレンジ';
+$string['recaptcharegisterdesc'] = 'ボックスに表示されているワード (半角英数字) を入力してください。この操作により、自動プログラムによるシステム悪用を防ぎます。';
 $string['registeredemailsubject'] = 'あなたは %s に登録されました。';
 $string['registeredemailmessagetext'] = '%s さん
 

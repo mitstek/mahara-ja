@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-24 13:03:34 UTC
+ * @updated    2014-03-15 16:46:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -382,10 +382,10 @@ $string['itemupdated'] = 'アイテムが更新されました。';
 $string['approvalrequired'] = '要承認';
 $string['authentication'] = '認証';
 $string['cantchangepassword'] = '申し訳ございません、このインターフェース経由でパスワードを変更することはできません - 代わりに、あなたのインスティテューションのインターフェースを使用してください。';
-$string['forgotusernamepassword'] = 'あなたのユーザ名またはパスワードを忘れましたが?';
+$string['forgotusernamepassword'] = 'あなたのユーザ名またはパスワードを忘れましたか?';
 $string['forgotusernamepasswordtextprimaryemail'] = '<p>あなたがユーザ名またはパスワードを忘れた場合、あなたのプロファイルに登録された主メールアドレスを下記に入力してください。あなたが新しいパスワードを作成することのできるメッセージを送信します。</p>
 <p>あなたがパスワードを忘れて、ユーザ名を忘れていない場合、ユーザ名を入力することもできます。</p>';
-$string['lostusernamepassword'] = 'ユーザ名/パスワードを忘れました。';
+$string['lostusernamepassword'] = 'ユーザ名/パスワード喪失';
 $string['emailaddressorusername'] = 'メールアドレスまたはユーザ名';
 $string['pwchangerequestsent'] = 'あなたのパスワードを変更するためのリンクを記載したメールが、まもなく送信されます。';
 $string['forgotusernamepasswordemailsubject'] = '%s に関するユーザ名/パスワード詳細';

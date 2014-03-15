@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-26 05:51:26 UTC
+ * @updated    2014-03-15 17:09:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -303,6 +303,14 @@ $string['licenseallowcustom'] = 'カスタムライセンスを許可する';
 $string['licenseallowcustomdescription'] = 'ライセンスメタデータに関して、ユーザがライセンスのURLを入力できるようにします。チェックしない場合、ユーザはサイト管理者が設定したライセンスに制限されます。';
 $string['allowmobileuploads'] = 'モバイルアップロードを有効にする';
 $string['allowmobileuploadsdescription'] = 'チェックした場合、ユーザは認証トークンを設定することができます - このトークンを使用してアップロードされたコンテンツはアーティファクトとして保存されます。';
+$string['recaptchakeysmissing'] = 'reCAPTCHAは有効にされましたが、あなたがプライベートおよびパブリックキーを提供するまで機能しません。';
+$string['recaptchanotpassed'] = 'reCAPTCHAが正しく入力されていません。再度お試しください。';
+$string['recaptchaonregisterform'] = 'ユーザ登録フォームのreCAPTCHA';
+$string['recaptchaonregisterformdesc'] = 'チェックした場合、ユーザは自分が人間であることを証明するため、新しいアカウントの自己登録時に<a href="http://recaptcha.org/">reCAPTCHA</a>テストを通過する必要があります。';
+$string['recaptchaprivatekey'] = 'reCAPTCHAプライベートキー';
+$string['recaptchaprivatekeydesc'] = 'あなたのサイトのreCAPTCHAアカウントのプライベートキーです。';
+$string['recaptchapublickey'] = 'reCAPTCHAパブリックキー';
+$string['recaptchapublickeydesc'] = 'あなたのサイトのreCAPTCHAアカウントのパブリックキーです。';
 $string['remoteavatars'] = 'リモートアバタを表示する';
 $string['remoteavatarsdescription'] = 'チェックした場合、ユーザのデフォルトプロファイル写真に<a href="http://www.gravatar.com">Gravatar</a>サービスが利用されます。';
 $string['searchplugin'] = '検索プラグイン';
