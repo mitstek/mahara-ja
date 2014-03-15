@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-03-15 18:39:16 UTC
+ * @updated    2014-03-15 18:58:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,30 +14,31 @@
 defined('INTERNAL') || die();
 
 $string['cookieconsent'] = 'クッキーコンセント';
-$string['readfulltext1'] = 'ディレクティブの全文を読む';
-$string['directive2009136'] = 'ディレクティブ2009/136/EC';
-$string['readdirectiveBG'] = 'ディレクティブ2009/136/ECを読む (ブルガリア語)';
-$string['readdirectiveCS'] = 'ディレクティブ2009/136/ECを読む (チェコ語)';
-$string['readdirectiveDA'] = 'ディレクティブ2009/136/ECを読む (デンマーク語)';
-$string['readdirectiveDE'] = 'ディレクティブ2009/136/ECを読む (ドイツ語)';
-$string['readdirectiveEL'] = 'ディレクティブ2009/136/ECを読む (ギリシャ語)';
-$string['readdirectiveEN'] = 'ディレクティブ2009/136/ECを読む (英語)';
-$string['readdirectiveES'] = 'ディレクティブ2009/136/ECを読む (スペイン語)';
-$string['readdirectiveET'] = 'ディレクティブ2009/136/ECを読む (エストニア語)';
-$string['readdirectiveFI'] = 'ディレクティブ2009/136/ECを読む (フィンランド語)';
-$string['readdirectiveFR'] = 'ディレクティブ2009/136/ECを読む (フランス語)';
-$string['readdirectiveHU'] = 'ディレクティブ2009/136/ECを読む (ハンガリー語)';
-$string['readdirectiveIT'] = 'ディレクティブ2009/136/ECを読む (イタリア語)';
-$string['readdirectiveLT'] = 'ディレクティブ2009/136/ECを読む (リトアニア語)';
-$string['readdirectiveLV'] = 'ディレクティブ2009/136/ECを読む (ラトビア語)';
-$string['readdirectiveMT'] = 'ディレクティブ2009/136/ECを読む (マルタ語)';
-$string['readdirectiveNL'] = 'ディレクティブ2009/136/ECを読む (オランダ語)';
-$string['readdirectivePL'] = 'ディレクティブ2009/136/ECを読む (ポーランド語)';
-$string['readdirectivePT'] = 'ディレクティブ2009/136/ECを読む (ポルトガル語)';
-$string['readdirectiveRO'] = 'ディレクティブ2009/136/ECを読む (ルーマニア語)';
-$string['readdirectiveSK'] = 'ディレクティブ2009/136/ECを読む (スロバキア語)';
-$string['readdirectiveSL'] = 'ディレクティブ2009/136/ECを読む (スロベニア語)';
-$string['readdirectiveSV'] = 'ディレクティブ2009/136/ECを読む (スウェーデン語)';
+$string['cookieconsentintro1'] = '欧州議会および理事会の2009/136/EC命令は「クッキー命令」または「クッキー法」として知られています。これは欧州におけるクッキー同意に関する必要条件を定義した法律文書です。これは基本的に前の命令「2002/58/EC」の修正案です。そして、ウェブのデータおよびプライバシー、その他の電子コミュニケーションに対して、広範に関係します。';
+$string['readfulltext1'] = '命令全文を読む';
+$string['directive2009136'] = '命令2009/136/EC';
+$string['readdirectiveBG'] = '命令2009/136/ECを読む (ブルガリア語)';
+$string['readdirectiveCS'] = '命令2009/136/ECを読む (チェコ語)';
+$string['readdirectiveDA'] = '命令2009/136/ECを読む (デンマーク語)';
+$string['readdirectiveDE'] = '命令2009/136/ECを読む (ドイツ語)';
+$string['readdirectiveEL'] = '命令2009/136/ECを読む (ギリシャ語)';
+$string['readdirectiveEN'] = '命令2009/136/ECを読む (英語)';
+$string['readdirectiveES'] = '命令2009/136/ECを読む (スペイン語)';
+$string['readdirectiveET'] = '命令2009/136/ECを読む (エストニア語)';
+$string['readdirectiveFI'] = '命令2009/136/ECを読む (フィンランド語)';
+$string['readdirectiveFR'] = '命令2009/136/ECを読む (フランス語)';
+$string['readdirectiveHU'] = '命令2009/136/ECを読む (ハンガリー語)';
+$string['readdirectiveIT'] = '命令2009/136/ECを読む (イタリア語)';
+$string['readdirectiveLT'] = '命令2009/136/ECを読む (リトアニア語)';
+$string['readdirectiveLV'] = '命令2009/136/ECを読む (ラトビア語)';
+$string['readdirectiveMT'] = '命令2009/136/ECを読む (マルタ語)';
+$string['readdirectiveNL'] = '命令2009/136/ECを読む (オランダ語)';
+$string['readdirectivePL'] = '命令2009/136/ECを読む (ポーランド語)';
+$string['readdirectivePT'] = '命令2009/136/ECを読む (ポルトガル語)';
+$string['readdirectiveRO'] = '命令2009/136/ECを読む (ルーマニア語)';
+$string['readdirectiveSK'] = '命令2009/136/ECを読む (スロバキア語)';
+$string['readdirectiveSL'] = '命令2009/136/ECを読む (スロベニア語)';
+$string['readdirectiveSV'] = '命令2009/136/ECを読む (スウェーデン語)';
 $string['cookieconsentenable'] = 'クッキーコンセントを有効にしますか?';
 $string['cookieconsentenabled'] = 'クッキーコンセントが有効にされ、設定が保存されました。';
 $string['cookieconsentdisabled'] = 'クッキーコンセントが無効にされました。';
@@ -47,7 +48,7 @@ $string['instructiontext1'] = '%s クッキーを設定するJavaスクリプト
 $string['instructiontext2'] = 'タイプ属性が「text/javascript」から「text/plain」になるよう、<tt>&lt;script&gt;</tt>タグを修正します。';
 $string['instructiontext3'] = '「 %s 」のクラスを<tt>&lt;script&gt;</tt>タグに追加する';
 $string['example1social'] = 'FacebookボタンおよびTwitterウィジェット';
-$string['example1analytics'] = 'Google アナリティクス‎および統計カウンタ';
+$string['example1analytics'] = 'Googleアナリティクス‎および統計カウンタ';
 $string['example1advertising'] = 'Googleアドセンスおよび他のターゲット広告プラグイン';
 $string['example1necessary'] = 'Googleアドセンスおよび他のターゲット広告プラグイン';
 $string['example'] = '例';
@@ -127,7 +128,7 @@ $string['preferenceDecline'] = '同意しません';
 $string['notUsingCookies'] = 'このウェブサイトはクッキーを使用しません。';
 $string['allSitesSettingsDialogTitleA'] = 'プライバシー設定';
 $string['allSitesSettingsDialogTitleB'] = '(すべてのウェブサイトに対して)';
-$string['allSitesSettingsDialogSubtitle'] = 'このプラグインを使用するため、あなたはすべてのウェブサイトに対して、これらのクッキーを同意することができます。';
+$string['allSitesSettingsDialogSubtitle'] = 'このプラグインを使用するため、あなたはすべてのウェブサイトに対して、これらのクッキーに同意することができます。';
 $string['backToSiteSettings'] = 'ウェブサイト設定に戻る';
 $string['preferenceAsk'] = '私に毎回尋ねる';
 $string['preferenceAlways'] = '常に許可する';
