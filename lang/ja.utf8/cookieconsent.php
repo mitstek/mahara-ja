@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-03-15 18:58:19 UTC
+ * @updated    2014-03-15 19:21:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,6 +15,7 @@ defined('INTERNAL') || die();
 
 $string['cookieconsent'] = 'クッキーコンセント';
 $string['cookieconsentintro1'] = '欧州議会および理事会の2009/136/EC命令は「クッキー命令」または「クッキー法」として知られています。これは欧州におけるクッキー同意に関する必要条件を定義した法律文書です。これは基本的に前の命令「2002/58/EC」の修正案です。そして、ウェブのデータおよびプライバシー、その他の電子コミュニケーションに対して、広範に関係します。';
+$string['cookieconsentintro2'] = '新しい命令は2011年5月25日に発効されました。本文は26ページに渡りますが、クッキーに関する最も重要な段落は20ページにあります。これは前の命令「2002/58/EC」の記事5(3)を修正したものです。';
 $string['readfulltext1'] = '命令全文を読む';
 $string['directive2009136'] = '命令2009/136/EC';
 $string['readdirectiveBG'] = '命令2009/136/ECを読む (ブルガリア語)';
