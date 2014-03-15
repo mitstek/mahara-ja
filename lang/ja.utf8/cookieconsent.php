@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-03-15 21:14:58 UTC
+ * @updated    2014-03-15 21:17:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -42,7 +42,7 @@ $string['readdirectiveSK'] = '命令2009/136/ECを読む (スロバキア語)';
 $string['readdirectiveSL'] = '命令2009/136/ECを読む (スロベニア語)';
 $string['readdirectiveSV'] = '命令2009/136/ECを読む (スウェーデン語)';
 $string['cookieconsentintro4'] = '要するに、コンピュータ、モバイルフォンまたは他のデバイスから情報を保存または検索する前に、ユーザが同意する必要があることを意味します。この目的はエンドユーザのプライバシーを増すこと、そして国民が知ることなしに組織が情報を取得することを防ぐことにあります。';
-$string['cookieconsentintro51'] = '最初に下記の%sSilktideによるクッキーコンセントプラグイン%sを有効にして必要なオプションを設定した後、あなたの変更を保存してください。あなたはクッキーコントロールを有効にするため、修正に関する詳細インストラクション、またはあなたのテーマヘッダファイルまたは<tt>$cfg->additionalhtmlhead</tt>設定ファイルの更新方法に関して記載された別ページにリダイレクトされます。';
+$string['cookieconsentintro51'] = '最初に下記の%sSilktideによるクッキーコンセントプラグイン%sを有効にして必要なオプションを設定した後、あなたの変更を保存してください。あなたはクッキーコントロールを有効にするため、修正に関する詳細インストラクション、またはあなたのテーマヘッダファイルまたは「$cfg->additionalhtmlhead」設定の更新方法に関して記載された別ページにリダイレクトされます。';
 $string['cookieconsentenable'] = 'クッキーコンセントを有効にしますか?';
 $string['cookieconsentenabled'] = 'クッキーコンセントが有効にされ、設定が保存されました。';
 $string['cookieconsentdisabled'] = 'クッキーコンセントが無効にされました。';
