@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-27 04:41:42 UTC
+ * @updated    2014-03-15 18:39:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -43,12 +43,19 @@ $string['cookieconsentenabled'] = 'クッキーコンセントが有効にされ
 $string['cookieconsentdisabled'] = 'クッキーコンセントが無効にされました。';
 $string['cookieconsent2'] = '追加サイト修正';
 $string['additionalmodifications'] = 'クッキーコントロールを完全に有効にしたい場合、あなたのテーマヘッダファイルまたは<tt>$cfg->additionalhtmlhead</tt>設定をを修正または更新する必要があります。';
+$string['instructiontext1'] = '%s クッキーを設定するJavaスクリプトを探します。例には %s を含むことができます。';
+$string['instructiontext2'] = 'タイプ属性が「text/javascript」から「text/plain」になるよう、<tt>&lt;script&gt;</tt>タグを修正します。';
 $string['instructiontext3'] = '「 %s 」のクラスを<tt>&lt;script&gt;</tt>タグに追加する';
 $string['example1social'] = 'FacebookボタンおよびTwitterウィジェット';
+$string['example1analytics'] = 'Google アナリティクス‎および統計カウンタ';
+$string['example1advertising'] = 'Googleアドセンスおよび他のターゲット広告プラグイン';
+$string['example1necessary'] = 'Googleアドセンスおよび他のターゲット広告プラグイン';
 $string['example'] = '例';
-$string['examplebefore'] = '前:';
-$string['exampleafter'] = '後 (変更は太字):';
+$string['examplebefore'] = '変更前:';
+$string['exampleafter'] = '変更後 (変更は太字):';
 $string['itdidntwork'] = '動作しませんでした。';
+$string['itdidntwork1'] = '最初に「<b>%s</b>」を「<b>%s</b>」の代わりに使用してください。これにより、<tt>document.write()</tt>を使用するJavaスクリプトプラグインを調整します。';
+$string['itdidntwork2'] = 'これが手助けとならない場合、%sクッキーコンセントコード例ページをチェックするか%s、%sクッキーコンセントLinkedInグループ%sにご相談ください。';
 $string['generaloptions'] = '一般オプション';
 $string['cookietypes'] = 'クッキータイプ';
 $string['cookietypesdesc'] = 'あなたのサイトで使用しているクッキータイプを選択してください。';
@@ -99,6 +106,8 @@ $string['defaultDescription'] = 'デフォルトクッキー説明';
 $string['learnMore'] = '詳細情報';
 $string['closeWindow'] = 'ウィンドウを閉じる';
 $string['notificationTitle'] = 'このサイトにおけるあなたの経験は次のクッキーにより改善されます';
+$string['notificationTitleImplicit'] = 'あなたが私たちのウェブサイトで最良の経験を得ることを保証するため、私たちはクッキーを使用します。';
+$string['customCookie'] = 'このウェブサイトでは特定の承認が必要なカスタムタイプのクッキーを使用しています。';
 $string['seeDetails'] = '詳細を表示する';
 $string['seeDetailsImplicit'] = 'あなたの設定を変更する';
 $string['hideDetails'] = '詳細を隠す';
@@ -106,6 +115,7 @@ $string['allowCookies'] = 'クッキーを許可する';
 $string['allowCookiesImplicit'] = '閉じる';
 $string['allowForAllSites'] = 'すべてのサイトに許可する';
 $string['savePreference'] = 'プリファレンスを保存する';
+$string['saveForAllSites'] = 'すべてのサイトに保存する';
 $string['privacySettings'] = 'プライバシー設定';
 $string['privacySettingsDialogTitleA'] = 'プライバシー設定';
 $string['privacySettingsDialogTitleB'] = '(このウェブサイトに対して)';
@@ -117,6 +127,7 @@ $string['preferenceDecline'] = '同意しません';
 $string['notUsingCookies'] = 'このウェブサイトはクッキーを使用しません。';
 $string['allSitesSettingsDialogTitleA'] = 'プライバシー設定';
 $string['allSitesSettingsDialogTitleB'] = '(すべてのウェブサイトに対して)';
+$string['allSitesSettingsDialogSubtitle'] = 'このプラグインを使用するため、あなたはすべてのウェブサイトに対して、これらのクッキーを同意することができます。';
 $string['backToSiteSettings'] = 'ウェブサイト設定に戻る';
 $string['preferenceAsk'] = '私に毎回尋ねる';
 $string['preferenceAlways'] = '常に許可する';
