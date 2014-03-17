@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-03-15 17:09:16 UTC
+ * @updated    2014-03-17 03:45:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -90,6 +90,8 @@ $string['siteviews'] = 'サイトページ';
 $string['siteviewsdescription'] = 'サイト全体のページおよびページテンプレートを作成および管理します。';
 $string['networking'] = 'ネットワーキング';
 $string['networkingdescription'] = 'Maharaのネットワーキングを設定します。';
+$string['cookieconsent'] = 'クッキーコンセント';
+$string['cookieconsentdescription'] = '「クッキーコンセント」ユーザプライバシーシステムを設定します。';
 $string['staffusers'] = 'スタッフユーザ';
 $string['staffusersdescription'] = 'スタッフパーミッションをユーザに割り当てます。';
 $string['adminusers'] = '管理ユーザ';
