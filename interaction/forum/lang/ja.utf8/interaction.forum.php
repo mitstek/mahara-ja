@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-18 03:33:17 UTC
+ * @updated    2014-03-24 04:20:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -122,6 +122,8 @@ $string['Reply'] = '返信';
 $string['replyforumpostnotificationsubjectline'] = 'Re: %s';
 $string['Re:'] = 'Re:';
 $string['replyto'] = '返信:';
+$string['sendnow'] = '今すぐメッセージを送信する';
+$string['sendnowdescription'] = '少なくとも %s 分待つのではなく、すぐにメッセージを送信します。';
 $string['Sticky'] = 'スティッキー';
 $string['stickydescription'] = 'スティッキートピックはすべてのページトップに表示されます。';
 $string['stickytopics'] = 'スティッキートピック';
