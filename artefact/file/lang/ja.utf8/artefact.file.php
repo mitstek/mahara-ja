@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-03-24 01:44:20 UTC
+ * @updated    2014-04-13 17:03:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -270,14 +270,23 @@ $string['unzipprogress'] = '%s 個のファイル/フォルダが作成されま
 $string['filepermission.view'] = '閲覧';
 $string['filepermission.edit'] = '編集';
 $string['filepermission.republish'] = '公開';
+$string['zipdownloadheading'] = 'フォルダダウンロード';
 $string['downloadfolderzip'] = 'フォルダをZIPファイルとしてダウンロードする';
 $string['downloadfolderzipblock'] = 'ダウンロードリンクを表示する';
-$string['downloadfolderzipdescription'] = 'チェックした場合、ユーザは「メディア -> フォルダブロック」経由でフォルダをZIPファイルとしてダウンロードすることができます。';
+$string['downloadfolderzipdescription1'] = 'チェックした場合、ユーザは「フォルダ」ブロックに表示されたフォルダをZIPファイルとしてダウンロードすることができます。';
 $string['downloadfolderzipdescriptionblock'] = 'チェックした場合、ユーザはフォルダをZIPファイルとしてダウンロードすることができます。';
 $string['downloadfolderziplink'] = 'ダウンロード';
 $string['folderdownloadnofolderfound'] = 'ID %d のフォルダが見つかりません。';
 $string['zipfilenameprefix'] = 'フォルダ';
 $string['keepzipfor'] = 'ZIPファイルの保持期間';
 $string['keepzipfordescription'] = 'ZIPファイルを保持する秒数です。';
+$string['progress_archive'] = '%s アーカイブファイルを追加する';
+$string['progress_audio'] = '%s オーディオファイルを追加する';
+$string['progress_file'] = '%s ファイルを追加する';
+$string['progress_folder'] = '%s フォルダを追加する';
+$string['progress_image'] = '%s イメージを追加する';
+$string['progress_profileicon'] = '%s プロファイル写真を追加する';
+$string['progress_video'] = '%s ビデオを追加する';
+$string['anytypeoffile'] = 'ファイル (すべてのタイプ)';
 
 ?>
