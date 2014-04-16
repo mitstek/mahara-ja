@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-10-03 07:38:17 UTC
+ * @updated    2014-04-16 21:35:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -48,8 +48,9 @@ $string['createasdraftdesc'] = '日誌エントリを作成しますが、あな
 $string['createblog'] = '日誌を作成する';
 $string['dataimportedfrom'] = '%s からインポートされたデータ';
 $string['defaultblogtitle'] = '%s の日誌';
-$string['delete'] = '削除';
 $string['deleteblog?'] = '本当にこの日誌を削除してもよろしいですか?';
+$string['deletebloghaspost?'] = 'この日誌は %d エントリを含みます。本当にこの日誌を削除してもよろしいですか?';
+$string['deletebloghasview?'] = 'この日誌は %d ページで使用されているエントリを含みます。本当にこの日誌を削除してもよろしいですか?';
 $string['deleteblogpost?'] = '本当にこのエントリを削除してもよろしいですか?';
 $string['description'] = '説明';
 $string['dimensions'] = 'サイズ';
@@ -133,5 +134,7 @@ $string['duplicatedblog'] = '複製日誌';
 $string['existingblogs'] = '既存日誌';
 $string['duplicatedpost'] = '複製日誌エントリ';
 $string['existingposts'] = '既存日誌エントリ';
+$string['progress_blog'] = '日誌を追加する';
+$string['progress_blogpost'] = '日誌に %s エントリを追加する';
 
 ?>
