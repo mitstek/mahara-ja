@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-08-22 06:43:44 UTC
+ * @updated    2014-04-16 21:40:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -25,8 +25,11 @@ $string['cannotremovefromsubmittedfolder'] = 'あなたは送信済みページ�
 $string['cannotextractfilesubmitted'] = 'あなたは送信済みページでファイルを解凍できません。';
 $string['cannotextractfileinfoldersubmitted'] = 'あなたは送信済みページのフォルダ内でファイルを解凍できません。';
 $string['changessaved'] = '変更が保存されました。';
-$string['clickanddragtomovefile'] = '%s を移動するには、クリック&ドラッグしてください。';
-$string['contents'] = 'コンテンツ';
+$string['clickanddragtomovefile'] = '%s を移動するには、クリック&ドラッグまたはスペースを押してください。';
+$string['moveto'] = '%s に移動する';
+$string['editfolderspecific'] = 'フォルダ「 %s 」を編集する';
+$string['deletefolderspecific'] = 'フォルダ「 %s 」を削除する';
+$string['foldercontents'] = 'フォルダコンテンツ';
 $string['copyrightnotice'] = '著作権表示';
 $string['create'] = '作成';
 $string['Created'] = '作成日時';
@@ -68,6 +71,7 @@ $string['deletefolder?'] = '本当にこのフォルダを削除してもよろ�
 $string['Description'] = '説明';
 $string['destination'] = '作成場所';
 $string['Details'] = '詳細';
+$string['View'] = '表示';
 $string['Download'] = 'ダウンロード';
 $string['downloadfile'] = '%s をダウンロードする';
 $string['downloadoriginalversion'] = 'オリジナルバージョンをダウンロードする';
@@ -82,8 +86,10 @@ $string['fileadded'] = 'ファイルが選択されました。';
 $string['filealreadyindestination'] = 'あなたが移動しようとしたファイルはすでにフォルダに登録されています。';
 $string['fileappearsinviews'] = 'このファイルはあなたの1つまたはそれ以上のページに表示されます。';
 $string['fileattachedtoportfolioitems'] = 'このファイルはあなたのポートフォリオ内の %s アイテムに添付されました。';
+$string['fileappearsinskins'] = 'このファイルはあなたのスキンの1つまたはそれ以上の背景イメージとして使用されています。';
 $string['profileiconattachedtoportfolioitems'] = 'このプロファイル写真はあなたのポートフォリオ内の他のアイテムに添付されます。';
 $string['profileiconappearsinviews'] = 'このプロファイル写真はあなたの1つまたはそれ以上のページに表示されます。';
+$string['profileiconappearsinskins'] = 'このプロファイル写真はあなたのスキンの1つまたはそれ以上の背景イメージとして使用されています。';
 $string['fileremoved'] = 'ファイルが削除されました。';
 $string['files'] = 'ファイル';
 $string['Files'] = 'ファイル';
@@ -130,6 +136,7 @@ $string['notpublishable'] = 'あなたにはこのファイルを公開するパ
 $string['overwrite'] = '上書き';
 $string['Owner'] = 'オーナー';
 $string['parentfolder'] = '親フォルダ';
+$string['phpzipneeded'] = 'この機能を利用できるようにするには、PHP Zip拡張モジュールが必要です。';
 $string['Preview'] = 'プレビュー';
 $string['requireagreement'] = '同意を必要とする';
 $string['removingfailed'] = '削除に失敗しました: すでにファイルまたはフォルダが存在していません。';
@@ -238,6 +245,7 @@ $string['uploadprofileicon'] = 'プロファイル写真をアップロードす
 $string['uploadedprofileicon'] = 'アップロードされたプロファイル写真';
 $string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイル写真をアップロードすることができます。プロファイル写真のアップロード後、あなたのデフォルト写真として表示する写真を1つ選択してください。16x16 から%sx%s ピクセルの間であなたの写真を作成してください。';
 $string['setdefault'] = 'デフォルトに設定する';
+$string['markfordeletion'] = '削除マークを付ける';
 $string['Title'] = 'タイトル';
 $string['imagetitle'] = 'イメージタイトル';
 $string['standardavatartitle'] = '標準または外部アバター';
@@ -247,6 +255,7 @@ $string['wrongfiletypeforblock'] = 'あなたがアップロードしたファ�
 $string['Contents'] = 'コンテンツ';
 $string['Continue'] = '続ける';
 $string['Decompress'] = '解凍';
+$string['decompressspecific'] = '「 %s 」を解凍する';
 $string['nfolders'] = '%s フォルダ';
 $string['nfiles'] = '%s ファイル';
 $string['createdtwothings'] = '%s および %s を作成しました。';
@@ -261,5 +270,23 @@ $string['unzipprogress'] = '%s 個のファイル/フォルダが作成されま
 $string['filepermission.view'] = '閲覧';
 $string['filepermission.edit'] = '編集';
 $string['filepermission.republish'] = '公開';
+$string['zipdownloadheading'] = 'フォルダダウンロード';
+$string['downloadfolderzip'] = 'フォルダをZIPファイルとしてダウンロードする';
+$string['downloadfolderzipblock'] = 'ダウンロードリンクを表示する';
+$string['downloadfolderzipdescription1'] = 'チェックした場合、ユーザは「フォルダ」ブロックに表示されたフォルダをZIPファイルとしてダウンロードすることができます。';
+$string['downloadfolderzipdescriptionblock'] = 'チェックした場合、ユーザはフォルダをZIPファイルとしてダウンロードすることができます。';
+$string['downloadfolderziplink'] = 'ダウンロード';
+$string['folderdownloadnofolderfound'] = 'ID %d のフォルダが見つかりません。';
+$string['zipfilenameprefix'] = 'フォルダ';
+$string['keepzipfor'] = 'ZIPファイルの保持期間';
+$string['keepzipfordescription'] = 'ZIPファイルを保持する秒数です。';
+$string['progress_archive'] = '%s アーカイブファイルを追加する';
+$string['progress_audio'] = '%s オーディオファイルを追加する';
+$string['progress_file'] = '%s ファイルを追加する';
+$string['progress_folder'] = '%s フォルダを追加する';
+$string['progress_image'] = '%s イメージを追加する';
+$string['progress_profileicon'] = '%s プロファイル写真を追加する';
+$string['progress_video'] = '%s ビデオを追加する';
+$string['anytypeoffile'] = 'ファイル (すべてのタイプ)';
 
 ?>
