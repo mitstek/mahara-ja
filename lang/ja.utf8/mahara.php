@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-03-16 13:02:56 UTC
+ * @updated    2014-04-16 21:46:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,8 +17,15 @@ $string['add'] = '追加';
 $string['addone'] = '追加';
 $string['cancel'] = 'キャンセル';
 $string['delete'] = '削除';
+$string['deletespecific'] = '「 %s 」を削除する';
+$string['deleteitem'] = '削除';
+$string['moveitemup'] = '上へ';
+$string['moveitemdown'] = '下へ';
 $string['edit'] = '編集';
+$string['editspecific'] = '「 %s 」を編集する';
 $string['editing'] = '編集';
+$string['settingsspecific'] = '「 %s 」を設定する';
+$string['move'] = '移動';
 $string['save'] = '保存';
 $string['submit'] = '送信';
 $string['update'] = '更新';
@@ -36,21 +43,34 @@ $string['description'] = '説明';
 $string['remove'] = '削除';
 $string['Close'] = '閉じる';
 $string['Help'] = 'ヘルプ';
+$string['closehelp'] = 'ヘルプを閉じる';
 $string['applychanges'] = '変更を適用する';
 $string['general'] = '一般';
+$string['tabs'] = 'タブ';
+$string['tab'] = 'タブ';
+$string['selected'] = '選択済み';
+$string['disabled'] = '無効';
+$string['admin'] = '管理';
+$string['menu'] = 'メニュー';
 $string['no'] = 'No';
 $string['yes'] = 'Yes';
-$string['none'] = 'なし';
 $string['at'] = '@';
 $string['From'] = '開始日';
 $string['To'] = '終了日';
+$string['ascending'] = '昇順';
+$string['descending'] = '降順';
+$string['sortorder'] = 'ファイルの並び順';
 $string['All'] = 'すべて';
+$string['none'] = 'なし';
+$string['selectall'] = 'すべてを選択する';
+$string['selectnone'] = 'すべての選択を解除する';
 $string['enable'] = '有効にする';
 $string['disable'] = '無効にする';
 $string['show'] = '表示';
 $string['hide'] = '非表示';
 $string['pluginenabled'] = 'プラグインが有効にされました。';
 $string['plugindisabled'] = 'プラグインが無効にされました。';
+$string['plugindisableduser'] = '%s プラグインは無効にされています。この機能を有効にするには、あなたの管理者にご相談ください。';
 $string['pluginnotenabled'] = 'プラグインが有効にされていません。あなたはまず %s プラグインを有効にする必要があります。';
 $string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるため、URLを知っているユーザはアクセスすることができます。機能を有効または無効にする代わりに、以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることにより、プラグインを表示または非表示にすることができます。';
 $string['pluginexplainartefactblocktypes'] = '「artefact (アーティファクト)」タイプのプラグインを非表示にした場合、Maharaシステムは同時に関連するブロックの表示を停止します。';
@@ -129,6 +149,8 @@ $string['license'] = 'ライセンス';
 $string['licenseother'] = 'その他のライセンス (URLを入力してください)';
 $string['licensedesc'] = 'このコンテンツのライセンスです。';
 $string['licensenone'] = '未選択';
+$string['licensenonedetailed'] = '%s はこのコンテンツのライセンスを選択していません。';
+$string['licensenonedetailedowner'] = 'あなたはこのコンテンツのライセンスを選択していません。';
 $string['licensingadvanced'] = 'ライセンス詳細';
 $string['licensor'] = 'ライセンサ';
 $string['licensordesc'] = 'このコンテンツのライセンサです。';
@@ -488,6 +510,8 @@ $string['emailnotsent'] = 'コンタクトメールの送信に失敗しまし�
 $string['namedfieldempty'] = '必須入力フィールド「 %s 」が空白です。';
 $string['processing'] = '処理中';
 $string['unknownerror'] = '不明なエラーが発生しました (0x20f91a0)。';
+$string['skipmenu'] = 'メインコンテンツにスキップする';
+$string['dropdownmenu'] = 'メニュー';
 $string['overview'] = '概要';
 $string['home'] = 'ホーム';
 $string['Content'] = 'コンテンツ';
@@ -530,7 +554,7 @@ $string['confirminvitation'] = '招待を承認する';
 $string['joininstitution'] = 'インスティテューションに参加する';
 $string['decline'] = '拒否';
 $string['requestmembershipofaninstitution'] = 'インスティテューションメンバーシップのリクエスト';
-$string['optionalinstitutionid'] = 'インスティテューションID (任意)';
+$string['optionalinstitutionid'] = 'インスティテューションID';
 $string['institutionmemberconfirmsubject'] = 'インスティテューションメンバーシップの承認';
 $string['institutionmemberconfirmmessage'] = 'あなたは %s にメンバーとして追加されました。';
 $string['institutionmemberrejectsubject'] = 'インスティテューションメンバーシップのリクエストが拒否されました。';
@@ -540,6 +564,15 @@ $string['noinstitutionadminfound'] = 'インスティテューション管理者
 $string['Memberships'] = 'メンバーシップ';
 $string['Requests'] = 'リクエスト';
 $string['Invitations'] = '招待';
+$string['institutionmembershipfullsubject'] = 'インスティテューションメンバーシップ定員到達';
+$string['institutionmembershipfullmessagetext'] = '%s さん
+
+%s - %s の最大ユーザ数に到達しました。
+
+既存のユーザアカウントを整理するか、このインスティテューションに関する最大ユーザアカウント数の増加をご依頼ください。すべてのサイト管理者は制限を増加させることができます。
+
+--
+%s チーム';
 $string['config'] = '設定';
 $string['sendmessage'] = 'メッセージを送信する';
 $string['spamtrap'] = 'スパムトラップ';
@@ -563,7 +596,7 @@ $string['more...'] = 'さらに ...';
 $string['nohelpfound'] = 'このアイテムのヘルプファイルはありません。';
 $string['nohelpfoundpage'] = 'このページのヘルプファイルはありません。';
 $string['couldnotgethelp'] = 'ヘルプページの検索中にエラーが発生しました。';
-$string['profileimage'] = 'プロファイルイメージ';
+$string['profileimagetext'] = '%s のプロファイル写真';
 $string['primaryemailinvalid'] = 'あなたの主メールアドレスが有効ではありません。';
 $string['addemail'] = 'メールアドレスを追加する';
 $string['search'] = '検索';
@@ -593,6 +626,7 @@ $string['nopublishpermissiononartefact'] = 'あなたには %s を公開する�
 $string['belongingto'] = '所属';
 $string['allusers'] = 'すべてのユーザ';
 $string['attachment'] = '添付ファイル';
+$string['editaccess'] = 'アクセスを編集する';
 $string['quarantinedirname'] = '隔離場所';
 $string['clammovedfile'] = 'ファイルが隔離場所に移動されました。';
 $string['clamdeletedfile'] = 'ファイルが削除されました。';
@@ -911,22 +945,21 @@ $string['pleasedonotreplytothismessage'] = 'このメッセージに返信しな
 $string['deleteduser'] = '削除済みユーザ';
 $string['theme'] = 'テーマ';
 $string['choosetheme'] = 'テーマを選択する ...';
-$string['Hide'] = '非表示にする';
+$string['Hide2'] = '情報ボックスを隠す';
 $string['createcollect'] = '作成および収集';
 $string['createcollectsubtitle'] = 'あなたのポートフォリオを作成します。';
-$string['updateyourprofile'] = '<a href="%s">プロファイル</a>を編集する';
-$string['uploadyourfiles'] = '<a href="%s">ファイル</a>をアップロードする';
-$string['createyourresume'] = '<a href="%s">レジュメ</a>を作成する';
-$string['publishablog'] = '<a href="%s">日誌</a>を公開する';
+$string['updateprofile'] = 'あなたのプロファイルを更新する';
+$string['uploadfiles'] = 'あなたのファイルをアップロードする';
+$string['createresume'] = 'あなたのレジュメを作成する';
+$string['publishblog'] = '日誌を公開する';
 $string['Organise'] = '整理';
 $string['organisesubtitle'] = 'あなたのポートフォリオのショーケースです。';
 $string['organisedescription'] = 'あなたのポートフォリオを<a href="%s">ページ</a>に整理することができます。異なる閲覧者に対して、異なるページを作成します - あなたがページに含む構成要素を選択します。';
 $string['sharenetwork'] = '共有およびネットワーク';
 $string['sharenetworksubtitle'] = 'フレンドを探して、グループに参加します。';
-$string['findfriendslinked'] = '<a href="%s">フレンド</a>を探す';
-$string['joingroups'] = '<a href="%s">グループ</a>に参加する';
-$string['controlyourprivacylinked'] = 'あなたの<a href="%s">プライバシー</a>をコントロールする';
-$string['discusstopicslinked'] = '<a href="%s">トピック</a>を議論する';
+$string['joinsomegroups'] = 'グループに参加する';
+$string['controlyourprivacy'] = 'あなたのプライバシーをコントロールする';
+$string['discusstopics'] = 'トッピックを議論する';
 $string['howtodisable'] = '* あなたはこのボックスの可視性を<a href="%s">設定</a>ページにてコントロールすることができます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['filenotfound'] = 'ファイルが見つかりませんでした。';

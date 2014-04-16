@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-04-13 16:47:14 UTC
+ * @updated    2014-04-16 21:44:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -67,16 +67,18 @@ $string['configextensions'] = '拡張機能管理';
 $string['manageinstitutions'] = 'インスティテューション管理';
 $string['siteoptions'] = 'サイトオプション';
 $string['siteoptionsdescription'] = '名称、言語およびテーマ等、基本的なサイトオプションを設定します。';
-$string['editsitepages'] = 'サイトページを編集する';
-$string['editsitepagesdescription'] = 'サイト内の様々なページコンテンツを編集します。';
+$string['usedefault'] = 'サイトデフォルトを使用する';
+$string['usedefaultdescription1'] = 'この特定ページタイプに対して、代わりにサイトのデフォルトテキストを使用します。';
 $string['menus'] = 'メニュー';
 $string['menusdescription'] = '「リンクおよびリソースメニュー」およびフッタメニュー内のリンクおよびファイルを管理します。';
 $string['sitefiles'] = 'サイトファイル';
 $string['sitefonts'] = 'フォント';
 $string['sitefontsdescription'] = 'サイト内のユーザすべてが使用できるフォントをアップロードおよび管理します。';
 $string['sitelicenses'] = 'ライセンス';
+$string['sitelicensesadd'] = 'ライセンスを追加する';
 $string['sitelicensesdescription'] = 'ユーザがコンテンツに使用できるライセンス一覧を設定します。';
 $string['sitelicensesdisablednote'] = '<b>注意</b>: 現在、ライセンスメタデータは無効にされています。ユーザがライセンスを指定できるようにするには、あなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「一般設定」セクションにて、ライセンスメタデータを有効にする必要があります。';
+$string['sitelicensesedit'] = 'ライセンスを編集する';
 $string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトページに置くことのできるファイルをアップロードおよび管理します。';
 $string['siteskins'] = 'サイトスキン';
 $string['siteskinsdescription'] = 'サイト内のユーザすべてが使用できるページスキンを作成および管理します。';
@@ -84,6 +86,8 @@ $string['siteviews'] = 'サイトページ';
 $string['siteviewsdescription'] = 'サイト全体のページおよびページテンプレートを作成および管理します。';
 $string['networking'] = 'ネットワーキング';
 $string['networkingdescription'] = 'Maharaのネットワーキングを設定します。';
+$string['cookieconsent'] = 'クッキーコンセント';
+$string['cookieconsentdescription'] = '「クッキーコンセント」ユーザプライバシーシステムを設定します。';
 $string['staffusers'] = 'スタッフユーザ';
 $string['staffusersdescription'] = 'スタッフパーミッションをユーザに割り当てます。';
 $string['adminusers'] = '管理ユーザ';
@@ -297,11 +301,18 @@ $string['licenseallowcustom'] = 'カスタムライセンスを許可する';
 $string['licenseallowcustomdescription'] = 'ライセンスメタデータに関して、ユーザがライセンスのURLを入力できるようにします。チェックしない場合、ユーザはサイト管理者が設定したライセンスに制限されます。';
 $string['allowmobileuploads'] = 'モバイルアップロードを有効にする';
 $string['allowmobileuploadsdescription'] = 'チェックした場合、ユーザは認証トークンを設定することができます - このトークンを使用してアップロードされたコンテンツはアーティファクトとして保存されます。';
+$string['recaptchakeysmissing'] = 'reCAPTCHAは有効にされましたが、あなたがプライベートおよびパブリックキーを提供するまで機能しません。';
+$string['recaptchanotpassed'] = 'reCAPTCHAが正しく入力されていません。再度お試しください。';
+$string['recaptchaonregisterform'] = 'ユーザ登録フォームのreCAPTCHA';
+$string['recaptchaonregisterformdesc'] = 'チェックした場合、ユーザは自分が人間であることを証明するため、新しいアカウントの自己登録時に<a href="http://recaptcha.org/">reCAPTCHA</a>テストを通過する必要があります。';
+$string['recaptchaprivatekey'] = 'reCAPTCHAプライベートキー';
+$string['recaptchaprivatekeydesc'] = 'あなたのサイトのreCAPTCHAアカウントのプライベートキーです。';
+$string['recaptchapublickey'] = 'reCAPTCHAパブリックキー';
+$string['recaptchapublickeydesc'] = 'あなたのサイトのreCAPTCHAアカウントのパブリックキーです。';
 $string['remoteavatars'] = 'リモートアバタを表示する';
 $string['remoteavatarsdescription'] = 'チェックした場合、ユーザのデフォルトプロファイル写真に<a href="http://www.gravatar.com">Gravatar</a>サービスが利用されます。';
 $string['searchplugin'] = '検索プラグイン';
 $string['searchplugindescription'] = '使用する検索プラグイン';
-$string['searchconfigerror'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能 -> プラグインタイプ: search」の設定を確認してください。設定を確認した後、searchの「リセット」ボタンをクリックする必要があります。';
 $string['searchusernames'] = 'ユーザ名を検索する';
 $string['searchusernamesdescription'] = '「ユーザを検索する」の対象として、ユーザ名も検索されるようにします。';
 $string['searchuserspublic'] = 'パブリック検索にユーザを表示する';
@@ -365,9 +376,10 @@ $string['eventlogexpirydescription'] = 'どのくらいの期間、イベント�
 $string['eventloglevelnone'] = 'なし';
 $string['eventloglevelmasq'] = 'マスカレーディング';
 $string['eventloglevelall'] = 'すべて';
+$string['sitefilesaccess'] = 'サイトファイルにアクセスする';
+$string['sitefilesaccessdescription'] = 'チェックした場合、ログインユーザはサブフォルダ内のサイトファイルにアクセスすることができるようになります。デフォルトでは、トップレベルのディレクトリのファイルのみアクセスすることができます。';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
-$string['editsitepagespagedescription'] = 'ここでは(ログインおよびログアウトユーザ別に) ホームページおよびフッタのページリンク等、サイト全体のいくつかのページコンテンツを編集することができます。';
 $string['home'] = 'ホーム';
 $string['loadsitecontentfailed'] = '%s のコンテンツを読む込むことができません。';
 $string['loggedouthome'] = 'ログアウトホーム';
@@ -602,11 +614,7 @@ $string['importfileisnotazipfile'] = 'インポートファイル %s はZIPフ�
 $string['unzipfailed'] = 'Leap2Aファイル %s の解凍に失敗しました。詳細情報はエラーログをご覧ください。';
 $string['importfailedfornusers'] = '%d / %d のユーザのインポートに失敗しました。';
 $string['invalidlistingfile'] = '無効なユーザ名リストです。これらのユーザをエクスポートするため、あなたはMaharaバルクエクスポータを使用しましたか?';
-$string['adminuserspagedescription'] = '<p>あなたはどのユーザがサイトを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。</p><p>システムには少なくとも1名の管理者を設定する必要があります。</p>';
-$string['institutionadminuserspagedescription'] = 'あなたはどのユーザがインスティテューションを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。';
 $string['adminusersupdated'] = '管理ユーザが更新されました。';
-$string['staffuserspagedescription'] = 'あなたはどのユーザがサイトのスタッフになるか、選択することができます。現在のスタッフは右側に表示され、潜在的なスタッフは左側に表示されます。';
-$string['institutionstaffuserspagedescription'] = 'あなたはどのユーザがあなたのインスティテューションのスタッフになるか、選択することができます。現在のスタッフは右側に表示され、潜在的なスタッフは左側に表示されます。';
 $string['potentialstaff'] = '潜在的なスタッフ';
 $string['currentstaff'] = '現在のスタッフ';
 $string['staffusersupdated'] = 'スタッフユーザが更新されました。';
@@ -715,11 +723,13 @@ $string['institutionnamealreadytaken'] = 'このインスティテューショ�
 $string['institutiondisplayname'] = 'インスティテューション表示名';
 $string['institutionexpiry'] = 'インスティテューション有効期限';
 $string['institutionexpirydescription'] = 'このインスティテューションのメンバーシップが %s において利用停止される日付です。';
+$string['institutionlanguage'] = '言語';
+$string['institutionlanguagedescription'] = 'このインスティテューション内ユーザのデフォルト言語です。';
+$string['defaultlangforinstitution'] = '%s デフォルト';
 $string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
 $string['registrationallowed'] = 'ユーザ登録を許可しますか?';
 $string['registrationalloweddescription3'] = 'チェックした場合、ユーザは登録フォームを使用して、このインスティテューションに登録することができます。登録が無効にされた場合、非メンバーはインスティテューションのメンバーシップをリクエストできません。同様に、メンバーはインスティテューションから離脱できない、または自分のユーザアカウントを削除できないようになります。';
 $string['registrationconfirm'] = '登録を承認しますか?';
-$string['registrationconfirmdescription'] = 'チェックした場合、インスティテューション管理者が登録を承認する必要があります。';
 $string['defaultmembershipperiod'] = 'デフォルトのメンバーシップ期間';
 $string['defaultmembershipperioddescription'] = 'どのくらいの期間、新しいメンバーはインスティテューションに参加することができますか。';
 $string['showonlineusers'] = 'オンラインユーザを表示する';
@@ -765,11 +775,6 @@ $string['settingsfor'] = '設定:';
 $string['institutionmembers'] = 'インスティテューションメンバー';
 $string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
 $string['institutionmemberspagedescription'] = 'このページではあなたのインスティテューションにメンバーシップをリクエストしたユーザを閲覧およびメンバーとして登録することができます。また、あなたのインスティテューションからユーザを削除および招待することができます。';
-$string['institutionusersinstructionsrequesters'] = '左側のユーザ一覧にはあなたのインスティテューションに参加をリクエストした、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザをインスティテューションに追加したい場合、またはユーザのメンバーシップリクエストを拒否したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより、最初にユーザを右側ボックスに移動してください。「メンバーを追加する」ボタンをクリックすることにより、右側ボックスのすべてのユーザをインスティテューションに追加することができます。「リクエストを拒否する」ボタンをクリックすることにより、右側ボックスのユーザのメンバーシップリクエストを拒否することができます。';
-$string['institutionusersinstructionsnonmembers'] = '左側のユーザ一覧にはあなたのインスティテューションのメンバーではない、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザに対して、インスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックすることにより、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。';
-$string['institutionusersinstructionslastinstitution'] = '左側のユーザ一覧にはあなたのインスティテューションのメンバーではなく、選択されたインスティテューションを離れたすべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザに対して、インスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックすることにより、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。';
-$string['institutionusersinstructionsmembers'] = '左側のユーザ一覧にはあなたのインスティテューションのすべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。ユーザをインスティテューションから削除するには、最初に1名またはそれ以上のユーザを左側のボックスで選択した後、右矢印をクリックしてください。あなたが選択したユーザが右側のボックスに移動されます。「ユーザを削除する」ボタンをクリックすることにより、右側ボックスのすべてのユーザが削除されます。左側ボックスのユーザはインスティテューションに参加したままの状態です。';
-$string['institutionusersinstructionsinvited'] = '左側のユーザ一覧にはインスティテューションへの参加の招待が送信されたすべてのユーザおよび誰が承認または拒否したか表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。インスティテューションへの招待を取り消すには、最初に1名またはそれ以上のユーザを左側のボックスで選択した後、右矢印をクリックしてください。あなたが選択したユーザが右側のボックスに移動されます。「招待を取り消す」ボタンをクリックすることにより、右側ボックスのすべてのユーザへの招待が取り消されます。左側ボックスのユーザはインスティテューションに招待されたままの状態で、いつでもインスティテューションに参加することができます。';
 $string['editmembers'] = 'メンバーを編集する';
 $string['editstaff'] = 'スタッフを編集する';
 $string['editadmins'] = '管理者を編集する';
@@ -821,8 +826,8 @@ $string['noinstitutions'] = 'インスティテューションはありません
 $string['noinstitutionsdescription'] = 'あなたがユーザをインスティテューションと関連付けたい場合、最初にインスティテューションを作成してください。';
 $string['noinstitutionsstats'] = 'インスティテューション統計を閲覧できません。';
 $string['noinstitutionsstatsdescription1'] = 'サイトがスタッフにインスティテューション統計を閲覧できるようにするには、スタッフ統計アクセスを有効にする必要があります。サイト管理者は<a href="%sadmin/site/options.php">サイト設定</a>の「ユーザ設定」にて、この設定を有効にすることができます。';
-$string['noinstitutiongeneralpages'] = 'あなたにはインスティテューション一般ページを編集するパーミッションがないか、まだインスティテューションが作成されていません。';
-$string['noinstitutiongeneralpagesadmin'] = 'あなたがサイト管理者の場合、<a href="%s">サイト設定</a>にてデフォルト統計ページを編集してください。';
+$string['noinstitutionstaticpages'] = 'あなたにはインスティテューション一般ページを編集するパーミッションがないか、まだインスティテューションが作成されていません。';
+$string['noinstitutionstaticpagesadmin'] = 'あなたがサイト管理者の場合、<a href="%s">サイト設定</a>にてデフォルト統計ページを編集してください。';
 $string['Lockedfields'] = 'ロックフィールド';
 $string['disabledlockedfieldhelp'] = '注意: 無効にされたチェックボックスはインスティテューション設定「 %s 」にてロックされたプロファイルフィールドです。これらのプロファイルフィールドはサイトレベルでロックされているため、ここでロック解除することはできません。';
 $string['defaultinstitutionquotadescription'] = 'あなたはこのインスティテューションの新しいユーザに割り当てられるディスクスペース総量を設定することができます。このインスティテューションに関する既存ユーザのクオータは変更されません。';
@@ -918,9 +923,8 @@ $string['groupadmins'] = '管理者';
 $string['grouptype'] = 'グループタイプ';
 $string['groupvisible'] = '可視性';
 $string['groupmanage'] = '管理';
+$string['groupmanagespecific'] = '「 %s 」を管理する';
 $string['groupdelete'] = '削除';
-$string['managegroupquotadescription'] = 'このグループのグループファイルクオータを変更するため、このフォームを使用してください。';
-$string['managegroupdescription'] = 'グループの管理者を割り当ておよび割り当て解除するため、このフォームを使用してください。';
 $string['userscandisabledevicedetection'] = 'ユーザがデバイス検出を無効にできる';
 $string['userscandisabledevicedetectiondescription'] = 'チェックした場合、ユーザはこのサイト閲覧時のモバイルデバイス検出を無効にすることができます。';
 $string['loggedinfilter'] = 'ログイン日時でフィルタする:';
@@ -943,6 +947,7 @@ $string['masqueradenotifiedreasondescription'] = 'このユーザとしてログ
 $string['masqueradetime'] = 'マスカレーディング開始日時';
 $string['masquerader'] = 'マスカレーディング管理者';
 $string['masqueradee'] = 'ユーザ';
+$string['nomasquerades'] = 'マスカレーディングセッションのロギングが有効にされているため、別のユーザとしてマスカレード (代理ログイン) した管理者はいません。';
 $string['loginaslog'] = 'マスカレーディングセッション';
 $string['masqueradingnotloggedwarning'] = '<b>注意</b>: マスカレーディングセッションのロギングは現在無効にされています。このテーブルのデータを閲覧するには、管理者が「 <a href="%sadmin/site/options.php">サイト設定</a> 」内の「ロギング設定」を有効にする必要があります。';
 $string['masqueradenotificationsubject'] = '管理者があなたとしてログインしました。';
