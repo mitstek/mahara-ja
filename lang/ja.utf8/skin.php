@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-22 10:24:40 UTC
+ * @updated    2014-04-25 18:23:28 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -30,6 +30,8 @@ $string['import'] = 'インポート';
 $string['exportthisskin'] = 'このスキンをエクスポートする';
 $string['exportskins'] = 'スキンをエクスポートする';
 $string['createskin'] = 'スキンを作成する';
+$string['editthisskin'] = 'このスキンを編集する';
+$string['editsiteskin?'] = 'これはサイトスキンです。編集しますか?';
 $string['editskin'] = 'スキンを編集する';
 $string['skinsaved'] = 'スキンが正常に保存されました。';
 $string['skinimported'] = 'スキンが正常にインポートされました。';
@@ -151,7 +153,9 @@ $string['editproperties'] = 'フォント属性を編集する';
 $string['viewfontspecimen'] = 'フォント見本を表示する';
 $string['deletefont'] = 'フォントを削除する';
 $string['deletespecifiedfont'] = 'フォント「 %s 」を削除する';
-$string['deletefontconfirm'] = '本当にこのフォントを削除してもよろしいですか? 元に戻すことはできません。';
+$string['deletefontconfirm1'] = '本当にこのフォントを削除してもよろしいですか?';
+$string['deletefontconfirm2'] = '元に戻すことはできません。';
+$string['deletefontconfirmused'] = 'このフォントは %s スキンで使用されています。';
 $string['fontdeleted'] = 'フォントが削除されました。';
 $string['cantdeletefont'] = 'あなたはこのフォントを削除できません。';
 $string['fontname'] = 'フォント名';
