@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-07-01 03:22:22 UTC
+ * @updated    2014-04-25 18:52:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -48,7 +48,7 @@ $string['deletepost'] = '投稿を削除する';
 $string['deletepostsuccess'] = '投稿が正常に削除されました。';
 $string['deletepostsure'] = '本当にこの処理を実行してもよろしいですか? 元に戻すことはできません。';
 $string['deletetopic'] = 'トピックを削除する';
-$string['deletetopicvariable'] = 'トピック「 %s 」を削除する';
+$string['deletetopicspecific'] = 'トピック「 %s 」を削除する';
 $string['deletetopicsuccess'] = 'トピックが正常に削除されました。';
 $string['deletetopicsure'] = '本当にこの処理を実行してもよろしいですか? 元に戻すことはできません。';
 $string['editpost'] = '投稿を編集する';
@@ -56,6 +56,7 @@ $string['editpostsuccess'] = '投稿が正常に編集されました。';
 $string['editstothispost'] = 'この投稿に対する編集';
 $string['edittitle'] = 'フォーラムを編集する';
 $string['edittopic'] = 'トピックを編集する';
+$string['edittopicspecific'] = 'トピック「 %s 」を編集する';
 $string['edittopicsuccess'] = 'トピックが正常に編集されました。';
 $string['forumname'] = 'フォーラム名';
 $string['forumposthtmltemplate'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s by %s</strong><br>%s</div>
@@ -121,6 +122,8 @@ $string['Reply'] = '返信';
 $string['replyforumpostnotificationsubjectline'] = 'Re: %s';
 $string['Re:'] = 'Re:';
 $string['replyto'] = '返信:';
+$string['sendnow'] = '今すぐメッセージを送信する';
+$string['sendnowdescription'] = '少なくとも %s 分待つのではなく、すぐにメッセージを送信します。';
 $string['Sticky'] = 'スティッキー';
 $string['stickydescription'] = 'スティッキートピックはすべてのページトップに表示されます。';
 $string['stickytopics'] = 'スティッキートピック';
