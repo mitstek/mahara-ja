@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-03-16 13:02:56 UTC
+ * @updated    2014-04-25 18:16:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -564,6 +564,7 @@ $string['nohelpfound'] = 'このアイテムのヘルプファイルはありま
 $string['nohelpfoundpage'] = 'このページのヘルプファイルはありません。';
 $string['couldnotgethelp'] = 'ヘルプページの検索中にエラーが発生しました。';
 $string['profileimage'] = 'プロファイルイメージ';
+$string['profileimagetextanonymous'] = '匿名プロファイル写真';
 $string['primaryemailinvalid'] = 'あなたの主メールアドレスが有効ではありません。';
 $string['addemail'] = 'メールアドレスを追加する';
 $string['search'] = '検索';
