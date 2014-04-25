@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-03-15 16:12:41 UTC
+ * @updated    2014-04-25 19:10:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -96,5 +96,19 @@ $string['editpersonalgoal'] = 'パーソナルゴールを編集する';
 $string['editacademicskill'] = 'アカデミックスキルを編集する';
 $string['editpersonalskill'] = 'パーソナルスキルを編集する';
 $string['editworkskill'] = 'ワークスキルを編集する';
+$string['progress_coverletter'] = 'カバーレターを追加する';
+$string['progress_personalinformation'] = 'あなたの個人情報を追加する';
+$string['progress_educationhistory'] = 'あなたの教育履歴を追加する';
+$string['progress_employmenthistory'] = 'あなたの職歴を追加する';
+$string['progress_certification'] = 'あなたの証明および受賞を追加する';
+$string['progress_book'] = 'あなたの書籍および出版物を追加する';
+$string['progress_membership'] = 'あなたの専門会員資格を追加する';
+$string['progress_personalgoal'] = 'あなたのパーソナルゴールを追加する';
+$string['progress_academicgoal'] = 'あなたのアカデミックゴールを追加する';
+$string['progress_careergoal'] = 'あなたのキャリアゴールを追加する';
+$string['progress_personalskill'] = 'あなたのパーソナルスキルを追加する';
+$string['progress_academicskill'] = 'あなたのアカデミックスキルを追加する';
+$string['progress_workskill'] = 'あなたのワークスキルを追加する';
+$string['progress_interest'] = 'あなたの興味を追加する';
 
 ?>
