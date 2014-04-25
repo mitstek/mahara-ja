@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-22 10:24:40 UTC
+ * @updated    2014-04-25 18:26:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -28,19 +28,27 @@ $string['validxmlfile'] = '有効なXMLファイル';
 $string['notvalidxmlfile'] = 'アップロードされたファイルは有効なXMLファイルではありません。';
 $string['import'] = 'インポート';
 $string['exportthisskin'] = 'このスキンをエクスポートする';
+$string['exportspecific'] = '「 %s 」をエクスポートする';
 $string['exportskins'] = 'スキンをエクスポートする';
 $string['createskin'] = 'スキンを作成する';
+$string['editthisskin'] = 'このスキンを編集する';
+$string['editsiteskin?'] = 'これはサイトスキンです。編集しますか?';
 $string['editskin'] = 'スキンを編集する';
 $string['skinsaved'] = 'スキンが正常に保存されました。';
 $string['skinimported'] = 'スキンが正常にインポートされました。';
 $string['clicktoedit'] = 'クリックしてスキンを編集する';
-$string['clickimagetoedit'] = 'イメージをクリックして編集する';
+$string['skinpreview'] = '「 %s 」のプレビュー';
+$string['skinpreviewedit'] = '「 %s 」のプレビュー - 編集するにはクリック';
 $string['addtofavorites'] = 'お気に入りに追加する';
+$string['addtofavoritesspecific'] = '「 %s 」をお気に入りに追加する';
 $string['removefromfavorites'] = 'お気に入りから削除する';
+$string['removefromfavoritesspecific'] = '「 %s 」をお気に入りから削除する';
 $string['skinaddedtofavorites'] = 'スキンがお気に入りに追加されました。';
 $string['skinremovedfromfavorites'] = 'スキンがお気に入りから削除されました。';
 $string['cantremoveskinfromfavorites'] = 'お気に入りからスキンを削除できません。';
 $string['viewmetadata'] = 'スキン情報を表示する';
+$string['viewmetadataspecific'] = '「 %s 」の情報を表示する';
+$string['closemetadata'] = 'スキン情報を閉じる';
 $string['metatitle'] = 'スキン情報';
 $string['title'] = 'タイトル';
 $string['displayname'] = 'オーナー';
@@ -123,6 +131,8 @@ $string['skincustomcssdescription'] = 'カスタムCSSはスキンプレビュ�
 $string['chooseviewskin'] = 'ページスキンを選択する';
 $string['chooseskin'] = 'スキンを選択する';
 $string['notsavedyet'] = '未保存';
+$string['notcompatiblewiththeme'] = 'あなたのMaharaサイトテーマ「 %s 」はページスキンをサポートしません。これはこのページがあなたにどのように表示されるか、あなたが選択したスキンが影響しないことを意味します。しかし、異なるテーマでサイトを閲覧する場合、他のユーザに関してページのアピアランスに影響を及ぼす可能性があります。';
+$string['notcompatiblewithpagetheme'] = 'このページテーマ「 %s 」はページスキンをサポートしません。あなたが異なるテーマを選択するまで、あなたが選択したスキンはページアピアランスに影響を及ぼしません。';
 $string['viewskinchanged'] = 'ページスキンが変更されました。';
 $string['manageskins'] = 'スキンを管理する';
 $string['sitefontsmenu'] = 'フォント';
@@ -151,7 +161,9 @@ $string['editproperties'] = 'フォント属性を編集する';
 $string['viewfontspecimen'] = 'フォント見本を表示する';
 $string['deletefont'] = 'フォントを削除する';
 $string['deletespecifiedfont'] = 'フォント「 %s 」を削除する';
-$string['deletefontconfirm'] = '本当にこのフォントを削除してもよろしいですか? 元に戻すことはできません。';
+$string['deletefontconfirm1'] = '本当にこのフォントを削除してもよろしいですか?';
+$string['deletefontconfirm2'] = '元に戻すことはできません。';
+$string['deletefontconfirmused'] = 'このフォントは %s スキンで使用されています。';
 $string['fontdeleted'] = 'フォントが削除されました。';
 $string['cantdeletefont'] = 'あなたはこのフォントを削除できません。';
 $string['fontname'] = 'フォント名';
