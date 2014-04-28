@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-18 02:43:54 UTC
+ * @updated    2014-04-28 18:00:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -96,6 +96,7 @@ $string['secreturlupdated'] = 'シークレットURLが更新されました。'
 $string['generatesecreturl'] = '%s の新しいシークレットURLを生成します。';
 $string['secreturls'] = 'シークレットURL';
 $string['publicaccessnotallowed'] = 'あなたのインスティテューションまたはサイト管理者がパブリックページおよびシークレットURLを無効にしました。あなたがここで閲覧することのできるシークレットURL一覧すべては、現在使用することができません。';
+$string['publicaccessnotallowedforprobation'] = '申し訳ございません、新しく登録されたユーザはシークレットURLの作成を許可されていません。';
 $string['inviteusertojoingroup'] = 'このユーザをグループへの参加に招待する';
 $string['addusertogroup'] = 'このユーザをグループに追加する';
 $string['addedtowatchlist'] = 'このページがあなたのウォッチリストに追加されました。';
@@ -107,15 +108,9 @@ $string['addtowatchlistartefact'] = 'ウォッチリストにページ「 %s 」
 $string['removefromwatchlistartefact'] = 'ウォッチリストからページ「 %s 」を削除する';
 $string['alreadyinwatchlist'] = 'このページはすでにあなたのウォッチリストに登録されています。';
 $string['attachedfileaddedtofolder'] = '添付ファイル「 %s 」が、あなたの「 %s 」フォルダに追加されました。';
-$string['complaint'] = 'クレーム';
 $string['date'] = '日時';
-$string['notifyadministrator'] = '管理者に通知する';
-$string['notifyadministratorconfirm'] = '本当にこのページに好ましくない内容が含まれている旨、報告してもよろしいですか?';
 $string['print'] = 'プリント';
-$string['reportobjectionablematerial'] = '好ましくない内容を報告する';
-$string['reportsent'] = 'あなたの報告が送信されました。';
 $string['viewobjectionableunmark'] = 'ページ「 %s 」、またはその中に好ましくないコンテンツが含まれていると報告されています。もはや好ましくないコンテンツを含んでいない場合、あなたはボタンをクリックして、この注意を取り除いた上で、他の管理者に通知することができます。';
-$string['notobjectionable'] = '好ましい';
 $string['viewunobjectionablesubject'] = 'ページ %s が好ましいと %s によってマークされました。';
 $string['viewunobjectionablebody'] = '% (%s) が %s によって確認され、もはや好ましくないコンテンツは含まれていないとマークされました。';
 $string['updatewatchlistfailed'] = 'ウォッチリストの更新に失敗しました。';
