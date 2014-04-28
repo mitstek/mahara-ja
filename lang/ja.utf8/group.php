@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-11-20 21:46:00 UTC
+ * @updated    2014-04-28 17:49:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -92,6 +92,8 @@ $string['groupinvitesfrom'] = '参加の招待:';
 $string['requestedmembershipin'] = 'リクエストされたメンバーシップ:';
 $string['viewnotify'] = '共有ページ通知';
 $string['viewnotifydescription'] = 'チェックした場合、グループメンバーが自分のページをグループ内で共有設定することで、すべてのグループメンバーに通知が送信されます。この設定を有効にした場合、規模の大きなグループでは多くの通知が発生する可能性があります。';
+$string['allowsendnow'] = 'すぐにフォーラム投稿を送信する';
+$string['allowsendnowdescription'] = 'チェックした場合、グループメンバーはフォーラム投稿をすぐに送信することを選択することができます。チェックを外した場合、グループ管理者、チューターおよびモデレータのみ、フォーラム投稿をすぐに送信することができます。';
 $string['hiddengroup'] = '非表示グループ';
 $string['hiddengroupdescription'] = 'このグループを「グループを探す」ページに一覧表示しません。';
 $string['hidemembers'] = 'メンバーシップを隠す';
@@ -229,8 +231,8 @@ $string['requestfriendship'] = 'フレンドシップをリクエストする';
 $string['addedtofriendslistsubject'] = '新しいフレンド';
 $string['addedtofriendslistmessage'] = '%s があなたをフレンドとして追加しました。これはあなたのフレンドリストに %s が追加されたことも意味します。追加されたユーザのプロファイルページを閲覧するには、下記リンクをクリックしてください。';
 $string['requestedfriendlistsubject'] = '新しいフレンドリクエスト';
-$string['requestedfriendlistmessage'] = 'あなたがフレンドとして追加することを %a がリクエストしました。あなたは下記リンクまたはフレンドリストページでフレンドを追加することができます。';
-$string['requestedfriendlistmessagereason'] = 'あなたがフレンドとして追加することを %a がリクエストしました。あなたは下記リンクまたはフレンドリストページでフレンドを追加することができます。リクエストの理由は:';
+$string['requestedfriendlistinboxmessage'] = '%s がフレンドとして追加するよう、あなたにリクエストしました。あなたは下記リンクをクリックするか、あなたのフレンドリストページに移動することでフレンドとして追加することができます。';
+$string['requestedfriendlistmessageexplanation'] = '%s がフレンドとして追加するよう、あなたにリクエストしました。あなたは下記リンクをクリックするか、あなたのフレンドリストページに移動することでフレンドとして追加することができます。リクエストの理由は次のとおりです:';
 $string['removefromfriendslist'] = 'フレンドリストから削除する';
 $string['removefromfriends'] = '%s をフレンドリストから削除する';
 $string['removedfromfriendslistsubject'] = 'フレンドリストから削除されました。';
