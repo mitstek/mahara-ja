@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-11-18 06:32:30 UTC
+ * @updated    2014-04-28 17:29:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -110,5 +110,30 @@ $string['noteupdated'] = 'ノートが更新されました。';
 $string['html'] = 'ノート';
 $string['duplicatedprofilefieldvalue'] = '複製値';
 $string['existingprofilefieldvalues'] = '既存値';
+$string['progressbaritem_messaging'] = 'メッセージング';
+$string['progressbaritem_joingroup'] = 'グループに参加する';
+$string['progressbaritem_makefriend'] = 'フレンドを作る';
+$string['progress_firstname'] = 'あなたの名を追加する';
+$string['progress_lastname'] = 'あなたの姓を追加する';
+$string['progress_studentid'] = 'あなたの学籍番号を追加する';
+$string['progress_preferredname'] = 'あなたの表示名を追加する';
+$string['progress_introduction'] = 'あなたの自己紹介を追加する';
+$string['progress_email'] = 'あなたのメールアドレスを追加する';
+$string['progress_officialwebsite'] = 'あなたのオフィシャルウェブサイトを追加する';
+$string['progress_personalwebsite'] = 'あなたのパーソナルウェブサイトURLを追加する';
+$string['progress_blogaddress'] = 'あなたのブログアドレスを追加する';
+$string['progress_address'] = 'あなたの番地以下を追加する';
+$string['progress_town'] = 'あなたの市町村を追加する';
+$string['progress_city'] = 'あなたの都道府県を追加する';
+$string['progress_country'] = 'あなたの国を追加する';
+$string['progress_homenumber'] = 'あなたの自宅電話を追加する';
+$string['progress_businessnumber'] = 'あなたの勤務先電話を追加する';
+$string['progress_mobilenumber'] = 'あなたの携帯電話を追加する';
+$string['progress_faxnumber'] = 'あなたのFAX番号を追加する';
+$string['progress_messaging'] = 'あなたのメッセージング情報を追加する';
+$string['progress_occupation'] = 'あなたの職業を追加する';
+$string['progress_industry'] = 'あなたの職種を追加する';
+$string['progress_joingroup'] = '%s グループに参加する';
+$string['progress_makefriend'] = '%s フレンドを作る';
 
 ?>
