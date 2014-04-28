@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-04-25 18:26:10 UTC
+ * @updated    2014-04-28 17:56:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -159,6 +159,7 @@ $string['editfont'] = 'フォントを編集する';
 $string['fontedited'] = 'フォントが正常に編集されました。';
 $string['editproperties'] = 'フォント属性を編集する';
 $string['viewfontspecimen'] = 'フォント見本を表示する';
+$string['viewfontspecimenfor'] = '- %s';
 $string['deletefont'] = 'フォントを削除する';
 $string['deletespecifiedfont'] = 'フォント「 %s 」を削除する';
 $string['deletefontconfirm1'] = '本当にこのフォントを削除してもよろしいですか?';
