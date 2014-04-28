@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-09-21 03:40:29 UTC
+ * @updated    2014-04-28 17:52:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,17 +19,17 @@ $string['element.bytes.megabytes'] = 'MB';
 $string['element.bytes.gigabytes'] = 'GB';
 $string['element.bytes.invalidvalue'] = '値は数値にしてください';
 $string['element.calendar.invalidvalue'] = '無効な日付/時間が指定されました';
-$string['element.date.or'] = 'or';
+$string['element.calendar.opendatepicker'] = '日付ピッカを開く';
 $string['element.date.monthnames'] = '1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月';
-$string['element.date.notspecified'] = '指定なし';
+$string['element.date.specify'] = '日付設定';
 $string['element.date.at'] = '-';
 $string['element.expiry.days'] = '日';
 $string['element.expiry.weeks'] = '週';
 $string['element.expiry.months'] = '月';
 $string['element.expiry.years'] = '年';
 $string['element.expiry.noenddate'] = '終了日なし';
+$string['element.files.addattachment'] = '添付を追加する';
 $string['element.select.other'] = 'その他';
-$string['element.color.or'] = 'または';
 $string['element.color.transparent'] = '透明';
 $string['rule.before.before'] = 'フィールド「 %s 」の後に設定することはできません';
 $string['rule.email.email'] = 'メールアドレスが有効ではありません';
