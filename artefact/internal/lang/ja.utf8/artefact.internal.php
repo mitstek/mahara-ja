@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-04-28 17:29:29 UTC
+ * @updated    2014-04-28 17:43:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -120,7 +120,7 @@ $string['progress_preferredname'] = 'あなたの表示名を追加する';
 $string['progress_introduction'] = 'あなたの自己紹介を追加する';
 $string['progress_email'] = 'あなたのメールアドレスを追加する';
 $string['progress_officialwebsite'] = 'あなたのオフィシャルウェブサイトを追加する';
-$string['progress_personalwebsite'] = 'あなたのパーソナルウェブサイトURLを追加する';
+$string['progress_personalwebsite'] = 'あなたのパーソナルウェブサイトを追加する';
 $string['progress_blogaddress'] = 'あなたのブログアドレスを追加する';
 $string['progress_address'] = 'あなたの番地以下を追加する';
 $string['progress_town'] = 'あなたの市町村を追加する';
