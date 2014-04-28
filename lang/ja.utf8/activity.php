@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-25 07:29:15 UTC
+ * @updated    2014-04-28 18:07:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -24,9 +24,11 @@ $string['typevirusrelease'] = 'ウイルスフラグリリース';
 $string['typeadminmessages'] = '管理メッセージ';
 $string['typeinstitutionmessage'] = 'インスティテューションメッセージ';
 $string['typegroupmessage'] = 'グループメッセージ';
+$string['typenewpost'] = 'フォーラム投稿';
 $string['type'] = '活動タイプ';
 $string['attime'] = '-';
 $string['prefsdescr'] = 'あなたがメールオプションのどちらを選択しても、受信箱に通知が記録されます。また、受信箱に記録された通知は自動的に既読にされます。';
+$string['messagetype'] = 'メッセージタイプ';
 $string['subject'] = '件名';
 $string['date'] = '日時';
 $string['read'] = '既読';
@@ -47,6 +49,8 @@ $string['stopmonitoringsuccess'] = 'モニタリングを正常に停止しま�
 $string['stopmonitoringfailed'] = 'モニタリングの停止に失敗しました。';
 $string['newwatchlistmessage'] = 'あなたのウォッチリストの新しい活動';
 $string['newwatchlistmessageview1'] = 'ページ「 %s 」 (作成者: %s) が変更されました。';
+$string['blockinstancenotification'] = 'ブロック「 %s 」が追加または変更されました。';
+$string['nonamegiven'] = '名称がありません。';
 $string['newviewsubject'] = '新しいページが作成されました。';
 $string['newviewmessage'] = '%s が新しいページ「 %s 」を作成しました。';
 $string['newcontactusfrom'] = '新しいお問い合わせ:';
