@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-04-16 21:48:47 UTC
+ * @updated    2014-04-28 18:00:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -96,6 +96,7 @@ $string['secreturlupdated'] = 'シークレットURLが更新されました。'
 $string['generatesecreturl'] = '%s の新しいシークレットURLを生成します。';
 $string['secreturls'] = 'シークレットURL';
 $string['publicaccessnotallowed'] = 'あなたのインスティテューションまたはサイト管理者がパブリックページおよびシークレットURLを無効にしました。あなたがここで閲覧することのできるシークレットURL一覧すべては、現在使用することができません。';
+$string['publicaccessnotallowedforprobation'] = '申し訳ございません、新しく登録されたユーザはシークレットURLの作成を許可されていません。';
 $string['inviteusertojoingroup'] = 'このユーザをグループへの参加に招待する';
 $string['addusertogroup'] = 'このユーザをグループに追加する';
 $string['addedtowatchlist'] = 'このページがあなたのウォッチリストに追加されました。';
