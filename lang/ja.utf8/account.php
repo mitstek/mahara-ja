@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-02-15 05:59:13 UTC
+ * @updated    2014-04-28 17:12:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -52,6 +52,8 @@ $string['hiderealname'] = '実名を隠す';
 $string['hiderealnamedescription'] = 'あなたがニックネームを設定した場合、そして、あなたの実名検索により、他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
 $string['showhomeinfo1'] = 'ホームページ情報';
 $string['showhomeinfodescription'] = 'ホームページ上に %s の使用方法に関する情報を表示します。';
+$string['showprogressbar'] = 'プロファイル完了プログレスバー';
+$string['showprogressbardescription'] = 'プログレスバーおよびあなたの %s プロファイルを完了するためのヒントを表示します。';
 $string['mobileuploadtoken'] = 'モバイルアップロードトークン';
 $string['badmobileuploadtoken'] = '申し訳ございません、アップロードトークンが無効です - トークンの長さは少なくとも半角6文字にしてください。';
 $string['prefssaved'] = 'プリファレンスが保存されました。';
