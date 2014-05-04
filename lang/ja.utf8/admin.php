@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-04-28 18:03:53 UTC
+ * @updated    2014-05-04 18:47:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -953,5 +953,8 @@ $string['masqueradingnotloggedwarning'] = '<b>注意</b>: マスカレーディ�
 $string['masqueradenotificationsubject'] = '管理者があなたとしてログインしました。';
 $string['masqueradenotificationnoreason'] = '管理者「 %s 」が %s のあなたのアカウントにログインしました。';
 $string['masqueradenotificationreason'] = '管理者「 %s 」が %s のあなたのアカウントにログインしました。理由は次のとおりです: %s';
+$string['progressbar'] = 'プロファイル完了';
+$string['showprogressbar'] = 'プロファイル完了を表示する';
+$string['progressbarsaved'] = 'プログレスバーが正常に保存されました。';
 
 ?>
