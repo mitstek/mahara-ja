@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-04-28 18:03:49 UTC
+ * @updated    2014-05-04 18:57:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -69,8 +69,10 @@ $string['siteoptions'] = 'サイトオプション';
 $string['siteoptionsdescription'] = '名称、言語およびテーマ等、基本的なサイトオプションを設定します。';
 $string['staticpages'] = '固定ページ';
 $string['institutionstaticpages'] = 'インスティテューション固定ページ';
+$string['staticpageinstitutionbad'] = 'あなたはインスティテューション「 %s 」の固定ページにアクセスまたは編集することはできません。';
 $string['usedefault'] = 'サイトデフォルトを使用する';
 $string['usedefaultdescription1'] = 'この特定ページタイプに対して、代わりにサイトのデフォルトテキストを使用します。';
+$string['staticpagesdescription'] = 'Mahara内の固定ページのコンテンツを編集します (ホーム、使用条件等)。';
 $string['menus'] = 'メニュー';
 $string['menusdescription'] = '「リンクおよびリソースメニュー」およびフッタメニュー内のリンクおよびファイルを管理します。';
 $string['sitefiles'] = 'サイトファイル';
@@ -955,5 +957,8 @@ $string['masqueradingnotloggedwarning'] = '<b>注意</b>: マスカレーディ�
 $string['masqueradenotificationsubject'] = '管理者があなたとしてログインしました。';
 $string['masqueradenotificationnoreason'] = '管理者「 %s 」が %s のあなたのアカウントにログインしました。';
 $string['masqueradenotificationreason'] = '管理者「 %s 」が %s のあなたのアカウントにログインしました。理由は次のとおりです: %s';
+$string['progressbar'] = 'プロファイル完了';
+$string['showprogressbar'] = 'プロファイル完了を表示する';
+$string['progressbarsaved'] = 'プログレスバーが正常に保存されました。';
 
 ?>
