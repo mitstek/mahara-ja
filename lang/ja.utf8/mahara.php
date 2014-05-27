@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-04-25 18:16:26 UTC
+ * @updated    2014-05-27 19:59:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -117,6 +117,7 @@ $string['sortalpha'] = 'タグをアルファベット順でソートする';
 $string['sortfreq'] = 'タグを使用頻度順でソートする';
 $string['sortresultsby'] = 'ソート結果:';
 $string['sortedby'] = '並び替え';
+$string['sortby'] = '並べ替え:';
 $string['adminfirst'] = 'Adminを最初に';
 $string['nameatoz'] = '名: A -> Z';
 $string['nameztoa'] = '名: Z -> A';
@@ -170,6 +171,9 @@ $string['pendingfriend'] = '保留中のフレンド';
 $string['pendingfriends'] = '保留中のフレンド';
 $string['profile'] = 'プロファイル';
 $string['views'] = 'ページ';
+$string['profilecompleteness'] = 'プロファイル完了';
+$string['profilecompletenesspreview'] = 'プロファイル完了プレビュー';
+$string['profilecompletenesstips'] = 'プロファイル完了ヒント';
 $string['onlineusers'] = 'オンラインユーザ';
 $string['lastminutes'] = '直近の %s 分間';
 $string['allonline'] = 'すべてのオンラインユーザを表示する';
@@ -579,6 +583,7 @@ $string['spamtrap'] = 'スパムトラップ';
 $string['formerror'] = 'あなたの送信の処理中にエラーが発生しました。再度お試しください。';
 $string['formerroremail'] = 'あなたの問題が続いている場合、%s より私たちにご連絡ください。';
 $string['blacklisteddomaininurl'] = 'このフィールドにはブラックリストに登録されたドメイン %s のURLが含まれています。';
+$string['newuserscantpostlinksorimages'] = '申し訳ございません、新しく登録されたユーザによるリンクの投稿は許可されていません。リンクまたはURLを取り除くため、あなたの投稿を書き換えて、再度お試しください。';
 $string['notinstallable'] = 'インストールできません!';
 $string['installedplugins'] = 'インストール済みプラグイン';
 $string['notinstalledplugins'] = '未インストールプラグイン';
