@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-04-28 17:55:57 UTC
+ * @updated    2014-05-27 20:09:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -75,7 +75,7 @@ $string['viewtableoptions'] = 'ページテーブルおよびボタン';
 $string['viewadvancedoptions'] = '高度';
 $string['skintitle'] = 'スキンタイトル';
 $string['skindescription'] = 'スキン説明';
-$string['skinaccessibility'] = 'スキンアクセシビリティ';
+$string['skinaccessibility1'] = 'スキンアクセス';
 $string['privateskinaccess'] = 'これはプライベートスキンです。';
 $string['publicskinaccess'] = 'これはパブリックスキンです。';
 $string['siteskinaccess'] = 'これはサイトスキンです。';
