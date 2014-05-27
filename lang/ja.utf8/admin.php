@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-05-04 18:57:46 UTC
+ * @updated    2014-05-27 19:45:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -382,6 +382,8 @@ $string['eventloglevelmasq'] = 'マスカレーディング';
 $string['eventloglevelall'] = 'すべて';
 $string['sitefilesaccess'] = 'サイトファイルにアクセスする';
 $string['sitefilesaccessdescription'] = 'チェックした場合、ログインユーザはサブフォルダ内のサイトファイルにアクセスすることができるようになります。デフォルトでは、トップレベルのディレクトリのファイルのみアクセスすることができます。';
+$string['watchlistdelaydescription'] = 'ウォッチリストの変更に関するメールを送信する遅延時間 (分) です。';
+$string['watchlistdelaytitle'] = 'ウォッチリスト通知遅延';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
 $string['home'] = 'ホーム';
