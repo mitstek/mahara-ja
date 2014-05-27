@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-05-27 19:45:12 UTC
+ * @updated    2014-05-27 20:07:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -182,6 +182,7 @@ $string['potentialadmins'] = '潜在的な管理者';
 $string['currentadmins'] = '現在の管理者';
 $string['groupadminsupdated'] = 'グループ管理者が更新されました。';
 $string['groupquotaupdated'] = 'グループクオータが更新されました。';
+$string['addnewgroupcategory'] = '新しいグループカテゴリを入力する';
 $string['Field'] = 'フィールド';
 $string['Value'] = '値';
 $string['datathatwillbesent'] = '送信されるデータ';
