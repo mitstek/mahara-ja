@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-06-14 18:44:11 UTC
+ * @updated    2014-06-14 18:54:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -389,6 +389,7 @@ $string['watchlistdelaydescription'] = 'ウォッチリストの変更に関す�
 $string['watchlistdelaytitle'] = 'ウォッチリスト通知遅延';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
+$string['staticpagespagedescription'] = 'ここであなたはログインユーザのダッシュボード、ログアウトユーザのホームページ、フッタのページリンク等、Mahara内蔵ページのコンテンツを編集することができます。';
 $string['home'] = 'ホーム';
 $string['loadsitecontentfailed'] = '%s のコンテンツを読む込むことができません。';
 $string['loggedouthome'] = 'ログアウトホーム';
