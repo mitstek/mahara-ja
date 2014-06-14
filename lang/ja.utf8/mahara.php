@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-05-27 19:59:59 UTC
+ * @updated    2014-06-14 20:00:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -364,9 +364,12 @@ $string['cannotremovedefaultemail'] = 'あなたの主メールアドレスは�
 $string['emailtoolong'] = 'メールアドレスの長さは半角255文字以内にしてください。';
 $string['mustspecifyoldpassword'] = 'あなたの現在のパスワードを入力してください。';
 $string['Site'] = 'サイト';
+$string['profileicon'] = 'プロファイルイメージ';
 $string['emailaddress'] = 'メールアドレス';
 $string['firstname'] = '名';
+$string['firstnameall'] = 'すべての名';
 $string['lastname'] = '姓';
+$string['lastnameall'] = 'すべての姓';
 $string['studentid'] = 'IDナンバー';
 $string['displayname'] = '表示名';
 $string['fullname'] = 'フルネーム';
@@ -500,14 +503,17 @@ $string['noenddate'] = '終了日なし';
 $string['day'] = '日';
 $string['days'] = '日';
 $string['weeks'] = '週';
+$string['month'] = '月';
 $string['months'] = '月';
 $string['years'] = '年';
+$string['year'] = '年';
 $string['sitecontentnotfound'] = '%s テキストは利用できません。';
 $string['name'] = '名称';
 $string['email'] = 'Eメール';
 $string['emails'] = 'Eメール';
 $string['subject'] = '件名';
 $string['message'] = 'メッセージ';
+$string['messageoptional'] = 'メッセージ <span class="accessible-hidden">(任意)</span>';
 $string['messagesent'] = 'あなたのメッセージが送信されました。';
 $string['nosendernamefound'] = '送信者名が送信されていません。';
 $string['emailnotsent'] = 'コンタクトメールの送信に失敗しました。エラーメッセージ: %s';
@@ -606,6 +612,7 @@ $string['profileimagetextanonymous'] = '匿名プロファイル写真';
 $string['primaryemailinvalid'] = 'あなたの主メールアドレスが有効ではありません。';
 $string['addemail'] = 'メールアドレスを追加する';
 $string['search'] = '検索';
+$string['searchtype'] = '検索タイプ';
 $string['searchusers'] = 'ユーザを検索する';
 $string['Query'] = 'クエリ';
 $string['query'] = 'クエリ';
@@ -982,5 +989,6 @@ $string['posts'] = '投稿';
 $string['facebookdescription'] = 'Maharaはeポートフォリオおよびソーシャルネットワーキングを構築するためのオープンソースウェブアプリケーションです。
 Maharaは自分の学習に関するポートフォリオを作成および管理するためのツールをユーザに提供します。また、ソーシャルネットワーキング機能により、ユーザ同士が相互に交流を図ることができます。';
 $string['wanttoleavewithoutsaving?'] = 'あなたは修正しました - 修正を保存せずにページを離れてもよろしいですか?';
+$string['attachedimage'] = '添付イメージ';
 
 ?>
