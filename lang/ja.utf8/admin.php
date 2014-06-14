@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-06-14 17:31:27 UTC
+ * @updated    2014-06-14 18:26:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -672,6 +672,13 @@ $string['confirmdeleteuser'] = '本当にこのユーザを削除してもよろ
 $string['filequota1'] = 'ファイルクオータ';
 $string['quotaused'] = '利用クオータ';
 $string['filequotadescription'] = 'ユーザファイルエリアでの利用可能な合計保存領域です。';
+$string['probationbulkconfirm'] = '本当にこれらのユーザのスパム保護観察ステータスを変更してもよろしいですか?';
+$string['probationbulksetspamprobation'] = 'スパム保護観察を設定する';
+$string['probationbulkset'] = '設定';
+$string['probationtitle'] = 'スパム送信者保護観察ステータス';
+$string['probationzeropoints'] = '保護観察なし';
+$string['probationxpoints'] = '%d ポイント';
+$string['probationreportcolumn'] = '保護観察';
 $string['addusertoinstitution'] = 'インスティテューションにユーザを追加する';
 $string['removeuserfrominstitution'] = 'このインスティテューションからユーザを削除する';
 $string['confirmremoveuserfrominstitution'] = 'このインスティテューションから、本当にユーザを削除してもよろしいですか?';
