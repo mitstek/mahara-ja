@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-06-14 18:32:15 UTC
+ * @updated    2014-06-14 18:44:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -899,6 +899,7 @@ $string['withselectedusers'] = '選択したユーザに対して';
 $string['withselectedusersedit'] = '選択したユーザを編集する';
 $string['withselectedusersreports'] = '選択したユーザのレポートを取得する';
 $string['getreports'] = 'レポートを取得する';
+$string['selectuser'] = 'ユーザ「 %s 」を選択する';
 $string['bulkactions'] = 'バルク処理';
 $string['editselectedusersdescription1'] = 'あなたがユーザ検索ページで選択したユーザの利用停止、削除または認証方法を変更します。';
 $string['uneditableusers'] = 'あなたは編集することのできない %s ユーザを選択しました。選択されたユーザはリストから取り除かれます。';
@@ -944,6 +945,8 @@ $string['groupvisible'] = '可視性';
 $string['groupmanage'] = '管理';
 $string['groupmanagespecific'] = '「 %s 」を管理する';
 $string['groupdelete'] = '削除';
+$string['managegroupquotadescription1'] = 'このグループのグループファイルクオータを変更する場合、このフォームを使用してください。';
+$string['managegroupdescription1'] = 'このグループの管理者を昇格および降格する場合、このフォームを使用してください。あなたがグループ管理者を削除した場合、そのユーザはグループメンバーとして残ります。';
 $string['userscandisabledevicedetection'] = 'ユーザがデバイス検出を無効にできる';
 $string['userscandisabledevicedetectiondescription'] = 'チェックした場合、ユーザはこのサイト閲覧時のモバイルデバイス検出を無効にすることができます。';
 $string['loggedinfilter'] = 'ログイン日時でフィルタする:';
