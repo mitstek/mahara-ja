@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-02-18 03:34:06 UTC
+ * @updated    2014-06-14 18:23:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -99,5 +99,6 @@ $string['by'] = 'by';
 $string['copycollection'] = 'コレクションをコピーする';
 $string['youhaveonecollection'] = 'あなたには 1 件のコレクションがあります。';
 $string['youhavecollections'] = 'あなたには %s 件のコレクションがあります。';
+$string['collectionssharedtogroup'] = 'このグループと共有されているコレクション';
 
 ?>
