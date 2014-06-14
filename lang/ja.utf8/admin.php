@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-06-14 18:27:04 UTC
+ * @updated    2014-06-14 18:32:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -897,6 +897,8 @@ $string['requestto'] = 'リクエスト先';
 $string['useradded'] = 'ユーザが追加されました。';
 $string['invitationsent'] = '招待状が送信されました。';
 $string['withselectedusers'] = '選択したユーザに対して';
+$string['withselectedusersedit'] = '選択したユーザを編集する';
+$string['withselectedusersreports'] = '選択したユーザのレポートを取得する';
 $string['getreports'] = 'レポートを取得する';
 $string['bulkactions'] = 'バルク処理';
 $string['editselectedusersdescription1'] = 'あなたがユーザ検索ページで選択したユーザの利用停止、削除または認証方法を変更します。';
@@ -911,6 +913,7 @@ $string['someusersnotinauthinstanceinstitution'] = 'あなたが選択した何�
 $string['bulkchangeauthmethodsuccess'] = '%d 名のユーザの認証方法をリセットしました。';
 $string['bulkchangeauthmethodresetpassword'] = 'あなたはパスワードを必要とする認証方法を選択しました。%d 名のユーザにはパスワードが割り当てられていないため、それらのユーザのパスワードがリセットされるまでログインすることはできません。';
 $string['bulkdeleteuserssuccess'] = '%d 名のユーザを削除しました。';
+$string['bulkprobationpointssuccess'] = '%1$d ユーザに保護観察ポイント %2$d を設定しました。';
 $string['selectedusers'] = '選択済みユーザ';
 $string['remoteuser'] = 'リモートユーザ名';
 $string['userreports'] = 'ユーザレポート';
