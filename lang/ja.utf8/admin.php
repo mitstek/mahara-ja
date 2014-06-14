@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-06-14 17:03:24 UTC
+ * @updated    2014-06-14 17:17:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -964,5 +964,7 @@ $string['masqueradenotificationreason'] = '管理者「 %s 」が %s のあな�
 $string['progressbar'] = 'プロファイル完了';
 $string['showprogressbar'] = 'プロファイル完了を表示する';
 $string['progressbarsaved'] = 'プログレスバーが正常に保存されました。';
+$string['showprogressbardescription'] = 'チェックした場合、プロファイルで何を完了すべきかヒントのあるプログレスバーがユーザにサイドブロックとして表示されます。プログレスバーには無効にするオプションがあります。';
+$string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックにて、プロファイル完了がどのように表示されるのかプレビューすることができます。';
 
 ?>
