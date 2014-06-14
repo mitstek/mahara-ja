@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-04-13 17:03:21 UTC
+ * @updated    2014-06-14 17:41:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -150,6 +150,8 @@ $string['timeouterror'] = 'ファイルのアップロードに失敗しまし�
 $string['title'] = '名称';
 $string['titlefieldisrequired'] = '名称フィールドは必須入力項目です。';
 $string['Type'] = 'タイプ';
+$string['typefile'] = 'ファイル';
+$string['typefolder'] = 'フォルダ';
 $string['upload'] = 'アップロード';
 $string['uploadagreement'] = 'アップロード同意書';
 $string['uploadagreementdescription'] = 'サイトにファイルをアップロードする前、あなたが以下のテキストへの同意をユーザに強制したい場合、このオプションを有効にしてください。';
@@ -167,6 +169,9 @@ $string['youmustagreetothecopyrightnotice'] = 'あなたは著作権表示に同
 $string['fileuploadedtofolderas'] = '%s が %s に「 %s 」としてアップロードされました。';
 $string['fileuploadedas'] = '%s が「 %s 」としてアップロードされました。';
 $string['insufficientmemoryforresize'] = '(イメージのリサイズのために十分なメモリがありません。アップロード前にリサイズすることをお考えください)';
+$string['quotanotificationheader'] = 'クオータ通知';
+$string['textlinktouser'] = '%s のプロファイルを編集する';
+$string['quotanotifylimittitle'] = 'クオータ通知制限';
 $string['ai'] = 'Postscriptドキュメント';
 $string['aiff'] = 'AIFFオーディオファイル';
 $string['application'] = '不明なアプリケーション';
@@ -250,7 +255,6 @@ $string['Title'] = 'タイトル';
 $string['imagetitle'] = 'イメージタイトル';
 $string['standardavatartitle'] = '標準または外部アバター';
 $string['standardavatarnote'] = '標準または外部プロファイル写真';
-$string['usingnodefaultprofileicon'] = '現在、デフォルトのプロファイル写真はありません。';
 $string['wrongfiletypeforblock'] = 'あなたがアップロードしたファイルはこのブロックにとって、正しいタイプではありません。';
 $string['Contents'] = 'コンテンツ';
 $string['Continue'] = '続ける';
