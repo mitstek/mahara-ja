@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-06-14 19:57:28 UTC
+ * @updated    2014-06-28 21:39:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -125,6 +125,7 @@ $string['institutionviews'] = 'インスティテューションページ';
 $string['institutionviewsdescription'] = 'インスティテューションのページおよびページテンプレートを作成および管理します。';
 $string['institutionfiles'] = 'インスティテューションファイル';
 $string['institutionfilesdescription'] = 'インスティテューションページで使用するファイルをアップロードおよび管理します。';
+$string['pluginsfields'] = 'プラグイン設定';
 $string['pluginadmin'] = 'プラグイン管理';
 $string['pluginadmindescription'] = 'プラグインをインストールおよび設定します。';
 $string['missingplugin'] = 'インストール済みプラグイン (%s) が見つかりませんでした。';
@@ -318,6 +319,7 @@ $string['remoteavatars'] = 'リモートアバタを表示する';
 $string['remoteavatarsdescription'] = 'チェックした場合、ユーザのデフォルトプロファイル写真に<a href="http://www.gravatar.com">Gravatar</a>サービスが利用されます。';
 $string['searchplugin'] = '検索プラグイン';
 $string['searchplugindescription'] = '使用する検索プラグイン';
+$string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「ププラグインタイプ: search」の設定を確認してください。確認後、あなたはsearchの「リセット」ボタンをクリックする必要があります。';
 $string['searchusernames'] = 'ユーザ名を検索する';
 $string['searchusernamesdescription'] = '「ユーザを検索する」の対象として、ユーザ名も検索されるようにします。';
 $string['searchuserspublic'] = 'パブリック検索にユーザを表示する';
@@ -623,7 +625,11 @@ $string['importfileisnotazipfile'] = 'インポートファイル %s はZIPフ�
 $string['unzipfailed'] = 'Leap2Aファイル %s の解凍に失敗しました。詳細情報はエラーログをご覧ください。';
 $string['importfailedfornusers'] = '%d / %d のユーザのインポートに失敗しました。';
 $string['invalidlistingfile'] = '無効なユーザ名リストです。これらのユーザをエクスポートするため、あなたはMaharaバルクエクスポータを使用しましたか?';
+$string['adminuserspagedescription1'] = '<p>ここであなたはどのユーザがサイトの管理者になるのか選択することができます。現在の管理者は「現在の管理者」フィールドに、潜在的な管理者は「潜在的な管理者」フィールドに一覧表示されます。</p><p>システムには少なくとも1名の管理者を設定する必要があります。</p>';
+$string['institutionadminuserspagedescription1'] = 'ここであなたはどのユーザがインスティテューション管理者になるのか選択することができます。現在の管理者は「現在の管理者」フィールドに、潜在的な管理者は「インスティテューションメンバー」フィールドに一覧表示されます。';
 $string['adminusersupdated'] = '管理ユーザが更新されました。';
+$string['staffuserspagedescription1'] = 'ここであなたはどのユーザがサイトスタッフになるのか選択することができます。現在の管理者は「現在のスタッフ」フィールドに、潜在的な管理者は「潜在的なスタッフ」フィールドに一覧表示されます。';
+$string['institutionstaffuserspagedescription1'] = 'ここであなたはどのユーザがあなたのインスティテューションのスタッフになるのか選択することができます。現在のスタッフは「現在のスタッフ」フィールドに、潜在的なスタッフは「インスティテューションメンバー」フィールドに一覧表示されます。';
 $string['potentialstaff'] = '潜在的なスタッフ';
 $string['currentstaff'] = '現在のスタッフ';
 $string['staffusersupdated'] = 'スタッフユーザが更新されました。';
@@ -985,6 +991,8 @@ $string['progressbar'] = 'プロファイル完了';
 $string['showprogressbar'] = 'プロファイル完了を表示する';
 $string['progressbarsaved'] = 'プログレスバーが正常に保存されました。';
 $string['showprogressbardescription'] = 'チェックした場合、プロファイルで何を完了すべきかヒントのあるプログレスバーがユーザにサイドブロックとして表示されます。プログレスバーには無効にするオプションがあります。';
+$string['progressbardisablednote'] = '<b>注意</b>: 現在、プロファイル完了は無効にされています。ユーザがプロファイルの完了に関して進捗を追跡できるようにするには、あなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「ユーザ設定」セクションにて有効にする必要があります。';
+$string['profilecompletenessdesc'] = 'あなたのインスティテューションのユーザプロファイル完了にカウントされるアーティファクトを選択してください。ユーザが提供すべきアーティファクトの隣にあるチェックボックスをチェックしてください。またはユーザがプロファイルを完了するために必要な特定のアーティファクトのアイテム数を選択してください。';
 $string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックにて、プロファイル完了がどのように表示されるかプレビューすることができます。';
 
 ?>
