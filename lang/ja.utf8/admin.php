@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-06-28 21:37:45 UTC
+ * @updated    2014-06-28 21:43:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -318,7 +318,7 @@ $string['remoteavatars'] = 'リモートアバタを表示する';
 $string['remoteavatarsdescription'] = 'チェックした場合、ユーザのデフォルトプロファイル写真に<a href="http://www.gravatar.com">Gravatar</a>サービスが利用されます。';
 $string['searchplugin'] = '検索プラグイン';
 $string['searchplugindescription'] = '使用する検索プラグイン';
-$string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「ププラグインタイプ: search」の設定を確認してください。確認後、あなたはsearchの「リセット」ボタンをクリックする必要があります。';
+$string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「プラグインタイプ: search」の設定を確認してください。確認後、あなたはsearchの「リセット」ボタンをクリックする必要があります。';
 $string['searchusernames'] = 'ユーザ名を検索する';
 $string['searchusernamesdescription'] = '「ユーザを検索する」の対象として、ユーザ名も検索されるようにします。';
 $string['searchuserspublic'] = 'パブリック検索にユーザを表示する';
