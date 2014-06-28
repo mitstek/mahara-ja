@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-06-28 21:43:02 UTC
+ * @updated    2014-06-28 21:50:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -240,6 +240,7 @@ $string['userstatstabletitle'] = '日次ユーザ統計';
 $string['groupstatstabletitle'] = '最大グループ';
 $string['viewstatstabletitle'] = '人気ページ';
 $string['exportstatsascsv'] = '統計をCSVフォーマットでエクスポートする';
+$string['downloadstatsascsv'] = 'CSVフォーマットの統計';
 $string['nostats'] = '利用可能な統計はありません。';
 $string['site'] = 'サイト';
 $string['statistics'] = '統計';
@@ -694,7 +695,11 @@ $string['usereditwarning'] = '注意: アカウントを変更することで、
 $string['suspenduserdescription'] = 'アカウントの利用停止が解除されるまで、利用停止ユーザはログインできません。';
 $string['deleteusernote'] = 'この処理は<b>元に戻すことができません</b>ので注意してください。';
 $string['youcannotadministerthisuser'] = 'あなたはこのユーザを管理できません。';
+$string['userinstitutionjoined'] = 'ユーザがインスティテューション「 %s 」に追加されました。.';
+$string['userinstitutionremoved'] = 'ユーザがインスティテューション「 %s 」から削除されました。';
+$string['userinstitutionupdated'] = 'インスティテューション「 %s 」のユーザ設定が更新されました。';
 $string['usernamechangenotallowed'] = '選択された認証方法ではユーザ名の変更が許可されていません。';
+$string['usersitesettingschanged'] = 'サイトアカウント設定が更新されました。';
 $string['passwordchangenotallowed'] = '選択された認証方法ではパスワードの変更が許可されていません。';
 $string['thisuserdeleted'] = 'このユーザは削除されました。';
 $string['disableemail'] = 'メールを無効にする';
@@ -916,6 +921,7 @@ $string['bulkactions'] = 'バルク処理';
 $string['editselectedusersdescription1'] = 'あなたがユーザ検索ページで選択したユーザの利用停止、削除または認証方法を変更します。';
 $string['uneditableusers'] = 'あなたは編集することのできない %s ユーザを選択しました。選択されたユーザはリストから取り除かれます。';
 $string['exportusersascsv'] = 'ユーザをCSVフォーマットでエクスポートする';
+$string['downloadusersascsv'] = 'CSVフォーマットのユーザ';
 $string['Download'] = 'ダウンロード';
 $string['suspendusers'] = 'ユーザを利用停止する';
 $string['Suspend'] = '利用停止';
