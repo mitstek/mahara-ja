@@ -95,7 +95,7 @@ $string['interactioninstancenotfound'] = 'ID %s の活動インスタンスは�
 $string['invalidviewaction'] = '無効なビューコントロール: %s';
 $string['missingparamblocktype'] = '最初に追加するブロックタイプを選択してください。';
 $string['missingparamcolumn'] = 'カラム設定がありません。';
-$string['missingparamorder'] = '並び替え順の設定がありません。';
+$string['missingparamorder'] = '並べ替え順の設定がありません。';
 $string['missingparamid'] = 'IDがありません。';
 
 ?>
