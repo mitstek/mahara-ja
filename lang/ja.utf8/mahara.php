@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-11-18 06:39:21 UTC
+ * @updated    2014-03-16 13:03:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -111,7 +111,7 @@ $string['alltags'] = 'すべてのタグ';
 $string['sortalpha'] = 'タグをアルファベット順でソートする';
 $string['sortfreq'] = 'タグを使用頻度順でソートする';
 $string['sortresultsby'] = 'ソート結果:';
-$string['sortedby'] = '並び替え';
+$string['sortedby'] = '並べ替え';
 $string['adminfirst'] = 'Adminを最初に';
 $string['nameatoz'] = '名: A -> Z';
 $string['nameztoa'] = '名: Z -> A';
