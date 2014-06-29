@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-03-27 18:31:31 UTC
+ * @updated    2014-03-16 13:04:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -291,6 +291,8 @@ $string['sitefile'] = 'サイトファイル';
 $string['adminpublicdirname'] = 'パブリック';
 $string['adminpublicdirdescription'] = 'ログアウトしたユーザからアクセス可能なファイルです。';
 $string['badmenuitemtype'] = '不明なメニューアイテムタイプ';
+$string['badurl'] = '無効なリンクが提供されました。';
+$string['oneormorelinksarebad'] = '1つまたはそれ以上のリンクが有効ではありません。';
 $string['confirmdeletemenuitem'] = '本当にこのアイテムを削除してもよろしいですか?';
 $string['deletingmenuitem'] = 'メニューアイテムの削除中';
 $string['deletefailed'] = 'メニューアイテムの削除に失敗しました。';

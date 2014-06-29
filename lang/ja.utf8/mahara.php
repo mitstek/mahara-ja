@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-11-18 06:40:31 UTC
+ * @updated    2014-03-16 13:05:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -517,6 +517,7 @@ $string['Permissions'] = 'パーミッション';
 $string['republish'] = '公開';
 $string['view'] = 'ページ';
 $string['artefactnotpublishable'] = 'アーティファクト %s はページ %s で公開できません。';
+$string['belongingto'] = '所属';
 $string['allusers'] = 'すべてのユーザ';
 $string['attachment'] = '添付ファイル';
 $string['quarantinedirname'] = '隔離場所';
