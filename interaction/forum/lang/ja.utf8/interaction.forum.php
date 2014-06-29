@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-03-24 04:20:04 UTC
+ * @updated    2014-06-29 15:53:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -146,6 +146,7 @@ $string['topicunstickysuccess'] = 'トピックが正常にスティッキー設
 $string['topicunsubscribesuccess'] = 'トピックのメール購読が正常に解除されました。';
 $string['topicupdatefailed'] = 'トピックの更新に失敗しました。';
 $string['typenewpost'] = '新しいフォーラム投稿';
+$string['typereportpost'] = 'フォーラム内の好ましくないコンテンツ';
 $string['Unsticky'] = 'スティッキー解除';
 $string['Unsubscribe'] = 'メール購読解除';
 $string['unsubscribefromforum'] = 'フォーラムのメール購読を解除する';
