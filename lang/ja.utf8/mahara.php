@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-06-14 20:00:26 UTC
+ * @updated    2014-07-01 21:56:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -335,6 +335,7 @@ $string['cookiesnotenabled'] = 'あなたのブラウザではクッキーが有
 $string['institution'] = 'インスティテューション';
 $string['institutioncontacts'] = '「 %s 」連絡先';
 $string['institutionlink'] = '<a href="%s">%s</a>';
+$string['link'] = '<a href="%s">%s</a>';
 $string['loggedoutok'] = 'あなたは正常にログアウトしました。';
 $string['login'] = 'ログイン';
 $string['loginfailed'] = 'あなたは正しいログイン情報を提供していないようです。あなたのユーザ名およびパスワードが正しいどうか確認してください。';
@@ -636,6 +637,8 @@ $string['republish'] = '公開';
 $string['view'] = 'ページ';
 $string['artefactnotpublishable'] = 'アーティファクト %s はページ %s で公開できません。';
 $string['nopublishpermissiononartefact'] = 'あなたには %s を公開するパーミッションがありません。';
+$string['nopathfound'] = 'このアーティファクトのパスが見つかりませんでした。';
+$string['cantmoveitem'] = 'このアーティファクトを移動できません。';
 $string['belongingto'] = '所属';
 $string['allusers'] = 'すべてのユーザ';
 $string['attachment'] = '添付ファイル';
