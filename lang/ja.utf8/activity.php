@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-04-28 18:07:50 UTC
+ * @updated    2014-07-01 21:47:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -58,7 +58,7 @@ $string['newcontactusfrom'] = '新しいお問い合わせ:';
 $string['newcontactus'] = '新しいお問い合わせ';
 $string['newviewaccessmessage'] = 'あなたはページ「 %s 」のアクセスリストに %s によって追加されました。';
 $string['newviewaccessmessagenoowner'] = 'あなたはページ「 %s 」のアクセスリストに追加されました。';
-$string['newviewaccesssubject'] = '新しいページアクセス';
+$string['newviewaccesssubject1'] = 'ページ「 %s 」への新しいアクセス';
 $string['viewmodified'] = 'がページを変更しました。';
 $string['ongroup'] = 'グループ:';
 $string['ownedby'] = 'オーナー:';
