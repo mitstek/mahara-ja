@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-06-14 17:41:09 UTC
+ * @updated    2014-07-12 16:20:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -170,8 +170,16 @@ $string['fileuploadedtofolderas'] = '%s が %s に「 %s 」としてアップ�
 $string['fileuploadedas'] = '%s が「 %s 」としてアップロードされました。';
 $string['insufficientmemoryforresize'] = '(イメージのリサイズのために十分なメモリがありません。アップロード前にリサイズすることをお考えください)';
 $string['quotanotificationheader'] = 'クオータ通知';
+$string['quotanotifylimitoutofbounds'] = '通知制限はパーセントで入力して、0から100までの数字である必要があります。';
+$string['usernotificationsubject'] = 'あなたのファイルストレージがほぼ満杯です。';
+$string['usernotificationmessage'] = 'あなたはファイルクオータの %s% を使用しています (ファイルクオータ: %s)。あなたの制限を増分するために、サイト管理者にご連絡ください。';
+$string['adm_notificationsubject'] = 'ユーザがファイルクオータ制限に到達しています。';
+$string['adm_notificationmessage'] = 'ユーザ %s がファイルクオータの %s% パーセントに到達しました (ファイルクオータ: %s)。';
 $string['textlinktouser'] = '%s のプロファイルを編集する';
 $string['quotanotifylimittitle'] = 'クオータ通知制限';
+$string['quotanotifylimitdescr'] = 'ユーザが古いファイルを削除またはクオータを増分するため、クオータがどのくらいの割合で満たされた時点でユーザ (および恐らく管理者) に通知しますか?';
+$string['quotanotifyadmin'] = '管理者に通知しますか?';
+$string['quotanotifyadmindescr'] = 'ユーザがクオータに達する場合、サイト管理者にも通知しますか?';
 $string['ai'] = 'Postscriptドキュメント';
 $string['aiff'] = 'AIFFオーディオファイル';
 $string['application'] = '不明なアプリケーション';
