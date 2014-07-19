@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-07-19 17:06:35 UTC
+ * @updated    2014-07-19 17:52:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -104,7 +104,15 @@ $string['noforums'] = 'このグループにフォーラムはありません。
 $string['notopics'] = 'このフォーラムにトピックはありません。';
 $string['notifyadministrator'] = '管理者に通知する';
 $string['objectionablepostdeletedsubject'] = 'フォーラムトピック「 %s 」の好ましくない投稿は %s によって削除されました。';
+$string['objectionablepostdeletedbody'] = '%s は前に好ましくないコンテンツであると報告された %s による投稿を調査して削除しました。
+
+好ましくない投稿コンテンツは次のとおりです:
+%s';
 $string['objectionabletopicdeletedsubject'] = '好ましくないフォーラムトピック「 %s 」は %s によって削除されました。';
+$string['objectionabletopicdeletedbody'] = '%s は前に好ましくないコンテンツであると報告された %s によるトピックを調査して削除しました。
+
+好ましくないトピックコンテンツは次のとおりです:
+%s';
 $string['Open'] = 'オープン';
 $string['Order'] = '並び順';
 $string['orderdescription'] = '他のフォーラムに対して、あなたがこのフォーラムを配置したい場所を選択してください。';
@@ -113,9 +121,12 @@ $string['postaftertimeout'] = 'あなたは %s 分のタイムアウト後に変
 $string['postbyuserwasdeleted'] = '%s による投稿が削除されました。';
 $string['postsbyuserweredeleted'] = '%s 件の投稿 (投稿者: %s) が削除されました。';
 $string['postdelay'] = '投稿遅延';
-$string['postdelaydescription'] = '新しい投稿がメール購読者に送信される前、経過する必要のある最小時間 (分) です。投稿者はこの時間中、投稿内容を編集することができます。';
+$string['postdelaydescription'] = '新しい投稿がメール購読者に送信される前に経過する必要のある最小時間 (分) です。投稿者はこの時間中、投稿内容を編集することができます。';
 $string['postedin'] = '%s が %s に投稿しました。';
 $string['Poster'] = '投稿者';
+$string['postobjectionable'] = 'この投稿はあなたにより好ましくないコンテンツを含んでいると報告されました。';
+$string['postnotobjectionable'] = 'この投稿は好ましくないコンテンツを含んでいると報告されました。事実とは異なる場合、あなたはボタンをクリックして通知を削除した後、他の管理者に通知することができます。';
+$string['postnotobjectionablebody'] = '%s は前に好ましくないコンテンツであると報告された %s による投稿を調査して、もはや好ましくないコンテンツは含んでいないとマークしました。';
 $string['postnotobjectionablesubject'] = 'フォーラムトピック「 %s 」の投稿は %s によって好ましくない投稿ではないとマークされました。';
 $string['postnotobjectionablesuccess'] = '投稿が好ましくない投稿としてマークされました。';
 $string['postnotobjectionablesubmit'] = '好ましくない投稿ではない';
