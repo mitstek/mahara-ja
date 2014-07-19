@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-07-19 16:37:24 UTC
+ * @updated    2014-07-19 17:55:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -54,7 +54,7 @@ $string['defaulthint'] = '検索用語を入力する';
 $string['imagexofy'] = 'イメージ {x} / {y}';
 $string['complaint'] = 'クレーム';
 $string['notifyadministrator'] = '管理者に通知する';
-$string['notifyadministratorconfirm'] = 'このページを好ましくないコンテンツを含むページとして報告しますか?';
+$string['notifyadministratorconfirm'] = 'このページを好ましくないコンテンツを含んでいるページとして報告しますか?';
 $string['notobjectionable'] = '好ましくないコンテンツではない';
 $string['reportobjectionablematerial'] = '好ましくないコンテンツを報告する';
 $string['reportsent'] = 'あなたの報告が送信されました。';
