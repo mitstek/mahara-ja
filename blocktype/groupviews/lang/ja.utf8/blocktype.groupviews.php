@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-04-20 14:42:13 UTC
+ * @updated    2014-07-19 15:55:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,10 +15,16 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'グループページ';
 $string['description'] = 'グループ内で共有されるページを表示します。';
-$string['displaygroupviews'] = 'グループページを表示しますか?';
+$string['displaygroupviews'] = 'グループページを表示する';
 $string['displaygroupviewsdesc'] = 'グループページ - グループ内で作成されたページ';
-$string['displaysharedviews'] = '共有ページを表示しますか?';
-$string['displaysharedviewsdesc'] = '共有ページ - グループメンバーにより共有される個人のポートフォリオ';
+$string['displaysharedviews'] = '共有ページを表示する';
+$string['displaysharedviewsdesc1'] = 'このグループと共有されているページ (コレクション内のページを除く) の一覧を表示します。';
+$string['displaysharedcollections'] = '共有コレクションを表示する';
+$string['displaysharedcollectionsdesc'] = 'このグループと共有されているコレクションの一覧を表示します。';
+$string['displaysubmissions'] = '送信ページおよびコレクションを表示する';
+$string['displaysubmissionsdesc'] = 'このグループに送信されたページおよびコレクションの一覧を表示します。';
 $string['defaulttitledescription'] = 'タイトルフィールドを空白にした場合、デフォルトタイトルが適用されます。';
+$string['itemstoshow'] = '1ページあたりのエントリ数';
+$string['itemstoshowdesc'] = 'それぞれのセクションで表示されるページまたはコレクション数です。最大: 100';
 
 ?>
