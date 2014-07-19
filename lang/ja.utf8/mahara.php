@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-07-01 21:56:57 UTC
+ * @updated    2014-07-19 16:33:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -32,6 +32,7 @@ $string['update'] = '更新';
 $string['change'] = '変更';
 $string['send'] = '送信';
 $string['go'] = 'Go';
+$string['configfor'] = '設定:';
 $string['default'] = 'デフォルト';
 $string['upload'] = 'アップロード';
 $string['complete'] = '完了';
@@ -46,6 +47,17 @@ $string['Help'] = 'ヘルプ';
 $string['closehelp'] = 'ヘルプを閉じる';
 $string['applychanges'] = '変更を適用する';
 $string['general'] = '一般';
+$string['units'] = 'ユニット';
+$string['toggletoolbarson'] = 'ツールバーを有効にします。ボタンの完全リストを表示します。';
+$string['toggletoolbarsoff'] = 'ツールバーを無効にします。基本的なボタンを表示します。';
+$string['defaulthint'] = '検索用語を入力する';
+$string['imagexofy'] = 'イメージ {x} / {y}';
+$string['complaint'] = 'クレーム';
+$string['notifyadministrator'] = '管理者に通知する';
+$string['notifyadministratorconfirm'] = 'このページを好ましくないコンテンツを含んでいるページとして報告しますか?';
+$string['notobjectionable'] = '好ましくないコンテンツではない';
+$string['reportobjectionablematerial'] = '好ましくないコンテンツを報告する';
+$string['reportsent'] = 'あなたの報告が送信されました。';
 $string['tabs'] = 'タブ';
 $string['tab'] = 'タブ';
 $string['selected'] = '選択済み';
@@ -147,7 +159,8 @@ $string['tagdeletedsuccessfully'] = 'タグが正常に削除されました。'
 $string['selfsearch'] = 'マイポートフォリオを検索する';
 $string['resultsperpage'] = '1ページあたりの表示ユーザ数';
 $string['license'] = 'ライセンス';
-$string['licenseother'] = 'その他のライセンス (URLを入力してください)';
+$string['licenseother'] = 'その他のライセンス (URLを入力する)';
+$string['licenseotherurl'] = 'URLを入力する';
 $string['licensedesc'] = 'このコンテンツのライセンスです。';
 $string['licensenone'] = '未選択';
 $string['licensenonedetailed'] = '%s はこのコンテンツのライセンスを選択していません。';
@@ -174,6 +187,8 @@ $string['views'] = 'ページ';
 $string['profilecompleteness'] = 'プロファイル完了';
 $string['profilecompletenesspreview'] = 'プロファイル完了プレビュー';
 $string['profilecompletenesstips'] = 'プロファイル完了ヒント';
+$string['progressbargenerictask'] = '追加 %d: %s';
+$string['profilecompletionforwhichinstitution'] = '-';
 $string['onlineusers'] = 'オンラインユーザ';
 $string['lastminutes'] = '直近の %s 分間';
 $string['allonline'] = 'すべてのオンラインユーザを表示する';
@@ -366,6 +381,7 @@ $string['emailtoolong'] = 'メールアドレスの長さは半角255文字以�
 $string['mustspecifyoldpassword'] = 'あなたの現在のパスワードを入力してください。';
 $string['Site'] = 'サイト';
 $string['profileicon'] = 'プロファイルイメージ';
+$string['bulkselect'] = '編集/報告のためにユーザを選択する';
 $string['emailaddress'] = 'メールアドレス';
 $string['firstname'] = '名';
 $string['firstnameall'] = 'すべての名';
@@ -435,6 +451,7 @@ $string['forgotpassnosuchemailaddressorusername'] = 'あなたが入力したメ
 $string['forgotpassuserusingexternalauthentication'] = 'あなたは外部認証方法の使用をリクエストしました。パスワードを変更するには、<a href="%s">あなたの管理者にご連絡ください</a>。または、別のユーザ名またはメールドレスを入力してください。';
 $string['forgotpasswordenternew'] = '続けるにはあなたの新しいパスワードを入力してください。';
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';
+$string['passwordresetexpired'] = 'パスワードリセットキーの有効期限が切れました。';
 $string['passwordchangedok'] = 'あなたのパスワードが正常に変更されました。';
 $string['noinstitutionsetpassemailsubject'] = '%s: %s のメンバーシップ';
 $string['noinstitutionsetpassemailmessagetext'] = '%s さん
