@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-07-12 16:48:01 UTC
+ * @updated    2014-07-19 16:05:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -322,6 +322,7 @@ $string['title'] = 'タイトル';
 $string['Role'] = 'ロール';
 $string['changerole'] = 'ロールを変更する';
 $string['changeroleofuseringroup'] = 'ロールを変更する - ユーザ: %s / グループ: %s';
+$string['changerolepermissions'] = 'ロールを変更する - ロール: %s / ユーザ: %s';
 $string['currentrole'] = '現在のロール';
 $string['changerolefromto'] = 'ロール「 %s 」を次のロールに変更する';
 $string['rolechanged'] = 'ロールが変更されました。';
