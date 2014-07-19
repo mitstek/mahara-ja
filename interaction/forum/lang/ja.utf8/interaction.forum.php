@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-06-29 15:53:35 UTC
+ * @updated    2014-07-19 17:06:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -31,6 +31,7 @@ $string['cantedittopic'] = 'あなたはこのトピックを編集できませ�
 $string['cantfindforum'] = 'ID %s のフォーラムが見つかりませんでした。';
 $string['cantfindpost'] = 'ID %s の投稿が見つかりませんでした。';
 $string['cantfindtopic'] = 'ID %s のトピックが見つかりませんでした。';
+$string['cantmakenonobjectionable'] = 'あなたはこの投稿を好ましくない投稿としてマークすることはできません。';
 $string['cantviewforums'] = 'あなたはこのグループのフォーラムを閲覧できません。';
 $string['cantviewtopic'] = 'あなたはこのフォーラムのトピックを閲覧できません。';
 $string['chooseanaction'] = '処理を選択する ...';
@@ -38,6 +39,7 @@ $string['clicksetsubject'] = '件名を入力するには、ここをクリッ�
 $string['Closed'] = 'クローズド';
 $string['Close'] = 'クローズ';
 $string['closeddescription'] = 'クローズドトピックではモデレータおよびグループ管理者のみ返信することができます。';
+$string['complaint'] = 'クレーム';
 $string['Count'] = 'カウント';
 $string['createtopicusersdescription'] = '「グループメンバーすべて」を設定した場合、すべてのメンバーが新しいトピックを作成すること、既存のトピックに返信することができます。「モデレータおよびグループ管理者のみ」を設定した場合、モデレータおよびグループ管理者のみ、新しいトピックを開始することができます。しかし、「モデレータおよびグループ管理者のみ」を設定して、トピックが存在するようになった場合、すべてのユーザが返信することができます。';
 $string['currentmoderators'] = '現在のモデレータ';
@@ -100,6 +102,9 @@ $string['newtopic'] = '新しいトピック';
 $string['noforumpostsyet'] = 'まだこのグループに投稿はありません。';
 $string['noforums'] = 'このグループにフォーラムはありません。';
 $string['notopics'] = 'このフォーラムにトピックはありません。';
+$string['notifyadministrator'] = '管理者に通知する';
+$string['objectionablepostdeletedsubject'] = 'フォーラムトピック「 %s 」の好ましくない投稿は %s によって削除されました。';
+$string['objectionabletopicdeletedsubject'] = '好ましくないフォーラムトピック「 %s 」は %s によって削除されました。';
 $string['Open'] = 'オープン';
 $string['Order'] = '並び順';
 $string['orderdescription'] = '他のフォーラムに対して、あなたがこのフォーラムを配置したい場所を選択してください。';
@@ -111,6 +116,9 @@ $string['postdelay'] = '投稿遅延';
 $string['postdelaydescription'] = '新しい投稿がメール購読者に送信される前、経過する必要のある最小時間 (分) です。投稿者はこの時間中、投稿内容を編集することができます。';
 $string['postedin'] = '%s が %s に投稿しました。';
 $string['Poster'] = '投稿者';
+$string['postnotobjectionablesubject'] = 'フォーラムトピック「 %s 」の投稿は %s によって好ましくない投稿ではないとマークされました。';
+$string['postnotobjectionablesuccess'] = '投稿が好ましくない投稿としてマークされました。';
+$string['postnotobjectionablesubmit'] = '好ましくない投稿ではない';
 $string['postreply'] = '返信';
 $string['Posts'] = '投稿';
 $string['allposts'] = 'すべての投稿';
@@ -122,6 +130,11 @@ $string['Reply'] = '返信';
 $string['replyforumpostnotificationsubjectline'] = 'Re: %s';
 $string['Re:'] = 'Re:';
 $string['replyto'] = '返信:';
+$string['reporteddetails'] = '報告詳細';
+$string['reportedpostdetails'] = '<b>報告 by %s - %s:</b><p>%s</p>';
+$string['reportobjectionablematerial'] = '報告';
+$string['reportpost'] = '投稿報告';
+$string['reportpostsuccess'] = '投稿が正常に報告されました。';
 $string['sendnow'] = '今すぐメッセージを送信する';
 $string['sendnowdescription'] = '少なくとも %s 分待つのではなく、すぐにメッセージを送信します。';
 $string['Sticky'] = 'スティッキー';
@@ -171,5 +184,6 @@ $string['closetopics'] = '新しいトピックをクローズする';
 $string['closetopicsdescription'] = 'チェックした場合、このフォーラム内の新しいトピックがデフォルトでクローズされます。モデレータおよびグループ管理者のみ、クローズされたトピックに返信することができます。';
 $string['activetopicsdescription'] = 'あなたのグループ内で最近更新されたトピックです。';
 $string['timeleftnotice'] = 'あなたが編集を終了するまで %s 分あります。';
+$string['objectionablecontentpost'] = 'フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者: %s';
 
 ?>
