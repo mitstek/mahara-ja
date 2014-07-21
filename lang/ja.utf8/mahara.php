@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-07-19 17:55:27 UTC
+ * @updated    2014-07-21 22:00:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -968,7 +968,7 @@ $string['editmyprofilepage'] = 'プロファイルページを編集する';
 $string['usersprofile'] = '%s のプロファイル';
 $string['profiledescription'] = 'プロファイルページはあなたの表示名またはプロファイル写真をクリックしたユーザが閲覧することになるページです。';
 $string['mydashboard'] = 'マイダッシュボード';
-$string['editdashboard'] = '編集';
+$string['editdashboard'] = 'ダッシュボードを編集する';
 $string['usersdashboard'] = '%s のダッシュボード';
 $string['dashboarddescription'] = 'ダッシュボードページはあなたがログインして最初にホームページ上で閲覧することになるページです。このページはあなたのみアクセスすることができます。';
 $string['topicsimfollowing'] = '私がフォローしているトピック';
