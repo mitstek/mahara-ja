@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-03-16 13:03:09 UTC
+ * @updated    2014-07-31 06:21:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -418,6 +418,7 @@ $string['forgotpassnosuchemailaddressorusername'] = 'あなたが入力したメ
 $string['forgotpassuserusingexternalauthentication'] = 'あなたは外部認証方法の使用をリクエストしました。パスワードを変更するには、<a href="%s">あなたの管理者にご連絡ください</a>。または、別のユーザ名またはメールドレスを入力してください。';
 $string['forgotpasswordenternew'] = '続けるにはあなたの新しいパスワードを入力してください。';
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';
+$string['passwordresetexpired'] = 'パスワードリセットキーの有効期限が切れました。';
 $string['passwordchangedok'] = 'あなたのパスワードが正常に変更されました。';
 $string['noinstitutionsetpassemailsubject'] = '%s: %s のメンバーシップ';
 $string['noinstitutionsetpassemailmessagetext'] = '%s さん
