@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-07-19 17:52:08 UTC
+ * @updated    2014-08-01 16:40:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -196,5 +196,38 @@ $string['closetopicsdescription'] = 'チェックした場合、このフォー�
 $string['activetopicsdescription'] = 'あなたのグループ内で最近更新されたトピックです。';
 $string['timeleftnotice'] = 'あなたが編集を終了するまで %s 分あります。';
 $string['objectionablecontentpost'] = 'フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者: %s';
+$string['objectionablecontentposthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者:%s
+<br />%s</div>
+
+<div style="margin: 1em 0;">%s</div>
+
+<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">好ましくない投稿コンテンツは次のとおりです:
+<br>%s</div>
+
+<div style="margin: 1em 0;">%s</div>
+
+<div style="font-size: smaller; border-top: 1px solid #999;">
+<p>クレームは次に関連します: <a href="%s">%s</a></p>
+<p>報告者: <a href="%s">%s</a></p>
+</div>';
+$string['objectionablecontentposttext'] = 'フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者:%s
+%s
+------------------------------------------------------------------------
+
+%s
+
+------------------------------------------------------------------------
+
+好ましくない投稿コンテンツは次のとおりです:
+%s
+------------------------------------------------------------------------
+
+%s
+
+-----------------------------------------------------------------------
+投稿を閲覧するには、次のリンクにアクセスしてください:
+%s
+報告者のプロファイルを閲覧するには、次のリンクにアクセスしてください:
+%s';
 
 ?>
