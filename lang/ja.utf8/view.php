@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-05-27 20:11:57 UTC
+ * @updated    2014-08-08 04:44:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -341,6 +341,7 @@ $string['grouphomepage'] = 'グループホームページ';
 $string['grouphomepagedescription'] = 'グループホームページはこのグループのAboutタブに表示されるコンテンツです。';
 $string['sharedwithme'] = '私との共有';
 $string['titleanddescription'] = 'タイトル、説明、タグ';
+$string['titleanddescriptionanduser'] = 'タイトル、説明、タグ、ユーザ';
 $string['tagsonly'] = 'タグのみ';
 $string['sharedviewsdescription'] = 'このページではあなたが共有しているページの中から、直近に修正またはコメントされたページが一覧表示されます。これらの共有ページには直接あなたが共有しているページ、オーナーのフレンドが共有しているページ、あなたのグループが共有しているページがあります。';
 $string['sharedwith'] = '共有対象';
