@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-08-08 04:44:42 UTC
+ * @updated    2014-08-15 06:48:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -280,6 +280,7 @@ $string['blocktypecategorydesc.internal'] = '個人情報オプションを表�
 $string['blocktypecategorydesc.blog'] = '日誌オプションを表示するには、クリックしてください。';
 $string['notitle'] = 'タイトルなし';
 $string['clickformoreinformation'] = '詳細情報およびフィードバックの投稿はこちらをクリックしてください。';
+$string['detailslinkalt'] = '(詳細)';
 $string['Browse'] = '閲覧';
 $string['Search'] = '検索';
 $string['noartefactstochoosefrom'] = '申し訳ございません、選択するアーティファクトがありません。';
