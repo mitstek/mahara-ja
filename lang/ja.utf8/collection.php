@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-07-19 17:19:07 UTC
+ * @updated    2014-08-18 00:24:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -71,6 +71,7 @@ $string['emptycollection'] = '空のコレクション';
 $string['manageviews'] = 'ページを管理する';
 $string['manageviewsspecific'] = '「 %s 」のページを管理する';
 $string['name'] = 'コレクション名';
+$string['needtoselectaview'] = 'あなたはコレクションに追加するページを選択する必要があります。';
 $string['newcollection'] = '新しいコレクション';
 $string['nocollections'] = 'まだコレクションはありません。';
 $string['nocollectionsaddone'] = 'まだコレクションはありません。%sコレクションを追加してください%s。';
@@ -85,13 +86,14 @@ $string['savecollection'] = 'コレクションを保存する';
 $string['update'] = '更新';
 $string['usecollectionname'] = 'コレクション名を使用しますか?';
 $string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしてください。';
-$string['viewaddedtocollection'] = 'コレクションにページが追加されました。';
+$string['viewsaddedtocollection1'] = '%s ページがコレクションに追加されました。';
+$string['viewsaddedtocollection1different'] = '%s ページがコレクションに追加されました。コレクション内のページすべてに関して、共有アクセスが変更されました。';
+$string['viewsaddedaccesschanged'] = '次のページに関して、アクセスパーミッションが変更されました:';
 $string['viewcollection'] = 'コレクション詳細';
 $string['viewcount'] = 'ページ';
 $string['viewremovedsuccessfully'] = 'ページが正常に削除されました。';
 $string['viewnavigation'] = 'ページナビゲーションバー';
 $string['viewnavigationdesc'] = 'このコレクション内すべてのページに水平ナビゲーションバーをデフォルトで追加します。';
-$string['viewsaddedtocollection'] = 'コレクションにページが追加されました。';
 $string['viewstobeadded'] = '追加されるページ';
 $string['viewconfirmremove'] = '本当にこのページをコレクションから削除してもよろしいですか?';
 $string['collectioncopywouldexceedquota'] = 'このコレクションをコピーすることで、あなたのファイルクオータを超過します。';
