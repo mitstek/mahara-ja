@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-05-27 20:09:37 UTC
+ * @updated    2014-08-18 00:31:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -178,7 +178,13 @@ $string['bolditalic'] = '太字イタリック';
 $string['fonttype'] = 'フォントタイプ';
 $string['headingandtext'] = 'ヘッディングおよびテキスト';
 $string['headingonly'] = 'ヘッディングのみ';
+$string['fontuploadinstructions'] = '<br />必要なフォントファイルをアップロードするには、あなたは<a href="http://www.fontsquirrel.com/fontface/generator/" target="_blank">FontSquirrel Online Generator</a>によって生成されたZIPファイルを直接アップロードするか、
+<br />EOT、SVG、TTF、WOFFおよびライセンスファイルを個別にアップロードすることができます。';
 $string['fontfiles'] = 'フォントファイル';
+$string['fontfilemissing'] = 'ZIPファイルに「 %s 」フォントファイルが含まれていません。';
+$string['zipfontfiles'] = 'ZIP書庫内のフォントファイル';
+$string['fontfilezip'] = 'ZIP書庫';
+$string['zipdescription'] = 'EOT、SVG、TTF、WOFFおよびフォントのライセンスファイルを含むZIPファイル';
 $string['fontfileeot'] = 'EOTフォントファイル';
 $string['eotdescription'] = 'Embedded OpenTypeフォント (Internet Explorer 4+)';
 $string['notvalidfontfile'] = 'これは有効な %s フォントファイルではありません。';
