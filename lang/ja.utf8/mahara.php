@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-08-18 00:26:52 UTC
+ * @updated    2014-08-20 05:09:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -52,6 +52,9 @@ $string['toggletoolbarson'] = 'ツールバーを有効にします。ボタン�
 $string['toggletoolbarsoff'] = 'ツールバーを無効にします。基本的なボタンを表示します。';
 $string['defaulthint'] = '検索用語を入力する';
 $string['imagexofy'] = 'イメージ {x} / {y}';
+$string['clickformore'] = '(詳細情報を表示するには、「Enter」を押してください)';
+$string['goto'] = '「 %s 」に移動する';
+$string['gotomore'] = '続きを読む ...';
 $string['complaint'] = 'クレーム';
 $string['notifyadministrator'] = '管理者に通知する';
 $string['notifyadministratorconfirm'] = 'このページを好ましくないコンテンツを含んでいるページとして報告しますか?';
