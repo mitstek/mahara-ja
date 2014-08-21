@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-10-14 08:45:33 UTC
+ * @updated    2014-08-21 15:41:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -171,7 +171,7 @@ $string['strftimerecentrelative'] = '%%v - %%H:%%M';
 $string['strftimerecentfullrelative'] = '%%v - %%H:%%M';
 $string['indentmode'] = 'フォーラムのインデントモード';
 $string['indentfullindent'] = '完全に広げる';
-$string['indentmaxindent'] = '最大インデントレベルまで広げる';
+$string['indentmaxindent'] = '最大まで広げる';
 $string['indentflatindent'] = 'インデントなし';
 $string['indentmodedescription'] = 'このフォーラム内のトピックが、どのようにインデントされるか指定してください。';
 $string['maxindent'] = '最大インデントレベル';
