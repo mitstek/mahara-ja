@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-08-01 16:40:15 UTC
+ * @updated    2014-08-21 15:53:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -186,7 +186,7 @@ $string['strftimerecentrelative'] = '%%v - %%H:%%M';
 $string['strftimerecentfullrelative'] = '%%v - %%H:%%M';
 $string['indentmode'] = 'フォーラムのインデントモード';
 $string['indentfullindent'] = '完全に広げる';
-$string['indentmaxindent'] = '最大インデントレベルまで広げる';
+$string['indentmaxindent'] = '最大まで広げる';
 $string['indentflatindent'] = 'インデントなし';
 $string['indentmodedescription'] = 'このフォーラム内のトピックが、どのようにインデントされるか指定してください。';
 $string['maxindent'] = '最大インデントレベル';
