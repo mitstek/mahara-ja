@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-08-26 00:28:01 UTC
+ * @updated    2014-08-26 00:10:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -222,7 +222,7 @@ $string['groupmemberaverage'] = 'それぞれのユーザは平均 %s のグル�
 $string['viewsperuser'] = 'ページを作成したユーザはそれぞれ約 %s ページを持っています。';
 $string['Cron'] = 'Cron';
 $string['runningnormally'] = '正常動作';
-$string['cronnotrunning1'] = '<span class="error">Cronが動作していません。</span><br />cronのセットアップに関するインストラクションは<a href="http://wiki.mahara.org/System_Administrator\'s_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronをセットアップしている場合、直近の1つまたはそれ以上の処理が正しく実行されませんでした。';
+$string['cronnotrunning1'] = '<span class="error">Cronが動作していません。</span><br />cronのセットアップに関するインストラクションは<a href="http://wiki.mahara.org/System_Administrator's_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronをセットアップしている場合、直近の1つまたはそれ以上の処理が正しく実行されませんでした。';
 $string['Loggedin'] = 'ログイン';
 $string['youraverageuser'] = 'あなたのユーザ平均 ...';
 $string['statsmaxfriends'] = '平均フレンド数: %s (最もフレンドの多いユーザ: <a href="%s">%s</a> - フレンド数: %d)';
