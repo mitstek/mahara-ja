@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-08-21 15:53:43 UTC
+ * @updated    2014-09-02 20:13:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -180,6 +180,8 @@ $string['whocancreatetopics'] = '誰がトピックを作成できますか?';
 $string['youcannotunsubscribeotherusers'] = 'あなたは他のユーザをメール購読解除できません。';
 $string['youarenotsubscribedtothisforum'] = 'あなたはこのフォーラムをメール購読していません。';
 $string['youarenotsubscribedtothistopic'] = 'あなたはこのトピックをメール購読していません。';
+$string['Moveto'] = '移動';
+$string['topicmovedsuccess'] = '%d トピックが正常に移動されました。';
 $string['today'] = '今日';
 $string['yesterday'] = '昨日';
 $string['strftimerecentrelative'] = '%%v - %%H:%%M';
