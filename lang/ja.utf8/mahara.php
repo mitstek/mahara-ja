@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-07-31 06:20:47 UTC
+ * @updated    2014-09-11 03:09:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -176,6 +176,7 @@ $string['profilecompletenesspreview'] = 'プロファイル完了プレビュー
 $string['profilecompletenesstips'] = 'プロファイル完了ヒント';
 $string['progressbargenerictask'] = '追加 %d: %s';
 $string['profilecompletionforwhichinstitution'] = '対象';
+$string['noprogressitems'] = 'このインスティテューションに関して、プロファイル完了アイテムはありません。';
 $string['onlineusers'] = 'オンラインユーザ';
 $string['lastminutes'] = '直近の %s 分間';
 $string['allonline'] = 'すべてのオンラインユーザを表示する';
