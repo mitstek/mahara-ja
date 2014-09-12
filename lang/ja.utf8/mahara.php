@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-09-02 20:14:01 UTC
+ * @updated    2014-09-12 04:37:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -984,21 +984,16 @@ $string['deleteduser'] = '削除済みユーザ';
 $string['theme'] = 'テーマ';
 $string['choosetheme'] = 'テーマを選択する ...';
 $string['Hide2'] = '情報ボックスを隠す';
-$string['createcollect'] = '作成および収集';
-$string['createcollectsubtitle'] = 'あなたのポートフォリオを作成します。';
-$string['updateprofile'] = 'あなたのプロファイルを更新する';
-$string['uploadfiles'] = 'あなたのファイルをアップロードする';
-$string['createresume'] = 'あなたのレジュメを作成する';
-$string['publishblog'] = '日誌を公開する';
-$string['Organise'] = '整理';
-$string['organisesubtitle'] = 'あなたのポートフォリオのショーケースです。';
-$string['organisedescription'] = 'あなたのポートフォリオを<a href="%s">ページ</a>に整理することができます。異なる閲覧者に対して、異なるページを作成します - あなたがページに含む構成要素を選択します。';
-$string['sharenetwork'] = '共有およびネットワーク';
-$string['sharenetworksubtitle'] = 'フレンドを探して、グループに参加します。';
-$string['joinsomegroups'] = 'グループに参加する';
-$string['controlyourprivacy'] = 'あなたのプライバシーをコントロールする';
-$string['discusstopics'] = 'トッピックを議論する';
-$string['howtodisable'] = '* あなたはこのボックスの可視性を<a href="%s">設定</a>ページにてコントロールすることができます。';
+$string['create'] = '作成';
+$string['createsubtitle'] = 'あなたのポートフォリオを開発する';
+$string['createdetail'] = 'あなたのeポートフォリオを柔軟な個人学習環境で作成します。';
+$string['share'] = '共有';
+$string['sharesubtitle'] = 'あなたのプライバシーを管理する';
+$string['sharedetail'] = 'あなたの成果および発展をあなたが管理できるスペースで共有します。';
+$string['engage'] = '参加';
+$string['engagesubtitle'] = '人を探してグループに参加する';
+$string['engagedetail'] = 'ディスカッションフォーラムで他の人と関係して、グループ内で共同します。';
+$string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたはこのボックスの可視性を<a href="%s">設定</a>ページにてコントロールすることができます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['filenotfound'] = 'ファイルが見つかりませんでした。';
 $string['betweenxandy'] = '範囲: %s - %s';
