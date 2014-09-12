@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-09-11 03:09:37 UTC
+ * @updated    2014-09-12 04:44:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -970,7 +970,7 @@ $string['sharenetworksubtitle'] = 'フレンドを探して、グループに参
 $string['joinsomegroups'] = 'グループに参加する';
 $string['controlyourprivacy'] = 'あなたのプライバシーをコントロールする';
 $string['discusstopics'] = 'トッピックを議論する';
-$string['howtodisable'] = '* あなたはこのボックスの可視性を<a href="%s">設定</a>ページにてコントロールすることができます。';
+$string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたはこのボックスの可視性を<a href="%s">設定</a>ページにてコントロールすることができます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['filenotfound'] = 'ファイルが見つかりませんでした。';
 $string['betweenxandy'] = '範囲: %s - %s';
