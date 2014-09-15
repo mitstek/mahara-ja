@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-08-01 05:30:46 UTC
+ * @updated    2014-09-15 09:55:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -98,7 +98,8 @@ $string['blocktype_recentforumposts'] = 'ブロック: 最近のフォーラム�
 $string['blocktype_recentposts'] = 'ブロック: 最近の日誌エントリ';
 $string['blocktype_resumefield'] = 'ブロック: レジュメフィールド';
 $string['blocktype_taggedposts'] = 'ブロック: タグ付き日誌エントリ';
-$string['blocktype_textbox'] = 'ブロック: テキストボックス';
+$string['blocktype_text'] = 'ブロック: テキスト';
+$string['blocktype_textbox'] = 'ブロック: ノート';
 $string['blocktype_wall'] = 'ブロック: ウォール';
 $string['blocktype_watchlist'] = 'ブロック: ウォッチページ';
 $string['count_block_instance'] = 'ブロック数';
@@ -162,7 +163,7 @@ $string['plugin_blocktype_recentforumposts_version'] = 'ブロックタイププ
 $string['plugin_blocktype_recentposts_version'] = 'ブロックタイププラグイン: 「最近の日誌投稿」バージョン';
 $string['plugin_blocktype_resumefield_version'] = 'ブロックタイププラグイン: 「単一レジュメフィールド」バージョン';
 $string['plugin_blocktype_taggedposts_version'] = 'ブロックタイププラグイン: 「タグ付き日誌エントリ」バージョン';
-$string['plugin_blocktype_textbox_version'] = 'ブロックタイププラグイン: 「テキストボックス」バージョン';
+$string['plugin_blocktype_textbox_version'] = 'ブロックタイププラグイン: 「ノート」バージョン';
 $string['plugin_blocktype_wall_version'] = 'ブロックタイププラグイン: 「ウォール」バージョン';
 $string['plugin_blocktype_watchlist_version'] = 'ブロックタイププラグイン: 「ウォッチページ」バージョン';
 $string['plugin_export_html_version'] = 'エクスポートプラグイン: 「HTML」バージョン';

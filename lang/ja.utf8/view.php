@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-08-18 00:40:02 UTC
+ * @updated    2014-09-15 09:56:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -316,8 +316,6 @@ $string['copyfornewmembers'] = '新しいインスティテューションメン
 $string['copyfornewmembersdescription1'] = '%s のすべての新しいメンバーに対して、選択したページまたはコレクションのパーソナルコピーを自動作成します。';
 $string['copyfornewgroups'] = '新しいグループにコピーする';
 $string['copyfornewgroupsdescription1'] = '以下のグループタイプの新しいグループすべてに対して、選択したページまたはコレクションをコピーします:';
-$string['searchviews'] = 'ページを検索する';
-$string['searchowners'] = 'オーナーを検索する';
 $string['owner'] = 'オーナー';
 $string['Owner'] = 'オーナー';
 $string['owners'] = 'オーナー';
@@ -357,10 +355,8 @@ $string['retractable'] = '格納';
 $string['retractabledescription'] = 'ヘッダをクリックしてこのブロックを格納できるようにするには、このオプションを有効にしてください。';
 $string['retractedonload'] = '自動格納';
 $string['retractedonloaddescription'] = 'このブロックを自動的に格納するには、このオプションを有効にしてください。';
-$string['textbox'] = 'テキストボックス';
-$string['textboxtooltip'] = 'テキストボックスを追加する';
+$string['textbox1'] = 'ノート';
 $string['image'] = 'イメージ';
-$string['imagetooltip'] = '単一イメージを追加する';
 $string['addcontent'] = 'コンテンツを追加する';
 $string['theme'] = 'テーマ';
 
