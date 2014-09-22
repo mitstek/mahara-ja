@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-09-12 04:37:07 UTC
+ * @updated    2014-09-22 03:56:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,6 +20,7 @@ $string['copytoclipboard'] = 'シークレットURLをクリップボードに�
 $string['delete'] = '削除';
 $string['deletespecific'] = '「 %s 」を削除する';
 $string['deleteitem'] = '削除';
+$string['deleted'] = '削除';
 $string['moveitemup'] = '上へ';
 $string['moveitemdown'] = '下へ';
 $string['edit'] = '編集';
@@ -49,6 +50,7 @@ $string['closehelp'] = 'ヘルプを閉じる';
 $string['applychanges'] = '変更を適用する';
 $string['general'] = '一般';
 $string['units'] = 'ユニット';
+$string['status'] = 'ステータス';
 $string['toggletoolbarson'] = 'ツールバーを有効にします。ボタンの完全リストを表示します。';
 $string['toggletoolbarsoff'] = 'ツールバーを無効にします。基本的なボタンを表示します。';
 $string['defaulthint'] = '検索用語を入力する';
@@ -530,6 +532,31 @@ $string['month'] = '月';
 $string['months'] = '月';
 $string['years'] = '年';
 $string['year'] = '年';
+$string['datepicker_clearText'] = 'クリア';
+$string['datepicker_closeText'] = '完了';
+$string['datepicker_closeStatus'] = '変更せずに保存する';
+$string['datepicker_prevText'] = '前へ';
+$string['datepicker_prevStatus'] = '前の月を表示する';
+$string['datepicker_nextText'] = '次へ';
+$string['datepicker_nextStatus'] = '次の月を表示する';
+$string['datepicker_currentText'] = '現在';
+$string['datepicker_currentStatus'] = '現在の月を表示する';
+$string['datepicker_monthNames'] = '[1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月]';
+$string['datepicker_monthNamesShort'] = '[1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月]';
+$string['datepicker_monthStatus'] = '異なる月を表示する';
+$string['datepicker_yearStatus'] = '別の年を表示する';
+$string['datepicker_weekHeader'] = '週';
+$string['datepicker_dayNames'] = '[日曜日,月曜日,火曜日,水曜日,木曜日,金曜日,土曜日]';
+$string['datepicker_dayNamesShort'] = '[日,月,火,水,木,金,土]';
+$string['datepicker_dayNamesMin'] = '[日,月,火,水,木,金,土]';
+$string['datepicker_timeText'] = '時間';
+$string['datepicker_hourText'] = '時';
+$string['datepicker_minuteText'] = '分';
+$string['datepicker_secondText'] = '秒';
+$string['datepicker_millisecText'] = 'ミリ秒';
+$string['datepicker_timezoneText'] = 'タイムゾーン';
+$string['datepicker_amNames'] = '[AM, A]';
+$string['datepicker_pmNames'] = '[PM, P]';
 $string['sitecontentnotfound'] = '%s テキストは利用できません。';
 $string['name'] = '名称';
 $string['email'] = 'Eメール';
@@ -615,7 +642,7 @@ $string['blacklisteddomaininurl'] = 'このフィールドにはブラックリ�
 $string['newuserscantpostlinksorimages'] = '申し訳ございません、新しく登録されたユーザによるリンクの投稿は許可されていません。リンクまたはURLを取り除くため、あなたの投稿を書き換えて、再度お試しください。';
 $string['notinstallable'] = 'インストールできません!';
 $string['installedplugins'] = 'インストール済みプラグイン';
-$string['notinstalledplugins'] = '未インストールプラグイン';
+$string['notinstalledplugins'] = '<span class="error">未インストールプラグイン</span>';
 $string['plugintype'] = 'プラグインタイプ';
 $string['settingssaved'] = '設定が保存されました。';
 $string['settingssavefailed'] = '設定の保存に失敗しました。';
@@ -962,6 +989,7 @@ $string['hidden'] = '非表示';
 $string['lastupdate'] = '最終更新日時';
 $string['lastupdateorcomment'] = '最終更新日時またはコメント';
 $string['Title'] = 'タイトル';
+$string['anonymoususer'] = '(作成者名非表示)';
 $string['importedfrom'] = 'インポート元 %s';
 $string['incomingfolderdesc'] = '他のネットワークホストからインポートされたファイル';
 $string['remotehost'] = 'リモートホスト %s';
