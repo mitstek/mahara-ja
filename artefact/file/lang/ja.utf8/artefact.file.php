@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-07-29 07:16:24 UTC
+ * @updated    2014-10-06 05:31:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -51,9 +51,9 @@ $string['resizeonuploadenabledescription1'] = 'チェックした場合、最大
 $string['defaultagreement'] = 'デフォルト同意書';
 $string['defaultquota'] = 'デフォルトクオータ';
 $string['defaultquotadescription'] = 'あなたは新しいユーザがクオータとして持つことのできるディスクスペース総量をここで設定することができます。既存のユーザのクオータは変更されません。';
+$string['defaultuserquota'] = 'デフォルトユーザクオータ';
 $string['updateuserquotas'] = 'ユーザクオータを更新する';
 $string['updateuserquotasdesc'] = 'チェックした場合、あなたが上で選択したデフォルトクオータが既存のユーザすべてに適用されます。';
-$string['institutionoverride'] = 'インスティテューションクオータ';
 $string['institutionoverridedescription'] = 'あなたはインスティテューション管理者がユーザに与えることのできる最大クオータを設定することができます。同時にそれぞれのインスティテューションのデフォルトクオータを設定することができます。';
 $string['maxquotaenabled'] = 'サイト全体に最大クオータを強制する';
 $string['maxquota'] = '最大クオータ';
@@ -99,10 +99,6 @@ $string['filelistloaded'] = 'ファイルリストが読み込まれました。
 $string['filemoved'] = 'ファイルが正常に移動されました。';
 $string['filenamefieldisrequired'] = 'ファイルフィールドは必須入力項目です。';
 $string['filenamefieldisrequired1'] = 'ファイル/フォルダ名は必須入力項目です。';
-$string['filespagedescription'] = 'これらはページに含むためのあなたのイメージ、ドキュメントまたは他のファイルです。';
-$string['groupfilespagedescription'] = 'これらはページに含むためのグループイメージ、ドキュメントまたは他のファイルです。';
-$string['institutionfilespagedescription'] = 'これらはページに含むためのインスティテューションイメージ、ドキュメントまたは他のファイルです。';
-$string['fileuploadinstructions'] = 'あなたは1度にアップロードするため、複数のファイルを選択することができます。フォルダ間でファイルを移動するには、アイコンをドラッグ＆ドロップしてください。';
 $string['filethingdeleted'] = '%s が削除されました。';
 $string['filewithnameexists'] = '名称「 %s 」のファイルまたはフォルダはすでに存在しています。';
 $string['folder'] = 'フォルダ';
@@ -172,17 +168,12 @@ $string['youmustagreetothecopyrightnotice'] = 'あなたは著作権表示に同
 $string['fileuploadedtofolderas'] = '%s が %s に「 %s 」としてアップロードされました。';
 $string['fileuploadedas'] = '%s が「 %s 」としてアップロードされました。';
 $string['insufficientmemoryforresize'] = '(イメージのリサイズのために十分なメモリがありません。アップロード前にリサイズすることをお考えください)';
-$string['quotanotificationheader'] = 'クオータ通知';
 $string['quotanotifylimitoutofbounds'] = '通知制限はパーセントで入力して、0から100までの数字である必要があります。';
 $string['usernotificationsubject'] = 'あなたのファイルストレージがほぼ満杯です。';
 $string['usernotificationmessage'] = 'あなたはファイルクオータの %s% を使用しています (ファイルクオータ: %s)。あなたの制限を増分するために、サイト管理者にご連絡ください。';
 $string['adm_notificationsubject'] = 'ユーザがファイルクオータ制限に到達しています。';
 $string['adm_notificationmessage'] = 'ユーザ %s がファイルクオータの %s% パーセントに到達しました (ファイルクオータ: %s)。';
 $string['textlinktouser'] = '%s のプロファイルを編集する';
-$string['quotanotifylimittitle'] = 'クオータ通知制限';
-$string['quotanotifylimitdescr'] = 'ユーザが古いファイルを削除またはクオータを増分するため、クオータがどのくらいの割合で満たされた時点でユーザ (および恐らく管理者) に通知しますか?';
-$string['quotanotifyadmin'] = '管理者に通知しますか?';
-$string['quotanotifyadmindescr'] = 'ユーザがクオータに達する場合、サイト管理者にも通知しますか?';
 $string['ai'] = 'Postscriptドキュメント';
 $string['aiff'] = 'AIFFオーディオファイル';
 $string['application'] = '不明なアプリケーション';

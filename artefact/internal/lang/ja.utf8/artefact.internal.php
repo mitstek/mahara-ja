@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-09-15 09:54:49 UTC
+ * @updated    2014-10-06 05:30:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -25,7 +25,8 @@ $string['viewmyprofile'] = '私のプロファイルを表示する';
 $string['aboutprofilelinkdescription'] = '<p>他のユーザに表示したい情報を編集するには、あなたの<a href="%s">プロファイル</a>ページにアクセスしてください。</p>';
 $string['aboutme'] = '私について';
 $string['contact'] = '連絡先';
-$string['messaging'] = 'メッセージング';
+$string['social'] = 'ソーシャルプロファイル';
+$string['messaging'] = 'ソーシャルプロファイル';
 $string['firstname'] = '名';
 $string['lastname'] = '姓';
 $string['fullname'] = 'フルネーム';
@@ -46,12 +47,11 @@ $string['homenumber'] = '自宅電話';
 $string['businessnumber'] = '勤務先電話';
 $string['mobilenumber'] = '携帯電話';
 $string['faxnumber'] = 'FAX番号';
-$string['icqnumber'] = 'ICQナンバー';
-$string['msnnumber'] = 'MSNチャット';
-$string['aimscreenname'] = 'AIMスクリーンネーム';
-$string['yahoochat'] = 'Yahooチャット';
-$string['skypeusername'] = 'Skypeユーザ名';
-$string['jabberusername'] = 'Jabberユーザ名';
+$string['aim'] = 'AIMスクリーンネーム';
+$string['icq'] = 'ICQナンバー';
+$string['jabber'] = 'Jabberユーザ名';
+$string['skype'] = 'Skypeユーザ名';
+$string['yahoo'] = 'Yahooチャット';
 $string['occupation'] = '職業';
 $string['industry'] = '職種';
 $string['name'] = '名称';
@@ -81,6 +81,7 @@ $string['verificationlinkexpired'] = '確認リンクの有効期限が切れま
 $string['invalidemailaddress'] = '無効なメールアドレスです。';
 $string['unvalidatedemailalreadytaken'] = 'あなたが確認しようとしているメールアドレスはすでに登録されています。';
 $string['addbutton'] = '追加';
+$string['cancelbutton'] = 'キャンセル';
 $string['emailingfailed'] = 'プロファイルが保存されましたが、次のメールアドレス宛にメール送信できませんでした: %s';
 $string['loseyourchanges'] = '変更を取り消してもよろしいですか?';
 $string['Title'] = 'タイトル';
@@ -135,5 +136,15 @@ $string['progress_occupation'] = 'あなたの職業を追加する';
 $string['progress_industry'] = 'あなたの職種を追加する';
 $string['progress_joingroup'] = '%s グループに参加する';
 $string['progress_makefriend'] = '%s フレンドを作る';
+$string['socialprofile'] = 'ソーシャルプロファイル';
+$string['socialprofiles'] = 'ソーシャルプロファイル';
+$string['service'] = 'ソーシャルサイト名';
+$string['profileurl'] = 'ソーシャルプロファイルURL';
+$string['profiletype'] = 'ソーシャルプロファイルタイプ';
+$string['webpage'] = 'ウェブページ';
+$string['deleteprofile'] = 'ソーシャルプロファイルを削除する';
+$string['deletethisprofile'] = 'ソーシャルプロファイルを削除する:「 %s 」';
+$string['editthisprofile'] = 'ソーシャルプロファイルを編集する:「 %s 」';
+$string['newsocialprofile'] = '新しいソーシャルプロファイル';
 
 ?>
