@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-04-13 16:41:04 UTC
+ * @updated    2014-10-13 05:46:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -195,6 +195,9 @@ $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定
 $string['blockconfigurationrenderingerror'] = 'レンダリングできなかったため、ブロック設定に失敗しました。';
 $string['blocksintructionnoajax'] = 'あなたのページに追加するブロックを選択してください。あなたはブロックタイトルバーの矢印を使って、ブロックの配置を変更することができます。';
 $string['blocksinstructionajax'] = 'このエリアではあなたのページがどのように表示されるかプレビューを表示します。<br />あなたのページレイアウトにブロックを追加するには、この行の下にドラッグしてください。あなたのページ内でドラッグすることで、ブロックの配置を変更することができます。';
+$string['rownr'] = '行 %s';
+$string['nrrows'] = '%s 行';
+$string['generatingpreview'] = 'プレビュー生成中 ...';
 $string['addnewblockhere'] = 'ここに新しいブロックを追加する';
 $string['add'] = '追加';
 $string['addcolumn'] = 'カラムを追加する';
