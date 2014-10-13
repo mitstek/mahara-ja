@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-27 00:57:16 UTC
+ * @updated    2014-10-13 22:23:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,6 +13,8 @@
 
 defined('INTERNAL') || die();
 
+$string['calendar_dateFormat'] = 'yy/mm/dd';
+$string['calendar_timeFormat'] = 'HH:mm';
 $string['strftimedate'] = '%%Y年 %%m月 %%d日';
 $string['strftimedateshort'] = '%%m/%%d';
 $string['strftimedatetime'] = '%%Y年 %%m月 %%d日 %%H:%%M';
