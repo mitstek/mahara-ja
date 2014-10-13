@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-09-15 09:56:45 UTC
+ * @updated    2014-10-13 05:46:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -143,7 +143,6 @@ $string['addaccessinstitution'] = 'インスティテューション「 %s 」�
 $string['addaccessgroup'] = 'グループ「 %s 」へのアクセスを追加する';
 $string['submitconfirm'] = '評価のために「 %s 」を「 %s 」に送信した場合、チューターが評価を終えるまで、あなたはコンテンツを編集することができません。本当に送信してもよろしいですか?';
 $string['collectionsubmitted'] = 'コレクションが送信されました。';
-$string['viewsalreadysubmitted'] = 'このコレクション内のいくつかのページはすでに送信されています:<br />%s<br />それらのページがリリースされるまで、あなたはコレクションを送信することができません。';
 $string['submitviewtogroup'] = '評価のため「 %s 」を「 %s 」に送信する';
 $string['cantsubmitviewtogroup'] = 'あなたはこのページの評価を目的として、このグループに送信することはできません。';
 $string['cantsubmitcollectiontogroup'] = 'あなたはこのコレクションを送信できません。';
@@ -154,7 +153,6 @@ $string['deleteviewconfirm1'] = '本当にこのページを削除してもよ�
 $string['deleteviewconfirmbackup'] = '<a href="%sexport/" target="_blank">エクスポート</a>により、このページのバックアップを作成することを検討してください。';
 $string['deleteviewconfirmnote1'] = '<strong>注意:</strong> このページにリンクしたすべてのファイルおよび日誌を利用することはできます。<br/>しかし、このページに投稿されたすべてのフィードバックは削除されます。';
 $string['deleteviewconfirmnote2'] = 'このページはコレクション「<a href="%s">%s</a>」の一部です。';
-$string['editaccesspagedescription3'] = 'デフォルトでは、あなたのページをあなたのみ閲覧できます。このページにアクセスルールを追加することで、あなたは他のユーザとページを共有することができます。アクセスルールを追加した後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editaccessdescription'] = 'チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editaccessgrouppagedescription'] = 'デフォルトでは、ページおよびコレクションを追加および編集できるグループメンバーのみ、グループコレクションおよびページを閲覧することができます。チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editaccessinstitutionpagedescription'] = 'デフォルトでは、あなたのインスティテューションコレクションおよびページをあなたのインスティテューション管理者のみ閲覧することができます。チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
@@ -204,6 +202,9 @@ $string['cellposition'] = '行 %s カラム %s';
 $string['blockorder'] = 'ポジション';
 $string['blockordertop'] = 'カラムトップ';
 $string['blockorderafter'] = '「 %s 」の後';
+$string['rownr'] = '行 %s';
+$string['nrrows'] = '%s 行';
+$string['generatingpreview'] = 'プレビュー生成中 ...';
 $string['addnewblockhere'] = 'ここに新しいブロックを追加する';
 $string['add'] = '追加';
 $string['addcolumn'] = 'カラムを追加する';
@@ -345,7 +346,6 @@ $string['grouphomepage'] = 'グループホームページ';
 $string['grouphomepagedescription'] = 'グループホームページはこのグループのAboutタブに表示されるコンテンツです。';
 $string['sharedwithme'] = '私との共有';
 $string['titleanddescription'] = 'タイトル、説明、タグ';
-$string['titleanddescriptionanduser'] = 'タイトル、説明、タグ、ユーザ';
 $string['tagsonly'] = 'タグのみ';
 $string['sharedviewsdescription'] = 'このページではあなたが共有しているページの中から、直近に修正またはコメントされたページが一覧表示されます。これらの共有ページには直接あなたが共有しているページ、オーナーのフレンドが共有しているページ、あなたのグループが共有しているページがあります。';
 $string['sharedwith'] = '共有対象';
