@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-10-06 05:31:13 UTC
+ * @updated    2014-10-16 07:05:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -54,6 +54,7 @@ $string['defaultquotadescription'] = 'あなたは新しいユーザがクオー
 $string['defaultuserquota'] = 'デフォルトユーザクオータ';
 $string['updateuserquotas'] = 'ユーザクオータを更新する';
 $string['updateuserquotasdesc'] = 'チェックした場合、あなたが上で選択したデフォルトクオータが既存のユーザすべてに適用されます。';
+$string['institutionoverride1'] = 'インスティテューションオーバーライド';
 $string['institutionoverridedescription'] = 'あなたはインスティテューション管理者がユーザに与えることのできる最大クオータを設定することができます。同時にそれぞれのインスティテューションのデフォルトクオータを設定することができます。';
 $string['maxquotaenabled'] = 'サイト全体に最大クオータを強制する';
 $string['maxquota'] = '最大クオータ';
@@ -174,6 +175,8 @@ $string['usernotificationmessage'] = 'あなたはファイルクオータの %s
 $string['adm_notificationsubject'] = 'ユーザがファイルクオータ制限に到達しています。';
 $string['adm_notificationmessage'] = 'ユーザ %s がファイルクオータの %s% パーセントに到達しました (ファイルクオータ: %s)。';
 $string['textlinktouser'] = '%s のプロファイルを編集する';
+$string['quotanotifylimittitle1'] = 'クオータ通知閾値';
+$string['quotanotifyadmin1'] = 'サイト管理者通知';
 $string['ai'] = 'Postscriptドキュメント';
 $string['aiff'] = 'AIFFオーディオファイル';
 $string['application'] = '不明なアプリケーション';
