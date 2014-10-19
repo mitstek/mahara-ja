@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-08-20 05:04:46 UTC
+ * @updated    2014-10-19 16:09:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -42,7 +42,7 @@ $string['recurseall'] = '選択を解除する';
 $string['alltypes'] = 'すべてのタイプ';
 $string['markedasread'] = 'あなたの通知を既読にしました。';
 $string['failedtomarkasread'] = 'あなたの通知を既読にできませんでした。';
-$string['deletednotifications'] = '%s 件の通知が削除されました。';
+$string['deletednotifications1'] = '%s 件の通知が削除されました。';
 $string['failedtodeletenotifications'] = 'あなたの通知の削除に失敗しました。';
 $string['stopmonitoring'] = 'モニタリングを停止する';
 $string['artefacts'] = 'アーティファクト';
