@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-10-19 16:01:27 UTC
+ * @updated    2014-10-19 16:03:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,7 +19,7 @@ $string['titlerecipient'] = '受信者';
 $string['replysubjectprefix'] = 'Re:';
 $string['labelrecipients'] = 'To:';
 $string['labelsubject'] = '件名';
-$string['deletednotifications1'] = '%s 件の通知を削除しました。「送信済み」からは内部通知を削除できないことに留意してください!';
+$string['deletednotifications1'] = '%s 件の通知を削除しました。「送信済み」エリアからは内部通知を削除できないことに留意してください!';
 $string['notification'] = '通知';
 $string['cantsendemptysubject'] = 'あなたの件名は空白です。件名を入力してください。';
 $string['cantsendemptytext'] = 'あなたのメッセージは空白です。メッセージを入力してください。';
