@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-08-18 00:24:47 UTC
+ * @updated    2014-10-19 15:54:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -58,7 +58,8 @@ $string['deletespecifiedcollection'] = 'コレクション「 %s 」を削除す
 $string['deletingcollection'] = 'コレクションの削除';
 $string['deleteview'] = 'コレクションからページを削除する';
 $string['description'] = 'コレクション説明';
-$string['collectiondragupdate'] = '「コレクション内のページ」ボックスのページを並べ替えるには、ページ名をドラッグまたは矢印ボタンを使用してください。<br />チェックボックスをチェックして「ページを追加する」ボタンををクリックまたは「コレクション内のページ」ボックスにページ名をドラッグすることにより、あなたのコレクションにページを追加することができます。';
+$string['collectiondragupdate1'] = '「コレクション内のページ」にページを移動するには、「コレクションにページを追加する」ボックスからページ名をドラッグするか、チェックボックスをチェックして「ページを追加する」ボタンをクリックしてください。<br />
+あなたはページ名をドラッグまたは矢印ボタンを使用することにより、「コレクション内のページ」エリアのページを並べ替えることができます。';
 $string['viewsincollection'] = 'コレクション内のページ';
 $string['editcollection'] = 'コレクションを編集する';
 $string['editingcollection'] = 'コレクションの編集';
