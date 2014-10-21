@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-10-13 16:25:58 UTC
+ * @updated    2014-10-21 15:43:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -47,11 +47,26 @@ $string['homenumber'] = '自宅電話';
 $string['businessnumber'] = '勤務先電話';
 $string['mobilenumber'] = '携帯電話';
 $string['faxnumber'] = 'FAX番号';
-$string['aim'] = 'AIMスクリーンネーム';
-$string['icq'] = 'ICQナンバー';
-$string['jabber'] = 'Jabberユーザ名';
-$string['skype'] = 'Skypeユーザ名';
-$string['yahoo'] = 'Yahooチャット';
+$string['aim.input'] = 'AIMスクリーン名';
+$string['aim'] = 'AIM';
+$string['icq.input'] = 'ICQナンバー';
+$string['icq'] = 'ICQ';
+$string['jabber.input'] = 'Jabberユーザ名';
+$string['jabber'] = 'Jabber';
+$string['skype.input'] = 'Skypeユーザ名';
+$string['skype'] = 'Skype';
+$string['yahoo.input'] = 'Yahoo!メッセンジャー';
+$string['yahoo'] = 'Yahoo!メッセンジャー';
+$string['facebook.input'] = 'Facebook URL';
+$string['facebook'] = 'Facebook';
+$string['twitter.input'] = 'Twitterユーザ名';
+$string['twitter'] = 'Twitter';
+$string['instagram.input'] = 'Instagramユーザ名';
+$string['instagram'] = 'Instagram';
+$string['tumblr.input'] = 'Tumblr URL';
+$string['tumblr'] = 'Tumblr';
+$string['pinterest.input'] = 'Pinterestユーザ名';
+$string['pinterest'] = 'Pinterest';
 $string['occupation'] = '職業';
 $string['industry'] = '職種';
 $string['name'] = '名称';
@@ -144,8 +159,6 @@ $string['profileurl'] = 'ソーシャルプロファイルURL';
 $string['profileurldesc'] = '古いメッセージングサービスに関して、あなたのユーザ名、スクリーン名またはナンバーを入力してください。そうでない場合、あなたのソーシャルプロファイルのURLを入力してください。';
 $string['profileurlexists'] = 'すでに存在しているため、このソーシャルプロファイルURLを追加することはできません。';
 $string['profiletype'] = 'ソーシャルプロファイルタイプ';
-$string['profiletypedesc'] = 'あなたが古いメッセージングサービスの1つを追加したい場合、リストから選択してください。すべての新しいソーシャルサービスの場合、「ウェブページ」オプションを選択したままにしてください。';
-$string['webpage'] = 'ウェブページ';
 $string['deleteprofile'] = 'ソーシャルプロファイルを削除する';
 $string['deletethisprofile'] = 'ソーシャルプロファイルを削除する:「 %s 」';
 $string['deleteprofileconfirm'] = '本当にこのソーシャルプロファイルを削除してもよろしいですか?';
