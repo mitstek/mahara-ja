@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-09-26 23:54:17 UTC
+ * @updated    2014-10-24 06:08:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -30,6 +30,7 @@ $string['exportingartefacts'] = 'アーティファクトのエクスポート�
 $string['exportingartefactsprogress'] = 'アーティファクトのエクスポート中: %s/%s';
 $string['exportingfooter'] = 'フッタのエクスポート中';
 $string['exportingviews'] = 'ページのエクスポート中';
+$string['exportingcollections'] = 'コレクションのエクスポート中';
 $string['exportingviewsprogress'] = 'ページのエクスポート中: %s/%s';
 $string['exportportfoliodescription'] = 'このツールでは、あなたのポートフォリオ情報およびページすべてをエクスポートします。あなたのサイト設定およびあなたがグループにアップロードまたは作成したコンテンツはエクスポートされません。';
 $string['exportyourportfolio'] = 'あなたのポートフォリオを生成する';
@@ -65,5 +66,19 @@ $string['youarehere'] = 'あなたはここにいます';
 $string['youmustselectatleastonecollectiontoexport'] = 'あなたはエクスポートするコレクションを少なくとも1つ選択する必要があります。';
 $string['youmustselectatleastoneviewtoexport'] = 'あなたはエクスポートするページを少なくとも1つ選択する必要があります。';
 $string['zipnotinstalled'] = 'あなたのシステムにはZIPコマンドがありません。この機能を有効にするには、ZIPをインストールしてください。';
+$string['addedleap2atoexportqueuecollections'] = 'あなたのコレクションをエクスポートキューに追加しました。';
+$string['addedleap2atoexportqueueviews'] = 'あなたのページをエクスポートキューに追加しました。';
+$string['addedleap2atoexportqueueall'] = 'あなたのデータすべてをエクスポートキューに追加しました。';
+$string['exportqueuenotempty'] = 'このユーザのアイテムがエクスポートキューにあります。アーカイブされるまでお待ちください。';
+$string['unabletoexportportfoliousingoptionsadmin'] = 'アイテムはページまたはコレクションオブジェクトではありません。';
+$string['exportzipfileerror'] = 'ZIPファイルの生成に失敗しました: %s';
+$string['submissiondirnotwritable'] = '提出アーカイブディレクトリに書き込めません: %s';
+$string['exportarchivesavefailed'] = 'データベースにエクスポートアーカイブ情報を保存できません。';
+$string['archivedsubmissionfailed'] = 'データベースにアーカイブ済み提出情報情報を保存できません。';
+$string['submissionreleasefailed'] = 'アーカイブ後の提出リリースに失敗しました。';
+$string['deleteexportqueueitems'] = 'エクスポートキューアイテムデータベーステーブルのアイテム削除に失敗しました。';
+$string['deleteexportqueuerow'] = 'エクスポートキューデータベーステーブルのアイテム削除に失敗しました。';
+$string['exportqueueerrorsadminsubject'] = 'キューのエクスポート実行中にエラーが発生しました。';
+$string['exportqueueerrorsadminmessage'] = '次のエラーのため行「 %s 」をエクスポートできません: %s';
 
 ?>
