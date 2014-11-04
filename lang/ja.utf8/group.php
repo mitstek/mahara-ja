@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-07-19 16:05:08 UTC
+ * @updated    2014-11-04 03:11:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -93,7 +93,7 @@ $string['requestedmembershipin'] = 'リクエストされたメンバーシッ�
 $string['viewnotify'] = '共有ページ通知';
 $string['viewnotifydescription2'] = '新しいページが作成された場合、グループメンバーがグループとページを共有した場合、どのグループメンバーに通知するのか選択してください (ページを共有しているグループメンバーに対して、この通知は送信されません)。大規模なグループの場合、多くの通知が発生するため、これは通常メンバー以外のメンバーに制限した方が良いでしょう。';
 $string['feedbacknotify'] = 'フィードバック通知';
-$string['feedbacknotifydescription'] = 'グループページにフィードバックが送信された場合、どのグループメンバーが通知を受信するのか選択してください。';
+$string['feedbacknotifydescription1'] = 'グループページおよびアーティファクトにフィードバックが投稿された場合、どのグループメンバーが通知を受信するか選択してください。';
 $string['allowsendnow'] = 'すぐにフォーラム投稿を送信する';
 $string['allowsendnowdescription'] = 'チェックした場合、グループメンバーはフォーラム投稿をすぐに送信することを選択することができます。チェックを外した場合、グループ管理者、チューターおよびモデレータのみ、フォーラム投稿をすぐに送信することができます。';
 $string['hiddengroup'] = '非表示グループ';
@@ -338,6 +338,8 @@ $string['allowssubmissions'] = '送信を許可する';
 $string['allowsubmissions'] = '送信を許可する';
 $string['allowssubmissionsdescription1'] = 'メンバーはグループにページを送信することができます。送信後、ページはロックされます。送信されたページはグループチューターまたは管理者がリリースするまで、編集することはできません。';
 $string['allowssubmissionsdescription'] = 'メンバーはグループにページを送信することができます。';
+$string['allowsarchives'] = '送信アーカイブを許可する';
+$string['allowsarchivesdescription'] = '送信リリース処理中にページおよびコレクションはZIP圧縮済みLeap2Aファイルとしてアーカイブされます。';
 $string['report'] = 'レポート';
 $string['grouphasntcreatedanyviewsyet'] = 'このグループはまだページを作成していません。';
 $string['noviewssharedwithgroupyet'] = 'まだこのグループで共有されているページはありません。';
