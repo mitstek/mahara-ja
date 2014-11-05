@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-11-04 03:11:04 UTC
+ * @updated    2014-11-05 16:32:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -148,7 +148,9 @@ $string['viewreleasedmessage'] = 'あなたのページ「 %s 」が %s から %
 $string['collectionreleasedsubject'] = 'あなたのコレクション「 %s 」が %s から %s によってリリースされました。';
 $string['collectionreleasedmessage'] = 'あなたのコレクション「 %s 」が %s から %s によってリリースされました。';
 $string['viewreleasedsuccess'] = 'ページが正常にリリースされました。';
+$string['viewreleasedpending'] = 'アーカイブの後、ページはリリースされます。';
 $string['collectionreleasedsuccess'] = 'コレクションが正常にリリースされました。';
+$string['collectionreleasedpending'] = 'アーカイブの後、コレクションはリリースされます。';
 $string['leavegroup'] = 'このグループから離れる';
 $string['joingroup'] = 'このグループに参加する';
 $string['requestjoingroup'] = 'このグループへの参加をリクエストする';
