@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-10-17 06:55:43 UTC
+ * @updated    2014-11-05 16:47:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -143,8 +143,15 @@ $string['addaccessinstitution'] = 'インスティテューション「 %s 」�
 $string['addaccessgroup'] = 'グループ「 %s 」へのアクセスを追加する';
 $string['submitconfirm'] = '評価のために「 %s 」を「 %s 」に送信した場合、チューターが評価を終えるまで、あなたはコンテンツを編集することができません。本当に送信してもよろしいですか?';
 $string['collectionsubmitted'] = 'コレクションが送信されました。';
+$string['collectionviewsalreadysubmitted'] = 'このコレクションのページがすでに送信されています: 「 %s 」
+コレクションからリリースまたは削除されるまで、あなたはコレクションを送信することはできません。';
+$string['viewalreadysubmitted'] = 'このページはすでに別の課題またはMaharaグループに送信されています。';
+$string['collectionalreadysubmitted'] = 'このコレクションはすでに別の課題またはMaharaグループに送信されています。';
 $string['collectionsubmissionexceptiontitle'] = 'コレクションを送信できませんでした。';
+$string['collectionsubmissionexceptionmessage'] = '以下の理由から、このコレクションを送信することはできません:';
+$string['cantsubmitemptycollection'] = 'このコレクションにはページが含まれていません。';
 $string['viewsubmissionexceptiontitle'] = 'ページを送信できませんでした。';
+$string['viewsubmissionexceptionmessage'] = '以下の理由から、このページを送信することはできません:';
 $string['submitviewtogroup'] = '評価のため「 %s 」を「 %s 」に送信する';
 $string['cantsubmitviewtogroup'] = 'あなたはこのページの評価を目的として、このグループに送信することはできません。';
 $string['cantsubmitcollectiontogroup'] = 'あなたはこのコレクションを送信できません。';
@@ -348,6 +355,7 @@ $string['grouphomepage'] = 'グループホームページ';
 $string['grouphomepagedescription'] = 'グループホームページはこのグループのAboutタブに表示されるコンテンツです。';
 $string['sharedwithme'] = '私との共有';
 $string['titleanddescription'] = 'タイトル、説明、タグ';
+$string['titleanddescriptionandtagsandowner'] = 'タイトル、説明、タグ、オーナー';
 $string['tagsonly'] = 'タグのみ';
 $string['sharedviewsdescription'] = 'このページではあなたが共有しているページの中から、直近に修正またはコメントされたページが一覧表示されます。これらの共有ページには直接あなたが共有しているページ、オーナーのフレンドが共有しているページ、あなたのグループが共有しているページがあります。';
 $string['sharedwith'] = '共有対象';
