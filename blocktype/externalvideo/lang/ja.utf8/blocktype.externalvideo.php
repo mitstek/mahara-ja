@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-04-26 14:24:48 UTC
+ * @updated    2014-11-05 16:30:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -23,6 +23,7 @@ $string['width'] = '幅';
 $string['height'] = '高さ';
 $string['widthheightdescription'] = '「幅」および「高さ」フィールドはURLのみに使用されます。上記で「embed」または「iframe」タグを入力している場合、あなたはコード内で幅および高さを更新する必要があります。';
 $string['invalidurl'] = '無効なURL';
+$string['invalidurlorembed'] = '無効なURLまたは埋め込みコード';
 $string['googlevideo'] = 'Googleビデオ';
 $string['scivee'] = 'SciVee';
 $string['youtube'] = 'YouTube';
