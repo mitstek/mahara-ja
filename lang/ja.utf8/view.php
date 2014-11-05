@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-11-05 16:47:19 UTC
+ * @updated    2014-11-05 17:19:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -37,6 +37,8 @@ $string['unrecogniseddateformat'] = '不明なデータフォーマット';
 $string['allowcommentsonview'] = 'チェックした場合、ユーザがコメントを投稿することができます。';
 $string['ownerformat'] = '氏名表示フォーマット';
 $string['ownerformatdescription'] = '他のユーザがあなたのページを閲覧する場合、あなたの名前をどのように表示しますか?';
+$string['anonymise'] = '匿名化する';
+$string['anonymisedescription'] = 'ページの作成者としてのあなたの氏名を他のユーザから隠します。必要であれば、管理者はあなたの氏名を確認することができます。';
 $string['Locked'] = 'ロック';
 $string['lockedgroupviewdesc'] = 'あなたがこのページをロックした場合、グループ管理者のみ編集することができます。';
 $string['profileviewtitle'] = 'プロファイルページ';
