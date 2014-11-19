@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-11-19 05:30:17 UTC
+ * @updated    2014-11-19 06:38:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1004,5 +1004,7 @@ $string['showprogressbardescription'] = 'チェックした場合、プロファ
 $string['progressbardisablednote'] = '<b>注意</b>: 現在、プロファイル完了は無効にされています。ユーザがプロファイルの完了に関して進捗を追跡できるようにするには、あなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「ユーザ設定」セクションにて有効にする必要があります。';
 $string['profilecompletenessdesc'] = 'あなたのインスティテューションのユーザプロファイル完了にカウントされるアーティファクトを選択してください。ユーザが提供すべきアーティファクトの隣にあるチェックボックスをチェックしてください。またはユーザがプロファイルを完了するために必要な特定のアーティファクトのアイテム数を選択してください。';
 $string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックにて、プロファイル完了がどのように表示されるかプレビューすることができます。';
+$string['exporttoqueue'] = 'キューにエクスポートする';
+$string['exporttoqueuedescription1'] = 'チェックした場合、サーバ不可管理を改善するため、Leap2Aによるユーザポートフォリオのエクスポート処理にエクスポートキューが使用されます。';
 
 ?>
