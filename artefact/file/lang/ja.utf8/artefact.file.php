@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-10-16 07:05:19 UTC
+ * @updated    2014-11-19 05:37:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -100,6 +100,10 @@ $string['filelistloaded'] = 'ファイルリストが読み込まれました。
 $string['filemoved'] = 'ファイルが正常に移動されました。';
 $string['filenamefieldisrequired'] = 'ファイルフィールドは必須入力項目です。';
 $string['filenamefieldisrequired1'] = 'ファイル/フォルダ名は必須入力項目です。';
+$string['filespagedescription1'] = 'あなたのページに含むことのできるイメージ、ドキュメントおよび他のファイルです。ファイルまたはフォルダをフォルダ間で移動するには、ファイルまたはフォルダアイコンをドラッグ＆ドロップしてください。';
+$string['groupfilespagedescription1'] = 'ページに含むことのできるグループイメージ、ドキュメントおよび他のファイルです。';
+$string['institutionfilespagedescription1'] = 'ページに含むことのできるインスティテューションイメージ、ドキュメントおよび他のファイルです。';
+$string['fileuploadinstructions1'] = '一度にアップロードするため、あなたは複数ファイルを選択することができます。';
 $string['filethingdeleted'] = '%s が削除されました。';
 $string['filewithnameexists'] = '名称「 %s 」のファイルまたはフォルダはすでに存在しています。';
 $string['folder'] = 'フォルダ';
