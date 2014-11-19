@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-04-13 16:55:48 UTC
+ * @updated    2014-11-19 05:16:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,6 +18,7 @@ $string['Comment'] = 'コメント';
 $string['Comments'] = 'コメント';
 $string['comment'] = 'コメント';
 $string['comments'] = 'コメント';
+$string['addcomment'] = 'コメントを追加する';
 $string['Allow'] = '許可';
 $string['allowcomments'] = 'コメントを許可する';
 $string['approvalrequired'] = 'コメントはモデレートされています。あなたがこのコメントをパブリックにした場合、オーナーにより承認されるまで、他のユーザに表示されることはありません。';

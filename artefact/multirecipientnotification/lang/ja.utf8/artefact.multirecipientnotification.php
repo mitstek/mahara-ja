@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-10-21 15:38:14 UTC
+ * @updated    2014-11-19 05:14:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,6 +14,8 @@
 defined('INTERNAL') || die();
 
 $string['sendmessageto'] = 'メッセージを送信する';
+$string['composemessage'] = '作成';
+$string['composemessagedesc'] = '新しいメッセージを作成する';
 $string['titlesubject'] = '件名';
 $string['titlerecipient'] = '受信者';
 $string['replysubjectprefix'] = 'Re:';
@@ -32,7 +34,9 @@ $string['returnurltext'] = '返信';
 $string['replyurltext'] = 'すべてに返信する';
 $string['linkindicator'] = '»';
 $string['labeloutbox1'] = '送信済み';
+$string['outboxdesc'] = '他のユーザに送信されたメッセージ';
 $string['labelinbox'] = '受信箱';
+$string['inboxdesc'] = 'Maharaシステムおよび他のユーザから受信したメッセージ';
 $string['selectallread'] = 'すべての未読通知';
 $string['selectalldelete'] = '削除する通知すべて';
 $string['clickformore'] = '(詳細情報を表示するには、「Enter」を押してください)';
