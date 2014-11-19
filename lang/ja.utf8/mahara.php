@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-09-22 03:56:26 UTC
+ * @updated    2014-11-19 06:05:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -142,6 +142,8 @@ $string['nameztoa'] = '名: Z -> A';
 $string['firstjoined'] = '登録日昇順';
 $string['lastjoined'] = '登録日降順';
 $string['date'] = '日時';
+$string['earliest'] = '一番古い';
+$string['latest'] = '一番新しい';
 $string['dateformatguide'] = 'フォーマット「YYYY/MM/DD」を使用してください。';
 $string['dateofbirthformatguide'] = 'フォーマット「YYYY/MM/DD」を使用してください。';
 $string['datetimeformatguide'] = 'フォーマット「YYYY/MM/DD HH:MM」を使用してください。';
