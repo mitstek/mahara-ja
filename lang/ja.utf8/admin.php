@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-11-19 06:41:23 UTC
+ * @updated    2014-11-24 09:25:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -702,6 +702,9 @@ $string['disableemail'] = 'メールを無効にする';
 $string['Archive'] = 'アーカイブ';
 $string['exportqueuedeleted'] = '%s 行が正常に削除されました。';
 $string['exportqueuearchived'] = '%s 行が正常に更新されました。';
+$string['exportdataascsv'] = 'すべてのデータをCSVフォーマットでエクスポートする';
+$string['exportdownloademailsubject'] = 'あなたの「 %s 」のLeap2Aエクスポートのダウンロード準備ができました。';
+$string['exportdownloademailmessage'] = '%s さん、あなたの「 %s 」のLeap2Aエクスポートのダウンロード準備ができました。このファイルは生成後24時間のみ利用することができます。ファイルをダウンロードするには、次のリンクにアクセスしてください:';
 $string['exportdownloadurl'] = 'エクスポート済みファイルをダウンロードする';
 $string['adduser'] = 'ユーザを追加する';
 $string['adduserdescription'] = '新しいユーザを作成します。';
