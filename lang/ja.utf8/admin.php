@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-11-24 10:02:51 UTC
+ * @updated    2014-11-28 03:03:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -933,6 +933,7 @@ $string['editselectedusersdescription1'] = 'あなたがユーザ検索ページ
 $string['uneditableusers'] = 'あなたは編集することのできない %s ユーザを選択しました。選択されたユーザはリストから取り除かれます。';
 $string['exportusersascsv'] = 'ユーザをCSVフォーマットでエクスポートする';
 $string['downloadusersascsv'] = 'CSVフォーマットのユーザ';
+$string['downloaddataascsv'] = 'CSVフォーマットの %s 統計';
 $string['Download'] = 'ダウンロード';
 $string['suspendusers'] = 'ユーザを利用停止する';
 $string['Suspend'] = '利用停止';
