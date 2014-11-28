@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-11-28 03:03:41 UTC
+ * @updated    2014-11-28 03:40:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -187,8 +187,11 @@ $string['currentadmins'] = '現在の管理者';
 $string['groupadminsupdated'] = 'グループ管理者が更新されました。';
 $string['groupquotaupdated'] = 'グループクオータが更新されました。';
 $string['addnewgroupcategory'] = '新しいグループカテゴリを入力する';
+$string['archivedsubmissions'] = 'アーカイブ済み提出';
+$string['submittedto'] = '提出先';
 $string['ID'] = 'ID';
 $string['filenameleap'] = 'Leap2Aファイル';
+$string['archivedon'] = 'アーカイブ';
 $string['filemissing'] = '%s (ファイル不明)';
 $string['filemissingdesc'] = 'ファイル「 %s%s 」がサーバにありません。';
 $string['Field'] = 'フィールド';
@@ -707,6 +710,8 @@ $string['exportqueue'] = 'キューをエクスポートする';
 $string['exportcontentname'] = 'コンテンツをエクスポートする';
 $string['selectuserexport'] = 'エクスポートするため、コンテンツ「 %s 」を選択する';
 $string['selectuserexportdelete'] = 'エクスポートキューから削除するため、コンテンツ「 %s 」を選択する';
+$string['exportpending'] = '%s 現在の保留';
+$string['exportfailed'] = '失敗 %s';
 $string['Archive'] = 'アーカイブ';
 $string['exportqueuedeleted'] = '%s 行が正常に削除されました。';
 $string['exportqueuearchived'] = '%s 行が正常に更新されました。';
