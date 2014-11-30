@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-10-21 15:44:00 UTC
+ * @updated    2014-11-30 04:06:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -25,8 +25,8 @@ $string['viewmyprofile'] = '私のプロファイルを表示する';
 $string['aboutprofilelinkdescription'] = '<p>他のユーザに表示したい情報を編集するには、あなたの<a href="%s">プロファイル</a>ページにアクセスしてください。</p>';
 $string['aboutme'] = '私について';
 $string['contact'] = '連絡先';
-$string['social'] = 'ソーシャルプロファイル';
-$string['messaging'] = 'ソーシャルプロファイル';
+$string['social'] = 'ソーシャルメディア';
+$string['messaging'] = 'ソーシャルメディア';
 $string['firstname'] = '名';
 $string['lastname'] = '姓';
 $string['fullname'] = 'フルネーム';
