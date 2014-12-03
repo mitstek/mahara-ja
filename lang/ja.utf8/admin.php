@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-11-28 03:39:59 UTC
+ * @updated    2014-12-03 02:32:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -503,6 +503,7 @@ $string['emailsmtpsecuretls'] = 'TLS';
 $string['emailnoreplyaddress'] = 'システムメールアドレス';
 $string['emailnoreplyaddressdescription'] = 'このメールアドレスからEメールが送信されたことになります。';
 $string['notificationsettings'] = '通知設定';
+$string['notificationsettingsdescription'] = 'ここであなたは新しいユーザが取得する通知のデフォルトオプションを設定することができます。ユーザはこれらの設定を自分の「設定 → 通知」ページでオーバーライドすることができます。<br />あなたがメールオプションのどれかを選択した場合、通知はユーザの受信ボックスに到着しますが、自動的に既読としてマークされます。';
 $string['csvfile'] = 'CSVファイル';
 $string['emailusersaboutnewaccount'] = 'ユーザにアカウント情報をメール送信しますか?';
 $string['emailusersaboutnewaccountdescription'] = '新しいアカウント詳細情報をユーザにメール送信するかどうか設定します。';
@@ -714,6 +715,7 @@ $string['Archive'] = 'アーカイブ';
 $string['exportqueuedeleted'] = '%s 行が正常に削除されました。';
 $string['exportqueuearchived'] = '%s 行が正常に更新されました。';
 $string['exportdataascsv'] = 'すべてのデータをCSVフォーマットでエクスポートする';
+$string['nocsvresults'] = 'CSVファイルの結果が見つかりませんでした。';
 $string['exportdownloademailsubject'] = 'あなたの「 %s 」のLeap2Aエクスポートのダウンロード準備ができました。';
 $string['exportdownloademailmessage'] = '%s さん、あなたの「 %s 」のLeap2Aエクスポートのダウンロード準備ができました。このファイルは生成後24時間のみ利用することができます。ファイルをダウンロードするには、次のリンクにアクセスしてください:';
 $string['exportdownloadurl'] = 'エクスポート済みファイルをダウンロードする';
