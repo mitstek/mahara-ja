@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-12-03 02:32:36 UTC
+ * @updated    2014-12-04 04:59:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -55,6 +55,8 @@ $string['dbcollationmismatch'] = 'あなたのデータベースカラムはデ�
 $string['maharainstalled'] = 'Maharaはすでにインストールされています。';
 $string['cliadminpassword'] = '管理ユーザのパスワード';
 $string['cliadminemail'] = '管理ユーザのメールアドレス';
+$string['clisitename'] = 'サイト名';
+$string['cliupdatesitenamefailed'] = 'サイト名の更新に失敗しました。';
 $string['cliinstallerdescription'] = 'Maharaをインストールして必要なデータディレクトリを作成します。';
 $string['cliinstallingmahara'] = 'Maharaのインストール';
 $string['cliupgraderdescription'] = 'インストールされるMaharaバージョンにデータベースおよびデータをアップグレードします。';
