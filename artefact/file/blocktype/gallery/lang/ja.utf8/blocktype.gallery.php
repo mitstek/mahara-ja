@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-01-07 07:13:44 UTC
+ * @updated    2014-12-04 04:53:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -39,7 +39,7 @@ $string['previewwidth'] = '最大写真幅';
 $string['previewwidthdesc'] = 'Slimbox 2で表示される場合、写真がリサイズされる最大幅を設定してください。';
 $string['flickrsettings'] = 'Flickr設定';
 $string['flickrapikey'] = 'Flickr APIキー';
-$string['flickrapikeydesc'] = 'Flickrのフォトセットを表示するには、あなたは有効なFlickr APIキーが必要です。<a href="http://www.flickr.com/services/api/keys/apply/" target="_blank">あなたのキーをオンラインで取得してください</a>。';
+$string['flickrapikeydesc'] = 'Flickrのフォトセットを表示するには、あなたは有効なFlickr APIキーが必要です。<a href="https://www.flickr.com/services/api/keys/apply/" target="_blank">あなたのキーをオンラインで取得してください</a>。';
 $string['flickrsets'] = 'Flickrセット';
 $string['pbsettings'] = 'Photobucket設定';
 $string['pbapikey'] = 'Photobucket APIキー';
