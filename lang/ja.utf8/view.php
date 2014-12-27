@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-11-05 17:19:29 UTC
+ * @updated    2014-12-27 17:34:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -73,6 +73,7 @@ $string['viewsubmittedtogroup'] = 'このページは<a href="%s">%s</a>に送�
 $string['viewsubmittedtogroupon'] = 'このページは<a href="%s">%s</a>に対して %s に送信されました。';
 $string['collectionsubmittedtogroup'] = 'このコレクションは<a href="%s">%s</a>に送信されました。';
 $string['collectionsubmittedtogroupon'] = 'このコレクションは<a href="%s">%s</a>に送信されました。送信日時: %s';
+$string['submittedpendingrelease'] = 'アーカイブ後のリリース保留中です。';
 $string['nobodycanseethisview2'] = 'あなたのみこのページを閲覧することができます。';
 $string['noviews'] = 'ページはありません。';
 $string['nviews'] = '%s ページ';
@@ -164,6 +165,7 @@ $string['deleteviewconfirm1'] = '本当にこのページを削除してもよ�
 $string['deleteviewconfirmbackup'] = '<a href="%sexport/" target="_blank">エクスポート</a>により、このページのバックアップを作成することを検討してください。';
 $string['deleteviewconfirmnote1'] = '<strong>注意:</strong> このページにリンクしたすべてのファイルおよび日誌を利用することはできます。<br/>しかし、このページに投稿されたすべてのフィードバックは削除されます。';
 $string['deleteviewconfirmnote2'] = 'このページはコレクション「<a href="%s">%s</a>」の一部です。';
+$string['editaccesspagedescription5'] = 'あなたのページおよびコレクションに対して、デフォルトではあなたのみ閲覧することができます。このページでは、あなたの他に誰がそれらにアクセスできるか決定します。あなたのページを共有するには、グループおよび人の横にある「追加」ボタンをクリックしてください。';
 $string['editaccessdescription'] = 'チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editaccessgrouppagedescription'] = 'デフォルトでは、ページおよびコレクションを追加および編集できるグループメンバーのみ、グループコレクションおよびページを閲覧することができます。チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editaccessinstitutionpagedescription'] = 'デフォルトでは、あなたのインスティテューションコレクションおよびページをあなたのインスティテューション管理者のみ閲覧することができます。チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
@@ -215,7 +217,6 @@ $string['blockordertop'] = 'カラムトップ';
 $string['blockorderafter'] = '「 %s 」の後';
 $string['rownr'] = '行 %s';
 $string['nrrows'] = '%s 行';
-$string['generatingpreview'] = 'プレビュー生成中 ...';
 $string['addnewblockhere'] = 'ここに新しいブロックを追加する';
 $string['add'] = '追加';
 $string['addcolumn'] = 'カラムを追加する';
@@ -255,6 +256,7 @@ $string['addarow'] = '行を追加する';
 $string['removethisrow'] = 'この行を削除する';
 $string['columnlayout'] = 'カラムレイアウト';
 $string['layoutpreview'] = 'レイアウトプレビュー';
+$string['layoutpreviewimage'] = 'レイアウトプレビューイメージ';
 $string['Help'] = 'ヘルプ';
 $string['by'] = 'by';
 $string['viewtitleby'] = '%s by <a href="%s">%s</a>';
