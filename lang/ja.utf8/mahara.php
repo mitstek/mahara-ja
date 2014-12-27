@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-11-19 06:05:10 UTC
+ * @updated    2014-12-27 17:01:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -58,6 +58,9 @@ $string['imagexofy'] = 'イメージ {x} / {y}';
 $string['clickformore'] = '(詳細情報を表示するには、「Enter」を押してください)';
 $string['goto'] = '「 %s 」に移動する';
 $string['gotomore'] = '続きを読む ...';
+$string['yes'] = 'Yes';
+$string['no'] = 'No';
+$string['disabled'] = '無効';
 $string['complaint'] = 'クレーム';
 $string['notifyadministrator'] = '管理者に通知する';
 $string['notifyadministratorconfirm'] = 'このページを好ましくないコンテンツを含んでいるページとして報告しますか?';
@@ -67,11 +70,8 @@ $string['reportsent'] = 'あなたの報告が送信されました。';
 $string['tabs'] = 'タブ';
 $string['tab'] = 'タブ';
 $string['selected'] = '選択済み';
-$string['disabled'] = '無効';
 $string['admin'] = '管理';
 $string['menu'] = 'メニュー';
-$string['no'] = 'No';
-$string['yes'] = 'Yes';
 $string['at'] = '@';
 $string['From'] = '開始日';
 $string['To'] = '終了日';
@@ -712,6 +712,7 @@ $string['virusfounduser'] = 'あなたがアップロードした %s にウイ�
 $string['fileunknowntype'] = 'あなたがアップロードしたファイルのタイプを判定できませんでした。あなたのファイルが破損したか、設定に問題があります。あなたの管理者にご連絡ください。';
 $string['virusrepeatsubject'] = '警告: %s はウイルスの繰り返しアップロード者です。';
 $string['virusrepeatmessage'] = 'ユーザ %s がアップロードした複数のファイルにウイルスが感染しています。';
+$string['exportfiletoobig'] = '生成されようとしているファイルが大きすぎます。ディスクスペースを空けてください。';
 $string['phpuploaderror'] = 'ファイルアップロード中にエラーが発生しました: %s (エラーコード %s)';
 $string['phpuploaderror_1'] = 'アップロードファイルがphp.iniのupload_max_filesizeディレクティブを超過しました。';
 $string['phpuploaderror_2'] = 'アップロードファイルがHTMLフォームで指定されているMAX_FILE_SIZEディレクティブを超過しました。';
