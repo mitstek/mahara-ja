@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-12-27 19:37:26 UTC
+ * @updated    2014-12-27 20:00:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -60,6 +60,7 @@ $string['titlewssigenc'] = 'WSSecurity';
 $string['last_access'] = '最終アクセス';
 $string['instructions'] = 'インスティテューション';
 $string['webservicelogs'] = 'ウェブサービスログ';
+$string['timetaken'] = '所要時間';
 $string['errors'] = 'エラーのみ';
 $string['manageserviceusers'] = 'サービスユーザを管理する';
 $string['serviceuser'] = 'サービスオーナー';
@@ -67,6 +68,7 @@ $string['serviceusername'] = 'サービスオーナー「 %s 」';
 $string['invalidserviceuser'] = '無効なサービスユーザが選択されました。';
 $string['nouser'] = 'ユーザを選択してください。';
 $string['duplicateuser'] = 'すでにウェブサービスにユーザアカウントが設定されています。';
+$string['servicefunctionlist'] = 'サービスに割り当てられている関数';
 $string['functionname'] = '関数名';
 $string['classname'] = 'クラス名';
 $string['methodname'] = 'メソッド名';
@@ -110,6 +112,7 @@ $string['application_title'] = 'アプリケーションタイトル';
 $string['errorupdate'] = '更新に失敗しました。';
 $string['erroruser'] = '無効なユーザが指定されました。';
 $string['authorise'] = '認証アプリケーションアクセス';
+$string['oauth_access'] = 'このアプリケーションはあなたのユーザ詳細およびリソースにアクセスします。';
 $string['accessexception'] = 'アクセスコントロール例外';
 $string['accessnotallowed'] = 'ウェブサービスへのアクセスが許可されていません。';
 $string['addfunction'] = '関数を追加する';
@@ -135,11 +138,13 @@ $string['errorinvalidparamsapi'] = '無効な外部APIパラメータです。';
 $string['errorinvalidparamsdesc'] = '無効な外部API説明です。';
 $string['errorinvalidresponseapi'] = '無効な外部APIレスポンスです。';
 $string['errorinvalidresponsedesc'] = '無効な外部APIレスポンス説明です。';
+$string['erroronlyarray'] = '配列のみ許可されます。';
 $string['execute'] = '実行';
 $string['expires'] = '有効期限';
 $string['externalservice'] = '外部サービス';
 $string['failedtolog'] = 'ログインに失敗しました。';
 $string['information'] = '情報';
+$string['invalidaccount'] = '無効なウェブサービスアカウント - サービスユーザ設定を確認してください。';
 $string['invalidextparam'] = '無効な外部APIパラメータ: %s';
 $string['invalidextresponse'] = '無効な外部APIレスポンス: %s';
 $string['invalidiptoken'] = '無効なトークン - あなたのIPはサポートされていません。';
@@ -149,6 +154,9 @@ $string['key'] = 'キー';
 $string['missingpassword'] = 'パスワードがありません。';
 $string['missingusername'] = 'ユーザ名がありません。';
 $string['notoken'] = 'トークンリストが空です。';
+$string['operation'] = '操作';
+$string['optional'] = '任意';
+$string['phpparam'] = 'XML-RPC (PHP構造体)';
 $string['removefunction'] = '削除';
 $string['required'] = '必須';
 $string['response'] = 'レスポンス';
@@ -182,12 +190,15 @@ $string['accessdeniedforinst'] = 'インスティテューション「 %s 」の
 $string['accessdeniedforinstuser'] = 'インスティテューション「 %s 」 (ユーザ 「 %s 」) のアクセスが拒否されました。';
 $string['accessdeniedforinstgroup'] = 'インスティテューション「 %s 」 (グループ「 %s 」) のアクセスが拒否されました。';
 $string['invalidauthtype'] = '無効な認証タイプ「 %s 」です。';
+$string['invalidauthtypeuser'] = '無効な認証タイプ「 %s (ユーザ: %s)」 です。';
 $string['nousernameorid'] = 'ユーザ名またはIDがありません。';
 $string['invaliduser'] = '無効なユーザ「 %s 」です。';
 $string['invaliduserid'] = '無効なユーザID「 %s 」です。';
+$string['invalidusergroup'] = '無効なユーザ「 %s (グループ: %s)」 です。';
 $string['invalidusername'] = '無効なユーザ名「 %s 」です。';
 $string['invalidremoteusername'] = '無効なリモートユーザ名「 %s 」です。';
 $string['catinvalid'] = 'カテゴリ「 %s 」が無効です。';
+$string['invalidmemroles'] = '無効なグループメンバーシップロール「 %s (ユーザ: %s 」です。';
 $string['groupnotexist'] = 'グループ「 %s 」は存在しません。';
 $string['nogroup'] = 'グループが選択されていません。';
 
