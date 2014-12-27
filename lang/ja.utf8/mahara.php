@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-12-27 17:01:54 UTC
+ * @updated    2014-12-27 17:06:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -58,8 +58,13 @@ $string['imagexofy'] = 'イメージ {x} / {y}';
 $string['clickformore'] = '(詳細情報を表示するには、「Enter」を押してください)';
 $string['goto'] = '「 %s 」に移動する';
 $string['gotomore'] = '続きを読む ...';
+$string['on'] = 'On';
+$string['off'] = 'Off';
 $string['yes'] = 'Yes';
 $string['no'] = 'No';
+$string['true'] = 'True';
+$string['false'] = 'False';
+$string['enabled'] = '有効';
 $string['disabled'] = '無効';
 $string['complaint'] = 'クレーム';
 $string['notifyadministrator'] = '管理者に通知する';
@@ -551,6 +556,10 @@ $string['datepicker_weekHeader'] = '週';
 $string['datepicker_dayNames'] = '[日曜日,月曜日,火曜日,水曜日,木曜日,金曜日,土曜日]';
 $string['datepicker_dayNamesShort'] = '[日,月,火,水,木,金,土]';
 $string['datepicker_dayNamesMin'] = '[日,月,火,水,木,金,土]';
+$string['datepicker_dayStatus'] = 'DDを週の最初の日として使用する';
+$string['datepicker_dateStatus'] = 'DD, MM d, yyを選択する';
+$string['datepicker_initStatus'] = '日付を選択する';
+$string['datepicker_timeOnlyTitle'] = '時間を選択する';
 $string['datepicker_timeText'] = '時間';
 $string['datepicker_hourText'] = '時';
 $string['datepicker_minuteText'] = '分';
