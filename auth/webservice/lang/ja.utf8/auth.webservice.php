@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-12-27 19:32:26 UTC
+ * @updated    2014-12-27 19:37:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -109,6 +109,8 @@ $string['application_uri'] = 'アプリケーションURL';
 $string['application_title'] = 'アプリケーションタイトル';
 $string['errorupdate'] = '更新に失敗しました。';
 $string['erroruser'] = '無効なユーザが指定されました。';
+$string['authorise'] = '認証アプリケーションアクセス';
+$string['accessexception'] = 'アクセスコントロール例外';
 $string['accessnotallowed'] = 'ウェブサービスへのアクセスが許可されていません。';
 $string['addfunction'] = '関数を追加する';
 $string['addfunctions'] = '関数を追加する';
@@ -140,11 +142,15 @@ $string['failedtolog'] = 'ログインに失敗しました。';
 $string['information'] = '情報';
 $string['invalidextparam'] = '無効な外部APIパラメータ: %s';
 $string['invalidextresponse'] = '無効な外部APIレスポンス: %s';
+$string['invalidiptoken'] = '無効なトークン - あなたのIPはサポートされていません。';
+$string['invalidtimedtoken'] = '無効なトークン - トークンの有効期限が切れました。';
 $string['iprestriction'] = 'IP制限';
 $string['key'] = 'キー';
 $string['missingpassword'] = 'パスワードがありません。';
 $string['missingusername'] = 'ユーザ名がありません。';
 $string['notoken'] = 'トークンリストが空です。';
+$string['removefunction'] = '削除';
+$string['required'] = '必須';
 $string['response'] = 'レスポンス';
 $string['restcode'] = 'REST';
 $string['restexception'] = 'REST';
@@ -161,9 +167,13 @@ $string['selectedcapability'] = '選択済み';
 $string['selectspecificuser'] = '特定のユーザを選択する';
 $string['service'] = 'サービス';
 $string['serviceusers'] = '認証済みユーザ';
+$string['simpleauthlog'] = '単純認証';
+$string['step'] = 'ステップ';
 $string['testwithtestclient'] = 'サービスをテストする';
 $string['tokenauthlog'] = 'トークン認証';
+$string['wrongusernamepassword'] = 'ユーザ名またはパスワードが正しくありません。';
 $string['institutiondenied'] = 'インスティテューションへのアクセスが拒否されました。';
+$string['wsauthnotenabled'] = 'ウェブサービス認証プラグインが無効にされています。';
 $string['wsdocumentation'] = 'ウェブサービスドキュメンテーション';
 $string['wspassword'] = 'ウェブサービスパスワード';
 $string['wsusername'] = 'ウェブサービスユーザ名';
