@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-09-22 03:56:26 UTC
+ * @updated    2014-12-27 17:01:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -710,6 +710,7 @@ $string['virusfounduser'] = 'あなたがアップロードした %s にウイ�
 $string['fileunknowntype'] = 'あなたがアップロードしたファイルのタイプを判定できませんでした。あなたのファイルが破損したか、設定に問題があります。あなたの管理者にご連絡ください。';
 $string['virusrepeatsubject'] = '警告: %s はウイルスの繰り返しアップロード者です。';
 $string['virusrepeatmessage'] = 'ユーザ %s がアップロードした複数のファイルにウイルスが感染しています。';
+$string['exportfiletoobig'] = '生成されようとしているファイルが大きすぎます。ディスクスペースを空けてください。';
 $string['phpuploaderror'] = 'ファイルアップロード中にエラーが発生しました: %s (エラーコード %s)';
 $string['phpuploaderror_1'] = 'アップロードファイルがphp.iniのupload_max_filesizeディレクティブを超過しました。';
 $string['phpuploaderror_2'] = 'アップロードファイルがHTMLフォームで指定されているMAX_FILE_SIZEディレクティブを超過しました。';
