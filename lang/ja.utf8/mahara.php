@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-12-27 18:19:47 UTC
+ * @updated    2014-12-27 18:21:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1052,7 +1052,7 @@ Maharaは自分の学習に関するポートフォリオを作成および管�
 $string['wanttoleavewithoutsaving?'] = 'あなたは修正しました - 修正を保存せずにページを離れてもよろしいですか?';
 $string['attachedimage'] = '添付イメージ';
 $string['imagebrowsertitle'] = 'イメージを挿入または選択する';
-$string['imagebrowserdescription'] = '外部イメージのURLを貼り付ける、または下記のイメージブラウザを使用してあなたのイメージを選択またはアップロードしてください。';
+$string['imagebrowserdescription'] = '外部イメージURLを貼り付け、または下記のイメージブラウザを使用してあなたのイメージを選択またはアップロードしてください。';
 $string['url'] = 'イメージURL';
 $string['style'] = 'スタイル (CSS)';
 $string['dimensions'] = 'サイズ';
