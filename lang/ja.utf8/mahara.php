@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-12-27 17:20:54 UTC
+ * @updated    2014-12-27 18:19:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1051,5 +1051,15 @@ $string['facebookdescription'] = 'Maharaはeポートフォリオおよびソー
 Maharaは自分の学習に関するポートフォリオを作成および管理するためのツールをユーザに提供します。また、ソーシャルネットワーキング機能により、ユーザ同士が相互に交流を図ることができます。';
 $string['wanttoleavewithoutsaving?'] = 'あなたは修正しました - 修正を保存せずにページを離れてもよろしいですか?';
 $string['attachedimage'] = '添付イメージ';
+$string['imagebrowsertitle'] = 'イメージを挿入または選択する';
+$string['imagebrowserdescription'] = '外部イメージのURLを貼り付ける、または下記のイメージブラウザを使用してあなたのイメージを選択またはアップロードしてください。';
+$string['url'] = 'イメージURL';
+$string['style'] = 'スタイル (CSS)';
+$string['dimensions'] = 'サイズ';
+$string['constrain'] = '縦横比を保持する';
+$string['vspace'] = '垂直方向の余白';
+$string['hspace'] = '水平方向の余白';
+$string['border'] = '罫線幅';
+$string['alignment'] = '位置揃え';
 
 ?>
