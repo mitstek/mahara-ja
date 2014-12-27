@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-12-27 17:06:49 UTC
+ * @updated    2014-12-27 17:20:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1036,6 +1036,7 @@ $string['engagedetail'] = 'ディスカッションフォーラムで他の人�
 $string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたはこのボックスの可視性を<a href="%s">設定</a>ページにてコントロールすることができます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['filenotfound'] = 'ファイルが見つかりませんでした。';
+$string['filenotfoundmaybeexpired'] = 'ファイルが見つかりませんでした。あなたのエクスポートファイルは作成後24時間のみ存在します。あなたのコンテンツを再度エクスポートする必要があります。';
 $string['betweenxandy'] = '範囲: %s - %s';
 $string['cleanurlallowedcharacters'] = '半角英数小文字および「-」のみ許可されます。';
 $string['content'] = 'コンテンツ';
