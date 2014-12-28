@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-12-27 20:00:32 UTC
+ * @updated    2014-12-28 19:14:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,7 +18,14 @@ $string['title'] = 'ウェブサービス';
 $string['description'] = '記述';
 $string['webservicesconfig'] = '設定';
 $string['completeregistration'] = '登録を完了する';
+$string['iagreetothetermsandconditions'] = '私は使用条件に同意します。';
+$string['passwordformdescription'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
+$string['passwordinvalidform'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
+$string['youmaynotregisterwithouttandc'] = '<a href="terms.php">使用条件</a>に従うことを同意しない限り、あなたは登録することができません。';
+$string['control_webservices'] = 'すべてのウェブサービスをOnまたはOffにスイッチする:';
 $string['masterswitch'] = 'ウェブサービスマスタースイッチ';
+$string['protocolswitches'] = 'プロトコルをOn/Offにスイッチする';
+$string['manage_protocols'] = 'このインストレーションによってサポートされるプロトコルを有効または無効にします:';
 $string['protocol'] = 'プロトコル';
 $string['rest'] = 'REST';
 $string['soap'] = 'SOAP';
@@ -42,6 +49,7 @@ $string['accessextfunctionnotconf'] = '外部関数へのアクセスが設定�
 $string['missingfuncname'] = '関数名がありません。';
 $string['invalidparamdesc'] = '無効なパラメータ記述です。';
 $string['missingparamdesc'] = 'パラメータ記述がありません。';
+$string['missingimplofmeth'] = '「 %s 」のメソッドが実装されていません。';
 $string['apptokens'] = 'アプリケーション接続';
 $string['servicetokens'] = 'サービスアクセストークンを管理する';
 $string['tokens'] = 'サービスアクセストークン';
@@ -56,6 +64,7 @@ $string['tokenid'] = 'トークン「 %s 」';
 $string['invaliduserselected'] = '無効なユーザが選択されました。';
 $string['invaliduserselectedinstitution'] = 'ユーザ検索から無効なユーザのトークンインスティテューションが選択されました。';
 $string['noservices'] = 'サービスが設定されていません。';
+$string['wssigenc'] = 'WS-Securityを有効にする (XML-RPCのみ)';
 $string['titlewssigenc'] = 'WSSecurity';
 $string['last_access'] = '最終アクセス';
 $string['instructions'] = 'インスティテューション';
