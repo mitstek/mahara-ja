@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-12-29 18:58:14 UTC
+ * @updated    2014-12-29 19:18:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,10 +17,13 @@ $string['webservice'] = 'ウェブサービス';
 $string['title'] = 'ウェブサービス';
 $string['description'] = '記述';
 $string['webservicesconfig'] = '設定';
+$string['webservicesconfigdesc'] = 'ここであなたはウェブサービスのルールを変更およびサービスを有効または無効にすることができます。';
 $string['completeregistration'] = '登録を完了する';
+$string['emailalreadytaken'] = 'このメールアドレスはすでに登録されています。';
 $string['iagreetothetermsandconditions'] = '私は使用条件に同意します。';
 $string['passwordformdescription'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
 $string['passwordinvalidform'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
+$string['usernamealreadytaken'] = '申し訳ございません、このユーザ名はすでに取得されています。';
 $string['youmaynotregisterwithouttandc'] = '<a href="terms.php">使用条件</a>に従うことを同意しない限り、あなたは登録することができません。';
 $string['control_webservices'] = 'すべてのウェブサービスをOnまたはOffにスイッチする:';
 $string['masterswitch'] = 'ウェブサービスマスタースイッチ';
@@ -33,9 +36,12 @@ $string['xmlrpc'] = 'XML-RPC';
 $string['certificates'] = 'ネットワーク証明書';
 $string['servicefunctiongroups'] = 'サービスグループを管理する';
 $string['servicegroups'] = 'サービスグループ';
+$string['name'] = '名称';
 $string['component'] = 'コンポーネント';
 $string['functions'] = '関数';
 $string['enableservice'] = 'ウェブサービスを有効/無効にする';
+$string['existingserviceusers'] = 'このサービスにサービスユーザがリンクされているため、トークンのみユーザにスイッチできません。';
+$string['existingtokens'] = 'このサービスにトークンユーザが存在するため、認証済みサービスユーザにスイッチできません。';
 $string['usersonly'] = '現在のユーザのみ';
 $string['tokensonly'] = '現在のトークンのみ';
 $string['switchtousers'] = 'ユーザにスイッチする';
@@ -44,16 +50,19 @@ $string['invalidservice'] = '無効なサービスが選択されました。';
 $string['invalidfunction'] = '無効な関数が選択されました。';
 $string['tokengenerationfailed'] = 'トークンの生成に失敗しました。';
 $string['invalidresponse'] = '無効なレスポンス';
+$string['invalidstatedetected'] = '無効な状態が検出されました。';
 $string['codingerror'] = 'コーディングエラー';
 $string['accessextfunctionnotconf'] = '外部関数へのアクセスが設定されていません。';
 $string['missingfuncname'] = '関数名がありません。';
 $string['invalidparamdesc'] = '無効なパラメータ記述です。';
 $string['missingparamdesc'] = 'パラメータ記述がありません。';
 $string['missingimplofmeth'] = '「 %s 」のメソッドが実装されていません。';
+$string['cannotfindimplfile'] = '外部関数が実装されたファイルを見つけることができませんでした。';
 $string['apptokens'] = 'アプリケーション接続';
 $string['servicetokens'] = 'サービスアクセストークンを管理する';
 $string['tokens'] = 'サービスアクセストークン';
 $string['users'] = 'サービスユーザ';
+$string['stdescription'] = 'トークンを生成して、ユーザをサービスグループに割り当てます。';
 $string['username'] = 'ユーザ';
 $string['owner'] = 'オーナー';
 $string['servicename'] = 'サービス';
@@ -71,6 +80,8 @@ $string['verifier'] = 'ベリファイアトークン';
 $string['instructions'] = 'インスティテューション';
 $string['webservicelogs'] = 'ウェブサービスログ';
 $string['timetaken'] = '所要時間';
+$string['timelogged'] = 'いつ';
+$string['info'] = '情報';
 $string['errors'] = 'エラーのみ';
 $string['manageserviceusers'] = 'サービスユーザを管理する';
 $string['serviceuser'] = 'サービスオーナー';
@@ -108,6 +119,7 @@ $string['notokens'] = 'あなたにはアプリケーショントークンがあ
 $string['oauth'] = 'OAuth';
 $string['oauthv1sregister'] = 'OAuthサービス登録';
 $string['userapplications'] = 'OAuthコンシューマキー';
+$string['accessto'] = 'アクセス対象';
 $string['application'] = 'アプリケーション';
 $string['callback'] = 'コールバックURL';
 $string['consumer_key'] = 'コンシューマキー';
@@ -149,6 +161,7 @@ $string['errorinvalidparamsdesc'] = '無効な外部API説明です。';
 $string['errorinvalidresponseapi'] = '無効な外部APIレスポンスです。';
 $string['errorinvalidresponsedesc'] = '無効な外部APIレスポンス説明です。';
 $string['erroronlyarray'] = '配列のみ許可されます。';
+$string['errorunexpectedkey'] = 'パラメータ配列に予期されないキー (%s) が検出されました。';
 $string['execute'] = '実行';
 $string['expires'] = '有効期限';
 $string['externalservice'] = '外部サービス';
@@ -178,7 +191,7 @@ $string['fortokenusers'] = 'ユーザトークンアクセス';
 $string['usertokens'] = 'パーソナルユーザトークン';
 $string['serviceaccess'] = 'サービスアクセス';
 $string['gen'] = '生成';
-$string['no_token'] = 'トークンは生成されませんでした。';
+$string['no_token'] = 'トークンは生成されていません。';
 $string['token_generated'] = 'トークンが生成されました。';
 $string['securitykey'] = 'セキュリティキー (トークン)';
 $string['selectedcapability'] = '選択済み';
