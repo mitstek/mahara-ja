@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-12-28 19:14:33 UTC
+ * @updated    2014-12-29 18:58:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -67,6 +67,7 @@ $string['noservices'] = 'サービスが設定されていません。';
 $string['wssigenc'] = 'WS-Securityを有効にする (XML-RPCのみ)';
 $string['titlewssigenc'] = 'WSSecurity';
 $string['last_access'] = '最終アクセス';
+$string['verifier'] = 'ベリファイアトークン';
 $string['instructions'] = 'インスティテューション';
 $string['webservicelogs'] = 'ウェブサービスログ';
 $string['timetaken'] = '所要時間';
@@ -204,11 +205,15 @@ $string['nousernameorid'] = 'ユーザ名またはIDがありません。';
 $string['invaliduser'] = '無効なユーザ「 %s 」です。';
 $string['invaliduserid'] = '無効なユーザID「 %s 」です。';
 $string['invalidusergroup'] = '無効なユーザ「 %s (グループ: %s)」 です。';
+$string['mustsetauth'] = 'ユーザ「 %s 」の認証を更新するには、認証およびインスティテューションを設定する必要があります。';
 $string['invalidusername'] = '無効なユーザ名「 %s 」です。';
 $string['invalidremoteusername'] = '無効なリモートユーザ名「 %s 」です。';
+$string['musthaveid'] = 'ID、ユーザIDまたはユーザ名が必要です。';
+$string['instmustbeongroup'] = 'グループ「 %s 」にインスティテューションを設定する必要があります。';
 $string['catinvalid'] = 'カテゴリ「 %s 」が無効です。';
 $string['invalidmemroles'] = '無効なグループメンバーシップロール「 %s (ユーザ: %s 」です。';
 $string['groupnotexist'] = 'グループ「 %s 」は存在しません。';
+$string['instmustset'] = '「 %s 」にインスティテューションを設定する必要があります。';
 $string['nogroup'] = 'グループが選択されていません。';
 
 ?>
