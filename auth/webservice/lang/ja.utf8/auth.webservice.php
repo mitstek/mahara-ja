@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-12-29 19:18:45 UTC
+ * @updated    2014-12-30 15:56:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -24,6 +24,8 @@ $string['iagreetothetermsandconditions'] = '私は使用条件に同意します
 $string['passwordformdescription'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
 $string['passwordinvalidform'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
 $string['usernamealreadytaken'] = '申し訳ございません、このユーザ名はすでに取得されています。';
+$string['usernameinvalidform'] = 'ユーザ名には空白を除く、半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
+$string['usernameinvalidadminform'] = 'ユーザ名には空白を除く、半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
 $string['youmaynotregisterwithouttandc'] = '<a href="terms.php">使用条件</a>に従うことを同意しない限り、あなたは登録することができません。';
 $string['control_webservices'] = 'すべてのウェブサービスをOnまたはOffにスイッチする:';
 $string['masterswitch'] = 'ウェブサービスマスタースイッチ';
@@ -49,6 +51,7 @@ $string['switchtotokens'] = 'トークンにスイッチする';
 $string['invalidservice'] = '無効なサービスが選択されました。';
 $string['invalidfunction'] = '無効な関数が選択されました。';
 $string['tokengenerationfailed'] = 'トークンの生成に失敗しました。';
+$string['parametercannotbevalueoptional'] = 'パラメータは任意の値にすることはできません。';
 $string['invalidresponse'] = '無効なレスポンス';
 $string['invalidstatedetected'] = '無効な状態が検出されました。';
 $string['codingerror'] = 'コーディングエラー';
