@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-12-30 15:56:39 UTC
+ * @updated    2014-12-30 16:22:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -41,11 +41,11 @@ $string['servicegroups'] = 'サービスグループ';
 $string['name'] = '名称';
 $string['component'] = 'コンポーネント';
 $string['functions'] = '関数';
-$string['enableservice'] = 'ウェブサービスを有効/無効にする';
+$string['enableservice'] = 'サービスを有効/無効にする';
 $string['existingserviceusers'] = 'このサービスにサービスユーザがリンクされているため、トークンのみユーザにスイッチできません。';
 $string['existingtokens'] = 'このサービスにトークンユーザが存在するため、認証済みサービスユーザにスイッチできません。';
 $string['usersonly'] = '現在のユーザのみ';
-$string['tokensonly'] = '現在のトークンのみ';
+$string['tokensonly'] = 'トークンのみ';
 $string['switchtousers'] = 'ユーザにスイッチする';
 $string['switchtotokens'] = 'トークンにスイッチする';
 $string['invalidservice'] = '無効なサービスが選択されました。';
@@ -57,7 +57,9 @@ $string['invalidstatedetected'] = '無効な状態が検出されました。';
 $string['codingerror'] = 'コーディングエラー';
 $string['accessextfunctionnotconf'] = '外部関数へのアクセスが設定されていません。';
 $string['missingfuncname'] = '関数名がありません。';
+$string['invalidretdesc'] = '無効な戻り記述です。';
 $string['invalidparamdesc'] = '無効なパラメータ記述です。';
+$string['missingretvaldesc'] = '戻り値の記述がありません。';
 $string['missingparamdesc'] = 'パラメータ記述がありません。';
 $string['missingimplofmeth'] = '「 %s 」のメソッドが実装されていません。';
 $string['cannotfindimplfile'] = '外部関数が実装されたファイルを見つけることができませんでした。';
@@ -117,6 +119,7 @@ $string['userauth'] = 'ユーザ';
 $string['authtype'] = '認証タイプ';
 $string['sauthtype'] = '認証タイプ';
 $string['enterparameters'] = '関数パラメータを入力してください。';
+$string['invaliduserpass'] = '「 %s 」に対して、無効なwsusername/wspasswordが提供されました。';
 $string['accesstokens'] = 'OAuthアクセストークン';
 $string['notokens'] = 'あなたにはアプリケーショントークンがありません。';
 $string['oauth'] = 'OAuth';
@@ -183,6 +186,7 @@ $string['notoken'] = 'トークンリストが空です。';
 $string['operation'] = '操作';
 $string['optional'] = '任意';
 $string['phpparam'] = 'XML-RPC (PHP構造体)';
+$string['potusers'] = '認証済みユーザではありません。';
 $string['removefunction'] = '削除';
 $string['required'] = '必須';
 $string['response'] = 'レスポンス';
@@ -215,9 +219,12 @@ $string['accessdenied'] = 'アクセスが拒否されました。';
 $string['accessdeniedforinst'] = 'インスティテューション「 %s 」のアクセスが拒否されました。';
 $string['accessdeniedforinstuser'] = 'インスティテューション「 %s 」 (ユーザ 「 %s 」) のアクセスが拒否されました。';
 $string['accessdeniedforinstgroup'] = 'インスティテューション「 %s 」 (グループ「 %s 」) のアクセスが拒否されました。';
+$string['usernameexists'] = 'ユーザ名はすでに存在します: %s';
 $string['invalidauthtype'] = '無効な認証タイプ「 %s 」です。';
 $string['invalidauthtypeuser'] = '無効な認証タイプ「 %s (ユーザ: %s)」 です。';
+$string['cannotdeleteaccount'] = '使用中および未保留のアカウントを削除することはできません。ユーザID「 %s 」';
 $string['nousernameorid'] = 'ユーザ名またはIDがありません。';
+$string['nousernameoridgroup'] = 'グループ「 %s 」のユーザ名またはIDがありません。';
 $string['invaliduser'] = '無効なユーザ「 %s 」です。';
 $string['invaliduserid'] = '無効なユーザID「 %s 」です。';
 $string['invalidusergroup'] = '無効なユーザ「 %s (グループ: %s)」 です。';
@@ -225,11 +232,16 @@ $string['mustsetauth'] = 'ユーザ「 %s 」の認証を更新するには、�
 $string['invalidusername'] = '無効なユーザ名「 %s 」です。';
 $string['invalidremoteusername'] = '無効なリモートユーザ名「 %s 」です。';
 $string['musthaveid'] = 'ID、ユーザIDまたはユーザ名が必要です。';
+$string['notauthforuseridinstitution'] = 'ユーザID「 %s (インスティテューション: %s)」へのアクセスは認証されていません。';
+$string['notauthforuseridinstitutiongroup'] = 'ユーザID「 %s (インスティテューション: %s)」からグループ「 %s 」へのアクセスは認証されていません。';
+$string['groupexists'] = 'グループはすでに存在します: %s';
 $string['instmustbeongroup'] = 'グループ「 %s 」にインスティテューションを設定する必要があります。';
+$string['noname'] = '名称または省略名が指定されていません。';
 $string['catinvalid'] = 'カテゴリ「 %s 」が無効です。';
-$string['invalidmemroles'] = '無効なグループメンバーシップロール「 %s (ユーザ: %s 」です。';
+$string['invalidmemroles'] = '無効なグループメンバーシップロール「 %s (ユーザ: %s) 」です。';
 $string['groupnotexist'] = 'グループ「 %s 」は存在しません。';
 $string['instmustset'] = '「 %s 」にインスティテューションを設定する必要があります。';
 $string['nogroup'] = 'グループが選択されていません。';
+$string['membersinvalidaction'] = '無効な操作「 %s 」です - ユーザ「 %s (グループ: %s)」';
 
 ?>
