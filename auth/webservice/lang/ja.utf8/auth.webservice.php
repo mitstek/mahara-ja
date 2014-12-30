@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-12-30 16:22:04 UTC
+ * @updated    2014-12-30 16:30:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -82,6 +82,7 @@ $string['wssigenc'] = 'WS-Securityを有効にする (XML-RPCのみ)';
 $string['titlewssigenc'] = 'WSSecurity';
 $string['last_access'] = '最終アクセス';
 $string['verifier'] = 'ベリファイアトークン';
+$string['oob'] = 'アウトオブバンドOAuth認証';
 $string['instructions'] = 'インスティテューション';
 $string['webservicelogs'] = 'ウェブサービスログ';
 $string['timetaken'] = '所要時間';
@@ -119,7 +120,7 @@ $string['userauth'] = 'ユーザ';
 $string['authtype'] = '認証タイプ';
 $string['sauthtype'] = '認証タイプ';
 $string['enterparameters'] = '関数パラメータを入力してください。';
-$string['invaliduserpass'] = '「 %s 」に対して、無効なwsusername/wspasswordが提供されました。';
+$string['invaliduserpass'] = '「 %s 」に対して、無効な「wsusername」「wspassword」が提供されました。';
 $string['accesstokens'] = 'OAuthアクセストークン';
 $string['notokens'] = 'あなたにはアプリケーショントークンがありません。';
 $string['oauth'] = 'OAuth';
@@ -166,12 +167,15 @@ $string['errorinvalidparamsapi'] = '無効な外部APIパラメータです。';
 $string['errorinvalidparamsdesc'] = '無効な外部API説明です。';
 $string['errorinvalidresponseapi'] = '無効な外部APIレスポンスです。';
 $string['errorinvalidresponsedesc'] = '無効な外部APIレスポンス説明です。';
+$string['errormissingkey'] = '単一構造の必須キーがありません: %s';
 $string['erroronlyarray'] = '配列のみ許可されます。';
+$string['errorresponsemissingkey'] = 'レスポンスエラー - 次の単一構造の必須キーがありません: %s';
 $string['errorunexpectedkey'] = 'パラメータ配列に予期されないキー (%s) が検出されました。';
 $string['execute'] = '実行';
 $string['expires'] = '有効期限';
 $string['externalservice'] = '外部サービス';
 $string['failedtolog'] = 'ログインに失敗しました。';
+$string['generalstructure'] = '一般構造';
 $string['information'] = '情報';
 $string['invalidaccount'] = '無効なウェブサービスアカウント - サービスユーザ設定を確認してください。';
 $string['invalidextparam'] = '無効な外部APIパラメータ: %s';
