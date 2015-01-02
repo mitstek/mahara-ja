@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-01-02 17:30:49 UTC
+ * @updated    2015-01-02 17:32:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -28,7 +28,7 @@ $string['registeredemailmessagetext'] = '%s さん
 
 %s への登録ありがとうございます。サインアップ処理を完了するには、次のリンクに従ってください:
 
-register.php?key=%s
+%sregister.php?key=%s
 
 メールに含まれているリンクは24時間のみ有効です。
 
