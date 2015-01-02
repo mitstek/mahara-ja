@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-12-30 16:30:38 UTC
+ * @updated    2015-01-02 17:30:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -23,6 +23,27 @@ $string['emailalreadytaken'] = 'このメールアドレスはすでに登録さ
 $string['iagreetothetermsandconditions'] = '私は使用条件に同意します。';
 $string['passwordformdescription'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
 $string['passwordinvalidform'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
+$string['registeredemailsubject'] = 'あなたは %s に登録されました。';
+$string['registeredemailmessagetext'] = '%s さん
+
+%s への登録ありがとうございます。サインアップ処理を完了するには、次のリンクに従ってください:
+
+register.php?key=%s
+
+メールに含まれているリンクは24時間のみ有効です。
+
+--
+%s チーム';
+$string['registeredemailmessagehtml'] = '<p>%s さん</p>
+<p>%s への登録ありがとうございます。サインアップ処理を完了するには、次のリンクに従ってください:</p>
+<p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>
+<p>メールに含まれているリンクは24時間のみ有効です。</p>
+
+<pre>--
+%s チーム</pre>';
+$string['registeredok'] = '<p>あなたの登録が正常に完了しました。アカウントの有効化に関するインストラクションに関して、あなたのメールアカウントを確認してください。</p>';
+$string['registrationnosuchkey'] = '申し訳ございません、このキーでの登録はできないようです。恐らく、登録を完了するため、あなたが24時間以上待機していたと思われます。そうでない場合、これは私たちに責任があります';
+$string['registrationunsuccessful'] = '申し訳ございません、あなたの登録は正常に完了しませんでした。これは私たちに責任があります。もう一度お試しください。';
 $string['usernamealreadytaken'] = '申し訳ございません、このユーザ名はすでに取得されています。';
 $string['usernameinvalidform'] = 'ユーザ名には空白を除く、半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
 $string['usernameinvalidadminform'] = 'ユーザ名には空白を除く、半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
@@ -181,7 +202,8 @@ $string['invalidaccount'] = '無効なウェブサービスアカウント - サ
 $string['invalidextparam'] = '無効な外部APIパラメータ: %s';
 $string['invalidextresponse'] = '無効な外部APIレスポンス: %s';
 $string['invalidiptoken'] = '無効なトークン - あなたのIPはサポートされていません。';
-$string['invalidtimedtoken'] = '無効なトークン - トークンの有効期限が切れました。';
+$string['invalidtimedtoken'] = '無効なトークン - トークンの有効期限が切れています。';
+$string['invalidtokensession'] = '無効なセッションベースのトークン - セッションが見つからない、または有効期限が切れています。';
 $string['iprestriction'] = 'IP制限';
 $string['key'] = 'キー';
 $string['missingpassword'] = 'パスワードがありません。';
@@ -193,6 +215,7 @@ $string['phpparam'] = 'XML-RPC (PHP構造体)';
 $string['potusers'] = '認証済みユーザではありません。';
 $string['removefunction'] = '削除';
 $string['required'] = '必須';
+$string['resettokenconfirm'] = '本当にこのウェブサービスキー (<strong>{%s}</strong> - <strong>{%s}</strong>) をリセットしても宜しいですか?';
 $string['response'] = 'レスポンス';
 $string['restcode'] = 'REST';
 $string['restexception'] = 'REST';
