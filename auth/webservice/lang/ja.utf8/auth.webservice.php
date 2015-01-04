@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-01-02 17:32:49 UTC
+ * @updated    2015-01-04 20:51:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -265,6 +265,9 @@ $string['groupexists'] = 'グループはすでに存在します: %s';
 $string['instmustbeongroup'] = 'グループ「 %s 」にインスティテューションを設定する必要があります。';
 $string['noname'] = '名称または省略名が指定されていません。';
 $string['catinvalid'] = 'カテゴリ「 %s 」が無効です。';
+$string['invalidjointype'] = '無効なJOINタイプの組み合わせです: %s';
+$string['correctjointype'] = '正しいJOINタイプを選択する必要があります: open, request, controlled';
+$string['groupeditroles'] = '「 %s 」で指定したグループ編集ロールは次の中の1つである必要があります: %s';
 $string['invalidmemroles'] = '無効なグループメンバーシップロール「 %s (ユーザ: %s) 」です。';
 $string['groupnotexist'] = 'グループ「 %s 」は存在しません。';
 $string['instmustset'] = '「 %s 」にインスティテューションを設定する必要があります。';
