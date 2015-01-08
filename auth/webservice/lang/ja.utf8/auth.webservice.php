@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-01-04 20:51:58 UTC
+ * @updated    2015-01-08 00:04:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -59,6 +59,7 @@ $string['xmlrpc'] = 'XML-RPC';
 $string['certificates'] = 'ネットワーク証明書';
 $string['servicefunctiongroups'] = 'サービスグループを管理する';
 $string['servicegroups'] = 'サービスグループ';
+$string['sfgdescription'] = '実行権限を与えられたユーザに割り当てることのできるサービスグループへの関数一覧を構築します。';
 $string['name'] = '名称';
 $string['component'] = 'コンポーネント';
 $string['functions'] = '関数';
@@ -117,6 +118,7 @@ $string['invalidserviceuser'] = '無効なサービスユーザが選択され�
 $string['nouser'] = 'ユーザを選択してください。';
 $string['duplicateuser'] = 'すでにウェブサービスにユーザアカウントが設定されています。';
 $string['servicefunctionlist'] = 'サービスに割り当てられている関数';
+$string['sfldescription'] = 'このサービスに利用可能な関数一覧を構築します。';
 $string['functionname'] = '関数名';
 $string['classname'] = 'クラス名';
 $string['methodname'] = 'メソッド名';
@@ -141,6 +143,7 @@ $string['userauth'] = 'ユーザ';
 $string['authtype'] = '認証タイプ';
 $string['sauthtype'] = '認証タイプ';
 $string['enterparameters'] = '関数パラメータを入力してください。';
+$string['executed'] = '関数コールが実行されました。';
 $string['invaliduserpass'] = '「 %s 」に対して、無効な「wsusername」「wspassword」が提供されました。';
 $string['accesstokens'] = 'OAuthアクセストークン';
 $string['notokens'] = 'あなたにはアプリケーショントークンがありません。';
@@ -161,8 +164,9 @@ $string['application_uri'] = 'アプリケーションURL';
 $string['application_title'] = 'アプリケーションタイトル';
 $string['errorupdate'] = '更新に失敗しました。';
 $string['erroruser'] = '無効なユーザが指定されました。';
-$string['authorise'] = '認証アプリケーションアクセス';
+$string['authorise'] = 'アプリケーションアクセス権限を与える';
 $string['oauth_access'] = 'このアプリケーションはあなたのユーザ詳細およびリソースにアクセスします。';
+$string['oauth_instructions'] = 'あなたがこのアプリケーションへのアクセス権限を与えたい場合、「アプリケーションアクセス権限を与える」をクリックしてください。あなたがアクセス権限を与えたくない場合、「キャンセル」をクリックしてください。';
 $string['accessexception'] = 'アクセスコントロール例外';
 $string['accessnotallowed'] = 'ウェブサービスへのアクセスが許可されていません。';
 $string['addfunction'] = '関数を追加する';
