@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-01-08 00:04:19 UTC
+ * @updated    2015-01-08 23:39:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -105,6 +105,7 @@ $string['titlewssigenc'] = 'WSSecurity';
 $string['last_access'] = '最終アクセス';
 $string['verifier'] = 'ベリファイアトークン';
 $string['oob'] = 'アウトオブバンドOAuth認証';
+$string['oobinfo'] = '以下のコードは許可されたデータにあなたの外部アプリケーションがアクセスするための認証コードです。続けるには、関連付けられているアプリケーションの入力欄にコードをコピー＆ペーストしてください。';
 $string['instructions'] = 'インスティテューション';
 $string['webservicelogs'] = 'ウェブサービスログ';
 $string['timetaken'] = '所要時間';
