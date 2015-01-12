@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-11-13 21:29:06 UTC
+ * @updated    2015-01-12 22:12:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -92,7 +92,7 @@ $string['artefactnotfound'] = 'ID %s のアーティファクトは見つかり�
 $string['artefactnotinview'] = 'アーティファクト %s はページ %s にありません。';
 $string['artefactonlyviewableinview'] = 'このタイプのアーティファクトはページ内でのみ閲覧することができます。';
 $string['notartefactowner'] = 'あなたはこのアーティファクトを所有していません。';
-$string['blockinstancednotfound'] = 'ID %s のブロックインスタンスは見つかりませんでした。';
+$string['blockinstancenotfound'] = 'ID %s のブロックインスタンスは見つかりませんでした。';
 $string['interactioninstancenotfound'] = 'ID %s の活動インスタンスは見つかりませんでした。';
 $string['invalidviewaction'] = '無効なページコントロール: %s';
 $string['missingparamblocktype'] = '最初に追加するブロックタイプを選択してください。';
