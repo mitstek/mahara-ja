@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-11-05 16:37:56 UTC
+ * @updated    2015-01-13 16:30:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -59,11 +59,16 @@ $string['newviewmessage'] = '%s が新しいページ「 %s 」を作成しま�
 $string['newcontactusfrom'] = '新しいお問い合わせ:';
 $string['newcontactus'] = '新しいお問い合わせ';
 $string['newcollectionaccessmessage'] = 'あなたはコレクション「 %s 」のアクセスリストに %s によって追加されました。';
+$string['newcollectionaccessmessageviews'] = 'あなたはページ「 %s 」 (コレクション「 %3$s 」) のアクセスリストに %2$s によって追加されました。';
 $string['newviewaccessmessage'] = 'あなたはページ「 %s 」のアクセスリストに %s によって追加されました。';
+$string['newviewaccessmessageviews'] = 'あなたはページ「 %s 」のアクセスリストに %s によって追加されました。';
 $string['newcollectionaccessmessagenoowner'] = 'あなたはコレクション「 %s 」のアクセスリストに追加されました。';
+$string['newcollectionaccessmessagenoownerviews'] = 'あなたはページ「 %s 」 (コレクション「 %s 」) のアクセスリストに追加されました。';
 $string['newviewaccessmessagenoowner'] = 'あなたはページ「 %s 」のアクセスリストに追加されました。';
+$string['newviewaccessmessagenoownerviews'] = 'あなたはページ「 %s 」のアクセスリストに追加されました。';
 $string['newcollectionaccesssubject'] = 'コレクション「 %s 」への新しいアクセス';
 $string['newviewaccesssubject1'] = 'ページ「 %s 」への新しいアクセス';
+$string['newviewaccesssubjectviews'] = 'ページ「 %s 」への新しいアクセス';
 $string['viewmodified'] = 'がページを変更しました。';
 $string['ongroup'] = 'グループ:';
 $string['ownedby'] = 'オーナー:';
