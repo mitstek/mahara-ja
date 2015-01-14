@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-01-08 23:39:35 UTC
+ * @updated    2015-01-14 17:34:40 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -50,7 +50,7 @@ $string['usernameinvalidadminform'] = 'ユーザ名には空白を除く、半�
 $string['youmaynotregisterwithouttandc'] = '<a href="terms.php">使用条件</a>に従うことを同意しない限り、あなたは登録することができません。';
 $string['control_webservices'] = 'すべてのウェブサービスをOnまたはOffにスイッチする:';
 $string['masterswitch'] = 'ウェブサービスマスタースイッチ';
-$string['protocolswitches'] = 'プロトコルをOn/Offにスイッチする';
+$string['protocolswitches'] = 'プロトコルOn/Offスイッチ';
 $string['manage_protocols'] = 'このインストレーションによってサポートされるプロトコルを有効または無効にします:';
 $string['protocol'] = 'プロトコル';
 $string['rest'] = 'REST';
@@ -113,6 +113,7 @@ $string['timelogged'] = 'いつ';
 $string['info'] = '情報';
 $string['errors'] = 'エラーのみ';
 $string['manageserviceusers'] = 'サービスユーザを管理する';
+$string['sudescription'] = 'ユーザにサービスグループおよびインスティテューションを割り当てます。 ユーザには1回のみ設定する必要があります。すべてのユーザは「ウェブサービス」認証方法を持つ必要があります。ユーザの「ウェブサービス」認証方法のインスタンスは所属しているインスティテューションのものを使用する必要があります。';
 $string['serviceuser'] = 'サービスオーナー';
 $string['serviceusername'] = 'サービスオーナー「 %s 」';
 $string['invalidserviceuser'] = '無効なサービスユーザが選択されました。';
