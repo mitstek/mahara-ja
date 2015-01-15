@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-01-15 17:08:14 UTC
+ * @updated    2015-01-15 18:14:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -130,6 +130,7 @@ $string['webservices'] = 'ウェブサービス';
 $string['webservices_title'] = 'ウェブサービス設定';
 $string['headingusersearchtoken'] = 'ウェブサービストークンユーザ検索';
 $string['headingusersearchuser'] = 'ウェブサービスサービスユーザ検索';
+$string['usersearchinstructions'] = 'アバタをクリックすることにより、ウェブサービスに関連付けられているユーザを選択してください。あなたはユーザの姓名のイニシャルをクリックすることにより、または検索ボックスに名前を入力することにより、ユーザを検索することができます。メールアドレスで検索したい場合、あなたは検索ボックスにメールアドレスを入力することもできます。';
 $string['sha1fingerprint'] = 'SHA1フィンガープリント: %s';
 $string['md5fingerprint'] = 'MD5フィンガープリント: %s';
 $string['publickeyexpireson'] = 'パブリックキー有効期限: %s';
