@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-01-15 18:14:07 UTC
+ * @updated    2015-01-18 16:49:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -56,6 +56,7 @@ $string['protocol'] = 'プロトコル';
 $string['rest'] = 'REST';
 $string['soap'] = 'SOAP';
 $string['xmlrpc'] = 'XML-RPC';
+$string['manage_certificates'] = '<a href="%s">ネットワーキング</a>サービスの一部として生成された証明書です。これらの値は特定のwstokenまたはサービスユーザに対して、WS-Security署名および暗号化が有効にされた場合に使用されます (XML-RPCおよびレガシーMNetのみ)。';
 $string['certificates'] = 'ネットワーク証明書';
 $string['servicefunctiongroups'] = 'サービスグループを管理する';
 $string['servicegroups'] = 'サービスグループ';
