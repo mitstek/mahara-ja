@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-01-18 16:49:06 UTC
+ * @updated    2015-01-19 18:00:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -147,6 +147,7 @@ $string['userauth'] = 'ユーザ';
 $string['authtype'] = '認証タイプ';
 $string['sauthtype'] = '認証タイプ';
 $string['enterparameters'] = '関数パラメータを入力してください。';
+$string['testclientinstructions'] = 'これはウェブサービスのためのインタラクティブテストクライアント機能です。あなたは現在のシステムに対して、関数を選択および実際に実行することができます。あなたが実行するすべての関数は実際に動作することに留意してください。';
 $string['executed'] = '関数コールが実行されました。';
 $string['invaliduserpass'] = '「 %s 」に対して、無効な「wsusername」「wspassword」が提供されました。';
 $string['accesstokens'] = 'OAuthアクセストークン';
