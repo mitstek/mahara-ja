@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-01-08 22:00:59 UTC
+ * @updated    2015-01-21 07:42:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -90,7 +90,7 @@ $string['youhavesubmitted'] = 'あなたはこのグループに <a href="%s">%s
 $string['youhavesubmittedon'] = 'あなたはこのグループに対して、<a href="%s">%s</a> を %s　%s に送信しました。';
 $string['listedinpages'] = 'ページ内一覧';
 $string['public'] = 'パブリック';
-$string['loggedin'] = 'ログインユーザ';
+$string['registeredusers'] = '登録済みユーザ';
 $string['friends'] = 'フレンド';
 $string['groups'] = 'グループ';
 $string['users'] = 'ユーザ';

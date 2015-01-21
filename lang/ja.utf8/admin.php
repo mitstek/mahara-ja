@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-01-19 19:12:33 UTC
+ * @updated    2015-01-21 07:49:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -406,6 +406,8 @@ $string['sitefilesaccess'] = 'サイトファイルにアクセスする';
 $string['sitefilesaccessdescription'] = 'チェックした場合、ログインユーザはサブフォルダ内のサイトファイルにアクセスすることができるようになります。デフォルトでは、トップレベルのディレクトリのファイルのみアクセスすることができます。';
 $string['watchlistdelaydescription'] = 'ウォッチリストの変更に関するメールを送信する遅延時間 (分) です。';
 $string['watchlistdelaytitle'] = 'ウォッチリスト通知遅延';
+$string['defaultmultipleblogs'] = '複数日誌';
+$string['defaultmultipleblogsdescription'] = 'チェックした場合、すべてのユーザはデフォルトで複数日誌を作成することができます。ユーザはこの設定をアカウント設定ページでオーバーライドすることができます。';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
 $string['staticpagespagedescription'] = 'ここであなたはログインユーザのダッシュボード、ログアウトユーザのホームページ、フッタのページリンク等、Mahara内蔵ページのコンテンツを編集することができます。';
