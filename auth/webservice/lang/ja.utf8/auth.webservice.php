@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-01-22 21:04:36 UTC
+ * @updated    2015-01-22 21:06:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -200,7 +200,7 @@ $string['errorinvalidresponsedesc'] = '無効な外部APIレスポンス記述�
 $string['errormissingkey'] = '単一構造の必須キーがありません: %s';
 $string['errornotemptydefaultparamarray'] = '名称「 %s 」のウェブサービス記述パラメータは単一または複数構造です。デフォルトのみ空の配列にすることができます。ウェブサービス記述を確認してください。';
 $string['erroronlyarray'] = '配列のみ許可されます。';
-$string['erroroptionalparamarray'] = '名称「 %s 」のウェブサービス記述パラメータは単一または複数構造です。デフォルトのみ空の配列にすることができます。VALUE_OPTIONALに設定することはできません。ウェブサービス記述を確認してください。';
+$string['erroroptionalparamarray'] = '名称「 %s 」のウェブサービス記述パラメータは単一または複数構造です。VALUE_OPTIONALに設定することはできません。ウェブサービス記述を確認してください。';
 $string['errorresponsemissingkey'] = 'レスポンスエラー - 次の単一構造の必須キーがありません: %s';
 $string['errorscalartype'] = 'スカラ型が要求されましたが、配列またはオブジェクトを受信しました。';
 $string['errorunexpectedkey'] = 'パラメータ配列に予期されないキー (%s) が検出されました。';
