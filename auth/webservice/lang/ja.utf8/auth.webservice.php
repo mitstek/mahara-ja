@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-01-22 21:06:56 UTC
+ * @updated    2015-01-24 22:48:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -172,6 +172,7 @@ $string['erroruser'] = '無効なユーザが指定されました。';
 $string['authorise'] = 'アプリケーションアクセス権限を与える';
 $string['oauth_access'] = 'このアプリケーションはあなたのユーザ詳細およびリソースにアクセスします。';
 $string['oauth_instructions'] = 'あなたがこのアプリケーションへのアクセス権限を与えたい場合、「アプリケーションアクセス権限を与える」をクリックしてください。あなたがアクセス権限を与えたくない場合、「キャンセル」をクリックしてください。';
+$string['accesstofunctionnotallowed'] = '関数 %s() へのアクセスは許可されていません。サービスが関数を含むことを有効にされているかどうか確認してください。サービス設定において、サービスが制限されている場合でもユーザがリストに記載されているかどうか確認してください。さらにサービス設定ではIP制限およびサービスにケイパビリティが必要かどうか確認されます。';
 $string['accessexception'] = 'アクセスコントロール例外';
 $string['accessnotallowed'] = 'ウェブサービスへのアクセスが許可されていません。';
 $string['addfunction'] = '関数を追加する';
@@ -225,6 +226,7 @@ $string['operation'] = '操作';
 $string['optional'] = '任意';
 $string['phpparam'] = 'XML-RPC (PHP構造体)';
 $string['potusers'] = '認証済みユーザではありません。';
+$string['print'] = 'すべてをプリントする';
 $string['removefunction'] = '削除';
 $string['required'] = '必須';
 $string['resettokenconfirm'] = '本当にこのウェブサービスキー (<strong>{%s}</strong> - <strong>{%s}</strong>) をリセットしても宜しいですか?';
