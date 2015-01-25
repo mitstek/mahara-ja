@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-01-24 22:48:31 UTC
+ * @updated    2015-01-25 22:48:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -275,6 +275,7 @@ $string['invalidremoteusername'] = '無効なリモートユーザ名「 %s 」�
 $string['musthaveid'] = 'ID、ユーザIDまたはユーザ名が必要です。';
 $string['notauthforuseridinstitution'] = 'ユーザID「 %s (インスティテューション: %s)」へのアクセスは認証されていません。';
 $string['notauthforuseridinstitutiongroup'] = 'ユーザID「 %s (インスティテューション: %s)」からグループ「 %s 」へのアクセスは認証されていません。';
+$string['invalidfavourite'] = '無効なお気に入り「 %s 」です。';
 $string['groupexists'] = 'グループはすでに存在します: %s';
 $string['instmustbeongroup'] = 'グループ「 %s 」にインスティテューションを設定する必要があります。';
 $string['noname'] = '名称または省略名が指定されていません。';
