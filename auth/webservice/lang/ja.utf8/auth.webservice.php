@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-01-25 22:48:45 UTC
+ * @updated    2015-01-26 19:41:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -250,6 +250,7 @@ $string['simpleauthlog'] = '単純認証';
 $string['step'] = 'ステップ';
 $string['testwithtestclient'] = 'サービスをテストする';
 $string['tokenauthlog'] = 'トークン認証';
+$string['validuntil'] = '有効期限';
 $string['wrongusernamepassword'] = 'ユーザ名またはパスワードが正しくありません。';
 $string['institutiondenied'] = 'インスティテューションへのアクセスが拒否されました。';
 $string['wsauthnotenabled'] = 'ウェブサービス認証プラグインが無効にされています。';
@@ -263,6 +264,7 @@ $string['accessdeniedforinstgroup'] = 'インスティテューション「 %s �
 $string['usernameexists'] = 'ユーザ名はすでに存在します: %s';
 $string['invalidauthtype'] = '無効な認証タイプ「 %s 」です。';
 $string['invalidauthtypeuser'] = '無効な認証タイプ「 %s (ユーザ: %s)」 です。';
+$string['instexceedmax'] = '最大数を超えたインスティテューション「 %s 」';
 $string['cannotdeleteaccount'] = '使用中および未保留のアカウントを削除することはできません。ユーザID「 %s 」';
 $string['nousernameorid'] = 'ユーザ名またはIDがありません。';
 $string['nousernameoridgroup'] = 'グループ「 %s 」のユーザ名またはIDがありません。';
