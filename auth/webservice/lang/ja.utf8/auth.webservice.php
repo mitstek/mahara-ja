@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-01-26 19:45:12 UTC
+ * @updated    2015-02-01 18:59:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -248,6 +248,15 @@ $string['service'] = 'サービス';
 $string['serviceusers'] = '認証済みユーザ';
 $string['simpleauthlog'] = '単純認証';
 $string['step'] = 'ステップ';
+$string['testclientdescription'] = '* ウェブサービステストクライアントは関数を<strong>実際/strong>に<strong>実行</strong>します。あなたが分からない関数はテストしないでください。
+<br/>
+* まだ既存のウェブサービス関数すべてはテストクライアントに実装されていません。
+<br/>
+* ユーザが関数にアクセスできないことを確認するには、あなたが許可していない関数をテストすることができます。
+<br/>
+* クリアなエラーメッセージを表示するには、{$a->atag} でデバッギングを<strong>{$a->mode}</strong>に設定してください。
+<br/>
+* {$a->amfatag}にアクセスしてください。';
 $string['testwithtestclient'] = 'サービスをテストする';
 $string['tokenauthlog'] = 'トークン認証';
 $string['validuntil'] = '有効期限';
