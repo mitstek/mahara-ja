@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-01-20 14:04:53 UTC
+ * @updated    2015-02-05 16:43:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -29,5 +29,11 @@ $string['itemstoshowdesc'] = 'それぞれのセクションで表示される�
 $string['showbyanybody'] = '誰でも';
 $string['showbygroupmembers'] = 'このグループのメンバー';
 $string['shownone'] = 'なし';
+$string['sortgroupviewstitle'] = 'グループページを並べ替える';
+$string['sortsharedviewstitle'] = '共有ページおよびコレクションを並べ替える';
+$string['sortsubmittedtitle'] = '送信済みページおよびコレクションを並べ替える';
+$string['sortviewsbyalphabetical'] = 'アルファベット順';
+$string['sortviewsbylastupdate'] = '最も最近の更新順';
+$string['sortviewsbytimesubmitted'] = '最も最近の送信順';
 
 ?>
