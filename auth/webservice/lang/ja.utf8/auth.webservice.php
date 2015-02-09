@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-02-01 19:02:46 UTC
+ * @updated    2015-02-09 16:43:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -266,6 +266,7 @@ $string['wsauthnotenabled'] = 'ウェブサービス認証プラグインが無�
 $string['wsdocumentation'] = 'ウェブサービスドキュメンテーション';
 $string['wspassword'] = 'ウェブサービスパスワード';
 $string['wsusername'] = 'ウェブサービスユーザ名';
+$string['nooauth'] = 'OAuthには有効にされていません。';
 $string['accessdenied'] = 'アクセスが拒否されました。';
 $string['accessdeniedforinst'] = 'インスティテューション「 %s 」のアクセスが拒否されました。';
 $string['accessdeniedforinstuser'] = 'インスティテューション「 %s 」 (ユーザ 「 %s 」) のアクセスが拒否されました。';
