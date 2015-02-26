@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-12-27 18:21:57 UTC
+ * @updated    2015-02-26 22:48:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -988,7 +988,6 @@ $string['done'] = '完了';
 $string['back'] = '戻る';
 $string['backto'] = '%s に戻る';
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
-$string['formatpostbbcode'] = 'BBコードを使用して、あなたの投稿を書式設定することができます。%s詳細情報%s';
 $string['Created'] = '作成';
 $string['Updated'] = '更新';
 $string['Total'] = '合計';
