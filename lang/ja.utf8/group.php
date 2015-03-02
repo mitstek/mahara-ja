@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-11-05 16:32:57 UTC
+ * @updated    2015-03-02 22:54:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -269,6 +269,7 @@ $string['whymakemeyourfriend'] = 'あなたが私をフレンドにする理由:
 $string['approverequest'] = 'リクエストを承認する';
 $string['denyrequest'] = 'リクエストを拒否する';
 $string['pending'] = '保留中';
+$string['pendingsince'] = '%s より保留中';
 $string['trysearchingforfriends'] = 'あなたのネットワークを広げるため、%s新しいフレンドの検索%sをお試しください。';
 $string['nobodyawaitsfriendapproval'] = 'あなたのフレンドになるための承認を待っているユーザはいません。';
 $string['sendfriendrequest'] = 'フレンドリクエストを送信する';
