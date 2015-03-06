@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-01-21 07:42:35 UTC
+ * @updated    2015-03-06 00:39:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -318,11 +318,14 @@ $string['filescopiedfromviewtemplate'] = '%s からコピーされたファイ�
 $string['viewfilesdirname'] = 'ページファイル';
 $string['viewfilesdirdesc'] = 'コピーされたページのファイル';
 $string['thisviewmaybecopied'] = 'コピーが許可されています。';
+$string['thisviewmaynotbecopied'] = 'コピーは許可されていません。';
 $string['copythisview'] = 'このページをコピーする';
 $string['copyview'] = 'ページをコピーする';
 $string['createemptyview'] = '空のページを作成する';
 $string['copyaview'] = 'ページをコピーする';
 $string['copyvieworcollection'] = 'ページまたはコレクションをコピーする';
+$string['confirmcopytitle'] = 'コピーを確認する';
+$string['confirmcopydesc'] = 'あなたがコピーしたいものを選択してください:';
 $string['Untitled'] = 'タイトルなし';
 $string['copyfornewusers'] = '新しいユーザにコピーする';
 $string['copyfornewusersdescription1'] = '新しいユーザが作成された場合、選択したページまたはコレクションをユーザポートフォリオ内にパーソナルコピーとして自動作成します。';
