@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-11-19 05:14:48 UTC
+ * @updated    2015-03-12 18:51:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -30,8 +30,8 @@ $string['removeduserfromlist'] = 'あなたのメッセージを受信できな�
 $string['deleteduser'] = '削除済みユーザ';
 $string['fromuser'] = 'From';
 $string['touser'] = 'To';
-$string['returnurltext'] = '返信';
-$string['replyurltext'] = 'すべてに返信する';
+$string['reply'] = '返信';
+$string['replyall'] = '全員に返信';
 $string['linkindicator'] = '»';
 $string['labeloutbox1'] = '送信済み';
 $string['outboxdesc'] = '他のユーザに送信されたメッセージ';
