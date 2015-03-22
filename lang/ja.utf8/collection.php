@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-10-19 15:53:51 UTC
+ * @updated    2015-03-22 17:16:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -47,7 +47,7 @@ $string['collectionconfirmdelete'] = 'このコレクション内のページは
 $string['collectioncreatedsuccessfully'] = 'コレクションが正常に作成されました。';
 $string['collectioncreatedsuccessfullyshare'] = 'あなたのコレクションが正常に作成されました。下記のアクセスリンクを使用して、あなたのコレクションを他のユーザと共有してください。';
 $string['collectiondeleted'] = 'コレクションが正常に削除されました。';
-$string['collectiondescription'] = 'コレクションは相互にリンクして同一アクセスパーミッションを持つ一連のページです。あなたが好きなだけコレクションを作成することができますが、ページを1つ以上のコレクションに表示することはできません。';
+$string['collectiondescription'] = 'コレクションは相互にリンクして同一のアクセスパーミッションを持つ一連のページです。あなたが好きなだけコレクションを作成することができますが、ページを1つ以上のコレクションに表示することはできません。';
 $string['collectiontitle'] = 'コレクションタイトル';
 $string['confirmcancelcreatingcollection'] = 'このコレクションは完了していません。本当にキャンセルしてもよろしいですか?';
 $string['collectionsaved'] = 'コレクションが正常に保存されました。';
