@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-09-15 09:55:49 UTC
+ * @updated    2015-03-22 16:50:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,7 +18,8 @@ $string['allowpublicviews'] = 'パブリックページの許可';
 $string['artefact_type_academicgoal'] = 'アーティファクト: アカデミックゴール';
 $string['artefact_type_academicskill'] = 'アーティファクト: アカデミックスキル';
 $string['artefact_type_address'] = 'アーティファクト: 番地以下';
-$string['artefact_type_aimscreenname'] = 'アーティファクト: AIMスクリーンネーム';
+$string['artefact_type_annotation'] = 'アーティファクト: アノテーション';
+$string['artefact_type_annotationfeedback'] = 'アーティファクト: アノテーションフィードバック';
 $string['artefact_type_archive'] = 'アーティファクト: 圧縮ファイル';
 $string['artefact_type_audio'] = 'アーティファクト: オーディオファイル';
 $string['artefact_type_blog'] = 'アーティファクト: 日誌';
@@ -42,16 +43,13 @@ $string['artefact_type_firstname'] = 'アーティファクト: 名';
 $string['artefact_type_folder'] = 'アーティファクト: フォルダ';
 $string['artefact_type_homenumber'] = 'アーティファクト: 自宅電話';
 $string['artefact_type_html'] = 'アーティファクト: HTMLファイル';
-$string['artefact_type_icqnumber'] = 'アーティファクト: ICQナンバー';
 $string['artefact_type_image'] = 'アーティファクト: イメージファイル';
 $string['artefact_type_industry'] = 'アーティファクト: 職種';
 $string['artefact_type_interest'] = 'アーティファクト: 興味';
 $string['artefact_type_introduction'] = 'アーティファクト: イントロダクション';
-$string['artefact_type_jabberusername'] = 'アーティファクト: Jabberユーザ名';
 $string['artefact_type_lastname'] = 'アーティファクト: 姓';
 $string['artefact_type_membership'] = 'アーティファクト: 専門会員資格';
 $string['artefact_type_mobilenumber'] = 'アーティファクト: 携帯電話';
-$string['artefact_type_msnnumber'] = 'アーティファクト: MSNチャット';
 $string['artefact_type_occupation'] = 'アーティファクト: 職業';
 $string['artefact_type_officialwebsite'] = 'アーティファクト: オフィシャルウェブサイトURL';
 $string['artefact_type_personalgoal'] = 'アーティファクト: パーソナルゴール';
@@ -61,15 +59,16 @@ $string['artefact_type_personalwebsite'] = 'アーティファクト: パーソ�
 $string['artefact_type_plan'] = 'アーティファクト: プラン';
 $string['artefact_type_preferredname'] = 'アーティファクト: 表示名';
 $string['artefact_type_profileicon'] = 'アーティファクト: プロファイル写真';
-$string['artefact_type_skypeusername'] = 'アーティファクト: Skypeユーザ名';
+$string['artefact_type_socialprofile'] = 'アーティファクト: ソーシャルメディア';
 $string['artefact_type_studentid'] = 'アーティファクト: 学生ID';
 $string['artefact_type_task'] = 'アーティファクト: タスク';
 $string['artefact_type_town'] = 'アーティファクト: 市区町村';
 $string['artefact_type_video'] = 'アーティファクト: ビデオファイル';
 $string['artefact_type_workskill'] = 'アーティファクト: ワークスキル';
-$string['artefact_type_yahoochat'] = 'アーティファクト: Yahooチャット';
+$string['blocktype_annotation'] = 'ブロック: アノテーション';
 $string['blocktype_blog'] = 'ブロック: 日誌';
 $string['blocktype_blogpost'] = 'ブロック: 日誌エントリ';
+$string['blocktype_comment'] = 'ブロック: フィードバック';
 $string['blocktype_contactinfo'] = 'ブロック: 連絡先';
 $string['blocktype_creativecommons'] = 'ブロック: クリエイティブ・コモンズ';
 $string['blocktype_entireresume'] = 'ブロック: レジュメ全体';
@@ -100,6 +99,7 @@ $string['blocktype_resumefield'] = 'ブロック: レジュメフィールド';
 $string['blocktype_taggedposts'] = 'ブロック: タグ付き日誌エントリ';
 $string['blocktype_text'] = 'ブロック: テキスト';
 $string['blocktype_textbox'] = 'ブロック: ノート';
+$string['blocktype_socialprofile'] = 'ブロック: ソーシャルメディア';
 $string['blocktype_wall'] = 'ブロック: ウォール';
 $string['blocktype_watchlist'] = 'ブロック: ウォッチページ';
 $string['count_block_instance'] = 'ブロック数';
