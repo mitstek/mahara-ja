@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-03-22 16:56:20 UTC
+ * @updated    2015-03-23 16:03:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -267,6 +267,8 @@ $string['loggedinprofileviewaccess'] = 'ログインユーザがプロファイ�
 $string['antispam'] = 'アンチスパム';
 $string['antispamdescription'] = 'パブリックに表示されるフォームに適用されるアンチスパム基準タイプです。';
 $string['dropdownmenu'] = 'ドロップダウンナビゲーション';
+$string['dropdownmenudescription1'] = 'この設定を有効にした場合、サブナビゲーションを表示するために、メインのMaharaナビゲーションがドロップダウンフォーマットを使用します。';
+$string['dropdownmenudescriptioninstitution1'] = 'この設定を有効にした場合、選択したインスティテューションテーマのメインナビゲーションがドロップダウンフォーマットを使用します。';
 $string['commentsortorder'] = 'コメント並べ替え順';
 $string['commentsortorderdescription'] = 'ページに表示する場合のアーティファクトコメントの並べ替え順です。';
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
@@ -287,6 +289,7 @@ $string['embeddedcontentdescription'] = 'あなたのユーザに対して、他
 $string['Everyone'] = '誰でも';
 $string['generatesitemapdescription'] = 'パブリックにアクセス可能なページ、グループおよびフォーラムトピックからサイトマップファイルを生成します。';
 $string['homepageinfo1'] = 'ホームページ/ダッシュボード情報を表示する';
+$string['homepageinfodescription2'] = 'この設定を有効にした場合、Maharaに関する情報および利用状況がMaharaホームページに表示されます。ログインユーザにはこれらの情報をダッシュボードに表示しないオプションがあります。';
 $string['institutionautosuspend'] = '有効期限切れインスティテューションの自動停止';
 $string['institutionexpirynotification'] = 'インスティテューション有効期限の警告期限';
 $string['institutionexpirynotificationdescriptioninfo'] = 'サイトおよびインスティテューション管理者に対して、インスティテューション有効期限切れ前に通知メッセージが送信されます。';
@@ -302,7 +305,10 @@ $string['registerterms'] = '登録同意';
 $string['registertermsdescription'] = 'ユーザ登録の前、ユーザに使用条件への同意を強制します。このオプションを有効にする前、あなたのサイト使用条件ページを編集する必要があります。';
 $string['licensemetadata'] = 'ラインセンスメタデータ';
 $string['licensemetadatadescription'] = 'ユーザ作成コンテンツに関して、ライセンスメタデータを要求および保存します。';
+$string['licenseallowcustom1'] = 'カスタムライセンス';
 $string['licenseallowcustomdescription'] = 'ライセンスメタデータに関して、ユーザがライセンスのURLを入力できるようにします。チェックしない場合、ユーザはサイト管理者が設定したライセンスに制限されます。';
+$string['allowmobileuploads1'] = 'モバイルアップロード';
+$string['allowmobileuploadsdescription1'] = 'Maharaモバイルアプリを使用するため、ユーザは認証トークンを設定することができます。このトークンでアップロードされたコンテンツはアーティファクトとして保存されます。';
 $string['recaptchakeysmissing1'] = 'reCAPTCHAは有効にされましたが、あなたがサイトキーおよびシークレットキーを提供するまで機能しません。';
 $string['recaptchanotpassed'] = 'reCAPTCHAが正しく入力されていません。再度お試しください。';
 $string['recaptchaonregisterform'] = 'ユーザ登録フォームのreCAPTCHA';
@@ -320,7 +326,11 @@ $string['sessionlifetime'] = 'セッションライフタイム';
 $string['sessionlifetimedescription'] = '活動していないログインユーザが自動的にログアウトされる時間 (分) です。';
 $string['setsiteoptionsfailed'] = '%s オプションの設定に失敗しました。';
 $string['showonlineuserssideblock'] = 'オンラインユーザを表示する';
+$string['showonlineuserssideblockdescriptionmessage1'] = 'オンラインユーザ一覧のサイドバーが表示されます。';
+$string['showselfsearchsideblock1'] = 'ポートフォリオ検索';
 $string['showselfsearchsideblockdescription1'] = '「マイポートフォリオを検索する」サイドバーがサイト内のいくつかの場所に表示されます。';
+$string['showtagssideblock1'] = 'タグクラウド';
+$string['showtagssideblockdescription2'] = '最も使用されたタグ一覧のサイドバーがサイト内のいくつかの場所に表示されます。';
 $string['simple'] = 'シンプル';
 $string['sitedefault'] = 'サイトデフォルト';
 $string['sitelanguagedescription'] = 'サイトのデフォルト言語';
