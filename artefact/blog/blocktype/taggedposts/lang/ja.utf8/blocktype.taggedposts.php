@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-03-26 17:51:16 UTC
+ * @updated    2015-03-26 17:56:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,7 +20,7 @@ $string['blockheadingtagsomit'] = '(タグ「 %2$s 」を除外)';
 $string['defaulttitledescription'] = 'ここを空白にした場合、日誌のタイトルが使用されます。';
 $string['postsperpage'] = '1ページあたりのエントリ数';
 $string['taglist'] = 'マイタグ';
-$string['taglistdesc1'] = 'あなたが除外したい投稿それぞれの前にマイナスサインを入力してください。これらのタグは赤色の背景で表示されます。';
+$string['taglistdesc1'] = 'あなたが除外したいタグそれぞれの前にマイナス記号を入力してください。これらのタグは赤色の背景で表示されます。';
 $string['excludetag'] = '除外タグ:';
 $string['notags'] = '「 %s 」がタグ付けされた記事はありません。';
 $string['notagsboth'] = '「 %s 」 (「 %s 」を除外) がタグ付けされた記事はありません。';
