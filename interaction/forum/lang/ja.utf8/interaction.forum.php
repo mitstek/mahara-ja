@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-09-02 20:13:21 UTC
+ * @updated    2015-03-26 17:53:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -194,7 +194,7 @@ $string['indentmodedescription'] = 'このフォーラム内のトピックが�
 $string['maxindent'] = '最大インデントレベル';
 $string['maxindentdescription'] = 'トピックの最大インデントレベルを設定してください。この設定はインデントモードが「最大インデントレベルまで広げる」に設定された場合のみ適用されます。';
 $string['closetopics'] = '新しいトピックをクローズする';
-$string['closetopicsdescription'] = 'チェックした場合、このフォーラム内の新しいトピックがデフォルトでクローズされます。モデレータおよびグループ管理者のみ、クローズされたトピックに返信することができます。';
+$string['closetopicsdescription1'] = '新しいトピックをデフォルトでクローズします。モデレータおよびグループ管理者のみ、クローズされたトピックに返信することができます。';
 $string['activetopicsdescription'] = 'あなたのグループ内で最近更新されたトピックです。';
 $string['timeleftnotice'] = 'あなたが編集を終了するまで %s 分あります。';
 $string['objectionablecontentpost'] = 'フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者: %s';
