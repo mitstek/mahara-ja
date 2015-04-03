@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-10-03 07:38:17 UTC
+ * @updated    2015-04-03 19:47:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -83,6 +83,7 @@ $string['posttitle'] = 'タイトル';
 $string['posts'] = 'エントリ';
 $string['nposts'] = '%s エントリ';
 $string['publish'] = '公開';
+$string['publishit'] = '公開する';
 $string['unpublish'] = '非公開';
 $string['publishfailed'] = 'エラーが発生しました。あなたのエントリは公開されませんでした。';
 $string['publishblogpost?'] = '本当にこのエントリを公開してもよろしいですか?';
@@ -133,5 +134,6 @@ $string['duplicatedblog'] = '複製日誌';
 $string['existingblogs'] = '既存日誌';
 $string['duplicatedpost'] = '複製日誌エントリ';
 $string['existingposts'] = '既存日誌エントリ';
+$string['notpublishedblogpost'] = 'この日誌エントリはまだ公開されていません。';
 
 ?>
