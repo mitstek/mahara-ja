@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-03 19:55:34 UTC
+ * @updated    2015-04-03 19:59:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -287,10 +287,12 @@ $string['defaultaccountlifetimeupdateall'] = 'すべてのユーザアカウン�
 $string['embeddedcontent'] = '埋め込みコンテンツ';
 $string['embeddedcontentdescription'] = 'あなたのユーザに対して、他のサイトからのビデオ埋め込みをできるようにしたい場合、下記より信頼されたサイトを選択してください。';
 $string['Everyone'] = '誰でも';
+$string['generatesitemap1'] = 'サイトマップ';
 $string['generatesitemapdescription'] = 'パブリックにアクセス可能なページ、グループおよびフォーラムトピックからサイトマップファイルを生成します。';
 $string['homepageinfo1'] = 'ホームページ/ダッシュボード情報を表示する';
 $string['homepageinfodescription2'] = 'この設定を有効にした場合、Maharaに関する情報および利用状況がMaharaホームページに表示されます。ログインユーザにはこれらの情報をダッシュボードに表示しないオプションがあります。';
 $string['institutionautosuspend'] = '有効期限切れインスティテューションの自動停止';
+$string['institutionautosuspenddescription1'] = '有効期限切れインスティテューションを自動的に利用停止します。';
 $string['institutionexpirynotification'] = 'インスティテューション有効期限の警告期限';
 $string['institutionexpirynotificationdescriptioninfo'] = 'サイトおよびインスティテューション管理者に対して、インスティテューション有効期限切れ前に通知メッセージが送信されます。';
 $string['language'] = '言語';
