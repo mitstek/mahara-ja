@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-03-23 16:03:10 UTC
+ * @updated    2015-04-03 19:55:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -198,6 +198,7 @@ $string['Field'] = 'フィールド';
 $string['Value'] = '値';
 $string['datathatwillbesent'] = '送信されるデータ';
 $string['sendweeklyupdates'] = '更新内容を週に1回送信しますか?';
+$string['sendweeklyupdatesdescription1'] = 'この設定を有効にした場合、あなたのサイトの統計に関する週ごとの更新をmahara.orgに送信します。';
 $string['Register'] = '登録';
 $string['registrationfailedtrylater'] = 'エラーコード %s により、登録が失敗しました。後ほど再度お試しください。';
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます!';
@@ -263,7 +264,6 @@ $string['allowinstitutionpublicviews'] = 'インスティテューションパ�
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowanonymouspages'] = '匿名ページを許可する';
 $string['anonymouscomments'] = '匿名コメント';
-$string['loggedinprofileviewaccess'] = 'ログインユーザがプロファイルを閲覧できる';
 $string['antispam'] = 'アンチスパム';
 $string['antispamdescription'] = 'パブリックに表示されるフォームに適用されるアンチスパム基準タイプです。';
 $string['dropdownmenu'] = 'ドロップダウンナビゲーション';
