@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-03-06 00:39:01 UTC
+ * @updated    2015-04-03 19:52:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -29,7 +29,7 @@ $string['userviewurltaken'] = 'このURLはすでに取得されています。�
 $string['description'] = 'ページ説明';
 $string['startdate'] = 'アクセス開始日時';
 $string['stopdate'] = 'アクセス終了日時';
-$string['stopdatecannotbeinpast'] = '終了日には過去の日付を設定できません。';
+$string['stopdatecannotbeinpast1'] = '終了日には過去の日付を設定できません。';
 $string['startdatemustbebeforestopdate'] = '開始日は終了日の前に設定してください。';
 $string['newstopdatecannotbeinpast'] = '「 %s 」へのアクセス終了日には過去の日付を設定できません。';
 $string['newstartdatemustbebeforestopdate'] = '「 %s 」へのアクセス開始日は終了日の前に設定してください。';
