@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-03 19:59:30 UTC
+ * @updated    2015-04-06 07:04:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -264,6 +264,8 @@ $string['allowinstitutionpublicviews'] = 'インスティテューションパ�
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowanonymouspages'] = '匿名ページを許可する';
 $string['anonymouscomments'] = '匿名コメント';
+$string['loggedinprofileviewaccess1'] = 'すべての登録ユーザによるプロファイルアクセス';
+$string['loggedinprofileviewaccessdescription1'] = 'ユーザのプロファイルページを登録ユーザすべてが閲覧できるようにします。';
 $string['antispam'] = 'アンチスパム';
 $string['antispamdescription'] = 'パブリックに表示されるフォームに適用されるアンチスパム基準タイプです。';
 $string['dropdownmenu'] = 'ドロップダウンナビゲーション';
@@ -297,6 +299,7 @@ $string['institutionexpirynotification'] = 'インスティテューション有
 $string['institutionexpirynotificationdescriptioninfo'] = 'サイトおよびインスティテューション管理者に対して、インスティテューション有効期限切れ前に通知メッセージが送信されます。';
 $string['language'] = '言語';
 $string['none'] = 'なし';
+$string['nousernames'] = 'ユーザ名を表示しない';
 $string['onlineuserssideblockmaxusers'] = 'オンラインユーザ制限';
 $string['onlineuserssideblockmaxusersdescription'] = 'オンラインユーザサイドバーに表示される最大ユーザ数です。';
 $string['country'] = '国';
