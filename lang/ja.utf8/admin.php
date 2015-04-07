@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-07 17:25:56 UTC
+ * @updated    2015-04-07 17:37:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -353,7 +353,9 @@ $string['smallviewheaders'] = 'スモールページヘッダ';
 $string['spamhaus1'] = 'Spamhaus URLブラックリスト';
 $string['spamhausdescription1'] = 'Spamhaus DNSBLを照合してURLをチェックします。';
 $string['staffuserreports'] = 'スタッフレポートアクセス';
+$string['staffuserreportsdescription1'] = 'サイトおよびインスティテューションスタッフがインスティテューションユーザのレポートページにアクセスできるようにします。通常、このページは管理者に制限され、ページアクセスリストを含む追加ユーザ情報を一覧表示します。';
 $string['staffuserstats'] = 'スタッフ統計アクセス';
+$string['staffuserstatsdescription1'] = 'インスティテューションスタッフがインスティテューションユーザの統計ページにアクセスできるようにします。通常、このページは管理者およびサイトスタッフに制限されています。';
 $string['surbl1'] = 'SURBL URLブラックリスト';
 $string['surbldescription1'] = 'SURBL URLを照合してURLをチェックします。';
 $string['disableexternalresources'] = 'ユーザHTMLの外部リソースを無効にする';
@@ -960,6 +962,7 @@ $string['groupdelete'] = '削除';
 $string['managegroupquotadescription1'] = 'このグループのグループファイルクオータを変更する場合、このフォームを使用してください。';
 $string['managegroupdescription1'] = 'このグループの管理者を昇格および降格する場合、このフォームを使用してください。あなたがグループ管理者を削除した場合、そのユーザはグループメンバーとして残ります。';
 $string['userscandisabledevicedetection'] = 'ユーザがデバイス検出を無効にできる';
+$string['userscandisabledevicedetectiondescription1'] = 'ユーザがサイト閲覧時のモバイルデバイス検出を無効にできるようにします。';
 $string['loggedinfilter'] = 'ログイン日時でフィルタする:';
 $string['anyuser'] = 'すべてのユーザ';
 $string['usershaveloggedin'] = 'ログインしたことのあるユーザ';
