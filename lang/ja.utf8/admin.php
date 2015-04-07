@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-06 07:04:33 UTC
+ * @updated    2015-04-07 17:25:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -264,6 +264,7 @@ $string['allowinstitutionpublicviews'] = 'インスティテューションパ�
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowanonymouspages'] = '匿名ページを許可する';
 $string['anonymouscomments'] = '匿名コメント';
+$string['anonymouscommentsdescription1'] = 'パブリックページまたはシークレットURLでアクセスできるページに誰でもコメントを残すことができます。';
 $string['loggedinprofileviewaccess1'] = 'すべての登録ユーザによるプロファイルアクセス';
 $string['loggedinprofileviewaccessdescription1'] = 'ユーザのプロファイルページを登録ユーザすべてが閲覧できるようにします。';
 $string['antispam'] = 'アンチスパム';
@@ -300,6 +301,7 @@ $string['institutionexpirynotificationdescriptioninfo'] = 'サイトおよびイ
 $string['language'] = '言語';
 $string['none'] = 'なし';
 $string['nousernames'] = 'ユーザ名を表示しない';
+$string['nousernamesdescription1'] = '通常のユーザは他のユーザのユーザ名を閲覧したり、ユーザ名でユーザを検索することはできません。これらの制限はスタッフおよび管理者には適用されません。加えて、ユーザ名ではなく、表示名 (提供されている場合) または実名を使用してクリーンURL (有効にされている場合) が生成されます。';
 $string['onlineuserssideblockmaxusers'] = 'オンラインユーザ制限';
 $string['onlineuserssideblockmaxusersdescription'] = 'オンラインユーザサイドバーに表示される最大ユーザ数です。';
 $string['country'] = '国';
@@ -322,6 +324,7 @@ $string['recaptchaprivatekeydesc1'] = 'あなたのサイトのreCAPTCHAアカ�
 $string['recaptchapublickey1'] = 'reCAPTCHAサイトキー';
 $string['recaptchapublickeydesc1'] = 'あなたのサイトのreCAPTCHAアカウントのサイトキーです。';
 $string['remoteavatars'] = 'リモートアバタを表示する';
+$string['remoteavatarsdescription1'] = 'ユーザのデフォルトプロファイル写真に<a href="http://www.gravatar.com">Gravatar</a>サービスを利用します。';
 $string['searchplugin'] = '検索プラグイン';
 $string['searchplugindescription'] = '使用する検索プラグイン';
 $string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「プラグインタイプ: search」の設定を確認してください。確認後、あなたはsearchの「リセット」ボタンをクリックする必要があります。';
@@ -361,7 +364,9 @@ $string['updatesiteoptions'] = 'サイトオプションを更新する';
 $string['usersallowedmultipleinstitutions'] = 'ユーザに複数インスティテューションを許可する';
 $string['requireregistrationconfirm'] = '登録を確認する';
 $string['userscanchooseviewthemes'] = 'ユーザがページテーマを選択できる';
+$string['userscanchooseviewthemesdescription1'] = 'ユーザがポートフォリオページを編集および作成する時にテーマを選択できるようにします。ページは選択されたテーマを使用して他のユーザに表示されます。';
 $string['userscanhiderealnames'] = 'ユーザが実名を隠すことができる';
+$string['userscanhiderealnamesdescription1'] = 'ユーザが表示名を設定した場合、実名で検索できないようにします。他のユーザは表示名のみで検索することができます。サイトの管理セクションでは、常に実名でユーザを検索することができます。';
 $string['usersseenewthemeonlogin'] = '次回ログイン時、他のユーザに新しいテーマが表示されます。';
 $string['viruschecking'] = 'ウイルスチェック';
 $string['whocancreategroups'] = 'グループを作成する';
