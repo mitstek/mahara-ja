@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-08 20:50:31 UTC
+ * @updated    2015-04-08 21:11:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -175,6 +175,7 @@ $string['groupcategories'] = 'グループカテゴリ';
 $string['allowgroupcategories'] = 'グループカテゴリを許可する';
 $string['enablegroupcategories'] = 'グループカテゴリを有効にする';
 $string['addcategories'] = 'カテゴリを追加する';
+$string['allowgroupcategoriesdescription1'] = 'サイト管理者がユーザのグループを割り当てるためのカテゴリを作成できるようにします。';
 $string['groupoptionsset'] = 'グループオプションを有効にする';
 $string['groupcategorydeleted'] = 'カテゴリが削除されました。';
 $string['confirmdeletecategory'] = '本当にこのカテゴリを削除してもよろしいですか?';
@@ -364,6 +365,7 @@ $string['tagssideblockmaxtagsdescription'] = 'ユーザのタグクラウド内�
 $string['trustedsites'] = '信頼されたサイト';
 $string['updatesiteoptions'] = 'サイトオプションを更新する';
 $string['usersallowedmultipleinstitutions'] = 'ユーザに複数インスティテューションを許可する';
+$string['usersallowedmultipleinstitutionsdescription1'] = 'ユーザが同時に複数のインスティテューションのメンバーになれるようにします。';
 $string['requireregistrationconfirm'] = '登録を確認する';
 $string['userscanchooseviewthemes'] = 'ユーザがページテーマを選択できる';
 $string['userscanchooseviewthemesdescription1'] = 'ユーザがポートフォリオページを編集および作成する時にテーマを選択できるようにします。ページは選択されたテーマを使用して他のユーザに表示されます。';
