@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-07 17:37:25 UTC
+ * @updated    2015-04-08 20:50:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -389,6 +389,7 @@ $string['sitefilesaccess'] = 'サイトファイルにアクセスする';
 $string['watchlistdelaydescription'] = 'ウォッチリストの変更に関するメールを送信する遅延時間 (分) です。';
 $string['watchlistdelaytitle'] = 'ウォッチリスト通知遅延';
 $string['defaultmultipleblogs'] = '複数日誌';
+$string['defaultmultipleblogsdescription1'] = 'デフォルトでユーザが日誌を複数持てるようにします。ユーザはこれをアカウント設定でオーバーライドすることができます。';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
 $string['staticpagespagedescription'] = 'ここであなたはログインユーザのダッシュボード、ログアウトユーザのホームページ、フッタのページリンク等、Mahara内蔵ページのコンテンツを編集することができます。';
@@ -972,7 +973,9 @@ $string['usershavenotloggedinsince'] = '次の日時以降ログインしたこ�
 $string['duplicateemailfilter'] = '重複メールアドレスをフィルタする';
 $string['lastlogin'] = '最終ログイン';
 $string['masqueradingreasonrequired'] = 'マスカレーディングの理由を必要とする';
+$string['masqueradingreasonrequireddescription3'] = '他のユーザとしてマスカレーディングする理由を管理者が入力する必要があります。設定「ユーザにマスカレーディングを通知する」が有効にされている場合、マスカレーディングに関するユーザへの通知に理由が含まれます。これを動作させるためには、「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
 $string['masqueradingnotified'] = 'ユーザにマスカレーディングを通知する';
+$string['masqueradingnotifielddescription'] = '管理者がマスカレーディングする場合、ユーザに通知します。通知には「誰が」、「いつ」、それから「マスカレーディングの理由を必要とする」が有効にされている場合、「なぜ」が含まれます。これを動作させるためには、「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
 $string['masquerade'] = '続ける';
 $string['masqueradereason'] = '理由';
 $string['masqueradereasondescription'] = 'このユーザとしてログインする理由を入力してください。注意: この理由はユーザに通知されませんが、ログとして記録されます。';
@@ -990,9 +993,11 @@ $string['masqueradenotificationreason'] = '管理者「 %s 」が %s のあな�
 $string['progressbar'] = 'プロファイル完了';
 $string['showprogressbar'] = 'プロファイル完了を表示する';
 $string['progressbarsaved'] = 'プログレスバーが正常に保存されました。';
+$string['showprogressbardescription1'] = 'ユーザプロファイルで完了する必要のある内容に関して、サイドバーとしてユーザにヒント付のプログレスバーを表示します。これには無効にするオプションがあります。';
 $string['progressbardisablednote'] = '<b>注意</b>: 現在、プロファイル完了は無効にされています。ユーザがプロファイルの完了に関して進捗を追跡できるようにするには、あなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「ユーザ設定」セクションにて有効にする必要があります。';
 $string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックにて、プロファイル完了がどのように表示されるかプレビューすることができます。';
 $string['exporttoqueue'] = 'キューにエクスポートする';
+$string['exporttoqueuedescription2'] = 'サーバ負荷管理を良くするため、ユーザポートフォリオのLeap2Aによるエクスポートに関して、エクスポートキューが処理するようにします。';
 $string['validating'] = 'データの確認中 ...';
 $string['checkingupdates'] = '更新データの確認中 ...';
 $string['committingchanges'] = '変更の保存中 ...';
