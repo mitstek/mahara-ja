@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-08 21:11:14 UTC
+ * @updated    2015-04-09 21:16:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -320,6 +320,7 @@ $string['allowmobileuploadsdescription1'] = 'Maharaモバイルアプリを使�
 $string['recaptchakeysmissing1'] = 'reCAPTCHAは有効にされましたが、あなたがサイトキーおよびシークレットキーを提供するまで機能しません。';
 $string['recaptchanotpassed'] = 'reCAPTCHAが正しく入力されていません。再度お試しください。';
 $string['recaptchaonregisterform'] = 'ユーザ登録フォームのreCAPTCHA';
+$string['recaptchaonregisterformdesc1'] = '自己登録の新しいユーザは<a href="http://recaptcha.org/">reCAPTCHA</a>テストに合格することより、自分が人間であることを証明する必要があります。';
 $string['recaptchaprivatekey1'] = 'reCAPTCHAシークレットキー';
 $string['recaptchaprivatekeydesc1'] = 'あなたのサイトのreCAPTCHAアカウントのシークレットキーです。';
 $string['recaptchapublickey1'] = 'reCAPTCHAサイトキー';
@@ -360,6 +361,7 @@ $string['staffuserstatsdescription1'] = 'インスティテューションスタ
 $string['surbl1'] = 'SURBL URLブラックリスト';
 $string['surbldescription1'] = 'SURBL URLを照合してURLをチェックします。';
 $string['disableexternalresources'] = 'ユーザHTMLの外部リソースを無効にする';
+$string['disableexternalresourcesdescription1'] = 'ユーザから別のホストからのイメージの埋め込み等を防ぐため、外部リソースの埋め込みを無効にします。';
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'ユーザのタグクラウド内に表示されるタグのデフォルト数です。';
 $string['trustedsites'] = '信頼されたサイト';
@@ -367,12 +369,14 @@ $string['updatesiteoptions'] = 'サイトオプションを更新する';
 $string['usersallowedmultipleinstitutions'] = 'ユーザに複数インスティテューションを許可する';
 $string['usersallowedmultipleinstitutionsdescription1'] = 'ユーザが同時に複数のインスティテューションのメンバーになれるようにします。';
 $string['requireregistrationconfirm'] = '登録を確認する';
+$string['requireregistrationconfirmdescription1'] = 'すべての新しい自己登録ユーザはアクティブになる前にインスティテューション管理者から承認される必要があります。そうでない場合、それぞれのインスティテューションは新しいアカウント登録に承認を必要とするかどうか決定することができます。';
 $string['userscanchooseviewthemes'] = 'ユーザがページテーマを選択できる';
 $string['userscanchooseviewthemesdescription1'] = 'ユーザがポートフォリオページを編集および作成する時にテーマを選択できるようにします。ページは選択されたテーマを使用して他のユーザに表示されます。';
 $string['userscanhiderealnames'] = 'ユーザが実名を隠すことができる';
 $string['userscanhiderealnamesdescription1'] = 'ユーザが表示名を設定した場合、実名で検索できないようにします。他のユーザは表示名のみで検索することができます。サイトの管理セクションでは、常に実名でユーザを検索することができます。';
 $string['usersseenewthemeonlogin'] = '次回ログイン時、他のユーザに新しいテーマが表示されます。';
 $string['viruschecking'] = 'ウイルスチェック';
+$string['viruscheckingdescription1'] = 'ClamAVを使用してアップロードファイルすべてのウイルスをチェックします。';
 $string['whocancreategroups'] = 'グループを作成する';
 $string['whocancreategroupsdescription'] = '新しいグループを作成することのできるユーザを決定します。';
 $string['whocancreatepublicgroups'] = 'パブリックグループを作成する';
