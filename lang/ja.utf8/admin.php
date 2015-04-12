@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-09 21:16:54 UTC
+ * @updated    2015-04-12 18:07:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -261,9 +261,14 @@ $string['adminsonly'] = '管理者のみ';
 $string['adminsandstaffonly'] = '管理者およびスタッフのみ';
 $string['advanced'] = '高度';
 $string['allowpublicviews'] = 'パブリックページを許可する';
+$string['allowpublicviewsdescription1'] = 'ユーザはログインユーザのみではなく、外部からもアクセスできるポートフォリオページを作成することができます。';
 $string['allowinstitutionpublicviews'] = 'インスティテューションパブリックページを許可する';
+$string['allowinstitutionpublicviewsdescription1'] = 'この設定を有効にした場合、このインスティテューションに属するユーザはログインユーザのみではなく、外部からもアクセスできるポートフォリオページを作成することができます。';
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
+$string['allowpublicprofilesdescription1'] = 'ユーザはログインユーザのみではなく、外部からもアクセスできるプロファイルページを作成することができます。';
 $string['allowanonymouspages'] = '匿名ページを許可する';
+$string['allowanonymouspagesdescription1'] = 'ユーザはページの作成者として、他のユーザから名前を隠すことができます。
+必要であれば、管理者は作成者の氏名を確認することができます。';
 $string['anonymouscomments'] = '匿名コメント';
 $string['anonymouscommentsdescription1'] = 'パブリックページまたはシークレットURLでアクセスできるページに誰でもコメントを残すことができます。';
 $string['loggedinprofileviewaccess1'] = 'すべての登録ユーザによるプロファイルアクセス';
@@ -351,7 +356,9 @@ $string['siteoptionspagedescription'] = 'ここではサイト全体にデフォ
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['sitethemedescription'] = 'サイトのデフォルトテーマ - あなたのテーマが表示されていない場合、エラーログをご確認ください。';
 $string['skins'] = 'ページスキン';
+$string['skinsinstitutiondescription1'] = 'この設定を有効にした場合、このインスティテューションのメンバーは自分のページに「スキン」を使用することができます。';
 $string['smallviewheaders'] = 'スモールページヘッダ';
+$string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧および編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
 $string['spamhaus1'] = 'Spamhaus URLブラックリスト';
 $string['spamhausdescription1'] = 'Spamhaus DNSBLを照合してURLをチェックします。';
 $string['staffuserreports'] = 'スタッフレポートアクセス';
@@ -392,6 +399,7 @@ $string['eventloglevelnone'] = 'なし';
 $string['eventloglevelmasq'] = 'マスカレーディング';
 $string['eventloglevelall'] = 'すべて';
 $string['sitefilesaccess'] = 'サイトファイルにアクセスする';
+$string['sitefilesaccessdescription1'] = '登録ユーザがサブフォルダ内のサイトファイルにアクセスできるようにします。デフォルトでは、トップレベルのディレクトリのみにアクセスすることができます。';
 $string['watchlistdelaydescription'] = 'ウォッチリストの変更に関するメールを送信する遅延時間 (分) です。';
 $string['watchlistdelaytitle'] = 'ウォッチリスト通知遅延';
 $string['defaultmultipleblogs'] = '複数日誌';
