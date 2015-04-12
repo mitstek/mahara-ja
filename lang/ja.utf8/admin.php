@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-12 18:07:51 UTC
+ * @updated    2015-04-12 18:10:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -267,7 +267,7 @@ $string['allowinstitutionpublicviewsdescription1'] = 'この設定を有効に�
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowpublicprofilesdescription1'] = 'ユーザはログインユーザのみではなく、外部からもアクセスできるプロファイルページを作成することができます。';
 $string['allowanonymouspages'] = '匿名ページを許可する';
-$string['allowanonymouspagesdescription1'] = 'ユーザはページの作成者として、他のユーザから名前を隠すことができます。
+$string['allowanonymouspagesdescription1'] = 'ユーザはページの作成者として、他のユーザから氏名を隠すことができます。
 必要であれば、管理者は作成者の氏名を確認することができます。';
 $string['anonymouscomments'] = '匿名コメント';
 $string['anonymouscommentsdescription1'] = 'パブリックページまたはシークレットURLでアクセスできるページに誰でもコメントを残すことができます。';
