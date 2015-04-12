@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-03-15 21:17:59 UTC
+ * @updated    2015-04-12 22:32:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -90,14 +90,14 @@ $string['tabpositionbottomleft'] = '左最下部';
 $string['tabpositionverticalleft'] = '左側';
 $string['tabpositionverticalright'] = '右側';
 $string['hideprivacytab'] = 'プライバシー設定タブを隠す';
-$string['hideprivacytabdesc'] = 'オリジナルの埋め込みプライバシー設定リンクを使用する場合 (例 あなたのテーマテンプレート内)、あなたは標準プライバシー設定タブを無効にしても良いでしょう。';
+$string['hideprivacytabdesc1'] = 'あなた独自のプライバシー設定リンクをインラインで使用したい場合 (例 あなたのテンプレート内)、この標準プライバシー設定タブを無効にしてください。';
 $string['featureoptions'] = '機能オプション';
 $string['pagerefresh'] = 'ページリフレッシュ';
-$string['pagerefreshdesc'] = 'あなたにクッキー同意を認識する必要のあるサーバサイドアプリケーションがある場合、このオプションを選択することで同意後にページがリロードされます。';
+$string['pagerefreshdesc1'] = 'あなたがクッキーの同意を意識しているサーバサイドのアプリケーションを使用している場合、この設定を有効にすることにより、同意された後にページがリロードされます。';
 $string['ignoredonottrack'] = '行動追跡拒否 (do not track) を無視する';
-$string['ignoredonottrackdesc'] = 'この設定を有効にした場合、クッキーコンセントは訪問者のブラウザの「行動追跡拒否 (do not track) 」ヘッダを無視することを意味します。';
+$string['ignoredonottrackdesc1'] = 'この設定を有効にすることにより、クッキーコンセントは訪問者のブラウザの「行動追跡拒否 (do not track)」ヘッダを無視します。';
 $string['usessl'] = 'SSLを使用する';
-$string['usessldesc'] = 'SSLを使用してページにクッキーコンセントを表示する場合、あなたはこのオプションを選択する必要があります。';
+$string['usessldesc1'] = 'クッキーコンセントのページのいずれかがSSL上に表示される場合、あなたはこの設定を有効にする必要があります。';
 $string['advertisingDefaultTitle'] = '広告';
 $string['socialDefaultTitle'] = 'ソーシャルメディア';
 $string['socialDefaultDescription'] = 'Facebook、Twitterおよび他のソーシャルウェブサイトが適切に動作するためには、あなたが誰であるか知る必要があります。';
