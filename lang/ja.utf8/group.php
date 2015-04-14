@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-14 08:38:27 UTC
+ * @updated    2015-04-14 08:45:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -80,7 +80,7 @@ $string['Type'] = 'タイプ';
 $string['publiclyvisible'] = 'パブリックに閲覧可';
 $string['Public'] = 'パブリック';
 $string['usersautoadded'] = '自動的にユーザを追加する';
-$string['usersautoaddeddescription1'] = 'サイトに参加したユーザを自動的にこのグループに追加します。';
+$string['usersautoaddeddescription1'] = 'このグループに対して、サイトに参加したユーザすべてを自動的に追加します。';
 $string['groupcategory'] = 'グループカテゴリ';
 $string['allcategories'] = 'すべてのカテゴリ';
 $string['groupoptionsset'] = 'グループオプションが更新されました。';
@@ -95,7 +95,7 @@ $string['viewnotifydescription2'] = '新しいページが作成された場合�
 $string['feedbacknotify'] = 'フィードバック通知';
 $string['feedbacknotifydescription1'] = 'グループページおよびアーティファクトにフィードバックが投稿された場合、どのグループメンバーが通知を受信するか選択してください。';
 $string['allowsendnow'] = 'すぐにフォーラム投稿を送信する';
-$string['allowsendnowdescription1'] = 'グループメンバーすべてがフォーラム投稿をすぐに送信するよう、選択することができます。この設定を無効にした場合、グループ管理者、チュータおよびモデレータのみ、すぐに送信することができます。';
+$string['allowsendnowdescription1'] = 'グループメンバーすべてがフォーラム投稿をすぐに送信するよう、選択することができます。この設定を無効にした場合、グループ管理者、チューターおよびモデレータのみ、フォーラム投稿をすぐに送信することができます。';
 $string['hiddengroup'] = '非表示グループ';
 $string['hiddengroupdescription1'] = 'このグループを「グループを探す」ページで隠します。';
 $string['hidemembers'] = 'メンバーシップを隠す';
