@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-12 18:10:29 UTC
+ * @updated    2015-04-14 07:16:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -597,6 +597,7 @@ $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内�
 $string['updateusers'] = 'ユーザを更新する';
 $string['updateusersdescription'] = 'あなたのCSVファイルに、指定したインスティテューションのメンバーのユーザが含まれている場合、ファイルのデータによりユーザ詳細が上書きされることになります。使用に注意してください。';
 $string['updategroups'] = 'グループを更新する';
+$string['updategroupsdescription1'] = 'この設定を有効にした場合、CSVファイル内のグループ省略名に合致するグループ詳細がCSVファイル内の情報で上書きされます。使用に注意してください。';
 $string['csvfileprocessedsuccessfully'] = 'あなたのCSVファイルが正常に処理されました。';
 $string['nousersadded'] = 'ユーザは追加されませんでした。';
 $string['nogroupsadded'] = 'グループは追加されませんでした。';
