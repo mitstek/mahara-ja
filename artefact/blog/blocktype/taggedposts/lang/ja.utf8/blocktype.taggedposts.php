@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-03-26 17:56:27 UTC
+ * @updated    2015-04-15 21:50:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -31,7 +31,7 @@ $string['postedon'] = '-';
 $string['itemstoshow'] = '表示するアイテム数';
 $string['configerror'] = 'ブロック設定中にエラーが発生しました。';
 $string['showjournalitemsinfull'] = '日誌アイテムをフルに表示する';
-$string['showjournalitemsinfulldesc'] = 'チェックした場合、日誌エントリが表示されます。そうでない場合、日誌エントリのタイトルのみ表示されます。';
+$string['showjournalitemsinfulldesc1'] = 'この設定を有効にした場合、日誌エントリが表示されます。そうでない場合、日誌エントリのタイトルのみ表示されます。';
 $string['tag'] = 'タグ';
 
 ?>
