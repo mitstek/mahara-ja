@@ -208,7 +208,7 @@ $string['registeryourmaharasitesummary'] = '<p>あなたは<a href="http://mahar
 <p>あなたがサイトを登録する場合、送信される情報を<strong><a href="%sadmin/registersite.php">サイト登録ページ</a></strong>にて、プレビューすることができます。</p>';
 $string['registeryourmaharasitedetail'] = '<p>あなたは<a href="http://mahara.org/">mahara.org</a>にあなたのMaharaサイトを登録することができます。登録は無料です。また、登録することで、私たちは世界のMaharaインストール状況を作成することができます。</p>
 <p>あなたはmahara.orgに送信された情報を閲覧することができます - あなたのユーザに関する個人情報は一切送信されません。</p>
-<p>あなたが、「更新内容を週に1回送信しますか?」をチェックした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
+<p>あなたが、「更新内容を週に1回送信しますか?」をこの設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
 <p>サイトを登録した後、この通知は取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更することができます。</p>';
 $string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページにて、</p>サイト更新内容の週ごとの送信を有効または無効にすることができます。';
 $string['Close'] = 'クローズ';
@@ -779,7 +779,7 @@ $string['defaultmembershipperioddescription'] = 'どのくらいの期間、新�
 $string['showonlineusers'] = 'オンラインユーザを表示する';
 $string['showonlineusersdescription'] = 'このインスティテューションのメンバーに表示されるオンラインユーザです。ユーザに複数インスティテューションが許可されている場合、最も制約の少ないインスティテューション設定が使用されます。';
 $string['licensemandatory'] = 'ライセンス情報を要求する';
-$string['licensemandatorydescription'] = 'チェックした場合、ユーザはアーティファクト作成時にライセンスを選択する必要があります。そうでない場合、ライセンスフィールドを空白のままにすることができます。';
+$string['licensemandatorydescription'] = 'この設定を有効にした場合、ユーザはアーティファクト作成時にライセンスを選択する必要があります。そうでない場合、ライセンスフィールドを空白のままにすることができます。';
 $string['licensedefault'] = 'デフォルトライセンス';
 $string['licensedefaultdescription'] = 'インスティテューションメンバーにより作成またはアップロードされたコンテンツのデフォルトのライセンスです。ユーザはアカウント設定ページおよび個々のアイテムにて、この設定をオーバーライドすることができます。';
 $string['licensedefaultmandatory'] = 'ユーザがライセンスの選択を要求される場合、あなたはここでデフォルトライセンスを選択する必要があります。あなたがデフォルトライセンスを選択したくない場合、ユーザにライセンスを要求しないでください。';
