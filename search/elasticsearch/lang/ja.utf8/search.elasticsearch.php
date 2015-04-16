@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-11-19 06:23:21 UTC
+ * @updated    2015-04-16 17:43:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -44,6 +44,7 @@ $string['forumtopic'] = 'フォーラムトピック';
 $string['Group'] = 'グループ';
 $string['host'] = 'ホスト';
 $string['hostdescription'] = 'Elasticsearchサーバのホスト名です。デフォルトは「127.0.0.1」です。';
+$string['indexingrunning'] = 'インデックスcronジョブが動作しています。数分後、再度お試しください。';
 $string['indexname'] = 'インデックス名';
 $string['indexnamedescription'] = 'Elasticsearchインデックス名です。デフォルトは「mahara」です。';
 $string['license'] = 'ライセンス';
