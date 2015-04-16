@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-14 07:16:36 UTC
+ * @updated    2015-04-16 22:01:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -76,6 +76,7 @@ $string['staticpages'] = '固定ページ';
 $string['institutionstaticpages'] = 'インスティテューション固定ページ';
 $string['staticpageinstitutionbad'] = 'あなたはインスティテューション「 %s 」の固定ページにアクセスまたは編集することはできません。';
 $string['usedefault'] = 'サイトデフォルトを使用する';
+$string['usedefaultdescription2'] = 'この設定を有効にした場合、選択されたページタイプにサイトのデフォルトテキストを使用します。';
 $string['staticpagesdescription'] = 'Mahara内の固定ページのコンテンツを編集します (ホーム、使用条件等)。';
 $string['menus'] = 'メニュー';
 $string['menusdescription'] = '「リンクおよびリソースメニュー」およびフッタメニュー内のリンクおよびファイルを管理します。';
@@ -801,6 +802,7 @@ $string['customtheme.sidebarlink'] = 'サイドバーリンク';
 $string['customtheme.rowbg'] = '列背景色';
 $string['customstylesforinstitution'] = '%s のカスタムスタイル';
 $string['resetcolours'] = '色をリセットする';
+$string['resetcoloursdesc1'] = 'この設定を有効にした場合、デフォルト色をリストアします。';
 $string['authenticatedby'] = '認証方法';
 $string['authenticatedbydescription'] = 'このユーザに関するMaharaへの認証方法を設定します。';
 $string['remoteusername'] = '外部認証のユーザ名';
@@ -899,6 +901,7 @@ $string['makeuserinstitutionstaff'] = '初回ログイン時、このメール�
 $string['errorwhileunsuspending'] = '利用停止解除中にエラーが発生しました。';
 $string['institutionsuspended'] = 'インスティテューションが利用停止されました。';
 $string['institutionunsuspended'] = 'インスティテューションの利用停止が解除されました。';
+$string['institutionlogoutusers'] = 'ログアウト %s ユーザ';
 $string['suspendedinstitution'] = '利用停止';
 $string['suspendinstitution'] = 'インスティテューションを利用停止する';
 $string['suspendinstitutiondescription'] = 'ここであなたはインスティテューションを利用停止することができます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまで、ログインすることはできません。';
