@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-16 22:01:09 UTC
+ * @updated    2015-04-19 17:07:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -774,7 +774,9 @@ $string['institutionlanguagedescription'] = 'このインスティテューシ�
 $string['defaultlangforinstitution'] = '%s デフォルト';
 $string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
 $string['registrationallowed'] = 'ユーザ登録を許可する';
+$string['registrationalloweddescription4'] = 'この設定を有効にした場合、ユーザは登録フォームを使用してこのインスティテューションに登録することができます。登録を無効にした場合、インスティテューションのメンバーシップをリクエストすることはできません。また、メンバーはインスティテューションを離れたり、自分のユーザアカウントを削除することはできません。';
 $string['registrationconfirm'] = '登録を確認する';
+$string['registrationconfirmdescription2'] = 'この設定を有効にした場合、登録はインスティテューション管理者によって承認される必要があります。あなたがこのオプションを変更できない場合、サイト管理者がすべてのインスティテューションに対して、このオプションを有効にすることを求めています。';
 $string['defaultmembershipperiod'] = 'デフォルトのメンバーシップ期間';
 $string['defaultmembershipperioddescription'] = 'どのくらいの期間、新しいメンバーはインスティテューションに参加することができますか。';
 $string['showonlineusers'] = 'オンラインユーザを表示する';
