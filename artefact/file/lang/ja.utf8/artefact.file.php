@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-19 21:52:06 UTC
+ * @updated    2015-04-19 21:55:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -185,7 +185,7 @@ $string['textlinktouser'] = '%s のプロファイルを編集する';
 $string['quotanotifylimittitle1'] = 'クオータ通知閾値';
 $string['quotanotifylimitdescr1'] = 'ユーザのアップロードクオータがこのパーセンテージまで満杯になった場合、ユーザ (およびサイト管理者) に対してアップロード制限に到達しようとしている旨、通知が送信されます。ユーザはスペースを空けるためにファイルを削除またはクオータを増やすよう、管理者に連絡することができます。';
 $string['quotanotifyadmin1'] = 'サイト管理者通知';
-$string['quotanotifyadmindescr2'] = 'この設定を有効にした場合、ユーザが通知閾値に到達した時点でサイト管理者に通知されます。';
+$string['quotanotifyadmindescr2'] = 'この設定を有効にした場合、ユーザが通知閾値に達した時点でサイト管理者に通知されます。';
 $string['useroverquotathreshold'] = 'ユーザ %s がファイルクオータの %s% パーセントに到達しました (ファイルクオータ: %s)。';
 $string['ai'] = 'Postscriptドキュメント';
 $string['aiff'] = 'AIFFオーディオファイル';
