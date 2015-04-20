@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-12-27 16:45:22 UTC
+ * @updated    2015-04-20 16:44:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -883,6 +883,7 @@ $string['makeuserinstitutionstaff'] = '初回ログイン時、このメール�
 $string['errorwhileunsuspending'] = '利用停止解除中にエラーが発生しました。';
 $string['institutionsuspended'] = 'インスティテューションが利用停止されました。';
 $string['institutionunsuspended'] = 'インスティテューションの利用停止が解除されました。';
+$string['institutionlogoutusers'] = 'ログアウト %s ユーザ';
 $string['suspendedinstitution'] = '利用停止';
 $string['suspendinstitution'] = 'インスティテューションを利用停止する';
 $string['suspendinstitutiondescription'] = 'ここであなたはインスティテューションを利用停止することができます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまで、ログインすることはできません。';
