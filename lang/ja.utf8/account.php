@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-09-15 08:52:45 UTC
+ * @updated    2015-04-21 20:22:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -31,10 +31,6 @@ $string['friendsauto'] = '新しいフレンドは自動的に承認されます
 $string['friendsdescr'] = 'フレンドコントロール';
 $string['updatedfriendcontrolsetting'] = 'フレンドコントロールが更新されました。';
 $string['wysiwygdescr'] = 'HTMLエディタ';
-$string['on'] = 'On';
-$string['off'] = 'Off';
-$string['disabled'] = '無効';
-$string['enabled'] = '有効';
 $string['licensedefault'] = 'デフォルトライセンス';
 $string['licensedefaultdescription'] = 'あなたのコンテンツのデフォルトライセンスです。';
 $string['licensedefaultinherit'] = 'インスティテューションデフォルトを使用する';
@@ -47,7 +43,7 @@ $string['showviewcolumns'] = 'ページの編集時、カラムの「追加」�
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'あなたのタグクラウドに表示されるタグの最大数です。';
 $string['enablemultipleblogs1'] = '複数日誌';
-$string['enablemultipleblogsdescription'] = 'デフォルトでは、あなたは1つの日誌のみMaharaに作成することができます。あなたが1つ以上の日誌を作成したい場合、このオプションをチェックしてください。';
+$string['enablemultipleblogsdescription1'] = 'デフォルトでは、あなたは1つの日誌のみ作成することができます。1つ以上の日誌を作成したい場合、このオプションを有効にしてください。';
 $string['hiderealname'] = '実名を隠す';
 $string['hiderealnamedescription'] = 'あなたがニックネームを設定した場合、そして、あなたの実名検索により、他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
 $string['showhomeinfo2'] = 'ダッシュボード情報';
@@ -65,8 +61,8 @@ $string['maildisableddescription'] = 'あなたのアカウント宛のメール
 $string['deleteaccount'] = 'アカウントを削除する';
 $string['deleteaccountdescription'] = 'アカウントを削除した場合、今後、あなたのプロファイル情報およびページを他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧することができますが、投稿者名が表示されないようになります。';
 $string['accountdeleted'] = 'あなたのアカウントが正常に削除されました。';
-$string['resizeonuploaduserdefault1'] = 'アップロード時、大きなイメージをリサイズする';
-$string['resizeonuploaduserdefaultdescription1'] = 'この設定を有効にした場合、「アップロード時、大きなイメージをリサイズする」オプションがデフォルトで有効にされます。また、最大高さおよび幅を超えたイメージはアップロード時にリサイズされます。個別のイメージアップロード時、あなたはこのデフォルト設定を無効にすることができます。';
+$string['resizeonuploaduserdefault1'] = 'アップロード時、イメージをリサイズする';
+$string['resizeonuploaduserdefaultdescription2'] = 'デフォルトで「イメージを自動的にリサイズする」オプションが有効にされます。最大高さおよび幅を超えたイメージはアップロード時にリサイズされます。個別のイメージアップロード時、あなたはこのデフォルト設定を無効にすることができます。';
 $string['devicedetection'] = 'デバイス検出';
 $string['devicedetectiondescription'] = 'このサイトの閲覧時のモバイルデバイス検出を有効にします。';
 

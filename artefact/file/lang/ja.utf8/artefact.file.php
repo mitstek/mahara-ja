@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-19 21:55:06 UTC
+ * @updated    2015-04-21 20:22:28 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -44,7 +44,7 @@ $string['resizeonupload'] = 'アップロード時、イメージをリサイズ
 $string['resizeonuploaddescription'] = 'アップロード時、自動的に大きなイメージをリサイズします。';
 $string['resizeonuploaduseroption1'] = 'ユーザオプション';
 $string['resizeonuploaduseroptiondescription2'] = 'この設定を有効にした場合、アップロード時の大きなイメージの自動リサイズを有効または無効にするオプションをユーザに表示します。';
-$string['resizeonuploadenable1'] = '大きなイメージを自動的にリサイズする';
+$string['resizeonuploadenable1'] = 'イメージを自動的にリサイズする';
 $string['resizeonuploadenablefilebrowser1'] = '%sx%s pxより大きなイメージを自動的にリサイズします (推奨)。';
 $string['resizeonuploadmaxwidth'] = '最大幅';
 $string['resizeonuploadmaxheight'] = '最大高さ';
