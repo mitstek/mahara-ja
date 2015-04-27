@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-14 07:05:32 UTC
+ * @updated    2015-04-27 02:07:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -221,6 +221,8 @@ $string['key'] = 'キー';
 $string['missingpassword'] = 'パスワードがありません。';
 $string['missingusername'] = 'ユーザ名がありません。';
 $string['notoken'] = 'トークンリストが空です。';
+$string['nowsprotocolsenabled'] = '有効にされているウェブサービスがありません。あなたは少なくとも1つの<a href="%s">プロトコル</a>を有効にする必要があります。';
+$string['onesystemcontrolling'] = '1システムがMahraをトークンでコントロールする';
 $string['operation'] = '操作';
 $string['optional'] = '任意';
 $string['phpparam'] = 'XML-RPC (PHP構造体)';
@@ -258,6 +260,7 @@ $string['testclientdescription'] = '* ウェブサービステストクライア
 * {$a->amfatag}にアクセスしてください。';
 $string['testwithtestclient'] = 'サービスをテストする';
 $string['tokenauthlog'] = 'トークン認証';
+$string['userasclients'] = 'クライアントトークンとしてのユーザ';
 $string['validuntil'] = '有効期限';
 $string['wrongusernamepassword'] = 'ユーザ名またはパスワードが正しくありません。';
 $string['institutiondenied'] = 'インスティテューションへのアクセスが拒否されました。';
