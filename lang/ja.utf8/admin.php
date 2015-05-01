@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-20 16:58:06 UTC
+ * @updated    2015-05-01 05:24:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -251,6 +251,9 @@ $string['viewsbytype'] = 'タイプ別ページ';
 $string['userstatstabletitle'] = '日次ユーザ統計';
 $string['groupstatstabletitle'] = '最大グループ';
 $string['viewstatstabletitle'] = '人気ページ';
+$string['visitedtimesrank'] = '訪問回数: %s 回 / ランク数: %s 件';
+$string['pageownedby'] = 'オーナー';
+$string['contentstats'] = '今週の修正数: %s 回 / 合計修正数: %s 回';
 $string['exportstatsascsv'] = '統計をCSVフォーマットでエクスポートする';
 $string['downloadstatsascsv'] = 'CSVフォーマットの統計';
 $string['nostats'] = '利用可能な統計はありません。';
