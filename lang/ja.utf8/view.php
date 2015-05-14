@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-03 19:52:30 UTC
+ * @updated    2015-05-14 05:13:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,9 +20,11 @@ $string['editcontent'] = 'コンテンツを編集する';
 $string['editcontentandlayout'] = 'コンテンツおよびレイアウトを編集する';
 $string['editlayout'] = 'レイアウトを編集する';
 $string['editaccess'] = 'アクセスを編集する';
+$string['editaccessfor'] = 'アクセスを編集する (ID %s)';
 $string['next'] = '次へ';
 $string['back'] = '戻る';
 $string['title'] = 'ページタイトル';
+$string['undo'] = '元に戻す';
 $string['viewurl'] = 'ページURL';
 $string['viewurldescription'] = 'あなたのページの読みやすいURLです。このフィールドの長さは半角3-100文字にしてください。';
 $string['userviewurltaken'] = 'このURLはすでに取得されています。別のURLを選択してください。';
@@ -97,6 +99,7 @@ $string['users'] = 'ユーザ';
 $string['everyoneingroup'] = 'グループのユーザすべて';
 $string['token'] = 'シークレットURL';
 $string['editsecreturlaccess'] = 'シークレットURLアクセスを編集する';
+$string['editsecreturlaccessfor'] = 'シークレットURLアクセスを編集する (ID %s)';
 $string['newsecreturl'] = '新しいシークレットURL';
 $string['reallydeletesecreturl'] = '本当にこのURLを削除してもよろしいですか?';
 $string['secreturldeleted'] = 'あなたのシークレットURLが削除されました。';
@@ -233,11 +236,11 @@ $string['movethisblockright'] = 'このブロックを右に移動する';
 $string['moveblock'] = '%s ブロックを移動する';
 $string['movethisblock'] = 'このブロックを移動する';
 $string['Configure'] = '設定';
-$string['configureblock'] = '%s ブロックを設定する';
-$string['configurethisblock'] = 'このブロックを設定する';
+$string['configureblock1'] = '%s ブロックを設定する (ID %s)';
+$string['configurethisblock1'] = 'このブロックを設定する (ID %s)';
 $string['closeconfiguration'] = '設定を閉じる';
-$string['removeblock'] = '%s ブロックを削除する';
-$string['removethisblock'] = 'このブロックを削除する';
+$string['removeblock1'] = '%s ブロックを削除する (ID %s)';
+$string['removethisblock1'] = 'このブロックを削除する (ID %s)';
 $string['blocktitle'] = 'ブロックタイトル';
 $string['changemyviewlayout'] = 'マイページのレイアウトを変更する';
 $string['createcustomlayout'] = 'カスタムレイアウトを作成する';
