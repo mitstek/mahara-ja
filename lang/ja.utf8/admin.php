@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-05-01 05:24:38 UTC
+ * @updated    2015-05-14 05:00:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -796,6 +796,7 @@ $string['licensedefaultmandatory'] = 'ユーザがライセンスの選択を要
 $string['Logo'] = 'ロゴ';
 $string['logodescription'] = 'あなたのインスティテューションメンバーに標準的なヘッダロゴの代わりに表示されるイメージをここでアップロードすることができます。最良の結果のため、このイメージをあなたのインスティテューションのサイトロゴと同じ大きさにしてください。';
 $string['deletelogo'] = 'ロゴを削除する';
+$string['deletelogodescription1'] = 'この設定を有効にした場合、あなたのインスティテューションテーマのヘッダロゴを標準ヘッダロゴに戻します。';
 $string['customtheme'] = 'カスタムテーマ設定';
 $string['customtheme.background'] = '背景色';
 $string['customtheme.backgroundfg'] = 'テキスト背景色';
@@ -823,6 +824,7 @@ $string['institutionstaff'] = 'インスティテューションスタッフ';
 $string['institutionadmins'] = 'インスティテューション管理者';
 $string['institutionadmin'] = 'インスティテューション管理者';
 $string['institutionadministrator'] = 'インスティテューション管理者';
+$string['institutionadmindescription1'] = 'ユーザがこのインスティテューションのユーザすべてを管理できるようにします。';
 $string['settingsfor'] = '設定:';
 $string['institutionmembers'] = 'インスティテューションメンバー';
 $string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
@@ -886,7 +888,9 @@ $string['noinstitutionsstatsdescription1'] = 'サイトがスタッフにイン�
 $string['noinstitutionstaticpages'] = 'あなたにはインスティテューション固定ページを編集するパーミッションがないか、まだインスティテューションが作成されていません。';
 $string['noinstitutionstaticpagesadmin'] = 'あなたがサイト管理者の場合、<a href="%s">サイト設定</a>にてデフォルト固定ページを編集してください。';
 $string['Lockedfields'] = 'ロックフィールド';
+$string['disabledlockedfieldhelp1'] = '注意: あなたがオプションを変更できない場合、プロファイルフィールドは「 %s 」のインスティテューション設定でロックされています。これらのプロファイルフィールドはサイトレベルでロックされているため、ここでロック解除することはできません。';
 $string['defaultinstitutionquotadescription'] = 'あなたはこのインスティテューションの新しいユーザに割り当てられるディスクスペース総量を設定することができます。このインスティテューションに関する既存ユーザのクオータは変更されません。';
+$string['updateinstitutionuserquotasdesc1'] = 'この設定を有効にした場合、あなたが上で選択したデフォルトクオータが既存のメンバーすべてに適用されます。';
 $string['approve'] = '承認';
 $string['deny'] = '拒否';
 $string['approveregistrationfor2'] = '「 %s %s <%s> 」の登録を承認する';
@@ -1022,6 +1026,7 @@ $string['showprogressbar'] = 'プロファイル完了を表示する';
 $string['progressbarsaved'] = 'プログレスバーが正常に保存されました。';
 $string['showprogressbardescription1'] = 'ユーザプロファイルで完了する必要のある内容に関して、サイドバーとしてユーザにヒント付のプログレスバーを表示します。これには無効にするオプションがあります。';
 $string['progressbardisablednote'] = '<b>注意</b>: 現在、プロファイル完了は無効にされています。ユーザがプロファイルの完了に関して進捗を追跡できるようにするには、あなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「ユーザ設定」セクションにて有効にする必要があります。';
+$string['profilecompletenessdesc1'] = 'プロファイル完了では、あなたのユーザはプロファイルをどの程度完了しているか確認できるサイドバーのビジュアルインディケータを使用することができます。あなたはプロファイル完了を加算するアーティファクトを選択することができます。他のすべてのアーティファクトを使用することができますが、完了カウントの因数とはなりません。';
 $string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックにて、プロファイル完了がどのように表示されるかプレビューすることができます。';
 $string['exporttoqueue'] = 'キューにエクスポートする';
 $string['exporttoqueuedescription2'] = 'サーバ負荷管理を良くするため、ユーザポートフォリオのLeap2Aによるエクスポートに関して、エクスポートキューが処理するようにします。';
