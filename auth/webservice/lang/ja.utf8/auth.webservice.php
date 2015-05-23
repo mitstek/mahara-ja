@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-27 02:07:44 UTC
+ * @updated    2015-05-21 02:50:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -48,7 +48,7 @@ $string['usernamealreadytaken'] = '申し訳ございません、このユーザ
 $string['usernameinvalidform'] = 'ユーザ名には空白を除く、半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
 $string['usernameinvalidadminform'] = 'ユーザ名には空白を除く、半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
 $string['youmaynotregisterwithouttandc'] = '<a href="terms.php">使用条件</a>に従うことを同意しない限り、あなたは登録することができません。';
-$string['control_webservices'] = 'すべてのウェブサービスをOnまたはOffに切り替える:';
+$string['control_webservices'] = 'ウェブサービスをOnまたはOffに切り替える:';
 $string['masterswitch'] = 'ウェブサービスマスタースイッチ';
 $string['protocolswitches'] = 'プロトコルOn/Offスイッチ';
 $string['manage_protocols'] = 'このインストレーションによってサポートされるプロトコルを有効または無効にします:';
