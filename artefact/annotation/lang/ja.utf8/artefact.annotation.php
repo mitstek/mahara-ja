@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-05-21 02:41:49 UTC
+ * @updated    2015-05-26 16:55:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -21,12 +21,16 @@ $string['annotations'] = 'アノテーション';
 $string['Annotationfeedback'] = 'フィードバック';
 $string['typeannotationfeedback'] = 'アノテーションのフィードバック';
 $string['allowannotationfeedback'] = 'フィードバックを許可する';
+$string['approvalrequired'] = 'フィードバックは内容確認されます。あなたがこのフィードバックをパブリックにすることを選択した場合、オーナーから承認されるまで他の人は閲覧できません。';
 $string['canteditnotauthor'] = 'あなたはこのフィードバックの投稿者ではありません。';
+$string['annotationfeedbacknotinview'] = 'フィードバック「 %d 」はページ「 %d 」にありません。';
 $string['cantedittooold'] = 'あなたは %d 分以内のフィードバックのみ編集することができます。';
 $string['cantedithasreplies'] = 'あなたは最も最近のフィードバックのみ編集することができます。';
+$string['annotationfeedbackmadepublic'] = 'フィードバックがパブリックにされました。';
 $string['annotationfeedbackdeletedauthornotification'] = 'あなたの %s のフィードバックが削除されました: %s';
 $string['annotationfeedbackdeletednotificationsubject'] = '%s のフィードバックが削除されました。';
 $string['annotationfeedbackremoved'] = 'フィードバックが削除されました。';
+$string['editannotationfeedbackdescription'] = 'あなたは新しい返信が投稿されていない %d 分以内のフィードバックを更新することができます。この時間が経過した場合、あなたのフィードバックを削除して新しいフィードバックを追加することはできます。';
 $string['annotationfeedbackupdated'] = 'フィードバックが更新されました。';
 $string['commentremovedbyauthor'] = '投稿者によって削除されたフィードバック';
 $string['commentremovedbyowner'] = 'オーナーによって削除されたフィードバック';
@@ -34,6 +38,7 @@ $string['commentremovedbyadmin'] = '管理者によって削除されたフィ�
 $string['editannotationfeedback'] = 'フィードバックを編集する';
 $string['placeannotationfeedback'] = 'フィードバックを投稿する';
 $string['annotationfeedbacksubmitted'] = 'フィードバックが送信されました。';
+$string['annotationfeedbacksubmittedmoderatedanon'] = 'フィードバックが送信されました、内容確認を待っています。';
 $string['annotationfeedbacksubmittedprivateanon'] = 'プライベートフィードバックが送信されました。';
 $string['makepublic'] = 'パブリックにする';
 $string['makepublicnotallowed'] = 'あなたはこのフィードバックをパブリックにできません。';
@@ -46,6 +51,38 @@ $string['newannotationfeedbacknotificationsubject'] = '%s の新しいフィー�
 $string['reallydeletethisannotationfeedback'] = '本当にこのフィードバックを削除してもよろしいですか?';
 $string['annotationfeedbackisprivate'] = 'このフィードバックはプライベートです。';
 $string['youhaverequestedpublic'] = 'あなたはこのフィードバックをパブリックにするよう、リクエストしました。';
+$string['annotationfeedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s がアノテーション %s にフィードバックを投稿しました。</strong><br />%s</div>
+
+<div style="margin: 1em 0;">%s</div>
+
+<div style="font-size: smaller; border-top: 1px solid #999;">
+<p><a href="%s">このフィードバックにオンラインで返信する</a></p>
+</div>';
+$string['annotationfeedbacknotificationtext'] = '%s がアノテーション %s にフィードバックを投稿しました。
+%s
+------------------------------------------------------------------------
+
+%s
+
+------------------------------------------------------------------------
+フィードバックをオンラインで閲覧および返信するには次のリンクにアクセスしてください:
+%s';
+$string['annotationfeedbackdeletedhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>アノテーション %s のフィードバックが削除されました。</strong><br />%s</div>
+
+<div style="margin: 1em 0;">%s</div>
+
+<div style="font-size: smaller; border-top: 1px solid #999;">
+<p><a href="%s">%s</a></p>
+</div>';
+$string['annotationfeedbackdeletedtext'] = 'アノテーション %s のフィードバックが削除されました。
+%s
+------------------------------------------------------------------------
+
+%s
+
+------------------------------------------------------------------------
+%s をオンラインで確認するには次のリンクにアクセスしてください:
+%s';
 $string['artefactdefaultpermissions'] = 'デフォルトアノテーションパーミッション';
 $string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトタイプではフィードバックの作成が有効にされています。ユーザは個々のアーティファクトでこれらの設定をオーバーライドすることができます。';
 $string['annotationinformationerror'] = 'あなたにはアノテーションを表示するための正しい情報がありません。';
