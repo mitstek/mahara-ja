@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-03-19 20:28:08 UTC
+ * @updated    2015-05-31 16:52:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,6 +15,6 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'アノテーション';
 $string['description'] = 'なぜあなたのエビデンスが標準に合致するのか、あなたのアノテーションを表示するためのブロックです。';
-$string['annotationreadonlymessage'] = 'フィードバックが投稿されたため、アノテーションを編集することはできません。';
+$string['annotationreadonlymessage'] = 'フィードバックが投稿されたため、アノテーションをこれ以上編集することはできません。';
 
 ?>
