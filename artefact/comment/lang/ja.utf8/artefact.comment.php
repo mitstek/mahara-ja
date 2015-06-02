@@ -51,8 +51,8 @@ $string['lastcomment'] = '最新のコメント';
 $string['makepublic'] = 'パブリックにする';
 $string['makepublicnotallowed'] = 'あなたはこのコメントをパブリックにすることはできません。';
 $string['makepublicrequestsubject'] = 'リクエスト: プライベートコメントをパブリックに変更する';
-$string['makepublicrequestbyauthormessage'] = 'あなたがコメントをパブリックにするよう、%s がリクエストしました。';
-$string['makepublicrequestbyownermessage'] = 'あなたがあなたのコメントをパブリックにするよう、%s がリクエストしました。';
+$string['makepublicrequestbyauthormessage'] = 'あなたがコメントをパブリックにするよう%s がリクエストしました。';
+$string['makepublicrequestbyownermessage'] = 'あなたがあなたのコメントをパブリックにするよう%s がリクエストしました。';
 $string['makepublicrequestsent'] = 'コメントをパブリックにするリクエストメッセージが %s に送信されました。';
 $string['messageempty'] = 'あなたのメッセージは空白です。メッセージまたは添付ファイルを入力してください。';
 $string['Moderate'] = 'モデレート';
@@ -65,7 +65,7 @@ $string['reallydeletethiscomment'] = '本当にこのコメントを削除して
 $string['thiscommentisprivate'] = 'このコメントはプライベート (非公開) です。';
 $string['typefeedback'] = 'フィードバック';
 $string['viewcomment'] = 'コメントを表示する';
-$string['youhaverequestedpublic'] = 'あなたはこのコメントをパブリックにするよう、リクエストしました。';
+$string['youhaverequestedpublic'] = 'あなたはこのコメントをパブリックにするようリクエストしました。';
 $string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が %s にコメントを投稿しました。</strong><br />%s</div>
 
 <div style="margin: 1em 0;">%s</div>
