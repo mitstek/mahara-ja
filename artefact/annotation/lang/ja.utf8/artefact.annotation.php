@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-05-26 16:55:46 UTC
+ * @updated    2015-06-02 15:32:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -43,14 +43,14 @@ $string['annotationfeedbacksubmittedprivateanon'] = 'プライベートフィー
 $string['makepublic'] = 'パブリックにする';
 $string['makepublicnotallowed'] = 'あなたはこのフィードバックをパブリックにできません。';
 $string['makepublicrequestsubject'] = 'プライベートフィードバックをパブリックに変更するリクエスト';
-$string['makepublicrequestbyownermessage'] = '%s があなたのフィードバックをパブリックにするよう、リクエストしました。';
+$string['makepublicrequestbyownermessage'] = '%s があなたのフィードバックをパブリックにするようリクエストしました。';
 $string['makepublicrequestsent'] = 'フィードバックをパブリックにするリクエストのメッセージが %s に送信されました。';
-$string['makepublicrequestbyauthormessage'] = '%s が自分のフィードバックをパブリックにするよう、あなたにリクエストしました。';
+$string['makepublicrequestbyauthormessage'] = '%s が自分のフィードバックをパブリックにするようリクエストしました。';
 $string['annotationfeedbackempty'] = 'あなたのフィードバックは空白です。メッセージを入力してください。';
 $string['newannotationfeedbacknotificationsubject'] = '%s の新しいフィードバック';
 $string['reallydeletethisannotationfeedback'] = '本当にこのフィードバックを削除してもよろしいですか?';
 $string['annotationfeedbackisprivate'] = 'このフィードバックはプライベートです。';
-$string['youhaverequestedpublic'] = 'あなたはこのフィードバックをパブリックにするよう、リクエストしました。';
+$string['youhaverequestedpublic'] = 'あなたはこのフィードバックをパブリックにするようリクエストしました。';
 $string['annotationfeedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s がアノテーション %s にフィードバックを投稿しました。</strong><br />%s</div>
 
 <div style="margin: 1em 0;">%s</div>
