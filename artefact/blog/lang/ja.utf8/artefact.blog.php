@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-07-01 03:34:23 UTC
+ * @updated    2015-06-04 17:56:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -34,14 +34,14 @@ $string['blogs'] = '日誌';
 $string['addblog'] = '日誌を追加する';
 $string['addpost'] = 'エントリを追加する';
 $string['alignment'] = '配置';
-$string['allowcommentsonpost'] = 'あなたのエントリにコメントを許可します。';
+$string['allowcommentsonpost'] = 'あなたのエントリへのコメントを許可します。';
 $string['allposts'] = 'すべてのエントリ';
 $string['attach'] = '添付';
 $string['attachedfilelistloaded'] = '添付ファイル一覧が読み込まれました。';
 $string['attachedfiles'] = '添付ファイル';
 $string['attachment'] = '添付ファイル';
 $string['attachments'] = '添付ファイル';
-$string['blogcopiedfromanotherview'] = '注意: このブロックは別のページからコピーされました。あなたはこのブロックを移動したり、削除することができますが、%s の内容を変更することはできません。';
+$string['blogcopiedfromanotherview'] = '注意: このブロックは別のページからコピーされました。あなたはこのブロックを移動したり削除することはできますが、%s の内容を変更することはできません。';
 $string['blogdesc'] = '説明';
 $string['blogdescdesc'] = '例) 「Jillの経験および内省の記録」';
 $string['blogdoesnotexist'] = 'あなたは存在しない日誌へのアクセスを試みています。';
@@ -57,8 +57,8 @@ $string['blogtitle'] = 'タイトル';
 $string['blogtitledesc'] = '例) 「Jillの看護実習日誌」';
 $string['border'] = '枠線';
 $string['cancel'] = 'キャンセル';
-$string['createandpublishdesc'] = '日誌エントリを作成し、他のユーザが閲覧できるようにします。';
-$string['createasdraftdesc'] = '日誌エントリを作成しますが、あなたが公開するまで、他のユーザは閲覧することはできません。';
+$string['createandpublishdesc'] = '日誌エントリを作成して他のユーザが閲覧できるようにします。';
+$string['createasdraftdesc'] = '日誌エントリを作成しますが、あなたが公開するまで他のユーザは閲覧することはできません。';
 $string['createblog'] = '日誌を作成する';
 $string['dataimportedfrom'] = '%s からインポートされたデータ';
 $string['defaultblogtitle'] = '%s の日誌';
@@ -70,7 +70,7 @@ $string['dimensions'] = 'サイズ';
 $string['draft'] = '下書き';
 $string['edit'] = '編集';
 $string['editblogpost'] = '日誌エントリを編集する';
-$string['entriesimportedfromleapexport'] = 'LEAPエクスポートよりインポートされた、他の場所にインポートできなかったエントリです。';
+$string['entriesimportedfromleapexport'] = 'LEAPエクスポートよりインポートされて他の場所にインポートできなかったエントリです。';
 $string['errorsavingattachments'] = '日誌エントリの添付ファイル保存中にエラーが発生しました。';
 $string['horizontalspace'] = '水平方向のスペース';
 $string['insert'] = '挿入';
@@ -79,7 +79,7 @@ $string['moreoptions'] = '詳細オプション';
 $string['mustspecifytitle'] = 'あなたのエントリのタイトルを入力してください。';
 $string['mustspecifycontent'] = 'あなたのエントリのコンテンツを入力してください。';
 $string['name'] = '名称';
-$string['newattachmentsexceedquota'] = 'このエントリにアップロードした新しいファイルの合計サイズが、あなたのクオータを超えました。あなたが追加した添付ファイルを削除することで、エントリを保存することができます。';
+$string['newattachmentsexceedquota'] = 'このエントリにアップロードした新しいファイルの合計サイズがあなたのクオータを超えました。あなたが追加した添付ファイルを削除することでエントリを保存することができます。';
 $string['newblog'] = '新しい日誌';
 $string['newblogpost'] = '日誌「 %s 」の新しい日誌エントリ';
 $string['newerposts'] = '新しいエントリ';
