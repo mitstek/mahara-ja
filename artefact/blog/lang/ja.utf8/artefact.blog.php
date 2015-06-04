@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-19 11:38:51 UTC
+ * @updated    2015-06-04 18:02:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -38,7 +38,7 @@ $string['attach'] = '添付';
 $string['attachedfilelistloaded'] = '添付ファイル一覧が読み込まれました。';
 $string['attachedfiles'] = '添付ファイル';
 $string['attachments'] = '添付ファイル';
-$string['blogcopiedfromanotherview'] = '注意: このブロックは別のビューからコピーされました。あなたはこのブロックを移動したり、削除することができますが、%s の内容を変更することはできません。';
+$string['blogcopiedfromanotherview'] = '注意: このブロックは別のページからコピーされました。あなたはこのブロックを移動したり削除することはできますが、%s の内容を変更することはできません。';
 $string['blogdesc'] = '説明';
 $string['blogdescdesc'] = '例) 「Jillの経験および内省の記録」';
 $string['blogdoesnotexist'] = 'あなたは存在しないブログへのアクセスを試みています。';
@@ -63,8 +63,8 @@ $string['commentsnotify'] = 'コメント通知';
 $string['commentsnotifydesc'] = 'あなたのブログ記事にコメントが追加された場合、任意でコメント追加の通知を受信することができます。';
 $string['commentsnotifyno'] = 'このブログへのコメントを私に通知しない';
 $string['commentsnotifyyes'] = 'このブログへのコメントを私に通知する';
-$string['createandpublishdesc'] = 'ブログ記事を作成し、他のユーザが閲覧できるようにします。';
-$string['createasdraftdesc'] = 'ブログ記事を作成しますが、あなたが公開するまで、他のユーザは閲覧することはできません。';
+$string['createandpublishdesc'] = 'ブログ記事を作成して他のユーザが閲覧できるようにします。';
+$string['createasdraftdesc'] = 'ブログ記事を作成しますが、あなたが公開するまで他のユーザは閲覧することはできません。';
 $string['createblog'] = 'ブログを作成する';
 $string['delete'] = '削除';
 $string['deleteblog?'] = '本当にこのブログを削除してもよろしいですか?';
@@ -83,7 +83,7 @@ $string['moreoptions'] = '詳細オプション';
 $string['mustspecifytitle'] = 'あなたの記事のタイトルを入力してください。';
 $string['mustspecifycontent'] = 'あなたの記事のコンテンツを入力してください。';
 $string['myblogs'] = 'マイブログ';
-$string['newattachmentsexceedquota'] = 'この記事にアップロードした新しいファイルの合計サイズが、あなたのクオータを超えました。あなたが追加した添付ファイルを削除することで、記事を保存することができます。';
+$string['newattachmentsexceedquota'] = 'この記事にアップロードした新しいファイルの合計サイズがあなたのクオータを超えました。あなたが追加した添付ファイルを削除することで記事を保存することができます。';
 $string['newblog'] = '新しいブログ';
 $string['newblogpost'] = 'ブログ「 %s 」の新しいブログ記事';
 $string['nopostsaddone'] = 'まだ記事はありません。%s記事を追加してください%s!';
