@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-11-01 03:44:09 UTC
+ * @updated    2015-06-11 15:49:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -31,10 +31,10 @@ defined('INTERNAL') || die();
 $string['title'] = 'イメージギャラリー';
 $string['description'] = 'あなたのファイルエリアからのイメージコレクションです。';
 $string['select'] = 'イメージ選択';
-$string['selectfolder'] = '私のフォルダの1つからイメージすべてを表示します。';
+$string['selectfolder'] = '私のフォルダの1つからイメージすべてを表示します (後でアップロードされたイメージを含む)。';
 $string['selectimages'] = '私が表示するイメージを選択します。';
 $string['width'] = '幅';
-$string['widthdescription'] = 'あなたのイメージの幅 (ピクセル) を指定してください。イメージがこの幅にサイズ変更されます。イメージのオリジナルサイズを使用する場合、空白のままにしてください。';
+$string['widthdescription'] = 'あなたのイメージの幅 (ピクセル) を指定してください。イメージがこの幅にサイズ変更されます。';
 $string['style'] = 'スタイル';
 $string['stylethumbs'] = 'サムネイル';
 $string['styleslideshow'] = 'スライドショー';
