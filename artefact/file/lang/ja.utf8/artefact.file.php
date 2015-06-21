@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-21 20:22:28 UTC
+ * @updated    2015-06-21 14:41:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -25,7 +25,7 @@ $string['cannotremovefromsubmittedfolder'] = 'あなたは送信済みページ�
 $string['cannotextractfilesubmitted'] = 'あなたは送信済みページでファイルを解凍できません。';
 $string['cannotextractfileinfoldersubmitted'] = 'あなたは送信済みページのフォルダ内でファイルを解凍できません。';
 $string['changessaved'] = '変更が保存されました。';
-$string['clickanddragtomovefile'] = '%s を移動するには、クリック&ドラッグまたはスペースを押してください。';
+$string['clickanddragtomovefile'] = '%s を移動するには、クリック&ドラッグまたはスペースキーを押してください。';
 $string['moveto'] = '%s に移動する';
 $string['editfolderspecific'] = 'フォルダ「 %s 」を編集する';
 $string['deletefolderspecific'] = 'フォルダ「 %s 」を削除する';
@@ -176,7 +176,7 @@ $string['fileuploadedas'] = '%s が「 %s 」としてアップロードされ�
 $string['insufficientmemoryforresize'] = '(イメージのリサイズのために十分なメモリがありません。アップロード前にリサイズすることをお考えください)';
 $string['quotanotifylimitoutofbounds'] = '通知制限はパーセントで入力して、0から100までの数字である必要があります。';
 $string['usernotificationsubject'] = 'あなたのファイルストレージがほぼ満杯です。';
-$string['usernotificationmessage'] = 'あなたはファイルクオータの %s% を使用しています (ファイルクオータ: %s)。あなたの制限を増分するために、サイト管理者にご連絡ください。';
+$string['usernotificationmessage'] = 'あなたはファイルクオータの %s% を使用しています (ファイルクオータ: %s)。あなたの制限を増分するためにサイト管理者にご連絡ください。';
 $string['adm_notificationsubject'] = 'ユーザがファイルクオータ制限に到達しています。';
 $string['adm_notificationmessage'] = 'ユーザ %s がファイルクオータの %s% パーセントに到達しました (ファイルクオータ: %s)。';
 $string['adm_group_notificationsubject'] = 'あなたが管理しているグループがファイルクオータ制限に到達しています。';
@@ -247,7 +247,7 @@ $string['profileiconsize'] = 'プロファイル写真サイズ';
 $string['profileicons'] = 'プロファイル写真';
 $string['Default'] = 'デフォルト';
 $string['defaultprofileicon'] = '現在、あなたのデフォルトプロファイル写真に設定されています。';
-$string['deleteselectedicons'] = '選択されたプロファイル写真を削除する';
+$string['deleteselectedicons'] = '削除';
 $string['editprofileicon'] = 'プロファイル写真を編集する';
 $string['profileicon'] = 'プロファイル写真';
 $string['noimagesfound'] = 'イメージはありません。';
@@ -294,11 +294,11 @@ $string['downloadfolderzip'] = 'フォルダをZIPファイルとしてダウン
 $string['downloadfolderzipblock'] = 'ダウンロードリンクを表示する';
 $string['downloadfolderzipdescription2'] = 'この設定を有効にした場合、ユーザは「フォルダ」ブロックに表示されたフォルダをZIPファイルとしてダウンロードすることができます。';
 $string['downloadfolderzipdescriptionblock'] = 'この設定を有効にした場合、ユーザはフォルダをZIPファイルとしてダウンロードすることができます。';
-$string['downloadfolderziplink'] = 'ダウンロード';
+$string['downloadfolderziplink'] = 'フォルダコンテンツをZIPファイルとしてダウンロードする';
 $string['folderdownloadnofolderfound'] = 'ID %d のフォルダが見つかりません。';
 $string['zipfilenameprefix'] = 'フォルダ';
 $string['keepzipfor'] = 'ZIPファイルの保持期間';
-$string['keepzipfordescription'] = 'ZIPファイルを保持する秒数です。';
+$string['keepzipfordescription'] = 'フォルダのダウンロード中に作成されたZIPファイルはこの時間 (秒) 保持される必要があります。';
 $string['progress_archive'] = '%s アーカイブファイルを追加する';
 $string['progress_audio'] = '%s オーディオファイルを追加する';
 $string['progress_file'] = '%s ファイルを追加する';
