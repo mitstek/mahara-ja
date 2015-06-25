@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-10-01 05:01:34 UTC
+ * @updated    2015-06-25 15:25:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -22,7 +22,7 @@ $string['useintroductioninstead'] = '「表示するフィールド」の「自�
 $string['dontshowprofileicon'] = 'プロファイル写真を表示しません。';
 $string['dontshowemail'] = 'メールアドレスを表示しません。';
 $string['uploadaprofileicon'] = 'あなたにはプロファイル写真がありません。<a href="%sartefact/file/profileicons.php" target="_blank">アップロードしてください</a>。';
-$string['dontshowsocialprofiles'] = 'ソーシャルプロファイルを表示しない';
-$string['showsocialprofiles'] = '選択したソーシャルプロファイルを表示する';
+$string['dontshowsocialprofiles'] = 'ソーシャルメディアアカウントを表示しない';
+$string['showsocialprofiles'] = '選択したソーシャルメディアアカウントを表示する';
 
 ?>
