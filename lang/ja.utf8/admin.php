@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-05-14 05:00:00 UTC
+ * @updated    2015-06-27 16:31:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -628,7 +628,6 @@ $string['importfilemissinglisting'] = 'バルクエクスポートファイル�
 $string['importfilenotafile'] = '送信中にエラーが発生しました: ファイルを認識できませんでした。';
 $string['importfilenotreadable'] = 'Leap2Aファイル %s を読むことができません。';
 $string['bulkleap2aimportfiledescription'] = 'あなたのサーバのZIPファイルにはエクスポートされたユーザすべて (Leap2Aフォーマット) およびユーザ名のCSVリストが含まれます。';
-$string['unzipnotinstalled'] = 'あなたのシステムではunzipコマンドを実行できない、または「$cfg->pathtounzip」設定が正しくありません。ZIPエクスポートファイルのインポートを有効にするには、unzipをインストールするか、「$cfg->pathtounzip」設定を訂正してください。';
 $string['importednuserssuccessfully'] = '%d / %d のユーザを正常にインポートしました。';
 $string['Import'] = 'インポート';
 $string['bulkimportdirdoesntexist'] = 'ディレクトリ %s が存在しません。';
@@ -743,7 +742,7 @@ $string['leap2aimportfailed'] = '<p><strong>申し訳ございません - Leap2A
 $string['newuseremailnotsent'] = '新しいユーザへのウェルカムメール送信に失敗しました。';
 $string['newusercreated'] = '新しいユーザアカウントが正常に作成されました。';
 $string['noleap2axmlfiledetected'] = 'leap2a.xmlファイルが見つかりませんでした - 再度、あなたのエクスポートファイルを確認してください。';
-$string['Or...'] = 'または ...';
+$string['Or'] = 'または';
 $string['userwillreceiveemailandhastochangepassword'] = '新しいアカウント詳細を記載したEメールがユーザに送信されます。新しく作成されたユーザは初回ログイン時、パスワードを変更を求められます。';
 $string['uploadleap2afile'] = 'Leap2Aファイルをアップロードする';
 $string['usercreationmethod'] = '1 - ユーザ作成方法';
