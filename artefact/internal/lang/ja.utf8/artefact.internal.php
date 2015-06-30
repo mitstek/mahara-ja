@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-04-28 17:43:08 UTC
+ * @updated    2015-06-30 08:36:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,8 +17,8 @@ $string['pluginname'] = 'プロファイル';
 $string['profile'] = 'プロファイル';
 $string['mandatoryfields'] = '必須フィールド';
 $string['mandatoryfieldsdescription'] = '入力する必要のあるプロファイルフィールド';
-$string['searchablefields'] = '検索対象フィールド';
-$string['searchablefieldsdescription'] = 'ユーザにより検索することのできるプロファイルフィールド';
+$string['searchablefields'] = '検索可能フィールド';
+$string['searchablefieldsdescription'] = 'ユーザにより検索することのできるプロファイルフィールドです。';
 $string['aboutdescription'] = 'あなたの本名をここに入力してください。あなたがシステム内のユーザに異なる名前を表示したい場合、ニックネーム欄に別名を入力してください。';
 $string['infoisprivate'] = 'あなたが他のユーザと共有するため、ページに置かない限り、この情報はプライベート (非公開) となります。';
 $string['viewmyprofile'] = '私のプロファイルを表示する';
@@ -31,12 +31,12 @@ $string['lastname'] = '姓';
 $string['fullname'] = 'フルネーム';
 $string['institution'] = 'インスティテューション';
 $string['studentid'] = '学籍番号';
-$string['preferredname'] = 'ニックネーム';
+$string['preferredname'] = '表示名';
 $string['introduction'] = '自己紹介';
 $string['email'] = 'メールアドレス';
 $string['maildisabled'] = 'Eメール無効';
-$string['officialwebsite'] = 'オフィシャルウェブサイトURL';
-$string['personalwebsite'] = 'パーソナルウェブサイトURL';
+$string['officialwebsite'] = 'オフィシャルウェブサイトアドレス';
+$string['personalwebsite'] = 'パーソナルウェブサイトアドレス';
 $string['blogaddress'] = 'ブログアドレス';
 $string['address'] = '番地以下';
 $string['town'] = '市区町村';
@@ -79,7 +79,7 @@ $string['emailactivationfailed'] = 'メール有効化に失敗しました。';
 $string['emailactivationdeclined'] = 'メール有効化が正常に拒否されました。';
 $string['verificationlinkexpired'] = '確認リンクの有効期限が切れました。';
 $string['invalidemailaddress'] = '無効なメールアドレスです。';
-$string['unvalidatedemailalreadytaken'] = 'あなたが確認しようとしているメールアドレスはすでに登録されています。';
+$string['unvalidatedemailalreadytaken'] = 'あなたが確認しようとしているメールアドレスはすでに取得されています。';
 $string['addbutton'] = '追加';
 $string['emailingfailed'] = 'プロファイルが保存されましたが、次のメールアドレス宛にメール送信できませんでした: %s';
 $string['loseyourchanges'] = '変更を取り消してもよろしいですか?';
