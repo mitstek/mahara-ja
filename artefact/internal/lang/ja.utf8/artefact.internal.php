@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-10-07 17:17:50 UTC
+ * @updated    2015-06-30 08:36:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -46,11 +46,11 @@ $string['lastname'] = '姓';
 $string['fullname'] = 'フルネーム';
 $string['institution'] = 'インスティテューション';
 $string['studentid'] = '学籍番号';
-$string['preferredname'] = 'ニックネーム';
+$string['preferredname'] = '表示名';
 $string['introduction'] = '自己紹介';
 $string['email'] = 'メールアドレス';
-$string['officialwebsite'] = 'オフィシャルウェブサイトURL';
-$string['personalwebsite'] = 'パーソナルウェブサイトURL';
+$string['officialwebsite'] = 'オフィシャルウェブサイトアドレス';
+$string['personalwebsite'] = 'パーソナルウェブサイトアドレス';
 $string['blogaddress'] = 'ブログアドレス';
 $string['address'] = '番地以下';
 $string['town'] = '市区町村';
@@ -88,7 +88,7 @@ $string['emailalreadyactivated'] = 'メールはすでに有効化されてい�
 $string['emailactivationfailed'] = 'メール有効化に失敗しました。';
 $string['verificationlinkexpired'] = '確認リンクの有効期限が切れました。';
 $string['invalidemailaddress'] = '無効なメールアドレスです。';
-$string['unvalidatedemailalreadytaken'] = 'あなたが確認しようとしているメールアドレスはすでに登録されています。';
+$string['unvalidatedemailalreadytaken'] = 'あなたが確認しようとしているメールアドレスはすでに取得されています。';
 $string['emailingfailed'] = 'プロファイルが保存されましたが、次のメールアドレス宛にメール送信できませんでした: %s';
 $string['loseyourchanges'] = '変更を取り消してもよろしいですか?';
 $string['editprofile'] = 'プロファイルを編集する';
