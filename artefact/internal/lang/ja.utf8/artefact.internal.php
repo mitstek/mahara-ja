@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-11-30 04:06:41 UTC
+ * @updated    2015-06-30 08:51:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,8 +17,8 @@ $string['pluginname'] = 'プロファイル';
 $string['profile'] = 'プロファイル';
 $string['mandatoryfields'] = '必須フィールド';
 $string['mandatoryfieldsdescription'] = '入力する必要のあるプロファイルフィールド';
-$string['searchablefields'] = '検索対象フィールド';
-$string['searchablefieldsdescription'] = 'ユーザにより検索することのできるプロファイルフィールド';
+$string['searchablefields'] = '検索可能フィールド';
+$string['searchablefieldsdescription'] = 'ユーザにより検索することのできるプロファイルフィールドです。';
 $string['aboutdescription'] = 'あなたの本名をここに入力してください。あなたがシステム内のユーザに異なる名前を表示したい場合、ニックネーム欄に別名を入力してください。';
 $string['infoisprivate'] = 'あなたが他のユーザと共有するため、ページに置かない限り、この情報はプライベート (非公開) となります。';
 $string['viewmyprofile'] = '私のプロファイルを表示する';
@@ -32,12 +32,12 @@ $string['lastname'] = '姓';
 $string['fullname'] = 'フルネーム';
 $string['institution'] = 'インスティテューション';
 $string['studentid'] = '学籍番号';
-$string['preferredname'] = 'ニックネーム';
+$string['preferredname'] = '表示名';
 $string['introduction'] = '自己紹介';
 $string['email'] = 'メールアドレス';
 $string['maildisabled'] = 'Eメール無効';
-$string['officialwebsite'] = 'オフィシャルウェブサイトURL';
-$string['personalwebsite'] = 'パーソナルウェブサイトURL';
+$string['officialwebsite'] = 'オフィシャルウェブサイトアドレス';
+$string['personalwebsite'] = 'パーソナルウェブサイトアドレス';
 $string['blogaddress'] = 'ブログアドレス';
 $string['address'] = '番地以下';
 $string['town'] = '市区町村';
@@ -94,7 +94,7 @@ $string['emailactivationfailed'] = 'メール有効化に失敗しました。';
 $string['emailactivationdeclined'] = 'メール有効化が正常に拒否されました。';
 $string['verificationlinkexpired'] = '確認リンクの有効期限が切れました。';
 $string['invalidemailaddress'] = '無効なメールアドレスです。';
-$string['unvalidatedemailalreadytaken'] = 'あなたが確認しようとしているメールアドレスはすでに登録されています。';
+$string['unvalidatedemailalreadytaken'] = 'あなたが確認しようとしているメールアドレスはすでに取得されています。';
 $string['addbutton'] = '追加';
 $string['cancelbutton'] = 'キャンセル';
 $string['emailingfailed'] = 'プロファイルが保存されましたが、次のメールアドレス宛にメール送信できませんでした: %s';
@@ -151,23 +151,23 @@ $string['progress_occupation'] = 'あなたの職業を追加する';
 $string['progress_industry'] = 'あなたの職種を追加する';
 $string['progress_joingroup'] = '%s グループに参加する';
 $string['progress_makefriend'] = '%s フレンドを作る';
-$string['socialprofile'] = 'ソーシャルプロファイル';
-$string['socialprofiles'] = 'ソーシャルプロファイル';
+$string['socialprofile'] = 'ソーシャルメディア';
+$string['socialprofiles'] = 'ソーシャルメディアアカウント';
 $string['service'] = 'ソーシャルサイト名';
 $string['servicedesc'] = 'ソーシャルサイトの名称を入力してください。例) Facebook、LinkedIn、Twitter等';
-$string['profileurl'] = 'ソーシャルプロファイルURL';
-$string['profileurldesc'] = '古いメッセージングサービスに関して、あなたのユーザ名、スクリーン名またはナンバーを入力してください。そうでない場合、あなたのソーシャルプロファイルのURLを入力してください。';
-$string['profileurlexists'] = 'すでに存在しているため、このソーシャルプロファイルURLを追加することはできません。';
-$string['profiletype'] = 'ソーシャルプロファイルタイプ';
-$string['deleteprofile'] = 'ソーシャルプロファイルを削除する';
-$string['deletethisprofile'] = 'ソーシャルプロファイルを削除する:「 %s 」';
-$string['deleteprofileconfirm'] = '本当にこのソーシャルプロファイルを削除してもよろしいですか?';
-$string['editthisprofile'] = 'ソーシャルプロファイルを編集する:「 %s 」';
-$string['newsocialprofile'] = '新しいソーシャルプロファイル';
+$string['profileurl'] = 'あなたのURLまたはユーザ名';
+$string['profileurldesc'] = 'あなたのプロファイルページのURLまたはユーザ名です。';
+$string['profileurlexists'] = 'あなたがすでに入力したユーザ名またはURLと重複しているため、このソーシャルメディアアカウントを追加することはできません。';
+$string['profiletype'] = 'ソーシャルネットワーク';
+$string['deleteprofile'] = 'ソーシャルメディアアカウントを削除する';
+$string['deletethisprofile'] = 'ソーシャルメディアアカウントを削除する:「 %s 」';
+$string['deleteprofileconfirm'] = '本当にこのソーシャルメディアアカウントを削除してもよろしいですか?';
+$string['editthisprofile'] = 'ソーシャルメディアアカウントを編集する:「 %s 」';
+$string['newsocialprofile'] = '新しいソーシャルメディアアカウント';
 $string['notvalidprofileurl'] = 'これは有効なソーシャルプロファイルURLではありません。有効なURLを入力するか、上記リストより適切なメッセージングサービスを選択してください。';
-$string['profiledeletedsuccessfully'] = 'ソーシャルプロファイルが正常に削除されました。';
-$string['profilesavedsuccessfully'] = 'ソーシャルプロファイルが正常に保存されました。';
-$string['socialprofilerequired'] = '少なくとも1つのソーシャルプロファイルが必要です。';
-$string['duplicateurl'] = 'このソーシャルプロファイルURLは重複しています。';
+$string['profiledeletedsuccessfully'] = 'ソーシャルメディアアカウントが正常に削除されました。';
+$string['profilesavedsuccessfully'] = 'ソーシャルメディアアカウントが正常に保存されました。';
+$string['socialprofilerequired'] = '少なくとも1つのソーシャルメディアアカウントが必要です。';
+$string['duplicateurl'] = 'ソーシャルメディアアカウントユーザ名またはURLがあなたがすでに入力したものと重複しています。';
 
 ?>
