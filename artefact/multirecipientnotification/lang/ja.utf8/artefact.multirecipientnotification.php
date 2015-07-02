@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-05-20 05:24:45 UTC
+ * @updated    2015-07-02 15:33:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,7 +15,7 @@ defined('INTERNAL') || die();
 
 $string['sendmessageto'] = 'メッセージを送信する';
 $string['composemessage'] = '作成';
-$string['composemessagedesc'] = '新しいメッセージを作成する';
+$string['composemessagedesc'] = '新しいメッセージを作成します。';
 $string['titlesubject'] = '件名';
 $string['titlerecipient'] = '受信者';
 $string['replysubjectprefix'] = 'Re:';
