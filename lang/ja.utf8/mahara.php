@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-05-14 05:09:28 UTC
+ * @updated    2015-07-06 01:20:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1063,5 +1063,6 @@ $string['vspace'] = '垂直方向の余白';
 $string['hspace'] = '水平方向の余白';
 $string['border'] = '罫線幅';
 $string['alignment'] = '位置揃え';
+$string['cli_incorrect_value'] = '値が正しくありません。再度お試しください。';
 
 ?>
