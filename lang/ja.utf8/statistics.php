@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-07-05 15:48:27 UTC
+ * @updated    2015-07-06 01:18:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -193,5 +193,8 @@ $string['group-count'] = 'グループ';
 $string['view-count'] = '閲覧';
 $string['user-count'] = 'ユーザ';
 $string['institutiondataweekly'] = 'インスティテューション週データ';
+$string['usersbytype'] = 'タイプ別ユーザ';
+$string['staff'] = 'スタッフ';
+$string['admins'] = '管理者';
 
 ?>
