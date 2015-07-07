@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-07-07 16:47:38 UTC
+ * @updated    2015-07-07 16:51:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -543,13 +543,13 @@ $string['uploadcsverrorduplicateremoteuser'] = 'このファイルの %s 行目�
 $string['uploadcsverrorremoteusertaken'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでにユーザ「 %s 」により取得されています。';
 $string['uploadcsverrorusernotininstitution'] = 'あなたのファイルの　%s 行目にエラーがあります: ユーザ「 %s 」はインスティテューション「 %s 」のメンバーではありません。';
 $string['uploadcsverroruserinaninstitution'] = 'あなたのファイルの　%s 行目にエラーがあります: ユーザ「 %s 」は次のインスティテューションのメンバーです: %s あなたはこのユーザの認証方法を「No Institution」に変更することはできません。';
-$string['uploadcsvpagedescription5'] = '<p>ここであなたは<acronym title="Comma Separated Values">CSV</acronym>ファイル経由で新しいユーザをアップロードすることができます。</p>
+$string['uploadcsvpagedescription5'] = '<p>ここであなたは<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
 
-<p>あなたのCSVファイルの最初の行でＣＳＶデータのフォーマットを指定する必要があります。例えば、次のようになります:</p>
+<p>あなたのCSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
 <pre>username,password,email,firstname,lastname,studentid</pre>
 
-<p>この行には下記フィールドを含む必要があります:</p>
+<p>この行には以下のフィールドを含む必要があります:</p>
 <ul class="fieldslist">
 <li>username</li>
 <li>password</li>
@@ -558,7 +558,7 @@ $string['uploadcsvpagedescription5'] = '<p>ここであなたは<acronym title="
 <li>lastname</li>
 </ul>
 
-<p>あなたのCSVファイルには他の必要なフィールドを含むことができます。任意フィールドの一覧は下記のとおりです:</p>
+<p>必要に応じて、あなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
 
 %s';
 $string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれている行が多すぎます。あなたは %s 以上含むことができません。';
