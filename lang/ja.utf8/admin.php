@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-07-07 16:51:20 UTC
+ * @updated    2015-07-07 16:52:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -558,7 +558,7 @@ $string['uploadcsvpagedescription5'] = '<p>ここであなたは<acronym title="
 <li>lastname</li>
 </ul>
 
-<p>必要に応じて、あなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
+<p>必要に応じて、あなたのCSVファイルには他のプロファイルフィールドを含むことができます。任意フィールドのリストは以下の通りです:</p>
 
 %s';
 $string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれている行が多すぎます。あなたは %s 以上含むことができません。';
