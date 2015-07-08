@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-07-07 16:52:32 UTC
+ * @updated    2015-07-08 16:43:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -412,6 +412,9 @@ $string['watchlistdelaydescription'] = 'ウォッチリストの変更に関す�
 $string['watchlistdelaytitle'] = 'ウォッチリスト通知遅延';
 $string['defaultmultipleblogs'] = '複数日誌';
 $string['defaultmultipleblogsdescription1'] = 'デフォルトでユーザが日誌を複数持てるようにします。ユーザはこれをアカウント設定でオーバーライドすることができます。';
+$string['mathjax'] = 'MathJaxを有効にする';
+$string['mathjaxdescription'] = 'MathJaxはポートフォリオページ上のLaTeXマークアップを適切にフォーマットした数式および化学式として表示します。';
+$string['mathjaxconfig'] = 'MathJax設定';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
 $string['staticpagespagedescription'] = 'ここであなたはログインユーザのダッシュボード、ログアウトユーザのホームページ、フッタのページリンク等、Mahara内蔵ページのコンテンツを編集することができます。';
