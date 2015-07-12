@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-11-28 13:58:02 UTC
+ * @updated    2015-07-12 12:36:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -30,7 +30,7 @@ defined('INTERNAL') || die();
 
 $string['pluginname'] = 'レジュメ';
 $string['introduction'] = 'イントロダクション';
-$string['educationandemployment'] = '教育 & 雇用';
+$string['educationandemployment'] = '教育および雇用';
 $string['achievements'] = '業績';
 $string['goals'] = 'ゴール';
 $string['skills'] = 'スキル';
