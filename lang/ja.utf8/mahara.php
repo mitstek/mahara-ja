@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-07-06 01:20:00 UTC
+ * @updated    2015-07-16 16:20:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -119,7 +119,7 @@ $string['first'] = '最初';
 $string['firstpage'] = '最初のページ';
 $string['last'] = '最後';
 $string['lastpage'] = '最後のページ';
-$string['maxitemsperpage'] = '1ページあたりの最大アイテム数';
+$string['maxitemsperpage1'] = '1ページあたりの結果:';
 $string['accept'] = '承認';
 $string['memberofinstitutions'] = '%s のメンバー';
 $string['staffofinstitutions'] = '%s のスタッフ';
