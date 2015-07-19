@@ -87,7 +87,7 @@ $string['attachfile'] = '添付ファイル';
 $string['Attachments'] = '添付';
 $string['attachmentdesc'] = '%s の添付';
 $string['nodescription'] = '(説明なし)';
-$string['cannotfindcreateartefact'] = '見つからない、またはアーティファクトを作成できません。';
+$string['cannotfindcreateartefact'] = 'アーティファクトが見つからないまたは作成できません。';
 $string['duplicateattachment'] = 'すでにこのセクションの別のエントリにファイル「 %s 」が使用されています。あなたは同一ファイルを2度使用することはできません。';
 $string['duplicateattachments'] = 'すでにこのセクションの別のエントリにファイル「 %s 」が使用されています。あなたは同一ファイルを2度使用することはできません。';
 
