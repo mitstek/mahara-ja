@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-07-08 16:43:42 UTC
+ * @updated    2015-07-21 14:30:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -686,6 +686,7 @@ $string['resetpassword'] = 'パスワードのリセット';
 $string['resetpassworddescription'] = 'ここにテキストを入力した場合、ユーザの現在のパスワードと入れ替えられます。';
 $string['forcepasswordchange'] = '次回ログイン時、パスワード変更を強制する';
 $string['forcepasswordchangedescription'] = '次回ログイン時、ユーザはパスワード変更ページへ移動されます。';
+$string['primaryemail'] = '主メールアドレス';
 $string['sitestaff'] = 'サイトスタッフ';
 $string['siteadmins'] = 'サイト管理者';
 $string['siteadmin'] = 'サイト管理者';
@@ -1011,6 +1012,7 @@ $string['usershaveneverloggedin'] = 'ログインしたことのないユーザ'
 $string['usershaveloggedinsince'] = '次の日時以降ログインしたことのあるユーザ';
 $string['usershavenotloggedinsince'] = '次の日時以降ログインしたことのないユーザ';
 $string['duplicateemailfilter'] = '重複メールアドレスをフィルタする';
+$string['noemailfound'] = 'メールアドレスが見つかりませんでした。';
 $string['lastlogin'] = '最終ログイン';
 $string['masqueradingreasonrequired'] = 'マスカレーディングの理由を必要とする';
 $string['masqueradingreasonrequireddescription3'] = '他のユーザとしてマスカレーディングする理由を管理者が入力する必要があります。設定「ユーザにマスカレーディングを通知する」が有効にされている場合、マスカレーディングに関するユーザへの通知に理由が含まれます。これを動作させるためには、「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
