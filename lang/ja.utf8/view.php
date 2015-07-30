@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-06-15 06:47:46 UTC
+ * @updated    2015-07-30 04:57:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -107,6 +107,7 @@ $string['secreturldeleted'] = 'あなたのシークレットURLが削除され�
 $string['secreturlupdated'] = 'シークレットURLが更新されました。';
 $string['generatesecreturl'] = '%s の新しいシークレットURLを生成します。';
 $string['secreturls'] = 'シークレットURL';
+$string['existingURLS'] = '既存のURL';
 $string['publicaccessnotallowed'] = 'あなたのインスティテューションまたはサイト管理者がパブリックページおよびシークレットURLを無効にしました。あなたがここで閲覧することのできるシークレットURL一覧すべては、現在使用することができません。';
 $string['publicaccessnotallowedforprobation'] = '申し訳ございません、新しく登録されたユーザはシークレットURLの作成を許可されていません。';
 $string['inviteusertojoingroup'] = 'このユーザをグループへの参加に招待する';
@@ -135,6 +136,7 @@ $string['Added'] = '追加済み';
 $string['share'] = '共有';
 $string['sharedbyme'] = '私による共有';
 $string['sharewith'] = '共有対象';
+$string['whosharewith?'] = '誰と共有しますか?';
 $string['accesslist'] = 'アクセスリスト';
 $string['defaultaccesslistmessage'] = 'あなた以外、あなたの選択されたページおよびコレクションを閲覧することができません。アクセス権を与えるには、ユーザを追加してください。';
 $string['sharewithmygroups'] = 'マイグループと共有する';
@@ -169,7 +171,7 @@ $string['deleteviewconfirm1'] = '本当にこのページを削除してもよ�
 $string['deleteviewconfirmbackup'] = '<a href="%sexport/" target="_blank">エクスポート</a>により、このページのバックアップを作成することを検討してください。';
 $string['deleteviewconfirmnote1'] = '<strong>注意:</strong> このページにリンクしたすべてのファイルおよび日誌を利用することはできます。<br/>しかし、このページに投稿されたすべてのフィードバックは削除されます。';
 $string['deleteviewconfirmnote2'] = 'このページはコレクション「<a href="%s">%s</a>」の一部です。';
-$string['editaccesspagedescription5'] = 'あなたのページおよびコレクションに対して、デフォルトではあなたのみ閲覧することができます。このページでは、あなたの他に誰がそれらにアクセスできるか決定します。あなたのページを共有するには、グループおよび人の横にある「追加」ボタンをクリックしてください。';
+$string['editaccesspagedescription6'] = 'デフォルトではあなたのページおよびコレクションをあなたのみ閲覧することができます。このページではあなたに加えて誰がアクセスできるのか決定します。';
 $string['editaccessdescription'] = 'チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editaccessgrouppagedescription'] = 'デフォルトでは、ページおよびコレクションを追加および編集できるグループメンバーのみ、グループコレクションおよびページを閲覧することができます。チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editaccessinstitutionpagedescription'] = 'デフォルトでは、あなたのインスティテューションコレクションおよびページをあなたのインスティテューション管理者のみ閲覧することができます。チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
@@ -370,7 +372,15 @@ $string['titleanddescriptionandtagsandowner'] = 'タイトル、説明、タグ�
 $string['tagsonly'] = 'タグのみ';
 $string['sharedviewsdescription'] = 'このページではあなたが共有しているページの中から、直近に修正またはコメントされたページが一覧表示されます。これらの共有ページには直接あなたが共有しているページ、オーナーのフレンドが共有しているページ、あなたのグループが共有しているページがあります。';
 $string['sharedwith'] = '共有対象';
+$string['general'] = '一般';
+$string['searchfor'] = '検索 ...';
+$string['institutions'] = 'インスティテューション';
+$string['search'] = '検索';
 $string['Me'] = '私';
+$string['entersearchquery'] = '検索クエリを入力してください。';
+$string['allow'] = '許可';
+$string['comments'] = 'コメント';
+$string['moderate'] = 'モデレート';
 $string['sharedby'] = '共有';
 $string['retractable'] = '格納';
 $string['retractabledescription'] = 'ヘッダをクリックしてこのブロックを格納できるようにするには、このオプションを有効にしてください。';
