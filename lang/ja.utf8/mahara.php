@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-07-16 16:20:19 UTC
+ * @updated    2015-07-30 04:26:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -677,8 +677,8 @@ $string['addemail'] = 'メールアドレスを追加する';
 $string['search'] = '検索';
 $string['searchtype'] = '検索タイプ';
 $string['searchusers'] = 'ユーザを検索する';
-$string['Query'] = 'クエリ';
-$string['query'] = 'クエリ';
+$string['Query'] = '検索';
+$string['query'] = '検索';
 $string['querydescription'] = '検索語';
 $string['result'] = '結果';
 $string['results'] = '結果';
@@ -1063,6 +1063,8 @@ $string['vspace'] = '垂直方向の余白';
 $string['hspace'] = '水平方向の余白';
 $string['border'] = '罫線幅';
 $string['alignment'] = '位置揃え';
+$string['noResults'] = '該当データはありません。';
+$string['searching'] = '検索中 ...';
 $string['cli_incorrect_value'] = '値が正しくありません。再度お試しください。';
 
 ?>
