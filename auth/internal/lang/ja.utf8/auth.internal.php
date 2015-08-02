@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-04-28 17:46:02 UTC
+ * @updated    2015-08-02 14:12:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,10 +19,10 @@ $string['description'] = 'Maharaデータベースで認証する';
 $string['completeregistration'] = '登録を完了する';
 $string['emailalreadytaken'] = 'このメールアドレスはすでに登録されています。';
 $string['iagreetothetermsandconditions'] = '私は使用条件に同意します。';
-$string['passwordformdescription'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。
+$string['passwordformdescription'] = 'あなたのパスワードには少なくとも半角6文字必要です。パスワードは大文字小文字を区別します。また、あなたのユーザ名と異なる必要があります。
 <br />
 セキュリティ上の理由から、パスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。';
-$string['passwordinvalidform'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。
+$string['passwordinvalidform'] = 'あなたのパスワードには少なくとも半角6文字必要です。パスワードは大文字小文字を区別します。また、あなたのユーザ名と異なる必要があります。
 <br />
 セキュリティ上の理由から、パスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。';
 $string['recaptcharegistertitle'] = 'reCAPTCHAチャレンジ';
@@ -32,7 +32,7 @@ $string['registeredemailmessagetext'] = '%s さん
 
 %s への登録ありがとうございます。サインアップ処理を完了するには、次のリンクに従ってください:
 
-register.php?key=%s
+%sregister.php?key=%s
 
 メールに含まれているリンクは24時間のみ有効です。
 
