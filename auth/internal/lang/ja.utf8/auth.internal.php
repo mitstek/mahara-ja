@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-10 14:27:26 UTC
+ * @updated    2015-08-02 14:13:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -41,7 +41,7 @@ $string['registeredemailmessagetext'] = '%s さん
 
 %s への登録ありがとうございます。サインアップ処理を完了するには、次のリンクに従ってください:
 
-register.php?key=%s
+%sregister.php?key=%s
 
 メールに含まれているリンクは24時間のみ有効です。
 
