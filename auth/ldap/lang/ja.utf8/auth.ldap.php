@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-10-18 05:49:43 UTC
+ * @updated    2015-08-05 06:47:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -28,7 +28,7 @@ $string['distinguishedname'] = '識別名';
 $string['dodelete'] = 'LDAPに存在しなくなったアカウントを削除する';
 $string['dosuspend'] = 'LDAPに存在しなくなったアカウントを利用停止する';
 $string['doupdate'] = 'LDAPデータ (LONG) により既存のアカウントを更新する';
-$string['dryrun'] = 'ダミー実行です。データベース処理は実施しません。';
+$string['dryrun'] = 'ダミー実行です。データベース処理は実行しません。';
 $string['excludelist'] = 'これらの正規表現に名称が合致するLDAPグループを除く';
 $string['extrafilterattribute'] = 'ユーザ検索を制限するための追加LDAPフィルタ';
 $string['grouptype'] = '作成するMaharaグループタイプ - デフォルト「standard」';
@@ -53,13 +53,13 @@ $string['syncgroupsautocreate'] = '未作成のグループを自動作成する
 $string['syncgroupsbyclass'] = 'LDAPオブジェクトとして保存されているグループを同期する';
 $string['syncgroupsbyuserfield'] = 'ユーザ属性として保存されているグループを同期する';
 $string['syncgroupscontexts'] = 'これらのコンテクストのみ同期する';
-$string['syncgroupscontextsdesc'] = 'ユーザ認証コンテクストをデフォルトとするには、空白のままにしてください。';
+$string['syncgroupscontextsdesc'] = 'ユーザ認証コンテクストをデフォルトにするには、空白のままにしてください。';
 $string['syncgroupscron'] = 'cronジョブ経由でグループを自動同期する';
 $string['syncgroupsexcludelist'] = 'これらの名称のLDAPグループを除く';
 $string['syncgroupsgroupattribute'] = 'グループ属性';
 $string['syncgroupsgroupclass'] = 'グループクラス';
 $string['syncgroupsgrouptype'] = '自動作成グループのロールタイプ';
-$string['syncgroupsincludelist'] = 'これらの名称のLDAPグループを含む';
+$string['syncgroupsincludelist'] = 'これらの名称のLDAPグループのみ含む';
 $string['syncgroupsmemberattribute'] = 'グループメンバー属性';
 $string['syncgroupsmemberattributeisdn'] = 'メンバー属性はDNですか?';
 $string['syncgroupsnestedgroups'] = 'ネストグループを処理する';
@@ -80,7 +80,6 @@ $string['userattribute'] = 'ユーザ属性';
 $string['usertype'] = 'ユーザタイプ';
 $string['weautocreateusers'] = 'こちらでユーザを自動作成する';
 $string['updateuserinfoonlogin'] = 'ログイン時、ユーザ情報を更新する';
-$string['updateuserinfoonloginadnote'] = '注意: この設定を有効にすることで、MS ActiveDirectoryサイト/ユーザがログインできないようになる可能性があります。';
 $string['cannotconnect'] = 'LDAPホストに接続できません。';
 
 ?>
