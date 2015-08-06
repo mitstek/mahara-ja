@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-07-04 12:59:53 UTC
+ * @updated    2015-08-06 15:35:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -24,16 +24,16 @@ $string['errorbadlib'] = 'SimpleSAMLPHPライブラリディレクトリ「 %s �
 $string['errorbadconfig'] = 'SimpleSAMLPHP設定ディレクトリ「 %s 」が正しくありません。';
 $string['errorbadcombo'] = 'リモートユーザを選択していない場合のみ、あなたはユーザ自動作成を選択することができます。';
 $string['errorbadinstitutioncombo'] = 'このインスティテューション属性およびインスティテューション値の組み合わせの認証インスタンスはすでに存在します。';
-$string['errormissinguserattributes1'] = 'あなたは認証されたようですが、私たちは必要なユーザ属性を受信していません。あなたのアイデンティティプロバイダ (IdP) が、姓名およびメールアドレスに対するSSOフィールドを %s にリリースしているか確認してください。または、管理者にご連絡ください。';
+$string['errormissinguserattributes1'] = 'あなたは認証されたようですが、私たちは必要なユーザ属性を受信していません。あなたのアイデンティティプロバイダ (IdP) が姓名およびメールアドレスに対するSSOフィールドを %s にリリースしているか確認してください。または管理者にご連絡ください。';
 $string['errorregistrationenabledwithautocreate'] = 'インスティテューションが登録を有効にされています。セキュリティ上の理由から、ユーザ自動作成を除きます。';
 $string['errorremoteuser'] = '「usersuniquebyusername」が無効にされた場合、リモートユーザとの合致は必須です。';
 $string['institutionattribute'] = 'インスティテューション属性 (%s を含む)';
 $string['institutionvalue'] = '属性をチェックするためのインスティテューション値';
 $string['link'] = 'アカウントをリンクする';
 $string['linkaccounts'] = 'リモートアカウント %s をローカルアカウント %s とリンクしてもよろしいですか?';
-$string['loginlink'] = 'ユーザにアカウントのリンクを許可する';
-$string['logintolink'] = 'リモートアカウントにリンクするため、 %s にローカルログインする';
-$string['logintolinkdesc'] = '<p><b>現在、あなたはリモートユーザ %s としてログインしています。リモートアカウントとリンクするために、あなたのローカルアカウントを使ってログインしてください。あなたが %s にアカウントを持っていない場合、ユーザ登録してください。</b></p>';
+$string['loginlink'] = 'ユーザに自分のアカウントのリンクを許可する';
+$string['logintolink'] = 'リモートアカウントにリンクするため %s にローカルログインする';
+$string['logintolinkdesc'] = '<p><b>現在、あなたはリモートユーザ %s としてログインしています。リモートアカウントとリンクするため、あなたのローカルアカウントを使ってログインしてください。あなたが %s にアカウントを持っていない場合、ユーザ登録してください。</b></p>';
 $string['institutionregex'] = 'インスティテューション省略名を部分的に文字列一致させる';
 $string['login'] = 'SSO';
 $string['notusable'] = 'SimpleSAMLPHP SPライブラリをインストールしてください。';
