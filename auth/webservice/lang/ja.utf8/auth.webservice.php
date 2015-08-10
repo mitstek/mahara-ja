@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-07-07 16:39:25 UTC
+ * @updated    2015-08-10 04:13:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -56,7 +56,7 @@ $string['protocol'] = 'プロトコル';
 $string['rest'] = 'REST';
 $string['soap'] = 'SOAP';
 $string['xmlrpc'] = 'XML-RPC';
-$string['manage_certificates'] = '<a href="%s">ネットワーキング</a>サービスの一部として生成された証明書です。これらの値は特定のwstokenまたはサービスユーザに対して、WS-Security署名および暗号化が有効にされた場合に使用されます (XML-RPCおよびレガシーMNetのみ)。';
+$string['manage_certificates'] = '<a href="%s">ネットワーキング</a>サービスの一部として生成された証明書です。これらの値は特定のウェブサービストークンまたはサービスユーザに対して、WS-Security署名および暗号化が有効にされた場合に使用されます (XML-RPCおよびレガシーMNetのみ)。';
 $string['certificates'] = 'ネットワーク証明書';
 $string['servicefunctiongroups'] = 'サービスグループを管理する';
 $string['servicegroup'] = 'サービスグループ: %s';
@@ -67,7 +67,7 @@ $string['functions'] = '関数';
 $string['enableservice'] = 'サービスを有効/無効にする';
 $string['existingserviceusers'] = 'このサービスにサービスユーザがリンクされているため、トークンのみユーザにスイッチできません。';
 $string['existingtokens'] = 'このサービスにトークンユーザが存在するため、認証済みサービスユーザにスイッチできません。';
-$string['usersonly'] = '現在のユーザのみ';
+$string['usersonly'] = 'ユーザのみ';
 $string['tokensonly'] = 'トークンのみ';
 $string['switchtousers'] = 'ユーザにスイッチする';
 $string['switchtotokens'] = 'トークンにスイッチする';
@@ -90,19 +90,19 @@ $string['apptokens'] = 'アプリケーション接続';
 $string['servicetokens'] = 'サービスアクセストークンを管理する';
 $string['tokens'] = 'サービスアクセストークン';
 $string['users'] = 'サービスユーザ';
-$string['stdescription'] = 'トークンを生成して、ユーザをサービスグループに割り当てます。';
+$string['stdescription'] = 'トークンを生成してユーザをサービスグループに割り当てます。';
 $string['username'] = 'ユーザ';
 $string['owner'] = 'オーナー';
 $string['servicename'] = 'サービス';
 $string['generate'] = 'トークンを生成する';
-$string['invalidtoken'] = '無効なトークン - トークンが見つかりませんでした。';
+$string['invalidtoken'] = '無効なトークン: トークンが見つかりませんでした。';
 $string['token'] = 'トークン';
 $string['tokenid'] = 'トークン「 %s 」';
 $string['invaliduserselected'] = '無効なユーザが選択されました。';
 $string['invaliduserselectedinstitution'] = 'ユーザ検索から無効なユーザのトークンインスティテューションが選択されました。';
 $string['noservices'] = 'サービスが設定されていません。';
-$string['wssigenc'] = 'WS-Securityを有効にする (XML-RPCのみ)';
-$string['titlewssigenc'] = 'WSSecurity';
+$string['wssigenc'] = 'ウェブサービスセキュリティを有効にする (XML-RPCのみ)';
+$string['titlewssigenc'] = 'ウェブサービスセキュリティ';
 $string['last_access'] = '最終アクセス';
 $string['verifier'] = 'ベリファイアトークン';
 $string['oob'] = 'アウトオブバンドOAuth認証';
@@ -148,7 +148,7 @@ $string['sauthtype'] = '認証タイプ';
 $string['enterparameters'] = '関数パラメータを入力してください。';
 $string['testclientinstructions'] = 'これはウェブサービスのためのインタラクティブテストクライアント機能です。あなたは現在のシステムに対して、関数を選択および実際に実行することができます。あなたが実行するすべての関数は実際に動作することに留意してください。';
 $string['executed'] = '関数コールが実行されました。';
-$string['invaliduserpass'] = '「 %s 」に対して、無効な「wsusername」「wspassword」が提供されました。';
+$string['invaliduserpass'] = '「 %s 」に対して、無効なウェブサービス名およびウェブサービスパスワードが提供されました。';
 $string['accesstokens'] = 'OAuthアクセストークン';
 $string['notokens'] = 'あなたにはアプリケーショントークンがありません。';
 $string['oauth'] = 'OAuth';
@@ -171,7 +171,7 @@ $string['erroruser'] = '無効なユーザが指定されました。';
 $string['authorise'] = 'アプリケーションアクセス権限を与える';
 $string['oauth_access'] = 'このアプリケーションはあなたのユーザ詳細およびリソースにアクセスします。';
 $string['oauth_instructions'] = 'あなたがこのアプリケーションへのアクセス権限を与えたい場合、「アプリケーションアクセス権限を与える」をクリックしてください。あなたがアクセス権限を与えたくない場合、「キャンセル」をクリックしてください。';
-$string['accesstofunctionnotallowed'] = '関数 %s() へのアクセスは許可されていません。サービスが関数を含むことを有効にされているかどうか確認してください。サービス設定において、サービスが制限されている場合でもユーザがリストに記載されているかどうか確認してください。さらにサービス設定ではIP制限およびサービスにケイパビリティが必要かどうか確認されます。';
+$string['accesstofunctionnotallowed'] = '関数「 %s() 」へのアクセスは許可されていません。サービスが関数を含むことを有効にされているかどうか確認してください。サービス設定において、サービスが制限されている場合でもユーザがリストに記載されているかどうか確認してください。さらにサービス設定ではIP制限およびサービスにケイパビリティが必要かどうか確認されます。';
 $string['accessexception'] = 'アクセスコントロール例外';
 $string['accessnotallowed'] = 'ウェブサービスへのアクセスが許可されていません。';
 $string['addfunction'] = '関数を追加する';
@@ -198,10 +198,10 @@ $string['errorinvalidparamsdesc'] = '無効な外部API記述です。';
 $string['errorinvalidresponseapi'] = '無効な外部APIレスポンスです。';
 $string['errorinvalidresponsedesc'] = '無効な外部APIレスポンス記述です。';
 $string['errormissingkey'] = '単一構造の必須キーがありません: %s';
-$string['errornotemptydefaultparamarray'] = '名称「 %s 」のウェブサービス記述パラメータは単一または複数構造です。デフォルトのみ空の配列にすることができます。ウェブサービス記述を確認してください。';
+$string['errornotemptydefaultparamarray'] = '名称「 %s 」のウェブサービス記述パラメータは単一または複数構造です。デフォルトは空の配列にのみすることができます。ウェブサービス記述を確認してください。';
 $string['erroronlyarray'] = '配列のみ許可されます。';
 $string['erroroptionalparamarray'] = '名称「 %s 」のウェブサービス記述パラメータは単一または複数構造です。VALUE_OPTIONALに設定することはできません。ウェブサービス記述を確認してください。';
-$string['errorresponsemissingkey'] = 'レスポンスエラー - 次の単一構造の必須キーがありません: %s';
+$string['errorresponsemissingkey'] = 'レスポンスエラー: 次の単一構造の必須キーがありません: %s';
 $string['errorscalartype'] = 'スカラ型が要求されましたが、配列またはオブジェクトを受信しました。';
 $string['errorunexpectedkey'] = 'パラメータ配列に予期されないキー (%s) が検出されました。';
 $string['execute'] = '実行';
@@ -210,12 +210,12 @@ $string['externalservice'] = '外部サービス';
 $string['failedtolog'] = 'ログインに失敗しました。';
 $string['generalstructure'] = '一般構造';
 $string['information'] = '情報';
-$string['invalidaccount'] = '無効なウェブサービスアカウント - サービスユーザ設定を確認してください。';
+$string['invalidaccount'] = '無効なウェブサービスアカウント: サービスユーザ設定を確認してください。';
 $string['invalidextparam'] = '無効な外部APIパラメータ: %s';
 $string['invalidextresponse'] = '無効な外部APIレスポンス: %s';
-$string['invalidiptoken'] = '無効なトークン - あなたのIPはサポートされていません。';
-$string['invalidtimedtoken'] = '無効なトークン - トークンの有効期限が切れています。';
-$string['invalidtokensession'] = '無効なセッションベースのトークン - セッションが見つからない、または有効期限が切れています。';
+$string['invalidiptoken'] = '無効なトークン: あなたのIPはサポートされていません。';
+$string['invalidtimedtoken'] = '無効なトークン: トークンの有効期限が切れています。';
+$string['invalidtokensession'] = '無効なセッションベースのトークン: セッションが見つからない、または有効期限が切れています。';
 $string['iprestriction'] = 'IP制限';
 $string['key'] = 'キー';
 $string['missingpassword'] = 'パスワードがありません。';
@@ -297,7 +297,7 @@ $string['instmustbeongroup'] = 'グループ「 %s 」にインスティテュ�
 $string['noname'] = '名称または省略名が指定されていません。';
 $string['catinvalid'] = 'カテゴリ「 %s 」が無効です。';
 $string['invalidjointype'] = '無効なJOINタイプの組み合わせです: %s';
-$string['correctjointype'] = '正しいJOINタイプを選択する必要があります: open, request, controlled';
+$string['correctjointype'] = '正しいJOINタイプ (open, request, controlled) を選択する必要があります。';
 $string['groupeditroles'] = '「 %s 」で指定したグループ編集ロールは次の中の1つである必要があります: %s';
 $string['invalidmemroles'] = '無効なグループメンバーシップロール「 %s (ユーザ: %s) 」です。';
 $string['groupnotexist'] = 'グループ「 %s 」は存在しません。';
