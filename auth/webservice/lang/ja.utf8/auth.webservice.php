@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-08-10 04:13:49 UTC
+ * @updated    2015-08-11 13:17:40 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -156,7 +156,7 @@ $string['oauthv1sregister'] = 'OAuthサービス登録';
 $string['userapplications'] = 'OAuthコンシューマキー';
 $string['accessto'] = 'アクセス対象';
 $string['application'] = 'アプリケーション';
-$string['callback'] = 'コールバックURL';
+$string['callback'] = 'コールバックURI';
 $string['consumer_key'] = 'コンシューマキー';
 $string['consumer_secret'] = 'コンシューマ秘密鍵';
 $string['add'] = '追加';
@@ -164,7 +164,7 @@ $string['oauthserverdeleted'] = 'サーバが削除されました。';
 $string['oauthtokendeleted'] = 'アプリケーショントークンが削除されました。';
 $string['errorregister'] = 'サーバ登録に失敗しました。';
 $string['serverkey'] = 'サーバキー: %s';
-$string['application_uri'] = 'アプリケーションURL';
+$string['application_uri'] = 'アプリケーションURI';
 $string['application_title'] = 'アプリケーションタイトル';
 $string['errorupdate'] = '更新に失敗しました。';
 $string['erroruser'] = '無効なユーザが指定されました。';
