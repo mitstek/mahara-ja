@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-07-30 04:57:51 UTC
+ * @updated    2015-08-12 15:51:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -136,7 +136,7 @@ $string['Added'] = '追加済み';
 $string['share'] = '共有';
 $string['sharedbyme'] = '私による共有';
 $string['sharewith'] = '共有対象';
-$string['whosharewith?'] = '誰と共有しますか?';
+$string['whosharewith'] = '誰と共有しますか?';
 $string['accesslist'] = 'アクセスリスト';
 $string['defaultaccesslistmessage'] = 'あなた以外、あなたの選択されたページおよびコレクションを閲覧することができません。アクセス権を与えるには、ユーザを追加してください。';
 $string['sharewithmygroups'] = 'マイグループと共有する';
