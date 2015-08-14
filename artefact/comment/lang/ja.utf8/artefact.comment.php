@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-11-19 05:16:24 UTC
+ * @updated    2015-08-14 16:29:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -48,6 +48,8 @@ $string['feedbackonviewbyuser'] = '%s のフィードバック by %s';
 $string['feedbacksubmitted'] = 'フィードバックが送信されました。';
 $string['feedbacksubmittedmoderatedanon'] = 'フィードバックが送信されました。モデレーションを待っています。';
 $string['feedbacksubmittedprivateanon'] = 'プライベートフィードバックが送信されました。';
+$string['forcepubliccomment'] = 'パブリック';
+$string['forceprivatecomment'] = 'プライベート: この返信はあなたおよび先行するコメントの投稿者にのみ表示されます。';
 $string['lastcomment'] = '最新のコメント';
 $string['makepublic'] = 'パブリックにする';
 $string['makepublicnotallowed'] = 'あなたはこのコメントをパブリックにすることはできません。';
@@ -64,6 +66,11 @@ $string['placefeedback'] = 'フィードバックを投稿する';
 $string['progress_feedback'] = '%s ユーザページのコメント';
 $string['rating'] = 'レーティング';
 $string['reallydeletethiscomment'] = '本当にこのコメントを削除してもよろしいですか?';
+$string['reply'] = '返信';
+$string['replyto'] = '返信:';
+$string['replytonoaccess'] = 'あなたはこのコメントに対する返信の投稿を許可されていません。';
+$string['replytonoprivatereplyallowed'] = 'あなたはこのコメントに対するプライベート返信の投稿を許可されていません。';
+$string['replytonopublicreplyallowed'] = 'あなたはこのコメントに対するパブリック返信の投稿を許可されていません。';
 $string['thiscommentisprivate'] = 'このコメントはプライベート (非公開) です。';
 $string['typefeedback'] = 'フィードバック';
 $string['viewcomment'] = 'コメントを表示する';
