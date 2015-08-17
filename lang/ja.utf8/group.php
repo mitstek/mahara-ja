@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-11-05 16:33:03 UTC
+ * @updated    2015-08-17 06:07:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -332,7 +332,7 @@ $string['removefromgroup'] = 'グループから削除する';
 $string['userremoved'] = 'ユーザが削除されました。';
 $string['About'] = 'About';
 $string['aboutgroup'] = '%s について';
-$string['Joined'] = '登録日';
+$string['Joined'] = '登録';
 $string['invitemembersdescription'] = 'あなたはユーザのプロファイルページ経由、または<a href="%s">同時に複数の招待状を送信する</a>ことで、ユーザにこのグループへの参加を招待することができます。';
 $string['membersdescription:controlled'] = 'これは「管理メンバーシップ」グループです。あなたはユーザをユーザプロファイルページより追加、または<a href="%s">一度に多くのユーザを追加することができます</a>。';
 $string['submit'] = '送信';
