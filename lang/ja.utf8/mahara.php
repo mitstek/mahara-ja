@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-07-31 01:50:46 UTC
+ * @updated    2015-08-17 16:02:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1046,6 +1046,7 @@ $string['content'] = 'コンテンツ';
 $string['modified'] = '修正';
 $string['historical'] = '歴史的データ';
 $string['institutions'] = 'インスティテューション';
+$string['logins'] = 'ログイン';
 $string['members'] = 'メンバー';
 $string['blocks'] = 'ブロック';
 $string['artefacts'] = 'アーティファクト';
