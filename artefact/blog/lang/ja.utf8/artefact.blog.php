@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-06-04 17:52:39 UTC
+ * @updated    2015-08-18 04:31:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,6 +16,8 @@ defined('INTERNAL') || die();
 $string['pluginname'] = '日誌';
 $string['blog'] = '日誌';
 $string['blogs'] = '日誌';
+$string['siteblogs'] = 'サイト日誌';
+$string['institutionblogs'] = 'インスティテューション日誌';
 $string['addblog'] = '日誌を追加する';
 $string['addpost'] = 'エントリを追加する';
 $string['alignment'] = '配置';
@@ -68,6 +70,8 @@ $string['mustspecifycontent'] = 'あなたのエントリのコンテンツを�
 $string['name'] = '名称';
 $string['newattachmentsexceedquota'] = 'このエントリにアップロードした新しいファイルの合計サイズがあなたのクオータを超えました。あなたが追加した添付ファイルを削除することでエントリを保存することができます。';
 $string['newblog'] = '新しい日誌';
+$string['newblogsite'] = '新しいサイト日誌';
+$string['newbloginstitution'] = '新しい「 %s 」日誌';
 $string['newblogpost'] = '日誌「 %s 」の新しい日誌エントリ';
 $string['newerposts'] = '新しいエントリ';
 $string['nodefaultblogfound'] = 'デフォルトの日誌が見つかりませんでした。このシステムバグを修正するには、あなたは<a href="%saccount/index.php">アカウント設定</a>ページにて複数日誌オプションを有効にする必要があります。';
@@ -104,6 +108,7 @@ $string['verticalspace'] = '垂直方向のスペース';
 $string['viewblog'] = '日誌を表示する';
 $string['youarenottheownerofthisblog'] = 'あなたはこの日誌のオーナーではありません。';
 $string['youarenottheownerofthisblogpost'] = 'あなたはこの日誌エントリのオーナーではありません。';
+$string['youarenotanadminof'] = 'あなたは「 %s 」インスティテューションの管理者ではありません。';
 $string['cannotdeleteblogpost'] = 'この日誌エントリの削除中にエラーが発生しました。';
 $string['baseline'] = 'ベースライン揃え';
 $string['top'] = '上揃え';
