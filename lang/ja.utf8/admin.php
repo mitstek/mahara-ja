@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-07-29 15:27:18 UTC
+ * @updated    2015-08-19 15:53:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -199,6 +199,7 @@ $string['filemissingdesc'] = 'ファイル「 %s%s 」がサーバにありま�
 $string['Field'] = 'フィールド';
 $string['Value'] = '値';
 $string['datathatwillbesent'] = '送信されるデータ';
+$string['datathathavebeensent'] = '送信されたデータ';
 $string['sendweeklyupdates'] = '更新内容を週に1回送信しますか?';
 $string['sendweeklyupdatesdescription1'] = 'この設定を有効にした場合、あなたのサイトの統計に関する週ごとの更新をmahara.orgに送信します。';
 $string['Register'] = '登録';
@@ -212,6 +213,7 @@ $string['registeryourmaharasitedetail'] = '<p>あなたは<a href="http://mahara
 <p>あなたが、「更新内容を週に1回送信しますか?」をこの設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
 <p>サイトを登録した後、この通知は取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更することができます。</p>';
 $string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページにて、</p>サイト更新内容の週ごとの送信を有効または無効にすることができます。';
+$string['newsiteregistrationpolicy'] = '<p>最近、私たちはmahara.orgへのデータ送信に関するポリシーを更新しました。あなたの登録を確認してください。</p>';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
 $string['closesitedetail'] = 'あなたは管理者を除く、すべてのユーザに対して、サイトをクローズすることができます。この処理はデータベースアップグレードの処理の準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで、管理者のみログインすることができます。';

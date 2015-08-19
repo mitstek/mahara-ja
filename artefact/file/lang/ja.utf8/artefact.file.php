@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-06-21 14:41:42 UTC
+ * @updated    2015-08-19 15:48:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -281,7 +281,7 @@ $string['createdtwothings'] = '%s および %s を作成しました。';
 $string['filesextractedfromarchive'] = 'アーカイブから解凍されたファイル';
 $string['filesextractedfromziparchive'] = 'Zipアーカイブから解凍されたファイル';
 $string['fileswillbeextractedintofolder'] = 'ファイルは%s に解凍されます。';
-$string['insufficientquotaforunzip'] = 'このファイルを解凍するには、あなたの残りファイルクオータが小さすぎます。';
+$string['insufficientquotaforunzip'] = 'このファイルを解凍するには、あなたの残りファイルクオータが小さすぎます。あなたはスペースを空けるためにファイルを削除すること、あなたのクオータを増やすために管理者に連絡することができます。';
 $string['invalidarchive'] = 'アーカイブファイルの読み込み中にエラーが発生しました。';
 $string['pleasewaitwhileyourfilesarebeingunzipped'] = 'あなたのファイルは解凍中です。しばらくお待ちください。';
 $string['spacerequired'] = '必要サイズ';
