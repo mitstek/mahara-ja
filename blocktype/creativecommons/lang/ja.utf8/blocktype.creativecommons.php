@@ -30,7 +30,7 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'クリエイティブ・コモンズ・ライセンス';
 $string['description'] = 'あなたのページにクリエイティブ・コモンズ・ライセンスを添付します。';
-$string['blockcontent'] = 'コンテンツをブロックする';
+$string['blockcontent'] = 'ブロックコンテンツ';
 $string['alttext'] = 'クリエイティブ・コモンズ・ライセンス';
 $string['cclicensename'] = 'クリエイティブ・コモンズ %s 3.0 Unported';
 $string['cclicensestatement'] = '%s by %s は %s ライセンスの下に提供されています。';
