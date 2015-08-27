@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-08-19 15:53:13 UTC
+ * @updated    2015-08-27 13:51:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -767,6 +767,7 @@ $string['usercreationmethod'] = '1 - ユーザ作成方法';
 $string['basicdetails'] = '2 - 基本情報';
 $string['create'] = '3 - 作成';
 $string['loginas'] = '代理ログイン';
+$string['loginasthisuser'] = 'このユーザとしてログインする';
 $string['loginasuser'] = '%s としてログインする';
 $string['becomeadminagain'] = '%s に戻る';
 $string['loginasdenied'] = 'パーミッションなしで、他のユーザとしてログインを試みました。';
@@ -846,6 +847,7 @@ $string['settingsfor'] = '設定:';
 $string['institutionmembers'] = 'インスティテューションメンバー';
 $string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
 $string['institutionmemberspagedescription'] = 'このページではあなたのインスティテューションにメンバーシップをリクエストしたユーザを閲覧およびメンバーとして登録することができます。また、あなたのインスティテューションからユーザを削除および招待することができます。';
+$string['suspendordeletethisuser'] = 'このユーザを利用停止または削除する';
 $string['institutionusersinstructionsrequesters1'] = '「 %1$s 」フィールドのユーザ一覧では、あなたのインスティテューションへの参加をリクエストしたユーザすべてが表示されます。表示されるユーザ数を減らすため、あなたは検索ボックスを使用することができます。あなたがユーザをインスティテューションに追加したい場合、またはメンバーシップリクエストを拒否したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより、最初にユーザを「 %2$s 」フィールドに移動してください。「メンバーを追加する」ボタンにより、「 %2$s 」フィールド内のユーザすべてをインスティテューションに追加します。「リンクエストを拒否する」ボタンにより、「 %2$s 」フィールド内のユーザのメンバーシップリクエストを削除します。';
 $string['institutionusersinstructionsnonmembers1'] = '「 %1$s 」フィールドのユーザ一覧では、あなたのインスティテューションへの参加をまだリクエストしていないユーザすべてが表示されます。表示されるユーザ数を減らすため、あなたは検索ボックスを使用することができます。ユーザをインスティテューションに参加するよう招待するには、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより、最初にユーザを「 %2$s 」フィールドに移動してください。「ユーザを招待する」ボタンにより、「 %2$s 」フィールド内のユーザすべてに招待状を送信します。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けられません。';
 $string['institutionusersinstructionslastinstitution1'] = '「 %1$s 」フィールドのユーザ一覧では、あなたのインスティテューションへの参加をまだリクエストしていないユーザ、および選択されたインスティテューションを離れたユーザすべてが表示されます。表示されるユーザ数を減らすため、あなたは検索ボックスを使用することができます。ユーザをインスティテューションに参加するよう招待するには、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより、最初にユーザを「 %2$s 」フィールドに移動してください。「ユーザを招待する」ボタンにより、「 %2$s 」フィールド内のユーザすべてに招待状を送信します。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けられません。';
