@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-08-28 16:21:25 UTC
+ * @updated    2015-08-28 16:25:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -720,7 +720,7 @@ $string['probationreportcolumn'] = '保護観察';
 $string['addusertoinstitution'] = 'インスティテューションにユーザを追加する';
 $string['removeuserfrominstitution'] = 'このインスティテューションからユーザを削除する';
 $string['confirmremoveuserfrominstitution'] = 'このインスティテューションから、本当にユーザを削除してもよろしいですか?';
-$string['usereditdescription'] = 'あなたはここでこのユーザアカウントの閲覧および詳細設定することができます。以下であなたはこのアカウントを利用停止または削除することができます。また、このユーザが関わっているインスティテューション内</a>で、設定を変更することもできます。';
+$string['usereditdescription'] = 'あなたはここでこのユーザアカウントの閲覧および詳細設定することができます。以下であなたはこのアカウントを利用停止または削除することができます。また、このユーザが関わっているインスティテューション内で、設定を変更することもできます。';
 $string['usereditwarning'] = '注意: アカウントを変更することで、(現在ログインしている場合) ユーザがログアウトされることになります。';
 $string['suspenduserdescription'] = 'アカウントの利用停止が解除されるまで、利用停止ユーザはログインできません。';
 $string['deleteusernote'] = 'この処理は<b>元に戻すことができません</b>ので注意してください。';
