@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-04-08 04:56:38 UTC
+ * @updated    2015-08-30 13:50:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -37,7 +37,7 @@ $string['itemstoshowdescription'] = '範囲: 1～20';
 $string['showfeeditemsinfull'] = 'フィードアイテムを完全に表示しますか?';
 $string['showfeeditemsinfulldesc'] = 'ここではフィードアイテムの要約を表示するか、それぞれのフィードアイテムの詳細を表示するか選択してください。';
 $string['invalidurl'] = '指定されたURLが有効ではありません。あなたはhttpおよびhttpsのURLからのみフィードを表示することができます。';
-$string['invalidfeed'] = 'フィードが有効ではないようです。レポートされたエラーは次のとおりです: %s';
+$string['invalidfeed'] = 'フィードが有効ではないようです。報告されたエラーは次のとおりです: %s';
 $string['lastupdatedon'] = '最終更新日時: %s';
 $string['defaulttitledescription'] = 'ここを空白にした場合、フィードのタイトルが使用されます。';
 
