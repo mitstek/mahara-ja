@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-08-12 15:51:53 UTC
+ * @updated    2015-08-31 14:27:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -198,6 +198,7 @@ $string['groupviewurltaken'] = 'このURLのページはすでに存在してい
 $string['editblockspagedescription'] = '<p>以下のタブより選択してブロックをドラッグ&ドロップすることで、あなたのページを作成します。</p>';
 $string['displayview'] = 'ページを表示する';
 $string['editthisview'] = 'このページを編集する';
+$string['expandcontract'] = 'ブロックタイプのリストを展開/折りたたむ';
 $string['success.addblocktype'] = 'ブロックが正常に追加されました。';
 $string['err.addblocktype'] = 'あなたのページにブロックを追加できませんでした。';
 $string['success.moveblockinstance'] = 'ブロックが正常に移動されました。';
