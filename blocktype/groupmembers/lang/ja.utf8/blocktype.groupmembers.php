@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-05-16 14:50:46 UTC
+ * @updated    2015-09-03 17:13:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -22,6 +22,6 @@ $string['options_order_title'] = '表示順';
 $string['options_order_desc'] = 'あなたはグループメンバーの表示順に関して、最新グループメンバーまたはランダムを選択することができます。';
 $string['Latest'] = '最新';
 $string['Random'] = 'ランダム';
-$string['defaulttitledescription'] = 'タイトルフィールドを空白にした場合、デフォルトタイトルが適用されます。';
+$string['defaulttitledescription'] = 'タイトルフィールドを空白にした場合、デフォルトタイトルが生成されます。';
 
 ?>
