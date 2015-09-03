@@ -17,6 +17,6 @@ $string['title'] = '最新ページ';
 $string['description1'] = 'このサイトにおいて、あなたがアクセスしたページの中から最近更新されたページを一覧表示します。';
 $string['viewstoshow'] = '表示するページの最大数';
 $string['viewstoshowdescription'] = '設定範囲: 1～100';
-$string['defaulttitledescription'] = 'タイトルフィールドを空白にした場合、デフォルトタイトルが適用されます。';
+$string['defaulttitledescription'] = 'タイトルフィールドを空白にした場合、デフォルトタイトルが生成されます。';
 
 ?>
