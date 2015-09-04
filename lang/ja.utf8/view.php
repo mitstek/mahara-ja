@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-08-31 14:27:00 UTC
+ * @updated    2015-09-04 19:14:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -50,6 +50,9 @@ $string['viewname'] = 'ページ名';
 $string['templatedashboard'] = 'ダッシュボードテンプレート';
 $string['templategrouphomepage'] = 'グループホームページテンプレート';
 $string['templateprofile'] = 'プロファイルテンプレート';
+$string['templateportfolio'] = 'ページテンプレート';
+$string['templateportfoliotitle'] = 'タイトルなし';
+$string['templateportfoliodescription'] = 'あなたのユーザが作成するページのデフォルトのレイアウトをセットアップします。あなたはブロックを追加することもできます。あなたがデフォルトページに追加したコンテンツはユーザが作成するページすべてに表示されることに留意してください。';
 $string['artefacts'] = 'アーティファクト';
 $string['groupviews'] = 'グループページ';
 $string['institutionviews'] = 'インスティテューションページ';
@@ -321,6 +324,7 @@ $string['choosetemplateinstitutionpageandcollectiondescription'] = '<p>ここで
 $string['choosetemplatesitepageandcollectiondescription1'] = '<p>ここでは新しいページ作成の出発点として、サイトレベルでコピー可能なページを検索することができます。ページの名称をクリックすることにより、あなたはそれぞれのページのプレビューを
 表示することができます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため、該当する「ページをコピーする」ボタンをクリックして、コピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックすることにより、ページが属しているコレクション全体コピーすることができます。</p><p><strong>注意:</strong> 現在、日誌、日誌エントリ、プランおよびレジュメ情報をサイトレベルのページでコピーすることはできません。</p>';
 $string['copiedblocksandartefactsfromtemplate'] = '%d 個のブロックおよび %d 件のアーティファクトを %s からコピーしました。';
+$string['copiedblocksandartefactsfromdefaultview'] = 'ページテンプレートから　%d ブロックおよび %d アーティファクトをコピーしました。';
 $string['filescopiedfromviewtemplate'] = '%s からコピーされたファイル';
 $string['viewfilesdirname'] = 'ページファイル';
 $string['viewfilesdirdesc'] = 'コピーされたページのファイル';
@@ -355,6 +359,7 @@ $string['viewswithretainviewrightsmustbecopyable'] = 'ページへの閲覧ア�
 $string['viewscopiedfornewgroupsmustbecopyable'] = '新しいグループがページをコピーできるよう設定する前に、あなたはページのコピーを許可する必要があります。';
 $string['copynewusergroupneedsloggedinaccess'] = '新しいユーザまたはグループにコピーされるページに対して、ログインユーザのアクセス権を与える必要があります。';
 $string['viewcopywouldexceedquota'] = 'このページを追加することで、あなたのファイルクオータを越えてしまいます。';
+$string['viewcreatewouldexceedquota'] = 'このページを作成することで、あなたのファイルクオータを越えてしまいます。';
 $string['blockcopypermission'] = 'ブロックのコピーパーミッション';
 $string['blockcopypermissiondesc'] = 'このページを他のユーザがコピーできるようにした場合、あなたはこのブロックをどのようにコピーできるか選択することができます。';
 $string['latestcreated'] = '作成日時';
