@@ -14,14 +14,14 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'グループページ';
-$string['description'] = 'グループ内で共有されるページを表示します。';
+$string['description'] = 'グループに関連するページを表示します。';
 $string['displaygroupviews'] = 'グループページを表示する';
 $string['displaygroupviewsdesc'] = 'グループページ - グループ内で作成されたページ';
 $string['displaysharedviews'] = '共有ページを表示する';
 $string['displaysharedviewsdesc1'] = 'このグループと共有されているページ (コレクション内のページを除く) の一覧を表示します。';
 $string['displaysharedcollections'] = '共有コレクションを表示する';
 $string['displaysharedcollectionsdesc'] = 'このグループと共有されているコレクションの一覧を表示します。';
-$string['displaysubmissions'] = '送信ページおよびコレクションを表示する';
+$string['displaysubmissions'] = '送信済みページおよびコレクションを表示する';
 $string['displaysubmissionsdesc'] = 'このグループに送信されたページおよびコレクションの一覧を表示します。';
 $string['defaulttitledescription'] = 'タイトルフィールドを空白にした場合、デフォルトタイトルが生成されます。';
 $string['itemstoshow'] = '1ページあたりのエントリ数';
