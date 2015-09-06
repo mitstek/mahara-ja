@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'グループページ';
-$string['description'] = 'グループ内で共有されるページを表示します。';
+$string['description'] = 'グループに関連するページを表示します。';
 $string['displaygroupviews'] = 'グループページを表示しますか?';
 $string['displaygroupviewsdesc'] = 'グループページ - グループ内で作成されたページ';
 $string['displaysharedviews'] = '共有ページを表示しますか?';
