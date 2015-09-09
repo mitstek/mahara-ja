@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-14 22:09:44 UTC
+ * @updated    2015-09-09 18:14:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['title'] = 'イメージギャラリー';
 $string['description1'] = 'あなたのファイルエリアまたは外部ギャラリーからのイメージコレクションです。';
 $string['select'] = 'イメージ選択';
-$string['selectfolder'] = '私のフォルダの1つからイメージすべてを表示します (後でアップロードされたイメージを含む)。';
+$string['selectfolder'] = '後でアップロードされたイメージを含むイメージすべてをフォルダから表示します。';
 $string['selectimages'] = '表示するイメージを選択する';
 $string['selectexternal'] = '外部ギャラリーよりイメージを表示する';
 $string['externalgalleryurl'] = 'ギャラリーURLまたはRSS';

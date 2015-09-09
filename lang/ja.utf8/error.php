@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-06-23 14:26:13 UTC
+ * @updated    2015-09-09 18:28:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -78,7 +78,7 @@ $string['parameterexception'] = '必須パラメータが指定されていま�
 $string['notfound'] = '不明';
 $string['notfoundexception'] = 'あなたが探しているページは見つかりませんでした。';
 $string['accessdenied'] = 'アクセスが拒否されました。';
-$string['accessdeniedobjection'] = 'アクセスが拒否されました - 問題点はすでに別の管理者により解決されています。';
+$string['accessdeniedobjection'] = 'アクセスが拒否されました。問題点はすでに別の管理者により解決されています。';
 $string['accessdeniedexception'] = 'あなたにはこのページを閲覧するアクセス権がありません。';
 $string['viewnotfoundexceptiontitle'] = 'ページが見つかりませんでした。';
 $string['viewnotfoundexceptionmessage'] = 'あなたは存在しないページにアクセスを試みました!';

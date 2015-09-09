@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-08-28 16:25:23 UTC
+ * @updated    2015-09-09 18:26:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -553,22 +553,24 @@ $string['uploadcsverrorduplicateremoteuser'] = 'このファイルの %s 行目�
 $string['uploadcsverrorremoteusertaken'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでにユーザ「 %s 」により取得されています。';
 $string['uploadcsverrorusernotininstitution'] = 'あなたのファイルの　%s 行目にエラーがあります: ユーザ「 %s 」はインスティテューション「 %s 」のメンバーではありません。';
 $string['uploadcsverroruserinaninstitution'] = 'あなたのファイルの　%s 行目にエラーがあります: ユーザ「 %s 」は次のインスティテューションのメンバーです: %s あなたはこのユーザの認証方法を「No Institution」に変更することはできません。';
-$string['uploadcsvpagedescription5'] = '<p>ここであなたは<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
+$string['uploadcsvpagedescription6'] = '<p>ここであなたは<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
 
 <p>あなたのCSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
 <pre>username,password,email,firstname,lastname,studentid</pre>
 
-<p>この行には以下のフィールドを含む必要があります:</p>
+<p>あなたが新しいユーザを作成する場合、この行には以下のフィールドを含む必要があります:</p>
 <ul class="fieldslist">
 <li>username</li>
-<li>password</li>
-<li>email</li>
 <li>firstname</li>
 <li>lastname</li>
+<li>email</li>
+<li>password</li>
 </ul>
 
-<p>必要に応じて、あなたのCSVファイルには他のプロファイルフィールドを含むことができます。任意フィールドのリストは以下の通りです:</p>
+<p>既存のユーザを更新する場合、あなたは「password」を除外することができます。</p>
+
+<p>あなたのCSVファイルには初期値を事前設定するための他のプロファイルフィールドを含むことができます。任意フィールドは以下の通りです:</p>
 
 %s';
 $string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれている行が多すぎます。あなたは %s 以上含むことができません。';
@@ -720,7 +722,7 @@ $string['probationreportcolumn'] = '保護観察';
 $string['addusertoinstitution'] = 'インスティテューションにユーザを追加する';
 $string['removeuserfrominstitution'] = 'このインスティテューションからユーザを削除する';
 $string['confirmremoveuserfrominstitution'] = 'このインスティテューションから、本当にユーザを削除してもよろしいですか?';
-$string['usereditdescription'] = 'あなたはここでこのユーザアカウントの閲覧および詳細設定することができます。以下であなたはこのアカウントを利用停止または削除することができます。また、このユーザが関わっているインスティテューション内で、設定を変更することもできます。';
+$string['usereditdescription1'] = 'あなたはここでこのユーザアカウントを管理することができます。管理には詳細変更、利用停止、削除またはインスティテューションのメンバーシップ変更を含みます。';
 $string['usereditwarning'] = '注意: アカウントを変更することで、(現在ログインしている場合) ユーザがログアウトされることになります。';
 $string['suspenduserdescription'] = 'アカウントの利用停止が解除されるまで、利用停止ユーザはログインできません。';
 $string['deleteusernote'] = 'この処理は<b>元に戻すことができません</b>ので注意してください。';
@@ -1020,7 +1022,7 @@ $string['usershaveloggedin'] = 'ログインしたことのあるユーザ';
 $string['usershaveneverloggedin'] = 'ログインしたことのないユーザ';
 $string['usershaveloggedinsince'] = '次の日時以降ログインしたことのあるユーザ';
 $string['usershavenotloggedinsince'] = '次の日時以降ログインしたことのないユーザ';
-$string['duplicateemailfilter'] = '重複メールアドレスをフィルタする';
+$string['duplicateemailfilter1'] = '重複メールアドレス';
 $string['noemailfound'] = 'メールアドレスが見つかりませんでした。';
 $string['lastlogin'] = '最終ログイン';
 $string['masqueradingreasonrequired'] = 'マスカレーディングの理由を必要とする';
@@ -1061,7 +1063,7 @@ $string['cli_pwreset_makeinternal'] = 'ユーザ認証方法を「内部」に�
 $string['cli_pwreset_nointernalauth'] = 'エラー: デフォルト「内部」認証方法が見つかりませんでした。';
 $string['cli_pwreset_nosuchuser'] = 'エラー: ユーザ名「 %s 」のユーザはデータベース内に存在しません。';
 $string['cli_pwreset_notsupported'] = 'エラー: ユーザ「 %s 」はパスワードリセットをサポートしない認証方法を使用しています。あなたが「内部」認証に変更したい場合、「-i=true」オプションを使用してください。';
-$string['cli_pwreset_password'] = '新しいパスワードです (このパラメータが提供されていない場合、スクリプトはあなたにパスワードの入力を促します)。';
+$string['cli_pwreset_password'] = '新しいパスワードです。このパラメータが提供されていない場合、スクリプトはあなたにパスワードの入力を促します。';
 $string['cli_pwreset_prompt1'] = '新しいパスワードを入力してください。';
 $string['cli_pwreset_prompt2'] = '新しいパスワードをもう一度入力してください。';
 $string['cli_pwreset_success'] = 'ユーザ「 %s 」のパスワードが正常にリセットされました。';
