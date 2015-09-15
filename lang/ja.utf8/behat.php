@@ -13,7 +13,7 @@
 
 defined('INTERNAL') || die();
 
-$string['errorbehatcommand'] = 'behat CLIコマンドの実行中にエラーが発生しました。さらに問題を調査するには、手動による「{$a} --help」 の実行をお試しください。';
+$string['errorbehatcommand'] = 'behat CLIコマンドの実行中にエラーが発生しました。さらに問題を調査するには手動による「{$a} --help」 の実行をお試しください。';
 $string['errorcomposer'] = 'コンポーザ依存関係がインストールされていません。';
 $string['errordataroot'] = '「$CFG->behat_dataroot」が設定されていない、または無効です。';
 $string['errorsetconfig'] = 'config.phpに「$CFG->behat_dataroot」「$CFG->behat_dbprefix」および「$CFG->behat_wwwroot」を設定する必要があります。';

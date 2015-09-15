@@ -52,9 +52,9 @@ $string['indexnamedescription'] = 'Elasticsearchインデックス名です。�
 $string['license'] = 'ライセンス';
 $string['Media'] = 'メディア';
 $string['newindextype'] = 'あなたのElasticsearch設定に新しいインデックスタイプ「 %s 」が追加されました。これが適用されるためには、あなたのサイトを再インデックスする必要があります。';
-$string['noticeenabled'] = '現在、Elasticsearchプラグインは有効にされています。Elasticsearchプラグインを無効にするには、<a href="%s">サイトオプションの検索設定</a>にて、選択解除してください。';
+$string['noticeenabled'] = '現在、Elasticsearchプラグインは有効にされています。Elasticsearchプラグインを無効にするには<a href="%s">サイトオプションの検索設定</a>にて、選択解除してください。';
 $string['noticenotactive'] = 'ホスト: %s およびポート %s のElasticsearchサーバにアクセスできません。動作しているかどうか確認してください。';
-$string['noticenotenabled'] = '現在、Elasticsearchプラグインは無効にされています。Elasticsearchプラグインを有効にするには、<a href="%s">サイトオプションの検索設定</a>にて、選択してください。';
+$string['noticenotenabled'] = '現在、Elasticsearchプラグインは無効にされています。Elasticsearchプラグインを有効にするには<a href="%s">サイトオプションの検索設定</a>にて、選択してください。';
 $string['owner'] = 'オーナー';
 $string['page'] = 'ページ';
 $string['pages'] = 'ページ';
