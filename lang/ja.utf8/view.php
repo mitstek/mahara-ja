@@ -135,7 +135,7 @@ $string['editaccessdescription'] = '<p>デフォルトでは、あなたの %s �
 <p>あなたの設定完了後、続けるためスクロールダウンして「保存」をクリックしてください。</p>';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
 $string['overridingstartstopdatesdescription'] = 'あなたは開始日および終了日をオーバーライドすることができます。アクセス開始日およびアクセス終了日をどのように設定したとしても、開始日以前および終了日以降には他のユーザはビューを閲覧することができません。';
-$string['emptylabel'] = 'このラベルのテキストを入力するには、ここをクリックしてください。';
+$string['emptylabel'] = 'このラベルのテキストを入力するにはここをクリックしてください。';
 $string['empty_block'] = 'ここに配置するアーティファクトを左側のツリーより選択してください。';
 $string['viewinformationsaved'] = 'ビュー情報が正常に保存されました。';
 $string['canteditdontown'] = 'あなたの所有ではないため、このビューを編集できません。';
@@ -167,7 +167,7 @@ $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除し
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
 $string['blockconfigurationrenderingerror'] = 'レンダリングできなかったため、ブロック設定に失敗しました。';
 $string['blocksintructionnoajax'] = 'あなたのビューに追加するブロックを選択してください。あなたはブロックタイトルバーの矢印を使って、ブロックの配置を変更することができます。';
-$string['blocksinstructionajax'] = 'あなたのビューレイアウトにブロックを追加するには、この下にドラッグしてください。あなたのビュー内でドラッグすることで、ブロックの配置を変更することができます。';
+$string['blocksinstructionajax'] = 'あなたのビューレイアウトにブロックを追加するにはこの下にドラッグしてください。あなたのビュー内でドラッグすることで、ブロックの配置を変更することができます。';
 $string['addnewblockhere'] = 'ここに新しいブロックを追加する';
 $string['add'] = '追加';
 $string['addcolumn'] = 'カラムを追加する';
