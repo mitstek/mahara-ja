@@ -96,7 +96,7 @@ $string['accountcreatedtext'] = '%s さん
 ユーザ名: %s
 パスワード: %s
 
-利用開始するには、サイトにアクセスしてください!
+利用開始するにはサイトにアクセスしてください!
 
 %s サイト管理者';
 $string['accountcreatedchangepasswordtext'] = '%s さん
@@ -108,7 +108,7 @@ $string['accountcreatedchangepasswordtext'] = '%s さん
 
 初回ログイン時、あなたはパスワードの変更を求められます。
 
-利用開始するには、サイトにアクセスしてください!
+利用開始するにはサイトにアクセスしてください!
 
 %s サイト管理者';
 $string['accountcreatedhtml'] = '<p>%s さん</p>
@@ -120,7 +120,7 @@ $string['accountcreatedhtml'] = '<p>%s さん</p>
 <li><strong>パスワード:</strong> %s</li>
 </ul>
 
-<p>利用開始するには、<a href=""></a>にアクセスしてください!</p>
+<p>利用開始するには<a href=""></a>にアクセスしてください!</p>
 
 <p>%s サイト管理者</p>';
 $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
@@ -134,7 +134,7 @@ $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 
 <p>初回ログイン時、あなたはパスワードの変更を求められます。</p>
 
-<p>利用開始するには、<a href=""></a>にアクセスしてください!</p>
+<p>利用開始するには<a href=""></a>にアクセスしてください!</p>
 
 <p>%s サイト管理者</p>';
 $string['accountexpirywarning'] = 'アカウント終了通知';
@@ -209,7 +209,7 @@ $string['login'] = 'ログイン';
 $string['loginfailed'] = 'あなたは正しいログイン情報を提供していないようです。あなたのユーザ名およびパスワードが正しいどうか確認してください。';
 $string['loginto'] = '%s にログインする';
 $string['newpassword'] = '新しいパスワード';
-$string['nosessionreload'] = 'ログインするには、ページをリロードしてください。';
+$string['nosessionreload'] = 'ログインするにはページをリロードしてください。';
 $string['oldpassword'] = '現在のパスワード';
 $string['password'] = 'パスワード';
 $string['passwordhelp'] = 'あなたがシステムへのアクセスに使用するパスワードです。';
@@ -220,7 +220,7 @@ $string['passwordtooeasy'] = 'あなたのパスワードは簡単すぎます! 
 $string['register'] = 'ユーザ登録';
 $string['sessiontimedout'] = 'あなたのセッションはタイムアウトしました。続けるには再度ログインしてください。';
 $string['sessiontimedoutpublic'] = 'あなたのセッションはタイムアウトしました。閲覧を続けるには<a href="%s">ログイン</a>してください。';
-$string['sessiontimedoutreload'] = 'あなたのセッションはタイムアウトしました。再度ログインするには、ページをリロードしてください。';
+$string['sessiontimedoutreload'] = 'あなたのセッションはタイムアウトしました。再度ログインするにはページをリロードしてください。';
 $string['username'] = 'ユーザ名';
 $string['preferredname'] = 'ニックネーム';
 $string['usernamehelp'] = 'このシステムにアクセスするため、あなたに与えられたユーザ名です。';
@@ -241,7 +241,7 @@ $string['lastname'] = '姓';
 $string['studentid'] = 'IDナンバー';
 $string['displayname'] = '表示名';
 $string['fullname'] = 'フルネーム';
-$string['registerstep1description'] = 'ようこそ! このサイトを使用するには、最初にユーザ登録してください。また、あなたは<a href="terms.php">使用条件</a>に同意する必要があります。ここで収集したデータは私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
+$string['registerstep1description'] = 'ようこそ! このサイトを使用するには最初にユーザ登録してください。また、あなたは<a href="terms.php">使用条件</a>に同意する必要があります。ここで収集したデータは私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
 $string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常にユーザ登録されました! あなたのアバタとして表示する、任意のプロファイルアイコンを選択することができます。</p>';
 $string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須入力フィールドです。あなたのユーザ登録が完了する前に、すべての必須入力フィールドに入力してください。/p>';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムにユーザ登録できません。';
