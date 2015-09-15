@@ -30,11 +30,11 @@ defined('INTERNAL') || die();
 
 $string['allmydata'] = '私のすべてのデータ';
 $string['chooseanexportformat'] = 'エクスポートフォーマットを選択する';
-$string['clicktopreview'] = 'プレビューするには、ここをクリック';
+$string['clicktopreview'] = 'プレビューするにはここをクリック';
 $string['creatingzipfile'] = 'ZIPファイル作成中';
 $string['Done'] = '完了';
 $string['Export'] = 'エクスポート';
-$string['exportgeneratedsuccessfully'] = 'エクスポートが正常に生成されました。%sダウンロードするには、ここをクリック%s';
+$string['exportgeneratedsuccessfully'] = 'エクスポートが正常に生成されました。%sダウンロードするにはここをクリック%s';
 $string['exportgeneratedsuccessfullyjs'] = 'エクスポートが正常に生成されました。%s続ける%s';
 $string['exportingartefactplugindata'] = 'アーティファクトプラグインデータのエクスポート中';
 $string['exportingartefacts'] = 'アーティファクトのエクスポート中';
@@ -57,6 +57,6 @@ $string['whatdoyouwanttoexport'] = '何をエクスポートしますか?';
 $string['writingfiles'] = 'ファイル書き出し中';
 $string['youarehere'] = 'あなたはここにいます';
 $string['youmustselectatleastoneviewtoexport'] = 'あなたはエクスポートするビューを少なくとも1つ選択する必要があります。';
-$string['zipnotinstalled'] = 'あなたのシステムにはZIPコマンドがありません。この機能を有効にするには、ZIPをインストールしてください。';
+$string['zipnotinstalled'] = 'あなたのシステムにはZIPコマンドがありません。この機能を有効にするにはZIPをインストールしてください。';
 
 ?>
