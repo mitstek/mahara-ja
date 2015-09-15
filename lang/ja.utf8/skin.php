@@ -178,7 +178,7 @@ $string['bolditalic'] = '太字イタリック';
 $string['fonttype'] = 'フォントタイプ';
 $string['headingandtext'] = 'ヘッディングおよびテキスト';
 $string['headingonly'] = 'ヘッディングのみ';
-$string['fontuploadinstructions'] = '<br />必要なフォントファイルをアップロードするには、あなたは<a href="http://www.fontsquirrel.com/fontface/generator/" target="_blank">FontSquirrel Online Generator</a>によって生成されたZIPファイルを直接アップロードするか、
+$string['fontuploadinstructions'] = '<br />必要なフォントファイルをアップロードするにはあなたは<a href="http://www.fontsquirrel.com/fontface/generator/" target="_blank">FontSquirrel Online Generator</a>によって生成されたZIPファイルを直接アップロードするか、
 <br />EOT、SVG、TTF、WOFFおよびライセンスファイルを個別にアップロードすることができます。';
 $string['fontfiles'] = 'フォントファイル';
 $string['fontfilemissing'] = 'ZIPファイルに「 %s 」フォントファイルが含まれていません。';

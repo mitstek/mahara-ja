@@ -22,7 +22,7 @@ $string['searchablefieldsdescription'] = 'ユーザにより検索すること�
 $string['aboutdescription'] = 'あなたの本名をここに入力してください。あなたがシステム内のユーザに異なる名前を表示したい場合、ニックネーム欄に別名を入力してください。';
 $string['infoisprivate'] = 'あなたが他のユーザと共有するため、ページに置かない限り、この情報はプライベート (非公開) となります。';
 $string['viewmyprofile'] = '私のプロファイルを表示する';
-$string['aboutprofilelinkdescription'] = '<p>他のユーザに表示したい情報を編集するには、あなたの<a href="%s">プロファイル</a>ページにアクセスしてください。</p>';
+$string['aboutprofilelinkdescription'] = '<p>他のユーザに表示したい情報を編集するにはあなたの<a href="%s">プロファイル</a>ページにアクセスしてください。</p>';
 $string['aboutme'] = '私について';
 $string['contact'] = '連絡先';
 $string['social'] = 'ソーシャルメディア';

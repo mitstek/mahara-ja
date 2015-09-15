@@ -26,7 +26,7 @@ $string['passwordinvalidform'] = 'あなたのパスワードには少なくと�
 $string['registeredemailsubject'] = 'あなたは %s に登録されました。';
 $string['registeredemailmessagetext'] = '%s さん
 
-%s への登録ありがとうございます。サインアップ処理を完了するには、次のリンクに従ってください:
+%s への登録ありがとうございます。サインアップ処理を完了するには次のリンクに従ってください:
 
 %sregister.php?key=%s
 
@@ -35,7 +35,7 @@ $string['registeredemailmessagetext'] = '%s さん
 --
 %s チーム';
 $string['registeredemailmessagehtml'] = '<p>%s さん</p>
-<p>%s への登録ありがとうございます。サインアップ処理を完了するには、次のリンクに従ってください:</p>
+<p>%s への登録ありがとうございます。サインアップ処理を完了するには次のリンクに従ってください:</p>
 <p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>
 <p>メールに含まれているリンクは24時間のみ有効です。</p>
 
@@ -253,9 +253,9 @@ $string['testclientdescription'] = '* ウェブサービステストクライア
 <br/>
 * まだ既存のウェブサービス関数すべてはテストクライアントに実装されていません。
 <br/>
-* ユーザが関数にアクセスできないことを確認するには、あなたが許可していない関数をテストすることができます。
+* ユーザが関数にアクセスできないことを確認するにはあなたが許可していない関数をテストすることができます。
 <br/>
-* クリアなエラーメッセージを表示するには、{$a->atag} でデバッギングを <strong>{$a->mode}</strong> に設定してください。
+* クリアなエラーメッセージを表示するには{$a->atag} でデバッギングを <strong>{$a->mode}</strong> に設定してください。
 <br/>
 * {$a->amfatag}にアクセスしてください。';
 $string['testwithtestclient'] = 'サービスをテストする';
@@ -283,7 +283,7 @@ $string['nousernameoridgroup'] = 'グループ「 %s 」のユーザ名または
 $string['invaliduser'] = '無効なユーザ「 %s 」です。';
 $string['invaliduserid'] = '無効なユーザID「 %s 」です。';
 $string['invalidusergroup'] = '無効なユーザ「 %s (グループ: %s)」 です。';
-$string['mustsetauth'] = 'ユーザ「 %s 」の認証を更新するには、認証およびインスティテューションを設定する必要があります。';
+$string['mustsetauth'] = 'ユーザ「 %s 」の認証を更新するには認証およびインスティテューションを設定する必要があります。';
 $string['invalidusername'] = '無効なユーザ名「 %s 」です。';
 $string['invalidremoteusername'] = '無効なリモートユーザ名「 %s 」です。';
 $string['musthaveid'] = 'ID、ユーザIDまたはユーザ名が必要です。';

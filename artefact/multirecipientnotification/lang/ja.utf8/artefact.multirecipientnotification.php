@@ -40,6 +40,6 @@ $string['inboxdesc1'] = 'システムおよび他のユーザから受信した�
 $string['replybuttonplaceholder'] = '...';
 $string['selectallread'] = 'すべての未読通知';
 $string['selectalldelete'] = '削除する通知すべて';
-$string['clickformore'] = '(詳細情報を表示するには、「Enter」を押してください)';
+$string['clickformore'] = '(詳細情報を表示するには「Enter」を押してください)';
 
 ?>
