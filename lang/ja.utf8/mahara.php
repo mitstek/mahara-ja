@@ -80,7 +80,7 @@ $string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインのロー�
 
 ----------------------------------------------------------------------------
 
-プラグインを再度有効にするには、あなたのサイトの拡張機能管理ページにアクセスしてください。';
+プラグインを再度有効にするにはあなたのサイトの拡張機能管理ページにアクセスしてください。';
 $string['next'] = '次へ';
 $string['nextpage'] = '次のページ';
 $string['previous'] = '前へ';
@@ -167,7 +167,7 @@ $string['accountcreatedtext'] = '%s さん
 ユーザ名: %s
 パスワード: %s
 
-利用開始するには、%s にアクセスしてください!
+利用開始するには%s にアクセスしてください!
 
 %s サイト管理者';
 $string['accountcreatedchangepasswordtext'] = '%s さん
@@ -179,7 +179,7 @@ $string['accountcreatedchangepasswordtext'] = '%s さん
 
 初回ログイン時、あなたはパスワードの変更を求められます。
 
-利用開始するには、%s にアクセスしてください!
+利用開始するには%s にアクセスしてください!
 
 %s サイト管理者';
 $string['accountcreatedhtml'] = '<p>%s さん</p>
@@ -191,7 +191,7 @@ $string['accountcreatedhtml'] = '<p>%s さん</p>
 <li><strong>パスワード:</strong> %s</li>
 </ul>
 
-<p>利用開始するには、<a href="%s">%s</a>にアクセスしてください!</p>
+<p>利用開始するには<a href="%s">%s</a>にアクセスしてください!</p>
 
 <p>%s サイト管理者</p>';
 $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
@@ -205,7 +205,7 @@ $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 
 <p>初回ログイン時、あなたはパスワードの変更を求められます。</p>
 
-<p>利用開始するには、<a href="%s">%s</a>にアクセスしてください!</p>
+<p>利用開始するには<a href="%s">%s</a>にアクセスしてください!</p>
 
 <p>%s サイト管理者</p>';
 $string['accountexpirywarning'] = 'アカウント終了通知';
@@ -303,7 +303,7 @@ $string['youraccounthasbeenunsuspended'] = 'あなたのアカウントの利用
 $string['changepasswordinfo'] = '開始する前に、あなたはパスワードを変更する必要があります。';
 $string['chooseinstitution'] = 'あなたのインスティテューションを選択する';
 $string['chooseusernamepassword'] = 'あなたのユーザ名およびパスワードを選択する';
-$string['chooseusernamepasswordinfo'] = 'あなたが %s にログインするには、ユーザ名およびパスワードが必要です。あなたのユーザ名およびパスワードを選択してください。';
+$string['chooseusernamepasswordinfo'] = 'あなたが %s にログインするにはユーザ名およびパスワードが必要です。あなたのユーザ名およびパスワードを選択してください。';
 $string['confirmpassword'] = 'パスワードをもう一度';
 $string['deleteaccount'] = '次のアカウントを削除する: %s / %s';
 $string['javascriptnotenabled'] = 'あなたのブラウザではこのサイトに対してJavaスクリプトが有効にされていません。Maharaではあなたがログインする前にJavaスクリプトを有効にする必要があります。';
@@ -317,7 +317,7 @@ $string['loginfailed'] = 'あなたは正しいログイン情報を提供して
 $string['loginto'] = '%s にログインする';
 $string['orloginvia'] = 'または次の認証によりログインする:';
 $string['newpassword'] = '新しいパスワード';
-$string['nosessionreload'] = 'ログインするには、ページをリロードしてください。';
+$string['nosessionreload'] = 'ログインするにはページをリロードしてください。';
 $string['oldpassword'] = '現在のパスワード';
 $string['password'] = 'パスワード';
 $string['passwordhelp'] = 'あなたがシステムへのアクセスに使用するパスワードです。';
@@ -328,7 +328,7 @@ $string['passwordtooeasy'] = 'あなたのパスワードは簡単すぎます! 
 $string['register'] = '登録';
 $string['sessiontimedout'] = 'あなたのセッションはタイムアウトしました。続けるには再度ログインしてください。';
 $string['sessiontimedoutpublic'] = 'あなたのセッションはタイムアウトしました。閲覧を続けるには<a href="%s">ログイン</a>してください。';
-$string['sessiontimedoutreload'] = 'あなたのセッションはタイムアウトしました。再度ログインするには、ページをリロードしてください。';
+$string['sessiontimedoutreload'] = 'あなたのセッションはタイムアウトしました。再度ログインするにはページをリロードしてください。';
 $string['username'] = 'ユーザ名';
 $string['preferredname'] = 'ニックネーム';
 $string['usernamehelp'] = 'このシステムにアクセスするため、あなたに与えられたユーザ名です。';
@@ -346,7 +346,7 @@ $string['lastname'] = '姓';
 $string['studentid'] = 'IDナンバー';
 $string['displayname'] = '表示名';
 $string['fullname'] = 'フルネーム';
-$string['registerwelcome'] = 'ようこそ! このサイトを使用するには、最初にユーザ登録してください。';
+$string['registerwelcome'] = 'ようこそ! このサイトを使用するには最初にユーザ登録してください。';
 $string['registeragreeterms'] = 'また、あなたは<a href="terms.php">使用条件</a>に同意する必要があります。';
 $string['registerprivacy'] = 'ここで収集したデータは私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
 $string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s にユーザ登録されました! あなたのアバタとして表示する、任意のプロファイル写真を選択することができます。</p>';
@@ -403,7 +403,7 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 $string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは私たちに責任があります。もう一度お試しください。';
 $string['forgotpassemailsentanyway1'] = 'このユーザに関して保存されているメールアドレス宛にメールが送信されましたが、メールアドレスが正しくない、または受信サーバがメッセージを戻しました。メールを受信していない場合、あなたのパスワードをリセットするために %s 管理者にご連絡ください。';
 $string['forgotpassnosuchemailaddressorusername'] = 'あなたが入力したメールアドレスはこのサイトのユーザに合致しません。';
-$string['forgotpassuserusingexternalauthentication'] = 'あなたは外部認証方法の使用をリクエストしました。パスワードを変更するには、<a href="%s">あなたの管理者にご連絡ください</a>。または、別のユーザ名またはメールドレスを入力してください。';
+$string['forgotpassuserusingexternalauthentication'] = 'あなたは外部認証方法の使用をリクエストしました。パスワードを変更するには<a href="%s">あなたの管理者にご連絡ください</a>。または、別のユーザ名またはメールドレスを入力してください。';
 $string['forgotpasswordenternew'] = '続けるにはあなたの新しいパスワードを入力してください。';
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';
 $string['passwordchangedok'] = 'あなたのパスワードが正常に変更されました。';

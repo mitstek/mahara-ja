@@ -165,11 +165,11 @@ $string['editaccessdescription'] = 'チェックボックスで選択するこ�
 $string['editaccessgrouppagedescription'] = 'デフォルトでは、ページおよびコレクションを追加および編集できるグループメンバーのみ、グループコレクションおよびページを閲覧することができます。チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editaccessinstitutionpagedescription'] = 'デフォルトでは、あなたのインスティテューションコレクションおよびページをあなたのインスティテューション管理者のみ閲覧することができます。チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editaccesssitepagedescription'] = 'デフォルトでは、サイトコレクションおよびページをサイト管理者のみ閲覧することができます。チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
-$string['editsecreturlsintable'] = '個別に設定する必要があるため、このページでは<b>シークレットURL</b>を設定できません。シークレットURLを設定するには、<a href="%s">コレクションおよびページの一覧</a>に戻ってください。';
+$string['editsecreturlsintable'] = '個別に設定する必要があるため、このページでは<b>シークレットURL</b>を設定できません。シークレットURLを設定するには<a href="%s">コレクションおよびページの一覧</a>に戻ってください。';
 $string['editaccessinvalidviewset'] = '無効な一連のページおよびコレクションのアクセスを編集しようとしました。';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
 $string['overridingstartstopdatesdescription'] = 'あなたは開始日および終了日をオーバーライドすることができます。アクセス開始日およびアクセス終了日をどのように設定したとしても、開始日以前および終了日以降には他のユーザはページを閲覧することができません。';
-$string['emptylabel'] = 'このラベルのテキストを入力するには、ここをクリックしてください。';
+$string['emptylabel'] = 'このラベルのテキストを入力するにはここをクリックしてください。';
 $string['empty_block'] = 'ここに配置するアーティファクトを左側のツリーより選択してください。';
 $string['viewinformationsaved'] = 'ページ情報が正常に保存されました。';
 $string['canteditdontown'] = 'あなたの所有ではないため、このページを編集できません。';
@@ -203,7 +203,7 @@ $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除し
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
 $string['blockconfigurationrenderingerror'] = 'レンダリングできなかったため、ブロック設定に失敗しました。';
 $string['blocksintructionnoajax'] = 'あなたのページに追加するブロックを選択してください。あなたはブロックタイトルバーの矢印を使って、ブロックの配置を変更することができます。';
-$string['blocksinstructionajax'] = 'このエリアではあなたのページがどのように表示されるかプレビューを表示します。<br />あなたのページレイアウトにブロックを追加するには、この行の下にドラッグしてください。あなたのページ内でドラッグすることで、ブロックの配置を変更することができます。';
+$string['blocksinstructionajax'] = 'このエリアではあなたのページがどのように表示されるかプレビューを表示します。<br />あなたのページレイアウトにブロックを追加するにはこの行の下にドラッグしてください。あなたのページ内でドラッグすることで、ブロックの配置を変更することができます。';
 $string['addnewblockhere'] = 'ここに新しいブロックを追加する';
 $string['add'] = '追加';
 $string['addcolumn'] = 'カラムを追加する';
