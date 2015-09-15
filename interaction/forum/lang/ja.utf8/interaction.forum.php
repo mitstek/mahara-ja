@@ -49,7 +49,7 @@ $string['cantfindtopic'] = 'ID %s のトピックが見つかりませんでし�
 $string['cantviewforums'] = 'あなたはこのグループのフォーラムを閲覧できません。';
 $string['cantviewtopic'] = 'あなたはこのフォーラムのトピックを閲覧できません。';
 $string['chooseanaction'] = '処理を選択する ...';
-$string['clicksetsubject'] = '件名を入力するには、ここをクリックしてください。';
+$string['clicksetsubject'] = '件名を入力するにはここをクリックしてください。';
 $string['Closed'] = 'クローズド';
 $string['Close'] = 'クローズ';
 $string['closeddescription'] = 'クローズドトピックではモデレータおよびグループ管理者のみ返信することができます。';
@@ -88,10 +88,10 @@ $string['forumposttemplate'] = '%s by %s
 %s
 
 ------------------------------------------------------------------------
-オンライン上で投稿を閲覧するには、次のリンクにアクセスしてください:
+オンライン上で投稿を閲覧するには次のリンクにアクセスしてください:
 %s
 
-この %s から購読解除するには、次のリンクにアクセスしてください:
+この %s から購読解除するには次のリンクにアクセスしてください:
 %s';
 $string['forumsuccessfulsubscribe'] = 'フォーラムのメール購読が正常に登録されました。';
 $string['forumsuccessfulunsubscribe'] = 'フォーラムのメール購読が正常に解除されました。';
