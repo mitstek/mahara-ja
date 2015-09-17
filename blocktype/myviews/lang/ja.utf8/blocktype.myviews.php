@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-28 06:13:35 UTC
+ * @updated    2015-09-17 19:13:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -30,6 +30,6 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'マイページ';
 $string['otherusertitle'] = '%s のページ';
-$string['description'] = 'あなたのプロファイルでユーザが閲覧することのできる、すべてのページを表示します。';
+$string['description'] = 'あなたのプロファイルを閲覧しているユーザに対して、あなたの閲覧可能なページすべてを表示します。';
 
 ?>
