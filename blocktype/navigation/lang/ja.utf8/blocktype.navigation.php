@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-23 22:29:09 UTC
+ * @updated    2015-09-20 16:16:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -32,6 +32,6 @@ $string['defaulttitledescription'] = 'ここを空白にした場合、コレク
 $string['collection'] = 'コレクション';
 $string['title'] = 'ナビゲーション';
 $string['description'] = 'ページのコレクションをシンプルなナビゲーションとして表示します。';
-$string['nocollections'] = 'コレクションはありません。<a href="%scollection/create.php">コレクションを作成してください</a>。';
+$string['nocollections'] = 'コレクションはありません。<a href="%scollection/edit.php?new=1">コレクションを作成してください</a>。';
 
 ?>
