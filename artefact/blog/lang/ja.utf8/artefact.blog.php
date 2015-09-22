@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-08-31 14:23:27 UTC
+ * @updated    2015-09-22 12:27:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -139,7 +139,7 @@ $string['feedrights'] = '著作権 %s';
 $string['enablemultipleblogstext'] = 'あなたには1件の日誌があります。あなたが2件目の日誌を作成したい場合、<a href="%saccount/index.php">アカウント設定</a>ページにて、複数日誌オプションを有効にしてください。';
 $string['hiddenblogsnotification'] = '新たに日誌が作成されましたが、あなたのアカウントでは複数日誌オプションが有効にされていません。あなたは<a href="%saccount/index.php">アカウント設定</a>ページにて、複数日誌オプションを設定することができます。';
 $string['shortcutaddpost'] = '新しいエントリを追加する:';
-$string['shortcutgo'] = 'Go';
+$string['shortcutadd'] = '追加';
 $string['shortcutnewentry'] = '新しいエントリ';
 $string['duplicatedblog'] = '複製日誌';
 $string['existingblogs'] = '既存日誌';
