@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-09-09 18:28:47 UTC
+ * @updated    2015-09-23 21:35:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -56,6 +56,7 @@ $string['dbversioncheckfailed'] = 'あなたのデータベースサーバのバ
 $string['plpgsqlnotavailable'] = 'あなたのPostgresでは、PL/pgSQL言語が有効にされていません。また、MaharaもPL/pgSQL言語を有効にすることはできません。あなたのデータベースに手動でPL/pgSQLをインストールしてください。この作業のインストラクションに関して、次をご覧ください: https://wiki.mahara.org/index.php/System_Administrator%27s_Guide/Enabling_Plpgsql';
 $string['mysqlnotriggerprivilege'] = 'データベーストリガの作成に関して、Maharaはパーミッションを必要とします。しかし、データベーストリガを作成できないようです。あなたのMySQLインストール内にて、適切なユーザにトリガ権限が割り当てられていることを確認してください。この作業のインストラクションに関して、次をご覧ください: https://wiki.mahara.org/index.php/System_Administrator%27s_Guide/Granting_Trigger_Privilege';
 $string['mbstringneeded'] = 'PHPのmbstring拡張モジュールをインストールしてください。あなたがユーザ名にUTF-8文字を使用している場合、この拡張モジュールが必要です。インストールしない場合、ユーザはログインすることができません。';
+$string['cssnotpresent'] = 'あならのhtdocs/theme/raw/styleディレクトリ内にCSSファイルが存在しません。あなたがgitチェックアウトからMaharaを動作させている場合、CSSファイルを構築するために「make css」をじっこうしてください。あなたがZIPダウンロードよりMaharaを動作させている場合、再度ダウンロードおよび解凍をお試しください。';
 $string['blocktypenametaken'] = 'ブロックタイプ %s はすでに他のプラグイン (%s) に取得されています。';
 $string['artefacttypenametaken'] = 'アーティファクトタイプ %s はすでに他のプラグイン (%s) に取得されています。';
 $string['artefacttypemismatch'] = 'アーティファクトタイプが一致しません。あなたはこの %s に関して、%s としての使用を試みています。';

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-08-18 00:31:22 UTC
+ * @updated    2015-09-23 21:36:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -67,10 +67,10 @@ $string['currentskin'] = '現在のスキン';
 $string['skinnotselected'] = 'スキン未選択';
 $string['noskin'] = 'スキンなし';
 $string['skingeneraloptions'] = '一般';
-$string['skinbackgroundoptions'] = 'スキン背景';
+$string['skinbackgroundoptions1'] = '拝啓';
 $string['viewbackgroundoptions'] = 'ページ背景';
 $string['viewheaderoptions'] = 'ページヘッダ';
-$string['viewcontentoptions'] = 'ページフォントおよび色';
+$string['viewcontentoptions1'] = 'フォントおよび色';
 $string['viewtableoptions'] = 'ページテーブルおよびボタン';
 $string['viewadvancedoptions'] = '高度';
 $string['skintitle'] = 'スキンタイトル';
@@ -81,7 +81,7 @@ $string['publicskinaccess'] = 'これはパブリックスキンです。';
 $string['siteskinaccess'] = 'これはサイトスキンです。';
 $string['Untitled'] = 'タイトルなし';
 $string['backgroundcolor'] = '背景色';
-$string['bodybgcolor'] = 'スキン背景色';
+$string['bodybgcolor1'] = '背景色';
 $string['viewbgcolor'] = 'ページ背景色';
 $string['textcolor'] = 'テキスト色';
 $string['textcolordescription'] = 'これは通常テキストの色です。';
@@ -89,7 +89,7 @@ $string['headingcolor'] = 'ヘッディングテキスト色';
 $string['headingcolordescription'] = 'これはページヘッディングの色です。';
 $string['emphasizedcolor'] = '強調テキスト色';
 $string['emphasizedcolordescription'] = 'これはページサブヘッディングおよび強調テキストの色です。';
-$string['bodybgimage'] = 'スキン背景イメージ';
+$string['bodybgimage1'] = '背景イメージ';
 $string['viewbgimage'] = 'ページ背景イメージ';
 $string['backgroundrepeat'] = '背景イメージの繰り返し';
 $string['backgroundrepeatboth'] = '両方向に繰り返す';

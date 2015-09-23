@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-09-11 15:33:51 UTC
+ * @updated    2015-09-23 21:37:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -86,6 +86,7 @@ $string['ascending'] = '昇順';
 $string['descending'] = '降順';
 $string['sortorder'] = 'ファイルの並び順';
 $string['All'] = 'すべて';
+$string['Allinstitutions'] = 'すべてのインスティテューション';
 $string['none'] = 'なし';
 $string['selectall'] = 'すべてを選択する';
 $string['selectnone'] = 'すべての選択を解除する';
@@ -1020,7 +1021,6 @@ $string['usersdashboard'] = '%s のダッシュボード';
 $string['dashboarddescription'] = 'ダッシュボードページはあなたがログインして最初にホームページ上で閲覧することになるページです。このページはあなたのみアクセスすることができます。';
 $string['topicsimfollowing'] = '私がフォローしているトピック';
 $string['inboxblocktitle'] = '受信箱';
-$string['watchlistblocktitle'] = '私がフォローしているページ';
 $string['mymessages'] = 'マイメッセージ';
 $string['pleasedonotreplytothismessage'] = 'このメッセージに返信しないでください。';
 $string['deleteduser'] = '削除済みユーザ';
