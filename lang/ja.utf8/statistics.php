@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-08-17 16:02:34 UTC
+ * @updated    2015-09-24 16:27:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -88,7 +88,7 @@ $string['blocktype_inbox'] = 'ブロック: マイ受信箱';
 $string['blocktype_internalmedia'] = 'ブロック: 埋め込みメディア';
 $string['blocktype_myfriends'] = 'ブロック: マイフレンド';
 $string['blocktype_mygroups'] = 'ブロック: マイグループ';
-$string['blocktype_myviews'] = 'ブロック: マイページ';
+$string['blocktype_myviews'] = 'ブロック: マイポートフォリオ';
 $string['blocktype_navigation'] = 'ブロック: ナビゲーション';
 $string['blocktype_newviews'] = 'ブロック: 最新ページ';
 $string['blocktype_plans'] = 'ブロック: プラン';
