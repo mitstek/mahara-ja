@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-04-20 14:42:30 UTC
+ * @updated    2015-09-27 15:47:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -28,7 +28,7 @@
 
 defined('INTERNAL') || die();
 
-$string['title'] = '「グループ」フォーラムの最近の投稿';
+$string['title'] = 'フォーラムの最近の投稿';
 $string['description'] = 'グループフォーラムの最近の投稿を表示します。';
 $string['group'] = 'グループ';
 $string['nogroupstochoosefrom'] = '申し訳ございません、選択できるグループがありません。';
