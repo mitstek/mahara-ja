@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-06-30 08:51:05 UTC
+ * @updated    2015-09-28 04:33:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -113,6 +113,8 @@ $string['profilepage'] = 'プロファイルページ';
 $string['viewprofilepage'] = 'プロファイルページを表示する';
 $string['viewallprofileinformation'] = 'すべてのプロファイル情報を表示する';
 $string['Note'] = 'ノート';
+$string['noteTitle'] = 'ノートタイトル';
+$string['blockTitle'] = 'ブロックタイトル';
 $string['Notes'] = 'ノート';
 $string['mynotes'] = 'マイノート';
 $string['notesfor'] = '%s のノート';
