@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-09-22 12:41:25 UTC
+ * @updated    2015-09-29 18:55:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -186,6 +186,8 @@ $string['groupfilequotadescription'] = 'グループファイルエリアでの�
 $string['groupadminsforgroup'] = '「 %s 」のグループ管理者';
 $string['potentialadmins'] = '潜在的な管理者';
 $string['currentadmins'] = '現在の管理者';
+$string['makeusersintoadmins'] = '選択したユーザを管理者にする';
+$string['makeadminsintousers'] = '選択した管理者をユーザに戻す';
 $string['groupadminsupdated'] = 'グループ管理者が更新されました。';
 $string['groupquotaupdated'] = 'グループクオータが更新されました。';
 $string['addnewgroupcategory'] = '新しいグループカテゴリを入力する';
@@ -665,6 +667,8 @@ $string['staffuserspagedescription1'] = 'ここであなたはどのユーザが
 $string['institutionstaffuserspagedescription1'] = 'ここであなたはどのユーザがあなたのインスティテューションのスタッフになるのか選択することができます。現在のスタッフは「現在のスタッフ」フィールドに、潜在的なスタッフは「インスティテューションメンバー」フィールドに一覧表示されます。';
 $string['potentialstaff'] = '潜在的なスタッフ';
 $string['currentstaff'] = '現在のスタッフ';
+$string['makeusersintostaff'] = '選択したユーザをスタッフにする';
+$string['makestaffintousers'] = '選択したスタッフをユーザに戻す';
 $string['staffusersupdated'] = 'スタッフユーザが更新されました。';
 $string['deleteusers'] = 'ユーザを削除する';
 $string['deleteuser'] = 'ユーザを削除する';
