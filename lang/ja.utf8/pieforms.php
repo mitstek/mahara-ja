@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-09-23 20:06:47 UTC
+ * @updated    2015-09-29 18:53:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -30,6 +30,7 @@ $string['element.expiry.years'] = '年';
 $string['element.expiry.noenddate'] = '終了日なし';
 $string['element.files.addattachment'] = '添付を追加する';
 $string['element.select.other'] = 'その他';
+$string['element.select.remove'] = '「 %s 」を削除する';
 $string['element.color.transparent'] = 'デフォルト';
 $string['rule.before.before'] = 'フィールド「 %s 」の後に設定することはできません';
 $string['rule.email.email'] = 'メールアドレスが有効ではありません';
