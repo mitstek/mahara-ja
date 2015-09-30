@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-08-17 06:03:39 UTC
+ * @updated    2015-09-30 18:31:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -70,8 +70,8 @@ $string['editwindowbetween'] = '%s - %s';
 $string['editwindowfrom'] = '%s から';
 $string['editwindowuntil'] = '%s まで';
 $string['groupadmins'] = 'グループ管理者';
-$string['editroles'] = '誰がページを編集できますか?';
-$string['editrolesdescription'] = 'グループページを作成および編集できるロールです。';
+$string['editroles1'] = '作成および編集';
+$string['editrolesdescription1'] = 'グループページ、日誌およびファイルを作成および編集できるロールです。';
 $string['allexceptmember'] = '一般メンバーを除く全員';
 $string['Admin'] = '管理者';
 $string['publiclyviewablegroup'] = 'パブリックに閲覧可能なグループ';
