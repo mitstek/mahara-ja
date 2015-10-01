@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-09-09 16:46:08 UTC
+ * @updated    2015-10-01 16:45:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -32,7 +32,7 @@ $string['title'] = 'ウォール';
 $string['otherusertitle'] = '%s のウォール';
 $string['description'] = 'ユーザがあなたにコメントを残すことのできるエリアを表示します。';
 $string['noposts'] = '表示できるウォール投稿はありません。';
-$string['makeyourpostprivate'] = 'あなたの投稿をプライベート (非公開) にしますか?';
+$string['makeyourpostprivate'] = 'あなたの投稿をプライベートにする';
 $string['viewwall'] = 'ウォールを表示する';
 $string['backtoprofile'] = 'プロファイルに戻る';
 $string['wall'] = 'ウォール';
@@ -46,7 +46,7 @@ $string['deletepostsuccess'] = '投稿が正常に削除されました。';
 $string['addpostsuccess'] = '投稿が正常に追加されました。';
 $string['maxcharacters'] = '1投稿あたり、最大 %s 文字入力可能です。';
 $string['sorrymaxcharacters'] = '申し訳ございません、あなたは %s 文字以上、投稿することができません。';
-$string['posttextrequired'] = 'このフィールドは必須入力項目です。';
+$string['posttextrequired'] = 'このフィールドは必須入力です。';
 $string['postsizelimit'] = '投稿サイズ制限';
 $string['postsizelimitdescription'] = 'ここであなたはウォールの投稿サイズを制限することができます。既存の投稿に関して、変更されることはありません。';
 $string['postsizelimitmaxcharacters'] = '最大文字数';
