@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-11-16 21:10:30 UTC
+ * @updated    2015-10-01 16:47:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -32,7 +32,7 @@ $string['title'] = 'ウォール';
 $string['otherusertitle'] = '%s のウォール';
 $string['description'] = 'ユーザがあなたにコメントを残すことのできるエリアを表示します。';
 $string['noposts'] = '表示できるウォール投稿はありません。';
-$string['makeyourpostprivate'] = 'あなたの投稿をプライベート (非公開) にしますか?';
+$string['makeyourpostprivate'] = 'あなたの投稿をプライベートにしますか?';
 $string['viewwall'] = 'ウォールを表示する';
 $string['backtoprofile'] = 'プロファイルに戻る';
 $string['wall'] = 'ウォール';
