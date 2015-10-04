@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-08-11 13:17:11 UTC
+ * @updated    2015-10-04 17:01:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -135,6 +135,7 @@ $string['sha1fingerprint'] = 'SHA1フィンガープリント: %s';
 $string['md5fingerprint'] = 'MD5フィンガープリント: %s';
 $string['publickeyexpireson'] = 'パブリックキー有効期限: %s';
 $string['function'] = '関数';
+$string['wsdocdescription'] = '説明';
 $string['method'] = 'メソッド';
 $string['class'] = 'クラス';
 $string['arguments'] = '変数';
