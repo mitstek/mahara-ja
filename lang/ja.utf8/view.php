@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-05-14 05:13:49 UTC
+ * @updated    2015-10-04 17:07:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,7 +20,6 @@ $string['editcontent'] = 'コンテンツを編集する';
 $string['editcontentandlayout'] = 'コンテンツおよびレイアウトを編集する';
 $string['editlayout'] = 'レイアウトを編集する';
 $string['editaccess'] = 'アクセスを編集する';
-$string['editaccessfor'] = 'アクセスを編集する (ID %s)';
 $string['next'] = '次へ';
 $string['back'] = '戻る';
 $string['title'] = 'ページタイトル';
@@ -84,10 +83,14 @@ $string['youhaventcreatedanyviewsyet'] = 'あなたはまだページを作成�
 $string['youhaveoneview'] = 'あなたには 1 件のページがあります。';
 $string['youhaveviews'] = 'あなたには %s 件のページがあります。';
 $string['viewsownedbygroup'] = 'このグループが所有しているページ';
+$string['nogroupviewsyet'] = 'まだこのグループにはページがありません。';
 $string['viewssharedtogroup'] = 'このグループで共有されているページ';
+$string['nosharedviewsyet'] = 'まだこのグループと共有されているページはありません。';
 $string['viewssharedtogroupbyothers'] = 'このグループで共有されている他のメンバーのページ';
 $string['submissionstogroup'] = 'このグループへの送信';
+$string['nosubmittedviewscollectionsyet'] = 'まだこのグループに送信されたページまたはコレクションはありません。';
 $string['submittogroup'] = 'このグループにページまたはコレクションを送信する';
+$string['yoursubmissions'] = 'あなたの送信';
 $string['youhavesubmitted'] = 'あなたはこのグループに <a href="%s">%s</a> を送信しました。';
 $string['youhavesubmittedon'] = 'あなたはこのグループに対して、<a href="%s">%s</a> を %s　%s に送信しました。';
 $string['listedinpages'] = 'ページ内一覧';
@@ -99,7 +102,6 @@ $string['users'] = 'ユーザ';
 $string['everyoneingroup'] = 'グループのユーザすべて';
 $string['token'] = 'シークレットURL';
 $string['editsecreturlaccess'] = 'シークレットURLアクセスを編集する';
-$string['editsecreturlaccessfor'] = 'シークレットURLアクセスを編集する (ID %s)';
 $string['newsecreturl'] = '新しいシークレットURL';
 $string['reallydeletesecreturl'] = '本当にこのURLを削除してもよろしいですか?';
 $string['secreturldeleted'] = 'あなたのシークレットURLが削除されました。';
