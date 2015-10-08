@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-10-14 08:54:47 UTC
+ * @updated    2015-10-08 10:16:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -63,12 +63,12 @@ $string['deletetopicsuccess'] = 'トピックが正常に削除されました�
 $string['deletetopicsure'] = '本当にこの処理を実行してもよろしいですか? 元に戻すことはできません。';
 $string['editpost'] = '投稿を編集する';
 $string['editpostsuccess'] = '投稿が正常に編集されました。';
-$string['editstothispost'] = 'この投稿に対する編集';
+$string['editstothispost'] = 'この投稿に対する編集:';
 $string['edittitle'] = 'フォーラムを編集する';
 $string['edittopic'] = 'トピックを編集する';
 $string['edittopicsuccess'] = 'トピックが正常に編集されました。';
-$string['forumsuccessfulsubscribe'] = 'フォーラムのメール購読が正常に登録されました。';
-$string['forumsuccessfulunsubscribe'] = 'フォーラムのメール購読が正常に解除されました。';
+$string['forumsuccessfulsubscribe'] = 'フォーラムが正常に購読されました。';
+$string['forumsuccessfulunsubscribe'] = 'フォーラムが正常に購読解除されました。';
 $string['groupowner'] = 'グループオーナー';
 $string['groupownerlist'] = 'グループオーナー:';
 $string['Key'] = 'キー';
@@ -114,15 +114,15 @@ $string['topicclosedsuccess'] = 'トピックが正常にクローズされま�
 $string['topicisclosed'] = 'このトピックはクローズされました。モデレータおよびグループ管理者のみ新しい返信を投稿できます。';
 $string['topicopenedsuccess'] = 'トピックが正常にオープンされました。';
 $string['topicstickysuccess'] = 'トピックが正常にスティッキー設定されました。';
-$string['topicsubscribesuccess'] = 'トピックのメール購読が正常に登録されました。';
+$string['topicsubscribesuccess'] = 'トピックが正常に購読されました。';
 $string['topicunstickysuccess'] = 'トピックが正常にスティッキー設定解除されました。';
-$string['topicunsubscribesuccess'] = 'トピックのメール購読が正常に解除されました。';
+$string['topicunsubscribesuccess'] = 'トピックが正常に購読解除されました。';
 $string['topicupdatefailed'] = 'トピックの更新に失敗しました。';
 $string['typenewpost'] = '新しいフォーラム投稿';
 $string['Unsticky'] = 'スティッキー解除';
-$string['Unsubscribe'] = 'メール購読解除';
-$string['unsubscribefromforum'] = 'フォーラムのメール購読を解除する';
-$string['unsubscribefromtopic'] = 'トピックのメール購読を解除する';
+$string['Unsubscribe'] = '購読解除';
+$string['unsubscribefromforum'] = 'フォーラムを購読解除する';
+$string['unsubscribefromtopic'] = 'トピックを購読解除する';
 $string['updateselectedtopics'] = '選択したトピックを更新する';
 $string['today'] = '今日';
 $string['yesterday'] = '昨日';
