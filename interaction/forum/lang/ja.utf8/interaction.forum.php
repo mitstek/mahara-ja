@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-03 19:50:06 UTC
+ * @updated    2015-10-08 10:28:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,7 +17,7 @@ $string['addpostsuccess'] = '投稿が正常に追加されました。';
 $string['addtitle'] = 'フォーラムを追加する';
 $string['addtopic'] = 'トピックを追加する';
 $string['addtopicsuccess'] = 'トピックが正常に追加されました。';
-$string['autosubscribeusers'] = 'ユーザを自動的にメール購読させますか?';
+$string['autosubscribeusers'] = 'ユーザを自動的にメール購読させる';
 $string['autosubscribeusersdescription'] = 'このフォーラムに対して、グループユーザが自動的にメール購読されるかどうか選択してください。';
 $string['Body'] = '本文';
 $string['cantaddposttoforum'] = 'あなたはこのフォーラムに投稿できません。';
@@ -55,7 +55,7 @@ $string['deletetopicsuccess'] = 'トピックが正常に削除されました�
 $string['deletetopicsure'] = '本当にこの処理を実行してもよろしいですか? 元に戻すことはできません。';
 $string['editpost'] = '投稿を編集する';
 $string['editpostsuccess'] = '投稿が正常に編集されました。';
-$string['editstothispost'] = 'この投稿に対する編集';
+$string['editstothispost'] = 'この投稿に対する編集:';
 $string['edittitle'] = 'フォーラムを編集する';
 $string['edittopic'] = 'トピックを編集する';
 $string['edittopicspecific'] = 'トピック「 %s 」を編集する';
@@ -69,8 +69,7 @@ $string['forumposthtmltemplate'] = '<div style="padding: 0.5em 0; border-bottom:
 <p><a href="%s">この投稿にオンライン上で返信する</a></p>
 <p><a href="%s">この %s から購読解除する</a></p>
 </div>';
-$string['forumposttemplate'] = '%s by %s
-%s
+$string['forumposttemplate'] = 'フォーラム: %s (%s)
 ------------------------------------------------------------------------
 
 %s
@@ -82,8 +81,8 @@ $string['forumposttemplate'] = '%s by %s
 この %s から購読解除するには次のリンクにアクセスしてください:
 %s';
 $string['forumsettings'] = 'フォーラム設定';
-$string['forumsuccessfulsubscribe'] = 'フォーラムのメール購読が正常に登録されました。';
-$string['forumsuccessfulunsubscribe'] = 'フォーラムのメール購読が正常に解除されました。';
+$string['forumsuccessfulsubscribe'] = 'フォーラムが正常に購読されました。';
+$string['forumsuccessfulunsubscribe'] = 'フォーラムが正常に購読解除されました。';
 $string['gotoforums'] = 'フォーラムに移動する';
 $string['groupadmins'] = 'グループ管理者';
 $string['groupadminlist'] = 'グループ管理者:';
@@ -118,7 +117,7 @@ $string['Open'] = 'オープン';
 $string['Order'] = '並び順';
 $string['orderdescription'] = '他のフォーラムに対して、あなたがこのフォーラムを配置したい場所を選択してください。';
 $string['Post'] = '投稿';
-$string['postaftertimeout'] = 'あなたは %s 分のタイムアウト後に変更を送信しました。あなたの変更は適用されません。';
+$string['postaftertimeout'] = 'あなたは %s 分のタイムアウト後に変更を送信しました。あなたの変更は適用されませんでした。';
 $string['postbyuserwasdeleted'] = '%s による投稿が削除されました。';
 $string['postsbyuserweredeleted'] = '%s 件の投稿 (投稿者: %s) が削除されました。';
 $string['postdelay'] = '投稿遅延';
@@ -129,7 +128,7 @@ $string['postobjectionable'] = 'この投稿はあなたにより好ましくな
 $string['postnotobjectionable'] = 'この投稿は好ましくないコンテンツを含んでいると報告されました。事実とは異なる場合、あなたはボタンをクリックして通知を削除した後、他の管理者に通知することができます。';
 $string['postnotobjectionablebody'] = '%s は前に好ましくないコンテンツであると報告された %s による投稿を調査して、もはや好ましくないコンテンツは含んでいないとマークしました。';
 $string['postnotobjectionablesubject'] = 'フォーラムトピック「 %s 」の投稿は %s によって好ましくない投稿ではないとマークされました。';
-$string['postnotobjectionablesuccess'] = '投稿が好ましくない投稿としてマークされました。';
+$string['postnotobjectionablesuccess'] = '投稿が好ましくない投稿ではないとマークされました。';
 $string['postnotobjectionablesubmit'] = '好ましくない投稿ではない';
 $string['postreply'] = '返信';
 $string['Posts'] = '投稿';
@@ -148,7 +147,7 @@ $string['reportobjectionablematerial'] = '報告';
 $string['reportpost'] = '投稿報告';
 $string['reportpostsuccess'] = '投稿が正常に報告されました。';
 $string['sendnow'] = '今すぐメッセージを送信する';
-$string['sendnowdescription'] = '少なくとも %s 分待つのではなく、すぐにメッセージを送信します。';
+$string['sendnowdescription'] = '送信に少なくとも %s 分待つのではなく、すぐにメッセージを送信します。';
 $string['Sticky'] = 'スティッキー';
 $string['stickydescription'] = 'スティッキートピックはすべてのページトップに表示されます。';
 $string['stickytopics'] = 'スティッキートピック';
@@ -165,22 +164,22 @@ $string['topicclosedsuccess'] = 'トピックが正常にクローズされま�
 $string['topicisclosed'] = 'このトピックはクローズされました。モデレータおよびグループ管理者のみ新しい返信を投稿できます。';
 $string['topicopenedsuccess'] = 'トピックが正常にオープンされました。';
 $string['topicstickysuccess'] = 'トピックが正常にスティッキー設定されました。';
-$string['topicsubscribesuccess'] = 'トピックのメール購読が正常に登録されました。';
-$string['topicsuccessfulunsubscribe'] = 'トピックのメール購読が正常に解除されました。';
+$string['topicsubscribesuccess'] = 'トピックが正常に購読されました。';
+$string['topicsuccessfulunsubscribe'] = 'トピックが正常に購読解除されました。';
 $string['topicunstickysuccess'] = 'トピックが正常にスティッキー設定解除されました。';
-$string['topicunsubscribesuccess'] = 'トピックのメール購読が正常に解除されました。';
+$string['topicunsubscribesuccess'] = 'トピックが正常に購読解除されました。';
 $string['topicupdatefailed'] = 'トピックの更新に失敗しました。';
 $string['typenewpost'] = '新しいフォーラム投稿';
 $string['typereportpost'] = 'フォーラム内の好ましくないコンテンツ';
 $string['Unsticky'] = 'スティッキー解除';
-$string['Unsubscribe'] = 'メール購読解除';
-$string['unsubscribefromforum'] = 'フォーラムのメール購読を解除する';
-$string['unsubscribefromtopic'] = 'トピックのメール購読を解除する';
+$string['Unsubscribe'] = '購読解除';
+$string['unsubscribefromforum'] = 'フォーラムを購読解除する';
+$string['unsubscribefromtopic'] = 'トピックを購読解除する';
 $string['updateselectedtopics'] = '選択したトピックを更新する';
 $string['whocancreatetopics'] = '誰がトピックを作成できますか?';
-$string['youcannotunsubscribeotherusers'] = 'あなたは他のユーザをメール購読解除できません。';
-$string['youarenotsubscribedtothisforum'] = 'あなたはこのフォーラムをメール購読していません。';
-$string['youarenotsubscribedtothistopic'] = 'あなたはこのトピックをメール購読していません。';
+$string['youcannotunsubscribeotherusers'] = 'あなたは他のユーザを購読解除できません。';
+$string['youarenotsubscribedtothisforum'] = 'あなたはこのフォーラムを購読していません。';
+$string['youarenotsubscribedtothistopic'] = 'あなたはこのトピックを購読していません。';
 $string['Moveto'] = '移動';
 $string['topicmovedsuccess'] = '%d トピックが正常に移動されました。';
 $string['today'] = '今日';
@@ -191,13 +190,13 @@ $string['indentmode'] = 'フォーラムのインデントモード';
 $string['indentfullindent'] = '完全に広げる';
 $string['indentmaxindent'] = '最大まで広げる';
 $string['indentflatindent'] = 'インデントなし';
-$string['indentmodedescription'] = 'このフォーラム内のトピックが、どのようにインデントされるか指定してください。';
+$string['indentmodedescription'] = 'このフォーラム内のトピックがどのようにインデントされるか指定してください。';
 $string['maxindent'] = '最大インデントレベル';
-$string['maxindentdescription'] = 'トピックの最大インデントレベルを設定してください。この設定はインデントモードが「最大インデントレベルまで広げる」に設定された場合のみ適用されます。';
+$string['maxindentdescription'] = 'トピックの最大インデントレベルを設定してください。この設定はインデントモードが「最大まで広げる」に設定された場合のみ適用されます。';
 $string['closetopics'] = '新しいトピックをクローズする';
 $string['closetopicsdescription1'] = '新しいトピックをデフォルトでクローズします。モデレータおよびグループ管理者のみ、クローズされたトピックに返信することができます。';
 $string['activetopicsdescription'] = 'あなたのグループ内で最近更新されたトピックです。';
-$string['timeleftnotice'] = 'あなたが編集を終了するまで %s 分あります。';
+$string['timeleftnotice'] = 'あなたには編集を終了するまで %s 分あります。';
 $string['objectionablecontentpost'] = 'フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者: %s';
 $string['objectionablecontentposthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者:%s
 <br />%s</div>
