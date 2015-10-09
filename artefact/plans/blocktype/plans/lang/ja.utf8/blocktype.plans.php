@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-08-12 05:07:49 UTC
+ * @updated    2015-10-09 11:17:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -28,7 +28,7 @@
 
 defined('INTERNAL') || die();
 
-$string['title'] = 'あなたのプラン';
+$string['title'] = 'プラン';
 $string['description'] = 'あなたのプラン一覧を表示します。';
 $string['defaulttitledescription'] = 'ここを空白にした場合、プランのタイトルが使用されます。';
 $string['newerplans'] = '新しいプラン';
