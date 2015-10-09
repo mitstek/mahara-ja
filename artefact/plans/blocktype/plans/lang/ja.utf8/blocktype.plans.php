@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-09-26 23:53:53 UTC
+ * @updated    2015-10-09 11:16:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,5 +20,6 @@ $string['newerplans'] = '新しいプラン';
 $string['noplansaddone'] = 'まだプランはありません。%sプランを追加してください%s!';
 $string['olderplans'] = '古いプラン';
 $string['planstoshow'] = '表示するプラン';
+$string['taskstodisplay'] = '表示するタスク';
 
 ?>
