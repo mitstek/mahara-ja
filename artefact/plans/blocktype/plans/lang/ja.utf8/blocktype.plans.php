@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-09 11:16:36 UTC
+ * @updated    2015-10-09 11:17:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,7 +13,7 @@
 
 defined('INTERNAL') || die();
 
-$string['title'] = 'あなたのプラン';
+$string['title'] = 'プラン';
 $string['description1'] = 'プランを表示します (「コンテンツ -> プラン」をご覧ください)。';
 $string['defaulttitledescription'] = 'ここを空白にした場合、プランのタイトルが使用されます。';
 $string['newerplans'] = '新しいプラン';
