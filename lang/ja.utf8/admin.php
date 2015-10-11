@@ -187,7 +187,7 @@ $string['registeryourmaharasitesummary'] = '<p>あなたは<a href="http://mahar
 <p>あなたがサイトを登録する場合、送信される情報を<strong><a href="%sadmin/registersite.php">サイト登録ページ</a></strong>にて、プレビューすることができます。</p>';
 $string['registeryourmaharasitedetail'] = '<p>あなたは<a href="http://mahara.org/">mahara.org</a>にあなたのMaharaサイトを登録することができます。登録は無料です。また、登録することで、私たちは世界のMaharaインストール状況を作成することができます。</p>
 <p>あなたはmahara.orgに送信された情報を閲覧することができます - あなたのユーザに関する個人情報は一切送信されません。</p>
-<p>あなたが、「更新内容を週に1回送信しますか?」をチェックした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
+<p>あなたが「更新内容を週に1回送信しますか?」をチェックした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
 <p>サイトを登録した後、この通知は取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更することができます。</p>';
 $string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページにて、</p>サイト更新内容の週ごとの送信を有効または無効にすることができます。';
 $string['Close'] = 'クローズ';
@@ -255,7 +255,7 @@ $string['loggedinprofileviewaccessdescription'] = 'チェックした場合、�
 $string['antispam'] = 'アンチスパム';
 $string['antispamdescription'] = 'パブリックに表示されるフォームに適用されるアンチスパム基準タイプです。';
 $string['dropdownmenu'] = 'ドロップダウンナビゲーション';
-$string['dropdownmenudescription'] = 'チェックした場合、サブナビゲーションを表示するために、メインのMaharaナビゲーションがドロップダウンフォーマットを使用します。';
+$string['dropdownmenudescription'] = 'チェックした場合、サブナビゲーションを表示するためにメインのMaharaナビゲーションがドロップダウンフォーマットを使用します。';
 $string['dropdownmenudescriptioninstitution'] = 'チェックした場合、選択したインスティテューションテーマのメインナビゲーションがドロップダウンフォーマットを使用します。';
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
 $string['defaultaccountinactiveexpiredescription'] = 'ユーザログインがない状態で、どのくらいの期間、ユーザアカウントはアクティブのままですか。';
@@ -567,9 +567,9 @@ p>この行は上記のフィールドすべてを含む必要がありますが
 $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効でないか、Maharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動でコンタクトしてください:';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるため、ユーザは追加されませんでした。許可されたインスティテューションの最大ユーザ数を超えました。';
 $string['updateusers'] = 'ユーザを更新する';
-$string['updateusersdescription'] = 'あなたのCSVファイルに、指定したインスティテューションのメンバーのユーザが含まれている場合、ファイルのデータによりユーザ詳細が上書きされることになります。使用に注意してください。';
+$string['updateusersdescription'] = 'あなたのCSVファイルに指定したインスティテューションのメンバーのユーザが含まれている場合、ファイルのデータによりユーザ詳細が上書きされることになります。使用に注意してください。';
 $string['updategroups'] = 'グループを更新する';
-$string['updategroupsdescription'] = 'あなたのCSVファイルに、Maharaシステム内のグループが含まれている場合、ファイルのデータによりグループ詳細が上書きされることになります。使用に注意してください。';
+$string['updategroupsdescription'] = 'あなたのCSVファイルにMaharaシステム内のグループが含まれている場合、ファイルのデータによりグループ詳細が上書きされることになります。使用に注意してください。';
 $string['csvfileprocessedsuccessfully'] = 'あなたのCSVファイルが正常に処理されました。';
 $string['nousersadded'] = 'ユーザは追加されませんでした。';
 $string['nogroupsadded'] = 'グループは追加されませんでした。';
@@ -677,7 +677,7 @@ $string['createuser'] = 'ユーザを作成する';
 $string['failedtoobtainuploadedleapfile'] = 'アップロードされたLeap2Aファイルの取得に失敗しました。';
 $string['failedtounzipleap2afile'] = 'Leap2Aファイルの解凍に失敗しました。詳細はエラーログを確認してください。';
 $string['fileisnotaziporxmlfile'] = 'このファイルはZIPファイルまたはXMLファイルとして認識されませんでした。';
-$string['howdoyouwanttocreatethisuser'] = 'どのように、このユーザを作成しますか?';
+$string['howdoyouwanttocreatethisuser'] = 'どのようにこのユーザを作成しますか?';
 $string['leap2aimportfailed'] = '<p><strong>申し訳ございません - Leap2Aファイルのインポートに失敗しました。</strong></p><p>これはあなたが有効なLeap2Aファイルをアップロードに選択しなかったから、またはこのMaharaのバージョンではあなたのLeap2Aファイルがサポートされていないからだと考えられます。また、Leap2Aファイルが有効な場合、Maharaのバグが、あなたのファイルのアップロードを失敗させていることも考えられます。</p><p><a href="add.php">戻って、ファイルのアップロードを再度お試しください</a>。この問題が持続する場合、エラー状況を<a href="http://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。その場合、あなたのファイルのコピーを準備してください!</p>';
 $string['newuseremailnotsent'] = '新しいユーザへのウェルカムメール送信に失敗しました。';
 $string['newusercreated'] = '新しいユーザアカウントが正常に作成されました。';
@@ -717,7 +717,7 @@ $string['institutionexpiry'] = 'インスティテューション有効期限';
 $string['institutionexpirydescription'] = 'このインスティテューションのメンバーシップが %s において利用停止される日付です。';
 $string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
 $string['registrationallowed'] = 'ユーザ登録を許可しますか?';
-$string['registrationalloweddescription3'] = 'チェックした場合、ユーザは登録フォームを使用して、このインスティテューションに登録することができます。登録が無効にされた場合、非メンバーはインスティテューションのメンバーシップをリクエストできません。同様に、メンバーはインスティテューションから離脱できない、または自分のユーザアカウントを削除できないようになります。';
+$string['registrationalloweddescription3'] = 'チェックした場合、ユーザは登録フォームを使用して、このインスティテューションに登録することができます。登録が無効にされた場合、非メンバーはインスティテューションのメンバーシップをリクエストできません。同様にメンバーはインスティテューションから離脱できない、または自分のユーザアカウントを削除できないようになります。';
 $string['registrationconfirm'] = '登録を承認しますか?';
 $string['registrationconfirmdescription'] = 'チェックした場合、インスティテューション管理者が登録を承認する必要があります。';
 $string['defaultmembershipperiod'] = 'デフォルトのメンバーシップ期間';
@@ -940,7 +940,7 @@ $string['masquerade'] = '続ける';
 $string['masqueradereason'] = '理由';
 $string['masqueradereasondescription'] = 'このユーザとしてログインする理由を入力してください。注意: この理由はユーザに通知されませんが、ログとして記録されます。';
 $string['masqueradenotificationdone'] = 'このマスカレーディングセッションがユーザに通知されました。';
-$string['masqueradenotifiedreasondescription'] = 'このユーザとしてログインする理由を入力してください。注意: ユーザにはマスカレーディングの理由とともに、あなたの氏名、日時を含むメッセージが送信されます。';
+$string['masqueradenotifiedreasondescription'] = 'このユーザとしてログインする理由を入力してください。注意: ユーザにはマスカレーディングの理由とともにあなたの氏名、日時を含むメッセージが送信されます。';
 $string['masqueradetime'] = 'マスカレーディング開始日時';
 $string['masquerader'] = 'マスカレーディング管理者';
 $string['masqueradee'] = 'ユーザ';
