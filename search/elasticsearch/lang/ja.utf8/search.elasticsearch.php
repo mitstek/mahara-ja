@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-08-20 14:44:33 UTC
+ * @updated    2015-10-11 22:32:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -52,6 +52,7 @@ $string['indexnamedescription'] = 'Elasticsearchインデックス名です。�
 $string['license'] = 'ライセンス';
 $string['Media'] = 'メディア';
 $string['newindextype'] = 'あなたのElasticsearch設定に新しいインデックスタイプ「 %s 」が追加されました。これが適用されるためにはあなたのサイトを再インデックスする必要があります。';
+$string['none'] = 'なし';
 $string['noticeenabled'] = '現在、Elasticsearchプラグインは有効にされています。Elasticsearchプラグインを無効にするには<a href="%s">サイトオプションの検索設定</a>にて、選択解除してください。';
 $string['noticenotactive'] = 'ホスト: %s およびポート %s のElasticsearchサーバにアクセスできません。動作しているかどうか確認してください。';
 $string['noticenotenabled'] = '現在、Elasticsearchプラグインは無効にされています。Elasticsearchプラグインを有効にするには<a href="%s">サイトオプションの検索設定</a>にて、選択してください。';
