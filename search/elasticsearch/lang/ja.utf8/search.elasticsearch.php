@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-04-20 16:45:21 UTC
+ * @updated    2015-10-11 22:37:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -27,6 +27,7 @@ $string['bypassindexname'] = 'バイパスインデックス';
 $string['bypassindexnamedescription'] = '(任意) 設定された場合、Maharaはメインインデックス名の代わりに、このインデックス名にインデックスデータを読み込みます。';
 $string['collection'] = 'コレクション';
 $string['confignotset'] = '(未設定)';
+$string['contains'] = '含む';
 $string['createdby'] = '作成者: %s';
 $string['createdbyanon'] = '作成者 (作者名非表示)';
 $string['cronlimit'] = 'Cronレコード制限';

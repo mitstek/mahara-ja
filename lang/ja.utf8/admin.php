@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-08-19 15:52:51 UTC
+ * @updated    2015-10-11 22:37:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -201,6 +201,7 @@ $string['datathathavebeensent'] = '送信されたデータ';
 $string['sendweeklyupdates'] = '更新内容を週に1回送信しますか?';
 $string['sendweeklyupdatesdescription'] = 'チェックした場合、あなたのサイトは週に1回、統計資料とともに更新内容をmahara.orgに送信します。';
 $string['Register'] = '登録';
+$string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/registersite.php">サイト登録ページ</a>にアクセスして登録することができます。';
 $string['registrationfailedtrylater'] = 'エラーコード %s により、登録が失敗しました。後ほど再度お試しください。';
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます!';
 $string['registeryourmaharasite'] = 'あなたのMaharaサイトを登録します。';
