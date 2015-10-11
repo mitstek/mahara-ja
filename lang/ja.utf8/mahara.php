@@ -97,7 +97,7 @@ $string['pluginenabled'] = 'プラグインが有効にされました。';
 $string['plugindisabled'] = 'プラグインが無効にされました。';
 $string['plugindisableduser'] = '%s プラグインは無効にされています。この機能を有効にするにはあなたの管理者にご相談ください。';
 $string['pluginnotenabled'] = 'プラグインが有効にされていません。あなたはまず %s プラグインを有効にする必要があります。';
-$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるため、URLを知っているユーザはアクセスすることができます。機能を有効または無効にする代わりに、以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることにより、プラグインを表示または非表示にすることができます。';
+$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるため、URLを知っているユーザはアクセスすることができます。機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることにより、プラグインを表示または非表示にすることができます。';
 $string['pluginexplainartefactblocktypes'] = '「artefact (アーティファクト)」タイプのプラグインを非表示にした場合、Maharaシステムは同時に関連するブロックの表示を停止します。';
 $string['pluginbrokenanddisabledtitle'] = '不完全なプラグイン (%s) が無効にされました。';
 $string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインのロードを試みましたが、ロードすることができませんでした。
@@ -167,7 +167,7 @@ $string['edittag'] = '<a href="%s">%s</a> を編集する';
 $string['editthistag'] = 'このタグを編集する';
 $string['edittagdescription'] = 'あなたのポートフォリオに関して、「 %s 」でタグ付けされたすべてのアイテムが更新されます。';
 $string['deletetag'] = '<a href="%s">%s</a> を削除する';
-$string['confirmdeletetag'] = '本当に、あなたのポートフォリオ内すべてのアイテムから、このタグを削除してもよろしいですか?';
+$string['confirmdeletetag'] = '本当にあなたのポートフォリオ内すべてのアイテムから、このタグを削除してもよろしいですか?';
 $string['deletetagdescription'] = 'あなたのポートフォリオ内すべてのアイテムから、このタグを削除します。';
 $string['tagupdatedsuccessfully'] = 'タグが正常に更新されました。';
 $string['tagdeletedsuccessfully'] = 'タグが正常に削除されました。';
@@ -355,7 +355,7 @@ $string['accountinactivewarninghtml'] = '<p>%s さん</p>
 $string['accountsuspended'] = '%s 現在、あなたのアカウントは利用停止されています。<br />あなたの利用停止理由は: %s';
 $string['youraccounthasbeensuspended'] = 'あなたのアカウントが利用停止されました。';
 $string['youraccounthasbeenunsuspended'] = 'あなたのアカウントの利用停止が解除されました。';
-$string['changepasswordinfo'] = '開始する前に、あなたはパスワードを変更する必要があります。';
+$string['changepasswordinfo'] = '開始する前にあなたはパスワードを変更する必要があります。';
 $string['chooseinstitution'] = 'あなたのインスティテューションを選択する';
 $string['chooseusernamepassword'] = 'あなたのユーザ名およびパスワードを選択する';
 $string['chooseusernamepasswordinfo'] = 'あなたが %s にログインするにはユーザ名およびパスワードが必要です。あなたのユーザ名およびパスワードを選択してください。';
@@ -410,7 +410,7 @@ $string['registerwelcome'] = 'ようこそ! このサイトを使用するには
 $string['registeragreeterms'] = 'また、あなたは<a href="terms.php">使用条件</a>に同意する必要があります。';
 $string['registerprivacy'] = 'ここで収集したデータは私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
 $string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s にユーザ登録されました! あなたのアバタとして表示する任意のプロファイル写真を選択することができます。</p>';
-$string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須入力フィールドです。あなたのユーザ登録が完了する前に、すべての必須入力フィールドに入力してください。/p>';
+$string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須入力フィールドです。あなたのユーザ登録が完了する前にすべての必須入力フィールドに入力してください。/p>';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムにユーザ登録できません。';
 $string['membershipexpiry'] = 'メンバーシップ有効期限切れ';
 $string['institutionfull'] = 'あなたが選択したインスティテューションはこれ以上の登録を受け付けていません。';
@@ -421,7 +421,7 @@ $string['itemdeleted'] = 'アイテムが削除されました。';
 $string['itemupdated'] = 'アイテムが更新されました。';
 $string['approvalrequired'] = '要承認';
 $string['authentication'] = '認証';
-$string['cantchangepassword'] = '申し訳ございません、このインターフェース経由でパスワードを変更することはできません - 代わりに、あなたのインスティテューションのインターフェースを使用してください。';
+$string['cantchangepassword'] = '申し訳ございません、このインターフェース経由でパスワードを変更することはできません - 代わりにあなたのインスティテューションのインターフェースを使用してください。';
 $string['forgotusernamepassword'] = 'あなたのユーザ名またはパスワードを忘れましたか?';
 $string['forgotusernamepasswordtextprimaryemail'] = '<p>あなたがユーザ名またはパスワードを忘れた場合、あなたのプロファイルに登録された主メールアドレスを下記に入力してください。あなたが新しいパスワードを作成することのできるメッセージを送信します。</p>
 <p>あなたがパスワードを忘れて、ユーザ名を忘れていない場合、ユーザ名を入力することもできます。</p>';
