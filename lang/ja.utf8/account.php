@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-04-28 17:12:17 UTC
+ * @updated    2015-10-11 16:22:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,14 +13,14 @@
 
 defined('INTERNAL') || die();
 
-$string['changepassworddesc'] = 'あなたのパスワードを変更したい場合、ここで詳細を入力してください。';
+$string['changepassworddesc'] = '新しいパスワード';
 $string['changepasswordotherinterface'] = 'あなたは異なるインターフェースで<a href="%s">パスワードを変更する</a>ことができます。';
 $string['oldpasswordincorrect'] = 'これはあなたの現在のパスワードではありません。';
 $string['changeusernameheading'] = 'ユーザ名を変更する';
 $string['changeusername'] = '新しいユーザ名';
-$string['changeusernamedesc'] = 'あなたが %s へのログインに使用するユーザ名です。ユーザ名の長さは半角3-30文字にしてください。ユーザ名には空白を除く、半角英数字および標準的な記号を使用することができます。';
+$string['changeusernamedesc'] = 'あなたが %s へのログインに使用するユーザ名です。ユーザ名の長さは半角3-30文字にしてください。ユーザ名には空白を除く半角英数字および標準的な記号を使用することができます。';
 $string['usernameexists'] = 'このユーザ名は取得されています。別のユーザ名を選択してください。';
-$string['accountoptionsdesc'] = 'あなたはここで一般アカウントオプションを設定することができます。';
+$string['accountoptionsdesc'] = '一般アカウントオプション';
 $string['changeprofileurl'] = 'プロファイルURLを変更する';
 $string['profileurl'] = 'プロファイルURL';
 $string['profileurldescription'] = 'あなたのプロファイルページのURLです。このフィールドの長さは半角3-30文字にしてください。';
@@ -47,9 +47,9 @@ $string['showviewcolumns'] = 'ページの編集時、カラムの「追加」�
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'あなたのタグクラウドに表示されるタグの最大数です。';
 $string['enablemultipleblogs1'] = '複数日誌';
-$string['enablemultipleblogsdescription'] = 'デフォルトでは、あなたは1つの日誌のみMaharaに作成することができます。あなたが1つ以上の日誌を作成したい場合、このオプションをチェックしてください。';
+$string['enablemultipleblogsdescription'] = 'デフォルトではあなたは1つの日誌のみMaharaに作成することができます。あなたが1つ以上の日誌を作成したい場合、このオプションをチェックしてください。';
 $string['hiderealname'] = '実名を隠す';
-$string['hiderealnamedescription'] = 'あなたがニックネームを設定した場合、そして、あなたの実名検索により、他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
+$string['hiderealnamedescription'] = 'あなたがニックネームを設定した場合、そして、あなたの実名検索により他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
 $string['showhomeinfo1'] = 'ホームページ情報';
 $string['showhomeinfodescription'] = 'ホームページ上に %s の使用方法に関する情報を表示します。';
 $string['showprogressbar'] = 'プロファイル完了プログレスバー';
@@ -57,10 +57,10 @@ $string['showprogressbardescription'] = 'プログレスバーおよびあなた
 $string['mobileuploadtoken'] = 'モバイルアップロードトークン';
 $string['badmobileuploadtoken'] = '申し訳ございません、アップロードトークンが無効です - トークンの長さは少なくとも半角6文字にしてください。';
 $string['prefssaved'] = 'プリファレンスが保存されました。';
-$string['prefsnotsaved'] = 'あなたのプリファレンスの保存に失敗しました!';
+$string['prefsnotsaved'] = 'あなたのプリファレンスの保存に失敗しました。';
 $string['maildisabled'] = 'Eメールが無効にされました。';
 $string['disableemail'] = 'Eメールを無効にする';
-$string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたため、あなたのメールアドレス宛のメール送信は停止されました。アカウントプリファレンスの %s にて、Eメールを有効にする前に、あなたのEメールアカウントが正常に動作しているか確認してください。';
+$string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたため、あなたのメールアドレス宛のメール送信は停止されました。Eメールを有効にする前に、あなたのEメールアカウントが正常に動作しているかアカウントプリファレンスの %s で確認してください。';
 $string['maildisableddescription'] = 'あなたのアカウント宛のメール送信は停止されました。アカウントプリファレンスページにて、<a href="%s">あなたのEメールを再度有効</a>にすることができます。';
 $string['deleteaccount'] = 'アカウントを削除する';
 $string['deleteaccountdescription'] = 'アカウントを削除した場合、今後、あなたのプロファイル情報およびページを他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧することができますが、投稿者名が表示されないようになります。';

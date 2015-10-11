@@ -41,7 +41,7 @@ $string['apcstatoff'] = 'あなたのサーバはapc.stat=0によりAPCを動作
 $string['datarootinsidedocroot'] = 'あなたはドキュメントルート内にデータルートを設定したようです。これには多大なセキュリティ上の問題があり、誰でも (他の人のセッションをハイジャックするため) 直接セッションデータをリクエストすることができます。また、他の人がアップロードした、アクセスを許可されていないファイルにアクセスすることができます。データルートをドキュメントルートの外に設定してください。';
 $string['datarootnotwritable'] = 'あなたが定義したルートディレクトリ「 %s 」に書込み権がありません。これはセッションデータ、ユーザファイル、その他アップロードする必要のあるファイルをアップロードできないことを意味します。ディレクトリが存在しているかどうか確認してください。ディレクトリが存在している場合、ディレクトリにウェブサーバユーザの所有権を与えてください。';
 $string['sessionpathnotwritable'] = 'あなたのセッションデータディレクトリ「 %s 」に書込み権がありません。ディレクトリが存在していない場合、ディレクトリを作成してください。ディレクトリが存在している場合、ディレクトリにウェブサーバユーザの所有権を与えてください。';
-$string['wwwrootnothttps'] = 'あなたが定義したwwwroot ( %s ) は正しいHTTPSではありません。しかし、あなたのインストレーションの他の設定 (sslproxy等) では、wwwrootがHTTPSである必要があります。
+$string['wwwrootnothttps'] = 'あなたが定義したwwwroot ( %s ) は正しいHTTPSではありません。しかし、あなたのインストレーションの他の設定 (sslproxy等) ではwwwrootがHTTPSである必要があります。
 
 あなたのwwwroot設定をHTTPSに更新するか、正しくない設定を修正してください。';
 $string['couldnotmakedatadirectories'] = '何らかの理由で、いくつかのコアデータディレクトリを作成することができませんでした。前もって、Maharaがデータディレクトリの書込み権を確認しましたので、このエラーが発生することはないと考えられます。データルートディレクトリのパーミッションを確認してください。';
@@ -53,7 +53,7 @@ $string['dbconnfailed'] = 'Maharaがアプリケーションデータベース�
 エラー内容は:';
 $string['dbnotutf8'] = 'あなたはUTF-8データベースを使用していません。Maharaではすべてのデータを内部にUTF-8で保存します。あなたのデータベースをドロップして、UTF-8エンコーディングを使用するよう再作成してください。';
 $string['dbversioncheckfailed'] = 'あなたのデータベースサーバのバージョンはMaharaを正常に動作させるのに十分な新しいバージョンではありません。あなたのサーバは%s %s ですが、Maharaは少なくともバージョン %s を必要とします。';
-$string['plpgsqlnotavailable'] = 'あなたのPostgresでは、PL/pgSQL言語が有効にされていません。また、MaharaもPL/pgSQL言語を有効にすることはできません。あなたのデータベースに手動でPL/pgSQLをインストールしてください。この作業のインストラクションに関して、次をご覧ください: https://wiki.mahara.org/index.php/System_Administrator%27s_Guide/Enabling_Plpgsql';
+$string['plpgsqlnotavailable'] = 'あなたのPostgresではPL/pgSQL言語が有効にされていません。また、MaharaもPL/pgSQL言語を有効にすることはできません。あなたのデータベースに手動でPL/pgSQLをインストールしてください。この作業のインストラクションに関して、次をご覧ください: https://wiki.mahara.org/index.php/System_Administrator%27s_Guide/Enabling_Plpgsql';
 $string['mysqlnotriggerprivilege'] = 'データベーストリガの作成に関して、Maharaはパーミッションを必要とします。しかし、データベーストリガを作成できないようです。あなたのMySQLインストール内にて、適切なユーザにトリガ権限が割り当てられていることを確認してください。この作業のインストラクションに関して、次をご覧ください: https://wiki.mahara.org/index.php/System_Administrator%27s_Guide/Granting_Trigger_Privilege';
 $string['mbstringneeded'] = 'PHPのmbstring拡張モジュールをインストールしてください。あなたがユーザ名にUTF-8文字を使用している場合、この拡張モジュールが必要です。インストールしない場合、ユーザはログインすることができません。';
 $string['blocktypenametaken'] = 'ブロックタイプ %s はすでに他のプラグイン (%s) に取得されています。';
@@ -64,7 +64,7 @@ $string['artefacttypeclassmissing'] = 'すべてのアーティファクトタ�
 $string['artefactpluginmethodmissing'] = 'アーティファクトプラグイン %s で必要な %s が実装されていません。';
 $string['blocktypelibmissing'] = 'アーティファクトプラグイン %s 内にブロック %s のlib.phpがありません。';
 $string['unabletosetmultipleblogs'] = 'ユーザ「 %s 」のビュー「 %s 」のコピーによる複数日誌の有効化に失敗しました。これは<a href="%s">アカウント</a>ページにて、手動で設定することができます。';
-$string['pleaseloginforjournals'] = 'あなたの日誌および記事すべてを閲覧すには、ログアウトした後に再度ログインする必要があります。';
+$string['pleaseloginforjournals'] = 'あなたの日誌および記事すべてを閲覧すにはログアウトした後に再度ログインする必要があります。';
 $string['blocktypemissingconfigform'] = 'ブロックタイプ %s ではinstance_config_formを実装する必要があります。';
 $string['versionphpmissing'] = 'プラグイン %s %s のversion.phpがありません!';
 $string['blocktypeprovidedbyartefactnotinstallable'] = 'これはアーティファクトプラグイン %s の一部としてインストールされます。';
@@ -105,14 +105,14 @@ $string['timezoneidentifierunusable'] = 'あなたのウェブサイトのPHPは
 $string['postmaxlessthanuploadmax'] = 'あなたのPHP post_max_size (%s) はupload_max_filesize (%s) よりも小さく設定されています。%s より大きなファイルをアップロードした場合、エラー表示なしにアップロードが失敗してしまいます。通常、post_max_sizeはupload_max_filesizeよりも大きく設定する必要があります。';
 $string['smallpostmaxsize'] = 'あなたのPHP post_max_size (%s) 設定は小さすぎます。%s より大きなファイルをアップロードした場合、エラー表示なしにアップロードが失敗してしまいます。';
 $string['notenoughsessionentropy'] = 'あなたのsession.entropy_length設定は小さすぎます。生成されるセッションIDをランダムおよび予測不能にするため、あなたのphp.ini内で少なくとも16以上の値を設定してください。';
-$string['switchtomysqli'] = 'あなたのサーバには、<strong>mysqli</strong> PHP拡張モジュールがインストールされていません。そのため、Maharaは廃止予定のオリジナル<strong>mysql</strong> PHP拡張モジュールに戻っています。私たちは<a href="http://php.net/manual/en/book.mysqli.php">mysqli</a>のインストールをお勧めします。';
+$string['switchtomysqli'] = 'あなたのサーバには<strong>mysqli</strong> PHP拡張モジュールがインストールされていません。そのため、Maharaは廃止予定のオリジナル<strong>mysql</strong> PHP拡張モジュールに戻っています。私たちは<a href="http://php.net/manual/en/book.mysqli.php">mysqli</a>のインストールをお勧めします。';
 $string['noreplyaddressmissingorinvalid'] = 'システムメールアドレスに空白または有効ではないメールアドレスが設定されています。<a href="%s">サイトオプション内の「Eメール設定」</a>の設定内容を確認してください。';
-$string['openbasedirenabled'] = 'あなたのサーバでは、PHPの「open_basedir」制限が有効にされています。';
+$string['openbasedirenabled'] = 'あなたのサーバではPHPの「open_basedir」制限が有効にされています。';
 $string['openbasedirpaths'] = 'Maharaは次のパス内でのみファイルを開くことができます: %s';
 $string['openbasedirwarning'] = 'いくつかの外部サイトへのリクエストを完了できない可能性があります。特にフィードの更新が停止してしまう場合があります。';
-$string['gdlibrarylacksgifsupport'] = 'インストール済みPHP GDライブラリは、GIFイメージの作成および読み込みをサポートしません。GIFイメージのアップロードには、フルサポートが必要です。';
-$string['gdlibrarylacksjpegsupport'] = 'インストール済みPHP GDライブラリは、JPEG/JPGイメージの作成および読み込みをサポートしません。JPEG/JPGイメージのアップロードには、フルサポートが必要です。';
-$string['gdlibrarylackspngsupport'] = 'インストール済みPHP GDライブラリは、PNGイメージの作成および読み込みをサポートしません。PNGイメージのアップロードには、フルサポートが必要です。';
+$string['gdlibrarylacksgifsupport'] = 'インストール済みPHP GDライブラリはGIFイメージの作成および読み込みをサポートしません。GIFイメージのアップロードにはフルサポートが必要です。';
+$string['gdlibrarylacksjpegsupport'] = 'インストール済みPHP GDライブラリはJPEG/JPGイメージの作成および読み込みをサポートしません。JPEG/JPGイメージのアップロードにはフルサポートが必要です。';
+$string['gdlibrarylackspngsupport'] = 'インストール済みPHP GDライブラリはPNGイメージの作成および読み込みをサポートしません。PNGイメージのアップロードにはフルサポートが必要です。';
 $string['nopasswordsaltset'] = 'サイト全体のパスワードsaltが設定されていません。あなたのconfig.phpを編集して、「passwordsaltmain」パラメータに妥当なシークレットフレーズを設定してください。';
 $string['passwordsaltweak'] = 'あなたのサイト全体のパスワードsaltの強さが十分ではありません。あなたのconfig.phpを編集して、さらに長いシークレットフレーズを「passwordsaltmain」パラメータに設定してください。';
 $string['notproductionsite'] = 'このサイトは実運用モードに入っていません。いくつかのデータは利用できないか、古い可能性があります。';
