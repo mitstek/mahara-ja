@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-10 14:23:15 UTC
+ * @updated    2015-10-11 16:17:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -28,13 +28,13 @@
 
 defined('INTERNAL') || die();
 
-$string['changepassworddesc'] = 'あなたのパスワードを変更したい場合、ここで詳細を入力してください。';
+$string['changepassworddesc'] = '新しいパスワード';
 $string['changepasswordotherinterface'] = 'あなたは異なるインターフェースで<a href="%s">パスワードを変更する</a>ことができます。';
 $string['oldpasswordincorrect'] = 'これはあなたの現在のパスワードではありません。';
 $string['changeusernameheading'] = 'ユーザ名を変更する';
 $string['changeusername'] = '新しいユーザ名';
-$string['changeusernamedesc'] = 'あなたが %s へのログインに使用するユーザ名です。ユーザ名の長さは半角3-30文字にしてください。ユーザ名には空白を除く、半角英数字および標準的な記号を使用することができます。';
-$string['accountoptionsdesc'] = 'あなたはここで一般アカウントオプションを設定することができます。';
+$string['changeusernamedesc'] = 'あなたが %s へのログインに使用するユーザ名です。ユーザ名の長さは半角3-30文字にしてください。ユーザ名には空白を除く半角英数字および標準的な記号を使用することができます。';
+$string['accountoptionsdesc'] = '一般アカウントオプション';
 $string['friendsnobody'] = 'だれも私をフレンドとして追加できません。';
 $string['friendsauth'] = '新しいフレンドになるには私の承認が必要です。';
 $string['friendsauto'] = '新しいフレンドは自動的に承認されます。';
@@ -57,7 +57,7 @@ $string['enablemultipleblogs'] = '複数ブログを有効にする';
 $string['enablemultipleblogsdescription'] = 'デフォルトではあなたは1つのブログのみMaharaに作成することができます。あなたが1つ以上のブログを作成したい場合、このオプションをチェックしてください。';
 $string['disablemultipleblogserror'] = '1つのブログのみ作成していない限り、あなたは複数ブログを無効にすることはできません。';
 $string['hiderealname'] = '実名を隠す';
-$string['hiderealnamedescription'] = 'あなたがニックネームを設定した場合、そして、あなたの実名検索により、他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
+$string['hiderealnamedescription'] = 'あなたがニックネームを設定した場合、そして、あなたの実名検索により他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
 $string['showhomeinfo'] = 'ホームページにMaharaに関する情報を表示する';
 $string['prefssaved'] = 'プリファレンスが保存されました。';
 $string['prefsnotsaved'] = 'あなたのプリファレンスの保存に失敗しました!';
