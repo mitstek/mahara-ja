@@ -410,7 +410,7 @@ $string['fullname'] = 'フルネーム';
 $string['registerwelcome'] = 'ようこそ! このサイトを使用するには最初にユーザ登録してください。';
 $string['registeragreeterms'] = 'また、あなたは<a href="terms.php">使用条件</a>に同意する必要があります。';
 $string['registerprivacy'] = 'ここで収集したデータは私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
-$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s にユーザ登録されました! あなたのアバタとして表示する、任意のプロファイル写真を選択することができます。</p>';
+$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s にユーザ登録されました! あなたのアバタとして表示する任意のプロファイル写真を選択することができます。</p>';
 $string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須入力フィールドです。あなたのユーザ登録が完了する前に、すべての必須入力フィールドに入力してください。/p>';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムにユーザ登録できません。';
 $string['membershipexpiry'] = 'メンバーシップ有効期限切れ';
@@ -465,7 +465,7 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 $string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは私たちに責任があります。もう一度お試しください。';
 $string['forgotpassemailsentanyway1'] = 'このユーザに関して保存されているメールアドレス宛にメールが送信されましたが、メールアドレスが正しくない、または受信サーバがメッセージを戻しました。メールを受信していない場合、あなたのパスワードをリセットするために %s 管理者にご連絡ください。';
 $string['forgotpassnosuchemailaddressorusername'] = 'あなたが入力したメールアドレスはこのサイトのユーザに合致しません。';
-$string['forgotpassuserusingexternalauthentication'] = 'あなたは外部認証方法の使用をリクエストしました。パスワードを変更するには<a href="%s">あなたの管理者にご連絡ください</a>。または、別のユーザ名またはメールドレスを入力してください。';
+$string['forgotpassuserusingexternalauthentication'] = 'あなたは外部認証方法の使用をリクエストしました。パスワードを変更するには<a href="%s">あなたの管理者にご連絡ください</a>。または別のユーザ名またはメールドレスを入力してください。';
 $string['forgotpasswordenternew'] = '続けるにはあなたの新しいパスワードを入力してください。';
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';
 $string['passwordresetexpired'] = 'パスワードリセットキーの有効期限が切れました。';
