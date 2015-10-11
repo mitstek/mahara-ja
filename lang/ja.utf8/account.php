@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-06-10 14:23:25 UTC
+ * @updated    2015-10-11 16:06:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -33,7 +33,7 @@ $string['changepasswordotherinterface'] = 'あなたは異なるインターフ�
 $string['oldpasswordincorrect'] = 'これはあなたの現在のパスワードではありません。';
 $string['changeusernameheading'] = 'ユーザ名を変更する';
 $string['changeusername'] = '新しいユーザ名';
-$string['changeusernamedesc'] = 'あなたが %s へのログインに使用するユーザ名です。ユーザ名の長さは半角3-30文字にしてください。ユーザ名には空白を除く、半角英数字および標準的な記号を使用することができます。';
+$string['changeusernamedesc'] = 'あなたが %s へのログインに使用するユーザ名です。ユーザ名の長さは半角3-30文字にしてください。ユーザ名には空白を除く半角英数字および標準的な記号を使用することができます。';
 $string['accountoptionsdesc'] = 'あなたはここで一般アカウントオプションを設定することができます。';
 $string['friendsnobody'] = 'だれも私をフレンドとして追加できません。';
 $string['friendsauth'] = '新しいフレンドになるには私の承認が必要です。';
