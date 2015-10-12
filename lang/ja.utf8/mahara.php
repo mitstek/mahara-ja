@@ -929,7 +929,7 @@ $string['findfriendslinked'] = '<a href="%s">フレンド</a>を探す';
 $string['joingroups'] = '<a href="%s">グループ</a>に参加する';
 $string['controlyourprivacylinked'] = 'あなたの<a href="%s">プライバシー</a>をコントロールする';
 $string['discusstopicslinked'] = '<a href="%s">トピック</a>を議論する';
-$string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたはこのボックスの可視性を<a href="%s">設定</a>ページにてコントロールすることができます。';
+$string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールすることができます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['filenotfound'] = 'ファイルが見つかりませんでした。';
 $string['betweenxandy'] = '範囲: %s - %s';
