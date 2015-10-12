@@ -970,7 +970,7 @@ $string['sharenetworksubtitle'] = 'フレンドを探して、グループに参
 $string['joinsomegroups'] = 'グループに参加する';
 $string['controlyourprivacy'] = 'あなたのプライバシーをコントロールする';
 $string['discusstopics'] = 'トッピックを議論する';
-$string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたはこのボックスの可視性を<a href="%s">設定</a>ページにてコントロールすることができます。';
+$string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールすることができます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['filenotfound'] = 'ファイルが見つかりませんでした。';
 $string['betweenxandy'] = '範囲: %s - %s';
