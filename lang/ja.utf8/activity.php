@@ -37,10 +37,10 @@ $string['unread'] = '未読';
 $string['markasread'] = '既読にする';
 $string['selectall'] = 'すべてを選択する';
 $string['selectallread'] = 'すべての未読通知';
-$string['selectalldelete'] = 'すべての削除予定通知';
+$string['selectalldelete'] = 'すべての削除通知';
 $string['recurseall'] = '選択を解除する';
 $string['alltypes'] = 'すべてのタイプ';
-$string['nodelete'] = '削除する通知はありません。';
+$string['nodelete'] = '削除通知はありません。';
 $string['markedasread'] = 'あなたの通知を既読にしました。';
 $string['failedtomarkasread'] = 'あなたの通知を既読にできませんでした。';
 $string['deletednotifications1'] = '%s 件の通知が削除されました。';
@@ -73,9 +73,9 @@ $string['newviewaccesssubjectviews'] = 'ページ「 %s 」への新しいアク
 $string['viewmodified'] = 'がページを変更しました。';
 $string['ongroup'] = 'グループ:';
 $string['ownedby'] = 'オーナー:';
-$string['objectionablecontentview'] = '好ましくないコンテンツ - ページ: %s / 報告者: %s';
-$string['objectionablecontentviewartefact'] = '好ましくないコンテンツ - ページ: %s (%s) / 報告者: %s';
-$string['objectionablecontentviewhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」の好ましくないコンテンツ / 報告者: %s<strong></strong><br />%s</div>
+$string['objectionablecontentview'] = 'ページ「 %s 」の好ましくないコンテンツ - 報告者: %s';
+$string['objectionablecontentviewartefact'] = 'ページ「 %s (%s) 」の好ましくないコンテンツ - 報告者: %s';
+$string['objectionablecontentviewhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」の好ましくないコンテンツ - 報告者: %s<strong></strong><br />%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
@@ -83,7 +83,7 @@ $string['objectionablecontentviewhtml'] = '<div style="padding: 0.5em 0; border-
 <p>クレーム対象: <a href="%s">%s</a></p>
 <p>報告者: <a href="%s">%s</a></p>
 </div>';
-$string['objectionablecontentviewtext'] = '「 %s 」の好ましくないコンテンツ / 報告者: %s
+$string['objectionablecontentviewtext'] = '「 %s 」の好ましくないコンテンツ - 報告者: %s
 ------------------------------------------------------------------------
 
 %s
@@ -93,7 +93,7 @@ $string['objectionablecontentviewtext'] = '「 %s 」の好ましくないコン
 %s
 報告者のプロファイルを閲覧するには次のリンクをクリックしてください:
 %s';
-$string['objectionablecontentviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」の好ましくないコンテンツ / アーティファクト: %s / 報告者: %s<strong></strong><br />%s</div>
+$string['objectionablecontentviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「  %s (%s)  」の好ましくないコンテンツ - 報告者: %s<strong></strong><br />%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
@@ -101,7 +101,7 @@ $string['objectionablecontentviewartefacthtml'] = '<div style="padding: 0.5em 0;
 <p>クレーム対象: <a href="%s">%s</a></p>
 <p>報告者: <a href="%s">%s</a></p>
 </div>';
-$string['objectionablecontentviewartefacttext'] = '「 %s 」の好ましくないコンテンツ / アーティファクト: %s / 報告者: %s
+$string['objectionablecontentviewartefacttext'] = '「  %s (%s)  」の好ましくないコンテンツ - 報告者: %s
 ------------------------------------------------------------------------
 
 %s
@@ -117,9 +117,9 @@ $string['addtowatchlist'] = 'ウォッチリストに追加する';
 $string['removefromwatchlist'] = 'ウォッチリストから削除する';
 $string['missingparam'] = '次の活動タイプに関する必須パラメータ %s が空です: %s';
 $string['institutionrequestsubject'] = '%s が %s のメンバーシップをリクエストしました。';
-$string['institutionrequestmessage'] = 'あなたはインスティテューションメンバーページで、ユーザをインスティテューションに追加することができます:';
+$string['institutionrequestmessage'] = 'あなたはインスティテューションメンバーページでユーザをインスティテューションに追加することができます:';
 $string['institutioninvitesubject'] = 'あなたはインスティテューション %s への参加を招待されました。';
-$string['institutioninvitemessage'] = 'あなたはインスティテューション設定ページで、このインスティテューションのメンバーシップを承認することができます:';
+$string['institutioninvitemessage'] = 'あなたはインスティテューション設定ページでこのインスティテューションのメンバーシップを承認することができます:';
 $string['deleteallnotifications'] = 'すべての通知を削除する';
 $string['reallydeleteallnotifications'] = '本当にこの活動タイプに関して、あなたのすべての通知を削除してもよろしいですか?';
 $string['viewsubmittedsubject1'] = '%s への送信';
