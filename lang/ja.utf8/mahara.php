@@ -1026,7 +1026,7 @@ $string['sharedetail'] = 'あなたの成果および発展をあなたが管理
 $string['engage'] = '参加';
 $string['engagesubtitle'] = '人を探してグループに参加する';
 $string['engagedetail'] = 'ディスカッションフォーラムで他の人と関係して、グループ内で共同します。';
-$string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたはこのボックスの可視性を<a href="%s">設定</a>ページにてコントロールすることができます。';
+$string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールすることができます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['filenotfound'] = 'ファイルが見つかりませんでした。';
 $string['filenotfoundmaybeexpired'] = 'ファイルが見つかりませんでした。あなたのエクスポートファイルは作成後24時間のみ存在します。あなたのコンテンツを再度エクスポートする必要があります。';
