@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-10-27 01:12:43 UTC
+ * @updated    2015-10-12 15:42:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -76,17 +76,17 @@ $string['newviewaccesssubject'] = '新しいビューアクセス';
 $string['viewmodified'] = 'がビューを変更しました。';
 $string['ongroup'] = 'グループ:';
 $string['ownedby'] = 'オーナー:';
-$string['objectionablecontentview'] = '好ましくないコンテンツ - ビュー: %s / 報告者: %s';
-$string['objectionablecontentartefact'] = '好ましくないコンテンツ - アーティファクト: %s / 報告者: %s';
+$string['objectionablecontentview'] = 'ビュー「 %s 」の好ましくないコンテンツ - 報告者: %s';
+$string['objectionablecontentartefact'] = 'アーティファクト「 %s 」の好ましくないコンテンツ - 報告者: %s';
 $string['newgroupmembersubj'] = '%s がグループメンバーになりました!';
 $string['removedgroupmembersubj'] = 'もう %s はグループメンバーではありません。';
 $string['addtowatchlist'] = 'ウォッチリストに追加する';
 $string['removefromwatchlist'] = 'ウォッチリストから削除する';
 $string['missingparam'] = '次の活動タイプに関する必須パラメータ %s が空です: %s';
 $string['institutionrequestsubject'] = '%s が %s のメンバーシップをリクエストしました。';
-$string['institutionrequestmessage'] = 'あなたはインスティテューションメンバーページで、ユーザをインスティテューションに追加することができます:';
+$string['institutionrequestmessage'] = 'あなたはインスティテューションメンバーページでユーザをインスティテューションに追加することができます:';
 $string['institutioninvitesubject'] = 'あなたはインスティテューション %s への参加を招待されました。';
-$string['institutioninvitemessage'] = 'あなたはインスティテューション設定ページで、このインスティテューションのメンバーシップを承認することができます:';
+$string['institutioninvitemessage'] = 'あなたはインスティテューション設定ページでこのインスティテューションのメンバーシップを承認することができます:';
 $string['viewsubmittedsubject'] = '%s に送信されたビュー';
 $string['viewsubmittedmessage'] = '%s がビュー「 %s 」を %s に送信しました。';
 
