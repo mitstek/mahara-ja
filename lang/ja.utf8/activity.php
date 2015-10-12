@@ -50,7 +50,7 @@ $string['failedtodeletenotifications'] = 'あなたの通知の削除に失敗�
 $string['stopmonitoring'] = 'モニタリングを停止する';
 $string['artefacts'] = 'アーティファクト';
 $string['groups'] = 'グループ';
-$string['monitored'] = 'モニター';
+$string['monitored'] = 'モニタ';
 $string['stopmonitoringsuccess'] = 'モニタリングを正常に停止しました。';
 $string['stopmonitoringfailed'] = 'モニタリングの停止に失敗しました。';
 $string['newwatchlistmessage'] = 'あなたのウォッチリストの新しい活動';
@@ -95,7 +95,7 @@ $string['objectionablecontentviewtext'] = '「 %s 」の好ましくないコン
 %s
 報告者のプロファイルを閲覧するには次のリンクをクリックしてください:
 %s';
-$string['objectionablecontentviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」の好ましくないコンテンツ / アーティファクト: %s / 報告者: %s<strong></strong><br />%s</div>
+$string['objectionablecontentviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「  %s (%s)  」の好ましくないコンテンツ - 報告者: %s<strong></strong><br />%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
@@ -103,7 +103,7 @@ $string['objectionablecontentviewartefacthtml'] = '<div style="padding: 0.5em 0;
 <p>クレーム対象: <a href="%s">%s</a></p>
 <p>報告者: <a href="%s">%s</a></p>
 </div>';
-$string['objectionablecontentviewartefacttext'] = '「 %s 」の好ましくないコンテンツ / アーティファクト: %s / 報告者: %s
+$string['objectionablecontentviewartefacttext'] = '「  %s (%s)  」の好ましくないコンテンツ - 報告者: %s
 ------------------------------------------------------------------------
 
 %s
