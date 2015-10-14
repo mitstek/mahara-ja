@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-11 07:42:19 UTC
+ * @updated    2015-10-14 07:35:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -319,7 +319,7 @@ $string['institutionexpirynotificationdescriptioninfo'] = 'サイトおよびイ
 $string['language'] = '言語';
 $string['none'] = 'なし';
 $string['nousernames'] = 'ユーザ名を表示しない';
-$string['nousernamesdescription1'] = '通常のユーザは他のユーザのユーザ名を閲覧したり、ユーザ名でユーザを検索することはできません。これらの制限はスタッフおよび管理者には適用されません。加えて、ユーザ名ではなく、表示名 (提供されている場合) または実名を使用してクリーンURL (有効にされている場合) が生成されます。';
+$string['nousernamesdescription1'] = '通常のユーザは他のユーザのユーザ名を閲覧したり、ユーザ名でユーザを検索することはできません。これらの制限はスタッフおよび管理者には適用されません。加えて、クリーンURL (有効にされている場合) はユーザ名ではなく、表示名 (提供されている場合) または実名を使用して生成されます。';
 $string['onlineuserssideblockmaxusers'] = 'オンラインユーザ制限';
 $string['onlineuserssideblockmaxusersdescription'] = 'オンラインユーザサイドバーに表示される最大ユーザ数です。';
 $string['country'] = '国';
