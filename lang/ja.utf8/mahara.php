@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-09-23 21:37:21 UTC
+ * @updated    2015-10-15 08:56:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -47,7 +47,6 @@ $string['description'] = '説明';
 $string['remove'] = '削除';
 $string['Close'] = '閉じる';
 $string['Help'] = 'ヘルプ';
-$string['Helpicon'] = 'ヘルプアイコン';
 $string['closehelp'] = 'ヘルプを閉じる';
 $string['applychanges'] = '変更を適用する';
 $string['general'] = '一般';
@@ -577,7 +576,6 @@ $string['email'] = 'Eメール';
 $string['emails'] = 'Eメール';
 $string['subject'] = '件名';
 $string['message'] = 'メッセージ';
-$string['messageoptional'] = 'メッセージ <span class="accessible-hidden">(任意)</span>';
 $string['messagesent'] = 'あなたのメッセージが送信されました。';
 $string['nosendernamefound'] = '送信者名が送信されていません。';
 $string['emailnotsent'] = 'コンタクトメールの送信に失敗しました。エラーメッセージ: %s';
@@ -732,7 +730,7 @@ $string['phpuploaderror_2'] = 'アップロードファイルがHTMLフォーム
 $string['phpuploaderror_3'] = 'アップロードファイルは一部分のみアップロードされました。';
 $string['phpuploaderror_4'] = 'アップロードされたファイルはありません。';
 $string['phpuploaderror_6'] = '一時フォルダがありません。';
-$string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。';
+$string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。あなたのファイルシステムに関して、MaharaデータルートおよびPHP「upload_tmp_dir」ディレクトリへの書き込みに十分なスペースがあるか確認してください。';
 $string['phpuploaderror_8'] = 'ファイルアップロードは拡張子が原因で中止されました。';
 $string['adminphpuploaderror'] = 'ファイルアップロードエラーは恐らくあなたのサーバ設定を原因としています。';
 $string['youraccounthasbeensuspendedtext2'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。';

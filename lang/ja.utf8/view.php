@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-09-10 07:47:00 UTC
+ * @updated    2015-10-15 09:39:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -60,9 +60,9 @@ $string['reallyaddaccesstoemptyview'] = 'あなたのページにはブロック
 $string['viewdeleted'] = 'ページが削除されました。';
 $string['viewsubmitted'] = 'ページが送信されました。';
 $string['deletethisview'] = 'このページを削除する';
-$string['submitthisviewto'] = 'このページを評価のため';
-$string['submitthiscollectionto'] = 'このコレクションを評価のため';
-$string['forassessment'] = 'に送信する';
+$string['submitthisviewto1'] = 'このページを評価のために送信する ->';
+$string['submitthiscollectionto1'] = 'このコレクションを評価のために送信する ->';
+$string['forassessment1'] = '評価のために送信する';
 $string['accessfromdate2'] = '%s 以前、だれもこのページを閲覧できません。';
 $string['accessuntildate2'] = '%s 以降、だれもこのページを閲覧できません。';
 $string['accessbetweendates2'] = '%s 以前または %s 以降、だれもこのページを閲覧できません。';
@@ -314,7 +314,6 @@ $string['noartefactstochoosefrom'] = '申し訳ございません、選択する
 $string['access'] = 'アクセス';
 $string['noaccesstoview'] = 'あなたにはこのページにアクセスするパーミッションがありません。';
 $string['changeviewtheme'] = 'あなたがこのページに選択したテーマは廃止されています。異なるテーマを選択してください。';
-$string['nothemeselected'] = 'テーマ未選択';
 $string['Template'] = 'テンプレート';
 $string['allowcopying'] = 'コピーを許可する';
 $string['retainviewrights1'] = 'ページまたはコレクションのコピー時、ページアクセスを保持する';
