@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-09-11 15:26:12 UTC
+ * @updated    2015-10-15 09:31:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -538,7 +538,7 @@ $string['phpuploaderror_2'] = 'アップロードファイルがHTMLフォーム
 $string['phpuploaderror_3'] = 'アップロードファイルは一部分のみアップロードされました。';
 $string['phpuploaderror_4'] = 'アップロードされたファイルはありません。';
 $string['phpuploaderror_6'] = '一時フォルダがありません。';
-$string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。';
+$string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。ファイルのディスク書き込みに失敗しました。あなたのファイルシステムに関して、MaharaデータルートおよびPHP「upload_tmp_dir」ディレクトリへの書き込みに十分なスペースがあるか確認してください。';
 $string['phpuploaderror_8'] = 'ファイルアップロードは拡張子が原因で中止されました。';
 $string['adminphpuploaderror'] = 'ファイルアップロードエラーは恐らくあなたのサーバ設定を原因としています。';
 $string['youraccounthasbeensuspendedtext2'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。';
