@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-09-11 15:32:41 UTC
+ * @updated    2015-10-15 09:30:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -619,7 +619,7 @@ $string['phpuploaderror_2'] = 'アップロードファイルがHTMLフォーム
 $string['phpuploaderror_3'] = 'アップロードファイルは一部分のみアップロードされました。';
 $string['phpuploaderror_4'] = 'アップロードされたファイルはありません。';
 $string['phpuploaderror_6'] = '一時フォルダがありません。';
-$string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。';
+$string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。ファイルのディスク書き込みに失敗しました。あなたのファイルシステムに関して、MaharaデータルートおよびPHP「upload_tmp_dir」ディレクトリへの書き込みに十分なスペースがあるか確認してください。';
 $string['phpuploaderror_8'] = 'ファイルアップロードは拡張子が原因で中止されました。';
 $string['adminphpuploaderror'] = 'ファイルアップロードエラーは恐らくあなたのサーバ設定を原因としています。';
 $string['youraccounthasbeensuspendedtext2'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。';
