@@ -30,7 +30,7 @@ defined('INTERNAL') || die();
 
 $string['administration'] = '管理';
 $string['installation'] = 'インストール';
-$string['release'] = 'リリース %s (%s)';
+$string['release'] = 'バージョン %s (%s)';
 $string['copyright'] = 'Copyright &copy; 2006 onwards, <a href="http://wiki.mahara.org/Contributors">Catalyst IT and others</a>';
 $string['installmahara'] = 'Maharaをインストールする';
 $string['component'] = 'コンポーネントまたはプラグイン';
