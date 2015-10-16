@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-15 09:39:05 UTC
+ * @updated    2015-10-16 11:34:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -314,6 +314,7 @@ $string['noartefactstochoosefrom'] = '申し訳ございません、選択する
 $string['access'] = 'アクセス';
 $string['noaccesstoview'] = 'あなたにはこのページにアクセスするパーミッションがありません。';
 $string['changeviewtheme'] = 'あなたがこのページに選択したテーマは廃止されています。異なるテーマを選択してください。';
+$string['nothemeselected1'] = 'インスティテューションテーマを使用する';
 $string['Template'] = 'テンプレート';
 $string['allowcopying'] = 'コピーを許可する';
 $string['retainviewrights1'] = 'ページまたはコレクションのコピー時、ページアクセスを保持する';
