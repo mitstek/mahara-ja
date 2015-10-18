@@ -41,7 +41,7 @@ $string['upgrades'] = 'アップグレード';
 $string['upgradingplugin'] = '%s のアップグレード';
 $string['upgradesuccess'] = 'アップグレードが正常に完了しました。';
 $string['upgradesuccesstoversion'] = '次のバージョンへ正常にアップグレードしました:';
-$string['upgradefailure'] = 'アップグレードに失敗しました!';
+$string['upgradefailure'] = 'アップグレードに失敗しました。';
 $string['noupgrades'] = 'アップグレードはありません! あなたは最新版を使用しています!';
 $string['youcanupgrade'] = 'あなたはMaharaを %s (%s) から %s (%s) へアップグレードすることができます。';
 $string['upgradeinprogress'] = '%s に開始されたアップグレードは完了していません。<a href="?rerun=1">このアップグレードを実行します</a>。';
