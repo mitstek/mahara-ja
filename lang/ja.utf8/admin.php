@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-22 08:25:40 UTC
+ * @updated    2015-10-22 18:33:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -237,7 +237,7 @@ $string['groupmemberaverage'] = 'それぞれのユーザは平均 %s のグル�
 $string['viewsperuser'] = 'ページを作成したユーザはそれぞれ約 %s ページを持っています。';
 $string['Cron'] = 'Cron';
 $string['runningnormally'] = '正常動作';
-$string['cronnotrunning2'] = '<strong class="error text-danger">Cronが動作していません。</strong><br />cronのセットアップに関するインストラクションは<a href="https://wiki.mahara.org/System_Administrator\'s_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronをセットアップしている場合、直近の1つまたはそれ以上の処理が正しく実行されませんでした。';
+$string['cronnotrunning2'] = '<strong class="error text-danger">Cronが動作していません。</strong><br />cronのセットアップに関するインストラクションは<a href="https://wiki.mahara.org/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronをセットアップしている場合、直近の1つまたはそれ以上の処理が正しく実行されませんでした。';
 $string['cronnotrunningsiteclosed1'] = '<strong class="error text-danger">Cronが動作していません。</strong><br />現在、サイトはクローズされています。Cronの実行のため、サイトを再度オープンしてください。';
 $string['Loggedin'] = 'ログイン';
 $string['youraverageuser'] = 'あなたのユーザ平均 ...';
