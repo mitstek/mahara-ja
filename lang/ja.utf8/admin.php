@@ -159,7 +159,7 @@ $string['cleanurlsdescription'] = '<p>ユーザプロファイル、グループ
 </ul>
 
 受信リクエストのURLを書き換えることができるようあなたのサーバ管理者はこのオプションを有効にする前にウェブサーバを設定する必要があります。</p>
-<p>この作業のインストラクションに関して、Mahara wikiの<a href=" https://wiki.mahara.org/index.php/System_Administrator%27s_Guide/Clean_URL_Configuration" target="_blank">「クリーンURL設定 (英語)」</a>をご覧ください。</p>';
+<p>この作業のインストラクションに関して、Mahara wikiの<a href=" https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Clean_URL_Configuration" target="_blank">「クリーンURL設定 (英語)」</a>をご覧ください。</p>';
 $string['cleanurlsdisabled'] = 'クリーンURLは無効にされています。';
 $string['cleanurlsettings'] = 'クリーンURL設定';
 $string['regenerateurls'] = 'URLを再生成する';
@@ -232,7 +232,7 @@ $string['groupmemberaverage'] = 'それぞれのユーザは平均 %s のグル�
 $string['viewsperuser'] = 'ページを作成したユーザはそれぞれ約 %s ページを持っています。';
 $string['Cron'] = 'Cron';
 $string['runningnormally'] = '正常動作';
-$string['cronnotrunning1'] = '<span class="error">Cronが動作していません。</span><br />cronのセットアップに関するインストラクションは<a href="https://wiki.mahara.org/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronをセットアップしている場合、直近の1つまたはそれ以上の処理が正しく実行されませんでした。';
+$string['cronnotrunning1'] = '<span class="error">Cronが動作していません。</span><br />cronのセットアップに関するインストラクションは<a href="https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronをセットアップしている場合、直近の1つまたはそれ以上の処理が正しく実行されませんでした。';
 $string['cronnotrunningsiteclosed'] = '<span class="error">Cronが動作していません。</span><br />現在、サイトはクローズされています。Cronの実行のため、サイトを再度オープンしてください。';
 $string['Loggedin'] = 'ログイン';
 $string['youraverageuser'] = 'あなたのユーザ平均 ...';
