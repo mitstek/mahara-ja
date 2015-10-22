@@ -530,7 +530,7 @@ $string['uploadgroupmemberscsvpagedescription2'] = '<p>あなたはこの機能�
 
 <p>この行は上記のフィールドすべてを含む必要がありますが、順序は自由に記述してください。</p>
 
-<p>shortnameフィールドにはあなたが<a href="%s" title="%s">ここ</a>でグループを作成した時に使用した名称と同じにする必要があります。</p>
+<p>shortnameフィールドはあなたが<a href="%s" title="%s">ここ</a>でグループを作成した時に使用した名称と同じにする必要があります。</p>
 
 <p>roleフィールドにはグループタイプに応じて次の設定値を使用することができます: <tt>admin</tt>、<tt>member</tt>または<tt>tutor</tt></p>';
 $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効でないか、Maharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動でコンタクトしてください:';
