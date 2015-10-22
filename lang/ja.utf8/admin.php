@@ -162,7 +162,7 @@ $string['cleanurlsdescription'] = '<p>ユーザプロファイル、グループ
 </ul>
 
 受信リクエストのURLを書き換えることができるようあなたのサーバ管理者はこのオプションを有効にする前にウェブサーバを設定する必要があります。</p>
-<p>この作業のインストラクションに関して、Mahara wikiの<a href=" https://wiki.mahara.org/index.php/wiki/System_Administrator%27s_Guide/Clean_URL_Configuration" target="_blank">「クリーンURL設定 (英語)」</a>をご覧ください。</p>';
+<p>この作業のインストラクションに関して、Mahara wikiの<a href=" https://wiki.mahara.org//wiki/System_Administrator%27s_Guide/Clean_URL_Configuration" target="_blank">「クリーンURL設定 (英語)」</a>をご覧ください。</p>';
 $string['cleanurlsdisabled'] = 'クリーンURLは無効にされています。';
 $string['cleanurlsettings'] = 'クリーンURL設定';
 $string['regenerateurls'] = 'URLを再生成する';
