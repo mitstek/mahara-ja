@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-22 20:09:13 UTC
+ * @updated    2015-10-23 13:18:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,6 +20,19 @@ $string['element.bytes.gigabytes'] = 'GB';
 $string['element.bytes.invalidvalue'] = '値は数値にしてください';
 $string['element.calendar.invalidvalue'] = '無効な日付/時間が指定されました';
 $string['element.calendar.opendatepicker'] = '日付ピッカを開く';
+$string['element.calendar.format.help.dayofmonth1digit'] = 'D';
+$string['element.calendar.format.help.dayofmonth2digits'] = 'DD';
+$string['element.calendar.format.help.month2digit'] = 'MM';
+$string['element.calendar.format.help.year2digit'] = 'YY';
+$string['element.calendar.format.help.year4digit'] = 'YYYY';
+$string['element.calendar.format.help.24hour1digit'] = 'H';
+$string['element.calendar.format.help.24hour2digits'] = 'HH';
+$string['element.calendar.format.help.12hour1digit'] = 'H';
+$string['element.calendar.format.help.12hour2digits'] = 'HH';
+$string['element.calendar.format.help.minute2digits'] = 'MM';
+$string['element.calendar.format.help.second2digits'] = 'SS';
+$string['element.calendar.format.help.ampmlowercase'] = 'am';
+$string['element.calendar.format.help.ampmuppercase'] = 'AM';
 $string['element.date.monthnames'] = '1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月';
 $string['element.date.specify'] = '日付設定';
 $string['element.date.at'] = '-';
