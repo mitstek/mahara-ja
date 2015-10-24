@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-15 09:30:36 UTC
+ * @updated    2015-10-24 21:19:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -331,7 +331,7 @@ $string['username'] = 'ユーザ名';
 $string['preferredname'] = 'ニックネーム';
 $string['usernamehelp'] = 'このシステムにアクセスするため、あなたに与えられたユーザ名です。';
 $string['youaremasqueradingas'] = 'あなたは %s としてログインしています。';
-$string['yournewpassword'] = 'あなたの新しいパスワード';
+$string['yournewpassword'] = 'あなたの新しいパスワードです。パスワードは少なくとも半角英数字6文字にしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。<br/>良いセキュリティのためにパスフレーズの使用を検討してください。パスフレーズは単一の単語ではなく文です。あなたが好きな名言・格言またはスペースで区切った2つ (またはそれ以上) の好きなものを使用することを検討してください。';
 $string['yournewpasswordagain'] = 'あなたの新しいパスワードをもう一度';
 $string['invalidsesskey'] = '無効なセッションキー';
 $string['cannotremovedefaultemail'] = 'あなたの主メールアドレスは削除できません。';
