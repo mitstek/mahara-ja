@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-15 09:31:13 UTC
+ * @updated    2015-10-24 21:21:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -298,7 +298,7 @@ $string['username'] = 'ユーザ名';
 $string['preferredname'] = 'ニックネーム';
 $string['usernamehelp'] = 'このシステムにアクセスするため、あなたに与えられたユーザ名です。';
 $string['youaremasqueradingas'] = 'あなたは %s としてログインしています。';
-$string['yournewpassword'] = 'あなたの新しいパスワード';
+$string['yournewpassword'] = 'あなたの新しいパスワードです。あなたのパスワードは少なくとも半角英数字6文字にしてください。そしてパスワードには半角数字1文字および半角英文字2文字以上を含む必要があります。';
 $string['yournewpasswordagain'] = 'あなたの新しいパスワードをもう一度';
 $string['invalidsesskey'] = '無効なセッションキー';
 $string['cannotremovedefaultemail'] = 'あなたの主メールアドレスは削除できません。';
