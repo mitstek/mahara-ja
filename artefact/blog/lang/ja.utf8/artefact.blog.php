@@ -135,6 +135,6 @@ $string['youhaveoneblog'] = 'あなたには 1件の日誌があります。';
 $string['youhaveblogs'] = 'あなたには %s 件の日誌があります。';
 $string['feedsnotavailable'] = 'このアーティファクトタイプではフィードは利用できません。';
 $string['feedrights'] = '著作権 %s';
-$string['enablemultipleblogstext'] = 'あなたには1件の日誌があります。あなたが2件目の日誌を作成したい場合、<a href="%saccount/">アカウント設定</a>ページにて、複数日誌オプションを有効にしてください。';
+$string['enablemultipleblogstext'] = 'あなたには1件の日誌があります。あなたが2件目の日誌を作成したい場合、<a href="%saccount/">アカウント設定</a>ページで複数日誌オプションを有効にしてください。';
 
 ?>
