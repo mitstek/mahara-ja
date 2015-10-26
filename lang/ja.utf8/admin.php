@@ -86,7 +86,7 @@ $string['sitefontsdescription'] = 'サイト内のユーザすべてが使用で
 $string['sitelicenses'] = 'ライセンス';
 $string['sitelicensesadd'] = 'ライセンスを追加する';
 $string['sitelicensesdescription'] = 'ユーザがコンテンツに使用できるライセンス一覧を設定します。';
-$string['sitelicensesdisablednote'] = '<b>注意</b>: 現在、ライセンスメタデータは無効にされています。ユーザがライセンスを指定できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「一般設定」セクションにて、ライセンスメタデータを有効にする必要があります。';
+$string['sitelicensesdisablednote'] = '<b>注意</b>: 現在、ライセンスメタデータは無効にされています。ユーザがライセンスを指定できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「一般設定」セクションでライセンスメタデータを有効にする必要があります。';
 $string['sitelicensesedit'] = 'ライセンスを編集する';
 $string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトページに置くことのできるファイルをアップロードおよび管理します。';
 $string['siteskins'] = 'サイトスキン';
@@ -144,7 +144,7 @@ $string['filtersinstalled'] = 'フィルタがインストールされました�
 $string['nofiltersinstalled'] = 'HTMLフィルタはインストールされませんでした。';
 $string['allowediframesites'] = '許可されるiframeソース';
 $string['allowediframesitesdescriptionshort'] = '埋め込み外部iframeコンテンツのパーミッションを設定します。';
-$string['allowediframesitesdescription'] = 'ユーザはHTML &lt;iframe&gt; エレメント内に以下の外部サイトからコンテンツを埋め込むことができます。これは一般的に他の場所で提供されているコンテンツを表示するために使用されます。このページにて、許可されるサイト一覧を修正することができます。';
+$string['allowediframesitesdescription'] = 'ユーザはHTML &lt;iframe&gt; エレメント内に以下の外部サイトからコンテンツを埋め込むことができます。これは一般的に他の場所で提供されているコンテンツを表示するために使用されます。このページで許可されるサイト一覧を修正することができます。';
 $string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、ユーザに対してアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが、同一サイト内におけるiframeソーステキストの一部合致は許可されます。';
 $string['iframeurldescription'] = 'iframeソースURL (http:// なし) の先頭に合致するテキストです。半角英数字、「.」「/」「_」および「-」のみ許可されます。';
 $string['iframedisplaynamedescription'] = 'ユーザに表示されるサイト名です。';
@@ -208,12 +208,12 @@ $string['registrationfailedtrylater'] = 'エラーコード %s により、登�
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます!';
 $string['registeryourmaharasite'] = 'あなたのMaharaサイトを登録します。';
 $string['registeryourmaharasitesummary'] = '<p>あなたは<a href="http://mahara.org/">mahara.org</a>にあなたのMaharaサイトを登録することができます。また、登録することで、私たちは世界のMaharaインストール状況を作成することができます。サイトを登録することで、この通知が取り除かれます。</p>
-<p>あなたがサイトを登録する場合、送信される情報を<strong><a href="%sadmin/registersite.php">サイト登録ページ</a></strong>にて、プレビューすることができます。</p>';
+<p>あなたがサイトを登録する場合、送信される情報を<strong><a href="%sadmin/registersite.php">サイト登録ページ</a></strong>でプレビューすることができます。</p>';
 $string['registeryourmaharasitedetail'] = '<p>あなたは<a href="http://mahara.org/">mahara.org</a>にあなたのMaharaサイトを登録することができます。登録は無料です。また、登録することで、私たちは世界のMaharaインストール状況を作成することができます。</p>
 <p>あなたはmahara.orgに送信された情報を閲覧することができます - あなたのユーザに関する個人情報は一切送信されません。</p>
 <p>あなたが「更新内容を週に1回送信しますか?」をこの設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
 <p>サイトを登録した後、この通知は取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更することができます。</p>';
-$string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページにて、</p>サイト更新内容の週ごとの送信を有効または無効にすることができます。';
+$string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページで</p>サイト更新内容の週ごとの送信を有効または無効にすることができます。';
 $string['newsiteregistrationpolicy'] = '<p>最近、私たちはmahara.orgへのデータ送信に関するポリシーを更新しました。あなたの登録を確認してください。</p>';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
@@ -796,7 +796,7 @@ $string['showonlineusersdescription'] = 'このインスティテューション
 $string['licensemandatory'] = 'ライセンス情報を要求する';
 $string['licensemandatorydescription'] = 'この設定を有効にした場合、ユーザはアーティファクト作成時にライセンスを選択する必要があります。そうでない場合、ライセンスフィールドを空白のままにすることができます。';
 $string['licensedefault'] = 'デフォルトライセンス';
-$string['licensedefaultdescription'] = 'インスティテューションメンバーにより作成またはアップロードされたコンテンツのデフォルトのライセンスです。ユーザはアカウント設定ページおよび個々のアイテムにて、この設定をオーバーライドすることができます。';
+$string['licensedefaultdescription'] = 'インスティテューションメンバーにより作成またはアップロードされたコンテンツのデフォルトのライセンスです。ユーザはアカウント設定ページおよび個々のアイテムでこの設定をオーバーライドすることができます。';
 $string['licensedefaultmandatory'] = 'ユーザがライセンスの選択を要求される場合、あなたはここでデフォルトライセンスを選択する必要があります。あなたがデフォルトライセンスを選択したくない場合、ユーザにライセンスを要求しないでください。';
 $string['Logo'] = 'ロゴ';
 $string['logodescription'] = 'あなたのインスティテューションメンバーに標準的なヘッダロゴの代わりに表示されるイメージをここでアップロードすることができます。最良の結果のため、このイメージをあなたのインスティテューションのサイトロゴと同じ大きさにしてください。';
@@ -889,7 +889,7 @@ $string['Admins'] = '管理者';
 $string['noinstitutions'] = 'インスティテューションはありません。';
 $string['noinstitutionsdescription'] = 'あなたがユーザをインスティテューションと関連付けたい場合、最初にインスティテューションを作成してください。';
 $string['noinstitutionsstats'] = 'インスティテューション統計を閲覧できません。';
-$string['noinstitutionsstatsdescription1'] = 'サイトがスタッフにインスティテューション統計を閲覧できるようにするにはスタッフ統計アクセスを有効にする必要があります。サイト管理者は<a href="%sadmin/site/options.php">サイト設定</a>の「ユーザ設定」にて、この設定を有効にすることができます。';
+$string['noinstitutionsstatsdescription1'] = 'サイトがスタッフにインスティテューション統計を閲覧できるようにするにはスタッフ統計アクセスを有効にする必要があります。サイト管理者は<a href="%sadmin/site/options.php">サイト設定</a>の「ユーザ設定」でこの設定を有効にすることができます。';
 $string['noinstitutionstaticpages'] = 'あなたにはインスティテューション固定ページを編集するパーミッションがないか、まだインスティテューションが作成されていません。';
 $string['noinstitutionstaticpagesadmin'] = 'あなたがサイト管理者の場合、<a href="%s">サイト設定</a>にてデフォルト固定ページを編集してください。';
 $string['Lockedfields'] = 'ロックフィールド';
@@ -1033,7 +1033,7 @@ $string['progressbarsaved'] = 'プログレスバーが正常に保存されま�
 $string['showprogressbardescription1'] = 'ユーザプロファイルで完了する必要のある内容に関して、サイドバーとしてユーザにヒント付のプログレスバーを表示します。これには無効にするオプションがあります。';
 $string['progressbardisablednote'] = '<b>注意</b>: 現在、プロファイル完了は無効にされています。ユーザがプロファイルの完了に関して進捗を追跡できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「ユーザ設定」セクションにて有効にする必要があります。';
 $string['profilecompletenessdesc1'] = 'プロファイル完了ではあなたのユーザはプロファイルをどの程度完了しているか確認できるサイドバーのビジュアルインディケータを使用することができます。あなたはプロファイル完了に反映させるアーティファクトを選択することができます。他のすべてのアーティファクトを使用することができますが、完了カウントの要素とはなりません。';
-$string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックにて、プロファイル完了がどのように表示されるかプレビューすることができます。';
+$string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックでプロファイル完了がどのように表示されるかプレビューすることができます。';
 $string['exporttoqueue'] = 'キューにエクスポートする';
 $string['exporttoqueuedescription2'] = 'サーバ負荷管理を良くするため、ユーザポートフォリオのLeap2Aによるエクスポートに関して、エクスポートキューが処理するようにします。';
 $string['validating'] = 'データの確認中 ...';
