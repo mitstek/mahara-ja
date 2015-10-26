@@ -108,6 +108,6 @@ $string['feedbackdeletedtext'] = '%s のコメントが削除されました。
 %s をオンライン上で閲覧するには次のリンクをクリックしてください:
 %s';
 $string['artefactdefaultpermissions'] = 'デフォルトのコメントパーミッション';
-$string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトでは作成時にコメントの投稿が有効にされます。ユーザはそれぞれのアーティファクトにて、これらの設定をオーバーライドすることができます。';
+$string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトでは作成時にコメントの投稿が有効にされます。ユーザはそれぞれのアーティファクトでこれらの設定をオーバーライドすることができます。';
 
 ?>
