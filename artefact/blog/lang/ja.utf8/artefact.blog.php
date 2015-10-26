@@ -137,6 +137,6 @@ $string['youhaveoneblog'] = 'あなたには 1件のブログがあります。'
 $string['youhaveblogs'] = 'あなたには %s 件のブログがあります。';
 $string['feedsnotavailable'] = 'このアーティファクトタイプではフィードは利用できません。';
 $string['feedrights'] = '著作権 %s';
-$string['enablemultipleblogstext'] = 'あなたには1件のブログがあります。あなたが2件目のブログを作成したい場合、<a href="%saccount/">アカウント設定</a>ページにて、複数ブログオプションを有効にしてください。';
+$string['enablemultipleblogstext'] = 'あなたには1件のブログがあります。あなたが2件目のブログを作成したい場合、<a href="%saccount/">アカウント設定</a>ページで複数ブログオプションを有効にしてください。';
 
 ?>
