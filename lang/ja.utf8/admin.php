@@ -347,7 +347,7 @@ $string['usersallowedmultipleinstitutionsdescription'] = 'チェックした場�
 $string['userscanchooseviewthemes'] = 'ユーザがページテーマを選択できる';
 $string['userscanchooseviewthemesdescription'] = 'チェックした場合、ユーザはページの編集時、テーマを選択することができます。選択したテーマを使用して、他のユーザにページが表示されます。';
 $string['userscanhiderealnames'] = 'ユーザが実名を隠すことができる';
-$string['userscanhiderealnamesdescription'] = 'チェックした場合、ニックネームを設定したユーザはニックネームのみ検索対象として、実名を検索されないようにすることができます (サイト管理セクションでは常にユーザを実名にて検索することができます)。';
+$string['userscanhiderealnamesdescription'] = 'チェックした場合、ニックネームを設定したユーザはニックネームのみ検索対象として、実名を検索されないようにすることができます (サイト管理セクションでは常にユーザを実名で検索することができます)。';
 $string['usersseenewthemeonlogin'] = '次回ログイン時、他のユーザに新しいテーマが表示されます。';
 $string['viruschecking'] = 'ウイルスチェック';
 $string['viruscheckingdescription'] = 'チェックした場合、すべてのアップロードファイルに対するClamAVを使用したウイルスチェックが有効にされます。';
@@ -822,9 +822,9 @@ $string['noinstitutionsdescription'] = 'あなたがユーザをインスティ�
 $string['noinstitutionsstats'] = 'インスティテューション統計を閲覧できません。';
 $string['noinstitutionsstatsdescription1'] = 'サイトがスタッフにインスティテューション統計を閲覧できるようにするにはスタッフ統計アクセスを有効にする必要があります。サイト管理者は<a href="%sadmin/site/options.php">サイト設定</a>の「ユーザ設定」でこの設定を有効にすることができます。';
 $string['noinstitutiongeneralpages'] = 'あなたにはインスティテューション一般ページを編集するパーミッションがないか、まだインスティテューションが作成されていません。';
-$string['noinstitutiongeneralpagesadmin'] = 'あなたがサイト管理者の場合、<a href="%s">サイト設定</a>にてデフォルト統計ページを編集してください。';
+$string['noinstitutiongeneralpagesadmin'] = 'あなたがサイト管理者の場合、<a href="%s">サイト設定</a>でデフォルト統計ページを編集してください。';
 $string['Lockedfields'] = 'ロックフィールド';
-$string['disabledlockedfieldhelp'] = '注意: 無効にされたチェックボックスはインスティテューション設定「 %s 」にてロックされたプロファイルフィールドです。これらのプロファイルフィールドはサイトレベルでロックされているため、ここでロック解除することはできません。';
+$string['disabledlockedfieldhelp'] = '注意: 無効にされたチェックボックスはインスティテューション設定「 %s 」でロックされたプロファイルフィールドです。これらのプロファイルフィールドはサイトレベルでロックされているため、ここでロック解除することはできません。';
 $string['defaultinstitutionquotadescription'] = 'あなたはこのインスティテューションの新しいユーザに割り当てられるディスクスペース総量を設定することができます。このインスティテューションに関する既存ユーザのクオータは変更されません。';
 $string['updateinstitutionuserquotasdesc'] = 'チェックした場合、あなたが上で選択したデフォルトクオータが既存のメンバーすべてに適用されます。';
 $string['approve'] = '承認';
