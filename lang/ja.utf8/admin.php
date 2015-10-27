@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-14 20:30:54 UTC
+ * @updated    2015-10-27 15:31:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -155,7 +155,7 @@ $string['cleanurlsdescription'] = '<p>ユーザプロファイル、グループ
 </ul>
 
 受信リクエストのURLを書き換えることができるようあなたのサーバ管理者はこのオプションを有効にする前にウェブサーバを設定する必要があります。</p>
-<p>この作業のインストラクションに関して、Mahara wikiの<a href=" https://wiki.mahara.org/index.php/System_Administrator%%27s_Guide/Clean_URL_Configuration" target="_blank">「クリーンURL設定 (英語)」</a>をご覧ください。</p>';
+<p>この作業のインストラクションに関して、Mahara wikiの<a href=" https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Clean_URL_Configuration">「クリーンURL設定 (英語)」</a>をご覧ください。</p>';
 $string['cleanurlsdisabled'] = 'クリーンURLは無効にされています。';
 $string['cleanurlsettings'] = 'クリーンURL設定';
 $string['regenerateurls'] = 'URLを再生成する';
