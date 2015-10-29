@@ -26,7 +26,7 @@ $string['postedon'] = '-';
 $string['itemstoshow'] = '表示するアイテム数';
 $string['configerror'] = 'ブロック設定中にエラーが発生しました。';
 $string['showjournalitemsinfull'] = '日誌アイテムをフルに表示する';
-$string['showjournalitemsinfulldesc'] = 'チェックした場合、日誌エントリが表示されます。そうでない場合、日誌エントリのタイトルのみ表示されます。';
+$string['showjournalitemsinfulldesc'] = 'この設定を有効にした場合、日誌エントリが表示されます。そうでない場合、日誌エントリのタイトルのみ表示されます。';
 $string['tag'] = 'タグ';
 
 ?>
