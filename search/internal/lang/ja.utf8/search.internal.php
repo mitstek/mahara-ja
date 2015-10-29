@@ -14,6 +14,6 @@
 defined('INTERNAL') || die();
 
 $string['exactusersearch'] = 'ユーザ厳密検索';
-$string['exactusersearchdescription'] = 'チェックした場合、「ユーザを検索する」ボックスおよび「フレンドを探す」ページの結果には検索キーワード全体に合致するプロファイルフィールドのユーザのみ表示されます。';
+$string['exactusersearchdescription'] = 'この設定を有効にした場合、「ユーザを検索する」ボックスおよび「フレンドを探す」ページの結果には検索キーワード全体に合致するプロファイルフィールドのユーザのみ表示されます。';
 
 ?>
