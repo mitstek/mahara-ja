@@ -192,7 +192,7 @@ $string['sendweeklyupdates'] = '更新内容を週に1回送信しますか?';
 $string['sendweeklyupdatesdescription'] = 'チェックした場合、あなたのサイトは週に1回、統計資料とともに更新内容をmahara.orgに送信します。';
 $string['Register'] = '登録';
 $string['registrationfailedtrylater'] = 'エラーコード %s により、登録が失敗しました。後ほど再度お試しください。';
-$string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます!';
+$string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます。';
 $string['registeryourmaharasite'] = 'あなたのMaharaサイトを登録する';
 $string['registeryourmaharasitesummary'] = '<p>あなたのMaharaサイトを<a href="http://mahara.org/">mahara.org</a>に登録することができます。登録することにより、私たちは世界のMaharaインストール状況を作成することができます。登録することにより、この通知が取り除かれます。</p>
 <p>あなたがサイトを登録する場合、送信される情報を<strong><a href="%sadmin/registersite.php">サイト登録ページ</a></strong>でプレビューすることができます。</p>';
