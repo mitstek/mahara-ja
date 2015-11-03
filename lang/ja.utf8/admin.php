@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-27 15:30:04 UTC
+ * @updated    2015-11-03 18:05:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -665,7 +665,7 @@ $string['adminuserspagedescription1'] = '<p>ここであなたはどのユーザ
 $string['institutionadminuserspagedescription1'] = 'ここであなたはどのユーザがインスティテューション管理者になるのか選択することができます。現在の管理者は「現在の管理者」フィールドに潜在的な管理者は「インスティテューションメンバー」フィールドに一覧表示されます。';
 $string['adminusersupdated'] = '管理ユーザが更新されました。';
 $string['staffuserspagedescription1'] = 'ここであなたはどのユーザがサイトスタッフになるのか選択することができます。現在の管理者は「現在のスタッフ」フィールドに潜在的な管理者は「潜在的なスタッフ」フィールドに一覧表示されます。';
-$string['institutionstaffuserspagedescription1'] = 'ここであなたはどのユーザがあなたのインスティテューションのスタッフになるのか選択することができます。現在のスタッフは「現在のスタッフ」フィールドに潜在的なスタッフは「インスティテューションメンバー」フィールドに一覧表示されます。';
+$string['institutionstaffuserspagedescription1'] = 'ここであなたはどのユーザがあなたのインスティテューションのスタッフになるのか選択することができます。現在のスタッフは「インスティテューションスタッフ」フィールドに潜在的なスタッフは「インスティテューションメンバー」フィールドに一覧表示されます。';
 $string['potentialstaff'] = '潜在的なスタッフ';
 $string['currentstaff'] = '現在のスタッフ';
 $string['makeusersintostaff'] = '選択したユーザをスタッフにする';
