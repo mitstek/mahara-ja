@@ -353,7 +353,7 @@ $string['accountinactivewarninghtml'] = '<p>%s さん</p>
 <p>サイトにログインすることで、あなたのアカウントが無効になることを防ぐことができます。</p>
 
 <p>%s サイト管理者</p>';
-$string['accountsuspended'] = '%s 現在、あなたのアカウントは利用停止されています。<br />あなたの利用停止理由は: %s';
+$string['accountsuspended'] = '%s 現在、あなたのアカウントは利用停止されています。<<br /> />あなたの利用停止理由は: %s';
 $string['youraccounthasbeensuspended'] = 'あなたのアカウントが利用停止されました。';
 $string['youraccounthasbeenunsuspended'] = 'あなたのアカウントの利用停止が解除されました。';
 $string['changepasswordinfo'] = '開始する前にあなたはパスワードを変更する必要があります。';
@@ -390,7 +390,7 @@ $string['username'] = 'ユーザ名';
 $string['preferredname'] = 'ニックネーム';
 $string['usernamehelp'] = 'このシステムにアクセスするため、あなたに与えられたユーザ名です。';
 $string['youaremasqueradingas'] = 'あなたは %s としてログインしています。';
-$string['yournewpassword'] = 'あなたの新しいパスワードです。パスワードは少なくとも半角英数字6文字にしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。<br/>良いセキュリティのためにパスフレーズの使用を検討してください。パスフレーズは単一の単語ではなく文です。あなたが好きな名言・格言またはスペースで区切った2つ (またはそれ以上) の好きなものを使用することを検討してください。';
+$string['yournewpassword'] = 'あなたの新しいパスワードです。パスワードは少なくとも半角英数字6文字にしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。<<br />/>良いセキュリティのためにパスフレーズの使用を検討してください。パスフレーズは単一の単語ではなく文です。あなたが好きな名言・格言またはスペースで区切った2つ (またはそれ以上) の好きなものを使用することを検討してください。';
 $string['yournewpasswordagain'] = 'あなたの新しいパスワードをもう一度';
 $string['invalidsesskey'] = '無効なセッションキー';
 $string['cannotremovedefaultemail'] = 'あなたの主メールアドレスは削除できません。';
@@ -772,7 +772,7 @@ $string['country.bo'] = 'ボリビア共和国';
 $string['country.ba'] = 'ボスニア・ヘルツェゴビナ共和国';
 $string['country.bw'] = 'ボツワナ共和国';
 $string['country.bv'] = 'ブーベ島';
-$string['country.br'] = 'ブラジル';
+$string['country.<br />'] = 'ブラジル';
 $string['country.io'] = '英国領インド洋地域';
 $string['country.bn'] = 'ブルネイ・ダルサラーム国';
 $string['country.bg'] = 'ブルガリア共和国';
