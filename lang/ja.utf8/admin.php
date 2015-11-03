@@ -578,7 +578,7 @@ $string['bulkleap2aimport'] = 'Leap2Aファイルからユーザをインポー�
 $string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある複数のLeap2Aファイルを使用して、ユーザを一度にインポートすることができます。あなたはファイルシステムのディレクトリにおいて、すべてのLeap2A ZIPファイルおよびファイル名にユーザ名をマッピングするimport.csvと呼ばれるCSVファイルを指定する必要があります。</p>
 <p>import.csvは以下のようになります:</p>
 <pre>
-&nbsp;&nbsp;bob,mahara-export-leap-user8-1265165366.zip<br>
+&nbsp;&nbsp;bob,mahara-export-leap-user8-1265165366.zip<br />
 &nbsp;&nbsp;nigel,mahara-export-leap-user1-1266458159.zip
 </pre>
 <p>上記、mahara-export-leap-user8-1265165366.zipおよびmahara-export-leap-user1-1266458159.zipはimport.csvとして、同一ディレクトリにあります。</p>
