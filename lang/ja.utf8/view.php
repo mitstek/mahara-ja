@@ -175,7 +175,7 @@ $string['cantdeleteview'] = 'あなたはこのページを削除できません
 $string['deletespecifiedview'] = 'ページ「 %s 」を削除する';
 $string['deleteviewconfirm1'] = '本当にこのページを削除してもよろしいですか? 元に戻すことはできません。';
 $string['deleteviewconfirmbackup'] = '<a href="%sexport/" target="_blank">エクスポート</a>により、このページのバックアップを作成することを検討してください。';
-$string['deleteviewconfirmnote1'] = '<strong>注意:</strong> このページにリンクしたすべてのファイルおよび日誌を利用することはできます。<<br />/>しかし、このページに投稿されたすべてのフィードバックは削除されます。';
+$string['deleteviewconfirmnote1'] = '<strong>注意:</strong> このページにリンクしたすべてのファイルおよび日誌を利用することはできます。<br/>しかし、このページに投稿されたすべてのフィードバックは削除されます。';
 $string['deleteviewconfirmnote2'] = 'このページはコレクション「<a href="%s">%s</a>」の一部です。';
 $string['editaccesspagedescription6'] = 'デフォルトではあなたのページおよびコレクションをあなたのみ閲覧することができます。このページではあなたに加えて誰がアクセスできるのか決定します。';
 $string['editaccessdescription'] = 'チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
@@ -221,7 +221,7 @@ $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除し
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
 $string['blockconfigurationrenderingerror'] = 'レンダリングできなかったため、ブロック設定に失敗しました。';
 $string['blocksintructionnoajax'] = 'あなたのページに追加するブロックを選択してください。あなたはブロックタイトルバーの矢印を使って、ブロックの配置を変更することができます。';
-$string['blocksinstructionajax'] = 'このエリアではあなたのページがどのように表示されるかプレビューを表示します。<<br /> />あなたのページレイアウトにブロックを追加するにはこの行の下にドラッグしてください。あなたのページ内でドラッグすることで、ブロックの配置を変更することができます。';
+$string['blocksinstructionajax'] = 'このエリアではあなたのページがどのように表示されるかプレビューを表示します。<br />あなたのページレイアウトにブロックを追加するにはこの行の下にドラッグしてください。あなたのページ内でドラッグすることで、ブロックの配置を変更することができます。';
 $string['addblock'] = 'ブロックを追加する: %s';
 $string['blockcell'] = 'セル';
 $string['cellposition'] = '行 %s カラム %s';

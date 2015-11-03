@@ -143,7 +143,7 @@ CSS @font-faceルールによってウェブページに埋め込むことので
 </p>
 <p>
 あなたがウェブページへの埋め込み許可された適切なフリーフォントを見つけた場合、次のフォーマットに変換する必要があります:
-<<br /> />TrueTypeフォント、Embedded OpenTypeフォント、Web Open Font FormatフォントおよびScalable Vector Graphicフォント。
+<br />TrueTypeフォント、Embedded OpenTypeフォント、Web Open Font FormatフォントおよびScalable Vector Graphicフォント。
 </p>
 <p>
 あなたは<a href="http://www.fontsquirrel.com/fontface/generator/" target="_blank">FontSquirrel Online Generator</a>を変換に使用することができます。
@@ -178,8 +178,8 @@ $string['bolditalic'] = '太字イタリック';
 $string['fonttype'] = 'フォントタイプ';
 $string['headingandtext'] = 'ヘッディングおよびテキスト';
 $string['headingonly'] = 'ヘッディングのみ';
-$string['fontuploadinstructions'] = '<<br /> />必要なフォントファイルをアップロードするにはあなたは<a href="http://www.fontsquirrel.com/fontface/generator/" target="_blank">FontSquirrel Online Generator</a>によって生成されたZIPファイルを直接アップロードするか、
-<<br /> />EOT、SVG、TTF、WOFFおよびライセンスファイルを個別にアップロードすることができます。';
+$string['fontuploadinstructions'] = '<br />必要なフォントファイルをアップロードするにはあなたは<a href="http://www.fontsquirrel.com/fontface/generator/" target="_blank">FontSquirrel Online Generator</a>によって生成されたZIPファイルを直接アップロードするか、
+<br />EOT、SVG、TTF、WOFFおよびライセンスファイルを個別にアップロードすることができます。';
 $string['fontfiles'] = 'フォントファイル';
 $string['fontfilemissing'] = 'ZIPファイルに「 %s 」フォントファイルが含まれていません。';
 $string['zipfontfiles'] = 'ZIP書庫内のフォントファイル';

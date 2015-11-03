@@ -61,7 +61,7 @@ $string['edittopic'] = 'トピックを編集する';
 $string['edittopicspecific'] = 'トピック「 %s 」を編集する';
 $string['edittopicsuccess'] = 'トピックが正常に編集されました。';
 $string['forumname'] = 'フォーラム名';
-$string['forumposthtmltemplate'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s by %s</strong><<br />>%s</div>
+$string['forumposthtmltemplate'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s by %s</strong><br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
@@ -199,12 +199,12 @@ $string['activetopicsdescription'] = 'あなたのグループ内で最近更新
 $string['timeleftnotice'] = 'あなたには編集を終了するまで %s 分あります。';
 $string['objectionablecontentpost'] = 'フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者: %s';
 $string['objectionablecontentposthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者:%s
-<<br /> />%s</div>
+<br />%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
 <div style="padding: 0.5em 0; border-bottom: 1px solid #999;">好ましくない投稿コンテンツは次のとおりです:
-<<br />>%s</div>
+<br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
