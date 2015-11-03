@@ -222,7 +222,7 @@ $string['viewsperuser'] = 'ページを作成したユーザはそれぞれ約 %
 $string['Cron'] = 'Cron';
 $string['runningnormally'] = '正常動作';
 $string['cronnotrunning1'] = '<span class="error">Cronが動作していません。</span><br />cronのセットアップに関するインストラクションは<a href="https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronをセットアップしている場合、直近の1つまたはそれ以上の処理が正しく実行されませんでした。';
-$string['cronnotrunningsiteclosed'] = '<span class="error">Cronが動作していません。</span><br />現在、サイトはクローズされています。Cronの実行のため、サイトを再度オープンしてください。';
+$string['cronnotrunningsiteclosed'] = '<span class="error">Cronが動作していません。</span><br />現在、サイトはクローズされています。Cronの実行のため、再度サイトをオープンしてください。';
 $string['Loggedin'] = 'ログイン';
 $string['youraverageuser'] = 'あなたのユーザ平均 ...';
 $string['statsmaxfriends'] = '平均フレンド数: %s (最もフレンドの多いユーザ: <a href="%s">%s</a> - フレンド数: %d)';
@@ -609,7 +609,7 @@ $string['bulkleap2aimport'] = 'Leap2Aファイルからユーザをインポー�
 $string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある複数のLeap2Aファイルを使用して、ユーザを一度にインポートすることができます。あなたはファイルシステムのディレクトリにおいて、すべてのLeap2A ZIPファイルおよびファイル名にユーザ名をマッピングするimport.csvと呼ばれるCSVファイルを指定する必要があります。</p>
 <p>import.csvは以下のようになります:</p>
 <pre>
-&nbsp;&nbsp;bob,mahara-export-leap-user8-1265165366.zip<br>
+&nbsp;&nbsp;bob,mahara-export-leap-user8-1265165366.zip<br />
 &nbsp;&nbsp;nigel,mahara-export-leap-user1-1266458159.zip
 </pre>
 <p>上記、mahara-export-leap-user8-1265165366.zipおよびmahara-export-leap-user1-1266458159.zipはimport.csvとして、同一ディレクトリにあります。</p>
