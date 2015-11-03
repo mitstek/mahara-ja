@@ -241,14 +241,14 @@ $string['cronnotrunning2'] = '<strong class="error text-danger">Cronが動作し
 $string['cronnotrunningsiteclosed1'] = '<strong class="error text-danger">Cronが動作していません。</strong><br />現在、サイトはクローズされています。Cronの実行のため、再度サイトをオープンしてください。';
 $string['Loggedin'] = 'ログイン';
 $string['youraverageuser'] = 'あなたのユーザ平均 ...';
-$string['statsmaxfriends1'] = 'フレンド数: %2$s<br>(<a href="%3$s">%4$s には最大 %1$d 名のフレンドがいます</a>)';
+$string['statsmaxfriends1'] = 'フレンド数: %2$s<br />(<a href="%3$s">%4$s には最大 %1$d 名のフレンドがいます</a>)';
 $string['statsnofriends'] = 'フレンド数: 0';
-$string['statsmaxviews1'] = 'ページ数: %2$s<br>(<a href="%3$s">%4$s は最大 %1$d ページを所有しています</a>)';
+$string['statsmaxviews1'] = 'ページ数: %2$s<br />(<a href="%3$s">%4$s は最大 %1$d ページを所有しています</a>)';
 $string['statsnoviews'] = 'ページ数: 0';
-$string['statsmaxgroups1'] = '所属グループ数: %2$s<br>(<a href="%3$s">%4$s は最大 %1$d のグループに属しています</a>)';
+$string['statsmaxgroups1'] = '所属グループ数: %2$s<br />(<a href="%3$s">%4$s は最大 %1$d のグループに属しています</a>)';
 $string['statsnogroups'] = '所属グループ数: 0';
 $string['statsnoquota'] = 'ストレージ未使用';
-$string['statsmaxquotaused1'] = 'ディスククオータ使用: %s<br>(<a href="%s">%s は最大 %s のディスククオータを使用しました</a>)';
+$string['statsmaxquotaused1'] = 'ディスククオータ使用: %s<br />(<a href="%s">%s は最大 %s のディスククオータを使用しました</a>)';
 $string['groupcountsbytype'] = 'グループタイプごとのグループ数';
 $string['groupcountsbyjointype'] = 'アクセスタイプごとのグループ数';
 $string['blockcountsbytype'] = 'ポートフォリオページで最も使用されたブロック';
@@ -641,7 +641,7 @@ $string['bulkleap2aimport'] = 'Leap2Aファイルからユーザをインポー�
 $string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある複数のLeap2Aファイルを使用して、ユーザを一度にインポートすることができます。あなたはファイルシステムのディレクトリにおいて、すべてのLeap2A ZIPファイルおよびファイル名にユーザ名をマッピングするimport.csvと呼ばれるCSVファイルを指定する必要があります。</p>
 <p>import.csvは以下のようになります:</p>
 <pre>
-&nbsp;&nbsp;bob,mahara-export-leap-user8-1265165366.zip<br>
+&nbsp;&nbsp;bob,mahara-export-leap-user8-1265165366.zip<br />
 &nbsp;&nbsp;nigel,mahara-export-leap-user1-1266458159.zip
 </pre>
 <p>上記、mahara-export-leap-user8-1265165366.zipおよびmahara-export-leap-user1-1266458159.zipはimport.csvとして、同一ディレクトリにあります。</p>
