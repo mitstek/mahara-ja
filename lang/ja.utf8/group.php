@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-09-30 18:31:31 UTC
+ * @updated    2015-11-09 10:45:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -106,7 +106,7 @@ $string['friendinvitations'] = 'フレンドの招待';
 $string['invitefriendsdescription1'] = 'このグループへのフレンドの参加をメンバーが招待できるようにします。この設定にかかわらず、管理者は常に誰にでも招待状を送信することができます。';
 $string['invitefriends'] = 'フレンドを招待する';
 $string['Recommendations'] = 'レコメンデーション';
-$string['suggestfriendsdescription1'] = 'このグループへの参加提案をメンバーがグループホームページのボタンからフレンドに送信できるようにします。';
+$string['suggestfriendsdescription1'] = 'このグループへの参加レコメンデーションをメンバーがグループホームページのボタンでフレンドに送信できるようにします。';
 $string['suggesttofriends'] = 'フレンドへの提案';
 $string['userstosendrecommendationsto'] = 'レコメンデーションが送信されるユーザ';
 $string['suggestgroupnotificationsubject'] = 'あなたのグループ参加を %s が提案しました。';
