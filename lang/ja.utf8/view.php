@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-16 11:34:23 UTC
+ * @updated    2015-11-10 05:40:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -197,7 +197,7 @@ $string['blocknotinview'] = 'ID「 %d 」のブロックはページにありま
 $string['viewcreatedsuccessfully'] = 'ページが正常に作成されました。';
 $string['viewaccesseditedsuccessfully'] = 'ページアクセスが正常に保存されました。';
 $string['viewsavedsuccessfully'] = 'ページが正常に保存されました。';
-$string['updatedaccessfornumviews'] = '%d ページのアクセスルールが更新されました。';
+$string['updatedaccessfornumviews1'] = '%d ページのアクセスルールが更新されました。';
 $string['invalidcolumn'] = 'カラム %s は範囲外です。';
 $string['confirmcancelcreatingview'] = 'このページの作成は完了していません。本当にキャンセルしてもよろしいですか?';
 $string['groupviewurltaken'] = 'このURLのページはすでに存在しています。';
