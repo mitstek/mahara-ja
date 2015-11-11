@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-11-03 18:05:04 UTC
+ * @updated    2015-11-11 05:12:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -296,7 +296,7 @@ $string['dropdownmenu'] = 'ドロップダウンナビゲーション';
 $string['dropdownmenudescription1'] = 'この設定を有効にした場合、サブナビゲーションを表示するためにメインのMaharaナビゲーションがドロップダウンフォーマットを使用します。';
 $string['dropdownmenudescriptioninstitution1'] = 'この設定を有効にした場合、メインナビゲーションがドロップダウンメニューを使用します。';
 $string['commentsortorder'] = 'コメント並べ替え順';
-$string['commentsortorderdescription'] = 'ページに表示する場合のアーティファクトコメントの並べ替え順です。';
+$string['commentsortorderdescription'] = 'ページに表示する場合のアーティファクトコメントの並べ替え順を設定します。';
 $string['commentthreaded'] = 'スレッドコメント';
 $string['commentthreadeddescription'] = 'ページの個別コメントへのスレッド返信を許可します。';
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
