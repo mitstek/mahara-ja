@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-27 15:30:37 UTC
+ * @updated    2015-11-18 07:50:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -298,12 +298,12 @@ $string['defaultaccountlifetimeupdatenone'] = '新しく作成されたユーザ
 $string['defaultaccountlifetimeupdatesome'] = '新しいユーザおよびアカウント存続期間が設定されていないユーザ (サイト管理者を除く)';
 $string['defaultaccountlifetimeupdateall'] = 'すべてのユーザアカウント (サイト管理者を除く)';
 $string['embeddedcontent'] = '埋め込みコンテンツ';
-$string['embeddedcontentdescription'] = 'あなたのユーザに対して、他のサイトからのビデオ埋め込みをできるようにしたい場合、下記より信頼されたサイトを選択してください。';
+$string['embeddedcontentdescription'] = 'ユーザがポートフォリオにビデオまたは他のサイトのコンテンツを埋め込むことができるようにしたい場合、あなたは下記より信頼されたサイトを選択することができます。';
 $string['Everyone'] = '誰でも';
 $string['generatesitemap'] = 'サイトマップを生成する';
 $string['generatesitemapdescription'] = 'パブリックにアクセス可能なページ、グループおよびフォーラムトピックからサイトマップファイルを生成します。';
 $string['homepageinfo1'] = 'ホームページ/ダッシュボード情報を表示する';
-$string['homepageinfodescription1'] = 'この設定を有効にした場合、Maharaに関する情報および利用状況がMaharaホームページに表示されます。登録済みユーザにはこれらの情報をダッシュボードに表示しないオプションがあります。';
+$string['homepageinfodescription1'] = 'この設定を有効にした場合、Maharaに関する情報および利用状況がMaharaホームページに表示されます。ログインユーザにはこれらの情報をダッシュボードに表示しないオプションがあります。';
 $string['institutionautosuspend'] = '有効期限切れインスティテューションの自動停止';
 $string['institutionautosuspenddescription'] = 'この設定を有効にした場合、有効期限切れのインスティテューションが自動的に停止されます。';
 $string['institutionexpirynotification'] = 'インスティテューション有効期限の警告期間';
