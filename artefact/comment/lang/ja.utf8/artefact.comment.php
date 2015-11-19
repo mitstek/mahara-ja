@@ -72,7 +72,7 @@ $string['moderatecommentsdescription'] = 'あなたに承認されるまで、�
 $string['newfeedbacknotificationsubject'] = '%s の新しいフィードバック';
 $string['placefeedback'] = 'フィードバックを投稿する';
 $string['reallydeletethiscomment'] = '本当にこのコメントを削除してもよろしいですか?';
-$string['thiscommentisprivate'] = 'このコメントはプライベート (非公開) です。';
+$string['thiscommentisprivate'] = 'このコメントは非公開です。';
 $string['typefeedback'] = 'フィードバック';
 $string['youhaverequestedpublic'] = 'あなたはこのコメントをパブリックにするようリクエストしました。';
 $string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が %s にコメントを投稿しました。</strong><br />%s</div>
