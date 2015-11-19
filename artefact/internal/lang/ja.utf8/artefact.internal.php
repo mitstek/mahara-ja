@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-09-28 04:33:52 UTC
+ * @updated    2015-11-19 04:33:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,7 +20,7 @@ $string['mandatoryfieldsdescription'] = '入力する必要のあるプロファ
 $string['searchablefields'] = '検索可能フィールド';
 $string['searchablefieldsdescription'] = 'ユーザにより検索することのできるプロファイルフィールドです。';
 $string['aboutdescription'] = 'あなたの本名をここに入力してください。あなたがシステム内のユーザに異なる名前を表示したい場合、ニックネーム欄に別名を入力してください。';
-$string['infoisprivate'] = 'あなたが他のユーザと共有されているページに置かない限り、この情報は非公開となります。';
+$string['infoisprivate'] = 'あなたが他のユーザと共有しているページに置かない限り、この情報は非公開となります。';
 $string['viewmyprofile'] = '私のプロファイルを表示する';
 $string['aboutprofilelinkdescription'] = '<p>他のユーザに表示したい情報を編集するにはあなたの<a href="%s">プロファイル</a>ページにアクセスしてください。</p>';
 $string['aboutme'] = '私について';
