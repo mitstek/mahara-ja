@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-11-28 08:41:07 UTC
+ * @updated    2015-12-04 07:16:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -419,8 +419,8 @@ $string['defaultmultipleblogsdescription1'] = 'デフォルトでユーザが日
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
 $string['staticpagespagedescription'] = 'ここであなたはログインユーザのダッシュボード、ログアウトユーザのホームページ、フッタのページリンク等、Mahara内蔵ページのコンテンツを編集することができます。';
-$string['home'] = 'ホーム';
-$string['loadsitecontentfailed'] = '%s のコンテンツを読む込むことができません。';
+$string['home'] = 'ホーム (ダッシュボード)';
+$string['loadsitecontentfailed'] = 'サイトページコンテンツを読み込むことができませんでした。';
 $string['loggedouthome'] = 'ログアウトホーム';
 $string['pagename'] = 'ページ名';
 $string['pagesaved'] = 'ページが保存されました。';
