@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-07-19 11:38:20 UTC
+ * @updated    2015-12-04 07:20:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -186,7 +186,7 @@ $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
 $string['editsitepagespagedescription'] = 'ここでは(ログインおよびログアウトユーザ別に) ホームページおよびフッタのページリンク等、サイト全体のいくつかのページコンテンツを編集することができます。';
 $string['home'] = 'ホーム';
-$string['loadsitepagefailed'] = 'サイトページのロードに失敗しました。';
+$string['loadsitepagefailed'] = 'サイトページを読み込むことができませんでした。';
 $string['loggedouthome'] = 'ログアウトホーム';
 $string['pagename'] = 'ページ名';
 $string['pagesaved'] = 'ページが保存されました。';
