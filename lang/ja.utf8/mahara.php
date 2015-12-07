@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-24 21:18:21 UTC
+ * @updated    2015-12-07 04:51:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -175,7 +175,7 @@ $string['tagdeletedsuccessfully'] = 'タグが正常に削除されました。'
 $string['selfsearch'] = 'マイポートフォリオを検索する';
 $string['resultsperpage'] = '1ページあたりの表示ユーザ数';
 $string['license'] = 'ライセンス';
-$string['licenseother'] = 'その他のライセンス (URLを入力する)';
+$string['licenseother'] = 'その他のライセンス (URLを入力してください)';
 $string['licenseotherurl'] = 'URLを入力する';
 $string['licensedesc'] = 'このコンテンツのライセンスです。';
 $string['licensenone'] = '未選択';
