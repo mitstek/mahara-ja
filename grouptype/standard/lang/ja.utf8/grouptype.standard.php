@@ -13,7 +13,7 @@
 
 defined('INTERNAL') || die();
 
-$string['name'] = 'スタンダード';
+$string['name'] = '標準';
 $string['admin'] = '管理者';
 $string['member'] = 'メンバー';
 
