@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-12-04 07:16:39 UTC
+ * @updated    2015-12-10 02:42:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -156,9 +156,9 @@ $string['iframeiconhostdescription'] = '必要であれば、あなたはファ�
 $string['cleanurls'] = 'クリーンURL';
 $string['cleanurlsdescription'] = '<p>ユーザプロファイル、グループホームページおよびポートフォリオページに関して、人間が解読可能なURLを使用して、あなたのサイトを設定することができます。例えば、下記のようになります:
 <ul>
-<li>https://mahara.example.com/user/bob</li>
-<li>https://mahara.example.com/group/bobs-group</li>
-<li>https://mahara.example.com/user/bob/bobs-portfolio-page</li>
+<li>http://mahara.example.com/user/bob</li>
+<li>http://mahara.example.com/group/bobs-group</li>
+<li>http://mahara.example.com/user/bob/bobs-portfolio-page</li>
 </ul>
 
 受信リクエストのURLを書き換えることができるようあなたのサーバ管理者はこのオプションを有効にする前にウェブサーバを設定する必要があります。</p>
