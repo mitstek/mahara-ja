@@ -136,8 +136,8 @@ $string['quotausage'] = 'あなたの利用クオータは<span id="quota_used">
 $string['groupquota'] = 'グループクオータ';
 $string['updatefailed'] = 'アップデートに失敗しました。';
 $string['strftimenotspecified'] = '未設定';
-$string['invitedgroup'] = '招待されたグループ';
-$string['invitedgroups'] = '招待されたグループ';
+$string['invitedgroup'] = 'グループ招待';
+$string['invitedgroups'] = 'グループ招待';
 $string['logout'] = 'ログアウト';
 $string['pendingfriend'] = '保留中のフレンド';
 $string['pendingfriends'] = '保留中のフレンド';
