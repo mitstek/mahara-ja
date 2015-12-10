@@ -20,7 +20,7 @@ $string['importfailed'] = '<p><strong>申し訳ございません - あなたの
 
 <p>あなたが有効なLeap2Aファイルをアップロードしていない、またはこのバージョンのMaharaではあなたのLeap2Aファイルのバージョンをサポートされていないことが考えられます。仮にLeap2Aが有効であったとしても、インポートを失敗させるバグがMaharaに含まれている可能性もあります。</p>
 
-<p>戻って、再度お試しください。問題が持続する場合、サポートを求めるため、<a href="http://mahara.org/forums/">Maharaフォーラム</a>に投稿しても良いでしょう。あなたのファイルのコピーを準備してください。</p>';
+<p>戻って、再度お試しください。問題が持続する場合、サポートを求めるため、<a href="https://mahara.org/forums/">Maharaフォーラム</a>に投稿しても良いでしょう。あなたのファイルのコピーを準備してください。</p>';
 $string['importwitherrors'] = 'あなたのポートフォリオはエラーと共ににインポートされました。';
 $string['importartefactplugindata'] = 'アーティファクトプラグインデータのインポート';
 $string['importartefacts'] = 'アーティファクトのインポート';
