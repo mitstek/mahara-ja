@@ -46,7 +46,7 @@ $string['aboutdefaultcontent'] = '<h2>Maharaとは</h2>
 
 <p>Maharaに関する詳細は私たちに<a href="contact.php">お気軽にお問い合わせください</a>。</p>
 
-<p><a href="http://mahara.org">http://mahara.org</a></p>';
+<p><a href="https://mahara.org">https://mahara.org</a></p>';
 $string['homedefaultcontent'] = '<h2>Maharaにようこそ</h2>
 
 <p>Maharaはユーザを結び、コミュニティを作成することのできる十分な機能を有したeポートフォリオ、ウェブログ、レジュメビルダおよびソーシャルネットワーキングシステムです。Maharahaはあなたに個人学習および開発環境を構築するツールを提供します。</p>
