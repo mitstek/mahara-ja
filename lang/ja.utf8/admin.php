@@ -156,9 +156,9 @@ $string['iframeiconhostdescription'] = '必要であれば、あなたはファ�
 $string['cleanurls'] = 'クリーンURL';
 $string['cleanurlsdescription'] = '<p>ユーザプロファイル、グループホームページおよびポートフォリオページに関して、人間が解読可能なURLを使用して、あなたのサイトを設定することができます。例えば、下記のようになります:
 <ul>
-<li>http://mahara.example.com/user/bob</li>
-<li>http://mahara.example.com/group/bobs-group</li>
-<li>http://mahara.example.com/user/bob/bobs-portfolio-page</li>
+<li>https://mahara.example.com/user/bob</li>
+<li>https://mahara.example.com/group/bobs-group</li>
+<li>https://mahara.example.com/user/bob/bobs-portfolio-page</li>
 </ul>
 
 受信リクエストのURLを書き換えることができるようあなたのサーバ管理者はこのオプションを有効にする前にウェブサーバを設定する必要があります。</p>
@@ -210,9 +210,9 @@ $string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/reg
 $string['registrationfailedtrylater'] = 'エラーコード %s により、登録が失敗しました。後ほど再度お試しください。';
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます。';
 $string['registeryourmaharasite'] = 'あなたのMaharaサイトを登録する';
-$string['registeryourmaharasitesummary'] = '<p>あなたのMaharaサイトを<a href="http://mahara.org/">mahara.org</a>に登録することができます。登録することにより、私たちは世界のMaharaインストール状況を作成することができます。登録することにより、この通知が取り除かれます。</p>
+$string['registeryourmaharasitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することができます。登録することにより、私たちは世界のMaharaインストール状況を作成することができます。登録することにより、この通知が取り除かれます。</p>
 <p>あなたがサイトを登録する場合、送信される情報を<strong><a href="%sadmin/registersite.php">サイト登録ページ</a></strong>でプレビューすることができます。</p>';
-$string['registeryourmaharasitedetail'] = '<p>あなたのMaharaサイトを<a href="http://mahara.org/">mahara.org</a>に登録することができます。登録することにより、私たちは世界のMaharaインストール状況を作成することができます。</p>
+$string['registeryourmaharasitedetail'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することができます。登録することにより、私たちは世界のMaharaインストール状況を作成することができます。</p>
 <p>あなたはmahara.orgに送信された情報を閲覧することができます - あなたのユーザに関する個人情報は一切送信されません。</p>
 <p>あなたが「更新内容を週に1回送信しますか?」設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
 <p>登録することにより、この通知が取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更することができます。</p>';
@@ -764,7 +764,7 @@ $string['failedtoobtainuploadedleapfile'] = 'アップロードされたLeap2A�
 $string['failedtounzipleap2afile'] = 'Leap2Aファイルの解凍に失敗しました。詳細はエラーログを確認してください。';
 $string['fileisnotaziporxmlfile'] = 'このファイルはZIPファイルまたはXMLファイルとして認識されませんでした。';
 $string['howdoyouwanttocreatethisuser'] = 'どのようにこのユーザを作成しますか?';
-$string['leap2aimportfailed'] = '<p><strong>申し訳ございません - Leap2Aファイルのインポートに失敗しました。</strong></p><p>これはあなたが有効なLeap2Aファイルをアップロードに選択しなかったから、またはこのMaharaのバージョンではあなたのLeap2Aファイルがサポートされていないからだと考えられます。また、Leap2Aファイルが有効な場合、Maharaのバグが、あなたのファイルのアップロードを失敗させていることも考えられます。</p><p><a href="add.php">戻って、ファイルのアップロードを再度お試しください</a>。この問題が持続する場合、エラー状況を<a href="http://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。その場合、あなたのファイルのコピーを準備してください!</p>';
+$string['leap2aimportfailed'] = '<p><strong>申し訳ございません - Leap2Aファイルのインポートに失敗しました。</strong></p><p>これはあなたが有効なLeap2Aファイルをアップロードに選択しなかったから、またはこのMaharaのバージョンではあなたのLeap2Aファイルがサポートされていないからだと考えられます。また、Leap2Aファイルが有効な場合、Maharaのバグが、あなたのファイルのアップロードを失敗させていることも考えられます。</p><p><a href="add.php">戻って、ファイルのアップロードを再度お試しください</a>。この問題が持続する場合、エラー状況を<a href="https://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。その場合、あなたのファイルのコピーを準備してください!</p>';
 $string['newuseremailnotsent'] = '新しいユーザへのウェルカムメール送信に失敗しました。';
 $string['newusercreated'] = '新しいユーザアカウントが正常に作成されました。';
 $string['noleap2axmlfiledetected'] = 'leap2a.xmlファイルが見つかりませんでした - 再度、あなたのエクスポートファイルを確認してください。';
