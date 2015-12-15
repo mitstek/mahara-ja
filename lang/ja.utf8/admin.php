@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-12-10 02:42:04 UTC
+ * @updated    2015-12-15 13:43:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1075,5 +1075,8 @@ $string['cli_pwreset_prompt2'] = '新しいパスワードをもう一度入力�
 $string['cli_pwreset_success'] = 'ユーザ「 %s 」のパスワードが正常にリセットされました。';
 $string['cli_pwreset_success_forcepasswordchange'] = '次のログイン時、ユーザはパスワードのリセットを強制されます。';
 $string['cli_pwreset_typo'] = '申し訳ございません、パスワードが合致しません。';
+$string['cli_close_site_info'] = 'このコマンドラインPHPスクリプトにより、あなたが非サイト管理ユーザであってもサイトをクロースおよび再オープンすることができます (これは管理ホームページで「サイトをクローズする」ボタンをクリックした場合と同じです)。';
+$string['cli_close_site_siteclosed'] = 'メンテナンスのためサイトがクローズされました。';
+$string['cli_close_site_siteopen'] = 'サイトがオープンされました。';
 
 ?>
