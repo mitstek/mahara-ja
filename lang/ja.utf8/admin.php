@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-12-04 07:20:20 UTC
+ * @updated    2015-12-29 16:30:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -297,7 +297,7 @@ $string['adminuserspagedescription'] = '<p>あなたはどのユーザがサイ�
 $string['institutionadminuserspagedescription'] = 'あなたはどのユーザがインスティテューションを管理するか、選択することができます。現在の管理者は右側に表示され、潜在的な管理者は左側に表示されます。';
 $string['potentialadmins'] = '潜在的な管理者';
 $string['currentadmins'] = '現在の管理者';
-$string['adminusersupdated'] = '管理ユーザが更新されました。';
+$string['adminusersupdated'] = '管理者が更新されました。';
 $string['staffuserspagedescription'] = 'あなたはどのユーザがサイトのスタッフになるか、選択することができます。現在のスタッフは右側に表示され、潜在的なスタッフは左側に表示されます。';
 $string['institutionstaffuserspagedescription'] = 'あなたはどのユーザがあなたのインスティテューションのスタッフになるか、選択することができます。現在のスタッフは右側に表示され、潜在的なスタッフは左側に表示されます。';
 $string['potentialstaff'] = '潜在的なスタッフ';
@@ -313,7 +313,7 @@ $string['suspenduser'] = 'ユーザを利用停止する';
 $string['suspendedusers'] = '利用停止ユーザ';
 $string['suspensionreason'] = '利用停止理由';
 $string['errorwhilesuspending'] = '利用停止中にエラーが発生しました。';
-$string['suspendedusersdescription'] = 'サイト利用に関して、ユーザを利用停止または停止解除します。';
+$string['suspendedusersdescription'] = 'サイト利用に関してユーザを利用停止または停止解除します。';
 $string['unsuspendusers'] = 'ユーザの利用停止を解除する';
 $string['usersdeletedsuccessfully'] = 'ユーザが正常に削除されました。';
 $string['usersunsuspendedsuccessfully'] = 'ユーザの利用停止が正常に解除されました。';
@@ -322,7 +322,7 @@ $string['usersuspended'] = 'ユーザが利用停止されました。';
 $string['userunsuspended'] = 'ユーザの利用停止が解除されました。';
 $string['accountsettings'] = 'アカウント設定';
 $string['siteaccountsettings'] = 'サイトアカウント設定';
-$string['resetpassword'] = 'パスワードのリセット';
+$string['resetpassword'] = 'パスワードをリセットする';
 $string['resetpassworddescription'] = 'ここにテキストを入力した場合、ユーザの現在のパスワードと入れ替えられます。';
 $string['forcepasswordchange'] = '次回ログイン時、パスワード変更を強制する';
 $string['forcepasswordchangedescription'] = '次回ログイン時、ユーザはパスワード変更ページへ移動されます。';
@@ -343,10 +343,10 @@ $string['filequota'] = 'ファイルクオータ (MB)';
 $string['filequotadescription'] = 'ユーザファイルエリアでの利用可能な合計保存領域です。';
 $string['addusertoinstitution'] = 'インスティテューションにユーザを追加する';
 $string['removeuserfrominstitution'] = 'このインスティテューションからユーザを削除する';
-$string['confirmremoveuserfrominstitution'] = 'このインスティテューションから、本当にユーザを削除してもよろしいですか?';
+$string['confirmremoveuserfrominstitution'] = '本当にこのインスティテューションからユーザを削除してもよろしいですか?';
 $string['usereditdescription'] = 'あなたはここでこのユーザアカウントの閲覧および詳細設定することができます。以下であなたは<a href="#suspend">このアカウントを利用停止または削除</a>することができます。また、<a href="#institutions">このユーザが関わっているインスティテューション内</a>で、設定を変更することもできます。';
 $string['suspenddeleteuser'] = 'ユーザの利用停止/削除';
-$string['suspenddeleteuserdescription'] = 'あなたはここでユーザアカウントを利用停止または完全に削除することができます。利用停止されたユーザは利用停止が解除されるまで、ログインすることができません。利用停止されたユーザは利用停止解除することができますが、削除されたユーザは元に戻すことは<b>できません</b>ので注意してください。';
+$string['suspenddeleteuserdescription'] = 'あなたはここでユーザアカウントを利用停止または完全に削除することができます。利用停止されたユーザは利用停止が解除されるまでログインすることができません。利用停止されたユーザは利用停止解除することができますが、削除されたユーザは元に戻すことは<b>できません</b>ので注意してください。';
 $string['deleteusernote'] = 'この処理は<b>元に戻すことができません</b>ので注意してください。';
 $string['youcannotadministerthisuser'] = 'あなたはこのユーザを管理できません。';
 $string['adduser'] = 'ユーザを追加する';
@@ -364,14 +364,14 @@ $string['newuseremailnotsent'] = '新しいユーザへのウェルカムメー�
 $string['newusercreated'] = '新しいユーザアカウントが正常に作成されました。';
 $string['noleap2axmlfiledetected'] = 'leap2a.xmlファイルが見つかりませんでした - 再度、あなたのエクスポートファイルを確認してください。';
 $string['Or...'] = 'または ...';
-$string['userwillreceiveemailandhastochangepassword'] = '新しいアカウント詳細を記載したEメールがユーザに送信されます。新しく作成されたユーザは初回ログイン時、パスワードを変更を求められます。';
+$string['userwillreceiveemailandhastochangepassword'] = '新しいアカウント詳細を記載したメールがユーザに送信されます。新しく作成されたユーザは初回ログイン時、パスワードを変更を求められます。';
 $string['uploadleap2afile'] = 'Leap2Aファイルをアップロードする';
 $string['usercreationmethod'] = '1 - ユーザ作成方法';
 $string['basicdetails'] = '2 - 基本情報';
 $string['create'] = '3 - 作成';
 $string['loginasuser'] = '%s としてログインする';
 $string['becomeadminagain'] = '%s に戻る';
-$string['loginasdenied'] = 'パーミッションなしで、他のユーザとしてログインを試みました。';
+$string['loginasdenied'] = 'パーミッションなしで他のユーザとしてログインを試みました。';
 $string['loginastwice'] = 'すでにログインしているにもかかわらず、他のユーザとしてのログインを試みました。';
 $string['loginasrestorenodata'] = 'リストアするユーザデータがありません。';
 $string['loginasoverridepasswordchange'] = '現在、あなたは他のユーザとしてログインを試みています。パスワード変更画面を無視して、%sとにかくログインする%sこともできます。';
@@ -412,7 +412,7 @@ $string['settingsfor'] = '設定:';
 $string['institutionadministration'] = 'インスティテューション管理';
 $string['institutionmembers'] = 'インスティテューションメンバー';
 $string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
-$string['institutionmemberspagedescription'] = 'このページではあなたのインスティテューションにメンバーシップをリクエストしたユーザを閲覧およびメンバーとして登録することができます。また、あなたのインスティテューションからユーザを削除および招待することができます。';
+$string['institutionmemberspagedescription'] = 'このページではあなたのインスティテューションにメンバーシップをリクエストしたユーザを確認およびメンバーとして登録することができます。また、あなたのインスティテューションからユーザを削除および招待することができます。';
 $string['institutionusersinstructionsrequesters'] = '左側のユーザ一覧にはあなたのインスティテューションに参加をリクエストした、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザをインスティテューションに追加したい場合、またはユーザのメンバーシップリクエストを拒否したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「メンバーを追加する」ボタンをクリックすることで、右側ボックスのすべてのユーザをインスティテューションに追加することができます。「リクエストを拒否する」ボタンをクリックすることで、右側ボックスのユーザのメンバーシップリクエストを拒否することができます。';
 $string['institutionusersinstructionsnonmembers'] = '左側のユーザ一覧にはあなたのインスティテューションのメンバーではない、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザに対して、インスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックすることで、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。';
 $string['institutionusersinstructionsmembers'] = '左側のユーザ一覧にはあなたのインスティテューションのすべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。ユーザをインスティテューションから削除する場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで、最初にユーザを右側ボックスに移動してください。「ユーザを削除する」ボタンをクリックすることで、右側ボックスのすべてのユーザが削除されます。左側ボックスのユーザはインスティテューションに参加したままの状態です。';
@@ -445,7 +445,7 @@ $string['nousersupdated'] = '更新されたユーザはありません。';
 $string['institutionusersupdated_addUserAsMember'] = 'ユーザが追加されました。';
 $string['institutionusersupdated_declineRequestFromUser'] = 'リクエストが拒否されました。';
 $string['institutionusersupdated_removeMembers'] = 'ユーザが削除されました。';
-$string['institutionusersupdated_inviteUser'] = '招待が送信されました。';
+$string['institutionusersupdated_inviteUser'] = '招待状が送信されました。';
 $string['maxuseraccounts'] = '許可する最大ユーザアカウント数';
 $string['maxuseraccountsdescription'] = 'インスティテューションに関連付けることのできる最大ユーザアカウント数です。制限がない場合、このフィールドは空白にしてください。';
 $string['institutionmaxusersexceeded'] = 'このインスティテューションはユーザ数が上限に達しました。このユーザを追加できるようにするにはあなたはこのインスティテューションが許可するユーザ数を増やす必要があります。';
@@ -463,10 +463,10 @@ $string['institutionsuspended'] = 'インスティテューションが利用停
 $string['institutionunsuspended'] = 'インスティテューションの利用停止が解除されました。';
 $string['suspendedinstitution'] = '利用停止';
 $string['suspendinstitution'] = 'インスティテューションを利用停止する';
-$string['suspendinstitutiondescription'] = 'ここであなたはインスティテューションを利用停止することができます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまで、ログインすることはできません。';
+$string['suspendinstitutiondescription'] = 'ここであなたはインスティテューションを利用停止することができます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまでログインすることはできません。';
 $string['suspendedinstitutionmessage'] = 'このインスティテューションは利用停止されています。';
 $string['unsuspendinstitution'] = 'インスティテューションの利用停止を解除する';
-$string['unsuspendinstitutiondescription'] = 'ここであなたはインスティテューションの利用停止を解除することができます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまで、ログインすることはできません。<br /><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止解除することは結果として、毎日、再度利用停止されることにつながります。';
+$string['unsuspendinstitutiondescription'] = 'ここであなたはインスティテューションの利用停止を解除することができます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまでログインすることはできません。<br /><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止解除することは結果として、毎日、再度利用停止されることにつながります。';
 $string['unsuspendinstitutiondescription_top'] = '<strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止解除することは結果として、毎日、再度利用停止されることにつながります。';
 $string['Query'] = 'クエリ';
 $string['Institution'] = 'インスティテューション';
