@@ -566,9 +566,9 @@ $string['uploadgroupcsverrorshortnamemissing'] = 'あなたのファイルの %s
 $string['uploadgroupcsverrorinvalidgrouptype'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループタイプ (grouptype) 「 %s 」が有効ではありません。';
 $string['uploadgroupcsverrorinvalideditroles'] = 'あなたのファイルの %s 行目にエラーが発生しました: 編集ロール (editroles ) 「 %s 」が有効ではありません。';
 $string['uploadgroupcsverrorshortnamealreadytaken'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname) 「 %s 」はすでに取得されています。';
-$string['uploadgroupcsverrorusernamesnotlastfield'] = '「usernames」フィールドはヘッダの最後のフィールドにしてください。';
+$string['uploadgroupcsverrorusernamesnotlastfield'] = '「usernames」フィールドはヘッダの最終フィールドにしてください。';
 $string['uploadgroupcsverroropencontrolled'] = '%s 行目: グループにはオープンおよび管理メンバーシップの両方を設定することはできません。';
-$string['uploadgroupcsverroropenrequest'] = '%s 行目: オープンメンバーシップのグループにはメンバーシップをリクエストすることはできません。';
+$string['uploadgroupcsverroropenrequest'] = '%s 行目: オープンメンバーシップのグループではメンバーシップのリクエストを許可することはできません。';
 $string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいグループをアップロードすることができます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
