@@ -45,7 +45,7 @@ $string['userattribute'] = 'ユーザ属性';
 $string['usertype'] = 'ユーザタイプ';
 $string['weautocreateusers'] = 'こちらでユーザを自動作成する';
 $string['updateuserinfoonlogin'] = 'ログイン時、ユーザ情報を更新する';
-$string['updateuserinfoonloginadnote'] = '注意: この設定を有効にすることで、MS ActiveDirectoryサイト/ユーザがMaharaにログインできないようになる可能性があります。';
+$string['updateuserinfoonloginadnote'] = '注意: この設定を有効にすることでMS ActiveDirectoryサイト/ユーザがMaharaにログインできないようになる可能性があります。';
 $string['cannotconnect'] = 'LDAPホストに接続できません。';
 
 ?>
