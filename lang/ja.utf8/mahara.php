@@ -130,8 +130,8 @@ $string['sendrequest'] = 'リクエストを送信する';
 $string['reason'] = '理由';
 $string['select'] = '選択';
 $string['tags'] = 'タグ';
-$string['tagsdesc'] = 'このアイテムに関して、カンマで区切ったタグを入力してください。';
-$string['tagsdescprofile'] = 'このアイテムに関して、カンマで区切ったタグを入力してください。「プロファイル」タグが付けられたアイテムはあなたのサイドバーに表示されます。';
+$string['tagsdesc'] = 'このアイテムに関してカンマで区切ったタグを入力してください。';
+$string['tagsdescprofile'] = 'このアイテムに関してカンマで区切ったタグを入力してください。「プロファイル」タグが付けられたアイテムはあなたのサイドバーに表示されます。';
 $string['youhavenottaggedanythingyet'] = 'あなたはまたタグ付けしていません。';
 $string['mytags'] = 'マイタグ';
 $string['Tag'] = 'タグ';
@@ -166,7 +166,7 @@ $string['edittags'] = 'タグを編集する';
 $string['selectatagtoedit'] = '編集するタグを選択してください';
 $string['edittag'] = '<a href="%s">%s</a> を編集する';
 $string['editthistag'] = 'このタグを編集する';
-$string['edittagdescription'] = 'あなたのポートフォリオに関して、「 %s 」でタグ付けされたすべてのアイテムが更新されます。';
+$string['edittagdescription'] = 'あなたのポートフォリオに関して「 %s 」でタグ付けされたすべてのアイテムが更新されます。';
 $string['deletetag'] = '<a href="%s">%s</a> を削除する';
 $string['confirmdeletetag'] = '本当にあなたのポートフォリオ内すべてのアイテムから、このタグを削除してもよろしいですか?';
 $string['deletetagdescription'] = 'あなたのポートフォリオ内すべてのアイテムから、このタグを削除します。';
@@ -205,7 +205,7 @@ $string['profilecompletenesspreview'] = 'プロファイル完了プレビュー
 $string['profilecompletenesstips'] = 'プロファイル完了ヒント';
 $string['progressbargenerictask'] = '%d %sを追加する';
 $string['profilecompletionforwhichinstitution'] = '-';
-$string['noprogressitems'] = 'このインスティテューションに関して、プロファイル完了アイテムはありません。';
+$string['noprogressitems'] = 'このインスティテューションに関してプロファイル完了アイテムはありません。';
 $string['onlineusers'] = 'オンラインユーザ';
 $string['lastminutes'] = '直近の %s 分間';
 $string['allonline'] = 'すべてのオンラインユーザを表示する';
@@ -341,7 +341,7 @@ $string['accountinactivewarningtext'] = '%s さん
 
 アカウントが無効になった場合、あなたのアカウントを管理者が再度有効にするまで、ログインすることはできません。
 
-サイトにログインすることで、あなたのアカウントが無効になることを防ぐことができます。
+サイトにログインすることであなたのアカウントが無効になることを防ぐことができます。
 
 %s サイト管理者';
 $string['accountinactivewarninghtml'] = '<p>%s さん</p>
@@ -350,7 +350,7 @@ $string['accountinactivewarninghtml'] = '<p>%s さん</p>
 
 <p>アカウントが無効になった場合、あなたのアカウントを管理者が再度有効にするまで、ログインすることはできません。</p>
 
-<p>サイトにログインすることで、あなたのアカウントが無効になることを防ぐことができます。</p>
+<p>サイトにログインすることであなたのアカウントが無効になることを防ぐことができます。</p>
 
 <p>%s サイト管理者</p>';
 $string['accountsuspended'] = '%s 現在、あなたのアカウントは利用停止されています。<br />あなたの利用停止理由は: %s';
@@ -710,7 +710,7 @@ $string['quarantinedirname'] = '隔離場所';
 $string['clammovedfile'] = 'ファイルが隔離場所に移動されました。';
 $string['clamdeletedfile'] = 'ファイルが削除されました。';
 $string['clamdeletedfilefailed'] = 'ファイルを削除できませんでした。';
-$string['clambroken'] = 'あなたの管理者がファイルのアップロードに関して、ウイルスチェックを有効にしましたが、設定が正しくないようです。あなたのファイルは正常にアップロードされませんでした。あなたの管理者にメール通知が送信されましたので、管理者は問題を修正することができます。このファイルのアップロードを後でお試しください。';
+$string['clambroken'] = 'あなたの管理者がファイルのアップロードに関してウイルスチェックを有効にしましたが、設定が正しくないようです。あなたのファイルは正常にアップロードされませんでした。あなたの管理者にメール通知が送信されましたので、管理者は問題を修正することができます。このファイルのアップロードを後でお試しください。';
 $string['clamemailsubject'] = '%s :: Clam AV通知';
 $string['clamlost'] = 'Clam AVがファイルのアップロード時に動作するよう設定されていますが、Clam AVのパス「 %s 」が正しくありません。';
 $string['clamnotset'] = 'あなたはウイルスチェックを有効にしましたが、「ClamAVのパス」を設定していません。あなたのconfig.phpファイルに「$cfg->pathtoclam」を追加してClamAVのパスを設定するまで、ウイルスチェックは有効になりません。';
@@ -731,7 +731,7 @@ $string['phpuploaderror_2'] = 'アップロードファイルがHTMLフォーム
 $string['phpuploaderror_3'] = 'アップロードファイルは一部分のみアップロードされました。';
 $string['phpuploaderror_4'] = 'アップロードされたファイルはありません。';
 $string['phpuploaderror_6'] = '一時フォルダがありません。';
-$string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。ファイルのディスク書き込みに失敗しました。あなたのファイルシステムに関して、MaharaデータルートおよびPHP「upload_tmp_dir」ディレクトリへの書き込みに十分なスペースがあるか確認してください。';
+$string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。ファイルのディスク書き込みに失敗しました。あなたのファイルシステムに関してMaharaデータルートおよびPHP「upload_tmp_dir」ディレクトリへの書き込みに十分なスペースがあるか確認してください。';
 $string['phpuploaderror_8'] = 'ファイルアップロードは拡張子が原因で中止されました。';
 $string['adminphpuploaderror'] = 'ファイルアップロードエラーは恐らくあなたのサーバ設定を原因としています。';
 $string['youraccounthasbeensuspendedtext2'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。';

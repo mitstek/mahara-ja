@@ -334,7 +334,7 @@ $string['userremoved'] = 'ユーザが削除されました。';
 $string['About'] = 'About';
 $string['aboutgroup'] = '%s について';
 $string['Joined'] = '登録';
-$string['invitemembersdescription'] = 'あなたはユーザのプロファイルページ経由、または<a href="%s">同時に複数の招待状を送信する</a>ことで、ユーザにこのグループへの参加を招待することができます。';
+$string['invitemembersdescription'] = 'あなたはユーザのプロファイルページ経由、または<a href="%s">同時に複数の招待状を送信する</a>ことでユーザにこのグループへの参加を招待することができます。';
 $string['membersdescription:controlled'] = 'これは「管理メンバーシップ」グループです。あなたはユーザをユーザプロファイルページより追加、または<a href="%s">一度に多くのユーザを追加することができます</a>。';
 $string['submit'] = '送信';
 $string['allowssubmissions'] = '送信を許可する';
