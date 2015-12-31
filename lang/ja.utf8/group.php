@@ -91,7 +91,7 @@ $string['hasbeeninvitedtojoin'] = 'がこのグループへの参加を招待さ
 $string['groupinvitesfrom'] = '参加の招待:';
 $string['requestedmembershipin'] = 'リクエストされたメンバーシップ:';
 $string['viewnotify'] = '共有ページ通知';
-$string['viewnotifydescription'] = 'この設定を有効にした場合、グループメンバーが自分のページをグループ内で共有設定することで、すべてのグループメンバーに通知が送信されます。この設定を有効にした場合、規模の大きなグループでは多くの通知が発生する可能性があります。';
+$string['viewnotifydescription'] = 'この設定を有効にした場合、グループメンバーが自分のページをグループ内で共有設定することですべてのグループメンバーに通知が送信されます。この設定を有効にした場合、規模の大きなグループでは多くの通知が発生する可能性があります。';
 $string['hiddengroup'] = '非表示グループ';
 $string['hiddengroupdescription'] = 'このグループを「グループを探す」ページに一覧表示しません。';
 $string['hidemembers'] = 'メンバーシップを隠す';
@@ -326,7 +326,7 @@ $string['userremoved'] = 'ユーザが削除されました。';
 $string['About'] = 'About';
 $string['aboutgroup'] = '%s について';
 $string['Joined'] = '登録';
-$string['invitemembersdescription'] = 'あなたはユーザのプロファイルページ経由、または<a href="%s">同時に複数の招待状を送信する</a>ことで、ユーザにこのグループへの参加を招待することができます。';
+$string['invitemembersdescription'] = 'あなたはユーザのプロファイルページ経由、または<a href="%s">同時に複数の招待状を送信する</a>ことでユーザにこのグループへの参加を招待することができます。';
 $string['membersdescription:controlled'] = 'これは「管理メンバーシップ」グループです。あなたはユーザをユーザプロファイルページより追加、または<a href="%s">一度に多くのユーザを追加することができます</a>。';
 $string['submit'] = '送信';
 $string['allowssubmissions'] = '送信を許可する';
