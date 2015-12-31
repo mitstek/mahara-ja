@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-08-06 15:52:29 UTC
+ * @updated    2015-12-31 16:05:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -39,7 +39,7 @@ $string['saveinstitutiondetailsfirst'] = '認証プラグインを設定する�
 $string['editauthority'] = '認証局を編集する';
 $string['addauthority'] = '認証局を追加する';
 $string['updateuserinfoonlogin'] = 'ログイン時、ユーザ情報を更新する';
-$string['updateuserinfoonlogindescription'] = 'リモートサーバのユーザ情報を検索し、ユーザがログインするたびにあなたのローカルユーザレコードを更新します。';
+$string['updateuserinfoonlogindescription'] = 'リモートサーバのユーザ情報を検索して、ユーザがログインするたびにあなたのローカルユーザレコードを更新します。';
 $string['xmlrpcserverurl'] = 'XML-RPCサーバURL';
 $string['ipaddress'] = 'IPアドレス';
 $string['shortname'] = 'あなたのサイトの省略名';
@@ -58,18 +58,18 @@ $string['application'] = 'アプリケーション';
 $string['cantretrievekey'] = 'リモートサーバのパブリックキー検索中、エラーが発生しました。<br />アプリケーションおよびWWWルートフィールドが正しいこと、およびリモートホストのネットワークが有効にされていることを確認してください。';
 $string['ssodirection'] = 'SSOの方向';
 $string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s に対する使用を試みています。';
-$string['errorcouldnotgeneratenewsslkey'] = '新しいSSLキーを生成することができませんでした。本当にこのマシンにopensslおよびopenssl用PHPモジュールがインストールされていますか?';
-$string['errnoauthinstances'] = '私たちには%s のホストに関して、認証プラグインインスタンスが設定されていないようです。';
+$string['errorcouldnotgeneratenewsslkey'] = '新しいSSLキーを生成することができませんでした。本当にこのマシンに OpenSSLおよびOpenSSL用PHPモジュールがインストールされていますか?';
+$string['errnoauthinstances'] = '私たちには %s のホストに関して認証プラグインインスタンスが設定されていないようです。';
 $string['errornotvalidsslcertificate'] = '有効なSSLサーバ証明書ではありません。';
-$string['errnoxmlrpcinstances'] = '私たちには%s のホストに関して、XMLRPCプラグインインスタンスが設定されていないようです。';
-$string['errnoxmlrpcwwwroot'] = '私たちには%s のホストに関して、レコードがありません。';
+$string['errnoxmlrpcinstances'] = '私たちには %s のホストに関してXMLRPCプラグインインスタンスが設定されていないようです。';
+$string['errnoxmlrpcwwwroot'] = '私たちには %s のホストに関してレコードがありません。';
 $string['errnoxmlrpcuser1'] = '現時点ではあなたを認証することができませんでした。可能性のある理由として下記が考えられます:
 
 *あなたのSSOセッションが失効しました。他のアプリケーションに戻って、%s にログインするためのリンクを再度クリックしてください。
 *あなたの %s に対するSSOが許可されていません。あなたがSSOできるかどうか管理者にご確認ください。';
 $string['toomanytries'] = 'あなたは最大ログイン回数を超過しました。アカウントは5分間ロックされます。';
 $string['unabletosigninviasso'] = 'SSO経由でサインインできません。';
-$string['xmlrpccouldnotlogyouin'] = '申し訳ございません、あなたをログインさせることができませんでした :(';
+$string['xmlrpccouldnotlogyouin'] = '申し訳ございません、あなたをログインさせることができませんでした。';
 $string['xmlrpccouldnotlogyouindetail1'] = '申し訳ございません、今回はあなたを %s にログインさせることができませんでした。ログインを再度お試しください。問題が続く場合、あなたの管理者にご連絡ください。';
 $string['requiredfields'] = '必須プロファイルフィールド';
 $string['requiredfieldsset'] = '必須プロファイルフィールドセット';
