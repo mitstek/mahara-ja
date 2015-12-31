@@ -44,10 +44,10 @@ $string['cantretrievekey'] = 'リモートサーバのパブリックキー検�
 $string['ssodirection'] = 'SSOの方向';
 $string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s に対する使用を試みています。';
 $string['errorcouldnotgeneratenewsslkey'] = '新しいSSLキーを生成することができませんでした。本当にこのマシンにopensslおよびopenssl用PHPモジュールがインストールされていますか?';
-$string['errnoauthinstances'] = '私たちには%s のホストに関して、認証プラグインインスタンスが設定されていないようです。';
+$string['errnoauthinstances'] = '私たちには%s のホストに関して認証プラグインインスタンスが設定されていないようです。';
 $string['errornotvalidsslcertificate'] = '有効なSSLサーバ証明書ではありません。';
-$string['errnoxmlrpcinstances'] = '私たちには%s のホストに関して、XMLRPCプラグインインスタンスが設定されていないようです。';
-$string['errnoxmlrpcwwwroot'] = '私たちには%s のホストに関して、レコードがありません。';
+$string['errnoxmlrpcinstances'] = '私たちには%s のホストに関してXMLRPCプラグインインスタンスが設定されていないようです。';
+$string['errnoxmlrpcwwwroot'] = '私たちには%s のホストに関してレコードがありません。';
 $string['errnoxmlrpcuser1'] = '現時点ではあなたを認証することができませんでした。可能性のある理由として下記が考えられます:
 
 *あなたのSSOセッションが失効しました。他のアプリケーションに戻って、%s にログインするためのリンクを再度クリックしてください。
@@ -59,7 +59,7 @@ $string['xmlrpccouldnotlogyouindetail1'] = '申し訳ございません、今回
 $string['requiredfields'] = '必須プロファイルフィールド';
 $string['requiredfieldsset'] = '必須プロファイルフィールドセット';
 $string['primaryemaildescription'] = '主メールアドレスです。あなたの主メールアドレス宛にクリック可能なリンクを含むメールが送信されます - メールアドレスを有効にするため、このリンクをクリックした後、システムにログインしてください。';
-$string['validationprimaryemailsent'] = '確認メールが送信されました。メールアドレスを有効にするため、メールに含まれるリンクをクリックしてください。';
+$string['validationprimaryemailsent'] = '確認メールが送信されました。メールアドレスを有効にするため、メールに記載されたリンクをクリックしてください。';
 $string['noauthpluginconfigoptions'] = 'このプラグインに関する設定オプションはありません。';
 $string['hostwwwrootinuse'] = 'すでに別のインスティテューション (%s) により、WWWルートが使用されています。';
 $string['duplicateremoteusername'] = '外部認証ユーザ名はすでにユーザ %s によって使用されています。外部認証ユーザ名は認証メソッド内でユニーク (固有) である必要があります。';
