@@ -71,8 +71,8 @@ $string['sendrequest'] = 'リクエストを送信する';
 $string['reason'] = '理由';
 $string['select'] = '選択';
 $string['tags'] = 'タグ';
-$string['tagsdesc'] = 'このアイテムに関して、カンマで区切ったタグを入力してください。';
-$string['tagsdescprofile'] = 'このアイテムに関して、カンマで区切ったタグを入力してください。「プロファイル」タグが付けられたアイテムはあなたのサイドバーに表示されます。';
+$string['tagsdesc'] = 'このアイテムに関してカンマで区切ったタグを入力してください。';
+$string['tagsdescprofile'] = 'このアイテムに関してカンマで区切ったタグを入力してください。「プロファイル」タグが付けられたアイテムはあなたのサイドバーに表示されます。';
 $string['youhavenottaggedanythingyet'] = 'あなたはまたタグ付けしていません。';
 $string['selfsearch'] = 'マイポートフォリオを検索する';
 $string['quota'] = 'クオータ';
@@ -187,7 +187,7 @@ $string['accountinactivewarningtext'] = '%s さん
 
 アカウントが無効になった場合、あなたのアカウントを管理者が再度有効にするまで、ログインすることはできません。
 
-サイトにログインすることで、あなたのアカウントが無効になることを防ぐことができます。
+サイトにログインすることであなたのアカウントが無効になることを防ぐことができます。
 
 %s サイト管理者';
 $string['accountinactivewarninghtml'] = '<p>%s さん</p>
@@ -196,7 +196,7 @@ $string['accountinactivewarninghtml'] = '<p>%s さん</p>
 
 <p>アカウントが無効になった場合、あなたのアカウントを管理者が再度有効にするまで、ログインすることはできません。</p>
 
-<p>サイトにログインすることで、あなたのアカウントが無効になることを防ぐことができます。</p>
+<p>サイトにログインすることであなたのアカウントが無効になることを防ぐことができます。</p>
 
 <p>%s サイト管理者</p>';
 $string['accountsuspended'] = '%s 現在、あなたのアカウントは利用停止されています。あなたの利用停止理由は:<blockquote>%s</blockquote>';
@@ -443,7 +443,7 @@ $string['quarantinedirname'] = '隔離場所';
 $string['clammovedfile'] = 'ファイルが隔離場所に移動されました。';
 $string['clamdeletedfile'] = 'ファイルが削除されました。';
 $string['clamdeletedfilefailed'] = 'ファイルを削除できませんでした。';
-$string['clambroken'] = 'あなたの管理者がファイルのアップロードに関して、ウイルスチェックを有効にしましたが、設定が正しくないようです。あなたのファイルは正常にアップロードされませんでした。あなたの管理者にメール通知が送信されましたので、管理者は問題を修正することができます。このファイルのアップロードを後でお試しください。';
+$string['clambroken'] = 'あなたの管理者がファイルのアップロードに関してウイルスチェックを有効にしましたが、設定が正しくないようです。あなたのファイルは正常にアップロードされませんでした。あなたの管理者にメール通知が送信されましたので、管理者は問題を修正することができます。このファイルのアップロードを後でお試しください。';
 $string['clamemailsubject'] = '%s :: Clam AV通知';
 $string['clamlost'] = 'Clam AVがファイルのアップロード時に動作するよう設定されていますが、Clam AVのパス「 %s 」が正しくありません。';
 $string['clamfailed'] = 'Clam AVの動作にエラーが発生しました。エラーメッセージは%s です。Clam AVのアウトプットは次のとおりです:';
@@ -462,7 +462,7 @@ $string['phpuploaderror_2'] = 'アップロードファイルがHTMLフォーム
 $string['phpuploaderror_3'] = 'アップロードファイルは一部分のみアップロードされました。';
 $string['phpuploaderror_4'] = 'アップロードされたファイルはありません。';
 $string['phpuploaderror_6'] = '一時フォルダがありません。';
-$string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。ファイルのディスク書き込みに失敗しました。あなたのファイルシステムに関して、MaharaデータルートおよびPHP「upload_tmp_dir」ディレクトリへの書き込みに十分なスペースがあるか確認してください。';
+$string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。ファイルのディスク書き込みに失敗しました。あなたのファイルシステムに関してMaharaデータルートおよびPHP「upload_tmp_dir」ディレクトリへの書き込みに十分なスペースがあるか確認してください。';
 $string['phpuploaderror_8'] = 'ファイルアップロードは拡張子が原因で中止されました。';
 $string['adminphpuploaderror'] = 'ファイルアップロードエラーは恐らくあなたのサーバ設定を原因としています。';
 $string['youraccounthasbeensuspendedtext2'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。';

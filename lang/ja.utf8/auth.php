@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-02-25 04:10:00 UTC
+ * @updated    2015-12-31 16:06:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -39,7 +39,7 @@ $string['saveinstitutiondetailsfirst'] = '認証プラグインを設定する�
 $string['editauthority'] = '認証局を編集する';
 $string['addauthority'] = '認証局を追加する';
 $string['updateuserinfoonlogin'] = 'ログイン時、ユーザ情報を更新する';
-$string['updateuserinfoonlogindescription'] = 'リモートサーバのユーザ情報を検索し、ユーザがログインするたびにあなたのローカルユーザレコードを更新します。';
+$string['updateuserinfoonlogindescription'] = 'リモートサーバのユーザ情報を検索して、ユーザがログインするたびにあなたのローカルユーザレコードを更新します。';
 $string['xmlrpcserverurl'] = 'XML-RPCサーバURL';
 $string['ipaddress'] = 'IPアドレス';
 $string['shortname'] = 'あなたのサイトの省略名';
@@ -56,10 +56,10 @@ $string['authloginmsg'] = 'ユーザがMaharaログインフォーム経由で�
 $string['application'] = 'アプリケーション';
 $string['cantretrievekey'] = 'リモートサーバのパブリックキー検索中、エラーが発生しました。<br />アプリケーションおよびWWWルートフィールドが正しいこと、およびリモートホストのネットワークが有効にされていることを確認してください。';
 $string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s に対する使用を試みています。';
-$string['errnoauthinstances'] = '私たちには%s のホストに関して、認証プラグインインスタンスが設定されていないようです。';
+$string['errnoauthinstances'] = '私たちには %s のホストに関して認証プラグインインスタンスが設定されていないようです。';
 $string['errornotvalidsslcertificate'] = '有効なSSLサーバ証明書ではありません。';
-$string['errnoxmlrpcinstances'] = '私たちには%s のホストに関して、XMLRPCプラグインインスタンスが設定されていないようです。';
-$string['errnoxmlrpcwwwroot'] = '私たちには%s のホストに関して、レコードがありません。';
+$string['errnoxmlrpcinstances'] = '私たちには %s のホストに関してXMLRPCプラグインインスタンスが設定されていないようです。';
+$string['errnoxmlrpcwwwroot'] = '私たちには%s のホストに関してレコードがありません。';
 $string['errnoxmlrpcuser'] = '現時点ではあなたを認証することができませんでした。可能性のある理由として下記が考えられます:
 
 *あなたのSSOセッションが失効しました。他のアプリケーションに戻って、Maharaにログインするためのリンクを再度クリックしてください。

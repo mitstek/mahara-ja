@@ -119,7 +119,7 @@ $string['grouprequestmessagereason'] = '%s があなたのグループ「 %s 」
 %s';
 $string['cantdeletegroup'] = 'あなたはこのグループを削除できません。';
 $string['groupconfirmdelete'] = '本当にこのグループを削除してもよろしいですか?';
-$string['groupconfirmdeletehasviews'] = '本当にこのグループを削除してもよろしいですか? いくつかのあなたのビューではこのグループをアクセスコントロールに使用しています。このグループを削除することで、グループのメンバーがあなたのビューにアクセスできなくなります。';
+$string['groupconfirmdeletehasviews'] = '本当にこのグループを削除してもよろしいですか? いくつかのあなたのビューではこのグループをアクセスコントロールに使用しています。このグループを削除することでグループのメンバーがあなたのビューにアクセスできなくなります。';
 $string['deletegroup'] = 'グループが正常に削除されました。';
 $string['allmygroups'] = 'すべてのマイグループ';
 $string['groupsimin'] = '私が参加しているグループ';
@@ -131,7 +131,7 @@ $string['thereispendingrequest'] = 'このグループには1 件の保留中メ
 $string['requestedtojoin'] = 'あなたはこのグループへの参加をリクエストしました。';
 $string['groupnotfound'] = 'ID %s のグループはありません。';
 $string['groupconfirmleave'] = '本当にこのグループから離れてもよろしいですか?';
-$string['groupconfirmleavehasviews'] = '本当にこのグループから離れてもよろしいですか? いくつかのあなたのビューではこのグループをアクセスコントロールに使用しています。このグループから離れることで、グループのメンバーがあなたのビューにアクセスできなくなります。';
+$string['groupconfirmleavehasviews'] = '本当にこのグループから離れてもよろしいですか? いくつかのあなたのビューではこのグループをアクセスコントロールに使用しています。このグループから離れることでグループのメンバーがあなたのビューにアクセスできなくなります。';
 $string['cantleavegroup'] = 'あなたはこのグループから離れることはできません。';
 $string['usercantleavegroup'] = 'このユーザはこのグループから離れることはできません。';
 $string['usercannotchangetothisrole'] = 'ユーザはこのロールに変更できません。';
