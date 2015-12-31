@@ -151,7 +151,7 @@ $string['iframeiconhost'] = 'アイコンホスト';
 $string['urlalreadyexists'] = 'このURLはすでに存在します。あなたは2度追加することはできません。';
 $string['iframeiconhostdescription'] = '必要であれば、あなたはファビコン (favicon) イメージ用の異なるホストを指定することができます。同一名称のサイトすべてに対して、このアイコンが使用されます。';
 $string['cleanurls'] = 'クリーンURL';
-$string['cleanurlsdescription'] = '<p>ユーザプロファイル、グループホームページおよびポートフォリオページに関して、人間が解読可能なURLを使用して、あなたのサイトを設定することができます。例えば、下記のようになります:
+$string['cleanurlsdescription'] = '<p>ユーザプロファイル、グループホームページおよびポートフォリオページに関して人間が解読可能なURLを使用して、あなたのサイトを設定することができます。例えば、下記のようになります:
 <ul>
 <li>http://mahara.example.com/user/bob</li>
 <li>http://mahara.example.com/group/bobs-group</li>
@@ -159,7 +159,7 @@ $string['cleanurlsdescription'] = '<p>ユーザプロファイル、グループ
 </ul>
 
 受信リクエストのURLを書き換えることができるようあなたのサーバ管理者はこのオプションを有効にする前にウェブサーバを設定する必要があります。</p>
-<p>この作業のインストラクションに関して、Mahara wikiの<a href=" https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Clean_URL_Configuration">「クリーンURL設定 (英語)」</a>をご覧ください。</p>';
+<p>この作業のインストラクションに関してMahara wikiの<a href=" https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Clean_URL_Configuration">「クリーンURL設定 (英語)」</a>をご覧ください。</p>';
 $string['cleanurlsdisabled'] = 'クリーンURLは無効にされています。';
 $string['cleanurlsettings'] = 'クリーンURL設定';
 $string['regenerateurls'] = 'URLを再生成する';
@@ -319,9 +319,9 @@ $string['pathtoclamnotset'] = '(未設定)';
 $string['registerterms'] = '登録同意';
 $string['registertermsdescription'] = 'ユーザ登録の前、ユーザに使用条件への同意を強制します。このオプションを有効にする前、あなたのサイト使用条件ページを編集する必要があります。';
 $string['licensemetadata'] = 'ラインセンスメタデータ';
-$string['licensemetadatadescription'] = 'ユーザ作成コンテンツに関して、ライセンスメタデータを要求および保存します。';
+$string['licensemetadatadescription'] = 'ユーザ作成コンテンツに関してライセンスメタデータを要求および保存します。';
 $string['licenseallowcustom'] = 'カスタムライセンスを許可する';
-$string['licenseallowcustomdescription'] = 'ライセンスメタデータに関して、ユーザがライセンスのURLを入力できるようにします。この設定を有効にしない場合、ユーザはサイト管理者が設定したライセンスに制限されます。';
+$string['licenseallowcustomdescription'] = 'ライセンスメタデータに関してユーザがライセンスのURLを入力できるようにします。この設定を有効にしない場合、ユーザはサイト管理者が設定したライセンスに制限されます。';
 $string['allowmobileuploads'] = 'モバイルアップロードを有効にする';
 $string['allowmobileuploadsdescription'] = 'この設定を有効にした場合、ユーザは認証トークンを設定することができます - このトークンを使用してアップロードされたコンテンツはアーティファクトとして保存されます。';
 $string['recaptchakeysmissing'] = 'reCAPTCHAは有効にされましたが、あなたがプライベートおよびパブリックキーを提供するまで機能しません。';
@@ -450,7 +450,7 @@ $string['type'] = 'タイプ';
 $string['footermenu'] = 'フッタメニュー';
 $string['footermenudescription'] = 'フッタメニュー内のリンクを有効または無効にします。';
 $string['footerupdated'] = 'フッタが更新されました。';
-$string['footercustomlink'] = 'ここにURLを入力することで、あなたはデフォルトページ「 %s 」に優先させることができます。デフォルト値を使用する場合、空白のままにしてください。';
+$string['footercustomlink'] = 'ここにURLを入力することであなたはデフォルトページ「 %s 」に優先させることができます。デフォルト値を使用する場合、空白のままにしてください。';
 $string['adminfilespagedescription2'] = 'これらは%s「リンクおよびリソース」メニュー%sに含むことのできるファイルです。あなたはホームディレクトリからログインメニューにファイルを追加することができます。また、「パブリック」フォルダからパブリックメニューにファイルを追加することもできます。';
 $string['extralicensesdescription'] = '注意: 次のライセンスはいくつかのコンテンツで使用されていますが、設定されていません。';
 $string['licensenamelabel'] = 'URL';
@@ -579,7 +579,7 @@ $string['uploadgroupcsveditrolesdescription'] = '<p>editrolesフィールドに�
 $string['uploadgroupmemberscsverrorduplicateusername'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」およびユーザ名 (username)「 %s 」はすでにこのファイルで指定されています。';
 $string['uploadgroupmemberscsverrorinvalidrole'] = 'あなたのファイルの %s 行目にエラーが発生しました: 指定されたグループに対して、ロール「 %s 」は有効ではありません。';
 $string['uploadgroupmemberscsverrornoadminlisted'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」にはロール「admin」を指定されたユーザがありません。';
-$string['uploadgroupmemberscsverrornosuchshortname'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」が存在しないか、インスティテューション「 %s 」の一部ではありません。';
+$string['uploadgroupmemberscsverrornosuchshortname'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」が存在しないか、インスティテューション「 %s 」に属していません。';
 $string['uploadgroupmemberscsverrornosuchusername'] = 'あなたのファイルの %s 行目にエラーが発生しました: ユーザ名 (username)「 %s 」は存在しません。';
 $string['uploadgroupmemberscsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーが発生しました: ユーザ名 (username)「 %s 」はインスティテューション「 %s 」に属していません。';
 $string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用してこのインスティテューションでコントロールされるグループ内のグループメンバーを更新することができます。</p>
@@ -763,8 +763,8 @@ $string['institutionauthinuseby'] = 'このインスティテューション認�
 $string['institutiononly'] = 'インスティテューションのみ';
 $string['institutionaddedsuccessfully2'] = 'インスティテューションが正常に追加されました。';
 $string['institutiondeletedsuccessfully'] = 'インスティテューションが正常に削除されました。';
-$string['noauthpluginforinstitution'] = 'このインスティテューションに関して、あなたのサイト管理者は認証プラグインを設定していません。';
-$string['adminnoauthpluginforinstitution'] = 'このインスティテューションに関して、認証プラグインを設定してください。';
+$string['noauthpluginforinstitution'] = 'このインスティテューションに関してあなたのサイト管理者は認証プラグインを設定していません。';
+$string['adminnoauthpluginforinstitution'] = 'このインスティテューションに関して認証プラグインを設定してください。';
 $string['institutionname'] = 'インスティテューション名';
 $string['institutionnamealreadytaken'] = 'このインスティテューション名はすでに取得されています。';
 $string['institutiondisplayname'] = 'インスティテューション表示名';
@@ -812,7 +812,7 @@ $string['authenticatedbydescription'] = 'このユーザに関するMaharaへの
 $string['remoteusername'] = '外部認証のユーザ名';
 $string['remoteusernamedescription1'] = '外部認証プラグインを使用してユーザがリモートサイトから %s にログインした場合、これはリモートサイトのユーザを識別するユーザ名となります。';
 $string['institutionsettings'] = 'インスティテューション設定';
-$string['institutionsettingsdescription'] = 'あなたが管理者をしているインスティテューションに関して、このユーザのメンバーシップ設定を変更することができます。';
+$string['institutionsettingsdescription'] = 'あなたが管理者をしているインスティテューションに関してこのユーザのメンバーシップ設定を変更することができます。';
 $string['changeinstitution'] = 'インスティテューションを変更する';
 $string['institutionstaff'] = 'インスティテューションスタッフ';
 $string['institutionadmins'] = 'インスティテューション管理者';
@@ -896,7 +896,7 @@ $string['pendingregistration'] = '登録保留';
 $string['pendingregistrations'] = '登録保留';
 $string['pendingregistrationspagedescription'] = '<p>このページでは自己登録およびあなたのインスティテューションのメンバーシップをリクエストしたユーザを閲覧すること、登録を承認または拒否することができます。<p>
 
-<p>登録を承認することで、あなたはユーザをインスティテューションのメンバーに追加することになります。承認されたユーザにはアカウントの有効化に関して、さらなるインストラクションを記載したメールが送信されます。登録を拒否した場合、申請が拒否された旨の自動返信メールが送信されます。</p>';
+<p>登録を承認することであなたはユーザをインスティテューションのメンバーに追加することになります。承認されたユーザにはアカウントの有効化に関してさらなるインストラクションを記載したメールが送信されます。登録を拒否した場合、申請が拒否された旨の自動返信メールが送信されます。</p>';
 $string['nosuchinstitution'] = 'そのようなインスティテューションはありません。';
 $string['registrationapprovedsuccessfully'] = '登録は正常に承認されました。';
 $string['registrationdeniedreason'] = '拒否理由';
