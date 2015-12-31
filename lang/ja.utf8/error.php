@@ -43,7 +43,7 @@ $string['registerglobals'] = 'あなたは危険なPHP設定、register_globals�
 $string['magicquotesgpc'] = 'あなたは危険なPHP設定、magic_quotes_gpcをonにしています。Maharaはこの問題の対処を試みますが、設定の修正を強くお勧めします。';
 $string['magicquotesruntime'] = 'あなたは危険なPHP設定、magic_quotes_runtimeをonにしています。Maharaはこの問題の対処を試みますが、設定の修正を強くお勧めします。';
 $string['magicquotessybase'] = 'あなたは危険なPHP設定、magic_quotes_sybaseをonにしています。Maharaはこの問題の対処を試みますが、設定の修正を強くお勧めします。';
-$string['mimemagicnotloaded'] = 'あなたのサーバ設定にはmime_magic拡張モジュールが含まれていません。ファイルタイプの検出に関して、Maharaにトラブルが発生する可能性があります。';
+$string['mimemagicnotloaded'] = 'あなたのサーバ設定にはmime_magic拡張モジュールが含まれていません。ファイルタイプの検出に関してMaharaにトラブルが発生する可能性があります。';
 $string['safemodeon'] = 'あなたのサーバはセーフモードで動作しているようです。Maharaはセーフモードでの運用をサポートしていません。php.iniファイルまたはサイトのApache設定でセーフモードを無効にしてください。
 
 あなたが共有ホスティングサービスを利用している場合、ホスティングプロバイダに依頼する以外、safe_modeを無効にするためにできることは多くありません。別のホスティングサービスへの変更を考えても良いでしょう。';
@@ -60,7 +60,7 @@ $string['dbnotutf8'] = 'あなたはUTF-8データベースを使用していま
 $string['dbversioncheckfailed'] = 'あなたのデータベースサーバのバージョンはMaharaを正常に動作させるのに十分な新しいバージョンではありません。あなたのサーバは%s %s ですが、Maharaは少なくともバージョン %s を必要とします。';
 $string['blocktypenametaken'] = 'ブロックタイプ %s はすでに他のプラグイン (%s) に取得されています。';
 $string['artefacttypenametaken'] = 'アーティファクトタイプ %s はすでに他のプラグイン (%s) に取得されています。';
-$string['artefacttypemismatch'] = 'アーティファクトタイプが一致しません。あなたはこの %s に関して、%s としての使用を試みています。';
+$string['artefacttypemismatch'] = 'アーティファクトタイプが一致しません。あなたはこの %s に関して%s としての使用を試みています。';
 $string['classmissing'] = 'クラス %s (タイプ %s - プラグイン %s) がありません。';
 $string['artefacttypeclassmissing'] = 'すべてのアーティファクトタイプにはクラスを実装する必要があります。%s がありません。';
 $string['artefactpluginmethodmissing'] = 'アーティファクトプラグイン %s で必要な %s が実装されていません。';
