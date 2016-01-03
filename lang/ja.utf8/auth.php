@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-12-31 16:05:50 UTC
+ * @updated    2016-01-03 16:13:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -44,7 +44,7 @@ $string['xmlrpcserverurl'] = 'XML-RPCサーバURL';
 $string['ipaddress'] = 'IPアドレス';
 $string['shortname'] = 'あなたのサイトの省略名';
 $string['name'] = 'サイト名';
-$string['nodataforinstance'] = '認証インスタンスのデータが見つかりません。';
+$string['nodataforinstance'] = '認証インスタンスのデータが見つかりませんでしたでした。';
 $string['authname'] = '認証局名';
 $string['weautocreateusers'] = 'こちらでユーザを自動作成する';
 $string['theyautocreateusers'] = 'あちらでユーザを自動作成させる';
@@ -73,9 +73,9 @@ $string['xmlrpccouldnotlogyouindetail'] = '申し訳ございません、今回�
 $string['requiredfields'] = '必須プロファイルフィールド';
 $string['requiredfieldsset'] = '必須プロファイルフィールドセット';
 $string['noauthpluginconfigoptions'] = 'このプラグインに関する設定オプションはありません。';
-$string['hostwwwrootinuse'] = 'すでに別のインスティテューション (%s) により、WWWルートが使用されています。';
-$string['duplicateremoteusername'] = '外部認証ユーザ名はすでにユーザ %s によって使用されています。外部認証ユーザ名は認証メソッド内でユニーク (固有) である必要があります。';
-$string['duplicateremoteusernameformerror'] = '外部認証ユーザ名は認証メソッド内でユニーク (固有) である必要があります。';
+$string['hostwwwrootinuse'] = 'すでに別のインスティテューション (%s) によってWWWルートが使用されています。';
+$string['duplicateremoteusername'] = '外部認証ユーザ名はすでにユーザ %s によって使用されています。外部認証ユーザ名は認証メソッド内でユニークである必要があります。';
+$string['duplicateremoteusernameformerror'] = '外部認証ユーザ名は認証メソッド内でユニークである必要があります。';
 $string['cannotjumpasmasqueradeduser'] = '別のユーザとして代理ログインしているため、あなたは他のアプリケーションにジャンプできません。';
 
 ?>
