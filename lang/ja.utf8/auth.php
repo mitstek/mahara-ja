@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-12-31 16:06:25 UTC
+ * @updated    2016-01-03 16:14:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -44,7 +44,7 @@ $string['xmlrpcserverurl'] = 'XML-RPCサーバURL';
 $string['ipaddress'] = 'IPアドレス';
 $string['shortname'] = 'あなたのサイトの省略名';
 $string['name'] = 'サイト名';
-$string['nodataforinstance'] = '認証インスタンスのデータが見つかりません。';
+$string['nodataforinstance'] = '認証インスタンスのデータが見つかりませんでしたでした。';
 $string['authname'] = '認証局名';
 $string['weautocreateusers'] = 'こちらでユーザを自動作成する';
 $string['theyautocreateusers'] = 'あちらでユーザを自動作成させる';
