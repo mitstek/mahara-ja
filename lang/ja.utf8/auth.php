@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-12-31 16:05:35 UTC
+ * @updated    2016-01-03 16:17:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -44,7 +44,7 @@ $string['xmlrpcserverurl'] = 'XML-RPCサーバURL';
 $string['ipaddress'] = 'IPアドレス';
 $string['shortname'] = 'あなたのサイトの省略名';
 $string['name'] = 'サイト名';
-$string['nodataforinstance'] = '認証インスタンスのデータが見つかりません。';
+$string['nodataforinstance'] = '認証インスタンスのデータが見つかりませんでしたでした。';
 $string['authname'] = '認証局名';
 $string['weautocreateusers'] = 'こちらでユーザを自動作成する';
 $string['theyautocreateusers'] = 'あちらでユーザを自動作成させる';
@@ -67,16 +67,16 @@ $string['errnoxmlrpcuser1'] = '現時点ではあなたを認証することが�
 
 *あなたのSSOセッションが失効しました。他のアプリケーションに戻って、%s にログインするためのリンクを再度クリックしてください。
 *あなたの %s に対するSSOが許可されていません。あなたがSSOできるかどうか管理者にご確認ください。';
-$string['toomanytries'] = 'あなたは最大ログイン回数を超過しました。アカウントは5分間ロックされます。';
+$string['toomanytries'] = 'あなたは最大ログイン回数を超過しました。このアカウントは5分間ロックされます。';
 $string['unabletosigninviasso'] = 'SSO経由でサインインできません。';
 $string['xmlrpccouldnotlogyouin'] = '申し訳ございません、あなたをログインさせることができませんでした。';
 $string['xmlrpccouldnotlogyouindetail1'] = '申し訳ございません、今回はあなたを %s にログインさせることができませんでした。ログインを再度お試しください。問題が続く場合、あなたの管理者にご連絡ください。';
 $string['requiredfields'] = '必須プロファイルフィールド';
 $string['requiredfieldsset'] = '必須プロファイルフィールドセット';
 $string['noauthpluginconfigoptions'] = 'このプラグインに関する設定オプションはありません。';
-$string['hostwwwrootinuse'] = 'すでに別のインスティテューション (%s) により、WWWルートが使用されています。';
-$string['duplicateremoteusername'] = '外部認証ユーザ名はすでにユーザ %s によって使用されています。外部認証ユーザ名は認証メソッド内でユニーク (固有) である必要があります。';
-$string['duplicateremoteusernameformerror'] = '外部認証ユーザ名は認証メソッド内でユニーク (固有) である必要があります。';
+$string['hostwwwrootinuse'] = 'すでに別のインスティテューション (%s) によってWWWルートが使用されています。';
+$string['duplicateremoteusername'] = '外部認証ユーザ名はすでにユーザ %s によって使用されています。外部認証ユーザ名は認証メソッド内でユニークである必要があります。';
+$string['duplicateremoteusernameformerror'] = '外部認証ユーザ名は認証メソッド内でユニークである必要があります。';
 $string['cannotjumpasmasqueradeduser'] = '別のユーザとして代理ログインしているため、あなたは他のアプリケーションにジャンプできません。';
 $string['mobileuploadnotenabled'] = '申し訳ございません、モバイルアップロードが有効にされていません。';
 $string['mobileuploadtokennotset'] = 'あなたのモバイルアップロードトークンを空白にすることはできません。あなたのモバイルアプリケーション設定を確認した後、再度お試しください。';
