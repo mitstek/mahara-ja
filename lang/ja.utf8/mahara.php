@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-24 21:19:24 UTC
+ * @updated    2016-01-06 04:31:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -491,7 +491,7 @@ $string['unknownerror'] = '不明なエラーが発生しました (0x20f91a0)�
 $string['overview'] = '概要';
 $string['home'] = 'ホーム';
 $string['Content'] = 'コンテンツ';
-$string['myportfolio'] = 'マイポートフォリオ';
+$string['myportfolio'] = 'ポートフォリオ';
 $string['settings'] = '設定';
 $string['myfriends'] = 'マイフレンド';
 $string['findfriends'] = 'フレンドを探す';
