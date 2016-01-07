@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2012-03-27 19:06:24 UTC
+ * @updated    2016-01-07 21:21:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -84,7 +84,7 @@ $string['update'] = '更新';
 $string['usecollectionname'] = 'コレクション名を使用しますか?';
 $string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしてください。';
 $string['viewaddedtocollection'] = 'コレクションにビューが追加されました。';
-$string['viewcollection'] = 'ビューコレクション詳細';
+$string['viewcollection'] = 'コレクション詳細を表示する';
 $string['viewcount'] = 'ビュー';
 $string['viewremovedsuccessfully'] = 'ビューが正常に削除されました。';
 $string['viewnavigation'] = 'ビューナビゲーションバー';
