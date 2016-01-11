@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['title'] = 'イメージギャラリー';
 $string['description1'] = 'あなたのファイルエリアまたは外部ギャラリーからのイメージコレクションです。';
 $string['select'] = 'イメージ選択';
-$string['selectfolder'] = '後でアップロードされたイメージを含むイメージすべてをフォルダから表示します。';
+$string['selectfolder'] = '後でアップロードされたイメージを含むイメージすべてをフォルダから表示する';
 $string['selectimages'] = '表示するイメージを選択する';
 $string['selectexternal'] = '外部ギャラリーよりイメージを表示する';
 $string['externalgalleryurl'] = 'ギャラリーURLまたはRSS';
