@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-08 10:28:35 UTC
+ * @updated    2016-01-14 14:44:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -115,7 +115,7 @@ $string['objectionabletopicdeletedbody'] = '%s は前に好ましくないコン
 %s';
 $string['Open'] = 'オープン';
 $string['Order'] = '並び順';
-$string['orderdescription'] = '他のフォーラムに対して、あなたがこのフォーラムを配置したい場所を選択してください。';
+$string['orderdescription'] = 'このフォーラムがフォーラム一覧に表示される場合のポジションを選択してください。';
 $string['Post'] = '投稿';
 $string['postaftertimeout'] = 'あなたは %s 分のタイムアウト後に変更を送信しました。あなたの変更は適用されませんでした。';
 $string['postbyuserwasdeleted'] = '%s による投稿が削除されました。';
