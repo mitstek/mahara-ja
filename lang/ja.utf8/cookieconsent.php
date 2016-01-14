@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-01-14 02:23:58 UTC
+ * @updated    2016-01-14 02:31:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -49,7 +49,7 @@ $string['cookieconsentdisabled'] = 'クッキーコンセントが無効にさ�
 $string['cookieconsent2'] = '追加サイト修正';
 $string['additionalmodifications'] = 'クッキーコントロールを完全に有効にしたい場合、あなたのテーマヘッダファイルまたは<tt>$cfg->additionalhtmlhead</tt>設定を修正または更新する必要があります。';
 $string['instructiontext1'] = '%s クッキーを設定するJavaスクリプトを探します。例には %s を含むことができます。';
-$string['instructiontext2-1'] = 'タイプ属性が「text/javascript」から「text/plain」になるよう<tt>&lt;script&gt;</tt>タグを修正します。';
+$string['instructiontext2-1'] = 'タイプ属性が「application/javascript」から「text/plain」になるよう<tt>&lt;script&gt;</tt>タグを修正します。';
 $string['instructiontext3'] = '「 %s 」のクラスを<tt>&lt;script&gt;</tt>タグに追加する';
 $string['example1social'] = 'FacebookボタンおよびTwitterウィジェット';
 $string['example1analytics'] = 'Googleアナリティクス‎および統計カウンタ';
