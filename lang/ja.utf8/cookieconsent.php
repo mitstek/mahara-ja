@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-01-14 02:23:33 UTC
+ * @updated    2016-01-14 02:39:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -132,7 +132,7 @@ $string['preferenceDecline'] = '同意しません';
 $string['notUsingCookies'] = 'このウェブサイトはクッキーを使用しません。';
 $string['allSitesSettingsDialogTitleA'] = 'プライバシー設定';
 $string['allSitesSettingsDialogTitleB'] = '(すべてのウェブサイトに対して)';
-$string['allSitesSettingsDialogSubtitle'] = 'このプラグインを使用するため、あなたはすべてのウェブサイトに対して、これらのクッキーに同意することができます。';
+$string['allSitesSettingsDialogSubtitle'] = 'あなたはこのプラグインを使用するすべてのウェブサイトに対して、これらのクッキーに同意することができます。';
 $string['backToSiteSettings'] = 'ウェブサイト設定に戻る';
 $string['preferenceAsk'] = '私に毎回尋ねる';
 $string['preferenceAlways'] = '常に許可する';
