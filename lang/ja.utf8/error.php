@@ -34,18 +34,18 @@ $string['pgsqldbextensionnotloaded'] = 'あなたのサーバ設定にはpgsql�
 $string['mysqldbextensionnotloaded'] = 'あなたのサーバ設定にはmysql拡張モジュールが含まれていません。リレーショナルデータベースにデータを保存するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。インストールされていない場合、インストールしてください。';
 $string['unknowndbtype'] = 'あなたのサーバ設定は不明なデータベースタイプを参照しています。有効な値は「postgres8」および「mysql5」です。config.php内のデータベースタイプ設定を変更してください。';
 $string['domextensionnotloaded'] = 'あなたのサーバ設定にはdom拡張モジュールが含まれていません。様々なソースのXMLデータを構文解析するため、Maharaではこのモジュールを必要とします。';
-$string['xmlextensionnotloaded'] = 'あなたのサーバ設定には%s 拡張モジュールが含まれていません。様々なソースのXMLデータを構文解析するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。インストールされていない場合、インストールしてください。';
+$string['xmlextensionnotloaded'] = 'あなたのサーバ設定には %s 拡張モジュールが含まれていません。様々なソースのXMLデータを構文解析するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。インストールされていない場合、インストールしてください。';
 $string['gdextensionnotloaded'] = 'あなたのサーバ設定にはgd拡張モジュールが含まれていません。アップロードされたイメージのリサイズおよび他の処理を実行するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。インストールされていない場合、インストールしてください。';
 $string['gdfreetypenotloaded'] = 'あなたのサーバ設定のgd拡張モジュールにはFreetypeサポートが含まれていません。gd拡張モジュールでFreetypeサポートが設定されているかどうか確認してください。';
 $string['sessionextensionnotloaded'] = 'あなたのサーバ設定にはsession拡張モジュールが含まれていません。ユーザログインをサポートするため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。インストールされていない場合、インストールしてください。';
 $string['curllibrarynotinstalled'] = 'あなたのサーバ設定にはcurl拡張モジュールが含まれていません。Moodle統合および外部フィードを検索するため、Maharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているかどうか確認してください。インストールされていない場合、インストールしてください。';
-$string['registerglobals'] = 'あなたは危険なPHP設定、register_globalsをonにしています。Maharaはこの問題の対処を試みますが、設定の修正を強くお勧めします。あなたが共有ホスティングを利用していて、PHPの設定変更が許可されている場合、.htaccessファイルに次の行を含んでください:
+$string['registerglobals'] = 'あなたは危険なPHP設定、register_globalsをonにしています。Maharaはこの問題の対処を試みますが、設定変更を強くお勧めします。あなたが共有ホスティングを利用してPHPの設定変更が許可されている場合、.htaccessファイルに次の行を含んでください:
 php_flag register_globals off';
-$string['magicquotesgpc'] = 'あなたは危険なPHP設定、magic_quotes_gpcをonにしています。Maharaはこの問題の対処を試みますが、設定の修正を強くお勧めします。あなたが共有ホスティングを利用していて、PHPの設定変更が許可されている場合、.htaccessファイルに次の行を含んでください:
+$string['magicquotesgpc'] = 'あなたは危険なPHP設定、magic_quotes_gpcをonにしています。Maharaはこの問題の対処を試みますが、設定変更を強くお勧めします。あなたが共有ホスティングを利用してPHPの設定変更が許可されている場合、.htaccessファイルに次の行を含んでください:
 php_flag magic_quotes_gpc off';
-$string['magicquotesruntime'] = 'あなたは危険なPHP設定、magic_quotes_runtimeをonにしています。Maharaはこの問題の対処を試みますが、設定の修正を強くお勧めします。あなたが共有ホスティングを利用していて、PHPの設定変更が許可されている場合、.htaccessファイルに次の行を含んでください:
+$string['magicquotesruntime'] = 'あなたは危険なPHP設定、magic_quotes_runtimeをonにしています。Maharaはこの問題の対処を試みますが、設定変更を強くお勧めします。あなたが共有ホスティングを利用してPHPの設定変更が許可されている場合、.htaccessファイルに次の行を含んでください:
 php_flag magic_quotes_runtime off';
-$string['magicquotessybase'] = 'あなたは危険なPHP設定、magic_quotes_sybaseをonにしています。Maharaはこの問題の対処を試みますが、設定の修正を強くお勧めします。あなたが共有ホスティングを利用していて、PHPの設定変更が許可されている場合、.htaccessファイルに次の行を含んでください:
+$string['magicquotessybase'] = 'あなたは危険なPHP設定、magic_quotes_sybaseをonにしています。Maharaはこの問題の対処を試みますが、設定変更を強くお勧めします。あなたが共有ホスティングを利用してPHPの設定変更が許可されている場合、.htaccessファイルに次の行を含んでください:
 php_flag magic_quotes_sybase off';
 $string['safemodeon'] = 'あなたのサーバはセーフモードで動作しているようです。Maharaはセーフモードでの運用をサポートしていません。php.iniファイルまたはサイトのApache設定でセーフモードを無効にしてください。
 
@@ -58,7 +58,7 @@ $string['datarootnotwritable'] = 'あなたが定義したルートディレク�
 $string['wwwrootnothttps'] = 'あなたが定義したwwwroot ( %s ) は正しいHTTPSではありません。しかし、あなたのインストレーションの他の設定 (sslproxy等) ではwwwrootがHTTPSである必要があります。
 
 あなたのwwwroot設定をHTTPSに更新するか、正しくない設定を修正してください。';
-$string['couldnotmakedatadirectories'] = '何らかの理由で、いくつかのコアデータディレクトリを作成することができませんでした。前もって、Maharaがデータディレクトリの書込み権を確認しましたので、このエラーが発生することはないと考えられます。データルートディレクトリのパーミッションを確認してください。';
+$string['couldnotmakedatadirectories'] = '何らかの理由で、いくつかのコアデータディレクトリを作成することができませんでした。前もって、Maharaがデータディレクトリの書込み権を確認したため、このエラーが発生することはないと考えられます。データルートディレクトリのパーミッションを確認してください。';
 $string['dbconnfailed'] = 'Maharaがアプリケーションデータベースに接続できませんでした。
 
 * あなたがMaharaを使用している場合、少し待った後、再度お試しください。
