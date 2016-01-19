@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-05-04 18:51:10 UTC
+ * @updated    2016-01-19 02:40:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -52,25 +52,25 @@ $string['dbconnfailed'] = 'Maharaがアプリケーションデータベース�
 
 エラー内容は:';
 $string['dbnotutf8'] = 'あなたはUTF-8データベースを使用していません。Maharaではすべてのデータを内部にUTF-8で保存します。あなたのデータベースをドロップして、UTF-8エンコーディングを使用するよう再作成してください。';
-$string['dbversioncheckfailed'] = 'あなたのデータベースサーバのバージョンはMaharaを正常に動作させるのに十分な新しいバージョンではありません。あなたのサーバは%s %s ですが、Maharaは少なくともバージョン %s を必要とします。';
+$string['dbversioncheckfailed'] = 'あなたのデータベースサーバのバージョンはMaharaを正常に動作させるのに十分な新しいバージョンではありません。あなたのサーバは %s %s ですが、Maharaは少なくともバージョン %s を必要とします。';
 $string['plpgsqlnotavailable'] = 'あなたのPostgresではPL/pgSQL言語が有効にされていません。また、MaharaもPL/pgSQL言語を有効にすることはできません。あなたのデータベースに手動でPL/pgSQLをインストールしてください。この作業のインストラクションに関して次をご覧ください: https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Enabling_Plpgsql';
 $string['mysqlnotriggerprivilege'] = 'データベーストリガの作成に関してMaharaはパーミッションを必要とします。しかし、データベーストリガを作成できないようです。あなたのMySQLインストール内で適切なユーザにトリガ権限が割り当てられていることを確認してください。この作業のインストラクションに関して次をご覧ください: https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Granting_Trigger_Privilege';
 $string['mbstringneeded'] = 'PHPのmbstring拡張モジュールをインストールしてください。あなたがユーザ名にUTF-8文字を使用している場合、この拡張モジュールが必要です。インストールしない場合、ユーザはログインすることができません。';
 $string['blocktypenametaken'] = 'ブロックタイプ %s はすでに他のプラグイン (%s) に取得されています。';
 $string['artefacttypenametaken'] = 'アーティファクトタイプ %s はすでに他のプラグイン (%s) に取得されています。';
-$string['artefacttypemismatch'] = 'アーティファクトタイプが一致しません。あなたはこの %s に関して%s としての使用を試みています。';
+$string['artefacttypemismatch'] = 'アーティファクトタイプが一致しません。あなたはこの %s に関して %s としての使用を試みています。';
 $string['classmissing'] = 'クラス %s (タイプ %s - プラグイン %s) がありません。';
 $string['artefacttypeclassmissing'] = 'すべてのアーティファクトタイプにはクラスを実装する必要があります。%s がありません。';
 $string['artefactpluginmethodmissing'] = 'アーティファクトプラグイン %s で必要な %s が実装されていません。';
 $string['blocktypelibmissing'] = 'アーティファクトプラグイン %s 内にブロック %s のlib.phpがありません。';
-$string['unabletosetmultipleblogs'] = 'ユーザ「 %s 」のビュー「 %s 」のコピーによる複数日誌の有効化に失敗しました。これは<a href="%s">アカウント</a>ページで手動で設定することができます。';
-$string['pleaseloginforjournals'] = 'あなたの日誌および記事すべてを閲覧すにはログアウトした後に再度ログインする必要があります。';
+$string['unabletosetmultipleblogs'] = 'ユーザ「 %s 」のページ「 %s 」のコピーによる複数日誌の有効化に失敗しました。これは<a href="%s">アカウント</a>ページで手動で設定することができます。';
+$string['pleaseloginforjournals'] = 'あなたの日誌および記事すべてを閲覧するにはログアウトした後に再度ログインする必要があります。';
 $string['blocktypemissingconfigform'] = 'ブロックタイプ %s ではinstance_config_formを実装する必要があります。';
 $string['versionphpmissing'] = 'プラグイン %s %s のversion.phpがありません!';
 $string['blocktypeprovidedbyartefactnotinstallable'] = 'これはアーティファクトプラグイン %s の一部としてインストールされます。';
 $string['blockconfigdatacalledfromset'] = 'configデータを直接設定しないでください。代わりにPluginBlocktype::instance_config_saveを使用してください。';
 $string['invaliddirection'] = '無効な移動先: %s';
-$string['onlyoneprofileviewallowed'] = 'あなたは1件のプロファイルページのみ許可されています。';
+$string['onlyoneprofileviewallowed'] = 'あなたは1つのプロファイルページのみ許可されています。';
 $string['onlyoneblocktypeperview'] = '1つ以上の %s ブロックタイプをページに追加できません。';
 $string['unrecoverableerror'] = '回復不能なエラーが発生しました。恐らく、あなたはシステムバグに遭遇したと思われます。';
 $string['unrecoverableerrortitle'] = '%s - サイト利用不可';
@@ -80,11 +80,11 @@ $string['notfoundexception'] = 'あなたが探しているページは見つか
 $string['accessdenied'] = 'アクセスが拒否されました。';
 $string['accessdeniedexception'] = 'あなたにはこのページを閲覧するアクセス権がありません。';
 $string['viewnotfoundexceptiontitle'] = 'ページが見つかりませんでした。';
-$string['viewnotfoundexceptionmessage'] = 'あなたは存在しないページにアクセスを試みました!';
+$string['viewnotfoundexceptionmessage'] = 'あなたは存在しないページにアクセスを試みました。';
 $string['viewnotfound'] = 'ID %s のページは見つかりませんでした。';
-$string['viewnotfoundbyname'] = 'ページ %s (ユーザ: %s) が見つかりませんでした。';
+$string['viewnotfoundbyname'] = 'ページ %s (ユーザ: %s) は見つかりませんでした。';
 $string['youcannotviewthisusersprofile'] = 'あなたはこのユーザのプロファイルを閲覧できません。';
-$string['invalidlayoutselection'] = 'あなたは存在しないレイアウトの選択を試みました!';
+$string['invalidlayoutselection'] = 'あなたは存在しないレイアウトの選択を試みました。';
 $string['invalidnumrows'] = 'あなたは許可された最大行以上のレイアウトの作成を試みました (これは可能であるべきではありません。あなたのサイト管理者にご連絡ください)。';
 $string['previewimagegenerationfailed'] = '申し訳ございません、プレビューイメージの生成中に問題が発生しました。';
 $string['artefactnotfoundmaybedeleted'] = 'ID %s のアーティファクトは見つかりませんでした (もしかして、削除されましたか?)。';
@@ -98,7 +98,7 @@ $string['invalidviewaction'] = '無効なページコントロール: %s';
 $string['missingparamblocktype'] = '最初に追加するブロックタイプを選択してください。';
 $string['missingparamcolumn'] = 'カラム設定がありません。';
 $string['missingparamrow'] = '行設定がありません。';
-$string['missingparamorder'] = '並べ替え順の設定がありません。';
+$string['missingparamorder'] = '並べ替え順設定がありません。';
 $string['missingparamid'] = 'IDがありません。';
 $string['themenameinvalid'] = 'テーマ名「 %s 」に無効な文字が含まれています。';
 $string['timezoneidentifierunusable'] = 'あなたのウェブサイトのPHPはタイムゾーンID (%z) に対して、有益な値を返していないようです - Leap2Aエクスポート等の日付フォーマットが壊れる可能性があります。%z はPHPの日付フォーマットコードです。通常、この問題はWindows上で実行されるPHPの制限に起因します。';
@@ -110,9 +110,9 @@ $string['noreplyaddressmissingorinvalid'] = 'システムメールアドレス�
 $string['openbasedirenabled'] = 'あなたのサーバではPHPの「open_basedir」制限が有効にされています。';
 $string['openbasedirpaths'] = 'Maharaは次のパス内でのみファイルを開くことができます: %s';
 $string['openbasedirwarning'] = 'いくつかの外部サイトへのリクエストを完了できない可能性があります。特にフィードの更新が停止してしまう場合があります。';
-$string['gdlibrarylacksgifsupport'] = 'インストール済みPHP GDライブラリはGIFイメージの作成および読み込みをサポートしません。GIFイメージのアップロードにはフルサポートが必要です。';
-$string['gdlibrarylacksjpegsupport'] = 'インストール済みPHP GDライブラリはJPEG/JPGイメージの作成および読み込みをサポートしません。JPEG/JPGイメージのアップロードにはフルサポートが必要です。';
-$string['gdlibrarylackspngsupport'] = 'インストール済みPHP GDライブラリはPNGイメージの作成および読み込みをサポートしません。PNGイメージのアップロードにはフルサポートが必要です。';
+$string['gdlibrarylacksgifsupport'] = 'インストール済みPHP GDライブラリはGIFイメージの作成および読み込みをサポートしていません。GIFイメージのアップロードにはフルサポートが必要です。';
+$string['gdlibrarylacksjpegsupport'] = 'インストール済みPHP GDライブラリはJPEG/JPGイメージの作成および読み込みをサポートしていません。JPEG/JPGイメージのアップロードにはフルサポートが必要です。';
+$string['gdlibrarylackspngsupport'] = 'インストール済みPHP GDライブラリはPNGイメージの作成および読み込みをサポートしていません。PNGイメージのアップロードにはフルサポートが必要です。';
 $string['nopasswordsaltset'] = 'サイト全体のパスワードsaltが設定されていません。あなたのconfig.phpを編集して、「passwordsaltmain」パラメータに妥当なシークレットフレーズを設定してください。';
 $string['passwordsaltweak'] = 'あなたのサイト全体のパスワードsaltの強さが十分ではありません。あなたのconfig.phpを編集して、さらに長いシークレットフレーズを「passwordsaltmain」パラメータに設定してください。';
 $string['notproductionsite'] = 'このサイトは実運用モードに入っていません。いくつかのデータは利用できないか、古い可能性があります。';
