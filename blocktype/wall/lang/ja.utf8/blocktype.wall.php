@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-01 16:42:45 UTC
+ * @updated    2016-01-21 12:21:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,6 +18,7 @@ $string['otherusertitle'] = '%s のウォール';
 $string['description'] = 'ユーザがあなたにコメントを残すことのできるエリアを表示します。';
 $string['noposts'] = '表示できるウォール投稿はありません。';
 $string['makeyourpostprivate'] = 'あなたの投稿をプライベートにする';
+$string['wallpostprivate'] = 'このウォール投稿はプライベートです。';
 $string['viewwall'] = 'ウォールを表示する';
 $string['backtoprofile'] = 'プロファイルに戻る';
 $string['wall'] = 'ウォール';
