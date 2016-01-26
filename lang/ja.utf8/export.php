@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-05-14 19:16:57 UTC
+ * @updated    2016-01-26 15:27:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -58,7 +58,7 @@ $string['selectall'] = 'すべてを選択する';
 $string['setupcomplete'] = 'セットアップ完了';
 $string['Starting'] = '開始';
 $string['unabletoexportportfoliousingoptions'] = '選択されたオプションでポートフォリオをエクスポートできません。';
-$string['unabletogenerateexport'] = 'エクスポートを生成できません。';
+$string['unabletogenerateexport'] = '不十分な情報です。';
 $string['viewstoexport'] = 'エクスポートするページ';
 $string['whatdoyouwanttoexport'] = '何をエクスポートしますか?';
 $string['writingfiles'] = 'ファイル書き出し中';
