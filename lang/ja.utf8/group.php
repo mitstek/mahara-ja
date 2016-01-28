@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-11-10 05:39:48 UTC
+ * @updated    2016-01-28 17:16:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -77,7 +77,7 @@ $string['Admin'] = '管理者';
 $string['publiclyviewablegroup'] = 'パブリックに閲覧可能なグループ';
 $string['publiclyviewablegroupdescription1'] = 'オンラインのユーザは誰でもフォーラムを含む、このグループを閲覧できるようにします。';
 $string['Type'] = 'タイプ';
-$string['publiclyvisible'] = 'パブリックに閲覧可能';
+$string['publiclyvisible'] = 'パブリックに閲覧可';
 $string['Public'] = 'パブリック';
 $string['usersautoadded'] = '自動的にユーザを追加する';
 $string['usersautoaddeddescription1'] = 'サイトに参加したユーザすべてをこのグループに自動的に追加します。';
