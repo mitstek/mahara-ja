@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-01-14 02:39:43 UTC
+ * @updated    2016-02-02 16:41:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -56,7 +56,7 @@ $string['example1analytics'] = 'Googleアナリティクス‎および統計カ
 $string['example1advertising'] = 'Googleアドセンスおよび他のターゲット広告プラグイン';
 $string['example1necessary'] = 'Googleアドセンスおよび他のターゲット広告プラグイン';
 $string['example'] = '例';
-$string['examplebefore'] = '変更後:';
+$string['examplebefore'] = '変更前:';
 $string['exampleafter'] = '変更後 (変更は太字):';
 $string['itdidntwork'] = '動作しませんでした。';
 $string['itdidntwork1'] = '最初に「<b>%s</b>」を「<b>%s</b>」の代わりに使用してください。これにより、<tt>document.write()</tt>を使用するJavaスクリプトプラグインを調整します。';
