@@ -184,7 +184,7 @@ $string['friendrequestrejectedmessagereason'] = '%s があなたのフレンド�
 拒否理由は:';
 $string['allfriends'] = 'すべてのフレンド';
 $string['currentfriends'] = '現在のフレンド';
-$string['pendingfriends'] = '保留中フレンド';
+$string['pendingfriends'] = '保留中のフレンド';
 $string['backtofriendslist'] = 'フレンドリストに戻る';
 $string['findnewfriends'] = '新しいフレンドを探す';
 $string['Views'] = 'ビュー';
@@ -216,7 +216,7 @@ $string['sendmessage'] = 'メッセージを送信する';
 $string['messagesent'] = 'メッセージが送信されました!';
 $string['messagenotsent'] = 'メッセージの送信に失敗しました。';
 $string['newusermessage'] = '%s からの新しいメッセージ';
-$string['newusermessageemailbody'] = '%s があなたにメッセージを送信しました。メッセージを閲覧するには%s にアクセスしてください。';
+$string['newusermessageemailbody'] = '%s があなたにメッセージを送信しました。メッセージを閲覧するには %s にアクセスしてください。';
 $string['sendmessageto'] = '%s にメッセージを送信する';
 $string['viewmessage'] = 'メッセージを表示する';
 $string['Reply'] = '返信';
