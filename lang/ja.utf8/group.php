@@ -148,7 +148,7 @@ $string['grouprequestmessagereason'] = '%s があなたのグループ「 %s 」
 
 %s';
 $string['cantdeletegroup'] = 'あなたはこのグループを削除できません。';
-$string['groupconfirmdelete'] = 'この処理により、グループに含まれているすべてのページ、ファイルおよびフォーラムも削除されます。本当にこのグループおよびコンテンツすべてを削除してもよろしいですか?';
+$string['groupconfirmdelete'] = 'この処理により、グループに含まれているすべてのページ、ファイルおよびフォーラムも削除されます。本当にこのグループおよびコンテンツすべてを完全に削除してもよろしいですか?';
 $string['deletegroup'] = 'グループが正常に削除されました。';
 $string['deletegroup1'] = 'グループを削除する';
 $string['allmygroups'] = 'すべてのマイグループ';
@@ -225,7 +225,7 @@ $string['friendrequestrejectedmessagereason'] = '%s があなたのフレンド�
 拒否理由は:';
 $string['allfriends'] = 'すべてのフレンド';
 $string['currentfriends'] = '現在のフレンド';
-$string['pendingfriends'] = '保留中フレンド';
+$string['pendingfriends'] = '保留中のフレンド';
 $string['backtofriendslist'] = 'フレンドリストに戻る';
 $string['findnewfriends'] = '新しいフレンドを探す';
 $string['Views'] = 'ページ';
@@ -257,7 +257,7 @@ $string['sendmessage'] = 'メッセージを送信する';
 $string['messagesent'] = 'メッセージが送信されました!';
 $string['messagenotsent'] = 'メッセージの送信に失敗しました。';
 $string['newusermessage'] = '%s からの新しいメッセージ';
-$string['newusermessageemailbody'] = '%s があなたにメッセージを送信しました。メッセージを閲覧するには%s にアクセスしてください。';
+$string['newusermessageemailbody'] = '%s があなたにメッセージを送信しました。メッセージを閲覧するには %s にアクセスしてください。';
 $string['sendmessageto'] = '%s にメッセージを送信する';
 $string['viewmessage'] = 'メッセージを表示する';
 $string['Reply'] = '返信';
@@ -297,7 +297,7 @@ $string['About'] = 'About';
 $string['aboutgroup'] = '%s について';
 $string['Joined'] = '登録';
 $string['membersdescription:invite'] = 'これは「招待のみ」グループです。あなたはユーザをユーザプロファイルページより招待、または<a href="%s">一度に複数の招待状を送信することができます</a>。';
-$string['membersdescription:controlled'] = 'これは「管理メンバーシップ」グループです。あなたはユーザをユーザプロファイルページより追加、または<a href="%s">一度に多くのユーザを追加することができます</a>。';
+$string['membersdescription:controlled'] = 'これは「管理メンバーシップ」グループです。あなたはユーザをユーザプロファイルページより追加または<a href="%s">一度に多くのユーザを追加することができます</a>。';
 $string['submit'] = '送信';
 $string['allowssubmissions'] = '送信を許可する';
 
