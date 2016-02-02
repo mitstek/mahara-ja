@@ -169,7 +169,7 @@ $string['friendrequestrejectedmessagereason'] = '%s があなたのフレンド�
 拒否理由は:';
 $string['allfriends'] = 'すべてのフレンド';
 $string['currentfriends'] = '現在のフレンド';
-$string['pendingfriends'] = '保留中フレンド';
+$string['pendingfriends'] = '保留中のフレンド';
 $string['backtofriendslist'] = 'フレンドリストに戻る';
 $string['findnewfriends'] = '新しいフレンドを探す';
 $string['Views'] = 'ビュー';
