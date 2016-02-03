@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-10-28 04:58:01 UTC
+ * @updated    2016-02-03 06:02:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -42,7 +42,7 @@ $string['existingitem'] = '既存のアイテム';
 $string['howtoimport'] = 'インポート方法';
 $string['ignore'] = '無視する';
 $string['replace'] = '置換する';
-$string['addnew'] = '新しく作成する';
+$string['addnew'] = '新しく追加する';
 $string['append'] = '追加する';
 $string['importfolder'] = 'フォルダをインポートする %s';
 $string['importresult'] = 'インポート結果';
