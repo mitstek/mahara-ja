@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-05-27 20:18:04 UTC
+ * @updated    2016-02-10 04:04:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -30,14 +30,14 @@ $string['homedefaultcontent'] = '<h1>Maharaにようこそ</h1>
 
 <p>Maharaに関する詳細は<a href="about.php">About</a> [このページを忘れずに編集してください] をお読みください。また、私たちに<a href="contact.php">お気軽にお問い合わせください</a>。</p>
 
-<p>あなたはこのテキストを「サイト管理 > サイト設定 > サイトページを編集する」で編集することができます。</p>';
+<p>あなたはこのテキストを %s で編集することができます。</p>';
 $string['loggedouthomedefaultcontent'] = '<h1>Maharaにようこそ</h1>
 
 <p>[<b>あなたの組織名</b>]はオンラインコミュニティを構築するための十分な機能を有するインターネット上のポートフォリオシステムです。</p>
 
 <p>Maharaに関する詳細は<a href="about.php">About</a> [このページを忘れずに編集してください] をお読みください。また、私たちに<a href="contact.php">お気軽にお問い合わせください</a>。</p>
 
-<p>あなたはこのテキストを「サイト管理 > サイト設定 > サイトページを編集する」で編集することができます。</p>';
+<p>あなたはこのテキストを %s で編集することができます。</p>';
 $string['privacydefaultcontent'] = '<h1>プライバシー保護方針</h1>
 
 <h2>イントロダクション</h2>
