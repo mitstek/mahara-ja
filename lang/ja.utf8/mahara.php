@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-02-28 15:46:33 UTC
+ * @updated    2016-03-02 16:33:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -571,6 +571,10 @@ $string['datepicker_millisecText'] = 'ミリ秒';
 $string['datepicker_timezoneText'] = 'タイムゾーン';
 $string['datepicker_amNames'] = '[AM, A]';
 $string['datepicker_pmNames'] = '[PM, P]';
+$string['timelapsestringhour'] = '%2$s 時間 %s 分前';
+$string['timelapsestringhours'] = '%2$s 時間 %s 分前';
+$string['timelapsestringminute'] = '%s 分前';
+$string['timelapsestringseconds'] = '%s 秒前';
 $string['sitecontentnotfound'] = '%s テキストは利用できません。';
 $string['name'] = '名称';
 $string['email'] = 'Eメール';
