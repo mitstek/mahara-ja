@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-03-02 16:33:32 UTC
+ * @updated    2016-03-03 13:22:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -774,6 +774,7 @@ $string['country.bj'] = 'ベナン共和国';
 $string['country.bm'] = 'バーミューダ諸島';
 $string['country.bt'] = 'ブータン王国';
 $string['country.bo'] = 'ボリビア共和国';
+$string['country.bq'] = 'ボネール島';
 $string['country.ba'] = 'ボスニア・ヘルツェゴビナ共和国';
 $string['country.bw'] = 'ボツワナ共和国';
 $string['country.bv'] = 'ブーベ島';
@@ -803,6 +804,7 @@ $string['country.cr'] = 'コスタリカ共和国';
 $string['country.ci'] = 'コートジボワール共和国';
 $string['country.hr'] = 'クロアチア共和国';
 $string['country.cu'] = 'キューバ共和国';
+$string['country.cw'] = 'キュラソー島';
 $string['country.cy'] = 'キプロス共和国';
 $string['country.cz'] = 'チェコ共和国';
 $string['country.dk'] = 'デンマーク王国';
@@ -901,7 +903,6 @@ $string['country.na'] = 'ナミビア共和国';
 $string['country.nr'] = 'ナウル共和国';
 $string['country.np'] = 'ネパール王国';
 $string['country.nl'] = 'オランダ王国';
-$string['country.an'] = 'オランダ領アンチル';
 $string['country.nc'] = 'ニューカレドニア';
 $string['country.nz'] = 'ニュージーランド';
 $string['country.ni'] = 'ニカラグア共和国';
@@ -929,9 +930,11 @@ $string['country.re'] = 'レユニオン';
 $string['country.ro'] = 'ルーマニア';
 $string['country.ru'] = 'ロシア連邦';
 $string['country.rw'] = 'ルワンダ共和国';
+$string['country.bl'] = 'セントバーツ島';
 $string['country.sh'] = 'セントヘレナ島';
 $string['country.kn'] = 'セントクリストファー・ネイビス';
 $string['country.lc'] = 'セントルシア';
+$string['country.mf'] = 'サンマルタン島 (フランス語)';
 $string['country.pm'] = 'サンピェール島・ミクロン島';
 $string['country.vc'] = 'セントビンセントおよびグレナディーン諸島';
 $string['country.ws'] = '西サモア';
@@ -943,12 +946,14 @@ $string['country.cs'] = 'セルビア・モンテネグロ';
 $string['country.sc'] = 'セイシェル共和国';
 $string['country.sl'] = 'シエラレオネ共和国';
 $string['country.sg'] = 'シンガポール共和国';
+$string['country.sx'] = 'シント・マールテン島 (オランダ語)';
 $string['country.sk'] = 'スロバキア共和国';
 $string['country.si'] = 'スロベニア共和国';
 $string['country.sb'] = 'ソロモン諸島';
 $string['country.so'] = 'ソマリア民主共和国';
 $string['country.za'] = '南アフリカ共和国';
 $string['country.gs'] = 'サウスジョージア・サウスサンドウィッチ諸島';
+$string['country.ss'] = '南スーダン';
 $string['country.es'] = 'スペイン';
 $string['country.lk'] = 'スリランカ民主社会主義共和国';
 $string['country.sd'] = 'スーダン共和国';
