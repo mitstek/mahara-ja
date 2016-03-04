@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-03-03 13:22:25 UTC
+ * @updated    2016-03-04 14:14:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -873,7 +873,7 @@ $string['country.lv'] = 'ラトビア共和国';
 $string['country.lb'] = 'レバノン共和国';
 $string['country.ls'] = 'レソト王国';
 $string['country.lr'] = 'リベリア共和国';
-$string['country.ly'] = '社会主義人民リビア・アラブ国';
+$string['country.ly'] = 'リビア';
 $string['country.li'] = 'リヒテンシュタイン公国';
 $string['country.lt'] = 'リトアニア共和国';
 $string['country.lu'] = 'ルクセンブルク大公国';
@@ -934,7 +934,7 @@ $string['country.bl'] = 'セントバーツ島';
 $string['country.sh'] = 'セントヘレナ島';
 $string['country.kn'] = 'セントクリストファー・ネイビス';
 $string['country.lc'] = 'セントルシア';
-$string['country.mf'] = 'サンマルタン島 (フランス語)';
+$string['country.mf'] = 'サンマルタン島 (フランス領)';
 $string['country.pm'] = 'サンピェール島・ミクロン島';
 $string['country.vc'] = 'セントビンセントおよびグレナディーン諸島';
 $string['country.ws'] = '西サモア';
@@ -942,11 +942,11 @@ $string['country.sm'] = 'サンマリノ共和国';
 $string['country.st'] = 'サントメ・プリンシペ民主共和国';
 $string['country.sa'] = 'サウジアラビア王国';
 $string['country.sn'] = 'セネガル共和国';
-$string['country.cs'] = 'セルビア・モンテネグロ';
+$string['country.cs'] = 'セルビア';
 $string['country.sc'] = 'セイシェル共和国';
 $string['country.sl'] = 'シエラレオネ共和国';
 $string['country.sg'] = 'シンガポール共和国';
-$string['country.sx'] = 'シント・マールテン島 (オランダ語)';
+$string['country.sx'] = 'シント・マールテン島 (オランダ領)';
 $string['country.sk'] = 'スロバキア共和国';
 $string['country.si'] = 'スロベニア共和国';
 $string['country.sb'] = 'ソロモン諸島';
