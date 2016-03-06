@@ -1,0 +1,29 @@
+./artefact/resume/lang/ja.utf8/help/sections/addeducationhistory.html:<p>新しく保存されたエントリはあなたのレジュメに表形式で表示されます。<span style="text-decoration:underline">編集</span>ボタンをクリックすることであなたのエントリを変更することができます。あなたの変更を保存するため、忘れずに「保存」ボタンをクリックしてください。エントリを削除するには<span style="text-decoration:underline">削除</span>ボタンをクリックしてください。</p>
+./artefact/resume/lang/ja.utf8/help/sections/addbook.html:<p>新しく保存されたエントリはあなたのレジュメに表形式で表示されます。<span style="text-decoration:underline">編集</span>ボタンをクリックすることであなたのエントリを変更することができます。あなたの変更を保存するため、忘れずに「保存」ボタンをクリックしてください。エントリを削除するには<span style="text-decoration:underline">削除</span>ボタンをクリックしてください。</p>
+./artefact/resume/lang/ja.utf8/help/sections/addmembership.html:<p>新しく保存されたエントリはあなたのレジュメに表形式で表示されます。<span style="text-decoration:underline">編集</span>ボタンをクリックすることであなたのエントリを変更することができます。あなたの変更を保存するため、忘れずに「保存」ボタンをクリックしてください。エントリを削除するには<span style="text-decoration:underline">削除</span>ボタンをクリックしてください。</p>
+./artefact/resume/lang/ja.utf8/help/sections/addemploymenthistory.html:<p>新しく保存されたエントリはあなたのレジュメに表形式で表示されます。<span style="text-decoration:underline">編集</span>ボタンをクリックすることであなたのエントリを変更することができます。あなたの変更を保存するため、忘れずに「保存」ボタンをクリックしてください。エントリを削除するには<span style="text-decoration:underline">削除</span>ボタンをクリックしてください。</p>
+./artefact/resume/lang/ja.utf8/help/sections/addcertification.html:<p>新しく保存されたエントリはあなたのレジュメに表形式で表示されます。<span style="text-decoration:underline">編集</span>ボタンをクリックすることであなたのエントリを変更することができます。あなたの変更を保存するため、忘れずに「保存」ボタンをクリックしてください。エントリを削除するには<span style="text-decoration:underline">削除</span>ボタンをクリックしてください。</p>
+./lang/ja.utf8/help/forms/uploadcsv.addremovecolumns.html:    <span class="btn btn-primary btn-xs text-left" title="カラムを追加する">
+./lang/ja.utf8/help/forms/uploadcsv.addremovecolumns.html:        <span class="mrs icon-long-arrow-down icon-rotate-45 icon icon-sm"></span>
+./lang/ja.utf8/help/forms/uploadcsv.addremovecolumns.html:        <span class="icon-plus icon icon-sm"></span>
+./lang/ja.utf8/help/forms/uploadcsv.addremovecolumns.html:    </span>および
+./lang/ja.utf8/help/forms/uploadcsv.addremovecolumns.html:    <span title="このカラムを削除する" class="text-center btn btn-primary btn-xs">
+./lang/ja.utf8/help/forms/uploadcsv.addremovecolumns.html:        <span class="icon-times-circle icon icon-sm"></span>
+./lang/ja.utf8/help/forms/uploadcsv.addremovecolumns.html:    </span>
+./lang/ja.utf8/help/forms/adduser.addremovecolumns.html:    <span class="btn btn-primary btn-xs text-left" title="カラムを追加する">
+./lang/ja.utf8/help/forms/adduser.addremovecolumns.html:        <span class="mrs icon-long-arrow-down icon-rotate-45 icon icon-sm"></span>
+./lang/ja.utf8/help/forms/adduser.addremovecolumns.html:        <span class="icon-plus icon icon-sm"></span>
+./lang/ja.utf8/help/forms/adduser.addremovecolumns.html:    </span>および
+./lang/ja.utf8/help/forms/adduser.addremovecolumns.html:    <span title="このカラムを削除する" class="text-center btn btn-primary btn-xs">
+./lang/ja.utf8/help/forms/adduser.addremovecolumns.html:        <span class="icon-times-circle icon icon-sm"></span>
+./lang/ja.utf8/help/forms/adduser.addremovecolumns.html:    </span>
+./lang/ja.utf8/help/forms/accountprefs.addremovecolumns.html:    <span class="btn btn-primary btn-xs text-left" title="カラムを追加する">
+./lang/ja.utf8/help/forms/accountprefs.addremovecolumns.html:        <span class="mrs icon-long-arrow-down icon-rotate-45 icon icon-sm"></span>
+./lang/ja.utf8/help/forms/accountprefs.addremovecolumns.html:        <span class="icon-plus icon icon-sm"></span>
+./lang/ja.utf8/help/forms/accountprefs.addremovecolumns.html:    </span>および
+./lang/ja.utf8/help/forms/accountprefs.addremovecolumns.html:    <span title="このカラムを削除する" class="text-center btn btn-primary btn-xs">
+./lang/ja.utf8/help/forms/accountprefs.addremovecolumns.html:        <span class="icon-times-circle icon icon-sm"></span>
+./lang/ja.utf8/help/forms/accountprefs.addremovecolumns.html:    </span>
+./lang/ja.utf8/mahara.php:$string['quotausage'] = 'あなたの利用クオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span> です。';
+./lang/ja.utf8/mahara.php:$string['quotausagegroup'] = 'このグループの利用クオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span> です。';
+./lang/ja.utf8/mahara.php:$string['notinstalledplugins'] = '<span class="error">未インストールプラグイン</span>';
