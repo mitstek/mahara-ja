@@ -140,7 +140,7 @@ $string['tagdeletedsuccessfully'] = 'タグが正常に削除されました。'
 $string['selfsearch'] = 'マイポートフォリオを検索する';
 $string['resultsperpage'] = '1ページあたりの表示ユーザ数';
 $string['quota'] = 'クオータ';
-$string['quotausage'] = 'あなたの利用クオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span> です。';
+$string['quotausage'] = 'あなたの利用クオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
 $string['groupquota'] = 'グループクオータ';
 $string['updatefailed'] = 'アップデートに失敗しました。';
 $string['invitedgroup'] = 'グループ招待';
