@@ -182,7 +182,7 @@ $string['lastminutes'] = '直近の %s 分間';
 $string['allonline'] = 'すべてのオンラインユーザを表示する';
 $string['noonlineusersfound'] = 'オンラインユーザはいません。';
 $string['linksandresources'] = 'リンクおよびリソース';
-$string['accesstotallydenied_institutionsuspended'] = 'あなたのインスティテューション %s は現在利用停止されています。利用再開されるまで、 %s にログインすることはできません。詳細はあなたのインスティテューションにご連絡ください。';
+$string['accesstotallydenied_institutionsuspended'] = 'あなたのインスティテューション %s は現在利用停止されています。利用再開されるまで %s にログインすることはできません。詳細はあなたのインスティテューションにご連絡ください。';
 $string['accessforbiddentoadminsection'] = 'あなたは管理セクションへのアクセスを禁止されています。';
 $string['accountdeleted'] = '申し訳ございません、あなたのアカウントは削除されました。<a href="%scontact.php">サイト管理者にご連絡ください</a>。';
 $string['accountexpired'] = '申し訳ございません、あなたのアカウントの有効期限が切れました。あなたのアカウントを再度有効にするには<a href="%scontact.php">サイト管理者にご連絡ください</a>。';
