@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-01-06 04:30:34 UTC
+ * @updated    2016-03-10 07:40:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -716,6 +716,7 @@ $string['clamnotset'] = 'あなたはウイルスチェックを有効にしま�
 $string['clamfailed'] = 'Clam AVの動作にエラーが発生しました。エラーメッセージは%s です。Clam AVのアウトプットは次のとおりです:';
 $string['clamunknownerror'] = 'clamに不明なエラーが発生しました。';
 $string['image'] = 'イメージ';
+$string['imageformattingoptions'] = 'イメージフォーマットオプション';
 $string['filenotimage'] = 'あなたがアップロードしたファイルは有効なイメージではありません。PNG、JPEGまたはGIFファイルをアップロードしてください。';
 $string['uploadedfiletoobig'] = 'ファイルが大き過ぎます。詳細はあなたの管理者にお尋ねください。';
 $string['notphpuploadedfile'] = 'アップロード処理中にファイルを喪失しました。これは通常起きることではありません。詳細はあなたの管理者にご連絡ください。';
