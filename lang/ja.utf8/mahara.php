@@ -136,7 +136,7 @@ $string['accountcreatedtext'] = '%s さん
 ユーザ名: %s
 パスワード: %s
 
-利用開始するには%s にアクセスしてください!
+利用開始するには %s にアクセスしてください!
 
 %s サイト管理者';
 $string['accountcreatedchangepasswordtext'] = '%s さん
@@ -148,7 +148,7 @@ $string['accountcreatedchangepasswordtext'] = '%s さん
 
 初回ログイン時、あなたはパスワードの変更を求められます。
 
-利用開始するには%s にアクセスしてください!
+利用開始するには %s にアクセスしてください!
 
 %s サイト管理者';
 $string['accountcreatedhtml'] = '<p>%s さん</p>
