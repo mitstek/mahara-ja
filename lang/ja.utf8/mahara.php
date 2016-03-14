@@ -327,7 +327,7 @@ $string['accountinactive'] = '申し訳ございません、あなたのアカ�
 $string['accountinactivewarning'] = 'アカウント無効通知';
 $string['accountinactivewarningtext'] = '%s さん
 
-%s のあなたのアカウントは%s で無効になります。
+%s のあなたのアカウントは %s で無効になります。
 
 アカウントが無効になった場合、あなたのアカウントを管理者が再度有効にするまで、ログインすることはできません。
 
@@ -336,7 +336,7 @@ $string['accountinactivewarningtext'] = '%s さん
 %s サイト管理者';
 $string['accountinactivewarninghtml'] = '<p>%s さん</p>
 
-<p>%s のあなたのアカウントは%s で無効になります。</p>
+<p>%s のあなたのアカウントは %s で無効になります。</p>
 
 <p>アカウントが無効になった場合、あなたのアカウントを管理者が再度有効にするまで、ログインすることはできません。</p>
 
