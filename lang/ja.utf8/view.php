@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-11-16 04:30:55 UTC
+ * @updated    2016-03-16 04:27:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -36,7 +36,7 @@ $string['startdatemustbebeforestopdate'] = '開始日は終了日の前に設定
 $string['newstopdatecannotbeinpast'] = '「 %s 」へのアクセス終了日には過去の日付を設定できません。';
 $string['newstartdatemustbebeforestopdate'] = '「 %s 」へのアクセス開始日は終了日の前に設定してください。';
 $string['unrecogniseddateformat'] = '不明なデータフォーマット';
-$string['allowcommentsonview'] = 'この設定を有効にした場合、ユーザがコメントを投稿することができます。';
+$string['allowcommentsonview1'] = 'ユーザがコメントを投稿できるようにします。';
 $string['ownerformat'] = '氏名表示フォーマット';
 $string['ownerformatdescription'] = '他のユーザがあなたのページを閲覧する場合、あなたの名前をどのように表示しますか?';
 $string['anonymise'] = '匿名化する';
@@ -318,16 +318,15 @@ $string['nothemeselected1'] = 'インスティテューションテーマを使�
 $string['Template'] = 'テンプレート';
 $string['allowcopying'] = 'コピーを許可する';
 $string['retainviewrights1'] = 'ページまたはコレクションのコピー時、ページアクセスを保持する';
-$string['templatedescriptionplural1'] = 'この設定を有効にした場合、あなたが選択したページまたはコレクションを閲覧できるユーザに対して、ファイルおよびフォルダを含めて自分のページとしてコピーできるようにします。';
-$string['retainviewrightsdescription1'] = 'このページまたはコレクションが他のユーザによりコピーされた後、あなたが選択したページまたはコレクションを閲覧できるようにしたい場合、このチェックボックスをチェックしてください。希望すれば、コピー後にユーザが閲覧アクセスを無効にすることができます。このページまたはコレクションのコピーからコピーされたページまたはコレクションは同じアクセスを保持することはありません。';
-$string['retainviewrightsgroupdescription1'] = '選択したページまたはコレクションが他のユーザによりコピーされた後、グループメンバーがこのページまたはコレクションを閲覧できるようにしたい場合、このチェックボックスをチェックしてください。希望すれば、コピー後にユーザが閲覧アクセスを無効にすることができます。このページまたはコレクションのコピーからコピーされたページまたはコレクションは同じアクセスを保持することはありません。';
+$string['templatedescriptionplural2'] = 'あなたが選択したページまたはコレクションを閲覧できるユーザに対して、ファイルおよびフォルダを含めて自分のページとしてコピーできるようにします。';
+$string['retainviewrightsdescription2'] = '他のユーザによりコピーされたページまたはコレクションに対して、あなたが選択したページまたはコレクションにアクセスできるようにします。希望すれば、コピー後にユーザが閲覧アクセスを無効にすることができます。このページまたはコレクションのコピーからコピーされたページまたはコレクションは同じアクセスを保持することはありません。';
+$string['retainviewrightsgroupdescription2'] = '他のユーザによりコピーされたページまたはコレクションに対して、このグループのメンバーが選択したページまたはコレクションにアクセスできるようにします。希望すれば、コピー後にユーザが閲覧アクセスを無効にすることができます。このページまたはコレクションのコピーからコピーされたページまたはコレクションは同じアクセスを保持することはありません。';
 $string['choosetemplatepageandcollectiondescription'] = '<p>ここでは新しいページ作成の出発点として、あなたがコピーを許可されているページを検索することができます。ページの名称をクリックすることにより、あなたはそれぞれのページのプレビューを表示することができます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため、該当する「ページをコピーする」ボタンをクリックして、コピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックすることにより、ページが属しているコレクション全体コピーすることができます。</p>';
 $string['choosetemplategrouppageandcollectiondescription'] = '<p>ここでは新しいページ作成の出発点として、このグループがコピーを許可されているページを検索することができます。ページの名称をクリックすることにより、あなたはそれぞれのページのプレビューを表示することができます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため、該当する「ページをコピーする」ボタンをクリックして、コピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックすることにより、ページが属しているコレクション全体コピーすることができます。</p><p><strong>注意:</strong> 現在、日誌、日誌エントリ、プランおよびレジュメ情報をグループでコピーすることはできません。</p>';
 $string['choosetemplateinstitutionpageandcollectiondescription'] = '<p>ここでは新しいページ作成の出発点として、このインスティテューションがコピーを許可されているページを検索することができます。ページの名称をクリックすることにより、あなたはそれぞれのページのプレビューを表示することができます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため、該当する「ページをコピーする」ボタンをクリックして、コピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックすることにより、ページが属しているコレクション全体コピーすることができます。</p><p><strong>注意:</strong> 現在、日誌、日誌エントリ、プランおよびレジュメ情報をインスティテューションでコピーすることはができません。</p>';
 $string['choosetemplatesitepageandcollectiondescription1'] = '<p>ここでは新しいページ作成の出発点として、サイトレベルでコピー可能なページを検索することができます。ページの名称をクリックすることにより、あなたはそれぞれのページのプレビューを
 表示することができます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため、該当する「ページをコピーする」ボタンをクリックして、コピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックすることにより、ページが属しているコレクション全体コピーすることができます。</p><p><strong>注意:</strong> 現在、日誌、日誌エントリ、プランおよびレジュメ情報をサイトレベルのページでコピーすることはできません。</p>';
 $string['copiedblocksandartefactsfromtemplate'] = '%d 個のブロックおよび %d 件のアーティファクトを %s からコピーしました。';
-$string['copiedblocksandartefactsfromdefaultview'] = 'ページテンプレートから　%d ブロックおよび %d アーティファクトをコピーしました。';
 $string['filescopiedfromviewtemplate'] = '%s からコピーされたファイル';
 $string['viewfilesdirname'] = 'ページファイル';
 $string['viewfilesdirdesc'] = 'コピーされたページのファイル';
@@ -342,9 +341,9 @@ $string['confirmcopytitle'] = 'コピーを確認する';
 $string['confirmcopydesc'] = 'あなたがコピーしたいものを選択してください:';
 $string['Untitled'] = 'タイトルなし';
 $string['copyfornewusers'] = '新しいユーザにコピーする';
-$string['copyfornewusersdescription1'] = '新しいユーザが作成された場合、選択したページまたはコレクションをユーザポートフォリオ内にパーソナルコピーとして自動作成します。';
+$string['copyfornewusersdescription2'] = '新しいユーザが作成された場合、選択したページまたはコレクションをユーザポートフォリオ内にパーソナルコピーとして自動作成します。これらのユーザに選択したページまたはコレクションを後で同様にコピーできるようにしたい場合、コピーを許可してください。';
 $string['copyfornewmembers'] = '新しいインスティテューションメンバーにコピーする';
-$string['copyfornewmembersdescription1'] = '%s のすべての新しいメンバーに対して、選択したページまたはコレクションのパーソナルコピーを自動作成します。';
+$string['copyfornewmembersdescription2'] = '%s のすべての新しいメンバーに対して、選択したページまたはコレクションのパーソナルコピーを自動作成します。これらのユーザに選択したページまたはコレクションを後で同様にコピーできるようにしたい場合、コピーを許可してください。';
 $string['copyfornewgroups'] = '新しいグループにコピーする';
 $string['copyfornewgroupsdescription1'] = '以下のグループタイプの新しいグループすべてに対して、選択したページまたはコレクションをコピーします:';
 $string['owner'] = 'オーナー';
