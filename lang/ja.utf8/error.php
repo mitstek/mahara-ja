@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-01-19 02:38:59 UTC
+ * @updated    2016-03-22 13:24:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -81,6 +81,7 @@ $string['notfoundexception'] = 'あなたが探しているページは見つか
 $string['accessdenied'] = 'アクセスが拒否されました。';
 $string['accessdeniedobjection'] = 'アクセスが拒否されました。問題点はすでに別の管理者により解決されています。';
 $string['accessdeniedexception'] = 'あなたにはこのページを閲覧するアクセス権がありません。';
+$string['accessdeniednourlsecret'] = 'あなたにはこの機能に対するアクセス権がありません。あなたのconfig.phpファイルからURLの一部として「urlsecret」の値を提供してください。';
 $string['viewnotfoundexceptiontitle'] = 'ページが見つかりませんでした。';
 $string['viewnotfoundexceptionmessage'] = 'あなたは存在しないページにアクセスを試みました。';
 $string['viewnotfound'] = 'ID %s のページは見つかりませんでした。';
@@ -118,6 +119,7 @@ $string['gdlibrarylacksjpegsupport'] = 'インストール済みPHP GDライブ�
 $string['gdlibrarylackspngsupport'] = 'インストール済みPHP GDライブラリはPNGイメージの作成および読み込みをサポートしていません。PNGイメージのアップロードにはフルサポートが必要です。';
 $string['nopasswordsaltset'] = 'サイト全体のパスワードsaltが設定されていません。あなたのconfig.phpを編集して、「passwordsaltmain」パラメータに妥当なシークレットフレーズを設定してください。';
 $string['passwordsaltweak'] = 'あなたのサイト全体のパスワードsaltの強さが十分ではありません。あなたのconfig.phpを編集して、さらに長いシークレットフレーズを「passwordsaltmain」パラメータに設定してください。';
+$string['urlsecretweak'] = 'このサイトに設定されている$cfg->urlsecretがデフォルト値から変更されていません。あなたのconfig.phpを編集して$cgf->urlsecretパラメータに異なるストリングを設定してください (urlsecretを使用したくない場合、nullを設定してください)。';
 $string['notproductionsite'] = 'このサイトは実運用モードに入っていません。いくつかのデータは利用できないか、古い可能性があります。';
 
 ?>
