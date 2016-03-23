@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-02-02 16:40:43 UTC
+ * @updated    2016-03-23 02:13:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -42,100 +42,12 @@ $string['readdirectiveSK'] = '命令2009/136/ECを読む (スロバキア語)';
 $string['readdirectiveSL'] = '命令2009/136/ECを読む (スロベニア語)';
 $string['readdirectiveSV'] = '命令2009/136/ECを読む (スウェーデン語)';
 $string['cookieconsentintro4'] = '要するにコンピュータ、モバイルフォンまたは他のデバイスから情報を保存または検索する前にユーザが同意する必要があることを意味します。この目的はエンドユーザのプライバシーを増すこと、そして国民が知ることなしに組織が情報を取得することを防ぐことにあります。';
-$string['cookieconsentintro51'] = '最初に下記の%sSilktideによるクッキーコンセントプラグイン%sを有効にして必要なオプションを設定した後、あなたの変更を保存してください。あなたはクッキーコントロールを有効にするため、修正に関する詳細インストラクション、またはあなたのテーマヘッダファイルまたは「$cfg->additionalhtmlhead」設定の更新方法に関して記載された別ページにリダイレクトされます。';
+$string['cookieconsentintro52'] = '以下で%sクッキーコンセント%sを有効にしてください。ユーザには画面下部にあなたのプライバシーページにリンクしたクッキーコンセントバナーが表示されます。あなたのクッキーの使用に関して、そこでユーザに情報提供していることを確認してください。';
 $string['cookieconsentenable'] = 'クッキーコンセントを有効にする';
-$string['cookieconsentenabled'] = 'クッキーコンセントが有効にされ、設定が保存されました。';
+$string['cookieconsentenabled'] = 'クッキーコンセントが有効にされました。';
 $string['cookieconsentdisabled'] = 'クッキーコンセントが無効にされました。';
-$string['cookieconsent2'] = '追加サイト修正';
-$string['additionalmodifications'] = 'クッキーコントロールを完全に有効にしたい場合、あなたのテーマヘッダファイルまたは<tt>$cfg->additionalhtmlhead</tt>設定を修正または更新する必要があります。';
-$string['instructiontext1'] = '%s クッキーを設定するJavaスクリプトを探します。例には %s を含むことができます。';
-$string['instructiontext2-1'] = 'タイプ属性が「application/javascript」から「text/plain」になるよう<tt>&lt;script&gt;</tt>タグを修正します。';
-$string['instructiontext3'] = '「 %s 」のクラスを<tt>&lt;script&gt;</tt>タグに追加する';
-$string['example1social'] = 'FacebookボタンおよびTwitterウィジェット';
-$string['example1analytics'] = 'Googleアナリティクス‎および統計カウンタ';
-$string['example1advertising'] = 'Googleアドセンスおよび他のターゲット広告プラグイン';
-$string['example1necessary'] = 'Googleアドセンスおよび他のターゲット広告プラグイン';
-$string['example'] = '例';
-$string['examplebefore'] = '変更前:';
-$string['exampleafter'] = '変更後 (変更は太字):';
-$string['itdidntwork'] = '動作しませんでした。';
-$string['itdidntwork1'] = '最初に「<b>%s</b>」を「<b>%s</b>」の代わりに使用してください。これにより、<tt>document.write()</tt>を使用するJavaスクリプトプラグインを調整します。';
-$string['itdidntwork2'] = 'これが手助けとならない場合、%sクッキーコンセントコード例ページをチェックするか%s、%sクッキーコンセントLinkedInグループ%sにご相談ください。';
-$string['generaloptions'] = '一般オプション';
-$string['cookietypes'] = 'クッキータイプ';
-$string['cookietypesdesc'] = 'あなたのサイトで使用しているクッキータイプを選択してください。';
-$string['cookietypessocial'] = 'ソーシャルメディア';
-$string['cookietypesanalytics'] = 'アナリティクス';
-$string['cookietypesadvertising'] = '広告';
-$string['cookietypesnecessary'] = '厳密に必要';
-$string['consentmode'] = 'コンセントモード';
-$string['consentmodedesc1'] = 'ブラウザの「行動追跡拒否 (do not track)」設定が有効にされている場合、(下記「機能オプション」でオーバーライドされない限り」) クッキーコンセントは常に明示モードを使用します。';
-$string['consentmodedesc2'] = '最新バージョンのInternet Explorerでは「行動追跡拒否 (do not track)」設定がデフォルトで有効にされています。';
-$string['consentmodeexplicit'] = '明示 - ビジターが承諾するまでクッキーを設定しません。';
-$string['consentmodeimplicit'] = '暗黙 - クッキーを設定して、ビジターによる使用停止を許可します。';
-$string['stylingoptions'] = 'スタイリングオプション';
-$string['pluginstyle'] = 'スタイル';
-$string['pluginstyledesc'] = 'クッキーコンセントの概観を変更します。';
-$string['pluginstyledark'] = 'ダーク';
-$string['pluginstylelight'] = 'ライト';
-$string['bannerposition'] = 'バナーポジション';
-$string['bannerpositiondesc'] = '画面最上部または最下部のどちらにコンセントバナーを表示するか選択してください。';
-$string['bannerpositiontop'] = '最上部';
-$string['bannerpositionpush'] = '最上部からプッシュする (実験用)';
-$string['bannerpositionbottom'] = '最下部';
-$string['tabposition'] = 'タブポジション';
-$string['tabpositiondesc'] = 'プライバシー設定タブが表示される場所を選択してください。';
-$string['tabpositionbottomright'] = '右最下部';
-$string['tabpositionbottomleft'] = '左最下部';
-$string['tabpositionverticalleft'] = '左側';
-$string['tabpositionverticalright'] = '右側';
-$string['hideprivacytab'] = 'プライバシー設定タブを隠す';
-$string['hideprivacytabdesc1'] = 'あなた独自のプライバシー設定リンクをインラインで使用したい場合 (例 あなたのテンプレート内)、この標準プライバシー設定タブを無効にしてください。';
-$string['featureoptions'] = '機能オプション';
-$string['pagerefresh'] = 'ページリフレッシュ';
-$string['pagerefreshdesc1'] = 'あなたがクッキーの同意を意識しているサーバサイドのアプリケーションを使用している場合、この設定を有効にすることにより、同意された後にページがリロードされます。';
-$string['ignoredonottrack'] = '行動追跡拒否 (do not track) を無視する';
-$string['ignoredonottrackdesc1'] = 'この設定を有効にすることにより、クッキーコンセントは訪問者のブラウザの「行動追跡拒否 (do not track)」ヘッダを無視します。';
-$string['usessl'] = 'SSLを使用する';
-$string['usessldesc1'] = 'クッキーコンセントのページのいずれかがSSL上に表示される場合、あなたはこの設定を有効にする必要があります。';
-$string['advertisingDefaultTitle'] = '広告';
-$string['socialDefaultTitle'] = 'ソーシャルメディア';
-$string['socialDefaultDescription'] = 'Facebook、Twitterおよび他のソーシャルウェブサイトが適切に動作するためにはあなたが誰であるか知る必要があります。';
-$string['analyticsDefaultTitle'] = 'アナリティクス';
-$string['analyticsDefaultDescription'] = 'あなたの経験を改善するため、このウェブサイトサイトの利用に関して匿名で記録します。';
-$string['advertisingDefaultDescription'] = '過去の行動および興味に基づき、あなたに広告が自動的に選択されます。';
-$string['necessaryDefaultTitle'] = '厳密に必要';
-$string['necessaryDefaultDescription'] = 'このウェブサイトのいくつかのクッキーは厳密に必要であるため、無効にすることができません。';
-$string['defaultTitle'] = 'デフォルトクッキータイトル';
-$string['defaultDescription'] = 'デフォルトクッキー説明';
-$string['learnMore'] = '詳細情報';
-$string['closeWindow'] = 'ウィンドウを閉じる';
-$string['notificationTitle'] = 'このサイトにおけるあなたの経験は次のクッキーにより改善されます';
-$string['notificationTitleImplicit'] = 'あなたが私たちのウェブサイトで最良の経験を得ることを保証するため、私たちはクッキーを使用します。';
-$string['customCookie'] = 'このウェブサイトでは特定の承認が必要なカスタムタイプのクッキーを使用しています。';
-$string['seeDetails'] = '詳細を表示する';
-$string['seeDetailsImplicit'] = 'あなたの設定を変更する';
-$string['hideDetails'] = '詳細を隠す';
-$string['allowCookies'] = 'クッキーを許可する';
-$string['allowCookiesImplicit'] = '閉じる';
-$string['allowForAllSites'] = 'すべてのサイトに許可する';
-$string['savePreference'] = 'プリファレンスを保存する';
-$string['saveForAllSites'] = 'すべてのサイトに保存する';
-$string['privacySettings'] = 'プライバシー設定';
-$string['privacySettingsDialogTitleA'] = 'プライバシー設定';
-$string['privacySettingsDialogTitleB'] = '(このウェブサイトに対して)';
-$string['privacySettingsDialogSubtitle'] = 'あなたが誰であるか記憶するため、このサイトのいくつかの機能ではあなたの同意を必要とします。';
-$string['changeForAllSitesLink'] = 'すべてのウェブサイトの設定を変更する';
-$string['preferenceUseGlobal'] = 'グローバル設定を使用する';
-$string['preferenceConsent'] = '同意します';
-$string['preferenceDecline'] = '同意しません';
-$string['notUsingCookies'] = 'このウェブサイトはクッキーを使用しません。';
-$string['allSitesSettingsDialogTitleA'] = 'プライバシー設定';
-$string['allSitesSettingsDialogTitleB'] = '(すべてのウェブサイトに対して)';
-$string['allSitesSettingsDialogSubtitle'] = 'あなたはこのプラグインを使用するすべてのウェブサイトに対して、これらのクッキーに同意することができます。';
-$string['backToSiteSettings'] = 'ウェブサイト設定に戻る';
-$string['preferenceAsk'] = '私に毎回尋ねる';
-$string['preferenceAlways'] = '常に許可する';
-$string['preferenceNever'] = '許可しない';
+$string['cookieconsentmessage'] = 'あなたが私たちのウェブサイトで最良の経験を得るため、このウェブサイトではクッキーを使用しています。';
+$string['cookieconsentdismiss'] = '了解!';
+$string['cookieconsentlearnmore'] = '詳細';
 
 ?>
