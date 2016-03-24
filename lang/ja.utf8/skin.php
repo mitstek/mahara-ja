@@ -146,7 +146,7 @@ CSS @font-faceルールによってウェブページに埋め込むことので
 <br />TrueTypeフォント、Embedded OpenTypeフォント、Web Open Font FormatフォントおよびScalable Vector Graphicフォント。
 </p>
 <p>
-あなたは<a href="http://www.fontsquirrel.com/fontface/generator/" target="_blank">FontSquirrel Online Generator</a>を変換に使用することができます。
+あなたは<a href="http://www.fontsquirrel.com/fontface/generator/">FontSquirrel Online Generator</a>を変換に使用することができます。
 </p>';
 $string['nofonts'] = 'フォントがありません。';
 $string['font'] = 'フォント';
@@ -178,7 +178,7 @@ $string['bolditalic'] = '太字イタリック';
 $string['fonttype'] = 'フォントタイプ';
 $string['headingandtext'] = 'ヘッディングおよびテキスト';
 $string['headingonly'] = 'ヘッディングのみ';
-$string['fontuploadinstructions'] = '<br />必要なフォントファイルをアップロードするにはあなたは<a href="http://www.fontsquirrel.com/fontface/generator/" target="_blank">FontSquirrel Online Generator</a>によって生成されたZIPファイルを直接アップロードするか、
+$string['fontuploadinstructions'] = '<br />必要なフォントファイルをアップロードするにはあなたは<a href="http://www.fontsquirrel.com/fontface/generator/">FontSquirrel Online Generator</a>によって生成されたZIPファイルを直接アップロードするか、
 <br />EOT、SVG、TTF、WOFFおよびライセンスファイルを個別にアップロードすることができます。';
 $string['fontfiles'] = 'フォントファイル';
 $string['fontfilemissing'] = 'ZIPファイルに「 %s 」フォントファイルが含まれていません。';
@@ -235,7 +235,7 @@ $string['archivereadingerror'] = 'ZIP書庫の読み込み中にエラーが発�
 $string['gwfontadded'] = 'Googleフォントが正常にインストールされました。';
 $string['gwfontsnotavailable'] = '現在、Googleフォントは利用できません。';
 $string['gwfinstructions'] = '<ol>
-<li><a href="http://www.google.com/fonts/" target="_blank">Googleフォント</a>にアクセスしてください。</li>
+<li><a href="http://www.google.com/fonts/">Googleフォント</a>にアクセスしてください。</li>
 <li>あなたのコレクションに追加するフォントを選択してください。</li>
 <li>フォントをZIPファイルとしてコレクションにダウンロードしてください。</li>
 <li>このフォームにZIPファイルをアップロードしてください。</li>
