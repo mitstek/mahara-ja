@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['title'] = 'Google Apps';
 $string['description'] = 'Googleカレンダーおよびドキュメントを埋め込みます。';
 $string['appscodeorurl'] = 'コードまたはURLを埋め込む';
-$string['appscodeorurldesc'] = 'Googleコンテンツ埋め込みのインストラクションに関して<a target="_blank" href="http://manual.mahara.org/en/15.10/blocks/external.html#google-apps">ユーザマニュアル</a>をご覧ください。
+$string['appscodeorurldesc'] = 'Googleコンテンツ埋め込みのインストラクションに関して<a href="http://manual.mahara.org/en/15.10/blocks/external.html#google-apps">ユーザマニュアル</a>をご覧ください。
 <br />
 Google Appsを外部から閲覧できるページの埋め込みコードまたはURLを貼り付けてください。';
 $string['height'] = '高さ';
