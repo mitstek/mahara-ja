@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-02-28 16:15:32 UTC
+ * @updated    2016-03-30 04:27:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -36,7 +36,7 @@ $string['voki'] = 'Voki';
 $string['voicethread'] = 'VoiceThread';
 $string['wikieducator'] = 'WikiEducator';
 $string['validembedservices'] = '次の埋め込みコンテンツの<strong>埋め込みサービス</strong>がサポートされます:';
-$string['embedservicesdescriptiondetail'] = 'サービスのAPIキーを入力することにより、以下のそれぞれの埋め込みサービスを有効にします。ユーザが埋め込みたいリソースのURLを外部メディア設定ブロックに入力するだけで埋め込みサービスは追加機能を<a href="%sadmin/extensions/iframesites.php">許可されるiframeソース</a>に提供します。そして、埋め込みサービスはページに表示できる写真またはビデオのような埋め込み可能なコンテンツを提供します。一般的にこれらの埋め込みサービスは埋め込み可能なコンテンツを提供する多種多様なプロバイダをサポートします。';
 $string['enableservices'] = 'なし、%s埋め込みサービスを有効にする%s';
+$string['embedly'] = 'Embedly';
 
 ?>
