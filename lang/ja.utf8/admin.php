@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-03-22 13:19:37 UTC
+ * @updated    2016-03-31 09:00:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -999,6 +999,7 @@ $string['userreportsdescription'] = 'あなたがユーザ検索ページで選�
 $string['notificationssaved'] = '通知設定が保存されました。';
 $string['onlyshowingfirst'] = '最初に表示';
 $string['resultsof'] = '検索結果';
+$string['deprecated'] = '- 廃止予定';
 $string['installed'] = 'インストール済み';
 $string['errors'] = 'エラー';
 $string['install'] = 'インストール';
