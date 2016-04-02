@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-09-11 15:20:21 UTC
+ * @updated    2016-04-02 20:28:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -219,6 +219,8 @@ $string['ods'] = 'OpenOffice / LibreOffice Spreadsheetファイル';
 $string['odt'] = 'OpenOffice / LibreOffice Writer ドキュメント';
 $string['oth'] = 'OpenOffice / LibreOfficeウェブドキュメント';
 $string['ott'] = 'OpenOffice / LibreOfficeテンプレートドキュメント';
+$string['oga'] = 'OGAオーディオファイル';
+$string['ogv'] = 'OGVビデオファイル';
 $string['pdf'] = 'PDFドキュメント';
 $string['png'] = 'PNGイメージ';
 $string['ppt'] = 'MS Powerpointドキュメント';
