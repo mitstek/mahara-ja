@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-03-06 14:52:15 UTC
+ * @updated    2016-04-02 19:59:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -130,8 +130,8 @@ $string['sendrequest'] = 'リクエストを送信する';
 $string['reason'] = '理由';
 $string['select'] = '選択';
 $string['tags'] = 'タグ';
-$string['tagsdesc'] = 'このアイテムに関してカンマで区切ったタグを入力してください。';
-$string['tagsdescprofile'] = 'このアイテムに関してカンマで区切ったタグを入力してください。「プロファイル」タグが付けられたアイテムはあなたのサイドバーに表示されます。';
+$string['tagsdesc'] = 'このアイテムに関してタグを検索または入力してください。';
+$string['tagsdescprofile'] = 'このアイテムに関してタグを検索または入力してください。「プロファイル」としてタグ付けられたアイテムはあなたのサイドバー内に表示されます。';
 $string['youhavenottaggedanythingyet'] = 'あなたはまたタグ付けしていません。';
 $string['mytags'] = 'マイタグ';
 $string['Tag'] = 'タグ';
