@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-03-16 04:07:57 UTC
+ * @updated    2016-04-02 21:01:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -31,7 +31,6 @@ $string['commentmadepublic'] = 'コメントがパブリックにされました
 $string['commentdeletedauthornotification'] = 'あなたの %s のコメントが削除されました:';
 $string['commentdeletednotificationsubject'] = '%s のコメントが削除されました。';
 $string['commentnotinview'] = 'コメント %d はページ %d にありません。';
-$string['commentratings'] = 'コメントレーティングを有効にする';
 $string['commentremoved'] = 'コメントが削除されました。';
 $string['commentremovedbyauthor'] = '投稿者によりコメントが削除されました。';
 $string['commentremovedbyowner'] = 'オーナーによりコメントが削除されました。';
@@ -109,5 +108,15 @@ $string['feedbackdeletedtext'] = '%s のコメントが削除されました。
 %s';
 $string['artefactdefaultpermissions'] = 'デフォルトのコメントパーミッション';
 $string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトでは作成時にコメントの投稿が有効にされます。ユーザはそれぞれのアーティファクトでこれらの設定をオーバーライドすることができます。';
+$string['commentratings'] = 'コメントレーティングを有効にする';
+$string['ratingicons'] = 'レーティングの表示に使用するアイコン';
+$string['ratinglength'] = 'レーティング選択数';
+$string['ratingcolour'] = '色';
+$string['ratingcolourdesc'] = 'レーティングの選択に表示する色です。選択されたレーティングは単色のアイコンで表示されます。未選択のレーティングはアイコンの輪郭が単色で表示されます。';
+$string['star'] = '星';
+$string['heart'] = 'ハート';
+$string['thumbsup'] = 'サムズアップ';
+$string['ok'] = 'チェックマーク';
+$string['ratingexample'] = '生成例';
 
 ?>
