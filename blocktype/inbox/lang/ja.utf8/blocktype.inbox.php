@@ -19,7 +19,7 @@ $string['messagetypes'] = '表示するメッセージタイプ';
 $string['maxitems'] = '表示するアイテムの最大数';
 $string['maxitemsdescription'] = '設定範囲: 1～100';
 $string['More'] = 'さらに';
-$string['nomessages'] = 'メッセージなし';
+$string['nomessages'] = 'メッセージはありません。';
 $string['defaulttitledescription'] = 'タイトルフィールドを空白にした場合、デフォルトタイトルが生成されます。';
 
 ?>
