@@ -380,7 +380,7 @@ $string['passwordhelp'] = 'あなたがシステムへのアクセスに使用�
 $string['passwordnotchanged'] = 'あなたはパスワードを変更していません。新しいパスワードを入力してください。';
 $string['passwordsaved'] = 'あなたの新しいパスワードが保存されました。';
 $string['passwordsdonotmatch'] = 'パスワードが合致しません。';
-$string['passwordtooeasy'] = 'あなたのパスワードは簡単すぎます! 難しいパスワードを入力してください。';
+$string['passwordtooeasy'] = 'あなたのパスワードは簡単すぎます。難しいパスワードを入力してください。';
 $string['register'] = '登録';
 $string['sessiontimedout'] = 'あなたのセッションはタイムアウトしました。続けるには再度ログインしてください。';
 $string['sessiontimedoutpublic'] = 'あなたのセッションはタイムアウトしました。閲覧を続けるには<a href="%s">ログイン</a>してください。';
