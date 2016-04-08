@@ -377,7 +377,7 @@ $string['sessiontimedout'] = 'あなたのセッションはタイムアウト�
 $string['sessiontimedoutpublic'] = 'あなたのセッションはタイムアウトしました。閲覧を続けるには<a href="%s">ログイン</a>してください。';
 $string['sessiontimedoutreload'] = 'あなたのセッションはタイムアウトしました。再度ログインするにはページをリロードしてください。';
 $string['username'] = 'ユーザ名';
-$string['preferredname'] = 'ニックネーム';
+$string['preferredname'] = '表示名';
 $string['usernamehelp'] = 'このシステムにアクセスするため、あなたに与えられたユーザ名です。';
 $string['youaremasqueradingas'] = 'あなたは %s としてログインしています。';
 $string['yournewpassword'] = 'あなたの新しいパスワードです。パスワードは少なくとも半角英数字6文字にしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。<br/>良いセキュリティのためにパスフレーズの使用を検討してください。パスフレーズは単一の単語ではなく文です。あなたが好きな名言・格言またはスペースで区切った2つ (またはそれ以上) の好きなものを使用することをご検討ください。';
