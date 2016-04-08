@@ -292,7 +292,7 @@ $string['sessiontimedout'] = 'あなたのセッションはタイムアウト�
 $string['sessiontimedoutpublic'] = 'あなたのセッションはタイムアウトしました。閲覧を続けるには<a href="%s">ログイン</a>してください。';
 $string['sessiontimedoutreload'] = 'あなたのセッションはタイムアウトしました。再度ログインするにはページをリロードしてください。';
 $string['username'] = 'ユーザ名';
-$string['preferredname'] = 'ニックネーム';
+$string['preferredname'] = '表示名';
 $string['usernamehelp'] = 'このシステムにアクセスするため、あなたに与えられたユーザ名です。';
 $string['youaremasqueradingas'] = 'あなたは %s としてログインしています。';
 $string['yournewpassword'] = 'あなたの新しいパスワード';
