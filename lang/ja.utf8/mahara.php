@@ -349,9 +349,9 @@ $string['fullname'] = 'フルネーム';
 $string['registerwelcome'] = 'ようこそ! このサイトを使用するには最初にユーザ登録してください。';
 $string['registeragreeterms'] = 'また、あなたは<a href="terms.php">使用条件</a>に同意する必要があります。';
 $string['registerprivacy'] = 'ここで収集したデータは私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
-$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s にユーザ登録されました! あなたのアバタとして表示する任意のプロファイル写真を選択することができます。</p>';
+$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s にユーザ登録されました。 あなたのアバタとして表示する任意のプロファイル写真を選択することができます。</p>';
 $string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須入力です。あなたのユーザ登録が完了する前にすべての必須入力フィールドに入力してください。/p>';
-$string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムにユーザ登録できません。';
+$string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムに登録できません。';
 $string['membershipexpiry'] = 'メンバーシップ有効期限切れ';
 $string['institutionfull'] = 'あなたが選択したインスティテューションはこれ以上の登録を受け付けていません。';
 $string['registrationnotallowed'] = 'あなたが選択したインスティテューションは自己登録を許可していません。';
@@ -363,10 +363,10 @@ $string['approvalrequired'] = '要承認';
 $string['cantchangepassword'] = '申し訳ございません、このインターフェース経由でパスワードを変更することはできません - 代わりにあなたのインスティテューションのインターフェースを使用してください。';
 $string['forgotusernamepassword'] = 'あなたのユーザ名またはパスワードを忘れましたか?';
 $string['forgotusernamepasswordtextprimaryemail'] = '<p>あなたがユーザ名またはパスワードを忘れた場合、あなたのプロファイルに登録された主メールアドレスを下記に入力してください。あなたが新しいパスワードを作成することのできるメッセージを送信します。</p>
-<p>あなたがパスワードを忘れて、ユーザ名を忘れていない場合、ユーザ名を入力することもできます。</p>';
+<p>あなたがパスワードを忘れてユーザ名を忘れていない場合、ユーザ名を入力することもできます。</p>';
 $string['lostusernamepassword'] = 'ユーザ名/パスワード喪失';
 $string['emailaddressorusername'] = 'メールアドレスまたはユーザ名';
-$string['pwchangerequestsent'] = 'あなたのパスワードを変更するためのリンクを記載したメールが、まもなく送信されます。';
+$string['pwchangerequestsent'] = 'あなたのパスワードを変更するためのリンクを記載したメールがまもなく送信されます。';
 $string['forgotusernamepasswordemailsubject'] = '%s に関するユーザ名/パスワード詳細';
 $string['forgotusernamepasswordemailmessagetext'] = '%s さん
 
