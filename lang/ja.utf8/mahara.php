@@ -261,7 +261,7 @@ $string['forgotusernamepasswordtext'] = '<p>あなたがユーザ名またはパ
 <p>あなたがパスワードを忘れてユーザ名を忘れていない場合、ユーザ名を入力することもできます。</p>';
 $string['lostusernamepassword'] = 'ユーザ名/パスワード喪失';
 $string['emailaddressorusername'] = 'メールアドレスまたはユーザ名';
-$string['pwchangerequestsent'] = 'あなたのパスワードを変更するためのリンクを記載したメールがまもなく送信されます。';
+$string['pwchangerequestsent'] = 'あなたのアカウントのパスワードを変更するためのリンクを記載したメールがまもなく送信されます。';
 $string['forgotusernamepasswordemailsubject'] = '%s に関するユーザ名/パスワード詳細';
 $string['forgotusernamepasswordemailmessagetext'] = '%s さん
 
