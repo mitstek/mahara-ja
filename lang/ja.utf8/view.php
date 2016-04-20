@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-16 11:34:30 UTC
+ * @updated    2016-04-20 17:19:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -226,7 +226,7 @@ $string['addblock'] = 'ブロックを追加する: %s';
 $string['blockcell'] = 'セル';
 $string['cellposition'] = '行 %s カラム %s';
 $string['blockorder'] = 'ポジション';
-$string['blockordertop'] = 'カラムトップ';
+$string['blockordertopcell'] = 'セルトップ';
 $string['blockorderafter'] = '「 %s 」の後';
 $string['rownr'] = '行 %s';
 $string['nrrows'] = '%s 行';
@@ -327,7 +327,6 @@ $string['choosetemplateinstitutionpageandcollectiondescription'] = '<p>ここで
 $string['choosetemplatesitepageandcollectiondescription1'] = '<p>ここでは新しいページ作成の出発点として、サイトレベルでコピー可能なページを検索することができます。ページの名称をクリックすることにより、あなたはそれぞれのページのプレビューを
 表示することができます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため、該当する「ページをコピーする」ボタンをクリックして、コピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックすることにより、ページが属しているコレクション全体コピーすることができます。</p><p><strong>注意:</strong> 現在、日誌、日誌エントリ、プランおよびレジュメ情報をサイトレベルのページでコピーすることはできません。</p>';
 $string['copiedblocksandartefactsfromtemplate'] = '%d 個のブロックおよび %d 件のアーティファクトを %s からコピーしました。';
-$string['copiedblocksandartefactsfromdefaultview'] = 'ページテンプレートから　%d ブロックおよび %d アーティファクトをコピーしました。';
 $string['filescopiedfromviewtemplate'] = '%s からコピーされたファイル';
 $string['viewfilesdirname'] = 'ページファイル';
 $string['viewfilesdirdesc'] = 'コピーされたページのファイル';
