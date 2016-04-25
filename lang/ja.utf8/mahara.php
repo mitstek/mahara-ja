@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-04-18 00:11:35 UTC
+ * @updated    2016-04-25 16:27:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -451,7 +451,7 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたの %s のアカウントに関するユーザ名/パスワードのリクエストを受け付けました。</p>
 
-<p>あなたのユーザ名は<strong>%s</strong> です。</p>
+<p>あなたのユーザ名は <strong>%s</strong> です。</p>
 
 <p>あなたのパスワードをリセットしたい場合、下記のリンクをクリックしてください:</p>
 
