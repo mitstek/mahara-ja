@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-04-18 00:17:46 UTC
+ * @updated    2016-04-25 16:34:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -284,7 +284,7 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたの %s のアカウントに関するユーザ名/パスワードのリクエストを受け付けました。</p>
 
-<p>あなたのユーザ名は<strong>%s</strong> です。</p>
+<p>あなたのユーザ名は <strong>%s</strong> です。</p>
 
 <p>あなたのパスワードをリセットしたい場合、下記のリンクをクリックしてください:</p>
 
