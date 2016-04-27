@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-04-02 21:36:43 UTC
+ * @updated    2016-04-27 16:21:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -36,5 +36,9 @@ $string['obppublicbadges'] = 'Open Badge Passport内すべてのパブリック�
 $string['title_backpack'] = 'Mozilla Backpack';
 $string['title_passport'] = 'Open Badge Passport';
 $string['fetchingbadges'] = 'エントリを取得しています。しばらくお待ちください。';
+$string['missingbadgesources'] = 'ソース設定がありません。あなたのconfig.phpファイルに追加してください。例:
+<br />
+<br />
+$cfg->openbadgedisplayer_source = \'{"backpack":"https://backpack.openbadges.org/"}\'';
 
 ?>
