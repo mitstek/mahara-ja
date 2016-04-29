@@ -362,7 +362,7 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 
 <p>%s サイト管理者</p>';
 $string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは私たちに責任があります。もう一度お試しください。';
-$string['forgotpassemaildisabled'] = '申し訳ございません、あなたが入力したEメールアドレスまたはユーザ名のメール送信は無効にされています。あなたのパスワードをリセットするには管理者にご連絡ください。';
+$string['forgotpassemaildisabled'] = '申し訳ございません、あなたが入力したメールアドレスまたはユーザ名のメール送信は無効にされています。あなたのパスワードをリセットするには管理者にご連絡ください。';
 $string['forgotpassnosuchemailaddressorusername'] = 'あなたが入力したメールアドレスはこのサイトのユーザに合致しません。';
 $string['forgotpasswordenternew'] = '続けるにはあなたの新しいパスワードを入力してください。';
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';
