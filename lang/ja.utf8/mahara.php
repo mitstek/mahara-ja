@@ -435,7 +435,7 @@ $string['forgotusernamepasswordemailmessagetext'] = '%s さん
 
 あなたのユーザ名は %s です。
 
-あなたのパスワードをリセットしたい場合、下記のリンクをクリックしてください:
+あなたのパスワードをリセットしたい場合、下記リンクをクリックしてください:
 
 %s
 
@@ -452,7 +452,7 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたのユーザ名は <strong>%s</strong> です。</p>
 
-<p>あなたのパスワードをリセットしたい場合、下記のリンクをクリックしてください:</p>
+<p>あなたのパスワードをリセットしたい場合、下記リンクをクリックしてください:</p>
 
 <p><a href="%s">%s</a></p>
 
@@ -504,9 +504,9 @@ $string['noinstitutionoldpassemailsubject'] = '%s: %s のメンバーシップ';
 $string['noinstitutionoldpassemailmessagetext'] = '%s さん
 
 あなたは %s のメンバーではなくなりました。
-あなたは続けて %s を現在のユーザ名 %s およびアカウントに設定したパスワードを使用することができます。
+あなたは続けて %s を現在のユーザ名 %s およびアカウントに設定したパスワードで使用することができます。
 
-あなたのパスワードを忘れてしまった場合、以下のページにアクセスして、あなたのユーザ名を入力することでパスワードをリセットすることができます。
+あなたのパスワードを忘れてしまった場合、以下のページにアクセスしてユーザ名を入力することでパスワードをリセットすることができます。
 
 %sforgotpass.php
 
@@ -520,9 +520,9 @@ $string['noinstitutionoldpassemailmessagetext'] = '%s さん
 $string['noinstitutionoldpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたは %s のメンバーではなくなりました。</p>
-<p>あなたは続けて %s を現在のユーザ名 %s およびアカウントに設定したパスワードを使用することができます。</p>
+<p>あなたは続けて %s を現在のユーザ名 %s およびアカウントに設定したパスワードで使用することができます。</p>
 
-<p>パスワードを忘れてしまった場合、以下のページにアクセスして、あなたのユーザ名を入力することでパスワードをリセットすることができます。</p>
+<p>あなたのパスワードを忘れてしまった場合、以下のページにアクセスしてユーザ名を入力することでパスワードをリセットすることができます。</p>
 
 <p><a href="%sforgotpass.php">%sforgotpass.php</a></p>
 
@@ -532,7 +532,7 @@ $string['noinstitutionoldpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p><a href="%sforgotpass.php">%sforgotpass.php</a></p>';
 $string['debugemail'] = '注意: このメールは%s <%s> 宛のメールですが、設定ファイルの「sendallemailto」設定により、あなたに送信されています。';
-$string['divertingemailto'] = 'メールを %s に転送する';
+$string['divertingemailto'] = '%s にメールを転送する';
 $string['noenddate'] = '終了日なし';
 $string['day'] = '日';
 $string['days'] = '日';
