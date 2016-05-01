@@ -264,7 +264,7 @@ $string['forgotusernamepasswordemailmessagetext'] = '%s さん
 
 あなたのユーザ名は %s です。
 
-あなたのパスワードをリセットしたい場合、下記のリンクをクリックしてください:
+あなたのパスワードをリセットしたい場合、下記リンクをクリックしてください:
 
 %s
 
@@ -281,7 +281,7 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたのユーザ名は <strong>%s</strong> です。</p>
 
-<p>あなたのパスワードをリセットしたい場合、下記のリンクをクリックしてください:</p>
+<p>あなたのパスワードをリセットしたい場合、下記リンクをクリックしてください:</p>
 
 <p><a href="%s">%s</a></p>
 
