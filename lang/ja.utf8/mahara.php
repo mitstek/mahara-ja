@@ -335,7 +335,7 @@ $string['forgotusernamepasswordemailmessagetext'] = '%s さん
 
 あなたのユーザ名は %s です。
 
-あなたのパスワードをリセットしたい場合、下記のリンクをクリックしてください:
+あなたのパスワードをリセットしたい場合、下記リンクをクリックしてください:
 
 %s
 
@@ -352,7 +352,7 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたのユーザ名は <strong>%s</strong> です。</p>
 
-<p>あなたのパスワードをリセットしたい場合、下記のリンクをクリックしてください:</p>
+<p>あなたのパスワードをリセットしたい場合、下記リンクをクリックしてください:</p>
 
 <p><a href="%s">%s</a></p>
 
@@ -399,7 +399,7 @@ $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p><a href="%sforgotpass.php?key=%s">%sforgotpass.php?key=%s</a></p>';
 $string['debugemail'] = '注意: このメールは%s <%s> 宛のメールですが、設定ファイルの「sendallemailto」設定により、あなたに送信されています。';
-$string['divertingemailto'] = 'メールを %s に転送する';
+$string['divertingemailto'] = '%s にメールを転送する';
 $string['noenddate'] = '終了日なし';
 $string['day'] = '日';
 $string['days'] = '日';
