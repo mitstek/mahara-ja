@@ -104,7 +104,7 @@ $string['by'] = 'by';
 $string['copycollection'] = 'コレクションをコピーする';
 $string['youhaveonecollection'] = 'あなたには 1 件のコレクションがあります。';
 $string['youhavecollections'] = 'あなたには %s 件のコレクションがあります。';
-$string['collectionssharedtogroup'] = 'このグループと共有されているコレクション';
-$string['nosharedcollectionsyet'] = 'まだこのグループと共有されているコレクションはありません。';
+$string['collectionssharedtogroup'] = 'このグループで共有されているコレクション';
+$string['nosharedcollectionsyet'] = 'まだこのグループで共有されているコレクションはありません。';
 
 ?>
