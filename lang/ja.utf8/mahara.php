@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-04-25 16:27:03 UTC
+ * @updated    2016-05-03 21:00:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -620,7 +620,7 @@ $string['notifications'] = '通知';
 $string['inbox'] = '受信箱';
 $string['gotoinbox'] = '受信箱に移動する';
 $string['institutionmembership'] = 'インスティテューションメンバーシップ';
-$string['institutionmembershipdescription'] = 'ここにはあなたがメンバーとなっているインスティテューションが表示されます。あなたはインスティテューションのメンバーシップをリクエストすることもできます。また、インスティテューションがあなたに参加招待した場合、あなたは招待を承認または拒否することができます。';
+$string['institutionmembershipdescription'] = 'あなたがインスティテューションのメンバーとなっている場合、ここに一覧表示されます。あなたはインスティテューションのメンバーシップをリクエストすることもできます。また、保留中のメンバーシップ招待を承認または拒否することができます。';
 $string['youareamemberof'] = 'あなたは %s のメンバーです。';
 $string['leaveinstitution'] = 'インスティテューションを離れる';
 $string['reallyleaveinstitution'] = '本当にこのインスティテューションから離れてもよろしいですか?';
