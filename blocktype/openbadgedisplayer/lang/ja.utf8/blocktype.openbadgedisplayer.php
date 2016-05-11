@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-05-10 14:56:40 UTC
+ * @updated    2016-05-11 15:24:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -41,6 +41,6 @@ $string['missingbadgesources'] = 'ソース設定がありません。あなた�
 <br />
 $cfg->openbadgedisplayer_source = \'{"backpack":"https://backpack.openbadges.org/"}\'';
 $string['selectall'] = 'すべてを選択する';
-$string['selectnone'] = 'さらに選択する';
+$string['selectnone'] = 'すべての選択を解除する';
 
 ?>
