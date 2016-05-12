@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-09-23 21:36:42 UTC
+ * @updated    2016-05-12 13:10:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -100,6 +100,15 @@ $string['backgroundattachment'] = '背景イメージの取り付け';
 $string['backgroundfixed'] = '固定';
 $string['backgroundscroll'] = 'スクロール';
 $string['backgroundposition'] = '背景イメージのポジション';
+$string['topleft'] = '左上';
+$string['top'] = '上端';
+$string['topright'] = '右上';
+$string['left'] = '左';
+$string['centre'] = '中央';
+$string['right'] = '右';
+$string['bottomleft'] = '左下';
+$string['bottom'] = '下端';
+$string['bottomright'] = '右下';
 $string['viewwidth'] = 'ページ幅';
 $string['textfontfamily'] = 'テキストフォント';
 $string['headingfontfamily'] = 'ヘッディングフォント';
