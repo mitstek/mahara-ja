@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-03-02 16:32:27 UTC
+ * @updated    2016-05-16 02:04:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -150,6 +150,8 @@ $string['enterparameters'] = '関数パラメータを入力してください�
 $string['testclientinstructions'] = 'これはウェブサービスのためのインタラクティブテストクライアント機能です。あなたは現在のシステムに対して、関数を選択および実際に実行することができます。あなたが実行するすべての関数は実際に動作することに留意してください。';
 $string['executed'] = '関数コールが実行されました。';
 $string['invaliduserpass'] = '「 %s 」に対して、無効なウェブサービス名およびウェブサービスパスワードが提供されました。';
+$string['iterationtitle'] = '%s イテレーション: %s';
+$string['unabletoruntestclient'] = 'ウェブサービステストクライアントはhttpsの下で実運用モードで動作させるか、あなたのconfig.php内に「$cfg->productionmode = false」を記述する必要があります。';
 $string['accesstokens'] = 'OAuthアクセストークン';
 $string['notokens'] = 'あなたにはアプリケーショントークンがありません。';
 $string['oauth'] = 'OAuth';
