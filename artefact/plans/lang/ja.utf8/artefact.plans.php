@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-04-13 16:51:50 UTC
+ * @updated    2016-05-24 02:45:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -29,6 +29,7 @@ $string['noplans'] = '表示するプランはありません。';
 $string['plan'] = 'プラン';
 $string['plans'] = 'プラン';
 $string['Plans'] = 'プラン';
+$string['Plan'] = 'プラン';
 $string['plandeletedsuccessfully'] = 'プランが正常に削除されました。';
 $string['plannotdeletedsuccessfully'] = 'このプランの削除中にエラーが発生しました。';
 $string['plannotsavedsuccessfully'] = 'このフォームの送信中にエラーが発生しました。マークされたフィールドを確認して再度お試しください。';
