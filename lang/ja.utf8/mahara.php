@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-05-23 01:23:17 UTC
+ * @updated    2016-05-26 07:21:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -743,11 +743,11 @@ $string['youraccounthasbeensuspendedtext2'] = 'あなたの %s におけるア�
 $string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。利用停止の理由は:
 
 %s';
-$string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度このサイトにログインして利用することができます。';
+$string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用することができます。';
 $string['sizemb'] = 'MB';
 $string['sizekb'] = 'KB';
 $string['sizegb'] = 'GB';
-$string['sizeb'] = 'b';
+$string['sizeb'] = 'B';
 $string['bytes'] = 'バイト';
 $string['country.af'] = 'アフガニスタン・イスラム国';
 $string['country.ax'] = 'オーランド諸島';
@@ -1021,7 +1021,7 @@ $string['incomingfolderdesc'] = '他のネットワークホストからイン�
 $string['remotehost'] = 'リモートホスト %s';
 $string['Copyof'] = '%s のコピー';
 $string['loggedinusersonly'] = 'ログインユーザのみ';
-$string['allowpublicaccess'] = 'パブリックアクセス (ログインなし) を許可する';
+$string['allowpublicaccess'] = 'パブリックアクセスを許可する';
 $string['viewmyprofilepage'] = 'プロファイルページを表示する';
 $string['editmyprofilepage'] = 'プロファイルページを編集する';
 $string['usersprofile'] = '%s のプロファイル';
@@ -1046,7 +1046,7 @@ $string['sharesubtitle'] = 'あなたのプライバシーを管理する';
 $string['sharedetail'] = 'あなたの成果および発展をあなたが管理できるスペースで共有します。';
 $string['engage'] = '参加';
 $string['engagesubtitle'] = '人を探してグループに参加する';
-$string['engagedetail'] = 'ディスカッションフォーラムで他の人と関係して、グループ内で共同します。';
+$string['engagedetail'] = 'ディスカッションフォーラムで他の人と関係してグループ内で共同します。';
 $string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールすることができます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['filenotfound'] = 'ファイルが見つかりませんでした。';
@@ -1067,7 +1067,7 @@ Maharaは自分の学習に関するポートフォリオを作成および管�
 $string['wanttoleavewithoutsaving?'] = 'あなたは修正しました - 修正を保存せずにページを離れてもよろしいですか?';
 $string['attachedimage'] = '添付イメージ';
 $string['imagebrowsertitle'] = 'イメージを挿入または選択する';
-$string['imagebrowserdescription'] = '外部イメージURLを貼り付け、または下記のイメージブラウザを使用してあなたのイメージを選択またはアップロードしてください。';
+$string['imagebrowserdescription'] = '外部イメージURLを貼り付けるか、下記のイメージブラウザを使用してあなたのイメージを選択またはアップロードしてください。';
 $string['url'] = 'イメージURL';
 $string['style'] = 'スタイル (CSS)';
 $string['dimensions'] = 'サイズ';
@@ -1084,7 +1084,7 @@ $string['maximumSelected'] = '最大アイテム数が選択されました。';
 $string['noResults'] = '該当データはありません。';
 $string['searching'] = '検索中 ...';
 $string['styleguide_title'] = 'スタイルガイド';
-$string['styleguide_description'] = 'このスタイルガイドではMaharaで使用される異なるタイプのコンポーネントすべてに関して説明します。それらは1箇所に入れられるため、あなたの新しいテーマまたはプラグインの開発時にスタイリングされているかどうか簡単に確認することができます。あなたのサイトに異なるテーマを適用して個々のコンポーネントがどのように表示されるか確認します。';
+$string['styleguide_description'] = 'このスタイルガイドではMaharaで使用される異なるタイプのコンポーネントすべてに関して説明します。これらは1箇所に入れられるため、あなたの新しいテーマまたはプラグインの開発時にスタイリングされているかどうか簡単に確認することができます。あなたのサイトに異なるテーマを適用して個々のコンポーネントがどのように表示されるか確認します。';
 $string['cli_incorrect_value'] = '値が正しくありません。再度お試しください。';
 $string['scroll_to_top'] = 'トップに戻る';
 $string['version.'] = 'v.';
