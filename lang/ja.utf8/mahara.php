@@ -545,7 +545,7 @@ $string['youraccounthasbeensuspendedtext2'] = 'あなたの %s におけるア�
 $string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。利用停止の理由は:
 
 %s';
-$string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度このサイトにログインして利用することができます。';
+$string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用することができます。';
 $string['sizemb'] = 'MB';
 $string['sizekb'] = 'KB';
 $string['sizegb'] = 'GB';
@@ -810,7 +810,7 @@ $string['incomingfolderdesc'] = '他のネットワークホストからイン�
 $string['remotehost'] = 'リモートホスト %s';
 $string['Copyof'] = '%s のコピー';
 $string['loggedinusersonly'] = 'ログインユーザのみ';
-$string['allowpublicaccess'] = 'パブリックアクセス (ログインなし) を許可する';
+$string['allowpublicaccess'] = 'パブリックアクセスを許可する';
 $string['thisistheprofilepagefor'] = 'これは%s のプロファイルページです。';
 $string['viewmyprofilepage'] = 'プロファイルページを表示する';
 $string['editmyprofilepage'] = 'プロファイルページを編集する';
