@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-05-23 01:26:40 UTC
+ * @updated    2016-05-26 07:22:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -636,11 +636,11 @@ $string['youraccounthasbeensuspendedtext2'] = 'あなたの %s におけるア�
 $string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。利用停止の理由は:
 
 %s';
-$string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度このサイトにログインして利用することができます。';
+$string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用することができます。';
 $string['sizemb'] = 'MB';
 $string['sizekb'] = 'KB';
 $string['sizegb'] = 'GB';
-$string['sizeb'] = 'b';
+$string['sizeb'] = 'B';
 $string['bytes'] = 'バイト';
 $string['country.af'] = 'アフガニスタン・イスラム国';
 $string['country.ax'] = 'オーランド諸島';
@@ -909,7 +909,7 @@ $string['incomingfolderdesc'] = '他のネットワークホストからイン�
 $string['remotehost'] = 'リモートホスト %s';
 $string['Copyof'] = '%s のコピー';
 $string['loggedinusersonly'] = 'ログインユーザのみ';
-$string['allowpublicaccess'] = 'パブリックアクセス (ログインなし) を許可する';
+$string['allowpublicaccess'] = 'パブリックアクセスを許可する';
 $string['viewmyprofilepage'] = 'プロファイルページを表示する';
 $string['editmyprofilepage'] = 'プロファイルページを編集する';
 $string['usersprofile'] = '%s のプロファイル';
