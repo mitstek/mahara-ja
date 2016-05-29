@@ -13,7 +13,7 @@
 
 defined('INTERNAL') || die();
 
-$string['memoryused'] = 'メモリー';
+$string['memoryused'] = 'メモリ';
 $string['timeused'] = '実行時間';
 $string['seconds'] = '秒';
 $string['included'] = 'インクルードファイル';
