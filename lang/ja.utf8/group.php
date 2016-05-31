@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-01-28 17:16:52 UTC
+ * @updated    2016-05-31 07:57:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -92,8 +92,8 @@ $string['groupinvitesfrom'] = '参加の招待:';
 $string['requestedmembershipin'] = 'リクエストされたメンバーシップ:';
 $string['viewnotify'] = '共有ページ通知';
 $string['viewnotifydescription2'] = '新しいページが作成された場合、グループメンバーがグループとページを共有した場合、どのグループメンバーに通知するのか選択してください。この通知はページを共有しているグループメンバーには送信されません。大規模なグループの場合、多くの通知が発生するため、これは通常メンバー以外のメンバーに制限した方が良いでしょう。';
-$string['feedbacknotify'] = 'フィードバック通知';
-$string['feedbacknotifydescription1'] = 'グループページおよびアーティファクトにフィードバックが投稿された場合、どのグループメンバーが通知を受信するか選択してください。';
+$string['commentnotify'] = 'コメント通知';
+$string['commentnotifydescription1'] = 'グループページおよびアーティファクトにコメントが投稿された場合、どのグループメンバーに通知するのか選択してください。';
 $string['allowsendnow'] = 'すぐにフォーラム投稿を送信する';
 $string['allowsendnowdescription1'] = 'グループメンバーすべてがフォーラム投稿をすぐに送信するよう選択することができます。この設定を無効にした場合、グループ管理者、チューターおよびモデレータのみ、フォーラム投稿をすぐに送信することができます。';
 $string['hiddengroup'] = 'グループを隠す';

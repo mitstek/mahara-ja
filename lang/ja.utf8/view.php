@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-04-20 17:44:02 UTC
+ * @updated    2016-05-31 08:04:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -175,7 +175,7 @@ $string['cantdeleteview'] = 'あなたはこのページを削除できません
 $string['deletespecifiedview'] = 'ページ「 %s 」を削除する';
 $string['deleteviewconfirm1'] = '本当にこのページを削除してもよろしいですか? 元に戻すことはできません。';
 $string['deleteviewconfirmbackup'] = '<a href="%sexport/">エクスポート</a>により、このページのバックアップを作成することをご検討ください。';
-$string['deleteviewconfirmnote1'] = '<strong>注意:</strong> このページにリンクしたすべてのファイルおよび日誌を利用することはできます。<br/>しかし、このページに投稿されたすべてのフィードバックは削除されます。';
+$string['deleteviewconfirmnote3'] = '<strong>注意:</strong> あなたがこのページでリンクしたファイルおよび日誌エントリすべてはまだ利用できます。<br/>しかし、このページに投稿されたコメントすべては削除されます。';
 $string['deleteviewconfirmnote2'] = 'このページはコレクション「<a href="%s">%s</a>」の一部です。';
 $string['editaccesspagedescription6'] = 'デフォルトではあなたのページおよびコレクションをあなたのみ閲覧することができます。このページではあなたに加えて誰がアクセスできるのか決定します。';
 $string['editaccessdescription'] = 'チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
@@ -306,7 +306,7 @@ $string['blocktypecategorydesc.general'] = '一般オプションを表示する
 $string['blocktypecategorydesc.internal'] = '個人情報オプションを表示するにはクリックしてください。';
 $string['blocktypecategorydesc.blog'] = '日誌オプションを表示するにはクリックしてください。';
 $string['notitle'] = 'タイトルなし';
-$string['clickformoreinformation'] = '詳細情報およびフィードバックの投稿はこちらをクリックしてください。';
+$string['clickformoreinformation1'] = 'さらに情報を表示してコメント追加するにはクリックしてください。';
 $string['detailslinkalt'] = '(詳細)';
 $string['Browse'] = '閲覧';
 $string['Search'] = '検索';
@@ -368,7 +368,7 @@ $string['latestcreated'] = '作成日時';
 $string['latestmodified'] = '最終更新日時';
 $string['latestviewed'] = '最終閲覧日時';
 $string['mostvisited'] = '閲覧回数';
-$string['mostcomments'] = 'フィードバック数';
+$string['mostcomments1'] = 'コメント数';
 $string['dashboard'] = 'ダッシュボード';
 $string['profile'] = 'プロファイル';
 $string['portfolio'] = 'ポートフォリオ';
