@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-04-02 21:01:34 UTC
+ * @updated    2016-05-31 07:45:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -43,10 +43,10 @@ $string['feedback'] = 'フィードバック';
 $string['feedbackattachdirname'] = 'コメントファイル';
 $string['feedbackattachdirdesc'] = 'あなたのポートフォリオのコメントに添付されたファイル';
 $string['feedbackattachmessage'] = 'あなたの %s フォルダに添付ファイルが追加されました。';
-$string['feedbackonviewbyuser'] = '%s のフィードバック by %s';
-$string['feedbacksubmitted'] = 'フィードバックが送信されました。';
-$string['feedbacksubmittedmoderatedanon'] = 'フィードバックが送信されました。モデレーションを待っています。';
-$string['feedbacksubmittedprivateanon'] = 'プライベートフィードバックが送信されました。';
+$string['commentonviewbyuser'] = '%s のコメント by %s';
+$string['commentsubmitted'] = 'コメントが送信されました。';
+$string['commentsubmittedmoderatedanon'] = 'コメントが送信されました、モデレーションを待っています。';
+$string['commentsubmittedprivateanon'] = 'プライベートコメントが送信されました。';
 $string['forcepubliccomment'] = 'パブリック';
 $string['forceprivatecomment'] = 'プライベート: この返信はあなたおよび先行するコメントの投稿者にのみ表示されます。';
 $string['lastcomment'] = '最新のコメント';
@@ -60,8 +60,6 @@ $string['messageempty'] = 'あなたのメッセージは空白です。メッ�
 $string['Moderate'] = 'モデレート';
 $string['moderatecomments'] = 'コメントをモデレートする';
 $string['moderatecommentsdescription1'] = 'あなたに承認されるまで、ページのコメントはプライベートのままにされます。ファイルおよび日誌エントリ等の個々のコメントはモデレーションから除外されます。';
-$string['newfeedbacknotificationsubject'] = '%s の新しいフィードバック';
-$string['placefeedback'] = 'フィードバックを投稿する';
 $string['progress_feedback'] = '%s ユーザページにコメントする';
 $string['rating'] = 'レーティング';
 $string['reallydeletethiscomment'] = '本当にこのコメントを削除してもよろしいですか?';
