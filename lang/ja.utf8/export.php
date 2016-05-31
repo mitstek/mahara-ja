@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-01-26 15:27:55 UTC
+ * @updated    2016-05-31 07:49:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -38,8 +38,8 @@ $string['generateexport'] = 'エクスポートを生成する';
 $string['noexportpluginsenabled'] = '管理者によりエクスポートプラグインが有効にされていないため、あなたはこの機能を使用することはできません。';
 $string['justsomecollections'] = 'いくつかのマイコレクションのみ';
 $string['justsomeviews'] = 'いくつかのマイページのみ';
-$string['includefeedback'] = 'フィードバックを含む';
-$string['includefeedbackdescription'] = 'すべてのユーザコメントがHTMLエクスポートに含まれます。';
+$string['includecomments'] = 'コメントを含む';
+$string['includecommentsdescription'] = 'すべてのコメントがHTMLエクスポートに含まれます。';
 $string['nonexistentfile'] = '存在しないファイルの追加を試みました: %s';
 $string['nonexistentprofileicon'] = '存在しないプロファイルアイコン「 %s 」を追加しようとしました。';
 $string['nonexistentresizedprofileicon'] = '存在しないリサイズ済みプロファイルアイコン「 %s 」を追加しようとしました。';
