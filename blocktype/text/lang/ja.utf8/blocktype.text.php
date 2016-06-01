@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-03-25 20:29:00 UTC
+ * @updated    2016-06-01 12:10:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -23,7 +23,7 @@ $string['convertdescriptionfeatures'] = 'あなたは高度な機能を使用し
 <li>ライセンスの使用</li>
 <li>タグの使用</li>
 <li>添付</li>
-<li>表示されるノートアーティファクト上でのフィードバック</li>
+<li>表示されるノートアーティファクト上でのコメント</li>
 </ul>';
 $string['convertdescription'] = '%d ノートをコンバートすることができます。これらのノートをコンバートするオプションを選択した場合、時間を要することに留意してください。コンバート完了後、このページであなたに成功メッセージが表示されます。';
 $string['convertibleokmessage'] = '正常に %d 「ノート」ブロックを「テキスト」ブロックに変換しました。';
