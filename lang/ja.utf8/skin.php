@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2014-08-18 00:31:22 UTC
+ * @updated    2016-06-12 17:03:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -137,7 +137,7 @@ $string['viewskinchanged'] = 'ページスキンが変更されました。';
 $string['manageskins'] = 'スキンを管理する';
 $string['sitefontsmenu'] = 'フォント';
 $string['sitefonts'] = 'フォント';
-$string['sitefontsdescription'] = '<p>あなたのサイトのスキンで使用するため、以下のフォントがインストールされています。</p>';
+$string['sitefontsdescription'] = '<p>スキンで使用するため、あなたのサイトに以下のフォントがインストールされています。</p>';
 $string['installfontinstructions'] = '<p>
 CSS @font-faceルールによってウェブページに埋め込むことのできるフォントを追加します。すべての作者/開発者がこれを許可するわけではないことに留意してください。
 </p>
