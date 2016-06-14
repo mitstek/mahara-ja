@@ -210,7 +210,7 @@ $string['samplesize'] = 'サイズ';
 $string['samplesort'] = '並べ替え';
 $string['sampletext'] = 'テキスト';
 $string['samplefonttitle'] = 'フォント名';
-$string['sampletitle11'] = 'ラテンアルファベット (ASCII only)';
+$string['sampletitle11'] = 'ラテンアルファベット (ASCIIのみ)';
 $string['sampletext11'] = 'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz';
 $string['sampletitle12'] = 'ラテンアルファベット (ISO/IEC 8859-1)';
 $string['sampletext12'] = 'ÀàÁáÂâÃãÄäÅåÆæÇçÈèÉéÊêËëÌìÍíÎîÏïÐðÑñÒòÓóÔôÕõÖöØøÙùÚúÛûÜüÝýÞþß';
@@ -242,7 +242,7 @@ $string['gwfinstructions'] = '<ol>
 <li>Googleフォントをインストールしてください。</li>
 </ol>';
 $string['gwfzipfile'] = '有効なZIPファイル';
-$string['gwfzipdescription'] = 'すべての選択済みGoogleフォントをインストールする有効なZIPファイルです。';
+$string['gwfzipdescription'] = 'すべてのインストールする選択済みGoogleフォントを含む有効なZIPファイルです。';
 $string['notvalidzipfile'] = 'これは有効なZIPファイルではありません。';
 $string['fontlicence'] = 'フォントライセンス';
 $string['fontlicencenotfound'] = 'フォントライセンスが見つかりませんでした。';
