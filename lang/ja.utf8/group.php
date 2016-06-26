@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-05-31 07:57:11 UTC
+ * @updated    2016-06-26 09:34:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,6 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['groupname'] = 'グループ名';
+$string['groupshortname'] = '省略名';
 $string['creategroup'] = 'グループを作成する';
 $string['groupmemberrequests'] = '保留中メンバーシップリクエスト';
 $string['membershiprequests'] = 'メンバーシップリクエスト';
@@ -57,6 +58,7 @@ $string['reason'] = '理由';
 $string['approve'] = '承認';
 $string['reject'] = '拒否';
 $string['groupalreadyexists'] = 'この名称のグループはすでに登録されています。';
+$string['groupshortnamealreadyexists'] = 'この省略名のグループはすでに存在しています。';
 $string['invalidshortname'] = '無効なグループ省略名です。';
 $string['shortnameformat'] = 'グループ省略名の長さは半角2-255文字にしてください。グループ省略名には半角英数字、「.」、「-」および「_」を使用することができます。';
 $string['Created'] = '作成';

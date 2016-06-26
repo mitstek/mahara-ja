@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-06-21 00:59:09 UTC
+ * @updated    2016-06-26 09:33:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1022,6 +1022,7 @@ $string['securitysettingslegend'] = 'セキュリティ設定';
 $string['generalsettingslegend'] = '一般設定';
 $string['loggingsettingslegend'] = 'ロギング設定';
 $string['groupname'] = 'グループ名';
+$string['groupshortname'] = '省略名';
 $string['groupmembers'] = 'メンバー';
 $string['groupadmins'] = '管理者';
 $string['grouptype'] = 'グループタイプ';
