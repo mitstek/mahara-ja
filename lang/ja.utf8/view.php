@@ -82,7 +82,7 @@ $string['viewssharedtogroupbyothers'] = 'このグループで共有されてい
 $string['viewssubmittedtogroup'] = 'このグループに送信されたビュー';
 $string['submitaviewtogroup'] = 'このグループにビューを送信する';
 $string['youhavesubmitted'] = 'あなたはこのグループに <a href="%s">%s</a> を送信しました。';
-$string['youhavesubmittedon'] = 'あなたはこのグループに対して、<a href="%s">%s</a> を %s　%s に送信しました。';
+$string['youhavesubmittedon'] = 'あなたはこのグループに対して <a href="%s">%s</a> を %s　%s に送信しました。';
 $string['public'] = 'パブリック';
 $string['loggedin'] = 'ログインユーザ';
 $string['friends'] = 'フレンド';
@@ -104,14 +104,14 @@ $string['removedfromwatchlist'] = 'このビューがあなたのウォッチリ
 $string['addtowatchlist'] = 'ウォッチリストにビューを追加する';
 $string['removefromwatchlist'] = 'ウォッチリストからビューを削除する';
 $string['alreadyinwatchlist'] = 'このビューはすでにあなたのウォッチリストに登録されています。';
-$string['attachedfileaddedtofolder'] = '添付ファイル「 %s 」が、あなたの「 %s 」フォルダに追加されました。';
+$string['attachedfileaddedtofolder'] = '添付ファイル「 %s 」があなたの「 %s 」フォルダに追加されました。';
 $string['complaint'] = 'クレーム';
 $string['date'] = '日時';
 $string['notifysiteadministrator'] = 'サイト管理者に通知する';
 $string['print'] = 'プリント';
 $string['reportobjectionablematerial'] = '好ましくない内容を報告する';
 $string['reportsent'] = 'あなたの報告が送信されました。';
-$string['viewobjectionableunmark'] = 'ビュー「 %s 」、またはその中に好ましくないコンテンツが含まれていると報告されています。もはや好ましくないコンテンツを含んでいない場合、あなたはボタンをクリックして、この注意を取り除いた上で、他の管理者に通知することができます。';
+$string['viewobjectionableunmark'] = 'ビュー「 %s 」またはその中に好ましくないコンテンツが含まれていると報告されています。好ましくないコンテンツが含まれていない場合、あなたはボタンをクリックしてこの注意を取り除いた上で他の管理者に通知することができます。';
 $string['notobjectionable'] = '好ましい';
 $string['viewunobjectionablesubject'] = 'ビュー %s が好ましいと %s によってマークされました。';
 $string['viewunobjectionablebody'] = '% (%s) が %s によって確認され、もはや好ましくないコンテンツは含まれていないとマークされました。';
