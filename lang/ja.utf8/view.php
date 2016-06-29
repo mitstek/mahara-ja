@@ -93,7 +93,7 @@ $string['viewssharedtogroupbyothers'] = 'このグループで共有されてい
 $string['submissionstogroup'] = 'このグループへの送信';
 $string['submittogroup'] = 'このグループにページまたはコレクションを送信する';
 $string['youhavesubmitted'] = 'あなたはこのグループに <a href="%s">%s</a> を送信しました。';
-$string['youhavesubmittedon'] = 'あなたはこのグループに対して、<a href="%s">%s</a> を %s　%s に送信しました。';
+$string['youhavesubmittedon'] = 'あなたはこのグループに対して <a href="%s">%s</a> を %s　%s に送信しました。';
 $string['listedinpages'] = 'ページ内一覧';
 $string['public'] = 'パブリック';
 $string['loggedin'] = 'ログインユーザ';
@@ -118,7 +118,7 @@ $string['removedfromwatchlist'] = 'このページがあなたのウォッチリ
 $string['addtowatchlist'] = 'ウォッチリストにページを追加する';
 $string['removefromwatchlist'] = 'ウォッチリストからページを削除する';
 $string['alreadyinwatchlist'] = 'このページはすでにあなたのウォッチリストに登録されています。';
-$string['attachedfileaddedtofolder'] = '添付ファイル「 %s 」が、あなたの「 %s 」フォルダに追加されました。';
+$string['attachedfileaddedtofolder'] = '添付ファイル「 %s 」があなたの「 %s 」フォルダに追加されました。';
 $string['complaint'] = 'クレーム';
 $string['date'] = '日時';
 $string['notifyadministrator'] = '管理者に通知する';
@@ -126,9 +126,9 @@ $string['notifyadministratorconfirm'] = '本当にこのページに好ましく
 $string['print'] = 'プリント';
 $string['reportobjectionablematerial'] = '好ましくない内容を報告する';
 $string['reportsent'] = 'あなたの報告が送信されました。';
-$string['viewobjectionableunmark'] = 'ページ「 %s 」、またはその中に好ましくないコンテンツが含まれていると報告されています。もはや好ましくないコンテンツを含んでいない場合、あなたはボタンをクリックして、この注意を取り除いた上で、他の管理者に通知することができます。';
+$string['viewobjectionableunmark'] = 'ページ「 %s 」またはその中に好ましくないコンテンツが含まれていると報告されています。好ましくないコンテンツが含まれていない場合、あなたはボタンをクリックしてこの注意を取り除いた上で他の管理者に通知することができます。';
 $string['notobjectionable'] = '好ましい';
-$string['viewunobjectionablesubject'] = 'ページ %s が好ましいと %s によってマークされました。';
+$string['viewunobjectionablesubject'] = 'ページ %s が %s によって好ましくないものではないとマークされました。';
 $string['viewunobjectionablebody'] = '% (%s) が %s によって確認され、もはや好ましくないコンテンツは含まれていないとマークされました。';
 $string['updatewatchlistfailed'] = 'ウォッチリストの更新に失敗しました。';
 $string['watchlistupdated'] = 'あなたのウォッチリストが更新されました。';
