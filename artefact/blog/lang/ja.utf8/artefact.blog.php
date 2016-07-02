@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-06-10 16:23:27 UTC
+ * @updated    2016-07-02 15:14:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -106,6 +106,7 @@ $string['saveasdraft'] = '下書きとして保存する';
 $string['savepost'] = 'エントリを保存する';
 $string['savesettings'] = '設定を保存する';
 $string['settings'] = '設定';
+$string['taggedposts'] = 'タグ付き投稿';
 $string['thisisdraft'] = '下書きとして保存する';
 $string['thisisdraftdesc'] = 'あなたのエントリを下書きにした場合、あなた以外のユーザはエントリを閲覧することができません。';
 $string['title'] = 'タイトル';
@@ -133,6 +134,7 @@ $string['alt'] = '説明';
 $string['copyfull'] = '他のユーザはあなたの %s を自分のコピーとして取得できる';
 $string['copyreference'] = '他のユーザはあなたの %s をページに表示できる';
 $string['copynocopy'] = 'ページをコピーする場合、このブロックを完全にスキップする';
+$string['copytagsonly'] = '他のユーザはブロック設定のコピーを取得できる';
 $string['viewposts'] = 'コピーされたエントリ (%s)';
 $string['postscopiedfromview'] = '%s からコピーされたエントリ';
 $string['youhavenoblogs'] = 'あなたには日誌がありません。';
