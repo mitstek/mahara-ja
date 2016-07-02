@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-06-26 09:33:42 UTC
+ * @updated    2016-07-02 14:27:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -400,7 +400,7 @@ $string['updatesiteoptions'] = 'サイトオプションを更新する';
 $string['usersallowedmultipleinstitutions'] = 'ユーザに複数インスティテューションを許可する';
 $string['usersallowedmultipleinstitutionsdescription1'] = 'ユーザが同時に複数のインスティテューションのメンバーになれるようにします。';
 $string['requireregistrationconfirm'] = '登録を確認する';
-$string['requireregistrationconfirmdescription1'] = 'すべての新しい自己登録ユーザはアクティブになる前にインスティテューション管理者から承認される必要があります。そうでない場合、それぞれのインスティテューションは新しいアカウント登録に承認を必要とするかどうか決定することができます。';
+$string['requireregistrationconfirmdescription1'] = 'すべてのインスティテューションに新しい自己登録アカウントの承認を強制します。';
 $string['userscanchooseviewthemes'] = 'ユーザがページテーマを選択できる';
 $string['userscanchooseviewthemesdescription1'] = 'ユーザがポートフォリオページを編集および作成する時にテーマを選択できるようにします。ページは選択されたテーマを使用して他のユーザに表示されます。';
 $string['userscanhiderealnames'] = 'ユーザは実名を隠すことができる';
