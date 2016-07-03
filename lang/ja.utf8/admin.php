@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-07-02 14:27:19 UTC
+ * @updated    2016-07-03 13:39:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -272,6 +272,9 @@ $string['exportstatsascsv'] = '統計をCSVフォーマットでエクスポー�
 $string['downloadstatsascsv'] = 'CSVフォーマットの統計';
 $string['nostats'] = '利用可能な統計はありません。';
 $string['site'] = 'サイト';
+$string['exportgroupscsv'] = 'グループをCSVフォーマットでエクスポートする';
+$string['exportgroupmembershipscsv'] = 'グループメンバーシップをCSVフォーマットでエクスポートする';
+$string['exportgroupmembershipscsvspecific'] = '「 %s 」のグループメンバーシップをCSVフォーマットでエクスポートする';
 $string['statistics'] = '統計';
 $string['institutionstatistics'] = 'インスティテューション統計';
 $string['institutionstatisticsfor'] = '「 %s 」のインスティテューション統計';
