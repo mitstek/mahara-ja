@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-07-03 13:39:07 UTC
+ * @updated    2016-07-05 02:51:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -125,6 +125,8 @@ $string['usersearch'] = 'ユーザ検索';
 $string['usersearchdescription'] = 'すべてのユーザを検索して、検索されたユーザに対して管理行為を実施します。';
 $string['usersearchinstructions'] = 'ユーザの姓名のイニシャルをクリックするか、検索ボックスに名前を入力することにより、あなたはユーザを検索することができます。あなたがメールアドレスを検索したい場合、検索ボックスにメールアドレスを入力することもできます。';
 $string['emailaddresshidden'] = 'メールアドレス非表示';
+$string['inactive'] = 'ユーザ非アクティブ';
+$string['inactivefor'] = '現在、ユーザ「 %s 」 はアクティブではありません。';
 $string['administergroups'] = 'グループを管理する';
 $string['administergroupsdescription'] = 'グループ管理者を割り当ておよびグループを削除します。';
 $string['groupcategoriesdescription'] = 'グループカテゴリを追加および編集します。';
