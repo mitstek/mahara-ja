@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-06-19 16:24:11 UTC
+ * @updated    2016-07-08 16:59:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,6 +18,7 @@ $string['title'] = 'ウェブサービス';
 $string['description'] = 'ウェブサービスのみのユーザをMaharaのデータベースで認証する';
 $string['webservicesconfig'] = '設定';
 $string['webservicesconfigdesc'] = 'ここであなたはウェブサービスのルールを変更およびサービスを有効または無効にすることができます。';
+$string['webserviceconnectionsconfigdesc'] = '登録済みプラグインの接続オブジェクトをセットアップすることにより、外部システムとの通信に使用することができます。';
 $string['completeregistration'] = '登録を完了する';
 $string['emailalreadytaken'] = 'このメールアドレスはすでに登録されています。';
 $string['iagreetothetermsandconditions'] = '私は使用条件に同意します。';
@@ -48,9 +49,41 @@ $string['usernamealreadytaken'] = '申し訳ございません、このユーザ
 $string['usernameinvalidform'] = 'ユーザ名には空白を除く半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
 $string['usernameinvalidadminform'] = 'ユーザ名には空白を除く半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
 $string['youmaynotregisterwithouttandc'] = '<a href="terms.php">使用条件</a>に従うことを同意しない限り、あなたは登録することができません。';
+$string['pluginconnections'] = '接続オブジェクト';
+$string['pcdescription'] = '接続を選択する';
+$string['instancelistempty'] = 'このインスティテューションには接続オブジェクトはありません。';
+$string['addconnection'] = 'クライアント接続を追加する';
+$string['editconnection'] = 'クライアント接続を編集する';
+$string['clientconnections'] = 'クライアント接続';
+$string['plugin'] = '接続プラグイン';
+$string['clienturl'] = 'ウェブサービスURL';
+$string['password'] = 'パスワード';
+$string['parameters'] = '渡すための固定パラメータ';
+$string['certificate'] = 'XML-RPCパートナー証明書';
+$string['enable'] = '接続有効';
+$string['json'] = 'JSONエンコード';
+$string['isfatal'] = 'エラー時に致命的にする';
+$string['type'] = 'ウェブサービスタイプ';
+$string['nameexists'] = '名称がすでに使用されています。';
+$string['emptytoken'] = 'トークンを提供する必要があります。';
+$string['emptyuser'] = 'ユーザを提供する必要があります。';
+$string['emptyuserpass'] = 'パスワードを提供する必要があります。';
+$string['emptycert'] = '証明書を提供する必要があります。';
+$string['header'] = 'ヘッダ名';
+$string['useheader'] = 'ヘッダに認証を付加する';
+$string['invalidauthtypecombination'] = '%s に無効な認証タイプが選択されました。';
+$string['emptycertextended'] = '証明書ベースの認証を使用する場合、あなたはトークまたはユーザ名/パスワードも入力する必要があります。';
+$string['emptyoauthkey'] = 'OAuth1.xにコンシューマキーを提供する必要があります。';
+$string['emptyoauthsecret'] = 'OAuth1.xに秘密鍵を提供する必要があります。';
+$string['consumer'] = 'コンシューマキー';
+$string['secret'] = '秘密鍵';
 $string['control_webservices1'] = 'ウェブサービスを使用する:';
+$string['control_webservices'] = 'ウェブサービスをOnまたはOffに切り替える:';
+$string['control_webservices_connections'] = 'ウェブサービス接続をOnまたはOffに切り替える:';
 $string['masterswitch'] = 'ウェブサービスマスタースイッチ';
+$string['connectionsmasterswitch'] = 'ウェブサービスクライアント接続マスタースイッチ';
 $string['protocolswitches'] = 'プロトコルをOnまたはOffに切り替える';
+$string['connectionsswitch'] = '管理クライアント接続をOnまたはOffに切り替える';
 $string['manage_protocols'] = 'このインストレーションによってサポートされるプロトコルを有効または無効にします:';
 $string['protocol'] = 'プロトコル';
 $string['rest'] = 'REST';
@@ -87,6 +120,7 @@ $string['missingparamdesc'] = 'パラメータウェブサービスのみのユ�
 $string['missingimplofmeth'] = '「 %s 」のメソッドが実装されていません。';
 $string['cannotfindimplfile'] = '外部関数が実装されたファイルを見つけることができませんでした。';
 $string['apptokens'] = 'アプリケーション接続';
+$string['connections'] = '接続マネージャ';
 $string['servicetokens'] = 'サービスアクセストークンを管理する';
 $string['tokens'] = 'サービスアクセストークン';
 $string['users'] = 'サービスユーザ';
@@ -109,6 +143,7 @@ $string['oob'] = 'アウトオブバンドOAuth認証';
 $string['oobinfo'] = '以下のコードは許可されたデータにあなたの外部アプリケーションがアクセスするための認証コードです。続けるには関連付けられているアプリケーションの入力欄にコードをコピー＆ペーストしてください。';
 $string['instructions'] = 'インスティテューション';
 $string['webservicelogs'] = 'ウェブサービスログ';
+$string['webservicelogsnav'] = 'ログ';
 $string['timetaken'] = '所要時間';
 $string['timelogged'] = 'いつ';
 $string['info'] = '情報';
@@ -142,8 +177,12 @@ $string['arguments'] = '変数';
 $string['invalidparameter'] = '無効なパラメータ値が検出されました。実行を継続できません。';
 $string['wsdoc'] = 'ウェブサービスドキュメンテーション';
 $string['testclient'] = 'ウェブサービステストクライアント';
+$string['testclientnav'] = 'テストクライアント';
 $string['tokenauth'] = 'トークン';
 $string['userauth'] = 'ユーザ';
+$string['certauth'] = '証明書';
+$string['wsseauth'] = 'WSSE';
+$string['oauth1auth'] = 'OAuth1.x';
 $string['authtype'] = '認証タイプ';
 $string['sauthtype'] = '認証タイプ';
 $string['enterparameters'] = '関数パラメータを入力してください。';
@@ -155,6 +194,7 @@ $string['unabletoruntestclient'] = 'ウェブサービステストクライア�
 $string['accesstokens'] = 'OAuthアクセストークン';
 $string['notokens'] = 'あなたにはアプリケーショントークンがありません。';
 $string['oauth'] = 'OAuth';
+$string['oauth1'] = 'OAuth1.x';
 $string['oauthv1sregister'] = 'OAuthサービス登録';
 $string['userapplications'] = 'OAuthコンシューマキー';
 $string['accessto'] = 'アクセス対象';
@@ -166,7 +206,6 @@ $string['add'] = '追加';
 $string['oauthserverdeleted'] = 'サーバが削除されました。';
 $string['oauthtokendeleted'] = 'アプリケーショントークンが削除されました。';
 $string['errorregister'] = 'サーバ登録に失敗しました。';
-$string['serverkey'] = 'サーバキー: %s';
 $string['application_uri'] = 'アプリケーションURI';
 $string['application_title'] = 'アプリケーションタイトル';
 $string['errorupdate'] = '更新に失敗しました。';

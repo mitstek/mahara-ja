@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-06-05 11:59:56 UTC
+ * @updated    2016-07-08 15:27:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -26,6 +26,7 @@ $string['moveitemup'] = '上へ';
 $string['moveitemdown'] = '下へ';
 $string['edit'] = '編集';
 $string['editspecific'] = '「 %s 」を編集する';
+$string['connectspecific'] = '「 %s 」に接続する';
 $string['editing'] = '編集';
 $string['settingsspecific'] = '「 %s 」を設定する';
 $string['move'] = '移動';
