@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-06-26 09:34:53 UTC
+ * @updated    2016-07-11 03:21:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,6 +16,7 @@ defined('INTERNAL') || die();
 $string['groupname'] = 'グループ名';
 $string['groupshortname'] = '省略名';
 $string['creategroup'] = 'グループを作成する';
+$string['copygroup'] = 'グループ「 %s 」をコピーする';
 $string['groupmemberrequests'] = '保留中メンバーシップリクエスト';
 $string['membershiprequests'] = 'メンバーシップリクエスト';
 $string['sendinvitation'] = '招待状を送信する';
