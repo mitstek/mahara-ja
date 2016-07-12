@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-07-08 15:27:31 UTC
+ * @updated    2016-07-12 03:20:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -213,6 +213,7 @@ $string['allonline'] = 'すべてのオンラインユーザを表示する';
 $string['noonlineusersfound'] = 'オンラインユーザはいません。';
 $string['linksandresources'] = 'リンクおよびリソース';
 $string['accesstotallydenied_institutionsuspended'] = 'あなたのインスティテューション %s は現在利用停止されています。利用再開されるまで %s にログインすることはできません。詳細はあなたのインスティテューションにご連絡ください。';
+$string['accesstotallydenied_institutionexpired'] = 'あなたのインスティテューション %s は有効期限が切れています。有効期限切れが解消されるまで %s にログインすることはできません。詳細はあなたのインスティテューションにご連絡ください。';
 $string['accessforbiddentoadminsection'] = 'あなたは管理セクションへのアクセスを禁止されています。';
 $string['accountdeleted'] = '申し訳ございません、あなたのアカウントは削除されました。<a href="%scontact.php">サイト管理者にご連絡ください</a>。';
 $string['accountexpired'] = '申し訳ございません、あなたのアカウントの有効期限が切れました。あなたのアカウントを再度有効にするには<a href="%scontact.php">サイト管理者にご連絡ください</a>。';
