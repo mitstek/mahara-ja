@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2013-12-24 15:50:17 UTC
+ * @updated    2016-07-18 15:37:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -224,12 +224,12 @@ $string['removeblock'] = '%s ブロックを削除する';
 $string['removethisblock'] = 'このブロックを削除する';
 $string['blocktitle'] = 'ブロックタイトル';
 $string['changemyviewlayout'] = 'マイページのレイアウトを変更する';
-$string['viewcolumnspagedescription'] = '最初にあなたのページのカラム数を選択してください。次のステップで、あなたはカラム幅を変更することができます。';
+$string['viewcolumnspagedescription'] = '最初にあなたのページのカラム数を選択してください。あなたは次のステップでカラム幅を変更することができます。';
 $string['viewlayoutpagedescription'] = 'あなたのページカラムをどのように配置するか選択してください。';
 $string['changeviewlayout'] = 'マイページのカラムレイアウトを変更する';
 $string['viewlayoutchanged'] = 'ページレイアウトが変更されました。';
 $string['numberofcolumns'] = 'カラム数';
-$string['changecolumnlayoutfailed'] = 'カラムレイアウトを変更できませんでした。同時に他のユーザがレイアウトを編集したようです。';
+$string['changecolumnlayoutfailed'] = 'カラムレイアウトを変更できませんでした。同時に他のユーザがレイアウトを編集したようです。後で再度お試しください。';
 $string['by'] = 'by';
 $string['viewtitleby'] = '%s by <a href="%s">%s</a>';
 $string['viewauthor'] = 'by <a href="%s">%s</a>';
