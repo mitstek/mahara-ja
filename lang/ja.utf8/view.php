@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-07-10 13:45:25 UTC
+ * @updated    2016-07-18 15:33:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -257,12 +257,12 @@ $string['createcustomlayout'] = 'カスタムレイアウトを作成する';
 $string['createnewlayout'] = '新しいレイアウトを作成する';
 $string['basicoptions'] = '基本オプション';
 $string['advancedoptions'] = '高度なオプション';
-$string['viewcolumnspagedescription'] = '最初にあなたのページのカラム数を選択してください。次のステップで、あなたはカラム幅を変更することができます。';
+$string['viewcolumnspagedescription'] = '最初にあなたのページのカラム数を選択してください。あなたは次のステップでカラム幅を変更することができます。';
 $string['viewlayoutpagedescription'] = 'あなたのページをどのように配置するか選択してください。';
 $string['changeviewlayout'] = 'マイページのカラムレイアウトを変更する';
 $string['viewlayoutchanged'] = 'ページレイアウトが変更されました。';
 $string['numberofcolumns'] = 'カラム数';
-$string['changecolumnlayoutfailed'] = 'カラムレイアウトを変更できませんでした。同時に他のユーザがレイアウトを編集したようです。';
+$string['changecolumnlayoutfailed'] = 'カラムレイアウトを変更できませんでした。同時に他のユーザがレイアウトを編集したようです。後で再度お試しください。';
 $string['changerowlayoutfailed'] = '行のレイアウトを変更できませんでした。同時に他のユーザがレイアウトを編集している可能性があります。後で再度お試しください。';
 $string['Row'] = '行';
 $string['addarow'] = '行を追加する';
