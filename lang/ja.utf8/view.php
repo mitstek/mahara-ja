@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-07-18 15:33:50 UTC
+ * @updated    2016-07-21 11:11:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -263,7 +263,7 @@ $string['changeviewlayout'] = 'マイページのカラムレイアウトを変�
 $string['viewlayoutchanged'] = 'ページレイアウトが変更されました。';
 $string['numberofcolumns'] = 'カラム数';
 $string['changecolumnlayoutfailed'] = 'カラムレイアウトを変更できませんでした。同時に他のユーザがレイアウトを編集したようです。後で再度お試しください。';
-$string['changerowlayoutfailed'] = '行のレイアウトを変更できませんでした。同時に他のユーザがレイアウトを編集している可能性があります。後で再度お試しください。';
+$string['changerowlayoutfailed'] = '行のレイアウトを変更できませんでした。同時に他のユーザがレイアウトを編集したようです。後で再度お試しください。';
 $string['Row'] = '行';
 $string['addarow'] = '行を追加する';
 $string['removethisrow'] = 'この行を削除する';
@@ -295,9 +295,9 @@ $string['15,70,15'] = '15-70-15';
 $string['20,30,30,20'] = '20-30-30-20';
 $string['noviewlayouts'] = '%s カラムページのレイアウトがありません。';
 $string['cantaddcolumn'] = 'あなたはこれ以上、このページにカラムを追加することはできません。';
-$string['cantremovecolumn'] = 'あなたはこのページから最終カラムを削除することはできません。';
+$string['cantremovecolumn'] = 'あなたはこのページから最後のカラムを削除することはできません。';
 $string['blocktypecategory.external'] = '外部';
-$string['blocktypecategory.fileimagevideo'] = 'ファイル、イメージおよびビデオ';
+$string['blocktypecategory.fileimagevideo'] = 'メディア';
 $string['blocktypecategory.general'] = '一般';
 $string['blocktypecategory.internal'] = '個人情報';
 $string['blocktypecategorydesc.external'] = '外部オプションを表示するにはクリックしてください。';
@@ -313,12 +313,12 @@ $string['Search'] = '検索';
 $string['noartefactstochoosefrom'] = '申し訳ございません、選択するアーティファクトがありません。';
 $string['access'] = 'アクセス';
 $string['noaccesstoview'] = 'あなたにはこのページにアクセスするパーミッションがありません。';
-$string['changeviewtheme'] = 'あなたがこのページに選択したテーマは廃止されています。異なるテーマを選択してください。';
+$string['changeviewtheme'] = 'あなたがこのページに選択したテーマは廃止されています。別のテーマを選択してください。';
 $string['nothemeselected1'] = 'インスティテューションテーマを使用する';
 $string['Template'] = 'テンプレート';
 $string['allowcopying'] = 'コピーを許可する';
 $string['retainviewrights1'] = 'ページまたはコレクションのコピー時、ページアクセスを保持する';
-$string['templatedescriptionplural2'] = 'あなたが選択したページまたはコレクションを閲覧できるユーザに対して、ファイルおよびフォルダを含めて自分のページとしてコピーできるようにします。';
+$string['templatedescriptionplural2'] = 'あなたが選択したページまたはコレクションにユーザがアクセスできる場合、自分のページとしてコピーできるようにします。';
 $string['retainviewrightsdescription2'] = '他のユーザによりコピーされたページまたはコレクションに対して、あなたが選択したページまたはコレクションにアクセスできるようにします。希望すれば、コピー後にユーザが閲覧アクセスを無効にすることができます。このページまたはコレクションのコピーからコピーされたページまたはコレクションは同じアクセスを保持することはありません。';
 $string['retainviewrightsgroupdescription2'] = '他のユーザによりコピーされたページまたはコレクションに対して、このグループのメンバーが選択したページまたはコレクションにアクセスできるようにします。希望すれば、コピー後にユーザが閲覧アクセスを無効にすることができます。このページまたはコレクションのコピーからコピーされたページまたはコレクションは同じアクセスを保持することはありません。';
 $string['choosetemplatepageandcollectiondescription'] = '<p>ここでは新しいページ作成の出発点として、あなたがコピーを許可されているページを検索することができます。ページの名称をクリックすることにより、あなたはそれぞれのページのプレビューを表示することができます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため、該当する「ページをコピーする」ボタンをクリックして、コピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックすることにより、ページが属しているコレクション全体コピーすることができます。</p>';
