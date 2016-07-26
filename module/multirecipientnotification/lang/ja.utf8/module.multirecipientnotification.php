@@ -26,7 +26,7 @@ $string['notification'] = '通知';
 $string['cantsendemptysubject'] = 'あなたの件名は空です。件名を入力してください。';
 $string['cantsendemptytext'] = 'あなたのメッセージは空です。メッセージを入力してください。';
 $string['cantsendnorecipients'] = '少なくとも1名の受信者を選択してください。';
-$string['removeduserfromlist'] = 'あなたからのメッセージを受信できないユーザは受信者リストから削除されました。';
+$string['removeduserfromlist'] = 'あなたのメッセージを受信できないユーザは受信者リストから削除されました。';
 $string['deleteduser'] = '削除済みユーザ';
 $string['fromuser'] = 'From';
 $string['touser'] = 'To';
@@ -39,7 +39,7 @@ $string['labelinbox'] = '受信箱';
 $string['inboxdesc1'] = 'システムおよび他のユーザから受信したメッセージ';
 $string['replybuttonplaceholder'] = '...';
 $string['selectallread'] = 'すべての未読通知';
-$string['selectalldelete'] = '削除のためにすべての通知';
+$string['selectalldelete'] = 'すべての削除通知';
 $string['clickformore'] = '(さらに情報を表示するには「Enter」を押してください)';
 
 ?>
