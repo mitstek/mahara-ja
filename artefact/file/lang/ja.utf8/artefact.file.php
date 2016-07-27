@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-04-02 20:28:10 UTC
+ * @updated    2016-07-27 03:18:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -97,6 +97,7 @@ $string['files'] = 'ファイル';
 $string['Files'] = 'ファイル';
 $string['fileexists'] = 'ファイル登録済み';
 $string['fileexistsoverwritecancel'] = 'このファイル名のファイルはすでに登録されています。あなたは別のファイル名にするか、既存のファイルに上書きすることができます。';
+$string['fileisfolder'] = '「 {{filename}} 」はフォルダです。フォルダをアップロードするにはZIPアーカイブを作成してアップロードした後、下の解凍オプションを使用してください。';
 $string['filelistloaded'] = 'ファイルリストが読み込まれました。';
 $string['filemoved'] = 'ファイルが正常に移動されました。';
 $string['filenamefieldisrequired'] = 'ファイルフィールドは必須入力項目です。';
@@ -282,7 +283,7 @@ $string['nfolders'] = '%s フォルダ';
 $string['nfiles'] = '%s ファイル';
 $string['createdtwothings'] = '%s および %s を作成しました。';
 $string['filesextractedfromarchive'] = 'アーカイブから解凍されたファイル';
-$string['filesextractedfromziparchive'] = 'Zipアーカイブから解凍されたファイル';
+$string['filesextractedfromziparchive'] = 'ZIPアーカイブから解凍されたファイル';
 $string['fileswillbeextractedintofolder'] = 'ファイルは%s に解凍されます。';
 $string['insufficientquotaforunzip'] = 'このファイルを解凍するにはあなたの残りファイルクオータが小さすぎます。あなたはスペースを空けるためにファイルを削除すること、あなたのクオータを増やすために管理者に連絡することができます。';
 $string['invalidarchive'] = 'アーカイブファイルの読み込み中にエラーが発生しました。';
