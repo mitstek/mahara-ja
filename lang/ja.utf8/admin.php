@@ -294,7 +294,7 @@ $string['allowinstitutionpublicviewsdescription1'] = 'この設定を有効に�
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowpublicprofilesdescription1'] = 'ユーザはログインユーザのみではなく、外部からもアクセスできるようプロファイルページを設定することができます。';
 $string['allowanonymouspages'] = '匿名ページを許可する';
-$string['allowanonymouspagesdescription1'] = 'ユーザはページの作成者として、他のユーザから氏名を隠すことができます。
+$string['allowanonymouspagesdescription1'] = 'ユーザはページ作成者として他のユーザから氏名を隠すことができます。
 必要であれば、管理者は作成者の氏名を確認することができます。';
 $string['anonymouscomments'] = '匿名コメント';
 $string['anonymouscommentsdescription1'] = 'パブリックページまたはシークレットURLでアクセスできるページに誰でもコメントを残すことができます。';
