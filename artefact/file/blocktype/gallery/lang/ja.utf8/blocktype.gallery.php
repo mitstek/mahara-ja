@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-03-23 14:50:59 UTC
+ * @updated    2016-08-01 17:30:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -32,9 +32,9 @@ $string['showdescriptionsdescription'] = 'それぞれのイメージに説明�
 $string['cannotdisplayslideshow'] = 'スライドショーを表示できません。';
 $string['gallerysettings'] = 'ギャラリー設定';
 $string['useslimbox2'] = 'Slimbox 2を使用する';
-$string['useslimbox2desc1'] = 'この設定を有効にした場合、あなたのギャラリーにSlimbox 2が使用されます。あなたのギャラリーのイメージをクリックした場合、現在のページのオーバーレイとしてオープンされます。';
+$string['useslimbox2desc2'] = 'あなたのギャラリーにSlimbox 2が使用します。あなたのギャラリーのイメージをクリックした場合、現在のページのオーバーレイとしてオープンされます。';
 $string['photoframe'] = 'フォトフレームを使用する';
-$string['photoframedesc1'] = 'この設定を有効にした場合、ギャラリー内のそれぞれの写真のサムネイルの周りにフレームが描画されます。';
+$string['photoframedesc2'] = 'ギャラリー内のそれぞれの写真のサムネイルの周りにフレームが描画されます。';
 $string['previewwidth'] = '最大写真幅';
 $string['previewwidthdesc'] = 'Slimbox 2で表示される場合、写真がリサイズされる最大幅を設定してください。';
 $string['flickrsettings'] = 'Flickr設定';
