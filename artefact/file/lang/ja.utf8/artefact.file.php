@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-07-27 03:18:59 UTC
+ * @updated    2016-08-01 17:37:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -43,20 +43,20 @@ $string['Date'] = '登録日';
 $string['resizeonupload'] = 'アップロード時、イメージをリサイズする';
 $string['resizeonuploaddescription'] = 'アップロード時、自動的に大きなイメージをリサイズします。';
 $string['resizeonuploaduseroption1'] = 'ユーザオプション';
-$string['resizeonuploaduseroptiondescription2'] = 'この設定を有効にした場合、アップロード時の大きなイメージの自動リサイズを有効または無効にするオプションをユーザに表示します。';
+$string['resizeonuploaduseroptiondescription3'] = 'アップロード時の大きなイメージの自動リサイズを有効または無効にするオプションをユーザに表示します。';
 $string['resizeonuploadenable1'] = 'イメージを自動的にリサイズする';
 $string['resizeonuploadenablefilebrowser1'] = '%sx%s pxより大きなイメージを自動的にリサイズします (推奨)。';
 $string['resizeonuploadmaxwidth'] = '最大幅';
 $string['resizeonuploadmaxheight'] = '最大高さ';
-$string['resizeonuploadenabledescription2'] = 'この設定を有効にした場合、最大幅および高さ設定より大きなイメージのアップロード時にリサイズされます。';
+$string['resizeonuploadenabledescription3'] = '最大幅および高さ設定より大きなイメージのアップロード時にリサイズされます。';
 $string['defaultagreement'] = 'デフォルト同意書';
 $string['defaultquota'] = 'デフォルトクオータ';
 $string['defaultquotadescription'] = 'あなたは新しいユーザがクオータとして持つことのできるディスクスペース総量をここで設定することができます。既存のユーザのクオータは変更されません。';
 $string['defaultuserquota'] = 'デフォルトユーザクオータ';
 $string['updateuserquotas'] = 'ユーザクオータを更新する';
-$string['updateuserquotasdesc1'] = 'この設定を有効にした場合、あなたが上で選択したデフォルトクオータが既存のユーザすべてに適用されます。';
+$string['updateuserquotasdesc2'] = 'あなたが上で選択したデフォルトクオータが既存のユーザすべてに適用されます。';
 $string['institutionoverride1'] = 'インスティテューションオーバーライド';
-$string['institutionoverridedescription1'] = 'この設定を有効にした場合、インスティテューション管理者にユーザファイルクオータおよびそれぞれのインスティテューションのデフォルトクオータを設定できるようにします。';
+$string['institutionoverridedescription2'] = 'インスティテューション管理者にユーザファイルクオータおよびそれぞれのインスティテューションのデフォルトクオータを設定できるようにします。';
 $string['maxquotaenabled'] = 'サイト全体に最大クオータを強制する';
 $string['maxquota'] = '最大クオータ';
 $string['maxquotatoolow'] = '最大クオータはデフォルトクオータより小さくすることができません。';
@@ -66,7 +66,7 @@ $string['maxquotadescription'] = 'あなたは管理者がユーザに与える�
 $string['defaultgroupquota'] = 'デフォルトグループクオータ';
 $string['defaultgroupquotadescription'] = 'あなたは新しいグループがファイルエリアに使用することのできる最大クオータを設定することができます。既存のグループのクオータは影響を受けません。';
 $string['updategroupquotas'] = 'グループクオータを更新する';
-$string['updategroupquotasdesc1'] = 'この設定を有効にした場合、あなたが上で選択したデフォルトクオータが既存のグループすべてに適用されます。';
+$string['updategroupquotasdesc2'] = 'あなたが上で選択したデフォルトクオータが既存のグループすべてに適用されます。';
 $string['deletingfailed'] = '削除に失敗しました: すでにファイルまたはフォルダが存在していません。';
 $string['deletefile?'] = '本当にこのファイルを削除してもよろしいですか?';
 $string['deletefolder?'] = '本当にこのフォルダを削除してもよろしいですか?';
@@ -187,7 +187,7 @@ $string['textlinktouser'] = '%s のプロファイルを編集する';
 $string['quotanotifylimittitle1'] = 'クオータ通知閾値';
 $string['quotanotifylimitdescr1'] = 'ユーザのアップロードクオータがこのパーセンテージまで満杯になった場合、ユーザ (およびサイト管理者) に対してアップロード制限に到達しようとしている旨、通知が送信されます。ユーザはスペースを空けるためにファイルを削除またはクオータを増やすよう管理者に連絡することができます。';
 $string['quotanotifyadmin1'] = 'サイト管理者通知';
-$string['quotanotifyadmindescr2'] = 'この設定を有効にした場合、ユーザが通知閾値に達した時点でサイト管理者に通知されます。';
+$string['quotanotifyadmindescr3'] = 'ユーザが通知閾値に達した時点でサイト管理者に通知されます。';
 $string['useroverquotathreshold'] = 'ユーザ %s がファイルクオータの %s% パーセントに到達しました (ファイルクオータ: %s)。';
 $string['ai'] = 'Postscriptドキュメント';
 $string['aiff'] = 'AIFFオーディオファイル';
@@ -296,7 +296,7 @@ $string['filepermission.republish'] = '公開';
 $string['zipdownloadheading'] = 'フォルダダウンロード';
 $string['downloadfolderzip'] = 'フォルダをZIPファイルとしてダウンロードする';
 $string['downloadfolderzipblock'] = 'ダウンロードリンクを表示する';
-$string['downloadfolderzipdescription2'] = 'この設定を有効にした場合、ユーザは「フォルダ」ブロックに表示されたフォルダをZIPファイルとしてダウンロードすることができます。';
+$string['downloadfolderzipdescription3'] = 'ユーザが「フォルダ」ブロックに表示されたフォルダをZIPファイルとしてダウンロードできるようにします。';
 $string['downloadfolderzipdescriptionblock'] = 'この設定を有効にした場合、ユーザはフォルダをZIPファイルとしてダウンロードすることができます。';
 $string['downloadfolderziplink'] = 'フォルダコンテンツをZIPファイルとしてダウンロードする';
 $string['folderdownloadnofolderfound'] = 'ID %d のフォルダが見つかりません。';
