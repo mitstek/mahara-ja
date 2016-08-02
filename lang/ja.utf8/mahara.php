@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-07-12 03:52:51 UTC
+ * @updated    2016-08-02 06:19:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -736,7 +736,11 @@ $string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗�
 $string['phpuploaderror_8'] = 'ファイルアップロードは拡張子が原因で中止されました。';
 $string['adminphpuploaderror'] = 'ファイルアップロードエラーは恐らくあなたのサーバ設定を原因としています。';
 $string['youraccounthasbeensuspendedtext2'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。';
+$string['youraccounthasbeensuspendedtextcron'] = 'あなたの %s におけるアカウントが利用停止されました。';
 $string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。利用停止の理由は:
+
+%s';
+$string['youraccounthasbeensuspendedreasontextcron'] = 'あなたの %s におけるアカウントが利用停止されました。利用停止の理由は:
 
 %s';
 $string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用することができます。';
