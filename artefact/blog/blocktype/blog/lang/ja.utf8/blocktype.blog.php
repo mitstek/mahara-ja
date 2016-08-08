@@ -16,6 +16,6 @@ defined('INTERNAL') || die();
 $string['title'] = '日誌';
 $string['description'] = '日誌全体です (「コンテンツ -> 日誌」をご覧ください)。';
 $string['defaulttitledescription'] = 'ここを空白にした場合、日誌のタイトルが使用されます。';
-$string['postsperpage'] = '1ページあたりの記事数';
+$string['postsperpage'] = '1ページあたりのエントリ数';
 
 ?>
