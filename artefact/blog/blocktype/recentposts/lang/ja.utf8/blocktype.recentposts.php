@@ -28,8 +28,8 @@
 
 defined('INTERNAL') || die();
 
-$string['title'] = '最新の日誌エントリ';
-$string['description'] = '最新の日誌エントリを表示します。';
+$string['title'] = '最近の日誌エントリ';
+$string['description'] = '最近の日誌エントリを表示します。';
 $string['itemstoshow'] = '表示するアイテム数';
 $string['postedin'] = '-';
 $string['postedon'] = '投稿日時';
