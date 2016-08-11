@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-08-01 17:37:10 UTC
+ * @updated    2016-08-11 15:31:40 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -269,7 +269,8 @@ $string['uploadprofileicon'] = 'プロファイル写真をアップロードす
 $string['uploadedprofileicon'] = 'アップロードされたプロファイル写真';
 $string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイル写真をアップロードすることができます。プロファイル写真のアップロード後、あなたのデフォルト写真として表示する写真を1つ選択してください。16x16 から%sx%s ピクセルの間であなたの写真を作成してください。';
 $string['setdefault'] = 'デフォルトに設定する';
-$string['markfordeletion'] = '削除マークを付ける';
+$string['setdefaultfor'] = '「 %s 」のデフォルトに設定する';
+$string['markfordeletionspecific'] = '「 %s 」に 削除マークを付ける';
 $string['Title'] = 'タイトル';
 $string['imagetitle'] = 'イメージタイトル';
 $string['standardavatartitle'] = '標準または外部アバタ';
