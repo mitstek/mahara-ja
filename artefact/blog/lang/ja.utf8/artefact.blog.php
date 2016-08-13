@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-06-04 17:56:07 UTC
+ * @updated    2016-08-13 21:15:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -31,8 +31,8 @@ defined('INTERNAL') || die();
 $string['pluginname'] = '日誌';
 $string['blog'] = '日誌';
 $string['blogs'] = '日誌';
-$string['addblog'] = '日誌を追加する';
-$string['addpost'] = 'エントリを追加する';
+$string['addblog'] = '日誌を作成する';
+$string['addpost'] = '新しいエントリ';
 $string['alignment'] = '配置';
 $string['allowcommentsonpost'] = 'あなたのエントリへのコメントを許可します。';
 $string['allposts'] = 'すべてのエントリ';
@@ -85,7 +85,7 @@ $string['newblogpost'] = '日誌「 %s 」の新しい日誌エントリ';
 $string['newerposts'] = '新しいエントリ';
 $string['nodefaultblogfound'] = 'デフォルトの日誌が見つかりませんでした。このシステムバグを修正するにはあなたは<a href="%saccount/index.php">アカウント設定</a>ページで複数日誌オプションを有効にする必要があります。';
 $string['nopostsyet'] = 'まだエントリはありません';
-$string['noimageshavebeenattachedtothispost'] = 'このエントリにイメージは追加されませんでした。イメージを挿入できるようにするには事前にイメージをアップロードするか、添付してください。';
+$string['noimageshavebeenattachedtothispost'] = 'このエントリにイメージは追加されませんでした。イメージを挿入できるようにするには事前にイメージをアップロードするか添付してください。';
 $string['nofilesattachedtothispost'] = '添付ファイルなし';
 $string['noresults'] = '日誌エントリはありません。';
 $string['olderposts'] = '古いエントリ';
