@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-09-23 21:30:54 UTC
+ * @updated    2016-08-13 21:22:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -21,8 +21,8 @@ $string['blogs'] = '日誌';
 $string['siteblogs'] = 'サイト日誌';
 $string['institutionblogs'] = 'インスティテューション日誌';
 $string['groupblogs'] = 'グループ日誌';
-$string['addblog'] = '日誌を追加する';
-$string['addpost'] = 'エントリを追加する';
+$string['addblog'] = '日誌を作成する';
+$string['addpost'] = '新しいエントリ';
 $string['alignment'] = '配置';
 $string['allowcommentsonpost'] = 'あなたのエントリへのコメントを許可します。';
 $string['allposts'] = 'すべてのエントリ';
@@ -54,15 +54,15 @@ $string['createblog'] = '日誌を作成する';
 $string['dataimportedfrom'] = '%s からインポートされたデータ';
 $string['defaultblogtitle'] = '%s の日誌';
 $string['deleteblog?'] = '本当にこの日誌を削除してもよろしいですか?';
-$string['deletebloghaspost?'] = 'この日誌は %d エントリを含みます。本当にこの日誌を削除してもよろしいですか?';
-$string['deletebloghasview?'] = 'この日誌は %d ページで使用されているエントリを含みます。本当にこの日誌を削除してもよろしいですか?';
+$string['deletebloghaspost?'] = 'この日誌には %d エントリが含まれます。本当にこの日誌を削除してもよろしいですか?';
+$string['deletebloghasview?'] = 'この日誌には %d ページで使用されているエントリが含まれます。本当にこの日誌を削除してもよろしいですか?';
 $string['deleteblogpost?'] = '本当にこのエントリを削除してもよろしいですか?';
 $string['description'] = '説明';
 $string['dimensions'] = 'サイズ';
 $string['draft'] = '下書き';
 $string['edit'] = '編集';
 $string['editblogpost'] = '日誌エントリを編集する';
-$string['entriesimportedfromleapexport'] = 'LEAPエクスポートよりインポートされて他の場所にインポートできなかったエントリです。';
+$string['entriesimportedfromleapexport'] = 'Leap2Aエクスポートよりインポートされて他の場所にインポートできなかったエントリです。';
 $string['errorsavingattachments'] = '日誌エントリの添付ファイル保存中にエラーが発生しました。';
 $string['horizontalspace'] = '水平方向のスペース';
 $string['insert'] = '挿入';
@@ -80,7 +80,7 @@ $string['newblogpost'] = '日誌「 %s 」の新しい日誌エントリ';
 $string['newerposts'] = '新しいエントリ';
 $string['nodefaultblogfound'] = 'デフォルトの日誌が見つかりませんでした。このシステムバグを修正するにはあなたは<a href="%saccount/index.php">アカウント設定</a>ページで複数日誌オプションを有効にする必要があります。';
 $string['nopostsyet'] = 'まだエントリはありません';
-$string['noimageshavebeenattachedtothispost'] = 'このエントリにイメージは追加されませんでした。イメージを挿入できるようにするには事前にイメージをアップロードするか、添付してください。';
+$string['noimageshavebeenattachedtothispost'] = 'このエントリにイメージは追加されませんでした。イメージを挿入できるようにするには事前にイメージをアップロードするか添付してください。';
 $string['nofilesattachedtothispost'] = '添付ファイルなし';
 $string['noresults'] = '日誌エントリはありません。';
 $string['olderposts'] = '古いエントリ';
@@ -113,7 +113,7 @@ $string['viewblog'] = '日誌を表示する';
 $string['viewbloggroup'] = '「 %s 」日誌を表示する';
 $string['youarenottheownerofthisblog'] = 'あなたはこの日誌のオーナーではありません。';
 $string['youarenottheownerofthisblogpost'] = 'あなたはこの日誌エントリのオーナーではありません。';
-$string['youarenotanadminof'] = 'あなたは「 %s 」インスティテューションを管理する者ではありません。';
+$string['youarenotanadminof'] = 'あなたは「 %s 」インスティテューションの管理者ではありません。';
 $string['youarenotamemberof'] = 'あなたは「 %s 」グループのメンバーではありません。';
 $string['youarenotaneditingmemberof'] = 'あなたには「 %s 」グループ内の日誌を編集するパーミッションがありません。';
 $string['cannotdeleteblogpost'] = 'この日誌エントリの削除中にエラーが発生しました。';
