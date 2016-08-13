@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-07-02 15:14:32 UTC
+ * @updated    2016-08-13 21:22:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -21,8 +21,8 @@ $string['blogs'] = '日誌';
 $string['siteblogs'] = 'サイト日誌';
 $string['institutionblogs'] = 'インスティテューション日誌';
 $string['groupblogs'] = 'グループ日誌';
-$string['addblog'] = '日誌を追加する';
-$string['addpost'] = 'エントリを追加する';
+$string['addblog'] = '日誌を作成する';
+$string['addpost'] = '新しいエントリ';
 $string['alignment'] = '配置';
 $string['allowcommentsonpost'] = 'あなたのエントリへのコメントを許可します。';
 $string['allposts'] = 'すべてのエントリ';
@@ -64,7 +64,7 @@ $string['dimensions'] = 'サイズ';
 $string['draft'] = '下書き';
 $string['edit'] = '編集';
 $string['editblogpost'] = '日誌エントリを編集する';
-$string['entriesimportedfromleapexport'] = 'LEAPエクスポートよりインポートされて他の場所にインポートできなかったエントリです。';
+$string['entriesimportedfromleapexport'] = 'Leap2Aエクスポートよりインポートされて他の場所にインポートできなかったエントリです。';
 $string['errorsavingattachments'] = '日誌エントリの添付ファイル保存中にエラーが発生しました。';
 $string['horizontalspace'] = '水平方向のスペース';
 $string['insert'] = '挿入';
