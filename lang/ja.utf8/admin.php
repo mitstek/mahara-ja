@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-08-01 17:42:50 UTC
+ * @updated    2016-08-15 18:37:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -909,6 +909,16 @@ $string['errorupdatinginstitutionusers'] = 'インスティテューションユ
 $string['revokeinvitations'] = '招待を取り消す';
 $string['invitedusers'] = '招待されたユーザ';
 $string['userstobeuninvited'] = '招待するユーザ';
+$string['moveuserstoadd'] = '選択したメンバーリクエストをメンバーに変更する';
+$string['moveusersfromadd'] = '選択したメンバーをメンバーリクエストに変更する';
+$string['moveuserstoinvite'] = '選択した非メンバーを招待済みに変更する';
+$string['moveusersfrominvite'] = '選択した招待済みを非メンバーに変更する';
+$string['moveuserstoinviteinstitution'] = '選択した旧 %s のユーザを招待済みに変更する';
+$string['moveusersfrominviteinstitution'] = '選択した招待済みユーザを旧 %s のユーザに変更する';
+$string['movememberstoremove'] = '選択したメンバーを削除済みメンバーに変更する';
+$string['movemembersfromremove'] = '選択した削除済みメンバーをメンバーに変更する';
+$string['moveuserstouninvited'] = '選択した招待済みユーザを未招待に変更する';
+$string['moveusersfromuninvited'] = '選択した未招待ユーザを招待済みに変更する';
 $string['institutionusersupdated_addUserAsMember'] = 'ユーザが追加されました。';
 $string['institutionusersupdated_declineRequestFromUser'] = 'リクエストが拒否されました。';
 $string['institutionusersupdated_removeMembers'] = 'ユーザが削除されました。';
