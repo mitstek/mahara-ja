@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-05-31 07:47:09 UTC
+ * @updated    2016-08-17 15:17:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -24,11 +24,12 @@ $string['allowcomments'] = 'コメントを許可する';
 $string['approvalrequired'] = 'コメントはモデレートされています。あなたがこのコメントをパブリックにした場合、オーナーにより承認されるまで、他のユーザに表示されることはありません。';
 $string['attachfile'] = '添付ファイル';
 $string['Attachments'] = '添付ファイル';
-$string['cantedithasreplies'] = 'あなたは最新のコメントのみ編集することができます。';
+$string['cantedithasreplies'] = 'あなたは最新コメントのみ編集することができます。';
 $string['canteditnotauthor'] = 'あなたはこのコメントの投稿者ではありません。';
 $string['cantedittooold'] = 'あなたは投稿後 %d 分以内のコメントのみ編集することができます。';
 $string['commentmadepublic'] = 'コメントがパブリックにされました。';
-$string['commentdeletedauthornotification'] = 'あなたの %s のコメントが削除されました:';
+$string['commentdeletedauthornotification'] = 'あなたの %s のコメントが削除されました:
+%s';
 $string['commentdeletednotificationsubject'] = '%s のコメントが削除されました。';
 $string['commentnotinview'] = 'コメント %d はページ %d にありません。';
 $string['commentremoved'] = 'コメントが削除されました。';
@@ -37,8 +38,8 @@ $string['commentremovedbyowner'] = 'オーナーによりコメントが削除�
 $string['commentremovedbyadmin'] = '管理者によりコメントが削除されました。';
 $string['commentupdated'] = 'コメントが更新されました。';
 $string['editcomment'] = 'コメントを編集する';
-$string['editcommentdescription'] = 'あなたは新しい返信が追加されていない %d 分以内のコメントを更新することができます。この時間終了後、あなたはコメントを削除して、新たなコメントを追加することはできます。';
-$string['entriesimportedfromleapexport'] = 'LEAPエクスポートよりインポートされて他の場所にインポートできなかったエントリです。';
+$string['editcommentdescription'] = 'あなたは新しい返信が追加されていない %d 分以内のコメントを更新することができます。この時間終了後、あなたはコメントを削除して新たなコメントを追加することはできます。';
+$string['entriesimportedfromleapexport'] = 'Leap2Aエクスポートよりインポートされて他の場所にインポートできなかったエントリです。';
 $string['feedback'] = 'フィードバック';
 $string['feedbackattachdirname'] = 'コメントファイル';
 $string['feedbackattachdirdesc'] = 'あなたのポートフォリオのコメントに添付されたファイル';
@@ -49,7 +50,7 @@ $string['commentsubmittedmoderatedanon'] = 'コメントが送信されました
 $string['commentsubmittedprivateanon'] = 'プライベートコメントが送信されました。';
 $string['forcepubliccomment'] = 'パブリック';
 $string['forceprivatecomment'] = 'プライベート: この返信はあなたおよび先行するコメントの投稿者にのみ表示されます。';
-$string['lastcomment'] = '最新のコメント';
+$string['lastcomment'] = '最新コメント';
 $string['makepublic'] = 'パブリックにする';
 $string['makepublicnotallowed'] = 'あなたはこのコメントをパブリックにすることはできません。';
 $string['makepublicrequestsubject'] = 'リクエスト: プライベートコメントをパブリックに変更する';
@@ -59,7 +60,7 @@ $string['makepublicrequestsent'] = 'コメントをパブリックにするリ�
 $string['messageempty'] = 'あなたのメッセージは空白です。メッセージまたは添付ファイルを入力してください。';
 $string['Moderate'] = 'モデレート';
 $string['moderatecomments'] = 'コメントをモデレートする';
-$string['moderatecommentsdescription1'] = 'あなたに承認されるまで、ページのコメントはプライベートのままにされます。ファイルおよび日誌エントリ等の個々のコメントはモデレーションから除外されます。';
+$string['moderatecommentsdescription1'] = 'あなたに承認されるまでページのコメントはプライベートのままにされます。ファイルおよび日誌エントリ等の個々のコメントはモデレーションから除外されます。';
 $string['newcommentnotificationsubject'] = '%s の新しいコメント';
 $string['progress_feedback'] = '%s ユーザページにコメントする';
 $string['rating'] = 'レーティング';
