@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-06-04 18:00:32 UTC
+ * @updated    2016-08-13 21:16:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -31,8 +31,8 @@ defined('INTERNAL') || die();
 $string['pluginname'] = 'ブログ';
 $string['blog'] = 'ブログ';
 $string['blogs'] = 'ブログ';
-$string['addblog'] = 'ブログを追加する';
-$string['addpost'] = '記事を追加する';
+$string['addblog'] = 'ブログを作成する';
+$string['addpost'] = '新しい記事';
 $string['alignment'] = '配置';
 $string['allowcommentsonpost'] = 'あなたの記事へのコメントを許可します。';
 $string['allposts'] = 'すべての記事';
@@ -69,7 +69,7 @@ $string['dimensions'] = 'サイズ';
 $string['draft'] = '下書き';
 $string['edit'] = '編集';
 $string['editblogpost'] = 'ブログ記事を編集する';
-$string['entriesimportedfromleapexport'] = 'LEAPエクスポートよりインポートされて他の場所にインポートできなかったエントリです。';
+$string['entriesimportedfromleapexport'] = 'Leap2Aエクスポートよりインポートされて他の場所にインポートできなかったエントリです。';
 $string['errorsavingattachments'] = 'ブログ記事の添付ファイル保存中にエラーが発生しました。';
 $string['horizontalspace'] = '水平方向のスペース';
 $string['insert'] = '挿入';
