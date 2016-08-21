@@ -17,6 +17,6 @@ $string['title'] = 'フォルダ';
 $string['description'] = 'あなたのファイルエリアの単独フォルダです (「コンテンツ -> ファイル」をご覧ください)。';
 $string['defaulttitledescription'] = 'ここを空白にした場合、フォルダのタイトルが使用されます。';
 $string['foldersettings'] = 'フォルダ設定';
-$string['defaultsortorder'] = 'デフォルトのファイル並び順';
+$string['defaultsortorder'] = 'デフォルトのファイル並べ替え順';
 
 ?>
