@@ -37,7 +37,7 @@ $string['selectexternal'] = '外部ギャラリーよりイメージを表示す
 $string['externalgalleryurl'] = 'ギャラリーURLまたはRSS';
 $string['externalgalleryurldesc'] = 'あなたは次の外部ギャラリーを埋め込むことができます:';
 $string['width'] = '幅';
-$string['widthdescription'] = 'あなたのイメージの幅 (ピクセル) を指定してください。イメージがこの幅にサイズ変更されます。';
+$string['widthdescription'] = 'あなたのイメージの幅 (ピクセル) を指定してください。イメージはこの幅にサイズ変更されます。';
 $string['style'] = 'スタイル';
 $string['stylethumbs'] = 'サムネイル';
 $string['stylesquares'] = 'サムネイル (正方形)';
@@ -52,7 +52,7 @@ $string['previewwidth'] = '最大写真幅';
 $string['previewwidthdesc'] = 'Slimbox2で表示される場合、写真がリサイズされる最大幅を設定してください。';
 $string['flickrsettings'] = 'Flickr設定';
 $string['flickrapikey'] = 'Flickr APIキー';
-$string['flickrapikeydesc'] = 'Flickrのフォトセットを表示するにはあなたは有効なFlickr APIキーが必要です。<a href="http://www.flickr.com/services/api/keys/apply/" target="_blank">あなたのキーをオンラインで取得してください</a>。';
+$string['flickrapikeydesc'] = 'Flickrのフォトセットを表示するにはあなたは有効なFlickr APIキーが必要です。<a href="http://www.flickr.com/services/api/keys/apply/" target="_blank">あなたのキーをオンラインで適用してください</a>。';
 $string['flickrsets'] = 'Flickrセット';
 $string['pbsettings'] = 'Photobucket設定';
 $string['pbapikey'] = 'Photobucket APIキー';
