@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-08-01 17:30:02 UTC
+ * @updated    2016-08-23 09:35:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -22,7 +22,7 @@ $string['selectexternal'] = '外部ギャラリーよりイメージを表示す
 $string['externalgalleryurl'] = 'ギャラリーURLまたはRSS';
 $string['externalgalleryurldesc'] = 'あなたは次の外部ギャラリーを埋め込むことができます:';
 $string['width'] = '幅';
-$string['widthdescription'] = 'あなたのイメージの幅 (ピクセル) を指定してください。イメージがこの幅にサイズ変更されます。';
+$string['widthdescription'] = 'あなたのイメージの幅 (ピクセル) を指定してください。イメージはこの幅にサイズ変更されます。';
 $string['style'] = 'スタイル';
 $string['stylethumbs'] = 'サムネイル';
 $string['stylesquares'] = 'サムネイル (正方形)';
@@ -32,14 +32,14 @@ $string['showdescriptionsdescription'] = 'それぞれのイメージに説明�
 $string['cannotdisplayslideshow'] = 'スライドショーを表示できません。';
 $string['gallerysettings'] = 'ギャラリー設定';
 $string['useslimbox2'] = 'Slimbox 2を使用する';
-$string['useslimbox2desc2'] = 'あなたのギャラリーにSlimbox 2が使用します。あなたのギャラリーのイメージをクリックした場合、現在のページのオーバーレイとしてオープンされます。';
+$string['useslimbox2desc2'] = 'あなたのギャラリーにSlimbox 2を使用します。あなたのギャラリーのイメージをクリックした場合、現在のページのオーバーレイとしてオープンされます。';
 $string['photoframe'] = 'フォトフレームを使用する';
 $string['photoframedesc2'] = 'ギャラリー内のそれぞれの写真のサムネイルの周りにフレームが描画されます。';
 $string['previewwidth'] = '最大写真幅';
-$string['previewwidthdesc'] = 'Slimbox 2で表示される場合、写真がリサイズされる最大幅を設定してください。';
+$string['previewwidthdesc'] = '写真がSlimbox 2で表示される場合、リサイズされる最大幅を設定してください。';
 $string['flickrsettings'] = 'Flickr設定';
 $string['flickrapikey'] = 'Flickr APIキー';
-$string['flickrapikeydesc'] = 'Flickrのフォトセットを表示するにはあなたは有効なFlickr APIキーが必要です。<a href="https://www.flickr.com/services/api/keys/apply/">あなたのキーをオンラインで取得してください</a>。';
+$string['flickrapikeydesc'] = 'Flickrのフォトセットを表示するにはあなたは有効なFlickr APIキーが必要です。<a href="https://www.flickr.com/services/api/keys/apply/">あなたのキーをオンラインで適用してください</a>。';
 $string['flickrsets'] = 'Flickrセット';
 $string['pbsettings'] = 'Photobucket設定';
 $string['pbapikey'] = 'Photobucket APIキー';
