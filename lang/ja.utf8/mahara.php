@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-08-01 17:24:11 UTC
+ * @updated    2016-08-23 15:42:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -140,8 +140,8 @@ $string['itemstaggedwith'] = '「 %s 」でタグ付けされたアイテム';
 $string['nitems'] = '%s アイテム';
 $string['searchresultsfor'] = '検索結果:';
 $string['alltags'] = 'すべてのタグ';
-$string['sortalpha'] = 'タグをアルファベット順でソートする';
-$string['sortfreq'] = 'タグを使用頻度順でソートする';
+$string['sortalpha'] = 'タグをアルファベット順で並べ替える';
+$string['sortfreq'] = 'タグを使用頻度順で並べ替える';
 $string['sortresultsby'] = '並べ替え:';
 $string['sortedby'] = '並べ替え';
 $string['sortby'] = '並べ替え:';
