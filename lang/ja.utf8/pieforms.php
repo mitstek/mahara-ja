@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-23 13:18:53 UTC
+ * @updated    2016-08-26 04:58:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -61,5 +61,6 @@ $string['switchbox.on'] = 'On';
 $string['switchbox.off'] = 'Off';
 $string['switchbox.yes'] = 'Yes';
 $string['switchbox.no'] = 'No';
+$string['requiredfields'] = '「 %s 」によってマークされたフィールドは必須入力項目です。';
 
 ?>
