@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-08-30 05:01:33 UTC
+ * @updated    2016-08-31 20:32:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -152,7 +152,7 @@ $string['selectafile'] = 'ファイルを選択する';
 $string['selectingfailed'] = '選択に失敗しました: すでにファイルまたはフォルダが存在していません。';
 $string['Size'] = 'サイズ';
 $string['License'] = 'ライセンス';
-$string['spaceused'] = '使用スペース';
+$string['spaceused'] = '使用済みスペース';
 $string['timeouterror'] = 'ファイルのアップロードに失敗しました: ファイルのアップロードを再度お試しください。';
 $string['title'] = '名称';
 $string['titlefieldisrequired'] = '名称フィールドは必須入力項目です。';
@@ -175,7 +175,7 @@ $string['usecustomagreement'] = 'カスタム同意書を使用する';
 $string['youmustagreetothecopyrightnotice'] = 'あなたは著作権表示に同意する必要があります。';
 $string['fileuploadedtofolderas'] = '%s が %s に「 %s 」としてアップロードされました。';
 $string['fileuploadedas'] = '%s が「 %s 」としてアップロードされました。';
-$string['insufficientmemoryforresize'] = '(イメージのリサイズのために十分なメモリがありません。アップロード前にリサイズすることをお考えください)';
+$string['insufficientmemoryforresize'] = '(イメージのリサイズのために十分なメモリがありません。アップロード前に手動でリサイズすることをお考えください)';
 $string['quotanotifylimitoutofbounds'] = '通知制限はパーセントで入力して、0から100までの数字である必要があります。';
 $string['usernotificationsubject'] = 'あなたのファイルストレージがほぼ満杯です。';
 $string['usernotificationmessage'] = 'あなたはファイルクオータの %s% を使用しています (ファイルクオータ: %s)。あなたの制限を増分するためにサイト管理者にご連絡ください。';
