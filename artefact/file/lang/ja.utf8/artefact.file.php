@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-01 13:41:59 UTC
+ * @updated    2016-09-01 13:48:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -292,7 +292,7 @@ $string['invalidarchivehandle'] = '無効なアーカイブファイル操作で
 $string['cannotopenarchive'] = 'アーカイブファイル %s を開くことができません。';
 $string['cannotreadarchivecontent'] = 'アーカイブファイルを読むことができません。';
 $string['cannotextractarchive'] = 'アーカイブファイルを %s に解凍できません。';
-$string['cannotcopytemparchive'] = 'アーカイブファイルを %s から %s 移動できません。';
+$string['cannotcopytemparchive'] = 'アーカイブファイルを %s から %s に移動できません。';
 $string['cannotdeletetemparchive'] = '一時アーカイブファイル %s を削除できません。';
 $string['pleasewaitwhileyourfilesarebeingunzipped'] = 'あなたのファイルを解凍中です。しばらくお待ちください。';
 $string['spacerequired'] = '必要サイズ';
