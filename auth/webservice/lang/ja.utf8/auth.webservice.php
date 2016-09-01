@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-07-08 17:31:23 UTC
+ * @updated    2016-09-01 13:46:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -77,14 +77,14 @@ $string['emptyoauthkey'] = 'OAuth1.xにコンシューマキーを提供する�
 $string['emptyoauthsecret'] = 'OAuth1.xに秘密鍵を提供する必要があります。';
 $string['consumer'] = 'コンシューマキー';
 $string['secret'] = '秘密鍵';
-$string['control_webservices1'] = 'ウェブサービスを使用する:';
 $string['control_webservices'] = 'ウェブサービスをOnまたはOffに切り替える:';
-$string['control_webservices_connections'] = 'ウェブサービス接続をOnまたはOffに切り替える:';
-$string['masterswitch'] = 'ウェブサービスマスタースイッチ';
-$string['connectionsmasterswitch'] = 'ウェブサービスクライアント接続マスタースイッチ';
-$string['protocolswitches'] = 'プロトコルをOnまたはOffに切り替える';
+$string['webservice_requester_enabled_label'] = 'ウェブサービスリクエストマスタースイッチ';
+$string['webservice_requester_enabled_label2'] = '外向きのウェブサービスリクエストを許可する:';
+$string['webservice_provider_enabled_label'] = 'ウェブサービスプロバイダマスタースイッチ';
+$string['webservice_provider_enabled_label2'] = '内向きのウェブサービスリクエストを許可する:';
+$string['webservice_master_switches'] = 'ウェブサービス機能を有効にする';
 $string['connectionsswitch'] = '管理クライアント接続をOnまたはOffに切り替える';
-$string['manage_protocols'] = 'このインストレーションによってサポートされるプロトコルを有効または無効にします:';
+$string['manage_protocols1'] = 'ウェブサービスプロバイダとしてサポートされるプロトコルを有効または無効にする:';
 $string['protocol'] = 'プロトコル';
 $string['rest'] = 'REST';
 $string['soap'] = 'SOAP';
