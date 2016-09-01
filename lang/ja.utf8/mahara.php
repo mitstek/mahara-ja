@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-08-23 15:42:48 UTC
+ * @updated    2016-09-01 13:39:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -711,7 +711,6 @@ $string['belongingto'] = '所属';
 $string['allusers'] = 'すべてのユーザ';
 $string['attachment'] = '添付ファイル';
 $string['editaccess'] = 'アクセスを編集する';
-$string['quarantinedirname'] = '隔離場所';
 $string['clammovedfile'] = 'ファイルが隔離ディレクトリに移動されました。';
 $string['clamdeletedfile'] = 'ファイルが削除されました。';
 $string['clamdeletedfilefailed'] = 'ファイルを削除できませんでした。';
@@ -740,6 +739,9 @@ $string['phpuploaderror_6'] = '一時フォルダがありません。';
 $string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。あなたのファイルシステムに関してMaharaデータルートおよびPHP「upload_tmp_dir」ディレクトリへの書き込みに十分なスペースがあるか確認してください。';
 $string['phpuploaderror_8'] = 'ファイルアップロードは拡張子が原因で中止されました。';
 $string['adminphpuploaderror'] = 'ファイルアップロードエラーは恐らくあなたのサーバ設定を原因としています。';
+$string['noinputnamesupplied'] = '入力名が提供されていません。';
+$string['cannotrenametempfile'] = '一時ファイルをリネームすることはできません。';
+$string['failedmovingfiletodataroot'] = 'アップロード済みファイルをdatarootに移動することはできません。';
 $string['youraccounthasbeensuspendedtext2'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。';
 $string['youraccounthasbeensuspendedtextcron'] = 'あなたの %s におけるアカウントが利用停止されました。';
 $string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。利用停止の理由は:

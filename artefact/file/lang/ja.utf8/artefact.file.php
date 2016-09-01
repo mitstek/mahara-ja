@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-08-31 20:32:29 UTC
+ * @updated    2016-09-01 13:41:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -287,7 +287,13 @@ $string['filesextractedfromarchive'] = 'アーカイブから解凍されたフ�
 $string['filesextractedfromziparchive'] = 'ZIPアーカイブから解凍されたファイル';
 $string['fileswillbeextractedintofolder'] = 'ファイルは%s に解凍されます。';
 $string['insufficientquotaforunzip'] = 'このファイルを解凍するにはあなたの残りファイルクオータが小さすぎます。あなたはスペースを空けるためにファイルを削除すること、あなたのクオータを増やすために管理者に連絡することができます。';
-$string['invalidarchive'] = 'アーカイブファイルの読み込み中にエラーが発生しました。';
+$string['invalidarchive1'] = '無効なアーカイブファイルです。';
+$string['invalidarchivehandle'] = '無効なアーカイブファイル操作です。';
+$string['cannotopenarchive'] = 'アーカイブファイル %s を開くことができません。';
+$string['cannotreadarchivecontent'] = 'アーカイブファイルを読むことができません。';
+$string['cannotextractarchive'] = 'アーカイブファイルを %s に解凍できません。';
+$string['cannotcopytemparchive'] = 'アーカイブファイルを %s から %s 移動できません。';
+$string['cannotdeletetemparchive'] = '一時アーカイブファイル %s を削除できません。';
 $string['pleasewaitwhileyourfilesarebeingunzipped'] = 'あなたのファイルを解凍中です。しばらくお待ちください。';
 $string['spacerequired'] = '必要サイズ';
 $string['unzipprogress'] = '%s 個のファイル/フォルダが作成されました。';
