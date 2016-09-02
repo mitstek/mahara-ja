@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-02 06:18:02 UTC
+ * @updated    2016-09-02 16:08:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,6 +13,7 @@
 
 defined('INTERNAL') || die();
 
+$string['active'] = 'アクティブ';
 $string['add'] = '追加';
 $string['addone'] = '追加';
 $string['cancel'] = 'キャンセル';

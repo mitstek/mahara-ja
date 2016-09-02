@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-02 15:32:46 UTC
+ * @updated    2016-09-02 15:45:28 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['certificate1'] = 'SAMLサービスプロバイダ署名および暗号化認証';
-$string['manage_certificate1'] = 'これはSAMLサービスプロバイダ<a href="%s">メタデータ</a>の一部として生成された証明書です';
+$string['manage_certificate1'] = 'これはSAMLサービスプロバイダ<a href="%s">メタデータ</a>の一部として生成された証明書です。';
 $string['nullprivatecert'] = '秘密鍵を生成または保存できませんでした。';
 $string['nullpubliccert'] = '公開鍵を生成または保存できませんでした。';
 $string['defaultinstitution'] = 'デフォルトインスティテューション';
