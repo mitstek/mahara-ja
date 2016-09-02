@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-02 05:08:19 UTC
+ * @updated    2016-09-02 16:12:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -206,8 +206,7 @@ $string['js'] = 'Javaスクリプトファイル';
 $string['latex'] = 'LaTeXドキュメント';
 $string['m3u'] = 'M3Uオーディオファイル';
 $string['mp3'] = 'MP3オーディオファイル';
-$string['mp4_audio'] = 'MP4オーディオファイル';
-$string['mp4_video'] = 'MP4ビデオファイル';
+$string['mp4'] = 'MP4メディアファイル';
 $string['mpeg'] = 'MPEGムービー';
 $string['odb'] = 'OpenOffice / LibreOffice Baseデータベースファイル';
 $string['odc'] = 'OpenOffice / LibreOffice Calcファイル';
@@ -222,6 +221,7 @@ $string['oth'] = 'OpenOffice / LibreOfficeウェブドキュメント';
 $string['ott'] = 'OpenOffice / LibreOfficeテンプレートドキュメント';
 $string['oga'] = 'OGAオーディオファイル';
 $string['ogv'] = 'OGVビデオファイル';
+$string['ogg'] = 'OGG Vorbisオーディオファイル';
 $string['pdf'] = 'PDFドキュメント';
 $string['png'] = 'PNGイメージ';
 $string['ppt'] = 'MS Powerpointドキュメント';
@@ -246,6 +246,8 @@ $string['mpg'] = 'MPGムービー';
 $string['ram'] = 'RAM RealPlayerムービー';
 $string['rpm'] = 'RPM RealPlayerムービー';
 $string['rm'] = 'RM RealPlayerムービー';
+$string['webm'] = 'WEBMビデオファイル';
+$string['3gp'] = '3GPPメディアファイル';
 $string['cantcreatetempprofileiconfile'] = '一時プロファイル写真イメージを %s に書き込むことができませんでした。';
 $string['profileiconsize'] = 'プロファイル写真サイズ';
 $string['profileicons'] = 'プロファイル写真';
