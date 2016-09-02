@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-11-03 16:52:36 UTC
+ * @updated    2016-09-02 16:14:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -84,6 +84,7 @@ $string['overrideaccess'] = 'アクセスをオーバーライドする';
 $string['potentialviews'] = '潜在的ページ';
 $string['saveapply'] = '適用して保存する';
 $string['savecollection'] = 'コレクションを保存する';
+$string['smartevidence'] = 'スマートエビデンス';
 $string['update'] = '更新';
 $string['usecollectionname'] = 'コレクション名を使用しますか?';
 $string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしてください。';

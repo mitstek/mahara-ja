@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-08-19 08:30:08 UTC
+ * @updated    2016-09-02 16:21:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -291,6 +291,9 @@ $string['allowpublicviews'] = 'パブリックページを許可する';
 $string['allowpublicviewsdescription1'] = 'ユーザはログインユーザのみではなく、外部からもアクセスできるポートフォリオページを作成することができます。';
 $string['allowinstitutionpublicviews'] = 'インスティテューションパブリックページを許可する';
 $string['allowinstitutionpublicviewsdescription2'] = 'このインスティテューションに属するユーザはログインユーザのみではなく、外部からもアクセスできるポートフォリオページを作成することができます。';
+$string['allowinstitutionsmartevidence'] = 'スマートエビデンスを許可する';
+$string['allowinstitutionsmartevidencedescription'] = 'コレクションをコンピテンシーフレームワークにリンクされるスマートエビデンスコレクションに変更します。';
+$string['institutionsmartevidencenotallowed'] = 'あなたはスマートエビデンスオプションを設定する前に「プラグイン管理」ページで「スマートエビデンス」モジュールを有効にする必要があります。';
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowpublicprofilesdescription1'] = 'ユーザはログインユーザのみではなく、外部からもアクセスできるようプロファイルページを設定することができます。';
 $string['allowanonymouspages'] = '匿名ページを許可する';
