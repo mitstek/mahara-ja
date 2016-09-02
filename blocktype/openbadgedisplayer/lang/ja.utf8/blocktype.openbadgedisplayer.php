@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-05-11 15:24:19 UTC
+ * @updated    2016-09-02 15:36:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -28,9 +28,9 @@ $string['desc'] = '説明';
 $string['criteria'] = 'クライテリア';
 $string['nbadges'] = '%s バッジ';
 $string['nobackpack'] = 'Backpackが見つかりませんでした。<br />あなたの<a href="%s">プロファイル</a>に<a href="%s">Backpack</a>のメールアドレスを入力してください。';
-$string['nobadgegroups'] = 'パブリックバッジコレクション/バッジは見つかりませんでした。';
+$string['nobadgegroups'] = 'パブリックバッジコレクション / バッジは見つかりませんでした。';
 $string['nobackpackidin'] = 'あなたのメールアドレスはサービス「 %s 」内に見つかりませんでした。';
-$string['nobadgegroupsin'] = '次のサービス内にパブリックバッジコレクション/バッジは見つかりませんでした: %s';
+$string['nobadgegroupsin'] = '次のサービス内にパブリックバッジコレクション / バッジは見つかりませんでした: %s';
 $string['confighelp'] = 'このブロックで表示するバッジコレクションを選択してください。<br/>あなたのコレクションおよびバッジを管理するには次のサービスにアクセスしてください:<br />%s';
 $string['obppublicbadges'] = 'Open Badge Passport内すべてのパブリックバッジ';
 $string['title_backpack'] = 'Mozilla Backpack';
