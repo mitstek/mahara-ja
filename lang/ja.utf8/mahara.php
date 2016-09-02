@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-01 13:39:07 UTC
+ * @updated    2016-09-02 06:18:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -145,7 +145,7 @@ $string['sortfreq'] = 'タグを使用頻度順で並べ替える';
 $string['sortresultsby'] = '並べ替え:';
 $string['sortedby'] = '並べ替え';
 $string['sortby'] = '並べ替え:';
-$string['adminfirst'] = 'Adminを最初に';
+$string['adminfirst'] = '管理者を最初に';
 $string['nameatoz'] = '名: A -> Z';
 $string['nameztoa'] = '名: Z -> A';
 $string['firstjoined'] = '登録日昇順';
