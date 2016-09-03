@@ -5,11 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
-<<<<<<< HEAD
- * @updated    2015-06-30 08:51:39 UTC
-=======
- * @updated    2014-10-13 16:13:38 UTC
->>>>>>> 12fb01111f849f2bfac6499bd1d5907b2de4f040
+ * @updated    2016-09-03 14:33:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -159,7 +155,6 @@ $string['socialprofile'] = 'ソーシャルメディア';
 $string['socialprofiles'] = 'ソーシャルメディアアカウント';
 $string['service'] = 'ソーシャルサイト名';
 $string['servicedesc'] = 'ソーシャルサイトの名称を入力してください。例) Facebook、LinkedIn、Twitter等';
-<<<<<<< HEAD
 $string['profileurl'] = 'あなたのURLまたはユーザ名';
 $string['profileurldesc'] = 'あなたのプロファイルページのURLまたはユーザ名です。';
 $string['profileurlexists'] = 'あなたがすでに入力したユーザ名またはURLと重複しているため、このソーシャルメディアアカウントを追加することはできません。';
@@ -174,23 +169,5 @@ $string['profiledeletedsuccessfully'] = 'ソーシャルメディアアカウン
 $string['profilesavedsuccessfully'] = 'ソーシャルメディアアカウントが正常に保存されました。';
 $string['socialprofilerequired'] = '少なくとも1つのソーシャルメディアアカウントが必要です。';
 $string['duplicateurl'] = 'ソーシャルメディアアカウントユーザ名またはURLがあなたがすでに入力したものと重複しています。';
-=======
-$string['profileurl'] = 'ソーシャルプロファイルURL';
-$string['profileurldesc'] = '古いメッセージングサービスに関して、あなたのユーザ名、スクリーン名またはナンバーを入力してください。そうでない場合、あなたのソーシャルプロファイルのURLを入力してください。';
-$string['profileurlexists'] = 'すでに存在しているため、このソーシャルプロファイルURLを追加することはできません。';
-$string['profiletype'] = 'ソーシャルプロファイルタイプ';
-$string['profiletypedesc'] = 'あなたが古いメッセージングサービスの1つを追加したい場合、リストから選択してください。すべての新しいソーシャルサービスの場合、「ウェブページ」オプションを選択したままにしてください。';
-$string['webpage'] = 'ウェブページ';
-$string['deleteprofile'] = 'ソーシャルプロファイルを削除する';
-$string['deletethisprofile'] = 'ソーシャルプロファイルを削除する:「 %s 」';
-$string['deleteprofileconfirm'] = '本当にこのソーシャルプロファイルを削除してもよろしいですか?';
-$string['editthisprofile'] = 'ソーシャルプロファイルを編集する:「 %s 」';
-$string['newsocialprofile'] = '新しいソーシャルプロファイル';
-$string['notvalidprofileurl'] = 'これは有効なソーシャルプロファイルURLではありません。有効なURLを入力するか、上記リストより適切なメッセージングサービスを選択してください。';
-$string['profiledeletedsuccessfully'] = 'ソーシャルプロファイルが正常に削除されました。';
-$string['profilesavedsuccessfully'] = 'ソーシャルプロファイルが正常に保存されました。';
-$string['socialprofilerequired'] = '少なくとも1つのソーシャルプロファイルが必要です。';
-$string['duplicateurl'] = 'このソーシャルプロファイルURLは重複しています。';
->>>>>>> 12fb01111f849f2bfac6499bd1d5907b2de4f040
 
 ?>

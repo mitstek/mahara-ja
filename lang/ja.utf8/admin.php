@@ -5,11 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
-<<<<<<< HEAD
- * @updated    2016-08-19 08:33:33 UTC
-=======
- * @updated    2014-10-13 16:17:51 UTC
->>>>>>> 12fb01111f849f2bfac6499bd1d5907b2de4f040
+ * @updated    2016-09-03 14:33:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -716,14 +712,10 @@ $string['thisuserdeleted'] = 'このユーザは削除されました。';
 $string['disableemail'] = 'メールを無効にする';
 $string['exportqueue'] = 'キューをエクスポートする';
 $string['exportcontentname'] = 'コンテンツをエクスポートする';
-<<<<<<< HEAD
 $string['selectuserexport'] = 'エクスポートするためにコンテンツ「 %s 」を選択する';
 $string['selectuserexportdelete'] = 'エクスポートキューから削除するためにコンテンツ「 %s 」を選択する';
 $string['exportpending'] = '%s 現在の保留';
 $string['exportfailed'] = '失敗 %s';
-=======
-$string['Archive'] = 'アーカイブ';
->>>>>>> 12fb01111f849f2bfac6499bd1d5907b2de4f040
 $string['exportqueuedeleted'] = '%s 行が正常に削除されました。';
 $string['exportqueuearchived'] = '%s 行が正常に更新されました。';
 $string['exportdataascsv'] = 'すべてのデータをCSVフォーマットでエクスポートする';
