@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-02 16:12:43 UTC
+ * @updated    2016-09-06 13:32:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -162,7 +162,7 @@ $string['typefolder'] = 'フォルダ';
 $string['upload'] = 'アップロード';
 $string['uploadagreement'] = 'アップロード同意書';
 $string['uploadagreementdescription'] = 'サイトにファイルをアップロードする前、あなたが以下のテキストへの同意をユーザに強制したい場合、このオプションを有効にしてください。';
-$string['uploadexceedsquota'] = 'このプロファイル写真をアップロードすることであなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
+$string['uploadexceedsquota'] = 'このファイルをアップロードすることであなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
 $string['uploadexceedsquotagroup'] = 'このファイルをアップロードすることでこのグループのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
 $string['uploadfile'] = 'ファイルをアップロードする';
 $string['uploadfileexistsoverwritecancel'] = 'この名称のファイルはすでに登録されています。あなたがアップロードしようとしているファイルをリネームするか、既存のファイルに上書きすることができます。';
