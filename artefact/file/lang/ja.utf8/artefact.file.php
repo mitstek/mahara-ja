@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-10-01 06:44:26 UTC
+ * @updated    2016-09-06 13:40:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -206,29 +206,29 @@ $string['deleteselectedicons'] = '選択されたプロファイル写真を削�
 $string['profileicon'] = 'プロファイル写真';
 $string['noimagesfound'] = 'イメージはありません。';
 $string['uploadedprofileiconsuccessfully'] = '新しいプロファイル写真が正常にアップロードされました。';
-$string['profileiconsetdefaultnotvalid'] = 'デフォルトのプロファイル写真を設定できませんでした。選択が正しくありません。';
+$string['profileiconsetdefaultnotvalid'] = 'デフォルトプロファイル写真を設定できませんでした。選択が正しくありません。';
 $string['profileiconsdefaultsetsuccessfully'] = 'デフォルトプロファイル写真が正常に設定されました。';
 $string['profileiconsdeletedsuccessfully'] = 'プロファイル写真が正常に削除されました。';
 $string['profileiconsnoneselected'] = '削除するプロファイル写真が選択されていません。';
 $string['onlyfiveprofileicons'] = 'あなたは5つのプロファイル写真のみアップロードすることができます。';
 $string['or'] = 'または';
-$string['profileiconuploadexceedsquota'] = 'このファイルをアップロードすることであなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
-$string['profileiconimagetoobig'] = 'あなたがアップロードしたイメージは大き過ぎます(%sx%s ピクセル)。%sx%s ピクセル以下のサイズにしてください。';
+$string['profileiconuploadexceedsquota'] = 'このプロファイル写真をアップロードすることであなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
+$string['profileiconimagetoobig'] = 'あなたがアップロードした写真は大き過ぎます(%sx%s ピクセル)。%sx%s ピクセル以下のサイズにしてください。';
 $string['uploadingfile'] = 'ファイルのアップロード中 ...';
 $string['uploadprofileicon'] = 'プロファイル写真をアップロードする';
-$string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイル写真をアップロードすることができます。プロファイル写真のアップロード後、あなたのデフォルト写真として表示する写真を1つ選択してください。16x16 から%sx%s ピクセルの間であなたの写真を作成してください。';
+$string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイル写真をアップロードすることができます。プロファイル写真のアップロード後、あなたのデフォルト写真として表示する写真を1つ選択してください。16x16 から %sx%s ピクセルの間であなたの写真を作成してください。';
 $string['setdefault'] = 'デフォルトに設定する';
 $string['Title'] = 'タイトル';
 $string['imagetitle'] = 'イメージタイトル';
 $string['usenodefault'] = 'デフォルトを使用しない';
 $string['usingnodefaultprofileicon'] = '現在、デフォルトのプロファイル写真はありません。';
-$string['wrongfiletypeforblock'] = 'あなたがアップロードしたファイルはこのブロックにとって、正しいタイプではありません。';
+$string['wrongfiletypeforblock'] = 'あなたがアップロードしたファイルはこのブロックにとって正しいタイプではありません。';
 $string['Contents'] = 'コンテンツ';
 $string['Continue'] = '続ける';
 $string['extractfilessuccess'] = '%s 個のフォルダおよび %s 個のファイルが作成されました。';
 $string['filesextractedfromarchive'] = 'アーカイブから解凍されたファイル';
 $string['filesextractedfromziparchive'] = 'Zipアーカイブから解凍されたファイル';
-$string['fileswillbeextractedintofolder'] = 'ファイルは%s に解凍されます。';
+$string['fileswillbeextractedintofolder'] = 'ファイルは %s に解凍されます。';
 $string['insufficientquotaforunzip'] = 'このファイルを解凍するにはあなたの残りファイルクオータが小さすぎます。';
 $string['invalidarchive'] = 'アーカイブファイルの読み込み中にエラーが発生しました。';
 $string['pleasewaitwhileyourfilesarebeingunzipped'] = 'あなたのファイルを解凍中です。しばらくお待ちください。';
