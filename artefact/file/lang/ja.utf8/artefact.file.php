@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-11-16 21:07:36 UTC
+ * @updated    2016-09-06 13:43:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -196,8 +196,8 @@ $string['profileiconsdeletedsuccessfully'] = 'プロファイルアイコンが�
 $string['profileiconsnoneselected'] = '削除するアイコンが選択されていません。';
 $string['onlyfiveprofileicons'] = 'あなたは5つのプロファイルアイコンのみアップロードすることができます。';
 $string['or'] = 'または';
-$string['profileiconuploadexceedsquota'] = 'このファイルをアップロードすることであなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
-$string['profileiconimagetoobig'] = 'あなたがアップロードしたイメージは大き過ぎます(%sx%s ピクセル)。%sx%s ピクセル以下のサイズにしてください。';
+$string['profileiconuploadexceedsquota'] = 'このプロファイルアイコンをアップロードすることであなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
+$string['profileiconimagetoobig'] = 'あなたがアップロードした写真は大き過ぎます(%sx%s ピクセル)。%sx%s ピクセル以下のサイズにしてください。';
 $string['uploadingfile'] = 'ファイルのアップロード中 ...';
 $string['uploadprofileicon'] = 'プロファイルアイコンをアップロードする';
 $string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイルアイコンをアップロードすることができます。アイコンのアップロード後、あなたのデフォルトアイコンとして表示するアイコンを1つ選択してください。16x16 から%sx%s ピクセルの間であなたのアイコンを作成してください。';
@@ -206,13 +206,13 @@ $string['Title'] = 'タイトル';
 $string['imagetitle'] = 'イメージタイトル';
 $string['usenodefault'] = 'デフォルトを使用しない';
 $string['usingnodefaultprofileicon'] = '現在、デフォルトのプロファイルアイコンはありません。';
-$string['wrongfiletypeforblock'] = 'あなたがアップロードしたファイルはこのブロックにとって、正しいタイプではありません。';
+$string['wrongfiletypeforblock'] = 'あなたがアップロードしたファイルはこのブロックにとって正しいタイプではありません。';
 $string['Contents'] = 'コンテンツ';
 $string['Continue'] = '続ける';
 $string['extractfilessuccess'] = '%s 個のフォルダおよび %s 個のファイルが作成されました。';
 $string['filesextractedfromarchive'] = 'アーカイブから解凍されたファイル';
 $string['filesextractedfromziparchive'] = 'Zipアーカイブから解凍されたファイル';
-$string['fileswillbeextractedintofolder'] = 'ファイルは%s に解凍されます。';
+$string['fileswillbeextractedintofolder'] = 'ファイルは %s に解凍されます。';
 $string['insufficientquotaforunzip'] = 'このファイルを解凍するにはあなたの残りファイルクオータが小さすぎます。';
 $string['invalidarchive'] = 'アーカイブファイルの読み込み中にエラーが発生しました。';
 $string['pleasewaitwhileyourfilesarebeingunzipped'] = 'あなたのファイルを解凍中です。しばらくお待ちください。';
