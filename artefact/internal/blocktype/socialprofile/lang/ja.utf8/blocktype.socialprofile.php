@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-06-25 15:38:31 UTC
+ * @updated    2016-09-08 13:09:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -21,7 +21,7 @@ $string['displayaddressesas'] = '次のようにソーシャルメディアア�
 $string['optionicononly'] = 'アイコンのみのボタン';
 $string['optiontexticon'] = 'アイコンおよびテキストのボタン';
 $string['optiontextonly'] = 'テキストのみのボタン';
-$string['displaydefaultemail'] = 'ボタンとしてデフォルトメールアドレスのリンクを表示しますか?';
-$string['displaymsgservices'] = 'ボタンとしてメッセージングサービスを表示しますか?';
+$string['displaydefaultemail'] = 'デフォルトメールアドレスのリンクをボタンとして表示しますか?';
+$string['displaymsgservices'] = 'メッセージングサービスをボタンとして表示しますか?';
 
 ?>
