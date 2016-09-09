@@ -14,13 +14,13 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'テキストボックス';
-$string['description'] = 'あなたのページにテキストボックスを追加します。';
+$string['description'] = 'あなたのページにノートを追加します。';
 $string['blockcontent'] = 'ブロックコンテンツ';
 $string['usecontentfromanothertextbox'] = '別のテキストボックスのコンテンツを使用する';
-$string['textusedinotherblocks'] = 'あなたがこのブロックのテキストを編集した場合、テキストが表示されている他の %s 件のブロックも更新されます。';
+$string['textusedinotherblocks'] = 'あなたがこのブロックのテキストを編集した場合、テキストが表示されている他の %s ブロックも更新されます。';
 $string['managealltextboxcontent'] = 'すべてのテキストボックスコンテンツを管理する';
 $string['readonlymessage'] = 'あなたが選択したテキストはこのページで編集することはできません。';
 $string['makeacopy'] = 'コピーを作成する';
-$string['textusedinothernotes'] = 'あなたがこのノートのテキストを編集した場合、テキストが表示されている %s 件のブロックでも更新されます。';
+$string['textusedinothernotes'] = 'あなたがこのノートのテキストを編集した場合、テキストが表示されている %s ブロックでも更新されます。';
 
 ?>
