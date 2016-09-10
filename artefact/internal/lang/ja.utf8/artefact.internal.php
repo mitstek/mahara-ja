@@ -78,11 +78,11 @@ $string['profilefailedsaved'] = 'プロファイルの保存に失敗しまし�
 $string['emailvalidation_subject'] = 'メールアドレスの確認';
 $string['emailvalidation_body1'] = '%s さん、こんにちは。
 
-Mahara内のあなたのユーザアカウントにメールアドレス「 %s 」が追加されました。下記リンクにアクセスして、このメールアドレスを有効化してください。
+Mahara内のあなたのユーザアカウントにメールアドレス「 %s 」が追加されました。下記リンクにアクセスしてこのメールアドレスを有効化してください。
 
 %s
 
-このメールアドレスがあなたのメールアドレスであり、あなたがMaharaのアカウント作成をリクエストしていない場合、以下のリンクをクリックして、メール有効化を拒否してください。
+このメールアドレスがあなたのメールアドレスであり、あなたがMaharaのアカウント作成をリクエストしていない場合、以下のリンクをクリックしてメール有効化を拒否してください。
 
 %s';
 $string['validationemailwillbesent'] = 'あなたのプロファイル保存後、確認メールが送信されます。';
@@ -153,8 +153,8 @@ $string['progress_joingroup'] = '%s グループに参加する';
 $string['progress_makefriend'] = '%s フレンドを作る';
 $string['socialprofile'] = 'ソーシャルメディア';
 $string['socialprofiles'] = 'ソーシャルメディアアカウント';
-$string['service'] = 'ソーシャルサイト名';
-$string['servicedesc'] = 'ソーシャルサイトの名称を入力してください。例) Facebook、LinkedIn、Twitter等';
+$string['service'] = 'ソーシャルネットワーク';
+$string['servicedesc'] = 'ソーシャルメディアネットワーク名を入力してください。例) Facebook、LinkedIn、Twitter等';
 $string['profileurl'] = 'あなたのURLまたはユーザ名';
 $string['profileurldesc'] = 'あなたのプロファイルページのURLまたはユーザ名です。';
 $string['profileurlexists'] = 'あなたがすでに入力したユーザ名またはURLと重複しているため、このソーシャルメディアアカウントを追加することはできません。';
