@@ -77,7 +77,7 @@ $string['profilefailedsaved'] = 'プロファイルの保存に失敗しまし�
 $string['emailvalidation_subject'] = 'メールアドレスの確認';
 $string['emailvalidation_body'] = '%s さん、こんにちは。
 
-Mahara内のあなたのユーザアカウントにメールアドレス「 %s 」が追加されました。下記リンクにアクセスして、このメールアドレスを有効化してください。
+Mahara内のあなたのユーザアカウントにメールアドレス「 %s 」が追加されました。下記リンクにアクセスしてこのメールアドレスを有効化してください。
 
 %s';
 $string['validationemailwillbesent'] = 'あなたのプロファイル保存後、確認メールが送信されます。';
