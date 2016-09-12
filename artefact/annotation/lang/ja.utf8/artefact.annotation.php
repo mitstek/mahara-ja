@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-07 14:05:56 UTC
+ * @updated    2016-09-12 15:28:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -36,6 +36,7 @@ $string['commentremovedbyauthor'] = '投稿者によって削除されたフィ�
 $string['commentremovedbyowner'] = 'オーナーによって削除されたフィードバック';
 $string['commentremovedbyadmin'] = '管理者によって削除されたフィードバック';
 $string['editannotationfeedback'] = 'フィードバックを編集する';
+$string['placeannotation'] = 'アノテーションを追加する';
 $string['placeannotationfeedback'] = 'フィードバックを投稿する';
 $string['annotationfeedbacksubmitted'] = 'フィードバックが送信されました。';
 $string['annotationfeedbacksubmittedmoderatedanon'] = 'フィードバックが送信されました、内容確認を待っています。';
@@ -91,7 +92,8 @@ $string['entriesimportedfromleapexport'] = '他の場所でインポートでき
 $string['unknownstrategyforimport'] = 'エントリのインポートに不明な方法が選択されました。';
 $string['invalidcreateannotationfeedback'] = '自分のためのフィードバックは作成できません。';
 $string['nannotationfeedback'] = '%s フィードバック';
-$string['progress_annotation'] = 'アノテーションに %s フィードバックを投稿する';
+$string['progress_annotation'] = 'ページに %s アノテーションを追加する';
+$string['progress_annotationfeedback'] = '他のユーザのアノテーションに %s フィードバックを投稿する';
 $string['duplicatedannotation'] = '重複アノテーション';
 $string['existingannotation'] = '既存のフィードバック';
 $string['duplicatedannotationfeedback'] = '重複アノテーション';
