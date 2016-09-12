@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-06-02 15:32:55 UTC
+ * @updated    2016-09-12 15:29:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -91,6 +91,7 @@ $string['entriesimportedfromleapexport'] = '他の場所でインポートでき
 $string['unknownstrategyforimport'] = 'エントリのインポートに不明な方法が選択されました。';
 $string['invalidcreateannotationfeedback'] = '自分のためのフィードバックは作成できません。';
 $string['nannotationfeedback'] = '%s フィードバック';
+$string['progress_annotation'] = 'アノテーションに %s フィードバックを投稿する';
 $string['duplicatedannotation'] = '重複アノテーション';
 $string['existingannotation'] = '既存のフィードバック';
 $string['duplicatedannotationfeedback'] = '重複アノテーション';
