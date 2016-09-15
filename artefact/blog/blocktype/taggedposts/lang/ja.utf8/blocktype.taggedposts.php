@@ -15,7 +15,7 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'タグ付き日誌エントリ';
 $string['description'] = '特定のタグが付けられた日誌エントリを表示します (「コンテンツ -> 日誌」をご覧ください)。';
-$string['blockheadingtags'] = 'タグ「 %2$s 」の日誌エントリ';
+$string['blockheadingtags'] = '「 %2$s 」がタグ付けされた日誌エントリ';
 $string['blockheadingtagsomit'] = '&nbsp;(タグ「 %2$s 」を除外)';
 $string['defaulttitledescription'] = 'ここを空白にした場合、日誌のタイトルが使用されます。';
 $string['postsperpage'] = '1ページあたりのエントリ数';
