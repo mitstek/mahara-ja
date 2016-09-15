@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-06 13:32:54 UTC
+ * @updated    2016-09-15 03:54:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -29,6 +29,8 @@ $string['clickanddragtomovefile'] = '%s を移動するにはクリック&ドラ
 $string['moveto'] = '%s に移動する';
 $string['editfolderspecific'] = 'フォルダ「 %s 」を編集する';
 $string['deletefolderspecific'] = 'フォルダ「 %s 」を削除する';
+$string['editfilespecific'] = 'ファイル「 %s 」を編集する';
+$string['selectspecific'] = '「 %s 」を選択する';
 $string['foldercontents'] = 'フォルダコンテンツ';
 $string['copyrightnotice'] = '著作権表示';
 $string['create'] = '作成';
