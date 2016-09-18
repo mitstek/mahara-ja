@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-07-12 12:36:16 UTC
+ * @updated    2016-09-18 16:54:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -28,8 +28,8 @@ $string['coverletter'] = 'カバーレター';
 $string['interest'] = '興味のあること';
 $string['contactinformation'] = '連絡先';
 $string['personalinformation'] = '個人情報';
-$string['dateofbirth'] = '誕生日';
-$string['dateofbirthinvalid1'] = 'これは正しい誕生日ではありません。訂正してください。';
+$string['dateofbirth'] = '生年月日';
+$string['dateofbirthinvalid1'] = 'これは有効な生年月日ではありません。訂正してください。';
 $string['placeofbirth'] = '出生地';
 $string['citizenship'] = '市民権';
 $string['visastatus'] = 'ビザステータス';
