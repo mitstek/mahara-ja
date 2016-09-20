@@ -30,7 +30,7 @@ $string['recaptcharegisterdesc'] = 'ボックスに表示されているワー�
 $string['registeredemailsubject'] = 'あなたは %s に登録されました。';
 $string['registeredemailmessagetext'] = '%s さん
 
-%s への登録ありがとうございます。サインアップ処理を完了するには次のリンクに従ってください:
+%s へのご登録ありがとうございます。サインアップ処理を完了するには次のリンクに従ってください:
 
 %sregister.php?key=%s
 
@@ -39,7 +39,7 @@ $string['registeredemailmessagetext'] = '%s さん
 --
 %s チーム';
 $string['registeredemailmessagehtml'] = '<p>%s さん</p>
-<p>%s への登録ありがとうございます。サインアップ処理を完了するには次のリンクに従ってください:</p>
+<p>%s へのご登録ありがとうございます。サインアップ処理を完了するには次のリンクに従ってください:</p>
 <p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>
 <p>メールに含まれているリンクは24時間のみ有効です。</p>
 
