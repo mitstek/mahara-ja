@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-01 13:46:51 UTC
+ * @updated    2016-09-20 15:53:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -27,7 +27,7 @@ $string['passwordinvalidform'] = 'あなたのパスワードには少なくと�
 $string['registeredemailsubject'] = 'あなたは %s に登録されました。';
 $string['registeredemailmessagetext'] = '%s さん
 
-%s への登録ありがとうございます。サインアップ処理を完了するには次のリンクに従ってください:
+%s へのご登録ありがとうございます。サインアップ処理を完了するには次のリンクに従ってください:
 
 %sregister.php?key=%s
 
@@ -36,7 +36,7 @@ $string['registeredemailmessagetext'] = '%s さん
 --
 %s チーム';
 $string['registeredemailmessagehtml'] = '<p>%s さん</p>
-<p>%s への登録ありがとうございます。サインアップ処理を完了するには次のリンクに従ってください:</p>
+<p>%s へのご登録ありがとうございます。サインアップ処理を完了するには次のリンクに従ってください:</p>
 <p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>
 <p>メールに含まれているリンクは24時間のみ有効です。</p>
 
