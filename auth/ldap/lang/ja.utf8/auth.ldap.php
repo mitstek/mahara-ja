@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-08-05 06:46:44 UTC
+ * @updated    2016-09-22 14:20:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,16 +19,16 @@ $string['notusable'] = 'PHP LDAP拡張モジュールをインストールして
 $string['attributename'] = '値を基にグループを同期する場合に使用するLDAP属性名です (必須および大文字小文字を区別します)。';
 $string['cannotdeleteandsuspend'] = '同時に -d および -s を指定することはできません。';
 $string['cli_info_sync_groups'] = 'このコマンドラインPHPスクリプトはLDAPディレクトリとグループのインスティテューションリストの同期を試みます。
-存在しないグループは作成され、「インスティテューション名 : LDAP属性値」のような名称になります。';
+存在しないグループは「インスティテューション名 : LDAPグループ名」のような名称で作成されます。';
 $string['cli_info_sync_groups_attribute'] = 'このコマンドラインPHPスクリプトはLDAP属性の異なる値を基にLDAPディレクトリとグループのインスティテューションリストの同期を試みます。
-存在しないグループは作成され、「インスティテューション名 : LDAP属性値」のような名称になります。';
+存在しないグループは「インスティテューション名 : LDAP属性値」のような名称で作成されます。';
 $string['cli_info_sync_users'] = 'このコマンドラインPHPスクリプトはLDAPディレクトリとMaharaアカウントのインスティテューションリストの同期を試みます。';
 $string['contexts'] = 'コンテクスト';
 $string['distinguishedname'] = '識別名';
 $string['dodelete'] = 'LDAPに存在しなくなったアカウントを削除する';
 $string['dosuspend'] = 'LDAPに存在しなくなったアカウントを利用停止する';
 $string['doupdate'] = 'LDAPデータ (LONG) により既存のアカウントを更新する';
-$string['dryrun'] = 'ダミー実行です。データベース処理は実行しません。';
+$string['dryrun'] = 'ダミー実行です。データベース処理は実行されません。';
 $string['excludelist'] = 'これらの正規表現に名称が合致するLDAPグループを除く';
 $string['extrafilterattribute'] = 'ユーザ検索を制限するための追加LDAPフィルタ';
 $string['grouptype'] = '作成するMaharaグループタイプ - デフォルト「standard」';
@@ -42,7 +42,7 @@ $string['ldapfieldforsurname'] = '姓のLDAPフィールド';
 $string['ldapfieldforstudentid'] = '学生IDのLDAPフィールド';
 $string['ldapversion'] = 'LDAPバージョン';
 $string['nocreate'] = '新しいアカウントを作成しない';
-$string['nocreatemissinggroups'] = 'すでにインスティテューションに設定されている場合、LDAPグループを作成しません。';
+$string['nocreatemissinggroups'] = 'すでにインスティテューションに設定されていない場合、LDAPグループを作成しません。';
 $string['nomatchingauths'] = 'このインスティテューションのLDAP認証プラグインは見つかりませんでした。';
 $string['starttls'] = 'TLS暗号化';
 $string['password'] = 'パスワード';
