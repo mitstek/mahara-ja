@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-04 09:31:22 UTC
+ * @updated    2016-09-26 04:26:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -29,8 +29,8 @@ $string['criteria'] = 'クライテリア';
 $string['nbadges'] = '%s バッジ';
 $string['nobackpack'] = 'バックパックが見つかりませんでした。<br />あなたの<a href="%s">プロファイル</a>に<a href="%s">バックパック</a>のメールアドレスを入力してください。';
 $string['nobadgegroups'] = 'パブリックバッジコレクション / バッジは見つかりませんでした。';
-$string['nobackpackidin'] = 'あなたのメールアドレスはサービス「 %s 」内に見つかりませんでした。';
-$string['nobadgegroupsin'] = '次のサービス内にパブリックバッジコレクション / バッジは見つかりませんでした: %s';
+$string['nobackpackidin1'] = 'あなたのメールアドレス「 %s 」はサービス「 %s 」内に見つかりませんでした。';
+$string['nobadgegroupsin1'] = '次のサービス内にパブリックバッジコレクション / バッジは見つかりませんでした: %s (メールアドレス: %s)';
 $string['confighelp'] = 'このブロックで表示するバッジコレクションを選択してください。<br/>あなたのコレクションおよびバッジを管理するには次のサービスにアクセスしてください:<br />%s';
 $string['obppublicbadges'] = 'オープンバッジパスポート内すべてのパブリックバッジ';
 $string['title_backpack'] = 'Mozillaバックパック';
