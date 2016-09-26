@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-23 16:58:33 UTC
+ * @updated    2016-09-26 04:19:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -30,6 +30,7 @@ $string['jsonmissingvars'] = 'これは有効な「.matrix」ファイルでは�
 $string['manuallyremovematrices'] = 'インストールディレクトリ「 %s 」を削除することはできません。手動で削除してください。';
 $string['changeframeworkproblems'] = 'あなたはフレームワークを変更できません。次のページにはこのフレームワークと関連付けられたエビデンスがあります:';
 $string['accessdeniednoframework'] = 'このコレクションはスマートエビデンスページを表示できません。これは次の理由が考えられます: スマートエビデンスプラグインがインストールまたは有効にされていない。あなたが属しているインスティテューションではスマートエビデンスが許可されていない。このコレクションではスマートエビデンスフレームワークが設定されていない。このコレクションにページが存在しない。';
+$string['firstviewlink'] = 'コレクションの<a href="%s">最初のページ</a>に移動してください。';
 $string['noframeworkselected'] = 'なし';
 $string['matrixpointupdated'] = 'スマートエビデンスが更新されました。';
 $string['matrixpointinserted'] = 'スマートエビデンスが追加されました。';
@@ -47,5 +48,6 @@ $string['usedincollections'] = 'コレクションで使用済み';
 $string['selfassess'] = '自己評価';
 $string['uploadframeworkdesc'] = 'JSONエンコード済みの.matrixファイルをアップロードします。マークアップ例に関して<a href="https://git.mahara.org/mahara/mahara/blob/master/test/behat/upload_files/example.matrix">Mahara git repository</a>をご覧ください。';
 $string['savematrix'] = 'マトリックスをアップロードする';
+$string['frameworkmissing'] = 'フレームワークが見つかりませんでした。';
 
 ?>
