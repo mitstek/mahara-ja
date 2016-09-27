@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-26 04:19:48 UTC
+ * @updated    2016-09-27 15:30:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -29,7 +29,13 @@ $string['invalidjson'] = 'これは有効な「.matrix」ファイルではあ�
 $string['jsonmissingvars'] = 'これは有効な「.matrix」ファイルではありません。「フレームワーク」または「フレームワーク名」がありません。';
 $string['manuallyremovematrices'] = 'インストールディレクトリ「 %s 」を削除することはできません。手動で削除してください。';
 $string['changeframeworkproblems'] = 'あなたはフレームワークを変更できません。次のページにはこのフレームワークと関連付けられたエビデンスがあります:';
-$string['accessdeniednoframework'] = 'このコレクションはスマートエビデンスページを表示できません。これは次の理由が考えられます: スマートエビデンスプラグインがインストールまたは有効にされていない。あなたが属しているインスティテューションではスマートエビデンスが許可されていない。このコレクションではスマートエビデンスフレームワークが設定されていない。このコレクションにページが存在しない。';
+$string['accessdeniednoframework'] = 'このコレクションはスマートエビデンスページを表示できません。これは次の理由が考えられます:
+<ul>
+<li>スマートエビデンスプラグインがインストールまたは有効にされていない。</li>
+<li>あなたが属しているインスティテューションではスマートエビデンスが許可されていない。</li>
+<li>このコレクションではスマートエビデンスフレームワークが設定されていない。</li>
+<li>このコレクションにページが存在しない。</li>
+</ul>';
 $string['firstviewlink'] = 'コレクションの<a href="%s">最初のページ</a>に移動してください。';
 $string['noframeworkselected'] = 'なし';
 $string['matrixpointupdated'] = 'スマートエビデンスが更新されました。';
