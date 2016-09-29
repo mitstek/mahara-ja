@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-20 15:53:22 UTC
+ * @updated    2016-09-29 17:08:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,7 +17,7 @@ $string['webservice'] = 'ウェブサービス';
 $string['title'] = 'ウェブサービス';
 $string['description'] = 'ウェブサービスのみのユーザをMaharaのデータベースで認証する';
 $string['webservicesconfig'] = '設定';
-$string['webservicesconfigdesc'] = 'ここであなたはウェブサービスのルールを変更およびサービスを有効または無効にすることができます。';
+$string['webservicesconfigdesc'] = 'ここであなたはウェブサービスルールを変更すること、また有効または無効にすることができます。';
 $string['webserviceconnectionsconfigdesc'] = '登録済みプラグインの接続オブジェクトをセットアップすることにより、外部システムとの通信に使用することができます。';
 $string['completeregistration'] = '登録を完了する';
 $string['emailalreadytaken'] = 'このメールアドレスはすでに登録されています。';
@@ -42,7 +42,7 @@ $string['registeredemailmessagehtml'] = '<p>%s さん</p>
 
 <pre>--
 %s チーム</pre>';
-$string['registeredok'] = '<p>あなたの登録が正常に完了しました。アカウントの有効化に関するインストラクションに関してあなたのメールアカウントを確認してください。</p>';
+$string['registeredok'] = '<p>あなたの登録が正常に完了しました。アカウントを有効にするためインストラクションに関してあなたのメールアカウントを確認してください。</p>';
 $string['registrationnosuchkey'] = '申し訳ございません、このキーでの登録はできないようです。恐らく、登録を完了するため、あなたが24時間以上待機していたと思われます。そうでない場合、これは私たちに責任があります';
 $string['registrationunsuccessful'] = '申し訳ございません、あなたの登録は正常に完了しませんでした。これは私たちに責任があります。もう一度お試しください。';
 $string['usernamealreadytaken'] = '申し訳ございません、このユーザ名はすでに取得されています。';
@@ -89,7 +89,7 @@ $string['protocol'] = 'プロトコル';
 $string['rest'] = 'REST';
 $string['soap'] = 'SOAP';
 $string['xmlrpc'] = 'XML-RPC';
-$string['manage_certificates'] = '<a href="%s">ネットワーキング</a>サービスの一部として生成された証明書です。これらの値は特定のウェブサービストークンまたはサービスユーザに対して、WS-Security署名および暗号化が有効にされた場合に使用されます (XML-RPCおよびレガシーMNetのみ)。';
+$string['manage_certificates'] = '<a href="%s">ネットワーキング</a>サービスの一部として生成された証明書です。これらの値は特定のウェブサービストークンまたはサービスユーザに対してウェブサービスセキュリティ署名および暗号化が有効にされた場合に使用されます (XML-RPCおよびレガシーMNetのみ)。';
 $string['certificates'] = 'ネットワーク証明書';
 $string['servicefunctiongroups'] = 'サービスグループを管理する';
 $string['servicegroup'] = 'サービスグループ: %s';
@@ -113,10 +113,10 @@ $string['invalidstatedetected'] = '無効な状態が検出されました。';
 $string['codingerror'] = 'コーディングエラー';
 $string['accessextfunctionnotconf'] = '外部関数へのアクセスが設定されていません。';
 $string['missingfuncname'] = '関数名がありません。';
-$string['invalidretdesc'] = '無効な戻りウェブサービスのみのユーザをMaharaのデータベースで認証するです。';
-$string['invalidparamdesc'] = '無効なパラメータウェブサービスのみのユーザをMaharaのデータベースで認証するです。';
-$string['missingretvaldesc'] = '戻り値のウェブサービスのみのユーザをMaharaのデータベースで認証するがありません。';
-$string['missingparamdesc'] = 'パラメータウェブサービスのみのユーザをMaharaのデータベースで認証するがありません。';
+$string['invalidretdesc'] = '無効な戻り値記述です。';
+$string['invalidparamdesc'] = '無効なパラメータ記述です。';
+$string['missingretvaldesc'] = '戻り値の記述がありません。';
+$string['missingparamdesc'] = 'パラメータの記述がありません。';
 $string['missingimplofmeth'] = '「 %s 」のメソッドが実装されていません。';
 $string['cannotfindimplfile'] = '外部関数が実装されたファイルを見つけることができませんでした。';
 $string['apptokens'] = 'アプリケーション接続';
@@ -141,7 +141,7 @@ $string['last_access'] = '最終アクセス';
 $string['verifier'] = 'ベリファイアトークン';
 $string['oob'] = 'アウトオブバンドOAuth認証';
 $string['oobinfo'] = '以下のコードは許可されたデータにあなたの外部アプリケーションがアクセスするための認証コードです。続けるには関連付けられているアプリケーションの入力欄にコードをコピー＆ペーストしてください。';
-$string['instructions'] = 'インスティテューション';
+$string['instructions'] = 'インストラクション';
 $string['webservicelogs'] = 'ウェブサービスログ';
 $string['webservicelogsnav'] = 'ログ';
 $string['timetaken'] = '所要時間';
@@ -186,9 +186,9 @@ $string['oauth1auth'] = 'OAuth1.x';
 $string['authtype'] = '認証タイプ';
 $string['sauthtype'] = '認証タイプ';
 $string['enterparameters'] = '関数パラメータを入力してください。';
-$string['testclientinstructions'] = 'これはウェブサービスのためのインタラクティブテストクライアント機能です。あなたは現在のシステムに対して、関数を選択および実際に実行することができます。あなたが実行するすべての関数は実際に動作することに留意してください。';
+$string['testclientinstructions'] = 'これはウェブサービスのためのインタラクティブテストクライアント機能です。あなたは現在のシステムに対して関数を選択および実際に実行することができます。あなたが実行するすべての関数は実際に動作することに留意してください。';
 $string['executed'] = '関数コールが実行されました。';
-$string['invaliduserpass'] = '「 %s 」に対して、無効なウェブサービス名およびウェブサービスパスワードが提供されました。';
+$string['invaliduserpass'] = '「 %s 」に対して無効なウェブサービス名およびウェブサービスパスワードが提供されました。';
 $string['iterationtitle'] = '%s イテレーション: %s';
 $string['unabletoruntestclient'] = 'ウェブサービステストクライアントはhttpsの下で実運用モードで動作させるか、あなたのconfig.php内に「$cfg->productionmode = false」を記述する必要があります。';
 $string['accesstokens'] = 'OAuthアクセストークン';
@@ -238,11 +238,11 @@ $string['errorinvalidparam'] = 'パラメータ「 %s 」が無効です。';
 $string['errorinvalidparamsapi'] = '無効な外部APIパラメータです。';
 $string['errorinvalidparamsdesc'] = '無効な外部APIウェブサービスのみのユーザをMaharaのデータベースで認証するです。';
 $string['errorinvalidresponseapi'] = '無効な外部APIレスポンスです。';
-$string['errorinvalidresponsedesc'] = '無効な外部APIレスポンスウェブサービスのみのユーザをMaharaのデータベースで認証するです。';
+$string['errorinvalidresponsedesc'] = '無効な外部APIレスポンス記述です。';
 $string['errormissingkey'] = '単一構造の必須キーがありません: %s';
-$string['errornotemptydefaultparamarray'] = '名称「 %s 」のウェブサービスウェブサービスのみのユーザをMaharaのデータベースで認証するパラメータは単一または複数構造です。デフォルトは空の配列にのみすることができます。ウェブサービスウェブサービスのみのユーザをMaharaのデータベースで認証するを確認してください。';
+$string['errornotemptydefaultparamarray'] = '名称「 %s 」のウェブサービスウェブサービスのみのユーザをMaharaのデータベースで認証するパラメータは単一または複数構造です。デフォルトは空の配列にのみすることができます。ウェブサービスウェブサービス記述を確認してください。';
 $string['erroronlyarray'] = '配列のみ許可されます。';
-$string['erroroptionalparamarray'] = '名称「 %s 」のウェブサービスウェブサービスのみのユーザをMaharaのデータベースで認証するパラメータは単一または複数構造です。VALUE_OPTIONALに設定することはできません。ウェブサービスウェブサービスのみのユーザをMaharaのデータベースで認証するを確認してください。';
+$string['erroroptionalparamarray'] = '名称「 %s 」のウェブサービスウェブサービスのみのユーザをMaharaのデータベースで認証するパラメータは単一または複数構造です。VALUE_OPTIONALに設定することはできません。ウェブサービスウェブサービス記述を確認してください。';
 $string['errorresponsemissingkey'] = 'レスポンスエラー: 次の単一構造の必須キーがありません: %s';
 $string['errorscalartype'] = 'スカラ型が要求されましたが、配列またはオブジェクトを受信しました。';
 $string['errorunexpectedkey'] = 'パラメータ配列に予期されないキー (%s) が検出されました。';
@@ -263,7 +263,7 @@ $string['key'] = 'キー';
 $string['missingpassword'] = 'パスワードがありません。';
 $string['missingusername'] = 'ユーザ名がありません。';
 $string['notoken'] = 'トークンリストが空です。';
-$string['nowsprotocolsenabled'] = '有効にされているウェブサービスがありません。あなたは少なくとも1つの<a href="%s">プロトコル</a>を有効にする必要があります。';
+$string['nowsprotocolsenabled'] = '有効にされているウェブサービスプロトコルがありません。あなたは少なくとも1つの<a href="%s">プロトコル</a>を有効にする必要があります。';
 $string['onesystemcontrolling'] = '1システムがMahraをトークンでコントロールする';
 $string['operation'] = '操作';
 $string['optional'] = '任意';
@@ -272,7 +272,7 @@ $string['potusers'] = '認証済みユーザではありません。';
 $string['print'] = 'すべてをプリントする';
 $string['removefunction'] = '削除';
 $string['required'] = '必須';
-$string['resettokenconfirm'] = '本当にこのウェブサービスキー (<strong>{%s}</strong> - <strong>{%s}</strong>) をリセットしても宜しいですか?';
+$string['resettokenconfirm'] = '本当にこのウェブサービスキー (<strong>{%s}</strong> - <strong>{%s}</strong>) をリセットしてもよろしいですか?';
 $string['response'] = 'レスポンス';
 $string['restcode'] = 'REST';
 $string['restexception'] = 'REST';
@@ -314,9 +314,9 @@ $string['webservicesenabled'] = 'ウェブサービスが有効にされまし�
 $string['webservicesnotenabled'] = 'あなたは少なくとも1つのプロトコルを有効にする必要があります。';
 $string['nooauth'] = 'OAuthには有効にされていません。';
 $string['accessdenied'] = 'アクセスが拒否されました。';
-$string['accessdeniedforinst'] = 'インスティテューション「 %s 」のアクセスが拒否されました。';
-$string['accessdeniedforinstuser'] = 'インスティテューション「 %s 」 (ユーザ 「 %s 」) のアクセスが拒否されました。';
-$string['accessdeniedforinstgroup'] = 'インスティテューション「 %s 」 (グループ「 %s 」) のアクセスが拒否されました。';
+$string['accessdeniedforinst'] = 'インスティテューション「 %s 」へのアクセスが拒否されました。';
+$string['accessdeniedforinstuser'] = 'インスティテューション「 %s 」 (ユーザ 「 %s 」) へのアクセスが拒否されました。';
+$string['accessdeniedforinstgroup'] = 'インスティテューション「 %s 」 (グループ「 %s 」) へのアクセスが拒否されました。';
 $string['usernameexists'] = 'ユーザ名はすでに存在します: %s';
 $string['invalidauthtype'] = '無効な認証タイプ「 %s 」です。';
 $string['invalidauthtypeuser'] = '無効な認証タイプ「 %s (ユーザ: %s)」 です。';
