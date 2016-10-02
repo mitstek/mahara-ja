@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-02 16:21:25 UTC
+ * @updated    2016-10-02 22:43:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -816,9 +816,11 @@ $string['institutiondeletedsuccessfully'] = 'インスティテューション�
 $string['noauthpluginforinstitution'] = 'このインスティテューションに関してあなたのサイト管理者は認証プラグインを設定していません。';
 $string['adminnoauthpluginforinstitution'] = 'このインスティテューションに関して認証プラグインを設定してください。';
 $string['institutionname'] = 'インスティテューション名';
+$string['institutionshortname'] = 'インスティテューション省略名';
 $string['institutionnamealreadytaken'] = 'このインスティテューション名はすでに取得されています。';
 $string['institutiondisplayname'] = 'インスティテューション表示名';
 $string['institutionexpiry'] = 'インスティテューション有効期限';
+$string['institutionshortnamedescription'] = '省略名は自動的に生成されます。変更することはできません。';
 $string['institutionexpirydescription'] = 'このインスティテューションのメンバーシップが %s において利用停止される日付です。';
 $string['institutionlanguage'] = '言語';
 $string['institutionlanguagedescription'] = 'このインスティテューション内ユーザのデフォルト言語です。';
@@ -932,6 +934,7 @@ $string['maxuseraccountsdescription'] = 'インスティテューションに関
 $string['institutionmaxusersexceeded'] = 'このインスティテューションはユーザ数が上限に達しました。このユーザを追加できるようにするにはあなたはこのインスティテューションが許可するユーザ数を増やす必要があります。';
 $string['institutionuserserrortoomanyusers'] = 'ユーザは追加されませんでした。メンバー数はインスティテューションで許可される最大ユーザ数を超えることはできません。あなたは少数のユーザを追加するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼することができます。';
 $string['institutionuserserrortoomanyinvites'] = 'あなたの招待は送信されませんでした。既存のユーザ + 招待者数はインスティテューションで許可される最大ユーザアカウント数を超えることはできません。あなたは少数のユーザを招待するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼することができます。';
+$string['Shortname'] = '省略名';
 $string['Members'] = 'メンバー';
 $string['Maximum'] = '最大';
 $string['Staff'] = 'スタッフ';
