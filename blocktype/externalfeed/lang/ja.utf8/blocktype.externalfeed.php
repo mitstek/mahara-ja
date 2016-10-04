@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-07-02 15:10:45 UTC
+ * @updated    2016-10-04 04:42:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -26,7 +26,7 @@ $string['insecuresslmodedesc'] = 'SSL証明書認証を無効にします。こ�
 $string['itemstoshow'] = '表示するアイテム数';
 $string['itemstoshowdescription'] = '範囲: 1～20';
 $string['showfeeditemsinfull'] = 'フィードアイテムを完全に表示する';
-$string['showfeeditemsinfulldesc'] = 'ここではフィードアイテムの要約を表示するか、それぞれのフィードアイテムの詳細を表示するか選択してください。';
+$string['showfeeditemsinfulldesc'] = 'ここではフィードアイテムの要約を表示するか、それぞれのフィードアイテムの全文を表示するか選択してください。';
 $string['invalidurl'] = '指定されたURLが有効ではありません。あなたはhttpおよびhttpsのURLからのみフィードを表示することができます。';
 $string['invalidfeed1'] = 'このURLでは有効なフィードは検出されませんでした。';
 $string['lastupdatedon'] = '最終更新日時: %s';
