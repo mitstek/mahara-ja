@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-29 16:48:45 UTC
+ * @updated    2016-10-06 13:56:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -96,10 +96,11 @@ $string['servicegroup'] = 'サービスグループ: %s';
 $string['sfgdescription'] = '実行権限を与えられたユーザに割り当てることのできるサービスグループへの関数一覧を作成します。';
 $string['name'] = '名称';
 $string['component'] = 'コンポーネント';
+$string['customservicegroup'] = '(カスタム)';
 $string['functions'] = '関数';
 $string['enableservice'] = 'サービスを有効/無効にする';
-$string['existingserviceusers'] = 'このサービスにサービスユーザがリンクされているため、トークンのみユーザにスイッチできません。';
-$string['existingtokens'] = 'このサービスにトークンユーザが存在するため、認証済みサービスユーザにスイッチできません。';
+$string['restricteduserswarning'] = '警告: このサービスには既存のトークンユーザが存在するため、あなたが「 %s 」 を有効にした場合、アクセスできないようになります。';
+$string['tokenuserswarning'] = '警告: このサービスには既存のトークンユーザが存在するため、あなたが「 %s 」 を無効にした場合、アクセスできないようになります。';
 $string['usersonly'] = 'ユーザのみ';
 $string['tokensonly'] = 'トークンのみ';
 $string['switchtousers'] = 'ユーザにスイッチする';
@@ -119,6 +120,8 @@ $string['missingretvaldesc'] = '戻り値の記述がありません。';
 $string['missingparamdesc'] = 'パラメータの記述がありません。';
 $string['missingimplofmeth'] = '「 %s 」のメソッドが実装されていません。';
 $string['cannotfindimplfile'] = '外部関数が実装されたファイルを見つけることができませんでした。';
+$string['servicenamemustbeunique'] = 'この名称はすでに別のサービスグループで使用されています。';
+$string['serviceshortnamemustbeunique'] = 'この省略名はすでに別のサービスグループで使用されています。';
 $string['apptokens'] = 'アプリケーション接続';
 $string['connections'] = '接続マネージャ';
 $string['servicetokens'] = 'サービスアクセストークンを管理する';
@@ -289,6 +292,11 @@ $string['selectedcapability'] = '選択済み';
 $string['selectspecificuser'] = '特定のユーザを選択する';
 $string['service'] = 'サービス';
 $string['serviceusers'] = '認証済みユーザ';
+$string['servicenamelabel'] = '名称';
+$string['servicenamedesc'] = 'このサービスグループに関する人間が読解可能な名称です。';
+$string['serviceshortnamelabel'] = '省略名';
+$string['serviceshortnamedesc'] = 'このサービスグループに関するコンピュータが解読可能な名称です (これは外部サービスがこのサービスグループを参照する必要がある場合に使用される名称です)。';
+$string['servicecomponentnote'] = 'このサービスは次のコンポーネントの機能を提供します: %s';
 $string['simpleauthlog'] = '単純認証';
 $string['step'] = 'ステップ';
 $string['testclientdescription'] = '* ウェブサービステストクライアントは関数を<strong>実際/strong>に<strong>実行</strong>します。あなたが分からない関数はテストしないでください。
