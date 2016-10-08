@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-06 13:56:10 UTC
+ * @updated    2016-10-08 15:05:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -262,6 +262,7 @@ $string['invalidiptoken'] = '無効なトークン: あなたのIPはサポー�
 $string['invalidtimedtoken'] = '無効なトークン: トークンの有効期限が切れています。';
 $string['invalidtokensession'] = '無効なセッションベースのトークン: セッションが見つからない、または有効期限が切れています。';
 $string['iprestriction'] = 'IP制限';
+$string['list'] = 'リスト';
 $string['key'] = 'キー';
 $string['missingpassword'] = 'パスワードがありません。';
 $string['missingusername'] = 'ユーザ名がありません。';
@@ -284,6 +285,9 @@ $string['restrictedusers'] = '認証済みユーザのみ';
 $string['fortokenusers'] = 'ユーザトークンアクセス';
 $string['usertokens'] = 'パーソナルユーザトークン';
 $string['serviceaccess'] = 'サービスアクセス';
+$string['tokenclient'] = 'クライアントアプリ';
+$string['tokenclientunknown'] = '(未指定)';
+$string['tokenmanuallycreated'] = '手動作成済み';
 $string['gen'] = '生成';
 $string['no_token'] = 'トークン未生成';
 $string['token_generated'] = 'トークン生成済み';
