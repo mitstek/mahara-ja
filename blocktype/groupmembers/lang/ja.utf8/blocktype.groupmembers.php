@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'グループメンバー';
-$string['description'] = 'このグループのメンバーを一覧表示します。';
+$string['description'] = 'このグループのメンバー一覧を表示します。';
 $string['show_all'] = 'このグループのメンバーすべてを表示する ...';
 $string['options_numtoshow_title'] = '表示メンバー';
 $string['options_numtoshow_desc'] = 'あなたが表示したいメンバー数です。';
