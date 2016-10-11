@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-09-03 17:15:24 UTC
+ * @updated    2016-10-11 05:42:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'グループメンバー';
-$string['description'] = 'このグループのメンバーを一覧表示します。';
+$string['description'] = 'このグループのメンバー一覧を表示します。';
 $string['show_all'] = 'このグループのメンバーすべてを表示する ...';
 $string['options_numtoshow_title'] = '表示メンバー';
 $string['options_numtoshow_desc'] = 'あなたが表示したいメンバー数です。';
