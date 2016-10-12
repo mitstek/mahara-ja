@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-08 15:05:06 UTC
+ * @updated    2016-10-12 09:19:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -252,9 +252,9 @@ $string['errorunexpectedkey'] = 'パラメータ配列に予期されないキ�
 $string['execute'] = '実行';
 $string['expires'] = '有効期限';
 $string['externalservice'] = '外部サービス';
-$string['failedtolog'] = 'ログインに失敗しました。';
 $string['generalstructure'] = '一般構造';
 $string['information'] = '情報';
+$string['invalidlogin'] = 'ログインに失敗しました。ユーザ名およびパスワードを確認してください。';
 $string['invalidaccount'] = '無効なウェブサービスアカウント: サービスユーザ設定を確認してください。';
 $string['invalidextparam'] = '無効な外部APIパラメータ: %s';
 $string['invalidextresponse'] = '無効な外部APIレスポンス: %s';
@@ -359,5 +359,7 @@ $string['groupnotexist'] = 'グループ「 %s 」は存在しません。';
 $string['instmustset'] = '「 %s 」にインスティテューションを設定する必要があります。';
 $string['nogroup'] = 'グループが選択されていません。';
 $string['membersinvalidaction'] = '無効な操作「 %s 」です - ユーザ「 %s (グループ: %s)」';
+$string['passwordmustbechangedviawebsite'] = 'あなたはパスワードを変更する必要があります。あなたのMaharaサイトにブラウザでログインしてパスワードを更新してください。';
+$string['featuredisabled'] = 'このサイトではウェブサービス機能が有効にされていません。詳細情報に関して、あなたのサイト管理者にご連絡ください。';
 
 ?>
