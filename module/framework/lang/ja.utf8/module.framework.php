@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-27 15:30:31 UTC
+ * @updated    2016-10-12 16:14:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -52,7 +52,7 @@ $string['partialcomplete'] = '一部標準に合致する';
 $string['completed'] = '標準に合致する';
 $string['usedincollections'] = 'コレクションで使用済み';
 $string['selfassess'] = '自己評価';
-$string['uploadframeworkdesc'] = 'JSONエンコード済みの.matrixファイルをアップロードします。マークアップ例に関して<a href="https://git.mahara.org/mahara/mahara/blob/master/test/behat/upload_files/example.matrix">Mahara git repository</a>をご覧ください。';
+$string['uploadframeworkdesc1'] = 'JSONエンコード済みの.matrixファイルをアップロードします。マークアップ例に関して<a href="https://git.mahara.org/mahara/mahara/blob/16.10_STABLE/test/behat/upload_files/example.matrix">Mahara git repository</a>、個別のコンポーネントの例に関して<a href="http://manual.mahara.org/en/16.10/administration/smartevidence.html#create-a-framework-file">Maharaユーザマニュアル</a>をご覧ください。';
 $string['savematrix'] = 'マトリックスをアップロードする';
 $string['frameworkmissing'] = 'フレームワークが見つかりませんでした。';
 

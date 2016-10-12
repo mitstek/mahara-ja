@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-12 09:18:41 UTC
+ * @updated    2016-10-12 16:17:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -299,7 +299,7 @@ $string['serviceusers'] = '認証済みユーザ';
 $string['servicenamelabel'] = '名称';
 $string['servicenamedesc'] = 'このサービスグループに関する人間が読解可能な名称です。';
 $string['serviceshortnamelabel'] = '省略名';
-$string['serviceshortnamedesc'] = 'このサービスグループに関するコンピュータが解読可能な名称です (これは外部サービスがこのサービスグループを参照する必要がある場合に使用される名称です)。';
+$string['serviceshortnamedesc'] = 'このサービスグループに関するコンピュータが解読可能な名称です。これは外部サービスがこのサービスグループを参照する必要がある場合に使用される名称です。';
 $string['servicecomponentnote'] = 'このサービスは次のコンポーネントの機能を提供します: %s';
 $string['simpleauthlog'] = '単純認証';
 $string['step'] = 'ステップ';
