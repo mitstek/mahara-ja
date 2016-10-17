@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-12 17:00:55 UTC
+ * @updated    2016-10-17 15:27:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,7 +17,7 @@ $string['autoconfiguredesc'] = 'モバイルアプリAPIに必要な設定を自
 $string['autoconfiguretitle'] = 'モバイルアプリAPIを自動設定しますか?';
 $string['configstep'] = '設定アイテム';
 $string['configstepstatus'] = 'ステータス';
-$string['manualtokensdesc'] = 'アプリに自動的にコピー＆ペーストするため、ユーザは手動でウェブサービスアクセストークンを生成することができます(通常、アプリはユーザにトークンを自動生成できる必要がありますが、いくつかの認証プラグインでは生成できないものもあります)。';
+$string['manualtokensdesc'] = 'アプリに自動的にコピー＆ペーストするため、ユーザは手動でウェブサービスアクセストークンを生成することができます。通常、アプリはユーザにトークンを自動生成できる必要があります。しかし、いくつかの認証プラグインでは生成できないものもあります。';
 $string['manualtokenstitle'] = '手動トークン生成';
 $string['mobileapiserviceexists'] = 'モバイルAPIサービスグループ登録済み';
 $string['mobileapiserviceconfigured'] = 'モバイルAPIサービス - 有効 / %s - 無効 / %s - 有効';
@@ -30,7 +30,7 @@ $string['servicenotallowed'] = 'あなたが提供した認証情報ではこの
 $string['webserviceproviderenabled'] = '内向きのウェブサービスリクエスト許可';
 $string['mytokensmenutitle'] = 'アプリ';
 $string['mytokenspagetitle'] = 'アプリケーション';
-$string['mytokenspagedesc'] = 'これらのアプリケーションはあなたのMaharaアカウントにアクセスすることができます。';
+$string['mytokenspagedesc'] = 'これらのアプリケーションはあなたのアカウントにアクセスすることができます。';
 $string['nopersonaltokens'] = 'あなたがアクセス権を与えているアプリケーションはありません。';
 $string['clientinfo'] = 'アプリ';
 $string['token'] = 'アクセストークン';
