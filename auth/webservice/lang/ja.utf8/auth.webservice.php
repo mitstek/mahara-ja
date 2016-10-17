@@ -254,7 +254,7 @@ $string['expires'] = '有効期限';
 $string['externalservice'] = '外部サービス';
 $string['generalstructure'] = '一般構造';
 $string['information'] = '情報';
-$string['invalidlogin'] = 'ログインに失敗しました。ユーザ名およびパスワードを確認してください。';
+$string['invalidlogin'] = 'ログインに失敗しました。あなたのユーザ名およびパスワードを確認してください。';
 $string['invalidaccount'] = '無効なウェブサービスアカウント: サービスユーザ設定を確認してください。';
 $string['invalidextparam'] = '無効な外部APIパラメータ: %s';
 $string['invalidextresponse'] = '無効な外部APIレスポンス: %s';
@@ -359,7 +359,7 @@ $string['groupnotexist'] = 'グループ「 %s 」は存在しません。';
 $string['instmustset'] = '「 %s 」にインスティテューションを設定する必要があります。';
 $string['nogroup'] = 'グループが選択されていません。';
 $string['membersinvalidaction'] = '無効な操作「 %s 」です - ユーザ「 %s (グループ: %s)」';
-$string['passwordmustbechangedviawebsite'] = 'あなたはパスワードを変更する必要があります。あなたのMaharaサイトにブラウザでログインしてパスワードを更新してください。';
-$string['featuredisabled'] = 'このサイトではウェブサービス機能が有効にされていません。詳細情報に関して、あなたのサイト管理者にご連絡ください。';
+$string['passwordmustbechangedviawebsite'] = 'あなたはパスワードを変更する必要があります。あなたのパスワードを更新するにはブラウザでログインしてください。';
+$string['featuredisabled'] = 'ウェブサービス機能が有効にされていません。詳細情報に関して、あなたのサイト管理者にご連絡ください。';
 
 ?>
