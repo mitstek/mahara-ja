@@ -644,7 +644,7 @@ $string['clamdeletedfilefailed'] = 'ファイルを削除できませんでし�
 $string['clambroken'] = 'あなたの管理者がファイルのアップロードに関してウイルスチェックを有効にしましたが、設定が正しくないようです。あなたのファイルは正常にアップロードされませんでした。あなたの管理者にメール通知が送信されましたので、管理者は問題を修正することができます。このファイルのアップロードを後でお試しください。';
 $string['clamemailsubject'] = '%s :: ClamAV通知';
 $string['clamlost'] = 'ClamAVがファイルのアップロード時に動作するよう設定されていますが、ClamAVのパス「 %s 」が正しくありません。';
-$string['clamnotset'] = 'あなたはウイルスチェックを有効にしましたが、「ClamAVのパス」を設定していません。あなたのconfig.phpファイルに「$cfg->pathtoclam」を追加してClamAVのパスを設定するまで、ウイルスチェックは有効になりません。';
+$string['clamnotset'] = 'あなたはウイルスチェックを有効にしましたが、「ClamAVのパス」を設定していません。あなたのconfig.phpファイルに「$cfg->pathtoclam」を追加してClamAVのパスを設定するまでウイルスチェックは有効になりません。';
 $string['clamfailed'] = 'ClamAVの動作にエラーが発生しました。エラーメッセージは %s です。ClamAVのアウトプットは次のとおりです:';
 $string['clamunknownerror'] = 'ClamAVに不明なエラーが発生しました。';
 $string['image'] = 'イメージ';
@@ -966,7 +966,7 @@ $string['createresume'] = 'あなたのレジュメを作成する';
 $string['publishblog'] = '日誌を公開する';
 $string['Organise'] = '整理';
 $string['organisesubtitle'] = 'あなたのポートフォリオのショーケースです。';
-$string['organisedescription'] = 'あなたのポートフォリオを<a href="%s">ページ</a>に整理することができます。異なる閲覧者に対して、異なるページを作成します - あなたがページに含む構成要素を選択します。';
+$string['organisedescription'] = 'あなたのポートフォリオを<a href="%s">ページ</a>に整理することができます。異なる閲覧者に対して異なるページを作成します - あなたがページに含む構成要素を選択します。';
 $string['sharenetwork'] = '共有およびネットワーク';
 $string['sharenetworksubtitle'] = 'フレンドを探して、グループに参加します。';
 $string['joinsomegroups'] = 'グループに参加する';
