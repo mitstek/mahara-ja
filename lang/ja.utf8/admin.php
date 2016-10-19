@@ -137,7 +137,7 @@ $string['iframedisplaynamedescription'] = 'ユーザに表示されるサイト�
 $string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含むことができます。';
 $string['iframeiconhost'] = 'アイコンホスト';
 $string['urlalreadyexists'] = 'このURLはすでに存在します。あなたは2度追加することはできません。';
-$string['iframeiconhostdescription'] = '必要であれば、あなたはファビコン (favicon) イメージ用の異なるホストを指定することができます。同一名称のサイトすべてに対して、このアイコンが使用されます。';
+$string['iframeiconhostdescription'] = '必要であれば、あなたはファビコン (favicon) イメージ用の異なるホストを指定することができます。同一名称のサイトすべてに対してこのアイコンが使用されます。';
 $string['cleanurls'] = 'クリーンURL';
 $string['cleanurlsdescription'] = '<p>ユーザプロファイル、グループホームページおよびポートフォリオページに関して人間が解読可能なURLを使用して、あなたのサイトを設定することができます。例えば、下記のようになります:
 <ul>
@@ -192,7 +192,7 @@ $string['registeryourmaharasitedetail'] = '<p>あなたのMaharaサイトを<a h
 $string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページで</p>サイト更新内容の週ごとの送信を有効または無効にすることができます。';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
-$string['closesitedetail'] = 'あなたは管理者を除くすべてのユーザに対して、サイトをクローズすることができます。この処理はデータベースアップグレード処理の準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで、管理者のみログインすることができます。';
+$string['closesitedetail'] = 'あなたは管理者を除くすべてのユーザに対してサイトをクローズすることができます。この処理はデータベースアップグレード処理の準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインすることができます。';
 $string['Open'] = 'オープン';
 $string['reopensite'] = 'サイトを再オープンする';
 $string['reopensitedetail'] = 'あなたのサイトはクローズされています。アップグレードが完了するまでサイト管理者のみログインすることができます。';
@@ -249,7 +249,7 @@ $string['allowinstitutionpublicviewsdescription'] = 'この設定を有効にし
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowpublicprofilesdescription'] = 'この設定を有効にした場合、ログインユーザだけではなく、その他のユーザからもアクセスできるようプロファイルページを設定することができます。';
 $string['anonymouscomments'] = '匿名コメント';
-$string['anonymouscommentsdescription'] = 'この設定を有効にした場合、パブリックページまたはシークレットURLアクセス可能なページに対して、誰でもコメントを投稿することができます。';
+$string['anonymouscommentsdescription'] = 'この設定を有効にした場合、パブリックページまたはシークレットURLアクセス可能なページに対して誰でもコメントを投稿することができます。';
 $string['loggedinprofileviewaccess'] = 'ログインユーザがプロファイルを閲覧できる';
 $string['loggedinprofileviewaccessdescription'] = 'この設定を有効にした場合、ログインユーザすべてがユーザのプロファイルページを閲覧できるようになります。';
 $string['antispam'] = 'アンチスパム';
@@ -280,7 +280,7 @@ $string['homepageinfodescription'] = 'この設定を有効にした場合、Mah
 $string['institutionautosuspend'] = '有効期限切れのインスティテューションを自動停止する';
 $string['institutionautosuspenddescription'] = 'この設定を有効にした場合、有効期限切れのインスティテューションが自動的に停止されます。';
 $string['institutionexpirynotification'] = 'インスティテューション有効期限の警告期間';
-$string['institutionexpirynotificationdescriptioninfo'] = 'サイトおよびインスティテューション管理者に対して、インスティテューション有効期限切れ前に通知メッセージが送信されます。';
+$string['institutionexpirynotificationdescriptioninfo'] = 'サイトおよびインスティテューション管理者に対してインスティテューション有効期限切れ前に通知メッセージが送信されます。';
 $string['language'] = '言語';
 $string['none'] = 'なし';
 $string['onlineuserssideblockmaxusers'] = 'オンラインユーザ制限';
@@ -314,7 +314,7 @@ $string['showonlineuserssideblockdescriptionmessage'] = 'この設定を有効�
 $string['showselfsearchsideblock'] = 'ポートフォリオ検索を有効にする';
 $string['showselfsearchsideblockdescription1'] = '「マイポートフォリオを検索する」サイドバーがサイト内のいくつかの場所に表示されます。';
 $string['showtagssideblock'] = 'タグクラウドを有効にする';
-$string['showtagssideblockdescription1'] = 'この設定を有効にした場合、ユーザに対して、最も使用されたタグ一覧のサイドバーがサイト内のいくつかの場所に表示されます。';
+$string['showtagssideblockdescription1'] = 'この設定を有効にした場合、ユーザに対して最も使用されたタグ一覧のサイドバーがサイト内のいくつかの場所に表示されます。';
 $string['simple'] = 'シンプル';
 $string['sitedefault'] = 'サイトデフォルト';
 $string['sitelanguagedescription'] = 'サイトのデフォルトの言語です。';
@@ -410,7 +410,7 @@ $string['footermenu'] = 'フッタメニュー';
 $string['footermenudescription'] = 'フッタメニュー内のリンクを有効または無効にします。';
 $string['footerupdated'] = 'フッタが更新されました。';
 $string['footercustomlink'] = 'ここにURLを入力することであなたはデフォルトページ「 %s 」に優先させることができます。デフォルト値を使用する場合、空白のままにしてください。';
-$string['adminfilespagedescription'] = 'あなたはここで%s「リンクおよびリソース」メニュー%sに含むことのできるファイルをアップロードすることができます。パブリックディレクトリのファイルはパブリックの「リンクおよびリソース」メニューに追加できるのに対して、ホームディレクトリのファイルはログイン後の「リンクおよびリソース」メニューに追加することができます。';
+$string['adminfilespagedescription'] = 'あなたはここで%s「リンクおよびリソース」メニュー%sに含むことのできるファイルをアップロードすることができます。パブリックディレクトリのファイルはパブリックの「リンクおよびリソース」メニューに追加できるのに対してホームディレクトリのファイルはログイン後の「リンクおよびリソース」メニューに追加することができます。';
 $string['extralicensesdescription'] = '注意: 次のライセンスはいくつかのコンテンツで使用されていますが、設定されていません。';
 $string['licensenamelabel'] = 'URL';
 $string['licensedisplaynamelabel'] = '表示名';
@@ -505,7 +505,7 @@ $string['uploadcsvpagedescription2'] = '<p>あなたはこの機能により、<
 
 <p>この先頭行には<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、すべてのユーザに対して必須入力にしたフィールドを含んでください。あなたがユーザをアップロードするインスティテューションのロックフィールドも含んでください。すべてのインスティテューションの<a href="%s">必須入力フィールドを設定</a>、または<a href="%s">個別のインスティテューションのロックフィールドを設定することができます</a>。</p>
 
-<p>必要に応じて、あなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
+<p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
 
 %s';
 $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
@@ -516,7 +516,7 @@ $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの�
 
 <p>この先頭行には<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、サイト管理者が必須入力にしたフィールド、あなたがインスティテューションでロックしたフィールドも含んでください。あなたが管理するインスティテューションの<a href="%s">ロックフィールドを設定</a>することができます。</p>
 
-<p>必要に応じて、あなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
+<p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
 
 %s';
 $string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれている行が多すぎます。あなたは %s 以上含むことができません。';
@@ -541,13 +541,13 @@ $string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能によ�
 
 %s
 
-<p>必要に応じて、あなたのCSVファイルには他のフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
+<p>必要に応じてあなたのCSVファイルには他のフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
 
 %s';
 $string['uploadgroupcsveditrolesdescription'] = '<p>editrolesフィールドには以下の設定値を含むことができます: %s</p>
 %s';
 $string['uploadgroupmemberscsverrorduplicateusername'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」およびユーザ名 (username)「 %s 」はすでにこのファイルで指定されています。';
-$string['uploadgroupmemberscsverrorinvalidrole'] = 'あなたのファイルの %s 行目にエラーが発生しました: 指定されたグループに対して、ロール「 %s 」は有効ではありません。';
+$string['uploadgroupmemberscsverrorinvalidrole'] = 'あなたのファイルの %s 行目にエラーが発生しました: 指定されたグループに対してロール「 %s 」は有効ではありません。';
 $string['uploadgroupmemberscsverrornoadminlisted'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」にはロール「admin」を指定されたユーザがありません。';
 $string['uploadgroupmemberscsverrornosuchshortname'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」が存在しないか、インスティテューション「 %s 」に属していません。';
 $string['uploadgroupmemberscsverrornosuchusername'] = 'あなたのファイルの %s 行目にエラーが発生しました: ユーザ名 (username)「 %s 」は存在しません。';
@@ -767,8 +767,8 @@ $string['institutionmembers'] = 'インスティテューションメンバー';
 $string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
 $string['institutionmemberspagedescription'] = 'このページではあなたのインスティテューションにメンバーシップをリクエストしたユーザを確認およびメンバーとして登録することができます。また、あなたのインスティテューションからユーザを削除および招待することができます。';
 $string['institutionusersinstructionsrequesters'] = '左側のユーザ一覧にはあなたのインスティテューションに参加をリクエストした、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザをインスティテューションに追加したい場合、またはユーザのメンバーシップリクエストを拒否したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより、最初にユーザを右側ボックスに移動してください。「メンバーを追加する」ボタンをクリックすることにより、右側ボックスのすべてのユーザをインスティテューションに追加することができます。「リクエストを拒否する」ボタンをクリックすることにより、右側ボックスのユーザのメンバーシップリクエストを拒否することができます。';
-$string['institutionusersinstructionsnonmembers'] = '左側のユーザ一覧にはあなたのインスティテューションのメンバーではない、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザに対して、インスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックすることにより、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。';
-$string['institutionusersinstructionslastinstitution'] = '左側のユーザ一覧にはあなたのインスティテューションのメンバーではなく、選択されたインスティテューションを離れたすべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザに対して、インスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックすることにより、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。';
+$string['institutionusersinstructionsnonmembers'] = '左側のユーザ一覧にはあなたのインスティテューションのメンバーではない、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザに対してインスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックすることにより、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。';
+$string['institutionusersinstructionslastinstitution'] = '左側のユーザ一覧にはあなたのインスティテューションのメンバーではなく、選択されたインスティテューションを離れたすべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。あなたがユーザに対してインスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックすることにより、右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けされません。';
 $string['institutionusersinstructionsmembers'] = '左側のユーザ一覧にはあなたのインスティテューションのすべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。ユーザをインスティテューションから削除するには最初に1名またはそれ以上のユーザを左側のボックスで選択した後、右矢印をクリックしてください。あなたが選択したユーザが右側のボックスに移動されます。「ユーザを削除する」ボタンをクリックすることにより、右側ボックスのすべてのユーザが削除されます。左側ボックスのユーザはインスティテューションに参加したままの状態です。';
 $string['institutionusersinstructionsinvited'] = '左側のユーザ一覧にはインスティテューションへの参加の招待が送信されたすべてのユーザおよび誰が承認または拒否したか表示されます。あなたは表示されるユーザ数を減らすため、検索ボックスを使用することができます。インスティテューションへの招待を取り消すには最初に1名またはそれ以上のユーザを左側のボックスで選択した後、右矢印をクリックしてください。あなたが選択したユーザが右側のボックスに移動されます。「招待を取り消す」ボタンをクリックすることにより、右側ボックスのすべてのユーザへの招待が取り消されます。左側ボックスのユーザはインスティテューションに招待されたままの状態で、いつでもインスティテューションに参加することができます。';
 $string['editmembers'] = 'メンバーを編集する';
