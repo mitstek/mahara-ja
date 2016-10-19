@@ -836,7 +836,7 @@ $string['createyourresume'] = '<a href="%s">レジュメ</a>を作成する';
 $string['publishablog'] = '<a href="%s">ブログ</a>を公開する';
 $string['Organise'] = '整理';
 $string['organisesubtitle'] = 'あなたのポートフォリオをビューに表示します。';
-$string['organisedescription'] = 'あなたのポートフォリオを<a href="%s">ビュー</a>に整理することができます。異なる閲覧者に対して、異なるビューを作成します - あなたがビューに含む構成要素を選択します。';
+$string['organisedescription'] = 'あなたのポートフォリオを<a href="%s">ビュー</a>に整理することができます。異なる閲覧者に対して異なるビューを作成します - あなたがビューに含む構成要素を選択します。';
 $string['sharenetwork'] = '共有およびネットワーク';
 $string['sharenetworksubtitle'] = 'フレンドを探して、グループに参加します。';
 $string['findfriendslinked'] = '<a href="%s">フレンド</a>を探す';

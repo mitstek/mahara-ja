@@ -30,6 +30,6 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'マイビュー';
 $string['otherusertitle'] = '%s のビュー';
-$string['description'] = 'あなたのプロファイルを閲覧している人に対して、あなたの閲覧可能なビューすべてを表示します。';
+$string['description'] = 'あなたのプロファイルを閲覧している人に対してあなたの閲覧可能なビューすべてを表示します。';
 
 ?>
