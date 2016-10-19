@@ -152,7 +152,7 @@ $string['iframedisplaynamedescription'] = 'ユーザに表示されるサイト�
 $string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含むことができます。';
 $string['iframeiconhost'] = 'アイコンホスト';
 $string['urlalreadyexists'] = 'このURLはすでに存在します。あなたは2度追加することはできません。';
-$string['iframeiconhostdescription'] = '必要であれば、あなたはファビコン (favicon) イメージ用の異なるホストを指定することができます。同一名称のサイトすべてに対して、このアイコンが使用されます。';
+$string['iframeiconhostdescription'] = '必要であれば、あなたはファビコン (favicon) イメージ用の異なるホストを指定することができます。同一名称のサイトすべてに対してこのアイコンが使用されます。';
 $string['cleanurls'] = 'クリーンURL';
 $string['cleanurlsdescription'] = '<p>ユーザプロファイル、グループホームページおよびポートフォリオページに関して人間が解読可能なURLを使用して、あなたのサイトを設定することができます。例えば、下記のようになります:
 <ul>
@@ -220,7 +220,7 @@ $string['siteregistered'] = 'あなたのサイトが正常に登録されまし
 $string['newsiteregistrationpolicy'] = '<p>Mahara 15.10において、私たちはmahara.orgへのデータ送信に関するポリシーを更新しました。あなたの登録を確認してください。</p>';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
-$string['closesitedetail'] = 'あなたは管理者を除くすべてのユーザに対して、サイトをクローズすることができます。この処理はデータベースアップグレード処理の準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで、管理者のみログインすることができます。';
+$string['closesitedetail'] = 'あなたは管理者を除くすべてのユーザに対してサイトをクローズすることができます。この処理はデータベースアップグレード処理の準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインすることができます。';
 $string['Open'] = 'オープン';
 $string['reopensite'] = 'サイトを再オープンする';
 $string['reopensitedetail'] = 'あなたのサイトはクローズされています。アップグレードが完了するまでサイト管理者のみログインすることができます。';
@@ -322,7 +322,7 @@ $string['homepageinfodescription2'] = 'この設定を有効にした場合、Ma
 $string['institutionautosuspend'] = '有効期限切れのインスティテューションを自動停止する';
 $string['institutionautosuspenddescription1'] = '有効期限切れのインスティテューションを自動的に利用停止します。';
 $string['institutionexpirynotification'] = 'インスティテューション有効期限の警告期間';
-$string['institutionexpirynotificationdescriptioninfo'] = 'サイトおよびインスティテューション管理者に対して、インスティテューション有効期限切れ前に通知メッセージが送信されます。';
+$string['institutionexpirynotificationdescriptioninfo'] = 'サイトおよびインスティテューション管理者に対してインスティテューション有効期限切れ前に通知メッセージが送信されます。';
 $string['language'] = '言語';
 $string['none'] = 'なし';
 $string['nousernames'] = 'ユーザ名を表示しない';
@@ -600,13 +600,13 @@ $string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能によ�
 
 %s
 
-<p>必要に応じて、あなたのCSVファイルには他のフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
+<p>必要に応じてあなたのCSVファイルには他のフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
 
 %s';
 $string['uploadgroupcsveditrolesdescription'] = '<p>editrolesフィールドには以下の設定値を含むことができます: %s</p>
 %s';
 $string['uploadgroupmemberscsverrorduplicateusername'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」およびユーザ名 (username)「 %s 」はすでにこのファイルで指定されています。';
-$string['uploadgroupmemberscsverrorinvalidrole'] = 'あなたのファイルの %s 行目にエラーが発生しました: 指定されたグループに対して、ロール「 %s 」は有効ではありません。';
+$string['uploadgroupmemberscsverrorinvalidrole'] = 'あなたのファイルの %s 行目にエラーが発生しました: 指定されたグループに対してロール「 %s 」は有効ではありません。';
 $string['uploadgroupmemberscsverrornoadminlisted'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」にはロール「admin」を指定されたユーザがありません。';
 $string['uploadgroupmemberscsverrornosuchshortname'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」が存在しないか、インスティテューション「 %s 」に属していません。';
 $string['uploadgroupmemberscsverrornosuchusername'] = 'あなたのファイルの %s 行目にエラーが発生しました: ユーザ名 (username)「 %s 」は存在しません。';
@@ -814,7 +814,7 @@ $string['institutionupdatedsuccessfully'] = 'インスティテューション�
 $string['registrationallowed'] = 'ユーザ登録を許可する';
 $string['registrationalloweddescription4'] = 'この設定を有効にした場合、ユーザは登録フォームを使用してこのインスティテューションに登録することができます。登録を無効にした場合、インスティテューションのメンバーシップをリクエストすることはできません。また、メンバーはインスティテューションを離れたり、自分のユーザアカウントを削除することはできません。';
 $string['registrationconfirm'] = '登録を確認する';
-$string['registrationconfirmdescription2'] = 'この設定を有効にした場合、登録はインスティテューション管理者によって承認される必要があります。あなたがこのオプションを変更できない場合、サイト管理者がすべてのインスティテューションに対して、このオプションを有効にすることを求めています。';
+$string['registrationconfirmdescription2'] = 'この設定を有効にした場合、登録はインスティテューション管理者によって承認される必要があります。あなたがこのオプションを変更できない場合、サイト管理者がすべてのインスティテューションに対してこのオプションを有効にすることを求めています。';
 $string['defaultmembershipperiod'] = 'デフォルトのメンバーシップ期間';
 $string['defaultmembershipperioddescription'] = 'どのくらいの期間、新しいメンバーはインスティテューションに参加することができますか。';
 $string['showonlineusers'] = 'オンラインユーザを表示する';
