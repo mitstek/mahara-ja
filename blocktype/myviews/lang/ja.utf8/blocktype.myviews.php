@@ -30,6 +30,6 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'マイページ';
 $string['otherusertitle'] = '%s のページ';
-$string['description'] = 'あなたのプロファイルを閲覧している人に対して、あなたの閲覧可能なページすべてを表示します。';
+$string['description'] = 'あなたのプロファイルを閲覧している人に対してあなたの閲覧可能なページすべてを表示します。';
 
 ?>
