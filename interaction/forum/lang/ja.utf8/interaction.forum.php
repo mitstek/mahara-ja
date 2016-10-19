@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-08 10:20:41 UTC
+ * @updated    2016-10-19 17:40:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -54,7 +54,7 @@ $string['Closed'] = '閉鎖';
 $string['Close'] = 'クローズ';
 $string['closeddescription'] = '閉鎖トピックではモデレータおよびグループ管理者のみ返信することができます。';
 $string['Count'] = 'カウント';
-$string['createtopicusersdescription'] = '「グループメンバーすべて」を設定した場合、すべてのメンバーが新しいトピックを作成すること、既存のトピックに返信することができます。「モデレータおよびグループ管理者のみ」を設定した場合、モデレータおよびグループ管理者のみ、新しいトピックを開始することができます。しかし、「モデレータおよびグループ管理者のみ」を設定して、トピックが存在するようになった場合、すべてのユーザが返信することができます。';
+$string['createtopicusersdescription'] = '「グループメンバーすべて」を設定した場合、すべてのメンバーが新しいトピックを作成および既存のトピックに返信することができます。「モデレータおよびグループ管理者のみ」を設定した場合、モデレータおよびグループ管理者のみ新しいトピックを開始することができます。しかし、「モデレータおよびグループ管理者のみ」を設定してトピックが存在するようになった場合、すべてのユーザが返信することができます。';
 $string['currentmoderators'] = '現在のモデレータ';
 $string['defaultforumtitle'] = '一般的なディスカッション';
 $string['defaultforumdescription'] = '%s 一般的なディスカッションフォーラム';
