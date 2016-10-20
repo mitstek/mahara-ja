@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-19 17:29:40 UTC
+ * @updated    2016-10-20 18:02:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -66,7 +66,7 @@ $string['forumposthtmltemplate'] = '<div style="padding: 0.5em 0; border-bottom:
 <div style="margin: 1em 0;">%s</div>
 
 <div style="font-size: smaller; border-top: 1px solid #999;">
-<p><a href="%s">この投稿にオンライン上で返信する</a></p>
+<p><a href="%s">この投稿にオンラインで返信する</a></p>
 <p><a href="%s">この %s から購読解除する</a></p>
 </div>';
 $string['forumposttemplate'] = 'フォーラム: %s (%s)
