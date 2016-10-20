@@ -73,7 +73,7 @@ $string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bott
 <div style="margin: 1em 0;">%s</div>
 
 <div style="font-size: smaller; border-top: 1px solid #999;">
-<p><a href="%s">このコメントにオンライン上で返信する</a></p>
+<p><a href="%s">このコメントにオンラインで返信する</a></p>
 </div>';
 $string['feedbacknotificationtext'] = '%s が %s にコメントを投稿しました。
 %s
@@ -82,7 +82,7 @@ $string['feedbacknotificationtext'] = '%s が %s にコメントを投稿しま�
 %s
 
 ------------------------------------------------------------------------
-オンライン上でコメントを閲覧および返信するには次のリンクをクリックしてください:
+オンラインでコメントを閲覧および返信するには次のリンクをクリックしてください:
 %s';
 $string['feedbackdeletedhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s のコメントが削除されました。</strong><br />%s</div>
 
@@ -98,7 +98,7 @@ $string['feedbackdeletedtext'] = '%s のコメントが削除されました。
 %s
 
 ------------------------------------------------------------------------
-%s をオンライン上で閲覧するには次のリンクをクリックしてください:
+%s をオンラインで閲覧するには次のリンクをクリックしてください:
 %s';
 $string['artefactdefaultpermissions'] = 'デフォルトのコメントパーミッション';
 $string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトでは作成時にコメントの投稿が有効にされます。ユーザはそれぞれのアーティファクトでこれらの設定をオーバーライドすることができます。';
