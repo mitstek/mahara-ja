@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-21 11:21:59 UTC
+ * @updated    2016-10-21 11:24:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -104,5 +104,6 @@ $string['public'] = 'パブリック';
 $string['enteredon'] = '投稿日時';
 $string['noreflectionentryfound'] = 'アノテーションの内省エントリが見つかりません。';
 $string['nofeedback'] = 'まだこのアノテーションのフィードバックはありません。';
+$string['assessmentchangedto'] = '評価: %s';
 
 ?>
