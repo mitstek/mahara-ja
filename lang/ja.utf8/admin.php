@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-02 22:50:41 UTC
+ * @updated    2016-10-21 11:18:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1022,6 +1022,8 @@ $string['selectedusers'] = '選択済みユーザ';
 $string['remoteuser'] = 'リモートユーザ名';
 $string['userreports'] = 'ユーザレポート';
 $string['userreportsdescription'] = 'あなたがユーザ検索ページで選択したユーザ情報を表示またはダウンロードします。';
+$string['unabletodeleteself'] = 'あなた自身をバルク削除することはできません。';
+$string['unabletodeletealladmins'] = 'すべてのサイト管理者のバルク削除は許可されていません。';
 $string['notificationssaved'] = '通知設定が保存されました。';
 $string['onlyshowingfirst'] = '最初に表示';
 $string['resultsof'] = '検索結果';
