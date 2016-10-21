@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-12 16:14:48 UTC
+ * @updated    2016-10-21 11:25:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -25,6 +25,7 @@ $string['frameworkupdated'] = 'フレームワークが更新されました。'
 $string['matrixfile'] = 'マトリックスファイル';
 $string['matrixfiledesc'] = 'JSONエンコード済みフレームワークを含む「.matrix」ファイルです。';
 $string['notvalidmatrixfile'] = 'これは有効な「.matrix」ファイルではありません。';
+$string['matrixfilenotfound'] = '有効な「.matrix」ファイルが選択されていません。';
 $string['invalidjson'] = 'これは有効な「.matrix」ファイルではありません。JSONコンテンツを構文解析できません。';
 $string['jsonmissingvars'] = 'これは有効な「.matrix」ファイルではありません。「フレームワーク」または「フレームワーク名」がありません。';
 $string['manuallyremovematrices'] = 'インストールディレクトリ「 %s 」を削除することはできません。手動で削除してください。';
