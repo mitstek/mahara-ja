@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-08 15:14:32 UTC
+ * @updated    2016-10-21 11:27:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -139,6 +139,8 @@ $string['viewvisitcount'] = 'アクセス数: %s  記録: %s - %s';
 $string['profilenotshared'] = 'このユーザプロファイルに対するフルアクセスは制限されています。';
 $string['friend'] = 'フレンド';
 $string['profileicon'] = 'プロファイル写真';
+$string['Updatedon'] = '更新日時:';
+$string['Createdon'] = '作成日時:';
 $string['Added'] = '追加済み';
 $string['share'] = '共有';
 $string['sharedbyme'] = '私からの共有';
