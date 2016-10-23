@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-19 17:35:05 UTC
+ * @updated    2016-10-23 14:16:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,7 +18,7 @@ $string['addtitle'] = 'フォーラムを追加する';
 $string['addtopic'] = 'トピックを追加する';
 $string['addtopicsuccess'] = 'トピックが正常に追加されました。';
 $string['autosubscribeusers'] = 'ユーザを自動的にメール購読させる';
-$string['autosubscribeusersdescription'] = 'このフォーラムに対してグループユーザが自動的にメール購読されるかどうか選択してください。';
+$string['autosubscribeusersdescription'] = 'このフォーラムにグループユーザが自動的にメール購読されるかどうか選択してください。';
 $string['Body'] = '本文';
 $string['cantaddposttoforum'] = 'あなたはこのフォーラムに投稿できません。';
 $string['cantaddposttotopic'] = 'あなたはこのトピックに投稿できません。';
@@ -32,8 +32,8 @@ $string['cantfindforum'] = 'ID %s のフォーラムが見つかりませんで�
 $string['cantfindpost'] = 'ID %s の投稿が見つかりませんでした。';
 $string['cantfindtopic'] = 'ID %s のトピックが見つかりませんでした。';
 $string['cantmakenonobjectionable'] = 'あなたはこの投稿を好ましくない投稿としてマークすることはできません。';
-$string['cantviewforums'] = 'あなたはこのグループのフォーラムを閲覧できません。';
-$string['cantviewtopic'] = 'あなたはこのフォーラムのトピックを閲覧できません。';
+$string['cantviewforums'] = 'あなたはこのグループ内のフォーラムを閲覧できません。';
+$string['cantviewtopic'] = 'あなたはこのフォーラム内のトピックを閲覧できません。';
 $string['chooseanaction'] = '処理を選択する ...';
 $string['clicksetsubject'] = '件名を入力するにはここをクリックしてください。';
 $string['Closed'] = '閉鎖';
@@ -61,7 +61,7 @@ $string['edittopic'] = 'トピックを編集する';
 $string['edittopicspecific'] = 'トピック「 %s 」を編集する';
 $string['edittopicsuccess'] = 'トピックが正常に編集されました。';
 $string['forumname'] = 'フォーラム名';
-$string['forumposthtmltemplate'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s by %s</strong><br />%s</div>
+$string['forumposthtmltemplate'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>フォーラム: %s (%s)</strong></div>
 
 <div style="margin: 1em 0;">%s</div>
 
@@ -124,7 +124,7 @@ $string['postdelaydescription'] = '新しい投稿がメール購読者に送信
 $string['postedin'] = '%s が %s に投稿しました。';
 $string['Poster'] = '投稿者';
 $string['postobjectionable'] = 'この投稿はあなたにより好ましくないコンテンツを含んでいると報告されました。';
-$string['postnotobjectionable'] = 'この投稿は好ましくないコンテンツを含んでいると報告されました。事実とは異なる場合、あなたはボタンをクリックして通知を削除した後、他の管理者に通知することができます。';
+$string['postnotobjectionable'] = 'この投稿は好ましくないコンテンツを含んでいると報告されました。事実とは異なる場合、あなたはボタンをクリックして通知を削除した後、他の管理者に知らせることができます。';
 $string['postnotobjectionablebody'] = '%s は前に好ましくないコンテンツであると報告された %s による投稿を調査して、もはや好ましくないコンテンツは含んでいないとマークしました。';
 $string['postnotobjectionablesubject'] = 'フォーラムトピック「 %s 」の投稿は %s によって好ましくない投稿ではないとマークされました。';
 $string['postnotobjectionablesuccess'] = '投稿が好ましくない投稿ではないとマークされました。';
