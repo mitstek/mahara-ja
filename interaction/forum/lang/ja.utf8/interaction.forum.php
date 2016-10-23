@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-19 17:36:55 UTC
+ * @updated    2016-10-23 14:17:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,7 +18,7 @@ $string['addtitle'] = 'フォーラムを追加する';
 $string['addtopic'] = 'トピックを追加する';
 $string['addtopicsuccess'] = 'トピックが正常に追加されました。';
 $string['autosubscribeusers'] = 'ユーザを自動的にメール購読させる';
-$string['autosubscribeusersdescription'] = 'このフォーラムに対してグループユーザが自動的にメール購読されるかどうか選択してください。';
+$string['autosubscribeusersdescription'] = 'このフォーラムにグループユーザが自動的にメール購読されるかどうか選択してください。';
 $string['Body'] = '本文';
 $string['cantaddposttoforum'] = 'あなたはこのフォーラムに投稿できません。';
 $string['cantaddposttotopic'] = 'あなたはこのトピックに投稿できません。';
@@ -31,8 +31,8 @@ $string['cantedittopic'] = 'あなたはこのトピックを編集できませ�
 $string['cantfindforum'] = 'ID %s のフォーラムが見つかりませんでした。';
 $string['cantfindpost'] = 'ID %s の投稿が見つかりませんでした。';
 $string['cantfindtopic'] = 'ID %s のトピックが見つかりませんでした。';
-$string['cantviewforums'] = 'あなたはこのグループのフォーラムを閲覧できません。';
-$string['cantviewtopic'] = 'あなたはこのフォーラムのトピックを閲覧できません。';
+$string['cantviewforums'] = 'あなたはこのグループ内のフォーラムを閲覧できません。';
+$string['cantviewtopic'] = 'あなたはこのフォーラム内のトピックを閲覧できません。';
 $string['chooseanaction'] = '処理を選択する ...';
 $string['clicksetsubject'] = '件名を入力するにはここをクリックしてください。';
 $string['Closed'] = '閉鎖';
@@ -58,7 +58,7 @@ $string['edittitle'] = 'フォーラムを編集する';
 $string['edittopic'] = 'トピックを編集する';
 $string['edittopicsuccess'] = 'トピックが正常に編集されました。';
 $string['forumname'] = 'フォーラム名';
-$string['forumposthtmltemplate'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s by %s</strong><br />%s</div>
+$string['forumposthtmltemplate'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>フォーラム: %s (%s)</strong></div>
 
 <div style="margin: 1em 0;">%s</div>
 
