@@ -55,6 +55,6 @@ $string['prefssaved'] = 'プリファレンスが保存されました。';
 $string['prefsnotsaved'] = 'あなたのプリファレンスの保存に失敗しました!';
 $string['deleteaccount'] = 'アカウントを削除する';
 $string['deleteaccountdescription'] = 'アカウントを削除した場合、今後、あなたのプロファイル情報およびビューを他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧することができますが、投稿者名が表示されないようになります。';
-$string['accountdeleted'] = 'あなたのアカウントが正常に削除されました。';
+$string['accountdeleted'] = 'あなたのアカウントが削除されました。';
 
 ?>
