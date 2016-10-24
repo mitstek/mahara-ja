@@ -66,6 +66,6 @@ $string['maildisabledbounce'] = '多くのメッセージがサーバに戻っ�
 $string['maildisableddescription'] = 'あなたのアカウント宛のメール送信は停止されました。アカウントプリファレンスページで<a href="%s">あなたのEメールを再度有効</a>にすることができます。';
 $string['deleteaccount'] = 'アカウントを削除する';
 $string['deleteaccountdescription'] = 'アカウントを削除した場合、今後、あなたのプロファイル情報およびビューを他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧することができますが、投稿者名が表示されないようになります。';
-$string['accountdeleted'] = 'あなたのアカウントが正常に削除されました。';
+$string['accountdeleted'] = 'あなたのアカウントが削除されました。';
 
 ?>
