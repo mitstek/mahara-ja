@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-11 16:21:58 UTC
+ * @updated    2016-10-24 15:03:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -23,7 +23,7 @@ $string['usernameexists'] = 'このユーザ名は取得されています。別
 $string['accountoptionsdesc'] = '一般アカウントオプション';
 $string['changeprofileurl'] = 'プロファイルURLを変更する';
 $string['profileurl'] = 'プロファイルURL';
-$string['profileurldescription'] = 'あなたのプロファイルページのURLです。このフィールドの長さは半角3-30文字にしてください。';
+$string['profileurldescription'] = 'あなたのプロファイルページの独自URLです。このフィールドの長さは半角3-30文字にしてください。';
 $string['urlalreadytaken'] = 'このプロファイルURLはすでに取得されています。別のURLを選択してください。';
 $string['friendsnobody'] = 'だれも私をフレンドとして追加できません。';
 $string['friendsauth'] = '新しいフレンドになるには私の承認が必要です。';
@@ -51,7 +51,7 @@ $string['showhomeinfodescription1'] = 'ダッシュボード上に %s の使用�
 $string['showprogressbar'] = 'プロファイル完了プログレスバー';
 $string['showprogressbardescription'] = 'プログレスバーおよびあなたの %s プロファイルを完了するためのヒントを表示します。';
 $string['mobileuploadtoken'] = 'モバイルアップロードトークン';
-$string['badmobileuploadtoken'] = '申し訳ございません、アップロードトークンが無効です - トークンの長さは少なくとも半角6文字にしてください。';
+$string['badmobileuploadtoken'] = '申し訳ございません、モバイルアップロードトークンが無効です - トークンの長さは少なくとも半角6文字にしてください。';
 $string['prefssaved'] = 'プリファレンスが保存されました。';
 $string['prefsnotsaved'] = 'あなたのプリファレンスの保存に失敗しました。';
 $string['maildisabled'] = 'Eメールが無効にされました。';
@@ -60,7 +60,7 @@ $string['maildisabledbounce'] = '多くのメッセージがサーバに戻っ�
 $string['maildisableddescription'] = 'あなたのアカウント宛のメール送信は停止されました。アカウントプリファレンスページで<a href="%s">あなたのEメールを再度有効</a>にすることができます。';
 $string['deleteaccount'] = 'アカウントを削除する';
 $string['deleteaccountdescription'] = 'アカウントを削除した場合、今後、あなたのプロファイル情報およびページを他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧することができますが、投稿者名が表示されないようになります。';
-$string['accountdeleted'] = 'あなたのアカウントが正常に削除されました。';
+$string['accountdeleted'] = 'あなたのアカウントが削除されました。';
 $string['resizeonuploaduserdefault1'] = 'アップロード時、イメージをリサイズする';
 $string['resizeonuploaduserdefaultdescription2'] = 'デフォルトで「イメージを自動的にリサイズする」オプションが有効にされます。最大高さおよび幅を超えたイメージはアップロード時にリサイズされます。個別のイメージアップロード時、あなたはこのデフォルト設定を無効にすることができます。';
 $string['devicedetection'] = 'デバイス検出';
