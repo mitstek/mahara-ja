@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-09-09 18:15:15 UTC
+ * @updated    2016-10-24 15:21:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,7 +15,7 @@ defined('INTERNAL') || die();
 
 $string['typemaharamessage'] = 'システムメッセージ';
 $string['typeusermessage'] = '他のユーザからのメッセージ';
-$string['typefeedback'] = 'フィードバック';
+$string['typefeedback'] = 'コメント';
 $string['typewatchlist'] = 'ウォッチリスト';
 $string['typeviewaccess'] = '新しいページアクセス';
 $string['typecontactus'] = 'お問い合わせ';
