@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-24 15:21:32 UTC
+ * @updated    2016-10-26 19:39:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -113,15 +113,15 @@ $string['objectionablecontentviewartefacttext'] = '「  %s (%s)  」の好まし
 %s
 報告者のプロファイルを閲覧するには次のリンクをクリックしてください:
 %s';
-$string['newgroupmembersubj'] = '%s がグループメンバーになりました!';
-$string['removedgroupmembersubj'] = 'もう %s はグループメンバーではありません。';
+$string['newgroupmembersubj'] = '%s がグループメンバーになりました。';
+$string['removedgroupmembersubj'] = '%s はグループメンバーではなくなりました。';
 $string['addtowatchlist'] = 'ウォッチリストに追加する';
 $string['removefromwatchlist'] = 'ウォッチリストから削除する';
 $string['missingparam'] = '次の活動タイプに関する必須パラメータ %s が空です: %s';
 $string['institutionrequestsubject'] = '%s が %s のメンバーシップをリクエストしました。';
-$string['institutionrequestmessage'] = 'あなたはインスティテューションメンバーページでユーザをインスティテューションに追加することができます:';
+$string['institutionrequestmessage'] = 'あなたは「インスティテューションメンバー」ページでユーザをインスティテューションに追加することができます:';
 $string['institutioninvitesubject'] = 'あなたはインスティテューション %s への参加を招待されました。';
-$string['institutioninvitemessage'] = 'あなたはインスティテューション設定ページでこのインスティテューションのメンバーシップを承認することができます:';
+$string['institutioninvitemessage'] = 'あなたは「インスティテューション設定」ページでこのインスティテューションのメンバーシップを承認することができます:';
 $string['deleteallnotifications'] = 'すべての通知を削除する';
 $string['reallydeleteallnotifications'] = '本当にこの活動タイプに関してあなたのすべての通知を削除してもよろしいですか?';
 $string['viewsubmittedsubject1'] = '%s への送信';
