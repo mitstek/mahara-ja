@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-12-29 16:15:27 UTC
+ * @updated    2016-10-30 14:44:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -29,7 +29,7 @@
 defined('INTERNAL') || die();
 
 $string['administration'] = '管理';
-$string['installation'] = 'インストール';
+$string['installation'] = 'インストレーション';
 $string['release'] = 'リリース %s (%s)';
 $string['copyright'] = 'Copyright &copy; 2006 onwards, Catalyst IT Ltd';
 $string['agreelicense'] = '同意します';
@@ -42,7 +42,7 @@ $string['information'] = 'インフォメーション';
 $string['installsuccess'] = '次のバージョンを正常にインストールしました:';
 $string['toversion'] = 'アップグレード後';
 $string['notinstalled'] = 'インストール未了';
-$string['nothingtoupgrade'] = 'アップグレードの必要はありません。';
+$string['nothingtoupgrade'] = 'アップグレードするものはありません。';
 $string['performinginstallsandupgrades'] = 'インストールおよびアップグレード実行中 ...';
 $string['runupgrade'] = 'アップグレードを実行する';
 $string['successfullyinstalled'] = 'Maharaが正常にインストールされました!';
