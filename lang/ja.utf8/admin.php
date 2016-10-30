@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-08-19 08:31:37 UTC
+ * @updated    2016-10-30 14:39:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['administration'] = '管理';
-$string['installation'] = 'インストール';
+$string['installation'] = 'インストレーション';
 $string['release'] = 'バージョン %s (%s)';
 $string['copyright'] = 'Copyright &copy; 2006 onwards, <a href="https://wiki.mahara.org/Contributors">Catalyst IT and others</a>';
 $string['installmahara'] = 'Maharaをインストールする';
@@ -29,7 +29,7 @@ $string['installsuccess'] = '次のバージョンを正常にインストール
 $string['toversion'] = 'アップグレード後';
 $string['localdatasuccess'] = 'ローカルカスタマイゼーションを正常にインストールしました。';
 $string['notinstalled'] = 'インストール未了';
-$string['nothingtoupgrade'] = 'アップグレードの必要はありません。';
+$string['nothingtoupgrade'] = 'アップグレードするものはありません。';
 $string['performinginstallation'] = 'インストール処理中 ...';
 $string['performingupgrades'] = 'アップグレード処理中 ...';
 $string['runupgrade'] = 'アップグレードを実行する';
