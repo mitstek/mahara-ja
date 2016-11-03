@@ -165,7 +165,7 @@ $string['cleanurlsdescription'] = '<p>ユーザプロファイル、グループ
 $string['cleanurlsdisabled'] = 'クリーンURLは無効にされています。';
 $string['cleanurlsettings'] = 'クリーンURL設定';
 $string['regenerateurls'] = 'URLを再生成する';
-$string['regenerateurlsdescription'] = 'サイトからクリーンURLすべてを削除した後、ユーザ名、グループ名およびページタイトルを使用して自動的に生成します。';
+$string['regenerateurlsdescription'] = 'サイトからクリーンURLすべてを削除した後、ユーザ名、グループ名およびページタイトルを使用して自動的に再生成します。';
 $string['regenerateurlsconfirm'] = '本当にこの処理を実行してもよろしいですか? ユーザによって選択された既存のURLすべてが置換されます。';
 $string['generateduserurls'] = '%s プロファイルURLを生成しました。';
 $string['generatedgroupurls'] = '%s グループホームページURLを生成しました。';
@@ -200,7 +200,7 @@ $string['Field'] = 'フィールド';
 $string['Value'] = '値';
 $string['datathatwillbesent'] = '送信されるデータ';
 $string['datathathavebeensent'] = '送信されたデータ';
-$string['sendweeklyupdates'] = '更新内容を週に1回送信しますか?';
+$string['sendweeklyupdates'] = '更新を週に1回送信しますか?';
 $string['sendweeklyupdatesdescription1'] = 'この設定を有効にした場合、あなたのサイトの統計に関する週ごとの更新をmahara.orgに送信します。';
 $string['Register'] = '登録';
 $string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/registersite.php">サイト登録ページ</a>にアクセスして登録することができます。';
@@ -211,7 +211,7 @@ $string['registeryourmaharasitesummary'] = '<p>あなたは<a href="https://maha
 <p>あなたがサイトを登録する場合、送信される情報を<strong><a href="%sadmin/registersite.php">サイト登録ページ</a></strong>でプレビューすることができます。</p>';
 $string['registeryourmaharasitedetail'] = '<p>あなたは<a href="https://mahara.org/">mahara.org</a>にあなたのMaharaサイトを登録することができます。登録は無料です。また、登録することで私たちは世界のMaharaインストール状況を作成することができます。</p>
 <p>あなたはmahara.orgに送信された情報を閲覧することができます - あなたのユーザに関する個人情報は一切送信されません。</p>
-<p>あなたが「更新内容を週に1回送信しますか?」をこの設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
+<p>あなたが「更新を週に1回送信しますか?」をこの設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
 <p>サイトを登録した後、この通知は取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更することができます。</p>';
 $string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページで</p>サイト更新内容の週ごとの送信を有効または無効にすることができます。';
 $string['newsiteregistrationpolicy'] = '<p>最近、私たちはmahara.orgへのデータ送信に関するポリシーを更新しました。あなたの登録を確認してください。</p>';
