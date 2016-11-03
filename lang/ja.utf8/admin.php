@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-11-01 09:32:39 UTC
+ * @updated    2016-11-03 15:00:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -173,7 +173,7 @@ $string['cleanurlsdescription'] = '<p>ユーザプロファイル、グループ
 $string['cleanurlsdisabled'] = 'クリーンURLは無効にされています。';
 $string['cleanurlsettings'] = 'クリーンURL設定';
 $string['regenerateurls'] = 'URLを再生成する';
-$string['regenerateurlsdescription'] = 'サイトからクリーンURLすべてを削除した後、ユーザ名、グループ名およびページタイトルを使用して自動的に生成します。';
+$string['regenerateurlsdescription'] = 'サイトからクリーンURLすべてを削除した後、ユーザ名、グループ名およびページタイトルを使用して自動的に再生成します。';
 $string['regenerateurlsconfirm'] = '本当にこの処理を実行してもよろしいですか? ユーザによって選択された既存のURLすべてが置換されます。';
 $string['generateduserurls'] = '%s プロファイルURLを生成しました。';
 $string['generatedgroupurls'] = '%s グループホームページURLを生成しました。';
@@ -210,8 +210,8 @@ $string['Field'] = 'フィールド';
 $string['Value'] = '値';
 $string['datathatwillbesent'] = '送信されるデータ';
 $string['datathathavebeensent'] = '送信されたデータ';
-$string['sendweeklyupdates'] = '更新内容を週に1回送信しますか?';
-$string['sendweeklyupdatesdescription2'] = 'あなたのサイトの統計に関する週ごとの更新をmahara.orgに送信します。';
+$string['sendweeklyupdates'] = '更新を週に1回送信しますか?';
+$string['sendweeklyupdatesdescription2'] = 'あなたのサイト統計に関する週ごとの更新をmahara.orgに送信します。';
 $string['Register'] = '登録';
 $string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/registersite.php">サイト登録ページ</a>にアクセスして登録することができます。';
 $string['registrationfailedtrylater'] = 'エラーコード %s により、登録が失敗しました。後ほど再度お試しください。';
