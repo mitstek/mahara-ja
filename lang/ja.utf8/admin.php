@@ -233,7 +233,7 @@ $string['viewsperuser'] = 'ページを作成したユーザはそれぞれ約 %
 $string['Cron'] = 'Cron';
 $string['runningnormally'] = '正常動作';
 $string['cronnotrunning1'] = '<span class="error">Cronが動作していません。</span><br />cronのセットアップに関するインストラクションは<a href="https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronをセットアップしている場合、直近の1つまたはそれ以上の処理が正しく実行されませんでした。';
-$string['cronnotrunningsiteclosed'] = '<span class="error">Cronが動作していません。</span><br />現在、サイトはクローズされています。Cronの実行のため、再度サイトをオープンしてください。';
+$string['cronnotrunningsiteclosed'] = '<span class="error">Cronが動作していません。</span><br />現在、サイトはクローズされています。Cronを実行するにはサイトを再度オープンしてください。';
 $string['Loggedin'] = 'ログイン';
 $string['youraverageuser'] = 'あなたのユーザ平均 ...';
 $string['statsmaxfriends'] = '平均フレンド数: %s (最もフレンドの多いユーザ: <a href="%s">%s</a> - フレンド数: %d)';
