@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-11-03 15:00:15 UTC
+ * @updated    2016-11-07 00:33:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -245,7 +245,7 @@ $string['viewsperuser'] = 'ページを作成したユーザはそれぞれ約 %
 $string['Cron'] = 'Cron';
 $string['runningnormally'] = '正常動作';
 $string['cronnotrunning2'] = '<strong class="error text-danger">Cronが動作していません。</strong><br />cronのセットアップに関するインストラクションは<a href="https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronをセットアップしている場合、直近の1つまたはそれ以上の処理が正しく実行されませんでした。';
-$string['cronnotrunningsiteclosed1'] = '<strong class="error text-danger">Cronが動作していません。</strong><br />現在、サイトはクローズされています。Cronの実行のため、再度サイトをオープンしてください。';
+$string['cronnotrunningsiteclosed1'] = '<strong class="error text-danger">Cronが動作していません。</strong><br />現在、サイトはクローズされています。Cronを実行するにはサイトを再度オープンしてください。';
 $string['Loggedin'] = 'ログイン';
 $string['youraverageuser'] = 'あなたのユーザ平均 ...';
 $string['statsmaxfriends1'] = 'フレンド数: %2$s<br />(<a href="%3$s">%4$s には最大 %1$d 名のフレンドがいます</a>)';
