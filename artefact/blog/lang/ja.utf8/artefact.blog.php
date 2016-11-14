@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-08-13 21:22:21 UTC
+ * @updated    2016-11-14 15:30:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -117,6 +117,7 @@ $string['viewbloggroup'] = '「 %s 」日誌を表示する';
 $string['youarenottheownerofthisblog'] = 'あなたはこの日誌のオーナーではありません。';
 $string['youarenottheownerofthisblogpost'] = 'あなたはこの日誌エントリのオーナーではありません。';
 $string['youarenotanadminof'] = 'あなたは「 %s 」インスティテューションの管理者ではありません。';
+$string['youarenotasiteadmin'] = 'あなたはサイト管理者ではありません。';
 $string['youarenotamemberof'] = 'あなたは「 %s 」グループのメンバーではありません。';
 $string['youarenotaneditingmemberof'] = 'あなたには「 %s 」グループ内の日誌を編集するパーミッションがありません。';
 $string['cannotdeleteblogpost'] = 'この日誌エントリの削除中にエラーが発生しました。';
