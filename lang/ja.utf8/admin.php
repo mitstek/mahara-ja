@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-11-13 08:09:13 UTC
+ * @updated    2016-11-20 15:27:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -368,23 +368,23 @@ $string['searchplugin'] = '検索プラグイン';
 $string['searchplugindescription'] = '使用する検索プラグイン';
 $string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「プラグインタイプ: search」の設定を確認してください。確認後、あなたはsearchの「リセット」ボタンをクリックする必要があります。';
 $string['searchuserspublic'] = 'パブリック検索にユーザを表示する';
-$string['searchuserspublicdescription'] = 'パブリック検索結果にユーザ名の表示を許可します。これには「publicsearchallowed」の設定を「true」にして、パブリック検索を許可する検索プラグイン (例 Elasticsearch) を使用する必要があります。この設定を変更するには検索インデックスの再構築が必要です。';
+$string['searchuserspublicdescription'] = 'パブリック検索結果にユーザ名の表示を許可します。これには「publicsearchallowed」を「true」に設定してパブリック検索を許可する検索プラグイン (例 Elasticsearch) を使用する必要があります。この設定を変更するには検索インデックスの再構築が必要です。';
 $string['sessionlifetime'] = 'セッションライフタイム';
 $string['sessionlifetimedescription'] = '活動していないログインユーザが自動的にログアウトされる時間 (分) です。';
 $string['setsiteoptionsfailed'] = '%s オプションの設定に失敗しました。';
 $string['showonlineuserssideblock'] = 'オンラインユーザを表示する';
 $string['showonlineuserssideblockdescriptionmessage1'] = 'ユーザにオンラインユーザ一覧のサイドバーが表示されます。';
 $string['showselfsearchsideblock1'] = 'ポートフォリオ検索';
-$string['showselfsearchsideblockdescription1'] = '「マイポートフォリオを検索する」サイドバーがサイト内のいくつかの場所に表示されます。';
+$string['showselfsearchsideblockdescription1'] = 'サイト内のいくつかの場所に「マイポートフォリオを検索する」サイドバーが表示されます。';
 $string['showtagssideblock1'] = 'タグクラウド';
-$string['showtagssideblockdescription2'] = '最も使用されたタグ一覧のサイドバーがサイト内のいくつかの場所に表示されます。';
+$string['showtagssideblockdescription2'] = 'サイト内のいくつかの場所に最も使用されたタグ一覧のサイドバーが表示されます。';
 $string['simple'] = 'シンプル';
 $string['sitedefault'] = 'サイトデフォルト';
 $string['sitelanguagedescription'] = 'サイトのデフォルトの言語です。';
 $string['sitecountrydescription'] = 'サイトのデフォルトの国です。';
 $string['sitename'] = 'サイト名';
 $string['sitenamedescription'] = 'サイト名はサイトおよびサイトから送信されるメールに表示されます。';
-$string['siteoptionspagedescription'] = 'ここではサイト全体にデフォルトとして適用されるグローバルオプションを設定することができます。<br />注意:無効にされたオプションはあなたのconfig.phpファイルによりオーバーライドされます。';
+$string['siteoptionspagedescription'] = 'ここではサイト全体にデフォルトとして適用されるグローバルオプションを設定することができます。<br />注意: 無効にされたオプションはあなたのconfig.phpファイルによりオーバーライドされます。';
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['sitethemedescription'] = 'サイトのデフォルトテーマです。あなたのテーマがリストにない場合、エラーログをご確認ください。';
 $string['skins'] = 'ページスキン';
