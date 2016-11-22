@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-11-20 21:01:29 UTC
+ * @updated    2016-11-22 13:52:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -419,7 +419,7 @@ $string['viruscheckingdescription1'] = 'ClamAVを使用してアップロード�
 $string['whocancreategroups'] = 'グループを作成する';
 $string['whocancreategroupsdescription'] = '新しいグループを作成することのできるユーザを決定します。';
 $string['whocancreatepublicgroups'] = 'パブリックグループを作成する';
-$string['whocancreatepublicgroupsdescription'] = 'ここではパブリックに閲覧可能なグループを作成することのできるユーザを選択します。';
+$string['whocancreatepublicgroupsdescription'] = 'ここでは一般の人も閲覧可能なグループを作成することのできるユーザを選択します。';
 $string['wysiwyg'] = 'HTMLエディタ';
 $string['wysiwygdescription'] = 'サイト全体としてHTMLエディタを有効にするか、ユーザ自身がHTMLエディタを有効または無効にできるか指定します。';
 $string['wysiwyguserdefined'] = 'ユーザ設定';
