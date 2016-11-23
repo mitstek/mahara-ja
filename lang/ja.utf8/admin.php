@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-11-22 13:52:55 UTC
+ * @updated    2016-11-23 22:47:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -421,7 +421,7 @@ $string['whocancreategroupsdescription'] = '新しいグループを作成する
 $string['whocancreatepublicgroups'] = 'パブリックグループを作成する';
 $string['whocancreatepublicgroupsdescription'] = 'ここでは一般の人も閲覧可能なグループを作成することのできるユーザを選択します。';
 $string['wysiwyg'] = 'HTMLエディタ';
-$string['wysiwygdescription'] = 'サイト全体としてHTMLエディタを有効にするか、ユーザ自身がHTMLエディタを有効または無効にできるか指定します。';
+$string['wysiwygdescription'] = 'サイト全体としてHTMLエディタを有効にするか、ユーザ自身がHTMLエディタを有効または無効にできるようにするか指定します。';
 $string['wysiwyguserdefined'] = 'ユーザ設定';
 $string['eventloglevel'] = 'イベントログ';
 $string['eventlogleveldescription'] = 'どのイベントを記録しますか?';
@@ -431,11 +431,11 @@ $string['eventloglevelnone'] = 'なし';
 $string['eventloglevelmasq'] = 'マスカレーディング';
 $string['eventloglevelall'] = 'すべて';
 $string['sitefilesaccess'] = 'サイトファイルにアクセスする';
-$string['sitefilesaccessdescription1'] = '登録ユーザがサブフォルダ内のサイトファイルにアクセスできるようにします。デフォルトではトップレベルのディレクトリにのみアクセスすることができます。';
+$string['sitefilesaccessdescription1'] = '登録ユーザがサブフォルダ内のサイトファイルにアクセスできるようにします。デフォルトではトップレベルのディレクトリ内のファイルにのみアクセスすることができます。';
 $string['watchlistdelaydescription'] = 'ウォッチリストの変更に関するメールを送信する遅延時間 (分) です。';
 $string['watchlistdelaytitle'] = 'ウォッチリスト通知遅延';
 $string['defaultmultipleblogs'] = '複数日誌';
-$string['defaultmultipleblogsdescription1'] = 'デフォルトでユーザが日誌を複数持てるようにします。ユーザはこれをアカウント設定でオーバーライドすることができます。';
+$string['defaultmultipleblogsdescription1'] = 'デフォルトでユーザが日誌を複数持てるようにします。ユーザはこれをアカウント設定ページでオーバーライドすることができます。';
 $string['mathjax'] = 'MathJaxを有効にする';
 $string['mathjaxdescription'] = 'MathJaxはポートフォリオページ上のLaTeXマークアップを適切にフォーマットした数式および化学式として表示します。';
 $string['mathjaxconfig'] = 'MathJax設定';
