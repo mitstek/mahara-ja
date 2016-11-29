@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-11-27 13:51:17 UTC
+ * @updated    2016-11-29 15:01:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -520,7 +520,7 @@ $string['proxyaddressdescription'] = 'あなたのサイトがインターネッ
 $string['proxyaddressset'] = 'プロクシアドレスセット';
 $string['proxyauthmodel'] = 'プロクシ認証モデル';
 $string['proxyauthmodeldescription'] = '適切な場合、あなたのプロクシ認証モデルを選択してください。';
-$string['proxyauthmodelbasic'] = 'ベーシック (NCSA)';
+$string['proxyauthmodelbasic'] = 'Basic (NCSA)';
 $string['proxyauthmodelset'] = 'プロクシ認証モデルが設定されました。';
 $string['proxyauthcredentials'] = 'プロクシ証明書';
 $string['proxyauthcredentialsdescription'] = 'あなたのプロクシがウェブサーバに認証するため必要な証明書を「ユーザ名:パスワード」のフォーマットで指定してください。';
