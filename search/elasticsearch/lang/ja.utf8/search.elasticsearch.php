@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-11 22:32:53 UTC
+ * @updated    2016-12-05 04:25:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -37,7 +37,7 @@ $string['daterecentfirst'] = '日付 (新しい順)';
 $string['deleted'] = '削除済み';
 $string['deletedforumpost'] = '削除済みフォーラム投稿';
 $string['document'] = 'ドキュメント';
-$string['filterresultsby'] = 'フィルタ結果';
+$string['filterresultsby'] = '結果をフィルタする';
 $string['forum'] = 'フォーラム';
 $string['forumpost'] = 'フォーラム投稿';
 $string['forumpostedbylabel'] = '投稿:';
