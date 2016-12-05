@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-12-05 04:25:04 UTC
+ * @updated    2016-12-05 04:39:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -157,7 +157,7 @@ $string['latest'] = '一番新しい';
 $string['dateformatguide1'] = 'フォーマット %s を使用する';
 $string['dateofbirthformatguide1'] = 'フォーマット %s を使用する';
 $string['datetimeformatguide1'] = 'フォーマット %s を使用する';
-$string['filterresultsby'] = '果をフィルタする:';
+$string['filterresultsby'] = '結果をフィルタする:';
 $string['tagfilter_all'] = 'すべて';
 $string['tagfilter_file'] = 'ファイル';
 $string['tagfilter_image'] = 'イメージ';
