@@ -561,12 +561,12 @@ $string['uploadgroupmemberscsvpagedescription2'] = '<p>あなたはこの機能�
 <p>shortnameフィールドはあなたが<a href="%s" title="%s">ここ</a>でグループを作成した時に使用した名称と同じにする必要があります。</p>
 
 <p>roleフィールドにはグループタイプに応じて次の設定値を使用することができます: <tt>admin</tt>、<tt>member</tt>または<tt>tutor</tt></p>';
-$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効でないか、Maharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動でコンタクトしてください:';
+$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効ではないか、Maharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動でコンタクトしてください:';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるため、ユーザは追加されませんでした。許可されたインスティテューションの最大ユーザ数を超えました。';
 $string['updateusers'] = 'ユーザを更新する';
-$string['updateusersdescription'] = 'あなたのCSVファイルに指定したインスティテューションのメンバーのユーザ名が含まれている場合、ファイルのデータによりユーザ詳細が上書きされることになります。使用に注意してください。';
+$string['updateusersdescription'] = 'あなたのCSVファイルに指定したインスティテューションのメンバーのユーザ名が含まれている場合、ファイルのデータによりユーザ詳細が上書きされることになります。注意して使用してください。';
 $string['updategroups'] = 'グループを更新する';
-$string['updategroupsdescription'] = 'あなたのCSVファイルにMaharaシステム内のグループが含まれている場合、ファイルのデータによりグループ詳細が上書きされることになります。使用に注意してください。';
+$string['updategroupsdescription'] = 'あなたのCSVファイルにMaharaシステム内のグループが含まれている場合、ファイルのデータによりグループ詳細が上書きされることになります。注意して使用してください。';
 $string['csvfileprocessedsuccessfully'] = 'あなたのCSVファイルが正常に処理されました。';
 $string['nousersadded'] = 'ユーザは追加されませんでした。';
 $string['nogroupsadded'] = 'グループは追加されませんでした。';
