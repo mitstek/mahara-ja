@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-12-07 07:25:23 UTC
+ * @updated    2016-12-09 10:23:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -676,9 +676,9 @@ $string['importfailedfornusers'] = '%d / %d のユーザのインポートに失
 $string['invalidlistingfile'] = '無効なユーザ名リストです。これらのユーザをエクスポートするため、あなたはMaharaバルクエクスポータを使用しましたか?';
 $string['importing'] = 'インポート中';
 $string['adminuserspagedescription1'] = '<p>ここであなたはどのユーザがサイトの管理者になるか選択することができます。現在の管理者は「現在の管理者」フィールドに潜在的な管理者は「潜在的な管理者」フィールドに一覧表示されます。</p><p>システムには少なくとも1名の管理者を設定する必要があります。</p>';
-$string['institutionadminuserspagedescription1'] = 'ここであなたはどのユーザがインスティテューション管理者になるか選択することができます。現在の管理者は「現在の管理者」フィールドに潜在的な管理者は「インスティテューションメンバー」フィールドに一覧表示されます。';
+$string['institutionadminuserspagedescription1'] = 'ここであなたはどのユーザがインスティテューションの管理者になるか選択することができます。現在の管理者は「現在の管理者」フィールドに潜在的な管理者は「インスティテューションメンバー」フィールドに一覧表示されます。';
 $string['adminusersupdated'] = '管理者が更新されました。';
-$string['staffuserspagedescription1'] = 'ここであなたはどのユーザがサイトスタッフになるか選択することができます。現在の管理者は「現在のスタッフ」フィールドに潜在的な管理者は「潜在的なスタッフ」フィールドに一覧表示されます。';
+$string['staffuserspagedescription1'] = 'ここであなたはどのユーザがサイトのスタッフになるか選択することができます。現在の管理者は「現在のスタッフ」フィールドに潜在的な管理者は「潜在的なスタッフ」フィールドに一覧表示されます。';
 $string['institutionstaffuserspagedescription1'] = 'ここであなたはどのユーザがあなたのインスティテューションのスタッフになるか選択することができます。現在のスタッフは「インスティテューションスタッフ」フィールドに潜在的なスタッフは「インスティテューションメンバー」フィールドに一覧表示されます。';
 $string['potentialstaff'] = '潜在的なスタッフ';
 $string['currentstaff'] = '現在のスタッフ';
