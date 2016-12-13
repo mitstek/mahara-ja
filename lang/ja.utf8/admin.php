@@ -652,12 +652,12 @@ $string['userdeletedsuccessfully'] = 'ユーザが正常に削除されました
 $string['confirmdeleteuser'] = '本当にこのユーザを削除してもよろしいですか?';
 $string['filequota1'] = 'ファイルクオータ';
 $string['quotaused'] = '利用クオータ';
-$string['filequotadescription'] = 'ユーザファイルエリアでの利用可能な合計保存領域です。';
+$string['filequotadescription'] = 'ユーザのファイルエリアでの利用可能な合計保存領域です。';
 $string['addusertoinstitution'] = 'インスティテューションにユーザを追加する';
 $string['removeuserfrominstitution'] = 'このインスティテューションからユーザを削除する';
 $string['confirmremoveuserfrominstitution'] = '本当にこのインスティテューションからユーザを削除してもよろしいですか?';
 $string['usereditdescription'] = 'あなたはここでこのユーザアカウントの閲覧および詳細設定することができます。以下であなたは<a href="#suspend">このアカウントを利用停止または削除</a>することができます。また、<a href="#institutions">このユーザが関わっているインスティテューション内</a>で、設定を変更することもできます。';
-$string['usereditwarning'] = '注意: アカウントを変更することで (現在ログインしている場合) ユーザがログアウトされることになります。';
+$string['usereditwarning'] = '注意: アカウントの変更を保存することで (現在ログインしている場合) ユーザがログアウトされることになります。';
 $string['suspenduserdescription'] = 'アカウントの利用停止が解除されるまで利用停止ユーザはログインできません。';
 $string['deleteusernote'] = 'この処理は<b>元に戻すことができません</b>ので注意してください。';
 $string['youcannotadministerthisuser'] = 'あなたはこのユーザを管理できません。';
