@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-12-11 08:06:23 UTC
+ * @updated    2016-12-13 08:13:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -731,7 +731,7 @@ $string['userdeletedsuccessfully'] = 'ユーザが正常に削除されました
 $string['confirmdeleteuser'] = '本当にこのユーザを削除してもよろしいですか?';
 $string['filequota1'] = 'ファイルクオータ';
 $string['quotaused'] = '利用クオータ';
-$string['filequotadescription'] = 'ユーザファイルエリアでの利用可能な合計保存領域です。';
+$string['filequotadescription'] = 'ユーザのファイルエリアでの利用可能な合計保存領域です。';
 $string['probationbulkconfirm'] = '本当にこれらのユーザのスパム保護観察ステータスを変更してもよろしいですか?';
 $string['probationbulksetspamprobation'] = 'スパム保護観察を設定する';
 $string['probationbulkset'] = '設定';
@@ -742,8 +742,8 @@ $string['probationreportcolumn'] = '保護観察';
 $string['addusertoinstitution'] = 'インスティテューションにユーザを追加する';
 $string['removeuserfrominstitution'] = 'このインスティテューションからユーザを削除する';
 $string['confirmremoveuserfrominstitution'] = '本当にこのインスティテューションからユーザを削除してもよろしいですか?';
-$string['usereditdescription1'] = 'あなたはここでこのユーザアカウントを管理することができます。管理には詳細変更、利用停止、削除またはインスティテューションのメンバーシップ変更を含みます。';
-$string['usereditwarning'] = '注意: アカウントを変更することで (現在ログインしている場合) ユーザがログアウトされることになります。';
+$string['usereditdescription1'] = 'あなたはここでこのユーザアカウントを管理することができます。管理には詳細変更、利用停止、削除およびインスティテューションのメンバーシップ変更を含みます。';
+$string['usereditwarning'] = '注意: アカウントの変更を保存することで (現在ログインしている場合) ユーザがログアウトされることになります。';
 $string['suspenduserdescription'] = 'アカウントの利用停止が解除されるまで利用停止ユーザはログインできません。';
 $string['deleteusernote'] = 'この処理は<b>元に戻すことができません</b>ので注意してください。';
 $string['youcannotadministerthisuser'] = 'あなたはこのユーザを管理できません。';
