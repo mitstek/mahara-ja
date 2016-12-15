@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-12-15 17:51:17 UTC
+ * @updated    2016-12-15 22:43:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -755,8 +755,8 @@ $string['usersitesettingschanged'] = 'サイトアカウント設定が更新さ
 $string['passwordchangenotallowed'] = '選択された認証方法ではパスワードの変更が許可されていません。';
 $string['thisuserdeleted'] = 'このユーザは削除されました。';
 $string['disableemail'] = 'メールを無効にする';
-$string['exportqueue'] = 'キューをエクスポートする';
-$string['exportcontentname'] = 'コンテンツをエクスポートする';
+$string['exportqueue'] = 'エクスポートキュー';
+$string['exportcontentname'] = 'エクスポートコンテンツ';
 $string['selectuserexport'] = 'エクスポートするコンテンツ「 %s 」を選択する';
 $string['selectuserexportdelete'] = 'エクスポートキューから削除するコンテンツ「 %s 」を選択する';
 $string['exportpending'] = '%s 現在の保留';
