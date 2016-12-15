@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-12-13 08:13:03 UTC
+ * @updated    2016-12-15 17:51:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -744,7 +744,7 @@ $string['removeuserfrominstitution'] = 'このインスティテューション�
 $string['confirmremoveuserfrominstitution'] = '本当にこのインスティテューションからユーザを削除してもよろしいですか?';
 $string['usereditdescription1'] = 'あなたはここでこのユーザアカウントを管理することができます。管理には詳細変更、利用停止、削除およびインスティテューションのメンバーシップ変更を含みます。';
 $string['usereditwarning'] = '注意: アカウントの変更を保存することで (現在ログインしている場合) ユーザがログアウトされることになります。';
-$string['suspenduserdescription'] = 'アカウントの利用停止が解除されるまで利用停止ユーザはログインできません。';
+$string['suspenduserdescription'] = 'アカウントの利用停止が解除されるまで利用停止ユーザはログインすることはできません。';
 $string['deleteusernote'] = 'この処理は<b>元に戻すことができません</b>ので注意してください。';
 $string['youcannotadministerthisuser'] = 'あなたはこのユーザを管理できません。';
 $string['userinstitutionjoined'] = 'ユーザがインスティテューション「 %s 」に追加されました。.';
@@ -757,8 +757,8 @@ $string['thisuserdeleted'] = 'このユーザは削除されました。';
 $string['disableemail'] = 'メールを無効にする';
 $string['exportqueue'] = 'キューをエクスポートする';
 $string['exportcontentname'] = 'コンテンツをエクスポートする';
-$string['selectuserexport'] = 'エクスポートするためにコンテンツ「 %s 」を選択する';
-$string['selectuserexportdelete'] = 'エクスポートキューから削除するためにコンテンツ「 %s 」を選択する';
+$string['selectuserexport'] = 'エクスポートするコンテンツ「 %s 」を選択する';
+$string['selectuserexportdelete'] = 'エクスポートキューから削除するコンテンツ「 %s 」を選択する';
 $string['exportpending'] = '%s 現在の保留';
 $string['exportfailed'] = '失敗 %s';
 $string['exportqueuedeleted'] = '%s 行が正常に削除されました。';
