@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-12-20 04:01:08 UTC
+ * @updated    2016-12-22 15:49:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -795,7 +795,7 @@ $string['becomeadminagain'] = '%s に戻る';
 $string['loginasdenied'] = 'パーミッションなしで別のユーザとしてのログインを試みました。';
 $string['loginastwice'] = 'すでにログインしているにもかかわらず、別のユーザとしてのログインを試みました。';
 $string['loginasrestorenodata'] = 'リストアするユーザデータがありません。';
-$string['loginasoverridepasswordchange'] = '現在、あなたは別のユーザとしてログインを試みています。パスワード変更画面を無視して、%sとにかくログインする%sこともできます。';
+$string['loginasoverridepasswordchange'] = '現在、あなたは別のユーザとしてログインを試みています。パスワード変更画面を無視して%sログインすること%sはできます。';
 $string['Add'] = '追加';
 $string['all'] = 'すべて';
 $string['admininstitutions'] = 'インスティテューションを管理する';
@@ -813,8 +813,8 @@ $string['institutionauthinuseby'] = 'このインスティテューション認�
 $string['institutiononly'] = 'インスティテューションのみ';
 $string['institutionaddedsuccessfully2'] = 'インスティテューションが正常に追加されました。';
 $string['institutiondeletedsuccessfully'] = 'インスティテューションが正常に削除されました。';
-$string['noauthpluginforinstitution'] = 'このインスティテューションに関してあなたのサイト管理者は認証プラグインを設定していません。';
-$string['adminnoauthpluginforinstitution'] = 'このインスティテューションに関して認証プラグインを設定してください。';
+$string['noauthpluginforinstitution'] = 'あなたのサイト管理者はこのインスティテューションの認証プラグインを設定していません。';
+$string['adminnoauthpluginforinstitution'] = 'このインスティテューションの認証プラグインを設定してください。';
 $string['institutionname'] = 'インスティテューション名';
 $string['institutionshortname'] = 'インスティテューション省略名';
 $string['institutionnamealreadytaken'] = 'このインスティテューション名はすでに取得されています。';
