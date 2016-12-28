@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-11 05:45:39 UTC
+ * @updated    2016-12-28 15:29:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -146,10 +146,10 @@ $string['remove'] = '削除';
 $string['updatemembership'] = 'メンバーシップを更新する';
 $string['memberchangefailed'] = 'いくつかのメンバーシップ情報の更新に失敗しました。';
 $string['memberchangesuccess'] = 'メンバーシップのステータスが正常に変更されました。';
-$string['viewreleasedsubject'] = 'あなたのページ「 %s 」が %s から %s さんによってリリースされました。';
-$string['viewreleasedmessage'] = 'あなたのページ「 %s 」が %s から %s さんによってリリースされました。';
-$string['collectionreleasedsubject'] = 'あなたのコレクション「 %s 」が %s から %s さんによってリリースされました。';
-$string['collectionreleasedmessage'] = 'あなたのコレクション「 %s 」が %s から %s さんによってリリースされました。';
+$string['viewreleasedsubject1'] = 'あなたのページ「 %s 」がグループ「 %s 」から %s さんによってリリースされました。';
+$string['viewreleasedmessage1'] = 'あなたのページ「 %s 」がグループ「 %s 」から %s さんによってリリースされました。';
+$string['collectionreleasedsubject1'] = 'あなたのコレクション「 %s 」がグループ「 %s 」から %s さんによってリリースされました。';
+$string['collectionreleasedmessage1'] = 'あなたのコレクション「 %s 」がグループ「 %s 」から %s さんによってリリースされました。';
 $string['viewreleasedsuccess'] = 'ページが正常にリリースされました。';
 $string['viewreleasedpending'] = 'アーカイブの後、ページはリリースされます。';
 $string['collectionreleasedsuccess'] = 'コレクションが正常にリリースされました。';
