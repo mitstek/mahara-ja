@@ -104,7 +104,7 @@ $string['pluginadmin'] = 'プラグイン管理';
 $string['pluginadmindescription'] = 'プラグインをインストールおよび設定します。';
 $string['htmlfilters'] = 'HTMLフィルタ';
 $string['htmlfiltersdescription'] = 'HTML Purifierの新しいフィルタを有効にします。';
-$string['newfiltersdescription'] = 'あなたが新しいHTMLフィルタをダウンロードした場合、%s フォルダ内にファイルを解凍した後、下のボタンをクリックしてインストールすることができます。';
+$string['newfiltersdescription'] = 'あなたが新しいHTMLフィルタをダウンロードした場合、%s フォルダ内にファイルを展開した後、下のボタンをクリックしてインストールすることができます。';
 $string['filtersinstalled'] = 'フィルタがインストールされました。';
 $string['nofiltersinstalled'] = 'HTMLフィルタはインストールされませんでした。';
 $string['Field'] = 'フィールド';
@@ -356,7 +356,7 @@ $string['clickthebuttontocreatetheuser'] = 'ユーザを作成するにはボタ
 $string['createnewuserfromscratch'] = 'ユーザを最初から作成する';
 $string['createuser'] = 'ユーザを作成する';
 $string['failedtoobtainuploadedleapfile'] = 'アップロードされたLeap2Aファイルの取得に失敗しました。';
-$string['failedtounzipleap2afile'] = 'Leap2Aファイルの解凍に失敗しました。詳細はエラーログを確認してください。';
+$string['failedtounzipleap2afile'] = 'Leap2Aファイルの展開に失敗しました。詳細はエラーログを確認してください。';
 $string['fileisnotaziporxmlfile'] = 'このファイルはZIPファイルまたはXMLファイルとして認識されませんでした。';
 $string['howdoyouwanttocreatethisuser'] = 'どのようにこのユーザを作成しますか?';
 $string['leap2aimportfailed'] = '<p><strong>申し訳ございません - Leap2Aファイルのインポートに失敗しました。</strong></p><p>これはあなたが有効なLeap2Aファイルをアップロードに選択しなかったからだと考えられます。また、Leap2Aファイルが有効な場合、Maharaのバグが、あなたのファイルのアップロードを失敗させていることも考えられます。</p><p><a href="add.php">戻って、ファイルのアップロードを再度お試しください</a>。この問題が持続する場合、エラー状況を<a href="https://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。その場合、あなたのファイルのコピーを準備してください!</p>';
