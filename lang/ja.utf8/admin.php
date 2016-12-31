@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-12-27 07:50:55 UTC
+ * @updated    2016-12-31 10:05:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -833,18 +833,18 @@ $string['registrationconfirmdescription3'] = '登録はインスティテュー�
 $string['defaultmembershipperiod'] = 'デフォルトのメンバーシップ期間';
 $string['defaultmembershipperioddescription'] = 'どのくらいの期間、新しいメンバーはインスティテューションに参加することができますか。';
 $string['showonlineusers'] = 'オンラインユーザを表示する';
-$string['showonlineusersdescription'] = 'このインスティテューションのメンバーに表示されるオンラインユーザです。ユーザに複数インスティテューションが許可されている場合、最も制約の少ないインスティテューション設定が使用されます。';
+$string['showonlineusersdescription'] = 'このインスティテューションのメンバーに表示されるオンラインユーザです。ユーザに複数インスティテューションが許可されている場合、そしてインスティテューションの設定が異なる場合、最も制約の少ないインスティテューションの設定が使用されます。';
 $string['licensemandatory'] = 'ライセンス情報を要求する';
 $string['licensemandatorydescription1'] = 'ユーザはアーティファクト作成時にライセンスを選択する必要があります。そうでない場合、ライセンスフィールドを空白のままにすることができます。';
 $string['licensedefault'] = 'デフォルトライセンス';
 $string['licensedefaultdescription'] = 'インスティテューションメンバーにより作成またはアップロードされたコンテンツのデフォルトのライセンスです。ユーザはアカウント設定ページおよび個別のアイテムでこの設定をオーバーライドすることができます。';
 $string['licensedefaultmandatory'] = 'ユーザがライセンスの選択を要求される場合、あなたはここでデフォルトライセンスを選択する必要があります。あなたがデフォルトライセンスを選択したくない場合、ユーザにライセンスを要求しないでください。';
 $string['Logo'] = 'ロゴ';
-$string['logodescription'] = 'あなたのインスティテューションメンバーに標準的なヘッダロゴの代わりに表示されるイメージをここでアップロードすることができます。最良の結果のため、このイメージをあなたのインスティテューションのサイトロゴと同じ大きさにしてください。';
+$string['logodescription'] = 'あなたのインスティテューションメンバーに標準的なヘッダロゴの代わりに表示されるイメージをここでアップロードすることができます。最良の結果のため、このイメージをあなたのインスティテューションのサイトロゴと同じ大きさにしてください。それぞれのテーマは異なるヘッダの高さを持つことができます。厳密なサイズを指定することはできません。';
 $string['deletelogo'] = 'ロゴを削除する';
 $string['deletelogodescription2'] = 'あなたのインスティテューションテーマのヘッダロゴを標準ヘッダロゴに戻します。';
 $string['customtheme'] = 'カスタムテーマ設定';
-$string['customtheme.background'] = '背景色';
+$string['customtheme.background'] = 'ヘッダ背景色';
 $string['customtheme.backgroundfg'] = 'テキスト背景色';
 $string['customtheme.link'] = 'リンク';
 $string['customtheme.headings'] = 'ヘッディング';
@@ -874,7 +874,7 @@ $string['institutionadmindescription1'] = 'ユーザがこのインスティテ�
 $string['settingsfor'] = '設定:';
 $string['institutionmembers'] = 'インスティテューションメンバー';
 $string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
-$string['institutionmemberspagedescription'] = 'このページではあなたのインスティテューションにメンバーシップをリクエストしたユーザを確認およびメンバーとして登録することができます。また、あなたのインスティテューションからユーザを削除および招待することができます。';
+$string['institutionmemberspagedescription'] = 'このページではあなたのインスティテューションにメンバーシップをリクエストしたユーザを確認およびメンバーとして追加することができます。また、あなたのインスティテューションからユーザを削除および招待することができます。';
 $string['suspendordeletethisuser'] = 'このユーザを利用停止または削除する';
 $string['institutionusersinstructionsrequesters1'] = '「 %1$s 」フィールドのユーザ一覧ではあなたのインスティテューションへの参加をリクエストしたユーザすべてが表示されます。表示されるユーザ数を減らすため、あなたは検索ボックスを使用することができます。あなたがユーザをインスティテューションに追加したい場合、またはメンバーシップリクエストを拒否したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより、最初にユーザを「 %2$s 」フィールドに移動してください。「メンバーを追加する」ボタンにより、「 %2$s 」フィールド内のユーザすべてをインスティテューションに追加します。「リンクエストを拒否する」ボタンにより、「 %2$s 」フィールド内のユーザのメンバーシップリクエストを削除します。';
 $string['institutionusersinstructionsnonmembers1'] = '「 %1$s 」フィールドのユーザ一覧ではあなたのインスティテューションへの参加をまだリクエストしていないユーザすべてが表示されます。表示されるユーザ数を減らすため、あなたは検索ボックスを使用することができます。ユーザをインスティテューションに参加するよう招待するには1名またはそれ以上のユーザを選択して右矢印をクリックすることにより、最初にユーザを「 %2$s 」フィールドに移動してください。「ユーザを招待する」ボタンにより、「 %2$s 」フィールド内のユーザすべてに招待状を送信します。招待を受け入れるまで、これらのユーザはインスティテューションと関連付けられません。';
