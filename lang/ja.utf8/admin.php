@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-01-02 12:19:08 UTC
+ * @updated    2017-01-03 13:25:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -899,21 +899,21 @@ $string['usersrequested'] = 'メンバーシップをリクエストしたユー
 $string['userstobeadded'] = 'メンバーとして追加されるユーザ';
 $string['userstoaddorreject'] = '追加/拒否されるユーザ';
 $string['addmembers'] = 'メンバーを追加する';
-$string['inviteuserstojoin'] = 'ユーザをインスティテューションに招待する';
+$string['inviteuserstojoin'] = 'ユーザにインスティテューションへの参加を招待する';
 $string['userswhohaveleft'] = 'インスティテューション %s を離れたユーザ';
 $string['Non-members'] = '非メンバー';
 $string['userstobeinvited'] = '招待されるユーザ';
 $string['inviteusers'] = 'ユーザを招待する';
 $string['removeusersfrominstitution'] = 'インスティテューションからユーザを削除する';
 $string['currentmembers'] = '現在のメンバー';
-$string['userstoberemoved'] = '削除するユーザ';
+$string['userstoberemoved'] = '削除されるユーザ';
 $string['removeusers'] = 'ユーザを削除する';
 $string['declinerequests'] = 'リクエストを拒否する';
 $string['nousersupdated'] = '更新されたユーザはありません。';
 $string['errorupdatinginstitutionusers'] = 'インスティテューションユーザ更新中にエラーが発生しました。';
 $string['revokeinvitations'] = '招待を取り消す';
 $string['invitedusers'] = '招待されたユーザ';
-$string['userstobeuninvited'] = '招待するユーザ';
+$string['userstobeuninvited'] = '招待されるユーザ';
 $string['moveuserstoadd'] = '選択したメンバーリクエストをメンバーに変更する';
 $string['moveusersfromadd'] = '選択したメンバーをメンバーリクエストに変更する';
 $string['moveuserstoinvite'] = '選択した非メンバーを招待済みに変更する';
@@ -933,7 +933,7 @@ $string['maxuseraccounts'] = '許可する最大ユーザアカウント数';
 $string['maxuseraccountsdescription'] = 'インスティテューションに関連付けることのできる最大ユーザアカウント数です。制限がない場合、このフィールドは空白にしてください。';
 $string['institutionmaxusersexceeded'] = 'このインスティテューションはユーザ数が上限に達しました。このユーザを追加できるようにするにはあなたはこのインスティテューションが許可するユーザ数を増やす必要があります。';
 $string['institutionuserserrortoomanyusers'] = 'ユーザは追加されませんでした。メンバー数はインスティテューションで許可される最大ユーザ数を超えることはできません。あなたは少数のユーザを追加するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼することができます。';
-$string['institutionuserserrortoomanyinvites'] = 'あなたの招待は送信されませんでした。既存のユーザ + 招待者数はインスティテューションで許可される最大ユーザアカウント数を超えることはできません。あなたは少数のユーザを招待するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼することができます。';
+$string['institutionuserserrortoomanyinvites'] = 'あなたの招待は送信されませんでした。既存のユーザ + 未処理の招待者数はインスティテューションで許可される最大ユーザアカウント数を超えることはできません。あなたは少数のユーザを招待するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼することができます。';
 $string['Shortname'] = '省略名';
 $string['Members'] = 'メンバー';
 $string['Maximum'] = '最大';
