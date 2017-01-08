@@ -935,7 +935,7 @@ $string['bulkprobationpointssuccess'] = '%1$d ユーザに保護観察ポイン�
 $string['selectedusers'] = '選択済みユーザ';
 $string['remoteuser'] = 'リモートユーザ名';
 $string['userreports'] = 'ユーザレポート';
-$string['userreportsdescription'] = 'あなたがユーザ検索ページで選択したユーザ情報を表示またはダウンロードします。';
+$string['userreportsdescription'] = 'あなたが検索ページで選択したユーザ情報を表示またはダウンロードします。';
 $string['notificationssaved'] = '通知設定が保存されました。';
 $string['onlyshowingfirst'] = '最初に表示';
 $string['resultsof'] = '検索結果';
@@ -987,7 +987,7 @@ $string['masqueradenotifiedreasondescription'] = 'このユーザとしてログ
 $string['masqueradetime'] = 'マスカレーディング開始日時';
 $string['masquerader'] = 'マスカレーディング管理者';
 $string['masqueradee'] = 'ユーザ';
-$string['nomasquerades'] = 'マスカレーディングセッションのロギングが有効にされているため、別のユーザとしてマスカレード (代理ログイン) した管理者はいません。';
+$string['nomasquerades'] = 'マスカレーディングセッションのロギングが有効にされているため、別のユーザとしてマスカレードした管理者はいません。';
 $string['loginaslog'] = 'マスカレーディングセッション';
 $string['masqueradingnotloggedwarning'] = '<b>注意</b>: マスカレーディングセッションのロギングは現在無効にされています。このテーブルのデータを閲覧するには管理者が「 <a href="%sadmin/site/options.php">サイト設定</a> 」内の「ロギング設定」を有効にする必要があります。';
 $string['masqueradenotificationsubject'] = '管理者があなたとしてログインしました。';
