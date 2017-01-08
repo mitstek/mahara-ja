@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-01-05 00:58:40 UTC
+ * @updated    2017-01-08 14:51:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1021,7 +1021,7 @@ $string['bulkprobationpointssuccess'] = '%1$d ユーザに保護観察ポイン�
 $string['selectedusers'] = '選択済みユーザ';
 $string['remoteuser'] = 'リモートユーザ名';
 $string['userreports'] = 'ユーザレポート';
-$string['userreportsdescription'] = 'あなたがユーザ検索ページで選択したユーザ情報を表示またはダウンロードします。';
+$string['userreportsdescription'] = 'あなたが検索ページで選択したユーザ情報を表示またはダウンロードします。';
 $string['unabletodeleteself'] = 'あなた自身をバルク削除することはできません。';
 $string['unabletodeletealladmins'] = 'すべてのサイト管理者のバルク削除は許可されていません。';
 $string['notificationssaved'] = '通知設定が保存されました。';
@@ -1056,7 +1056,7 @@ $string['groupdelete'] = '削除';
 $string['managegroupquotadescription1'] = 'このグループのグループファイルクオータを変更する場合、このフォームを使用してください。';
 $string['managegroupdescription1'] = 'このグループの管理者を昇格および降格する場合、このフォームを使用してください。あなたがグループ管理者を削除した場合、そのユーザはグループメンバーとして残ります。';
 $string['userscandisabledevicedetection'] = 'ユーザがデバイス検出を無効にできる';
-$string['userscandisabledevicedetectiondescription1'] = 'ユーザがサイト閲覧時のモバイルデバイス検出を無効にできるようにします。';
+$string['userscandisabledevicedetectiondescription1'] = 'ユーザがこのサイトを閲覧する場合のモバイルデバイス検出を無効にできるようにします。';
 $string['loggedinfilter'] = 'ログイン日時でフィルタする:';
 $string['anyuser'] = 'すべてのユーザ';
 $string['usershaveloggedin'] = 'ログインしたことのあるユーザ';
@@ -1067,9 +1067,9 @@ $string['duplicateemailfilter1'] = '重複メールアドレス';
 $string['noemailfound'] = 'メールアドレスが見つかりませんでした。';
 $string['lastlogin'] = '最終ログイン';
 $string['masqueradingreasonrequired'] = 'マスカレーディングの理由を要求する';
-$string['masqueradingreasonrequireddescription3'] = '別のユーザとしてマスカレーディングする理由を管理者が入力する必要があります。設定「ユーザにマスカレーディングを通知する」が有効にされている場合、マスカレーディングに関するユーザへの通知に理由が含まれます。これを動作させるためには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
+$string['masqueradingreasonrequireddescription3'] = '管理者は別のユーザとしてマスカレーディングする理由を入力する必要があります。「ユーザにマスカレーディングを通知する」設定が有効にされている場合、マスカレーディングに関するユーザへの通知に理由が含まれます。これを動作させるためには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
 $string['masqueradingnotified'] = 'ユーザにマスカレーディングを通知する';
-$string['masqueradingnotifielddescription'] = '管理者がマスカレーディングする場合、ユーザに通知します。通知には「誰が」、「いつ」、それから「マスカレーディングの理由を要求する」が有効にされている場合、「なぜ」が含まれます。これを動作させるためには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
+$string['masqueradingnotifielddescription'] = '管理者がマスカレーディングする場合、ユーザに通知します。通知には「誰が」「いつ」、それから「マスカレーディングの理由を要求する」が有効にされている場合、「なぜ」が含まれます。これを動作させるためには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
 $string['masquerade'] = '続ける';
 $string['masqueradereason'] = '理由';
 $string['masqueradereasondescription'] = 'このユーザとしてログインする理由を入力してください。注意: この理由はユーザに通知されませんが、ログとして記録されます。';
@@ -1078,7 +1078,7 @@ $string['masqueradenotifiedreasondescription'] = 'このユーザとしてログ
 $string['masqueradetime'] = 'マスカレーディング開始日時';
 $string['masquerader'] = 'マスカレーディング管理者';
 $string['masqueradee'] = 'ユーザ';
-$string['nomasquerades'] = 'マスカレーディングセッションのロギングが有効にされているため、別のユーザとしてマスカレード (代理ログイン) した管理者はいません。';
+$string['nomasquerades'] = 'マスカレーディングセッションのロギングが有効にされているため、別のユーザとしてマスカレードした管理者はいません。';
 $string['loginaslog'] = 'マスカレーディングセッション';
 $string['masqueradingnotloggedwarning'] = '<b>注意</b>: マスカレーディングセッションのロギングは現在無効にされています。このテーブルのデータを閲覧するには管理者が「 <a href="%sadmin/site/options.php">サイト設定</a> 」内の「ロギング設定」を有効にする必要があります。';
 $string['masqueradenotificationsubject'] = '管理者があなたとしてログインしました。';
@@ -1098,7 +1098,7 @@ $string['checkingupdates'] = '更新データの確認中 ...';
 $string['committingchanges'] = '変更の保存中 ...';
 $string['cli_pwreset_authupdated'] = '認証方法が「内部」に更新されました。';
 $string['cli_pwreset_failure'] = 'エラー: ユーザ「 %s 」のパスワードを正常にリセットできませんでした。';
-$string['cli_pwreset_forcepasswordchange'] = '次のログイン時、パスワードの変更を強制します (あなたが「--password」オプションを使用する場合、デフォルトは「true」です。そうでない場合、「false」を使用してください)。';
+$string['cli_pwreset_forcepasswordchange'] = '次回ログイン時、パスワードの変更を強制します (あなたが「--password」オプションを使用する場合、デフォルトは「true」です。そうでない場合、「false」を使用してください)。';
 $string['cli_pwreset_info'] = 'コマンドラインPHPスクリプトにより、あなたはユーザのパスワードをリセットすることができます。これはパスワードのリセットが許可されている認証方法のみ動作します (例:「内部」)。';
 $string['cli_pwreset_makeinternal'] = 'ユーザ認証方法を「内部」に変更します (デフォルトは「false」です)。';
 $string['cli_pwreset_nointernalauth'] = 'エラー: デフォルト「内部」認証方法が見つかりませんでした。';
@@ -1108,7 +1108,7 @@ $string['cli_pwreset_password'] = '新しいパスワードです。このパラ
 $string['cli_pwreset_prompt1'] = '新しいパスワードを入力してください。';
 $string['cli_pwreset_prompt2'] = '新しいパスワードをもう一度入力してください。';
 $string['cli_pwreset_success'] = 'ユーザ「 %s 」のパスワードが正常にリセットされました。';
-$string['cli_pwreset_success_forcepasswordchange'] = '次のログイン時、ユーザはパスワードのリセットを強制されます。';
+$string['cli_pwreset_success_forcepasswordchange'] = '次回ログイン時、ユーザはパスワードのリセットを強制されます。';
 $string['cli_pwreset_typo'] = '申し訳ございません、パスワードが合致しません。';
 $string['cli_close_site_info'] = 'このコマンドラインPHPスクリプトにより、あなたが非サイト管理ユーザであってもサイトをクローズおよび再オープンすることができます (これは管理ホームページで「サイトをクローズする」ボタンをクリックした場合と同じです)。';
 $string['cli_close_site_siteclosed'] = 'メンテナンスのためサイトがクローズされました。';
