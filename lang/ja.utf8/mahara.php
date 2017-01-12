@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-12-05 04:39:53 UTC
+ * @updated    2017-01-12 02:58:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1047,10 +1047,10 @@ $string['theme'] = 'テーマ';
 $string['choosetheme'] = 'テーマを選択する ...';
 $string['Hide2'] = '情報ボックスを隠す';
 $string['create'] = '作成';
-$string['createsubtitle'] = 'あなたのポートフォリオを開発する';
+$string['createsubtitle'] = 'ポートフォリオを作成する';
 $string['createdetail'] = 'あなたのeポートフォリオを柔軟な個人学習環境で作成します。';
 $string['share'] = '共有';
-$string['sharesubtitle'] = 'あなたのプライバシーを管理する';
+$string['sharesubtitle'] = 'プライバシーを管理する';
 $string['sharedetail'] = 'あなたの成果および発展をあなたが管理できるスペースで共有します。';
 $string['engage'] = '参加';
 $string['engagesubtitle'] = '人を探してグループに参加する';
