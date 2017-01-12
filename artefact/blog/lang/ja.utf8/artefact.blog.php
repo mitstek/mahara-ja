@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-11-14 15:30:36 UTC
+ * @updated    2017-01-12 01:53:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -23,6 +23,7 @@ $string['institutionblogs'] = 'インスティテューション日誌';
 $string['groupblogs'] = 'グループ日誌';
 $string['addblog'] = '日誌を作成する';
 $string['addpost'] = '新しいエントリ';
+$string['addpostspecific'] = '新しいエントリ「 %s 」';
 $string['alignment'] = '配置';
 $string['allowcommentsonpost'] = 'あなたのエントリへのコメントを許可します。';
 $string['allposts'] = 'すべてのエントリ';
@@ -94,8 +95,10 @@ $string['posttitle'] = 'タイトル';
 $string['posts'] = 'エントリ';
 $string['nposts'] = '%s エントリ';
 $string['publish'] = '公開';
+$string['publishspecific'] = '「 %s 」を公開する';
 $string['publishit'] = '公開する';
 $string['unpublish'] = '非公開';
+$string['unpublishspecific'] = '「 %s 」を非公開にする';
 $string['publishfailed'] = 'エラーが発生しました。あなたのエントリは公開されませんでした。';
 $string['publishblogpost?'] = '本当にこのエントリを公開してもよろしいですか?';
 $string['published'] = '公開済み';

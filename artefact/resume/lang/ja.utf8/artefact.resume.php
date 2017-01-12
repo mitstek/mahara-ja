@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-18 16:54:26 UTC
+ * @updated    2017-01-12 01:54:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -77,7 +77,9 @@ $string['goalandskillsaved'] = '正常に保存されました。';
 $string['resume'] = 'レジュメ';
 $string['current'] = '現在';
 $string['moveup'] = '上へ';
+$string['moveupspecific'] = '「 %s 」を上へ';
 $string['movedown'] = '下へ';
+$string['movedownspecific'] = '「 %s 」を下へ';
 $string['viewyourresume'] = 'あなたのレジュメを表示する';
 $string['resumeofuser'] = '%s のレジュメ';
 $string['employeraddress'] = '雇用主住所';
