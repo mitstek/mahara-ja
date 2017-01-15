@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-01-15 14:13:38 UTC
+ * @updated    2017-01-15 08:01:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -50,7 +50,7 @@ $string['errnoxmlrpcinstances'] = '私たちには %s のホストに関してXM
 $string['errnoxmlrpcwwwroot'] = '私たちには %s のホストに関してレコードがありません。';
 $string['errnoxmlrpcuser1'] = '現時点ではあなたを認証することができませんでした。可能性のある理由として下記が考えられます:
 
-*あなたのSSOセッションが失効しました。他のアプリケーションに戻って、%s にログインするためのリンクを再度クリックしてください。
+*あなたのSSOセッションが失効しました。他のアプリケーションに戻って %s にログインするためのリンクを再度クリックしてください。
 *あなたの %s に対するSSOが許可されていません。あなたがSSOできるかどうか管理者にご確認ください。';
 $string['toomanytries'] = 'あなたは最大ログイン回数を超過しました。このアカウントは5分間ロックされます。';
 $string['unabletosigninviasso'] = 'SSO経由でサインインできません。';
