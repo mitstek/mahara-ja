@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-01-05 15:58:50 UTC
+ * @updated    2017-01-17 13:02:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,7 +13,7 @@
 
 defined('INTERNAL') || die();
 
-$string['errorbehatcommand'] = 'Behat CLIコマンドの実行中にエラーが発生しました。さらに問題を調査するには手動による「{$a} --help」 の実行をお試しください。';
+$string['errorbehatcommand'] = 'Behat CLIコマンドの実行中にエラーが発生しました。さらに問題を調査するにはCLIで「{$a} --help」を手動実行してください。';
 $string['errorcomposer'] = 'コンポーザ依存関係がインストールされていません。';
 $string['errordataroot'] = '「$CFG->behat_dataroot」が設定されていない、または無効です。';
 $string['errorsetconfig'] = 'config.phpに「$CFG->behat_dataroot」「$CFG->behat_dbprefix」および「$CFG->behat_wwwroot」を設定する必要があります。';
