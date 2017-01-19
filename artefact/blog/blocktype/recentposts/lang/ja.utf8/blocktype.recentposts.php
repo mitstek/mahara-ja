@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-08-10 16:45:11 UTC
+ * @updated    2017-01-19 14:13:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,5 +18,6 @@ $string['description'] = '最近の日誌エントリを表示します (「コ�
 $string['itemstoshow'] = '表示するアイテム数';
 $string['postedin'] = '-';
 $string['postedon'] = '投稿日時';
+$string['updatedon'] = '最終更新日時';
 
 ?>

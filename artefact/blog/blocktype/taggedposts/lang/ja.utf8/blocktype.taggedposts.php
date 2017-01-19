@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-15 16:13:13 UTC
+ * @updated    2017-01-19 14:13:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -30,6 +30,7 @@ $string['notagsavailable'] = 'あなたはタグを作成していません。';
 $string['notagsavailableerror'] = 'タグが選択されていません - ここで選択する前にあなたの日誌エントリにタグを追加する必要があります。';
 $string['postedin'] = '-';
 $string['postedon'] = '-';
+$string['updatedon'] = '最終更新日時';
 $string['itemstoshow'] = '表示するアイテム数';
 $string['configerror'] = 'ブロック設定中にエラーが発生しました。';
 $string['showjournalitemsinfull'] = '日誌アイテムをフルに表示する';
