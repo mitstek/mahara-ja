@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-04 17:06:04 UTC
+ * @updated    2017-01-23 00:26:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -32,7 +32,7 @@ $string['canteditcollection'] = 'あなたはこのコレクションの編集�
 $string['cantcreatecollection'] = 'あなたはこのコレクションの作成を許可されていません。';
 $string['cantdeletecollection'] = 'あなたはこのコレクションの削除を許可されていません。';
 $string['canteditdontown'] = 'あなたの所有ではないため、このコレクションを編集することはできません。';
-$string['canteditsubmitted'] = '評価のため「 %s 」に送信されたため、あなたはこのコレクションを編集することはできません。リリースされるまで、あなたは待つ必要があります。';
+$string['canteditsubmitted'] = '評価のため「 %s 」に送信されたため、あなたはこのコレクションを編集することはできません。あなたはリリースされるまで待つ必要があります。';
 $string['collection'] = 'コレクション';
 $string['Collection'] = 'コレクション';
 $string['collections'] = 'コレクション';
@@ -41,7 +41,7 @@ $string['groupcollections'] = 'グループコレクション';
 $string['institutioncollections'] = 'インスティテューションコレクション';
 $string['sitecollections'] = 'サイトコレクション';
 $string['collectionaccess'] = 'コレクションアクセス';
-$string['collectionaccesseditedsuccessfully'] = 'コレクションが正常に保存されました。';
+$string['collectionaccesseditedsuccessfully'] = 'コレクションアクセスが正常に保存されました。';
 $string['collectioneditaccess'] = 'あなたにはこのコレクション内の %d 件のページに対する編集アクセス権があります';
 $string['collectionconfirmdelete'] = 'このコレクション内のページは削除されません。本当にこのコレクションを削除してもよろしいですか?';
 $string['collectioncreatedsuccessfully'] = 'コレクションが正常に作成されました。';
@@ -86,7 +86,7 @@ $string['saveapply'] = '適用して保存する';
 $string['savecollection'] = 'コレクションを保存する';
 $string['update'] = '更新';
 $string['usecollectionname'] = 'コレクション名を使用しますか?';
-$string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしてください。';
+$string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしたままにしてください。';
 $string['viewsaddedtocollection1'] = '%s ページがコレクションに追加されました。';
 $string['viewsaddedtocollection1different'] = '%s ページがコレクションに追加されました。コレクション内のページすべてに関して共有アクセスが変更されました。';
 $string['viewsaddedaccesschanged'] = '次のページに関してアクセスパーミッションが変更されました:';
