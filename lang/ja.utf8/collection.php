@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-01-07 21:21:01 UTC
+ * @updated    2017-01-23 00:27:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -43,7 +43,7 @@ $string['collection'] = 'コレクション';
 $string['Collection'] = 'コレクション';
 $string['collections'] = 'コレクション';
 $string['collectionaccess'] = 'コレクションアクセス';
-$string['collectionaccesseditedsuccessfully'] = 'コレクションが正常に保存されました。';
+$string['collectionaccesseditedsuccessfully'] = 'コレクションアクセスが正常に保存されました。';
 $string['collectioneditaccess'] = 'あなたにはこのコレクション内の %d 件のビューに対する編集アクセス権があります';
 $string['collectionconfirmdelete'] = 'このコレクション内のビューは削除されません。本当にこのコレクションを削除してもよろしいですか?';
 $string['collectioncreatedsuccessfully'] = 'コレクションが正常に作成されました。';
@@ -82,7 +82,7 @@ $string['saveapply'] = '適用して保存する';
 $string['savecollection'] = 'コレクションを保存する';
 $string['update'] = '更新';
 $string['usecollectionname'] = 'コレクション名を使用しますか?';
-$string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしてください。';
+$string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしたままにしてください。';
 $string['viewaddedtocollection'] = 'コレクションにビューが追加されました。';
 $string['viewcollection'] = 'コレクション詳細を表示する';
 $string['viewcount'] = 'ビュー';
