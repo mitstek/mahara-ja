@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-02-02 16:41:16 UTC
+ * @updated    2017-01-24 00:33:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['cookieconsent'] = 'クッキーコンセント';
-$string['cookieconsentintro1'] = '欧州議会および理事会の2009/136/EC命令は「クッキー命令」または「クッキー法」として知られています。これは欧州におけるクッキー同意に関する必要条件を定義した法律文書です。これは基本的に前の命令「2002/58/EC」の修正案です。そして、ウェブのデータおよびプライバシー、その他の電子コミュニケーションに対して広範に関係します。';
+$string['cookieconsentintro1'] = '「クッキー命令」または「クッキー法」として知られている欧州議会および理事会の2009/136/EC命令は欧州におけるクッキー同意に関する必要条件を定義した法律文書です。これは基本的に前の命令「2002/58/EC」の修正案です。そして、ウェブのデータおよびプライバシー、その他の電子コミュニケーションに対して広範に関係します。';
 $string['cookieconsentintro2'] = '新しい命令は2011年5月25日に発効されました。本文は26ページに渡りますが、クッキーに関する最も重要な段落は20ページにあります。これは前の命令「2002/58/EC」の記事5(3)を修正したものです。';
 $string['cookieconsentintro3'] = '「加盟国は情報の保存またはすでに保存されている情報へのアクセスに関して命令95/46/ECに従って明確および包括的な情報を提供されている購読者またはユーザの端末装置において、特に処理の目的に関する同意を得る必要があります。これは技術的保管または電子証券取引ネットワークに関する通信伝送を実現するための唯一のアクセス手段、購読者またはユーザからサービスの提供を求められている厳密に必要な情報社会サービス提供者を阻むものであってはなりません」';
 $string['readfulltext1'] = '命令全文を読む';
