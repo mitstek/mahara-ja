@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-12-28 15:29:53 UTC
+ * @updated    2017-01-25 14:46:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -219,6 +219,8 @@ $string['notpublic'] = 'このグループはパブリックではありませ�
 $string['moregroups'] = 'さらにグループを表示する';
 $string['deletegroupnotificationsubject'] = 'グループ「 %s 」が削除されました。';
 $string['deletegroupnotificationmessage'] = 'あなたはグループ %s (%s) のメンバーでした。現在、このグループは削除されています。';
+$string['hidegroupmembers'] = 'メンバーを隠す';
+$string['hideonlygrouptutors'] = 'チューターを隠す';
 $string['addmembers'] = 'メンバーを追加する';
 $string['invitationssent'] = '%d 通の招待状が送信されました。';
 $string['newmembersadded'] = '%d 名の新しいユーザが追加されました。';
