@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-26 16:06:07 UTC
+ * @updated    2017-01-26 07:46:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -62,6 +62,7 @@ $string['resetmetadata'] = 'Maharasメタデータの証明書をリセットし
 $string['samlfieldforemail'] = 'メールアドレスのSSOフィールド';
 $string['samlfieldforfirstname'] = '名のSSOフィールド';
 $string['samlfieldforsurname'] = '姓のSSOフィールド';
+$string['samlfieldforstudentid'] = '学生IDのSSOフィールド';
 $string['spentityid'] = 'サービスプロバイダエンティティID';
 $string['title'] = 'SAML';
 $string['updateuserinfoonlogin'] = 'ログイン時、ユーザ情報を更新する';
