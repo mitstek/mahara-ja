@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-01-31 06:16:00 UTC
+ * @updated    2017-01-31 06:18:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -95,7 +95,7 @@ $string['invalidnumrows'] = 'あなたは許可された最大行以上のレイ
 $string['previewimagegenerationfailed'] = '申し訳ございません、プレビューイメージの生成中に問題が発生しました。';
 $string['artefactnotfoundmaybedeleted'] = 'ID %s のアーティファクトは見つかりませんでした (もしかして、削除されましたか?)。';
 $string['artefactnotfound'] = 'ID %s のアーティファクトは見つかりませんでした。';
-$string['artefactsnotfound'] = 'IDのアーティファクトは見つかりませんでした: %s';
+$string['artefactsnotfound'] = '次のIDのアーティファクトは見つかりませんでした: %s';
 $string['artefactnotinview'] = 'アーティファクト %s はページ %s にありません。';
 $string['artefactonlyviewableinview'] = 'このタイプのアーティファクトはページ内でのみ閲覧することができます。';
 $string['notartefactowner'] = 'あなたはこのアーティファクトを所有していません。';
