@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-05-31 07:49:12 UTC
+ * @updated    2017-02-02 18:49:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,16 +15,16 @@ defined('INTERNAL') || die();
 
 $string['allmydata'] = '私のすべてのデータ';
 $string['chooseanexportformat'] = 'エクスポートフォーマットを選択する';
-$string['clicktopreview'] = 'プレビューするにはここをクリック';
+$string['clicktopreview'] = 'クリックしてプレビューする';
 $string['collectionstoexport'] = 'エクスポートするコレクション';
 $string['creatingzipfile'] = 'ZIPファイル作成中';
 $string['Done'] = '完了';
 $string['Export'] = 'エクスポート';
-$string['clickheretodownload'] = 'ダウンロードするにはここをクリック';
+$string['clickheretodownload'] = 'ここをクリックしてダウンロードする';
 $string['continue'] = '続ける';
-$string['exportgeneratedsuccessfully'] = 'エクスポートが正常に生成されました。%sダウンロードするにはここをクリック%s';
+$string['exportgeneratedsuccessfully'] = 'エクスポートが正常に生成されました。%sここをクリックしてダウンロードする%s';
 $string['exportgeneratedsuccessfully1'] = 'エクスポートが正常に生成されました。';
-$string['exportgeneratedwitherrors'] = 'エクスポートが生成されましたが、いくつかのエラーが発生しています。';
+$string['exportgeneratedwitherrors'] = 'エクスポートが生成されましたが、いくつかエラーが発生しました。';
 $string['exportingartefactplugindata'] = 'アーティファクトプラグインデータのエクスポート中';
 $string['exportingartefacts'] = 'アーティファクトのエクスポート中';
 $string['exportingartefactsprogress'] = 'アーティファクトのエクスポート中: %s/%s';
