@@ -76,9 +76,9 @@ $string['exportzipfileerror'] = 'ZIPファイルの生成に失敗しました: 
 $string['submissiondirnotwritable'] = '提出アーカイブディレクトリに書き込めません: %s';
 $string['exportarchivesavefailed'] = 'データベースにエクスポートアーカイブ情報を保存できません。';
 $string['archivedsubmissionfailed'] = 'データベースにアーカイブ済み提出情報を保存できません。';
-$string['submissionreleasefailed'] = 'アーカイブ後の提出リリースに失敗しました。';
-$string['deleteexportqueueitems'] = 'エクスポートキューアイテムデータベーステーブルのアイテム削除に失敗しました。';
-$string['deleteexportqueuerow'] = 'エクスポートキューデータベーステーブルのアイテム削除に失敗しました。';
+$string['submissionreleasefailed'] = 'アーカイブ後の提出のリリースに失敗しました。';
+$string['deleteexportqueueitems'] = 'エクスポートキューアイテムデータベーステーブルのアイテムの削除に失敗しました。';
+$string['deleteexportqueuerow'] = 'エクスポートキューデータベーステーブルのアイテムの削除に失敗しました。';
 $string['exportqueueerrorsadminsubject'] = 'キューのエクスポート実行中にエラーが発生しました。';
 $string['exportqueueerrorsadminmessage'] = '次のエラーのため行「 %s 」をエクスポートできません: %s';
 
