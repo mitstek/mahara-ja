@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-02-02 18:49:51 UTC
+ * @updated    2017-02-05 16:17:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -76,9 +76,9 @@ $string['exportzipfileerror'] = 'ZIPファイルの生成に失敗しました: 
 $string['submissiondirnotwritable'] = '提出アーカイブディレクトリに書き込めません: %s';
 $string['exportarchivesavefailed'] = 'データベースにエクスポートアーカイブ情報を保存できません。';
 $string['archivedsubmissionfailed'] = 'データベースにアーカイブ済み提出情報を保存できません。';
-$string['submissionreleasefailed'] = 'アーカイブ後の提出リリースに失敗しました。';
-$string['deleteexportqueueitems'] = 'エクスポートキューアイテムデータベーステーブルのアイテム削除に失敗しました。';
-$string['deleteexportqueuerow'] = 'エクスポートキューデータベーステーブルのアイテム削除に失敗しました。';
+$string['submissionreleasefailed'] = 'アーカイブ後の提出のリリースに失敗しました。';
+$string['deleteexportqueueitems'] = 'エクスポートキューアイテムデータベーステーブルのアイテムの削除に失敗しました。';
+$string['deleteexportqueuerow'] = 'エクスポートキューデータベーステーブルのアイテムの削除に失敗しました。';
 $string['exportqueueerrorsadminsubject'] = 'キューのエクスポート実行中にエラーが発生しました。';
 $string['exportqueueerrorsadminmessage'] = '次のエラーのため行「 %s 」をエクスポートできません: %s';
 
