@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-01-25 14:46:24 UTC
+ * @updated    2017-02-12 12:34:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -78,7 +78,7 @@ $string['editrolesdescription1'] = 'グループページ、日誌およびフ�
 $string['allexceptmember'] = '一般メンバーを除く全員';
 $string['Admin'] = '管理者';
 $string['publiclyviewablegroup'] = '一般の人も閲覧可能なグループ';
-$string['publiclyviewablegroupdescription1'] = 'オンラインのユーザは誰でもフォーラムを含む、このグループを閲覧できるようにします。';
+$string['publiclyviewablegroupdescription1'] = 'オンラインのユーザは誰でもフォーラムを含むこのグループを閲覧できるようにします。';
 $string['Type'] = 'タイプ';
 $string['publiclyvisible'] = 'パブリックに閲覧可';
 $string['Public'] = 'パブリック';
@@ -94,10 +94,10 @@ $string['hasbeeninvitedtojoin'] = 'がこのグループへの参加を招待さ
 $string['groupinvitesfrom'] = '参加の招待:';
 $string['requestedmembershipin'] = 'リクエストされたメンバーシップ:';
 $string['viewnotify'] = '共有ページ通知';
-$string['viewnotifydescription2'] = '新しいページが作成された場合、グループメンバーがグループとページを共有した場合、どのグループメンバーに通知するのか選択してください。この通知はページを共有しているグループメンバーには送信されません。大規模なグループの場合、多くの通知が発生するため、これは通常メンバー以外のメンバーに制限した方が良いでしょう。';
+$string['viewnotifydescription2'] = '新しいページが作成された場合、グループメンバーがグループおよびページを共有した場合、どのグループメンバーに通知するのか選択してください。この通知はページを共有しているグループメンバーには送信されません。大規模なグループの場合、多くの通知が発生するため、これは通常メンバー以外のメンバーに制限した方が良いでしょう。';
 $string['commentnotify'] = 'コメント通知';
 $string['commentnotifydescription1'] = 'グループページおよびアーティファクトにコメントが投稿された場合、どのグループメンバーに通知するのか選択してください。';
-$string['allowsendnow'] = 'すぐにフォーラム投稿を送信する';
+$string['allowsendnow'] = 'フォーラム投稿をすぐに送信する';
 $string['allowsendnowdescription1'] = 'グループメンバーすべてがフォーラム投稿をすぐに送信するよう選択することができます。この設定を無効にした場合、グループ管理者、チューターおよびモデレータのみ、フォーラム投稿をすぐに送信することができます。';
 $string['hiddengroup'] = 'グループを隠す';
 $string['hiddengroupdescription1'] = 'このグループを「グループを探す」ページで隠します。';
@@ -110,7 +110,7 @@ $string['invitefriendsdescription1'] = 'このグループへのフレンドの�
 $string['invitefriends'] = 'フレンドを招待する';
 $string['Recommendations'] = 'レコメンデーション';
 $string['suggestfriendsdescription1'] = 'このグループへの参加レコメンデーションをメンバーがグループホームページのボタンでフレンドに送信できるようにします。';
-$string['suggesttofriends'] = 'フレンドへの提案';
+$string['suggesttofriends'] = 'フレンドに提案する';
 $string['userstosendrecommendationsto'] = 'レコメンデーションが送信されるユーザ';
 $string['suggestgroupnotificationsubject'] = 'あなたのグループ参加を %s が提案しました。';
 $string['suggestgroupnotificationmessage'] = 'あなたのグループ参加を %s が提案しました: グループ「 %s 」(%s)';
