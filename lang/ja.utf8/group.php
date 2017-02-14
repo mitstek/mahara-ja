@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-08-17 06:08:26 UTC
+ * @updated    2017-02-14 06:17:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -171,7 +171,7 @@ $string['youowngroup'] = 'あなたはこのグループのオーナーです。
 $string['groupsnotin'] = '私が参加していないグループ';
 $string['allgroups'] = 'すべてのグループ';
 $string['allgroupmembers'] = 'グループメンバーすべて';
-$string['trysearchingforgroups'] = '%s参加したいグループの検索%sをお試しください!';
+$string['trysearchingforgroups'] = '参加するには%sグループを探す%sをお試しください!';
 $string['nogroupsfound'] = 'グループがありません :(';
 $string['group'] = 'グループ';
 $string['Group'] = 'グループ';
@@ -196,7 +196,7 @@ $string['friendformacceptsuccess'] = '承認されたフレンドリクエスト
 $string['friendformrejectsuccess'] = '拒否されたフレンドリクエスト';
 $string['addtofriendslist'] = 'フレンドリストに追加する';
 $string['requestfriendship'] = 'フレンドシップをリクエストする';
-$string['addedtofriendslistsubject'] = '新しいフレンド';
+$string['addedtofriendslistsubject'] = '%s があなたをフレンドとして追加しました。';
 $string['addedtofriendslistmessage'] = '%s があなたをフレンドとして追加しました! これはあなたのフレンドリストに %s が追加されたことも意味します。追加されたユーザのプロファイルページを閲覧するには下記リンクをクリックしてください。';
 $string['requestedfriendlistsubject'] = '新しいフレンドリクエスト';
 $string['requestedfriendlistmessage'] = 'あなたがフレンドとして追加することを %a がリクエストしました。あなたは下記リンクまたはフレンドリストページでフレンドを追加することができます。';
