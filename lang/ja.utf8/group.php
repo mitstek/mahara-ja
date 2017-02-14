@@ -150,7 +150,7 @@ $string['collectionreleasedmessage'] = 'あなたのコレクション「 %s 」
 $string['viewreleasedsuccess'] = 'ページが正常にリリースされました。';
 $string['viewreleasedpending'] = 'アーカイブの後、ページはリリースされます。';
 $string['collectionreleasedsuccess'] = 'コレクションが正常にリリースされました。';
-$string['collectionreleasedpending'] = 'ページはアーカイブの後にリリースされます。';
+$string['collectionreleasedpending'] = 'アーカイブの後、コレクションはリリースされます。';
 $string['leavegroup'] = 'このグループから離れる';
 $string['joingroup'] = 'このグループに参加する';
 $string['requestjoingroup'] = 'このグループへの参加をリクエストする';
@@ -177,7 +177,7 @@ $string['grouprequestmessagereason'] = '%s があなたのグループ「 %s 」
 
 %s';
 $string['cantdeletegroup'] = 'あなたはこのグループを削除できません。';
-$string['groupconfirmdelete'] = 'この処理により、グループに含まれているすべてのページ、ファイルおよびフォーラムも削除されます。本当にこのグループおよびコンテンツすべてを完全に削除してもよろしいですか?';
+$string['groupconfirmdelete'] = 'この処理により、グループに含まれるすべてのページ、ファイルおよびフォーラムも削除されます。本当にこのグループおよびコンテンツすべてを完全に削除してもよろしいですか?';
 $string['deletegroup'] = 'グループが正常に削除されました。';
 $string['deletegroup1'] = 'グループを削除する';
 $string['allmygroups'] = 'すべてのマイグループ';
@@ -204,7 +204,7 @@ $string['youowngroup'] = 'あなたはこのグループのオーナーです。
 $string['groupsnotin'] = '私が参加していないグループ';
 $string['allgroups'] = 'すべてのグループ';
 $string['allgroupmembers'] = 'グループメンバーすべて';
-$string['trysearchingforgroups'] = '%s参加したいグループの検索%sをお試しください。';
+$string['trysearchingforgroups'] = '参加するには%sグループを探す%sをお試しください。';
 $string['nogroupsfound'] = 'グループがありません。';
 $string['group'] = 'グループ';
 $string['Group'] = 'グループ';
