@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-26 19:39:08 UTC
+ * @updated    2017-02-16 04:15:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -72,6 +72,9 @@ $string['newviewaccessmessagenoownerviews'] = 'あなたはページ「 %s 」�
 $string['newcollectionaccesssubject'] = 'コレクション「 %s 」への新しいアクセス';
 $string['newviewaccesssubject1'] = 'ページ「 %s 」への新しいアクセス';
 $string['newviewaccesssubjectviews'] = 'ページ「 %s 」への新しいアクセス';
+$string['messageaccessfromto'] = 'このページへのアクセスは %s まで制限され %s に終了します。';
+$string['messageaccessfrom'] = 'このページへのアクセスは %s まで制限されます。';
+$string['messageaccessto'] = 'このページへのアクセスは %s に終了します。';
 $string['viewmodified'] = 'がページを変更しました。';
 $string['ongroup'] = 'グループ:';
 $string['ownedby'] = 'オーナー:';
