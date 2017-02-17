@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-02-14 06:13:12 UTC
+ * @updated    2017-02-17 15:01:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -290,7 +290,7 @@ $string['Friends'] = 'フレンド';
 $string['Everyone'] = '誰でも';
 $string['myinstitutions'] = 'マイインスティテューション';
 $string['friendlistfailure'] = 'あなたのフレンドリストの変更に失敗しました。';
-$string['userdoesntwantfriends'] = 'このユーザは新しいフレンドを欲していません。';
+$string['userdoesntwantfriends'] = 'このユーザは新しいフレンドを求めていません。';
 $string['cannotrequestfriendshipwithself'] = 'あなたはあなた自身にフレンドシップをリクエストできません。';
 $string['cantrequestfriendship'] = 'あなたはこのユーザにフレンドシップをリクエストできません。';
 $string['messagebody'] = 'メッセージを送信する';
@@ -312,14 +312,14 @@ $string['requestedfriendship'] = 'リクエストされたフレンドシップ'
 $string['notinanygroups'] = 'どのグループにも属していません。';
 $string['addusertogroup'] = '追加';
 $string['inviteusertojoingroup'] = '招待';
-$string['invitemembertogroup'] = '%s を「 %s 」に招待する';
-$string['cannotinvitetogroup'] = 'あなたはこのユーザをグループに招待できません。';
+$string['invitemembertogroup'] = '%s を「 %s 」の参加に招待する';
+$string['cannotinvitetogroup'] = 'あなたはこのユーザをこのグループに招待できません。';
 $string['useralreadyinvitedtogroup'] = 'このユーザはすでに招待されているか、このグループのメンバーになっています。';
 $string['removefriend'] = 'フレンドを削除する';
 $string['denyfriendrequestlower'] = 'フレンドリクエストを拒否する';
 $string['groupinteractions'] = 'グループ活動';
 $string['nointeractions'] = 'このグループに活動はありません。';
-$string['notallowedtoeditinteractions'] = 'あなたはこのグループの活動を追加および編集できません。';
+$string['notallowedtoeditinteractions'] = 'あなたはこのグループで活動を追加および編集できません。';
 $string['notallowedtodeleteinteractions'] = 'あなたはこのグループの活動を削除できません。';
 $string['interactionsaved'] = '%s が正常に保存されました。';
 $string['deleteinteraction'] = '%s 「 %s 」を削除する';
@@ -346,7 +346,7 @@ $string['allowssubmissions'] = '送信を許可する';
 $string['allowsubmissions'] = '送信を許可する';
 $string['allowssubmissionsdescription1'] = 'メンバーはグループにページを送信することができます。送信後、ページはロックされます。送信されたページはグループチューターまたは管理者がリリースするまで編集することはできません。';
 $string['allowssubmissionsdescription'] = 'メンバーはグループにページを送信することができます。';
-$string['allowsarchives'] = '送信アーカイブを許可する';
+$string['allowsarchives'] = '送信のアーカイブを許可する';
 $string['allowsarchivesdescription'] = '送信リリース処理中にページおよびコレクションはZIP圧縮済みLeap2Aファイルとしてアーカイブされます。';
 $string['report'] = 'レポート';
 $string['grouphasntcreatedanyviewsyet'] = 'このグループはまだページを作成していません。';
