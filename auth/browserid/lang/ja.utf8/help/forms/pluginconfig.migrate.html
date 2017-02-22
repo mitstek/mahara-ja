@@ -1,0 +1,15 @@
+<!-- @license http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later -->
+<!-- @copyright For copyright information on Mahara, please see the README file distributed with this software. -->
+<h3>Personaユーザを自動移行する</h3>
+<p>2016年11月30日以降、Mozillaは<a href="https://wiki.mozilla.org/Identity/Persona_Shutdown_Guidelines_for_Reliers">Persona認証サービスを停止します</a>。
+あなたのサイトがPersonaを使用している場合、ユーザを別の認証方法に移行する必要があります。</p>
+<p>このプラグインではあなたのサイトのすべてのPersonaペースのユーザアカウントをMahara「内部」認証方法に変更するための基本オプションを提供します。</p>
+<p>「Yes」を選択してこのフォームを保存することにより、移行スクリプトを有効にします。そして以下の処理を実行します:</p>
+<ol>
+<li>サイトのPersona認証インスタンスすべてが削除されます。</li>
+<li>Persona認証のすべてのユーザは所属しているインスティテューションの内部認証インスタンスにスイッチされます。</li>
+<li>所属しているインスティテューションに内部認証インスタンスがない場合、新たに作成されます。</li>
+<li>これらのユーザにはパスワードが<b>設定されないため</b>、「パスワード喪失」リンク (およびPersonaメールアドレス) を使用してMaharaの初期パスワードを設定する必要があります。</li>
+<li>ユーザのユーザ名は変更されません。</li>
+</ol>
+<p><b>注意:</b> ユーザには認証方法が変更された旨の通知は送信されません。あなたのサイトのログアウトホームページに前のPersonaユーザは「パスワード喪失」リンクおよびPersonaメールアドレスを使用して新しいパスワードを作成した上でMaharaアカウントにアクセスする必要がある旨のメッセージを記載してください。</p>
