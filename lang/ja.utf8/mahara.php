@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-02-07 15:04:00 UTC
+ * @updated    2017-02-23 16:50:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -96,10 +96,10 @@ $string['enable'] = '有効にする';
 $string['disable'] = '無効にする';
 $string['show'] = '表示';
 $string['hide'] = '非表示';
-$string['pluginenabled'] = 'プラグインが有効にされました。';
-$string['plugindisabled'] = 'プラグインが無効にされました。';
+$string['pluginenabled'] = 'プラグインが表示にされました。';
+$string['plugindisabled'] = 'プラグインが非表示にされました。';
 $string['plugindisableduser'] = '%s プラグインは無効にされています。この機能を有効にするにはあなたの管理者にご相談ください。';
-$string['pluginnotenabled'] = 'プラグインが有効にされていません。あなたはまず %s プラグインを有効にする必要があります。';
+$string['pluginnotenabled'] = 'プラグインは非表示にされています。あなたはまず %s プラグインを表示にする必要があります。';
 $string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるため、URLを知っているユーザはアクセスすることができます。機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることにより、プラグインを表示または非表示にすることができます。';
 $string['pluginexplainartefactblocktypes'] = '「アーティファクト」タイプのプラグインを非表示にした場合、Maharaシステムは同時に関連するブロックの表示を停止します。';
 $string['pluginbrokenanddisabledtitle1'] = '不完全なプラグイン「 %s 」が無効にされました。';
