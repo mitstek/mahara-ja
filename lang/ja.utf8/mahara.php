@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-02-27 01:22:26 UTC
+ * @updated    2017-02-28 03:27:40 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -133,7 +133,7 @@ $string['reason'] = '理由';
 $string['select'] = '選択';
 $string['tags'] = 'タグ';
 $string['tagsdesc'] = 'このアイテムに関してタグを検索または入力してください。';
-$string['tagsdescprofile'] = 'このアイテムに関してタグを検索または入力してください。「プロファイル」としてタグ付けられたアイテムはあなたのサイドバー内に表示されます。';
+$string['tagsdescprofile'] = 'このアイテムに関してタグを検索または入力してください。「プロファイル」としてタグ付けられたアイテムはあなたのサイドバーに表示されます。';
 $string['youhavenottaggedanythingyet'] = 'あなたはまたタグ付けしていません。';
 $string['mytags'] = 'マイタグ';
 $string['Tag'] = 'タグ';
@@ -141,8 +141,8 @@ $string['itemstaggedwith'] = '「 %s 」でタグ付けされたアイテム';
 $string['nitems'] = '%s アイテム';
 $string['searchresultsfor'] = '検索結果:';
 $string['alltags'] = 'すべてのタグ';
-$string['sortalpha'] = 'タグをアルファベット順で並べ替える';
-$string['sortfreq'] = 'タグを使用頻度順で並べ替える';
+$string['sortalpha'] = 'タグをアルファベット順に並べ替える';
+$string['sortfreq'] = 'タグを使用頻度順に並べ替える';
 $string['sortresultsby'] = '並べ替え:';
 $string['sortedby'] = '並べ替え';
 $string['sortby'] = '並べ替え:';
