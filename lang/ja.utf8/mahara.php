@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-02-28 03:27:40 UTC
+ * @updated    2017-03-02 15:58:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -170,8 +170,8 @@ $string['edittag'] = '<a href="%s">%s</a> を編集する';
 $string['editthistag'] = 'このタグを編集する';
 $string['edittagdescription'] = 'あなたのポートフォリオに関して「 %s 」でタグ付けされたすべてのアイテムが更新されます。';
 $string['deletetag'] = '<a href="%s">%s</a> を削除する';
-$string['confirmdeletetag'] = '本当にあなたのポートフォリオ内すべてのアイテムから、このタグを削除してもよろしいですか?';
-$string['deletetagdescription'] = 'あなたのポートフォリオ内すべてのアイテムから、このタグを削除します。';
+$string['confirmdeletetag'] = '本当にあなたのポートフォリオ内すべてのアイテムからこのタグを削除してもよろしいですか?';
+$string['deletetagdescription'] = 'あなたのポートフォリオ内すべてのアイテムからこのタグを削除します。';
 $string['tagupdatedsuccessfully'] = 'タグが正常に更新されました。';
 $string['tagdeletedsuccessfully'] = 'タグが正常に削除されました。';
 $string['selfsearch'] = 'マイポートフォリオを検索する';
