@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-02-24 10:29:32 UTC
+ * @updated    2017-03-09 12:24:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1152,5 +1152,7 @@ $string['cli_restore_done'] = '「 %s 」のバックアップのリストアを
 $string['cli_restore_warning'] = '*** 警告 *** 「 %s 」のバックアップをリストアできません。';
 $string['cli_tmpdir_notwritable'] = '一時アップロードディレクトリ「 %s 」に書き込み権がありません。';
 $string['cli_lang_branch'] = 'シリーズ「 %s 」の言語パックを取得するためのMaharaシリーズバージョン';
+$string['withselectedcontentexport'] = 'アイテムを再度エクスポートキューに入れる';
+$string['withselectedcontentdelete'] = '選択したアイテムをエクスポートキューから削除する';
 
 ?>
