@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-07 15:37:49 UTC
+ * @updated    2017-03-12 06:00:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -366,14 +366,14 @@ $string['chooseusernamepasswordinfo'] = 'あなたが %s にログインする�
 $string['confirmpassword'] = 'パスワードをもう一度';
 $string['deleteaccount'] = '次のアカウントを削除する: %s / %s';
 $string['javascriptnotenabled'] = 'あなたのブラウザではJavaスクリプトが有効にされていません。このサイトではあなたがログインする前にJavaスクリプトを有効にする必要があります。';
-$string['cookiesnotenabled'] = 'あなたのブラウザではクッキーが有効にされていないか、クッキーがブロックされています。このサイトではあなたがログインする前にクッキーを有効にする必要があります。';
+$string['cookiesnotenabled'] = 'あなたのブラウザではクッキーが有効にされていないかクッキーがブロックされています。このサイトではあなたがログインする前にクッキーを有効にする必要があります。';
 $string['institution'] = 'インスティテューション';
 $string['institutioncontacts'] = '「 %s 」連絡先';
 $string['institutionlink'] = '<a href="%s">%s</a>';
 $string['link'] = '<a href="%s">%s</a>';
 $string['loggedoutok'] = 'あなたは正常にログアウトしました。';
 $string['login'] = 'ログイン';
-$string['loginfailed'] = 'あなたは正しいログイン情報を提供していないようです。あなたのユーザ名およびパスワードが正しいどうか確認してください。';
+$string['loginfailed'] = 'あなたは正しいログイン情報を提供していないようです。あなたのユーザ名およびパスワードが正しいかどうか確認してください。';
 $string['loginto'] = '%s にログインする';
 $string['orloginvia'] = 'または次の認証によりログインする:';
 $string['newpassword'] = '新しいパスワード';
