@@ -547,7 +547,7 @@ $string['uploadgroupcsveditrolesdescription'] = '<p>editrolesフィールドに�
 $string['uploadgroupmemberscsverrorduplicateusername'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」およびユーザ名 (username)「 %s 」はすでにこのファイルで指定されています。';
 $string['uploadgroupmemberscsverrorinvalidrole'] = 'あなたのファイルの %s 行目にエラーが発生しました: 指定されたグループに対してロール「 %s 」は有効ではありません。';
 $string['uploadgroupmemberscsverrornoadminlisted'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」にはロール「admin」を指定されたユーザがありません。';
-$string['uploadgroupmemberscsverrornosuchshortname'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」が存在しないか、インスティテューション「 %s 」に属していません。';
+$string['uploadgroupmemberscsverrornosuchshortname'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」が存在しないかインスティテューション「 %s 」に属していません。';
 $string['uploadgroupmemberscsverrornosuchusername'] = 'あなたのファイルの %s 行目にエラーが発生しました: ユーザ名 (username)「 %s 」は存在しません。';
 $string['uploadgroupmemberscsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーが発生しました: ユーザ名 (username)「 %s 」はインスティテューション「 %s 」に属していません。';
 $string['uploadgroupmemberscsvpagedescription2'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用してこのインスティテューションでコントロールされるグループ内のグループメンバーを更新することができます。</p>
@@ -561,7 +561,7 @@ $string['uploadgroupmemberscsvpagedescription2'] = '<p>あなたはこの機能�
 <p>shortnameフィールドはあなたが<a href="%s" title="%s">ここ</a>でグループを作成した時に使用した名称と同じにする必要があります。</p>
 
 <p>roleフィールドにはグループタイプに応じて次の設定値を使用することができます: <tt>admin</tt>、<tt>member</tt>または<tt>tutor</tt></p>';
-$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効ではないか、Maharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動でコンタクトしてください:';
+$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動でコンタクトしてください:';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるため、ユーザは追加されませんでした。許可されたインスティテューションの最大ユーザ数を超えました。';
 $string['updateusers'] = 'ユーザを更新する';
 $string['updateusersdescription'] = 'あなたのCSVファイルに指定したインスティテューションのメンバーのユーザ名が含まれている場合、ファイルのデータによりユーザ詳細が上書きされることになります。注意して使用してください。';
