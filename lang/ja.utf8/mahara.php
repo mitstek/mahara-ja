@@ -288,7 +288,7 @@ $string['passwordsaved'] = 'あなたの新しいパスワードが保存され�
 $string['passwordsdonotmatch'] = 'パスワードが合致しません。';
 $string['passwordtooeasy'] = 'あなたのパスワードは簡単すぎます! 難しいパスワードを入力してください。';
 $string['register'] = 'ユーザ登録';
-$string['sessiontimedout'] = 'あなたのセッションはタイムアウトしました。続けるには再度ログインしてください。';
+$string['sessiontimedout'] = 'あなたのセッションはタイムアウトしました。続けるにはあなたのログイン詳細を入力してください。';
 $string['sessiontimedoutpublic'] = 'あなたのセッションはタイムアウトしました。閲覧を続けるには<a href="%s">ログイン</a>してください。';
 $string['sessiontimedoutreload'] = 'あなたのセッションはタイムアウトしました。再度ログインするにはページをリロードしてください。';
 $string['username'] = 'ユーザ名';
