@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-05-23 01:25:50 UTC
+ * @updated    2017-03-16 06:27:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -375,9 +375,9 @@ $string['displayname'] = '表示名';
 $string['fullname'] = 'フルネーム';
 $string['registerwelcome'] = 'ようこそ! このサイトを使用するには最初にユーザ登録してください。';
 $string['registeragreeterms'] = 'また、あなたは<a href="terms.php">使用条件</a>に同意する必要があります。';
-$string['registerprivacy'] = 'ここで収集したデータは私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
-$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s にユーザ登録されました。 あなたのアバタとして表示する任意のプロファイル写真を選択することができます。</p>';
-$string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須入力です。あなたのユーザ登録が完了する前にすべての必須入力フィールドに入力してください。/p>';
+$string['registerprivacy'] = 'ここで収集したデータは私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保管されます。';
+$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s にユーザ登録されました。あなたのアバタとして表示する任意のプロファイル写真を選択することができます。</p>';
+$string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須入力です。あなたのユーザ登録が完了する前にすべての必須入力フィールドに入力してください。</p>';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムに登録できません。';
 $string['membershipexpiry'] = 'メンバーシップ有効期限切れ';
 $string['institutionfull'] = 'あなたが選択したインスティテューションはこれ以上の登録を受け付けていません。';
