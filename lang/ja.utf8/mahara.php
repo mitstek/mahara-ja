@@ -362,11 +362,11 @@ $string['itemupdated'] = 'アイテムが更新されました。';
 $string['approvalrequired'] = '要承認';
 $string['cantchangepassword'] = '申し訳ございません、このインターフェース経由でパスワードを変更することはできません - 代わりにあなたのインスティテューションのインターフェースを使用してください。';
 $string['forgotusernamepassword'] = 'あなたのユーザ名またはパスワードを忘れましたか?';
-$string['forgotusernamepasswordtextprimaryemail'] = '<p>あなたがユーザ名またはパスワードを忘れた場合、あなたのプロファイルに登録された主メールアドレスを下記に入力してください。あなたが新しいパスワードを作成することのできるメッセージを送信します。</p>
+$string['forgotusernamepasswordtextprimaryemail'] = '<p>ユーザ名またはパスワードを忘れた場合、あなたのプロファイルに登録された主メールアドレスを入力してください。あなたが新しいパスワードを作成することのできるメッセージを送信します。</p>
 <p>あなたがパスワードを忘れてユーザ名を忘れていない場合、ユーザ名を入力することもできます。</p>';
 $string['lostusernamepassword'] = 'ユーザ名/パスワード喪失';
 $string['emailaddressorusername'] = 'メールアドレスまたはユーザ名';
-$string['pwchangerequestsent'] = 'あなたのアカウントのパスワードを変更するためのリンクを記載したメールがまもなく送信されます。';
+$string['pwchangerequestsent'] = 'あなたのアカウントのパスワード変更に使用できるリンクを記載したメールがまもなく送信されます。';
 $string['forgotusernamepasswordemailsubject'] = '%s に関するユーザ名/パスワード詳細';
 $string['forgotusernamepasswordemailmessagetext'] = '%s さん
 
