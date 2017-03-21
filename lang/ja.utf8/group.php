@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-02-17 15:01:26 UTC
+ * @updated    2017-03-21 06:02:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -139,6 +139,7 @@ $string['nmembers'] = '%s メンバー';
 $string['memberrequests'] = 'メンバーシップリクエスト';
 $string['declinerequest'] = 'リクエストを拒否する';
 $string['submittedviews'] = '送信済みページ';
+$string['submitted'] = '送信済み';
 $string['releaseview'] = 'ページをリリースする';
 $string['releasecollection'] = 'コレクションをリリースする';
 $string['invite'] = '招待';
@@ -268,6 +269,7 @@ $string['backtofriendslist'] = 'フレンドリストに戻る';
 $string['findnewfriends'] = '新しいフレンドを探す';
 $string['Collections'] = 'コレクション';
 $string['Views'] = 'ページ';
+$string['Viewscollections'] = 'ページおよびコレクション';
 $string['Files'] = 'ファイル';
 $string['noviewstosee'] = 'あなたが閲覧できるものはありません。';
 $string['whymakemeyourfriend'] = 'あなたが私をフレンドにする理由:';

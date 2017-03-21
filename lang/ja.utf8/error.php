@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-02-09 15:34:21 UTC
+ * @updated    2017-03-21 05:59:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -94,6 +94,7 @@ $string['youcannotviewthisusersprofile'] = 'あなたはこのユーザのプロ
 $string['invalidlayoutselection'] = 'あなたは存在しないレイアウトの選択を試みました。';
 $string['invalidnumrows'] = 'あなたは許可された最大行以上のレイアウトの作成を試みました (これは可能であるべきではありません。あなたのサイト管理者にご連絡ください)。';
 $string['previewimagegenerationfailed'] = '申し訳ございません、プレビューイメージの生成中に問題が発生しました。';
+$string['viewtemplatenotfound'] = 'デフォルトのページテンプレートが見つかりませんでした。';
 $string['artefactnotfoundmaybedeleted'] = 'ID %s のアーティファクトは見つかりませんでした (もしかして、削除されましたか?)。';
 $string['artefactnotfound'] = 'ID %s のアーティファクトは見つかりませんでした。';
 $string['artefactsnotfound'] = '次のIDのアーティファクトは見つかりませんでした: %s';
