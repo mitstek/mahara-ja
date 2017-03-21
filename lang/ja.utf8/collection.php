@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-01-23 00:37:33 UTC
+ * @updated    2017-03-21 03:01:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -69,6 +69,7 @@ $string['editviewaccess'] = 'ページアクセスを編集する';
 $string['editaccess'] = 'コレクションアクセスを編集する';
 $string['emptycollectionnoeditaccess'] = 'あなたは空のコレクションのアクセスを編集することはできません。最初にページを追加してください。';
 $string['emptycollection'] = '空のコレクション';
+$string['manage'] = '管理';
 $string['manageviews'] = 'ページを管理する';
 $string['manageviewsspecific'] = '「 %s 」のページを管理する';
 $string['name'] = 'コレクション名';
@@ -88,6 +89,7 @@ $string['smartevidence'] = 'スマートエビデンス';
 $string['update'] = '更新';
 $string['usecollectionname'] = 'コレクション名を使用しますか?';
 $string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしたままにしてください。';
+$string['numviewsincollection'] = 'コレクション内ページ数: %s';
 $string['viewsaddedtocollection1'] = '%s ページがコレクションに追加されました。';
 $string['viewsaddedtocollection1different'] = '%s ページがコレクションに追加されました。コレクション内のページすべてに関して共有アクセスが変更されました。';
 $string['viewsaddedaccesschanged'] = '次のページに関してアクセスパーミッションが変更されました:';
