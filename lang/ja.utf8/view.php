@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-21 11:27:21 UTC
+ * @updated    2017-03-21 06:13:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -21,6 +21,11 @@ $string['editcontentandlayout'] = 'コンテンツおよびレイアウトを編
 $string['editlayout'] = 'レイアウトを編集する';
 $string['editaccess'] = 'アクセスを編集する';
 $string['editaccessfor'] = 'アクセスを編集する (ID %s)';
+$string['manageaccess'] = 'アクセスを管理する';
+$string['manageaccessfor'] = '「 %s 」のアクセスを管理する';
+$string['managekeys'] = 'シークレットURLを管理する';
+$string['managekeysfor'] = '「 %s 」のシークレットURLを管理する';
+$string['accessrulesfor'] = '「 %s 」のアクセスルール';
 $string['next'] = '次へ';
 $string['back'] = '戻る';
 $string['title'] = 'ページタイトル';
@@ -57,6 +62,7 @@ $string['templateportfoliodescription'] = 'あなたのユーザが作成する�
 $string['artefacts'] = 'アーティファクト';
 $string['groupviews'] = 'グループページ';
 $string['institutionviews'] = 'インスティテューションページ';
+$string['institutionviewscollections'] = 'インスティテューションページおよびコレクション';
 $string['reallyaddaccesstoemptyview'] = 'あなたのページにはブロックが含まれていません。本当にこれらのユーザにページへのアクセス権を与えますか?';
 $string['viewdeleted'] = 'ページが削除されました。';
 $string['viewsubmitted'] = 'ページが送信されました。';
@@ -70,20 +76,22 @@ $string['accessbetweendates3'] = '%s 以前または %s 以降、だれもこの
 $string['artefactsinthisview'] = 'このページのアーティファクト';
 $string['whocanseethisview'] = '誰がこのページを閲覧することができますか';
 $string['view'] = 'ページ';
+$string['panelmenu'] = 'メニュー';
 $string['vieworcollection'] = 'ページまたはコレクション';
 $string['views'] = 'ページ';
 $string['viewsandcollections'] = 'ページおよびコレクション';
 $string['View'] = 'ページ';
 $string['Views'] = 'ページ';
+$string['Viewscollections'] = 'ページおよびコレクション';
 $string['viewsubmittedtogroup'] = 'このページは<a href="%s">%s</a>に送信されました。';
 $string['viewsubmittedtogroupon'] = 'このページは<a href="%s">%s</a>に対して %s に送信されました。';
 $string['collectionsubmittedtogroup'] = 'このコレクションは<a href="%s">%s</a>に送信されました。';
 $string['collectionsubmittedtogroupon'] = 'このコレクションは<a href="%s">%s</a>に対して %s に送信されました。';
 $string['submittedpendingrelease'] = 'アーカイブ後のリリース保留中です。';
 $string['nobodycanseethisview2'] = 'あなたのみこのページを閲覧することができます。';
-$string['noviews'] = 'ページはありません。';
+$string['noviews1'] = 'ページまたはコレクションはありません。';
 $string['nviews'] = '%s ページ';
-$string['youhavenoviews'] = 'あなたのページはありません。';
+$string['youhavenoviews1'] = 'あなたにはページまたはコレクションはありません。';
 $string['youhaventcreatedanyviewsyet'] = 'あなたはまだページを作成していません。';
 $string['youhaveoneview'] = 'あなたには 1 件のページがあります。';
 $string['youhaveviews'] = 'あなたには %s 件のページがあります。';
@@ -208,6 +216,8 @@ $string['editblockspagedescription'] = '<p>以下のタブより選択してブ�
 $string['displayview'] = 'ページを表示する';
 $string['editthisview'] = 'このページを編集する';
 $string['expandcontract'] = 'ブロックタイプ一覧を展開/折りたたむ';
+$string['returntoinstitutionpages'] = 'インスティテューションページに戻る';
+$string['returntositepages'] = 'サイトページに戻る';
 $string['success.addblocktype'] = 'ブロックが正常に追加されました。';
 $string['err.addblocktype'] = 'あなたのページにブロックを追加できませんでした。';
 $string['success.moveblockinstance'] = 'ブロックが正常に移動されました。';
@@ -340,6 +350,8 @@ $string['copyview'] = 'ページをコピーする';
 $string['createemptyview'] = '空のページを作成する';
 $string['copyaview'] = 'ページをコピーする';
 $string['copyvieworcollection'] = 'ページまたはコレクションをコピーする';
+$string['confirmaddtitle'] = 'ページまたはコレクションを作成する';
+$string['confirmadddesc'] = 'あなたが作成したいものを選択してください:';
 $string['confirmcopytitle'] = 'コピーを確認する';
 $string['confirmcopydesc'] = 'あなたがコピーしたいものを選択してください:';
 $string['Untitled'] = 'タイトルなし';
@@ -367,6 +379,7 @@ $string['viewcopywouldexceedquota'] = 'このページを追加することで�
 $string['viewcreatewouldexceedquota'] = 'このページを作成することであなたのファイルクオータを越えてしまいます。';
 $string['blockcopypermission'] = 'ブロックのコピーパーミッション';
 $string['blockcopypermissiondesc'] = 'このページを他のユーザがコピーできるようにした場合、あなたはこのブロックをどのようにコピーできるか選択することができます。';
+$string['defaultsort'] = 'アルファベット順';
 $string['latestcreated'] = '作成日時';
 $string['latestmodified'] = '最終更新日時';
 $string['latestviewed'] = '最終閲覧日時';
@@ -379,8 +392,9 @@ $string['grouphomepage'] = 'グループホームページ';
 $string['grouphomepagedescription'] = 'グループホームページはこのグループのAboutタブに表示されるコンテンツです。';
 $string['sharedwithme'] = '私への共有';
 $string['titleanddescription'] = 'タイトル、説明、タグ';
+$string['titleanddescriptionnotags'] = 'タイトル、説明';
 $string['titleanddescriptionandtagsandowner'] = 'タイトル、説明、タグ、オーナー';
-$string['tagsonly'] = 'タグのみ';
+$string['tagsonly1'] = 'タグ';
 $string['sharedviewsdescription'] = 'このページではあなたが共有しているページの中から直近に修正またはコメントされたページが一覧表示されます。これらの共有ページには直接あなたが共有しているページ、オーナーのフレンドが共有しているページ、あなたのグループが共有しているページがあります。';
 $string['sharedwith'] = '共有対象';
 $string['general'] = '一般';
