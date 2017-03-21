@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-19 07:55:40 UTC
+ * @updated    2017-03-21 06:06:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -123,6 +123,7 @@ $string['firstpage'] = '最初のページ';
 $string['last'] = '最後';
 $string['lastpage'] = '最後のページ';
 $string['maxitemsperpage1'] = '1ページあたりの結果:';
+$string['showmore'] = 'さらに表示する';
 $string['accept'] = '承認';
 $string['memberofinstitutions'] = '%s のメンバー';
 $string['staffofinstitutions'] = '%s のスタッフ';
@@ -674,6 +675,7 @@ $string['filter'] = 'フィルタ';
 $string['expand'] = '広げる';
 $string['collapse'] = '折りたたむ';
 $string['more...'] = 'さらに ...';
+$string['moreoptionsfor'] = '「 %s 」の詳細オプション';
 $string['details'] = '詳細';
 $string['nohelpfound'] = 'このアイテムのヘルプファイルはありません。';
 $string['nohelpfoundpage'] = 'このページのヘルプファイルはありません。';
