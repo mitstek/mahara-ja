@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-21 06:06:49 UTC
+ * @updated    2017-03-22 16:06:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -81,6 +81,8 @@ $string['tab'] = 'タブ';
 $string['selected'] = '選択済み';
 $string['admin'] = '管理';
 $string['menu'] = 'メニュー';
+$string['adminmenu'] = '管理メニュー';
+$string['usermenu'] = 'ユーザメニュー';
 $string['at'] = '@';
 $string['From'] = 'From';
 $string['To'] = 'To';
@@ -622,6 +624,7 @@ $string['activityprefs'] = '活動プリファレンス';
 $string['changepassword'] = 'パスワードを変更する';
 $string['notifications'] = '通知';
 $string['inbox'] = '受信箱';
+$string['unread'] = '%s 未読';
 $string['gotoinbox'] = '受信箱に移動する';
 $string['institutionmembership'] = 'インスティテューションメンバーシップ';
 $string['institutionmembershipdescription'] = 'あなたがインスティテューションのメンバーとなっている場合、ここに一覧表示されます。あなたはインスティテューションのメンバーシップをリクエストすることもできます。また、保留中のメンバーシップ招待を承認または拒否することができます。';
