@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-01-12 01:54:31 UTC
+ * @updated    2017-03-25 14:14:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -41,10 +41,15 @@ $string['maritalstatus'] = '配偶者の有無';
 $string['resumesaved'] = 'レジュメが保存されました。';
 $string['resumesavefailed'] = 'あなたのレジュメの更新に失敗しました。';
 $string['educationhistory'] = '教育履歴';
+$string['addeducationhistory'] = '教育履歴を追加する';
 $string['employmenthistory'] = '職歴';
+$string['addemploymenthistory'] = '職歴を追加する';
 $string['certification'] = '証明、認定および受賞';
+$string['addcertification'] = '証明、認定および受賞を追加する';
 $string['book'] = '書籍および出版物';
+$string['addbook'] = '書籍および出版物を追加する';
 $string['membership'] = '専門会員資格';
+$string['addmembership'] = '専門会員資格を追加する';
 $string['startdate'] = '開始年月日';
 $string['enddate'] = '終了年月日';
 $string['date'] = '日付';
