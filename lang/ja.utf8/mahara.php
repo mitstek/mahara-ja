@@ -413,8 +413,8 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 
 <p>%s サイト管理者</p>';
 $string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは私たちに責任があります。もう一度お試しください。';
-$string['forgotpassemailsentanyway1'] = 'このユーザに関して保存されているメールアドレス宛にメールが送信されましたが、メールアドレスが正しくない、または受信サーバがメッセージを戻しました。メールを受信していない場合、あなたのパスワードをリセットするために %s 管理者にご連絡ください。';
-$string['forgotpassnosuchemailaddressorusername'] = 'あなたが入力したメールアドレスはこのサイトのユーザに合致しません。';
+$string['forgotpassemailsentanyway1'] = 'このユーザに関して保存されているメールアドレス宛にメールが送信されましたがメールアドレスが正しくないか受信サーバがメッセージを戻しました。メールを受信していない場合、あなたのパスワードをリセットするために %s 管理者にご連絡ください。';
+$string['forgotpassnosuchemailaddressorusername'] = 'あなたが入力したメールアドレスまたはユーザア名はこのサイトのユーザに合致しません。';
 $string['forgotpassuserusingexternalauthentication'] = 'あなたは外部認証方法の使用をリクエストしました。パスワードを変更するには<a href="%s">あなたの管理者にご連絡ください</a>。または別のユーザ名またはメールドレスを入力してください。';
 $string['forgotpasswordenternew'] = '続けるにはあなたの新しいパスワードを入力してください。';
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';
@@ -424,7 +424,7 @@ $string['noinstitutionsetpassemailsubject'] = '%s: %s のメンバーシップ';
 $string['noinstitutionsetpassemailmessagetext'] = '%s さん
 
 あなたは %s のメンバーではなくなりました。
-続けて %s を現在のユーザ名 %s で使用することができますが、アカウントに新しいパスワードを設定する必要があります。
+続けて %s を現在のユーザ名 %s で使用することができますがアカウントに新しいパスワードを設定する必要があります。
 
 パスワードリセット処理を続けるには下記リンクをクリックしてください。
 
@@ -440,7 +440,7 @@ $string['noinstitutionsetpassemailmessagetext'] = '%s さん
 $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたは %s のメンバーではなくなりました。</p>
-<p>続けて %s を現在のユーザ名 %s で使用することができますが、アカウントに新しいパスワードを設定する必要があります。</p>
+<p>続けて %s を現在のユーザ名 %s で使用することができますがアカウントに新しいパスワードを設定する必要があります。</p>
 
 <p>パスワードリセット処理を続けるには下記リンクをクリックしてください。</p>
 
@@ -482,7 +482,7 @@ $string['noinstitutionoldpassemailmessagehtml'] = '<p>%s さん</p>
 <p>%s サイト管理者</p>
 
 <p><a href="%sforgotpass.php">%sforgotpass.php</a></p>';
-$string['debugemail'] = '注意: このメールは%s <%s> 宛のメールですが、設定ファイルの「sendallemailto」設定により、あなたに送信されています。';
+$string['debugemail'] = '注意: このメールは%s <%s> 宛のメールですが設定ファイルの「sendallemailto」設定によりあなたに送信されています。';
 $string['divertingemailto'] = '%s にメールを転送する';
 $string['noenddate'] = '終了日なし';
 $string['day'] = '日';
