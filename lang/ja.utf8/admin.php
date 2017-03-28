@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-21 03:01:09 UTC
+ * @updated    2017-03-28 02:00:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -109,6 +109,7 @@ $string['staffusers'] = 'スタッフユーザ';
 $string['staffusersdescription'] = 'ユーザにスタッフパーミッションを割り当てます。';
 $string['adminusers'] = '管理ユーザ';
 $string['adminusersdescription'] = 'サイト管理者アクセス権を割り当てます。';
+$string['settings'] = '設定';
 $string['institution'] = 'インスティテューション';
 $string['institutions'] = 'インスティテューション';
 $string['Institutions'] = 'インスティテューション';
