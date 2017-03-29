@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-17 15:24:32 UTC
+ * @updated    2017-03-29 01:43:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -196,10 +196,10 @@ $string['iterationtitle'] = '%s イテレーション: %s';
 $string['unabletoruntestclient'] = 'ウェブサービステストクライアントはhttpsの下で実運用モードで動作させるか、あなたのconfig.php内に「$cfg->productionmode = false」を記述する必要があります。';
 $string['accesstokens'] = 'OAuthアクセストークン';
 $string['notokens'] = 'あなたにはアプリケーショントークンがありません。';
-$string['oauth'] = 'OAuth';
+$string['externalapps'] = '外部アプリ';
 $string['oauth1'] = 'OAuth1.x';
-$string['oauthv1sregister'] = 'OAuthサービス登録';
-$string['userapplications'] = 'OAuthコンシューマキー';
+$string['externalappsregister'] = '外部アプリ登録';
+$string['userapplications1'] = '外部アプリ設定';
 $string['accessto'] = 'アクセス対象';
 $string['application'] = 'アプリケーション';
 $string['callback'] = 'コールバックURI';
