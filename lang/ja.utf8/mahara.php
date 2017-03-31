@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-31 02:01:41 UTC
+ * @updated    2017-03-31 02:24:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -27,6 +27,7 @@ $string['moveitemup'] = '上へ';
 $string['moveitemdown'] = '下へ';
 $string['edit'] = '編集';
 $string['editspecific'] = '「 %s 」を編集する';
+$string['managespecific'] = '「 %s 」を管理する';
 $string['connectspecific'] = '「 %s 」に接続する';
 $string['editing'] = '編集';
 $string['settingsspecific'] = '「 %s 」を設定する';
@@ -85,6 +86,11 @@ $string['adminmenu'] = '管理メニュー';
 $string['usermenu'] = 'ユーザメニュー';
 $string['profilepage'] = 'プロファイルページ';
 $string['mainmenu'] = 'メインメニュー';
+$string['showmainmenu'] = 'メインメニューを表示する';
+$string['showadminmenu'] = '管理メニューを表示する';
+$string['showusermenu'] = 'ユーザメニューを表示する';
+$string['showsearch'] = '検索を表示する';
+$string['showmenu'] = '%s のメニューを表示する';
 $string['at'] = '@';
 $string['From'] = 'From';
 $string['To'] = 'To';
@@ -219,7 +225,7 @@ $string['noonlineusersfound'] = 'オンラインユーザはいません。';
 $string['linksandresources'] = 'リンクおよびリソース';
 $string['accesstotallydenied_institutionsuspended'] = 'あなたのインスティテューション %s は現在利用停止されています。利用再開されるまで %s にログインすることはできません。詳細はあなたのインスティテューションにご連絡ください。';
 $string['accesstotallydenied_institutionexpired'] = 'あなたのインスティテューション %s は有効期限が切れています。有効期限切れが解消されるまで %s にログインすることはできません。詳細はあなたのインスティテューションにご連絡ください。';
-$string['accesstotallydenied_institutioninactive'] = 'あなたのインスティテューション %s の認証方法が有効ではありません。認証方法が有効にされるまで %s にログインすることはできません。詳細はあなたのインスティテューションにご連絡ください。';
+$string['accesstotallydenied_institutioninactive'] = 'インスティテューション「 %s 」の認証方法が有効ではありません。認証方法が有効にされるまで %s にログインすることはできません。詳細はあなたのインスティテューション管理者にご連絡ください。';
 $string['accessforbiddentoadminsection'] = 'あなたは管理セクションへのアクセスを禁止されています。';
 $string['accountdeleted'] = '申し訳ございません、あなたのアカウントは削除されました。<a href="%scontact.php">サイト管理者にご連絡ください</a>。';
 $string['accountexpired'] = '申し訳ございません、あなたのアカウントの有効期限が切れました。あなたのアカウントを再度有効にするには<a href="%scontact.php">サイト管理者にご連絡ください</a>。';

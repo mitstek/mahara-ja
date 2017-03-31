@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-28 02:00:56 UTC
+ * @updated    2017-03-31 02:19:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1024,8 +1024,8 @@ $string['selectedusers'] = '選択済みユーザ';
 $string['remoteuser'] = 'リモートユーザ名';
 $string['userreports'] = 'ユーザレポート';
 $string['userreportsdescription'] = 'あなたが検索ページで選択したユーザ情報を表示またはダウンロードします。';
-$string['unabletodeleteself'] = 'あなた自身をバルク削除することはできません。';
-$string['unabletodeletealladmins'] = 'すべてのサイト管理者のバルク削除は許可されていません。';
+$string['unabletodeleteself1'] = 'あなた自身を削除することはできません。';
+$string['unabletodeletealladmins1'] = 'あなたはサイト管理者すべてを削除することはできません。';
 $string['notificationssaved'] = '通知設定が保存されました。';
 $string['onlyshowingfirst'] = '最初に表示';
 $string['resultsof'] = '検索結果';
@@ -1117,19 +1117,19 @@ $string['cli_close_site_siteclosed'] = 'メンテナンスのためサイトが�
 $string['cli_close_site_siteopen'] = 'サイトがオープンされました。';
 $string['cli_backupdir_notwritable'] = '言語バックアップディレクトリ「 %s 」に書き込み権がありません。';
 $string['cli_langpack'] = '言語コードによるリストアップ 例) 「ja,de,pt_BR,fr」';
-$string['cli_langpack_backup'] = 'アップデートの前に言語ディレクトリをバックアップします (任意)。';
+$string['cli_langpack_backup'] = '任意: アップデートの前に言語ディレクトリをバックアップします (任意)。';
 $string['cli_langpack_backup_done'] = '言語「 %s 」のバックアップを完了しました。';
 $string['cli_langpack_backup_failed'] = '*** 警告 *** 「 %s 」のバックアップを作成できません。';
-$string['cli_langpack_en'] = 'Mahara自体でストリングが定義されているため英語言語パックを更新する必要はありません。あなたは「local/lang/」に特別言語ストリングを設定することができます。';
+$string['cli_langpack_en'] = 'Mahara自体でストリングが定義されているため英語言語パックを更新する必要はありません。あなたは「local/lang/」で特別言語ストリングを設定することができます。';
 $string['cli_langpack_extract_done'] = '新しい「 %s 」言語パックが所定の位置にコピーされました。';
 $string['cli_langpack_extract_failed'] = '*** 警告 *** 「 %s 」からファイルを展開できません - 理由: %s';
 $string['cli_langpack_info'] = 'あなたの言語パックをコマンドラインで更新するには次のことができます:
 
-1) 言語をコードでリストアップして言語パックをインストールまたはアップデートします。例)ja = 日本語、de = ドイツ語、fr = フランス語
+1) 言語をコードでリストアップして言語パックをインストールまたは更新します。例)ja = 日本語、de = ドイツ語、fr = フランス語
 
 sudo -u www-data php admin/cli/sync_langpacks.php -l=ja,de,fr
 
-これにより「dataroot」内の「langpacks_backup」ディレクトリに既存の言語 (存在する場合) のバックアップが作成されます。
+これにより「dataroot」内の「langpacks_backup」ディレクトリに既存の言語 (すでに存在する場合) のバックアップが作成されます。
 
 2) あなたがバックアップを作成したくない場合、「-b=false」フラグを追加してください。
 

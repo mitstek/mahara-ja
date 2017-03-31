@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-17 15:27:19 UTC
+ * @updated    2017-03-31 02:29:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -21,8 +21,8 @@ $string['manualtokensdesc'] = 'アプリに自動的にコピー＆ペースト�
 $string['manualtokenstitle'] = '手動トークン生成';
 $string['mobileapiserviceexists'] = 'モバイルAPIサービスグループ登録済み';
 $string['mobileapiserviceconfigured'] = 'モバイルAPIサービス - 有効 / %s - 無効 / %s - 有効';
-$string['noticeenabled'] = '現在、MaharaモバイルアプリAPIは有効にされています。';
-$string['noticenotenabled'] = '現在、MaharaモバイルアプリAPIは有効に<b>されていません</b>。';
+$string['noticeenabled'] = 'MaharaモバイルアプリAPIは有効にされています。';
+$string['noticenotenabled'] = 'MaharaモバイルアプリAPIは有効に<b>されていません</b>。';
 $string['notreadylabel'] = '準備未完了';
 $string['readylabel'] = '準備完了';
 $string['restprotocolenabled'] = 'RESTプロトコル有効';
