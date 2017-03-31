@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-31 02:11:15 UTC
+ * @updated    2017-03-31 02:41:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -302,7 +302,7 @@ $string['servicenamelabel'] = '名称';
 $string['servicenamedesc'] = 'このサービスグループに関する人間が読解可能な名称です。';
 $string['serviceshortnamelabel'] = '省略名';
 $string['serviceshortnamedesc'] = 'このサービスグループに関するコンピュータが解読可能な名称です。これは外部サービスがこのサービスグループを参照する必要がある場合に使用される名称です。';
-$string['servicecomponentnote'] = 'このサービスは次のコンポーネント「 %s 」の機能を提供します。';
+$string['servicecomponentnote'] = 'このサービスはコンポーネント「 %s 」の機能を提供します。';
 $string['simpleauthlog'] = '単純認証';
 $string['step'] = 'ステップ';
 $string['testclientdescription'] = '* ウェブサービステストクライアントは関数を<strong>実際/strong>に<strong>実行</strong>します。あなたが分からない関数はテストしないでください。
