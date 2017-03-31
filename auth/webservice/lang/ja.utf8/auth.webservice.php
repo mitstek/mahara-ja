@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-29 01:43:56 UTC
+ * @updated    2017-03-31 01:58:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -86,6 +86,7 @@ $string['webservice_master_switches'] = 'ウェブサービス機能を有効に
 $string['connectionsswitch'] = '管理クライアント接続をOnまたはOffに切り替える';
 $string['manage_protocols1'] = 'ウェブサービスプロバイダとしてサポートされるプロトコルを有効または無効にする:';
 $string['protocol'] = 'プロトコル';
+$string['oauth'] = 'OAuth';
 $string['rest'] = 'REST';
 $string['soap'] = 'SOAP';
 $string['xmlrpc'] = 'XML-RPC';
@@ -133,6 +134,7 @@ $string['owner'] = 'オーナー';
 $string['servicename'] = 'サービス';
 $string['generate'] = 'トークンを生成する';
 $string['invalidtoken'] = '無効なトークン: トークンが見つかりませんでした。';
+$string['invalidtokennotsuppied'] = '無効なトークンが提供されたかトークンが提供されていません。';
 $string['token'] = 'トークン';
 $string['tokenid'] = 'トークン「 %s 」';
 $string['invaliduserselected'] = '無効なユーザが選択されました。';
@@ -329,7 +331,7 @@ $string['accessdenied'] = 'アクセスが拒否されました。';
 $string['accessdeniedforinst'] = 'インスティテューション「 %s 」へのアクセスが拒否されました。';
 $string['accessdeniedforinstuser'] = 'インスティテューション「 %s 」 (ユーザ 「 %s 」) へのアクセスが拒否されました。';
 $string['accessdeniedforinstgroup'] = 'インスティテューション「 %s 」 (グループ「 %s 」) へのアクセスが拒否されました。';
-$string['usernameexists'] = 'ユーザ名はすでに存在します: %s';
+$string['usernameexists1'] = 'ユーザ名「 %s 」はすでに存在します。';
 $string['invalidauthtype'] = '無効な認証タイプ「 %s 」です。';
 $string['invalidauthtypeuser'] = '無効な認証タイプ「 %s (ユーザ: %s)」 です。';
 $string['invalidsocialprofile'] = '無効なソーシャルプロファイル「 %s 」です。';
