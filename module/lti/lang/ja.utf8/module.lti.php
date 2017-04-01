@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-31 02:28:20 UTC
+ * @updated    2017-04-01 00:04:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,8 +20,8 @@ $string['autocreationnotenabled'] = 'ユーザアカウントの自動作成は�
 $string['configstep'] = '設定アイテム';
 $string['configstepstatus'] = 'ステータス';
 $string['ltiserviceexists'] = 'LTIサービスグループは登録されています。';
-$string['noticeenabled'] = '現在、LTI APIは有効にされています。';
-$string['noticenotenabled'] = '現在、LTI APIは有効にされて<b>いません</b>。';
+$string['noticeenabled'] = 'LTI APIは有効にされています。';
+$string['noticenotenabled'] = 'LTI APIは有効にされて<b>いません</b>。';
 $string['oauthprotocolenabled'] = 'OAuthプロトコル有効';
 $string['restprotocolenabled'] = 'RESTプロトコル有効';
 $string['usernameexists1'] = 'ユーザ名「 %s 」はすでに存在します。';
