@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-31 02:24:49 UTC
+ * @updated    2017-04-03 01:09:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -568,7 +568,7 @@ $string['datepicker_currentText'] = '現在';
 $string['datepicker_currentStatus'] = '現在の月を表示する';
 $string['datepicker_monthNames'] = '[1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月]';
 $string['datepicker_monthNamesShort'] = '[1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月]';
-$string['datepicker_monthStatus'] = '異なる月を表示する';
+$string['datepicker_monthStatus'] = '別の月を表示する';
 $string['datepicker_yearStatus'] = '別の年を表示する';
 $string['datepicker_weekHeader'] = '週';
 $string['datepicker_dayNames'] = '[日曜日,月曜日,火曜日,水曜日,木曜日,金曜日,土曜日]';
