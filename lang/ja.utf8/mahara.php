@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-04-06 06:31:16 UTC
+ * @updated    2017-04-08 19:13:28 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -113,8 +113,7 @@ $string['pluginnotenabled'] = 'プラグインは非表示にされています�
 $string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるため、URLを知っていてアクセス権のあるユーザはアクセスすることができます。機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることによりプラグインを表示または非表示にすることができます。';
 $string['pluginexplainartefactblocktypes'] = '「アーティファクト」タイプのプラグインを非表示にした場合、Maharaは同時に関連するブロックの表示を停止します。';
 $string['pluginbrokenanddisabledtitle1'] = '不完全なプラグイン「 %s 」が無効にされました。';
-$string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインの読み込みを試みましたが読み込むことができませんでした
-さらなるエラーを避けるため、このプラグインは無効にされました。
+$string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインのロードを試みましたがロードすることができませんでした。さらなるエラーを避けるため、このプラグインは無効にされました。
 
 プラグインにより生成されたエラーメッセージは下記のとおりです:
 ----------------------------------------------------------------------------
@@ -144,8 +143,8 @@ $string['reason'] = '理由';
 $string['select'] = '選択';
 $string['tags'] = 'タグ';
 $string['tagsdesc'] = 'このアイテムに関してタグを検索または入力してください。';
-$string['tagsdescprofile'] = 'このアイテムに関してタグを検索または入力してください。「プロファイル」としてタグ付けられたアイテムはあなたのサイドバーに表示されます。';
-$string['youhavenottaggedanythingyet'] = 'あなたはまたタグ付けしていません。';
+$string['tagsdescprofile'] = 'このアイテムに関してタグを検索または入力してください。「プロファイル」がタグ付けされたアイテムはあなたのサイドバーに表示されます。';
+$string['youhavenottaggedanythingyet'] = 'あなたはまだ何もタグ付けしていません。';
 $string['mytags'] = 'マイタグ';
 $string['Tag'] = 'タグ';
 $string['itemstaggedwith'] = '「 %s 」でタグ付けされたアイテム';
