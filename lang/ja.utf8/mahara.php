@@ -100,7 +100,7 @@ $string['pluginnotenabled'] = 'プラグインは非表示にされています�
 $string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるためURLを知っていてアクセス権のあるユーザはアクセスすることができます。機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることによりプラグインを表示または非表示にすることができます。';
 $string['pluginexplainartefactblocktypes'] = '「アーティファクト」タイプのプラグインを非表示にした場合、Maharaは同時に関連するブロックの表示を停止します。';
 $string['pluginbrokenanddisabledtitle'] = '不完全なプラグイン (%s) が無効にされました。';
-$string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインの読み込みを試みましたが読み込むことができませんでした。
+$string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインのロードを試みましたがロードすることができませんでした。。
 さらなるエラーを避けるため、このプラグインは無効にされました。
 
 プラグインにより生成されたエラーメッセージは下記のとおりです:
@@ -131,7 +131,7 @@ $string['select'] = '選択';
 $string['tags'] = 'タグ';
 $string['tagsdesc'] = 'このアイテムに関してカンマで区切ったタグを入力してください。';
 $string['tagsdescprofile'] = 'このアイテムに関してカンマで区切ったタグを入力してください。「プロファイル」タグが付けられたアイテムはあなたのサイドバーに表示されます。';
-$string['youhavenottaggedanythingyet'] = 'あなたはまたタグ付けしていません。';
+$string['youhavenottaggedanythingyet'] = 'あなたはまだ何もタグ付けしていません。';
 $string['mytags'] = 'マイタグ';
 $string['Tag'] = 'タグ';
 $string['itemstaggedwith'] = '「 %s 」でタグ付けされたアイテム';
