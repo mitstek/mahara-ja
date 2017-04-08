@@ -71,7 +71,7 @@ $string['select'] = '選択';
 $string['tags'] = 'タグ';
 $string['tagsdesc'] = 'このアイテムに関して、カンマで区切ったタグを入力してください。';
 $string['tagsdescprofile'] = 'このアイテムに関して、カンマで区切ったタグを入力してください。「プロファイル」タグが付けられたアイテムはあなたのサイドバーに表示されます。';
-$string['youhavenottaggedanythingyet'] = 'あなたはまたタグ付けしていません。';
+$string['youhavenottaggedanythingyet'] = 'あなたはまだ何もタグ付けしていません。';
 $string['selfsearch'] = 'マイポートフォリオを検索する';
 $string['quota'] = 'クオータ';
 $string['quotausage'] = 'あなたの利用クオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
