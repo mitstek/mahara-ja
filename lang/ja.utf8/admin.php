@@ -175,7 +175,7 @@ $string['statsmaxviews'] = '平均ページ数: %s (最もページの多いユ�
 $string['statsnoviews'] = 'ページ数: 0';
 $string['statsmaxgroups'] = '平均所属グループ数: %s (最も所属グループの多いユーザ: <a href="%s">%s</a> - 所属グループ数: %d)';
 $string['statsnogroups'] = '所属グループ数: 0';
-$string['statsmaxquotaused'] = '平均利用ディスククオータ: %s (最も利用クオータの多いユーザ: <a href="%s">%s</a> - 利用クオータ: %s)';
+$string['statsmaxquotaused'] = '平均利用ディスククオータ: %s (最も使用済みクオータの多いユーザ: <a href="%s">%s</a> - 使用済みクオータ: %s)';
 $string['groupcountsbytype'] = 'グループタイプごとのグループ数';
 $string['groupcountsbyjointype'] = 'アクセスタイプごとのグループ数';
 $string['blockcountsbytype'] = 'ポートフォリオページで最も使用されたブロック';

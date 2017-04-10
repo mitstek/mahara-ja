@@ -107,7 +107,7 @@ $string['edittags'] = 'タグを編集する';
 $string['selectatagtoedit'] = '編集するタグを選択してください';
 $string['edittag'] = '<a href="%s">%s</a> を編集する';
 $string['editthistag'] = 'このタグを編集する';
-$string['edittagdescription'] = 'あなたのポートフォリオに関して「 %s 」でタグ付けされたすべてのアイテムが更新されます。';
+$string['edittagdescription'] = 'あなたのポートフォリオ内の「 %s 」でタグ付けされたアイテムすべてが更新されます。';
 $string['deletetag'] = '<a href="%s">%s</a> を削除する';
 $string['confirmdeletetag'] = '本当にあなたのポートフォリオ内すべてのアイテムからこのタグを削除してもよろしいですか?';
 $string['deletetagdescription'] = 'あなたのポートフォリオ内すべてのアイテムからこのタグを削除します。';
@@ -115,7 +115,7 @@ $string['tagupdatedsuccessfully'] = 'タグが正常に更新されました。'
 $string['tagdeletedsuccessfully'] = 'タグが正常に削除されました。';
 $string['selfsearch'] = 'マイポートフォリオを検索する';
 $string['quota'] = 'クオータ';
-$string['quotausage'] = 'あなたの利用クオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
+$string['quotausage'] = 'あなたの使用済みクオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
 $string['updatefailed'] = 'アップデートに失敗しました。';
 $string['strftimenotspecified'] = '未設定';
 $string['invitedgroup'] = 'グループ招待';
