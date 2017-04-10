@@ -232,7 +232,7 @@ $string['statsnoviews'] = 'ページ数: 0';
 $string['statsmaxgroups'] = '平均所属グループ数: %s (最も所属グループの多いユーザ: <a href="%s">%s</a> - 所属グループ数: %d)';
 $string['statsnogroups'] = '所属グループ数: 0';
 $string['statsnoquota'] = 'ストレージ未使用';
-$string['statsmaxquotaused'] = '平均利用ディスククオータ: %s (最も利用クオータの多いユーザ: <a href="%s">%s</a> - 利用クオータ: %s)';
+$string['statsmaxquotaused'] = '平均利用ディスククオータ: %s (最も使用済みクオータの多いユーザ: <a href="%s">%s</a> - 使用済みクオータ: %s)';
 $string['groupcountsbytype'] = 'グループタイプごとのグループ数';
 $string['groupcountsbyjointype'] = 'アクセスタイプごとのグループ数';
 $string['blockcountsbytype'] = 'ポートフォリオページで最も使用されたブロック';
@@ -682,7 +682,7 @@ $string['suspendedinfo'] = 'このユーザは %s によって %s に利用停�
 $string['userdeletedsuccessfully'] = 'ユーザが正常に削除されました。';
 $string['confirmdeleteuser'] = '本当にこのユーザを削除してもよろしいですか?';
 $string['filequota1'] = 'ファイルクオータ';
-$string['quotaused'] = '利用クオータ';
+$string['quotaused'] = '使用済みクオータ';
 $string['filequotadescription'] = 'ユーザのファイルエリアでの利用可能な合計保存領域です。';
 $string['probationbulkconfirm'] = '本当にこれらのユーザのスパム保護観察ステータスを変更してもよろしいですか?';
 $string['probationbulksetspamprobation'] = 'スパム保護観察を設定する';
