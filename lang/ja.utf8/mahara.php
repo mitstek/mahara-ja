@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-04-08 19:13:28 UTC
+ * @updated    2017-04-10 15:45:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -178,14 +178,14 @@ $string['edittags'] = 'タグを編集する';
 $string['selectatagtoedit'] = '編集するタグを選択してください';
 $string['edittag'] = '<a href="%s">%s</a> を編集する';
 $string['editthistag'] = 'このタグを編集する';
-$string['edittagdescription'] = 'あなたのポートフォリオに関して「 %s 」でタグ付けされたすべてのアイテムが更新されます。';
+$string['edittagdescription'] = 'あなたのポートフォリオ内の「 %s 」でタグ付けされたアイテムすべてが更新されます。';
 $string['deletetag'] = '<a href="%s">%s</a> を削除する';
 $string['confirmdeletetag'] = '本当にあなたのポートフォリオ内すべてのアイテムからこのタグを削除してもよろしいですか?';
 $string['deletetagdescription'] = 'あなたのポートフォリオ内すべてのアイテムからこのタグを削除します。';
 $string['tagupdatedsuccessfully'] = 'タグが正常に更新されました。';
 $string['tagdeletedsuccessfully'] = 'タグが正常に削除されました。';
 $string['selfsearch'] = 'マイポートフォリオを検索する';
-$string['resultsperpage'] = '1ページあたりの表示ユーザ数';
+$string['resultsperpage'] = '1ページあたりの結果数';
 $string['license'] = 'ライセンス';
 $string['licenseother'] = 'その他のライセンス (URLを入力してください)';
 $string['licenseotherurl'] = 'URLを入力する';
@@ -200,8 +200,8 @@ $string['licensorurldesc'] = 'このコンテンツのオリジナルURLです�
 $string['licensemandatoryerror'] = 'ライセンスフィールドは必須入力です。';
 $string['licensenocustomerror'] = 'このライセンスはこのサイトで許可されていません。';
 $string['quota'] = 'クオータ';
-$string['quotausage'] = 'あなたの利用クオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
-$string['quotausagegroup'] = 'このグループの利用クオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
+$string['quotausage'] = 'あなたの使用済みクオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
+$string['quotausagegroup'] = 'このグループの使用済みクオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
 $string['groupquota'] = 'グループクオータ';
 $string['updatefailed'] = 'アップデートに失敗しました。';
 $string['invitedgroup'] = 'グループ招待';
