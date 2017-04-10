@@ -74,7 +74,7 @@ $string['tagsdescprofile'] = 'このアイテムに関して、カンマで区�
 $string['youhavenottaggedanythingyet'] = 'あなたはまだ何もタグ付けしていません。';
 $string['selfsearch'] = 'マイポートフォリオを検索する';
 $string['quota'] = 'クオータ';
-$string['quotausage'] = 'あなたの利用クオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
+$string['quotausage'] = 'あなたの使用済みクオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
 $string['updatefailed'] = 'アップデートに失敗しました。';
 $string['strftimenotspecified'] = '未設定';
 $string['invitedgroup'] = '招待されたグループ';
