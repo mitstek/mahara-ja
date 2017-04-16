@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-04-10 15:45:37 UTC
+ * @updated    2017-04-16 16:04:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -115,7 +115,7 @@ $string['pluginexplainartefactblocktypes'] = '「アーティファクト」タ�
 $string['pluginbrokenanddisabledtitle1'] = '不完全なプラグイン「 %s 」が無効にされました。';
 $string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインのロードを試みましたがロードすることができませんでした。さらなるエラーを避けるため、このプラグインは無効にされました。
 
-プラグインにより生成されたエラーメッセージは下記のとおりです:
+プラグインにより生成されたエラーメッセージは以下のとおりです:
 ----------------------------------------------------------------------------
 
 %s
@@ -231,7 +231,7 @@ $string['accountexpired'] = '申し訳ございません、あなたのアカウ
 $string['accountcreated'] = '%s: 新しいアカウント';
 $string['accountcreatedtext'] = '%s さん
 
-あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は下記のとおりです:
+あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は以下のとおりです:
 
 ユーザ名: %s
 パスワード: %s
@@ -241,7 +241,7 @@ $string['accountcreatedtext'] = '%s さん
 %s サイト管理者';
 $string['accountcreatedchangepasswordtext'] = '%s さん
 
-あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は下記のとおりです:
+あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は以下のとおりです:
 
 ユーザ名: %s
 パスワード: %s
@@ -253,7 +253,7 @@ $string['accountcreatedchangepasswordtext'] = '%s さん
 %s サイト管理者';
 $string['accountcreatedhtml'] = '<p>%s さん</p>
 
-<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>
+<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細情報は以下のとおりです:</p>
 
 <ul>
 <li><strong>ユーザ名:</strong> %s</li>
@@ -265,7 +265,7 @@ $string['accountcreatedhtml'] = '<p>%s さん</p>
 <p>%s サイト管理者</p>';
 $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 
-<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>
+<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細情報は以下のとおりです:</p>
 
 <ul>
 <li><strong>ユーザ名:</strong> %s</li>
