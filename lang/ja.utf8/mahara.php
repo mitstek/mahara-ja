@@ -128,7 +128,7 @@ $string['accountexpired'] = '申し訳ございません、あなたのアカウ
 $string['accountcreated'] = '%s: 新しいアカウント';
 $string['accountcreatedtext'] = '%s さん
 
-あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は下記のとおりです:
+あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は以下のとおりです:
 
 ユーザ名: %s
 パスワード: %s
@@ -138,7 +138,7 @@ $string['accountcreatedtext'] = '%s さん
 %s サイト管理者';
 $string['accountcreatedchangepasswordtext'] = '%s さん
 
-あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は下記のとおりです:
+あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は以下のとおりです:
 
 ユーザ名: %s
 パスワード: %s
@@ -150,7 +150,7 @@ $string['accountcreatedchangepasswordtext'] = '%s さん
 %s サイト管理者';
 $string['accountcreatedhtml'] = '<p>%s さん</p>
 
-<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>
+<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細情報は以下のとおりです:</p>
 
 <ul>
 <li><strong>ユーザ名:</strong> %s</li>
@@ -162,7 +162,7 @@ $string['accountcreatedhtml'] = '<p>%s さん</p>
 <p>%s サイト管理者</p>';
 $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 
-<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細情報は下記のとおりです:</p>
+<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細情報は以下のとおりです:</p>
 
 <ul>
 <li><strong>ユーザ名:</strong> %s</li>
