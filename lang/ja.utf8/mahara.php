@@ -141,7 +141,7 @@ $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 <p>利用開始するには<a href="%s">%s</a>にアクセスしてください!</p>
 
 <p>%s サイト管理者</p>';
-$string['accountexpirywarning'] = 'アカウント終了警告';
+$string['accountexpirywarning'] = 'アカウント終了通知';
 $string['accountexpirywarningtext'] = '%s さん
 
 あなたの %s のアカウントは %s で終了します。
