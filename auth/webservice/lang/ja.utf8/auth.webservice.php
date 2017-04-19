@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-31 02:41:38 UTC
+ * @updated    2017-04-19 04:45:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -44,7 +44,7 @@ $string['registeredemailmessagehtml'] = '<p>%s さん</p>
 %s チーム</pre>';
 $string['registeredok'] = '<p>あなたの登録が正常に完了しました。アカウントを有効にするためのインストラクションに関してあなたのメールアカウントを確認してください。</p>';
 $string['registrationnosuchkey'] = '申し訳ございません、このキーでの登録はできないようです。恐らく、登録を完了するため、あなたが24時間以上待機していたと思われます。そうでない場合、これは私たちに責任があります';
-$string['registrationunsuccessful'] = '申し訳ございません、あなたの登録は正常に完了しませんでした。これは私たちに責任があります。もう一度お試しください。';
+$string['registrationunsuccessful'] = '申し訳ございません、あなたの登録は正常に完了しませんでした。これは私たちに責任があります。再度お試しください。';
 $string['usernamealreadytaken'] = '申し訳ございません、このユーザ名はすでに取得されています。';
 $string['usernameinvalidform'] = 'ユーザ名には空白を除く半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
 $string['usernameinvalidadminform'] = 'ユーザ名には空白を除く半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
@@ -218,6 +218,7 @@ $string['erroruser'] = '無効なユーザが指定されました。';
 $string['authorise'] = 'アプリケーションアクセス権限を与える';
 $string['oauth_access'] = 'このアプリケーションはあなたのユーザ詳細およびリソースにアクセスします。';
 $string['oauth_instructions'] = 'あなたがこのアプリケーションへのアクセス権限を与えたい場合、「アプリケーションアクセス権限を与える」をクリックしてください。あなたがアクセス権限を与えたくない場合、「キャンセル」をクリックしてください。';
+$string['setauthinstancefailed'] = 'インスティテューション「 %s 」へのウェブサービス認証設定に失敗しました。「管理 -> インスティテューション -> 設定」ページで再度追加してください。';
 $string['accesstofunctionnotallowed'] = '関数「 %s() 」へのアクセスは許可されていません。サービスが関数を含むことを有効にされているかどうか確認してください。サービス設定において、サービスが制限されている場合でもユーザがリストに記載されているかどうか確認してください。さらにサービス設定ではIP制限およびサービスにケイパビリティが必要かどうか確認されます。';
 $string['accessexception'] = 'アクセスコントロール例外';
 $string['accessnotallowed'] = 'ウェブサービスへのアクセスが許可されていません。';
