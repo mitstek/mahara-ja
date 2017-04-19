@@ -1072,7 +1072,7 @@ $string['cli_pwreset_nosuchuser'] = 'エラー: ユーザ名「 %s 」のユー�
 $string['cli_pwreset_notsupported'] = 'エラー: ユーザ「 %s 」はパスワードリセットをサポートしない認証方法を使用しています。あなたが「内部」認証に変更したい場合、「-i=true」オプションを使用してください。';
 $string['cli_pwreset_password'] = '新しいパスワードです。このパラメータが提供されていない場合、スクリプトはあなたにパスワードの入力を促します。';
 $string['cli_pwreset_prompt1'] = '新しいパスワードを入力してください。';
-$string['cli_pwreset_prompt2'] = '新しいパスワードをもう一度入力してください。';
+$string['cli_pwreset_prompt2'] = '新しいパスワードを再度入力してください。';
 $string['cli_pwreset_success'] = 'ユーザ「 %s 」のパスワードが正常にリセットされました。';
 $string['cli_pwreset_success_forcepasswordchange'] = '次回ログイン時、ユーザはパスワードのリセットを強制されます。';
 $string['cli_pwreset_typo'] = '申し訳ございません、パスワードが合致しません。';
