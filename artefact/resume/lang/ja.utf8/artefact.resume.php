@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-25 14:14:01 UTC
+ * @updated    2017-04-21 06:16:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -33,9 +33,9 @@ $string['dateofbirthinvalid1'] = 'これは有効な生年月日ではありま�
 $string['placeofbirth'] = '出生地';
 $string['citizenship'] = '市民権';
 $string['visastatus'] = 'ビザステータス';
-$string['female'] = '女性';
-$string['male'] = '男性';
-$string['gender'] = '性別';
+$string['woman'] = '女性';
+$string['man'] = '男性';
+$string['gender1'] = '性同一性';
 $string['gendernotspecified'] = '(未指定)';
 $string['maritalstatus'] = '配偶者の有無';
 $string['resumesaved'] = 'レジュメが保存されました。';
