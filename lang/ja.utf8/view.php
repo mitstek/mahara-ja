@@ -149,7 +149,7 @@ $string['cantsubmittogroup'] = 'あなたはこのグループに送信できま
 $string['cantdeleteview'] = 'あなたはこのページを削除できません。';
 $string['deletespecifiedview'] = 'ページ「 %s 」を削除する';
 $string['deleteviewconfirm1'] = '本当にこのページを削除してもよろしいですか? 元に戻すことはできません。';
-$string['deleteviewconfirmbackup'] = '<a href="%sexport/" target="_blank">エクスポート</a>により、このページのバックアップを作成することをご検討ください。';
+$string['deleteviewconfirmbackup'] = '<a href="%sexport/" target="_blank">エクスポート</a>により、このページのバックアップの作成をご検討ください。';
 $string['deleteviewconfirmnote1'] = '<strong>注意:</strong> このページにリンクしたすべてのファイルおよび日誌を利用することはできます。<br/>しかし、このページに投稿されたすべてのフィードバックは削除されます。';
 $string['editaccesspagedescription3'] = 'デフォルトではあなたのページをあなたのみ閲覧できます。このページにアクセスルールを追加することであなたは他のユーザとページを共有することができます。アクセスルールを追加した後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editaccessdescription'] = 'チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。あなたの選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
