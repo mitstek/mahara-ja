@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-04-25 15:43:57 UTC
+ * @updated    2017-04-29 19:59:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -401,9 +401,9 @@ $string['sessiontimedoutpublic'] = 'あなたのセッションはタイムア�
 $string['sessiontimedoutreload'] = 'あなたのセッションはタイムアウトしました。再度ログインするにはページをリロードしてください。';
 $string['username'] = 'ユーザ名';
 $string['preferredname'] = '表示名';
-$string['usernamehelp'] = 'このシステムにアクセスするため、あなたに与えられたユーザ名です。';
+$string['usernamehelp'] = 'あなたがこのシステムにアクセスするため与えられたユーザ名です。';
 $string['youaremasqueradingas'] = 'あなたは %s としてログインしています。';
-$string['yournewpassword'] = 'あなたの新しいパスワードです。パスワードは少なくとも半角英数字6文字にしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。<br />良いセキュリティのためにパスフレーズの使用を検討してください。パスフレーズは単一の単語ではなく文です。あなたが好きな名言・格言またはスペースで区切られた2つ (またはそれ以上) の好きなものを使用することをご検討ください。';
+$string['yournewpassword'] = 'あなたの新しいパスワードです。パスワードは少なくとも半角英数字6文字にしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。<br />良いセキュリティのためパスフレーズの使用をご検討ください。パスフレーズは単一の単語ではなく文です。あなたが好きな名言・格言またはスペースで区切られた2つ (またはそれ以上) の好きなものの使用をご検討ください。';
 $string['yournewpasswordagain'] = 'あなたの新しいパスワードをもう一度';
 $string['invalidsesskey'] = '無効なセッションキー';
 $string['cannotremovedefaultemail'] = 'あなたの主メールアドレスは削除できません。';
