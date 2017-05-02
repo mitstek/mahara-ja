@@ -61,6 +61,6 @@ $string['switchbox.on'] = 'On';
 $string['switchbox.off'] = 'Off';
 $string['switchbox.yes'] = 'Yes';
 $string['switchbox.no'] = 'No';
-$string['requiredfields'] = '「 %s 」によってマークされたフィールドは必須入力項目です。';
+$string['requiredfields'] = '「 %s 」によってマークされたフィールドは必須入力です。';
 
 ?>
