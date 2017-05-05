@@ -18,7 +18,7 @@ $string['title'] = '内部';
 $string['description'] = 'Maharaデータベースで認証する';
 $string['completeregistration'] = '登録を完了する';
 $string['emailalreadytaken'] = 'このメールアドレスはすでに登録されています。';
-$string['iagreetothetermsandconditions'] = '私は使用条件に同意します。';
+$string['iagreetothetermsandconditions'] = '私は利用条件に同意します。';
 $string['passwordformdescription'] = 'あなたのパスワードには少なくとも半角6文字必要です。パスワードは大文字小文字を区別します。また、あなたのユーザ名と異なる必要があります。
 <br />
 セキュリティ上の理由から、パスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。';
@@ -49,7 +49,7 @@ $string['registrationunsuccessful'] = '申し訳ございません、あなた�
 $string['usernamealreadytaken'] = '申し訳ございません、このユーザ名はすでに取得されています。';
 $string['usernameinvalidform'] = 'ユーザ名には半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
 $string['usernameinvalidadminform'] = 'ユーザ名には半角英数字および標準的な記号を使用することができます。ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
-$string['youmaynotregisterwithouttandc'] = '<a href="#user_acceptterms">使用条件</a>の順守に同意しない限り、あなたはユーザ登録されません。';
+$string['youmaynotregisterwithouttandc'] = '<a href="#user_acceptterms">利用条件</a>の順守に同意しない限り、あなたはユーザ登録されません。';
 $string['confirmcancelregistration'] = '本当にこの登録をキャンセルしてもよろしいですか? キャンセルの結果として、あなたのリクエストがシステムから削除されます。';
 $string['confirmemailsubject'] = '%s 登録のメール確認';
 $string['approvalemailsubject'] = '%s 登録リクエスト受信';
