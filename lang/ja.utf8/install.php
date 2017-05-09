@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-02-21 07:26:33 UTC
+ * @updated    2017-05-09 13:51:28 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,7 +13,7 @@
 
 defined('INTERNAL') || die();
 
-$string['aboutdefaultcontent'] = '<h1>Maharaとは</h1>
+$string['aboutdefaultcontent'] = '<h2>Maharaとは</h2>
 
 <p>あなたの組織またはインストールに関するテキストをここに追加してください。</p>
 
@@ -38,9 +38,7 @@ $string['loggedouthomedefaultcontent'] = '<h1>Maharaにようこそ</h1>
 <p>Maharaに関する詳細は<a href="about.php">About</a> [このページを忘れずに編集してください] をお読みください。また、私たちに<a href="contact.php">お気軽にお問い合わせください</a>。</p>
 
 <p>あなたはこのテキストを %s で編集することができます。</p>';
-$string['privacydefaultcontent'] = '<h1>プライバシー保護方針</h1>
-
-<h2>イントロダクション</h2>
+$string['privacydefaultcontent'] = '<h2>イントロダクション</h2>
 
 <p>[これはあなたの法務部門が編集するためのデフォルトのプライバシー保護方針です]</p>
 
@@ -77,9 +75,7 @@ $string['privacydefaultcontent'] = '<h1>プライバシー保護方針</h1>
 <h2>お問い合わせ</h2>
 
 <p>あなたがこの記述に対してご質問をお持ちの場合、または私たちが上記方針を遵守していないと思われる場合、私たちに<a href="contact.php">ご連絡ください</a>。私たちはご指摘の問題を解決するため努力させていただきます。</p>';
-$string['termsandconditionsdefaultcontent'] = '<h1>利用条件</h1>
-
-<p>[これはあなたの法務部門が編集するためのデフォルトの利用条件です]</p>
+$string['termsandconditionsdefaultcontent'] = '<p>[これはあなたの法務部門が編集するためのデフォルトの利用条件です]</p>
 
 <p>[<b>サイト名</b>]を使用することであなたは以下の利用条件に同意したものとします。</p>
 
