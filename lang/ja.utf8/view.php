@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-31 02:26:04 UTC
+ * @updated    2017-05-12 03:57:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -216,6 +216,7 @@ $string['editblockspagedescription'] = '<p>以下のタブより選択してブ�
 $string['displayview'] = 'ページを表示する';
 $string['editthisview'] = 'このページを編集する';
 $string['expandcontract'] = 'ブロックタイプ一覧を展開/折りたたむ';
+$string['returntoviews'] = 'ページおよびコレクションに戻る';
 $string['returntoinstitutionportfolios'] = 'インスティテューションページおよびコレクションに戻る';
 $string['returntositeportfolios'] = 'サイトページおよびコレクションに戻る';
 $string['success.addblocktype'] = 'ブロックが正常に追加されました。';
