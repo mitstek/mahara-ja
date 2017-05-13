@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-02-07 15:00:42 UTC
+ * @updated    2017-05-13 18:16:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -40,7 +40,7 @@ $string['weimportcontentdescription'] = '(一部のアプリケーションの�
 $string['theyssoin'] = 'こちらにSSOさせる';
 $string['authloginmsg2'] = 'あなたが親認証局を選択していない場合、ログインフォーム経由でログインを試みるユーザに表示されるメッセージを入力してください。';
 $string['application'] = 'アプリケーション';
-$string['cantretrievekey'] = 'リモートサーバのパブリックキー検索中、エラーが発生しました。<br />アプリケーションおよびWWWルートフィールドが正しいこと、およびリモートホストのネットワークが有効にされていることを確認してください。';
+$string['cantretrievekey'] = 'リモートサーバのパブリックキー検索中にエラーが発生しました。<br />アプリケーションおよびWWWルートフィールドが正しいこと、リモートホストのネットワーキングが有効にされていることを確認してください。';
 $string['ssodirection'] = 'SSOの方向';
 $string['active'] = 'アクティブ';
 $string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s に対する使用を試みています。';
