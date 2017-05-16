@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-05-11 01:06:18 UTC
+ * @updated    2017-05-16 13:41:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -547,7 +547,7 @@ $string['noinstitutionoldpassemailmessagehtml'] = '<p>%s さん</p>
 <p>%s サイト管理者</p>
 
 <p><a href="%sforgotpass.php">%sforgotpass.php</a></p>';
-$string['debugemail'] = '注意: このメールは%s <%s> 宛のメールですが設定ファイルの「sendallemailto」設定により、あなたに送信されています。';
+$string['debugemail'] = '注意: このメールは %s <%s> 宛のメールですが「sendallemailto」設定によりあなたに送信されています。';
 $string['divertingemailto'] = '%s にメールを転送する';
 $string['noenddate'] = '終了日なし';
 $string['day'] = '日';
