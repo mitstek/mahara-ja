@@ -534,7 +534,7 @@ $string['noinstitutionoldpassemailmessagehtml'] = '<p>%s さん</p>
 <p>%s サイト管理者</p>
 
 <p><a href="%sforgotpass.php">%sforgotpass.php</a></p>';
-$string['debugemail'] = '注意: このメールは%s <%s> 宛のメールですが設定ファイルの「sendallemailto」設定によりあなたに送信されています。';
+$string['debugemail'] = '注意: このメールは %s <%s> 宛のメールですが設定ファイルの「sendallemailto」設定によりあなたに送信されています。';
 $string['divertingemailto'] = '%s にメールを転送する';
 $string['noenddate'] = '終了日なし';
 $string['day'] = '日';
