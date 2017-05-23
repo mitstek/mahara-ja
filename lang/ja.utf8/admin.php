@@ -375,7 +375,7 @@ $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの�
 %s';
 $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動でコンタクトしてください:';
 $string['uploadcsvusersaddedsuccessfully'] = 'ファイル内のユーザが正常に追加されました。';
-$string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるため、ユーザは追加されませんでした。許可されたインスティテューションの最大ユーザ数を超えました。';
+$string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるため、ユーザは追加されませんでした。許可されたインスティテューションの最大ユーザ数を超過しました。';
 $string['bulkleap2aimport'] = 'Leap2Aファイルからユーザをインポートする';
 $string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある複数のLeap2Aファイルからユーザを一度にインポートすることができます。あなたはファイルシステムのディレクトリにおいて、すべてのLeap2A ZIPファイルおよびファイル名にユーザ名をマッピングするimport.csvと呼ばれるCSVファイルを指定する必要があります。</p>
 <p>import.csvは以下のようになります:</p>
