@@ -333,7 +333,7 @@ $string['recaptchaprivatekeydesc'] = 'あなたのサイトのreCAPTCHAアカウ
 $string['recaptchapublickey'] = 'reCAPTCHAパブリックキー';
 $string['recaptchapublickeydesc'] = 'あなたのサイトのreCAPTCHAアカウントのパブリックキーです。';
 $string['remoteavatars'] = 'リモートアバタを表示する';
-$string['remoteavatarsdescription'] = 'この設定を有効にした場合、ユーザのデフォルトプロファイル写真に<a href="http://www.gravatar.com">Gravatar</a>サービスが利用されます。';
+$string['remoteavatarsdescription'] = 'この設定を有効にした場合、ユーザのデフォルトプロファイル画像に<a href="http://www.gravatar.com">Gravatar</a>サービスが利用されます。';
 $string['searchplugin'] = '検索プラグイン';
 $string['searchplugindescription'] = '使用する検索プラグイン';
 $string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「プラグインタイプ: search」の設定を確認してください。確認後、あなたはsearchの「リセット」ボタンをクリックする必要があります。';
