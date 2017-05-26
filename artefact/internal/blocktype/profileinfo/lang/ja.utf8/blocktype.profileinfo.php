@@ -19,8 +19,8 @@ $string['aboutme'] = '私について';
 $string['fieldstoshow'] = '表示するフィールド';
 $string['introtext'] = '自己紹介テキスト';
 $string['useintroductioninstead'] = '「表示するフィールド」の「自己紹介」チェックボックスをチェックしてこのフィールドを空白にすることにより、あなたのプロファイルの「自己紹介」フィールドを代わりに使用することができます。';
-$string['dontshowprofileicon'] = 'プロファイル写真を表示しません。';
+$string['dontshowprofileicon'] = 'プロファイル画像を表示しません。';
 $string['dontshowemail'] = 'メールアドレスを表示しません。';
-$string['uploadaprofileicon'] = 'あなたにはプロファイル写真がありません。<a href="%sartefact/file/profileicons.php" target="_blank">アップロードしてください</a>。';
+$string['uploadaprofileicon'] = 'あなたにはプロファイル画像がありません。<a href="%sartefact/file/profileicons.php" target="_blank">アップロードしてください</a>。';
 
 ?>
