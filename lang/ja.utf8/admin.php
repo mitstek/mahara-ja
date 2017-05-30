@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-31 02:44:45 UTC
+ * @updated    2017-05-30 03:53:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -284,7 +284,7 @@ $string['institutionstatistics'] = 'インスティテューション統計';
 $string['institutionstatisticsfor'] = '「 %s 」のインスティテューション統計';
 $string['institutioncreated'] = 'インスティテューション作成';
 $string['contentstatstabletitle'] = '今週のコンテンツ統計';
-$string['historicalstatstabletitle'] = 'フィールド「 %s 」の歴史的統計';
+$string['historicalstatstabletitle'] = 'フィールド「 %s 」の長期時系列統計';
 $string['institutionstatstabletitle'] = 'インスティテューション統計比較';
 $string['adminsonly'] = '管理者のみ';
 $string['adminsandstaffonly'] = '管理者およびスタッフのみ';
