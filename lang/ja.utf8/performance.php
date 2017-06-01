@@ -26,6 +26,6 @@ $string['sys'] = 'sys';
 $string['user'] = 'ユーザ';
 $string['cuser'] = 'cuser';
 $string['csys'] = 'csys';
-$string['serverload'] = 'サーバロード';
+$string['serverload'] = 'サーバ負荷';
 
 ?>
