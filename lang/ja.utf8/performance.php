@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-07-30 04:37:10 UTC
+ * @updated    2017-06-01 00:06:28 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -26,6 +26,6 @@ $string['sys'] = 'sys';
 $string['user'] = 'ユーザ';
 $string['cuser'] = 'cuser';
 $string['csys'] = 'csys';
-$string['serverload'] = 'サーバロード';
+$string['serverload'] = 'サーバ負荷';
 
 ?>
