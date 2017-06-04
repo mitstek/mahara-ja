@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-06-02 06:20:01 UTC
+ * @updated    2017-06-04 07:14:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -136,7 +136,7 @@ $string['normalbuttoncolor'] = '通常ボタン色';
 $string['hoverbuttoncolor'] = 'ハイライトボタン色';
 $string['buttontextcolor'] = 'ボタンテキスト色';
 $string['skincustomcss'] = 'カスタムCSS';
-$string['skincustomcssdescription'] = 'カスタムCSSはスキンプレビューイメージに反映されません。';
+$string['skincustomcssdescription'] = 'カスタムCSSはスキンプレビューイメージには反映されません。';
 $string['chooseviewskin'] = 'ページスキンを選択する';
 $string['chooseskin'] = 'スキンを選択する';
 $string['notsavedyet'] = '未保存';
