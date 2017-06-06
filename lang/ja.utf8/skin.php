@@ -140,13 +140,13 @@ $string['skincustomcssdescription'] = 'カスタムCSSはスキンプレビュ�
 $string['chooseviewskin'] = 'ページスキンを選択する';
 $string['chooseskin'] = 'スキンを選択する';
 $string['notsavedyet'] = '未保存';
-$string['notcompatiblewiththeme'] = 'あなたのMaharaサイトテーマ「 %s 」はページスキンをサポートしていません。これはこのページがあなたにどのように表示されるか、あなたが選択したスキンが影響しないことを意味します。しかし、異なるテーマでサイトを閲覧する場合、他のユーザに関してページのアピアランスに影響を及ぼす可能性があります。';
-$string['notcompatiblewithpagetheme'] = 'このページテーマ「 %s 」はページスキンをサポートしていません。あなたが異なるテーマを選択するまであなたが選択したスキンはページアピアランスに影響を及ぼしません。';
+$string['notcompatiblewiththeme'] = 'あなたのMaharaサイトテーマ「 %s 」はページスキンをサポートしていません。これはあなたが選択したスキンがページの表示に影響を及ぼさないことを意味します。しかし、異なるテーマでサイトを閲覧した場合、他のユーザのページの見え方に影響を及ぼす可能性があります。';
+$string['notcompatiblewithpagetheme'] = 'このページテーマ「 %s 」はページスキンをサポートしていません。異なるテーマを選択するまであなたが選択したスキンはページの見え方に影響を及ぼしません。';
 $string['viewskinchanged'] = 'ページスキンが変更されました。';
 $string['manageskins'] = 'スキンを管理する';
 $string['sitefontsmenu'] = 'フォント';
 $string['sitefonts'] = 'フォント';
-$string['sitefontsdescription'] = '<p>スキンで使用するため、あなたのサイトに以下のフォントがインストールされています。</p>';
+$string['sitefontsdescription'] = '<p>あなたのサイトのスキンで使用するため以下のフォントがインストールされています。</p>';
 $string['installfontinstructions'] = '<p>
 CSS @font-faceルールによってウェブページに埋め込むことのできるフォントを追加します。すべての作者/開発者がこれを許可するわけではないことに留意してください。
 </p>
