@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-06-06 16:27:30 UTC
+ * @updated    2017-06-06 16:35:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -141,7 +141,7 @@ $string['chooseviewskin'] = 'ページスキンを選択する';
 $string['chooseskin'] = 'スキンを選択する';
 $string['notsavedyet'] = '未保存';
 $string['notcompatiblewiththeme'] = 'あなたのMaharaサイトテーマ「 %s 」はページスキンをサポートしていません。これはあなたが選択したスキンがページの表示に影響を及ぼさないことを意味します。しかし、異なるテーマでサイトを閲覧した場合、他のユーザのページの見え方に影響を及ぼす可能性があります。';
-$string['notcompatiblewithpagetheme'] = 'このページテーマ「 %s 」はページスキンをサポートしていません。異なるテーマを選択するまであなたが選択したスキンはページアピアランスに影響を及ぼしません';
+$string['notcompatiblewithpagetheme'] = 'このページテーマ「 %s 」はページスキンをサポートしていません。異なるテーマを選択するまであなたが選択したスキンはページの見え方に影響を及ぼしません';
 $string['viewskinchanged'] = 'ページスキンが変更されました。';
 $string['manageskins'] = 'スキンを管理する';
 $string['sitefontsmenu'] = 'フォント';
