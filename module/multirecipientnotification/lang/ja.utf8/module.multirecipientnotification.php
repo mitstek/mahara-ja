@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-07-24 16:43:13 UTC
+ * @updated    2017-06-07 16:27:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -41,5 +41,8 @@ $string['replybuttonplaceholder'] = '...';
 $string['selectallread'] = 'すべての未読通知';
 $string['selectalldelete'] = 'すべての削除通知';
 $string['clickformore'] = '(さらに情報を表示するには「Enter」を押してください)';
+$string['labelsearch'] = '検索';
+$string['labelall'] = 'すべて';
+$string['labelmessage'] = 'メッセージ';
 
 ?>

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-31 02:14:28 UTC
+ * @updated    2017-06-07 16:27:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -43,6 +43,7 @@ $string['alltypes'] = 'すべてのタイプ';
 $string['nodelete'] = '削除通知はありません。';
 $string['youroutboxisempty'] = 'あなたの送信箱は空です。';
 $string['yourinboxisempty'] = 'あなたの受信箱は空です。';
+$string['noresultsfound'] = 'あなたの検索クライテリアに合致するメッセージは見つかりませんでした。';
 $string['markedasread'] = 'あなたの通知を既読にしました。';
 $string['failedtomarkasread'] = 'あなたの通知を既読にできませんでした。';
 $string['deletednotifications1'] = '%s 件の通知が削除されました。';
