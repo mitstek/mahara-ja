@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-05-30 03:53:05 UTC
+ * @updated    2017-06-07 16:21:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -235,8 +235,7 @@ $string['reopensite'] = 'サイトを再オープンする';
 $string['reopensitedetail'] = 'あなたのサイトはクローズされています。アップグレードが完了するまでサイト管理者のみログインすることができます。';
 $string['siteinformation'] = 'サイト情報';
 $string['viewfullsitestatistics'] = 'サイト統計詳細を表示する';
-$string['sitestatistics'] = 'サイト統計';
-$string['siteinstalled'] = 'サイトインストール';
+$string['institutioncreated_all'] = 'サイトインストール';
 $string['databasesize'] = 'データベースサイズ';
 $string['diskusage'] = 'ディスク使用量';
 $string['maharaversion'] = 'Maharaバージョン';
@@ -1156,5 +1155,6 @@ $string['cli_tmpdir_notwritable'] = '一時アップロードディレクトリ�
 $string['cli_lang_branch'] = 'シリーズ「 %s 」の言語パックを取得するためのMaharaシリーズバージョン';
 $string['withselectedcontentexport'] = 'アイテムを再度エクスポートキューに入れる';
 $string['withselectedcontentdelete'] = '選択したアイテムをエクスポートキューから削除する';
+$string['statisticsforallinstitutions'] = 'すべてのインスティテューションの統計';
 
 ?>
