@@ -191,7 +191,7 @@ $string['fontfilewoff'] = 'WOFFフォントファイル';
 $string['woffdescription'] = 'Web Open Font Formatフォント (Firefox 3.6+, Internet Explorer 9+, Chrome 5+)';
 $string['fontfilelicence'] = 'ライセンスファイル';
 $string['fontnotice'] = 'フォント通知';
-$string['fontnoticedescription'] = 'フォントおよび作者に関して説明するため、CSSファイルに1行追加されました。';
+$string['fontnoticedescription'] = 'フォントおよび作者に関する説明1行がCSSファイルに追加されました。';
 $string['filepathnotwritable'] = '「 %s 」にファイルを書き込めません。';
 $string['showfonts'] = '表示';
 $string['fonttypes.all'] = 'すべてのフォント';
@@ -230,13 +230,13 @@ $string['gwfontadded'] = 'Googleフォントが正常にインストールされ
 $string['gwfontsnotavailable'] = '現在、Googleフォントは利用できません。';
 $string['gwfinstructions'] = '<ol>
 <li><a href="http://www.google.com/fonts/" target="_blank">Googleフォント</a>にアクセスしてください。</li>
-<li>あなたのコレクションに追加するフォントを選択してください。</li>
-<li>フォントをZIPファイルとしてコレクションにダウンロードしてください。</li>
+<li>フォントを選択してあなたのコレクションに追加してください。</li>
+<li>コレクション内のフォントをZIPファイルとしてダウンロードしてください。</li>
 <li>このフォームにZIPファイルをアップロードしてください。</li>
 <li>Googleフォントをインストールしてください。</li>
 </ol>';
 $string['gwfzipfile'] = '有効なZIPファイル';
-$string['gwfzipdescription'] = 'すべてのインストールする選択済みGoogleフォントを含む有効なZIPファイルです。';
+$string['gwfzipdescription'] = 'インストールする選択済みGoogleフォントすべてを含む有効なZIPファイルです。';
 $string['notvalidzipfile'] = 'これは有効なZIPファイルではありません。';
 $string['fontlicence'] = 'フォントライセンス';
 $string['fontlicencenotfound'] = 'フォントライセンスが見つかりませんでした。';
