@@ -151,7 +151,7 @@ $string['installfontinstructions'] = '<p>
 CSS @font-faceルールによってウェブページに埋め込むことのできるフォントを追加します。すべての作者/開発者がこれを許可するわけではないことに留意してください。
 </p>
 <p>
-あなたがウェブページへの埋め込み許可された適切なフリーフォントを見つけた場合、次のフォーマットに変換する必要があります:
+ウェブページへの埋め込みが許可された適切なフリーフォントを見つけた場合、あなたは次のフォーマットに変換する必要があります:
 <br />TrueTypeフォント、Embedded OpenTypeフォント、Web Open Font FormatフォントおよびScalable Vector Graphicフォント。
 </p>
 <p>
@@ -206,7 +206,7 @@ $string['fontfilewoff'] = 'WOFFフォントファイル';
 $string['woffdescription'] = 'Web Open Font Formatフォント (Firefox 3.6+, Internet Explorer 9+, Chrome 5+)';
 $string['fontfilelicence'] = 'ライセンスファイル';
 $string['fontnotice'] = 'フォント通知';
-$string['fontnoticedescription'] = 'フォントおよび作者に関する説明1行がCSSファイルに追加されました。';
+$string['fontnoticedescription'] = 'フォントおよび作者に関する説明1行がCSSファイルに追加されています。';
 $string['filepathnotwritable'] = '「 %s 」にファイルを書き込めません。';
 $string['showfonts'] = '表示';
 $string['fonttypes.all'] = 'すべてのフォント';
