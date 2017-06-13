@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-09-24 16:27:46 UTC
+ * @updated    2017-06-13 08:58:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -60,7 +60,7 @@ $string['artefact_type_plan'] = 'アーティファクト: プラン';
 $string['artefact_type_preferredname'] = 'アーティファクト: 表示名';
 $string['artefact_type_profileicon'] = 'アーティファクト: プロファイル画像';
 $string['artefact_type_socialprofile'] = 'アーティファクト: ソーシャルメディア';
-$string['artefact_type_studentid'] = 'アーティファクト: 学生ID';
+$string['artefact_type_studentid'] = 'アーティファクト: 学籍番号';
 $string['artefact_type_task'] = 'アーティファクト: タスク';
 $string['artefact_type_town'] = 'アーティファクト: 市区町村';
 $string['artefact_type_video'] = 'アーティファクト: ビデオファイル';
@@ -68,7 +68,7 @@ $string['artefact_type_workskill'] = 'アーティファクト: ワークスキ�
 $string['blocktype_annotation'] = 'ブロック: アノテーション';
 $string['blocktype_blog'] = 'ブロック: 日誌';
 $string['blocktype_blogpost'] = 'ブロック: 日誌エントリ';
-$string['blocktype_comment'] = 'ブロック: フィードバック';
+$string['blocktype_comment'] = 'ブロック: コメント';
 $string['blocktype_contactinfo'] = 'ブロック: 連絡先';
 $string['blocktype_creativecommons'] = 'ブロック: クリエイティブ・コモンズ';
 $string['blocktype_entireresume'] = 'ブロック: レジュメ全体';
@@ -117,7 +117,7 @@ $string['count_artefacts'] = 'アーティファクト数';
 $string['count_blocks'] = 'ブロック数';
 $string['count_views'] = 'ページ数';
 $string['dbtype'] = 'データベースタイプ';
-$string['enablenetworking'] = '有効なネットワーク';
+$string['enablenetworking'] = '有効なネットワーキング';
 $string['grouptypes'] = 'グループタイプ';
 $string['installation_key'] = 'インストレーションキー';
 $string['lang'] = '言語';
@@ -155,7 +155,7 @@ $string['plugin_blocktype_inbox_version'] = 'ブロックタイププラグイ�
 $string['plugin_blocktype_internalmedia_version'] = 'ブロックタイププラグイン: 「埋め込みメディア」バージョン';
 $string['plugin_blocktype_myfriends_version'] = 'ブロックタイププラグイン: 「マイフレンド」バージョン';
 $string['plugin_blocktype_mygroups_version'] = 'ブロックタイププラグイン: 「マイグループ」バージョン';
-$string['plugin_blocktype_myviews_version'] = 'ブロックタイププラグイン: 「マイページ」バージョン';
+$string['plugin_blocktype_myviews_version'] = 'ブロックタイププラグイン: 「マイポートフォリオ」バージョン';
 $string['plugin_blocktype_navigation_version'] = 'ブロックタイププラグイン: 「ナビゲーション」バージョン';
 $string['plugin_blocktype_newviews_version'] = 'ブロックタイププラグイン: 「最新ページ」バージョン';
 $string['plugin_blocktype_plans_version'] = 'ブロックタイププラグイン: 「プラン」バージョン';
