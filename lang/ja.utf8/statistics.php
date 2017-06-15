@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-06-13 08:58:53 UTC
+ * @updated    2017-06-15 07:34:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -188,11 +188,11 @@ $string['view_type_grouphomepage'] = 'グループホームページ数';
 $string['view_type_portfolio'] = 'ポートフォリオページ数';
 $string['view_type_profile'] = 'プロファイルページ数';
 $string['wwwroot'] = 'WWWルート';
-$string['sitedataweekly'] = '週サイトデータ';
+$string['sitedataweekly'] = '週別サイトデータ';
 $string['group-count'] = 'グループ';
 $string['view-count'] = '閲覧';
 $string['user-count'] = 'ユーザ';
-$string['institutiondataweekly'] = 'インスティテューション週データ';
+$string['institutiondataweekly'] = 'インスティテューション週別データ';
 $string['usersbytype'] = 'タイプ別ユーザ';
 $string['staff'] = 'スタッフ';
 $string['admins'] = '管理者';
