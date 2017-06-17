@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-05-12 03:57:51 UTC
+ * @updated    2017-06-17 04:55:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -41,7 +41,7 @@ $string['stopdatecannotbeinpast1'] = '終了日には過去の日付を設定で
 $string['startdatemustbebeforestopdate'] = '開始日は終了日の前に設定してください。';
 $string['newstopdatecannotbeinpast'] = '「 %s 」へのアクセス終了日には過去の日付を設定できません。';
 $string['newstartdatemustbebeforestopdate'] = '「 %s 」へのアクセス開始日は終了日の前に設定してください。';
-$string['unrecogniseddateformat'] = '不明なデータフォーマット';
+$string['unrecogniseddateformat'] = '不明な日付フォーマット';
 $string['allowcommentsonview1'] = 'ユーザがコメントを投稿できるようにします。';
 $string['ownerformat'] = '氏名表示フォーマット';
 $string['ownerformatdescription'] = '他のユーザがあなたのページを閲覧する場合、あなたの名前をどのように表示しますか?';
@@ -58,7 +58,7 @@ $string['templategrouphomepage'] = 'グループホームページテンプレ�
 $string['templateprofile'] = 'プロファイルテンプレート';
 $string['templateportfolio'] = 'ページテンプレート';
 $string['templateportfoliotitle'] = 'タイトルなし';
-$string['templateportfoliodescription'] = 'あなたのユーザが作成するページのデフォルトのレイアウトをセットアップします。あなたはブロックを追加することもできます。あなたがデフォルトページに追加したコンテンツはユーザが作成するページすべてに表示されることに留意してください。';
+$string['templateportfoliodescription'] = 'あなたのユーザが作成するページのデフォルトレイアウトをセットアップします。あなたはブロックを追加することもできます。あなたがデフォルトページに追加したコンテンツはユーザが作成するページすべてに表示されることに留意してください。';
 $string['artefacts'] = 'アーティファクト';
 $string['groupviews'] = 'グループページ';
 $string['institutionviews'] = 'インスティテューションページ';
