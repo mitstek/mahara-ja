@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-06-17 04:55:52 UTC
+ * @updated    2017-06-18 15:01:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -70,9 +70,9 @@ $string['deletethisview'] = 'このページを削除する';
 $string['submitthisviewto1'] = 'このページを評価のために送信する ->';
 $string['submitthiscollectionto1'] = 'このコレクションを評価のために送信する ->';
 $string['forassessment1'] = '評価のために送信する';
-$string['accessfromdate3'] = '%s 以前、だれもこのページを閲覧できません。';
-$string['accessuntildate3'] = '%s 以降、だれもこのページを閲覧できません。';
-$string['accessbetweendates3'] = '%s 以前または %s 以降、だれもこのページを閲覧できません。';
+$string['accessfromdate3'] = '%s 以前、誰もこのページを閲覧できません。';
+$string['accessuntildate3'] = '%s 以降、誰もこのページを閲覧できません。';
+$string['accessbetweendates3'] = '%s 以前または %s 以降、誰もこのページを閲覧できません。';
 $string['artefactsinthisview'] = 'このページのアーティファクト';
 $string['whocanseethisview'] = '誰がこのページを閲覧することができますか';
 $string['view'] = 'ページ';
