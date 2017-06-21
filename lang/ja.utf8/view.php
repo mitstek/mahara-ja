@@ -62,7 +62,7 @@ $string['accessfromdate2'] = '%s 以前、誰もこのページを閲覧でき�
 $string['accessuntildate2'] = '%s 以降、誰もこのページを閲覧できません。';
 $string['accessbetweendates2'] = '%s 以前または %s 以降、誰もこのページを閲覧できません。';
 $string['artefactsinthisview'] = 'このページのアーティファクト';
-$string['whocanseethisview'] = '誰がこのページを閲覧することができますか';
+$string['whocanseethisview'] = '誰がこのページを閲覧できますか';
 $string['view'] = 'ページ';
 $string['vieworcollection'] = 'ページまたはコレクション';
 $string['views'] = 'ページ';
@@ -74,7 +74,7 @@ $string['viewsubmittedtogroupon'] = 'このページは<a href="%s">%s</a>に対
 $string['collectionsubmittedtogroup'] = 'このコレクションは<a href="%s">%s</a>に送信されました。';
 $string['collectionsubmittedtogroupon'] = 'このコレクションは<a href="%s">%s</a>に対して %s に送信されました。';
 $string['submittedpendingrelease'] = 'アーカイブ後のリリース保留中です。';
-$string['nobodycanseethisview2'] = 'あなたのみこのページを閲覧することができます。';
+$string['nobodycanseethisview2'] = 'あなたのみこのページを閲覧できます。';
 $string['noviews'] = 'ページはありません。';
 $string['nviews'] = '%s ページ';
 $string['youhavenoviews'] = 'あなたのページはありません。';
@@ -165,15 +165,15 @@ $string['deleteviewconfirm1'] = '本当にこのページを削除してもよ�
 $string['deleteviewconfirmbackup'] = '<a href="%sexport/" target="_blank">エクスポート</a>により、このページのバックアップの作成をご検討ください。';
 $string['deleteviewconfirmnote1'] = '<strong>注意:</strong> このページにリンクしたすべてのファイルおよび日誌を利用することはできます。<br/>しかし、このページに投稿されたすべてのフィードバックは削除されます。';
 $string['deleteviewconfirmnote2'] = 'このページはコレクション<a href="%s">「 %s 」</a>の一部です。';
-$string['editaccesspagedescription5'] = 'あなたのページおよびコレクションに対してデフォルトではあなたのみ閲覧することができます。このページではあなたの他に誰がそれらにアクセスできるか決定します。あなたのページを共有するにはグループおよび人の横にある「追加」ボタンをクリックしてください。';
+$string['editaccesspagedescription5'] = 'あなたのページおよびコレクションに対してデフォルトではあなたのみ閲覧できます。このページではあなたの他に誰がそれらにアクセスできるか決定します。あなたのページを共有するにはグループおよび人の横にある「追加」ボタンをクリックしてください。';
 $string['editaccessdescription'] = 'チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。あなたの選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
-$string['editaccessgrouppagedescription'] = 'デフォルトではページおよびコレクションを追加および編集できるグループメンバーのみグループコレクションおよびページを閲覧することができます。チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。あなたの選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
-$string['editaccessinstitutionpagedescription'] = 'デフォルトではあなたのインスティテューションコレクションおよびページをあなたのインスティテューション管理者のみ閲覧することができます。チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。あなたの選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
-$string['editaccesssitepagedescription'] = 'デフォルトではサイトコレクションおよびページをサイト管理者のみ閲覧することができます。チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。あなたの選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
+$string['editaccessgrouppagedescription'] = 'デフォルトではページおよびコレクションを追加および編集できるグループメンバーのみグループコレクションおよびページを閲覧できます。チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。あなたの選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
+$string['editaccessinstitutionpagedescription'] = 'デフォルトではあなたのインスティテューションコレクションおよびページをあなたのインスティテューション管理者のみ閲覧できます。チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。あなたの選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
+$string['editaccesssitepagedescription'] = 'デフォルトではサイトコレクションおよびページをサイト管理者のみ閲覧できます。チェックボックスで選択することにより、あなたは複数アイテムに同一設定することができます。あなたの選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editsecreturlsintable'] = '個別に設定する必要があるため、このページでは<b>シークレットURL</b>を設定できません。シークレットURLを設定するには<a href="%s">コレクションおよびページの一覧</a>に戻ってください。';
 $string['editaccessinvalidviewset'] = '無効な一連のページおよびコレクションのアクセスを編集しようとしました。';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
-$string['overridingstartstopdatesdescription'] = 'あなたは開始日および終了日をオーバーライドすることができます。アクセス権を与えたとしても、開始日以前および終了日以降に他のユーザはあなたのページを閲覧することができません。';
+$string['overridingstartstopdatesdescription'] = 'あなたは開始日および終了日をオーバーライドすることができます。アクセス権を与えたとしても、開始日以前および終了日以降に他のユーザはあなたのページを閲覧できません。';
 $string['emptylabel'] = 'このラベルのテキストを入力するにはここをクリックしてください。';
 $string['empty_block'] = 'ここに配置するアーティファクトを左側のツリーより選択してください。';
 $string['viewinformationsaved'] = 'ページ情報が正常に保存されました。';

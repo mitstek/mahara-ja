@@ -208,7 +208,7 @@ $string['registeryourmaharasite'] = 'あなたのMaharaサイトを登録する'
 $string['registeryourmaharasitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することができます。登録することにより、私たちは世界のMaharaインストール状況を作成することができます。登録することにより、この通知が取り除かれます。</p>
 <p>あなたがサイトを登録する場合、送信される情報を<strong><a href="%sadmin/registersite.php">サイト登録ページ</a></strong>でプレビューすることができます。</p>';
 $string['registeryourmaharasitedetail'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することができます。登録することにより、私たちは世界のMaharaインストール状況を作成することができます。</p>
-<p>あなたはmahara.orgに送信された情報を閲覧することができます - あなたのユーザに関する個人情報は一切送信されません。</p>
+<p>あなたはmahara.orgに送信された情報を閲覧できます - あなたのユーザに関する個人情報は一切送信されません。</p>
 <p>あなたが「更新を週に1回送信しますか?」設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
 <p>登録することにより、この通知が取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更することができます。</p>';
 $string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページで</p>サイト更新内容の週ごとの送信を有効または無効にすることができます。';
