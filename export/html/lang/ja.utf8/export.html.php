@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'スタンドアロンHTMLウェブサイト';
-$string['description'] = 'あなたのポートフォリオデータを内蔵したウェブサイトを作成します。あなたはこのファイルをインポートすることはできませんが、標準的なウェブブラウザで閲覧することができます。';
+$string['description'] = 'あなたのポートフォリオデータを内蔵したウェブサイトを作成します。あなたはこのファイルをインポートすることはできませんが、標準的なウェブブラウザで閲覧できます。';
 $string['usersportfolio'] = '%s - ポートフォリオ';
 $string['preparing'] = '%s を準備中';
 $string['exportingdatafor'] = '%s のデータをエクスポート中';
