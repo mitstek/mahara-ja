@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-06-21 05:04:26 UTC
+ * @updated    2017-06-24 16:40:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -102,6 +102,7 @@ $string['nosharedviewsyet'] = 'まだこのグループで共有されている�
 $string['viewssharedtogroupbyothers'] = 'このグループで共有されている他のメンバーのページ';
 $string['submissionstogroup'] = 'このグループへの送信';
 $string['nosubmittedviewscollectionsyet'] = 'まだこのグループに送信されたページまたはコレクションはありません。';
+$string['nosubmissionsfrom'] = 'グループに送信していないメンバー';
 $string['submittogroup'] = 'このグループにページまたはコレクションを送信する';
 $string['yoursubmissions'] = 'あなたの送信';
 $string['youhavesubmitted'] = 'あなたはこのグループに <a href="%s">%s</a> を送信しました。';
