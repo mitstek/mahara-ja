@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-06-24 16:40:22 UTC
+ * @updated    2017-06-27 01:13:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -96,17 +96,17 @@ $string['youhaventcreatedanyviewsyet'] = 'あなたはまだページを作成�
 $string['youhaveoneview'] = 'あなたには 1 件のページがあります。';
 $string['youhaveviews'] = 'あなたには %s 件のページがあります。';
 $string['viewsownedbygroup'] = 'このグループが所有しているページ';
-$string['nogroupviewsyet'] = 'まだこのグループにはページがありません。';
+$string['nogroupviewsyet'] = 'このグループにはページはまだありません。';
 $string['viewssharedtogroup'] = 'このグループで共有されているページ';
-$string['nosharedviewsyet'] = 'まだこのグループで共有されているページはありません。';
+$string['nosharedviewsyet'] = 'このグループで共有されているページはまだありません。';
 $string['viewssharedtogroupbyothers'] = 'このグループで共有されている他のメンバーのページ';
 $string['submissionstogroup'] = 'このグループへの送信';
-$string['nosubmittedviewscollectionsyet'] = 'まだこのグループに送信されたページまたはコレクションはありません。';
+$string['nosubmittedviewscollectionsyet'] = 'このグループに送信されたページまたはコレクションはまだありません。';
 $string['nosubmissionsfrom'] = 'グループに送信していないメンバー';
 $string['submittogroup'] = 'このグループにページまたはコレクションを送信する';
 $string['yoursubmissions'] = 'あなたの送信';
 $string['youhavesubmitted'] = 'あなたはこのグループに <a href="%s">%s</a> を送信しました。';
-$string['youhavesubmittedon'] = 'あなたはこのグループに対して <a href="%s">%s</a> を %s　%s に送信しました。';
+$string['youhavesubmittedon'] = 'あなたはこのグループに <a href="%s">%s</a> を %s に送信しました。';
 $string['listedinpages'] = 'ページ内一覧';
 $string['public'] = 'パブリック';
 $string['registeredusers'] = '登録済みユーザ';
@@ -131,10 +131,10 @@ $string['addusertogroup'] = 'このユーザをグループに追加する';
 $string['addedtowatchlist'] = 'このページがあなたのウォッチリストに追加されました。';
 $string['attachment'] = '添付ファイル';
 $string['removedfromwatchlist'] = 'このページがあなたのウォッチリストから削除されました。';
-$string['addtowatchlist'] = 'ウォッチリストにページを追加する';
-$string['removefromwatchlist'] = 'ウォッチリストからページを削除する';
-$string['addtowatchlistartefact'] = 'ウォッチリストにページ「 %s 」を追加する';
-$string['removefromwatchlistartefact'] = 'ウォッチリストからページ「 %s 」を削除する';
+$string['addtowatchlist'] = 'ページをウォッチリストに追加する';
+$string['removefromwatchlist'] = 'ページをウォッチリストから削除する';
+$string['addtowatchlistartefact'] = 'ページ「 %s 」をウォッチリストに追加する';
+$string['removefromwatchlistartefact'] = 'ページ「 %s 」をウォッチリストから削除する';
 $string['alreadyinwatchlist'] = 'このページはすでにあなたのウォッチリストに登録されています。';
 $string['attachedfileaddedtofolder'] = '添付ファイル「 %s 」があなたの「 %s 」フォルダに追加されました。';
 $string['date'] = '日時';
