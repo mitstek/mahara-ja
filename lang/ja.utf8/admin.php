@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-06-07 16:21:30 UTC
+ * @updated    2017-06-29 07:03:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -841,9 +841,13 @@ $string['licensedefault'] = 'デフォルトライセンス';
 $string['licensedefaultdescription'] = 'インスティテューションメンバーにより作成またはアップロードされたコンテンツのデフォルトのライセンスです。ユーザはアカウント設定ページおよび個別のアイテムでこの設定をオーバーライドすることができます。';
 $string['licensedefaultmandatory'] = 'ユーザがライセンスの選択を要求される場合、あなたはここでデフォルトライセンスを選択する必要があります。あなたがデフォルトライセンスを選択したくない場合、ユーザにライセンスを要求しないでください。';
 $string['Logo'] = 'ロゴ';
-$string['logodescription'] = 'あなたのインスティテューションメンバーに標準的なヘッダロゴの代わりに表示されるイメージをここでアップロードすることができます。最良の結果のため、このイメージをあなたのインスティテューションのサイトロゴと同じ大きさにしてください。それぞれのテーマは異なるヘッダの高さを持つことができます。厳密なサイズを指定することはできません。';
+$string['Logosmall'] = 'スモールロゴ';
+$string['logodescription1'] = 'あなたのテーマのロゴとしてインスティテューションメンバーに表示するイメージをここでアップロードすることができます。ロゴは利用可能なスペースに合わせてリサイズされます。';
+$string['logoxsdescription'] = 'あなたは大きなスペースがない場合にスモールデバイスで使用される2番目のロゴをアップロードすることができます。最良の結果のため、ロゴは正方形にしてください。';
 $string['deletelogo'] = 'ロゴを削除する';
-$string['deletelogodescription2'] = 'あなたのインスティテューションテーマのヘッダロゴを標準ヘッダロゴに戻します。';
+$string['deletelogoxs'] = 'スモールロゴを削除する';
+$string['deletelogodescription2'] = 'あなたのインスティテューションテーマの標準的なヘッダロゴに戻します。';
+$string['deletelogoxsdescription2'] = 'あなたのインスティテューションテーマの標準的なヘッダスモールロゴに戻します。';
 $string['customtheme'] = 'カスタムテーマ設定';
 $string['customtheme.background'] = 'ヘッダ背景色';
 $string['customtheme.backgroundfg'] = 'テキスト背景色';
