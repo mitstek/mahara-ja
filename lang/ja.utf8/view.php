@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-06-27 01:13:11 UTC
+ * @updated    2017-06-30 15:11:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,14 +13,16 @@
 
 defined('INTERNAL') || die();
 
+$string['basics'] = '基本';
 $string['createview'] = 'ページを作成する';
 $string['edittitle'] = 'タイトルを編集する';
 $string['edittitleanddescription'] = 'タイトルおよび説明を編集する';
-$string['editcontent'] = 'コンテンツを編集する';
+$string['editcontent1'] = '編集';
 $string['editcontentandlayout'] = 'コンテンツおよびレイアウトを編集する';
 $string['editlayout'] = 'レイアウトを編集する';
 $string['editaccess'] = 'アクセスを編集する';
 $string['editaccessfor'] = 'アクセスを編集する (ID %s)';
+$string['layout'] = 'レイアウト';
 $string['manageaccess'] = 'アクセスを管理する';
 $string['manageaccessfor'] = '「 %s 」のアクセスを管理する';
 $string['managekeys'] = 'シークレットURLを管理する';
@@ -34,9 +36,12 @@ $string['viewurl'] = 'ページURL';
 $string['viewurldescription'] = 'あなたのページの読みやすいURLです。このフィールドの長さは半角3-100文字にしてください。';
 $string['userviewurltaken'] = 'このURLはすでに取得されています。別のURLを選択してください。';
 $string['description'] = 'ページ説明';
+$string['settings'] = '設定';
 $string['startdate'] = 'アクセス開始日時';
 $string['stopdate'] = 'アクセス終了日時';
+$string['skin'] = 'スキン';
 $string['overrideconflict'] = '1つまたはそれ以上のパーミッションが日付のオーバーライドと衝突しています。これらのアクセスパーミッションは日付のオーバーライド外では有効ではありません。';
+$string['pagepartofcollection'] = 'あなたのページはコレクション「 %s 」の一部です。あなたがこのページに設定したパーミッションはコレクション全体に適用されます。';
 $string['stopdatecannotbeinpast1'] = '終了日には過去の日付を設定できません。';
 $string['startdatemustbebeforestopdate'] = '開始日は終了日の前に設定してください。';
 $string['newstopdatecannotbeinpast'] = '「 %s 」へのアクセス終了日には過去の日付を設定できません。';
@@ -160,8 +165,8 @@ $string['defaultaccesslistmessage'] = 'あなた以外、あなたの選択さ�
 $string['sharewithmygroups'] = 'マイグループと共有する';
 $string['sharewithmyinstitutions'] = 'マイインスティテューションと共有する';
 $string['sharewithusers'] = 'ユーザと共有する';
-$string['shareview'] = 'ページを共有する';
-$string['otherusersandgroups'] = '他のユーザおよびグループと共有する';
+$string['shareview1'] = '共有';
+$string['sharedwithothers'] = '他の人と共有する';
 $string['moreoptions'] = '高度なオプション';
 $string['moreinstitutions'] = 'さらにインスティテューションを表示する';
 $string['allviews'] = 'すべてのページ';
@@ -275,7 +280,6 @@ $string['advancedoptions'] = '高度なオプション';
 $string['viewcolumnspagedescription'] = '最初にあなたのページのカラム数を選択してください。あなたは次のステップでカラム幅を変更することができます。';
 $string['viewlayoutpagedescription'] = 'あなたのページをどのように配置するか選択してください。';
 $string['changeviewlayout'] = 'マイページのカラムレイアウトを変更する';
-$string['viewlayoutchanged'] = 'ページレイアウトが変更されました。';
 $string['numberofcolumns'] = 'カラム数';
 $string['changecolumnlayoutfailed'] = 'カラムレイアウトを変更できませんでした。同時に他のユーザがレイアウトを編集したようです。後で再度お試しください。';
 $string['changerowlayoutfailed'] = '行のレイアウトを変更できませんでした。同時に他のユーザがレイアウトを編集したようです。後で再度お試しください。';
