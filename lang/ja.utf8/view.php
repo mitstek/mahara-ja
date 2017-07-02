@@ -74,7 +74,7 @@ $string['viewsubmittedtogroupon'] = 'このページは<a href="%s">%s</a>に対
 $string['nobodycanseethisview2'] = 'あなたのみ、このページを閲覧できます。';
 $string['noviews'] = 'ページはありません。';
 $string['youhavenoviews'] = 'あなたのページはありません。';
-$string['youhaventcreatedanyviewsyet'] = 'あなたはまだページを作成していません。';
+$string['youhaventcreatedanyviewsyet'] = 'あなたはページをまだ作成していません。';
 $string['youhaveoneview'] = 'あなたには 1 件のページがあります。';
 $string['youhaveviews'] = 'あなたには %s 件のページがあります。';
 $string['viewsownedbygroup'] = 'このグループが所有しているページ';
@@ -118,7 +118,7 @@ $string['reportsent'] = 'あなたの報告が送信されました。';
 $string['viewobjectionableunmark'] = 'ページ「 %s 」またはその中に好ましくないコンテンツが含まれていると報告されています。好ましくないコンテンツが含まれていない場合、あなたはボタンをクリックしてこの注意を取り除いた上で他の管理者に知らせることができます。';
 $string['notobjectionable'] = '好ましい';
 $string['viewunobjectionablesubject'] = 'ページ %s が %s によって好ましくないものではないとマークされました。';
-$string['viewunobjectionablebody'] = '% (%s) が %s によって確認され、もはや好ましくないコンテンツは含まれていないとマークされました。';
+$string['viewunobjectionablebody'] = '% (%s) が %s によって確認され好ましくないコンテンツは含まれていないとマークされました。';
 $string['updatewatchlistfailed'] = 'ウォッチリストの更新に失敗しました。';
 $string['watchlistupdated'] = 'あなたのウォッチリストが更新されました。';
 $string['viewvisitcount'] = 'アクセス数: %s  記録: %s - %s';
