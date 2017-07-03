@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-04-21 06:16:58 UTC
+ * @updated    2017-07-03 01:01:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -94,7 +94,7 @@ $string['existingresumefieldvalues'] = '既存値';
 $string['attachfile'] = '添付ファイル';
 $string['Attachments'] = '添付';
 $string['attachmentdesc'] = '%s の添付';
-$string['nodescription'] = '(説明なし)';
+$string['nodescription'] = '(記述なし)';
 $string['cannotfindcreateartefact'] = 'アーティファクトが見つからないまたは作成できません。';
 $string['duplicateattachment'] = 'すでにこのセクションの別のエントリにファイル「 %s 」が使用されています。あなたは同一ファイルを2度使用することはできません。';
 $string['duplicateattachments'] = 'すでにこのセクションの別のエントリにファイル「 %s 」が使用されています。あなたは同一ファイルを2度使用することはできません。';
