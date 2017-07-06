@@ -146,8 +146,8 @@ $string['addaccessinstitution'] = 'インスティテューション「 %s 」�
 $string['addaccessgroup'] = 'グループ「 %s 」へのアクセスを追加する';
 $string['submitconfirm'] = '評価のために「 %s 」を「 %s 」に送信した場合、チューターが評価を終えるまで、あなたはコンテンツを編集することができません。本当に送信してもよろしいですか?';
 $string['collectionsubmitted'] = 'コレクションが送信されました。';
-$string['collectionviewsalreadysubmitted'] = 'このコレクションのページがすでに送信されています: 「 %s 」
-コレクションからリリースまたは削除されるまで、あなたはコレクションを送信することはできません。';
+$string['collectionviewsalreadysubmitted'] = 'このコレクションのページはすでに送信されています: 「 %s 」
+コレクションからリリースまたは削除されるまであなたはコレクションを送信することはできません。';
 $string['viewalreadysubmitted'] = 'このページはすでに別の課題またはグループに送信されています。';
 $string['collectionalreadysubmitted'] = 'このコレクションはすでに別の課題またはグループに送信されています。';
 $string['collectionsubmissionexceptiontitle'] = 'コレクションを送信できませんでした。';
