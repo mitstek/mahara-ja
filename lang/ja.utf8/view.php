@@ -80,7 +80,7 @@ $string['viewssharedtogroupbyothers'] = 'このグループで共有されてい
 $string['submissionstogroup'] = 'このグループへの送信';
 $string['submittogroup'] = 'このグループにページまたはコレクションを送信する';
 $string['youhavesubmitted'] = 'あなたはこのグループに <a href="%s">%s</a> を送信しました。';
-$string['youhavesubmittedon'] = 'あなたはこのグループに対して <a href="%s">%s</a> を %s　%s に送信しました。';
+$string['youhavesubmittedon'] = 'あなたはこのグループに対して <a href="%s">%s</a> を %s %s に送信しました。';
 $string['listedinpages'] = 'ページ内一覧';
 $string['public'] = 'パブリック';
 $string['loggedin'] = 'ログインユーザ';
