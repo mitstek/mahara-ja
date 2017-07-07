@@ -344,10 +344,10 @@ $string['uploadcsverrorinvalidfieldname'] = 'フィールド名「 %s 」が無�
 $string['uploadcsverrorrequiredfieldnotspecified'] = '必須入力フィールド「 %s 」がフォーマット行で指定されていません。';
 $string['uploadcsverrornorecords'] = 'ファイルにレコードが含まれていないようです (ヘッダに問題はありません)。';
 $string['uploadcsverrorunspecifiedproblem'] = '何らかの理由により、あなたのCSVファイルのレコードを追加することができませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href="https://eduforge.org/tracker/?func=add&group_id=176&atid=739">バクレポートを作成してください</a> (パスワードは空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
-$string['uploadcsverrorinvalidemail'] = 'あなたのファイルの　%s 行目にエラーがあります: このユーザのメールアドレスは正しい形式ではありません。';
-$string['uploadcsverrorincorrectnumberoffields'] = 'あなたのファイルの　%s 行目にエラーがあります: この行には正しい数のフィールドが含まれていません。';
-$string['uploadcsverrorinvalidpassword'] = 'あなたのファイルの　%s 行目にエラーがあります: このユーザのパスワードは正しい形式ではありません。';
-$string['uploadcsverrorinvalidusername'] = 'あなたのファイルの　%s 行目にエラーがあります: このユーザのユーザ名は正しい形式ではありません。';
+$string['uploadcsverrorinvalidemail'] = 'あなたのファイルの %s 行目にエラーがあります: このユーザのメールアドレスは正しい形式ではありません。';
+$string['uploadcsverrorincorrectnumberoffields'] = 'あなたのファイルの %s 行目にエラーがあります: この行には正しい数のフィールドが含まれていません。';
+$string['uploadcsverrorinvalidpassword'] = 'あなたのファイルの %s 行目にエラーがあります: このユーザのパスワードは正しい形式ではありません。';
+$string['uploadcsverrorinvalidusername'] = 'あなたのファイルの %s 行目にエラーがあります: このユーザのユーザ名は正しい形式ではありません。';
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には必須の「 %s 」フィールドが含まれていません。';
 $string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」はすでに登録されています。';
 $string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」はすでに他のユーザにより取得されています。';

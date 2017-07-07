@@ -82,7 +82,7 @@ $string['viewssharedtogroupbyothers'] = 'このグループで共有されてい
 $string['viewssubmittedtogroup'] = 'このグループに送信されたビュー';
 $string['submitaviewtogroup'] = 'このグループにビューを送信する';
 $string['youhavesubmitted'] = 'あなたはこのグループに <a href="%s">%s</a> を送信しました。';
-$string['youhavesubmittedon'] = 'あなたはこのグループに対して <a href="%s">%s</a> を %s　%s に送信しました。';
+$string['youhavesubmittedon'] = 'あなたはこのグループに対して <a href="%s">%s</a> を %s %s に送信しました。';
 $string['public'] = 'パブリック';
 $string['loggedin'] = 'ログインユーザ';
 $string['friends'] = 'フレンド';
