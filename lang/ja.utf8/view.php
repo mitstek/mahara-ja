@@ -149,7 +149,7 @@ $string['cantdeleteview'] = 'あなたはこのページを削除できません
 $string['deletespecifiedview'] = 'ページ「 %s 」を削除する';
 $string['deleteviewconfirm1'] = '本当にこのページを削除してもよろしいですか? 元に戻すことはできません。';
 $string['deleteviewconfirmbackup'] = '<a href="%sexport/" target="_blank">エクスポート</a>により、このページのバックアップの作成をご検討ください。';
-$string['deleteviewconfirmnote1'] = '<strong>注意:</strong> このページにリンクしたすべてのファイルおよび日誌を利用することはできます。<br/>しかし、このページに投稿されたすべてのフィードバックは削除されます。';
+$string['deleteviewconfirmnote1'] = '<strong>注意:</strong> このページにリンクしたすべてのファイルおよび日誌を利用することはできます。<br />しかし、このページに投稿されたすべてのフィードバックは削除されます。';
 $string['editaccesspagedescription3'] = 'デフォルトではあなたのページをあなたのみ閲覧できます。このページにアクセスルールを追加することであなたは他のユーザとページを共有することができます。アクセスルールを追加した後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editsecreturlsintable'] = '個別に設定する必要があるため、このページでは<b>シークレットURL</b>を設定できません。シークレットURLを設定するには<a href="%sview/share.php">コレクションおよびページの一覧</a>に戻ってください。';
 $string['editaccessinvalidviewset'] = '無効な一連のページおよびコレクションのアクセスを編集しようとしました。';
