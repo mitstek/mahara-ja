@@ -92,7 +92,7 @@ $string['nosubmittedviewscollectionsyet'] = 'このグループに送信され�
 $string['submittogroup'] = 'このグループにページまたはコレクションを送信する';
 $string['yoursubmissions'] = 'あなたの送信';
 $string['youhavesubmitted'] = 'あなたはこのグループに <a href="%s">%s</a> を送信しました。';
-$string['youhavesubmittedon'] = 'あなたはこのグループに対して <a href="%s">%s</a> を %s　%s に送信しました。';
+$string['youhavesubmittedon'] = 'あなたはこのグループに対して <a href="%s">%s</a> を %s %s に送信しました。';
 $string['listedinpages'] = 'ページ内一覧';
 $string['public'] = 'パブリック';
 $string['registeredusers'] = '登録済みユーザ';
