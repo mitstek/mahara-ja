@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-20 15:51:34 UTC
+ * @updated    2017-07-07 04:21:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -76,14 +76,14 @@ $string['registrationconfirmdescription'] = 'インスティテューション�
 $string['registrationdeniedemailsubject'] = '%s への登録却下';
 $string['registrationdeniedmessage'] = '%s さん、こんにちは。
 
-私たちは　%s におけるインスティテューションへのあなたの登録申請を受領しましたが、あなたにアクセス権を授与しないことに決定しました。
+私たちは %s におけるインスティテューションへのあなたの登録申請を受領しましたが、あなたにアクセス権を授与しないことに決定しました。
 
 あなたがこの決定を不適切だと考える場合、Eメールでご連絡ください。
 
 %s';
 $string['registrationdeniedmessagereason'] = '%s さん、こんにちは。
 
-私たちは　%s におけるインスティテューションへのあなたの登録申請を受領しましたが、以下の理由であなたにアクセス権を授与しないことに決定しました:
+私たちは %s におけるインスティテューションへのあなたの登録申請を受領しましたが、以下の理由であなたにアクセス権を授与しないことに決定しました:
 
 %s
 
@@ -93,7 +93,7 @@ $string['registrationdeniedmessagereason'] = '%s さん、こんにちは。
 $string['registeredokawaitingemail2'] = 'あなたの登録申請が正常に送信されました。インスティテューション管理者に通知されました。申請が処理され次第、あなた宛にEメールが送信されます。';
 $string['registrationreason'] = '登録理由';
 $string['registrationreasondesc1'] = 'あなたが選択したインスティテューションへの登録申請理由、および管理者があなたの申請を処理することに関して有益であると思われる詳細を記述してください。';
-$string['pendingregistrationadminemailsubject'] = 'インスティテューション「 %s　」( %s )への新しいユーザ登録';
+$string['pendingregistrationadminemailsubject'] = 'インスティテューション「 %s 」( %s )への新しいユーザ登録';
 $string['pendingregistrationadminemailtext'] = '%s さん、こんにちは。
 
 新しいユーザがインスティテューション「 %s 」への参加をリクエストしました。
