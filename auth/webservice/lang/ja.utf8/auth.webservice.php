@@ -304,13 +304,13 @@ $string['servicecomponentnote'] = 'このサービスは次のコンポーネン
 $string['simpleauthlog'] = '単純認証';
 $string['step'] = 'ステップ';
 $string['testclientdescription'] = '* ウェブサービステストクライアントは関数を<strong>実際/strong>に<strong>実行</strong>します。あなたが分からない関数はテストしないでください。
-<br/>
+<br />
 * まだ既存のウェブサービス関数すべてはテストクライアントに実装されていません。
-<br/>
+<br />
 * ユーザが関数にアクセスできないことを確認するにはあなたが許可していない関数をテストすることができます。
-<br/>
+<br />
 * クリアなエラーメッセージを表示するには{$a->atag} でデバッギングを <strong>{$a->mode}</strong> に設定してください。
-<br/>
+<br />
 * {$a->amfatag}にアクセスしてください。';
 $string['testwithtestclient'] = 'サービスをテストする';
 $string['tokenauthlog'] = 'トークン認証';
