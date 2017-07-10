@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-05-30 03:53:23 UTC
+ * @updated    2017-07-10 10:29:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -31,6 +31,8 @@ $string['managespecific'] = '「 %s 」を管理する';
 $string['connectspecific'] = '「 %s 」に接続する';
 $string['editing'] = '編集';
 $string['settingsspecific'] = '「 %s 」を設定する';
+$string['enabledspecific'] = '「 %s 」有効化済み';
+$string['disabledspecific'] = '「 %s 」無効化済み';
 $string['move'] = '移動';
 $string['save'] = '保存';
 $string['submit'] = '送信';
