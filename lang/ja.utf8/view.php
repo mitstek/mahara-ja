@@ -169,13 +169,13 @@ $string['cantsubmitemptycollection'] = 'このコレクションにはページ�
 $string['viewsubmissionexceptiontitle'] = 'ページを送信できませんでした。';
 $string['viewsubmissionexceptionmessage'] = '以下の理由からこのページを送信することはできません:';
 $string['submitviewtogroup'] = '評価のため「 %s 」を「 %s 」に送信する';
-$string['cantsubmitviewtogroup'] = 'あなたは評価を目的として、このページをこのグループに送信することはできません。';
+$string['cantsubmitviewtogroup'] = 'あなたは評価を目的としてこのページをこのグループに送信することはできません。';
 $string['cantsubmitcollectiontogroup'] = 'あなたはこのコレクションを送信できません。';
 $string['cantsubmittogroup'] = 'あなたはこのグループに送信できません。';
 $string['cantdeleteview'] = 'あなたはこのページを削除できません。';
 $string['deletespecifiedview'] = 'ページ「 %s 」を削除する';
 $string['deleteviewconfirm1'] = '本当にこのページを削除してもよろしいですか? 元に戻すことはできません。';
-$string['deleteviewconfirmbackup'] = '<a href="%sexport/">エクスポート</a>により、このページのバックアップの作成をご検討ください。';
+$string['deleteviewconfirmbackup'] = '<a href="%sexport/">エクスポート</a>によるこのページのバックアップ作成をご検討ください。';
 $string['deleteviewconfirmnote3'] = '<strong>注意:</strong> あなたがこのページでリンクしたファイルおよび日誌エントリすべてはまだ利用できます。<br />しかし、このページに投稿されたコメントはすべて削除されます。';
 $string['deleteviewconfirmnote2'] = 'このページはコレクション<a href="%s">「 %s 」</a>の一部です。';
 $string['editaccesspagedescription6'] = 'デフォルトではあなたのページおよびコレクションをあなたのみ閲覧できます。このページではあなたに加えて誰がアクセスできるのか決定します。';
