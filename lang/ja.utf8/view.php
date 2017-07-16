@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-07-13 09:30:44 UTC
+ * @updated    2017-07-16 06:20:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -195,10 +195,10 @@ $string['deleteviewconfirmbackup'] = '<a href="%sexport/">エクスポート</a>
 $string['deleteviewconfirmnote3'] = '<strong>注意:</strong> あなたがこのページでリンクしたファイルおよび日誌エントリすべてはまだ利用できます。<br />しかし、このページに投稿されたコメントはすべて削除されます。';
 $string['deleteviewconfirmnote2'] = 'このページはコレクション<a href="%s">「 %s 」</a>の一部です。';
 $string['editaccesspagedescription6'] = 'デフォルトではあなたのページおよびコレクションをあなたのみ閲覧できます。このページではあなたの他に誰がアクセスできるか決定します。';
-$string['editaccessdescription'] = 'あなたは複数アイテムをチェックボックスで選択することにより設定を同じにすることができます。あなたの選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
-$string['editaccessgrouppagedescription'] = 'デフォルトではページおよびコレクションを追加および編集できるグループメンバーのみグループコレクションおよびページを閲覧できます。あなたは複数アイテムをチェックボックスで選択することにより設定を同じにすることができます。あなたの選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
-$string['editaccessinstitutionpagedescription'] = 'デフォルトではあなたのインスティテューションコレクションおよびページをあなたのインスティテューション管理者のみ閲覧できます。あなたは複数アイテムをチェックボックスで選択することにより設定を同じにすることができます。あなたの選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
-$string['editaccesssitepagedescription'] = 'デフォルトではサイトコレクションおよびページをサイト管理者のみ閲覧できます。あなたは複数アイテムをチェックボックスで選択することにより設定を同じにすることができます。あなたの選択完了後、ページ下部の「保存」ボタンをクリックしてください。';
+$string['editaccessdescription'] = 'あなたは複数アイテムをチェックボックスで選択して同一設定にすることができます。あなたの選択完了後、続けるにはスクロールダウンして「保存」ボタンをクリックしてください。';
+$string['editaccessgrouppagedescription'] = 'デフォルトではページおよびコレクションを追加および編集できるグループメンバーのみグループコレクションおよびページを閲覧できます。あなたは複数アイテムをチェックボックスで選択して同一設定にすることができます。あなたの選択完了後、続けるにはスクロールダウンして「保存」ボタンをクリックしてください。';
+$string['editaccessinstitutionpagedescription'] = 'デフォルトではあなたのインスティテューションコレクションおよびページをあなたのインスティテューション管理者のみ閲覧できます。あなたは複数アイテムをチェックボックスで選択して同一設定にすることができます。あなたの選択完了後、続けるにはスクロールダウンして「保存」ボタンをクリックしてください。';
+$string['editaccesssitepagedescription'] = 'デフォルトではサイトコレクションおよびページをサイト管理者のみ閲覧できます。あなたは複数アイテムをチェックボックスで選択して同一設定にすることができます。あなたの選択完了後、続けるにはスクロールダウンして「保存」ボタンをクリックしてください。';
 $string['editsecreturlsintable'] = '個別に設定する必要があるため、このページでは<b>シークレットURL</b>を設定できません。シークレットURLを設定するには<a href="%s">コレクションおよびページの一覧</a>に戻ってください。';
 $string['editaccessinvalidviewset'] = '無効な一連のページおよびコレクションのアクセスを編集しようとしました。';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
