@@ -110,10 +110,10 @@ $string['pluginenabled'] = 'プラグインが表示にされました。';
 $string['plugindisabled'] = 'プラグインが非表示にされました。';
 $string['plugindisableduser'] = '%s プラグインは無効にされています。この機能を有効にするにはあなたの管理者にご相談ください。';
 $string['pluginnotenabled'] = 'プラグインは非表示にされています。あなたはまず %s プラグインを表示にする必要があります。';
-$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるため、URLを知っていてアクセス権のあるユーザはアクセスすることができます。機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることによりプラグインを表示または非表示にすることができます。';
+$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるためURLを知っていてアクセス権のあるユーザはアクセスすることができます。機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることによりプラグインを表示または非表示にすることができます。';
 $string['pluginexplainartefactblocktypes'] = '「アーティファクト」タイプのプラグインを非表示にした場合、Maharaは同時に関連するブロックの表示を停止します。';
 $string['pluginbrokenanddisabledtitle1'] = '不完全なプラグイン「 %s 」が無効にされました。';
-$string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインのロードを試みましたがロードすることができませんでした。さらなるエラーを避けるため、このプラグインは無効にされました。
+$string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインのロードを試みましたがロードすることができませんでした。さらなるエラーを避けるためこのプラグインは無効にされました。
 
 プラグインにより生成されたエラーメッセージは以下のとおりです:
 ----------------------------------------------------------------------------
@@ -620,8 +620,8 @@ $string['siteinformation'] = 'サイト情報';
 $string['institutioninformation'] = 'インスティテューション情報';
 $string['unreadmessages'] = '未読メッセージ';
 $string['unreadmessage'] = '未読メッセージ';
-$string['siteclosed'] = 'データベースアップグレードのため、サイトは一時的に閉鎖されています。サイト管理者はログインすることができます。';
-$string['siteclosedlogindisabled'] = 'データベースアップグレードのため、サイトは一時的に閉鎖されています。<a href="%s">今からアップグレードを実行します。</a>';
+$string['siteclosed'] = 'データベースアップグレードのためサイトは一時的に閉鎖されています。サイト管理者はログインすることができます。';
+$string['siteclosedlogindisabled'] = 'データベースアップグレードのためサイトは一時的に閉鎖されています。<a href="%s">今からアップグレードを実行します。</a>';
 $string['termsandconditions'] = '利用条件';
 $string['privacystatement'] = 'プライバシー保護方針';
 $string['about'] = 'About';
@@ -672,7 +672,7 @@ $string['spamtrap'] = 'スパムトラップ';
 $string['formerror'] = 'あなたの送信の処理中にエラーが発生しました。再度お試しください。';
 $string['formerroremail'] = 'あなたの問題が続いている場合、%s より私たちにご連絡ください。';
 $string['blacklisteddomaininurl'] = 'このフィールドにはブラックリストに登録されたドメイン %s のURLが含まれています。';
-$string['newuserscantpostlinksorimages1'] = '申し訳ございません、匿名または新しく登録されたユーザによるリンクの投稿は許可されていません。リンクまたはURLを取り除くため、あなたの投稿を書き換えて再度お試しください。';
+$string['newuserscantpostlinksorimages1'] = '申し訳ございません、匿名または新しく登録されたユーザによるリンクの投稿は許可されていません。リンクまたはURLを取り除くためあなたの投稿を書き換えて再度お試しください。';
 $string['notinstallable'] = 'インストール不可';
 $string['installedplugins'] = 'インストール済みプラグイン';
 $string['notinstalledplugins'] = '<span class="error">未インストールプラグイン</span>';
@@ -715,7 +715,7 @@ $string['artefactnotfound'] = 'ID %s のアーティファクトは見つかり�
 $string['artefactnotrendered'] = 'アーティファクトが提出されていません。';
 $string['nodeletepermission'] = 'あなたにはこのアーティファクトを削除するパーミッションがありません。';
 $string['noeditpermission'] = 'あなたにはこのアーティファクトを編集するパーミッションがありません。';
-$string['cantbedeleted'] = 'このアーティファクトまたはサブアーティファクトが送信済みページにあるため、このアーティファクトを削除することはできません。';
+$string['cantbedeleted'] = 'このアーティファクトまたはサブアーティファクトが送信済みページにあるためこのアーティファクトを削除することはできません。';
 $string['Permissions'] = 'パーミッション';
 $string['republish'] = '公開';
 $string['view'] = 'ページ';
@@ -1107,7 +1107,7 @@ $string['maximumSelected'] = '最大アイテム数が選択されました。';
 $string['noResults'] = '該当データはありません。';
 $string['searching'] = '検索中 ...';
 $string['styleguide_title'] = 'スタイルガイド';
-$string['styleguide_description'] = 'このスタイルガイドではMaharaで使用される異なるタイプのコンポーネントすべてに関して説明します。これらは1箇所に入れられるため、あなたの新しいテーマまたはプラグインの開発時にスタイリングされているかどうか簡単に確認することができます。あなたのサイトに異なるテーマを適用して個々のコンポーネントがどのように表示されるか確認します。';
+$string['styleguide_description'] = 'このスタイルガイドではMaharaで使用される異なるタイプのコンポーネントすべてに関して説明します。これらは1箇所に入れられるためあなたの新しいテーマまたはプラグインの開発時にスタイリングされているかどうか簡単に確認することができます。あなたのサイトに異なるテーマを適用して個々のコンポーネントがどのように表示されるか確認します。';
 $string['cli_incorrect_value'] = '値が正しくありません。再度お試しください。';
 $string['scroll_to_top'] = 'トップに戻る';
 $string['version.'] = 'v.';

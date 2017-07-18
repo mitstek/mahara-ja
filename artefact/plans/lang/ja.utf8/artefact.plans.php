@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['pluginname'] = 'プラン';
-$string['canteditdontownplan'] = 'あなたの所有ではないため、このプランを編集することはできません。';
+$string['canteditdontownplan'] = 'あなたの所有ではないためこのプランを編集することはできません。';
 $string['description'] = '説明';
 $string['deleteplanconfirm'] = '本当にこのプランを削除してもよろしいですか? このプランを削除することでプランの中に含まれているすべてのタスクも削除されます。';
 $string['deleteplan'] = 'プランを削除する';
@@ -40,7 +40,7 @@ $string['saveplan'] = 'プランを保存する';
 $string['title'] = 'タイトル';
 $string['titledesc'] = 'それぞれのプランブロックタイプ内タスクに表示するためにタイトルが使用されます。';
 $string['alltasks'] = 'すべてのタスク';
-$string['canteditdontowntask'] = 'あなたの所有ではないため、このタスクを編集することはできません。';
+$string['canteditdontowntask'] = 'あなたの所有ではないためこのタスクを編集することはできません。';
 $string['completed'] = '完了';
 $string['incomplete'] = '未完了';
 $string['overdue'] = '期限超過';
