@@ -20,7 +20,7 @@ $string['importfailed'] = '<p><strong>申し訳ございません - あなたの
 
 <p>あなたが有効なLeap2Aファイルをアップロードしていない、またはこのバージョンのMaharaではあなたのLeap2Aファイルのバージョンをサポートされていないことが考えられます。仮にLeap2Aが有効であったとしても、インポートを失敗させるバグがMaharaに含まれている可能性もあります。</p>
 
-<p>戻って再度お試しください。問題が持続する場合、サポートを求めるため、<a href="https://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。あなたのファイルのコピーを準備してください。</p>';
+<p>戻って再度お試しください。問題が持続する場合、サポートを求めるため<a href="https://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。あなたのファイルのコピーを準備してください。</p>';
 $string['importwitherrors'] = 'あなたのポートフォリオはインポートされましたがエラーを含みます。';
 $string['importartefactplugindata'] = 'アーティファクトプラグインデータのインポート';
 $string['importartefacts'] = 'アーティファクトのインポート';
@@ -32,8 +32,8 @@ $string['importportfoliodescription'] = 'Leap2Aファイルがある場合、こ
 $string['importyourportfolio'] = 'あなたのポートフォリオをインポートする';
 $string['howimportyourportfolio'] = 'あなたのポートフォリオアイテムのインポート方法を選択する';
 $string['howimportportfoliodescription'] = 'このステップではあなたの既存のコンテンツおよびインポートコンテンツをどのように統合するか決定します。';
-$string['noimportpluginsenabled'] = 'サイト管理者はインポートプラグインを有効にしていません。そのため、あなたは使用することができません。';
-$string['noleapimportpluginsenabled'] = 'サイト管理者はLeap2Aインポートプラグインを有効にしていません。そのため、あなたは使用することができません。';
+$string['noimportpluginsenabled'] = 'サイト管理者はインポートプラグインを有効にしていません。そのためあなたは使用することができません。';
+$string['noleapimportpluginsenabled'] = 'サイト管理者はLeap2Aインポートプラグインを有効にしていません。そのためあなたは使用することができません。';
 $string['entry'] = 'エントリ';
 $string['entries'] = 'エントリ';
 $string['importentry'] = 'エントリをインポートする';
