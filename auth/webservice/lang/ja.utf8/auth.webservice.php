@@ -43,7 +43,7 @@ $string['registeredemailmessagehtml'] = '<p>%s さん</p>
 <pre>--
 %s チーム</pre>';
 $string['registeredok'] = '<p>あなたの登録が正常に完了しました。アカウントを有効にするためのインストラクションに関してあなたのメールアカウントを確認してください。</p>';
-$string['registrationnosuchkey'] = '申し訳ございません、このキーでの登録はできないようです。恐らく、登録を完了するため、あなたが24時間以上待機していたと思われます。そうでない場合、これは私たちに責任があります';
+$string['registrationnosuchkey'] = '申し訳ございません、このキーでの登録はできないようです。恐らく、登録を完了するためあなたが24時間以上待機していたと思われます。そうでない場合、これは私たちに責任があります';
 $string['registrationunsuccessful'] = '申し訳ございません、あなたの登録は正常に完了しませんでした。これは私たちに責任があります。再度お試しください。';
 $string['usernamealreadytaken'] = '申し訳ございません、このユーザ名はすでに取得されています。';
 $string['usernameinvalidform'] = 'ユーザ名には空白を除く半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
@@ -100,8 +100,8 @@ $string['component'] = 'コンポーネント';
 $string['customservicegroup'] = '(カスタム)';
 $string['functions'] = '関数';
 $string['enableservice'] = 'サービスを有効/無効にする';
-$string['restricteduserswarning'] = '警告: このサービスには既存のトークンユーザが存在するため、あなたが「 %s 」 を有効にした場合、アクセスできないようになります。';
-$string['tokenuserswarning'] = '警告: このサービスには既存のトークンユーザが存在するため、あなたが「 %s 」 を無効にした場合、アクセスできないようになります。';
+$string['restricteduserswarning'] = '警告: このサービスには既存のトークンユーザが存在するためあなたが「 %s 」 を有効にした場合、アクセスできないようになります。';
+$string['tokenuserswarning'] = '警告: このサービスには既存のトークンユーザが存在するためあなたが「 %s 」 を無効にした場合、アクセスできないようになります。';
 $string['usersonly'] = 'ユーザのみ';
 $string['tokensonly'] = 'トークンのみ';
 $string['switchtousers'] = 'ユーザにスイッチする';
