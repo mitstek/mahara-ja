@@ -104,7 +104,7 @@ $string['filenamefieldisrequired1'] = 'ファイル/フォルダ名は必須入�
 $string['filespagedescription1'] = 'あなたのページに含むことのできるイメージ、ドキュメントおよび他のファイルです。ファイルまたはフォルダをフォルダ間で移動するにはファイルまたはフォルダアイコンをドラッグ＆ドロップしてください。';
 $string['groupfilespagedescription1'] = 'ページに含むことのできるグループイメージ、ドキュメントおよび他のファイルです。';
 $string['institutionfilespagedescription1'] = 'ページに含むことのできるインスティテューションイメージ、ドキュメントおよび他のファイルです。';
-$string['fileuploadinstructions1'] = '一度にアップロードするため、あなたは複数ファイルを選択することができます。';
+$string['fileuploadinstructions1'] = '一度にアップロードするためあなたは複数ファイルを選択することができます。';
 $string['filethingdeleted'] = '%s が削除されました。';
 $string['filewithnameexists'] = '名称「 %s 」のファイルまたはフォルダはすでに存在しています。';
 $string['folder'] = 'フォルダ';
@@ -118,8 +118,8 @@ $string['foldernamerequired'] = '新しいフォルダ名を入力してくだ�
 $string['gotofolder'] = '%s に移動する';
 $string['groupfiles'] = 'グループファイル';
 $string['home'] = 'ホーム';
-$string['htmlremovedmessage'] = 'あなたが閲覧しているファイル「 <strong>%s</strong> 」は<a href="%s">%s</a> によりアップロードされたものです。以下に表示されているファイルは不適切なコンテンツのため、削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
-$string['htmlremovedmessagenoowner'] = 'あなたはファイル「 <strong>%s</strong> 」を閲覧しています。以下に表示されているファイルは不適切なコンテンツのため、削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
+$string['htmlremovedmessage'] = 'あなたが閲覧しているファイル「 <strong>%s</strong> 」は<a href="%s">%s</a> によりアップロードされたものです。以下に表示されているファイルは不適切なコンテンツのため削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
+$string['htmlremovedmessagenoowner'] = 'あなたはファイル「 <strong>%s</strong> 」を閲覧しています。以下に表示されているファイルは不適切なコンテンツのため削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
 $string['image'] = 'イメージ';
 $string['Images'] = 'イメージ';
 $string['imagesdir'] = 'イメージ';
