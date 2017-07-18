@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-07-16 06:20:58 UTC
+ * @updated    2017-07-18 15:33:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -199,7 +199,7 @@ $string['editaccessdescription'] = 'あなたは複数アイテムをチェッ�
 $string['editaccessgrouppagedescription'] = 'デフォルトではページおよびコレクションを追加および編集できるグループメンバーのみグループコレクションおよびページを閲覧できます。あなたは複数アイテムをチェックボックスで選択して同一設定にすることができます。あなたの選択完了後、続けるにはスクロールダウンして「保存」ボタンをクリックしてください。';
 $string['editaccessinstitutionpagedescription'] = 'デフォルトではあなたのインスティテューションコレクションおよびページをあなたのインスティテューション管理者のみ閲覧できます。あなたは複数アイテムをチェックボックスで選択して同一設定にすることができます。あなたの選択完了後、続けるにはスクロールダウンして「保存」ボタンをクリックしてください。';
 $string['editaccesssitepagedescription'] = 'デフォルトではサイトコレクションおよびページをサイト管理者のみ閲覧できます。あなたは複数アイテムをチェックボックスで選択して同一設定にすることができます。あなたの選択完了後、続けるにはスクロールダウンして「保存」ボタンをクリックしてください。';
-$string['editsecreturlsintable'] = '個別に設定する必要があるため、このページでは<b>シークレットURL</b>を設定できません。シークレットURLを設定するには<a href="%s">コレクションおよびページの一覧</a>に戻ってください。';
+$string['editsecreturlsintable'] = '個別に設定する必要があるためこのページでは<b>シークレットURL</b>を設定できません。シークレットURLを設定するには<a href="%s">コレクションおよびページの一覧</a>に戻ってください。';
 $string['editaccessinvalidviewset'] = '無効な一連のページおよびコレクションのアクセスを編集しようとしました。';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
 $string['overridingstartstopdatesdescription'] = 'あなたは開始日および終了日をオーバーライドすることができます。アクセス権を与えたとしても、開始日以前および終了日以降に他のユーザはあなたのページを閲覧できません。';
