@@ -20,6 +20,6 @@ $string['preparing'] = '%s を準備中';
 $string['exportingdatafor'] = '%s のデータをエクスポート中';
 $string['buildingindexpage'] = 'インデックスページを構築中';
 $string['copyingextrafiles'] = '追加ファイルをコピー中';
-$string['duplicatepagetitle'] = 'ページタイトル重複のため、エクスポートに失敗しました。タイトルがユニークであることを確認してください。';
+$string['duplicatepagetitle'] = 'ページタイトル重複のためエクスポートに失敗しました。タイトルがユニークであることを確認してください。';
 
 ?>

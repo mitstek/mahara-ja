@@ -56,7 +56,7 @@ $string['pluginexplainaddremove'] = 'Maharaプラグインは常にインスト�
 $string['pluginexplainartefactblocktypes'] = '「アーティファクト」タイプのプラグインを非表示にした場合、Maharaは同時に関連するブロックの表示を停止します。';
 $string['pluginbrokenanddisabledtitle'] = '不完全なプラグイン (%s) が無効にされました。';
 $string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインのロードを試みましたがロードすることができませんでした。
-さらなるエラーを避けるため、このプラグインは無効にされました。
+さらなるエラーを避けるためこのプラグインは無効にされました。
 
 プラグインにより生成されたエラーメッセージは以下のとおりです:
 ----------------------------------------------------------------------------
@@ -505,8 +505,8 @@ $string['siteinformation'] = 'サイト情報';
 $string['institutioninformation'] = 'インスティテューション情報';
 $string['unreadmessages'] = '未読メッセージ';
 $string['unreadmessage'] = '未読メッセージ';
-$string['siteclosed'] = 'データベースアップグレードのため、サイトは一時的に閉鎖されています。サイト管理者はログインすることができます。';
-$string['siteclosedlogindisabled'] = 'データベースアップグレードのため、サイトは一時的に閉鎖されています。<a href="%s">今からアップグレードを実行します。</a>';
+$string['siteclosed'] = 'データベースアップグレードのためサイトは一時的に閉鎖されています。サイト管理者はログインすることができます。';
+$string['siteclosedlogindisabled'] = 'データベースアップグレードのためサイトは一時的に閉鎖されています。<a href="%s">今からアップグレードを実行します。</a>';
 $string['termsandconditions'] = '利用条件';
 $string['privacystatement'] = 'プライバシー保護方針';
 $string['about'] = 'About';
@@ -586,7 +586,7 @@ $string['artefactnotfound'] = 'ID %s のアーティファクトは見つかり�
 $string['artefactnotrendered'] = 'アーティファクトが提出されていません。';
 $string['nodeletepermission'] = 'あなたにはこのアーティファクトを削除するパーミッションがありません。';
 $string['noeditpermission'] = 'あなたにはこのアーティファクトを編集するパーミッションがありません。';
-$string['cantbedeleted'] = 'このアーティファクトまたはサブアーティファクトが送信済みページにあるため、このアーティファクトを削除することはできません。';
+$string['cantbedeleted'] = 'このアーティファクトまたはサブアーティファクトが送信済みページにあるためこのアーティファクトを削除することはできません。';
 $string['Permissions'] = 'パーミッション';
 $string['republish'] = '公開';
 $string['view'] = 'ページ';
@@ -926,7 +926,7 @@ $string['Organise'] = '整理';
 $string['organisesubtitle'] = 'あなたのポートフォリオのショーケースです。';
 $string['organisedescription'] = 'あなたのポートフォリオを<a href="%s">ページ</a>に整理することができます。異なる閲覧者に対して異なるページを作成します - あなたがページに含む構成要素を選択します。';
 $string['sharenetwork'] = '共有およびネットワーク';
-$string['sharenetworksubtitle'] = 'フレンドを探して、グループに参加します。';
+$string['sharenetworksubtitle'] = 'フレンドを探してグループに参加します。';
 $string['findfriendslinked'] = '<a href="%s">フレンド</a>を探す';
 $string['joingroups'] = '<a href="%s">グループ</a>に参加する';
 $string['controlyourprivacylinked'] = 'あなたの<a href="%s">プライバシー</a>をコントロールする';
