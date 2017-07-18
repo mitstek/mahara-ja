@@ -28,7 +28,7 @@
 
 defined('INTERNAL') || die();
 
-$string['canteditdontownplan'] = 'あなたの所有ではないため、このプランを編集することはできません。';
+$string['canteditdontownplan'] = 'あなたの所有ではないためこのプランを編集することはできません。';
 $string['description'] = '説明';
 $string['deleteplanconfirm'] = '本当にこのプランを削除してもよろしいですか? このプランを削除することでプランの中に含まれているすべてのタスクも削除されます。';
 $string['deleteplan'] = 'プランを削除する';
@@ -47,12 +47,12 @@ $string['plannotdeletedsuccessfully'] = 'プランの削除中にエラーが発
 $string['plannotsavedsuccessfully'] = 'このフォームの送信中にエラーが発生しました。マークされたフィールドを確認して再度お試しください。';
 $string['plansavedsuccessfully'] = 'プランが正常に保存されました。';
 $string['planstasks'] = 'プラン「 %s 」のタスク';
-$string['planstasksdesc'] = '下記のタスクを追加するか右側のボタンをクリックして、あなたのプランを作成してください。';
+$string['planstasksdesc'] = '下記のタスクを追加するか右側のボタンをクリックしてあなたのプランを作成してください。';
 $string['saveplan'] = 'プランを保存する';
 $string['title'] = 'タイトル';
 $string['titledesc'] = 'それぞれのプランブロックタイプ内タスクに表示するためにタイトルが使用されます。';
 $string['alltasks'] = 'すべてのタスク';
-$string['canteditdontowntask'] = 'あなたの所有ではないため、このタスクを編集することはできません。';
+$string['canteditdontowntask'] = 'あなたの所有ではないためこのタスクを編集することはできません。';
 $string['completed'] = '完了済み';
 $string['completiondate'] = '完了日';
 $string['completeddesc'] = 'あなたのタスクを完了済みにします。';
