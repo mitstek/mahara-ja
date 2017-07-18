@@ -61,7 +61,7 @@ $string['tagssideblockmaxtagsdescription'] = 'あなたのタグクラウドに�
 $string['enablemultipleblogs1'] = '複数日誌';
 $string['enablemultipleblogsdescription'] = 'デフォルトではあなたは1つの日誌のみMaharaに作成することができます。あなたが1つ以上の日誌を作成したい場合、このオプションをチェックしてください。';
 $string['hiderealname'] = '実名を隠す';
-$string['hiderealnamedescription'] = 'あなたが表示名を設定した場合、そして、あなたの実名検索により他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
+$string['hiderealnamedescription'] = 'あなたが表示名を設定した場合、そしてあなたの実名検索により他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
 $string['showhomeinfo1'] = 'ホームページ情報';
 $string['showhomeinfodescription'] = 'ホームページ上に %s の使用方法に関する情報を表示します。';
 $string['mobileuploadtoken'] = 'モバイルアップロードトークン';
@@ -70,7 +70,7 @@ $string['prefssaved'] = 'プリファレンスが保存されました。';
 $string['prefsnotsaved'] = 'あなたのプリファレンスの保存に失敗しました。';
 $string['maildisabled'] = 'Eメールが無効にされました。';
 $string['disableemail'] = 'Eメールを無効にする';
-$string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたため、あなたのメールアドレス宛のメール送信は停止されました。Eメールを有効にする前にあなたのEメールアカウントが正常に動作しているかアカウントプリファレンスの %s で確認してください。';
+$string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたためあなたのメールアドレス宛のメール送信は停止されました。Eメールを有効にする前にあなたのEメールアカウントが正常に動作しているかアカウントプリファレンスの %s で確認してください。';
 $string['maildisableddescription'] = 'あなたのアカウント宛のメール送信は停止されました。アカウントプリファレンスページで<a href="%s">あなたのEメールを再度有効</a>にすることができます。';
 $string['deleteaccount'] = 'アカウントを削除する';
 $string['deleteaccountdescription'] = 'アカウントを削除した場合、今後、あなたのプロファイル情報およびページを他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧できますが、投稿者名が表示されないようになります。';
