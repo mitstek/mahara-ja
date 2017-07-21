@@ -154,7 +154,7 @@ $string['editaccesspagedescription3'] = 'デフォルトではあなたのペー
 $string['editsecreturlsintable'] = '個別に設定する必要があるためこのページでは<b>シークレットURL</b>を設定できません。シークレットURLを設定するには<a href="%sview/share.php">コレクションおよびページの一覧</a>に戻ってください。';
 $string['editaccessinvalidviewset'] = '無効な一連のページおよびコレクションのアクセスを編集しようとしました。';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
-$string['overridingstartstopdatesdescription'] = 'あなたは開始日および終了日をオーバーライドすることができます。アクセス権を与えたとしても、開始日以前および終了日以降に他のユーザはあなたのページを閲覧できません。';
+$string['overridingstartstopdatesdescription'] = 'あなたは開始日および終了日をオーバーライドすることができます。アクセス権を与えたとしても開始日以前および終了日以降に他のユーザはあなたのページを閲覧できません。';
 $string['emptylabel'] = 'このラベルのテキストを入力するにはここをクリックしてください。';
 $string['empty_block'] = 'ここに配置するアーティファクトを左側のツリーより選択してください。';
 $string['viewinformationsaved'] = 'ページ情報が正常に保存されました。';
