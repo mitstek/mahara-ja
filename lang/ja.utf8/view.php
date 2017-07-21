@@ -149,7 +149,7 @@ $string['allviews'] = 'すべてのページ';
 $string['addaccess'] = '「 %s 」へのアクセスを追加する';
 $string['addaccessinstitution'] = 'インスティテューション「 %s 」へのアクセスを追加する';
 $string['addaccessgroup'] = 'グループ「 %s 」へのアクセスを追加する';
-$string['submitconfirm'] = '評価のために「 %s 」を「 %s 」に送信した場合、チューターが評価を終えるまで、あなたはコンテンツを編集することができません。本当に送信してもよろしいですか?';
+$string['submitconfirm'] = '評価のために「 %s 」を「 %s 」に送信した場合、チューターが評価を終えるまであなたはコンテンツを編集することができません。本当に送信してもよろしいですか?';
 $string['collectionsubmitted'] = 'コレクションが送信されました。';
 $string['collectionviewsalreadysubmitted'] = 'このコレクションのページはすでに送信されています: 「 %s 」
 コレクションからリリースまたは削除されるまであなたはコレクションを送信することはできません。';
@@ -178,7 +178,7 @@ $string['editaccesssitepagedescription'] = 'デフォルトではサイトコレ
 $string['editsecreturlsintable'] = '個別に設定する必要があるためこのページでは<b>シークレットURL</b>を設定できません。シークレットURLを設定するには<a href="%s">コレクションおよびページの一覧</a>に戻ってください。';
 $string['editaccessinvalidviewset'] = '無効な一連のページおよびコレクションのアクセスを編集しようとしました。';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
-$string['overridingstartstopdatesdescription'] = 'あなたは開始日および終了日をオーバーライドすることができます。アクセス権を与えたとしても、開始日以前および終了日以降に他のユーザはあなたのページを閲覧できません。';
+$string['overridingstartstopdatesdescription'] = 'あなたは開始日および終了日をオーバーライドすることができます。アクセス権を与えたとしても開始日以前および終了日以降に他のユーザはあなたのページを閲覧できません。';
 $string['emptylabel'] = 'このラベルのテキストを入力するにはここをクリックしてください。';
 $string['empty_block'] = 'ここに配置するアーティファクトを左側のツリーより選択してください。';
 $string['viewinformationsaved'] = 'ページ情報が正常に保存されました。';
