@@ -134,7 +134,7 @@ $string['deleteviewconfirmnote'] = '<p><strong>注意:</strong> このビュー�
 $string['editaccessdescription'] = '<p>デフォルトではあなたの %s のみ閲覧できます。このページでアクセスルールを追加することであなたの %s を他のユーザと共有することができます。</p>
 <p>あなたの設定完了後、続けるためスクロールダウンして「保存」をクリックしてください。</p>';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
-$string['overridingstartstopdatesdescription'] = 'あなたは開始日および終了日をオーバーライドすることができます。アクセス開始日およびアクセス終了日をどのように設定したとしても、開始日以前および終了日以降には他のユーザはビューを閲覧できません。';
+$string['overridingstartstopdatesdescription'] = 'あなたは開始日および終了日をオーバーライドすることができます。アクセス開始日およびアクセス終了日をどのように設定したとしても開始日以前および終了日以降には他のユーザはビューを閲覧できません。';
 $string['emptylabel'] = 'このラベルのテキストを入力するにはここをクリックしてください。';
 $string['empty_block'] = 'ここに配置するアーティファクトを左側のツリーより選択してください。';
 $string['viewinformationsaved'] = 'ビュー情報が正常に保存されました。';
