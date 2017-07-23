@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-07-21 00:43:34 UTC
+ * @updated    2017-07-23 07:59:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -207,7 +207,7 @@ $string['emptylabel'] = 'このラベルのテキストを入力するにはこ�
 $string['empty_block'] = 'ここに配置するアーティファクトを左側のツリーより選択してください。';
 $string['viewinformationsaved'] = 'ページ情報が正常に保存されました。';
 $string['canteditdontown'] = 'あなたの所有ではないためこのページを編集できません。';
-$string['canteditsubmitted'] = '%s による評価を目的として送信されたためあなたはこのページを編集することはできません。あなたのページをチューターがリリースするまでお待ちください。';
+$string['canteditsubmitted'] = '%s による評価を目的として送信されたためあなたはこのページを編集することはできません。あなたはチューターがページをリリースするまで待つ必要があります。';
 $string['Submitted'] = '送信済み';
 $string['submittedforassessment'] = '評価のため送信済み';
 $string['blocknotinview'] = 'ID「 %d 」のブロックはページにありません。';
@@ -216,9 +216,9 @@ $string['viewaccesseditedsuccessfully'] = 'ページアクセスが正常に保�
 $string['viewsavedsuccessfully'] = 'ページが正常に保存されました。';
 $string['updatedaccessfornumviews1'] = '%d ページのアクセスルールが更新されました。';
 $string['invalidcolumn'] = 'カラム %s は範囲外です。';
-$string['confirmcancelcreatingview'] = 'このページの作成は完了していません。本当にキャンセルしてもよろしいですか?';
+$string['confirmcancelcreatingview'] = 'このページは作成完了していません。本当にキャンセルしてもよろしいですか?';
 $string['groupviewurltaken'] = 'このURLのページはすでに存在しています。';
-$string['editblockspagedescription'] = '<p>以下のタブより選択してブロックをドラッグ&ドロップすることであなたのページを作成します。</p>';
+$string['editblockspagedescription'] = '<p>あなたのページを作成するには以下のタブよりブロックを選択してドラッグ&ドロップしてください。</p>';
 $string['displayview'] = 'ページを表示する';
 $string['editthisview'] = 'このページを編集する';
 $string['expandcontract'] = 'ブロックタイプ一覧を展開/折りたたむ';
