@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-07-25 05:15:44 UTC
+ * @updated    2017-07-26 04:31:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -325,7 +325,7 @@ $string['blocktypecategorydesc.general'] = '一般オプションを表示する
 $string['blocktypecategorydesc.internal'] = '個人情報オプションを表示するにはクリックしてください。';
 $string['blocktypecategorydesc.blog'] = '日誌オプションを表示するにはクリックしてください。';
 $string['notitle'] = 'タイトルなし';
-$string['clickformoreinformation1'] = '詳細情報およびコメントの投稿はこちらをクリックしてください。';
+$string['clickformoreinformation1'] = '詳細情報を表示およびコメントを投稿するにはクリックしてください。';
 $string['detailslinkalt'] = '(詳細)';
 $string['Browse'] = '閲覧';
 $string['Search'] = '検索';
@@ -336,7 +336,7 @@ $string['changeviewtheme'] = 'あなたがこのページに選択したテー�
 $string['nothemeselected1'] = 'インスティテューションテーマを使用する';
 $string['Template'] = 'テンプレート';
 $string['allowcopying'] = 'コピーを許可する';
-$string['retainviewrights1'] = 'ページまたはコレクションのコピー時、ページアクセスを保持する';
+$string['retainviewrights1'] = 'ページまたはコレクションのコピー時にページアクセスを保持する';
 $string['templatedescriptionplural2'] = 'あなたが選択したページまたはコレクションを閲覧できるユーザに対してファイルおよびフォルダを含めて自分のページとしてコピーできるようにします。';
 $string['retainviewrightsdescription2'] = '他のユーザによりコピーされたページまたはコレクションに対してあなたが選択したページまたはコレクションにアクセスできるようにします。希望すればコピー後にユーザが閲覧アクセスを無効にすることができます。このページまたはコレクションのコピーからコピーされたページまたはコレクションは同じアクセスを保持することはありません。';
 $string['retainviewrightsgroupdescription2'] = '他のユーザによりコピーされたページまたはコレクションに対してこのグループのメンバーが選択したページまたはコレクションにアクセスできるようにします。希望すればコピー後にユーザが閲覧アクセスを無効にすることができます。このページまたはコレクションのコピーからコピーされたページまたはコレクションは同じアクセスを保持することはありません。';
