@@ -66,7 +66,7 @@ $string['errnoxmlrpcwwwroot'] = '私たちには %s のホストに関してレ�
 $string['errnoxmlrpcuser'] = '現時点ではあなたを認証することができませんでした。可能性のある理由として下記が考えられます:
 
 *あなたのSSOセッションが失効しました。他のアプリケーションに戻って、Maharaにログインするためのリンクを再度クリックしてください。
-*あなたのMaharaに対するSSOが許可されていません。あなたがSSOできるかどうか管理者にご確認ください。';
+*あなたのMaharaに対するSSOが許可されていません。あなたがSSOできるかどうか管理者に確認してください。';
 $string['unabletosigninviasso'] = 'SSO経由でサインインできません。';
 $string['xmlrpccouldnotlogyouin'] = '申し訳ございません、あなたをログインさせることができませんでした :(';
 $string['xmlrpccouldnotlogyouindetail'] = '申し訳ございません、今回はあなたをMaharaにログインさせることができませんでした。ログインを再度お試しください。問題が続く場合、あなたの管理者にご連絡ください。';
