@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-07-07 04:22:36 UTC
+ * @updated    2017-07-29 05:13:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -387,7 +387,7 @@ $string['sitename'] = 'サイト名';
 $string['sitenamedescription'] = 'サイト名はサイトおよびサイトから送信されるメールに表示されます。';
 $string['siteoptionspagedescription'] = 'ここではサイト全体にデフォルトとして適用されるグローバルオプションを設定することができます。<br />注意: 無効にされたオプションはあなたのconfig.phpファイルによりオーバーライドされます。';
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
-$string['sitethemedescription'] = 'サイトのデフォルトテーマです。あなたのテーマがリストにない場合、エラーログをご確認ください。';
+$string['sitethemedescription'] = 'サイトのデフォルトテーマです。あなたのテーマがリストにない場合、エラーログを確認してください。';
 $string['skins'] = 'ページスキン';
 $string['skinsinstitutiondescription2'] = 'このインスティテューションのメンバーは自分のページに「スキン」を使用することができます。';
 $string['smallviewheaders'] = 'スモールページヘッダ';
