@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-08-01 02:25:48 UTC
+ * @updated    2017-08-02 01:56:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -361,11 +361,11 @@ $string['confirmcopytitle'] = 'コピーを確認する';
 $string['confirmcopydesc'] = 'あなたがコピーしたいものを選択してください:';
 $string['Untitled'] = 'タイトルなし';
 $string['copyfornewusers'] = '新しいユーザにコピーする';
-$string['copyfornewusersdescription2'] = '新しいユーザが作成された場合、選択したページまたはコレクションをユーザポートフォリオ内にパーソナルコピーとして自動作成します。これらのユーザに選択したページまたはコレクションを後で同様にコピーできるようにしたい場合、コピーを許可してください。';
+$string['copyfornewusersdescription2'] = '新しいユーザが作成された場合、選択したページまたはコレクションをユーザのアカウント内にパーソナルコピーとして自動作成します。これらのユーザに選択したページまたはコレクションを後で同様にコピーできるようにしたい場合、コピーを許可してください。';
 $string['copyfornewmembers'] = '新しいインスティテューションメンバーにコピーする';
 $string['copyfornewmembersdescription2'] = '%s のすべての新しいメンバーに対して選択したページまたはコレクションのパーソナルコピーを自動作成します。これらのユーザに選択したページまたはコレクションを後で同様にコピーできるようにしたい場合、コピーを許可してください。';
 $string['copyfornewgroups'] = '新しいグループにコピーする';
-$string['copyfornewgroupsdescription1'] = '以下のグループタイプの新しいグループすべてに対して選択したページまたはコレクションをコピーします:';
+$string['copyfornewgroupsdescription1'] = '選択したページおよびコレクションを以下のロールの新しいグループすべてにコピーします:';
 $string['owner'] = 'オーナー';
 $string['Owner'] = 'オーナー';
 $string['owners'] = 'オーナー';
@@ -376,8 +376,8 @@ $string['listviews'] = 'ページを一覧表示する';
 $string['nocopyableviewsfound'] = 'あなたがコピーできるページはありません。';
 $string['noownersfound'] = 'オーナーが見つかりませんでした。';
 $string['Preview'] = 'プレビュー';
-$string['viewscopiedfornewusersmustbecopyable'] = '新しいユーザがページをコピーできるよう設定する前にあなたはページのコピーを許可する必要があります。';
-$string['viewswithretainviewrightsmustbecopyable'] = 'ページへの閲覧アクセスを保持する前にあなたはページのコピーを許可する必要があります。';
+$string['viewscopiedfornewusersmustbecopyable'] = '新しいユーザにページがコピーされるよう設定する前にあなたはページのコピーを許可する必要があります。';
+$string['viewswithretainviewrightsmustbecopyable'] = 'ページが閲覧アクセスを保持するよう設定する前にあなたはページのコピーを許可する必要があります。';
 $string['viewscopiedfornewgroupsmustbecopyable'] = '新しいグループがページをコピーできるよう設定する前にあなたはページのコピーを許可する必要があります。';
 $string['copynewusergroupneedsloggedinaccess'] = '新しいユーザまたはグループにコピーされるページに対してログインユーザのアクセス権を与える必要があります。';
 $string['viewcopywouldexceedquota'] = 'このページを追加することであなたのファイルクオータを越えてしまいます。';
