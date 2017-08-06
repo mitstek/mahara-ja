@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-08-02 01:56:07 UTC
+ * @updated    2017-08-06 06:29:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -379,7 +379,7 @@ $string['Preview'] = 'プレビュー';
 $string['viewscopiedfornewusersmustbecopyable'] = '新しいユーザにページがコピーされるよう設定する前にあなたはページのコピーを許可する必要があります。';
 $string['viewswithretainviewrightsmustbecopyable'] = 'ページが閲覧アクセスを保持するよう設定する前にあなたはページのコピーを許可する必要があります。';
 $string['viewscopiedfornewgroupsmustbecopyable'] = '新しいグループがページをコピーできるよう設定する前にあなたはページのコピーを許可する必要があります。';
-$string['copynewusergroupneedsloggedinaccess'] = '新しいユーザまたはグループにコピーされるページに対してログインユーザのアクセス権を与える必要があります。';
+$string['copynewusergroupneedsloggedinaccess'] = '新しいユーザまたはグループにコピーされるページはログインユーザにアクセス権を与える必要があります。';
 $string['viewcopywouldexceedquota'] = 'このページを追加することであなたのファイルクオータを越えてしまいます。';
 $string['viewcreatewouldexceedquota'] = 'このページを作成することであなたのファイルクオータを越えてしまいます。';
 $string['blockcopypermission'] = 'ブロックのコピーパーミッション';
@@ -394,7 +394,7 @@ $string['dashboard'] = 'ダッシュボード';
 $string['profile'] = 'プロファイル';
 $string['portfolio'] = 'ポートフォリオ';
 $string['grouphomepage'] = 'グループホームページ';
-$string['grouphomepagedescription'] = 'グループホームページはこのグループのAboutタブに表示されるコンテンツです。';
+$string['grouphomepagedescription'] = 'グループホームページにはこのグループのAboutタブに表示されるコンテンツを含みます。';
 $string['sharedwithme'] = '私への共有';
 $string['titleanddescription'] = 'タイトル、説明、タグ';
 $string['titleanddescriptionnotags'] = 'タイトル、説明';
@@ -413,9 +413,9 @@ $string['comments'] = 'コメント';
 $string['moderate'] = 'モデレート';
 $string['sharedby'] = '共有';
 $string['retractable'] = '格納';
-$string['retractabledescription'] = 'ヘッダをクリックしてこのブロックを格納できるようにするにはこのオプションを有効にしてください。';
+$string['retractabledescription'] = 'ヘッダクリック時にこのブロックが格納されるようにするにはこのオプションを有効にしてください。';
 $string['retractedonload'] = '自動格納';
-$string['retractedonloaddescription'] = 'このブロックを自動的に格納するにはこのオプションを有効にしてください。';
+$string['retractedonloaddescription'] = 'このブロックが自動的に格納されるようにするにはこのオプションを有効にしてください。';
 $string['textbox1'] = 'ノート';
 $string['image'] = 'イメージ';
 $string['addcontent'] = 'コンテンツを追加する';
