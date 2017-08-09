@@ -13,7 +13,7 @@
 
 defined('INTERNAL') || die();
 
-$string['autoconfiguredesc'] = 'LTIに必要な自動設定有効および設定です。';
+$string['autoconfiguredesc'] = 'LTIに必要な設定を自動的に有効にします。';
 $string['autoconfiguretitle'] = 'LTI自動設定';
 $string['autocreateusers'] = 'ユーザ自動作成';
 $string['autocreationnotenabled'] = 'ユーザアカウントの自動作成は有効にされていません。';
