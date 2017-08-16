@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-04-21 06:13:57 UTC
+ * @updated    2017-08-16 06:16:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -252,6 +252,7 @@ $string['erroroptionalparamarray'] = '名称「 %s 」のウェブサービス�
 $string['errorresponsemissingkey'] = 'レスポンスエラー: 次の単一構造の必須キーがありません: %s';
 $string['errorscalartype'] = 'スカラ型が要求されましたが、配列またはオブジェクトを受信しました。';
 $string['errorunexpectedkey'] = 'パラメータ配列に予期されないキー (%s) が検出されました。';
+$string['errorunexpectedcustomkey'] = 'パラメータ配列に予期されないカスタムキー (%s) が検出されました。これらはMaharaでは無視されます。このメッセージはあなたがパラメータをレビューして無視されていることに気付けるようにするだめだけの情報です。';
 $string['execute'] = '実行';
 $string['expires'] = '有効期限';
 $string['externalservice'] = '外部サービス';
@@ -364,5 +365,6 @@ $string['nogroup'] = 'グループが選択されていません。';
 $string['membersinvalidaction'] = '無効な操作「 %s 」です - ユーザ「 %s (グループ: %s)」';
 $string['passwordmustbechangedviawebsite'] = 'あなたはパスワードを変更する必要があります。あなたのパスワードを更新するにはブラウザでログインしてください。';
 $string['featuredisabled'] = 'ウェブサービス機能が有効にされていません。詳細情報に関してあなたのサイト管理者にご連絡ください。';
+$string['institutionunknown'] = '- 不明 -';
 
 ?>
