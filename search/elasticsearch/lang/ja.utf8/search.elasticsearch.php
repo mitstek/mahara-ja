@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-08-23 05:20:13 UTC
+ * @updated    2017-08-27 12:53:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -51,7 +51,7 @@ $string['indexname'] = 'インデックス名';
 $string['indexnamedescription'] = 'Elasticsearchインデックス名です。デフォルトは「mahara」です。';
 $string['license'] = 'ライセンス';
 $string['Media'] = 'メディア';
-$string['newindextype'] = 'あなたのElasticsearch設定に新しいインデックスタイプ「 %s 」が追加されました。これが適用されるためにはあなたのサイトを再インデックスする必要があります。';
+$string['newindextype'] = 'あなたのElasticsearch設定に新しいインデックスタイプ「 %s 」が追加されました。これが適用されるためにはあなたのサイトを再インデックス化する必要があります。';
 $string['none'] = 'なし';
 $string['noticeenabled'] = '現在、Elasticsearchプラグインは有効にされています。Elasticsearchプラグインを無効にするには<a href="%s">サイトオプションの検索設定</a>で選択解除してください。';
 $string['noticenotactive'] = 'ホスト: %s およびポート %s のElasticsearchサーバにアクセスできません。動作しているかどうか確認してください。';
@@ -61,7 +61,7 @@ $string['page'] = 'ページ';
 $string['pages'] = 'ページ';
 $string['pagetitle'] = '検索';
 $string['password'] = '認証パスワード';
-$string['passworddescription'] = '(任意) HTTP基本認証経由でElasticsearchに渡すためのパスワードです。';
+$string['passworddescription'] = '(任意) HTTP基本認証でElasticsearchに渡すためのパスワードです。';
 $string['passwordlength'] = '(パスワード長: %s)';
 $string['port'] = 'Elasticsearchポート';
 $string['portdescription'] = 'Elasticsearchが使用するポートです。デフォルトは「9200」です。';
@@ -79,11 +79,11 @@ $string['tags'] = 'タグ';
 $string['tagsonly'] = 'タグのみ';
 $string['Text'] = 'テキスト';
 $string['types'] = 'Elasticsearchタイプ';
-$string['typesdescription'] = 'インデックスするカンマ区切りのエレメント一覧です。デフォルトは次のとおりです: usr,interaction_instance,interaction_forum_post,group,view,artefact';
+$string['typesdescription'] = 'インデックス化するカンマ区切りのエレメント一覧です。デフォルトは次のとおりです: usr,interaction_instance,interaction_forum_post,group,view,artefact';
 $string['usedonpage'] = 'ページ使用';
 $string['usedonpages'] = 'ページ使用';
 $string['username'] = '認証ユーザ名';
-$string['usernamedescription'] = '(任意) HTTP基本認証経由でElasticsearchに渡すためのユーザ名です。';
+$string['usernamedescription'] = '(任意) HTTP基本認証でElasticsearchに渡すためのユーザ名です。';
 $string['Users'] = 'ユーザ';
 $string['wallpost'] = 'ウォール投稿';
 $string['xsearchresultsfory'] = '検索結果: %s / 検索キーワード: %s';
