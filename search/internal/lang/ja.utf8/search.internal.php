@@ -13,7 +13,7 @@
 
 defined('INTERNAL') || die();
 
-$string['exactusersearch'] = 'ユーザ厳密検索';
+$string['exactusersearch'] = 'ユーザ完全一致検索';
 $string['exactusersearchdescription2'] = '「ユーザを検索する」ボックスおよび「フレンドを探す」ページの結果には検索キーワード全体に合致するプロファイルフィールドのユーザのみ返されます。';
 
 ?>
