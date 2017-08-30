@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-08-16 06:13:38 UTC
+ * @updated    2017-08-30 07:37:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -22,7 +22,7 @@ $string['Annotationfeedback'] = 'フィードバック';
 $string['annotationfeedback'] = 'フィードバック';
 $string['typeannotationfeedback'] = 'アノテーションのフィードバック';
 $string['allowannotationfeedback'] = 'フィードバックを許可する';
-$string['approvalrequired'] = 'フィードバックは内容確認されます。あなたがこのフィードバックをパブリックにすることを選択した場合、オーナーから承認されるまで他の人は閲覧できません。';
+$string['approvalrequired'] = 'フィードバックはモデレートされます。あなたがこのフィードバックをパブリックにすることを選択した場合、オーナーから承認されるまで他の人は閲覧できません。';
 $string['canteditnotauthor'] = 'あなたはこのフィードバックの投稿者ではありません。';
 $string['annotationfeedbacknotinview'] = 'フィードバック「 %d 」はページ「 %d 」にありません。';
 $string['cantedittooold'] = 'あなたは %d 分以内のフィードバックのみ編集することができます。';
@@ -40,7 +40,7 @@ $string['editannotationfeedback'] = 'フィードバックを編集する';
 $string['placeannotation'] = 'アノテーションを追加する';
 $string['placeannotationfeedback'] = 'フィードバックを投稿する';
 $string['annotationfeedbacksubmitted'] = 'フィードバックが送信されました。';
-$string['annotationfeedbacksubmittedmoderatedanon'] = 'フィードバックが送信されました、内容確認を待っています。';
+$string['annotationfeedbacksubmittedmoderatedanon'] = 'フィードバックが送信されました、モデレーションを待っています。';
 $string['annotationfeedbacksubmittedprivateanon'] = 'プライベートフィードバックが送信されました。';
 $string['makepublic'] = 'パブリックにする';
 $string['makepublicnotallowed'] = 'あなたはこのフィードバックをパブリックにできません。';
