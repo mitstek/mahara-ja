@@ -30,7 +30,7 @@ defined('INTERNAL') || die();
 
 $string['title'] = '最新のブログ記事';
 $string['description'] = '最新のブログ記事10件を表示する';
-$string['itemstoshow'] = '表示するアイテム数';
+$string['itemstoshow'] = '表示するエントリ数';
 $string['postedin'] = '-';
 $string['postedon'] = '投稿日時';
 
