@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-01-19 14:13:38 UTC
+ * @updated    2017-09-05 12:17:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -27,7 +27,7 @@ $string['notags'] = '「 %s 」がタグ付けされた記事はありません�
 $string['notagsomit'] = '「 %s 」がタグ付けされていない記事はありません。';
 $string['notagsboth'] = '「 %s 」 (「 %s 」を除外) がタグ付けされた記事はありません。';
 $string['notagsavailable'] = 'あなたはタグを作成していません。';
-$string['notagsavailableerror'] = 'タグが選択されていません - ここで選択する前にあなたの日誌エントリにタグを追加する必要があります。';
+$string['notagsavailableerror'] = 'タグが選択されていません。ここで選択できるようにするにはあなたの日誌エントリにタグを追加する必要があります。';
 $string['postedin'] = '-';
 $string['postedon'] = '-';
 $string['updatedon'] = '最終更新日時';
