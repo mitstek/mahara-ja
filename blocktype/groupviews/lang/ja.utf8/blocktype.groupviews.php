@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['title'] = 'グループページ';
 $string['description'] = 'グループに関連するページを表示します。';
 $string['displaygroupviews'] = 'グループページを表示する';
-$string['displaygroupviewsdesc'] = 'グループページ - グループ内で作成されたページ';
+$string['displaygroupviewsdesc'] = 'グループページ - グループ内で作成されたポートフォリオ';
 $string['displaysharedviews'] = '共有ページを表示する';
 $string['displaysharedviewsdesc1'] = 'このグループと共有されているページ (コレクション内のページを除く) の一覧を表示します。';
 $string['displaysharedcollections'] = '共有コレクションを表示する';
