@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-06 00:17:33 UTC
+ * @updated    2017-09-07 07:25:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,10 +13,10 @@
 
 defined('INTERNAL') || die();
 
-$string['title'] = 'グループページ';
-$string['description'] = 'グループに関連するページを表示します。';
-$string['displaygroupviews'] = 'グループページを表示する';
-$string['displaygroupviewsdesc'] = 'グループページ - グループ内で作成されたポートフォリオ';
+$string['title1'] = 'グループポートフォリオ';
+$string['description1'] = 'グループに関連するページおよびコレクションを表示します。';
+$string['displaygroupviews1'] = 'グループページおよびコレクションを表示する';
+$string['displaygroupviewsdesc1'] = 'このグループで作成されたページおよびコレクションの一覧を表示します。';
 $string['displaysharedviews'] = '共有ページを表示する';
 $string['displaysharedviewsdesc1'] = 'このグループと共有されているページ (コレクション内のページを除く) の一覧を表示します。';
 $string['displaysharedcollections'] = '共有コレクションを表示する';
@@ -29,7 +29,7 @@ $string['itemstoshowdesc'] = 'それぞれのセクションで表示される�
 $string['showbyanybody'] = '誰でも';
 $string['showbygroupmembers'] = 'このグループのメンバー';
 $string['shownone'] = 'なし';
-$string['sortgroupviewstitle'] = 'グループページを並べ替える';
+$string['sortgroupviewstitle1'] = 'グループページおよびコレクションを並べ替える';
 $string['sortsharedviewstitle'] = '共有ページおよびコレクションを並べ替える';
 $string['sortsubmittedtitle'] = '送信済みページおよびコレクションを並べ替える';
 $string['sortviewsbyalphabetical'] = 'アルファベット順';
