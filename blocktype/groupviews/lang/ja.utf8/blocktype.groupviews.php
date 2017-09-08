@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-07 07:25:45 UTC
+ * @updated    2017-09-08 07:01:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['title1'] = 'グループポートフォリオ';
-$string['description1'] = 'グループに関連するページおよびコレクションを表示します。';
+$string['description1'] = 'このグループに関連するページおよびコレクションを表示します。';
 $string['displaygroupviews1'] = 'グループページおよびコレクションを表示する';
 $string['displaygroupviewsdesc1'] = 'このグループで作成されたページおよびコレクションの一覧を表示します。';
 $string['displaysharedviews'] = '共有ページを表示する';
