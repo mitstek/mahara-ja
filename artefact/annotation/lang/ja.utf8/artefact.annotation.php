@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-21 11:24:22 UTC
+ * @updated    2017-09-08 07:13:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -48,6 +48,7 @@ $string['makepublicrequestsubject'] = 'プライベートフィードバック�
 $string['makepublicrequestbyownermessage'] = '%s があなたのフィードバックをパブリックにするようリクエストしました。';
 $string['makepublicrequestsent'] = 'フィードバックをパブリックにするリクエストのメッセージが %s に送信されました。';
 $string['makepublicrequestbyauthormessage'] = '%s が自分のフィードバックをパブリックにするようリクエストしました。';
+$string['annotationempty'] = 'このフィールドは必須入力です。';
 $string['annotationfeedbackempty'] = 'あなたのフィードバックは空白です。メッセージを入力してください。';
 $string['newannotationfeedbacknotificationsubject'] = '%s の新しいフィードバック';
 $string['reallydeletethisannotationfeedback'] = '本当にこのフィードバックを削除してもよろしいですか?';
