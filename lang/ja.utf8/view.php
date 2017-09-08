@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-07-26 14:02:20 UTC
+ * @updated    2017-09-08 07:10:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -60,7 +60,7 @@ $string['templateportfolio'] = 'ページテンプレート';
 $string['templateportfoliotitle'] = 'タイトルなし';
 $string['templateportfoliodescription'] = 'あなたのユーザが作成するページのデフォルトレイアウトをセットアップします。あなたはブロックを追加することもできます。あなたがデフォルトページに追加したコンテンツはユーザが作成するページすべてに表示されることに留意してください。';
 $string['artefacts'] = 'アーティファクト';
-$string['groupviews'] = 'グループページ';
+$string['groupviews'] = 'グループページおよびコレクション';
 $string['institutionviews'] = 'インスティテューションページ';
 $string['institutionviewscollections'] = 'インスティテューションページおよびコレクション';
 $string['reallyaddaccesstoemptyview'] = 'あなたのページにはブロックが含まれていません。本当にこれらのユーザにページへのアクセス権を与えますか?';
@@ -105,7 +105,7 @@ $string['nosubmittedviewscollectionsyet'] = 'このグループに送信され�
 $string['submittogroup'] = 'このグループにページまたはコレクションを送信する';
 $string['yoursubmissions'] = 'あなたの送信';
 $string['youhavesubmitted'] = 'あなたはこのグループに <a href="%s">%s</a> を送信しました。';
-$string['youhavesubmittedon'] = 'あなたはこのグループに対して <a href="%s">%s</a> を %s %s に送信しました。';
+$string['youhavesubmittedon'] = 'あなたはこのグループに <a href="%s">%s</a> を %s に送信しました。';
 $string['listedinpages'] = 'ページ内一覧';
 $string['public'] = 'パブリック';
 $string['registeredusers'] = '登録済みユーザ';
@@ -169,7 +169,7 @@ $string['addaccessinstitution'] = 'インスティテューション「 %s 」�
 $string['addaccessgroup'] = 'グループ「 %s 」へのアクセスを追加する';
 $string['submitconfirm'] = '評価のために「 %s 」を「 %s 」に送信した場合、チューターが評価を終えるまであなたはコンテンツを編集することができません。本当に送信してもよろしいですか?';
 $string['collectionsubmitted'] = 'コレクションが送信されました。';
-$string['collectionviewsalreadysubmitted'] = 'このコレクションのページがすでに送信されています: 「 %s 」
+$string['collectionviewsalreadysubmitted'] = 'このコレクションのページはすでに送信されています: 「 %s 」
 コレクションからリリースまたは削除されるまであなたはコレクションを送信することはできません。';
 $string['viewalreadysubmitted'] = 'このページはすでに別の課題またはグループに送信されています。';
 $string['collectionalreadysubmitted'] = 'このコレクションはすでに別の課題またはグループに送信されています。';
@@ -212,7 +212,7 @@ $string['updatedaccessfornumviews1'] = '%d ページのアクセスルールが�
 $string['invalidcolumn'] = 'カラム %s は範囲外です。';
 $string['confirmcancelcreatingview'] = 'このページは作成完了していません。本当にキャンセルしてもよろしいですか?';
 $string['groupviewurltaken'] = 'このURLのページはすでに存在しています。';
-$string['editblockspagedescription'] = '<p>あなたのページを作成するには以下のタブよりブロックを選択してドラッグ以下のタブより選択してブロックをドラッグ&ドロップすることであなたのページを作成しますドロップしてください。</p>';
+$string['editblockspagedescription'] = '<p>あなたのページを作成するには以下のタブよりブロックを選択してドラッグ&ドロップしてください。</p>';
 $string['displayview'] = 'ページを表示する';
 $string['editthisview'] = 'このページを編集する';
 $string['expandcontract'] = 'ブロックタイプ一覧を展開/折りたたむ';
@@ -337,8 +337,7 @@ $string['retainviewrightsgroupdescription2'] = '他のユーザによりコピ�
 $string['choosetemplatepageandcollectiondescription'] = '<p>ここでは新しいページ作成の出発点としてあなたがコピーを許可されているページを検索することができます。あなたはページの名称をクリックしてそれぞれのページのプレビューを表示することができます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため該当する「ページをコピーする」ボタンをクリックしてコピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックしてページが属しているコレクション全体コピーすることができます。</p>';
 $string['choosetemplategrouppageandcollectiondescription'] = '<p>ここでは新しいページ作成の出発点としてこのグループがコピーを許可されているページを検索することができます。あなたはページの名称をクリックしてそれぞれのページのプレビューを表示することができます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため該当する「ページをコピーする」ボタンをクリックしてコピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックしてページが属しているコレクション全体コピーすることができます。</p><p><strong>注意:</strong> 現在、日誌、日誌エントリ、プランおよびレジュメ情報をグループでコピーすることはできません。</p>';
 $string['choosetemplateinstitutionpageandcollectiondescription'] = '<p>ここでは新しいページ作成の出発点としてこのインスティテューションがコピーを許可されているページを検索することができます。あなたはページの名称をクリックしてそれぞれのページのプレビューを表示することができます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため該当する「ページをコピーする」ボタンをクリックしてコピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックしてページが属しているコレクション全体コピーすることができます。</p><p><strong>注意:</strong> 現在、日誌、日誌エントリ、プランおよびレジュメ情報をインスティテューションでコピーすることはができません。</p>';
-$string['choosetemplatesitepageandcollectiondescription1'] = '<p>ここでは新しいページ作成の出発点としてサイトレベルでコピー可能なページを検索することができます。ページの名称をクリックすることにより、あなたはそれぞれのページのプレビューを
-表示することができます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため該当する「ページをコピーする」ボタンをクリックしてコピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックしてページが属しているコレクション全体コピーすることができます。</p><p><strong>注意:</strong> 現在、日誌、日誌エントリ、プランおよびレジュメ情報をサイトレベルのページでコピーすることはできません。</p>';
+$string['choosetemplatesitepageandcollectiondescription1'] = '<p>ここでは新しいページ作成の出発点としてサイトレベルでコピー可能なページを検索することができます。あなたはページの名称をクリックしてそれぞれのページのプレビューを表示することができます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため該当する「ページをコピーする」ボタンをクリックしてコピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックしてページが属しているコレクション全体コピーすることができます。</p><p><strong>注意:</strong> 現在、日誌、日誌エントリ、プランおよびレジュメ情報をサイトレベルのページでコピーすることはできません。</p>';
 $string['copiedblocksandartefactsfromtemplate'] = '%d 個のブロックおよび %d 件のアーティファクトを %s からコピーしました。';
 $string['filescopiedfromviewtemplate'] = '%s からコピーされたファイル';
 $string['viewfilesdirname'] = 'ページファイル';
@@ -389,7 +388,7 @@ $string['dashboard'] = 'ダッシュボード';
 $string['profile'] = 'プロファイル';
 $string['portfolio'] = 'ポートフォリオ';
 $string['grouphomepage'] = 'グループホームページ';
-$string['grouphomepagedescription'] = 'グループホームページはにこのグループのAboutタブに表示されるコンテンツを含みます。';
+$string['grouphomepagedescription'] = 'グループホームページにはこのグループのAboutタブに表示されるコンテンツを含みます。';
 $string['sharedwithme'] = '私への共有';
 $string['titleanddescription'] = 'タイトル、説明、タグ';
 $string['titleanddescriptionnotags'] = 'タイトル、説明';

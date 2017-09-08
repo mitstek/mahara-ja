@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-09-24 16:27:46 UTC
+ * @updated    2017-09-08 07:10:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -80,7 +80,7 @@ $string['blocktype_gallery'] = 'ブロック: イメージギャラリー';
 $string['blocktype_googleapps'] = 'ブロック: Google Apps';
 $string['blocktype_groupinfo'] = 'ブロック: グループ情報';
 $string['blocktype_groupmembers'] = 'ブロック: グループメンバー';
-$string['blocktype_groupviews'] = 'ブロック: グループページ';
+$string['blocktype_groupviews'] = 'ブロック: グループポートフォリオ';
 $string['blocktype_html'] = 'ブロック: HTML';
 $string['blocktype_pdf'] = 'ブロック: PDF';
 $string['blocktype_image'] = 'ブロック: イメージ';
@@ -148,7 +148,7 @@ $string['plugin_blocktype_gallery_version'] = 'ブロックタイププラグイ
 $string['plugin_blocktype_googleapps_version'] = 'ブロックタイププラグイン: 「Google Apps」バージョン';
 $string['plugin_blocktype_groupinfo_version'] = 'ブロックタイププラグイン: 「グループ情報」バージョン';
 $string['plugin_blocktype_groupmembers_version'] = 'ブロックタイププラグイン: 「グループメンバー」バージョン';
-$string['plugin_blocktype_groupviews_version'] = 'ブロックタイププラグイン: 「グループページ」バージョン';
+$string['plugin_blocktype_groupviews_version'] = 'ブロックタイププラグイン: 「グループポートフォリオ」バージョン';
 $string['plugin_blocktype_html_version'] = 'ブロックタイププラグイン: 「HTML」バージョン';
 $string['plugin_blocktype_image_version'] = 'ブロックタイププラグイン: 「イメージ」バージョン';
 $string['plugin_blocktype_inbox_version'] = 'ブロックタイププラグイン: 「受信箱」バージョン';
