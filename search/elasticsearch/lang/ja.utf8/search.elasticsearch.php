@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-08-27 12:53:52 UTC
+ * @updated    2017-09-09 14:13:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -25,6 +25,7 @@ $string['atoz'] = 'A -> Z';
 $string['blogpost'] = '日誌タイプ';
 $string['bypassindexname'] = 'バイパスインデックス';
 $string['bypassindexnamedescription'] = '(任意) 設定された場合、Maharaはメインインデックス名の代わりにこのインデックス名にインデックスデータを読み込みます。';
+$string['clusterstatus'] = 'Elasticsearchに問題があります。ステータスは「 %s 」です。未割り当てのシャードは「 %s 」です。';
 $string['collection'] = 'コレクション';
 $string['confignotset'] = '(未設定)';
 $string['contains'] = '含む';
@@ -37,6 +38,7 @@ $string['daterecentfirst'] = '日付 (新しい順)';
 $string['deleted'] = '削除済み';
 $string['deletedforumpost'] = '削除済みフォーラム投稿';
 $string['document'] = 'ドキュメント';
+$string['elasticsearchtooold'] = 'あなたのElasticsearchのバージョン「 %s 」は古過ぎます。「 %s 」またはそれ以上を必要とします。';
 $string['filterresultsby'] = '結果をフィルタする';
 $string['forum'] = 'フォーラム';
 $string['forumpost'] = 'フォーラム投稿';
@@ -52,6 +54,7 @@ $string['indexnamedescription'] = 'Elasticsearchインデックス名です。�
 $string['license'] = 'ライセンス';
 $string['Media'] = 'メディア';
 $string['newindextype'] = 'あなたのElasticsearch設定に新しいインデックスタイプ「 %s 」が追加されました。これが適用されるためにはあなたのサイトを再インデックス化する必要があります。';
+$string['newversion'] = '新しいElasticsearch PHPバージョン「 %s 」がMaharaに追加されました。これはElasticsearchサーバ「 %s 」またはそれ以上と互換性があります。これを適用するにはあなたのサイトを再インデックス化する必要があります。';
 $string['none'] = 'なし';
 $string['noticeenabled'] = '現在、Elasticsearchプラグインは有効にされています。Elasticsearchプラグインを無効にするには<a href="%s">サイトオプションの検索設定</a>で選択解除してください。';
 $string['noticenotactive'] = 'ホスト: %s およびポート %s のElasticsearchサーバにアクセスできません。動作しているかどうか確認してください。';
@@ -69,11 +72,15 @@ $string['Portfolio'] = 'ポートフォリオ';
 $string['record'] = 'レコード';
 $string['records'] = 'レコード';
 $string['relevance'] = '関連性';
+$string['replicashards'] = 'レプリカシャード';
+$string['replicashardsdescription'] = '作成されるシャードのコピー数です。注意: 1ノードのみの場合、レプリカに「0」を設定してください。';
 $string['reset'] = 'リセット';
 $string['resetallindexes'] = 'すべてのインデックスをリセットする';
 $string['resetdescription'] = 'このテーブルではElasticsearchサーバに送信するためにキューに入れられているそれぞれのタイプの現在のレコード数を表示しています。アイテムは検索プラグインのcronタスクが実行されるたびにElasticsearchサーバに送信されます (5分ごと)。検索インデックスをリセット、すべてのレコードを削除、そしてレコードを再度キューに入れるには下のボタンをクリックしてください。';
 $string['resetlegend'] = 'インデックスリセット';
 $string['resume'] = 'レジュメ';
+$string['shards'] = 'シャード';
+$string['shardsdescription'] = '作成されるインデックスの個数です。';
 $string['sortby'] = '並べ替え';
 $string['tags'] = 'タグ';
 $string['tagsonly'] = 'タグのみ';
@@ -86,6 +93,7 @@ $string['username'] = '認証ユーザ名';
 $string['usernamedescription'] = '(任意) HTTP基本認証でElasticsearchに渡すためのユーザ名です。';
 $string['Users'] = 'ユーザ';
 $string['wallpost'] = 'ウォール投稿';
+$string['xsearchresults'] = '検索結果: %s';
 $string['xsearchresultsfory'] = '検索結果: %s / 検索キーワード: %s';
 $string['ztoa'] = 'Z -> A';
 
