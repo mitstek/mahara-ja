@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-08-08 05:20:40 UTC
+ * @updated    2017-09-10 15:40:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -56,5 +56,21 @@ $string['selfassess'] = '自己評価';
 $string['uploadframeworkdesc1'] = 'JSONエンコード済みの.matrixファイルをアップロードします。マークアップ例に関して<a href="https://git.mahara.org/mahara/mahara/blob/16.10_STABLE/test/behat/upload_files/example.matrix">Mahara git repository</a>、個別のコンポーネントの例に関して<a href="http://manual.mahara.org/en/16.10/administration/smartevidence.html#create-a-framework-file">Maharaユーザマニュアル</a>をご覧ください。';
 $string['savematrix'] = 'マトリックスをアップロードする';
 $string['frameworkmissing'] = 'フレームワークが見つかりませんでした。';
+$string['noannotation'] = 'ページ「 %s 」 (標準エレメント「 %s 」) のアノテーションがありません。';
+$string['addannotation'] = '標準「 %s 」のアノテーションをページ「 %s 」に追加する';
+$string['completedcount'] = '完了済み標準エレメントを含むページ数:';
+$string['tabledesc'] = '以下、コレクションのスマートエビデンスマトリックスの構造です。';
+$string['standardbegin'] = '標準セクションの先頭';
+$string['uncollapsesection'] = '標準「 %s 」のテーブルセクションを表示するにはクリックしてください。';
+$string['collapsesection'] = '標準「 %s 」のセクションを隠すにはクリックしてください。';
+$string['collapsedsection'] = 'この標準のテーブルセクションは非表示にされています。';
+$string['gonextpages'] = 'スマートエビデンスマトリックスのコレクションのページをさらに表示するには「次へ」ボタンをクリックしてください。';
+$string['goprevpages'] = 'スマートエビデンスマトリックスのコレクションの前のページを表示するには「前へ」ボタンをクリックしてください。';
+$string['headerelements'] = 'カラムヘッダ: 標準エレメント';
+$string['headercompletedcount'] = 'カラムヘッダ: 完了済み標準エレメントを含むページ数';
+$string['headerpage'] = 'カラムヘッダ: ページタイトル';
+$string['headerrow'] = '行ヘッダ: 標準エレメント';
+$string['showelementdetails'] = '標準エレメント詳細を表示するにはクリックしてください。';
+$string['statusdetail'] = 'ページ「 %s 」: %s';
 
 ?>
