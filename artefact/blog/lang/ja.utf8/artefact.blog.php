@@ -81,7 +81,7 @@ $string['newbloginstitution'] = '新しい「 %s 」日誌';
 $string['newbloggroup'] = '%s : 新しい日誌';
 $string['newblogpost'] = '日誌「 %s 」の新しい日誌エントリ';
 $string['newerposts'] = '新しいエントリ';
-$string['nodefaultblogfound'] = 'デフォルトの日誌が見つかりませんでした。このシステムバグを修正するにはあなたは<a href="%saccount/index.php">アカウント設定</a>ページで複数日誌オプションを有効にする必要があります。';
+$string['nodefaultblogfound'] = 'デフォルトの日誌が見つかりませんでした。これはシステムのバグです。これを修正するにはあなたは<a href="%saccount/index.php">アカウント設定</a>ページで複数日誌オプションを有効にする必要があります。';
 $string['nopostsyet'] = 'まだエントリはありません';
 $string['noimageshavebeenattachedtothispost'] = 'このエントリにイメージは追加されませんでした。イメージを挿入できるようにするには事前にイメージをアップロードするか添付してください。';
 $string['nofilesattachedtothispost'] = '添付ファイルなし';
@@ -120,7 +120,7 @@ $string['youarenottheownerofthisblogpost'] = 'あなたはこの日誌エント�
 $string['youarenotanadminof'] = 'あなたは「 %s 」インスティテューションの管理者ではありません。';
 $string['youarenotasiteadmin'] = 'あなたはサイト管理者ではありません。';
 $string['youarenotamemberof'] = 'あなたは「 %s 」グループのメンバーではありません。';
-$string['youarenotaneditingmemberof'] = 'あなたには「 %s 」グループ内の日誌を編集するパーミッションがありません。';
+$string['youarenotaneditingmemberof'] = 'あなたには「 %s 」グループの日誌を編集するパーミッションがありません。';
 $string['cannotdeleteblogpost'] = 'この日誌エントリの削除中にエラーが発生しました。';
 $string['baseline'] = 'ベースライン揃え';
 $string['top'] = '上揃え';
