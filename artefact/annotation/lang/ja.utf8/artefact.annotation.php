@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-06 00:15:10 UTC
+ * @updated    2017-09-19 07:27:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -25,13 +25,13 @@ $string['allowannotationfeedback'] = 'フィードバックを許可する';
 $string['approvalrequired'] = 'フィードバックはモデレートされます。あなたがこのフィードバックをパブリックにすることを選択した場合、オーナーから承認されるまで他の人は閲覧できません。';
 $string['canteditnotauthor'] = 'あなたはこのフィードバックの投稿者ではありません。';
 $string['annotationfeedbacknotinview'] = 'フィードバック「 %d 」はページ「 %d 」にありません。';
-$string['cantedittooold'] = 'あなたは %d 分以内のフィードバックのみ編集することができます。';
+$string['cantedittooold'] = 'あなたは %d 分未満のフィードバックのみ編集することができます。';
 $string['cantedithasreplies'] = 'あなたは最も最近のフィードバックのみ編集することができます。';
 $string['annotationfeedbackmadepublic'] = 'フィードバックがパブリックにされました。';
 $string['annotationfeedbackdeletedauthornotification'] = 'あなたの %s のフィードバックが削除されました: %s';
 $string['annotationfeedbackdeletednotificationsubject'] = '%s のフィードバックが削除されました。';
 $string['annotationfeedbackremoved'] = 'フィードバックが削除されました。';
-$string['editannotationfeedbackdescription'] = 'あなたは新しい返信が投稿されていない %d 分以内のフィードバックを更新することができます。この時間が経過した場合、あなたのフィードバックを削除して新しいフィードバックを追加することはできます。';
+$string['editannotationfeedbackdescription'] = 'あなたは新しい返信が投稿されていない %d 分未満のフィードバックを更新することができます。この時間が経過した場合、あなたのフィードバックを削除して新しいフィードバックを追加することはできます。';
 $string['annotationfeedbackupdated'] = 'フィードバックが更新されました。';
 $string['commentremovedbyauthor'] = '投稿者によって削除されたフィードバック';
 $string['commentremovedbyowner'] = 'オーナーによって削除されたフィードバック';

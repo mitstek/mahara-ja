@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-08-16 06:13:46 UTC
+ * @updated    2017-09-19 07:27:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -26,7 +26,7 @@ $string['attachfile'] = '添付ファイル';
 $string['Attachments'] = '添付ファイル';
 $string['cantedithasreplies'] = 'あなたは最新コメントのみ編集することができます。';
 $string['canteditnotauthor'] = 'あなたはこのコメントの投稿者ではありません。';
-$string['cantedittooold'] = 'あなたは投稿後 %d 分以内のコメントのみ編集することができます。';
+$string['cantedittooold'] = 'あなたは投稿後 %d 分未満のコメントのみ編集することができます。';
 $string['commentmadepublic'] = 'コメントがパブリックにされました。';
 $string['commentdeletedauthornotification'] = 'あなたの %s のコメントが削除されました:
 %s';
@@ -38,7 +38,7 @@ $string['commentremovedbyowner'] = 'オーナーによりコメントが削除�
 $string['commentremovedbyadmin'] = '管理者によりコメントが削除されました。';
 $string['commentupdated'] = 'コメントが更新されました。';
 $string['editcomment'] = 'コメントを編集する';
-$string['editcommentdescription'] = 'あなたは新しい返信が追加されていない %d 分以内のコメントを更新することができます。この時間終了後、あなたはコメントを削除して新たなコメントを追加することはできます。';
+$string['editcommentdescription'] = 'あなたは新しい返信が追加されていない %d 分未満のコメントを更新することができます。この時間終了後、あなたはコメントを削除して新たなコメントを追加することはできます。';
 $string['entriesimportedfromleapexport'] = 'Leap2Aエクスポートよりインポートされて他の場所にインポートできなかったエントリです。';
 $string['feedback'] = 'フィードバック';
 $string['feedbackattachdirname'] = 'コメントファイル';
