@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-01 03:48:36 UTC
+ * @updated    2017-09-20 01:50:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -68,6 +68,7 @@ $string['obsoletesamlinstance'] = 'SAML認証インスタンス <a href="%s">%s<
 $string['reallyreallysure1'] = 'あなたはMaharaのサービスプロバイダメタデータを保存しようとしています。これは元に戻すことはできません。また、あなたの新しいメタデータをすべてのアイデンティティプロバイダと再共有するまで既存のインスティテューションに設定されているSAMLログインは動作しません。';
 $string['reset'] = 'メタデータをリセットする';
 $string['resetmetadata'] = 'Maharasメタデータの証明書をリセットします。これは元に戻すことはできません。また、あなたのメタデータをアイデンティティプロバイダと再共有する必要があります。';
+$string['samlconfig'] = 'SAML設定';
 $string['samlfieldforemail'] = 'メールアドレスのSSOフィールド';
 $string['samlfieldforfirstname'] = '名のSSOフィールド';
 $string['samlfieldforsurname'] = '姓のSSOフィールド';

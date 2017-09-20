@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-07-29 05:13:30 UTC
+ * @updated    2017-09-20 01:49:40 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -803,10 +803,6 @@ $string['admininstitutions'] = 'インスティテューションを管理する
 $string['adminauthorities'] = '認証局を管理する';
 $string['addinstitution'] = 'インスティテューションを追加する';
 $string['authplugin'] = '認証プラグイン';
-$string['ldapconfig'] = 'LDAP設定';
-$string['samlconfig'] = 'SAML設定';
-$string['xmlrpcconfig'] = 'XML-RPC設定';
-$string['imapconfig'] = 'IMAP設定';
 $string['deleteinstitution'] = 'インスティテューションを削除する';
 $string['deleteinstitutionconfirm'] = '本当にこのインスティテューションを削除してもよろしいですか?';
 $string['institutionstillhas'] = 'このインスティテューションにはまだ %s が登録されています。';
