@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-21 16:12:15 UTC
+ * @updated    2017-09-21 17:35:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -204,6 +204,118 @@ $string['reporttype'] = 'レポートタイプ';
 $string['reportconfig'] = 'レポート設定';
 $string['reportdesctitle'] = 'このレポートには次を含みます:';
 $string['reportaccesslist'] = 'ポートフォリオアクセス';
+$string['reportdescaccesslist'] = '<ul>
+<li>ポートフォリオオーナー</li>
+<li>ポートフォリオのタイトル</li>
+<li>アクセスリスト 例) ポートフォリオを閲覧できるパーミッションのあるユーザ</li>
+</ul>';
+$string['reportdescusers'] = '<ul>
+<li>日付</li>
+<li>ログイン人数</li>
+<li>アカウント作成数</li>
+<li>選択したインスティテューションの人数</li>
+<li>選択したインスティテューションの平均的なユーザに関する情報</li>
+</ul>';
+$string['reportuserdetails'] = 'ユーザ詳細';
+$string['reportdescuserdetails'] = '<ul>
+<li>ユーザ名</li>
+<li>メールアドレス</li>
+<li>名</li>
+<li>姓</li>
+<li>IDナンバー</li>
+<li>表示名</li>
+<li>リモートユーザ名</li>
+<li>最終ログイン</li>
+<li>保護観察ポイント数</li>
+</ul>';
+$string['reportuseractivity'] = 'ユーザ活動';
+$string['reportdescuseractivity'] = '<ul>
+<li>ユーザ情報</li>
+<li>アーティファクト数</li>
+<li>ページ数</li>
+<li>コレクション数</li>
+<li>グループ数</li>
+<li>ログイン数</li>
+<li>操作数 (アーティファクト、フォーラム投稿、個人ページおよびコレクション、グループページおよびコレクション、コメント、ページ閲覧の作成および修正)</li>
+<li>最終ログイン</li>
+<li>最終活動</li>
+</ul>';
+$string['reportcollaboration'] = 'コラボレーション';
+$string['reportdesccollaboration'] = '<ul>
+<li>コメント数</li>
+<li>アノテーションコメント数</li>
+<li>個々のユーザと共有されているポートフォリオ数 (ページまたはコレクション)</li>
+<li>グループと共有されているポートフォリオ数</li>
+<li>インスティテューションと共有されているポートフォリオ数</li>
+<li>すべての登録ユーザと共有されているポートフォリオ数</li>
+<li>パブリックに共有されているポートフォリオ数</li>
+<li>シークレットURL経由で共有されているポートフォリオ数</li>
+<li>フレンドと共有されているポートフォリオ数</li>
+</ul>';
+$string['reportmasquerading'] = 'マスカレーディングセッション';
+$string['reportdescmasquerading'] = '<ul>
+<li>氏名およびユーザ名</li>
+<li>マスカレーディングセッションの理由</li>
+<li>マスカレードした管理者</li>
+<li>マスカレーディングセッションの開始日時</li>
+</ul>';
+$string['reportpageactivity'] = 'ページ活動';
+$string['reportdescpageactivity'] = '<ul>
+<li>ページタイトル</li>
+<li>ページオーナー</li>
+<li>作成日</li>
+<li>最終修正日</li>
+<li>最終ページ閲覧日</li>
+<li>ページに含まれるブロック数</li>
+<li>ページが属するコレクションのタイトル (ある場合)</li>
+</ul>';
+$string['allothers'] = 'その他すべて';
+$string['reportdescgroups'] = '<ul>
+<li>ID</li>
+<li>名称</li>
+<li>メンバー数</li>
+<li>ページ数</li>
+<li>グループページのコメント数</li>
+<li>グループに共有されているページのコメント数</li>
+<li>フォーラム数</li>
+<li>フォーラム投稿数</li>
+</ul>';
+$string['reportdesccontent'] = '<ul>
+<li>タイトル</li>
+<li>修正数</li>
+<li>合計</li>
+<li>修正に関わったユニークユーザ数</li>
+<li>合計内のユニークユーザ数</li>
+</ul>';
+$string['informationreports'] = 'インフォメーション概要';
+$string['reportdescinformation'] = '<ul>
+<li>作成日</li>
+<li>ユーザ数</li>
+<li>ページ数</li>
+<li>使用ディスクスペース</li>
+<li>「すべてのインスティテューション」のみ:
+<ul>
+<li>グループ数</li>
+<li>データベースサイズ</li>
+<li>Maharaバージョン</li>
+<li>Cron実行情報</li>
+</ul></li>
+</ul>';
+$string['reportinstitutioncomparison'] = 'インスティテューション比較';
+$string['reportdesccomparisons'] = '<ul>
+<li>インスティテューション</li>
+<li>メンバー数</li>
+<li>ページ数</li>
+<li>ブロック数</li>
+<li>アーティファクト数</li>
+<li>インスティテューションメンバーによるフォーラム投稿数</li>
+</ul>';
+$string['reportdesclogins'] = '<ul>
+<li>インスティテューション</li>
+<li>ユーザを問わないログイン数</li>
+<li>アクティブユーザ数</li>
+</ul>';
+$string['userscollaborationreports'] = 'コラボレーション';
 $string['userspageactivityreports'] = 'ページ活動';
 $string['usersmasqueradingreports'] = 'マスカレーディングセッション';
 $string['usersaccesslistreports'] = 'ポートフォリオアクセス';
@@ -211,17 +323,32 @@ $string['usersuseractivityreports'] = 'ユーザ活動';
 $string['usersuserdetailsreports'] = 'ユーザ詳細';
 $string['groupsreports'] = 'グループ概要';
 $string['contentreports'] = 'コンテンツ概要';
+$string['peoplereports'] = '人概要';
 $string['informationloginsreports'] = 'ログイン';
+$string['informationcomparisonsreports'] = 'インスティテューション比較';
+$string['applyingfilters'] = 'フィルタ適用';
+$string['nogroupdataperinstitution'] = 'グループレポートはサイト全体にのみ生成することができます。あなたにサイト全体のレポートを閲覧できるパーミッションがある場合、インスティテューションセレクタより「すべてのインスティテューション」を選択してください。';
+$string['nocomparisondataperinstitution'] = '比較レポートはサイト全体にのみ生成することができます。あなたにサイト全体のレポートを閲覧できるパーミッションがある場合、インスティテューションセレクタより「すべてのインスティテューション」を選択してください。';
+$string['nologinsdataperinstitution'] = 'ログインレポートはサイト全体にのみ生成することができます。あなたにサイト全体のレポートを閲覧できるパーミッションがある場合、インスティテューションセレクタより「すべてのインスティテューション」を選択してください。';
 $string['timeframe'] = '期間:';
+$string['groupcomments'] = 'グループページコメント';
+$string['sharedcomments'] = '共有ページコメント';
 $string['notdisplayed'] = 'N/A';
+$string['lastmodified'] = '最終更新日時';
+$string['lastvisited'] = '最終アクセス日時';
 $string['user'] = 'ユーザ';
 $string['usershare'] = 'ユーザ';
 $string['groupshare'] = 'グループ';
 $string['institutionshare'] = 'インスティテューション';
+$string['loggedinshare'] = '登録';
 $string['publicshare'] = 'パブリック';
 $string['secretshare'] = 'シークレットURL';
 $string['friendshare'] = 'フレンド';
+$string['actions'] = '操作';
+$string['lastactivity'] = '最終活動';
 $string['removefilter'] = 'フィルタを削除する';
+$string['collaborationdate'] = 'w.c. %s';
+$string['needadvancedanalytics'] = 'このレポートに高度なアナリティクスを有効にする必要があります。詳細は「サイト設定」の「ロギング設定」をご覧ください。';
 $string['Overview'] = '概要';
 $string['weeklytrend'] = '成長トレンド';
 $string['groupinfo'] = 'グループ概要';

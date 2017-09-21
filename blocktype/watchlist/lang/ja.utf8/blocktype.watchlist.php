@@ -34,7 +34,7 @@ $string['filterby.half'] = '直近6ヶ月';
 $string['filterby.year'] = '昨年';
 $string['filterby.login'] = '前回のログインから';
 $string['orderby'] = '並べ替え順';
-$string['orderbydesc'] = 'ページの表示を新しい順またはページオーナー順から選択してください。';
+$string['orderbydesc'] = 'ページの表示を新しい順またはページオーナー順より選択してください。';
 $string['orderby.activity'] = '新しい順';
 $string['orderby.owner'] = 'ページオーナー';
 
