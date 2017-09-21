@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-08-05 06:46:44 UTC
+ * @updated    2017-09-21 01:55:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,6 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'LDAP';
+$string['ldapconfig'] = 'LDAP設定';
 $string['description'] = 'LDAPサーバで認証する';
 $string['notusable'] = 'PHP LDAP拡張モジュールをインストールしてください。';
 $string['attributename'] = '値を基にグループを同期する場合に使用するLDAP属性名です (必須および大文字小文字を区別します)。';
