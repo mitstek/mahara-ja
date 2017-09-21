@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-09 14:13:59 UTC
+ * @updated    2017-09-21 12:54:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -38,7 +38,7 @@ $string['daterecentfirst'] = '日付 (新しい順)';
 $string['deleted'] = '削除済み';
 $string['deletedforumpost'] = '削除済みフォーラム投稿';
 $string['document'] = 'ドキュメント';
-$string['elasticsearchtooold'] = 'あなたのElasticsearchのバージョン「 %s 」は古過ぎます。「 %s 」またはそれ以上を必要とします。';
+$string['elasticsearchtooold'] = 'あなたのElasticsearchのバージョン %s は古過ぎます。%s またはそれ以上を必要とします。';
 $string['filterresultsby'] = '結果をフィルタする';
 $string['forum'] = 'フォーラム';
 $string['forumpost'] = 'フォーラム投稿';
@@ -54,7 +54,7 @@ $string['indexnamedescription'] = 'Elasticsearchインデックス名です。�
 $string['license'] = 'ライセンス';
 $string['Media'] = 'メディア';
 $string['newindextype'] = 'あなたのElasticsearch設定に新しいインデックスタイプ「 %s 」が追加されました。これが適用されるためにはあなたのサイトを再インデックス化する必要があります。';
-$string['newversion'] = '新しいElasticsearch PHPバージョン「 %s 」がMaharaに追加されました。これはElasticsearchサーバ「 %s 」またはそれ以上と互換性があります。これを適用するにはあなたのサイトを再インデックス化する必要があります。';
+$string['newversion'] = '新しいElasticsearch PHPバージョン %s がMaharaに追加されました。これはElasticsearchサーバ %s またはそれ以上と互換性があります。これを適用するにはあなたのサイトを再インデックス化する必要があります。';
 $string['none'] = 'なし';
 $string['noticeenabled'] = '現在、Elasticsearchプラグインは有効にされています。Elasticsearchプラグインを無効にするには<a href="%s">サイトオプションの検索設定</a>で選択解除してください。';
 $string['noticenotactive'] = 'ホスト: %s およびポート %s のElasticsearchサーバにアクセスできません。動作しているかどうか確認してください。';
@@ -80,7 +80,7 @@ $string['resetdescription'] = 'このテーブルではElasticsearchサーバに
 $string['resetlegend'] = 'インデックスリセット';
 $string['resume'] = 'レジュメ';
 $string['shards'] = 'シャード';
-$string['shardsdescription'] = '作成されるインデックスの個数です。';
+$string['shardsdescription'] = '作成されるインデックスの個数 (シャード) です。';
 $string['sortby'] = '並べ替え';
 $string['tags'] = 'タグ';
 $string['tagsonly'] = 'タグのみ';
