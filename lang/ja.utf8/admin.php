@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-21 16:05:30 UTC
+ * @updated    2017-09-21 16:16:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -258,8 +258,8 @@ $string['statsmaxgroups1'] = '所属グループ数: %2$s<br />(<a href="%3$s">%
 $string['statsnogroups'] = '所属グループ数: 0';
 $string['statsnoquota'] = 'ストレージ未使用';
 $string['statsmaxquotaused1'] = 'ディスククオータ使用: %s<br />(<a href="%s">%s は最大 %s のディスククオータを使用しました</a>)';
-$string['groupcountsbytype'] = 'グループタイプごとのグループ数';
-$string['groupcountsbyjointype'] = 'アクセスタイプごとのグループ数';
+$string['groupcountsbytype'] = 'グループタイプ別グループ数';
+$string['groupcountsbyjointype'] = 'アクセスタイプ別グループ数';
 $string['blockcountsbytype'] = 'ポートフォリオページで最も使用されたブロック';
 $string['uptodate'] = '最新';
 $string['latestversionis'] = '最新バージョン: <a href="%s">%s</a>';
