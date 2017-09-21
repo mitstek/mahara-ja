@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-21 12:59:46 UTC
+ * @updated    2017-09-21 16:12:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -198,6 +198,36 @@ $string['staff'] = 'スタッフ';
 $string['admins'] = '管理者';
 $string['activeusers'] = 'アクティブユーザ';
 $string['logins'] = 'ログイン';
+$string['reports'] = 'レポート';
+$string['reportsfor'] = '%s のレポート';
+$string['reporttype'] = 'レポートタイプ';
+$string['reportconfig'] = 'レポート設定';
+$string['reportdesctitle'] = 'このレポートには次を含みます:';
+$string['reportaccesslist'] = 'ポートフォリオアクセス';
+$string['userspageactivityreports'] = 'ページ活動';
+$string['usersmasqueradingreports'] = 'マスカレーディングセッション';
+$string['usersaccesslistreports'] = 'ポートフォリオアクセス';
+$string['usersuseractivityreports'] = 'ユーザ活動';
+$string['usersuserdetailsreports'] = 'ユーザ詳細';
+$string['groupsreports'] = 'グループ概要';
+$string['contentreports'] = 'コンテンツ概要';
+$string['informationloginsreports'] = 'ログイン';
 $string['timeframe'] = '期間:';
+$string['notdisplayed'] = 'N/A';
+$string['user'] = 'ユーザ';
+$string['usershare'] = 'ユーザ';
+$string['groupshare'] = 'グループ';
+$string['institutionshare'] = 'インスティテューション';
+$string['publicshare'] = 'パブリック';
+$string['secretshare'] = 'シークレットURL';
+$string['friendshare'] = 'フレンド';
+$string['removefilter'] = 'フィルタを削除する';
+$string['Overview'] = '概要';
+$string['weeklytrend'] = '成長トレンド';
+$string['groupinfo'] = 'グループ概要';
+$string['usersinfo'] = 'ユーザ概要';
+$string['viewsinfo'] = 'ページ概要';
+$string['usersbyinstitution'] = 'インスティテューション別ユーザ';
+$string['groupsbytype'] = 'タイプ別グループ';
 
 ?>
