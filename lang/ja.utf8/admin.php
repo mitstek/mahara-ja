@@ -228,8 +228,8 @@ $string['statsmaxgroups'] = '平均所属グループ数: %s (最も所属グル
 $string['statsnogroups'] = '所属グループ数: 0';
 $string['statsnoquota'] = 'ストレージ未使用';
 $string['statsmaxquotaused'] = '平均利用ディスククオータ: %s (最も使用済みクオータの多いユーザ: <a href="%s">%s</a> - 使用済みクオータ: %s)';
-$string['groupcountsbytype'] = 'グループタイプごとのグループ数';
-$string['groupcountsbyjointype'] = 'アクセスタイプごとのグループ数';
+$string['groupcountsbytype'] = 'グループタイプ別グループ数';
+$string['groupcountsbyjointype'] = 'アクセスタイプ別グループ数';
 $string['blockcountsbytype'] = 'ポートフォリオページで最も使用されたブロック';
 $string['uptodate'] = '最新';
 $string['latestversionis'] = '最新バージョン: <a href="%s">%s</a>';
