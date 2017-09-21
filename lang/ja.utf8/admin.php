@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-21 14:22:07 UTC
+ * @updated    2017-09-21 16:03:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -24,6 +24,7 @@ $string['coredata'] = 'コアデータ';
 $string['coredatasuccess'] = 'コアデータを正常にインストールしました。';
 $string['fromversion'] = 'アップグレード前';
 $string['information'] = 'インフォメーション';
+$string['Information'] = 'インフォメーション';
 $string['installingplugin'] = '%s のインストール';
 $string['installsuccess'] = '次のバージョンを正常にインストールしました:';
 $string['toversion'] = 'アップグレード後';
@@ -275,8 +276,14 @@ $string['site'] = 'サイト';
 $string['exportgroupscsv'] = 'グループをCSVフォーマットでエクスポートする';
 $string['exportgroupmembershipscsv'] = 'グループメンバーシップをCSVフォーマットでエクスポートする';
 $string['exportgroupmembershipscsvspecific'] = '「 %s 」のグループメンバーシップをCSVフォーマットでエクスポートする';
+$string['nostatistics'] = '現在、このインスティテューションの表示できる統計はありません。';
 $string['institutionstatisticsfor'] = '「 %s 」のインスティテューション統計';
 $string['institutioncreated'] = 'インスティテューション作成';
+$string['People'] = '人';
+$string['Groups'] = 'グループ';
+$string['Content'] = 'コンテンツ';
+$string['configurereport'] = 'レポートを設定する';
+$string['Columns'] = 'カラム';
 $string['adminsonly'] = '管理者のみ';
 $string['adminsandstaffonly'] = '管理者およびスタッフのみ';
 $string['advanced'] = '高度';
@@ -386,6 +393,10 @@ $string['smallviewheaders'] = 'スモールページヘッダ';
 $string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧および編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
 $string['spamhaus1'] = 'Spamhaus URLブラックリスト';
 $string['spamhausdescription1'] = 'Spamhaus DNSBLを照合してURLをチェックします。';
+$string['staffaccessreports'] = 'スタッフのアクセスレポート';
+$string['staffaccessreportsdescription'] = 'サイトおよびインスティテューションスタッフがインスティテューションの「ユーザ詳細」「アクセスリスト」および「マスカレーディング」レポートにアクセスできるようにします。通常、このレポートは管理者に制限されます。';
+$string['institutionstaffallreports'] = 'インスティテューションスタッフのすべてのレポート';
+$string['institutionstaffallreportsdescription'] = 'インスティテューションスタッフがインスティテューションのすべてのレポートにアクセスできるようにします。通常、このレポートは管理者およびサイトスタッフに制限されます。';
 $string['surbl1'] = 'SURBL URLブラックリスト';
 $string['surbldescription1'] = 'SURBL DNSBLを照合してURLをチェックします。';
 $string['disableexternalresources'] = 'ユーザHTMLの外部リソースを無効にする';
@@ -1010,6 +1021,7 @@ $string['bulkchangeauthmethodresetpassword'] = 'あなたはパスワードを�
 $string['bulkdeleteuserssuccess'] = '%d 名のユーザを削除しました。';
 $string['bulkprobationpointssuccess'] = '%1$d ユーザに保護観察ポイント %2$d を設定しました。';
 $string['selectedusers'] = '選択済みユーザ';
+$string['selectednusers'] = '%s ユーザが選択されました。';
 $string['remoteuser'] = 'リモートユーザ名';
 $string['userreports'] = 'ユーザレポート';
 $string['userreportsdescription'] = 'あなたが検索ページで選択したユーザ情報を表示またはダウンロードします。';
@@ -1145,5 +1157,6 @@ $string['cli_tmpdir_notwritable'] = '一時アップロードディレクトリ�
 $string['cli_lang_branch'] = 'シリーズ「 %s 」の言語パックを取得するためのMaharaシリーズバージョン';
 $string['withselectedcontentexport'] = 'アイテムを再度エクスポートキューに入れる';
 $string['withselectedcontentdelete'] = '選択したアイテムをエクスポートキューから削除する';
+$string['allothers'] = 'その他すべて';
 
 ?>
