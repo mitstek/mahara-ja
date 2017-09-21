@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-20 01:49:40 UTC
+ * @updated    2017-09-21 14:22:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -263,9 +263,6 @@ $string['blockcountsbytype'] = 'ポートフォリオページで最も使用さ
 $string['uptodate'] = '最新';
 $string['latestversionis'] = '最新バージョン: <a href="%s">%s</a>';
 $string['viewsbytype'] = 'タイプ別ページ';
-$string['userstatstabletitle'] = '日次ユーザ統計';
-$string['groupstatstabletitle'] = '最大グループ';
-$string['viewstatstabletitle'] = '人気ページ';
 $string['institutionloginstabletitle'] = 'アクティブインスティテューション';
 $string['institutionloginstablesubtitle'] = '%s - %s';
 $string['visitedtimesrank'] = '訪問回数: %s 回 / ランク数: %s 件';
@@ -278,13 +275,8 @@ $string['site'] = 'サイト';
 $string['exportgroupscsv'] = 'グループをCSVフォーマットでエクスポートする';
 $string['exportgroupmembershipscsv'] = 'グループメンバーシップをCSVフォーマットでエクスポートする';
 $string['exportgroupmembershipscsvspecific'] = '「 %s 」のグループメンバーシップをCSVフォーマットでエクスポートする';
-$string['statistics'] = '統計';
-$string['institutionstatistics'] = 'インスティテューション統計';
 $string['institutionstatisticsfor'] = '「 %s 」のインスティテューション統計';
 $string['institutioncreated'] = 'インスティテューション作成';
-$string['contentstatstabletitle'] = '今週のコンテンツ統計';
-$string['historicalstatstabletitle'] = 'フィールド「 %s 」の長期時系列統計';
-$string['institutionstatstabletitle'] = 'インスティテューション統計比較';
 $string['adminsonly'] = '管理者のみ';
 $string['adminsandstaffonly'] = '管理者およびスタッフのみ';
 $string['advanced'] = '高度';
@@ -394,10 +386,6 @@ $string['smallviewheaders'] = 'スモールページヘッダ';
 $string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧および編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
 $string['spamhaus1'] = 'Spamhaus URLブラックリスト';
 $string['spamhausdescription1'] = 'Spamhaus DNSBLを照合してURLをチェックします。';
-$string['staffuserreports'] = 'スタッフレポートアクセス';
-$string['staffuserreportsdescription1'] = 'サイトおよびインスティテューションスタッフがインスティテューションユーザのレポートページにアクセスできるようにします。通常、このページは管理者に制限されページアクセスリストを含む追加ユーザ情報を一覧表示します。';
-$string['staffuserstats'] = 'スタッフ統計アクセス';
-$string['staffuserstatsdescription1'] = 'インスティテューションスタッフがインスティテューションユーザの統計ページにアクセスできるようにします。通常、このページは管理者およびサイトスタッフに制限されています。';
 $string['surbl1'] = 'SURBL URLブラックリスト';
 $string['surbldescription1'] = 'SURBL DNSBLを照合してURLをチェックします。';
 $string['disableexternalresources'] = 'ユーザHTMLの外部リソースを無効にする';
@@ -431,6 +419,8 @@ $string['eventlogexpirydescription'] = 'どのくらいの期間、イベント�
 $string['eventloglevelnone'] = 'なし';
 $string['eventloglevelmasq'] = 'マスカレーディング';
 $string['eventloglevelall'] = 'すべて';
+$string['eventlogenhancedsearch'] = 'イベントログレポーティング';
+$string['eventlogenhancedsearchdescription'] = 'あなたのサイトの活動に関してさらに記録するため高度なアナリティクス機能を使用したい場合、これは必須です。';
 $string['sitefilesaccess'] = 'サイトファイルにアクセスする';
 $string['sitefilesaccessdescription1'] = '登録ユーザがサブフォルダ内のサイトファイルにアクセスできるようにします。デフォルトではトップレベルのディレクトリ内のファイルにのみアクセスすることができます。';
 $string['watchlistdelaydescription'] = 'ウォッチリストの変更に関するメールを送信する遅延時間 (分) です。';
@@ -1155,6 +1145,5 @@ $string['cli_tmpdir_notwritable'] = '一時アップロードディレクトリ�
 $string['cli_lang_branch'] = 'シリーズ「 %s 」の言語パックを取得するためのMaharaシリーズバージョン';
 $string['withselectedcontentexport'] = 'アイテムを再度エクスポートキューに入れる';
 $string['withselectedcontentdelete'] = '選択したアイテムをエクスポートキューから削除する';
-$string['statisticsforallinstitutions'] = 'すべてのインスティテューションの統計';
 
 ?>
