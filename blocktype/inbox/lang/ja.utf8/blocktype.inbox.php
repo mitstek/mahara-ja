@@ -29,7 +29,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'マイ受信箱';
-$string['description'] = 'あなたの受信箱から選択された最近のメッセージを表示します。';
+$string['description'] = 'あなたの受信箱より選択された最近のメッセージを表示します。';
 $string['messagetypes'] = '表示するメッセージタイプ';
 $string['maxitems'] = '表示するアイテムの最大数';
 $string['maxitemsdescription'] = '設定範囲: 1～100';
