@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-20 01:50:27 UTC
+ * @updated    2017-09-22 06:55:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -30,6 +30,7 @@ $string['errorretryexceeded'] = '再試行の最大回数 (%s) を越えまし�
 $string['errnosamluser'] = 'ユーザが見つかりませんでした。';
 $string['errorssphpsetup'] = 'SAMLが正しくセットアップされていません。あなたは最初にコマンドラインから「make ssphp」を実行する必要があります。';
 $string['errorbadlib'] = 'SimpleSAMLPHPライブラリの「autoloader」ファイルが %s にありません。<br />あなたが「make ssphp」を使ってSimpleSAMLphpをインストールしていることを確認してください。また、ファイルを読み込むことができるか確認してください。';
+$string['errorupdatelib'] = 'あなたの現在のSimpleSAMLPHPライブラリは旧バージョンです。あなたは「make cleanssphp && make ssphp」を実行する必要があります。';
 $string['errornomcrypt'] = 'auth/samlのためにPHPライブラリ「mcrypt」がインストールされている必要があります。あなたがmcryptをインストールして有効化していることを確認してください。例:<br />sudo apt-get install php5-mcrypt<br />sudo php5enmod mcrypt<br />そしてウェブサーバを再起動してください。';
 $string['errornomcrypt7php'] = 'auth/samlのためにPHPライブラリ「mcrypt」がインストールされている必要があります。あなたがmcryptをインストールして有効化していることを確認してください。例:<br />sudo apt-get install php7.0-mcrypt<br />sudo phpenmod mcrypt<br />そしてウェブサーバを再起動してください。';
 $string['errornomemcache'] = 'auth/samlのためにmemcacheサーバが必要です。あなたのmemcacheサーバのパスを$cfg->memcacheservers設定変数に一覧記述するかPHPライブラリ「memcache」をローカルにインストールしてください:<br / >sudo apt-get install php5-memcache<br />sudo php5enmod memcache<br />そしてウェブサーバを再起動してください。';
@@ -82,5 +83,10 @@ $string['simplesamlphpconfig'] = 'SimpleSAMLPHP設定ディレクトリ';
 $string['weautocreateusers'] = 'こちらでユーザを自動作成する';
 $string['remoteuser'] = 'ユーザ属性をリモートユーザに合致させる';
 $string['selectidp'] = 'あなたがログインしたいアイデンティティプロバイダを選択してください。';
+$string['sha1'] = 'レガシーSHA1 (危険)';
+$string['sha256'] = 'SHA256 (デフォルト)';
+$string['sha384'] = 'SHA384';
+$string['sha512'] = 'SHA512';
+$string['sigalgo'] = '署名アルゴリズム';
 
 ?>
