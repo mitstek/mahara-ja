@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-19 07:27:31 UTC
+ * @updated    2017-09-24 15:14:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -38,7 +38,7 @@ $string['commentremovedbyowner'] = 'オーナーによりコメントが削除�
 $string['commentremovedbyadmin'] = '管理者によりコメントが削除されました。';
 $string['commentupdated'] = 'コメントが更新されました。';
 $string['editcomment'] = 'コメントを編集する';
-$string['editcommentdescription'] = 'あなたは新しい返信が追加されていない %d 分未満のコメントを更新することができます。この時間終了後、あなたはコメントを削除して新たなコメントを追加することはできます。';
+$string['editcommentdescription'] = 'あなたは新しい返信が追加されていない %d 分未満のコメントを更新することができます。この時間経過後、あなたはコメントを削除して新たなコメントを追加することはできます。';
 $string['entriesimportedfromleapexport'] = 'Leap2Aエクスポートよりインポートされて他の場所にインポートできなかったエントリです。';
 $string['feedback'] = 'フィードバック';
 $string['feedbackattachdirname'] = 'コメントファイル';
@@ -53,12 +53,12 @@ $string['forceprivatecomment'] = 'プライベート: この返信はあなた�
 $string['lastcomment'] = '最新コメント';
 $string['makecommentpublic'] = 'コメントをパブリックにする';
 $string['makepublicnotallowed'] = 'あなたはこのコメントをパブリックにすることはできません。';
-$string['makepublicrequestsubject'] = 'リクエスト: プライベートコメントをパブリックに変更する';
+$string['makepublicrequestsubject'] = 'プライベートコメントのパブリックへの変更リクエスト';
 $string['makepublicrequestbyauthormessage'] = 'あなたがコメントをパブリックにするよう %s がリクエストしました。';
-$string['makepublicrequestbyownermessage'] = 'あなたがあなたのコメントをパブリックにするよう %s がリクエストしました。';
+$string['makepublicrequestbyownermessage'] = 'あなたのコメントをパブリックにするよう %s がリクエストしました。';
 $string['makepublicrequestsent'] = 'コメントをパブリックにするリクエストメッセージが %s に送信されました。';
 $string['groupadmins'] = 'グループ管理者';
-$string['messageempty'] = 'あなたのメッセージは空白です。メッセージまたは添付ファイルを入力してください。';
+$string['messageempty'] = 'あなたのメッセージは空白です。メッセージを入力するかファイルを添付してください。';
 $string['Moderate'] = 'モデレート';
 $string['moderatecomments'] = 'コメントをモデレートする';
 $string['moderatecommentsdescription1'] = 'あなたに承認されるまでページのコメントはプライベートのままにされます。ファイルおよび日誌エントリ等の個々のコメントはモデレーションから除外されます。';
@@ -68,9 +68,9 @@ $string['rating'] = 'レーティング';
 $string['reallydeletethiscomment'] = '本当にこのコメントを削除してもよろしいですか?';
 $string['reply'] = '返信';
 $string['replyto'] = '返信:';
-$string['replytonoaccess'] = 'あなたはこのコメントに対する返信の投稿を許可されていません。';
-$string['replytonoprivatereplyallowed'] = 'あなたはこのコメントに対するプライベート返信の投稿を許可されていません。';
-$string['replytonopublicreplyallowed'] = 'あなたはこのコメントに対するパブリック返信の投稿を許可されていません。';
+$string['replytonoaccess'] = 'あなたはこのコメントへの返信の投稿を許可されていません。';
+$string['replytonoprivatereplyallowed'] = 'あなたはこのコメントへのプライベート返信の投稿を許可されていません。';
+$string['replytonopublicreplyallowed'] = 'あなたはこのコメントへのパブリック返信の投稿を許可されていません。';
 $string['thiscommentisprivate'] = 'このコメントは非公開です。';
 $string['typefeedback'] = 'フィードバック';
 $string['viewcomment'] = 'コメントを表示する';
