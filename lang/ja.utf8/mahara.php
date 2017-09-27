@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-07-10 10:29:59 UTC
+ * @updated    2017-09-27 04:42:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1112,6 +1112,8 @@ $string['styleguide_title'] = 'スタイルガイド';
 $string['styleguide_description'] = 'このスタイルガイドではMaharaで使用される異なるタイプのコンポーネントすべてに関して説明します。これらは1箇所に入れられるためあなたの新しいテーマまたはプラグインの開発時にスタイリングされているかどうか簡単に確認することができます。あなたのサイトに異なるテーマを適用して個々のコンポーネントがどのように表示されるか確認します。';
 $string['cli_incorrect_value'] = '値が正しくありません。再度お試しください。';
 $string['scroll_to_top'] = 'トップに戻る';
+$string['tabgroup'] = 'グループ';
+$string['tabinstitution'] = 'インスティテューション';
 $string['version.'] = 'v.';
 
 ?>
