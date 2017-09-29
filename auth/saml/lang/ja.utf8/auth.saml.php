@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-25 04:47:21 UTC
+ * @updated    2017-09-29 06:06:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -34,8 +34,8 @@ $string['errorbadlib'] = 'SimpleSAMLPHPライブラリの「autoloader」ファ�
 $string['errorupdatelib'] = 'あなたの現在のSimpleSAMLPHPライブラリは旧バージョンです。あなたは「make cleanssphp && make ssphp」を実行する必要があります。';
 $string['errornomcrypt'] = 'auth/samlのためにPHPライブラリ「mcrypt」がインストールされている必要があります。あなたがmcryptをインストールして有効化していることを確認してください。例:<br />sudo apt-get install php5-mcrypt<br />sudo php5enmod mcrypt<br />そしてウェブサーバを再起動してください。';
 $string['errornomcrypt7php'] = 'auth/samlのためにPHPライブラリ「mcrypt」がインストールされている必要があります。あなたがmcryptをインストールして有効化していることを確認してください。例:<br />sudo apt-get install php7.0-mcrypt<br />sudo phpenmod mcrypt<br />そしてウェブサーバを再起動してください。';
-$string['errornomemcache'] = 'auth/samlのためのmemcacheの設定が正しくないか現在memcacheを利用できません。';
-$string['errornomemcache7php'] = 'auth/samlのためのmemcacheの設定が正しくないか現在memcacheを利用できません。';
+$string['errornomemcache'] = 'auth/samlのためのMemcacheの設定が正しくないか現在Memcacheを利用できません。';
+$string['errornomemcache7php'] = 'auth/samlのためのMemcacheの設定が正しくないか現在Memcacheを利用できません。';
 $string['errorbadconfig'] = 'SimpleSAMLPHP設定ディレクトリ「 %s 」が正しくありません。';
 $string['errorbadmetadata'] = 'SAMLメタデータのフォーマットが正しくありません。XMLに1つの有効なアイデンティティプロバイダが含まれていることを確認してください。';
 $string['errorbadinstitutioncombo'] = 'このインスティテューション属性およびインスティテューション値の組み合わせの認証インスタンスはすでに存在します。';
@@ -64,7 +64,7 @@ $string['logo'] = 'ロゴ';
 $string['institutionregex'] = 'インスティテューション省略名を部分的に文字列一致させる';
 $string['login'] = 'SSO';
 $string['newidpentity'] = '新しいアイデンティティプロバイダを追加する';
-$string['notusable'] = 'SimpleSAMLPHPサービスプロバイダライブラリをインストールしてください。';
+$string['notusable'] = 'セッションのためにSimpleSAMLPHPライブラリをインストールしてMemcacheサーバを設定ください。';
 $string['obsoletesamlplugin'] = 'auth/samlプラグインを再設定する必要があります。<a href="%s">プラグイン設定</a>フォーム経由でプラグインを更新してください。';
 $string['obsoletesamlinstance'] = 'SAML認証インスタンス <a href="%s">%s</a> (「 %s 」インスティテューション) を更新する必要があります。';
 $string['reallyreallysure1'] = 'あなたはMaharaのサービスプロバイダメタデータを保存しようとしています。これは元に戻すことはできません。また、あなたの新しいメタデータをすべてのアイデンティティプロバイダと再共有するまで既存のインスティテューションに設定されているSAMLログインは動作しません。';

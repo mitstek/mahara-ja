@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-21 16:16:20 UTC
+ * @updated    2017-09-29 06:08:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -23,7 +23,6 @@ $string['continue'] = '続ける';
 $string['coredata'] = 'コアデータ';
 $string['coredatasuccess'] = 'コアデータを正常にインストールしました。';
 $string['fromversion'] = 'アップグレード前';
-$string['information'] = 'インフォメーション';
 $string['Information'] = 'インフォメーション';
 $string['installingplugin'] = '%s のインストール';
 $string['installsuccess'] = '次のバージョンを正常にインストールしました:';

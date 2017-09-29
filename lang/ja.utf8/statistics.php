@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-21 17:35:16 UTC
+ * @updated    2017-09-29 06:15:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -279,7 +279,8 @@ $string['reportdescgroups'] = '<ul>
 <li>グループに共有されているページのコメント数</li>
 <li>フォーラム数</li>
 <li>フォーラム投稿数</li>
-</ul>';
+</ul>
+<p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニューより「すべてのインスティテューション」を選択した場合のみ利用できます。</p>';
 $string['reportdesccontent'] = '<ul>
 <li>タイトル</li>
 <li>修正数</li>
@@ -309,12 +310,14 @@ $string['reportdesccomparisons'] = '<ul>
 <li>ブロック数</li>
 <li>アーティファクト数</li>
 <li>インスティテューションメンバーによるフォーラム投稿数</li>
-</ul>';
+</ul>
+<p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニューより「すべてのインスティテューション」を選択した場合のみ利用できます。</p>';
 $string['reportdesclogins'] = '<ul>
 <li>インスティテューション</li>
 <li>ユーザを問わないログイン数</li>
 <li>アクティブユーザ数</li>
-</ul>';
+</ul>
+<p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニューより「すべてのインスティテューション」を選択した場合のみ利用できます。</p>';
 $string['userscollaborationreports'] = 'コラボレーション';
 $string['userspageactivityreports'] = 'ページ活動';
 $string['usersmasqueradingreports'] = 'マスカレーディングセッション';
