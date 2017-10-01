@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-23 16:53:48 UTC
+ * @updated    2017-10-01 07:17:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -71,7 +71,7 @@ $string['replytonoaccess'] = 'あなたはこのコメントへの返信の投�
 $string['replytonoprivatereplyallowed'] = 'あなたはこのコメントへのプライベート返信の投稿を許可されていません。';
 $string['replytonopublicreplyallowed'] = 'あなたはこのコメントへのパブリック返信の投稿を許可されていません。';
 $string['thiscommentisprivate'] = 'このコメントは非公開です。';
-$string['typefeedback'] = 'フィードバック';
+$string['typefeedback'] = 'コメント';
 $string['viewcomment'] = 'コメントを表示する';
 $string['youhaverequestedpublic'] = 'あなたはこのコメントをパブリックにするようリクエストしました。';
 $string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が %s にコメントを投稿しました。</strong><br />%s</div>
