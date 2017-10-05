@@ -30,6 +30,6 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'フォルダ';
 $string['description'] = 'あなたのファイルエリアの単独フォルダです。';
-$string['defaulttitledescription'] = 'ここを空白にした場合、フォルダのタイトルが使用されます。';
+$string['defaulttitledescription'] = 'ここを空白にした場合、フォルダ名が使用されます。';
 
 ?>
