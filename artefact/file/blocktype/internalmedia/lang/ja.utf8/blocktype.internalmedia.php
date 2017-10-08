@@ -29,7 +29,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = '埋め込みメディア';
-$string['description'] = '埋め込みメディアのファイルを選択してください。';
+$string['description'] = '埋め込み表示するファイルを選択してください。';
 $string['media'] = 'メディア';
 $string['flashanimation'] = 'Flashアニメーション';
 $string['typeremoved'] = 'このブロックでは管理者によって許可されていないメディアタイプを示しています。';
