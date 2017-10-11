@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-29 06:15:04 UTC
+ * @updated    2017-10-11 14:41:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -270,6 +270,40 @@ $string['reportdescpageactivity'] = '<ul>
 <li>ページが属するコレクションのタイトル (ある場合)</li>
 </ul>';
 $string['allothers'] = 'その他すべて';
+$string['blockinstancecommit'] = 'ページにブロックを追加する';
+$string['addfriend'] = 'フレンドを追加する';
+$string['activateuser'] = 'ユーザを有効化する';
+$string['clearcaches'] = 'キャッシュをクリアする';
+$string['sharedcommenttogroup'] = 'グループで共有されているページにコメントを投稿する';
+$string['createcollection'] = 'コレクションを作成する';
+$string['creategroup'] = 'グループを作成する';
+$string['createview'] = 'ページを作成する';
+$string['createuser'] = 'ユーザを作成する';
+$string['deactivateuser'] = 'ユーザを無効化する';
+$string['deleteartefact'] = 'アーティファクトを削除する';
+$string['deleteartefacts'] = 'アーティファクトを削除する';
+$string['deleteblockinstance'] = 'ページからブロックを削除する';
+$string['deletecollection'] = 'コレクションを削除する';
+$string['removefriendrequest'] = 'フレンドリクエストを削除する';
+$string['deleteview'] = 'ページを削除する';
+$string['deleteuser'] = 'ユーザを削除する';
+$string['expireuser'] = 'ユーザを有効期限切れにする';
+$string['userjoinsgroup'] = 'グループに参加する';
+$string['login'] = 'ログイン';
+$string['loginas'] = 'ユーザに代理ログインする';
+$string['releasesubmission'] = '提出をリリースする';
+$string['removefriend'] = 'フレンドを削除する';
+$string['saveartefact'] = 'アーティファクトを保存する';
+$string['saveview'] = 'ページを保存する';
+$string['addfriendrequest'] = 'フレンドリクエストを送信する';
+$string['addsubmission'] = 'ポートフォリオを提出する';
+$string['suspenduser'] = 'ユーザを利用停止する';
+$string['undeleteuser'] = 'ユーザの削除を取り消す';
+$string['unexpireuser'] = 'ユーザの有効期限切れを取り消す';
+$string['unsuspenduser'] = 'ユーザの利用停止を取り消す';
+$string['updatecollection'] = 'コレクションを更新する';
+$string['updateuser'] = 'ユーザを更新する';
+$string['updateviewaccess'] = 'ポートフォリオアクセスを更新する';
 $string['reportdescgroups'] = '<ul>
 <li>ID</li>
 <li>名称</li>
