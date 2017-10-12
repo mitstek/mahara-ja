@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-12 19:25:21 UTC
+ * @updated    2017-10-12 04:15:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -144,6 +144,9 @@ $string['copytagsonly'] = '他のユーザはブロック設定のコピーを�
 $string['viewposts'] = 'コピーされたエントリ (%s)';
 $string['postscopiedfromview'] = '%s からコピーされたエントリ';
 $string['youhavenoblogs'] = 'あなたには日誌がありません。';
+$string['youhavenogroupblogs'] = 'このグループには日誌がありません。';
+$string['youhavenoinstitutionblogs'] = 'このインスティテューションには日誌がありません。';
+$string['youhavenositeblogs'] = 'このサイトには日誌がありません。';
 $string['youhaveoneblog'] = 'あなたには 1件の日誌があります。';
 $string['youhaveblogs'] = 'あなたには %s 件の日誌があります。';
 $string['feedsnotavailable'] = 'このアーティファクトタイプではフィードは利用できません。';
