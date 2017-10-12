@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-10-11 14:43:44 UTC
+ * @updated    2017-10-12 04:13:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -393,5 +393,7 @@ $string['usersinfo'] = 'ユーザ概要';
 $string['viewsinfo'] = 'ページ概要';
 $string['usersbyinstitution'] = 'インスティテューション別ユーザ';
 $string['groupsbytype'] = 'タイプ別グループ';
+$string['earliestdate'] = 'このレポートのデータは %s 以降利用することができます。';
+$string['noearliestdate'] = 'このレポートに記録されたデータはありません。';
 
 ?>
