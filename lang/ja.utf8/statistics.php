@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-10-12 04:13:12 UTC
+ * @updated    2017-10-13 01:10:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -207,6 +207,7 @@ $string['reportaccesslist'] = 'ポートフォリオアクセス';
 $string['reportdescaccesslist'] = '<ul>
 <li>ポートフォリオオーナー</li>
 <li>ポートフォリオのタイトル</li>
+<li>ポートフォリオ内のページ数</li>
 <li>アクセスリスト 例) ポートフォリオを閲覧できるパーミッションのあるユーザ</li>
 </ul>';
 $string['reportdescusers'] = '<ul>
@@ -214,7 +215,6 @@ $string['reportdescusers'] = '<ul>
 <li>ログイン人数</li>
 <li>アカウント作成数</li>
 <li>選択したインスティテューションの人数</li>
-<li>選択したインスティテューションの平均的なユーザに関する情報</li>
 </ul>';
 $string['reportuserdetails'] = 'ユーザ詳細';
 $string['reportdescuserdetails'] = '<ul>
@@ -231,10 +231,10 @@ $string['reportdescuserdetails'] = '<ul>
 $string['reportuseractivity'] = 'ユーザ活動';
 $string['reportdescuseractivity'] = '<ul>
 <li>ユーザ情報</li>
-<li>アーティファクト数</li>
-<li>ページ数</li>
-<li>コレクション数</li>
-<li>グループ数</li>
+<li>作成および更新されたアーティファクト数</li>
+<li>作成されたページ数</li>
+<li>作成されたコレクション数</li>
+<li>作成されたグループ数</li>
 <li>ログイン数</li>
 <li>操作数 (アーティファクト、フォーラム投稿、個人ページおよびコレクション、グループページおよびコレクション、コメント、ページ閲覧の作成および修正)</li>
 <li>最終ログイン</li>
@@ -262,12 +262,14 @@ $string['reportdescmasquerading'] = '<ul>
 $string['reportpageactivity'] = 'ページ活動';
 $string['reportdescpageactivity'] = '<ul>
 <li>ページタイトル</li>
+<li>ページが属するコレクションのタイトル (ある場合)</li>
 <li>ページオーナー</li>
 <li>作成日</li>
 <li>最終修正日</li>
 <li>最終ページ閲覧日</li>
 <li>ページに含まれるブロック数</li>
-<li>ページが属するコレクションのタイトル (ある場合)</li>
+<li>ページアクセス数</li>
+<li>ページのコメント数</li>
 </ul>';
 $string['allothers'] = 'その他すべて';
 $string['blockinstancecommit'] = 'ページにブロックを追加する';
@@ -309,8 +311,10 @@ $string['reportdescgroups'] = '<ul>
 <li>名称</li>
 <li>メンバー数</li>
 <li>ページ数</li>
+<li>共有ページ数</li>
 <li>グループページのコメント数</li>
-<li>グループに共有されているページのコメント数</li>
+<li>グループページおよびアーティファクトのコメント数</li>
+<li>グループに共有されているページおよびアーティファクトのコメント数</li>
 <li>フォーラム数</li>
 <li>フォーラム投稿数</li>
 </ul>
@@ -328,12 +332,16 @@ $string['reportdescinformation'] = '<ul>
 <li>ユーザ数</li>
 <li>ページ数</li>
 <li>使用ディスクスペース</li>
+<li>ユーザ概要</li>
+<li>ページ概要</li>
+<li>成長トレンド</li>
 <li>「すべてのインスティテューション」のみ:
 <ul>
 <li>グループ数</li>
 <li>データベースサイズ</li>
 <li>Maharaバージョン</li>
 <li>Cron実行情報</li>
+<li>グループ概要</li>
 </ul></li>
 </ul>';
 $string['reportinstitutioncomparison'] = 'インスティテューション比較';
@@ -345,7 +353,7 @@ $string['reportdesccomparisons'] = '<ul>
 <li>アーティファクト数</li>
 <li>インスティテューションメンバーによるフォーラム投稿数</li>
 </ul>
-<p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニューより「すべてのインスティテューション」を選択した場合のみ利用できます。</p>';
+<p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニューより「すべてのインスティテューション」を選択した場合のみ利用できます。これは週末のみに更新されます。</p>';
 $string['reportdesclogins'] = '<ul>
 <li>インスティテューション</li>
 <li>ユーザを問わないログイン数</li>
