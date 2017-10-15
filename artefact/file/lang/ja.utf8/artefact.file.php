@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-06-29 06:51:49 UTC
+ * @updated    2017-10-15 12:11:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -53,7 +53,7 @@ $string['resizeonuploadmaxheight'] = '最大高さ';
 $string['resizeonuploadenabledescription3'] = '最大幅および高さ設定より大きなイメージのアップロード時にリサイズされます。';
 $string['defaultagreement'] = 'デフォルト同意書';
 $string['defaultquota'] = 'デフォルトクオータ';
-$string['defaultquotadescription'] = 'あなたは新しいユーザがクオータとして持つことのできるディスクスペース総量をここで設定することができます。既存のユーザのクオータは変更されません。';
+$string['defaultquotadescription'] = 'あなたは新しいユーザがクオータとして持つことのできるディスクスペース総量をここで設定することができます。';
 $string['defaultuserquota'] = 'デフォルトユーザクオータ';
 $string['updateuserquotas'] = 'ユーザクオータを更新する';
 $string['updateuserquotasdesc2'] = 'あなたが上で選択したデフォルトクオータが既存のユーザすべてに適用されます。';
