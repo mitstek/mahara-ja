@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-10-13 01:10:11 UTC
+ * @updated    2017-10-16 03:50:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -292,7 +292,7 @@ $string['deleteuser'] = 'ユーザを削除する';
 $string['expireuser'] = 'ユーザを有効期限切れにする';
 $string['userjoinsgroup'] = 'グループに参加する';
 $string['login'] = 'ログイン';
-$string['loginas'] = 'ユーザに代理ログインする';
+$string['loginas'] = '管理者による代理ログイン';
 $string['releasesubmission'] = '提出をリリースする';
 $string['removefriend'] = 'フレンドを削除する';
 $string['saveartefact'] = 'アーティファクトを保存する';
