@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-10-15 12:11:20 UTC
+ * @updated    2017-10-20 16:14:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -58,10 +58,10 @@ $string['defaultuserquota'] = 'デフォルトユーザクオータ';
 $string['updateuserquotas'] = 'ユーザクオータを更新する';
 $string['updateuserquotasdesc2'] = 'あなたが上で選択したデフォルトクオータが既存のユーザすべてに適用されます。';
 $string['institutionoverride1'] = 'インスティテューションオーバーライド';
-$string['institutionoverridedescription2'] = 'インスティテューション管理者にユーザファイルクオータおよびそれぞれのインスティテューションのデフォルトクオータを設定できるようにします。';
+$string['institutionoverridedescription2'] = 'インスティテューション管理者がユーザファイルクオータおよびそれぞれのインスティテューションのデフォルトクオータを設定できるようにします。';
 $string['maxquotaenabled'] = 'サイト全体の最大クオータを強制する';
 $string['maxquota'] = '最大クオータ';
-$string['maxquotatoolow'] = '最大クオータはデフォルトクオータより小さくすることができません。';
+$string['maxquotatoolow'] = '最大クオータをデフォルトクオータより小さくすることはできません。';
 $string['maxquotaexceeded'] = 'あなたはこのサイトに設定されている最大利用可能なサイズ (%s) を超えてクオータを指定しました。値を小さくする、または最大サイズを増やすためにサイト管理者にご連絡ください。';
 $string['maxquotaexceededform'] = '%s より小さなファイルクオータを指定してください。';
 $string['maxquotadescription'] = 'あなたは管理者がユーザに与えることのできる最大クオータを設定することができます。既存のユーザのクオータは影響を受けません。';
