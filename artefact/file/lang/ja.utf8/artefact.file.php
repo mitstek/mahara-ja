@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-10-20 16:14:07 UTC
+ * @updated    2017-10-22 15:25:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -62,11 +62,11 @@ $string['institutionoverridedescription2'] = 'インスティテューション�
 $string['maxquotaenabled'] = 'サイト全体の最大クオータを強制する';
 $string['maxquota'] = '最大クオータ';
 $string['maxquotatoolow'] = '最大クオータをデフォルトクオータより小さくすることはできません。';
-$string['maxquotaexceeded'] = 'あなたはこのサイトに設定されている最大利用可能なサイズ (%s) を超えてクオータを指定しました。値を小さくする、または最大サイズを増やすためにサイト管理者にご連絡ください。';
+$string['maxquotaexceeded'] = 'あなたはこのサイトに設定されている最大利用可能なサイズ (%s) を超えてクオータを指定しました。値を小さくするかサイト管理者に連絡して最大サイズを増やしてください。';
 $string['maxquotaexceededform'] = '%s より小さなファイルクオータを指定してください。';
 $string['maxquotadescription'] = 'あなたは管理者がユーザに与えることのできる最大クオータを設定することができます。既存のユーザのクオータは影響を受けません。';
 $string['defaultgroupquota'] = 'デフォルトグループクオータ';
-$string['defaultgroupquotadescription'] = 'あなたは新しいグループがファイルエリアに使用することのできる最大クオータを設定することができます。';
+$string['defaultgroupquotadescription'] = 'あなたは新しいグループがファイルエリアに使用することのできるディスクスペース容量を設定することができます。';
 $string['updategroupquotas'] = 'グループクオータを更新する';
 $string['updategroupquotasdesc2'] = 'あなたが上で選択したデフォルトクオータが既存のグループすべてに適用されます。';
 $string['deletingfailed'] = '削除に失敗しました: すでにファイルまたはフォルダが存在していません。';
