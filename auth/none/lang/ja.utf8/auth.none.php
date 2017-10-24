@@ -14,6 +14,6 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'なし';
-$string['description'] = '誰でもログインできます。テストにのみ使用してください!';
+$string['description'] = '誰でもログインできます。実稼働モードでは動作しません!';
 
 ?>
