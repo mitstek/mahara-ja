@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-29 06:08:45 UTC
+ * @updated    2017-10-27 16:23:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -393,7 +393,7 @@ $string['smallviewheadersdescription1'] = 'ポートフォリオページの閲�
 $string['spamhaus1'] = 'Spamhaus URLブラックリスト';
 $string['spamhausdescription1'] = 'Spamhaus DNSBLを照合してURLをチェックします。';
 $string['staffaccessreports'] = 'スタッフのアクセスレポート';
-$string['staffaccessreportsdescription'] = 'サイトおよびインスティテューションスタッフがインスティテューションの「ユーザ詳細」「アクセスリスト」および「マスカレーディング」レポートにアクセスできるようにします。通常、このレポートは管理者に制限されます。';
+$string['staffaccessreportsdescription1'] = 'サイトおよびインスティテューションスタッフがインスティテューションの「ユーザ詳細」「ポートフォリオアクセス」および「マスカレーディングセッション」レポートにアクセスできるようにします。通常、このレポートは管理者に制限されます。';
 $string['institutionstaffallreports'] = 'インスティテューションスタッフのすべてのレポート';
 $string['institutionstaffallreportsdescription'] = 'インスティテューションスタッフがインスティテューションのすべてのレポートにアクセスできるようにします。通常、このレポートは管理者およびサイトスタッフに制限されます。';
 $string['surbl1'] = 'SURBL URLブラックリスト';
@@ -942,8 +942,8 @@ $string['Staff'] = 'スタッフ';
 $string['Admins'] = '管理者';
 $string['noinstitutions'] = 'インスティテューションはありません。';
 $string['noinstitutionsdescription'] = 'あなたがユーザをインスティテューションと関連付けたい場合、最初にインスティテューションを作成してください。';
-$string['noinstitutionsstats'] = 'インスティテューション統計を閲覧できません。';
-$string['noinstitutionsstatsdescription1'] = 'サイトがスタッフにインスティテューション統計を閲覧できるようにするにはスタッフ統計アクセスを有効にする必要があります。サイト管理者は<a href="%sadmin/site/options.php">サイト設定</a>の「ユーザ設定」でこの設定を有効にすることができます。';
+$string['noinstitutionreports'] = 'インスティテューションレポートを閲覧できません。';
+$string['noinstitutionreportsdescription'] = 'サイトがスタッフにインスティテューションレポートを閲覧できるようにするにはスタッフレポートアクセスを有効にする必要があります。サイト管理者は<a href="%sadmin/site/options.php">サイト設定</a>の「ユーザ設定」でこの設定を有効にすることができます。';
 $string['noinstitutionstaticpages'] = 'あなたにはインスティテューション固定ページを編集するパーミッションがないかまだインスティテューションが作成されていません。';
 $string['noinstitutionstaticpagesadmin'] = 'あなたがサイト管理者の場合、<a href="%s">サイト設定</a>でデフォルト固定ページを編集してください。';
 $string['Lockedfields'] = 'ロックフィールド';
