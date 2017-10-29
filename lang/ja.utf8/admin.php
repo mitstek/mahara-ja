@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-10-27 16:23:26 UTC
+ * @updated    2017-10-29 23:49:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -430,7 +430,7 @@ $string['eventloglevelnone'] = 'なし';
 $string['eventloglevelmasq'] = 'マスカレーディング';
 $string['eventloglevelall'] = 'すべて';
 $string['eventlogenhancedsearch'] = 'イベントログレポーティング';
-$string['eventlogenhancedsearchdescription'] = 'あなたのサイトの活動に関してさらに記録するため高度なアナリティクス機能を使用したい場合、これは必須です。';
+$string['eventlogenhancedsearchdescription1'] = 'あなたのサイトの活動に関してさらに記録するため高度なアナリティクス機能を使用したい場合、これは必須です。また、あなたは「検索設定」でElasticsearchを有効にする必要があります。';
 $string['sitefilesaccess'] = 'サイトファイルにアクセスする';
 $string['sitefilesaccessdescription1'] = '登録ユーザがサブフォルダ内のサイトファイルにアクセスできるようにします。デフォルトではトップレベルのディレクトリ内のファイルにのみアクセスすることができます。';
 $string['watchlistdelaydescription'] = 'ウォッチリストの変更に関するメールを送信する遅延時間 (分) です。';
