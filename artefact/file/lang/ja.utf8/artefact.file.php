@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-10-22 15:25:10 UTC
+ * @updated    2017-10-29 15:32:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -66,9 +66,9 @@ $string['maxquotaexceeded'] = 'あなたはこのサイトに設定されてい�
 $string['maxquotaexceededform'] = '%s より小さなファイルクオータを指定してください。';
 $string['maxquotadescription'] = 'あなたは管理者がユーザに与えることのできる最大クオータを設定することができます。既存のユーザのクオータは影響を受けません。';
 $string['defaultgroupquota'] = 'デフォルトグループクオータ';
-$string['defaultgroupquotadescription'] = 'あなたは新しいグループがファイルエリアに使用することのできるディスクスペース容量を設定することができます。';
+$string['defaultgroupquotadescription'] = 'あなたは新しいグループがファイルエリアで使用することのできるディスクスペース容量を設定することができます。';
 $string['updategroupquotas'] = 'グループクオータを更新する';
-$string['updategroupquotasdesc2'] = 'あなたが上で選択したデフォルトクオータが既存のグループすべてに適用されます。';
+$string['updategroupquotasdesc2'] = 'あなたが上で選択したデフォルトクオータを既存のグループすべてに適用します。';
 $string['deletingfailed'] = '削除に失敗しました: すでにファイルまたはフォルダが存在していません。';
 $string['deletefile?'] = '本当にこのファイルを削除してもよろしいですか?';
 $string['deletefolder?'] = '本当にこのフォルダを削除してもよろしいですか?';
@@ -87,7 +87,7 @@ $string['emptyfolder'] = '空のフォルダ';
 $string['file'] = 'ファイル';
 $string['File'] = 'ファイル';
 $string['fileadded'] = 'ファイルが選択されました。';
-$string['filealreadyindestination'] = 'あなたが移動しようとしたファイルはすでにフォルダに登録されています。';
+$string['filealreadyindestination'] = 'あなたが移動しようとしたファイルはすでにフォルダに存在します。';
 $string['fileappearsinviews'] = 'このファイルはあなたの1つまたはそれ以上のページに表示されます。';
 $string['fileattachedtoportfolioitems'] = 'このファイルはあなたのポートフォリオ内の %s アイテムに添付されます。';
 $string['fileappearsinskins'] = 'このファイルはあなたのスキンの1つまたはそれ以上の背景イメージとして使用されます。';
