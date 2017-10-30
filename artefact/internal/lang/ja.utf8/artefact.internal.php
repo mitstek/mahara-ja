@@ -73,10 +73,10 @@ $string['emailaddress'] = '代替メールアドレス';
 $string['saveprofile'] = 'プロファイルを保存する';
 $string['profilesaved'] = 'プロファイルが正常に保存されました。';
 $string['profilefailedsaved'] = 'プロファイルの保存に失敗しました。';
-$string['emailvalidation_subject'] = 'メールアドレスの確認';
+$string['emailvalidation_subject'] = 'Eメール確認';
 $string['emailvalidation_body'] = '%s さん、こんにちは。
 
-Mahara内のあなたのユーザアカウントにメールアドレス「 %s 」が追加されました。下記リンクにアクセスしてこのメールアドレスを有効化してください。
+%s のあなたのユーザアカウントにメールアドレス %s が追加されました。下記リンクにアクセスしてこのメールアドレスを有効化してください。
 
 %s
 
