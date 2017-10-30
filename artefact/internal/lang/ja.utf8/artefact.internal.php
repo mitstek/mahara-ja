@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-31 02:03:50 UTC
+ * @updated    2017-10-30 00:11:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -77,16 +77,24 @@ $string['emailaddress'] = '代替メールアドレス';
 $string['saveprofile'] = 'プロファイルを保存する';
 $string['profilesaved'] = 'プロファイルが正常に保存されました。';
 $string['profilefailedsaved'] = 'プロファイルの保存に失敗しました。';
-$string['emailvalidation_subject'] = 'メールアドレスの確認';
+$string['emailvalidation_subject'] = 'Eメール確認';
 $string['emailvalidation_body1'] = '%s さん、こんにちは。
 
-Mahara内のあなたのユーザアカウントにメールアドレス「 %s 」が追加されました。下記リンクにアクセスしてこのメールアドレスを有効化してください。
+%s のあなたのユーザアカウントにメールアドレス %s が追加されました。下記リンクにアクセスしてこのメールアドレスを有効化してください。
 
 %s
 
 このメールアドレスがあなたのメールアドレスであり、あなたがMaharaのアカウント作成をリクエストしていない場合、以下のリンクをクリックしてメール有効化を拒否してください。
 
 %s';
+$string['newemailalert_subject'] = 'あなたの %s アカウントに新しいメールアドレスが追加されました。';
+$string['newemailalert_body'] = '%s さん、こんにちは。
+
+あなたは %s のあなたのユーザアカウントにメールアドレスを追加しました。
+
+%s
+
+あなたがこの %a カウントの変更をリクエストしていない場合、<a href="%scontact.php">サイト管理者にご連絡ください</a>。';
 $string['validationemailwillbesent'] = 'あなたのプロファイル保存後、確認メールが送信されます。';
 $string['validationemailsent'] = '確認メールが送信されました。';
 $string['emailactivation'] = 'メール有効化';
