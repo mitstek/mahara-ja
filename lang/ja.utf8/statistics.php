@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-10-16 03:50:58 UTC
+ * @updated    2017-10-30 01:18:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -209,7 +209,8 @@ $string['reportdescaccesslist'] = '<ul>
 <li>ポートフォリオのタイトル</li>
 <li>ポートフォリオ内のページ数</li>
 <li>アクセスリスト 例) ポートフォリオを閲覧できるパーミッションのあるユーザ</li>
-</ul>';
+</ul>
+<p>選択された期間に作成されたポートフォリオが一覧表示されます。現在のアクセスパーミッションが表示されます。</p>';
 $string['reportdescusers'] = '<ul>
 <li>日付</li>
 <li>ログイン人数</li>
@@ -227,7 +228,8 @@ $string['reportdescuserdetails'] = '<ul>
 <li>リモートユーザ名</li>
 <li>最終ログイン</li>
 <li>保護観察ポイント数</li>
-</ul>';
+</ul>
+<p>選択された期間に作成されたユーザアカウントの人が一覧表示されます。</p>';
 $string['reportuseractivity'] = 'ユーザ活動';
 $string['reportdescuseractivity'] = '<ul>
 <li>ユーザ情報</li>
@@ -236,8 +238,8 @@ $string['reportdescuseractivity'] = '<ul>
 <li>作成されたコレクション数</li>
 <li>作成されたグループ数</li>
 <li>ログイン数</li>
-<li>操作数 (アーティファクト、フォーラム投稿、個人ページおよびコレクション、グループページおよびコレクション、コメント、ページ閲覧の作成および修正)</li>
-<li>最終ログイン</li>
+<li>活動数</li>
+<li>最終活動時間</li>
 <li>最終活動</li>
 </ul>';
 $string['reportcollaboration'] = 'コラボレーション';
@@ -270,7 +272,8 @@ $string['reportdescpageactivity'] = '<ul>
 <li>ページに含まれるブロック数</li>
 <li>ページアクセス数</li>
 <li>ページのコメント数</li>
-</ul>';
+</ul>
+<p>レポート期間に作成されたページが表示されます。</p>';
 $string['allothers'] = 'その他すべて';
 $string['blockinstancecommit'] = 'ページにブロックを追加する';
 $string['addfriend'] = 'フレンドを追加する';
@@ -390,7 +393,8 @@ $string['publicshare'] = 'パブリック';
 $string['secretshare'] = 'シークレットURL';
 $string['friendshare'] = 'フレンド';
 $string['actions'] = '操作';
-$string['lastactivity'] = '最終活動';
+$string['lastaction'] = '最終活動';
+$string['lastactiontime'] = '最終活動時間';
 $string['removefilter'] = 'フィルタを削除する';
 $string['collaborationdate'] = 'w.c. %s';
 $string['needadvancedanalytics'] = 'このレポートに高度なアナリティクスを有効にする必要があります。詳細は「サイト設定」の「ロギング設定」をご覧ください。';
