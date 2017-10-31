@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-24 15:03:49 UTC
+ * @updated    2017-10-31 15:33:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -50,8 +50,6 @@ $string['showhomeinfo2'] = 'ダッシュボード情報';
 $string['showhomeinfodescription1'] = 'ダッシュボード上に %s の使用方法に関する情報を表示します。';
 $string['showprogressbar'] = 'プロファイル完了プログレスバー';
 $string['showprogressbardescription'] = 'プログレスバーおよびあなたの %s プロファイルを完了するためのヒントを表示します。';
-$string['mobileuploadtoken'] = 'モバイルアップロードトークン';
-$string['badmobileuploadtoken'] = '申し訳ございません、モバイルアップロードトークンが無効です - トークンの長さは少なくとも半角6文字にしてください。';
 $string['prefssaved'] = 'プリファレンスが保存されました。';
 $string['prefsnotsaved'] = 'あなたのプリファレンスの保存に失敗しました。';
 $string['maildisabled'] = 'Eメールが無効にされました。';
