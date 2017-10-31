@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-10 15:40:03 UTC
+ * @updated    2017-10-31 15:53:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -56,8 +56,15 @@ $string['selfassess'] = '自己評価';
 $string['uploadframeworkdesc1'] = 'JSONエンコード済みの.matrixファイルをアップロードします。マークアップ例に関して<a href="https://git.mahara.org/mahara/mahara/blob/16.10_STABLE/test/behat/upload_files/example.matrix">Mahara git repository</a>、個別のコンポーネントの例に関して<a href="http://manual.mahara.org/en/16.10/administration/smartevidence.html#create-a-framework-file">Maharaユーザマニュアル</a>をご覧ください。';
 $string['savematrix'] = 'マトリックスをアップロードする';
 $string['frameworkmissing'] = 'フレームワークが見つかりませんでした。';
+$string['activeframework'] = 'フレームワーク有効化';
+$string['displaystatusestitle'] = '評価ステータスを表示する';
+$string['displaystatusestitledetail'] = 'あなたが表示したい評価ステータスを決定してください。';
+$string['upgradeplugin'] = 'これらの設定を有効にするためSmartEvidenceプラグインをアップグレードする必要があります。';
 $string['noannotation'] = 'ページ「 %s 」 (標準エレメント「 %s 」) のアノテーションがありません。';
 $string['addannotation'] = '標準「 %s 」のアノテーションをページ「 %s 」に追加する';
+$string['readyforassessmentcount'] = '評価準備完了の標準エレメントを含むページ数:';
+$string['dontmatchcount'] = '未完了の標準エレメントを含むページ数:';
+$string['partiallycompletecount'] = '一部完了済み標準エレメントを含むページ数:';
 $string['completedcount'] = '完了済み標準エレメントを含むページ数:';
 $string['tabledesc'] = '以下、コレクションのスマートエビデンスマトリックスの構造です。';
 $string['standardbegin'] = '標準セクションの先頭';
@@ -67,6 +74,9 @@ $string['collapsedsection'] = 'この標準のテーブルセクションは非�
 $string['gonextpages'] = 'スマートエビデンスマトリックスのコレクションのページをさらに表示するには「次へ」ボタンをクリックしてください。';
 $string['goprevpages'] = 'スマートエビデンスマトリックスのコレクションの前のページを表示するには「前へ」ボタンをクリックしてください。';
 $string['headerelements'] = 'カラムヘッダ: 標準エレメント';
+$string['headerreadyforassessmentcount'] = 'カラムヘッダ: 評価準備完了の標準エレメントを含むページ数';
+$string['headernotmatchcount'] = 'カラムヘッダ: 未完了の標準エレメントを含むページ数';
+$string['headerpartiallycompletecount'] = 'カラムヘッダ: 一部完了済み標準エレメントを含むページ数:';
 $string['headercompletedcount'] = 'カラムヘッダ: 完了済み標準エレメントを含むページ数';
 $string['headerpage'] = 'カラムヘッダ: ページタイトル';
 $string['headerrow'] = '行ヘッダ: 標準エレメント';
