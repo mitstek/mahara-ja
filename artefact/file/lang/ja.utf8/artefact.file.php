@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-11-06 01:27:42 UTC
+ * @updated    2017-11-07 10:01:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -191,7 +191,7 @@ $string['quotanotifylimitdescr1'] = 'ユーザのアップロードクオータ�
 $string['quotanotifyadmin1'] = 'サイト管理者通知';
 $string['quotanotifyadmindescr3'] = 'ユーザが通知閾値に達した時点でサイト管理者に通知されます。';
 $string['useroverquotathreshold'] = 'ユーザ %s がファイルクオータの %s% パーセントに到達しました (ファイルクオータ: %s)。';
-$string['ai'] = 'Postscriptドキュメント';
+$string['ai'] = 'PostScriptドキュメント';
 $string['aiff'] = 'AIFFオーディオファイル';
 $string['application'] = '不明なアプリケーション';
 $string['au'] = 'AUオーディオファイル';
@@ -204,7 +204,7 @@ $string['gif'] = 'GIFイメージ';
 $string['html'] = 'HTMLファイル';
 $string['jpg'] = 'JPEGイメージ';
 $string['jpeg'] = 'JPEGイメージ';
-$string['js'] = 'Javaスクリプトファイル';
+$string['js'] = 'JavaScriptファイル';
 $string['latex'] = 'LaTeXドキュメント';
 $string['m3u'] = 'M3Uオーディオファイル';
 $string['mp3'] = 'MP3オーディオファイル';
@@ -214,11 +214,11 @@ $string['odb'] = 'OpenOffice / LibreOffice Baseデータベースファイル';
 $string['odc'] = 'OpenOffice / LibreOffice Calcファイル';
 $string['odf'] = 'OpenOffice / LibreOffice formulaファイル';
 $string['odg'] = 'OpenOffice / LibreOffice graphicsファイル';
-$string['odi'] = 'OpenOffice / LibreOfficeイメージファイル';
+$string['odi'] = 'OpenOffice / LibreOffice imageファイル';
 $string['odm'] = 'OpenOffice / LibreOffice masterドキュメントファイル';
 $string['odp'] = 'OOpenOffice / LibreOffice Impressファイル';
 $string['ods'] = 'OpenOffice / LibreOffice Spreadsheetファイル';
-$string['odt'] = 'OpenOffice / LibreOffice Writer ドキュメント';
+$string['odt'] = 'OpenOffice / LibreOffice Writerドキュメント';
 $string['oth'] = 'OpenOffice / LibreOfficeウェブドキュメント';
 $string['ott'] = 'OpenOffice / LibreOfficeテンプレートドキュメント';
 $string['oga'] = 'OGAオーディオファイル';
@@ -275,7 +275,7 @@ $string['uploadedprofileicon'] = 'アップロードされたプロファイル�
 $string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイル画像をアップロードすることができます。プロファイル画像のアップロード後、あなたのデフォルト画像として表示する画像を1つ選択してください。16x16 から %sx%s ピクセルの間であなたの写真を作成してください。';
 $string['setdefault'] = 'デフォルトに設定する';
 $string['setdefaultfor'] = '「 %s 」のデフォルトに設定する';
-$string['markfordeletionspecific'] = '「 %s 」に 削除マークを付ける';
+$string['markfordeletionspecific'] = '「 %s 」に削除マークを付ける';
 $string['Title'] = 'タイトル';
 $string['imagetitle'] = 'イメージタイトル';
 $string['standardavatartitle'] = '標準または外部アバタ';
