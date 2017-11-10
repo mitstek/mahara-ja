@@ -33,7 +33,7 @@ $string['description'] = '表示するプロファイル情報を選択してく
 $string['aboutme'] = '私について';
 $string['fieldstoshow'] = '表示するフィールド';
 $string['introtext'] = '自己紹介テキスト';
-$string['useintroductioninstead'] = '「表示するフィールド」の「自己紹介」チェックボックスをチェックしてこのフィールドを空白にすることにより、あなたのプロファイルの「自己紹介」フィールドを代わりに使用することができます。';
+$string['useintroductioninstead'] = '「自己紹介」を有効にしてこのフィールドを空白にすることにより、代わりにあなたの「自己紹介」プロファイルフィールドを使用することができます。';
 $string['dontshowprofileicon'] = 'プロファイルアイコンを表示しません。';
 $string['dontshowemail'] = 'メールアドレスを表示しません。';
 
