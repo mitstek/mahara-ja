@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-10-30 12:07:30 UTC
+ * @updated    2017-11-14 15:49:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['pluginname'] = 'プロファイル';
 $string['profile'] = 'プロファイル';
 $string['mandatoryfields'] = '必須入力フィールド';
-$string['mandatoryfieldsdescription'] = '入力する必要のあるプロファイルフィールド';
+$string['mandatoryfieldsdescription'] = '入力する必要のあるプロファイルフィールドです。';
 $string['searchablefields'] = '検索可能フィールド';
 $string['searchablefieldsdescription'] = 'ユーザにより検索することのできるプロファイルフィールドです。';
 $string['adminusersearchfields'] = '管理ユーザ検索';
@@ -185,7 +185,7 @@ $string['deletethisprofile'] = 'ソーシャルメディアアカウントを削
 $string['deleteprofileconfirm'] = '本当にこのソーシャルメディアアカウントを削除してもよろしいですか?';
 $string['editthisprofile'] = 'ソーシャルメディアアカウントを編集する:「 %s 」';
 $string['newsocialprofile'] = '新しいソーシャルメディアアカウント';
-$string['notvalidprofileurl'] = 'これは有効なソーシャルプロファイルURLではありません。有効なURLを入力するか、上記リストより適切なメッセージングサービスを選択してください。';
+$string['notvalidprofileurl'] = 'これは有効なソーシャルプロファイルURLではありません。有効なURLを入力するか上記リストより適切なメッセージングサービスを選択してください。';
 $string['profiledeletedsuccessfully'] = 'ソーシャルメディアアカウントが正常に削除されました。';
 $string['profilesavedsuccessfully'] = 'ソーシャルメディアアカウントが正常に保存されました。';
 $string['socialprofilerequired'] = '少なくとも1つのソーシャルメディアアカウントが必要です。';
