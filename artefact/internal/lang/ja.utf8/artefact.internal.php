@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['pluginname'] = 'プロファイル';
 $string['profile'] = 'プロファイル';
 $string['mandatoryfields'] = '必須入力フィールド';
-$string['mandatoryfieldsdescription'] = '入力する必要のあるプロファイルフィールド';
+$string['mandatoryfieldsdescription'] = '入力する必要のあるプロファイルフィールドです。';
 $string['searchablefields'] = '検索可能フィールド';
 $string['searchablefieldsdescription'] = 'ユーザにより検索することのできるプロファイルフィールドです。';
 $string['aboutdescription'] = 'あなたの本名をここに入力してください。あなたがシステム内のユーザに異なる名前を表示したい場合、表示名欄に別名を入力してください。';
