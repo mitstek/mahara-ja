@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['pluginname'] = 'プロファイル';
 $string['profile'] = 'プロファイル';
 $string['mandatoryfields'] = '必須入力フィールド';
-$string['mandatoryfieldsdescription'] = '入力する必要のあるプロファイルフィールド';
+$string['mandatoryfieldsdescription'] = '入力する必要のあるプロファイルフィールドです。';
 $string['searchablefields'] = '検索可能フィールド';
 $string['searchablefieldsdescription'] = 'ユーザにより検索することのできるプロファイルフィールドです。';
 $string['aboutdescription'] = 'あなたの本名をここに入力してください。あなたがシステム内のユーザに異なる名前を表示したい場合、表示名欄に別名を入力してください。';
@@ -164,7 +164,7 @@ $string['deletethisprofile'] = 'ソーシャルメディアアカウントを削
 $string['deleteprofileconfirm'] = '本当にこのソーシャルメディアアカウントを削除してもよろしいですか?';
 $string['editthisprofile'] = 'ソーシャルメディアアカウントを編集する:「 %s 」';
 $string['newsocialprofile'] = '新しいソーシャルメディアアカウント';
-$string['notvalidprofileurl'] = 'これは有効なソーシャルプロファイルURLではありません。有効なURLを入力するか、上記リストより適切なメッセージングサービスを選択してください。';
+$string['notvalidprofileurl'] = 'これは有効なソーシャルプロファイルURLではありません。有効なURLを入力するか上記リストより適切なメッセージングサービスを選択してください。';
 $string['profiledeletedsuccessfully'] = 'ソーシャルメディアアカウントが正常に削除されました。';
 $string['profilesavedsuccessfully'] = 'ソーシャルメディアアカウントが正常に保存されました。';
 $string['socialprofilerequired'] = '少なくとも1つのソーシャルメディアアカウントが必要です。';
