@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-11-16 07:04:54 UTC
+ * @updated    2017-11-16 07:06:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -39,7 +39,7 @@ $string['planstasksdescription'] = 'あなたのプランを作成するには�
 $string['saveplan'] = 'プランを保存する';
 $string['title'] = 'タイトル';
 $string['titledesc'] = 'それぞれのプランブロックタイプ内タスクに表示するためにタイトルが使用されます。';
-$string['youhavenplan'] = 'あなたには%dプランがあります。';
+$string['youhavenplan'] = 'あなたには %d プランがあります。';
 $string['alltasks'] = 'すべてのタスク';
 $string['canteditdontowntask'] = 'あなたの所有ではないためこのタスクを編集することはできません。';
 $string['completed'] = '完了';
