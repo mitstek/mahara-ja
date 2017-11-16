@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-10-12 04:14:59 UTC
+ * @updated    2017-11-16 07:04:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -147,8 +147,7 @@ $string['youhavenoblogs'] = 'あなたには日誌がありません。';
 $string['youhavenogroupblogs'] = 'このグループには日誌がありません。';
 $string['youhavenoinstitutionblogs'] = 'このインスティテューションには日誌がありません。';
 $string['youhavenositeblogs'] = 'このサイトには日誌がありません。';
-$string['youhaveoneblog'] = 'あなたには 1件の日誌があります。';
-$string['youhaveblogs'] = 'あなたには %s 件の日誌があります。';
+$string['youhavenblog'] = 'あなたには%d日誌があります。';
 $string['feedsnotavailable'] = 'このアーティファクトタイプではフィードは利用できません。';
 $string['feedrights'] = '著作権 %s';
 $string['enablemultipleblogstext'] = 'あなたには1件の日誌があります。あなたが2件目の日誌を作成したい場合、<a href="%saccount/index.php">アカウント設定</a>ページで複数日誌オプションを有効にしてください。';
