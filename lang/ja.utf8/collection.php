@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-10-10 10:28:01 UTC
+ * @updated    2017-11-16 06:57:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -107,8 +107,7 @@ $string['copiedpagesblocksandartefactsfromtemplate'] = '%d ページ、%d ブロ
 $string['copiedblogpoststonewjournal'] = 'コピーされた日誌エントリは新しい別の日誌に登録されました。';
 $string['by'] = 'by';
 $string['copycollection'] = 'コレクションをコピーする';
-$string['youhaveonecollection'] = 'あなたには 1 件のコレクションがあります。';
-$string['youhavecollections'] = 'あなたには %s 件のコレクションがあります。';
+$string['youhavencollections'] = 'あなたには%dコレクションがあります。';
 $string['youhavenocollections'] = 'あなたにはコレクションがありません。';
 $string['collectionssharedtogroup'] = 'このグループで共有されているコレクション';
 $string['nosharedcollectionsyet'] = 'まだこのグループで共有されているコレクションはありません。';
