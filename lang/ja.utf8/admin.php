@@ -592,7 +592,7 @@ $string['uploadcsvpagedescription6'] = '<p>ここであなたは<acronym title="
 <p>あなたのCSVファイルには初期値を事前設定するための他のプロファイルフィールドを含むことができます。任意フィールドは以下の通りです:</p>
 
 %s';
-$string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれている行が多すぎます。あなたは %s 以上含むことができません。';
+$string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれる行が多すぎます。あなたは %s 以上含むことができません。';
 $string['uploadgroupcsverrordisplaynamealreadyexists'] = 'あなたのファイルの %s 行目にエラーが発生しました: 表示名「 %s 」はすでに使用されています。';
 $string['uploadgroupcsverrorinvalidshortname'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname) 「 %s 」が有効ではありません。';
 $string['uploadgroupcsverrorshortnamemissing'] = 'あなたのファイルの %s 行目にエラーが発生しました: 省略名「 %s 」のグループは存在しません。';
