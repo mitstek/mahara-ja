@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['pluginname'] = 'プラン';
 $string['canteditdontownplan'] = 'あなたの所有ではないためこのプランを編集することはできません。';
 $string['description'] = '説明';
-$string['deleteplanconfirm'] = '本当にこのプランを削除してもよろしいですか? このプランを削除することでプランの中に含まれているすべてのタスクも削除されます。';
+$string['deleteplanconfirm'] = '本当にこのプランを削除してもよろしいですか? このプランを削除することでプランの中に含まれるすべてのタスクも削除されます。';
 $string['deleteplan'] = 'プランを削除する';
 $string['deletethisplan'] = 'プランを削除する: %s';
 $string['editplan'] = 'プランを編集する';
@@ -35,7 +35,7 @@ $string['plannotdeletedsuccessfully'] = 'このプランの削除中にエラー
 $string['plannotsavedsuccessfully'] = 'このフォームの送信中にエラーが発生しました。マークされたフィールドを確認して再度お試しください。';
 $string['plansavedsuccessfully'] = 'プランが正常に保存されました。';
 $string['planstasks'] = 'プラン「 %s 」のタスク';
-$string['planstasksdescription'] = 'あなたのプランを作成するには以下にタスクを追加するか、「 %s 」ボタンを使用してください。';
+$string['planstasksdescription'] = 'あなたのプランを作成するには以下にタスクを追加するか「 %s 」ボタンを使用してください。';
 $string['saveplan'] = 'プランを保存する';
 $string['title'] = 'タイトル';
 $string['titledesc'] = 'それぞれのプランブロックタイプ内タスクに表示するためにタイトルが使用されます。';
