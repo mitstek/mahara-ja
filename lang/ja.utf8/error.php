@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-31 02:20:47 UTC
+ * @updated    2017-11-21 05:15:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -126,5 +126,10 @@ $string['nopasswordsaltset'] = 'サイト全体のパスワードsaltが設定�
 $string['passwordsaltweak'] = 'あなたのサイト全体のパスワードsaltの強さが十分ではありません。あなたのconfig.phpを編集してさらに長いシークレットフレーズを「passwordsaltmain」パラメータに設定してください。';
 $string['urlsecretweak'] = 'このサイトに設定されている$cfg->urlsecretがデフォルト値から変更されていません。あなたのconfig.phpを編集して$cgf->urlsecretパラメータに異なるストリングを設定してください (urlsecretを使用したくない場合、nullを設定してください)。';
 $string['notproductionsite'] = 'このサイトは実運用モードに入っていません。いくつかのデータは利用できないか古い可能性があります。';
+$string['wrongsessionhandle'] = 'セッション保存ハンドラ「 %s 」はMaharaではサポートされていません。';
+$string['nomemcachedserver'] = 'memcacheサーバ「 %s 」に到達できません。$cfg->memcacheservers値が正しいかどうかご確認ください。';
+$string['nophpextension'] = 'PHP拡張モジュール「 %s 」が有効にされていません。拡張モジュールを有効にしてあなたのウェブサーバを再起動するか異なるセッションオプションを選択してください。';
+$string['nomemcacheserversdefined'] = 'セッションハンドラ「 %s 」の関連サーバが定義されていません。$cfg->memcacheservers値を設定してください。例)localhost:11211';
+$string['memcacheusememcached'] = '「memcache」セッションストレージは廃止されました。「memcached」を使用してください。';
 
 ?>
