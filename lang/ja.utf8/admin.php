@@ -529,7 +529,7 @@ $string['uploadcsverrorwrongnumberoffields'] = 'あなたのファイルの %s �
 $string['uploadcsverrorinvalidemail'] = 'あなたのファイルの %s 行目にエラーがあります: このユーザのメールアドレスは正しい形式ではありません。';
 $string['uploadcsverrorincorrectnumberoffields'] = 'あなたのファイルの %s 行目にエラーがあります: この行には正しい数のフィールドが含まれていません。';
 $string['uploadcsverrorinvalidpassword'] = 'あなたのファイルの %s 行目にエラーがあります: パスワードは少なくとも半角英数字6文字にしてください。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。<br />
-セキュリティ上の理由から、パスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。';
+セキュリティ上の理由からパスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。';
 $string['uploadcsverrorinvalidusername'] = 'あなたのファイルの %s 行目にエラーがあります: このユーザのユーザ名は正しい形式ではありません。';
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には必須の「 %s 」フィールドが含まれていません。';
 $string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」はすでに登録されています。';
