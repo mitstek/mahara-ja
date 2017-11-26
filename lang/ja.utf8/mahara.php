@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-11-21 05:05:52 UTC
+ * @updated    2017-11-26 23:48:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -398,6 +398,7 @@ $string['passwordsaved'] = 'あなたの新しいパスワードが保存され�
 $string['passwordsdonotmatch'] = 'パスワードが合致しません。';
 $string['passwordtooeasy'] = 'あなたのパスワードは簡単すぎます。難しいパスワードを入力してください。';
 $string['register'] = '登録';
+$string['reloadtoview'] = 'ページを表示するにはリロードしてください。';
 $string['sessiontimedout'] = 'あなたのセッションはタイムアウトしました。続けるにはあなたのログイン詳細を入力してください。';
 $string['sessiontimedoutpublic'] = 'あなたのセッションはタイムアウトしました。閲覧を続けるには<a href="%s">ログイン</a>してください。';
 $string['sessiontimedoutreload'] = 'あなたのセッションはタイムアウトしました。再度ログインするにはページをリロードしてください。';
