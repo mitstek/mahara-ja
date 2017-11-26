@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-11-19 13:36:06 UTC
+ * @updated    2017-11-26 14:00:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -22,12 +22,12 @@ $string['emailalreadytakenbyothers'] = 'このメールアドレスはすでに�
 $string['iagreetothetermsandconditions'] = '私は利用条件に同意します。';
 $string['passwordformdescription'] = 'あなたのパスワードには少なくとも半角6文字必要です。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。
 <br />
-セキュリティ上の理由から、パスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。';
+セキュリティ上の理由からパスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。';
 $string['passwordinvalidform'] = 'あなたのパスワードには少なくとも半角6文字必要です。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。
 <br />
-セキュリティ上の理由から、パスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。';
+セキュリティ上の理由からパスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。';
 $string['recaptcharegistertitle'] = 'reCAPTCHAチャレンジ';
-$string['recaptcharegisterdesc'] = 'ボックスに表示されているワード (半角英数字) を入力してください。この操作により、自動プログラムによるシステム悪用を防ぎます。';
+$string['recaptcharegisterdesc'] = 'ボックスに表示されているワード (半角英数字) を入力してください。この操作により自動プログラムによるシステム悪用を防ぎます。';
 $string['registeredemailsubject'] = 'あなたは %s に登録されました。';
 $string['registeredemailmessagetext'] = '%s さん
 
@@ -35,14 +35,14 @@ $string['registeredemailmessagetext'] = '%s さん
 
 %sregister.php?key=%s
 
-リンクは24時間のみ有効です。
+リンクは24時間で有効期限が切れます。
 
 --
 %s チーム';
 $string['registeredemailmessagehtml'] = '<p>%s さん</p>
 <p>%s へのご登録ありがとうございます。サインアップ処理を完了するには次のリンクに従ってください:</p>
 <p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>
-<p>リンクは24時間のみ有効です。</p>
+<p>リンクは24時間で有効期限が切れます。</p>
 
 <pre>--
 %s チーム</pre>';
@@ -69,7 +69,7 @@ $string['approvalemailmessagehtml'] = '<p>%s さん</p>
 
 <pre>--
 %s チーム</pre>';
-$string['emailconfirmedok'] = '<p>正常にあなたのメールを確認しました。まもなく、登録詳細に関してあなた宛にメールが送信されます。</p>';
+$string['emailconfirmedok'] = '<p>正常にあなたのメールを確認しました。まもなく登録詳細に関してあなた宛にメールが送信されます。</p>';
 $string['registrationcancelledok'] = 'あなたは正常に登録申請をキャンセルしました。';
 $string['registrationconfirm'] = '登録を承認しますか?';
 $string['registrationconfirmdescription'] = 'インスティテューション管理者が登録を承認する必要があります。';
@@ -92,7 +92,7 @@ $string['registrationdeniedmessagereason'] = '%s さん、こんにちは。
 %s';
 $string['registeredokawaitingemail2'] = 'あなたの登録申請が正常に送信されました。インスティテューション管理者に通知されました。申請が処理され次第、あなた宛にEメールが送信されます。';
 $string['registrationreason'] = '登録理由';
-$string['registrationreasondesc1'] = 'あなたが選択したインスティテューションへの登録申請理由、および管理者があなたの申請を処理することに関して有益であると思われる詳細を記述してください。';
+$string['registrationreasondesc1'] = 'あなたが選択したインスティテューションへの登録申請理由および管理者があなたの申請を処理することに関して有益であると思われる詳細を記述してください。';
 $string['pendingregistrationadminemailsubject'] = 'インスティテューション「 %s 」( %s )への新しいユーザ登録';
 $string['pendingregistrationadminemailtext'] = '%s さん、こんにちは。
 
