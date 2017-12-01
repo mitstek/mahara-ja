@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-11-26 23:48:01 UTC
+ * @updated    2017-12-01 02:30:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -922,6 +922,7 @@ $string['country.yt'] = 'マイヨット島';
 $string['country.mx'] = 'メキシコ合衆国';
 $string['country.fm'] = 'ミクロネシア連邦';
 $string['country.md'] = 'モルドバ共和国';
+$string['country.me'] = 'モンテネグロ';
 $string['country.mc'] = 'モナコ公国';
 $string['country.mn'] = 'モンゴル国';
 $string['country.ms'] = 'モントセラト（英国統治）';
@@ -971,7 +972,7 @@ $string['country.sm'] = 'サンマリノ共和国';
 $string['country.st'] = 'サントメ・プリンシペ民主共和国';
 $string['country.sa'] = 'サウジアラビア王国';
 $string['country.sn'] = 'セネガル共和国';
-$string['country.cs'] = 'セルビア';
+$string['country.rs'] = 'セルビア';
 $string['country.sc'] = 'セイシェル共和国';
 $string['country.sl'] = 'シエラレオネ共和国';
 $string['country.sg'] = 'シンガポール共和国';
