@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['attributemapfilenotamap'] = '属性マップファイル「 %s 」で属性マップが定義されていません。';
-$string['attributemapfilenotfound'] = 'attributemapファイルがないか書き込み権がありません: %s';
+$string['attributemapfilenotfound'] = '属性マップファイルがないか書き込み権がありません: %s';
 $string['certificate1'] = 'SAMLサービスプロバイダ署名および暗号化認証';
 $string['spmetadata'] = 'サービスプロバイダメタデータ';
 $string['metadatavewlink'] = '<a href="%s">メタデータを表示する</a>';
@@ -30,7 +30,7 @@ $string['errorbadssphp'] = '無効なSimpleSAMLphpセッションハンドラで
 $string['errorbadssphpmetadata'] = '無効なSimpleSAMLphp設定です: アイデンティティプロバイダメタデータが設定されていません。';
 $string['errorbadssphpspentityid'] = '無効なサービスプロバイダエンティティIDです。';
 $string['errorextrarequiredfield'] = '「こちらでユーザを自動作成する」が有効にされている場合、このフィールドは必須です。';
-$string['errorretryexceeded'] = '再試行の最大回数 (%s) を越えました - アイデンティティサービスに問題があります。';
+$string['errorretryexceeded'] = '再試行の最大回数 (%s) を越えました。アイデンティティサービスに問題があります。';
 $string['errnosamluser'] = 'ユーザが見つかりませんでした。';
 $string['errorssphpsetup'] = 'SAMLが正しくセットアップされていません。あなたは最初にコマンドラインから「make ssphp」を実行する必要があります。';
 $string['errorbadlib'] = 'SimpleSAMLPHPライブラリの「autoloader」ファイルが %s にありません。<br />あなたが「make ssphp」を使ってSimpleSAMLphpをインストールしていることを確認してください。また、ファイルを読み込むことができるか確認してください。';
@@ -44,7 +44,7 @@ $string['errorbadmetadata'] = 'SAMLメタデータのフォーマットが正し
 $string['errorbadinstitutioncombo'] = 'このインスティテューション属性およびインスティテューション値の組み合わせの認証インスタンスはすでに存在します。';
 $string['errormissingmetadata'] = 'あなたは新しいアイデンティティプロバイダメタデータの追加を選択しましたが何も提供されていません。';
 $string['errormissinguserattributes1'] = 'あなたは認証されたようですが私たちは必要なユーザ属性を受信していません。あなたのアイデンティティプロバイダが姓名およびメールアドレスに対するSSOフィールドを %s にリリースしているか確認してください。または管理者にご連絡ください。';
-$string['errorregistrationenabledwithautocreate1'] = 'インスティテューションが登録を有効にされています。あなたがリモートユーザ名を使用していない限り、セキュリティ上の理由からユーザの自動作成を許可しません。';
+$string['errorregistrationenabledwithautocreate1'] = 'インスティテューションが登録を有効にしています。あなたがリモートユーザ名を使用していない限りセキュリティ上の理由からユーザの自動作成を許可しません。';
 $string['errorremoteuser1'] = '「usersuniquebyusername」が無効にされた場合、「remoteuser」との合致は必須です。';
 $string['IdPSelection'] = 'アイデンティティプロバイダ選択';
 $string['noidpsfound'] = 'アイデンティティプロバイダなし';
