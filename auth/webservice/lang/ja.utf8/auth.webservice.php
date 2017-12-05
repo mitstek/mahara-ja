@@ -17,9 +17,9 @@ $string['webservice'] = 'ウェブサービス';
 $string['title'] = 'ウェブサービス';
 $string['description'] = 'ウェブサービスのみのユーザをMaharaのデータベースで認証する';
 $string['webservicesconfig'] = '設定';
-$string['webservicesconfigdesc'] = 'ここであなたはウェブサービスルールを変更すること、また有効または無効にすることができます。';
+$string['webservicesconfigdesc'] = 'ここであなたは様々なウェブサービスルールを変更すること、有効または無効にすることができます。';
 $string['completeregistration'] = '登録を完了する';
-$string['emailalreadytaken'] = 'このメールアドレスはすでに登録されています。';
+$string['emailalreadytaken'] = 'このメールアドレスはすでにここで登録されています。';
 $string['iagreetothetermsandconditions'] = '私は利用条件に同意します。';
 $string['passwordformdescription'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
 $string['passwordinvalidform'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
@@ -41,7 +41,7 @@ $string['registeredemailmessagehtml'] = '<p>%s さん</p>
 
 <pre>--
 %s チーム</pre>';
-$string['registeredok'] = '<p>あなたの登録が正常に完了しました。アカウントを有効にするためのインストラクションに関してあなたのメールアカウントを確認してください。</p>';
+$string['registeredok'] = '<p>あなたの登録が正常に完了しました。あなたのアカウントを有効にするためのインストラクションをあなたのメールアカウントで確認してください。</p>';
 $string['registrationnosuchkey'] = '申し訳ございません、このキーでの登録はできないようです。恐らく、登録を完了するためあなたが24時間以上待機していたと思われます。そうでない場合、これは私たちに責任があります';
 $string['registrationunsuccessful'] = '申し訳ございません、あなたの登録は正常に完了しませんでした。これは私たちに責任があります。再度お試しください。';
 $string['usernamealreadytaken'] = '申し訳ございません、このユーザ名はすでに取得されています。';
