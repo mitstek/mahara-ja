@@ -32,7 +32,7 @@ $string['internal'] = '内部';
 $string['title'] = '内部';
 $string['description'] = 'Maharaデータベースで認証する';
 $string['completeregistration'] = '登録を完了する';
-$string['emailalreadytaken'] = 'このメールアドレスはすでに登録されています。';
+$string['emailalreadytaken'] = 'このメールアドレスはすでにここで登録されています。';
 $string['iagreetothetermsandconditions'] = '私は利用条件に同意します。';
 $string['passwordformdescription'] = 'あなたのパスワードには少なくとも半角6文字必要です。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。
 <br />
