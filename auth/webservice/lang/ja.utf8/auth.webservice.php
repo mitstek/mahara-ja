@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-12-10 07:47:55 UTC
+ * @updated    2017-12-12 08:10:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -78,7 +78,7 @@ $string['emptyoauthsecret'] = 'OAuth1.xに秘密鍵を提供する必要があ�
 $string['consumer'] = 'コンシューマキー';
 $string['secret'] = '秘密鍵';
 $string['control_webservices'] = 'ウェブサービスをOnまたはOffに切り替える:';
-$string['webservice_requester_enabled_label'] = 'ウェブサービスリクエストマスタースイッチ';
+$string['webservice_requester_enabled_label'] = 'ウェブサービスリクエスタマスタースイッチ';
 $string['webservice_requester_enabled_label2'] = '外向きのウェブサービスリクエストを許可する:';
 $string['webservice_provider_enabled_label'] = 'ウェブサービスプロバイダマスタースイッチ';
 $string['webservice_provider_enabled_label2'] = '内向きのウェブサービスリクエストを許可する:';
@@ -99,7 +99,7 @@ $string['name'] = '名称';
 $string['component'] = 'コンポーネント';
 $string['customservicegroup'] = '(カスタム)';
 $string['functions'] = '関数';
-$string['enableservice'] = 'サービスを有効/無効にする';
+$string['enableservice'] = 'サービスを有効または無効にする';
 $string['restricteduserswarning'] = '警告: このサービスには既存のトークンユーザが存在するためあなたが「 %s 」 を有効にした場合、アクセスできないようになります。';
 $string['tokenuserswarning'] = '警告: このサービスには既存のトークンユーザが存在するためあなたが「 %s 」 を無効にした場合、アクセスできないようになります。';
 $string['usersonly'] = 'ユーザのみ';
