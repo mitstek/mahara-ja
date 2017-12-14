@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-12-12 08:10:16 UTC
+ * @updated    2017-12-14 07:25:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -100,8 +100,8 @@ $string['component'] = 'コンポーネント';
 $string['customservicegroup'] = '(カスタム)';
 $string['functions'] = '関数';
 $string['enableservice'] = 'サービスを有効または無効にする';
-$string['restricteduserswarning'] = '警告: このサービスには既存のトークンユーザが存在するためあなたが「 %s 」 を有効にした場合、アクセスできないようになります。';
-$string['tokenuserswarning'] = '警告: このサービスには既存のトークンユーザが存在するためあなたが「 %s 」 を無効にした場合、アクセスできないようになります。';
+$string['restricteduserswarning'] = '警告: このサービスには既存のトークンユーザが存在するためあなたが「 %s 」を有効にした場合、アクセスできないようになります。';
+$string['tokenuserswarning'] = '警告: このサービスには既存のトークンユーザが存在するためあなたが「 %s 」を無効にした場合、アクセスできないようになります。';
 $string['usersonly'] = 'ユーザのみ';
 $string['tokensonly'] = 'トークンのみ';
 $string['switchtousers'] = 'ユーザにスイッチする';
@@ -115,8 +115,8 @@ $string['invalidstatedetected'] = '無効な状態が検出されました。';
 $string['codingerror'] = 'コーディングエラー';
 $string['accessextfunctionnotconf'] = '外部関数へのアクセスが設定されていません。';
 $string['missingfuncname'] = '関数名がありません。';
-$string['invalidretdesc'] = '無効な戻り値記述です。';
-$string['invalidparamdesc'] = '無効なパラメータ記述です。';
+$string['invalidretdesc'] = '無効な戻り値の記述です。';
+$string['invalidparamdesc'] = '無効なパラメータの記述です。';
 $string['missingretvaldesc'] = '戻り値の記述がありません。';
 $string['missingparamdesc'] = 'パラメータの記述がありません。';
 $string['missingimplofmeth'] = '「 %s 」のメソッドが実装されていません。';
@@ -242,9 +242,9 @@ $string['error'] = 'エラー: %s';
 $string['errorcodes'] = 'エラーメッセージ';
 $string['errorinvalidparam'] = 'パラメータ「 %s 」が無効です。';
 $string['errorinvalidparamsapi'] = '無効な外部APIパラメータです。';
-$string['errorinvalidparamsdesc'] = '無効な外部APIウェブサービスのみのユーザをMaharaのデータベースで認証するです。';
+$string['errorinvalidparamsdesc'] = '無効な外部APIの記述です。';
 $string['errorinvalidresponseapi'] = '無効な外部APIレスポンスです。';
-$string['errorinvalidresponsedesc'] = '無効な外部APIレスポンス記述です。';
+$string['errorinvalidresponsedesc'] = '無効な外部APIレスポンスの記述です。';
 $string['errormissingkey'] = '単一構造の必須キーがありません: %s';
 $string['errornotemptydefaultparamarray'] = '名称「 %s 」のウェブサービスウェブサービスのみのユーザをMaharaのデータベースで認証するパラメータは単一または複数構造です。デフォルトは空の配列にのみすることができます。ウェブサービスウェブサービス記述を確認してください。';
 $string['erroronlyarray'] = '配列のみ許可されます。';
