@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-11-19 13:36:24 UTC
+ * @updated    2017-12-15 06:01:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -539,6 +539,8 @@ $string['emailsmtpsecuressl'] = 'SSL';
 $string['emailsmtpsecuretls'] = 'TLS';
 $string['emailnoreplyaddress'] = 'システムメールアドレス';
 $string['emailnoreplyaddressdescription'] = 'このメールアドレスからEメールが送信されることになります。';
+$string['internalnotificationexpire'] = '内部通知有効期限';
+$string['internalnotificationexpiredescription'] = '内部通知を保持する日数です。';
 $string['notificationsettings'] = '通知設定';
 $string['notificationsettingsdescription'] = 'ここであなたは新しいユーザが受信する通知のデフォルトオプションを設定することができます。ユーザはこれらの設定を自分の「設定 → 通知」ページでオーバーライドすることができます。<br />あなたがメールオプションのどちらかを選択した場合、通知はユーザの受信ボックスに到着しますが、自動的に既読としてマークされます。';
 $string['csvfile'] = 'CSVファイル';
