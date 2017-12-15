@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-11-16 07:07:10 UTC
+ * @updated    2017-12-15 05:46:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -87,6 +87,8 @@ $string['views'] = 'ページ';
 $string['viewsandcollections'] = 'ページおよびコレクション';
 $string['View'] = 'ページ';
 $string['Views'] = 'ページ';
+$string['portfolio'] = 'ポートフォリオ';
+$string['portfolios'] = 'ポートフォリオ';
 $string['Viewscollections'] = 'ページおよびコレクション';
 $string['viewsubmittedtogroup'] = 'このページは<a href="%s">%s</a>に送信されました。';
 $string['viewsubmittedtogroupon'] = 'このページは<a href="%s">%s</a>に対して %s に送信されました。';
@@ -100,8 +102,11 @@ $string['youhavenoviews1'] = 'あなたにはページまたはコレクショ�
 $string['youhaventcreatedanyviewsyet'] = 'あなたはページをまだ作成していません。';
 $string['youhavenviews'] = 'あなたには %d ページがあります。';
 $string['viewsownedbygroup'] = 'このグループが所有しているページ';
+$string['ownedbygroup'] = 'このグループによる所有';
 $string['nogroupviewsyet'] = 'このグループにはページはまだありません。';
+$string['viewscollectionssharedtogroup'] = 'このグループで共有されているページおよびコレクション';
 $string['viewssharedtogroup'] = 'このグループで共有されているページ';
+$string['sharedtogroup'] = 'このグループでの共有';
 $string['nosharedviewsyet'] = 'このグループで共有されているページはまだありません。';
 $string['viewssharedtogroupbyothers'] = 'このグループで共有されている他のメンバーのページ';
 $string['sharedviews'] = '共有ページ';
@@ -392,7 +397,6 @@ $string['mostvisited'] = '閲覧回数';
 $string['mostcomments1'] = 'コメント数';
 $string['dashboard'] = 'ダッシュボード';
 $string['profile'] = 'プロファイル';
-$string['portfolio'] = 'ポートフォリオ';
 $string['grouphomepage'] = 'グループホームページ';
 $string['grouphomepagedescription'] = 'グループホームページにはこのグループのAboutタブに表示されるコンテンツを含みます。';
 $string['pageaccessrules'] = 'ページアクセスルール';
