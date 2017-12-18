@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-12-14 07:25:55 UTC
+ * @updated    2017-12-18 04:15:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -120,7 +120,7 @@ $string['invalidparamdesc'] = '無効なパラメータの記述です。';
 $string['missingretvaldesc'] = '戻り値の記述がありません。';
 $string['missingparamdesc'] = 'パラメータの記述がありません。';
 $string['missingimplofmeth'] = '「 %s 」のメソッドが実装されていません。';
-$string['cannotfindimplfile'] = '外部関数が実装されたファイルを見つけることができませんでした。';
+$string['cannotfindimplfile'] = '外部関数の実装されたファイルを見つけることができませんでした。';
 $string['servicenamemustbeunique'] = 'この名称はすでに別のサービスグループで使用されています。';
 $string['serviceshortnamemustbeunique'] = 'この省略名はすでに別のサービスグループで使用されています。';
 $string['apptokens'] = 'アプリケーション接続';
@@ -128,13 +128,13 @@ $string['connections'] = '接続マネージャ';
 $string['servicetokens'] = 'サービスアクセストークンを管理する';
 $string['tokens'] = 'サービスアクセストークン';
 $string['users'] = 'サービスユーザ';
-$string['stdescription'] = 'トークンを生成してユーザをサービスグループに割り当てます。';
+$string['stdescription'] = 'アクセストークンを生成してユーザをサービスグループに割り当てます。';
 $string['username'] = 'ユーザ';
 $string['owner'] = 'オーナー';
 $string['servicename'] = 'サービス';
 $string['generate'] = 'トークンを生成する';
 $string['invalidtoken'] = '無効なトークン: トークンが見つかりませんでした。';
-$string['invalidtokennotsuppied'] = '無効なトークンが提供されたかトークンが提供されていません。';
+$string['invalidtokennotsuppied'] = '無効なトークンが選択されたかトークンが提供されていません。';
 $string['token'] = 'トークン';
 $string['tokenid'] = 'トークン「 %s 」';
 $string['invaliduserselected'] = '無効なユーザが選択されました。';
