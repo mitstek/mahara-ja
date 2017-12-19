@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-12-15 06:01:20 UTC
+ * @updated    2017-12-19 12:31:28 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1158,5 +1158,11 @@ $string['cli_lang_branch'] = 'シリーズ「 %s 」の言語パックを取得�
 $string['withselectedcontentexport'] = 'アイテムを再度エクスポートキューに入れる';
 $string['withselectedcontentdelete'] = '選択したアイテムをエクスポートキューから削除する';
 $string['allothers'] = 'その他すべて';
+$string['behatvariables'] = 'Behatステップ';
+$string['behatvariablesdesc'] = '利用可能なBehatステップを探すためのクイックツールです。';
+$string['nobehatfeaturefiles'] = 'Behatフィーチャファイルが見つかりませんでした。';
+$string['behatmatchingrows'] = '%s -';
+$string['behatnocore'] = 'behat.ymlファイルからコアBehatステップを読み込むことができません。';
+$string['behatstepnotused'] = '現在、このBehatステップは使用されていません。';
 
 ?>
