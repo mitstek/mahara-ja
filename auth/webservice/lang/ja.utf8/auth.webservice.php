@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-12-18 04:15:53 UTC
+ * @updated    2017-12-21 21:00:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -161,15 +161,15 @@ $string['invalidserviceuser'] = '無効なサービスユーザが選択され�
 $string['nouser'] = 'ユーザを選択してください。';
 $string['duplicateuser'] = 'すでにウェブサービスにユーザアカウントが設定されています。';
 $string['servicefunctionlist'] = 'サービスに割り当てられている関数';
-$string['sfldescription'] = 'このサービスに利用可能な関数一覧を作成します。';
+$string['sfldescription'] = 'このサービスで利用可能な関数一覧を作成します。';
 $string['functionname'] = '関数名';
 $string['classname'] = 'クラス名';
 $string['methodname'] = 'メソッド名';
 $string['invalidinput'] = '無効な入力です。';
 $string['configsaved'] = '設定が保存されました。';
 $string['webservices_title'] = 'ウェブサービス設定';
-$string['headingusersearchtoken'] = 'ウェブサービストークンユーザ検索';
-$string['headingusersearchuser'] = 'ウェブサービスサービスユーザ検索';
+$string['headingusersearchtoken'] = 'ウェブサービス: トークンユーザ検索';
+$string['headingusersearchuser'] = 'ウェブサービス: サービスユーザ検索';
 $string['usersearchinstructions'] = 'アバタをクリックすることにより、ウェブサービスに関連付けられているユーザを選択してください。あなたはユーザの姓名のイニシャルをクリックすることにより、または検索ボックスに名前を入力することにより、ユーザを検索することができます。メールアドレスで検索したい場合、あなたは検索ボックスにメールアドレスを入力することもできます。';
 $string['sha1fingerprint'] = 'SHA1フィンガープリント: %s';
 $string['md5fingerprint'] = 'MD5フィンガープリント: %s';
