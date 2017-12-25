@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-12-21 21:00:52 UTC
+ * @updated    2017-12-25 02:03:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -170,16 +170,16 @@ $string['configsaved'] = '設定が保存されました。';
 $string['webservices_title'] = 'ウェブサービス設定';
 $string['headingusersearchtoken'] = 'ウェブサービス: トークンユーザ検索';
 $string['headingusersearchuser'] = 'ウェブサービス: サービスユーザ検索';
-$string['usersearchinstructions'] = 'アバタをクリックすることにより、ウェブサービスに関連付けられているユーザを選択してください。あなたはユーザの姓名のイニシャルをクリックすることにより、または検索ボックスに名前を入力することにより、ユーザを検索することができます。メールアドレスで検索したい場合、あなたは検索ボックスにメールアドレスを入力することもできます。';
+$string['usersearchinstructions'] = 'アバタをクリックすることによりウェブサービスに関連付けられているユーザを選択してください。あなたはユーザの姓名のイニシャルをクリックまたは検索ボックスに名前を入力することによりユーザを検索することができます。メールアドレスで検索したい場合、あなたは検索ボックスにメールアドレスを入力することもできます。';
 $string['sha1fingerprint'] = 'SHA1フィンガープリント: %s';
 $string['md5fingerprint'] = 'MD5フィンガープリント: %s';
-$string['publickeyexpireson'] = 'パブリックキー有効期限: %s';
+$string['publickeyexpireson'] = '公開鍵有効期限: %s';
 $string['function'] = '関数';
 $string['wsdocdescription'] = '説明';
 $string['method'] = 'メソッド';
 $string['class'] = 'クラス';
 $string['arguments'] = '変数';
-$string['invalidparameter'] = '無効なパラメータ値が検出されました。実行を継続できません。';
+$string['invalidparameter'] = '無効なパラメータ値が検出されたため実行を継続できません。';
 $string['wsdoc'] = 'ウェブサービスドキュメンテーション';
 $string['testclient'] = 'ウェブサービステストクライアント';
 $string['testclientnav'] = 'テストクライアント';
