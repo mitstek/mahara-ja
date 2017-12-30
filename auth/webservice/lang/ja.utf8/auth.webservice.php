@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-12-26 15:49:44 UTC
+ * @updated    2017-12-30 08:08:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -219,9 +219,9 @@ $string['authorise'] = 'アプリケーションアクセス権限を与える';
 $string['oauth_access'] = 'このアプリケーションはあなたのユーザ詳細およびリソースにアクセスします。';
 $string['oauth_instructions'] = 'あなたがこのアプリケーションにアクセス権限を与えたい場合、「アプリケーションアクセス権限を与える」をクリックしてください。あなたがアクセス権限を与えたくない場合、「キャンセル」をクリックしてください。';
 $string['setauthinstancefailed'] = 'インスティテューション「 %s 」の「ウェブサービス」認証設定に失敗しました。「管理 -> インスティテューション -> 設定」ページで再度追加してください。';
-$string['accesstofunctionnotallowed'] = '関数「 %s() 」へのアクセスは許可されていません。サービスが関数を含むことを有効にされているかどうか確認してください。サービス設定において、サービスが制限されている場合でもユーザがリストに記載されているかどうか確認してください。さらにサービス設定ではIP制限およびサービスにケイパビリティが必要かどうか確認されます。';
+$string['accesstofunctionnotallowed'] = '関数「 %s() 」へのアクセスは許可されていません。サービスが関数を含むことを有効にされているかどうか確認してください。サービス設定において: サービスが制限されている場合でもユーザがリストに記載されているかどうか確認してください。さらにサービス設定ではIP制限およびサービスにケイパビリティが必要かどうか確認されます。';
 $string['accessexception'] = 'アクセスコントロール例外';
-$string['accessnotallowed'] = 'ウェブサービスへのアクセスが許可されていません。';
+$string['accessnotallowed'] = 'ウェブサービスへのアクセスは許可されていません。';
 $string['addfunction'] = '関数を追加する';
 $string['addfunctions'] = '関数を追加する';
 $string['addservice'] = '新しいサービスを追加する: {$a->name} (id: {$a->id})';
@@ -242,9 +242,9 @@ $string['error'] = 'エラー: %s';
 $string['errorcodes'] = 'エラーメッセージ';
 $string['errorinvalidparam'] = 'パラメータ「 %s 」が無効です。';
 $string['errorinvalidparamsapi'] = '無効な外部APIパラメータです。';
-$string['errorinvalidparamsdesc'] = '無効な外部APIの記述です。';
+$string['errorinvalidparamsdesc'] = '無効な外部API記述です。';
 $string['errorinvalidresponseapi'] = '無効な外部APIレスポンスです。';
-$string['errorinvalidresponsedesc'] = '無効な外部APIレスポンスの記述です。';
+$string['errorinvalidresponsedesc'] = '無効な外部APIレスポンス記述です。';
 $string['errormissingkey'] = '単一構造の必須キーがありません: %s';
 $string['errornotemptydefaultparamarray'] = '名称「 %s 」のウェブサービスウェブサービスのみのユーザをMaharaのデータベースで認証するパラメータは単一または複数構造です。デフォルトは空の配列にのみすることができます。ウェブサービスウェブサービス記述を確認してください。';
 $string['erroronlyarray'] = '配列のみ許可されます。';
