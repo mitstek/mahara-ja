@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-12-30 08:08:02 UTC
+ * @updated    2018-01-01 07:50:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -246,9 +246,9 @@ $string['errorinvalidparamsdesc'] = '無効な外部API記述です。';
 $string['errorinvalidresponseapi'] = '無効な外部APIレスポンスです。';
 $string['errorinvalidresponsedesc'] = '無効な外部APIレスポンス記述です。';
 $string['errormissingkey'] = '単一構造の必須キーがありません: %s';
-$string['errornotemptydefaultparamarray'] = '名称「 %s 」のウェブサービスウェブサービスのみのユーザをMaharaのデータベースで認証するパラメータは単一または複数構造です。デフォルトは空の配列にのみすることができます。ウェブサービスウェブサービス記述を確認してください。';
+$string['errornotemptydefaultparamarray'] = '名称「 %s 」のウェブサービスパラメータ記述は単一または多重構造です。デフォルトは空の配列にのみすることができます。ウェブサービス記述を確認してください。';
 $string['erroronlyarray'] = '配列のみ許可されます。';
-$string['erroroptionalparamarray'] = '名称「 %s 」のウェブサービスウェブサービスのみのユーザをMaharaのデータベースで認証するパラメータは単一または複数構造です。VALUE_OPTIONALに設定することはできません。ウェブサービスウェブサービス記述を確認してください。';
+$string['erroroptionalparamarray'] = '名称「 %s 」のウェブサービスパラメータ記述は単一または多重構造です。VALUE_OPTIONALに設定することはできません。ウェブサービス記述を確認してください。';
 $string['errorresponsemissingkey'] = 'レスポンスエラー: 次の単一構造の必須キーがありません: %s';
 $string['errorscalartype'] = 'スカラ型が要求されましたが、配列またはオブジェクトを受信しました。';
 $string['errorunexpectedkey'] = 'パラメータ配列に予期されないキー (%s) が検出されました。';
