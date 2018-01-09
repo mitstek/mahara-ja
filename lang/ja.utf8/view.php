@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-12-15 05:46:48 UTC
+ * @updated    2018-01-09 04:00:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -225,7 +225,7 @@ $string['confirmcancelcreatingview'] = 'このページは作成完了してい�
 $string['groupviewurltaken'] = 'このURLのページはすでに存在します。';
 $string['editblockspagedescription'] = '<p>あなたのページを作成するには以下のタブよりブロックを選択してドラッグ&ドロップしてください。</p>';
 $string['displayview'] = 'ページを表示する';
-$string['editthisview'] = 'このページを編集する';
+$string['editthisview'] = '編集';
 $string['expandcontract'] = 'ブロックタイプ一覧を展開/折りたたむ';
 $string['returntoviews'] = 'ページおよびコレクションに戻る';
 $string['returntoinstitutionportfolios'] = 'インスティテューションページおよびコレクションに戻る';
