@@ -247,7 +247,7 @@ $string['errornotemptydefaultparamarray'] = '名称「 %s 」のウェブサー�
 $string['erroronlyarray'] = '配列のみ許可されます。';
 $string['erroroptionalparamarray'] = '名称「 %s 」のウェブサービス記述パラメータは単一または複数構造です。VALUE_OPTIONALに設定することはできません。ウェブサービス記述を確認してください。';
 $string['errorresponsemissingkey'] = 'レスポンスエラー: 次の単一構造の必須キーがありません: %s';
-$string['errorscalartype'] = 'スカラ型が要求されましたが、配列またはオブジェクトを受信しました。';
+$string['errorscalartype'] = 'スカラ型が要求されましたが配列またはオブジェクトを受信しました。';
 $string['errorunexpectedkey'] = 'パラメータ配列に予期されないキー (%s) が検出されました。';
 $string['execute'] = '実行';
 $string['expires'] = '有効期限';
@@ -260,7 +260,7 @@ $string['invalidextparam'] = '無効な外部APIパラメータ: %s';
 $string['invalidextresponse'] = '無効な外部APIレスポンス: %s';
 $string['invalidiptoken'] = '無効なトークン: あなたのIPはサポートされていません。';
 $string['invalidtimedtoken'] = '無効なトークン: トークンの有効期限が切れています。';
-$string['invalidtokensession'] = '無効なセッションベースのトークン: セッションが見つからない、または有効期限が切れています。';
+$string['invalidtokensession'] = '無効なセッションベースのトークン: セッションが見つからないか有効期限が切れています。';
 $string['iprestriction'] = 'IP制限';
 $string['list'] = 'リスト';
 $string['key'] = 'キー';
@@ -301,15 +301,15 @@ $string['servicenamedesc'] = 'このサービスグループに関する人間�
 $string['serviceshortnamelabel'] = '省略名';
 $string['serviceshortnamedesc'] = 'このサービスグループに関するコンピュータが解読可能な名称です。これは外部サービスがこのサービスグループを参照する必要がある場合に使用される名称です。';
 $string['servicecomponentnote'] = 'このサービスは次のコンポーネントの機能を提供します: %s';
-$string['simpleauthlog'] = '単純認証';
+$string['simpleauthlog'] = '単純認証ログイン';
 $string['step'] = 'ステップ';
-$string['testclientdescription'] = '* ウェブサービステストクライアントは関数を<strong>実際/strong>に<strong>実行</strong>します。あなたが分からない関数はテストしないでください。
+$string['testclientdescription'] = '* ウェブサービステストクライアントは関数を<strong>実際</strong>に<strong>実行</strong>します。あなたが分からない関数はテストしないでください。
 <br />
 * まだ既存のウェブサービス関数すべてはテストクライアントに実装されていません。
 <br />
-* ユーザが関数にアクセスできないことを確認するにはあなたが許可していない関数をテストすることができます。
+* ユーザが関数にアクセスできないことを確認するためあなたは許可していない関数をテストすることができます。
 <br />
-* クリアなエラーメッセージを表示するには{$a->atag} でデバッギングを <strong>{$a->mode}</strong> に設定してください。
+* クリアなエラーメッセージを表示するには {$a->atag} でデバッギングを <strong>{$a->mode}</strong> に設定してください。
 <br />
 * {$a->amfatag}にアクセスしてください。';
 $string['testwithtestclient'] = 'サービスをテストする';
@@ -344,8 +344,8 @@ $string['mustsetauth'] = 'ユーザ「 %s 」の認証を更新するには認�
 $string['invalidusername'] = '無効なユーザ名「 %s 」です。';
 $string['invalidremoteusername'] = '無効なリモートユーザ名「 %s 」です。';
 $string['musthaveid'] = 'ID、ユーザIDまたはユーザ名が必要です。';
-$string['notauthforuseridinstitution'] = 'ユーザID「 %s (インスティテューション: %s)」へのアクセスは認証されていません。';
-$string['notauthforuseridinstitutiongroup'] = 'ユーザID「 %s (インスティテューション: %s)」からグループ「 %s 」へのアクセスは認証されていません。';
+$string['notauthforuseridinstitution'] = 'ユーザID「 %s (インスティテューション: %s)」へのアクセスは許可されていません。';
+$string['notauthforuseridinstitutiongroup'] = 'ユーザID「 %s (インスティテューション: %s)」からグループ「 %s 」へのアクセスは許可されていません。';
 $string['invalidfavourite'] = '無効なお気に入り「 %s 」です。';
 $string['groupexists'] = 'グループはすでに存在します: %s';
 $string['instmustbeongroup'] = 'グループ「 %s 」にインスティテューションを設定する必要があります。';
@@ -357,7 +357,7 @@ $string['groupeditroles'] = '「 %s 」で指定したグループ編集ロー�
 $string['invalidmemroles'] = '無効なグループメンバーシップロール「 %s (ユーザ: %s) 」です。';
 $string['groupnotexist'] = 'グループ「 %s 」は存在しません。';
 $string['instmustset'] = '「 %s 」にインスティテューションを設定する必要があります。';
-$string['nogroup'] = 'グループが選択されていません。';
+$string['nogroup'] = 'グループが指定されていません。';
 $string['membersinvalidaction'] = '無効な操作「 %s 」です - ユーザ「 %s (グループ: %s)」';
 $string['passwordmustbechangedviawebsite'] = 'あなたはパスワードを変更する必要があります。あなたのパスワードを更新するにはブラウザでログインしてください。';
 $string['featuredisabled'] = 'ウェブサービス機能が有効にされていません。詳細情報に関してあなたのサイト管理者にご連絡ください。';
