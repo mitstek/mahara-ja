@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-08-25 15:28:34 UTC
+ * @updated    2018-01-14 06:23:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,7 +20,7 @@ $string['alttext'] = 'クリエイティブ・コモンズ・ライセンス';
 $string['cclicensename'] = 'クリエイティブ・コモンズ %s %s 非移植';
 $string['cclicensestatement'] = '%s by %s は %s ライセンスの下に提供されています。';
 $string['otherpermissions'] = 'このライセンスの範囲を超えた使用は %s の許可が必要です。';
-$string['sealalttext'] = 'このライセンスはフリーな文化的作品 (Free Cultural Works) に関して許可されます。';
+$string['sealalttext'] = 'このライセンスは自由文化作品 (Free Cultural Works) に許可されます。';
 $string['version30'] = '3.0';
 $string['version40'] = '4.0';
 $string['config:noncommercial'] = 'あなたの作品の商用利用を許可しますか?';
