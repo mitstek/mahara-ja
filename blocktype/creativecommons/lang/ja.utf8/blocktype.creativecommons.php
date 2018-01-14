@@ -33,7 +33,7 @@ $string['description'] = 'あなたのビューにクリエイティブ・コモ
 $string['blockcontent'] = 'ブロックコンテンツ';
 $string['alttext'] = 'クリエイティブ・コモンズ・ライセンス';
 $string['licensestatement'] = 'この作品は<a rel="license" href="%s">Creative Commons %s 3.0 Unported License</a>により、利用許諾されています。';
-$string['sealalttext'] = 'このライセンスはフリーな文化的作品 (Free Cultural Works) に関して許可されます。';
+$string['sealalttext'] = 'このライセンスは自由文化作品 (Free Cultural Works) に許可されます。';
 $string['config:noncommercial'] = 'あなたの作品の商用利用を許可しますか?';
 $string['config:noderivatives'] = 'あなたの作品の修正を許可しますか?';
 $string['config:sharealike'] = 'Yes、他の人が同一許諾条件を保持する場合';
