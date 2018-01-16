@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-04 04:42:38 UTC
+ * @updated    2018-01-16 02:58:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -21,13 +21,13 @@ $string['authpassword'] = 'HTTPパスワード';
 $string['authpassworddesc'] = 'このフィードへのアクセスに必要なパスワード (HTTP基本認証) です (必要であれば)。';
 $string['feedlocation'] = 'フィードロケーション';
 $string['feedlocationdesc'] = '有効なRSSまたはATOMフィードのURL';
-$string['insecuresslmode'] = '安全ではないSSLモード';
-$string['insecuresslmodedesc'] = 'SSL証明書認証を無効にします。これはお勧めできる設定ではありませんが、無効または信頼できない証明書を使ってフィードが提供されている場合に必要であると思われます。';
+$string['insecuresslmode'] = '安全でないSSLモード';
+$string['insecuresslmodedesc'] = 'SSL証明書認証を無効にします。これはお勧めできる設定ではありませんが無効または信頼できない証明書を使ってフィードが提供されている場合に必要であると思われます。';
 $string['itemstoshow'] = '表示するアイテム数';
 $string['itemstoshowdescription'] = '範囲: 1～20';
 $string['showfeeditemsinfull'] = 'フィードアイテムを完全に表示する';
 $string['showfeeditemsinfulldesc'] = 'ここではフィードアイテムの要約を表示するか、それぞれのフィードアイテムの全文を表示するか選択してください。';
-$string['invalidurl'] = '指定されたURLが有効ではありません。あなたはhttpおよびhttpsのURLからのみフィードを表示することができます。';
+$string['invalidurl'] = '指定されたURLが有効ではありません。あなたはhttpおよびhttpsのURLのみフィードを表示することができます。';
 $string['invalidfeed1'] = 'このURLでは有効なフィードは検出されませんでした。';
 $string['lastupdatedon'] = '最終更新日時: %s';
 $string['publishedon'] = '公開日時: %s';
