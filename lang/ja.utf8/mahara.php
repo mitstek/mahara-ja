@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-11-26 23:48:08 UTC
+ * @updated    2018-01-16 23:48:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -446,7 +446,7 @@ $string['forgotusernamepasswordtextprimaryemail'] = '<p>ユーザ名またはパ
 <p>あなたがパスワードを忘れてユーザ名を忘れていない場合、ユーザ名を入力することもできます。</p>';
 $string['lostusernamepassword'] = 'ユーザ名/パスワード喪失';
 $string['emailaddressorusername'] = 'メールアドレスまたはユーザ名';
-$string['pwchangerequestsent'] = 'あなたのアカウントのパスワード変更に使用できるリンクを記載したメールがまもなく送信されます。';
+$string['pwchangerequestsentfullinfo'] = 'あなたのアカウントのパスワード変更に使用することのできるリンクを記載したメールがまもなく送信されます。<br />メールを受信できない場合、あなたが入力した内容が間違っているか、サイトへのアクセスに外部認証を使用しています。';
 $string['forgotusernamepasswordemailsubject'] = '%s に関するユーザ名/パスワード詳細';
 $string['forgotusernamepasswordemailmessagetext'] = '%s さん
 
@@ -482,8 +482,6 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 <p>%s サイト管理者</p>';
 $string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは私たちに責任があります。再度お試しください。';
 $string['forgotpassemailsentanyway1'] = 'このユーザに関して保存されているメールアドレス宛にメールが送信されましたがメールアドレスが正しくないか受信サーバがメッセージを戻しました。メールを受信していない場合、あなたのパスワードをリセットするために %s 管理者にご連絡ください。';
-$string['forgotpassnosuchemailaddressorusername'] = 'あなたが入力したメールアドレスまたはユーザア名はこのサイトのユーザに合致しません。';
-$string['forgotpassuserusingexternalauthentication'] = 'あなたがリクエストしたユーザは外部認証方法を使用しています。パスワードを変更するには<a href="%s">あなたの管理者にご連絡ください</a>。または別のユーザ名またはメールドレスを入力してください。';
 $string['forgotpasswordenternew'] = '続けるにはあなたの新しいパスワードを入力してください。';
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';
 $string['passwordresetexpired'] = 'パスワードリセットキーの有効期限が切れました。';
