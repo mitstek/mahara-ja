@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-03-30 04:27:25 UTC
+ * @updated    2018-01-22 05:05:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -21,7 +21,7 @@ $string['validiframesites'] = '&lt;iframe&gt;タグを含む次のサイトの<s
 $string['validurlsites'] = '次のサイトの<strong>URL</strong>が許可されます:';
 $string['width'] = '幅';
 $string['height'] = '高さ';
-$string['widthheightdescription'] = '「幅」および「高さ」フィールドはURLにのみ使用されます。上記で「embed」または「iframe」タグを入力している場合、あなたはコード内で幅および高さを更新する必要があります。';
+$string['widthheightdescription'] = '「幅」および「高さ」フィールドはURLにのみ使用されます。上でembedまたはiframeコードを入力している場合、あなたはコード内で幅および高さを更新する必要があります。';
 $string['invalidurl'] = '無効なURL';
 $string['invalidurlorembed'] = '無効なURLまたは埋め込みコード';
 $string['googlevideo'] = 'Googleビデオ';
