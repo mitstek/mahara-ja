@@ -84,7 +84,7 @@ $string['uploadcsv'] = 'CSVでユーザを追加する';
 $string['uploadcsvdescription'] = '新しいユーザを含んだCSVファイルをアップロードします。';
 $string['usersearch'] = 'ユーザ検索';
 $string['usersearchdescription'] = 'すべてのユーザを検索して検索されたユーザに対して管理行為を実施します。';
-$string['usersearchinstructions'] = 'ユーザの姓名のイニシャルをクリックするか、検索ボックスに名前を入力することにより、あなたはユーザを検索することができます。あなたがメールアドレスを検索したい場合、検索ボックスにメールアドレスを入力することもできます。';
+$string['usersearchinstructions'] = 'ユーザの姓名のイニシャルをクリックするか、検索ボックスに名前を入力することによりあなたはユーザを検索することができます。あなたがメールアドレスを検索したい場合、検索ボックスにメールアドレスを入力することもできます。';
 $string['institutionmembersdescription'] = 'ユーザをインスティテューションに関連付けます。';
 $string['institutionstaffdescription'] = 'ユーザにスタッフパーミッションを割り当てます。';
 $string['institutionadminsdescription'] = 'インスティテューション管理者アクセス権を割り当てます。';
@@ -188,7 +188,7 @@ $string['csvfiledescription'] = '追加するユーザを含むファイル';
 $string['uploadcsverrorinvalidfieldname'] = 'フィールド名「 %s 」が無効です。';
 $string['uploadcsverrorrequiredfieldnotspecified'] = '必須入力フィールド「 %s 」がフォーマット行で指定されていません。';
 $string['uploadcsverrornorecords'] = 'ファイルにレコードが含まれていないようです (ヘッダに問題はありません)。';
-$string['uploadcsverrorunspecifiedproblem'] = '何らかの理由により、あなたのCSVファイルのレコードを追加することができませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href="https://eduforge.org/tracker/?func=add&group_id=176&atid=739">バクレポートを作成してください</a> (パスワードは空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
+$string['uploadcsverrorunspecifiedproblem'] = '何らかの理由によりあなたのCSVファイルのレコードを追加することができませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href="https://eduforge.org/tracker/?func=add&group_id=176&atid=739">バクレポートを作成してください</a> (パスワードは空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
 $string['uploadcsverrorinvalidemail'] = 'あなたのファイルの %s 行目にエラーがあります: このユーザのメールアドレスは正しい形式ではありません。';
 $string['uploadcsverrorincorrectnumberoffields'] = 'あなたのファイルの %s 行目にエラーがあります: この行には正しい数のフィールドが含まれていません。';
 $string['uploadcsverrorinvalidpassword'] = 'あなたのファイルの %s 行目にエラーがあります: このユーザのパスワードは正しい形式ではありません。';
@@ -196,7 +196,7 @@ $string['uploadcsverrorinvalidusername'] = 'あなたのファイルの %s 行�
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には必須の「 %s 」フィールドが含まれていません。';
 $string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」はすでに登録されています。';
 $string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」はすでに他のユーザにより取得されています。';
-$string['uploadcsvpagedescription2'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
+$string['uploadcsvpagedescription2'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
@@ -207,7 +207,7 @@ $string['uploadcsvpagedescription2'] = '<p>あなたはこの機能により、<
 <p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
 
 %s';
-$string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
+$string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
