@@ -103,7 +103,7 @@ $string['uploadgroupcsv'] = 'CSVでグループを追加する';
 $string['uploadgroupmemberscsv'] = 'CSVでグループメンバーを更新する';
 $string['usersearch'] = 'ユーザ検索';
 $string['usersearchdescription'] = 'すべてのユーザを検索して検索されたユーザに対して管理行為を実施します。';
-$string['usersearchinstructions'] = 'ユーザの姓名のイニシャルをクリックするか、検索ボックスに名前を入力することにより、あなたはユーザを検索することができます。あなたがメールアドレスを検索したい場合、検索ボックスにメールアドレスを入力することもできます。';
+$string['usersearchinstructions'] = 'ユーザの姓名のイニシャルをクリックするか、検索ボックスに名前を入力することによりあなたはユーザを検索することができます。あなたがメールアドレスを検索したい場合、検索ボックスにメールアドレスを入力することもできます。';
 $string['emailaddresshidden'] = 'メールアドレス非表示';
 $string['administergroups'] = 'グループを管理する';
 $string['administergroupsdescription'] = 'グループ管理者を割り当ておよびグループを削除します。';
@@ -180,15 +180,15 @@ $string['datathatwillbesent'] = '送信されるデータ';
 $string['sendweeklyupdates'] = '更新を週に1回送信しますか?';
 $string['sendweeklyupdatesdescription'] = 'この設定を有効にした場合、あなたのサイトは週に1回、統計資料とともに更新内容をmahara.orgに送信します。';
 $string['Register'] = '登録';
-$string['registrationfailedtrylater'] = 'エラーコード %s により、登録が失敗しました。後ほど再度お試しください。';
+$string['registrationfailedtrylater'] = 'エラーコード %s により登録が失敗しました。後ほど再度お試しください。';
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます。';
 $string['registeryourmaharasite'] = 'あなたのMaharaサイトを登録する';
-$string['registeryourmaharasitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することができます。登録することにより、私たちは世界のMaharaインストール状況を作成することができます。登録することにより、この通知が取り除かれます。</p>
+$string['registeryourmaharasitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することができます。登録することにより私たちは世界のMaharaインストール状況を作成することができます。登録することによりこの通知が取り除かれます。</p>
 <p>あなたがサイトを登録する場合、送信される情報を<strong><a href="%sadmin/registersite.php">サイト登録ページ</a></strong>でプレビューすることができます。</p>';
-$string['registeryourmaharasitedetail'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することができます。登録することにより、私たちは世界のMaharaインストール状況を作成することができます。</p>
+$string['registeryourmaharasitedetail'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することができます。登録することにより私たちは世界のMaharaインストール状況を作成することができます。</p>
 <p>あなたはmahara.orgに送信された情報を閲覧できます - あなたのユーザに関する個人情報は一切送信されません。</p>
 <p>あなたが「更新を週に1回送信しますか?」設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
-<p>登録することにより、この通知が取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更することができます。</p>';
+<p>登録することによりこの通知が取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更することができます。</p>';
 $string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページで</p>サイト更新内容の週ごとの送信を有効または無効にすることができます。';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
@@ -483,7 +483,7 @@ $string['invalidfilename'] = 'ファイル「 %s 」が存在しません。';
 $string['uploadcsverrorinvalidfieldname'] = 'フィールド名「 %s 」が無効、またはヘッダ行より多いフィールドが指定されています。';
 $string['uploadcsverrorrequiredfieldnotspecified'] = '必須入力フィールド「 %s 」がフォーマット行で指定されていません。';
 $string['uploadcsverrornorecords'] = 'ファイルにレコードが含まれていないようです (ヘッダに問題はありません)。';
-$string['uploadcsverrorunspecifiedproblem1'] = '何らかの理由により、あなたのCSVファイルのレコードを追加することができませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href="https://bugs.launchpad.net/mahara/+filebug">バクレポートを作成してください</a> (パスワードは空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
+$string['uploadcsverrorunspecifiedproblem1'] = '何らかの理由によりあなたのCSVファイルのレコードを追加することができませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href="https://bugs.launchpad.net/mahara/+filebug">バクレポートを作成してください</a> (パスワードは空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
 $string['uploadcsverrorwrongnumberoffields'] = 'あなたのファイルの %s 行目にエラーがあります: フィールド数が正しくありません。';
 $string['uploadcsverrorinvalidemail'] = 'あなたのファイルの %s 行目にエラーがあります: このユーザのメールアドレスは正しい形式ではありません。';
 $string['uploadcsverrorincorrectnumberoffields'] = 'あなたのファイルの %s 行目にエラーがあります: この行には正しい数のフィールドが含まれていません。';
@@ -497,7 +497,7 @@ $string['uploadcsverrorduplicateremoteuser'] = 'このファイルの %s 行目�
 $string['uploadcsverrorremoteusertaken'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでにユーザ「 %s 」により取得されています。';
 $string['uploadcsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ「 %s 」はインスティテューション「 %s 」のメンバーではありません。';
 $string['uploadcsverroruserinaninstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ「 %s 」は次のインスティテューションのメンバーです: %s あなたはこのユーザの認証方法を「No Institution」に変更することはできません。';
-$string['uploadcsvpagedescription2'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
+$string['uploadcsvpagedescription2'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
@@ -508,7 +508,7 @@ $string['uploadcsvpagedescription2'] = '<p>あなたはこの機能により、<
 <p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
 
 %s';
-$string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
+$string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードすることができます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
@@ -529,7 +529,7 @@ $string['uploadgroupcsverrorshortnamealreadytaken'] = 'あなたのファイル�
 $string['uploadgroupcsverrorusernamesnotlastfield'] = '「usernames」フィールドはヘッダの最終フィールドにしてください。';
 $string['uploadgroupcsverroropencontrolled'] = '%s 行目: グループにはオープンおよび管理メンバーシップの両方を設定することはできません。';
 $string['uploadgroupcsverroropenrequest'] = '%s 行目: オープンメンバーシップのグループではメンバーシップのリクエストを許可することはできません。';
-$string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいグループをアップロードすることができます。</p>
+$string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいグループをアップロードすることができます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
@@ -552,7 +552,7 @@ $string['uploadgroupmemberscsverrornoadminlisted'] = 'あなたのファイル�
 $string['uploadgroupmemberscsverrornosuchshortname'] = 'あなたのファイルの %s 行目にエラーが発生しました: グループ省略名 (shortname)「 %s 」が存在しないかインスティテューション「 %s 」に属していません。';
 $string['uploadgroupmemberscsverrornosuchusername'] = 'あなたのファイルの %s 行目にエラーが発生しました: ユーザ名 (username)「 %s 」は存在しません。';
 $string['uploadgroupmemberscsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーが発生しました: ユーザ名 (username)「 %s 」はインスティテューション「 %s 」に属していません。';
-$string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用してこのインスティテューションでコントロールされるグループ内のグループメンバーを更新することができます。</p>
+$string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用してこのインスティテューションでコントロールされるグループ内のグループメンバーを更新することができます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば、以下のようになります:</p>
 
@@ -564,7 +564,7 @@ $string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能�
 
 <p>roleフィールドにはグループタイプに応じて次の設定値を使用することができます: <tt>admin</tt>、<tt>member</tt>または<tt>tutor</tt></p>
 
-<div class="warning">すべてのCSVファイルアップロードにより、グループ管理者を含む既存のグループメンバーすべてが完全に削除されます。あなたのCSVファイル内に少なくとも1名の管理者が存在することを確認してください。</div>';
+<div class="warning">すべてのCSVファイルアップロードによりグループ管理者を含む既存のグループメンバーすべてが完全に削除されます。あなたのCSVファイル内に少なくとも1名の管理者が存在することを確認してください。</div>';
 $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動でコンタクトしてください:';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるためユーザは追加されませんでした。許可されたインスティテューションの最大ユーザ数を超過しました。';
 $string['updateusers'] = 'ユーザを更新する';
@@ -766,9 +766,9 @@ $string['settingsfor'] = '設定:';
 $string['institutionmembers'] = 'インスティテューションメンバー';
 $string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
 $string['institutionmemberspagedescription'] = 'このページではあなたのインスティテューションにメンバーシップをリクエストしたユーザを確認およびメンバーとして追加することができます。また、あなたのインスティテューションからユーザを削除および招待することができます。';
-$string['institutionusersinstructionsrequesters'] = '左側のユーザ一覧にはあなたのインスティテューションに参加をリクエストした、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため検索ボックスを使用することができます。あなたがユーザをインスティテューションに追加したい場合、またはユーザのメンバーシップリクエストを拒否したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより、最初にユーザを右側ボックスに移動してください。「メンバーを追加する」ボタンをクリックして右側ボックスのすべてのユーザをインスティテューションに追加することができます。「リクエストを拒否する」ボタンをクリックして右側ボックスのユーザのメンバーシップリクエストを拒否することができます。';
-$string['institutionusersinstructionsnonmembers'] = '左側のユーザ一覧にはあなたのインスティテューションのメンバーではない、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため検索ボックスを使用することができます。あなたがユーザに対してインスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックして右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまでこれらのユーザはインスティテューションと関連付けされません。';
-$string['institutionusersinstructionslastinstitution'] = '左側のユーザ一覧にはあなたのインスティテューションのメンバーではなく、選択されたインスティテューションを離れたすべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため検索ボックスを使用することができます。あなたがユーザに対してインスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより、最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックして右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまでこれらのユーザはインスティテューションと関連付けされません。';
+$string['institutionusersinstructionsrequesters'] = '左側のユーザ一覧にはあなたのインスティテューションに参加をリクエストした、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため検索ボックスを使用することができます。あなたがユーザをインスティテューションに追加したい場合、またはユーザのメンバーシップリクエストを拒否したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより最初にユーザを右側ボックスに移動してください。「メンバーを追加する」ボタンをクリックして右側ボックスのすべてのユーザをインスティテューションに追加することができます。「リクエストを拒否する」ボタンをクリックして右側ボックスのユーザのメンバーシップリクエストを拒否することができます。';
+$string['institutionusersinstructionsnonmembers'] = '左側のユーザ一覧にはあなたのインスティテューションのメンバーではない、すべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため検索ボックスを使用することができます。あなたがユーザに対してインスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックして右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまでこれらのユーザはインスティテューションと関連付けされません。';
+$string['institutionusersinstructionslastinstitution'] = '左側のユーザ一覧にはあなたのインスティテューションのメンバーではなく、選択されたインスティテューションを離れたすべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため検索ボックスを使用することができます。あなたがユーザに対してインスティテューションへの参加を招待したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより最初にユーザを右側ボックスに移動してください。「ユーザを招待する」ボタンをクリックして右側ボックスのすべてのユーザに招待状を送信することができます。招待を受け入れるまでこれらのユーザはインスティテューションと関連付けされません。';
 $string['institutionusersinstructionsmembers'] = '左側のユーザ一覧にはあなたのインスティテューションのすべてのユーザが表示されます。あなたは表示されるユーザ数を減らすため検索ボックスを使用することができます。ユーザをインスティテューションから削除するには最初に1名またはそれ以上のユーザを左側のボックスで選択した後、右矢印をクリックしてください。あなたが選択したユーザが右側のボックスに移動されます。「ユーザを削除する」ボタンをクリックして右側ボックスのすべてのユーザが削除されます。左側ボックスのユーザはインスティテューションに参加したままの状態です。';
 $string['institutionusersinstructionsinvited'] = '左側のユーザ一覧にはインスティテューションへの参加の招待が送信されたすべてのユーザおよび誰が承認または拒否したか表示されます。あなたは表示されるユーザ数を減らすため検索ボックスを使用することができます。インスティテューションへの招待を取り消すには最初に1名またはそれ以上のユーザを左側のボックスで選択した後、右矢印をクリックしてください。あなたが選択したユーザが右側のボックスに移動されます。「招待を取り消す」ボタンをクリックして右側ボックスのすべてのユーザへの招待が取り消されます。左側ボックスのユーザはインスティテューションに招待されたままの状態でいつでもインスティテューションに参加することができます。';
 $string['editmembers'] = 'メンバーを編集する';
