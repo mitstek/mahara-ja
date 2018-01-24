@@ -180,7 +180,7 @@ $string['grouprequestmessagereason'] = '%s があなたのグループ「 %s 」
 
 %s';
 $string['cantdeletegroup'] = 'あなたはこのグループを削除できません。';
-$string['groupconfirmdelete'] = 'この処理により、グループに含まれるすべてのページ、ファイルおよびフォーラムも削除されます。本当にこのグループおよびコンテンツすべてを完全に削除してもよろしいですか?';
+$string['groupconfirmdelete'] = 'この処理によりグループに含まれるすべてのページ、ファイルおよびフォーラムも削除されます。本当にこのグループおよびコンテンツすべてを完全に削除してもよろしいですか?';
 $string['deletegroup'] = 'グループが正常に削除されました。';
 $string['deletegroup1'] = 'グループを削除する';
 $string['allmygroups'] = 'すべてのマイグループ';
