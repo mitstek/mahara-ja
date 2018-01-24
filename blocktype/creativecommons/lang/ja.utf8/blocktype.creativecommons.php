@@ -32,7 +32,7 @@ $string['title'] = 'クリエイティブ・コモンズ・ライセンス';
 $string['description'] = 'あなたのビューにクリエイティブ・コモンズ・ライセンスを添付します。';
 $string['blockcontent'] = 'ブロックコンテンツ';
 $string['alttext'] = 'クリエイティブ・コモンズ・ライセンス';
-$string['licensestatement'] = 'この作品は<a rel="license" href="%s">Creative Commons %s 3.0 Unported License</a>により、利用許諾されています。';
+$string['licensestatement'] = 'この作品は<a rel="license" href="%s">Creative Commons %s 3.0 Unported License</a>により利用許諾されています。';
 $string['sealalttext'] = 'このライセンスは自由文化作品 (Free Cultural Works) に許可されます。';
 $string['config:noncommercial'] = 'あなたの作品の商用利用を許可しますか?';
 $string['config:noderivatives'] = 'あなたの作品の修正を許可しますか?';
