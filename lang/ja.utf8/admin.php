@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-01-25 11:32:56 UTC
+ * @updated    2018-01-25 11:56:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -84,7 +84,7 @@ $string['staticpageinstitutionbad'] = 'あなたはインスティテューシ�
 $string['usedefault'] = 'サイトデフォルトを使用する';
 $string['usedefaultdescription3'] = '選択されたページタイプにサイトのデフォルトテキストを使用します。';
 $string['staticpagesdescription'] = 'Mahara内の固定ページのコンテンツを編集します (ホーム、利用条件等)。';
-$string['institutionprivacypagedescription'] = 'サイトプライバシー保護方針に加えてあなたのインスティテューションに表示されるプライバシー保護方針を編集してください。あなたが最後に編集したバージョンは自動的に最新のプライバシー保護方針となります。あなたには参考として現在のサイトプライバシー保護方針が表示されます。';
+$string['institutionprivacypagedescription'] = 'サイトプライバシー保護方針に加えてあなたのインスティテューションに表示されるプライバシー保護方針を編集してください。あなたが最後に編集したバージョンは自動的に最新のプライバシー保護方針となります。あなたには参考として現在のサイトプライバシー保護方針が表示されています。';
 $string['noinstitutionprivacy'] = 'このインスティテューションにはまだプライバシー保護方針がありません。';
 $string['menus'] = 'メニュー';
 $string['menusdescription'] = '「リンクおよびリソースメニュー」およびフッタメニュー内のリンクおよびファイルを管理します。';
