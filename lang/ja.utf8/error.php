@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-11-21 05:15:45 UTC
+ * @updated    2018-01-25 11:20:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -86,6 +86,8 @@ $string['accessdeniedobjection'] = 'アクセスが拒否されました。問�
 $string['accessdeniedexception'] = 'あなたにはこのページを閲覧するアクセス権がありません。';
 $string['accessdeniednourlsecret'] = 'あなたにはこの機能に対するアクセス権がありません。あなたのconfig.phpファイルからURLの一部として「urlsecret」の値を提供してください。';
 $string['accessdeniedbadge'] = 'あなたにはこのバッジを閲覧するアクセス権がありません。';
+$string['siteprivacystatementnotfound'] = 'ID %s のサイトプライバシー保護方針は見つかりませんでした。';
+$string['institutionprivacystatementnotfound'] = '「 %s 」のプライバシー保護方針 (ID: %s) は見つかりませんでした。';
 $string['viewnotfoundexceptiontitle'] = 'ページが見つかりませんでした。';
 $string['viewnotfoundexceptionmessage'] = 'あなたは存在しないページにアクセスを試みました。';
 $string['viewnotfound'] = 'ID %s のページは見つかりませんでした。';
