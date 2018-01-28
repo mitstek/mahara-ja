@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-09 15:23:02 UTC
+ * @updated    2018-01-28 11:35:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,7 +18,7 @@ $string['description'] = 'Googleカレンダーまたはドキュメントを埋
 $string['appscodeorurl'] = 'コードまたはURLを埋め込む';
 $string['appscodeorurldesc1'] = 'Googleコンテンツ埋め込みのインストラクションに関して<a href="http://manual.mahara.org/en/%s/blocks/external.html#google-apps">ユーザマニュアル</a>をご覧ください。
 <br />
-Google Appsを外部から閲覧できるページの埋め込みコードまたはURLを貼り付けてください。';
+埋め込みコードまたはGoogle Appsが一般公開されているページのURLを貼り付けてください。';
 $string['height'] = '高さ';
 $string['badurlerror'] = '埋め込みコードまたはURLを構文解析できません: %s';
 
