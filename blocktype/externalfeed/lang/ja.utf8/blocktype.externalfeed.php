@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-01-16 02:58:33 UTC
+ * @updated    2018-01-30 05:32:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -22,7 +22,7 @@ $string['authpassworddesc'] = 'このフィードへのアクセスに必要な�
 $string['feedlocation'] = 'フィードロケーション';
 $string['feedlocationdesc'] = '有効なRSSまたはATOMフィードのURL';
 $string['insecuresslmode'] = '安全でないSSLモード';
-$string['insecuresslmodedesc'] = 'SSL証明書認証を無効にします。これはお勧めできる設定ではありませんが無効または信頼できない証明書を使ってフィードが提供されている場合に必要であると思われます。';
+$string['insecuresslmodedesc'] = 'SSL証明書認証を無効にします。これはお勧めできる設定ではありませんが有効ではないまたは信頼できない証明書を使用してフィードが提供されている場合に必要です。';
 $string['itemstoshow'] = '表示するアイテム数';
 $string['itemstoshowdescription'] = '範囲: 1～20';
 $string['showfeeditemsinfull'] = 'フィードアイテムを完全に表示する';
