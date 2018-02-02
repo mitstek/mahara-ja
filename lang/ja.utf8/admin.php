@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-01-25 11:56:04 UTC
+ * @updated    2018-02-02 03:54:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1159,6 +1159,10 @@ $string['cli_restore_done'] = '「 %s 」のバックアップのリストアを
 $string['cli_restore_warning'] = '*** 警告 *** 「 %s 」のバックアップをリストアできません。';
 $string['cli_tmpdir_notwritable'] = '一時アップロードディレクトリ「 %s 」に書き込み権がありません。';
 $string['cli_lang_branch'] = 'シリーズ「 %s 」の言語パックを取得するためのMaharaシリーズバージョン';
+$string['cli_fast_index'] = 'Elasticsearchファーストインデックサは次のcron実行を待たずにサイトのインデックス化をすぐに実行することができます。代わりに最初の終了直後に次の実行を開始します。';
+$string['cli_unabletoupdatecron'] = '検索cronデータベースレコードを更新できません。';
+$string['cli_problemindexing'] = 'インデックス化中に問題が発生しました。';
+$string['cli_done'] = 'インデックス化を完了しました。';
 $string['withselectedcontentexport'] = 'アイテムを再度エクスポートキューに入れる';
 $string['withselectedcontentdelete'] = '選択したアイテムをエクスポートキューから削除する';
 $string['allothers'] = 'その他すべて';
