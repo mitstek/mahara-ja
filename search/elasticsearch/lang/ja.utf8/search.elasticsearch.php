@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-21 13:10:25 UTC
+ * @updated    2018-02-02 04:46:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -48,11 +48,16 @@ $string['forumtopic'] = 'フォーラムトピック';
 $string['Group'] = 'グループ';
 $string['host'] = 'ホスト';
 $string['hostdescription'] = 'Elasticsearchサーバのホスト名です。デフォルトは「127.0.0.1」です。';
+$string['indexingusername'] = '認証書き込みユーザ名';
+$string['indexingusernamedescription'] = '(任意) インデックスを書きこむ場合、インデックスの読み込みとユーザ名が異なる場合にHTTP基本認証でElasticsearchに渡すユーザ名です。';
+$string['indexingpassword'] = '認証書き込みパスワード';
+$string['indexingpassworddescription'] = '(任意) インデックスを書きこむ場合、インデックスの読み込みとパスワードが異なる場合にHTTP基本認証でElasticsearchに渡すパスワードです。';
 $string['indexingrunning'] = 'インデックス化cronジョブが動作しています。数分後、再度お試しください。';
 $string['indexname'] = 'インデックス名';
 $string['indexnamedescription'] = 'Elasticsearchインデックス名です。デフォルトは「mahara」です。';
 $string['indexstatusok'] = '現在のインデックス「 %s 」のステータスは「 グリーン 」です。Elasticsearchは動作しています。';
 $string['indexstatusbad'] = '現在のインデックス「 %s 」のステータスは「 %s 」です。修正する必要があります。';
+$string['indexstatusunknown'] = '現在のインデックス「 %s 」のステータスはHTTPレスポンス「 %s 」のため不明です。';
 $string['license'] = 'ライセンス';
 $string['Media'] = 'メディア';
 $string['newindextype'] = 'あなたのElasticsearch設定に新しいインデックスタイプ「 %s 」が追加されました。これが適用されるためにはあなたのサイトを再インデックス化する必要があります。';
