@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-07 03:07:58 UTC
+ * @updated    2018-02-09 04:55:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -803,7 +803,8 @@ $string['becomeadminagain'] = '%s に戻る';
 $string['loginasdenied'] = 'パーミッションなしで別のユーザとしてのログインを試みました。';
 $string['loginastwice'] = 'すでにログインしているにもかかわらず、別のユーザとしてのログインを試みました。';
 $string['loginasrestorenodata'] = 'リストアするユーザデータがありません。';
-$string['loginasoverridepasswordchange'] = '現在、あなたは別のユーザとしてログインを試みています。パスワード変更画面を無視して%sログインすること%sはできます。';
+$string['loginasoverridepasswordchange'] = '別のユーザとしてログインしているため、あなたはパスワード変更画面を無視して%s常にログインすること%sを選択できます。';
+$string['loginasoverrideprivacyaccept'] = '別のユーザとしてログインしているため、あなたはプライバシー保護方針の同意を無視して%s常にログインすること%sを選択できます。';
 $string['Add'] = '追加';
 $string['all'] = 'すべて';
 $string['admininstitutions'] = 'インスティテューションを管理する';
@@ -1188,5 +1189,14 @@ $string['versionfor'] = 'バージョン「 %s 」のプライバシー保護方
 $string['institutionprivacystatement'] = 'インスティテューションプライバシー保護方針';
 $string['userprivacypagedescription'] = 'あなたが同意した現在のプライバシー保護方針が表示されています。';
 $string['lastupdated'] = '最終更新日時';
+$string['newprivacy'] = 'あなたのアカウントを入力する前に以下に表示されているプライバシー保護方針をお読みください。';
+$string['privacyagreement'] = '私はこのプライバシー保護方針に同意します。';
+$string['privacyagreementdescription'] = 'あなたは「Yes」を選択することにより上記のプライバシー保護方針の条項に同意することになります。';
+$string['privacyagreedto'] = 'あなたは  %s のプライバシー保護方針に同意しました。';
+$string['agreementsaved'] = '同意が保存されました。';
+$string['refuseprivacy'] = 'プライバシー保護方針を拒否する';
+$string['confirmprivacyrefusal'] = '本当に続けてもよろしいですか?';
+$string['privacyrefusaldetails'] = 'プライバシー保護方針に同意しない場合、あなたのアカウントは利用停止されます。';
+$string['privacyrefusal'] = 'プライバシー保護方針を拒否しました。';
 
 ?>

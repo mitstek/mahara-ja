@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-01-16 23:48:42 UTC
+ * @updated    2018-02-09 04:39:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -768,6 +768,7 @@ $string['youraccounthasbeensuspendedreasontextcron'] = 'あなたの %s にお�
 
 %s';
 $string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用することができます。';
+$string['youraccounthasbeensuspendedtext3'] = 'あなたはプライバシー保護方針の同意を拒否したため %s におけるアカウントが利用停止されました。';
 $string['sizemb'] = 'MB';
 $string['sizekb'] = 'KB';
 $string['sizegb'] = 'GB';
