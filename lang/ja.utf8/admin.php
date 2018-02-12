@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-09 04:58:08 UTC
+ * @updated    2018-02-12 12:37:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1198,5 +1198,9 @@ $string['refuseprivacy'] = 'プライバシー保護方針を拒否する';
 $string['confirmprivacyrefusal'] = '本当に続けてもよろしいですか?';
 $string['privacyrefusaldetails'] = 'プライバシー保護方針に同意しない場合、あなたのアカウントは利用停止されます。';
 $string['privacyrefusal'] = 'プライバシー保護方針を拒否しました。';
+$string['registerprivacyrefusal'] = 'あなたがプライバシー保護方針に同意しない場合、アカウントは作成されません。';
+$string['registerprivacydetails'] = 'プライバシー保護方針をお読みください。あなたがプライバシー保護方針に同意しない場合、サイトでアカウントを作成することはできません。';
+$string['enterreason'] = '拒否する理由をここに入力してください ...';
+$string['hasrefused'] = 'はプライバシー保護方針を拒否しました。';
 
 ?>
