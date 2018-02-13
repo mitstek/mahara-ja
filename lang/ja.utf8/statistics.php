@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-10-30 01:11:50 UTC
+ * @updated    2018-02-13 04:39:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -273,7 +273,7 @@ $string['reportdescpageactivity'] = '<ul>
 <li>ページアクセス数</li>
 <li>ページのコメント数</li>
 </ul>
-<p>レポート期間に作成されたページが表示されます。</p>';
+<p>レポート期間に修正されたページが表示されます。</p>';
 $string['allothers'] = 'その他すべて';
 $string['blockinstancecommit'] = 'ページにブロックを追加する';
 $string['addfriend'] = 'フレンドを追加する';
