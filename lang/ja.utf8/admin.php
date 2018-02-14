@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-12 12:37:55 UTC
+ * @updated    2018-02-14 01:56:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -460,6 +460,7 @@ $string['sitepageloaded'] = 'サイトページが読み込まれました。';
 $string['termsandconditions'] = '利用条件';
 $string['uploadcopyright'] = 'アップロード著作権宣言文';
 $string['privacypagedescription'] = 'サイト全体のプライバシー保護方針を編集してください。あなたが最後に編集したバージョンは自動的に最新のプライバシー保護方針となります。';
+$string['termspagedescription'] = 'サイト全体の利用条件を入力してください。あなたが最後に編集したバージョンが自動的に現在の利用条件になります。';
 $string['sitefile'] = 'サイトファイル';
 $string['adminpublicdirname'] = 'パブリック';
 $string['adminpublicdirdescription'] = 'ログアウトしたユーザからアクセス可能なファイルです。';
@@ -1185,7 +1186,8 @@ $string['lastversion'] = 'サイトプライバシー保護方針には半角15�
 $string['versionalreadyexist'] = 'バージョン名「 %s 」のプライバシー保護方針はすでに存在します。';
 $string['siteprivacystatement'] = 'サイトプライバシー保護方針';
 $string['addoneversionlink'] = '必要であれば<a href="%s">追加してください</a>。';
-$string['versionfor'] = 'バージョン「 %s 」のプライバシー保護方針は次のとおりです:';
+$string['privacyversionfor'] = 'プライバシー保護方針のバージョン「 %s 」は次のとおりです:';
+$string['termsversionfor'] = '利用条件のバージョン「 %s 」は次のとおりです:';
 $string['institutionprivacystatement'] = 'インスティテューションプライバシー保護方針';
 $string['userprivacypagedescription'] = 'あなたが同意した現在のプライバシー保護方針が表示されています。';
 $string['lastupdated'] = '最終更新日時';
