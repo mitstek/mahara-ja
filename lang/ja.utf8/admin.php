@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-14 01:56:25 UTC
+ * @updated    2018-02-14 02:08:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -459,8 +459,8 @@ $string['savefailed'] = '保存に失敗しました。';
 $string['sitepageloaded'] = 'サイトページが読み込まれました。';
 $string['termsandconditions'] = '利用条件';
 $string['uploadcopyright'] = 'アップロード著作権宣言文';
-$string['privacypagedescription'] = 'サイト全体のプライバシー保護方針を編集してください。あなたが最後に編集したバージョンは自動的に最新のプライバシー保護方針となります。';
-$string['termspagedescription'] = 'サイト全体の利用条件を入力してください。あなたが最後に編集したバージョンが自動的に現在の利用条件になります。';
+$string['privacypagedescription'] = 'サイト全体のプライバシー保護方針を編集してください。あなたが最後に編集したバージョンが自動的に最新のプライバシー保護方針となります。';
+$string['termspagedescription'] = 'サイト全体の利用条件を編集してください。あなたが最後に編集したバージョンが自動的に最新の利用条件となります。';
 $string['sitefile'] = 'サイトファイル';
 $string['adminpublicdirname'] = 'パブリック';
 $string['adminpublicdirdescription'] = 'ログアウトしたユーザからアクセス可能なファイルです。';
