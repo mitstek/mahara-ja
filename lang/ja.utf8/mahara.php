@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-12 12:34:04 UTC
+ * @updated    2018-02-15 04:28:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -669,7 +669,7 @@ $string['institutionmembershipfullmessagetext'] = '%s さん
 %s チーム';
 $string['institutionmemberrefusedprivacy'] = '%s さん
 
-ユーザ %s (ユーザ名: %s ) はプライバシー保護方針を拒否しました。ユーザアカウントは一時停止されました。
+ユーザ %s (ユーザ名: %s ) は %s を拒否しました。ユーザアカウントは一時停止されました。
 %s %s
 
 あなたが拒否に関して議論したい場合、ユーザにメール %s でご連絡ください。
@@ -778,7 +778,7 @@ $string['youraccounthasbeensuspendedreasontextcron'] = 'あなたの %s にお�
 
 %s';
 $string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用することができます。';
-$string['youraccounthasbeensuspendedtext3'] = 'あなたはプライバシー保護方針の同意を拒否したため %s におけるアカウントが利用停止されました。';
+$string['youraccounthasbeensuspendedtext3'] = 'あなたは %s の同意を拒否したため %s におけるアカウントが利用停止されました。';
 $string['sizemb'] = 'MB';
 $string['sizekb'] = 'KB';
 $string['sizegb'] = 'GB';

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-14 02:08:05 UTC
+ * @updated    2018-02-15 04:45:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -85,7 +85,9 @@ $string['usedefault'] = 'サイトデフォルトを使用する';
 $string['usedefaultdescription3'] = '選択されたページタイプにサイトのデフォルトテキストを使用します。';
 $string['staticpagesdescription'] = 'Mahara内の固定ページのコンテンツを編集します (ホーム、利用条件等)。';
 $string['institutionprivacypagedescription'] = 'サイトプライバシー保護方針に加えてあなたのインスティテューションに表示されるプライバシー保護方針を編集してください。あなたが最後に編集したバージョンは自動的に最新のプライバシー保護方針となります。あなたには参考として現在のサイトプライバシー保護方針が表示されています。';
+$string['institutiontermspagedescription'] = 'サイト利用条件に加えてあなたのインスティテューションに表示される利用条件を編集してください。あなたが最後に編集したバージョンは自動的に最新の利用条件となります。あなたには参考として現在のサイト利用条件が表示されています。';
 $string['noinstitutionprivacy'] = 'このインスティテューションにはまだプライバシー保護方針がありません。';
+$string['noinstitutionterms'] = 'このインスティテューションにはまだ利用条件がありません。';
 $string['menus'] = 'メニュー';
 $string['menusdescription'] = '「リンクおよびリソースメニュー」およびフッタメニュー内のリンクおよびファイルを管理します。';
 $string['sitefiles'] = 'サイトファイル';
@@ -1182,27 +1184,35 @@ $string['creationdate'] = '作成日時';
 $string['version'] = 'バージョン';
 $string['viewversion'] = 'バージョン %s を表示する';
 $string['editversion'] = 'バージョン %s を編集する';
-$string['lastversion'] = 'サイトプライバシー保護方針には半角15文字のユニークなバージョン名が必要です。このプライバシー保護方針の最新バージョンは「 %s 」です。';
-$string['versionalreadyexist'] = 'バージョン名「 %s 」のプライバシー保護方針はすでに存在します。';
-$string['siteprivacystatement'] = 'サイトプライバシー保護方針';
+$string['privacylastversion'] = 'プライバシー保護方針には半角15文字のユニークなバージョン名が必要です。このプライバシー保護方針の最新バージョンは「 %s 」です。';
+$string['termsandconditionslastversion'] = '利用条件には半角15文字のユニークなバージョン名が必要です。この利用条件の最新バージョンは「 %s 」です。';
+$string['versionalreadyexist'] = 'バージョン %s の「 %s 」はすでに存在します。';
+$string['siteprivacy'] = 'サイトプライバシー保護方針';
+$string['sitetermsandconditions'] = 'サイト利用条件';
 $string['addoneversionlink'] = '必要であれば<a href="%s">追加してください</a>。';
 $string['privacyversionfor'] = 'プライバシー保護方針のバージョン「 %s 」は次のとおりです:';
 $string['termsversionfor'] = '利用条件のバージョン「 %s 」は次のとおりです:';
 $string['institutionprivacystatement'] = 'インスティテューションプライバシー保護方針';
+$string['institutiontermsandconditions'] = 'インスティテューション利用条件';
 $string['userprivacypagedescription'] = 'あなたが同意した現在のプライバシー保護方針が表示されています。';
 $string['lastupdated'] = '最終更新日時';
-$string['newprivacy'] = 'あなたのアカウントを入力する前に以下に表示されているプライバシー保護方針をお読みください。';
-$string['privacyagreement'] = '私はこのプライバシー保護方針に同意します。';
+$string['newprivacy'] = 'あなたのアカウントを入力する前に以下に表示されている情報をお読みください。';
+$string['privacyagreement'] = '私はこの % に同意します。';
 $string['privacyagreementdescription'] = 'あなたは「Yes」を選択することにより上記プライバシー保護方針の条項に同意することになります。';
-$string['privacyagreedto'] = 'あなたは  %s のプライバシー保護方針に同意しました。';
+$string['privacyagreedto'] = 'あなたは  %s の %s に同意しました。';
 $string['agreementsaved'] = '同意が保存されました。';
-$string['refuseprivacy'] = 'プライバシー保護方針を拒否する';
+$string['refuseprivacy'] = 'プライバシー保護方針または利用条件を拒否する';
 $string['confirmprivacyrefusal'] = '本当に続けてもよろしいですか?';
-$string['privacyrefusaldetails'] = 'プライバシー保護方針に同意しない場合、あなたのアカウントは利用停止されます。';
+$string['privacyrefusaldetails'] = 'プライバシー保護方針または利用条件に同意しない場合、あなたのアカウントは利用停止されます。';
 $string['privacyrefusal'] = 'プライバシー保護方針を拒否しました。';
-$string['registerprivacyrefusal'] = 'あなたがプライバシー保護方針に同意しない場合、アカウントは作成されません。';
-$string['registerprivacydetails'] = 'プライバシー保護方針をお読みください。あなたがプライバシー保護方針に同意しない場合、サイトでアカウントを作成することはできません。';
+$string['registerrefusal'] = 'あなたが %s に同意しない場合、アカウントは作成されません。';
+$string['registerprivacy'] = 'プライバシー保護方針をお読みください。あなたがプライバシー保護方針に同意しない場合、サイトでアカウントを作成することはできません。';
+$string['registertermsandconditions'] = '利用条件をお読みください。あなたが利用条件に同意しない場合、サイトでアカウントを作成することはできません。';
 $string['enterreason'] = '拒否する理由をここに入力してください ...';
 $string['hasrefused'] = 'はプライバシー保護方針を拒否しました。';
+$string['privacylowcase'] = 'プライバシー保護方針';
+$string['termsandconditionslowcase'] = '利用条件';
+$string['privacyandtotheterms'] = 'プライバシー保護方針および利用条件';
+$string['privacyandtheterms'] = 'プライバシー保護方針および利用条件';
 
 ?>
