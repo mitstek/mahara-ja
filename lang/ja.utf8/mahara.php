@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-16 03:24:02 UTC
+ * @updated    2018-02-16 03:37:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1054,6 +1054,7 @@ $string['lastupdate'] = '最終更新日時';
 $string['lastupdateorcomment'] = '最終更新日時またはコメント';
 $string['Title'] = 'タイトル';
 $string['anonymoususer'] = '(作成者名非表示)';
+$string['removefooterlinksupgradewarning'] = 'あなたのサイトは利用条件またはプライバシー保護方針のカスタムリンクを使用します。次のリンク「 %s 」は削除されました。あなたはサイトの「管理 → サイト設定 → 法律」セクションに直接コンテンツを入力する必要があります。';
 $string['importedfrom'] = 'インポート元 %s';
 $string['incomingfolderdesc'] = '他のネットワークホストからインポートされたファイル';
 $string['remotehost'] = 'リモートホスト %s';
