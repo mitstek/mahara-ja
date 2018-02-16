@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-15 04:28:38 UTC
+ * @updated    2018-02-16 03:24:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -685,6 +685,7 @@ $string['formerroremail'] = 'あなたの問題が続いている場合、%s よ
 $string['blacklisteddomaininurl'] = 'このフィールドにはブラックリストに登録されたドメイン %s のURLが含まれています。';
 $string['newuserscantpostlinksorimages1'] = '申し訳ございません、匿名または新しく登録されたユーザによるリンクの投稿は許可されていません。リンクまたはURLを取り除くためあなたの投稿を書き換えて再度お試しください。';
 $string['notinstallable'] = 'インストール不可';
+$string['pluginnotinstallable'] = 'プラグイン %s %s はインストールできません:';
 $string['installedplugins'] = 'インストール済みプラグイン';
 $string['notinstalledplugins'] = '<span class="error">未インストールプラグイン</span>';
 $string['plugintype'] = 'プラグインタイプ';
