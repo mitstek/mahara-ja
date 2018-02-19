@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-12 12:23:51 UTC
+ * @updated    2018-02-19 16:10:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -56,9 +56,87 @@ $string['maildisabled'] = 'Eメールが無効にされました。';
 $string['disableemail'] = 'Eメールを無効にする';
 $string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたためあなたのメールアドレス宛のメール送信は停止されました。Eメールを有効にする前にあなたのEメールアカウントが正常に動作しているかアカウントプリファレンスの %s で確認してください。';
 $string['maildisableddescription'] = 'あなたのアカウント宛のメール送信は停止されました。アカウントプリファレンスページで<a href="%s">あなたのEメールを再度有効</a>にすることができます。';
-$string['deleteaccount'] = 'アカウントを削除する';
+$string['deleteaccount'] = 'ユーザ %s のアカウントを削除する';
 $string['deleteaccountdescription'] = 'アカウントを削除した場合、今後、あなたのプロファイル情報およびページを他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧できますが、投稿者名が表示されないようになります。';
+$string['sendnotificationdescription'] = 'あなたのアカウント削除を承認するよう管理者に通知が送信されます。あなたのアカウントの削除をリクエストした場合、あなたの個人コンテンツすべてが完全に削除されます。これはあなたがアップロードしたファイル、執筆した日誌エントリ、作成したページおよびコレクションが削除されることを意味します。あなたはそれらを元に戻すことはできません。あなたがグループでファイルをアップロードした場合、日誌エントリおよびポートフォリオを作成した場合、そこでフォーラムに投稿した場合、それらはそのままになりますがあなたの氏名は表示されないようになります。';
+$string['pendingdeletionsince'] = '%s 以来のアカウント削除保留';
+$string['pendingdeletionadminemailsubject'] = '%s のアカウント削除リクエスト';
+$string['resenddeletionadminemailsubject'] = '%s のアカウント削除リクエストのリマインダ';
+$string['canceldeletionadminemailsubject'] = '%s のアカウント削除リクエストのキャンセル';
+$string['pendingdeletionadminemailtext'] = '管理者さん、こんにちは。
+
+ユーザ %s がサイトからの自分のアカウント削除をリクエストしました。
+
+あなたはユーザが属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定することができます。これをするには次のリンクに従ってください: %s
+
+アカウント削除リクエストの詳細は次のとおりです:
+
+氏名: %s
+メールアドレス: %s
+理由: %s
+
+--
+%s チーム';
+$string['pendingdeletionadminemailhtml'] = '<p>管理者さん、こんにちは。</p>
+<p>ユーザ %s がサイトからの自分のアカウント削除をリクエストしました。</p>
+<p>あなたはユーザが属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定することができます。これをするには次のリンクに従ってください: <a href=\'%s\'>%s</a></p>
+<p>アカウント削除リクエストの詳細は次のとおりです:</p>
+<p>氏名: %s</p>
+<p>メールアドレス: %s</p>
+<p>理由: %s</p>
+<pre>--
+%s チーム</pre>';
 $string['accountdeleted'] = 'あなたのアカウントが削除されました。';
+$string['resenddeletionnotification'] = '削除通知を再送する';
+$string['resenddeletionadminemailtext'] = '管理者さん、こんにちは。
+
+これはユーザ %s がサイトからの自分のアカウント削除をリクエストしたことに関するリマインダです。
+
+あなたはユーザが属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定することができます。これをするには次のリンクに従ってください: %s
+
+アカウント削除リクエストの詳細は次のとおりです:
+
+氏名: %s
+メールアドレス: %s
+メッセージ: %s
+
+--
+%s チーム';
+$string['resenddeletionadminemailhtml'] = '<p>管理者さん、こんにちは。</p>
+<p>これはユーザ %s がサイトからの自分のアカウント削除をリクエストしたことに関するリマインダです。</p>
+<p>あなたはユーザが属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定することができます。これをするには次のリンクに従ってください: <a href=\'%s\'>%s</a></p>
+<p>アカウント削除リクエストの詳細は次のとおりです:</p>
+<p>氏名: %s</p>
+<p>メールアドレス: %s</p>
+<p>メッセージ: %s</p>
+<pre>--
+%s チーム</pre>';
+$string['pendingdeletionemailsent'] = 'インスティテューション管理者に通知を送信しました。';
+$string['cancelrequest'] = 'リクエストをキャンセルする';
+$string['deleterequestcanceled'] = 'あなたのユーザアカウントを削除するリクエストはキャンセルされました。';
+$string['canceldeletionrequest'] = '削除リクエストをキャンセルする';
+$string['canceldeletionrequestconfirmation'] = 'これはインスティテューション管理者へのアカウント %s の削除リクエストをキャンセルします。本当に続けてもよろしいですか?';
+$string['canceldeletionadminemailtext'] = '管理者さん、こんにちは。
+
+ユーザ %s がサイトからの自分のアカウントの削除リクエストをキャンセルしました。
+
+あなたはユーザが属しているインスティテューションの管理者として記載されています。
+
+キャンセルされたリクエストの詳細は次のとおりです:
+
+氏名: %s
+メールアドレス: %s
+
+--
+%s チーム';
+$string['canceldeletionadminemailhtml'] = '<p>管理者さん、こんにちは。</p>
+<p>ユーザ %s がサイトからの自分のアカウントの削除リクエストをキャンセルしました。</p>
+<p>あなたはユーザが属しているインスティテューションの管理者として記載されています。</p>
+<p>キャンセルされたリクエストの詳細は次のとおりです:</p>
+<p>氏名: %s</p>
+<p>メールアドレス: %s</p>
+<pre>--
+%s チーム</pre>';
 $string['resizeonuploaduserdefault1'] = 'アップロード時、イメージをリサイズする';
 $string['resizeonuploaduserdefaultdescription2'] = 'デフォルトで「イメージを自動的にリサイズする」オプションが有効にされます。最大高さおよび幅を超えたイメージはアップロード時にリサイズされます。個別のイメージアップロード時、あなたはこのデフォルト設定を無効にすることができます。';
 $string['devicedetection'] = 'デバイス検出';
