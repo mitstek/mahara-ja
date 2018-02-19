@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-19 16:10:00 UTC
+ * @updated    2018-02-19 16:14:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -113,7 +113,7 @@ $string['resenddeletionadminemailhtml'] = '<p>管理者さん、こんにちは�
 %s チーム</pre>';
 $string['pendingdeletionemailsent'] = 'インスティテューション管理者に通知を送信しました。';
 $string['cancelrequest'] = 'リクエストをキャンセルする';
-$string['deleterequestcanceled'] = 'あなたのユーザアカウントを削除するリクエストはキャンセルされました。';
+$string['deleterequestcanceled'] = 'あなたのユーザアカウントの削除リクエストはキャンセルされました。';
 $string['canceldeletionrequest'] = '削除リクエストをキャンセルする';
 $string['canceldeletionrequestconfirmation'] = 'これはインスティテューション管理者へのアカウント %s の削除リクエストをキャンセルします。本当に続けてもよろしいですか?';
 $string['canceldeletionadminemailtext'] = '管理者さん、こんにちは。
