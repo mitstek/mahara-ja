@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-20 02:36:49 UTC
+ * @updated    2018-02-20 02:41:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -386,6 +386,7 @@ $string['usersmasqueradingreports'] = 'マスカレーディングセッショ�
 $string['usersaccesslistreports'] = 'ポートフォリオアクセス';
 $string['usersuseractivityreports'] = 'ユーザ活動';
 $string['usersuserdetailsreports'] = 'ユーザ詳細';
+$string['usersuseragreementreports'] = 'ユーザ同意';
 $string['groupsreports'] = 'グループ概要';
 $string['contentreports'] = 'コンテンツ概要';
 $string['peoplereports'] = '人概要';
