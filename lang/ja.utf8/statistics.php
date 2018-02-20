@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-13 04:39:22 UTC
+ * @updated    2018-02-20 02:36:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -275,6 +275,23 @@ $string['reportdescpageactivity'] = '<ul>
 </ul>
 <p>レポート期間に修正されたページが表示されます。</p>';
 $string['allothers'] = 'その他すべて';
+$string['reportuseragreement'] = 'ユーザ同意';
+$string['reportdescuseragreement'] = '<ul>
+<li>名</li>
+<li>姓</li>
+<li>表示名</li>
+<li>メールアドレス</li>
+<li>ユーザ名</li>
+<li>サイトプライバシー保護方針</li>
+<li>サイトプライバシー保護方針同意レビュー</li>
+<li>サイト利用条件</li>
+<li>サイト利用条件同意レビュー</li>
+<li>インスティテューションプライバシー保護方針</li>
+<li>インスティテューションプライバシー保護方針同意レビュー</li>
+<li>インスティテューション利用条件</li>
+<li>インスティテューション利用条件同意レビュー</li>
+<li>インスティテューション</li>
+</ul><p>選択された期間内にプライバシー保護方針または利用条件に同意または拒否した人が表示されています。</p>';
 $string['blockinstancecommit'] = 'ページにブロックを追加する';
 $string['addfriend'] = 'フレンドを追加する';
 $string['activateuser'] = 'ユーザを有効化する';
