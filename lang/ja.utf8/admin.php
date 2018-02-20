@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-20 02:31:23 UTC
+ * @updated    2018-02-20 02:39:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1220,8 +1220,8 @@ $string['privacyandtotheterms'] = 'プライバシー保護方針および利用
 $string['privacyandtheterms'] = 'プライバシー保護方針および利用条件';
 $string['consentdate'] = '同意/拒否日付';
 $string['useragreements'] = 'ユーザ同意';
-$string['userprivacyagreements'] = '以下表示されているすべてはユーザが同意したすべてのプライバシー保護方針です。';
-$string['usertermsagreements'] = '以下表示されているすべてはユーザが同意したすべての利用条件です。';
+$string['userprivacyagreements'] = '以下、ユーザが同意したすべてのプライバシー保護方針が表示されています。';
+$string['usertermsagreements'] = '以下、ユーザが同意したすべての利用条件が表示されています。';
 $string['consented'] = '同意済み';
 
 ?>
