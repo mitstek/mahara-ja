@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-11-26 14:00:06 UTC
+ * @updated    2018-02-20 02:57:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -123,6 +123,36 @@ $string['pendingregistrationadminemailhtml'] = '<p>%s さん、こんにちは�
 <p>メールアドレス: %s</p>
 <p>登録理由:</p>
 <p>%s</p>
+<pre>--
+%s チーム</pre>';
+$string['userdeletionnosuchid'] = '申し訳ございません、この削除リクエストは存在しません。恐らく、すでに判断されているのではないでしょうか?';
+$string['userdeletiondeniedmessage'] = '%s さん、こんにちは。
+
+私たちはあなたの %s のユーザアカウントの削除リクエストを受けましたがあなたのデータを削除しないことに決定しました。
+
+あなたがこの決定を正しくないと思う場合、私にメールでご連絡ください。
+
+%s';
+$string['userdeletiondeniedmessagereason'] = '%s さん、こんにちは。
+
+私たちはあなたの %s のユーザアカウントの削除リクエストを受けましたが以下の理由であなたのデータを削除しないことに決定しました:
+
+%s
+
+あなたがこの決定を正しくないと思う場合、私にメールでご連絡ください。
+
+%s';
+$string['userdeletiondeniedemailsubject'] = '%s のユーザアカウント削除が拒否されました。';
+$string['userdeletionemailsubject'] = 'あなたのアカウントが %s から削除されました。';
+$string['userdeletionemailmessagetext'] = '%s さん、こんにちは。
+
+あなたのアカウントが %s から正常に削除されました。
+
+--
+%s チーム';
+$string['userdeletionemailmessagehtml'] = '<p>%s さん、こんにちは。</p>
+<p>あなたのアカウントが %s から正常に削除されました。</p>
+
 <pre>--
 %s チーム</pre>';
 
