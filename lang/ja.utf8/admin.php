@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-20 02:39:45 UTC
+ * @updated    2018-02-20 03:55:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -442,6 +442,10 @@ $string['watchlistdelaydescription'] = 'ウォッチリストの変更に関す�
 $string['watchlistdelaytitle'] = 'ウォッチリスト通知遅延';
 $string['defaultmultipleblogs'] = '複数日誌';
 $string['defaultmultipleblogsdescription1'] = 'デフォルトでユーザが日誌を複数持てるようにします。ユーザはこれをアカウント設定ページでオーバーライドすることができます。';
+$string['defaultreviewselfdeletion'] = '自己削除の前にアカウントをレビューする';
+$string['defaultreviewselfdeletiondescription'] = 'アカウント削除リクエストをレビューするようすべてのインスティテューションに強制します。';
+$string['reviewselfdeletion'] = '自己削除の前にアカウントをレビューする';
+$string['reviewselfdeletiondescription'] = 'インスティテューション管理者はユーザのアカウント削除のリクエストを承認する必要があります。';
 $string['mathjax'] = 'MathJaxを有効にする';
 $string['mathjaxdescription'] = 'MathJaxはポートフォリオページ上のLaTeXマークアップを適切にフォーマットした数式および化学式として表示します。';
 $string['mathjaxconfig'] = 'MathJax設定';
@@ -1222,6 +1226,22 @@ $string['consentdate'] = '同意/拒否日付';
 $string['useragreements'] = 'ユーザ同意';
 $string['userprivacyagreements'] = '以下、ユーザが同意したすべてのプライバシー保護方針が表示されています。';
 $string['usertermsagreements'] = '以下、ユーザが同意したすべての利用条件が表示されています。';
+$string['approveuserdeletionfor'] = '%s %s <%s> のユーザアカウント削除を承認する';
+$string['approveuserdeletionmessage'] = '続けた場合、あなたはユーザアカウント「 %s 」を削除することになります。すべての個人コンテンツは完全に削除されます。本当にこのリクエストを承認してもよろしいですか?';
+$string['deletionapprovedsuccessfully'] = 'ユーザアカウント削除が正常に承認されました。';
+$string['deletionapprovedfailed'] = 'ユーザアカウント削除に失敗しました。';
+$string['deletiondeniedreason'] = '拒否理由';
+$string['deletiondeniedreasondesc'] = '削除リクエスト拒否の理由はユーザに役立つ情報となります。';
+$string['deletionreason'] = '削除理由';
+$string['denyuserdeletionfor'] = '「 %s %s 」のユーザアカウント削除を拒否する';
+$string['denyuserdeletionmessage'] = '続けた場合、あなたはアカウントの削除を承認することになります。ユーザに理由を提供してください。';
+$string['nopendingdeletions'] = 'このインスティテューションにアカウント削除リクエストの保留はありません。';
+$string['pendingdeletion'] = '削除保留';
+$string['pendingdeletions'] = '削除保留';
+$string['pendingdeletionspagedescription'] = '<p>あなたはこのページでサイトからのアカウント削除をリクエストしたユーザを確認および削除承認することができます。<p>
+<p>アカウント削除を承認することによりアカウントからすべての個人コンテンツが完全に削除されます。アカウント削除後、リクエストしたユーザにメールで理由が通知されます。</p>';
+$string['userdeletiondeniedsuccessful'] = 'リクエスが正常に拒否されました。';
+$string['userdeletiondeniedunsuccessful'] = 'ユーザアカウント削除の拒否に失敗しました。';
 $string['consented'] = '同意済み';
 
 ?>
