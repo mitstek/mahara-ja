@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-01-09 04:00:24 UTC
+ * @updated    2018-02-26 03:23:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -277,6 +277,7 @@ $string['closeconfiguration'] = '設定を閉じる';
 $string['removeblock1'] = '%s ブロックを削除する (ID %s)';
 $string['removethisblock1'] = 'このブロックを削除する (ID %s)';
 $string['blocktitle'] = 'ブロックタイトル';
+$string['celltitle'] = 'セル';
 $string['changemyviewlayout'] = 'マイページのレイアウトを変更する';
 $string['createcustomlayout'] = 'カスタムレイアウトを作成する';
 $string['createnewlayout'] = '新しいレイアウトを作成する';
