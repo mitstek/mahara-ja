@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-20 03:55:55 UTC
+ * @updated    2018-02-26 03:35:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -358,8 +358,8 @@ $string['licenseallowcustom1'] = 'カスタムライセンス';
 $string['licenseallowcustomdescription'] = 'ライセンスメタデータに関してユーザがライセンスのURLを入力できるようにします。この設定を有効にしない場合、ユーザはサイト管理者が設定したライセンスに制限されます。';
 $string['recaptchakeysmissing1'] = 'reCAPTCHAは有効にされましたが、あなたがサイト鍵および秘密鍵を提供するまで機能しません。';
 $string['recaptchanotpassed'] = 'reCAPTCHAが正しく入力されていません。再度お試しください。';
-$string['recaptchaonregisterform'] = 'ユーザ登録フォームのreCAPTCHA';
-$string['recaptchaonregisterformdesc1'] = '自己登録の新しいユーザは<a href="http://recaptcha.org/">reCAPTCHA</a>テストに合格することより、自分が人間であることを証明する必要があります。';
+$string['recaptchaonregisterform1'] = 'ユーザ登録/お問い合わせフォームのreCAPTCHA';
+$string['recaptchaonregisterformdesc2'] = '新しいアカウントを自己登録またはお問い合わせフォームを使用するユーザは<a href="http://recaptcha.org/">reCAPTCHA</a>テストに合格して自分が人間であることを証明する必要があります。';
 $string['recaptchaprivatekey1'] = 'reCAPTCHA秘密鍵';
 $string['recaptchaprivatekeydesc1'] = 'あなたのサイトのreCAPTCHAアカウントの秘密鍵です。';
 $string['recaptchapublickey1'] = 'reCAPTCHAサイト鍵';
