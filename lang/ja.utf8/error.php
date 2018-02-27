@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-22 01:36:07 UTC
+ * @updated    2018-02-27 01:50:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -134,5 +134,6 @@ $string['nomemcachedserver'] = 'memcacheサーバ「 %s 」に到達できませ
 $string['nophpextension'] = 'PHP拡張モジュール「 %s 」が有効にされていません。拡張モジュールを有効にしてあなたのウェブサーバを再起動するか異なるセッションオプションを選択してください。';
 $string['nomemcacheserversdefined'] = 'セッションハンドラ「 %s 」の関連サーバが定義されていません。$cfg->memcacheservers値を設定してください。例)localhost:11211';
 $string['memcacheusememcached'] = '「memcache」セッションストレージは廃止されました。「memcached」を使用してください。';
+$string['siteoutofsyncfor'] = 'このサイトには %s ファイルが示すものより新しいデータベース情報があります。';
 
 ?>
