@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-26 03:25:27 UTC
+ * @updated    2018-03-01 11:01:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1079,6 +1079,7 @@ $string['pleasedonotreplytothismessage'] = 'このメッセージに返信しな
 $string['deleteduser'] = '削除済みユーザ';
 $string['theme'] = 'テーマ';
 $string['choosetheme'] = 'テーマを選択する ...';
+$string['missingparent'] = 'テーマ「 %s 」の親テーマ「 %s 」がありません。';
 $string['Hide2'] = '情報ボックスを隠す';
 $string['create'] = '作成';
 $string['createsubtitle'] = 'ポートフォリオを作成する';
