@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-06-21 05:18:36 UTC
+ * @updated    2018-03-02 05:08:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -57,6 +57,7 @@ $string['stopmonitoringfailed'] = 'モニタリングの停止に失敗しまし
 $string['newwatchlistmessage'] = 'あなたのウォッチリストの新しい活動';
 $string['newwatchlistmessageview1'] = 'ページ「 %s 」 (作成者: %s) が変更されました。';
 $string['blockinstancenotification'] = 'ブロック「 %s 」が追加または変更されました。';
+$string['newwatchlistmessageunsubscribe'] = 'ページ「 %s 」の変更に関する通知の受信を停止するには購読解除リンク %s に従ってください。';
 $string['nonamegiven'] = '名称がありません。';
 $string['newviewsubject'] = '新しいページが作成されました。';
 $string['newviewmessage'] = '%s が新しいページ「 %s 」を作成しました。';
