@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-05 01:34:59 UTC
+ * @updated    2018-03-05 01:39:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -24,7 +24,7 @@ $string['aboutdefaultcontent'] = '<h2>Maharaとは</h2>
 <li>オリジナルのライセンスおよび著作権表示を修正または削除しない。</li>
 <li>派生物に同じライセンスを適用する。</li>
 </ul>';
-$string['homedefaultcontent'] = '<h1>Mahara</h1>
+$string['homedefaultcontent'] = '<h1>ようこそ</h1>
 
 <p>このテキストを %s で編集してください。</p>';
 $string['loggedouthomedefaultcontent'] = '<h1>ようこそ</h1>
