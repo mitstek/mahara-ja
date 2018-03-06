@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-21 01:54:04 UTC
+ * @updated    2018-03-06 03:05:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -729,6 +729,8 @@ $string['suspendedreasondescription'] = 'ユーザの次回ログイン時、表
 $string['unsuspenduser'] = 'ユーザの利用停止を解除する';
 $string['thisuserissuspended'] = 'このユーザは利用停止されました。';
 $string['suspendedinfo'] = 'このユーザは %s によって %s に利用停止されました。';
+$string['expiredinfo'] = 'このユーザのアカウントは %s に有効期限切れとなります。';
+$string['unexpiredesc'] = 'このアカウントを再度有効化するには下の「アカウント有効期限」フィールドのチェックを外してあなたの変更を保存してください。';
 $string['userdeletedsuccessfully'] = 'ユーザが正常に削除されました。';
 $string['confirmdeleteuser'] = '本当にこのユーザを削除してもよろしいですか?';
 $string['filequota1'] = 'ファイルクオータ';
