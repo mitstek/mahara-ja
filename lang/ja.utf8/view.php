@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-26 03:23:18 UTC
+ * @updated    2018-03-06 03:09:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -296,6 +296,7 @@ $string['columnlayout'] = 'カラムレイアウト';
 $string['layoutpreview'] = 'レイアウトプレビュー';
 $string['layoutpreviewimage'] = 'レイアウトプレビューイメージ';
 $string['Help'] = 'ヘルプ';
+$string['blockhelp'] = 'ブロックヘルプ';
 $string['by'] = 'by';
 $string['viewtitleby'] = '%s by <a href="%s">%s</a>';
 $string['viewauthor'] = 'by <a href="%s">%s</a>';
