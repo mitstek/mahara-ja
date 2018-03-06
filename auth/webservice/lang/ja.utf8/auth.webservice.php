@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-01-11 02:25:44 UTC
+ * @updated    2018-03-06 03:21:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -22,8 +22,7 @@ $string['webserviceconnectionsconfigdesc'] = '登録済みプラグインの接�
 $string['completeregistration'] = '登録を完了する';
 $string['emailalreadytaken'] = 'このメールアドレスはすでにここで登録されています。';
 $string['iagreetothetermsandconditions'] = '私は利用条件に同意します。';
-$string['passwordformdescription'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
-$string['passwordinvalidform'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
+$string['passwordinvalidform1'] = 'あなたのパスワードは少なくとも半角英数字 %s 文字にしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。あなたのパスワードには %s を含む必要があります。';
 $string['registeredemailsubject'] = 'あなたは %s に登録されました。';
 $string['registeredemailmessagetext'] = '%s さん
 

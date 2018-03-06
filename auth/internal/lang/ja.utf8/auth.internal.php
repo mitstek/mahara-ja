@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-26 03:32:47 UTC
+ * @updated    2018-03-06 03:21:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,12 +20,7 @@ $string['completeregistration'] = '登録を完了する';
 $string['emailalreadytaken'] = 'このメールアドレスはすでにここで登録されています。';
 $string['emailalreadytakenbyothers'] = 'このメールアドレスはすでに別のユーザによって取得されています。';
 $string['iagreetothetermsandconditions'] = '私は利用条件に同意します。';
-$string['passwordformdescription'] = 'あなたのパスワードには少なくとも半角6文字必要です。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。
-<br />
-セキュリティ上の理由からパスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。';
-$string['passwordinvalidform'] = 'あなたのパスワードには少なくとも半角6文字必要です。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。
-<br />
-セキュリティ上の理由からパスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。';
+$string['passwordinvalidform1'] = 'あなたのパスワードは少なくとも半角英数字 %s 文字にしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。あなたのパスワードには %s を含む必要があります。';
 $string['recaptcharegistertitle'] = 'reCAPTCHAチャレンジ';
 $string['recaptcharegisterdesc1'] = '「私はロボットではありません」チェックボックスをチェックしてください。この操作により自動プログラムによるこのサービスの悪用を防ぎます。';
 $string['registeredemailsubject'] = 'あなたは %s に登録されました。';

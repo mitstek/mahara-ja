@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-10-29 23:55:57 UTC
+ * @updated    2018-03-06 03:37:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -42,6 +42,9 @@ $string['element.expiry.months'] = '月';
 $string['element.expiry.years'] = '年';
 $string['element.expiry.noenddate'] = '終了日なし';
 $string['element.files.addattachment'] = '添付を追加する';
+$string['element.passwordpolicy.ul'] = '大文字小文字';
+$string['element.passwordpolicy.uln'] = '大文字小文字、数字';
+$string['element.passwordpolicy.ulns'] = '大文字小文字、数字、記号';
 $string['element.select.other'] = 'その他';
 $string['element.select.remove'] = '「 %s 」を削除する';
 $string['element.color.transparent'] = 'デフォルト';

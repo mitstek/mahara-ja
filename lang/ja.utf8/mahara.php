@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-01 11:01:45 UTC
+ * @updated    2018-03-06 03:41:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -393,6 +393,14 @@ $string['newpassword'] = '新しいパスワード';
 $string['nosessionreload'] = 'ログインするにはページをリロードしてください。';
 $string['oldpassword'] = '現在のパスワード';
 $string['password'] = 'パスワード';
+$string['passwordstrength1'] = '非常に弱い';
+$string['passwordstrength2'] = '弱い';
+$string['passwordstrength3'] = '強い';
+$string['passwordstrength4'] = '非常に強い';
+$string['passworddescriptionbase'] = '最小パスワード長は %s 文字です。';
+$string['passworddescription.ul'] = '大文字小文字を含む必要があります。';
+$string['passworddescription.uln'] = '大文字小文字および数字を含む必要があります。';
+$string['passworddescription.ulns'] = '大文字小文字、数字および記号を含む必要があります。';
 $string['passwordhelp'] = 'あなたがシステムへのアクセスに使用するパスワードです。';
 $string['passwordnotchanged'] = 'あなたはパスワードを変更していません。新しいパスワードを入力してください。';
 $string['passwordsaved'] = 'あなたの新しいパスワードが保存されました。';
@@ -407,7 +415,8 @@ $string['username'] = 'ユーザ名';
 $string['preferredname'] = '表示名';
 $string['usernamehelp'] = 'あなたがこのシステムにアクセスするため与えられたユーザ名です。';
 $string['youaremasqueradingas'] = 'あなたは %s としてログインしています。';
-$string['yournewpassword'] = 'あなたの新しいパスワードです。パスワードは少なくとも半角英数字6文字にしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。<br />良いセキュリティのためパスフレーズの使用をご検討ください。パスフレーズは単一の単語ではなく文です。あなたが好きな名言・格言またはスペースで区切られた2つ (またはそれ以上) の好きなものの使用をご検討ください。';
+$string['yournewpassword1'] = 'あなたの新しいパスワードです。あなたのパスワードには少なくとも半角 %s 文字必要です。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。%s<br />
+セキュリティ上の理由からパスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。';
 $string['yournewpasswordagain'] = 'あなたの新しいパスワードをもう一度';
 $string['invalidsesskey'] = '無効なセッションキー';
 $string['cannotremovedefaultemail'] = 'あなたの主メールアドレスは削除できません。';

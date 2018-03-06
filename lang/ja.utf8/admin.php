@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-06 03:05:44 UTC
+ * @updated    2018-03-06 03:33:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -329,6 +329,10 @@ $string['defaultaccountlifetimeupdatedescription'] = '「デフォルトのア�
 $string['defaultaccountlifetimeupdatenone'] = '新しく作成されたユーザのみ';
 $string['defaultaccountlifetimeupdatesome'] = '新しいユーザおよびアカウント存続期間が設定されていないユーザ (サイト管理者を除く)';
 $string['defaultaccountlifetimeupdateall'] = 'すべてのユーザアカウント (サイト管理者を除く)';
+$string['passwordpolicy'] = 'パスワードポリシー';
+$string['passwordpolicydesc'] = '内蔵の内部認証方法をアカウントが使用するよう設定されている人のためのパスワードポリシーです。パスワードの最小文字数および複雑性を選択してください。';
+$string['passwordpolicylength'] = '最小パスワード長';
+$string['passwordpolicytype'] = 'パスワード複雑性';
 $string['deprecatedmobileapp'] = '申し訳ございません、このモバイルアプリケーションは新しいものに入れ替わりました。あなたは代わりにMaharaモバイルアプリケーションを使用する必要があります。Androidデバイスは次からダウンロードしてください: https://play.google.com/store/apps/details?id=org.mahara.mobile またiOSデバイスは次からダウンロードしてください: https://itunes.apple.com/us/app/mahara-mobile/id1172638950';
 $string['embeddedcontent'] = '埋め込みコンテンツ';
 $string['embeddedcontentdescription'] = 'ユーザがポートフォリオにビデオまたは他のサイトのコンテンツを埋め込むことができるようにしたい場合、あなたは下記より信頼できるサイトを選択することができます。';
@@ -577,6 +581,7 @@ $string['uploadcsverrorunspecifiedproblem1'] = '何らかの理由によりあ�
 $string['uploadcsverrorwrongnumberoffields'] = 'あなたのファイルの %s 行目にエラーがあります: フィールド数が正しくありません。';
 $string['uploadcsverrorinvalidemail'] = 'あなたのファイルの %s 行目にエラーがあります: このユーザのメールアドレスは正しい形式ではありません。';
 $string['uploadcsverrorincorrectnumberoffields'] = 'あなたのファイルの %s 行目にエラーがあります: この行には正しい数のフィールドが含まれていません。';
+$string['uploadcsverrorinvalidpassword1'] = 'あなたのファイルの %s 行目にエラーがあります: %s';
 $string['uploadcsverrorinvalidusername'] = 'あなたのファイルの %s 行目にエラーがあります: このユーザのユーザ名は正しい形式ではありません。';
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には必須の「 %s 」フィールドが含まれていません。';
 $string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」はすでに登録されています。';
