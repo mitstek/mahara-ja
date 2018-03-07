@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-11-16 07:06:49 UTC
+ * @updated    2018-03-07 01:32:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -144,9 +144,10 @@ $string['copytagsonly'] = '他のユーザはブロック設定のコピーを�
 $string['viewposts'] = 'コピーされたエントリ (%s)';
 $string['postscopiedfromview'] = '%s からコピーされたエントリ';
 $string['youhavenoblogs'] = 'あなたには日誌がありません。';
-$string['youhavenogroupblogs'] = 'このグループには日誌がありません。';
-$string['youhavenoinstitutionblogs'] = 'このインスティテューションには日誌がありません。';
-$string['youhavenositeblogs'] = 'このサイトには日誌がありません。';
+$string['youhavenoblogsaddone'] = 'あなたには日誌がありません。<a href="%s">日誌を追加してください</a>。';
+$string['youhavenogroupblogs1'] = 'このグループには日誌がありません。<a href="%s">日誌を追加してください</a>。';
+$string['youhavenoinstitutionblogs1'] = 'このインスティテューションには日誌がありません。<a href="%s">日誌を追加してください</a>。';
+$string['youhavenositeblogs1'] = 'サイト日誌がありません。<a href="%s">日誌を追加してください</a>。';
 $string['youhavenblog'] = 'あなたには %d 日誌があります。';
 $string['feedsnotavailable'] = 'このアーティファクトタイプではフィードは利用できません。';
 $string['feedrights'] = '著作権 %s';
