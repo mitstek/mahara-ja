@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-08 07:39:48 UTC
+ * @updated    2018-03-08 10:01:28 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -53,6 +53,7 @@ $string['idpentityid'] = 'アイデンティティプロバイダエンティテ
 $string['idpentityadded'] = 'このSAMLインスタンスにアイデンティティプロバイダメタデータを追加しました。';
 $string['idpentityupdated'] = 'このSAMLインスタンスのアイデンティティプロバイダメタデータを更新しました。';
 $string['idpentityupdatedduplicates'] = 'このSAMLインスタンスおよび他の %s インスタンスのアイデンティティプロバイダメタデータを更新しました。';
+$string['metarefresh_metadata_url'] = '自動リフレッシュのためのメタデータURL';
 $string['idpprovider'] = 'プロバイダ';
 $string['institutionattribute'] = 'インスティテューション属性 (%s を含む)';
 $string['institutionidp'] = 'インスティテューションアイデンティティプロバイダSAMLメタデータ';
