@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-08 03:35:07 UTC
+ * @updated    2018-03-08 04:33:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -569,35 +569,31 @@ $string['month'] = '月';
 $string['months'] = '月';
 $string['years'] = '年';
 $string['year'] = '年';
-$string['datepicker_clearText'] = 'クリア';
-$string['datepicker_closeText'] = '完了';
-$string['datepicker_closeStatus'] = '変更せずに閉じる';
-$string['datepicker_prevText'] = '前へ';
-$string['datepicker_prevStatus'] = '前の月を表示する';
-$string['datepicker_nextText'] = '次へ';
-$string['datepicker_nextStatus'] = '次の月を表示する';
-$string['datepicker_currentText'] = '現在';
-$string['datepicker_currentStatus'] = '現在の月を表示する';
-$string['datepicker_monthNames'] = '[1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月]';
-$string['datepicker_monthNamesShort'] = '[1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月]';
-$string['datepicker_monthStatus'] = '別の月を表示する';
-$string['datepicker_yearStatus'] = '別の年を表示する';
-$string['datepicker_weekHeader'] = '週';
-$string['datepicker_dayNames'] = '[日曜日,月曜日,火曜日,水曜日,木曜日,金曜日,土曜日]';
-$string['datepicker_dayNamesShort'] = '[日,月,火,水,木,金,土]';
-$string['datepicker_dayNamesMin'] = '[日,月,火,水,木,金,土]';
-$string['datepicker_dayStatus'] = 'DDを週の最初の日として使用する';
-$string['datepicker_dateStatus'] = 'DD, MM d, yyを選択する';
-$string['datepicker_initStatus'] = '日付を選択する';
-$string['datepicker_timeOnlyTitle'] = '時間を選択する';
-$string['datepicker_timeText'] = '時間';
-$string['datepicker_hourText'] = '時';
-$string['datepicker_minuteText'] = '分';
-$string['datepicker_secondText'] = '秒';
-$string['datepicker_millisecText'] = 'ミリ秒';
-$string['datepicker_timezoneText'] = 'タイムゾーン';
-$string['datepicker_amNames'] = '[AM, A]';
-$string['datepicker_pmNames'] = '[PM, P]';
+$string['datepicker_today'] = '今日に移動する';
+$string['datepicker_clear'] = '選択を解除する';
+$string['datepicker_close'] = 'ピッカを閉じる';
+$string['datepicker_selectMonth'] = '月を選択する';
+$string['datepicker_prevMonth'] = '前月';
+$string['datepicker_nextMonth'] = '翌月';
+$string['datepicker_selectYear'] = '年を選択する';
+$string['datepicker_prevYear'] = '前年';
+$string['datepicker_nextYear'] = '翌年';
+$string['datepicker_selectDecade'] = '10年を選択する';
+$string['datepicker_prevDecade'] = '前10年';
+$string['datepicker_nextDecade'] = '翌10年';
+$string['datepicker_prevCentury'] = '前世紀';
+$string['datepicker_nextCentury'] = '翌世紀';
+$string['datepicker_pickHour'] = '時間を選択する';
+$string['datepicker_incrementHour'] = '時間を増やす';
+$string['datepicker_decrementHour'] = '時間を減らす';
+$string['datepicker_pickMinute'] = '分を選択する';
+$string['datepicker_incrementMinute'] = '分を増やす';
+$string['datepicker_decrementMinute'] = '分を減らす';
+$string['datepicker_pickSecond'] = '秒を選択する';
+$string['datepicker_incrementSecond'] = '秒を増やす';
+$string['datepicker_decrementSecond'] = '秒を減らす';
+$string['datepicker_togglePeriod'] = '時間を切り替える';
+$string['datepicker_selectTime'] = '時間を選択する';
 $string['timelapsestringhour'] = '%2$s 時間 %s 分前';
 $string['timelapsestringhours'] = '%2$s 時間 %s 分前';
 $string['timelapsestringminute'] = '%s 分前';
