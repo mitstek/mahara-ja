@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-08 08:10:23 UTC
+ * @updated    2018-03-08 09:33:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -90,7 +90,7 @@ $string['emailvalidation_body1'] = '%s さん、こんにちは。
 $string['newemailalert_subject'] = 'あなたの %s アカウントに新しいメールアドレスが追加されました。';
 $string['newemailalert_body_text1'] = '%s さん、こんにちは。
 
-あなたは %s のユーザアカウントに次のメールアドレスを追加しました。
+あなたは %s のユーザアカウントに次のメールアドレスを追加しました:
 
 %s
 
