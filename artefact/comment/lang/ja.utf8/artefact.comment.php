@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-10-01 07:17:14 UTC
+ * @updated    2018-03-08 09:57:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -61,7 +61,7 @@ $string['groupadmins'] = 'グループ管理者';
 $string['messageempty'] = 'あなたのメッセージは空白です。メッセージを入力するかファイルを添付してください。';
 $string['Moderate'] = 'モデレート';
 $string['moderatecomments'] = 'コメントをモデレートする';
-$string['moderatecommentsdescription1'] = 'あなたに承認されるまでページのコメントはプライベートのままにされます。ファイルおよび日誌エントリ等の個々のコメントはモデレーションから除外されます。';
+$string['moderatecommentsdescription2'] = 'あなたに承認されるまでページのコメントはプライベートのままにされます。ログインしていない人からのコメントは常にモデレーションキューに入れられ承認される必要があります。';
 $string['newcommentnotificationsubject'] = '%s の新しいコメント';
 $string['progress_feedback'] = '%s ユーザページにコメントする';
 $string['rating'] = 'レーティング';
