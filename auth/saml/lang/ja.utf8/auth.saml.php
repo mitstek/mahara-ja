@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-08 03:31:01 UTC
+ * @updated    2018-03-08 07:39:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -79,7 +79,7 @@ $string['samlfieldforemail'] = 'メールアドレスのSSOフィールド';
 $string['samlfieldforfirstname'] = '名のSSOフィールド';
 $string['samlfieldforsurname'] = '姓のSSOフィールド';
 $string['samlfieldforstudentid'] = '学籍番号のSSOフィールド';
-$string['samlfieldauthloginmsg'] = '正しくないログインメッセージ';
+$string['samlfieldauthloginmsg'] = '不正ログインメッセージ';
 $string['spentityid'] = 'サービスプロバイダエンティティID';
 $string['title'] = 'SAML';
 $string['updateuserinfoonlogin'] = 'ログイン時、ユーザ情報を更新する';

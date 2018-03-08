@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-08 03:31:23 UTC
+ * @updated    2018-03-08 07:40:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,6 +20,6 @@ $string['notusable'] = 'XML-RPC、CurlおよびOpenSSL PHP拡張モジュール�
 $string['networkingdisabledonthissite'] = 'このサイトではネットワーキングが無効にされています。';
 $string['networkservers'] = 'ネットワークサーバ';
 $string['youhaveloggedinfrom1'] = '<a href="%s">%s</a>に戻る';
-$string['authloginmsgtitle'] = '正しくないログインメッセージ';
+$string['authloginmsgtitle'] = '不正ログインメッセージ';
 
 ?>
