@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-06 03:41:49 UTC
+ * @updated    2018-03-08 03:35:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -49,6 +49,7 @@ $string['loading'] = 'ローディング ...';
 $string['showtags'] = 'マイタグを表示する';
 $string['errorprocessingform'] = 'このフォームによる送信中にエラーが発生しました。マークされたフィールドを確認して再度送信してください。';
 $string['description'] = '説明';
+$string['orientation'] = '方向';
 $string['remove'] = '削除';
 $string['Close'] = '閉じる';
 $string['Help'] = 'ヘルプ';
