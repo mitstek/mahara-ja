@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-06 03:21:42 UTC
+ * @updated    2018-03-08 08:47:40 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -22,7 +22,7 @@ $string['emailalreadytakenbyothers'] = 'このメールアドレスはすでに�
 $string['iagreetothetermsandconditions'] = '私は利用条件に同意します。';
 $string['passwordinvalidform1'] = 'あなたのパスワードは少なくとも半角英数字 %s 文字にしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。あなたのパスワードには %s を含む必要があります。';
 $string['recaptcharegistertitle'] = 'reCAPTCHAチャレンジ';
-$string['recaptcharegisterdesc1'] = '「私はロボットではありません」チェックボックスをチェックしてください。この操作により自動プログラムによるこのサービスの悪用を防ぎます。';
+$string['recaptcharegisterdesc2'] = '続けるには「私はロボットではありません」チェックボックスをチェックしてください。';
 $string['registeredemailsubject'] = 'あなたは %s に登録されました。';
 $string['registeredemailmessagetext'] = '%s さん
 

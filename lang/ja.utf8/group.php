@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-23 10:01:15 UTC
+ * @updated    2018-03-08 09:18:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,9 +15,9 @@ defined('INTERNAL') || die();
 
 $string['groupname'] = 'グループ名';
 $string['groupshortname'] = '省略名';
-$string['assigntoinstitution'] = 'インスティテューションに割り当てる';
-$string['assigntoaninstitution'] = 'グループ「 %s 」をインスティテューションに割り当てる';
-$string['groupassigned'] = 'グループが正常にインスティテューションに割り当てられました。';
+$string['associatewithinstitution'] = 'インスティテューションと関連付ける';
+$string['associatewithaninstitution'] = 'グループ「 %s 」をインスティテューションと関連付ける';
+$string['groupassociated'] = 'グループがインスティテューションと正常に関連付けられました。';
 $string['creategroup'] = 'グループを作成する';
 $string['copygroup'] = 'グループ「 %s 」をコピーする';
 $string['groupmemberrequests'] = '保留中メンバーシップリクエスト';

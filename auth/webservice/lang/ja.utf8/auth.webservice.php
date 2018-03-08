@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-08 03:36:49 UTC
+ * @updated    2018-03-08 08:52:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -49,7 +49,7 @@ $string['usernameinvalidform'] = 'ユーザ名には空白を除く半角英数�
 $string['usernameinvalidadminform'] = 'ユーザ名には空白を除く半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
 $string['youmaynotregisterwithouttandc'] = '<a href="terms.php">利用条件</a>に従うことを同意しない限り、あなたは登録することができません。';
 $string['pluginconnections'] = '接続オブジェクト';
-$string['nodefinedconnections'] = 'ウェブサービス接続が定義されているプラグインはありません。最初に接続を定義してください。';
+$string['nodefinedconnections'] = 'プラグインで定義されているウェブサービス接続はありません。最初に接続を定義してください。';
 $string['instancelistempty'] = 'このインスティテューションの接続オブジェクトはありません。';
 $string['addconnection'] = 'クライアント接続を追加する';
 $string['editconnection'] = 'クライアント接続を編集する';

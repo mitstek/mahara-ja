@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-08 04:33:06 UTC
+ * @updated    2018-03-08 09:21:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -406,7 +406,7 @@ $string['passwordhelp'] = 'あなたがシステムへのアクセスに使用�
 $string['passwordnotchanged'] = 'あなたはパスワードを変更していません。新しいパスワードを入力してください。';
 $string['passwordsaved'] = 'あなたの新しいパスワードが保存されました。';
 $string['passwordsdonotmatch'] = 'パスワードが合致しません。';
-$string['passwordtooeasy'] = 'あなたのパスワードは簡単すぎます。難しいパスワードを入力してください。';
+$string['passwordtooeasy'] = 'あなたのパスワードは簡単すぎます。強いパスワードを入力してください。';
 $string['register'] = '登録';
 $string['reloadtoview'] = 'ページを表示するにはリロードしてください。';
 $string['sessiontimedout'] = 'あなたのセッションはタイムアウトしました。続けるにはあなたのログイン詳細を入力してください。';
@@ -417,7 +417,7 @@ $string['preferredname'] = '表示名';
 $string['usernamehelp'] = 'あなたがこのシステムにアクセスするため与えられたユーザ名です。';
 $string['youaremasqueradingas'] = 'あなたは %s としてログインしています。';
 $string['yournewpassword1'] = 'あなたの新しいパスワードです。あなたのパスワードには少なくとも半角 %s 文字必要です。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。%s<br />
-セキュリティ上の理由からパスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。';
+セキュリティ上の理由からパスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上) の言葉をスペースで区切って使用することをお考えください。';
 $string['yournewpasswordagain'] = 'あなたの新しいパスワードをもう一度';
 $string['invalidsesskey'] = '無効なセッションキー';
 $string['cannotremovedefaultemail'] = 'あなたの主メールアドレスは削除できません。';
@@ -1063,7 +1063,7 @@ $string['lastupdate'] = '最終更新日時';
 $string['lastupdateorcomment'] = '最終更新日時またはコメント';
 $string['Title'] = 'タイトル';
 $string['anonymoususer'] = '(作成者名非表示)';
-$string['removefooterlinksupgradewarning'] = 'あなたのサイトは利用条件またはプライバシー保護方針のカスタムリンクを使用します。次のリンク「 %s 」は削除されました。あなたはサイトの「管理 → サイト設定 → 法律」セクションに直接コンテンツを入力する必要があります。';
+$string['removefooterlinksupgradewarning'] = 'あなたのサイトは利用条件またはプライバシー保護方針のカスタムリンクを使用します。次のリンク「 %s 」は削除されました。あなたはサイトの「管理メニュー」 → 「サイト設定」 → 「法律」セクションに直接コンテンツを入力する必要があります。';
 $string['importedfrom'] = 'インポート元 %s';
 $string['incomingfolderdesc'] = '他のネットワークホストからインポートされたファイル';
 $string['remotehost'] = 'リモートホスト %s';

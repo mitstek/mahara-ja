@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-06 03:33:11 UTC
+ * @updated    2018-03-08 09:13:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -333,7 +333,7 @@ $string['passwordpolicy'] = 'パスワードポリシー';
 $string['passwordpolicydesc'] = '内蔵の内部認証方法をアカウントが使用するよう設定されている人のためのパスワードポリシーです。パスワードの最小文字数および複雑性を選択してください。';
 $string['passwordpolicylength'] = '最小パスワード長';
 $string['passwordpolicytype'] = 'パスワード複雑性';
-$string['deprecatedmobileapp'] = '申し訳ございません、このモバイルアプリケーションは新しいものに入れ替わりました。あなたは代わりにMaharaモバイルアプリケーションを使用する必要があります。Androidデバイスは次からダウンロードしてください: https://play.google.com/store/apps/details?id=org.mahara.mobile またiOSデバイスは次からダウンロードしてください: https://itunes.apple.com/us/app/mahara-mobile/id1172638950';
+$string['deprecatedmobileapp'] = '申し訳ございません、このモバイルアプリケーションは新しいものに入れ替わりました。あなたは代わりにMaharaモバイルを使用する必要があります。Androidデバイスは次からダウンロードしてください: https://play.google.com/store/apps/details?id=org.mahara.mobile またAppleデバイスは次からダウンロードしてください: https://itunes.apple.com/us/app/mahara-mobile/id1172638950';
 $string['embeddedcontent'] = '埋め込みコンテンツ';
 $string['embeddedcontentdescription'] = 'ユーザがポートフォリオにビデオまたは他のサイトのコンテンツを埋め込むことができるようにしたい場合、あなたは下記より信頼できるサイトを選択することができます。';
 $string['Everyone'] = '誰でも';
@@ -817,7 +817,7 @@ $string['loginasdenied'] = 'パーミッションなしで別のユーザとし�
 $string['loginastwice'] = 'すでにログインしているにもかかわらず、別のユーザとしてのログインを試みました。';
 $string['loginasrestorenodata'] = 'リストアするユーザデータがありません。';
 $string['loginasoverridepasswordchange'] = '別のユーザとしてログインしているため、あなたはパスワード変更画面を無視して%s常にログインすること%sを選択できます。';
-$string['loginasoverrideprivacyaccept'] = '別のユーザとしてログインしているため、あなたはプライバシー保護方針の同意を無視して%s常にログインすること%sを選択できます。';
+$string['loginasoverridelegalaccept'] = '別のユーザとしてログインしているため、あなたは法的表示に同意せずに%s常にログインすること%sを選択できます。';
 $string['Add'] = '追加';
 $string['all'] = 'すべて';
 $string['admininstitutions'] = 'インスティテューションを管理する';
@@ -1183,7 +1183,7 @@ $string['withselectedcontentexport'] = 'アイテムを再度エクスポート�
 $string['withselectedcontentdelete'] = '選択したアイテムをエクスポートキューから削除する';
 $string['allothers'] = 'その他すべて';
 $string['behatvariables'] = 'Behatステップ';
-$string['behatvariablesdesc'] = '利用可能なBehatステップを探すためのクイックツールです。';
+$string['behatvariablesdesc'] = '利用可能なBehatステップを素早く探すためのツールです。';
 $string['nobehatfeaturefiles'] = 'Behatフィーチャファイルが見つかりませんでした。';
 $string['behatmatchingrows'] = '%s -';
 $string['behatnocore'] = 'behat.ymlファイルからコアBehatステップを読み込むことができません。';
@@ -1195,7 +1195,7 @@ $string['version'] = 'バージョン';
 $string['viewversion'] = 'バージョン %s を表示する';
 $string['editversion'] = 'バージョン %s を編集する';
 $string['privacylastversion'] = 'プライバシー保護方針には半角15文字のユニークなバージョン名が必要です。このプライバシー保護方針の最新バージョンは「 %s 」です。';
-$string['termsandconditionslastversion'] = '利用条件には半角15文字のユニークなバージョン名が必要です。この利用条件の最新バージョンは「 %s 」です。';
+$string['termsandconditionslastversion'] = '利用条件には半角15文字のユニークなバージョン名が必要です。これらの利用条件の最新バージョンは「 %s 」です。';
 $string['versionalreadyexist'] = 'バージョン %s の「 %s 」はすでに存在します。';
 $string['siteprivacy'] = 'サイトプライバシー保護方針';
 $string['siteprivacyconsentdate'] = 'サイトプライバシー保護方針同意がレビューされました。';

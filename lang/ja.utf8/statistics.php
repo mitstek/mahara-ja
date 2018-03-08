@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-20 02:41:21 UTC
+ * @updated    2018-03-08 09:23:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -386,7 +386,7 @@ $string['usersmasqueradingreports'] = 'マスカレーディングセッショ�
 $string['usersaccesslistreports'] = 'ポートフォリオアクセス';
 $string['usersuseractivityreports'] = 'ユーザ活動';
 $string['usersuserdetailsreports'] = 'ユーザ詳細';
-$string['usersuseragreementreports'] = 'ユーザ同意';
+$string['usersuseragreementreports'] = '法的同意';
 $string['groupsreports'] = 'グループ概要';
 $string['contentreports'] = 'コンテンツ概要';
 $string['peoplereports'] = '人概要';
@@ -396,7 +396,7 @@ $string['applyingfilters'] = 'フィルタ適用';
 $string['nogroupdataperinstitution'] = 'グループレポートはサイト全体にのみ生成することができます。あなたにサイト全体のレポートを閲覧できるパーミッションがある場合、インスティテューションセレクタより「すべてのインスティテューション」を選択してください。';
 $string['nocomparisondataperinstitution'] = '比較レポートはサイト全体にのみ生成することができます。あなたにサイト全体のレポートを閲覧できるパーミッションがある場合、インスティテューションセレクタより「すべてのインスティテューション」を選択してください。';
 $string['nologinsdataperinstitution'] = 'ログインレポートはサイト全体にのみ生成することができます。あなたにサイト全体のレポートを閲覧できるパーミッションがある場合、インスティテューションセレクタより「すべてのインスティテューション」を選択してください。';
-$string['timeframe'] = '期間:';
+$string['timeperiod'] = '期間:';
 $string['groupcomments'] = 'グループページコメント';
 $string['sharedcomments'] = '共有ページコメント';
 $string['notdisplayed'] = 'N/A';
