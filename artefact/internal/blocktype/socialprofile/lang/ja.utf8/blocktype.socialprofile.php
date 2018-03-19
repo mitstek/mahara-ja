@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'ソーシャルメディア';
-$string['description'] = '表示するソーシャルメディアアカウントを選択する';
+$string['description'] = '表示するソーシャルメディアアカウントを選択してください。';
 $string['profilestoshow'] = '表示するソーシャルメディアアカウント';
 $string['displaysettings'] = '表示設定';
 $string['displayaddressesas'] = '次のようにソーシャルメディアアカウントを表示する:';
