@@ -141,14 +141,14 @@ $string['filtersinstalled'] = 'フィルタがインストールされました�
 $string['nofiltersinstalled'] = 'HTMLフィルタはインストールされませんでした。';
 $string['allowediframesites'] = '許可されるiframeソース';
 $string['allowediframesitesdescriptionshort'] = '埋め込み外部iframeコンテンツのパーミッションを設定します。';
-$string['allowediframesitesdescription'] = 'ユーザはHTML &lt;iframe&gt; エレメント内に以下の外部サイトからコンテンツを埋め込むことができます。これは一般的に他の場所で提供されているコンテンツを表示するために使用されます。このページで許可されるサイト一覧を修正することができます。';
-$string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、ユーザに対してアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが、同一サイト内におけるiframeソーステキストの一部合致は許可されます。';
+$string['allowediframesitesdescription'] = 'ユーザはHTML &lt;iframe&gt; エレメント内に以下の外部サイトからコンテンツを埋め込むことができます。これは一般的に他の場所で提供されているコンテンツを表示するため使用されます。このページで許可されるサイト一覧を修正することができます。';
+$string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、ユーザにアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが、同一サイト内におけるiframeソーステキストの一部合致は許可されます。';
 $string['iframeurldescription'] = 'iframeソースURL (http:// なし) の先頭に合致するテキストです。半角英数字、「.」「/」「_」および「-」のみ許可されます。';
 $string['iframedisplaynamedescription'] = 'ユーザに表示されるサイト名です。';
 $string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含むことができます。';
 $string['iframeiconhost'] = 'アイコンホスト';
 $string['urlalreadyexists'] = 'このURLはすでに存在します。あなたは2度追加することはできません。';
-$string['iframeiconhostdescription'] = '必要であれば、あなたはファビコン (favicon) イメージ用の異なるホストを指定することができます。同一名称のサイトすべてに対してこのアイコンが使用されます。';
+$string['iframeiconhostdescription'] = '必要であれば、あなたはファビコン (favicon) イメージ用の異なるホストを指定することができます。同一名称のすべてのサイトでこのアイコンが使用されます。';
 $string['cleanurls'] = 'クリーンURL';
 $string['cleanurlsdescription'] = '<p>ユーザプロファイル、グループホームページおよびポートフォリオページに関して人間が解読可能なURLを使用してあなたのサイトを設定することができます。例えば、下記のようになります:
 <ul>
