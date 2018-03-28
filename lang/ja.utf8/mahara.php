@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-08 09:21:56 UTC
+ * @updated    2018-03-28 03:53:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -424,6 +424,7 @@ $string['cannotremovedefaultemail'] = 'あなたの主メールアドレスは�
 $string['emailtoolong'] = 'メールアドレスの長さは半角255文字以内にしてください。';
 $string['emailinvalid'] = 'メールアドレスが無効です。';
 $string['mustspecifyoldpassword'] = 'あなたの現在のパスワードを入力してください。';
+$string['mustspecifycurrentpassword'] = 'あなたのユーザ名を変更する場合、あなたの現在のパスワードを入力してください。';
 $string['Site'] = 'サイト';
 $string['maildisabled'] = 'メール無効';
 $string['profileicon'] = 'プロファイルイメージ';
