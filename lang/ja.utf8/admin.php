@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-26 22:14:30 UTC
+ * @updated    2018-03-28 03:50:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -356,7 +356,7 @@ $string['pathtoclam'] = 'ClamAVのパス';
 $string['pathtoclamdescription'] = 'clamscanまたはclamdscanのファイルシステムパスです。';
 $string['pathtoclamnotset'] = '(未設定)';
 $string['registerterms'] = '登録同意';
-$string['registertermsdescription'] = 'ユーザ登録の前、ユーザに利用条件への同意を強制します。このオプションを有効にする前、あなたのサイト利用条件ページを編集する必要があります。';
+$string['registertermsdescription1'] = 'ユーザ登録の前、ユーザにプライバシー保護方針および利用条件への同意を強制します。このオプションを有効にする前、あなたのサイトおよびインスティテューションの法律ページを編集する必要があります。';
 $string['licensemetadata'] = 'ラインセンスメタデータ';
 $string['licensemetadatadescription'] = 'ユーザ作成コンテンツに関してライセンスメタデータを要求および保存します。';
 $string['licenseallowcustom1'] = 'カスタムライセンス';
@@ -447,10 +447,10 @@ $string['watchlistdelaydescription'] = 'ウォッチリストの変更に関す�
 $string['watchlistdelaytitle'] = 'ウォッチリスト通知遅延';
 $string['defaultmultipleblogs'] = '複数日誌';
 $string['defaultmultipleblogsdescription1'] = 'デフォルトでユーザが日誌を複数持てるようにします。ユーザはこれをアカウント設定ページでオーバーライドすることができます。';
-$string['defaultreviewselfdeletion'] = '自己削除の前にアカウントをレビューする';
-$string['defaultreviewselfdeletiondescription'] = 'アカウント削除リクエストをレビューするようすべてのインスティテューションに強制します。';
-$string['reviewselfdeletion'] = '自己削除の前にアカウントをレビューする';
-$string['reviewselfdeletiondescription'] = 'インスティテューション管理者はユーザのアカウント削除のリクエストを承認する必要があります。';
+$string['defaultreviewsselfdeletion'] = '自己削除の前にアカウントをレビューする';
+$string['defaultreviewsselfdeletiondescription'] = 'アカウント削除リクエストをレビューするようすべてのインスティテューションに強制します。';
+$string['reviewsselfdeletion'] = '自己削除の前にアカウントをレビューする';
+$string['reviewsselfdeletiondescription'] = 'インスティテューション管理者はアカウントを削除したい人のリクエストを承認する必要があります。';
 $string['mathjax'] = 'MathJaxを有効にする';
 $string['mathjaxdescription'] = 'MathJaxはポートフォリオページ上のLaTeXマークアップを適切にフォーマットした数式および化学式として表示します。';
 $string['mathjaxconfig'] = 'MathJax設定';
@@ -1208,7 +1208,7 @@ $string['institutionprivacystatement'] = 'インスティテューションプ�
 $string['institutiontermsandconditions'] = 'インスティテューション利用条件';
 $string['institutionprivacyconsentdate'] = 'インスティテューションプライバシー保護方針同意がレビューされました。';
 $string['institutiontermsconsentdate'] = 'インスティテューション利用条件同意がレビューされました。';
-$string['userprivacypagedescription'] = 'あなたが同意した現在のプライバシー保護方針が表示されています。';
+$string['userprivacypagedescription1'] = '現在のプライバシー保護方針および利用条件が表示されています。';
 $string['lastupdated'] = '最終更新日時';
 $string['newprivacy'] = 'あなたのアカウントを入力する前に以下に表示されている情報をお読みください。';
 $string['privacyagreement'] = '私は % に同意します。';
