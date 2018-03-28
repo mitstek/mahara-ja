@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-06 03:37:56 UTC
+ * @updated    2018-03-28 03:44:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -33,6 +33,9 @@ $string['element.calendar.format.help.minute2digits'] = 'MM';
 $string['element.calendar.format.help.second2digits'] = 'SS';
 $string['element.calendar.format.help.ampmlowercase'] = 'am';
 $string['element.calendar.format.help.ampmuppercase'] = 'AM';
+$string['element.calendar.format.arialabel'] = '次のフォーマットでフィールドを編集してください: YYYY/MM/DD 時間:分 (24時間フォーマット)';
+$string['element.calendar.datefrom'] = '日付開始';
+$string['element.calendar.dateto'] = '日付終了';
 $string['element.date.monthnames'] = '1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月';
 $string['element.date.specify'] = '日付設定';
 $string['element.date.at'] = '-';
