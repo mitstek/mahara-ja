@@ -145,10 +145,10 @@ $string['registeryourmaharasitedetail'] = '<p>あなたのMaharaサイトを<a h
 $string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページで</p>サイト更新内容の週ごとの送信を有効または無効にすることができます。';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
-$string['closesitedetail'] = 'あなたは管理者を除くすべてのユーザに対してサイトをクローズすることができます。この処理はデータベースアップグレード処理の準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインすることができます。';
+$string['closesitedetail'] = 'あなたは管理者を除くすべてのユーザに対してサイトをクローズすることができます。これはデータベースアップグレード処理の準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインすることができます。';
 $string['Open'] = 'オープン';
 $string['reopensite'] = 'サイトを再オープンする';
-$string['reopensitedetail'] = 'あなたのサイトはクローズされています。アップグレードが完了するまでサイト管理者のみログインすることができます。';
+$string['reopensitedetail'] = 'あなたのサイトはクローズされています。アップグレードが検出されるまでサイト管理者はログインすることができます。';
 $string['siteinformation'] = 'サイト情報';
 $string['viewfullsitestatistics'] = 'サイト統計詳細を表示する';
 $string['sitestatistics'] = 'サイト統計';
