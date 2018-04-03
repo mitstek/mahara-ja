@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-28 03:50:08 UTC
+ * @updated    2018-04-03 00:03:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1229,7 +1229,7 @@ $string['termsandconditionslowcase'] = '利用条件';
 $string['privacyandtotheterms'] = 'プライバシー保護方針および利用条件';
 $string['privacyandtheterms'] = 'プライバシー保護方針および利用条件';
 $string['consentdate'] = '同意/拒否日付';
-$string['useragreements'] = 'ユーザ同意';
+$string['legalconsent'] = '法的同意';
 $string['userprivacyagreements'] = '以下、ユーザが同意したすべてのプライバシー保護方針が表示されています。';
 $string['usertermsagreements'] = '以下、ユーザが同意したすべての利用条件が表示されています。';
 $string['approveuserdeletionfor'] = '%s %s <%s> のユーザアカウント削除を承認する';

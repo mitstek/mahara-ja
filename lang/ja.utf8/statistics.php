@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-08 09:23:13 UTC
+ * @updated    2018-04-03 00:04:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -275,7 +275,7 @@ $string['reportdescpageactivity'] = '<ul>
 </ul>
 <p>レポート期間に修正されたページが表示されます。</p>';
 $string['allothers'] = 'その他すべて';
-$string['reportuseragreement'] = 'ユーザ同意';
+$string['reportuseragreement'] = '法的同意';
 $string['reportdescuseragreement'] = '<ul>
 <li>名</li>
 <li>姓</li>
