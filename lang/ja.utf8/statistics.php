@@ -343,7 +343,7 @@ $string['reportdescinformation'] = '<ul>
 <li>グループ数</li>
 <li>データベースサイズ</li>
 <li>Maharaバージョン</li>
-<li>Cron実行情報</li>
+<li>cron実行情報</li>
 <li>グループ概要</li>
 </ul></li>
 </ul>';
