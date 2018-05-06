@@ -213,7 +213,7 @@ $string['country'] = '国';
 $string['pathtoclam'] = 'clamのパス';
 $string['pathtoclamdescription'] = 'clamscanまたはclamdscanのファイルシステムパスです。';
 $string['registerterms'] = '登録同意';
-$string['registertermsdescription'] = 'ユーザ登録の前、ユーザに利用条件への同意を強制します。このオプションを有効にする前、あなたのサイト利用条件ページを編集する必要があります。';
+$string['registertermsdescription'] = 'ユーザ登録の前、ユーザに利用条件への同意を強制します。このオプションを有効にする場合、あなたのサイト利用条件ページを編集する必要があります。';
 $string['remoteavatars'] = 'リモートアバタを表示する';
 $string['remoteavatarsdescription'] = 'この設定を有効にした場合、ユーザのデフォルトプロファイルアイコンに<a href="http://www.gravatar.com">Gravatar</a>サービスが利用されます。';
 $string['searchplugin'] = '検索プラグイン';
@@ -235,7 +235,7 @@ $string['sitelanguagedescription'] = 'サイトのデフォルトの言語です
 $string['sitecountrydescription'] = 'サイトのデフォルトの国です。';
 $string['sitename'] = 'サイト名';
 $string['sitenamedescription'] = 'サイト名はサイトおよびサイトから送信されるメールに表示されます。';
-$string['siteoptionspagedescription'] = 'ここではサイト全体にデフォルトとして適用されるグローバルオプションを設定することができます。<br />注意: 無効にされたオプションはあなたのconfig.phpファイルによりオーバーライドされます。';
+$string['siteoptionspagedescription'] = 'ここであなたははサイト全体にデフォルトとして適用されるグローバルオプションを設定することができます。<br />メモ: 無効にされたオプションはあなたのconfig.phpファイルでオーバーライドすることができます。';
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['sitethemedescription'] = 'サイトのデフォルトテーマです。';
 $string['smallviewheaders'] = 'スモールビューページヘッダ';
