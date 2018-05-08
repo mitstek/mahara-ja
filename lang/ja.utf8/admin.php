@@ -400,7 +400,7 @@ $string['smallviewheaders'] = 'スモールページヘッダ';
 $string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧および編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
 $string['spamhaus1'] = 'Spamhaus URLブラックリスト';
 $string['spamhausdescription1'] = 'Spamhaus DNSBLを照合してURLをチェックします。';
-$string['staffaccessreports'] = 'スタッフのアクセスレポート';
+$string['staffaccessreports'] = 'スタッフによるレポートアクセス';
 $string['staffaccessreportsdescription1'] = 'サイトおよびインスティテューションスタッフがインスティテューションの「ユーザ詳細」「ポートフォリオアクセス」および「マスカレーディングセッション」レポートにアクセスできるようにします。通常、このレポートは管理者に制限されます。';
 $string['institutionstaffallreports'] = 'インスティテューションスタッフのすべてのレポート';
 $string['institutionstaffallreportsdescription'] = 'インスティテューションスタッフがインスティテューションのすべてのレポートにアクセスできるようにします。通常、このレポートは管理者およびサイトスタッフに制限されます。';
@@ -413,7 +413,7 @@ $string['tagssideblockmaxtagsdescription'] = 'ユーザタグクラウド内に�
 $string['trustedsites'] = '信頼できるサイト';
 $string['updatesiteoptions'] = 'サイトオプションを更新する';
 $string['usersallowedmultipleinstitutions'] = 'ユーザに複数インスティテューションを許可する';
-$string['usersallowedmultipleinstitutionsdescription1'] = 'ユーザが同時に複数のインスティテューションのメンバーになれるようにします。';
+$string['usersallowedmultipleinstitutionsdescription1'] = 'ユーザが同時に複数のインスティテューションのメンバーになることができるようにします。';
 $string['institutionstrictprivacy'] = '厳密なプライバシー';
 $string['institutionstrictprivacydescription'] = 'あなたのサイトが<a href="https://www.eugdpr.org/">GDPR</a>を厳密に順守する必要がある場合、このオプションを有効にしてください。';
 $string['requireregistrationconfirm'] = '登録を確認する';
