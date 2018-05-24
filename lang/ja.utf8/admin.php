@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-10-30 14:43:17 UTC
+ * @updated    2018-05-24 07:33:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -160,7 +160,7 @@ $string['activeusers'] = 'アクティブユーザ';
 $string['loggedinsince'] = '%s=本日 / %s=%s以降 / %s=全期間';
 $string['groupmemberaverage'] = 'それぞれのユーザは平均 %s のグループに属しています。';
 $string['viewsperuser'] = 'ビューを作成したユーザはそれぞれ約 %s ページのビューを持っています。';
-$string['cron'] = 'cron';
+$string['Cron'] = 'cron';
 $string['runningnormally'] = '正常動作';
 $string['cronnotrunning'] = 'cronは動作していません。cronのセットアップに関するインストラクションは<a href="https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。';
 $string['Loggedin'] = 'ログイン';
@@ -306,7 +306,7 @@ $string['footerupdated'] = 'フッタが更新されました。';
 $string['adminfilespagedescription'] = 'あなたはここで%s「リンクおよびリソース」メニュー%sに含むことのできるファイルをアップロードすることができます。パブリックディレクトリのファイルはパブリックの「リンクおよびリソース」メニューに追加できるのに対してホームディレクトリのファイルはログイン後の「リンクおよびリソース」メニューに追加することができます。';
 $string['networkingextensionsmissing'] = '申し訳ございません、インストール済みPHPでいくつかの必須拡張モジュールが不足しているためあなたはMaharaネットワーキングを設定できません:';
 $string['publickey'] = '公開鍵';
-$string['publickeydescription2'] = 'この公開鍵は自動的に生成され%s 日ごとにローテートされます。';
+$string['publickeydescription2'] = 'この公開鍵は自動的に生成され %s 日ごとにローテートされます。';
 $string['publickeyexpires'] = '公開鍵の有効期限';
 $string['enablenetworkingdescription'] = 'Moodleおよび他のアプリケーションを動作させているサーバとあなたのMaharaサーバが通信することを許可します。';
 $string['enablenetworking'] = 'ネットワーキングを有効にする';
@@ -317,7 +317,7 @@ $string['networkingunchanged'] = 'ネットワーク設定は変更されませ�
 $string['promiscuousmode'] = 'すべてのホストを自動登録する';
 $string['promiscuousmodedisabled'] = '自動登録が無効にされました。';
 $string['promiscuousmodeenabled'] = '自動登録が有効にされました。';
-$string['promiscuousmodedescription'] = 'すべてのホストにインスティテューションレコードを作成してユーザがMaharaにログインできるようにします。';
+$string['promiscuousmodedescription'] = 'あなたに接続するすべてのホストにインスティテューションレコードを作成して、そのユーザがMaharaにログインできるようにします。';
 $string['wwwroot'] = 'WWWルート';
 $string['wwwrootdescription'] = 'これはあなたのユーザがMaharaにアクセスするためのURLです。また、SSLキーが作成されるURLでもあります。';
 $string['proxysettings'] = 'プロクシ設定';
