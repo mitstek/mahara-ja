@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-06-30 08:51:10 UTC
+ * @updated    2018-05-24 07:40:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -85,6 +85,23 @@ $string['emailvalidation_body1'] = '%s さん、こんにちは。
 このメールアドレスがあなたのメールアドレスであり、あなたがMaharaのアカウント作成をリクエストしていない場合、以下のリンクをクリックしてメール有効化を拒否してください。
 
 %s';
+$string['newemailalert_subject'] = 'あなたの %s アカウントに新しいメールアドレスが追加されました。';
+$string['newemailalert_body_text'] = '%s さん、こんにちは。
+
+あなたは %s のユーザアカウントに次のメールアドレスを追加しました:
+
+%s
+
+あなたがこの %a アカウントの変更をリクエストしていない場合、サイト管理者にご連絡ください。
+
+%scontact.php';
+$string['newemailalert_body_html'] = '<p>%s さん、こんにちは。</p>
+
+<p>あなたは %s のユーザアカウントに次のメールアドレスを追加しました:</p>
+
+<p>%s</p>
+
+<p>あなたがこの %a アカウントの変更をリクエストしていない場合、<a href="%scontact.php">サイト管理者にご連絡ください</a>。</p>';
 $string['validationemailwillbesent'] = 'あなたのプロファイル保存後、確認メールが送信されます。';
 $string['validationemailsent'] = '確認メールが送信されました。';
 $string['emailactivation'] = 'メール有効化';

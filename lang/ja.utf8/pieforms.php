@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-23 13:18:53 UTC
+ * @updated    2018-05-24 07:38:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -43,7 +43,6 @@ $string['element.expiry.years'] = '年';
 $string['element.expiry.noenddate'] = '終了日なし';
 $string['element.files.addattachment'] = '添付を追加する';
 $string['element.select.other'] = 'その他';
-$string['element.select.remove'] = '「 %s 」を削除する';
 $string['element.color.transparent'] = 'デフォルト';
 $string['rule.before.before'] = 'フィールド「 %s 」の後に設定することはできません';
 $string['rule.email.email'] = 'メールアドレスが有効ではありません';
@@ -53,13 +52,8 @@ $string['rule.minlength.minlength'] = 'このフィールドは少なくとも�
 $string['rule.minvalue.minvalue'] = 'この値は %d 以下にすることはできません';
 $string['rule.regex.regex'] = 'このフィールドは正しい形式ではありません';
 $string['rule.required.required'] = 'このフィールドは必須入力フィールドです。';
+$string['rule.safetext.invalidchars'] = 'このフィールドには無効な文字があります。';
 $string['rule.validateoptions.validateoptions'] = 'オプション「 %s 」が正しくありません';
 $string['rule.maxvalue.maxvalue'] = 'この値は %d 以下にしてください';
-$string['switchbox.true'] = 'True';
-$string['switchbox.false'] = 'False';
-$string['switchbox.on'] = 'On';
-$string['switchbox.off'] = 'Off';
-$string['switchbox.yes'] = 'Yes';
-$string['switchbox.no'] = 'No';
 
 ?>
