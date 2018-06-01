@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-15 03:54:36 UTC
+ * @updated    2018-06-01 17:16:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -322,5 +322,6 @@ $string['progress_image'] = '%s イメージを追加する';
 $string['progress_profileicon'] = '%s プロファイル画像を追加する';
 $string['progress_video'] = '%s ビデオを追加する';
 $string['anytypeoffile'] = 'ファイル (すべてのタイプ)';
+$string['viruszipfile'] = 'ClamAVはウイルスに感染しているファイルを発見しました。あなたのアカウントから圧縮ファイルが隔離および削除されました。';
 
 ?>

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-04-19 04:50:54 UTC
+ * @updated    2018-06-01 17:19:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -24,7 +24,7 @@ $string['noticeenabled'] = 'LTI APIは有効にされています。';
 $string['noticenotenabled'] = 'LTI APIは有効にされて<b>いません</b>。';
 $string['oauthprotocolenabled'] = 'OAuthプロトコル有効';
 $string['restprotocolenabled'] = 'RESTプロトコル有効';
-$string['usernameexists1'] = 'ユーザ名「 %s 」はすでに存在します。';
+$string['usernameexists2'] = 'ユーザ名「 %s 」は有効ではありません。';
 $string['webserviceauthdisabled'] = 'このインスティテューションのウェブサービス認証は有効にされていません。';
 $string['webserviceproviderenabled'] = '内向きのウェブサービスリクエスト許可';
 $string['institutiondenied'] = '「 %s 」へのアクセスが拒否されました。あなたのインスティテューション管理者にご連絡ください。';
