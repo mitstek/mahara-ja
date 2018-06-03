@@ -532,7 +532,7 @@ $string['uploadcsverrorinvalidpassword'] = 'あなたのファイルの %s 行�
 セキュリティ上の理由からパスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。';
 $string['uploadcsverrorinvalidusername'] = 'あなたのファイルの %s 行目にエラーがあります: このユーザのユーザ名は正しい形式ではありません。';
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には必須の「 %s 」フィールドが含まれていません。';
-$string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」はすでに登録されています。';
+$string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」はすでに存在します。';
 $string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」はすでに他のユーザにより取得されています。';
 $string['uploadcsverrorduplicateremoteuser'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでに他のユーザにより取得されています。';
 $string['uploadcsverrorremoteusertaken'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでにユーザ「 %s 」により取得されています。';
