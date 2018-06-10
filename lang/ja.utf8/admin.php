@@ -588,7 +588,7 @@ $string['uploadcsvpagedescription6'] = '<p>ここであなたは<acronym title="
 
 <p>既存のユーザを更新する場合、あなたは「password」を除外することができます。</p>
 
-<p>あなたのCSVファイルには初期値を事前設定するための他のプロファイルフィールドを含むことができます。任意フィールドは以下の通りです:</p>
+<p>あなたのCSVファイルには初期値を事前設定するための他のプロファイルフィールドを含むことができます。任意フィールドは以下のとおりです:</p>
 
 %s';
 $string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれる行が多すぎます。あなたは %s 以上含むことができません。';
@@ -613,7 +613,7 @@ $string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能によ�
 
 %s
 
-<p>必要に応じてあなたのCSVファイルには他のフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
+<p>必要に応じてあなたのCSVファイルには他のフィールドを含むことができます。フィールドの完全なリストは以下のとおりです:</p>
 
 %s';
 $string['uploadgroupcsveditrolesdescription'] = '<p>editrolesフィールドには以下の設定値を含むことができます: %s</p>
