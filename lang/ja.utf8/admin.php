@@ -556,7 +556,7 @@ $string['uploadcsvpagedescription4'] = '<p>あなたはこの機能により<acr
 
 <p>この行には<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。</p>
 
-<p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
+<p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下のとおりです:</p>
 
 %s';
 $string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれる行が多すぎます。あなたは %s 以上含むことができません。';
@@ -581,7 +581,7 @@ $string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能によ�
 
 %s
 
-<p>必要に応じてあなたのCSVファイルには他のフィールドを含むことができます。フィールドの完全なリストは以下の通りです:</p>
+<p>必要に応じてあなたのCSVファイルには他のフィールドを含むことができます。フィールドの完全なリストは以下のとおりです:</p>
 
 %s';
 $string['uploadgroupcsveditrolesdescription'] = '<p>editrolesフィールドには以下の設定値を含むことができます: %s</p>
