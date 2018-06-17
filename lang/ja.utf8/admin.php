@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-05-24 07:33:23 UTC
+ * @updated    2018-06-17 07:33:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -377,14 +377,15 @@ $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメール
 $string['uploadcsvusersaddedsuccessfully'] = 'ファイル内のユーザが正常に追加されました。';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるためユーザは追加されませんでした。許可されたインスティテューションの最大ユーザ数を超過しました。';
 $string['bulkleap2aimport'] = 'Leap2Aファイルからユーザをインポートする';
-$string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある複数のLeap2Aファイルからユーザを一度にインポートすることができます。あなたはファイルシステムのディレクトリにおいて、すべてのLeap2A ZIPファイルおよびファイル名にユーザ名をマッピングするimport.csvと呼ばれるCSVファイルを指定する必要があります。</p>
-<p>import.csvは以下のようになります:</p>
+$string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある複数のLeap2Aファイルからユーザを一度にインポートすることができます。あなたはサーバのファイルシステムにあるすべてのLeap2A ZIPファイルおよびユーザ名をファイル名にマッピングしたusernames.csvと呼ばれる単一CSVファイルを含むZIPファイルを指定する必要があります。</p>
+<p>usernames.csvは以下のようになります:</p>
 <pre>
 &nbsp;&nbsp;bob,mahara-export-leap-user8-1265165366.zip<br />
 &nbsp;&nbsp;nigel,mahara-export-leap-user1-1266458159.zip
 </pre>
-<p>上記、mahara-export-leap-user8-1265165366.zipおよびmahara-export-leap-user1-1266458159.zipはimport.csvとして同一ディレクトリにあります。</p>
-<p>あなたが多くのユーザをインポートする場合、注意してください。インポート処理には長時間を要します。</p>';
+<p>上記、mahara-export-leap-user8-1265165366.zipおよびmahara-export-leap-user1-1266458159.zipはusersと呼ばれるサブディレクトリ内にあるファイルです。</p>
+<p>通常、ZIPファイルはMaharaに実装されているバルクエクスポートを使用して生成されます。</p>
+<p>あなたが多くのユーザをインポートする場合、注意してください。インポート処理には長時間を要する場合があります。</p>';
 $string['importfile'] = 'バルクエクスポートファイル';
 $string['importfilemissinglisting'] = 'バルクエクスポートファイルのファイル名が「usernames.csv」ではありません。これらのユーザをエクスポートするためあなたはMaharaバルクエクスポータを使用しましたか?';
 $string['importfilenotafile'] = '送信中にエラーが発生しました: ファイルを認識できませんでした。';
