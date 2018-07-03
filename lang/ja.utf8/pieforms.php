@@ -1,28 +1,13 @@
 <?php
 /**
- * Mahara: Electronic portfolio, weblog, resume builder and social networking
- * Copyright (C) 2006 onwards Catalyst IT Ltd (http://www.catalyst.net.nz)
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @package    mahara
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2011-03-23 04:29:55 UTC
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
- * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
+ * @updated    2018-03-28 00:13:08 UTC
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
+ * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
 
@@ -34,14 +19,38 @@ $string['element.bytes.megabytes'] = 'MB';
 $string['element.bytes.gigabytes'] = 'GB';
 $string['element.bytes.invalidvalue'] = '値は数値にしてください';
 $string['element.calendar.invalidvalue'] = '無効な日付/時間が指定されました';
-$string['element.date.or'] = 'or';
-$string['element.date.monthnames'] = '一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月';
-$string['element.date.notspecified'] = '指定なし';
+$string['element.calendar.opendatepicker'] = '日付ピッカを開く';
+$string['element.calendar.format.help.dayofmonth1digit'] = 'D';
+$string['element.calendar.format.help.dayofmonth2digits'] = 'DD';
+$string['element.calendar.format.help.month2digit'] = 'MM';
+$string['element.calendar.format.help.year2digit'] = 'YY';
+$string['element.calendar.format.help.year4digit'] = 'YYYY';
+$string['element.calendar.format.help.24hour1digit'] = 'H';
+$string['element.calendar.format.help.24hour2digits'] = 'HH';
+$string['element.calendar.format.help.12hour1digit'] = 'H';
+$string['element.calendar.format.help.12hour2digits'] = 'HH';
+$string['element.calendar.format.help.minute2digits'] = 'MM';
+$string['element.calendar.format.help.second2digits'] = 'SS';
+$string['element.calendar.format.help.ampmlowercase'] = 'am';
+$string['element.calendar.format.help.ampmuppercase'] = 'AM';
+$string['element.calendar.format.arialabel'] = '次のフォーマットでフィールドを編集してください: YYYY/MM/DD 時間:分 (24時間フォーマット)';
+$string['element.calendar.datefrom'] = '日付開始';
+$string['element.calendar.dateto'] = '日付終了';
+$string['element.date.monthnames'] = '1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月';
+$string['element.date.specify'] = '日付設定';
+$string['element.date.at'] = '-';
 $string['element.expiry.days'] = '日';
 $string['element.expiry.weeks'] = '週';
 $string['element.expiry.months'] = '月';
 $string['element.expiry.years'] = '年';
 $string['element.expiry.noenddate'] = '終了日なし';
+$string['element.files.addattachment'] = '添付を追加する';
+$string['element.passwordpolicy.ul'] = '大文字小文字';
+$string['element.passwordpolicy.uln'] = '大文字小文字、数字';
+$string['element.passwordpolicy.ulns'] = '大文字小文字、数字、記号';
+$string['element.select.other'] = 'その他';
+$string['element.select.remove'] = '「 %s 」を削除する';
+$string['element.color.transparent'] = 'デフォルト';
 $string['rule.before.before'] = 'フィールド「 %s 」の後に設定することはできません';
 $string['rule.email.email'] = 'メールアドレスが有効ではありません';
 $string['rule.integer.integer'] = 'フィールドは整数にしてください';
@@ -50,7 +59,15 @@ $string['rule.minlength.minlength'] = 'このフィールドは少なくとも�
 $string['rule.minvalue.minvalue'] = 'この値は %d 以下にすることはできません';
 $string['rule.regex.regex'] = 'このフィールドは正しい形式ではありません';
 $string['rule.required.required'] = 'このフィールドは必須入力です。';
+$string['rule.safetext.invalidchars'] = 'このフィールドには無効な文字があります。';
 $string['rule.validateoptions.validateoptions'] = 'オプション「 %s 」が正しくありません';
 $string['rule.maxvalue.maxvalue'] = 'この値は %d 以下にしてください';
+$string['switchbox.true'] = 'True';
+$string['switchbox.false'] = 'False';
+$string['switchbox.on'] = 'On';
+$string['switchbox.off'] = 'Off';
+$string['switchbox.yes'] = 'Yes';
+$string['switchbox.no'] = 'No';
+$string['requiredfields'] = '「 %s 」によってマークされたフィールドは必須入力です。';
 
 ?>

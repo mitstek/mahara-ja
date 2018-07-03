@@ -1,28 +1,13 @@
 <?php
 /**
- * Mahara: Electronic portfolio, weblog, resume builder and social networking
- * Copyright (C) 2006 onwards Catalyst IT Ltd (http://www.catalyst.net.nz)
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @package    mahara
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-28 09:37:48 UTC
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
- * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
+ * @updated    2017-11-10 01:38:56 UTC
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
+ * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
 
@@ -33,9 +18,11 @@ $string['description'] = '表示するプロファイル情報を選択してく
 $string['aboutme'] = '私について';
 $string['fieldstoshow'] = '表示するフィールド';
 $string['introtext'] = '自己紹介テキスト';
-$string['useintroductioninstead'] = '「自己紹介」を有効にしてこのフィールドを空白にすることにより代わりにあなたの「自己紹介」プロファイルフィールドを使用することができます。';
+$string['useintroductioninstead'] = '「自己紹介」を有効にしてこのフィールドを空白にすることによりあなたの「自己紹介」プロファイルフィールドを代わりに使用することができます。';
 $string['dontshowprofileicon'] = 'プロファイル画像を表示しません。';
 $string['dontshowemail'] = 'メールアドレスを表示しません。';
-$string['uploadaprofileicon'] = 'あなたにはプロファイル画像がありません。<a href="%sartefact/file/profileicons.php" target="_blank">アップロードしてください</a>。';
+$string['uploadaprofileicon'] = 'あなたにはプロファイル画像がありません。<a href="%sartefact/file/profileicons.php">アップロードしてください</a>。';
+$string['dontshowsocialprofiles'] = 'ソーシャルメディアアカウントを表示しない';
+$string['showsocialprofiles'] = '選択したソーシャルメディアアカウントを表示する';
 
 ?>

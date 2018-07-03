@@ -1,28 +1,13 @@
 <?php
 /**
- * Mahara: Electronic portfolio, weblog, resume builder and social networking
- * Copyright (C) 2006 onwards Catalyst IT Ltd (http://www.catalyst.net.nz)
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @package    mahara
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2009-01-05 21:07:44 UTC
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
- * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
+ * @updated    2014-10-19 16:16:15 UTC
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
+ * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
 
@@ -31,5 +16,15 @@ defined('INTERNAL') || die();
 $string['title'] = 'マイグループ';
 $string['otherusertitle'] = '%s のグループ';
 $string['description'] = 'あなたが属しているグループの一覧を表示します。';
+$string['sortgroups'] = 'グループを並べ替える';
+$string['earliest'] = '参加の古い順';
+$string['latest'] = '参加の新しい順';
+$string['alphabetical'] = 'A -> Z';
+$string['limitto1'] = 'ブロックに表示される最大グループ数';
+$string['limittodesc'] = 'ブロックに表示される最大グループ数です。あなたのグループすべてを表示するには空白のままにしてください。';
+$string['limittodescsideblock1'] = 'あなたのサイドバーの「マイグループ」リストに表示される最大グループ数です。あなたのグループすべてを表示するには空白のままにしてください。';
+$string['numberofmygroupsshowing'] = 'マイグループ表示中 (%s/%s)';
+$string['numberofmygroupsshowingearliest'] = '参加の古いグループ表示中 (%s/%s)';
+$string['numberofmygroupsshowinglatest'] = '参加の新しいグループ表示中 (%s/%s)';
 
 ?>

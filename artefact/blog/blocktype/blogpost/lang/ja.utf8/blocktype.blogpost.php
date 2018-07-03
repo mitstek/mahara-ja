@@ -1,35 +1,21 @@
 <?php
 /**
- * Mahara: Electronic portfolio, weblog, resume builder and social networking
- * Copyright (C) 2006 onwards Catalyst IT Ltd (http://www.catalyst.net.nz)
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @package    mahara
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-12-26 21:55:05 UTC
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
- * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
+ * @updated    2016-08-10 16:12:25 UTC
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
+ * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
 
 defined('INTERNAL') || die();
 
 $string['title'] = '日誌エントリ';
-$string['description'] = '日誌エントリ1件を表示します。';
+$string['description'] = 'あなたの日誌の単一エントリです (「コンテンツ -> 日誌」をご覧ください)。';
 $string['defaulttitledescription'] = 'ここを空白にした場合、日誌エントリのタイトルが使用されます。';
+$string['choosepublishedblogpostsdescription'] = 'あなたの公開済み日誌エントリの中から1つ選択してください。';
 
 ?>

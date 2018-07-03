@@ -1,28 +1,13 @@
 <?php
 /**
- * Mahara: Electronic portfolio, weblog, resume builder and social networking
- * Copyright (C) 2006 onwards Catalyst IT Ltd (http://www.catalyst.net.nz)
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @package    mahara
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-08-17 15:19:12 UTC
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
- * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
+ * @updated    2018-03-08 09:57:57 UTC
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
+ * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
 
@@ -33,6 +18,7 @@ $string['Comment'] = 'コメント';
 $string['Comments'] = 'コメント';
 $string['comment'] = 'コメント';
 $string['comments'] = 'コメント';
+$string['addcomment'] = 'コメントを追加する';
 $string['Allow'] = '許可';
 $string['allowcomments'] = 'コメントを許可する';
 $string['approvalrequired'] = 'コメントはモデレートされています。あなたがこのコメントをパブリックにした場合、オーナーにより承認されるまで他のユーザに表示されることはありません。';
@@ -46,7 +32,6 @@ $string['commentdeletedauthornotification'] = 'あなたの %s のコメント�
 %s';
 $string['commentdeletednotificationsubject'] = '%s のコメントが削除されました。';
 $string['commentnotinview'] = 'コメント %d はページ %d にありません。';
-$string['commentratings'] = 'コメントレーティングを有効にする';
 $string['commentremoved'] = 'コメントが削除されました。';
 $string['commentremovedbyauthor'] = '投稿者によりコメントが削除されました。';
 $string['commentremovedbyowner'] = 'オーナーによりコメントが削除されました。';
@@ -59,25 +44,35 @@ $string['feedback'] = 'フィードバック';
 $string['feedbackattachdirname'] = 'コメントファイル';
 $string['feedbackattachdirdesc'] = 'あなたのポートフォリオのコメントに添付されたファイル';
 $string['feedbackattachmessage'] = 'あなたの %s フォルダに添付ファイルが追加されました。';
-$string['feedbackonviewbyuser'] = '%s のフィードバック by %s';
-$string['feedbacksubmitted'] = 'フィードバックが送信されました。';
+$string['commentonviewbyuser'] = '%s のコメント by %s';
+$string['commentsubmitted'] = 'コメントが送信されました。';
+$string['commentsubmittedmoderatedanon'] = 'コメントが送信されました、モデレーションを待っています。';
+$string['commentsubmittedprivateanon'] = 'プライベートコメントが送信されました。';
+$string['forcepubliccomment'] = 'パブリック';
+$string['forceprivatecomment'] = 'プライベート: この返信はあなたおよび先行するコメントの投稿者にのみ表示されます。';
 $string['lastcomment'] = '最新コメント';
-$string['makepublic'] = 'パブリックにする';
+$string['makecommentpublic'] = 'コメントをパブリックにする';
 $string['makepublicnotallowed'] = 'あなたはこのコメントをパブリックにすることはできません。';
 $string['makepublicrequestsubject'] = 'プライベートコメントのパブリックへの変更リクエスト';
 $string['makepublicrequestbyauthormessage'] = 'あなたがコメントをパブリックにするよう %s がリクエストしました。';
 $string['makepublicrequestbyownermessage'] = 'あなたのコメントをパブリックにするよう %s がリクエストしました。';
 $string['makepublicrequestsent'] = 'コメントをパブリックにするリクエストメッセージが %s に送信されました。';
+$string['groupadmins'] = 'グループ管理者';
 $string['messageempty'] = 'あなたのメッセージは空白です。メッセージを入力するかファイルを添付してください。';
 $string['Moderate'] = 'モデレート';
 $string['moderatecomments'] = 'コメントをモデレートする';
-$string['moderatecommentsdescription'] = 'あなたに承認されるまでコメントはプライベートのままにされます。';
-$string['newfeedbacknotificationsubject'] = '%s の新しいフィードバック';
-$string['placefeedback'] = 'フィードバックを投稿する';
+$string['moderatecommentsdescription2'] = 'あなたに承認されるまでページのコメントはプライベートのままにされます。ログインしていない人からのコメントは常にモデレーションキューに入れられ承認される必要があります。';
+$string['newcommentnotificationsubject'] = '%s の新しいコメント';
+$string['progress_feedback'] = '%s ユーザページにコメントする';
 $string['rating'] = 'レーティング';
 $string['reallydeletethiscomment'] = '本当にこのコメントを削除してもよろしいですか?';
+$string['reply'] = '返信';
+$string['replyto'] = '返信:';
+$string['replytonoaccess'] = 'あなたはこのコメントへの返信の投稿を許可されていません。';
+$string['replytonoprivatereplyallowed'] = 'あなたはこのコメントへのプライベート返信の投稿を許可されていません。';
+$string['replytonopublicreplyallowed'] = 'あなたはこのコメントへのパブリック返信の投稿を許可されていません。';
 $string['thiscommentisprivate'] = 'このコメントは非公開です。';
-$string['typefeedback'] = 'フィードバック';
+$string['typefeedback'] = 'コメント';
 $string['viewcomment'] = 'コメントを表示する';
 $string['youhaverequestedpublic'] = 'あなたはこのコメントをパブリックにするようリクエストしました。';
 $string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が %s にコメントを投稿しました。</strong><br />%s</div>
@@ -114,5 +109,17 @@ $string['feedbackdeletedtext'] = '%s のコメントが削除されました。
 %s';
 $string['artefactdefaultpermissions'] = 'デフォルトのコメントパーミッション';
 $string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトでは作成時にコメントの投稿が有効にされます。ユーザはそれぞれのアーティファクトでこれらの設定をオーバーライドすることができます。';
+$string['commentratings'] = 'コメントレーティングを有効にする';
+$string['ratingicons'] = 'レーティングの表示に使用するアイコン';
+$string['ratinglength'] = 'レーティング選択数';
+$string['ratingcolour'] = '色';
+$string['ratingcolourdesc'] = 'レーティングの選択に表示する色です。選択されたレーティングは単色のアイコンで表示されます。未選択のレーティングはアイコンの輪郭が単色で表示されます。';
+$string['star'] = '星';
+$string['heart'] = 'ハート';
+$string['thumbsup'] = 'サムズアップ';
+$string['ok'] = 'チェックマーク';
+$string['ratingexample'] = '生成例';
+$string['removerating'] = 'レーティングを削除する';
+$string['ratingoption'] = 'レーティング %s / %s を設定する';
 
 ?>

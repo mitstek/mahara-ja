@@ -1,34 +1,19 @@
 <?php
 /**
- * Mahara: Electronic portfolio, weblog, resume builder and social networking
- * Copyright (C) 2006 onwards Catalyst IT Ltd (http://www.catalyst.net.nz)
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @package    mahara
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-10-06 10:54:20 UTC
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
- * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
+ * @updated    2016-04-02 20:07:25 UTC
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
+ * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
 
 defined('INTERNAL') || die();
 
 $string['title'] = 'Leap2A';
-$string['description'] = 'ここでは<a href="https://wiki.leapspecs.org/2A/specification">Leap2A標準フォーマット</a>のエクスポートを作成します。エクスポートは人間にとって読むことが難しいフォーマットで作成されますが、このエクスポートを使用することによりあなたのデータを後で<a href="https://wiki.mahara.org/wiki/Developer_Area/Import/Export/Interoperability">他のLeap2A互換システム</a>にインポートすることができます。';
+$string['description1'] = 'ここでは<a href="https://web.archive.org/web/20140912151415/http://wiki.leapspecs.org/2A/specification">Leap2A標準フォーマット</a>のエクスポートを作成します。エクスポートは人間にとって読むことが難しいフォーマットで作成されますが、このエクスポートを使用することによりあなたのデータを後で<a href="https://wiki.mahara.org/wiki/Developer_Area/Import/Export/Interoperability">他のLeap2A互換システム</a>にインポートすることができます。';
 
 ?>
