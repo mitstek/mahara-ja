@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-06-17 07:29:46 UTC
+ * @updated    2018-07-03 10:39:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -752,7 +752,7 @@ $string['usereditwarning'] = '注意: アカウントの変更を保存するこ
 $string['suspenduserdescription'] = 'アカウントの利用停止が解除されるまで利用停止ユーザはログインすることはできません。';
 $string['deleteusernote'] = 'この処理は<b>元に戻すことができません</b>ので注意してください。';
 $string['youcannotadministerthisuser'] = 'あなたはこのユーザを管理できません。';
-$string['userinstitutionjoined'] = 'ユーザがインスティテューション「 %s 」に追加されました。.';
+$string['userinstitutionjoined'] = 'ユーザがインスティテューション「 %s 」に追加されました。';
 $string['userinstitutionremoved'] = 'ユーザがインスティテューション「 %s 」から削除されました。';
 $string['userinstitutionupdated'] = 'インスティテューション「 %s 」のユーザ設定が更新されました。';
 $string['usernamechangenotallowed'] = '選択された認証方法ではユーザ名の変更が許可されていません。';
@@ -788,7 +788,7 @@ $string['newuseremailnotsent'] = '新しいユーザへのウェルカムメー�
 $string['newusercreated'] = '新しいユーザアカウントが正常に作成されました。';
 $string['noleap2axmlfiledetected'] = 'leap2a.xmlファイルが見つかりませんでした - 再度、あなたのエクスポートファイルを確認してください。';
 $string['Or'] = 'または';
-$string['userwillreceiveemailandhastochangepassword'] = '新しいアカウント詳細を記載したメールがユーザに送信されます。新しく作成されたユーザは初回ログイン時、パスワードを変更を求められます。';
+$string['userwillreceiveemailandhastochangepassword'] = '新しいアカウント詳細を記載したメールがユーザに送信されます。新しく作成されたユーザは初回ログイン時にパスワードの変更を求められます。';
 $string['uploadleap2afile'] = 'Leap2Aファイルをアップロードする';
 $string['usercreationmethod'] = '1 - ユーザ作成方法';
 $string['basicdetails'] = '2 - 基本情報';
