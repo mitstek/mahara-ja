@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-03 09:44:30 UTC
+ * @updated    2018-07-04 06:22:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -329,7 +329,7 @@ $string['defaultregistrationexpirylifetimedescription'] = '管理者が対応す
 $string['defaultaccountlifetime'] = 'デフォルトのアカウント存続期間';
 $string['defaultaccountlifetimedescription'] = 'このオプションを設定した場合、ユーザアカウントは本日または将来的な期間経過後に有効期限切れとなります。';
 $string['defaultaccountlifetimeupdate'] = 'ユーザアカウント存続期間のオーバーライド';
-$string['defaultaccountlifetimeupdatedescription'] = '「デフォルトのアカウント存続期間」が設定されている場合、ユーザ有効期限の対応方法を選択してください。';
+$string['defaultaccountlifetimeupdatedescription'] = '「デフォルトのアカウント存続期間」が設定された場合のユーザ有効期限の対応方法を選択してください。';
 $string['defaultaccountlifetimeupdatenone'] = '新しく作成されたユーザのみ';
 $string['defaultaccountlifetimeupdatesome'] = '新しいユーザおよびアカウント存続期間が設定されていないユーザ (サイト管理者を除く)';
 $string['defaultaccountlifetimeupdateall'] = 'すべてのユーザアカウント (サイト管理者を除く)';
