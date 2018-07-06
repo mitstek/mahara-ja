@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-06-20 14:32:00 UTC
+ * @updated    2018-07-06 03:56:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -147,6 +147,7 @@ $string['select'] = '選択';
 $string['tags'] = 'タグ';
 $string['tagsdesc'] = 'このアイテムに関してタグを検索または入力してください。';
 $string['tagsdescprofile'] = 'このアイテムに関してタグを検索または入力してください。「プロファイル」がタグ付けされたアイテムはあなたのサイドバーに表示されます。';
+$string['tagsdescblock'] = 'このブロックに関してタグを検索または入力してください';
 $string['viewtags'] = 'ページタグ';
 $string['youhavenottaggedanythingyet'] = 'あなたはまだ何もタグ付けしていません。';
 $string['mytags'] = 'マイタグ';
@@ -182,6 +183,8 @@ $string['tagfilter_blog'] = '日誌';
 $string['tagfilter_blogpost'] = '日誌エントリ';
 $string['tagfilter_plan'] = 'プラン';
 $string['tagfilter_task'] = 'プランタスク';
+$string['tagfilter_external'] = '外部';
+$string['tagfilter_resume'] = 'レジュメ';
 $string['edittags'] = 'タグを編集する';
 $string['selectatagtoedit'] = '編集するタグを選択してください';
 $string['edittag'] = '<a href="%s">%s</a> を編集する';
