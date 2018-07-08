@@ -712,9 +712,9 @@ $string['removeuserfrominstitution'] = 'このインスティテューション�
 $string['confirmremoveuserfrominstitution'] = '本当にこのインスティテューションからユーザを削除してもよろしいですか?';
 $string['usereditdescription'] = 'あなたはここでこのユーザアカウントの閲覧および詳細設定することができます。以下であなたは<a href="#suspend">このアカウントを利用停止または削除</a>することができます。また、<a href="#institutions">このユーザが関わっているインスティテューション内</a>で設定を変更することもできます。';
 $string['usereditwarning'] = '注意: アカウントの変更を保存することで (現在ログインしている場合) ユーザがログアウトされることになります。';
-$string['suspenduserdescription'] = 'アカウントの利用停止が解除されるまで利用停止ユーザはログインすることはできません。';
+$string['suspenduserdescription'] = 'アカウントの利用停止が解除されるまで利用停止ユーザはログインすることができません。';
 $string['deleteusernote'] = 'この処理は<b>元に戻すことができません</b>ので注意してください。';
-$string['youcannotadministerthisuser'] = 'あなたはこのユーザを管理できません。';
+$string['youcannotadministerthisuser'] = 'あなたはこのユーザを管理することはできません。';
 $string['userinstitutionjoined'] = 'ユーザがインスティテューション「 %s 」に追加されました。';
 $string['userinstitutionremoved'] = 'ユーザがインスティテューション「 %s 」から削除されました。';
 $string['userinstitutionupdated'] = 'インスティテューション「 %s 」のユーザ設定が更新されました。';
