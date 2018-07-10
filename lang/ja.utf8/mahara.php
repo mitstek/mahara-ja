@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-06 03:56:24 UTC
+ * @updated    2018-07-10 03:37:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -206,6 +206,7 @@ $string['allowinstitutiontagsdescription'] = '管理者はインスティテュ�
 $string['cantlistinstitutiontags'] = 'あなたはインスティテューションタグを一覧表示することはできません。';
 $string['createtag'] = 'タグを作成する';
 $string['deleteinstitutiontag'] = 'インスティテューションタグを削除する';
+$string['deleteinstitutiontagspecific'] = 'インスティテューションタグ「 %s 」を削除する';
 $string['editinstitutiontag'] = 'インスティテューションタグを編集する';
 $string['error:duplicatetag'] = 'インスティテューションタグはすでに存在します。';
 $string['error:emptytag'] = 'インスティテューションタグを空にすることはできません。';
@@ -218,7 +219,9 @@ $string['institutiontags'] = 'インスティテューションタグ';
 $string['institutiontagsdescription'] = 'インスティテューションタグはインスティテューションによって事前に定義されています。すべてのインスティテューションメンバーがインスティテューションタグを使用することができます。あなたは好きなだけタグを作成することができます。';
 $string['institutiontagsaved'] = 'インスティテューションタグが保存されました。';
 $string['notags'] = 'このインスティテューションにタグはありません。';
-$string['timesused'] = '使用回数:';
+$string['tag'] = 'タグ';
+$string['timesused'] = '使用回数';
+$string['usedtagscantbedeleted'] = '使用されているタグは削除できません。';
 $string['license'] = 'ライセンス';
 $string['licenseother'] = 'その他のライセンス (URLを入力してください)';
 $string['licenseotherurl'] = 'URLを入力する';

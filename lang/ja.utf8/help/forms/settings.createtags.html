@@ -1,0 +1,77 @@
+<!-- @license http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later -->
+<!-- @copyright For copyright information on Mahara, please see the README file distributed with this software. -->
+<h3>タグからページを作成する</h3>
+<p>あなたはタグを含むページのコンテンツを追加するためタグを選択することができます。</p>
+<p>あなたがタグ付けしたコンテンツ (アーティファクトおよびブロック) が結果としてページに含まれることになります。あなたはページのブロックを再配置することができます。</p>
+<p>例えばあなたが以下のようにタグ付けした場合:<p>
+<ul>
+<li>1つのイメージにタグ付けしてここでそのタグを選択した場合、ページにイメージブロックとして追加されます。</li>
+<li>3つのイメージに同じ2つのタグを付けてここでそのタグを選択した場合、イメージはイメージギャラリーに表示されます。</li>
+<li>1つのPDFにタグ付けしてここでそのタグを選択した場合、ページにPDFブロックとして追加されます。</li>
+<li>既存のブロックが別のページにある場合 (例「テキスト」ブロック)、このページにそのブロックがコピーされます。</li>
+</ul>
+<h4>コンテンツマッピング:</h4>
+<table>
+<tr>
+<th>タイプ</th>
+<th>カウント</th>
+<th>ブロック</th>
+</tr>
+<tr>
+<td rowspan="2" valign="top">イメージ</td>
+<td>1</td>
+<td valign="top">イメージ</td>
+</tr>
+<tr>
+<td valign="top">2+</td>
+<td valign="top">イメージギャラリースライドショー</td>
+</tr>
+<td rowspan="2" valign="top">PDF</td>
+<td valign="top">1</td>
+<td valign="top">PDFブロック</td>
+</tr>
+<tr>
+<td valign="top">2+</td>
+<td valign="top">ダウンロードできるファイル</td>
+</tr>
+<td valign="top">一般ファイル</td>
+<td valign="top">1+</td>
+<td>ダウンロードできるファイル</td>
+</tr>
+<tr>
+<td rowspan="2" valign="top">オーディオ/ビデオ</td>
+<td valign="top">1</td>
+<td valign="top">内部メディア</td>
+</tr>
+<tr>
+<td valign="top">2+</td>
+<td valign="top">ダウンロードできるファイル</td>
+</tr>
+<tr>
+<td valign="top">フォルダ</td>
+<td valign="top">1+</td>
+<td valign="top">フォルダごとのフォルダブロック</td>
+</tr>
+<tr>
+<td valign="top">日誌</td>
+<td valign="top">1+</td>
+<td valign="top">日誌ごとの日誌ブロック</td>
+</tr>
+<tr>
+<td valign="top">日誌エントリ</td>
+<td valign="top">1+</td>
+<td valign="top">タグ付けされた日誌エントリ</td>
+</tr>
+<tr>
+<td valign="top">ノート</td>
+<td valign="top">1+</td>
+<td valign="top">ノートごとのノートブロック</td>
+</tr>
+<tr>
+<td valign="top">プラン/タスク</td>
+<td valign="top">1+</td>
+<td valign="top">プラン 例) タグ付けされたタスクを含むプラン全体</td>
+</tr>
+</table>
+<p><strong>注意</strong>: 選択されたタグは初期ブロックをページに追加する場合のみ使用されます。後で他のコンテンツにタグ付けした場合、あなた自身でページにコンテンツを追加する必要があります。また、あなたがブロックを削除した場合、そのブロックが自動的に再度追加されることはありません。</p>
+<p>あなたが次回異なるタグ (または再度同じタグ) を選択した場合、新しいコンテンツがページに追加されます。</p>
