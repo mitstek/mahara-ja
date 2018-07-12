@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-08 07:24:44 UTC
+ * @updated    2018-07-12 02:41:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -835,7 +835,7 @@ $string['authplugin'] = '認証プラグイン';
 $string['deleteinstitution'] = 'インスティテューションを削除する';
 $string['deleteinstitutionconfirm'] = '本当にこのインスティテューションを削除してもよろしいですか?';
 $string['institutionstillhas'] = 'このインスティテューションにはまだ %s が登録されています。';
-$string['institutionauthinuseby'] = 'このインスティテューション認証はまだ %s によって使用されています。';
+$string['institutionauthinuseby'] = 'このインスティテューションの認証はまだ %s によって使用されています。';
 $string['institutiononly'] = 'インスティテューションのみ';
 $string['institutionaddedsuccessfully2'] = 'インスティテューションが正常に追加されました。';
 $string['institutiondeletedsuccessfully'] = 'インスティテューションが正常に削除されました。';
@@ -852,7 +852,7 @@ $string['institutionlanguage'] = '言語';
 $string['institutionlanguagedescription'] = 'このインスティテューションのユーザのデフォルト言語です。';
 $string['defaultlangforinstitution'] = '%s デフォルト';
 $string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
-$string['registrationallowed'] = 'ユーザ登録を許可する';
+$string['registrationallowed'] = '登録を許可する';
 $string['registrationalloweddescription5'] = 'ユーザは登録フォームを使用してこのインスティテューションに登録することができます。登録を無効にした場合、インスティテューションのメンバーシップをリクエストすることはできません。また、メンバーはインスティテューションを離れたり、自分のユーザアカウントを削除することはできません。';
 $string['registrationconfirm'] = '登録を確認する';
 $string['registrationconfirmdescription3'] = '登録はインスティテューション管理者によって承認される必要があります。あなたがこのオプションを変更できない場合、サイト管理者がすべてのインスティテューションに対してこのオプションを有効にすることを求めています。';
