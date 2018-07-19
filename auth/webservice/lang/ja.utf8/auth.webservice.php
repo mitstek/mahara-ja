@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-05-30 13:48:21 UTC
+ * @updated    2018-07-19 08:23:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,6 +18,7 @@ $string['title'] = 'ウェブサービス';
 $string['description'] = 'ウェブサービスのみのユーザをMaharaのデータベースで認証する';
 $string['webservicesconfig'] = '設定';
 $string['webservicesconfigdesc'] = 'ここであなたは様々なウェブサービスルールを変更すること、有効または無効にすることができます。';
+$string['webservicesconfigdescshort'] = 'あなたのサイトのウェブサービスアクセスを設定および管理します。';
 $string['webserviceconnectionsconfigdesc'] = '登録済みプラグインの接続オブジェクトをセットアップすることにより外部システムと通信することができます。';
 $string['completeregistration'] = '登録を完了する';
 $string['emailalreadytaken'] = 'このメールアドレスはすでにここで登録されています。';
@@ -122,7 +123,9 @@ $string['cannotfindimplfile'] = '外部関数の実装されたファイルを�
 $string['servicenamemustbeunique'] = 'この名称はすでに別のサービスグループで使用されています。';
 $string['serviceshortnamemustbeunique'] = 'この省略名はすでに別のサービスグループで使用されています。';
 $string['apptokens'] = 'アプリケーション接続';
+$string['apptokensdesc'] = 'ウェブサービスアクセスのトークンを生成します。';
 $string['connections'] = '接続マネージャ';
+$string['connectionsdesc'] = '既存のウェブサービス接続を管理します。';
 $string['servicetokens'] = 'サービスアクセストークンを管理する';
 $string['tokens'] = 'サービスアクセストークン';
 $string['users'] = 'サービスユーザ';
@@ -146,6 +149,7 @@ $string['oob'] = 'アウトオブバンドOAuth認証';
 $string['oobinfo'] = '以下のコードは許可されたデータにあなたの外部アプリケーションがアクセスするための認証コードです。続けるには関連付けられているアプリケーションの入力欄にコードをコピー＆ペーストしてください。';
 $string['instructions'] = 'インストラクション';
 $string['webservicelogs'] = 'ウェブサービスログ';
+$string['webservicelogsdesc'] = 'ウェブサービスのログを設定および表示します。';
 $string['webservicelogsnav'] = 'ログ';
 $string['timetaken'] = '所要時間';
 $string['timelogged'] = 'いつ';
@@ -197,6 +201,7 @@ $string['unabletoruntestclient'] = 'ウェブサービステストクライア�
 $string['accesstokens'] = 'OAuthアクセストークン';
 $string['notokens'] = 'あなたにはアプリケーショントークンがありません。';
 $string['externalapps'] = '外部アプリ';
+$string['externalappsdesc'] = 'ウェブサービスアクセスの外部アプリケーションを登録します。';
 $string['oauth1'] = 'OAuth1.x';
 $string['externalappsregister'] = '外部アプリ登録';
 $string['userapplications1'] = '外部アプリ設定';
@@ -305,6 +310,7 @@ $string['serviceshortnamedesc'] = 'このサービスグループに関するコ
 $string['servicecomponentnote'] = 'このサービスはコンポーネント「 %s 」の機能を提供します。';
 $string['simpleauthlog'] = '単純認証ログイン';
 $string['step'] = 'ステップ';
+$string['testclientdescshort'] = 'あなたのサイトに対して関数を実行することによりウェブサービスをテストします。';
 $string['testclientdescription'] = '* ウェブサービステストクライアントは関数を<strong>実際</strong>に<strong>実行</strong>します。あなたが分からない関数はテストしないでください。
 <br />
 * まだ既存のウェブサービス関数すべてはテストクライアントに実装されていません。
