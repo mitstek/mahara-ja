@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-11-16 07:07:25 UTC
+ * @updated    2018-07-19 08:02:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -87,6 +87,7 @@ $string['potentialviews'] = '潜在的ページ';
 $string['saveapply'] = '適用して保存する';
 $string['savecollection'] = 'コレクションを保存する';
 $string['smartevidence'] = 'スマートエビデンス';
+$string['smartevidencedesc'] = 'スマートエビデンスフレームワークを管理します。';
 $string['update'] = '更新';
 $string['usecollectionname'] = 'コレクション名を使用しますか?';
 $string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしたままにしてください。';

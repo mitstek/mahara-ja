@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-07 01:32:59 UTC
+ * @updated    2018-07-19 08:01:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,7 +19,9 @@ $string['Blogs'] = '日誌';
 $string['blog'] = '日誌';
 $string['blogs'] = '日誌';
 $string['siteblogs'] = 'サイト日誌';
+$string['siteblogsdesc'] = 'サイト日誌を作成および管理します。';
 $string['institutionblogs'] = 'インスティテューション日誌';
+$string['institutionblogsdesc'] = 'インスティテューション日誌を作成および管理します。';
 $string['groupblogs'] = 'グループ日誌';
 $string['addblog'] = '日誌を作成する';
 $string['addpost'] = '新しいエントリ';

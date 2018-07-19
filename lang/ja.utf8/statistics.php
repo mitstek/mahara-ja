@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-04-03 00:03:58 UTC
+ * @updated    2018-07-19 08:10:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -199,6 +199,7 @@ $string['admins'] = '管理者';
 $string['activeusers'] = 'アクティブユーザ';
 $string['logins'] = 'ログイン';
 $string['reports'] = 'レポート';
+$string['reportsdesc'] = 'ユーザのサイトおよび学習アナリティクスデータに関する統計を表示します。';
 $string['reportsfor'] = '%s のレポート';
 $string['reporttype'] = 'レポートタイプ';
 $string['reportconfig'] = 'レポート設定';

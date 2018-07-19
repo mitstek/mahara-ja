@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-06-01 00:53:09 UTC
+ * @updated    2018-07-19 08:16:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -136,5 +136,6 @@ $string['nomemcacheserversdefined'] = 'セッションハンドラ「 %s 」の�
 $string['memcacheusememcached'] = '「memcache」セッションストレージは廃止されました。「memcached」を使用してください。';
 $string['siteoutofsyncfor'] = 'このサイトには %s ファイルが示すものより新しいデータベース情報があります。';
 $string['updatesitetimezone'] = '現在のサイトのタイムゾーンを「管理 → サイト設定 → サイトオプション」で設定する必要があります。あなたのconfig.phpに「$cfg->dbtimezone」行がある場合、削除した後、サイトオプションで設定してください。';
+$string['pluginnotactive'] = 'プラグイン「 %s 」が有効にされていません。有効にするには「管理 → 拡張機能」に移動してください。';
 
 ?>
