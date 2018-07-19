@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-10 03:58:24 UTC
+ * @updated    2018-07-19 07:44:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -51,7 +51,7 @@ $string['allowcommentsonview1'] = 'ユーザがコメントを投稿できるよ
 $string['ownerformat'] = '氏名表示フォーマット';
 $string['ownerformatdescription'] = '他のユーザがあなたのページを閲覧する場合、あなたの名前をどのように表示しますか?';
 $string['createtags'] = 'タグから作成する';
-$string['createtagsdesc'] = 'あなたのページへの既存のコンテンツの取り出しに使用したいタグを検索または入力してください。タグ付けされたコンテンツが多い場合、これには少しだけ時間を要する場合があります。あなたはページのブロックを再配置および削除することができます。';
+$string['createtagsdesc1'] = 'あなたのページに自動的にコンテンツを取得するため検索するかタグを入力してください。あなたが2つ以上のタグを入力した場合、すべてのタグがタグ付けされたコンテンツのみページに表示されます。その後、あなたはブロックを再配置および削除することができます。';
 $string['anonymise'] = '匿名化する';
 $string['anonymisedescription'] = 'ページの作成者としてのあなたの氏名を他のユーザから隠します。必要であれば管理者はあなたの氏名を確認することができます。';
 $string['Locked'] = 'ロック';
