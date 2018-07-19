@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-19 12:40:00 UTC
+ * @updated    2018-07-19 12:50:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1128,7 +1128,7 @@ $string['showprogressbar'] = 'プロファイル完了を表示する';
 $string['progressbarsaved'] = 'プログレスバーが正常に保存されました。';
 $string['showprogressbardescription1'] = 'ユーザプロファイルで完了する必要のある内容に関してサイドバーとしてユーザにヒント付のプログレスバーを表示します。これには無効にするオプションがあります。';
 $string['progressbardisablednote'] = '<b>注意</b>: 現在、プロファイル完了は無効にされています。ユーザがプロファイル完了に関して進捗を追跡できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「ユーザ設定」セクションで有効にする必要があります。';
-$string['profilecompletiondesc'] = 'プロファイル完了が有効にされた場合、完了済みプロファイルに反映されるコンテンツを選択してください。';
+$string['profilecompletiondesc'] = 'プロファイル完了が有効にされている場合、完了済みプロファイルに反映されるコンテンツを選択してください。';
 $string['profilecompletenessdesc1'] = 'プロファイル完了ではあなたのユーザはプロファイルをどの程度完了しているか確認できるサイドバーのビジュアルインディケータを使用することができます。あなたはプロファイル完了に反映させるアーティファクトを選択することができます。他のすべてのアーティファクトを使用することができますが、完了カウントの要素とはなりません。';
 $string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックでプロファイル完了がどのように表示されるかプレビューすることができます。';
 $string['exporttoqueue'] = 'キューにエクスポートする';
