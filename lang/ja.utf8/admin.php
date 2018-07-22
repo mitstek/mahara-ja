@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-03 10:45:04 UTC
+ * @updated    2018-07-22 10:26:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -776,11 +776,11 @@ $string['membershipexpirydescription'] = 'ユーザがインスティテュー�
 $string['studentid'] = 'IDナンバー';
 $string['institutionstudentiddescription'] = 'インスティテューションを識別するための任意の識別子です。ユーザはこのフィールドを編集することはできません。';
 $string['userstodisplay'] = '表示するユーザ:';
-$string['institutionusersrequesters'] = 'インスティテューションのメンバーシップをリクエストしたユーザ';
-$string['institutionusersnonmembers'] = 'まだインスティテューションのメンバーシップをリクエストしていないユーザ';
-$string['institutionuserslastinstitution'] = 'インスティテューションを離れたユーザ';
-$string['institutionusersmembers'] = 'すでにインスティテューションのメンバーになっているユーザ';
-$string['institutionusersinvited'] = '招待されたユーザ';
+$string['institutionusersrequesters'] = 'インスティテューションのメンバーシップをリクエストした人';
+$string['institutionusersnonmembers'] = 'まだインスティテューションのメンバーシップをリクエストしていない人';
+$string['institutionuserslastinstitution'] = 'インスティテューションを離れた人';
+$string['institutionusersmembers'] = 'すでにインスティテューションのメンバーになっている人';
+$string['institutionusersinvited'] = '招待された人';
 $string['addnewmembers'] = '新しいメンバーを追加する';
 $string['usersrequested'] = 'メンバーシップをリクエストしたユーザ';
 $string['userstobeadded'] = 'メンバーとして追加されるユーザ';
