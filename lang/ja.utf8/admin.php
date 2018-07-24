@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-03 10:40:49 UTC
+ * @updated    2018-07-22 10:21:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -886,11 +886,11 @@ $string['membershipexpirydescription'] = 'ユーザがインスティテュー�
 $string['studentid'] = 'IDナンバー';
 $string['institutionstudentiddescription'] = 'インスティテューションを識別するための任意の識別子です。ユーザはこのフィールドを編集することはできません。';
 $string['userstodisplay'] = '表示するユーザ:';
-$string['institutionusersrequesters'] = 'インスティテューションのメンバーシップをリクエストしたユーザ';
-$string['institutionusersnonmembers'] = 'まだインスティテューションのメンバーシップをリクエストしていないユーザ';
-$string['institutionuserslastinstitution'] = 'インスティテューションを離れたユーザ';
-$string['institutionusersmembers'] = 'すでにインスティテューションのメンバーになっているユーザ';
-$string['institutionusersinvited'] = '招待されたユーザ';
+$string['institutionusersrequesters'] = 'インスティテューションのメンバーシップをリクエストした人';
+$string['institutionusersnonmembers'] = 'まだインスティテューションのメンバーシップをリクエストしていない人';
+$string['institutionuserslastinstitution'] = 'インスティテューションを離れた人';
+$string['institutionusersmembers'] = 'すでにインスティテューションのメンバーになっている人';
+$string['institutionusersinvited'] = '招待された人';
 $string['addnewmembers'] = '新しいメンバーを追加する';
 $string['usersrequested'] = 'メンバーシップをリクエストしたユーザ';
 $string['userstobeadded'] = 'メンバーとして追加されるユーザ';
@@ -926,7 +926,7 @@ $string['institutionusersupdated_declineRequestFromUser'] = 'リクエストが�
 $string['institutionusersupdated_removeMembers'] = 'ユーザが削除されました。';
 $string['institutionusersupdated_inviteUser'] = '招待状が送信されました。';
 $string['institutionusersupdated_uninvite_users'] = '招待が取り消されました。';
-$string['maxuseraccounts'] = '許可する最大ユーザアカウント数';
+$string['maxuseraccounts'] = '許可される最大ユーザアカウント数';
 $string['maxuseraccountsdescription'] = 'インスティテューションに関連付けることのできる最大ユーザアカウント数です。制限がない場合、このフィールドは空白にしてください。';
 $string['institutionmaxusersexceeded'] = 'このインスティテューションはユーザ数が上限に達しました。このユーザを追加できるようにするにはあなたはこのインスティテューションが許可するユーザ数を増やす必要があります。';
 $string['institutionuserserrortoomanyusers'] = 'ユーザは追加されませんでした。メンバー数はインスティテューションで許可される最大ユーザ数を超えることはできません。あなたは少数のユーザを追加するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼することができます。';
