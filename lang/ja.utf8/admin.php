@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-24 13:21:24 UTC
+ * @updated    2018-07-29 09:21:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -977,7 +977,7 @@ $string['Staff'] = 'スタッフ';
 $string['Admins'] = '管理者';
 $string['noinstitutions'] = 'インスティテューションはありません。';
 $string['noinstitutionsdescription'] = 'あなたがユーザをインスティテューションと関連付けたい場合、最初にインスティテューションを作成してください。';
-$string['noinstitutionreports'] = 'インスティテューションレポートを閲覧できません。';
+$string['noinstitutionreports'] = 'インスティテューションレポートを表示できません。';
 $string['noinstitutionreportsdescription'] = 'サイトがスタッフにインスティテューションレポートを閲覧できるようにするにはスタッフレポートアクセスを有効にする必要があります。サイト管理者は<a href="%sadmin/site/options.php">サイト設定</a>の「ユーザ設定」でこの設定を有効にすることができます。';
 $string['noinstitutionstaticpages'] = 'あなたにはインスティテューション固定ページを編集するパーミッションがないかまだインスティテューションが作成されていません。';
 $string['noinstitutionstaticpagesadmin'] = 'あなたがサイト管理者の場合、<a href="%s">サイト設定</a>でデフォルト固定ページを編集してください。';
