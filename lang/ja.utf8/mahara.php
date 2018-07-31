@@ -72,7 +72,7 @@ $string['tags'] = 'タグ';
 $string['tagsdesc'] = 'このアイテムに関してカンマで区切ったタグを入力してください。';
 $string['tagsdescprofile'] = 'このアイテムに関してカンマで区切ったタグを入力してください。「プロファイル」タグが付けられたアイテムはあなたのサイドバーに表示されます。';
 $string['youhavenottaggedanythingyet'] = 'あなたはまだ何もタグ付けしていません。';
-$string['selfsearch'] = 'マイポートフォリオを検索する';
+$string['selfsearch'] = '私のポートフォリオを検索する';
 $string['quota'] = 'クオータ';
 $string['quotausage'] = 'あなたの使用済みクオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
 $string['updatefailed'] = 'アップデートに失敗しました。';
