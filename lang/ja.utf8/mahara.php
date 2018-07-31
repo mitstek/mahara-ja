@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-20 03:42:05 UTC
+ * @updated    2018-07-31 21:48:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -199,7 +199,7 @@ $string['relatedtags'] = '%s のタグ付きコンテンツ';
 $string['relatedtagsinview'] = '%s のタグ付きコンテンツ (ポートフォリオ「 %s 」)';
 $string['norelatedtaggeditemstoview'] = 'あなたが閲覧できるものはありません (タグ「 %s」 オーナー「 %s 」)。';
 $string['norelatedtaggeditemstoviewfiltered'] = 'あなたが閲覧できる %s はありません (タグ「 %s」 オーナー「 %s 」)。';
-$string['selfsearch'] = 'マイポートフォリオを検索する';
+$string['selfsearch'] = '私のポートフォリオを検索する';
 $string['resultsperpage'] = '1ページあたりの結果数';
 $string['allowinstitutiontags'] = 'インスティテューションタグを許可する';
 $string['allowinstitutiontagsdescription'] = '管理者はインスティテューションメンバーが使用できる一連のタグを定義することができます。';

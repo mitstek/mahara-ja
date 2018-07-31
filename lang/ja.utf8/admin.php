@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-31 08:15:01 UTC
+ * @updated    2018-07-31 21:47:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -391,7 +391,7 @@ $string['setsiteoptionsfailed'] = '%s オプションの設定に失敗しまし
 $string['showonlineuserssideblock'] = 'オンラインユーザを表示する';
 $string['showonlineuserssideblockdescriptionmessage1'] = 'ユーザにオンラインユーザ一覧のサイドバーが表示されます。';
 $string['showselfsearchsideblock1'] = 'ポートフォリオ検索';
-$string['showselfsearchsideblockdescription1'] = 'サイト内のいくつかの場所に「マイポートフォリオを検索する」サイドバーが表示されます。';
+$string['showselfsearchsideblockdescription1'] = 'サイト内のいくつかの場所に「私のポートフォリオを検索する」サイドバーが表示されます。';
 $string['showtagssideblock1'] = 'タグクラウド';
 $string['showtagssideblockdescription2'] = 'サイト内のいくつかの場所に最も使用されたタグ一覧のサイドバーが表示されます。';
 $string['simple'] = 'シンプル';
