@@ -137,7 +137,7 @@ $string['confirmdeletetag'] = '本当にあなたのポートフォリオ内す�
 $string['deletetagdescription'] = 'あなたのポートフォリオ内すべてのアイテムからこのタグを削除します。';
 $string['tagupdatedsuccessfully'] = 'タグが正常に更新されました。';
 $string['tagdeletedsuccessfully'] = 'タグが正常に削除されました。';
-$string['selfsearch'] = 'マイポートフォリオを検索する';
+$string['selfsearch'] = '私のポートフォリオを検索する';
 $string['resultsperpage'] = '1ページあたりの結果数';
 $string['quota'] = 'クオータ';
 $string['quotausage'] = 'あなたの使用済みクオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
