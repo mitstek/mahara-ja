@@ -864,7 +864,7 @@ $string['noinstitutionstaticpages'] = 'あなたにはインスティテュー�
 $string['noinstitutionstaticpagesadmin'] = 'あなたがサイト管理者の場合、<a href="%s">サイト設定</a>でデフォルト固定ページを編集してください。';
 $string['Lockedfields'] = 'ロックフィールド';
 $string['disabledlockedfieldhelp'] = '注意: 無効にされたチェックボックスはインスティテューション設定「 %s 」でロックされたプロファイルフィールドです。これらのプロファイルフィールドはサイトレベルでロックされているためここでロック解除することはできません。';
-$string['defaultinstitutionquotadescription'] = 'あなたはこのインスティテューションの新しいユーザに割り当てられるディスクスペース総量を設定することができます。このインスティテューションに関する既存ユーザのクオータは変更されません。';
+$string['defaultinstitutionquotadescription'] = 'あなたはこのインスティテューションの新しいユーザにクオータとして割り当てられるディスクスペース総量を設定することができます。';
 $string['updateinstitutionuserquotasdesc'] = 'この設定を有効にした場合、あなたが上で選択したデフォルトクオータが既存のメンバーすべてに適用されます。';
 $string['approve'] = '承認';
 $string['deny'] = '拒否';
@@ -879,7 +879,7 @@ $string['pendingregistrationspagedescription'] = '<p>このページでは自己
 
 <p>登録を承認することであなたはユーザをインスティテューションのメンバーに追加することになります。承認されたユーザにはアカウントの有効化に関してさらなるインストラクションを記載したメールが送信されます。登録を拒否した場合、申請が拒否された旨の自動返信メールが送信されます。</p>';
 $string['nosuchinstitution'] = 'そのようなインスティテューションはありません。';
-$string['registrationapprovedsuccessfully'] = '登録は正常に承認されました。';
+$string['registrationapprovedsuccessfully'] = '登録が正常に承認されました。';
 $string['registrationdeniedreason'] = '拒否理由';
 $string['registrationdeniedreasondesc'] = '申請拒否理由に関するユーザ向けの情報です。';
 $string['registrationdeniedsuccessful'] = '登録が正常に拒否されました。';
