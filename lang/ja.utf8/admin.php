@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-31 21:47:47 UTC
+ * @updated    2018-08-05 10:20:40 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1024,7 +1024,7 @@ $string['bulkexport'] = 'ユーザをエクスポートする';
 $string['bulkexportempty'] = 'エクスポートに合致するユーザはありません。ユーザ名のリストを再度確認してください。';
 $string['bulkexportinstitution'] = 'すべてのユーザをエクスポートするインスティテューション';
 $string['bulkexporttitle'] = 'ユーザをLeap2Aファイルにエクスポートする';
-$string['bulkexportdescription'] = 'エクスポートするインスティテューションを選択、<b>または</b>ユーザ名のリストを指定してください:';
+$string['bulkexportdescription'] = 'エクスポートするインスティテューションを選択<b>または</b>ユーザ名のリストを指定してください:';
 $string['bulkexportusernames'] = 'エクスポートするユーザ名';
 $string['bulkexportusernamesdescription'] = 'データとともにエクスポートされるユーザのリストです (1行あたり1ユーザ)。';
 $string['couldnotexportusers'] = '次のユーザをエクスポートすることができませんでした: %s';
@@ -1043,7 +1043,7 @@ $string['getreports'] = 'レポートを取得する';
 $string['selectuser'] = 'ユーザ「 %s 」を選択する';
 $string['bulkactions'] = 'バルク処理';
 $string['editselectedusersdescription1'] = 'あなたがユーザ検索ページで選択したユーザの利用停止、削除または認証方法を変更します。';
-$string['uneditableusers'] = 'あなたは編集することのできない %s ユーザを選択しました。選択されたユーザはリストから取り除かれます。';
+$string['uneditableusers'] = 'あなたは編集することのできない %s ユーザを選択しました。選択されたユーザはリストから取り除かれました。';
 $string['exportusersascsv'] = 'ユーザをCSVフォーマットでエクスポートする';
 $string['downloadusersascsv'] = 'CSVフォーマットのユーザ';
 $string['downloaddataascsv'] = 'CSVフォーマットの %s 統計';
