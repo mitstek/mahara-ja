@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-08-05 10:20:40 UTC
+ * @updated    2018-08-07 07:59:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1065,7 +1065,7 @@ $string['userreportsdescription'] = 'あなたが検索ページで選択した�
 $string['unabletodeleteself1'] = 'あなた自身を削除することはできません。';
 $string['unabletodeletealladmins1'] = 'あなたはサイト管理者すべてを削除することはできません。';
 $string['notificationssaved'] = '通知設定が保存されました。';
-$string['onlyshowingfirst'] = '最初に表示';
+$string['onlyshowingfirst'] = '最初に表示する';
 $string['resultsof'] = '検索結果';
 $string['deprecated'] = '- 廃止予定';
 $string['installed'] = 'インストール済み';
@@ -1096,7 +1096,7 @@ $string['groupdelete'] = '削除';
 $string['managegroupquotadescription1'] = 'このグループのグループファイルクオータを変更する場合、このフォームを使用してください。';
 $string['managegroupdescription1'] = 'このグループの管理者を昇格および降格する場合、このフォームを使用してください。あなたがグループ管理者を削除した場合、そのユーザはグループメンバーとして残ります。';
 $string['userscandisabledevicedetection'] = 'ユーザがデバイス検出を無効にできる';
-$string['userscandisabledevicedetectiondescription1'] = 'ユーザがこのサイトを閲覧する場合のモバイルデバイス検出を無効にできるようにします。';
+$string['userscandisabledevicedetectiondescription1'] = 'ユーザがこのサイトを閲覧するときにモバイルデバイス検出を無効にできるようにします。';
 $string['loggedinfilter'] = 'ログイン日時でフィルタする:';
 $string['anyuser'] = 'すべてのユーザ';
 $string['usershaveloggedin'] = 'ログインしたことのあるユーザ';
