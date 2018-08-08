@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-19 07:44:04 UTC
+ * @updated    2018-08-08 05:59:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -126,6 +126,10 @@ $string['friends'] = 'フレンド';
 $string['groups'] = 'グループ';
 $string['users'] = 'ユーザ';
 $string['everyoneingroup'] = 'グループのユーザすべて';
+$string['nospecialrole'] = '特別ロールなし';
+$string['peer'] = 'ピア';
+$string['manager'] = 'マネージャ';
+$string['peermanager'] = 'ピアおよびマネージャ';
 $string['token'] = 'シークレットURL';
 $string['editsecreturlaccess'] = 'シークレットURLアクセスを編集する';
 $string['editsecreturlaccessfor'] = 'シークレットURLアクセスを編集する (ID %s)';
