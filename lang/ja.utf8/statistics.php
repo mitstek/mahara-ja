@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-19 08:10:23 UTC
+ * @updated    2018-08-10 00:46:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -347,6 +347,25 @@ $string['reportdesccontent'] = '<ul>
 <li>修正に関わったユニークユーザ数</li>
 <li>合計内のユニークユーザ数</li>
 </ul>';
+$string['reportdescobjectionable'] = '<ul>
+<li>ページタイトル</li>
+<li>アーティファクトタイトル</li>
+<li>好ましくないコンテンツの報告者</li>
+<li>報告者名</li>
+<li>報告者名説明</li>
+<li>報告日</li>
+<li>レビュー者名</li>
+<li>レビュー説明</li>
+<li>レビュー日</li>
+<li>報告ステータス</li>
+</ul>';
+$string['reporter'] = '報告者';
+$string['review'] = 'レビュー';
+$string['reviewer'] = 'レビュー者';
+$string['contentobjectionablereports'] = '好ましくないコンテンツ';
+$string['status.0'] = '&nbsp;';
+$string['status.1'] = '要管理者によるレビュー';
+$string['status.2'] = '要ユーザによる変更';
 $string['informationreports'] = 'インフォメーション概要';
 $string['reportdescinformation'] = '<ul>
 <li>作成日</li>

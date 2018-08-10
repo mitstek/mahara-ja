@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-31 21:48:12 UTC
+ * @updated    2018-08-10 01:21:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -77,9 +77,35 @@ $string['disabled'] = '無効';
 $string['complaint'] = 'クレーム';
 $string['notifyadministrator'] = '管理者に通知する';
 $string['notifyadministratorconfirm'] = '本当にこのページを好ましくないコンテンツを含んでいるとして報告しますか?';
+$string['notifyadministratorreview'] = '本当にこのページを再度管理者がレビューする準備ができましたか?';
 $string['notobjectionable'] = '好ましくないコンテンツではない';
 $string['reportobjectionablematerial'] = '好ましくないコンテンツを報告する';
+$string['objectionablematerialreported'] = '好ましくないコンテンツ報告';
+$string['objectionablematerialreportedowner'] = '誰かがあなたのページに好ましくないコンテンツが含まれていると報告しました。あなたのページをレビューして必要に応じて調整してください。';
+$string['objectionablematerialreportedreply'] = 'あなたが変更した場合、または詳しい説明を求める場合、管理者に通知するため「好ましくないコンテンツをレビューする」ボタンをクリックしてください。';
+$string['objectionablematerialreportreplied'] = '管理者がページをレビューしましたがまだ好ましくないコンテンツが含まれているようです。詳細情報はあなたの通知を確認してください。あなたは変更して「好ましくないコンテンツをレビューする」ボタンをクリックすることにより管理者にメッセージを送信することができます。または詳しい説明を求めることができます。';
+$string['objectionreviewsent'] = '異議レビューがページオーナーに送信されました。あなたが調整して別のレビューを送信したい場合、「まだ好ましくない」をクリックしてください。';
+$string['lastobjection'] = '最新異議';
+$string['objectionnotreviewed'] = '異議レビュー未了';
+$string['objectionnotreviewedreply'] = 'レビュー未了の異議に返信する:
+
+%s';
+$string['lastobjectionartefact'] = '「 %s 」への最新の異議';
+$string['replyingtoobjection'] = '異議への返信:
+「 %s 」
+
+%s';
 $string['reportsent'] = 'あなたの報告が送信されました。';
+$string['reviewrequestsent'] = 'あなたのレビューリクエストが送信されました。';
+$string['stillobjectionable'] = 'まだ好ましくない';
+$string['objectionreview'] = '好ましくないコンテンツをレビューする';
+$string['objectionreviewonview'] = 'ページでのみ好ましくないコンテンツへ返信することができます。';
+$string['reviewcomplaint'] = 'クレームのレビュー';
+$string['reviewcomplaintdesc'] = 'あなたが作成者に何を変更すべきか詳細を伝えるためのメッセージを入力してください。フィールドを空白にした場合、代わりにオリジナルのクレームが送信されます。';
+$string['reviewnotification'] = 'ポートフォリオをレビューしてまだ好ましくないコンテンツが存在していることを確認するよう管理者に通知されました。';
+$string['reviewnotificationdesc'] = 'まだ好ましくないコンテンツが存在している場合、レビューしてください。';
+$string['removeaccess'] = 'アクセスを停止する';
+$string['removeaccessdesc'] = '好ましくない内容が削除されるまでこのページ (およびページがコレクション内にある場合はコレクション) へのアクセスをすぐに停止します。';
 $string['tabs'] = 'タブ';
 $string['tab'] = 'タブ';
 $string['selected'] = '選択済み';

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-18 05:55:29 UTC
+ * @updated    2018-08-10 00:34:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -118,6 +118,48 @@ $string['objectionablecontentviewartefacttext'] = '「  %s (%s)  」の好まし
 %s
 報告者のプロファイルを閲覧するには次のリンクをクリックしてください:
 %s';
+$string['objectionablereviewview'] = 'ページ「 %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュー';
+$string['objectionablereviewviewartefact'] = 'ページ「 %s - %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュー';
+$string['objectionablereviewviewhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュー<br />%s</div>
+
+<div style="margin: 1em 0;">%s</div>
+
+<div style="font-size: smaller; border-top: 1px solid #999;">
+<p>リクエスト対象: <a href="%s">%s</a></p>
+<p>リクエスト者: <a href="%s">%s</a></p>
+</div>';
+$string['objectionablereviewviewtext'] = '「 %s 」の好ましくないコンテンツのレビュー - リクエスト者: %s
+%s
+------------------------------------------------------------------------
+
+%s
+
+------------------------------------------------------------------------
+ページを閲覧するには次のリンクをクリックしてください:
+%s
+オーナーのプロファイルを閲覧するには次のリンクをクリックしてください:
+%s';
+$string['objectionablereviewviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s - %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュー<br />%s</div>
+
+<div style="margin: 1em 0;">%s</div>
+
+<div style="font-size: smaller; border-top: 1px solid #999;">
+<p>リクエスト対象: <a href="%s">%s</a></p>
+<p>リクエスト者: <a href="%s">%s</a></p>
+</div>';
+$string['objectionablereviewviewartefacttext'] = '「 %s - %s 」の好ましくないコンテンツのレビュー - リクエスト者: %s
+%s
+------------------------------------------------------------------------
+
+%s
+
+------------------------------------------------------------------------
+ページを閲覧するには次のリンクをクリックしてください:
+%s
+オーナーのプロファイルを閲覧するには次のリンクをクリックしてください:
+%s';
+$string['stillobjectionablecontent'] = 'コンテンツには好ましくない内容が含まれています。';
+$string['stillobjectionablecontentsuspended'] = '好ましくないコンテンツが解決されるまでページへのアクセスは一時的に停止されています。';
 $string['newgroupmembersubj'] = '%s がグループメンバーになりました。';
 $string['removedgroupmembersubj'] = '%s はグループメンバーではなくなりました。';
 $string['addtowatchlist'] = 'ウォッチリストに追加する';

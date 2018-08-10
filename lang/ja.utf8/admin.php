@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-08-07 07:59:51 UTC
+ * @updated    2018-08-10 00:39:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1104,6 +1104,8 @@ $string['usershaveneverloggedin'] = 'ログインしたことのないユーザ'
 $string['usershaveloggedinsince'] = '次の日時以降ログインしたことのあるユーザ';
 $string['usershavenotloggedinsince'] = '次の日時以降ログインしたことのないユーザ';
 $string['duplicateemailfilter1'] = '重複メールアドレス';
+$string['objectionable'] = '好ましくないコンテンツ';
+$string['objectionablefilter'] = '好ましくないコンテンツの人';
 $string['noemailfound'] = 'メールアドレスが見つかりませんでした。';
 $string['lastlogin'] = '最終ログイン';
 $string['masqueradingreasonrequired'] = 'マスカレーディングの理由を要求する';

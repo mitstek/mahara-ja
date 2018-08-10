@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-08-09 04:52:25 UTC
+ * @updated    2018-08-10 00:35:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -82,6 +82,7 @@ $string['accessuntildate3'] = '%s 以降、誰もこのページを閲覧でき�
 $string['accessbetweendates3'] = '%s 以前または %s 以降、誰もこのページを閲覧できません。';
 $string['artefactsinthisview'] = 'このページのアーティファクト';
 $string['whocanseethisview'] = '誰がこのページを閲覧できますか';
+$string['pending'] = 'レビュー中のポートフォリオ';
 $string['view'] = 'ページ';
 $string['panelmenu'] = 'メニュー';
 $string['vieworcollection'] = 'ページまたはコレクション';
