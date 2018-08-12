@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-08-10 00:39:36 UTC
+ * @updated    2018-08-12 11:36:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1122,7 +1122,7 @@ $string['masquerader'] = 'マスカレーディング管理者';
 $string['masqueradee'] = 'ユーザ';
 $string['nomasquerades'] = 'マスカレーディングセッションのロギングが有効にされているため別のユーザとしてマスカレードした管理者はいません。';
 $string['loginaslog'] = 'マスカレーディングセッション';
-$string['masqueradingnotloggedwarning'] = '<b>注意</b>: マスカレーディングセッションのロギングは現在無効にされています。このテーブルのデータを閲覧するには管理者が「 <a href="%sadmin/site/options.php">サイト設定</a> 」内の「ロギング設定」を有効にする必要があります。';
+$string['masqueradingnotloggedwarning'] = '<b>注意</b>: マスカレーディングセッションのロギングは現在無効にされています。このテーブルのデータを閲覧するには管理者が「 <a href="%sadmin/site/options.php">サイト設定</a> 」の「ロギング設定」を有効にする必要があります。';
 $string['masqueradenotificationsubject'] = '管理者があなたとしてログインしました。';
 $string['masqueradenotificationnoreason'] = '管理者「 %s 」が %s のあなたのアカウントにログインしました。';
 $string['masqueradenotificationreason'] = '管理者「 %s 」が %s のあなたのアカウントにログインしました。理由は次のとおりです: %s';
@@ -1135,7 +1135,7 @@ $string['profilecompletiondesc'] = 'プロファイル完了が有効にされ�
 $string['profilecompletenessdesc1'] = 'プロファイル完了ではあなたのユーザはプロファイルをどの程度完了しているか確認できるサイドバーのビジュアルインディケータを使用することができます。あなたはプロファイル完了に反映させるアーティファクトを選択することができます。他のすべてのアーティファクトを使用することができますが、完了カウントの要素とはなりません。';
 $string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックでプロファイル完了がどのように表示されるかプレビューすることができます。';
 $string['exporttoqueue'] = 'キューにエクスポートする';
-$string['exporttoqueuedescription2'] = 'サーバ負荷管理を改善するためユーザポートフォリオのLeap2Aによるエクスポートに関してエクスポートキューが処理するようにします。';
+$string['exporttoqueuedescription2'] = 'サーバ負荷管理を改善するためユーザポートフォリオのLeap2Aによるエクスポートをエクスポートキューが処理するようにします。';
 $string['validating'] = 'データの確認中 ...';
 $string['checkingupdates'] = '更新データの確認中 ...';
 $string['committingchanges'] = '変更の保存中 ...';
@@ -1157,7 +1157,7 @@ $string['cli_close_site_info'] = 'このコマンドラインPHPスクリプト�
 $string['cli_close_site_siteclosed'] = 'メンテナンスのためサイトがクローズされました。';
 $string['cli_close_site_siteopen'] = 'サイトがオープンされました。';
 $string['cli_backupdir_notwritable'] = '言語バックアップディレクトリ「 %s 」に書き込み権がありません。';
-$string['cli_langpack'] = '言語コードによるリストアップ 例) 「ja,de,pt_BR,fr」';
+$string['cli_langpack'] = '言語コード一覧 例) 「ja,de,pt_BR,fr」';
 $string['cli_langpack_backup'] = '任意: アップデートの前に言語ディレクトリをバックアップします。';
 $string['cli_langpack_backup_done'] = '言語「 %s 」のバックアップを完了しました。';
 $string['cli_langpack_backup_failed'] = '*** 警告 *** 「 %s 」のバックアップを作成できません。';
