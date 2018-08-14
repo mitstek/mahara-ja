@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-08-12 11:36:52 UTC
+ * @updated    2018-08-14 01:34:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1200,17 +1200,17 @@ $string['cli_unabletoupdatecron'] = '検索cronデータベースレコードを
 $string['cli_problemindexing'] = 'インデックス化中に問題が発生しました。';
 $string['cli_done'] = 'インデックス化を完了しました。';
 $string['cli_param_dryrun'] = 'ドライランで何が起きるか表示します。デフォルトで「true」が設定されています。実際にデータベースを更新するには「-d=false」を設定してください。';
-$string['cli_deleteinactiveusers_beforedate'] = 'この日付より最終ログイン日が前のユーザを削除します。日付には次のような日時ストリングを使用することができます: 「2018-02-25」または「-6 months」';
+$string['cli_deleteinactiveusers_beforedate'] = '最終ログイン日がこの日付より前のユーザを削除します。日付には次のような日時ストリングを使用することができます: 「2018-02-25」または「-6 months」';
 $string['cli_deleteinactiveusers_limit'] = 'それぞれの削除で処理するユーザ数を制限します。';
 $string['cli_deleteinactiveusers_cleanusers'] = '同様に「usr」テーブルからユーザの削除を試みます。';
-$string['cli_deleteinactiveusers_info'] = 'このコマンドラインPHPスクリプトであなたは古いユーザを削除することができます。ログインしていないかフォーラムに一度も投稿していないユーザのみ処理されます。';
+$string['cli_deleteinactiveusers_info'] = 'あなたはこのコマンドラインPHPスクリプトで古いユーザを削除することができます。ログインしていないかフォーラムに一度も投稿していないユーザのみ処理されます。';
 $string['cli_deleteinactiveusers_neverloggedin'] = '管理者によって設定されて一度もログインしていなユーザを削除します。';
 $string['cli_param_baddate'] = '提供された日付「 %s 」は有効ではありません。';
 $string['cli_deleteinactiveusers_usercount'] = '削除対象ユーザ数: %s';
 $string['cli_deleteinactiveusers_userunabletoclean'] = 'ユーザ「 %s 」(ID %s) を完全に削除することはできません。';
 $string['cli_deleteinactiveusers_userunabletodelete'] = 'ユーザ「 %s 」(ID %s) を削除できません。';
 $string['cli_deleteinactiveusers_nouserstodelete'] = '削除するユーザはありません。';
-$string['cli_deleteinactiveusers_onlydryrun1'] = 'これは以下の設定によるドライランのみ実行します。
+$string['cli_deleteinactiveusers_onlydryrun1'] = 'ここでは以下の設定によるドライランのみ実行します。
 インスティテューション: %s
 グループ: %s
 次の日付以前: %s
@@ -1221,7 +1221,7 @@ $string['cli_deleteinactivegroups_beforedate'] = 'この日付より最終ログ
 $string['cli_deleteinactivegroups_limit'] = 'それぞれの削除で処理するグループ数を制限します。';
 $string['cli_deleteinactivegroups_cleangroups'] = '同様に「group」テーブルからユーザの削除を試みます。';
 $string['cli_deleteinactivegroups_onlyadmins'] = 'オーナー/管理者が1名のみのグループも含みます。';
-$string['cli_deleteinactivegroups_onlydryrun'] = 'これは以下の設定によるドライランのみ実行します。
+$string['cli_deleteinactivegroups_onlydryrun'] = 'ここでは以下の設定によるドライランのみ実行します。
 インスティテューション: %s
 次の日付以前: %s
 「group」テーブルから削除するユーザ数: %s
