@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-10-06 04:06:59 UTC
+ * @updated    2018-08-17 15:17:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -31,8 +31,8 @@ $string['showdescriptions'] = '説明を表示する';
 $string['showdescriptionsdescription'] = 'それぞれのイメージに説明を表示する場合、このオプションを有効にしてください。';
 $string['cannotdisplayslideshow'] = 'スライドショーを表示できません。';
 $string['gallerysettings'] = 'ギャラリー設定';
-$string['useslimbox2'] = 'Slimbox 2を使用する';
-$string['useslimbox2desc2'] = 'あなたのギャラリーにSlimbox 2を使用します。あなたのギャラリーのイメージをクリックした場合、現在のページにオーバーレイ表示されます。';
+$string['usefancybox'] = 'Fancybox 3を使用する';
+$string['usefancyboxdesc'] = 'あなたのギャラリーにFancybox 3を使用します。あなたのギャラリーのイメージをクリックした場合、現在のページにオーバーレイ表示されます。';
 $string['photoframe'] = 'フォトフレームを使用する';
 $string['photoframedesc2'] = 'ギャラリー内のそれぞれの写真のサムネイルの周りにフレームが描画されます。';
 $string['previewwidth'] = '最大写真幅';
@@ -53,5 +53,16 @@ $string['panoramiouserphotos'] = 'Panoramioユーザ写真';
 $string['picasaalbums'] = 'Picasaアルバム';
 $string['windowslivephotoalbums'] = 'Windows Liveフォトギャラリーアルバム';
 $string['externalnotsupported'] = 'あなたが提供した外部URLはサポートされていません。';
+$string['CLOSE'] = '閉じる';
+$string['NEXT'] = '次へ';
+$string['PREV'] = '前へ';
+$string['ERROR'] = 'リクエストされたコンテンツを読み込むことができません。<br />後で再度お試しください。';
+$string['PLAY_START'] = 'スライドショーを開始する';
+$string['PLAY_STOP'] = 'スライドショーを一時停止する';
+$string['FULL_SCREEN'] = 'フルスクリーン';
+$string['THUMBS'] = 'サムネイル';
+$string['DOWNLOAD'] = 'ダウンロード';
+$string['SHARE'] = '共有';
+$string['ZOOM'] = 'ズーム';
 
 ?>
