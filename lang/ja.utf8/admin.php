@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-08-14 01:34:29 UTC
+ * @updated    2018-08-19 07:50:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1216,11 +1216,11 @@ $string['cli_deleteinactiveusers_onlydryrun1'] = 'ここでは以下の設定に
 次の日付以前: %s
 「usr」テーブルから削除するユーザ数: %s
 未ログイン数: %s';
-$string['cli_deleteinactivegroups_info'] = 'このコマンドラインPHPスクリプトではあなたが古いグループを削除することができます。現在メンバーがいないグループのみに動作します。「onlyadmins」フラグが設定された場合、オーナー/管理者が1名のみのグループを対象に含むことができます。';
-$string['cli_deleteinactivegroups_beforedate'] = 'この日付より最終ログイン日が前のグループを削除します。日付には次のような日時ストリングを使用することができます: 「2018-02-25」または「-6 months」';
+$string['cli_deleteinactivegroups_info'] = 'このコマンドラインPHPスクリプトではあなたが古いグループを削除することができます。これは現在メンバーがいないグループのみに動作します。「onlyadmins」フラグが設定された場合、オーナー/管理者が1名のみのグループを対象に含むことができます。';
+$string['cli_deleteinactivegroups_beforedate'] = 'この日付より最終修正日が前のグループを削除します。日付には次のような日時ストリングを使用することができます: 「2018-02-25」または「-6 months」';
 $string['cli_deleteinactivegroups_limit'] = 'それぞれの削除で処理するグループ数を制限します。';
-$string['cli_deleteinactivegroups_cleangroups'] = '同様に「group」テーブルからユーザの削除を試みます。';
-$string['cli_deleteinactivegroups_onlyadmins'] = 'オーナー/管理者が1名のみのグループも含みます。';
+$string['cli_deleteinactivegroups_cleangroups'] = '同時に「group」テーブルからユーザの削除を試みます。';
+$string['cli_deleteinactivegroups_onlyadmins'] = 'オーナー/管理者のみがメンバーのグループも含みます。';
 $string['cli_deleteinactivegroups_onlydryrun'] = 'ここでは以下の設定によるドライランのみ実行します。
 インスティテューション: %s
 次の日付以前: %s
