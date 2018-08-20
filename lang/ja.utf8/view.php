@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-08-10 00:35:37 UTC
+ * @updated    2018-08-20 01:50:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -102,7 +102,7 @@ $string['nobodycanseethisview2'] = 'あなたのみこのページを閲覧で�
 $string['noviews1'] = 'ページまたはコレクションはありません。';
 $string['nviews'] = '%s ページ';
 $string['youhavenoviews1'] = 'あなたにはページまたはコレクションはありません。';
-$string['youhaventcreatedanyviewsyet'] = 'あなたはページをまだ作成していません。';
+$string['youhaventcreatedanyviewsyet'] = 'あなたはまだページを作成していません。';
 $string['youhavenviews'] = 'あなたには %d ページがあります。';
 $string['viewsownedbygroup'] = 'このグループが所有しているページ';
 $string['ownedbygroup'] = 'このグループによる所有';
