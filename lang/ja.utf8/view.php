@@ -74,7 +74,7 @@ $string['viewsubmittedtogroupon'] = 'このページは<a href="%s">%s</a>に対
 $string['nobodycanseethisview2'] = 'あなたのみ、このページを閲覧できます。';
 $string['noviews'] = 'ページはありません。';
 $string['youhavenoviews'] = 'あなたのページはありません。';
-$string['youhaventcreatedanyviewsyet'] = 'あなたはページをまだ作成していません。';
+$string['youhaventcreatedanyviewsyet'] = 'あなたはまだページを作成していません。';
 $string['youhaveoneview'] = 'あなたには 1 件のページがあります。';
 $string['youhaveviews'] = 'あなたには %s 件のページがあります。';
 $string['viewsownedbygroup'] = 'このグループが所有しているページ';
