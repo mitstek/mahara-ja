@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-08-10 01:21:56 UTC
+ * @updated    2018-08-23 04:55:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -774,6 +774,7 @@ $string['nohelpfound'] = 'このアイテムのヘルプはありません。';
 $string['nohelpfoundpage'] = 'このページのヘルプはありません。';
 $string['couldnotgethelp'] = 'ヘルプページの検索中にエラーが発生しました。';
 $string['profileimagetext'] = '%s のプロファイル画像';
+$string['profileimagetexttemplate'] = 'ユーザプロファイル画像はここに表示されます。';
 $string['profileimagetextanonymous'] = '匿名プロファイル画像';
 $string['primaryemailinvalid'] = 'あなたの主メールアドレスが有効ではありません。';
 $string['addemail'] = 'メールアドレスを追加する';
@@ -1158,6 +1159,9 @@ $string['engagesubtitle'] = '人を探してグループに参加する';
 $string['engagedetail'] = 'ディスカッションフォーラムで他の人と関係してグループ内で共同します。';
 $string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールすることができます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
+$string['blockinstanceownerchange'] = 'このブロックを編集して表示するコンテンツを変更します。';
+$string['blockinstanceconfigownerauto'] = 'このブロックがユーザのプロファイルページとしてコピーされた場合、データとともに自動的に追加されます。';
+$string['blockinstanceconfigownerchange'] = 'このブロックがコンテンツを表示するためユーザのプロファイルページとしてコピーされた場合、編集/設定する必要があります。';
 $string['filenotfound'] = 'ファイルが見つかりませんでした。';
 $string['filenotfoundmaybeexpired'] = 'ファイルが見つかりませんでした。あなたのエクスポートファイルは作成後24時間のみ存在します。あなたのコンテンツを再度エクスポートする必要があります。';
 $string['betweenxandy'] = '範囲: %s - %s';

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-02-18 07:44:54 UTC
+ * @updated    2018-08-23 04:49:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -29,6 +29,7 @@ $string['criteria'] = 'クライテリア';
 $string['nbadges'] = '%s バッジ';
 $string['nobackpack'] = 'バックパックが見つかりませんでした。<br />あなたの<a href="%s">プロファイル</a>に<a href="%s">バックパック</a>のメールアドレスを追加してください。';
 $string['nobadgegroups'] = 'パブリックバッジコレクション / バッジは見つかりませんでした。';
+$string['nobadgesselectone'] = '選択されたバッジはありません。';
 $string['nobackpackidin1'] = 'あなたのメールアドレス「 %s 」はサービス「 %s 」内に見つかりませんでした。';
 $string['nobadgegroupsin1'] = '次のサービス内にパブリックバッジコレクション / バッジは見つかりませんでした: %s (メールアドレス: %s)';
 $string['confighelp'] = 'このブロックで表示するバッジコレクションを選択してください。<br />あなたのコレクションおよびバッジを管理するには次のサービスにアクセスしてください:<br />%s';

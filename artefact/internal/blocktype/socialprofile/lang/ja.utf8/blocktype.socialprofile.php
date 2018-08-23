@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-19 05:45:32 UTC
+ * @updated    2018-08-23 04:48:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -23,5 +23,6 @@ $string['optiontexticon'] = 'アイコンおよびテキストのボタン';
 $string['optiontextonly'] = 'テキストのみのボタン';
 $string['displaydefaultemail'] = 'デフォルトメールアドレスのリンクをボタンとして表示しますか?';
 $string['displaymsgservices'] = 'メッセージングサービスをボタンとして表示しますか?';
+$string['noitemsselectone'] = '選択されたソーシャルメディアはありません。';
 
 ?>
