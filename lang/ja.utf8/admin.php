@@ -1224,7 +1224,7 @@ $string['registerrefusal'] = 'あなたが %s に同意しない場合、アカ�
 $string['registerprivacy'] = 'プライバシー保護方針をお読みください。あなたがプライバシー保護方針に同意しない場合、サイトでアカウントを作成することはできません。';
 $string['registertermsandconditions'] = '利用条件をお読みください。あなたが利用条件に同意しない場合、サイトでアカウントを作成することはできません。';
 $string['enterreason'] = '拒否する理由をここに入力してください ...';
-$string['hasrefused'] = 'はプライバシー保護方針を拒否しました。';
+$string['hasrefused'] = 'は %s を拒否しました。';
 $string['privacylowcase'] = 'プライバシー保護方針';
 $string['termsandconditionslowcase'] = '利用条件';
 $string['privacyandtotheterms'] = 'プライバシー保護方針および利用条件';
@@ -1247,7 +1247,7 @@ $string['pendingdeletion'] = '削除保留';
 $string['pendingdeletions'] = '削除保留';
 $string['pendingdeletionspagedescription'] = '<p>あなたはこのページでサイトからのアカウント削除をリクエストしたユーザを確認および削除承認することができます。<p>
 <p>アカウント削除を承認することによりアカウントからすべての個人コンテンツが完全に削除されます。アカウント削除後、リクエストしたユーザにメールで理由が通知されます。</p>';
-$string['userdeletiondeniedsuccessful'] = 'リクエスが正常に拒否されました。';
+$string['userdeletiondeniedsuccessful'] = 'リクエストが正常に拒否されました。';
 $string['userdeletiondeniedunsuccessful'] = 'ユーザアカウント削除の拒否に失敗しました。';
 $string['consented'] = '同意済み';
 
