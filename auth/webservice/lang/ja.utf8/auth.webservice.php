@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-19 08:23:44 UTC
+ * @updated    2018-08-30 06:37:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -370,6 +370,7 @@ $string['membersinvalidaction'] = '無効な操作「 %s 」です - ユーザ�
 $string['passwordmustbechangedviawebsite'] = 'あなたはパスワードを変更する必要があります。あなたのパスワードを更新するにはブラウザでログインしてください。';
 $string['featuredisabled'] = 'ウェブサービス機能が有効にされていません。詳細情報に関してあなたのサイト管理者にご連絡ください。';
 $string['institutionunknown'] = '- 不明 -';
+$string['unabletodeleteadmin'] = '管理者であるためID「 %s 」のユーザを削除することはできません。';
 $string['notuserblog'] = '日誌は「 %s 」によって所有されていません。';
 
 ?>
