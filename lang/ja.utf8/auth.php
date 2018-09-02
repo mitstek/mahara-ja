@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-08-28 04:26:56 UTC
+ * @updated    2018-09-02 04:22:40 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,7 +19,7 @@ $string['protocol'] = 'プロトコル';
 $string['port'] = 'ポート';
 $string['changepasswordurl'] = 'パスワード変更URL';
 $string['cannotremove'] = 'このインスティテューションの唯一のプラグインのため私たちはこの認証プラグインを削除することはできません。';
-$string['cannotremoveinuse'] = '他のユーザに使用されているため私たちはこの認証プラグインを削除することはできません。あなたがこのプラグインを削除できるようになる前にユーザレコードを更新する必要があります。';
+$string['cannotremoveinuse'] = 'ユーザに使用されているため私たちはこの認証プラグインを削除することはできません。あなたがこのプラグインを削除できるようにするにはユーザレコードを更新する必要があります。';
 $string['saveinstitutiondetailsfirst'] = '認証プラグインを設定する前にインスティテューション詳細を保存してください。';
 $string['editauthority'] = '認証局を編集する';
 $string['addauthority'] = '認証局を追加する';
@@ -35,7 +35,7 @@ $string['weautocreateusers'] = 'こちらでユーザを自動作成する';
 $string['theyautocreateusers'] = 'あちらでユーザを自動作成させる';
 $string['parent'] = '親認証局';
 $string['wessoout'] = 'あちらへSSOする';
-$string['weimportcontent'] = 'こちらにコンテンツをインポートさせる';
+$string['weimportcontent'] = 'こちらにコンテンツをインポートする';
 $string['weimportcontentdescription'] = '(一部のアプリケーションのみ)';
 $string['theyssoin'] = 'こちらにSSOさせる';
 $string['authloginmsg2'] = 'あなたが親認証局を選択していない場合、ログインフォーム経由でログインを試みるユーザに表示されるメッセージを入力してください。';
