@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-08-17 15:17:26 UTC
+ * @updated    2018-09-07 06:42:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -46,10 +46,6 @@ $string['pbapikey'] = 'Photobucket APIキー';
 $string['pbapikeydesc'] = 'あなたがPhotobucketのフォトアルバムを表示するには有効なAPIキーおよびAPIプライベートキーが必要です。<br /><a href="http://developer.photobucket.com/">Photobucket開発者ウェブサイト</a>にアクセスして利用規約に同意、サインアップした後、APIキーを取得してください。';
 $string['pbapiprivatekey'] = 'Photobucket APIプライベートキー';
 $string['photobucketphotosandalbums'] = 'Photobucketユーザ写真およびアルバム';
-$string['Photo'] = '写真';
-$string['by'] = 'by';
-$string['panoramiocopyright'] = 'Panoramioから提供された写真はそのオーナーが著作権を有します。';
-$string['panoramiouserphotos'] = 'Panoramioユーザ写真';
 $string['picasaalbums'] = 'Picasaアルバム';
 $string['windowslivephotoalbums'] = 'Windows Liveフォトギャラリーアルバム';
 $string['externalnotsupported'] = 'あなたが提供した外部URLはサポートされていません。';
