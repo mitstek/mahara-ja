@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-08-20 01:50:11 UTC
+ * @updated    2018-09-10 06:16:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -346,6 +346,7 @@ $string['Search'] = '検索';
 $string['noartefactstochoosefrom'] = '申し訳ございません、選択するアーティファクトがありません。';
 $string['access'] = 'アクセス';
 $string['noaccesstoview'] = 'あなたにはこのページにアクセスするパーミッションがありません。';
+$string['wrongblocktype'] = '提供されたIDは有効なブロックのものではありません。';
 $string['changeviewtheme'] = 'あなたがこのページに選択したテーマは廃止されています。別のテーマを選択してください。';
 $string['nothemeselected1'] = 'インスティテューションテーマを使用する';
 $string['Template'] = 'テンプレート';
@@ -442,5 +443,7 @@ $string['addcontent'] = 'コンテンツを追加する';
 $string['theme'] = 'テーマ';
 $string['lockblocks'] = 'ブロックをロックする';
 $string['lockblocksdescription'] = 'あなたはページのブロックをロックしてページのコピー時に削除されることを防ぐことができます。';
+$string['instructions'] = 'インストラクション';
+$string['advanced'] = '高度';
 
 ?>
