@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-08-26 06:09:18 UTC
+ * @updated    2018-09-13 05:59:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -350,6 +350,15 @@ $string['generatesitemap1'] = 'サイトマップ';
 $string['generatesitemapdescription'] = 'パブリックにアクセス可能なページ、グループおよびフォーラムトピックからサイトマップファイルを生成します。';
 $string['homepageinfo1'] = 'ホームページ/ダッシュボード情報を表示する';
 $string['homepageinfodescription3'] = 'Maharaに関する情報および利用状況がMaharaホームページに表示されます。登録済みユーザにはこれらの情報を自分のダッシュボードに表示しないオプションがあります。';
+$string['homepageredirect'] = 'カスタムランディングページ';
+$string['homepageredirectdescription'] = 'あなたがユーザのログイン後に表示する最初のページをダッシュボード以外のページにしたい場合、この設定を有効にしてください。注意: ユーザのログインが必要なリンクがクリックされた場合、そのリダイレクトが優先されます。';
+$string['homepageredirecturl'] = 'ランディングページ';
+$string['homepageredirecturldescription'] = 'この設定を動作させるにはすべての登録ユーザがページにアクセスできる必要があります。';
+$string['islandingpage'] = 'このページがサイトのカスタムランディングページとして使用されます。';
+$string['landingpagegone'] = 'あなたがパーミッションを変更する前、ページ「 %s 」はサイトのカスタムランディングページでした。このページはカスタムランディングページとしてはサイト設定より削除されました。';
+$string['landingpagegonesubject'] = 'カスタムランディングページが削除されました。';
+$string['landingpagegonemessage'] = 'ログインしてサイト設定で新しいカスタムランディングページを選択してください。';
+$string['landingpagegonemessagedeleted'] = 'ページが削除されたため、ページ「 %s 」はサイトのカスタムランディングページから削除されました。ログインしてサイト設定で新しいカスタムランディングページを選択してください。';
 $string['institutionautosuspend'] = '有効期限切れのインスティテューションを自動停止する';
 $string['institutionautosuspenddescription1'] = '有効期限切れのインスティテューションを自動的に利用停止します。';
 $string['institutionexpirynotification'] = 'インスティテューション有効期限の警告期間';
