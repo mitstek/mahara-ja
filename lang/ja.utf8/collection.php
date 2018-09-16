@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-19 08:02:36 UTC
+ * @updated    2018-09-16 09:03:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -43,10 +43,10 @@ $string['sitecollections'] = 'サイトコレクション';
 $string['collectionaccess'] = 'コレクションアクセス';
 $string['collectionaccessrules'] = 'コレクションアクセスルール';
 $string['collectionaccesseditedsuccessfully'] = 'コレクションアクセスが正常に保存されました。';
-$string['collectioneditaccess'] = 'あなたにはこのコレクション内の %d 件のページに対する編集アクセス権があります';
+$string['collectioneditaccess'] = 'あなたにはこのコレクション内の %d ページのアクセス権を編集しています。';
 $string['collectionconfirmdelete'] = 'このコレクション内のページは削除されません。本当にこのコレクションを削除してもよろしいですか?';
 $string['collectioncreatedsuccessfully'] = 'コレクションが正常に作成されました。';
-$string['collectioncreatedsuccessfullyshare'] = 'あなたのコレクションが正常に作成されました。下記のアクセスリンクを使用してあなたのコレクションを他のユーザと共有してください。';
+$string['collectioncreatedsuccessfullyshare'] = 'あなたのコレクションが正常に作成されました。以下のアクセスリンクを使用してあなたのコレクションを他のユーザと共有してください。';
 $string['collectiondeleted'] = 'コレクションが正常に削除されました。';
 $string['collectiondescription'] = 'コレクションは相互にリンクして同一のアクセスパーミッションを持つ一連のページです。あなたが好きなだけコレクションを作成することができますが、ページを1つ以上のコレクションに表示することはできません。';
 $string['collectiontitle'] = 'コレクションタイトル';
@@ -83,7 +83,7 @@ $string['noviewsavailable'] = '追加できるページはありません。';
 $string['noviewsaddsome'] = 'コレクションにページはありません。%sページを追加してください%s。';
 $string['noviews'] = 'ページはありません。';
 $string['overrideaccess'] = 'アクセスをオーバーライドする';
-$string['potentialviews'] = '潜在的ページ';
+$string['potentialviews'] = '潜在的なページ';
 $string['saveapply'] = '適用して保存する';
 $string['savecollection'] = 'コレクションを保存する';
 $string['smartevidence'] = 'スマートエビデンス';
@@ -93,8 +93,8 @@ $string['usecollectionname'] = 'コレクション名を使用しますか?';
 $string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしたままにしてください。';
 $string['numviewsincollection'] = 'コレクション内ページ数: %s';
 $string['viewsaddedtocollection1'] = '%s ページがコレクションに追加されました。';
-$string['viewsaddedtocollection1different'] = '%s ページがコレクションに追加されました。コレクション内のページすべてに関して共有アクセスが変更されました。';
-$string['viewsaddedaccesschanged'] = '次のページに関してアクセスパーミッションが変更されました:';
+$string['viewsaddedtocollection1different'] = '%s ページがコレクションに追加されました。コレクション内のページすべての共有アクセスが変更されました。';
+$string['viewsaddedaccesschanged'] = '次のページのアクセスパーミッションが変更されました:';
 $string['viewaddedsecreturl'] = 'シークレットURL経由でパブリックに利用可';
 $string['viewcollection'] = 'コレクション詳細を表示する';
 $string['viewcount'] = 'ページ';
