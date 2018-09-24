@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-09-13 05:59:58 UTC
+ * @updated    2018-09-24 05:05:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -223,16 +223,16 @@ $string['Value'] = '値';
 $string['dataincluded'] = '含まれるデータ';
 $string['datathathavebeensent'] = '送信されたデータ';
 $string['newregistrationpolicyinfo'] = '<p>私たちは登録サイトが週ごとのデータを更新する必要のある登録データポリシーを変更しました。あなたの登録を承認または削除するには以下のリンクに従ってください。</p>';
-$string['registerwithmahara'] = 'mahara.orgに登録しますか?';
-$string['remainregistered'] = '登録を保持しますか?';
+$string['registerwithmahara'] = 'mahara.orgに登録する';
+$string['remainregistered'] = '登録を保持する';
 $string['Register'] = '登録';
 $string['Registration'] = '登録';
 $string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/registersite.php">サイト登録ページ</a>にアクセスして登録することができます。';
 $string['registrationfailedtrylater'] = 'エラーコード %s により登録が失敗しました。後ほど再度お試しください。';
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます。';
 $string['registermaharasite'] = 'サイト登録';
-$string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することにより私たちは世界のMaharaインストール状況を作成することができます。</p>';
-$string['registeryourmaharasitedetail'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することができます。登録することにより私たちは世界のMaharaインストール状況を作成することができます。</p>
+$string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することにより私たちは世界のMaharaインストール状況を取得することができます。</p>';
+$string['registeryourmaharasitedetail'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することができます。登録することにより私たちは世界のMaharaインストール状況を取得することができます。</p>
 <p>あなたはmahara.orgに送信された情報を閲覧できます - あなたのユーザに関する個人情報は一切送信されません。</p>
 <p>あなたが「更新を週に1回送信しますか?」設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
 <p>登録することによりこの通知が取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更することができます。</p>';
@@ -1215,7 +1215,7 @@ $string['cli_deleteinactiveusers_cleanusers'] = '同様に「usr」テーブル�
 $string['cli_deleteinactiveusers_info'] = 'あなたはこのコマンドラインPHPスクリプトで古いユーザを削除することができます。ログインしていないかフォーラムに一度も投稿していないユーザのみ処理されます。';
 $string['cli_deleteinactiveusers_neverloggedin'] = '管理者によって設定されて一度もログインしていなユーザを削除します。';
 $string['cli_param_baddate'] = '提供された日付「 %s 」は有効ではありません。';
-$string['cli_deleteinactiveusers_usercount'] = '削除対象ユーザ数: %s';
+$string['cli_deleteinactiveusers_usercount'] = '削除対象ユーザは「 %s 」名です。';
 $string['cli_deleteinactiveusers_userunabletoclean'] = 'ユーザ「 %s 」(ID %s) を完全に削除することはできません。';
 $string['cli_deleteinactiveusers_userunabletodelete'] = 'ユーザ「 %s 」(ID %s) を削除できません。';
 $string['cli_deleteinactiveusers_nouserstodelete'] = '削除するユーザはありません。';

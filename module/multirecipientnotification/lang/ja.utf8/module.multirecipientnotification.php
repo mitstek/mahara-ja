@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-08-15 14:13:11 UTC
+ * @updated    2018-09-24 05:08:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -44,6 +44,6 @@ $string['clickformore'] = '(さらに情報を表示するには「Enter」を�
 $string['labelsearch'] = '検索';
 $string['labelall'] = 'すべて';
 $string['labelmessage'] = 'メッセージ';
-$string['multirecipientnotificationnotenabled'] = 'モジュール「multirecipientnotification」をインストールおよび有効化する必要があります。あなたが16.10.0より古いバージョンからMaharaをアップグレードしている場合、この部分を最初にアップグレードしてください。そして、「管理メニュー」 → 「拡張機能」にアクセスしてモジュールがインストールおよび有効化されていることを確認してください。';
+$string['multirecipientnotificationnotenabled'] = 'モジュール「multirecipientnotification」をインストールおよび有効化する必要があります。あなたが16.10.0より古いバージョンからMaharaをアップグレードしている場合、この部分を最初にアップグレードしてください。そして、「管理メニュー」 → 「拡張機能」 → 「プラグイン管理」にアクセスしてモジュールがインストールおよび有効化されていることを確認してください。';
 
 ?>
