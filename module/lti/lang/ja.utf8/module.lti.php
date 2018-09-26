@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-09-26 07:50:33 UTC
+ * @updated    2018-09-26 21:51:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,7 +19,7 @@ $string['autoconfiguredesc'] = 'LTIに必要な設定を自動的に有効にし
 $string['autoconfiguretitle'] = 'LTI自動設定';
 $string['autocreateusers'] = 'ユーザ自動作成';
 $string['autocreationnotenabled'] = 'ユーザアカウントの自動作成は有効にされていません。';
-$string['portfolioname'] = 'プロファイルタイトル';
+$string['portfolioname'] = 'ポートフォリオタイトル';
 $string['configstep'] = '設定アイテム';
 $string['configstepstatus'] = 'ステータス';
 $string['configuration'] = '評価設定';
