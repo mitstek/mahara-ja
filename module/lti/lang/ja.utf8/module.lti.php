@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-09-26 07:46:22 UTC
+ * @updated    2018-09-26 07:50:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -33,7 +33,7 @@ $string['gradesubmissions'] = '評定のための提出';
 $string['gradesubmitted'] = '評定が正常に提出されました。';
 $string['groupname'] = '提出 (「 %s 」-「 %s 」) の評価';
 $string['institutiondenied'] = '「 %s 」へのアクセスが拒否されました。あなたのインスティテューション管理者にご連絡ください。';
-$string['lock'] = '評定後にポートフォリオのロックを継続する';
+$string['lock'] = '評定後、ポートフォリオのロックを継続する';
 $string['lockdescription'] = '評定後、ユーザがポートフォリオを変更しました。';
 $string['ltiserviceexists'] = 'LTIサービスグループは登録されています。';
 $string['nocollections'] = 'あなたには評価のために提出するポートフォリオはありません。';
@@ -50,7 +50,7 @@ $string['usernameexists2'] = 'ユーザ名「 %s 」は有効ではありませ�
 $string['saveandrelease'] = '保存して提出を許可する';
 $string['submitportfolio'] = '評価のためポートフォリオを提出する';
 $string['submitto'] = 'このポートフォリオを評価のため %s に提出します。%s';
-$string['submitintro'] = 'あなたがこの活動を提出したいページまたはコレクションを選択してください。あなたにまだポートフォリオがない場合、<a href="%sview/index.php" target="_blank">作成してください</a>。あなたの作成後、LMSからの活動を再度読み込んでください。';
+$string['submitintro'] = 'あなたがこの活動を提出したいページまたはコレクションを選択してください。あなたにまだポートフォリオがない場合、<a href="%sview/index.php" target="_blank">作成してください</a>。あなたの作成後、LMSの活動を再度読み込んでください。';
 $string['timegraded'] = '評定日時';
 $string['timesubmitted'] = '提出日時';
 $string['usernameexists1'] = 'ユーザ名「 %s 」はすでに存在します。';
