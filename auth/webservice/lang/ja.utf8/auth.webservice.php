@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-08-30 06:37:05 UTC
+ * @updated    2018-09-30 07:41:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -135,7 +135,7 @@ $string['owner'] = 'オーナー';
 $string['servicename'] = 'サービス';
 $string['generate'] = 'トークンを生成する';
 $string['invalidtoken'] = '無効なトークン: トークンが見つかりませんでした。';
-$string['invalidtokennotsuppied'] = '無効なトークンが選択されたかトークンが提供されていません。';
+$string['invalidtokennotsupplied'] = '無効なトークンが選択されたかトークンが提供されていません。';
 $string['token'] = 'トークン';
 $string['tokenid'] = 'トークン「 %s 」';
 $string['invaliduserselected'] = '無効なユーザが選択されました。';
