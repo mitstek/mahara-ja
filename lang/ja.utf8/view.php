@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-09-10 06:16:19 UTC
+ * @updated    2018-09-30 21:56:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -226,6 +226,7 @@ $string['blocknotinview'] = 'ID「 %d 」のブロックはページにありま
 $string['viewcreatedsuccessfully'] = 'ページが正常に作成されました。';
 $string['viewaccesseditedsuccessfully'] = 'ページアクセスが正常に保存されました。';
 $string['viewsavedsuccessfully'] = 'ページが正常に保存されました。';
+$string['savedtotimeline'] = 'タイムラインに保存されました。';
 $string['updatedaccessfornumviews1'] = '%d ページのアクセスルールが更新されました。';
 $string['invalidcolumn'] = 'カラム %s は範囲外です。';
 $string['confirmcancelcreatingview'] = 'このページは作成完了していません。本当にキャンセルしてもよろしいですか?';
@@ -445,5 +446,15 @@ $string['lockblocks'] = 'ブロックをロックする';
 $string['lockblocksdescription'] = 'あなたはページのブロックをロックしてページのコピー時に削除されることを防ぐことができます。';
 $string['instructions'] = 'インストラクション';
 $string['advanced'] = '高度';
+$string['timeline'] = 'タイムライン';
+$string['timelinespecific'] = '%s のタイムライン';
+$string['savetimeline'] = 'タイムラインに保存する';
+$string['savetimelinespecific'] = '%s のタイムラインに保存する';
+$string['noversionsexist'] = 'ページ「 %s 」に表示するための保存されたバージョンはありません。';
+$string['previousversion'] = '前のバージョン';
+$string['nextversion'] = '次のバージョン';
+$string['versionnumber'] = 'バージョン %s';
+$string['gotonextversion'] = '次のバージョンに移動する';
+$string['gotopreviousversion'] = '前のバージョンに移動する';
 
 ?>
