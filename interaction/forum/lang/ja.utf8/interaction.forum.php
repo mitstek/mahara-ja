@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-13 13:25:47 UTC
+ * @updated    2018-10-01 00:03:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -53,6 +53,7 @@ $string['deletetopic'] = 'トピックを削除する';
 $string['deletetopicspecific'] = 'トピック「 %s 」を削除する';
 $string['deletetopicsuccess'] = 'トピックが正常に削除されました。';
 $string['deletetopicsure'] = '本当にこの処理を実行してもよろしいですか? 元に戻すことはできません。';
+$string['discussiontopics'] = 'ディスカッショントピック';
 $string['editpost'] = '投稿を編集する';
 $string['editpostsuccess'] = '投稿が正常に編集されました。';
 $string['editstothispost'] = 'この投稿に対する編集:';
