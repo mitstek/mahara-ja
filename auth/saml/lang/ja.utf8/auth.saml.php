@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-05-15 22:48:00 UTC
+ * @updated    2018-10-04 09:38:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,6 +16,7 @@ defined('INTERNAL') || die();
 $string['attributemapfilenotamap'] = '属性マップファイル「 %s 」で属性マップが定義されていません。';
 $string['attributemapfilenotfound'] = '属性マップファイルがないか書き込み権がありません: %s';
 $string['certificate1'] = 'SAMLサービスプロバイダ署名および暗号化認証';
+$string['confirmdeleteidp'] = '本当にこのアイデンティティプロバイダを削除してもよろしいですか?';
 $string['spmetadata'] = 'サービスプロバイダメタデータ';
 $string['metadatavewlink'] = '<a href="%s">メタデータを表示する</a>';
 $string['ssphpnotconfigured'] = 'SimpleSAMLPHPが設定されていません。';
@@ -23,7 +24,6 @@ $string['manage_certificate2'] = 'これはSAMLサービスプロバイダの一
 $string['nullprivatecert'] = '秘密鍵を生成または保存できませんでした。';
 $string['nullpubliccert'] = '公開鍵を生成または保存できませんでした。';
 $string['defaultinstitution'] = 'デフォルトインスティテューション';
-$string['deleteidp'] = 'IdPを削除する';
 $string['description'] = 'SAML 2.0アイデンティティプロバイダサービスで認証する';
 $string['disco'] = 'アイデンティティプロバイダディスカバリ';
 $string['errorbadinstitution'] = 'ユーザ接続のインスティテューションが解決されませんでした。';
@@ -36,8 +36,6 @@ $string['errnosamluser'] = 'ユーザが見つかりませんでした。';
 $string['errorssphpsetup'] = 'SAMLが正しくセットアップされていません。あなたは最初にコマンドラインから「make ssphp」を実行する必要があります。';
 $string['errorbadlib'] = 'SimpleSAMLPHPライブラリの「autoloader」ファイルが %s にありません。<br />あなたが「make ssphp」を使ってSimpleSAMLphpをインストールしていることを確認してください。また、ファイルを読み込むことができるか確認してください。';
 $string['errorupdatelib'] = 'あなたの現在のSimpleSAMLPHPライブラリは旧バージョンです。あなたは「make cleanssphp && make ssphp」を実行する必要があります。';
-$string['errornomcrypt'] = 'auth/samlのためにPHPライブラリ「mcrypt」がインストールされている必要があります。あなたがmcryptをインストールして有効化していることを確認してください。例:<br />sudo apt-get install php5-mcrypt<br />sudo php5enmod mcrypt<br />そしてウェブサーバを再起動してください。';
-$string['errornomcrypt7php'] = 'auth/samlのためにPHPライブラリ「mcrypt」がインストールされている必要があります。あなたがmcryptをインストールして有効化していることを確認してください。例:<br />sudo apt-get install php7.0-mcrypt<br />sudo phpenmod mcrypt<br />そしてウェブサーバを再起動してください。';
 $string['errornovalidsessionhandler'] = 'SimpleSAMLphpセッションハンドラの設定が正しくないか現在サーバを利用できません。';
 $string['errornomemcache'] = 'auth/samlのためのMemcacheの設定が正しくないか現在Memcacheを利用できません。';
 $string['errornomemcache7php'] = 'auth/samlのためのMemcacheの設定が正しくないか現在Memcacheを利用できません。';
