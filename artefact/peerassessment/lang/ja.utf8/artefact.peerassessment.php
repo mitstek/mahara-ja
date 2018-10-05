@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-09-10 08:17:36 UTC
+ * @updated    2018-10-05 06:28:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -37,14 +37,14 @@ $string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bott
 <div style="font-size: smaller; border-top: 1px solid #999;">
 <p><a href="%s">この相互評価をオンラインで閲覧する</a></p>
 </div>';
-$string['feedbacknotificationtext'] = '%s が相互評価を追加しました - %s
+$string['feedbacknotificationtext1'] = '%s が相互評価を追加しました - %s
 %s
 ------------------------------------------------------------------------
 
 %s
 
 ------------------------------------------------------------------------
-この相互評価を閲覧するには次のリンクに従ってください:
+この相互評価をオンラインで閲覧するには次のリンクにアクセスしてください:
 %s';
 $string['typeassessmentfeedback'] = '相互評価';
 $string['nopeerassessmentrequired'] = '相互評価を必要としないため、あなたはこのページでコンテンツを閲覧することができません。';
