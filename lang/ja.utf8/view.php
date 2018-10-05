@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-09-30 21:56:52 UTC
+ * @updated    2018-10-05 00:19:40 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -95,8 +95,10 @@ $string['portfolios'] = 'ポートフォリオ';
 $string['Viewscollections'] = 'ページおよびコレクション';
 $string['viewsubmittedtogroup'] = 'このページは<a href="%s">%s</a>に送信されました。';
 $string['viewsubmittedtogroupon'] = 'このページは<a href="%s">%s</a>に対して %s に送信されました。';
+$string['viewsubmittedtogroupgrade'] = 'このポートフォリオは課題「 <a href="%s">%s</a> 」 (%s) に対して %s に送信されました。　';
 $string['collectionsubmittedtogroup'] = 'このコレクションは<a href="%s">%s</a>に送信されました。';
 $string['collectionsubmittedtogroupon'] = 'このコレクションは<a href="%s">%s</a>に対して %s に送信されました。';
+$string['collectionsubmittedtogroupgrade'] = 'このコレクションは課題「 <a href="%s">%s</a> 」 (%s) に対して %s に送信されました。　';
 $string['submittedpendingrelease'] = 'アーカイブ後のリリース保留中です。';
 $string['nobodycanseethisview2'] = 'あなたのみこのページを閲覧できます。';
 $string['noviews1'] = 'ページまたはコレクションはありません。';

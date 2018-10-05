@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-09-26 21:51:20 UTC
+ * @updated    2018-10-05 00:12:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -31,7 +31,7 @@ $string['gradedby'] = '評定者:';
 $string['gradereceived'] = 'あなたに %s / 100 の評点が %s によって与えられました (評定日時: %s )。';
 $string['gradesubmissions'] = '評定のための提出';
 $string['gradesubmitted'] = '評定が正常に提出されました。';
-$string['groupname'] = '提出 (「 %s 」-「 %s 」) の評価';
+$string['groupname'] = '「 %s 」-「 %s 」';
 $string['institutiondenied'] = '「 %s 」へのアクセスが拒否されました。あなたのインスティテューション管理者にご連絡ください。';
 $string['lock'] = '評定後、ポートフォリオのロックを継続する';
 $string['lockdescription'] = '評定後、ユーザがポートフォリオを変更しました。';
