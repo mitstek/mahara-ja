@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-10-01 00:03:15 UTC
+ * @updated    2018-10-08 11:00:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -197,7 +197,9 @@ $string['maxindentdescription'] = 'トピックの最大インデントレベル
 $string['closetopics'] = '新しいトピックをクローズする';
 $string['closetopicsdescription1'] = 'すべての新しいトピックをデフォルトでクローズします。モデレータおよびグループ管理者のみ閉鎖トピックに返信することができます。';
 $string['activetopicsdescription'] = 'あなたのグループ内で最近更新されたトピックです。';
-$string['timeleftnotice'] = 'あなたには編集を終了するまで %s 分あります。';
+$string['timeleftnotice1'] = 'あなたには編集を終了するまで <span class="num">%s</span> 分あります。';
+$string['timeleftnoticeexpired'] = '編集時間が終了しました。あなたの変更は保存されません。';
+$string['timeleftnoticeexpiredmoderator'] = 'あなたの変更は編集通知とともに保存されます。';
 $string['objectionablecontentpost'] = 'フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者: %s';
 $string['objectionablecontentposthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者:%s
 <br />%s</div>
