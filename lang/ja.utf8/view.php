@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-10-05 00:19:40 UTC
+ * @updated    2018-10-08 05:04:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -458,5 +458,6 @@ $string['nextversion'] = '次のバージョン';
 $string['versionnumber'] = 'バージョン %s';
 $string['gotonextversion'] = '次のバージョンに移動する';
 $string['gotopreviousversion'] = '前のバージョンに移動する';
+$string['loadingtimelinecontent'] = '「 %s 」のタイムラインを読み込んでいます。ページに多くのバージョンがある場合、この処理に時間を要する場合があります。';
 
 ?>
