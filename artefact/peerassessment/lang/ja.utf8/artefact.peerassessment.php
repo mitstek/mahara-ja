@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-10-05 06:28:56 UTC
+ * @updated    2018-10-08 04:59:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -27,7 +27,8 @@ $string['reallydeletethisassessment'] = 'この相互評価を削除する';
 $string['thisassessmentisprivate'] = '下書きとして保存されました。';
 $string['assessmentremoved'] = '相互評価が削除されました。';
 $string['deletednotificationsubject'] = 'ページ「 %s 」の相互評価が削除されました。';
-$string['deletedauthornotification'] = 'あなたのページ「 %s 」の評価が削除されました。あなたは次を記入しました:
+$string['deletedauthornotification1'] = 'あなたの相互評価者 %s がページ「 %s 」の評価を削除しました。
+相互評価者は以下のように書いていました:
 %s';
 $string['newassessmentnotificationsubject'] = 'ページ「 %s 」の新しい相互評価';
 $string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が相互評価を追加しました - %s</strong><br />%s</div>
