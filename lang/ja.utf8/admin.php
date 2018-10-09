@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-09-24 05:05:31 UTC
+ * @updated    2018-10-09 17:12:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -434,7 +434,7 @@ $string['usersallowedmultipleinstitutions'] = 'ユーザに複数インスティ
 $string['usersallowedmultipleinstitutionsdescription1'] = 'ユーザが同時に複数のインスティテューションのメンバーになることができるようにします。';
 $string['institutionstrictprivacy'] = '厳密なプライバシー';
 $string['institutionstrictprivacydescription'] = 'あなたのサイトが<a href="https://www.eugdpr.org/">GDPR</a>を厳密に順守する必要がある場合、このオプションを有効にしてください。';
-$string['requireregistrationconfirm'] = '登録を確認する';
+$string['requireregistrationconfirm'] = '登録を承認する';
 $string['requireregistrationconfirmdescription1'] = 'すべてのインスティテューションに新しい自己登録アカウントの承認を強制します。';
 $string['userscanchooseviewthemes'] = 'ユーザがページテーマを選択できる';
 $string['userscanchooseviewthemesdescription1'] = 'ユーザがポートフォリオページを編集および作成する時にテーマを選択できるようにします。ページは選択されたテーマを使用して他のユーザに表示されます。';
@@ -869,7 +869,7 @@ $string['defaultlangforinstitution'] = '%s デフォルト';
 $string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
 $string['registrationallowed'] = '登録を許可する';
 $string['registrationalloweddescription5'] = '登録フォームを使用してこのインスティテューションに登録することができます。登録が無効にされた場合、非メンバーはインスティテューションのメンバーシップをリクエストすることはできません。また、メンバーはインスティテューションを離れたり自分のユーザアカウントを削除することはできません。';
-$string['registrationconfirm'] = '登録を確認する';
+$string['registrationconfirm'] = '登録を承認する';
 $string['registrationconfirmdescription3'] = '登録はインスティテューション管理者によって承認される必要があります。あなたがこのオプションを変更できない場合、サイト管理者がすべてのインスティテューションに対してこのオプションを有効にすることを求めています。';
 $string['defaultmembershipperiod'] = 'デフォルトのメンバーシップ期間';
 $string['defaultmembershipperioddescription'] = 'どのくらいの期間、新しいメンバーはインスティテューションに参加することができますか。';
