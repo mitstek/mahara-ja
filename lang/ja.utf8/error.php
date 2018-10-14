@@ -69,7 +69,7 @@ $string['artefactpluginmethodmissing'] = 'アーティファクトプラグイ�
 $string['blocktypelibmissing'] = 'アーティファクトプラグイン %s 内にブロック %s のlib.phpがありません。';
 $string['unabletosetmultipleblogs'] = 'ユーザ「 %s 」のページ「 %s 」のコピーによる複数日誌の有効化に失敗しました。これは<a href="%s">アカウント</a>ページで手動で設定することができます。';
 $string['pleaseloginforjournals'] = 'あなたの日誌および記事すべてを閲覧するにはログアウトした後に再度ログインする必要があります。';
-$string['blocktypemissingconfigform'] = 'ブロックタイプ %s ではinstance_config_formを実装する必要があります。';
+$string['blocktypemissingconfigform'] = 'ブロックタイプ %s にinstance_config_formを実装する必要があります。';
 $string['versionphpmissing1'] = 'プラグイン %s %s のversion.phpがありません。あなたがプラグイン %s をインストールする予定ではない場合、%s のフォルダを削除してください。';
 $string['blocktypeprovidedbyartefactnotinstallable'] = 'これはアーティファクトプラグイン %s の一部としてインストールされます。';
 $string['blockconfigdatacalledfromset'] = 'configデータを直接設定しないでください。代わりにPluginBlocktype::instance_config_saveを使用してください。';
@@ -122,7 +122,7 @@ $string['noreplyaddressmissingorinvalid'] = 'システムメールアドレス�
 $string['openbasedirenabled'] = 'あなたのサーバではPHPの「open_basedir」制限が有効にされています。';
 $string['openbasedirpaths'] = 'Maharaは次のパス内でのみファイルを開くことができます: %s';
 $string['openbasedirwarning'] = 'いくつかの外部サイトへのリクエストを完了できない可能性があります。特にフィードの更新が停止してしまう場合があります。';
-$string['resavecustomthemes'] = 'あなたの最新のアップグレードが設定可能なテーマの正常表示を停止したようです。設定可能なテーマをアップグレードするには「管理 → インスティテューション → 設定」に移動してインスティテューションの設定を変更した後、フォームを保存してください。<br />次のインスティテューションが設定可能なテーマを使用しています:';
+$string['resavecustomthemes'] = 'あなたの直近のアップグレードが設定可能テーマの正常表示を停止したようです。設定可能テーマをアップグレードするには「管理 → インスティテューション → 設定」に移動してインスティテューションの設定を変更した後、フォームを保存してください。<br />次のインスティテューションが設定可能テーマを使用しています:';
 $string['gdlibrarylacksgifsupport'] = 'インストール済みPHP GDライブラリはGIFイメージの作成および読み込みをサポートしていません。GIFイメージのアップロードにはフルサポートが必要です。';
 $string['gdlibrarylacksjpegsupport'] = 'インストール済みPHP GDライブラリはJPEG/JPGイメージの作成および読み込みをサポートしていません。JPEG/JPGイメージのアップロードにはフルサポートが必要です。';
 $string['gdlibrarylackspngsupport'] = 'インストール済みPHP GDライブラリはPNGイメージの作成および読み込みをサポートしていません。PNGイメージのアップロードにはフルサポートが必要です。';
