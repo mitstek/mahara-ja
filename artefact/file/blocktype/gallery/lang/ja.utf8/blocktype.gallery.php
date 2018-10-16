@@ -52,7 +52,7 @@ $string['previewwidth'] = '最大写真幅';
 $string['previewwidthdesc'] = 'Slimbox2で表示される場合、写真がリサイズされる最大幅を設定してください。';
 $string['flickrsettings'] = 'Flickr設定';
 $string['flickrapikey'] = 'Flickr APIキー';
-$string['flickrapikeydesc'] = 'あなたがFlickrのフォトセットを表示するには有効なFlickr APIキーが必要です。。<a href="http://www.flickr.com/services/api/keys/apply/" target="_blank">あなたのキーをオンラインで適用してください</a>。';
+$string['flickrapikeydesc'] = 'あなたがFlickrのフォトセットを表示するには有効なFlickr APIキーが必要です。<a href="http://www.flickr.com/services/api/keys/apply/" target="_blank">あなたのキーをオンラインで適用してください</a>。';
 $string['flickrsets'] = 'Flickrセット';
 $string['pbsettings'] = 'Photobucket設定';
 $string['pbapikey'] = 'Photobucket APIキー';
