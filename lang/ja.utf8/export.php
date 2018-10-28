@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-02-05 16:17:20 UTC
+ * @updated    2018-10-28 08:08:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,7 +13,7 @@
 
 defined('INTERNAL') || die();
 
-$string['allmydata'] = '私のすべてのデータ';
+$string['allmydata'] = '私のデータすべて';
 $string['chooseanexportformat'] = 'エクスポートフォーマットを選択する';
 $string['clicktopreview'] = 'クリックしてプレビューする';
 $string['collectionstoexport'] = 'エクスポートするコレクション';
