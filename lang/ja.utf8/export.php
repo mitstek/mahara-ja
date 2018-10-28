@@ -28,7 +28,7 @@
 
 defined('INTERNAL') || die();
 
-$string['allmydata'] = '私のすべてのデータ';
+$string['allmydata'] = '私のデータすべて';
 $string['chooseanexportformat'] = 'エクスポートフォーマットを選択する';
 $string['clicktopreview'] = 'クリックしてプレビューする';
 $string['creatingzipfile'] = 'ZIPファイル作成中';
