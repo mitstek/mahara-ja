@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-10-28 08:08:33 UTC
+ * @updated    2018-10-30 07:03:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -40,9 +40,9 @@ $string['justsomecollections'] = 'いくつかのマイコレクションのみ'
 $string['justsomeviews'] = 'いくつかのマイページのみ';
 $string['includecomments'] = 'コメントを含む';
 $string['includecommentsdescription'] = 'すべてのコメントがHTMLエクスポートに含まれます。';
-$string['nonexistentfile'] = '存在しないファイルの追加を試みました: %s';
-$string['nonexistentprofileicon'] = '存在しないプロファイルアイコン「 %s 」を追加しようとしました。';
-$string['nonexistentresizedprofileicon'] = '存在しないリサイズ済みプロファイルアイコン「 %s 」を追加しようとしました。';
+$string['nonexistentfile'] = '存在しないファイル「 %s 」の追加を試みました。';
+$string['nonexistentprofileicon'] = '存在しないプロファイルアイコン「 %s 」の追加を試みました。';
+$string['nonexistentresizedprofileicon'] = '存在しないリサイズ済みプロファイルアイコン「 %s 」の追加を試みました。';
 $string['unabletocopyartefact'] = 'アーティファクトファイル「 %s 」をコピーできませんでした。';
 $string['unabletocopyprofileicon'] = 'プロファイルアイコン「 %s 」をコピーできませんでした。';
 $string['unabletocopyresizedprofileicon'] = 'リサイズ済みプロファイルアイコン「 %s 」をコピーできませんでした。';
@@ -51,7 +51,7 @@ $string['couldnotcreatestaticdirectory'] = '静的ディレクトリ「 %s 」�
 $string['couldnotcopystaticfile'] = '静的ファイル「 %s 」をコピーできませんでした。';
 $string['couldnotcopyattachment'] = '添付「 %s 」をコピーできませんでした。';
 $string['couldnotcopyfilesfromto'] = 'ディレクトリ「 %s 」から「 %s 」にファイルをコピーできませんでした。';
-$string['couldnotwriteLEAPdata'] = 'ファイルにLeap2Aデータを書き込めませんでした。';
+$string['couldnotwriteLEAPdata'] = 'Leap2Aデータをファイルに書き込めませんでした。';
 $string['pleasewaitwhileyourexportisbeinggenerated'] = 'あなたのエクスポートを生成しています。お待ちください ...';
 $string['reverseselection'] = 'すべての選択を解除する';
 $string['selectall'] = 'すべてを選択する';
