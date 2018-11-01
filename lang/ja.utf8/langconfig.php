@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['pieform_calendar_dateformat'] = '%%Y/%%m/%%d';
 $string['pieform_calendar_timeformat'] = '%%H:%%M';
 $string['strftimedate'] = '%%Y年 %%m月 %%d日';
-$string['strftimedateshort'] = '%%m/%%d';
+$string['strftimedateshort'] = '%%Y/%%m/%%d';
 $string['strftimedatetime'] = '%%Y年 %%m月 %%d日 %%H:%%M';
 $string['strftimedatetimeshort'] = '%%Y/%%m/%%d %%H:%%M';
 $string['strftimedaydate'] = '%%Y年 %%m月 %%d日(%A)';
