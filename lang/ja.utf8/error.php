@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-11-01 06:29:06 UTC
+ * @updated    2018-11-01 06:40:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,6 +20,7 @@ $string['mysqldbextensionnotloaded'] = 'あなたのサーバ設定にはmysqli�
 $string['mysqlmodulenolongersupported1'] = 'あなたのサーバ設定にはmysqli拡張モジュールが含まれていません。このモジュールがphp.iniに設定されているか確認してください。インストールされていない場合、インストールしてください。Maharaはバージョン16.10でmysql拡張モジュールをサポートを終了しました。';
 $string['unknowndbtype'] = 'あなたのサーバ設定は不明なデータベースタイプを参照しています。有効な値は「postgres」および「mysql」です。config.php内のデータベースタイプ設定を変更してください。';
 $string['domextensionnotloaded'] = 'あなたのサーバ設定にはdom拡張モジュールが含まれていません。様々なソースのXMLデータを構文解析するためMaharaではこのモジュールを必要とします。';
+$string['mbstringextensionnotloaded'] = 'あなたのサーバ設定にはmbstring拡張モジュールが含まれていません。各種言語のマルチバイトストリングを解析するためMaharaではこのモジュールを必要とします。';
 $string['xmlextensionnotloaded'] = 'あなたのサーバ設定には %s 拡張モジュールが含まれていません。様々なソースのXMLデータを構文解析するためMaharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているか確認してください。インストールされていない場合、インストールしてください。';
 $string['gdextensionnotloaded'] = 'あなたのサーバ設定にはgd拡張モジュールが含まれていません。アップロードされたイメージのリサイズおよび他の処理を実行するためMaharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているか確認してください。インストールされていない場合、インストールしてください。';
 $string['gdfreetypenotloaded'] = 'あなたのサーバ設定のgd拡張モジュールにはFreetypeサポートが含まれていません。gd拡張モジュールでFreetypeサポートが設定されているかどうか確認してください。';
