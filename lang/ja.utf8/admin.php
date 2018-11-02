@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-10-23 05:55:57 UTC
+ * @updated    2018-11-02 05:33:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -747,6 +747,7 @@ $string['usersuspended'] = 'ユーザが利用停止されました。';
 $string['userunsuspended'] = 'ユーザの利用停止が解除されました。';
 $string['expiredusers'] = '有効期限切れユーザ';
 $string['expired'] = '有効期限切れ';
+$string['expires'] = '有効期限切れ';
 $string['unexpireusers'] = '有効期限切れユーザを復活させる';
 $string['usersreactivated'] = 'ユーザを復活しました。';
 $string['accountsettings'] = 'アカウント設定';
@@ -1005,11 +1006,12 @@ $string['denyregistrationmessage'] = 'ユーザの登録を拒否します。本
 $string['nopendingregistrations'] = 'このインスティテューションの登録保留はありません。';
 $string['pendingregistration'] = '登録保留';
 $string['pendingregistrations'] = '登録保留';
-$string['pendingregistrationspagedescription'] = '<p>このページでは自己登録およびあなたのインスティテューションのメンバーシップをリクエストしたユーザを閲覧すること、登録を承認または拒否することができます。<p>
-
-<p>登録を承認することであなたはユーザをインスティテューションのメンバーに追加することになります。承認されたユーザにはアカウントの有効化に関してさらなるインストラクションを記載したメールが送信されます。登録を拒否した場合、申請が拒否された旨の自動返信メールが送信されます。</p>';
+$string['pendingregistrationspagedescription1'] = '<p>このページではあなたのインスティテューションに自己登録およびメンバーシップをリクエストしたユーザを閲覧すること、登録を承認または拒否することができます。<p>
+<p>登録を承認した場合、ユーザにはアカウントの有効化に関して詳細なインストラクションを記載した通知が送信されます。ユーザが有効化リンクをクリックした場合、インスティテューションのメンバーとして追加されます。有効化リンクは24時間で有効期限となりユーザの詳細は削除されます。まだ登録したい場合、同じ手続きを再度開始する必要があります。</p>
+<p>登録を拒否した場合、申請が却下された旨の自動返信メールによりユーザに通知されます。</p>';
 $string['pendingregistrationdesc'] = 'あなたのインスティテューションへの自己登録ユーザのメンバーシップを承認または拒否します。';
 $string['pendingdeletiondesc'] = '自分のアカウントを削除したいユーザの削除を承認または拒否します。';
+$string['pendingusercompletion'] = '承認送信済み、ユーザ完了待ち';
 $string['nosuchinstitution'] = 'そのようなインスティテューションはありません。';
 $string['registrationapprovedsuccessfully'] = '登録が正常に承認されました。';
 $string['registrationdeniedreason'] = '拒否理由';
