@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-08-15 04:35:09 UTC
+ * @updated    2018-11-05 08:57:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -28,8 +28,8 @@ $string['readylabel'] = '準備完了';
 $string['restprotocolenabled'] = 'RESTプロトコル有効';
 $string['servicenotallowed'] = 'あなたが提供した認証情報ではこの機能にアクセスするための権限を与えることはできません。';
 $string['webserviceproviderenabled'] = '内向きのウェブサービスリクエスト許可';
-$string['mytokensmenutitle'] = 'アプリ';
-$string['mytokenspagetitle'] = 'アプリケーション';
+$string['mytokensmenutitle1'] = 'Maharaモバイル';
+$string['mytokenspagetitle1'] = 'Maharaモバイルトークン';
 $string['mytokenspagedesc'] = 'これらのアプリケーションはあなたのアカウントにアクセスすることができます。';
 $string['nopersonaltokens'] = 'あなたはどのアプリケーションにもアクセス権を与えていません。';
 $string['clientinfo'] = 'アプリ';

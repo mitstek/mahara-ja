@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-08-23 04:49:55 UTC
+ * @updated    2018-11-05 09:08:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -36,6 +36,7 @@ $string['confighelp'] = 'このブロックで表示するバッジコレクシ�
 $string['obppublicbadges'] = 'オープンバッジパスポート内すべてのパブリックバッジ';
 $string['title_backpack'] = 'Mozillaバックパック';
 $string['title_passport'] = 'オープンバッジパスポート';
+$string['title_badgr'] = 'バッジャパッケージ';
 $string['fetchingbadges'] = 'エントリを取得しています。しばらくお待ちください。';
 $string['missingbadgesources'] = 'ソース設定がありません。あなたのconfig.phpファイルに追加してください。例:
 <br />
@@ -43,5 +44,15 @@ $string['missingbadgesources'] = 'ソース設定がありません。あなた�
 $cfg->openbadgedisplayer_source = \'{"backpack":"https://backpack.openbadges.org/"}\'';
 $string['selectall'] = 'すべてを選択する';
 $string['selectnone'] = 'すべての選択を解除する';
+$string['featuredisabled'] = 'openbadgedisplayerブロックタイプが有効ではありません。';
+$string['badgrsourcemissing'] = 'バッジャがソース設定にありません。';
+$string['badgrusername'] = 'バッジャユーザ名';
+$string['badgrpassword'] = 'バッジャパスワード';
+$string['badgrtokentitle'] = 'バッジャ';
+$string['badgrtoken'] = 'バッジャトークン: %s';
+$string['badgrtokenadded'] = 'バッジャトークンがアカウントに追加されました。';
+$string['badgrtokendeleted'] = 'バッジャトークンが削除されました。';
+$string['badgrtokennotfound'] = '提供された認証情報ではバッジャトークンは見つかりませんでした。';
+$string['nobadgruid'] = 'バッジャを使用するためトークンが必要です。「設定 → バッジャトークンアクセス」に移動してあなたのトークンを取得してください。';
 
 ?>
