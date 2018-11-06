@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-09-20 16:12:53 UTC
+ * @updated    2018-11-06 01:22:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,5 +18,7 @@ $string['collection'] = 'コレクション';
 $string['title'] = 'ナビゲーション';
 $string['description'] = 'ページコレクションのナビゲーションです (「ポートフォリオ -> コレクション」、グループ内の場合はコレクションタブをご覧ください)。';
 $string['nocollections1'] = 'コレクションはありません。<a href="%s">コレクションを作成してください</a>。';
+$string['copytoall'] = 'すべてのページに追加する';
+$string['copytoalldesc'] = 'このページが属しているコレクション内の現在のページでナビゲーションブロックが追加されていなページすべてにナビゲーションブロックを追加します。';
 
 ?>
