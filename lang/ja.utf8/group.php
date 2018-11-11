@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-06-08 02:21:57 UTC
+ * @updated    2018-11-11 03:55:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -24,11 +24,11 @@ $string['groupmemberrequests'] = '保留中メンバーシップリクエスト'
 $string['membershiprequests'] = 'メンバーシップリクエスト';
 $string['sendinvitation'] = '招待状を送信する';
 $string['invitetogroupsubject'] = 'あなたはグループへの参加を招待されました。';
-$string['invitetogroupmessage'] = '%s がグループ「 %s 」へのあなたの参加を招待しました。詳細は下記リンクをクリックしてください。';
+$string['invitetogroupmessage'] = '%s がグループ「 %s 」へのあなたの参加を招待しました。詳細は以下のリンクをクリックしてください。';
 $string['inviteuserfailed'] = 'ユーザの招待に失敗しました。';
 $string['userinvited'] = '招待状が送信されました。';
 $string['addedtogroupsubject'] = 'あなたはグループに追加されました。';
-$string['addedtogroupmessage'] = '%s があなたをグループ「 %s 」に追加しました。グループを表示するには下記リンクをクリックしてください。';
+$string['addedtogroupmessage'] = '%s があなたをグループ「 %s 」に追加しました。グループを表示するには以下のリンクをクリックしてください。';
 $string['adduserfailed'] = 'ユーザの追加に失敗しました。';
 $string['useradded'] = 'ユーザが追加されました。';
 $string['editgroup'] = 'グループを編集する';
@@ -242,10 +242,10 @@ $string['friendformrejectsuccess'] = '拒否されたフレンドリクエスト
 $string['addtofriendslist'] = 'フレンドリストに追加する';
 $string['requestfriendship'] = 'フレンドシップをリクエストする';
 $string['addedtofriendslistsubject'] = '%s があなたをフレンドとして追加しました。';
-$string['addedtofriendslistmessage'] = '%s があなたをフレンドとして追加しました。これはあなたのフレンドリストに %s が追加されたことも意味します。追加されたユーザのプロファイルページを閲覧するには下記リンクをクリックしてください。';
+$string['addedtofriendslistmessage'] = '%s があなたをフレンドとして追加しました。これはあなたのフレンドリストに %s が追加されたことも意味します。追加されたユーザのプロファイルページを閲覧するには以下のリンクをクリックしてください。';
 $string['requestedfriendlistsubject'] = '新しいフレンドリクエスト';
-$string['requestedfriendlistinboxmessage'] = '%s がフレンドとして追加するようあなたにリクエストしました。あなたは下記リンクをクリックするか、あなたのフレンドリストページに移動することでフレンドとして追加することができます。';
-$string['requestedfriendlistmessageexplanation'] = '%s がフレンドとして追加するようあなたにリクエストしました。あなたは下記リンクをクリックするか、あなたのフレンドリストページに移動することでフレンドとして追加することができます。リクエストの理由は次のとおりです:';
+$string['requestedfriendlistinboxmessage'] = '%s がフレンドとして追加するようあなたにリクエストしました。あなたは以下のリンクをクリックするか、あなたのフレンドリストページに移動することでフレンドとして追加することができます。';
+$string['requestedfriendlistmessageexplanation'] = '%s がフレンドとして追加するようあなたにリクエストしました。あなたは以下のリンクをクリックするか、あなたのフレンドリストページに移動することでフレンドとして追加することができます。リクエストの理由は次のとおりです:';
 $string['removefromfriendslist'] = 'フレンドリストから削除する';
 $string['removefromfriends'] = '%s をフレンドリストから削除する';
 $string['removedfromfriendslistsubject'] = 'フレンドリストから削除されました。';
