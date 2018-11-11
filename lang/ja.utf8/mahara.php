@@ -386,7 +386,7 @@ $string['forgotusernamepasswordemailmessagetext'] = '%s さん
 
 あなたのユーザ名は %s です。
 
-あなたのパスワードをリセットしたい場合、下記リンクをクリックしてください:
+あなたのパスワードをリセットしたい場合、以下のリンクをクリックしてください:
 
 %s
 
@@ -403,7 +403,7 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたのユーザ名は <strong>%s</strong> です。</p>
 
-<p>あなたのパスワードをリセットしたい場合、下記リンクをクリックしてください:</p>
+<p>あなたのパスワードをリセットしたい場合、以下のリンクをクリックしてください:</p>
 
 <p><a href="%s">%s</a></p>
 
@@ -426,7 +426,7 @@ $string['noinstitutionsetpassemailmessagetext'] = '%s さん
 あなたは %s のメンバーではなくなりました。
 続けて %s を現在のユーザ名 %s で使用することができますがアカウントに新しいパスワードを設定する必要があります。
 
-パスワードリセット処理を続けるには下記リンクをクリックしてください。
+パスワードリセット処理を続けるには以下のリンクをクリックしてください。
 
 %sforgotpass.php?key=%s
 
@@ -442,7 +442,7 @@ $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 <p>あなたは %s のメンバーではなくなりました。</p>
 <p>続けて %s を現在のユーザ名 %s で使用することができますがアカウントに新しいパスワードを設定する必要があります。</p>
 
-<p>パスワードリセット処理を続けるには下記リンクをクリックしてください。</p>
+<p>パスワードリセット処理を続けるには以下のリンクをクリックしてください。</p>
 
 <p><a href="%sforgotpass.php?key=%s">%sforgotpass.php?key=%s</a></p>
 
