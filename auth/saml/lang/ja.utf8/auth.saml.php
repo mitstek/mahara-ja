@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-10-04 09:38:42 UTC
+ * @updated    2018-11-13 03:32:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,12 +15,18 @@ defined('INTERNAL') || die();
 
 $string['attributemapfilenotamap'] = '属性マップファイル「 %s 」で属性マップが定義されていません。';
 $string['attributemapfilenotfound'] = '属性マップファイルがないか書き込み権がありません: %s';
-$string['certificate1'] = 'SAMLサービスプロバイダ署名および暗号化認証';
+$string['currentcertificate'] = 'SAMLサービスプロバイダ署名および暗号化証明書';
+$string['oldcertificate'] = '古いSAMLサービスプロバイダ署名および暗号化証明書';
+$string['newcertificate'] = '新しいSAMLサービスプロバイダ署名および暗号化証明書';
 $string['confirmdeleteidp'] = '本当にこのアイデンティティプロバイダを削除してもよろしいですか?';
 $string['spmetadata'] = 'サービスプロバイダメタデータ';
 $string['metadatavewlink'] = '<a href="%s">メタデータを表示する</a>';
+$string['newpublickey'] = '新しい公開鍵';
 $string['ssphpnotconfigured'] = 'SimpleSAMLPHPが設定されていません。';
 $string['manage_certificate2'] = 'これはSAMLサービスプロバイダの一部として生成された証明書です。';
+$string['manage_new_certificate'] = 'これはSAMLサービスプロバイダの一部として生成された新しい証明書です。
+<br />
+新旧証明書ともに有効です。すべてのアデンティティプロバイダに新しい証明書を通知した後、あなたは「古い証明書を削除する」ボタンで古い証明書を削除することができます。';
 $string['nullprivatecert'] = '秘密鍵を生成または保存できませんでした。';
 $string['nullpubliccert'] = '公開鍵を生成または保存できませんでした。';
 $string['defaultinstitution'] = 'デフォルトインスティテューション';
@@ -96,5 +102,10 @@ $string['sha256'] = 'SHA256 (デフォルト)';
 $string['sha384'] = 'SHA384';
 $string['sha512'] = 'SHA512';
 $string['sigalgo'] = '署名アルゴリズム';
+$string['createnewkeytext'] = '新しい鍵/証明書を作成する';
+$string['newkeycreated'] = '新しい鍵/証明書が作成されました。';
+$string['deleteoldkeytext'] = '古い鍵/証明書を削除する';
+$string['oldkeydeleted'] = '古い鍵/証明書が削除されました。';
+$string['keyrollfailed'] = '古い鍵/証明書の削除に失敗しました。';
 
 ?>
