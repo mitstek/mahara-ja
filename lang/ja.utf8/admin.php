@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-11-02 05:33:17 UTC
+ * @updated    2018-11-14 14:31:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1072,6 +1072,7 @@ $string['bulkprobationpointssuccess'] = '%1$d ユーザに保護観察ポイン�
 $string['selectedusers'] = '選択済みユーザ';
 $string['selectednusers'] = '%s ユーザが選択されました。';
 $string['remoteuser'] = 'リモートユーザ名';
+$string['quotapercent'] = 'クオータ使用量';
 $string['userreports'] = 'ユーザレポート';
 $string['userreportsdescription'] = 'あなたが検索ページで選択したユーザ情報を表示またはダウンロードします。';
 $string['unabletodeleteself1'] = 'あなた自身を削除することはできません。';
