@@ -108,7 +108,7 @@ $string['tagupdatedsuccessfully'] = 'タグが正常に更新されました。'
 $string['tagdeletedsuccessfully'] = 'タグが正常に削除されました。';
 $string['selfsearch'] = '私のポートフォリオを検索する';
 $string['quota'] = 'クオータ';
-$string['quotausage'] = 'あなたの使用済みクオータは<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
+$string['quotausage'] = 'あなたのクオータ使用量は<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
 $string['updatefailed'] = 'アップデートに失敗しました。';
 $string['strftimenotspecified'] = '未設定';
 $string['invitedgroup'] = '招待されたグループ';
