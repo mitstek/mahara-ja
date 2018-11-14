@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-11-14 14:31:16 UTC
+ * @updated    2018-11-14 23:14:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -775,7 +775,7 @@ $string['unexpiredesc'] = 'このアカウントを再度有効化するには�
 $string['userdeletedsuccessfully'] = 'ユーザが正常に削除されました。';
 $string['confirmdeleteuser'] = '本当にこのユーザを削除してもよろしいですか?';
 $string['filequota1'] = 'ファイルクオータ';
-$string['quotaused'] = '使用済みクオータ';
+$string['quotaused'] = 'クオータ使用量';
 $string['filequotadescription'] = 'ユーザのファイルエリアの利用可能な合計保存領域です。';
 $string['probationbulkconfirm'] = '本当にこれらのユーザのスパム保護観察ステータスを変更してもよろしいですか?';
 $string['probationbulksetspamprobation'] = 'スパム保護観察を設定する';
