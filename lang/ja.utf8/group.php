@@ -20,7 +20,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2010-05-15 05:22:59 UTC
+ * @updated    2018-11-18 15:53:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
@@ -43,7 +43,7 @@ $string['useradded'] = 'ユーザが追加されました。';
 $string['editgroup'] = 'グループを編集する';
 $string['savegroup'] = 'グループを保存する';
 $string['groupsaved'] = 'グループが正常に保存されました。';
-$string['invalidgroup'] = 'グループがありません。';
+$string['invalidgroup'] = 'グループが存在しません。';
 $string['canteditdontown'] = 'あなたの所有ではないためこのグループを編集できません。';
 $string['groupdescription'] = 'グループ説明';
 $string['membershiptype'] = 'グループメンバーシップタイプ';
@@ -132,7 +132,7 @@ $string['youowngroup'] = 'あなたはこのグループのオーナーです。
 $string['groupsnotin'] = '私が参加していないグループ';
 $string['allgroups'] = 'すべてのグループ';
 $string['trysearchingforgroups'] = '参加するには%sグループを探す%sをお試しください!';
-$string['nogroupsfound'] = 'グループがありません :(';
+$string['nogroupsfound'] = 'グループが見つかりませんでした :(';
 $string['group'] = 'グループ';
 $string['groups'] = 'グループ';
 $string['notamember'] = 'あなたはこのグループのメンバーではありません。';
