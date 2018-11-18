@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-02-14 06:13:20 UTC
+ * @updated    2018-11-18 15:42:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -31,7 +31,7 @@ $string['useradded'] = 'ユーザが追加されました。';
 $string['editgroup'] = 'グループを編集する';
 $string['savegroup'] = 'グループを保存する';
 $string['groupsaved'] = 'グループが正常に保存されました。';
-$string['invalidgroup'] = 'グループがありません。';
+$string['invalidgroup'] = 'グループが存在しません。';
 $string['canteditdontown'] = 'あなたの所有ではないためこのグループを編集できません。';
 $string['groupdescription'] = 'グループ説明';
 $string['groupurl'] = 'グループホームページURL';
@@ -208,7 +208,7 @@ $string['groupsnotin'] = '私が参加していないグループ';
 $string['allgroups'] = 'すべてのグループ';
 $string['allgroupmembers'] = 'グループメンバーすべて';
 $string['trysearchingforgroups'] = '参加するには%sグループを探す%sをお試しください。';
-$string['nogroupsfound'] = 'グループがありません。';
+$string['nogroupsfound'] = 'グループが見つかりませんでした。';
 $string['group'] = 'グループ';
 $string['Group'] = 'グループ';
 $string['groups'] = 'グループ';
