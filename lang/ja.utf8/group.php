@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-11-18 15:31:44 UTC
+ * @updated    2018-11-18 15:33:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -212,7 +212,7 @@ $string['groupsnotin'] = '私が参加していないグループ';
 $string['allgroups'] = 'すべてのグループ';
 $string['allgroupmembers'] = 'グループメンバーすべて';
 $string['trysearchingforgroups'] = '参加するには%sグループを探す%sをお試しください。';
-$string['nogroupsfound'] = 'グループがありません。';
+$string['nogroupsfound'] = 'グループが見つかりませんでした。';
 $string['group'] = 'グループ';
 $string['Group'] = 'グループ';
 $string['groups'] = 'グループ';
