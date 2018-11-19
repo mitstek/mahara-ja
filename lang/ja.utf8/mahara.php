@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-11-14 23:14:25 UTC
+ * @updated    2018-11-19 13:50:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -129,6 +129,7 @@ $string['sortorder'] = 'ファイルの並べ替え順';
 $string['All'] = 'すべて';
 $string['Allinstitutions'] = 'すべてのインスティテューション';
 $string['none'] = 'なし';
+$string['samepage'] = '同一ページ';
 $string['selectall'] = 'すべてを選択する';
 $string['selectnone'] = 'すべての選択を解除する';
 $string['enable'] = '有効にする';
