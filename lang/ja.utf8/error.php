@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-11-01 06:40:38 UTC
+ * @updated    2018-11-20 23:32:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -140,5 +140,6 @@ $string['siteoutofsyncfor'] = 'このサイトには %s ファイルが示すも
 $string['updatesitetimezone'] = '現在のサイトのタイムゾーンを「サイト設定」 → 「サイトオプション」 → 「サイト設定」で設定する必要があります。あなたのconfig.phpに「$cfg->dbtimezone」行がある場合、削除した後、サイトオプションで設定してください。';
 $string['pluginnotactive1'] = 'プラグイン「 %s 」が有効にされていません。有効にするには「管理」 → 「拡張機能」 → 「プラグイン管理」に移動してください。';
 $string['fileuploadtoobig'] = '「 %s 」より大きいためファイルアップロードが大きすぎます。';
+$string['sideblockmenuclash'] = 'サイドブロック名「 %s 」はすでに使用されています。どれかをリネームしてください。';
 
 ?>
