@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-11-20 10:07:23 UTC
+ * @updated    2018-11-25 07:07:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -101,19 +101,19 @@ $string['viewnotifydescription2'] = '新しいページが作成された場合�
 $string['commentnotify'] = 'コメント通知';
 $string['commentnotifydescription1'] = 'グループページおよびアーティファクトにコメントが投稿された場合、どのグループメンバーに通知するのか選択してください。';
 $string['allowsendnow'] = 'フォーラム投稿をすぐに送信する';
-$string['allowsendnowdescription1'] = 'グループメンバーすべてがフォーラム投稿をすぐに送信するよう選択することができます。この設定を無効にした場合、グループ管理者、チューターおよびモデレータのみ、フォーラム投稿をすぐに送信することができます。';
+$string['allowsendnowdescription1'] = 'すべてのグループメンバーがフォーラム投稿をすぐに送信するよう選択することができます。この設定を無効にした場合、グループ管理者、チューターおよびモデレータのみ、フォーラム投稿をすぐに送信することができます。';
 $string['hiddengroup'] = 'グループを隠す';
 $string['hiddengroupdescription1'] = 'このグループを「グループを探す」ページで隠します。';
 $string['hidemembers'] = 'メンバーシップを隠す';
 $string['hidemembersdescription'] = '非メンバーからグループのメンバーシップ一覧を隠します。';
 $string['hidemembersfrommembers'] = 'メンバーからメンバーシップを隠す';
-$string['hidemembersfrommembersdescription1'] = 'このグループのメンバーを隠します。グループ管理者のみメンバー一覧を閲覧できます。管理者はグループホームページに表示されます。';
+$string['hidemembersfrommembersdescription1'] = 'このグループのメンバーを隠します。グループ管理者のみメンバー一覧を閲覧することができます。管理者はグループホームページに表示されます。';
 $string['friendinvitations'] = 'フレンドの招待';
 $string['invitefriendsdescription1'] = 'このグループへのフレンドの参加をメンバーが招待できるようにします。この設定にかかわらず、管理者は常に誰にでも招待状を送信することができます。';
 $string['invitefriends'] = 'フレンドを招待する';
 $string['Recommendations'] = 'レコメンデーション';
 $string['suggestfriendsdescription1'] = 'このグループへの参加レコメンデーションをメンバーがグループホームページのボタンでフレンドに送信できるようにします。';
-$string['suggesttofriends'] = 'フレンドに提案する';
+$string['suggesttofriends'] = 'フレンドに勧める';
 $string['userstosendrecommendationsto'] = 'レコメンデーションが送信されるユーザ';
 $string['suggestgroupnotificationsubject'] = 'あなたのグループ参加を %s が提案しました。';
 $string['suggestgroupnotificationmessage'] = 'あなたのグループ参加を %s が提案しました: グループ「 %s 」(%s)';
