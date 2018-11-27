@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-11-25 07:07:55 UTC
+ * @updated    2018-11-27 02:10:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -118,17 +118,17 @@ $string['userstosendrecommendationsto'] = 'レコメンデーションが送信�
 $string['suggestgroupnotificationsubject'] = 'あなたのグループ参加を %s が提案しました。';
 $string['suggestgroupnotificationmessage'] = 'あなたのグループ参加を %s が提案しました: グループ「 %s 」(%s)';
 $string['nrecommendationssent'] = '%d レコメンデーションが送信されました。';
-$string['suggestinvitefriends'] = 'あなたはフレンドの招待およびレコメンデーションの両方を同時に有効にすることはできません。';
-$string['suggestfriendsrequesterror'] = 'あなたはオープンまたはリクエストグループでのみ、フレンドのレコメンデーションを有効にできます。';
+$string['suggestinvitefriends'] = 'あなたはフレンド招待およびレコメンデーションを同時に有効にすることはできません。';
+$string['suggestfriendsrequesterror'] = 'あなたはオープンまたはリクエストグループでのみフレンドのレコメンデーションを有効にできます。';
 $string['editwindowendbeforestart'] = '終了日時は開始日時の後に設定してください。';
 $string['editgroupmembership'] = 'グループメンバーシップを編集する';
 $string['editmembershipforuser'] = '%s のグループメンバーシップを編集する';
 $string['changedgroupmembership'] = 'グループメンバーシップが正常に更新されました。';
 $string['changedgroupmembershipsubject'] = 'あなたのグループメンバーシップが変更されました。';
-$string['addedtongroupsmessage'] = '%s があなたをグループに追加しました:
+$string['addedtongroupsmessage'] = '%2$s があなたをグループに追加しました:
 
 %3$s';
-$string['removedfromngroupsmessage'] = '%s があなたをグループから削除しました:
+$string['removedfromngroupsmessage'] = '%2$s があなたをグループから削除しました:
 
 %3$s';
 $string['cantremovememberfromgroup'] = 'あなたはユーザを %s から削除できません。';
