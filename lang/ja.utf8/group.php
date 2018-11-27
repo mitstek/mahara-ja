@@ -87,10 +87,10 @@ $string['editgroupmembership'] = 'グループメンバーシップを編集す�
 $string['editmembershipforuser'] = '%s のグループメンバーシップを編集する';
 $string['changedgroupmembership'] = 'グループメンバーシップが正常に更新されました。';
 $string['changedgroupmembershipsubject'] = 'あなたのグループメンバーシップが変更されました。';
-$string['addedtogroupsmessage'] = '%s があなたをグループに追加しました:
+$string['addedtogroupsmessage'] = '%2$s があなたをグループに追加しました:
 
 %s';
-$string['removedfromgroupsmessage'] = '%s があなたをグループから削除しました:
+$string['removedfromgroupsmessage'] = '%2$s があなたをグループから削除しました:
 
 %s';
 $string['cantremoveuserisadmin'] = 'チューターは管理者および他のチューターを削除することはできません。';
