@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-10-05 00:43:40 UTC
+ * @updated    2018-11-29 05:42:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,6 +17,8 @@ $string['addpostsuccess'] = '投稿が正常に追加されました。';
 $string['addtitle'] = 'フォーラムを追加する';
 $string['addtopic'] = 'トピックを追加する';
 $string['addtopicsuccess'] = 'トピックが正常に追加されました。';
+$string['allowunsubscribe'] = 'ユーザの購読解除を許可する';
+$string['allowunsubscribedescription'] = 'ユーザがフォーラムおよびトピックから購読解除できるかどうか選択してください。';
 $string['autosubscribeusers'] = 'ユーザを自動的にメール購読させる';
 $string['autosubscribeusersdescription'] = 'このフォーラムにグループユーザが自動的にメール購読されるかどうか選択してください。';
 $string['Body'] = '本文';
@@ -34,6 +36,7 @@ $string['cantfindtopic'] = 'ID %s のトピックが見つかりませんでし�
 $string['cantmakenonobjectionable'] = 'あなたはこの投稿を好ましくない投稿としてマークすることはできません。';
 $string['cantviewforums'] = 'あなたはこのグループ内のフォーラムを閲覧できません。';
 $string['cantviewtopic'] = 'あなたはこのフォーラム内のトピックを閲覧できません。';
+$string['cantunsubscribe'] = 'あなたはフォーラムを購読解除することはできません。';
 $string['chooseanaction'] = '処理を選択する ...';
 $string['clicksetsubject'] = '件名を入力するにはここをクリックしてください。';
 $string['Closed'] = '閉鎖';
