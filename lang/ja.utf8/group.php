@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-11-27 02:10:02 UTC
+ * @updated    2018-12-01 22:08:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -169,7 +169,7 @@ $string['groupinvitedeclined'] = '招待が正常に拒否されました。';
 $string['acceptinvitegroup'] = '承認';
 $string['declineinvitegroup'] = '拒否';
 $string['leftgroup'] = 'あなたはこのグループから離れました。';
-$string['leftgroupfailed'] = 'グループを離れることができませんでした。';
+$string['leftgroupfailed'] = 'グループから離れることができませんでした。';
 $string['couldnotleavegroup'] = 'あなたはこのグループから離れることはできません。';
 $string['joinedgroup'] = 'あなたはグループメンバーになりました。';
 $string['couldnotjoingroup'] = 'あなたはこのグループに参加できません。';
@@ -207,10 +207,10 @@ $string['deletespecifiedgroup'] = 'グループ「 %s 」を削除する';
 $string['requestjoinspecifiedgroup'] = 'グループ「 %s 」への参加をリクエストする';
 $string['youaregroupmember'] = 'あなたはこのグループのメンバーです。';
 $string['youaregroupadmin'] = 'あなたはこのグループの管理者です。';
-$string['youowngroup'] = 'あなたはこのグループのオーナーです。';
+$string['youowngroup'] = 'あなたはこのグループを所有しています。';
 $string['groupsnotin'] = '私が参加していないグループ';
 $string['allgroups'] = 'すべてのグループ';
-$string['allgroupmembers'] = 'グループメンバーすべて';
+$string['allgroupmembers'] = 'すべてのグループメンバー';
 $string['trysearchingforgroups'] = '参加するには%sグループを探す%sをお試しください。';
 $string['nogroupsfound'] = 'グループが見つかりませんでした。';
 $string['group'] = 'グループ';
