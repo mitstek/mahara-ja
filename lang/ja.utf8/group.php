@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-12-01 22:08:26 UTC
+ * @updated    2018-12-03 21:22:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -22,11 +22,11 @@ $string['creategroup'] = 'グループを作成する';
 $string['copygroup'] = 'グループ「 %s 」をコピーする';
 $string['groupmemberrequests'] = '保留中メンバーシップリクエスト';
 $string['membershiprequests'] = 'メンバーシップリクエスト';
-$string['sendinvitation'] = '招待状を送信する';
+$string['sendinvitation'] = '招待を送信する';
 $string['invitetogroupsubject'] = 'あなたはグループへの参加を招待されました。';
 $string['invitetogroupmessage'] = '%s がグループ「 %s 」へのあなたの参加を招待しました。詳細は以下のリンクをクリックしてください。';
 $string['inviteuserfailed'] = 'ユーザの招待に失敗しました。';
-$string['userinvited'] = '招待状が送信されました。';
+$string['userinvited'] = '招待が送信されました。';
 $string['addedtogroupsubject'] = 'あなたはグループに追加されました。';
 $string['addedtogroupmessage'] = '%s があなたをグループ「 %s 」に追加しました。グループを表示するには以下のリンクをクリックしてください。';
 $string['adduserfailed'] = 'ユーザの追加に失敗しました。';
@@ -109,7 +109,7 @@ $string['hidemembersdescription'] = '非メンバーからグループのメン�
 $string['hidemembersfrommembers'] = 'メンバーからメンバーシップを隠す';
 $string['hidemembersfrommembersdescription1'] = 'このグループのメンバーを隠します。グループ管理者のみメンバー一覧を閲覧することができます。管理者はグループホームページに表示されます。';
 $string['friendinvitations'] = 'フレンドの招待';
-$string['invitefriendsdescription1'] = 'このグループへのフレンドの参加をメンバーが招待できるようにします。この設定にかかわらず、管理者は常に誰にでも招待状を送信することができます。';
+$string['invitefriendsdescription1'] = 'このグループへのフレンドの参加をメンバーが招待できるようにします。この設定にかかわらず、管理者は常に誰にでも招待を送信することができます。';
 $string['invitefriends'] = 'フレンドを招待する';
 $string['Recommendations'] = 'レコメンデーション';
 $string['suggestfriendsdescription1'] = 'このグループへの参加レコメンデーションをメンバーがグループホームページのボタンでフレンドに送信できるようにします。';
@@ -226,10 +226,10 @@ $string['deletegroupnotificationmessage'] = 'あなたはグループ %s (%s) �
 $string['hidegroupmembers'] = 'メンバーを隠す';
 $string['hideonlygrouptutors'] = 'チューターを隠す';
 $string['addmembers'] = 'メンバーを追加する';
-$string['invitationssent'] = '%d 通の招待状が送信されました。';
+$string['invitationssent'] = '%d 件の招待が送信されました。';
 $string['newmembersadded'] = '%d 名の新しいユーザが追加されました。';
 $string['potentialmembers'] = '潜在的なメンバー';
-$string['sendinvitations'] = '招待状を送信する';
+$string['sendinvitations'] = '招待を送信する';
 $string['userstobeadded'] = '追加されるユーザ';
 $string['userstobeinvited'] = '招待されるユーザ';
 $string['reasonoptional'] = '理由 (任意)';
@@ -345,7 +345,7 @@ $string['userremoved'] = 'ユーザが削除されました。';
 $string['About'] = 'About';
 $string['aboutgroup'] = '%s について';
 $string['Joined'] = '登録';
-$string['invitemembersdescription'] = 'あなたはユーザのプロファイルページ経由または<a href="%s">同時に複数の招待状を送信する</a>ことでユーザにこのグループへの参加を招待することができます。';
+$string['invitemembersdescription'] = 'あなたはユーザのプロファイルページ経由または<a href="%s">同時に複数の招待を送信する</a>ことでユーザにこのグループへの参加を招待することができます。';
 $string['membersdescription:controlled'] = 'これは「管理メンバーシップ」グループです。あなたはユーザをユーザプロファイルページより追加または<a href="%s">一度に多くのユーザを追加することができます</a>。';
 $string['submit'] = '送信';
 $string['allowssubmissions'] = '送信を許可する';
