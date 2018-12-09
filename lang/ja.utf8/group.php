@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-12-03 21:22:07 UTC
+ * @updated    2018-12-09 05:37:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -239,7 +239,7 @@ $string['friendformremovesuccess'] = '%s があなたのフレンドリストか
 $string['friendformrequestsuccess'] = '%s にフレンドシップリクエストが送信されました。';
 $string['friendformacceptsuccess'] = '承認されたフレンドリクエスト';
 $string['friendformrejectsuccess'] = '拒否されたフレンドリクエスト';
-$string['addtofriendslist'] = 'フレンドリストに追加する';
+$string['addtofriendslist'] = 'フレンドに追加する';
 $string['requestfriendship'] = 'フレンドシップをリクエストする';
 $string['addedtofriendslistsubject'] = '%s があなたをフレンドとして追加しました。';
 $string['addedtofriendslistmessage'] = '%s があなたをフレンドとして追加しました。これはあなたのフレンドリストに %s が追加されたことも意味します。追加されたユーザのプロファイルページを閲覧するには以下のリンクをクリックしてください。';
