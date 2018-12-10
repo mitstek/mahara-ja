@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-10-08 11:00:24 UTC
+ * @updated    2018-12-10 05:19:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -163,7 +163,7 @@ $string['viewunobjectionablesubject'] = 'ページ %s が %s によって好ま�
 $string['viewunobjectionablebody'] = '% (%s) が %s によって確認され好ましくないコンテンツは含まれていないとマークされました。';
 $string['updatewatchlistfailed'] = 'ウォッチリストの更新に失敗しました。';
 $string['watchlistupdated'] = 'あなたのウォッチリストが更新されました。';
-$string['viewvisitcount'] = 'アクセス数: %s  (%s - %s)';
+$string['viewvisitcount'] = 'アクセス数: %s (%s - %s)';
 $string['profilenotshared'] = 'このユーザプロファイルへのフルアクセスは制限されています。';
 $string['friend'] = 'フレンド';
 $string['profileicon'] = 'プロファイル画像';
