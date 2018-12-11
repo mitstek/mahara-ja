@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-12-09 05:37:54 UTC
+ * @updated    2018-12-11 05:34:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -246,8 +246,8 @@ $string['addedtofriendslistmessage'] = '%s があなたをフレンドとして�
 $string['requestedfriendlistsubject'] = '新しいフレンドリクエスト';
 $string['requestedfriendlistinboxmessage'] = '%s がフレンドとして追加するようあなたにリクエストしました。あなたは以下のリンクをクリックするか、あなたのフレンドリストページに移動することでフレンドとして追加することができます。';
 $string['requestedfriendlistmessageexplanation'] = '%s がフレンドとして追加するようあなたにリクエストしました。あなたは以下のリンクをクリックするか、あなたのフレンドリストページに移動することでフレンドとして追加することができます。リクエストの理由は次のとおりです:';
-$string['removefromfriendslist'] = 'フレンドリストから削除する';
-$string['removefromfriends'] = '%s をフレンドリストから削除する';
+$string['removefromfriendslist'] = 'フレンドから削除する';
+$string['removefromfriends'] = '%s をフレンドから削除する';
 $string['removedfromfriendslistsubject'] = 'フレンドリストから削除されました。';
 $string['removedfromfriendslistmessage'] = '%s があなたをフレンドリストから削除しました。';
 $string['removedfromfriendslistmessagereason'] = '%s があなたをフレンドリストから削除しました。
