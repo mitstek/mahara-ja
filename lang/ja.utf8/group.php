@@ -177,7 +177,7 @@ $string['grouprequestmessagereason'] = '%s があなたのグループ「 %s 」
 
 %s';
 $string['cantdeletegroup'] = 'あなたはこのグループを削除できません。';
-$string['groupconfirmdelete'] = 'この処理によりグループに含まれるすべてのページ、ファイルおよびフォーラムも削除されます。本当にこのグループおよびコンテンツすべてを完全に削除してもよろしいですか?';
+$string['groupconfirmdelete'] = 'この処理によりグループに含まれるすべてのページ、ファイルおよびフォーラムが削除されます。本当にこのグループおよびコンテンツすべてを完全に削除してもよろしいですか?';
 $string['deletegroup'] = 'グループが正常に削除されました。';
 $string['deletegroup1'] = 'グループを削除する';
 $string['allmygroups'] = 'すべてのマイグループ';
@@ -242,7 +242,7 @@ $string['removefromfriends'] = '%s をフレンドから削除する';
 $string['removedfromfriendslistsubject'] = 'フレンドリストから削除されました。';
 $string['removedfromfriendslistmessage'] = '%s があなたをフレンドリストから削除しました。';
 $string['removedfromfriendslistmessagereason'] = '%s があなたをフレンドリストから削除しました。
-削除理由は:';
+理由は次のとおりです:';
 $string['cantremovefriend'] = 'あなたはこのユーザをフレンドリストから削除できません。';
 $string['friendshipalreadyrequested'] = 'あなたは %s のフレンドリストへの追加をリクエストしました。';
 $string['friendshipalreadyrequestedowner'] = '%s があなたのフレンドリストへの追加をリクエストしました。';
