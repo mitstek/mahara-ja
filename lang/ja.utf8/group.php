@@ -156,7 +156,7 @@ $string['confirmremovefriend'] = 'あなたのフレンドリストから、本�
 $string['removedfromfriendslistsubject'] = 'フレンドリストから削除されました。';
 $string['removedfromfriendslistmessage'] = '%s があなたをフレンドリストから削除しました。';
 $string['removedfromfriendslistmessagereason'] = '%s があなたをフレンドリストから削除しました。
-削除理由は:';
+理由は次のとおりです:';
 $string['cantremovefriend'] = 'あなたはこのユーザをフレンドリストから削除できません。';
 $string['friendshipalreadyrequested'] = 'あなたは %s のフレンドリストへの追加をリクエストしました。';
 $string['friendshipalreadyrequestedowner'] = '%s があなたのフレンドリストへの追加をリクエストしました。';
