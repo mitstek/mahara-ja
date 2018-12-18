@@ -181,7 +181,7 @@ $string['friendrequestacceptedmessage'] = '%s があなたのフレンドリク�
 $string['friendrequestrejectedsubject'] = 'フレンドリクエストが拒否されました。';
 $string['friendrequestrejectedmessage'] = '%s があなたのフレンドリクエストを拒否しました。';
 $string['friendrequestrejectedmessagereason'] = '%s があなたのフレンドリクエストを拒否しました。
-拒否理由は:';
+理由は次のとおりです:';
 $string['allfriends'] = 'すべてのフレンド';
 $string['currentfriends'] = '現在のフレンド';
 $string['pendingfriends'] = '保留中のフレンド';
@@ -196,7 +196,7 @@ $string['approverequest'] = 'リクエストを承認する!';
 $string['denyrequest'] = 'リクエストを拒否する';
 $string['pending'] = '保留中';
 $string['trysearchingforfriends'] = 'あなたのネットワークを広げるため%s新しいフレンドの検索%sをお試しください。';
-$string['nobodyawaitsfriendapproval'] = 'あなたのフレンドになるための承認を待っているユーザはいません。';
+$string['nobodyawaitsfriendapproval'] = 'あなたのフレンドになるため承認を待っているユーザはいません。';
 $string['sendfriendrequest'] = 'フレンドリクエストを送信する!';
 $string['addtomyfriends'] = 'マイフレンドに追加する!';
 $string['friendshiprequested'] = 'フレンドシップがリクエストされました!';
@@ -238,7 +238,7 @@ $string['denyfriendrequestlower'] = 'フレンドリクエストを拒否する'
 $string['groupinteractions'] = 'グループ活動';
 $string['nointeractions'] = 'このグループに活動はありません。';
 $string['notallowedtoeditinteractions'] = 'あなたはこのグループで活動を追加および編集できません。';
-$string['notallowedtodeleteinteractions'] = 'あなたはこのグループの活動を削除できません。';
+$string['notallowedtodeleteinteractions'] = 'あなたはこのグループで活動を削除できません。';
 $string['interactionsaved'] = '%s が正常に保存されました。';
 $string['deleteinteraction'] = '%s 「 %s 」を削除する';
 $string['deleteinteractionsure'] = '本当にこの処理を実行してもよろしいですか? 元に戻すことはできません。';
