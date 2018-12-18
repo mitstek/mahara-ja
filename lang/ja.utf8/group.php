@@ -232,7 +232,7 @@ $string['addedtofriendslistsubject'] = '%s があなたをフレンドとして�
 $string['addedtofriendslistmessage'] = '%s があなたをフレンドとして追加しました。これはあなたのフレンドリストに %s が追加されたことも意味します。追加されたユーザのプロファイルページを閲覧するには以下のリンクをクリックしてください。';
 $string['requestedfriendlistsubject'] = '新しいフレンドリクエスト';
 $string['requestedfriendlistinboxmessage'] = '%s がフレンドとして追加するようあなたにリクエストしました。あなたは以下のリンクをクリックするか、あなたのフレンドリストページに移動することでフレンドとして追加することができます。';
-$string['requestedfriendlistmessageexplanation'] = '%s がフレンドとして追加するようあなたにリクエストしました。あなたは以下のリンクをクリックするか、あなたのフレンドリストページに移動することでフレンドとして追加することができます。リクエストの理由は次のとおりです:';
+$string['requestedfriendlistmessageexplanation'] = '%s がフレンドとして追加するようあなたにリクエストしました。あなたは以下のリンクをクリックするか、あなたのフレンドリストページに移動することでフレンドとして追加することができます。理由は次のとおりです:';
 $string['removefromfriendslist'] = 'フレンドから削除する';
 $string['removefromfriends'] = '%s をフレンドから削除する';
 $string['removedfromfriendslistsubject'] = 'フレンドリストから削除されました。';
@@ -249,7 +249,7 @@ $string['friendrequestacceptedmessage'] = '%s があなたのフレンドリク�
 $string['friendrequestrejectedsubject'] = 'フレンドリクエストが拒否されました。';
 $string['friendrequestrejectedmessage'] = '%s があなたのフレンドリクエストを拒否しました。';
 $string['friendrequestrejectedmessagereason'] = '%s があなたのフレンドリクエストを拒否しました。
-拒否理由は:';
+理由は次のとおりです:';
 $string['acceptfriendshiprequestfailed'] = 'フレンドリクエストの承認に失敗しました。';
 $string['addtofriendsfailed'] = 'あなたのフレンドリストへの %s の追加に失敗しました。';
 $string['allfriends'] = 'すべてのフレンド';
@@ -266,7 +266,7 @@ $string['approverequest'] = 'リクエストを承認する';
 $string['denyrequest'] = 'リクエストを拒否する';
 $string['pending'] = '保留中';
 $string['trysearchingforfriends'] = 'あなたのネットワークを広げるため%s新しいフレンドの検索%sをお試しください。';
-$string['nobodyawaitsfriendapproval'] = 'あなたのフレンドになるための承認を待っているユーザはいません。';
+$string['nobodyawaitsfriendapproval'] = 'あなたのフレンドになるため承認を待っているユーザはいません。';
 $string['sendfriendrequest'] = 'フレンドリクエストを送信する';
 $string['addtomyfriends'] = 'マイフレンドに追加する';
 $string['friendshiprequested'] = 'フレンドシップがリクエストされました。';
@@ -310,7 +310,7 @@ $string['denyfriendrequestlower'] = 'フレンドリクエストを拒否する'
 $string['groupinteractions'] = 'グループ活動';
 $string['nointeractions'] = 'このグループに活動はありません。';
 $string['notallowedtoeditinteractions'] = 'あなたはこのグループで活動を追加および編集できません。';
-$string['notallowedtodeleteinteractions'] = 'あなたはこのグループの活動を削除できません。';
+$string['notallowedtodeleteinteractions'] = 'あなたはこのグループで活動を削除できません。';
 $string['interactionsaved'] = '%s が正常に保存されました。';
 $string['deleteinteraction'] = '%s 「 %s 」を削除する';
 $string['deleteinteractionsure'] = '本当にこの処理を実行してもよろしいですか? 元に戻すことはできません。';
@@ -328,7 +328,7 @@ $string['userremoved'] = 'ユーザが削除されました。';
 $string['About'] = 'About';
 $string['aboutgroup'] = '%s について';
 $string['Joined'] = '登録';
-$string['invitemembersdescription'] = 'あなたはユーザのプロファイルページ経由または<a href="%s">同時に複数の招待を送信する</a>ことでユーザにこのグループへの参加を招待することができます。';
+$string['invitemembersdescription'] = 'あなたはユーザのプロファイルページ経由または<a href="%s">一度に複数の招待を送信する</a>ことでユーザにこのグループへの参加を招待することができます。';
 $string['membersdescription:controlled'] = 'これは「管理メンバーシップ」グループです。あなたはユーザをユーザプロファイルページより追加または<a href="%s">一度に多くのユーザを追加することができます</a>。';
 $string['submit'] = '送信';
 $string['allowssubmissions'] = '送信を許可する';
