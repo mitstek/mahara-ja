@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-12-16 04:48:07 UTC
+ * @updated    2018-12-18 05:23:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -245,7 +245,7 @@ $string['addedtofriendslistsubject'] = '%s があなたをフレンドとして�
 $string['addedtofriendslistmessage'] = '%s があなたをフレンドとして追加しました。これはあなたのフレンドリストに %s が追加されたことも意味します。追加されたユーザのプロファイルページを閲覧するには以下のリンクをクリックしてください。';
 $string['requestedfriendlistsubject'] = '新しいフレンドリクエスト';
 $string['requestedfriendlistinboxmessage'] = '%s がフレンドとして追加するようあなたにリクエストしました。あなたは以下のリンクをクリックするか、あなたのフレンドリストページに移動することでフレンドとして追加することができます。';
-$string['requestedfriendlistmessageexplanation'] = '%s がフレンドとして追加するようあなたにリクエストしました。あなたは以下のリンクをクリックするか、あなたのフレンドリストページに移動することでフレンドとして追加することができます。リクエストの理由は次のとおりです:';
+$string['requestedfriendlistmessageexplanation'] = '%s がフレンドとして追加するようあなたにリクエストしました。あなたは以下のリンクをクリックするか、あなたのフレンドリストページに移動することでフレンドとして追加することができます。理由は次のとおりです:';
 $string['removefromfriendslist'] = 'フレンドから削除する';
 $string['removefromfriends'] = '%s をフレンドから削除する';
 $string['removedfromfriendslistsubject'] = 'フレンドリストから削除されました。';
@@ -262,7 +262,7 @@ $string['friendrequestacceptedmessage'] = '%s があなたのフレンドリク�
 $string['friendrequestrejectedsubject'] = 'フレンドリクエストが拒否されました。';
 $string['friendrequestrejectedmessage'] = '%s があなたのフレンドリクエストを拒否しました。';
 $string['friendrequestrejectedmessagereason'] = '%s があなたのフレンドリクエストを拒否しました。
-拒否理由は:';
+理由は次のとおりです:';
 $string['acceptfriendshiprequestfailed'] = 'フレンドリクエストの承認に失敗しました。';
 $string['addtofriendsfailed'] = 'あなたのフレンドリストへの %s の追加に失敗しました。';
 $string['allfriends'] = 'すべてのフレンド';
@@ -282,7 +282,7 @@ $string['pending'] = '保留中';
 $string['pendingsince'] = '%s より保留中';
 $string['requestedsince'] = '%s よりリクエスト中';
 $string['trysearchingforfriends'] = 'あなたのネットワークを広げるため%s新しいフレンドの検索%sをお試しください。';
-$string['nobodyawaitsfriendapproval'] = 'あなたのフレンドになるための承認を待っているユーザはいません。';
+$string['nobodyawaitsfriendapproval'] = 'あなたのフレンドになるため承認を待っているユーザはいません。';
 $string['sendfriendrequest'] = 'フレンドリクエストを送信する';
 $string['addtomyfriends'] = 'マイフレンドに追加する';
 $string['friendshiprequested'] = 'フレンドシップがリクエストされました。';
@@ -345,7 +345,7 @@ $string['userremoved'] = 'ユーザが削除されました。';
 $string['About'] = 'About';
 $string['aboutgroup'] = '%s について';
 $string['Joined'] = '登録';
-$string['invitemembersdescription'] = 'あなたはユーザのプロファイルページ経由または<a href="%s">同時に複数の招待を送信する</a>ことでユーザにこのグループへの参加を招待することができます。';
+$string['invitemembersdescription'] = 'あなたはユーザのプロファイルページ経由または<a href="%s">一度に複数の招待を送信する</a>ことでユーザにこのグループへの参加を招待することができます。';
 $string['membersdescription:controlled'] = 'これは「管理メンバーシップ」グループです。あなたはユーザをユーザプロファイルページより追加または<a href="%s">一度に多くのユーザを追加することができます</a>。';
 $string['submit'] = '送信';
 $string['allowssubmissions'] = '送信を許可する';
@@ -353,7 +353,7 @@ $string['allowsubmissions'] = '送信を許可する';
 $string['allowssubmissionsdescription1'] = 'メンバーはグループにページを送信することができます。送信後、ページはロックされます。送信されたページはグループチューターまたは管理者がリリースするまで編集することはできません。';
 $string['allowssubmissionsdescription'] = 'メンバーはグループにページを送信することができます。';
 $string['allowsarchives'] = '送信のアーカイブを許可する';
-$string['allowsarchivesdescription'] = '送信リリース処理中にページおよびコレクションはZIP圧縮済みLeap2Aファイルとしてアーカイブされます。';
+$string['allowsarchivesdescription'] = '送信リリース処理中にページおよびコレクションはZIP圧縮Leap2Aファイルとしてアーカイブされます。';
 $string['report'] = 'レポート';
 $string['grouphasntcreatedanyviewsyet'] = 'このグループはまだページを作成していません。';
 $string['noviewssharedwithgroupyet'] = 'このグループで共有されているページはまだありません。';
