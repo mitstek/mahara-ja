@@ -166,7 +166,7 @@ $string['friendrequestacceptedmessage'] = '%s があなたのフレンドリク�
 $string['friendrequestrejectedsubject'] = 'フレンドリクエストが拒否されました。';
 $string['friendrequestrejectedmessage'] = '%s があなたのフレンドリクエストを拒否しました。';
 $string['friendrequestrejectedmessagereason'] = '%s があなたのフレンドリクエストを拒否しました。
-拒否理由は:';
+理由は次のとおりです:';
 $string['allfriends'] = 'すべてのフレンド';
 $string['currentfriends'] = '現在のフレンド';
 $string['pendingfriends'] = '保留中のフレンド';
