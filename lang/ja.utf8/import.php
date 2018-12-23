@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-02-19 06:32:25 UTC
+ * @updated    2018-12-23 22:46:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,8 +14,8 @@
 defined('INTERNAL') || die();
 
 $string['Import'] = 'インポート';
-$string['importexceedquota'] = 'あなたがアップロードしたLeap2Aファイルの新しいファイル合計サイズがあなたのクオータを超えます。いくつかのファイルを削除して再度お試しください。';
-$string['importsuccessfully'] = 'あなたのポートフォリオは正常にインポートされました。';
+$string['importexceedquota'] = 'あなたがアップロードしたLeap2Aファイルの新しいファイルの合計サイズがあなたのクオータを超えます。いくつかのファイルを削除して再度お試しください。';
+$string['importsuccessfully'] = 'あなたのポートフォリオが正常にインポートされました。';
 $string['importfailed'] = '<p><strong>申し訳ございません - あなたのLeap2Aファイルのインポートに失敗しました。</strong></p>
 
 <p>あなたが有効なLeap2Aファイルをアップロードしていない、またはこのバージョンのMaharaではあなたのLeap2Aファイルのバージョンをサポートされていないことが考えられます。仮にLeap2Aが有効であったとしてもインポートを失敗させるバグがMaharaに含まれる可能性もあります。</p>
