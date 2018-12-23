@@ -14,8 +14,8 @@
 defined('INTERNAL') || die();
 
 $string['Import'] = 'インポート';
-$string['importexceedquota'] = 'あなたがアップロードしたLeap2Aファイルの新しいファイル合計サイズがあなたのクオータを超えます。いくつかのファイルを削除して再度お試しください。';
-$string['importsuccessfully'] = 'あなたのポートフォリオは正常にインポートされました。';
+$string['importexceedquota'] = 'あなたがアップロードしたLeap2Aファイルの新しいファイルの合計サイズがあなたのクオータを超えます。いくつかのファイルを削除して再度お試しください。';
+$string['importsuccessfully'] = 'あなたのポートフォリオが正常にインポートされました。';
 $string['importfailed'] = '<p><strong>申し訳ございません - あなたのLeap2Aファイルのインポートに失敗しました。</strong></p>
 
 <p>あなたが有効なLeap2Aファイルをアップロードしていない、またはこのバージョンのMaharaではあなたのLeap2Aファイルのバージョンをサポートされていないことが考えられます。仮にLeap2Aが有効であったとしてもインポートを失敗させるバグがMaharaに含まれる可能性もあります。</p>
