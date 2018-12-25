@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-12-23 22:46:51 UTC
+ * @updated    2018-12-25 02:24:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,7 +20,7 @@ $string['importfailed'] = '<p><strong>申し訳ございません - あなたの
 
 <p>あなたが有効なLeap2Aファイルをアップロードしていない、またはこのバージョンのMaharaではあなたのLeap2Aファイルのバージョンをサポートされていないことが考えられます。仮にLeap2Aが有効であったとしてもインポートを失敗させるバグがMaharaに含まれる可能性もあります。</p>
 
-<p>戻って再度お試しください。問題が持続する場合、サポートを求めるため<a href="https://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。あなたのファイルのコピーを準備してください。</p>';
+<p>戻って再度お試しください。問題が続く場合、サポートを求めるため<a href="https://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。あなたのファイルのコピーを準備してください。</p>';
 $string['importwitherrors'] = 'あなたのポートフォリオはインポートされましたがエラーを含みます。';
 $string['importartefactplugindata'] = 'アーティファクトプラグインデータのインポート';
 $string['importartefacts'] = 'アーティファクトのインポート';
