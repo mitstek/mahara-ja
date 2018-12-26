@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-05-30 13:43:55 UTC
+ * @updated    2018-12-26 22:47:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,6 +20,7 @@ $string['archive'] = 'アーカイブ';
 $string['bytes'] = 'バイト';
 $string['cannotviewfolder'] = 'あなたにはこのフォルダのコンテンツを閲覧するパーミッションがありません。';
 $string['cannoteditfolder'] = 'あなたにはこのフォルダにコンテンツを追加するパーミッションがありません。';
+$string['cannotuploadtofolder'] = 'あなたにはこのフォルダにコンテンツをアップロードするパーミッションがありません。';
 $string['cannoteditfoldersubmitted'] = 'あなたは送信済みページのフォルダにコンテンツを追加できません。';
 $string['cannotremovefromsubmittedfolder'] = 'あなたは送信済みページのフォルダからコンテンツを削除できません。';
 $string['cannotextractfilesubmitted'] = 'あなたは送信済みページでファイルを展開できません。';
@@ -89,11 +90,13 @@ $string['File'] = 'ファイル';
 $string['fileadded'] = 'ファイルが選択されました。';
 $string['filealreadyindestination'] = 'あなたが移動しようとしたファイルはすでにフォルダに存在します。';
 $string['fileappearsinviews'] = 'このファイルはあなたの1つまたはそれ以上のページに表示されます。';
+$string['fileappearsinposts'] = 'このファイルはあなたの1つまたはそれ以上のフォーラム投稿に表示されます。';
 $string['fileattachedtoportfolioitems'] = 'このファイルはあなたのポートフォリオ内の %s アイテムに添付されます。';
 $string['fileappearsinskins'] = 'このファイルはあなたのスキンの1つまたはそれ以上の背景イメージとして使用されます。';
 $string['profileiconattachedtoportfolioitems'] = 'このプロファイル画像はあなたのポートフォリオ内の他のアイテムに添付されます。';
 $string['profileiconappearsinviews'] = 'このプロファイル画像はあなたの1つまたはそれ以上のページに表示されます。';
 $string['profileiconappearsinskins'] = 'このプロファイル画像はあなたのスキンの1つまたはそれ以上の背景イメージとして使用されます。';
+$string['profileiconappearsinposts'] = 'このプロファイル画像はあなたの1つまたはそれ以上のフォーラム投稿に表示されます。';
 $string['fileremoved'] = 'ファイルが削除されました。';
 $string['files'] = 'ファイル';
 $string['Files'] = 'ファイル';

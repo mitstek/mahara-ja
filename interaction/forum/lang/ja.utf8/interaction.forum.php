@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-11-29 05:52:22 UTC
+ * @updated    2018-12-26 22:45:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -73,6 +73,20 @@ $string['forumposthtmltemplate'] = '<div style="padding: 0.5em 0; border-bottom:
 <p><a href="%s">この投稿にオンラインで返信する</a></p>
 <p><a href="%s">この %s から購読解除する</a></p>
 </div>';
+$string['forumposthtmlattachmenttemplate'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>フォーラム: %s (%s)</strong></div>
+
+<div style="margin: 1em 0;">%s</div>
+
+<div style="font-size: smaller; border-top: 1px solid #999;">
+<p>添付:</p>
+<ul>
+%s
+</ul>
+</div>
+<div style="font-size: smaller; border-top: 1px solid #999;">
+<p><a href="%s">この投稿にオンラインで返信する</a></p>
+<p><a href="%s">この %s から購読解除する</a></p>
+</div>';
 $string['forumposttemplate'] = 'フォーラム: %s (%s)
 ------------------------------------------------------------------------
 
@@ -83,6 +97,24 @@ $string['forumposttemplate'] = 'フォーラム: %s (%s)
 %s
 
 この %s から購読解除するには次のリンクにアクセスしてください:
+%s';
+$string['forumpostattachmenttemplate'] = 'フォーラム: %s (%s)
+------------------------------------------------------------------------
+
+%s
+
+------------------------------------------------------------------------
+添付:
+%s
+------------------------------------------------------------------------
+オンラインで投稿を閲覧するには次のリンクにアクセスしてください:
+%s
+
+この %s から購読解除するには次のリンクにアクセスしてください:
+%s';
+$string['forumpostattachmentinternal'] = '%s
+
+添付:
 %s';
 $string['forumsettings'] = 'フォーラム設定';
 $string['forumsuccessfulsubscribe'] = 'フォーラムが正常に購読されました。';
