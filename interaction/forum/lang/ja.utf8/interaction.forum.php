@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-12-26 22:45:59 UTC
+ * @updated    2018-12-27 05:26:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -21,10 +21,12 @@ $string['allowunsubscribe'] = 'ユーザの購読解除を許可する';
 $string['allowunsubscribedescription'] = 'ユーザがフォーラムおよびトピックを購読解除できるかどうか選択してください。';
 $string['autosubscribeusers'] = 'ユーザを自動的にメール購読させる';
 $string['autosubscribeusersdescription'] = 'このフォーラムにグループユーザが自動的にメール購読されるかどうか選択してください。';
+$string['awaitingapproval'] = '承認待ち';
 $string['Body'] = '本文';
 $string['cantaddposttoforum'] = 'あなたはこのフォーラムに投稿できません。';
 $string['cantaddposttotopic'] = 'あなたはこのトピックに投稿できません。';
 $string['cantaddtopic'] = 'あなたはこのフォーラムにトピックを追加できません。';
+$string['cantapproveposts'] = 'あなたはこのフォーラムの投稿を承認できません。';
 $string['cantdeletepost'] = 'あなたはこのフォーラムの投稿を削除できません。';
 $string['cantdeletethispost'] = 'あなたはこの投稿を削除できません。';
 $string['cantdeletetopic'] = 'あなたはこのフォーラムのトピックを削除できません。';
@@ -139,6 +141,9 @@ $string['noforumpostsyet'] = 'まだこのグループに投稿はありませ�
 $string['noforums'] = 'このグループにフォーラムはありません。';
 $string['notopics'] = 'このフォーラムにトピックはありません。';
 $string['notifyadministrator'] = '管理者に通知する';
+$string['notifyauthor'] = '投稿者に通知する';
+$string['rejectpost'] = '投稿拒否';
+$string['reasonempty'] = '理由フィールドは空白にできません。';
 $string['objectionablepostdeletedsubject'] = 'フォーラムトピック「 %s 」の好ましくない投稿は %s によって削除されました。';
 $string['objectionablepostdeletedbody'] = '%s は前に好ましくないコンテンツであると報告された %s による投稿を調査して削除しました。
 
@@ -154,7 +159,9 @@ $string['Order'] = '並び順';
 $string['orderdescription'] = 'このフォーラムがフォーラム一覧に表示される場合のポジションを選択してください。';
 $string['Post'] = '投稿';
 $string['postaftertimeout'] = 'あなたは %s 分のタイムアウト後に変更を送信しました。あなたの変更は適用されませんでした。';
+$string['postapprovesuccessful'] = '投稿が承認されました。';
 $string['postbyuserwasdeleted'] = '%s による投稿が削除されました。';
+$string['postnotapprovederror'] = '投稿の承認済みマーク中にエラーが発生しました。';
 $string['postsbyuserweredeleted'] = '%s 件の投稿 (投稿者: %s) が削除されました。';
 $string['postdelay'] = '投稿遅延';
 $string['postdelaydescription'] = '新しい投稿がメール購読者に送信される前に経過する必要のある最小時間 (分) です。投稿者はこの時間中、投稿内容を編集することができます。';
@@ -207,6 +214,7 @@ $string['topicunsubscribesuccess'] = 'トピックが正常に購読解除され
 $string['topicupdatefailed'] = 'トピックの更新に失敗しました。';
 $string['typenewpost'] = '新しいフォーラム投稿';
 $string['typereportpost'] = 'フォーラム内の好ましくないコンテンツ';
+$string['typepostmoderation'] = 'フォーラムモデレーション';
 $string['Unsticky'] = 'スティッキー解除';
 $string['Unsubscribe'] = '購読解除';
 $string['unsubscribefromforum'] = 'フォーラムを購読解除する';
@@ -231,6 +239,9 @@ $string['maxindent'] = '最大インデントレベル';
 $string['maxindentdescription'] = 'トピックの最大インデントレベルを設定してください。この設定はインデントモードが「最大まで広げる」に設定された場合のみ適用されます。';
 $string['closetopics'] = '新しいトピックをクローズする';
 $string['closetopicsdescription1'] = 'すべての新しいトピックをデフォルトでクローズします。モデレータおよびグループ管理者のみ閉鎖トピックに返信することができます。';
+$string['approvalofposts'] = '投稿の承認';
+$string['moderatenewposts'] = '新しい投稿をモデレートする';
+$string['moderatenewpostsdescription'] = '新しい投稿はグループモデレータまたは管理者によって承認される必要があります。';
 $string['activetopicsdescription'] = 'あなたのグループ内で最近更新されたトピックです。';
 $string['timeleftnotice1'] = 'あなたには編集を終了するまで <span class="num">%s</span> 分あります。';
 $string['timeleftnoticeexpired'] = '編集時間が終了しました。あなたの変更は保存されません。';
@@ -269,5 +280,73 @@ $string['objectionablecontentposttext'] = 'フォーラムトピック「 %s 」
 %s
 報告者のプロファイルを閲覧するには次のリンクにアクセスしてください:
 %s';
+$string['postsandreplies'] = '投稿および返信';
+$string['postneedapprovalsubject'] = 'フォーラム「 %s 」の新しい投稿にモデレーションが必要です。';
+$string['postneedapprovalbody'] = '%s がフォーラム「 %s 」に投稿してモデレーションを待っています。
+
+投稿のコンテンツは以下のとおりです:
+%s';
+$string['postneedapprovalhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」によるフォーラム「　%s　」での新しい投稿にモデレーションが必要です。
+
+<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">投稿コンテンツは次のとおりです:
+<br>%s</div>
+
+<div style="margin: 1em 0;">%s</div>
+
+<div style="font-size: smaller; border-top: 1px solid #999;">
+<p>投稿者: <a href="%s">%s</a></p>
+</div>';
+$string['postneedapprovaltext'] = '「 %s 」によるフォーラム「　%s　」での新しい投稿にモデレーションが必要です。
+%s
+------------------------------------------------------------------------
+
+投稿コンテンツは次のとおりです:
+%s
+------------------------------------------------------------------------
+フォーラム投稿に移動するにはこのリンクにアクセスしてください:
+%s';
+$string['rejectedpostsubject'] = 'フォーラム「 %s 」の投稿が拒否されました。';
+$string['rejectedpostbody'] = '%s が %s による承認待ちの投稿を確認して削除しました。
+
+拒否理由は次のとおりです:
+%s
+
+投稿コンテンツは次のとおりです:
+%s';
+$string['rejectedposthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">フォーラム「 %s 」のフォーラム投稿が拒否されました。
+<br />%s</div>
+
+<div style="margin: 1em 0;">%s</div>
+
+<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">拒否された投稿コンテンツは次のとおりです:
+<br>%s</div>
+
+<div style="margin: 1em 0;">%s</div>
+
+<div style="font-size: smaller; border-top: 1px solid #999;">
+<p>拒否関連: <a href="%s">%s</a></p>
+<p>拒否者: <a href="%s">%s</a></p>
+</div>';
+$string['rejectedposttext'] = 'フォーラム「 %s 」のフォーラム投稿が「 %s 」によって拒否されました。
+%s
+------------------------------------------------------------------------
+
+%s
+
+------------------------------------------------------------------------
+
+拒否された投稿コンテンツは次のとおりです:
+%s
+------------------------------------------------------------------------
+
+%s
+
+-----------------------------------------------------------------------
+投稿は削除されました。フォーラムに移動するにはこのリンクにアクセスしてください:
+%s
+報告者のプロファイルを閲覧するにはこのリンクにアクセスしてください:
+%s';
+$string['rejectpostsuccess'] = '投稿が削除されました。';
+$string['replies'] = '返信';
 
 ?>
