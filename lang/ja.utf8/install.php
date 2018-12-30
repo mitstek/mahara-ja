@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-05 01:39:34 UTC
+ * @updated    2018-12-30 15:18:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,12 +17,12 @@ $string['aboutdefaultcontent'] = '<h2>Maharaとは</h2>
 
 <p>あなたの組織またはインストールに関するテキストをここに追加してください。</p>
 
-<p>[<b>あなたの組織名</b>]は<a href="https://mahara.org">Mahara</a>により構築されています。Maharaは (GNU General Public License 一般公衆利用許諾契約書の下)、無償のオープンソースソフトウェアとして提供されます。下記条件に同意することによりあなたにMaharaのコピー、使用および修正が許可されていることを意味します:</p>
+<p>[<b>あなたの組織名</b>]は<a href="https://mahara.org">Mahara</a>により構築されています。Maharaは (GNU General Public License 一般公衆利用許諾契約書の下)、無償のオープンソースソフトウェアとして提供されます。つまり、下記条件に同意することによりあなたにMaharaのコピー、使用および修正が許可されていることを意味します:</p>
 
 <ul>
 <li>他の人にソースコードを提供する。</li>
 <li>オリジナルのライセンスおよび著作権表示を修正または削除しない。</li>
-<li>派生物に同じライセンスを適用する。</li>
+<li>これと同じライセンスを派生物にも適用する。</li>
 </ul>';
 $string['homedefaultcontent'] = '<h1>ようこそ</h1>
 
