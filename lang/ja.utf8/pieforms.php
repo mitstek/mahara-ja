@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-28 00:13:08 UTC
+ * @updated    2018-12-31 02:58:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -59,6 +59,7 @@ $string['rule.minlength.minlength'] = 'このフィールドは少なくとも�
 $string['rule.minvalue.minvalue'] = 'この値は %d 以下にすることはできません';
 $string['rule.regex.regex'] = 'このフィールドは正しい形式ではありません';
 $string['rule.required.required'] = 'このフィールドは必須入力です。';
+$string['rule.oneof.oneof'] = 'このグループのフィールドの1つは必須入力です。';
 $string['rule.safetext.invalidchars'] = 'このフィールドには無効な文字があります。';
 $string['rule.validateoptions.validateoptions'] = 'オプション「 %s 」が正しくありません';
 $string['rule.maxvalue.maxvalue'] = 'この値は %d 以下にしてください';
@@ -69,5 +70,6 @@ $string['switchbox.off'] = 'Off';
 $string['switchbox.yes'] = 'Yes';
 $string['switchbox.no'] = 'No';
 $string['requiredfields'] = '「 %s 」によってマークされたフィールドは必須入力です。';
+$string['oneoffields'] = '「 %s 」によってマークされたフィールドの1つは必須入力です。';
 
 ?>
