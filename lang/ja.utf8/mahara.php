@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-01-01 13:19:32 UTC
+ * @updated    2019-01-05 15:38:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -47,7 +47,7 @@ $string['complete'] = '完了';
 $string['Failed'] = '失敗';
 $string['loading'] = '読み込み中 ...';
 $string['showtags'] = 'マイタグを表示する';
-$string['errorprocessingform'] = 'このフォームによる送信中にエラーが発生しました。マークされたフィールドを確認して再度送信してください。';
+$string['errorprocessingform'] = 'このフォームの送信中にエラーが発生しました。マークされたフィールドを確認して再度送信してください。';
 $string['description'] = '説明';
 $string['orientation'] = '方向';
 $string['remove'] = '削除';
@@ -59,7 +59,7 @@ $string['applychanges'] = '変更を適用する';
 $string['general'] = '一般';
 $string['units'] = 'ユニット';
 $string['status'] = 'ステータス';
-$string['toggletoolbarson'] = 'ツールバーを有効にします。ボタンの完全リストを表示します。';
+$string['toggletoolbarson'] = 'ツールバーを有効にします。ボタンの全リストを表示します。';
 $string['toggletoolbarsoff'] = 'ツールバーを無効にします。基本的なボタンを表示します。';
 $string['defaulthint'] = '検索語を入力する';
 $string['imagexofy'] = 'イメージ {x} / {y}';
@@ -77,7 +77,7 @@ $string['disabled'] = '無効';
 $string['complaint'] = 'クレーム';
 $string['notifyadministrator'] = '管理者に通知する';
 $string['notifyadministratorconfirm'] = '本当にこのページを好ましくないコンテンツを含んでいるとして報告しますか?';
-$string['notifyadministratorreview'] = '本当にこのページを再度管理者がレビューする準備ができましたか?';
+$string['notifyadministratorreview'] = '本当にこのページを管理者が再度レビューするための準備ができましたか?';
 $string['notobjectionable'] = '好ましくないコンテンツではない';
 $string['reportobjectionablematerial'] = '好ましくないコンテンツを報告する';
 $string['objectionablematerialreported'] = '好ましくないコンテンツ報告';
