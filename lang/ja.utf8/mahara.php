@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-01-08 03:26:14 UTC
+ * @updated    2019-01-14 04:03:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -105,7 +105,7 @@ $string['reviewcomplaintdesc'] = 'あなたが作成者に何を変更すべき�
 $string['reviewnotification'] = 'まだ好ましくないコンテンツが存在しているか確認するためポートフォリオをレビューするよう管理者に通知されました。';
 $string['reviewnotificationdesc'] = 'まだ好ましくないコンテンツが存在している場合、レビューしてください。';
 $string['removeaccess'] = 'アクセスを停止する';
-$string['removeaccessdesc'] = '好ましくない内容が削除されるまでこのページ (およびページがコレクション内にある場合はコレクション) へのアクセスをすぐに停止します。';
+$string['removeaccessdesc'] = '好ましくない内容が削除されるまでこのページ (およびページがコレクション内にある場合はコレクション) へのアクセスを直ちに停止します。';
 $string['tabs'] = 'タブ';
 $string['tab'] = 'タブ';
 $string['selected'] = '選択済み';
@@ -140,7 +140,7 @@ $string['pluginenabled'] = 'プラグインが表示にされました。';
 $string['plugindisabled'] = 'プラグインが非表示にされました。';
 $string['plugindisableduser'] = '%s プラグインは無効にされています。この機能を有効にするにはあなたの管理者にご相談ください。';
 $string['pluginnotenabled'] = 'プラグインは非表示にされています。あなたはまず %s プラグインを表示にする必要があります。';
-$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるためURLを知っていてアクセス権のあるユーザはアクセスすることができます。機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることによりプラグインを表示または非表示にすることができます。';
+$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるためURLを知っていてアクセスしようと思うユーザはアクセスすることができます機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることによりプラグインを表示または非表示にすることができます。';
 $string['pluginexplainartefactblocktypes'] = '「アーティファクト」タイプのプラグインを非表示にした場合、Maharaは同時に関連するブロックの表示を停止します。';
 $string['pluginbrokenanddisabledtitle1'] = '不完全なプラグイン「 %s 」が無効にされました。';
 $string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインのロードを試みましたがロードすることができませんでした。さらなるエラーを避けるためこのプラグインは無効にされました。
@@ -172,9 +172,9 @@ $string['sendrequest'] = 'リクエストを送信する';
 $string['reason'] = '理由';
 $string['select'] = '選択';
 $string['tags'] = 'タグ';
-$string['tagsdesc'] = 'このアイテムに関してタグを検索または入力してください。';
-$string['tagsdescprofile'] = 'このアイテムに関してタグを検索または入力してください。「プロファイル」がタグ付けされたアイテムはあなたのサイドバーに表示されます。';
-$string['tagsdescblock'] = 'このブロックに関してタグを検索または入力してください。';
+$string['tagsdesc'] = 'このアイテムのタグを検索または入力してください。';
+$string['tagsdescprofile'] = 'このアイテムのタグを検索または入力してください。「プロファイル」がタグ付けされたアイテムはあなたのサイドバーに表示されます。';
+$string['tagsdescblock'] = 'このブロックのタグを検索または入力してください。';
 $string['viewtags'] = 'ページタグ';
 $string['youhavenottaggedanythingyet'] = 'あなたはまだ何もタグ付けしていません。';
 $string['mytags'] = 'マイタグ';
