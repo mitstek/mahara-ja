@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-01-14 04:03:26 UTC
+ * @updated    2019-01-15 06:18:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -224,8 +224,8 @@ $string['tagupdatedsuccessfully'] = 'タグが正常に更新されました。'
 $string['tagdeletedsuccessfully'] = 'タグが正常に削除されました。';
 $string['relatedtags'] = '%s のタグ付きコンテンツ';
 $string['relatedtagsinview'] = '%s のタグ付きコンテンツ (ポートフォリオ「 %s 」)';
-$string['norelatedtaggeditemstoview'] = 'あなたが閲覧できるものはありません (タグ「 %s」 オーナー「 %s 」)。';
-$string['norelatedtaggeditemstoviewfiltered'] = 'あなたが閲覧できる %s はありません (タグ「 %s」 オーナー「 %s 」)。';
+$string['norelatedtaggeditemstoview'] = 'あなたがタグ「 %s 」 (オーナー「 %s 」) で閲覧できるものはありません。';
+$string['norelatedtaggeditemstoviewfiltered'] = 'あなたがタグ「 %s 」 (オーナー「 %s 」) で閲覧できる %s はありません。';
 $string['selfsearch'] = '私のポートフォリオを検索する';
 $string['resultsperpage'] = '1ページあたりの結果数';
 $string['allowinstitutiontags'] = 'インスティテューションタグを許可する';
