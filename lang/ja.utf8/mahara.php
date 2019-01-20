@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-01-15 06:18:22 UTC
+ * @updated    2019-01-20 04:16:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -243,7 +243,7 @@ $string['institutiontagdesc'] = 'あなたは1度に1個のタグを追加する
 $string['institutiontagdeleted'] = 'インスティテューションタグが正常に削除されました。';
 $string['institutiontagdeletefail'] = 'インスティテューションタグの削除に失敗しました。';
 $string['institutiontags'] = 'インスティテューションタグ';
-$string['institutiontagsdescription'] = 'インスティテューションタグはインスティテューションによって事前に定義されています。すべてのインスティテューションメンバーがインスティテューションタグを使用することができます。あなたは好きなだけタグを作成することができます。';
+$string['institutiontagsdescription'] = 'インスティテューションタグはインスティテューションによって事前に定義されています。すべてのインスティテューションメンバーはインスティテューションタグを使用することができます。あなたは好きなだけタグを作成することができます。';
 $string['institutiontagsaved'] = 'インスティテューションタグが保存されました。';
 $string['notags'] = 'このインスティテューションにタグはありません。';
 $string['tag'] = 'タグ';
@@ -256,8 +256,8 @@ $string['licensedesc'] = 'このコンテンツのライセンスです。';
 $string['licensenone1'] = 'All rights reserved';
 $string['licensenonedetailed1'] = '© %s, all rights reserved';
 $string['licensingadvanced'] = '高度なライセンス';
-$string['licensor'] = 'ライセンサ';
-$string['licensordesc'] = 'このコンテンツのオリジナルライセンサです。';
+$string['licensor'] = 'ライセンス許諾者';
+$string['licensordesc'] = 'このコンテンツのオリジナルライセンス許諾者です。';
 $string['licensorurl'] = 'オリジナルURL';
 $string['licensorurldesc'] = 'このコンテンツのオリジナルURLです。';
 $string['licensemandatoryerror'] = 'ライセンスフィールドは必須入力です。';
