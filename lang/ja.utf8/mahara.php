@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-01-20 04:16:42 UTC
+ * @updated    2019-01-22 08:27:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -261,7 +261,7 @@ $string['licensordesc'] = 'このコンテンツのオリジナルライセン�
 $string['licensorurl'] = 'オリジナルURL';
 $string['licensorurldesc'] = 'このコンテンツのオリジナルURLです。';
 $string['licensemandatoryerror'] = 'ライセンスフィールドは必須入力です。';
-$string['licensenocustomerror'] = 'このライセンスはこのサイトで許可されていません。';
+$string['licensenocustomerror'] = 'これはこのサイトで許可されているライセンスではありません。';
 $string['quota'] = 'クオータ';
 $string['quotausage'] = 'あなたのクオータ使用量は<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
 $string['quotausagegroup'] = 'このグループのクオータ使用量は<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
@@ -277,7 +277,7 @@ $string['views'] = 'ページ';
 $string['profilecompleteness'] = 'プロファイル完了';
 $string['profilecompletenesspreview'] = 'プロファイル完了プレビュー';
 $string['profilecompletenesstips'] = 'プロファイル完了ヒント';
-$string['progressbargenerictask'] = '%d %sを追加する';
+$string['progressbargenerictask'] = '%d 追加する: %s';
 $string['profilecompletionforwhichinstitution'] = '-';
 $string['noprogressitems'] = 'このインスティテューションに関してプロファイル完了アイテムはありません。';
 $string['onlineusers'] = 'オンラインユーザ';
