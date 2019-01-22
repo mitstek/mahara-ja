@@ -149,7 +149,7 @@ $string['licensordesc'] = 'このコンテンツのオリジナルライセン�
 $string['licensorurl'] = 'オリジナルURL';
 $string['licensorurldesc'] = 'このコンテンツのオリジナルURLです。';
 $string['licensemandatoryerror'] = 'ライセンスフィールドは必須入力です。';
-$string['licensenocustomerror'] = 'このライセンスはこのサイトで許可されていません。';
+$string['licensenocustomerror'] = 'これはこのサイトで許可されているライセンスではありません。';
 $string['quota'] = 'クオータ';
 $string['quotausage'] = 'あなたのクオータ使用量は<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
 $string['quotausagegroup'] = 'このグループのクオータ使用量は<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
