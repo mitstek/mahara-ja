@@ -220,10 +220,10 @@ $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 <p>利用開始するには<a href="%s">%s</a>にアクセスしてください!</p>
 
 <p>%s サイト管理者</p>';
-$string['accountexpirywarning'] = 'アカウント終了通知';
+$string['accountexpirywarning'] = 'アカウント有効期限切れ通知';
 $string['accountexpirywarningtext'] = '%s さん
 
-あなたの %s のアカウントは %s で終了します。
+あなたの %s のアカウントは %s に有効期限が切れます。
 
 エクスポートツールを使用してあなたのポートフォリオのコンテンツを保存することをお勧めします。この機能の使用に関するインストラクションはユーザガイドに記載されています。
 
@@ -234,7 +234,7 @@ $string['accountexpirywarningtext'] = '%s さん
 %s サイト管理者';
 $string['accountexpirywarninghtml'] = '<p>%s さん</p>
 
-<p>あなたの %s のアカウントは %s で終了します。</p>
+<p>あなたの %s のアカウントは %s に有効期限が切れます。</p>
 
 <p>エクスポートツールを使用してあなたのポートフォリオのコンテンツを保存することをお勧めします。この機能の使用に関するインストラクションはユーザガイドに記載されています。</p>
 
@@ -244,7 +244,7 @@ $string['accountexpirywarninghtml'] = '<p>%s さん</p>
 $string['institutionmembershipexpirywarning'] = 'インスティテューションメンバーシップト終了通知';
 $string['institutionmembershipexpirywarningtext'] = '%s さん
 
-あなたの %s における %s のメンバーシップは %s で終了します。
+あなたの %s における %s のメンバーシップは %s に有効期限が切れます。
 
 あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽にお問い合わせください:
 
@@ -253,7 +253,7 @@ $string['institutionmembershipexpirywarningtext'] = '%s さん
 %s サイト管理者';
 $string['institutionmembershipexpirywarninghtml'] = '<p>%s さん</p>
 
-<p>あなたの %s における %s のメンバーシップは %s で終了します。</p>
+<p>あなたの %s における %s のメンバーシップは %s に有効期限が切れます。</p>
 
 <p>あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>。</P>
 
