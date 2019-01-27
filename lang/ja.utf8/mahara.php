@@ -278,7 +278,7 @@ $string['profilecompletenesspreview'] = 'プロファイル完了プレビュー
 $string['profilecompletenesstips'] = 'プロファイル完了ヒント';
 $string['progressbargenerictask'] = '%d 追加する: %s';
 $string['profilecompletionforwhichinstitution'] = '-';
-$string['noprogressitems'] = 'このインスティテューションに関してプロファイル完了アイテムはありません。';
+$string['noprogressitems'] = 'このインスティテューションにプロファイル完了アイテムはありません。';
 $string['onlineusers'] = 'オンラインユーザ';
 $string['lastminutes'] = '直近の %s 分間';
 $string['allonline'] = 'すべてのオンラインユーザを表示する';
@@ -339,12 +339,12 @@ $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 <p>利用開始するには<a href="%s">%s</a>にアクセスしてください!</p>
 
 <p>%s サイト管理者</p>';
-$string['accountexpirywarning'] = 'アカウント終了通知';
+$string['accountexpirywarning'] = 'アカウント有効期限切れ通知';
 $string['accountexpirywarningtext1'] = '%s さん
 
-あなたの %s のアカウントは %s で終了します。
+あなたの %s のアカウントは %s に有効期限が切れます。
 
-あなたのアカウントの有効期限が切れた後にポートフォリオコンテンツを保持したい場合、%s でポートフォリオをエクスポートすることをお勧めします。
+あなたのアカウントの有効期限が切れた後もポートフォリオコンテンツを保持したい場合、%s でポートフォリオをエクスポートすることをお勧めします。
 
 あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問はお気軽にお問い合わせください:
 
@@ -353,17 +353,17 @@ $string['accountexpirywarningtext1'] = '%s さん
 %s サイト管理者';
 $string['accountexpirywarninghtml1'] = '<p>%s さん</p>
 
-<p>あなたの %s のアカウントは %s で終了します。</p>
+<p>あなたの %s のアカウントは %s に有効期限が切れます。</p>
 
-<p>あなたのアカウントの有効期限が切れた後にポートフォリオコンテンツを保持したい場合、<a href="%s">エクスポートツール</a>でポートフォリオをエクスポートすることをお勧めします。</p>
+<p>あなたのアカウントの有効期限が切れた後もポートフォリオコンテンツを保持したい場合、<a href="%s">エクスポートツール</a>でポートフォリオをエクスポートすることをお勧めします。</p>
 
 <p>あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>。</P>
 
 <p>%s サイト管理者</p>';
-$string['institutionmembershipexpirywarning'] = 'インスティテューションメンバーシップ終了通知';
+$string['institutionmembershipexpirywarning'] = 'インスティテューションメンバーシップ有効期限切れ通知';
 $string['institutionmembershipexpirywarningtext1'] = '%s さん
 
-あなたの %s における %s のメンバーシップは %s で終了します。
+あなたの %s における %s のメンバーシップは %s に有効期限が切れます。
 
 あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽にお問い合わせください:
 
@@ -372,7 +372,7 @@ $string['institutionmembershipexpirywarningtext1'] = '%s さん
 %s サイト管理者';
 $string['institutionmembershipexpirywarninghtml1'] = '<p>%s さん</p>
 
-<p>あなたの %s における %s のメンバーシップは %s で終了します。</p>
+<p>あなたの %s における %s のメンバーシップは %s に有効期限が切れます。</p>
 
 <p>あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>。</P>
 
