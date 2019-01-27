@@ -137,10 +137,10 @@ $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 <p>利用開始するには<a href=""></a>にアクセスしてください!</p>
 
 <p>%s サイト管理者</p>';
-$string['accountexpirywarning'] = 'アカウント終了通知';
+$string['accountexpirywarning'] = 'アカウント有効期限切れ通知';
 $string['accountexpirywarningtext'] = '%s さん
 
-あなたの %s のアカウントは %s で終了します。
+あなたの %s のアカウントは %s に有効期限が切れます。
 
 エクスポートツールを使用してあなたのポートフォリオのコンテンツを保存することをお勧めします。この機能の使用に関するインストラクションはユーザガイドに記載されています。
 
@@ -151,14 +151,14 @@ $string['accountexpirywarningtext'] = '%s さん
 %s サイト管理者';
 $string['accountexpirywarninghtml'] = '<p>%s さん</p>
 
-<p>あなたの %s のアカウントは %s で終了します。</p>
+<p>あなたの %s のアカウントは %s に有効期限が切れます。</p>
 
 <p>エクスポートツールを使用してあなたのポートフォリオのコンテンツを保存することをお勧めします。この機能の使用に関するインストラクションはユーザガイドに記載されています。</p>
 
 <p>あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>:</P>
 
 <p>%s サイト管理者</p>';
-$string['institutionexpirywarning'] = 'インスティテューションメンバーシップ終了通知';
+$string['institutionexpirywarning'] = 'インスティテューションメンバーシップ有効期限切れ通知';
 $string['institutionexpirywarningtext'] = '%s さん
 
 あなたの %s のメンバーシップ %s は %s で終了します。
