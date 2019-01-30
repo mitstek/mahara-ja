@@ -199,11 +199,11 @@ $string['accountinactivewarninghtml'] = '<p>%s さん</p>
 <p>サイトにログインすることであなたのアカウントが無効になることを防ぐことができます。</p>
 
 <p>%s サイト管理者</p>';
-$string['accountsuspended'] = '%s 現在、あなたのアカウントは利用停止されています。あなたの利用停止理由は:<blockquote>%s</blockquote>';
+$string['accountsuspended'] = '%s 現在、あなたのアカウントは利用停止されています。あなたの利用停止理由は次のとおりです:<blockquote>%s</blockquote>';
 $string['youraccounthasbeensuspended'] = 'あなたのアカウントが利用停止されました。';
 $string['youraccounthasbeenunsuspended'] = 'あなたのアカウントの利用停止が解除されました。';
 $string['changepassword'] = 'パスワードを変更する';
-$string['changepasswordinfo'] = '開始する前にあなたはパスワードを変更する必要があります。';
+$string['changepasswordinfo'] = '開始するにはあなたのパスワードを変更する必要があります。';
 $string['confirmpassword'] = 'パスワードをもう一度';
 $string['javascriptnotenabled'] = 'あなたのブラウザではこのサイトに対してJavaスクリプトが有効にされていません。Maharaではあなたがログインする前にJavaスクリプトを有効にする必要があります。';
 $string['cookiesnotenabled'] = 'あなたのブラウザではクッキーが有効にされていないかこのサイトからのクッキーがブロックされています。Maharaではあなたがログインする前にクッキーを有効にする必要があります。';
