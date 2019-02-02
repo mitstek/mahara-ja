@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-01-30 03:07:27 UTC
+ * @updated    2019-02-02 19:26:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -439,8 +439,8 @@ $string['chooseusernamepasswordinfo'] = 'あなたが %s にログインする�
 $string['confirmpassword'] = 'パスワードをもう一度';
 $string['deleteaccount1'] = 'アカウントを削除する';
 $string['senddeletenotification'] = 'リクエストを送信する';
-$string['javascriptnotenabled'] = 'あなたのブラウザはJavaスクリプトが有効にされていません。このサイトではあなたがログインする前にJavaスクリプトを有効にする必要があります。';
-$string['cookiesnotenabled'] = 'あなたのブラウザはクッキーが有効にされていないかクッキーがブロックされています。このサイトではあなたがログインする前にクッキーを有効にする必要があります。';
+$string['javascriptnotenabled'] = 'あなたのブラウザはJavaスクリプトが有効にされていません。あなたがログインするにはこのサイトではJavaスクリプトを有効にする必要があります。';
+$string['cookiesnotenabled'] = 'あなたのブラウザはクッキーが有効にされていないかクッキーがブロックされています。あなたがログインするにはこのサイトではクッキーを有効にする必要があります。';
 $string['institution'] = 'インスティテューション';
 $string['institutioncontacts'] = '「 %s 」連絡先';
 $string['institutionlink'] = '<a href="%s">%s</a>';
