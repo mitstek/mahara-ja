@@ -363,8 +363,8 @@ $string['chooseusernamepassword'] = 'あなたのユーザ名およびパスワ�
 $string['chooseusernamepasswordinfo'] = 'あなたが %s にログインするにはユーザ名およびパスワードが必要です。あなたのユーザ名およびパスワードを選択してください。';
 $string['confirmpassword'] = 'パスワードをもう一度';
 $string['deleteaccount'] = '次のアカウントを削除する: %s / %s';
-$string['javascriptnotenabled'] = 'あなたのブラウザでJavaスクリプトが有効にされていません。このサイトではあなたがログインする前にJavaスクリプトを有効にする必要があります。';
-$string['cookiesnotenabled'] = 'あなたのブラウザはクッキーが有効にされていないかクッキーをブロックしています。このサイトではあなたがログインする前にクッキーを有効にする必要があります。';
+$string['javascriptnotenabled'] = 'あなたのブラウザでJavaスクリプトが有効にされていません。あなたがログインするにはこのサイトではJavaスクリプトを有効にする必要があります。';
+$string['cookiesnotenabled'] = 'あなたのブラウザはクッキーが有効にされていないかクッキーをブロックしています。あなたがログインするにはこのサイトではクッキーを有効にする必要があります。';
 $string['institution'] = 'インスティテューション';
 $string['institutioncontacts'] = '「 %s 」連絡先';
 $string['institutionlink'] = '<a href="%s">%s</a>';
