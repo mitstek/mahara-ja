@@ -438,8 +438,8 @@ $string['chooseusernamepasswordinfo'] = 'あなたが %s にログインする�
 $string['confirmpassword'] = 'パスワードをもう一度';
 $string['deleteaccount1'] = 'アカウントを削除する';
 $string['senddeletenotification'] = 'リクエストを送信する';
-$string['javascriptnotenabled'] = 'あなたのブラウザはJavaスクリプトが有効にされていません。このサイトではあなたがログインする前にJavaスクリプトを有効にする必要があります。';
-$string['cookiesnotenabled'] = 'あなたのブラウザはクッキーが有効にされていないかクッキーがブロックされています。このサイトではあなたがログインする前にクッキーを有効にする必要があります。';
+$string['javascriptnotenabled'] = 'あなたのブラウザはJavaスクリプトが有効にされていません。あなたがログインするにはこのサイトではJavaスクリプトを有効にする必要があります。';
+$string['cookiesnotenabled'] = 'あなたのブラウザはクッキーが有効にされていないかクッキーがブロックされています。あなたがログインするにはこのサイトではクッキーを有効にする必要があります。';
 $string['institution'] = 'インスティテューション';
 $string['institutioncontacts'] = '「 %s 」連絡先';
 $string['institutionlink'] = '<a href="%s">%s</a>';
