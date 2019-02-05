@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-12-27 05:26:11 UTC
+ * @updated    2019-02-05 06:17:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -134,6 +134,7 @@ $string['moderatorsdescription'] = 'モデレータはトピックおよび投�
 $string['name'] = 'フォーラム';
 $string['nameplural'] = 'フォーラム';
 $string['newforum'] = '新しいフォーラム';
+$string['forumlower'] = 'フォーラム';
 $string['newforumpostnotificationsubjectline'] = '%s';
 $string['newpost'] = '新しい投稿:';
 $string['newtopic'] = '新しいトピック';
