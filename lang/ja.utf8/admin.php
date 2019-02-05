@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-12-25 02:21:56 UTC
+ * @updated    2019-02-05 06:35:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1014,6 +1014,8 @@ $string['pendingdeletiondesc'] = '自分のアカウントを削除したいユ�
 $string['pendingusercompletion'] = '承認送信済み、ユーザ完了待ち';
 $string['nosuchinstitution'] = 'そのようなインスティテューションはありません。';
 $string['registrationapprovedsuccessfully'] = '登録が正常に承認されました。';
+$string['registrationapprovedmessage'] = '登録メッセージ:';
+$string['registrationapproveddesc'] = '新しく登録したユーザへの追加情報です。';
 $string['registrationdeniedreason'] = '拒否理由';
 $string['registrationdeniedreasondesc'] = '申請拒否理由に関するユーザ向けの情報です。';
 $string['registrationdeniedsuccessful'] = '登録が正常に拒否されました';
@@ -1030,8 +1032,8 @@ $string['suspendinstitutiondescription'] = 'ここであなたはインスティ
 $string['suspendedinstitutionmessage'] = 'このインスティテューションは利用停止されています。';
 $string['unsuspendinstitution'] = 'インスティテューションの利用停止を解除する';
 $string['unsuspendinstitutiondescription'] = 'ここであなたはインスティテューションの利用停止を解除することができます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまでログインすることはできません。<br /><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止解除した場合、毎日、再度利用停止されることになります。';
-$string['unsuspendinstitutiondescription_top'] = '<strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止解除した場合、毎日、再度利用停止されることになります。';
-$string['unsuspendinstitutiondescription_top_instadmin'] = '利用停止されたインスティテューションのユーザはログインすることができません。インスティテューションの利用停止を解除するには管理者にご連絡ください。';
+$string['unsuspendinstitutiondescription_warning'] = '<b>注意:</b> リセットまたは有効期限を無効にせずに利用停止した場合、結果として毎日再停止されることになります。';
+$string['unsuspendinstitutiondescription_instadmin'] = '利用停止されたインスティテューションのユーザはログインすることはできません。インスティテューションの利用停止を解除するには管理者にご連絡ください。';
 $string['bulkexport'] = 'ユーザをエクスポートする';
 $string['bulkexportempty'] = 'エクスポートに合致するユーザはありません。ユーザ名のリストを再度確認してください。';
 $string['bulkexportinstitution'] = 'すべてのユーザをエクスポートするインスティテューション';
