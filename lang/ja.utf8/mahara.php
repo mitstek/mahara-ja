@@ -344,7 +344,7 @@ $string['lastname'] = '姓';
 $string['studentid'] = 'IDナンバー';
 $string['displayname'] = '表示名';
 $string['fullname'] = 'フルネーム';
-$string['registerwelcome'] = 'ようこそ! このサイトを利用するには最初にユーザ登録してください。';
+$string['registerwelcome'] = 'ようこそ! このサイトを利用するには最初に登録してください。';
 $string['registeragreeterms'] = 'また、あなたは<a href="terms.php">利用条件</a>に同意する必要があります。';
 $string['registerprivacy'] = 'ここで収集したデータは私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
 $string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s にユーザ登録されました。あなたのアバタとして表示する任意のプロファイル画像を選択することができます。</p>';
