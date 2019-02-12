@@ -242,7 +242,7 @@ $string['studentid'] = 'IDナンバー';
 $string['displayname'] = '表示名';
 $string['fullname'] = 'フルネーム';
 $string['registerstep1description'] = 'ようこそ! このサイトを利用するには最初に登録してください。また、あなたは<a href="terms.php">利用条件</a>に同意する必要があります。ここで収集したデータは私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
-$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常にユーザ登録されました! あなたのアバタとして表示する任意のプロファイルアイコンを選択することができます。</p>';
+$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常にユーザ登録されました! あなたのアバタとして表示する任意のプロファイルアイコンを選択できます。</p>';
 $string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須入力です。あなたの登録を完了するにはすべての必須入力フィールドに入力してください。</p>';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムに登録できません。';
 $string['membershipexpiry'] = 'メンバーシップ有効期限切れ';
@@ -299,7 +299,7 @@ $string['noinstitutionsetpassemailsubject'] = '%s: %s のメンバーシップ';
 $string['noinstitutionsetpassemailmessagetext'] = '%s さん
 
 あなたは %s のメンバーではなくなりました。 
-続けて %s を現在のユーザ名 %s で使用することができますがアカウントに新しいパスワードを設定する必要があります。
+続けて %s を現在のユーザ名 %s で使用できますがアカウントに新しいパスワードを設定する必要があります。
 
 パスワードリセット処理を続けるには以下のリンクをクリックしてください。
 
@@ -315,7 +315,7 @@ forgotpass.php?key=%s';
 $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたは %s のメンバーではなくなりました。</p> 
-<p>続けて %s を現在のユーザ名 %s で使用することができますがアカウントに新しいパスワードを設定する必要があります。</p>
+<p>続けて %s を現在のユーザ名 %s で使用できますがアカウントに新しいパスワードを設定する必要があります。</p>
 
 <p>パスワードリセット処理を続けるには以下のリンクをクリックしてください。</p>
 
@@ -369,7 +369,7 @@ $string['preferences'] = 'プリファレンス';
 $string['activityprefs'] = '活動プリファレンス';
 $string['notifications'] = '通知';
 $string['institutionmembership'] = 'インスティテューションメンバーシップ';
-$string['institutionmembershipdescription'] = 'ここにはあなたがメンバーとなっているインスティテューションが表示されます。あなたはインスティテューションのメンバーシップをリクエストすることもできます。また、インスティテューションがあなたに参加招待した場合、あなたは招待を承認または拒否することができます。';
+$string['institutionmembershipdescription'] = 'ここにはあなたがメンバーとなっているインスティテューションが表示されます。あなたはインスティテューションのメンバーシップをリクエストすることもできます。また、インスティテューションがあなたに参加招待した場合、あなたは招待を承認または拒否できます。';
 $string['youareamemberof'] = 'あなたは %s のメンバーです。';
 $string['leaveinstitution'] = 'インスティテューションを離れる';
 $string['reallyleaveinstitution'] = '本当にこのインスティテューションを離れてもよろしいですか?';
@@ -429,7 +429,7 @@ $string['quarantinedirname'] = '隔離場所';
 $string['clammovedfile'] = 'ファイルが隔離ディレクトリに移動されました。';
 $string['clamdeletedfile'] = 'ファイルが削除されました。';
 $string['clamdeletedfilefailed'] = 'ファイルを削除できませんでした。';
-$string['clambroken'] = 'あなたの管理者がファイルのアップロードに関してウイルスチェックを有効にしましたが、設定が正しくないようです。あなたのファイルは正常にはアップロードされませんでした。あなたの管理者にメール通知が送信されましたので管理者は問題を修正することができます。このファイルのアップロードを後でお試しください。';
+$string['clambroken'] = 'あなたの管理者がファイルのアップロードに関してウイルスチェックを有効にしましたが、設定が正しくないようです。あなたのファイルは正常にはアップロードされませんでした。あなたの管理者にメール通知が送信されましたので管理者は問題を修正できます。このファイルのアップロードを後でお試しください。';
 $string['clamemailsubject'] = '%s :: ClamAV通知';
 $string['clamlost'] = 'ClamAVがファイルのアップロード時に動作するよう設定されていますが、ClamAVに提供されたパス「 %s 」が正しくありません。';
 $string['clamfailed'] = 'ClamAVの動作にエラーが発生しました。エラーメッセージは %s です。ClamAVのアウトプットは次のとおりです:';
