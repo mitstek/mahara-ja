@@ -17,9 +17,9 @@ $string['webservice'] = 'ウェブサービス';
 $string['title'] = 'ウェブサービス';
 $string['description'] = 'ウェブサービスのみのユーザをMaharaのデータベースで認証する';
 $string['webservicesconfig'] = '設定';
-$string['webservicesconfigdesc'] = 'ここであなたは様々なウェブサービスルールを変更すること、有効または無効にすることができます。';
+$string['webservicesconfigdesc'] = 'ここであなたは様々なウェブサービスルールを変更すること、有効または無効にできます。';
 $string['webservicesconfigdescshort'] = 'あなたのサイトのウェブサービスアクセスを設定および管理します。';
-$string['webserviceconnectionsconfigdesc'] = '登録済みプラグインの接続オブジェクトをセットアップすることにより外部システムと通信することができます。';
+$string['webserviceconnectionsconfigdesc'] = '登録済みプラグインの接続オブジェクトをセットアップすることにより外部システムと通信できます。';
 $string['completeregistration'] = '登録を完了する';
 $string['emailalreadytaken'] = 'このメールアドレスはすでにここで登録されています。';
 $string['iagreetothetermsandconditions'] = '私は利用条件に同意します。';
@@ -70,9 +70,9 @@ $string['registeredemailmessagehtml'] = '<p>%s さん</p>
 $string['registeredok'] = '<p>あなたの登録が正常に完了しました。あなたのメールアカウントでアカウントを有効にするためのインストラクションを確認してください。</p>';
 $string['registrationnosuchkey'] = '申し訳ございません、このキーでの登録はできないようです。恐らく、あなたが登録を完了するため24時間以上待機していたと思われます。そうでない場合、これは私たちに責任があります';
 $string['registrationunsuccessful'] = '申し訳ございません、あなたの登録は正常に完了しませんでした。これは私たちに責任があります。再度お試しください。';
-$string['usernameinvalidform'] = 'ユーザ名には空白を除く半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
-$string['usernameinvalidadminform'] = 'ユーザ名には空白を除く半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
-$string['youmaynotregisterwithouttandc'] = '<a href="terms.php">利用条件</a>に従うことを同意しない限り、あなたは登録することができません。';
+$string['usernameinvalidform'] = 'ユーザ名には空白を除く半角英数字および標準的な記号を使用できます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
+$string['usernameinvalidadminform'] = 'ユーザ名には空白を除く半角英数字および標準的な記号を使用できます。また、ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
+$string['youmaynotregisterwithouttandc'] = '<a href="terms.php">利用条件</a>に従うことを同意しない限り、あなたは登録できません。';
 $string['pluginconnections'] = '接続オブジェクト';
 $string['nodefinedconnections'] = 'プラグインで定義されているウェブサービス接続はありません。最初に接続を定義してください。';
 $string['instancelistempty'] = 'このインスティテューションの接続オブジェクトはありません。';
@@ -197,7 +197,7 @@ $string['configsaved'] = '設定が保存されました。';
 $string['webservices_title'] = 'ウェブサービス設定';
 $string['headingusersearchtoken'] = 'ウェブサービス: トークンユーザ検索';
 $string['headingusersearchuser'] = 'ウェブサービス: サービスユーザ検索';
-$string['usersearchinstructions'] = 'アバタをクリックすることによりウェブサービスに関連付けられているユーザを選択してください。あなたはユーザの姓名のイニシャルをクリックまたは検索ボックスに名前を入力することによりユーザを検索することができます。メールアドレスで検索したい場合、あなたは検索ボックスにメールアドレスを入力することもできます。';
+$string['usersearchinstructions'] = 'アバタをクリックすることによりウェブサービスに関連付けられているユーザを選択してください。あなたはユーザの姓名のイニシャルをクリックまたは検索ボックスに名前を入力することによりユーザを検索できます。メールアドレスで検索したい場合、あなたは検索ボックスにメールアドレスを入力することもできます。';
 $string['sha1fingerprint'] = 'SHA1フィンガープリント: %s';
 $string['md5fingerprint'] = 'MD5フィンガープリント: %s';
 $string['publickeyexpireson'] = '公開鍵有効期限: %s';
@@ -218,7 +218,7 @@ $string['oauth1auth'] = 'OAuth1.x';
 $string['authtype'] = '認証タイプ';
 $string['sauthtype'] = '認証タイプ';
 $string['enterparameters'] = '関数パラメータを入力してください。';
-$string['testclientinstructions'] = 'これはウェブサービスのためのインタラクティブテストクライアント機能です。あなたは現在のシステムに対して関数を選択および実際に実行することができます。あなたが実行するすべての関数は実際に動作することに留意してください。';
+$string['testclientinstructions'] = 'これはウェブサービスのためのインタラクティブテストクライアント機能です。あなたは現在のシステムに対して関数を選択および実際に実行できます。あなたが実行するすべての関数は実際に動作することに留意してください。';
 $string['executed'] = '関数コールが実行されました。';
 $string['invaliduserpass'] = '「 %s 」に対して無効なウェブサービス名およびウェブサービスパスワードが提供されました。';
 $string['iterationtitle'] = '%s イテレーション: %s';
@@ -274,7 +274,7 @@ $string['errorinvalidparamsdesc'] = '無効な外部API記述です。';
 $string['errorinvalidresponseapi'] = '無効な外部APIレスポンスです。';
 $string['errorinvalidresponsedesc'] = '無効な外部APIレスポンス記述です。';
 $string['errormissingkey'] = '単一構造の必須キーがありません: %s';
-$string['errornotemptydefaultparamarray'] = '名称「 %s 」のウェブサービス記述パラメータは単一または多重構造です。デフォルトは空の配列にのみすることができます。ウェブサービス記述を確認してください。';
+$string['errornotemptydefaultparamarray'] = '名称「 %s 」のウェブサービス記述パラメータは単一または多重構造です。デフォルトは空の配列にのみできます。ウェブサービス記述を確認してください。';
 $string['erroronlyarray'] = '配列のみ許可されます。';
 $string['erroroptionalparamarray'] = '名称「 %s 」のウェブサービス記述パラメータは単一または多重構造です。VALUE_OPTIONALに設定することはできません。ウェブサービス記述を確認してください。';
 $string['errorresponsemissingkey'] = 'レスポンスエラー: 次の単一構造の必須キーがありません: %s';
@@ -340,7 +340,7 @@ $string['testclientdescription'] = '* ウェブサービステストクライア
 <br />
 * まだ既存のウェブサービス関数すべてはテストクライアントに実装されていません。
 <br />
-* ユーザが関数にアクセスできないことを確認するためあなたは許可していない関数をテストすることができます。
+* ユーザが関数にアクセスできないことを確認するためあなたは許可していない関数をテストできます。
 <br />
 * クリアなエラーメッセージを表示するには {$a->atag} でデバッギングを <strong>{$a->mode}</strong> に設定してください。
 <br />

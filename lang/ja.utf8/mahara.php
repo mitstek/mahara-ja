@@ -83,7 +83,7 @@ $string['reportobjectionablematerial'] = '好ましくないコンテンツを�
 $string['objectionablematerialreported'] = '好ましくないコンテンツ報告';
 $string['objectionablematerialreportedowner'] = '誰かがあなたのページに好ましくないコンテンツが含まれていると報告しました。あなたのページをレビューして必要に応じて調整してください。';
 $string['objectionablematerialreportedreply'] = 'あなたが変更した場合、または詳しい説明を求める場合、管理者に通知するため「好ましくないコンテンツをレビューする」ボタンをクリックしてください。';
-$string['objectionablematerialreportreplied'] = '管理者がページをレビューしましたがまだ好ましくないコンテンツが含まれているようです。詳細情報はあなたの通知を確認してください。あなたは変更して「好ましくないコンテンツをレビューする」ボタンをクリックすることにより管理者にメッセージを送信することができます。または詳しい説明を求めることができます。';
+$string['objectionablematerialreportreplied'] = '管理者がページをレビューしましたがまだ好ましくないコンテンツが含まれているようです。詳細情報はあなたの通知を確認してください。あなたは変更して「好ましくないコンテンツをレビューする」ボタンをクリックすることにより管理者にメッセージを送信できます。または詳しい説明を求めることができます。';
 $string['objectionreviewsent'] = '異議レビューがページオーナーに送信されました。あなたが調整して別のレビューを送信したい場合、「まだ好ましくない」をクリックしてください。';
 $string['lastobjection'] = '最新異議';
 $string['objectionnotreviewed'] = '異議レビュー未了';
@@ -99,7 +99,7 @@ $string['reportsent'] = 'あなたの報告が送信されました。';
 $string['reviewrequestsent'] = 'あなたのレビューリクエストが送信されました。';
 $string['stillobjectionable'] = 'まだ好ましくない';
 $string['objectionreview'] = '好ましくないコンテンツをレビューする';
-$string['objectionreviewonview'] = 'ページからのみ好ましくないコンテンツへ返信することができます';
+$string['objectionreviewonview'] = 'ページからのみ好ましくないコンテンツへ返信できます';
 $string['reviewcomplaint'] = 'クレームのレビュー';
 $string['reviewcomplaintdesc'] = 'あなたが作成者に何を変更すべきか詳細を伝えるためのメッセージを入力してください。フィールドを空白にした場合、代わりにオリジナルのクレームが送信されます。';
 $string['reviewnotification'] = 'まだ好ましくないコンテンツが存在しているか確認するためポートフォリオをレビューするよう管理者に通知されました。';
@@ -140,10 +140,10 @@ $string['pluginenabled'] = 'プラグインが表示にされました。';
 $string['plugindisabled'] = 'プラグインが非表示にされました。';
 $string['plugindisableduser'] = '%s プラグインは無効にされています。この機能を有効にするにはあなたの管理者にご相談ください。';
 $string['pluginnotenabled'] = 'プラグインは非表示にされています。あなたはまず %s プラグインを表示にする必要があります。';
-$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるためURLを知っていてアクセスしようと思うユーザはアクセスすることができます機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることによりプラグインを表示または非表示にすることができます。';
+$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるためURLを知っていてアクセスしようと思うユーザはアクセスできます機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることによりプラグインを表示または非表示にできます。';
 $string['pluginexplainartefactblocktypes'] = '「アーティファクト」タイプのプラグインを非表示にした場合、Maharaは同時に関連するブロックの表示を停止します。';
 $string['pluginbrokenanddisabledtitle1'] = '不完全なプラグイン「 %s 」が無効にされました。';
-$string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインのロードを試みましたがロードすることができませんでした。さらなるエラーを避けるためこのプラグインは無効にされました。
+$string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインのロードを試みましたがロードできませんでした。さらなるエラーを避けるためこのプラグインは無効にされました。
 
 プラグインにより生成されたエラーメッセージは以下のとおりです:
 ----------------------------------------------------------------------------
@@ -229,7 +229,7 @@ $string['norelatedtaggeditemstoviewfiltered'] = 'あなたがタグ「 %s 」 (�
 $string['selfsearch'] = '私のポートフォリオを検索する';
 $string['resultsperpage'] = '1ページあたりの結果数';
 $string['allowinstitutiontags'] = 'インスティテューションタグを許可する';
-$string['allowinstitutiontagsdescription'] = '管理者はインスティテューションメンバーが使用できる一連のタグを定義することができます。';
+$string['allowinstitutiontagsdescription'] = '管理者はインスティテューションメンバーが使用できる一連のタグを定義できます。';
 $string['cantlistinstitutiontags'] = 'あなたはインスティテューションタグを一覧表示することはできません。';
 $string['createtag'] = 'タグを作成する';
 $string['deleteinstitutiontag'] = 'インスティテューションタグを削除する';
@@ -239,11 +239,11 @@ $string['error:duplicatetag'] = 'インスティテューションタグはす�
 $string['error:emptytag'] = 'インスティテューションタグを空にすることはできません。';
 $string['institutiontagcantbesaved'] = 'インスティテューションタグを保存できません。';
 $string['institutiontag'] = 'インスティテューションタグ';
-$string['institutiontagdesc'] = 'あなたは1度に1個のタグを追加することができます。';
+$string['institutiontagdesc'] = 'あなたは1度に1個のタグを追加できます。';
 $string['institutiontagdeleted'] = 'インスティテューションタグが正常に削除されました。';
 $string['institutiontagdeletefail'] = 'インスティテューションタグの削除に失敗しました。';
 $string['institutiontags'] = 'インスティテューションタグ';
-$string['institutiontagsdescription'] = 'インスティテューションタグはインスティテューションによって事前に定義されています。すべてのインスティテューションメンバーはインスティテューションタグを使用することができます。あなたは好きなだけタグを作成することができます。';
+$string['institutiontagsdescription'] = 'インスティテューションタグはインスティテューションによって事前に定義されています。すべてのインスティテューションメンバーはインスティテューションタグを使用できます。あなたは好きなだけタグを作成できます。';
 $string['institutiontagsaved'] = 'インスティテューションタグが保存されました。';
 $string['notags'] = 'このインスティテューションにタグはありません。';
 $string['tag'] = 'タグ';
@@ -500,7 +500,7 @@ $string['fullname'] = 'フルネーム';
 $string['registerwelcome'] = 'ようこそ! このサイトを利用するには最初に登録してください。';
 $string['registeragreeterms'] = 'また、あなたは<a href="terms.php">利用条件</a>に同意する必要があります。';
 $string['registerprivacy1'] = 'ここで収集したデータは私たちのプライバシー保護方針に準じて保存されます。';
-$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s に登録されました。あなたのアバタとして表示する任意のプロファイル画像を選択することができます。</p>';
+$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s に登録されました。あなたのアバタとして表示する任意のプロファイル画像を選択できます。</p>';
 $string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須入力です。あなたの登録を完了するにはすべての必須入力フィールドに入力してください。</p>';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムに登録できません。';
 $string['membershipexpiry'] = 'メンバーシップ有効期限切れ';
@@ -562,7 +562,7 @@ $string['noinstitutionsetpassemailsubject'] = '%s: %s のメンバーシップ';
 $string['noinstitutionsetpassemailmessagetext'] = '%s さん
 
 あなたは %s のメンバーではなくなりました。
-続けて %s を現在のユーザ名 %s で使用することができますがアカウントに新しいパスワードを設定する必要があります。
+続けて %s を現在のユーザ名 %s で使用できますがアカウントに新しいパスワードを設定する必要があります。
 
 パスワードリセット処理を続けるには以下のリンクをクリックしてください。
 
@@ -578,7 +578,7 @@ $string['noinstitutionsetpassemailmessagetext'] = '%s さん
 $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたは %s のメンバーではなくなりました。</p>
-<p>続けて %s を現在のユーザ名 %s で使用することができますがアカウントに新しいパスワードを設定する必要があります。</p>
+<p>続けて %s を現在のユーザ名 %s で使用できますがアカウントに新しいパスワードを設定する必要があります。</p>
 
 <p>パスワードリセット処理を続けるには以下のリンクをクリックしてください。</p>
 
@@ -593,9 +593,9 @@ $string['noinstitutionoldpassemailsubject'] = '%s: %s のメンバーシップ';
 $string['noinstitutionoldpassemailmessagetext'] = '%s さん
 
 あなたは %s のメンバーではなくなりました。
-あなたは続けて %s を現在のユーザ名 %s およびアカウントに設定したパスワードで使用することができます。
+あなたは続けて %s を現在のユーザ名 %s およびアカウントに設定したパスワードで使用できます。
 
-あなたのパスワードを忘れてしまった場合、以下のページにアクセスしてユーザ名を入力することでパスワードをリセットすることができます。
+あなたのパスワードを忘れてしまった場合、以下のページにアクセスしてユーザ名を入力することでパスワードをリセットできます。
 
 %sforgotpass.php
 
@@ -609,9 +609,9 @@ $string['noinstitutionoldpassemailmessagetext'] = '%s さん
 $string['noinstitutionoldpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたは %s のメンバーではなくなりました。</p>
-<p>あなたは続けて %s を現在のユーザ名 %s およびアカウントに設定したパスワードで使用することができます。</p>
+<p>あなたは続けて %s を現在のユーザ名 %s およびアカウントに設定したパスワードで使用できます。</p>
 
-<p>あなたのパスワードを忘れてしまった場合、以下のページにアクセスしてユーザ名を入力することでパスワードをリセットすることができます。</p>
+<p>あなたのパスワードを忘れてしまった場合、以下のページにアクセスしてユーザ名を入力することでパスワードをリセットできます。</p>
 
 <p><a href="%sforgotpass.php">%sforgotpass.php</a></p>
 
@@ -692,7 +692,7 @@ $string['siteinformation'] = 'サイト情報';
 $string['institutioninformation'] = 'インスティテューション情報';
 $string['unreadmessages'] = '未読メッセージ';
 $string['unreadmessage'] = '未読メッセージ';
-$string['siteclosed'] = 'データベースアップグレードのためサイトは一時的に閉鎖されています。サイト管理者はログインすることができます。';
+$string['siteclosed'] = 'データベースアップグレードのためサイトは一時的に閉鎖されています。サイト管理者はログインできます。';
 $string['siteclosedlogindisabled'] = 'データベースアップグレードのためサイトは一時的に閉鎖されています。<a href="%s">今からアップグレードを実行します。</a>';
 $string['termsandconditions'] = '利用条件';
 $string['privacystatement'] = 'プライバシー保護方針';
@@ -710,7 +710,7 @@ $string['inbox'] = '受信箱';
 $string['unread'] = '%s 未読';
 $string['gotoinbox'] = '受信箱に移動する';
 $string['institutionmembership'] = 'インスティテューションメンバーシップ';
-$string['institutionmembershipdescription'] = 'あなたがインスティテューションのメンバーとなっている場合、ここにインスティテューションが一覧表示されます。あなたはインスティテューションのメンバーシップをリクエストすることもできます。また、保留中のメンバーシップ招待を承認または拒否することができます。';
+$string['institutionmembershipdescription'] = 'あなたがインスティテューションのメンバーとなっている場合、ここにインスティテューションが一覧表示されます。あなたはインスティテューションのメンバーシップをリクエストすることもできます。また、保留中のメンバーシップ招待を承認または拒否できます。';
 $string['youareamemberof'] = 'あなたは %s のメンバーです。';
 $string['leaveinstitution'] = 'インスティテューションを離れる';
 $string['reallyleaveinstitution'] = '本当にこのインスティテューションを離れてもよろしいですか?';
@@ -784,7 +784,7 @@ $string['primaryemailinvalid'] = 'あなたの主メールアドレスが有効�
 $string['addemail'] = 'メールアドレスを追加する';
 $string['myapps'] = 'アプリ';
 $string['myapplications'] = 'マイアプリケーション';
-$string['acccountappsdescription'] = 'ここであなたはトークンアクセスを必要とするアプリケーションを管理することができます。';
+$string['acccountappsdescription'] = 'ここであなたはトークンアクセスを必要とするアプリケーションを管理できます。';
 $string['acccountaddappsdescription'] = '現在、トークン管理の許可が有効にされているプラグインはありません。';
 $string['acccountchooseappsdescription'] = 'あなたのアプリケーショントークンを管理するには「マイアプリケーション」バーよりアプリケーションを選択してください。';
 $string['search'] = '検索';
@@ -821,7 +821,7 @@ $string['editaccess'] = 'アクセスを編集する';
 $string['clammovedfile'] = 'ファイルが隔離ディレクトリに移動されました。';
 $string['clamdeletedfile'] = 'ファイルが削除されました。';
 $string['clamdeletedfilefailed'] = 'ファイルを削除できませんでした。';
-$string['clambroken'] = 'あなたの管理者がファイルのアップロードに関してウイルスチェックを有効にしましたが、設定が正しくないようです。あなたのファイルは正常にはアップロードされませんでした。あなたの管理者にメール通知が送信されましたので管理者は問題を修正することができます。このファイルのアップロードを後でお試しください。';
+$string['clambroken'] = 'あなたの管理者がファイルのアップロードに関してウイルスチェックを有効にしましたが、設定が正しくないようです。あなたのファイルは正常にはアップロードされませんでした。あなたの管理者にメール通知が送信されましたので管理者は問題を修正できます。このファイルのアップロードを後でお試しください。';
 $string['clamemailsubject'] = '%s :: ClamAV通知';
 $string['clamlost'] = 'ClamAVがファイルのアップロード時に動作するよう設定されていますが、ClamAVに提供されたパス「 %s 」が正しくありません。';
 $string['clamnotset'] = 'あなたはウイルスチェックを有効にしましたが、「ClamAVのパス」を設定していません。あなたのconfig.phpファイルに「$cfg->pathtoclam」を追加してClamAVのパスを設定するまでウイルスチェックは有効になりません。';
@@ -857,7 +857,7 @@ $string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s における
 $string['youraccounthasbeensuspendedreasontextcron'] = 'あなたの %s におけるアカウントが利用停止されました。利用停止の理由は:
 
 %s';
-$string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用することができます。';
+$string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用できます。';
 $string['youraccounthasbeensuspendedtext3'] = 'あなたは %s の同意を拒否したため %s におけるアカウントが利用停止されました。';
 $string['sizemb'] = 'MB';
 $string['sizekb'] = 'KB';
@@ -1147,7 +1147,7 @@ $string['profiledescription'] = 'プロファイルページはあなたの表�
 $string['mydashboard'] = 'マイダッシュボード';
 $string['editdashboard'] = 'ダッシュボードを編集する';
 $string['usersdashboard'] = '%s のダッシュボード';
-$string['dashboarddescription'] = 'ダッシュボードページはあなたがログインして最初にホームページ上で閲覧することになるページです。このページはあなたのみアクセスすることができます。';
+$string['dashboarddescription'] = 'ダッシュボードページはあなたがログインして最初にホームページ上で閲覧することになるページです。このページはあなたのみアクセスできます。';
 $string['topicsimfollowing'] = '私がフォローしているトピック';
 $string['inboxblocktitle'] = '受信箱';
 $string['mymessages'] = 'マイメッセージ';
@@ -1166,7 +1166,7 @@ $string['sharedetail'] = 'あなたの達成および進歩をあなたが管理
 $string['engage'] = '参加';
 $string['engagesubtitle'] = '人を探してグループに参加する';
 $string['engagedetail'] = 'ディスカッションフォーラムで他の人と関わってグループで協働します。';
-$string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールすることができます。';
+$string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールできます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['blockinstanceownerchange'] = 'このブロックを編集して表示するコンテンツを変更します。';
 $string['blockinstanceconfigownerauto'] = 'このブロックがユーザのプロファイルページとしてコピーされた場合、データとともに自動的に追加されます。';
@@ -1206,7 +1206,7 @@ $string['maximumSelected'] = '最大アイテム数が選択されました。';
 $string['noResults'] = '該当データはありません。';
 $string['searching'] = '検索中 ...';
 $string['styleguide_title'] = 'スタイルガイド';
-$string['styleguide_description'] = 'このスタイルガイドではMaharaで使用される異なるタイプのコンポーネントすべてに関して説明します。これらは1箇所に入れられるためあなたの新しいテーマまたはプラグインの開発時にスタイリングされているかどうか簡単に確認することができます。あなたのサイトに異なるテーマを適用して個々のコンポーネントがどのように表示されるか確認します。';
+$string['styleguide_description'] = 'このスタイルガイドではMaharaで使用される異なるタイプのコンポーネントすべてに関して説明します。これらは1箇所に入れられるためあなたの新しいテーマまたはプラグインの開発時にスタイリングされているかどうか簡単に確認できます。あなたのサイトに異なるテーマを適用して個々のコンポーネントがどのように表示されるか確認します。';
 $string['cli_incorrect_value'] = '値が正しくありません。再度お試しください。';
 $string['scroll_to_top'] = 'トップに戻る';
 $string['tabgroup'] = 'グループ';
