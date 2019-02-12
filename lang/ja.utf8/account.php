@@ -18,7 +18,7 @@ $string['changepasswordotherinterface'] = 'あなたは異なるインターフ�
 $string['oldpasswordincorrect'] = 'これはあなたの現在のパスワードではありません。';
 $string['changeusernameheading'] = 'ユーザ名を変更する';
 $string['changeusername'] = '新しいユーザ名';
-$string['changeusernamedesc'] = 'あなたが %s へのログインに使用するユーザ名です。ユーザ名の長さは半角3-30文字にしてください。ユーザ名には空白を除く半角英数字および標準的な記号を使用することができます。';
+$string['changeusernamedesc'] = 'あなたが %s へのログインに使用するユーザ名です。ユーザ名の長さは半角3-30文字にしてください。ユーザ名には空白を除く半角英数字および標準的な記号を使用できます。';
 $string['usernameexists'] = 'このユーザ名は取得されています。別のユーザ名を選択してください。';
 $string['accountoptionsdesc'] = '一般アカウントオプション';
 $string['changeprofileurl'] = 'プロファイルURLを変更する';
@@ -47,7 +47,7 @@ $string['showviewcolumns'] = 'ページの編集時、カラムの「追加」�
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'あなたのタグクラウドに表示されるタグの最大数です。';
 $string['enablemultipleblogs1'] = '複数日誌';
-$string['enablemultipleblogsdescription'] = 'デフォルトではあなたは1つの日誌のみMaharaに作成することができます。あなたが1つ以上の日誌を作成したい場合、このオプションをチェックしてください。';
+$string['enablemultipleblogsdescription'] = 'デフォルトではあなたは1つの日誌のみMaharaに作成できます。あなたが1つ以上の日誌を作成したい場合、このオプションをチェックしてください。';
 $string['hiderealname'] = '実名を隠す';
 $string['hiderealnamedescription'] = 'あなたが表示名を設定した場合、そしてあなたの実名検索により他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
 $string['showhomeinfo2'] = 'ダッシュボード情報';
@@ -61,12 +61,12 @@ $string['prefsnotsaved'] = 'あなたのプリファレンスの保存に失敗�
 $string['maildisabled'] = 'Eメールが無効にされました。';
 $string['disableemail'] = 'Eメールを無効にする';
 $string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたためあなたのメールアドレス宛のメール送信は停止されました。Eメールを有効にする前にあなたのEメールアカウントが正常に動作しているか %s のアカウントプリファレンスで確認してください。';
-$string['maildisableddescription'] = 'あなたのアカウント宛のメール送信は停止されました。アカウントプリファレンスページで<a href="%s">あなたのEメールを再度有効</a>にすることができます。';
+$string['maildisableddescription'] = 'あなたのアカウント宛のメール送信は停止されました。アカウントプリファレンスページで<a href="%s">あなたのEメールを再度有効</a>にできます。';
 $string['deleteaccount'] = 'アカウントを削除する';
 $string['deleteaccountdescription'] = 'アカウントを削除した場合、今後、あなたのプロファイル情報およびページを他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧できますが投稿者名が表示されないようになります。';
 $string['accountdeleted'] = 'あなたのアカウントが削除されました。';
 $string['resizeonuploaduserdefault1'] = 'アップロード時、大きなイメージをリサイズする';
-$string['resizeonuploaduserdefaultdescription1'] = 'この設定を有効にした場合、「アップロード時、大きなイメージをリサイズする」オプションがデフォルトで有効にされます。また、最大高さおよび幅を超えたイメージはアップロード時にリサイズされます。個別のイメージアップロード時、あなたはこのデフォルト設定を無効にすることができます。';
+$string['resizeonuploaduserdefaultdescription1'] = 'この設定を有効にした場合、「アップロード時、大きなイメージをリサイズする」オプションがデフォルトで有効にされます。また、最大高さおよび幅を超えたイメージはアップロード時にリサイズされます。個別のイメージアップロード時、あなたはこのデフォルト設定を無効にできます。';
 $string['devicedetection'] = 'デバイス検出';
 $string['devicedetectiondescription'] = 'このサイトの閲覧時のモバイルデバイス検出を有効にします。';
 

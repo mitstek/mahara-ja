@@ -146,7 +146,7 @@ CSS @font-faceルールによってウェブページに埋め込むことので
 <br />TrueTypeフォント、Embedded OpenTypeフォント、Web Open Font FormatフォントおよびScalable Vector Graphicフォント。
 </p>
 <p>
-あなたは<a href="http://www.fontsquirrel.com/fontface/generator/" target="_blank">FontSquirrel Online Generator</a>を変換に使用することができます。
+あなたは<a href="http://www.fontsquirrel.com/fontface/generator/" target="_blank">FontSquirrel Online Generator</a>を変換に使用できます。
 </p>';
 $string['nofonts'] = 'フォントがありません。';
 $string['font'] = 'フォント';
@@ -179,7 +179,7 @@ $string['fonttype'] = 'フォントタイプ';
 $string['headingandtext'] = 'ヘッディングおよびテキスト';
 $string['headingonly'] = 'ヘッディングのみ';
 $string['fontuploadinstructions'] = '<br />必要なフォントファイルをアップロードするにはあなたは<a href="http://www.fontsquirrel.com/fontface/generator/" target="_blank">FontSquirrel Online Generator</a>によって生成されたZIPファイルを直接アップロードするか、
-<br />EOT、SVG、TTF、WOFFおよびライセンスファイルを個別にアップロードすることができます。';
+<br />EOT、SVG、TTF、WOFFおよびライセンスファイルを個別にアップロードできます。';
 $string['fontfiles'] = 'フォントファイル';
 $string['fontfilemissing'] = 'ZIPファイルに「 %s 」フォントファイルが含まれていません。';
 $string['zipfontfiles'] = 'ZIP書庫内のフォントファイル';
