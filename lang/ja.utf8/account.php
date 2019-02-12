@@ -33,7 +33,7 @@ $string['changepasswordotherinterface'] = 'あなたは異なるインターフ�
 $string['oldpasswordincorrect'] = 'これはあなたの現在のパスワードではありません。';
 $string['changeusernameheading'] = 'ユーザ名を変更する';
 $string['changeusername'] = '新しいユーザ名';
-$string['changeusernamedesc'] = 'あなたが %s へのログインに使用するユーザ名です。ユーザ名の長さは半角3-30文字にしてください。ユーザ名には空白を除く半角英数字および標準的な記号を使用することができます。';
+$string['changeusernamedesc'] = 'あなたが %s へのログインに使用するユーザ名です。ユーザ名の長さは半角3-30文字にしてください。ユーザ名には空白を除く半角英数字および標準的な記号を使用できます。';
 $string['usernameexists'] = 'このユーザ名は取得されています。別のユーザ名を選択してください。';
 $string['accountoptionsdesc'] = '一般アカウントオプション';
 $string['friendsnobody'] = '誰も私をフレンドとして追加できません。';
@@ -55,7 +55,7 @@ $string['showviewcolumns'] = 'ページの編集時、カラムの「追加」�
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'あなたのタグクラウドに表示されるタグの最大数です。';
 $string['enablemultipleblogs'] = '複数日誌を有効にする';
-$string['enablemultipleblogsdescription'] = 'デフォルトではあなたは1つの日誌のみMaharaに作成することができます。あなたが1つ以上の日誌を作成したい場合、このオプションをチェックしてください。';
+$string['enablemultipleblogsdescription'] = 'デフォルトではあなたは1つの日誌のみMaharaに作成できます。あなたが1つ以上の日誌を作成したい場合、このオプションをチェックしてください。';
 $string['disablemultipleblogserror'] = '1つの日誌のみ作成していない限り、あなたは複数日誌を無効にすることはできません。';
 $string['hiderealname'] = '実名を隠す';
 $string['hiderealnamedescription'] = 'あなたが表示名を設定した場合、そしてあなたの実名検索により他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
@@ -66,7 +66,7 @@ $string['prefssaved'] = 'プリファレンスが保存されました。';
 $string['prefsnotsaved'] = 'あなたのプリファレンスの保存に失敗しました!';
 $string['maildisabled'] = 'Eメールが無効にされました。';
 $string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたためあなたのメールアドレス宛のメール送信は停止されました。Eメールを有効にする前にあなたのEメールアカウントが正常に動作しているか %s のアカウントプリファレンスで確認してください。';
-$string['maildisableddescription'] = 'あなたのアカウント宛のメール送信は停止されました。アカウントプリファレンスページで<a href="%s">あなたのEメールを再度有効</a>にすることができます。';
+$string['maildisableddescription'] = 'あなたのアカウント宛のメール送信は停止されました。アカウントプリファレンスページで<a href="%s">あなたのEメールを再度有効</a>にできます。';
 $string['deleteaccount'] = 'アカウントを削除する';
 $string['deleteaccountdescription'] = 'アカウントを削除した場合、今後、あなたのプロファイル情報およびページを他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧できますが投稿者名が表示されないようになります。';
 $string['accountdeleted'] = 'あなたのアカウントが削除されました。';
