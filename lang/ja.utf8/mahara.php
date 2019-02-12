@@ -314,7 +314,7 @@ $string['fullname'] = 'フルネーム';
 $string['registerwelcome'] = 'ようこそ! このサイトを利用するには最初に登録してください。';
 $string['registeragreeterms'] = 'また、あなたは<a href="terms.php">利用条件</a>に同意する必要があります。';
 $string['registerprivacy'] = 'ここで収集したデータは私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
-$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s に登録されました。あなたのアバタとして表示する任意のプロファイルアイコンを選択することができます。</p>';
+$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s に登録されました。あなたのアバタとして表示する任意のプロファイルアイコンを選択できます。</p>';
 $string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須入力です。あなたの登録を完了するにはすべての必須入力フィールドに入力してください。</p>';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムに登録できません。';
 $string['membershipexpiry'] = 'メンバーシップ有効期限切れ';
@@ -372,7 +372,7 @@ $string['noinstitutionsetpassemailsubject'] = '%s: %s のメンバーシップ';
 $string['noinstitutionsetpassemailmessagetext'] = '%s さん
 
 あなたは %s のメンバーではなくなりました。 
-続けて %s を現在のユーザ名 %s で使用することができますがアカウントに新しいパスワードを設定する必要があります。
+続けて %s を現在のユーザ名 %s で使用できますがアカウントに新しいパスワードを設定する必要があります。
 
 パスワードリセット処理を続けるには以下のリンクをクリックしてください。
 
@@ -388,7 +388,7 @@ forgotpass.php?key=%s';
 $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたは %s のメンバーではなくなりました。</p> 
-<p>続けて %s を現在のユーザ名 %s で使用することができますがアカウントに新しいパスワードを設定する必要があります。</p>
+<p>続けて %s を現在のユーザ名 %s で使用できますがアカウントに新しいパスワードを設定する必要があります。</p>
 
 <p>パスワードリセット処理を続けるには以下のリンクをクリックしてください。</p>
 
@@ -433,7 +433,7 @@ $string['siteadministration'] = 'サイト管理';
 $string['useradministration'] = 'ユーザ管理';
 $string['unreadmessages'] = '未読メッセージ';
 $string['unreadmessage'] = '未読メッセージ';
-$string['siteclosed'] = 'データベースアップグレードのためサイトは一時的に閉鎖されています。サイト管理者はログインすることができます。';
+$string['siteclosed'] = 'データベースアップグレードのためサイトは一時的に閉鎖されています。サイト管理者はログインできます。';
 $string['siteclosedlogindisabled'] = 'データベースアップグレードのためサイトは一時的に閉鎖されています。<a href="%s">今からアップグレードを実行します。</a>';
 $string['termsandconditions'] = '利用条件';
 $string['privacystatement'] = 'プライバシー保護方針';
@@ -447,7 +447,7 @@ $string['notifications'] = '通知';
 $string['inbox'] = '受信箱';
 $string['gotoinbox'] = '受信箱に移動する';
 $string['institutionmembership'] = 'インスティテューションメンバーシップ';
-$string['institutionmembershipdescription'] = 'あなたがインスティテューションのメンバーとなっている場合、ここにインスティテューションが一覧表示されます。あなたはインスティテューションのメンバーシップをリクエストすることもできます。また、保留中のメンバーシップ招待を承認または拒否することができます。';
+$string['institutionmembershipdescription'] = 'あなたがインスティテューションのメンバーとなっている場合、ここにインスティテューションが一覧表示されます。あなたはインスティテューションのメンバーシップをリクエストすることもできます。また、保留中のメンバーシップ招待を承認または拒否できます。';
 $string['youareamemberof'] = 'あなたは %s のメンバーです。';
 $string['leaveinstitution'] = 'インスティテューションを離れる';
 $string['reallyleaveinstitution'] = '本当にこのインスティテューションを離れてもよろしいですか?';
@@ -519,7 +519,7 @@ $string['quarantinedirname'] = '隔離場所';
 $string['clammovedfile'] = 'ファイルが隔離ディレクトリに移動されました。';
 $string['clamdeletedfile'] = 'ファイルが削除されました。';
 $string['clamdeletedfilefailed'] = 'ファイルを削除できませんでした。';
-$string['clambroken'] = 'あなたの管理者がファイルのアップロードに関してウイルスチェックを有効にしましたが、設定が正しくないようです。あなたのファイルは正常にはアップロードされませんでした。あなたの管理者にメール通知が送信されましたので管理者は問題を修正することができます。このファイルのアップロードを後でお試しください。';
+$string['clambroken'] = 'あなたの管理者がファイルのアップロードに関してウイルスチェックを有効にしましたが、設定が正しくないようです。あなたのファイルは正常にはアップロードされませんでした。あなたの管理者にメール通知が送信されましたので管理者は問題を修正できます。このファイルのアップロードを後でお試しください。';
 $string['clamemailsubject'] = '%s :: ClamAV通知';
 $string['clamlost'] = 'ClamAVがファイルのアップロード時に動作するよう設定されていますが、ClamAVに提供されたパス「 %s 」が正しくありません。';
 $string['clamfailed'] = 'ClamAVの動作にエラーが発生しました。エラーメッセージは %s です。ClamAVのアウトプットは次のとおりです:';
@@ -545,7 +545,7 @@ $string['youraccounthasbeensuspendedtext2'] = 'あなたの %s におけるア�
 $string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。利用停止の理由は:
 
 %s';
-$string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用することができます。';
+$string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用できます。';
 $string['sizemb'] = 'MB';
 $string['sizekb'] = 'KB';
 $string['sizegb'] = 'GB';
@@ -800,7 +800,7 @@ $string['done'] = '完了';
 $string['back'] = '戻る';
 $string['backto'] = '%s に戻る';
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
-$string['formatpostbbcode'] = 'BBコードを使用してあなたの投稿を書式設定することができます。%s詳細情報%s';
+$string['formatpostbbcode'] = 'BBコードを使用してあなたの投稿を書式設定できます。%s詳細情報%s';
 $string['Created'] = '作成';
 $string['Updated'] = '更新';
 $string['Total'] = '合計';
@@ -819,7 +819,7 @@ $string['profiledescription'] = 'あなたのプロファイルビューはあ�
 $string['mydashboard'] = 'マイダッシュボード';
 $string['editdashboard'] = '編集';
 $string['usersdashboard'] = '%s のダッシュボード';
-$string['dashboarddescription'] = 'あなたのダッシュボードビューはあなたがログインして最初にホームページ上で閲覧することになるビューです。このビューはあなたのみアクセスすることができます。';
+$string['dashboarddescription'] = 'あなたのダッシュボードビューはあなたがログインして最初にホームページ上で閲覧することになるビューです。このビューはあなたのみアクセスできます。';
 $string['topicsimfollowing'] = '私がフォローしているトピック';
 $string['recentactivity'] = 'マイメッセージ';
 $string['mymessages'] = 'マイメッセージ';
@@ -836,12 +836,12 @@ $string['createyourresume'] = '<a href="%s">レジュメ</a>を作成する';
 $string['publishablog'] = '<a href="%s">ブログ</a>を公開する';
 $string['Organise'] = '整理';
 $string['organisesubtitle'] = 'あなたのポートフォリオをビューに表示します。';
-$string['organisedescription'] = 'あなたのポートフォリオを<a href="%s">ビュー</a>に整理することができます。異なる閲覧者に対して異なるビューを作成します - あなたがビューに含む構成要素を選択します。';
+$string['organisedescription'] = 'あなたのポートフォリオを<a href="%s">ビュー</a>に整理できます。異なる閲覧者に対して異なるビューを作成します - あなたがビューに含む構成要素を選択します。';
 $string['sharenetwork'] = '共有およびネットワーク';
 $string['sharenetworksubtitle'] = 'フレンドを探してグループに参加します。';
 $string['findfriendslinked'] = '<a href="%s">フレンド</a>を探す';
 $string['joingroups'] = '<a href="%s">グループ</a>に参加する';
-$string['sharenetworkdescription'] = 'あなたは誰がどのくらいの期間、それぞれのビューにアクセスできるか微調整することができます。';
-$string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールすることができます。';
+$string['sharenetworkdescription'] = 'あなたは誰がどのくらいの期間、それぞれのビューにアクセスできるか微調整できます。';
+$string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールできます。';
 
 ?>
