@@ -24,13 +24,13 @@ $string['allowannotationfeedback'] = 'フィードバックを許可する';
 $string['approvalrequired'] = 'フィードバックはモデレートされます。あなたがこのフィードバックをパブリックにすることを選択した場合、オーナーから承認されるまで他の人は閲覧できません。';
 $string['canteditnotauthor'] = 'あなたはこのフィードバックの投稿者ではありません。';
 $string['annotationfeedbacknotinview'] = 'フィードバック「 %d 」はページ「 %d 」にありません。';
-$string['cantedittooold'] = 'あなたは %d 分未満のフィードバックのみ編集することができます。';
-$string['cantedithasreplies'] = 'あなたは最も最近のフィードバックのみ編集することができます。';
+$string['cantedittooold'] = 'あなたは %d 分未満のフィードバックのみ編集できます。';
+$string['cantedithasreplies'] = 'あなたは最も最近のフィードバックのみ編集できます。';
 $string['annotationfeedbackmadepublic'] = 'フィードバックがパブリックにされました。';
 $string['annotationfeedbackdeletedauthornotification'] = 'あなたの %s のフィードバックが削除されました: %s';
 $string['annotationfeedbackdeletednotificationsubject'] = '%s のフィードバックが削除されました。';
 $string['annotationfeedbackremoved'] = 'フィードバックが削除されました。';
-$string['editannotationfeedbackdescription'] = 'あなたは新しい返信が投稿されていない %d 分未満のフィードバックを更新することができます。この時間が経過した場合、あなたのフィードバックを削除して新しいフィードバックを追加することはできます。';
+$string['editannotationfeedbackdescription'] = 'あなたは新しい返信が投稿されていない %d 分未満のフィードバックを更新できます。この時間が経過した場合、あなたのフィードバックを削除して新しいフィードバックを追加することはできます。';
 $string['annotationfeedbackupdated'] = 'フィードバックが更新されました。';
 $string['commentremovedbyauthor'] = '投稿者によって削除されたフィードバック';
 $string['commentremovedbyowner'] = 'オーナーによって削除されたフィードバック';
@@ -84,7 +84,7 @@ $string['annotationfeedbackdeletedtext'] = 'アノテーション %s のフィ�
 %s をオンラインで確認するには次のリンクにアクセスしてください:
 %s';
 $string['artefactdefaultpermissions'] = 'デフォルトアノテーションパーミッション';
-$string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトタイプではフィードバックの作成が有効にされます。ユーザは個々のアーティファクトでこれらの設定をオーバーライドすることができます。';
+$string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトタイプではフィードバックの作成が有効にされます。ユーザは個々のアーティファクトでこれらの設定をオーバーライドできます。';
 $string['annotationinformationerror'] = 'あなたにはアノテーションを表示するための正しい情報がありません。';
 $string['invalidannotationfeedbacklinkerror'] = 'フィードバックはアーティファクトまたはページにリンクされる必要があります。';
 $string['entriesimportedfromleapexport'] = '他の場所でインポートできなかったLeap2Aエクスポートからインポートされたエントリです。';

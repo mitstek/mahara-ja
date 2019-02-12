@@ -52,8 +52,8 @@ $string['registrationnosuchid'] = '申し訳ございません、この登録キ
 $string['registrationnosuchkey1'] = '申し訳ございません、私たちにはあなたのリンクに合致するキーがありません。恐らく、あなたのメールプログラムが壊したと思われます。';
 $string['registrationunsuccessful'] = '申し訳ございません、あなたのユーザ登録は正常に完了しませんでした。これはあなたではなく、私たちに責任があります。後ほど再度お試しください。';
 $string['usernamealreadytaken'] = '申し訳ございません、このユーザ名はすでに取得されています。';
-$string['usernameinvalidform'] = 'ユーザ名には半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
-$string['usernameinvalidadminform'] = 'ユーザ名には半角英数字および標準的な記号を使用することができます。ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
+$string['usernameinvalidform'] = 'ユーザ名には半角英数字および標準的な記号を使用できます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
+$string['usernameinvalidadminform'] = 'ユーザ名には半角英数字および標準的な記号を使用できます。ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
 $string['youmaynotregisterwithouttandc'] = '<a href="#user_acceptterms">利用条件</a>の順守に同意しない限り、あなたはユーザ登録されません。';
 $string['confirmcancelregistration'] = '本当にこの登録をキャンセルしてもよろしいですか? キャンセルの結果としてあなたのリクエストがシステムから削除されます。';
 $string['confirmemailsubject'] = '%s 登録のメール確認';
