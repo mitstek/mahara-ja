@@ -44,12 +44,12 @@ $string['cantretrievekey'] = 'リモートサーバのパブリックキー検�
 $string['ssodirection'] = 'SSOの方向';
 $string['active'] = 'アクティブ';
 $string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s に対する使用を試みています。';
-$string['errorcouldnotgeneratenewsslkey'] = '新しいSSLキーを生成することができませんでした。本当にこのマシンに OpenSSLおよびOpenSSL用PHPモジュールがインストールされていますか?';
+$string['errorcouldnotgeneratenewsslkey'] = '新しいSSLキーを生成できませんでした。本当にこのマシンに OpenSSLおよびOpenSSL用PHPモジュールがインストールされていますか?';
 $string['errnoauthinstances'] = '私たちには %s のホストに関して認証プラグインインスタンスが設定されていないようです。';
 $string['errornotvalidsslcertificate'] = '有効なSSLサーバ証明書ではありません。';
 $string['errnoxmlrpcinstances'] = '私たちには %s のホストに関してXMLRPCプラグインインスタンスが設定されていないようです。';
 $string['errnoxmlrpcwwwroot'] = '私たちには %s のホストに関してレコードがありません。';
-$string['errnoxmlrpcuser1'] = '現時点ではあなたを認証することができませんでした。可能性のある理由として下記が考えられます:
+$string['errnoxmlrpcuser1'] = '現時点ではあなたを認証できませんでした。可能性のある理由として下記が考えられます:
 
 *あなたのSSOセッションが失効しました。他のアプリケーションに戻って %s にログインするためのリンクを再度クリックしてください。
 *あなたの %s に対するSSOが許可されていません。あなたがSSOできるかどうか管理者に確認してください。';

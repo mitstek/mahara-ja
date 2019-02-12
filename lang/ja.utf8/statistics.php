@@ -375,9 +375,9 @@ $string['peoplereports'] = '人概要';
 $string['informationloginsreports'] = 'ログイン';
 $string['informationcomparisonsreports'] = 'インスティテューション比較';
 $string['applyingfilters'] = 'フィルタ適用';
-$string['nogroupdataperinstitution'] = 'グループレポートはサイト全体にのみ生成することができます。あなたにサイト全体のレポートを閲覧できるパーミッションがある場合、インスティテューションセレクタより「すべてのインスティテューション」を選択してください。';
-$string['nocomparisondataperinstitution'] = '比較レポートはサイト全体にのみ生成することができます。あなたにサイト全体のレポートを閲覧できるパーミッションがある場合、インスティテューションセレクタより「すべてのインスティテューション」を選択してください。';
-$string['nologinsdataperinstitution'] = 'ログインレポートはサイト全体にのみ生成することができます。あなたにサイト全体のレポートを閲覧できるパーミッションがある場合、インスティテューションセレクタより「すべてのインスティテューション」を選択してください。';
+$string['nogroupdataperinstitution'] = 'グループレポートはサイト全体にのみ生成できます。あなたにサイト全体のレポートを閲覧できるパーミッションがある場合、インスティテューションセレクタより「すべてのインスティテューション」を選択してください。';
+$string['nocomparisondataperinstitution'] = '比較レポートはサイト全体にのみ生成できます。あなたにサイト全体のレポートを閲覧できるパーミッションがある場合、インスティテューションセレクタより「すべてのインスティテューション」を選択してください。';
+$string['nologinsdataperinstitution'] = 'ログインレポートはサイト全体にのみ生成できます。あなたにサイト全体のレポートを閲覧できるパーミッションがある場合、インスティテューションセレクタより「すべてのインスティテューション」を選択してください。';
 $string['timeframe'] = '期間:';
 $string['groupcomments'] = 'グループページコメント';
 $string['sharedcomments'] = '共有ページコメント';
@@ -405,7 +405,7 @@ $string['usersinfo'] = 'ユーザ概要';
 $string['viewsinfo'] = 'ページ概要';
 $string['usersbyinstitution'] = 'インスティテューション別ユーザ';
 $string['groupsbytype'] = 'タイプ別グループ';
-$string['earliestdate'] = 'このレポートのデータは %s 以降利用することができます。';
+$string['earliestdate'] = 'このレポートのデータは %s 以降利用できます。';
 $string['noearliestdate'] = 'このレポートに記録されたデータはありません。';
 
 ?>
