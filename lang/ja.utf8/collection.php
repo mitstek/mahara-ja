@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['pluginname'] = 'コレクション';
 $string['about'] = 'About';
 $string['access'] = 'アクセス';
-$string['accesscantbeused'] = 'アクセスオーバーライドは保存されませんでした。選択されたページアクセス (シークレットURL) は複数のページで使用することができません。';
+$string['accesscantbeused'] = 'アクセスオーバーライドは保存されませんでした。選択されたページアクセス (シークレットURL) は複数のページで使用できません。';
 $string['accessoverride'] = 'アクセスオーバーライド';
 $string['accesssaved'] = 'コレクションアクセスが正常に保存されました。';
 $string['accessignored'] = 'いくつかのシークレットURLタイプは無視されました。';
@@ -47,7 +47,7 @@ $string['collectionconfirmdelete'] = 'このコレクション内のページは
 $string['collectioncreatedsuccessfully'] = 'コレクションが正常に作成されました。';
 $string['collectioncreatedsuccessfullyshare'] = 'あなたのコレクションが正常に作成されました。以下のアクセスリンクを使用してあなたのコレクションを他のユーザと共有してください。';
 $string['collectiondeleted'] = 'コレクションが正常に削除されました。';
-$string['collectiondescription'] = 'コレクションは相互にリンクして同一のアクセスパーミッションを持つ一連のページです。あなたが好きなだけコレクションを作成することができますが、ページを1つ以上のコレクションに表示することはできません。';
+$string['collectiondescription'] = 'コレクションは相互にリンクして同一のアクセスパーミッションを持つ一連のページです。あなたが好きなだけコレクションを作成できますが、ページを1つ以上のコレクションに表示することはできません。';
 $string['collectiontitle'] = 'コレクションタイトル';
 $string['confirmcancelcreatingcollection'] = 'このコレクションは完了していません。本当にキャンセルしてもよろしいですか?';
 $string['collectionsaved'] = 'コレクションが正常に保存されました。';
