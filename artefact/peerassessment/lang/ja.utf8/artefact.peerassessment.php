@@ -48,6 +48,6 @@ $string['feedbacknotificationtext1'] = '%s が相互評価を追加しました 
 この相互評価をオンラインで閲覧するには次のリンクにアクセスしてください:
 %s';
 $string['typeassessmentfeedback'] = '相互評価';
-$string['nopeerassessmentrequired'] = '相互評価を必要としないため、あなたはこのページでコンテンツを閲覧することができません。';
+$string['nopeerassessmentrequired'] = '相互評価を必要としないため、あなたはこのページでコンテンツを閲覧できません。';
 
 ?>
