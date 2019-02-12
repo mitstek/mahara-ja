@@ -72,10 +72,10 @@ $string['pluginenabled'] = 'プラグインが表示にされました。';
 $string['plugindisabled'] = 'プラグインが非表示にされました。';
 $string['plugindisableduser'] = '%s プラグインは無効にされています。この機能を有効にするにはあなたの管理者にご相談ください。';
 $string['pluginnotenabled'] = 'プラグインは非表示にされています。あなたはまず %s プラグインを表示にする必要があります。';
-$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるためURLを知っていてアクセスしようと思うユーザはアクセスすることができます。機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることによりプラグインを表示または非表示にすることができます。';
+$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるためURLを知っていてアクセスしようと思うユーザはアクセスできます。機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることによりプラグインを表示または非表示にできます。';
 $string['pluginexplainartefactblocktypes'] = '「アーティファクト」タイプのプラグインを非表示にした場合、Maharaは同時に関連するブロックの表示を停止します。';
 $string['pluginbrokenanddisabledtitle'] = '不完全なプラグイン (%s) が無効にされました。';
-$string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインのロードを試みましたがロードすることができませんでした。
+$string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインのロードを試みましたがロードできませんでした。
 さらなるエラーを避けるためこのプラグインは無効にされました。
 
 プラグインにより生成されたエラーメッセージは以下のとおりです:
@@ -376,7 +376,7 @@ $string['fullname'] = 'フルネーム';
 $string['registerwelcome'] = 'ようこそ! このサイトを利用するには最初に登録してください。';
 $string['registeragreeterms'] = 'また、あなたは<a href="terms.php">利用条件</a>に同意する必要があります。';
 $string['registerprivacy'] = 'ここで収集したデータは私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
-$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s に登録されました。あなたのアバタとして表示する任意のプロファイル画像を選択することができます。</p>';
+$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s に登録されました。あなたのアバタとして表示する任意のプロファイル画像を選択できます。</p>';
 $string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須入力です。あなたの登録を完了するにはすべての必須入力フィールドに入力してください。</p>';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムに登録できません。';
 $string['membershipexpiry'] = 'メンバーシップ有効期限切れ';
@@ -440,7 +440,7 @@ $string['noinstitutionsetpassemailsubject'] = '%s: %s のメンバーシップ';
 $string['noinstitutionsetpassemailmessagetext'] = '%s さん
 
 あなたは %s のメンバーではなくなりました。
-続けて %s を現在のユーザ名 %s で使用することができますがアカウントに新しいパスワードを設定する必要があります。
+続けて %s を現在のユーザ名 %s で使用できますがアカウントに新しいパスワードを設定する必要があります。
 
 パスワードリセット処理を続けるには以下のリンクをクリックしてください。
 
@@ -456,7 +456,7 @@ $string['noinstitutionsetpassemailmessagetext'] = '%s さん
 $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたは %s のメンバーではなくなりました。</p>
-<p>続けて %s を現在のユーザ名 %s で使用することができますがアカウントに新しいパスワードを設定する必要があります。</p>
+<p>続けて %s を現在のユーザ名 %s で使用できますがアカウントに新しいパスワードを設定する必要があります。</p>
 
 <p>パスワードリセット処理を続けるには以下のリンクをクリックしてください。</p>
 
@@ -471,9 +471,9 @@ $string['noinstitutionoldpassemailsubject'] = '%s: %s のメンバーシップ';
 $string['noinstitutionoldpassemailmessagetext'] = '%s さん
 
 あなたは %s のメンバーではなくなりました。
-あなたは続けて %s を現在のユーザ名 %s およびアカウントに設定したパスワードで使用することができます。
+あなたは続けて %s を現在のユーザ名 %s およびアカウントに設定したパスワードで使用できます。
 
-あなたのパスワードを忘れてしまった場合、以下のページにアクセスしてユーザ名を入力することでパスワードをリセットすることができます。
+あなたのパスワードを忘れてしまった場合、以下のページにアクセスしてユーザ名を入力することでパスワードをリセットできます。
 
 %sforgotpass.php
 
@@ -487,9 +487,9 @@ $string['noinstitutionoldpassemailmessagetext'] = '%s さん
 $string['noinstitutionoldpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたは %s のメンバーではなくなりました。</p>
-<p>あなたは続けて %s を現在のユーザ名 %s およびアカウントに設定したパスワードで使用することができます。</p>
+<p>あなたは続けて %s を現在のユーザ名 %s およびアカウントに設定したパスワードで使用できます。</p>
 
-<p>あなたのパスワードを忘れてしまった場合、以下のページにアクセスしてユーザ名を入力することでパスワードをリセットすることができます。</p>
+<p>あなたのパスワードを忘れてしまった場合、以下のページにアクセスしてユーザ名を入力することでパスワードをリセットできます。</p>
 
 <p><a href="%sforgotpass.php">%sforgotpass.php</a></p>
 
@@ -536,7 +536,7 @@ $string['siteinformation'] = 'サイト情報';
 $string['institutioninformation'] = 'インスティテューション情報';
 $string['unreadmessages'] = '未読メッセージ';
 $string['unreadmessage'] = '未読メッセージ';
-$string['siteclosed'] = 'データベースアップグレードのためサイトは一時的に閉鎖されています。サイト管理者はログインすることができます。';
+$string['siteclosed'] = 'データベースアップグレードのためサイトは一時的に閉鎖されています。サイト管理者はログインできます。';
 $string['siteclosedlogindisabled'] = 'データベースアップグレードのためサイトは一時的に閉鎖されています。<a href="%s">今からアップグレードを実行します。</a>';
 $string['termsandconditions'] = '利用条件';
 $string['privacystatement'] = 'プライバシー保護方針';
@@ -551,7 +551,7 @@ $string['notifications'] = '通知';
 $string['inbox'] = '受信箱';
 $string['gotoinbox'] = '受信箱に移動する';
 $string['institutionmembership'] = 'インスティテューションメンバーシップ';
-$string['institutionmembershipdescription'] = 'あなたがインスティテューションのメンバーとなっている場合、ここにインスティテューションが一覧表示されます。あなたはインスティテューションのメンバーシップをリクエストすることもできます。また、保留中のメンバーシップ招待を承認または拒否することができます。';
+$string['institutionmembershipdescription'] = 'あなたがインスティテューションのメンバーとなっている場合、ここにインスティテューションが一覧表示されます。あなたはインスティテューションのメンバーシップをリクエストすることもできます。また、保留中のメンバーシップ招待を承認または拒否できます。';
 $string['youareamemberof'] = 'あなたは %s のメンバーです。';
 $string['leaveinstitution'] = 'インスティテューションを離れる';
 $string['reallyleaveinstitution'] = '本当にこのインスティテューションを離れてもよろしいですか?';
@@ -641,7 +641,7 @@ $string['quarantinedirname'] = '隔離場所';
 $string['clammovedfile'] = 'ファイルが隔離ディレクトリに移動されました。';
 $string['clamdeletedfile'] = 'ファイルが削除されました。';
 $string['clamdeletedfilefailed'] = 'ファイルを削除できませんでした。';
-$string['clambroken'] = 'あなたの管理者がファイルのアップロードに関してウイルスチェックを有効にしましたが、設定が正しくないようです。あなたのファイルは正常にはアップロードされませんでした。あなたの管理者にメール通知が送信されましたので管理者は問題を修正することができます。このファイルのアップロードを後でお試しください。';
+$string['clambroken'] = 'あなたの管理者がファイルのアップロードに関してウイルスチェックを有効にしましたが、設定が正しくないようです。あなたのファイルは正常にはアップロードされませんでした。あなたの管理者にメール通知が送信されましたので管理者は問題を修正できます。このファイルのアップロードを後でお試しください。';
 $string['clamemailsubject'] = '%s :: ClamAV通知';
 $string['clamlost'] = 'ClamAVがファイルのアップロード時に動作するよう設定されていますが、ClamAVに提供されたパス「 %s 」が正しくありません。';
 $string['clamnotset'] = 'あなたはウイルスチェックを有効にしましたが、「ClamAVのパス」を設定していません。あなたのconfig.phpファイルに「$cfg->pathtoclam」を追加してClamAVのパスを設定するまでウイルスチェックは有効になりません。';
@@ -668,7 +668,7 @@ $string['youraccounthasbeensuspendedtext2'] = 'あなたの %s におけるア�
 $string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。利用停止の理由は:
 
 %s';
-$string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用することができます。';
+$string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用できます。';
 $string['sizemb'] = 'MB';
 $string['sizekb'] = 'KB';
 $string['sizegb'] = 'GB';
@@ -923,7 +923,7 @@ $string['done'] = '完了';
 $string['back'] = '戻る';
 $string['backto'] = '%s に戻る';
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
-$string['formatpostbbcode'] = 'BBコードを使用してあなたの投稿を書式設定することができます。%s詳細情報%s';
+$string['formatpostbbcode'] = 'BBコードを使用してあなたの投稿を書式設定できます。%s詳細情報%s';
 $string['Created'] = '作成';
 $string['Updated'] = '更新';
 $string['Total'] = '合計';
@@ -949,7 +949,7 @@ $string['profiledescription'] = 'プロファイルページはあなたの表�
 $string['mydashboard'] = 'マイダッシュボード';
 $string['editdashboard'] = '編集';
 $string['usersdashboard'] = '%s のダッシュボード';
-$string['dashboarddescription'] = 'ダッシュボードページはあなたがログインして最初にホームページ上で閲覧することになるページです。このページはあなたのみアクセスすることができます。';
+$string['dashboarddescription'] = 'ダッシュボードページはあなたがログインして最初にホームページ上で閲覧することになるページです。このページはあなたのみアクセスできます。';
 $string['topicsimfollowing'] = '私がフォローしているトピック';
 $string['inboxblocktitle'] = '受信箱';
 $string['mymessages'] = 'マイメッセージ';
@@ -966,13 +966,13 @@ $string['createresume'] = 'あなたのレジュメを作成する';
 $string['publishblog'] = '日誌を公開する';
 $string['Organise'] = '整理';
 $string['organisesubtitle'] = 'あなたのポートフォリオのショーケースです。';
-$string['organisedescription'] = 'あなたのポートフォリオを<a href="%s">ページ</a>に整理することができます。異なる閲覧者に対して異なるページを作成します - あなたがページに含む構成要素を選択します。';
+$string['organisedescription'] = 'あなたのポートフォリオを<a href="%s">ページ</a>に整理できます。異なる閲覧者に対して異なるページを作成します - あなたがページに含む構成要素を選択します。';
 $string['sharenetwork'] = '共有およびネットワーク';
 $string['sharenetworksubtitle'] = 'フレンドを探してグループに参加します。';
 $string['joinsomegroups'] = 'グループに参加する';
 $string['controlyourprivacy'] = 'あなたのプライバシーをコントロールする';
 $string['discusstopics'] = 'トッピックを議論する';
-$string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールすることができます。';
+$string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールできます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['filenotfound'] = 'ファイルが見つかりませんでした。';
 $string['betweenxandy'] = '範囲: %s - %s';
