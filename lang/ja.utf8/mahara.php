@@ -444,7 +444,7 @@ $string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメ�
 $string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須入力です。あなたの登録を完了するにはすべての必須入力フィールドに入力してください。</p>';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムに登録できません。';
 $string['membershipexpiry'] = 'メンバーシップ有効期限切れ';
-$string['institutionfull'] = 'あなたが選択したインスティテューションはこれ以上の登録を受け付けていません。';
+$string['institutionfull'] = 'あなたが選択したインスティテューションはこれ以上登録を受け付けていません。';
 $string['registrationnotallowed'] = 'あなたが選択したインスティテューションは自己登録を許可していません。';
 $string['registrationcomplete'] = '%s へのご登録ありがとうございます。';
 $string['language'] = '言語';
@@ -454,11 +454,11 @@ $string['approvalrequired'] = '要承認';
 $string['authentication'] = '認証';
 $string['cantchangepassword'] = '申し訳ございません、このインターフェース経由でパスワードを変更することはできません - 代わりにあなたのインスティテューションのインターフェースを使用してください。';
 $string['forgotusernamepassword'] = 'あなたのユーザ名またはパスワードを忘れましたか?';
-$string['forgotusernamepasswordtextprimaryemail'] = '<p>ユーザ名またはパスワードを忘れた場合、あなたのプロファイルに登録された主メールアドレスを入力してください。あなたが新しいパスワードを作成することのできるメッセージを送信します。</p>
+$string['forgotusernamepasswordtextprimaryemail'] = '<p>ユーザ名またはパスワードを忘れた場合、あなたのプロファイルに登録された主メールアドレスを入力してください。あなたが新しいパスワードを作成できるメッセージを送信します。</p>
 <p>あなたがパスワードを忘れてユーザ名を忘れていない場合、ユーザ名を入力することもできます。</p>';
 $string['lostusernamepassword'] = 'ユーザ名/パスワード喪失';
 $string['emailaddressorusername'] = 'メールアドレスまたはユーザ名';
-$string['pwchangerequestsentfullinfo'] = 'あなたのアカウントのパスワード変更に使用することのできるリンクを記載したメールがまもなく送信されます。<br />メールを受信できない場合、あなたが入力した内容が間違っているか、サイトへのアクセスに外部認証を使用しています。';
+$string['pwchangerequestsentfullinfo'] = 'あなたのアカウントのパスワード変更に使用できるリンクを記載したメールがまもなく送信されます。<br />メールを受信できない場合、あなたが入力した内容が間違っているか、サイトへのアクセスに外部認証を使用しています。';
 $string['forgotusernamepasswordemailsubject'] = '%s に関するユーザ名/パスワード詳細';
 $string['forgotusernamepasswordemailmessagetext'] = '%s さん
 
