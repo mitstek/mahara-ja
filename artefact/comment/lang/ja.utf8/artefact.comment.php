@@ -24,9 +24,9 @@ $string['allowcomments'] = 'コメントを許可する';
 $string['approvalrequired'] = 'コメントはモデレートされています。あなたがこのコメントをパブリックにした場合、オーナーにより承認されるまで他のユーザに表示されることはありません。';
 $string['attachfile'] = '添付ファイル';
 $string['Attachments'] = '添付ファイル';
-$string['cantedithasreplies'] = 'あなたは最新コメントのみ編集することができます。';
+$string['cantedithasreplies'] = 'あなたは最新コメントのみ編集できます。';
 $string['canteditnotauthor'] = 'あなたはこのコメントの投稿者ではありません。';
-$string['cantedittooold'] = 'あなたは投稿後 %d 分未満のコメントのみ編集することができます。';
+$string['cantedittooold'] = 'あなたは投稿後 %d 分未満のコメントのみ編集できます。';
 $string['commentmadepublic'] = 'コメントがパブリックにされました。';
 $string['commentdeletedauthornotification'] = 'あなたの %s のコメントが削除されました:
 %s';
@@ -38,7 +38,7 @@ $string['commentremovedbyowner'] = 'オーナーによりコメントが削除�
 $string['commentremovedbyadmin'] = '管理者によりコメントが削除されました。';
 $string['commentupdated'] = 'コメントが更新されました。';
 $string['editcomment'] = 'コメントを編集する';
-$string['editcommentdescription'] = 'あなたは新しい返信が追加されていない %d 分未満のコメントを更新することができます。この時間経過後、あなたはコメントを削除して新たなコメントを追加することはできます。';
+$string['editcommentdescription'] = 'あなたは新しい返信が追加されていない %d 分未満のコメントを更新できます。この時間経過後、あなたはコメントを削除して新たなコメントを追加することはできます。';
 $string['entriesimportedfromleapexport'] = 'Leap2Aエクスポートよりインポートされて他の場所にインポートできなかったエントリです。';
 $string['feedback'] = 'フィードバック';
 $string['feedbackattachdirname'] = 'コメントファイル';
@@ -107,7 +107,7 @@ $string['feedbackdeletedtext'] = '%s のコメントが削除されました。
 %s をオンラインで閲覧するには次のリンクにアクセスしてください:
 %s';
 $string['artefactdefaultpermissions'] = 'デフォルトのコメントパーミッション';
-$string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトでは作成時にコメントの投稿が有効にされます。ユーザはそれぞれのアーティファクトでこれらの設定をオーバーライドすることができます。';
+$string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトでは作成時にコメントの投稿が有効にされます。ユーザはそれぞれのアーティファクトでこれらの設定をオーバーライドできます。';
 $string['commentratings'] = 'コメントレーティングを有効にする';
 $string['ratingicons'] = 'レーティングの表示に使用するアイコン';
 $string['ratinglength'] = 'レーティング選択数';
