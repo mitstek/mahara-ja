@@ -38,13 +38,13 @@ $string['safemodeon'] = 'あなたのサーバはセーフモードで動作し�
 $string['apcstatoff'] = 'あなたのサーバはapc.stat=0によりAPCを動作しているようです。Maharaはこの設定をサポートしていません。php.iniファイルでapc.stat=1に設定してください。
 
 あなたが共有ホスティングサービスを利用している場合、ホスティングプロバイダに依頼する以外、apc.statを有効にするためにできることは多くありません。別のホスティングサービスへの移行を考えても良いでしょう。';
-$string['datarootinsidedocroot'] = 'あなたはドキュメントルート内にデータルートを設定したようです。これには誰でも (他の人のセッションをハイジャックするため) 直接セッションデータをリクエストすることができる多大なセキュリティ上の問題があります。また、他の人がアップロードしたアクセス許可されていないファイルに誰でもアクセスすることができます。データルートをドキュメントルートの外に設定してください。';
+$string['datarootinsidedocroot'] = 'あなたはドキュメントルート内にデータルートを設定したようです。これには誰でも (他の人のセッションをハイジャックするため) 直接セッションデータをリクエストできる多大なセキュリティ上の問題があります。また、他の人がアップロードしたアクセス許可されていないファイルに誰でもアクセスできます。データルートをドキュメントルートの外に設定してください。';
 $string['datarootnotwritable'] = 'あなたが定義したルートディレクトリ「 %s 」に書込み権がありません。これはセッションデータ、ユーザファイル、その他アップロードする必要のあるファイルをアップロードできないことを意味します。ディレクトリが存在しているかどうか確認してください。ディレクトリが存在している場合、ディレクトリにウェブサーバユーザの所有権を与えてください。';
 $string['sessionpathnotwritable'] = 'あなたのセッションデータディレクトリ「 %s 」に書込み権がありません。ディレクトリが存在していない場合、ディレクトリを作成してください。ディレクトリが存在している場合、ディレクトリにウェブサーバユーザの所有権を与えてください。';
 $string['wwwrootnothttps'] = 'あなたが定義したwwwroot ( %s ) はHTTPSではありません。しかし、あなたのインストレーションの他の設定 (sslproxy等) ではwwwrootがHTTPSアドレスである必要があります。
 
 あなたのwwwroot設定をHTTPSアドレスに更新してください。または正しくない設定を修正してください。';
-$string['couldnotmakedatadirectories'] = '何らかの理由でいくつかのコアデータディレクトリを作成することができませんでした。Maharaが事前にデータディレクトリの書込み権を確認したためこのエラーが発生することはないと考えられます。データルートディレクトリのパーミッションを確認してください。';
+$string['couldnotmakedatadirectories'] = '何らかの理由でいくつかのコアデータディレクトリを作成できませんでした。Maharaが事前にデータディレクトリの書込み権を確認したためこのエラーが発生することはないと考えられます。データルートディレクトリのパーミッションを確認してください。';
 $string['dbconnfailed'] = 'Maharaがアプリケーションデータベースに接続できませんでした。
 
 * あなたがMaharaを使用している場合、少し待った後、再度お試しください。
@@ -55,7 +55,7 @@ $string['dbnotutf8'] = 'あなたはUTF-8データベースを使用していま
 $string['dbversioncheckfailed'] = 'あなたのデータベースサーバのバージョンはMaharaを正常に動作させるのに十分な新しいバージョンではありません。あなたのサーバは %s %s ですが、Maharaは少なくともバージョン %s を必要とします。';
 $string['plpgsqlnotavailable'] = 'あなたのPostgresインストレーションではPL/pgSQL言語が有効にされていません。そのため、MaharaでもPL/pgSQL言語を有効にすることはできません。あなたのデータベースに手動でPL/pgSQLをインストールしてください。この作業のインストラクションに関して次をご覧ください: https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Enabling_Plpgsql';
 $string['mysqlnotriggerprivilege'] = 'Maharaではデータベーストリガを作成するパーミッションを必要とします。しかし、データベーストリガを作成できません。あなたのMySQLインストレーション内の適切なユーザにトリガ権限が割り当てられていることを確認してください。この作業のインストラクションに関して次をご覧ください: https://wiki.mahara.org//wiki/System_Administrator%27s_Guide/Granting_Trigger_Privilege';
-$string['mbstringneeded'] = 'PHPのmbstring拡張モジュールをインストールしてください。あなたがユーザ名にUTF-8文字を使用している場合、この拡張モジュールが必要です。インストールしない場合、ユーザはログインすることができません。';
+$string['mbstringneeded'] = 'PHPのmbstring拡張モジュールをインストールしてください。あなたがユーザ名にUTF-8文字を使用している場合、この拡張モジュールが必要です。インストールしない場合、ユーザはログインできません。';
 $string['cssnotpresent'] = 'あなたのhtdocs/theme/raw/styleディレクトリ内にCSSファイルが存在しません。あなたがgitチェックアウトからMaharaを動作させている場合、CSSファイルを構築するために「make css」を実行してください。あなたがZIPダウンロードよりMaharaを動作させている場合、再度ダウンロードおよび展開をお試しください。';
 $string['blocktypenametaken'] = 'ブロックタイプ %s はすでに他のプラグイン (%s) に取得されています。';
 $string['artefacttypenametaken'] = 'アーティファクトタイプ %s はすでに他のプラグイン (%s) に取得されています。';
@@ -64,7 +64,7 @@ $string['classmissing'] = 'クラス %s (タイプ %s - プラグイン %s) が�
 $string['artefacttypeclassmissing'] = 'すべてのアーティファクトタイプにはクラスを実装する必要があります。%s がありません。';
 $string['artefactpluginmethodmissing'] = 'アーティファクトプラグイン %s で必要な %s が実装されていません。';
 $string['blocktypelibmissing'] = 'アーティファクトプラグイン %s 内にブロック %s のlib.phpがありません。';
-$string['unabletosetmultipleblogs'] = 'ユーザ「 %s 」のページ「 %s 」のコピーによる複数日誌の有効化に失敗しました。これは<a href="%s">アカウント</a>ページで手動で設定することができます。';
+$string['unabletosetmultipleblogs'] = 'ユーザ「 %s 」のページ「 %s 」のコピーによる複数日誌の有効化に失敗しました。これは<a href="%s">アカウント</a>ページで手動で設定できます。';
 $string['pleaseloginforjournals'] = 'あなたの日誌および記事すべてを閲覧するにはログアウトした後に再度ログインする必要があります。';
 $string['blocktypemissingconfigform'] = 'ブロックタイプ %s にinstance_config_formを実装する必要があります。';
 $string['versionphpmissing'] = 'プラグイン %s %s のversion.phpがありません!';
