@@ -138,7 +138,7 @@ CSS @font-faceルールによってウェブページに埋め込むことので
 <br />TrueTypeフォント、Embedded OpenTypeフォント、Web Open Font FormatフォントおよびScalable Vector Graphicフォント。
 </p>
 <p>
-あなたは<a href="http://www.fontsquirrel.com/fontface/generator/" target="_blank">FontSquirrel Online Generator</a>を変換に使用することができます。
+あなたは<a href="http://www.fontsquirrel.com/fontface/generator/" target="_blank">FontSquirrel Online Generator</a>を変換に使用できます。
 </p>';
 $string['nofonts'] = 'フォントがありません。';
 $string['font'] = 'フォント';
