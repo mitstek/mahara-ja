@@ -84,9 +84,9 @@ $string['addtowatchlist'] = 'ウォッチリストに追加する';
 $string['removefromwatchlist'] = 'ウォッチリストから削除する';
 $string['missingparam'] = '次の活動タイプに関する必須パラメータ %s が空です: %s';
 $string['institutionrequestsubject'] = '%s が %s のメンバーシップをリクエストしました。';
-$string['institutionrequestmessage'] = 'あなたは「インスティテューションメンバー」ページでユーザをインスティテューションに追加することができます:';
+$string['institutionrequestmessage'] = 'あなたは「インスティテューションメンバー」ページでユーザをインスティテューションに追加できます:';
 $string['institutioninvitesubject'] = 'あなたはインスティテューション %s への参加を招待されました。';
-$string['institutioninvitemessage'] = 'あなたは「インスティテューション設定」ページでこのインスティテューションのメンバーシップを承認することができます:';
+$string['institutioninvitemessage'] = 'あなたは「インスティテューション設定」ページでこのインスティテューションのメンバーシップを承認できます:';
 $string['viewsubmittedsubject'] = '%s に送信されたビュー';
 $string['viewsubmittedmessage'] = '%s がビュー「 %s 」を %s に送信しました。';
 
