@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-12-18 05:23:07 UTC
+ * @updated    2019-02-13 23:14:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -103,7 +103,7 @@ $string['commentnotifydescription1'] = 'グループページおよびアーテ�
 $string['allowsendnow'] = 'フォーラム投稿をすぐに送信する';
 $string['allowsendnowdescription1'] = 'すべてのグループメンバーがフォーラム投稿をすぐに送信するよう選択できます。この設定を無効にした場合、グループ管理者、チューターおよびモデレータのみ、フォーラム投稿をすぐに送信できます。';
 $string['hiddengroup'] = 'グループを隠す';
-$string['hiddengroupdescription1'] = 'このグループを「グループを探す」ページで隠します。';
+$string['hiddengroupdescription2'] = 'このグループを「グループ」ページで隠します。';
 $string['hidemembers'] = 'メンバーシップを隠す';
 $string['hidemembersdescription'] = '非メンバーからグループのメンバーシップ一覧を隠します。';
 $string['hidemembersfrommembers'] = 'メンバーからメンバーシップを隠す';
@@ -211,7 +211,7 @@ $string['youowngroup'] = 'あなたはこのグループを所有しています
 $string['groupsnotin'] = '私が参加していないグループ';
 $string['allgroups'] = 'すべてのグループ';
 $string['allgroupmembers'] = 'すべてのグループメンバー';
-$string['trysearchingforgroups'] = '参加するには%sグループを探す%sをお試しください。';
+$string['trysearchingforgroups1'] = '参加するには<a href="%sgroup/index.php?filter=canjoin">グループを探す</a>をお試しください。';
 $string['nogroupsfound'] = 'グループが見つかりませんでした。';
 $string['group'] = 'グループ';
 $string['Group'] = 'グループ';
