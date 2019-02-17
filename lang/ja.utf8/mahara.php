@@ -390,8 +390,8 @@ $string['approvalrequired'] = '要承認';
 $string['authentication'] = '認証';
 $string['cantchangepassword'] = '申し訳ございません、このインターフェース経由でパスワードを変更することはできません - 代わりにあなたのインスティテューションのインターフェースを使用してください。';
 $string['forgotusernamepassword'] = 'あなたのユーザ名またはパスワードを忘れましたか?';
-$string['forgotusernamepasswordtextprimaryemail'] = '<p>ユーザ名またはパスワードを忘れた場合、あなたのプロファイルに登録された主メールアドレスを入力してください。あなたが新しいパスワードを作成できるメッセージを送信します。</p>
-<p>あなたがパスワードを忘れてユーザ名を忘れていない場合、ユーザ名を入力することもできます。</p>';
+$string['forgotusernamepasswordtextprimaryemail'] = '<p>ユーザ名またはパスワードを忘れた場合、あなたのプロファイルに記載された主メールアドレスを入力してください。あなたが新しいパスワードを作成できるメッセージを送信します。</p>
+<p>あなたがパスワードを忘れてユーザ名を忘れていない場合、代わりにユーザ名を入力することもできます。</p>';
 $string['lostusernamepassword'] = 'ユーザ名/パスワード喪失';
 $string['emailaddressorusername'] = 'メールアドレスまたはユーザ名';
 $string['pwchangerequestsent'] = 'あなたのアカウントのパスワード変更に使用できるリンクを記載したメールがまもなく送信されます。';
@@ -429,7 +429,7 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 
 <p>%s サイト管理者</p>';
 $string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは私たちに責任があります。再度お試しください。';
-$string['forgotpassemailsentanyway1'] = 'このユーザに関して保存されているメールアドレス宛にメールが送信されましたがメールアドレスが正しくないか受信サーバがメッセージを戻しました。メールを受信していない場合、あなたのパスワードをリセットするために %s 管理者にご連絡ください。';
+$string['forgotpassemailsentanyway1'] = 'このユーザに関して保存されているメールアドレス宛にメールが送信されましたがメールアドレスが正しくないか受信サーバがメッセージを戻しました。メールを受信していない場合、あなたのパスワードをリセットするため %s 管理者にご連絡ください。';
 $string['forgotpassnosuchemailaddressorusername'] = 'あなたが入力したメールアドレスまたはユーザア名はこのサイトのユーザに合致しません。';
 $string['forgotpassuserusingexternalauthentication'] = 'あなたがリクエストしたユーザは外部認証方法を使用しています。パスワードを変更するには<a href="%s">あなたの管理者にご連絡ください</a>。または別のユーザ名またはメールドレスを入力してください。';
 $string['forgotpasswordenternew'] = '続けるにはあなたの新しいパスワードを入力してください。';
