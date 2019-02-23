@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-12-31 02:58:53 UTC
+ * @updated    2019-02-23 13:12:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -39,11 +39,16 @@ $string['element.calendar.dateto'] = '日付終了';
 $string['element.date.monthnames'] = '1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月';
 $string['element.date.specify'] = '日付設定';
 $string['element.date.at'] = '-';
+$string['element.expiry.days.lowercase'] = '%s 日';
+$string['element.expiry.weeks.lowercase'] = '%s 週';
+$string['element.expiry.months.lowercase'] = '%s 月';
+$string['element.expiry.years.lowercase'] = '%s 年';
 $string['element.expiry.days'] = '日';
 $string['element.expiry.weeks'] = '週';
 $string['element.expiry.months'] = '月';
 $string['element.expiry.years'] = '年';
 $string['element.expiry.noenddate'] = '終了日なし';
+$string['element.expiry.noenddate.lowercase'] = '終了日なし';
 $string['element.files.addattachment'] = '添付を追加する';
 $string['element.passwordpolicy.ul'] = '大文字小文字';
 $string['element.passwordpolicy.uln'] = '大文字小文字、数字';
