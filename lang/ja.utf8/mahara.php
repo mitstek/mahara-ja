@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-02-26 09:58:15 UTC
+ * @updated    2019-02-26 10:11:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -820,7 +820,7 @@ $string['editaccess'] = 'アクセスを編集する';
 $string['clammovedfile'] = 'ファイルが隔離ディレクトリに移動されました。';
 $string['clamdeletedfile'] = 'ファイルが削除されました。';
 $string['clamdeletedfilefailed'] = 'ファイルを削除できませんでした。';
-$string['clambroken'] = 'あなたの管理者がファイルのアップロードのウイルスチェックを有効にしましたが設定が正しくないようです。あなたのファイルは正常にはアップロードされませんでした。あなたの管理者にメール通知が送信されましたので管理者は問題を修正できます。このファイルのアップロードを後でお試しください。';
+$string['clambroken'] = 'あなたの管理者がファイルのアップロードウイルスチェックを有効にしましたが設定が正しくないようです。あなたのファイルは正常にはアップロードされませんでした。あなたの管理者にメール通知が送信されましたので管理者は問題を修正できます。このファイルのアップロードを後でお試しください。';
 $string['clamemailsubject'] = '%s :: ClamAV通知';
 $string['clamlost'] = 'ClamAVがファイルのアップロード時に動作するよう設定されていますが、ClamAVに提供されたパス「 %s 」が正しくありません。';
 $string['clamnotset'] = 'あなたはウイルスチェックを有効にしましたが、「ClamAVのパス」を設定していません。あなたのconfig.phpファイルに「$cfg->pathtoclam」を追加してClamAVのパスを設定するまでウイルスチェックは有効になりません。';
