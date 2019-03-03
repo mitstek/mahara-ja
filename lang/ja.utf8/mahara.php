@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-02-26 10:12:35 UTC
+ * @updated    2019-03-03 04:36:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -830,7 +830,7 @@ $string['image'] = 'イメージ';
 $string['imageformattingoptions'] = 'イメージフォーマットオプション';
 $string['filenotimage'] = 'あなたがアップロードしたファイルは有効なイメージではありません。PNG、JPEGまたはGIFファイルをアップロードしてください。';
 $string['uploadedfiletoobig1'] = 'ファイルが最大アップロードファイルサイズ %s を超過しました。さらに小さなファイルをアップロードしてください。';
-$string['notphpuploadedfile'] = 'アップロード処理中にファイルを喪失しました。これは通常起きることではありません。詳細はあなたの管理者にご連絡ください。';
+$string['notphpuploadedfile'] = 'アップロード処理中にファイルが消失しました。これは通常起きることではありません。詳細はあなたの管理者にご連絡ください。';
 $string['virusfounduser'] = 'あなたが %s でアップロードしたファイルをウイルスチェッカで検査した結果、感染が発見されました! あなたのファイルは正常にはアップロードされませんでした。';
 $string['fileunknowntype'] = 'あなたがアップロードしたファイルのタイプを判定できませんでした。あなたのファイルが破損しているか設定に問題があります。あなたの管理者にご連絡ください。';
 $string['virusrepeatsubject'] = '警告: %s が繰り返しウイルスをアップロードしています。';
