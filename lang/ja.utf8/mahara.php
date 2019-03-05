@@ -837,22 +837,22 @@ $string['phpuploaderror_2'] = 'アップロードファイルがHTMLフォーム
 $string['phpuploaderror_3'] = 'アップロードファイルは一部分のみアップロードされました。';
 $string['phpuploaderror_4'] = 'アップロードされたファイルはありません。';
 $string['phpuploaderror_6'] = '一時フォルダがありません。';
-$string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。あなたのファイルシステムに関してMaharaデータルートおよびPHP「upload_tmp_dir」ディレクトリへの書き込みに十分なスペースがあるか確認してください。';
+$string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。あなたのファイルシステムにMaharaデータルートおよびPHP「upload_tmp_dir」ディレクトリへの書き込みに十分なスペースがあるか確認してください。';
 $string['phpuploaderror_8'] = 'ファイルアップロードは拡張子が原因で中止されました。';
 $string['adminphpuploaderror'] = 'ファイルアップロードエラーは恐らくあなたのサーバ設定を原因としています。';
 $string['noinputnamesupplied'] = '入力名が提供されていません。';
 $string['cannotrenametempfile'] = '一時ファイルをリネームすることはできません。';
 $string['failedmovingfiletodataroot'] = 'アップロードされたファイルをdatarootに移動することはできません。';
-$string['youraccounthasbeensuspendedtext2'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。';
-$string['youraccounthasbeensuspendedtextcron'] = 'あなたの %s におけるアカウントが利用停止されました。';
-$string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s におけるアカウントが %s によって利用停止されました。利用停止の理由は:
+$string['youraccounthasbeensuspendedtext2'] = 'あなたの %s のアカウントが %s によって利用停止されました。';
+$string['youraccounthasbeensuspendedtextcron'] = 'あなたの %s のアカウントが利用停止されました。';
+$string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s のアカウントが %s によって利用停止されました。利用停止の理由は:
 
 %s';
-$string['youraccounthasbeensuspendedreasontextcron'] = 'あなたの %s におけるアカウントが利用停止されました。利用停止の理由は:
+$string['youraccounthasbeensuspendedreasontextcron'] = 'あなたの %s のアカウントが利用停止されました。利用停止の理由は:
 
 %s';
 $string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用できます。';
-$string['youraccounthasbeensuspendedtext3'] = 'あなたは %s の同意を拒否したため %s におけるアカウントが利用停止されました。';
+$string['youraccounthasbeensuspendedtext3'] = 'あなたは %s の同意を拒否したため %s のアカウントが利用停止されました。';
 $string['sizemb'] = 'MB';
 $string['sizekb'] = 'KB';
 $string['sizegb'] = 'GB';
