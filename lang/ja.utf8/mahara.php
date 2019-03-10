@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-03-10 06:22:56 UTC
+ * @updated    2019-03-10 06:27:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1137,7 +1137,7 @@ $string['importedfrom'] = 'インポート元 %s';
 $string['incomingfolderdesc'] = '他のネットワークホストからインポートされたファイル';
 $string['remotehost'] = 'リモートホスト %s';
 $string['Copyof'] = '%s のコピー';
-$string['loggedinusersonly'] = 'ログインユーザのみを許可する';
+$string['loggedinusersonly'] = 'ログインユーザのみ許可する';
 $string['allowpublicaccess'] = 'パブリックアクセスを許可する';
 $string['viewmyprofilepage'] = 'プロファイルページを表示する';
 $string['editmyprofilepage'] = 'プロファイルページを編集する';
