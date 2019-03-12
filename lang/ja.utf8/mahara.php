@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-03-10 06:27:25 UTC
+ * @updated    2019-03-12 03:53:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1161,13 +1161,13 @@ $string['createsubtitle'] = 'ポートフォリオを作成する';
 $string['createdetail'] = 'あなたのeポートフォリオを柔軟な個人学習環境で作成します。';
 $string['share'] = '共有';
 $string['sharesubtitle'] = 'プライバシーを管理する';
-$string['sharedetail'] = 'あなたの達成および進歩をあなたが管理できるスペースで共有します。';
+$string['sharedetail'] = 'あなたが管理できるスペースで達成および進歩を共有します。';
 $string['engage'] = '参加';
 $string['engagesubtitle'] = '人を探してグループに参加する';
 $string['engagedetail'] = 'ディスカッションフォーラムで他の人と関わってグループで協働します。';
 $string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールできます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
-$string['blockinstanceownerchange'] = 'このブロックを編集して表示するコンテンツを変更します。';
+$string['blockinstanceownerchange'] = 'このブロックを編集して表示するコンテンツを選択します。';
 $string['blockinstanceconfigownerauto'] = 'このブロックがユーザのプロファイルページとしてコピーされた場合、データとともに自動的に追加されます。';
 $string['blockinstanceconfigownerchange'] = 'このブロックがコンテンツを表示するためユーザのプロファイルページとしてコピーされた場合、編集/設定する必要があります。';
 $string['filenotfound'] = 'ファイルが見つかりませんでした。';
