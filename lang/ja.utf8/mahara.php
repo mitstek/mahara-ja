@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-03-12 03:53:26 UTC
+ * @updated    2019-03-17 03:06:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1205,7 +1205,7 @@ $string['maximumSelected'] = '最大アイテム数が選択されました。';
 $string['noResults'] = '該当データはありません。';
 $string['searching'] = '検索中 ...';
 $string['styleguide_title'] = 'スタイルガイド';
-$string['styleguide_description'] = 'このスタイルガイドではMaharaで使用される異なるタイプのコンポーネントすべてに関して説明します。これらは1箇所に入れられるためあなたの新しいテーマまたはプラグインの開発時にスタイリングされているかどうか簡単に確認できます。あなたのサイトに異なるテーマを適用して個々のコンポーネントがどのように表示されるか確認します。';
+$string['styleguide_description'] = 'このスタイルガイドではMaharaで使用される異なるタイプのコンポーネントすべてに関して説明します。これらは1箇所に入れられるためあなたの新しいテーマまたはプラグインの開発時にスタイリングされているかどうか簡単に確認できます。個々のコンポーネントがどのように表示されるか確認したい場合、あなたのサイトに異なるテーマを適用してください。';
 $string['cli_incorrect_value'] = '値が正しくありません。再度お試しください。';
 $string['scroll_to_top'] = 'トップに戻る';
 $string['tabgroup'] = 'グループ';
