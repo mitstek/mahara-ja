@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-06-12 14:46:05 UTC
+ * @updated    2019-03-18 23:58:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -32,7 +32,7 @@ $string['exportspecific'] = '「 %s 」をエクスポートする';
 $string['exportskins'] = 'スキンをエクスポートする';
 $string['createskin'] = 'スキンを作成する';
 $string['editthisskin'] = 'このスキンを編集する';
-$string['editsiteskin?'] = 'これはサイトスキンです。編集しますか?';
+$string['editsiteskin?'] = 'これはサイトスキンです。編集してもよろしいですか?';
 $string['editskin'] = 'スキンを編集する';
 $string['skinsaved'] = 'スキンが正常に保存されました。';
 $string['skinimported'] = 'スキンが正常にインポートされました。';
@@ -65,7 +65,7 @@ $string['favoriteskins'] = 'お気に入りのスキン';
 $string['publicskins'] = 'パブリックスキン';
 $string['currentskin'] = '現在のスキン';
 $string['skinnotselected'] = 'スキン未選択';
-$string['noskin'] = 'スキンなし';
+$string['noskin'] = 'スキンなしにする';
 $string['skingeneraloptions'] = '一般';
 $string['skinbackgroundoptions1'] = '背景';
 $string['viewbackgroundoptions'] = 'ページ背景';
@@ -139,7 +139,7 @@ $string['skincustomcss'] = 'カスタムCSS';
 $string['skincustomcssdescription'] = 'カスタムCSSはスキンプレビューイメージには反映されません。';
 $string['chooseviewskin'] = 'ページスキンを選択する';
 $string['chooseskin'] = 'スキンを選択する';
-$string['notsavedyet'] = '未保存';
+$string['notsavedyet'] = 'まだ保存されていません。';
 $string['notcompatiblewiththeme'] = 'あなたのMaharaサイトテーマ「 %s 」はページスキンをサポートしていません。これはあなたが選択したスキンがページの表示に影響を及ぼさないことを意味します。しかし、異なるテーマでサイトを閲覧した場合、他のユーザのページの見え方に影響を及ぼす可能性があります。';
 $string['notcompatiblewithpagetheme'] = 'このページテーマ「 %s 」はページスキンをサポートしていません。異なるテーマを選択するまであなたが選択したスキンはページの見え方に影響を及ぼしません';
 $string['viewskinchanged'] = 'ページスキンが変更されました。';
