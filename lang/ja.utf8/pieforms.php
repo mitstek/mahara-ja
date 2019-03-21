@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-02-23 13:12:12 UTC
+ * @updated    2019-03-21 22:40:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -59,7 +59,7 @@ $string['element.color.transparent'] = 'デフォルト';
 $string['rule.before.before'] = 'フィールド「 %s 」の後に設定することはできません';
 $string['rule.email.email'] = 'メールアドレスが有効ではありません';
 $string['rule.integer.integer'] = 'フィールドは整数にしてください';
-$string['rule.maxlength.maxlength'] = 'このフィールドは最大半角 %d 文字にしてください';
+$string['rule.maxlength.maxlength'] = 'このフィールドは最大半角 %d 文字にしてください。修正するか、複数インスタンスに分割してください。';
 $string['rule.minlength.minlength'] = 'このフィールドは少なくとも半角 %d 文字にしてください';
 $string['rule.minvalue.minvalue'] = 'この値は %d 以下にすることはできません';
 $string['rule.regex.regex'] = 'このフィールドは正しい形式ではありません';
