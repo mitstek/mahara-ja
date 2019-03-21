@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-02-05 06:42:53 UTC
+ * @updated    2019-03-21 22:50:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -612,6 +612,8 @@ $string['uploadcsverrorduplicateremoteuser'] = 'このファイルの %s 行目�
 $string['uploadcsverrorremoteusertaken'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでにユーザ「 %s 」により取得されています。';
 $string['uploadcsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ「 %s 」はインスティテューション「 %s 」のメンバーではありません。';
 $string['uploadcsverroruserinaninstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ「 %s 」は次のインスティテューションのメンバーです: %s あなたはこのユーザの認証方法を「No Institution」に変更することはできません。';
+$string['uploadcsverrorinvalidexpirydate'] = 'あなたのファイルの %s 行目にエラーがあります: 有効期限「 %s 」が無効です。有効な日付フォーマットを使用してください。';
+$string['uploadcsverrorexpirydateinpast'] = 'あなたのファイルの %s 行目にエラーがあります: 有効期限「 %s 」を過去にすることはできません。';
 $string['uploadcsvpagedescription6'] = '<p>ここであなたは<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードできます。</p>
 
 <p>あなたのCSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば以下のようになります:</p>
