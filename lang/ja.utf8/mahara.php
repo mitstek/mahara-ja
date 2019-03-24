@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-03-17 03:06:57 UTC
+ * @updated    2019-03-24 06:43:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -771,6 +771,7 @@ $string['filter'] = 'フィルタ';
 $string['expand'] = '広げる';
 $string['collapse'] = '折りたたむ';
 $string['more...'] = 'さらに ...';
+$string['moreoptions'] = '詳細オプション';
 $string['moreoptionsfor'] = '「 %s 」の詳細オプション';
 $string['details'] = '詳細';
 $string['nohelpfound'] = 'このアイテムのヘルプはありません。';
