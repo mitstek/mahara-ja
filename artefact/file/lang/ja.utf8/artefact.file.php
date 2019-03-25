@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-12-26 22:47:18 UTC
+ * @updated    2019-03-25 00:00:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -147,6 +147,7 @@ $string['nofilesfound'] = 'ファイルはありません。';
 $string['notpublishable'] = 'あなたにはこのファイルを公開するパーミッションがありません。';
 $string['overwrite'] = '上書き';
 $string['Owner'] = 'オーナー';
+$string['uploadedby'] = 'アップロード';
 $string['parentfolder'] = '親フォルダ';
 $string['phpzipneeded'] = 'この機能を利用できるようにするにはPHP Zip拡張モジュールが必要です。';
 $string['Preview'] = 'プレビュー';
