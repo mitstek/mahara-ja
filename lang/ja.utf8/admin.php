@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-03-21 22:50:03 UTC
+ * @updated    2019-03-25 04:31:40 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -635,6 +635,7 @@ $string['uploadcsvpagedescription6'] = '<p>ここであなたは<acronym title="
 
 %s';
 $string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれる行が多すぎます。あなたは %s 以上含むことができません。';
+$string['uploadcsverrordatamustbenumeric'] = '行 %s: categoryの値は数字にしてください。';
 $string['uploadgroupcsverrordisplaynamealreadyexists'] = 'あなたのファイルの %s 行目に誤りがあります: 表示名「 %s 」はすでに存在します。';
 $string['uploadgroupcsverrorinvalidshortname'] = 'あなたのファイルの %s 行目に誤りがあります: グループ省略名 (shortname) 「 %s 」が有効ではありません。';
 $string['uploadgroupcsverrorshortnamemissing'] = 'あなたのファイルの %s 行目に誤りがあります: 省略名「 %s 」のグループは存在しません。';
@@ -644,6 +645,9 @@ $string['uploadgroupcsverrorshortnamealreadytaken1'] = 'あなたのファイル
 $string['uploadgroupcsverrorusernamesnotlastfield'] = '「usernames」フィールドはヘッダの最終フィールドにしてください。';
 $string['uploadgroupcsverroropencontrolled'] = '%s 行目: グループにはオープンおよび管理メンバーシップの両方を設定することはできません。';
 $string['uploadgroupcsverroropenrequest'] = '%s 行目: オープンメンバーシップのグループにメンバーシップのリクエストを許可することはできません。';
+$string['uploadgroupcsverrorviewnotifyrequest'] = '行 %s: viewnotifyの値は %s-%s の間の数字にしてください。';
+$string['uploadgroupcsverrordoesnotallowgroupcategory'] = '行 %s: このサイトではグループカテゴリを許可していません。「サイト設定 -> サイトオプション」のグループ設定を確認してください。';
+$string['uploadgroupcsverrorcategorydoesnotexist'] = '行 %s: カテゴリ「 %s 」が存在しません。';
 $string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいグループをアップロードできます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば以下のようになります:</p>
