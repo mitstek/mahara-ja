@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-06 03:09:34 UTC
+ * @updated    2019-03-29 12:17:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -90,8 +90,6 @@ $string['Views'] = 'ページ';
 $string['portfolio'] = 'ポートフォリオ';
 $string['portfolios'] = 'ポートフォリオ';
 $string['Viewscollections'] = 'ページおよびコレクション';
-$string['viewsubmittedtogroup'] = 'このページは<a href="%s">%s</a>に送信されました。';
-$string['viewsubmittedtogroupon'] = 'このページは<a href="%s">%s</a>に対して %s に送信されました。';
 $string['collectionsubmittedtogroup'] = 'このコレクションは<a href="%s">%s</a>に送信されました。';
 $string['collectionsubmittedtogroupon'] = 'このコレクションは<a href="%s">%s</a>に対して %s に送信されました。';
 $string['submittedpendingrelease'] = 'アーカイブ後のリリース保留中です。';
@@ -398,8 +396,9 @@ $string['latestviewed'] = '最終閲覧日時';
 $string['mostvisited'] = '閲覧回数';
 $string['mostcomments1'] = 'コメント数';
 $string['dashboard'] = 'ダッシュボード';
-$string['profile'] = 'プロファイル';
-$string['grouphomepage'] = 'グループホームページ';
+$string['Profile'] = 'プロファイル';
+$string['Portfolio'] = 'ポートフォリオ';
+$string['Grouphomepage'] = 'グループホームページ';
 $string['grouphomepagedescription'] = 'グループホームページにはこのグループのAboutタブに表示されるコンテンツを含みます。';
 $string['pageaccessrules'] = 'ページアクセスルール';
 $string['sharedwithme'] = '私への共有';
