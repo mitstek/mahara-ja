@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-02-13 23:14:48 UTC
+ * @updated    2019-03-29 02:11:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -268,6 +268,7 @@ $string['addtofriendsfailed'] = 'あなたのフレンドリストへの %s の�
 $string['allfriends'] = 'すべてのフレンド';
 $string['currentfriends'] = '現在のフレンド';
 $string['pendingfriends'] = '保留中のフレンド';
+$string['pendingfriend'] = '保留中のフレンド';
 $string['backtofriendslist'] = 'フレンドリストに戻る';
 $string['findnewfriends'] = '新しいフレンドを探す';
 $string['Collections'] = 'コレクション';
@@ -293,6 +294,7 @@ $string['friends'] = 'フレンド';
 $string['user'] = 'ユーザ';
 $string['users'] = 'ユーザ';
 $string['Friends'] = 'フレンド';
+$string['friendrequests'] = 'フレンドリクエスト';
 $string['Everyone'] = '誰でも';
 $string['myinstitutions'] = 'マイインスティテューション';
 $string['friendlistfailure'] = 'あなたのフレンドリストの変更に失敗しました。';
@@ -309,6 +311,7 @@ $string['sendmessageto'] = '%s にメッセージを送信する';
 $string['viewmessage'] = 'メッセージを表示する';
 $string['Reply'] = '返信';
 $string['denyfriendrequest'] = 'フレンドシップリクエストを拒否する';
+$string['deny'] = '拒否';
 $string['sendfriendshiprequest'] = '%s にフレンドシップリクエストを送信する';
 $string['cantdenyrequest'] = 'これは有効なフレンドシップリクエストではありません。';
 $string['cantmessageuser'] = 'あなたはこのユーザにメッセージを送信できません。';

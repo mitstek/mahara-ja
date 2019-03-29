@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-03-24 06:43:17 UTC
+ * @updated    2019-03-29 02:31:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -681,6 +681,7 @@ $string['Create'] = '作成';
 $string['Engage'] = '参加';
 $string['Manage'] = '管理';
 $string['settings'] = '設定';
+$string['people'] = '人';
 $string['myfriends'] = 'マイフレンド';
 $string['findpeople'] = '人を探す';
 $string['groups'] = 'グループ';
