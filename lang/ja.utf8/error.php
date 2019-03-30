@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-11-20 23:32:06 UTC
+ * @updated    2019-03-30 11:54:10 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -94,6 +94,9 @@ $string['viewnotfoundexceptionmessage'] = 'あなたは存在しないページ�
 $string['viewnotfound'] = 'ID %s のページは見つかりませんでした。';
 $string['viewnotfoundbyname'] = 'ページ %s (ユーザ: %s) は見つかりませんでした。';
 $string['youcannotviewthisusersprofile'] = 'あなたはこのユーザのプロファイルを閲覧できません。';
+$string['notinthesamegroup'] = 'あなたは同じグループのメンバーではないため、このユーザのプロファイルを閲覧できません。';
+$string['notinthesameinstitution'] = 'あなたは同じインスティテューションのメンバーではないため、このユーザのプロファイルを閲覧できません。';
+$string['notinstitutionmember'] = 'あなたはページが属しているインスティテューションのメンバーではないため、このページを閲覧できません。';
 $string['invalidlayoutselection'] = 'あなたは存在しないレイアウトの選択を試みました。';
 $string['invalidnumrows'] = 'あなたは許可された最大行以上のレイアウトの作成を試みました (これは可能であるべきではありません。あなたのサイト管理者にご連絡ください)。';
 $string['previewimagegenerationfailed'] = '申し訳ございません、プレビューイメージの生成中に問題が発生しました。';

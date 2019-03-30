@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-03-25 23:53:38 UTC
+ * @updated    2019-03-30 11:54:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -299,6 +299,7 @@ $string['Groups'] = 'グループ';
 $string['Content'] = 'コンテンツ';
 $string['configurereport'] = 'レポートを設定する';
 $string['Columns'] = 'カラム';
+$string['siteadminsonly'] = 'サイト管理者のみ';
 $string['adminsonly'] = '管理者のみ';
 $string['adminsandstaffonly'] = '管理者およびスタッフのみ';
 $string['advanced'] = '高度';
@@ -494,6 +495,8 @@ $string['termsandconditions'] = '利用条件';
 $string['uploadcopyright'] = 'アップロード著作権宣言文';
 $string['privacypagedescription'] = 'サイト全体のプライバシー保護方針を編集してください。あなたが最後に編集したバージョンが自動的に最新のプライバシー保護方針となります。';
 $string['termspagedescription'] = 'サイト全体の利用条件を編集してください。あなたが最後に編集したバージョンが自動的に最新の利用条件となります。';
+$string['owngroupsonly'] = '自分のグループのみ表示する';
+$string['owngroupsonlydescription'] = 'ユーザが所有または所属しているグループのみ閲覧できるようにします。ユーザはグループ内の他のユーザのみ検索できます。この設定はconfig.ｐｈｐファイルで分離インスティテューションを有効にする必要があります。';
 $string['sitefile'] = 'サイトファイル';
 $string['adminpublicdirname'] = 'パブリック';
 $string['adminpublicdirdescription'] = 'ログアウトしたユーザからアクセス可能なファイルです。';
