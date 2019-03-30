@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-03-25 00:00:20 UTC
+ * @updated    2019-03-30 02:52:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -74,6 +74,7 @@ $string['deletingfailed'] = '削除に失敗しました: すでにファイル�
 $string['deletefile?'] = '本当にこのファイルを削除してもよろしいですか?';
 $string['deletefolder?'] = '本当にこのフォルダを削除してもよろしいですか?';
 $string['Description'] = '説明';
+$string['Descriptionandtags'] = '説明 / タグ';
 $string['destination'] = '作成場所';
 $string['Details'] = '詳細';
 $string['View'] = '表示';
