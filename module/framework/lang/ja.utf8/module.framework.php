@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-23 02:22:55 UTC
+ * @updated    2019-04-02 08:18:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -79,5 +79,50 @@ $string['headerpage'] = 'カラムヘッダ: ページタイトル';
 $string['headerrow'] = '行ヘッダ: 標準エレメント';
 $string['showelementdetails'] = '標準エレメント詳細を表示するにはクリックしてください。';
 $string['statusdetail'] = 'ページ「 %s 」: %s';
+$string['copyframework'] = 'コピーするフレームワークを選択する';
+$string['editframework'] = '編集するフレームワークを選択する';
+$string['editdescription1'] = '編集できるようにするにはフレームワークが無効および現在コレクションで使用されていない必要があります。';
+$string['editdescription2'] = 'フレームワークを編集する場合、あなたはフレームワークの保存済みデータを変更することになります。';
+$string['copyframeworkdescription'] = 'あなたはインストール済みフレームワークすべてをコピーおよび新しいフレームワークファイルのベースとして使用できます。';
+$string['successmessage'] = 'あなたのフレームワークが送信されました。';
+$string['titledesc'] = 'フレームワークのタイトルは短くしてください。タイトルはフレークワークを選択するためのドロップダウンメニューおよびスマートエビデンスページのタイトルとして表示されます。';
+$string['instdescription'] = 'このスマートエビデンスフレームワークを使用するインスティテューションを選択してください。あなたは使用するインスティテューションを1つに制限できます。また、すべてのインスティテューションによるアクセスを許可することもできます。';
+$string['frameworktitle'] = 'あなたのフレームワークのタイトル';
+$string['defaultdescription'] = 'あなたのフレームワークの説明';
+$string['descriptioninfo'] = 'フレームワークを説明する詳細情報を記述してください。あなたはシンプルHTMLを使用できます。';
+$string['selfassessed'] = '自己評価';
+$string['evidencestatuses'] = 'エビデンスステータス';
+$string['evidencedesc'] = 'フレームワークの一部がどのように完了しているか示す異なる状態に名称を付けてください。エビデンスが送信された「開始」を含む4つのオプションがあります。他の3つは評価ステータスです。';
+$string['Begun'] = '開始';
+$string['Incomplete'] = '未完了';
+$string['Partialcomplete'] = '一部完了';
+$string['Completed'] = '完了';
+$string['standards'] = '標準';
+$string['shortnamestandard'] = '標準カテゴリの省略名です。半角100文字に制限されます。';
+$string['titlestandard'] = '標準カテゴリのタイトルです。半角255文字に制限されます。';
+$string['descstandard'] = 'この説明はあなたがスマートエビデンスページの標準にホバーした時に表示されます。あなたはシンプルHTMLを使用できます。';
+$string['descstandarddefault'] = 'この標準カテゴリの説明';
+$string['standardid'] = '標準ID';
+$string['standardiddesc'] = 'ここでは整数を指定してください。';
+$string['standardelements'] = '標準エレメント';
+$string['standardelement'] = '標準エレメント';
+$string['standardelementdesc'] = 'この説明はあなたがスマートエビデンスページのこの標準エレメントにホバーした時に表示されます。これはあなたがこの標準を「アノテーション」ブロックで選択した場合にも表示されます。あなたはシンプルHTMLを使用できます。';
+$string['standardelementdefault'] = '標準エレメントの説明';
+$string['standardiddesc1'] = 'これはあなたが標準エレメントを作成している標準カテゴリのIDと合致する必要があります。';
+$string['elementid'] = 'エレメントID';
+$string['elementiddesc'] = 'これはこの標準エレメントのIDです。これは数字または短い言葉にできます。連続する数字により簡単に階層を示せます。';
+$string['validjson'] = '現在のフォームコンテンツは有効であり送信できます。';
+$string['moveright'] = '右に移動する';
+$string['moveleft'] = '左に移動する';
+$string['deletelast'] = '最後を削除する';
+$string['deleteall'] = 'すべてを削除する';
+$string['selfassesseddescription'] = 'スタッフメンバーが評価を実施できるようにするか(デフォルト)、ポートフォリオ作成者が自己評価目的で標準を選択して自分で評価ステータスを選択できるようにするか選択してください。';
+$string['standardsdescription'] = 'あなたのフレームワークを分けるためのカテゴリを作成します。あなたは後で個別の標準エレメントおよびサブエレメントを標準カテゴリに割り当てることができます。あなたは少なくとも1つのカテゴリを持つ必要があります。';
+$string['standardelementsdescription'] = '個別の標準エレメントを作成します。例) コンテンツを割り当てることのできる記述子。必要であれば「親ID」オプションを使用して標準エレメントを階層順にできます。';
+$string['parentelementid'] = '親エレメントID';
+$string['parentelementdesc'] = 'この標準エレメントの親となる標準エレメントのIDです。例) 階層の1レベル上のID。';
+$string['jsondatanotsubmitted'] = 'あなたのフォームデータはデータベースに送信されませんでした。あなたが入力した情報を別のファイルに保存した後、フォームをリフレッシュして再度試すか、「アップロード」タブを使用して直接JSONをアップロードしてください。';
+$string['editor'] = 'エディタ';
+$string['all'] = 'すべて';
 
 ?>
