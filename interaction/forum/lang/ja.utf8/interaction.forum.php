@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-02-05 06:17:19 UTC
+ * @updated    2019-04-02 06:25:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -38,7 +38,7 @@ $string['cantfindtopic'] = 'ID %s のトピックが見つかりませんでし�
 $string['cantmakenonobjectionable'] = 'あなたはこの投稿を好ましくない投稿としてマークすることはできません。';
 $string['cantviewforums'] = 'あなたはこのグループ内のフォーラムを閲覧できません。';
 $string['cantviewtopic'] = 'あなたはこのフォーラム内のトピックを閲覧できません。';
-$string['cantunsubscribe'] = 'あなたはフォーラムを購読解除することはできません。';
+$string['cantunsubscribe'] = 'あなたはこのフォーラムを購読解除することはできません。';
 $string['chooseanaction'] = '処理を選択する ...';
 $string['clicksetsubject'] = '件名を入力するにはここをクリックしてください。';
 $string['Closed'] = '閉鎖';

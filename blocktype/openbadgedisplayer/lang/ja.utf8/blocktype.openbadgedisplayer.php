@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-11-05 09:08:46 UTC
+ * @updated    2019-04-02 06:14:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -45,7 +45,7 @@ $cfg->openbadgedisplayer_source = \'{"backpack":"https://backpack.openbadges.org
 $string['selectall'] = 'すべてを選択する';
 $string['selectnone'] = 'すべての選択を解除する';
 $string['featuredisabled'] = 'openbadgedisplayerブロックタイプが有効ではありません。';
-$string['badgrsourcemissing'] = 'バッジャがソース設定にありません。';
+$string['badgrsourcemissing1'] = 'あなたのconfig.phpファイルのソース設定にバッジャがありません。';
 $string['badgrusername'] = 'バッジャユーザ名';
 $string['badgrpassword'] = 'バッジャパスワード';
 $string['badgrtokentitle'] = 'バッジャ';
@@ -53,6 +53,6 @@ $string['badgrtoken'] = 'バッジャトークン: %s';
 $string['badgrtokenadded'] = 'バッジャトークンがアカウントに追加されました。';
 $string['badgrtokendeleted'] = 'バッジャトークンが削除されました。';
 $string['badgrtokennotfound'] = '提供された認証情報ではバッジャトークンは見つかりませんでした。';
-$string['nobadgruid'] = 'バッジャを使用するためトークンが必要です。「設定 → バッジャトークンアクセス」に移動してあなたのトークンを取得してください。';
+$string['nobadgruid1'] = 'あなたがバッジャを使用できるようにするにはトークンを設定する必要があります。バッジャを設定するには「ユーザメニュー → 設定 → アプリ → バッジャ」に移動してください。';
 
 ?>

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-03-30 11:54:09 UTC
+ * @updated    2019-04-02 06:37:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -475,7 +475,7 @@ $string['mathjax'] = 'MathJaxを有効にする';
 $string['mathjaxdescription'] = 'MathJaxはLaTeXマークアップを適切にフォーマットした数式および化学式としてポートフォリオページに表示します。';
 $string['mathjaxconfig'] = 'MathJax設定';
 $string['timezone'] = 'タイムゾーン';
-$string['sitetimezonedescription'] = 'サイトのデフォルトのタイムゾーンです。選択されない場合、国をもとにタイムゾーンが選択されます。しかし、国に複数のタイムゾーンがある場合、これは正確ではない場合があります。';
+$string['sitetimezonedescription'] = 'サイトのデフォルトのタイムゾーンです。選択されない場合、選択された国をもとにタイムゾーンが選択されます。国に複数のタイムゾーンがある場合、これは正確ではない場合があります。';
 $string['notimezoneselected'] = 'タイムゾーン未選択';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
@@ -649,7 +649,7 @@ $string['uploadgroupcsverrorusernamesnotlastfield'] = '「usernames」フィー�
 $string['uploadgroupcsverroropencontrolled'] = '%s 行目: グループにはオープンおよび管理メンバーシップの両方を設定することはできません。';
 $string['uploadgroupcsverroropenrequest'] = '%s 行目: オープンメンバーシップのグループにメンバーシップのリクエストを許可することはできません。';
 $string['uploadgroupcsverrorviewnotifyrequest'] = '行 %s: viewnotifyの値は %s-%s の間の数字にしてください。';
-$string['uploadgroupcsverrordoesnotallowgroupcategory'] = '行 %s: このサイトではグループカテゴリを許可していません。「サイト設定 -> サイトオプション」のグループ設定を確認してください。';
+$string['uploadgroupcsverrordoesnotallowgroupcategory1'] = '行 %s: このサイトではグループカテゴリを許可していません。あなたがグループカテゴリを使用したい場合、サイト管理者は「管理エリア → グループ → グループカテゴリ」で有効にできます。';
 $string['uploadgroupcsverrorcategorydoesnotexist'] = '行 %s: カテゴリ「 %s 」が存在しません。';
 $string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいグループをアップロードできます。</p>
 
@@ -1015,9 +1015,9 @@ $string['denyregistrationmessage'] = 'ユーザの登録を拒否します。本
 $string['nopendingregistrations'] = 'このインスティテューションの登録保留はありません。';
 $string['pendingregistration'] = '登録保留';
 $string['pendingregistrations'] = '登録保留';
-$string['pendingregistrationspagedescription1'] = '<p>このページではあなたのインスティテューションに自己登録およびメンバーシップをリクエストしたユーザを閲覧すること、登録を承認または拒否できます。<p>
+$string['pendingregistrationspagedescription2'] = '<p>このページではあなたのインスティテューションで自己登録およびメンバーシップをリクエストしたユーザを閲覧できます。あなたは登録リクエストを承認または拒否できます。<p>
 <p>登録を承認した場合、ユーザにはアカウントの有効化に関して詳細なインストラクションを記載した通知が送信されます。ユーザが有効化リンクをクリックした場合、インスティテューションのメンバーとして追加されます。有効化リンクは24時間で有効期限となりユーザの詳細は削除されます。まだ登録したい場合、同じ手続きを再度開始する必要があります。</p>
-<p>登録を拒否した場合、申請が却下された旨の自動返信メールによりユーザに通知されます。</p>';
+<p>登録を拒否した場合、ユーザに自動的に通知されます。</p>';
 $string['pendingregistrationdesc'] = 'あなたのインスティテューションへの自己登録ユーザのメンバーシップを承認または拒否します。';
 $string['pendingdeletiondesc'] = '自分のアカウントを削除したいユーザの削除を承認または拒否します。';
 $string['pendingusercompletion'] = '承認送信済み、ユーザ完了待ち';
