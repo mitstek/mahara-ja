@@ -211,7 +211,7 @@ $string['youowngroup'] = 'あなたはこのグループを所有しています
 $string['groupsnotin'] = '私が参加していないグループ';
 $string['allgroups'] = 'すべてのグループ';
 $string['allgroupmembers'] = 'すべてのグループメンバー';
-$string['trysearchingforgroups1'] = '参加するには<a href="%sgroup/index.php?filter=canjoin">グループを探す</a>をお試しください。';
+$string['trysearchingforgroups1'] = '参加するには<a href="%sgroup/index.php?filter=canjoin">グループを探してください</a>。';
 $string['nogroupsfound'] = 'グループが見つかりませんでした。';
 $string['group'] = 'グループ';
 $string['Group'] = 'グループ';
@@ -282,7 +282,7 @@ $string['denyrequest'] = 'リクエストを拒否する';
 $string['pending'] = '保留中';
 $string['pendingsince'] = '%s より保留中';
 $string['requestedsince'] = '%s よりリクエスト中';
-$string['trysearchingforfriends'] = 'あなたのネットワークを広げるため%s新しいフレンドの検索%sをお試しください。';
+$string['trysearchingforfriends'] = 'あなたのネットワークを広げるため%s新しいフレンドの検索%s。';
 $string['nobodyawaitsfriendapproval'] = 'あなたのフレンドになるため承認を待っているユーザはいません。';
 $string['sendfriendrequest'] = 'フレンドリクエストを送信する';
 $string['addtomyfriends'] = 'マイフレンドに追加する';
