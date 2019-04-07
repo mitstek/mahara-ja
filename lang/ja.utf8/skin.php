@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-03-31 05:50:28 UTC
+ * @updated    2019-04-07 07:07:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -155,7 +155,7 @@ CSS @font-faceルールによってウェブページに埋め込むことので
 <br />TrueTypeフォント、Embedded OpenTypeフォント、Web Open Font FormatフォントおよびScalable Vector Graphicフォント。
 </p>
 <p>
-あなたは<a href="http://www.fontsquirrel.com/fontface/generator/">FontSquirrel Online Generator</a>を変換に使用できます。
+あなたは<a href="http://www.fontsquirrel.com/fontface/generator/">FontSquirrel Online Generator</a>を変換に利用できます。
 </p>';
 $string['nofonts'] = 'フォントがありません。';
 $string['font'] = 'フォント';
