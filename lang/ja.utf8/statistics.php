@@ -405,7 +405,7 @@ $string['usersinfo'] = 'ユーザ概要';
 $string['viewsinfo'] = 'ページ概要';
 $string['usersbyinstitution'] = 'インスティテューション別ユーザ';
 $string['groupsbytype'] = 'タイプ別グループ';
-$string['earliestdate'] = 'このレポートのデータは %s 以降利用できます。';
+$string['earliestdate'] = 'このレポートのデータは %s 以降のみ利用できます。';
 $string['noearliestdate'] = 'このレポートに記録されたデータはありません。';
 
 ?>
