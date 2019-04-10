@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-08 01:56:57 UTC
+ * @updated    2019-04-10 06:25:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,8 +20,8 @@ $string['signoff'] = '承認';
 $string['signoffdesc'] = 'すべての必要条件を満たした場合、ポートフォリオのオーナーは評価準備が完了したことを示すためページを承認できます。';
 $string['verify'] = '検証';
 $string['verifydesc'] = 'ポートフォリオ評価作業の一環としてモデレータがこのページを検証する必要があるかどうか決定してください。';
-$string['signedoff'] = '承認済み';
-$string['verified'] = '検証済み';
+$string['signedoff'] = '承認';
+$string['verified'] = '検証';
 $string['signoffpagetitle'] = '承認ページ';
 $string['signoffpagedesc'] = 'あなたがすべての必要条件を満たしたことを示したい場合、「Yes」を選択してこのページを承認してください。中止するには「No」を選択してください。';
 $string['signoffpageundodesc'] = '「Yes」を選択した場合、あなたは承認ステータスを削除することになります。検証が評価作業の一環である場合、検証も削除されます。中止するには「No」を選択してください。';
