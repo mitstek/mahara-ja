@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-09-10 08:43:47 UTC
+ * @updated    2019-04-10 06:33:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -31,7 +31,7 @@ $string['verifypagedesc'] = 'ポートフォリオのオーナーがこのペー
 $string['updatesignoff'] = 'ページ承認を更新する';
 $string['updateverify'] = 'ページ検証を更新する';
 $string['removedverifynotificationsubject'] = '%s の検証が削除されました。';
-$string['removedverifynotification'] = 'ページのオーナー %s が承認を削除しました。そのため、あなたの検証も削除されました。再度検証であることをマークできる状態であるか確認するためページにアクセスしてください。';
+$string['removedverifynotification'] = 'ページのオーナー %s が承認を削除しました。そのため、あなたの検証も削除されました。再度検証をマークできる状態であるか確認するためページにアクセスしてください。';
 $string['signoffviewupdated'] = '承認ステータスが更新されました。';
 $string['verifyviewupdated'] = '検証ステータスが更新されました。';
 $string['wrongsignoffviewrequest'] = 'あなたにはリクエストされた処理を実行するパーミッションがありません。';
