@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-03 03:21:46 UTC
+ * @updated    2019-04-11 05:16:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -273,6 +273,7 @@ $string['backtofriendslist'] = 'フレンドリストに戻る';
 $string['findnewfriends'] = '新しいフレンドを探す';
 $string['Collections'] = 'コレクション';
 $string['Views'] = 'ページ';
+$string['Portfolios'] = 'ポートフォリオ';
 $string['Viewscollections'] = 'ページおよびコレクション';
 $string['Files'] = 'ファイル';
 $string['noviewstosee'] = 'あなたが閲覧できるものはありません。';
