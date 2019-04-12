@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-05-30 13:47:28 UTC
+ * @updated    2019-04-12 01:45:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -146,6 +146,7 @@ $string['userdeletionemailmessagetext'] = '%s さん、こんにちは。
 --
 %s チーム';
 $string['userdeletionemailmessagehtml'] = '<p>%s さん、こんにちは。</p>
+
 <p>あなたのアカウントが %s から正常に削除されました。</p>
 
 <pre>--

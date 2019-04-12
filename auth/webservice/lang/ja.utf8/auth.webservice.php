@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-02-05 06:22:48 UTC
+ * @updated    2019-04-12 01:42:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -50,6 +50,7 @@ $string['registeredemailmessagetextmessage'] = '%s さん
 --
 %s チーム';
 $string['registeredemailmessagehtmlmessage'] = '<p>%s さん</p>
+
 <p>%s へのご登録ありがとうございます。</p>
 
 <p>%s</p>
@@ -61,6 +62,7 @@ $string['registeredemailmessagehtmlmessage'] = '<p>%s さん</p>
 <pre>--
 %s チーム</pre>';
 $string['registeredemailmessagehtml'] = '<p>%s さん</p>
+
 <p>%s へのご登録ありがとうございます。サインアップ処理を完了するには次のリンクにアクセスしてください:</p>
 <p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>
 <p>リンクは24時間で有効期限が切れます。</p>
