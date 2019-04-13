@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-02 08:18:07 UTC
+ * @updated    2019-04-13 07:42:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -123,6 +123,7 @@ $string['parentelementid'] = '親エレメントID';
 $string['parentelementdesc'] = 'この標準エレメントの親となる標準エレメントのIDです。例) 階層の1レベル上のID。';
 $string['jsondatanotsubmitted'] = 'あなたのフォームデータはデータベースに送信されませんでした。あなたが入力した情報を別のファイルに保存した後、フォームをリフレッシュして再度試すか、「アップロード」タブを使用して直接JSONをアップロードしてください。';
 $string['editor'] = 'エディタ';
+$string['Management'] = '管理';
 $string['all'] = 'すべて';
 
 ?>
