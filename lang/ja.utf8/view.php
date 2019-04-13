@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-11 05:19:18 UTC
+ * @updated    2019-04-13 13:40:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -278,12 +278,15 @@ $string['moveblockup'] = '%s ブロックを上に移動する';
 $string['movethisblockup'] = 'このブロックを上に移動する';
 $string['moveblockright'] = '%s ブロックを右に移動する';
 $string['movethisblockright'] = 'このブロックを右に移動する';
+$string['moveblock2'] = 'ブロックを移動する';
 $string['moveblock'] = '%s ブロックを移動する';
 $string['movethisblock'] = 'このブロックを移動する';
 $string['Configure'] = '設定';
+$string['configureblock2'] = 'ブロックを設定する';
 $string['configureblock1'] = '%s ブロックを設定する (ID %s)';
 $string['configurethisblock1'] = 'このブロックを設定する (ID %s)';
 $string['closeconfiguration'] = '設定を閉じる';
+$string['removeblock2'] = 'ブロックを削除する';
 $string['removeblock1'] = '%s ブロックを削除する (ID %s)';
 $string['removethisblock1'] = 'このブロックを削除する (ID %s)';
 $string['blocktitle'] = 'ブロックタイトル';
