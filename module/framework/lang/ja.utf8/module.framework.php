@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-13 13:43:33 UTC
+ * @updated    2019-04-13 13:44:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -111,6 +111,7 @@ $string['standardelementdefault'] = '標準エレメントの説明';
 $string['standardiddesc1'] = 'これはあなたが標準エレメントを作成している標準カテゴリのIDと合致する必要があります。';
 $string['elementid'] = 'エレメントID';
 $string['elementiddesc'] = 'これはこの標準エレメントのIDです。これは数字または短い言葉にできます。連続する数字により簡単に階層を示せます。';
+$string['invalidjsonineditor'] = '現在のフォームには無効なJSONを含みます。ページをスクロールダウンしてエラー詳細を確認してください。';
 $string['validjson'] = '現在のフォームコンテンツは有効であり送信できます。';
 $string['moveright'] = '右に移動する';
 $string['moveleft'] = '左に移動する';
