@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-09 11:52:30 UTC
+ * @updated    2019-04-14 08:11:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -178,7 +178,7 @@ $string['fontdeleted'] = 'フォントが削除されました。';
 $string['cantdeletefont'] = 'あなたはこのフォントを削除できません。';
 $string['fontname'] = 'フォント名';
 $string['invalidfonttitle'] = '無効なフォントタイトルです。少なくとも1つの半角英数字を含む必要があります。';
-$string['genericfontfamily'] = '一般フォントファミリー';
+$string['genericfontfamily'] = '総称フォントファミリ';
 $string['fontstyle'] = 'フォントスタイル';
 $string['regular'] = '標準';
 $string['bold'] = '太字';
@@ -187,7 +187,7 @@ $string['bolditalic'] = '太字イタリック';
 $string['fonttype'] = 'フォントタイプ';
 $string['headingandtext'] = 'ヘッディングおよびテキスト';
 $string['headingonly'] = 'ヘッディングのみ';
-$string['fontuploadinstructions'] = '<br />必要なフォントファイルをアップロードするにはあなたは<a href="http://www.fontsquirrel.com/fontface/generator/">FontSquirrel Online Generator</a>によって生成されたZIPファイルを直接アップロードするか、
+$string['fontuploadinstructions'] = '<br />必要なフォントファイルをアップロードする場合、あなたは<a href="http://www.fontsquirrel.com/fontface/generator/">FontSquirrel Online Generator</a>によって生成されたZIPファイルを直接アップロードするか、
 <br />EOT、SVG、TTF、WOFFおよびライセンスファイルを個別にアップロードできます。';
 $string['fontfiles'] = 'フォントファイル';
 $string['fontfilemissing'] = 'ZIPファイルに「 %s 」フォントファイルが含まれていません。';
