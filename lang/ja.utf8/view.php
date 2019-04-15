@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-12 01:48:00 UTC
+ * @updated    2019-04-15 00:20:50 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -157,7 +157,7 @@ $string['removefromwatchlistartefact'] = 'ページ「 %s 」をウォッチリ�
 $string['alreadyinwatchlist'] = 'このページはすでにあなたのウォッチリストに登録されています。';
 $string['attachedfileaddedtofolder'] = '添付ファイル「 %s 」があなたの「 %s 」フォルダに追加されました。';
 $string['date'] = '日時';
-$string['print'] = 'プリント';
+$string['print'] = '印刷';
 $string['viewobjectionableunmark'] = 'ページ「 %s 」またはその中に好ましくないコンテンツが含まれていると報告されています。好ましくないコンテンツが含まれていない場合、あなたはボタンをクリックしてこの注意を取り除いた上で他の管理者に通知できます。';
 $string['viewunobjectionablesubject'] = 'ページ %s が %s によって好ましくないものではないとマークされました。';
 $string['viewunobjectionablebody'] = '% (%s) が %s によって確認され好ましくないコンテンツは含まれていないとマークされました。';
