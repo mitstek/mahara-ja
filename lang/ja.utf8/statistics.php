@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-10 21:50:18 UTC
+ * @updated    2019-04-16 04:53:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -149,7 +149,7 @@ $string['plugin_blocktype_googleapps_version'] = 'ブロックタイププラグ
 $string['plugin_blocktype_groupinfo_version'] = 'ブロックタイププラグイン: 「グループ情報」バージョン';
 $string['plugin_blocktype_groupmembers_version'] = 'ブロックタイププラグイン: 「グループメンバー」バージョン';
 $string['plugin_blocktype_groupviews_version'] = 'ブロックタイププラグイン: 「グループポートフォリオ」バージョン';
-$string['plugin_blocktype_html_version'] = 'ブロックタイププラグイン: 「HTML」バージョン';
+$string['plugin_blocktype_html_version'] = 'ブロックタイププラグイン: 「PDF」バージョン';
 $string['plugin_blocktype_image_version'] = 'ブロックタイププラグイン: 「イメージ」バージョン';
 $string['plugin_blocktype_inbox_version'] = 'ブロックタイププラグイン: 「受信箱」バージョン';
 $string['plugin_blocktype_internalmedia_version'] = 'ブロックタイププラグイン: 「埋め込みメディア」バージョン';
