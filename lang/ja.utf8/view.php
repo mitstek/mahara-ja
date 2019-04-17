@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-13 13:40:16 UTC
+ * @updated    2019-04-17 23:16:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -128,6 +128,9 @@ $string['registeredusers'] = '登録済みユーザ';
 $string['friends'] = 'フレンド';
 $string['groups'] = 'グループ';
 $string['users'] = 'ユーザ';
+$string['friend'] = 'フレンド';
+$string['group'] = 'グループ';
+$string['user'] = 'ユーザ';
 $string['everyoneingroup'] = 'グループのユーザすべて';
 $string['nospecialrole'] = '特別ロールなし';
 $string['peer'] = 'ピア';
@@ -165,7 +168,6 @@ $string['updatewatchlistfailed'] = 'ウォッチリストの更新に失敗し�
 $string['watchlistupdated'] = 'あなたのウォッチリストが更新されました。';
 $string['viewvisitcount'] = 'アクセス数: %s (%s - %s)';
 $string['profilenotshared'] = 'このユーザプロファイルへのフルアクセスは制限されています。';
-$string['friend'] = 'フレンド';
 $string['profileicon'] = 'プロファイル画像';
 $string['Updatedon'] = '更新日時:';
 $string['Createdon'] = '作成日時:';
