@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-16 04:53:02 UTC
+ * @updated    2019-04-19 01:27:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -211,12 +211,12 @@ $string['reportdescaccesslist'] = '<ul>
 <li>ポートフォリオ内のページ数</li>
 <li>アクセスリスト 例) ポートフォリオを閲覧できるパーミッションのあるユーザ</li>
 </ul>
-<p>選択された期間に作成されたポートフォリオが一覧表示されます。現在のアクセスパーミッションが表示されます。</p>';
+<p>選択された期間中に作成されたポートフォリオが一覧表示されます。それらの現在のアクセスパーミッションが表示されます。</p>';
 $string['reportdescusers'] = '<ul>
 <li>日付</li>
 <li>ログイン人数</li>
 <li>アカウント作成数</li>
-<li>選択したインスティテューションの人数</li>
+<li>選択されたインスティテューションの人数</li>
 </ul>';
 $string['reportuserdetails'] = 'ユーザ詳細';
 $string['reportdescuserdetails'] = '<ul>
