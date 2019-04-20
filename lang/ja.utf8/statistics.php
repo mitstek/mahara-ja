@@ -245,7 +245,7 @@ $string['reportdescuseractivity'] = '<ul>
 $string['reportcollaboration'] = 'コラボレーション';
 $string['reportdesccollaboration'] = '<ul>
 <li>コメント数</li>
-<li>アノテーションコメント数</li>
+<li>アノテーションフィードバック数</li>
 <li>個々のユーザと共有されているポートフォリオ数 (ページまたはコレクション)</li>
 <li>グループと共有されているポートフォリオ数</li>
 <li>インスティテューションと共有されているポートフォリオ数</li>
@@ -258,7 +258,7 @@ $string['reportmasquerading'] = 'マスカレーディングセッション';
 $string['reportdescmasquerading'] = '<ul>
 <li>氏名およびユーザ名</li>
 <li>マスカレーディングセッションの理由</li>
-<li>マスカレードした管理者</li>
+<li>代理ログインした管理者</li>
 <li>マスカレーディングセッションの開始日時</li>
 </ul>';
 $string['reportpageactivity'] = 'ページ活動';
@@ -344,7 +344,7 @@ $string['reportdesccontent'] = '<ul>
 <li>修正数</li>
 <li>合計</li>
 <li>修正に関わったユニークユーザ数</li>
-<li>合計内のユニークユーザ数</li>
+<li>合計のユニークユーザ数</li>
 </ul>';
 $string['informationreports'] = 'インフォメーション概要';
 $string['reportdescinformation'] = '<ul>
