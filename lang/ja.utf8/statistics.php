@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-19 01:27:06 UTC
+ * @updated    2019-04-20 03:14:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -246,7 +246,7 @@ $string['reportdescuseractivity'] = '<ul>
 $string['reportcollaboration'] = 'コラボレーション';
 $string['reportdesccollaboration'] = '<ul>
 <li>コメント数</li>
-<li>アノテーションコメント数</li>
+<li>アノテーションフィードバック数</li>
 <li>個々のユーザと共有されているポートフォリオ数 (ページまたはコレクション)</li>
 <li>グループと共有されているポートフォリオ数</li>
 <li>インスティテューションと共有されているポートフォリオ数</li>
@@ -259,7 +259,7 @@ $string['reportmasquerading'] = 'マスカレーディングセッション';
 $string['reportdescmasquerading'] = '<ul>
 <li>氏名およびユーザ名</li>
 <li>マスカレーディングセッションの理由</li>
-<li>マスカレードした管理者</li>
+<li>代理ログインした管理者</li>
 <li>マスカレーディングセッションの開始日時</li>
 </ul>';
 $string['reportpageactivity'] = 'ページ活動';
@@ -345,14 +345,14 @@ $string['reportdesccontent'] = '<ul>
 <li>修正数</li>
 <li>合計</li>
 <li>修正に関わったユニークユーザ数</li>
-<li>合計内のユニークユーザ数</li>
+<li>合計のユニークユーザ数</li>
 </ul>';
 $string['reportdescobjectionable'] = '<ul>
 <li>ページタイトル</li>
 <li>アーティファクトタイトル</li>
 <li>好ましくないコンテンツの報告者</li>
 <li>報告者名</li>
-<li>報告者名説明</li>
+<li>報告説明</li>
 <li>報告日</li>
 <li>レビュー者名</li>
 <li>レビュー説明</li>
