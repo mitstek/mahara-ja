@@ -988,7 +988,7 @@ $string['masqueradenotifiedreasondescription'] = 'このユーザとしてログ
 $string['masqueradetime'] = 'マスカレーディング開始日時';
 $string['masquerader'] = 'マスカレーディング管理者';
 $string['masqueradee'] = 'ユーザ';
-$string['nomasquerades'] = 'マスカレーディングセッションのロギングが有効にされているため別のユーザとしてマスカレードした管理者はいません。';
+$string['nomasquerades'] = 'マスカレーディングセッションのロギングが有効にされているため別のユーザとして代理ログインした管理者はいません。';
 $string['loginaslog'] = 'マスカレーディングセッション';
 $string['masqueradingnotloggedwarning'] = '<b>注意</b>: マスカレーディングセッションのロギングは現在無効にされています。このテーブルのデータを閲覧するには管理者が「 <a href="%sadmin/site/options.php">サイト設定</a> 」の「ロギング設定」を有効にする必要があります。';
 $string['masqueradenotificationsubject'] = '管理者があなたとしてログインしました。';
