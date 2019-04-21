@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-08-10 00:46:52 UTC
+ * @updated    2019-04-21 01:10:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -228,7 +228,7 @@ $string['reportdescuserdetails'] = '<ul>
 <li>表示名</li>
 <li>リモートユーザ名</li>
 <li>最終ログイン</li>
-<li>保護観察ポイント数</li>
+<li>保護観察ポイント数 (有効にされている場合)</li>
 </ul>
 <p>選択された期間に作成されたユーザアカウントの人が一覧表示されます。</p>';
 $string['reportuseractivity'] = 'ユーザ活動';
