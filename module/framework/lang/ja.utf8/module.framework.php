@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-13 13:39:40 UTC
+ * @updated    2019-04-23 22:02:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -108,9 +108,8 @@ $string['standardelements'] = '標準エレメント';
 $string['standardelement'] = '標準エレメント';
 $string['standardelementdesc'] = 'この説明はあなたがスマートエビデンスページのこの標準エレメントにホバーした時に表示されます。これはあなたがこの標準を「アノテーション」ブロックで選択した場合にも表示されます。あなたはシンプルHTMLを使用できます。';
 $string['standardelementdefault'] = '標準エレメントの説明';
-$string['standardiddesc1'] = 'これはあなたが標準エレメントを作成している標準カテゴリのIDと合致する必要があります。';
 $string['elementid'] = 'エレメントID';
-$string['elementiddesc'] = 'これはこの標準エレメントのIDです。これは数字または短い言葉にできます。連続する数字により簡単に階層を示せます。';
+$string['elementiddesc'] = 'これはこの標準エレメントのIDです。階層を表示するため、連続する数字が使用されます。';
 $string['invalidjsonineditor'] = '現在のフォームには無効なJSONを含みます。ページをスクロールダウンしてエラー詳細を確認してください。';
 $string['validjson'] = '現在のフォームコンテンツは有効であり送信できます。';
 $string['moveright'] = '右に移動する';
@@ -121,7 +120,7 @@ $string['selfassesseddescription'] = 'スタッフメンバーが評価を実施
 $string['standardsdescription'] = 'あなたのフレームワークを分けるためのカテゴリを作成します。あなたは後で個別の標準エレメントおよびサブエレメントを標準カテゴリに割り当てることができます。あなたは少なくとも1つのカテゴリを持つ必要があります。';
 $string['standardelementsdescription'] = '個別の標準エレメントを作成します。例) コンテンツを割り当てることのできる記述子。必要であれば「親ID」オプションを使用して標準エレメントを階層順にできます。';
 $string['parentelementid'] = '親エレメントID';
-$string['parentelementdesc'] = 'この標準エレメントの親となる標準エレメントのIDです。例) 階層の1レベル上のID。';
+$string['parentelementdesc'] = 'ドロップダウンメニューは現在の標準エレメントを表示します。あなたがこれらの1つのサブエレメントを作成したい場合、親として選択してください。';
 $string['jsondatanotsubmitted'] = 'あなたのフォームデータはデータベースに送信されませんでした。あなたが入力した情報を別のファイルに保存した後、フォームをリフレッシュして再度試すか、「アップロード」タブを使用して直接JSONをアップロードしてください。';
 $string['editor'] = 'エディタ';
 $string['Management'] = '管理';
