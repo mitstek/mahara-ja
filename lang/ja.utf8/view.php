@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-23 07:30:15 UTC
+ * @updated    2019-04-24 04:46:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -351,7 +351,7 @@ $string['clickformoreinformation1'] = '詳細情報を表示およびコメン�
 $string['detailslinkalt'] = '(詳細)';
 $string['Browse'] = '閲覧';
 $string['Search'] = '検索';
-$string['noartefactstochoosefrom'] = '申し訳ございません、選択するアーティファクトがありません。';
+$string['noartefactstochoosefrom'] = '申し訳ございません、選択するアーティファクトはありません。';
 $string['access'] = 'アクセス';
 $string['noaccesstoview'] = 'あなたにはこのページにアクセスするパーミッションがありません。';
 $string['wrongblocktype'] = '提供されたIDは有効なブロックのものではありません。';
