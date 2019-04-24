@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-03-29 02:31:13 UTC
+ * @updated    2019-04-24 01:06:38 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -783,11 +783,10 @@ $string['profileimagetexttemplate'] = 'ユーザプロファイル画像がこ�
 $string['profileimagetextanonymous'] = '匿名プロファイル画像';
 $string['primaryemailinvalid'] = 'あなたの主メールアドレスは有効ではありません。';
 $string['addemail'] = 'メールアドレスを追加する';
-$string['myapps'] = 'アプリ';
-$string['myapplications'] = 'マイアプリケーション';
+$string['connectedapps'] = '接続済みアプリ';
 $string['acccountappsdescription'] = 'ここであなたはトークンアクセスを必要とするアプリケーションを管理できます。';
 $string['acccountaddappsdescription'] = '現在、トークン管理の許可が有効にされているプラグインはありません。';
-$string['acccountchooseappsdescription'] = 'あなたのアプリケーショントークンを管理するには「マイアプリケーション」バーよりアプリケーションを選択してください。';
+$string['acccountchooseappsdescription'] = 'あなたのアプリケーショントークンを管理するには「接続済みアプリ」バーよりアプリケーションを選択してください。';
 $string['search'] = '検索';
 $string['searchtype'] = '検索タイプ';
 $string['searchusers'] = 'ユーザを検索する';
