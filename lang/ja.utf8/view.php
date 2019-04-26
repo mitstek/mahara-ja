@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-24 04:46:20 UTC
+ * @updated    2019-04-26 02:11:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -65,12 +65,12 @@ $string['templategrouphomepage'] = 'グループホームページテンプレ�
 $string['templateprofile'] = 'プロファイルテンプレート';
 $string['templateportfolio'] = 'ページテンプレート';
 $string['templateportfoliotitle'] = 'タイトルなし';
-$string['templateportfoliodescription'] = 'あなたのユーザが作成するページのデフォルトレイアウトをセットアップします。あなたはブロックを追加することもできます。あなたがデフォルトページに追加したコンテンツはユーザが作成するページすべてに表示されることに留意してください。';
+$string['templateportfoliodescription'] = 'あなたのユーザが作成するページのデフォルトレイアウトを設定します。あなたはブロックを追加することもできます。あなたがデフォルトページに追加したコンテンツはユーザが作成するページすべてに表示されることに留意してください。';
 $string['artefacts'] = 'アーティファクト';
 $string['groupviews'] = 'グループページおよびコレクション';
 $string['institutionviews'] = 'インスティテューションページ';
 $string['institutionviewscollections'] = 'インスティテューションページおよびコレクション';
-$string['reallyaddaccesstoemptyview'] = 'あなたのページにはブロックが含まれていません。本当にこれらのユーザにページへのアクセス権を与えますか?';
+$string['reallyaddaccesstoemptyview'] = 'あなたのページにはブロックが含まれていません。本当にこれらのユーザにページのアクセス権を与えますか?';
 $string['viewdeleted'] = 'ページが削除されました。';
 $string['viewsubmitted'] = 'ページが送信されました。';
 $string['deletethisview'] = 'このページを削除する';
@@ -106,7 +106,7 @@ $string['nviews'] = '%s ページ';
 $string['youhavenoviews1'] = 'あなたにはページまたはコレクションはありません。';
 $string['youhaventcreatedanyviewsyet'] = 'あなたはまだページを作成していません。';
 $string['youhavenviews'] = 'あなたには %d ページがあります。';
-$string['viewsownedbygroup'] = 'このグループが所有しているページ';
+$string['viewsownedbygroup'] = 'このグループが所有するページ';
 $string['ownedbygroup'] = 'このグループによる所有';
 $string['nogroupviewsyet'] = 'このグループにはページはまだありません。';
 $string['viewscollectionssharedtogroup'] = 'このグループで共有されているページおよびコレクション';
