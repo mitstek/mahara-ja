@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-02 06:25:29 UTC
+ * @updated    2019-04-28 08:10:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -242,7 +242,7 @@ $string['closetopics'] = '新しいトピックをクローズする';
 $string['closetopicsdescription1'] = 'すべての新しいトピックをデフォルトでクローズします。モデレータおよびグループ管理者のみ閉鎖トピックに返信できます。';
 $string['approvalofposts'] = '投稿の承認';
 $string['moderatenewposts'] = '新しい投稿をモデレートする';
-$string['moderatenewpostsdescription'] = '新しい投稿はグループモデレータまたは管理者によって承認される必要があります。';
+$string['moderatenewpostsdescription1'] = '新しい投稿はフォーラムモデレータまたは管理者により承認される必要があります。';
 $string['activetopicsdescription'] = 'あなたのグループ内で最近更新されたトピックです。';
 $string['timeleftnotice1'] = 'あなたには編集を終了するまで <span class="num">%s</span> 分あります。';
 $string['timeleftnoticeexpired'] = '編集時間が終了しました。あなたの変更は保存されません。';
