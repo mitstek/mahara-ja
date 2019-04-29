@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-26 02:11:26 UTC
+ * @updated    2019-04-29 16:42:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -131,7 +131,7 @@ $string['users'] = 'ユーザ';
 $string['friend'] = 'フレンド';
 $string['group'] = 'グループ';
 $string['user'] = 'ユーザ';
-$string['everyoneingroup'] = 'グループのユーザすべて';
+$string['everyoneingroup'] = 'グループ内の誰でも';
 $string['nospecialrole'] = '特別ロールなし';
 $string['peer'] = 'ピア';
 $string['manager'] = 'マネージャ';
@@ -143,7 +143,7 @@ $string['newsecreturl'] = '新しいシークレットURL';
 $string['reallydeletesecreturl'] = '本当にこのURLを削除してもよろしいですか?';
 $string['secreturldeleted'] = 'あなたのシークレットURLが削除されました。';
 $string['secreturlupdated'] = 'シークレットURLが更新されました。';
-$string['generatesecreturl'] = '%s の新しいシークレットURLを生成します。';
+$string['generatesecreturl'] = '「 %s 」の新しいシークレットURLを生成します。';
 $string['secreturls'] = 'シークレットURL';
 $string['existingURLS'] = '既存のURL';
 $string['publicaccessnotallowed'] = 'あなたのインスティテューションまたはサイト管理者がパブリックページおよびシークレットURLを無効にしました。あなたがここで閲覧できるシークレットURL一覧すべては現在使用できません。';
