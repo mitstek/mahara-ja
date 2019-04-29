@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-23 22:07:16 UTC
+ * @updated    2019-04-29 03:56:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -104,6 +104,7 @@ $string['descstandard'] = 'この説明はあなたがスマートエビデン�
 $string['descstandarddefault'] = 'この標準カテゴリの説明';
 $string['standardid'] = '標準ID';
 $string['standardiddesc'] = 'ここでは整数を指定してください。';
+$string['standardiddesc1'] = 'この標準エレメントが一部である標準を選択してください。';
 $string['standardelements'] = '標準エレメント';
 $string['standardelement'] = '標準エレメント';
 $string['standardelementdesc'] = 'この説明はあなたがスマートエビデンスページのこの標準エレメントにホバーした時に表示されます。これはあなたがこの標準を「アノテーション」ブロックで選択した場合にも表示されます。あなたはシンプルHTMLを使用できます。';
@@ -120,7 +121,7 @@ $string['selfassesseddescription'] = 'スタッフメンバーが評価を実施
 $string['standardsdescription'] = 'あなたのフレームワークを分けるためのカテゴリを作成します。あなたは後で個別の標準エレメントおよびサブエレメントを標準カテゴリに割り当てることができます。あなたは少なくとも1つのカテゴリを持つ必要があります。';
 $string['standardelementsdescription'] = '個別の標準エレメントを作成します。例) コンテンツを割り当てることのできる記述子。必要であれば「親ID」オプションを使用して標準エレメントを階層順にできます。';
 $string['parentelementid'] = '親エレメントID';
-$string['parentelementdesc'] = 'ドロップダウンメニューは現在の標準エレメントを表示します。あなたがこれらの1つのサブエレメントを作成したい場合、親として選択してください。';
+$string['parentelementdesc'] = '階層内でエレメントを現在の標準エレメントの下に置きたい場合、親として選択してください。';
 $string['jsondatanotsubmitted'] = 'あなたのフォームデータはデータベースに送信されませんでした。あなたが入力した情報を別のファイルに保存した後、フォームをリフレッシュして再度試すか、「アップロード」タブを使用して直接JSONをアップロードしてください。';
 $string['editor'] = 'エディタ';
 $string['Management'] = '管理';
