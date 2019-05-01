@@ -137,7 +137,7 @@ $string['share'] = '共有';
 $string['sharedbyme'] = '私からの共有';
 $string['sharewith'] = '共有対象';
 $string['accesslist'] = 'アクセスリスト';
-$string['defaultaccesslistmessage'] = 'あなた以外、あなたの選択されたページおよびコレクションを閲覧することはできません。アクセス権を与えるにはユーザを追加してください。';
+$string['defaultaccesslistmessage'] = 'あなた以外、あなたの選択されたページおよびコレクションを閲覧できません。アクセス権を与えるにはユーザを追加してください。';
 $string['sharewithmygroups'] = 'マイグループと共有する';
 $string['sharewithmyinstitutions'] = 'マイインスティテューションと共有する';
 $string['sharewithusers'] = 'ユーザと共有する';
@@ -152,7 +152,7 @@ $string['addaccessgroup'] = 'グループ「 %s 」へのアクセスを追加�
 $string['submitconfirm'] = '評価のために「 %s 」を「 %s 」に送信した場合、チューターが評価を終えるまであなたはコンテンツを編集できません。本当に送信してもよろしいですか?';
 $string['collectionsubmitted'] = 'コレクションが送信されました。';
 $string['collectionviewsalreadysubmitted'] = 'このコレクションのページはすでに送信されています: 「 %s 」
-コレクションからリリースまたは削除されるまであなたはコレクションを送信することはできません。';
+リリースまたはコレクションから削除されるまであなたはコレクションを送信できません。';
 $string['viewalreadysubmitted'] = 'このページはすでに別の課題またはグループに送信されています。';
 $string['collectionalreadysubmitted'] = 'このコレクションはすでに別の課題またはグループに送信されています。';
 $string['collectionsubmissionexceptiontitle'] = 'コレクションを送信できませんでした。';
