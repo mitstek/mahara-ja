@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-03-25 04:02:29 UTC
+ * @updated    2019-05-02 20:35:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -22,5 +22,6 @@ $string['managealltextboxcontent1'] = 'すべてのノートコンテンツを�
 $string['readonlymessage'] = 'あなたが選択したテキストはこのページで編集することはできません。';
 $string['makeacopy'] = 'コピーを作成する';
 $string['textusedinothernotes'] = 'あなたがこのノートのテキストを編集した場合、テキストが表示されている %s ブロックでも更新されます。';
+$string['editcontent'] = 'このノートのコピーすべてを編集する';
 
 ?>
