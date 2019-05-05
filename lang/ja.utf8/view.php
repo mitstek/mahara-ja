@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-05-01 03:18:42 UTC
+ * @updated    2019-05-05 08:49:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -196,12 +196,12 @@ $string['collectionviewsalreadysubmitted'] = 'このコレクションのペー�
 $string['viewalreadysubmitted'] = 'このページはすでに別の課題またはグループに送信されています。';
 $string['collectionalreadysubmitted'] = 'このコレクションはすでに別の課題またはグループに送信されています。';
 $string['collectionsubmissionexceptiontitle'] = 'コレクションを送信できませんでした。';
-$string['collectionsubmissionexceptionmessage'] = '以下の理由からこのコレクションを送信することはできません:';
+$string['collectionsubmissionexceptionmessage'] = '以下の理由からこのコレクションを送信できません:';
 $string['cantsubmitemptycollection'] = 'このコレクションにはページが含まれていません。';
 $string['viewsubmissionexceptiontitle'] = 'ページを送信できませんでした。';
-$string['viewsubmissionexceptionmessage'] = '以下の理由からこのページを送信することはできません:';
+$string['viewsubmissionexceptionmessage'] = '以下の理由からこのページを送信できません:';
 $string['submitviewtogroup'] = '評価のため「 %s 」を「 %s 」に送信する';
-$string['cantsubmitviewtogroup'] = 'あなたは評価を目的としてこのページをこのグループに送信することはできません。';
+$string['cantsubmitviewtogroup'] = 'あなたは評価を目的としてこのページをこのグループに送信できません。';
 $string['cantsubmitcollectiontogroup'] = 'あなたはこのコレクションを送信できません。';
 $string['cantsubmittogroup'] = 'あなたはこのグループに送信できません。';
 $string['cantdeleteview'] = 'あなたはこのページを削除できません。';
