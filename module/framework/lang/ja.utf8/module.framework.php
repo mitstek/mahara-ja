@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-29 03:56:20 UTC
+ * @updated    2019-05-07 03:06:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -29,7 +29,7 @@ $string['matrixfilenotfound'] = '有効な.matrixファイルが選択されて�
 $string['invalidjson'] = 'これは有効な.matrixファイルではありません。JSONコンテンツを構文解析できません。';
 $string['jsonmissingvars'] = 'これは有効な.matrixファイルではありません。「フレームワーク」または「フレームワーク名」がありません。';
 $string['manuallyremovematrices'] = 'インストールディレクトリ「 %s 」を削除することはできません。手動で削除してください。';
-$string['changeframeworkproblems'] = 'あなたはフレームワークを変更できません。次のページにはこのフレームワークと関連付けられたエビデンスがあります:';
+$string['changeframeworkproblems'] = 'あなたはフレームワークを変更できません。次のページには前のフレームワークと関連付けられたエビデンスがあります:';
 $string['accessdeniednoframework'] = 'このコレクションはスマートエビデンスページを表示できません。これには以下のいずれかの理由が考えられます:
 <ul>
 <li>スマートエビデンスプラグインがインストールまたは有効にされていない。</li>
