@@ -205,7 +205,7 @@ $string['err.changetheme'] = 'テーマを更新できませんでした。';
 $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除してもよろしいですか?';
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
 $string['blockconfigurationrenderingerror'] = 'ブロックを表示できなかったため設定に失敗しました。';
-$string['blocksintructionnoajax'] = 'あなたのページに追加するブロックおよび場所を選択してください。あなたはブロックタイトルバーの矢印を使ってブロックの配置を変更できます。';
+$string['blocksintructionnoajax'] = 'あなたのページに追加するブロックおよび場所を選択してください。あなたはタイトルバーの矢印ボタンを使ってブロックの配置を変更できます。';
 $string['blocksinstructionajax'] = 'このエリアではあなたのページがどのように表示されるかプレビューを表示します。<br />あなたのページレイアウトにブロックを追加するにはこの行の下にドラッグしてください。あなたのページ内でドラッグすることでブロックの配置を変更できます。';
 $string['addnewblockhere'] = 'ここに新しいブロックを追加する';
 $string['add'] = '追加';
@@ -232,7 +232,7 @@ $string['viewlayoutpagedescription'] = 'あなたのページカラムをどの�
 $string['changeviewlayout'] = 'マイページのカラムレイアウトを変更する';
 $string['viewlayoutchanged'] = 'ページレイアウトが変更されました。';
 $string['numberofcolumns'] = 'カラム数';
-$string['changecolumnlayoutfailed'] = 'カラムレイアウトを変更できませんでした。同時に他のユーザがレイアウトを編集したようです。後で再度お試しください。';
+$string['changecolumnlayoutfailed'] = 'カラムレイアウトを変更できませんでした。他のユーザが同時にレイアウトを編集したようです。後で再度お試しください。';
 $string['by'] = 'by';
 $string['viewtitleby'] = '%s by <a href="%s">%s</a>';
 $string['viewauthor'] = 'by <a href="%s">%s</a>';
