@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-05-16 07:39:54 UTC
+ * @updated    2019-05-19 10:19:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -360,7 +360,7 @@ $string['nothemeselected1'] = 'インスティテューションテーマを使�
 $string['Template'] = 'テンプレート';
 $string['allowcopying'] = 'コピーを許可する';
 $string['retainviewrights1'] = 'ページまたはコレクションのコピー時にページアクセスを保持する';
-$string['templatedescriptionplural2'] = 'あなたが選択したページまたはコレクションを閲覧できるユーザに対してファイルおよびフォルダを含めて自分のページとしてコピーできるようにします。';
+$string['templatedescriptionplural2'] = 'あなたが選択したページまたはコレクションにユーザがアクセスできる場合、そのユーザは自分のコピーを作成できます。';
 $string['retainviewrightsdescription2'] = '他のユーザによりコピーされたページまたはコレクションからあなたが選択したものを閲覧できるようアクセス権を与えます。希望すればコピー後にユーザが閲覧アクセスを無効にできます。このページまたはコレクションのコピーからコピーされたページまたはコレクションは同じアクセスを保持することはありません。';
 $string['retainviewrightsgroupdescription2'] = '他のユーザによりコピーされたページまたはコレクションからこのグループのメンバーが選択したものを閲覧できるようアクセス権を与えます。希望すればコピー後にユーザが閲覧アクセスを無効にできます。このページまたはコレクションのコピーからコピーされたページまたはコレクションは同じアクセスを保持することはありません。';
 $string['choosetemplatepageandcollectiondescription'] = '<p>ここでは新しいページ作成の出発点としてあなたがコピーを許可されているページを検索できます。あなたはページの名称をクリックしてそれぞれのページのプレビューを表示できます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため該当する「ページをコピーする」ボタンをクリックしてコピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックしてページが属しているコレクション全体コピーできます。</p>';
