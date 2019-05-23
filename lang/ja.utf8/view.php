@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-05-21 09:51:47 UTC
+ * @updated    2019-05-23 05:35:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -385,11 +385,11 @@ $string['confirmcopydesc'] = 'あなたがコピーしたいものを選択し�
 $string['Untitled'] = 'タイトルなし';
 $string['copyforexistingmembersprogress'] = 'ポートフォリオを既存のグループメンバーにコピーする';
 $string['existinggroupmembercopy'] = '既存のグループメンバーにコピーする';
-$string['existinggroupmembercopydesc1'] = '選択されたページ/コレクションを既存のすべてのグループメンバーの個人ポートフォリオエリアにコピーします。保存後、スライドスイッチはリセットされます。グループメンバーはコピーのみ取得します。';
+$string['existinggroupmembercopydesc1'] = '選択されたページ/コレクションを既存のすべてのグループメンバーの個人ポートフォリオエリアにコピーします。保存後、スライドスイッチはリセットされます。グループメンバーはコピーを1回のみ取得します。';
 $string['copyfornewusers'] = '新しいユーザにコピーする';
-$string['copyfornewusersdescription2'] = '新しいユーザが作成された場合、選択したページまたはコレクションをユーザのアカウント内にパーソナルコピーとして自動作成します。これらのユーザに選択したページまたはコレクションを後で同様にコピーできるようにしたい場合、コピーを許可してください。';
+$string['copyfornewusersdescription2'] = '新しいユーザが作成された場合、選択したページまたはコレクションをユーザのアカウント内にパーソナルコピーとして自動作成します。選択したページまたはコレクションをこれらのユーザが後で同様にコピーできるようにしたい場合、コピーを許可してください。';
 $string['copyfornewmembers'] = '新しいインスティテューションメンバーにコピーする';
-$string['copyfornewmembersdescription2'] = '%s のすべての新しいメンバーに対して選択したページまたはコレクションのパーソナルコピーを自動作成します。これらのユーザに選択したページまたはコレクションを後で同様にコピーできるようにしたい場合、コピーを許可してください。';
+$string['copyfornewmembersdescription2'] = '%s のすべての新しいメンバーに対して選択したページまたはコレクションのパーソナルコピーを自動作成します。選択したページまたはコレクションをこれらのユーザが後で同様にコピーできるようにしたい場合、コピーを許可してください。';
 $string['copyfornewgroups'] = '新しいグループにコピーする';
 $string['copyfornewgroupsdescription1'] = '選択したページおよびコレクションを以下のロールの新しいグループすべてにコピーします:';
 $string['owner'] = 'オーナー';
