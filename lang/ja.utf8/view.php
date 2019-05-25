@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-05-23 05:35:03 UTC
+ * @updated    2019-05-25 06:25:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -402,12 +402,12 @@ $string['listviews'] = 'ページを一覧表示する';
 $string['nocopyableviewsfound'] = 'あなたがコピーできるページはありません。';
 $string['noownersfound'] = 'オーナーが見つかりませんでした。';
 $string['Preview'] = 'プレビュー';
-$string['viewscopiedfornewusersmustbecopyable'] = '新しいユーザにページがコピーされるよう設定する前にあなたはページのコピーを許可する必要があります。';
-$string['viewswithretainviewrightsmustbecopyable'] = 'ページが閲覧アクセスを保持するよう設定する前にあなたはページのコピーを許可する必要があります。';
-$string['viewscopiedfornewgroupsmustbecopyable'] = '新しいグループがページをコピーできるよう設定する前にあなたはページのコピーを許可する必要があります。';
-$string['copynewusergroupneedsloggedinaccess'] = '新しいユーザまたはグループにコピーされるページはログインユーザにアクセス権を与える必要があります。';
-$string['viewcopywouldexceedquota'] = 'このページを追加することであなたのファイルクオータを越えてしまいます。';
-$string['viewcreatewouldexceedquota'] = 'このページを作成することであなたのファイルクオータを越えてしまいます。';
+$string['viewscopiedfornewusersmustbecopyable'] = 'あなたは新しいユーザにページがコピーされるよう設定する前にページのコピーを許可する必要があります。';
+$string['viewswithretainviewrightsmustbecopyable'] = 'あなたはページが閲覧アクセスを保持するよう設定する前にページのコピーを許可する必要があります。';
+$string['viewscopiedfornewgroupsmustbecopyable'] = 'あなたは新しいグループがページをコピーできるよう設定する前にページのコピーを許可する必要があります。';
+$string['copynewusergroupneedsloggedinaccess'] = '新しいユーザまたはグループにコピーされるページに関してログインユーザにアクセス権を与える必要があります。';
+$string['viewcopywouldexceedquota'] = 'このページを追加した場合、あなたのファイルクオータを越えてしまいます。';
+$string['viewcreatewouldexceedquota'] = 'このページを作成した場合、あなたのファイルクオータを越えてしまいます。';
 $string['blockcopypermission'] = 'ブロックのコピーパーミッション';
 $string['blockcopypermissiondesc'] = 'このページを他のユーザがコピーできるようにした場合、あなたはこのブロックをどのようにコピーできるか選択できます。';
 $string['defaultsort'] = 'アルファベット順';
@@ -452,7 +452,7 @@ $string['image'] = 'イメージ';
 $string['addcontent'] = 'コンテンツを追加する';
 $string['theme'] = 'テーマ';
 $string['lockblocks'] = 'ブロックをロックする';
-$string['lockblocksdescription'] = 'あなたはページのブロックをロックしてページのコピー時に削除されることを防ぐことができます。';
+$string['lockblocksdescription'] = 'あなたはページのブロックをロックしてページコピー時の削除を防ぐことができます。';
 $string['instructions'] = 'インストラクション';
 $string['advanced'] = '高度';
 $string['timeline'] = 'タイムライン';
