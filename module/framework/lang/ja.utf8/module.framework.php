@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-05-07 03:06:47 UTC
+ * @updated    2019-05-26 14:01:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,7 +17,7 @@ $string['Framework'] = 'スマートエビデンスフレームワーク';
 $string['frameworknav'] = 'スマートエビデンス';
 $string['frameworks'] = 'インストール済みフレームワーク';
 $string['frameworkdesc'] = 'あなたのポートフォリオと関連付けたいコンピテンシーフレームワークを選択してください。';
-$string['frameworksdesc'] = 'システムにインストールされているフレームワークの一覧です。有効時にコレクションと関連付けられていない限り無効にされたフレームワークは一覧表示されません。';
+$string['frameworksdesc'] = 'システムにインストールされているフレームワークの一覧です。有効時にコレクションと関連付けられていない限り、無効にされたフレームワークは一覧表示されません。';
 $string['taskscompleted'] = 'タスク完了';
 $string['addpages'] = 'あなたがスマートエビデンスマップに表示させたい場合、さらにこのコレクションにページを追加できます。';
 $string['addframework'] = 'フレームワークを追加する';
@@ -26,8 +26,8 @@ $string['matrixfile'] = 'マトリックスファイル';
 $string['matrixfiledesc'] = 'JSONエンコード済みフレームワークを含む.matrixファイルです。';
 $string['notvalidmatrixfile'] = 'これは有効な.matrixファイルではありません。';
 $string['matrixfilenotfound'] = '有効な.matrixファイルが選択されていません。';
-$string['invalidjson'] = 'これは有効な.matrixファイルではありません。JSONコンテンツを構文解析できません。';
-$string['jsonmissingvars'] = 'これは有効な.matrixファイルではありません。「フレームワーク」または「フレームワーク名」がありません。';
+$string['invalidjson'] = 'これは有効な.matrixファイルではありません: JSONコンテンツを構文解析できません。';
+$string['jsonmissingvars'] = 'これは有効な.matrixファイルではありません: 「framework」または「framework name」がありません。';
 $string['manuallyremovematrices'] = 'インストールディレクトリ「 %s 」を削除することはできません。手動で削除してください。';
 $string['changeframeworkproblems'] = 'あなたはフレームワークを変更できません。次のページには前のフレームワークと関連付けられたエビデンスがあります:';
 $string['accessdeniednoframework'] = 'このコレクションはスマートエビデンスページを表示できません。これには以下のいずれかの理由が考えられます:
