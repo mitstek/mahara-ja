@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-05-26 14:01:09 UTC
+ * @updated    2019-06-02 07:59:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -28,7 +28,7 @@ $string['notvalidmatrixfile'] = 'これは有効な.matrixファイルではあ�
 $string['matrixfilenotfound'] = '有効な.matrixファイルが選択されていません。';
 $string['invalidjson'] = 'これは有効な.matrixファイルではありません: JSONコンテンツを構文解析できません。';
 $string['jsonmissingvars'] = 'これは有効な.matrixファイルではありません: 「framework」または「framework name」がありません。';
-$string['manuallyremovematrices'] = 'インストールディレクトリ「 %s 」を削除することはできません。手動で削除してください。';
+$string['manuallyremovematrices'] = 'インストールディレクトリ「 %s 」は削除できません。手動で削除してください。';
 $string['changeframeworkproblems'] = 'あなたはフレームワークを変更できません。次のページには前のフレームワークと関連付けられたエビデンスがあります:';
 $string['accessdeniednoframework'] = 'このコレクションはスマートエビデンスページを表示できません。これには以下のいずれかの理由が考えられます:
 <ul>
@@ -42,14 +42,14 @@ $string['noframeworkselected'] = 'なし';
 $string['matrixpointupdated'] = 'スマートエビデンスが更新されました。';
 $string['matrixpointinserted'] = 'スマートエビデンスが追加されました。';
 $string['standard'] = '標準';
-$string['standarddesc'] = 'このエビデンスに該当する標準を選択してください。あなたは標準を探すためボックスに入力できます。';
+$string['standarddesc'] = 'このエビデンスに該当する標準を選択してください。あなたは標準を検索するためボックスに入力できます。';
 $string['annotationclash'] = 'この標準に関してページにすでにアノテーションブロックがあります。';
 $string['needtoactivate'] = 'アノテーションプラグインを有効にする必要があります。あなたのサイト管理者にご相談ください。';
 $string['studentannotation'] = 'アノテーション:';
 $string['assessment'] = '評価';
 $string['begun'] = '評価準備完了';
 $string['incomplete'] = '標準に合致しない';
-$string['partialcomplete'] = '一部標準に合致する';
+$string['partialcomplete'] = '標準に一部合致する';
 $string['completed'] = '標準に合致する';
 $string['usedincollections'] = 'コレクションで使用済み';
 $string['selfassess'] = '自己評価';
