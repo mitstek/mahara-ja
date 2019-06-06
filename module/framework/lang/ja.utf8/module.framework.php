@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-06-04 04:58:42 UTC
+ * @updated    2019-06-06 03:46:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -22,7 +22,7 @@ $string['taskscompleted'] = 'タスク完了';
 $string['addpages'] = 'あなたがスマートエビデンスマップに表示させたい場合、さらにこのコレクションにページを追加できます。';
 $string['addframework'] = 'フレームワークを追加する';
 $string['frameworkupdated'] = 'フレームワークが更新されました。';
-$string['matrixfile'] = 'マトリックスファイル';
+$string['matrixfile'] = 'マトリクスファイル';
 $string['matrixfiledesc'] = 'JSONエンコード済みフレームワークを含む.matrixファイルです。';
 $string['notvalidmatrixfile'] = 'これは有効な.matrixファイルではありません。';
 $string['matrixfilenotfound'] = '有効な.matrixファイルが選択されていません。';
@@ -54,7 +54,7 @@ $string['completed'] = '標準に合致する';
 $string['usedincollections'] = 'コレクションで使用済み';
 $string['selfassess'] = '自己評価';
 $string['uploadframeworkdesc1'] = 'JSONエンコード済みの.matrixファイルをアップロードします。マークアップの例に関して<a href="https://git.mahara.org/mahara/mahara/blob/16.10_STABLE/test/behat/upload_files/example.matrix">Mahara git repository</a>、個別のコンポーネントの例に関して<a href="http://manual.mahara.org/en/16.10/administration/smartevidence.html#create-a-framework-file">Maharaユーザマニュアル</a>をご覧ください。';
-$string['savematrix'] = 'マトリックスをアップロードする';
+$string['savematrix'] = 'マトリクスをアップロードする';
 $string['frameworkmissing'] = 'フレームワークが見つかりませんでした。';
 $string['activeframework'] = 'フレームワーク有効化';
 $string['displaystatusestitle'] = '評価ステータスを表示する';
@@ -63,13 +63,13 @@ $string['upgradeplugin'] = 'これらの設定を有効にするためSmartEvide
 $string['noannotation'] = 'ページ「 %s 」 (標準エレメント「 %s 」) のアノテーションがありません。';
 $string['addannotation'] = '標準「 %s 」のアノテーションをページ「 %s 」に追加する';
 $string['assessmenttypecount'] = '標準エレメントを含むページ数';
-$string['tabledesc'] = '以下、コレクションのスマートエビデンスマトリックスの構造です。';
+$string['tabledesc'] = '以下、コレクションのスマートエビデンスマトリクスの構造です。';
 $string['standardbegin'] = '標準セクションの先頭';
 $string['uncollapsesection'] = '標準「 %s 」のテーブルセクションを表示するにはクリックしてください。';
 $string['collapsesection'] = '標準「 %s 」のセクションを隠すにはクリックしてください。';
 $string['collapsedsection'] = 'この標準のテーブルセクションは非表示にされています。';
-$string['gonextpages'] = 'スマートエビデンスマトリックスのコレクションのページをさらに表示するには「次へ」ボタンをクリックしてください。';
-$string['goprevpages'] = 'スマートエビデンスマトリックスのコレクションの前のページを表示するには「前へ」ボタンをクリックしてください。';
+$string['gonextpages'] = 'スマートエビデンスマトリクスのコレクションのページをさらに表示するには「次へ」ボタンをクリックしてください。';
+$string['goprevpages'] = 'スマートエビデンスマトリクスのコレクションの前のページを表示するには「前へ」ボタンをクリックしてください。';
 $string['headerelements'] = 'カラムヘッダ: 標準エレメント';
 $string['headerreadyforassessmentcount'] = 'カラムヘッダ: 評価準備完了の標準エレメントを含むページ数';
 $string['headernotmatchcount'] = 'カラムヘッダ: 未完了の標準エレメントを含むページ数';
