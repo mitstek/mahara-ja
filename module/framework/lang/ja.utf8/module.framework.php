@@ -22,7 +22,7 @@ $string['taskscompleted'] = 'タスク完了';
 $string['addpages'] = 'あなたがスマートエビデンスマップに表示させたい場合、さらにこのコレクションにページを追加できます。';
 $string['addframework'] = 'フレームワークを追加する';
 $string['frameworkupdated'] = 'フレームワークが更新されました。';
-$string['matrixfile'] = 'マトリックスファイル';
+$string['matrixfile'] = 'マトリクスファイル';
 $string['matrixfiledesc'] = 'JSONエンコード済みフレームワークを含む.matrixファイルです。';
 $string['notvalidmatrixfile'] = 'これは有効な.matrixファイルではありません。';
 $string['matrixfilenotfound'] = '有効な.matrixファイルが選択されていません。';
@@ -54,7 +54,7 @@ $string['completed'] = '標準に合致する';
 $string['usedincollections'] = 'コレクションで使用済み';
 $string['selfassess'] = '自己評価';
 $string['uploadframeworkdesc1'] = 'JSONエンコード済みの.matrixファイルをアップロードします。マークアップの例に関して<a href="https://git.mahara.org/mahara/mahara/blob/16.10_STABLE/test/behat/upload_files/example.matrix">Mahara git repository</a>、個別のコンポーネントの例に関して<a href="http://manual.mahara.org/en/16.10/administration/smartevidence.html#create-a-framework-file">Maharaユーザマニュアル</a>をご覧ください。';
-$string['savematrix'] = 'マトリックスをアップロードする';
+$string['savematrix'] = 'マトリクスをアップロードする';
 $string['frameworkmissing'] = 'フレームワークが見つかりませんでした。';
 
 ?>
