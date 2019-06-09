@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-06-06 03:46:21 UTC
+ * @updated    2019-06-09 10:26:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -59,14 +59,14 @@ $string['frameworkmissing'] = 'フレームワークが見つかりませんで�
 $string['activeframework'] = 'フレームワーク有効化';
 $string['displaystatusestitle'] = '評価ステータスを表示する';
 $string['displaystatusestitledetail'] = 'あなたが表示したい評価ステータスを決定してください。';
-$string['upgradeplugin'] = 'これらの設定を有効にするためSmartEvidenceプラグインをアップグレードする必要があります。';
+$string['upgradeplugin'] = 'これらの設定を有効にするにはSmartEvidenceプラグインをアップグレードする必要があります。';
 $string['noannotation'] = 'ページ「 %s 」 (標準エレメント「 %s 」) のアノテーションがありません。';
 $string['addannotation'] = '標準「 %s 」のアノテーションをページ「 %s 」に追加する';
 $string['assessmenttypecount'] = '標準エレメントを含むページ数';
 $string['tabledesc'] = '以下、コレクションのスマートエビデンスマトリクスの構造です。';
 $string['standardbegin'] = '標準セクションの先頭';
 $string['uncollapsesection'] = '標準「 %s 」のテーブルセクションを表示するにはクリックしてください。';
-$string['collapsesection'] = '標準「 %s 」のセクションを隠すにはクリックしてください。';
+$string['collapsesection'] = '標準「 %s 」のテーブルセクションを隠すにはクリックしてください。';
 $string['collapsedsection'] = 'この標準のテーブルセクションは非表示にされています。';
 $string['gonextpages'] = 'スマートエビデンスマトリクスのコレクションのページをさらに表示するには「次へ」ボタンをクリックしてください。';
 $string['goprevpages'] = 'スマートエビデンスマトリクスのコレクションの前のページを表示するには「前へ」ボタンをクリックしてください。';
