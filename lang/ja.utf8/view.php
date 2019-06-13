@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-05-25 06:25:36 UTC
+ * @updated    2019-06-13 00:41:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -451,6 +451,7 @@ $string['textbox1'] = 'ノート';
 $string['image'] = 'イメージ';
 $string['addcontent'] = 'コンテンツを追加する';
 $string['theme'] = 'テーマ';
+$string['choosethemedesc'] = 'ページのテーマを選択します。';
 $string['lockblocks'] = 'ブロックをロックする';
 $string['lockblocksdescription'] = 'あなたはページのブロックをロックしてページコピー時の削除を防ぐことができます。';
 $string['instructions'] = 'インストラクション';
