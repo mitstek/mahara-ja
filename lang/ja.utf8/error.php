@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-31 02:20:47 UTC
+ * @updated    2019-06-15 03:32:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -104,6 +104,7 @@ $string['notartefactowner'] = 'あなたはこのアーティファクトを所�
 $string['blockinstancenotfound'] = 'ID %s のブロックインスタンスは見つかりませんでした。';
 $string['interactioninstancenotfound'] = 'ID %s の活動インスタンスは見つかりませんでした。';
 $string['invalidviewaction'] = '無効なページコントロール: %s';
+$string['invaliduser'] = '無効なユーザが選択されました。';
 $string['missingparamblocktype'] = '最初に追加するブロックタイプを選択してください。';
 $string['missingparamcolumn'] = 'カラム設定がありません。';
 $string['missingparamrow'] = '行設定がありません。';
