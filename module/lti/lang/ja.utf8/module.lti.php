@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-10-05 00:12:14 UTC
+ * @updated    2019-06-16 06:55:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -34,16 +34,16 @@ $string['gradesubmitted'] = '評定が正常に提出されました。';
 $string['groupname'] = '「 %s 」-「 %s 」';
 $string['institutiondenied'] = '「 %s 」へのアクセスが拒否されました。あなたのインスティテューション管理者にご連絡ください。';
 $string['lock'] = '評定後、ポートフォリオのロックを継続する';
-$string['lockdescription'] = '評定後、ユーザがポートフォリオを変更しました。';
-$string['ltiserviceexists'] = 'LTIサービスグループは登録されています。';
-$string['nocollections'] = 'あなたには評価のために提出するポートフォリオはありません。';
+$string['lockdescription'] = '評定後、ユーザはポートフォリオを変更します。';
+$string['ltiserviceexists'] = 'LTIサービスグループが登録されています。';
+$string['nocollections'] = 'あなたには評価のため提出するポートフォリオはありません。';
 $string['noticeenabled'] = 'LTI APIは有効にされています。';
 $string['noticenotenabled'] = 'LTI APIは有効にされて<b>いません</b>。';
-$string['notconfigured'] = '現在、活動は提出を許可していません。後で確認してください。';
+$string['notconfigured'] = '現在、この活動は提出を許可していません。後で確認してください。';
 $string['notreadylabel'] = '準備未了';
 $string['oauthprotocolenabled'] = 'OAuthプロトコル有効';
 $string['parentauthforlti'] = '親認証局';
-$string['portfoliosubmitted'] = 'あなたは評価のためポートフォリオ「 %s 」を「 %s 」に提出しました。';
+$string['portfoliosubmitted'] = 'あなたは評価のためポートフォリオ「 %s 」を %s に提出しました。';
 $string['readylabel'] = '準備完了';
 $string['restprotocolenabled'] = 'RESTプロトコル有効';
 $string['usernameexists2'] = 'ユーザ名「 %s 」は有効ではありません。';
