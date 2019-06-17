@@ -350,7 +350,7 @@ $string['registerwelcome'] = 'ようこそ! このサイトを利用するには
 $string['registeragreeterms'] = 'また、あなたは<a href="terms.php">利用条件</a>に同意する必要があります。';
 $string['registerprivacy'] = 'ここで収集したデータは私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
 $string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s に登録されました。あなたのアバタとして表示する任意のプロファイル画像を選択できます。</p>';
-$string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須入力です。あなたの登録を完了するにはすべての必須入力フィールドに入力してください。</p>';
+$string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須です。あなたの登録を完了するにはすべての必須フィールドに入力してください。</p>';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムに登録できません。';
 $string['membershipexpiry'] = 'メンバーシップ有効期限切れ';
 $string['institutionfull'] = 'あなたが選択したインスティテューションはこれ以上登録を受け付けていません。';
@@ -485,7 +485,7 @@ $string['message'] = 'メッセージ';
 $string['messagesent'] = 'あなたのメッセージが送信されました。';
 $string['nosendernamefound'] = '送信者名が送信されていません。';
 $string['emailnotsent'] = 'コンタクトメールの送信に失敗しました。エラーメッセージ: %s';
-$string['namedfieldempty'] = '必須入力フィールド「 %s 」が空白です。';
+$string['namedfieldempty'] = '必須フィールド「 %s 」が空白です。';
 $string['processing'] = '処理中';
 $string['unknownerror'] = '不明なエラーが発生しました (0x20f91a0)。';
 $string['overview'] = '概要';

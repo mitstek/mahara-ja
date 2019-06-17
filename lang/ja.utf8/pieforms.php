@@ -50,7 +50,7 @@ $string['rule.maxlength.maxlength'] = 'このフィールドは最大半角 %d �
 $string['rule.minlength.minlength'] = 'このフィールドは少なくとも半角 %d 文字にしてください';
 $string['rule.minvalue.minvalue'] = 'この値は %d 以下にすることはできません';
 $string['rule.regex.regex'] = 'このフィールドは正しい形式ではありません';
-$string['rule.required.required'] = 'このフィールドは必須入力です。';
+$string['rule.required.required'] = 'このフィールドは必須です。';
 $string['rule.validateoptions.validateoptions'] = 'オプション「 %s 」が正しくありません';
 $string['rule.maxvalue.maxvalue'] = 'この値は %d 以下にしてください';
 
