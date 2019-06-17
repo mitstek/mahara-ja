@@ -63,8 +63,8 @@ $string['rule.maxlength.maxlength'] = 'このフィールドは最大半角 %d �
 $string['rule.minlength.minlength'] = 'このフィールドは少なくとも半角 %d 文字にしてください';
 $string['rule.minvalue.minvalue'] = 'この値は %d 以下にすることはできません';
 $string['rule.regex.regex'] = 'このフィールドは正しい形式ではありません';
-$string['rule.required.required'] = 'このフィールドは必須入力です。';
-$string['rule.oneof.oneof'] = 'このグループのフィールドの1つは必須入力です。';
+$string['rule.required.required'] = 'このフィールドは必須です。';
+$string['rule.oneof.oneof'] = 'このグループのフィールドの1つは必須です。';
 $string['rule.safetext.invalidchars'] = 'このフィールドには無効な文字があります。';
 $string['rule.validateoptions.validateoptions'] = 'オプション「 %s 」が正しくありません';
 $string['rule.maxvalue.maxvalue'] = 'この値は %d 以下にしてください';
@@ -74,7 +74,7 @@ $string['switchbox.on'] = 'On';
 $string['switchbox.off'] = 'Off';
 $string['switchbox.yes'] = 'Yes';
 $string['switchbox.no'] = 'No';
-$string['requiredfields'] = '「 %s 」によってマークされたフィールドは必須入力です。';
-$string['oneoffields'] = '「 %s 」によってマークされたフィールドの1つは必須入力です。';
+$string['requiredfields'] = '「 %s 」によってマークされたフィールドは必須です。';
+$string['oneoffields'] = '「 %s 」によってマークされたフィールドの1つは必須です。';
 
 ?>
