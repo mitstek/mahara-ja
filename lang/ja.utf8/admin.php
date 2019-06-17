@@ -481,7 +481,7 @@ $string['groupmemberscsvfiledescription'] = '更新するグループメンバ�
 $string['csverroremptyfile'] = 'CSVファイルが空です。';
 $string['invalidfilename'] = 'ファイル「 %s 」が存在しません。';
 $string['uploadcsverrorinvalidfieldname'] = 'フィールド名「 %s 」が無効、またはヘッダ行より多いフィールドが指定されています。';
-$string['uploadcsverrorrequiredfieldnotspecified'] = '必須入力フィールド「 %s 」がフォーマット行で指定されていません。';
+$string['uploadcsverrorrequiredfieldnotspecified'] = '必須フィールド「 %s 」がフォーマット行で指定されていません。';
 $string['uploadcsverrornorecords'] = 'ファイルにレコードが含まれていないようです (ヘッダに問題はありません)。';
 $string['uploadcsverrorunspecifiedproblem1'] = '何らかの理由によりあなたのCSVファイルのレコードを追加できませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href="https://bugs.launchpad.net/mahara/+filebug">バクレポートを作成してください</a> (パスワードは空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
 $string['uploadcsverrorwrongnumberoffields'] = 'あなたのファイルの %s 行目にエラーがあります: フィールド数が正しくありません。';
@@ -503,7 +503,7 @@ $string['uploadcsvpagedescription2'] = '<p>あなたはこの機能により<acr
 
 <pre>username,password,email,firstname,lastname,studentid</pre>
 
-<p>この先頭行には<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、すべてのユーザに対して必須入力にしたフィールドを含んでください。あなたがユーザをアップロードするインスティテューションのロックフィールドも含んでください。すべてのインスティテューションの<a href="%s">必須入力フィールドを設定</a>、または<a href="%s">個別のインスティテューションのロックフィールドを設定できます</a>。</p>
+<p>この先頭行には<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、すべてのユーザに対して必須にしたフィールドを含んでください。あなたがユーザをアップロードするインスティテューションのロックフィールドも含んでください。すべてのインスティテューションの<a href="%s">必須フィールドを設定</a>、または<a href="%s">個別のインスティテューションのロックフィールドを設定できます</a>。</p>
 
 <p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下のとおりです:</p>
 
@@ -514,7 +514,7 @@ $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの�
 
 <pre>username,password,email,firstname,lastname,studentid</pre>
 
-<p>この先頭行には<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、サイト管理者が必須入力にしたフィールド、あなたがインスティテューションでロックしたフィールドも含んでください。あなたが管理するインスティテューションの<a href="%s">ロックフィールドを設定</a>できます。</p>
+<p>この先頭行には<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、サイト管理者が必須にしたフィールド、あなたがインスティテューションでロックしたフィールドも含んでください。あなたが管理するインスティテューションの<a href="%s">ロックフィールドを設定</a>できます。</p>
 
 <p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下のとおりです:</p>
 
