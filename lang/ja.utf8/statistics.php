@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-21 01:10:42 UTC
+ * @updated    2019-06-23 05:19:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -412,6 +412,7 @@ $string['contentreports'] = 'コンテンツ概要';
 $string['peoplereports'] = '人概要';
 $string['informationloginsreports'] = 'ログイン';
 $string['informationcomparisonsreports'] = 'インスティテューション比較';
+$string['groupsassessmentsreports'] = '提出';
 $string['applyingfilters'] = 'フィルタ適用';
 $string['nogroupdataperinstitution'] = 'グループレポートはサイト全体にのみ生成できます。あなたにサイト全体のレポートを閲覧できるパーミッションがある場合、インスティテューションセレクタより「すべてのインスティテューション」を選択してください。';
 $string['nocomparisondataperinstitution'] = '比較レポートはサイト全体にのみ生成できます。あなたにサイト全体のレポートを閲覧できるパーミッションがある場合、インスティテューションセレクタより「すべてのインスティテューション」を選択してください。';
@@ -445,5 +446,19 @@ $string['usersbyinstitution'] = 'インスティテューション別ユーザ';
 $string['groupsbytype'] = 'タイプ別グループ';
 $string['earliestdate'] = 'このレポートのデータは %s 以降のみ利用できます。';
 $string['noearliestdate'] = 'このレポートに記録されたデータはありません。';
+$string['submissions'] = '提出';
+$string['reportdescassessments'] = '<ul>
+<li>提出タイプ</li>
+<li>ポートフォリオ名</li>
+<li>ポートフォリオオーナー</li>
+<li>提出先グループ</li>
+<li>提出日</li>
+<li>リリース日</li>
+<li>リリース</li>
+</ul>';
+$string['assessmenttype'] = '提出タイプ';
+$string['assessmensubmitted'] = '提出日';
+$string['assessmentmarker'] = 'リリース';
+$string['assessmentreleaseddate'] = 'リリース日';
 
 ?>
