@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-04-10 05:42:27 UTC
+ * @updated    2019-06-24 01:47:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -98,8 +98,8 @@ $string['tagsonly'] = 'タグのみ';
 $string['Text'] = 'テキスト';
 $string['types'] = 'Elasticsearchタイプ';
 $string['typesdescription'] = 'インデックス化するカンマ区切りのエレメント一覧です。デフォルトは次のとおりです: usr,interaction_instance,interaction_forum_post,group,view,artefact';
-$string['usedonpage'] = 'ページ使用';
-$string['usedonpages'] = 'ページ使用';
+$string['usedonpage'] = '使用ページ';
+$string['usedonpages'] = '使用ページ';
 $string['username'] = '認証ユーザ名';
 $string['usernamedescription'] = '(任意) HTTP基本認証でElasticsearchに渡すためのユーザ名です。';
 $string['Users'] = 'ユーザ';
