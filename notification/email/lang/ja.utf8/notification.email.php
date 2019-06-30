@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-08 09:29:50 UTC
+ * @updated    2019-06-30 09:00:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['name'] = 'メール';
 $string['emailsubject'] = '%s';
 $string['emailheader'] = 'あなたに %s から通知が送信されました。メッセージは次のとおりです:';
-$string['emailfooter'] = 'これは %s から自動的に生成された通知です。あなたの通知プリファレンスを更新するには %s にアクセスしてください。';
+$string['emailfooter'] = 'これは %s からの自動生成通知です。あなたの通知プリファレンスを更新するには %s にアクセスしてください。';
 $string['referurl'] = '詳細 %s';
 $string['unsubscribe'] = '購読解除するには %s にアクセスしてください。';
 $string['unsubscribetitle'] = '購読解除';
