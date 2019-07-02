@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-06-24 01:47:13 UTC
+ * @updated    2019-07-02 02:10:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -23,7 +23,7 @@ $string['artefacttypemapdescription'] = 'それぞれのアーティファクト
 $string['artefacttypemaplegend'] = 'アーティファクトタイプ階層';
 $string['atoz'] = 'A -> Z';
 $string['blog'] = '日誌';
-$string['blogpost'] = '日誌タイプ';
+$string['blogpost'] = '日誌エントリ';
 $string['bypassindexname'] = 'バイパスインデックス';
 $string['bypassindexnamedescription'] = '(任意) 設定された場合、Maharaはメインインデックス名の代わりにこのインデックス名にインデックスデータを読み込みます。';
 $string['clusterstatus'] = 'Elasticsearchに問題があります。ステータスは「 %s 」です。未割り当てのシャードは「 %s 」です。';
