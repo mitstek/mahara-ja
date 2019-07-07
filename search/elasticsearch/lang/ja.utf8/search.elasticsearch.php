@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-07-02 02:10:19 UTC
+ * @updated    2019-07-07 06:38:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -26,12 +26,12 @@ $string['blog'] = '日誌';
 $string['blogpost'] = '日誌エントリ';
 $string['bypassindexname'] = 'バイパスインデックス';
 $string['bypassindexnamedescription'] = '(任意) 設定された場合、Maharaはメインインデックス名の代わりにこのインデックス名にインデックスデータを読み込みます。';
-$string['clusterstatus'] = 'Elasticsearchに問題があります。ステータスは「 %s 」です。未割り当てのシャードは「 %s 」です。';
+$string['clusterstatus'] = 'Elasticsearchクラスタに問題があります。ステータスは「 %s 」です。未割り当てのシャードは「 %s 」です。';
 $string['collection'] = 'コレクション';
 $string['confignotset'] = '(未設定)';
 $string['contains'] = '含む';
 $string['createdby'] = '作成者: %s';
-$string['createdbyanon'] = '作成者 (作者名非表示)';
+$string['createdbyanon'] = '作成者 (作成者名非表示)';
 $string['cronlimit'] = 'cronレコード制限';
 $string['cronlimitdescription'] = 'それぞれのcron実行に関してキューからElasticsearchサーバに送られる最大レコード数です (無制限の場合、空白またはゼロにしてください)。';
 $string['dateoldestfirst'] = '日付 (古い順)';
@@ -51,9 +51,9 @@ $string['host'] = 'ホスト';
 $string['hostdescription'] = 'Elasticsearchサーバのホスト名です。デフォルトは「127.0.0.1」です。';
 $string['html'] = 'テキスト';
 $string['indexingusername'] = '認証書き込みユーザ名';
-$string['indexingusernamedescription'] = '(任意) インデックスを書きこむ場合、インデックスの読み込みとユーザ名が異なる場合にHTTP基本認証でElasticsearchに渡すユーザ名です。';
+$string['indexingusernamedescription'] = '(任意) インデックス読み込みと異なる場合、インデックス書きみ時にHTTP基本認証でElasticsearchに渡すユーザ名です';
 $string['indexingpassword'] = '認証書き込みパスワード';
-$string['indexingpassworddescription'] = '(任意) インデックスを書きこむ場合、インデックスの読み込みとパスワードが異なる場合にHTTP基本認証でElasticsearchに渡すパスワードです。';
+$string['indexingpassworddescription'] = '(任意) インデックス読み込みと異なる場合、インデックス書きみ時にHTTP基本認証でElasticsearchに渡すパスワードです。';
 $string['indexingrunning'] = 'インデックス化cronジョブが動作しています。数分後、再度お試しください。';
 $string['indexname'] = 'インデックス名';
 $string['indexnamedescription'] = 'Elasticsearchインデックス名です。デフォルトは「mahara」です。';
