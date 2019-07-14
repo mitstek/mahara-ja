@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-07-07 06:38:01 UTC
+ * @updated    2019-07-14 06:10:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -65,15 +65,15 @@ $string['Media'] = 'メディア';
 $string['newindextype'] = 'あなたのElasticsearch設定に新しいインデックスタイプ「 %s 」が追加されました。これが適用されるためにはあなたのサイトを再インデックス化する必要があります。';
 $string['newversion'] = '新しいElasticsearch PHPバージョン %s がMaharaに追加されました。これはElasticsearchサーバ %s またはそれ以上と互換性があります。これを適用するにはあなたのサイトを再インデックス化する必要があります。';
 $string['none'] = 'なし';
-$string['noticeenabled'] = '現在、Elasticsearchプラグインは有効にされています。Elasticsearchプラグインを無効にするには<a href="%s">サイトオプションの検索設定</a>で選択解除してください。';
-$string['noticenotactive'] = 'ホスト: %s およびポート %s のElasticsearchサーバにアクセスできません。動作しているかどうか確認してください。';
-$string['noticenotenabled'] = '現在、Elasticsearchプラグインは無効にされています。Elasticsearchプラグインを有効にするには<a href="%s">サイトオプションの検索設定</a>で選択してください。';
+$string['noticeenabled'] = '現在、Elasticsearchプラグインは有効にされています。Elasticsearchプラグインを無効にするには<a href="%s">検索設定</a>で選択解除してください。';
+$string['noticenotactive'] = 'ホスト: %s およびポート %s のElasticsearchサーバにアクセスできません。動作しているか確認してください。';
+$string['noticenotenabled'] = '現在、Elasticsearchプラグインは無効にされています。Elasticsearchプラグインを有効にするには<a href="%s">検索設定</a>で選択してください。';
 $string['owner'] = 'オーナー';
 $string['page'] = 'ページ';
 $string['pages'] = 'ページ';
 $string['pagetitle'] = '検索';
 $string['password'] = '認証パスワード';
-$string['passworddescription'] = '(任意) HTTP基本認証でElasticsearchに渡すためのパスワードです。';
+$string['passworddescription'] = '(任意) HTTP基本認証でElasticsearchに渡すパスワードです。';
 $string['passwordlength'] = '(パスワード長: %s)';
 $string['port'] = 'Elasticsearchポート';
 $string['portdescription'] = 'Elasticsearchが使用するポートです。デフォルトは「9200」です。';
@@ -85,11 +85,11 @@ $string['replicashards'] = 'レプリカシャード';
 $string['replicashardsdescription'] = '作成されるシャードのコピー数です。注意: 1ノードのみの場合、レプリカに「0」を設定してください。';
 $string['reset'] = 'リセット';
 $string['resetallindexes'] = 'すべてのインデックスをリセットする';
-$string['resetdescription'] = 'このテーブルではElasticsearchサーバに送信するためにキューに入れられているそれぞれのタイプの現在のレコード数を表示しています。アイテムは検索プラグインのcronタスクが実行されるたびにElasticsearchサーバに送信されます (5分ごと)。検索インデックスをリセット、すべてのレコードを削除、そしてレコードを再度キューに入れるには下のボタンをクリックしてください。';
+$string['resetdescription'] = 'このテーブルではElasticsearchサーバに送信するため現在キューに入れられているそれぞれのタイプのレコード数を表示しています。アイテムは検索プラグインのcronタスクが実行されるたびにElasticsearchサーバに送信されます (5分ごと)。検索インデックスをリセット、すべてのレコードを削除、そしてレコードを再度キューに入れるには下のボタンをクリックしてください。';
 $string['resetlegend'] = 'インデックスリセット';
 $string['resume'] = 'レジュメ';
 $string['scheme'] = 'スキーマ';
-$string['schemedescription'] = 'Elasticsearchサーバのスキーマです。デフォルトはhttpです。';
+$string['schemedescription'] = 'Elasticsearchサーバのスキーマです。デフォルトは「http」です。';
 $string['shards'] = 'シャード';
 $string['shardsdescription'] = '作成されるインデックスの個数 (シャード) です。';
 $string['sortby'] = '並べ替え';
@@ -101,7 +101,7 @@ $string['typesdescription'] = 'インデックス化するカンマ区切りの�
 $string['usedonpage'] = '使用ページ';
 $string['usedonpages'] = '使用ページ';
 $string['username'] = '認証ユーザ名';
-$string['usernamedescription'] = '(任意) HTTP基本認証でElasticsearchに渡すためのユーザ名です。';
+$string['usernamedescription'] = '(任意) HTTP基本認証でElasticsearchに渡すユーザ名です。';
 $string['Users'] = 'ユーザ';
 $string['wallpost'] = 'ウォール投稿';
 $string['xsearchresults'] = '検索結果: %s';
