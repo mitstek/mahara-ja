@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-09-19 07:27:56 UTC
+ * @updated    2019-07-23 13:53:28 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -40,7 +40,7 @@ $string['editannotationfeedback'] = 'フィードバックを編集する';
 $string['placeannotation'] = 'アノテーションを追加する';
 $string['placeannotationfeedback'] = 'フィードバックを投稿する';
 $string['annotationfeedbacksubmitted'] = 'フィードバックが送信されました。';
-$string['annotationfeedbacksubmittedmoderatedanon'] = 'フィードバックが送信されました、モデレーションを待っています。';
+$string['annotationfeedbacksubmittedmoderatedanon'] = 'フィードバックが送信されました。モデレーションを待っています。';
 $string['annotationfeedbacksubmittedprivateanon'] = 'プライベートフィードバックが送信されました。';
 $string['makepublic'] = 'パブリックにする';
 $string['makepublicnotallowed'] = 'あなたはこのフィードバックをパブリックにできません。';
