@@ -85,7 +85,7 @@ $string['annotationfeedbackdeletedtext'] = 'アノテーション %s のフィ�
 %s';
 $string['artefactdefaultpermissions'] = 'デフォルトアノテーションパーミッション';
 $string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトタイプではフィードバックの作成が有効にされます。ユーザは個々のアーティファクトでこれらの設定をオーバーライドできます。';
-$string['annotationinformationerror'] = 'あなたにはアノテーションを表示するための正しい情報がありません。';
+$string['annotationinformationerror'] = '私たちにはアノテーションを表示するための正しい情報がありません。';
 $string['invalidannotationfeedbacklinkerror'] = 'フィードバックはアーティファクトまたはページにリンクされる必要があります。';
 $string['entriesimportedfromleapexport'] = '他の場所でインポートできなかったLeap2Aエクスポートからインポートされたエントリです。';
 $string['unknownstrategyforimport'] = 'エントリのインポートに不明な方法が選択されました。';
