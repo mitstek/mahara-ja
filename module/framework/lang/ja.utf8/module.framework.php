@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-06-11 05:07:00 UTC
+ * @updated    2019-08-04 04:52:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -80,7 +80,9 @@ $string['headerrow'] = '行ヘッダ: 標準エレメント';
 $string['showelementdetails'] = '標準エレメント詳細を表示するにはクリックしてください。';
 $string['statusdetail'] = 'ページ「 %s 」: %s';
 $string['copyframework'] = 'コピーするフレームワークを選択する';
+$string['copyexistingframework'] = '既存のフレームワークをコピーする';
 $string['editframework'] = '編集するフレームワークを選択する';
+$string['editsavedframework'] = '保存済みフレームワークを編集する';
 $string['editdescription1'] = '編集できるにはフレームワークが無効およびコレクションで現在使用されていない必要があります。';
 $string['editdescription2'] = 'フレームワークを編集する場合、あなたはフレームワークの保存済みデータを変更することになります。';
 $string['copyframeworkdescription'] = 'あなたはインストール済みフレームワークすべてをコピーおよび新しいフレームワークファイルのベースとして使用できます。';
