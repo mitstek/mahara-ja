@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-05 00:57:53 UTC
+ * @updated    2019-08-05 01:19:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -262,6 +262,7 @@ $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除し
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
 $string['blockconfigurationrenderingerror'] = 'ブロックを表示できなかったため設定に失敗しました。';
 $string['blocksintructionnoajax'] = 'あなたのページに追加するブロックおよび場所を選択してください。あなたはタイトルバーの矢印ボタンを使ってブロックの配置を変更できます。';
+$string['blocksinstructionajaxlive1'] = 'このエリアではあなたのページがどのように見えるのかプレビューを表示しています。変更は自動的に保存されます。<br />ブロックを追加するには「新しいブロックを追加する」をページにドラッグしてください。その後、あなたはそれがどのタイプのブロックであるか選択できます。あなたはページ内でブロックをドラッグして位置を変更することもできます。';
 $string['blockchangedsuccess'] = 'プレースホルダブロックを「 %s 」ブロックに正常に変更しました。';
 $string['blockchangederror'] = '「 %s 」ブロックへの変更に失敗しました。';
 $string['blockchangedbacksuccess'] = 'ブロックをプレースホルダブロックに戻しました。';
@@ -274,6 +275,7 @@ $string['blockordertopcell'] = 'セルトップ';
 $string['blockorderafter'] = '「 %s 」の後';
 $string['rownr'] = '行 %s';
 $string['nrrows'] = '%s 行';
+$string['addnewblock'] = '新しいブロックを追加する';
 $string['addnewblockhere'] = 'ここに新しいブロックを追加する';
 $string['add'] = '追加';
 $string['addcolumn'] = 'カラムを追加する';
