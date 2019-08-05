@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-05 00:50:46 UTC
+ * @updated    2019-08-05 01:11:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -198,6 +198,8 @@ $string['addcategories'] = 'カテゴリを追加する';
 $string['allowgroupcategoriesdescription1'] = 'サイト管理者がユーザのグループを割り当てるためのカテゴリを作成できるようにします。';
 $string['groupoptionsset'] = 'グループオプションが更新されました。';
 $string['groupcategorydeleted'] = 'カテゴリが削除されました。';
+$string['groupcategoryupdated'] = 'カテゴリが更新されました。';
+$string['groupcategoryadded'] = 'カテゴリが追加されました。';
 $string['confirmdeletecategory'] = '本当にこのカテゴリを削除してもよろしいですか?';
 $string['groupcategoriespagedescription'] = 'グループ作成時、ここで一覧表示されているカテゴリにグループを割り当てることができます。また、グループ検索時、グループのフィルタにカテゴリを使用できます。';
 $string['groupquotas'] = '「 %s 」のグループクオータ';
