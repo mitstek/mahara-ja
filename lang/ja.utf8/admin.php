@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-05 01:11:14 UTC
+ * @updated    2019-08-05 01:23:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1332,5 +1332,6 @@ $string['userdeletiondeniedsuccessful'] = 'リクエストが正常に拒否さ�
 $string['userdeletiondeniedunsuccessful'] = 'ユーザアカウント削除の拒否に失敗しました。';
 $string['consented'] = '同意済み';
 $string['groupid'] = 'グループID';
+$string['blocktypeupdatedsuccess'] = 'ブロックタイプ並べ替え順を更新しました。';
 
 ?>
