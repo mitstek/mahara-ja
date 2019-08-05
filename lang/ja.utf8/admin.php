@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-20 03:06:22 UTC
+ * @updated    2019-08-05 00:50:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1188,6 +1188,7 @@ $string['cli_langpack_backup_failed'] = '*** 警告 *** 「 %s 」のバック�
 $string['cli_langpack_en'] = 'Mahara自体でストリングが定義されているため英語言語パックを更新する必要はありません。あなたは「local/lang/」で特別言語ストリングを設定できます。';
 $string['cli_langpack_extract_done'] = '新しい「 %s 」言語パックが所定の位置にコピーされました。';
 $string['cli_langpack_extract_failed'] = '*** 警告 *** 「 %s 」からファイルを展開できません - 理由: %s';
+$string['cli_langpack_ignore'] = '言語パック「 %s 」はすでに最新版のため、アップデートをスキップします。';
 $string['cli_langpack_info'] = 'あなたの言語パックをコマンドラインで更新するには次のことができます:
 
 1) 言語をコードでリストアップして言語パックをインストールまたは更新します。例)ja = 日本語、de = ドイツ語、fr = フランス語
