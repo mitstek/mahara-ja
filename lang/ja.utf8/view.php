@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-06-18 06:34:01 UTC
+ * @updated    2019-08-05 00:57:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -262,7 +262,10 @@ $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除し
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
 $string['blockconfigurationrenderingerror'] = 'ブロックを表示できなかったため設定に失敗しました。';
 $string['blocksintructionnoajax'] = 'あなたのページに追加するブロックおよび場所を選択してください。あなたはタイトルバーの矢印ボタンを使ってブロックの配置を変更できます。';
-$string['blocksinstructionajaxlive'] = 'このエリアではあなたのページがどのように見えるのかプレビューを表示しています。変更は自動的に保存されます。<br />ブロックを追加するにはページにドラッグしてください。あなたはページ内でブロックをドラッグして位置を変更することもできます。';
+$string['blockchangedsuccess'] = 'プレースホルダブロックを「 %s 」ブロックに正常に変更しました。';
+$string['blockchangederror'] = '「 %s 」ブロックへの変更に失敗しました。';
+$string['blockchangedbacksuccess'] = 'ブロックをプレースホルダブロックに戻しました。';
+$string['blockchangedbackerror'] = 'ブロックをプレースホルダブロックに戻せませんでした。';
 $string['addblock'] = 'ブロックを追加する: %s';
 $string['blockcell'] = 'セル';
 $string['cellposition'] = '行 %s カラム %s';
