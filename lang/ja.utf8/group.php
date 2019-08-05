@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-11 05:16:29 UTC
+ * @updated    2019-08-05 00:47:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -369,5 +369,6 @@ $string['extcommenters'] = '関わっている非メンバー';
 $string['groupparticipationreports'] = '参加者レポート';
 $string['groupparticipationreportsdesc1'] = 'グループ管理者はすべてのグループ、共有ページおよび誰がコメントしたのか表示するレポートにアクセスできます。';
 $string['returntogroupportfolios'] = 'グループページおよびコレクションに戻る';
+$string['showintroduction'] = 'イントロダクション';
 
 ?>
