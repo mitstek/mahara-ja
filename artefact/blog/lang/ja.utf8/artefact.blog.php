@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-07-30 23:20:28 UTC
+ * @updated    2019-08-06 07:00:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -54,8 +54,8 @@ $string['by'] = 'by';
 $string['bygroup'] = 'by グループ <a href="%s">%s</a>';
 $string['byinstitution'] = 'by インスティテューション <a href="%s">%s</a>';
 $string['cancel'] = 'キャンセル';
-$string['createandpublishdesc'] = '日誌エントリを作成して他の人が閲覧できるようにします。';
-$string['createasdraftdesc'] = '日誌エントリを作成しますが、あなたが公開するまで他の人は閲覧できません。';
+$string['createandpublishdesc'] = 'ここではここでは日誌エントリを作成して他の人が閲覧できるようにします。';
+$string['createasdraftdesc'] = 'ここではここでは日誌エントリを作成しますが、あなたが公開するまで他の人は閲覧できません。';
 $string['createblog'] = '日誌を作成する';
 $string['dataimportedfrom'] = '%s からインポートされたデータ';
 $string['defaultblogtitle'] = '%s の日誌';
@@ -68,7 +68,7 @@ $string['dimensions'] = 'サイズ';
 $string['draft'] = '下書き';
 $string['edit'] = '編集';
 $string['editblogpost'] = '日誌エントリを編集する';
-$string['entriesimportedfromleapexport'] = 'Leap2Aエクスポートよりインポートされて他の場所にインポートできなかったエントリです。';
+$string['entriesimportedfromleapexport'] = '他の場所でインポートできなかったLeap2Aエクスポートよりインポートされたエントリです。';
 $string['errorsavingattachments'] = '日誌エントリの添付ファイル保存中にエラーが発生しました。';
 $string['horizontalspace'] = '水平方向のスペース';
 $string['insert'] = '挿入';
