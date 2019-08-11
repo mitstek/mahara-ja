@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-06 07:00:29 UTC
+ * @updated    2019-08-11 06:38:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -86,7 +86,7 @@ $string['newblogpost'] = '日誌「 %s 」の新しい日誌エントリ';
 $string['newerposts'] = '新しいエントリ';
 $string['nodefaultblogfound'] = 'デフォルトの日誌が見つかりませんでした。これはシステムのバグです。これを修正するにはあなたは<a href="%saccount/index.php">アカウント設定</a>ページで複数日誌オプションを有効にする必要があります。';
 $string['nopostsyet'] = 'まだエントリはありません';
-$string['noimageshavebeenattachedtothispost'] = 'このエントリにイメージは追加されませんでした。イメージを挿入できるようにするには事前にイメージをアップロードするか添付してください。';
+$string['noimageshavebeenattachedtothispost'] = 'このエントリにイメージは追加されませんでした。イメージを挿入するにはイメージをアップロードするかエントリに添付してください。';
 $string['nofilesattachedtothispost'] = '添付ファイルなし';
 $string['noresults'] = '日誌エントリはありません。';
 $string['olderposts'] = '古いエントリ';
@@ -155,7 +155,7 @@ $string['youhavenblog'] = 'あなたには %d 日誌があります。';
 $string['feedsnotavailable'] = 'このアーティファクトタイプではフィードは利用できません。';
 $string['feedrights'] = '著作権 %s';
 $string['enablemultipleblogstext'] = 'あなたには1件の日誌があります。あなたが2件目の日誌を作成したい場合、<a href="%saccount/index.php">アカウント設定</a>ページで複数日誌オプションを有効にしてください。';
-$string['hiddenblogsnotification'] = '新たに日誌が作成されましたが、あなたのアカウントでは複数日誌オプションが有効にされていません。あなたは<a href="%saccount/index.php">アカウント設定</a>ページで複数日誌オプションを設定できます。';
+$string['hiddenblogsnotification'] = '新たに日誌が作成されましたが、あなたのアカウントでは複数日誌オプションが有効にされていません。あなたは<a href="%saccount/index.php">アカウント設定</a>ページで複数日誌オプションを有効にできます。';
 $string['shortcutaddpost'] = '新しいエントリを追加する:';
 $string['shortcutadd'] = '追加';
 $string['shortcutnewentry'] = '新しいエントリ';
