@@ -138,7 +138,7 @@ $string['youhaveblogs'] = 'あなたには %s 件の日誌があります。';
 $string['feedsnotavailable'] = 'このアーティファクトタイプではフィードは利用できません。';
 $string['feedrights'] = '著作権 %s';
 $string['enablemultipleblogstext'] = 'あなたには1件の日誌があります。あなたが2件目の日誌を作成したい場合、<a href="%saccount/index.php">アカウント設定</a>ページで複数日誌オプションを有効にしてください。';
-$string['hiddenblogsnotification'] = '新たに日誌が作成されましたが、あなたのアカウントでは複数日誌オプションが有効にされていません。あなたは<a href="%saccount/index.php">アカウント設定</a>ページで複数日誌オプションを設定できます。';
+$string['hiddenblogsnotification'] = '新たに日誌が作成されましたが、あなたのアカウントでは複数日誌オプションが有効にされていません。あなたは<a href="%saccount/index.php">アカウント設定</a>ページで複数日誌オプションを有効にできます。';
 $string['shortcutaddpost'] = '新しいエントリを追加する:';
 $string['shortcutgo'] = 'Go';
 $string['shortcutnewentry'] = '新しいエントリ';
