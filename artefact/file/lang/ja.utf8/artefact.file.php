@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-12 04:13:06 UTC
+ * @updated    2019-08-12 04:27:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -320,7 +320,7 @@ $string['downloadfolderziplink'] = 'フォルダコンテンツをZIPファイ�
 $string['folderdownloadnofolderfound'] = 'ID %d のフォルダが見つかりません。';
 $string['zipfilenameprefix'] = 'フォルダ';
 $string['keepzipfor'] = 'ZIPファイルの保持期間';
-$string['keepzipfordescription'] = 'フォルダのダウンロード中に作成されたZIPファイルはこの時間 (秒) 保持されます。';
+$string['keepzipfordescription'] = 'フォルダのダウンロード時に作成されたZIPファイルはこの時間 (秒) 保持されます。';
 $string['progress_archive'] = '%s アーカイブファイルを追加する';
 $string['progress_audio'] = '%s オーディオファイルを追加する';
 $string['progress_file'] = '%s ファイルを追加する';
