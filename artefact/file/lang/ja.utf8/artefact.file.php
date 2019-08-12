@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-06-20 02:18:27 UTC
+ * @updated    2019-08-12 04:13:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -42,7 +42,7 @@ $string['foldername'] = 'フォルダ名';
 $string['confirmdeletefile'] = '本当にこのファイルを削除してもよろしいですか?';
 $string['confirmdeletefolder'] = '本当にこのフォルダを削除してもよろしいですか?';
 $string['confirmdeletefolderandcontents'] = '本当にこのフォルダおよびコンテンツを削除してもよろしいですか?';
-$string['customagreement'] = 'カスタム同意書';
+$string['customagreement'] = 'カスタム同意';
 $string['Date'] = '登録日';
 $string['resizeonupload'] = 'アップロード時、イメージをリサイズする';
 $string['resizeonuploaddescription'] = 'アップロード時、自動的に大きなイメージをリサイズします。';
@@ -53,7 +53,7 @@ $string['resizeonuploadenablefilebrowser1'] = '%sx%s pxより大きなイメー�
 $string['resizeonuploadmaxwidth'] = '最大幅';
 $string['resizeonuploadmaxheight'] = '最大高さ';
 $string['resizeonuploadenabledescription3'] = '最大幅および高さ設定より大きなイメージのアップロード時にリサイズされます。';
-$string['defaultagreement'] = 'デフォルト同意書';
+$string['defaultagreement'] = 'デフォルト同意';
 $string['defaultquota'] = 'デフォルトクオータ';
 $string['defaultquotadescription'] = 'あなたは新しいユーザがクオータとして持つことのできるディスクスペース総量をここで設定できます。';
 $string['defaultuserquota'] = 'デフォルトユーザクオータ';
@@ -168,7 +168,7 @@ $string['Type'] = 'タイプ';
 $string['typefile'] = 'ファイル';
 $string['typefolder'] = 'フォルダ';
 $string['upload'] = 'アップロード';
-$string['uploadagreement'] = 'アップロード同意書';
+$string['uploadagreement'] = 'アップロード同意';
 $string['uploadagreementdescription'] = 'あなたが以下のテキストへの同意をサイトへのファイルアップロード時のユーザに強制したい場合、このオプションを有効にしてください。';
 $string['uploadexceedsquota'] = 'このファイルをアップロードすることであなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
 $string['uploadexceedsquotagroup'] = 'このファイルをアップロードすることでこのグループのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
@@ -179,7 +179,7 @@ $string['uploadoffilecomplete'] = '%s のアップロードが完了しました
 $string['uploadoffilefailed'] = '%s のアップロードに失敗しました。';
 $string['uploadoffiletofoldercomplete'] = '%s の %s へのアップロードが完了しました。';
 $string['uploadoffiletofolderfailed'] = '%s の %s へのアップロードに失敗しました。';
-$string['usecustomagreement'] = 'カスタム同意書を使用する';
+$string['usecustomagreement'] = 'カスタム同意を使用する';
 $string['youmustagreetothecopyrightnotice'] = 'あなたは著作権表示に同意する必要があります。';
 $string['fileuploadedtofolderas'] = '%s が %s に「 %s 」としてアップロードされました。';
 $string['fileuploadedas'] = '%s が「 %s 」としてアップロードされました。';
