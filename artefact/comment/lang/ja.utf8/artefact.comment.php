@@ -21,7 +21,7 @@ $string['comments'] = 'コメント';
 $string['addcomment'] = 'コメントを追加する';
 $string['Allow'] = '許可';
 $string['allowcomments'] = 'コメントを許可する';
-$string['approvalrequired'] = 'コメントはモデレートされています。あなたがこのコメントをパブリックにした場合、オーナーにより承認されるまで他のユーザに表示されることはありません。';
+$string['approvalrequired'] = 'コメントはモデレートされます。あなたがこのコメントをパブリックにした場合、オーナーに承認されるまで他の人に表示されることはありません。';
 $string['attachfile'] = '添付ファイル';
 $string['Attachments'] = '添付ファイル';
 $string['cantedithasreplies'] = 'あなたは最新コメントのみ編集できます。';
@@ -53,7 +53,7 @@ $string['forcepubliccomment'] = 'パブリック';
 $string['forceprivatecomment'] = 'プライベート: この返信はあなたおよび先行するコメントの投稿者にのみ表示されます。';
 $string['lastcomment'] = '最新コメント';
 $string['makepublic'] = 'パブリックにする';
-$string['makepublicnotallowed'] = 'あなたはこのコメントをパブリックにすることはできません。';
+$string['makepublicnotallowed'] = 'あなたはこのコメントをパブリックにできません。';
 $string['makepublicrequestsubject'] = 'プライベートコメントのパブリックへの変更リクエスト';
 $string['makepublicrequestbyauthormessage'] = 'あなたがコメントをパブリックにするよう %s がリクエストしました。';
 $string['makepublicrequestbyownermessage'] = 'あなたのコメントをパブリックにするよう %s がリクエストしました。';
@@ -109,6 +109,6 @@ $string['feedbackdeletedtext'] = '%s のコメントが削除されました。
 %s をオンラインで閲覧するには次のリンクにアクセスしてください:
 %s';
 $string['artefactdefaultpermissions'] = 'デフォルトのコメントパーミッション';
-$string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトでは作成時にコメントの投稿が有効にされます。ユーザはそれぞれのアーティファクトでこれらの設定をオーバーライドできます。';
+$string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトでは作成時にコメントの投稿が有効にされます。ユーザは個別のアーティファクトでこれらの設定をオーバーライドできます。';
 
 ?>
