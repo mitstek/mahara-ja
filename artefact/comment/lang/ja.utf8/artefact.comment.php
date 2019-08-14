@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-13 07:33:07 UTC
+ * @updated    2019-08-14 07:21:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -118,6 +118,7 @@ $string['star'] = '星';
 $string['heart'] = 'ハート';
 $string['thumbsup'] = 'サムズアップ';
 $string['ok'] = 'チェックマーク';
+$string['smile'] = 'スマイル';
 $string['ratingexample'] = '生成例';
 $string['removerating'] = 'レーティングを削除する';
 $string['ratingoption'] = 'レーティング %s / %s を設定する';
