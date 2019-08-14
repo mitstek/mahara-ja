@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-05 01:23:16 UTC
+ * @updated    2019-08-14 07:29:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -704,20 +704,28 @@ $string['numberusersupdated'] = 'ユーザが更新されました: %d';
 $string['numbergroupsupdated'] = 'グループが更新されました: %d';
 $string['showupdatedetails'] = '更新詳細を表示する';
 $string['bulkleap2aimport'] = 'Leap2Aファイルからユーザをインポートする';
-$string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある複数のLeap2Aファイルからユーザを一度にインポートできます。あなたはサーバのファイルシステムにあるすべてのLeap2A ZIPファイルおよびユーザ名をファイル名にマッピングしたusernames.csvと呼ばれる単一CSVファイルを含むZIPファイルを指定する必要があります。</p>
+$string['bulkleap2aimportdescription1'] = '<p>あなたのサーバ内にある複数のLeap2Aファイルからユーザを一度にインポートできます。あなたはサーバのファイルシステムにあるすべてのLeap2A ZIPファイルおよびユーザ名をファイル名にマッピングしたusernames.csvと呼ばれる単一CSVファイルを含むZIPファイルを指定する必要があります。</p>
 <p>usernames.csvは以下のようになります:</p>
 <pre>
 &nbsp;&nbsp;bob,mahara-export-leap-user8-1265165366.zip<br />
 &nbsp;&nbsp;nigel,mahara-export-leap-user1-1266458159.zip
 </pre>
-<p>上記、mahara-export-leap-user8-1265165366.zipおよびmahara-export-leap-user1-1266458159.zipはusersと呼ばれるサブディレクトリ内にあるファイルです。</p>
+<p>mahara-export-leap-user8-1265165366.zipおよびmahara-export-leap-user1-1266458159.zipはサブディレクトリusers内のファイルです:</p>
+<p>あなたのZIPファイルの構造 (例 import.zip) は以下のようになります:</p>
+<pre>
+import.zip<br />
+<span class="icon icon-file icon-regular"></span> usernames.csv<br />
+<span class="icon icon-folder-open icon-regular"></span> users<br />
+<span class="icon icon-file icon-regular"></span> mahara-export-leap-user8-1265165366.zip<br />
+<span class="icon icon-file icon-regular"></span> mahara-export-leap-user1-1266458159.zip<br />
+</pre>
 <p>通常、ZIPファイルはMaharaに実装されているバルクエクスポートを使用して生成されます。</p>
 <p>あなたが多くのユーザをインポートする場合、注意してください。インポート処理には長時間を要する場合があります。</p>';
 $string['importfile'] = 'バルクエクスポートファイル';
 $string['importfilemissinglisting'] = 'バルクエクスポートファイルのファイル名が「usernames.csv」ではありません。これらのユーザをエクスポートするためあなたはMaharaバルクエクスポータを使用しましたか?';
 $string['importfilenotafile'] = '送信中にエラーが発生しました: ファイルを認識できませんでした。';
 $string['importfilenotreadable'] = 'Leap2Aファイル %s を読むことができません。';
-$string['bulkleap2aimportfiledescription'] = 'あなたのサーバのZIPファイルにはエクスポートされたユーザすべて (Leap2Aフォーマット) およびユーザ名のCSVリストが含まれます。';
+$string['bulkleap2aimportfiledescription1'] = 'あなたのサーバのZIPファイルにはエクスポートされたユーザすべて (Leap2Aフォーマット) およびユーザ名のCSVリストが含まれます。<br />例 「/home/example/data/import.zip」';
 $string['importednuserssuccessfully'] = '%d / %d のユーザを正常にインポートしました。';
 $string['Import'] = 'インポート';
 $string['bulkimportdirdoesntexist'] = 'ディレクトリ %s が存在しません。';
