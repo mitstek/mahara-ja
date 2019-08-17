@@ -59,7 +59,7 @@ $string['loggedouthomedefaultcontent'] = '<h2>Maharaにようこそ</h2>
 <p>Maharaに関する詳細は<a href="about.php">About</a>をお読みください。また、私たちに<a href="contact.php">お気軽にお問い合わせください</a>。</p>';
 $string['privacydefaultcontent'] = '<h2>プライバシー保護方針</h2>
 
-<h3>イントロダクション</h3>
+<h3>自己紹介</h3>
 
 <p>私たちは責任を持って、あなたのプライバシーを保護し、安全で機能的な個人学習および開発環境を提供します。このプライバシー保護方針はMaharaサイトに適用されデータの収集および保存に適用されます。</p>
 
