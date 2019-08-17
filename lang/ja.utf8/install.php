@@ -38,7 +38,7 @@ $string['loggedouthomedefaultcontent'] = '<h1>Maharaにようこそ</h1>
 <p>Maharaに関する詳細は<a href="about.php">About</a> [このページを忘れずに編集してください] をお読みください。また、私たちに<a href="contact.php">お気軽にお問い合わせください</a>。</p>
 
 <p>あなたはこのテキストを %s で編集できます。</p>';
-$string['privacydefaultcontent'] = '<h2>イントロダクション</h2>
+$string['privacydefaultcontent'] = '<h2>自己紹介</h2>
 
 <p>[これはあなたの法務部門が編集するためのデフォルトのプライバシー保護方針です]</p>
 
