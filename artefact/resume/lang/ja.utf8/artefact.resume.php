@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['pluginname'] = 'レジュメ';
-$string['introduction'] = 'イントロダクション';
+$string['introduction'] = '自己紹介';
 $string['educationandemployment'] = '教育および雇用';
 $string['achievements'] = '業績';
 $string['goals'] = 'ゴール';
