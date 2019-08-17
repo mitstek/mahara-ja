@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-06-23 05:19:09 UTC
+ * @updated    2019-08-17 15:37:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -46,7 +46,7 @@ $string['artefact_type_html'] = 'アーティファクト: HTMLファイル';
 $string['artefact_type_image'] = 'アーティファクト: イメージファイル';
 $string['artefact_type_industry'] = 'アーティファクト: 職種';
 $string['artefact_type_interest'] = 'アーティファクト: 興味';
-$string['artefact_type_introduction'] = 'アーティファクト: イントロダクション';
+$string['artefact_type_introduction'] = 'アーティファクト: 自己紹介';
 $string['artefact_type_lastname'] = 'アーティファクト: 姓';
 $string['artefact_type_membership'] = 'アーティファクト: 専門会員資格';
 $string['artefact_type_mobilenumber'] = 'アーティファクト: 携帯電話';
