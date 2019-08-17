@@ -40,7 +40,7 @@ $string['loggedouthomedefaultcontent'] = '<h1>Maharaにようこそ</h1>
 <p>あなたはこのテキストを %s で編集できます。</p>';
 $string['privacydefaultcontent'] = '<h1>プライバシー保護方針</h1>
 
-<h2>イントロダクション</h2>
+<h2>自己紹介</h2>
 
 <p>[これはあなたの法務部門が編集するためのデフォルトのプライバシー保護方針です]</p>
 
