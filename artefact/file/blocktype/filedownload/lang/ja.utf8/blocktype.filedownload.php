@@ -29,7 +29,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'ダウンロードできるファイル';
-$string['description'] = 'ユーザがダウンロードできるファイルを選択してください。';
+$string['description'] = '人がダウンロードできるファイルを選択してください。';
 $string['Files'] = 'ファイル';
 
 ?>
