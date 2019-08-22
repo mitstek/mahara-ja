@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'フォルダ';
-$string['description'] = 'あなたのファイルエリアの単独フォルダです (「コンテンツ -> ファイル」をご覧ください)。';
+$string['description'] = 'あなたのファイルエリアの単一フォルダです (「コンテンツ -> ファイル」をご覧ください)。';
 $string['defaulttitledescription'] = 'ここを空白にした場合、フォルダ名が使用されます。';
 
 ?>
