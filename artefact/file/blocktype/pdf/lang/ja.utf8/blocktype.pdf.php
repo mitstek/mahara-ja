@@ -14,6 +14,6 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'PDF';
-$string['description'] = 'あなたのファイルエリアの単独PDFファイルです。';
+$string['description'] = 'あなたのファイルエリアの単一PDFファイルです。';
 
 ?>
