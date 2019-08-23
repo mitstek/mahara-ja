@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-05 01:09:47 UTC
+ * @updated    2019-08-23 08:38:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -442,6 +442,7 @@ $string['senddeletenotification'] = 'リクエストを送信する';
 $string['javascriptnotenabled'] = 'あなたのブラウザはJavaスクリプトが有効にされていません。あなたがログインするにはこのサイトではJavaスクリプトを有効にする必要があります。';
 $string['cookiesnotenabled'] = 'あなたのブラウザはクッキーが有効にされていないかクッキーがブロックされています。あなたがログインするにはこのサイトではクッキーを有効にする必要があります。';
 $string['institution'] = 'インスティテューション';
+$string['institutionnotfound'] = 'インスティテューション「 %s 」が見つかりませんでした。';
 $string['institutioncontacts'] = '「 %s 」連絡先';
 $string['institutionlink'] = '<a href="%s">%s</a>';
 $string['link'] = '<a href="%s">%s</a>';
