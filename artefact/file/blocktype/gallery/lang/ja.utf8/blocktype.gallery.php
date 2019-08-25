@@ -14,13 +14,13 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'イメージギャラリー';
-$string['description1'] = 'あなたのファイルエリアまたは外部ギャラリーからのイメージコレクションです。';
+$string['description1'] = 'あなたのファイルエリアまたは外部ギャラリーのイメージコレクションです。';
 $string['select'] = 'イメージ選択';
 $string['selectfolder'] = '私のフォルダの1つからイメージすべてを表示します (後でアップロードされたイメージを含む)。';
 $string['selectimages'] = '表示するイメージを個別に選択する';
-$string['selectexternal'] = '外部ギャラリーよりイメージを表示する';
+$string['selectexternal'] = '外部ギャラリーのイメージを表示する';
 $string['externalgalleryurl'] = 'ギャラリーURLまたはRSS';
-$string['externalgalleryurldesc'] = 'あなたは次の外部ギャラリーを埋め込むことができます:';
+$string['externalgalleryurldesc'] = 'あなたは次の外部ギャラリーを埋め込めます:';
 $string['width'] = '幅';
 $string['widthdescription'] = 'あなたのイメージの幅 (ピクセル) を指定してください。イメージはこの幅にサイズ変更されます。';
 $string['style'] = 'スタイル';
