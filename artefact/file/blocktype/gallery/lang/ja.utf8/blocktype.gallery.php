@@ -14,13 +14,13 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'イメージギャラリー';
-$string['description1'] = 'あなたのファイルエリアまたは外部ギャラリーからのイメージコレクションです。';
+$string['description1'] = 'あなたのファイルエリアまたは外部ギャラリーのイメージコレクションです。';
 $string['select'] = 'イメージ選択';
 $string['selectfolder'] = '後でアップロードされたイメージを含むイメージすべてをフォルダから表示する';
 $string['selectimages'] = '表示するイメージを個別に選択する';
-$string['selectexternal'] = '外部ギャラリーよりイメージを表示する';
+$string['selectexternal'] = '外部ギャラリーのイメージを表示する';
 $string['externalgalleryurl'] = 'ギャラリーURLまたはRSS';
-$string['externalgalleryurldesc'] = 'あなたは次の外部ギャラリーを埋め込むことができます:';
+$string['externalgalleryurldesc'] = 'あなたは次の外部ギャラリーを埋め込めます:';
 $string['width'] = '幅';
 $string['widthdescription'] = 'あなたのイメージの幅 (ピクセル) を指定してください。イメージはこの幅にサイズ変更されます。';
 $string['style'] = 'スタイル';
@@ -52,7 +52,7 @@ $string['externalnotsupported'] = 'あなたが提供した外部URLはサポー
 $string['CLOSE'] = '閉じる';
 $string['NEXT'] = '次へ';
 $string['PREV'] = '前へ';
-$string['ERROR'] = 'リクエストされたコンテンツを読み込むことができません。<br />後で再度お試しください。';
+$string['ERROR'] = 'リクエストされたコンテンツを読み込めません。<br />後で再度お試しください。';
 $string['PLAY_START'] = 'スライドショーを開始する';
 $string['PLAY_STOP'] = 'スライドショーを一時停止する';
 $string['FULL_SCREEN'] = 'フルスクリーン';
