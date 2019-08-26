@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-12 04:27:08 UTC
+ * @updated    2019-08-26 00:55:21 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -244,6 +244,7 @@ $string['bz2'] = 'Bzip2圧縮ファイル';
 $string['txt'] = 'プレインテキストファイル';
 $string['video'] = 'ビデオファイル';
 $string['wav'] = 'WAVオーディオファイル';
+$string['m4a'] = 'M4Aオーディオファイル';
 $string['wmv'] = 'WMVビデオファイル';
 $string['xml'] = 'XMLファイル';
 $string['zip'] = 'ZIP書庫';
