@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-06-25 11:42:36 UTC
+ * @updated    2019-08-29 04:35:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -44,13 +44,14 @@ $string['notreadylabel'] = '準備未了';
 $string['oauthprotocolenabled'] = 'OAuthプロトコル有効';
 $string['parentauthforlti'] = '親認証局';
 $string['portfoliosubmitted'] = 'あなたは評価のためポートフォリオ「 %s 」を %s に提出しました。';
+$string['portfoliosubmittedheader'] = 'ポートフォリオ提出済み';
 $string['readylabel'] = '準備完了';
 $string['restprotocolenabled'] = 'RESTプロトコル有効';
 $string['usernameexists2'] = 'ユーザ名「 %s 」は有効ではありません。';
 $string['saveandrelease'] = '保存して提出を許可する';
 $string['submitportfolio'] = '評価のためポートフォリオを提出する';
 $string['submitto'] = 'このポートフォリオを評価のため %s に提出します。%s';
-$string['submitintro'] = 'あなたがこの活動に提出したいページまたはコレクションを選択してください。あなたにまだポートフォリオがない場合、<a href="%sview/index.php" target="_blank">作成してください</a>。あなたの作成後、LMSから活動を再度読み込んでください。';
+$string['submitintro'] = 'あなたがこの活動に提出したいページまたはコレクションを選択してください。あなたにまだポートフォリオがない場合、<strong><a href="%sview/index.php" target="_blank">作成してください</a></strong>。あなたの作成後、LMSから活動を再度読み込んでください。';
 $string['timegraded'] = '評定日時';
 $string['timesubmitted'] = '提出日時';
 $string['usernameexists1'] = 'ユーザ名「 %s 」はすでに存在します。';
