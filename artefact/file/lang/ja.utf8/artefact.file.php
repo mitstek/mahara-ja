@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-26 00:55:21 UTC
+ * @updated    2019-09-03 13:32:17 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -41,7 +41,7 @@ $string['createfoldersuccess'] = 'フォルダが正常に追加されました�
 $string['foldername'] = 'フォルダ名';
 $string['confirmdeletefile'] = '本当にこのファイルを削除してもよろしいですか?';
 $string['confirmdeletefolder'] = '本当にこのフォルダを削除してもよろしいですか?';
-$string['confirmdeletefolderandcontents'] = '本当にこのフォルダおよびコンテンツを削除してもよろしいですか?';
+$string['confirmdeletefolderandcontents'] = '本当にこのフォルダおよびそのコンテンツを削除してもよろしいですか?';
 $string['customagreement'] = 'カスタム同意';
 $string['Date'] = '登録日';
 $string['resizeonupload'] = 'アップロード時、イメージをリサイズする';
