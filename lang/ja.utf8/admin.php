@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-14 07:29:30 UTC
+ * @updated    2019-09-08 05:49:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1014,7 +1014,7 @@ $string['noinstitutionstaticpagesadmin'] = 'あなたがサイト管理者の場
 $string['Lockedfields'] = 'ロックフィールド';
 $string['disabledlockedfieldhelp1'] = '注意: あなたがオプションを変更できない場合、プロファイルフィールドは「 %s 」のインスティテューション設定でロックされています。これらのプロファイルフィールドはサイトレベルでロックされているためここでロック解除することはできません。';
 $string['defaultinstitutionquotadescription'] = 'あなたはこのインスティテューションの新しいユーザにクオータとして割り当てられるディスクスペース総量を設定できます。';
-$string['updateinstitutionuserquotasdesc2'] = 'あなたが上で選択したデフォルトクオータが既存のメンバーすべてに適用されます。';
+$string['updateinstitutionuserquotasdesc2'] = 'あなたが上で選択したデフォルトクオータを既存のメンバーすべてに適用します。';
 $string['institutiontagsdesc'] = 'インスティテューションタグが有効にされている場合、メンバーが利用できるタグをセットアップします。';
 $string['approve'] = '承認';
 $string['deny'] = '拒否';

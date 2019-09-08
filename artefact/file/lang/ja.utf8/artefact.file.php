@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-09-03 13:32:17 UTC
+ * @updated    2019-09-08 05:50:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -52,13 +52,13 @@ $string['resizeonuploadenable1'] = 'イメージを自動的にリサイズす�
 $string['resizeonuploadenablefilebrowser1'] = '%sx%s pxより大きなイメージを自動的にリサイズします (推奨)。';
 $string['resizeonuploadmaxwidth'] = '最大幅';
 $string['resizeonuploadmaxheight'] = '最大高さ';
-$string['resizeonuploadenabledescription3'] = '最大幅および高さ設定より大きなイメージのアップロード時にリサイズされます。';
+$string['resizeonuploadenabledescription3'] = '最大幅および高さ設定を超える場合、アップロード時にイメージをリサイズします。';
 $string['defaultagreement'] = 'デフォルト同意';
 $string['defaultquota'] = 'デフォルトクオータ';
 $string['defaultquotadescription'] = 'あなたは新しいユーザがクオータとして持つことのできるディスクスペース総量をここで設定できます。';
 $string['defaultuserquota'] = 'デフォルトユーザクオータ';
 $string['updateuserquotas'] = 'ユーザクオータを更新する';
-$string['updateuserquotasdesc2'] = 'あなたが上で選択したデフォルトクオータが既存のユーザすべてに適用されます。';
+$string['updateuserquotasdesc2'] = 'あなたが上で選択したデフォルトクオータを既存のユーザすべてに適用します。';
 $string['institutionoverride1'] = 'インスティテューションオーバーライド';
 $string['institutionoverridedescription2'] = 'インスティテューション管理者がユーザファイルクオータおよびそれぞれのインスティテューションのデフォルトクオータを設定できるようにします。';
 $string['maxquotaenabled'] = 'サイト全体の最大クオータを強制する';
