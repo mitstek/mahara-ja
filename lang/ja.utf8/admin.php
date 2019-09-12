@@ -233,7 +233,7 @@ $string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/reg
 $string['registrationfailedtrylater'] = 'エラーコード %s により登録が失敗しました。後ほど再度お試しください。';
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます。';
 $string['registermaharasite'] = 'サイト登録';
-$string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することにより私たちは世界のMaharaインストール状況を取得できます。</p>';
+$string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することにより私たちは世界中のMaharaインストール状況を把握できます。</p>';
 $string['registeryourmaharasitedetail'] = '<p>あなたのサイトをMaharaプロジェクトに登録できます。登録は無料であり私たちが世界中のMaharaインストール状況を把握するための助けとなります。</p>
 <p>週ごとの更新の送信を決定した場合、あなたはMaharaプロジェクトに送信される情報を閲覧できます。あなたのユーザに関して個人を特定されるものは一切送信されません。</p>';
 $string['sendingweeklyupdates1'] = 'あなたは週ごとの更新を送信しています。';
@@ -245,7 +245,7 @@ $string['startsendingdata'] = 'あなたのサイトは週ごとの更新を<a h
 $string['stoppedsendingdata'] = '週ごとの更新が停止されました。';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
-$string['closesitedetail'] = 'あなたは管理者を除くすべてのユーザに対してサイトをクローズできます。これはデータベースアップグレード処理の準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインできます。';
+$string['closesitedetail'] = 'あなたは管理者を除くすべての人にサイトをクローズできます。これはデータベースアップグレードの準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインできます。';
 $string['Open'] = 'オープン';
 $string['reopensite'] = 'サイトを再オープンする';
 $string['reopensitedetail'] = 'あなたのサイトはクローズされています。アップグレードが検出されるまでサイト管理者はログインできます。';
