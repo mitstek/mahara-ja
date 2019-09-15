@@ -66,7 +66,7 @@ $string['filetypedescription'] = '<p>あなたはここでユーザがアップ�
 $string['folder'] = 'フォルダ';
 $string['foldercreated'] = 'フォルダが作成されました。';
 $string['home'] = 'ホーム';
-$string['htmlremovedmessage'] = 'あなたが閲覧しているファイル「 <strong>%s</strong> 」は<a href="%s">%s</a> によりアップロードされたものです。以下に表示されているファイルは不適切なコンテンツのため削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
+$string['htmlremovedmessage'] = 'あなたが閲覧しているファイル「 <strong>%s</strong> 」は<a href="%s">%s</a>によりアップロードされたものです。以下に表示されているファイルは不適切なコンテンツのため削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
 $string['image'] = 'イメージ';
 $string['lastmodified'] = '最終更新日時';
 $string['myfiles'] = 'マイファイル';
