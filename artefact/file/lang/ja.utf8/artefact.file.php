@@ -112,7 +112,7 @@ $string['filenamefieldisrequired1'] = 'ファイル/フォルダ名は必須で�
 $string['filespagedescription1'] = 'あなたのページに含むことのできるイメージ、ドキュメントおよび他のファイルです。ファイルまたはフォルダをフォルダ間で移動するにはファイルまたはフォルダアイコンをドラッグ＆ドロップしてください。';
 $string['groupfilespagedescription1'] = 'ページに含むことのできるグループイメージ、ドキュメントおよび他のファイルです。';
 $string['institutionfilespagedescription1'] = 'ページに含むことのできるインスティテューションイメージ、ドキュメントおよび他のファイルです。';
-$string['fileuploadinstructions1'] = 'あなたは複数ファイルを選択して一度にアップロードできます。';
+$string['fileuploadinstructions1'] = 'あなたは複数のファイルを選択して一度にアップロードできます。';
 $string['filethingdeleted'] = '%s が削除されました。';
 $string['filewithnameexists'] = '名称「 %s 」のファイルまたはフォルダはすでに存在します。';
 $string['folder'] = 'フォルダ';
@@ -126,7 +126,7 @@ $string['foldernamerequired'] = '新しいフォルダ名を入力してくだ�
 $string['gotofolder'] = '%s に移動する';
 $string['groupfiles'] = 'グループファイル';
 $string['home'] = 'ホーム';
-$string['htmlremovedmessage'] = 'あなたが閲覧しているファイル「 <strong>%s</strong> 」は<a href="%s">%s</a> によりアップロードされたものです。以下に表示されているファイルは不適切なコンテンツのため削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
+$string['htmlremovedmessage'] = 'あなたが閲覧しているファイル「 <strong>%s</strong> 」は<a href="%s">%s</a>によりアップロードされたものです。以下に表示されているファイルは不適切なコンテンツのため削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
 $string['htmlremovedmessagenoowner'] = 'あなたはファイル「 <strong>%s</strong> 」を閲覧しています。以下に表示されているファイルは不適切なコンテンツのため削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
 $string['image'] = 'イメージ';
 $string['Images'] = 'イメージ';
@@ -186,7 +186,7 @@ $string['fileuploadedas'] = '%s が「 %s 」としてアップロードされ�
 $string['insufficientmemoryforresize'] = '(イメージのリサイズのための十分なメモリがありません。アップロード前に手動でリサイズすることをお考えください)';
 $string['quotanotifylimitoutofbounds'] = '通知制限はパーセントで入力してください。また、0から100までの数字である必要があります。';
 $string['usernotificationsubject'] = 'あなたのファイルストレージがほぼ満杯です。';
-$string['usernotificationmessage'] = 'あなたはファイルクオータの %s% を使用しています (ファイルクオータ: %s)。あなたの制限を増分するためにサイト管理者にご連絡ください。';
+$string['usernotificationmessage'] = 'あなたはファイルクオータの %s% を使用しています (あなたのファイルクオータ: %s)。あなたの制限を増分するためサイト管理者にご連絡ください。';
 $string['adm_notificationsubject'] = 'ユーザがファイルクオータ制限にほぼ到達しています。';
 $string['adm_notificationmessage'] = 'ユーザ %s がファイルクオータの %s% パーセントに到達しました (ファイルクオータ: %s)。';
 $string['adm_group_notificationsubject'] = 'あなたが管理しているグループがファイルクオータ制限にほぼ到達しています。';
