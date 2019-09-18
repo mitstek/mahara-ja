@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-09-17 20:06:47 UTC
+ * @updated    2019-09-18 19:32:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -137,7 +137,7 @@ $string['myfiles'] = 'マイファイル';
 $string['Name'] = '名称';
 $string['namefieldisrequired'] = '名称フィールドは必須です。';
 $string['maxuploadsize'] = '最大アップロードサイズ';
-$string['nofolderformove'] = '移動先にできるフォルダはありません。';
+$string['nofolderformove'] = '移動先として指定できるフォルダはありません。';
 $string['movefaileddestinationinartefact'] = 'あなたはフォルダの中に自フォルダを入れることはできません。';
 $string['movefaileddestinationnotfolder'] = 'あなたはフォルダ内にのみファイルを移動できます。';
 $string['movefailednotfileartefact'] = 'ファイル、フォルダおよびイメージアーティファクトのみ移動できます。';
@@ -145,7 +145,7 @@ $string['movefailednotowner'] = 'あなたにはこのフォルダにファイ�
 $string['movefailed'] = '移動に失敗しました。';
 $string['movingfailed'] = '移動に失敗しました: ファイルまたはフォルダはすでに存在しません。';
 $string['nametoolong'] = '名称が長すぎます。さらに短い名称を入力してください。';
-$string['nofilesfound'] = 'ファイルはありません。';
+$string['nofilesfound'] = 'ファイルが見つかりませんでした。';
 $string['notpublishable'] = 'あなたにはこのファイルを公開するパーミッションがありません。';
 $string['overwrite'] = '上書き';
 $string['Owner'] = 'オーナー';
@@ -186,7 +186,7 @@ $string['fileuploadedas'] = '%s が「 %s 」としてアップロードされ�
 $string['insufficientmemoryforresize'] = '(イメージのリサイズのための十分なメモリがありません。アップロード前に手動でリサイズすることをお考えください)';
 $string['quotanotifylimitoutofbounds'] = '通知制限はパーセントで入力してください。また、0から100までの数字である必要があります。';
 $string['usernotificationsubject'] = 'あなたのファイルストレージがほぼ満杯です。';
-$string['usernotificationmessage'] = 'あなたはファイルクオータの %s% を使用しています (あなたのファイルクオータ: %s)。あなたの制限を増分するためサイト管理者にご連絡ください。';
+$string['usernotificationmessage'] = 'あなたはファイルクオータの %s% を使用しています (あなたのファイルクオータ: %s)。あなたの制限を増やすためサイト管理者にご連絡ください。';
 $string['adm_notificationsubject'] = 'ユーザがファイルクオータ制限にほぼ到達しています。';
 $string['adm_notificationmessage'] = 'ユーザ %s がファイルクオータの %s% パーセントに到達しました (ファイルクオータ: %s)。';
 $string['adm_group_notificationsubject'] = 'あなたが管理しているグループがファイルクオータ制限にほぼ到達しています。';
