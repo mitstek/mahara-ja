@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-09-12 17:13:03 UTC
+ * @updated    2019-09-19 03:09:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1315,6 +1315,7 @@ $string['enterreason'] = '拒否する理由をここに入力してください
 $string['hasrefused'] = 'は %s を拒否しました。';
 $string['privacylowcase'] = 'プライバシー保護方針';
 $string['termsandconditionslowcase'] = '利用条件';
+$string['suspendaccount'] = 'アカウントを利用停止する';
 $string['privacyandtotheterms'] = 'プライバシー保護方針および利用条件';
 $string['privacyandtheterms'] = 'プライバシー保護方針および利用条件';
 $string['consentdate'] = '同意/拒否日付';
