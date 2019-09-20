@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-14 08:11:36 UTC
+ * @updated    2019-09-20 00:14:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -23,13 +23,14 @@ $string['deletespecifiedskin'] = 'スキン「 %s 」を削除する';
 $string['deleteskinconfirm'] = '本当にこのスキンを削除してもよろしいですか? 元に戻すことはできません。';
 $string['deleteskinusedinpages'] = 'あなたが削除しようとしているスキンは %d ページで使用されています。';
 $string['importskins'] = 'スキンをインポートする';
+$string['importskinsmenu'] = 'インポート';
 $string['importskinsnotice'] = 'インポートするにはスキン定義が含まれる有効なXMLファイルを選択してください。';
 $string['validxmlfile'] = '有効なXMLファイル';
 $string['notvalidxmlfile'] = 'アップロードされたファイルは有効なXMLファイルではありません。';
 $string['import'] = 'インポート';
 $string['exportthisskin'] = 'このスキンをエクスポートする';
 $string['exportspecific'] = '「 %s 」をエクスポートする';
-$string['exportskins'] = 'スキンをエクスポートする';
+$string['exportskinsmenu'] = 'エクスポート';
 $string['createskin'] = 'スキンを作成する';
 $string['editthisskin'] = 'このスキンを編集する';
 $string['editsiteskin?'] = 'これはサイトスキンです。編集してもよろしいですか?';
