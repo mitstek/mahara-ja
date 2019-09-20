@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-29 04:35:59 UTC
+ * @updated    2019-09-20 04:29:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -43,10 +43,11 @@ $string['notconfigured'] = '現在、この活動は提出を許可していま�
 $string['notreadylabel'] = '準備未了';
 $string['oauthprotocolenabled'] = 'OAuthプロトコル有効';
 $string['parentauthforlti'] = '親認証局';
-$string['portfoliosubmitted'] = 'あなたは評価のためポートフォリオ「 %s 」を %s に提出しました。';
+$string['portfoliosubmittedforgrading'] = 'あなたは評価のためポートフォリオ「 <strong><a href="%s">%s</a></strong> 」を %s に提出しました。';
 $string['portfoliosubmittedheader'] = 'ポートフォリオ提出済み';
 $string['readylabel'] = '準備完了';
 $string['restprotocolenabled'] = 'RESTプロトコル有効';
+$string['revokesubmission'] = '提出を取り消す';
 $string['usernameexists2'] = 'ユーザ名「 %s 」は有効ではありません。';
 $string['saveandrelease'] = '保存して提出を許可する';
 $string['submitportfolio'] = '評価のためポートフォリオを提出する';
