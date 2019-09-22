@@ -658,7 +658,7 @@ $string['Invitations'] = '招待';
 $string['institutionmembershipfullsubject'] = 'インスティテューションメンバーシップ定員到達';
 $string['institutionmembershipfullmessagetext'] = '%s さん
 
-%s - %s の最大ユーザ数に到達しました。
+%s - %s の最大ユーザ数に達しました。
 
 既存のユーザアカウントを整理するか、このインスティテューションに関する最大ユーザアカウント数の増加をご依頼ください。すべてのサイト管理者は制限を増加させることができます。
 
