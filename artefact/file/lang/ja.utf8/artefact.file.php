@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-09-22 09:24:13 UTC
+ * @updated    2019-09-24 01:27:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -279,7 +279,7 @@ $string['profileiconxsnotsquare'] = 'あなたがアップロードしたスモ�
 $string['uploadingfile'] = 'ファイルのアップロード中 ...';
 $string['uploadprofileicon'] = 'プロファイル画像をアップロードする';
 $string['uploadedprofileicon'] = 'アップロードされたプロファイル画像';
-$string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイル画像をアップロードできます。プロファイル画像のアップロード後、あなたのデフォルト画像として表示する画像を1つ選択してください。16x16 から %sx%s ピクセルの間であなたの写真を作成してください。';
+$string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイル画像をアップロードできます。プロファイル画像のアップロード後、あなたのデフォルト画像として表示する画像を1つ選択してください。16x16 から %sx%s ピクセルの間であなたの画像を作成してください。';
 $string['setdefault'] = 'デフォルトに設定する';
 $string['setdefaultfor'] = '「 %s 」のデフォルトに設定する';
 $string['markfordeletionspecific'] = '「 %s 」に削除マークを付ける';
@@ -304,7 +304,7 @@ $string['invalidarchivehandle'] = '無効なアーカイブファイル操作で
 $string['cannotopenarchive'] = 'アーカイブファイル %s を開くことができません。';
 $string['cannotreadarchivecontent'] = 'アーカイブコンテンツを読むことができません。';
 $string['cannotextractarchive'] = 'アーカイブファイルを %s に展開できません。';
-$string['cannotcopytemparchive'] = 'アーカイブファイルを %s から %s に移動できません。';
+$string['cannotcopytemparchive'] = 'アーカイブファイルを %s から %s にコピーできません。';
 $string['cannotdeletetemparchive'] = '一時アーカイブファイル %s を削除できません。';
 $string['pleasewaitwhileyourfilesarebeingunzipped'] = 'あなたのファイルを展開中です。しばらくお待ちください。';
 $string['spacerequired'] = '必要スペース';
