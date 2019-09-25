@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-09-24 01:27:32 UTC
+ * @updated    2019-09-25 08:17:40 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,6 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['pluginname'] = 'ファイル';
+$string['commentsanddetails'] = 'コメント (%d) および詳細';
 $string['sitefilesloaded'] = 'サイトファイルが読み込まれました。';
 $string['addafile'] = 'ファイルを追加する';
 $string['archive'] = 'アーカイブ';

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-11 06:38:44 UTC
+ * @updated    2019-09-25 08:15:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -95,7 +95,9 @@ $string['postbody'] = '本文';
 $string['postedon'] = '投稿日時';
 $string['updatedon'] = '最終更新日時';
 $string['postedbyon'] = '投稿者: %s  投稿日時: %s';
+$string['postedby'] = '投稿者';
 $string['posttitle'] = 'タイトル';
+$string['createdin'] = '作成';
 $string['posts'] = 'エントリ';
 $string['nposts'] = '%s エントリ';
 $string['publish'] = '公開';

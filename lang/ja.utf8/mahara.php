@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-09-19 03:11:17 UTC
+ * @updated    2019-09-25 08:19:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -778,6 +778,7 @@ $string['more...'] = 'さらに ...';
 $string['moreoptions'] = '詳細オプション';
 $string['moreoptionsfor'] = '「 %s 」の詳細オプション';
 $string['details'] = '詳細';
+$string['Details'] = '詳細';
 $string['nohelpfound'] = 'このアイテムのヘルプはありません。';
 $string['nohelpfoundpage'] = 'このページのヘルプはありません。';
 $string['couldnotgethelp'] = 'ヘルプページの検索中にエラーが発生しました。';
@@ -1216,5 +1217,6 @@ $string['tabgroup'] = 'グループ';
 $string['tabinstitution'] = 'インスティテューション';
 $string['version.'] = 'v.';
 $string['viewartefact'] = '表示';
+$string['viewartefactdatavuamodal'] = '%s アーティファクト「 %s 」はこの方法では閲覧できなくなりました。閲覧するにはページ「 %s 」に移動してください。';
 
 ?>
