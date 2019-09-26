@@ -239,7 +239,7 @@ $string['registrationsuccessfulthanksforregistering'] = '正常に登録され�
 $string['registermaharasite'] = 'サイト登録';
 $string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することにより私たちが世界中のMaharaインストール状況を把握するための助けとなります。</p>';
 $string['registeryourmaharasitedetail'] = '<p>あなたのサイトをMaharaプロジェクトに登録できます。登録は無料であり私たちが世界中のMaharaインストール状況を把握するための助けとなります。</p>
-<p>あなたが週ごとの更新状況状況の送信を決定した場合、Maharaプロジェクトに送信される予定の情報を確認できます。あなたのユーザに関して個人を特定されるものは一切送信されません。</p>';
+<p>あなたが週ごとの更新状況の送信を決定した場合、Maharaプロジェクトに送信される予定の情報を確認できます。あなたのユーザに関して個人を特定されるものは一切送信されません。</p>';
 $string['sendingweeklyupdates1'] = 'あなたは週ごとの更新状況を送信しています。';
 $string['notsendingweeklyupdates'] = 'あなたは週ごとの更新状況を送信していません。';
 $string['siteisregisteredsince'] = '%s 以来、あなたのサイトは<a href="https://mahara.org/">mahara.org</a>に登録されています。';
