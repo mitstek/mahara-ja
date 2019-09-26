@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-09-20 04:43:37 UTC
+ * @updated    2019-09-26 08:15:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -226,8 +226,8 @@ $string['Field'] = 'フィールド';
 $string['Value'] = '値';
 $string['dataincluded'] = '含まれるデータ';
 $string['datathathavebeensent'] = '送信されたデータ';
-$string['sendweeklyupdates'] = '週ごとの更新を送信する';
-$string['sendweeklyupdatesdescription'] = 'あなたのサイトが統計情報を含む週ごとの更新を<a href="https://mahara.org/">mahara.org</a>に送信することを許可します。';
+$string['sendweeklyupdates'] = '週ごとの更新状況を送信する';
+$string['sendweeklyupdatesdescription'] = 'あなたのサイトが統計情報を含む週ごとの更新状況を<a href="https://mahara.org/">mahara.org</a>に送信することを許可します。';
 $string['newregistrationpolicyinfo'] = '<p>私たちは登録サイトが週ごとのデータを更新する必要のある登録データポリシーを変更しました。あなたの登録を承認または削除するには以下のリンクに従ってください。</p>';
 $string['registerwithmahara'] = 'mahara.orgに登録する';
 $string['registerwithmaharadescription'] = 'あなたのサイトがMaharaプロジェクトに登録された場合、登録解除することはできません。';
@@ -237,16 +237,16 @@ $string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/reg
 $string['registrationfailedtrylater'] = 'エラーコード %s により登録が失敗しました。後ほど再度お試しください。';
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます。';
 $string['registermaharasite'] = 'サイト登録';
-$string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することにより私たちは世界中のMaharaインストール状況を把握できます。</p>';
+$string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することにより私たちが世界中のMaharaインストール状況を把握するための助けとなります。</p>';
 $string['registeryourmaharasitedetail'] = '<p>あなたのサイトをMaharaプロジェクトに登録できます。登録は無料であり私たちが世界中のMaharaインストール状況を把握するための助けとなります。</p>
-<p>週ごとの更新の送信を決定した場合、あなたはMaharaプロジェクトに送信される情報を閲覧できます。あなたのユーザに関して個人を特定されるものは一切送信されません。</p>';
-$string['sendingweeklyupdates1'] = 'あなたは週ごとの更新を送信しています。';
-$string['notsendingweeklyupdates'] = 'あなたは週ごとの更新を送信していません。';
+<p>あなたが週ごとの更新状況状況の送信を決定した場合、Maharaプロジェクトに送信される予定の情報を確認できます。あなたのユーザに関して個人を特定されるものは一切送信されません。</p>';
+$string['sendingweeklyupdates1'] = 'あなたは週ごとの更新状況を送信しています。';
+$string['notsendingweeklyupdates'] = 'あなたは週ごとの更新状況を送信していません。';
 $string['siteisregisteredsince'] = '%s 以来、あなたのサイトは<a href="https://mahara.org/">mahara.org</a>に登録されています。';
 $string['siteisregistered'] = 'あなたのサイトは<a href="https://mahara.org/">mahara.org</a>に登録されます。';
-$string['siteregistrationpolicy'] = '<p>どのようにMaharaが使用されているか正確に表示するため登録には私たちに週ごとの更新を送信することを含みます。あなたの登録を確認した後、以下の「保存」ボタンをクリックして承認してください。</p>';
-$string['startsendingdata'] = 'あなたのサイトは週ごとの更新を<a href="https://mahara.org/">mahara.org</a>に送信しています。';
-$string['stoppedsendingdata'] = '週ごとの更新が停止されました。';
+$string['siteregistrationpolicy'] = '<p>どのようにMaharaが使用されているか正確に表示するため登録には私たちに週ごとの更新状況を送信することを含みます。あなたの登録を確認した後、以下の「保存」ボタンをクリックして承認してください。</p>';
+$string['startsendingdata'] = 'あなたのサイトは週ごとの更新状況を<a href="https://mahara.org/">mahara.org</a>に送信しています。';
+$string['stoppedsendingdata'] = '週ごとの更新状況が停止されました。';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
 $string['closesitedetail'] = 'あなたは管理者を除くすべての人にサイトをクローズできます。これはデータベースアップグレードの準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインできます。';
