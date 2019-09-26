@@ -226,7 +226,7 @@ $string['sendweeklyupdates'] = '週ごとの更新状況を送信する';
 $string['sendweeklyupdatesdescription'] = 'あなたのサイトが統計情報を含む週ごとの更新状況を<a href="https://mahara.org/">mahara.org</a>に送信することを許可します。';
 $string['newregistrationpolicyinfo'] = '<p>私たちは登録サイトが週ごとのデータを更新する必要のある登録データポリシーを変更しました。あなたの登録を承認または削除するには以下のリンクに従ってください。</p>';
 $string['registerwithmahara'] = 'mahara.orgに登録する';
-$string['registerwithmaharadescription'] = 'あなたのサイトがMaharaプロジェクトに登録された場合、登録解除することはできません。';
+$string['registerwithmaharadescription'] = '一旦あなたのサイトがMaharaプロジェクトに登録された場合、登録解除はできません。';
 $string['Register'] = '登録';
 $string['Registration'] = '登録';
 $string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/registersite.php">サイト登録ページ</a>にアクセスして登録できます。';
