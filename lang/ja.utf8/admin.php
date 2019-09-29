@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-09-26 08:30:46 UTC
+ * @updated    2019-09-29 19:50:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -321,7 +321,7 @@ $string['allowanonymouspagesdescription1'] = 'ユーザはページ作成者と�
 $string['anonymouscomments'] = '匿名コメント';
 $string['anonymouscommentsdescription1'] = 'パブリックページまたはシークレットURLでアクセスできるページに誰でもコメントを残すことができます。';
 $string['loggedinprofileviewaccess1'] = 'すべての登録ユーザによるプロファイルアクセス';
-$string['loggedinprofileviewaccessdescription1'] = 'ユーザのプロファイルページは登録ユーザすべてが閲覧できます。';
+$string['loggedinprofileviewaccessdescription1'] = 'ユーザのプロファイルページを登録ユーザすべてが閲覧できます。';
 $string['antispam'] = 'アンチスパム';
 $string['antispamdescription'] = 'パブリックに表示されるフォームに適用されるアンチスパム基準タイプです。';
 $string['dropdownmenu'] = 'ドロップダウンナビゲーション';
