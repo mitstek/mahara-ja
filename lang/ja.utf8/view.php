@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-05 01:19:45 UTC
+ * @updated    2019-09-29 19:32:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -218,7 +218,7 @@ $string['editaccesssitepagedescription'] = 'デフォルトではサイトコレ
 $string['editsecreturlsintable'] = '個別に生成する必要があるためこのページでは<b>シークレットURL</b>を設定できません。シークレットURLを設定するには<a href="%s">コレクションおよびページの一覧</a>に戻ってください。';
 $string['editaccessinvalidviewset'] = '無効な一連のページおよびコレクションのアクセスを編集しようとしました。';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
-$string['overridingstartstopdatesdescription'] = 'あなたは開始日および終了日をオーバーライドできます。アクセス権を与えたとしても開始日以前および終了日以降に他のユーザはあなたのページを閲覧できません。';
+$string['overridingstartstopdatesdescription'] = '必要であれば、あなたは開始日および終了日をオーバーライドできます。仮に他のアクセス権を与えたとしても、他の人は開始日以前および終了日以降にあなたのページを閲覧できません。';
 $string['emptylabel'] = 'このラベルのテキストを入力するにはここをクリックしてください。';
 $string['empty_block'] = 'ここに配置するアーティファクトを左側のツリーより選択してください。';
 $string['viewinformationsaved'] = 'ページ情報が正常に保存されました。';
