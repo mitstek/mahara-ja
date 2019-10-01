@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-09-16 09:03:30 UTC
+ * @updated    2019-10-01 21:01:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -80,6 +80,7 @@ $string['nocollections'] = 'まだコレクションはありません。';
 $string['nocollectionsaddone'] = 'まだコレクションはありません。%sコレクションを追加してください%s。';
 $string['nooverride'] = 'オーバーライドはありません。';
 $string['noviewsavailable'] = '追加できるページはありません。';
+$string['noviewsincollection'] = 'コレクションにページはありません。';
 $string['noviewsaddsome'] = 'コレクションにページはありません。%sページを追加してください%s。';
 $string['noviews'] = 'ページはありません。';
 $string['overrideaccess'] = 'アクセスをオーバーライドする';

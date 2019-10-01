@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-17 15:37:41 UTC
+ * @updated    2019-10-01 21:07:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -69,15 +69,15 @@ $string['Created'] = '作成';
 $string['editable'] = '編集可能';
 $string['editability'] = '編集可能';
 $string['windowstart'] = '開始日時';
-$string['windowstartdesc'] = 'この日時以前、メンバーはグループを編集することはできません。';
+$string['windowstartdescription'] = 'この日時以前、一般グループメンバーはグループを編集できません。この日時はすべてのインポート済みプランのデフォルトの開始日時としても使用されます。';
 $string['windowend'] = '終了日時';
-$string['windowenddesc'] = 'この日時以降、メンバーはグループを編集することはできません。';
+$string['windowenddescription'] = 'この日時以降、一般グループメンバーはグループを編集できません。この日時はすべてのインポート済みプランのデフォルトの完了日時としても使用されます。';
 $string['editwindowbetween'] = '%s - %s';
 $string['editwindowfrom'] = '%s から';
 $string['editwindowuntil'] = '%s まで';
 $string['groupadmins'] = 'グループ管理者';
 $string['editroles1'] = '作成および編集';
-$string['editrolesdescription1'] = 'グループページ、日誌およびファイルを作成および編集できるロールです。';
+$string['editrolesdescription2'] = 'グループポートフォリオのコンテンツを作成、編集および管理できるロールです。';
 $string['allexceptmember'] = '一般メンバーを除く全員';
 $string['Admin'] = '管理者';
 $string['publiclyviewablegroup'] = '一般の人も閲覧可能なグループ';
