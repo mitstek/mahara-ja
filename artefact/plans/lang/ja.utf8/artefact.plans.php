@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-10-01 22:18:24 UTC
+ * @updated    2019-10-02 07:44:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -103,7 +103,7 @@ $string['outcome'] = '課題ポートフォリオ';
 $string['outcomedescription'] = 'このタスクを終了するためポートフォリオを結びつけてください。注意: このポートフォリオは1つのタスクにのみ使用できます。';
 $string['selectionplan'] = '課題タスク';
 $string['selectionplandescription'] = 'このテンプレートプランに基づいてグループ内でプランが作成された後、グループメンバーは課題を完了するためこのプランのタスクを選択できます。';
-$string['none'] = 'ノート';
+$string['none'] = 'なし';
 $string['startdatemustbebeforecompletiondate'] = '開始日は完了日の前に設定してください。';
 $string['completiondatemustbeinfuture'] = '完了日は未来の日付にする必要があります。';
 $string['completiondatemustbesetforreminder'] = 'あなたはリマインダを設定するため完了日を入力する必要があります。';
