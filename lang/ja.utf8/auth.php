@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (http://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-09-09 05:15:10 UTC
+ * @updated    2019-10-04 21:22:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -29,7 +29,7 @@ $string['xmlrpcserverurl'] = 'XML-RPCサーバURL';
 $string['ipaddress'] = 'IPアドレス';
 $string['shortname'] = 'あなたのサイトの省略名';
 $string['name'] = 'サイト名';
-$string['nodataforinstance'] = '認証インスタンスのデータが見つかりませんでしたでした。';
+$string['nodataforinstance1'] = '認証インスタンス「 %s 」のデータが見つかりませんでした。';
 $string['authname'] = '認証局名';
 $string['weautocreateusers'] = 'こちらでユーザを自動作成する';
 $string['theyautocreateusers'] = 'あちらでユーザを自動作成させる';
