@@ -3,7 +3,7 @@
  *
  * @package    mahara
  * @subpackage lang (Japanese)
- * @translator Mitsuhiro Yoshida (http://mitstek.com/)
+ * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
  * @updated    2019-04-03 03:18:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
