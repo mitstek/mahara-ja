@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-05-30 13:49:32 UTC
+ * @updated    2019-10-05 16:59:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -39,7 +39,6 @@ $string['messagesnobody'] = '誰も私にメッセージを送信できません
 $string['messagesfriends'] = 'マイフレンドリストに登録したユーザは私にメッセージを送信できます。';
 $string['messagesallow'] = '誰でも私にメッセージを送信できます。';
 $string['language'] = '言語';
-$string['showviewcolumns'] = 'ページの編集時、カラムの「追加」および「削除」ボタンを表示する';
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'あなたのタグクラウドに表示されるタグの最大数です。';
 $string['enablemultipleblogs1'] = '複数日誌';
@@ -48,6 +47,10 @@ $string['hiderealname'] = '実名を隠す';
 $string['hiderealnamedescription'] = 'あなたが表示名を設定した場合、そしてあなたの実名検索により他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
 $string['showhomeinfo2'] = 'ダッシュボード情報';
 $string['showhomeinfodescription1'] = 'ダッシュボード上に %s の使用方法に関する情報を表示します。';
+$string['showlayouttranslatewarning'] = 'ページレイアウト変更前に確認する';
+$string['showlayouttranslatewarningdescription'] = 'ページ編集時、ページレイアウトの新しいレイアウトへの変更前に警告および確認リクエストを表示します。';
+$string['accessibilityprofile'] = 'アクセシブルプロファイル';
+$string['accessibilityprofiledescription'] = 'あなたのアカウントでアクセシビリティオプションを有効にします。';
 $string['showprogressbar'] = 'プロファイル完了プログレスバー';
 $string['showprogressbardescription'] = 'プログレスバーおよびあなたの %s プロファイルを完了するためのヒントを表示します。';
 $string['prefssaved'] = 'プリファレンスが保存されました。';
