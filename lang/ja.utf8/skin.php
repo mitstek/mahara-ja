@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-09-20 00:14:27 UTC
+ * @updated    2019-10-07 02:03:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,6 +16,13 @@ defined('INTERNAL') || die();
 $string['pluginname'] = 'スキン';
 $string['myskins'] = 'スキン';
 $string['siteskinmenu'] = 'スキン';
+$string['themedefault'] = 'テーマデフォルト';
+$string['headerbackgroundcolor'] = 'ヘッダ背景色';
+$string['headerbackgroundcolordescription'] = 'ページヘッダの背景色 - ヘッダイメージが選択されていない場合、これは表示されません。';
+$string['headerbackgroundimage'] = 'ヘッダ背景イメージ';
+$string['headerbackgroundimagedescription'] = '最小理想幅:1832px 最小理想高:232px';
+$string['bodybackgroundcolour'] = 'ページ背景色';
+$string['bodybackgroundimage'] = 'ページ背景イメージ';
 $string['deletethisskin'] = 'このスキンを削除する';
 $string['skindeleted'] = 'スキンが削除されました。';
 $string['cantdeleteskin'] = 'あなたはこのスキンを削除できません。';
@@ -215,6 +222,11 @@ $string['fonttype.site'] = 'ローカルフォント';
 $string['fonttypes.site'] = 'ローカルフォント';
 $string['fonttype.google'] = 'Googleウェブフォント';
 $string['fonttypes.google'] = 'Googleウェブフォント';
+$string['fonttypes.theme'] = 'テーマフォント';
+$string['fonttype.t_raw'] = 'テーマフォント: Raw';
+$string['fonttype.t_ocean'] = 'テーマフォント: Ocean';
+$string['fonttype.t_modern'] = 'テーマフォント: Modern';
+$string['fonttype.t_primaryschool'] = 'テーマフォント: Primary school';
 $string['preview'] = 'プレビュー';
 $string['samplesize'] = 'サイズ';
 $string['samplesort'] = '並べ替え';
