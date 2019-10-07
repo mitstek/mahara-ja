@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-10-05 17:40:25 UTC
+ * @updated    2019-10-07 20:03:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -236,12 +236,12 @@ $string['cantversionviewinvalid'] = '提供されたページIDが無効です�
 $string['cantversionvieweditpermissions'] = 'あなたにはこのページを編集するパーミッションがありません。';
 $string['cantversionviewsubmitted'] = '評価のために送信されたためあなたはこのページを編集できません。あなたはリリースされるまで待つ必要があります。';
 $string['cantversionviewgroupeditwindow'] = 'あなたはこのページを編集できません。グループ編集可能期間外です。';
-$string['cantversionoldlayout'] = 'あなたは古いレイアウトのタイムラインバージョン表示を保存できません。あなたは新しいグリッドレイアウトに変換する必要があります。変換するには単にページを編集してください。レイアウトが変換されます。';
-$string['cantaddannotationinoldlayout'] = 'あなたはこのページにアノテーションを追加できません。最初に表示を編集してページレイアウトを変換してください。';
+$string['cantversionoldlayout'] = 'あなたは古いレイアウトのタイムラインバージョンのページを保存できません。あなたは新しいグリッドレイアウトに変換する必要があります。変換するには単にページを編集してください。レイアウトが変換されます。';
+$string['cantaddannotationinoldlayout'] = 'あなたはこのページにアノテーションを追加できません。最初にページを編集してページレイアウトを変換してください。';
 $string['invalidcolumn'] = 'カラム %s は範囲外です。';
 $string['confirmcancelcreatingview'] = 'このページは作成完了していません。本当にキャンセルしてもよろしいですか?';
 $string['groupviewurltaken'] = 'このURLのページはすでに存在します。';
-$string['editblockspagedescription'] = '<p>あなたのページを作成するには以下のタブよりブロックを選択してドラッグ&ドロップしてください。</p>';
+$string['editblockspagedescription'] = '<p>あなたのページを作成するには以下のボタンよりブロックを選択してドラッグ&ドロップしてください。</p>';
 $string['displayview'] = 'ページを表示する';
 $string['editthisview'] = '編集';
 $string['expandcontract'] = 'ブロックタイプ一覧を展開/折りたたむ';
@@ -446,16 +446,16 @@ $string['blockssizeupdated'] = 'ブロックサイズが正常に変更されま
 $string['dimensionsnotset'] = 'ブロックサイズが設定されていません。';
 $string['dontaskagain'] = '承認および記憶する';
 $string['pleaseconfirmtranslate'] = 'ページレイアウトを変換する';
-$string['confirmtranslationmessage'] = 'Mahara 19.10の一部として私たちはページレイアウトの新しい作成方法を導入しました。このページを編集するには私たちは古いレイアウトを新しいグリッドレイアウトに変換する必要があります。
+$string['confirmtranslationmessage'] = 'Mahara 19.10の一部として私たちはページレイアウトの新しい作成方法を導入しました。このページを編集するにはあなたは古いレイアウトを新しいグリッドレイアウトに変換する必要があります。
 あなたがこのページを単独で変換したい場合、「承認」をクリックしてください。あなたが編集するページすべてを変換して再度このメッセージを表示したくない場合、「承認および記憶する」をクリックしてください。このオプションは<a href="%s">設定</a>で変更できます。ページに戻るには「キャンセル」をクリックしてください。';
 $string['accessibleview'] = 'アクセシブルレイアウト';
-$string['accessibleviewdesc'] = 'あなたのページの1カラムレイアウトを有効にします。';
+$string['accessibleviewdescription'] = '1カラムページレイアウトを作成してドラッグ＆ドロップの代わりにキーボードで編集します。';
 $string['itemgrabbed'] = 'アイテムグラブ: %s';
 $string['itemdropped'] = 'アイテムドロップ: %s';
 $string['itemreorder'] = 'リストが並べ替えられました。%s アイテムのポジションが %s / %s になりました。';
 $string['reordercancelled'] = '並べ替えがキャンセルされました。';
 $string['accessibilitymodedescription'] = 'このページはアクセシビリティレイアウトが有効にされています。
-このモードではページはフルのページ幅を持ちます。また、あなたが並べ替えれるリストとして表示されます。
+このモードではページはフルのページ幅を持ちます。また、ページは順番に表示されます。
 ブロックポジションを変更するにはブロックに移動して「Enter」キーで掴んで矢印キーでブロックのリストの上下に移動してください。';
 $string['blocktypeis'] = '%s ブロックタイプ';
 

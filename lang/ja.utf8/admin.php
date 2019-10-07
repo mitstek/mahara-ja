@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-10-07 07:19:46 UTC
+ * @updated    2019-10-07 19:48:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -717,7 +717,7 @@ $string['bulkleap2aimportdescription1'] = '<p>あなたのサーバ内にある�
 &nbsp;&nbsp;nigel,mahara-export-leap-user1-1266458159.zip
 </pre>
 <p>mahara-export-leap-user8-1265165366.zipおよびmahara-export-leap-user1-1266458159.zipはサブディレクトリusers内のファイルです:</p>
-<p>あなたのZIPファイルの構造 (例 import.zip) は以下のようになります:</p>
+<p>あなたのZIPファイルの構造 例) 「import.zip」は以下のようになります:</p>
 <pre>
 import.zip<br />
 <span class="icon icon-file icon-regular"></span> usernames.csv<br />
@@ -731,7 +731,7 @@ $string['importfile'] = 'バルクエクスポートファイル';
 $string['importfilemissinglisting'] = 'バルクエクスポートファイルのファイル名が「usernames.csv」ではありません。これらのユーザをエクスポートするためあなたはMaharaバルクエクスポータを使用しましたか?';
 $string['importfilenotafile'] = '送信中にエラーが発生しました: ファイルを認識できませんでした。';
 $string['importfilenotreadable'] = 'Leap2Aファイル %s を読むことができません。';
-$string['bulkleap2aimportfiledescription1'] = 'あなたのサーバのZIPファイルにはエクスポートされたユーザすべて (Leap2Aフォーマット) およびユーザ名のCSVリストが含まれます。<br />例 「/home/example/data/import.zip」';
+$string['bulkleap2aimportfiledescription1'] = 'あなたのサーバのZIPファイルにはエクスポートされたユーザすべて (Leap2Aフォーマット) およびユーザ名のCSVリストが含まれます。例)「/home/example/data/import.zip」';
 $string['importednuserssuccessfully'] = '%d / %d のユーザを正常にインポートしました。';
 $string['Import'] = 'インポート';
 $string['bulkimportdirdoesntexist'] = 'ディレクトリ %s が存在しません。';
