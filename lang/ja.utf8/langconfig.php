@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-09-20 09:47:47 UTC
+ * @updated    2019-10-09 07:14:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,6 +16,7 @@ defined('INTERNAL') || die();
 $string['pieform_calendar_dateformat'] = '%%Y/%%m/%%d';
 $string['pieform_calendar_timeformat'] = '%%H:%%M';
 $string['strftimedate'] = '%%Y年 %%m月 %%d日';
+$string['strftimedatemonth'] = '%%m月 %%d日';
 $string['strftimedateshort'] = '%%Y/%%m/%%d';
 $string['strftimedatetime'] = '%%Y年 %%m月 %%d日 %%H:%%M';
 $string['strftimedatetimesuffix'] = '%%Y年 %%m月 %%d日 %%H:%%M (%%P)';
