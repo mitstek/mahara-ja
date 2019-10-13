@@ -21,7 +21,7 @@ $string['searchablefields'] = '検索可能フィールド';
 $string['searchablefieldsdescription'] = '他の人が検索できるプロファイルフィールドです。';
 $string['adminusersearchfields'] = '管理ユーザ検索';
 $string['adminusersearchfieldsdescription'] = '管理ユーザ検索リストにカラムとして表示されるプロファイルフィールドです。';
-$string['aboutdescription'] = 'あなたの本名をここに入力してください。システム内の人に異なる名前を表示したい場合、あなたの表示名としてその名前を入力してください。';
+$string['aboutdescription'] = 'あなたの実際の姓名をここに入力してください。システム内の人に異なる名前を表示したい場合、あなたの表示名としてその名前を入力してください。';
 $string['infoisprivate'] = 'あなたが他のユーザと共有しているページに置かない限り、この情報は非公開となります。';
 $string['viewmyprofile'] = '私のプロファイルを表示する';
 $string['aboutprofilelinkdescription'] = '<p>他のユーザに表示したい情報を編集するにはあなたの<a href="%s">プロファイル</a>ページにアクセスしてください。</p>';
