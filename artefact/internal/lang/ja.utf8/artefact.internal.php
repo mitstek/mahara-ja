@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-09-29 10:45:31 UTC
+ * @updated    2019-10-13 15:04:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -21,7 +21,7 @@ $string['searchablefields'] = '検索可能フィールド';
 $string['searchablefieldsdescription'] = '他の人が検索できるプロファイルフィールドです';
 $string['adminusersearchfields'] = '管理ユーザ検索';
 $string['adminusersearchfieldsdescription'] = '管理ユーザ検索リストにカラムとして表示されるプロファイルフィールドです。';
-$string['aboutdescription'] = 'あなたの本名をここに入力してください。システム内の人に異なる名前を表示したい場合、あなたの表示名としてその名前を入力してください。';
+$string['aboutdescription'] = 'あなたの実際の姓名をここに入力してください。システム内の人に異なる名前を表示したい場合、あなたの表示名としてその名前を入力してください。';
 $string['infoisprivate'] = 'あなたが他のユーザと共有しているページに置かない限り、この情報は非公開となります。';
 $string['viewmyprofile'] = '私のプロファイルを表示する';
 $string['aboutprofilelinkdescription'] = '<p>他のユーザに表示したい情報を編集するにはあなたの<a href="%s">プロファイル</a>ページにアクセスしてください。</p>';
