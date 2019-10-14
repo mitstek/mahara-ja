@@ -262,7 +262,7 @@ $string['accountcreatedhtml'] = '<p>%s さん</p>
 <li><strong>パスワード:</strong> %s</li>
 </ul>
 
-<p>利用開始するには<a href="%s">%s</a>にアクセスしてください!</p>
+<p>利用開始するには <a href="%s">%s</a> にアクセスしてください!</p>
 
 <p>%s サイト管理者</p>';
 $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
@@ -276,7 +276,7 @@ $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 
 <p>初回ログイン時、あなたはパスワードの変更を求められます。</p>
 
-<p>利用開始するには<a href="%s">%s</a>にアクセスしてください!</p>
+<p>利用開始するには <a href="%s">%s</a> にアクセスしてください!</p>
 
 <p>%s サイト管理者</p>';
 $string['accountexpirywarning'] = 'アカウント有効期限切れ通知';
