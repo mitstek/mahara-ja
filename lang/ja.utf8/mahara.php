@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-09-25 08:19:02 UTC
+ * @updated    2019-10-14 06:36:37 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -323,7 +323,7 @@ $string['accountcreatedhtml'] = '<p>%s さん</p>
 <li><strong>パスワード:</strong> %s</li>
 </ul>
 
-<p>利用開始するには<a href="%s">%s</a>にアクセスしてください!</p>
+<p>利用開始するには <a href="%s">%s</a> にアクセスしてください!</p>
 
 <p>%s サイト管理者</p>';
 $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
@@ -337,7 +337,7 @@ $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 
 <p>初回ログイン時、あなたはパスワードの変更を求められます。</p>
 
-<p>利用開始するには<a href="%s">%s</a>にアクセスしてください!</p>
+<p>利用開始するには <a href="%s">%s</a> にアクセスしてください!</p>
 
 <p>%s サイト管理者</p>';
 $string['accountexpirywarning'] = 'アカウント有効期限切れ通知';
