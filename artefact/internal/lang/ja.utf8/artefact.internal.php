@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-10-13 15:04:07 UTC
+ * @updated    2019-10-15 07:32:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -37,7 +37,7 @@ $string['studentid'] = '学籍番号';
 $string['preferredname'] = '表示名';
 $string['introduction'] = '自己紹介';
 $string['email'] = 'メールアドレス';
-$string['maildisabled'] = 'Eメール無効';
+$string['maildisabled'] = 'メール無効';
 $string['officialwebsite'] = 'オフィシャルウェブサイトアドレス';
 $string['personalwebsite'] = 'パーソナルウェブサイトアドレス';
 $string['blogaddress'] = 'ブログアドレス';
