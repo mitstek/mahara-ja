@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-10-15 07:32:12 UTC
+ * @updated    2019-10-19 20:57:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -142,7 +142,7 @@ $string['containedin'] = '含まれる場所:';
 $string['currenttitle'] = 'タイトル';
 $string['notesdescription1'] = 'あなたのページのノートブロック内で作成したHTML形式のノートです。';
 $string['editnote'] = 'ノートを編集する';
-$string['confirmdeletenote'] = 'このノートは %d ブロックおよび %d ページで使用されています。あなたが削除した場合、現在このテキストを含むすべてのブロックには空白が表示されてしまいます。';
+$string['confirmdeletenote'] = 'このノートは %d ブロックおよび %d ページで使用されています。あなたがノートを削除した場合、このテキストが現在含まれているすべてのブロックは空白になります。';
 $string['notedeleted'] = 'ノートが削除されました。';
 $string['noteupdated'] = 'ノートが更新されました。';
 $string['html'] = 'ノート';
