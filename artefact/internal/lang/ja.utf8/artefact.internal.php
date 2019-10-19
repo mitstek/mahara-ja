@@ -117,7 +117,7 @@ $string['notesfor'] = '%s のノート';
 $string['containedin'] = '含まれる場所:';
 $string['notesdescription'] = 'あなたのページのテキストボックスブロック内で作成したHTML形式のノートです。';
 $string['editnote'] = 'ノートを編集する';
-$string['confirmdeletenote'] = 'このノートは %d ブロックおよび %d ページで使用されています。あなたが削除した場合、現在このテキストを含むすべてのブロックには空白が表示されてしまいます。';
+$string['confirmdeletenote'] = 'このノートは %d ブロックおよび %d ページで使用されています。あなたがノートを削除した場合、このテキストが現在含まれているすべてのブロックは空白になります。';
 $string['notedeleted'] = 'ノートが削除されました。';
 $string['noteupdated'] = 'ノートが更新されました。';
 
