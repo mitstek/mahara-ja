@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-10-14 06:36:37 UTC
+ * @updated    2019-10-22 21:07:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1054,7 +1054,7 @@ $string['country.ro'] = 'ルーマニア';
 $string['country.ru'] = 'ロシア連邦';
 $string['country.rw'] = 'ルワンダ共和国';
 $string['country.bl'] = 'セントバーツ島';
-$string['country.sh'] = 'セントヘレナ島';
+$string['country.sh'] = 'セントヘレナ、アセンションおよびトリスタンダクーニャ';
 $string['country.kn'] = 'セントクリストファー・ネイビス';
 $string['country.lc'] = 'セントルシア';
 $string['country.mf'] = 'サンマルタン島 (フランス領)';
@@ -1109,7 +1109,7 @@ $string['country.um'] = 'アメリカ合衆国外諸島';
 $string['country.uy'] = 'ウルグアイ東方共和国';
 $string['country.uz'] = 'ウズベキスタン共和国';
 $string['country.vu'] = 'バヌアツ共和国';
-$string['country.ve'] = 'ベネズエラ共和国';
+$string['country.ve'] = 'ベネズエラ (ボリバル共和国)';
 $string['country.vn'] = 'ベトナム社会主義共和国';
 $string['country.vg'] = '英国領バージン諸島';
 $string['country.vi'] = '米国領バージン諸島';
@@ -1119,6 +1119,8 @@ $string['country.ye'] = 'イエメン共和国';
 $string['country.zm'] = 'ザンビア共和国';
 $string['country.zw'] = 'ジンバブエ共和国';
 $string['nocountryselected'] = '国が選択されていません。';
+$string['countryisodisclaimer'] = '国名は国際標準化機構 (ISO International Organization for Standardization)により公開されたISO 3166での定義に基づき表示されます。';
+$string['countryisocustomise'] = 'あなたのサイトの国名を調整するにはそれぞれの翻訳の「mahara.php」言語ファイルを編集するか、<a href="https://wiki.mahara.org/wiki/Developer_Area/Language_strings#Custom_lang_strings_in_.2Flocal">localディレクトリにストリングを作成してください</a>。';
 $string['system'] = 'システム';
 $string['done'] = '完了';
 $string['back'] = '戻る';
