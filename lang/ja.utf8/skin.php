@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-10-07 02:03:24 UTC
+ * @updated    2019-10-24 08:00:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,7 +16,11 @@ defined('INTERNAL') || die();
 $string['pluginname'] = 'スキン';
 $string['myskins'] = 'スキン';
 $string['siteskinmenu'] = 'スキン';
+$string['header'] = 'ヘッダ';
+$string['blockheading'] = 'ブロックヘッディング';
 $string['themedefault'] = 'テーマデフォルト';
+$string['blockheaderfontfamily'] = 'ブロックヘッダフォント';
+$string['blockheaderfontcolor'] = 'ブロックヘッダフォント色';
 $string['headerbackgroundcolor'] = 'ヘッダ背景色';
 $string['headerbackgroundcolordescription'] = 'ページヘッダの背景色 - ヘッダイメージが選択されていない場合、これは表示されません。';
 $string['headerbackgroundimage'] = 'ヘッダ背景イメージ';
