@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-10-04 21:22:23 UTC
+ * @updated    2019-10-25 04:03:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -50,7 +50,7 @@ $string['errnoauthinstances'] = '私たちには %s のホストに関して認�
 $string['errornotvalidsslcertificate'] = '有効なSSLサーバ証明書ではありません。';
 $string['errnoxmlrpcinstances'] = '私たちには %s のホストに関してXMLRPCプラグインインスタンスが設定されていないようです。';
 $string['errnoxmlrpcwwwroot'] = '私たちには %s のホストに関してレコードがありません。';
-$string['errnoxmlrpcuser1'] = '現時点ではあなたを認証できませんでした。可能性のある理由として下記が考えられます:
+$string['errnoxmlrpcuser1'] = '現時点ではあなたを認証できませんでした。可能性のある理由として以下が考えられます:
 
 *あなたのSSOセッションが失効しました。他のアプリケーションに戻って %s にログインするためのリンクを再度クリックしてください。
 *あなたの %s に対するSSOが許可されていません。あなたがSSOできるかどうか管理者に確認してください。';
