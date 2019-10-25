@@ -60,7 +60,7 @@ $string['errnoauthinstances'] = '私たちには %s のホストに関して認�
 $string['errornotvalidsslcertificate'] = '有効なSSLサーバ証明書ではありません。';
 $string['errnoxmlrpcinstances'] = '私たちには %s のホストに関してXMLRPCプラグインインスタンスが設定されていないようです。';
 $string['errnoxmlrpcwwwroot'] = '私たちには%s のホストに関してレコードがありません。';
-$string['errnoxmlrpcuser'] = '現時点ではあなたを認証できませんでした。可能性のある理由として下記が考えられます:
+$string['errnoxmlrpcuser'] = '現時点ではあなたを認証できませんでした。可能性のある理由として以下が考えられます:
 
 *あなたのSSOセッションが失効しました。他のアプリケーションに戻って、Maharaにログインするためのリンクを再度クリックしてください。
 *あなたのMaharaに対するSSOが許可されていません。あなたがSSOできるかどうか管理者に確認してください。';
