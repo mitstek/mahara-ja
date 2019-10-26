@@ -32,7 +32,7 @@ $string['aboutdefaultcontent'] = '<h1>Maharaとは</h1>
 
 <p>あなたの組織またはインストールに関するテキストをここに追加してください。</p>
 
-<p>[<b>あなたの組織名</b>]は<a href="https://mahara.org">Mahara</a>により構築されています。Maharaは (GNU General Public License 一般公衆利用許諾契約書の下)、無償のオープンソースソフトウェアとして提供されます。つまり、下記条件に同意することによりあなたにMaharaのコピー、使用および修正が許可されていることを意味します:</p>
+<p>[<b>あなたの組織名</b>]は<a href="https://mahara.org">Mahara</a>により構築されています。Maharaは (GNU General Public License 一般公衆利用許諾契約書の下)、無償のオープンソースソフトウェアとして提供されます。つまり、以下の条件に同意することによりあなたにMaharaのコピー、使用および修正が許可されていることを意味します:</p>
 
 <ul>
 <li>他の人にソースコードを提供する。</li>
