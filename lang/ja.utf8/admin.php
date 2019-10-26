@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-10-07 19:48:25 UTC
+ * @updated    2019-10-26 19:25:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -35,7 +35,7 @@ $string['performingupgrades'] = 'アップグレード処理中 ...';
 $string['runupgrade'] = 'アップグレードを実行する';
 $string['gotoinstallpage'] = '拡張機能ページ経由でインストールする';
 $string['successfullyinstalled'] = 'Maharaが正常にインストールされました!';
-$string['thefollowingupgradesareready'] = '下記アップグレードの準備ができました:';
+$string['thefollowingupgradesareready'] = '以下のアップグレードの準備ができました:';
 $string['thefollowingpluginsareready'] = '次の新しいプラグインを利用できます:';
 $string['registerthismaharasite'] = 'このMaharaサイトを登録する';
 $string['upgradeloading'] = '読み込み中 ...';
