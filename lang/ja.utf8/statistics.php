@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-09-25 18:27:25 UTC
+ * @updated    2019-10-30 13:39:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -449,7 +449,7 @@ $string['noearliestdate'] = 'このレポートに記録されたデータはあ
 $string['submissions'] = '提出';
 $string['reportdescassessments'] = '<ul>
 <li>提出タイプ</li>
-<li>ポートフォリオ名</li>
+<li>ポートフォリオタイトル</li>
 <li>ポートフォリオオーナー</li>
 <li>提出先グループ</li>
 <li>提出日</li>

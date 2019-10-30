@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-10-30 06:41:58 UTC
+ * @updated    2019-10-30 13:51:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,7 +20,7 @@ $string['header'] = 'ヘッダ';
 $string['blockheading'] = 'ブロックヘッディング';
 $string['themedefault'] = 'テーマデフォルト';
 $string['blockheaderfontfamily'] = 'ブロックヘッダフォント';
-$string['blockheaderfontcolor'] = 'ブロックヘッダフォント色';
+$string['blockheaderfontcolor'] = 'ブロックヘッダテキスト色';
 $string['headerbackgroundcolor'] = 'ヘッダ背景色';
 $string['headerbackgroundcolordescription'] = 'ページヘッダの背景色です。ヘッダ背景イメージが選択された場合、これは表示されません。';
 $string['headerbackgroundimage'] = 'ヘッダ背景イメージ';
@@ -138,7 +138,8 @@ $string['headerlogoimagelight1'] = '白色Maharaロゴおよびテキスト (暗
 $string['headerlogoimagedark1'] = '暗色Maharaロゴおよびテキスト (明色のヘッダ背景に適しています)';
 $string['normallinkcolor'] = '通常リンク色';
 $string['hoverlinkcolor1'] = 'フォーカス時のリンク色';
-$string['linkunderlined'] = '下線リンク';
+$string['normallinkunderlined'] = '下線通常リンク';
+$string['hoverlinkunderlined'] = '下線ホバーリンク';
 $string['tableborder'] = 'テーブル枠線色';
 $string['tableheader'] = 'ヘッダ背景色';
 $string['tableheadertext'] = 'ヘッダテキスト色';
