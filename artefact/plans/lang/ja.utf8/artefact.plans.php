@@ -15,7 +15,7 @@ defined('INTERNAL') || die();
 
 $string['pluginname'] = 'プラン';
 $string['groupplans'] = 'プラン';
-$string['canteditdontownplan'] = 'あなたの所有ではないためこのプランを編集することはできません。';
+$string['canteditdontownplan'] = 'あなたの所有ではないためこのプランを編集できません。';
 $string['description'] = '説明';
 $string['deleteplanconfirm'] = '本当にこのプランを削除してもよろしいですか? このプランを削除することでプランの中に含まれるすべてのタスクも削除されます。';
 $string['deleteplan'] = 'プランを削除する';
