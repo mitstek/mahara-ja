@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-11-07 04:27:12 UTC
+ * @updated    2019-11-10 13:05:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -40,11 +40,11 @@ $string['templateplan'] = 'テンプレート';
 $string['planstasksdescription'] = 'あなたのプランの作成を開始するには以下でタスクを追加するか「 %s 」ボタンを使用してください。';
 $string['saveplan'] = 'プランを保存する';
 $string['title'] = 'タイトル';
-$string['titledesc'] = 'それぞれのプランブロックタイプ内タスクに表示するためにタイトルが使用されます。';
+$string['titledesc'] = 'プランブロックタイプ内のそれぞれのタスクに表示するためタイトルが使用されます。';
 $string['addtask'] = 'タスクを追加する';
 $string['addtaskspecific'] = '「 %s 」にタスクを追加する';
 $string['alltasks'] = 'すべてのタスク';
-$string['canteditdontowntask'] = 'あなたの所有ではないためこのタスクを編集することはできません。';
+$string['canteditdontowntask'] = 'あなたの所有ではないためこのタスクは編集できません。';
 $string['completed'] = '完了';
 $string['incomplete'] = '未完了';
 $string['overdue'] = '期限切れ';
