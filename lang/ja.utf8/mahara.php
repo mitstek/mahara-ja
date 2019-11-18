@@ -943,7 +943,7 @@ $string['controlyourprivacylinked'] = 'あなたの<a href="%s">プライバシ�
 $string['discusstopicslinked'] = '<a href="%s">トピック</a>を議論する';
 $string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールできます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
-$string['filenotfound'] = 'ファイルが見つかりませんでした。';
+$string['filenotfound'] = 'ファイルは見つかりませんでした。';
 $string['betweenxandy'] = '範囲: %s - %s';
 $string['cleanurlallowedcharacters'] = '半角英数小文字および「-」のみ許可されます。';
 $string['content'] = 'コンテンツ';
