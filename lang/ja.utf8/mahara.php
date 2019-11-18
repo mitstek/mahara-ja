@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-11-13 07:22:35 UTC
+ * @updated    2019-11-18 00:01:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1177,8 +1177,8 @@ $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['blockinstanceownerchange'] = 'このブロックを編集して表示するコンテンツを選択します。';
 $string['blockinstanceconfigownerauto'] = 'このブロックがユーザのプロファイルページとしてコピーされた場合、データとともに自動的に追加されます。';
 $string['blockinstanceconfigownerchange'] = 'このブロックがコンテンツを表示するためユーザのプロファイルページとしてコピーされた場合、編集/設定する必要があります。';
-$string['filenotfound'] = 'ファイルが見つかりませんでした。';
-$string['filenotfoundmaybeexpired'] = 'ファイルが見つかりませんでした。あなたのエクスポートファイルは作成後24時間のみ存在します。あなたのコンテンツを再度エクスポートする必要があります。';
+$string['filenotfound'] = 'ファイルは見つかりませんでした。';
+$string['filenotfoundmaybeexpired'] = 'ファイルは見つかりませんでした。あなたのエクスポートファイルは作成後24時間のみ存在します。あなたのコンテンツを再度エクスポートする必要があります。';
 $string['betweenxandy'] = '範囲: %s - %s';
 $string['cleanurlallowedcharacters'] = '半角英数小文字および「-」のみ許可されます。';
 $string['content'] = 'コンテンツ';

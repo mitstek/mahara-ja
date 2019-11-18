@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-09-25 08:17:40 UTC
+ * @updated    2019-11-18 00:00:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -146,7 +146,7 @@ $string['movefailednotowner'] = 'あなたにはこのフォルダにファイ�
 $string['movefailed'] = '移動に失敗しました。';
 $string['movingfailed'] = '移動に失敗しました: ファイルまたはフォルダはすでに存在しません。';
 $string['nametoolong'] = '名称が長すぎます。さらに短い名称を入力してください。';
-$string['nofilesfound'] = 'ファイルが見つかりませんでした。';
+$string['nofilesfound'] = 'ファイルは見つかりませんでした。';
 $string['notpublishable'] = 'あなたにはこのファイルを公開するパーミッションがありません。';
 $string['overwrite'] = '上書き';
 $string['Owner'] = 'オーナー';
