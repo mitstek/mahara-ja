@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-11-17 05:35:23 UTC
+ * @updated    2019-11-19 10:23:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -92,9 +92,9 @@ $string['editassignedoutcome'] = 'ポートフォリオを開く';
 $string['submitassignedoutcome'] = '評価のために送信する';
 $string['outcomeiscurrentlysubmitted'] = '現在、このポートフォリオは評価のため送信されています。';
 $string['template'] = 'テンプレート';
-$string['templatedescription'] = 'このプランをグループプラン作成のためのテンプレートとして使用します。';
+$string['templatedescription'] = 'このプランをグループプラン作成のテンプレートとして使用します。';
 $string['startdate'] = '開始日';
-$string['startdatedescription'] = 'フォーマット %s を使用してください。テンプレートのデフォルト開始日はグループの編集可能開始日より取得されます。';
+$string['startdatedescription'] = 'フォーマット %s を使用してください。テンプレートタスクとしてデフォルト開始日はグループの編集可能開始日より取得されます。';
 $string['reminder'] = 'リマインダ';
 $string['reminderdescription'] = '完了日に関するリマインダ通知を送信します。';
 $string['taskview'] = 'タスクページ';
