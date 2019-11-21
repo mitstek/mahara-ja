@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-11-19 10:23:51 UTC
+ * @updated    2019-11-21 07:18:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -98,11 +98,11 @@ $string['startdatedescription'] = 'フォーマット %s を使用してくだ�
 $string['reminder'] = 'リマインダ';
 $string['reminderdescription'] = '完了日に関するリマインダ通知を送信します。';
 $string['taskview'] = 'タスクページ';
-$string['taskviewdescription'] = 'このタスクに詳細タスク説明ページを結びつけます。';
+$string['taskviewdescription'] = 'このタスクと詳細タスク説明ページを結びつけます。';
 $string['outcome'] = '課題ポートフォリオ';
-$string['outcomedescription'] = 'このタスクを終了するためポートフォリオを結びつけてください。注意: このポートフォリオは1つのタスクにのみ使用できます。';
+$string['outcomedescription'] = 'このタスクを終了するにはポートフォリオを結びつけてください。注意: このポートフォリオは1つのタスクでのみ使用できます。';
 $string['selectionplan'] = '課題タスク';
-$string['selectionplandescription'] = 'このテンプレートプランに基づいてグループ内でプランが作成された後、グループメンバーは課題を完了するためこのプランのタスクを選択できます。';
+$string['selectionplandescription'] = 'このテンプレートプランに基づいてグループ内でプランが作成された後、グループメンバーは課題を完了するためこのプランのタスクを選択できます。このオプションはテンプレートが作成された場合のみ利用できます。';
 $string['none'] = 'なし';
 $string['startdatemustbebeforecompletiondate'] = '開始日は完了日の前に設定してください。';
 $string['completiondatemustbeinfuture'] = '完了日は未来の日付にする必要があります。';
