@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-04-12 01:45:08 UTC
+ * @updated    2019-11-24 11:58:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,7 +18,7 @@ $string['title'] = '内部';
 $string['description'] = 'Maharaデータベースで認証する';
 $string['completeregistration'] = '登録を完了する';
 $string['emailalreadytaken'] = 'このメールアドレスはすでにここで登録されています。';
-$string['emailalreadytakenbyothers'] = 'このメールアドレスはすでに別のユーザによって取得されています。';
+$string['emailalreadytakenbyothers'] = 'このメールアドレスはすでに別のユーザに取得されています。';
 $string['iagreetothetermsandconditions'] = '私は利用条件に同意します。';
 $string['passwordinvalidform1'] = 'あなたのパスワードは少なくとも半角英数字 %s 文字にしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。あなたのパスワードには %s を含む必要があります。';
 $string['recaptcharegistertitle'] = 'reCAPTCHAチャレンジ';
