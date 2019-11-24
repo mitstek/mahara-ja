@@ -39,7 +39,7 @@ $string['passwordinvalidform'] = 'あなたのパスワードには少なくと�
 $string['registeredemailsubject'] = 'あなたは %s に登録されました。';
 $string['registeredemailmessagetext'] = '%s さん
 
-%s へのご登録ありがとうございます。サインアップ処理を完了するには次のリンクにアクセスしてください:
+%s へのご登録ありがとうございます。サインアップ手続きを完了するには次のリンクにアクセスしてください:
 
 register.php?key=%s
 
@@ -48,7 +48,7 @@ register.php?key=%s
 --
 %s チーム';
 $string['registeredemailmessagehtml'] = '<p>%s さん</p>
-<p>%s へのご登録ありがとうございます。サインアップ処理を完了するには次のリンクにアクセスしてください:</p>
+<p>%s へのご登録ありがとうございます。サインアップ手続きを完了するには次のリンクにアクセスしてください:</p>
 <p><a href="register.php?key=%s">register.php?key=%s</a></p>
 <p>リンクは24時間で有効期限が切れます。</p>
 
