@@ -23,11 +23,11 @@ $string['webserviceconnectionsconfigdesc'] = '登録済みプラグインの接�
 $string['completeregistration'] = '登録を完了する';
 $string['emailalreadytaken'] = 'このメールアドレスはすでにここで登録されています。';
 $string['iagreetothetermsandconditions'] = '私は利用条件に同意します。';
-$string['passwordinvalidform1'] = 'あなたのパスワードは少なくとも半角英数字 %s 文字にしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。あなたのパスワードには %s を含む必要があります。';
+$string['passwordinvalidform1'] = 'あなたのパスワードは少なくとも半角英数字 %s 文字の長さにしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。あなたのパスワードには %s を含む必要があります。';
 $string['registeredemailsubject'] = 'あなたは %s に登録されました。';
 $string['registeredemailmessagetext'] = '%s さん
 
-%s へのご登録ありがとうございます。サインアップ処理を完了するには次のリンクにアクセスしてください:
+%s へのご登録ありがとうございます。サインアップ手続きを完了するには次のリンクにアクセスしてください:
 
 %sregister.php?key=%s
 
@@ -39,7 +39,7 @@ $string['registeredemailmessagetextmessage'] = '%s さん
 
 %s へのご登録ありがとうございます。
 
-サインアップ処理を完了するには次のリンクにアクセスしてください:
+サインアップ手続きを完了するには次のリンクにアクセスしてください:
 
 %sregister.php?key=%s
 
@@ -52,7 +52,7 @@ $string['registeredemailmessagetextmessage'] = '%s さん
 $string['registeredemailmessagehtmlmessage'] = '<p>%s さん</p>
 
 <p>%s へのご登録ありがとうございます。</p>
-<p>サインアップ処理を完了するには次のリンクにアクセスしてください:</p>
+<p>サインアップ手続きを完了するには次のリンクにアクセスしてください:</p>
 <p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>
 <p>リンクは24時間で有効期限が切れます。</p>
 
@@ -62,7 +62,7 @@ $string['registeredemailmessagehtmlmessage'] = '<p>%s さん</p>
 %s チーム</pre>';
 $string['registeredemailmessagehtml'] = '<p>%s さん</p>
 
-<p>%s へのご登録ありがとうございます。サインアップ処理を完了するには次のリンクにアクセスしてください:</p>
+<p>%s へのご登録ありがとうございます。サインアップ手続きを完了するには次のリンクにアクセスしてください:</p>
 <p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>
 <p>リンクは24時間で有効期限が切れます。</p>
 

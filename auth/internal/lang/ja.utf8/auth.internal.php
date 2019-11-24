@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-11-24 11:58:30 UTC
+ * @updated    2019-11-24 20:26:28 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,13 +20,13 @@ $string['completeregistration'] = '登録を完了する';
 $string['emailalreadytaken'] = 'このメールアドレスはすでにここで登録されています。';
 $string['emailalreadytakenbyothers'] = 'このメールアドレスはすでに別のユーザに取得されています。';
 $string['iagreetothetermsandconditions'] = '私は利用条件に同意します。';
-$string['passwordinvalidform1'] = 'あなたのパスワードは少なくとも半角英数字 %s 文字にしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。あなたのパスワードには %s を含む必要があります。';
+$string['passwordinvalidform1'] = 'あなたのパスワードは少なくとも半角英数字 %s 文字の長さにしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。あなたのパスワードには %s を含む必要があります。';
 $string['recaptcharegistertitle'] = 'reCAPTCHAチャレンジ';
 $string['recaptcharegisterdesc2'] = '続けるには「私はロボットではありません」チェックボックスをチェックしてください。';
 $string['registeredemailsubject'] = 'あなたは %s に登録されました。';
 $string['registeredemailmessagetext'] = '%s さん
 
-%s へのご登録ありがとうございます。サインアップ処理を完了するには次のリンクにアクセスしてください:
+%s へのご登録ありがとうございます。サインアップ手続きを完了するには次のリンクにアクセスしてください:
 
 %sregister.php?key=%s
 
@@ -35,7 +35,7 @@ $string['registeredemailmessagetext'] = '%s さん
 --
 %s チーム';
 $string['registeredemailmessagehtml'] = '<p>%s さん</p>
-<p>%s へのご登録ありがとうございます。サインアップ処理を完了するには次のリンクにアクセスしてください:</p>
+<p>%s へのご登録ありがとうございます。サインアップ手続きを完了するには次のリンクにアクセスしてください:</p>
 <p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>
 <p>リンクは24時間で有効期限が切れます。</p>
 
