@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-11-24 20:26:28 UTC
+ * @updated    2019-11-26 07:18:58 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -42,7 +42,7 @@ $string['registeredemailmessagehtml'] = '<p>%s さん</p>
 <pre>--
 %s チーム</pre>';
 $string['registeredok'] = '<p>あなたは正常にユーザ登録されました。アカウントを有効化するためあなたのメールアドレス宛に送信されたインストラクションをご覧ください。</p>';
-$string['registrationexpiredkey'] = '申し訳ございません、あなたのキーの有効期限が切れています。恐らく、あなたが登録を完了するため24時間以上待機していたと思われます。そうでない場合、これは私たちに責任があります';
+$string['registrationexpiredkey'] = '申し訳ございません、あなたのキーの有効期限が切れています。恐らく、あなたが登録を完了するため24時間以上待機していたと思われます。そうでない場合、これは私たちに責任があります。';
 $string['registrationnosuchid'] = '申し訳ございません、この登録キーは存在しません。恐らく、すでに有効化されていると思われます。';
 $string['registrationnosuchkey1'] = '申し訳ございません、私たちにはあなたのリンクに合致するキーがありません。恐らく、あなたのメールプログラムが壊したと思われます。';
 $string['registrationunsuccessful'] = '申し訳ございません、あなたのユーザ登録は正常に完了しませんでした。これはあなたではなく、私たちに責任があります。後ほど再度お試しください。';
