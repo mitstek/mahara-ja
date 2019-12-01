@@ -59,7 +59,7 @@ $string['registrationnosuchkey'] = '申し訳ございません、このキー�
 $string['registrationunsuccessful'] = '申し訳ございません、あなたのユーザ登録は正常に完了しませんでした。これはあなたではなく、私たちに責任があります。後ほど再度お試しください。';
 $string['usernamealreadytaken'] = '申し訳ございません、このユーザ名はすでに取得されています。';
 $string['usernameinvalidform'] = 'ユーザ名には半角英数字および標準的な記号を使用できます。ユーザ名の長さは半角3-30文字の間にしてください。空白は許可されません。';
-$string['youmaynotregisterwithouttandc'] = '<a href="terms.php">利用条件</a>の順守に同意しない限り、あなたはユーザ登録されません。';
+$string['youmaynotregisterwithouttandc'] = '<a href="terms.php">利用条件</a>の順守に同意しない限り、あなたは登録できません。';
 $string['youmustagreetothetermsandconditions'] = 'あなたは<a href="terms.php">利用条件</a>に同意する必要があります。';
 
 ?>
