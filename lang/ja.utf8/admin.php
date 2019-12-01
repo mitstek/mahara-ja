@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-11-18 00:01:06 UTC
+ * @updated    2019-12-01 23:22:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -406,7 +406,8 @@ $string['searchuserspublic'] = 'パブリック検索にユーザを表示する
 $string['searchuserspublicdescription'] = 'パブリック検索結果にユーザの氏名の表示を許可します。これには「publicsearchallowed」を「true」に設定してパブリック検索を許可する検索プラグイン (例 Elasticsearch) を使用する必要があります。この設定を変更するには検索インデックスの再構築が必要です。';
 $string['sessionlifetime'] = 'セッションライフタイム';
 $string['sessionlifetimedescription'] = '活動していないログインユーザが自動的にログアウトされる時間 (分) です。';
-$string['setsiteoptionsfailed'] = '%s オプションの設定に失敗しました。';
+$string['setsiteoptionsfailed1'] = 'このオプションの設定に失敗しました。';
+$string['setsiteoptionsfailednotice'] = '%s フィールドオプションの設定に失敗しました。';
 $string['showonlineuserssideblock'] = 'オンラインユーザを表示する';
 $string['showonlineuserssideblockdescriptionmessage1'] = 'ユーザにオンラインユーザ一覧のサイドバーが表示されます。';
 $string['showselfsearchsideblock1'] = 'ポートフォリオ検索';
