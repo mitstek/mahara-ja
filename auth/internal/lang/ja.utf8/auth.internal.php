@@ -60,6 +60,6 @@ $string['registrationunsuccessful'] = '申し訳ございません、あなた�
 $string['usernamealreadytaken'] = '申し訳ございません、このユーザ名はすでに取得されています。';
 $string['usernameinvalidform'] = 'ユーザ名には半角英数字および標準的な記号を使用できます。ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
 $string['usernameinvalidadminform'] = 'ユーザ名には半角英数字および標準的な記号を使用できます。ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
-$string['youmaynotregisterwithouttandc'] = '<a href="terms.php">利用条件</a>の順守に同意しない限り、あなたはユーザ登録されません。';
+$string['youmaynotregisterwithouttandc'] = '<a href="terms.php">利用条件</a>の順守に同意しない限り、あなたは登録できません。';
 
 ?>
