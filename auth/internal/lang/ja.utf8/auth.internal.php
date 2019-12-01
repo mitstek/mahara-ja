@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-11-26 07:18:58 UTC
+ * @updated    2019-12-01 09:31:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -49,7 +49,7 @@ $string['registrationunsuccessful'] = '申し訳ございません、あなた�
 $string['usernamealreadytaken1'] = '申し訳ございません、あなたはこのユーザ名を使用できません。新しいユーザ名を選択してください。';
 $string['usernameinvalidform'] = 'ユーザ名には半角英数字および標準的な記号を使用できます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
 $string['usernameinvalidadminform'] = 'ユーザ名には半角英数字および標準的な記号を使用できます。ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
-$string['youmaynotregisterwithouttandc'] = '<a href="#user_acceptterms">利用条件</a>の順守に同意しない限り、あなたはユーザ登録されません。';
+$string['youmaynotregisterwithouttandc'] = '<a href="#user_acceptterms">利用条件</a>の順守に同意しない限り、あなたは登録できません。';
 $string['confirmcancelregistration'] = '本当にこの登録をキャンセルしてもよろしいですか? キャンセルの結果としてあなたのリクエストがシステムから削除されます。';
 $string['confirmemailsubject'] = '%s 登録のメール確認';
 $string['approvalemailsubject'] = '%s 登録リクエスト受信';
@@ -67,7 +67,7 @@ $string['approvalemailmessagehtml'] = '<p>%s さん</p>
 $string['emailconfirmedok'] = '<p>正常にあなたのメールを確認しました。まもなく登録詳細に関してあなた宛にメールが送信されます。</p>';
 $string['registrationcancelledok'] = 'あなたは正常に登録申請をキャンセルしました。';
 $string['registrationconfirm'] = '登録を承認しますか?';
-$string['registrationconfirmdescription'] = 'インスティテューション管理者が登録を承認する必要があります。';
+$string['registrationconfirmdescription'] = 'インスティテューション管理者により登録が承認される必要があります。';
 $string['registrationdeniedemailsubject'] = '%s への登録却下';
 $string['registrationdeniedmessage'] = '%s さん、こんにちは。
 
