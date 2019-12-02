@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-12-01 09:31:41 UTC
+ * @updated    2019-12-02 22:12:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -93,7 +93,7 @@ $string['pendingregistrationadminemailtext'] = '%s さん、こんにちは。
 
 新しいユーザがインスティテューション「 %s 」への参加をリクエストしました。
 
-このインスティテューションを管理する者として登録されているためあなたはこの登録リクエストを承認または拒否する必要があります。この処理を実行するには次のリンクにアクセスしてください: %s
+このインスティテューションの管理者として登録されているためあなたはこの登録リクエストを承認または拒否する必要があります。この処理を実行するには次のリンクにアクセスしてください: %s
 
 あなたはこの登録リクエストを %s 以内に承認または拒否する必要があります。
 
@@ -110,7 +110,7 @@ $string['pendingregistrationadminemailhtml'] = '<p>%s さん、こんにちは�
 
 <p>新しいユーザがインスティテューション「 %s 」への参加をリクエストしました。</p>
 
-<p>このインスティテューションを管理する者として登録されているためあなたはこの登録リクエストを承認または拒否する必要があります。この処理を実行するには次のリンクにアクセスしてください:<a href=%s>%s</a></p>
+<p>このインスティテューションの管理者として登録されているためあなたはこの登録リクエストを承認または拒否する必要があります。この処理を実行するには次のリンクにアクセスしてください:<a href=%s>%s</a></p>
 
 <p>登録理由詳細は以下のとおりです:</p>
 
