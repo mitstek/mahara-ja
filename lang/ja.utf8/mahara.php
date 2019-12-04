@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-11-18 00:01:36 UTC
+ * @updated    2019-12-04 01:25:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -82,7 +82,7 @@ $string['notobjectionable'] = '好ましくないコンテンツではない';
 $string['reportobjectionablematerial'] = '好ましくないコンテンツを報告する';
 $string['objectionablematerialreported'] = '好ましくないコンテンツ報告';
 $string['objectionablematerialreportedowner'] = '誰かがあなたのページに好ましくないコンテンツが含まれていると報告しました。あなたのページをレビューして必要に応じて調整してください。';
-$string['objectionablematerialreportedreply'] = 'あなたが変更した場合、または詳しい説明を求める場合、管理者に通知するため「好ましくないコンテンツをレビューする」ボタンをクリックしてください。';
+$string['objectionablematerialreportedreply'] = 'あなたが変更した場合、または詳しい説明を求める場合、管理者に知らせるため「好ましくないコンテンツをレビューする」ボタンをクリックしてください。';
 $string['objectionablematerialreportreplied'] = '管理者がページをレビューしましたがまだ好ましくないコンテンツが含まれているようです。詳細情報はあなたの通知を確認してください。あなたは変更して「好ましくないコンテンツをレビューする」ボタンをクリックすることにより管理者にメッセージを送信できます。または詳しい説明を求めることができます。';
 $string['objectionreviewsent'] = '異議レビューがページオーナーに送信されました。あなたが調整して別のレビューを送信したい場合、「まだ好ましくない」をクリックしてください。';
 $string['lastobjection'] = '最新異議';
