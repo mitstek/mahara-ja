@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-10-07 01:50:50 UTC
+ * @updated    2019-12-10 03:49:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -55,7 +55,7 @@ $string['element.passwordpolicy.uln'] = '大文字小文字、数字';
 $string['element.passwordpolicy.ulns'] = '大文字小文字、数字、記号';
 $string['element.select.other'] = 'その他';
 $string['element.select.remove'] = '「 %s 」を削除する';
-$string['element.color.transparent'] = 'デフォルト';
+$string['element.color.transparent1'] = 'テーマデフォルト';
 $string['element.font.themedefault'] = 'テーマフォントを使用する';
 $string['rule.before.before'] = 'フィールド「 %s 」の後に設定することはできません';
 $string['rule.email.email'] = 'メールアドレスが有効ではありません';
