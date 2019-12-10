@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-10-07 02:03:24 UTC
+ * @updated    2019-12-10 03:52:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,7 +16,11 @@ defined('INTERNAL') || die();
 $string['pluginname'] = 'スキン';
 $string['myskins'] = 'スキン';
 $string['siteskinmenu'] = 'スキン';
+$string['header'] = 'ヘッダ';
+$string['blockheading'] = 'ブロックヘッディング';
 $string['themedefault'] = 'テーマデフォルト';
+$string['blockheaderfontfamily'] = 'ブロックヘッダフォント';
+$string['blockheaderfontcolor'] = 'ブロックヘッダテキスト色';
 $string['headerbackgroundcolor'] = 'ヘッダ背景色';
 $string['headerbackgroundcolordescription'] = 'ページヘッダの背景色 - ヘッダイメージが選択されていない場合、これは表示されません。';
 $string['headerbackgroundimage'] = 'ヘッダ背景イメージ';
@@ -93,8 +97,8 @@ $string['bodybgcolor1'] = '背景色';
 $string['viewbgcolor'] = 'ページ背景色';
 $string['textcolor'] = 'テキスト色';
 $string['textcolordescription'] = 'これは通常テキストの色です。';
-$string['headingcolor'] = 'ヘッディングテキスト色';
-$string['headingcolordescription'] = 'これはページヘッディングの色です。';
+$string['headingcolor1'] = 'ヘッダテキスト色';
+$string['headingcolordescription2'] = 'これはヘッダエリアのテキスト色です。';
 $string['emphasizedcolor'] = '強調テキスト色';
 $string['emphasizedcolordescription'] = 'これはページサブヘッディングおよび強調テキストの色です。';
 $string['bodybgimage1'] = '背景イメージ';
@@ -133,8 +137,9 @@ $string['headerlogoimagenormal'] = 'デフォルトテーマロゴ';
 $string['headerlogoimagelight1'] = '白色Maharaロゴおよびテキスト (暗色のヘッダ背景に適しています)';
 $string['headerlogoimagedark1'] = '暗色Maharaロゴおよびテキスト (明色のヘッダ背景に適しています)';
 $string['normallinkcolor'] = '通常リンク色';
-$string['hoverlinkcolor'] = 'ハイライトリンク色';
-$string['linkunderlined'] = '下線リンク';
+$string['hoverlinkcolor1'] = 'フォーカス時のリンク色';
+$string['normallinkunderlined'] = '下線通常リンク';
+$string['hoverlinkunderlined'] = '下線ホバーリンク';
 $string['tableborder'] = 'テーブル枠線色';
 $string['tableheader'] = 'ヘッダ背景色';
 $string['tableheadertext'] = 'ヘッダテキスト色';
