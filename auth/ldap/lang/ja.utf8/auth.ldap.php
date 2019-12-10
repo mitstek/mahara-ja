@@ -18,7 +18,7 @@ $string['ldapconfig'] = 'LDAP設定';
 $string['description'] = 'LDAPサーバで認証する';
 $string['notusable'] = 'PHP LDAP拡張モジュールをインストールしてください。';
 $string['attributename'] = '値を基にグループを同期する場合に使用するLDAP属性名です (必須および大文字小文字を区別します)。';
-$string['cannotdeleteandsuspend'] = '同時に -d および -s を指定することはできません。';
+$string['cannotdeleteandsuspend'] = '「-d」および「-s」は同時に指定できません。';
 $string['cli_info_sync_groups'] = 'このコマンドラインPHPスクリプトはLDAPディレクトリとグループのインスティテューションリストの同期を試みます。
 存在しないグループは作成され「インスティテューション名 : LDAP属性値」のような名称になります。';
 $string['cli_info_sync_groups_attribute'] = 'このコマンドラインPHPスクリプトはLDAP属性の異なる値を基にLDAPディレクトリとグループのインスティテューションリストの同期を試みます。
