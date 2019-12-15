@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-12-10 04:00:23 UTC
+ * @updated    2019-12-15 04:10:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -28,7 +28,7 @@ $string['contexts'] = 'コンテクスト';
 $string['distinguishedname'] = '識別名';
 $string['dodelete'] = 'LDAPに存在しなくなったアカウントを削除する';
 $string['dosuspend'] = 'LDAPに存在しなくなったアカウントを利用停止する';
-$string['doupdate'] = 'LDAPデータ (LONG) により既存のアカウントを更新する';
+$string['doupdate'] = '既存のアカウントをLDAPデータ (long) で更新する';
 $string['dryrun'] = 'ダミー実行です。データベース処理は実行されません。';
 $string['excludelist'] = 'これらの正規表現に名称が合致するLDAPグループを除く';
 $string['extrafilterattribute'] = 'ユーザ検索を制限するための追加LDAPフィルタ';
