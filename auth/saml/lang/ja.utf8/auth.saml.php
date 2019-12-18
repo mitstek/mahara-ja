@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-12-16 02:23:36 UTC
+ * @updated    2019-12-18 07:12:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -34,10 +34,10 @@ $string['description'] = 'SAML 2.0アイデンティティプロバイダサー�
 $string['disco'] = 'アイデンティティプロバイダディスカバリ';
 $string['errorbadinstitution'] = 'ユーザ接続のインスティテューションが解決されませんでした。';
 $string['errorbadssphp'] = '無効なSimpleSAMLphpセッションハンドラです: PHPセッションを使用しないでください。';
-$string['errorbadssphpmetadata'] = '無効なSimpleSAMLphp設定です: 設定されたアイデンティティプロバイダメタデータはありません。';
+$string['errorbadssphpmetadata'] = '無効なSimpleSAMLphp設定です: 設定されたアイデンティティプロバイダメタデータがありません。';
 $string['errorbadssphpspentityid'] = '無効なサービスプロバイダエンティティIDです。';
 $string['errorextrarequiredfield'] = '「こちらでユーザを自動作成する」が有効にされている場合、このフィールドは必須です。';
-$string['errorretryexceeded'] = '再試行の最大回数 (%s) を越えました。アイデンティティサービスに問題があります。';
+$string['errorretryexceeded'] = '再試行の最大回数 (%s) を越えました: アイデンティティサービスに問題があります。';
 $string['errnosamluser'] = 'ユーザが見つかりませんでした。';
 $string['errorssphpsetup'] = 'SAMLが正しくセットアップされていません。あなたは最初にコマンドラインから「make ssphp」を実行する必要があります。';
 $string['errorbadlib'] = 'SimpleSAMLPHPライブラリの「autoloader」ファイルが %s にありません。<br />あなたが「make ssphp」を使ってSimpleSAMLphpをインストールしていることを確認してください。また、ファイルを読み込むことができるか確認してください。';
