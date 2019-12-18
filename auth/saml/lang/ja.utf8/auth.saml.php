@@ -31,7 +31,7 @@ defined('INTERNAL') || die();
 $string['defaultinstitution'] = 'デフォルトインスティテューション';
 $string['description'] = 'SAML 2.0 IdPサービスで認証する';
 $string['errorbadinstitution'] = 'ユーザ接続のインスティテューションが解決されませんでした。';
-$string['errorretryexceeded'] = '再試行の最大回数 (%s) を越えました。アイデンティティサービスに問題があります。';
+$string['errorretryexceeded'] = '再試行の最大回数 (%s) を越えました: アイデンティティサービスに問題があります。';
 $string['errnosamluser'] = 'ユーザが見つかりませんでした。';
 $string['errorbadlib'] = 'SimpleSAMLPHPライブラリディレクトリ「 %s 」が正しくありません。';
 $string['errorbadconfig'] = 'SimpleSAMLPHP設定ディレクトリ「 %s 」が正しくありません。';
