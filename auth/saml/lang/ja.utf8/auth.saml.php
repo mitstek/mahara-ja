@@ -37,7 +37,7 @@ $string['errorbadconfig'] = 'SimpleSAMLPHP設定ディレクトリ %s が正し�
 $string['errorbadmetadata'] = 'SAMLメタデータのフォーマットが正しくありません。XMLに1つの有効なアイデンティティプロバイダが含まれていることを確認してください。';
 $string['errorbadinstitutioncombo'] = 'このインスティテューション属性およびインスティテューション値の組み合わせの認証インスタンスはすでに存在します。';
 $string['errormissingmetadata'] = 'あなたは新しいアイデンティティプロバイダメタデータの追加を選択しましたが何も提供されていません。';
-$string['errormissinguserattributes1'] = 'あなたは認証されたようですが私たちは必要なユーザ属性を受信していません。あなたのアイデンティティプロバイダが姓名およびメールアドレスに対するSSOフィールドを %s にリリースしているか確認してください。または管理者にご連絡ください。';
+$string['errormissinguserattributes1'] = 'あなたは認証されたようですが私たちは必要なユーザ属性を受信していません。あなたのアイデンティティプロバイダがSSOの姓名およびメールアドレスフィールドを %s にリリースしているか確認してください。または管理者にご連絡ください。';
 $string['errorregistrationenabledwithautocreate1'] = 'インスティテューションが登録を有効にしています。あなたがリモートユーザ名を使用していない限りセキュリティ上の理由からユーザの自動作成を許可しません。';
 $string['errorremoteuser1'] = '「usersuniquebyusername」が無効にされた場合、「remoteuser」との合致は必須です。';
 $string['IdPSelection'] = 'アイデンティティプロバイダ選択';
@@ -66,7 +66,7 @@ $string['obsoletesamlplugin'] = 'auth/samlプラグインを再設定する必�
 $string['obsoletesamlinstance'] = 'SAML認証インスタンス <a href="%s">%s</a> (「 %s 」インスティテューション) を更新する必要があります。';
 $string['reallyreallysure1'] = 'あなたはMaharaのサービスプロバイダメタデータを保存しようとしています。これは元に戻すことはできません。また、あなたの新しいメタデータをすべてのアイデンティティプロバイダと再共有するまで既存のインスティテューションに設定されているSAMLログインは動作しません。';
 $string['reset'] = 'メタデータをリセットする';
-$string['resetmetadata'] = 'Maharasメタデータの証明書をリセットします。これは元に戻すことはできません。また、あなたのメタデータをアイデンティティプロバイダと再共有する必要があります。';
+$string['resetmetadata'] = 'Maharaのメタデータの証明書をリセットします。これは元に戻すことはできません。また、あなたのメタデータをアイデンティティプロバイダと再共有する必要があります。';
 $string['samlconfig'] = 'SAML設定';
 $string['samlfieldforemail'] = 'メールアドレスのSSOフィールド';
 $string['samlfieldforfirstname'] = '名のSSOフィールド';
@@ -79,6 +79,6 @@ $string['simplesamlphplib'] = 'SimpleSAMLPHPライブラリディレクトリ';
 $string['simplesamlphpconfig'] = 'SimpleSAMLPHP設定ディレクトリ';
 $string['weautocreateusers'] = 'こちらでユーザを自動作成する';
 $string['remoteuser'] = 'ユーザ属性をリモートユーザに合致させる';
-$string['selectidp'] = 'あなたがログインしたいアイデンティティプロバイダを選択してください。';
+$string['selectidp'] = 'あなたがログインに使いたいアイデンティティプロバイダを選択してください。';
 
 ?>
