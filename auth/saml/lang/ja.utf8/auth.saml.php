@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-12-18 07:12:20 UTC
+ * @updated    2019-12-19 06:26:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -40,12 +40,12 @@ $string['errorextrarequiredfield'] = '「こちらでユーザを自動作成す
 $string['errorretryexceeded'] = '再試行の最大回数 (%s) を越えました: アイデンティティサービスに問題があります。';
 $string['errnosamluser'] = 'ユーザが見つかりませんでした。';
 $string['errorssphpsetup'] = 'SAMLが正しくセットアップされていません。あなたは最初にコマンドラインから「make ssphp」を実行する必要があります。';
-$string['errorbadlib'] = 'SimpleSAMLPHPライブラリの「autoloader」ファイルが %s にありません。<br />あなたが「make ssphp」を使ってSimpleSAMLphpをインストールしていることを確認してください。また、ファイルを読み込むことができるか確認してください。';
+$string['errorbadlib'] = 'SimpleSAMLPHPライブラリの「autoloader」ファイルが %s にありません。<br />「make ssphp」でSimpleSAMLphpをインストールできること、また、ファイルを読み込めることを確認してください。';
 $string['errorupdatelib'] = 'あなたの現在のSimpleSAMLPHPライブラリは旧バージョンです。あなたは「make cleanssphp && make ssphp」を実行する必要があります。';
 $string['errornovalidsessionhandler'] = 'SimpleSAMLphpセッションハンドラの設定が正しくないか現在サーバを利用できません。';
-$string['errornomemcache'] = 'auth/samlのためのMemcacheの設定が正しくないか現在Memcacheを利用できません。';
-$string['errornomemcache7php'] = 'auth/samlのためのMemcacheの設定が正しくないか現在Memcacheを利用できません。';
-$string['errorbadconfig'] = 'SimpleSAMLPHP設定ディレクトリ「 %s 」が正しくありません。';
+$string['errornomemcache'] = 'auth/samlのためのMemcacheの設定が正しくないか、現在Memcacheサーバを利用できません。';
+$string['errornomemcache7php'] = 'auth/samlのためのMemcacheの設定が正しくないか、現在Memcacheサーバを利用できません。';
+$string['errorbadconfig'] = 'SimpleSAMLPHP設定ディレクトリ %s が正しくありません。';
 $string['errorbadmetadata'] = 'SAMLメタデータのフォーマットが正しくありません。XMLに1つの有効なアイデンティティプロバイダが含まれていることを確認してください。';
 $string['errorbadinstitutioncombo'] = 'このインスティテューション属性およびインスティテューション値の組み合わせの認証インスタンスはすでに存在します。';
 $string['errormissingmetadata'] = 'あなたは新しいアイデンティティプロバイダメタデータの追加を選択しましたが何も提供されていません。';
