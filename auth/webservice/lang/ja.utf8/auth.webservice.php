@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-11-26 07:19:17 UTC
+ * @updated    2019-12-21 21:56:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,9 +17,9 @@ $string['webservice'] = 'ウェブサービス';
 $string['title'] = 'ウェブサービス';
 $string['description'] = 'ウェブサービスのみのユーザをMaharaのデータベースで認証する';
 $string['webservicesconfig'] = '設定';
-$string['webservicesconfigdesc'] = 'ここであなたは様々なウェブサービスルールを変更すること、有効または無効にできます。';
+$string['webservicesconfigdesc'] = 'ここであなたは様々なウェブサービスルールを設定、有効または無効にできます。';
 $string['webservicesconfigdescshort'] = 'あなたのサイトのウェブサービスアクセスを設定および管理します。';
-$string['webserviceconnectionsconfigdesc'] = '登録済みプラグインの接続オブジェクトをセットアップすることにより外部システムと通信できます。';
+$string['webserviceconnectionsconfigdesc'] = '登録済みプラグインの接続オブジェクトのセットアップにより外部システムと通信できます。';
 $string['completeregistration'] = '登録を完了する';
 $string['emailalreadytaken'] = 'このメールアドレスはすでにここで登録されています。';
 $string['iagreetothetermsandconditions'] = '私は利用条件に同意します。';
