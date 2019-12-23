@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-05 00:53:48 UTC
+ * @updated    2019-12-23 00:14:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -77,6 +77,7 @@ $string['invaliddirection'] = '無効な移動先: %s';
 $string['onlyoneprofileviewallowed'] = 'あなたは1つのプロファイルページのみ許可されています。';
 $string['cannotputblocktypeintoview'] = '%s ブロックタイプをこのページに追加できません。';
 $string['onlyoneblocktypeperview'] = '1つ以上の %s ブロックタイプをページに追加できません。';
+$string['errorat'] = '&nbsp;-&nbsp;';
 $string['unrecoverableerror'] = '回復不能なエラーが発生しました。恐らく、あなたはシステムバグに遭遇したと思われます。';
 $string['unrecoverableerrortitle'] = '%s - サイト利用不可';
 $string['parameterexception'] = '必須パラメータが指定されていません。';
@@ -99,7 +100,6 @@ $string['notinthesamegroup'] = 'あなたは同じグループのメンバーで
 $string['notinthesameinstitution'] = 'あなたは同じインスティテューションのメンバーではないためこのユーザのプロファイルを閲覧できません。';
 $string['notinstitutionmember'] = 'あなたはページが属しているインスティテューションのメンバーではないためこのページを閲覧できません。';
 $string['invalidlayoutselection'] = 'あなたは存在しないレイアウトの選択を試みました。';
-$string['invalidnumrows'] = 'あなたは許可された最大行以上のレイアウトの作成を試みました (これは可能であるべきではありません。あなたのサイト管理者にご連絡ください)。';
 $string['previewimagegenerationfailed'] = '申し訳ございません、プレビューイメージの生成中に問題が発生しました。';
 $string['viewtemplatenotfound'] = 'デフォルトのページテンプレートが見つかりませんでした。';
 $string['artefactnotfoundmaybedeleted'] = 'ID %s のアーティファクトは見つかりませんでした (もしかして削除されましたか?)。';
@@ -113,8 +113,6 @@ $string['interactioninstancenotfound'] = 'ID %s の活動インスタンスは�
 $string['invalidviewaction'] = '無効なページコントロール: %s';
 $string['invaliduser'] = '無効なユーザが選択されました。';
 $string['missingparamblocktype'] = '最初に追加するブロックタイプを選択してください。';
-$string['missingparamcolumn'] = 'カラム設定がありません。';
-$string['missingparamrow'] = '行設定がありません。';
 $string['missingparamorder'] = '並べ替え順設定がありません。';
 $string['missingparamid'] = 'IDがありません。';
 $string['themenameinvalid'] = 'テーマ名「 %s 」に無効な文字が含まれています。';
