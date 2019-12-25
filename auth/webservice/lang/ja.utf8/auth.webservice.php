@@ -56,7 +56,7 @@ $string['protocol'] = 'プロトコル';
 $string['rest'] = 'REST';
 $string['soap'] = 'SOAP';
 $string['xmlrpc'] = 'XML-RPC';
-$string['manage_certificates'] = '<a href="%s">ネットワーキング</a>サービスの一部として生成された証明書です。これらの値は特定のウェブサービストークンまたはサービスユーザに対してウェブサービスセキュリティ署名および暗号化が有効にされた場合に使用されます (XML-RPCおよびレガシーMNetのみ)。';
+$string['manage_certificates'] = '<a href="%s">ネットワーキング</a>サービスの一部として生成された証明書です。これらの値は特定のウェブサービストークンまたはサービスユーザに対してウェブサービスセキュリティ署名および暗号化が有効にされた場合にMaharaによって使用されます (XML-RPCおよびレガシーMNetのみ)。';
 $string['certificates'] = 'ネットワーク証明書';
 $string['servicefunctiongroups'] = 'サービスグループを管理する';
 $string['servicegroup'] = 'サービスグループ: %s';
