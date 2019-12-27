@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-12-19 22:09:50 UTC
+ * @updated    2019-12-27 07:09:19 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -87,6 +87,8 @@ $string['samlfieldforemail'] = 'メールアドレスのSSOフィールド';
 $string['samlfieldforfirstname'] = '名のSSOフィールド';
 $string['samlfieldforsurname'] = '姓のSSOフィールド';
 $string['samlfieldforstudentid'] = '学籍番号のSSOフィールド';
+$string['samlfieldforavatar'] = 'アバタアイコンのSSOフィールド';
+$string['samlfieldforavatardescription'] = '提供されるアバタにはBase64エンコードされたイメージストリングを含む必要があります。';
 $string['samlfieldauthloginmsg'] = '不正ログインメッセージ';
 $string['spentityid'] = 'サービスプロバイダエンティティID';
 $string['title'] = 'SAML';
@@ -107,5 +109,6 @@ $string['newkeycreated'] = '新しい鍵/証明書が作成されました。';
 $string['deleteoldkeytext'] = '古い鍵/証明書を削除する';
 $string['oldkeydeleted'] = '古い鍵/証明書が削除されました。';
 $string['keyrollfailed'] = '古い鍵/証明書の削除に失敗しました。';
+$string['ssolabelfor'] = '%s ログイン';
 
 ?>
