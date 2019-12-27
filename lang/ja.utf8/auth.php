@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-10-25 04:03:52 UTC
+ * @updated    2019-12-27 07:05:04 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -71,5 +71,6 @@ $string['warninstitutionregistration'] = '$cfg->usersuniquebyusernameが有効�
 $string['warninstitutionregistrationinstitutions'] = '次のインスティテューションでは登録が有効にされています:
 %2$s';
 $string['warnmultiinstitutionsoff'] = '$cfg->usersuniquebyusernameが有効にされていますがサイトオプション「ユーザに複数インスティテューションを許可する」は無効にされています。ログインするたびにユーザはインスティテューションを変える必要があるためこれは意味をなしません。この設定を「管理 -> サイト設定 -> サイトオプション -> インスティテューション設定」で有効にしてください。';
+$string['alternativelogins'] = '管理ログイン';
 
 ?>
