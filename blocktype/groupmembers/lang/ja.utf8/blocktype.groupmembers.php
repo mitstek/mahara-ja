@@ -30,7 +30,7 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'グループメンバー';
 $string['description'] = 'このグループのメンバー一覧を表示します。';
-$string['show_all'] = 'このグループのメンバーすべてを表示する ...';
+$string['show_all'] = 'このグループのメンバーすべてを表示する';
 $string['options_rows_title'] = '行';
 $string['options_rows_desc'] = 'あなたが表示したい行数です。';
 $string['options_columns_title'] = 'カラム';
