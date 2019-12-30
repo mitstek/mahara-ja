@@ -30,7 +30,7 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'グループメンバー';
 $string['description'] = 'このグループのメンバー一覧を表示します。';
-$string['show_all'] = 'このグループのメンバーすべてを表示する ...';
+$string['show_all'] = 'このグループのメンバーすべてを表示する';
 $string['options_numtoshow_title'] = '表示メンバー';
 $string['options_numtoshow_desc'] = 'あなたが表示したいメンバー数です。';
 $string['options_order_title'] = '表示順';
