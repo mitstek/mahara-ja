@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['defaulttitledescription'] = 'ここを空白にした場合、コレクションのタイトルが使用されます。';
 $string['collection'] = 'コレクション';
 $string['title'] = 'ナビゲーション';
-$string['description'] = 'コレクションのページのナビゲーションです。';
+$string['description'] = 'ページのコレクションのナビゲーションです。';
 $string['nocollections1'] = 'コレクションはありません。<a href="%s">コレクションを作成してください</a>。';
 $string['copytoall'] = 'すべてのページに追加する';
 $string['copytoalldesc'] = 'このページが属しているコレクション内の現在のページでナビゲーションブロックが追加されていなページすべてにナビゲーションブロックを追加します。';
