@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-22 10:20:11 UTC
+ * @updated    2020-01-03 08:14:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -267,6 +267,9 @@ $string['groupcountsbyjointype'] = 'アクセスタイプ別グループ数';
 $string['blockcountsbytype'] = 'ポートフォリオページで最も使用されたブロック';
 $string['uptodate'] = '最新';
 $string['latestversionis'] = '最新バージョン: <a href="%s">%s</a>';
+$string['latestbranchversionis'] = 'このリリースのマイナーバージョン: <a href="%s">%s</a>';
+$string['versionnotinsupport'] = '%s はサポート対象外です。';
+$string['versionnotinsupportdev'] = '未サポートの開発バージョン';
 $string['viewsbytype'] = 'タイプ別ページ';
 $string['institutionloginstabletitle'] = 'アクティブインスティテューション';
 $string['institutionloginstablesubtitle'] = '%s - %s';
