@@ -18,6 +18,6 @@ $string['description'] = 'あなたが希望するブロックタイプをプレ
 $string['placeholdertext'] = 'タイプを選択するためこのブロックを設定してください。';
 $string['defaulttitledescription'] = 'タイトルフィールドを空白にした場合、デフォルトタイトルが生成されます。';
 $string['contenttypes'] = 'コンテンツタイプ';
-$string['placeholderblocktypenotenabled'] = 'ブロックタイプ「プレースホルダ」をインストールおよび有効にする必要があります。すでにインストールされている場合、データベースのテーブル「blocktype_installed」で有効に設定してください。';
+$string['placeholderblocktypenotenabled'] = 'ブロックタイプ「プレースホルダ」をインストールおよび有効にする必要があります。すでにインストールされている場合、データベースのテーブル「blocktype_installed」で有効にしてください。';
 
 ?>
