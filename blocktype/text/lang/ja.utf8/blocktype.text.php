@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-04 09:43:02 UTC
+ * @updated    2020-01-05 01:50:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'テキスト';
-$string['description'] = 'あなたのページにテキストスニペット (抜粋) を追加します。';
+$string['description'] = 'あなたのページにテキスト抜粋を追加します。';
 $string['blockcontent'] = 'ブロックコンテンツ';
 $string['optionlegend'] = '「ノート」ブロックをコンバートする';
 $string['convertdescriptionfeatures'] = 'あなたは高度な機能を使用しない再利用可能な「ノート」ブロックを「テキスト」ブロックにコンバートできます。これらのブロックは作成されたページにのみ存在します。また、別のページでは使用できません。高度な機能には以下を含みます:
