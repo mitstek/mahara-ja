@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'テキスト';
-$string['description'] = 'あなたのページにテキストスニペット (抜粋) を追加します。';
+$string['description'] = 'あなたのページにテキスト抜粋を追加します。';
 $string['blockcontent'] = 'ブロックコンテンツ';
 $string['optionlegend'] = '「ノート」ブロックをコンバートする';
 $string['convertdescriptionfeatures'] = 'あなたは高度な機能を使用しない再利用可能な「ノート」ブロックを「テキスト」ブロックにコンバートできます。これらのブロックは作成されたページにのみ存在します。また、別のページでは使用できません。高度な機能には以下を含みます:
