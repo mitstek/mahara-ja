@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-11-18 00:00:24 UTC
+ * @updated    2020-01-07 08:11:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -332,5 +332,8 @@ $string['progress_profileicon'] = '%s プロファイル画像を追加する';
 $string['progress_video'] = '%s ビデオを追加する';
 $string['anytypeoffile'] = 'ファイル (すべてのタイプ)';
 $string['viruszipfile'] = 'ClamAVはウイルスに感染しているファイルを発見しました。あなたのアカウントから圧縮ファイルが隔離および削除されました。';
+$string['filetypenotallowed'] = '拡張子「 %s 」のファイルは許可されません。';
+$string['filetypenotmatchingmimetype'] = 'ファイル拡張子がファイルのMIMEタイプ「 %s 」に合致しません。';
+$string['validfiletypes'] = 'あなたは次のファイルタイプをアップロードできます:';
 
 ?>
