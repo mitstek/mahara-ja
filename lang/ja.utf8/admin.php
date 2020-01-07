@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-12-12 04:31:58 UTC
+ * @updated    2020-01-07 19:57:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -194,6 +194,7 @@ $string['generatedgroupurls'] = '%s グループホームページURLを生成�
 $string['generatedviewurls'] = '%s ポートフォリオページURLを生成しました。';
 $string['cleanurlsdescriptionshort'] = '人間が解読可能なURLを設定します。';
 $string['warnings'] = '警告';
+$string['applyingchanges'] = '変更を適用する';
 $string['groupcategories'] = 'グループカテゴリ';
 $string['allowgroupcategories'] = 'グループカテゴリを許可する';
 $string['enablegroupcategories'] = 'グループカテゴリを有効にする';
