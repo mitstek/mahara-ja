@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-07 19:57:51 UTC
+ * @updated    2020-01-09 01:55:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1350,5 +1350,11 @@ $string['userdeletiondeniedunsuccessful'] = 'ユーザアカウント削除の�
 $string['consented'] = '同意済み';
 $string['groupid'] = 'グループID';
 $string['blocktypeupdatedsuccess'] = 'ブロックタイプ並べ替え順を更新しました。';
+$string['groupsettings'] = 'グループ設定';
+$string['introtext'] = 'あなたは新しいグループが作成される場合に使用されるデフォルト設定を変更できます。一部の設定は特定のロールの人のみ利用できます。特定のロールの人に許可されるオプションは新しいグループを作成される場合には無視され代わりにデフォルト値が使用されます。';
+$string['savedgroupconfigsuccessfully'] = 'デフォルトグループ設定を保存しました。';
+$string['defaultreset'] = 'デフォルトにリセットする';
+$string['defaultresetlabel'] = 'リセット';
+$string['defaultresetdesc'] = '上のオプションすべてをデフォルト値にリセットします。';
 
 ?>
