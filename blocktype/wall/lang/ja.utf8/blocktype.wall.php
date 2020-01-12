@@ -30,7 +30,7 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'ウォール';
 $string['otherusertitle'] = '%s のウォール';
-$string['description'] = 'ユーザがあなたにコメントを残すことのできるエリアを表示します。';
+$string['description'] = '人がコメントをあなたに残せるエリアを表示します。';
 $string['noposts'] = '表示できるウォール投稿はありません。';
 $string['makeyourpostprivate'] = 'あなたの投稿をプライベートにする';
 $string['viewwall'] = 'ウォールを表示する';
@@ -51,6 +51,6 @@ $string['postsizelimit'] = '投稿サイズ制限';
 $string['postsizelimitdescription'] = 'ここであなたはウォールの投稿サイズを制限できます。既存の投稿は変更されません。';
 $string['postsizelimitmaxcharacters'] = '最大文字数';
 $string['postsizelimitinvalid'] = 'これは有効な数字ではありません。';
-$string['postsizelimittoosmall'] = 'この制限はゼロ以下にできません。';
+$string['postsizelimittoosmall'] = '制限はゼロより下にできません。';
 
 ?>
