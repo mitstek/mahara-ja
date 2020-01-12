@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-11 06:43:47 UTC
+ * @updated    2020-01-12 08:10:36 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,7 +15,7 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'ウォール';
 $string['otherusertitle'] = '%s のウォール';
-$string['description'] = 'ユーザがあなたにコメントを残すことのできるエリアを表示します。';
+$string['description'] = '人がコメントをあなたに残せるエリアを表示します。';
 $string['noposts'] = '表示できるウォール投稿はありません。';
 $string['makeyourpostprivate'] = 'あなたの投稿をプライベートにする';
 $string['wallpostprivate'] = 'このウォール投稿はプライベートです。';
@@ -37,7 +37,7 @@ $string['postsizelimit'] = '投稿サイズ制限';
 $string['postsizelimitdescription'] = 'ここであなたはウォールの投稿サイズを制限できます。既存の投稿は変更されません。';
 $string['postsizelimitmaxcharacters'] = '最大文字数';
 $string['postsizelimitinvalid'] = 'これは有効な数字ではありません。';
-$string['postsizelimittoosmall'] = 'この制限はゼロ以下にできません。';
+$string['postsizelimittoosmall'] = '制限はゼロより下にできません。';
 $string['newwallpostnotificationsubject'] = 'あなたのウォールの新しい投稿';
 $string['newwallpostnotificationmessage'] = '%s';
 $string['typewallpost'] = 'ウォール投稿';
