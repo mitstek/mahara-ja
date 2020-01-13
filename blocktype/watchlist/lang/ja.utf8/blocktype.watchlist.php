@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-22 16:27:47 UTC
+ * @updated    2020-01-13 04:34:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,7 +19,7 @@ $string['description'] = 'あなたのウォッチリストのページを表示
 $string['nopages'] = 'あなたのウォッチリストにページはありません。';
 $string['itemstoshow'] = '表示するアイテム数';
 $string['typetoshow'] = '表示';
-$string['typetoshowdesc'] = 'あなたのウォッチリストまたはフレンドが作成したポートフォリオからダッシュボードにページをどのように表示するか選択してください。';
+$string['typetoshowdesc'] = 'あなたのウォッチリストまたはフレンドが作成したポートフォリオからダッシュボードにページを表示するかどうか選択してください。';
 $string['noactivities'] = '選択した期間に表示するものはありません。';
 $string['list.watchlist'] = '私のウォッチリストのページ';
 $string['list.follower'] = '私のフレンドの活動';
