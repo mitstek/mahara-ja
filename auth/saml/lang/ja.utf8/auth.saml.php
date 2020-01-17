@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-12-27 07:09:19 UTC
+ * @updated    2020-01-17 02:06:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -110,5 +110,9 @@ $string['deleteoldkeytext'] = '古い鍵/証明書を削除する';
 $string['oldkeydeleted'] = '古い鍵/証明書が削除されました。';
 $string['keyrollfailed'] = '古い鍵/証明書の削除に失敗しました。';
 $string['ssolabelfor'] = '%s ログイン';
+$string['noentityidpfound'] = 'アイデンティティプロバイダIDが見つかりませんでした。';
+$string['novalidauthinstanceprovided'] = 'あなたの選択は可能ではありません。異なるインスティテューションを選択してください。';
+$string['identityprovider'] = 'アイデンティティプロバイダ';
+$string['selectmigrateto'] = '移動するインスティテューションを選択する ...';
 
 ?>
