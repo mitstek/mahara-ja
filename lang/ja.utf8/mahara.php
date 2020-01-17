@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-12-23 21:20:40 UTC
+ * @updated    2020-01-17 10:33:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -717,9 +717,7 @@ $string['institutionmembershipdescription'] = 'あなたがインスティテュ
 $string['youareamemberof'] = 'あなたは %s のメンバーです。';
 $string['leaveinstitution'] = 'インスティテューションを離れる';
 $string['reallyleaveinstitution'] = '本当にこのインスティテューションを離れてもよろしいですか?';
-$string['youhaverequestedmembershipof'] = 'あなたは %s のメンバーシップをリクエストしました。';
 $string['cancelrequest'] = 'リクエストをキャンセルする';
-$string['youhavebeeninvitedtojoin'] = 'あなたは %s への参加を招待されました。';
 $string['confirminvitation'] = '招待を承認する';
 $string['joininstitution'] = 'インスティテューションに参加する';
 $string['decline'] = '拒否';
@@ -1221,5 +1219,81 @@ $string['version.'] = 'v.';
 $string['viewartefact'] = '表示';
 $string['viewartefactdatavuamodal'] = '%s アーティファクト「 %s 」はこの方法では閲覧できなくなりました。閲覧するにはページ「 %s 」に移動してください。';
 $string['chooselanguage'] = '言語を選択する';
+$string['currentinstitutionmembership'] = '現在のインスティテューション';
+$string['selfmigration'] = 'アカウントを移動する';
+$string['migrateaccounttoinstitution'] = 'アカウントを別のインスティテューションに移動する';
+$string['migrateinstitutiondescription'] = '<div class="lead">あなたは移動先の新しいインスティテューションを選択できます。</div><p>あなたのログイン詳細の確認を要求された後、%s にリダイレクトされます。あなた宛にアカウント移動を確認するためのメールが送信されます。あなたのメールで確認メッセージを承認してアカウント移動を完了してください。</p>';
+$string['migrateemailsubject'] = '%s アカウント移動確認';
+$string['migrateemailtext'] = '%s さん、こんにちは。
+
+あなたは %s のアカウントをインスティテューション「 %s 」からインスティテューション「 %s 」に移動したいと希望しています。リンクをクリックしてこの手続きを承認してください。
+
+%s
+
+このリンクは30分間有効です。
+
+%s チーム';
+$string['migrateemailtext_html'] = '<p>%s さん、こんにちは。</p>
+
+<p>あなたは %s のアカウントをインスティテューション「 %s 」からインスティテューション「 %s 」に移動したいと希望しています。<a href="%s">あなたのアカウント移動を承認してください</a>。</p>
+
+<p>このリンクは30分間有効です。</p>
+<p>%s チーム</p>';
+$string['migrateemailtextexistinguser'] = '%s さん、こんにちは。
+
+あなたは %s のアカウントをインスティテューション「 %s 」からインスティテューション「 %s 」に移動したいと希望しています。
+
+同じユーザ名およびメールアドレス認証情報の別のアカウントが存在するため、あなたは移動できません。
+
+この問題を解決するにはインスティテューション「 %s 」の管理者にご連絡ください:
+
+%s
+
+%s チーム';
+$string['migrateemailtextexistinguser_html'] = '<p>%s さん、こんにちは。</p>
+
+<p>あなたは %s のアカウントをインスティテューション「 %s 」からインスティテューション「 %s 」に移動したいと希望しています。</p>
+
+<p>同じユーザ名およびメールアドレス認証情報の別のアカウントが存在するため、あなたは移動できません。</p>
+
+<p>この問題を解決するにはインスティテューション「 %s 」の<a href="%s">管理者にご連絡ください</a>。</p>
+
+<p>%s チーム</p>';
+$string['migrateaccountconfirm'] = '%s　の別のインスティテューションへのあなたのアカウントの移動を承認します。';
+$string['migrateaccountconfirminfo'] = 'あなたのアカウントは「 %s 」から「 %s 」に移動されます。あなたは古いログイン認証情報であなたのアカウントにログインできないようになります。あなたが古いログインを再度使用する場合、新しいアカウントが作成されます。';
+$string['nomigrateoptions'] = '選択できる移行オプションはありません。';
+$string['invalidkeytoken'] = '問題が発生しました。確認メールの有効期限が切れたか、別の確認メールが送信されました。最新の確認メールを確認するか、新しい確認メールをリクエストしてください。';
+$string['migratecancelled'] = 'あなたのアカウント移動がキャンセルされました。';
+$string['migratesuccess'] = 'あなたのアカウントがインスティテューション「 %s 」へ正常に移動されました。あなたのログイン情報でこのインスティテューションにログインしてください。あなたの前のインスティテューションにログインした場合、新しい空のアカウントが作成されてあなたは2つのアカウントを所有することになります。';
+$string['restartmigration'] = '<a href="%s">インスティテューションを選択する</a>ページで再度アカウント移動処理を開始してください。';
+$string['confirmmigration'] = 'アカウントを移動する';
+$string['migrationcancelled'] = 'あなたのアカウント移動がキャンセルされました。';
+$string['cannotcompletemigrationwithuser'] = 'あなたの移動先のインスティテューションの認証情報ではなく、現在のインスティテューションの認証情報でログインする必要があります。そして、再度メールのリンクに従ってください。';
+$string['migrateinstitutionpagelink'] = '<a href="%s">アカウントを移動する</a>ページに移動して、あなたのインスティテューションおよび %s へのログイン方法を変更してください。';
+$string['institutionmaxusersexceededrequest'] = 'このインスティテューションは満員です。現在、あなたは参加できません。インスティテューション管理者に報告されました。後ほど再度お試しください。問題が続く場合、<a href="%s">インスティテューション管理者にご連絡ください</a>。';
+$string['postformresponse'] = 'あなたの主メールアドレス宛に確認メールが送信されました。あなたの新しいインスティテューションへの移動を承認するにはメール内のリンクに従ってください。';
+$string['selfmigrate'] = 'アカウントを別のインスティテューションに移動する';
+$string['institutionmembershipfullmessagetextuser'] = '%s さん、こんにちは。
+
+%s がインスティテューション「 %s 」(%s) への移動を希望していますが、インスティテューションメンバー数上限に達しています。
+
+未使用のアカウントを削除するか、このインスティテューションのアカウント数を増やすようサイト管理者にご依頼ください。
+
+あなたの変更後、次のリンクのクリックにより再試行できることを %s に知らせてください。
+
+%s
+
+%s チーム';
+$string['institutionfilledreplysubject'] = 'アカウント再移動可';
+$string['institutionfilledreplymessage'] = '%s さん、こんにちは。
+
+お待ちいただきまして、ありがとうございます。次のリンクによりあなたのアカウントをインスティテューション「 %s 」に移動できるようになりました。
+
+%s
+
+%s チーム';
+$string['institutionmembershiprequestsdescription'] = 'あなたは次のインスティテューションへの参加をリクエストしました。';
+$string['institutionmembershipinvitedescription'] = '管理者があなたに次のインスティテューションへの参加を招待しました。';
+$string['institutionmembershipjoindescription'] = 'あなたはインスティテューションへの参加リクエストを送信できます。「インスティテューションID」フィールドはこのインスティテューションの学籍番号設定用です。';
 
 ?>
