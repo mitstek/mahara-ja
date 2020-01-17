@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-17 10:33:30 UTC
+ * @updated    2020-01-17 19:17:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -449,7 +449,7 @@ $string['institutionlink'] = '<a href="%s">%s</a>';
 $string['link'] = '<a href="%s">%s</a>';
 $string['loggedoutok'] = 'あなたは正常にログアウトしました。';
 $string['login'] = 'ログイン';
-$string['loginfailed'] = 'あなたは正しいログイン情報を提供していないようです。あなたのユーザ名およびパスワードが正しいかどうか確認してください。';
+$string['loginfailed'] = 'あなたは正しいログイン認証情報を提供していないようです。あなたのユーザ名およびパスワードが正しいかどうか確認してください。';
 $string['loginto'] = '%s にログインする';
 $string['orloginvia'] = 'または次の認証によりログインする:';
 $string['newpassword'] = '新しいパスワード';
