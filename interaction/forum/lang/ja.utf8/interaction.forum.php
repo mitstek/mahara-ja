@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-19 01:57:13 UTC
+ * @updated    2020-01-21 08:16:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,8 +19,8 @@ $string['addtopic'] = 'トピックを追加する';
 $string['addtopicsuccess'] = 'トピックが正常に追加されました。';
 $string['allowunsubscribe'] = 'ユーザの購読解除を許可する';
 $string['allowunsubscribedescription'] = 'ユーザがフォーラムおよびトピックを購読解除できるかどうか選択してください。';
-$string['autosubscribeusers'] = 'ユーザを自動的にメール購読させる';
-$string['autosubscribeusersdescription'] = 'このフォーラムにグループユーザが自動的にメール購読されるかどうか選択してください。';
+$string['autosubscribeusers'] = 'ユーザを自動的に購読させる';
+$string['autosubscribeusersdescription'] = 'グループユーザがこのフォーラムを自動的に購読するかどうか選択してください。';
 $string['awaitingapproval'] = '承認待ち';
 $string['Body'] = '本文';
 $string['cantaddposttoforum'] = 'あなたはこのフォーラムに投稿できません。';
@@ -165,7 +165,7 @@ $string['postbyuserwasdeleted'] = '%s による投稿が削除されました。
 $string['postnotapprovederror'] = '投稿の承認済みマーク中にエラーが発生しました。';
 $string['postsbyuserweredeleted'] = '%s 件の投稿 (投稿者: %s) が削除されました。';
 $string['postdelay'] = '投稿遅延';
-$string['postdelaydescription'] = '新しい投稿がメール購読者に送信される前に経過する必要のある最小時間 (分) です。投稿者はこの時間中、投稿内容を編集できます。';
+$string['postdelaydescription'] = '新しい投稿が購読者に送信される前に経過する必要のある最小時間 (分) です。投稿者はこの時間中、投稿内容を編集できます。';
 $string['postedin'] = '%s が %s に投稿しました。';
 $string['Poster'] = '投稿者';
 $string['postobjectionable'] = 'この投稿はあなたにより好ましくないコンテンツを含んでいると報告されました。';
@@ -195,10 +195,10 @@ $string['sendnowdescription'] = '送信に少なくとも %s 分待つのでは�
 $string['Sticky'] = 'スティッキー';
 $string['stickydescription'] = 'スティッキートピックはすべてのページの再上部に表示されます。';
 $string['stickytopics'] = 'スティッキートピック';
-$string['Subscribe'] = 'メール購読';
-$string['Subscribed'] = 'メール購読済み';
-$string['subscribetoforum'] = 'フォーラムをメール購読する';
-$string['subscribetotopic'] = 'トピックをメール購読する';
+$string['Subscribe'] = '購読';
+$string['Subscribed'] = '購読済み';
+$string['subscribetoforum'] = 'フォーラムを購読する';
+$string['subscribetotopic'] = 'トピックを購読する';
 $string['Subject'] = '件名';
 $string['Topic'] = 'トピック';
 $string['Topics'] = 'トピック';
