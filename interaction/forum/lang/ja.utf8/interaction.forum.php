@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-21 08:16:51 UTC
+ * @updated    2020-01-23 04:12:47 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -120,6 +120,7 @@ $string['forumpostattachmentinternal'] = '%s
 %s';
 $string['forumsettings'] = 'フォーラム設定';
 $string['forumsuccessfulsubscribe'] = 'フォーラムが正常に購読されました。';
+$string['forumfailunsubscribe'] = 'あなたは購読解除を許可されていません。';
 $string['forumsuccessfulunsubscribe'] = 'フォーラムが正常に購読解除されました。';
 $string['gotoforums'] = 'フォーラムに移動する';
 $string['groupadmins'] = 'グループ管理者';
