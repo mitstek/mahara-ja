@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-23 04:17:22 UTC
+ * @updated    2020-01-24 04:19:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -887,6 +887,7 @@ $string['institutiondeletedsuccessfully'] = 'インスティテューション�
 $string['noauthpluginforinstitution'] = 'あなたのサイト管理者はこのインスティテューションの認証プラグインを設定していません。';
 $string['adminnoauthpluginforinstitution'] = 'このインスティテューションの認証プラグインを設定してください。';
 $string['institutionname'] = 'インスティテューション名';
+$string['institutionnameinvalid'] = 'インスティテューション名が無効です。';
 $string['institutionshortname'] = 'インスティテューション省略名';
 $string['institutionnamealreadytaken'] = 'このインスティテューション名はすでに取得されています。';
 $string['institutiondisplayname'] = 'インスティテューション表示名';
