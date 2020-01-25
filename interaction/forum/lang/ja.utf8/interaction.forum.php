@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-23 04:12:47 UTC
+ * @updated    2020-01-25 05:38:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -40,7 +40,7 @@ $string['cantviewforums'] = 'あなたはこのグループ内のフォーラム
 $string['cantviewtopic'] = 'あなたはこのフォーラム内のトピックを閲覧できません。';
 $string['cantunsubscribe'] = 'あなたはこのフォーラムを購読解除できません。';
 $string['chooseanaction'] = '処理を選択する';
-$string['clicksetsubject'] = '件名を入力するにはここをクリックしてください。';
+$string['clicksetsubject'] = '件名を設定するにはここをクリックしてください。';
 $string['Closed'] = '閉鎖';
 $string['Close'] = 'クローズ';
 $string['closeddescription'] = '閉鎖トピックではモデレータおよびグループ管理者のみ返信できます。';
