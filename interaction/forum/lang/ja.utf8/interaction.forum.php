@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-25 05:38:46 UTC
+ * @updated    2020-01-26 06:56:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -131,7 +131,7 @@ $string['latestforumposts'] = '最新のフォーラム投稿';
 $string['Moderators'] = 'モデレータ';
 $string['moderatorsandgroupadminsonly'] = 'モデレータおよびグループ管理者のみ';
 $string['moderatorslist'] = 'モデレータ:';
-$string['moderatorsdescription'] = 'モデレータはトピックおよび投稿を編集および削除できます。また、オープン、クローズ、トピックのスティッキー設定および設定解除することもできます。';
+$string['moderatorsdescription'] = 'モデレータはトピックおよび投稿を編集および削除できます。オープン、クローズ、トピックのスティッキー設定および設定解除もできます。';
 $string['name'] = 'フォーラム';
 $string['nameplural'] = 'フォーラム';
 $string['newforum'] = '新しいフォーラム';
