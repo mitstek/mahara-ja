@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-23 04:20:54 UTC
+ * @updated    2020-01-27 09:29:31 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -90,10 +90,12 @@ $string['samlfieldforstudentid'] = '学籍番号のSSOフィールド';
 $string['samlfieldforavatar'] = 'アバタアイコンのSSOフィールド';
 $string['samlfieldforavatardescription'] = '提供されるアバタにはBase64エンコードされたイメージストリングを含む必要があります。';
 $string['samlfieldforrole'] = 'ロールのSSOフィールド';
+$string['samlfieldforroleprefix'] = 'ロール接頭辞のSSOフィールド';
 $string['samlfieldforrolesiteadmin'] = 'サイト管理者のロールマッピング';
 $string['samlfieldforrolesitestaff'] = 'サイトスタッフのロールマッピング';
 $string['samlfieldforroleinstadmin'] = 'インスティテューション管理者のロールマッピング';
 $string['samlfieldforroleinststaff'] = 'インスティテューションスタッフのロールマッピング';
+$string['samlfieldfororganisationname'] = '組織のSSOフィールド';
 $string['samlfieldauthloginmsg'] = '不正ログインメッセージ';
 $string['spentityid'] = 'サービスプロバイダエンティティID';
 $string['title'] = 'SAML';
