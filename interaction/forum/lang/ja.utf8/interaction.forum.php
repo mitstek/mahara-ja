@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-26 06:56:34 UTC
+ * @updated    2020-01-27 02:16:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -166,12 +166,12 @@ $string['postbyuserwasdeleted'] = '%s による投稿が削除されました。
 $string['postnotapprovederror'] = '投稿の承認済みマーク中にエラーが発生しました。';
 $string['postsbyuserweredeleted'] = '%s 件の投稿 (投稿者: %s) が削除されました。';
 $string['postdelay'] = '投稿遅延';
-$string['postdelaydescription'] = '新しい投稿が購読者に送信される前に経過する必要のある最小時間 (分) です。投稿者はこの時間中、投稿内容を編集できます。';
+$string['postdelaydescription'] = '新しい投稿が購読者に送信される前に経過する必要のある最小時間 (分) です。投稿者はこの時間内に投稿内容を編集できます。';
 $string['postedin'] = '%s が %s に投稿しました。';
 $string['Poster'] = '投稿者';
 $string['postobjectionable'] = 'この投稿はあなたにより好ましくないコンテンツを含んでいると報告されました。';
 $string['postnotobjectionable'] = 'この投稿は好ましくないコンテンツを含んでいると報告されました。事実とは異なる場合、あなたはボタンをクリックして通知を削除した後、他の管理者に知らせることができます。';
-$string['postnotobjectionablebody'] = '%s は前に好ましくないコンテンツであると報告された %s による投稿を調査してもはや好ましくないコンテンツは含んでいないとマークしました。';
+$string['postnotobjectionablebody'] = '%s は前に好ましくないコンテンツであると報告された %s による投稿を調査してもはや好ましくないコンテンツは含まれていないとマークしました。';
 $string['postnotobjectionablesubject'] = 'フォーラムトピック「 %s 」の投稿は %s によって好ましくない投稿ではないとマークされました。';
 $string['postnotobjectionablesuccess'] = '投稿が好ましくない投稿ではないとマークされました。';
 $string['postnotobjectionablesubmit'] = '好ましくない投稿ではない';
