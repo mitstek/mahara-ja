@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-09 01:40:50 UTC
+ * @updated    2020-01-29 03:48:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -365,8 +365,8 @@ $string['noviewssharedwithgroupyet'] = 'このグループで共有されてい�
 $string['groupsharedviewsscrolled'] = 'あなたは共有ページリストの最後までスクロールしました。';
 $string['groupcreatedviewsscrolled'] = 'あなたはグループページリストの最後までスクロールしました。';
 $string['nnonmembers'] = '%s 非メンバー';
-$string['membercommenters'] = '関わっているメンバー';
-$string['extcommenters'] = '関わっている非メンバー';
+$string['membercommenters'] = '関係メンバー';
+$string['extcommenters'] = '関係非メンバー';
 $string['groupparticipationreports'] = '参加者レポート';
 $string['groupparticipationreportsdesc1'] = 'グループ管理者はすべてのグループ、共有ページおよび誰がコメントしたのか表示するレポートにアクセスできます。';
 $string['returntogroupportfolios'] = 'グループページおよびコレクションに戻る';
