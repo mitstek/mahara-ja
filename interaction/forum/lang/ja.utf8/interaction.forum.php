@@ -285,7 +285,7 @@ $string['postsandreplies'] = '投稿および返信';
 $string['postneedapprovalsubject'] = 'フォーラム「 %s 」の新しい投稿にモデレーションが必要です。';
 $string['postneedapprovalbody'] = '%s がフォーラム「 %s 」に投稿してモデレーションを待っています。
 
-投稿のコンテンツは以下のとおりです:
+投稿のコンテンツは次のとおりです:
 %s';
 $string['postneedapprovalhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」によるフォーラム「　%s　」での新しい投稿にモデレーションが必要です。
 
