@@ -354,8 +354,8 @@ $string['noviewssharedwithgroupyet'] = 'このグループで共有されてい�
 $string['groupsharedviewsscrolled'] = 'あなたは共有ページリストの最後までスクロールしました。';
 $string['groupcreatedviewsscrolled'] = 'あなたはグループページリストの最後までスクロールしました。';
 $string['nnonmembers'] = '%s 非メンバー';
-$string['membercommenters'] = '関わっているメンバー';
-$string['extcommenters'] = '関わっている非メンバー';
+$string['membercommenters'] = '関係メンバー';
+$string['extcommenters'] = '関係非メンバー';
 $string['groupparticipationreports'] = '参加者レポート';
 $string['groupparticipationreportsdesc'] = 'この設定を有効にした場合、グループ管理者はすべてのグループ、共有ページおよび誰がコメントしたのか表示するレポートにアクセスできます。';
 
