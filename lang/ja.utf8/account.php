@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['changepassworddesc'] = '新しいパスワード';
-$string['changepasswordotherinterface'] = 'あなたは異なるインターフェースで<a href="%s">パスワードを変更する</a>ことができます。';
+$string['changepasswordotherinterface'] = 'あなたは異なるインターフェースで<a href="%s">パスワードを変更できます</a>。';
 $string['oldpasswordincorrect'] = 'これはあなたの現在のパスワードではありません。';
 $string['changeusernameheading'] = 'ユーザ名を変更する';
 $string['changeusername'] = '新しいユーザ名';
