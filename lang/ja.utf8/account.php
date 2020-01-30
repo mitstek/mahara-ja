@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-10-07 19:41:43 UTC
+ * @updated    2020-01-30 11:53:15 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['changepassworddesc'] = '新しいパスワード';
-$string['changepasswordotherinterface'] = 'あなたは異なるインターフェースで<a href="%s">パスワードを変更する</a>ことができます。';
+$string['changepasswordotherinterface'] = 'あなたは異なるインターフェースで<a href="%s">パスワードを変更できます</a>。';
 $string['oldpasswordincorrect'] = 'これはあなたの現在のパスワードではありません。';
 $string['changeusernameheading'] = 'ユーザ名を変更する';
 $string['changeusername'] = '新しいユーザ名';
