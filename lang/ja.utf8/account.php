@@ -29,7 +29,7 @@
 defined('INTERNAL') || die();
 
 $string['changepassworddesc'] = 'あなたのパスワードを変更したい場合、ここで詳細を入力してください。';
-$string['changepasswordotherinterface'] = 'あなたは異なるインターフェースで<a href="%s">パスワードを変更する</a>ことができます。';
+$string['changepasswordotherinterface'] = 'あなたは異なるインターフェースで<a href="%s">パスワードを変更できます</a>。';
 $string['oldpasswordincorrect'] = 'これはあなたの現在のパスワードではありません。';
 $string['accountoptionsdesc'] = 'あなたはここで一般アカウントオプションを設定できます。';
 $string['friendsnobody'] = '誰も私をフレンドとして追加できません。';
