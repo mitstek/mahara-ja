@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-27 09:29:31 UTC
+ * @updated    2020-01-31 00:56:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -96,6 +96,9 @@ $string['samlfieldforrolesitestaff'] = 'サイトスタッフのロールマッ�
 $string['samlfieldforroleinstadmin'] = 'インスティテューション管理者のロールマッピング';
 $string['samlfieldforroleinststaff'] = 'インスティテューションスタッフのロールマッピング';
 $string['samlfieldfororganisationname'] = '組織のSSOフィールド';
+$string['samlfieldforautogroups'] = '自動グループ管理のロール';
+$string['samlfieldforautogroupsall'] = 'すべてのグループの自動グループ管理';
+$string['samlfieldforautogroupsalldescription'] = 'この設定を有効にした場合、ユーザはすべてのグループのグループ管理者として追加されます。そうでない場合、ユーザは自分のインスティテューション内のグループのグループ管理者として追加されます。';
 $string['samlfieldauthloginmsg'] = '不正ログインメッセージ';
 $string['spentityid'] = 'サービスプロバイダエンティティID';
 $string['title'] = 'SAML';
