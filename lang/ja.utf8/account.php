@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-30 11:53:15 UTC
+ * @updated    2020-02-01 01:41:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -36,7 +36,7 @@ $string['licensedefaultdescription'] = 'あなたのコンテンツのデフォ�
 $string['licensedefaultinherit'] = 'インスティテューションデフォルトを使用する';
 $string['messagesdescr'] = '他のユーザからのメッセージ';
 $string['messagesnobody'] = '誰も私にメッセージを送信できません。';
-$string['messagesfriends'] = 'マイフレンドリストに登録したユーザは私にメッセージを送信できます。';
+$string['messagesfriends'] = 'マイフレンドリストに登録した人は私にメッセージを送信できます。';
 $string['messagesallow'] = '誰でも私にメッセージを送信できます。';
 $string['language'] = '言語';
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
