@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-29 03:48:02 UTC
+ * @updated    2020-02-01 15:39:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -371,5 +371,21 @@ $string['groupparticipationreports'] = '参加者レポート';
 $string['groupparticipationreportsdesc1'] = 'グループ管理者はすべてのグループ、共有ページおよび誰がコメントしたのか表示するレポートにアクセスできます。';
 $string['returntogroupportfolios'] = 'グループページおよびコレクションに戻る';
 $string['showintroduction'] = '自己紹介';
+$string['addgrouplabel'] = 'グループラベルを追加する';
+$string['addgrouplabeldescription'] = 'あなたのみ閲覧できるようこのグループに1つまたはそれ以上のラベルを追加します。ラベルを追加した場合、あなたのリンクでグループを整理できます。あなたはどのグループをサイドバーおよびあなたのプロファイルページに表示するかも決定できます。';
+$string['addgrouplabelfilter'] = 'グループラベルフィルタ「 %s 」を追加する';
+$string['addlabel'] = 'ラベルを追加する';
+$string['displayonlylabels'] = '次がラベル付けされたグループのみ表示する';
+$string['filterbygrouplabel'] = 'ラベルでフィルタする';
+$string['grouplabelnotmember'] = '現在、あなたはこのグループのメンバーではありません。ページをリフレッシュしてください。';
+$string['grouplabeladded'] = 'グループラベルが追加されました。';
+$string['grouplabelupdated'] = 'グループラベルが更新されました。';
+$string['groupnovalidlabelsupplied'] = 'あなたのラベルには少なくとも2文字含む必要があります。';
+$string['label'] = 'ラベル';
+$string['labelfor'] = 'ラベルをグループ「 %s 」に追加する';
+$string['mygrouplabel'] = 'マイグループラベル';
+$string['removegrouplabelfilter'] = 'グループラベルフィルタ「 %s 」を削除する';
+$string['agrouplabeltooshort'] = '1つまたはそれ以上のグループラベルが短すぎます。少なくとも %s 文字必要です。';
+$string['agrouplabeltoolong'] = '1つまたはそれ以上のグループラベルが長すぎます。最大 %s 文字にできます。';
 
 ?>
