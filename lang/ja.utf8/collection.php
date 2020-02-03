@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-10-01 21:01:16 UTC
+ * @updated    2020-02-03 09:11:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -76,6 +76,7 @@ $string['manageviewsspecific'] = '「 %s 」のページを管理する';
 $string['name'] = 'コレクション名';
 $string['needtoselectaview'] = 'あなたはコレクションに追加するページを選択する必要があります。';
 $string['newcollection'] = '新しいコレクション';
+$string['nexteditaccess'] = '次へ: アクセスを編集する';
 $string['nocollections'] = 'まだコレクションはありません。';
 $string['nocollectionsaddone'] = 'まだコレクションはありません。%sコレクションを追加してください%s。';
 $string['nooverride'] = 'オーバーライドはありません。';
