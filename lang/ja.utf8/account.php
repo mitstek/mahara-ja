@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-02-01 01:41:02 UTC
+ * @updated    2020-02-04 09:54:39 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -42,7 +42,7 @@ $string['language'] = '言語';
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'あなたのタグクラウドに表示されるタグの最大数です。';
 $string['enablemultipleblogs1'] = '複数日誌';
-$string['enablemultipleblogsdescription1'] = 'デフォルトではあなたは1つの日誌のみ作成できます。1つ以上の日誌を作成したい場合、このオプションを有効にしてください。';
+$string['enablemultipleblogsdescription1'] = 'デフォルトではあなたは1つの日誌のみ作成できます。2つ以上の日誌を作成したい場合、このオプションを有効にしてください。';
 $string['hiderealname'] = '実名を隠す';
 $string['hiderealnamedescription'] = 'あなたが表示名を設定した場合、そしてあなたの実名検索により他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
 $string['showhomeinfo2'] = 'ダッシュボード情報';
