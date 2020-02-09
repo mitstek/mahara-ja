@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-02-09 06:34:18 UTC
+ * @updated    2020-02-09 06:36:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -32,7 +32,7 @@ $string['signoffdetails'] = '承認詳細';
 $string['updatesignoff'] = 'ページ承認を更新する';
 $string['updateverify'] = 'ページ検証を更新する';
 $string['viewsignoffdetails'] = '承認詳細情報を表示する';
-$string['readyforverification'] = 'このページは検証準備完了しています。';
+$string['readyforverification'] = 'このページは検証準備を完了しています。';
 $string['signedoffbyondate'] = '%s がこのページを %s に承認しました。';
 $string['verifiedbyondate'] = '%s がこのページを %s に検証しました。';
 $string['removedverifynotificationsubject'] = '%s の検証が削除されました。';
