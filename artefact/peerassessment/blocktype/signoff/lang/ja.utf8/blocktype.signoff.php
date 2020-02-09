@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-11-03 13:40:30 UTC
+ * @updated    2020-02-09 06:34:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -28,8 +28,13 @@ $string['signoffpageundodesc'] = '「Yes」を選択した場合、あなたは�
 $string['signoffpageconfirm'] = 'この処理を実行してもよろしいですか?';
 $string['verifypagetitle'] = 'ページを検証する';
 $string['verifypagedesc'] = 'ポートフォリオのオーナーがこのページすべての必要条件を満たしていると検証した場合、「Yes」を選択してください。検証せずにページに戻るには「No」を選択してください。';
+$string['signoffdetails'] = '承認詳細';
 $string['updatesignoff'] = 'ページ承認を更新する';
 $string['updateverify'] = 'ページ検証を更新する';
+$string['viewsignoffdetails'] = '承認詳細情報を表示する';
+$string['readyforverification'] = 'このページは検証準備完了しています。';
+$string['signedoffbyondate'] = '%s がこのページを %s に承認しました。';
+$string['verifiedbyondate'] = '%s がこのページを %s に検証しました。';
 $string['removedverifynotificationsubject'] = '%s の検証が削除されました。';
 $string['removedverifynotification'] = 'ページのオーナー %s が承認を削除しました。そのためあなたの検証も削除されました。再度検証をマークできる状態であるか確認するためページにアクセスしてください。';
 $string['signoffviewupdated'] = '承認ステータスが更新されました。';
