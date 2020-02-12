@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-11-04 01:11:35 UTC
+ * @updated    2020-02-12 05:45:33 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -36,8 +36,8 @@ $string['exportportfoliodescription'] = 'このツールではあなたのポー
 $string['exportyourportfolio'] = 'あなたのポートフォリオをエクスポートする';
 $string['generateexport'] = 'エクスポートを生成する';
 $string['noexportpluginsenabled'] = '管理者によりエクスポートプラグインが有効にされていないためあなたはこの機能を使用することはできません。';
-$string['justsomecollections'] = 'いくつかのマイコレクションのみ';
-$string['justsomeviews'] = 'いくつかのマイページのみ';
+$string['justsomecollections'] = '私のコレクションの一部';
+$string['justsomeviews'] = '私のページの一部';
 $string['includecomments'] = 'コメントを含む';
 $string['includecommentsdescription'] = 'すべてのコメントがHTMLエクスポートに含まれます。';
 $string['nonexistentfile'] = '存在しないファイル「 %s 」の追加を試みました。';
