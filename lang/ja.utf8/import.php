@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-12-25 02:24:54 UTC
+ * @updated    2020-02-16 23:56:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -28,7 +28,7 @@ $string['importartefactsprogress'] = 'アーティファクトのインポート
 $string['importfooter'] = 'フッタのインポート';
 $string['importviews'] = 'ページのインポート';
 $string['importviewsprogress'] = 'ページのインポート: %s/%s';
-$string['importportfoliodescription'] = 'Leap2Aファイルがある場合、ここで別のサイトからあなたのポートフォリオにコンテンツをインポートできます。サイト設定およびあなたがグループ内にアップロードまたは作成したコンテンツはインポートできません。';
+$string['importportfoliodescription'] = 'Leap2Aファイルがある場合、ここで別のサイトからあなたのポートフォリオコンテンツをインポートできます。サイト設定またはあなたがアップロードまたはグループ内で作成したコンテンツはインポートできません。';
 $string['importyourportfolio'] = 'あなたのポートフォリオをインポートする';
 $string['howimportyourportfolio'] = 'あなたのポートフォリオアイテムのインポート方法を選択する';
 $string['howimportportfoliodescription'] = 'このステップではあなたの既存のコンテンツおよびインポートコンテンツをどのように統合するか決定します。';
