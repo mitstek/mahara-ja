@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-06-01 17:18:49 UTC
+ * @updated    2020-02-16 06:55:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -56,10 +56,10 @@ $string['prefssaved'] = 'プリファレンスが保存されました。';
 $string['prefsnotsaved'] = 'あなたのプリファレンスの保存に失敗しました。';
 $string['maildisabled'] = 'Eメールが無効にされました。';
 $string['disableemail'] = 'Eメールを無効にする';
-$string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたためあなたのメールアドレス宛のメール送信は停止されました。Eメールを有効にする前にあなたのEメールアカウントが正常に動作しているか %s のアカウントプリファレンスで確認してください。';
-$string['maildisableddescription'] = 'あなたのアカウント宛のメール送信は停止されました。アカウントプリファレンスページで<a href="%s">あなたのEメールを再度有効</a>にできます。';
+$string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたため、あなたのメールアドレス宛のメール送信は停止されました。Eメールを有効にする前にあなたのEメールアカウントが正常に動作しているか %s のアカウントプリファレンスで確認してください。';
+$string['maildisableddescription'] = 'あなたのアカウント宛のメール送信が停止されました。アカウントプリファレンスページで<a href="%s">あなたのEメールを再度有効</a>にできます。';
 $string['deleteaccount'] = 'アカウントを削除する';
-$string['deleteaccountdescription'] = 'アカウントを削除した場合、今後、あなたのプロファイル情報およびページを他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧できますが投稿者名が表示されないようになります。';
+$string['deleteaccountdescription'] = 'アカウントを削除した場合、あなたのすべてのコンテンツは完全に削除されます。あなたは元に戻せません。あなたのプロファイル情報およびページは他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧できますが投稿者名が表示されないようになります。';
 $string['accountdeleted'] = 'あなたのアカウントが削除されました。';
 $string['resizeonuploaduserdefault1'] = 'アップロード時、イメージをリサイズする';
 $string['resizeonuploaduserdefaultdescription2'] = 'デフォルトで「イメージを自動的にリサイズする」オプションが有効にされます。最大高さおよび幅を超えたイメージはアップロード時にリサイズされます。個別のイメージアップロード時、あなたはこのデフォルト設定を無効にできます。';
