@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-02-16 06:48:40 UTC
+ * @updated    2020-02-18 10:59:07 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -61,7 +61,7 @@ $string['maildisabledbounce'] = '多くのメッセージがサーバに戻っ�
 $string['maildisableddescription'] = 'あなたのアカウント宛のメール送信が停止されました。アカウントプリファレンスページで<a href="%s">あなたのEメールを再度有効</a>にできます。';
 $string['deleteaccountuser'] = '%s のアカウントを削除する';
 $string['deleteaccountdescription'] = 'アカウントを削除した場合、あなたのすべてのコンテンツは完全に削除されます。あなたは元に戻せません。あなたのプロファイル情報およびページは他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧できますが投稿者名が表示されないようになります。';
-$string['sendnotificationdescription'] = 'あなたのアカウント削除を承認するよう管理者に通知が送信されます。あなたのアカウントの削除をリクエストした場合、あなたの個人コンテンツすべてが完全に削除されます。これはあなたがアップロードしたファイル、執筆した日誌エントリ、作成したページおよびコレクションが削除されることを意味します。あなたはそれらを元に戻すことはできません。あなたがグループでファイルをアップロードしている場合、日誌エントリおよびポートフォリオを作成している場合、そこでフォーラムに投稿している場合、それらはそのままになりますがあなたの氏名は表示されないようになります。';
+$string['sendnotificationdescription'] = 'あなたのアカウント削除を承認するよう管理者に通知が送信されます。あなたがアカウントの削除をリクエストした場合、あなたの個人コンテンツすべてが完全に削除されます。これはあなたがアップロードしたファイル、執筆した日誌エントリ、作成したページおよびコレクションが削除されることを意味します。あなたはそれらを元に戻せません。あなたがグループでファイルをアップロードしている場合、日誌エントリおよびポートフォリオを作成している場合、そこでフォーラムに投稿している場合、それらはそのままになりますがあなたの氏名は表示されないようになります。';
 $string['pendingdeletionsince'] = '%s 以来のアカウント削除保留';
 $string['pendingdeletionadminemailsubject'] = '%s のアカウント削除リクエスト';
 $string['resenddeletionadminemailsubject'] = '%s のアカウント削除リクエストのリマインダ';
