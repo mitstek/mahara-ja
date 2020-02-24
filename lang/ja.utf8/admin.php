@@ -349,7 +349,7 @@ $string['defaultaccountlifetimeupdatenone'] = '新しく作成されたユーザ
 $string['defaultaccountlifetimeupdatesome'] = '新しいユーザおよびアカウント存続期間が設定されていないユーザ (サイト管理者を除く)';
 $string['defaultaccountlifetimeupdateall'] = 'すべてのユーザアカウント (サイト管理者を除く)';
 $string['passwordpolicy'] = 'パスワードポリシー';
-$string['passwordpolicydesc'] = 'アカウントが内蔵の内部認証方法を使用するよう設定されている人のパスワードポリシーです。パスワードの最小文字数および複雑性を選択してください。';
+$string['passwordpolicydesc'] = 'アカウントが内蔵の内部認証方法を使用するよう設定されている人のパスワードポリシーです。パスワードの最小文字数および複雑さ選択してください。';
 $string['passwordpolicylength'] = '最小パスワード長';
 $string['passwordpolicytype'] = 'パスワード複雑性';
 $string['deprecatedmobileapp'] = '申し訳ございません、このモバイルアプリケーションは新しいものに入れ替わりました。あなたは代わりにMaharaモバイルを使用する必要があります。Androidデバイスは次からダウンロードしてください: https://play.google.com/store/apps/details?id=org.mahara.mobile またAppleデバイスは次からダウンロードしてください: https://itunes.apple.com/us/app/mahara-mobile/id1172638950';
