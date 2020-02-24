@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-24 04:19:51 UTC
+ * @updated    2020-02-24 04:32:42 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -350,7 +350,7 @@ $string['defaultaccountlifetimeupdatenone'] = '新しく作成されたユーザ
 $string['defaultaccountlifetimeupdatesome'] = '新しいユーザおよびアカウント存続期間が設定されていないユーザ (サイト管理者を除く)';
 $string['defaultaccountlifetimeupdateall'] = 'すべてのユーザアカウント (サイト管理者を除く)';
 $string['passwordpolicy'] = 'パスワードポリシー';
-$string['passwordpolicydesc'] = 'アカウントが内蔵の内部認証方法を使用するよう設定されている人のパスワードポリシーです。パスワードの最小文字数および複雑性を選択してください。';
+$string['passwordpolicydesc'] = 'アカウントが内蔵の内部認証方法を使用するよう設定されている人のパスワードポリシーです。パスワードの最小文字数および複雑さを選択してください。';
 $string['passwordpolicylength'] = '最小パスワード長';
 $string['passwordpolicytype'] = 'パスワード複雑性';
 $string['deprecatedmobileapp'] = '申し訳ございません、このモバイルアプリケーションは新しいものに入れ替わりました。あなたは代わりにMaharaモバイルを使用する必要があります。Androidデバイスは次からダウンロードしてください: https://play.google.com/store/apps/details?id=org.mahara.mobile またAppleデバイスは次からダウンロードしてください: https://itunes.apple.com/us/app/mahara-mobile/id1172638950';
