@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-02-23 06:56:24 UTC
+ * @updated    2020-02-26 01:52:54 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -38,7 +38,7 @@ $string['markasread'] = '既読にする';
 $string['selectall'] = 'すべてを選択する';
 $string['selectallread'] = 'すべての未読通知';
 $string['selectalldelete'] = 'すべての削除通知';
-$string['recurseall'] = '選択を解除する';
+$string['recurseall'] = 'すべての選択を解除する';
 $string['alltypes'] = 'すべてのタイプ';
 $string['nodelete'] = '削除する通知はありません。';
 $string['youroutboxisempty'] = 'あなたの送信箱は空です。';
