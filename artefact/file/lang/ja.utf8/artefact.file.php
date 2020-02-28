@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-07 08:11:14 UTC
+ * @updated    2020-02-28 15:12:30 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -47,8 +47,8 @@ $string['customagreement'] = 'カスタム同意';
 $string['Date'] = '登録日';
 $string['resizeonupload'] = 'アップロード時、イメージをリサイズする';
 $string['resizeonuploaddescription'] = 'アップロード時、自動的に大きなイメージをリサイズします。';
-$string['resizeonuploaduseroption1'] = 'ユーザオプション';
-$string['resizeonuploaduseroptiondescription3'] = 'アップロード時の大きなイメージの自動リサイズを有効または無効にするオプションをユーザに表示します。';
+$string['resizeonuploaduseroption1'] = 'パーソナルオプション';
+$string['resizeonuploaduseroptiondescription3'] = 'アップロード時の大きなイメージの自動リサイズを有効または無効にするオプションを作成者に表示します。';
 $string['resizeonuploadenable1'] = 'イメージを自動的にリサイズする';
 $string['resizeonuploadenablefilebrowser1'] = '%sx%s pxより大きなイメージを自動的にリサイズします (推奨)。';
 $string['resizeonuploadmaxwidth'] = '最大幅';
@@ -56,18 +56,18 @@ $string['resizeonuploadmaxheight'] = '最大高さ';
 $string['resizeonuploadenabledescription3'] = '最大幅および高さ設定を超える場合、アップロード時にイメージをリサイズします。';
 $string['defaultagreement'] = 'デフォルト同意';
 $string['defaultquota'] = 'デフォルトクオータ';
-$string['defaultquotadescription'] = 'あなたは新しいユーザがクオータとして持つことのできるディスクスペース総量をここで設定できます。';
-$string['defaultuserquota'] = 'デフォルトユーザクオータ';
-$string['updateuserquotas'] = 'ユーザクオータを更新する';
-$string['updateuserquotasdesc2'] = 'あなたが上で選択したデフォルトクオータを既存のユーザすべてに適用します。';
+$string['defaultquotadescription'] = 'あなたは新しいアカウントがクオータとして持つディスクスペース総量をここで設定できます。';
+$string['defaultuserquota'] = 'デフォルトアカウントクオータ';
+$string['updateuserquotas'] = 'アカウントクオータを更新する';
+$string['updateuserquotasdesc2'] = 'あなたが上で選択したデフォルトクオータを既存のアカウントすべてに適用します。';
 $string['institutionoverride1'] = 'インスティテューションオーバーライド';
-$string['institutionoverridedescription2'] = 'インスティテューション管理者がユーザファイルクオータおよびそれぞれのインスティテューションのデフォルトクオータを設定できるようにします。';
+$string['institutionoverridedescription2'] = 'インスティテューション管理者がアカウントファイルクオータおよびそれぞれのインスティテューションのデフォルトクオータを設定できるようにします。';
 $string['maxquotaenabled'] = 'サイト全体の最大クオータを強制する';
 $string['maxquota'] = '最大クオータ';
 $string['maxquotatoolow'] = '最大クオータをデフォルトクオータより小さくすることはできません。';
 $string['maxquotaexceeded'] = 'あなたはこのサイトに設定されている最大利用可能サイズ (%s) を超えてクオータを指定しました。値を小さくするかサイト管理者に連絡して最大サイズを増やしてください。';
 $string['maxquotaexceededform'] = '%s より小さなファイルクオータを指定してください。';
-$string['maxquotadescription'] = 'あなたは管理者がユーザに与えることのできる最大クオータを設定できます。既存のユーザクオータは影響を受けません。';
+$string['maxquotadescription'] = 'あなたは管理者が与えることのできる最大クオータを設定できます。既存のアカウントクオータは影響を受けません。';
 $string['defaultgroupquota'] = 'デフォルトグループクオータ';
 $string['defaultgroupquotadescription'] = 'あなたは新しいグループがファイルエリアで使用できるディスクスペース総量を設定できます。';
 $string['updategroupquotas'] = 'グループクオータを更新する';
@@ -170,7 +170,7 @@ $string['typefile'] = 'ファイル';
 $string['typefolder'] = 'フォルダ';
 $string['upload'] = 'アップロード';
 $string['uploadagreement'] = 'アップロード同意';
-$string['uploadagreementdescription'] = 'あなたが以下のテキストへの同意をサイトへのファイルアップロード時のユーザに強制したい場合、このオプションを有効にしてください。';
+$string['uploadagreementdescription'] = 'あなたが以下のテキストへの同意をサイトへのファイルアップロード時の作成者に強制したい場合、このオプションを有効にしてください。';
 $string['uploadexceedsquota'] = 'このファイルをアップロードすることであなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
 $string['uploadexceedsquotagroup'] = 'このファイルをアップロードすることでこのグループのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
 $string['uploadfile'] = 'ファイルをアップロードする';
@@ -188,16 +188,16 @@ $string['insufficientmemoryforresize'] = '(イメージのリサイズのため�
 $string['quotanotifylimitoutofbounds'] = '通知制限はパーセントで入力してください。また、0から100までの数字である必要があります。';
 $string['usernotificationsubject'] = 'あなたのファイルストレージがほぼ満杯です。';
 $string['usernotificationmessage'] = 'あなたはファイルクオータの %s% を使用しています (あなたのファイルクオータ: %s)。あなたの制限を増やすためサイト管理者にご連絡ください。';
-$string['adm_notificationsubject'] = 'ユーザがファイルクオータ制限にほぼ達しています。';
-$string['adm_notificationmessage'] = 'ユーザ %s がファイルクオータの %s% パーセントに達しました (ファイルクオータ: %s)。';
+$string['adm_notificationsubject'] = '誰かがファイルクオータ制限にほぼ達しました。';
+$string['adm_notificationmessage'] = '%s がファイルクオータの %s% パーセントに達しました (ファイルクオータ: %s)。';
 $string['adm_group_notificationsubject'] = 'あなたが管理しているグループがファイルクオータ制限にほぼ達しています。';
 $string['adm_group_notificationmessage'] = 'グループ %s がファイルクオータの %s% パーセントに達しました (ファイルクオータ: %s)。';
 $string['textlinktouser'] = '%s のプロファイルを編集する';
 $string['quotanotifylimittitle1'] = 'クオータ通知閾値';
-$string['quotanotifylimitdescr1'] = 'ユーザのアップロードクオータがこのパーセンテージまで満杯になった場合、アップロード制限に達しようとしている旨、ユーザ (およびサイト管理者) に通知が送信されます。ユーザはスペースを空けるためファイルを削除するかクオータを増やすよう管理者に連絡できます。';
+$string['quotanotifylimitdescr1'] = '人のファイルアップロードクオータがこのパーセンテージまで満杯になった場合、アップロード制限に達しようとしている旨、その人(およびサイト管理者) に通知が送信されます。その人はスペースを空けるためファイルを削除するかクオータを増やすよう管理者に連絡できます。';
 $string['quotanotifyadmin1'] = 'サイト管理者通知';
-$string['quotanotifyadmindescr3'] = 'ユーザが通知閾値に達した時点でサイト管理者に通知します。';
-$string['useroverquotathreshold'] = 'ユーザ %s がファイルクオータの %s% パーセントに達しました (ファイルクオータ: %s)。';
+$string['quotanotifyadmindescr3'] = '人が通知閾値に達した時点でサイト管理者に通知します。';
+$string['useroverquotathreshold'] = '%s がファイルクオータの %s% パーセントに達しました (ファイルクオータ: %s)。';
 $string['ai'] = 'PostScriptドキュメント';
 $string['aiff'] = 'AIFFオーディオファイル';
 $string['application'] = '不明なアプリケーション';
@@ -316,8 +316,8 @@ $string['filepermission.republish'] = '公開';
 $string['zipdownloadheading'] = 'フォルダダウンロード';
 $string['downloadfolderzip'] = 'フォルダをZIPファイルとしてダウンロードする';
 $string['downloadfolderzipblock'] = 'ダウンロードリンクを表示する';
-$string['downloadfolderzipdescription3'] = 'ユーザが「フォルダ」ブロックに表示されたフォルダをZIPファイルとしてダウンロードできるようにします。';
-$string['downloadfolderzipdescriptionblock'] = 'この設定を有効にした場合、ユーザはフォルダをZIPファイルとしてダウンロードできます。';
+$string['downloadfolderzipdescription3'] = '人が「フォルダ」ブロックに表示されたフォルダをZIPファイルとしてダウンロードできるようにします。';
+$string['downloadfolderzipdescriptionblock'] = 'この設定を有効にした場合、人はフォルダをZIPファイルとしてダウンロードできます。';
 $string['downloadfolderziplink'] = 'フォルダコンテンツをZIPファイルとしてダウンロードする';
 $string['folderdownloadnofolderfound'] = 'ID %d のフォルダが見つかりません。';
 $string['zipfilenameprefix'] = 'フォルダ';

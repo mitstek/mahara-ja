@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-09-25 08:18:48 UTC
+ * @updated    2020-02-28 14:57:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -66,7 +66,7 @@ $string['Moderate'] = 'モデレート';
 $string['moderatecomments'] = 'コメントをモデレートする';
 $string['moderatecommentsdescription2'] = 'あなたに承認されるまでページのコメントは非公開のままにされます。アカウントにログインしていない人からのコメントは常にモデレーションキューに入ります。また、コメントは承認される必要があります。';
 $string['newcommentnotificationsubject'] = '%s の新しいコメント';
-$string['progress_feedback'] = '%s ユーザページにコメントする';
+$string['progress_feedback'] = '%s 人のページにコメントする';
 $string['rating'] = 'レーティング';
 $string['reallydeletethiscomment'] = '本当にこのコメントを削除してもよろしいですか?';
 $string['reply'] = '返信';
@@ -111,7 +111,7 @@ $string['feedbackdeletedtext'] = '%s のコメントが削除されました。
 %s をオンラインで閲覧するには次のリンクにアクセスしてください:
 %s';
 $string['artefactdefaultpermissions'] = 'デフォルトのコメントパーミッション';
-$string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトでは作成時にコメントの投稿が有効にされます。ユーザは個別のアーティファクトでこれらの設定をオーバーライドできます。';
+$string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトでは作成時にコメントの投稿が有効にされます。作成者は個別のアーティファクトでこれらの設定をオーバーライドできます。';
 $string['commentratings'] = 'コメントレーティングを有効にする';
 $string['ratingicons'] = 'レーティングの表示に使用するアイコン';
 $string['ratinglength'] = 'レーティング選択数';
