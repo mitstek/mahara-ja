@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-02-28 15:40:43 UTC
+ * @updated    2020-02-28 15:50:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1130,7 +1130,7 @@ $string['Visits'] = '訪問';
 $string['after'] = '後';
 $string['before'] = '前';
 $string['Visibility'] = '可視性';
-$string['nusers'] = '%s ユーザ';
+$string['nusers'] = '%s 人';
 $string['hidden'] = '非表示';
 $string['lastupdate'] = '最終更新日時';
 $string['lastupdateorcomment'] = '最終更新日時またはコメント';
@@ -1154,7 +1154,7 @@ $string['topicsimfollowing'] = '私がフォローしているトピック';
 $string['inboxblocktitle'] = '受信箱';
 $string['mymessages'] = 'マイメッセージ';
 $string['pleasedonotreplytothismessage'] = 'このメッセージに返信しないでください。';
-$string['deleteduser1'] = '削除済みの人';
+$string['deleteduser1'] = '削除済みのアカウント';
 $string['theme'] = 'テーマ';
 $string['choosetheme'] = 'テーマを選択する ...';
 $string['missingparent'] = 'テーマ「 %s 」の親テーマ「 %s 」がありません。';

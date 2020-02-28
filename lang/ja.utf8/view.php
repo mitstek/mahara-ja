@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-02-28 15:25:59 UTC
+ * @updated    2020-02-28 15:51:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -65,7 +65,7 @@ $string['templategrouphomepage'] = 'グループホームページテンプレ�
 $string['templateprofile'] = 'プロファイルテンプレート';
 $string['templateportfolio'] = 'ページテンプレート';
 $string['templateportfoliotitle'] = 'タイトルなし';
-$string['templateportfoliodescription1'] = 'あなたのユーザが作成するページのデフォルトレイアウトを設定します。あなたはブロックを追加することもできます。あなたがデフォルトページに追加するすべてのコンテンツはあなたの変更後に作成されたすべてのページに追加されることに留意してください。';
+$string['templateportfoliodescription1'] = '作成されるページのデフォルトレイアウトを設定します。あなたはブロックを追加することもできます。あなたがデフォルトページに追加するすべてのコンテンツはあなたの変更後に作成されたすべてのページに追加されることに留意してください。';
 $string['artefacts'] = 'アーティファクト';
 $string['groupviews'] = 'グループページおよびコレクション';
 $string['institutionviews'] = 'インスティテューションページ';
