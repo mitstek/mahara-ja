@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-03 08:17:55 UTC
+ * @updated    2020-02-28 15:20:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -53,6 +53,6 @@ $string['badgrtoken'] = 'バッジャトークン: %s';
 $string['badgrtokenadded'] = 'バッジャトークンがアカウントに追加されました。';
 $string['badgrtokendeleted'] = 'バッジャトークンが削除されました。';
 $string['badgrtokennotfound'] = '提供された認証情報ではバッジャトークンは見つかりませんでした。';
-$string['nobadgruid1'] = 'あなたがバッジャを使用できるようにするにはトークンを設定する必要があります。バッジャを設定するには「ユーザメニュー → 設定 → アプリ → バッジャ」に移動してください。';
+$string['nobadgruid2'] = 'あなたがバッジャを使用できるようにするにはトークンを設定する必要があります。バッジャを設定するには「アカウントメニュー → 設定 → アプリ → バッジャ」に移動してください。';
 
 ?>

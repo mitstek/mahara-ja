@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-02-26 01:52:54 UTC
+ * @updated    2020-02-28 15:21:09 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -173,6 +173,6 @@ $string['deleteallnotifications'] = 'すべての通知を削除する';
 $string['reallydeleteallnotifications'] = '本当にこの活動タイプに関してあなたの通知すべてを削除してもよろしいですか?';
 $string['viewsubmittedsubject1'] = '%s への送信';
 $string['viewsubmittedmessage1'] = '%s が「 %s 」を %s に送信しました。';
-$string['adminnotificationerror'] = 'ユーザ通知エラーは恐らくあなたのサーバ設定に起因します。';
+$string['adminnotificationerror1'] = '通知エラーは恐らくあなたのサーバ設定に起因します。';
 
 ?>

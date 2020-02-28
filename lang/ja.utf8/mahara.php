@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-17 19:17:23 UTC
+ * @updated    2020-02-28 15:40:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -112,12 +112,12 @@ $string['selected'] = '選択済み';
 $string['admin'] = '管理';
 $string['menu'] = 'メニュー';
 $string['adminmenu'] = '管理メニュー';
-$string['usermenu'] = 'ユーザメニュー';
+$string['usermenu1'] = 'アカウントメニュー';
 $string['profilepage'] = 'プロファイルページ';
 $string['mainmenu'] = 'メインメニュー';
 $string['showmainmenu'] = 'メインメニューを表示する';
 $string['showadminmenu'] = '管理メニューを表示する';
-$string['showusermenu'] = 'ユーザメニューを表示する';
+$string['showusermenu1'] = 'アカウントメニューを表示する';
 $string['showsearch'] = '検索を表示する';
 $string['showmenu'] = '%s のメニューを表示する';
 $string['at'] = '@';
@@ -280,10 +280,10 @@ $string['profilecompletenesstips'] = 'プロファイル完了ヒント';
 $string['progressbargenerictask'] = '%d 追加する: %s';
 $string['profilecompletionforwhichinstitution'] = '-';
 $string['noprogressitems'] = 'このインスティテューションにプロファイル完了アイテムはありません。';
-$string['onlineusers'] = 'オンラインユーザ';
+$string['peopleonline'] = 'オンラインの人';
 $string['lastminutes'] = '直近の %s 分間';
-$string['allonline'] = 'すべてのオンラインユーザを表示する';
-$string['noonlineusersfound'] = 'オンラインユーザはいません。';
+$string['allpeopleonline'] = 'オンラインの人を表示する';
+$string['nopeopleonlinefound'] = 'オンラインの人は見つかりませんでした。';
 $string['linksandresources'] = 'リンクおよびリソース';
 $string['accesstotallydenied_institutionsuspended'] = 'あなたのインスティテューション %s は現在利用停止されています。利用再開されるまで %s にログインすることはできません。詳細はあなたのインスティテューションにご連絡ください。';
 $string['accesstotallydenied_institutionexpired'] = 'あなたのインスティテューション %s は有効期限が切れています。有効期限切れが解消されるまで %s にログインすることはできません。詳細はあなたのインスティテューションにご連絡ください。';
@@ -791,7 +791,7 @@ $string['acccountaddappsdescription'] = '現在、トークン管理の許可が
 $string['acccountchooseappsdescription'] = 'あなたのアプリケーショントークンを管理するには「接続済みアプリ」バーよりアプリケーションを選択してください。';
 $string['search'] = '検索';
 $string['searchtype'] = '検索タイプ';
-$string['searchusers'] = 'ユーザを検索する';
+$string['searchusers1'] = '人を探す';
 $string['Query'] = '検索';
 $string['query'] = '検索';
 $string['querydescription'] = '検索語';
@@ -817,7 +817,6 @@ $string['nopublishpermissiononartefact'] = 'あなたには %s を公開する�
 $string['nopathfound'] = 'このアーティファクトのパスが見つかりませんでした。';
 $string['cantmoveitem'] = 'このアーティファクトを移動できません。';
 $string['belongingto'] = '所属';
-$string['allusers'] = 'すべてのユーザ';
 $string['attachment'] = '添付ファイル';
 $string['editaccess'] = 'アクセスを編集する';
 $string['clammovedfile'] = 'ファイルが隔離ディレクトリに移動されました。';
@@ -1142,7 +1141,6 @@ $string['importedfrom'] = 'インポート元 %s';
 $string['incomingfolderdesc'] = '他のネットワークホストからインポートされたファイル';
 $string['remotehost'] = 'リモートホスト %s';
 $string['Copyof'] = '%s のコピー';
-$string['loggedinusersonly'] = 'ログインユーザのみ許可する';
 $string['allowpublicaccess'] = 'パブリックアクセスを許可する';
 $string['viewmyprofilepage'] = 'プロファイルページを表示する';
 $string['editmyprofilepage'] = 'プロファイルページを編集する';
@@ -1156,7 +1154,7 @@ $string['topicsimfollowing'] = '私がフォローしているトピック';
 $string['inboxblocktitle'] = '受信箱';
 $string['mymessages'] = 'マイメッセージ';
 $string['pleasedonotreplytothismessage'] = 'このメッセージに返信しないでください。';
-$string['deleteduser'] = '削除済みユーザ';
+$string['deleteduser1'] = '削除済みの人';
 $string['theme'] = 'テーマ';
 $string['choosetheme'] = 'テーマを選択する ...';
 $string['missingparent'] = 'テーマ「 %s 」の親テーマ「 %s 」がありません。';
