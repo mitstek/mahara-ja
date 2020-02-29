@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-31 00:36:45 UTC
+ * @updated    2020-02-29 03:21:14 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,12 +19,12 @@ $string['mandatoryfields'] = '必須フィールド';
 $string['mandatoryfieldsdescription'] = '入力する必要のあるプロファイルフィールドです。';
 $string['searchablefields'] = '検索可能フィールド';
 $string['searchablefieldsdescription'] = '他の人が検索できるプロファイルフィールドです';
-$string['adminusersearchfields'] = '管理ユーザ検索';
-$string['adminusersearchfieldsdescription'] = '管理ユーザ検索リストにカラムとして表示されるプロファイルフィールドです。';
+$string['adminusersearchfields'] = '管理人検索';
+$string['adminusersearchfieldsdescription'] = '管理人検索にカラムとして表示されるプロファイルフィールドです。';
 $string['aboutdescription'] = 'あなたの実際の姓名をここに入力してください。システム内の人に異なる名前を表示したい場合、あなたの表示名としてその名前を入力してください。';
-$string['infoisprivate'] = 'あなたが他のユーザと共有しているページに置かない限り、この情報は非公開となります。';
+$string['infoisprivate'] = 'あなたが他の人と共有しているページに置かない限り、この情報は非公開となります。';
 $string['viewmyprofile'] = '私のプロファイルを表示する';
-$string['aboutprofilelinkdescription'] = '<p>他のユーザに表示したい情報を編集するにはあなたの<a href="%s">プロファイル</a>ページにアクセスしてください。</p>';
+$string['aboutprofilelinkdescription'] = '<p>他の人に表示したい情報を編集するにはあなたの<a href="%s">プロファイル</a>ページに移動してください。</p>';
 $string['aboutme'] = '私について';
 $string['contact'] = '連絡先';
 $string['social'] = 'ソーシャルメディア';
@@ -87,7 +87,7 @@ $string['emailvalidation_body1'] = '%s さん、こんにちは。
 
 %s
 
-このメールアドレスがあなたのメールアドレスであり、あなたがMaharaのアカウント作成をリクエストしていない場合、以下のリンクをクリックしてメール有効化を拒否してください。
+このメールアドレスがあなたのメールアドレスであり、あなたが %s のアカウント作成をリクエストしていない場合、以下のリンクをクリックしてメール有効化を拒否してください。
 
 %s';
 $string['newemailalert_subject'] = 'あなたの %s アカウントに新しいメールアドレスが追加されました。';
