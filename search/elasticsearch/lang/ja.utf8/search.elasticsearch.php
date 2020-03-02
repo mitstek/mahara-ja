@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-12-06 23:13:17 UTC
+ * @updated    2020-03-02 12:58:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -103,7 +103,7 @@ $string['usedonpage'] = '使用ページ';
 $string['usedonpages'] = '使用ページ';
 $string['username'] = '認証ユーザ名';
 $string['usernamedescription'] = '(任意) HTTP基本認証でElasticsearchに渡すユーザ名です。';
-$string['Users'] = 'ユーザ';
+$string['Users'] = '人';
 $string['wallpost'] = 'ウォール投稿';
 $string['xsearchresults'] = '検索結果: %s';
 $string['xsearchresultsfory'] = '検索結果: %s / 検索キーワード: %s';
