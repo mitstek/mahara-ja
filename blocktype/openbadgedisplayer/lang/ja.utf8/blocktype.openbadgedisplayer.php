@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-02-28 15:20:08 UTC
+ * @updated    2020-03-02 23:17:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -44,6 +44,7 @@ $string['missingbadgesources'] = 'ソース設定がありません。あなた�
 $cfg->openbadgedisplayer_source = \'{"backpack":"https://backpack.openbadges.org/"}\'';
 $string['selectall'] = 'すべてを選択する';
 $string['selectnone'] = 'すべての選択を解除する';
+$string['deprecatedhost'] = '<p class="alert alert-warning">次のサービスからのバッジは廃止されたため表示されません: %s</p>';
 $string['featuredisabled'] = 'openbadgedisplayerブロックタイプが有効ではありません。';
 $string['badgrsourcemissing1'] = 'あなたのconfig.phpファイルのソース設定にバッジャがありません。';
 $string['badgrusername'] = 'バッジャユーザ名';

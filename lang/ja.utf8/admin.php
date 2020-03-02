@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-02-28 17:30:13 UTC
+ * @updated    2020-03-02 23:16:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,6 +19,8 @@ $string['release'] = 'バージョン %s (%s)';
 $string['copyright'] = 'Copyright &copy; 2006 onwards, <a href="https://wiki.mahara.org/Contributors">Catalyst IT and others</a>';
 $string['installmahara'] = 'Maharaをインストールする';
 $string['component'] = 'コンポーネントまたはプラグイン';
+$string['componentdeprecated'] = 'コンポーネント「 %s 」廃止予定';
+$string['plugindeprecated'] = 'プラグイン廃止予定';
 $string['continue'] = '続ける';
 $string['coredata'] = 'コアデータ';
 $string['coredatasuccess'] = 'コアデータを正常にインストールしました。';
