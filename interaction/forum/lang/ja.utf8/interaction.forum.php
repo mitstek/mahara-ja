@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-29 01:31:22 UTC
+ * @updated    2020-03-02 03:41:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,10 +17,10 @@ $string['addpostsuccess'] = '投稿が正常に追加されました。';
 $string['addtitle'] = 'フォーラムを追加する';
 $string['addtopic'] = 'トピックを追加する';
 $string['addtopicsuccess'] = 'トピックが正常に追加されました。';
-$string['allowunsubscribe'] = 'ユーザの購読解除を許可する';
-$string['allowunsubscribedescription'] = 'ユーザがフォーラムおよびトピックを購読解除できるかどうか選択してください。';
-$string['autosubscribeusers'] = 'ユーザを自動的に購読させる';
-$string['autosubscribeusersdescription'] = 'グループユーザがこのフォーラムを自動的に購読するかどうか選択してください。';
+$string['allowunsubscribe'] = 'メンバーの購読解除を許可する';
+$string['allowunsubscribedescription'] = 'グループメンバーがフォーラムおよびトピックを購読解除できるかどうか選択してください。';
+$string['autosubscribeusers'] = 'グループメンバーを自動的に購読させる';
+$string['autosubscribeusersdescription'] = 'グループメンバーがこのフォーラムを自動的に購読するかどうか選択してください。';
 $string['awaitingapproval'] = '承認待ち';
 $string['Body'] = '本文';
 $string['cantaddposttoforum'] = 'あなたはこのフォーラムに投稿できません。';
@@ -46,7 +46,7 @@ $string['Close'] = 'クローズ';
 $string['closeddescription'] = '閉鎖トピックではモデレータおよびグループ管理者のみ返信できます。';
 $string['complaint'] = 'クレーム';
 $string['Count'] = 'カウント';
-$string['createtopicusersdescription'] = '「すべてのグループメンバー」を設定した場合、すべてのメンバーが新しいトピックを作成および既存のトピックに返信できます。「モデレータおよびグループ管理者のみ」を設定した場合、モデレータおよびグループ管理者のみ新しいトピックを開始できます。しかし、「モデレータおよびグループ管理者のみ」を設定してトピックが存在するようになった場合、すべてのユーザが返信できます。';
+$string['createtopicusersdescription'] = '「すべてのグループメンバー」を設定した場合、すべてのメンバーが新しいトピックを作成および既存のトピックに返信できます。「モデレータおよびグループ管理者のみ」を設定した場合、モデレータおよびグループ管理者のみ新しいトピックを開始できます。しかし、「モデレータおよびグループ管理者のみ」を設定してトピックが存在するようになった場合、すべてのグループメンバーが返信できます。';
 $string['currentmoderators'] = '現在のモデレータ';
 $string['defaultforumtitle'] = '一般的なディスカッション';
 $string['defaultforumdescription'] = '%s 一般的なディスカッションフォーラム';
@@ -223,7 +223,7 @@ $string['unsubscribefromforum'] = 'フォーラムを購読解除する';
 $string['unsubscribefromtopic'] = 'トピックを購読解除する';
 $string['updateselectedtopics'] = '選択したトピックを更新する';
 $string['whocancreatetopics'] = '誰がトピックを作成できますか?';
-$string['youcannotunsubscribeotherusers'] = 'あなたは他のユーザを購読解除できません。';
+$string['youcannotunsubscribeotherusers'] = 'あなたは他の人を購読解除できません。';
 $string['youarenotsubscribedtothisforum'] = 'あなたはこのフォーラムを購読していません。';
 $string['youarenotsubscribedtothistopic'] = 'あなたはこのトピックを購読していません。';
 $string['Moveto'] = '移動';
