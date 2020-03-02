@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-12-02 22:12:41 UTC
+ * @updated    2020-03-02 01:38:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,7 +18,7 @@ $string['title'] = '内部';
 $string['description'] = 'Maharaデータベースで認証する';
 $string['completeregistration'] = '登録を完了する';
 $string['emailalreadytaken'] = 'このメールアドレスはすでにここで登録されています。';
-$string['emailalreadytakenbyothers'] = 'このメールアドレスはすでに別のユーザに取得されています。';
+$string['emailalreadytakenbyothers'] = 'このメールアドレスはすでに別の誰かに取得されています。';
 $string['iagreetothetermsandconditions'] = '私は利用条件に同意します。';
 $string['passwordinvalidform1'] = 'あなたのパスワードは少なくとも半角英数字 %s 文字の長さにしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。あなたのパスワードには %s を含む必要があります。';
 $string['recaptcharegistertitle'] = 'reCAPTCHAチャレンジ';
@@ -88,10 +88,10 @@ $string['registrationdeniedmessagereason'] = '%s さん、こんにちは。
 $string['registeredokawaitingemail2'] = 'あなたの登録申請が正常に送信されました。インスティテューション管理者に通知されました。申請が処理され次第、あなた宛にEメールが送信されます。';
 $string['registrationreason'] = '登録理由';
 $string['registrationreasondesc1'] = 'あなたが選択したインスティテューションへの登録申請理由および管理者があなたの申請を処理することに関して有益であると思われる詳細を記述してください。';
-$string['pendingregistrationadminemailsubject'] = 'インスティテューション「 %s 」( %s )への新しいユーザ登録';
+$string['pendingregistrationadminemailsubject'] = 'インスティテューション「 %s 」( %s )への新しいアカウント登録';
 $string['pendingregistrationadminemailtext'] = '%s さん、こんにちは。
 
-新しいユーザがインスティテューション「 %s 」への参加をリクエストしました。
+誰かがインスティテューション「 %s 」への参加をリクエストしました。
 
 このインスティテューションの管理者として登録されているためあなたはこの登録リクエストを承認または拒否する必要があります。この処理を実行するには次のリンクにアクセスしてください: %s
 
@@ -108,7 +108,7 @@ $string['pendingregistrationadminemailtext'] = '%s さん、こんにちは。
 %s チーム';
 $string['pendingregistrationadminemailhtml'] = '<p>%s さん、こんにちは。</p>
 
-<p>新しいユーザがインスティテューション「 %s 」への参加をリクエストしました。</p>
+<p>誰かがインスティテューション「 %s 」への参加をリクエストしました。</p>
 
 <p>このインスティテューションの管理者として登録されているためあなたはこの登録リクエストを承認または拒否する必要があります。この処理を実行するには次のリンクにアクセスしてください:<a href=%s>%s</a></p>
 
@@ -123,21 +123,21 @@ $string['pendingregistrationadminemailhtml'] = '<p>%s さん、こんにちは�
 $string['userdeletionnosuchid'] = '申し訳ございません、この削除リクエストは存在しません。恐らく、すでに判断されているのではないでしょうか?';
 $string['userdeletiondeniedmessage'] = '%s さん、こんにちは。
 
-私たちはあなたの %s のユーザアカウントの削除リクエストを受けましたがあなたのデータを削除しないことに決定しました。
+私たちはあなたの %s のアカウントの削除リクエストを受けましたがあなたのデータを削除しないことに決定しました。
 
 あなたがこの決定を正しくないと思う場合、私にメールでご連絡ください。
 
 %s';
 $string['userdeletiondeniedmessagereason'] = '%s さん、こんにちは。
 
-私たちはあなたの %s のユーザアカウントの削除リクエストを受けましたが以下の理由であなたのデータを削除しないことに決定しました:
+私たちはあなたの %s のアカウントの削除リクエストを受けましたが以下の理由であなたのデータを削除しないことに決定しました:
 
 %s
 
 あなたがこの決定を正しくないと思う場合、私にメールでご連絡ください。
 
 %s';
-$string['userdeletiondeniedemailsubject'] = '%s のユーザアカウント削除が拒否されました。';
+$string['userdeletiondeniedemailsubject'] = '%s のアカウント削除が拒否されました。';
 $string['userdeletionemailsubject'] = 'あなたのアカウントが %s から削除されました。';
 $string['userdeletionemailmessagetext'] = '%s さん、こんにちは。
 

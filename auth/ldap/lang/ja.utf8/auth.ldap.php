@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-12-15 04:10:49 UTC
+ * @updated    2020-03-02 01:46:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -31,7 +31,7 @@ $string['dosuspend'] = 'LDAPに存在しなくなったアカウントを利用�
 $string['doupdate'] = '既存のアカウントをLDAPデータ (long) で更新する';
 $string['dryrun'] = 'ダミー実行です。データベース処理は実行されません。';
 $string['excludelist'] = 'これらの正規表現に名称が合致するLDAPグループを除く';
-$string['extrafilterattribute'] = 'ユーザ検索を制限するための追加LDAPフィルタ';
+$string['extrafilterattribute'] = 'アカウント検索を制限するための追加LDAPフィルタ';
 $string['grouptype'] = '作成するMaharaグループタイプ - デフォルト「standard」';
 $string['hosturl'] = 'ホストURL';
 $string['includelist'] = 'これらの正規表現に名称が合致するLDAPグループのみ処理する';
@@ -42,7 +42,7 @@ $string['ldapfieldforfirstname'] = '名のLDAPフィールド';
 $string['ldapfieldforsurname'] = '姓のLDAPフィールド';
 $string['ldapfieldforstudentid'] = '学籍番号のLDAPフィールド';
 $string['ldapversion'] = 'LDAPバージョン';
-$string['loginlink'] = 'ユーザに自分のアカウントのリンクを許可する';
+$string['loginlink'] = '人に自分のアカウントのリンクを許可する';
 $string['nocreate'] = '新しいアカウントを作成しない';
 $string['nocreatemissinggroups'] = 'すでにインスティテューションに設定されていない場合、LDAPグループを作成しません。';
 $string['nomatchingauths'] = 'このインスティテューションのLDAP認証プラグインは見つかりませんでした。';
@@ -69,19 +69,19 @@ $string['syncgroupssettings'] = 'グループ同期';
 $string['syncgroupsuserattribute'] = 'グループ名が保存されるユーザ属性';
 $string['syncgroupsusergroupnames'] = 'これらのグループ名のみ';
 $string['syncgroupsusergroupnamesdesc'] = 'すべての値を受け入れるには空白のままにしてください。グループ名はカンマで区切ってください。';
-$string['syncuserscreate'] = 'cronジョブでユーザを自動作成する';
-$string['syncuserscron'] = 'cronジョブでユーザを自動同期する';
+$string['syncuserscreate'] = 'cronジョブでアカウントを自動作成する';
+$string['syncuserscron'] = 'cronジョブでアカウントを自動同期する';
 $string['syncusersextrafilterattribute'] = '同期のための追加LDAPフィルタ';
-$string['syncuserssettings'] = 'ユーザ同期';
-$string['syncusersupdate'] = 'cronジョブでユーザ情報を更新する';
-$string['syncusersgonefromldap'] = 'ユーザがLDAPに存在しなくなった場合';
+$string['syncuserssettings'] = 'アカウント同期';
+$string['syncusersupdate'] = 'cronジョブでアカウント情報を更新する';
+$string['syncusersgonefromldap'] = 'アカウントがLDAPに存在しなくなった場合';
 $string['syncusersgonefromldapdonothing'] = '何もしない';
-$string['syncusersgonefromldapsuspend'] = 'ユーザアカウントを利用停止する';
-$string['syncusersgonefromldapdelete'] = 'ユーザアカウントおよびコンテンツすべてを削除する';
+$string['syncusersgonefromldapsuspend'] = 'アカウントを利用停止する';
+$string['syncusersgonefromldapdelete'] = 'アカウントおよびコンテンツすべてを削除する';
 $string['userattribute'] = 'ユーザ属性';
 $string['usertype'] = 'ユーザタイプ';
-$string['weautocreateusers'] = 'こちらでユーザを自動作成する';
-$string['updateuserinfoonlogin'] = 'ログイン時、ユーザ情報を更新する';
+$string['weautocreateusers'] = 'こちらでアカウントを自動作成する';
+$string['updateuserinfoonlogin'] = 'ログイン時、アカウント情報を更新する';
 $string['cannotconnect'] = 'LDAPホストに接続できません。';
 
 ?>

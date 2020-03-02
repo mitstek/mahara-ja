@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-02-01 07:17:16 UTC
+ * @updated    2020-03-02 01:55:43 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -32,13 +32,13 @@ $string['nullpubliccert'] = '公開鍵を生成または保存できませんで
 $string['defaultinstitution'] = 'デフォルトインスティテューション';
 $string['description'] = 'SAML 2.0アイデンティティプロバイダサービスで認証する';
 $string['disco'] = 'アイデンティティプロバイダディスカバリ';
-$string['errorbadinstitution'] = 'ユーザ接続のインスティテューションが解決されませんでした。';
+$string['errorbadinstitution'] = 'アカウント接続のインスティテューションが解決されませんでした。';
 $string['errorbadssphp'] = '無効なSimpleSAMLphpセッションハンドラです: PHPセッションを使用しないでください。';
 $string['errorbadssphpmetadata'] = '無効なSimpleSAMLphp設定です: 設定されたアイデンティティプロバイダメタデータがありません。';
 $string['errorbadssphpspentityid'] = '無効なサービスプロバイダエンティティIDです。';
-$string['errorextrarequiredfield'] = '「こちらでユーザを自動作成する」が有効にされている場合、このフィールドは必須です。';
+$string['errorextrarequiredfield'] = '「こちらでアカウントを自動作成する」が有効にされている場合、このフィールドは必須です。';
 $string['errorretryexceeded'] = '再試行の最大回数 (%s) を越えました: アイデンティティサービスに問題があります。';
-$string['errnosamluser'] = 'ユーザが見つかりませんでした。';
+$string['errnosamluser'] = 'アカウントが見つかりませんでした。';
 $string['errorssphpsetup'] = 'SAMLが正しくセットアップされていません。あなたは最初にコマンドラインから「make ssphp」を実行する必要があります。';
 $string['errorbadlib'] = 'SimpleSAMLPHPライブラリの「autoloader」ファイルが %s にありません。<br />「make ssphp」でSimpleSAMLphpをインストールできること、また、ファイルを読み込めることを確認してください。';
 $string['errorupdatelib'] = 'あなたの現在のSimpleSAMLPHPライブラリは旧バージョンです。あなたは「make cleanssphp && make ssphp」を実行する必要があります。';
@@ -50,7 +50,7 @@ $string['errorbadmetadata'] = 'SAMLメタデータのフォーマットが正し
 $string['errorbadinstitutioncombo'] = 'このインスティテューション属性およびインスティテューション値の組み合わせの認証インスタンスはすでに存在します。';
 $string['errormissingmetadata'] = 'あなたは新しいアイデンティティプロバイダメタデータの追加を選択しましたが何も提供されていません。';
 $string['errormissinguserattributes1'] = 'あなたは認証されたようですが私たちは必要なユーザ属性を受け取っていません。あなたのアイデンティティプロバイダがSSOの姓名およびメールアドレスフィールドを %s にリリースしているか確認してください。または管理者にご連絡ください。';
-$string['errorregistrationenabledwithautocreate1'] = 'インスティテューションが登録を有効にしています。あなたがリモートユーザ名を使用していない限りセキュリティ上の理由からユーザの自動作成を許可しません。';
+$string['errorregistrationenabledwithautocreate1'] = 'インスティテューションが登録を有効にしています。あなたがリモートユーザ名を使用していない限りセキュリティ上の理由からアカウントの自動作成を許可しません。';
 $string['errorremoteuser1'] = '「usersuniquebyusername」が無効にされた場合、「remoteuser」との合致は必須です。';
 $string['IdPSelection'] = 'アイデンティティプロバイダ選択';
 $string['noidpsfound'] = 'アイデンティティプロバイダなし';
@@ -69,9 +69,9 @@ $string['institutionvalue'] = '属性をチェックするためのインステ�
 $string['libchecks'] = '正しいライブラリのインストールを確認する: %s';
 $string['link'] = 'アカウントをリンクする';
 $string['linkaccounts'] = 'リモートアカウント「 %s 」をローカルアカウント「 %s 」とリンクしてもよろしいですか?';
-$string['loginlink'] = 'ユーザに自分のアカウントのリンクを許可する';
+$string['loginlink'] = '人に自分のアカウントのリンクを許可する';
 $string['logintolink'] = 'リモートアカウントにリンクするため %s にローカルログインする';
-$string['logintolinkdesc'] = '<p><b>現在、あなたはリモートユーザ「 %s 」としてログインしています。リモートアカウントとリンクするためあなたのローカルアカウントを使ってログインしてください。あなたが %s にアカウントを持っていない場合、ユーザ登録してください。</b></p>';
+$string['logintolinkdesc'] = '<p><b>現在、あなたはリモートアカウント「 %s 」としてログインしています。リモートアカウントとリンクするためあなたのローカルアカウントを使ってログインしてください。あなたが %s にアカウントを持っていない場合、登録してください。</b></p>';
 $string['logo'] = 'ロゴ';
 $string['institutionregex'] = 'インスティテューション省略名を部分的に文字列一致させる';
 $string['login'] = 'SSO';
@@ -100,16 +100,16 @@ $string['populaterolestoallsaml'] = 'すべてのSAML認証インスタンスに
 $string['populaterolestoallsamldescription'] = 'この設定が有効にされた場合、フォーム送信時にすべての「ロール」フィールドの値が同じアイデンティティプロバイダを使用する他のすべてのSAML認証インスタンスにコピーされます。その後、このフィールドは「No」にリセットされます。';
 $string['samlfieldforautogroups'] = '自動グループ管理のロール';
 $string['samlfieldforautogroupsall'] = 'すべてのグループの自動グループ管理';
-$string['samlfieldforautogroupsalldescription'] = 'この設定を有効にした場合、ユーザはすべてのグループのグループ管理者として追加されます。そうでない場合、ユーザは自分のインスティテューション内のグループのグループ管理者として追加されます。';
+$string['samlfieldforautogroupsalldescription'] = 'この設定を有効にした場合、人はすべてのグループのグループ管理者として追加されます。そうでない場合、自分のインスティテューション内のグループのグループ管理者として追加されます。';
 $string['samlfieldauthloginmsg'] = '不正ログインメッセージ';
 $string['spentityid'] = 'サービスプロバイダエンティティID';
 $string['title'] = 'SAML';
-$string['updateuserinfoonlogin'] = 'ログイン時、ユーザ情報を更新する';
+$string['updateuserinfoonlogin'] = 'ログイン時、アカウント情報を更新する';
 $string['userattribute'] = 'ユーザ属性';
 $string['simplesamlphplib'] = 'SimpleSAMLPHPライブラリディレクトリ';
 $string['simplesamlphpconfig'] = 'SimpleSAMLPHP設定ディレクトリ';
-$string['weautocreateusers'] = 'こちらでユーザを自動作成する';
-$string['remoteuser'] = 'ユーザ属性をリモートユーザに合致させる';
+$string['weautocreateusers'] = 'こちらでアカウントを自動作成する';
+$string['remoteuser'] = 'ユーザ属性をリモートユーザ名に合致させる';
 $string['selectidp'] = 'あなたがログインに使いたいアイデンティティプロバイダを選択してください。';
 $string['sha1'] = 'レガシーSHA1 (危険)';
 $string['sha256'] = 'SHA256 (デフォルト)';
