@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-02-29 03:21:14 UTC
+ * @updated    2020-03-02 01:24:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,7 +20,7 @@ $string['mandatoryfieldsdescription'] = '入力する必要のあるプロファ
 $string['searchablefields'] = '検索可能フィールド';
 $string['searchablefieldsdescription'] = '他の人が検索できるプロファイルフィールドです';
 $string['adminusersearchfields'] = '管理人検索';
-$string['adminusersearchfieldsdescription'] = '管理人検索にカラムとして表示されるプロファイルフィールドです。';
+$string['adminusersearchfieldsdescription'] = '管理「人検索」にカラムとして表示されるプロファイルフィールドです。';
 $string['aboutdescription'] = 'あなたの実際の姓名をここに入力してください。システム内の人に異なる名前を表示したい場合、あなたの表示名としてその名前を入力してください。';
 $string['infoisprivate'] = 'あなたが他の人と共有しているページに置かない限り、この情報は非公開となります。';
 $string['viewmyprofile'] = '私のプロファイルを表示する';
@@ -83,7 +83,7 @@ $string['profilefailedsaved'] = 'プロファイルの保存に失敗しまし�
 $string['emailvalidation_subject'] = 'Eメール確認';
 $string['emailvalidation_body1'] = '%s さん、こんにちは。
 
-%s のあなたのユーザアカウントにメールアドレス %s が追加されました。以下のリンクにアクセスしてこのメールアドレスを有効化してください。
+%s のあなたのアカウントにメールアドレス %s が追加されました。以下のリンクにアクセスしてこのメールアドレスを有効化してください。
 
 %s
 
@@ -93,7 +93,7 @@ $string['emailvalidation_body1'] = '%s さん、こんにちは。
 $string['newemailalert_subject'] = 'あなたの %s アカウントに新しいメールアドレスが追加されました。';
 $string['newemailalert_body_text1'] = '%s さん、こんにちは。
 
-あなたは %s のユーザアカウントに次のメールアドレスを追加しました:
+あなたは %s のアカウントに次のメールアドレスを追加しました:
 
 %s
 
@@ -102,7 +102,7 @@ $string['newemailalert_body_text1'] = '%s さん、こんにちは。
 %scontact.php';
 $string['newemailalert_body_html1'] = '<p>%s さん、こんにちは。</p>
 
-<p>あなたは %s のユーザアカウントに次のメールアドレスを追加しました:</p>
+<p>あなたは %s のアカウントに次のメールアドレスを追加しました:</p>
 
 <p>%s</p>
 
