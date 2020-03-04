@@ -50,7 +50,7 @@ $string['youcanupgrade'] = 'あなたはMaharaを %s (%s) から %s (%s) へア�
 $string['upgradeinprogress'] = '%s に開始されたアップグレードは完了していません。<a href="?rerun=1">このアップグレードを実行します</a>。';
 $string['Plugin'] = 'プラグイン';
 $string['jsrequiredforupgrade'] = 'あなたがインストールまたはアップグレードを実行するにはJavaスクリプトを有効にする必要があります。';
-$string['dbnotutf8warning'] = 'あなたはUTF-8データベースを使用していません。Maharaはすべてのデータを内部的にUTF-8で保存します。あなたはこのアップグレードを試みることもできますが、データベースをUTF-8にコンバートすることをお勧めします。';
+$string['dbnotutf8warning'] = 'あなたはUTF-8データベースを使用していません。Maharaはすべてのデータを内部的にUTF-8で保存します。あなたはこのアップグレードを試みることもできますがデータベースをUTF-8にコンバートすることをお勧めします。';
 $string['dbcollationmismatch'] = 'あなたのデータベースカラムはデータベースデフォルトとは異なるコレーションを使用しています。すべてのカラムがデータベースと同じコレーションを使用していることを確認してください。';
 $string['maharainstalled'] = 'Maharaはすでにインストールされています。';
 $string['cliadminpassword'] = '管理ユーザのパスワード';
@@ -155,7 +155,7 @@ $string['nofiltersinstalled'] = 'HTMLフィルタはインストールされま�
 $string['allowediframesites'] = '許可されるiframeソース';
 $string['allowediframesitesdescriptionshort'] = '埋め込み外部iframeコンテンツのパーミッションを設定します。';
 $string['allowediframesitesdescription'] = 'ユーザはHTML &lt;iframe&gt; エレメント内に以下の外部サイトからコンテンツを埋め込むことができます。これは一般的に他の場所で提供されているコンテンツを表示するため使用されます。このページで許可されるサイト一覧を修正できます。';
-$string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、ユーザにアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが、同一サイト内におけるiframeソーステキストの一部合致は許可されます。';
+$string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、ユーザにアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが同一サイト内におけるiframeソーステキストの一部合致は許可されます。';
 $string['iframeurldescription'] = 'iframeソースURL (http:// なし) の先頭に合致するテキストです。半角英数字、「.」「/」「_」および「-」のみ許可されます。';
 $string['iframedisplaynamedescription'] = 'ユーザに表示されるサイト名です。';
 $string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含むことができます。';
@@ -487,7 +487,7 @@ $string['footermenudescription'] = 'フッタメニュー内のリンクを有�
 $string['footerupdated'] = 'フッタが更新されました。';
 $string['footercustomlink'] = 'ここにURLを入力することであなたはデフォルトページ「 %s 」に優先させることができます。デフォルト値を使用する場合、空白のままにしてください。';
 $string['adminfilespagedescription2'] = 'これらは%s「リンクおよびリソース」メニュー%sに含むことのできるファイルです。あなたはホームディレクトリからログインメニューにファイルを追加できます。また、「パブリック」フォルダからパブリックメニューにファイルを追加することもできます。';
-$string['extralicensesdescription'] = '注意: 次のライセンスはいくつかのコンテンツで使用されていますが、設定されていません。';
+$string['extralicensesdescription'] = '注意: 次のライセンスはいくつかのコンテンツで使用されていますが設定されていません。';
 $string['licensenamelabel'] = 'URL';
 $string['licensedisplaynamelabel'] = '表示名';
 $string['licenseshortnamelabel'] = '頭字語';
@@ -542,7 +542,7 @@ $string['emailsmtpsecuretls'] = 'TLS';
 $string['emailnoreplyaddress'] = 'システムメールアドレス';
 $string['emailnoreplyaddressdescription'] = 'このメールアドレスからEメールが送信されることになります。';
 $string['notificationsettings'] = '通知設定';
-$string['notificationsettingsdescription'] = 'ここであなたは新しいユーザが受信する通知のデフォルトオプションを設定できます。ユーザはこれらの設定を自分の「設定 → 通知」ページでオーバーライドできます。<br />あなたがメールオプションのどちらかを選択した場合、通知はユーザの受信ボックスにも到着しますが、自動的に既読としてマークされます。';
+$string['notificationsettingsdescription'] = 'ここであなたは新しいユーザが受信する通知のデフォルトオプションを設定できます。ユーザはこれらの設定を自分の「設定 → 通知」ページでオーバーライドできます。<br />あなたがメールオプションのどちらかを選択した場合、通知はユーザの受信ボックスにも到着しますが自動的に既読としてマークされます。';
 $string['csvfile'] = 'CSVファイル';
 $string['emailusersaboutnewaccount'] = 'ユーザにアカウント情報をメール送信する';
 $string['emailusersaboutnewaccountdescription'] = 'この設定を有効にした場合、新しいアカウント詳細情報がユーザにメール送信されます。';
@@ -632,7 +632,7 @@ $string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能�
 
 <pre>shortname,username,role</pre>
 
-<p>この行は上記のフィールドすべてを含む必要がありますが、順序は自由に記述してください。</p>
+<p>この行は上記のフィールドすべてを含む必要がありますが順序は自由に記述してください。</p>
 
 <p>shortnameフィールドはあなたが<a href="%s" title="%s">ここ</a>でグループを作成した時に使用した名称と同じにする必要があります。</p>
 
@@ -1090,7 +1090,7 @@ $string['showprogressbar'] = 'プロファイル完了を表示する';
 $string['progressbarsaved'] = 'プログレスバーが正常に保存されました。';
 $string['showprogressbardescription1'] = 'ユーザプロファイルで完了する必要のある内容に関してサイドバーとしてユーザにヒント付のプログレスバーを表示します。これには無効にするオプションがあります。';
 $string['progressbardisablednote'] = '<b>注意</b>: 現在、プロファイル完了は無効にされています。ユーザがプロファイル完了に関して進捗を追跡できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「ユーザ設定」セクションで有効にする必要があります。';
-$string['profilecompletenessdesc1'] = 'プロファイル完了ではあなたのユーザはプロファイルをどの程度完了しているか確認できるサイドバーのビジュアルインディケータを使用できます。あなたはプロファイル完了に反映させるアーティファクトを選択できます。他のすべてのアーティファクトを使用できますが、完了カウントの要素とはなりません。';
+$string['profilecompletenessdesc1'] = 'プロファイル完了ではあなたのユーザはプロファイルをどの程度完了しているか確認できるサイドバーのビジュアルインディケータを使用できます。あなたはプロファイル完了に反映させるアーティファクトを選択できます。他のすべてのアーティファクトを使用できますが完了カウントの要素とはなりません。';
 $string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックでプロファイル完了がどのように表示されるかプレビューできます。';
 $string['exporttoqueue'] = 'キューにエクスポートする';
 $string['exporttoqueuedescription2'] = 'サーバ負荷管理を改善するためユーザポートフォリオのLeap2Aによるエクスポートをエクスポートキューが処理するようにします。';
