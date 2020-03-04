@@ -59,7 +59,7 @@ $string['noupgrades'] = 'アップグレードはありません! あなたは�
 $string['youcanupgrade'] = 'あなたはMaharaを %s (%s) から %s (%s) へアップグレードできます!';
 $string['Plugin'] = 'プラグイン';
 $string['jsrequiredforupgrade'] = 'あなたがインストールまたはアップグレードを実行するにはJavaスクリプトを有効にする必要があります。';
-$string['dbnotutf8warning'] = 'あなたはUTF-8データベースを使用していません。Maharaはすべてのデータを内部的にUTF-8で保存します。あなたはこのアップグレードを試みることもできますが、データベースをUTF-8にコンバートすることをお勧めします。';
+$string['dbnotutf8warning'] = 'あなたはUTF-8データベースを使用していません。Maharaはすべてのデータを内部的にUTF-8で保存します。あなたはこのアップグレードを試みることもできますがデータベースをUTF-8にコンバートすることをお勧めします。';
 $string['dbcollationmismatch'] = 'あなたのデータベースカラムはデータベースデフォルトとは異なるコレーションを使用しています。すべてのカラムがデータベースと同じコレーションを使用していることを確認してください。';
 $string['adminhome'] = '管理ホーム';
 $string['configsite'] = 'サイト設定';
@@ -451,7 +451,7 @@ $string['removeuserfrominstitution'] = 'このインスティテューション�
 $string['confirmremoveuserfrominstitution'] = '本当にこのインスティテューションからユーザを削除してもよろしいですか?';
 $string['usereditdescription'] = 'あなたはここでこのユーザアカウントの閲覧および詳細設定できます。以下であなたは<a href="#suspend">このアカウントを利用停止または削除</a>できます。また、<a href="#institutions">このユーザが関わっているインスティテューション内</a>で設定を変更することもできます。';
 $string['suspenddeleteuser'] = 'ユーザの利用停止/削除';
-$string['suspenddeleteuserdescription'] = 'あなたはここでユーザアカウントを利用停止または完全に削除できます。利用停止されたユーザは利用停止が解除されるまでログインできません。利用停止されたユーザは利用停止解除できますが、削除されたユーザは元に戻すことは<b>できません</b>ので注意してください。';
+$string['suspenddeleteuserdescription'] = 'あなたはここでユーザアカウントを利用停止または完全に削除できます。利用停止されたユーザは利用停止が解除されるまでログインできません。利用停止されたユーザは利用停止解除できますが削除されたユーザは元に戻すことは<b>できません</b>ので注意してください。';
 $string['deleteusernote'] = 'この処理は<b>元に戻すことができません</b>ので注意してください。';
 $string['youcannotadministerthisuser'] = 'あなたはこのユーザを管理することはできません。';
 $string['adduser'] = 'ユーザを追加する';
