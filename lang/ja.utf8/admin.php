@@ -62,7 +62,7 @@ $string['youcanupgrade'] = 'あなたはMaharaを %s (%s) から %s (%s) へア�
 $string['upgradeinprogress'] = '%s に開始されたアップグレードは完了していません。<a href="?rerun=1">このアップグレードを実行します</a>。';
 $string['Plugin'] = 'プラグイン';
 $string['jsrequiredforupgrade'] = 'あなたがインストールまたはアップグレードを実行するにはJavaスクリプトを有効にする必要があります。';
-$string['dbnotutf8warning'] = 'あなたはUTF-8データベースを使用していません。Maharaはすべてのデータを内部的にUTF-8で保存します。あなたはこのアップグレードを試みることもできますが、データベースをUTF-8にコンバートすることをお勧めします。';
+$string['dbnotutf8warning'] = 'あなたはUTF-8データベースを使用していません。Maharaはすべてのデータを内部的にUTF-8で保存します。あなたはこのアップグレードを試みることもできますがデータベースをUTF-8にコンバートすることをお勧めします。';
 $string['dbcollationmismatch'] = 'あなたのデータベースカラムはデータベースデフォルトとは異なるコレーションを使用しています。すべてのカラムがデータベースと同じコレーションを使用していることを確認してください。';
 $string['maharainstalled'] = 'Maharaはすでにインストールされています。';
 $string['cliadminpassword'] = '管理ユーザのパスワード';
@@ -139,7 +139,7 @@ $string['nofiltersinstalled'] = 'HTMLフィルタはインストールされま�
 $string['allowediframesites'] = '許可されるiframeソース';
 $string['allowediframesitesdescriptionshort'] = '埋め込み外部iframeコンテンツのパーミッションを設定します。';
 $string['allowediframesitesdescription'] = 'ユーザはHTML &lt;iframe&gt; エレメント内に以下の外部サイトからコンテンツを埋め込むことができます。これは一般的に他の場所で提供されているコンテンツを表示するため使用されます。このページで許可されるサイト一覧を修正できます。';
-$string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、ユーザにアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが、同一サイト内におけるiframeソーステキストの一部合致は許可されます。';
+$string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、ユーザにアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが同一サイト内におけるiframeソーステキストの一部合致は許可されます。';
 $string['iframeurldescription'] = 'iframeソースURL (http:// なし) の先頭に合致するテキストです。半角英数字、「.」「/」「_」および「-」のみ許可されます。';
 $string['iframedisplaynamedescription'] = 'ユーザに表示されるサイト名です。';
 $string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含むことができます。';
@@ -529,7 +529,7 @@ $string['uploadgroupmemberscsvpagedescription2'] = '<p>あなたはこの機能�
 
 <pre>shortname,username,role</pre>
 
-<p>この行は上記のフィールドすべてを含む必要がありますが、順序は自由に記述してください。</p>
+<p>この行は上記のフィールドすべてを含む必要がありますが順序は自由に記述してください。</p>
 
 <p>shortnameフィールドはあなたが<a href="%s" title="%s">ここ</a>でグループを作成した時に使用した名称と同じにする必要があります。</p>
 
@@ -633,7 +633,7 @@ $string['confirmremoveuserfrominstitution'] = '本当にこのインスティテ
 $string['usereditdescription'] = 'あなたはここでこのユーザアカウントの閲覧および詳細設定できます。以下であなたは<a href="#suspend">このアカウントを利用停止または削除</a>できます。また、<a href="#institutions">このユーザが関わっているインスティテューション内</a>で設定を変更することもできます。';
 $string['usereditwarning'] = '注意: アカウントの変更を保存することで (現在ログインしている場合) ユーザがログアウトされることになります。';
 $string['suspenddeleteuser'] = 'ユーザの利用停止/削除';
-$string['suspenddeleteuserdescription'] = 'あなたはここでユーザアカウントを利用停止または完全に削除できます。利用停止されたユーザは利用停止が解除されるまでログインできません。利用停止されたユーザは利用停止解除できますが、削除されたユーザは元に戻すことは<b>できません</b>ので注意してください。';
+$string['suspenddeleteuserdescription'] = 'あなたはここでユーザアカウントを利用停止または完全に削除できます。利用停止されたユーザは利用停止が解除されるまでログインできません。利用停止されたユーザは利用停止解除できますが削除されたユーザは元に戻すことは<b>できません</b>ので注意してください。';
 $string['deleteusernote'] = 'この処理は<b>元に戻すことができません</b>ので注意してください。';
 $string['youcannotadministerthisuser'] = 'あなたはこのユーザを管理することはできません。';
 $string['usernamechangenotallowed'] = '選択された認証方法ではユーザ名の変更が許可されていません。';
