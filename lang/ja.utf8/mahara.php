@@ -824,7 +824,7 @@ $string['clamdeletedfile'] = 'ファイルが削除されました。';
 $string['clamdeletedfilefailed'] = 'ファイルを削除できませんでした。';
 $string['clambroken'] = 'あなたの管理者がファイルアップロードのウイルスチェックを有効にしましたが設定が正しくないようです。あなたのファイルは正常にはアップロードされませんでした。あなたの管理者にメール通知が送信されましたので管理者は問題を修正できます。このファイルのアップロードを後でお試しください。';
 $string['clamemailsubject'] = '%s :: ClamAV通知';
-$string['clamlost'] = 'ClamAVがファイルのアップロード時に動作するよう設定されていますが、ClamAVに提供されたパス「 %s 」が正しくありません。';
+$string['clamlost'] = 'ClamAVがファイルのアップロード時に動作するよう設定されていますがClamAVに提供されたパス「 %s 」が正しくありません。';
 $string['clamnotset'] = 'あなたはウイルスチェックを有効にしましたが、「ClamAVのパス」を設定していません。あなたのconfig.phpファイルに「$cfg->pathtoclam」を追加してClamAVのパスを設定するまでウイルスチェックは有効になりません。';
 $string['clamfailed'] = 'ClamAVの動作にエラーが発生しました。エラーメッセージは %s です。ClamAVのアウトプットは次のとおりです:';
 $string['clamunknownerror'] = 'ClamAVに不明なエラーが発生しました。';
@@ -1273,7 +1273,7 @@ $string['postformresponse'] = 'あなたの主メールアドレス宛に確認�
 $string['selfmigrate'] = 'アカウントを別のインスティテューションに移動する';
 $string['institutionmembershipfullmessagetextuser'] = '%s さん、こんにちは。
 
-%s がインスティテューション「 %s 」(%s) への移動を希望していますが、インスティテューションメンバー数上限に達しています。
+%s がインスティテューション「 %s 」(%s) への移動を希望していますがインスティテューションメンバー数上限に達しています。
 
 未使用のアカウントを削除するか、このインスティテューションのアカウント数を増やすようサイト管理者にご依頼ください。
 
