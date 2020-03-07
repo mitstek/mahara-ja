@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-02 01:55:43 UTC
+ * @updated    2020-03-07 02:29:53 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -104,7 +104,7 @@ $string['samlfieldforautogroupsalldescription'] = 'この設定を有効にし�
 $string['samlfieldauthloginmsg'] = '不正ログインメッセージ';
 $string['spentityid'] = 'サービスプロバイダエンティティID';
 $string['title'] = 'SAML';
-$string['updateuserinfoonlogin'] = 'ログイン時、アカウント情報を更新する';
+$string['updateuserinfoonlogin'] = 'ログイン時、アカウント詳細を更新する';
 $string['userattribute'] = 'ユーザ属性';
 $string['simplesamlphplib'] = 'SimpleSAMLPHPライブラリディレクトリ';
 $string['simplesamlphpconfig'] = 'SimpleSAMLPHP設定ディレクトリ';
