@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-10-30 13:51:43 UTC
+ * @updated    2020-03-07 01:22:00 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -153,7 +153,7 @@ $string['skincustomcssdescription'] = 'カスタムCSSはスキンプレビュ�
 $string['chooseviewskin'] = 'ページスキンを選択する';
 $string['chooseskin'] = 'スキンを選択する';
 $string['notsavedyet'] = 'まだ保存されていません。';
-$string['notcompatiblewiththeme'] = 'あなたのMaharaサイトテーマ「 %s 」はページスキンをサポートしていません。これはあなたが選択したスキンがページの表示に影響を及ぼさないことを意味します。しかし、異なるテーマでサイトを閲覧した場合、他のユーザのページの見え方に影響を及ぼす可能性があります。';
+$string['notcompatiblewiththeme'] = 'あなたのMaharaサイトテーマ「 %s 」はページスキンをサポートしていません。これはあなたが選択したスキンがページの表示に影響を及ぼさないことを意味します。しかし、異なるテーマでサイトを閲覧した場合、ページの見え方に影響を及ぼす可能性があります。';
 $string['notcompatiblewithpagetheme'] = 'このページのテーマ「 %s 」はページスキンをサポートしていません。あなたが選択したスキンは異なるテーマを選択するまでページの見え方に影響を及ぼしません。';
 $string['viewskinchanged'] = 'ページスキンが変更されました。';
 $string['manageskins'] = 'スキンを管理する';
@@ -168,7 +168,7 @@ CSS @font-faceルールによってウェブページに埋め込むことので
 <br />TrueTypeフォント、Embedded OpenTypeフォント、Web Open Font FormatフォントおよびScalable Vector Graphicフォント。
 </p>
 <p>
-あなたは<a href="http://www.fontsquirrel.com/fontface/generator/">FontSquirrel Online Generator</a>を変換に利用できます。
+あなたは<a href="https://www.fontsquirrel.com/tools/webfont-generator/">FontSquirrel Online Generator</a>を変換に利用できます。
 </p>';
 $string['nofonts'] = 'フォントがありません。';
 $string['font'] = 'フォント';
@@ -200,7 +200,7 @@ $string['bolditalic'] = '太字イタリック';
 $string['fonttype'] = 'フォントタイプ';
 $string['headingandtext'] = 'ヘッディングおよびテキスト';
 $string['headingonly'] = 'ヘッディングのみ';
-$string['fontuploadinstructions'] = '<br />必要なフォントファイルをアップロードする場合、あなたは<a href="http://www.fontsquirrel.com/fontface/generator/">FontSquirrel Online Generator</a>によって生成されたZIPファイルを直接アップロードするか、
+$string['fontuploadinstructions'] = '<br />必要なフォントファイルをアップロードする場合、あなたは<a href="https://www.fontsquirrel.com/tools/webfont-generator/">FontSquirrel Online Generator</a>によって生成されたZIPファイルを直接アップロードするか、
 <br />EOT、SVG、TTF、WOFFおよびライセンスファイルを個別にアップロードできます。';
 $string['fontfiles'] = 'フォントファイル';
 $string['fontfilemissing'] = 'ZIPファイルに「 %s 」フォントファイルが含まれていません。';
@@ -262,7 +262,7 @@ $string['archivereadingerror'] = 'ZIP書庫の読み込み中にエラーが発�
 $string['gwfontadded'] = 'Googleフォントが正常にインストールされました。';
 $string['gwfontsnotavailable'] = '現在、Googleフォントは利用できません。';
 $string['gwfinstructions'] = '<ol>
-<li><a href="http://www.google.com/fonts/">Googleフォント</a>にアクセスしてください。</li>
+<li><a href="https://fonts.google.com">Googleフォント</a>にアクセスしてください。</li>
 <li>フォントを選択してあなたのコレクションに追加してください。</li>
 <li>コレクション内のフォントをZIPファイルとしてダウンロードしてください。</li>
 <li>このフォームにZIPファイルをアップロードしてください。</li>
