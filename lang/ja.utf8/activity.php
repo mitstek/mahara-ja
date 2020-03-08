@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-02-28 15:21:09 UTC
+ * @updated    2020-03-08 02:48:59 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['typemaharamessage'] = 'システムメッセージ';
-$string['typeusermessage'] = '他のユーザからのメッセージ';
+$string['typeusermessage'] = '他の人からのメッセージ';
 $string['typefeedback'] = 'コメント';
 $string['typewatchlist'] = 'ウォッチリスト';
 $string['typeviewaccess'] = '新しいページアクセス';
@@ -166,7 +166,7 @@ $string['addtowatchlist'] = 'ウォッチリストに追加する';
 $string['removefromwatchlist'] = 'ウォッチリストから削除する';
 $string['missingparam'] = '次の活動タイプに関する必須パラメータ %s が空です: %s';
 $string['institutionrequestsubject'] = '%s が %s のメンバーシップをリクエストしました。';
-$string['institutionrequestmessage'] = 'あなたは「インスティテューションメンバー」ページでユーザをインスティテューションに追加できます:';
+$string['institutionrequestmessage'] = 'あなたは「インスティテューションメンバー」ページで人をインスティテューションに追加できます:';
 $string['institutioninvitesubject'] = 'あなたはインスティテューション %s への参加を招待されました。';
 $string['institutioninvitemessage'] = 'あなたは「インスティテューション設定」ページでこのインスティテューションのメンバーシップを承認できます:';
 $string['deleteallnotifications'] = 'すべての通知を削除する';

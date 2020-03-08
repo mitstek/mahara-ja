@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-02-20 21:40:29 UTC
+ * @updated    2020-03-08 03:35:29 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -34,7 +34,7 @@ $string['wysiwygdescr'] = 'HTMLエディタ';
 $string['licensedefault'] = 'デフォルトライセンス';
 $string['licensedefaultdescription'] = 'あなたのコンテンツのデフォルトライセンスです。';
 $string['licensedefaultinherit'] = 'インスティテューションデフォルトを使用する';
-$string['messagesdescr'] = '他のユーザからのメッセージ';
+$string['messagesdescr'] = '他の人からのメッセージ';
 $string['messagesnobody'] = '誰も私にメッセージを送信できません。';
 $string['messagesfriends'] = 'マイフレンドリストに登録した人は私にメッセージを送信できます。';
 $string['messagesallow'] = '誰でも私にメッセージを送信できます。';
@@ -44,7 +44,7 @@ $string['tagssideblockmaxtagsdescription'] = 'あなたのタグクラウドに�
 $string['enablemultipleblogs1'] = '複数日誌';
 $string['enablemultipleblogsdescription1'] = 'デフォルトではあなたは1つの日誌のみ作成できます。2つ以上の日誌を作成したい場合、このオプションを有効にしてください。';
 $string['hiderealname'] = '実名を隠す';
-$string['hiderealnamedescription'] = 'あなたが表示名を設定した場合、そしてあなたの実名検索により他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
+$string['hiderealnamedescription'] = 'あなたが表示名を設定した場合、そしてあなたの実名検索により他の人から自分を探されたくない場合、このチェックボックスをチェックしてください。';
 $string['showhomeinfo2'] = 'ダッシュボード情報';
 $string['showhomeinfodescription1'] = 'ダッシュボード上に %s の使用方法に関する情報を表示します。';
 $string['showlayouttranslatewarning'] = 'ページレイアウト変更前に確認する';
@@ -60,7 +60,7 @@ $string['disableemail'] = 'Eメールを無効にする';
 $string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたため、あなたのメールアドレス宛のメール送信は停止されました。Eメールを有効にする前にあなたのEメールアカウントが正常に動作しているか %s のアカウントプリファレンスで確認してください。';
 $string['maildisableddescription'] = 'あなたのアカウント宛のメール送信が停止されました。アカウントプリファレンスページで<a href="%s">あなたのEメールを再度有効</a>にできます。';
 $string['deleteaccountuser'] = '%s のアカウントを削除する';
-$string['deleteaccountdescription'] = 'アカウントを削除した場合、あなたのすべてのコンテンツは完全に削除されます。あなたは元に戻せません。あなたのプロファイル情報およびページは他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧できますが投稿者名が表示されないようになります。';
+$string['deleteaccountdescription'] = 'アカウントを削除した場合、あなたのすべてのコンテンツは完全に削除されます。あなたは元に戻せません。あなたのプロファイル情報およびページは他の人が閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧できますが投稿者名が表示されないようになります。';
 $string['sendnotificationdescription'] = 'あなたのアカウント削除を承認するよう管理者に通知が送信されます。あなたがアカウントの削除をリクエストした場合、あなたの個人コンテンツすべてが完全に削除されます。これはあなたがアップロードしたファイル、執筆した日誌エントリ、作成したページおよびコレクションが削除されることを意味します。あなたはそれらを元に戻せません。あなたがグループでファイルをアップロードしている場合、日誌エントリおよびポートフォリオを作成している場合、そこでフォーラムに投稿している場合、それらはそのままになりますがあなたの氏名は表示されないようになります。';
 $string['pendingdeletionsince'] = '%s 以来のアカウント削除保留';
 $string['pendingdeletionadminemailsubject'] = '%s のアカウント削除リクエスト';
@@ -68,9 +68,9 @@ $string['resenddeletionadminemailsubject'] = '%s のアカウント削除リク�
 $string['canceldeletionadminemailsubject'] = '%s のアカウント削除リクエストのキャンセル';
 $string['pendingdeletionadminemailtext'] = '管理者さん、こんにちは。
 
-ユーザ %s がサイトからの自分のアカウント削除をリクエストしました。
+%s がサイトからの自分のアカウント削除をリクエストしました。
 
-あなたはユーザが属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定できます。これを実行するには次のリンクにアクセスしてください: %s
+あなたはこの人が属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定できます。これを実行するには次のリンクにアクセスしてください: %s
 
 アカウント削除リクエストの詳細は次のとおりです:
 
@@ -81,8 +81,8 @@ $string['pendingdeletionadminemailtext'] = '管理者さん、こんにちは。
 --
 %s チーム';
 $string['pendingdeletionadminemailhtml'] = '<p>管理者さん、こんにちは。</p>
-<p>ユーザ %s がサイトからの自分のアカウント削除をリクエストしました。</p>
-<p>あなたはユーザが属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定できます。これを実行するには次のリンクにアクセスしてください: <a href=\'%s\'>%s</a></p>
+<p>%s がサイトからの自分のアカウント削除をリクエストしました。</p>
+<p>あなたはこの人が属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定できます。これを実行するには次のリンクにアクセスしてください: <a href=\'%s\'>%s</a></p>
 <p>アカウント削除リクエストの詳細は次のとおりです:</p>
 <p>氏名: %s</p>
 <p>メールアドレス: %s</p>
@@ -93,9 +93,9 @@ $string['accountdeleted'] = 'あなたのアカウントが削除されました
 $string['resenddeletionnotification'] = '削除通知を再送する';
 $string['resenddeletionadminemailtext'] = '管理者さん、こんにちは。
 
-これはユーザ %s によるサイトからのアカウント削除リクエストに関するリマインダです。
+これは %s によるサイトからのアカウント削除リクエストに関するリマインダです。
 
-あなたはユーザが属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定できます。これを実行するには次のリンクにアクセスしてください: %s
+あなたはこの人が属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定できます。これを実行するには次のリンクにアクセスしてください: %s
 
 アカウント削除リクエストの詳細は次のとおりです:
 
@@ -106,8 +106,8 @@ $string['resenddeletionadminemailtext'] = '管理者さん、こんにちは。
 --
 %s チーム';
 $string['resenddeletionadminemailhtml'] = '<p>管理者さん、こんにちは。</p>
-<p>これはユーザ %s によるサイトからのアカウント削除リクエストに関するリマインダです。</p>
-<p>あなたはユーザが属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定できます。これを実行するには次のリンクにアクセスしてください: <a href=\'%s\'>%s</a></p>
+<p>これは %s によるサイトからのアカウント削除リクエストに関するリマインダです。</p>
+<p>あなたはこの人が属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定できます。これを実行するには次のリンクにアクセスしてください: <a href=\'%s\'>%s</a></p>
 <p>アカウント削除リクエストの詳細は次のとおりです:</p>
 <p>氏名: %s</p>
 <p>メールアドレス: %s</p>
@@ -116,14 +116,14 @@ $string['resenddeletionadminemailhtml'] = '<p>管理者さん、こんにちは�
 %s チーム</pre>';
 $string['pendingdeletionemailsent'] = 'インスティテューション管理者に通知を送信しました。';
 $string['cancelrequest'] = 'リクエストをキャンセルする';
-$string['deleterequestcanceled'] = 'あなたのユーザアカウントの削除リクエストはキャンセルされました。';
+$string['deleterequestcanceled'] = 'あなたのアカウントの削除リクエストはキャンセルされました。';
 $string['canceldeletionrequest'] = '削除リクエストをキャンセルする';
 $string['canceldeletionrequestconfirmation'] = 'これはインスティテューション管理者へのアカウント %s の削除リクエストをキャンセルします。本当に続けてもよろしいですか?';
 $string['canceldeletionadminemailtext'] = '管理者さん、こんにちは。
 
-ユーザ %s がサイトからのアカウント削除リクエストをキャンセルしました。
+%s がサイトからのアカウント削除リクエストをキャンセルしました。
 
-あなたはユーザが属しているインスティテューションの管理者として記載されています。
+あなたはこの人が属しているインスティテューションの管理者として記載されています。
 
 キャンセルされたリクエストの詳細は次のとおりです:
 
@@ -133,8 +133,8 @@ $string['canceldeletionadminemailtext'] = '管理者さん、こんにちは。
 --
 %s チーム';
 $string['canceldeletionadminemailhtml'] = '<p>管理者さん、こんにちは。</p>
-<p>ユーザ %s がサイトからのアカウント削除リクエストをキャンセルしました。</p>
-<p>あなたはユーザが属しているインスティテューションの管理者として記載されています。</p>
+<p>%s がサイトからのアカウント削除リクエストをキャンセルしました。</p>
+<p>あなたはこの人が属しているインスティテューションの管理者として記載されています。</p>
 <p>キャンセルされたリクエストの詳細は次のとおりです:</p>
 <p>氏名: %s</p>
 <p>メールアドレス: %s</p>
