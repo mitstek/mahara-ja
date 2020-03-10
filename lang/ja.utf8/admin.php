@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-10 15:02:24 UTC
+ * @updated    2020-03-10 16:04:57 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1009,9 +1009,9 @@ $string['institutionusersupdated_inviteUser'] = '招待が送信されました�
 $string['institutionusersupdated_uninvite_users'] = '招待が取り消されました。';
 $string['maxuseraccounts1'] = '許可される最大アカウント数';
 $string['maxuseraccountsdescription'] = 'インスティテューションに関連付けることのできる最大アカウント数です。制限がない場合、このフィールドは空白にしてください。';
-$string['institutionmaxusersexceeded'] = 'このインスティテューションはユーザ数が上限に達しました。このユーザを追加できるようにするにはあなたはこのインスティテューションが許可するユーザ数を増やす必要があります。';
-$string['institutionuserserrortoomanyusers'] = 'ユーザは追加されませんでした。メンバー数はインスティテューションで許可される最大ユーザ数を超えることはできません。あなたは少数のユーザを追加するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼できます。';
-$string['institutionuserserrortoomanyinvites'] = 'あなたの招待は送信されませんでした。既存のユーザ + 未処理の招待者数はインスティテューションで許可される最大ユーザアカウント数を超えることはできません。あなたは少数のユーザを招待するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼できます。';
+$string['institutionmaxusersexceeded'] = 'このインスティテューションはメンバー数が上限に達しました。この人を追加できるようにするにはあなたはこのインスティテューションが許可するメンバー数を増やす必要があります。';
+$string['institutionuserserrortoomanyusers'] = 'これらの人は追加されませんでした。メンバー数はインスティテューションで許可される最大メンバー数を超えることはできません。あなたは少数の人を追加するか、インスティテューションから人を削除するか、サイト管理者に最大メンバー数の増加を依頼できます。';
+$string['institutionuserserrortoomanyinvites'] = 'あなたの招待は送信されませんでした。既存のメンバー + 未処理の招待者数はインスティテューションで許可される最大メンバー数を超えることはできません。あなたは少数の人を招待するか、インスティテューションから人を削除するか、サイト管理者に最大メンバー数の増加を依頼できます。';
 $string['Shortname'] = '省略名';
 $string['Members'] = 'メンバー';
 $string['Maximum'] = '最大';
