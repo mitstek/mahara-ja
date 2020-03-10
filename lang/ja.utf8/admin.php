@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-10 23:13:34 UTC
+ * @updated    2020-03-10 23:40:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1025,30 +1025,30 @@ $string['noinstitutionstaticpages'] = 'あなたにはインスティテュー�
 $string['noinstitutionstaticpagesadmin'] = 'あなたがサイト管理者の場合、<a href="%s">サイト設定</a>でデフォルト固定ページを編集してください。';
 $string['Lockedfields'] = 'ロックフィールド';
 $string['disabledlockedfieldhelp1'] = '注意: あなたがオプションを変更できない場合、プロファイルフィールドは「 %s 」のインスティテューション設定でロックされています。これらのプロファイルフィールドはサイトレベルでロックされているためここでロック解除することはできません。';
-$string['defaultinstitutionquotadescription'] = 'あなたはこのインスティテューションの新しいユーザにクオータとして割り当てられるディスクスペース総量を設定できます。';
+$string['defaultinstitutionquotadescription'] = 'あなたはこのインスティテューションの新しいメンバーにクオータとして割り当てられるディスクスペース総量を設定できます。';
 $string['updateinstitutionuserquotasdesc2'] = 'あなたが上で選択したデフォルトクオータを既存のメンバーすべてに適用します。';
 $string['institutiontagsdesc'] = 'インスティテューションタグが有効にされている場合、メンバーが利用できるタグをセットアップします。';
 $string['approve'] = '承認';
 $string['deny'] = '拒否';
 $string['approveregistrationfor2'] = '「 %s %s <%s> 」の登録を承認する';
-$string['approveregistrationmessage'] = 'ユーザの登録を承認してインスティテューション「 %s 」に追加します。本当にこの登録を承認してもよろしいですか?';
+$string['approveregistrationmessage'] = '人の登録を承認してインスティテューション「 %s 」に追加します。本当にこの登録を承認してもよろしいですか?';
 $string['denyregistrationfor'] = '「 %s %s 」の登録を拒否する';
-$string['denyregistrationmessage'] = 'ユーザの登録を拒否します。本当にこの登録を拒否してもよろしいですか?';
+$string['denyregistrationmessage'] = '人の登録を拒否します。本当にこの登録を拒否してもよろしいですか?';
 $string['nopendingregistrations'] = 'このインスティテューションの登録保留はありません。';
 $string['pendingregistration'] = '登録保留';
 $string['pendingregistrations'] = '登録保留';
-$string['pendingregistrationspagedescription2'] = '<p>このページではあなたのインスティテューションで自己登録およびメンバーシップをリクエストしたユーザを閲覧できます。あなたは登録リクエストを承認または拒否できます。<p>
-<p>登録を承認した場合、ユーザにはアカウントの有効化に関して詳細なインストラクションを記載した通知が送信されます。ユーザが有効化リンクをクリックした場合、インスティテューションのメンバーとして追加されます。有効化リンクは24時間で有効期限となりユーザの詳細は削除されます。まだ登録したい場合、同じ手続きを再度開始する必要があります。</p>
-<p>登録を拒否した場合、ユーザに自動的に通知されます。</p>';
-$string['pendingregistrationdesc'] = 'あなたのインスティテューションへの自己登録ユーザのメンバーシップを承認または拒否します。';
-$string['pendingdeletiondesc'] = '自分のアカウントを削除したいユーザの削除を承認または拒否します。';
+$string['pendingregistrationspagedescription2'] = '<p>このページではあなたのインスティテューションで自己登録およびメンバーシップをリクエストした人を閲覧できます。あなたは登録リクエストを承認または拒否できます。<p>
+<p>登録を承認した場合、人にはアカウントの有効化に関して詳細なインストラクションを記載した通知が送信されます。人が有効化リンクをクリックした場合、インスティテューションのメンバーとして追加されます。有効化リンクは24時間で有効期限となり人の詳細は削除されます。まだ登録したい場合、同じ手続きを再度開始する必要があります。</p>
+<p>登録を拒否した場合、人に自動的に通知されます。</p>';
+$string['pendingregistrationdesc'] = 'あなたのインスティテューションへの自己登録した人のメンバーシップを承認または拒否します。';
+$string['pendingdeletiondesc'] = '自分のアカウントを削除したい人の削除を承認または拒否します。';
 $string['pendingusercompletion1'] = '承認が送信されました。人の登録処理の完了を待っています。';
 $string['nosuchinstitution'] = 'そのようなインスティテューションはありません。';
 $string['registrationapprovedsuccessfully'] = '登録が正常に承認されました。';
 $string['registrationapprovedmessage'] = '登録メッセージ:';
-$string['registrationapproveddesc'] = '新しく登録したユーザへの追加情報です。';
+$string['registrationapproveddesc'] = '新しく登録した人への追加情報です。';
 $string['registrationdeniedreason'] = '拒否理由';
-$string['registrationdeniedreasondesc'] = '申請拒否理由に関するユーザ向けの情報です。';
+$string['registrationdeniedreasondesc'] = '申請拒否理由に関する情報です。';
 $string['registrationdeniedsuccessful'] = '登録が正常に拒否されました';
 $string['registrationdeniedunsuccessful'] = '登録拒否に失敗しました。';
 $string['registrationreason'] = '登録理由';
@@ -1056,13 +1056,13 @@ $string['makeuserinstitutionstaff'] = '初回ログイン時、このメール�
 $string['errorwhileunsuspending'] = '利用停止解除中にエラーが発生しました。';
 $string['institutionsuspended'] = 'インスティテューションが利用停止されました。';
 $string['institutionunsuspended'] = 'インスティテューションの利用停止が解除されました。';
-$string['institutionlogoutusers'] = 'ログアウト %s ユーザ';
+$string['institutionlogoutusers'] = 'ログアウト %s 人';
 $string['suspendedinstitution'] = '利用停止';
 $string['suspendinstitution'] = 'インスティテューションを利用停止する';
-$string['suspendinstitutiondescription'] = 'ここであなたはインスティテューションを利用停止できます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまでログインすることはできません。';
+$string['suspendinstitutiondescription'] = 'ここであなたはインスティテューションを利用停止できます。利用停止されたインスティテューションの人はインスティテューションが利用停止解除されるまでログインすることはできません。';
 $string['suspendedinstitutionmessage'] = 'このインスティテューションは利用停止されています。';
 $string['unsuspendinstitution'] = 'インスティテューションの利用停止を解除する';
-$string['unsuspendinstitutiondescription'] = 'ここであなたはインスティテューションの利用停止を解除できます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまでログインすることはできません。<br /><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止されることになります。';
+$string['unsuspendinstitutiondescription'] = 'ここであなたはインスティテューションの利用停止を解除できます。利用停止されたインスティテューションの人はインスティテューションが利用停止解除されるまでログインすることはできません。<br /><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止されることになります。';
 $string['unsuspendinstitutiondescription_warning'] = '<strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止されることになります。';
 $string['unsuspendinstitutiondescription_instadmin'] = '利用停止されたインスティテューションの人はログインできません。インスティテューションの利用停止を解除するには管理者にご連絡ください。';
 $string['bulkexport'] = 'アカウントをエクスポートする';
@@ -1140,33 +1140,33 @@ $string['groupmanage'] = '管理';
 $string['groupmanagespecific'] = '「 %s 」を管理する';
 $string['groupdelete'] = '削除';
 $string['managegroupquotadescription1'] = 'このグループのグループファイルクオータを変更する場合、このフォームを使用してください。';
-$string['managegroupdescription1'] = 'このグループの管理者を昇格および降格する場合、このフォームを使用してください。あなたがグループ管理者を削除した場合、そのユーザはグループメンバーとして残ります。';
-$string['userscandisabledevicedetection'] = 'ユーザがデバイス検出を無効にできる';
-$string['userscandisabledevicedetectiondescription1'] = 'ユーザがこのサイトを閲覧するときにモバイルデバイス検出を無効にできるようにします。';
+$string['managegroupdescription1'] = 'このグループの管理者を昇格および降格する場合、このフォームを使用してください。あなたがグループ管理者を削除した場合、その人はグループメンバーとして残ります。';
+$string['userscandisabledevicedetection'] = '人がデバイス検出を無効にできる';
+$string['userscandisabledevicedetectiondescription1'] = '人がこのサイトを閲覧するときにモバイルデバイス検出を無効にできるようにします。';
 $string['loggedinfilter'] = 'ログイン日時でフィルタする:';
-$string['anyuser'] = 'すべてのユーザ';
-$string['usershaveloggedin'] = 'ログインしたことのあるユーザ';
-$string['usershaveneverloggedin'] = 'ログインしたことのないユーザ';
-$string['usershaveloggedinsince'] = '次の日時以降ログインしたことのあるユーザ';
-$string['usershavenotloggedinsince'] = '次の日時以降ログインしたことのないユーザ';
+$string['anyuser'] = 'すべての人';
+$string['usershaveloggedin'] = 'ログインしたことのある人';
+$string['usershaveneverloggedin'] = 'ログインしたことのない人';
+$string['usershaveloggedinsince'] = '次の日時以降ログインしたことのある人';
+$string['usershavenotloggedinsince'] = '次の日時以降ログインしたことのない人';
 $string['duplicateemailfilter1'] = '重複メールアドレス';
 $string['objectionable'] = '好ましくないコンテンツ';
 $string['objectionablefilter'] = '好ましくないコンテンツの人';
 $string['noemailfound'] = 'メールアドレスが見つかりませんでした。';
 $string['lastlogin'] = '最終ログイン';
 $string['masqueradingreasonrequired'] = 'マスカレーディングの理由を要求する';
-$string['masqueradingreasonrequireddescription3'] = '管理者は別のユーザとしてマスカレーディングする理由を入力する必要があります。「ユーザにマスカレーディングを通知する」設定が有効にされている場合、マスカレーディングに関するユーザへの通知に理由が含まれます。これを動作させるためには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
-$string['masqueradingnotified'] = 'ユーザにマスカレーディングを通知する';
-$string['masqueradingnotifielddescription'] = '管理者がマスカレーディングする場合、ユーザに通知します。通知には「誰が」「いつ」、それから「マスカレーディングの理由を要求する」が有効にされている場合、「なぜ」が含まれます。これを動作させるためには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
+$string['masqueradingreasonrequireddescription3'] = '管理者は別の人としてマスカレーディングする理由を入力する必要があります。「人にマスカレーディングを通知する」設定が有効にされている場合、マスカレーディングに関する人への通知に理由が含まれます。これを動作させるためには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
+$string['masqueradingnotified'] = '人にマスカレーディングを通知する';
+$string['masqueradingnotifielddescription'] = '管理者がマスカレーディングする場合、人に通知します。通知には「誰が」「いつ」、それから「マスカレーディングの理由を要求する」が有効にされている場合、「なぜ」が含まれます。これを動作させるためには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
 $string['masquerade'] = '続ける';
 $string['masqueradereason'] = '理由';
-$string['masqueradereasondescription'] = 'このユーザとしてログインする理由を入力してください。注意: この理由はユーザに通知されませんが、ログとして記録されます。';
-$string['masqueradenotificationdone'] = 'このマスカレーディングセッションがユーザに通知されました。';
-$string['masqueradenotifiedreasondescription'] = 'このユーザとしてログインする理由を入力してください。注意: ユーザにはマスカレーディングの理由とともにあなたの氏名、日時を含むメッセージが送信されます。';
+$string['masqueradereasondescription'] = 'この人としてログインする理由を入力してください。注意: この理由は人に通知されませんが、ログとして記録されます。';
+$string['masqueradenotificationdone'] = 'このマスカレーディングセッションが人に通知されました。';
+$string['masqueradenotifiedreasondescription'] = 'この人としてログインする理由を入力してください。注意: 人にはマスカレーディングの理由とともにあなたの氏名、日時を含むメッセージが送信されます。';
 $string['masqueradetime'] = 'マスカレーディング開始日時';
 $string['masquerader'] = 'マスカレーディング管理者';
-$string['masqueradee'] = 'ユーザ';
-$string['nomasquerades'] = 'マスカレーディングセッションのロギングが有効にされているため別のユーザとして代理ログインした管理者はいません。';
+$string['masqueradee'] = '人';
+$string['nomasquerades'] = 'マスカレーディングセッションのロギングが有効にされているため別の誰かとして代理ログインした管理者はいません。';
 $string['loginaslog'] = 'マスカレーディングセッション';
 $string['masqueradingnotloggedwarning'] = '<b>注意</b>: マスカレーディングセッションのロギングは現在無効にされています。このテーブルのデータを閲覧するには管理者が「 <a href="%sadmin/site/options.php">サイト設定</a> 」の「ロギング設定」を有効にする必要があります。';
 $string['masqueradenotificationsubject'] = '管理者があなたとしてログインしました。';
@@ -1176,30 +1176,30 @@ $string['progressbar'] = 'プロファイル完了';
 $string['showprogressbar'] = 'プロファイル完了を表示する';
 $string['progressbarsaved'] = 'プログレスバーが正常に保存されました。';
 $string['showprogressbardescription2'] = 'プロファイルで完了する必要のある内容に関してサイドバーにヒント付きのプログレスバーを表示します。これはアカウントプリファレンスで無効にできます。';
-$string['progressbardisablednote'] = '<b>注意</b>: 現在、プロファイル完了は無効にされています。ユーザがプロファイル完了に関して進捗を追跡できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「ユーザ設定」セクションで有効にする必要があります。';
+$string['progressbardisablednote'] = '<b>注意</b>: 現在、プロファイル完了は無効にされています。人がプロファイル完了に関して進捗を追跡できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「ユーザ設定」セクションで有効にする必要があります。';
 $string['profilecompletiondesc'] = 'プロファイル完了が有効にされている場合、完了済みプロファイルに反映されるコンテンツを選択してください。';
-$string['profilecompletenessdesc1'] = 'プロファイル完了ではあなたのユーザはプロファイルをどの程度完了しているか確認できるサイドバーのビジュアルインディケータを使用できます。あなたはプロファイル完了に反映させるアーティファクトを選択できます。他のすべてのアーティファクトを使用できますが完了カウントの要素とはなりません。';
+$string['profilecompletenessdesc1'] = 'プロファイル完了では人がプロファイルをどの程度完了しているか確認できるサイドバーのビジュアルインディケータを使用できるようにします。あなたはプロファイル完了に反映させるアーティファクトを選択できます。他のすべてのアーティファクトを使用できますが完了カウントの要素とはなりません。';
 $string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックでプロファイル完了がどのように表示されるかプレビューできます。';
 $string['exporttoqueue'] = 'キューにエクスポートする';
-$string['exporttoqueuedescription2'] = 'サーバ負荷管理を改善するためユーザポートフォリオのLeap2Aによるエクスポートをエクスポートキューが処理するようにします。';
+$string['exporttoqueuedescription2'] = 'サーバ負荷管理を改善するためポートフォリオのLeap2Aによるエクスポートをエクスポートキューが処理するようにします。';
 $string['validating'] = 'データの確認中 ...';
 $string['checkingupdates'] = '更新データの確認中 ...';
 $string['committingchanges'] = '変更の保存中 ...';
 $string['cli_pwreset_authupdated'] = '認証方法が「内部」に更新されました。';
-$string['cli_pwreset_failure'] = 'エラー: ユーザ「 %s 」のパスワードを正常にリセットできませんでした。';
+$string['cli_pwreset_failure'] = 'エラー: 「 %s 」のパスワードを正常にリセットできませんでした。';
 $string['cli_pwreset_forcepasswordchange'] = '次回ログイン時、パスワードの変更を強制します (あなたが「--password」オプションを使用する場合、デフォルトは「true」です。そうでない場合、「false」を使用してください)。';
-$string['cli_pwreset_info'] = 'コマンドラインPHPスクリプトによりあなたはユーザのパスワードをリセットできます。これはパスワードのリセットが許可されている認証方法のみ動作します (例:「内部」)。';
-$string['cli_pwreset_makeinternal'] = 'ユーザ認証方法を「内部」に変更します (デフォルトは「false」です)。';
+$string['cli_pwreset_info'] = 'コマンドラインPHPスクリプトによりあなたは人のパスワードをリセットできます。これはパスワードのリセットが許可されている認証方法のみ動作します (例:「内部」)。';
+$string['cli_pwreset_makeinternal'] = '人の認証方法を「内部」に変更します (デフォルトは「false」です)。';
 $string['cli_pwreset_nointernalauth'] = 'エラー: デフォルト「内部」認証方法が見つかりませんでした。';
-$string['cli_pwreset_nosuchuser'] = 'エラー: ユーザ名「 %s 」のユーザはデータベース内に存在しません。';
-$string['cli_pwreset_notsupported'] = 'エラー: ユーザ「 %s 」はパスワードリセットをサポートしない認証方法を使用しています。あなたが「内部」認証に変更したい場合、「-i=true」オプションを使用してください。';
+$string['cli_pwreset_nosuchuser'] = 'エラー: ユーザ名「 %s 」の人はデータベース内に存在しません。';
+$string['cli_pwreset_notsupported'] = 'エラー: 「 %s 」はパスワードリセットをサポートしない認証方法を使用しています。あなたが「内部」認証に変更したい場合、「-i=true」オプションを使用してください。';
 $string['cli_pwreset_password'] = '新しいパスワードです。このパラメータが提供されていない場合、スクリプトはあなたにパスワードの入力を促します。';
 $string['cli_pwreset_prompt1'] = '新しいパスワードを入力してください。';
 $string['cli_pwreset_prompt2'] = '新しいパスワードを再度入力してください。';
-$string['cli_pwreset_success'] = 'ユーザ「 %s 」のパスワードが正常にリセットされました。';
-$string['cli_pwreset_success_forcepasswordchange'] = '次回ログイン時、ユーザはパスワードのリセットを強制されます。';
+$string['cli_pwreset_success'] = '「 %s 」のパスワードが正常にリセットされました。';
+$string['cli_pwreset_success_forcepasswordchange'] = '次回ログイン時、人はパスワードのリセットを強制されます。';
 $string['cli_pwreset_typo'] = '申し訳ございません、パスワードが合致しません。';
-$string['cli_close_site_info'] = 'このコマンドラインPHPスクリプトによりあなたが非サイト管理ユーザであってもサイトをクローズおよび再オープンできます (これは管理ホームページで「サイトをクローズする」ボタンをクリックした場合と同じです)。';
+$string['cli_close_site_info'] = 'このコマンドラインPHPスクリプトによりあなたが非サイト管理者であってもサイトをクローズおよび再オープンできます (これは管理ホームページで「サイトをクローズする」ボタンをクリックした場合と同じです)。';
 $string['cli_close_site_siteclosed'] = 'メンテナンスのためサイトがクローズされました。';
 $string['cli_close_site_siteopen'] = 'サイトがオープンされました。';
 $string['cli_backupdir_notwritable'] = '言語バックアップディレクトリ「 %s 」に書き込み権がありません。';
