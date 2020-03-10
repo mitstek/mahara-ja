@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-10 16:04:57 UTC
+ * @updated    2020-03-10 23:13:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1068,8 +1068,8 @@ $string['unsuspendinstitutiondescription_instadmin'] = '利用停止されたイ
 $string['bulkexport'] = 'アカウントをエクスポートする';
 $string['bulkexportempty'] = 'エクスポートに合致するものはありません。ユーザ名のリストを再度確認してください。';
 $string['bulkexportinstitution'] = 'すべてのメンバーをエクスポートするインスティテューション';
-$string['bulkexporttitle'] = 'アカウントをLeap2Aファイルにエクスポートする';
-$string['bulkexportdescription'] = 'エクスポートするインスティテューションを選択<b>または</b>ユーザ名のリストを指定してください:';
+$string['bulkexporttitle1'] = 'アカウントをバルクエクスポートする';
+$string['bulkexportdescription1'] = 'エクスポートフォーマットおよびエクスポートするインスティテューションを選択<b>または</b>ユーザ名のリストを指定してください。';
 $string['bulkexportusernames'] = 'エクスポートするユーザ名';
 $string['bulkexportusernamesdescription'] = 'データとともにエクスポートされるアカウントのリストです (1行あたり1ユーザ名)。';
 $string['couldnotexportusers'] = '次のアカウントをエクスポートできませんでした: %s';
