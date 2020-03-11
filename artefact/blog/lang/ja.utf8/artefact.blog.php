@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-04 15:32:21 UTC
+ * @updated    2020-03-11 12:55:02 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -117,7 +117,7 @@ $string['savesettings'] = '設定を保存する';
 $string['settings'] = '設定';
 $string['taggedposts'] = 'タグ付き投稿';
 $string['thisisdraft'] = '下書きとして保存する';
-$string['thisisdraftdesc'] = 'あなたのエントリを下書きにした場合、あなた以外のユーザはエントリを閲覧できません。';
+$string['thisisdraftdesc'] = 'あなたのエントリを下書きにした場合、あなた以外の人はエントリを閲覧できません。';
 $string['title'] = 'タイトル';
 $string['update'] = '更新';
 $string['verticalspace'] = '垂直方向のスペース';
@@ -141,10 +141,10 @@ $string['right'] = '右';
 $string['src'] = 'イメージURL';
 $string['image_list'] = '添付イメージ';
 $string['alt'] = '説明';
-$string['copyfull'] = '他のユーザはあなたの %s を自分のコピーとして取得できる';
-$string['copyreference'] = '他のユーザはあなたの %s をページに表示できる';
+$string['copyfull'] = '他の人はあなたの %s を自分のコピーとして取得できる';
+$string['copyreference'] = '他の人はあなたの %s をページに表示できる';
 $string['copynocopy'] = 'ページをコピーする場合、このブロックを完全にスキップする';
-$string['copytagsonly'] = '他のユーザはブロック設定のコピーを取得できる';
+$string['copytagsonly'] = '他の人はブロック設定のコピーを取得できる';
 $string['viewposts'] = 'コピーされたエントリ (%s)';
 $string['postscopiedfromview'] = '%s からコピーされたエントリ';
 $string['youhavenoblogs'] = 'あなたには日誌がありません。';
