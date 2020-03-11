@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-02-28 15:50:55 UTC
+ * @updated    2020-03-11 03:09:11 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -140,10 +140,10 @@ $string['pluginenabled'] = 'プラグインが表示にされました。';
 $string['plugindisabled'] = 'プラグインが非表示にされました。';
 $string['plugindisableduser'] = '%s プラグインは無効にされています。この機能を有効にするにはあなたの管理者にご相談ください。';
 $string['pluginnotenabled'] = 'プラグインは非表示にされています。あなたはまず %s プラグインを表示にする必要があります。';
-$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるためURLを知っていてアクセスしようと思うユーザはアクセスできます機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることによりプラグインを表示または非表示にできます。';
+$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるためURLを知っていてアクセスしようと思う人はアクセスできます機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることによりプラグインを表示または非表示にできます。';
 $string['pluginexplainartefactblocktypes'] = '「アーティファクト」タイプのプラグインを非表示にした場合、Maharaは同時に関連するブロックの表示を停止します。';
 $string['pluginbrokenanddisabledtitle1'] = '不完全なプラグイン「 %s 」が無効にされました。';
-$string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインのロードを試みましたがロードできませんでした。さらなるエラーを避けるためこのプラグインは無効にされました。
+$string['pluginbrokenanddisabled'] = '誰かが %s プラグインのロードを試みましたがロードできませんでした。さらなるエラーを避けるためこのプラグインは無効にされました。
 
 プラグインにより生成されたエラーメッセージは以下のとおりです:
 ----------------------------------------------------------------------------
@@ -490,7 +490,7 @@ $string['mustspecifycurrentpassword'] = 'あなたのユーザ名を変更する
 $string['Site'] = 'サイト';
 $string['maildisabled'] = 'メール無効';
 $string['profileicon'] = 'プロファイルイメージ';
-$string['bulkselect'] = '編集/報告のためにユーザを選択する';
+$string['bulkselect'] = '編集/報告のために人を選択する';
 $string['emailaddress'] = 'メールアドレス';
 $string['firstname'] = '名';
 $string['firstnameall'] = 'すべての名';
@@ -555,7 +555,7 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 
 <p>%s サイト管理者</p>';
 $string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは私たちに責任があります。再度お試しください。';
-$string['forgotpassemailsentanyway1'] = 'このユーザに関して保存されているメールアドレス宛にメールが送信されましたがメールアドレスが正しくないか受信サーバがメッセージを戻しました。メールを受信していない場合、あなたのパスワードをリセットするため %s 管理者にご連絡ください。';
+$string['forgotpassemailsentanyway1'] = 'この人に関して保存されているメールアドレス宛にメールが送信されましたがメールアドレスが正しくないか受信サーバがメッセージを戻しました。メールを受信していない場合、あなたのパスワードをリセットするため %s 管理者にご連絡ください。';
 $string['forgotpasswordenternew'] = '続けるにはあなたの新しいパスワードを入力してください。';
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';
 $string['passwordresetexpired'] = 'パスワードリセットキーの有効期限が切れました。';
@@ -735,29 +735,29 @@ $string['Invitations'] = '招待';
 $string['institutionmembershipfullsubject'] = 'インスティテューションメンバーシップ定員到達';
 $string['institutionmembershipfullmessagetext'] = '%s さん
 
-%s - %s の最大ユーザ数に達しました。
+%s - %s の最大アカウント数に達しました。
 
-既存のユーザアカウントを整理するか、このインスティテューションに関する最大ユーザアカウント数の増加をご依頼ください。すべてのサイト管理者は制限を増加させることができます。
+既存のユーザアカウントを整理するか、このインスティテューションに関する最大アカウント数の増加をご依頼ください。すべてのサイト管理者は制限を増加させることができます。
 
 --
 %s チーム';
 $string['institutionmemberrefusedprivacy'] = '%s さん
 
-ユーザ %s (ユーザ名: %s ) は %s を拒否しました。ユーザアカウントは一時停止されました。
+%s (ユーザ名: %s ) は %s を拒否しました。アカウントは一時停止されました。
 %s %s
 
-あなたが拒否に関して議論したい場合、ユーザにメール %s でご連絡ください。
+あなたが拒否に関して議論したい場合、人にメール %s でご連絡ください。
 
 --
 %s チーム';
-$string['thereasonis'] = 'ユーザの理由は次のとおりです:';
+$string['thereasonis'] = '理由は次のとおりです:';
 $string['config'] = '設定';
 $string['sendmessage'] = 'メッセージを送信する';
 $string['spamtrap'] = 'スパムトラップ';
 $string['formerror'] = 'あなたの送信の処理中にエラーが発生しました。再度お試しください。';
 $string['formerroremail'] = 'あなたの問題が続いている場合、%s より私たちにご連絡ください。';
 $string['blacklisteddomaininurl'] = 'このフィールドにはブラックリストに登録されたドメイン %s のURLが含まれています。';
-$string['newuserscantpostlinksorimages1'] = '申し訳ございません、匿名または新しく登録されたユーザによるリンクの投稿は許可されていません。リンクまたはURLを取り除くためあなたの投稿を書き換えて再度お試しください。';
+$string['newuserscantpostlinksorimages1'] = '申し訳ございません、匿名または新しく登録された人によるリンクの投稿は許可されていません。リンクまたはURLを取り除くためあなたの投稿を書き換えて再度お試しください。';
 $string['notinstallable'] = 'インストール不可';
 $string['pluginnotinstallable'] = 'プラグイン %s %s はインストールできません:';
 $string['installedplugins'] = 'インストール済みプラグイン';
@@ -781,7 +781,7 @@ $string['nohelpfound'] = 'このアイテムのヘルプはありません。';
 $string['nohelpfoundpage'] = 'このページのヘルプはありません。';
 $string['couldnotgethelp'] = 'ヘルプページの検索中にエラーが発生しました。';
 $string['profileimagetext'] = '%s のプロファイル画像';
-$string['profileimagetexttemplate'] = 'ユーザプロファイル画像がここに表示されます';
+$string['profileimagetexttemplate'] = 'プロファイル画像がここに表示されます';
 $string['profileimagetextanonymous'] = '匿名プロファイル画像';
 $string['primaryemailinvalid'] = 'あなたの主メールアドレスは有効ではありません。';
 $string['addemail'] = 'メールアドレスを追加する';
@@ -799,7 +799,7 @@ $string['result'] = '結果';
 $string['results'] = '結果';
 $string['Results'] = '結果';
 $string['noresultsfound'] = '該当データはありません。';
-$string['users'] = 'ユーザ';
+$string['users'] = '人';
 $string['searchwithin'] = '検索対象';
 $string['artefact'] = 'アーティファクト';
 $string['Artefact'] = 'アーティファクト';
@@ -836,7 +836,7 @@ $string['notphpuploadedfile'] = 'アップロード処理中にファイルが�
 $string['virusfounduser'] = 'あなたが %s でアップロードしたファイルをウイルスチェッカで検査した結果、感染が発見されました! あなたのファイルは正常にはアップロードされませんでした。';
 $string['fileunknowntype'] = 'あなたがアップロードしたファイルのタイプを判定できませんでした。あなたのファイルが破損しているか設定に問題があります。あなたの管理者にご連絡ください。';
 $string['virusrepeatsubject'] = '警告: %s が繰り返しウイルスをアップロードしています。';
-$string['virusrepeatmessage'] = 'ユーザ %s がアップロードした複数のファイルをウイルスチェッカで検査した結果、感染が発見されました。';
+$string['virusrepeatmessage'] = '%s がアップロードした複数のファイルをウイルスチェッカで検査した結果、感染が発見されました。';
 $string['exportfiletoobig'] = '生成されようとしているファイルが大きすぎます。ディスクスペースを空けてください。';
 $string['phpuploaderror'] = 'ファイルアップロード中にエラーが発生しました: %s (エラーコード %s)';
 $string['phpuploaderror_1'] = 'アップロードファイルがphp.iniのupload_max_filesizeディレクティブを超過しました。';
@@ -1145,7 +1145,7 @@ $string['allowpublicaccess'] = 'パブリックアクセスを許可する';
 $string['viewmyprofilepage'] = 'プロファイルページを表示する';
 $string['editmyprofilepage'] = 'プロファイルページを編集する';
 $string['usersprofile'] = '%s のプロファイル';
-$string['profiledescription'] = 'プロファイルページはあなたの表示名またはプロファイル画像をクリックしたユーザが閲覧することになるページです。';
+$string['profiledescription'] = 'プロファイルページはあなたの表示名またはプロファイル画像をクリックした他の人が閲覧することになるページです。';
 $string['mydashboard'] = 'マイダッシュボード';
 $string['editdashboard'] = 'ダッシュボードを編集する';
 $string['usersdashboard'] = '%s のダッシュボード';
@@ -1171,8 +1171,8 @@ $string['engagedetail'] = 'ディスカッションフォーラムで他の人�
 $string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールできます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['blockinstanceownerchange'] = 'このブロックを編集して表示するコンテンツを選択します。';
-$string['blockinstanceconfigownerauto'] = 'このブロックがユーザのプロファイルページとしてコピーされた場合、データとともに自動的に追加されます。';
-$string['blockinstanceconfigownerchange'] = 'このブロックがコンテンツを表示するためユーザのプロファイルページとしてコピーされた場合、編集/設定する必要があります。';
+$string['blockinstanceconfigownerauto'] = 'このブロックがパーソナルポートフォリオページとしてコピーされた場合、データとともに自動的に追加されます。';
+$string['blockinstanceconfigownerchange'] = 'このブロックがコンテンツを表示するためパーソナルポートフォリオページとしてコピーされた場合、編集/設定する必要があります。';
 $string['filenotfound'] = 'ファイルは見つかりませんでした。';
 $string['filenotfoundmaybeexpired'] = 'ファイルは見つかりませんでした。あなたのエクスポートファイルは作成後24時間のみ存在します。あなたのコンテンツを再度エクスポートする必要があります。';
 $string['betweenxandy'] = '範囲: %s - %s';
@@ -1187,7 +1187,7 @@ $string['blocks'] = 'ブロック';
 $string['artefacts'] = 'アーティファクト';
 $string['posts'] = '投稿';
 $string['facebookdescription'] = 'Maharaはeポートフォリオおよびソーシャルネットワーキングを構築するためのオープンソースウェブアプリケーションです。
-Maharaは自分の学習に関するポートフォリオを作成および管理するためのツールをユーザに提供します。また、ソーシャルネットワーキング機能によりユーザ同士が相互に交流を図ることができます。';
+Maharaは自分の学習に関するポートフォリオを作成および管理するためのツールを人に提供します。また、ソーシャルネットワーキング機能により人同士が相互に交流を図ることができます。';
 $string['wanttoleavewithoutsaving?'] = 'あなたは修正しました - 修正を保存せずページを離れてもよろしいですか?';
 $string['attachedimage'] = '添付イメージ';
 $string['imagebrowsertitle'] = 'イメージを挿入または選択する';
