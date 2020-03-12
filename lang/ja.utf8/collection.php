@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-02-03 09:11:59 UTC
+ * @updated    2020-03-12 06:34:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -46,7 +46,7 @@ $string['collectionaccesseditedsuccessfully'] = 'コレクションアクセス�
 $string['collectioneditaccess'] = 'あなたにはこのコレクション内の %d ページのアクセス権を編集しています。';
 $string['collectionconfirmdelete'] = 'このコレクション内のページは削除されません。本当にこのコレクションを削除してもよろしいですか?';
 $string['collectioncreatedsuccessfully'] = 'コレクションが正常に作成されました。';
-$string['collectioncreatedsuccessfullyshare'] = 'あなたのコレクションが正常に作成されました。以下のアクセスリンクを使用してあなたのコレクションを他のユーザと共有してください。';
+$string['collectioncreatedsuccessfullyshare'] = 'あなたのコレクションが正常に作成されました。以下のアクセスリンクを使用してあなたのコレクションを他の人と共有してください。';
 $string['collectiondeleted'] = 'コレクションが正常に削除されました。';
 $string['collectiondescription'] = 'コレクションは相互にリンクして同一のアクセスパーミッションを持つ一連のページです。あなたが好きなだけコレクションを作成できますがページを2つ以上のコレクションに表示することはできません。';
 $string['collectiontitle'] = 'コレクションタイトル';
