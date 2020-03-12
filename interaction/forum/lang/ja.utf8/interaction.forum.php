@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-02 03:41:48 UTC
+ * @updated    2020-03-12 01:16:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,7 +17,7 @@ $string['addpostsuccess'] = '投稿が正常に追加されました。';
 $string['addtitle'] = 'フォーラムを追加する';
 $string['addtopic'] = 'トピックを追加する';
 $string['addtopicsuccess'] = 'トピックが正常に追加されました。';
-$string['allowunsubscribe'] = 'メンバーの購読解除を許可する';
+$string['allowunsubscribe'] = 'グループメンバーの購読解除を許可する';
 $string['allowunsubscribedescription'] = 'グループメンバーがフォーラムおよびトピックを購読解除できるかどうか選択してください。';
 $string['autosubscribeusers'] = 'グループメンバーを自動的に購読させる';
 $string['autosubscribeusersdescription'] = 'グループメンバーがこのフォーラムを自動的に購読するかどうか選択してください。';

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-11 03:09:11 UTC
+ * @updated    2020-03-12 01:39:28 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -737,7 +737,7 @@ $string['institutionmembershipfullmessagetext'] = '%s さん
 
 %s - %s の最大アカウント数に達しました。
 
-既存のユーザアカウントを整理するか、このインスティテューションに関する最大アカウント数の増加をご依頼ください。すべてのサイト管理者は制限を増加させることができます。
+既存のアカウントを整理するか、このインスティテューションに関する最大アカウント数の増加をご依頼ください。すべてのサイト管理者は制限を増加させることができます。
 
 --
 %s チーム';
