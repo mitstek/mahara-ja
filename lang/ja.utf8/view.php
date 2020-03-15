@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-03 13:54:50 UTC
+ * @updated    2020-03-15 08:20:20 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -186,6 +186,9 @@ $string['sharedwithothers'] = '他の人と共有する';
 $string['moreoptions'] = '高度なオプション';
 $string['moreinstitutions'] = 'さらにインスティテューションを表示する';
 $string['allviews'] = 'すべてのページ';
+$string['peopleinmyinstitution'] = '「 %s 」の人';
+$string['peopleinmyinstitutions'] = '私のインスティテューションの人';
+$string['otherpeople'] = '他の人';
 $string['addaccess'] = '「 %s 」へのアクセスを追加する';
 $string['addaccessinstitution'] = 'インスティテューション「 %s 」へのアクセスを追加する';
 $string['addaccessgroup'] = 'グループ「 %s 」へのアクセスを追加する';
