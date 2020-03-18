@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-02-28 15:12:30 UTC
+ * @updated    2020-03-18 05:30:35 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -280,7 +280,7 @@ $string['profileiconxsnotsquare'] = 'あなたがアップロードしたスモ�
 $string['uploadingfile'] = 'ファイルのアップロード中 ...';
 $string['uploadprofileicon'] = 'プロファイル画像をアップロードする';
 $string['uploadedprofileicon'] = 'アップロードされたプロファイル画像';
-$string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイル画像をアップロードできます。プロファイル画像のアップロード後、あなたのデフォルト画像として表示する画像を1つ選択してください。16x16 から %sx%s ピクセルの間であなたの画像を作成してください。';
+$string['profileiconsiconsizenotice'] = 'あなたは最大<strong>5つ</strong>のプロファイル画像をアップロードできます。プロファイル画像のアップロード後、あなたのデフォルト画像として表示する画像を1つ選択してください。あなたの画像を 16x16 から %sx%s ピクセルの間で作成してください。';
 $string['setdefault'] = 'デフォルトに設定する';
 $string['setdefaultfor'] = '「 %s 」のデフォルトに設定する';
 $string['markfordeletionspecific'] = '「 %s 」に削除マークを付ける';
