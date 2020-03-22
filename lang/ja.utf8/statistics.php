@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-12 01:46:39 UTC
+ * @updated    2020-03-22 04:47:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['allowpublicprofiles'] = 'パブリックプロファイルの許可';
-$string['allowpublicviews'] = 'パブリックページの許可';
+$string['allowpublicviews1'] = 'パブリックポートフォリオの許可';
 $string['artefact_type_academicgoal'] = 'アーティファクト: アカデミックゴール';
 $string['artefact_type_academicskill'] = 'アーティファクト: アカデミックスキル';
 $string['artefact_type_address'] = 'アーティファクト: 番地以下';

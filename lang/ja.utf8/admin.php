@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-10 23:40:35 UTC
+ * @updated    2020-03-22 04:49:06 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -314,7 +314,7 @@ $string['siteadminsonly'] = 'サイト管理者のみ';
 $string['adminsonly'] = '管理者のみ';
 $string['adminsandstaffonly'] = '管理者およびスタッフのみ';
 $string['advanced'] = '高度';
-$string['allowpublicviews'] = 'パブリックページを許可する';
+$string['allowpublicviews1'] = 'パブリックポートフォリオを許可する';
 $string['allowpublicviewsdescription2'] = '人は登録済みの人のみではなく、外部からもアクセスできるポートフォリオを作成できます。';
 $string['allowinstitutionpublicviews1'] = 'パブリックインスティテューションポートフォリオを許可する';
 $string['allowinstitutionpublicviewsdescription3'] = 'インスティテューションメンバーが登録済みの人のみではなく、外部からもアクセスできるポートフォリオを作成できるようにします。';
@@ -1122,13 +1122,13 @@ $string['None'] = 'なし';
 $string['Simple'] = 'シンプル';
 $string['Advanced'] = '高度';
 $string['sitesettingslegend'] = 'サイト設定';
-$string['usersettingslegend'] = 'ユーザ設定';
+$string['accesssettingslegend'] = 'アクセス設定';
 $string['groupsettingslegend'] = 'グループ設定';
 $string['searchsettingslegend'] = '検索設定';
 $string['institutionsettingslegend'] = 'インスティテューション設定';
 $string['accountsettingslegend'] = 'アカウント設定';
 $string['securitysettingslegend'] = 'セキュリティ設定';
-$string['generalsettingslegend'] = '一般設定';
+$string['sideblocksettingslegend'] = 'サイドブロック設定';
 $string['loggingsettingslegend'] = 'ロギング設定';
 $string['groupname'] = 'グループ名';
 $string['groupshortname'] = '省略名';
