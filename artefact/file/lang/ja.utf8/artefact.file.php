@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-18 05:30:35 UTC
+ * @updated    2020-03-25 23:18:24 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -82,6 +82,7 @@ $string['Details'] = '詳細';
 $string['View'] = '表示';
 $string['Download'] = 'ダウンロード';
 $string['downloadfile'] = '%s をダウンロードする';
+$string['downloadfilesize'] = '%s [%s] をダウンロードする';
 $string['downloadoriginalversion'] = 'オリジナルバージョンをダウンロードする';
 $string['dragdrophere'] = 'ファイルをアップロードするにはここにドロップしてください。';
 $string['editfile'] = 'ファイルを編集する';
