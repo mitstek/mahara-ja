@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-05 14:02:59 UTC
+ * @updated    2020-03-30 00:11:49 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -76,7 +76,7 @@ $string['blockconfigdatacalledfromset'] = 'configデータを直接設定しな�
 $string['invaliddirection'] = '無効な移動先: %s';
 $string['onlyoneprofileviewallowed'] = 'あなたは1つのプロファイルページのみ許可されています。';
 $string['cannotputblocktypeintoview'] = '%s ブロックタイプをこのページに追加できません。';
-$string['onlyoneblocktypeperview'] = '2つ以上の %s ブロックタイプをページに追加できません。';
+$string['onlyoneblocktypeperview'] = '2つ以上の「 %s 」ブロックタイプをページに追加できません。';
 $string['errorat'] = '&nbsp;-&nbsp;';
 $string['unrecoverableerror'] = '回復不能なエラーが発生しました。恐らく、あなたはシステムバグに遭遇したと思われます。';
 $string['unrecoverableerrortitle'] = '%s - サイト利用不可';
