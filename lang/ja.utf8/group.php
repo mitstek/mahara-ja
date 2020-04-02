@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-08 03:23:44 UTC
+ * @updated    2020-04-02 01:09:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -358,7 +358,7 @@ $string['allowssubmissionsdescription1'] = 'メンバーはグループにペー
 $string['allowssubmissionsdescription'] = 'メンバーはグループにページを送信できます。';
 $string['allowsarchives'] = '送信のアーカイブを許可する';
 $string['allowsarchiveserror'] = '送信が許可されている場合、あなたはアーカイブのみ許可されます。';
-$string['allowsarchivesdescription'] = '送信リリース処理中にページおよびコレクションはZIP圧縮Leap2Aファイルとしてアーカイブされます。';
+$string['allowsarchivesdescription1'] = '送信リリース処理中にページおよびコレクションはZIPファイルとしてアーカイブされます。';
 $string['report'] = 'レポート';
 $string['grouphasntcreatedanyviewsyet'] = 'このグループはまだページを作成していません。';
 $string['noviewssharedwithgroupyet'] = 'このグループで共有されているページはまだありません。';

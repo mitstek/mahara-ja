@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-04-02 00:22:51 UTC
+ * @updated    2020-04-02 01:06:12 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -841,8 +841,8 @@ $string['exportqueuedeleted'] = '%s 行が正常に削除されました。';
 $string['exportqueuearchived'] = '%s 行が正常に更新されました。';
 $string['exportdataascsv'] = 'すべてのデータをCSVフォーマットでエクスポートする';
 $string['nocsvresults'] = 'CSVファイルの結果が見つかりませんでした。';
-$string['exportdownloademailsubject'] = 'あなたの「 %s 」のLeap2Aエクスポートのダウンロード準備ができました。';
-$string['exportdownloademailmessage'] = '%s さん、あなたの「 %s 」のLeap2Aエクスポートのダウンロード準備ができました。このファイルは生成後24時間のみ利用できます。ファイルをダウンロードするには次のリンクにアクセスしてください:';
+$string['exportdownloademailsubject1'] = 'あなたの「 %s 」のエクスポートのダウンロード準備ができました。';
+$string['exportdownloademailmessage1'] = '%s さん、あなたの「 %s 」のエクスポートのダウンロード準備ができました。このファイルは生成後24時間のみ利用できます。ファイルをダウンロードするには次のリンクにアクセスしてください:';
 $string['exportdownloadurl'] = 'エクスポート済みファイルをダウンロードする';
 $string['adduser'] = '人を追加する';
 $string['adduserdescription'] = '新しいアカウントを作成します。';
@@ -1074,6 +1074,7 @@ $string['bulkexportusernames'] = 'エクスポートするユーザ名';
 $string['bulkexportusernamesdescription'] = 'データとともにエクスポートされるアカウントのリストです (1行あたり1ユーザ名)。';
 $string['couldnotexportusers'] = '次のアカウントをエクスポートできませんでした: %s';
 $string['exportingusername'] = 'エクスポート %s ...';
+$string['ignoringbulkexportuser'] = 'ユーザ名「 %s 」の人が見つからなかったため無視します。';
 $string['Search'] = '検索';
 $string['Institution'] = 'インスティテューション';
 $string['confirm'] = '承認';
@@ -1181,7 +1182,7 @@ $string['profilecompletiondesc'] = 'プロファイル完了が有効にされ�
 $string['profilecompletenessdesc1'] = 'プロファイル完了では人がプロファイルをどの程度完了しているか確認できるサイドバーのビジュアルインディケータを使用できるようにします。あなたはプロファイル完了に反映させるアーティファクトを選択できます。他のすべてのアーティファクトを使用できますが完了カウントの要素とはなりません。';
 $string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックでプロファイル完了がどのように表示されるかプレビューできます。';
 $string['exporttoqueue'] = 'キューにエクスポートする';
-$string['exporttoqueuedescription2'] = 'サーバ負荷管理を改善するためポートフォリオのLeap2Aによるエクスポートをエクスポートキューが処理するようにします。';
+$string['exporttoqueuedescription3'] = 'サーバ負荷管理を改善するためポートフォリオのエクスポートをエクスポートキューが処理するようにします。';
 $string['validating'] = 'データの確認中 ...';
 $string['checkingupdates'] = '更新データの確認中 ...';
 $string['committingchanges'] = '変更の保存中 ...';

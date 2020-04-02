@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-04-01 22:53:14 UTC
+ * @updated    2020-04-02 00:49:48 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -336,5 +336,9 @@ $string['viruszipfile'] = 'ClamAVはウイルスに感染しているファイ�
 $string['filetypenotallowed'] = '拡張子「 %s 」のファイルは許可されません。';
 $string['filetypenotmatchingmimetype'] = 'ファイル拡張子がファイルのMIMEタイプ「 %s 」に合致しません。';
 $string['validfiletypes'] = 'あなたは次のファイルタイプをアップロードできます:';
+$string['notrendertopdf'] = 'このブロックはPDFエクスポートで正常には表示できません。';
+$string['notrendertopdfview'] = 'ポートフォリオ %s が次のように追加されました:';
+$string['notrendertopdffiles'] = 'ファイルが追加されました:';
+$string['notrendertopdflink'] = 'ファイルにアクセスできません:';
 
 ?>

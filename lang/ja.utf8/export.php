@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-31 21:13:01 UTC
+ * @updated    2020-04-02 01:07:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -25,6 +25,7 @@ $string['clickheretodownload'] = 'ここをクリックしてダウンロード�
 $string['continue'] = '続ける';
 $string['startinghtmlexport'] = 'HTMLエクスポート開始';
 $string['startingleapexport'] = 'Leap2Aエクスポート開始';
+$string['startingpdfexport'] = 'PDFエクスポート開始';
 $string['exportgeneratedsuccessfully'] = 'エクスポートが正常に生成されました。%sここをクリックしてダウンロードする%s';
 $string['exportgeneratedsuccessfully1'] = 'エクスポートが正常に生成されました。';
 $string['exportgeneratedwitherrors'] = 'エクスポートが生成されましたが、いくつかエラーが発生しました。';
@@ -36,6 +37,7 @@ $string['exportingviews'] = 'ページのエクスポート中';
 $string['exportingcollections'] = 'コレクションのエクスポート中';
 $string['exportingviewsprogresshtml'] = 'ページのHTMLへのエクスポート中: %s/%s';
 $string['exportingviewsprogressleap'] = 'ページのLeap2Aへのエクスポート中: %s/%s';
+$string['exportingviewsprogresspdf'] = 'PDFの作成中: %s/%s';
 $string['exportportfoliodescription1'] = '<p class="lead">このツールではあなたのポートフォリオ情報およびページすべてをエクスポートします。あなたのサイト設定およびあなたがグループにアップロードまたは作成したコンテンツはエクスポートされません。</p><p class="lead">あなたの個人ポートフォリオコンテンツをエクスポートできます。あなたのアカウント設定、アップロードされたコンテンツおよび作成されたグループはエクスポートされません。</p>';
 $string['exportyourportfolio'] = 'あなたのポートフォリオをエクスポートする';
 $string['generateexport'] = 'エクスポートを生成する';
