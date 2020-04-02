@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-29 05:01:12 UTC
+ * @updated    2020-04-02 00:22:51 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -213,7 +213,7 @@ $string['groupfilequotadescription'] = 'グループファイルエリアでの�
 $string['groupadminsforgroup'] = '「 %s 」のグループ管理者';
 $string['potentialadmins'] = '潜在的な管理者';
 $string['currentadmins'] = '現在の管理者';
-$string['makeusersintoadmins'] = '選択したアカウントを管理者にする';
+$string['makeusersintoadmins'] = '選択した一般アカウントを管理者アカウントにする';
 $string['makeadminsintousers'] = '選択した管理者を一般アカウントに戻す';
 $string['groupadminsupdated'] = 'グループ管理者が更新されました。';
 $string['groupquotaupdated'] = 'グループクオータが更新されました。';
@@ -324,7 +324,7 @@ $string['institutionsmartevidencenotallowed'] = 'あなたがスマートエビ�
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowpublicprofilesdescription1'] = '人は登録した人のみではなく、外部からもアクセスできるプロファイルページを設定できます。';
 $string['allowanonymouspages'] = '匿名ページを許可する';
-$string['allowanonymouspagesdescription1'] = '人はページ作成者として他の人から氏名を隠すことができます。管理者は必要であれば作成者の氏名を確認できます。';
+$string['allowanonymouspagesdescription1'] = '人はページ作成者として他の人から氏名を隠せます。管理者およびスタッフは必要であれば作成者の氏名を確認できます。';
 $string['anonymouscomments'] = '匿名コメント';
 $string['anonymouscommentsdescription1'] = 'パブリックページまたはシークレットURLでアクセスできるページに誰でもコメントを残すことができます。';
 $string['loggedinprofileviewaccess1'] = 'すべての登録済みの人によるプロファイルアクセス';
@@ -341,7 +341,7 @@ $string['commentthreadeddescription'] = 'ページの個別コメントへのス
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
 $string['defaultaccountinactiveexpiredescription'] = 'ログインがない状態でどのくらいの期間アカウントがアクティブのままか指定します。';
 $string['defaultaccountinactivewarn'] = '休眠/有効期限の警告期間';
-$string['defaultaccountinactivewarndescription1'] = 'アカウントの有効期限切れまたは休眠状態に関する警告メッセージがアカウント保持者に送信されるまでの期間です。';
+$string['defaultaccountinactivewarndescription1'] = 'アカウントの有効期限切れまたは休眠状態になる前に警告メッセージがアカウント保持者の主メールアドレスに送信されるまでの期間です。';
 $string['defaultregistrationexpirylifetime'] = 'デフォルトの登録存続期間';
 $string['defaultregistrationexpirylifetimedescription'] = '管理者が対応する必要のある登録申請がどのくらいの期間存続するか指定します。';
 $string['defaultaccountlifetime'] = 'デフォルトのアカウント存続期間';
@@ -379,7 +379,7 @@ $string['institutionexpirynotificationdescriptioninfo'] = 'サイトおよびイ
 $string['language'] = '言語';
 $string['none'] = 'なし';
 $string['nousernames'] = 'ユーザ名を表示しない';
-$string['nousernamesdescription1'] = '通常のアカウント保持者は他の人のユーザ名を閲覧したりユーザ名で人を検索できません。これらの制限はスタッフおよび管理者には適用されません。加えてクリーンURL (有効にされている場合) はユーザ名ではなく、表示名 (提供されている場合) または実名を使用して生成されます。';
+$string['nousernamesdescription1'] = '一般アカウント保持者は他の人のユーザ名を閲覧したりユーザ名で人を検索できません。これらの制限はスタッフおよび管理者には適用されません。加えてクリーンURL (有効にされている場合) はユーザ名ではなく、表示名 (提供されている場合) または実名を使用して生成されます。';
 $string['onlineuserssideblockmaxusers1'] = '「オンラインの人」の制限';
 $string['onlineuserssideblockmaxusersdescription1'] = 'サイドバー「オンラインの人」に表示する最大人数です。';
 $string['country'] = '国';
@@ -1081,7 +1081,7 @@ $string['invitedby'] = '招待者';
 $string['requestto'] = 'リクエスト先';
 $string['useradded'] = '人が追加されました。';
 $string['invitationsent'] = '招待が送信されました。';
-$string['withselectedusers'] = '選択した人に対して';
+$string['withselectedusers'] = '選択したアカウントに対して';
 $string['withselectedusersedit'] = '選択したアカウントを編集する';
 $string['withselectedusersreports'] = '選択したアカウントのレポートを取得する';
 $string['getreports'] = 'レポートを取得する';
@@ -1102,12 +1102,12 @@ $string['bulkchangeauthmethodsuccess'] = '%d 名のアカウントの認証方�
 $string['bulkchangeauthmethodresetpassword'] = 'あなたはパスワードを必要とする認証方法を選択しました。%d 名の人にはパスワードが割り当てられていないためパスワードがリセットされるまでログインすることはできません。';
 $string['bulkdeleteuserssuccess'] = '%d 名のアカウントを削除しました。';
 $string['bulkprobationpointssuccess'] = '%1$d アカウントに保護観察ポイント %2$d を設定しました。';
-$string['selectedusers'] = '選択済みの人';
+$string['selectedusers'] = '選択済みのアカウント';
 $string['selectednusers'] = '%s 人が選択されました。';
 $string['remoteuser'] = 'リモートユーザ名';
 $string['quotapercent'] = 'クオータ使用量';
 $string['userreports'] = '人レポート';
-$string['userreportsdescription'] = 'あなたが検索ページで選択した人に関する情報を表示またはダウンロードします。';
+$string['userreportsdescription'] = 'あなたが検索ページで選択したアカウントに関する情報を表示またはダウンロードします。';
 $string['unabletodeleteself1'] = 'あなた自身を削除することはできません。';
 $string['unabletodeletealladmins1'] = 'あなたはサイト管理者すべてを削除することはできません。';
 $string['notificationssaved'] = '通知設定が保存されました。';
@@ -1176,7 +1176,7 @@ $string['progressbar'] = 'プロファイル完了';
 $string['showprogressbar'] = 'プロファイル完了を表示する';
 $string['progressbarsaved'] = 'プログレスバーが正常に保存されました。';
 $string['showprogressbardescription2'] = 'プロファイルで完了する必要のある内容に関してサイドバーにヒント付きのプログレスバーを表示します。これはアカウントプリファレンスで無効にできます。';
-$string['progressbardisablednote'] = '<b>注意</b>: 現在、プロファイル完了は無効にされています。人がプロファイル完了に関して進捗を追跡できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「ユーザ設定」セクションで有効にする必要があります。';
+$string['progressbardisablednote1'] = '<b>注意</b>: 現在、プロファイル完了は無効にされています。人がプロファイル完了に関して進捗を追跡できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「アカウント設定」セクションで有効にする必要があります。';
 $string['profilecompletiondesc'] = 'プロファイル完了が有効にされている場合、完了済みプロファイルに反映されるコンテンツを選択してください。';
 $string['profilecompletenessdesc1'] = 'プロファイル完了では人がプロファイルをどの程度完了しているか確認できるサイドバーのビジュアルインディケータを使用できるようにします。あなたはプロファイル完了に反映させるアーティファクトを選択できます。他のすべてのアーティファクトを使用できますが完了カウントの要素とはなりません。';
 $string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックでプロファイル完了がどのように表示されるかプレビューできます。';
@@ -1343,7 +1343,7 @@ $string['deletiondeniedreason'] = '拒否理由';
 $string['deletiondeniedreasondesc'] = '削除リクエストが拒否された理由に関する情報です。';
 $string['deletionreason'] = '削除理由';
 $string['denyuserdeletionfor'] = '「 %s %s 」のアカウント削除を拒否する';
-$string['denyuserdeletionmessage'] = '続けた場合、あなたはアカウントの削除を承認することになります。人に理由を提供してください。';
+$string['denyuserdeletionmessage'] = '続けた場合、あなたはアカウントの削除を拒否することになります。理由を提供してください。';
 $string['nopendingdeletions'] = 'このインスティテューションにアカウント削除リクエストの保留はありません。';
 $string['pendingdeletion'] = '削除保留';
 $string['pendingdeletions'] = '削除保留';
