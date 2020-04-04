@@ -203,7 +203,7 @@ $string['reportsdesc'] = 'サイトおよび学習アナリティクスデータ
 $string['reportsfor'] = '%s のレポート';
 $string['reporttype'] = 'レポートタイプ';
 $string['reportconfig'] = 'レポート設定';
-$string['reportdesctitle'] = 'このレポートには次を含みます:';
+$string['reportdesctitle'] = 'このレポートには以下を含みます:';
 $string['reportaccesslist'] = 'ポートフォリオアクセス';
 $string['reportdescaccesslist'] = '<ul>
 <li>ポートフォリオオーナー</li>
