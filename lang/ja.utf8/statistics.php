@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-22 04:47:49 UTC
+ * @updated    2020-04-04 21:40:13 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -203,7 +203,7 @@ $string['reportsdesc'] = 'サイトおよび学習アナリティクスデータ
 $string['reportsfor'] = '%s のレポート';
 $string['reporttype'] = 'レポートタイプ';
 $string['reportconfig'] = 'レポート設定';
-$string['reportdesctitle'] = 'このレポートには次を含みます:';
+$string['reportdesctitle'] = 'このレポートには以下を含みます:';
 $string['reportaccesslist'] = 'ポートフォリオアクセス';
 $string['reportdescaccesslist'] = '<ul>
 <li>ポートフォリオオーナー</li>
