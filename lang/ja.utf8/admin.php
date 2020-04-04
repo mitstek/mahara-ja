@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-04-02 01:06:12 UTC
+ * @updated    2020-04-04 15:15:56 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -37,8 +37,8 @@ $string['performingupgrades'] = 'アップグレード処理中 ...';
 $string['runupgrade'] = 'アップグレードを実行する';
 $string['gotoinstallpage'] = '拡張機能ページ経由でインストールする';
 $string['successfullyinstalled'] = 'Maharaが正常にインストールされました。';
-$string['thefollowingupgradesareready'] = '次のアップグレードの準備ができました:';
-$string['thefollowingpluginsareready'] = '次の新しいプラグインを利用できます:';
+$string['thefollowingupgradesareready'] = '以下のアップグレードの準備ができました:';
+$string['thefollowingpluginsareready'] = '以下の新しいプラグインを利用できます:';
 $string['registerthismaharasite'] = 'このMaharaサイトを登録する';
 $string['upgradeloading'] = '読み込み中 ...';
 $string['upgrades'] = 'アップグレード';
@@ -158,7 +158,7 @@ $string['pluginsfields'] = 'プラグイン設定';
 $string['pluginadmin'] = 'プラグイン管理';
 $string['pluginadmindescription'] = 'プラグインをインストールおよび設定します。';
 $string['missingplugindisabled1'] = 'インストール済みプラグイン「 %s 」が見つからないため無効にされました。';
-$string['installedpluginsmissing'] = '次のプラグインがインストールされていますが見つけることができませんでした。';
+$string['installedpluginsmissing'] = '次のプラグインがインストールされていますが見つかりませんでした。';
 $string['ensurepluginsexist'] = 'あなたのインストール済みプラグインが %s 配下に設置されてウェブサーバから読むことができることを確認してください。';
 $string['plugintypedescription_blocktype'] = 'ページに配置するプレースホルダブロック内で表示されるブロックの表示順を変更するには個別のブロックを移動してください。数字は特定のブロックタイプがサイトですでに何回使用されているか示します。';
 $string['htmlfilters'] = 'HTMLフィルタ';
