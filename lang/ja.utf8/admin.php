@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-04-04 15:15:56 UTC
+ * @updated    2020-04-07 14:36:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -53,7 +53,7 @@ $string['upgradeinprogress'] = '%s に開始されたアップグレードは完
 $string['Plugin'] = 'プラグイン';
 $string['jsrequiredforupgrade'] = 'あなたがインストールまたはアップグレードを実行するにはJavaスクリプトを有効にする必要があります。';
 $string['dbnotutf8warning'] = 'あなたはUTF-8データベースを使用していません。Maharaはすべてのデータを内部的にUTF-8で保存します。あなたはこのアップグレードを試せますがデータベースのUTF-8へのコンバートをお勧めします。';
-$string['dbcollationmismatch'] = 'あなたのデータベースカラムはデータベースデフォルトとは異なるコレーションを使用しています。すべてのカラムがデータベースと同じコレーションを使用していることを確認してください。';
+$string['dbcollationmismatch'] = 'あなたのデータベースカラムはデータベースデフォルトとは異なるコレーションを使用しています。すべてのカラムがデータベースと同じコレーションを使用することを確実にしてください。';
 $string['maharainstalled'] = 'Maharaはすでにインストールされています。';
 $string['cliadminpassword1'] = '管理アカウントのパスワード';
 $string['cliadminemail1'] = '管理アカウンのメールアドレス';
