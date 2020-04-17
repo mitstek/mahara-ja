@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-04-15 01:19:50 UTC
+ * @updated    2020-04-17 00:00:26 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -463,5 +463,8 @@ $string['accessibilitymodedescription'] = 'このページはアクセシビリ�
 このモードではページはフルのページ幅を持ちます。また、ページは順番に表示されます。
 ブロックポジションを変更するにはブロックに移動して「Enter」キーで掴んで矢印キーでブロックのリストの上下に移動してください。';
 $string['blocktypeis'] = '%s ブロックタイプ';
+$string['coverimage'] = 'カバーイメージ';
+$string['coverimagefolder'] = 'カバーイメージ';
+$string['coverimagedescription'] = '推奨サイズは幅180px、高さ130pxです。';
 
 ?>
