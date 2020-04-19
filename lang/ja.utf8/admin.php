@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-04-11 16:44:00 UTC
+ * @updated    2020-04-19 07:36:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -64,9 +64,9 @@ $string['cliinstallingmahara'] = 'Maharaをインストールする';
 $string['cli_upgrade_description'] = 'インストールされたMaharaのバージョンにMaharaデータベースおよびデータをアップグレードします。';
 $string['cli_upgrade_title'] = 'Maharaをアップグレードする';
 $string['cli_upgrade_force'] = '強制的にアップグレードして戻る';
-$string['cli_upgrade_flag'] = '未完了のアップグレードが検出されました。コマンドに「-f」オプションを追加して再度アップグレードをお試しください。';
+$string['cli_upgrade_flag'] = '未完了のアップグレードが検出されました。再度アップグレードするにはコマンドに「-f」オプションを追加してください。';
 $string['cliclearingcaches'] = 'Maharaキャッシュをクリアする';
-$string['cliclearcachesdescription'] = 'キャッシュをクリアすることによりサーバにキャッシュされたデータが削除されます。キャッシュのクリアに危険性はありませんが、サーバおよびクライアントが新しい情報を計算してキャッシュするまであなたのサイトが遅くなる場合があります。';
+$string['cliclearcachesdescription'] = 'キャッシュのクリアによりサーバにキャッシュされたデータが削除されます。キャッシュのクリアに危険性はありませんが、サーバおよびクライアントが新しい情報を計算してキャッシュするまであなたのサイトが遅くなる場合があります。';
 $string['clearcachesheading'] = 'キャッシュをクリアする';
 $string['clearcachessubmit'] = 'キャッシュをクリアする';
 $string['clearingcachessucceed'] = 'すべてのキャッシュがクリアされました。';
