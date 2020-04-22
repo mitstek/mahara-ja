@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-04-19 07:36:44 UTC
+ * @updated    2020-04-22 06:33:44 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -84,7 +84,7 @@ $string['siteoptions'] = 'サイトオプション';
 $string['siteoptionsdesc'] = '名称、言語およびテーマ等の基本的なサイトオプションを設定します。';
 $string['staticpages'] = '固定ページ';
 $string['institutionstaticpages'] = 'インスティテューション固定ページ';
-$string['staticpageinstitutionbad'] = 'あなたはインスティテューション「 %s 」の固定ページにアクセスまたは編集することはできません。';
+$string['staticpageinstitutionbad'] = 'あなたはインスティテューション「 %s 」の固定ページにアクセスまたは編集できません。';
 $string['usedefault'] = 'サイトデフォルトを使用する';
 $string['usedefaultdescription3'] = '選択されたページタイプにサイトのデフォルトテキストを使用します。';
 $string['staticpagesdesc'] = 'ホームページおよび「About」のコンテンツを編集します。';
