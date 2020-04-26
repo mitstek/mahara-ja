@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-04-22 06:33:44 UTC
+ * @updated    2020-04-26 07:02:55 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -88,7 +88,7 @@ $string['staticpageinstitutionbad'] = 'あなたはインスティテューシ�
 $string['usedefault'] = 'サイトデフォルトを使用する';
 $string['usedefaultdescription3'] = '選択されたページタイプにサイトのデフォルトテキストを使用します。';
 $string['staticpagesdesc'] = 'ホームページおよび「About」のコンテンツを編集します。';
-$string['staticpagesinstdesc'] = 'インスティテューション統計ページのコンテンツを編集します。';
+$string['staticpagesinstdesc'] = 'インスティテューション固定ページのコンテンツを編集します。';
 $string['institutionprivacypagedescription'] = 'サイトプライバシー保護方針に加えてあなたのインスティテューションに表示されるプライバシー保護方針を編集してください。あなたが最後に編集したバージョンは自動的に最新のプライバシー保護方針となります。あなたには参考として現在のサイトプライバシー保護方針が表示されています。';
 $string['institutiontermspagedescription'] = 'サイト利用条件に加えてあなたのインスティテューションに表示される利用条件を編集してください。あなたが最後に編集したバージョンは自動的に最新の利用条件となります。あなたには参考として現在のサイト利用条件が表示されています。';
 $string['institutionprivacytermsdesc'] = 'インスティテューションのプライバシー保護方針または利用条件を追加または編集します。';
