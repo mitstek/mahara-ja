@@ -103,7 +103,7 @@ $string['sitefonts'] = 'フォント';
 $string['sitefontsdesc'] = '誰でもスキンで利用できるフォントをアップロードおよび管理します。';
 $string['sitelicenses'] = 'ライセンス';
 $string['sitelicensesadd'] = 'ライセンスを追加する';
-$string['sitelicensesdesc'] = '人がコンテンツで利用できるライセンスの一覧を管理します。';
+$string['sitelicensesdesc'] = '人が自分のコンテンツで利用できるライセンスの一覧を管理します。';
 $string['sitelicensesdisablednote'] = '<b>注意</b>: 現在、ライセンスメタデータは無効にされています。人がライセンスを指定できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「一般設定」セクションでライセンスメタデータを有効にする必要があります。';
 $string['sitelicensesedit'] = 'ライセンスを編集する';
 $string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトページに置くことのできるファイルをアップロードおよび管理します。';
@@ -388,7 +388,7 @@ $string['pathtoclamdescription'] = 'clamscanまたはclamdscanのファイルシ
 $string['pathtoclamnotset'] = '(未設定)';
 $string['registerterms'] = '登録同意';
 $string['registertermsdescription1'] = '登録時に人にプライバシー保護方針および利用条件への同意を強制します。このオプションを有効にする場合、あなたのサイトおよびインスティテューションの法律ページを編集する必要があります。';
-$string['licensemetadata'] = 'ラインセンスメタデータ';
+$string['licensemetadata'] = 'ライセンスメタデータ';
 $string['licensemetadatadescription1'] = '作成またはアップロードコンテンツに関してライセンスメタデータを要求および保存します。';
 $string['licenseallowcustom1'] = 'カスタムライセンス';
 $string['licenseallowcustomdescription'] = 'ライセンスメタデータに関して作成者がライセンスのURLを入力できるようにします。この設定を有効にしない場合、作成者はサイト管理者が設定したライセンスに制限されます。';
