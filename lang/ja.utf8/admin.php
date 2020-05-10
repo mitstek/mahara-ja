@@ -104,7 +104,7 @@ $string['sitelicensesadd'] = 'ライセンスを追加する';
 $string['sitelicensesdesc'] = 'ユーザがコンテンツで利用できるライセンスの一覧を管理します。';
 $string['sitelicensesdisablednote'] = '<b>注意</b>: 現在、ライセンスメタデータは無効にされています。ユーザがライセンスを指定できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「一般設定」セクションでライセンスメタデータを有効にする必要があります。';
 $string['sitelicensesedit'] = 'ライセンスを編集する';
-$string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトページに置くことのできるファイルをアップロードおよび管理します。';
+$string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトページに配置できるファイルをアップロードおよび管理します。';
 $string['siteskins'] = 'サイトスキン';
 $string['siteskinsdesc'] = '誰でも利用できるページスキンを作成および管理します。';
 $string['siteviews'] = 'サイトページ';
