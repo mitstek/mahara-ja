@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-05-05 15:23:19 UTC
+ * @updated    2020-05-10 21:32:05 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -106,7 +106,7 @@ $string['sitelicensesadd'] = 'ライセンスを追加する';
 $string['sitelicensesdesc'] = '人が自分のコンテンツで利用できるライセンスの一覧を管理します。';
 $string['sitelicensesdisablednote'] = '<b>注意</b>: 現在、ライセンスメタデータは無効にされています。人がライセンスを指定できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」でライセンスメタデータを有効にする必要があります。';
 $string['sitelicensesedit'] = 'ライセンスを編集する';
-$string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトページに置くことのできるファイルをアップロードおよび管理します。';
+$string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトページに配置できるファイルをアップロードおよび管理します。';
 $string['siteskins'] = 'サイトスキン';
 $string['siteskinsdesc'] = '誰でも利用できるページスキンを作成および管理します。';
 $string['siteviews'] = 'サイトページ';
