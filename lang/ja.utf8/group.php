@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-04-02 01:09:26 UTC
+ * @updated    2020-05-12 21:44:25 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -70,6 +70,7 @@ $string['editable'] = '編集可能';
 $string['editability'] = '編集可能';
 $string['windowstart'] = '開始日時';
 $string['windowstartdescription'] = 'この日時以前、一般グループメンバーはグループを編集できません。この日時はすべてのインポート済みプランのデフォルトの開始日時としても使用されます。';
+$string['windowdatedescriptionadmin'] = 'あなたがグループを一括登録する場合のみ、必要に応じてこの日付を設定してください。あなたの処理終了後、忘れずにこのフィールドをクリアしてください。';
 $string['windowend'] = '終了日時';
 $string['windowenddescription'] = 'この日時以降、一般グループメンバーはグループを編集できません。この日時はすべてのインポート済みプランのデフォルトの完了日時としても使用されます。';
 $string['editwindowbetween'] = '%s - %s';
