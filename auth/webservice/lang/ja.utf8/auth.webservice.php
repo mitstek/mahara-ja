@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-12 01:10:22 UTC
+ * @updated    2020-05-14 02:46:03 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -124,6 +124,7 @@ $string['name'] = '名称';
 $string['component'] = 'コンポーネント';
 $string['customservicegroup'] = '(カスタム)';
 $string['functions'] = '関数';
+$string['functionlist'] = '関数リスト';
 $string['enableservice'] = 'サービスを有効または無効にする';
 $string['restricteduserswarning'] = '警告: このサービスには既存のトークンユーザが存在するためあなたが「 %s 」を有効にした場合、アクセスできないようになります。';
 $string['tokenuserswarning'] = '警告: このサービスには既存のトークンユーザが存在するためあなたが「 %s 」を無効にした場合、アクセスできないようになります。';
