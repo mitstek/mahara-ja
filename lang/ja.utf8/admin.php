@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-05-10 21:32:05 UTC
+ * @updated    2020-05-17 04:12:32 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -116,8 +116,8 @@ $string['networking'] = 'ネットワーキング';
 $string['networkingdesc'] = '別のサイトへのネットワーキングを設定します。';
 $string['cookieconsent'] = 'クッキーコンセント';
 $string['cookieconsentdesc'] = '「クッキーコンセント」プライバシーシステムを設定します。';
-$string['thememissing'] = 'テーマ「 %s 」がありません。テーマはデフォルトテーマに設定されました。';
-$string['parentthememissing'] = 'テーマ「 %s 」の親テーマ「 %s 」がないため修正する必要があります。テーマはデフォルトテーマに設定されました。';
+$string['thememissing'] = 'テーマ「 %s 」がありません。テーマにデフォルトテーマが設定されました。';
+$string['parentthememissing'] = 'テーマ「 %s 」の親テーマ「 %s 」がないため修正する必要があります。テーマにデフォルトテーマが設定されました。';
 $string['staffusers1'] = 'サイトスタッフ';
 $string['staffusersdesc1'] = 'サイトスタッフのパーミッションを割り当てます。';
 $string['adminusers1'] = 'サイト管理者';
