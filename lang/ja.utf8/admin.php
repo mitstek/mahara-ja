@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-05-20 00:42:46 UTC
+ * @updated    2020-05-20 09:12:08 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -367,6 +367,8 @@ $string['homepageredirect'] = 'カスタムランディングページ';
 $string['homepageredirectdescription'] = 'あなたが人のログイン後に表示する最初のページをダッシュボード以外のページにしたい場合、この設定を有効にしてください。注意: ログインが必要なリンクがクリックされた場合、そのリダイレクトが優先されます。';
 $string['homepageredirecturl'] = 'ランディングページ';
 $string['homepageredirecturldescription'] = 'この設定を動作させるにはすべての登録済みの人がページにアクセスできる必要があります。';
+$string['hstsoverride'] = 'HSTSオーバーライド';
+$string['hstsoverridedesc'] = '下流サービスで設定されている場合の重複設定を避けるため、HTTP Strict Transport Security (HSTS) 設定値をオーバーライドします。';
 $string['islandingpage'] = 'このページがサイトのカスタムランディングページとして使用されます。';
 $string['landingpagegone'] = 'あなたがパーミッションを変更する前、ページ「 %s 」はサイトのカスタムランディングページでした。このページはカスタムランディングページとしてはサイト設定より削除されました。';
 $string['landingpagegonesubject'] = 'カスタムランディングページが削除されました。';
