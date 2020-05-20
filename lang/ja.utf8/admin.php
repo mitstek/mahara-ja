@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-05-17 04:12:32 UTC
+ * @updated    2020-05-20 00:42:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -133,7 +133,7 @@ $string['lastinstitution'] = '前のインスティテューション';
 $string['adminnotifications'] = '管理者通知';
 $string['adminnotificationsdescription'] = '管理者が受信するシステム通知の概要です。';
 $string['uploadcsv'] = 'CSVで人を追加する';
-$string['uploadcsvdesc'] = '新しいアカウントまたは既存のアカウントの更新を含むCSVファイルをアップロードします。';
+$string['uploadcsvdesc'] = '新しいアカウントまたは既存アカウント更新の詳細を含むCSVファイルをアップロードします。';
 $string['uploadgroupcsv'] = 'CSVでグループを追加する';
 $string['uploadgroupmemberscsv'] = 'CSVでグループメンバーを更新する';
 $string['usersearch'] = '人検索';
