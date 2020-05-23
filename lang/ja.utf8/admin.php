@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-05-20 09:12:08 UTC
+ * @updated    2020-05-23 20:43:45 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -133,11 +133,11 @@ $string['lastinstitution'] = '前のインスティテューション';
 $string['adminnotifications'] = '管理者通知';
 $string['adminnotificationsdescription'] = '管理者が受信するシステム通知の概要です。';
 $string['uploadcsv'] = 'CSVで人を追加する';
-$string['uploadcsvdesc'] = '新しいアカウントまたは既存アカウント更新の詳細を含むCSVファイルをアップロードします。';
+$string['uploadcsvdesc'] = '新しいアカウントの詳細または既存アカウントの更新を含むCSVファイルをアップロードします。';
 $string['uploadgroupcsv'] = 'CSVでグループを追加する';
 $string['uploadgroupmemberscsv'] = 'CSVでグループメンバーを更新する';
 $string['usersearch'] = '人検索';
-$string['usersearchdescription1'] = 'すべての人を検索して検索された人に対して管理行為を実施します。';
+$string['usersearchdescription1'] = 'すべての人を検索してアカウントに管理行為を実施します。';
 $string['peoplesearchinstructions'] = 'あなたは氏名またはメールアドレスを検索ボックスに入力して人を検索できます。あなたの検索を狭めるためのオプションを表示するには「高度なオプション」をクリックしてください。';
 $string['emailaddresshidden'] = 'メールアドレス非表示';
 $string['inactive'] = 'アカウント非アクティブ';

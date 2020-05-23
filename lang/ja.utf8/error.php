@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-30 00:11:49 UTC
+ * @updated    2020-05-23 20:43:34 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -144,6 +144,6 @@ $string['updatesitetimezone'] = '現在のサイトのタイムゾーンを「�
 $string['pluginnotactive1'] = 'プラグイン「 %s 」が有効にされていません。有効にするには「管理」 → 「拡張機能」 → 「プラグイン管理」に移動してください。';
 $string['fileuploadtoobig'] = '「 %s 」より大きいためファイルアップロードが大きすぎます。';
 $string['sideblockmenuclash'] = 'サイドブロック名「 %s 」はすでに使用されています。異なる名称を選択してください。';
-$string['isolatedinstitutionsremoverules'] = '私たちは隔離インスティテューションのための %s 件のアクセスルールを秘匿しました。フォーム保存後、秘匿ルールは削除されます。';
+$string['isolatedinstitutionsremoverules'] = '私たちは隔離インスティテューションのための %s 件のアクセスルールを非表示にしました。フォーム保存後、非表示ルールは削除されます。';
 
 ?>
