@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-05-23 20:43:45 UTC
+ * @updated    2020-05-25 10:08:41 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -195,6 +195,26 @@ $string['generateduserurls'] = '%s プロファイルURLを生成しました。
 $string['generatedgroupurls'] = '%s グループホームページURLを生成しました。';
 $string['generatedviewurls'] = '%s ポートフォリオページURLを生成しました。';
 $string['cleanurlsdescriptionshort'] = '人間が解読可能なURLを設定します。';
+$string['embeddedurls'] = '埋め込みURLを更新する';
+$string['embeddedurlsdescription'] = '<p>あなたのURLを変更した場合、埋め込みコンテンツ内の既存のURLは間違った場所を指定することになります。</p><p>あなたはここで古いURLドメインを指定して修正できます。</p>';
+$string['nopotentialembeddedurls'] = '<p>潜在的な古いURLは検出されませんでした。</p>';
+$string['potentialembeddedurls'] = '<p>次のセクションには古いURLが含まれているようです。</p>';
+$string['oldurl'] = '古いサイトURL';
+$string['oldurldescription'] = '古いサイトのURLパスを入力してください。例)「https://oldsite.com」を入力して何か更新する必要があるか確認します。';
+$string['checkurl'] = 'URLをチェックする';
+$string['domigrateurls'] = 'URLを更新する';
+$string['migrateurlsdescription'] = '「 %s 」で始まる埋め込みURLすべてを「 %s 」で始まるよう変更します。';
+$string['migrateurlsconfirm'] = '移行確認';
+$string['migratedbasicurls'] = '%s コンテンツURLを更新しました。';
+$string['migratedblockurls'] = '%s ブロックコンテンツURLを更新しました。';
+$string['section_view_instructions'] = 'ページインストラクション';
+$string['section_view_description'] = 'ページ説明';
+$string['section_group'] = 'グループ説明';
+$string['section_artefact'] = 'アーティファクトコンテンツ';
+$string['section_interaction'] = 'フォーラム説明';
+$string['section_interactionpost'] = 'フォーラムコンテンツ';
+$string['section_block'] = 'ブロックコンテンツ';
+$string['potentialfor'] = '%s の結果';
 $string['warnings'] = '警告';
 $string['applyingchanges'] = '変更を適用する';
 $string['groupcategories'] = 'グループカテゴリ';
