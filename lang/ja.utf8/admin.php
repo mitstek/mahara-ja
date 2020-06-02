@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-05-26 13:39:58 UTC
+ * @updated    2020-06-02 22:41:18 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -159,7 +159,7 @@ $string['pluginadmin'] = 'プラグイン管理';
 $string['pluginadmindescription'] = 'プラグインをインストールおよび設定します。';
 $string['missingplugindisabled1'] = 'インストール済みプラグイン「 %s 」が見つからないため無効にされました。';
 $string['installedpluginsmissing'] = '次のプラグインがインストールされていますが見つかりませんでした。';
-$string['ensurepluginsexist'] = 'あなたのインストール済みプラグインが %s 配下に設置されてウェブサーバから読むことができることを確認してください。';
+$string['ensurepluginsexist'] = 'あなたのすべてインストール済みプラグインが %s 配下で利用可能およびウェブサーバから読めることを確認してください。';
 $string['plugintypedescription_blocktype'] = 'ページに配置するプレースホルダブロック内で表示されるブロックの表示順を変更するには個別のブロックを移動してください。数字は特定のブロックタイプがサイトですでに何回使用されているか示します。';
 $string['htmlfilters'] = 'HTMLフィルタ';
 $string['htmlfiltersdescription'] = 'HTML Purifierの新しいフィルタを有効にします。';
