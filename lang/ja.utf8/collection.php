@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-12 06:34:22 UTC
+ * @updated    2020-06-03 05:13:23 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -85,6 +85,7 @@ $string['noviewsincollection'] = 'コレクションにページはありませ�
 $string['noviewsaddsome'] = 'コレクションにページはありません。%sページを追加してください%s。';
 $string['noviews'] = 'ページはありません。';
 $string['overrideaccess'] = 'アクセスをオーバーライドする';
+$string['portfoliocompletion'] = 'ポートフォリオ完了';
 $string['potentialviews'] = '潜在的なページ';
 $string['saveapply'] = '適用して保存する';
 $string['savecollection'] = 'コレクションを保存する';
@@ -118,5 +119,12 @@ $string['nextpage'] = '次のページ';
 $string['prevpage'] = '前のページ';
 $string['viewingpage'] = 'あなたの現在地 - ページ';
 $string['navtopage'] = 'ページに移動する:';
+$string['overallcompletion'] = '承認および検証の全体的な完了状況';
+$string['progresscompletiondesc'] = 'このコレクションの先頭に「ポートフォリオ完了」ページを追加します。';
+$string['signedoff'] = '承認済み';
+$string['needssignedoff'] = '要承認';
+$string['verified'] = '検証済み';
+$string['needsverified'] = '要検証';
+$string['verification'] = '検証';
 
 ?>
