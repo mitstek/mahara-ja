@@ -15,7 +15,7 @@ defined('INTERNAL') || die();
 
 $string['allmydata'] = '私のデータすべて';
 $string['chooseanexportformat'] = 'エクスポートフォーマットを選択する';
-$string['exportarchivedescription1'] = 'あなたはエクスポート時に選択したコンテンツを含むHTMLおよびLeap2AのZIPアーカイブを受け取ります。あなたのポートフォリオをブラウザでindex.htmlファイル経由で閲覧するか、Leap2Aフォーマットをサポートする別のポートフォリオプラットフォームにコンテンツをインポートできます。';
+$string['exportarchivedescription1'] = 'あなたはエクスポート時に選択したコンテンツを含むHTMLおよびLeap2AのZIPアーカイブを受け取ります。あなたのポートフォリオをブラウザでindex.htmlファイル経由で閲覧するか、またはLeap2Aフォーマットをサポートする別のポートフォリオプラットフォームにコンテンツをインポートできます。';
 $string['clicktopreview'] = 'クリックしてプレビューする';
 $string['collectionstoexport'] = 'エクスポートするコレクション';
 $string['creatingzipfile'] = 'ZIPファイル作成中';
