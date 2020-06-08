@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-22 04:47:49 UTC
+ * @updated    2020-06-08 09:52:46 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -342,11 +342,9 @@ $string['reportdescgroups'] = '<ul>
 </ul>
 <p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニューより「すべてのインスティテューション」を選択した場合のみ利用できます。</p>';
 $string['reportdesccontent'] = '<ul>
-<li>タイトル</li>
-<li>修正数</li>
-<li>合計</li>
-<li>修正に関わったユニーク人数</li>
-<li>合計のユニーク人数</li>
+<li>名称</li>
+<li>期間内の修正数</li>
+<li>期間終了時の存在数</li>
 </ul>';
 $string['reportdescobjectionable'] = '<ul>
 <li>ページタイトル</li>
