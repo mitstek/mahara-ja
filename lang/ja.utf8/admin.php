@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-06-03 05:16:22 UTC
+ * @updated    2020-06-10 07:10:52 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -163,9 +163,9 @@ $string['ensurepluginsexist'] = 'あなたのすべてインストール済み�
 $string['plugintypedescription_blocktype'] = 'ページに配置するプレースホルダブロック内で表示されるブロックの表示順を変更するには個別のブロックを移動してください。数字は特定のブロックタイプがサイトですでに何回使用されているか示します。';
 $string['htmlfilters'] = 'HTMLフィルタ';
 $string['htmlfiltersdescription'] = 'HTML Purifierの新しいフィルタを有効にします。';
-$string['newfiltersdescription'] = 'あなたが新しいHTMLフィルタをダウンロードした場合、%s フォルダ内にファイルを展開した後、下のボタンをクリックしてインストールできます。';
+$string['newfiltersdescription'] = 'あなたが一連の新しいHTMLフィルタをダウンロードした場合、%s フォルダ内にファイルを展開した後、下のボタンをクリックしてインストールできます。';
 $string['filtersinstalled'] = 'フィルタがインストールされました。';
-$string['nofiltersinstalled'] = 'HTMLフィルタはインストールされませんでした。';
+$string['nofiltersinstalled'] = 'インストールされたHTMLフィルタはありません。';
 $string['allowediframesites'] = '許可されるiframeソース';
 $string['iframesitesdescriptionshort'] = 'iframeで利用可能な外部コンテンツ埋め込みのホワイトリストです。';
 $string['allowediframesitesdescription'] = '人はHTML &lt;iframe&gt; エレメント内に以下の外部サイトからコンテンツを埋め込むことができます。これは一般的に他の場所で提供されているコンテンツを表示するため使用されます。このページで許可されるサイト一覧を修正できます。';
