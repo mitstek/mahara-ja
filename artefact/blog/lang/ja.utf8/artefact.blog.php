@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-19 08:01:44 UTC
+ * @updated    2020-06-16 14:07:27 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -147,7 +147,8 @@ $string['viewposts'] = 'コピーされたエントリ (%s)';
 $string['postscopiedfromview'] = '%s からコピーされたエントリ';
 $string['youhavenoblogs'] = 'あなたには日誌がありません。';
 $string['youhavenoblogsaddone'] = 'あなたには日誌がありません。<a href="%s">日誌を追加してください</a>。';
-$string['youhavenogroupblogs1'] = 'このグループには日誌がありません。<a href="%s">日誌を追加してください</a>。';
+$string['youhavenogroupblogs'] = 'このグループには日誌がありません。';
+$string['youhavenogroupblogsaddone'] = 'このグループには日誌がありません。<a href="%s">日誌を追加してください</a>。';
 $string['youhavenoinstitutionblogs1'] = 'このインスティテューションには日誌がありません。<a href="%s">日誌を追加してください</a>。';
 $string['youhavenositeblogs1'] = 'サイト日誌がありません。<a href="%s">日誌を追加してください</a>。';
 $string['youhavenblog'] = 'あなたには %d 日誌があります。';

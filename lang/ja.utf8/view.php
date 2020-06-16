@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-03-29 12:20:47 UTC
+ * @updated    2020-06-16 14:10:01 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -230,6 +230,10 @@ $string['viewaccesseditedsuccessfully'] = 'ページアクセスが正常に保�
 $string['viewsavedsuccessfully'] = 'ページが正常に保存されました。';
 $string['savedtotimeline'] = 'タイムラインに保存されました。';
 $string['updatedaccessfornumviews1'] = '%d ページのアクセスルールが更新されました。';
+$string['cantversionviewinvalid'] = '提供されたページIDが無効です。';
+$string['cantversionvieweditpermissions'] = 'あなたにはこのページを編集するパーミッションがありません。';
+$string['cantversionviewsubmitted'] = '評価のために送信されたためあなたはこのページを編集できません。あなたはリリースされるまで待つ必要があります。';
+$string['cantversionviewgroupeditwindow'] = 'あなたはこのページを編集できません。グループ編集可能期間外です。';
 $string['invalidcolumn'] = 'カラム %s は範囲外です。';
 $string['confirmcancelcreatingview'] = 'このページは作成完了していません。本当にキャンセルしてもよろしいですか?';
 $string['groupviewurltaken'] = 'このURLのページはすでに存在します。';
