@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-04-17 00:00:26 UTC
+ * @updated    2020-06-16 01:19:16 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -322,6 +322,7 @@ $string['blocktypecategorydesc.fileimagevideo'] = 'メディアオプション�
 $string['blocktypecategorydesc.general'] = '一般オプションを表示するにはクリックしてください。';
 $string['blocktypecategorydesc.internal'] = '個人情報オプションを表示するにはクリックしてください。';
 $string['blocktypecategorydesc.blog'] = '日誌オプションを表示するにはクリックしてください。';
+$string['drafttextblockdescription'] = 'あなたがテキストを誰にも表示したくない場合、ブロックを下書きとして保存してください。テキストが公開された場合、再度下書きには戻せません。';
 $string['notitle'] = 'タイトルなし';
 $string['clickformoreinformation1'] = '詳細情報を表示およびコメントを投稿するにはクリックしてください。';
 $string['detailslinkalt'] = '(詳細)';
@@ -334,6 +335,7 @@ $string['wrongblocktype'] = '提供されたIDは有効なブロックのもの�
 $string['changeviewtheme'] = 'あなたがこのページに選択したテーマは廃止されています。別のテーマを選択してください。';
 $string['nothemeselected1'] = 'インスティテューションテーマを使用する';
 $string['usesitetheme'] = 'サイトテーマを使用する';
+$string['quickedit'] = 'クイック編集';
 $string['Template'] = 'テンプレート';
 $string['allowcopying'] = 'コピーを許可する';
 $string['retainviewrights1'] = 'ページまたはコレクションのコピー時にページアクセスを保持する';
