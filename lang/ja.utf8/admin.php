@@ -387,7 +387,7 @@ $string['uploadcsvpagedescription2'] = '<p>あなたはこの機能により<acr
 
 <p>この先頭行には<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、すべてのユーザに対して必須にしたフィールドを含んでください。あなたがユーザをアップロードするインスティテューションのロックフィールドも含んでください。すべてのインスティテューションの<a href="%s">必須フィールドを設定</a>、または<a href="%s">個別のインスティテューションのロックフィールドを設定できます</a>。</p>
 
-<p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下のとおりです:</p>
+<p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含めます。フィールドの完全なリストは以下のとおりです:</p>
 
 %s';
 $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードできます。</p>
@@ -398,7 +398,7 @@ $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの�
 
 <p>この先頭行には<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、サイト管理者が必須にしたフィールド、あなたがインスティテューションでロックしたフィールドも含んでください。あなたが管理するインスティテューションの<a href="%s">ロックフィールドを設定</a>できます。</p>
 
-<p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下のとおりです:</p>
+<p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含めます。フィールドの完全なリストは以下のとおりです:</p>
 
 %s';
 $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動で連絡してください:';
@@ -457,7 +457,7 @@ $string['userunsuspended'] = 'ユーザの利用停止が解除されました�
 $string['accountsettings'] = 'アカウント設定';
 $string['siteaccountsettings'] = 'サイトアカウント設定';
 $string['changeusername'] = 'ユーザ名を変更する';
-$string['changeusernamedescription'] = 'このユーザのユーザ名を変更します。ユーザ名の長さは半角3～236文字にしてください。ユーザ名にはスペースを除く文字、数字および一般的な記号を含むことができます。';
+$string['changeusernamedescription'] = 'このユーザのユーザ名を変更します。ユーザ名の長さは半角3～236文字にしてください。ユーザ名にはスペースを除く文字、数字および一般的な記号を含めます。';
 $string['resetpassword'] = 'パスワードをリセットする';
 $string['resetpassworddescription'] = 'ここにテキストを入力した場合、ユーザの現在のパスワードと入れ替えられます。';
 $string['forcepasswordchange'] = '次回ログイン時、パスワード変更を強制する';
