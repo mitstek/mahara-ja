@@ -142,7 +142,7 @@ $string['allowediframesitesdescription'] = 'ユーザはHTML &lt;iframe&gt; エ�
 $string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、ユーザにアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが、サイト内におけるiframeソーステキストのマッチングは許可されます。';
 $string['iframeurldescription'] = 'iframeソースURL (http:// なし) の先頭に合致するテキストです。半角英数字、「.」「/」「_」および「-」のみ許可されます。';
 $string['iframedisplaynamedescription'] = 'ユーザに表示されるサイト名です。';
-$string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含むことができます。';
+$string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含めます。';
 $string['iframeiconhost'] = 'アイコンホスト';
 $string['urlalreadyexists'] = 'このURLはすでに存在します。あなたは2度追加することはできません。';
 $string['iframeiconhostdescription'] = '必要であれば、あなたはファビコン (favicon) イメージ用の異なるホストを指定できます。同一名称のすべてのサイトでこのアイコンが使用されます。';
@@ -447,7 +447,7 @@ $string['forceuserstochangepassworddescription'] = 'この設定を有効にし�
 $string['uploadcsvinstitution'] = '新しいユーザのインスティテューションおよび認証方法';
 $string['configureauthplugin'] = 'あなたがユーザを追加するには最初に認証プラグインを設定する必要があります。';
 $string['csvfiledescription'] = '追加するユーザを含むファイル';
-$string['csvmaxusersdescription'] = 'このファイルには %s 以上含むことができません。';
+$string['csvmaxusersdescription'] = 'このファイルには %s 以上含めません。';
 $string['groupcsvfiledescription'] = '追加するグループを含むファイル';
 $string['groupmemberscsvfiledescription'] = '更新するグループメンバーを含むファイル';
 $string['csverroremptyfile'] = 'CSVファイルが空です。';
@@ -477,7 +477,7 @@ $string['uploadcsvpagedescription2'] = '<p>あなたはこの機能により<acr
 
 <p>この先頭行には<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、すべてのユーザに対して必須にしたフィールドを含んでください。あなたがユーザをアップロードするインスティテューションのロックフィールドも含んでください。すべてのインスティテューションの<a href="%s">必須フィールドを設定</a>、または<a href="%s">個別のインスティテューションのロックフィールドを設定できます</a>。</p>
 
-<p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下のとおりです:</p>
+<p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含めます。フィールドの完全なリストは以下のとおりです:</p>
 
 %s';
 $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードできます。</p>
@@ -488,10 +488,10 @@ $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの�
 
 <p>この先頭行には<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。また、サイト管理者が必須にしたフィールド、あなたがインスティテューションでロックしたフィールドも含んでください。あなたが管理するインスティテューションの<a href="%s">ロックフィールドを設定</a>できます。</p>
 
-<p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含むことができます。フィールドの完全なリストは以下のとおりです:</p>
+<p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含めます。フィールドの完全なリストは以下のとおりです:</p>
 
 %s';
-$string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれる行が多すぎます。あなたは %s 以上含むことができません。';
+$string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれる行が多すぎます。あなたは %s 以上含めません。';
 $string['uploadgroupcsverrorgroupnamealreadyexists'] = 'あなたのファイルの %s 行目に誤りがあります: グループ名 (groupname)「 %s 」はすでに使用されています。';
 $string['uploadgroupcsverrorinvalidshortname'] = 'あなたのファイルの %s 行目に誤りがあります: グループ省略名 (shortname) 「 %s 」が有効ではありません。';
 $string['uploadgroupcsverrorinvalidgrouptype'] = 'あなたのファイルの %s 行目に誤りがあります: グループタイプ (grouptype) 「 %s 」が有効ではありません。';
@@ -508,14 +508,14 @@ $string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能によ�
 
 <p>この先頭行には<tt>shortname</tt>、<tt>displayname</tt>および<tt>roles</tt>フィールドを含んでください。</p>
 
-<p>rolesフィールドには以下の設定値を含むことができます: %s</p>
+<p>rolesフィールドには以下の設定値を含めます: %s</p>
 
 %s
 
-<p>必要に応じてあなたのCSVファイルには他のフィールドを含むことができます。フィールドの完全なリストは以下のとおりです:</p>
+<p>必要に応じてあなたのCSVファイルには他のフィールドを含めます。フィールドの完全なリストは以下のとおりです:</p>
 
 %s';
-$string['uploadgroupcsveditrolesdescription'] = '<p>editrolesフィールドには次のいずれかを含むことができます: %s</p>
+$string['uploadgroupcsveditrolesdescription'] = '<p>editrolesフィールドには次のいずれかを含めます: %s</p>
 %s';
 $string['uploadgroupmemberscsverrorduplicateusername'] = 'あなたのファイルの %s 行目に誤りがあります: グループ省略名 (shortname)「 %s 」およびユーザ名 (username)「 %s 」はすでにこのファイルで指定されています。';
 $string['uploadgroupmemberscsverrorinvalidrole'] = 'あなたのファイルの %s 行目に誤りがあります: 指定されたグループに対してロール「 %s 」は有効ではありません。';
@@ -606,7 +606,7 @@ $string['usersreactivated'] = 'ユーザを復活しました。';
 $string['accountsettings'] = 'アカウント設定';
 $string['siteaccountsettings'] = 'サイトアカウント設定';
 $string['changeusername'] = 'ユーザ名を変更する';
-$string['changeusernamedescription'] = 'このユーザのユーザ名を変更します。ユーザ名の長さは半角3-236文字にしてください。ユーザ名にはスペースを除く文字、数字および一般的な記号を含むことができます。';
+$string['changeusernamedescription'] = 'このユーザのユーザ名を変更します。ユーザ名の長さは半角3-236文字にしてください。ユーザ名にはスペースを除く文字、数字および一般的な記号を含めます。';
 $string['resetpassword'] = 'パスワードをリセットする';
 $string['resetpassworddescription'] = 'ここにテキストを入力した場合、ユーザの現在のパスワードと入れ替えられます。';
 $string['forcepasswordchange'] = '次回ログイン時、パスワード変更を強制する';
