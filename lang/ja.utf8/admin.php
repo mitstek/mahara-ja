@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-06-21 03:06:42 UTC
+ * @updated    2020-06-22 20:53:22 UTC
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -367,7 +367,7 @@ $string['defaultregistrationexpirylifetimedescription'] = '管理者が対応す
 $string['defaultaccountlifetime'] = 'デフォルトのアカウント存続期間';
 $string['defaultaccountlifetimedescription'] = 'このオプションを設定した場合、アカウントは本日または将来的な期間経過後に有効期限切れとなります。';
 $string['defaultaccountlifetimeupdate'] = 'アカウント存続期間のオーバーライド';
-$string['defaultaccountlifetimeupdatedescription'] = '「デフォルトのアカウント存続期間」が設定された場合のアカウント有効期限の対応方法を選択してください。';
+$string['defaultaccountlifetimeupdatedescription'] = '「デフォルトのアカウント存続期間」が設定された場合のアカウント有効期限の適用方法を選択してください。';
 $string['defaultaccountlifetimeupdatenone'] = '新しく作成されたアカウントのみ';
 $string['defaultaccountlifetimeupdatesome'] = '新しいアカウントおよびアカウント存続期間が設定されていないアカウント (サイト管理者を除く)';
 $string['defaultaccountlifetimeupdateall'] = 'すべてのアカウント (サイト管理者を除く)';
@@ -432,7 +432,7 @@ $string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正�
 $string['searchuserspublic'] = 'パブリック検索に人を表示する';
 $string['searchuserspublicdescription'] = 'パブリック検索結果に氏名の表示を許可します。これには「publicsearchallowed」を「true」に設定してパブリック検索を許可する検索プラグイン (例 Elasticsearch) を使用する必要があります。この設定を変更するには検索インデックスの再構築が必要です。';
 $string['sessionlifetime'] = 'セッションライフタイム';
-$string['sessionlifetimedescription'] = '活動していないログインした人が自動的にログアウトされる時間 (分) です。';
+$string['sessionlifetimedescription'] = 'ログインして活動していない人が自動的にログアウトされるまでの時間 (分) です。';
 $string['setsiteoptionsfailed1'] = 'このオプションの設定に失敗しました。';
 $string['setsiteoptionsfailednotice'] = '%s フィールドオプションの設定に失敗しました。';
 $string['showonlineuserssideblock'] = 'オンラインの人を表示する';
