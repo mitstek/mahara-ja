@@ -6,7 +6,7 @@
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
  * @updated    2020-06-02 22:47:21 UTC
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
+ * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
@@ -146,7 +146,7 @@ $string['allowediframesites'] = '許可されるiframeソース';
 $string['allowediframesitesdescriptionshort'] = '埋め込み外部iframeコンテンツのパーミッションを設定します。';
 $string['allowediframesitesdescription'] = 'ユーザはHTML &lt;iframe&gt; エレメント内に以下の外部サイトからコンテンツを埋め込めます。これは一般的に他の場所で提供されているコンテンツを表示するため使用されます。許可されるサイト一覧はこのページで修正できます。';
 $string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、ユーザにアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが、サイト内におけるiframeソーステキストのマッチングは許可されます。';
-$string['iframeurldescription'] = 'iframeソースURL (http:// なし) の先頭に合致するテキストです。半角英数字、「.」「/」「_」および「-」のみ許可されます。';
+$string['iframeurldescription'] = 'iframeソースURL (https:// なし) の先頭に合致するテキストです。半角英数字、「.」「/」「_」および「-」のみ許可されます。';
 $string['iframedisplaynamedescription'] = 'ユーザに表示されるサイト名です。';
 $string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含めます。';
 $string['iframeiconhost'] = 'アイコンホスト';
@@ -155,9 +155,9 @@ $string['iframeiconhostdescription'] = '必要であれば、あなたはファ�
 $string['cleanurls'] = 'クリーンURL';
 $string['cleanurlsdescription'] = '<p>ユーザプロファイル、グループホームページおよびポートフォリオページに関して人間が解読可能なURLを使用するようあなたのサイトを設定できます。例えば以下のようになります:
 <ul>
-<li>http://mahara.example.com/user/bob</li>
-<li>http://mahara.example.com/group/bobs-group</li>
-<li>http://mahara.example.com/user/bob/bobs-portfolio-page</li>
+<li>https://mahara.example.com/user/bob</li>
+<li>https://mahara.example.com/group/bobs-group</li>
+<li>https://mahara.example.com/user/bob/bobs-portfolio-page</li>
 </ul>
 
 受信リクエストのURLを書き換えることができるようあなたのサーバ管理者はこのオプションを有効にする前にウェブサーバを設定する必要があります。</p>
@@ -337,13 +337,13 @@ $string['allowmobileuploadsdescription1'] = 'Maharaモバイルアプリを使�
 $string['recaptchakeysmissing1'] = 'reCAPTCHAは有効にされましたが、あなたがサイト鍵および秘密鍵を提供するまで機能しません。';
 $string['recaptchanotpassed'] = 'reCAPTCHAが正しく入力されていません。再度お試しください。';
 $string['recaptchaonregisterform'] = 'ユーザ登録フォームのreCAPTCHA';
-$string['recaptchaonregisterformdesc1'] = '自己登録の新しいユーザは<a href="http://recaptcha.org/">reCAPTCHA</a>テストに合格することより、自分が人間であることを証明する必要があります。';
+$string['recaptchaonregisterformdesc1'] = '自己登録の新しいユーザは<a href="https://recaptcha.org/">reCAPTCHA</a>テストに合格することより、自分が人間であることを証明する必要があります。';
 $string['recaptchaprivatekey1'] = 'reCAPTCHA秘密鍵';
 $string['recaptchaprivatekeydesc1'] = 'あなたのサイトのreCAPTCHAアカウントの秘密鍵です。';
 $string['recaptchapublickey1'] = 'reCAPTCHAサイト鍵';
 $string['recaptchapublickeydesc1'] = 'あなたのサイトのreCAPTCHAアカウントのサイト鍵です。';
 $string['remoteavatars'] = 'リモートアバタを表示する';
-$string['remoteavatarsdescription1'] = 'ユーザのデフォルトプロファイル画像に<a href="http://www.gravatar.com">Gravatar</a>サービスを利用します。';
+$string['remoteavatarsdescription1'] = 'ユーザのデフォルトプロファイル画像に<a href="https://www.gravatar.com">Gravatar</a>サービスを利用します。';
 $string['searchplugin'] = '検索プラグイン';
 $string['searchplugindescription'] = '使用する検索プラグイン';
 $string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「プラグインタイプ: search」の設定を確認してください。確認後、あなたはsearchの「リセット」ボタンをクリックする必要があります。';
