@@ -1,7 +1,7 @@
 <?php
 /**
  * Mahara: Electronic portfolio, weblog, resume builder and social networking
- * Copyright (C) 2006 onwards Catalyst IT Ltd (http://www.catalyst.net.nz)
+ * Copyright (C) 2006 onwards Catalyst IT Ltd (https://www.catalyst.net.nz)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -14,15 +14,15 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
  * @package    mahara
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
  * @updated    2012-09-10 18:25:28 UTC
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
- * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
+ * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL
+ * @copyright  (C) 2006 onwards Catalyst IT Ltd https://catalyst.net.nz
  *
  */
 
@@ -52,11 +52,11 @@ $string['previewwidth'] = '最大写真幅';
 $string['previewwidthdesc'] = '写真がSlimbox 2で表示される場合、リサイズされる最大幅を設定してください。';
 $string['flickrsettings'] = 'Flickr設定';
 $string['flickrapikey'] = 'Flickr APIキー';
-$string['flickrapikeydesc'] = 'あなたがFlickrのフォトセットを表示するには有効なFlickr APIキーが必要です。<a href="http://www.flickr.com/services/api/keys/apply/" target="_blank">あなたのキーをオンラインで適用してください</a>。';
+$string['flickrapikeydesc'] = 'あなたがFlickrのフォトセットを表示するには有効なFlickr APIキーが必要です。<a href="https://www.flickr.com/services/api/keys/apply/" target="_blank">あなたのキーをオンラインで適用してください</a>。';
 $string['flickrsets'] = 'Flickrセット';
 $string['pbsettings'] = 'Photobucket設定';
 $string['pbapikey'] = 'Photobucket APIキー';
-$string['pbapikeydesc'] = 'あなたがPhotobucketのフォトアルバムを表示するには有効なAPIキーおよびAPIプライベートキーが必要です。<br /><a href="http://developer.photobucket.com/" target="_blank">Photobucket開発者ウェブサイト</a>にアクセスして利用規約に同意、サインアップした後、APIキーを取得してください。';
+$string['pbapikeydesc'] = 'あなたがPhotobucketのフォトアルバムを表示するには有効なAPIキーおよびAPIプライベートキーが必要です。<br /><a href="https://developer.photobucket.com/" target="_blank">Photobucket開発者ウェブサイト</a>にアクセスして利用規約に同意、サインアップした後、APIキーを取得してください。';
 $string['pbapiprivatekey'] = 'Photobucket APIプライベートキー';
 $string['photobucketphotosandalbums'] = 'Photobucketユーザ写真およびアルバム';
 $string['Photo'] = '写真';

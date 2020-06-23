@@ -1,7 +1,7 @@
 <?php
 /**
  * Mahara: Electronic portfolio, weblog, resume builder and social networking
- * Copyright (C) 2006 onwards Catalyst IT Ltd (http://www.catalyst.net.nz)
+ * Copyright (C) 2006 onwards Catalyst IT Ltd (https://www.catalyst.net.nz)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -14,15 +14,15 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
  * @package    mahara
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
  * @updated    2018-07-22 10:26:11 UTC
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
- * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
+ * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL
+ * @copyright  (C) 2006 onwards Catalyst IT Ltd https://catalyst.net.nz
  *
  */
 
@@ -140,7 +140,7 @@ $string['allowediframesites'] = '許可されるiframeソース';
 $string['allowediframesitesdescriptionshort'] = '埋め込み外部iframeコンテンツのパーミッションを設定します。';
 $string['allowediframesitesdescription'] = 'ユーザはHTML &lt;iframe&gt; エレメント内に以下の外部サイトからコンテンツを埋め込めます。これは一般的に他の場所で提供されているコンテンツを表示するため使用されます。許可されるサイト一覧はこのページで修正できます。';
 $string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、ユーザにアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが、サイト内におけるiframeソーステキストのマッチングは許可されます。';
-$string['iframeurldescription'] = 'iframeソースURL (http:// なし) の先頭に合致するテキストです。半角英数字、「.」「/」「_」および「-」のみ許可されます。';
+$string['iframeurldescription'] = 'iframeソースURL (https:// なし) の先頭に合致するテキストです。半角英数字、「.」「/」「_」および「-」のみ許可されます。';
 $string['iframedisplaynamedescription'] = 'ユーザに表示されるサイト名です。';
 $string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含めます。';
 $string['iframeiconhost'] = 'アイコンホスト';
@@ -149,9 +149,9 @@ $string['iframeiconhostdescription'] = '必要であれば、あなたはファ�
 $string['cleanurls'] = 'クリーンURL';
 $string['cleanurlsdescription'] = '<p>ユーザプロファイル、グループホームページおよびポートフォリオページに関して人間が解読可能なURLを使用するようあなたのサイトを設定できます。例えば以下のようになります:
 <ul>
-<li>http://mahara.example.com/user/bob</li>
-<li>http://mahara.example.com/group/bobs-group</li>
-<li>http://mahara.example.com/user/bob/bobs-portfolio-page</li>
+<li>https://mahara.example.com/user/bob</li>
+<li>https://mahara.example.com/group/bobs-group</li>
+<li>https://mahara.example.com/user/bob/bobs-portfolio-page</li>
 </ul>
 
 受信リクエストのURLを書き換えることができるようあなたのサーバ管理者はこのオプションを有効にする前にウェブサーバを設定する必要があります。</p>
@@ -293,7 +293,7 @@ $string['registertermsdescription'] = 'ユーザ登録の前、ユーザに利�
 $string['allowmobileuploads'] = 'モバイルアップロードを有効にする';
 $string['allowmobileuploadsdescription'] = 'この設定を有効にした場合、ユーザは認証トークンを設定できます - このトークンを使用してアップロードされたコンテンツはアーティファクトとして保存されます。';
 $string['remoteavatars'] = 'リモートアバタを表示する';
-$string['remoteavatarsdescription'] = 'この設定を有効にした場合、ユーザのデフォルトプロファイル画像に<a href="http://www.gravatar.com">Gravatar</a>サービスが利用されます。';
+$string['remoteavatarsdescription'] = 'この設定を有効にした場合、ユーザのデフォルトプロファイル画像に<a href="https://www.gravatar.com">Gravatar</a>サービスが利用されます。';
 $string['searchplugin'] = '検索プラグイン';
 $string['searchplugindescription'] = '使用する検索プラグイン';
 $string['searchusernames'] = 'ユーザ名を検索する';
