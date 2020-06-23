@@ -6,7 +6,7 @@
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
  * @updated    2020-06-16 14:13:18 UTC
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
+ * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
@@ -170,7 +170,7 @@ $string['allowediframesites'] = '許可されるiframeソース';
 $string['iframesitesdescriptionshort'] = 'iframeで利用可能な外部コンテンツ埋め込みのホワイトリストです。';
 $string['allowediframesitesdescription'] = '人はHTML &lt;iframe&gt; エレメント内に以下の外部サイトからコンテンツを埋め込めます。これは一般的に他の場所で提供されているコンテンツを表示するため使用されます。許可されるサイト一覧はこのページで修正できます。';
 $string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、作成者にアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが、サイト内におけるiframeソーステキストのマッチングは許可されます。';
-$string['iframeurldescription'] = 'iframeソースURL (http:// なし) の先頭に合致するテキストです。半角英数字、「.」「/」「_」および「-」のみ許可されます。';
+$string['iframeurldescription'] = 'iframeソースURL (https:// なし) の先頭に合致するテキストです。半角英数字、「.」「/」「_」および「-」のみ許可されます。';
 $string['iframedisplaynamedescription'] = '作成者に表示されるサイト名です。';
 $string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含めます。';
 $string['iframeiconhost'] = 'アイコンホスト';
@@ -179,9 +179,9 @@ $string['iframeiconhostdescription'] = '必要であれば、あなたはファ�
 $string['cleanurls'] = 'クリーンURL';
 $string['cleanurlsdescription'] = '<p>プロファイル、グループホームページおよびポートフォリオページに関して人間が解読可能なURLを使用するようあなたのサイトを設定できます。例えば以下のようになります:
 <ul>
-<li>http://mahara.example.com/user/bob</li>
-<li>http://mahara.example.com/group/bobs-group</li>
-<li>http://mahara.example.com/user/bob/bobs-portfolio-page</li>
+<li>https://mahara.example.com/user/bob</li>
+<li>https://mahara.example.com/group/bobs-group</li>
+<li>https://mahara.example.com/user/bob/bobs-portfolio-page</li>
 </ul>
 
 受信リクエストのURLを書き換えることができるようあなたのサーバ管理者はこのオプションを有効にする前にウェブサーバを設定する必要があります。</p>
@@ -401,7 +401,7 @@ $string['recaptchaprivatekeydesc1'] = 'あなたのサイトのreCAPTCHAアカ�
 $string['recaptchapublickey1'] = 'reCAPTCHAサイト鍵';
 $string['recaptchapublickeydesc1'] = 'あなたのサイトのreCAPTCHAアカウントのサイト鍵です。';
 $string['remoteavatars'] = 'リモートアバタを表示する';
-$string['remoteavatarsdescription1'] = 'デフォルトプロファイル画像に<a href="http://www.gravatar.com">Gravatar</a>サービスを利用します。';
+$string['remoteavatarsdescription1'] = 'デフォルトプロファイル画像に<a href="https://www.gravatar.com">Gravatar</a>サービスを利用します。';
 $string['searchplugin'] = '検索プラグイン';
 $string['searchplugindescription'] = '使用する検索プラグイン';
 $string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「プラグインタイプ: search」の設定を確認してください。確認後、あなたはsearchの「リセット」ボタンをクリックする必要があります。';
