@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-05-13 08:06:47 UTC
+ * @updated    2020-06-26 00:49:30 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -62,6 +62,7 @@ $string['reason'] = '理由';
 $string['approve'] = '承認';
 $string['reject'] = '拒否';
 $string['groupalreadyexists'] = 'この名称のグループはすでに存在します。';
+$string['groupalreadyexistssuggest'] = 'この名称のグループはすでに存在します。名称「 %s 」は使用できます。';
 $string['groupshortnamealreadyexists'] = 'この省略名のグループはすでに存在します。';
 $string['invalidshortname'] = '無効なグループ省略名です。';
 $string['shortnameformat1'] = 'グループ省略名の長さは半角2-255文字にしてください。グループ省略名には半角英数字小文字、「.」、「-」および「_」を使用できます。';
