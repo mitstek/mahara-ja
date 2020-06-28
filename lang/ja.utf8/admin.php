@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-06-22 20:53:22 UTC
+ * @updated    2020-06-28 05:05:27 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -174,7 +174,7 @@ $string['iframeurldescription'] = 'iframeソースURL (https:// なし) の先�
 $string['iframedisplaynamedescription'] = '作成者に表示されるサイト名です。';
 $string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含めます。';
 $string['iframeiconhost'] = 'アイコンホスト';
-$string['urlalreadyexists'] = 'このURLはすでに存在します。あなたは2度追加することはできません。';
+$string['urlalreadyexists'] = 'このURLはすでに存在します。あなたはURLを2度追加できません。';
 $string['iframeiconhostdescription'] = '必要であれば、あなたはファビコン (favicon) イメージ用の異なるホストを指定できます。同一名称のすべてのサイトでこのアイコンが使用されます。';
 $string['cleanurls'] = 'クリーンURL';
 $string['cleanurlsdescription'] = '<p>プロファイル、グループホームページおよびポートフォリオページに関して人間が解読可能なURLを使用するようあなたのサイトを設定できます。例えば以下のようになります:
