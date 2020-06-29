@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-06-16 01:19:16 UTC
+ * @updated    2020-06-29 01:45:39 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -468,5 +468,13 @@ $string['blocktypeis'] = '%s ブロックタイプ';
 $string['coverimage'] = 'カバーイメージ';
 $string['coverimagefolder'] = 'カバーイメージ';
 $string['coverimagedescription'] = '推奨サイズは幅180px、高さ130pxです。';
+$string['locktemplate'] = 'テンプレート';
+$string['locktemplatedescription'] = 'この設定を有効にした場合、個人アカウントにページをコピーした人はページまたはアーティファクトのインストラクションを変更できないようになります。';
+$string['linktooriginaltemplate'] = 'オリジナルテンプレート';
+$string['linktooriginaltemplatedescription'] = 'このページはテンプレートをベースにしています。これはテンプレートへのリンクです。';
+$string['linktooriginaltemplatedescriptiondeleted'] = 'このページはテンプレートをベースにしています。';
+$string['deletedview'] = 'ページ削除';
+$string['copylocked'] = 'コピーロック';
+$string['copylockeddescription'] = 'これはテンプレートコピーです。このコピーのインストラクションフィールドをロック/ロック解除するにはこの設定を変更してください。';
 
 ?>
