@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-06-28 05:05:27 UTC
+ * @updated    2020-06-30 11:30:58 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -189,12 +189,12 @@ $string['cleanurlsdescription'] = '<p>プロファイル、グループホーム
 $string['cleanurlsdisabled'] = 'クリーンURLは無効にされています。';
 $string['cleanurlsettings'] = 'クリーンURL設定';
 $string['regenerateurls'] = 'URLを再生成する';
-$string['regenerateurlsdescription'] = 'サイトからクリーンURLすべてを削除した後、ユーザ名、グループ名およびページタイトルを使用して自動的に再生成します。';
+$string['regenerateurlsdescription'] = 'サイトからクリーンURLすべてを削除した後、ユーザ名、グループ名およびページタイトルを使用してクリーンURLを自動的に再生成します。';
 $string['regenerateurlsconfirm1'] = '本当にこの処理を実行してもよろしいですか? 既存のカスタムURLすべてが置換されます。';
 $string['generateduserurls'] = '%s プロファイルURLを生成しました。';
 $string['generatedgroupurls'] = '%s グループホームページURLを生成しました。';
 $string['generatedviewurls'] = '%s ポートフォリオページURLを生成しました。';
-$string['cleanurlsdescriptionshort'] = '人間が解読可能なURLを設定します。';
+$string['cleanurlsdescriptionshort'] = '人間が解読可能なURLを使用するようサイトを設定します。';
 $string['embeddedurls'] = '埋め込みURLを更新する';
 $string['embeddedurlsdescription'] = '<p>あなたのURLを変更した場合、埋め込みコンテンツ内の既存のURLは間違った場所を指定することになります。</p><p>あなたはここで古いURLドメインを指定して修正できます。</p>';
 $string['nopotentialembeddedurls'] = '<p>潜在的な古いURLは検出されませんでした。</p>';
