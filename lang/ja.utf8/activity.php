@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-07-01 03:45:06 UTC
+ * @updated    2020-07-01 08:06:20 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -63,9 +63,9 @@ $string['newviewsubject'] = '新しいページが作成されました。';
 $string['newviewmessage'] = '%s が新しいページ「 %s 」を作成しました。';
 $string['newcontactusfrom'] = '新しいお問い合わせ:';
 $string['newcontactus'] = '新しいお問い合わせ';
-$string['newaccesssubject'] = 'あなたに %s ポートフォリオのアクセス権が与えられました。';
-$string['newaccesssubjectname'] = 'あなたに %s ポートフォリオのアクセス権が %s により与えられました。';
-$string['newaccessubjectdefault'] = 'あなたに新しいアクセス権が与えられました。';
+$string['newaccesssubject'] = 'あなたに %s ポートフォリオのアクセス権が付与されました。';
+$string['newaccesssubjectname'] = 'あなたに %s ポートフォリオのアクセス権が %s により付与されました。';
+$string['newaccessubjectdefault'] = 'あなたに新しいアクセス権が付与されました。';
 $string['messageaccessfromto1'] = 'あなたは %s から %s の間アクセスできます。';
 $string['messageaccessfrom1'] = 'あなたは %s の後アクセスできます。';
 $string['messageaccessto1'] = 'あなたは %s までアクセスできます。';
