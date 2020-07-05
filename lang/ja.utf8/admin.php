@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-06-30 11:30:58 UTC
+ * @updated    2020-07-05 05:08:29 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -227,14 +227,14 @@ $string['groupcategorydeleted'] = 'カテゴリが削除されました。';
 $string['groupcategoryupdated'] = 'カテゴリが更新されました。';
 $string['groupcategoryadded'] = 'カテゴリが追加されました。';
 $string['confirmdeletecategory'] = '本当にこのカテゴリを削除してもよろしいですか?';
-$string['groupcategoriespagedescription'] = 'グループ作成時、ここで一覧表示されているカテゴリにグループを割り当てることができます。また、グループ検索時、グループのフィルタにカテゴリを使用できます。';
+$string['groupcategoriespagedescription'] = 'グループ作成時、ここで一覧表示されているカテゴリにグループを割り当てることができます。また、検索時、グループのフィルタにカテゴリを使用できます。';
 $string['groupquotas'] = '「 %s 」のグループクオータ';
 $string['groupfilequotadescription'] = 'グループファイルエリアでの利用可能な合計保存領域です。';
 $string['groupadminsforgroup'] = '「 %s 」のグループ管理者';
 $string['potentialadmins'] = '潜在的な管理者';
 $string['currentadmins'] = '現在の管理者';
 $string['makeusersintoadmins'] = '選択した一般アカウントを管理者アカウントにする';
-$string['makeadminsintousers'] = '選択した管理者を一般アカウントに戻す';
+$string['makeadminsintousers'] = '選択した管理者アカウントを一般アカウントに戻す';
 $string['groupadminsupdated'] = 'グループ管理者が更新されました。';
 $string['groupquotaupdated'] = 'グループクオータが更新されました。';
 $string['addnewgroupcategory'] = '新しいグループカテゴリを入力する';
