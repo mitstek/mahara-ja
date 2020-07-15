@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-07-15 00:13:23 UTC
+ * @updated    2020-07-15 04:47:31 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -342,7 +342,7 @@ $string['allowinstitutionsmartevidence'] = 'スマートエビデンスを許可
 $string['allowinstitutionsmartevidencedescription'] = 'コレクションをコンピテンシーフレームワークにリンクされるスマートエビデンスコレクションに変更します。';
 $string['institutionsmartevidencenotallowed'] = 'あなたがスマートエビデンスオプションを設定するには「プラグイン管理」ページで「スマートエビデンス」モジュールを有効にする必要があります。';
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
-$string['allowpublicprofilesdescription1'] = '人は登録した人のみではなく、外部からもアクセスできるプロファイルページを設定できます。';
+$string['allowpublicprofilesdescription1'] = '人は登録済みの人のみではなく、外部からもアクセスできるプロファイルページを設定できます。';
 $string['allowanonymouspages'] = '匿名ページを許可する';
 $string['allowanonymouspagesdescription1'] = '人はページ作成者として他の人から氏名を隠せます。管理者およびスタッフは必要であれば作成者の氏名を確認できます。';
 $string['anonymouscomments'] = '匿名コメント';
