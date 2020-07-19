@@ -178,7 +178,7 @@ $string['statsnogroups'] = '所属グループ数: 0';
 $string['statsmaxquotaused'] = '平均利用ディスククオータ: %s (最もクオータ使用量の多いユーザ: <a href="%s">%s</a> - クオータ使用量: %s)';
 $string['groupcountsbytype'] = 'グループタイプ別グループ数';
 $string['groupcountsbyjointype'] = 'アクセスタイプ別グループ数';
-$string['blockcountsbytype'] = 'ポートフォリオページで最も使用されたブロック';
+$string['blockcountsbytype'] = 'ポートフォリオページで最も頻繁に使用されたブロック';
 $string['uptodate'] = '最新';
 $string['latestversionis'] = '最新バージョン: <a href="%s">%s</a>';
 $string['viewsbytype'] = 'タイプ別ページ';
