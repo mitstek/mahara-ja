@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-07-19 23:24:51 UTC
+ * @updated    2020-07-19 23:49:09 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -621,7 +621,7 @@ $string['emailnoreplyaddressdescription'] = 'このメールアドレスからE�
 $string['internalnotificationexpire'] = '内部通知有効期限';
 $string['internalnotificationexpiredescription'] = '内部通知を保持する日数です。';
 $string['notificationsettings'] = '通知設定';
-$string['notificationsettingsdescription'] = 'ここであなたは新しいアカウント保持者が受信する通知のデフォルトオプションを設定できます。人はこれらの設定を自分の「設定 → 通知」ページでオーバーライドできます。<br />あなたがメールオプションのどちらかを選択した場合、通知は受信ボックスにも到着しますが自動的に既読としてマークされます。';
+$string['notificationsettingsdescription'] = 'ここであなたは新しいアカウント保持者が受信する通知のデフォルトオプションを設定できます。人はこれらの設定を自分の「設定 → 通知」ページでオーバーライドできます。<br />あなたがメールオプションのどちらを選択した場合でも通知は受信ボックスに到着しますが、自動的に既読としてマークされます。';
 $string['csvfile'] = 'CSVファイル';
 $string['emailusersaboutnewaccount'] = '人にアカウント情報をメール送信する';
 $string['emailusersaboutnewaccountdescription'] = 'この設定を有効にした場合、新しいアカウント詳細情報が人にメール送信されます。';
