@@ -280,7 +280,7 @@ $string['statsnoquota'] = 'ストレージ未使用';
 $string['statsmaxquotaused1'] = 'ディスククオータ使用: %s<br />(<a href="%s">%s は最大 %s のディスククオータを使用しています</a>)';
 $string['groupcountsbytype'] = 'グループタイプ別グループ数';
 $string['groupcountsbyjointype'] = 'アクセスタイプ別グループ数';
-$string['blockcountsbytype'] = 'ポートフォリオページで最も使用されたブロック';
+$string['blockcountsbytype'] = 'ポートフォリオページで最も頻繁に使用されたブロック';
 $string['uptodate'] = 'あなたのローカルコードベースはMaharaコアの最新版です。';
 $string['latestversionis'] = '最新メジャーリリース: <a href="%s">%s</a>';
 $string['latestbranchversionis'] = 'このリリースのマイナーバージョン: <a href="%s">%s</a>';
