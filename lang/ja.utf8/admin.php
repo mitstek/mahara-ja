@@ -258,7 +258,7 @@ $string['statsnoquota'] = 'ストレージ未使用';
 $string['statsmaxquotaused1'] = 'ディスククオータ使用: %s<br />(<a href="%s">%s は最大 %s のディスククオータを使用しています</a>)';
 $string['groupcountsbytype'] = 'グループタイプ別グループ数';
 $string['groupcountsbyjointype'] = 'アクセスタイプ別グループ数';
-$string['blockcountsbytype'] = 'ポートフォリオページで最も使用されたブロック';
+$string['blockcountsbytype'] = 'ポートフォリオページで最も頻繁に使用されたブロック';
 $string['uptodate'] = '最新';
 $string['latestversionis'] = '最新バージョン: <a href="%s">%s</a>';
 $string['viewsbytype'] = 'タイプ別ページ';
