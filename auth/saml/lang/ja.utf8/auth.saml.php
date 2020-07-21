@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-04-01 23:21:45 UTC
+ * @updated    2020-07-21 23:57:08 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -116,6 +116,10 @@ $string['sha256'] = 'SHA256 (デフォルト)';
 $string['sha384'] = 'SHA384';
 $string['sha512'] = 'SHA512';
 $string['sigalgo'] = '署名アルゴリズム';
+$string['keypass'] = '秘密鍵パスフレーズ';
+$string['keypassdesc'] = '秘密鍵を保護するパスフレーズです。';
+$string['newkeypass'] = '新しい秘密鍵パスフレーズ';
+$string['newkeypassdesc'] = 'あなたが現在のパスフレーズと変更したい場合の新しい秘密鍵を保護するためのパスフレーズです。';
 $string['createnewkeytext'] = '新しい鍵/証明書を作成する';
 $string['newkeycreated'] = '新しい鍵/証明書が作成されました。';
 $string['deleteoldkeytext'] = '古い鍵/証明書を削除する';
