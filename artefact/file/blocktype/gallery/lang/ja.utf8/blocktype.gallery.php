@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-25 06:34:34 UTC
+ * @updated    2020-07-22 00:13:03 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -43,8 +43,8 @@ $string['flickrapikeydesc'] = 'あなたがFlickrのフォトセットを表示�
 $string['flickrsets'] = 'Flickrセット';
 $string['pbsettings'] = 'Photobucket設定';
 $string['pbapikey'] = 'Photobucket APIキー';
-$string['pbapikeydesc'] = 'あなたがPhotobucketのフォトアルバムを表示するには有効なAPIキーおよびAPIプライベートキーが必要です。<br /><a href="https://developer.photobucket.com/">Photobucket開発者ウェブサイト</a>にアクセスして利用規約に同意、サインアップした後、APIキーを取得してください。';
-$string['pbapiprivatekey'] = 'Photobucket APIプライベートキー';
+$string['pbapikeydesc'] = 'あなたがPhotobucketのフォトアルバムを表示するには有効なAPIキーおよびAPI秘密鍵が必要です。<br /><a href="https://developer.photobucket.com/">Photobucket開発者ウェブサイト</a>にアクセスして利用規約に同意、サインアップした後、APIキーを取得してください。';
+$string['pbapiprivatekey'] = 'Photobucket API秘密鍵';
 $string['photobucketphotosandalbums'] = 'Photobucketユーザ写真およびアルバム';
 $string['picasaalbums'] = 'Picasaアルバム';
 $string['windowslivephotoalbums'] = 'Windows Liveフォトギャラリーアルバム';
