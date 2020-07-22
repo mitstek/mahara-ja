@@ -42,7 +42,7 @@ $string['flickrsets'] = 'Flickrセット';
 $string['pbsettings'] = 'Photobucket設定';
 $string['pbapikey'] = 'Photobucket APIキー';
 $string['pbapikeydesc'] = 'あなたがPhotobucketのフォトアルバムを表示するには有効なAPIキーおよびAPIプライベートキーが必要です。<br /><a href="https://developer.photobucket.com/" target="_blank">Photobucket開発者ウェブサイト</a>にアクセスして利用規約に同意、サインアップした後、APIキーを取得してください。';
-$string['pbapiprivatekey'] = 'Photobucket APIプライベートキー';
+$string['pbapiprivatekey'] = 'Photobucket API秘密鍵';
 $string['photobucketphotosandalbums'] = 'Photobucketユーザ写真およびアルバム';
 $string['Photo'] = '写真';
 $string['by'] = 'by';
