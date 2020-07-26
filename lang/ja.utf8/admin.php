@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-07-19 23:49:09 UTC
+ * @updated    2020-07-26 06:13:37 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -337,9 +337,9 @@ $string['advanced'] = '高度';
 $string['allowpublicviews1'] = 'パブリックポートフォリオを許可する';
 $string['allowpublicviewsdescription2'] = '人は登録済みの人のみではなく、外部からもアクセスできるポートフォリオを作成できます。';
 $string['allowinstitutionpublicviews1'] = 'パブリックインスティテューションポートフォリオを許可する';
-$string['allowinstitutionpublicviewsdescription3'] = 'インスティテューションメンバーが登録済みの人のみではなく、外部からもアクセスできるポートフォリオを作成できるようにします。';
+$string['allowinstitutionpublicviewsdescription3'] = '登録済みの人のみではなく、外部からもアクセスできるポートフォリオをインスティテューションメンバーが作成できるようにします。';
 $string['allowinstitutionsmartevidence'] = 'スマートエビデンスを許可する';
-$string['allowinstitutionsmartevidencedescription'] = 'コレクションをコンピテンシーフレームワークにリンクされるスマートエビデンスコレクションに変更します。';
+$string['allowinstitutionsmartevidencedescription'] = 'コレクションをコンピテンシーフレームワークにリンクされるスマートエビデンスコレクションに切り替えます。';
 $string['institutionsmartevidencenotallowed'] = 'あなたがスマートエビデンスオプションを設定するには「プラグイン管理」ページで「スマートエビデンス」モジュールを有効にする必要があります。';
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowpublicprofilesdescription1'] = '人は登録済みの人のみではなく、外部からもアクセスできるプロファイルページを設定できます。';
