@@ -302,11 +302,11 @@ $string['allowanonymouspages'] = '匿名ページを許可する';
 $string['allowanonymouspagesdescription1'] = 'ユーザはページ作成者として他のユーザから氏名を隠すことができます。
 管理者は必要であれば作成者の氏名を確認できます。';
 $string['anonymouscomments'] = '匿名コメント';
-$string['anonymouscommentsdescription1'] = 'パブリックページまたはシークレットURLでアクセスできるページに誰でもコメントを残すことができます。';
+$string['anonymouscommentsdescription1'] = 'パブリックページまたはシークレットURLでアクセスできるページに誰でもコメントを残せます。';
 $string['loggedinprofileviewaccess1'] = 'すべての登録ユーザによるプロファイルアクセス';
 $string['loggedinprofileviewaccessdescription1'] = 'ユーザのプロファイルページを登録ユーザすべてが閲覧できます。';
 $string['antispam'] = 'アンチスパム';
-$string['antispamdescription'] = 'パブリックに表示されるフォームに適用されるアンチスパム基準タイプです。';
+$string['antispamdescription'] = 'パブリックに表示されるフォームに適用されるスパム防止策のタイプです。';
 $string['dropdownmenu'] = 'ドロップダウンナビゲーション';
 $string['dropdownmenudescription2'] = 'メインMaharaナビゲーションがサブナビゲーションとしてドロップダウンフォーマットを使用します。';
 $string['dropdownmenudescriptioninstitution2'] = 'メインナビゲーションがドロップダウンメニューを使用します。';
