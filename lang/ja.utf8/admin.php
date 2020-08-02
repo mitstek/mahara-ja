@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-07-28 20:45:19 UTC
+ * @updated    2020-08-02 07:20:20 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -352,8 +352,8 @@ $string['loggedinprofileviewaccessdescription1'] = 'プロファイルページ�
 $string['antispam'] = 'アンチスパム';
 $string['antispamdescription'] = 'パブリックに表示されるフォームに適用されるスパム防止策のタイプです。';
 $string['dropdownmenu'] = 'ドロップダウンナビゲーション';
-$string['dropdownmenudescription2'] = 'メインのMaharaナビゲーションがサブナビゲーションにドロップダウンフォーマットを使用します。';
-$string['dropdownmenudescriptioninstitution2'] = 'メインMaharaナビゲーションがサブナビゲーションとしてドロップダウンフォーマットを使用します。';
+$string['dropdownmenudescription2'] = 'メインのMaharaナビゲーションのサブナビゲーションにドロップダウンフォーマットを使用します。';
+$string['dropdownmenudescriptioninstitution2'] = 'メインナビゲーションにドロップダウンメニューを使用します。';
 $string['commentsortorder'] = 'コメント並び順';
 $string['commentsortorderdescription'] = 'ページに表示する場合のアーティファクトコメントの並び順を設定します。';
 $string['commentthreaded'] = 'スレッドコメント';
