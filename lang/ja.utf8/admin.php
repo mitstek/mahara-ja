@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-08-02 07:20:20 UTC
+ * @updated    2020-08-05 05:43:09 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -369,7 +369,7 @@ $string['defaultaccountlifetimedescription'] = 'このオプションを設定�
 $string['defaultaccountlifetimeupdate'] = 'アカウント存続期間のオーバーライド';
 $string['defaultaccountlifetimeupdatedescription'] = '「デフォルトのアカウント存続期間」が設定された場合のアカウント有効期限の適用方法を選択してください。';
 $string['defaultaccountlifetimeupdatenone'] = '新しく作成されたアカウントのみ';
-$string['defaultaccountlifetimeupdatesome'] = '新しいアカウントおよびアカウント存続期間が設定されていないアカウント (サイト管理者を除く)';
+$string['defaultaccountlifetimeupdatesome'] = '新しいアカウントおよびアカウント存続期間未設定のアカウント (サイト管理者を除く)';
 $string['defaultaccountlifetimeupdateall'] = 'すべてのアカウント (サイト管理者を除く)';
 $string['passwordpolicy'] = 'パスワードポリシー';
 $string['passwordpolicydesc'] = 'アカウントが内蔵の内部認証方法を使用するよう設定されている人のパスワードポリシーです。パスワードの最小文字数および複雑さを選択してください。';
