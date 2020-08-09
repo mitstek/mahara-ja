@@ -357,7 +357,7 @@ $string['passwordpolicylength'] = '最小パスワード長';
 $string['passwordpolicytype'] = 'パスワード複雑性';
 $string['deprecatedmobileapp'] = '申し訳ございません、このモバイルアプリケーションは新しいものに入れ替わりました。あなたは代わりにMaharaモバイルを使用する必要があります。Androidデバイスは次からダウンロードしてください: https://play.google.com/store/apps/details?id=org.mahara.mobile またAppleデバイスは次からダウンロードしてください: https://itunes.apple.com/us/app/mahara-mobile/id1172638950';
 $string['embeddedcontent'] = '埋め込みコンテンツ';
-$string['embeddedcontentdescription'] = '人がポートフォリオにビデオまたは他のサイトのコンテンツを埋め込むことができるようにしたい場合、あなたは以下より信頼できるサイトを選択できます。';
+$string['embeddedcontentdescription'] = '人がポートフォリオにビデオまたは他のサイトのコンテンツを埋め込めるようにしたい場合、あなたは以下より信頼できるサイトを選択できます。';
 $string['Everyone'] = '誰でも';
 $string['generatesitemap1'] = 'サイトマップ';
 $string['generatesitemapdescription'] = 'パブリックにアクセス可能なページ、グループおよびフォーラムトピックからサイトマップファイルを生成します。';
