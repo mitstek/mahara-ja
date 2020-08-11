@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-08-09 06:32:25 UTC
+ * @updated    2020-08-11 23:51:53 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -393,7 +393,7 @@ $string['islandingpage'] = 'このページがサイトのカスタムランデ�
 $string['landingpagegone'] = 'あなたがパーミッションを変更する前、ページ「 %s 」はサイトのカスタムランディングページでした。このページはカスタムランディングページとしてはサイト設定より削除されました。';
 $string['landingpagegonesubject'] = 'カスタムランディングページが削除されました。';
 $string['landingpagegonemessage'] = 'ログインしてサイト設定で新しいカスタムランディングページを選択してください。';
-$string['landingpagegonemessagedeleted'] = 'ページが削除されたためページ「 %s 」はサイトのカスタムランディングページから削除されました。ログインしてサイト設定で新しいカスタムランディングページを選択してください。';
+$string['landingpagegonemessagedeleted'] = 'ページが削除されたためサイトのカスタムランディングページとしてのページ「 %s 」は削除されました。ログインしてサイト設定で新しいカスタムランディングページを選択してください。';
 $string['institutionautosuspend'] = '有効期限切れのインスティテューションを自動停止する';
 $string['institutionautosuspenddescription1'] = '有効期限切れのインスティテューションを自動的に利用停止します。';
 $string['institutionexpirynotification'] = 'インスティテューション有効期限の警告期間';
