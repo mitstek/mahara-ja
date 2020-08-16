@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-26 01:59:26 UTC
+ * @updated    2020-08-16 23:56:47 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -129,5 +129,8 @@ $string['editor'] = 'エディタ';
 $string['Management'] = '管理';
 $string['all'] = 'すべて';
 $string['removestandardorelementconfirm'] = '本当にこのアイテムを削除してもよろしいですか? あなたがこのアイテムを削除した場合、関連する標準エレメントも削除されます。';
+$string['noframeworkfoundondb'] = 'データベースにフレームワークが見つかりませんでした。';
+$string['missingparamframeworkid'] = 'フレームワークIDのパラメータがありません。';
+$string['missingrecordsdb'] = 'データベースに次のレコードが見つかりませんでした: %s';
 
 ?>
