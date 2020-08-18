@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-08-11 23:51:53 UTC
+ * @updated    2020-08-18 21:08:55 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -409,7 +409,7 @@ $string['pathtoclam'] = 'ClamAVのパス';
 $string['pathtoclamdescription'] = 'clamscanまたはclamdscanのファイルシステムパスです。';
 $string['pathtoclamnotset'] = '(未設定)';
 $string['progresscompletion'] = 'ポートフォリオ完了';
-$string['progresscompletiondescription'] = 'コレクションの先頭に「ポートフォリオ完了」ページを追加することにより承認 (および検証) が必要なページのステータス概要を表示します。';
+$string['progresscompletiondescription'] = '承認 (および検証) が必要なページのステータス概要を表示するため、コレクションの先頭に「ポートフォリオ完了」ページを追加します。';
 $string['registerterms'] = '登録同意';
 $string['registertermsdescription1'] = '登録時に人にプライバシー保護方針および利用条件への同意を強制します。このオプションを有効にする場合、あなたのサイトおよびインスティテューションの法律ページを編集する必要があります。';
 $string['licensemetadata'] = 'ライセンスメタデータ';
