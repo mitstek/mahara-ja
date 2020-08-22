@@ -367,7 +367,7 @@ $string['licenseallowcustomdescription'] = 'ライセンスメタデータに関
 $string['recaptchakeysmissing1'] = 'reCAPTCHAは有効にされましたが、あなたがサイト鍵および秘密鍵を提供するまで機能しません。';
 $string['recaptchanotpassed'] = 'reCAPTCHAが正しく入力されていません。再度お試しください。';
 $string['recaptchaonregisterform1'] = 'ユーザ登録/お問い合わせフォームのreCAPTCHA';
-$string['recaptchaonregisterformdesc2'] = '新しいアカウントを自己登録またはお問い合わせフォームを使用するユーザは<a href="https://recaptcha.org/">reCAPTCHA</a>テストに合格して自分が人間であることを証明する必要があります。';
+$string['recaptchaonregisterformdesc2'] = '新しいアカウントを自己登録または「お問い合わせ」フォームを使用するユーザは<a href="https://recaptcha.org/">reCAPTCHA</a>テストに合格して自分が人間であることを証明する必要があります。';
 $string['recaptchaprivatekey1'] = 'reCAPTCHA秘密鍵';
 $string['recaptchaprivatekeydesc1'] = 'あなたのサイトのreCAPTCHAアカウントの秘密鍵です。';
 $string['recaptchapublickey1'] = 'reCAPTCHAサイト鍵';
