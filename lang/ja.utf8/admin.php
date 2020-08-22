@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-08-18 21:08:55 UTC
+ * @updated    2020-08-22 21:27:56 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -413,13 +413,13 @@ $string['progresscompletiondescription'] = '承認 (および検証) が必要�
 $string['registerterms'] = '登録同意';
 $string['registertermsdescription1'] = '登録時に人にプライバシー保護方針および利用条件への同意を強制します。このオプションを有効にする場合、あなたのサイトおよびインスティテューションの法律ページを編集する必要があります。';
 $string['licensemetadata'] = 'ライセンスメタデータ';
-$string['licensemetadatadescription1'] = '作成またはアップロードコンテンツに関してライセンスメタデータを要求および保存します。';
+$string['licensemetadatadescription1'] = '作成またはアップロードされたコンテンツに関してライセンスメタデータを要求および保存します。';
 $string['licenseallowcustom1'] = 'カスタムライセンス';
 $string['licenseallowcustomdescription'] = 'ライセンスメタデータに関して作成者がライセンスのURLを入力できるようにします。この設定を有効にしない場合、作成者はサイト管理者が設定したライセンスに制限されます。';
 $string['recaptchakeysmissing1'] = 'reCAPTCHAは有効にされましたが、あなたがサイト鍵および秘密鍵を提供するまで機能しません。';
 $string['recaptchanotpassed'] = 'reCAPTCHAが正しく入力されていません。再度お試しください。';
 $string['recaptchaonregisterform1'] = 'アカウント登録/お問い合わせフォームのreCAPTCHA';
-$string['recaptchaonregisterformdesc3'] = '新しいアカウントを自己登録またはお問い合わせフォームを使用する人は<a href="https://www.google.com/recaptcha/">reCAPTCHA</a>テストに合格して自分が人間であることを証明する必要があります。';
+$string['recaptchaonregisterformdesc3'] = '新しいアカウントを自己登録または「お問い合わせ」フォームを使用する人は<a href="https://www.google.com/recaptcha/">reCAPTCHA</a>テストに合格して自分が人間であることを証明する必要があります。';
 $string['recaptchaprivatekey1'] = 'reCAPTCHA秘密鍵';
 $string['recaptchaprivatekeydesc1'] = 'あなたのサイトのreCAPTCHAアカウントの秘密鍵です。';
 $string['recaptchapublickey1'] = 'reCAPTCHAサイト鍵';
