@@ -315,9 +315,9 @@ $string['recaptchanotpassed'] = 'reCAPTCHAが正しく入力されていませ�
 $string['recaptchaonregisterform'] = 'ユーザ登録フォームのreCAPTCHA';
 $string['recaptchaonregisterformdesc'] = 'この設定を有効にした場合、ユーザは自分が人間であることを証明するため新しいアカウントの自己登録時に<a href="https://recaptcha.org/">reCAPTCHA</a>テストを通過する必要があります。';
 $string['recaptchaprivatekey'] = 'reCAPTCHAプライベートキー';
-$string['recaptchaprivatekeydesc'] = 'あなたのサイトのreCAPTCHAアカウントのプライベートキーです。';
+$string['recaptchaprivatekeydesc'] = 'あなたのサイト用reCAPTCHAアカウントのプライベートキーです。';
 $string['recaptchapublickey'] = 'reCAPTCHA公開鍵';
-$string['recaptchapublickeydesc'] = 'あなたのサイトのreCAPTCHAアカウントの公開鍵です。';
+$string['recaptchapublickeydesc'] = 'あなたのサイト用reCAPTCHAアカウントの公開鍵です。';
 $string['remoteavatars'] = 'リモートアバタを表示する';
 $string['remoteavatarsdescription'] = 'この設定を有効にした場合、ユーザのデフォルトプロファイル画像に<a href="https://www.gravatar.com">Gravatar</a>サービスが利用されます。';
 $string['searchplugin'] = '検索プラグイン';
