@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-08-23 06:26:10 UTC
+ * @updated    2020-08-25 06:40:30 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -421,9 +421,9 @@ $string['recaptchanotpassed'] = 'reCAPTCHAが正しく入力されていませ�
 $string['recaptchaonregisterform1'] = 'アカウント登録/お問い合わせフォームのreCAPTCHA';
 $string['recaptchaonregisterformdesc3'] = '新しいアカウントを自己登録または「お問い合わせ」フォームを使用する人は<a href="https://www.google.com/recaptcha/">reCAPTCHA</a>テストに合格して自分が人間であることを証明する必要があります。';
 $string['recaptchaprivatekey1'] = 'reCAPTCHA秘密鍵';
-$string['recaptchaprivatekeydesc1'] = 'あなたのサイトのreCAPTCHAアカウントの秘密鍵です。';
+$string['recaptchaprivatekeydesc1'] = 'あなたのサイト用reCAPTCHAアカウントの秘密鍵です。';
 $string['recaptchapublickey1'] = 'reCAPTCHAサイト鍵';
-$string['recaptchapublickeydesc1'] = 'あなたのサイトのreCAPTCHAアカウントのサイト鍵です。';
+$string['recaptchapublickeydesc1'] = 'あなたのサイト用reCAPTCHAアカウントのサイト鍵です。';
 $string['remoteavatars'] = 'リモートアバタを表示する';
 $string['remoteavatarsdescription1'] = 'デフォルトプロファイル画像に<a href="https://www.gravatar.com">Gravatar</a>サービスを利用します。';
 $string['searchplugin'] = '検索プラグイン';
