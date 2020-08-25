@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-08-25 06:40:30 UTC
+ * @updated    2020-08-25 07:09:37 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -562,7 +562,7 @@ $string['type'] = 'タイプ';
 $string['footermenu'] = 'フッタメニュー';
 $string['footermenudescription'] = 'フッタメニュー内のリンクを有効または無効にします。';
 $string['footerupdated'] = 'フッタが更新されました。';
-$string['footercustomlink'] = 'ここにURLを入力することであなたはデフォルトページ「 %s 」に優先させることができます。デフォルト値を使用する場合、空白のままにしてください。';
+$string['footercustomlink'] = 'ここにURLを入力することであなたはデフォルトページ「 %s 」に上書きできます。デフォルト値を使用する場合、空白のままにしてください。';
 $string['adminfilespagedescription2'] = 'これらは%s「リンクおよびリソース」メニュー%sに含むことのできるファイルです。あなたはホームディレクトリからログインメニューにファイルを追加できます。また、「パブリック」フォルダからパブリックメニューにファイルを追加することもできます。';
 $string['extralicensesdescription'] = '注意: 次のライセンスはいくつかのコンテンツで使用されていますが設定されていません。';
 $string['licensenamelabel'] = 'URL';
