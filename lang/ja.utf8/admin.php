@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-08-30 07:13:35 UTC
+ * @updated    2020-09-02 06:17:50 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -432,7 +432,7 @@ $string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正�
 $string['searchuserspublic'] = 'パブリック検索に人を表示する';
 $string['searchuserspublicdescription'] = 'パブリック検索結果に氏名の表示を許可します。これには「publicsearchallowed」を「true」に設定してパブリック検索を許可する検索プラグイン (例 Elasticsearch) を使用する必要があります。この設定を変更した場合、検索インデックスの再構築が必要です。';
 $string['sessionlifetime'] = 'セッションライフタイム';
-$string['sessionlifetimedescription'] = 'ログインして活動していない人が自動的にログアウトされるまでの時間 (分) です。';
+$string['sessionlifetimedescription'] = 'ログイン済みの活動していない人が自動的にログアウトされるまでの時間 (分) です。';
 $string['setsiteoptionsfailed1'] = 'このオプションの設定に失敗しました。';
 $string['setsiteoptionsfailednotice'] = '%s フィールドオプションの設定に失敗しました。';
 $string['showonlineuserssideblock'] = 'オンラインの人を表示する';
@@ -446,7 +446,7 @@ $string['sitedefault'] = 'サイトデフォルト';
 $string['sitelanguagedescription'] = 'サイトのデフォルトの言語です。';
 $string['sitecountrydescription'] = 'サイトのデフォルトの国です。';
 $string['sitename'] = 'サイト名';
-$string['sitenamedescription'] = 'サイト名はサイトおよびサイトから送信されるメールに表示されます。';
+$string['sitenamedescription'] = 'サイト名はサイトの特定の場所およびサイトから送信されるメールに表示されます。';
 $string['siteoptionspagedescription'] = 'ここであなたははサイト全体にデフォルトとして適用されるグローバルオプションを設定できます。<br />メモ: 無効にされたオプションはあなたのconfig.phpファイルでオーバーライドできます。';
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['sitethemedescription'] = 'サイトのデフォルトテーマです。あなたのテーマがリストにない場合、エラーログを確認してください。';
