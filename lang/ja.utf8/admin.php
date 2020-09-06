@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-02 06:17:50 UTC
+ * @updated    2020-09-06 16:39:34 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -455,7 +455,7 @@ $string['skinsinstitutiondescription2'] = 'このインスティテューショ�
 $string['smallviewheaders'] = 'スモールページヘッダ';
 $string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧および編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
 $string['spamhaus1'] = 'Spamhaus URLブラックリスト';
-$string['spamhausdescription1'] = 'Spamhaus DNSBLを照合してURLをチェックします。';
+$string['spamhausdescription1'] = 'URLをSpamhaus DNSBLと照合します。';
 $string['staffaccessreports'] = 'スタッフによるレポートアクセス';
 $string['staffaccessreportsdescription1'] = 'サイトおよびインスティテューションスタッフがインスティテューションの「アカウント詳細」「ポートフォリオアクセス」および「マスカレーディングセッション」レポートにアクセスできるようにします。通常、このレポートは管理者に制限されます。';
 $string['institutionstaffallreports'] = 'インスティテューションスタッフのすべてのレポート';
