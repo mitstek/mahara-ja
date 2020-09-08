@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-05-31 23:13:55 UTC
+ * @updated    2020-09-08 01:50:35 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -401,5 +401,8 @@ $string['institutionunknown'] = '- 不明 -';
 $string['unabletodeleteadmin'] = 'ID「 %s 」のユーザは管理者であるため削除できません。';
 $string['notuserblog'] = '日誌は「 %s 」によって所有されていません。';
 $string['oneof'] = 'どれか1つ';
+$string['servicetype'] = 'サービスタイプ';
+$string['jsonenabled'] = 'JSONレスポンス';
+$string['customfields'] = 'カスタムフィールド';
 
 ?>
