@@ -209,7 +209,7 @@ $string['groupmemberaverage'] = 'それぞれのユーザは平均 %s のグル�
 $string['viewsperuser'] = 'ページを作成したユーザはそれぞれ約 %s ページを持っています。';
 $string['Cron'] = 'cron';
 $string['runningnormally'] = '正常動作';
-$string['cronnotrunning1'] = '<span class="error">cronが動作していません。</span><br />cronのセットアップに関するインストラクションは<a href="https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronをセットアップしている場合、直近の1つまたはそれ以前の処理が正しく実行されませんでした。';
+$string['cronnotrunning1'] = '<span class="error">cronが動作していません。</span><br />cronの設定に関するインストラクションは<a href="https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronを設定している場合、直近の1つまたはそれ以前の処理が正しく実行されませんでした。';
 $string['Loggedin'] = 'ログイン';
 $string['youraverageuser'] = 'あなたの平均的なユーザ ...';
 $string['statsmaxfriends'] = '平均フレンド数: %s (最もフレンドの多いユーザ: <a href="%s">%s</a> - フレンド数: %d)';
