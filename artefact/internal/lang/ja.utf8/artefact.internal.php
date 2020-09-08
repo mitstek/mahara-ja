@@ -77,7 +77,7 @@ $string['profilefailedsaved'] = 'プロファイルの保存に失敗しまし�
 $string['emailvalidation_subject'] = 'Eメール確認';
 $string['emailvalidation_body'] = '%s さん、こんにちは。
 
-%s のあなたのユーザアカウントにメールアドレス %s が追加されました。以下のリンクにアクセスしてこのメールアドレスを有効化してください。
+%s のあなたのユーザアカウントにメールアドレス %s が追加されました。以下のリンクにアクセスしてこのメールアドレスを有効にしてください。
 
 %s';
 $string['validationemailwillbesent'] = 'あなたのプロファイル保存後、確認メールが送信されます。';
