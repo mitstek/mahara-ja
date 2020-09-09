@@ -103,7 +103,7 @@ $string['sitefonts'] = 'フォント';
 $string['sitefontsdesc'] = '誰でもスキンで利用できるフォントをアップロードおよび管理します。';
 $string['sitelicenses'] = 'ライセンス';
 $string['sitelicensesadd'] = 'ライセンスを追加する';
-$string['sitelicensesdesc'] = '人が自分のコンテンツで利用できるライセンスの一覧を管理します。';
+$string['sitelicensesdesc'] = '人が自分のコンテンツに使用できるライセンス一覧を設定します。';
 $string['sitelicensesdisablednote1'] = '<b>注意</b>: 現在、ライセンスメタデータは無効にされています。人がライセンスを指定できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「サイト設定」セクションでライセンスメタデータを有効にする必要があります。';
 $string['sitelicensesedit'] = 'ライセンスを編集する';
 $string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトページに配置できるファイルをアップロードおよび管理します。';
