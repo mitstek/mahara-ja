@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-09 00:20:19 UTC
+ * @updated    2020-09-13 04:09:49 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -471,20 +471,20 @@ $string['updatesiteoptions'] = 'サイトオプションを更新する';
 $string['usersallowedmultipleinstitutions'] = '人に複数インスティテューションを許可する';
 $string['usersallowedmultipleinstitutionsdescription1'] = '人が同時に複数のインスティテューションのメンバーになれるようにします。';
 $string['institutionstrictprivacy'] = '厳密なプライバシー';
-$string['institutionstrictprivacydescription'] = 'あなたのサイトが<a href="https://www.eugdpr.org/">GDPR</a>を厳密に順守する必要がある場合、このオプションを有効にしてください。';
+$string['institutionstrictprivacydescription'] = 'あなたのサイトが<a href="https://www.eugdpr.org/">GDPR</a>を順守する必要がある場合、このオプションを有効にしてください。';
 $string['requireregistrationconfirm'] = '登録を承認する';
 $string['requireregistrationconfirmdescription1'] = 'すべてのインスティテューションに新しい自己登録アカウントの承認を強制します。';
 $string['userscanchooseviewthemes'] = '作成者がページテーマを選択できる';
-$string['userscanchooseviewthemesdescription1'] = '作成者がポートフォリオページを編集および作成する時にテーマを選択できるようにします。ページは選択されたテーマを使用して他の人に表示されます。';
+$string['userscanchooseviewthemesdescription1'] = '作成者のポートフォリオページ編集および作成時にテーマを選択できるようにします。ページは選択されたテーマを使用して他の人に表示されます。';
 $string['userscanhiderealnames'] = '人は実名を隠せる';
 $string['userscanhiderealnamesdescription1'] = '人が表示名を設定した場合、実名で検索できないようにします。他の人は表示名のみで検索できます。サイトのサイト管理セクションでは常に実名で人を検索できます。';
 $string['usersseenewthemeonlogin'] = '次回ログイン時、他の人に新しいテーマが表示されます。';
 $string['viruschecking'] = 'ウイルスチェック';
 $string['viruscheckingdescription1'] = 'ClamAVを使用してアップロードファイルすべてのウイルスをチェックします。';
 $string['whocancreategroups'] = 'グループを作成する';
-$string['whocancreategroupsdescription'] = '新しいグループを作成できる人を決定します。';
+$string['whocancreategroupsdescription'] = '誰が新しいグループを作成できるか決定します。';
 $string['whocancreatepublicgroups'] = 'パブリックグループを作成する';
-$string['whocancreatepublicgroupsdescription'] = '一般の人も閲覧可能なグループを作成できる人を選択します。';
+$string['whocancreatepublicgroupsdescription'] = '誰が一般の人も閲覧可能なグループを作成できるか決定します。';
 $string['wysiwyg'] = 'HTMLエディタ';
 $string['wysiwygdescription'] = 'サイト全体としてHTMLエディタを有効にするか、人がHTMLエディタを有効または無効にできるようにするか指定します。';
 $string['wysiwyguserdefined'] = '人による決定';
