@@ -418,7 +418,7 @@ $string['updatesiteoptions'] = 'サイトオプションを更新する';
 $string['usersallowedmultipleinstitutions'] = 'ユーザに複数インスティテューションを許可する';
 $string['usersallowedmultipleinstitutionsdescription1'] = 'ユーザが同時に複数のインスティテューションのメンバーになることができるようにします。';
 $string['institutionstrictprivacy'] = '厳密なプライバシー';
-$string['institutionstrictprivacydescription'] = 'あなたのサイトが<a href="https://www.eugdpr.org/">GDPR</a>を厳密に順守する必要がある場合、このオプションを有効にしてください。';
+$string['institutionstrictprivacydescription'] = 'あなたのサイトが<a href="https://www.eugdpr.org/">GDPR</a>を順守する必要がある場合、このオプションを有効にしてください。';
 $string['requireregistrationconfirm'] = '登録を承認する';
 $string['requireregistrationconfirmdescription1'] = 'すべてのインスティテューションに新しい自己登録アカウントの承認を強制します。';
 $string['userscanchooseviewthemes'] = 'ユーザがページテーマを選択できる';
