@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-04-02 00:49:48 UTC
+ * @updated    2020-09-14 22:16:17 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -299,7 +299,7 @@ $string['nfiles'] = '%s ファイル';
 $string['createdtwothings'] = '%s および %s を作成しました。';
 $string['filesextractedfromarchive'] = 'アーカイブから展開されたファイル';
 $string['filesextractedfromziparchive'] = 'ZIPアーカイブから展開されたファイル';
-$string['fileswillbeextractedintofolder'] = 'ファイルは %s に展開されます。';
+$string['fileswillbeextractedintofolder1'] = 'ファイルはフォルダ「 %s 」に展開されます。';
 $string['insufficientquotaforunzip'] = 'このファイルを展開するにはあなたの残りファイルクオータが小さすぎます。あなたはスペースを空けるためにファイルを削除すること、あなたのクオータを増やすために管理者に連絡できます。';
 $string['invalidarchive1'] = '無効なアーカイブファイルです。';
 $string['invalidarchivehandle'] = '無効なアーカイブファイル操作です。';
