@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-07 01:22:00 UTC
+ * @updated    2020-09-16 01:03:41 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -232,6 +232,7 @@ $string['fonttype.t_raw'] = 'テーマフォント: Raw';
 $string['fonttype.t_ocean'] = 'テーマフォント: Ocean';
 $string['fonttype.t_modern'] = 'テーマフォント: Modern';
 $string['fonttype.t_primaryschool'] = 'テーマフォント: Primary school';
+$string['fonttype.t_maroon'] = 'テーマフォント: Maroon';
 $string['preview'] = 'プレビュー';
 $string['samplesize'] = 'サイズ';
 $string['samplesort'] = '並べ替え';
