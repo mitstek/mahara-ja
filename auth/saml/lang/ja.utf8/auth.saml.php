@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-07-21 23:58:46 UTC
+ * @updated    2020-09-16 20:57:13 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -46,7 +46,7 @@ $string['errornovalidsessionhandler'] = 'SimpleSAMLphpセッションハンド�
 $string['errornomemcache'] = 'auth/samlのためのMemcacheの設定が正しくないか、現在Memcacheサーバを利用できません。';
 $string['errornomemcache7php'] = 'auth/samlのためのMemcacheの設定が正しくないか、現在Memcacheサーバを利用できません。';
 $string['errorbadconfig'] = 'SimpleSAMLPHP設定ディレクトリ %s が正しくありません。';
-$string['errorbadmetadata'] = 'SAMLメタデータのフォーマットが正しくありません。XMLに1つの有効なアイデンティティプロバイダが含まれていることを確認してください。';
+$string['errorbadmetadata1'] = 'SAMLメタデータのフォーマットが正しくありません。次の問題が検出されました: %s';
 $string['errorbadinstitutioncombo'] = 'このインスティテューション属性およびインスティテューション値の組み合わせの認証インスタンスはすでに存在します。';
 $string['errormissingmetadata'] = 'あなたは新しいアイデンティティプロバイダメタデータの追加を選択しましたが何も提供されていません。';
 $string['errormissinguserattributes1'] = 'あなたは認証されたようですが私たちは必要なユーザ属性を受け取っていません。あなたのアイデンティティプロバイダがSSOの姓名およびメールアドレスフィールドを %s にリリースしているか確認してください。または管理者にご連絡ください。';
@@ -125,8 +125,10 @@ $string['newkeycreated'] = '新しい鍵/証明書が作成されました。';
 $string['deleteoldkeytext'] = '古い鍵/証明書を削除する';
 $string['oldkeydeleted'] = '古い鍵/証明書が削除されました。';
 $string['keyrollfailed'] = '古い鍵/証明書の削除に失敗しました。';
+$string['missingnamespace'] = 'XMLはEntityDescriptorタグ内でのネームスペース「 %s 」の定義を要求します。';
 $string['ssolabelfor'] = '%s ログイン';
 $string['noentityidpfound'] = 'アイデンティティプロバイダIDが見つかりませんでした。';
+$string['noentityidpneednamespace'] = 'あなたのXML EntityDescriptorタグは「xmlns=」の定義を必要としますか?';
 $string['novalidauthinstanceprovided'] = 'あなたの選択は可能ではありません。異なるインスティテューションを選択してください。';
 $string['identityprovider'] = 'アイデンティティプロバイダ';
 $string['selectmigrateto'] = '移動するインスティテューションを選択する ...';
