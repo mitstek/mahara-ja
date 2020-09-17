@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-13 04:09:49 UTC
+ * @updated    2020-09-17 23:49:19 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -137,11 +137,13 @@ $string['uploadcsvdesc'] = '新しいアカウントの詳細または既存ア�
 $string['uploadgroupcsv'] = 'CSVでグループを追加する';
 $string['uploadgroupmemberscsv'] = 'CSVでグループメンバーを更新する';
 $string['usersearch'] = '人検索';
+$string['searchforaperson'] = '人を探す';
 $string['usersearchdescription1'] = 'すべての人を検索してアカウントに管理行為を実施します。';
 $string['peoplesearchinstructions'] = 'あなたは氏名またはメールアドレスを検索ボックスに入力して人を検索できます。あなたの検索を狭めるためのオプションを表示するには「高度なオプション」をクリックしてください。';
 $string['emailaddresshidden'] = 'メールアドレス非表示';
 $string['inactive'] = 'アカウント非アクティブ';
 $string['inactivefor1'] = '現在、「 %s 」 はアクティブアカウントではありません。';
+$string['noadminspecified'] = '少なくとも1名の現在の管理者が存在するはずです。';
 $string['administergroups'] = 'グループを管理する';
 $string['administergroupsdesc'] = 'グループ、その管理者および利用可能なスペースを管理します。';
 $string['groupcategoriesdescription'] = 'グループカテゴリを追加および編集します。';
