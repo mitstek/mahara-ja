@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-05-23 20:43:34 UTC
+ * @updated    2020-09-17 00:51:43 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -94,6 +94,7 @@ $string['institutionprivacystatementnotfound'] = '「 %s 」のプライバシ�
 $string['viewnotfoundexceptiontitle'] = 'ページが見つかりませんでした。';
 $string['viewnotfoundexceptionmessage'] = 'あなたは存在しないページにアクセスを試みました。';
 $string['viewnotfound'] = 'ID %s のページは見つかりませんでした。';
+$string['collectionnotfound'] = 'ID %s のコレクションは見つかりませんでした。';
 $string['viewnotfoundbyname'] = 'ページ %s (作成: %s) は見つかりませんでした。';
 $string['youcannotviewthisusersprofile'] = 'あなたはこのプロファイルを閲覧できません。';
 $string['notinthesamegroup'] = 'あなたは同じグループのメンバーではないためこのプロファイルを閲覧できません。';
