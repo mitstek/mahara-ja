@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-17 00:51:22 UTC
+ * @updated    2020-09-20 22:59:44 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -458,7 +458,7 @@ $string['dontaskagain'] = '承認および記憶する';
 $string['pleaseconfirmtranslate'] = 'ページレイアウトを変換する';
 $string['confirmconversionmessage'] = 'Mahara 19.10の一部として私たちはページレイアウトの新しい作成方法を導入しました。このページを編集するにはあなたは古いレイアウトを新しいレイアウトに変換する必要があります。
 あなたがこのページのみを変換したい場合、「承認」をクリックしてください。すべてのページを変換して再度このメッセージを表示したくない場合、「承認および記憶する」をクリックしてください。このオプションはあなたの<a href="%s">プリファレンス</a>で変更できます。編集せずにページに戻るには「キャンセル」をクリックしてください。';
-$string['accessibleview'] = 'アクセシブルレイアウト';
+$string['accessibleview'] = 'アクセシブルなレイアウト';
 $string['accessibleviewdescription'] = '1カラムページレイアウトを作成してドラッグ＆ドロップの代わりにキーボードで編集します。';
 $string['itemgrabbed'] = 'アイテムグラブ: %s';
 $string['itemdropped'] = 'アイテムドロップ: %s';
