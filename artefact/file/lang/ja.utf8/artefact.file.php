@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-14 22:16:17 UTC
+ * @updated    2020-09-21 11:11:49 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -277,7 +277,7 @@ $string['onlyfiveprofileicons'] = 'あなたは5つのプロファイル画像�
 $string['or'] = 'または';
 $string['profileiconuploadexceedsquota'] = 'このプロファイル画像をアップロードすることであなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。';
 $string['profileiconimagetoobig'] = 'あなたがアップロードした画像は大き過ぎます(%sx%s ピクセル)。%sx%s ピクセル以下のサイズにしてください。';
-$string['profileiconxsnotsquare'] = 'あなたがアップロードしたスモールロゴの画像は縦横の大きさが正しくありません。正方形のロゴをアップロードしてください。';
+$string['logoxsnotsquare'] = 'あなたがアップロードしたモバイルロゴの画像は縦横の大きさが正しくありません。正方形のロゴをアップロードしてください。';
 $string['uploadingfile'] = 'ファイルのアップロード中 ...';
 $string['uploadprofileicon'] = 'プロファイル画像をアップロードする';
 $string['uploadedprofileicon'] = 'アップロードされたプロファイル画像';

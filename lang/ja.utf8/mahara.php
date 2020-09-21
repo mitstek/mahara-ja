@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-08 01:49:27 UTC
+ * @updated    2020-09-21 11:15:27 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -757,7 +757,7 @@ $string['sendmessage'] = 'メッセージを送信する';
 $string['spamtrap'] = 'スパムトラップ';
 $string['formerror'] = 'あなたの送信の処理中にエラーが発生しました。再度お試しください。';
 $string['formerroremail'] = 'あなたの問題が続いている場合、%s より私たちにご連絡ください。';
-$string['blacklisteddomaininurl'] = 'このフィールドにはブラックリストに登録されたドメイン %s のURLが含まれています。';
+$string['denylisteddomaininurl'] = 'このフィールドのURLには拒否リストのドメイン %s を含みます。';
 $string['newuserscantpostlinksorimages1'] = '申し訳ございません、匿名または新しく登録された人によるリンクの投稿は許可されていません。リンクまたはURLを取り除くためあなたの投稿を書き換えて再度お試しください。';
 $string['notinstallable'] = 'インストール不可';
 $string['pluginnotinstallable'] = 'プラグイン %s %s はインストールできません:';
@@ -1163,13 +1163,10 @@ $string['missingparent'] = 'テーマ「 %s 」の親テーマ「 %s 」があ�
 $string['Hide2'] = '情報ボックスを隠す';
 $string['create'] = '作成';
 $string['createsubtitle'] = 'ポートフォリオを作成する';
-$string['createdetail'] = 'あなたのeポートフォリオを柔軟な個人学習環境で作成します。';
 $string['share'] = '共有';
 $string['sharesubtitle'] = 'プライバシーを管理する';
-$string['sharedetail'] = 'あなたが管理できるスペースで達成および進歩を共有します。';
 $string['engage'] = '参加';
 $string['engagesubtitle'] = '人を探してグループに参加する';
-$string['engagedetail'] = 'ディスカッションフォーラムで他の人と関わってグループで協働します。';
 $string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールできます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['blockinstanceownerchange'] = 'このブロックを編集して表示するコンテンツを選択します。';

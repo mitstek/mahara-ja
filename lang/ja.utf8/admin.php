@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-20 06:54:29 UTC
+ * @updated    2020-09-21 11:13:47 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -456,13 +456,13 @@ $string['skins'] = 'ページスキン';
 $string['skinsinstitutiondescription2'] = 'このインスティテューションのメンバーは自分のページに「スキン」を使用できます。';
 $string['smallviewheaders'] = 'スモールページヘッダ';
 $string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧および編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
-$string['spamhaus1'] = 'Spamhaus URLブラックリスト';
+$string['spamhaus2'] = 'Spamhaus URL拒否リスト';
 $string['spamhausdescription1'] = 'URLをSpamhaus DNSBLと照合します。';
 $string['staffaccessreports'] = 'スタッフによるレポートアクセス';
 $string['staffaccessreportsdescription1'] = 'サイトおよびインスティテューションスタッフがインスティテューションの「アカウント詳細」「ポートフォリオアクセス」および「マスカレーディングセッション」レポートにアクセスできるようにします。通常、このレポートは管理者に制限されます。';
 $string['institutionstaffallreports'] = 'インスティテューションスタッフのすべてのレポート';
 $string['institutionstaffallreportsdescription'] = 'インスティテューションスタッフがインスティテューションのすべてのレポートにアクセスできるようにします。通常、このレポートは管理者およびサイトスタッフに制限されます。';
-$string['surbl1'] = 'SURBL URLブラックリスト';
+$string['surbl2'] = 'SURBL URL拒否リスト';
 $string['surbldescription1'] = 'SURBL DNSBLを照合してURLをチェックします。';
 $string['disableexternalresources'] = 'HTMLの外部リソースを無効にする';
 $string['disableexternalresourcesdescription1'] = '作成者による別のホストからのイメージ等の埋め込みを防ぐため外部リソースの埋め込みを無効にします。';

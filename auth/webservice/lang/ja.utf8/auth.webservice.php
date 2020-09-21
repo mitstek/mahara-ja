@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-08 01:50:35 UTC
+ * @updated    2020-09-21 11:12:52 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -102,6 +102,7 @@ $string['emptyoauthkey'] = 'OAuth1.xにコンシューマキーを提供する�
 $string['emptyoauthsecret'] = 'OAuth1.xに秘密鍵を提供する必要があります。';
 $string['consumer'] = 'コンシューマキー';
 $string['secret'] = '秘密鍵';
+$string['deleteconnection'] = '接続オブジェクトを削除してもよろしいですか?';
 $string['control_webservices'] = 'ウェブサービスをOnまたはOffに切り替える:';
 $string['webservice_requester_enabled_label'] = 'ウェブサービスリクエスタマスタースイッチ';
 $string['webservice_requester_enabled_label2'] = '外向きのウェブサービスリクエストを許可する:';
