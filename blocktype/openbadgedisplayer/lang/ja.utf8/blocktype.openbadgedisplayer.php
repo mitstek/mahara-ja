@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-02 23:17:43 UTC
+ * @updated    2020-09-21 21:39:49 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -31,7 +31,7 @@ $string['nobackpack'] = 'バックパックが見つかりませんでした。<
 $string['nobadgegroups'] = 'パブリックバッジコレクション / バッジは見つかりませんでした。';
 $string['nobadgesselectone'] = '選択されたバッジはありません。';
 $string['nobackpackidin1'] = 'あなたのメールアドレス「 %s 」はサービス「 %s 」内に見つかりませんでした。';
-$string['nobadgegroupsin1'] = '次のサービス内にパブリックバッジコレクション / バッジは見つかりませんでした: %s (メールアドレス: %s)';
+$string['nobadgegroupsin1'] = '次のサービス内にパブリックバッジコレクションまたはバッジは見つかりませんでした: %s (メールアドレス: %s)';
 $string['confighelp'] = 'このブロックで表示するバッジコレクションを選択してください。<br />あなたのコレクションおよびバッジを管理するには次のサービスにアクセスしてください:<br />%s';
 $string['obppublicbadges'] = 'オープンバッジパスポート内すべてのパブリックバッジ';
 $string['title_backpack'] = 'Mozillaバックパック';
@@ -41,7 +41,7 @@ $string['fetchingbadges'] = 'エントリを取得しています。しばらく
 $string['missingbadgesources'] = 'ソース設定がありません。あなたのconfig.phpファイルに追加してください。例:
 <br />
 <br />
-$cfg->openbadgedisplayer_source = \'{"backpack":"https://backpack.openbadges.org/"}\'';
+$cfg->openbadgedisplayer_source = \'{"backpack":"https://backpack.provider.org/"}\'';
 $string['selectall'] = 'すべてを選択する';
 $string['selectnone'] = 'すべての選択を解除する';
 $string['deprecatedhost'] = '<p class="alert alert-warning">次のサービスからのバッジは廃止されたため表示されません: %s</p>';

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-21 11:13:47 UTC
+ * @updated    2020-09-21 21:53:06 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -169,7 +169,7 @@ $string['newfiltersdescription'] = 'あなたが一連の新しいHTMLフィル�
 $string['filtersinstalled'] = 'フィルタがインストールされました。';
 $string['nofiltersinstalled'] = 'インストールされたHTMLフィルタはありません。';
 $string['allowediframesites'] = '許可されるiframeソース';
-$string['iframesitesdescriptionshort'] = 'iframeで利用可能な外部コンテンツ埋め込みのホワイトリストです。';
+$string['iframesitesdescriptionshort'] = 'iframeで利用可能な外部コンテンツ埋め込みを許可します。';
 $string['allowediframesitesdescription'] = '人はHTML &lt;iframe&gt; エレメント内に以下の外部サイトからコンテンツを埋め込めます。これは一般的に他の場所で提供されているコンテンツを表示するため使用されます。許可されるサイト一覧はこのページで修正できます。';
 $string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、作成者にアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが、サイト内におけるiframeソーステキストのマッチングは許可されます。';
 $string['iframeurldescription'] = 'iframeソースURL (https:// なし) の先頭に合致するテキストです。半角英数字、「.」「/」「_」および「-」のみ許可されます。';
@@ -453,7 +453,7 @@ $string['siteoptionspagedescription'] = 'ここであなたははサイト全体
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['sitethemedescription'] = 'サイトのデフォルトテーマです。あなたのテーマがリストにない場合、エラーログを確認してください。';
 $string['skins'] = 'ページスキン';
-$string['skinsinstitutiondescription2'] = 'このインスティテューションのメンバーは自分のページに「スキン」を使用できます。';
+$string['skinsinstitutiondescription2'] = 'このインスティテューションのメンバーは自分のページにスキンを使用できます。';
 $string['smallviewheaders'] = 'スモールページヘッダ';
 $string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧および編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
 $string['spamhaus2'] = 'Spamhaus URL拒否リスト';
@@ -942,7 +942,7 @@ $string['licensedefaultmandatory'] = '作成者がライセンスの選択を要
 $string['Logo'] = 'ロゴ';
 $string['Logomobile'] = 'モバイルロゴ';
 $string['logodescription1'] = 'あなたのテーマのロゴとしてインスティテューションメンバーに表示されるイメージをここでアップロードできます。ロゴは利用可能なスペースに合わせてリサイズされます。';
-$string['logoxsdescription'] = 'あなたは大きなスペースがない場合にスモールデバイスで使用される2番目のロゴをアップロードできます。最良の結果のためロゴは正方形にしてください。';
+$string['logoxsdescription'] = 'あなたは大きなスペースがない場合にモバイルデバイスで使用される2番目のロゴをアップロードできます。最良の結果のためロゴは正方形にしてください。';
 $string['deletelogo'] = 'ロゴを削除する';
 $string['deletelogoxsmobile'] = 'モバイルロゴを削除する';
 $string['deletelogodescription2'] = 'あなたのインスティテューションテーマの標準的なヘッダロゴに戻します。';
@@ -979,7 +979,7 @@ $string['settingsfor'] = '設定:';
 $string['institutionmembers'] = 'インスティテューションメンバー';
 $string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
 $string['institutionmemberspagedescription'] = 'このページではあなたのインスティテューションにメンバーシップをリクエストした人を確認およびメンバーとして追加できます。また、あなたのインスティテューションから人を削除および招待できます。';
-$string['suspendordeletethisuser'] = 'この人を利用停止または削除する';
+$string['suspendordeletethisuser'] = 'このアカウントを利用停止または削除する';
 $string['institutionusersinstructionsrequesters2'] = '「 %1$s 」フィールドの一覧ではあなたのインスティテューションへの参加をリクエストした人すべてが表示されます。あなたは特定の人を探すため検索ボックスを使用できます。あなたがインスティテューションに人を追加したい場合、またはメンバーシップリクエストを拒否したい場合、最初に「 %1$s 」フィールドで選択して右矢印ボタンをクリックして「 %2$s 」フィールドに移動してください。「メンバーを追加する」ボタンにより「 %2$s 」フィールド内の人すべてをインスティテューションに追加します。「リンクエストを拒否する」ボタンにより「 %2$s 」フィールドに表示されているメンバーシップリクエストを削除します。';
 $string['institutionusersinstructionsnonmembers2'] = '「 %1$s 」フィールドの一覧ではまだあなたのインスティテューションのメンバーではない人すべてが表示されます。あなたは特定の人を探すため検索ボックスを使用できます。インスティテューションへの参加に人を招待したい場合、最初に「 %1$s 」フィールドで選択して右矢印ボタンをクリックして「 %2$s 」フィールドに移動してください。「人を招待する」ボタンにより「 %2$s 」フィールド内の人すべてに招待を送ります。これらの人は招待を受け入れるまであなたのインスティテューションと関連付けられません。サイト管理者には「メンバーを追加する」ボタンが表示され、すぐにインスティテューションに人を追加できます。';
 $string['institutionusersinstructionslastinstitution2'] = '「 %1$s 」フィールドの一覧ではまだあなたのインスティテューションのメンバーではなく、選択されたインスティテューションを離れた人すべてが表示されます。あなたは特定の人を探すため検索ボックスを使用できます。インスティテューションへの参加に人を招待したい場合、最初に「 %1$s 」フィールドで選択して右矢印ボタンをクリックして「 %2$s 」フィールドに移動してください。「人を招待する」ボタンにより「 %2$s 」フィールド内の人すべてに招待を送ります。これらの人は招待を受け入れるまであなたのインスティテューションと関連付けられません。サイト管理者には「メンバーを追加する」ボタンが表示され、すぐにインスティテューションに人を追加できます。';
