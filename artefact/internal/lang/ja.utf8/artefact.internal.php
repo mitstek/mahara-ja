@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-06-03 05:07:51 UTC
+ * @updated    2020-09-21 11:29:22 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -73,7 +73,7 @@ $string['occupation'] = '職業';
 $string['industry'] = '職種';
 $string['userroles'] = 'アカウントロール';
 $string['nospecialroles'] = 'span class="text-midtone">特別ロールなし</span>';
-$string['autogroupadmin'] = '自動グループ管理';
+$string['autogroupadmin'] = '自動グループ管理者';
 $string['name'] = '名称';
 $string['principalemailaddress'] = '主メールアドレス';
 $string['emailaddress'] = '代替メールアドレス';

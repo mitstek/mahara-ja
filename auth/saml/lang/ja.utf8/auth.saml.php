@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-16 20:57:13 UTC
+ * @updated    2020-09-21 11:30:46 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -98,7 +98,7 @@ $string['samlfieldforroleinststaff'] = '「インスティテューションス�
 $string['samlfieldfororganisationname'] = '組織のSSOフィールド';
 $string['populaterolestoallsaml'] = 'すべてのSAMLインスタンスにロールをコピーする';
 $string['populaterolestoallsamldescription'] = 'この設定が有効にされた場合、フォーム送信時にすべての「ロール」フィールドの値が同じアイデンティティプロバイダを使用する他のすべてのSAML認証インスタンスにコピーされます。その後、このフィールドは「No」にリセットされます。';
-$string['samlfieldforautogroups'] = '自動グループ管理のロール';
+$string['samlfieldforautogroups'] = '「自動グループ管理者」のロールマッピング';
 $string['samlfieldforautogroupsall'] = 'サイトのすべてのグループの自動グループ管理';
 $string['samlfieldforautogroupsalldescription'] = 'この設定を有効にした場合、「自動グループ管理」ロールを持つ人はサイト全体のすべてのグループのグループ管理者として追加されます。そうでない場合、自分のインスティテューション内のグループのグループ管理者として追加されます。';
 $string['samlfieldauthloginmsg'] = '不正ログインメッセージ';
