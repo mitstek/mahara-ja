@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-06-03 05:13:23 UTC
+ * @updated    2020-09-22 22:13:14 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -119,6 +119,7 @@ $string['nextpage'] = '次のページ';
 $string['prevpage'] = '前のページ';
 $string['viewingpage'] = 'あなたの現在地 - ページ';
 $string['navtopage'] = 'ページに移動する:';
+$string['pageincollectiontitle'] = 'このページはコレクション「 %s 」の一部です。';
 $string['overallcompletion'] = '承認および検証の全体的な完了状況';
 $string['progresscompletiondesc'] = 'このコレクションの先頭に「ポートフォリオ完了」ページを追加します。';
 $string['signedoff'] = '承認済み';
