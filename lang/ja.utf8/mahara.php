@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-21 11:15:27 UTC
+ * @updated    2020-09-24 08:37:58 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1162,9 +1162,9 @@ $string['choosetheme'] = 'テーマを選択する ...';
 $string['missingparent'] = 'テーマ「 %s 」の親テーマ「 %s 」がありません。';
 $string['Hide2'] = '情報ボックスを隠す';
 $string['create'] = '作成';
-$string['createsubtitle'] = 'ポートフォリオを作成する';
+$string['createsubtitle'] = 'あなたのポートフォリオを作成する';
 $string['share'] = '共有';
-$string['sharesubtitle'] = 'プライバシーを管理する';
+$string['sharesubtitle'] = 'あなたのプライバシーを管理する';
 $string['engage'] = '参加';
 $string['engagesubtitle'] = '人を探してグループに参加する';
 $string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールできます。';
