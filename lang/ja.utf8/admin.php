@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-29 23:47:29 UTC
+ * @updated    2020-10-01 05:11:31 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -612,18 +612,18 @@ $string['emailsmtphostsdescription'] = 'メール送信に使用するSMTPサー
 $string['emailsmtpport'] = 'SMTPポート';
 $string['emailsmtpportdescription'] = 'SMTPサーバが25とは異なるポートを使用する場合、ポート番号を指定してください。';
 $string['emailsmtpuser'] = 'ユーザ';
-$string['emailsmtpuserdescription'] = 'SMTPサーバに認証が必要な場合、対応するフィールドにアカウント認証情報を入力してください。';
+$string['emailsmtpuserdescription'] = 'SMTPサーバに認証が必要な場合、該当するフィールドにアカウント認証情報を入力してください。';
 $string['emailsmtppass'] = 'パスワード';
 $string['emailsmtpsecure'] = 'SMTP暗号化';
 $string['emailsmtpsecuredescription'] = 'SMTPサーバが暗号化をサポートする場合、ここで有効にしてください。';
 $string['emailsmtpsecuressl'] = 'SSL';
 $string['emailsmtpsecuretls'] = 'TLS';
 $string['emailnoreplyaddress'] = 'システムメールアドレス';
-$string['emailnoreplyaddressdescription'] = 'このメールアドレスからEメールが送信されることになります。';
+$string['emailnoreplyaddressdescription'] = 'このメールアドレスからメールが送信されます。';
 $string['internalnotificationexpire'] = '内部通知有効期限';
 $string['internalnotificationexpiredescription'] = '内部通知を保持する日数です。';
 $string['notificationsettings'] = '通知設定';
-$string['notificationsettingsdescription'] = 'ここであなたは新しいアカウント保持者が受信する通知のデフォルトオプションを設定できます。人はこれらの設定を自分の「設定 → 通知」ページでオーバーライドできます。<br />あなたがメールオプションのどちらを選択した場合でも通知は受信ボックスに到着しますが、自動的に既読としてマークされます。';
+$string['notificationsettingsdescription'] = 'ここであなたは新しいアカウント保持者が受信する通知のデフォルトオプションを設定できます。人はこれらの設定を自分の「設定 → 通知」ページでオーバーライドできます。<br />あなたがメールオプションのどちらを選択した場合でも通知は受信ボックスに到着しますが、自動的に既読マークされます。';
 $string['csvfile'] = 'CSVファイル';
 $string['emailusersaboutnewaccount'] = '人にアカウント情報をメール送信する';
 $string['emailusersaboutnewaccountdescription'] = 'この設定を有効にした場合、新しいアカウント詳細情報が人にメール送信されます。';
