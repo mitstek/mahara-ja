@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-17 00:51:43 UTC
+ * @updated    2020-10-04 22:12:56 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -54,6 +54,7 @@ $string['dbconnfailed'] = 'Maharaがアプリケーションデータベース�
 
 エラー内容は次のとおりです:';
 $string['dbnotutf8'] = 'あなたはUTF-8データベースを使用していません。Maharaではすべてのデータを内部にUTF-8で保存します。あなたのデータベースをドロップしてUTF-8エンコーディングを使用するよう再作成してください。';
+$string['dbnotutf8mb4'] = 'あなたはutf8mb4文字セット (4バイト UTF-8ユニコードエンコーディング) データベースを使用していません。Maharaは内部的にすべてのデータをutf8mb4として保存します。あなたのデータベースを削除した後、utf8mb4エンコーディングで再作成してください。';
 $string['dbversioncheckfailed'] = 'あなたのデータベースサーバのバージョンはMaharaを正常に動作させるのに十分な新しいバージョンではありません。あなたのサーバは %s %s ですが、Maharaは少なくともバージョン %s を必要とします。';
 $string['plpgsqlnotavailable'] = 'あなたのPostgresインストレーションではPL/pgSQL言語が有効にされていません。そのためMaharaでもPL/pgSQL言語を有効にすることはできません。あなたのデータベースに手動でPL/pgSQLをインストールしてください。この作業のインストラクションに関して次をご覧ください: https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Enabling_Plpgsql';
 $string['mysqlnotriggerprivilege'] = 'Maharaではデータベーストリガを作成するパーミッションを必要とします。しかし、データベーストリガを作成できません。あなたのMySQLインストレーション内の適切なユーザにトリガ権限が割り当てられていることを確認してください。この作業のインストラクションに関して次をご覧ください: https://wiki.mahara.org//wiki/System_Administrator%27s_Guide/Granting_Trigger_Privilege';
