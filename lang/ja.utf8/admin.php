@@ -188,7 +188,7 @@ $string['csvfiledescription'] = '追加するユーザを含むファイル';
 $string['uploadcsverrorinvalidfieldname'] = 'フィールド名「 %s 」が無効です。';
 $string['uploadcsverrorrequiredfieldnotspecified'] = '必須フィールド「 %s 」がフォーマット行で指定されていません。';
 $string['uploadcsverrornorecords'] = 'ファイルにレコードが含まれていないようです (ヘッダに問題はありません)。';
-$string['uploadcsverrorunspecifiedproblem'] = '何らかの理由によりあなたのCSVファイルのレコードを追加できませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href="https://eduforge.org/tracker/?func=add&group_id=176&atid=739">バクレポートを作成してください</a> (パスワードは空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
+$string['uploadcsverrorunspecifiedproblem'] = '何らかの理由によりあなたのCSVファイルのレコードを追加できませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href="https://eduforge.org/tracker/?func=add&group_id=176&atid=739">バクレポートを作成してください</a> (忘れずにパスワードを空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
 $string['uploadcsverrorinvalidemail'] = 'あなたのファイルの %s 行目にエラーがあります: このユーザのメールアドレスは正しい形式ではありません。';
 $string['uploadcsverrorincorrectnumberoffields'] = 'あなたのファイルの %s 行目にエラーがあります: この行には正しい数のフィールドが含まれていません。';
 $string['uploadcsverrorinvalidpassword'] = 'あなたのファイルの %s 行目にエラーがあります: このユーザのパスワードは正しい形式ではありません。';
