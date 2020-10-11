@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-10-07 04:49:26 UTC
+ * @updated    2020-10-11 05:44:05 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -643,10 +643,10 @@ $string['uploadcsverrorrequiredfieldnotspecified'] = '必須フィールド「 %
 $string['uploadcsverrornorecords'] = 'ファイルにレコードが含まれていないようです (ヘッダに問題はありません)。';
 $string['uploadcsverrorunspecifiedproblem1'] = '何らかの理由によりあなたのCSVファイルのレコードを追加できませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href="https://bugs.launchpad.net/mahara/+filebug">バクレポートを作成してください</a> (忘れずにパスワードを空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
 $string['uploadcsverrorwrongnumberoffields'] = 'あなたのファイルの %s 行目にエラーがあります: フィールド数が正しくありません。';
-$string['uploadcsverrorinvalidemail'] = 'あなたのファイルの %s 行目にエラーがあります: この人のメールアドレスは正しい形式ではありません。';
+$string['uploadcsverrorinvalidemail'] = 'あなたのファイルの %s 行目にエラーがあります: この人のメールアドレスは正しいフォーマットではありません。';
 $string['uploadcsverrorincorrectnumberoffields'] = 'あなたのファイルの %s 行目にエラーがあります: この行には正しい数のフィールドが含まれていません。';
 $string['uploadcsverrorinvalidpassword1'] = 'あなたのファイルの %s 行目にエラーがあります: %s';
-$string['uploadcsverrorinvalidusername'] = 'あなたのファイルの %s 行目にエラーがあります: この人のユーザ名は正しい形式ではありません。';
+$string['uploadcsverrorinvalidusername'] = 'あなたのファイルの %s 行目にエラーがあります: この人のユーザ名は正しいフォーマットではありません。';
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には必須の「 %s 」フィールドが含まれていません。';
 $string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」はすでに存在します。';
 $string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」はすでに他の人により取得されています。';

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-25 02:19:35 UTC
+ * @updated    2020-10-11 05:41:48 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -63,7 +63,7 @@ $string['rule.integer.integer'] = 'フィールドは整数にしてください
 $string['rule.maxlength.maxlength'] = 'このフィールドは最大半角 %d 文字にしてください。修正するか、複数インスタンスに分割してください。';
 $string['rule.minlength.minlength'] = 'このフィールドは少なくとも半角 %d 文字にしてください';
 $string['rule.minvalue.minvalue'] = 'この値は %d 以下にすることはできません';
-$string['rule.regex.regex'] = 'このフィールドは正しい形式ではありません';
+$string['rule.regex.regex'] = 'このフィールドは有効な型ではありません。';
 $string['rule.required.required'] = 'このフィールドは必須です。';
 $string['rule.oneof.oneof'] = 'このグループのフィールドの1つは必須です。';
 $string['rule.safetext.invalidchars'] = 'このフィールドには無効な文字があります。';
