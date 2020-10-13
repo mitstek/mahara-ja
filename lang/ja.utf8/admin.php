@@ -619,7 +619,7 @@ $string['uploadcsverrorremoteusertaken'] = 'このファイルの %s 行目で�
 $string['uploadcsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ「 %s 」はインスティテューション「 %s 」のメンバーではありません。';
 $string['uploadcsverroruserinaninstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ「 %s 」は次のインスティテューションのメンバーです: %s あなたはこのユーザの認証方法を「No Institution」に変更することはできません。';
 $string['uploadcsverrorinvalidexpirydate'] = 'あなたのファイルの %s 行目にエラーがあります: 有効期限「 %s 」が無効です。有効な日付フォーマットを使用してください。';
-$string['uploadcsverrorexpirydateinpast'] = 'あなたのファイルの %s 行目にエラーがあります: 有効期限「 %s 」を過去にすることはできません。';
+$string['uploadcsverrorexpirydateinpast'] = 'あなたのファイルの %s 行目にエラーがあります: 有効期限「 %s 」を過去にはできません。';
 $string['uploadcsvpagedescription6'] = '<p>ここであなたは<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードできます。</p>
 
 <p>あなたのCSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば以下のようになります:</p>
@@ -647,9 +647,9 @@ $string['uploadgroupcsverrorinvalidshortname'] = 'あなたのファイルの %s
 $string['uploadgroupcsverrorshortnamemissing'] = 'あなたのファイルの %s 行目に誤りがあります: 省略名「 %s 」のグループは存在しません。';
 $string['uploadgroupcsverrorinvalidgrouptype'] = 'あなたのファイルの %s 行目に誤りがあります: グループタイプ (grouptype) 「 %s 」が有効ではありません。';
 $string['uploadgroupcsverrorinvalideditroles'] = 'あなたのファイルの %s 行目に誤りがあります: 編集ロール (editroles) 「 %s 」が有効ではありません。';
-$string['uploadgroupcsverrorshortnamealreadytaken1'] = 'あなたのファイルの %s 行目に誤りがあります: 省略名「 %s 」はすでに取得されています。有効な代替は「 %s 」です。';
+$string['uploadgroupcsverrorshortnamealreadytaken1'] = 'あなたのファイルの %s 行目に誤りがあります: 省略名「 %s 」 (shortname) はすでに取得されています。有効な代替は「 %s 」です。';
 $string['uploadgroupcsverrorusernamesnotlastfield'] = '「usernames」フィールドはヘッダの最終フィールドにしてください。';
-$string['uploadgroupcsverroropencontrolled'] = '%s 行目: グループにはオープンおよび管理メンバーシップの両方を設定することはできません。';
+$string['uploadgroupcsverroropencontrolled'] = '%s 行目: グループにオープンおよび管理メンバーシップの両方は設定できません。';
 $string['uploadgroupcsverroropenrequest'] = '%s 行目: オープンメンバーシップのグループにメンバーシップのリクエストを許可することはできません。';
 $string['uploadgroupcsverrorviewnotifyrequest'] = '行 %s: viewnotifyの値は %s-%s の間の数字にしてください。';
 $string['uploadgroupcsverrordoesnotallowgroupcategory1'] = '行 %s: このサイトではグループカテゴリを許可していません。あなたがグループカテゴリを使用したい場合、サイト管理者は「管理エリア → グループ → グループカテゴリ」で有効にできます。';
