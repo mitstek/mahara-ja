@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-10-04 22:12:34 UTC
+ * @updated    2020-10-15 09:39:46 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1138,6 +1138,8 @@ $string['userreports'] = '人レポート';
 $string['userreportsdescription'] = 'あなたが検索ページで選択したアカウントに関する情報を表示またはダウンロードします。';
 $string['unabletodeleteself1'] = 'あなた自身を削除することはできません。';
 $string['unabletodeletealladmins1'] = 'あなたはサイト管理者すべてを削除することはできません。';
+$string['unabletosuspendself'] = 'あなた自身を利用停止できません。';
+$string['unabletosuspendalladmins'] = 'あなたはすべてのサイト管理者を利用停止できません。';
 $string['notificationssaved'] = '通知設定が保存されました。';
 $string['onlyshowingfirst'] = '最初に表示する';
 $string['resultsof'] = '検索結果';
