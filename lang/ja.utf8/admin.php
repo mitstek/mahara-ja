@@ -5,8 +5,8 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-12-12 04:32:05 UTC
- * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
+ * @updated    2020-10-18 01:54:21 UTC
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
@@ -625,13 +625,13 @@ $string['uploadcsverrorusernotininstitution'] = 'あなたのファイルの %s 
 $string['uploadcsverroruserinaninstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ「 %s 」は次のインスティテューションのメンバーです: %s あなたはこのユーザの認証方法を「No Institution」に変更することはできません。';
 $string['uploadcsverrorinvalidexpirydate'] = 'あなたのファイルの %s 行目にエラーがあります: 有効期限「 %s 」が無効です。有効な日付フォーマットを使用してください。';
 $string['uploadcsverrorexpirydateinpast'] = 'あなたのファイルの %s 行目にエラーがあります: 有効期限「 %s 」を過去にはできません。';
-$string['uploadcsvpagedescription6'] = '<p>ここであなたは<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードできます。</p>
+$string['uploadcsvpagedescription6'] = '<p>ここであなたは<acronym title="Comma Separated Values">CSV</acronym>ファイルをアップロードして新しいアカウントを作成できます。</p>
 
 <p>あなたのCSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば以下のようになります:</p>
 
 <pre>username,password,email,firstname,lastname,studentid</pre>
 
-<p>あなたが新しいユーザを作成する場合、この行には以下のフィールドを含む必要があります:</p>
+<p>あなたが新しいアカウントを作成する場合、この行には以下のフィールドを含む必要があります:</p>
 <ul class="fieldslist">
 <li>username</li>
 <li>firstname</li>
@@ -640,7 +640,7 @@ $string['uploadcsvpagedescription6'] = '<p>ここであなたは<acronym title="
 <li>password</li>
 </ul>
 
-<p>既存のユーザを更新する場合、あなたは「password」を除外できます。</p>
+<p>既存のアカウントを更新する場合、あなたは「password」フィールドを省略できます。</p>
 
 <p>あなたのCSVファイルには初期値を事前設定するための他のプロファイルフィールドを含めます。任意フィールドは以下のとおりです:</p>
 
