@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-10-15 02:25:45 UTC
+ * @updated    2020-10-18 01:49:00 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -672,11 +672,11 @@ $string['uploadcsvpagedescription7'] = '<p>ここであなたは<acronym title="
 <li>password</li>
 </ul>
 
-<p>既存のアカウントを更新する場合、あなたは「password」フィールドを除外できます。</p>
+<p>既存のアカウントを更新する場合、あなたは「password」フィールドを省略できます。</p>
 
 <p>あなたのCSVファイルには初期値を事前設定するための他のプロファイルフィールドを含めます。任意フィールドは以下のとおりです:</p>
 
-%s\'';
+%s';
 $string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれる行が多すぎます。あなたは %s 以上含めません。';
 $string['uploadcsverrordatamustbenumeric'] = '行 %s: categoryの値は数字にしてください。';
 $string['uploadgroupcsverrordisplaynamealreadyexists'] = 'あなたのファイルの %s 行目に誤りがあります: 表示名「 %s 」はすでに存在します。';
