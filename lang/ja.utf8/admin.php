@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-10-18 01:49:00 UTC
+ * @updated    2020-10-22 09:08:53 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -679,12 +679,12 @@ $string['uploadcsvpagedescription7'] = '<p>ここであなたは<acronym title="
 %s';
 $string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれる行が多すぎます。あなたは %s 以上含めません。';
 $string['uploadcsverrordatamustbenumeric'] = '行 %s: categoryの値は数字にしてください。';
-$string['uploadgroupcsverrordisplaynamealreadyexists'] = 'あなたのファイルの %s 行目に誤りがあります: 表示名「 %s 」はすでに存在します。';
-$string['uploadgroupcsverrorinvalidshortname'] = 'あなたのファイルの %s 行目に誤りがあります: グループ省略名 (shortname) 「 %s 」が有効ではありません。';
-$string['uploadgroupcsverrorshortnamemissing'] = 'あなたのファイルの %s 行目に誤りがあります: 省略名「 %s 」のグループは存在しません。';
-$string['uploadgroupcsverrorinvalidgrouptype'] = 'あなたのファイルの %s 行目に誤りがあります: グループタイプ (grouptype) 「 %s 」が有効ではありません。';
-$string['uploadgroupcsverrorinvalideditroles'] = 'あなたのファイルの %s 行目に誤りがあります: 編集ロール (editroles) 「 %s 」が有効ではありません。';
-$string['uploadgroupcsverrorshortnamealreadytaken1'] = 'あなたのファイルの %s 行目に誤りがあります: 省略名「 %s 」 (shortname) はすでに取得されています。有効な代替は「 %s 」です。';
+$string['uploadgroupcsverrordisplaynamealreadyexists'] = 'あなたのファイルの %s 行目にエラーがあります: 表示名「 %s 」はすでに存在します。';
+$string['uploadgroupcsverrorinvalidshortname'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname) 「 %s 」が有効ではありません。';
+$string['uploadgroupcsverrorshortnamemissing'] = 'あなたのファイルの %s 行目にエラーがあります: 省略名「 %s 」のグループは存在しません。';
+$string['uploadgroupcsverrorinvalidgrouptype'] = 'あなたのファイルの %s 行目にエラーがあります: グループタイプ (grouptype) 「 %s 」が有効ではありません。';
+$string['uploadgroupcsverrorinvalideditroles'] = 'あなたのファイルの %s 行目にエラーがあります: 編集ロール (editroles) 「 %s 」が有効ではありません。';
+$string['uploadgroupcsverrorshortnamealreadytaken1'] = 'あなたのファイルの %s 行目にエラーがあります: 省略名「 %s 」 (shortname) はすでに取得されています。有効な代替は「 %s 」です。';
 $string['uploadgroupcsverrorusernamesnotlastfield'] = '「usernames」フィールドはヘッダの最終フィールドにしてください。';
 $string['uploadgroupcsverroropencontrolled'] = '%s 行目: グループにオープンおよび管理メンバーシップの両方は設定できません。';
 $string['uploadgroupcsverroropenrequest'] = '%s 行目: オープンメンバーシップのグループにメンバーシップのリクエストを許可することはできません。';
@@ -708,12 +708,12 @@ $string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能によ�
 %s';
 $string['uploadgroupcsveditrolesdescription'] = '<p>editrolesフィールドには次のいずれかを含めます: %s</p>
 %s';
-$string['uploadgroupmemberscsverrorduplicateusername'] = 'あなたのファイルの %s 行目に誤りがあります: グループ省略名 (shortname)「 %s 」およびユーザ名 (username)「 %s 」はすでにこのファイルで指定されています。';
-$string['uploadgroupmemberscsverrorinvalidrole'] = 'あなたのファイルの %s 行目に誤りがあります: 指定されたグループに対してロール「 %s 」は有効ではありません。';
-$string['uploadgroupmemberscsverrornoadminlisted'] = 'あなたのファイルの %s 行目に誤りがあります: グループ省略名 (shortname)「 %s 」にはロール「admin」を指定されたグループメンバーがありません。';
-$string['uploadgroupmemberscsverrornosuchshortname'] = 'あなたのファイルの %s 行目に誤りがあります: グループ省略名 (shortname)「 %s 」が存在しないかインスティテューション「 %s 」に属していません。';
-$string['uploadgroupmemberscsverrornosuchusername'] = 'あなたのファイルの %s 行目に誤りがあります: ユーザ名 (username)「 %s 」は存在しません。';
-$string['uploadgroupmemberscsverrorusernotininstitution'] = 'あなたのファイルの %s 行目に誤りがあります: ユーザ名 (username)「 %s 」はインスティテューション「 %s 」に属していません。';
+$string['uploadgroupmemberscsverrorduplicateusername'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname)「 %s 」およびユーザ名 (username)「 %s 」はすでにこのファイルで指定されています。';
+$string['uploadgroupmemberscsverrorinvalidrole'] = 'あなたのファイルの %s 行目にエラーがあります: 指定されたグループに対してロール「 %s 」は有効ではありません。';
+$string['uploadgroupmemberscsverrornoadminlisted'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname)「 %s 」にはロール「admin」を指定されたグループメンバーがありません。';
+$string['uploadgroupmemberscsverrornosuchshortname'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname)「 %s 」が存在しないかインスティテューション「 %s 」に属していません。';
+$string['uploadgroupmemberscsverrornosuchusername'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ名 (username)「 %s 」は存在しません。';
+$string['uploadgroupmemberscsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ名 (username)「 %s 」はインスティテューション「 %s 」に属していません。';
 $string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用してこのインスティテューションで管理されるグループ内のグループメンバーを更新できます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば以下のようになります:</p>
