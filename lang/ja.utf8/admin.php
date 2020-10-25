@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-10-22 09:08:53 UTC
+ * @updated    2020-10-25 05:52:48 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -677,17 +677,17 @@ $string['uploadcsvpagedescription7'] = '<p>ここであなたは<acronym title="
 <p>あなたのCSVファイルには初期値を事前設定するための他のプロファイルフィールドを含めます。任意フィールドは以下のとおりです:</p>
 
 %s';
-$string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれる行が多すぎます。あなたは %s 以上含めません。';
+$string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれる行が多すぎます。あなたのファイルに %s 以上含めません。';
 $string['uploadcsverrordatamustbenumeric'] = '行 %s: categoryの値は数字にしてください。';
 $string['uploadgroupcsverrordisplaynamealreadyexists'] = 'あなたのファイルの %s 行目にエラーがあります: 表示名「 %s 」はすでに存在します。';
 $string['uploadgroupcsverrorinvalidshortname'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname) 「 %s 」が有効ではありません。';
-$string['uploadgroupcsverrorshortnamemissing'] = 'あなたのファイルの %s 行目にエラーがあります: 省略名「 %s 」のグループは存在しません。';
+$string['uploadgroupcsverrorshortnamemissing'] = 'あなたのファイルの %s 行目にエラーがあります:グループ省略名 (shortname) 「 %s 」のグループは存在しません。';
 $string['uploadgroupcsverrorinvalidgrouptype'] = 'あなたのファイルの %s 行目にエラーがあります: グループタイプ (grouptype) 「 %s 」が有効ではありません。';
 $string['uploadgroupcsverrorinvalideditroles'] = 'あなたのファイルの %s 行目にエラーがあります: 編集ロール (editroles) 「 %s 」が有効ではありません。';
 $string['uploadgroupcsverrorshortnamealreadytaken1'] = 'あなたのファイルの %s 行目にエラーがあります: 省略名「 %s 」 (shortname) はすでに取得されています。有効な代替は「 %s 」です。';
 $string['uploadgroupcsverrorusernamesnotlastfield'] = '「usernames」フィールドはヘッダの最終フィールドにしてください。';
 $string['uploadgroupcsverroropencontrolled'] = '%s 行目: グループにオープンおよび管理メンバーシップの両方は設定できません。';
-$string['uploadgroupcsverroropenrequest'] = '%s 行目: オープンメンバーシップのグループにメンバーシップのリクエストを許可することはできません。';
+$string['uploadgroupcsverroropenrequest'] = '%s 行目: オープンメンバーシップのグループにメンバーシップのリクエストは許可できません。';
 $string['uploadgroupcsverrorviewnotifyrequest'] = '行 %s: viewnotifyの値は %s-%s の間の数字にしてください。';
 $string['uploadgroupcsverrordoesnotallowgroupcategory1'] = '行 %s: このサイトではグループカテゴリを許可していません。あなたがグループカテゴリを使用したい場合、サイト管理者は「管理エリア → グループ → グループカテゴリ」で有効にできます。';
 $string['uploadgroupcsverrorcategorydoesnotexist'] = '行 %s: カテゴリ「 %s 」が存在しません。';
