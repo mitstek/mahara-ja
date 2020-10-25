@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-10-25 05:52:48 UTC
+ * @updated    2020-10-25 22:00:19 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -992,7 +992,7 @@ $string['editadmins'] = '管理者を編集する';
 $string['membershipexpiry'] = 'メンバーシップ有効期限';
 $string['membershipexpirydescription'] = '人がインスティテューションから自動的に削除される日付です。';
 $string['studentid'] = 'IDナンバー';
-$string['institutionstudentiddescription'] = 'インスティテューションを識別するための任意の識別子です。インスティテューションメンバーはこのフィールドを編集できません。';
+$string['institutionstudentiddescription'] = 'インスティテューション固有の任意の識別子です。インスティテューションメンバーはこのフィールドを編集できません。';
 $string['userstodisplay'] = '表示する人:';
 $string['institutionusersrequesters'] = 'インスティテューションのメンバーシップをリクエストした人';
 $string['institutionusersnonmembers'] = 'まだインスティテューションのメンバーシップをリクエストしていない人';
