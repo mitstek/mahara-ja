@@ -710,7 +710,7 @@ $string['uploadgroupcsveditrolesdescription'] = '<p>editrolesフィールドに�
 %s';
 $string['uploadgroupmemberscsverrorduplicateusername'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname)「 %s 」およびユーザ名 (username)「 %s 」はすでにこのファイルで指定されています。';
 $string['uploadgroupmemberscsverrorinvalidrole'] = 'あなたのファイルの %s 行目にエラーがあります: 指定されたグループに対してロール「 %s 」は有効ではありません。';
-$string['uploadgroupmemberscsverrornoadminlisted'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname)「 %s 」にはロール「admin」を指定されたグループメンバーがありません。';
+$string['uploadgroupmemberscsverrornoadminlisted'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname)「 %s 」にはロール「admin」を指定されたグループメンバーがいませんでした。';
 $string['uploadgroupmemberscsverrornosuchshortname'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname)「 %s 」が存在しないかインスティテューション「 %s 」に属していません。';
 $string['uploadgroupmemberscsverrornosuchusername'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ名 (username)「 %s 」は存在しません。';
 $string['uploadgroupmemberscsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ名 (username)「 %s 」はインスティテューション「 %s 」に属していません。';
@@ -727,7 +727,7 @@ $string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能�
 <p>roleフィールドにはグループタイプに応じて次の設定値を使用できます: <tt>admin</tt>、<tt>member</tt>または<tt>tutor</tt></p>
 
 <div class="warning">すべてのCSVファイルアップロードによりグループ管理者を含む既存のすべてのグループメンバーが完全に削除されます。あなたのCSVファイル内に少なくとも1名の管理者が存在することを確認してください。</div>';
-$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部の人にメールを送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらの人に手動で連絡してください:';
+$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部の人にメールを送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらの人には手動で連絡してください:';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内の人が多過ぎるため誰も追加されませんでした。許可されたインスティテューションの最大数をメンバー数が超過しました。';
 $string['updateusers'] = 'アカウントを更新する';
 $string['updateusersdescription'] = 'あなたのCSVファイルに指定したインスティテューションのメンバーのユーザ名の人が含まれている場合、その人の詳細がファイルのデータにより上書きされることになります。注意して使用してください。';
