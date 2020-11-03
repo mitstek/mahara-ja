@@ -646,7 +646,7 @@ $string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある�
 &nbsp;&nbsp;nigel,mahara-export-leap-user1-1266458159.zip
 </pre>
 <p>上記、mahara-export-leap-user8-1265165366.zipおよびmahara-export-leap-user1-1266458159.zipはusersと呼ばれるサブディレクトリ内にあるファイルです。</p>
-<p>通常、このZIPファイルはMaharaに実装されているバルクエクスポートを使用して生成されます。</p>
+<p>通常、このこのZIPファイルはMaharaに実装されているバルクエクスポートを使用して生成されます。</p>
 <p>あなたが多くのユーザをインポートする場合、注意してください。インポート処理に長時間を要する場合があります。</p>';
 $string['importfile'] = 'バルクエクスポートファイル';
 $string['importfilemissinglisting'] = 'バルクエクスポートファイルのファイル名が「usernames.csv」ではありません。これらのユーザをエクスポートするためあなたはMaharaバルクエクスポータを使用しましたか?';
