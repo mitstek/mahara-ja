@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-06-11 13:37:00 UTC
+ * @updated    2020-11-04 02:10:58 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,8 +20,8 @@ $string['cronlockhoursdescription'] = 'cronプロセスを実行する最大時�
 $string['hourstoconsiderelasticsearchrecordold'] = 'Elasticsearchキューを古いとみなす時間';
 $string['hourstoconsiderelasticsearchrecordolddescription'] = 'Elasticsearchレコードに注目する前に未処理のまま存続できる時間数です。';
 $string['monitormodulenotactive'] = 'モニタプラグインは有効ではありません。「管理メニュー」 → 「拡張機能」 → 「プラグイン管理」ページに移動してプラグインをインストールまたは有効にしてください。';
-$string['allowedips'] = '許可されるIP';
-$string['allowedipsdescription'] = 'レスポンスをモニタするため、安全なIPアドレスを1行あたり1件入力してください。空白のままにした場合、そして、「$cfg->urlsecret」が設定されている場合、モニタは「$cfg->urlsecret」に制限されます。';
+$string['allowedips'] = '許可されるIPアドレス';
+$string['allowedipsdescription'] = 'レスポンスをモニタするため、信頼できるIPアドレスを1行あたり1件入力してください。空白のままにした場合、そして、「$cfg->urlsecret」が設定されている場合、モニタは「$cfg->urlsecret」に制限されます。';
 $string['accessdeniednotvalidip'] = 'あなたのIPアドレス「 %s 」は許可されたIPリストにありません。あなたはモニタのチェックからブロックされます:';
 $string['croncheckhelp'] = 'どのcronプロセスが長時間実行されているか特定します。
 
@@ -73,20 +73,20 @@ $string['ldapstatusmessage'] = 'ステータス詳細';
 $string['ldapstatustabletitle'] = 'LDAPステータス';
 $string['statussuccess'] = 'OK';
 $string['statusfail'] = '失敗';
-$string['ldapsuspendedusers'] = 'LDAP一時停止ユーザ';
-$string['ldapsuspendeduserstabletitle'] = '午前零時以降、LDAPユーザ同期により一時停止にできるLDAPユーザの割合';
-$string['ldapsuspendeduserspercentage'] = 'LDAP一時停止ユーザの割合';
-$string['ldapsuspendeduserspercentagedescription'] = '問題であるとフラグ付けされる前、午前零時以降、LDAPユーザ同期により一時停止にできるユーザの最大割合です。';
+$string['ldapsuspendedusers'] = 'LDAP一時停止アカウント';
+$string['ldapsuspendeduserstabletitle'] = '午前零時以降、LDAPアカウント同期により一時停止にできるLDAPアカウントの割合';
+$string['ldapsuspendeduserspercentage'] = 'LDAP一時停止アカウントの割合';
+$string['ldapsuspendeduserspercentagedescription'] = '問題であるとフラグ付けされる前、午前零時以降、LDAPアカウント同期により一時停止にできるアカウントの最大割合です。';
 $string['item'] = 'アイテム';
 $string['status'] = 'ステータス';
 $string['details'] = '詳細';
-$string['ldapsuspendeduserscheckhelp'] = 'LDAPユーザ同期プロセスで一時停止にされた大量のLDAPユーザをチェックします。
+$string['ldapsuspendeduserscheckhelp'] = 'LDAPアカウント同期プロセスで一時停止にされた大量のLDAPアカウントをチェックします。
 
 ldapsuspendeduserscheck.php [オプション] mahara_path
 
 オプション:
 -h, --help このヘルプを表示します。';
-$string['checkingldapsuspendedusersssucceed'] = 'OK: 一時停止ユーザ警告閾値を越えた %s のLDAPインスタンスはありません。';
-$string['checkingldapsuspendedusersfail'] = 'クリティカル: 一時停止ユーザ警告閾値を越えた %s のLDAPインスタンスがあります: %s';
+$string['checkingldapsuspendedusersssucceed'] = 'OK: 一時停止アカウント警告閾値を越えた %s のLDAPインスタンスはありません。';
+$string['checkingldapsuspendedusersfail'] = 'クリティカル: 一時停止アカウント警告閾値を越えた %s のLDAPインスタンスがあります: %s';
 
 ?>
