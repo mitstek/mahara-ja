@@ -760,9 +760,9 @@ import.zip<br />
 <p>通常、このZIPファイルはMaharaに実装されているバルクエクスポートを使用して生成されます。</p>
 <p>あなたが多くのアカウントをインポートする場合、注意してください。インポート処理に長時間を要する場合があります。</p>';
 $string['importfile'] = 'バルクエクスポートファイル';
-$string['importfilemissinglisting'] = 'バルクエクスポートファイルのファイル名が「usernames.csv」ではありません。これらのアカウントをエクスポートするためあなたはMaharaバルクエクスポータを使用しましたか?';
+$string['importfilemissinglisting'] = 'ファイル名「usernames.csv」のバルクエクスポートファイルがありません。これらのアカウントをエクスポートするためあなたはMaharaバルクエクスポータを使用しましたか?';
 $string['importfilenotafile'] = '送信中にエラーが発生しました: ファイルを認識できませんでした。';
-$string['importfilenotreadable'] = 'Leap2Aファイル %s を読むことができません。';
+$string['importfilenotreadable'] = 'Leap2Aファイル %s を読めません。';
 $string['bulkleap2aimportfiledescription1'] = 'あなたのサーバのZIPファイルにはエクスポートされたアカウントすべて (Leap2Aフォーマット) およびユーザ名のCSVリストが含まれます。例)「/home/example/data/import.zip」';
 $string['importednuserssuccessfully'] = '%d / %d のアカウントを正常にインポートしました。';
 $string['Import'] = 'インポート';
