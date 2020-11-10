@@ -730,7 +730,7 @@ import.zip<br />
 $string['importfile'] = 'バルクエクスポートファイル';
 $string['importfilemissinglisting'] = 'ファイル名「usernames.csv」のバルクエクスポートファイルがありません。これらのユーザをエクスポートするためあなたはMaharaバルクエクスポータを使用しましたか?';
 $string['importfilenotafile'] = '送信中にエラーが発生しました: ファイルを認識できませんでした。';
-$string['importfilenotreadable'] = 'Leap2Aファイル %s を読めません。';
+$string['importfilenotreadable'] = 'Leap2Aファイル %s を読み込めません。';
 $string['bulkleap2aimportfiledescription1'] = 'あなたのサーバのZIPファイルにはエクスポートされたユーザすべて (Leap2Aフォーマット) およびユーザ名のCSVリストが含まれます。例)「/home/example/data/import.zip」';
 $string['importednuserssuccessfully'] = '%d / %d のユーザを正常にインポートしました。';
 $string['Import'] = 'インポート';
