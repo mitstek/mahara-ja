@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-11-09 00:39:05 UTC
+ * @updated    2020-11-10 01:23:14 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -762,8 +762,8 @@ import.zip<br />
 $string['importfile'] = 'バルクエクスポートファイル';
 $string['importfilemissinglisting'] = 'ファイル名「usernames.csv」のバルクエクスポートファイルがありません。これらのアカウントをエクスポートするためあなたはMaharaバルクエクスポータを使用しましたか?';
 $string['importfilenotafile'] = '送信中にエラーが発生しました: ファイルを認識できませんでした。';
-$string['importfilenotreadable'] = 'Leap2Aファイル %s を読めません。';
-$string['bulkleap2aimportfiledescription1'] = 'あなたのサーバのZIPファイルにはエクスポートされたアカウントすべて (Leap2Aフォーマット) およびユーザ名のCSVリストが含まれます。例)「/home/example/data/import.zip」';
+$string['importfilenotreadable'] = 'Leap2Aファイル %s を読み込めません。';
+$string['bulkleap2aimportfiledescription1'] = 'あなたのサーバにあるエクスポートされたアカウントすべて (Leap2Aフォーマット) およびユーザ名のCSVリストを含むZIPファイルのパスを入力してください。例)「/home/example/data/import.zip」';
 $string['importednuserssuccessfully'] = '%d / %d のアカウントを正常にインポートしました。';
 $string['Import'] = 'インポート';
 $string['bulkimportdirdoesntexist'] = 'ディレクトリ %s が存在しません。';
