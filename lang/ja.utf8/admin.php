@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-11-15 06:05:48 UTC
+ * @updated    2020-11-16 22:26:36 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -795,7 +795,7 @@ $string['suspendeduserstitle'] = '利用停止および有効期限切れアカ�
 $string['suspendedusers'] = '利用停止された人';
 $string['suspensionreason'] = '利用停止理由';
 $string['errorwhilesuspending'] = '利用停止中にエラーが発生しました。';
-$string['suspendedusersdesc'] = '利用停止および有効期限切れアカウントを表示して復活または削除します。';
+$string['suspendedusersdesc'] = '利用停止および有効期限切れアカウントを表示して再有効化または削除します。';
 $string['unsuspendusers'] = '人の利用停止を解除する';
 $string['usersdeletedsuccessfully'] = 'アカウントが正常に削除されました。';
 $string['usersunsuspendedsuccessfully'] = '人の利用停止が正常に解除されました。';
@@ -805,8 +805,8 @@ $string['userunsuspended'] = '人の利用停止が解除されました。';
 $string['expiredusers'] = '有効期限切れアカウント';
 $string['expired'] = '有効期限切れ';
 $string['expires'] = '有効期限切れ';
-$string['unexpireusers'] = '有効期限切れアカウントを復活させる';
-$string['usersreactivated'] = 'アカウントを復活しました。';
+$string['unexpireusers'] = '有効期限切れアカウントを再有効化する';
+$string['usersreactivated'] = 'アカウントを再有効化しました。';
 $string['accountsettings'] = 'アカウント設定';
 $string['siteaccountsettings'] = 'サイトアカウント設定';
 $string['changeusername'] = 'ユーザ名を変更する';
