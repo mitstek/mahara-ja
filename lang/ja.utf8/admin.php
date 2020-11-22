@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-11-16 22:26:36 UTC
+ * @updated    2020-11-22 15:04:21 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -812,7 +812,7 @@ $string['siteaccountsettings'] = 'サイトアカウント設定';
 $string['changeusername'] = 'ユーザ名を変更する';
 $string['changeusernamedescription'] = 'この人のユーザ名を変更します。ユーザ名の長さは半角3-236文字にしてください。ユーザ名にはスペースを除く文字、数字および一般的な記号を含めます。';
 $string['resetpassword'] = 'パスワードをリセットする';
-$string['resetpassworddescription'] = 'ここにテキストを入力した場合、人の現在のパスワードと入れ替えられます。';
+$string['resetpassworddescription'] = 'ここにテキストを入力した場合、人の現在のパスワードと置換されます。';
 $string['forcepasswordchange'] = '次回ログイン時、パスワード変更を強制する';
 $string['forcepasswordchangedescription'] = '次回ログイン時、人は「パスワードを変更する」ページにリダイレクトされます。';
 $string['primaryemail'] = '主メールアドレス';
