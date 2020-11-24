@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-22 22:13:14 UTC
+ * @updated    2020-11-24 04:23:03 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,7 +19,7 @@ $string['access'] = 'アクセス';
 $string['accesscantbeused'] = 'アクセスオーバーライドは保存されませんでした。選択されたページアクセス (シークレットURL) は複数のページで使用できません。';
 $string['accessoverride'] = 'アクセスオーバーライド';
 $string['accesssaved'] = 'コレクションアクセスが正常に保存されました。';
-$string['accessignored'] = 'いくつかのシークレットURLタイプは無視されました。';
+$string['accessignored'] = 'いくつかのシークレットURLアクセスタイプは無視されました。';
 $string['add'] = '追加';
 $string['addviews'] = 'ページを追加する';
 $string['addviewstocollection'] = 'ページをコレクションに追加する';
@@ -127,5 +127,6 @@ $string['needssignedoff'] = '要承認';
 $string['verified'] = '検証済み';
 $string['needsverified'] = '要検証';
 $string['verification'] = '検証';
+$string['youhavebeengivenaccess'] = 'あなたには次のアクセスが与えられています';
 
 ?>
