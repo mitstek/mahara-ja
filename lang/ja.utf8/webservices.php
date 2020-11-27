@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-11-27 16:44:30 UTC
+ * @updated    2020-11-27 17:21:11 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['accesskey'] = 'アクセスキー';
 $string['aimscreenname'] = 'AIMスクリーン名';
 $string['allowcomments'] = 'コメントを許可する';
-$string['apilevel'] = 'APIラベル';
+$string['apilevel'] = 'APIレベル';
 $string['approvecomments'] = 'コメントを承認する';
 $string['archiveonrelease'] = 'この送信済みポートフォリオをリリース時にアーカイブしてもよろしいですか?';
 $string['authplugins'] = '手動、LDAP、IMAP等を含む認証プラグイン';
@@ -35,10 +35,10 @@ $string['blogid'] = '日誌ID';
 $string['blogmodtime'] = '日誌修正日時';
 $string['blogofparent'] = '親日誌ID';
 $string['blogowner'] = '日誌オーナー';
-$string['blogowneremail'] = '日誌オーナーメールアドレス';
-$string['blogownerid'] = '日誌オーナーID';
-$string['blogownerremusername'] = '日誌オーナーリモートユーザ名';
-$string['blogownerusername'] = '日誌オーナーユーザ名';
+$string['blogowneremail'] = '日誌オーナーのメールアドレス';
+$string['blogownerid'] = '日誌オーナーのID';
+$string['blogownerremusername'] = '日誌オーナーのリモートユーザ名';
+$string['blogownerusername'] = '日誌オーナーのユーザ名';
 $string['blogpost'] = '日誌エントリ';
 $string['blogpostauthor'] = '日誌エントリ作成者';
 $string['blogpostcount'] = '日誌エントリ数';
@@ -55,14 +55,14 @@ $string['blogs'] = '日誌';
 $string['blogscount'] = '日誌数';
 $string['blogsids'] = '日誌ID';
 $string['blogtitle'] = '日誌タイトル';
-$string['businessnumber'] = '勤務先電話';
+$string['businessnumber'] = '勤務先電話番号';
 $string['city'] = '人の本籍地';
 $string['collections'] = 'コレクション';
 $string['collectionscount'] = 'コレクション数';
-$string['context_id'] = 'LTIコンテンツID';
-$string['context_label'] = 'LTIコンテンツラベル';
-$string['context_title'] = 'LTIコンテンツタイトル';
-$string['context_type'] = 'LTIコンテンツタイプ';
+$string['context_id'] = 'LTIコンテクストID';
+$string['context_label'] = 'LTIコンテクストラベル';
+$string['context_title'] = 'LTIコンテクストタイトル';
+$string['context_type'] = 'LTコンテクストタイプ';
 $string['country'] = '人の国コード (JP、NZ等)';
 $string['deleteuserid'] = '削除する人のID';
 $string['deleteusername'] = '削除する人のユーザ名';
@@ -88,7 +88,7 @@ $string['forcepasswordchange'] = '初回ログイン時、パスワード変更�
 $string['fullurl'] = 'フルURL';
 $string['functiondocuri'] = '関数ドキュメンテーションURL';
 $string['functionname'] = '関数名';
-$string['groupcaneditroles'] = '許可されるロールを編集する:';
+$string['groupcaneditroles'] = '許可される編集ロール:';
 $string['groupcategory'] = 'グループカテゴリ - 既存のグループカテゴリのタイトル';
 $string['groupdesc'] = 'グループ説明';
 $string['grouphidden'] = 'グループを隠す';
@@ -97,7 +97,7 @@ $string['groupmemberactions'] = 'グループメンバーシップアクショ�
 $string['groupmembership'] = 'グループメンバーシップ';
 $string['groupname'] = 'グループ名';
 $string['groupparticipationreports'] = '参加レポート';
-$string['groupshortname'] = 'APIのみの管理グループの省略名';
+$string['groupshortname'] = 'APIのみ管理グループの省略名';
 $string['grouptype'] = 'グループタイプ:';
 $string['grouptypectrl'] = '管理 - グループ管理者は同意なしにグループに人を追加できます。また、メンバーはグループを離れることはできません。';
 $string['grouptypeopen'] = 'オープン - 人はグループ管理者の承認なしにグループに参加できます。';
