@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-10-19 23:50:35 UTC
+ * @updated    2020-11-27 04:50:35 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -72,7 +72,6 @@ $string['institutionviews'] = 'インスティテューションページ';
 $string['institutionviewscollections'] = 'インスティテューションページおよびコレクション';
 $string['reallyaddaccesstoemptyview'] = 'あなたのページにはブロックが含まれていません。本当にこれらの人にページのアクセス権を与えますか?';
 $string['viewdeleted'] = 'ページが削除されました。';
-$string['viewsubmitted'] = 'ページが送信されました。';
 $string['deletethisview'] = 'このページを削除する';
 $string['submitthisviewto1'] = 'このページを評価のために送信する ->';
 $string['submitthiscollectionto1'] = 'このコレクションを評価のために送信する ->';
@@ -126,7 +125,6 @@ $string['listedinpages'] = 'ページ内一覧';
 $string['public'] = 'パブリック';
 $string['registeredusers'] = '登録済の人';
 $string['friends'] = 'フレンド';
-$string['groups'] = 'グループ';
 $string['users'] = '人';
 $string['friend'] = 'フレンド';
 $string['group'] = 'グループ';
@@ -174,7 +172,6 @@ $string['Createdon'] = '作成日時:';
 $string['Added'] = '追加済み';
 $string['share'] = '共有';
 $string['sharedbyme'] = '私からの共有';
-$string['sharewith'] = '共有対象';
 $string['whosharewith'] = '誰と共有しますか?';
 $string['accesslist'] = 'アクセスリスト';
 $string['defaultaccesslistmessage'] = 'あなた以外、あなたの選択されたページおよびコレクションを閲覧できません。アクセス権を与えるには人を追加してください。';
@@ -193,6 +190,7 @@ $string['addaccess'] = '「 %s 」へのアクセスを追加する';
 $string['addaccessinstitution'] = 'インスティテューション「 %s 」へのアクセスを追加する';
 $string['addaccessgroup'] = 'グループ「 %s 」へのアクセスを追加する';
 $string['submitconfirm'] = '評価のために「 %s 」を「 %s 」に送信した場合、チューターが評価を終えるまであなたはコンテンツを編集できません。本当に送信してもよろしいですか?';
+$string['viewsubmitted'] = 'ページが送信されました。';
 $string['collectionsubmitted'] = 'コレクションが送信されました。';
 $string['collectionviewsalreadysubmitted'] = 'このコレクションのページはすでに送信されています: 「 %s 」
 リリースまたはコレクションから削除されるまであなたはコレクションを送信できません。';
@@ -415,9 +413,11 @@ $string['matchalltags'] = 'すべてのタグに合致する';
 $string['matchalltagsdesc'] = 'タグをカンマで区切ってください。例: 猫,ぶち猫';
 $string['sharedviewsdescription'] = 'このページではあなたが共有しているページの中から直近に修正またはコメントされたページが一覧表示されます。これらの共有ページには直接あなたが共有しているページ、オーナーのフレンドが共有しているページ、あなたのグループが共有しているページがあります。';
 $string['sharedwith'] = '共有対象';
+$string['sharewith'] = '共有対象';
 $string['general'] = '一般';
 $string['searchfor'] = '検索 ...';
 $string['institutions'] = 'インスティテューション';
+$string['groups'] = 'グループ';
 $string['search'] = '検索';
 $string['Me'] = '私';
 $string['entersearchquery'] = '検索クエリを入力してください。';
