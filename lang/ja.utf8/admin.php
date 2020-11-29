@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-11-27 04:50:22 UTC
+ * @updated    2020-11-29 22:58:11 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -232,7 +232,7 @@ $string['groupcategoryadded'] = 'カテゴリが追加されました。';
 $string['confirmdeletecategory'] = '本当にこのカテゴリを削除してもよろしいですか?';
 $string['groupcategoriespagedescription'] = 'グループ作成時、ここで一覧表示されているカテゴリにグループを割り当てることができます。また、検索時、グループのフィルタにカテゴリを使用できます。';
 $string['groupquotas'] = '「 %s 」のグループクオータ';
-$string['groupfilequotadescription'] = 'グループファイルエリアでの利用可能な合計保存領域です。';
+$string['groupfilequotadescription'] = 'グループファイルエリアで利用可能な合計保存領域です';
 $string['groupadminsforgroup'] = '「 %s 」のグループ管理者';
 $string['makeusersintoadmins'] = '選択した一般アカウントを管理者アカウントにする';
 $string['makeadminsintousers'] = '選択した管理者アカウントを一般アカウントに戻す';
@@ -833,7 +833,7 @@ $string['userdeletedsuccessfully'] = 'アカウントが正常に削除されま
 $string['confirmdeleteuser'] = '本当にこのアカウントを削除してもよろしいですか?';
 $string['filequota1'] = 'ファイルクオータ';
 $string['quotaused'] = 'クオータ使用量';
-$string['filequotadescription'] = '人のファイルエリアの利用可能な合計保存領域です。';
+$string['filequotadescription'] = '人のファイルエリアで利用可能な合計保存領域です。';
 $string['probationbulkconfirm'] = '本当にこれらのアカウントのスパム保護観察ステータスを変更してもよろしいですか?';
 $string['probationbulksetspamprobation'] = 'スパム保護観察を設定する';
 $string['probationbulkset'] = '設定';
