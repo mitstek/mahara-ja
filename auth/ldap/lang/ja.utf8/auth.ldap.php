@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-02 01:46:52 UTC
+ * @updated    2020-11-30 01:09:43 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,6 +17,7 @@ $string['title'] = 'LDAP';
 $string['ldapconfig'] = 'LDAP設定';
 $string['description'] = 'LDAPサーバで認証する';
 $string['notusable'] = 'PHP LDAP拡張モジュールをインストールしてください。';
+$string['emailmissing'] = 'メールアドレスがありません。';
 $string['attributename'] = '値を基にグループを同期する場合に使用するLDAP属性名です (必須および大文字小文字を区別します)。';
 $string['cannotdeleteandsuspend'] = '「-d」および「-s」は同時に指定できません。';
 $string['cli_info_sync_groups'] = 'このコマンドラインPHPスクリプトはLDAPディレクトリとグループのインスティテューションリストの同期を試みます。
