@@ -452,7 +452,7 @@ $string['confirmremoveuserfrominstitution'] = '本当にこのインスティテ
 $string['usereditdescription'] = 'あなたはここでこのユーザアカウントの閲覧および詳細設定できます。以下であなたは<a href="#suspend">このアカウントを利用停止または削除</a>できます。また、<a href="#institutions">このユーザが関わっているインスティテューション内</a>で設定を変更することもできます。';
 $string['suspenddeleteuser'] = 'ユーザの利用停止/削除';
 $string['suspenddeleteuserdescription'] = 'あなたはここでユーザアカウントを利用停止または完全に削除できます。利用停止されたユーザは利用停止が解除されるまでログインできません。利用停止されたユーザは利用停止解除できますが削除されたユーザは元に戻すことは<b>できません</b>ので注意してください。';
-$string['deleteusernote'] = 'この処理は<b>元に戻すことができません</b>ので注意してください。';
+$string['deleteusernote'] = 'この処理は<strong>元に戻すことができません</strong>ので注意してください。';
 $string['youcannotadministerthisuser'] = 'あなたはこのユーザを管理することはできません。';
 $string['adduser'] = 'ユーザを追加する';
 $string['adduserdescription'] = '新しいユーザを作成します。';
