@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-12-01 23:05:26 UTC
+ * @updated    2020-12-06 04:24:56 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -518,7 +518,7 @@ $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
 $string['staticpagespagedescription1'] = 'ここであなたはホームページ、登録済みの人のダッシュボード、「About」ページ、フッタ内リンク等、内蔵ページのコンテンツを編集できます。';
 $string['home'] = 'ホーム (ダッシュボード)';
-$string['loadsitecontentfailed'] = 'サイトページコンテンツを読み込むことができませんでした。';
+$string['loadsitecontentfailed'] = 'サイトページコンテンツを読み込めませんでした。';
 $string['loggedouthome'] = 'ログアウトホーム';
 $string['pagename'] = 'ページ名';
 $string['pagesaved'] = 'ページが保存されました。';
@@ -847,8 +847,8 @@ $string['confirmremoveuserfrominstitution'] = '本当にこのインスティテ
 $string['usereditdescription1'] = 'あなたはここでこのアカウントを管理できます。アカウントの管理には詳細変更、利用停止、削除およびインスティテューションのメンバーシップ変更を含みます。';
 $string['usereditwarning1'] = '<strong>注意</strong>: あなたがこのアカウントを変更した場合、現在ログインしているアカウント保持者はログアウトされます。';
 $string['suspenduserdescription'] = 'アカウントの利用停止が解除されるまで利用停止された人はログインできません。';
-$string['deleteusernote'] = 'この処理は<strong>元に戻すことができません</strong>ので注意してください。';
-$string['youcannotadministerthisuser'] = 'あなたはこのアカウントを管理することはできません。';
+$string['deleteusernote'] = 'この処理は<strong>元に戻せません</strong>ので注意してください。';
+$string['youcannotadministerthisuser'] = 'あなたはこのアカウントを管理できません。';
 $string['userinstitutionjoined'] = '人がインスティテューション「 %s 」に追加されました。';
 $string['userinstitutionremoved'] = '人がインスティテューション「 %s 」から削除されました。';
 $string['userinstitutionupdated'] = 'インスティテューション「 %s 」のアカウント設定が更新されました。';
