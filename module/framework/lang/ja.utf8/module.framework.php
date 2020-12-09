@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-08-16 23:56:47 UTC
+ * @updated    2020-12-09 02:04:52 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -53,7 +53,7 @@ $string['partialcomplete'] = '標準に一部合致する';
 $string['completed'] = '標準に合致する';
 $string['usedincollections'] = 'コレクションで使用済み';
 $string['selfassess'] = '自己評価';
-$string['uploadframeworkdesc1'] = 'JSONエンコード済みの.matrixファイルをアップロードします。マークアップの例に関して<a href="https://git.mahara.org/mahara/mahara/blob/16.10_STABLE/test/behat/upload_files/example.matrix">Mahara git repository</a>、個別のコンポーネントの例に関して<a href="https://manual.mahara.org/en/16.10/administration/smartevidence.html#create-a-framework-file">Maharaマニュアル</a>をご覧ください。';
+$string['uploadframeworkdesc2'] = 'JSONエンコード済みの.matrixファイルをアップロードします。マークアップの例に関して<a href="https://git.mahara.org/mahara/mahara/-/blob/%s/test/behat/upload_files/example.matrix">Mahara git repository</a>、個別のコンポーネントの例に関して<a href="%s">Maharaマニュアル</a>をご覧ください。';
 $string['savematrix'] = 'マトリクスをアップロードする';
 $string['frameworkmissing'] = 'フレームワークが見つかりませんでした。';
 $string['activeframework'] = 'フレームワーク有効化';
