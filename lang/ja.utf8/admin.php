@@ -882,7 +882,7 @@ $string['failedtounzipleap2afile'] = 'Leap2Aファイルの展開に失敗しま
 $string['fileisnotaziporxmlfile'] = 'このファイルはZIPファイルまたはXMLファイルとして認識されませんでした。';
 $string['howdoyouwanttocreatethisuser'] = 'どのようにこのアカウントを作成しますか?';
 $string['leap2aimportfailed'] = '<p><strong>申し訳ございません、Leap2Aファイルのインポートに失敗しました。</strong></p><p>これはあなたが有効なLeap2Aファイルをアップロードに選択しなかったから、またはこのMaharaのバージョンではあなたのLeap2Aファイルがサポートされていないからだと考えられます。また、Leap2Aファイルが有効な場合、Maharaのバグがあなたのファイルのアップロードを失敗させていることも考えられます。</p><p><a href="add.php">戻ってファイルのアップロードを再度お試しください</a>。この問題が続く場合、エラー状況を<a href="https://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。その場合、あなたのファイルのコピーを準備してください。</p>';
-$string['newuseremailnotsent'] = 'ウェルカムメール送信に失敗しました。';
+$string['newuseremailnotsent'] = 'ウェルカムメールの送信に失敗しました。';
 $string['newusercreated'] = '新しいアカウントが正常に作成されました。';
 $string['noleap2axmlfiledetected'] = 'leap2a.xmlファイルは見つかりませんでした - 再度、あなたのエクスポートファイルを確認してください。';
 $string['Or'] = 'または';
