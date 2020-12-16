@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-13 04:34:15 UTC
+ * @updated    2020-12-16 23:40:20 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -37,5 +37,8 @@ $string['orderby'] = '並べ替え順';
 $string['orderbydesc'] = 'ページの表示を新しい順またはページオーナー順より選択してください。';
 $string['orderby.activity'] = '新しい順';
 $string['orderby.owner'] = 'ページオーナー';
+$string['watchlistnotification'] = 'ウォッチリスト通知';
+$string['watchlistdelaytitle'] = 'ウォッチリスト通知遅延';
+$string['watchlistdelaydescription'] = 'ウォッチリストの変更に関するメールを送信する遅延時間 (分) です。';
 
 ?>
