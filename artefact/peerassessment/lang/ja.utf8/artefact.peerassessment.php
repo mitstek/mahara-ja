@@ -49,8 +49,8 @@ $string['feedbacknotificationtext1'] = '%s が相互評価を追加しました 
 %s';
 $string['typeassessmentfeedback'] = '相互評価';
 $string['nopeerassessmentrequired'] = '相互評価を必要としないためあなたはこのページでコンテンツを閲覧できません。';
-$string['placeassessment'] = '相互評価を入力する\'';
-$string['verifyassessment'] = '相互評価を確認する';
+$string['placeassessment'] = '評価を入力する\'';
+$string['verifyassessment'] = '評価を確認する';
 $string['progress_peerassessment'] = '%s 相互評価をページに追加する';
 $string['progress_verify'] = '%s 確認を他のユーザの相互評価ページに与える';
 
