@@ -359,7 +359,7 @@ $string['itemdeleted'] = 'アイテムが削除されました。';
 $string['itemupdated'] = 'アイテムが更新されました。';
 $string['approvalrequired'] = '要承認';
 $string['authentication'] = '認証';
-$string['cantchangepassword'] = '申し訳ございません、このインターフェース経由でパスワードを変更することはできません - 代わりにあなたのインスティテューションのインターフェースを使用してください。';
+$string['cantchangepassword'] = '申し訳ございません、このインターフェースではパスワードを変更できません - 代わりにあなたのインスティテューションのインターフェースを使用してください。';
 $string['forgotusernamepassword'] = 'あなたのユーザ名またはパスワードを忘れましたか?';
 $string['forgotusernamepasswordtextprimaryemail'] = '<p>ユーザ名またはパスワードを忘れた場合、あなたのプロファイルに記載された主メールアドレスを入力してください。あなたが新しいパスワードを作成できるメッセージを送信します。</p>
 <p>あなたがパスワードを忘れてユーザ名を忘れていない場合、代わりにユーザ名を入力することもできます。</p>';
