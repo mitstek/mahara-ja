@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-12-16 00:28:47 UTC
+ * @updated    2020-12-29 19:46:19 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -500,8 +500,6 @@ $string['eventlogenhancedsearch'] = 'イベントログレポーティング';
 $string['eventlogenhancedsearchdescription1'] = 'あなたのサイトの活動に関してさらに記録するため高度なアナリティクス機能を使用したい場合、これは必須です。また、あなたは「検索設定」でElasticsearchを有効にする必要があります。';
 $string['sitefilesaccess'] = 'サイトファイルにアクセスする';
 $string['sitefilesaccessdescription1'] = '登録済みの人がサブフォルダ内のサイトファイルにアクセスできるようにします。デフォルトではトップレベルのディレクトリ内のファイルにのみアクセスできます。';
-$string['watchlistdelaydescription'] = 'ウォッチリストの変更に関するメールを送信する遅延時間 (分) です。';
-$string['watchlistdelaytitle'] = 'ウォッチリスト通知遅延';
 $string['defaultmultipleblogs'] = '複数日誌';
 $string['defaultmultipleblogsdescription1'] = 'デフォルトで人が日誌を複数持てるようにします。人はこれをアカウント設定ページでオーバーライドできます。';
 $string['defaultreviewsselfdeletion'] = '自己削除の前にアカウントをレビューする';
@@ -928,11 +926,11 @@ $string['institutionlanguagedescription'] = 'インスティテューション�
 $string['defaultlangforinstitution'] = '%s デフォルト';
 $string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
 $string['registrationallowed'] = '登録を許可する';
-$string['registrationalloweddescription5'] = '登録フォームを使用してこのインスティテューションに登録できます。登録が無効にされた場合、非メンバーはインスティテューションのメンバーシップをリクエストできません。また、メンバーはインスティテューションを離れたり自分のアカウントを削除できません。';
+$string['registrationalloweddescription5'] = '人は登録フォームを使用してこのインスティテューションに登録できます。登録が無効にされた場合、非メンバーはインスティテューションのメンバーシップをリクエストできません。また、メンバーはインスティテューションを離れたり自分のアカウントを削除できません。';
 $string['registrationconfirm'] = '登録を承認する';
 $string['registrationconfirmdescription3'] = '登録はインスティテューション管理者によって承認される必要があります。あなたがこのオプションを変更できない場合、サイト管理者がすべてのインスティテューションに対してこのオプションを有効にすることを求めています。';
 $string['defaultmembershipperiod'] = 'デフォルトのメンバーシップ期間';
-$string['defaultmembershipperioddescription'] = 'どのくらいの期間、新しいメンバーはインスティテューションに参加できますか。';
+$string['defaultmembershipperioddescription'] = '新しいメンバーはどのくらいの期間インスティテューションとの関係を維持できますか。';
 $string['showonlineusers'] = 'オンラインの人を表示する';
 $string['showonlineusersdescription'] = 'このインスティテューションのメンバーに表示されるオンラインの人です。人に複数インスティテューションが許可されている場合、そしてインスティテューションの設定が異なる場合、最も制約の少ないインスティテューションの設定が使用されます。';
 $string['licensemandatory'] = 'ライセンス情報を要求する';
