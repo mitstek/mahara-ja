@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-01-06 00:24:08 UTC
+ * @updated    2021-01-10 20:35:18 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -466,7 +466,7 @@ $string['surbldescription1'] = 'SURBL DNSBLと照合してURLをチェックし�
 $string['disableexternalresources'] = 'HTML内の外部リソースを無効にする';
 $string['disableexternalresourcesdescription1'] = '作成者による別のホストからのイメージ等の埋め込みを防ぐため外部リソースの埋め込みを無効にします。';
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
-$string['tagssideblockmaxtagsdescription'] = 'タグクラウド内に表示されるタグのデフォルト数です。';
+$string['tagssideblockmaxtagsdescription'] = 'タグクラウド内に表示されるデフォルトのタグ数です。';
 $string['trustedsites'] = '信頼できるサイト';
 $string['updatesiteoptions'] = 'サイトオプションを更新する';
 $string['usersallowedmultipleinstitutions'] = '人に複数インスティテューションを許可する';
