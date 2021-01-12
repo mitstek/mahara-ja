@@ -285,9 +285,9 @@ $string['lastminutes'] = '直近の %s 分間';
 $string['allpeopleonline'] = 'オンラインの人を表示する';
 $string['nopeopleonlinefound'] = 'オンラインの人は見つかりませんでした。';
 $string['linksandresources'] = 'リンクおよびリソース';
-$string['accesstotallydenied_institutionsuspended'] = 'あなたのインスティテューション %s は現在利用停止されています。利用再開されるまで %s にログインすることはできません。詳細はあなたのインスティテューションにご連絡ください。';
-$string['accesstotallydenied_institutionexpired'] = 'あなたのインスティテューション %s は有効期限が切れています。有効期限切れが解消されるまで %s にログインすることはできません。詳細はあなたのインスティテューションにご連絡ください。';
-$string['accesstotallydenied_institutioninactive'] = 'インスティテューション「 %s 」の認証方法が有効ではありません。認証方法が有効にされるまで %s にログインすることはできません。詳細はあなたのインスティテューション管理者にご連絡ください。';
+$string['accesstotallydenied_institutionsuspended'] = 'あなたのインスティテューション %s は現在利用停止されています。利用再開されるまで %s にログインできません。詳細はあなたのインスティテューションにご連絡ください。';
+$string['accesstotallydenied_institutionexpired'] = 'あなたのインスティテューション %s は有効期限が切れています。有効期限切れが解消されるまで %s にログインできません。詳細はあなたのインスティテューションにご連絡ください。';
+$string['accesstotallydenied_institutioninactive'] = 'インスティテューション「 %s 」の認証方法が有効ではありません。認証方法が有効にされるまで %s にログインできません。詳細はあなたのインスティテューション管理者にご連絡ください。';
 $string['accessforbiddentoadminsection'] = 'あなたは管理セクションへのアクセスを禁止されています。';
 $string['accountdeleted'] = '申し訳ございません、あなたのアカウントは削除されました。<a href="%scontact.php">サイト管理者にご連絡ください</a>。';
 $string['accountexpired'] = '申し訳ございません、あなたのアカウントの有効期限が切れました。あなたのアカウントを再度有効にするには<a href="%scontact.php">サイト管理者にご連絡ください</a>。';
@@ -415,7 +415,7 @@ $string['accountinactivewarningtext1'] = '%s さん
 
 %s のあなたのアカウントは %s で無効になります。
 
-アカウントが無効にされた場合、あなたのアカウントを管理者が再度有効にするまでログインすることはできません。
+アカウントが無効にされた場合、あなたのアカウントを管理者が再度有効にするまでログインできません。
 
 サイトにログインすることであなたのアカウントが無効になることを防ぐことができます。
 
@@ -424,7 +424,7 @@ $string['accountinactivewarninghtml1'] = '<p>%s さん</p>
 
 <p>%s のあなたのアカウントは %s で無効になります。</p>
 
-<p>アカウントが無効にされた場合、あなたのアカウントを管理者が再度有効にするまでログインすることはできません。</p>
+<p>アカウントが無効にされた場合、あなたのアカウントを管理者が再度有効にするまでログインできません。</p>
 
 <p>サイトにログインすることであなたのアカウントが無効になることを防ぐことができます。</p>
 
