@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-01-10 20:35:18 UTC
+ * @updated    2021-01-12 19:59:44 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -476,7 +476,7 @@ $string['institutionstrictprivacydescription'] = 'あなたのサイトが<a hre
 $string['requireregistrationconfirm'] = '登録を承認する';
 $string['requireregistrationconfirmdescription1'] = 'すべてのインスティテューションに新しい自己登録アカウントの承認を強制します。';
 $string['userscanchooseviewthemes'] = '作成者がページテーマを選択できる';
-$string['userscanchooseviewthemesdescription1'] = '作成者のポートフォリオページ編集および作成時にテーマを選択できるようにします。ページは選択されたテーマを使用して他の人に表示されます。';
+$string['userscanchooseviewthemesdescription1'] = 'ポートフォリオページの編集および作成時に作成者がテーマを選択できるようにします。ページは選択されたテーマを使用して他の人に表示されます。';
 $string['userscanhiderealnames'] = '人は実名を隠せる';
 $string['userscanhiderealnamesdescription1'] = '人が表示名を設定した場合、実名で検索できないようにします。他の人は表示名のみで検索できます。サイトのサイト管理セクションでは常に実名で人を検索できます。';
 $string['usersseenewthemeonlogin'] = '次回ログイン時、他の人に新しいテーマが表示されます。';
