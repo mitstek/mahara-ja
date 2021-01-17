@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-01-12 19:59:44 UTC
+ * @updated    2021-01-17 07:24:24 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -507,7 +507,7 @@ $string['defaultreviewsselfdeletiondescription'] = 'アカウント削除リク�
 $string['reviewsselfdeletion'] = '自己削除の前にアカウントをレビューする';
 $string['reviewsselfdeletiondescription'] = 'インスティテューション管理者は自分のアカウントを削除したい人のリクエストを承認する必要があります。';
 $string['mathjax'] = 'MathJaxを有効にする';
-$string['mathjaxdescription'] = 'MathJaxはLaTeXマークアップを適切にフォーマットした数式および化学式としてポートフォリオページに表示します。';
+$string['mathjaxdescription'] = 'MathJaxは適切にフォーマットした数式および化学式としてLaTeXマークアップをポートフォリオページに表示します。';
 $string['mathjaxconfig'] = 'MathJax設定';
 $string['timezone'] = 'タイムゾーン';
 $string['sitetimezonedescription'] = 'サイトのデフォルトのタイムゾーンです。選択されない場合、選択された国をもとにタイムゾーンが選択されます。国に複数のタイムゾーンがある場合、これは正確ではない場合があります。';
