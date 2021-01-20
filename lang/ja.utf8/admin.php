@@ -5,8 +5,8 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-06-02 22:47:21 UTC
- * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
+ * @updated    2021-01-20 01:06:56 UTC
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
@@ -444,9 +444,9 @@ $string['externallink'] = '外部リンク';
 $string['editlinksandresources'] = '「リンクおよびリソース」を編集する';
 $string['linkedto'] = 'リンク先';
 $string['linksandresourcesmenu'] = 'リンクおよびリソースメニュー';
-$string['linksandresourcesmenupagedescription'] = '「リンクおよびリソース」メニューはほとんどのページですべてのユーザに表示されます。あなたは他のウェブサイトのリンクおよび%s管理ファイル%sセクションでアップロードしたファイルのリンクを追加できます。';
-$string['loadingmenuitems'] = 'メニューアイテムのロード中';
-$string['loadmenuitemsfailed'] = 'メニューアイテムのロードに失敗しました。';
+$string['linksandresourcesmenupagedescription'] = '「リンクおよびリソース」メニューはほとんどのページですべてのユーザに表示されます。あなたは他のウェブサイトへのリンクおよび%s管理ファイル%sセクションにアップロードしたファイルへのリンクを追加できます。';
+$string['loadingmenuitems'] = 'アイテムの読み込み中';
+$string['loadmenuitemsfailed'] = 'アイテムの読み込みに失敗しました。';
 $string['loggedinmenu'] = 'ログイン後の「リンクおよびリソース」';
 $string['loggedoutmenu'] = 'パブリックの「リンクおよびリソース」';
 $string['menuitemdeleted'] = 'メニューアイテムが削除されました。';
