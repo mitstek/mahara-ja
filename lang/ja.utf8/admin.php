@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-01-18 00:12:36 UTC
+ * @updated    2021-01-20 00:56:18 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -545,9 +545,9 @@ $string['externallink'] = '外部リンク';
 $string['editlinksandresources'] = '「リンクおよびリソース」を編集する';
 $string['linkedto'] = 'リンク先';
 $string['linksandresourcesmenu'] = 'リンクおよびリソースメニュー';
-$string['linksandresourcesmenupagedescription'] = '「リンクおよびリソース」メニューはほとんどのページですべての人に表示されます。あなたは他のウェブサイトおよび%s管理ファイル%sセクションでアップロードしたファイルへのリンクを追加できます。';
-$string['loadingmenuitems'] = 'メニューアイテムの読み込み中';
-$string['loadmenuitemsfailed'] = 'メニューアイテムの読み込みに失敗しました。';
+$string['linksandresourcesmenupagedescription'] = '「リンクおよびリソース」メニューはほとんどのページですべての人に表示されます。あなたは他のウェブサイトへのリンクおよび%s管理ファイル%sセクションにアップロードしたファイルへのリンクを追加できます。';
+$string['loadingmenuitems'] = 'アイテムの読み込み中';
+$string['loadmenuitemsfailed'] = 'アイテムの読み込みに失敗しました。';
 $string['loggedinmenu'] = 'ログイン後の「リンクおよびリソース」';
 $string['loggedoutmenu'] = 'パブリックの「リンクおよびリソース」';
 $string['menuitemdeleted'] = 'アイテムが削除されました。';
