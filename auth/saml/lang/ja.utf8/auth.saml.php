@@ -22,7 +22,7 @@ $string['confirmdeleteidp'] = '本当にこのアイデンティティプロバ�
 $string['spmetadata'] = 'サービスプロバイダメタデータ';
 $string['metadatavewlink'] = '<a href="%s">メタデータを表示する</a>';
 $string['newpublickey'] = '新しい公開鍵';
-$string['ssphpnotconfigured'] = 'SimpleSAMLPHPが設定されていません。';
+$string['ssphpnotconfigured'] = 'SimpleSAMLphpが設定されていません。';
 $string['manage_certificate2'] = 'これはSAMLサービスプロバイダの一部として生成された証明書です。';
 $string['manage_new_certificate'] = 'これはSAMLサービスプロバイダの一部として生成された新しい証明書です。
 <br />
@@ -40,12 +40,12 @@ $string['errorextrarequiredfield'] = '「こちらでアカウントを自動作
 $string['errorretryexceeded'] = '再試行の最大回数 (%s) を越えました: アイデンティティサービスに問題があります。';
 $string['errnosamluser'] = 'アカウントが見つかりませんでした。';
 $string['errorssphpsetup'] = 'SAMLが正しく設定されていません。あなたは最初にコマンドラインから「make ssphp」を実行する必要があります。';
-$string['errorbadlib'] = 'SimpleSAMLPHPライブラリの「autoloader」ファイルが %s にありません。<br />「make ssphp」でSimpleSAMLphpをインストールできること、また、ファイルを読み込めることを確認してください。';
-$string['errorupdatelib'] = 'あなたの現在のSimpleSAMLPHPライブラリは旧バージョンです。あなたは「make cleanssphp && make ssphp」を実行する必要があります。';
+$string['errorbadlib'] = 'SimpleSAMLphpライブラリの「autoloader」ファイルが %s にありません。<br />「make ssphp」でSimpleSAMLphpをインストールできること、また、ファイルを読み込めることを確認してください。';
+$string['errorupdatelib'] = 'あなたの現在のSimpleSAMLphpライブラリは旧バージョンです。あなたは「make cleanssphp && make ssphp」を実行する必要があります。';
 $string['errornovalidsessionhandler'] = 'SimpleSAMLphpセッションハンドラの設定が正しくないか現在サーバを利用できません。';
 $string['errornomemcache'] = 'auth/samlのためのMemcacheの設定が正しくないか、現在Memcacheサーバを利用できません。';
 $string['errornomemcache7php'] = 'auth/samlのためのMemcacheの設定が正しくないか、現在Memcacheサーバを利用できません。';
-$string['errorbadconfig'] = 'SimpleSAMLPHP設定ディレクトリ %s が正しくありません。';
+$string['errorbadconfig'] = 'SimpleSAMLphp設定ディレクトリ %s が正しくありません。';
 $string['errorbadmetadata'] = 'SAMLメタデータのフォーマットが正しくありません。XMLに1つの有効なアイデンティティプロバイダが含まれていることを確認してください。';
 $string['errorbadinstitutioncombo'] = 'このインスティテューション属性およびインスティテューション値の組み合わせの認証インスタンスはすでに存在します。';
 $string['errormissingmetadata'] = 'あなたは新しいアイデンティティプロバイダメタデータの追加を選択しましたが何も提供されていません。';
@@ -76,7 +76,7 @@ $string['logo'] = 'ロゴ';
 $string['institutionregex'] = 'インスティテューション省略名を部分的に文字列一致させる';
 $string['login'] = 'SSO';
 $string['newidpentity'] = '新しいアイデンティティプロバイダを追加する';
-$string['notusable'] = 'セッションのためにSimpleSAMLPHPライブラリをインストールしてMemcacheサーバを設定ください。';
+$string['notusable'] = 'SimpleSAMLphpライブラリをインストールしてセッション用にMemcacheサーバを設定ください。';
 $string['obsoletesamlplugin'] = 'auth/samlプラグインを再設定する必要があります。<a href="%s">プラグイン設定</a>フォーム経由でプラグインを更新してください。';
 $string['obsoletesamlinstance'] = 'SAML認証インスタンス <a href="%s">%s</a> (「 %s 」インスティテューション) を更新する必要があります。';
 $string['reallyreallysure1'] = 'あなたはMaharaのサービスプロバイダメタデータを保存しようとしています。これは元に戻すことはできません。また、あなたの新しいメタデータをすべてのアイデンティティプロバイダと再共有するまで既存のインスティテューションに設定されているSAMLログインは動作しません。';
@@ -106,8 +106,8 @@ $string['spentityid'] = 'サービスプロバイダエンティティID';
 $string['title'] = 'SAML';
 $string['updateuserinfoonlogin'] = 'ログイン時、アカウント詳細を更新する';
 $string['userattribute'] = 'ユーザ属性';
-$string['simplesamlphplib'] = 'SimpleSAMLPHPライブラリディレクトリ';
-$string['simplesamlphpconfig'] = 'SimpleSAMLPHP設定ディレクトリ';
+$string['simplesamlphplib'] = 'SimpleSAMLphpライブラリディレクトリ';
+$string['simplesamlphpconfig'] = 'SimpleSAMLphp設定ディレクトリ';
 $string['weautocreateusers'] = 'こちらでアカウントを自動作成する';
 $string['remoteuser'] = 'ユーザ属性をリモートユーザ名に合致させる';
 $string['selectidp'] = 'あなたがログインに使いたいアイデンティティプロバイダを選択してください。';
