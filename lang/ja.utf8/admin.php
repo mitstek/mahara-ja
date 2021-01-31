@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-01-25 21:27:31 UTC
+ * @updated    2021-01-31 07:19:32 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -578,11 +578,11 @@ $string['networkingextensionsmissing'] = '申し訳ございません、イン�
 $string['publickey'] = '公開鍵';
 $string['publickeydescription2'] = 'この公開鍵は自動的に生成され %s 日ごとにローテートされます。';
 $string['publickeyexpires'] = '公開鍵の有効期限';
-$string['enablenetworkingdescription'] = 'Moodleおよび他のアプリケーションが動作しているサーバとあなたのMaharaサーバの通信を許可します。';
+$string['enablenetworkingdescription'] = 'あなたのMaharaサーバがMoodleおよび他のアプリケーションが動作しているサーバと通信できるようにします。';
 $string['enablenetworking'] = 'ネットワーキングを有効にする';
 $string['networkingenabled'] = 'ネットワーキングが有効にされました。';
 $string['networkingdisabled'] = 'ネットワーキングが無効にされました。';
-$string['networkingpagedescription'] = 'Maharaのネットワーキング機能では同じサーバまたは別のサーバで動作しているMaharaまたはMoodleと連携できます。ネットワーキングが有効にされた場合、MoodleまたはMaharaにログインした人のシングルサインオンを設定できます。';
+$string['networkingpagedescription'] = 'Maharaのネットワーキング機能では同じまたは別のサーバで動作しているMaharaまたはMoodleと連携できるようにします。ネットワーキングが有効にされた場合、MoodleまたはMaharaにログインした人のシングルサインオンを設定できます。';
 $string['networkingunchanged'] = 'ネットワーク設定は変更されませんでした。';
 $string['promiscuousmode'] = 'すべてのホストを自動登録する';
 $string['promiscuousmodedisabled'] = '自動登録が無効にされました。';
