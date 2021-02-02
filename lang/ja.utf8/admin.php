@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-01-31 07:19:32 UTC
+ * @updated    2021-02-02 10:59:22 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -600,9 +600,9 @@ $string['proxyauthmodel'] = 'プロクシ認証モデル';
 $string['proxyauthmodeldescription'] = '必要な場合、あなたのプロクシ認証モデルを選択してください。';
 $string['proxyauthmodelbasic'] = 'Basic (NCSA)';
 $string['proxyauthmodelset'] = 'プロクシ認証モデルが設定されました。';
-$string['proxyauthcredentials'] = 'プロクシ証明書';
-$string['proxyauthcredentialsdescription'] = 'あなたのプロクシがウェブサーバで認証するため必要な証明書を「ユーザ名:パスワード」のフォーマットで指定してください。';
-$string['proxyauthcredntialsset'] = 'プロクシ認証証明書セット';
+$string['proxyauthcredentials'] = 'プロクシ資格情報';
+$string['proxyauthcredentialsdescription'] = 'あなたのプロクシがウェブサーバで認証するため必要な資格情報を「ユーザ名:パスワード」のフォーマットで指定してください。';
+$string['proxyauthcredntialsset'] = 'プロクシ認証資格情報セット';
 $string['emailsettings'] = 'Eメール設定';
 $string['emailsmtphosts'] = 'SMTPホスト';
 $string['emailsmtphostsdescription'] = 'メール送信に使用するSMTPサーバです。例) smtp1.example.com';
