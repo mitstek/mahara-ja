@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-16 01:03:41 UTC
+ * @updated    2021-02-05 00:21:45 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -125,8 +125,6 @@ $string['viewwidth'] = 'ページ幅';
 $string['textfontfamily'] = 'テキストフォント';
 $string['headingfontfamily'] = 'ヘッディングフォント';
 $string['fontsize'] = 'フォントサイズ';
-$string['fontsizesmallest'] = '最小';
-$string['fontsizesmaller'] = '極小';
 $string['fontsizesmall'] = '小';
 $string['fontsizemedium'] = '中';
 $string['fontsizelarge'] = '大';
@@ -160,15 +158,26 @@ $string['manageskins'] = 'スキンを管理する';
 $string['sitefontsmenu'] = 'フォント';
 $string['sitefonts'] = 'フォント';
 $string['sitefontsdescription'] = '<p>あなたのサイトのスキンで使用するため以下のフォントがインストールされています。</p>';
-$string['installfontinstructions'] = '<p>
-CSS @font-faceルールによってウェブページに埋め込むことのできるフォントを追加します。すべての作者/開発者がこれを許可するわけではないことに留意してください。
+$string['installfontinstructions1'] = '<p>
+CSS @font-faceルールによってウェブページに埋め込めるフォントを追加します。すべての作者/開発者がこれを許可するわけではないことに留意してください。
 </p>
 <p>
-ウェブページへの埋め込みが許可された適切なフリーフォントを見つけた場合、あなたは次のフォーマットに変換する必要があります:
+ウェブページへの埋め込みが許可された適切なフリーフォントを探せた場合、あなたは次のフォーマットに変換する必要があります:
 <br />TrueTypeフォント、Embedded OpenTypeフォント、Web Open Font FormatフォントおよびScalable Vector Graphicフォント。
 </p>
 <p>
-あなたは<a href="https://www.fontsquirrel.com/tools/webfont-generator/">FontSquirrel Online Generator</a>を変換に利用できます。
+あなたは変換に<a href="https://www.fontsquirrel.com/tools/webfont-generator/">FontSquirrel Online Generator</a>を利用できます。
+</p>
+<p>
+また、あなたは次の手順でGoogleフォントをインストールできます:
+<ol>
+<li><a href="https://google-webfonts-helper.herokuapp.com">Google webfonts helper</a>にアクセスしてください。ご自分の責任でこの操作を実行してください。このサービスはGoogle Fontsにより提供されているものではありません。</li>
+<li>あなたに表示されているフォントを選択してください。</li>
+<li>あなたに必要な文字セットを選択してください。</li>
+<li>あなたが有効にしたいスタイルを選択してください。</li>
+<li>ページのステップ4で生成されたZIPファイルをダウンロードしてください。</li>
+<li>そのZIPファイルをこのフォームでアップロードしてください。</li>
+</ol>
 </p>';
 $string['nofonts'] = 'フォントがありません。';
 $string['font'] = 'フォント';
@@ -258,19 +267,7 @@ $string['sampletitle21'] = 'Grumpy wizards make...';
 $string['sampletext21'] = 'Grumpy wizards make toxic brew for the evil Queen and Jack.';
 $string['sampletitle22'] = 'The quick brown fox...';
 $string['sampletext22'] = 'The quick brown fox jumps over the lazy dog.';
-$string['installgwfont'] = 'Googleフォントをインストールする';
 $string['archivereadingerror'] = 'ZIP書庫の読み込み中にエラーが発生しました。';
-$string['gwfontadded'] = 'Googleフォントが正常にインストールされました。';
-$string['gwfontsnotavailable'] = '現在、Googleフォントは利用できません。';
-$string['gwfinstructions'] = '<ol>
-<li><a href="https://fonts.google.com">Googleフォント</a>にアクセスしてください。</li>
-<li>フォントを選択してあなたのコレクションに追加してください。</li>
-<li>コレクション内のフォントをZIPファイルとしてダウンロードしてください。</li>
-<li>このフォームにZIPファイルをアップロードしてください。</li>
-<li>Googleフォントをインストールしてください。</li>
-</ol>';
-$string['gwfzipfile'] = '有効なZIPファイル';
-$string['gwfzipdescription'] = 'インストールする選択済みGoogleフォントすべてを含む有効なZIPファイルです。';
 $string['notvalidzipfile'] = 'これは有効なZIPファイルではありません。';
 $string['fontlicence'] = 'フォントライセンス';
 $string['fontlicencenotfound'] = 'フォントライセンスが見つかりませんでした。';
