@@ -348,7 +348,7 @@ $string['emailsettings'] = 'Eメール設定';
 $string['emailsmtphosts'] = 'SMTPホスト';
 $string['emailsmtphostsdescription'] = 'メール送信に使用するSMTPサーバです。例) smtp1.example.com';
 $string['emailsmtpport'] = 'SMTPポート';
-$string['emailsmtpportdescription'] = 'SMTPサーバが25とは異なるポートを使用する場合、ポート番号を指定してください。';
+$string['emailsmtpportdescription'] = 'SMTPサーバが25と異なるポートを使用する場合、ポート番号を指定してください。';
 $string['emailsmtpuser'] = 'ユーザ';
 $string['emailsmtpuserdescription'] = 'SMTPサーバに認証が必要な場合、該当するフィールドにユーザ認証情報を入力してください。';
 $string['emailsmtppass'] = 'パスワード';
@@ -378,7 +378,7 @@ $string['uploadcsverrorinvalidpassword'] = 'あなたのファイルの %s 行�
 $string['uploadcsverrorinvalidusername'] = 'あなたのファイルの %s 行目にエラーがあります: このユーザのユーザ名は正しい形式ではありません。';
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には必須の「 %s 」フィールドが含まれていません。';
 $string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」はすでに存在します。';
-$string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」はすでに他のユーザにより取得されています。';
+$string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」はすでに他のユーザに取得されています。';
 $string['uploadcsvpagedescription2'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードできます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば以下のようになります:</p>
