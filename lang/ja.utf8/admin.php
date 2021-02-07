@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-02-02 10:59:22 UTC
+ * @updated    2021-02-07 00:56:17 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -607,7 +607,7 @@ $string['emailsettings'] = 'Eメール設定';
 $string['emailsmtphosts'] = 'SMTPホスト';
 $string['emailsmtphostsdescription'] = 'メール送信に使用するSMTPサーバです。例) smtp1.example.com';
 $string['emailsmtpport'] = 'SMTPポート';
-$string['emailsmtpportdescription'] = 'SMTPサーバが25とは異なるポートを使用する場合、ポート番号を指定してください。';
+$string['emailsmtpportdescription'] = 'SMTPサーバが25と異なるポートを使用する場合、ポート番号を指定してください。';
 $string['emailsmtpuser'] = 'ユーザ';
 $string['emailsmtpuserdescription'] = 'SMTPサーバに認証が必要な場合、該当するフィールドにアカウント認証情報を入力してください。';
 $string['emailsmtppass'] = 'パスワード';
@@ -645,9 +645,9 @@ $string['uploadcsverrorinvalidpassword1'] = 'あなたのファイルの %s 行�
 $string['uploadcsverrorinvalidusername'] = 'あなたのファイルの %s 行目にエラーがあります: この人のユーザ名は正しいフォーマットではありません。';
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には必須の「 %s 」フィールドが含まれていません。';
 $string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」はすでに存在します。';
-$string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」はすでに他の人により取得されています。';
-$string['uploadcsverrorduplicateremoteuser'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでに他の人により取得されています。';
-$string['uploadcsverrorremoteusertaken'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでに「 %s 」により取得されています。';
+$string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」はすでに他の人に取得されています。';
+$string['uploadcsverrorduplicateremoteuser'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでに他の人に取得されています。';
+$string['uploadcsverrorremoteusertaken'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでに「 %s 」に取得されています。';
 $string['uploadcsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーがあります: 「 %s 」はインスティテューション「 %s 」のメンバーではありません。';
 $string['uploadcsverroruserinaninstitution'] = 'あなたのファイルの %s 行目にエラーがあります: 「 %s 」は次のインスティテューションのメンバーです: %s あなたはこの人の認証方法を「No Institution」に変更できません。';
 $string['uploadcsverrorinvalidexpirydate'] = 'あなたのファイルの %s 行目にエラーがあります: 有効期限「 %s 」が無効です。有効な日付フォーマットを使用してください。';
