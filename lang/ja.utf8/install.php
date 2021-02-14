@@ -28,14 +28,14 @@ $string['homedefaultcontent'] = '<h1>Maharaにようこそ</h1>
 
 <p>[<b>あなたの組織名</b>]はオンラインコミュニティを構築するための十分な機能を有するインターネット上のポートフォリオシステムです。</p>
 
-<p>Maharaに関する詳細は<a href="about.php">About</a> [このページを忘れずに編集してください] をお読みください。また、私たちに<a href="contact.php">お気軽にお問い合わせください</a>。</p>
+<p>Maharaに関する詳細は<a href="about.php">About</a> [このページを忘れずに編集してください] をお読みください。また、私たちに<a href="contact.php">お問い合わせください</a>。</p>
 
 <p>あなたはこのテキストを %s で編集できます。</p>';
 $string['loggedouthomedefaultcontent'] = '<h1>Maharaにようこそ</h1>
 
 <p>[<b>あなたの組織名</b>]はオンラインコミュニティを構築するための十分な機能を有するインターネット上のポートフォリオシステムです。</p>
 
-<p>Maharaに関する詳細は<a href="about.php">About</a> [このページを忘れずに編集してください] をお読みください。また、私たちに<a href="contact.php">お気軽にお問い合わせください</a>。</p>
+<p>Maharaに関する詳細は<a href="about.php">About</a> [このページを忘れずに編集してください] をお読みください。また、私たちに<a href="contact.php">お問い合わせください</a>。</p>
 
 <p>あなたはこのテキストを %s で編集できます。</p>';
 $string['privacydefaultcontent'] = '<h2>自己紹介</h2>
