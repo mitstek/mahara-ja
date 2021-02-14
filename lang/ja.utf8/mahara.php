@@ -195,7 +195,7 @@ $string['accountexpirywarninghtml'] = '<p>%s さん</p>
 
 <p>エクスポートツールを使用してあなたのポートフォリオのコンテンツを保存することをお勧めします。この機能の使用に関するインストラクションはユーザガイドに記載されています。</p>
 
-<p>あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>。</P>
+<p>あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問はお気軽に<a href="%s">お問い合わせください</a>。</P>
 
 <p>%s サイト管理者</p>';
 $string['institutionmembershipexpirywarning'] = 'インスティテューションメンバーシップト終了通知';
@@ -212,7 +212,7 @@ $string['institutionmembershipexpirywarninghtml'] = '<p>%s さん</p>
 
 <p>あなたの %s における %s のメンバーシップは %s に有効期限が切れます。</p>
 
-<p>あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>。</P>
+<p>あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽に<a href="%s">お問い合わせください</a>。</P>
 
 <p>%s サイト管理者</p>';
 $string['institutionexpirywarning'] = 'インスティテューション終了通知';
@@ -229,7 +229,7 @@ $string['institutionexpirywarninghtml_institution'] = '<p>%s さん</p>
 
 <p>%s の %s におけるメンバーシップは %s で終了します。</p>
 
-<p>あなたのインスティテューションメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>。</P>
+<p>あなたのインスティテューションメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽に<a href="%s">お問い合わせください</a>。</P>
 
 <p>%s サイト管理者</p>';
 $string['institutionexpirywarningtext_site'] = '%s さん
@@ -359,7 +359,7 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 
 <p>あなたがパスワードのリセットをリクエストしていない場合、このメールは無視してください。</p>
 
-<p>上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>。</p>
+<p>上記内容に関するご質問はお気軽に<a href="%s">お問い合わせください</a>。</p>
 
 <p>%s サイト管理者</p>';
 $string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは私たちに責任があります。再度お試しください。';
@@ -394,7 +394,7 @@ $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 
 <p><a href="%sforgotpass.php?key=%s">%sforgotpass.php?key=%s</a></p>
 
-<p>上記内容に関するご質問は<a href="%scontact.php">お気軽にお問い合わせください</a>。</p>
+<p>上記内容に関するご質問はお気軽に<a href="%scontact.php">お問い合わせください</a>。</p>
 
 <p>%s サイト管理者</p>
 
