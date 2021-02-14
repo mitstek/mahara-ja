@@ -1,0 +1,180 @@
+./module/framework/lang/ja.utf8/module.framework.php:$string['firstviewlink'] = 'コレクションの<a href="%s">最初のページ</a>に移動してください。';
+./module/framework/lang/ja.utf8/module.framework.php:$string['uploadframeworkdesc2'] = 'JSONエンコード済みの.matrixファイルをアップロードします。マークアップの例に関して<a href="https://git.mahara.org/mahara/mahara/-/blob/%s/test/behat/upload_files/example.matrix">Mahara git repository</a>、個別のコンポーネントの例に関して<a href="%s">Maharaマニュアル</a>をご覧ください。';
+./module/lti/lang/ja.utf8/module.lti.php:$string['portfoliosubmittedforgrading'] = 'あなたは評価のためポートフォリオ「 <strong><a href="%s">%s</a></strong> 」を %s に提出しました。';
+./module/lti/lang/ja.utf8/module.lti.php:$string['submitintro'] = 'あなたがこの活動に提出したいページまたはコレクションを選択してください。あなたにまだポートフォリオがない場合、<strong><a href="%sview/index.php" target="_blank">作成してください</a></strong>。あなたの作成後、LMSから活動を再度読み込んでください。';
+./artefact/peerassessment/lang/ja.utf8/artefact.peerassessment.php:<p><a href="%s">この相互評価をオンラインで閲覧する</a></p>
+./artefact/comment/lang/ja.utf8/artefact.comment.php:<p><a href="%s">このコメントにオンラインで返信する</a></p>
+./artefact/comment/lang/ja.utf8/artefact.comment.php:<p><a href="%s">%s</a></p>
+./artefact/blog/lang/ja.utf8/artefact.blog.php:$string['bygroup'] = 'by グループ <a href="%s">%s</a>';
+./artefact/blog/lang/ja.utf8/artefact.blog.php:$string['byinstitution'] = 'by インスティテューション <a href="%s">%s</a>';
+./artefact/blog/lang/ja.utf8/artefact.blog.php:$string['nodefaultblogfound'] = 'デフォルトの日誌が見つかりませんでした。これはシステムのバグです。これを修正するにはあなたは<a href="%saccount/index.php">アカウント設定</a>ページで複数日誌オプションを有効にする必要があります。';
+./artefact/blog/lang/ja.utf8/artefact.blog.php:$string['youhavenoblogsaddone'] = 'あなたには日誌がありません。<a href="%s">日誌を追加してください</a>。';
+./artefact/blog/lang/ja.utf8/artefact.blog.php:$string['youhavenogroupblogsaddone'] = 'このグループには日誌がありません。<a href="%s">日誌を追加してください</a>。';
+./artefact/blog/lang/ja.utf8/artefact.blog.php:$string['youhavenoinstitutionblogs1'] = 'このインスティテューションには日誌がありません。<a href="%s">日誌を追加してください</a>。';
+./artefact/blog/lang/ja.utf8/artefact.blog.php:$string['youhavenositeblogs1'] = 'サイト日誌がありません。<a href="%s">日誌を追加してください</a>。';
+./artefact/blog/lang/ja.utf8/artefact.blog.php:$string['enablemultipleblogstext'] = 'あなたには1件の日誌があります。あなたが2件目の日誌を作成したい場合、<a href="%saccount/index.php">アカウント設定</a>ページで複数日誌オプションを有効にしてください。';
+./artefact/blog/lang/ja.utf8/artefact.blog.php:$string['hiddenblogsnotification'] = '新たに日誌が作成されましたが、あなたのアカウントでは複数日誌オプションが有効にされていません。あなたは<a href="%saccount/index.php">アカウント設定</a>ページで複数日誌オプションを有効にできます。';
+./artefact/internal/lang/ja.utf8/artefact.internal.php:$string['aboutprofilelinkdescription'] = '<p>他の人に表示したい情報を編集するにはあなたの<a href="%s">プロファイル</a>ページに移動してください。</p>';
+./artefact/internal/lang/ja.utf8/artefact.internal.php:<p>あなたがこの %a アカウントの変更をリクエストしていない場合、<a href="%scontact.php">サイト管理者にご連絡ください</a>。</p>';
+./artefact/internal/lang/ja.utf8/help/forms/profileform.email.html:<p>新しいメールアドレスを追加するには<a onclick="email_new(); return false;" href="">メールアドレスを追加する</a>をクリックしてください。あなたのプロファイルを保存した後、新しいメールアドレス宛にメッセージが送信されます。新しいメールアドレスの登録を有効にするにはメッセージ内のリンクをクリックしてください。</p>
+./artefact/internal/blocktype/profileinfo/lang/ja.utf8/blocktype.profileinfo.php:$string['uploadaprofileicon'] = 'あなたにはプロファイル画像がありません。<a href="%sartefact/file/profileicons.php">アップロードしてください</a>。';
+./artefact/annotation/lang/ja.utf8/artefact.annotation.php:<p><a href="%s">このフィードバックにオンラインで返信する</a></p>
+./artefact/annotation/lang/ja.utf8/artefact.annotation.php:<p><a href="%s">%s</a></p>
+./artefact/file/lang/ja.utf8/artefact.file.php:$string['htmlremovedmessage'] = 'あなたが閲覧しているファイル「 <strong>%s</strong> 」は<a href="%s">%s</a>によりアップロードされたものです。以下に表示されているファイルは不適切なコンテンツのため削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
+./artefact/file/blocktype/gallery/lang/ja.utf8/blocktype.gallery.php:$string['flickrapikeydesc'] = 'あなたがFlickrのフォトセットを表示するには有効なFlickr APIキーが必要です。<a href="https://www.flickr.com/services/api/keys/apply/">あなたのキーをオンラインで適用してください</a>。';
+./artefact/file/blocktype/gallery/lang/ja.utf8/blocktype.gallery.php:$string['pbapikeydesc'] = 'あなたがPhotobucketのフォトアルバムを表示するには有効なAPIキーおよびAPI秘密鍵が必要です。<br /><a href="https://developer.photobucket.com/">Photobucket開発者ウェブサイト</a>にアクセスして利用規約に同意、サインアップした後、APIキーを取得してください。';
+./lang/ja.utf8/activity.php:<p>クレーム対象: <a href="%s">%s</a></p>
+./lang/ja.utf8/activity.php:<p>報告者: <a href="%s">%s</a></p>
+./lang/ja.utf8/activity.php:<p>クレーム対象: <a href="%s">%s</a></p>
+./lang/ja.utf8/activity.php:<p>報告者: <a href="%s">%s</a></p>
+./lang/ja.utf8/activity.php:<p>リクエスト対象: <a href="%s">%s</a></p>
+./lang/ja.utf8/activity.php:<p>リクエスト者: <a href="%s">%s</a></p>
+./lang/ja.utf8/activity.php:<p>リクエスト対象: <a href="%s">%s</a></p>
+./lang/ja.utf8/activity.php:<p>リクエスト者: <a href="%s">%s</a></p>
+./lang/ja.utf8/view.php:$string['viewsubmittedtogroup1'] = 'このポートフォリオは<a href="%s">%s</a>に送信されました。';
+./lang/ja.utf8/view.php:$string['viewsubmittedtogroupon1'] = 'このポートフォリオは<a href="%s">%s</a>に対して %s に送信されました。';
+./lang/ja.utf8/view.php:$string['viewsubmittedtogroupgrade'] = 'このポートフォリオは課題「 <a href="%s">%s</a> 」 (%s) に対して %s に送信されました。　';
+./lang/ja.utf8/view.php:$string['collectionsubmittedtogroup'] = 'このコレクションは<a href="%s">%s</a>に送信されました。';
+./lang/ja.utf8/view.php:$string['collectionsubmittedtogroupon'] = 'このコレクションは<a href="%s">%s</a>に対して %s に送信されました。';
+./lang/ja.utf8/view.php:$string['collectionsubmittedtogroupgrade'] = 'このコレクションは課題「 <a href="%s">%s</a> 」 (%s) に対して %s に送信されました。　';
+./lang/ja.utf8/view.php:$string['youhavesubmitted'] = 'あなたはこのグループに <a href="%s">%s</a> を送信しました。';
+./lang/ja.utf8/view.php:$string['youhavesubmittedon'] = 'あなたはこのグループに <a href="%s">%s</a> を %s に送信しました。';
+./lang/ja.utf8/view.php:$string['deleteviewconfirmbackup'] = '<a href="%sexport/">エクスポート</a>によるこのページのバックアップ作成をご検討ください。';
+./lang/ja.utf8/view.php:$string['deleteviewconfirmnote2'] = 'このページはコレクション<a href="%s">「 %s 」</a>の一部です。';
+./lang/ja.utf8/view.php:$string['editsecreturlsintable'] = '個別に生成する必要があるためこのページでは<b>シークレットURL</b>を設定できません。シークレットURLを設定するには<a href="%s">コレクションおよびページの一覧</a>に戻ってください。';
+./lang/ja.utf8/view.php:$string['viewtitleby'] = '%s by <a href="%s">%s</a>';
+./lang/ja.utf8/view.php:$string['viewauthor'] = 'by <a href="%s">%s</a>';
+./lang/ja.utf8/view.php:あなたがこのページのみを変換したい場合、「承認」をクリックしてください。すべてのページを変換して再度このメッセージを表示したくない場合、「承認および記憶する」をクリックしてください。このオプションはあなたの<a href="%s">プリファレンス</a>で変更できます。編集せずにページに戻るには「キャンセル」をクリックしてください。';
+./lang/ja.utf8/install.php:<p>[<b>あなたの組織名</b>]は<a href="https://mahara.org">Mahara</a>により構築されています。Maharaは (GNU General Public License 一般公衆利用許諾契約書の下)、無償のオープンソースソフトウェアとして提供されます。つまり、以下の条件に同意することによりあなたにMaharaのコピー、使用および修正が許可されていることを意味します:</p>
+./lang/ja.utf8/install.php:$string['staticpageconfigdefaults'] = '「管理メニュー」 → 「サイト設定」 → 「<a href="%s"><b>固定ページ</b></a>」';
+./lang/ja.utf8/install.php:$string['versionedpageconfigdefault'] = '「管理メニュー」 → 「サイト設定」 → 「<a href="%s"><b>法律</b></a>」';
+./lang/ja.utf8/install.php:$string['staticpageconfiginstitutions'] = '「管理メニュー」 → 「インスティテューション」 → 「<a href="%s"><b>固定ページ</b></a>」';
+./lang/ja.utf8/error.php:$string['unabletosetmultipleblogs'] = '「 %s 」のページ「 %s 」のコピーによる複数日誌の有効化に失敗しました。これは<a href="%s">アカウント</a>ページで手動で設定できます。';
+./lang/ja.utf8/error.php:$string['switchtomysqli'] = 'あなたのサーバには<strong>mysqli</strong> PHP拡張モジュールがインストールされていません。そのためMaharaは廃止予定のオリジナル<strong>mysql</strong> PHP拡張モジュールに戻っています。私たちは<a href="https://php.net/manual/en/book.mysqli.php">mysqli</a>のインストールをお勧めします。';
+./lang/ja.utf8/error.php:$string['noreplyaddressmissingorinvalid'] = 'システムメールアドレスに空白または有効ではないメールアドレスが設定されています。<a href="%s">サイトオプション内の「Eメール設定」</a>の設定内容を確認してください。';
+./lang/ja.utf8/admin.php:$string['copyright'] = 'Copyright &copy; 2006 onwards, <a href="https://wiki.mahara.org/Contributors">Catalyst IT and others</a>';
+./lang/ja.utf8/admin.php:$string['upgradeinprogress'] = '%s に開始されたアップグレードは完了していません。<a href="?rerun=1">このアップグレードを実行します</a>。';
+./lang/ja.utf8/admin.php:$string['sitelicensesdisablednote1'] = '<b>注意</b>: 現在、ライセンスメタデータは無効にされています。人がライセンスを指定できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「サイト設定」セクションでライセンスメタデータを有効にする必要があります。';
+./lang/ja.utf8/admin.php:<p>この作業のインストラクションに関してMahara wikiの<a href="https://wiki.mahara.org/wiki/System_Administrator\'s_Guide/Clean_URL_Configuration">「クリーンURL設定 (英語)」</a>をご覧ください。</p>';
+./lang/ja.utf8/admin.php:$string['sendweeklyupdatesdescription'] = 'あなたのサイトの統計情報を含む週ごとの更新状況の<a href="https://mahara.org/">mahara.org</a>への送信を許可します。';
+./lang/ja.utf8/admin.php:$string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/registersite.php">サイト登録ページ</a>にアクセスして登録できます。';
+./lang/ja.utf8/admin.php:$string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することにより私たちが世界中のMaharaインストール状況を把握するための助けとなります。</p>';
+./lang/ja.utf8/admin.php:$string['siteisregisteredsince'] = '%s 以来、あなたのサイトは<a href="https://mahara.org/">mahara.org</a>に登録されています。';
+./lang/ja.utf8/admin.php:$string['siteisregistered'] = 'あなたのサイトは<a href="https://mahara.org/">mahara.org</a>に登録されます。';
+./lang/ja.utf8/admin.php:$string['startsendingdata'] = 'あなたのサイトは週ごとの更新状況を<a href="https://mahara.org/">mahara.org</a>に送信しています。';
+./lang/ja.utf8/admin.php:$string['cronnotrunning2'] = '<strong class="error text-danger">cronが動作していません。</strong><br />cronの設定に関するインストラクションは<a href="https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronを設定している場合、直近の1つまたはそれ以前の処理が正しく実行されませんでした。';
+./lang/ja.utf8/admin.php:$string['statsmaxfriends1'] = 'フレンド数: %2$s<br />(<a href="%3$s">%4$s には最大 %1$d 人のフレンドがいます</a>)';
+./lang/ja.utf8/admin.php:$string['statsmaxviews1'] = '作成ページ数: %2$s<br />(<a href="%3$s">%4$s は最大 %1$d ページを所有しています</a>)';
+./lang/ja.utf8/admin.php:$string['statsmaxgroups1'] = '所属グループ数: %2$s<br />(<a href="%3$s">%4$s は最大 %1$d のグループに属しています</a>)';
+./lang/ja.utf8/admin.php:$string['statsmaxquotaused1'] = 'ディスククオータ使用: %s<br />(<a href="%s">%s は最大 %s のディスククオータを使用しています</a>)';
+./lang/ja.utf8/admin.php:$string['latestversionis'] = '最新メジャーリリース: <a href="%s">%s</a>';
+./lang/ja.utf8/admin.php:$string['latestbranchversionis'] = 'このリリースのマイナーバージョン: <a href="%s">%s</a>';
+./lang/ja.utf8/admin.php:$string['recaptchaonregisterformdesc3'] = '新しいアカウントを自己登録または「お問い合わせ」フォームを使用する人は<a href="https://www.google.com/recaptcha/">reCAPTCHA</a>テストに合格して自分が人間であることを証明する必要があります。';
+./lang/ja.utf8/admin.php:$string['remoteavatarsdescription1'] = 'デフォルトプロファイル画像に<a href="https://www.gravatar.com">Gravatar</a>サービスを利用します。';
+./lang/ja.utf8/admin.php:$string['institutionstrictprivacydescription'] = 'あなたのサイトが<a href="https://www.eugdpr.org/">GDPR</a>を順守する必要がある場合、このオプションを有効にしてください。';
+./lang/ja.utf8/admin.php:$string['uploadcsverrorunspecifiedproblem1'] = '何らかの理由によりあなたのCSVファイルのレコードを追加できませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href="https://bugs.launchpad.net/mahara/+filebug">バクレポートを作成してください</a> (忘れずにパスワードを空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
+./lang/ja.utf8/admin.php:$string['uploadcsvpagedescription7'] = '<p>ここであなたは<acronym title="Comma Separated Values">CSV</acronym>ファイルをアップロードして新しいアカウントを作成できます。</p>
+./lang/ja.utf8/admin.php:$string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいグループをアップロードできます。</p>
+./lang/ja.utf8/admin.php:$string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用してこのインスティテューションで管理されるグループ内のグループメンバーを更新できます。</p>
+./lang/ja.utf8/admin.php:<p>shortnameフィールドはあなたが<a href="%s" title="%s">ここ</a>でグループを作成した時に使用した名称と同じにする必要があります。</p>
+./lang/ja.utf8/admin.php:$string['leap2aimportfailed'] = '<p><strong>申し訳ございません、Leap2Aファイルのインポートに失敗しました。</strong></p><p>これはあなたが有効なLeap2Aファイルをアップロードに選択しなかったから、またはこのMaharaのバージョンではあなたのLeap2Aファイルがサポートされていないからだと考えられます。また、Leap2Aファイルが有効な場合、Maharaのバグがあなたのファイルのアップロードを失敗させていることも考えられます。</p><p><a href="add.php">戻ってファイルのアップロードを再度お試しください</a>。この問題が続く場合、エラー状況を<a href="https://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。その場合、あなたのファイルのコピーを準備してください。</p>';
+./lang/ja.utf8/admin.php:$string['noinstitutionreportsdescription1'] = 'サイトがスタッフにインスティテューションレポートを閲覧できるようにするにはスタッフレポートアクセスを有効にする必要があります。サイト管理者は<a href="%sadmin/site/options.php">サイト設定</a>の「インスティテューション設定」でこの設定を有効にできます。';
+./lang/ja.utf8/admin.php:$string['noinstitutionstaticpagesadmin'] = 'あなたがサイト管理者の場合、<a href="%s">サイト設定</a>でデフォルト固定ページを編集してください。';
+./lang/ja.utf8/admin.php:$string['masqueradingnotloggedwarning'] = '<b>注意</b>: マスカレーディングセッションのロギングは現在無効にされています。このテーブルのデータを閲覧するには管理者が「 <a href="%sadmin/site/options.php">サイト設定</a> 」の「ロギング設定」を有効にする必要があります。';
+./lang/ja.utf8/admin.php:$string['progressbardisablednote2'] = '<b>注意</b>: 現在、プロファイル完了は無効にされています。人がプロファイル完了に関して進捗を追跡できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「サイドブロック設定」セクションで有効にする必要があります。';
+./lang/ja.utf8/admin.php:$string['addoneversionlink'] = '必要であれば<a href="%s">追加してください</a>。';
+./lang/ja.utf8/import.php:<p>戻って再度お試しください。問題が続く場合、サポートを求めるため<a href="https://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。あなたのファイルのコピーを準備してください。</p>';
+./lang/ja.utf8/mahara.php:$string['edittag'] = '<a href="%s">%s</a> を編集する';
+./lang/ja.utf8/mahara.php:$string['deletetag'] = '<a href="%s">%s</a> を削除する';
+./lang/ja.utf8/mahara.php:$string['accountdeleted'] = '申し訳ございません、あなたのアカウントは削除されました。<a href="%scontact.php">サイト管理者にご連絡ください</a>。';
+./lang/ja.utf8/mahara.php:$string['accountexpired'] = '申し訳ございません、あなたのアカウントの有効期限が切れました。あなたのアカウントを再度有効にするには<a href="%scontact.php">サイト管理者にご連絡ください</a>。';
+./lang/ja.utf8/mahara.php:<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細情報は以下のとおりです:</p>
+./lang/ja.utf8/mahara.php:<p>利用開始するには <a href="%s">%s</a> にアクセスしてください!</p>
+./lang/ja.utf8/mahara.php:<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細情報は以下のとおりです:</p>
+./lang/ja.utf8/mahara.php:<p>利用開始するには <a href="%s">%s</a> にアクセスしてください!</p>
+./lang/ja.utf8/mahara.php:<p>あなたのアカウントの有効期限が切れた後もポートフォリオコンテンツを保持したい場合、<a href="%s">エクスポートツール</a>でポートフォリオをエクスポートすることをお勧めします。</p>
+./lang/ja.utf8/mahara.php:<p>あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>。</P>
+./lang/ja.utf8/mahara.php:<p>あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>。</P>
+./lang/ja.utf8/mahara.php:<p>あなたのインスティテューションメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>。</P>
+./lang/ja.utf8/mahara.php:<p>%s のメンバーシップの有効期限を延長したい場合、<a href="%s">お問い合わせください</a>。</P>
+./lang/ja.utf8/mahara.php:$string['institutionlink'] = '<a href="%s">%s</a>';
+./lang/ja.utf8/mahara.php:$string['link'] = '<a href="%s">%s</a>';
+./lang/ja.utf8/mahara.php:$string['sessiontimedoutpublic'] = 'あなたのセッションはタイムアウトしました。閲覧を続けるには<a href="%s">ログイン</a>してください。';
+./lang/ja.utf8/mahara.php:$string['registeragreeterms'] = 'また、あなたは<a href="terms.php">利用条件</a>に同意する必要があります。';
+./lang/ja.utf8/mahara.php:<p><a href="%s">%s</a></p>
+./lang/ja.utf8/mahara.php:<p>上記内容に関するご質問は<a href="%s">お気軽にお問い合わせください</a>。</p>
+./lang/ja.utf8/mahara.php:<p><a href="%sforgotpass.php?key=%s">%sforgotpass.php?key=%s</a></p>
+./lang/ja.utf8/mahara.php:<p>上記内容に関するご質問はお気軽に<a href="%scontact.php">お問い合わせください</a>。</p>
+./lang/ja.utf8/mahara.php:<p><a href="%sforgotpass.php?key=%s">%sforgotpass.php?key=%s</a></p>';
+./lang/ja.utf8/mahara.php:<p><a href="%sforgotpass.php">%sforgotpass.php</a></p>
+./lang/ja.utf8/mahara.php:<p>上記内容に関するご質問はお気軽に<a href="%scontact.php">お問い合わせください</a>。</p>。
+./lang/ja.utf8/mahara.php:<p><a href="%sforgotpass.php">%sforgotpass.php</a></p>';
+./lang/ja.utf8/mahara.php:$string['siteclosedlogindisabled'] = 'データベースアップグレードのためサイトは一時的に閉鎖されています。<a href="%s">今からアップグレードを実行します。</a>';
+./lang/ja.utf8/mahara.php:$string['countryisocustomise'] = 'あなたのサイトの国名を調整するにはそれぞれの翻訳の「mahara.php」言語ファイルを編集するか、<a href="https://wiki.mahara.org/wiki/Developer_Area/Language_strings#Custom_lang_strings_in_.2Flocal">localディレクトリにストリングを作成してください</a>。';
+./lang/ja.utf8/mahara.php:$string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールできます。';
+./lang/ja.utf8/mahara.php:<p>あなたは %s のアカウントをインスティテューション「 %s 」からインスティテューション「 %s 」に移動したいと希望しています。<a href="%s">あなたのアカウント移動を承認してください</a>。</p>
+./lang/ja.utf8/mahara.php:<p>この問題を解決するにはインスティテューション「 %s 」の<a href="%s">管理者にご連絡ください</a>。</p>
+./lang/ja.utf8/mahara.php:$string['restartmigration'] = '<a href="%s">インスティテューションを選択する</a>ページで再度アカウント移動処理を開始してください。';
+./lang/ja.utf8/mahara.php:$string['migrateinstitutionpagelink'] = '<a href="%s">アカウントを移動する</a>ページに移動して、あなたのインスティテューションおよび %s へのログイン方法を変更してください。';
+./lang/ja.utf8/mahara.php:$string['institutionmaxusersexceededrequest'] = 'このインスティテューションは満員です。現在、あなたは参加できません。インスティテューション管理者に報告されました。後ほど再度お試しください。問題が続く場合、<a href="%s">インスティテューション管理者にご連絡ください</a>。';
+./lang/ja.utf8/account.php:$string['changepasswordotherinterface'] = 'あなたは異なるインターフェースで<a href="%s">パスワードを変更できます</a>。';
+./lang/ja.utf8/account.php:$string['maildisableddescription'] = 'あなたのアカウント宛のメール送信が停止されました。アカウントプリファレンスページで<a href="%s">あなたのEメールを再度有効</a>にできます。';
+./lang/ja.utf8/account.php:<p>あなたはこの人が属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定できます。これを実行するには次のリンクにアクセスしてください: <a href=\'%s\'>%s</a></p>
+./lang/ja.utf8/account.php:<p>あなたはこの人が属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定できます。これを実行するには次のリンクにアクセスしてください: <a href=\'%s\'>%s</a></p>
+./lang/ja.utf8/skin.php:あなたは変換に<a href="https://www.fontsquirrel.com/tools/webfont-generator/">FontSquirrel Online Generator</a>を利用できます。
+./lang/ja.utf8/skin.php:<li><a href="https://google-webfonts-helper.herokuapp.com">Google webfonts helper</a>にアクセスしてください。ご自分の責任でこの操作を実行してください。このサービスはGoogle Fontsにより提供されているものではありません。</li>
+./lang/ja.utf8/skin.php:$string['fontuploadinstructions'] = '<br />必要なフォントファイルをアップロードする場合、あなたは<a href="https://www.fontsquirrel.com/tools/webfont-generator/">FontSquirrel Online Generator</a>によって生成されたZIPファイルを直接アップロードするか、
+./lang/ja.utf8/group.php:$string['trysearchingforgroups1'] = '参加するには<a href="%sgroup/index.php?filter=canjoin">グループの検索</a>をお試しください。';
+./lang/ja.utf8/group.php:$string['invitemembersdescription'] = 'あなたはプロファイルページ経由または<a href="%s">複数招待の同時送信</a>により人にこのグループへの参加を招待できます。';
+./lang/ja.utf8/group.php:$string['membersdescription:controlled'] = 'これは「管理メンバーシップ」グループです。あなたは人をプロファイルページより直接追加または<a href="%s">一度に多くの人を追加できます</a>。';
+./lang/ja.utf8/help/forms/siteoptions.viruschecking.html:<p>あなたのサーバにClamAVをインストールする必要があります。多くのLinuxディストリビューションでは<code>clamav</code>パッケージが同梱されています。また、あなたは<a href="https://www.clamav.net/">ClamAVウェブサイト</a>から、ClamAVをダウンロードおよびインストールすることもできます。</p>
+./lang/ja.utf8/help/forms/institution.registerallowed.html:<p>一般的にあなたがLDAPログインまたは外部アプリケーションのSSO経由でこのインスティテューションへの登録を設定した場合、この設定を無効にしてください。同じく、あなたが「<a href="add.php">人を追加する</a>」または「<a href="uploadcsv.php">CSVで人を追加する</a>」ページを使用してアカウント作成をコントロールしたい場合、この設定を無効にしてください。</p>
+./lang/ja.utf8/help/forms/siteoptions.remoteavatars.html:<p>このオプションが有効にされた場合、プロファイル画像を設定していない人の画像を表示するため<a href="https://www.gravatar.com">Gravatar</a>オンラインサービスが利用されます。このサービスによりすべてのMaharaサイトおよびオンラインサービス個々にプロファイル画像を設定するのではなく、Gravatarにのみプロファイル画像を設定できます (その人の画像がGravatarに存在しない場合、デフォルトのMahara画像が表示されます)。</p>
+./lang/ja.utf8/help/forms/siteoptions.surbl.html:<a href="https://www.surbl.org/usage-policy.html">利用規約</a>をお読みください。</p>
+./lang/ja.utf8/help/forms/siteoptions.recaptchaonregisterform.html:<p>この機能が動作するためにはあなたはreCAPTCHAサイト鍵および秘密鍵を提供する必要があります。あなたはこれらのキーをreCAPTCHAウェブサイト、<a href="https://recaptcha.org">https://recaptcha.org</a>から取得できます。</p>
+./lang/ja.utf8/help/forms/siteoptions.defaultnotificationmethod.html:<p>新しいアカウントへの通知に使用される方法です。「受信箱」が設定された場合、通知はサイト上に保持されて、人は通知を閲覧するため<a href="../../account/activity">受信箱</a>ページにログインする必要があります。
+./lang/ja.utf8/help/forms/siteoptions.defaultnotificationmethod.html:人はこのプリファレンスを<a href="../../account/activity/preferences">通知設定</a>で変更できます。</p>
+./lang/ja.utf8/help/forms/institution.authplugin.html:<p><strong>内部</strong> 認証プラグインではユーザ名およびパスワードに関してサイトデータベースをチェックします。この認証に適合させるため人は登録フォーム経由の登録、または「a href="add.php">人を追加する</a>」または「<a href="uploadcsv.php">CSVで人を追加する</a>」ページでアカウントが登録されている必要があります。</p>
+./lang/ja.utf8/help/forms/siteoptions.mathjax.html:<p>代わりに$cfg->mathjaxpathで指定したローカルサーバのMathJaxインストレーションを使用することもできます。詳細は<a href="https://docs.mathjax.org/en/latest/installation.html">ドキュメンテーション</a>をご覧ください。</p>
+./lang/ja.utf8/help/forms/siteoptions.mathjax.html:<p>デフォルトでは化学式の「\ce」マクロを追加するmhchem機能を含みます。詳細は<a href="https://docs.mathjax.org/en/latest/tex.html#tex-and-latex-extensions">ドキュメンテーション</a>をご覧ください。</p>
+./lang/ja.utf8/help/forms/siteoptions.disableexternalresources.html:<p>詳細は<a href="https://htmlpurifier.org/live/configdoc/plain.html#URL.DisableExternalResources">HTML Purifier documentation</a>をご覧ください。</p>
+./lang/ja.utf8/help/forms/siteoptions.theme.html:<p>インスティテューションではインスティテューションにログインしたメンバーまたはインスティテューションのメンバーによって作成されたポートフォリオにアクセスする他の人に表示するデフォルトテーマも設定できます。あなたは<a href="../users/institutions.php">インスティテューション</a>セクションでインスティテューションのテーマを設定できます。</p>
+./lang/ja.utf8/help/forms/siteoptions.institutionstrictprivacy.html:<p>詳細は<a href="https://www.eugdpr.org/">GDPR</a>をご覧ください。</p>
+./lang/ja.utf8/help/forms/siteoptions.generatesitemap.html:<p>サイトマップは<a href="https://www.sitemaps.org/">sitemaps.org</a>フォーマットによる一連のXMLファイルです。サイトマップの「インデックス」は「[yoursite]/download.php?type=sitemap」にあります。過去1日に更新されたページを含む一連の日々のサイトマップスナップショットを一覧表示します。</p>
+./lang/ja.utf8/help/forms/adduser.leap2afile.html:<p>このオプションではあなたが個人ポートフォリオデータを含む、<a href="https://wiki.cetis.ac.uk/Leap2A_specification#About_this_specification">Leap2Aエクスポートファイル</a>をインポートできるようにします。
+./lang/ja.utf8/help/forms/adduser.leap2afile.html:<p><a href="https://wiki.mahara.org/wiki/Developer_Area/Import/Export">MaharaのLeap2Aサポート</a>に関してあなたはMahara Wikiで詳細を閲覧できます。</p>
+./lang/ja.utf8/help/forms/siteoptions.spamhaus.html:<p>Spamhausプロジェクトでは非営利および少ないデータトラフィックに対して無料で利用できるURL拒否リストを提供しています。業務用データフィードサービスも利用できますがMaharaではサポートされていません。このオプションを有効にする前にSpamhaus DNSBL <a href="https://www.spamhaus.org/organization/dnsblusage.html">利用規約</a>をお読みください。</p>
+./lang/ja.utf8/help/sections/loginbox.html:<p>「<a href="forgotpass.php">ユーザ名/パスワードを忘れました。</a>」をクリックすることでいつでもパスワードをリセットできます。</p>
+./lang/ja.utf8/help/pages/skin/import.html:あなたは他の人が作成したスキンを<a href="https://wiki.mahara.org/index.php/Page_skins">Mahara wiki</a>で確認できます。
+./interaction/forum/lang/ja.utf8/interaction.forum.php:<p><a href="%s">この投稿にオンラインで返信する</a></p>
+./interaction/forum/lang/ja.utf8/interaction.forum.php:<p><a href="%s">この %s から購読解除する</a></p>
+./interaction/forum/lang/ja.utf8/interaction.forum.php:<p><a href="%s">この投稿にオンラインで返信する</a></p>
+./interaction/forum/lang/ja.utf8/interaction.forum.php:<p><a href="%s">この %s から購読解除する</a></p>
+./interaction/forum/lang/ja.utf8/interaction.forum.php:<p>クレームは次に関連します: <a href="%s">%s</a></p>
+./interaction/forum/lang/ja.utf8/interaction.forum.php:<p>報告者: <a href="%s">%s</a></p>
+./interaction/forum/lang/ja.utf8/interaction.forum.php:<p>投稿者: <a href="%s">%s</a></p>
+./interaction/forum/lang/ja.utf8/interaction.forum.php:<p>拒否関連: <a href="%s">%s</a></p>
+./interaction/forum/lang/ja.utf8/interaction.forum.php:<p>拒否者: <a href="%s">%s</a></p>
+./auth/webservice/lang/ja.utf8/auth.webservice.php:<p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>
+./auth/webservice/lang/ja.utf8/auth.webservice.php:<p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>
+./auth/webservice/lang/ja.utf8/auth.webservice.php:$string['youmaynotregisterwithouttandc'] = '<a href="terms.php">利用条件</a>に従うことを同意しない限り、あなたは登録できません。';
+./auth/webservice/lang/ja.utf8/auth.webservice.php:$string['manage_certificates'] = '<a href="%s">ネットワーキング</a>サービスの一部として生成された証明書です。これらの値は特定のウェブサービストークンまたはサービスユーザに対してウェブサービスセキュリティ署名および暗号化が有効にされた場合にMaharaによって使用されます (XML-RPCおよびレガシーMNetのみ)。';
+./auth/webservice/lang/ja.utf8/auth.webservice.php:$string['nowsprotocolsenabled'] = '有効にされているウェブサービスプロトコルがありません。あなたは少なくとも1つの<a href="%s">プロトコル</a>を有効にする必要があります。';
+./auth/ldap/lang/ja.utf8/help/forms/auth_config.syncgroupscron.html:<p>cronが動作していない場合、この設定は無効となります。設定のインストラクションに関して<a href="https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara">インストールガイド</a>をご覧ください。</p>
+./auth/ldap/lang/ja.utf8/help/forms/auth_config.syncuserscron.html:<p>cronが動作していない場合、この設定は影響を及ぼしません。設定方法に関して<a href="https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara">インストレーションガイド</a>をご覧ください。</p>
+./auth/saml/lang/ja.utf8/auth.saml.php:$string['metadatavewlink'] = '<a href="%s">メタデータを表示する</a>';
+./auth/saml/lang/ja.utf8/auth.saml.php:$string['obsoletesamlplugin'] = 'auth/samlプラグインを再設定する必要があります。<a href="%s">プラグイン設定</a>フォーム経由でプラグインを更新してください。';
+./auth/saml/lang/ja.utf8/auth.saml.php:$string['obsoletesamlinstance'] = 'SAML認証インスタンス <a href="%s">%s</a> (「 %s 」インスティテューション) を更新する必要があります。';
+./auth/internal/lang/ja.utf8/auth.internal.php:<p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>
+./auth/internal/lang/ja.utf8/auth.internal.php:$string['youmaynotregisterwithouttandc'] = '<a href="#user_acceptterms">利用条件</a>の順守に同意しない限り、あなたは登録できません。';
+./auth/internal/lang/ja.utf8/auth.internal.php:<p>このインスティテューションの管理者として登録されているためあなたはこの登録リクエストを承認または拒否する必要があります。この処理を実行するには次のリンクにアクセスしてください:<a href=%s>%s</a></p>
+./auth/xmlrpc/lang/ja.utf8/auth.xmlrpc.php:$string['youhaveloggedinfrom1'] = '<a href="%s">%s</a>に戻る';
+./blocktype/creativecommons/lang/ja.utf8/help/forms/instconf.version.html:<p>詳細は<a href="https://creativecommons.org/version4">「What's New in 4.0」</a>をご覧ください。</p>
+./blocktype/googleapps/lang/ja.utf8/blocktype.googleapps.php:$string['appscodeorurldesc2'] = 'Googleコンテンツ埋め込み方法のインストラクションに関して<a href="https://manual.mahara.org/en/%s/blocks/external.html#google-apps">Maharaマニュアル</a>をご覧ください。
+./blocktype/openbadgedisplayer/lang/ja.utf8/blocktype.openbadgedisplayer.php:$string['nobackpack'] = 'バックパックが見つかりませんでした。<br />あなたの<a href="%s">バックパック</a>のメールアドレスを<a href="%s">プロファイル</a>に追加してください。';
+./blocktype/navigation/lang/ja.utf8/blocktype.navigation.php:$string['nocollections1'] = 'コレクションはありません。<a href="%s">コレクションを作成してください</a>。';
+./search/elasticsearch/lang/ja.utf8/search.elasticsearch.php:$string['noticeenabled'] = '現在、Elasticsearchプラグインは有効にされています。Elasticsearchプラグインを無効にするには<a href="%s">検索設定</a>で選択解除してください。';
+./search/elasticsearch/lang/ja.utf8/search.elasticsearch.php:$string['noticenotenabled'] = '現在、Elasticsearchプラグインは無効にされています。Elasticsearchプラグインを有効にするには<a href="%s">検索設定</a>で選択してください。';
+./search/elasticsearch/lang/ja.utf8/help/forms/pluginconfig.analyzer.html:<a href="https://www.elasticsearch.org/guide/reference/index-modules/analysis/custom-analyzer/">https://www.elasticsearch.org/guide/reference/index-modules/analysis/custom-analyzer/</a>
+./export/leap/lang/ja.utf8/export.leap.php:$string['description1'] = 'ここでは<a href="https://web.archive.org/web/20140912151415/https://wiki.leapspecs.org/2A/specification">Leap2A標準フォーマット</a>のエクスポートを作成します。エクスポートは人間にとって難読ですが、後でこのエクスポートを使用してあなたのデータを<a href="https://wiki.mahara.org/wiki/Developer_Area/Import/Export/Interoperability">他のLeap2A互換システム</a>にインポートできます。';
+./export/pdf/lang/ja.utf8/export.pdf.php:$string['exportpdfdisabled'] = 'PDFエクスポート依存関係が不足しているためPDFエクスーポートは無効にされています。詳細は<a href="%s">「プラグイン管理」</a>をご覧ください。';
