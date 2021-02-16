@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-02-09 00:53:17 UTC
+ * @updated    2021-02-16 00:32:05 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -716,7 +716,7 @@ $string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能�
 
 <pre>shortname,username,role</pre>
 
-<p>この行は上記のフィールドすべてを含む必要がありますが順序は自由に記述してください。</p>
+<p>この行には上のフィールドすべてを含む必要がありますが、順序は自由に記述してください。</p>
 
 <p>shortnameフィールドはあなたが<a href="%s" title="%s">ここ</a>でグループを作成した時に使用した名称と同じにする必要があります。</p>
 
