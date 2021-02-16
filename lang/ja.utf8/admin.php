@@ -556,7 +556,7 @@ $string['uploadgroupmemberscsvpagedescription2'] = '<p>あなたはこの機能�
 
 <pre>shortname,username,role</pre>
 
-<p>この行は上記のフィールドすべてを含む必要がありますが順序は自由に記述してください。</p>
+<p>この行には上のフィールドすべてを含む必要がありますが、順序は自由に記述してください。</p>
 
 <p>shortnameフィールドはあなたが<a href="%s" title="%s">ここ</a>でグループを作成した時に使用した名称と同じにする必要があります。</p>
 
