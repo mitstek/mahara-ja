@@ -730,7 +730,7 @@ $string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能�
 $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部の人にメールを送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらの人には手動で連絡してください:';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内の人が多過ぎるため誰も追加されませんでした。許可されたインスティテューションの最大数をメンバー数が超過しました。';
 $string['updateusers'] = 'アカウントを更新する';
-$string['updateusersdescription'] = 'あなたのCSVファイルに指定したインスティテューションのメンバーのユーザ名の人が含まれている場合、その人の詳細がファイルのデータにより上書きされることになります。注意して使用してください。';
+$string['updateusersdescription'] = 'あなたのCSVファイルに既存のインスティテューションメンバーのユーザ名の人が含まれている場合、その人の詳細がファイルのデータにより上書きされることになります。注意して使用してください。';
 $string['updategroups'] = 'グループを更新する';
 $string['updategroupsdescription2'] = 'CSVファイル内のグループ省略名に合致するグループ詳細がCSVファイル内の情報で上書きされます。注意して使用してください。';
 $string['csvfileprocessedsuccessfully'] = 'あなたのCSVファイルが正常に処理されました。';
@@ -760,10 +760,10 @@ import.zip<br />
 <p>通常、このZIPファイルはMaharaに実装されているバルクエクスポートを使用して生成されます。</p>
 <p>あなたが多くのアカウントをインポートする場合、注意してください。インポート処理に長時間を要する場合があります。</p>';
 $string['importfile'] = 'バルクエクスポートファイル';
-$string['importfilemissinglisting'] = 'ファイル名「usernames.csv」のバルクエクスポートファイルがありません。これらのアカウントをエクスポートするためあなたはMaharaバルクエクスポータを使用しましたか?';
+$string['importfilemissinglisting'] = 'ファイル名「usernames.csv」のバルクエクスポートファイルがありません。あなたはこれらのアカウントをエクスポートするためMaharaバルクエクスポータを使用しましたか?';
 $string['importfilenotafile'] = '送信中にエラーが発生しました: ファイルを認識できませんでした。';
-$string['importfilenotreadable'] = 'Leap2Aファイル %s を読み込めません。';
-$string['bulkleap2aimportfiledescription1'] = 'あなたのサーバにあるエクスポートされたアカウントすべて (Leap2Aフォーマット) およびユーザ名のCSVリストを含むZIPファイルのパスを入力してください。例) 「/home/example/data/import.zip」';
+$string['importfilenotreadable'] = '送信中にエラーが発生しました: ファイルを読み込めませんでした。';
+$string['bulkleap2aimportfiledescription1'] = 'あなたのサーバ内にあるエクスポートされたアカウントすべて (Leap2Aフォーマット) およびユーザ名のCSVリストを含むZIPファイルのパスを入力してください。例) 「/home/example/data/import.zip」';
 $string['importednuserssuccessfully'] = '%d / %d のアカウントを正常にインポートしました。';
 $string['Import'] = 'インポート';
 $string['bulkimportdirdoesntexist'] = 'ディレクトリ %s が存在しません。';
@@ -772,7 +772,7 @@ $string['unabletoreadcsvfile'] = 'CSVファイル %s を読めません。';
 $string['importfileisnotazipfile'] = 'インポートファイル %s はZIPファイルではないようです。';
 $string['unzipfailed'] = 'Leap2Aファイル %s の展開に失敗しました。詳細情報はエラーログをご覧ください。';
 $string['importfailedfornusers'] = '%d / %d のアカウントのインポートに失敗しました。';
-$string['invalidlistingfile'] = '無効なユーザ名リストです。これらのアカウントをエクスポートするためあなたはMaharaバルクエクスポータを使用しましたか?';
+$string['invalidlistingfile'] = '無効なユーザ名リストです。あなたはこれらのアカウントをエクスポートするためMaharaバルクエクスポータを使用しましたか?';
 $string['importing'] = 'インポート中';
 $string['adminuserspagedescription1'] = '<p>ここであなたはどの人をサイトの管理者にするか選択できます。現在の管理者は「現在の管理者」フィールドに潜在的な管理者は「潜在的な管理者」フィールドに一覧表示されます。</p><p>システムには少なくとも1名の管理者を設定する必要があります。</p>';
 $string['institutionadminuserspagedescription1'] = 'ここであなたはどのインスティテューションメンバーをインスティテューションの管理者するか選択できます。現在の管理者は「現在の管理者」フィールドに潜在的な管理者は「インスティテューションメンバー」フィールドに一覧表示されます。';
