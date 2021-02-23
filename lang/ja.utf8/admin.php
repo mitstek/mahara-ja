@@ -663,8 +663,8 @@ $string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある�
 <p>あなたが多くのユーザをインポートする場合、注意してください。インポート処理に長時間を要する場合があります。</p>';
 $string['importfile'] = 'バルクエクスポートファイル';
 $string['importfilemissinglisting'] = 'ファイル名「usernames.csv」のバルクエクスポートファイルがありません。これらのユーザをエクスポートするためあなたはMaharaバルクエクスポータを使用しましたか?';
-$string['importfilenotafile'] = '送信中にエラーが発生しました: ファイルを認識できませんでした。';
-$string['importfilenotreadable'] = '送信中にエラーが発生しました: ファイルを読み込めませんでした。';
+$string['importfilenotafile'] = 'フォーム送信中にエラーが発生しました: ファイルを認識できませんでした。';
+$string['importfilenotreadable'] = 'フォーム送信中にエラーが発生しました: ファイルを読み込めませんでした。';
 $string['bulkleap2aimportfiledescription'] = 'あなたのサーバのZIPファイルにはエクスポートされたユーザすべて (Leap2Aフォーマット) およびユーザ名のCSVリストが含まれます。';
 $string['importednuserssuccessfully'] = '%d / %d のユーザを正常にインポートしました。';
 $string['Import'] = 'インポート';
