@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-02-23 21:42:22 UTC
+ * @updated    2021-02-27 23:03:25 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -819,7 +819,7 @@ $string['siteadmin'] = 'サイト管理者';
 $string['accountexpiry'] = 'アカウント有効期限';
 $string['accountexpirydescription'] = '人のログインが自動的に無効にされる日付です。';
 $string['suspended'] = '利用停止中';
-$string['suspendedreason'] = '利用停止の理由';
+$string['suspendedreason'] = '利用停止理由';
 $string['suspendedreasondescription'] = '次回ログイン時、人に表示されるテキストです。';
 $string['unsuspenduser'] = '人の利用停止を解除する';
 $string['thisuserissuspended'] = 'この人は利用停止されました。';

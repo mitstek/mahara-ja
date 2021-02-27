@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-02-14 02:26:42 UTC
+ * @updated    2021-02-27 23:04:03 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -854,10 +854,10 @@ $string['cannotrenametempfile'] = '一時ファイルをリネームすること
 $string['failedmovingfiletodataroot'] = 'アップロードされたファイルをdatarootに移動することはできません。';
 $string['youraccounthasbeensuspendedtext2'] = 'あなたの %s のアカウントが %s によって利用停止されました。';
 $string['youraccounthasbeensuspendedtextcron'] = 'あなたの %s のアカウントが利用停止されました。';
-$string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s のアカウントが %s によって利用停止されました。利用停止の理由は:
+$string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s のアカウントが %s によって利用停止されました。利用停止理由は次のとおりです:
 
 %s';
-$string['youraccounthasbeensuspendedreasontextcron'] = 'あなたの %s のアカウントが利用停止されました。利用停止の理由は:
+$string['youraccounthasbeensuspendedreasontextcron'] = 'あなたの %s のアカウントが利用停止されました。利用停止理由は次のとおりです:
 
 %s';
 $string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用できます。';
