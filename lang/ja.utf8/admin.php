@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-03-01 21:29:18 UTC
+ * @updated    2021-03-05 02:32:26 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -541,6 +541,7 @@ $string['oneormorelinksarebad'] = '1つまたはそれ以上のリンクが有�
 $string['confirmdeletemenuitem'] = '本当にこのアイテムを削除してもよろしいですか?';
 $string['deletingmenuitem'] = 'アイテムの削除中';
 $string['deletefailed'] = 'アイテムの削除に失敗しました。';
+$string['deletefailedonlyadmin'] = 'あなたはこのアカウントを削除できません。これは唯一のシステム管理者アカウントです。';
 $string['externallink'] = '外部リンク';
 $string['editlinksandresources'] = '「リンクおよびリソース」を編集する';
 $string['linkedto'] = 'リンク先';
