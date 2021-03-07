@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-03-05 02:32:26 UTC
+ * @updated    2021-03-07 00:31:09 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -874,7 +874,7 @@ $string['adduser'] = '人を追加する';
 $string['adduserdescription'] = '新しいアカウントを作成します。';
 $string['basicinformationforthisuser'] = 'このアカウントの基本情報です。';
 $string['clickthebuttontocreatetheuser'] = 'アカウントを作成するにはボタンをクリックしてください。';
-$string['createnewuserfromscratch'] = 'アカウントを最初から作成する';
+$string['createnewuserfromscratch'] = '新しいアカウントを最初から作成する';
 $string['createuser'] = 'アカウントを作成する';
 $string['failedtoobtainuploadedleapfile'] = 'アップロードされたLeap2Aファイルの取得に失敗しました。';
 $string['failedtounzipleap2afile'] = 'Leap2Aファイルの展開に失敗しました。詳細はエラーログを確認してください。';
