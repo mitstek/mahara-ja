@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-02-27 23:04:03 UTC
+ * @updated    2021-03-08 22:16:06 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -244,7 +244,7 @@ $string['institutiontagdesc'] = 'あなたは1度に1個のタグを追加でき
 $string['institutiontagdeleted'] = 'インスティテューションタグが正常に削除されました。';
 $string['institutiontagdeletefail'] = 'インスティテューションタグの削除に失敗しました。';
 $string['institutiontags'] = 'インスティテューションタグ';
-$string['institutiontagsdescription'] = 'インスティテューションタグはインスティテューションによって事前に定義されています。すべてのインスティテューションメンバーはインスティテューションタグを使用できます。あなたは好きなだけタグを作成できます。';
+$string['institutiontagsdescription'] = 'インスティテューションタグはインスティテューションによって事前に定義されます。インスティテューションのすべてのメンバーはインスティテューションタグを利用できます。あなたは好きなだけタグを作成できます。';
 $string['institutiontagsaved'] = 'インスティテューションタグが保存されました。';
 $string['notags'] = 'このインスティテューションにタグはありません。';
 $string['tag'] = 'タグ';
