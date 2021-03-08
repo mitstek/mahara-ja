@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-03-07 00:31:09 UTC
+ * @updated    2021-03-08 21:34:03 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -894,8 +894,8 @@ $string['loginas'] = '代理ログイン';
 $string['loginasthisuser'] = 'この人としてログインする';
 $string['loginasuser'] = '%s としてログインする';
 $string['becomeadminagain'] = '%s に戻る';
-$string['loginasdenied'] = 'パーミッションなしで別の人としてのログインを試みました。';
-$string['loginastwice'] = 'すでにログインしているにもかかわらず、別の人としてのログインを試みました。';
+$string['loginasdenied'] = 'パーミッションなしで別の人としてログインを試みました。';
+$string['loginastwice'] = 'すでにログインしているにもかかわらず別の人としてログインを試みました。';
 $string['loginasrestorenodata'] = 'リストアするデータがありません。';
 $string['loginasoverridepasswordchange'] = '別の人としてログインしているためあなたはパスワード変更画面を無視して%s常にログインすること%sを選択できます。';
 $string['loginasoverridelegalaccept'] = '別の人としてログインしているためあなたは法的表示に同意せずに%s常にログインすること%sを選択できます。';
