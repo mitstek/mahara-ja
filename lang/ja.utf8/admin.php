@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-03-14 07:16:01 UTC
+ * @updated    2021-03-16 00:12:15 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -964,9 +964,9 @@ $string['customstylesforinstitution'] = '%s のカスタムスタイル';
 $string['resetcolours'] = '色をリセットする';
 $string['resetcoloursdesc2'] = 'デフォルト色をリストアします。';
 $string['authenticatedby'] = '認証方法';
-$string['authenticatedbydescription'] = 'この人に関するMaharaへの認証方法を設定します。';
+$string['authenticatedbydescription'] = 'この人がMaharaでどのように認証されるか設定します。';
 $string['remoteusername'] = '外部認証のユーザ名';
-$string['remoteusernamedescription1'] = 'この人が外部認証プラグインを使用してリモートサイトから %s にログインした場合、これはリモートサイトの人を識別するユーザ名となります。';
+$string['remoteusernamedescription1'] = 'この人が外部認証プラグインを使用してリモートサイトから %s にログインする場合、これはリモートサイトの人を識別するユーザ名となります。';
 $string['institutionsettings'] = 'インスティテューション設定';
 $string['institutionsettingsdescription'] = 'あなたが管理者をしているインスティテューションに関してこの人のメンバーシップ設定を変更できます。';
 $string['changeinstitution'] = 'インスティテューションを変更する';
