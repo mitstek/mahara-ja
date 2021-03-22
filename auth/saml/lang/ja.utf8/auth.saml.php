@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-01-23 22:32:17 UTC
+ * @updated    2021-03-22 21:19:21 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -132,5 +132,6 @@ $string['noentityidpneednamespace'] = 'あなたのXML EntityDescriptorタグは
 $string['novalidauthinstanceprovided'] = 'あなたの選択は可能ではありません。異なるインスティテューションを選択してください。';
 $string['identityprovider'] = 'アイデンティティプロバイダ';
 $string['selectmigrateto'] = '移動するインスティテューションを選択する ...';
+$string['samlneedtoremovephar'] = '%s ファイルを削除できません。ファイルを削除して再度「make ssphp」を実行してください。';
 
 ?>
