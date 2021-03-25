@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-11-24 04:23:03 UTC
+ * @updated    2021-03-25 05:54:42 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -44,7 +44,9 @@ $string['collectionaccess'] = 'コレクションアクセス';
 $string['collectionaccessrules'] = 'コレクションアクセスルール';
 $string['collectionaccesseditedsuccessfully'] = 'コレクションアクセスが正常に保存されました。';
 $string['collectioneditaccess'] = 'あなたにはこのコレクション内の %d ページのアクセス権を編集しています。';
-$string['collectionconfirmdelete'] = 'このコレクション内のページは削除されません。本当にこのコレクションを削除してもよろしいですか?';
+$string['collectionconfirmdelete1'] = '<p>本当にこのコレクションを削除してもよろしいですか? このコレクション内のすべてのページも削除されます。あなたが個別のページのみ削除したい場合、この操作を中止して該当するページを削除してください。</p>
+<p>すべてを削除する前に<a href="%sexport/index.php?collection=%s">エクスポート</a>によるあなたのポートフォリオのバックアップ作成をご検討ください。</p>
+<p><strong>注意:</strong> あなたがこのコレクションの削除を決定した場合、あなたがページでリンクしたファイルおよび日誌エントリすべてはまだ利用できます。しかし、ページに置かれたすべてのテキストブロックおよびコメントはページとともに削除されます。</p>';
 $string['collectioncreatedsuccessfully'] = 'コレクションが正常に作成されました。';
 $string['collectioncreatedsuccessfullyshare'] = 'あなたのコレクションが正常に作成されました。以下のアクセスリンクを使用してあなたのコレクションを他の人と共有してください。';
 $string['collectiondeleted'] = 'コレクションが正常に削除されました。';
