@@ -175,7 +175,7 @@ $string['iframedisplaynamedescription'] = '作成者に表示されるサイト�
 $string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含めます。';
 $string['iframeiconhost'] = 'アイコンホスト';
 $string['urlalreadyexists'] = 'このURLはすでに存在します。あなたはURLを2度追加できません。';
-$string['iframeiconhostdescription'] = '必要であれば、あなたはファビコン (favicon) イメージ用の異なるホストを指定できます。同一名称のすべてのサイトでこのアイコンが使用されます。';
+$string['iframeiconhostdescription'] = '必要であれば、あなたはファビコンイメージ用の異なるホストを指定できます。同一名称のすべてのサイトでこのアイコンが使用されます。';
 $string['cleanurls'] = 'クリーンURL';
 $string['cleanurlsdescription'] = '<p>プロファイル、グループホームページおよびポートフォリオページに関して人間が解読可能なURLを使用するようあなたのサイトを設定できます。例えば以下のようになります:
 <ul>
@@ -184,7 +184,7 @@ $string['cleanurlsdescription'] = '<p>プロファイル、グループホーム
 <li>https://mahara.example.com/user/bob/bobs-portfolio-page</li>
 </ul>
 
-受信リクエストのURLを書き換えることができるようあなたのサーバ管理者はこのオプションを有効にする前にウェブサーバを設定する必要があります。</p>
+受信リクエストのURLを書き換えれるようあなたのサーバ管理者はこのオプションを有効にする前にウェブサーバを設定する必要があります。</p>
 <p>この作業のインストラクションに関してMahara wikiの<a href="https://wiki.mahara.org/wiki/System_Administrator\'s_Guide/Clean_URL_Configuration">「クリーンURL設定 (英語)」</a>をご覧ください。</p>';
 $string['cleanurlsdisabled'] = 'クリーンURLは無効にされています。';
 $string['cleanurlsettings'] = 'クリーンURL設定';
