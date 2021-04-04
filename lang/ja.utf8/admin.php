@@ -309,7 +309,7 @@ $string['groupcountsbyjointype'] = 'アクセスタイプ別グループ数';
 $string['blockcountsbytype'] = 'ポートフォリオページで最も頻繁に使用されたブロック';
 $string['uptodate'] = 'あなたのローカルコードベースはMaharaコアの最新版です。';
 $string['latestversionis'] = '最新メジャーリリース: <a href="%s">%s</a>';
-$string['latestbranchversionis'] = 'このリリースのマイナーバージョン: <a href="%s">%s</a>';
+$string['latestbranchversionis'] = 'このリリースの最新マイナーバージョン: <a href="%s">%s</a>';
 $string['versionnotinsupport'] = '%s はサポート対象外です。';
 $string['versionnotinsupportdev'] = '未サポートの開発バージョン';
 $string['viewsbytype'] = 'タイプ別ページ';
@@ -351,7 +351,7 @@ $string['allowanonymouspagesdescription1'] = '人はページ作成者として�
 $string['anonymouscomments'] = '匿名コメント';
 $string['anonymouscommentsdescription1'] = 'パブリックページまたはシークレットURLでアクセスできるページに誰でもコメントを残せます。';
 $string['loggedinprofileviewaccess1'] = 'すべての登録済みの人によるプロファイルアクセス';
-$string['loggedinprofileviewaccessdescription1'] = 'プロファイルページを登録済みの人すべてが閲覧できます。';
+$string['loggedinprofileviewaccessdescription1'] = 'プロファイルページをすべての登録済みの人が閲覧できます。';
 $string['antispam'] = 'アンチスパム';
 $string['antispamdescription'] = 'パブリックに表示されるフォームに適用されるスパム防止策のタイプです。';
 $string['dropdownmenu'] = 'ドロップダウンナビゲーション';
