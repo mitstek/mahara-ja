@@ -267,7 +267,7 @@ $string['groupcountsbyjointype'] = 'アクセスタイプ別グループ数';
 $string['blockcountsbytype'] = 'ポートフォリオページで最も頻繁に使用されたブロック';
 $string['uptodate'] = '最新';
 $string['latestversionis'] = '最新バージョン: <a href="%s">%s</a>';
-$string['latestbranchversionis'] = 'このリリースのマイナーバージョン: <a href="%s">%s</a>';
+$string['latestbranchversionis'] = 'このリリースの最新マイナーバージョン: <a href="%s">%s</a>';
 $string['versionnotinsupport'] = '%s はサポート対象外です。';
 $string['versionnotinsupportdev'] = '未サポートの開発バージョン';
 $string['viewsbytype'] = 'タイプ別ページ';
