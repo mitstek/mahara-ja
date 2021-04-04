@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-03-30 09:05:10 UTC
+ * @updated    2021-04-04 08:01:05 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -307,7 +307,7 @@ $string['groupcountsbyjointype'] = 'アクセスタイプ別グループ数';
 $string['blockcountsbytype'] = 'ポートフォリオページで最も頻繁に使用されたブロック';
 $string['uptodate'] = 'あなたのローカルコードベースはMaharaコアの最新版です。';
 $string['latestversionis'] = '最新メジャーリリース: <a href="%s">%s</a>';
-$string['latestbranchversionis'] = 'このリリースのマイナーバージョン: <a href="%s">%s</a>';
+$string['latestbranchversionis'] = 'このリリースの最新マイナーバージョン: <a href="%s">%s</a>';
 $string['versionnotinsupport'] = '%s はサポート対象外です。';
 $string['versionnotinsupportdev'] = '未サポートの開発バージョン';
 $string['viewsbytype'] = 'タイプ別ページ';
@@ -349,7 +349,7 @@ $string['allowanonymouspagesdescription1'] = '人はページ作成者として�
 $string['anonymouscomments'] = '匿名コメント';
 $string['anonymouscommentsdescription1'] = 'パブリックページまたはシークレットURLでアクセスできるページに誰でもコメントを残せます。';
 $string['loggedinprofileviewaccess1'] = 'すべての登録済みの人によるプロファイルアクセス';
-$string['loggedinprofileviewaccessdescription1'] = 'プロファイルページを登録済みの人すべてが閲覧できます。';
+$string['loggedinprofileviewaccessdescription1'] = 'プロファイルページをすべての登録済みの人が閲覧できます。';
 $string['antispam'] = 'アンチスパム';
 $string['antispamdescription'] = 'パブリックに表示されるフォームに適用されるスパム防止策のタイプです。';
 $string['dropdownmenu'] = 'ドロップダウンナビゲーション';
