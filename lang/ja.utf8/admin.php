@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-07 01:07:37 UTC
+ * @updated    2021-04-10 22:29:57 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -353,10 +353,10 @@ $string['loggedinprofileviewaccessdescription1'] = 'プロファイルページ�
 $string['antispam'] = 'アンチスパム';
 $string['antispamdescription'] = '公開可視のフォームに適用されるスパム防止策のタイプです。';
 $string['dropdownmenu'] = 'ドロップダウンナビゲーション';
-$string['dropdownmenudescription2'] = 'メインのMaharaナビゲーションのサブナビゲーションにドロップダウンフォーマットを使用します。';
+$string['dropdownmenudescription2'] = 'メインMaharaナビゲーションのサブナビゲーションにドロップダウンフォーマットを使用します。';
 $string['dropdownmenudescriptioninstitution2'] = 'メインナビゲーションにドロップダウンメニューを使用します。';
 $string['commentsortorder'] = 'コメント並び順';
-$string['commentsortorderdescription'] = 'ページに表示する場合のアーティファクトコメントの並び順を設定します。';
+$string['commentsortorderdescription'] = 'ページに表示されるアーティファクトコメントの並び順を設定します。';
 $string['commentthreaded'] = 'スレッドコメント';
 $string['commentthreadeddescription'] = 'ページの個別コメントへのスレッド返信を許可します。';
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
@@ -376,7 +376,7 @@ $string['passwordpolicy'] = 'パスワードポリシー';
 $string['passwordpolicydesc'] = 'アカウントが内蔵の内部認証方法を使用するよう設定されている人のパスワードポリシーです。パスワードの最小文字数および複雑さを選択してください。';
 $string['passwordpolicylength'] = '最小パスワード長';
 $string['passwordpolicytype'] = 'パスワード複雑性';
-$string['deprecatedmobileapp'] = '申し訳ございません、このモバイルアプリケーションは新しいものに入れ替わりました。あなたは代わりにMaharaモバイルを使用する必要があります。Androidデバイスは次からダウンロードしてください: https://play.google.com/store/apps/details?id=org.mahara.mobile またAppleデバイスは次からダウンロードしてください: https://itunes.apple.com/us/app/mahara-mobile/id1172638950';
+$string['deprecatedmobileapp'] = '申し訳ございません、このモバイルアプリケーションは新しいものに入れ替わりました。あなたは代わりにMaharaモバイルを使用する必要があります。Androidデバイス用は次からダウンロードしてください: https://play.google.com/store/apps/details?id=org.mahara.mobile またAppleデバイス用は次からダウンロードしてください: https://itunes.apple.com/us/app/mahara-mobile/id1172638950';
 $string['embeddedcontent'] = '埋め込みコンテンツ';
 $string['embeddedcontentdescription'] = '人がポートフォリオにビデオまたは他のサイトのコンテンツを埋め込めるようにしたい場合、あなたは以下より信頼できるサイトを選択できます。';
 $string['Everyone'] = '誰でも';
