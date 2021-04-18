@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-13 03:20:49 UTC
+ * @updated    2021-04-18 02:57:00 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -402,7 +402,7 @@ $string['institutionexpirynotificationdescriptioninfo'] = 'サイトおよびイ
 $string['language'] = '言語';
 $string['none'] = 'なし';
 $string['nousernames'] = 'ユーザ名を表示しない';
-$string['nousernamesdescription1'] = '一般アカウント保持者は他の人のユーザ名を閲覧したりユーザ名で人を検索できません。これらの制限はスタッフおよび管理者には適用されません。加えてクリーンURL (有効にされている場合) はユーザ名ではなく、表示名 (提供されている場合) または実名を使用して生成されます。';
+$string['nousernamesdescription1'] = '一般アカウント保持者は他の人のユーザ名を閲覧したりユーザ名で人を検索できなくなります。これらの制限はスタッフおよび管理者には適用されません。加えてクリーンURL (有効にされている場合) はユーザ名ではなく、表示名 (提供されている場合) または実名を使用して生成されます。';
 $string['onlineuserssideblockmaxusers1'] = '「オンラインの人」の制限';
 $string['onlineuserssideblockmaxusersdescription1'] = 'サイドバー「オンラインの人」に表示する最大人数です。';
 $string['country'] = '国';
@@ -433,7 +433,7 @@ $string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正�
 $string['searchuserspublic'] = 'パブリック検索に人を表示する';
 $string['searchuserspublicdescription'] = 'パブリック検索結果に氏名の表示を許可します。これには「publicsearchallowed」を「true」に設定してパブリック検索を許可する検索プラグイン (例 Elasticsearch) を使用する必要があります。この設定を変更した場合、検索インデックスの再構築が必要です。';
 $string['sessionlifetime'] = 'セッションライフタイム';
-$string['sessionlifetimedescription'] = 'ログイン済みの活動していない人が自動的にログアウトされるまでの時間 (分) です。';
+$string['sessionlifetimedescription'] = 'ログイン済みで活動していない人が自動的にログアウトされるまでの時間 (分) です。';
 $string['setsiteoptionsfailed1'] = 'このオプションの設定に失敗しました。';
 $string['setsiteoptionsfailednotice'] = '%s フィールドオプションの設定に失敗しました。';
 $string['showonlineuserssideblock'] = 'オンラインの人を表示する';
