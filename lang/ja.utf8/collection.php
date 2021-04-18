@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-22 22:13:14 UTC
+ * @updated    2021-04-16 13:13:26 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -127,5 +127,6 @@ $string['needssignedoff'] = '要承認';
 $string['verified'] = '検証済み';
 $string['needsverified'] = '要検証';
 $string['verification'] = '検証';
+$string['youhavebeengivenaccess'] = 'あなたには次のアクセスが与えられています';
 
 ?>

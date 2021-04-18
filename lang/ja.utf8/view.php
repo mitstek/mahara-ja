@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-20 22:59:44 UTC
+ * @updated    2021-04-16 13:14:18 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -322,6 +322,7 @@ $string['blocktypecategorydesc.fileimagevideo'] = 'メディアオプション�
 $string['blocktypecategorydesc.general'] = '一般オプションを表示するにはクリックしてください。';
 $string['blocktypecategorydesc.internal'] = '個人情報オプションを表示するにはクリックしてください。';
 $string['blocktypecategorydesc.blog'] = '日誌オプションを表示するにはクリックしてください。';
+$string['draft'] = '下書き';
 $string['drafttextblockdescription'] = 'あなたがテキストを誰にも表示したくない場合、ブロックを下書きとして保存してください。テキストが公開された場合、再度下書きには戻せません。';
 $string['notitle'] = 'タイトルなし';
 $string['clickformoreinformation1'] = '詳細情報を表示およびコメントを投稿するにはクリックしてください。';
@@ -434,9 +435,9 @@ $string['image'] = 'イメージ';
 $string['addcontent'] = 'コンテンツを追加する';
 $string['theme'] = 'テーマ';
 $string['choosethemedesc'] = 'ページのテーマを選択します。';
-$string['lockblocks'] = 'ブロックをロックする';
-$string['lockblocksdescription1'] = 'あなたはページのブロックをロックしてページ編集時の削除を防げます。あなたは必要であればいつでもブロックを削除するためロックを削除できます。';
-$string['lockblocksdescriptioninstitution'] = 'ページのブロックをロックしてパーソナルまたはグループポートフォリオエリアへのページコピー時の削除を防げます。このサイトまたはインスティテューションページの編集時、あなたはまだブロックを削除できます。';
+$string['lockblocks1'] = 'ブロックの削除を防ぐ';
+$string['lockblocksdescription2'] = 'あなたはページ編集時のブロックの削除を防げます。あなたはまだブロックの場所およびサイズを変更できます。あなたは必要であればブロックを削除するためこの設定をいつでも変更できます。';
+$string['lockblocksdescriptioninstitution1'] = 'あなたはパーソナルまたはグループポートフォリオエリアへのページコピー時のブロックの削除を防げます。この設定はこのサイトまたはインスティテューションページのあなたの編集に影響しません。';
 $string['instructions'] = 'インストラクション';
 $string['advanced'] = '高度';
 $string['timeline'] = 'タイムライン';
