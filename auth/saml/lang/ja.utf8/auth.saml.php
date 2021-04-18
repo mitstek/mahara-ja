@@ -5,8 +5,8 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-11-13 03:32:08 UTC
- * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
+ * @updated    2021-04-16 13:16:37 UTC
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
@@ -107,5 +107,6 @@ $string['newkeycreated'] = '新しい鍵/証明書が作成されました。';
 $string['deleteoldkeytext'] = '古い鍵/証明書を削除する';
 $string['oldkeydeleted'] = '古い鍵/証明書が削除されました。';
 $string['keyrollfailed'] = '古い鍵/証明書の削除に失敗しました。';
+$string['samlneedtoremovephar'] = '%s ファイルを削除できません。ファイルを削除して再度「make ssphp」を実行してください。';
 
 ?>
