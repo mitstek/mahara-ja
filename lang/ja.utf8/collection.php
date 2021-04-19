@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-19 01:35:08 UTC
+ * @updated    2021-04-19 01:39:24 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -138,7 +138,7 @@ $string['undoverificationdescription'] = 'あなたがリセットしたいス�
 $string['reasonforundo'] = 'ステートメントをリセットする理由:';
 $string['notifyappointed'] = 'リセットリクエスト';
 $string['undoreportsent'] = 'リセットリクエストが送信されました。';
-$string['undoreportnotsent'] = 'リセットリクエストは送信されませんでした。リクエスト送信先が存在しません。あなたの管理者にご連絡ダサい。';
+$string['undoreportnotsent'] = 'リセットリクエストは送信されませんでした。リクエスト送信先が存在しません。あなたの管理者にご連絡ください。';
 $string['verifiedbyme'] = 'マイステートメント';
 $string['verifiedbymedescription'] = 'リセットするステートメントを選択してください。そして、この変更の理由を提供してください。';
 $string['undoreportsubject'] = 'ポートフォリオステートメントのリセットリクエスト';
