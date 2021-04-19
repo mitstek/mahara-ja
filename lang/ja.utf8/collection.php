@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-19 00:46:43 UTC
+ * @updated    2021-04-19 01:35:08 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -134,7 +134,17 @@ $string['progresspagedescription'] = 'コレクションのポートフォリオ
 $string['youhavebeengivenaccess'] = 'あなたには次のアクセスが与えられています';
 $string['undoverification'] = 'ステートメントをリセットする';
 $string['undoverificationformtitle'] = 'ステートメントをリセットする';
+$string['undoverificationdescription'] = 'あなたがリセットしたいステートメントの1つを選択してください。続けた場合、あなたのステートメントのリセットを許可された人に通知されます。リクエストが処理された場合、承認は削除されます。また、あなたはステートメントを再度承認できます。';
 $string['reasonforundo'] = 'ステートメントをリセットする理由:';
+$string['notifyappointed'] = 'リセットリクエスト';
+$string['undoreportsent'] = 'リセットリクエストが送信されました。';
+$string['undoreportnotsent'] = 'リセットリクエストは送信されませんでした。リクエスト送信先が存在しません。あなたの管理者にご連絡ダサい。';
 $string['verifiedbyme'] = 'マイステートメント';
+$string['verifiedbymedescription'] = 'リセットするステートメントを選択してください。そして、この変更の理由を提供してください。';
+$string['undoreportsubject'] = 'ポートフォリオステートメントのリセットリクエスト';
+$string['undoreportmessage'] = 'ステートメント「 %s 」(ポートフォリオ「 %s 」) が承認されました。しかし、承認者 %s はステートメントのリセットを希望しています。';
+$string['accessdeniedundo'] = 'ステートメントはすでにリセットされています。これ以上、あなたはポートフォリオにアクセスできません。';
+$string['undonesubject'] = 'ポートフォリオステートメントのリセットリクエスト処理完了';
+$string['undonemessage'] = 'ステートメント作成者からのリクエストにより、%s がステートメント「 %s 」(ポートフォリオ「 %s 」) をリセットしました。';
 
 ?>
