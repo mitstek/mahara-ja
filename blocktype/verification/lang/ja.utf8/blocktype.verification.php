@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-19 04:07:03 UTC
+ * @updated    2021-04-19 23:48:39 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -58,7 +58,7 @@ $string['verificationchecklistlockingnames'] = '<p>あなたがこのステー�
 $string['unverify'] = 'あなたが続けた場合、このレビューは削除されます。';
 $string['verifiedon'] = '%s にレビュー済み';
 $string['verifiedonby'] = '<a href="%s">%s</a> - %s';
-$string['savedraft'] = '下書きとして保存する';
+$string['savedraft'] = '下書きを保存する';
 $string['publish'] = '公開';
 $string['cancel'] = 'キャンセル';
 $string['addcommentdescriptionhtml'] = '<div><strong>下書きとして保存する:</strong> あなたのみあなたのコメントを閲覧できます。あなたはまだ変更できます。<br />
