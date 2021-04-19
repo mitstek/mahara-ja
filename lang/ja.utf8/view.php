@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-03-25 05:54:50 UTC
+ * @updated    2021-04-19 00:27:42 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -63,6 +63,7 @@ $string['viewname'] = 'ページ名';
 $string['templatedashboard'] = 'ダッシュボードテンプレート';
 $string['templategrouphomepage'] = 'グループホームページテンプレート';
 $string['templateprofile'] = 'プロファイルテンプレート';
+$string['templateprogress'] = 'ポートフォリオ完了テンプレート';
 $string['templateportfolio'] = 'ページテンプレート';
 $string['templateportfoliotitle'] = 'タイトルなし';
 $string['templateportfoliodescription1'] = '作成されるページのデフォルトレイアウトを設定します。あなたはブロックを追加することもできます。あなたがデフォルトページに追加するすべてのコンテンツはあなたの変更後に作成されたすべてのページに追加されることに留意してください。';
@@ -134,6 +135,7 @@ $string['nospecialrole'] = '特別ロールなし';
 $string['peer'] = 'ピア';
 $string['manager'] = 'マネージャ';
 $string['peermanager'] = 'ピアおよびマネージャ';
+$string['verifier'] = 'レビュア';
 $string['token'] = 'シークレットURL';
 $string['editsecreturlaccess'] = 'シークレットURLアクセスを編集する';
 $string['editsecreturlaccessfor'] = 'シークレットURLアクセスを編集する (ID %s)';
@@ -480,5 +482,7 @@ $string['linktooriginaltemplatedescriptiondeleted'] = 'このページはテン�
 $string['deletedview'] = 'ページ削除';
 $string['copylocked'] = 'コピーロック';
 $string['copylockeddescription'] = 'これはテンプレートコピーです。このコピーのインストラクションフィールドをロック/ロック解除するにはこの設定を変更してください。';
+$string['canteditcollectionlocked'] = 'コレクションがロックされているため、ポートフォリオページを編集できません。';
+$string['canteditprogress'] = 'コレクションがロックされているか、ページがテンプレートからコピーされているため、ポートフォリオ完了ページを編集できません。';
 
 ?>
