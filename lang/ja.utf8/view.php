@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-19 00:27:42 UTC
+ * @updated    2021-04-20 05:07:19 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -263,6 +263,7 @@ $string['success.removecolumn'] = 'カラムが正常に削除されました。
 $string['err.removecolumn'] = 'カラムの削除に失敗しました。';
 $string['success.changetheme'] = 'テーマが正常に更新されました。';
 $string['err.changetheme'] = 'テーマを更新できませんでした。';
+$string['confirmcloseblockinstance'] = '本当にあなたの変更を保存せずに続けてもよろしいですか?';
 $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除してもよろしいですか?';
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
 $string['blockconfigurationrenderingerror'] = 'ブロックを表示できなかったため設定に失敗しました。';
