@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-20 05:07:19 UTC
+ * @updated    2021-04-20 05:14:05 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -191,6 +191,8 @@ $string['otherpeople'] = '他の人';
 $string['addaccess'] = '「 %s 」へのアクセスを追加する';
 $string['addaccessinstitution'] = 'インスティテューション「 %s 」へのアクセスを追加する';
 $string['addaccessgroup'] = 'グループ「 %s 」へのアクセスを追加する';
+$string['sharewithmaximum'] = 'あなたはポートフォリオを最大 %d 人またはグループで共有できます。';
+$string['shareallwithmaximum'] = 'あなたは選択されたポートフォリオを最大 %d 人またはグループで共有できます。';
 $string['submitconfirm'] = '評価のために「 %s 」を「 %s 」に送信した場合、チューターが評価を終えるまであなたはコンテンツを編集できません。本当に送信してもよろしいですか?';
 $string['viewsubmitted'] = 'ページが送信されました。';
 $string['collectionsubmitted'] = 'コレクションが送信されました。';
