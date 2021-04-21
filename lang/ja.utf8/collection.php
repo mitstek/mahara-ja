@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-19 01:39:24 UTC
+ * @updated    2021-04-21 23:26:00 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -23,6 +23,8 @@ $string['accessignored'] = 'いくつかのシークレットURLアクセスタ�
 $string['add'] = '追加';
 $string['addviews'] = 'ページを追加する';
 $string['addviewstocollection'] = 'ページをコレクションに追加する';
+$string['autocopytemplate'] = '現在の自動コピーテンプレート';
+$string['autocopytemplatedesc'] = 'このコレクションをすべての新しいアカウントにコピーしたい場合、この設定を有効にしてください (あなたが設定した場合、cronジョブに基づき処理されます)。コピーされるコレクションに対して共有パーミッションは自動的に許可に設定されます。あなたはテンプレートも「Yes」に設定する必要があります。';
 $string['back'] = '戻る';
 $string['cantlistgroupcollections'] = 'あなたはグループコレクションの一覧表示を許可されていません。';
 $string['cantlistinstitutioncollections'] = 'あなたはインスティテューションコレクションの一覧表示を許可されていません。';
@@ -87,12 +89,16 @@ $string['noviewsincollection'] = 'コレクションにページはありませ�
 $string['noviewsaddsome'] = 'コレクションにページはありません。%sページを追加してください%s。';
 $string['noviews'] = 'ページはありません。';
 $string['overrideaccess'] = 'アクセスをオーバーライドする';
+$string['onlyactivetemplatewarning'] = 'これはこのインスティテューション内のみでの自動コピーテンプレートです。この設定を変更することによりテンプレートは新しいアカウントに自動的にコピーされないようになります (あなたが設定した場合、cronジョブに基づき処理されます)。';
+$string['updatingautocopytemplatewarning'] = '1つのコレクションのみインスティテューションの有効な自動コピーテンプレートにできます。このコレクションをインスティテューション「 %s 」の自動コピーテンプレートに設定した場合、自動コピーコレクション「 %s 」は無効となります。無効にされた自動コピーコレクションはインスティテューション内で共有されなくなります。';
 $string['portfoliocompletion'] = 'ポートフォリオ完了';
 $string['potentialviews'] = '潜在的なページ';
 $string['saveapply'] = '適用して保存する';
 $string['savecollection'] = 'コレクションを保存する';
 $string['smartevidence'] = 'スマートエビデンス';
 $string['smartevidencedesc'] = 'スマートエビデンスフレームワークを管理します。';
+$string['template'] = 'テンプレート';
+$string['templatedesc'] = 'あなたがこのコレクション内ページすべてをページごとに切り替えなくてもテンプレートにしたい場合、この設定を有効にしてください。テンプレートにコピーされたページも自動的にテンプレートに変更されます。ブロックの削除は自動的に停止されますが、停止を無効にもできます。';
 $string['update'] = '更新';
 $string['usecollectionname'] = 'コレクション名を使用しますか?';
 $string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしたままにしてください。';
