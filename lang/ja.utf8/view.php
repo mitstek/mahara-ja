@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-22 08:49:31 UTC
+ * @updated    2021-04-22 23:15:19 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -356,7 +356,7 @@ $string['viewfilesdirname'] = 'ページファイル';
 $string['viewfilesdirdesc'] = 'コピーされたページのファイル';
 $string['thisviewmaybecopied'] = 'コピーが許可されています。';
 $string['thisviewmaynotbecopied'] = 'コピーは許可されていません。';
-$string['copythisview'] = 'このページをコピーする';
+$string['copythisportfolio'] = 'このポートフォリオをコピーする';
 $string['copyview'] = 'ページをコピーする';
 $string['createemptyview'] = '空のページを作成する';
 $string['copyaview'] = 'ページをコピーする';
