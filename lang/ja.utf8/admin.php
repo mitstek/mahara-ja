@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-18 02:57:00 UTC
+ * @updated    2021-04-22 06:06:28 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -436,6 +436,8 @@ $string['sessionlifetime'] = 'セッションライフタイム';
 $string['sessionlifetimedescription'] = 'ログイン済みで活動していない人が自動的にログアウトされるまでの時間 (分) です。';
 $string['setsiteoptionsfailed1'] = 'このオプションの設定に失敗しました。';
 $string['setsiteoptionsfailednotice'] = '%s フィールドオプションの設定に失敗しました。';
+$string['showstudentid'] = '学籍番号を表示する';
+$string['showstudentiddescription1'] = 'サイトで人の氏名を表示する場合、学籍番号を表示します。';
 $string['showonlineuserssideblock'] = 'オンラインの人を表示する';
 $string['showonlineuserssideblockdescriptionmessage2'] = '人は過去10分間にオンラインであった人の一覧をサイドバーで閲覧できます。';
 $string['showselfsearchsideblock1'] = 'ポートフォリオ検索';
