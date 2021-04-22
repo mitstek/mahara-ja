@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-21 11:29:22 UTC
+ * @updated    2021-04-22 23:17:08 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -194,5 +194,6 @@ $string['profiledeletedsuccessfully'] = 'ソーシャルメディアアカウン
 $string['profilesavedsuccessfully'] = 'ソーシャルメディアアカウントが正常に保存されました。';
 $string['socialprofilerequired'] = '少なくとも1つのソーシャルメディアアカウントが必要です。';
 $string['duplicateurl'] = 'あなたがすでに入力したものとソーシャルメディアアカウントユーザ名またはURLが重複しています。';
+$string['notes'] = 'ノート';
 
 ?>
