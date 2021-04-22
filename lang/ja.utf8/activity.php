@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-07-01 08:06:20 UTC
+ * @updated    2021-04-22 06:10:29 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,6 +18,7 @@ $string['typeusermessage'] = '他の人からのメッセージ';
 $string['typefeedback'] = 'コメント';
 $string['typewatchlist'] = 'ウォッチリスト';
 $string['typeviewaccess'] = '新しいページアクセス';
+$string['typeviewaccessrevoke'] = '取り消し済みページアクセス';
 $string['typecontactus'] = 'お問い合わせ';
 $string['typeobjectionable'] = '好ましくないコンテンツ';
 $string['typevirusrepeat'] = 'ウイルスアップロードの繰り返し';

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-21 23:26:00 UTC
+ * @updated    2021-04-22 06:26:14 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -137,7 +137,6 @@ $string['needsverified'] = '要検証';
 $string['verification'] = '検証';
 $string['progresspage'] = 'ポートフォリオ完了';
 $string['progresspagedescription'] = 'コレクションのポートフォリオ完了ページのデフォルトレイアウトをセットアップします。';
-$string['youhavebeengivenaccess'] = 'あなたには次のアクセスが与えられています';
 $string['undoverification'] = 'ステートメントをリセットする';
 $string['undoverificationformtitle'] = 'ステートメントをリセットする';
 $string['undoverificationdescription'] = 'あなたがリセットしたいステートメントの1つを選択してください。続けた場合、あなたのステートメントのリセットを許可された人に通知されます。リクエストが処理された場合、承認は削除されます。また、あなたはステートメントを再度承認できます。';
@@ -152,5 +151,29 @@ $string['undoreportmessage'] = 'ステートメント「 %s 」(ポートフォ�
 $string['accessdeniedundo'] = 'ステートメントはすでにリセットされています。これ以上、あなたはポートフォリオにアクセスできません。';
 $string['undonesubject'] = 'ポートフォリオステートメントのリセットリクエスト処理完了';
 $string['undonemessage'] = 'ステートメント作成者からのリクエストにより、%s がステートメント「 %s 」(ポートフォリオ「 %s 」) をリセットしました。';
+$string['sharedviewverifiedunchecked'] = '%s (%s) はまだレビューされていません。';
+$string['sharedviewverifiedchecked'] = '%s (%s) はレビューされました。';
+$string['userhasremovedaccesssubject'] = '%s が「 %s 」へのアクセスを削除しました。';
+$string['youhavebeengivenaccess'] = 'あなたには次のアクセスが与えられています';
+$string['userhasremovedaccess'] = '%s はポートフォリオ「 %s 」にアクセスできないようになりました。';
+$string['userrevokereason'] = '理由は次のとおりです:';
+$string['removemyaccess'] = '私のアクセスを削除する';
+$string['completionpercentage'] = '完了';
+$string['revokemyaccessformtitle'] = 'ポートフォリオアクセスを取り消す';
+$string['revokemyaccessdescription'] = '続けることにより、あなたはこのポートフォリオ全体へのアクセスを失います。あなたはこのポートフォリオを閲覧または参加できなくなります。このポートフォリオのオーナーにはあなたにアクセスがなくなった旨の通知が送信されます。
+<br />
+あなたは補足メッセージを追加できます。';
+$string['revokemyaccessreasontextbox'] = 'メッセージ';
+$string['removemyaccesssubmit'] = '続ける';
+$string['revokemyaccessconfirm'] = 'あなたは次のアクセスを失います:';
+$string['revokemyaccessreason'] = 'メッセージ';
+$string['revokemessagesent'] = 'アクセス取り消し';
+$string['removemyaccessiconaria'] = '「 %s 」(所有者: %s) への私のアクセスを削除する';
+$string['progressnotavailable'] = 'ポートフォリオ「 %s 」(%s) の完了進捗はまだ表示できません。';
+$string['verifiednotavailable'] = 'あなたはポートフォリオ「 %s 」(%s) の主ステートメントをレビューできません。';
+$string['verifiednotavailabledate'] = 'ポートフォリオ「 %s 」(%s) のステートメントは %s 以前には作成できません。';
+$string['verificationtobedone'] = 'ポートフォリオ「 %s 」(%s) のステートメントを完了する';
+$string['verificationdone'] = 'ポートフォリオ「 %s 」(%s) のステートメント完了済み';
+$string['removeaccess'] = 'ポートフォリオ「 %s 」(%s) への私のアクセスを削除する';
 
 ?>
