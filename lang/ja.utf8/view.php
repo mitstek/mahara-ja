@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-22 01:19:48 UTC
+ * @updated    2021-04-22 08:49:31 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -432,6 +432,7 @@ $string['entersearchquery'] = '検索クエリを入力してください。';
 $string['allow'] = '許可';
 $string['comments'] = 'コメント';
 $string['moderate'] = 'モデレート';
+$string['review'] = 'レビュー';
 $string['sharedby'] = '共有';
 $string['retractable'] = '格納';
 $string['retractabledescription'] = 'ヘッダクリック時にこのブロックが格納されるようにするにはこのオプションを有効にしてください。';
