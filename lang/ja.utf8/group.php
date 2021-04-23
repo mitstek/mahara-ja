@@ -296,6 +296,6 @@ $string['Joined'] = '登録';
 $string['membersdescription:invite'] = 'これは「招待のみ」グループです。あなたはユーザをユーザプロファイルページより招待、または<a href="%s">一度に複数の招待を送信できます</a>。';
 $string['membersdescription:controlled'] = 'これは「管理メンバーシップ」グループです。あなたはユーザをユーザプロファイルページより追加または<a href="%s">一度に多くのユーザを追加できます</a>。';
 $string['submit'] = '送信';
-$string['allowssubmissions'] = '送信を許可する';
+$string['allowssubmissions'] = '提出を許可する';
 
 ?>
