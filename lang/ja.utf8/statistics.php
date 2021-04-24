@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-11-27 04:51:57 UTC
+ * @updated    2021-04-24 01:24:55 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -213,6 +213,20 @@ $string['reportdescaccesslist'] = '<ul>
 <li>アクセスリスト 例) ポートフォリオを閲覧できるパーミッションのある人</li>
 </ul>
 <p>選択された期間中に作成されたポートフォリオが一覧表示されます。それらの現在のアクセスパーミッションが表示されます。</p>';
+$string['reportcompletionverification'] = '完了およびレビュー';
+$string['reportdesccompletionverification'] = '<ul>
+<li>ポートフォリオ作成者の個人情報</li>
+<li>ポートフォリオ作成者のメールアドレス</li>
+<li>ポートフォリオタイトル</li>
+<li>ポートフォリオ作成日</li>
+<li>テンプレートタイトルおよびリンク</li>
+<li>レビュアの個人情報</li>
+<li>レビュアのメールアドレス</li>
+<li>レビュアがポートフォリオにアクセスできるようになった日付</li>
+<li>レビュアがポートフォリオの主ステートメントを承認した日付</li>
+<li>レビュアがポートフォリオへの自分のアクセスを削除した日付</li>
+<li>レビュアのポートフォリオへのアクセスがシステムによって削除された日付</li>
+<li>個人ごとのポートフォリオごと完了割合</li>';
 $string['reportdescusers'] = '<ul>
 <li>日付</li>
 <li>ログイン人数</li>
@@ -407,6 +421,7 @@ $string['usersaccesslistreports'] = 'ポートフォリオアクセス';
 $string['usersuseractivityreports'] = 'アカウント活動';
 $string['usersuserdetailsreports'] = 'アカウント詳細';
 $string['usersuseragreementreports'] = '法的同意';
+$string['userscompletionverificationreports'] = '完了およびレビュー';
 $string['groupsreports'] = 'グループ概要';
 $string['contentreports'] = 'コンテンツ概要';
 $string['peoplereports'] = '人概要';
@@ -460,5 +475,24 @@ $string['assessmenttype'] = '提出タイプ';
 $string['assessmensubmitted'] = '提出日';
 $string['assessmentmarker'] = 'リリース';
 $string['assessmentreleaseddate'] = 'リリース日';
+$string['registrationnumber'] = '学籍番号';
+$string['portfoliotitle'] = 'ポートフォリオ';
+$string['portfoliocreationdate'] = 'ポートフォリオ作成日';
+$string['templatetitle'] = 'テンプレート';
+$string['verifierfirstname'] = 'レビュア名';
+$string['verifierlastname'] = 'レビュア姓';
+$string['verifierdisplayname'] = 'レビュア表示名';
+$string['verifierusername'] = 'レビュアユーザ名';
+$string['verifierregistrationnumber'] = 'レビュア学籍番号';
+$string['verifieremail'] = 'レビュアメール';
+$string['accessfromdate'] = 'アクセス許可';
+$string['accessrevokedbyauthordate'] = '作成者によるアクセス無効';
+$string['accessrevokedbyaccessordate'] = 'レビュアによるアクセス無効';
+$string['dateverified'] = 'レビュアによる主ステートメント承認';
+$string['completionpercentage'] = '完了パーセンテージ';
+$string['portfoliofilter'] = 'テンプレートでフィルタする';
+$string['portfoliofilterdescription'] = '1つまたはそれ以上のテンプレートで結果をフィルタします。';
+$string['portfolioverifierfilter'] = 'レビュア割り当て';
+$string['portfolioveriferfilterdescription'] = 'レビュアが割り当てられているか否かを基に結果をフィルタします。';
 
 ?>
