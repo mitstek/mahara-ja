@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-24 01:24:55 UTC
+ * @updated    2021-04-27 01:09:34 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -227,6 +227,15 @@ $string['reportdesccompletionverification'] = '<ul>
 <li>レビュアがポートフォリオへの自分のアクセスを削除した日付</li>
 <li>レビュアのポートフォリオへのアクセスがシステムによって削除された日付</li>
 <li>個人ごとのポートフォリオごと完了パーセンテージ</li>';
+$string['reportportfolioswithverifiers'] = 'レビュアありポートフォリオ';
+$string['reportdescportfolioswithverifiers'] = '<ul>
+<li>期間が始まる週の日付</li>
+<li>レビュアありの合計ポートフォリオ数</li>
+<li>レビュアなしの合計ポートフォリオ数</li>
+</ul>';
+$string['withverifier'] = 'レビュアあり';
+$string['withoutverifier'] = 'レビュアなし';
+$string['currentverifiersinfo'] = '現在のレビュア';
 $string['reportdescusers'] = '<ul>
 <li>日付</li>
 <li>ログイン人数</li>
@@ -271,6 +280,8 @@ $string['reportdesccollaboration'] = '<ul>
 <li>シークレットURL経由で共有されているポートフォリオ数</li>
 <li>フレンドと共有されているポートフォリオ数</li>
 </ul>';
+$string['verifierinfo'] = 'レビュア割り当て';
+$string['verifierloadinfo'] = 'レビュア割り当て負荷';
 $string['reportmasquerading'] = 'マスカレーディングセッション';
 $string['reportdescmasquerading'] = '<ul>
 <li>氏名およびユーザ名</li>
@@ -422,6 +433,7 @@ $string['usersuseractivityreports'] = 'アカウント活動';
 $string['usersuserdetailsreports'] = 'アカウント詳細';
 $string['usersuseragreementreports'] = '法的同意';
 $string['userscompletionverificationreports'] = '完了およびレビュー';
+$string['usersportfolioswithverifiersreports'] = 'レビュアありポートフォリオ';
 $string['groupsreports'] = 'グループ概要';
 $string['contentreports'] = 'コンテンツ概要';
 $string['peoplereports'] = '人概要';
@@ -450,7 +462,7 @@ $string['actions'] = '操作';
 $string['lastaction'] = '最終活動';
 $string['lastactiontime'] = '最終活動時間';
 $string['removefilter'] = 'フィルタを削除する';
-$string['collaborationdate'] = 'w.c. %s';
+$string['weekstartdate'] = 'w.c. %s';
 $string['needadvancedanalytics'] = 'このレポートに高度なアナリティクスを有効にする必要があります。詳細は「サイト設定」の「ロギング設定」をご覧ください。';
 $string['Overview'] = '概要';
 $string['weeklytrend'] = '成長トレンド';

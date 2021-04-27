@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-27 00:43:57 UTC
+ * @updated    2021-04-27 01:08:49 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -339,6 +339,8 @@ $string['allowpublicviews1'] = 'パブリックポートフォリオを許可す
 $string['allowpublicviewsdescription2'] = '人は登録済みの人のみではなく、外部からもアクセスできるポートフォリオを作成できます。';
 $string['allowinstitutionpublicviews1'] = 'パブリックインスティテューションポートフォリオを許可する';
 $string['allowinstitutionpublicviewsdescription3'] = '登録済みの人のみではなく、外部からもアクセスできるポートフォリオをインスティテューションメンバーが作成できるようにします。';
+$string['allowpeersviewcontent'] = 'ピアによるポートフォリオコンテンツの閲覧を許可する';
+$string['allowpeersviewcontentdescription'] = 'ポートフォリオで「ピア」ロールが割り当てられたユーザがポートフォリオのコンテンツすべてを閲覧できるようにします。';
 $string['allowinstitutionsmartevidence'] = 'スマートエビデンスを許可する';
 $string['allowinstitutionsmartevidencedescription'] = 'コレクションをコンピテンシーフレームワークにリンクされるスマートエビデンスコレクションに切り替えます。';
 $string['institutionsmartevidencenotallowed'] = 'あなたがスマートエビデンスオプションを設定するには「プラグイン管理」ページで「スマートエビデンス」モジュールを有効にする必要があります。';
@@ -1143,7 +1145,7 @@ $string['unabletodeleteself1'] = 'あなた自身を削除することはでき�
 $string['unabletodeletealladmins1'] = 'あなたはサイト管理者すべてを削除することはできません。';
 $string['unabletosuspendself'] = 'あなた自身を利用停止できません。';
 $string['unabletosuspendalladmins'] = 'あなたはすべてのサイト管理者を利用停止できません。';
-$string['verifierload'] = 'レビュアが読み込んだポートフォリオのパーセンテージ';
+$string['verifierload'] = 'レビュア負荷別のポートフォリオのパーセンテージ';
 $string['verifierpercentage'] = 'レビュアに割り当てられたポートフォリオのパーセンテージ';
 $string['countportfolios'] = '%s テンプレートポートフォリオ選択済み';
 $string['allocated'] = '割り当て済み';
