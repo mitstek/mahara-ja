@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-11-15 06:07:57 UTC
+ * @updated    2021-04-27 00:19:49 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -138,7 +138,8 @@ $string['lastmodified'] = '最終更新日時';
 $string['myfiles'] = 'マイファイル';
 $string['Name'] = '名称';
 $string['namefieldisrequired'] = '名称フィールドは必須です。';
-$string['maxuploadsize'] = '最大アップロードサイズ';
+$string['maxuploadsize'] = '最大アップロードサイズ: %s';
+$string['maxfileuploads'] = '最大アップロードファイル数: %s';
 $string['nofolderformove'] = '移動先として指定できるフォルダはありません。';
 $string['movefaileddestinationinartefact'] = 'あなたはフォルダの中に自フォルダを入れることはできません。';
 $string['movefaileddestinationnotfolder'] = 'あなたはフォルダ内にのみファイルを移動できます。';
