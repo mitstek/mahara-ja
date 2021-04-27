@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-27 00:28:24 UTC
+ * @updated    2021-04-27 00:44:51 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -137,6 +137,8 @@ $string['needsverified'] = '要検証';
 $string['verification'] = '検証';
 $string['progresspage'] = 'ポートフォリオ完了';
 $string['progresspagedescription'] = 'コレクションのポートフォリオ完了ページのデフォルトレイアウトをセットアップします。';
+$string['progressportfolios'] = 'ポートフォリオカウント';
+$string['progressverifiers'] = 'レビュアパーセンテージ';
 $string['sharedviewverifiedunchecked'] = '%s (%s) はまだレビューされていません。';
 $string['sharedviewverifiedchecked'] = '%s (%s) はレビューされました。';
 $string['userhasremovedaccesssubject'] = '%s が「 %s 」へのアクセスを削除しました。';

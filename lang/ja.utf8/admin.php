@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-24 21:18:13 UTC
+ * @updated    2021-04-27 00:43:57 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1143,6 +1143,13 @@ $string['unabletodeleteself1'] = 'あなた自身を削除することはでき�
 $string['unabletodeletealladmins1'] = 'あなたはサイト管理者すべてを削除することはできません。';
 $string['unabletosuspendself'] = 'あなた自身を利用停止できません。';
 $string['unabletosuspendalladmins'] = 'あなたはすべてのサイト管理者を利用停止できません。';
+$string['verifierload'] = 'レビュアが読み込んだポートフォリオのパーセンテージ';
+$string['verifierpercentage'] = 'レビュアに割り当てられたポートフォリオのパーセンテージ';
+$string['countportfolios'] = '%s テンプレートポートフォリオ選択済み';
+$string['allocated'] = '割り当て済み';
+$string['unallocated'] = '割り当て解除';
+$string['currentverifiersovertime'] = '現在のレビュアの推移';
+$string['currentverifiers'] = '現在のレビュア';
 $string['notificationssaved'] = '通知設定が保存されました。';
 $string['onlyshowingfirst'] = '最初に表示する';
 $string['resultsof'] = '検索結果';
@@ -1174,8 +1181,6 @@ $string['groupmanagespecific'] = '「 %s 」を管理する';
 $string['groupdelete'] = '削除';
 $string['managegroupquotadescription1'] = 'このグループのグループファイルクオータを変更する場合、このフォームを使用してください。';
 $string['managegroupdescription1'] = 'このグループの管理者を昇格および降格する場合、このフォームを使用してください。あなたがグループ管理者を削除した場合、その人はグループメンバーとして残ります。';
-$string['userscandisabledevicedetection'] = '人がデバイス検出を無効にできる';
-$string['userscandisabledevicedetectiondescription1'] = '人がこのサイトを閲覧するときにモバイルデバイス検出を無効にできるようにします。';
 $string['loggedinfilter'] = 'ログイン日時でフィルタする:';
 $string['anyuser'] = 'すべての人';
 $string['usershaveloggedin'] = 'ログインしたことのある人';
