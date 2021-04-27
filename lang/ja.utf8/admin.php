@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-27 01:20:18 UTC
+ * @updated    2021-04-27 08:26:53 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1150,7 +1150,7 @@ $string['verifierload'] = 'レビュア負荷別のポートフォリオのパ�
 $string['verifierpercentage'] = 'レビュアに割り当てられたポートフォリオのパーセンテージ';
 $string['countportfolios'] = '%s テンプレートポートフォリオ選択済み';
 $string['allocated'] = '割り当て済み';
-$string['unallocated'] = '割り当て解除';
+$string['unallocated'] = '未割り当て';
 $string['currentverifiersovertime'] = '現在のレビュアの推移';
 $string['currentverifiers'] = '現在のレビュア';
 $string['notificationssaved'] = '通知設定が保存されました。';

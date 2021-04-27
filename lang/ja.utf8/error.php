@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-27 00:24:10 UTC
+ * @updated    2021-04-27 08:18:32 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -144,7 +144,7 @@ $string['memcacheusememcached'] = '「memcache」セッションストレージ�
 $string['siteoutofsyncfor'] = 'このサイトには %s ファイルが示すものより新しいデータベース情報があります。';
 $string['updatesitetimezone'] = '現在のサイトのタイムゾーンを「サイト設定」 → 「サイトオプション」 → 「サイト設定」で設定する必要があります。あなたのconfig.phpに「$cfg->dbtimezone」行がある場合、削除した後、サイトオプションで設定してください。';
 $string['pluginnotactive1'] = 'プラグイン「 %s 」が有効にされていません。有効にするには「管理」 → 「拡張機能」 → 「プラグイン管理」に移動してください。';
-$string['fileuploadtoobig'] = '「 %s 」より大きいためファイルアップロードが大きすぎます。';
+$string['fileuploadtoobig'] = 'あなたがアップロードを試みているファイルはアップロードを許可されている最大ファイルサイズ「 %s 」を超えています。';
 $string['fileuploadtoomany'] = 'あなたがアップロードを試みているファイル数が多すぎます。あなたは最大 %s 個のファイルをアップロードできます。';
 $string['sideblockmenuclash'] = 'サイドブロック名「 %s 」はすでに使用されています。異なる名称を選択してください。';
 $string['isolatedinstitutionsremoverules'] = '私たちは隔離インスティテューションのための %s 件のアクセスルールを非表示にしました。フォーム保存後、非表示ルールは削除されます。';
