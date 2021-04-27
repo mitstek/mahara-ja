@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-07 01:08:36 UTC
+ * @updated    2021-04-27 01:26:38 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -371,6 +371,11 @@ $string['membercommenters'] = '関係メンバー';
 $string['extcommenters'] = '関係非メンバー';
 $string['groupparticipationreports'] = '参加者レポート';
 $string['groupparticipationreportsdesc1'] = 'グループ管理者はすべてのグループ、共有ページおよび誰がコメントしたのか表示するレポートにアクセスできます。';
+$string['archives'] = 'アーカイブ';
+$string['grouparchivereportsheading'] = '提出アーカイブ';
+$string['grouparchivereports'] = '提出アーカイブへのアクセス';
+$string['grouparchivereportsdesc'] = 'グループ管理者はアーカイブ済み提出ファイルにアクセスできます。';
+$string['grouparchivereportserror'] = '提出が許可されている場合のみ、あなたは提出アーカイブレポートを閲覧できます。';
 $string['returntogroupportfolios'] = 'グループページおよびコレクションに戻る';
 $string['showintroduction'] = '自己紹介';
 $string['addgrouplabel'] = 'グループラベルを追加する';

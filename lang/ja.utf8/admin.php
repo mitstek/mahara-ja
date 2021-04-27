@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-27 01:08:49 UTC
+ * @updated    2021-04-27 01:20:18 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -244,6 +244,7 @@ $string['archivedsubmissionsdesc'] = 'アーカイブ済み提出を管理しま
 $string['submittedto'] = '提出先';
 $string['ID'] = 'ID';
 $string['filenameleap'] = 'Leap2Aファイル';
+$string['filenameleaphtml'] = 'アーカイブファイル';
 $string['archivedon'] = 'アーカイブ';
 $string['filemissing'] = '%s (ファイル不明)';
 $string['filemissingdesc'] = 'ファイル「 %s%s 」がサーバにありません。';
