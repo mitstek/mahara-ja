@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-22 06:26:14 UTC
+ * @updated    2021-04-27 00:28:24 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -137,6 +137,12 @@ $string['needsverified'] = '要検証';
 $string['verification'] = '検証';
 $string['progresspage'] = 'ポートフォリオ完了';
 $string['progresspagedescription'] = 'コレクションのポートフォリオ完了ページのデフォルトレイアウトをセットアップします。';
+$string['sharedviewverifiedunchecked'] = '%s (%s) はまだレビューされていません。';
+$string['sharedviewverifiedchecked'] = '%s (%s) はレビューされました。';
+$string['userhasremovedaccesssubject'] = '%s が「 %s 」へのアクセスを削除しました。';
+$string['ownerhasremovedaccesssubject'] = '%s が「 %s 」へのあなたのアクセスを取り消しました。';
+$string['revokedbyowner'] = 'オーナーがアクセスを取り消しました。';
+$string['youhavebeengivenaccess'] = 'あなたには次のアクセスが与えられています';
 $string['undoverification'] = 'ステートメントをリセットする';
 $string['undoverificationformtitle'] = 'ステートメントをリセットする';
 $string['undoverificationdescription'] = 'あなたがリセットしたいステートメントの1つを選択してください。続けた場合、あなたのステートメントのリセットを許可された人に通知されます。リクエストが処理された場合、承認は削除されます。また、あなたはステートメントを再度承認できます。';
@@ -151,13 +157,10 @@ $string['undoreportmessage'] = 'ステートメント「 %s 」(ポートフォ�
 $string['accessdeniedundo'] = 'ステートメントはすでにリセットされています。これ以上、あなたはポートフォリオにアクセスできません。';
 $string['undonesubject'] = 'ポートフォリオステートメントのリセットリクエスト処理完了';
 $string['undonemessage'] = 'ステートメント作成者からのリクエストにより、%s がステートメント「 %s 」(ポートフォリオ「 %s 」) をリセットしました。';
-$string['sharedviewverifiedunchecked'] = '%s (%s) はまだレビューされていません。';
-$string['sharedviewverifiedchecked'] = '%s (%s) はレビューされました。';
-$string['userhasremovedaccesssubject'] = '%s が「 %s 」へのアクセスを削除しました。';
-$string['youhavebeengivenaccess'] = 'あなたには次のアクセスが与えられています';
 $string['userhasremovedaccess'] = '%s はポートフォリオ「 %s 」にアクセスできないようになりました。';
 $string['userrevokereason'] = '理由は次のとおりです:';
 $string['removemyaccess'] = '私のアクセスを削除する';
+$string['ownerhasremovedaccess'] = '%s がポートフォリオ「 %s 」へのあなたのアクセスを取り消しました。';
 $string['completionpercentage'] = '完了';
 $string['revokemyaccessformtitle'] = 'ポートフォリオアクセスを取り消す';
 $string['revokemyaccessdescription'] = '続けることにより、あなたはこのポートフォリオ全体へのアクセスを失います。あなたはこのポートフォリオを閲覧または参加できなくなります。このポートフォリオのオーナーにはあなたにアクセスがなくなった旨の通知が送信されます。
