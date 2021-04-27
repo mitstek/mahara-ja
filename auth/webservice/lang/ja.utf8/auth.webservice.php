@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-11-17 23:31:08 UTC
+ * @updated    2021-04-27 00:07:34 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -161,6 +161,7 @@ $string['stdescription'] = 'アクセストークンを生成してユーザを�
 $string['username'] = 'ユーザ';
 $string['owner'] = 'オーナー';
 $string['servicename'] = 'サービス';
+$string['servicenamemissing'] = '利用可能なサービスはありません。この認証タイプに有効なウェブサービスが割り当てられていること確認してください。';
 $string['generate'] = 'トークンを生成する';
 $string['invalidtoken'] = '無効なトークン: トークンが見つかりませんでした。';
 $string['invalidtokennotsupplied'] = '無効なトークンが選択されたかトークンが提供されていません。';
