@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-27 01:09:34 UTC
+ * @updated    2021-04-27 01:33:53 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -280,8 +280,28 @@ $string['reportdesccollaboration'] = '<ul>
 <li>シークレットURL経由で共有されているポートフォリオ数</li>
 <li>フレンドと共有されているポートフォリオ数</li>
 </ul>';
+$string['reportverifiersummary'] = 'レビュア概要';
+$string['reportdescverifiersummary'] = '<ul>
+<li>週の時間帯の日付</li>
+<li>例えば「1」カラムの値が「3」の場合、3人のレビュアーがそれぞれ1つのポートフォリオにアクセスできることを意味します。</li>
+</ul>';
+$string['date'] = '日付';
+$string['one'] = '1';
+$string['two'] = '2';
+$string['three'] = '3';
+$string['four'] = '4';
+$string['five'] = '5';
+$string['six'] = '6';
+$string['seven'] = '7';
+$string['eight'] = '8';
+$string['nine'] = '9';
+$string['tenormore'] = '10以上';
+$string['verifiersummarydate'] = 'w.c. %s';
 $string['verifierinfo'] = 'レビュア割り当て';
 $string['verifierloadinfo'] = 'レビュア割り当て負荷';
+$string['verifieroptions_all'] = 'すべてを表示する';
+$string['verifieroptions_current'] = '現在のレビュアありの作成者を表示する';
+$string['verifieroptions_none'] = '現在のレビュアなしの作成者を表示する';
 $string['reportmasquerading'] = 'マスカレーディングセッション';
 $string['reportdescmasquerading'] = '<ul>
 <li>氏名およびユーザ名</li>
@@ -426,6 +446,7 @@ $string['reportdesclogins'] = '<ul>
 </ul>
 <p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニューより「すべてのインスティテューション」を選択した場合のみ利用できます。</p>';
 $string['userscollaborationreports'] = 'コラボレーション';
+$string['usersverifiersummaryreports'] = 'レビュア概要';
 $string['userspageactivityreports'] = 'ページ活動';
 $string['usersmasqueradingreports'] = 'マスカレーディングセッション';
 $string['usersaccesslistreports'] = 'ポートフォリオアクセス';
