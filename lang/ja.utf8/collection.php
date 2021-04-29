@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-27 00:44:51 UTC
+ * @updated    2021-04-29 04:10:54 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -158,7 +158,7 @@ $string['undoreportsubject'] = 'ポートフォリオステートメントのリ
 $string['undoreportmessage'] = 'ステートメント「 %s 」(ポートフォリオ「 %s 」) が承認されました。しかし、承認者 %s はステートメントのリセットを希望しています。';
 $string['accessdeniedundo'] = 'ステートメントはすでにリセットされています。これ以上、あなたはポートフォリオにアクセスできません。';
 $string['undonesubject'] = 'ポートフォリオステートメントのリセットリクエスト処理完了';
-$string['undonemessage'] = 'ステートメント作成者からのリクエストにより、%s がステートメント「 %s 」(ポートフォリオ「 %s 」) をリセットしました。';
+$string['undonemessage'] = '最初のステートメント承認者からのリクエストにより、%s がステートメント「 %s 」(ポートフォリオ「 %s 」) をリセットしました。';
 $string['userhasremovedaccess'] = '%s はポートフォリオ「 %s 」にアクセスできないようになりました。';
 $string['userrevokereason'] = '理由は次のとおりです:';
 $string['removemyaccess'] = '私のアクセスを削除する';
@@ -175,10 +175,10 @@ $string['revokemyaccessreason'] = 'メッセージ';
 $string['revokemessagesent'] = 'アクセス取り消し';
 $string['removemyaccessiconaria'] = '「 %s 」(所有者: %s) への私のアクセスを削除する';
 $string['progressnotavailable'] = 'ポートフォリオ「 %s 」(%s) の完了進捗はまだ表示できません。';
-$string['verifiednotavailable'] = 'あなたはポートフォリオ「 %s 」(%s) の主ステートメントをレビューできません。';
-$string['verifiednotavailabledate'] = 'ポートフォリオ「 %s 」(%s) のステートメントは %s 以前には作成できません。';
-$string['verificationtobedone'] = 'ポートフォリオ「 %s 」(%s) のステートメントを完了する';
-$string['verificationdone'] = 'ポートフォリオ「 %s 」(%s) のステートメント完了済み';
+$string['verifiednotavailable'] = 'あなたはポートフォリオ「 %s 」(%s) の主ステートメントを承認できません。';
+$string['verifiednotavailabledate'] = 'ポートフォリオ「 %s 」(%s) のステートメントは %s 以前には承認できません。';
+$string['verificationtobedone'] = 'ポートフォリオ「 %s 」(%s) のステートメントを承認する';
+$string['verificationdone'] = 'ポートフォリオ「 %s 」(%s) のステートメント承認済み';
 $string['removeaccess'] = 'ポートフォリオ「 %s 」(%s) への私のアクセスを削除する';
 
 ?>
