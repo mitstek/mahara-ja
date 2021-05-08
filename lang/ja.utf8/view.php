@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-27 01:28:24 UTC
+ * @updated    2021-05-06 06:32:10 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -492,5 +492,6 @@ $string['copylocked'] = 'コピーロック';
 $string['copylockeddescription'] = 'これはテンプレートコピーです。このコピーのインストラクションフィールドをロック/ロック解除するにはこの設定を変更してください。';
 $string['canteditcollectionlocked'] = 'コレクションがロックされているため、ポートフォリオページを編集できません。';
 $string['canteditprogress'] = 'コレクションがロックされているか、ページがテンプレートからコピーされているため、ポートフォリオ完了ページを編集できません。';
+$string['accessdeniedaccesss'] = 'あなたはこれ以上アクセスパーミッションを変更できません。';
 
 ?>
