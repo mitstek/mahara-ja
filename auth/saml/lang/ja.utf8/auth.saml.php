@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-03-22 21:19:21 UTC
+ * @updated    2021-05-25 06:16:19 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -58,7 +58,10 @@ $string['idpentityid'] = 'アイデンティティプロバイダエンティテ
 $string['idpentityadded'] = 'このSAMLインスタンスにアイデンティティプロバイダメタデータを追加しました。';
 $string['idpentityupdated'] = 'このSAMLインスタンスのアイデンティティプロバイダメタデータを更新しました。';
 $string['idpentityupdatedduplicates'] = 'このSAMLインスタンスおよび他の %s インスタンスのアイデンティティプロバイダメタデータを更新しました。';
-$string['metarefresh_metadata_url'] = '自動リフレッシュのためのメタデータURL';
+$string['metarefresh_metadata_url'] = '自動更新のためのメタデータURL';
+$string['metarefresh_metadata_signature'] = 'メタデータ署名正当性確認';
+$string['metadatarefreshfailed_subject'] = 'メタデータ自動更新失敗';
+$string['metadatarefreshfailed_body'] = 'SAMLメタデータの自動更新を完了できませんでした。失敗の詳細情報に関してcronログをご確認ください。次のようなエラーレスポンスが表示される場合があります:';
 $string['idpprovider'] = 'プロバイダ';
 $string['idptable'] = 'インストール済みアイデンティティプロバイダ';
 $string['institutionattribute'] = 'インスティテューション属性 (%s を含む)';
