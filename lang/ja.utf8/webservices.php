@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-27 05:07:22 UTC
+ * @updated    2021-05-30 05:15:50 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -188,7 +188,7 @@ $string['user_id'] = '人のLTI ID';
 $string['useraddress'] = '人の住所';
 $string['userfavs'] = 'アカウントオーナーのお気に入り';
 $string['userid'] = 'アカウントオーナーのID';
-$string['useridsort'] = 'IDで並べ替えます。昇順 [asc] または降順 [desc]';
+$string['useridsort'] = 'IDで並べ替えます: 昇順 [asc] または降順 [desc]';
 $string['username'] = 'アカウントオーナーのユーザ名';
 $string['usernamesubmitportfolio'] = '評価のためにポートフォリオを送信する人のユーザ名';
 $string['usernamevalid1'] = '半角英数字3～255文字にしてください。半角英数字および標準的な記号を使用できます。';
