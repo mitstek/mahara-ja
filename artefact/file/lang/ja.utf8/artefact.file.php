@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-27 05:12:12 UTC
+ * @updated    2021-06-02 06:25:39 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -197,7 +197,7 @@ $string['adm_group_notificationsubject'] = 'あなたが管理しているグル
 $string['adm_group_notificationmessage'] = 'グループ %s がファイルクオータの %s% パーセントに達しました (ファイルクオータ: %s)。';
 $string['textlinktouser'] = '%s のプロファイルを編集する';
 $string['quotanotifylimittitle1'] = 'クオータ通知閾値';
-$string['quotanotifylimitdescr1'] = '人のファイルアップロードクオータがこのパーセンテージに達した場合、アップロード制限に達しようとしている旨、その人(およびサイト管理者) に通知が送信されます。その人はスペースを空けるためファイルを削除するかクオータを増やすよう管理者に連絡できます。';
+$string['quotanotifylimitdescr1'] = '人のファイルアップロードクオータがこのパーセンテージに達した場合、アップロード制限に達しようとしている旨、その人 (およびサイト管理者) に通知されます。その人はスペースを空けるためファイルを削除するかクオータを増やすよう管理者に連絡できます。';
 $string['quotanotifyadmin1'] = 'サイト管理者通知';
 $string['quotanotifyadmindescr3'] = '人が通知閾値に達した時点でサイト管理者に通知します。';
 $string['useroverquotathreshold'] = '%s がファイルクオータの %s% パーセントに達しました (ファイルクオータ: %s)。';
