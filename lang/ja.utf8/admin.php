@@ -180,19 +180,19 @@ $string['iframeiconhost'] = 'アイコンホスト';
 $string['urlalreadyexists'] = 'このURLはすでに存在します。あなたはURLを重複して追加できません。';
 $string['iframeiconhostdescription'] = '必要であれば、あなたはファビコンイメージ用の異なるホストを指定できます。同一名称のすべてのサイトでこのアイコンが使用されます。';
 $string['cleanurls'] = 'クリーンURL';
-$string['cleanurlsdescription'] = '<p>プロファイル、グループホームページおよびポートフォリオページに関して人間が解読可能なURLを使用するようあなたのサイトを設定できます。例えば以下のようになります:
+$string['cleanurlsdescription'] = '<p>あなたのサイトのプロファイル、グループホームページおよびポートフォリオページを人間が解読可能なURLを使用するよう設定できます。例えば以下のようになります:
 <ul>
 <li>https://mahara.example.com/user/bob</li>
 <li>https://mahara.example.com/group/bobs-group</li>
 <li>https://mahara.example.com/user/bob/bobs-portfolio-page</li>
 </ul>
 
-受信リクエストのURLを書き換えれるようあなたのサーバ管理者はこのオプションを有効にする前にウェブサーバを設定する必要があります。</p>
+あなたのサーバ管理者はこのオプションを有効にする前に受信リクエストのURLを書き換えれるようウェブサーバを設定する必要があります。</p>
 <p>この作業のインストラクションに関してMahara wikiの<a href="https://wiki.mahara.org/wiki/System_Administrator\'s_Guide/Clean_URL_Configuration">「クリーンURL設定 (英語)」</a>をご覧ください。</p>';
 $string['cleanurlsdisabled'] = 'クリーンURLは無効にされています。';
 $string['cleanurlsettings'] = 'クリーンURL設定';
 $string['regenerateurls'] = 'URLを再生成する';
-$string['regenerateurlsdescription'] = 'サイトからクリーンURLすべてを削除した後、ユーザ名、グループ名およびページタイトルを使用してクリーンURLを自動的に再生成します。';
+$string['regenerateurlsdescription'] = 'すべてのクリーンURLをサイトから削除した後、ユーザ名、グループ名およびページタイトルを使用してクリーンURLを自動的に再生成します。';
 $string['regenerateurlsconfirm1'] = '本当にこの処理を実行してもよろしいですか? 既存のカスタムURLすべてが置換されます。';
 $string['generateduserurls'] = '%s プロファイルURLを生成しました。';
 $string['generatedgroupurls'] = '%s グループホームページURLを生成しました。';
