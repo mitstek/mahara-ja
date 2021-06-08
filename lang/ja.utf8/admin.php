@@ -163,7 +163,7 @@ $string['maharaversion'] = 'Maharaバージョン';
 $string['activeusers'] = 'アクティブユーザ';
 $string['loggedinsince'] = '%s=本日 / %s=%s以降 / %s=全期間';
 $string['groupmemberaverage'] = 'それぞれのユーザは平均 %s のグループに属しています。';
-$string['viewsperuser'] = 'ページを作成したユーザはそれぞれ約 %s ページを持っています。';
+$string['viewsperuser'] = 'ページを作成したユーザはそれぞれ約 %s ページを所有しています。';
 $string['Cron'] = 'cron';
 $string['runningnormally'] = '正常動作';
 $string['cronnotrunning'] = 'cronは動作していません。cronの設定に関するインストラクションは<a href="https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。';
