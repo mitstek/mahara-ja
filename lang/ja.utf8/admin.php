@@ -306,7 +306,7 @@ $string['statsmaxquotaused1'] = 'ディスククオータ使用: %s<br />(<a hre
 $string['groupcountsbytype'] = 'グループタイプ別グループ数';
 $string['groupcountsbyjointype'] = 'アクセスタイプ別グループ数';
 $string['blockcountsbytype'] = 'ポートフォリオページで最も頻繁に使用されたブロック';
-$string['uptodate'] = 'あなたのローカルコードベースはMaharaコアの最新版です。';
+$string['uptodate'] = 'あなたのローカルコードベースはMaharaコア最新版です。';
 $string['latestversionis'] = '最新メジャーリリース: <a href="%s">%s</a>';
 $string['latestbranchversionis'] = 'このリリースの最新マイナーバージョン: <a href="%s">%s</a>';
 $string['versionnotinsupport'] = '%s はサポート対象外です。';
