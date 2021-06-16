@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-06-13 03:59:05 UTC
+ * @updated    2021-06-16 00:08:46 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -356,12 +356,12 @@ $string['anonymouscommentsdescription1'] = 'パブリックページまたはシ
 $string['loggedinprofileviewaccess1'] = 'すべての登録済みの人によるプロファイルアクセス';
 $string['loggedinprofileviewaccessdescription1'] = 'プロファイルページをすべての登録済みの人が閲覧できます。';
 $string['antispam'] = 'アンチスパム';
-$string['antispamdescription'] = '公開可視のフォームに適用されるスパム防止策のタイプです。';
+$string['antispamdescription'] = '公開可視フォームに適用されるスパム防止策のタイプです。';
 $string['dropdownmenu'] = 'ドロップダウンナビゲーション';
 $string['dropdownmenudescription2'] = 'メインMaharaナビゲーションのサブナビゲーションにドロップダウンフォーマットを使用します。';
 $string['dropdownmenudescriptioninstitution2'] = 'メインナビゲーションにドロップダウンメニューを使用します。';
-$string['commentsortorder'] = 'コメント並び順';
-$string['commentsortorderdescription'] = 'ページに表示されるアーティファクトコメントの並び順を設定します。';
+$string['commentsortorder'] = 'コメント並べ替え順';
+$string['commentsortorderdescription'] = 'ページに表示されるアーティファクトコメントの並べ替え順を設定します。';
 $string['commentthreaded'] = 'スレッドコメント';
 $string['commentthreadeddescription'] = 'ページの個別コメントへのスレッド返信を許可します。';
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
