@@ -115,7 +115,7 @@ $string['objectionabletopicdeletedbody'] = '%s は前に好ましくないコン
 好ましくないトピックコンテンツは次のとおりです:
 %s';
 $string['Open'] = 'オープン';
-$string['Order'] = '並び順';
+$string['Order'] = '並べ替え順';
 $string['orderdescription'] = 'このフォーラムがフォーラム一覧に表示される場合のポジションを選択してください。';
 $string['Post'] = '投稿';
 $string['postaftertimeout'] = 'あなたは %s 分のタイムアウト後に変更を送信しました。あなたの変更は適用されませんでした。';
