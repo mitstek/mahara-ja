@@ -178,7 +178,7 @@ $string['statsnogroups'] = '所属グループ数: 0';
 $string['statsmaxquotaused'] = '平均利用ディスククオータ: %s (最もクオータ使用量の多いユーザ: <a href="%s">%s</a> - クオータ使用量: %s)';
 $string['groupcountsbytype'] = 'グループタイプ別グループ数';
 $string['groupcountsbyjointype'] = 'アクセスタイプ別グループ数';
-$string['blockcountsbytype'] = 'ポートフォリオページで最も頻繁に使用されたブロック';
+$string['blockcountsbytype'] = 'ポートフォリオページで使用頻度の高いブロック';
 $string['uptodate'] = '最新';
 $string['latestversionis'] = '最新バージョン: <a href="%s">%s</a>';
 $string['viewsbytype'] = 'タイプ別ページ';
@@ -241,7 +241,7 @@ $string['sitelanguagedescription'] = 'サイトのデフォルトの言語です
 $string['sitecountrydescription'] = 'サイトのデフォルトの国です。';
 $string['sitename'] = 'サイト名';
 $string['sitenamedescription'] = 'サイト名はサイトの特定の場所およびサイトから送信されるメールに表示されます。';
-$string['siteoptionspagedescription'] = 'ここであなたははサイト全体にデフォルトとして適用されるグローバルオプションを設定できます。<br />メモ: 無効にされたオプションはあなたのconfig.phpファイルでオーバーライドできます。';
+$string['siteoptionspagedescription'] = 'ここであなたはサイト全体にデフォルトとして適用されるグローバルオプションを設定できます。<br />メモ: 無効にされたオプションはあなたのconfig.phpファイルでオーバーライドできます。';
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['sitethemedescription'] = 'サイトのデフォルトテーマです。あなたのテーマがリストにない場合、エラーログを確認してください。';
 $string['smallviewheaders'] = 'スモールページヘッダ';
