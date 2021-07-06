@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-07-04 05:54:29 UTC
+ * @updated    2021-07-06 05:58:10 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -582,7 +582,7 @@ $string['licensesave'] = '保存';
 $string['licensesaved'] = 'ライセンスが保存されました。';
 $string['licenseurldup'] = 'URLはユニークである必要があります。ここでは %s が繰り返し使用されています。';
 $string['licenseurlnone'] = '%s のURLを指定してください。';
-$string['networkingextensionsmissing'] = '申し訳ございません、インストール済みPHPで1つまたはそれ以上の必須拡張モジュールが不足しているためあなたはMaharaネットワーキングを設定できません:';
+$string['networkingextensionsmissing'] = '申し訳ございません、あなたのインストール済みPHPでは1つまたはそれ以上の必須拡張モジュールが不足しているため、Maharaネットワーキングを設定できません:';
 $string['publickey'] = '公開鍵';
 $string['publickeydescription2'] = 'この公開鍵は自動的に生成され %s 日ごとにローテートされます。';
 $string['publickeyexpires'] = '公開鍵の有効期限';
