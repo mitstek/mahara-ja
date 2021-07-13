@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-07-11 05:17:58 UTC
+ * @updated    2021-07-13 22:32:29 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -602,15 +602,15 @@ $string['deletekey'] = 'このキーを削除する';
 $string['keydeleted'] = '公開鍵が削除および再生成されました。';
 $string['proxysettings'] = 'プロクシ設定';
 $string['proxyaddress'] = 'プロクシアドレス';
-$string['proxyaddressdescription'] = 'あなたのサイトがインターネットにアクセスするためプロクシサーバを使用している場合、プロクシを「ホスト名:ポート番号」の表記法で指定してください。';
+$string['proxyaddressdescription'] = 'あなたのサイトがインターネットへのアクセスにプロクシサーバを使用している場合、「ホスト名:ポート番号」の表記法でプロクシを指定してください。';
 $string['proxyaddressset'] = 'プロクシアドレスセット';
 $string['proxyauthmodel'] = 'プロクシ認証モデル';
 $string['proxyauthmodeldescription'] = '必要な場合、あなたのプロクシ認証モデルを選択してください。';
 $string['proxyauthmodelbasic'] = 'Basic (NCSA)';
 $string['proxyauthmodelset'] = 'プロクシ認証モデルが設定されました。';
-$string['proxyauthcredentials'] = 'プロクシ資格情報';
-$string['proxyauthcredentialsdescription'] = 'あなたのプロクシがウェブサーバで認証するため必要な資格情報を「ユーザ名:パスワード」のフォーマットで指定してください。';
-$string['proxyauthcredntialsset'] = 'プロクシ認証資格情報セット';
+$string['proxyauthcredentials'] = 'プロクシ認証情報';
+$string['proxyauthcredentialsdescription'] = 'あなたのプロクシがウェブサーバでの認証に必要な認証情報を「ユーザ名:パスワード」のフォーマットで指定してください。';
+$string['proxyauthcredntialsset'] = 'プロクシ認証情報セット';
 $string['emailsettings'] = 'Eメール設定';
 $string['emailsmtphosts'] = 'SMTPホスト';
 $string['emailsmtphostsdescription'] = 'メール送信に使用するSMTPサーバです。例) smtp1.example.com';
