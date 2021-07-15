@@ -646,7 +646,7 @@ $string['uploadcsvpagedescription6'] = '<p>ここであなたは<acronym title="
 
 %s';
 $string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれる行が多すぎます。あなたのファイルに %s 以上含めません。';
-$string['uploadcsverrordatamustbenumeric'] = '%s 行目: categoryの値は数字にしてください。';
+$string['uploadcsverrordatamustbenumeric'] = '%s 行目: カテゴリ (category) の値は数字にしてください。';
 $string['uploadgroupcsverrordisplaynamealreadyexists'] = 'あなたのファイルの %s 行目にエラーがあります: 表示名 (displayname ) 「 %s 」 はすでに存在します。';
 $string['uploadgroupcsverrorinvalidshortname'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname) 「 %s 」が有効ではありません。';
 $string['uploadgroupcsverrorshortnamemissing'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname) 「 %s 」のグループは存在しません。';
