@@ -678,7 +678,7 @@ $string['uploadcsvpagedescription7'] = '<p>ここであなたは<acronym title="
 
 %s';
 $string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれる行が多すぎます。あなたのファイルに %s 以上含めません。';
-$string['uploadcsverrordatamustbenumeric'] = '%s 行目: categoryの値は数字にしてください。';
+$string['uploadcsverrordatamustbenumeric'] = '%s 行目: カテゴリ (category) の値は数字にしてください。';
 $string['uploadgroupcsverrordisplaynamealreadyexists'] = 'あなたのファイルの %s 行目にエラーがあります: 表示名 (displayname ) 「 %s 」 はすでに存在します。';
 $string['uploadgroupcsverrorinvalidshortname'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname) 「 %s 」が有効ではありません。';
 $string['uploadgroupcsverrorshortnamemissing'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname) 「 %s 」のグループは存在しません。';
@@ -727,7 +727,7 @@ $string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能�
 <p>roleフィールドにはグループタイプに応じて次の設定値を使用できます: <tt>admin</tt>、<tt>member</tt>または<tt>tutor</tt></p>
 
 <div class="warning">すべてのCSVファイルアップロードによりグループ管理者を含む既存のすべてのグループメンバーが完全に削除されます。あなたのCSVファイル内に少なくとも1名の管理者が存在することを確認してください。</div>';
-$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部の人にメールを送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらの人には手動で連絡してください:';
+$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部の人にメール送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらの人には手動で連絡してください:';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内の人が多過ぎるため誰も追加されませんでした。許可されたインスティテューションの最大数をメンバー数が超過しました。';
 $string['updateusers'] = 'アカウントを更新する';
 $string['updateusersdescription'] = 'あなたのCSVファイルに既存のインスティテューションメンバーのユーザ名の人が含まれている場合、その人の詳細がファイルのデータにより上書きされることになります。注意して使用してください。';
