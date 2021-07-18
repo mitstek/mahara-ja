@@ -725,7 +725,7 @@ import.zip<br />
 <span class="icon icon-file icon-regular"></span> mahara-export-leap-user8-1265165366.zip<br />
 <span class="icon icon-file icon-regular"></span> mahara-export-leap-user1-1266458159.zip<br />
 </pre>
-<p>通常、このZIPファイルはMaharaに実装されているバルクエクスポートを使用して生成されます。</p>
+<p>通常、このZIPファイルはMahara内蔵のバルクエクスポートを使用して生成されます。</p>
 <p>あなたが多くのユーザをインポートする場合、注意してください。インポート処理に長時間を要する場合があります。</p>';
 $string['importfile'] = 'バルクエクスポートファイル';
 $string['importfilemissinglisting'] = 'ファイル名「usernames.csv」のバルクエクスポートファイルがありません。これらのユーザをエクスポートするためあなたはMaharaバルクエクスポータを使用しましたか?';
