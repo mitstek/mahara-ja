@@ -761,10 +761,10 @@ import.zip<br />
 <span class="icon icon-file icon-regular"></span> mahara-export-leap-user8-1265165366.zip<br />
 <span class="icon icon-file icon-regular"></span> mahara-export-leap-user1-1266458159.zip<br />
 </pre>
-<p>通常、このZIPファイルはMaharaに実装されているバルクエクスポートを使用して生成されます。</p>
+<p>通常、このZIPファイルはMahara内蔵のバルクエクスポートを使用して生成されます。</p>
 <p>あなたが多くのアカウントをインポートする場合、注意してください。インポート処理に長時間を要する場合があります。</p>';
 $string['importfile'] = 'バルクエクスポートファイル';
-$string['importfilemissinglisting'] = 'ファイル名「usernames.csv」のバルクエクスポートファイルがありません。あなたはこれらのアカウントをエクスポートするためMaharaバルクエクスポータを使用しましたか?';
+$string['importfilemissinglisting'] = 'ファイル名「usernames.csv」のバルクエクスポートファイルがありません。あなたはこれらのアカウントのエクスポートにMaharaバルクエクスポータを使用しましたか?';
 $string['importfilenotafile'] = 'フォーム送信中にエラーが発生しました: ファイルを認識できませんでした。';
 $string['importfilenotreadable'] = 'フォーム送信中にエラーが発生しました: ファイルを読み込めませんでした。';
 $string['bulkleap2aimportfiledescription1'] = 'あなたのサーバ内にあるエクスポートされたアカウントすべて (Leap2Aフォーマット) およびユーザ名のCSVリストを含むZIPファイルのパスを入力してください。例) 「/home/example/data/import.zip」';
@@ -776,7 +776,7 @@ $string['unabletoreadcsvfile'] = 'CSVファイル %s を読めません。';
 $string['importfileisnotazipfile'] = 'インポートファイル %s はZIPファイルではないようです。';
 $string['unzipfailed'] = 'Leap2Aファイル %s の展開に失敗しました。詳細情報はエラーログをご覧ください。';
 $string['importfailedfornusers'] = '%d / %d のアカウントのインポートに失敗しました。';
-$string['invalidlistingfile'] = '無効なユーザ名リストです。あなたはこれらのアカウントをエクスポートするためMaharaバルクエクスポータを使用しましたか?';
+$string['invalidlistingfile'] = '無効なユーザ名リストです。あなたはこれらのアカウントのエクスポートにMaharaバルクエクスポータを使用しましたか?';
 $string['importing'] = 'インポート中';
 $string['adminuserspagedescription1'] = '<p>ここであなたはどの人をサイトの管理者にするか選択できます。現在の管理者は「現在の管理者」フィールドに潜在的な管理者は「潜在的な管理者」フィールドに一覧表示されます。</p><p>システムには少なくとも1名の管理者を設定する必要があります。</p>';
 $string['institutionadminuserspagedescription1'] = 'ここであなたはどのインスティテューションメンバーをインスティテューションの管理者するか選択できます。現在の管理者は「現在の管理者」フィールドに潜在的な管理者は「インスティテューションメンバー」フィールドに一覧表示されます。';
