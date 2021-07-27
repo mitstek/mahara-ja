@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-27 00:44:51 UTC
+ * @updated    2021-07-27 01:15:35 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -180,5 +180,6 @@ $string['verifiednotavailabledate'] = 'ポートフォリオ「 %s 」(%s) の�
 $string['verificationtobedone'] = 'ポートフォリオ「 %s 」(%s) のステートメントを完了する';
 $string['verificationdone'] = 'ポートフォリオ「 %s 」(%s) のステートメント完了済み';
 $string['removeaccess'] = 'ポートフォリオ「 %s 」(%s) への私のアクセスを削除する';
+$string['lockedcollection'] = '%s までロックする';
 
 ?>
