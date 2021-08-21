@@ -153,7 +153,7 @@ $string['iframeiconhost'] = 'アイコンホスト';
 $string['urlalreadyexists'] = 'このURLはすでに存在します。あなたはURLを重複して追加できません。';
 $string['iframeiconhostdescription'] = '必要であれば、あなたはファビコンイメージ用の異なるホストを指定できます。同一名称のすべてのサイトでこのアイコンが使用されます。';
 $string['cleanurls'] = 'クリーンURL';
-$string['cleanurlsdescription'] = '<p>ユーザあなたのサイトのプロファイル、グループホームページおよびポートフォリオページを人間が解読可能なURLを使用するよう設定できます。例えば以下のようになります:
+$string['cleanurlsdescription'] = '<p>ユーザあなたのサイトのプロファイル、グループホームページおよびポートフォリオページを人間に解読可能なURLを使用するよう設定できます。例えば以下のようになります:
 <ul>
 <li>https://mahara.example.com/user/bob</li>
 <li>https://mahara.example.com/group/bobs-group</li>
