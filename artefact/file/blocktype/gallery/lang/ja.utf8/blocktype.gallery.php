@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-07-22 00:13:03 UTC
+ * @updated    2021-06-08 02:06:17 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -33,22 +33,8 @@ $string['cannotdisplayslideshow'] = 'スライドショーを表示できませ�
 $string['gallerysettings'] = 'ギャラリー設定';
 $string['usefancybox'] = 'Fancybox 3を使用する';
 $string['usefancyboxdesc'] = 'あなたのギャラリーにFancybox 3を使用します。あなたのギャラリーのイメージをクリックした場合、現在のページにオーバーレイ表示されます。';
-$string['photoframe'] = 'フォトフレームを使用する';
-$string['photoframedesc2'] = 'ギャラリー内のそれぞれの写真のサムネイルの周りにフレームが描画されます。';
 $string['previewwidth'] = '最大写真幅';
 $string['previewwidthdesc'] = '写真がSlimbox 2で表示される場合、リサイズされる最大幅を設定してください。';
-$string['flickrsettings'] = 'Flickr設定';
-$string['flickrapikey'] = 'Flickr APIキー';
-$string['flickrapikeydesc'] = 'あなたがFlickrのフォトセットを表示するには有効なFlickr APIキーが必要です。<a href="https://www.flickr.com/services/api/keys/apply/">あなたのキーをオンラインで適用してください</a>。';
-$string['flickrsets'] = 'Flickrセット';
-$string['pbsettings'] = 'Photobucket設定';
-$string['pbapikey'] = 'Photobucket APIキー';
-$string['pbapikeydesc'] = 'あなたがPhotobucketのフォトアルバムを表示するには有効なAPIキーおよびAPI秘密鍵が必要です。<br /><a href="https://developer.photobucket.com/">Photobucket開発者ウェブサイト</a>にアクセスして利用規約に同意、サインアップした後、APIキーを取得してください。';
-$string['pbapiprivatekey'] = 'Photobucket API秘密鍵';
-$string['photobucketphotosandalbums'] = 'Photobucketユーザ写真およびアルバム';
-$string['picasaalbums'] = 'Picasaアルバム';
-$string['windowslivephotoalbums'] = 'Windows Liveフォトギャラリーアルバム';
-$string['externalnotsupported'] = 'あなたが提供した外部URLはサポートされていません。';
 $string['CLOSE'] = '閉じる';
 $string['NEXT'] = '次へ';
 $string['PREV'] = '前へ';

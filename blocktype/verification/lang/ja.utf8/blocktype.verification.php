@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-19 23:48:39 UTC
+ * @updated    2021-04-29 04:03:30 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -32,9 +32,9 @@ $string['groupmember'] = 'グループメンバー';
 $string['availabilitydate'] = '利用可能日';
 $string['availabilitydatedescription'] = 'ステートメントが利用可能になる日付を選択してください。この日付以前、レビュアにはこの日付までレビューを実施できない旨を知らせるアラートが表示されます。この日付はアクセス通知にも記載されます。あなたが日付を追加しない場合、ステートメントはいつでも作成できます。';
 $string['lockportfolio'] = 'ポートフォリオをロックする';
-$string['lockportfoliodescription'] = 'ステートメント作成時にポートフォリオをロックするかどうか決定してください。複数のステートメントがある場合、ロック可能な最初のステートメントが作成された時点でポートフォリオはロックされます。ステートメントコメント (選択された場合) は引き続き作成できます。';
+$string['lockportfoliodescription'] = 'ステートメント承認時にポートフォリオをロックするかどうか決定してください。複数のステートメントがある場合、ロック可能な最初のステートメントが承認された時点でポートフォリオはロックされます。ステートメントコメント (選択された場合) は引き続き作成できます。';
 $string['notification'] = '作成者に通知する';
-$string['notificationdescription'] = 'ステートメントが選択された場合、またはコメントが追加された場合、ポートフォリオ作成者に通知が送信されます。';
+$string['notificationdescription'] = 'ステートメントが承認された場合、またはコメントが追加された場合、ポートフォリオ作成者に通知が送信されます。';
 $string['resetstatement'] = 'ステートメントをリセットする';
 $string['resetstatementdescription'] = '人がステートメントをリセットするために必要なロールを選択してください。ロールが選択されない場合、誰もステートメントをリセットできません。';
 $string['availabilitydatemessage'] = 'あなたはまだステートメントを承認したり、コメントが許可された場合にコメントを追加できません。これは %s 以降、可能となります。';
@@ -77,7 +77,7 @@ $string['commentformplaceholder'] = 'コメントを執筆可能な人がこの�
 $string['verifycomment'] = 'コメントを追加する';
 $string['addcommentsuccess'] = '「 %s 」へのコメントが正常に追加されました。';
 $string['addcommentsuccessdraft'] = '「 %s 」への下書きコメントが正常に追加されました。';
-$string['verifymessagesubjectnoname'] = 'あなたのポートフォリオにステートメントが追加されました:';
+$string['verifymessagesubjectnoname'] = 'あなたのポートフォリオにステートメントが承認されました:';
 $string['verifymessagenoname'] = '次のステートメントが %s に承認されました:
 %s';
 $string['verifymessagesubject'] = '%s があなたのポートフォリオのステートメントを承認しました。';
