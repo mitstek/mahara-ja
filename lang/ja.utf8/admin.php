@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-27 08:26:53 UTC
+ * @updated    2021-08-21 18:41:31 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -180,7 +180,7 @@ $string['iframeiconhost'] = 'アイコンホスト';
 $string['urlalreadyexists'] = 'このURLはすでに存在します。あなたはURLを重複して追加できません。';
 $string['iframeiconhostdescription'] = '必要であれば、あなたはファビコンイメージ用の異なるホストを指定できます。同一名称のすべてのサイトでこのアイコンが使用されます。';
 $string['cleanurls'] = 'クリーンURL';
-$string['cleanurlsdescription'] = '<p>あなたのサイトのプロファイル、グループホームページおよびポートフォリオページを人間が解読可能なURLを使用するよう設定できます。例えば以下のようになります:
+$string['cleanurlsdescription'] = '<p>あなたのサイトのプロファイル、グループホームページおよびポートフォリオページを人間に解読可能なURLを使用するよう設定できます。例えば以下のようになります:
 <ul>
 <li>https://mahara.example.com/user/bob</li>
 <li>https://mahara.example.com/group/bobs-group</li>
@@ -444,11 +444,11 @@ $string['setsiteoptionsfailednotice'] = '%s フィールドオプションの設
 $string['showstudentid'] = '学籍番号を表示する';
 $string['showstudentiddescription1'] = 'サイトでの人の氏名表示時に学籍番号を表示します。';
 $string['showonlineuserssideblock'] = 'オンラインの人を表示する';
-$string['showonlineuserssideblockdescriptionmessage2'] = '人は過去10分間にオンラインであった人の一覧をサイドバーで閲覧できます。';
+$string['showonlineuserssideblockdescriptionmessage2'] = '人は過去10分間にオンラインであった人の一覧をサイドバーで確認できます。';
 $string['showselfsearchsideblock1'] = 'ポートフォリオ検索';
 $string['showselfsearchsideblockdescription1'] = 'サイト内のいくつかの場所に「私のポートフォリオを検索する」サイドバーを表示します。';
 $string['showtagssideblock1'] = 'タグクラウド';
-$string['showtagssideblockdescription2'] = '人は使用頻度の高いタグ一覧のサイドバーをサイト内のいくつかの場所で閲覧できます。';
+$string['showtagssideblockdescription2'] = '人は使用頻度の高いタグ一覧のサイドバーをサイト内のいくつかの場所で確認できます。';
 $string['simple'] = 'シンプル';
 $string['sitedefault'] = 'サイトデフォルト';
 $string['sitelanguagedescription'] = 'サイトのデフォルトの言語です。';
@@ -473,7 +473,7 @@ $string['surbldescription1'] = 'URLをSURBL DNSBLと照合します。';
 $string['disableexternalresources'] = 'HTML内の外部リソースを無効にする';
 $string['disableexternalresourcesdescription1'] = '作成者による別のホストからのイメージ等の埋め込みを防ぐため外部リソースの埋め込みを無効にします。';
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
-$string['tagssideblockmaxtagsdescription'] = 'タグクラウド内に表示されるデフォルトのタグ数です。';
+$string['tagssideblockmaxtagsdescription'] = 'タグクラウドに表示されるデフォルトのタグ数です。';
 $string['trustedsites'] = '信頼できるサイト';
 $string['updatesiteoptions'] = 'サイトオプションを更新する';
 $string['usersallowedmultipleinstitutions'] = '人に複数インスティテューションを許可する';
