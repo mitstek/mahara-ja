@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-06-02 06:25:39 UTC
+ * @updated    2021-08-24 20:18:47 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -342,5 +342,9 @@ $string['notrendertopdf'] = 'このブロックはPDFエクスポートで正常
 $string['notrendertopdfview'] = 'ポートフォリオ %s が次のように追加されました:';
 $string['notrendertopdffiles'] = 'ファイルが追加されました:';
 $string['notrendertopdflink'] = 'ファイルにアクセスできません:';
+$string['rotate90img'] = 'イメージを元の位置から時計回りに90度回転する';
+$string['rotate180img'] = 'イメージを元の位置から時計回りに180度回転する';
+$string['rotate270img'] = 'イメージを元の位置から時計回りに270度回転する';
+$string['rotate0img'] = 'イメージを元の位置に回転する';
 
 ?>

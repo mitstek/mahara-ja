@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-08-21 18:22:52 UTC
+ * @updated    2021-08-24 20:40:35 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -517,7 +517,7 @@ $string['mathjax'] = 'MathJaxを有効にする';
 $string['mathjaxdescription'] = 'MathJaxは適切にフォーマットした数式および化学式としてLaTeXマークアップをポートフォリオページに表示します。';
 $string['mathjaxconfig'] = 'MathJax設定';
 $string['timezone'] = 'タイムゾーン';
-$string['sitetimezonedescription'] = 'サイトのデフォルトのタイムゾーンです。何も選択されない場合、選択済みの国をもとにタイムゾーンが選択されます。国に複数のタイムゾーンがある場合、これは正確ではない場合があります。';
+$string['sitetimezonedescription'] = 'サイトのデフォルトタイムゾーンです。何も選択されない場合、選択済みの国をもとにタイムゾーンが選択されます。国に複数のタイムゾーンがある場合、これは正確ではない場合があります。';
 $string['notimezoneselected'] = 'タイムゾーン未選択';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
