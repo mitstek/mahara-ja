@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-11 12:55:02 UTC
+ * @updated    2021-08-31 06:54:52 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -41,6 +41,7 @@ $string['blogdescdesc'] = '例) 「Jillの経験および内省の記録」';
 $string['blogdoesnotexist'] = 'あなたは存在しない日誌へのアクセスを試みています。';
 $string['blogpostdoesnotexist'] = 'あなたは存在しない日誌エントリへのアクセスを試みています。';
 $string['blogpost'] = '日誌エントリ';
+$string['Blogpost'] = '日誌エントリ';
 $string['blogdeleted'] = '日誌が削除されました。';
 $string['blogpostdeleted'] = '日誌エントリが削除されました。';
 $string['blogpostpublished'] = '日誌エントリが公開されました。';

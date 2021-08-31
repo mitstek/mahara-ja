@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-08-24 20:18:47 UTC
+ * @updated    2021-08-31 06:55:14 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -131,6 +131,7 @@ $string['home'] = 'ホーム';
 $string['htmlremovedmessage'] = 'あなたが閲覧しているファイル「 <strong>%s</strong> 」は<a href="%s">%s</a>によりアップロードされたものです。以下に表示されているファイルは不適切なコンテンツのため削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
 $string['htmlremovedmessagenoowner'] = 'あなたはファイル「 <strong>%s</strong> 」を閲覧しています。以下に表示されているファイルは不適切なコンテンツのため削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。';
 $string['image'] = 'イメージ';
+$string['Image'] = 'イメージ';
 $string['Images'] = 'イメージ';
 $string['imagesdir'] = 'イメージ';
 $string['imagesdirdesc'] = 'イメージファイル';
@@ -246,7 +247,7 @@ $string['tar'] = 'TAR書庫';
 $string['gz'] = 'Gzip圧縮ファイル';
 $string['bz2'] = 'Bzip2圧縮ファイル';
 $string['txt'] = 'プレインテキストファイル';
-$string['video'] = 'ビデオファイル';
+$string['videofile'] = 'ビデオファイル';
 $string['wav'] = 'WAVオーディオファイル';
 $string['m4a'] = 'M4Aオーディオファイル';
 $string['wmv'] = 'WMVビデオファイル';
@@ -261,6 +262,7 @@ $string['rpm'] = 'RPM RealPlayerムービー';
 $string['rm'] = 'RM RealPlayerムービー';
 $string['webm'] = 'WEBMビデオファイル';
 $string['3gp'] = '3GPPメディアファイル';
+$string['video'] = 'ビデオファイル';
 $string['cantcreatetempprofileiconfile'] = '一時プロファイル画像イメージを %s に書き込めませんでした。';
 $string['profileiconsize'] = 'プロファイル画像サイズ';
 $string['profileicons'] = 'プロファイル画像';

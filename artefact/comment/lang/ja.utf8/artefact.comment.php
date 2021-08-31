@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-05-16 23:33:38 UTC
+ * @updated    2021-08-31 06:55:01 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,7 +17,7 @@ $string['pluginname'] = 'コメント';
 $string['Comment'] = 'コメント';
 $string['Comments'] = 'コメント';
 $string['comment'] = 'コメント';
-$string['artefactcomments'] = 'ブロックのアーティファクトコメント';
+$string['artefactcomments1'] = 'コメント';
 $string['viewcomments'] = 'ページコメント';
 $string['comments'] = 'コメント';
 $string['Details'] = '詳細';
@@ -45,7 +45,6 @@ $string['commentupdated'] = 'コメントが更新されました。';
 $string['editcomment'] = 'コメントを編集する';
 $string['editcommentdescription'] = 'あなたは新しい返信が追加されていない %d 分未満のコメントを更新できます。この時間経過後、あなたはコメントを削除して新たなコメントを追加することはできます。';
 $string['entriesimportedfromleapexport'] = '他の場所でインポートできなかったLeap2Aエクスポートよりインポートされたエントリです。';
-$string['feedback'] = 'フィードバック';
 $string['feedbackattachdirname'] = 'コメントファイル';
 $string['feedbackattachdirdesc'] = 'あなたのポートフォリオのコメントに添付されたファイル';
 $string['feedbackattachmessage'] = 'あなたの %s フォルダに添付ファイルが追加されました。';
