@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-06-04 08:59:36 UTC
+ * @updated    2021-09-01 01:00:40 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -47,6 +47,8 @@ $string['justsomecollections'] = '私のコレクションの一部';
 $string['justsomeviews'] = '私のページの一部';
 $string['includecomments'] = 'コメントを含む';
 $string['includecommentsdescription'] = 'すべてのコメントがHTMLエクスポートに含まれます。';
+$string['includeprivatefeedback'] = 'プライベートコメントを含む';
+$string['includeprivatefeedbackdesc'] = 'あなたがこのエクスポートを共有する人はあなたのプライベートコメントを閲覧できます。コメントをプライベートのままにするにはコメントなしのエクスポートを作成するか、パブリックコメントのみのエクスポートを作成してください。';
 $string['nonexistentfile'] = '存在しないファイル「 %s 」の追加を試みました。';
 $string['nonexistentprofileicon'] = '存在しないプロファイルアイコン「 %s 」の追加を試みました。';
 $string['nonexistentresizedprofileicon'] = '存在しないリサイズ済みプロファイルアイコン「 %s 」の追加を試みました。';
