@@ -108,5 +108,3 @@ $string['wallpost'] = 'ウォール投稿';
 $string['xsearchresults'] = '検索結果: %s';
 $string['xsearchresultsfory'] = '検索結果: %s / 検索キーワード: %s';
 $string['ztoa'] = 'Z -> A';
-
-?>

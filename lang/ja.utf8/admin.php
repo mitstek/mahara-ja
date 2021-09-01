@@ -1408,5 +1408,3 @@ $string['Path'] = 'パス';
 $string['styleguide'] = 'スタイルガイド';
 $string['thirdpartyplugins'] = 'サードパーティプラグイン - README.Maharaファイルをもとに一覧表示';
 $string['url'] = 'url';
-
-?>

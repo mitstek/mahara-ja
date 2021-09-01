@@ -21,5 +21,3 @@ $string['poststoshow'] = '表示する最大投稿数';
 $string['poststoshowdescription'] = '設定範囲: 1-100';
 $string['recentforumpostsforgroup'] = '%s の最近のフォーラム投稿';
 $string['defaulttitledescription'] = 'タイトルフィールドを空白にした場合、デフォルトタイトルが生成されます。';
-
-?>

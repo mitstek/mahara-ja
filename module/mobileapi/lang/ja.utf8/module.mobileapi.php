@@ -39,5 +39,3 @@ $string['tokenmanuallycreated'] = '手動作成済み';
 $string['clientnotspecified'] = '(不明)';
 $string['generateusertoken'] = 'アプリアクセストークンを生成する';
 $string['appaccessrevoked'] = 'アクセス取り消し済み';
-
-?>

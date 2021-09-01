@@ -527,5 +527,3 @@ $string['portfoliofilter'] = 'テンプレートでフィルタする';
 $string['portfoliofilterdescription'] = '1つまたはそれ以上のテンプレートで結果をフィルタします。';
 $string['portfolioverifierfilter'] = 'レビュア割り当て';
 $string['portfolioveriferfilterdescription'] = 'レビュアが割り当てられているか否かを基に結果をフィルタします。';
-
-?>

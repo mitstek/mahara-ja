@@ -66,5 +66,3 @@ $string['novalidconnectionauthtype'] = '有効なウェブサービスタイプ�
 $string['connectionresultsinvalid'] = '外部ソースから結果を取得できません。';
 $string['userid_function_title'] = 'アカウントIDの外部関数';
 $string['coursecompletion_function_title'] = 'コース完了の外部関数';
-
-?>

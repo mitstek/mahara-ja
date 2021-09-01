@@ -40,5 +40,3 @@ $string['removedverifynotification'] = 'ページのオーナー %s が承認を
 $string['signoffviewupdated'] = '承認ステータスが更新されました。';
 $string['verifyviewupdated'] = '検証ステータスが更新されました。';
 $string['wrongsignoffviewrequest'] = 'あなたにはリクエストされた処理を実行するパーミッションがありません。';
-
-?>

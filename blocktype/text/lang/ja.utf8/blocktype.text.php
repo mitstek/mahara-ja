@@ -28,5 +28,3 @@ $string['convertdescriptionfeatures'] = 'あなたは高度な機能を使用し
 $string['convertdescription'] = '%d ノートをコンバートできます。これらのノートをコンバートするオプションを選択した場合、時間を要することに留意してください。コンバート完了後、このページであなたに成功メッセージが表示されます。';
 $string['convertibleokmessage'] = '正常に %d 「ノート」ブロックを「テキスト」ブロックに変換しました。';
 $string['switchdescription'] = '拡張機能を使用しない「ノート」ブロックすべてをシンプルな「テキスト」ブロックにコンバートします。';
-
-?>

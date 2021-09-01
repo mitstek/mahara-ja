@@ -151,5 +151,3 @@ $string['userdeletionemailmessagehtml'] = '<p>%s さん、こんにちは。</p>
 
 <pre>--
 %s チーム</pre>';
-
-?>

@@ -84,5 +84,3 @@ $string['verifymessagesubject'] = '%s があなたのポートフォリオのス
 $string['verifymessage'] = '%s が次のステートメントを %s に承認しました:
 %s';
 $string['blockneedscollection'] = '正しく表示するためにはこのブロックをコレクションのポートフォリオ完了ページに置く必要があります。';
-
-?>

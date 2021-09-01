@@ -128,5 +128,3 @@ $string['youhaveremindertasksmessagetext'] = '%s さん、こんにちは。
 
 %s チーム';
 $string['visitplans'] = 'タスク完了リマインダ';
-
-?>

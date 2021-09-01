@@ -62,5 +62,3 @@ $string['viewsubmittedmessage1'] = '%s が「 %s 」を %s に提出しました
 $string['viewsubmittedsubject1'] = '%s への評価提出';
 $string['webserviceauthdisabled'] = 'このインスティテューションのウェブサービス認証は有効にされていません。';
 $string['webserviceproviderenabled'] = '内向きのウェブサービスリクエスト許可';
-
-?>

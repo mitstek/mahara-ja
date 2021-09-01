@@ -21,5 +21,3 @@ $string['noplansselectone1'] = 'まだプランはありません。ブロック
 $string['olderplans'] = '古いプラン';
 $string['planstoshow'] = '表示するプラン';
 $string['taskstodisplay'] = '表示するタスク';
-
-?>

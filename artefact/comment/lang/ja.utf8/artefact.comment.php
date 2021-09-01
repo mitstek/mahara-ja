@@ -128,5 +128,3 @@ $string['smile'] = 'スマイル';
 $string['ratingexample'] = '生成例';
 $string['removerating'] = 'レーティングを削除する';
 $string['ratingoption'] = 'レーティング %s / %s を設定する';
-
-?>

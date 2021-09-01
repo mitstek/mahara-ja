@@ -16,5 +16,3 @@ defined('INTERNAL') || die();
 $string['title'] = 'コメント';
 $string['description'] = 'コメントを表示するためのブロックです。';
 $string['ineditordescription1'] = 'このページのコメントはページ下部ではなく、ここに表示されます。';
-
-?>

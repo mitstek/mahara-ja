@@ -47,5 +47,3 @@ $string['append'] = '追加する';
 $string['importfolder'] = 'フォルダをインポートする %s';
 $string['importresult'] = 'インポート結果';
 $string['noimportentry'] = 'インポートエントリはありません。';
-
-?>

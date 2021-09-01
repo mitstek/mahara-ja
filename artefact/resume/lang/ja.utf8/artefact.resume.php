@@ -118,5 +118,3 @@ $string['progress_personalskill'] = 'あなたのパーソナルスキルを追�
 $string['progress_academicskill'] = 'あなたのアカデミックスキルを追加する';
 $string['progress_workskill'] = 'あなたのワークスキルを追加する';
 $string['progress_interest'] = 'あなたの興味のあることを追加する';
-
-?>

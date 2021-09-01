@@ -17,5 +17,3 @@ $string['title'] = 'マイフレンド';
 $string['otherusertitle'] = '%s のフレンド';
 $string['description'] = 'あなたのフレンドを表示します。';
 $string['numberoffriends'] = '(%s / %s)';
-
-?>

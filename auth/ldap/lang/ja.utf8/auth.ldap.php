@@ -84,5 +84,3 @@ $string['usertype'] = 'ユーザタイプ';
 $string['weautocreateusers'] = 'こちらでアカウントを自動作成する';
 $string['updateuserinfoonlogin'] = 'ログイン時、アカウント情報を更新する';
 $string['cannotconnect'] = 'LDAPホストに接続できません。';
-
-?>

@@ -26,5 +26,3 @@ $string['limittodescsideblock1'] = 'あなたのサイドバーの「マイグ�
 $string['numberofmygroupsshowing'] = 'マイグループ表示中 (%s/%s)';
 $string['numberofmygroupsshowingearliest'] = '参加の古いグループ表示中 (%s/%s)';
 $string['numberofmygroupsshowinglatest'] = '参加の新しいグループ表示中 (%s/%s)';
-
-?>

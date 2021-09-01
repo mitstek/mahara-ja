@@ -35,5 +35,3 @@ $string['sortsubmittedtitle'] = '送信済みページおよびコレクショ�
 $string['sortviewsbyalphabetical'] = 'アルファベット順';
 $string['sortviewsbylastupdate'] = '最も最近の更新順';
 $string['sortviewsbytimesubmitted'] = '最も最近の送信順';
-
-?>

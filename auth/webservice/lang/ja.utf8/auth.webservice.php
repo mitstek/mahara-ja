@@ -407,5 +407,3 @@ $string['oneof'] = 'どれか1つ';
 $string['servicetype'] = 'サービスタイプ';
 $string['jsonenabled'] = 'JSONレスポンス';
 $string['customfields'] = 'カスタムフィールド';
-
-?>

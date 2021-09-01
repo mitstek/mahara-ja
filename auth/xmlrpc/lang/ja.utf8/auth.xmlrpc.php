@@ -21,5 +21,3 @@ $string['networkingdisabledonthissite'] = 'このサイトではネットワー�
 $string['networkservers'] = 'ネットワークサーバ';
 $string['youhaveloggedinfrom1'] = '<a href="%s">%s</a>に戻る';
 $string['authloginmsgtitle'] = '不正ログインメッセージ';
-
-?>

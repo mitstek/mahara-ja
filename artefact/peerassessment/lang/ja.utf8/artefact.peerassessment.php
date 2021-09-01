@@ -55,5 +55,3 @@ $string['verifyassessment'] = '評価を確認する';
 $string['progress_peerassessment'] = '%s 相互評価をページに追加する';
 $string['progress_verify'] = '%s 確認を他の人の相互評価ページに与える';
 $string['importedassessment'] = 'インポート済み相互評価';
-
-?>

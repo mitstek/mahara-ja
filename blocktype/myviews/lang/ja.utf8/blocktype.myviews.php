@@ -16,5 +16,3 @@ defined('INTERNAL') || die();
 $string['title1'] = 'マイポートフォリオ';
 $string['otherusertitle1'] = '%s のポートフォリオ';
 $string['description1'] = 'あなたのプロファイルを閲覧している人に閲覧可能なポートフォリオすべてを表示します。';
-
-?>

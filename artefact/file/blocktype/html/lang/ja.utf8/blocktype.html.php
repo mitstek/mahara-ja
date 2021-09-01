@@ -15,5 +15,3 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'HTML';
 $string['description'] = 'あなたのファイルエリアの単一HTMLファイルです。';
-
-?>

@@ -394,5 +394,3 @@ $string['mygrouplabel'] = 'マイグループラベル';
 $string['removegrouplabelfilter'] = 'グループラベルフィルタ「 %s 」を削除する';
 $string['agrouplabeltooshort'] = '1つまたはそれ以上のグループラベルが短すぎます。少なくとも %s 文字必要です。';
 $string['agrouplabeltoolong'] = '1つまたはそれ以上のグループラベルが長すぎます。最大 %s 文字にできます。';
-
-?>

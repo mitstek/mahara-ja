@@ -167,5 +167,3 @@ $string['reallydeleteallnotifications'] = '本当にこの活動タイプに関�
 $string['viewsubmittedsubject1'] = '%s への送信';
 $string['viewsubmittedmessage1'] = '%s が「 %s 」を %s に送信しました。';
 $string['adminnotificationerror1'] = '通知エラーは恐らくあなたのサーバ設定に起因します。';
-
-?>

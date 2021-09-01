@@ -15,5 +15,3 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'グループ情報';
 $string['description'] = 'グループに関する情報を表示します。';
-
-?>

@@ -40,5 +40,3 @@ $string['orderby.owner'] = 'ページオーナー';
 $string['watchlistnotification'] = 'ウォッチリスト通知';
 $string['watchlistdelaytitle'] = 'ウォッチリスト通知遅延';
 $string['watchlistdelaydescription'] = 'ウォッチリストの変更に関するメールを送信する遅延時間 (分) です。';
-
-?>

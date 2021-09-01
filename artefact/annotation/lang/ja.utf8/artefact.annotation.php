@@ -107,5 +107,3 @@ $string['enteredon'] = '投稿日時';
 $string['noreflectionentryfound'] = 'アノテーションの内省エントリが見つかりません。';
 $string['nofeedback'] = 'このアノテーションにまだフィードバックはありません。';
 $string['assessmentchangedto'] = '評価: %s';
-
-?>

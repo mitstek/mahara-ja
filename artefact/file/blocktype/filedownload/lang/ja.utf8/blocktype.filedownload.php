@@ -16,5 +16,3 @@ defined('INTERNAL') || die();
 $string['title'] = 'ダウンロードできるファイル';
 $string['description'] = '人がダウンロードできるファイルを選択してください (「コンテンツ -> ファイル」をご覧ください)。';
 $string['Files'] = 'ファイル';
-
-?>

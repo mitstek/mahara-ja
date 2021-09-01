@@ -46,5 +46,3 @@ $string['THUMBS'] = 'サムネイル';
 $string['DOWNLOAD'] = 'ダウンロード';
 $string['SHARE'] = '共有';
 $string['ZOOM'] = 'ズーム';
-
-?>

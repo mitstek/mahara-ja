@@ -113,5 +113,3 @@ $string['showportfoliobuttons'] = 'ポートフォリオリンクをボタンと
 $string['showportfoliobuttonsdescription'] = '「提出」テーブルの「アーカイブとしてダウンロードする機能」の差別化のため標準的なMaharaのポートフォリオリンクの表示をボタンに変更します。';
 $string['retentionperiod'] = '提出およびアーカイブ済みポートフォリオの保存期間';
 $string['retentionperioddescription'] = 'ポートフォリオおよび関連するアーカイブ済みポートフォリオが削除されるリリース翌年から始まる年単位の期間です。この値にゼロに設定された場合、ポートフォリオ作成者のアカウントが削除された時点ですべての投稿および関連するポートフォリオが削除されます。';
-
-?>

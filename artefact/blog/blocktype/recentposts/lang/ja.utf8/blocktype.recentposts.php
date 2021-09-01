@@ -19,5 +19,3 @@ $string['itemstoshow'] = '表示するエントリ数';
 $string['postedin'] = '-';
 $string['postedon'] = '投稿日時';
 $string['updatedon'] = '最終更新日時';
-
-?>

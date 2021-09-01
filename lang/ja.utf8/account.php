@@ -145,5 +145,3 @@ $string['resizeonuploaduserdefaultdescription2'] = 'デフォルトで「イメ�
 $string['devicedetection'] = 'デバイス検出';
 $string['devicedetectiondescription'] = 'このサイトの閲覧時のモバイルデバイス検出を有効にします。';
 $string['noprivacystatementsaccepted'] = 'このアカウントは現在のプライバシー保護方針を受け入れていません。';
-
-?>

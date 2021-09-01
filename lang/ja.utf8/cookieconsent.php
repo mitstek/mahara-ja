@@ -49,5 +49,3 @@ $string['cookieconsentdisabled'] = 'クッキーコンセントが無効にさ�
 $string['cookieconsentmessage'] = 'あなたが私たちのウェブサイトで最良の経験を得るためこのウェブサイトではクッキーを使用しています。';
 $string['cookieconsentdismiss'] = '了解!';
 $string['cookieconsentlearnmore'] = '詳細';
-
-?>

@@ -41,5 +41,3 @@ $string['postsizelimittoosmall'] = '制限はゼロより下にできません�
 $string['newwallpostnotificationsubject'] = 'あなたのウォールの新しい投稿';
 $string['newwallpostnotificationmessage'] = '%s';
 $string['typewallpost'] = 'ウォール投稿';
-
-?>

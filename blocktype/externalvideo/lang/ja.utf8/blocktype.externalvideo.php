@@ -38,5 +38,3 @@ $string['wikieducator'] = 'WikiEducator';
 $string['validembedservices'] = '次の埋め込みコンテンツの<strong>埋め込みサービス</strong>がサポートされます:';
 $string['enableservices'] = 'なし、%s埋め込みサービスを有効にする%s';
 $string['embedly'] = 'Embedly';
-
-?>

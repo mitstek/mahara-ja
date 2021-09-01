@@ -19,5 +19,3 @@ $string['description'] = 'IMAPメールサーバで認証する';
 $string['notusable'] = 'PHP IMAP拡張モジュールをインストールしてください。';
 $string['domainname'] = 'メールアドレスドメイン名';
 $string['weautocreateusers'] = 'こちらでアカウントを自動作成する';
-
-?>

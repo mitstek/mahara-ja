@@ -288,5 +288,3 @@ $string['previewtextline6'] = 'in faucibus orci luctus et';
 $string['previewtextline7'] = 'ultrices posuere cubilia Curae;';
 $string['previewtextline8'] = 'Cras odio enim, sodales at';
 $string['previewtextline9'] = 'rutrum et, sollicitudin non nisi.';
-
-?>

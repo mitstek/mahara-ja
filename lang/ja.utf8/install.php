@@ -50,5 +50,3 @@ $string['licenseshortnamegfdl'] = 'GFDL-1.3';
 $string['staticpageconfigdefaults'] = '「管理メニュー」 → 「サイト設定」 → 「<a href="%s"><b>固定ページ</b></a>」';
 $string['versionedpageconfigdefault'] = '「管理メニュー」 → 「サイト設定」 → 「<a href="%s"><b>法律</b></a>」';
 $string['staticpageconfiginstitutions'] = '「管理メニュー」 → 「インスティテューション」 → 「<a href="%s"><b>固定ページ</b></a>」';
-
-?>

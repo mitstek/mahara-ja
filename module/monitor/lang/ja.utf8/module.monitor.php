@@ -88,5 +88,3 @@ ldapsuspendeduserscheck.php [オプション] mahara_path
 -h, --help このヘルプを表示します。';
 $string['checkingldapsuspendedusersssucceed'] = 'OK: 一時停止アカウント警告閾値を越えた %s のLDAPインスタンスはありません。';
 $string['checkingldapsuspendedusersfail'] = 'クリティカル: 一時停止アカウント警告閾値を越えた %s のLDAPインスタンスがあります: %s';
-
-?>

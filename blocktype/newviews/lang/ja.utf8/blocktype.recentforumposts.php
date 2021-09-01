@@ -20,5 +20,3 @@ $string['nogroupstochoosefrom'] = '申し訳ございません、選択できる
 $string['poststoshow'] = '表示する投稿の最大数';
 $string['poststoshowdescription'] = '設定範囲: 1～100';
 $string['recentforumpostsforgroup'] = '%s の最近のフォーラム投稿';
-
-?>

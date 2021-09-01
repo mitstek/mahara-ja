@@ -18,5 +18,3 @@ $string['admin'] = '管理者';
 $string['tutor'] = 'チューター';
 $string['member'] = 'メンバー';
 $string['youaregrouptutor'] = 'あなたはこのグループのチューターです。';
-
-?>

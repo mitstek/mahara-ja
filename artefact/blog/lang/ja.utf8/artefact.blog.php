@@ -169,5 +169,3 @@ $string['existingposts'] = '既存日誌エントリ';
 $string['progress_blog'] = '日誌を追加する';
 $string['progress_blogpost'] = '日誌に %s エントリを追加する';
 $string['notpublishedblogpost'] = 'この日誌エントリはまだ公開されていません。';
-
-?>

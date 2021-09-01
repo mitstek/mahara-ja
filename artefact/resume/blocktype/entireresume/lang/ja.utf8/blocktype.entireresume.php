@@ -19,5 +19,3 @@ $string['title'] = '私のレジュメ全体';
 $string['description'] = 'あなたのレジュメ全体を表示する素早い方法です。';
 $string['noresumeselectone'] = 'レジュメアイテムはここに自動的に表示されます。';
 $string['History'] = '履歴';
-
-?>

@@ -214,5 +214,3 @@ $string['viewtitle'] = 'ページタイトル';
 $string['viewtype'] = 'ページタイプ';
 $string['wwwroot'] = 'リモートロッカを識別するためのクライアントURN';
 $string['yahoochat'] = 'Yahooチャット';
-
-?>

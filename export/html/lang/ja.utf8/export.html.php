@@ -21,5 +21,3 @@ $string['exportingdatafor'] = '%s データエクスポート中';
 $string['buildingindexpage'] = 'インデックスページ構築中';
 $string['copyingextrafiles'] = '追加ファイルコピー中';
 $string['duplicatepagetitle'] = 'ページタイトル重複のためエクスポートに失敗しました。タイトルがユニークであることを確認してください。';
-
-?>

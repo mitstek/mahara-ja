@@ -24,5 +24,3 @@ $string['optiontextonly'] = 'テキストのみのボタン';
 $string['displaydefaultemail'] = 'デフォルトメールアドレスのリンクをボタンとして表示しますか?';
 $string['displaymsgservices'] = 'メッセージングサービスをボタンとして表示しますか?';
 $string['noitemsselectone'] = '選択されたソーシャルメディアはありません。';
-
-?>

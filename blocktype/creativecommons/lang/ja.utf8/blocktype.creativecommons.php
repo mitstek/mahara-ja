@@ -33,5 +33,3 @@ $string['by-nd'] = '表示-改変禁止';
 $string['by-nc'] = '表示-非営利';
 $string['by-nc-sa'] = '表示-非営利-継承';
 $string['by-nc-nd'] = '表示-非営利-改変禁止';
-
-?>

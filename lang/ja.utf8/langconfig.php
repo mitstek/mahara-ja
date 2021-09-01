@@ -45,5 +45,3 @@ $string['thislanguage'] = '日本語';
 $string['locales'] = 'ja_JP.utf8,Japanese_Japan.932';
 $string['pluralrule'] = '0';
 $string['pluralfunction'] = 'plural_ja_utf8';
-
-?>

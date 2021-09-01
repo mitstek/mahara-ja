@@ -350,5 +350,3 @@ $string['rejectedposttext'] = 'フォーラム「 %s 」のフォーラム投稿
 %s';
 $string['rejectpostsuccess'] = '投稿が削除されました。';
 $string['replies'] = '返信';
-
-?>

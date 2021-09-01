@@ -33,5 +33,3 @@ $string['lastupdatedon'] = '最終更新日時: %s';
 $string['publishedon'] = '公開日時: %s';
 $string['defaulttitledescription'] = 'ここを空白にした場合、フィードのタイトルが使用されます。';
 $string['reenterpassword'] = 'あなたはフィードのURLを変更しました。パスワードを再入力 (または削除) してください。';
-
-?>

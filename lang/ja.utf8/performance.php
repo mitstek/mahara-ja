@@ -27,5 +27,3 @@ $string['user'] = 'ユーザ';
 $string['cuser'] = 'cuser';
 $string['csys'] = 'csys';
 $string['serverload'] = 'サーバ負荷';
-
-?>

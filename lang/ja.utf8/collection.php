@@ -186,5 +186,3 @@ $string['verificationtobedone'] = 'ポートフォリオ「 %s 」(%s) のステ
 $string['verificationdone'] = 'ポートフォリオ「 %s 」(%s) のステートメント承認済み';
 $string['removeaccess'] = 'ポートフォリオ「 %s 」(%s) への私のアクセスを削除する';
 $string['lockedcollection'] = '%s までロックする';
-
-?>

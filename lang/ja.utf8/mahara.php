@@ -1294,5 +1294,3 @@ $string['institutionfilledreplymessage'] = '%s さん、こんにちは。
 $string['institutionmembershiprequestsdescription'] = 'あなたは次のインスティテューションへの参加をリクエストしました。';
 $string['institutionmembershipinvitedescription'] = '管理者があなたに次のインスティテューションへの参加を招待しました。';
 $string['institutionmembershipjoindescription'] = 'あなたはインスティテューションへの参加リクエストを送信できます。「インスティテューションID」フィールドはこのインスティテューションの学籍番号設定用です。';
-
-?>
