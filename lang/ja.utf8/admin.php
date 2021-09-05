@@ -620,7 +620,7 @@ $string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能によ�
 $string['uploadgroupcsveditrolesdescription'] = '<p>editrolesフィールドには次のいずれかを含めます: %s</p>
 %s';
 $string['uploadgroupmemberscsverrorduplicateusername'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname) 「 %s 」およびユーザ名 (username) 「 %s 」はすでにこのファイルで指定されています。';
-$string['uploadgroupmemberscsverrorinvalidrole'] = 'あなたのファイルの %s 行目にエラーがあります: 指定されたグループに対してロール「 %s 」は有効ではありません。';
+$string['uploadgroupmemberscsverrorinvalidrole'] = 'あなたのファイルの %s 行目にエラーがあります: 指定されたグループにロール「 %s 」は有効ではありません。';
 $string['uploadgroupmemberscsverrornoadminlisted'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname) 「 %s 」にはロール「admin」を指定されたユーザがありません。';
 $string['uploadgroupmemberscsverrornosuchshortname'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname) 「 %s 」が存在しないかインスティテューション「 %s 」に属していません。';
 $string['uploadgroupmemberscsverrornosuchusername'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ名 (username) 「 %s 」は存在しません。';
