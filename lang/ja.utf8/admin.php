@@ -534,7 +534,7 @@ $string['uploadgroupmemberscsvpagedescription2'] = '<p>あなたはこの機能�
 <p>shortnameフィールドはあなたが<a href="%s" title="%s">ここ</a>でグループを作成した時に使用した名称と同じにする必要があります。</p>
 
 <p>roleフィールドにはグループタイプに応じて次の設定値を使用できます: <tt>admin</tt>、<tt>member</tt>または<tt>tutor</tt></p>';
-$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動で連絡してください:';
+$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを適切に送信できるように設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動で連絡してください:';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるためユーザは追加されませんでした。許可されたインスティテューションの最大ユーザ数を超過しました。';
 $string['updateusers'] = 'ユーザを更新する';
 $string['updateusersdescription'] = 'あなたのCSVファイルに指定したインスティテューションのメンバーのユーザ名が含まれている場合、ファイルのデータによりユーザ詳細が上書きされることになります。注意して使用してください。';
