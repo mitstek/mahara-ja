@@ -373,7 +373,7 @@ $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの�
 <p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含めます。フィールドの完全なリストは以下のとおりです:</p>
 
 %s';
-$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動で連絡してください:';
+$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを適切に送信できるように設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動で連絡してください:';
 $string['uploadcsvusersaddedsuccessfully'] = 'ファイル内のユーザが正常に追加されました。';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるためユーザは追加されませんでした。許可されたインスティテューションの最大ユーザ数を超過しました。';
 $string['bulkleap2aimport'] = 'Leap2Aファイルからユーザをインポートする';
