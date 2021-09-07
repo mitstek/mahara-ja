@@ -290,7 +290,7 @@ $string['uploadcsvpagedescription2institutionaladmin'] = '<p>あなたはこの�
 <p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含めます。フィールドの完全なリストは以下のとおりです:</p>
 
 %s';
-$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動で連絡してください:';
+$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを適切に送信できるように設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動で連絡してください:';
 $string['uploadcsvusersaddedsuccessfully'] = 'ファイル内のユーザが正常に追加されました。';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるためユーザは追加されませんでした。許可されたインスティテューションの最大ユーザ数を超過しました。';
 $string['adminuserspagedescription'] = '<p>あなたはどのユーザがサイトを管理するか、選択できます。現在の管理者は右側に表示され潜在的な管理者は左側に表示されます。</p><p>システムには少なくとも1名のサイト管理者を設定する必要があります。</p>';
