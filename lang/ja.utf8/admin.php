@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-09-05 23:28:56 UTC
+ * @updated    2021-09-07 05:56:30 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -730,8 +730,8 @@ $string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能�
 
 <p>roleフィールドにはグループタイプに応じて次の設定値を使用できます: <tt>admin</tt>、<tt>member</tt>または<tt>tutor</tt></p>
 
-<div class="warning">すべてのCSVファイルアップロードによりグループ管理者を含む既存のすべてのグループメンバーが完全に削除されます。あなたのCSVファイル内に少なくとも1名の管理者が存在することを確認してください。</div>';
-$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部の人にメール送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらの人には手動で連絡してください:';
+<div class="warning">CSVファイルアップロードにより毎回グループ管理者を含む既存のすべてのグループメンバーが完全に削除されます。あなたのCSVファイル内に少なくとも1名の管理者が存在することを確認してください。</div>';
+$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部の人にメール送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを適切に送信できるよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらの人には手動で連絡してください:';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内の人が多過ぎるため誰も追加されませんでした。許可されたインスティテューションの最大数をメンバー数が超過しました。';
 $string['updateusers'] = 'アカウントを更新する';
 $string['updateusersdescription'] = 'あなたのCSVファイルに既存のインスティテューションメンバーのユーザ名の人が含まれている場合、その人の詳細がファイルのデータにより上書きされることになります。注意して使用してください。';
