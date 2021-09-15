@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-27 01:26:38 UTC
+ * @updated    2021-09-15 00:39:34 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -152,14 +152,10 @@ $string['remove'] = '削除';
 $string['updatemembership'] = 'メンバーシップを更新する';
 $string['memberchangefailed'] = 'いくつかのメンバーシップ情報の更新に失敗しました。';
 $string['memberchangesuccess'] = 'メンバーシップのステータスが正常に変更されました。';
-$string['viewreleasedsubject1'] = 'あなたのページ「 %s 」がグループ「 %s 」から %s さんによってリリースされました。';
-$string['viewreleasedmessage1'] = 'あなたのページ「 %s 」がグループ「 %s 」から %s さんによってリリースされました。';
-$string['collectionreleasedsubject1'] = 'あなたのコレクション「 %s 」がグループ「 %s 」から %s さんによってリリースされました。';
-$string['collectionreleasedmessage1'] = 'あなたのコレクション「 %s 」がグループ「 %s 」から %s さんによってリリースされました。';
-$string['viewreleasedsuccess'] = 'ページが正常にリリースされました。';
-$string['viewreleasedpending'] = 'アーカイブの後、ページはリリースされます。';
-$string['collectionreleasedsuccess'] = 'コレクションが正常にリリースされました。';
-$string['collectionreleasedpending'] = 'アーカイブの後、コレクションはリリースされます。';
+$string['portfolioreleasedsubject'] = 'ポートフォリオ「 %s 」がリリースされました。';
+$string['portfolioreleasedmessage'] = 'あなたのポートフォリオ「 %s 」が「 %s 」から %s によってリリースされました。';
+$string['portfolioreleasedsuccess'] = 'ポートフォリオが正常にリリースされました。';
+$string['portfolioreleasedpending'] = 'ポートフォリオはアーカイブ後にリリースされます。';
 $string['leavegroup'] = 'このグループから離れる';
 $string['joingroup'] = 'このグループに参加する';
 $string['requestjoingroup'] = 'このグループへの参加をリクエストする';
