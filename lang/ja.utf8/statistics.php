@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-27 01:33:53 UTC
+ * @updated    2021-09-23 08:43:20 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -101,7 +101,7 @@ $string['blocktype_text'] = 'ブロック: テキスト';
 $string['blocktype_textbox'] = 'ブロック: ノート';
 $string['blocktype_socialprofile'] = 'ブロック: ソーシャルメディア';
 $string['blocktype_wall'] = 'ブロック: ウォール';
-$string['blocktype_watchlist'] = 'ブロック: ウォッチページ';
+$string['blocktype_watchlist'] = 'ブロック: 私が観察しているページ';
 $string['count_block_instance'] = 'ブロック数';
 $string['count_blocktype_wall_post'] = 'ウォール投稿数';
 $string['count_group'] = 'グループ数';
@@ -167,7 +167,7 @@ $string['plugin_blocktype_resumefield_version'] = 'ブロックタイププラ�
 $string['plugin_blocktype_taggedposts_version'] = 'ブロックタイププラグイン: 「タグ付き日誌エントリ」バージョン';
 $string['plugin_blocktype_textbox_version'] = 'ブロックタイププラグイン: 「ノート」バージョン';
 $string['plugin_blocktype_wall_version'] = 'ブロックタイププラグイン: 「ウォール」バージョン';
-$string['plugin_blocktype_watchlist_version'] = 'ブロックタイププラグイン: 「ウォッチページ」バージョン';
+$string['plugin_blocktype_watchlist_version'] = 'ブロックタイププラグイン: 「私が観察しているページ」バージョン';
 $string['plugin_export_html_version'] = 'エクスポートプラグイン: 「HTML」バージョン';
 $string['plugin_export_leap_version'] = 'エクスポートプラグイン: 「Leap2A」バージョン';
 $string['plugin_grouptype_course_version'] = 'グループタイププラグイン: 「コース」バージョン';
