@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-09-21 22:50:30 UTC
+ * @updated    2021-09-26 06:09:05 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -875,7 +875,7 @@ $string['exportqueuearchived'] = '%s 行が正常に更新されました。';
 $string['exportdataascsv'] = 'すべてのデータをCSVフォーマットでエクスポートする';
 $string['nocsvresults'] = 'CSVファイルの結果が見つかりませんでした。';
 $string['exportdownloademailsubject1'] = 'あなたの「 %s 」のエクスポートのダウンロードが準備できました。';
-$string['exportdownloademailmessage1'] = '%s さん、あなたの「 %s 」のエクスポートのダウンロードが準備できました。このファイルは生成後24時間のみ利用できます。ファイルをダウンロードするには次のリンクにアクセスしてください:';
+$string['exportdownloademailmessage1'] = '%s さん、あなたの「 %s 」のエクスポートのダウンロードが準備できました。このファイルは生成後、最大24時間のみ利用できます。ファイルをダウンロードするには次のリンクにアクセスしてください:';
 $string['exportdownloadurl'] = 'エクスポート済みファイルをダウンロードする';
 $string['adduser'] = '人を追加する';
 $string['adduserdescription'] = '新しいアカウントを作成します。';
