@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-29 07:16:57 UTC
+ * @updated    2021-09-30 01:43:35 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -290,8 +290,8 @@ $string['removecolumn'] = 'このカラムを削除する';
 $string['moveblock2'] = 'ブロックを移動する';
 $string['moveblock'] = '%s ブロックを移動する';
 $string['movethisblock'] = 'このブロックを移動する';
-$string['Configure'] = '設定';
-$string['configureblock2'] = 'ブロックを設定する';
+$string['Configure1'] = '編集';
+$string['configureblock3'] = 'ブロックを編集する';
 $string['configureblock1'] = '%s ブロックを設定する (ID %s)';
 $string['configurethisblock1'] = 'このブロックを設定する (ID %s)';
 $string['closeconfiguration'] = '設定を閉じる';
@@ -350,7 +350,6 @@ $string['choosetemplatepageandcollectiondescription'] = '<p>ここでは新し�
 $string['choosetemplategrouppageandcollectiondescription'] = '<p>ここでは新しいページ作成の出発点としてこのグループがコピーを許可されているページを検索できます。あなたはページの名称をクリックしてそれぞれのページのプレビューを表示できます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため該当する「ページをコピーする」ボタンをクリックしてコピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックしてページが属しているコレクション全体をコピーできます。</p><p><strong>注意:</strong> 現在、日誌、日誌エントリ、プランおよびレジュメ情報をグループでコピーすることはできません。</p>';
 $string['choosetemplateinstitutionpageandcollectiondescription'] = '<p>ここでは新しいページ作成の出発点としてこのインスティテューションがコピーを許可されているページを検索できます。あなたはページの名称をクリックしてそれぞれのページのプレビューを表示できます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため該当する「ページをコピーする」ボタンをクリックしてコピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックしてページが属しているコレクション全体をコピーできます。</p><p><strong>注意:</strong> 現在、日誌、日誌エントリ、プランおよびレジュメ情報をインスティテューションでコピーすることはできません。</p>';
 $string['choosetemplatesitepageandcollectiondescription1'] = '<p>ここでは新しいページ作成の出発点としてサイトレベルでコピー可能なページを検索できます。あなたはページの名称をクリックしてそれぞれのページのプレビューを表示できます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため該当する「ページをコピーする」ボタンをクリックしてコピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックしてページが属しているコレクション全体をコピーできます。</p><p><strong>注意:</strong> 現在、日誌、日誌エントリ、プランおよびレジュメ情報をサイトレベルのページでコピーすることはできません。</p>';
-$string['copiedblocksandartefactsfromtemplate'] = '%d 個のブロックおよび %d 件のアーティファクトを %s からコピーしました。';
 $string['filescopiedfromviewtemplate'] = '%s からコピーされたファイル';
 $string['viewfilesdirname'] = 'ページファイル';
 $string['viewfilesdirdesc'] = 'コピーされたページのファイル';
