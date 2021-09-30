@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-02 12:54:32 UTC
+ * @updated    2021-09-30 05:26:49 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,6 +17,7 @@ $string['autoconfiguredesc'] = 'モバイルアプリAPIに必要な設定を自
 $string['autoconfiguretitle'] = 'モバイルアプリAPI自動設定';
 $string['configstep'] = '設定アイテム';
 $string['configstepstatus'] = 'ステータス';
+$string['maharamobile'] = 'MaharaモバイルAPI';
 $string['manualtokensdesc'] = 'アプリにコピー＆ペーストするため人は手動でウェブサービスアクセストークンを生成できます。通常、アプリはトークンを自動生成できる必要があります。しかし、いくつかの認証プラグインでは自動生成できない場合もあります。';
 $string['manualtokenstitle'] = '手動トークン生成';
 $string['mobileapiserviceexists'] = 'モバイルAPIサービスグループ登録済み';
