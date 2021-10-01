@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-10-01 00:02:39 UTC
+ * @updated    2021-10-01 05:28:38 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -24,7 +24,7 @@ $string['platformvendorkeytitle'] = 'プラットフォームベンダ';
 $string['platformvendorkeyoptionnone'] = 'プラットフォームを選択する';
 $string['platformvendorkeyoptionbrightspace'] = 'Brightspace';
 $string['platformvendorkeycannotbeempty'] = 'プラットフォームベンダを選択または入力してください。';
-$string['platformvendorissnotfound'] = '返されたデータ内にプラットフォームが「iss」を送信していません。キーがありません。';
+$string['platformvendorissnotfound'] = 'プラットフォームは返却データ内に「iss」を送信していません。キーがありません。';
 $string['platformvendorkeyinvalid'] = 'リクエスト内にプラットフォームベンダキーが見つかりませんでした。返されたリクエスト内のキーは次のとおりです: %s';
 $string['platformvendorkeynotfound'] = 'プラットフォームからの「iss」(%s) には「lti_advantage_registration」データベーステーブル内で合致する「Issuer」がありません。';
 $string['platform_service_auth_endpoint'] = 'プラットフォームOAuth2アクセストークンURL';
@@ -35,7 +35,7 @@ $string['oauth2'] = 'OAuth2';
 $string['nullprivatecert'] = '秘密鍵を生成または保存できませんでした。';
 $string['nullpubliccert'] = '公開鍵を生成または保存できませんでした。';
 $string['groupname'] = '%s';
-$string['usercreationupdate'] = 'まもなくグループメンバーが更新されます。数分後に戻ってきてください。';
+$string['usercreationupdate'] = 'まもなくグループメンバーが更新されます。数分後、戻ってきてください。';
 $string['domain'] = 'ドメイン';
 $string['redirecturl'] = 'リダイレクトURL';
 $string['openidconnectlogin'] = 'OpenID ConnectログインURL';
