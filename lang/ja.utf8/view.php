@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-09-30 01:43:35 UTC
+ * @updated    2021-09-30 23:13:16 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -96,9 +96,13 @@ $string['Viewscollections'] = 'ページおよびコレクション';
 $string['viewsubmittedtogroup1'] = 'このポートフォリオは<a href="%s">%s</a>に送信されました。';
 $string['viewsubmittedtogroupon1'] = 'このポートフォリオは<a href="%s">%s</a>に対して %s に送信されました。';
 $string['viewsubmittedtogroupgrade'] = 'このポートフォリオは課題「 <a href="%s">%s</a> 」 (%s) に対して %s に送信されました。　';
+$string['viewsubmittedtohoston'] = 'このポートフォリオは %s に送信されました。';
+$string['viewsubmittedtohost'] = 'このポートフォリオは評価のために送信されました。';
 $string['collectionsubmittedtogroup'] = 'このコレクションは<a href="%s">%s</a>に送信されました。';
 $string['collectionsubmittedtogroupon'] = 'このコレクションは<a href="%s">%s</a>に対して %s に送信されました。';
 $string['collectionsubmittedtogroupgrade'] = 'このコレクションは課題「 <a href="%s">%s</a> 」 (%s) に対して %s に送信されました。　';
+$string['collectionsubmittedtohost'] = 'このコレクションは評価のために送信されました。';
+$string['collectionsubmittedtohoston'] = 'このコレクションは %s に送信されました。';
 $string['submittedpendingrelease'] = 'アーカイブ後のリリース保留中です。';
 $string['nobodycanseethisview2'] = 'あなたのみこのページを閲覧できます。';
 $string['noviews1'] = 'ページまたはコレクションはありません。';
@@ -403,6 +407,7 @@ $string['Profile'] = 'プロファイル';
 $string['profile'] = 'プロファイル';
 $string['Portfolio'] = 'ポートフォリオ';
 $string['Portfolios'] = 'ポートフォリオ';
+$string['Pages'] = 'ページ';
 $string['Collection'] = 'コレクション';
 $string['Grouphomepage'] = 'グループホームページ';
 $string['grouphomepage'] = 'グループホームページ';

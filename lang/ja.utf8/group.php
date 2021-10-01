@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-09-11 03:34:15 UTC
+ * @updated    2021-09-30 23:07:30 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -390,3 +390,4 @@ $string['mygrouplabel'] = 'マイグループラベル';
 $string['removegrouplabelfilter'] = 'グループラベルフィルタ「 %s 」を削除する';
 $string['agrouplabeltooshort'] = '1つまたはそれ以上のグループラベルが短すぎます。少なくとも %s 文字必要です。';
 $string['agrouplabeltoolong'] = '1つまたはそれ以上のグループラベルが長すぎます。最大 %s 文字にできます。';
+$string['currentarchivereleasedsubmittedhostmessage'] = 'あなたのポートフォリオ「 %s 」は「 %s 」から %s によってリリースされました。必要であれば、あなたのポートフォリオを再度提出できます。';

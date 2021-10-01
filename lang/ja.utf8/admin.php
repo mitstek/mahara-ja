@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-09-29 02:03:19 UTC
+ * @updated    2021-09-30 23:01:38 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -241,7 +241,10 @@ $string['groupquotaupdated'] = 'グループクオータが更新されました
 $string['addnewgroupcategory'] = '新しいグループカテゴリを入力する';
 $string['archivedsubmissions'] = 'アーカイブ済み提出';
 $string['archivedsubmissionsdesc'] = 'アーカイブ済み提出を管理します。';
+$string['currentsubmissions'] = '現在の提出';
+$string['releasesubmissionlabel'] = 'リリース';
 $string['submittedto'] = '提出先';
+$string['submittedon'] = '送信日時';
 $string['ID'] = 'ID';
 $string['filenameleap'] = 'Leap2Aファイル';
 $string['filenameleaphtml'] = 'アーカイブファイル';
@@ -795,6 +798,7 @@ $string['confirmdeleteusers1'] = '本当に選択された人のアカウント�
 $string['exportingnotsupportedyet'] = 'プロファイルのエクスポートはまだサポートされていません。';
 $string['exportuserprofiles'] = 'プロファイルをエクスポートする';
 $string['nousersselected'] = '誰も選択されていません。';
+$string['nocontentselected'] = 'ポートフォリオが選択されていません。';
 $string['suspenduser'] = '人を利用停止する';
 $string['suspendeduserstitle'] = '利用停止および有効期限切れアカウント';
 $string['suspendedusers'] = '利用停止された人';
@@ -1323,6 +1327,7 @@ $string['cli_deleteinactivegroups_emptygroups'] = 'メンバーなしのグル�
 $string['cli_deleteinactivegroups_groupunabletoclean'] = 'グループ「 %s 」(ID %s) を完全に削除することはできません。';
 $string['withselectedcontentexport'] = 'アイテムを再度エクスポートキューに入れる';
 $string['withselectedcontentdelete'] = '選択したアイテムをエクスポートキューから削除する';
+$string['withselectedcontentrelease'] = '選択したアイテムをリリースする';
 $string['allothers'] = 'その他すべて';
 $string['behatvariables'] = 'Behatステップ';
 $string['behatvariablesdesc'] = '利用可能なBehatステップを素早く探すためのツールです。';
