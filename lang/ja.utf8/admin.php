@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-09-30 23:01:38 UTC
+ * @updated    2021-10-01 04:45:21 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1333,7 +1333,7 @@ $string['behatvariables'] = 'Behatステップ';
 $string['behatvariablesdesc'] = '利用可能なBehatステップを素早く探すためのツールです。';
 $string['nobehatfeaturefiles'] = 'Behatフィーチャファイルは見つかりませんでした。';
 $string['behatmatchingrows'] = '%s -';
-$string['behatnocoresteps'] = '<p>behat.ymlファイルからBehatステップを読めません。読めるようにするには<a href="https://wiki.mahara.org/wiki/Testing_Area/Behat_Testing/Setup#chown">あなたのBehatデータルートディレクトリのオーナーを「www-data」にしてください。</a></p>';
+$string['behatnocoresteps'] = '<p>behat.ymlファイルからBehatステップを読めません。読めるようにするには<a href="https://wiki.mahara.org/wiki/Testing_Area/Behat_Testing/Setup#chown">あなたのBehatデータルートディレクトリのオーナーを「www-data」にしてください</a>。</p>';
 $string['behatstepnotused'] = '現在、このBehatステップは使用されていません。';
 $string['author'] = '作成者';
 $string['content'] = 'コンテンツ';
@@ -1411,5 +1411,5 @@ $string['development'] = '開発';
 $string['exportthirdpartycsv'] = 'プラグイン情報をCSVフォーマットでエクスポートする';
 $string['Path'] = 'パス';
 $string['styleguide'] = 'スタイルガイド';
-$string['thirdpartyplugins'] = 'サードパーティプラグイン - README.Maharaファイルをもとに一覧表示';
+$string['thirdpartyplugins'] = 'README.Maharaファイルに基づくサードパーティプラグイン';
 $string['url'] = 'url';

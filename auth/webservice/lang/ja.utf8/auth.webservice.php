@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-27 05:06:38 UTC
+ * @updated    2021-10-01 04:40:49 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -353,7 +353,7 @@ $string['testclientdescription'] = '* ウェブサービステストクライア
 * {$a->amfatag}にアクセスしてください。';
 $string['testwithtestclient'] = 'サービスをテストする';
 $string['tokenauthlog'] = 'トークン認証';
-$string['userasclients'] = 'クライアントトークンとしてのユーザ';
+$string['userasclients'] = 'クライアントトークンとしてのアカウント';
 $string['validuntil'] = '有効期限';
 $string['wrongusernamepassword'] = 'ユーザ名またはパスワードが正しくありません。';
 $string['institutiondenied'] = 'インスティテューションへのアクセスが拒否されました。';
@@ -366,7 +366,7 @@ $string['webservicesnotenabled'] = 'あなたは少なくとも1つのプロト�
 $string['nooauth'] = 'OAuthには有効にされていません。';
 $string['accessdenied'] = 'アクセスが拒否されました。';
 $string['accessdeniedforinst'] = 'インスティテューション「 %s 」へのアクセスが拒否されました。';
-$string['accessdeniedforinstuser'] = 'インスティテューション「 %s 」 (ユーザ 「 %s 」) へのアクセスが拒否されました。';
+$string['accessdeniedforinstuser'] = 'インスティテューション「 %s 」 (アカウント 「 %s 」) へのアクセスが拒否されました。';
 $string['accessdeniedforinstgroup'] = 'インスティテューション「 %s 」 (グループ「 %s 」) へのアクセスが拒否されました。';
 $string['usernameexists2'] = 'ユーザ名「 %s 」は有効ではありません。';
 $string['invalidauthtype'] = '無効な認証タイプ「 %s 」です。';
@@ -376,15 +376,15 @@ $string['instexceedmax'] = '最大ユーザアカウント数を超えたイン�
 $string['cannotdeleteaccount'] = '使用中および未保留のアカウントは削除できません。ユーザID「 %s 」';
 $string['nousernameorid'] = 'ユーザ名またはIDがありません。';
 $string['nousernameoridgroup'] = 'グループ「 %s 」のユーザ名またはIDがありません。';
-$string['invaliduser'] = '無効なユーザ「 %s 」です。';
-$string['invaliduserid'] = '無効なユーザID「 %s 」です。';
-$string['invalidusergroup'] = '無効なユーザ「 %s (グループ: %s)」 です。';
-$string['mustsetauth'] = 'ユーザ「 %s 」の認証を更新するには認証およびインスティテューションを設定する必要があります。';
+$string['invaliduser'] = '無効なアカウント「 %s 」です。';
+$string['invaliduserid'] = '無効なアカウントID「 %s 」です。';
+$string['invalidusergroup'] = '無効なアカウント「 %s (グループ: %s)」 です。';
+$string['mustsetauth'] = 'あなたがアカウント保持者「 %s 」の認証方法を更新するには認証方法およびインスティテューションを設定する必要があります。';
 $string['invalidusername'] = '無効なユーザ名です。「 %s 」は存在しません。';
 $string['invalidremoteusername'] = '無効なリモートユーザ名「 %s 」です。';
 $string['musthaveid'] = 'ID、ユーザIDまたはユーザ名が必要です。';
-$string['notauthforuseridinstitution'] = 'ユーザID「 %s (インスティテューション: %s)」へのアクセスは許可されていません。';
-$string['notauthforuseridinstitutiongroup'] = 'ユーザID「 %s (インスティテューション: %s)」からグループ「 %s 」へのアクセスは許可されていません。';
+$string['notauthforuseridinstitution'] = 'アカウントID「 %s (インスティテューション: %s)」へのアクセスは許可されていません。';
+$string['notauthforuseridinstitutiongroup'] = 'アカウントID「 %s (インスティテューション: %s)」からグループ「 %s 」へのアクセスは許可されていません。';
 $string['invalidfavourite'] = '無効なお気に入り「 %s 」です。';
 $string['groupexists'] = 'グループはすでに存在します: %s';
 $string['instmustbeongroup'] = 'グループ「 %s 」にインスティテューションを設定する必要があります。';
@@ -397,7 +397,7 @@ $string['invalidmemroles'] = '無効なグループメンバーシップロー�
 $string['groupnotexist'] = 'グループ「 %s 」は存在しません。';
 $string['instmustset'] = '「 %s 」にインスティテューションを設定する必要があります。';
 $string['nogroup'] = 'グループが指定されていません。';
-$string['membersinvalidaction'] = '無効な操作「 %s 」です - ユーザ「 %s (グループ: %s)」';
+$string['membersinvalidaction'] = '無効な操作「 %s 」です - アカウント保持者「 %s (グループ: %s)」';
 $string['passwordmustbechangedviawebsite'] = 'あなたはパスワードを変更する必要があります。あなたのパスワードを更新するにはウェブブラウザでログインしてください。';
 $string['featuredisabled'] = 'ウェブサービス機能が有効にされていません。詳細情報に関してあなたのサイト管理者にご連絡ください。';
 $string['institutionunknown'] = '- 不明 -';

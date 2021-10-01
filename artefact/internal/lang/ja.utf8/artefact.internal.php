@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-22 23:17:08 UTC
+ * @updated    2021-10-01 04:31:13 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -178,12 +178,9 @@ $string['progress_joingroup'] = '%s グループに参加する';
 $string['progress_makefriend'] = '%s フレンドを作る';
 $string['socialprofile'] = 'ソーシャルメディア';
 $string['socialprofiles'] = 'ソーシャルメディアアカウント';
-$string['service'] = 'ソーシャルネットワーク';
 $string['servicedesc'] = 'ソーシャルメディアネットワーク名を入力してください。例) Facebook、LinkedIn、Twitter等';
 $string['profileurl'] = 'あなたのURLまたはユーザ名';
 $string['profileurldesc'] = 'あなたのプロファイルページのURLまたはユーザ名です。';
-$string['profileurlexists'] = 'あなたがすでに入力したユーザ名またはURLと重複しているため、このソーシャルメディアアカウントを追加できません。';
-$string['profiletype'] = 'ソーシャルネットワーク';
 $string['deleteprofile'] = 'ソーシャルメディアアカウントを削除する';
 $string['deletethisprofile'] = 'ソーシャルメディアアカウントを削除する:「 %s 」';
 $string['deleteprofileconfirm'] = '本当にこのソーシャルメディアアカウントを削除してもよろしいですか?';
@@ -193,5 +190,5 @@ $string['notvalidprofileurl'] = 'これは有効なソーシャルプロファ�
 $string['profiledeletedsuccessfully'] = 'ソーシャルメディアアカウントが正常に削除されました。';
 $string['profilesavedsuccessfully'] = 'ソーシャルメディアアカウントが正常に保存されました。';
 $string['socialprofilerequired'] = '少なくとも1つのソーシャルメディアアカウントが必要です。';
-$string['duplicateurl'] = 'あなたがすでに入力したものとソーシャルメディアアカウントユーザ名またはURLが重複しています。';
+$string['duplicateurl'] = 'すでに入力したものとユーザ名またはURLが重複しているため、あなたはこのソーシャルメディアアカウントを追加できません。';
 $string['notes'] = 'ノート';
