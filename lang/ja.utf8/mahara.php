@@ -201,7 +201,7 @@ $string['lastminutes'] = '直近の %s 分間';
 $string['allonline'] = 'すべてのオンラインユーザを表示する';
 $string['noonlineusersfound'] = 'オンラインユーザはいません。';
 $string['linksandresources'] = 'リンクおよびリソース';
-$string['accesstotallydenied_institutionsuspended'] = 'あなたのインスティテューション %s は現在利用停止されています。利用再開されるまで %s にログインすることはできません。詳細はあなたのインスティテューションにご連絡ください。';
+$string['accesstotallydenied_institutionsuspended'] = 'あなたのインスティテューション %s は現在利用停止されています。利用再開されるまで %s にログインできません。詳細はあなたのインスティテューションにご連絡ください。';
 $string['accessforbiddentoadminsection'] = 'あなたは管理セクションへのアクセスを禁止されています。';
 $string['accountdeleted'] = '申し訳ございません、あなたのアカウントは削除されました。<a href="%scontact.php">サイト管理者にご連絡ください</a>。';
 $string['accountexpired'] = '申し訳ございません、あなたのアカウントの有効期限が切れました。あなたのアカウントを再度有効にするには<a href="%scontact.php">サイト管理者にご連絡ください</a>。';
@@ -329,7 +329,7 @@ $string['accountinactivewarningtext'] = '%s さん
 
 %s のあなたのアカウントは %s で無効になります。
 
-アカウントが無効にされた場合、あなたのアカウントを管理者が再度有効にするまでログインすることはできません。
+アカウントが無効にされた場合、あなたのアカウントを管理者が再度有効にするまでログインできません。
 
 サイトにログインすることであなたのアカウントが無効になることを防ぐことができます。
 
@@ -338,7 +338,7 @@ $string['accountinactivewarninghtml'] = '<p>%s さん</p>
 
 <p>%s のあなたのアカウントは %s で無効になります。</p>
 
-<p>アカウントが無効にされた場合、あなたのアカウントを管理者が再度有効にするまでログインすることはできません。</p>
+<p>アカウントが無効にされた場合、あなたのアカウントを管理者が再度有効にするまでログインできません。</p>
 
 <p>サイトにログインすることであなたのアカウントが無効になることを防ぐことができます。</p>
 
@@ -384,7 +384,7 @@ $string['yournewpassword'] = 'あなたの新しいパスワードです。パ�
 $string['yournewpasswordagain'] = 'あなたの新しいパスワードをもう一度';
 $string['invalidsesskey'] = '無効なセッションキー';
 $string['cannotremovedefaultemail'] = 'あなたの主メールアドレスは削除できません。';
-$string['emailtoolong'] = 'メールアドレスの長さは半角255文字より長くすることはできません。';
+$string['emailtoolong'] = 'メールアドレスの長さは半角255文字より長くできません。';
 $string['mustspecifyoldpassword'] = 'あなたの現在のパスワードを入力してください。';
 $string['Site'] = 'サイト';
 $string['profileicon'] = 'プロファイルイメージ';
@@ -684,7 +684,7 @@ $string['artefactnotfound'] = 'ID %s のアーティファクトは見つかり�
 $string['artefactnotrendered'] = 'アーティファクトが提出されていません。';
 $string['nodeletepermission'] = 'あなたにはこのアーティファクトを削除するパーミッションがありません。';
 $string['noeditpermission'] = 'あなたにはこのアーティファクトを編集するパーミッションがありません。';
-$string['cantbedeleted'] = 'このアーティファクトまたはサブアーティファクトが送信済みページにあるためこのアーティファクトを削除することはできません。';
+$string['cantbedeleted'] = 'このアーティファクトまたはサブアーティファクトが送信済みページにあるためこのアーティファクトを削除できません。';
 $string['Permissions'] = 'パーミッション';
 $string['republish'] = '公開';
 $string['view'] = 'ページ';
