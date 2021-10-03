@@ -119,7 +119,7 @@ $string['submitviewtogroup'] = '評価のため「 %s 」を「 %s 」に送信�
 $string['cantsubmitviewtogroup'] = 'あなたはこのビューの評価を目的としてこのグループに送信できません。';
 $string['cantdeleteview'] = 'あなたはこのビューを削除できません。';
 $string['deletespecifiedview'] = 'ビュー「 %s 」を削除する';
-$string['deleteviewconfirm'] = '本当にこのビューを削除してもよろしいですか? 元に戻すことはできません。';
+$string['deleteviewconfirm'] = '本当にこのビューを削除してもよろしいですか? 元に戻せません。';
 $string['editaccesspagedescription2'] = '<p>デフォルトではあなたのみビューを閲覧できます。ここではあなたのビュー情報を閲覧させたいユーザを選択できます。パブリック、ログインユーザ、フレンドにアクセス権を与えるには「追加」をクリックしてください。個別のユーザまたはグループを検索するには検索ボックスを使用してください。すべての追加されたユーザまたはグループは右側のウィンドウ枠に表示されます。</p>
 <p>追加処理を終了して続けるには「保存」ボタンをクリックしてください。</p>';
 $string['overridingstartstopdate'] = '開始/終了日のオーバーライド';
@@ -129,7 +129,7 @@ $string['empty_block'] = 'ここに配置するアーティファクトを左側
 $string['viewinformationsaved'] = 'ビュー情報が正常に保存されました。';
 $string['canteditdontown'] = 'あなたの所有ではないためこのビューを編集できません。';
 $string['canteditdontownfeedback'] = 'あなたの所有ではないためこのフィードバックを編集できません。';
-$string['canteditsubmitted'] = 'グループ「 %s 」による評価を目的として送信されたためあなたはこのビューを編集することはできません。あなたのビューをチューターがリリースするまでお待ちください。';
+$string['canteditsubmitted'] = 'グループ「 %s 」による評価を目的として送信されたためあなたはこのビューを編集できません。あなたのビューをチューターがリリースするまでお待ちください。';
 $string['feedbackchangedtoprivate'] = 'フィードバックが非公開に変更されました。';
 $string['addtutors'] = 'チューターを追加する';
 $string['viewcreatedsuccessfully'] = 'ビューが正常に作成されました。';
