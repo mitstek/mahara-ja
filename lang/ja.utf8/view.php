@@ -40,7 +40,7 @@ $string['title'] = 'ビュータイトル';
 $string['description'] = 'ビュー説明';
 $string['startdate'] = 'アクセス開始日';
 $string['stopdate'] = 'アクセス終了日';
-$string['stopdatecannotbeinpast'] = '終了日には過去の日付を設定することはできません。';
+$string['stopdatecannotbeinpast'] = '終了日には過去の日付を設定できません。';
 $string['startdatemustbebeforestopdate'] = '開始日は終了日の前に設定してください。';
 $string['unrecogniseddateformat'] = '不明な日付フォーマット';
 $string['allowcommentsonview'] = 'この設定を有効にした場合、あなたのビューを閲覧できるユーザがコメントを投稿できます。';
@@ -129,7 +129,7 @@ $string['submitviewtogroup'] = '評価のため「 %s 」を「 %s 」に送信�
 $string['cantsubmitviewtogroup'] = 'あなたはこのビューの評価を目的としてこのグループに送信できません。';
 $string['cantdeleteview'] = 'あなたはこのビューを削除できません。';
 $string['deletespecifiedview'] = 'ビュー「 %s 」を削除する';
-$string['deleteviewconfirm'] = '本当にこのビューを削除してもよろしいですか? 元に戻すことはできません。';
+$string['deleteviewconfirm'] = '本当にこのビューを削除してもよろしいですか? 元に戻せません。';
 $string['deleteviewconfirmnote'] = '<p><strong>注意:</strong> このビューに追加されたコンテンツブロックすべて削除されません。しかし、ビューに投稿されたフィードバックすべては削除されます。最初にエクスポートによるビューのバックアップをお考えください。</p>';
 $string['editaccessdescription'] = '<p>デフォルトではあなたの %s のみ閲覧できます。このページでアクセスルールを追加することであなたの %s を他のユーザと共有できます。</p>
 <p>あなたの設定完了後、続けるためスクロールダウンして「保存」をクリックしてください。</p>';
@@ -139,7 +139,7 @@ $string['emptylabel'] = 'このラベルのテキストを入力するにはこ�
 $string['empty_block'] = 'ここに配置するアーティファクトを左側のツリーより選択してください。';
 $string['viewinformationsaved'] = 'ビュー情報が正常に保存されました。';
 $string['canteditdontown'] = 'あなたの所有ではないためこのビューを編集できません。';
-$string['canteditsubmitted'] = '%s による評価を目的として送信されたためあなたはこのビューを編集することはできません。あなたのビューをチューターがリリースするまでお待ちください。';
+$string['canteditsubmitted'] = '%s による評価を目的として送信されたためあなたはこのビューを編集できません。あなたのビューをチューターがリリースするまでお待ちください。';
 $string['Submitted'] = '送信済み';
 $string['submittedforassessment'] = '評価のため送信済み';
 $string['addtutors'] = 'チューターを追加する';
@@ -209,8 +209,8 @@ $string['25,50,25'] = '大きな中央カラム';
 $string['15,70,15'] = 'さらに大きな中央カラム';
 $string['20,30,30,20'] = '大きな中央カラム';
 $string['noviewlayouts'] = '%s カラムビューのビューレイアウトがありません。';
-$string['cantaddcolumn'] = 'あなたはこれ以上、このビューにカラムを追加することはできません。';
-$string['cantremovecolumn'] = 'あなたはこのビューから最終カラムを削除することはできません。';
+$string['cantaddcolumn'] = 'あなたはこれ以上、このビューにカラムを追加できません。';
+$string['cantremovecolumn'] = 'あなたはこのビューから最終カラムを削除できません。';
 $string['blocktypecategory.feeds'] = '外部フィード';
 $string['blocktypecategory.fileimagevideo'] = 'ファイル、イメージおよびビデオ';
 $string['blocktypecategory.general'] = '一般';
@@ -228,9 +228,9 @@ $string['templatedescription'] = 'この設定を有効にした場合、あな�
 $string['templatedescriptionplural'] = 'この設定を有効にした場合、あなたのビューを閲覧できるユーザに対して自分のビューとしてコピーできるようにします。';
 $string['choosetemplatepagedescription'] = '<p>ここでは新しいビュー作成の出発点としてあなたがコピーを許可されているビューを検索できます。ビューの名称をクリックすることであなたはそれぞれのビューのプレビューを表示できます。あなたがコピーしたいビューを見つけた場合、ビューのコピーを作成するため該当する「ビューをコピーする」ボタンをクリックしてコピーされたビューの修正を開始してください。</p>';
 $string['choosetemplategrouppagedescription'] = '<p>ここでは新しいビュー作成の出発点としてこのグループがコピーを許可されているビューを検索できます。ビューの名称をクリックすることであなたはそれぞれのビューのプレビューを表示できます。あなたがコピーしたいビューを見つけた場合、ビューのコピーを作成するため該当する「ビューをコピーする」ボタンをクリックしてコピーされたビューの修正を開始してください。</p>
-<p><strong>注意:</strong> 現在、グループではブログまたはブログ記事をコピーすることはできません。</p>';
+<p><strong>注意:</strong> 現在、グループではブログまたはブログ記事をコピーできません。</p>';
 $string['choosetemplateinstitutionpagedescription'] = '<p>ここでは新しいビュー作成の出発点としてこのインスティテューションがコピーを許可されているビューを検索できます。ビューの名称をクリックすることであなたはそれぞれのビューのプレビューを表示できます。あなたがコピーしたいビューを見つけた場合、ビューのコピーを作成するため該当する「ビューをコピーする」ボタンをクリックしてコピーされたビューの修正を開始してください。</p>
-<p><strong>注意:</strong> 現在、インスティテューションではブログまたはブログ記事をコピーすることはできません。</p>';
+<p><strong>注意:</strong> 現在、インスティテューションではブログまたはブログ記事をコピーできません。</p>';
 $string['copiedblocksandartefactsfromtemplate'] = '%d 個のブロックおよび %d 件のアーティファクトを %s からコピーしました。';
 $string['filescopiedfromviewtemplate'] = '%s からコピーされたファイル';
 $string['viewfilesdirname'] = 'ビューファイル';
