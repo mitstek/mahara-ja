@@ -73,9 +73,9 @@ $string['newidpentity'] = '新しいアイデンティティプロバイダを�
 $string['notusable'] = 'SimpleSAMLphpライブラリをインストールしてセッション用にMemcacheサーバを設定ください。';
 $string['obsoletesamlplugin'] = 'auth/samlプラグインを再設定する必要があります。<a href="%s">プラグイン設定</a>フォーム経由でプラグインを更新してください。';
 $string['obsoletesamlinstance'] = 'SAML認証インスタンス <a href="%s">%s</a> (「 %s 」インスティテューション) を更新する必要があります。';
-$string['reallyreallysure1'] = 'あなたはMaharaのサービスプロバイダメタデータを保存しようとしています。これは元に戻すことはできません。また、あなたの新しいメタデータをすべてのアイデンティティプロバイダと再共有するまで既存のインスティテューションに設定されているSAMLログインは動作しません。';
+$string['reallyreallysure1'] = 'あなたはMaharaのサービスプロバイダメタデータを保存しようとしています。これは元に戻せません。また、あなたの新しいメタデータをすべてのアイデンティティプロバイダと再共有するまで既存のインスティテューションに設定されているSAMLログインは動作しません。';
 $string['reset'] = 'メタデータをリセットする';
-$string['resetmetadata'] = 'Maharaのメタデータの証明書をリセットします。これは元に戻すことはできません。また、あなたのメタデータをアイデンティティプロバイダと再共有する必要があります。';
+$string['resetmetadata'] = 'Maharaのメタデータの証明書をリセットします。これは元に戻せません。また、あなたのメタデータをアイデンティティプロバイダと再共有する必要があります。';
 $string['samlconfig'] = 'SAML設定';
 $string['samlfieldforemail'] = 'メールアドレスのSSOフィールド';
 $string['samlfieldforfirstname'] = '名のSSOフィールド';
