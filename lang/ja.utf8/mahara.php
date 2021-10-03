@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-22 06:08:18 UTC
+ * @updated    2021-10-03 06:54:56 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -231,13 +231,13 @@ $string['selfsearch'] = '私のポートフォリオを検索する';
 $string['resultsperpage'] = '1ページあたりの結果数';
 $string['allowinstitutiontags'] = 'インスティテューションタグを許可する';
 $string['allowinstitutiontagsdescription'] = '管理者はインスティテューションメンバーが使用できる一連のタグを定義できます。';
-$string['cantlistinstitutiontags'] = 'あなたはインスティテューションタグを一覧表示することはできません。';
+$string['cantlistinstitutiontags'] = 'あなたはインスティテューションタグを一覧表示できません。';
 $string['createtag'] = 'タグを作成する';
 $string['deleteinstitutiontag'] = 'インスティテューションタグを削除する';
 $string['deleteinstitutiontagspecific'] = 'インスティテューションタグ「 %s 」を削除する';
 $string['editinstitutiontag'] = 'インスティテューションタグを編集する';
 $string['error:duplicatetag'] = 'インスティテューションタグはすでに存在します。';
-$string['error:emptytag'] = 'インスティテューションタグを空にすることはできません。';
+$string['error:emptytag'] = 'インスティテューションタグを空白にできません。';
 $string['institutiontagcantbesaved'] = 'インスティテューションタグを保存できません。';
 $string['institutiontag'] = 'インスティテューションタグ';
 $string['institutiontagdesc'] = 'あなたは1度に1個のタグを追加できます。';
@@ -485,7 +485,7 @@ $string['yournewpassword1'] = 'あなたの新しいパスワードです。あ�
 $string['yournewpasswordagain'] = 'あなたの新しいパスワードをもう一度';
 $string['invalidsesskey'] = '無効なセッションキー';
 $string['cannotremovedefaultemail'] = 'あなたの主メールアドレスは削除できません。';
-$string['emailtoolong'] = 'メールアドレスの長さは半角255文字より長くすることはできません。';
+$string['emailtoolong'] = 'メールアドレスの長さは半角255文字より長くできません。';
 $string['emailinvalid'] = 'メールアドレスが無効です。';
 $string['mustspecifyoldpassword'] = 'あなたの現在のパスワードを入力してください。';
 $string['mustspecifycurrentpassword'] = 'あなたのユーザ名を変更するには現在のパスワードを入力してください。';
@@ -851,8 +851,8 @@ $string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗�
 $string['phpuploaderror_8'] = 'ファイルアップロードは拡張子が原因で中止されました。';
 $string['adminphpuploaderror'] = 'ファイルアップロードエラーは恐らくあなたのサーバ設定を原因としています。';
 $string['noinputnamesupplied'] = '入力名が提供されていません。';
-$string['cannotrenametempfile'] = '一時ファイルをリネームすることはできません。';
-$string['failedmovingfiletodataroot'] = 'アップロードされたファイルをdatarootに移動することはできません。';
+$string['cannotrenametempfile'] = '一時ファイルをリネームできません。';
+$string['failedmovingfiletodataroot'] = 'アップロードされたファイルをdatarootに移動できません。';
 $string['youraccounthasbeensuspendedtext2'] = 'あなたの %s のアカウントが %s によって利用停止されました。';
 $string['youraccounthasbeensuspendedtextcron'] = 'あなたの %s のアカウントが利用停止されました。';
 $string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s のアカウントが %s によって利用停止されました。利用停止理由は次のとおりです:
