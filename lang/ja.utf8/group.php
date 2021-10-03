@@ -93,7 +93,7 @@ $string['addedtogroupsmessage'] = '%2$s があなたをグループに追加し�
 $string['removedfromgroupsmessage'] = '%2$s があなたをグループから削除しました:
 
 %s';
-$string['cantremoveuserisadmin'] = 'チューターは管理者および他のチューターを削除することはできません。';
+$string['cantremoveuserisadmin'] = 'チューターは管理者および他のチューターを削除できません。';
 $string['cantremovemember'] = 'チューターはメンバーを削除できません。';
 $string['current'] = '現在';
 $string['requests'] = 'リクエスト';
@@ -281,7 +281,7 @@ $string['notallowedtoeditinteractions'] = 'あなたはこのグループで活�
 $string['notallowedtodeleteinteractions'] = 'あなたはこのグループで活動を削除できません。';
 $string['interactionsaved'] = '%s が正常に保存されました。';
 $string['deleteinteraction'] = '%s 「 %s 」を削除する';
-$string['deleteinteractionsure'] = '本当にこの処理を実行してもよろしいですか? 元に戻すことはできません。';
+$string['deleteinteractionsure'] = '本当にこの処理を実行してもよろしいですか? 元に戻せません。';
 $string['interactiondeleted'] = '%s が正常に削除されました。';
 $string['addnewinteraction'] = '新しい %s を追加する';
 $string['title'] = 'タイトル';

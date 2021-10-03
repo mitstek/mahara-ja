@@ -138,7 +138,7 @@ $string['submitviewtogroup'] = '評価のため「 %s 」を「 %s 」に送信�
 $string['cantsubmitviewtogroup'] = 'あなたは評価を目的としてこのページをこのグループに送信できません。';
 $string['cantdeleteview'] = 'あなたはこのページを削除できません。';
 $string['deletespecifiedview'] = 'ページ「 %s 」を削除する';
-$string['deleteviewconfirm'] = '本当にこのページを削除してもよろしいですか? 元に戻すことはできません。';
+$string['deleteviewconfirm'] = '本当にこのページを削除してもよろしいですか? 元に戻せません。';
 $string['deleteviewconfirmnote'] = '<strong>注意:</strong> あなたがこのページにリンクしているすべてのファイルおよび日誌エントリは継続して利用できます。<br />テキストボックスに直接入力されたテキスト、およびこのページに投稿されたフィードバックは削除されます。';
 $string['editaccesspagedescription3'] = 'デフォルトではあなたのページをあなたのみ閲覧できます。このページにアクセスルールを追加することであなたは他のユーザとページを共有できます。アクセスルールを追加した後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editaccessinvalidviewset'] = '無効な一連のページおよびコレクションのアクセスを編集しようとしました。';
@@ -222,8 +222,8 @@ $string['25,50,25'] = '大きな中央カラム';
 $string['15,70,15'] = 'さらに大きな中央カラム';
 $string['20,30,30,20'] = '大きな中央カラム';
 $string['noviewlayouts'] = '%s カラムページのレイアウトがありません。';
-$string['cantaddcolumn'] = 'あなたはこれ以上、このページにカラムを追加することはできません。';
-$string['cantremovecolumn'] = 'あなたはこのページから最後のカラムを削除することはできません。';
+$string['cantaddcolumn'] = 'あなたはこれ以上、このページにカラムを追加できません。';
+$string['cantremovecolumn'] = 'あなたはこのページから最後のカラムを削除できません。';
 $string['blocktypecategory.external'] = '外部コンテンツ';
 $string['blocktypecategory.fileimagevideo'] = 'ファイル、イメージおよびビデオ';
 $string['blocktypecategory.general'] = '一般';
@@ -241,9 +241,9 @@ $string['templatedescription'] = 'この設定を有効にした場合、あな�
 $string['templatedescriptionplural'] = 'この設定を有効にした場合、あなたのページを閲覧できるユーザに対して自分のページとしてコピーできるようにします。';
 $string['choosetemplatepagedescription'] = '<p>ここでは新しいページ作成の出発点としてあなたがコピーを許可されているページを検索できます。ページの名称をクリックすることであなたはそれぞれのページのプレビューを表示できます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため該当する「ページをコピーする」ボタンをクリックしてコピーされたページの修正を開始してください。</p>';
 $string['choosetemplategrouppagedescription'] = '<p>ここでは新しいページ作成の出発点としてこのグループがコピーを許可されているページを検索できます。ページの名称をクリックすることであなたはそれぞれのページのプレビューを表示できます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため該当する「ページをコピーする」ボタンをクリックしてコピーされたページの修正を開始してください。</p>
-<p><strong>注意:</strong> 現在、グループでは日誌または日誌エントリをコピーすることはできません。</p>';
+<p><strong>注意:</strong> 現在、グループでは日誌または日誌エントリをコピーできません。</p>';
 $string['choosetemplateinstitutionpagedescription'] = '<p>ここでは新しいページ作成の出発点としてこのインスティテューションがコピーを許可されているページを検索できます。ページの名称をクリックすることであなたはそれぞれのページのプレビューを表示できます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため該当する「ページをコピーする」ボタンをクリックしてコピーされたページの修正を開始してください。</p>
-<p><strong>注意:</strong> 現在、インスティテューションでは日誌または日誌エントリをコピーすることはできません。</p>';
+<p><strong>注意:</strong> 現在、インスティテューションでは日誌または日誌エントリをコピーできません。</p>';
 $string['copiedblocksandartefactsfromtemplate'] = '%d 個のブロックおよび %d 件のアーティファクトを %s からコピーしました。';
 $string['filescopiedfromviewtemplate'] = '%s からコピーされたファイル';
 $string['viewfilesdirname'] = 'ページファイル';
