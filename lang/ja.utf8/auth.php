@@ -34,7 +34,7 @@ $string['port'] = 'ポート番号';
 $string['protocol'] = 'プロトコル';
 $string['changepasswordurl'] = 'パスワード変更URL';
 $string['cannotremove'] = '私たちはこの認証プラグインを削除できません。これはこのインスティテューションに存在する唯一のプラグインです。';
-$string['cannotremoveinuse'] = 'ユーザに使用されているため私たちはこの認証プラグインを削除することはできません。あなたがこのプラグインを削除できるようにするにはユーザレコードを更新する必要があります。';
+$string['cannotremoveinuse'] = 'ユーザに使用されているため私たちはこの認証プラグインを削除できません。あなたがこのプラグインを削除できるようにするにはユーザレコードを更新する必要があります。';
 $string['saveinstitutiondetailsfirst'] = '認証プラグインを設定する前にインスティテューション詳細を保存してください。';
 $string['editauthority'] = '認証局を編集する';
 $string['addauthority'] = '認証局を追加する';
@@ -79,8 +79,8 @@ $string['duplicateremoteusername'] = '外部認証ユーザ名はすでにユー
 $string['duplicateremoteusernameformerror'] = '外部認証ユーザ名は認証メソッド内でユニークである必要があります。';
 $string['cannotjumpasmasqueradeduser'] = '別のユーザとして代理ログインしているためあなたは他のアプリケーションにジャンプできません。';
 $string['mobileuploadnotenabled'] = '申し訳ございません、モバイルアップロードが有効にされていません。';
-$string['mobileuploadtokennotset'] = 'あなたのモバイルアップロードトークンを空白にすることはできません。あなたのモバイルアプリケーション設定を確認した後、再度お試しください。';
-$string['mobileuploadusernamenotset'] = 'あなたのモバイルアップロードユーザ名を空白にすることはできません。あなたのモバイルアプリケーション設定を確認した後、再度お試しください。';
+$string['mobileuploadtokennotset'] = 'あなたのモバイルアップロードトークンを空白にできません。あなたのモバイルアプリケーション設定を確認した後、再度お試しください。';
+$string['mobileuploadusernamenotset'] = 'あなたのモバイルアップロードユーザ名を空白にできません。あなたのモバイルアプリケーション設定を確認した後、再度お試しください。';
 $string['mobileuploadtokennotfound'] = '申し訳ございません、モバイルアップロードトークンが見つかりませんでした。あなたのサイトおよびモバイルアプリケーション設定を確認してください。';
 
 ?>
