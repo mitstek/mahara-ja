@@ -523,7 +523,7 @@ $string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で
 $string['uploadcsverrorduplicateremoteuser'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでに他のユーザに取得されています。';
 $string['uploadcsverrorremoteusertaken'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでにユーザ「 %s 」に取得されています。';
 $string['uploadcsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ「 %s 」はインスティテューション「 %s 」のメンバーではありません。';
-$string['uploadcsverroruserinaninstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ「 %s 」は次のインスティテューションのメンバーです: %s あなたはこのユーザの認証方法を「No Institution」に変更することはできません。';
+$string['uploadcsverroruserinaninstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ「 %s 」は次のインスティテューションのメンバーです: %s あなたはこのユーザの認証方法を「No Institution」に変更できません。';
 $string['uploadcsvpagedescription2'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードできます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば以下のようになります:</p>
@@ -769,7 +769,7 @@ $string['licensedefault'] = 'デフォルトライセンス';
 $string['licensedefaultdescription'] = 'インスティテューションメンバーにより作成またはアップロードされたコンテンツのデフォルトのライセンスです。ユーザはアカウント設定ページおよび個別のアイテムでこの設定をオーバーライドできます。';
 $string['licensedefaultmandatory'] = 'ユーザがライセンスの選択を要求される場合、あなたはここでデフォルトライセンスを選択する必要があります。あなたがデフォルトライセンスを選択したくない場合、ユーザにライセンスを要求しないでください。';
 $string['Logo'] = 'ロゴ';
-$string['logodescription'] = 'あなたのインスティテューションメンバーに標準的なヘッダロゴの代わりに表示されるイメージをここでアップロードできます。最良の結果のためこのイメージをあなたのインスティテューションのサイトロゴと同じ大きさにしてください。それぞれのテーマは異なるヘッダの高さを持つことができます。厳密なサイズを指定することはできません。';
+$string['logodescription'] = 'あなたのインスティテューションメンバーに標準的なヘッダロゴの代わりに表示されるイメージをここでアップロードできます。最良の結果のためこのイメージをあなたのインスティテューションのサイトロゴと同じ大きさにしてください。それぞれのテーマは異なるヘッダの高さを持つことができます。厳密なサイズを指定できません。';
 $string['deletelogo'] = 'ロゴを削除する';
 $string['deletelogodescription'] = 'あなたのインスティテューションテーマのロゴを標準ヘッダロゴに戻します。';
 $string['customtheme'] = 'カスタムテーマ設定';
@@ -815,7 +815,7 @@ $string['editadmins'] = '管理者を編集する';
 $string['membershipexpiry'] = 'メンバーシップ有効期限';
 $string['membershipexpirydescription'] = 'ユーザがインスティテューションから自動的に削除される日付です。';
 $string['studentid'] = 'IDナンバー';
-$string['institutionstudentiddescription'] = 'インスティテューション固有の任意の識別子です。ユーザはこのフィールドを編集することはできません。';
+$string['institutionstudentiddescription'] = 'インスティテューション固有の任意の識別子です。ユーザはこのフィールドを編集できません。';
 $string['userstodisplay'] = '表示するユーザ:';
 $string['institutionusersrequesters'] = 'インスティテューションのメンバーシップをリクエストした人';
 $string['institutionusersnonmembers'] = 'まだインスティテューションのメンバーシップをリクエストしていない人';
@@ -863,7 +863,7 @@ $string['noinstitutionsstatsdescription1'] = 'サイトがスタッフにイン�
 $string['noinstitutionstaticpages'] = 'あなたにはインスティテューション固定ページを編集するパーミッションがないかまだインスティテューションが作成されていません。';
 $string['noinstitutionstaticpagesadmin'] = 'あなたがサイト管理者の場合、<a href="%s">サイト設定</a>でデフォルト固定ページを編集してください。';
 $string['Lockedfields'] = 'ロックフィールド';
-$string['disabledlockedfieldhelp'] = '注意: 無効にされたチェックボックスはインスティテューション設定「 %s 」でロックされたプロファイルフィールドです。これらのプロファイルフィールドはサイトレベルでロックされているためここでロック解除することはできません。';
+$string['disabledlockedfieldhelp'] = '注意: 無効にされたチェックボックスはインスティテューション設定「 %s 」でロックされたプロファイルフィールドです。これらのプロファイルフィールドはサイトレベルでロックされているためここでロック解除できません。';
 $string['defaultinstitutionquotadescription'] = 'あなたはこのインスティテューションの新しいユーザにクオータとして割り当てられるディスクスペース総量を設定できます。';
 $string['updateinstitutionuserquotasdesc'] = 'この設定を有効にした場合、あなたが上で選択したデフォルトクオータを既存のメンバーすべてに適用します。';
 $string['approve'] = '承認';
