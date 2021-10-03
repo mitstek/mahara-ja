@@ -42,7 +42,7 @@ $string['exportingviewsprogresspdf'] = 'PDFの作成中: %s/%s';
 $string['exportportfoliodescription1'] = '<p class="lead">このツールではあなたのポートフォリオ情報およびページすべてをエクスポートします。あなたのサイト設定およびあなたがグループにアップロードまたは作成したコンテンツはエクスポートされません。</p><p class="lead">あなたの個人ポートフォリオコンテンツをエクスポートできます。あなたのアカウント設定、アップロードされたコンテンツおよび作成されたグループはエクスポートされません。</p>';
 $string['exportyourportfolio'] = 'あなたのポートフォリオをエクスポートする';
 $string['generateexport'] = 'エクスポートを生成する';
-$string['noexportpluginsenabled'] = '管理者によりエクスポートプラグインが有効にされていないためあなたはこの機能を使用することはできません。';
+$string['noexportpluginsenabled'] = '管理者によりエクスポートプラグインが有効にされていないためあなたはこの機能を使用できません。';
 $string['justsomecollections'] = '私のコレクションの一部';
 $string['justsomeviews'] = '私のページの一部';
 $string['includecomments'] = 'コメントを含む';
