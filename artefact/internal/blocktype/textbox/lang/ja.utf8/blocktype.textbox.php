@@ -19,7 +19,7 @@ $string['blockcontent'] = 'ブロックコンテンツ';
 $string['usecontentfromanothertextbox1'] = '別のノートのコンテンツを使用する';
 $string['textusedinotherblocks'] = 'あなたがこのブロックのテキストを編集した場合、テキストが表示されている他の %s ブロックも更新されます。';
 $string['managealltextboxcontent1'] = 'すべてのノートコンテンツを管理する';
-$string['readonlymessage'] = 'あなたが選択したテキストはこのページで編集することはできません。';
+$string['readonlymessage'] = 'あなたが選択したテキストはこのページで編集できません。';
 $string['makeacopy'] = 'コピーを作成する';
 $string['textusedinothernotes'] = 'あなたがこのノートのテキストを編集した場合、テキストが表示されている %s ブロックでも更新されます。';
 
