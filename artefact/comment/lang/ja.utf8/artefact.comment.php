@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-10-01 04:25:13 UTC
+ * @updated    2021-10-05 02:55:20 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -67,6 +67,7 @@ $string['messageempty'] = 'あなたのメッセージは空白です。メッ�
 $string['Moderate'] = 'モデレート';
 $string['moderatecomments'] = 'コメントをモデレートする';
 $string['moderatecommentsdescription2'] = 'あなたに承認されるまでページおよびアーティファクトのコメントは非公開のままにされます。アカウントにログインしていない人からのコメントは常にモデレーションキューに入ります。また、コメントは承認される必要があります。';
+$string['commentmoderatenotificationsubject'] = '新しいコメントをモデレートする';
 $string['newcommentnotificationsubject'] = '%s の新しいコメント';
 $string['progress_feedback'] = '%s 人のページにコメントする';
 $string['rating'] = 'レーティング';
@@ -82,6 +83,22 @@ $string['viewcomment'] = 'コメントを表示する';
 $string['moderatecomment'] = 'コメント投稿者がこのコメントをパブリックにするようリクエストしました。';
 $string['youhaverequestedpublic'] = 'あなたはこのコメントをパブリックにするようリクエストしました。';
 $string['commentsnotincluded'] = 'コメントはこのエクスポートに含まれませんでした。';
+$string['feedbackmoderationnotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">
+<strong>あなたはページ「 %s 」のモデレーションを有効にしています。</strong><br />
+あなたにコメントをパブリックにするよう %s が依頼しました。以下依頼内容です:
+</div>
+<div style="margin: 1em 0;">%s</div>
+<div style="font-size: smaller; border-top: 1px solid #999;">
+<p>あなたは<a href="%s">このコメントをパブリックにできます</a>。</p>
+</div>';
+$string['feedbackmoderationnotificationtext'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">
+<strong>あなたはページ「 %s 」のモデレーションを有効にしています。</strong><br />
+あなたにコメントをパブリックにするよう %s が依頼しました。以下依頼内容です:
+</div>
+<div style="margin: 1em 0;">%s</div>
+<div style="font-size: smaller; border-top: 1px solid #999;">
+<p>あなたは<a href="%s">このコメントをパブリックにできます</a>。</p>
+</div>';
 $string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が %s にコメントを投稿しました。</strong><br />%s</div>
 
 <div style="margin: 1em 0;">%s</div>
