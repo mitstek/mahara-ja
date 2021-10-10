@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-10-01 04:45:21 UTC
+ * @updated    2021-10-10 06:28:23 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -949,7 +949,7 @@ $string['licensemandatory'] = 'ライセンス情報を要求する';
 $string['licensemandatorydescription1'] = '作成者はアーティファクト作成時にライセンスを選択する必要があります。そうでない場合、ライセンスフィールドを空白のままにできます。';
 $string['licensedefault'] = 'デフォルトライセンス';
 $string['licensedefaultdescription'] = 'インスティテューションメンバーにより作成またはアップロードされたコンテンツのデフォルトのライセンスです。インスティテューションメンバーはアカウント設定ページおよび個別のアイテムでこの設定をオーバーライドできます。';
-$string['licensedefaultmandatory'] = '作成者がライセンスの選択を要求される場合、あなたはここでデフォルトライセンスを選択する必要があります。あなたがデフォルトライセンスを選択したくない場合、あなたのインスティテューションメンバーにライセンスを要求しないでください。';
+$string['licensedefaultmandatory'] = '作成者にライセンスの選択を要求する場合、あなたはここでデフォルトライセンスを選択する必要があります。あなたがデフォルトライセンスを選択したくない場合、あなたのインスティテューションメンバーにライセンスを要求しないでください。';
 $string['Logo'] = 'ロゴ';
 $string['Logomobile'] = 'モバイルロゴ';
 $string['logodescription1'] = 'あなたのテーマのロゴとしてインスティテューションメンバーに表示されるイメージをここでアップロードできます。ロゴは利用可能なスペースに合わせてリサイズされます。';
@@ -957,7 +957,7 @@ $string['logoxsdescription'] = 'あなたは十分なスペースがないモバ
 $string['deletelogo'] = 'ロゴを削除する';
 $string['deletelogoxsmobile'] = 'モバイルロゴを削除する';
 $string['deletelogodescription2'] = 'あなたのインスティテューションテーマの標準的なヘッダロゴに戻します。';
-$string['deletelogoxsdescription3'] = 'あなたのインスティテューションテーマの標準的なヘッダモバイルロゴに戻します。';
+$string['deletelogoxsdescription3'] = 'あなたのインスティテューションテーマの標準ヘッダモバイルロゴに戻します。';
 $string['customtheme'] = 'カスタムテーマ設定';
 $string['customtheme.background'] = 'ヘッダ背景色';
 $string['customtheme.backgroundfg'] = 'ヘッダテキスト背景色';
