@@ -21,7 +21,7 @@ $string['hourstoconsiderelasticsearchrecordold'] = 'Elasticsearchキューを古
 $string['hourstoconsiderelasticsearchrecordolddescription'] = 'Elasticsearchレコードに注目する前に未処理のまま存続できる時間数です。';
 $string['monitormodulenotactive'] = 'モニタプラグインは有効ではありません。「管理メニュー」 → 「拡張機能」 → 「プラグイン管理」ページに移動してプラグインをインストールまたは有効にしてください。';
 $string['allowedips'] = '許可されるIP';
-$string['allowedipsdescription'] = 'レスポンスをモニタするため、安全なIPアドレスを1行あたり1件入力してください。空白のままにした場合、そして、「$cfg->urlsecret」が設定されている場合、モニタは「$cfg->urlsecret」に制限されます。';
+$string['allowedipsdescription'] = 'レスポンスをモニタするため、安全なIPアドレスを1行あたり1件入力してください。空白のままにした場合、そして「$cfg->urlsecret」が設定されている場合、モニタは「$cfg->urlsecret」に制限されます。';
 $string['accessdeniednotvalidip'] = 'あなたのIPアドレス「 %s 」は許可されたIPリストにありません。あなたはモニタのチェックからブロックされます:';
 $string['croncheckhelp'] = 'どのcronプロセスが長時間実行されているか特定します。
 
