@@ -44,5 +44,5 @@ $string['clickformore'] = '(さらに情報を表示するには「Enter」を�
 $string['labelsearch'] = '検索';
 $string['labelall'] = 'すべて';
 $string['labelmessage'] = 'メッセージ';
-$string['multirecipientnotificationnotenabled'] = 'モジュール「multirecipientnotification」をインストールおよび有効化する必要があります。あなたが16.10.0より古いバージョンからMaharaをアップグレードしている場合、この部分を最初にアップグレードしてください。そして、「管理メニュー」 → 「拡張機能」 → 「プラグイン管理」にアクセスしてモジュールがインストールおよび有効化されていることを確認してください。';
+$string['multirecipientnotificationnotenabled'] = 'モジュール「multirecipientnotification」をインストールおよび有効化する必要があります。あなたが16.10.0より古いバージョンからMaharaをアップグレードしている場合、この部分を最初にアップグレードしてください。そして「管理メニュー」 → 「拡張機能」 → 「プラグイン管理」にアクセスしてモジュールがインストールおよび有効化されていることを確認してください。';
 $string['subject'] = '件名';
