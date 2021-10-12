@@ -1267,7 +1267,7 @@ $string['migratesuccess'] = 'あなたのアカウントがインスティテュ
 $string['restartmigration'] = '<a href="%s">インスティテューションを選択する</a>ページで再度アカウント移動処理を開始してください。';
 $string['confirmmigration'] = 'アカウントを移動する';
 $string['migrationcancelled'] = 'あなたのアカウント移動がキャンセルされました。';
-$string['cannotcompletemigrationwithuser'] = 'あなたの移動先のインスティテューションの認証情報ではなく、現在のインスティテューションの認証情報でログインする必要があります。そして、再度メールのリンクに従ってください。';
+$string['cannotcompletemigrationwithuser'] = 'あなたの移動先のインスティテューションの認証情報ではなく、現在のインスティテューションの認証情報でログインする必要があります。そして再度メールのリンクに従ってください。';
 $string['migrateinstitutionpagelink'] = '<a href="%s">アカウントを移動する</a>ページに移動して、あなたのインスティテューションおよび %s へのログイン方法を変更してください。';
 $string['institutionmaxusersexceededrequest'] = 'このインスティテューションは満員です。現在、あなたは参加できません。インスティテューション管理者に報告されました。後ほど再度お試しください。問題が続く場合、<a href="%s">インスティテューション管理者にご連絡ください</a>。';
 $string['postformresponse'] = 'あなたの主メールアドレス宛に確認メールが送信されました。あなたの新しいインスティテューションへの移動を承認するにはメール内のリンクに従ってください。';
