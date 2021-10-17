@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-10-14 21:35:45 UTC
+ * @updated    2021-10-17 23:06:49 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -497,7 +497,7 @@ $string['whocancreategroupsdescription'] = '誰が新しいグループを作成
 $string['whocancreatepublicgroups'] = 'パブリックグループを作成する';
 $string['whocancreatepublicgroupsdescription'] = '誰が一般の人も閲覧可能なグループを作成できるか決定します。';
 $string['wysiwyg'] = 'HTMLエディタ';
-$string['wysiwygdescription'] = 'サイト全体としてHTMLエディタを有効にするか、人がHTMLエディタを有効または無効にできるようにするか指定します。';
+$string['wysiwygdescription'] = 'サイト全体としてHTMLエディタを有効にするか、人がHTMLエディタを有効または無効にできるようにするか決定します。';
 $string['wysiwyguserdefined'] = '人による決定';
 $string['eventloglevel'] = 'イベントログ';
 $string['eventlogleveldescription'] = 'どのイベントを記録しますか?';
@@ -507,7 +507,7 @@ $string['eventloglevelnone'] = 'なし';
 $string['eventloglevelmasq'] = 'マスカレーディング';
 $string['eventloglevelall'] = 'すべて';
 $string['eventlogenhancedsearch'] = 'イベントログレポーティング';
-$string['eventlogenhancedsearchdescription1'] = 'あなたのサイトの活動に関してさらに記録するため高度なアナリティクス機能を使用したい場合、これは必須です。また、あなたは「検索設定」でElasticsearchを有効にする必要があります。';
+$string['eventlogenhancedsearchdescription1'] = 'あなたのサイトの活動に関してさらに記録するため高度なアナリティクス機能を使用したい場合、これは必須です。あなたは同時に「検索設定」でElasticsearchを有効にする必要があります。';
 $string['sitefilesaccess'] = 'サイトファイルへのアクセス';
 $string['sitefilesaccessdescription1'] = '登録済みの人がサブフォルダ内のサイトファイルにアクセスできるようにします。デフォルトではトップレベルのディレクトリ内のファイルにのみアクセスできます。';
 $string['defaultmultipleblogs'] = '複数日誌';
