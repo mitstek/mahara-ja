@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-21 21:37:10 UTC
+ * @updated    2021-10-19 05:55:21 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,7 +19,7 @@ $string['description'] = '外部ソースからコース完了に関する情報
 $string['defaulttitledescription'] = 'あなたがこれを空白にした場合、デフォルトタイトルが生成されます。';
 $string['blocktitleforowner'] = '%s のコース完了';
 $string['placeholdermessage'] = 'このブロックは使用する前に完全に設定する必要があります。ブロックがパーソナルポートフォリオページにある場合のみ完全に設定できます。';
-$string['completeconfiguration'] = 'このブロックを有効化するには完全に設定してください。';
+$string['completeconfiguration1'] = '表示するコース情報はありません。コース完了を表示するにはこのブロックを編集してください。';
 $string['completeconfigurationnotpossible'] = 'このブロックのインスティテューションウェブサービス接続を構築する必要があります。ウェブサービスの設定に関してサイト管理者にお尋ねください。';
 $string['unabletofetchdata'] = 'このページオーナーのデータを取得できません。';
 $string['fromdate'] = '開始日';
@@ -28,7 +28,7 @@ $string['todate'] = '終了日';
 $string['todatedescription'] = 'この日付以前に開始されたコースのみ表示します。フォーマット %s を使用します。';
 $string['externaluserid'] = '外部アカウントID';
 $string['dateoutofsync'] = 'これは「終了日」より古くする必要があります。';
-$string['nocourses'] = '表示するコース情報はありません。';
+$string['nocourses1'] = 'まだ設定されたコース情報はありません。';
 $string['hours'] = '時間';
 $string['totalhours'] = '合計時間';
 $string['course'] = 'コース';
