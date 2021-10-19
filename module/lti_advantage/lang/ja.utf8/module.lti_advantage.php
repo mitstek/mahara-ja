@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-10-01 05:28:38 UTC
+ * @updated    2021-10-19 06:00:06 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,7 +13,8 @@
 
 defined('INTERNAL') || die();
 
-$string['ltiserviceexists'] = 'LTI advantageサービスグループは登録されています。';
+$string['ltiserviceexists'] = 'LTI Advantageサービスグループは登録されています。';
+$string['maharaltiadvantage'] = 'LTI Advantage';
 $string['short_name'] = '省略名';
 $string['short_namedescription'] = '最大半角30文字です。この省略名は「現在の提出」テーブルの「提出先」カラムに表示されるLTIプロバイダ名です。';
 $string['short_namecannotbeempty'] = '省略名は空白にできません。';
