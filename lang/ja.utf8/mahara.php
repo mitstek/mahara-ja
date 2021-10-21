@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-10-03 06:54:56 UTC
+ * @updated    2021-10-21 01:11:32 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,17 +15,20 @@ defined('INTERNAL') || die();
 
 $string['active'] = 'アクティブ';
 $string['add'] = '追加';
+$string['addspecific'] = '「 %s 」を追加する';
 $string['addone'] = '追加';
 $string['cancel'] = 'キャンセル';
 $string['copy'] = 'コピー';
 $string['copytoclipboard'] = 'クリップボードにシークレットURLをコピーする';
 $string['delete'] = '削除';
 $string['deletespecific'] = '「 %s 」を削除する';
+$string['deletespecificfrom'] = '「 %s 」(URL %s) を削除する';
 $string['deleteitem'] = '削除';
 $string['deleted'] = '削除';
 $string['moveitemup'] = '上へ';
 $string['moveitemdown'] = '下へ';
 $string['edit'] = '編集';
+$string['editspecificfrom'] = '「 %s 」(URL %s) を編集する';
 $string['editspecific'] = '「 %s 」を編集する';
 $string['managespecific'] = '「 %s 」を管理する';
 $string['connectspecific'] = '「 %s 」に接続する';
