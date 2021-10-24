@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-10-17 23:06:49 UTC
+ * @updated    2021-10-24 22:28:40 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -513,7 +513,7 @@ $string['sitefilesaccessdescription1'] = '登録済みの人がサブフォル�
 $string['defaultmultipleblogs'] = '複数日誌';
 $string['defaultmultipleblogsdescription1'] = 'デフォルトで人が日誌を複数持てるようにします。人はこれをアカウント設定ページでオーバーライドできます。';
 $string['defaultreviewsselfdeletion'] = '自己削除の前にアカウントをレビューする';
-$string['defaultreviewsselfdeletiondescription'] = 'アカウント削除リクエストをレビューするようすべてのインスティテューションに強制します。';
+$string['defaultreviewsselfdeletiondescription'] = 'すべてのインスティテューションにアカウント削除リクエストのレビューを強制します。';
 $string['reviewsselfdeletion'] = '自己削除の前にアカウントをレビューする';
 $string['reviewsselfdeletiondescription'] = 'インスティテューション管理者は自分のアカウントを削除したい人のリクエストを承認する必要があります。';
 $string['mathjax'] = 'MathJaxを有効にする';
