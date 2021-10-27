@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-10-19 06:00:06 UTC
+ * @updated    2021-10-27 23:46:16 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -44,14 +44,16 @@ $string['keyset'] = 'キーセットURL';
 $string['deployments'] = 'デプロイメント';
 $string['deploymentsdesc'] = 'LTIプラットフォームのデプロイメントIDです。';
 $string['issueralreadyinuse'] = '発行者はすでに別のクライアント接続に設定されています。';
-$string['deploymentidcannotbeempty'] = '両方のデプロイメントIDフィールドを空白にできません。';
-$string['deploymentidcannotbesame'] = '両方のデプロイメントIDフィールドを同一にできません。';
-$string['deployment1_idalreadyinuse'] = 'この基本起動デプロイメントIDはすでに使用されています。';
-$string['deployment2_idalreadyinuse'] = 'このNRPSデプロイメントIDはすでに使用されています。';
-$string['deployment3_idalreadyinuse'] = 'このDeep LinkデプロイメントIDはすでに使用されています。';
-$string['deploymentsbasiclaunchtitle'] = '基本起動';
-$string['deploymentsnrpstitle'] = 'NRPS';
-$string['deploymentsdeeplinkportfoliolisttitle'] = 'Deep Link (ポートフォリオリスト)';
+$string['deploymentidcannotbesame'] = 'デプロイメントIDフィールドは同じにできません。';
+$string['deployment1_idalreadyinuse'] = 'このデプロイメントIDはすでに使用されています。';
+$string['deployment2_idalreadyinuse'] = 'このデプロイメントIDはすでに使用されています。';
+$string['deployment3_idalreadyinuse'] = 'このデプロイメントIDはすでに使用されています。';
+$string['deployment1_title'] = '主デプロイメントID';
+$string['deployment2_title'] = '追加デプロイメントID1';
+$string['deployment3_title'] = '追加デプロイメントID2';
+$string['deployment1_description'] = 'あなたのプラットフォームに1つの追加デプロイメントIDのみある場合、このフィールドを使用してください。';
+$string['deployment2_description'] = '必要であれば、追加デプロイメントIDを入力してください。例) あなたがNRPSまたはディープリンクに異なるデプロイメントを使用したい場合';
+$string['deployment3_description'] = '必要であれば、追加デプロイメントIDを入力してください。例) あなたがNRPSまたはディープリンクに異なるデプロイメントを使用したい場合';
 $string['deeplinkportfoliostitle'] = 'ポートフォリオ';
 $string['deeplinknoportfolios'] = 'あなたにはポートフォリオがありません。';
 $string['confirmareyousure'] = '本当によろしいですか?';
