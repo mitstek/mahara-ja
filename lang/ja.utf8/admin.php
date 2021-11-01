@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-10-26 09:16:47 UTC
+ * @updated    2021-11-01 00:47:23 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -588,7 +588,7 @@ $string['licenseurlnone'] = '%s のURLを指定してください。';
 $string['networkingextensionsmissing'] = '申し訳ございません、あなたのインストール済みPHPでは1つまたはそれ以上の必須拡張モジュールが不足しているため、Maharaネットワーキングを設定できません:';
 $string['publickey'] = '公開鍵';
 $string['publickeydescription2'] = 'この公開鍵は自動的に生成され %s 日ごとにローテートされます。';
-$string['publickeyexpires'] = '公開鍵の有効期限';
+$string['publickeyexpires'] = '公開鍵有効期限';
 $string['enablenetworkingdescription'] = 'あなたのMaharaサーバがMoodleおよび他のアプリケーション稼動中のサーバと通信できるようにします。';
 $string['enablenetworking'] = 'ネットワーキングを有効にする';
 $string['networkingenabled'] = 'ネットワーキングが有効にされました。';
