@@ -622,7 +622,7 @@ $string['uploadgroupcsverrorinvalideditroles'] = 'あなたのファイルの %s
 $string['uploadgroupcsverrorshortnamealreadytaken1'] = 'あなたのファイルの %s 行目にエラーがあります: 省略名「 %s 」 (shortname) はすでに取得されています。有効な代替は「 %s 」です。';
 $string['uploadgroupcsverrorusernamesnotlastfield'] = '「usernames」フィールドはヘッダの最終フィールドにしてください。';
 $string['uploadgroupcsverroropencontrolled'] = '%s 行目: グループにはオープンおよび管理メンバーシップを同時に設定できません。';
-$string['uploadgroupcsverroropenrequest'] = '%s 行目: オープンメンバーシップのグループにメンバーシップのリクエストは許可できません。';
+$string['uploadgroupcsverroropenrequest'] = '%s 行目: オープンメンバーシップのグループではメンバーシップをリクエストできません。';
 $string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいグループをアップロードできます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば以下のようになります:</p>
