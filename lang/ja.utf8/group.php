@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-09-30 23:07:30 UTC
+ * @updated    2021-11-04 01:43:12 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -155,6 +155,8 @@ $string['memberchangesuccess'] = 'メンバーシップのステータスが正�
 $string['portfolioreleasedsubject'] = 'ポートフォリオ「 %s 」がリリースされました。';
 $string['portfolioreleasedmessage'] = 'あなたのポートフォリオ「 %s 」が「 %s 」から %s によってリリースされました。';
 $string['portfolioreleasedsuccess'] = 'ポートフォリオが正常にリリースされました。';
+$string['portfolioreleasedsuccesswithname'] = 'ポートフォリオ「 %s 」が正常にリリースされました。';
+$string['portfolioreleasefailed'] = 'アーカイブ後の「 %s 」のリリースに失敗しました。';
 $string['portfolioreleasedpending'] = 'ポートフォリオはアーカイブ後にリリースされます。';
 $string['leavegroup'] = 'このグループから離れる';
 $string['joingroup'] = 'このグループに参加する';
