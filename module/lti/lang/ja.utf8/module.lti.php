@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-10-21 01:27:30 UTC
+ * @updated    2021-11-14 03:39:38 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -36,7 +36,7 @@ $string['groupname'] = '「 %s 」-「 %s 」';
 $string['institutiondenied'] = '「 %s 」へのアクセスが拒否されました。あなたのインスティテューション管理者にご連絡ください。';
 $string['lock'] = '評定後、ポートフォリオのロックを継続する';
 $string['lockdescription'] = '評定後、ユーザはポートフォリオを変更します。';
-$string['ltiserviceexists'] = 'LTIサービスグループが登録されています。';
+$string['ltiserviceexists'] = 'LTIサービスグループ登録済み';
 $string['maharalti'] = 'LTIインテグレーション';
 $string['maharaltimoodleassign'] = 'Moodle課題提出';
 $string['nocollections'] = 'あなたには評価のため提出するポートフォリオはありません。';
