@@ -13,7 +13,7 @@
 
 defined('INTERNAL') || die();
 
-$string['ltiserviceexists'] = 'LTI Advantageサービスグループは登録されています。';
+$string['ltiserviceexists'] = 'LTI Advantageサービスグループ登録済み';
 $string['maharaltiadvantage'] = 'LTI Advantage';
 $string['short_name'] = '省略名';
 $string['short_namedescription'] = '最大半角30文字です。この省略名は「現在の提出」テーブルの「提出先」カラムに表示されるLTIプロバイダ名です。';
