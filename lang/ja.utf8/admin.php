@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-11-14 02:59:43 UTC
+ * @updated    2021-11-14 22:55:29 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -913,6 +913,7 @@ $string['loginasoverridelegalaccept'] = 'あなたは別の人としてログイ
 $string['Add'] = '追加';
 $string['all'] = 'すべて';
 $string['admininstitutions'] = 'インスティテューションを管理する';
+$string['editinstitution'] = 'インスティテューションを編集する';
 $string['adminauthorities'] = '認証局を管理する';
 $string['addinstitution'] = 'インスティテューションを追加する';
 $string['authplugin'] = '認証プラグイン';
