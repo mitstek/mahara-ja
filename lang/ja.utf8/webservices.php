@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-05-30 05:15:50 UTC
+ * @updated    2021-11-19 03:14:25 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -114,7 +114,7 @@ $string['institutioncontextauthuser'] = '認証済みの人のインスティテ
 $string['institutionforctrlgroups'] = 'Maharaインスティテューション - API管理グループに必要です。';
 $string['institutionnameauthuser'] = '認証済みの人のインスティテューションフルネームコンテクスト';
 $string['internal'] = '内部';
-$string['introduction'] = 'アカウントオーナーの自己紹介';
+$string['introduction'] = 'アカウント保持者の自己紹介';
 $string['isacollection'] = 'コレクションであるか否か';
 $string['iscollection'] = 'このMahara IDはコレクションを意味しますか?';
 $string['jabberusername'] = 'Jabber/XMPPユーザ名';
@@ -150,14 +150,14 @@ $string['portfolioownerid'] = 'ポートフォリオオーナーのMahara ID';
 $string['portfolioownerusername'] = 'ポートフォリオオーナーのユーザ名';
 $string['portfolioquery'] = '適用するポートフォリオクエリフィルタ';
 $string['portfolioremoteuser'] = 'ポートフォリオオーナーのリモートユーザ名';
-$string['preferredname'] = 'アカウントオーナーの優先名';
+$string['preferredname'] = 'アカウント保持者の優先名';
 $string['relativeurl'] = '相対URL';
 $string['releaseremail'] = 'この提出をリリースした人のメールアドレスです。';
 $string['releaserid'] = 'この提出をリリースした人のIDです。';
 $string['releaserremoteusername'] = 'この提出をリリースした人のリモートユーザ名です。';
 $string['releaserusername'] = 'この提出をリリースした人のユーザ名です。';
-$string['remoteuser'] = 'リモートアカウントオーナー';
-$string['remoteuserid'] = 'リモートアカウントオーナーID';
+$string['remoteuser'] = 'リモートアカウント保持者';
+$string['remoteuserid'] = 'リモートアカウント保持者ID';
 $string['remoteusername'] = 'リモートユーザ名';
 $string['remoteusersconnected'] = 'リモートに接続する人';
 $string['remoteusersubmitportfolio'] = '評価のためにポートフォリオを送信する人のリモートユーザ名';
@@ -186,10 +186,10 @@ $string['tool_consumer_instance_name'] = 'LTIツールコンシューマイン�
 $string['town'] = '人の市区町村';
 $string['user_id'] = '人のLTI ID';
 $string['useraddress'] = '人の住所';
-$string['userfavs'] = 'アカウントオーナーのお気に入り';
-$string['userid'] = 'アカウントオーナーのID';
+$string['userfavs'] = 'アカウント保持者のお気に入り';
+$string['userid'] = 'アカウント保持者のID';
 $string['useridsort'] = 'IDで並べ替えます: 昇順 [asc] または降順 [desc]';
-$string['username'] = 'アカウントオーナーのユーザ名';
+$string['username'] = 'アカウント保持者のユーザ名';
 $string['usernamesubmitportfolio'] = '評価のためにポートフォリオを送信する人のユーザ名';
 $string['usernamevalid1'] = '半角英数字3～255文字にしてください。半角英数字および標準的な記号を使用できます。';
 $string['userresultslimit'] = '結果の制限';
