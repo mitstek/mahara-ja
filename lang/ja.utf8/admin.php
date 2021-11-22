@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-11-17 05:42:34 UTC
+ * @updated    2021-11-22 04:10:35 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -517,7 +517,7 @@ $string['defaultreviewsselfdeletiondescription'] = 'すべてのインスティ�
 $string['reviewsselfdeletion'] = '自己削除の前にアカウントをレビューする';
 $string['reviewsselfdeletiondescription'] = 'インスティテューション管理者は自分のアカウントを削除したい人のリクエストを承認する必要があります。';
 $string['mathjax'] = 'MathJaxを有効にする';
-$string['mathjaxdescription'] = 'MathJaxは適切にフォーマットした数式および化学式としてLaTeXマークアップをポートフォリオページに表示します。';
+$string['mathjaxdescription'] = 'MathJaxは適切にフォーマットされた数式および化学式としてLaTeXマークアップをポートフォリオページに表示します。';
 $string['mathjaxconfig'] = 'MathJax設定';
 $string['timezone'] = 'タイムゾーン';
 $string['sitetimezonedescription'] = 'サイトのデフォルトタイムゾーンです。何も選択されない場合、選択済みの国をもとにタイムゾーンが選択されます。国に複数のタイムゾーンがある場合、これは正確ではない場合があります。';
@@ -939,7 +939,7 @@ $string['institutionlanguagedescription'] = 'インスティテューション�
 $string['defaultlangforinstitution'] = '%s デフォルト';
 $string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
 $string['registrationallowed'] = '登録を許可する';
-$string['registrationalloweddescription5'] = '人は登録フォームを使用してこのインスティテューションに登録できます。登録が無効にされた場合、非メンバーはインスティテューションのメンバーシップをリクエストできません。また、メンバーはインスティテューションを離れたり自分のアカウントを削除できません。';
+$string['registrationalloweddescription5'] = '人は登録フォームを使用してこのインスティテューションに登録できます。登録が無効にされた場合、非メンバーはインスティテューションのメンバーシップをリクエストできません。また、メンバーは自分でインスティテューションを離れたりアカウントを削除できません。';
 $string['registrationconfirm'] = '登録を承認する';
 $string['registrationconfirmdescription3'] = '登録はインスティテューション管理者によって承認される必要があります。あなたがこのオプションを変更できない場合、サイト管理者がすべてのインスティテューションに対してこのオプションを有効にすることを求めています。';
 $string['defaultmembershipperiod'] = 'デフォルトのメンバーシップ期間';
