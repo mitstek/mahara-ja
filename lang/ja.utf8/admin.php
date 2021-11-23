@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-11-22 04:10:35 UTC
+ * @updated    2021-11-23 23:28:22 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -645,6 +645,7 @@ $string['groupcsvfiledescription'] = '追加するグループを含むファイ
 $string['groupmemberscsvfiledescription'] = '更新するグループメンバーを含むファイルです。';
 $string['csverroremptyfile'] = 'CSVファイルが空です。';
 $string['invalidfilename'] = 'ファイル「 %s 」が存在しません。';
+$string['invalidfilenameformatforcsv'] = 'ファイルフォーマット「 %s 」が有効ではありません。有効なカンマ区切り値 (.csv) のファイルをアップロードしてください。';
 $string['uploadcsverrorinvalidfieldname'] = 'フィールド名「 %s 」が無効、またはヘッダ行より多いフィールドが指定されています。';
 $string['uploadcsverrorrequiredfieldnotspecified'] = '必須フィールド「 %s 」がフォーマット行で指定されていません。';
 $string['uploadcsverrornorecords'] = 'ファイルにレコードが含まれていないようです (ヘッダに問題はありません)。';
