@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-11-19 03:14:25 UTC
+ * @updated    2021-11-24 00:59:04 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -73,6 +73,7 @@ $string['emailvalid'] = '有効およびユニークなメールアドレス';
 $string['ext_lms'] = 'LTI外部学習管理システム';
 $string['ext_user_username'] = 'LTI外部ユーザ名';
 $string['externalfullurl'] = '提出元サイトのフルURLパスです。';
+$string['externalfilesource'] = 'ファイルアップロード元のストリングIDです。';
 $string['favourites'] = 'お気に入り';
 $string['favshortname'] = 'お気に入りの省略名';
 $string['favsownerid'] = 'お気に入りのオーナーID';
@@ -82,7 +83,15 @@ $string['favusername'] = 'お気に入りのユーザ名';
 $string['faxnumber'] = 'FAX番号';
 $string['feedbacknotify'] = '許可されるコメント通知:';
 $string['feedbacknotifyexplicit'] = 'コメント通知';
+$string['filedescription'] = 'ファイルの説明 - 例) 2021年101コース修了証';
+$string['filetags'] = '任意タグの配列 - 例) [2021,101,修了証]';
+$string['filetitle'] = 'ファイルタイトル 例) 修了証101';
+$string['filetoupload'] = 'ファイル名';
+$string['fileuploadfail'] = 'ファイルのアップロードに失敗しました。';
+$string['fileuploadstatus'] = 'ファイルアップロードの成否';
+$string['fileuploadsuccess'] = 'ファイルが正常にアップロードされました。';
 $string['firstname'] = '人の名';
+$string['foldername'] = 'ファイルを保存するフォルダ名です。フォルダが存在しない場合、自動的に作成されます。';
 $string['forcegroupcategory'] = '存在しない場合、グループカテゴリを作成する';
 $string['forcepasswordchange'] = '初回ログイン時、パスワード変更を強制する';
 $string['fullurl'] = 'フルURL';
