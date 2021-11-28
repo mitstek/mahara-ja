@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-11-28 02:47:23 UTC
+ * @updated    2021-11-28 22:37:03 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -593,7 +593,7 @@ $string['enablenetworkingdescription'] = 'あなたのMaharaサーバがMoodle�
 $string['enablenetworking'] = 'ネットワーキングを有効にする';
 $string['networkingenabled'] = 'ネットワーキングが有効にされました。';
 $string['networkingdisabled'] = 'ネットワーキングが無効にされました。';
-$string['networkingpagedescription'] = 'Maharaのネットワーキング機能では同一または別サーバで稼動中のMaharaまたはMoodleと連携できるようにします。ネットワーキングが有効にされた場合、MoodleまたはMaharaにログインする人のシングルサインオンを設定できます。';
+$string['networkingpagedescription'] = 'Maharaのネットワーキング機能では同一または別サーバで稼動中のMaharaまたはMoodleと連携できるようにします。ネットワーキングが有効にされた場合、あなたはMoodleまたはMaharaにログインする人のシングルサインオン設定にネットワーキングを使用できます。';
 $string['networkingunchanged'] = 'ネットワーク設定は変更されませんでした。';
 $string['promiscuousmode'] = 'すべてのホストを自動登録する';
 $string['promiscuousmodedisabled'] = '自動登録が無効にされました。';
