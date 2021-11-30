@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-11-24 00:59:04 UTC
+ * @updated    2021-11-30 00:26:13 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -90,6 +90,8 @@ $string['filetoupload'] = 'ファイル名';
 $string['fileuploadfail'] = 'ファイルのアップロードに失敗しました。';
 $string['fileuploadstatus'] = 'ファイルアップロードの成否';
 $string['fileuploadsuccess'] = 'ファイルが正常にアップロードされました。';
+$string['fileuploadmessagesubject'] = 'あなたの「ファイル」エリアに新しいファイルがアップロードされました。';
+$string['fileuploadmessagebody'] = 'ファイル「 %s 」が %s によって自動的にアップロードされました。ファイルは「 %s 」フォルダ内にあります。';
 $string['firstname'] = '人の名';
 $string['foldername'] = 'ファイルを保存するフォルダ名です。フォルダが存在しない場合、自動的に作成されます。';
 $string['forcegroupcategory'] = '存在しない場合、グループカテゴリを作成する';
