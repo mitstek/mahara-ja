@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-11-28 22:37:03 UTC
+ * @updated    2021-12-01 06:34:15 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -239,6 +239,7 @@ $string['makeadminsintousers'] = '選択した管理者アカウントを一般�
 $string['groupadminsupdated'] = 'グループ管理者が更新されました。';
 $string['groupquotaupdated'] = 'グループクオータが更新されました。';
 $string['addnewgroupcategory'] = '新しいグループカテゴリを入力する';
+$string['submissions'] = '提出';
 $string['archivedsubmissions'] = 'アーカイブ済み提出';
 $string['archivedsubmissionsdesc'] = 'アーカイブ済み提出を管理します。';
 $string['currentsubmissions'] = '現在の提出';
