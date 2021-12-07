@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-11-04 01:43:12 UTC
+ * @updated    2021-12-07 02:19:16 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -66,6 +66,9 @@ $string['groupalreadyexistssuggest'] = 'この名称のグループはすでに�
 $string['groupshortnamealreadyexists'] = 'この省略名のグループはすでに存在します。';
 $string['invalidshortname'] = '無効なグループ省略名です。';
 $string['shortnameformat1'] = 'グループ省略名の長さは半角2-255文字にしてください。グループ省略名には半角英数字小文字、「.」、「-」および「_」を使用できます。';
+$string['groupmaxreached'] = 'インスティテューションで許可されるグループの最大数に達したため、このインスティテューションにグループを追加できません。上限を増やすには<a href="%sinstitution/index.php?institution=%s">インスティテューション管理者</a>にご連絡ください。';
+$string['groupmaxreachednolink'] = 'インスティテューションで許可されるグループの最大数に達したため、このインスティテューションにグループを追加できません。上限を増やすにはインスティテューション管理者にご連絡ください。';
+$string['exceedsgroupmax'] = 'この数のグループを追加した場合、インスティテューションのグループ制限を超えます。あなたはさらに % のグループを制限内で追加できます。グループの追加数を減らすか、サイト管理者にご連絡の上、上限の引き上げをご検討ください。';
 $string['Created'] = '作成';
 $string['editable'] = '編集可能';
 $string['editability'] = '編集可能';
@@ -99,7 +102,7 @@ $string['hasbeeninvitedtojoin'] = 'がこのグループへの参加を招待さ
 $string['groupinvitesfrom'] = '参加の招待:';
 $string['requestedmembershipin'] = 'リクエストされたメンバーシップ:';
 $string['viewnotify'] = '共有ページ通知';
-$string['viewnotifydescription2'] = '新しいページが作成された場合、グループメンバーがグループおよびページを共有した場合、どのグループメンバーに通知するのか選択してください。この通知はページを共有しているグループメンバーには送信されません。大規模なグループの場合、多くの通知が発生するためこれは通常メンバー以外のメンバーに制限した方が良いでしょう。';
+$string['viewnotifydescription3'] = '新しいグループポートフォリオが作成された場合、またはグループメンバーが自分のポートフォリオをグループと共有した場合に通知を受信するグループメンバーを選択してください。ポートフォリオを共有しているグループメンバーはこの通知を受信しません。極めて大規模なグループの場合、大量の通知が発生する可能性があるため、非一般のメンバーへの限定通知をお勧めします。';
 $string['commentnotify'] = 'コメント通知';
 $string['commentnotifydescription1'] = 'グループページおよびアーティファクトにコメントが投稿された場合、どのグループメンバーに通知するのか選択してください。';
 $string['allowsendnow'] = 'フォーラム投稿をすぐに送信する';

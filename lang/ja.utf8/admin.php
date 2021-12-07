@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-12-06 07:20:44 UTC
+ * @updated    2021-12-07 02:19:11 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1052,9 +1052,14 @@ $string['maxuseraccountsdescription'] = 'インスティテューションに関
 $string['institutionmaxusersexceeded'] = 'このインスティテューションはメンバー数が上限に達しました。この人を追加できるようにするにはあなたはこのインスティテューションが許可するメンバー数を増やす必要があります。';
 $string['institutionuserserrortoomanyusers'] = 'これらの人は追加されませんでした。メンバー数はインスティテューションで許可される最大メンバー数を超えることはできません。あなたは少数の人を追加するか、インスティテューションから人を削除するか、サイト管理者に最大メンバー数の増加を依頼できます。';
 $string['institutionuserserrortoomanyinvites'] = 'あなたの招待は送信されませんでした。既存のメンバー + 未処理の招待者数はインスティテューションで許可される最大メンバー数を超えることはできません。あなたは少数の人を招待するか、インスティテューションから人を削除するか、サイト管理者に最大メンバー数の増加を依頼できます。';
+$string['maxnumberofgroups'] = '許可される最大グループ数';
+$string['maxgroupsdescription'] = 'インスティテューションと関連付けられる最大グループ数です。制限がない場合、このフィールドは空白にしてください。';
+$string['institutionmaxgroupsexceeded'] = 'このインスティテューションにはすでに %s のグループが登録されています。いくつかのグループを削除するか、グループ上限を増やしてください。';
+$string['maxmembersexceeded'] = 'このインスティテューションにはすでに %s のメンバーが登録されています。いくつかのメンバーを削除するか、アカウント上限を増やしてください。';
 $string['Shortname'] = '省略名';
 $string['Members'] = 'メンバー';
-$string['Maximum'] = '最大';
+$string['Maximummembers'] = '最大メンバー数';
+$string['Maximumgroups'] = '最大グループ数';
 $string['Staff'] = 'スタッフ';
 $string['Admins'] = '管理者';
 $string['noinstitutions'] = 'インスティテューションはありません。';
