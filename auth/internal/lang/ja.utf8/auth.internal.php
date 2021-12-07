@@ -98,7 +98,7 @@ $string['registrationdeniedmessage'] = '%s さん、こんにちは。
 
 私たちは %s におけるインスティテューションへのあなたの登録申請を受領しましたが、あなたにアクセス権を授与しないことに決定しました。
 
-あなたがこの決定を不適切だと考える場合、Eメールでご連絡ください。
+あなたがこの決定を不適切だと考える場合、メールでご連絡ください。
 
 %s';
 $string['registrationdeniedmessagereason'] = '%s さん、こんにちは。
@@ -107,10 +107,10 @@ $string['registrationdeniedmessagereason'] = '%s さん、こんにちは。
 
 %s
 
-あなたがこの決定を不適切だと考える場合、Eメールでご連絡ください。
+あなたがこの決定を不適切だと考える場合、メールでご連絡ください。
 
 %s';
-$string['registeredokawaitingemail'] = 'あなたの登録申請が正常に送信されました。あなたのメールアドレスを確認して処理を進めるためあなた宛にEメールが送信されます。';
+$string['registeredokawaitingemail'] = 'あなたの登録申請が正常に送信されました。あなたのメールアドレスを確認して処理を進めるためあなた宛にメールが送信されます。';
 $string['registrationreason'] = '登録理由';
 $string['registrationreasondesc'] = 'あなたが選択したインスティテューションへの登録申請理由および管理者があなたの申請を処理することに関して有益であると思われる詳細を記述してください。この情報なしでは登録を完了できません。';
 $string['pendingregistrationadminemailsubject'] = 'インスティテューション「 %s 」( %s )への新しいユーザ登録';
