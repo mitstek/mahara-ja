@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-12-07 02:19:11 UTC
+ * @updated    2021-12-12 06:00:28 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -663,7 +663,7 @@ $string['uploadcsverrorduplicateremoteuser'] = 'このファイルの %s 行目�
 $string['uploadcsverrorremoteusertaken'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでに「 %s 」に取得されています。';
 $string['uploadcsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーがあります: 「 %s 」はインスティテューション「 %s 」のメンバーではありません。';
 $string['uploadcsverroruserinaninstitution'] = 'あなたのファイルの %s 行目にエラーがあります: 「 %s 」は次のインスティテューションのメンバーです: %s あなたはこの人の認証方法を「No Institution」に変更できません。';
-$string['uploadcsverrorinvalidexpirydate'] = 'あなたのファイルの %s 行目にエラーがあります: 有効期限「 %s 」が無効です。有効な日付フォーマットを使用してください。';
+$string['uploadcsverrorinvalidexpirydate'] = 'あなたのファイルの %s 行目にエラーがあります: 有効期限「 %s 」が有効ではありません。有効な日付フォーマットを使用してください。';
 $string['uploadcsverroruserrolemissing'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザロール「 %s 」のクラスがありません。「UserRole%s」クラスが存在してアクセス可能であることを確認してください。';
 $string['uploadcsverrorexpirydateinpast'] = 'あなたのファイルの %s 行目にエラーがあります: 有効期限「 %s 」を過去にはできません。';
 $string['uploadcsvpagedescription7'] = '<p>ここであなたは<acronym title="Comma Separated Values">CSV</acronym>ファイルをアップロードして新しいアカウントを作成できます。</p>
@@ -929,7 +929,7 @@ $string['institutiondeletedsuccessfully'] = 'インスティテューション�
 $string['noauthpluginforinstitution'] = 'あなたのサイト管理者はこのインスティテューションの認証プラグインを設定していません。';
 $string['adminnoauthpluginforinstitution'] = 'このインスティテューションの認証プラグインを設定してください。';
 $string['institutionname'] = 'インスティテューション名';
-$string['institutionnameinvalid'] = 'インスティテューション名が無効です。';
+$string['institutionnameinvalid'] = 'インスティテューション名が有効ではありません。';
 $string['institutionshortname'] = 'インスティテューション省略名';
 $string['institutionnamealreadytaken'] = 'このインスティテューション名はすでに取得されています。';
 $string['institutiondisplayname'] = 'インスティテューション表示名';
