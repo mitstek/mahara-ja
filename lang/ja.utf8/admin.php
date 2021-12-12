@@ -228,7 +228,7 @@ $string['forceuserstochangepassworddescription'] = '初回ログイン時、ユ�
 $string['uploadcsvinstitution'] = '新しいユーザのインスティテューションおよび認証方法';
 $string['configureauthplugin'] = 'あなたがユーザを追加するには最初に認証プラグインを設定する必要があります。';
 $string['csvfiledescription'] = '追加するユーザを含むファイル';
-$string['uploadcsverrorinvalidfieldname'] = 'フィールド名「 %s 」が無効です。';
+$string['uploadcsverrorinvalidfieldname'] = 'フィールド名「 %s 」が有効ではありません。';
 $string['uploadcsverrorrequiredfieldnotspecified'] = '必須フィールド「 %s 」がフォーマット行で指定されていません。';
 $string['uploadcsverrornorecords'] = 'ファイルにレコードが含まれていないようです (ヘッダに問題はありません)。';
 $string['uploadcsverrorunspecifiedproblem'] = '何らかの理由によりあなたのCSVファイルのレコードを追加できませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href="https://eduforge.org/tracker/?func=add&group_id=176&atid=739">バクレポートを作成してください</a> (忘れずにパスワードを空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
