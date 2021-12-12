@@ -618,7 +618,7 @@ $string['uploadcsverrorduplicateremoteuser'] = 'このファイルの %s 行目�
 $string['uploadcsverrorremoteusertaken'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでにユーザ「 %s 」に取得されています。';
 $string['uploadcsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ「 %s 」はインスティテューション「 %s 」のメンバーではありません。';
 $string['uploadcsverroruserinaninstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ「 %s 」は次のインスティテューションのメンバーです: %s あなたはこのユーザの認証方法を「No Institution」に変更できません。';
-$string['uploadcsverrorinvalidexpirydate'] = 'あなたのファイルの %s 行目にエラーがあります: 有効期限「 %s 」が無効です。有効な日付フォーマットを使用してください。';
+$string['uploadcsverrorinvalidexpirydate'] = 'あなたのファイルの %s 行目にエラーがあります: 有効期限「 %s 」が有効ではありません。有効な日付フォーマットを使用してください。';
 $string['uploadcsverrorexpirydateinpast'] = 'あなたのファイルの %s 行目にエラーがあります: 有効期限「 %s 」を過去にはできません。';
 $string['uploadcsvpagedescription6'] = '<p>ここであなたは<acronym title="Comma Separated Values">CSV</acronym>ファイルをアップロードして新しいアカウントを作成できます。</p>
 
