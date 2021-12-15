@@ -646,7 +646,7 @@ $string['uploadgroupmemberscsverrornoadminlisted'] = 'あなたのファイル�
 $string['uploadgroupmemberscsverrornosuchshortname'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname) 「 %s 」が存在しないかインスティテューション「 %s 」に属していません。';
 $string['uploadgroupmemberscsverrornosuchusername'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ名 (username) 「 %s 」は存在しません。';
 $string['uploadgroupmemberscsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ名 (username) 「 %s 」はインスティテューション「 %s 」に属していません。';
-$string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用してこのインスティテューションで管理されるグループ内のグループメンバーを更新できます。</p>
+$string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能を使用してこのインスティテューションで管理されるグループ内のグループメンバーを更新できます。あなたは<acronym title="Comma Separated Values">CSV</acronym>ファイルで新しいメンバーをアップロードできます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば以下のようになります:</p>
 
