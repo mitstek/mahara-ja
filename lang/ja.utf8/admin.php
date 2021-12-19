@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-12-15 00:04:26 UTC
+ * @updated    2021-12-19 21:46:52 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -817,7 +817,7 @@ $string['expiredusers'] = '有効期限切れアカウント';
 $string['expired'] = '有効期限切れ';
 $string['expires'] = '有効期限切れ';
 $string['unexpireusers'] = '有効期限切れアカウントを再有効化する';
-$string['usersreactivated'] = 'アカウントを再有効化しました。';
+$string['usersreactivated'] = 'アカウントが再有効化されました。';
 $string['accountsettings'] = 'アカウント設定';
 $string['siteaccountsettings'] = 'サイトアカウント設定';
 $string['changeusername'] = 'ユーザ名を変更する';
