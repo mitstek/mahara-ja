@@ -1119,7 +1119,7 @@ $string['country.ye'] = 'イエメン共和国';
 $string['country.zm'] = 'ザンビア共和国';
 $string['country.zw'] = 'ジンバブエ共和国';
 $string['nocountryselected'] = '国が選択されていません。';
-$string['countryisodisclaimer'] = '国名は国際標準化機構 (ISO International Organization for Standardization)により公開されたISO 3166での定義に基づき表示されます。';
+$string['countryisodisclaimer'] = '国名は国際標準化機構 (ISO International Organization for Standardization) により公開されたISO 3166での定義に基づき表示されます。';
 $string['countryisocustomise'] = 'あなたのサイトの国名を調整するにはそれぞれの翻訳の「mahara.php」言語ファイルを編集するか、<a href="https://wiki.mahara.org/wiki/Developer_Area/Language_strings#Custom_lang_strings_in_.2Flocal">localディレクトリにストリングを作成してください</a>。';
 $string['system'] = 'システム';
 $string['done'] = '完了';
