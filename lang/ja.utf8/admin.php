@@ -5,8 +5,8 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-07-22 10:21:53 UTC
- * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
+ * @updated    2021-12-26 09:26:46 UTC
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
@@ -815,7 +815,7 @@ $string['registrationconfirmdescription2'] = 'この設定を有効にした場�
 $string['defaultmembershipperiod'] = 'デフォルトのメンバーシップ期間';
 $string['defaultmembershipperioddescription'] = '新しいメンバーはどのくらいの期間インスティテューションとの関係を維持できますか。';
 $string['showonlineusers'] = 'オンラインユーザを表示する';
-$string['showonlineusersdescription'] = 'このインスティテューションのメンバーに表示されるオンラインユーザです。ユーザに複数インスティテューションが許可されている場合、そしてインスティテューションの設定が異なる場合、最も制約の少ないインスティテューションの設定が使用されます。';
+$string['showonlineusersdescription'] = 'このインスティテューションのメンバーに表示されるオンラインユーザです。ユーザに複数インスティテューションが許可されている場合、そしてインスティテューションの設定が異なる場合、最も制約の少ないインスティテューション設定が使用されます。';
 $string['licensemandatory'] = 'ライセンス情報を要求する';
 $string['licensemandatorydescription'] = 'この設定を有効にした場合、ユーザはアーティファクト作成時にライセンスを選択する必要があります。そうでない場合、ライセンスフィールドを空白のままにできます。';
 $string['licensedefault'] = 'デフォルトライセンス';
@@ -895,7 +895,7 @@ $string['nousersupdated'] = '更新されたユーザはありません。';
 $string['errorupdatinginstitutionusers'] = 'インスティテューションユーザ更新中にエラーが発生しました。';
 $string['revokeinvitations'] = '招待を取り消す';
 $string['invitedusers'] = '招待されたユーザ';
-$string['userstobeuninvited'] = '招待されるユーザ';
+$string['userstobeuninvited'] = '招待を取り消されるユーザ';
 $string['institutionusersupdated_addUserAsMember'] = 'ユーザが追加されました。';
 $string['institutionusersupdated_declineRequestFromUser'] = 'リクエストが拒否されました。';
 $string['institutionusersupdated_removeMembers'] = 'ユーザが削除されました。';
@@ -975,7 +975,7 @@ $string['getreports'] = 'レポートを取得する';
 $string['selectuser'] = 'ユーザ「 %s 」を選択する';
 $string['bulkactions'] = 'バルク処理';
 $string['editselectedusersdescription1'] = 'あなたがユーザ検索ページで選択したユーザの利用停止、削除または認証方法を変更します。';
-$string['uneditableusers'] = 'あなたは編集することのできない %s ユーザを選択しました。選択されたユーザはリストから取り除かれました。';
+$string['uneditableusers'] = 'あなたが編集できない %s ユーザを選択しました。選択されたユーザはリストから取り除かれました。';
 $string['exportusersascsv'] = 'ユーザをCSVフォーマットでエクスポートする';
 $string['downloadusersascsv'] = 'CSVフォーマットのユーザ';
 $string['downloaddataascsv'] = 'CSVフォーマットの %s 統計';
@@ -984,7 +984,7 @@ $string['suspendusers'] = 'ユーザを利用停止する';
 $string['Suspend'] = '利用停止';
 $string['bulksuspenduserssuccess'] = '%d 名のユーザを利用停止しました。';
 $string['changeauthmethod'] = '認証方法を変更する';
-$string['someusersnotinauthinstanceinstitution'] = 'あなたが選択した何名かのユーザはこの認証方法を使用するインスティテューションに属していません。';
+$string['someusersnotinauthinstanceinstitution'] = 'あなたが選択した何名かのユーザはこの認証方法に関連付けられたインスティテューションに属していません。';
 $string['bulkchangeauthmethodsuccess'] = '%d 名のユーザの認証方法をリセットしました。';
 $string['bulkchangeauthmethodresetpassword'] = 'あなたはパスワードを必要とする認証方法を選択しました。%d 名のユーザにはパスワードが割り当てられていないためパスワードがリセットされるまでログインできません。';
 $string['bulkdeleteuserssuccess'] = '%d 名のユーザを削除しました。';
@@ -1066,11 +1066,11 @@ $string['committingchanges'] = '変更の保存中 ...';
 $string['cli_pwreset_authupdated'] = '認証方法が「内部」に更新されました。';
 $string['cli_pwreset_failure'] = 'エラー: ユーザ「 %s 」のパスワードを正常にリセットできませんでした。';
 $string['cli_pwreset_forcepasswordchange'] = '次回ログイン時、パスワードの変更を強制します (あなたが「--password」オプションを使用する場合、デフォルトは「true」です。そうでない場合、「false」を使用してください)。';
-$string['cli_pwreset_info'] = 'コマンドラインPHPスクリプトによりあなたはユーザのパスワードをリセットできます。これはパスワードのリセットが許可されている認証方法のみ動作します (例:「内部」)。';
+$string['cli_pwreset_info'] = 'コマンドラインPHPスクリプトによりあなたはユーザのパスワードをリセットできます。これはパスワードのリセットが許可されている認証方法の人にのみ動作します (例:「内部」)。';
 $string['cli_pwreset_makeinternal'] = 'ユーザ認証方法を「内部」に変更します (デフォルトは「false」です)。';
 $string['cli_pwreset_nointernalauth'] = 'エラー: デフォルト「内部」認証方法が見つかりませんでした。';
 $string['cli_pwreset_nosuchuser'] = 'エラー: ユーザ名「 %s 」のユーザはデータベース内に存在しません。';
-$string['cli_pwreset_notsupported'] = 'エラー: ユーザ「 %s 」はパスワードリセットをサポートしない認証方法を使用しています。あなたが「内部」認証に変更したい場合、「-i=true」オプションを使用してください。';
+$string['cli_pwreset_notsupported'] = 'エラー: ユーザ「 %s 」はパスワードリセットをサポートしない認証方法を使用しています。あなたが認証方法を「内部」認証に変更したい場合、「-i=true」オプションを使用してください。';
 $string['cli_pwreset_password'] = '新しいパスワードです。このパラメータが提供されていない場合、スクリプトはあなたにパスワードの入力を促します。';
 $string['cli_pwreset_prompt1'] = '新しいパスワードを入力してください。';
 $string['cli_pwreset_prompt2'] = '新しいパスワードを再度入力してください。';
