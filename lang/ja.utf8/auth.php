@@ -57,7 +57,7 @@ $string['authloginmsg'] = 'ユーザがMaharaログインフォーム経由で�
 $string['application'] = 'アプリケーション';
 $string['cantretrievekey'] = 'リモートサーバの公開鍵検索中にエラーが発生しました。<br />アプリケーションおよびWWWルートフィールドが正しいことを確認してください。また、リモートホストのネットワーキングが有効にされていることを確認してください。';
 $string['ssodirection'] = 'SSOの方向';
-$string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s に対する使用を試みています。';
+$string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s への使用を試みています。';
 $string['errorcouldnotgeneratenewsslkey'] = '新しいSSLキーを生成できませんでした。本当にこのマシンに OpenSSLおよびOpenSSL用PHPモジュールがインストールされていますか?';
 $string['errnoauthinstances'] = '私たちには %s のホストに関して認証プラグインインスタンスが設定されていないようです。';
 $string['errornotvalidsslcertificate'] = '有効なSSLサーバ証明書ではありません。';
@@ -66,7 +66,7 @@ $string['errnoxmlrpcwwwroot'] = '私たちには %s のホストに関してレ�
 $string['errnoxmlrpcuser'] = '現時点ではあなたを認証できませんでした。可能性のある理由として以下が考えられます:
 
 *あなたのSSOセッションが失効しました。他のアプリケーションに戻って、Maharaにログインするためのリンクを再度クリックしてください。
-*あなたのMaharaに対するSSOが許可されていません。あなたがSSOできるかどうか管理者に確認してください。';
+*あなたのMaharaへのSSOが許可されていません。あなたがSSOできるかどうか管理者に確認してください。';
 $string['unabletosigninviasso'] = 'SSO経由でサインインできません。';
 $string['xmlrpccouldnotlogyouin'] = '申し訳ございません、あなたをログインさせることができませんでした :(';
 $string['xmlrpccouldnotlogyouindetail'] = '申し訳ございません、今回はあなたをMaharaにログインさせることができませんでした。ログインを再度お試しください。問題が続く場合、あなたの管理者にご連絡ください。';
