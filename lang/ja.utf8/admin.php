@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-10-18 01:54:14 UTC
+ * @updated    2021-12-26 09:15:15 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1018,7 +1018,7 @@ $string['nousersupdated'] = '更新されたアカウントはありません。
 $string['errorupdatinginstitutionusers'] = 'インスティテューションメンバー更新中にエラーが発生しました。';
 $string['revokeinvitation'] = '招待を取り消す';
 $string['invitedusers'] = '招待された人';
-$string['userstobeuninvited'] = '招待される人';
+$string['userstobeuninvited'] = '招待を取り消される人';
 $string['moveuserstoadd'] = '選択したメンバーリクエストをメンバーに変更する';
 $string['moveusersfromadd'] = '選択したメンバーをメンバーリクエストに変更する';
 $string['moveuserstoinvite'] = '選択した非メンバーを招待済みに変更する';

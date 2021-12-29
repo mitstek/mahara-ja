@@ -44,7 +44,7 @@ $string['application'] = 'アプリケーション';
 $string['cantretrievekey'] = 'リモートサーバの公開鍵検索中にエラーが発生しました。<br />アプリケーションおよびWWWルートフィールドが正しいことを確認してください。また、リモートホストのネットワーキングが有効にされていることを確認してください。';
 $string['ssodirection'] = 'SSOの方向';
 $string['active'] = 'アクティブ';
-$string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s に対する使用を試みています。';
+$string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s への使用を試みています。';
 $string['errorcouldnotgeneratenewsslkey'] = '新しいSSLキーを生成できませんでした。本当にこのマシンに OpenSSLおよびOpenSSL用PHPモジュールがインストールされていますか?';
 $string['errnoauthinstances'] = '私たちには %s のホストに関して認証プラグインインスタンスが設定されていないようです。';
 $string['errornotvalidsslcertificate'] = '有効なSSLサーバ証明書ではありません。';
@@ -53,7 +53,7 @@ $string['errnoxmlrpcwwwroot'] = '私たちには %s のホストに関してレ�
 $string['errnoxmlrpcuser1'] = '現時点ではあなたを認証できませんでした。可能性のある理由として以下が考えられます:
 
 *あなたのSSOセッションが失効しました。他のアプリケーションに戻って %s にログインするためのリンクを再度クリックしてください。
-*あなたの %s に対するSSOが許可されていません。あなたがSSOできるかどうか管理者に確認してください。';
+*あなたの %s へのSSOが許可されていません。あなたがSSOできるかどうか管理者に確認してください。';
 $string['toomanytries'] = 'あなたは最大ログイン試行回数を超過しました。このアカウントは5分間ロックされます。';
 $string['unabletosigninviasso'] = '外部認証 (SSO) 経由でサインインできません。';
 $string['xmlrpccouldnotlogyouin'] = '申し訳ございません、あなたをログインさせることができませんでした。';
