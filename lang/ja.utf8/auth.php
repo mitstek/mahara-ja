@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-09-30 23:03:07 UTC
+ * @updated    2021-12-29 06:53:40 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -45,7 +45,7 @@ $string['cantretrievekey'] = 'リモートサーバの公開鍵検索中にエ�
 $string['ssodirection'] = 'SSOの方向';
 $string['active'] = 'アクティブ';
 $string['errorunabletologin'] = 'あなたはログインできません。';
-$string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s に対する使用を試みています。';
+$string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s への使用を試みています。';
 $string['errorcouldnotgeneratenewsslkey'] = '新しいSSLキーを生成できませんでした。本当にこのマシンに OpenSSLおよびOpenSSL用PHPモジュールがインストールされていますか?';
 $string['errnoauthinstances'] = '私たちには %s のホストに関して認証プラグインインスタンスが設定されていないようです。';
 $string['errornotvalidsslcertificate'] = '有効なSSLサーバ証明書ではありません。';
@@ -54,7 +54,7 @@ $string['errnoxmlrpcwwwroot'] = '私たちには %s のホストに関してレ�
 $string['errnoxmlrpcuser1'] = '現時点ではあなたを認証できませんでした。可能性のある理由として以下が考えられます:
 
 *あなたのSSOセッションが失効しました。他のアプリケーションに戻って %s にログインするためのリンクを再度クリックしてください。
-*あなたの %s に対するSSOが許可されていません。あなたがSSOできるかどうか管理者に確認してください。';
+*あなたの %s へのSSOが許可されていません。あなたがSSOできるかどうか管理者に確認してください。';
 $string['toomanytries'] = 'あなたは最大ログイン試行回数を超過しました。このアカウントは5分間ロックされます。';
 $string['unabletosigninviasso'] = '外部認証 (SSO) 経由でサインインできません。';
 $string['xmlrpccouldnotlogyouin'] = '申し訳ございません、あなたをログインさせることができませんでした。';
