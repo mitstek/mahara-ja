@@ -19,7 +19,7 @@ $string['protocol'] = 'プロトコル';
 $string['port'] = 'ポート';
 $string['changepasswordurl'] = 'パスワード変更URL';
 $string['cannotremove'] = '私たちはこの認証プラグインを削除できません。これはこのインスティテューションに存在する唯一のプラグインです。';
-$string['cannotremoveinuse'] = '私たちはこの認証プラグインを削除できません。これは誰か他の人に使用されています。あなたがこのプラグインを削除できるようにするにはレコードを更新する必要があります。';
+$string['cannotremoveinuse'] = '私たちはこの認証プラグインを削除できません。これは誰か他の人に使用されています。あなたはこのプラグインを削除できるようにする前にレコードを更新する必要があります。';
 $string['saveinstitutiondetailsfirst'] = '認証プラグインを設定する前にインスティテューション詳細を保存してください。';
 $string['editauthority'] = '認証局を編集する';
 $string['addauthority'] = '認証局を追加する';
@@ -47,10 +47,10 @@ $string['active'] = 'アクティブ';
 $string['errorunabletologin'] = 'あなたはログインできません。';
 $string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s への使用を試みています。';
 $string['errorcouldnotgeneratenewsslkey'] = '新しいSSLキーを生成できませんでした。本当にこのマシンに OpenSSLおよびOpenSSL用PHPモジュールがインストールされていますか?';
-$string['errnoauthinstances'] = '私たちには %s のホストに関して認証プラグインインスタンスが設定されていないようです。';
+$string['errnoauthinstances'] = '私たちには %s のホストに認証プラグインインスタンスが設定されていないようです。';
 $string['errornotvalidsslcertificate'] = '有効なSSLサーバ証明書ではありません。';
-$string['errnoxmlrpcinstances'] = '私たちには %s のホストに関してXMLRPCプラグインインスタンスが設定されていないようです。';
-$string['errnoxmlrpcwwwroot'] = '私たちには %s のホストに関してレコードがありません。';
+$string['errnoxmlrpcinstances'] = '私たちには %s のホストにXMLRPCプラグインインスタンスが設定されていないようです。';
+$string['errnoxmlrpcwwwroot'] = '私たちには %s のホストにレコードがありません。';
 $string['errnoxmlrpcuser1'] = '現時点ではあなたを認証できませんでした。可能性のある理由として以下が考えられます:
 
 *あなたのSSOセッションが失効しました。他のアプリケーションに戻って %s にログインするためのリンクを再度クリックしてください。
