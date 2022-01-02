@@ -55,10 +55,10 @@ $string['authloginmsg'] = 'ユーザがMaharaログインフォーム経由で�
 $string['application'] = 'アプリケーション';
 $string['cantretrievekey'] = 'リモートサーバの公開鍵検索中にエラーが発生しました。<br />アプリケーションおよびWWWルートフィールドが正しいことを確認してください。また、リモートホストのネットワーキングが有効にされていることを確認してください。';
 $string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s への使用を試みています。';
-$string['errnoauthinstances'] = '私たちには %s のホストに関して認証プラグインインスタンスが設定されていないようです。';
+$string['errnoauthinstances'] = '私たちには %s のホストに認証プラグインインスタンスが設定されていないようです。';
 $string['errornotvalidsslcertificate'] = '有効なSSLサーバ証明書ではありません。';
-$string['errnoxmlrpcinstances'] = '私たちには%s のホストに関してXMLRPCプラグインインスタンスが設定されていないようです。';
-$string['errnoxmlrpcwwwroot'] = '私たちには %s のホストに関してレコードがありません。';
+$string['errnoxmlrpcinstances'] = '私たちには%s のホストにXMLRPCプラグインインスタンスが設定されていないようです。';
+$string['errnoxmlrpcwwwroot'] = '私たちには %s のホストにレコードがありません。';
 $string['errnoxmlrpcuser'] = '現時点ではあなたを認証できませんでした。可能性のある理由として以下が考えられます:
 
 *あなたのSSOセッションが失効しました。他のアプリケーションに戻って、Maharaにログインするためのリンクを再度クリックしてください。
