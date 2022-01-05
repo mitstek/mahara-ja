@@ -66,7 +66,7 @@ $string['errnoxmlrpcuser'] = '現時点ではあなたを認証できません�
 *あなたのMaharaへのSSOが許可されていません。あなたがSSOできるかどうか管理者に確認してください。';
 $string['unabletosigninviasso'] = 'SSO経由でサインインできません。';
 $string['xmlrpccouldnotlogyouin'] = '申し訳ございません、あなたをログインさせることができませんでした :(';
-$string['xmlrpccouldnotlogyouindetail'] = '申し訳ございません、今回はあなたをMaharaにログインさせることができませんでした。ログインを再度お試しください。問題が続く場合、あなたの管理者にご連絡ください。';
+$string['xmlrpccouldnotlogyouindetail'] = '申し訳ございません、今回はあなたをMaharaにログインさせることができませんでした。しばらくして再度ログインをお試しください。問題が続く場合、あなたの管理者にご連絡ください。';
 $string['requiredfields'] = '必須プロファイルフィールド';
 $string['requiredfieldsset'] = '必須プロファイルフィールドセット';
 $string['noauthpluginconfigoptions'] = 'このプラグインに関する設定オプションはありません。';
