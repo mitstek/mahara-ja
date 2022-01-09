@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['pluginname'] = 'コレクション';
 $string['about'] = 'About';
 $string['access'] = 'アクセス';
-$string['accesscantbeused'] = 'アクセスオーバーライドは保存されませんでした。選択されたページアクセス (シークレットURL) は複数のページで使用できません。';
+$string['accesscantbeused'] = 'アクセスオーバーライドは保存されませんでした。選択されたページアクセス (シークレットURL) は複数ページには使用できません。';
 $string['accessoverride'] = 'アクセスオーバーライド';
 $string['accesssaved'] = 'コレクションアクセスが正常に保存されました。';
 $string['accessignored'] = 'いくつかのシークレットURLアクセスタイプは無視されました。';
