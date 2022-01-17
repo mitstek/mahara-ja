@@ -32,7 +32,7 @@ $string['canteditgroupcollections'] = 'あなたはグループコレクショ�
 $string['canteditinstitutioncollections'] = 'あなたはインスティテューションコレクションの編集を許可されていません。';
 $string['canteditcollection'] = 'あなたはこのコレクションの編集を許可されていません。';
 $string['cantcreatecollection'] = 'あなたはこのコレクションの作成を許可されていません。';
-$string['cantdeletecollection'] = 'あなたはこのコレクションの削除を許可されていません。';
+$string['cantdeletecollection'] = 'あなたはこのコレクションを削除できません。';
 $string['canteditdontown'] = 'あなたの所有ではないためこのコレクションを編集できません。';
 $string['canteditsubmitted'] = '評価のため「 %s 」に送信されたためあなたはこのコレクションを編集できません。あなたはリリースされるまで待つ必要があります。';
 $string['collection'] = 'コレクション';
@@ -45,7 +45,7 @@ $string['sitecollections'] = 'サイトコレクション';
 $string['collectionaccess'] = 'コレクションアクセス';
 $string['collectionaccessrules'] = 'コレクションアクセスルール';
 $string['collectionaccesseditedsuccessfully'] = 'コレクションアクセスが正常に保存されました。';
-$string['collectioneditaccess'] = 'あなたにはこのコレクション内の %d ページのアクセス権を編集しています。';
+$string['collectioneditaccess'] = 'あなたはこのコレクション内の %d ページのアクセスを編集しています。';
 $string['collectionconfirmdelete1'] = '<p>本当にこのコレクションを削除してもよろしいですか? このコレクション内のすべてのページも削除されます。あなたが個別のページのみ削除したい場合、この操作を中止して該当するページを削除してください。</p>
 <p>すべてを削除する前に<a href="%sexport/index.php?collection=%s">エクスポート</a>によるあなたのポートフォリオのバックアップ作成をご検討ください。</p>
 <p><strong>注意:</strong> あなたがこのコレクションの削除を決定した場合、あなたがページでリンクしたファイルおよび日誌エントリすべてはまだ利用できます。しかし、ページに置かれたすべてのテキストブロックおよびコメントはページとともに削除されます。</p>';
