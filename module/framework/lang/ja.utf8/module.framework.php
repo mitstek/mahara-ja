@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-09-01 05:34:03 UTC
+ * @updated    2022-01-18 22:26:32 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -66,6 +66,8 @@ $string['assessmenttypecount'] = '標準エレメントを含むページ数';
 $string['tabledesc'] = '以下、コレクションのスマートエビデンスマトリクスの構造です。';
 $string['standardbegin'] = '標準セクションの先頭';
 $string['uncollapsesection'] = '標準「 %s 」のテーブルセクションを表示するにはクリックしてください。';
+$string['collapsespecific'] = '%s を折りたたむ';
+$string['collapseframework'] = 'スマートエビデンスフレームワークを折りたたむ';
 $string['collapsesection'] = '標準「 %s 」のテーブルセクションを隠すにはクリックしてください。';
 $string['collapsedsection'] = 'この標準のテーブルセクションは非表示にされています。';
 $string['gonextpages'] = 'スマートエビデンスマトリクスのコレクションのページをさらに表示するには「次へ」ボタンをクリックしてください。';
@@ -115,10 +117,21 @@ $string['elementid'] = 'エレメントID';
 $string['elementiddesc'] = 'これはこの標準エレメントのIDです。階層を表示するため連続する数字が使用されます。';
 $string['invalidjsonineditor'] = '現在のフォームには無効なJSONを含みます。ページをスクロールダウンしてエラー詳細を確認してください。';
 $string['validjson'] = '現在のフォームコンテンツは有効であり送信できます。';
+$string['collapseform'] = '%s フォームを折りたたむ';
+$string['collapse'] = '折りたたむ';
+$string['expand'] = '広げる';
+$string['expandform'] = '%s フォームを広げる';
 $string['moveright'] = '右に移動する';
+$string['moverightspecific'] = '%s を右に移動する';
 $string['moveleft'] = '左に移動する';
+$string['moveleftspecific'] = '%s を左に移動する';
+$string['addstandard'] = '標準を追加する';
+$string['addstandardelement'] = '標準エレメントを追加';
+$string['addspecific'] = '%s を追加する';
 $string['deletelast'] = '最後を削除する';
 $string['deleteall'] = 'すべてを削除する';
+$string['deleteallspecific'] = 'すべての %s を削除する';
+$string['deleteallstandardelements'] = 'すべての標準エレメントを削除する';
 $string['selfassesseddescription'] = 'スタッフメンバーが評価を実施できるようにするか (デフォルト)、ポートフォリオ作成者が自己評価の目的で標準を使用して評価ステータスを自分で選択できるようにするか選択してください。';
 $string['standardsdescription'] = 'あなたのフレームワークを分けるためのカテゴリを作成します。あなたは後で個別の標準エレメントおよびサブエレメントを標準カテゴリに割り当てることができます。あなたは少なくとも1つのカテゴリを持つ必要があります。';
 $string['standardelementsdescription'] = '個別の標準エレメントを作成します。例) コンテンツを割り当てることのできる記述子。必要であれば「親ID」オプションを使用して標準エレメントを階層順にできます。';
