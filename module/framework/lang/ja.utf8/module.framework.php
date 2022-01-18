@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-01-18 22:26:32 UTC
+ * @updated    2022-01-18 22:28:41 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -126,7 +126,7 @@ $string['moverightspecific'] = '%s を右に移動する';
 $string['moveleft'] = '左に移動する';
 $string['moveleftspecific'] = '%s を左に移動する';
 $string['addstandard'] = '標準を追加する';
-$string['addstandardelement'] = '標準エレメントを追加';
+$string['addstandardelement'] = '標準エレメントを追加する';
 $string['addspecific'] = '%s を追加する';
 $string['deletelast'] = '最後を削除する';
 $string['deleteall'] = 'すべてを削除する';
