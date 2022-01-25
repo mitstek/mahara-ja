@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-01-25 03:03:23 UTC
+ * @updated    2022-01-25 06:57:59 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -81,7 +81,7 @@ $string['managegroups'] = 'グループ管理';
 $string['Extensions'] = '拡張機能';
 $string['configextensions'] = '拡張機能管理';
 $string['manageinstitutions'] = 'インスティテューション管理';
-$string['embeddedurls'] = '埋め込みURLを更新する';
+$string['embeddedurls'] = '埋め込みURL';
 $string['siteoptions'] = 'サイトオプション';
 $string['siteoptionsdesc'] = '名称、言語およびテーマ等の基本的なサイトオプションを設定します。';
 $string['staticpages'] = '固定ページ';
