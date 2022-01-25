@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-01-13 06:23:34 UTC
+ * @updated    2022-01-25 00:54:06 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -74,7 +74,7 @@ $string['completedstatechangedpagereload'] = '完了状態が変更されまし�
 $string['noselectiontask'] = 'これは課題タスクではありません。';
 $string['ownerfieldsnotset'] = 'オーナーフィールドが設定されていません。';
 $string['unsupportedportfoliotype'] = 'これはサポートされないポートフォリオタイプです。';
-$string['viewandoutputcontainsameelement'] = 'タスクおよび課題ポートフォリオは同じページまたはコレクションに登録済みのページを含めません。';
+$string['viewandoutputcontainsameelement'] = 'タスクおよび課題ポートフォリオは同じページまたはコレクション内のページを含めません。';
 $string['grouptaskselected'] = 'プランおよび選択済みタスクはあなたのパーソナルポートフォリオエリアに移動されました。適切な場合、課題ポートフォリオも同様にコピーされています。';
 $string['grouptaskunselected'] = 'プランおよび選択済みタスクはあなたのパーソナルポートフォリオエリアから削除されました。適切な場合、未編集の課題ポートフォリオも同様に削除されています。';
 $string['unselecttaskconfirm'] = '本当にあなたのプランからこのタスクを削除してもよろしいですか?';
