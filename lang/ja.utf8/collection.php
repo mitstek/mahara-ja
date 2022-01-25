@@ -44,7 +44,7 @@ $string['collectionaccess'] = 'コレクションアクセス';
 $string['collectionaccessrules'] = 'コレクションアクセスルール';
 $string['collectionaccesseditedsuccessfully'] = 'コレクションアクセスが正常に保存されました。';
 $string['collectioneditaccess'] = 'あなたはこのコレクション内の %d ページのアクセスを編集しています。';
-$string['collectionconfirmdelete'] = 'このコレクション内のページは削除されません。本当にこのコレクションを削除してもよろしいですか?';
+$string['collectionconfirmdelete'] = 'このコレクションに登録済みのページは削除されません。本当にこのコレクションを削除してもよろしいですか?';
 $string['collectioncreatedsuccessfully'] = 'コレクションが正常に作成されました。';
 $string['collectioncreatedsuccessfullyshare'] = 'あなたのコレクションが正常に作成されました。以下のアクセスリンクを使用してあなたのコレクションを他の人と共有してください。';
 $string['collectiondeleted'] = 'コレクションが正常に削除されました。';
@@ -59,9 +59,9 @@ $string['deletespecifiedcollection'] = 'コレクション「 %s 」を削除す
 $string['deletingcollection'] = 'コレクションの削除';
 $string['deleteview'] = 'コレクションからページを削除する';
 $string['description'] = 'コレクション説明';
-$string['collectiondragupdate1'] = '「コレクション内のページ」にページを移動するには「ページをコレクションに追加する」ボックスからページ名をドラッグするか、チェックボックスをチェックして「ページを追加する」ボタンをクリックしてください。<br />
-あなたはページ名をドラッグまたは矢印ボタンを使用することにより「コレクション内のページ」エリアのページを並べ替えることができます。';
-$string['viewsincollection'] = 'コレクション内のページ';
+$string['collectiondragupdate1'] = '「コレクションに登録済みのページ」にページを移動するには「ページをコレクションに追加する」ボックスからページ名をドラッグするか、チェックボックスをチェックして「ページを追加する」ボタンをクリックしてください。<br />
+あなたはページ名をドラッグまたは矢印ボタンにより「コレクションに登録済みのページ」エリアのページを並べ替えれます。';
+$string['viewsincollection'] = 'コレクションに登録済みのページ';
 $string['editcollection'] = 'コレクションを編集する';
 $string['editingcollection'] = 'コレクションの編集';
 $string['edittitleanddesc'] = 'タイトルおよび説明を編集する';
