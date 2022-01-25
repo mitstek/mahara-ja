@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-12-26 09:04:44 UTC
+ * @updated    2022-01-25 03:03:23 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -81,6 +81,7 @@ $string['managegroups'] = 'グループ管理';
 $string['Extensions'] = '拡張機能';
 $string['configextensions'] = '拡張機能管理';
 $string['manageinstitutions'] = 'インスティテューション管理';
+$string['embeddedurls'] = '埋め込みURLを更新する';
 $string['siteoptions'] = 'サイトオプション';
 $string['siteoptionsdesc'] = '名称、言語およびテーマ等の基本的なサイトオプションを設定します。';
 $string['staticpages'] = '固定ページ';
@@ -198,7 +199,7 @@ $string['generateduserurls'] = '%s プロファイルURLを生成しました。
 $string['generatedgroupurls'] = '%s グループホームページURLを生成しました。';
 $string['generatedviewurls'] = '%s ポートフォリオページURLを生成しました。';
 $string['cleanurlsdescriptionshort'] = '人間が解読可能なURLを使用するようサイトを設定します。';
-$string['embeddedurls'] = '埋め込みURLを更新する';
+$string['embeddedurlstitle'] = '埋め込みURLを更新する';
 $string['embeddedurlsdescription'] = '<p>あなたのURLを変更した場合、埋め込みコンテンツ内の既存のURLは間違った場所を指定することになります。</p><p>あなたはここで古いURLドメインを指定して修正できます。</p>';
 $string['nopotentialembeddedurls'] = '<p>潜在的な古いURLは検出されませんでした。</p>';
 $string['potentialembeddedurls'] = '<p>次のセクションには古いURLが含まれているようです。</p>';
