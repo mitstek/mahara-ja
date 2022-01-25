@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-01-24 00:04:59 UTC
+ * @updated    2022-01-25 00:49:09 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -63,9 +63,9 @@ $string['deletespecifiedcollection'] = 'コレクション「 %s 」を削除す
 $string['deletingcollection'] = 'コレクションの削除';
 $string['deleteview'] = 'コレクションからページを削除する';
 $string['description'] = 'コレクション説明';
-$string['collectiondragupdate1'] = '「コレクション内のページ」にページを移動するには「ページをコレクションに追加する」ボックスからページ名をドラッグするか、チェックボックスをチェックして「ページを追加する」ボタンをクリックしてください。<br />
-あなたはページ名をドラッグまたは矢印ボタンを使用することにより「コレクション内のページ」エリアのページを並べ替えることができます。';
-$string['viewsincollection'] = 'コレクション内のページ';
+$string['collectiondragupdate1'] = '「コレクションに登録済みのページ」にページを移動するには「ページをコレクションに追加する」ボックスからページ名をドラッグするか、チェックボックスをチェックして「ページを追加する」ボタンをクリックしてください。<br />
+あなたはページ名をドラッグまたは矢印ボタンにより「コレクションに登録済みのページ」エリアのページを並べ替えれます。';
+$string['viewsincollection'] = 'コレクションに登録済みのページ';
 $string['editcollection'] = 'コレクションを編集する';
 $string['editingcollection'] = 'コレクションの編集';
 $string['edittitleanddesc'] = 'タイトルおよび説明を編集する';
@@ -104,7 +104,7 @@ $string['usecollectionname'] = 'コレクション名を使用しますか?';
 $string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしたままにしてください。';
 $string['numviewsincollection'] = 'コレクション内ページ数: %s';
 $string['viewsaddedtocollection1'] = '%s ページがコレクションに追加されました。';
-$string['viewsaddedtocollection1different'] = '%s ページがコレクションに追加されました。コレクション内のページすべての共有アクセスが変更されました。';
+$string['viewsaddedtocollection1different'] = '%s ページがコレクションに追加されました。コレクションに登録済みのページすべての共有アクセスが変更されました。';
 $string['viewsaddedaccesschanged'] = '次のページのアクセスパーミッションが変更されました:';
 $string['viewaddedsecreturl'] = 'シークレットURL経由でパブリックに利用可';
 $string['viewcollection'] = 'コレクション詳細を表示する';
