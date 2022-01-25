@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-01-25 00:49:09 UTC
+ * @updated    2022-01-25 01:00:46 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -104,7 +104,7 @@ $string['usecollectionname'] = 'コレクション名を使用しますか?';
 $string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしたままにしてください。';
 $string['numviewsincollection'] = 'コレクション内ページ数: %s';
 $string['viewsaddedtocollection1'] = '%s ページがコレクションに追加されました。';
-$string['viewsaddedtocollection1different'] = '%s ページがコレクションに追加されました。コレクションに登録済みのページすべての共有アクセスが変更されました。';
+$string['viewsaddedtocollection1different'] = '%s ページがコレクションに追加されました。コレクション内のページすべての共有アクセスが変更されました。';
 $string['viewsaddedaccesschanged'] = '次のページのアクセスパーミッションが変更されました:';
 $string['viewaddedsecreturl'] = 'シークレットURL経由でパブリックに利用可';
 $string['viewcollection'] = 'コレクション詳細を表示する';
