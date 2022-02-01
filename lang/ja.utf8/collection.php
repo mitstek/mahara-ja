@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-01-30 06:06:48 UTC
+ * @updated    2022-02-01 01:44:21 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -121,7 +121,7 @@ $string['countpages'] = '%d ページ';
 $string['countblocks'] = '%d ブロック';
 $string['countartefacts'] = '%d アーティファクト';
 $string['fromtemplate'] = 'コピー元「 %s 」';
-$string['copiedblogpoststonewjournal'] = 'コピーされた日誌エントリは新しい別の日誌に登録されました。';
+$string['copiedblogpoststonewjournal'] = 'コピーされた日誌投稿は新しい別の日誌に登録されました。';
 $string['by'] = 'by';
 $string['copycollection'] = 'コレクションをコピーする';
 $string['youhavencollections'] = 'あなたには %d コレクションがあります。';
