@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-01 01:44:21 UTC
+ * @updated    2022-02-06 21:13:03 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -163,7 +163,7 @@ $string['undoreportsubject'] = 'ポートフォリオステートメントのリ
 $string['undoreportmessage'] = 'ステートメント「 %s 」(ポートフォリオ「 %s 」) が承認されました。しかし、承認者 %s はステートメントのリセットを希望しています。';
 $string['accessdeniedundo'] = 'ステートメントはすでにリセットされています。これ以上、あなたはポートフォリオにアクセスできません。';
 $string['undonesubject'] = 'ステートメントのリセットリクエストレビュー完了';
-$string['undonemessage'] = '最初のステートメント承認者からのリクエストにより、%s がステートメント「 %s 」(ポートフォリオ「 %s 」) をリセットしました。';
+$string['undonemessage'] = '最初のステートメント承認者からのリクエストにより %s がステートメント「 %s 」(ポートフォリオ「 %s 」) をリセットしました。';
 $string['userhasremovedaccess'] = '%s はポートフォリオ「 %s 」にアクセスできないようになりました。';
 $string['userrevokereason'] = '理由は次のとおりです:';
 $string['removemyaccess'] = '私のアクセスを削除する';
