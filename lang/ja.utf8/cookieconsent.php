@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-09-18 05:09:24 UTC
+ * @updated    2022-02-07 21:52:56 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -41,8 +41,8 @@ $string['readdirectiveRO'] = '命令2009/136/ECを読む (ルーマニア語)';
 $string['readdirectiveSK'] = '命令2009/136/ECを読む (スロバキア語)';
 $string['readdirectiveSL'] = '命令2009/136/ECを読む (スロベニア語)';
 $string['readdirectiveSV'] = '命令2009/136/ECを読む (スウェーデン語)';
-$string['cookieconsentintro4'] = '要するにコンピュータ、モバイルフォンまたは他のデバイスから情報を保存または検索する前にユーザが同意する必要があることを意味します。この目的はエンドユーザのプライバシーを増すこと、そして国民が知ることなしに組織が情報を取得することを防ぐことにあります。';
-$string['cookieconsentintro52'] = '以下で%sクッキーコンセント%sを有効にしてください。ユーザには画面下部にあなたのプライバシーページにリンクしたクッキーコンセントバナーが表示されます。あなたのクッキーの使用に関してそこでユーザに情報提供していることを確認してください。';
+$string['cookieconsentintro4'] = '要するにコンピュータ、モバイルフォンまたは他のデバイスから情報を保存または検索する前にユーザの同意が必要であることを意味します。この目的はエンドユーザのプライバシーを増すこと、そして国民が知ることなしに組織が情報を取得することを防ぐことにあります。';
+$string['cookieconsentintro52'] = '以下で%sクッキーコンセント%sを有効にしてください。ユーザには画面下部にあなたのプライバシーページにリンクしたクッキーコンセントバナーが表示されます。あなたのクッキー使用に関してそこでユーザに情報提供してください。';
 $string['cookieconsentenable'] = 'クッキーコンセントを有効にする';
 $string['cookieconsentenabled'] = 'クッキーコンセントが有効にされました。';
 $string['cookieconsentdisabled'] = 'クッキーコンセントが無効にされました。';
