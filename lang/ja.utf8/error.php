@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-09-30 05:34:11 UTC
+ * @updated    2022-02-11 01:09:25 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -82,6 +82,7 @@ $string['errorat'] = '&nbsp;-&nbsp;';
 $string['unrecoverableerror'] = '回復不能なエラーが発生しました。恐らく、あなたはシステムバグに遭遇したと思われます。';
 $string['unrecoverableerrortitle'] = '%s - サイト利用不可';
 $string['parameterexception'] = '必須パラメータが指定されていません。';
+$string['wrongparamtype'] = '関数またはメソッドに正しくない種類の引数が渡されました。';
 $string['notfound'] = '不明';
 $string['notfoundexception'] = 'あなたが探しているページは見つかりませんでした。';
 $string['accessdenied'] = 'アクセスが拒否されました。';
