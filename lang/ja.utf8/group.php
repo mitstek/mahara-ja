@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-09-30 23:07:30 UTC
+ * @updated    2022-02-12 11:24:04 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -99,7 +99,7 @@ $string['hasbeeninvitedtojoin'] = 'がこのグループへの参加を招待さ
 $string['groupinvitesfrom'] = '参加の招待:';
 $string['requestedmembershipin'] = 'リクエストされたメンバーシップ:';
 $string['viewnotify'] = '共有ページ通知';
-$string['viewnotifydescription2'] = '新しいページが作成された場合、グループメンバーがグループおよびページを共有した場合、どのグループメンバーに通知するのか選択してください。この通知はページを共有しているグループメンバーには送信されません。大規模なグループの場合、多くの通知が発生するためこれは通常メンバー以外のメンバーに制限した方が良いでしょう。';
+$string['viewnotifydescription3'] = '新しいグループポートフォリオが作成された場合、またはグループメンバーが自分のポートフォリオをグループと共有した場合に通知を受信するグループメンバーを選択してください。ポートフォリオを共有しているグループメンバーはこの通知を受信しません。極めて大規模なグループの場合、大量の通知が発生する可能性があるため、非一般のメンバーへの限定通知をお勧めします。';
 $string['commentnotify'] = 'コメント通知';
 $string['commentnotifydescription1'] = 'グループページおよびアーティファクトにコメントが投稿された場合、どのグループメンバーに通知するのか選択してください。';
 $string['allowsendnow'] = 'フォーラム投稿をすぐに送信する';
@@ -155,6 +155,8 @@ $string['memberchangesuccess'] = 'メンバーシップのステータスが正�
 $string['portfolioreleasedsubject'] = 'ポートフォリオ「 %s 」がリリースされました。';
 $string['portfolioreleasedmessage'] = 'あなたのポートフォリオ「 %s 」が「 %s 」から %s によってリリースされました。';
 $string['portfolioreleasedsuccess'] = 'ポートフォリオが正常にリリースされました。';
+$string['portfolioreleasedsuccesswithname'] = 'ポートフォリオ「 %s 」が正常にリリースされました。';
+$string['portfolioreleasefailed'] = 'アーカイブ後の「 %s 」のリリースに失敗しました。';
 $string['portfolioreleasedpending'] = 'ポートフォリオはアーカイブ後にリリースされます。';
 $string['leavegroup'] = 'このグループから離れる';
 $string['joingroup'] = 'このグループに参加する';

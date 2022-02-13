@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-10-28 00:01:45 UTC
+ * @updated    2022-02-12 11:23:07 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -82,6 +82,7 @@ $string['thiscommentisprivate1'] = 'このコメントはプライベートで�
 $string['typefeedback'] = 'コメント';
 $string['viewcomment'] = 'コメントを表示する';
 $string['moderatecomment'] = 'コメント投稿者がコメントをパブリックにするようリクエストしました。';
+$string['privatetopubliccomment'] = 'ポートフォリオオーナーがあなたのコメントをパブリックにするようリクエストしました。';
 $string['youhaverequestedpublic'] = 'あなたはこのコメントをパブリックにするようリクエストしました。';
 $string['commentsnotincluded'] = 'コメントはこのエクスポートに含まれませんでした。';
 $string['feedbackmoderationnotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-10-26 09:16:47 UTC
+ * @updated    2022-02-12 11:23:33 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -239,6 +239,7 @@ $string['makeadminsintousers'] = '選択した管理者アカウントを一般�
 $string['groupadminsupdated'] = 'グループ管理者が更新されました。';
 $string['groupquotaupdated'] = 'グループクオータが更新されました。';
 $string['addnewgroupcategory'] = '新しいグループカテゴリを入力する';
+$string['submissions'] = '提出';
 $string['archivedsubmissions'] = 'アーカイブ済み提出';
 $string['archivedsubmissionsdesc'] = 'アーカイブ済み提出を管理します。';
 $string['currentsubmissions'] = '現在の提出';
@@ -601,7 +602,7 @@ $string['promiscuousmodeenabled'] = '自動登録が有効にされました。'
 $string['promiscuousmodedescription'] = 'あなたに接続するすべてのホスト用にインスティテューションレコードを作成してホストのアカウント保持者がMaharaにログインできるようにします。';
 $string['wwwroot'] = 'WWWルート';
 $string['wwwrootdescription1'] = 'これはこのMaharaインストレーションのSSLキーを生成するためのURLです。';
-$string['deletekey'] = 'このキーを削除する';
+$string['deletekey'] = 'この鍵を削除する';
 $string['keydeleted'] = '公開鍵が削除および再生成されました。';
 $string['proxysettings'] = 'プロクシ設定';
 $string['proxyaddress'] = 'プロクシアドレス';
