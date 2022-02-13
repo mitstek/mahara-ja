@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-16 13:12:31 UTC
+ * @updated    2022-02-13 07:22:23 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -99,9 +99,9 @@ $string['useheader'] = 'ヘッダに認証を付加する';
 $string['invalidauthtypecombination'] = '%s に無効な認証タイプが選択されました。';
 $string['emptycertextended'] = '証明書ベースの認証を使用する場合、あなたはトークまたはユーザ名/パスワードも入力する必要があります。';
 $string['emptyoauthkey'] = 'OAuth1.xにコンシューマキーを提供する必要があります。';
-$string['emptyoauthsecret'] = 'OAuth1.xに秘密鍵を提供する必要があります。';
+$string['emptyoauthsecret'] = 'OAuth1.xにシークレットを提供する必要があります。';
 $string['consumer'] = 'コンシューマキー';
-$string['secret'] = '秘密鍵';
+$string['secret'] = 'シークレット';
 $string['deleteconnection'] = '接続オブジェクトを削除してもよろしいですか?';
 $string['control_webservices'] = 'ウェブサービスをOnまたはOffに切り替える:';
 $string['webservice_requester_enabled_label'] = 'ウェブサービスリクエスタマスタースイッチ';
@@ -237,7 +237,7 @@ $string['accessto'] = 'アクセス対象';
 $string['application'] = 'アプリケーション';
 $string['callback'] = 'コールバックURI';
 $string['consumer_key'] = 'コンシューマキー';
-$string['consumer_secret'] = 'コンシューマ秘密鍵';
+$string['consumer_secret'] = 'コンシューマシークレット';
 $string['add'] = '追加';
 $string['oauthserverdeleted'] = 'サーバが削除されました。';
 $string['oauthtokendeleted'] = 'アプリケーショントークンが削除されました。';
