@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-01-25 06:57:59 UTC
+ * @updated    2022-02-13 02:49:50 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -603,7 +603,7 @@ $string['promiscuousmodeenabled'] = '自動登録が有効にされました。'
 $string['promiscuousmodedescription'] = 'あなたに接続するすべてのホスト用にインスティテューションレコードを作成してホストのアカウント保持者がMaharaにログインできるようにします。';
 $string['wwwroot'] = 'WWWルート';
 $string['wwwrootdescription1'] = 'これはこのMaharaインストレーションのSSLキーを生成するためのURLです。';
-$string['deletekey'] = 'このキーを削除する';
+$string['deletekey'] = 'この鍵を削除する';
 $string['keydeleted'] = '公開鍵が削除および再生成されました。';
 $string['proxysettings'] = 'プロクシ設定';
 $string['proxyaddress'] = 'プロクシアドレス';
