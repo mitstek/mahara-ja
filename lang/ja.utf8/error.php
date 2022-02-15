@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-11 01:09:25 UTC
+ * @updated    2022-02-15 01:35:40 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,7 +17,7 @@ $string['phpversion'] = 'MaharaはPHP %s 以下では動作しません。あな
 $string['jsonextensionnotloaded'] = 'あなたのサーバ設定にはJSON拡張モジュールが含まれていません。ブラウザへのデータ送受信のためMaharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているか確認してください。インストールされていない場合、インストールしてください。';
 $string['pgsqldbextensionnotloaded'] = 'あなたのサーバ設定にはpgsql拡張モジュールが含まれていません。リレーショナルデータベースにデータを保存するためMaharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているか確認してください。インストールされていない場合、インストールしてください。';
 $string['mysqldbextensionnotloaded'] = 'あなたのサーバ設定にはmysqliまたはmysql拡張モジュールが含まれていません。リレーショナルデータベースにデータを保存するためMaharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているか確認してください。インストールされていない場合、インストールしてください。';
-$string['mysqlmodulenolongersupported1'] = 'あなたのサーバ設定にはmysqli拡張モジュールが含まれていません。このモジュールがphp.iniに設定されているか確認してください。インストールされていない場合、インストールしてください。Maharaはバージョン16.10でmysql拡張モジュールをサポートを終了しました。';
+$string['mysqlmodulenolongersupported1'] = 'あなたのサーバ設定にはmysqli拡張モジュールが含まれていません。このモジュールがphp.iniに設定されているか確認してください。インストールされていない場合、インストールしてください。Maharaはバージョン16.10でmysql拡張モジュールのサポートを終了しました。';
 $string['unknowndbtype'] = 'あなたのサーバ設定は不明なデータベースタイプを参照しています。有効な値は「postgres」および「mysql」です。config.php内のデータベースタイプ設定を変更してください。';
 $string['domextensionnotloaded'] = 'あなたのサーバ設定にはdom拡張モジュールが含まれていません。様々なソースのXMLデータを構文解析するためMaharaではこのモジュールを必要とします。';
 $string['mbstringextensionnotloaded'] = 'あなたのサーバ設定にはmbstring拡張モジュールが含まれていません。各種言語のマルチバイトストリングを解析するためMaharaではこのモジュールを必要とします。';
