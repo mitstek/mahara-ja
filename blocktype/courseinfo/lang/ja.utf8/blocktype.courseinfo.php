@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-10-19 05:55:21 UTC
+ * @updated    2022-02-15 21:06:14 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -33,6 +33,7 @@ $string['hours'] = '時間';
 $string['totalhours'] = '合計時間';
 $string['course'] = 'コース';
 $string['courses'] = 'コース';
+$string['ncourses'] = '%s コース';
 $string['coursetype'] = 'コースタイプ';
 $string['connectedwithexternalaccount'] = '外部アカウントが見つかりました';
 $string['coursesresultsfromto'] = '%s から %s の間にコースが見つかりました。';

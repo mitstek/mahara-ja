@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-03-02 12:58:06 UTC
+ * @updated    2022-02-15 21:09:33 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -80,6 +80,7 @@ $string['portdescription'] = 'Elasticsearchが使用するポートです。デ�
 $string['Portfolio'] = 'ポートフォリオ';
 $string['record'] = 'レコード';
 $string['records'] = 'レコード';
+$string['nrecords'] = '%s レコード';
 $string['relevance'] = '関連性';
 $string['replicashards'] = 'レプリカシャード';
 $string['replicashardsdescription'] = '作成されるシャードのコピー数です。注意: 1ノードのみの場合、レプリカに「0」を設定してください。';

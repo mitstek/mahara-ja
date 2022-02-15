@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-02-05 00:21:45 UTC
+ * @updated    2022-02-15 21:08:48 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -70,6 +70,7 @@ $string['modifieddate'] = '修正日時';
 $string['noskins'] = 'スキンがありません。';
 $string['skin'] = 'スキン';
 $string['skins'] = 'スキン';
+$string['nskins'] = '%s スキン';
 $string['allskins'] = 'すべてのスキン';
 $string['siteskins'] = 'サイトスキン';
 $string['userskins'] = 'マイスキン';
@@ -182,6 +183,7 @@ CSS @font-faceルールによってウェブページに埋め込めるフォン
 $string['nofonts'] = 'フォントがありません。';
 $string['font'] = 'フォント';
 $string['fonts'] = 'フォント';
+$string['nfonts'] = '%s フォント';
 $string['installfont'] = 'フォントをインストールする';
 $string['fontinstalled'] = 'フォントが正常にインストールされました。';
 $string['addfontvariant'] = 'フォントスタイルを追加する';

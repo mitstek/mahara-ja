@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-01-18 03:56:22 UTC
+ * @updated    2022-02-15 21:09:20 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -83,15 +83,18 @@ $string['accessbetweendates3'] = '%s 以前または %s 以降、誰もこのペ
 $string['artefactsinthisview'] = 'このページのアーティファクト';
 $string['whocanseethisview'] = '誰がこのページを閲覧できますか';
 $string['pending'] = 'レビュー中のポートフォリオ';
-$string['view'] = 'ページ';
 $string['panelmenu'] = 'メニュー';
 $string['vieworcollection'] = 'ページまたはコレクション';
-$string['views'] = 'ページ';
 $string['viewsandcollections'] = 'ページおよびコレクション';
+$string['nviewsandcollections'] = '%s ページおよびコレクション';
+$string['view'] = 'ページ';
+$string['views'] = 'ページ';
+$string['nviews1'] = '%s ページ';
 $string['View'] = 'ページ';
 $string['Views'] = 'ページ';
 $string['portfolio'] = 'ポートフォリオ';
 $string['portfolios'] = 'ポートフォリオ';
+$string['nportfolios'] = '%s ポートフォリオ';
 $string['Viewscollections'] = 'ページおよびコレクション';
 $string['viewsubmittedtogroup1'] = 'このポートフォリオは<a href="%s">%s</a>に送信されました。';
 $string['viewsubmittedtogroupon1'] = 'このポートフォリオは<a href="%s">%s</a>に対して %s に送信されました。';
@@ -106,7 +109,6 @@ $string['collectionsubmittedtohoston'] = 'このコレクションは %s に送�
 $string['submittedpendingrelease'] = 'アーカイブ後のリリース保留中です。';
 $string['nobodycanseethisview2'] = 'あなたのみこのページを閲覧できます。';
 $string['noviews1'] = 'ページまたはコレクションはありません。';
-$string['nviews'] = '%s ページ';
 $string['youhavenoviews1'] = 'あなたにはページまたはコレクションはありません。';
 $string['youhaventcreatedanyviewsyet'] = 'あなたはまだページを作成していません。';
 $string['youhavenviews'] = 'あなたには %d ページがあります。';

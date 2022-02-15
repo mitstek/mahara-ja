@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-06 21:13:03 UTC
+ * @updated    2022-02-15 21:06:57 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -39,6 +39,7 @@ $string['collection'] = 'コレクション';
 $string['Collection'] = 'コレクション';
 $string['collections'] = 'コレクション';
 $string['Collections'] = 'コレクション';
+$string['ncollections'] = '%s コレクション';
 $string['groupcollections'] = 'グループコレクション';
 $string['institutioncollections'] = 'インスティテューションコレクション';
 $string['sitecollections'] = 'サイトコレクション';

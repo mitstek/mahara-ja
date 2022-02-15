@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-01-19 07:03:26 UTC
+ * @updated    2022-02-15 21:08:17 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -804,6 +804,7 @@ $string['query'] = '検索';
 $string['querydescription'] = '検索語';
 $string['result'] = '結果';
 $string['results'] = '結果';
+$string['nresults'] = '%s 結果';
 $string['Results'] = '結果';
 $string['noresultsfound'] = '該当データはありません。';
 $string['users'] = '人';

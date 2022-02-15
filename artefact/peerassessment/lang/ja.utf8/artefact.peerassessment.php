@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-12-19 20:22:23 UTC
+ * @updated    2022-02-15 21:05:29 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,6 +18,7 @@ $string['Assessment'] = '評価';
 $string['Assessments'] = '評価';
 $string['assessment'] = '評価';
 $string['assessments'] = '評価';
+$string['nassessments'] = '%s 評価';
 $string['makeassessmentpublic'] = '評価を公開する';
 $string['attachfile'] = '添付ファイル';
 $string['messageempty'] = '相互評価は空です。';

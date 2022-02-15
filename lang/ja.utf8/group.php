@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-12-07 02:19:16 UTC
+ * @updated    2022-02-15 21:07:55 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -143,7 +143,7 @@ $string['invites'] = '招待';
 $string['member'] = 'メンバー';
 $string['members'] = 'メンバー';
 $string['Members'] = 'メンバー';
-$string['nmembers'] = '%s メンバー';
+$string['nmembers1'] = '%s メンバー';
 $string['memberrequests'] = 'メンバーシップリクエスト';
 $string['declinerequest'] = 'リクエストを拒否する';
 $string['submittedviews'] = '送信済みページ';
@@ -219,6 +219,7 @@ $string['nogroupsfound'] = 'グループが見つかりませんでした。';
 $string['group'] = 'グループ';
 $string['Group'] = 'グループ';
 $string['groups'] = 'グループ';
+$string['ngroups'] = '%s グループ';
 $string['notamember'] = 'あなたはこのグループのメンバーではありません。';
 $string['notmembermayjoin'] = 'このページを閲覧するにはあなたはグループ「 %s 」に参加する必要があります。';
 $string['declinerequestsuccess'] = 'グループメンバーシップのリクエストが正常に拒否されました。';
@@ -295,8 +296,10 @@ $string['existingfriend'] = '現在のフレンド';
 $string['nosearchresultsfound'] = '該当データはありません。';
 $string['friend'] = 'フレンド';
 $string['friends'] = 'フレンド';
+$string['nfriends'] = '%s フレンド';
 $string['user'] = '人';
 $string['users'] = '人';
+$string['nusers'] = '%s 人';
 $string['Friends'] = 'フレンド';
 $string['friendrequests'] = 'フレンドリクエスト';
 $string['Everyone'] = '誰でも';

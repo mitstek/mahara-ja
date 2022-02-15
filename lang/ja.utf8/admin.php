@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-13 02:49:50 UTC
+ * @updated    2022-02-15 21:06:44 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -128,6 +128,7 @@ $string['settings'] = '設定';
 $string['institution'] = 'インスティテューション';
 $string['institutions'] = 'インスティテューション';
 $string['Institutions'] = 'インスティテューション';
+$string['ninstitutions'] = '%s インスティテューション';
 $string['institutiondetails'] = 'インスティテューション詳細';
 $string['institutionauth'] = 'インスティテューション認証局';
 $string['institutionsettingsdesc'] = 'インスティテューションを設定および管理します。';

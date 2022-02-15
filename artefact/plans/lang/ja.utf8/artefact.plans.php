@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-01-25 00:54:06 UTC
+ * @updated    2022-02-15 21:06:04 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -31,6 +31,7 @@ $string['Plan'] = 'プラン';
 $string['Plans'] = 'プラン';
 $string['plan'] = 'プラン';
 $string['plans'] = 'プラン';
+$string['nplans'] = '%s プラン';
 $string['plandeletedsuccessfully'] = 'プランが正常に削除されました。';
 $string['plannotdeletedsuccessfully'] = 'このプランの削除中にエラーが発生しました。';
 $string['plannotsavedsuccessfully'] = 'このフォームの送信中にエラーが発生しました。マークされたフィールドを確認して再度お試しください。';
@@ -66,6 +67,7 @@ $string['Task'] = 'タスク';
 $string['Tasks'] = 'タスク';
 $string['task'] = 'タスク';
 $string['tasks'] = 'タスク';
+$string['ntasks'] = '%s タスク';
 $string['Grouptasks'] = 'グループタスク';
 $string['taskdeletedsuccessfully'] = 'タスクが正常に削除されました。';
 $string['tasksavedsuccessfully'] = 'タスクが正常に保存されました。';
@@ -79,7 +81,6 @@ $string['grouptaskselected'] = 'プランおよび選択済みタスクはあな
 $string['grouptaskunselected'] = 'プランおよび選択済みタスクはあなたのパーソナルポートフォリオエリアから削除されました。適切な場合、未編集の課題ポートフォリオも同様に削除されています。';
 $string['unselecttaskconfirm'] = '本当にあなたのプランからこのタスクを削除してもよろしいですか?';
 $string['wrongfunctionrole'] = 'あなたのロールが許可されていないため、あなたはこの操作を完了できません。';
-$string['ntasks'] = '%s タスク';
 $string['duplicatedplan'] = '複製プラン';
 $string['existingplans'] = '既存プラン';
 $string['duplicatedtask'] = '複製タスク';
