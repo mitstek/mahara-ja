@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-13 07:15:10 UTC
+ * @updated    2022-02-20 23:08:18 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -259,6 +259,7 @@ $string['accessnotallowed'] = 'ウェブサービスへのアクセスは許可�
 $string['addfunction'] = '関数を追加する';
 $string['addfunctions'] = '関数を追加する';
 $string['addservice'] = '新しいサービスを追加する: {$a->name} (id: {$a->id})';
+$string['allsites'] = 'すべてのインスティテューションにアクセスする';
 $string['apiexplorer'] = 'APIエクスプローラ';
 $string['authmethod'] = '認証方法';
 $string['context'] = 'コンテクスト';
@@ -306,6 +307,7 @@ $string['key'] = 'キー';
 $string['missingpassword'] = 'パスワードがありません。';
 $string['missingusername'] = 'ユーザ名がありません。';
 $string['notoken'] = 'トークンリストが空です。';
+$string['nosites'] = 'どのインスティテューションにもアクセスはありません。';
 $string['nowsprotocolsenabled'] = '有効にされているウェブサービスプロトコルがありません。あなたは少なくとも1つの<a href="%s">プロトコル</a>を有効にする必要があります。';
 $string['onesystemcontrolling'] = '1システムがMahraをトークンでコントロールする';
 $string['operation'] = '操作';
