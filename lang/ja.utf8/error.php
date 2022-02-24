@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-22 20:18:00 UTC
+ * @updated    2022-02-24 21:33:46 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -23,7 +23,7 @@ $string['domextensionnotloaded'] = 'あなたのサーバ設定にはDOM拡張�
 $string['mbstringextensionnotloaded'] = 'あなたのサーバ設定にはmbstring拡張モジュールが含まれていません。各種言語のマルチバイトストリングを解析するためMaharaではこのモジュールを必要とします。';
 $string['xmlextensionnotloaded'] = 'あなたのサーバ設定には %s 拡張モジュールが含まれていません。様々なソースのXMLデータを構文解析するためMaharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているか確認してください。インストールされていない場合、インストールしてください。';
 $string['gdextensionnotloaded'] = 'あなたのサーバ設定にはGD拡張モジュールが含まれていません。アップロードされたイメージのリサイズおよび他の処理を実行するためMaharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているか確認してください。インストールされていない場合、インストールしてください。';
-$string['gdfreetypenotloaded'] = 'あなたのサーバ設定のGD拡張モジュールにはFreeTypeサポートが含まれていません。GD拡張モジュールでFreeTypeサポートが設定されているかどうか確認してください。';
+$string['gdfreetypenotloaded'] = 'あなたのサーバ設定のGD拡張モジュールにはFreeTypeサポートが含まれていません。GD拡張モジュールでFreeTypeサポートが設定されているか確認してください。';
 $string['sessionextensionnotloaded'] = 'あなたのサーバ設定にはsession拡張モジュールが含まれていません。人のログインをサポートするためMaharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているか確認してください。インストールされていない場合、インストールしてください。';
 $string['curllibrarynotinstalled'] = 'あなたのサーバ設定にはcurl拡張モジュールが含まれていません。Moodleインテグレーションおよび外部フィードを検索するためMaharaではこのモジュールを必要とします。このモジュールがphp.iniに設定されているか確認してください。インストールされていない場合、インストールしてください。';
 $string['registerglobals'] = 'あなたは危険なPHP設定「register_globals」をonにしています。Maharaはこの問題の対処を試みますが設定変更を強くお勧めします。あなたが共有ホスティングを利用してPHPの設定変更が許可されている場合、.htaccessファイルに次の行を含んでください:
@@ -41,7 +41,7 @@ $string['apcstatoff'] = 'あなたのサーバはapc.stat=0によりAPCを動作
 
 あなたが共有ホスティングサービスを利用している場合、ホスティングプロバイダに依頼する以外、apc.statを有効にするためにできることは多くありません。別のホスティングサービスへの移行を考えても良いでしょう。';
 $string['datarootinsidedocroot'] = 'あなたはドキュメントルート内にデータルートを設定したようです。これには誰でも (他の人のセッションをハイジャックするため) 直接セッションデータをリクエストできる多大なセキュリティ上の問題があります。また、他の人がアップロードしたアクセス許可されていないファイルに誰でもアクセスできます。データルートをドキュメントルートの外に設定してください。';
-$string['datarootnotwritable'] = 'あなたが定義したルートディレクトリ「 %s 」に書込み権がありません。これはセッションデータ、ファイル、その他アップロードする必要のあるファイルをアップロードできないことを意味します。ディレクトリが存在しているかどうか確認してください。ディレクトリが存在している場合、ディレクトリにウェブサーバアカウントの所有権を与えてください。';
+$string['datarootnotwritable'] = 'あなたが定義したルートディレクトリ「 %s 」に書込み権がありません。これはセッションデータ、ファイル、その他アップロードする必要のあるファイルをアップロードできないことを意味します。ディレクトリが存在しているか確認してください。ディレクトリが存在している場合、ディレクトリにウェブサーバアカウントの所有権を与えてください。';
 $string['sessionpathnotwritable'] = 'あなたのセッションデータディレクトリ「 %s 」に書込み権がありません。ディレクトリが存在していない場合、ディレクトリを作成してください。ディレクトリが存在している場合、ディレクトリにウェブサーバアカウントの所有権を与えてください。';
 $string['wwwrootnothttps'] = 'あなたが定義したwwwroot ( %s ) はHTTPSではありません。しかし、あなたのインストレーションの他の設定 (sslproxy等) ではwwwrootがHTTPSアドレスである必要があります。
 
@@ -50,7 +50,7 @@ $string['couldnotmakedatadirectories'] = '何らかの理由でいくつかの�
 $string['dbconnfailed'] = 'Maharaがアプリケーションデータベースに接続できませんでした。
 
 * あなたがMaharaを使用している場合、少し待った後、再度お試しください。
-* あなたが管理者である場合、データベース設定およびデータベースが利用可能かどうか確認してください。
+* あなたが管理者である場合、データベース設定およびデータベースが利用可能か確認してください。
 
 エラー内容は次のとおりです:';
 $string['dbnotutf8'] = 'あなたはUTF-8データベースを使用していません。Maharaではすべてのデータを内部にUTF-8で保存します。あなたのデータベースをドロップしてUTF-8エンコーディングを使用するよう再作成してください。';
@@ -138,7 +138,7 @@ $string['urlsecretweak'] = 'このサイトに設定されている$cfg->urlsecr
 $string['notproductionsite'] = 'このサイトは実運用モードに入っていません。いくつかのデータは利用できないか古い可能性があります。';
 $string['badsessionhandle'] = 'セッション保存ハンドラ「 %s 」が正しく設定されていません。あなたの「config.php」ファイルの設定を確認してください。';
 $string['wrongsessionhandle'] = 'セッション保存ハンドラ「 %s 」はMaharaではサポートされていません。';
-$string['nomemcachedserver'] = 'memcacheサーバ「 %s 」に接続できません。$cfg->memcacheservers値が正しいかどうか確認してください。';
+$string['nomemcachedserver'] = 'memcacheサーバ「 %s 」に接続できません。$cfg->memcacheservers値が正しいか確認してください。';
 $string['nophpextension'] = 'PHP拡張モジュール「 %s 」が有効にされていません。拡張モジュールを有効にしてあなたのウェブサーバを再起動するか異なるセッションオプションを選択してください。';
 $string['nomemcacheserversdefined'] = 'セッションハンドラ「 %s 」の関連サーバが定義されていません。$cfg->memcacheservers値を設定してください。例)localhost:11211';
 $string['memcacheusememcached'] = '「memcache」セッションストレージは廃止されました。「memcached」を使用してください。';
