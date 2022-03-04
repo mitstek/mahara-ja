@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-10-11 05:41:48 UTC
+ * @updated    2022-03-04 04:05:11 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -48,7 +48,6 @@ $string['element.expiry.weeks'] = '週';
 $string['element.expiry.months'] = '月';
 $string['element.expiry.years'] = '年';
 $string['element.expiry.noenddate'] = '終了日なし';
-$string['element.expiry.noenddate.lowercase'] = '終了日なし';
 $string['element.files.addattachment'] = '添付を追加する';
 $string['element.passwordpolicy.ul'] = '大文字小文字';
 $string['element.passwordpolicy.uln'] = '大文字小文字、数字';
@@ -60,6 +59,7 @@ $string['element.font.themedefault'] = 'テーマフォントを使用する';
 $string['rule.before.before'] = 'フィールド「 %s 」の後に設定できません';
 $string['rule.email.email'] = 'メールアドレスが有効ではありません';
 $string['rule.integer.integer'] = 'フィールドは整数にしてください';
+$string['rule.float.float'] = 'このフィールドは10進数の値のみを受け付けます。';
 $string['rule.maxlength.maxlength'] = 'このフィールドは最大半角 %d 文字にしてください。修正するか、複数インスタンスに分割してください。';
 $string['rule.minlength.minlength'] = 'このフィールドは少なくとも半角 %d 文字にしてください';
 $string['rule.minvalue.minvalue'] = 'この値は %d 以下にできません';
