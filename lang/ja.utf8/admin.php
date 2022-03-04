@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-15 21:06:44 UTC
+ * @updated    2022-03-04 05:09:01 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -940,6 +940,9 @@ $string['institutionshortnamedescription'] = '省略名は自動的に生成さ�
 $string['institutionexpirydescription'] = 'この %s のインスティテューションメンバーシップが利用停止される日付です。';
 $string['institutionlanguage'] = '言語';
 $string['institutionlanguagedescription'] = 'インスティテューションメンバーのデフォルト言語です。';
+$string['includedinstitutions'] = '含まれるインスティテューション (省略名)';
+$string['excludedinstitutions'] = '除外されるインスティテューション (省略名)';
+$string['noinstitution'] = 'どのインスティテューションのメンバーでもないアカウントを含む';
 $string['defaultlangforinstitution'] = '%s デフォルト';
 $string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
 $string['registrationallowed'] = '登録を許可する';
@@ -1312,12 +1315,16 @@ $string['cli_deleteinactiveusers_usercount'] = '削除対象アカウントは�
 $string['cli_deleteinactiveusers_userunabletoclean'] = 'アカウント「 %s 」(ID %s) を完全に削除できません。';
 $string['cli_deleteinactiveusers_userunabletodelete'] = 'アカウント「 %s 」(ID %s) を削除できません。';
 $string['cli_deleteinactiveusers_nouserstodelete'] = '削除するアカウントはありません。';
+$string['cli_deleteinactiveusers_problem'] = 'インスティテューションパラメータが多すぎます。「--institution」または「--incl_inst」または「--excl_inst」でインスティテューションをフィルタしてください。';
 $string['cli_deleteinactiveusers_onlydryrun1'] = 'ここでは以下の設定によるドライランのみ実行します。
 インスティテューション: %s
 グループ: %s
 次の日付以前: %s
 「usr」テーブルから削除するアカウント数: %s
 未ログイン数: %s';
+$string['cli_deleteinactiveusers_onlydryrun1_inst_params'] = '含まれるインスティテューション: %s
+除外されるインスティテューション: %s
+インスティテューション外のアカウントを含みますか? %s';
 $string['cli_deleteinactivegroups_info'] = 'このコマンドラインPHPスクリプトではあなたが古いグループを削除できます。これは現在メンバーがいないグループにのみ動作します。「onlyadmins」フラグが設定された場合、オーナー/管理者が1名のみのグループを対象に含めます。';
 $string['cli_deleteinactivegroups_beforedate'] = 'この日付より最終修正日が前のグループを削除します。日付には次のような日時ストリングを使用できます: 「2018-02-25」または「-6 months」';
 $string['cli_deleteinactivegroups_limit'] = 'それぞれの削除で処理するグループ数を制限します。';
