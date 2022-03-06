@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-27 00:19:10 UTC
+ * @updated    2022-03-06 06:49:39 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -41,7 +41,7 @@ $string['apcstatoff'] = 'あなたのサーバはapc.stat=0によりAPCを動作
 
 あなたが共有ホスティングを利用している場合、ホスティングプロバイダに依頼する以外、apc.statを有効にするためにできることは多くありません。別のホストへの移行を考えても良いでしょう。';
 $string['datarootinsidedocroot'] = 'あなたはドキュメントルート内にデータルートを設定したようです。これには誰でも (他の人のセッションをハイジャックするため) 直接セッションデータをリクエストできる多大なセキュリティ上の問題があります。また、他の人がアップロードしたアクセス許可されていないファイルに誰でもアクセスできます。データルートをドキュメントルートの外に設定してください。';
-$string['datarootnotwritable'] = 'あなたが定義したルートディレクトリ「 %s 」に書込み権がありません。これはセッションデータ、ファイル、その他アップロードする必要のあるファイルをアップロードできないことを意味します。ディレクトリが存在しているか確認してください。ディレクトリが存在している場合、ディレクトリにウェブサーバアカウントの所有権を与えてください。';
+$string['datarootnotwritable'] = 'あなたが定義したデータルートディレクトリ「 %s 」に書込み権がありません。これはセッションデータ、ファイル、その他アップロードする必要のあるファイルをアップロードできないことを意味します。ディレクトリが存在しているか確認してください。ディレクトリが存在している場合、ディレクトリにウェブサーバアカウントの所有権を与えてください。';
 $string['sessionpathnotwritable'] = 'あなたのセッションデータディレクトリ「 %s 」に書込み権がありません。ディレクトリが存在していない場合、ディレクトリを作成してください。ディレクトリが存在している場合、ディレクトリにウェブサーバアカウントの所有権を与えてください。';
 $string['wwwrootnothttps'] = 'あなたが定義したwwwroot ( %s ) はHTTPSではありません。しかし、あなたのインストレーションの他の設定 (sslproxy等) ではwwwrootがHTTPSアドレスである必要があります。
 
