@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-03-06 06:49:39 UTC
+ * @updated    2022-03-09 03:28:36 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -46,10 +46,10 @@ $string['sessionpathnotwritable'] = 'あなたのセッションデータディ�
 $string['wwwrootnothttps'] = 'あなたが定義したwwwroot ( %s ) はHTTPSではありません。しかし、あなたのインストレーションの他の設定 (sslproxy等) ではwwwrootがHTTPSアドレスである必要があります。
 
 あなたのwwwroot設定をHTTPSアドレスに更新してください。または正しくない設定を修正してください。';
-$string['couldnotmakedatadirectories'] = '何らかの理由でいくつかのコアデータディレクトリを作成できませんでした。Maharaが事前にデータディレクトリの書込み権を確認したためこのエラーが発生することはないと考えられます。データルートディレクトリのパーミッションを確認してください。';
+$string['couldnotmakedatadirectories'] = '何らかの理由でいくつかのコアデータディレクトリを作成できませんでした。Maharaが事前にデータディレクトリの書込み権を確認したためこのエラーが発生することはないと考えられます。datarootディレクトリのパーミッションを確認してください。';
 $string['dbconnfailed'] = 'Maharaがアプリケーションデータベースに接続できませんでした。
 
-* あなたがMaharaを使用している場合、少し待った後、再度お試しください。
+* あなたがMaharaを利用している場合、少し待った後、再度お試しください。
 * あなたが管理者である場合、データベース設定およびデータベースが利用可能か確認してください。
 
 エラー内容は次のとおりです:';
