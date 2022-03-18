@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-15 21:09:20 UTC
+ * @updated    2022-03-18 00:25:01 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -275,8 +275,7 @@ $string['confirmcloseblockinstance'] = '本当にあなたの変更を保存せ�
 $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除してもよろしいですか?';
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
 $string['blockconfigurationrenderingerror'] = 'ブロックを表示できなかったため設定に失敗しました。';
-$string['blocksintructionnoajax'] = 'あなたのページに追加するブロックおよび場所を選択してください。あなたはタイトルバーの矢印ボタンを使ってブロックの配置を変更できます。';
-$string['blocksinstructionajaxlive1'] = 'このエリアではあなたのページがどのように見えるのかプレビューを表示しています。変更は自動的に保存されます。<br />ブロックを追加するには「新しいブロックを追加する」をページにドラッグしてください。その後、あなたはそれがどのタイプのブロックであるか選択できます。あなたはページ内でブロックをドラッグして位置を変更することもできます。';
+$string['blocksinstructionajaxlive2'] = 'これはあなたのページのプレビューです。変更は自動的に保存されます。<br />新しいブロックを作成するには「プラス」ボタンをページ上にドラッグしてください。そして、そのブロックのタイプを選択してください。ブロックの位置を変更するにはページ上でドラッグしてください。';
 $string['blockchangedsuccess'] = 'プレースホルダブロックを「 %s 」ブロックに正常に変更しました。';
 $string['blockchangederror'] = '「 %s 」ブロックへの変更に失敗しました。';
 $string['blockchangedbacksuccess'] = 'ブロックをプレースホルダブロックに戻しました。';
@@ -482,9 +481,6 @@ $string['itemgrabbed'] = 'アイテムグラブ: %s';
 $string['itemdropped'] = 'アイテムドロップ: %s';
 $string['itemreorder'] = 'リストが並べ替えられました。%s アイテムのポジションが %s / %s になりました。';
 $string['reordercancelled'] = '並べ替えがキャンセルされました。';
-$string['accessibilitymodedescription'] = 'このページはアクセシビリティレイアウトが有効にされています。
-このモードではページはフルのページ幅を持ちます。また、ページは順番に表示されます。
-ブロックポジションを変更するにはブロックに移動して「Enter」キーで掴んで矢印キーでブロックのリストの上下に移動してください。';
 $string['blocktypeis'] = '%s ブロックタイプ';
 $string['coverimage'] = 'カバーイメージ';
 $string['coverimagefolder'] = 'カバーイメージ';
