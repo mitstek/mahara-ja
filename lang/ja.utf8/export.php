@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-10-01 04:23:04 UTC
+ * @updated    2022-03-18 03:07:59 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -90,3 +90,4 @@ $string['deleteexportqueueitems'] = 'エクスポートキューアイテムデ�
 $string['deleteexportqueuerow'] = 'エクスポートキューデータベーステーブルのアイテムの削除に失敗しました。';
 $string['exportqueueerrorsadminsubject'] = 'キューのエクスポート実行中にエラーが発生しました。';
 $string['exportqueueerrorsadminmessage'] = '次のエラーのため行「 %s 」をエクスポートできません: %s';
+$string['exportlitenotwritable'] = 'エクスポートディレクトリ「 %s 」に書き込み権がありません。';

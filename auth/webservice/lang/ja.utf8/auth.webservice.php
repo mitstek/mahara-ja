@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-20 23:08:18 UTC
+ * @updated    2022-03-18 03:11:29 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -410,3 +410,8 @@ $string['oneof'] = 'どれか1つ';
 $string['servicetype'] = 'サービスタイプ';
 $string['jsonenabled'] = 'JSONレスポンス';
 $string['customfields'] = 'カスタムフィールド';
+$string['invalidviewid'] = '無効な %s ID:「 %s 」です。';
+$string['invalidviewiduser'] = '無効な %s ID:「 %s 」です。インスティテューションのポートフォリオが正しくありません。';
+$string['viewnotsubmitted'] = '%s (ID: %s)は送信されていません。';
+$string['viewnotsubmittedtothishost'] = '%s (ID: %s)はホスト「 %s 」に送信されていません。';
+$string['exporttypenotavailable'] = 'エクスポートメソッド「 %s 」は利用できません。そのメソッドが有効であるか確認してください。';
