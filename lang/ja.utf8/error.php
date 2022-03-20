@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-03-15 22:07:18 UTC
+ * @updated    2022-03-20 03:40:45 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -81,16 +81,16 @@ $string['onlyoneblocktypeperview'] = 'ページに2つ以上の「 %s 」ブロ�
 $string['errorat'] = '&nbsp;-&nbsp;';
 $string['unrecoverableerror'] = '回復不能なエラーが発生しました。恐らく、あなたはシステムバグに遭遇したと思われます。';
 $string['unrecoverableerrortitle'] = '%s - サイト利用不可';
-$string['parameterexception'] = '必須パラメータが指定されていません。';
+$string['parameterexception'] = '必須パラメータがありません。';
 $string['wrongparamtype'] = '関数またはメソッドに正しくない種類の引数が渡されました。';
 $string['notfound'] = '不明';
 $string['notfoundexception'] = 'あなたが探しているページは見つかりませんでした。';
 $string['accessdenied'] = 'アクセスが拒否されました。';
 $string['accessdeniedobjection'] = 'アクセスが拒否されました。問題点はすでに別の管理者により解決されています。';
 $string['accessdeniedsuspension'] = 'このポートフォリオはレビュー中です。';
-$string['accessdeniedexception'] = 'あなたにはこのページを閲覧するアクセス権がありません。';
+$string['accessdeniedexception'] = 'あなたにはこのページを閲覧するためのアクセス権がありません。';
 $string['accessdeniednourlsecret'] = 'あなたにはこの機能へのアクセス権がありません。あなたのconfig.phpファイルからURLの一部として「urlsecret」の値を提供してください。';
-$string['accessdeniedbadge'] = 'あなたにはこのバッジを閲覧するアクセス権がありません。';
+$string['accessdeniedbadge'] = 'あなたにはこのバッジを閲覧するためのアクセス権がありません。';
 $string['siteprivacystatementnotfound'] = 'ID %s のサイトプライバシー保護方針は見つかりませんでした。';
 $string['institutionprivacystatementnotfound'] = '「 %s 」のプライバシー保護方針 (ID: %s) は見つかりませんでした。';
 $string['viewnotfoundexceptiontitle'] = 'ページが見つかりませんでした。';
