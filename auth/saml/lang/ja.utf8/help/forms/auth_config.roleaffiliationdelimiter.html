@@ -1,0 +1,17 @@
+<!-- @license http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later -->
+<!-- @copyright For copyright information on Mahara, please see the README file distributed with this software. -->
+<h1>affiliationロールデリミタのSAML 2.0フィールド</h1>
+<p>アイデンティティプロバイダ (IdP) はアカウント保持者のaffiliation情報を渡せます。このフィールドは次と連動して動作します</p>
+    <ul>
+      <li>affiliation IDのSSOフィールド</li>
+      <li>affiliationメールアドレスのSSOフィールド</li>
+      <li>affiliationロールデリミタのSSOフィールド</li>
+    </ul>
+
+<p>あなたがこれらのロールマッピングフィールドを設定した場合、アカウント保持者にはインスティテューションにおいてaffiliationロール配列で渡された関連するロールが付与されます。</p>
+<p>デリミタ値はストリングをロールおよびインスティテューション構成要素に分離するため使用されます。例えばデリミタが「@」の場合、「staffmember@institute_a」を「ロール = staffmember」「インスティテューション = institute_a」に分離します。</p>
+<p>これはIdPから渡されたロール関連付けが「staffmember@institute_a」および「administrator@institute_b」の場合、以下のロールマッピングが実施されることを意味します:</p>
+  <ul>
+    <li>staffmember@institution_a: インスティテューション「institution_a」のインスティテューションスタッフ</li>
+    <li>administrator@institution_b: インスティテューション「institution_b」のインスティテューション管理者<</li>
+  </ul>

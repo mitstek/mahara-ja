@@ -1,0 +1,12 @@
+<!-- @license http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later -->
+<!-- @copyright For copyright information on Mahara, please see the README file distributed with this software. -->
+<h1>affiliationメールアドレスのSAML 2.0フィールド</h1>
+<p>アイデンティティプロバイダ (IdP) はアカウント保持者のaffiliation情報を渡せます。このフィールドは次と連動して動作します</p>
+    <ul>
+      <li>affiliation IDのSSOフィールド</li>
+      <li>affiliationロールのSSOフィールド</li>
+      <li>affiliationロールデリミタのSSOフィールド</li>
+    </ul>
+
+<p>あなたがこの値を設定した場合、システムはどのaffiliationロールが最も高いかチェックしてアカウント保持者の初回ログイン時に関連するメールアドレスを主メールアドレスに設定します。</p>
+<p>あなたがこのフィールドを空白にした場合、代わりに「メールアドレスのSSOフィールド」の値が使用されます。</p>
