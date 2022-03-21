@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-15 21:08:17 UTC
+ * @updated    2022-03-21 02:45:49 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -170,6 +170,7 @@ $string['showmore'] = 'さらに表示する';
 $string['accept'] = '承認';
 $string['memberofinstitutions'] = '%s のメンバー';
 $string['staffofinstitutions'] = '%s のスタッフ';
+$string['supportadminofinstitutions'] = '%s のサポート管理者';
 $string['adminofinstitutions'] = '%s の管理者';
 $string['reject'] = '拒否';
 $string['sendrequest'] = 'リクエストを送信する';

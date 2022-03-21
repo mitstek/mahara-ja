@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-03-04 05:09:01 UTC
+ * @updated    2022-03-21 02:58:55 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -790,6 +790,7 @@ $string['institutionadminuserspagedescription1'] = 'ここであなたはどの�
 $string['potentialadmins'] = '潜在的な管理者';
 $string['currentadmins'] = '現在の管理者';
 $string['adminusersupdated'] = '管理者が更新されました。';
+$string['institutionsupportadminpagedescription'] = 'ここではあなたのインスティテューションでインスティテューションサポート管理者になるインスティテューションメンバーを選択できます。現在のサポート管理者は「インスティテューションサポート管理者」フィールドに表示されます。潜在的なサポート管理者は「インスティテューションメンバー」フィールドに表示されます。';
 $string['staffuserspagedescription1'] = 'ここであなたはどの人をサイトのスタッフにするか選択できます。現在のスタッフは「現在のスタッフ」フィールドに潜在的なスタッフは「潜在的なスタッフ」フィールドに一覧表示されます。';
 $string['institutionstaffuserspagedescription1'] = 'ここであなたはどのインスティテューションメンバーをあなたのインスティテューションのスタッフにするか選択できます。現在のスタッフは「インスティテューションスタッフ」フィールドに潜在的なスタッフは「インスティテューションメンバー」フィールドに一覧表示されます。';
 $string['potentialstaff'] = '潜在的なスタッフ';
@@ -994,6 +995,8 @@ $string['institutionadmin'] = 'インスティテューション管理者';
 $string['institutionadmins'] = 'インスティテューション管理者';
 $string['institutionadministrator'] = 'インスティテューション管理者';
 $string['institutionadmindescription1'] = 'この人がこのインスティテューションのすべての人を管理できるようにします。';
+$string['institutionsupportadmin'] = 'インスティテューションサポート管理者';
+$string['institutionsupportadmindescription'] = 'この人がこのインスティテューションの権限の少ない他の人 (例 メンバーおよびスタッフ) として代理ログインすることを許可します。';
 $string['settingsfor'] = '設定:';
 $string['institutionmembers'] = 'インスティテューションメンバー';
 $string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
@@ -1067,10 +1070,11 @@ $string['Maximummembers'] = '最大メンバー数';
 $string['Maximumgroups'] = '最大グループ数';
 $string['Staff'] = 'スタッフ';
 $string['Admins'] = '管理者';
+$string['Supportadmins'] = 'サポート管理者';
 $string['noinstitutions'] = 'インスティテューションはありません。';
 $string['noinstitutionsdescription'] = 'あなたが人をインスティテューションと関連付けたい場合、最初にインスティテューションを作成してください。';
 $string['noinstitutionreports'] = 'インスティテューションレポートを表示できません。';
-$string['noinstitutionreportsdescription1'] = 'サイトがスタッフにインスティテューションレポートを閲覧できるようにするにはスタッフレポートアクセスを有効にする必要があります。サイト管理者は<a href="%sadmin/site/options.php">サイト設定</a>の「インスティテューション設定」でこの設定を有効にできます。';
+$string['noinstitutionreportsdescription2'] = 'サイトがスタッフまたはサポート管理者にインスティテューションレポートを閲覧できるようにするにはインスティテューションレポートアクセスを有効にする必要があります。サイト管理者は<a href="%sadmin/site/options.php">サイト設定</a>の「インスティテューション設定」でこの設定を有効にできます。';
 $string['noinstitutionstaticpages'] = 'あなたにはインスティテューション固定ページを編集するパーミッションがないかまだインスティテューションが作成されていません。';
 $string['noinstitutionstaticpagesadmin'] = 'あなたがサイト管理者の場合、<a href="%s">サイト設定</a>でデフォルト固定ページを編集してください。';
 $string['Lockedfields'] = 'ロックフィールド';

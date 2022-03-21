@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-10-01 04:33:45 UTC
+ * @updated    2022-03-21 02:49:29 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -94,10 +94,15 @@ $string['samlfieldforavatar'] = 'アバタアイコンのSSOフィールド';
 $string['samlfieldforavatardescription'] = '提供されるアバタにはBase64エンコードされたイメージストリングを含む必要があります。';
 $string['samlfieldforrole'] = 'ロールのSSOフィールド';
 $string['samlfieldforroleprefix'] = 'ロール接頭辞のSSOフィールド';
+$string['samlfieldforidaffiliations'] = 'affiliation IDのSSOフィールド';
+$string['samlfieldforemailaffiliations'] = 'affiliationメールアドレスのSSOフィールド';
+$string['samlfieldforroleaffiliations'] = 'affiliationロールのSSOフィールド';
+$string['samlfieldforroleaffiliationdelimiter'] = 'ロールデリミタ文字';
 $string['samlfieldforrolesiteadmin'] = '「サイト管理者」のロールマッピング';
 $string['samlfieldforrolesitestaff'] = '「サイトスタッフ」のロールマッピング';
 $string['samlfieldforroleinstadmin'] = '「インスティテューション管理者」のロールマッピング';
 $string['samlfieldforroleinststaff'] = '「インスティテューションスタッフ」のロールマッピング';
+$string['samlfieldforroleinstsupportadmin'] = '「インスティテューションサポート管理者」のロールマッピング';
 $string['samlfieldfororganisationname'] = '組織のSSOフィールド';
 $string['populaterolestoallsaml'] = 'すべてのSAMLインスタンスにロールをコピーする';
 $string['populaterolestoallsamldescription'] = 'この設定が有効にされた場合、フォーム送信時にすべての「ロール」フィールドの値が同じアイデンティティプロバイダを使用する他のすべてのSAML認証インスタンスにコピーされます。その後、このフィールドは「No」にリセットされます。';

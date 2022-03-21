@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-10-01 04:31:13 UTC
+ * @updated    2022-03-21 02:45:22 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -192,3 +192,4 @@ $string['profilesavedsuccessfully'] = 'ソーシャルメディアアカウン�
 $string['socialprofilerequired'] = '少なくとも1つのソーシャルメディアアカウントが必要です。';
 $string['duplicateurl'] = 'すでに入力したものとユーザ名またはURLが重複しているため、あなたはこのソーシャルメディアアカウントを追加できません。';
 $string['notes'] = 'ノート';
+$string['supportadmin'] = 'サポート管理者';
