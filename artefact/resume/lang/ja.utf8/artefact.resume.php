@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-17 15:37:38 UTC
+ * @updated    2022-03-22 23:39:19 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,6 +16,8 @@ defined('INTERNAL') || die();
 $string['pluginname'] = 'レジュメ';
 $string['introduction'] = '自己紹介';
 $string['educationandemployment'] = '教育および雇用';
+$string['education'] = '教育';
+$string['employment'] = '雇用';
 $string['achievements'] = '業績';
 $string['goals'] = 'ゴール';
 $string['skills'] = 'スキル';
