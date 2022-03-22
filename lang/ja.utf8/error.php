@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-03-21 03:52:13 UTC
+ * @updated    2022-03-22 05:48:47 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -102,11 +102,11 @@ $string['viewnotfoundbyname'] = 'ページ %s (作成: %s) は見つかりませ
 $string['youcannotviewthisusersprofile'] = 'あなたはこのプロファイルを閲覧できません。';
 $string['notinthesamegroup'] = 'あなたは同じグループのメンバーではないためこのプロファイルを閲覧できません。';
 $string['notinthesameinstitution'] = 'あなたは同じインスティテューションのメンバーではないためこのプロファイルを閲覧できません。';
-$string['notinstitutionmember'] = 'あなたはページが属しているインスティテューションのメンバーではないためこのページを閲覧できません。';
+$string['notinstitutionmember'] = 'あなたはこのページが属しているインスティテューションのメンバーではないためこのページを閲覧できません。';
 $string['invalidlayoutselection'] = 'あなたは存在しないレイアウトの選択を試みました。';
 $string['previewimagegenerationfailed'] = '申し訳ございません、プレビューイメージの生成中に問題が発生しました。';
-$string['viewtemplatenotfound'] = 'デフォルトのページテンプレートが見つかりませんでした。';
-$string['artefactnotfoundmaybedeleted'] = 'ID %s のアーティファクトは見つかりませんでした (もしかして削除されましたか?)。';
+$string['viewtemplatenotfound'] = 'デフォルトページテンプレートが見つかりませんでした。';
+$string['artefactnotfoundmaybedeleted'] = 'ID %s のアーティファクトは見つかりませんでした (もしかしてすでに削除されていますか?)。';
 $string['artefactnotfound'] = 'ID %s のアーティファクトは見つかりませんでした。';
 $string['artefactsnotfound'] = '次のIDのアーティファクトは見つかりませんでした: %s';
 $string['artefactnotinview'] = 'アーティファクト %s はページ %s にありません。';
