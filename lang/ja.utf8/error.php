@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-03-22 05:48:47 UTC
+ * @updated    2022-03-27 22:57:51 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -114,7 +114,7 @@ $string['artefactonlyviewableinview'] = 'このタイプのアーティファク
 $string['notartefactowner'] = 'あなたはこのアーティファクトを所有していません。';
 $string['blockinstancenotfound'] = 'ID %s のブロックインスタンスは見つかりませんでした。';
 $string['interactioninstancenotfound'] = 'ID %s の活動インスタンスは見つかりませんでした。';
-$string['invalidviewaction'] = '無効なページコントロール: %s';
+$string['invalidviewaction'] = '無効なページコントロール操作: %s';
 $string['invaliduser'] = '無効なアカウントが選択されました。';
 $string['missingparamblocktype'] = '最初に追加するブロックタイプを選択してください。';
 $string['missingparamorder'] = '並べ替え順設定がありません。';
