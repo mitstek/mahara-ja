@@ -111,13 +111,13 @@ $string['notenoughsessionentropy'] = 'あなたのsession.entropy_length設定�
 $string['switchtomysqli'] = 'あなたのサーバには<strong>mysqli</strong> PHP拡張モジュールがインストールされていません。そのためMaharaは廃止予定のオリジナル<strong>mysql</strong> PHP拡張モジュールに戻っています。私たちは<a href="https://php.net/manual/en/book.mysqli.php">mysqli</a>のインストールをお勧めします。';
 $string['noreplyaddressmissingorinvalid'] = 'システムメールアドレスに空白または有効ではないメールアドレスが設定されています。<a href="%s">サイトオプション内の「メール設定」</a>の設定内容を確認してください。';
 $string['openbasedirenabled'] = 'あなたのサーバではPHPの「open_basedir」制限が有効にされています。';
-$string['openbasedirpaths'] = 'Maharaは次のパス内でのみファイルを開くことができます: %s';
+$string['openbasedirpaths'] = 'Maharaは次のパス内でのみファイルを開けます: %s';
 $string['openbasedirwarning'] = 'いくつかの外部サイトへのリクエストを完了できない可能性があります。特にフィードの更新が停止してしまう場合があります。';
 $string['gdlibrarylacksgifsupport'] = 'インストール済みPHP GDライブラリはGIFイメージの作成および読み込みをサポートしていません。GIFイメージのアップロードにはフルサポートが必要です。';
 $string['gdlibrarylacksjpegsupport'] = 'インストール済みPHP GDライブラリはJPEG/JPGイメージの作成および読み込みをサポートしていません。JPEG/JPGイメージのアップロードにはフルサポートが必要です。';
 $string['gdlibrarylackspngsupport'] = 'インストール済みPHP GDライブラリはPNGイメージの作成および読み込みをサポートしていません。PNGイメージのアップロードにはフルサポートが必要です。';
 $string['nopasswordsaltset'] = 'サイト全体のパスワードsaltが設定されていません。あなたのconfig.phpを編集して「passwordsaltmain」パラメータに妥当なシークレットフレーズを設定してください。';
 $string['passwordsaltweak'] = 'あなたのサイト全体のパスワードsaltの強さが十分ではありません。あなたのconfig.phpを編集してさらに長いシークレットフレーズを「passwordsaltmain」パラメータに設定してください。';
-$string['notproductionsite'] = 'このサイトは実運用モードに入っていません。いくつかのデータは利用できないか古い可能性があります。';
+$string['notproductionsite'] = 'このサイトは実運用モードではありません。いくつかのデータは利用できないか古い可能性があります。';
 
 ?>
