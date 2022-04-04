@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-03-18 03:07:59 UTC
+ * @updated    2022-04-04 00:12:10 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['allmydata'] = '私のデータすべて';
 $string['chooseanexportformat'] = 'エクスポートフォーマットを選択する';
 $string['exportarchivedescription1'] = 'あなたはエクスポート時に選択したコンテンツを含むHTMLおよびLeap2AのZIPアーカイブを受け取ります。あなたのポートフォリオをブラウザでindex.htmlファイル経由で閲覧するか、Leap2Aフォーマットをサポートする別のポートフォリオプラットフォームにコンテンツをインポートできます。';
-$string['exportarchivedescriptionpdf'] = 'あなたはエクスポート時に選択したコンテンツを含むHTML、Leap2AおよびPDFのZIPアーカイブを受け取ります。あなたのポートフォリオをブラウザでindex.htmlファイル経由で閲覧するか、エクスポートされたPDFファイルを閲覧するか、またはLeap2Aフォーマットをサポートする別のポートフォリオプラットフォームにコンテンツをインポートできます。';
+$string['exportarchivedescriptionpdf'] = 'あなたはエクスポート時に選択したコンテンツを含むHTML、Leap2AおよびPDFのZIPアーカイブを受け取ります。あなたのポートフォリオをブラウザでindex.htmlファイル経由で閲覧するか、エクスポートされたPDFファイルを閲覧するか、Leap2Aフォーマットをサポートする別のポートフォリオプラットフォームにコンテンツをインポートできます。';
 $string['clicktopreview'] = 'クリックしてプレビューする';
 $string['collectionstoexport'] = 'エクスポートするコレクション';
 $string['creatingzipfile'] = 'ZIPファイル作成中';
