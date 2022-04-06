@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-03-21 02:58:55 UTC
+ * @updated    2022-04-06 23:26:18 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1346,7 +1346,7 @@ $string['cli_deleteinactivegroups_groupcount'] = '削除対象グループ数: %
 $string['cli_deleteinactivegroups_nogroupstodelete'] = '削除するグループはありません。';
 $string['cli_deleteinactivegroups_emptygroups'] = 'メンバーなしのグループのみ削除します。';
 $string['cli_deleteinactivegroups_groupunabletoclean'] = 'グループ「 %s 」(ID %s) を完全に削除できません。';
-$string['withselectedcontentexport'] = 'アイテムを再度エクスポートキューに入れる';
+$string['withselectedcontentexport'] = 'アイテムを再度エクスポートキューに追加する';
 $string['withselectedcontentdelete'] = '選択したアイテムをエクスポートキューから削除する';
 $string['withselectedcontentrelease'] = '選択したアイテムをリリースする';
 $string['allothers'] = 'その他すべて';
