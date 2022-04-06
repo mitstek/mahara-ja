@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-04-04 00:12:10 UTC
+ * @updated    2022-04-06 00:15:15 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -75,8 +75,8 @@ $string['youarehere'] = 'あなたはここにいます';
 $string['youmustselectatleastonecollectiontoexport'] = 'あなたはエクスポートするコレクションを少なくとも1つ選択する必要があります。';
 $string['youmustselectatleastoneviewtoexport'] = 'あなたはエクスポートするページを少なくとも1つ選択する必要があります。';
 $string['zipnotinstalled'] = 'あなたのシステムにはZIPコマンドがありません。この機能を有効にするにはZIPをインストールしてください。';
-$string['addedleap2atoexportqueuecollections'] = 'あなたのコレクションをエクスポートキューに追加しました。';
-$string['addedleap2atoexportqueueviews'] = 'あなたのページをエクスポートキューに追加しました。';
+$string['addedleap2atoexportqueuecollections'] = 'あなたのコレクションの一部をエクスポートキューに追加しました。';
+$string['addedleap2atoexportqueueviews'] = 'あなたのページの一部をエクスポートキューに追加しました。';
 $string['addedleap2atoexportqueueall'] = 'あなたのデータすべてをエクスポートキューに追加しました。';
 $string['exportqueuenotempty'] = 'この人のアイテムがエクスポートキューにあります。アーカイブされるまでお待ちください。';
 $string['requeue'] = '再度キューに追加する';
