@@ -1153,7 +1153,7 @@ $string['cli_restore_done'] = '「 %s 」のバックアップのリストアを
 $string['cli_restore_warning'] = '*** 警告 *** 「 %s 」のバックアップをリストアできません。';
 $string['cli_tmpdir_notwritable'] = '一時アップロードディレクトリ「 %s 」に書き込み権がありません。';
 $string['cli_lang_branch'] = 'シリーズ「 %s 」の言語パックを取得するためのMaharaシリーズバージョン';
-$string['withselectedcontentexport'] = 'アイテムを再度エクスポートキューに入れる';
+$string['withselectedcontentexport'] = 'アイテムを再度エクスポートキューに追加する';
 $string['withselectedcontentdelete'] = '選択したアイテムをエクスポートキューから削除する';
 
 ?>
