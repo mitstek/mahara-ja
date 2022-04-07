@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-04-06 23:26:18 UTC
+ * @updated    2022-04-07 01:41:30 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -786,7 +786,7 @@ $string['importfailedfornusers'] = '%d / %d のアカウントのインポート
 $string['invalidlistingfile'] = '無効なユーザ名リストです。あなたはこれらのアカウントのエクスポートにMaharaバルクエクスポータを使用しましたか?';
 $string['importing'] = 'インポート中';
 $string['adminuserspagedescription1'] = '<p>ここであなたはどの人をサイトの管理者にするか選択できます。現在の管理者は「現在の管理者」フィールドに潜在的な管理者は「潜在的な管理者」フィールドに一覧表示されます。</p><p>システムには少なくとも1名のサイト管理者を設定する必要があります。</p>';
-$string['institutionadminuserspagedescription1'] = 'ここであなたはどのインスティテューションメンバーをインスティテューションの管理者するか選択できます。現在の管理者は「現在の管理者」フィールドに潜在的な管理者は「インスティテューションメンバー」フィールドに一覧表示されます。';
+$string['institutionadminuserspagedescription1'] = 'ここであなたはどのインスティテューションメンバーをインスティテューション管理者にするか選択できます。現在の管理者は「現在の管理者」フィールドに潜在的な管理者は「インスティテューションメンバー」フィールドに一覧表示されます。';
 $string['potentialadmins'] = '潜在的な管理者';
 $string['currentadmins'] = '現在の管理者';
 $string['adminusersupdated'] = '管理者が更新されました。';
