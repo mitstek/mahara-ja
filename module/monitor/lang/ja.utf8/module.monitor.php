@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-06-23 01:05:09 UTC
+ * @updated    2022-04-10 23:16:03 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,6 +15,9 @@ defined('INTERNAL') || die();
 
 $string['monitor'] = 'モニタ';
 $string['monitoringchecks'] = 'モニタリングチェック';
+$string['configmonitortype_searchlegend'] = '検索設定';
+$string['configmonitortype_searchhoursuntiloldtitle'] = '検索キューが古いみなされる時間';
+$string['configmonitortype_searchhoursuntilolddescription'] = '検索記録が注目される前に未処理のままにできる時間です。';
 $string['cronlockhours'] = 'cronロック時間';
 $string['cronlockhoursdescription'] = 'cronプロセスを実行する最大時間数です。';
 $string['hourstoconsiderelasticsearchrecordold'] = 'Elasticsearchキューを古いとみなす時間';
@@ -47,15 +50,29 @@ $string['queuehasolditems'] = '%s 時間以上処理されていないElasticsea
 $string['unprocessedqueuesize'] = '未処理レコード合計数';
 $string['yes'] = 'Yes';
 $string['no'] = 'No';
+$string['clistatuscritical'] = 'クリティカル';
+$string['clistatusok'] = 'OK';
 $string['checkingelasticsearcholdunprocesessedfail'] = 'クリティカル: %s 時間より古いElasticsearchキューに未処理レコードがあります。';
 $string['checkingelasticsearchfailedrecords'] = 'クリティカル: 1 時間より古いElasticsearchキューに失敗レコードがあります。';
 $string['checkingelasticsearchsucceed'] = 'OK: Elasticsearchキューに未処理および失敗レコードはありません。';
-$string['elasticsearchcheckhelp'] = 'Elasticsearchプロセスキューを確認します。
+$string['elasticsearchcheckhelp'] = 'Elasticsearchプロセスキューを確認します:
 
 elasticsearchcheck.php [オプション] mahara_path
 
 オプション:
--h, --help このヘルプを表示します。';
+-h, --help このヘルプを表示します。
+
+例:
+sudo -u www-data /usr/bin/php elasticsearchcheck.php /var/www/mymaharaproject';
+$string['searchcheckhelp'] = '検索プロセスキューを確認します:
+
+searchcheck.php [options] mahara_path
+
+オプション:
+-h, --help このヘルプを表示します。
+
+例:
+sudo -u www-data /usr/bin/php searchcheck.php /var/www/mymaharaproject';
 $string['ldapstatussuccess'] = 'LDAPチェックに成功しました。';
 $string['ldapstatusfail'] = '次のエラーでLDAPチェックに失敗しました: %d';
 $string['ldapcheckhelp'] = '動作していないLDAPインスタンスを特定します。
