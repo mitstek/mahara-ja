@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-04-10 23:16:03 UTC
+ * @updated    2022-04-10 23:31:38 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['monitor'] = 'モニタ';
 $string['monitoringchecks'] = 'モニタリングチェック';
 $string['configmonitortype_searchlegend'] = '検索設定';
-$string['configmonitortype_searchhoursuntiloldtitle'] = '検索キューが古いみなされる時間';
+$string['configmonitortype_searchhoursuntiloldtitle'] = '検索キューが古いとみなされる時間';
 $string['configmonitortype_searchhoursuntilolddescription'] = '検索記録が注目される前に未処理のままにできる時間です。';
 $string['cronlockhours'] = 'cronロック時間';
 $string['cronlockhoursdescription'] = 'cronプロセスを実行する最大時間数です。';

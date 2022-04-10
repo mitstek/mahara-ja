@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-04-10 23:30:53 UTC
+ * @updated    2022-04-10 23:34:23 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -27,6 +27,10 @@ $string['collection'] = 'コレクション';
 $string['confignotset'] = '(未設定)';
 $string['connectionerror'] = '接続エラー';
 $string['cronlimit'] = 'Cronレコード制限';
+$string['dateoldestfirst'] = '日付 (古いものから)';
+$string['daterecentfirst'] = '日付 (新しいものから)';
+$string['deleted'] = '削除済み';
+$string['deletedforumpost'] = '削除済みフォーラム投稿';
 $string['document'] = 'ドキュメント';
 $string['error'] = 'エラー:';
 $string['errorunknown'] = '不明なエラー';
@@ -74,6 +78,8 @@ $string['systemmessage'] = 'システムメッセージ:';
 $string['tags'] = 'タグ';
 $string['tagsonly'] = 'タグのみ';
 $string['Text'] = 'テキスト';
+$string['types'] = 'Elasticsearchタイプ';
 $string['typesdescription'] = 'インデックス作成のためのカンマ区切りの要素一覧です。デフォルトは次のとおりです: %';
+$string['unassignedshards'] = '未割り当てシャード: %s';
 $string['username'] = '認証ユーザ名';
 $string['Users'] = '人';
