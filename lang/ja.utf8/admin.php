@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-04-11 02:34:37 UTC
+ * @updated    2022-04-11 07:18:13 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -791,6 +791,7 @@ $string['potentialadmins'] = '潜在的な管理者';
 $string['currentadmins'] = '現在の管理者';
 $string['adminusersupdated'] = '管理者が更新されました。';
 $string['institutionsupportadminpagedescription'] = 'ここではあなたのインスティテューションでインスティテューションサポート管理者になるインスティテューションメンバーを選択できます。現在のサポート管理者は「インスティテューションサポート管理者」フィールドに表示されます。潜在的なサポート管理者は「インスティテューションメンバー」フィールドに表示されます。';
+$string['supportadminusersupdated'] = 'サポート管理者が更新されました。';
 $string['staffuserspagedescription1'] = 'ここであなたはどの人をサイトのスタッフにするか選択できます。現在のスタッフは「現在のスタッフ」フィールドに潜在的なスタッフは「潜在的なスタッフ」フィールドに一覧表示されます。';
 $string['institutionstaffuserspagedescription1'] = 'ここであなたはどのインスティテューションメンバーをあなたのインスティテューションのスタッフにするか選択できます。現在のスタッフは「インスティテューションスタッフ」フィールドに潜在的なスタッフは「インスティテューションメンバー」フィールドに一覧表示されます。';
 $string['potentialstaff'] = '潜在的なスタッフ';
