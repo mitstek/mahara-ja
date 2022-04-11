@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-03-18 03:19:19 UTC
+ * @updated    2022-04-11 02:40:55 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -483,7 +483,7 @@ $string['itemdropped'] = 'アイテムドロップ: %s';
 $string['itemreorder'] = 'リストが並べ替えられました。%s アイテムのポジションが %s / %s になりました。';
 $string['reordercancelled'] = '並べ替えがキャンセルされました。';
 $string['accessibilitymodedescription1'] = 'このページではアクセシブルレイアウトが有効にされています。ページにブロックを追加するには「新しいブロックを追加する」ボタンをクリックしてください。<br />
-このモードではページはページ幅一杯に次々と表示されます。ブロックの位置を変更するにはそのブロックに移動して「Enter」キーでそのブロックを掴んだ後、矢印キーでブロックのリストを上下に動かしてください。';
+このモードではページはページ幅一杯に次々と表示されます。ブロックの位置を変更するにはそのブロックに移動して「Enter」キーでそのブロックを掴んだ後、あなたのキーボードの矢印キーでブロックのリストを上下に動かしてください。';
 $string['blocktypeis'] = '%s ブロックタイプ';
 $string['coverimage'] = 'カバーイメージ';
 $string['coverimagefolder'] = 'カバーイメージ';

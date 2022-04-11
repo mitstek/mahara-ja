@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-04-07 01:41:30 UTC
+ * @updated    2022-04-11 02:34:37 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1312,7 +1312,7 @@ $string['cli_param_dryrun'] = 'ドライランで何が起きるか表示しま�
 $string['cli_deleteinactiveusers_beforedate'] = '最終ログイン日がこの日付より前のアカウントを削除します。日付には次のような日時ストリングを使用できます: 「2018-02-25」または「-6 months」';
 $string['cli_deleteinactiveusers_limit'] = 'それぞれの削除で処理するアカウント数を制限します。';
 $string['cli_deleteinactiveusers_cleanusers'] = '同時に「usr」テーブルからアカウントの削除を試みます。';
-$string['cli_deleteinactiveusers_info'] = 'あなたはこのコマンドラインPHPスクリプトで古いアカウントを削除できます。ログインしていないかフォーラムに一度も投稿していない人のみ処理されます。';
+$string['cli_deleteinactiveusers_info1'] = 'あなたはこのコマンドラインPHPスクリプトで特定の条件 (特定の日付以降にログインしていない、特定のグループに属している等) に基づき古いアカウントを削除できます。アカウントが共同作業に参加していない場合のみ、あなたは「cleanusers」フラグでデータベースからアカウントを完全に削除できます。';
 $string['cli_deleteinactiveusers_neverloggedin'] = '管理者によって設定されて一度もログインしていなアカウントを削除します。';
 $string['cli_param_baddate'] = '提供された日付「 %s 」は有効ではありません。';
 $string['cli_deleteinactiveusers_usercount'] = '削除対象アカウントは「 %s 」名です。';

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-04-06 04:27:22 UTC
+ * @updated    2022-04-11 02:24:06 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -374,7 +374,7 @@ $string['accessdeniedforinstuserauth'] = '同等の認証方法がないため�
 $string['accessdeniedforinstgroup'] = 'インスティテューション「 %s 」 (グループ「 %s 」) へのアクセスが拒否されました。';
 $string['usernameexists2'] = 'ユーザ名「 %s 」は有効ではありません。';
 $string['invalidauthtype'] = '無効な認証タイプ「 %s 」です。';
-$string['invalidauthtypeuser'] = '無効な認証タイプ「 %s (ユーザ: %s)」 です。';
+$string['invalidauthtypeuser'] = '無効な認証タイプ「 %s (アカウント: %s)」 です。';
 $string['invalidsocialprofile'] = '無効なソーシャルプロファイル「 %s 」です。';
 $string['instexceedmax'] = '最大ユーザアカウント数を超えたインスティテューション「 %s 」';
 $string['cannotdeleteaccount'] = '使用中および未保留のアカウントは削除できません。ユーザID「 %s 」';
