@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-04-11 02:10:51 UTC
+ * @updated    2022-04-11 02:19:45 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -73,7 +73,7 @@ $string['monitorunprocessedqueuesize'] = '未処理レコード合計数';
 $string['monitorqueuestatus'] = 'Elasticsearch 7キューステータス';
 $string['monitorsubnavtitle'] = 'Elasticsearch 7';
 $string['none'] = 'なし';
-$string['noticeenabled'] = '現在、Elasticsearch 7プラグインは有効です。無効にするにはT<a href="%s" class="elasticsearch-status">「検索設定」</a>で選択解除してください。';
+$string['noticeenabled'] = '現在、Elasticsearch 7プラグインは有効です。無効にするには<a href="%s" class="elasticsearch-status">「検索設定」</a>で選択解除してください。';
 $string['noticenotactive'] = 'Elasticsearch 7 サーバにホスト %s およびポート %s で到達できません。Elasticsearch 7 サーバが動作していることを確認してください。';
 $string['noticenotenabled'] = '現在、Elasticsearch 7プラグインは有効にされていません。有効化するには<a href="%s">「検索設定」</a>で選択してください。';
 $string['owner'] = 'オーナー';
