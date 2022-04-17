@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-15 21:07:55 UTC
+ * @updated    2022-04-17 03:46:28 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -39,7 +39,7 @@ $string['canteditdontown'] = 'あなたの所有ではないためこのグル�
 $string['groupdescription'] = 'グループ説明';
 $string['groupurl'] = 'グループホームページURL';
 $string['groupurldescription'] = 'あなたのグループホームページのURLです。このフィールドの長さは半角3-30文字にしてください。';
-$string['groupurltaken'] = 'このURLはすでに他のグループに取得されています。';
+$string['groupurltaken'] = 'このURLはすでに別のグループに取得されています。';
 $string['Membership'] = 'メンバーシップ';
 $string['Roles'] = 'ロール';
 $string['Open'] = 'オープン';
@@ -54,7 +54,7 @@ $string['membershiptype.open'] = 'オープンメンバーシップ';
 $string['membershiptype.abbrev.controlled'] = '管理';
 $string['membershiptype.abbrev.approve'] = 'ノーマル';
 $string['membershiptype.abbrev.open'] = 'オープン';
-$string['membershipopencontrolled'] = 'メンバーシップをオープンおよび管理の両方にできません。';
+$string['membershipopencontrolled'] = 'メンバーシップをオープンおよび管理の両方にはできません。';
 $string['membershipopenrequest'] = 'オープンメンバーシップグループではメンバーシップリクエストを受け付けません。';
 $string['requestmembership'] = 'リクエストメンバーシップ';
 $string['pendingmembers'] = '保留中メンバー';
