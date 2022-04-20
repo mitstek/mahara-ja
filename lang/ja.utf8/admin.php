@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-04-19 02:16:59 UTC
+ * @updated    2022-04-20 00:08:34 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -470,10 +470,10 @@ $string['smallviewheaders'] = 'スモールページヘッダ';
 $string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧および編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
 $string['spamhaus2'] = 'Spamhaus URL拒否リスト';
 $string['spamhausdescription1'] = 'URLをSpamhaus DNSBLと照合します。';
-$string['staffaccessreports'] = 'スタッフによるレポートアクセス';
-$string['staffaccessreportsdescription1'] = 'サイトおよびインスティテューションスタッフがインスティテューションの「アカウント詳細」「ポートフォリオアクセス」および「マスカレーディングセッション」レポートにアクセスできるようにします。通常、これらのレポートは管理者に制限されます。';
-$string['institutionstaffallreports'] = 'インスティテューションスタッフのすべてのレポート';
-$string['institutionstaffallreportsdescription'] = 'インスティテューションスタッフがインスティテューションのすべてのレポートにアクセスできるようにします。通常、これらのレポートは管理者およびサイトスタッフに制限されます。';
+$string['staffaccessreports1'] = 'スタッフおよびサポート管理者によるレポートアクセス';
+$string['staffaccessreportsdescription2'] = 'サイトスタッフ、インスティテューションスタッフおよびサポート管理者がインスティテューションの「アカウント詳細」「法的同意」「マスカレーディングセッション」および「ポートフォリオアクセス」レポートにアクセスできるようにします。通常、これらのレポートは管理者に制限されます。';
+$string['institutionstaffallreports1'] = 'インスティテューションスタッフおよびサポート管理者のすべてのレポート';
+$string['institutionstaffallreportsdescription1'] = 'インスティテューションスタッフおよびおよびサポート管理者がインスティテューションのすべてのレポートにアクセスできるようにします。通常、これらのレポートは管理者およびサイトスタッフに制限されます。';
 $string['surbl2'] = 'SURBL URL拒否リスト';
 $string['surbldescription1'] = 'URLをSURBL DNSBLと照合します。';
 $string['disableexternalresources'] = 'HTML内の外部リソースを無効にする';
