@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-04-20 00:08:34 UTC
+ * @updated    2022-04-22 05:25:35 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -200,16 +200,16 @@ $string['generateduserurls'] = '%s プロファイルURLを生成しました。
 $string['generatedgroupurls'] = '%s グループホームページURLを生成しました。';
 $string['generatedviewurls'] = '%s ポートフォリオページURLを生成しました。';
 $string['cleanurlsdescriptionshort'] = '人間が解読可能なURLを使用するようサイトを設定します。';
-$string['embeddedurlstitle'] = '埋め込みURLを更新する';
-$string['embeddedurlsdescription'] = '<p>あなたのURLを変更した場合、埋め込みコンテンツ内の既存のURLは間違った場所を指定することになります。</p><p>あなたはここで古いURLドメインを指定して修正できます。</p>';
-$string['nopotentialembeddedurls'] = '<p>潜在的な古いURLは検出されませんでした。</p>';
-$string['potentialembeddedurls'] = '<p>次のセクションには古いURLが含まれているようです。</p>';
+$string['embeddedurlstitle1'] = '埋め込みURL';
+$string['embeddedurlsdescription1'] = '<p>あなたのサイトのURLを変更した場合、ページインストラクション、テキストブロックおよびフォーラム等のテキスト内のサイトのコンテンツへの既存のリンクは間違った場所を指定することになります。</p><p>潜在的に古いURLが検出された場合、あなたはここで古いURLのドメインを指定および更新して修正できます。</p>';
+$string['nopotentialembeddedurls1'] = '<p>潜在的な古いURLは検出されませんでした。</p>';
+$string['potentialembeddedurls1'] = '<p>古いURLが検出されました。</p>';
 $string['oldurl'] = '古いサイトURL';
 $string['oldurldescription'] = '古いサイトのURLパスを入力してください。例) 「https://oldsite.com」を入力して何か更新する必要があるか確認します。';
 $string['checkurl'] = 'URLをチェックする';
 $string['domigrateurls'] = 'URLを更新する';
 $string['migrateurlsdescription'] = '「 %s 」で始まる埋め込みURLすべてを「 %s 」で始まるよう変更します。';
-$string['migrateurlsconfirm'] = '移行確認';
+$string['migrateurlsconfirm1'] = 'URLの更新を承認する';
 $string['migratedbasicurls'] = '%s コンテンツURLを更新しました。';
 $string['migratedblockurls'] = '%s ブロックコンテンツURLを更新しました。';
 $string['section_view_instructions'] = 'ページインストラクション';
