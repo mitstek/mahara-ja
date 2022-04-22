@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-04-11 10:07:30 UTC
+ * @updated    2022-04-22 02:14:50 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,13 +18,13 @@ $string['all'] = 'すべて';
 $string['analyzer'] = 'Elasticsearchアナライザ';
 $string['analyzerdescription'] = '使用するElasticsearchアナライザクラスです。デフォルトは次のとおりです: %s';
 $string['artefacttypes'] = 'アーティファクトタイプ';
-$string['artefacttypesdescription'] = 'あなたがインデックスに含みたいアーティファクトタイプをチェックしてください。階層定義されたアーティファクトタイプのみ有効です。あなたの変更を反映させるにはキュー内のアーティファクトをリセットする必要があります。';
+$string['artefacttypesdescription'] = 'あなたがインデックスに含みたいアーティファクトタイプをチェックしてください。階層定義されたアーティファクトタイプのみ有効です。あなたの変更を反映させるにはキュー内のアーティファクトをリセットしてください。';
 $string['artefacttypesmap'] = 'アーティファクトタイプ階層';
 $string['artefacttypesmapdescription'] = 'それぞれのアーティファクトタイプに関して「|」で区切られた階層を入力してください (1行あたり1アーティファクト)。';
 $string['atoz'] = 'A -> Z';
 $string['blogpost'] = '日誌エントリ';
 $string['bypassindexname'] = 'バイパスインデックス';
-$string['bypassindexnamedescription'] = '(任意) 設定された場合、Maharaはメインインデックス名の代わりにこのインデックス名にインデックスデータを読み込みます。';
+$string['bypassindexnamedescription'] = '設定された場合、Maharaはメインインデックス名の代わりにこのインデックス名にインデックスデータを読み込みます (任意)。';
 $string['clusterconfig'] = 'クラスタ設定';
 $string['clusterstatus'] = 'クラスタステータス: %s';
 $string['cligetfailedqueuesizemessage'] = 'Elasticsearch 7のキューに 1 時間以上前の失敗したレコードがあります。';
@@ -56,11 +56,11 @@ $string['Group'] = 'グループ';
 $string['host'] = 'ホスト';
 $string['hostdescription'] = 'Elasticsearchサーバのホスト名です。デフォルトは次のとおりです: %';
 $string['indexingpassword'] = '認証書き込みパスワード';
-$string['indexingpassworddescription'] = '(任意) インデックス読み込みと異なる場合、インデックス書きみ時にHTTP基本認証でElasticsearchに渡すパスワードです。';
+$string['indexingpassworddescription'] = 'インデックス読み込みと異なる場合、インデックス書きみ時にHTTP基本認証でElasticsearchに渡すパスワードです (任意)。';
 $string['indexingrunning'] = 'インデックス化cronジョブが動作しています。数分後、再度お試しください。';
 $string['indexingrunningtry'] = 'あなたが実際にcronが動作していないことを把握している場合、./mash search-reset-cron-lockをご覧ください。';
 $string['indexingusername'] = '認証書き込みユーザ名';
-$string['indexingusernamedescription'] = '(任意) インデックス読み込みと異なる場合、インデックス書きみ時にHTTP基本認証でElasticsearchに渡すユーザ名です';
+$string['indexingusernamedescription'] = 'インデックス読み込みと異なる場合、インデックス書きみ時にHTTP基本認証でElasticsearchに渡すユーザ名です (任意)。';
 $string['indexname'] = 'インデックス名';
 $string['indexnamedescription'] = 'Elasticsearchインデックス名です。デフォルトは次のとおりです: %s';
 $string['indexstatusbad'] = 'インデックスステータス (%s): %s';
@@ -81,7 +81,7 @@ $string['page'] = 'ページ';
 $string['pages'] = 'ページ';
 $string['pagetitle'] = '検索';
 $string['password'] = '認証パスワード';
-$string['passworddescription'] = '(任意) HTTP基本認証でElasticsearch 7に渡すパスワードです。';
+$string['passworddescription'] = 'HTTP基本認証でElasticsearch 7に渡すパスワードです (任意)。';
 $string['passwordlength'] = '(パスワード長: %s)';
 $string['pluginstatus'] = 'プラグインステータス: %s';
 $string['pluginstatusmessageindex404'] = 'インデックスが作成されているはずですが、作成されていないようです。ページをリロードするか、あなたのElasticsearch 7サーバを確認してください。';
@@ -122,7 +122,7 @@ $string['unassignedshards'] = '未割り当てシャード: %s';
 $string['usedonpage'] = '使用ページ';
 $string['usedonpages'] = '使用ページ';
 $string['username'] = '認証ユーザ名';
-$string['usernamedescription'] = '(任意) HTTP基本認証でElasticsearch 7に渡すユーザ名です。';
+$string['usernamedescription'] = 'HTTP基本認証でElasticsearch 7に渡すユーザ名です (任意)。';
 $string['Users'] = '人';
 $string['xsearchresults'] = '検索結果: %s';
 $string['xsearchresultsfory'] = '検索結果: %s / 検索キーワード: %s';

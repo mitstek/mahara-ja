@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-15 21:09:33 UTC
+ * @updated    2022-04-22 02:14:37 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,7 +17,7 @@ $string['admin'] = '管理者';
 $string['all'] = 'すべて';
 $string['analyzer'] = 'Elasticsearchアナライザ';
 $string['analyzerdescription'] = '使用するElasticsearchアナライザクラスです。デフォルトはmahara_analyzerです。';
-$string['artefacttypedescription'] = 'あなたがインデックスに含みたいアーティファクトタイプをチェックしてください。階層定義されたアーティファクトタイプのみ有効です。あなたの変更を反映させるにはキュー内のアーティファクトをリセットする必要があります。';
+$string['artefacttypedescription'] = 'あなたがインデックスに含みたいアーティファクトタイプをチェックしてください。階層定義されたアーティファクトタイプのみ有効です。あなたの変更を反映させるにはキュー内のアーティファクトをリセットしてください。';
 $string['artefacttypelegend'] = 'アーティファクトタイプ';
 $string['artefacttypemapdescription'] = 'それぞれのアーティファクトタイプに関して「|」で区切られた階層を入力してください (1行あたり1アーティファクト)。';
 $string['artefacttypemaplegend'] = 'アーティファクトタイプ階層';
@@ -25,7 +25,7 @@ $string['atoz'] = 'A -> Z';
 $string['blog'] = '日誌';
 $string['blogpost'] = '日誌エントリ';
 $string['bypassindexname'] = 'バイパスインデックス';
-$string['bypassindexnamedescription'] = '(任意) 設定された場合、Maharaはメインインデックス名の代わりにこのインデックス名にインデックスデータを読み込みます。';
+$string['bypassindexnamedescription'] = '設定された場合、Maharaはメインインデックス名の代わりにこのインデックス名にインデックスデータを読み込みます (任意)。';
 $string['clusterstatus'] = 'Elasticsearchクラスタに問題があります。ステータスは「 %s 」です。未割り当てのシャードは「 %s 」です。';
 $string['collection'] = 'コレクション';
 $string['confignotset'] = '(未設定)';
@@ -51,9 +51,9 @@ $string['host'] = 'ホスト';
 $string['hostdescription'] = 'Elasticsearchサーバのホスト名です。デフォルトは「127.0.0.1」です。';
 $string['html'] = 'テキスト';
 $string['indexingusername'] = '認証書き込みユーザ名';
-$string['indexingusernamedescription'] = '(任意) インデックス読み込みと異なる場合、インデックス書きみ時にHTTP基本認証でElasticsearchに渡すユーザ名です';
+$string['indexingusernamedescription'] = 'インデックス読み込みと異なる場合、インデックス書きみ時にHTTP基本認証でElasticsearchに渡すユーザ名です (任意)。';
 $string['indexingpassword'] = '認証書き込みパスワード';
-$string['indexingpassworddescription'] = '(任意) インデックス読み込みと異なる場合、インデックス書きみ時にHTTP基本認証でElasticsearchに渡すパスワードです。';
+$string['indexingpassworddescription'] = 'インデックス読み込みと異なる場合、インデックス書きみ時にHTTP基本認証でElasticsearchに渡すパスワードです (任意)。';
 $string['indexingrunning'] = 'インデックス化cronジョブが動作しています。数分後、再度お試しください。';
 $string['indexname'] = 'インデックス名';
 $string['indexnamedescription'] = 'Elasticsearchインデックス名です。デフォルトは「mahara」です。';
@@ -73,7 +73,7 @@ $string['page'] = 'ページ';
 $string['pages'] = 'ページ';
 $string['pagetitle'] = '検索';
 $string['password'] = '認証パスワード';
-$string['passworddescription'] = '(任意) HTTP基本認証でElasticsearchに渡すパスワードです。';
+$string['passworddescription'] = 'HTTP基本認証でElasticsearchに渡すパスワードです (任意)。';
 $string['passwordlength'] = '(パスワード長: %s)';
 $string['port'] = 'Elasticsearchポート';
 $string['portdescription'] = 'Elasticsearchが使用するポートです。デフォルトは「9200」です。';
@@ -103,7 +103,7 @@ $string['typesdescription'] = 'インデックス化するカンマ区切りの�
 $string['usedonpage'] = '使用ページ';
 $string['usedonpages'] = '使用ページ';
 $string['username'] = '認証ユーザ名';
-$string['usernamedescription'] = '(任意) HTTP基本認証でElasticsearchに渡すユーザ名です。';
+$string['usernamedescription'] = 'HTTP基本認証でElasticsearchに渡すユーザ名です (任意)。';
 $string['Users'] = '人';
 $string['wallpost'] = 'ウォール投稿';
 $string['xsearchresults'] = '検索結果: %s';
