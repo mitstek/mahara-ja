@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-04-17 03:46:28 UTC
+ * @updated    2022-04-24 23:53:18 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -68,7 +68,7 @@ $string['invalidshortname'] = '無効なグループ省略名です。';
 $string['shortnameformat1'] = 'グループ省略名の長さは半角2-255文字にしてください。グループ省略名には半角英数字小文字、「.」、「-」および「_」を使用できます。';
 $string['groupmaxreached'] = 'インスティテューションで許可されるグループの最大数に達したため、このインスティテューションにグループを追加できません。上限を増やすには<a href="%sinstitution/index.php?institution=%s">インスティテューション管理者</a>にご連絡ください。';
 $string['groupmaxreachednolink'] = 'インスティテューションで許可されるグループの最大数に達したため、このインスティテューションにグループを追加できません。上限を増やすにはインスティテューション管理者にご連絡ください。';
-$string['exceedsgroupmax'] = 'この数のグループを追加した場合、インスティテューションのグループ制限を超えます。あなたはさらに % のグループを制限内で追加できます。グループの追加数を減らすか、サイト管理者にご連絡の上、上限の引き上げをご検討ください。';
+$string['exceedsgroupmax'] = 'この数のグループを追加した場合、あなたのインスティテューションのグループ数上制限を超えます。あなたは制限内でさらに % グループを追加できます。グループの追加数を減らすか、サイト管理者にご連絡の上、上限の引き上げをご相談ください。';
 $string['Created'] = '作成';
 $string['editable'] = '編集可能';
 $string['editability'] = '編集可能';
@@ -88,7 +88,7 @@ $string['Admin'] = '管理者';
 $string['publiclyviewablegroup'] = '一般の人も閲覧可能なグループ';
 $string['publiclyviewablegroupdescription1'] = 'オンラインの誰でもフォーラムを含むこのグループを閲覧できるようにします。';
 $string['Type'] = 'タイプ';
-$string['publiclyvisible'] = '公開可視';
+$string['publiclyvisible'] = '一般公開';
 $string['Public'] = 'パブリック';
 $string['usersautoadded'] = '人を自動的に追加する';
 $string['usersautoaddeddescription1'] = 'サイトに参加した人すべてをこのグループに自動的に追加します。';
