@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-04-11 02:37:03 UTC
+ * @updated    2022-04-26 21:10:49 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -150,3 +150,4 @@ $string['fileuploadtoobig'] = 'あなたがアップロードを試みている�
 $string['fileuploadtoomany'] = 'あなたがアップロードを試みているファイル数が多すぎます。あなたは最大 %s 個のファイルをアップロードできます。';
 $string['sideblockmenuclash'] = 'サイドブロック名「 %s 」はすでに使用されています。異なる名称を選択してください。';
 $string['isolatedinstitutionsremoverules'] = '隔離インスティテューションが有効にされているため、私たちは %s 件のアクセスルールを非表示にしました。フォームを保存した場合、非表示のルールは削除されます。';
+$string['randomkeyminlength'] = '長さは8桁以上の正の整数にしてください。';
