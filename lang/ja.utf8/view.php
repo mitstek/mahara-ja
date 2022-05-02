@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-05-06 06:32:10 UTC
+ * @updated    2022-04-27 03:23:19 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -234,6 +234,7 @@ $string['submittedforassessment'] = '評価のため送信済み';
 $string['blocknotinview'] = 'ID「 %d 」のブロックはページにありません。';
 $string['viewcreatedsuccessfully'] = 'ページが正常に作成されました。';
 $string['viewaccesseditedsuccessfully'] = 'ページアクセスが正常に保存されました。';
+$string['accesssavedsuccessfully'] = 'アクセス設定が正常に保存されました。';
 $string['viewsavedsuccessfully'] = 'ページが正常に保存されました。';
 $string['savedtotimeline'] = 'タイムラインに保存されました。';
 $string['updatedaccessfornumviews1'] = '%d ページのアクセスルールが更新されました。';
