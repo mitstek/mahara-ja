@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-04-26 20:41:43 UTC
+ * @updated    2022-05-02 00:53:19 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -114,7 +114,7 @@ $string['hidemembersdescription'] = '非メンバーからグループのメン�
 $string['hidemembersfrommembers'] = 'メンバーからメンバーシップを隠す';
 $string['hidemembersfrommembersdescription1'] = 'このグループのメンバーを隠します。グループ管理者のみメンバー一覧を閲覧できます。管理者はグループホームページに表示されます。';
 $string['friendinvitations'] = 'フレンドの招待';
-$string['invitefriendsdescription1'] = 'このグループへのフレンドの参加をメンバーが招待できるようにします。この設定にかかわらず、管理者は常に誰にでも招待を送信できます。';
+$string['invitefriendsdescription1'] = 'このグループへのフレンドの参加をメンバーが招待できるようにします。この設定にかかわらず、グループ管理者は常に誰にでも招待を送信できます。';
 $string['invitefriends'] = 'フレンドを招待する';
 $string['Recommendations'] = 'レコメンデーション';
 $string['suggestfriendsdescription1'] = 'このグループへの参加レコメンデーションをメンバーがグループホームページのボタンでフレンドに送信できるようにします。';
