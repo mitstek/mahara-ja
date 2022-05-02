@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-13 07:22:23 UTC
+ * @updated    2022-04-27 03:21:37 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -366,6 +366,7 @@ $string['nooauth'] = 'OAuthには有効にされていません。';
 $string['accessdenied'] = 'アクセスが拒否されました。';
 $string['accessdeniedforinst'] = 'インスティテューション「 %s 」へのアクセスが拒否されました。';
 $string['accessdeniedforinstuser'] = 'インスティテューション「 %s 」 (ユーザ 「 %s 」) へのアクセスが拒否されました。';
+$string['accessdeniedforinstuserauth'] = '同等の認証方法がないため、インスティテューション「 %s 」 (アカウントa 「 %s 」) へのアクセスが拒否されました。';
 $string['accessdeniedforinstgroup'] = 'インスティテューション「 %s 」 (グループ「 %s 」) へのアクセスが拒否されました。';
 $string['usernameexists2'] = 'ユーザ名「 %s 」は有効ではありません。';
 $string['invalidauthtype'] = '無効な認証タイプ「 %s 」です。';
