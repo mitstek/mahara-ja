@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-01-18 22:28:41 UTC
+ * @updated    2022-05-04 11:35:22 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -59,6 +59,7 @@ $string['frameworkmissing'] = 'フレームワークが見つかりませんで�
 $string['activeframework'] = 'フレームワーク有効化';
 $string['displaystatusestitle'] = '評価ステータスを表示する';
 $string['displaystatusestitledetail'] = 'あなたが表示したい評価ステータスを決定してください。';
+$string['sumofstatuses'] = 'ステータス合計';
 $string['upgradeplugin'] = 'これらの設定を有効にするにはSmartEvidenceプラグインをアップグレードする必要があります。';
 $string['noannotation'] = 'ページ「 %s 」 (標準エレメント「 %s 」) のアノテーションがありません。';
 $string['addannotation'] = '標準「 %s 」のアノテーションをページ「 %s 」に追加する';
