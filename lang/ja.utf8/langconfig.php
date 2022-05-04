@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-10-09 07:14:55 UTC
+ * @updated    2022-05-04 11:38:47 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -43,5 +43,6 @@ $string['strftimew3cdatetime'] = '%%Y-%%m-%%dT%%H:%%M:%%S%%z';
 $string['strftimew3cdate'] = '%%Y-%%m-%%d';
 $string['thislanguage'] = '日本語';
 $string['locales'] = 'ja_JP.utf8,Japanese_Japan.932';
+$string['fullname_format'] = 'lastname_firstname';
 $string['pluralrule'] = '0';
 $string['pluralfunction'] = 'plural_ja_utf8';
