@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-10-01 05:05:17 UTC
+ * @updated    2022-05-05 23:19:09 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -232,6 +232,17 @@ $string['reportsfor'] = '%s のレポート';
 $string['reporttype'] = 'レポートタイプ';
 $string['reportconfig'] = 'レポート設定';
 $string['reportdesctitle'] = 'このレポートには以下を含みます:';
+$string['reportsmartevidence'] = 'スマートエビデンス概要';
+$string['reportdescsmartevidence'] = '<ul>
+<li>スマートエビデンス概要</li>
+<li>個人情報</li>
+<li>メールアドレス</>
+<li>ポートフォリオのタイトル</li>
+<li>ポートフォリオ内のページ数</li>
+<li>アクセスリスト 例) ポートフォリオを閲覧できるパーミッションのある人</li>
+<li>個別の標準にかかわらずポートフォリオ全体のスマートエビデンス評価のそれぞれのステータスの合計値</li>
+</ul>
+<p>選択された期間中に作成されたポートフォリオが一覧表示されます。それらの現在のアクセスパーミッションが表示されます。</p>';
 $string['reportaccesslist'] = 'ポートフォリオアクセス';
 $string['reportdescaccesslist'] = '<ul>
 <li>ポートフォリオオーナー</li>
@@ -477,6 +488,7 @@ $string['usersverifiersummaryreports'] = 'レビュア概要';
 $string['userspageactivityreports'] = 'ページ活動';
 $string['usersmasqueradingreports'] = 'マスカレーディングセッション';
 $string['usersaccesslistreports'] = 'ポートフォリオアクセス';
+$string['userssmartevidencereports'] = 'スマートエビデンス';
 $string['usersuseractivityreports'] = 'アカウント活動';
 $string['usersuserdetailsreports'] = 'アカウント詳細';
 $string['usersuseragreementreports'] = '法的同意';
