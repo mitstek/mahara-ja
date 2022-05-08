@@ -46,7 +46,7 @@ $string['sessionpathnotwritable'] = 'あなたのセッションデータディ�
 $string['wwwrootnothttps'] = 'あなたが定義したwwwroot ( %s ) はHTTPSではありません。しかし、あなたのインストレーションの他の設定 (sslproxy等) ではwwwrootがHTTPSアドレスである必要があります。
 
 あなたのwwwroot設定をHTTPSアドレスに更新してください。または正しくない設定を修正してください。';
-$string['couldnotmakedatadirectories'] = '何らかの理由でいくつかのコアデータディレクトリを作成できませんでした。Maharaが事前にdatarootディレクトリの書込み権を確認したためこのエラーが発生することはないと考えられます。datarootディレクトリのパーミッションを確認してください。';
+$string['couldnotmakedatadirectories'] = '何らかの理由で一部のコアデータディレクトリを作成できませんでした。Maharaが事前にdatarootディレクトリの書込み権を確認したためこのエラーが発生することはないと考えられます。datarootディレクトリのパーミッションを確認してください。';
 $string['dbconnfailed'] = 'Maharaがアプリケーションデータベースに接続できませんでした。
 
 * あなたがMaharaを利用している場合、少し待った後、再度お試しください。
@@ -122,7 +122,7 @@ $string['switchtomysqli'] = 'あなたのサーバには<strong>mysqli</strong> 
 $string['noreplyaddressmissingorinvalid'] = 'システムメールアドレスに空白または有効ではないメールアドレスが設定されています。<a href="%s">サイトオプション内の「メール設定」</a>の設定内容を確認してください。';
 $string['openbasedirenabled'] = 'あなたのサーバではPHPの「open_basedir」制限が有効にされています。';
 $string['openbasedirpaths'] = 'Maharaは次のパス内でのみファイルを開けます: %s';
-$string['openbasedirwarning'] = 'いくつかの外部サイトへのリクエストを完了できない可能性があります。特にフィードの更新が停止してしまう場合があります。';
+$string['openbasedirwarning'] = '一部の外部サイトへのリクエストを完了できない可能性があります。特にフィードの更新が停止してしまう場合があります。';
 $string['resavecustomthemes'] = 'あなたの直近のアップグレードが設定可能テーマの正常表示を停止したようです。設定可能テーマをアップグレードするには「管理 → インスティテューション → 設定」に移動してインスティテューションの設定を変更した後、フォームを保存してください。<br />次のインスティテューションが設定可能テーマを使用しています:';
 $string['gdlibrarylacksgifsupport'] = 'インストール済みPHP GDライブラリはGIFイメージの作成および読み込みをサポートしていません。GIFイメージのアップロードにはフルサポートが必要です。';
 $string['gdlibrarylacksjpegsupport'] = 'インストール済みPHP GDライブラリはJPEG/JPGイメージの作成および読み込みをサポートしていません。JPEG/JPGイメージのアップロードにはフルサポートが必要です。';
@@ -130,7 +130,7 @@ $string['gdlibrarylackspngsupport'] = 'インストール済みPHP GDライブ�
 $string['nopasswordsaltset'] = 'サイト全体のパスワードsaltが設定されていません。あなたのconfig.phpを編集して「passwordsaltmain」パラメータに妥当なシークレットフレーズを設定してください。';
 $string['passwordsaltweak'] = 'あなたのサイト全体のパスワードsaltの強さが十分ではありません。あなたのconfig.phpを編集してさらに長いシークレットフレーズを「passwordsaltmain」パラメータに設定してください。';
 $string['urlsecretweak'] = 'このサイトに設定されている$cfg->urlsecretがデフォルト値から変更されていません。あなたのconfig.phpを編集して$cgf->urlsecretパラメータに異なるストリングを設定してください (urlsecretを使用したくない場合、nullを設定してください)。';
-$string['notproductionsite'] = 'このサイトは実運用モードではありません。いくつかのデータは利用できないか古い可能性があります。';
+$string['notproductionsite'] = 'このサイトは実運用モードではありません。一部のデータは利用できないか古い可能性があります。';
 $string['badsessionhandle'] = 'セッション保存ハンドラ「 %s 」が正しく設定されていません。あなたの「config.php」ファイルの設定を確認してください。';
 $string['wrongsessionhandle'] = 'セッション保存ハンドラ「 %s 」はMaharaではサポートされていません。';
 $string['nomemcachedserver'] = 'memcacheサーバ「 %s 」に接続できません。$cfg->memcacheservers値が正しいかどうか確認してください。';
