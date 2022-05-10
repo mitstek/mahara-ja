@@ -131,7 +131,7 @@ $string['addedtongroupsmessage'] = '%2$s があなたをグループに追加し
 $string['removedfromngroupsmessage'] = '%2$s があなたをグループから削除しました:
 
 %3$s';
-$string['cantremovememberfromgroup'] = 'あなたはメンバーを %s から削除できません。';
+$string['cantremovememberfromgroup'] = 'あなたは %s からメンバーを削除できません。';
 $string['current'] = '現在';
 $string['requests'] = 'リクエスト';
 $string['invites'] = '招待';
