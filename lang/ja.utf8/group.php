@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-05-02 00:53:19 UTC
+ * @updated    2022-05-10 01:29:34 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -136,7 +136,7 @@ $string['addedtongroupsmessage'] = '%2$s があなたをグループに追加し
 $string['removedfromngroupsmessage'] = '%2$s があなたをグループから削除しました:
 
 %3$s';
-$string['cantremovememberfromgroup'] = 'あなたはメンバーを %s から削除できません。';
+$string['cantremovememberfromgroup'] = 'あなたは %s からメンバーを削除できません。';
 $string['current'] = '現在';
 $string['requests'] = 'リクエスト';
 $string['invites'] = '招待';
