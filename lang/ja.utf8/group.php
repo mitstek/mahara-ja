@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-05-10 01:29:34 UTC
+ * @updated    2022-05-15 21:48:39 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -154,7 +154,7 @@ $string['invite'] = '招待';
 $string['remove'] = '削除';
 $string['updatemembership'] = 'メンバーシップを更新する';
 $string['memberchangefailed'] = '一部のメンバーシップ情報の更新に失敗しました。';
-$string['memberchangesuccess'] = 'メンバーシップのステータスが正常に変更されました。';
+$string['memberchangesuccess'] = 'メンバーシップステータスが正常に変更されました。';
 $string['portfolioreleasedsubject'] = 'ポートフォリオ「 %s 」がリリースされました。';
 $string['portfolioreleasedmessage'] = 'あなたのポートフォリオ「 %s 」が「 %s 」から %s によってリリースされました。';
 $string['portfolioreleasedsuccess'] = 'ポートフォリオが正常にリリースされました。';
