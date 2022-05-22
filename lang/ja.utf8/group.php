@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-05-15 21:48:39 UTC
+ * @updated    2022-05-22 05:59:02 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -161,7 +161,7 @@ $string['portfolioreleasedsuccess'] = 'ポートフォリオが正常にリリ�
 $string['portfolioreleasedsuccesswithname'] = 'ポートフォリオ「 %s 」が正常にリリースされました。';
 $string['portfolioreleasefailed'] = 'アーカイブ後の「 %s 」のリリースに失敗しました。';
 $string['portfolioreleasedpending'] = 'ポートフォリオはアーカイブ後にリリースされます。';
-$string['leavegroup'] = 'このグループから離れる';
+$string['leavegroup'] = 'このグループから離脱する';
 $string['joingroup'] = 'このグループに参加する';
 $string['requestjoingroup'] = 'このグループへの参加をリクエストする';
 $string['grouphaveinvite'] = 'あなたはこのグループへの参加を招待されました。';
@@ -171,9 +171,9 @@ $string['groupinviteaccepted'] = '招待が正常に受理されました。あ�
 $string['groupinvitedeclined'] = '招待が正常に拒否されました。';
 $string['acceptinvitegroup'] = '承認';
 $string['declineinvitegroup'] = '拒否';
-$string['leftgroup'] = 'あなたはこのグループから離れました。';
-$string['leftgroupfailed'] = 'グループから離れることができませんでした。';
-$string['couldnotleavegroup'] = 'あなたはこのグループから離れることはできません。';
+$string['leftgroup'] = 'あなたはこのグループから離脱しました。';
+$string['leftgroupfailed'] = 'グループから離脱できませんでした。';
+$string['couldnotleavegroup'] = 'あなたはこのグループから離脱できません。';
 $string['joinedgroup'] = 'あなたはグループメンバーになりました。';
 $string['couldnotjoingroup'] = 'あなたはこのグループに参加できません。';
 $string['membershipcontrolled'] = 'このグループのメンバーシップは管理メンバーシップです。';
@@ -199,11 +199,11 @@ $string['groupsicanjoin'] = '私が参加できるグループ';
 $string['requestedtojoin'] = 'あなたはこのグループへの参加をリクエストしました。';
 $string['groupnotfound'] = 'ID %s のグループはありません。';
 $string['groupnotfoundname'] = 'グループ「 %s 」が見つかりませんでした。';
-$string['groupconfirmleave'] = '本当にこのグループから離れてもよろしいですか?';
-$string['cantleavegroup'] = 'あなたはこのグループから離れることはできません。';
-$string['usercantleavegroup'] = 'このグループメンバーはこのグループから離れることはできません。';
+$string['groupconfirmleave'] = '本当にこのグループから離脱してもよろしいですか?';
+$string['cantleavegroup'] = 'あなたはこのグループから離脱できません。';
+$string['usercantleavegroup'] = 'このグループメンバーはこのグループから離脱できません。';
 $string['usercannotchangetothisrole'] = 'このグループメンバーはこのロールに変更できません。';
-$string['leavespecifiedgroup'] = 'グループ「 %s 」から離れる';
+$string['leavespecifiedgroup'] = 'グループ「 %s 」から離脱する';
 $string['memberslist'] = 'メンバー:';
 $string['nogroups'] = 'グループなし';
 $string['deletespecifiedgroup'] = 'グループ「 %s 」を削除する';
