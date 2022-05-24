@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-23 15:21:16 UTC
+ * @updated    2022-05-24 03:07:51 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -102,6 +102,8 @@ $string['unsupportedportfoliotype'] = '未サポートの提出ポートフォ�
 $string['submissionstatuschangedexternally'] = '外部から提出ステータスが変更されました。';
 $string['eventgroupnotfound'] = 'イベントデータでグループ「 %s 」が見つかりませんでした。';
 $string['eventgroupidnotfound'] = 'イベントデータでID「 %s 」のグループが見つかりませんでした。';
+$string['submissionexceptiontitle'] = 'ポートフォリオを評価のために提出できませんでした。';
+$string['submissionexceptionmessage'] = '次の理由のため、このポートフォリオを評価のために提出できません:';
 $string['actionreleased'] = 'リリース済み';
 $string['actionfixed'] = '修正済み';
 $string['submissionreleased'] = '提出「 %s 」(作成者 %s) - %s';
