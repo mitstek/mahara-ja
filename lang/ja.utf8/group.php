@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-05-22 05:59:02 UTC
+ * @updated    2022-05-28 22:17:43 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -167,7 +167,7 @@ $string['requestjoingroup'] = 'このグループへの参加をリクエスト�
 $string['grouphaveinvite'] = 'あなたはこのグループへの参加を招待されました。';
 $string['grouphaveinvitewithrole'] = 'あなたはこのグループへの参加を次のロールで招待されました';
 $string['groupnotinvited'] = 'あなたはこのグループへの参加を招待されていません。';
-$string['groupinviteaccepted'] = '招待が正常に受理されました。あなたはグループメンバーとなりました。';
+$string['groupinviteaccepted'] = '招待が正常に承認されました。あなたはグループメンバーとなりました。';
 $string['groupinvitedeclined'] = '招待が正常に拒否されました。';
 $string['acceptinvitegroup'] = '承認';
 $string['declineinvitegroup'] = '拒否';
