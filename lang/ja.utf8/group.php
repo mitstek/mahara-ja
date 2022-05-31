@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-05-28 22:17:43 UTC
+ * @updated    2022-05-31 06:12:19 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -172,7 +172,7 @@ $string['groupinvitedeclined'] = '招待が正常に拒否されました。';
 $string['acceptinvitegroup'] = '承認';
 $string['declineinvitegroup'] = '拒否';
 $string['leftgroup'] = 'あなたはこのグループから離脱しました。';
-$string['leftgroupfailed'] = 'グループから離脱できませんでした。';
+$string['leftgroupfailed'] = 'グループからの離脱に失敗しました。';
 $string['couldnotleavegroup'] = 'あなたはこのグループから離脱できません。';
 $string['joinedgroup'] = 'あなたはグループメンバーになりました。';
 $string['couldnotjoingroup'] = 'あなたはこのグループに参加できません。';
