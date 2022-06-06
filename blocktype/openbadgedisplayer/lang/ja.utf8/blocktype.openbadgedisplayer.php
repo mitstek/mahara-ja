@@ -27,7 +27,7 @@ $string['expires'] = '有効期限';
 $string['desc'] = '説明';
 $string['criteria'] = 'クライテリア';
 $string['nbadges'] = '%s バッジ';
-$string['nobackpack'] = 'バックパックが見つかりませんでした。<br />あなたの<a href="%s">バックパック</a>のメールアドレスを<a href="%s">プロファイル</a>に追加してください。';
+$string['nobackpack'] = 'バックパックは見つかりませんでした。<br />あなたの<a href="%s">バックパック</a>のメールアドレスを<a href="%s">プロファイル</a>に追加してください。';
 $string['nobadgegroups'] = 'パブリックバッジコレクション / バッジは見つかりませんでした。';
 $string['nobackpackidin'] = 'あなたのメールアドレスはサービス「 %s 」内に見つかりませんでした。';
 $string['nobadgegroupsin'] = '次のサービス内にパブリックバッジコレクション / バッジは見つかりませんでした: %s';
