@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-05-31 06:12:19 UTC
+ * @updated    2022-06-06 02:56:29 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -187,7 +187,7 @@ $string['grouprequestmessagereason'] = '%s があなたのグループ「 %s 」
 
 %s';
 $string['cantdeletegroup'] = 'あなたはこのグループを削除できません。';
-$string['groupconfirmdelete'] = 'この処理によりグループに含まれるすべてのページ、ファイルおよびフォーラムが削除されます。本当にこのグループおよびコンテンツすべてを完全に削除してもよろしいですか?';
+$string['groupconfirmdelete'] = 'これによりグループに含まれるすべてのページ、ファイルおよびフォーラムが削除されます。本当にこのグループおよびコンテンツすべてを完全に削除してもよろしいですか?';
 $string['deletegroup'] = 'グループが正常に削除されました。';
 $string['deletegroup1'] = 'グループを削除する';
 $string['allmygroups'] = 'すべてのマイグループ';
@@ -197,8 +197,8 @@ $string['groupsiminvitedto'] = '私が招待されているグループ';
 $string['groupsiwanttojoin'] = '私が参加したいグループ';
 $string['groupsicanjoin'] = '私が参加できるグループ';
 $string['requestedtojoin'] = 'あなたはこのグループへの参加をリクエストしました。';
-$string['groupnotfound'] = 'ID %s のグループはありません。';
-$string['groupnotfoundname'] = 'グループ「 %s 」が見つかりませんでした。';
+$string['groupnotfound'] = 'ID %s のグループは見つかりませんでした。';
+$string['groupnotfoundname'] = 'グループ「 %s 」は見つかりませんでした。';
 $string['groupconfirmleave'] = '本当にこのグループから離脱してもよろしいですか?';
 $string['cantleavegroup'] = 'あなたはこのグループから離脱できません。';
 $string['usercantleavegroup'] = 'このグループメンバーはこのグループから離脱できません。';
@@ -215,7 +215,7 @@ $string['groupsnotin'] = '私が参加していないグループ';
 $string['allgroups'] = 'すべてのグループ';
 $string['allgroupmembers'] = 'すべてのグループメンバー';
 $string['trysearchingforgroups1'] = '参加するには<a href="%sgroup/index.php?filter=canjoin">グループの検索</a>をお試しください。';
-$string['nogroupsfound'] = 'グループが見つかりませんでした。';
+$string['nogroupsfound'] = 'グループは見つかりませんでした。';
 $string['group'] = 'グループ';
 $string['Group'] = 'グループ';
 $string['groups'] = 'グループ';
