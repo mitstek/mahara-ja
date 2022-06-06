@@ -38,7 +38,7 @@ $string['errorbadssphpmetadata'] = '無効なSimpleSAMLphp設定です: 設定�
 $string['errorbadssphpspentityid'] = '無効なサービスプロバイダエンティティIDです。';
 $string['errorextrarequiredfield'] = '「こちらでアカウントを自動作成する」が有効にされている場合、このフィールドは必須です。';
 $string['errorretryexceeded'] = '再試行の最大回数 (%s) を越えました: アイデンティティサービスに問題があります。';
-$string['errnosamluser'] = 'アカウントが見つかりませんでした。';
+$string['errnosamluser'] = 'アカウントは見つかりませんでした。';
 $string['errorssphpsetup'] = 'SAMLが正しく設定されていません。あなたは最初にコマンドラインから「make ssphp」を実行する必要があります。';
 $string['errorbadlib'] = 'SimpleSAMLphpライブラリの「autoloader」ファイルが %s にありません。<br />「make ssphp」でSimpleSAMLphpをインストールできること、また、ファイルを読み込めることを確認してください。';
 $string['errorupdatelib'] = 'あなたの現在のSimpleSAMLphpライブラリは旧バージョンです。あなたは「make cleanssphp && make ssphp」を実行する必要があります。';
@@ -130,7 +130,7 @@ $string['oldkeydeleted'] = '古い鍵/証明書が削除されました。';
 $string['keyrollfailed'] = '古い鍵/証明書の削除に失敗しました。';
 $string['missingnamespace'] = 'XMLはEntityDescriptorタグ内でのネームスペース「 %s 」の定義を要求します。';
 $string['ssolabelfor'] = '%s ログイン';
-$string['noentityidpfound'] = 'アイデンティティプロバイダIDが見つかりませんでした。';
+$string['noentityidpfound'] = 'アイデンティティプロバイダIDは見つかりませんでした。';
 $string['noentityidpneednamespace'] = 'あなたのXML EntityDescriptorタグは「xmlns=」の定義を必要としますか?';
 $string['novalidauthinstanceprovided'] = 'あなたの選択は可能ではありません。異なるインスティテューションを選択してください。';
 $string['identityprovider'] = 'アイデンティティプロバイダ';
