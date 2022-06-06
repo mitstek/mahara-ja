@@ -55,6 +55,6 @@ $string['usedincollections'] = 'コレクションで使用済み';
 $string['selfassess'] = '自己評価';
 $string['uploadframeworkdesc1'] = 'JSONエンコード済みの.matrixファイルをアップロードします。マークアップの例に関して<a href="https://git.mahara.org/mahara/mahara/blob/16.10_STABLE/test/behat/upload_files/example.matrix">Mahara git repository</a>、個別のコンポーネントの例に関して<a href="https://manual.mahara.org/en/16.10/administration/smartevidence.html#create-a-framework-file">Maharaユーザマニュアル</a>をご覧ください。';
 $string['savematrix'] = 'マトリクスをアップロードする';
-$string['frameworkmissing'] = 'フレームワークが見つかりませんでした。';
+$string['frameworkmissing'] = 'フレームワークは見つかりませんでした。';
 
 ?>
