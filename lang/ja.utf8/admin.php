@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-05-17 00:20:49 UTC
+ * @updated    2022-06-07 22:31:26 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1223,6 +1223,7 @@ $string['masqueradingreasonrequireddescription3'] = '管理者は別の人とし
 $string['masqueradingnotified'] = '人にマスカレーディングを通知する';
 $string['masqueradingnotifielddescription'] = '管理者がマスカレーディングする場合、人に通知します。通知には「誰が」「いつ」、それから「マスカレーディングの理由を要求する」が有効にされている場合、「なぜ」が含まれます。これを動作させるためには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
 $string['masquerade'] = '続ける';
+$string['masqueradeas'] = '代理ログイン';
 $string['masqueradereason'] = '理由';
 $string['masqueradereasondescription'] = 'この人としてログインする理由を入力してください。注意: この理由は人に通知されませんが、ログとして記録されます。';
 $string['masqueradenotificationdone'] = 'このマスカレーディングセッションが人に通知されました。';
@@ -1236,6 +1237,7 @@ $string['masqueradingnotloggedwarning'] = '<b>注意</b>: マスカレーディ�
 $string['masqueradenotificationsubject'] = '管理者があなたとしてログインしました。';
 $string['masqueradenotificationnoreason'] = '管理者「 %s 」が %s のあなたのアカウントにログインしました。';
 $string['masqueradenotificationreason'] = '管理者「 %s 」が %s のあなたのアカウントにログインしました。理由は次のとおりです: %s';
+$string['nomasqueradeasself'] = 'あなた自身として代理ログインできません。';
 $string['progressbar'] = 'プロファイル完了';
 $string['showprogressbar'] = 'プロファイル完了を表示する';
 $string['progressbarsaved'] = 'プログレスバーが正常に保存されました。';
