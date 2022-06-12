@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-06-06 02:56:29 UTC
+ * @updated    2022-06-12 21:52:38 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -304,7 +304,7 @@ $string['Friends'] = 'フレンド';
 $string['friendrequests'] = 'フレンドリクエスト';
 $string['Everyone'] = '誰でも';
 $string['myinstitutions'] = 'マイインスティテューション';
-$string['friendlistfailure'] = 'あなたのフレンドリストの変更に失敗しました。';
+$string['friendlistfailure'] = 'あなたのフレンドリストの修正に失敗しました。';
 $string['userdoesntwantfriends'] = 'この人は新しいフレンドを求めていません。';
 $string['cannotrequestfriendshipwithself'] = 'あなたはあなた自身にフレンドシップをリクエストできません。';
 $string['cantrequestfriendship'] = 'あなたはこの人にフレンドシップをリクエストできません。';
