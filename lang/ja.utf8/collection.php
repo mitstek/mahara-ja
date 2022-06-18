@@ -149,7 +149,7 @@ $string['sharedviewverifiedunchecked'] = '%s (%s) はまだレビューされて
 $string['sharedviewverifiedchecked'] = '%s (%s) はレビューされました。';
 $string['userhasremovedaccesssubject'] = '%s が「 %s 」へのアクセスを削除しました。';
 $string['ownerhasremovedaccesssubject'] = '%s が「 %s 」へのあなたのアクセスを取り消しました。';
-$string['revokedbyowner'] = 'オーナーがアクセスを取り消しました。';
+$string['revokedbyowner'] = 'オーナがアクセスを取り消しました。';
 $string['youhavebeengivenaccess'] = 'あなたには次のアクセスが与えられています';
 $string['undoverification'] = 'ステートメントをリセットする';
 $string['undoverificationformtitle'] = 'ステートメントをリセットする';
@@ -171,7 +171,7 @@ $string['removemyaccess'] = '私のアクセスを削除する';
 $string['ownerhasremovedaccess'] = '%s がポートフォリオ「 %s 」へのあなたのアクセスを取り消しました。';
 $string['completionpercentage'] = '完了';
 $string['revokemyaccessformtitle'] = 'ポートフォリオアクセスを取り消す';
-$string['revokemyaccessdescription'] = '続けることにより、あなたはこのポートフォリオ全体へのアクセスを失います。あなたはこのポートフォリオを閲覧または参加できなくなります。このポートフォリオのオーナーにはあなたにアクセスがなくなった旨の通知が送信されます。
+$string['revokemyaccessdescription'] = '続けることにより、あなたはこのポートフォリオ全体へのアクセスを失います。あなたはこのポートフォリオを閲覧または参加できなくなります。このポートフォリオのオーナにはあなたにアクセスがなくなった旨の通知が送信されます。
 <br />
 あなたは補足メッセージを追加できます。';
 $string['revokemyaccessreasontextbox'] = 'メッセージ';

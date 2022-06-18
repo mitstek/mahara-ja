@@ -76,7 +76,7 @@ $string['none'] = 'なし';
 $string['noticeenabled'] = '現在、Elasticsearch 7プラグインは有効です。無効にするには<a href="%s" class="elasticsearch-status">「検索設定」</a>で選択解除してください。';
 $string['noticenotactive'] = 'Elasticsearch 7 サーバにホスト %s およびポート %s で到達できません。Elasticsearch 7 サーバが動作していることを確認してください。';
 $string['noticenotenabled'] = '現在、Elasticsearch 7プラグインは有効にされていません。有効化するには<a href="%s">「検索設定」</a>で選択してください。';
-$string['owner'] = 'オーナー';
+$string['owner'] = 'オーナ';
 $string['page'] = 'ページ';
 $string['pages'] = 'ページ';
 $string['pagetitle'] = '検索';

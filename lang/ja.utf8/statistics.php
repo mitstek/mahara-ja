@@ -78,7 +78,7 @@ $string['blocktype_folder'] = 'ブロック: フォルダ';
 $string['blocktype_gallery'] = 'ブロック: イメージギャラリー';
 $string['blocktype_googleapps'] = 'ブロック: Google Apps';
 $string['blocktype_groupinfo'] = 'ブロック: グループ情報';
-$string['blocktype_groupmembers'] = 'ブロック: グループメンバー';
+$string['blocktype_groupmembers'] = 'ブロック: グループメンバ';
 $string['blocktype_groupviews'] = 'ブロック: グループポートフォリオ';
 $string['blocktype_html'] = 'ブロック: HTML';
 $string['blocktype_pdf'] = 'ブロック: PDF';
@@ -104,14 +104,14 @@ $string['blocktype_watchlist'] = 'ブロック: 私が観察しているペー�
 $string['count_block_instance'] = 'ブロック数';
 $string['count_blocktype_wall_post'] = 'ウォール投稿数';
 $string['count_group'] = 'グループ数';
-$string['count_group_member'] = 'グループメンバー数';
+$string['count_group_member'] = 'グループメンバ数';
 $string['count_host'] = 'Moodleホスト数';
 $string['count_institution'] = 'インスティテューション数';
 $string['count_interaction_forum_post'] = 'フォーラム投稿数';
 $string['count_usr'] = 'アカウント数';
 $string['count_usr_friend'] = 'フレンド関係数';
 $string['count_usr_institution'] = 'インスティテューション内アカウント数';
-$string['count_members'] = 'インスティテューションメンバー数';
+$string['count_members'] = 'インスティテューションメンバ数';
 $string['count_artefacts'] = 'アーティファクト数';
 $string['count_blocks'] = 'ブロック数';
 $string['count_views'] = 'ページ数';
@@ -157,7 +157,7 @@ $string['plugin_blocktype_folder_version'] = 'ブロックタイププラグイ�
 $string['plugin_blocktype_gallery_version'] = 'ブロックタイププラグイン「イメージギャラリー」バージョン';
 $string['plugin_blocktype_googleapps_version'] = 'ブロックタイププラグイン「Google Apps」バージョン';
 $string['plugin_blocktype_groupinfo_version'] = 'ブロックタイププラグイン「グループ情報」バージョン';
-$string['plugin_blocktype_groupmembers_version'] = 'ブロックタイププラグイン「グループメンバー」バージョン';
+$string['plugin_blocktype_groupmembers_version'] = 'ブロックタイププラグイン「グループメンバ」バージョン';
 $string['plugin_blocktype_groupviews_version'] = 'ブロックタイププラグイン「グループポートフォリオ」バージョン';
 $string['plugin_blocktype_html_version'] = 'ブロックタイププラグイン「HTML」バージョン';
 $string['plugin_blocktype_pdf_version'] = 'ブロックタイププラグイン「PDF」バージョン';
@@ -245,7 +245,7 @@ $string['reportdescsmartevidence'] = '<ul>
 <p>選択された期間中に作成されたポートフォリオが一覧表示されます。それらの現在のアクセスパーミッションが表示されます。</p>';
 $string['reportaccesslist'] = 'ポートフォリオアクセス';
 $string['reportdescaccesslist'] = '<ul>
-<li>ポートフォリオオーナー</li>
+<li>ポートフォリオオーナ</li>
 <li>ポートフォリオのタイトル</li>
 <li>ポートフォリオ内のページ数</li>
 <li>アクセスリスト 例) ポートフォリオを閲覧できるパーミッションのある人</li>
@@ -351,7 +351,7 @@ $string['reportpageactivity'] = 'ページ活動';
 $string['reportdescpageactivity'] = '<ul>
 <li>ページタイトル</li>
 <li>ページが属するコレクションのタイトル (ある場合)</li>
-<li>ページオーナー</li>
+<li>ページオーナ</li>
 <li>作成日</li>
 <li>最終修正日</li>
 <li>最終ページ閲覧日</li>
@@ -415,7 +415,7 @@ $string['updateviewaccess'] = 'ポートフォリオアクセスを更新する'
 $string['reportdescgroups'] = '<ul>
 <li>ID</li>
 <li>名称</li>
-<li>メンバー数</li>
+<li>メンバ数</li>
 <li>ページ数</li>
 <li>共有ページ数</li>
 <li>グループページのコメント数</li>
@@ -470,11 +470,11 @@ $string['reportdescinformation'] = '<ul>
 $string['reportinstitutioncomparison'] = 'インスティテューション比較';
 $string['reportdesccomparisons'] = '<ul>
 <li>インスティテューション</li>
-<li>メンバー数</li>
+<li>メンバ数</li>
 <li>ページ数</li>
 <li>ブロック数</li>
 <li>アーティファクト数</li>
-<li>インスティテューションメンバーによるフォーラム投稿数</li>
+<li>インスティテューションメンバによるフォーラム投稿数</li>
 </ul>
 <p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニューより「すべてのインスティテューション」を選択した場合のみ利用できます。これは週末のみ更新されます。</p>';
 $string['reportdesclogins'] = '<ul>
@@ -537,7 +537,7 @@ $string['submissions'] = '提出';
 $string['reportdescassessments'] = '<ul>
 <li>提出タイプ</li>
 <li>ポートフォリオタイトル</li>
-<li>ポートフォリオオーナー</li>
+<li>ポートフォリオオーナ</li>
 <li>提出先グループ</li>
 <li>提出日</li>
 <li>リリース日</li>

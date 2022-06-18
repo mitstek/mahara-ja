@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['name'] = 'メール';
 $string['emailsubject'] = '%s';
 $string['emailheader'] = 'あなたに %s から通知が送信されました。メッセージは次のとおりです:';
-$string['emailfooter'] = 'あなたはこの人がメンバーであるインスティテューションの管理者であるため、このメッセージを受信しています。
+$string['emailfooter'] = 'あなたはこの人がメンバであるインスティテューションの管理者であるため、このメッセージを受信しています。
 
 これは %s からの自動生成通知です。あなたの通知プリファレンスを更新するには %s にアクセスしてください。';
 $string['referurl'] = '詳細 %s';
