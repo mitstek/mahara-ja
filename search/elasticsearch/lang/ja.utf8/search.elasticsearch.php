@@ -51,7 +51,7 @@ $string['noticenotactive'] = 'ホスト: %s およびポート %s のElasticsear
 $string['noticenotenabled'] = '現在、Elasticsearchプラグインは無効にされています。Elasticsearchプラグインを有効にするには<a href="%s">検索設定</a>で選択してください。';
 $string['noticepostgresrequired'] = '現在のところ、ElasticsearchプラグインはPostgresqlデータベースのみで動作します。';
 $string['noticepostgresrequiredtitle'] = '機能利用不可';
-$string['owner'] = 'オーナー';
+$string['owner'] = 'オーナ';
 $string['page'] = 'ページ';
 $string['pages'] = 'ページ';
 $string['pagetitle'] = '検索';
