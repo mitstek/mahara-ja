@@ -71,7 +71,7 @@ $string['newviewaccessmessagenoowner'] = 'あなたはページ「 %s 」のア�
 $string['newviewaccesssubject'] = '新しいページアクセス';
 $string['viewmodified'] = 'がページを変更しました。';
 $string['ongroup'] = 'グループ:';
-$string['ownedby'] = 'オーナー:';
+$string['ownedby'] = 'オーナ:';
 $string['objectionablecontentview'] = 'ページ「 %s 」の好ましくないコンテンツ - 報告者: %s';
 $string['objectionablecontentviewartefact'] = 'ページ「 %s (%s) 」の好ましくないコンテンツ - 報告者: %s';
 $string['objectionablecontentviewhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」の好ましくないコンテンツ - 報告者: %s<strong></strong><br />%s</div>
@@ -110,15 +110,15 @@ $string['objectionablecontentviewartefacttext'] = '「  %s (%s)  」の好まし
 %s
 報告者のプロファイルを閲覧するには次のリンクにアクセスしてください:
 %s';
-$string['newgroupmembersubj'] = '%s がグループメンバーになりました。';
-$string['removedgroupmembersubj'] = '%s はグループメンバーではなくなりました。';
+$string['newgroupmembersubj'] = '%s がグループメンバになりました。';
+$string['removedgroupmembersubj'] = '%s はグループメンバではなくなりました。';
 $string['addtowatchlist'] = 'ウォッチリストに追加する';
 $string['removefromwatchlist'] = 'ウォッチリストから削除する';
 $string['missingparam'] = '次の活動タイプに関する必須パラメータ %s が空です: %s';
-$string['institutionrequestsubject'] = '%s が %s のメンバーシップをリクエストしました。';
-$string['institutionrequestmessage'] = 'あなたは「インスティテューションメンバー」ページでユーザをインスティテューションに追加できます:';
+$string['institutionrequestsubject'] = '%s が %s のメンバシップをリクエストしました。';
+$string['institutionrequestmessage'] = 'あなたは「インスティテューションメンバ」ページでユーザをインスティテューションに追加できます:';
 $string['institutioninvitesubject'] = 'あなたはインスティテューション %s への参加を招待されました。';
-$string['institutioninvitemessage'] = 'あなたは「インスティテューション設定」ページでこのインスティテューションのメンバーシップを承認できます:';
+$string['institutioninvitemessage'] = 'あなたは「インスティテューション設定」ページでこのインスティテューションのメンバシップを承認できます:';
 $string['deleteallnotifications'] = 'すべての通知を削除する';
 $string['reallydeleteallnotifications'] = '本当にこの活動タイプに関してあなたの通知すべてを削除してもよろしいですか?';
 $string['viewsubmittedsubject1'] = '%s への送信';
