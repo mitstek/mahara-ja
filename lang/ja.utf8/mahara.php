@@ -84,7 +84,7 @@ $string['objectionablematerialreported'] = '好ましくないコンテンツ報
 $string['objectionablematerialreportedowner'] = '誰かがあなたのページに好ましくないコンテンツが含まれていると報告しました。あなたのページをレビューして必要に応じて調整してください。';
 $string['objectionablematerialreportedreply'] = 'あなたが変更した場合、または詳しい説明を求める場合、管理者に知らせるため「好ましくないコンテンツをレビューする」ボタンをクリックしてください。';
 $string['objectionablematerialreportreplied'] = '管理者がページをレビューしましたがまだ好ましくないコンテンツが含まれているようです。詳細情報はあなたの通知を確認してください。あなたは変更して「好ましくないコンテンツをレビューする」ボタンをクリックすることにより管理者にメッセージを送信できます。または詳しい説明を求めることができます。';
-$string['objectionreviewsent'] = '異議レビューがページオーナーに送信されました。あなたが調整して別のレビューを送信したい場合、「まだ好ましくない」をクリックしてください。';
+$string['objectionreviewsent'] = '異議レビューがページオーナに送信されました。あなたが調整して別のレビューを送信したい場合、「まだ好ましくない」をクリックしてください。';
 $string['lastobjection'] = '最新異議';
 $string['objectionnotreviewed'] = '異議レビュー未了';
 $string['objectionnotreviewedreply'] = 'レビュー未了の異議に返信する:
@@ -163,7 +163,7 @@ $string['lastpage'] = '最後のページ';
 $string['maxitemsperpage1'] = '1ページあたりの結果:';
 $string['showmore'] = 'さらに表示する';
 $string['accept'] = '承認';
-$string['memberofinstitutions'] = '%s のメンバー';
+$string['memberofinstitutions'] = '%s のメンバ';
 $string['staffofinstitutions'] = '%s のスタッフ';
 $string['adminofinstitutions'] = '%s の管理者';
 $string['reject'] = '拒否';
@@ -223,12 +223,12 @@ $string['tagupdatedsuccessfully'] = 'タグが正常に更新されました。'
 $string['tagdeletedsuccessfully'] = 'タグが正常に削除されました。';
 $string['relatedtags'] = '%s のタグ付きコンテンツ';
 $string['relatedtagsinview'] = '%s のタグ付きコンテンツ (ポートフォリオ「 %s 」)';
-$string['norelatedtaggeditemstoview'] = 'あなたがタグ「 %s 」 (オーナー「 %s 」) で閲覧できるものはありません。';
-$string['norelatedtaggeditemstoviewfiltered'] = 'あなたがタグ「 %s 」 (オーナー「 %s 」) で閲覧できる %s はありません。';
+$string['norelatedtaggeditemstoview'] = 'あなたがタグ「 %s 」 (オーナ「 %s 」) で閲覧できるものはありません。';
+$string['norelatedtaggeditemstoviewfiltered'] = 'あなたがタグ「 %s 」 (オーナ「 %s 」) で閲覧できる %s はありません。';
 $string['selfsearch'] = '私のポートフォリオを検索する';
 $string['resultsperpage'] = '1ページあたりの結果数';
 $string['allowinstitutiontags'] = 'インスティテューションタグを許可する';
-$string['allowinstitutiontagsdescription'] = '管理者はインスティテューションメンバーが使用できる一連のタグを定義できます。';
+$string['allowinstitutiontagsdescription'] = '管理者はインスティテューションメンバが使用できる一連のタグを定義できます。';
 $string['cantlistinstitutiontags'] = 'あなたはインスティテューションタグを一覧表示できません。';
 $string['createtag'] = 'タグを作成する';
 $string['deleteinstitutiontag'] = 'インスティテューションタグを削除する';
@@ -242,7 +242,7 @@ $string['institutiontagdesc'] = 'あなたは1度に1個のタグを追加でき
 $string['institutiontagdeleted'] = 'インスティテューションタグが正常に削除されました。';
 $string['institutiontagdeletefail'] = 'インスティテューションタグの削除に失敗しました。';
 $string['institutiontags'] = 'インスティテューションタグ';
-$string['institutiontagsdescription'] = 'インスティテューションタグはインスティテューションによって事前に定義されます。インスティテューションのすべてのメンバーはインスティテューションタグを利用できます。あなたは好きなだけタグを作成できます。';
+$string['institutiontagsdescription'] = 'インスティテューションタグはインスティテューションによって事前に定義されます。インスティテューションのすべてのメンバはインスティテューションタグを利用できます。あなたは好きなだけタグを作成できます。';
 $string['institutiontagsaved'] = 'インスティテューションタグが保存されました。';
 $string['notags'] = 'このインスティテューションにタグはありません。';
 $string['tag'] = 'タグ';
@@ -360,52 +360,52 @@ $string['accountexpirywarninghtml1'] = '<p>%s さん</p>
 <p>あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問はお気軽に<a href="%s">お問い合わせください</a>。</P>
 
 <p>%s サイト管理者</p>';
-$string['institutionmembershipexpirywarning'] = 'インスティテューションメンバーシップ有効期限切れ通知';
+$string['institutionmembershipexpirywarning'] = 'インスティテューションメンバシップ有効期限切れ通知';
 $string['institutionmembershipexpirywarningtext1'] = '%s さん
 
-あなたの %s における %s のメンバーシップは %s に有効期限が切れます。
+あなたの %s における %s のメンバシップは %s に有効期限が切れます。
 
-あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽にお問い合わせください:
+あなたのメンバシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽にお問い合わせください:
 
 %s
 
 %s サイト管理者';
 $string['institutionmembershipexpirywarninghtml1'] = '<p>%s さん</p>
 
-<p>あなたの %s における %s のメンバーシップは %s に有効期限が切れます。</p>
+<p>あなたの %s における %s のメンバシップは %s に有効期限が切れます。</p>
 
-<p>あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽に<a href="%s">お問い合わせください</a>。</P>
+<p>あなたのメンバシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽に<a href="%s">お問い合わせください</a>。</P>
 
 <p>%s サイト管理者</p>';
 $string['institutionexpirywarning'] = 'インスティテューション終了通知';
 $string['institutionexpirywarningtext_institution1'] = '%s さん
 
-%s の %s におけるメンバーシップは %s で終了します。
+%s の %s におけるメンバシップは %s で終了します。
 
-あなたのインスティテューションメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽にお問い合わせください:
+あなたのインスティテューションメンバシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽にお問い合わせください:
 
 %s
 
 %s サイト管理者';
 $string['institutionexpirywarninghtml_institution1'] = '<p>%s さん</p>
 
-<p>%s の %s におけるメンバーシップは %s で終了します。</p>
+<p>%s の %s におけるメンバシップは %s で終了します。</p>
 
-<p>あなたのインスティテューションメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽に<a href="%s">お問い合わせください</a>。</P>
+<p>あなたのインスティテューションメンバシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽に<a href="%s">お問い合わせください</a>。</P>
 
 <p>%s サイト管理者</p>';
 $string['institutionexpirywarningtext_site1'] = '%s さん
 
 インスティテューション「 %a 」は %s で終了します。
 
-%s のメンバーシップの有効期限を延長したい場合、お問い合わせください:
+%s のメンバシップの有効期限を延長したい場合、お問い合わせください:
 
 %s サイト管理者';
 $string['institutionexpirywarninghtml_site1'] = '<p>%s さん</p>
 
 <p>インスティテューション「 %a 」は %s で終了します。</p>
 
-<p>%s のメンバーシップの有効期限を延長したい場合、<a href="%s">お問い合わせください</a>。</P>
+<p>%s のメンバシップの有効期限を延長したい場合、<a href="%s">お問い合わせください</a>。</P>
 
 <p>%s サイト管理者';
 $string['accountinactive'] = '申し訳ございません、あなたのアカウントは現在有効ではありません。';
@@ -502,7 +502,7 @@ $string['registerprivacy1'] = 'ここで収集したデータは私たちのプ�
 $string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s に登録されました。あなたのアバタとして表示する任意のプロファイル画像を選択できます。</p>';
 $string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須です。あなたの登録を完了するにはすべての必須フィールドに入力してください。</p>';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムに登録できません。';
-$string['membershipexpiry'] = 'メンバーシップ有効期限切れ';
+$string['membershipexpiry'] = 'メンバシップ有効期限切れ';
 $string['institutionfull'] = 'あなたが選択したインスティテューションはこれ以上登録を受け付けていません。';
 $string['registrationnotallowed'] = 'あなたが選択したインスティテューションは自己登録を許可していません。';
 $string['registrationcomplete'] = '%s へのご登録ありがとうございます。';
@@ -557,10 +557,10 @@ $string['forgotpasswordenternew'] = '続けるにはあなたの新しいパス�
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';
 $string['passwordresetexpired'] = 'パスワードリセットキーの有効期限が切れました。';
 $string['passwordchangedok'] = 'あなたのパスワードが正常に変更されました。';
-$string['noinstitutionsetpassemailsubject'] = '%s: %s のメンバーシップ';
+$string['noinstitutionsetpassemailsubject'] = '%s: %s のメンバシップ';
 $string['noinstitutionsetpassemailmessagetext'] = '%s さん
 
-あなたは %s のメンバーではなくなりました。
+あなたは %s のメンバではなくなりました。
 続けて %s を現在のユーザ名 %s で使用できますがアカウントに新しいパスワードを設定する必要があります。
 
 パスワードリセット処理を続けるには以下のリンクをクリックしてください。
@@ -576,7 +576,7 @@ $string['noinstitutionsetpassemailmessagetext'] = '%s さん
 %sforgotpass.php?key=%s';
 $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 
-<p>あなたは %s のメンバーではなくなりました。</p>
+<p>あなたは %s のメンバではなくなりました。</p>
 <p>続けて %s を現在のユーザ名 %s で使用できますがアカウントに新しいパスワードを設定する必要があります。</p>
 
 <p>パスワードリセット処理を続けるには以下のリンクをクリックしてください。</p>
@@ -588,10 +588,10 @@ $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 <p>%s サイト管理者</p>
 
 <p><a href="%sforgotpass.php?key=%s">%sforgotpass.php?key=%s</a></p>';
-$string['noinstitutionoldpassemailsubject'] = '%s: %s のメンバーシップ';
+$string['noinstitutionoldpassemailsubject'] = '%s: %s のメンバシップ';
 $string['noinstitutionoldpassemailmessagetext'] = '%s さん
 
-あなたは %s のメンバーではなくなりました。
+あなたは %s のメンバではなくなりました。
 あなたは続けて %s を現在のユーザ名 %s およびアカウントに設定したパスワードで使用できます。
 
 あなたのパスワードを忘れてしまった場合、以下のページにアクセスしてユーザ名を入力することでパスワードをリセットできます。
@@ -607,7 +607,7 @@ $string['noinstitutionoldpassemailmessagetext'] = '%s さん
 %sforgotpass.php';
 $string['noinstitutionoldpassemailmessagehtml'] = '<p>%s さん</p>
 
-<p>あなたは %s のメンバーではなくなりました。</p>
+<p>あなたは %s のメンバではなくなりました。</p>
 <p>あなたは続けて %s を現在のユーザ名 %s およびアカウントに設定したパスワードで使用できます。</p>
 
 <p>あなたのパスワードを忘れてしまった場合、以下のページにアクセスしてユーザ名を入力することでパスワードをリセットできます。</p>
@@ -708,29 +708,29 @@ $string['notifications'] = '通知';
 $string['inbox'] = '受信箱';
 $string['unread'] = '%s 未読';
 $string['gotoinbox'] = '受信箱に移動する';
-$string['institutionmembership'] = 'インスティテューションメンバーシップ';
-$string['institutionmembershipdescription'] = 'あなたがインスティテューションのメンバーである場合、ここにインスティテューションが一覧表示されます。あなたはインスティテューションのメンバーシップをリクエストすることもできます。また、保留中のメンバーシップ招待を承認または拒否できます。';
-$string['youareamemberof'] = 'あなたは %s のメンバーです。';
+$string['institutionmembership'] = 'インスティテューションメンバシップ';
+$string['institutionmembershipdescription'] = 'あなたがインスティテューションのメンバである場合、ここにインスティテューションが一覧表示されます。あなたはインスティテューションのメンバシップをリクエストすることもできます。また、保留中のメンバシップ招待を承認または拒否できます。';
+$string['youareamemberof'] = 'あなたは %s のメンバです。';
 $string['leaveinstitution'] = 'インスティテューションから離脱する';
 $string['reallyleaveinstitution'] = '本当にこのインスティテューションから離脱してもよろしいですか?';
-$string['youhaverequestedmembershipof'] = 'あなたは %s のメンバーシップをリクエストしました。';
+$string['youhaverequestedmembershipof'] = 'あなたは %s のメンバシップをリクエストしました。';
 $string['cancelrequest'] = 'リクエストをキャンセルする';
 $string['youhavebeeninvitedtojoin'] = 'あなたは %s への参加を招待されました。';
 $string['confirminvitation'] = '招待を承認する';
 $string['joininstitution'] = 'インスティテューションに参加する';
 $string['decline'] = '拒否';
-$string['requestmembershipofaninstitution'] = 'インスティテューションメンバーシップのリクエスト';
+$string['requestmembershipofaninstitution'] = 'インスティテューションメンバシップのリクエスト';
 $string['optionalinstitutionid'] = 'インスティテューションID';
-$string['institutionmemberconfirmsubject'] = 'インスティテューションメンバーシップの承認';
-$string['institutionmemberconfirmmessage'] = 'あなたは %s にメンバーとして追加されました。';
-$string['institutionmemberrejectsubject'] = 'インスティテューションメンバーシップのリクエストが拒否されました。';
-$string['institutionmemberrejectmessage'] = 'あなたの %s へのメンバーシップリクエストは拒否されました。';
+$string['institutionmemberconfirmsubject'] = 'インスティテューションメンバシップの承認';
+$string['institutionmemberconfirmmessage'] = 'あなたは %s にメンバとして追加されました。';
+$string['institutionmemberrejectsubject'] = 'インスティテューションメンバシップのリクエストが拒否されました。';
+$string['institutionmemberrejectmessage'] = 'あなたの %s へのメンバシップリクエストは拒否されました。';
 $string['noinstitutionstafffound'] = 'インスティテューションスタッフは見つかりませんでした。';
 $string['noinstitutionadminfound'] = 'インスティテューション管理者は見つかりませんでした。';
-$string['Memberships'] = 'メンバーシップ';
+$string['Memberships'] = 'メンバシップ';
 $string['Requests'] = 'リクエスト';
 $string['Invitations'] = '招待';
-$string['institutionmembershipfullsubject'] = 'インスティテューションメンバーシップ定員到達';
+$string['institutionmembershipfullsubject'] = 'インスティテューションメンバシップ定員到達';
 $string['institutionmembershipfullmessagetext'] = '%s さん
 
 %s - %s の最大ユーザ数に達しました。
@@ -1174,7 +1174,7 @@ $string['modified'] = '修正';
 $string['historical'] = '長期時系列データ';
 $string['institutions'] = 'インスティテューション';
 $string['logins'] = 'ログイン';
-$string['members'] = 'メンバー';
+$string['members'] = 'メンバ';
 $string['blocks'] = 'ブロック';
 $string['artefacts'] = 'アーティファクト';
 $string['posts'] = '投稿';
