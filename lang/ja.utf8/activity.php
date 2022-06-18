@@ -72,7 +72,7 @@ $string['messageaccessfrom1'] = 'あなたは %s の後アクセスできます�
 $string['messageaccessto1'] = 'あなたは %s までアクセスできます。';
 $string['viewmodified'] = 'がページを変更しました。';
 $string['ongroup'] = 'グループ:';
-$string['ownedby'] = 'オーナー:';
+$string['ownedby'] = 'オーナ:';
 $string['objectionablecontentview'] = 'ページ「 %s 」の好ましくないコンテンツ - 報告者: %s';
 $string['objectionablecontentviewartefact'] = 'ページ「 %s (%s) 」の好ましくないコンテンツ - 報告者: %s';
 $string['objectionablecontentviewhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」の好ましくないコンテンツ - 報告者: %s<strong></strong><br />%s</div>
@@ -130,7 +130,7 @@ $string['objectionablereviewviewtext'] = '「 %s 」の好ましくないコン�
 ------------------------------------------------------------------------
 ページを閲覧するには次のリンクにアクセスしてください:
 %s
-オーナーのプロファイルを閲覧するには次のリンクにアクセスしてください:
+オーナのプロファイルを閲覧するには次のリンクにアクセスしてください:
 %s';
 $string['objectionablereviewviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s - %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュー<br />%s</div>
 
@@ -149,19 +149,19 @@ $string['objectionablereviewviewartefacttext'] = '「 %s - %s 」の好ましく
 ------------------------------------------------------------------------
 ページを閲覧するには次のリンクにアクセスしてください:
 %s
-オーナーのプロファイルを閲覧するには次のリンクにアクセスしてください:
+オーナのプロファイルを閲覧するには次のリンクにアクセスしてください:
 %s';
 $string['stillobjectionablecontent'] = 'コンテンツには好ましくない内容が含まれています。';
 $string['stillobjectionablecontentsuspended'] = '好ましくないコンテンツが解決されるまでページへのアクセスは一時的に停止されています。';
-$string['newgroupmembersubj'] = '%s がグループメンバーになりました。';
-$string['removedgroupmembersubj'] = '%s はグループメンバーではなくなりました。';
+$string['newgroupmembersubj'] = '%s がグループメンバになりました。';
+$string['removedgroupmembersubj'] = '%s はグループメンバではなくなりました。';
 $string['addtowatchlist'] = 'ウォッチリストに追加する';
 $string['removefromwatchlist'] = 'ウォッチリストから削除する';
 $string['missingparam'] = '次の活動タイプに関する必須パラメータ %s が空です: %s';
-$string['institutionrequestsubject'] = '%s が %s のメンバーシップをリクエストしました。';
-$string['institutionrequestmessage'] = 'あなたは「インスティテューションメンバー」ページで人をインスティテューションに追加できます:';
+$string['institutionrequestsubject'] = '%s が %s のメンバシップをリクエストしました。';
+$string['institutionrequestmessage'] = 'あなたは「インスティテューションメンバ」ページで人をインスティテューションに追加できます:';
 $string['institutioninvitesubject'] = 'あなたはインスティテューション %s への参加を招待されました。';
-$string['institutioninvitemessage'] = 'あなたは「インスティテューション設定」ページでこのインスティテューションのメンバーシップを承認できます:';
+$string['institutioninvitemessage'] = 'あなたは「インスティテューション設定」ページでこのインスティテューションのメンバシップを承認できます:';
 $string['deleteallnotifications'] = 'すべての通知を削除する';
 $string['reallydeleteallnotifications'] = '本当にこの活動タイプに関してあなたの通知すべてを削除してもよろしいですか?';
 $string['viewsubmittedsubject1'] = '%s への送信';
