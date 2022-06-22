@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-06-14 23:24:15 UTC
+ * @updated    2022-06-22 04:41:26 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -383,10 +383,10 @@ $string['grouparchivereportserror'] = '提出が許可されている場合の�
 $string['returntogroupportfolios'] = 'グループページおよびコレクションに戻る';
 $string['showintroduction'] = '自己紹介';
 $string['addgrouplabel'] = 'グループラベルを追加する';
-$string['addgrouplabeldescription'] = 'あなたのみ閲覧できるようこのグループに1つまたはそれ以上のラベルを追加します。ラベルを追加した場合、あなたのリンクでグループを整理できます。あなたはどのグループをサイドバーおよびあなたのプロファイルページに表示するかも決定できます。';
+$string['addgrouplabeldescription'] = 'あなたのみ閲覧できるようこのグループに1つまたはそれ以上のラベルを追加してください。ラベルを追加した場合、あなたのリンクでグループを整理できます。あなたはどのグループをサイドバーおよびあなたのプロファイルページに表示するかも決定できます。';
 $string['addgrouplabelfilter'] = 'グループラベルフィルタ「 %s 」を追加する';
 $string['addlabel'] = 'ラベルを追加する';
-$string['displayonlylabels'] = '次がラベル付けされたグループのみ表示する';
+$string['displayonlylabels'] = '次でラベル付けされたグループのみ表示する';
 $string['filterbygrouplabel'] = 'ラベルでフィルタする';
 $string['grouplabelnotmember'] = '現在、あなたはこのグループのメンバではありません。ページをリフレッシュしてください。';
 $string['grouplabeladded'] = 'グループラベルが追加されました。';
