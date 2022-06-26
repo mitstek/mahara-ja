@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['Import'] = 'インポート';
-$string['importexceedquota'] = 'あなたがアップロードしたLeap2Aファイルの新しいファイルの合計サイズがあなたのクオータを超えます。ファイルの一部を削除して再度お試しください。';
+$string['importexceedquota'] = 'あなたがアップロードしたLeap2Aファイル内の新しいファイルの合計サイズにより、あなたのクオータを超えることになります。ファイルの一部を削除して再度お試しください。';
 $string['importsuccessfully'] = 'あなたのポートフォリオが正常にインポートされました。';
 $string['importfailed'] = '<p><strong>申し訳ございません - あなたのLeap2Aファイルのインポートに失敗しました。</strong></p>
 
