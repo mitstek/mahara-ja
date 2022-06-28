@@ -28,13 +28,13 @@
 
 defined('INTERNAL') || die();
 
-$string['aboutdefaultcontent'] = '<h2>Maharaとは</h2>
+$string['aboutdefaultcontent'] = '<h2>私たちについて</h2>
 
 <p>Maharaはマシー大学 (Massey University)、オークランド工科大学 (Auckland University of Technology)、オープン・ポリテクニック・ニュージーランド (The Open Polytechnic of New Zealand)、ビクトリア大学ウェリントン (Victoria University of Wellington) を含む、ニュージーランド高等教育委員会のeラーニング共同開発ファンド (eCDF, Tertiary Education Commission\'s e-learning Collaborative Development Fund) の資金援助により2006年に設立された共同事業の成果です。</p>
 
 <p>Maharaはユーザを結び、コミュニティを作成できる十分な機能を有したeポートフォリオ、ウェブログ、レジュメビルダおよびソーシャルネットワーキングシステムです。Maharaはユーザに対して個人学習、専門教育および開発環境を構築するツールを提供します。</p>
 
-<p>Maharaとはマオリ語 (Te Reo Māori) で「熟考」または「思索」を意味します。教授方略の熟考なしには技術的解決策を開発できないという信念と共にプロジェクト協力者の献身によるユーザを中心とした生涯学習およびアプリケーション開発にその名称が反映されています。</p>
+<p>私たちについてマオリ語 (Te Reo Māori) で「熟考」または「思索」を意味します。教授方略の熟考なしには技術的解決策を開発できないという信念と共にプロジェクト協力者の献身によるユーザを中心とした生涯学習およびアプリケーション開発にその名称が反映されています。</p>
 
 <p>Maharaは (GNU General Public License 一般公衆利用許諾契約書の下)、無償のオープンソースソフトウェアとして提供されます。下記条件を同意することによりあなたにMaharaのコピー、使用および修正が許可されていることを意味します:</p>
 
