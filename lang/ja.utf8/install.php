@@ -13,7 +13,7 @@
 
 defined('INTERNAL') || die();
 
-$string['aboutdefaultcontent'] = '<h1>Maharaとは</h1>
+$string['aboutdefaultcontent'] = '<h1>私たちについて</h1>
 
 <p>あなたの組織またはインストールに関するテキストをここに追加してください。</p>
 
