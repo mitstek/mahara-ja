@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-10-26 19:25:29 UTC
+ * @updated    2022-06-28 21:03:49 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,7 +13,7 @@
 
 defined('INTERNAL') || die();
 
-$string['aboutdefaultcontent'] = '<h2>Maharaとは</h2>
+$string['aboutdefaultcontent'] = '<h2>私たちについて</h2>
 
 <p>あなたの組織またはインストールに関するテキストをここに追加してください。</p>
 
