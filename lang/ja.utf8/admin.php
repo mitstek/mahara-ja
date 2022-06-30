@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-06-30 02:46:03 UTC
+ * @updated    2022-06-30 08:45:11 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -637,7 +637,7 @@ $string['internalnotificationexpiredescription'] = '内部通知を保持する�
 $string['notificationsettings'] = '通知設定';
 $string['notificationsettingsdescription'] = 'ここであなたは新しいアカウント保持者が受信する通知のデフォルトオプションを設定できます。人はこれらの設定を自分の「設定 → 通知」ページでオーバーライドできます。<br />あなたがメールオプションのどちらを選択した場合でも通知は受信ボックスに到着しますが、自動的に既読マークされます。';
 $string['csvfile'] = 'CSVファイル';
-$string['emailusersaboutnewaccount1'] = 'メールアカウント詳細';
+$string['emailusersaboutnewaccount1'] = 'アカウント詳細をメール送信する';
 $string['emailusersaboutnewaccountdescription1'] = 'この設定を有効にした場合、人に新しいアカウントの作成またはアカウントの更新を知らせるためのメールが送信されます。';
 $string['forceuserstochangepassword'] = 'パスワード変更を強制する';
 $string['forceuserstochangepassworddescription1'] = 'アカウント保持者は次回ログイン時に強制的にパスワードを変更することになります。これはアカウント保持者が別のインスティテューションに移動および「内部」認証方法が設定されている場合に特に推奨されます。外部認証方式を使用する場合、このオプションは「Yes」に設定しないでください。';
