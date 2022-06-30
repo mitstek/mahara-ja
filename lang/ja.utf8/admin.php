@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-06-07 22:31:26 UTC
+ * @updated    2022-06-30 02:46:03 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -135,7 +135,8 @@ $string['institutionsettingsdesc'] = 'インスティテューションを設定
 $string['lastinstitution'] = '前のインスティテューション';
 $string['adminnotifications'] = '管理者通知';
 $string['adminnotificationsdescription'] = '管理者が受信するシステム通知の概要です。';
-$string['uploadcsv'] = 'CSVで人を追加する';
+$string['uploadcsv1'] = 'CSVでアカウントを追加または更新する';
+$string['uploadcsvbutton'] = 'アカウントを追加または更新する';
 $string['uploadcsvdesc'] = '新しいアカウントの詳細または既存アカウントの更新を含むCSVファイルをアップロードします。';
 $string['uploadgroupcsv'] = 'CSVでグループを追加する';
 $string['uploadgroupmemberscsv'] = 'CSVでグループメンバを更新する';
@@ -636,13 +637,13 @@ $string['internalnotificationexpiredescription'] = '内部通知を保持する�
 $string['notificationsettings'] = '通知設定';
 $string['notificationsettingsdescription'] = 'ここであなたは新しいアカウント保持者が受信する通知のデフォルトオプションを設定できます。人はこれらの設定を自分の「設定 → 通知」ページでオーバーライドできます。<br />あなたがメールオプションのどちらを選択した場合でも通知は受信ボックスに到着しますが、自動的に既読マークされます。';
 $string['csvfile'] = 'CSVファイル';
-$string['emailusersaboutnewaccount'] = '人にアカウント情報をメール送信する';
-$string['emailusersaboutnewaccountdescription'] = 'この設定を有効にした場合、人に新しいアカウント詳細情報がメール送信されます。';
+$string['emailusersaboutnewaccount1'] = 'メールアカウント詳細';
+$string['emailusersaboutnewaccountdescription1'] = 'この設定を有効にした場合、人に新しいアカウントの作成またはアカウントの更新を知らせるためのメールが送信されます。';
 $string['forceuserstochangepassword'] = 'パスワード変更を強制する';
-$string['forceuserstochangepassworddescription'] = 'この設定を有効にした場合、初回ログイン時、人にパスワード変更を強制します。';
-$string['uploadcsvinstitution'] = '新しいアカウントのインスティテューションおよび認証方法です。';
+$string['forceuserstochangepassworddescription1'] = 'アカウント保持者は次回ログイン時に強制的にパスワードを変更することになります。これはアカウント保持者が別のインスティテューションに移動および「内部」認証方法が設定されている場合に特に推奨されます。外部認証方式を使用する場合、このオプションは「Yes」に設定しないでください。';
+$string['uploadcsvinstitution1'] = '新しく作成されたアカウントまたは更新されたアカウントに割り当てるインスティテューションおよび認証方法です。<br />注意: あなたがアカウントを新しいインスティテューションに移動した場合、そのアカウントは他のすべてのインスティテューションから削除された上でここで指定したインスティテューションに追加されます。';
 $string['configureauthplugin'] = 'あなたが人を追加するには最初に認証プラグインを設定する必要があります。';
-$string['csvfiledescription'] = '追加する人を含むファイルです。';
+$string['csvfiledescription1'] = '追加または更新するアカウントを含むファイルです。';
 $string['csvmaxusersdescription'] = 'このファイルには %s 以上含めません。';
 $string['groupcsvfiledescription'] = '追加するグループを含むファイルです。';
 $string['groupmemberscsvfiledescription'] = '更新するグループメンバを含むファイルです。';
@@ -668,7 +669,7 @@ $string['uploadcsverroruserinaninstitution'] = 'あなたのファイルの %s �
 $string['uploadcsverrorinvalidexpirydate'] = 'あなたのファイルの %s 行目にエラーがあります: 有効期限「 %s 」が有効ではありません。有効な日付フォーマットを使用してください。';
 $string['uploadcsverroruserrolemissing'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザロール「 %s 」のクラスがありません。「UserRole%s」クラスが存在してアクセス可能であることを確認してください。';
 $string['uploadcsverrorexpirydateinpast'] = 'あなたのファイルの %s 行目にエラーがあります: 有効期限「 %s 」を過去にはできません。';
-$string['uploadcsvpagedescription7'] = '<p>ここであなたは<acronym title="Comma Separated Values">CSV</acronym>ファイルをアップロードして新しいアカウントを作成できます。</p>
+$string['uploadcsvpagedescription8'] = '<p>あなたは<acronym title="Comma Separated Values">CSV</acronym>ファイルのアップロードで新しいアカウントを作成または既存のアカウントを更新できます。</p>
 
 <p>あなたのCSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば以下のようになります:</p>
 
@@ -683,7 +684,7 @@ $string['uploadcsvpagedescription7'] = '<p>ここであなたは<acronym title="
 <li>password</li>
 </ul>
 
-<p>既存のアカウントを更新する場合、あなたは「password」フィールドを省略できます。</p>
+<p>あなたが外部認証方式を使用するアカウントを設定した場合でも「password」フィールドは必要です。その場合、パスワード変更を強制しないよう注意してください。既存のアカウントを更新する場合、「password」フィールドは省略できます。</p>
 
 <p>あなたのCSVファイルには初期値を事前設定するための他のプロファイルフィールドを含めます。任意フィールドは以下のとおりです:</p>
 
@@ -741,7 +742,7 @@ $string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能�
 $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部の人にメール送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを適切に送信できるよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらの人には手動で連絡してください:';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内の人が多過ぎるため誰も追加されませんでした。許可されたインスティテューションの最大数をメンバ数が超過しました。';
 $string['updateusers'] = 'アカウントを更新する';
-$string['updateusersdescription'] = 'あなたが指定したインスティテューションに属する既存のユーザ名の人がCSVファイルに含まれる場合、その人の詳細がファイルのデータにより上書きされることになります。注意して使用してください。';
+$string['updateusersdescription1'] = 'あなたのCSVファイルに既存のユーザ名の人が含まれる場合、その人の詳細がCSVファイルのデータで上書きされることになります。あなたが上で選択した別のインスティテューションにアカウントを移動したい場合、このオプションを選択する必要があります。';
 $string['updategroups'] = 'グループを更新する';
 $string['updategroupsdescription2'] = 'CSVファイル内のグループ省略名に合致するグループ詳細がCSVファイル内の情報で上書きされます。注意して使用してください。';
 $string['csvfileprocessedsuccessfully'] = 'あなたのCSVファイルが正常に処理されました。';
@@ -752,6 +753,9 @@ $string['numbernewgroupsadded'] = '新しいグループが追加されました
 $string['numberusersupdated'] = 'アカウントが更新されました: %d';
 $string['numbergroupsupdated'] = 'グループが更新されました: %d';
 $string['showupdatedetails'] = '更新詳細を表示する';
+$string['uploadcsvemailingnewusers'] = '新しいアカウント保持者に通知する';
+$string['uploadcsvemailingupdatedusers'] = '更新アカウント保持者に通知する';
+$string['uploadcsvdone'] = '処理完了';
 $string['bulkleap2aimport'] = 'Leap2Aファイルからアカウントをインポートする';
 $string['bulkleap2aimportdescription1'] = '<p>あなたのサーバ内にある複数のLeap2Aファイルからアカウントを一度にインポートできます。あなたはサーバのファイルシステムにあるすべてのLeap2A ZIPファイルおよびユーザ名をファイル名にマッピングしたusernames.csvと呼ばれる単一CSVファイルを含むZIPファイルを指定する必要があります。</p>
 <p>usernames.csvは以下のようになります:</p>
@@ -771,6 +775,7 @@ import.zip<br />
 <p>通常、このZIPファイルはMahara内蔵のバルクエクスポートを使用して生成されます。</p>
 <p>あなたが多くのアカウントをインポートする場合、注意してください。インポート処理に長時間を要する場合があります。</p>';
 $string['importfile'] = 'バルクエクスポートファイル';
+$string['emailimportedusersaboutnewaccountdescription'] = '人に新しいアカウント詳細を知らせるためのメールを送信します。';
 $string['importfilemissinglisting'] = 'ファイル名「usernames.csv」のバルクエクスポートファイルがありません。あなたはこれらのアカウントのエクスポートにMaharaバルクエクスポータを使用しましたか?';
 $string['importfilenotafile'] = 'フォーム送信中にエラーが発生しました: ファイルを認識できませんでした。';
 $string['importfilenotreadable'] = 'フォーム送信中にエラーが発生しました: ファイルを読み込めませんでした。';
@@ -887,7 +892,7 @@ $string['nocsvresults'] = 'CSVファイルの結果は見つかりませんで�
 $string['exportdownloademailsubject1'] = 'あなたの「 %s 」のエクスポートのダウンロード準備ができました。';
 $string['exportdownloademailmessage1'] = '%s さん、あなたの「 %s 」のエクスポートのダウンロード準備ができました。このファイルは生成後、最大24時間のみ利用できます。ファイルをダウンロードするには次のリンクにアクセスしてください:';
 $string['exportdownloadurl'] = 'エクスポートされたファイルをダウンロードする';
-$string['adduser'] = '人を追加する';
+$string['addaccount'] = 'アカウントを追加する';
 $string['adduserdescription'] = '新しいアカウントを作成します。';
 $string['basicinformationforthisuser'] = 'このアカウントの基本情報です。';
 $string['clickthebuttontocreatetheuser'] = 'アカウントを作成するにはボタンをクリックしてください。';

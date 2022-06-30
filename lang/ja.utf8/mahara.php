@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-06-23 23:05:48 UTC
+ * @updated    2022-06-30 03:03:15 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1301,3 +1301,28 @@ $string['institutionfilledreplymessage'] = '%s さん、こんにちは。
 $string['institutionmembershiprequestsdescription'] = 'あなたは次のインスティテューションへの参加をリクエストしました。';
 $string['institutionmembershipinvitedescription'] = '管理者があなたに次のインスティテューションへの参加を招待しました。';
 $string['institutionmembershipjoindescription'] = 'あなたはインスティテューションへの参加リクエストを送信できます。「インスティテューションID」フィールドはこのインスティテューションの学籍番号設定用です。';
+$string['accountupdated'] = '%s: アカウントが更新されました。';
+$string['accountupdatedheading'] = '%s さん
+
+あなたのアカウントは %s に更新されました。あなたのアカウント名が変更されている可能性があります。変更は以下のとおりです:
+
+%s';
+$string['accountupdatedheadinghtml'] = '<p>%s さん</p>
+<p>あなたのアカウントは %s に更新されました。あなたのアカウント名が変更されている可能性があります。変更は以下のとおりです:</p>
+
+<p>%s </p>';
+$string['accountupdatednewinstitution'] = 'あなたはインスティテューション %s に追加されました。';
+$string['accountupdatednewinstitutionhtml'] = '<p>あなたはインスティテューション %s に<strong>追加</strong>されました。</p>';
+$string['accountupdatedremovedinstitutions'] = 'あなたは次のインスティテューションから削除されました: %s';
+$string['accountupdatedremovedinstitutionshtml'] = '<p>あなたは次のインスティテューションから<strong>削除</strong>されました: <br /> %s</p>';
+$string['accountupdatedpasswordreset'] = '以下のリンクを使用してあなたのパスワードを変更してください:
+
+%s
+
+注意: このリンクは1日後の %s に有効期限が切れます。';
+$string['accountupdatedpasswordresethtml'] = '<p><a href="%s">あなたのパスワードを変更してください</a>。</p>
+
+<p><strong>注意</strong>: このリンクは1日後の %s に有効期限が切れます。</p>';
+$string['accountupdateresetpasslink'] = '%sforgotpass.php?key=%s';
+$string['accountupdatefooter'] = '%s 管理者';
+$string['accountupdatefooterhtml'] = '<p>%s 管理者</p>';
