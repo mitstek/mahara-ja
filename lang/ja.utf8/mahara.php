@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-06-30 03:03:15 UTC
+ * @updated    2022-07-03 22:26:25 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -81,7 +81,7 @@ $string['disabled'] = '無効';
 $string['complaint'] = 'クレーム';
 $string['notifyadministrator'] = '管理者に通知する';
 $string['notifyadministratorconfirm'] = '本当にこのページを好ましくないコンテンツを含んでいるとして報告しますか?';
-$string['notifyadministratorreview'] = '本当にこのページを管理者が再度レビューするための準備ができましたか?';
+$string['notifyadministratorreview'] = '本当に管理者がこのページを再度レビューするための準備ができましたか?';
 $string['notobjectionable'] = '好ましくないコンテンツではない';
 $string['reportobjectionablematerial'] = '好ましくないコンテンツを報告する';
 $string['objectionablematerialreported'] = '好ましくないコンテンツ報告';
