@@ -87,7 +87,7 @@ $string['reportobjectionablematerial'] = '好ましくないコンテンツを�
 $string['objectionablematerialreported'] = '好ましくないコンテンツ報告';
 $string['objectionablematerialreportedowner'] = '誰かがあなたのページに好ましくないコンテンツが含まれていると報告しました。あなたのページをレビューして必要に応じて調整してください。';
 $string['objectionablematerialreportedreply'] = 'あなたが変更した場合、または詳しい説明を求める場合、管理者に知らせるため「好ましくないコンテンツをレビューする」ボタンをクリックしてください。';
-$string['objectionablematerialreportreplied'] = '管理者がページをレビューしましたがまだ好ましくないコンテンツが含まれているようです。詳細情報はあなたの通知を確認してください。あなたは変更して「好ましくないコンテンツをレビューする」ボタンをクリックすることにより管理者にメッセージを送信できます。または詳しい説明を求めることができます。';
+$string['objectionablematerialreportreplied'] = '管理者がページをレビューしましたがまだ好ましくないコンテンツが含まれているようです。詳細はあなたの通知を確認してください。あなたは変更後、「好ましくないコンテンツをレビューする」ボタンをクリックして管理者にメッセージを送信できます。または詳しい説明を求めることができます。';
 $string['objectionreviewsent'] = '異議レビューがページオーナに送信されました。あなたが調整して別のレビューを送信したい場合、「まだ好ましくない」をクリックしてください。';
 $string['lastobjection'] = '最新異議';
 $string['objectionnotreviewed'] = '異議レビュー未了';
@@ -298,7 +298,7 @@ $string['accountexpired'] = '申し訳ございません、あなたのアカウ
 $string['accountcreated'] = '%s: 新しいアカウント';
 $string['accountcreatedtext'] = '%s さん
 
-あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は以下のとおりです:
+あなたの新しいアカウントが %s に作成されました。あなたの詳細は以下のとおりです:
 
 ユーザ名: %s
 パスワード: %s
@@ -308,7 +308,7 @@ $string['accountcreatedtext'] = '%s さん
 %s サイト管理者';
 $string['accountcreatedchangepasswordtext'] = '%s さん
 
-あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は以下のとおりです:
+あなたの新しいアカウントが %s に作成されました。あなたの詳細は以下のとおりです:
 
 ユーザ名: %s
 パスワード: %s
@@ -320,7 +320,7 @@ $string['accountcreatedchangepasswordtext'] = '%s さん
 %s サイト管理者';
 $string['accountcreatedhtml'] = '<p>%s さん</p>
 
-<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細情報は以下のとおりです:</p>
+<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細は以下のとおりです:</p>
 
 <ul>
 <li><strong>ユーザ名:</strong> %s</li>
@@ -332,7 +332,7 @@ $string['accountcreatedhtml'] = '<p>%s さん</p>
 <p>%s サイト管理者</p>';
 $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 
-<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細情報は以下のとおりです:</p>
+<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細は以下のとおりです:</p>
 
 <ul>
 <li><strong>ユーザ名:</strong> %s</li>
