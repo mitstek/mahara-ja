@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-07-06 04:53:52 UTC
+ * @updated    2022-07-10 21:44:49 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -105,7 +105,7 @@ $string['stillobjectionable'] = 'まだ好ましくない';
 $string['objectionreview'] = '好ましくないコンテンツをレビューする';
 $string['objectionreviewonview'] = 'ページからのみ好ましくないコンテンツへ返信できます';
 $string['reviewcomplaint'] = 'クレームのレビュー';
-$string['reviewcomplaintdesc'] = 'あなたが作成者に何を変更すべきか詳細を伝えるためのメッセージを入力してください。フィールドを空白にした場合、代わりにオリジナルのクレームが送信されます。';
+$string['reviewcomplaintdesc'] = 'あなたが作成者に何を変更すべきか詳細に伝えるために一緒に送信するメッセージを入力してください。フィールドを空白にした場合、代わりにオリジナルのクレームが送信されます。';
 $string['reviewnotification'] = 'まだ好ましくないコンテンツが存在しているか確認するためポートフォリオをレビューするよう管理者に通知されました。';
 $string['reviewnotificationdesc'] = 'まだ好ましくないコンテンツが存在している場合、レビューしてください。';
 $string['removeaccess'] = 'アクセスを停止する';
