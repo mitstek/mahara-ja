@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-06-22 04:41:26 UTC
+ * @updated    2022-07-14 22:33:48 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -236,6 +236,10 @@ $string['potentialmembers'] = '潜在的なメンバ';
 $string['sendinvitations'] = '招待を送信する';
 $string['userstobeadded'] = '追加される人';
 $string['userstobeinvited'] = '招待される人';
+$string['potentialmemberstorecommend'] = '選択した潜在的なメンバをレコメンデーション送信対象の人にする';
+$string['recommendedtopotentialmembers'] = '選択したレコメンデーション送信対象の人を潜在的なメンバにする';
+$string['potentialmoderatorstomoderators'] = '選択した潜在的なモデレータをモデレータにする';
+$string['moderatorstopotentialmoderators'] = '選択したモデレータを潜在的なモデレータにする';
 $string['reasonoptional'] = '理由 (任意)';
 $string['request'] = 'リクエスト';
 $string['friendformaddsuccess'] = '%s があなたのフレンドリストに追加されました。';
