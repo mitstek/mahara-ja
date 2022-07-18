@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-07-10 21:44:49 UTC
+ * @updated    2022-07-18 05:47:27 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -144,7 +144,7 @@ $string['pluginenabled'] = 'プラグインが表示にされました。';
 $string['plugindisabled'] = 'プラグインが非表示にされました。';
 $string['plugindisableduser'] = '%s プラグインは無効にされています。この機能を有効にするにはあなたの管理者にご相談ください。';
 $string['pluginnotenabled'] = 'プラグインは非表示にされています。あなたはまず %s プラグインを表示にする必要があります。';
-$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるためURLを知っていてアクセスしようと思う人はアクセスできます機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることによりプラグインを表示または非表示にできます。';
+$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされているため、URLを知っている人であればアクセスできます。機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックしてプラグインを表示または非表示にできます。';
 $string['pluginexplainartefactblocktypes'] = '「アーティファクト」タイプのプラグインを非表示にした場合、Maharaは同時に関連するブロックの表示を停止します。';
 $string['pluginbrokenanddisabledtitle1'] = '不完全なプラグイン「 %s 」が無効にされました。';
 $string['pluginbrokenanddisabled'] = '誰かが %s プラグインのロードを試みましたがロードできませんでした。さらなるエラーを避けるためこのプラグインは無効にされました。
