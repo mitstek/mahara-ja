@@ -91,7 +91,7 @@ $string['plugindisabled'] = 'プラグインが非表示にされました。';
 $string['plugindisableduser'] = '%s プラグインは無効にされています。この機能を有効にするにはあなたの管理者にご相談ください。';
 $string['pluginnotenabled'] = 'プラグインは非表示にされています。あなたはまず %s プラグインを表示にする必要があります。';
 $string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるためURLを知っていてアクセスしようと思うユーザはアクセスできます。機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックしてプラグインを表示または非表示にできます。';
-$string['pluginexplainartefactblocktypes'] = '「アーティファクト」タイプのプラグインを非表示にした場合、Maharaは同時に関連するブロックの表示を停止します。';
+$string['pluginexplainartefactblocktypes'] = '「アーティファクト」タイプのプラグインを非表示にした場合、Maharaは関連するブロックの表示も停止します。';
 $string['pluginbrokenanddisabledtitle'] = '不完全なプラグイン (%s) が無効にされました。';
 $string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインのロードを試みましたがロードできませんでした。
 さらなるエラーを避けるためこのプラグインは無効にされました。
