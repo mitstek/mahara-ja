@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-07-20 04:37:32 UTC
+ * @updated    2022-07-25 04:54:12 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -350,7 +350,7 @@ $string['accountexpirywarningtext1'] = '%s さん
 
 あなたの %s のアカウントは %s に有効期限が切れます。
 
-あなたのアカウントの有効期限が切れた後もポートフォリオコンテンツを保持したい場合、%s でポートフォリオをエクスポートすることをお勧めします。
+あなたのアカウントの有効期限が切れた後もポートフォリオコンテンツを保持したい場合、%s でのポートフォリオのエクスポートをお勧めします。
 
 あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問はお気軽にお問い合わせください:
 
@@ -361,7 +361,7 @@ $string['accountexpirywarninghtml1'] = '<p>%s さん</p>
 
 <p>あなたの %s のアカウントは %s に有効期限が切れます。</p>
 
-<p>あなたのアカウントの有効期限が切れた後もポートフォリオコンテンツを保持したい場合、<a href="%s">エクスポートツール</a>でポートフォリオをエクスポートすることをお勧めします。</p>
+<p>あなたのアカウントの有効期限が切れた後もポートフォリオコンテンツを保持したい場合、<a href="%s">エクスポートツール</a>でのポートフォリオのエクスポートをお勧めします。</p>
 
 <p>あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問はお気軽に<a href="%s">お問い合わせください</a>。</P>
 
