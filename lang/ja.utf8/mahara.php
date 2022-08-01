@@ -223,7 +223,7 @@ $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 $string['accountexpirywarning'] = 'アカウント有効期限切れ通知';
 $string['accountexpirywarningtext'] = '%s さん
 
-あなたの %s のアカウントは %s に有効期限が切れます。
+あなたの %s のアカウントは %s に有効期限切れとなります。
 
 エクスポートツールを使用してあなたのポートフォリオのコンテンツを保存することをお勧めします。この機能の使用に関するインストラクションはユーザガイドに記載されています。
 
@@ -234,7 +234,7 @@ $string['accountexpirywarningtext'] = '%s さん
 %s サイト管理者';
 $string['accountexpirywarninghtml'] = '<p>%s さん</p>
 
-<p>あなたの %s のアカウントは %s に有効期限が切れます。</p>
+<p>あなたの %s のアカウントは %s に有効期限切れとなります。</p>
 
 <p>エクスポートツールを使用してあなたのポートフォリオのコンテンツを保存することをお勧めします。この機能の使用に関するインストラクションはユーザガイドに記載されています。</p>
 
@@ -244,7 +244,7 @@ $string['accountexpirywarninghtml'] = '<p>%s さん</p>
 $string['institutionmembershipexpirywarning'] = 'インスティテューションメンバシップト終了通知';
 $string['institutionmembershipexpirywarningtext'] = '%s さん
 
-あなたの %s における %s のメンバシップは %s に有効期限が切れます。
+あなたの %s における %s のメンバシップは %s に有効期限切れとなります。
 
 あなたのメンバシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽にお問い合わせください:
 
@@ -253,7 +253,7 @@ $string['institutionmembershipexpirywarningtext'] = '%s さん
 %s サイト管理者';
 $string['institutionmembershipexpirywarninghtml'] = '<p>%s さん</p>
 
-<p>あなたの %s における %s のメンバシップは %s に有効期限が切れます。</p>
+<p>あなたの %s における %s のメンバシップは %s に有効期限切れとなります。</p>
 
 <p>あなたのメンバシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽に<a href="%s">お問い合わせください</a>。</P>
 
@@ -261,7 +261,7 @@ $string['institutionmembershipexpirywarninghtml'] = '<p>%s さん</p>
 $string['institutionexpirywarning'] = 'インスティテューション終了通知';
 $string['institutionexpirywarningtext_institution'] = '%s さん
 
-%s の %s におけるメンバシップは %s で終了します。
+%s の %s におけるメンバシップは %s で有効期限切れとなります。
 
 あなたのインスティテューションメンバシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽にお問い合わせください:
 
@@ -270,21 +270,21 @@ $string['institutionexpirywarningtext_institution'] = '%s さん
 %s サイト管理者';
 $string['institutionexpirywarninghtml_institution'] = '<p>%s さん</p>
 
-<p>%s の %s におけるメンバシップは %s で終了します。</p>
+<p>%s の %s におけるメンバシップは %s で有効期限切れとなります。</p>
 
 <p>あなたのインスティテューションメンバシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽に<a href="%s">お問い合わせください</a>。</P>
 
 <p>%s サイト管理者</p>';
 $string['institutionexpirywarningtext_site'] = '%s さん
 
-インスティテューション「 %a 」は %s で終了します。
+インスティテューション「 %a 」は %s で有効期限切れとなります。
 
 %s のメンバシップの有効期限を延長したい場合、お問い合わせください:
 
 %s サイト管理者';
 $string['institutionexpirywarninghtml_site'] = '<p>%s さん</p>
 
-<p>インスティテューション「 %a 」は %s で終了します。</p>
+<p>インスティテューション「 %a 」は %s で有効期限切れとなります。</p>
 
 <p>%s のメンバシップの有効期限を延長したい場合、<a href="%s">お問い合わせください</a>。</P>
 
