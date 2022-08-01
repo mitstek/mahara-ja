@@ -31,7 +31,7 @@ $string['registeredemailmessagetext'] = '%s さん
 
 %sregister.php?key=%s
 
-リンクは24時間で有効期限が切れます。
+リンクは24時間で有効期限切れとなります。
 
 --
 %s チーム';
@@ -45,7 +45,7 @@ $string['registeredemailmessagetextmessage'] = '%s さん
 
 %sregister.php?key=%s
 
-リンクは24時間で有効期限が切れます。
+リンクは24時間で有効期限切れとなります。
 
 --
 %s チーム';
@@ -56,14 +56,14 @@ $string['registeredemailmessagehtmlmessage'] = '<p>%s さん</p>
 
 <p>サインアップ手続きを完了するには次のリンクにアクセスしてください:</p>
 <p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>
-<p>リンクは24時間で有効期限が切れます。</p>
+<p>リンクは24時間で有効期限切れとなります。</p>
 
 <pre>--
 %s チーム</pre>';
 $string['registeredemailmessagehtml'] = '<p>%s さん</p>
 <p>%s へのご登録ありがとうございます。サインアップ手続きを完了するには次のリンクにアクセスしてください:</p>
 <p><a href="%sregister.php?key=%s">%sregister.php?key=%s</a></p>
-<p>リンクは24時間で有効期限が切れます。</p>
+<p>リンクは24時間で有効期限切れとなります。</p>
 
 <pre>--
 %s チーム</pre>';
