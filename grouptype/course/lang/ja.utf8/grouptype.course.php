@@ -31,6 +31,6 @@ defined('INTERNAL') || die();
 $string['name'] = 'コース';
 $string['admin'] = '管理者';
 $string['tutor'] = 'チューター';
-$string['member'] = 'メンバー';
+$string['member'] = 'メンバ';
 
 ?>
