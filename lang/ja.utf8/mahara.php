@@ -1,7 +1,7 @@
 <?php
 /**
  * Mahara: Electronic portfolio, weblog, resume builder and social networking
- * Copyright (C) 2006 onwards Catalyst IT Ltd (https://www.catalyst.net.nz)
+ * Copyright (C) 2006 onwards Catalyst IT Ltd (http://www.catalyst.net.nz)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -14,15 +14,15 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @package    mahara
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2017-03-16 06:41:25 UTC
- * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL
- * @copyright  (C) 2006 onwards Catalyst IT Ltd https://catalyst.net.nz
+ * @updated    2022-08-01 01:36:28 UTC
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
+ * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
  */
 
@@ -72,7 +72,7 @@ $string['firstpage'] = '最初のページ';
 $string['last'] = '最後';
 $string['lastpage'] = '最後のページ';
 $string['accept'] = '承認';
-$string['memberofinstitutions'] = '%s のメンバー';
+$string['memberofinstitutions'] = '%s のメンバ';
 $string['reject'] = '拒否';
 $string['sendrequest'] = 'リクエストを送信する';
 $string['reason'] = '理由';
@@ -131,7 +131,7 @@ $string['accountexpired'] = '申し訳ございません、あなたのアカウ
 $string['accountcreated'] = '%s: 新しいアカウント';
 $string['accountcreatedtext'] = '%s さん
 
-あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は以下のとおりです:
+あなたの新しいアカウントが %s に作成されました。あなたの詳細は以下のとおりです:
 
 ユーザ名: %s
 パスワード: %s
@@ -141,7 +141,7 @@ $string['accountcreatedtext'] = '%s さん
 %s サイト管理者';
 $string['accountcreatedchangepasswordtext'] = '%s さん
 
-あなたの新しいアカウントが %s に作成されました。あなたの詳細情報は以下のとおりです:
+あなたの新しいアカウントが %s に作成されました。あなたの詳細は以下のとおりです:
 
 ユーザ名: %s
 パスワード: %s
@@ -153,7 +153,7 @@ $string['accountcreatedchangepasswordtext'] = '%s さん
 %s サイト管理者';
 $string['accountcreatedhtml'] = '<p>%s さん</p>
 
-<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細情報は以下のとおりです:</p>
+<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細は以下のとおりです:</p>
 
 <ul>
 <li><strong>ユーザ名:</strong> %s</li>
@@ -165,7 +165,7 @@ $string['accountcreatedhtml'] = '<p>%s さん</p>
 <p>%s サイト管理者</p>';
 $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 
-<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細情報は以下のとおりです:</p>
+<p>あなたの新しいアカウントが <a href="%s">%s</a> に作成されました。あなたの詳細は以下のとおりです:</p>
 
 <ul>
 <li><strong>ユーザ名:</strong> %s</li>
@@ -180,7 +180,7 @@ $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 $string['accountexpirywarning'] = 'アカウント有効期限切れ通知';
 $string['accountexpirywarningtext'] = '%s さん
 
-あなたの %s のアカウントは %s に有効期限が切れます。
+あなたの %s のアカウントは %s に有効期限切れとなります。
 
 エクスポートツールを使用してあなたのポートフォリオのコンテンツを保存することをお勧めします。この機能の使用に関するインストラクションはユーザガイドに記載されています。
 
@@ -191,59 +191,59 @@ $string['accountexpirywarningtext'] = '%s さん
 %s サイト管理者';
 $string['accountexpirywarninghtml'] = '<p>%s さん</p>
 
-<p>あなたの %s のアカウントは %s に有効期限が切れます。</p>
+<p>あなたの %s のアカウントは %s に有効期限切れとなります。</p>
 
 <p>エクスポートツールを使用してあなたのポートフォリオのコンテンツを保存することをお勧めします。この機能の使用に関するインストラクションはユーザガイドに記載されています。</p>
 
 <p>あなたのアカウントアクセスの有効期限を延長したい場合、または上記内容に関するご質問はお気軽に<a href="%s">お問い合わせください</a>。</P>
 
 <p>%s サイト管理者</p>';
-$string['institutionmembershipexpirywarning'] = 'インスティテューションメンバーシップト終了通知';
+$string['institutionmembershipexpirywarning'] = 'インスティテューションメンバシップト終了通知';
 $string['institutionmembershipexpirywarningtext'] = '%s さん
 
-あなたの %s における %s のメンバーシップは %s に有効期限が切れます。
+あなたの %s における %s のメンバシップは %s に有効期限切れとなります。
 
-あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽にお問い合わせください:
+あなたのメンバシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽にお問い合わせください:
 
 %s
 
 %s サイト管理者';
 $string['institutionmembershipexpirywarninghtml'] = '<p>%s さん</p>
 
-<p>あなたの %s における %s のメンバーシップは %s に有効期限が切れます。</p>
+<p>あなたの %s における %s のメンバシップは %s に有効期限切れとなります。</p>
 
-<p>あなたのメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽に<a href="%s">お問い合わせください</a>。</P>
+<p>あなたのメンバシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽に<a href="%s">お問い合わせください</a>。</P>
 
 <p>%s サイト管理者</p>';
 $string['institutionexpirywarning'] = 'インスティテューション終了通知';
 $string['institutionexpirywarningtext_institution'] = '%s さん
 
-%s の %s におけるメンバーシップは %s で終了します。
+%s の %s におけるメンバシップは %s で有効期限切れとなります。
 
-あなたのインスティテューションメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽にお問い合わせください:
+あなたのインスティテューションメンバシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽にお問い合わせください:
 
 %s
 
 %s サイト管理者';
 $string['institutionexpirywarninghtml_institution'] = '<p>%s さん</p>
 
-<p>%s の %s におけるメンバーシップは %s で終了します。</p>
+<p>%s の %s におけるメンバシップは %s で有効期限切れとなります。</p>
 
-<p>あなたのインスティテューションメンバーシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽に<a href="%s">お問い合わせください</a>。</P>
+<p>あなたのインスティテューションメンバシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽に<a href="%s">お問い合わせください</a>。</P>
 
 <p>%s サイト管理者</p>';
 $string['institutionexpirywarningtext_site'] = '%s さん
 
-インスティテューション「 %a 」は %s で終了します。
+インスティテューション「 %a 」は %s で有効期限切れとなります。
 
-%s のメンバーシップの有効期限を延長したい場合、お問い合わせください:
+%s のメンバシップの有効期限を延長したい場合、お問い合わせください:
 
 %s サイト管理者';
 $string['institutionexpirywarninghtml_site'] = '<p>%s さん</p>
 
-<p>インスティテューション「 %a 」は %s で終了します。</p>
+<p>インスティテューション「 %a 」は %s で有効期限切れとなります。</p>
 
-<p>%s のメンバーシップの有効期限を延長したい場合、<a href="%s">お問い合わせください</a>。</P>
+<p>%s のメンバシップの有効期限を延長したい場合、<a href="%s">お問い合わせください</a>。</P>
 
 <p>%s サイト管理者';
 $string['accountinactive'] = '申し訳ございません、あなたのアカウントは現在有効ではありません。';
@@ -317,7 +317,7 @@ $string['registerprivacy'] = 'ここで収集したデータは私たちの<a hr
 $string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s に登録されました。あなたのアバタとして表示する任意のプロファイルアイコンを選択できます。</p>';
 $string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須です。あなたの登録を完了するにはすべての必須フィールドに入力してください。</p>';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムに登録できません。';
-$string['membershipexpiry'] = 'メンバーシップ有効期限切れ';
+$string['membershipexpiry'] = 'メンバシップ有効期限切れ';
 $string['institutionfull'] = 'あなたが選択したインスティテューションはこれ以上登録を受け付けていません。';
 $string['registrationnotallowed'] = 'あなたが選択したインスティテューションは自己登録を許可していません。';
 $string['registrationcomplete'] = '%s へのご登録ありがとうございます。';
@@ -368,10 +368,10 @@ $string['forgotpassnosuchemailaddressorusername'] = 'あなたが入力したメ
 $string['forgotpasswordenternew'] = '続けるにはあなたの新しいパスワードを入力してください。';
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';
 $string['passwordchangedok'] = 'あなたのパスワードが正常に変更されました。';
-$string['noinstitutionsetpassemailsubject'] = '%s: %s のメンバーシップ';
+$string['noinstitutionsetpassemailsubject'] = '%s: %s のメンバシップ';
 $string['noinstitutionsetpassemailmessagetext'] = '%s さん
 
-あなたは %s のメンバーではなくなりました。 
+あなたは %s のメンバではなくなりました。
 続けて %s を現在のユーザ名 %s で使用できますがアカウントに新しいパスワードを設定する必要があります。
 
 パスワードリセット処理を続けるには以下のリンクをクリックしてください。
@@ -387,7 +387,7 @@ $string['noinstitutionsetpassemailmessagetext'] = '%s さん
 forgotpass.php?key=%s';
 $string['noinstitutionsetpassemailmessagehtml'] = '<p>%s さん</p>
 
-<p>あなたは %s のメンバーではなくなりました。</p> 
+<p>あなたは %s のメンバではなくなりました。</p>
 <p>続けて %s を現在のユーザ名 %s で使用できますがアカウントに新しいパスワードを設定する必要があります。</p>
 
 <p>パスワードリセット処理を続けるには以下のリンクをクリックしてください。</p>
@@ -446,24 +446,24 @@ $string['activityprefs'] = '活動プリファレンス';
 $string['notifications'] = '通知';
 $string['inbox'] = '受信箱';
 $string['gotoinbox'] = '受信箱に移動する';
-$string['institutionmembership'] = 'インスティテューションメンバーシップ';
-$string['institutionmembershipdescription'] = 'あなたがインスティテューションのメンバーである場合、ここにインスティテューションが一覧表示されます。あなたはインスティテューションのメンバーシップをリクエストすることもできます。また、保留中のメンバーシップ招待を承認または拒否できます。';
-$string['youareamemberof'] = 'あなたは %s のメンバーです。';
+$string['institutionmembership'] = 'インスティテューションメンバシップ';
+$string['institutionmembershipdescription'] = 'あなたがインスティテューションのメンバである場合、ここにインスティテューションが一覧表示されます。あなたはインスティテューションのメンバシップをリクエストすることもできます。また、保留中のメンバシップ招待を承認または拒否できます。';
+$string['youareamemberof'] = 'あなたは %s のメンバです。';
 $string['leaveinstitution'] = 'インスティテューションから離脱する';
 $string['reallyleaveinstitution'] = '本当にこのインスティテューションから離脱してもよろしいですか?';
-$string['youhaverequestedmembershipof'] = 'あなたは %s のメンバーシップをリクエストしました。';
+$string['youhaverequestedmembershipof'] = 'あなたは %s のメンバシップをリクエストしました。';
 $string['cancelrequest'] = 'リクエストをキャンセルする';
 $string['youhavebeeninvitedtojoin'] = 'あなたは %s への参加を招待されました。';
 $string['confirminvitation'] = '招待を承認する';
 $string['joininstitution'] = 'インスティテューションに参加する';
 $string['decline'] = '拒否';
-$string['requestmembershipofaninstitution'] = 'インスティテューションメンバーシップのリクエスト';
+$string['requestmembershipofaninstitution'] = 'インスティテューションメンバシップのリクエスト';
 $string['optionalinstitutionid'] = 'インスティテューションID (任意)';
-$string['institutionmemberconfirmsubject'] = 'インスティテューションメンバーシップの承認';
-$string['institutionmemberconfirmmessage'] = 'あなたは %s にメンバーとして追加されました。';
-$string['institutionmemberrejectsubject'] = 'インスティテューションメンバーシップのリクエストが拒否されました。';
-$string['institutionmemberrejectmessage'] = 'あなたの %s へのメンバーシップリクエストは拒否されました。';
-$string['Memberships'] = 'メンバーシップ';
+$string['institutionmemberconfirmsubject'] = 'インスティテューションメンバシップの承認';
+$string['institutionmemberconfirmmessage'] = 'あなたは %s にメンバとして追加されました。';
+$string['institutionmemberrejectsubject'] = 'インスティテューションメンバシップのリクエストが拒否されました。';
+$string['institutionmemberrejectmessage'] = 'あなたの %s へのメンバシップリクエストは拒否されました。';
+$string['Memberships'] = 'メンバシップ';
 $string['Requests'] = 'リクエスト';
 $string['Invitations'] = '招待';
 $string['config'] = '設定';

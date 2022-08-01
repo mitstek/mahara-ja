@@ -28,15 +28,15 @@
 
 defined('INTERNAL') || die();
 
-$string['title'] = 'グループメンバー';
-$string['description'] = 'このグループのメンバー一覧を表示します。';
-$string['show_all'] = 'このグループのメンバーすべてを表示する';
+$string['title'] = 'グループメンバ';
+$string['description'] = 'このグループのメンバ一覧を表示します。';
+$string['show_all'] = 'このグループのメンバすべてを表示する';
 $string['options_rows_title'] = '行';
 $string['options_rows_desc'] = 'あなたが表示したい行数です。';
 $string['options_columns_title'] = 'カラム';
 $string['options_columns_desc'] = 'あなたが表示したいカラム数です。';
 $string['options_order_title'] = '表示順';
-$string['options_order_desc'] = 'あなたはグループメンバーの表示順に関して最新グループメンバーまたはランダムを選択できます。';
+$string['options_order_desc'] = 'あなたはグループメンバの表示順に関して最新グループメンバまたはランダムを選択できます。';
 $string['Latest'] = '最新';
 $string['Random'] = 'ランダム';
 
