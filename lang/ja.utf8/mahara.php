@@ -140,7 +140,7 @@ $string['accountcreatedchangepasswordhtml'] = '<p>%s さん</p>
 $string['accountexpirywarning'] = 'アカウント有効期限切れ通知';
 $string['accountexpirywarningtext'] = '%s さん
 
-あなたの %s のアカウントは %s に有効期限が切れます。
+あなたの %s のアカウントは %s に有効期限切れとなります。
 
 エクスポートツールを使用してあなたのポートフォリオのコンテンツを保存することをお勧めします。この機能の使用に関するインストラクションはユーザガイドに記載されています。
 
@@ -151,7 +151,7 @@ $string['accountexpirywarningtext'] = '%s さん
 %s サイト管理者';
 $string['accountexpirywarninghtml'] = '<p>%s さん</p>
 
-<p>あなたの %s のアカウントは %s に有効期限が切れます。</p>
+<p>あなたの %s のアカウントは %s に有効期限切れとなります。</p>
 
 <p>エクスポートツールを使用してあなたのポートフォリオのコンテンツを保存することをお勧めします。この機能の使用に関するインストラクションはユーザガイドに記載されています。</p>
 
@@ -161,7 +161,7 @@ $string['accountexpirywarninghtml'] = '<p>%s さん</p>
 $string['institutionexpirywarning'] = 'インスティテューションメンバシップ有効期限切れ通知';
 $string['institutionexpirywarningtext'] = '%s さん
 
-あなたの %s のメンバシップ %s は %s で終了します。
+あなたの %s のメンバシップ %s は %s で有効期限切れとなります。
 
 あなたのメンバシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽にお問い合わせください:
 
@@ -170,7 +170,7 @@ $string['institutionexpirywarningtext'] = '%s さん
 %s サイト管理者';
 $string['institutionexpirywarninghtml'] = '<p>%s さん</p>
 
-<p>あなたの %s のメンバシップ %s は %s で終了します。</p>
+<p>あなたの %s のメンバシップ %s は %s で有効期限切れとなります。</p>
 
 <p>あなたのメンバシップの有効期限を延長したい場合、または上記内容に関するご質問はお気軽に<a href="%s">お問い合わせください</a>:</P>
 
