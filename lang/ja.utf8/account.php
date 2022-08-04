@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-21 21:47:33 UTC
+ * @updated    2022-08-04 05:17:36 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -61,7 +61,7 @@ $string['maildisabledbounce'] = '多くのメッセージがサーバに戻っ�
 $string['maildisableddescription'] = 'あなたのアカウント宛のメール送信が停止されました。アカウントプリファレンスページで<a href="%s">あなたのメールを再度有効</a>にできます。';
 $string['deleteaccountuser'] = '%s のアカウントを削除する';
 $string['deleteaccountdescription'] = 'あなたのアカウントを削除した場合、あなたのすべてのコンテンツは完全に削除されます。あなたは元に戻せません。あなたのプロファイル情報およびポートフォリオは他の人が閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧できますが投稿者名が表示されないようになります。';
-$string['sendnotificationdescription'] = 'あなたのアカウント削除を承認するよう管理者に通知が送信されます。あなたがアカウントの削除をリクエストした場合、あなたの個人コンテンツすべてが完全に削除されます。これはあなたがアップロードしたファイル、執筆した日誌エントリ、作成したページおよびコレクションが削除されることを意味します。あなたはそれらを元に戻せません。あなたがグループでファイルをアップロードしている場合、日誌エントリおよびポートフォリオを作成している場合、そこでフォーラムに投稿している場合、それらはそのままになりますがあなたの氏名は表示されないようになります。';
+$string['sendnotificationdescription1'] = 'あなたのアカウント削除を承認するよう管理者に通知が送信されます。あなたがアカウントの削除をリクエストした場合、あなたの個人コンテンツすべてが完全に削除されます。これはあなたがアップロードしたファイル、執筆した日誌エントリ、作成したポートフォリオが削除されることを意味します。あなたはそれらを元に戻せません。あなたがグループでファイルをアップロードしている場合、日誌エントリおよびポートフォリオを作成している場合、そこでフォーラムに投稿している場合、それらはそのままになりますがあなたの氏名は表示されないようになります。';
 $string['pendingdeletionsince'] = '%s 以来のアカウント削除保留';
 $string['pendingdeletionadminemailsubject'] = '%s のアカウント削除リクエスト';
 $string['resenddeletionadminemailsubject'] = '%s のアカウント削除リクエストのリマインダ';
@@ -142,6 +142,4 @@ $string['canceldeletionadminemailhtml'] = '<p>管理者さん、こんにちは�
 %s チーム</pre>';
 $string['resizeonuploaduserdefault1'] = 'アップロード時、イメージをリサイズする';
 $string['resizeonuploaduserdefaultdescription2'] = 'デフォルトで「イメージを自動的にリサイズする」オプションが有効にされます。最大高さおよび幅を超えたイメージはアップロード時にリサイズされます。個別のイメージアップロード時、あなたはこのデフォルト設定を無効にできます。';
-$string['devicedetection'] = 'デバイス検出';
-$string['devicedetectiondescription'] = 'このサイトの閲覧時のモバイルデバイス検出を有効にします。';
 $string['noprivacystatementsaccepted'] = 'このアカウントは現在のプライバシー保護方針を受け入れていません。';

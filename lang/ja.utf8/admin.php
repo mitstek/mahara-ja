@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-07-12 21:42:00 UTC
+ * @updated    2022-08-04 05:18:57 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -98,8 +98,8 @@ $string['noinstitutionprivacy'] = 'このインスティテューションには
 $string['noinstitutionterms'] = 'このインスティテューションにはまだ利用条件がありません。';
 $string['menus'] = 'メニュー';
 $string['menusdescription'] = '「リンクおよびリソースメニュー」およびフッタメニュー内のリンクおよびファイルを管理します。';
-$string['sharesitefilesdesc'] = 'サイトページおよびコレクションを共有します。';
-$string['shareinstitutionfilesdesc'] = 'インスティテューションページおよびコレクションを共有します。';
+$string['sharesitefilesdesc1'] = 'サイトポートフォリオを共有します。';
+$string['shareinstitutionfilesdesc1'] = 'インスティテューションポートフォリオを共有します。';
 $string['sitefiles'] = 'サイトファイル';
 $string['sitefonts'] = 'フォント';
 $string['sitefontsdesc'] = '誰でもスキンで利用できるフォントをアップロードおよび管理します。';
@@ -112,7 +112,7 @@ $string['sitefilesdescription'] = '「リンクおよびリソースメニュー
 $string['siteskins'] = 'サイトスキン';
 $string['siteskinsdesc'] = '誰でも利用できるページスキンを作成および管理します。';
 $string['siteviews'] = 'サイトページ';
-$string['siteviewscollections'] = 'サイトページおよびコレクション';
+$string['siteviewscollections1'] = 'サイトポートフォリオ';
 $string['siteviewsdesc'] = 'サイト全体のページ、ページテンプレートおよびコレクションを作成および管理します。';
 $string['networking'] = 'ネットワーキング';
 $string['networkingdesc'] = '別のサイトへのネットワーキングを設定します。';

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-07-14 22:33:48 UTC
+ * @updated    2022-08-04 05:20:40 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -282,7 +282,6 @@ $string['findnewfriends'] = '新しいフレンドを探す';
 $string['Collections'] = 'コレクション';
 $string['Views'] = 'ページ';
 $string['Portfolios'] = 'ポートフォリオ';
-$string['Viewscollections'] = 'ページおよびコレクション';
 $string['Files'] = 'ファイル';
 $string['noviewstosee'] = 'あなたが閲覧できるものはありません。';
 $string['whymakemeyourfriend'] = 'あなたが私をフレンドにする理由:';
@@ -368,7 +367,7 @@ $string['allowssubmissionsdescription1'] = 'メンバはグループにページ
 $string['allowssubmissionsdescription'] = 'メンバはグループにページを送信できます。';
 $string['allowsarchives'] = '提出のアーカイブを許可する';
 $string['allowsarchiveserror'] = '送信が許可されている場合、あなたはアーカイブのみ許可できます。';
-$string['allowsarchivesdescription1'] = '送信リリース処理中にページおよびコレクションはZIPファイルとしてアーカイブされます。';
+$string['allowsarchivesdescription2'] = '送信リリース処理中にポートフォリオはZIPファイルとしてアーカイブされます。';
 $string['report'] = 'レポート';
 $string['grouphasntcreatedanyviewsyet'] = 'このグループはまだページを作成していません。';
 $string['noviewssharedwithgroupyet'] = 'このグループで共有されているページはまだありません。';
@@ -384,7 +383,7 @@ $string['grouparchivereportsheading'] = '提出アーカイブ';
 $string['grouparchivereports'] = '提出アーカイブへのアクセス';
 $string['grouparchivereportsdesc'] = 'グループ管理者はアーカイブ済み提出ファイルにアクセスできます。';
 $string['grouparchivereportserror'] = '提出が許可されている場合のみ、あなたは提出アーカイブレポートを閲覧できます。';
-$string['returntogroupportfolios'] = 'グループページおよびコレクションに戻る';
+$string['returntogroupportfolios1'] = 'グループポートフォリオに戻る';
 $string['showintroduction'] = '自己紹介';
 $string['addgrouplabel'] = 'グループラベルを追加する';
 $string['addgrouplabeldescription'] = 'あなたのみ閲覧できるようこのグループに1つまたはそれ以上のラベルを追加してください。ラベルを追加した場合、あなたのリンクでグループを整理できます。あなたはどのグループをサイドバーおよびあなたのプロファイルページに表示するかも決定できます。';

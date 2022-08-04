@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-21 21:42:33 UTC
+ * @updated    2022-08-04 05:15:24 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,7 +13,7 @@
 
 defined('INTERNAL') || die();
 
-$string['title'] = 'ページおよびコレクションのPDFファイル';
+$string['title1'] = 'ポートフォリオのPDFファイル';
 $string['description'] = 'この作成されたZIPファイルにはあなたのポートフォリオが含まれます。あなたはこれを再度インポートできませんが、標準的なPDFビューアで閲覧できます。';
 $string['needspdfconfig'] = 'config.php設定「usepdfexport」を「true」にする必要があります。';
 $string['needschromeheadless'] = 'PDF出力にHeadless Chromeを利用する実験的エクスポートオプションです。このプラグインを使用するにはサーバに最新版のChromeまたはChromiumブラウザをインストールしてください。';

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-04-11 05:56:47 UTC
+ * @updated    2022-08-04 05:14:53 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -214,7 +214,7 @@ $string['viewcreatetime'] = 'ページ作成日時';
 $string['viewdesc'] = 'ページ説明';
 $string['viewfullurl'] = 'ページのフルURL';
 $string['viewid'] = 'ページID';
-$string['viewidsubmit'] = '提出されたページまたはコレクションのMahara IDです。';
+$string['viewidsubmit1'] = '提出されたポートフォリオのMahara IDです。';
 $string['viewmodtime'] = 'ページ修正日時';
 $string['viewnotify'] = '許可される共有ページ通知:';
 $string['viewoutcomes'] = 'このポートフォリオに関連するアウトカム';
