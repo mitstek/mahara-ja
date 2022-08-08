@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-08-03 03:59:05 UTC
+ * @updated    2022-08-08 00:17:57 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -456,7 +456,7 @@ $string['loggedoutok'] = 'あなたは正常にログアウトしました。';
 $string['login'] = 'ログイン';
 $string['loginfailed'] = 'あなたは正しいログイン認証情報を提供していないようです。あなたのユーザ名およびパスワードが正しいかどうか確認してください。';
 $string['loginto'] = '%s にログインする';
-$string['orloginvia'] = 'または次の認証によりログインする:';
+$string['orloginvia'] = 'または次の認証でログインする:';
 $string['newpassword'] = '新しいパスワード';
 $string['nosessionreload'] = 'ログインするにはページをリロードしてください。';
 $string['oldpassword'] = '現在のパスワード';
