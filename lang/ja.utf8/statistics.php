@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-08-14 23:49:07 UTC
+ * @updated    2022-08-15 08:16:34 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -90,7 +90,7 @@ $string['artefact_type_membership'] = 'アーティファクト: 専門会員資
 $string['artefact_type_mobilenumber'] = 'アーティファクト: 携帯電話';
 $string['artefact_type_occupation'] = 'アーティファクト: 職業';
 $string['artefact_type_officialwebsite'] = 'アーティファクト: オフィシャルウェブサイトアドレス';
-$string['artefact_type_peerassessment'] = '相互評価';
+$string['artefact_type_peerassessment'] = 'アーティファクト: 相互評価';
 $string['artefact_type_personalgoal'] = 'アーティファクト: パーソナルゴール';
 $string['artefact_type_personalinformation'] = 'アーティファクト: 個人情報';
 $string['artefact_type_personalskill'] = 'アーティファクト: パーソナルスキル';
@@ -102,7 +102,7 @@ $string['artefact_type_socialprofile'] = 'アーティファクト: ソーシャ
 $string['artefact_type_studentid'] = 'アーティファクト: 学籍番号';
 $string['artefact_type_task'] = 'アーティファクト: タスク';
 $string['artefact_type_town'] = 'アーティファクト: 市区町村';
-$string['artefact_type_userroles'] = 'ロール';
+$string['artefact_type_userroles'] = 'アーティファクト: ロール';
 $string['artefact_type_video'] = 'アーティファクト: ビデオファイル';
 $string['artefact_type_workskill'] = 'アーティファクト: ワークスキル';
 $string['blocktype_annotation'] = 'ブロック: アノテーション';
@@ -117,7 +117,7 @@ $string['blocktype_externalfeed'] = 'ブロック: 外部フィード';
 $string['blocktype_externalvideo'] = 'ブロック: 外部メディア';
 $string['blocktype_filedownload'] = 'ブロック: ダウンロードできるファイル';
 $string['blocktype_folder'] = 'ブロック: フォルダ';
-$string['blocktype_gallery'] = 'ブロック: イメージギャラリー';
+$string['blocktype_gallery'] = 'ブロック: イメージギャラリ';
 $string['blocktype_googleapps'] = 'ブロック: Google Apps';
 $string['blocktype_groupinfo'] = 'ブロック: グループ情報';
 $string['blocktype_groupmembers'] = 'ブロック: グループメンバ';
