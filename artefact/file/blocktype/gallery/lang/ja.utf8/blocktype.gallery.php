@@ -28,14 +28,14 @@
 
 defined('INTERNAL') || die();
 
-$string['title'] = 'イメージギャラリー';
-$string['description1'] = 'あなたのファイルエリアまたは外部ギャラリーのイメージコレクションです。';
+$string['title'] = 'イメージギャラリ';
+$string['description1'] = 'あなたのファイルエリアまたは外部ギャラリのイメージコレクションです。';
 $string['select'] = 'イメージ選択';
 $string['selectfolder'] = '私のフォルダの1つからイメージすべてを表示します (後でアップロードされたイメージを含む)。';
 $string['selectimages'] = '表示するイメージを個別に選択する';
-$string['selectexternal'] = '外部ギャラリーのイメージを表示する';
-$string['externalgalleryurl'] = 'ギャラリーURLまたはRSS';
-$string['externalgalleryurldesc'] = 'あなたは次の外部ギャラリーを埋め込めます:';
+$string['selectexternal'] = '外部ギャラリのイメージを表示する';
+$string['externalgalleryurl'] = 'ギャラリURLまたはRSS';
+$string['externalgalleryurldesc'] = 'あなたは次の外部ギャラリを埋め込めます:';
 $string['width'] = '幅';
 $string['widthdescription'] = 'あなたのイメージの幅 (ピクセル) を指定してください。イメージはこの幅にサイズ変更されます。';
 $string['style'] = 'スタイル';
@@ -43,11 +43,11 @@ $string['stylethumbs'] = 'サムネイル';
 $string['stylesquares'] = 'サムネイル (正方形)';
 $string['styleslideshow'] = 'スライドショー';
 $string['cannotdisplayslideshow'] = 'スライドショーを表示できません。';
-$string['gallerysettings'] = 'ギャラリー設定';
+$string['gallerysettings'] = 'ギャラリ設定';
 $string['useslimbox2'] = 'Slimbox 2を使用する';
 $string['useslimbox2desc'] = 'Slimbox 2 (Lightbox 2のビジュアルクローン) は現在のページにイメージをオーバーレイするためのシンプルで控えめなスクリプトです。';
 $string['photoframe'] = 'フォトフレームを使用する';
-$string['photoframedesc'] = 'この設定を有効にした場合、ギャラリー内のそれぞれの写真のサムネイルの周りにフレームが描画されます。';
+$string['photoframedesc'] = 'この設定を有効にした場合、ギャラリ内のそれぞれの写真のサムネイルの周りにフレームが描画されます。';
 $string['previewwidth'] = '最大写真幅';
 $string['previewwidthdesc'] = '写真がSlimbox 2で表示される場合、リサイズされる最大幅を設定してください。';
 $string['flickrsettings'] = 'Flickr設定';
@@ -64,7 +64,7 @@ $string['by'] = 'by';
 $string['panoramiocopyright'] = 'Panoramioから提供された写真はそのオーナが著作権を有します。';
 $string['panoramiouserphotos'] = 'Panoramioユーザ写真';
 $string['picasaalbums'] = 'Picasaアルバム';
-$string['windowslivephotoalbums'] = 'Windows Liveフォトギャラリーアルバム';
+$string['windowslivephotoalbums'] = 'Windows Liveフォトギャラリアルバム';
 $string['externalnotsupported'] = 'あなたが提供した外部URLはサポートされていません。';
 
 ?>
