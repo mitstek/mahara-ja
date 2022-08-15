@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-07-27 22:07:10 UTC
+ * @updated    2022-08-14 23:34:09 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,6 +13,7 @@
 
 defined('INTERNAL') || die();
 
+$string['title'] = 'ウェブサービス';
 $string['webservice'] = 'ウェブサービス';
 $string['externalapp'] = '外部アプリ:';
 $string['description'] = 'ウェブサービスのみのユーザをMaharaのデータベースで認証する';

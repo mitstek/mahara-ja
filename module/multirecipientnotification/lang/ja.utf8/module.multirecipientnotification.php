@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-04-12 06:26:05 UTC
+ * @updated    2022-08-14 23:40:31 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,6 +13,7 @@
 
 defined('INTERNAL') || die();
 
+$string['pluginname'] = '複数受信者通知';
 $string['sendmessageto'] = 'メッセージを送信する';
 $string['composemessage'] = '作成';
 $string['composemessagedesc'] = '新しいメッセージを作成する';

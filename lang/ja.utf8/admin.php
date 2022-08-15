@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-08-04 05:18:57 UTC
+ * @updated    2022-08-15 00:26:30 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -62,6 +62,10 @@ $string['clisitename'] = 'サイト名';
 $string['cliupdatesitenamefailed'] = 'サイト名の更新に失敗しました。';
 $string['cliinstallerdescription'] = 'Maharaをインストールして必要なデータディレクトリを作成します。';
 $string['cliinstallingmahara'] = 'Maharaをインストールする';
+$string['versionnumber'] = 'バージョン: %s';
+$string['plugintype'] = 'プラグイン: %s';
+$string['updateeventlogconfigoption'] = 'あなたのconfig.phpファイルで$cfg->eventloglevel設定値を「masq」から「masquerade」に更新する必要があります。';
+$string['registrationisoptout'] = '匿名登録データはオプトアウトになりました。';
 $string['cli_upgrade_description'] = 'インストールされたMaharaのバージョンにMaharaデータベースおよびデータをアップグレードします。';
 $string['cli_upgrade_title'] = 'Maharaをアップグレードする';
 $string['cli_upgrade_force'] = '強制的にアップグレードして戻る';
@@ -257,29 +261,32 @@ $string['filemissing'] = '%s (ファイル不明)';
 $string['filemissingdesc'] = 'ファイル「 %s%s 」がサーバにありません。';
 $string['Field'] = 'フィールド';
 $string['Value'] = '値';
-$string['dataincluded'] = '含まれるデータ';
-$string['datathathavebeensent'] = '送信されたデータ';
 $string['sendweeklyupdates'] = '週ごとの更新状況を送信する';
 $string['sendweeklyupdatesdescription'] = 'あなたのサイトの統計情報を含む週ごとの更新状況の<a href="https://mahara.org/">mahara.org</a>への送信を許可します。';
-$string['newregistrationpolicyinfo'] = '<p>私たちは登録サイトによる週ごとのデータ更新の提供を必須とするよう登録データポリシーを変更しました。あなたの登録を承認または削除するには以下のリンクに従ってください。</p>';
-$string['registerwithmahara'] = 'mahara.orgに登録する';
-$string['registerwithmaharadescription'] = 'あなたのサイトがMaharaプロジェクトに登録された場合、登録解除できません。';
+$string['newregistrationpolicyinfo1'] = '<ul>
+<li>Maharaがどのように使用されているかより良い洞察を得るため、私たちは登録データポリシーを更新してサイトの週ごと更新の匿名データ提供のオプトアウトを要求します。</li>
+<li>私たちは収集する匿名データの内容を変更しました。</li>
+</ul>';
+$string['registerwithmahara1'] = 'データ収集をオプトアウトする';
+$string['registerwithmaharadescription1'] = 'あなたのサイトの匿名化データをMaharaプロジェクトに送信しないよう設定できます。Maharaプロジェクトチームの製品開発を支援するため、私たちはあなたのサイトの登録継続をお勧めします。';
 $string['Register'] = '登録';
 $string['Registration'] = '登録';
 $string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/registersite.php">サイト登録ページ</a>にアクセスして登録できます。';
 $string['registrationfailedtrylater'] = 'エラーコード %s により登録が失敗しました。後ほど再度お試しください。';
+$string['registrationoptoutsuccessful'] = '正常に登録がオプトアウトされました - これ以上データは送信されません。';
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます。';
 $string['registermaharasite'] = 'サイト登録';
 $string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することにより私たちが世界中のMaharaインストール状況を把握するための助けとなります。</p>';
-$string['registeryourmaharasitedetail'] = '<p>あなたのサイトをMaharaプロジェクトに登録できます。登録は無料であり私たちが世界中のMaharaインストール状況を把握するための助けとなります。</p>
-<p>あなたが週ごとの更新状況の送信を決定した場合、Maharaプロジェクトに送信される予定の情報を確認できます。あなたのサイトのすべての人に関して個人を特定できるものは一切送信されません。</p>';
+$string['registeryourmaharasitedetail1'] = '<p>サイトはMaharaプロジェクトに自動的に登録されます。登録は無料であり私たちが世界中のMaharaインストール状況を把握するための助けとなります。</p>
+<p>Maharaプロジェクトは個人情報および個人を特定できるデータを収集しません。ほとんどのデータはプロジェクトが傾向を特定できるよう集約された形で収集されます。あなたは以下でどのようなデータが収集されて週ごとに送信されるか確認できます。</p>
+<p>あなたがデータ収集に関して質問がある場合、<a href="mailto:info@mahara.org?subject=Site registration data collection">ご連絡ください</a>。</p>';
 $string['sendingweeklyupdates1'] = 'あなたは週ごとの更新状況を送信しています。';
 $string['notsendingweeklyupdates'] = 'あなたは週ごとの更新状況を送信していません。';
-$string['siteisregisteredsince'] = '%s 以来、あなたのサイトは<a href="https://mahara.org/">mahara.org</a>に登録されています。';
-$string['siteisregistered'] = 'あなたのサイトは<a href="https://mahara.org/">mahara.org</a>に登録されます。';
-$string['siteregistrationpolicy'] = '<p>どのようにMaharaが使用されているか私たちの統計が正確に表示するため、登録には私たちへの週ごとの更新状況の送信を含みます。あなたの登録を確認した後、以下の「保存」ボタンをクリックして承認してください。</p>';
+$string['siteisregisteredsince1'] = '%s 以来、あなたのサイトは<a href="https://mahara.org/">mahara.org</a>に登録されています。';
+$string['sitenotregistered'] = '現在、あなたのサイトはMaharaプロジェクトに登録されていません。私たちがあなたの利用状況をより詳しく知るために以下でオプトインしてください。';
+$string['siteisregistered1'] = 'あなたのサイトは<a href="https://mahara.org/">mahara.org</a>に登録された上で週別データを送信します。';
+$string['siteregistrationpolicy1'] = '登録ポリシーは次のように変更されました。';
 $string['startsendingdata'] = 'あなたのサイトは週ごとの更新状況を<a href="https://mahara.org/">mahara.org</a>に送信しています。';
-$string['stoppedsendingdata'] = '週ごとの更新状況が停止されました。';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
 $string['closesitedetail'] = 'あなたは管理者を除くすべての人にサイトをクローズできます。これはデータベースアップグレードの準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインできます。';
@@ -1444,3 +1451,13 @@ $string['Path'] = 'パス';
 $string['styleguide'] = 'スタイルガイド';
 $string['thirdpartyplugins'] = 'README.Maharaファイルに基づくサードパーティプラグイン';
 $string['url'] = 'url';
+$string['pluginartefact'] = 'プラグインタイプ: アーティファクト';
+$string['pluginauth'] = 'プラグインタイプ: 認証';
+$string['pluginblocktype'] = 'プラグインタイプ: ブロックタイプ';
+$string['pluginexport'] = 'プラグインタイプ: エクスポート';
+$string['plugingrouptype'] = 'プラグインタイプ: グループタイプ';
+$string['pluginimport'] = 'プラグインタイプ: インポート';
+$string['plugininteraction'] = 'プラグインタイプ: インタラクション';
+$string['pluginmodule'] = 'プラグインタイプ: モジュール';
+$string['pluginnotification'] = 'プラグインタイプ: 通知';
+$string['pluginsearch'] = 'プラグインタイプ: 検索';

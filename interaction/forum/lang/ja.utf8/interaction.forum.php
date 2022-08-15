@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-15 21:06:27 UTC
+ * @updated    2022-08-14 23:34:47 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,6 +13,7 @@
 
 defined('INTERNAL') || die();
 
+$string['pluginname'] = 'フォーラム';
 $string['addpostsuccess'] = '投稿が正常に追加されました。';
 $string['addtitle'] = 'フォーラムを追加する';
 $string['addtopic'] = 'トピックを追加する';
