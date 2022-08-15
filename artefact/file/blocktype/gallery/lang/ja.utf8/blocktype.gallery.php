@@ -28,7 +28,7 @@
 
 defined('INTERNAL') || die();
 
-$string['title'] = 'イメージギャラリー';
+$string['title'] = 'イメージギャラリ';
 $string['description'] = 'あなたのファイルエリアからのイメージコレクションです。';
 $string['select'] = 'イメージ選択';
 $string['selectfolder'] = '私のフォルダの1つからイメージすべてを表示します (後でアップロードされたイメージを含む)。';
