@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-08-08 00:17:57 UTC
+ * @updated    2022-08-17 04:50:49 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -468,7 +468,7 @@ $string['passwordstrength4'] = '非常に強い';
 $string['passworddescriptionbase'] = '最小パスワード長は %s 文字です。';
 $string['passworddescription1.ul'] = '大文字 [A-Z] および小文字 [a-z] を含む必要があります。';
 $string['passworddescription1.uln'] = '大文字 [A-Z]、小文字 [a-z] および数字 [0-9] を含む必要があります。';
-$string['passworddescription1.ulns'] = '大文字 [A-Z]、小文字 [a-z]、数字 [0-9] および記号 [e.g. ! . @ # $ & * - _ ] を含む必要があります。';
+$string['passworddescription1.ulns'] = '大文字 [A-Z]、小文字 [a-z]、数字 [0-9] および記号 [例) ! . @ # $ & * - _ ] を含む必要があります。';
 $string['passwordhelp'] = 'あなたがシステムへのアクセスに使用するパスワードです。';
 $string['passwordnotchanged'] = 'あなたはパスワードを変更していません。新しいパスワードを入力してください。';
 $string['passwordsaved'] = 'あなたの新しいパスワードが保存されました。';
