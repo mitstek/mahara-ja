@@ -478,10 +478,10 @@ $string['sessiontimedoutreload'] = 'あなたのセッションはタイムア�
 $string['username'] = 'ユーザ名';
 $string['preferredname'] = '表示名';
 $string['preferrednamedisplay'] = '表示名';
-$string['usernamehelp'] = 'あなたがこのシステムにアクセスするため与えられたユーザ名です。';
+$string['usernamehelp'] = 'あなたがこのシステムにアクセスするために付与されたユーザ名です。';
 $string['youaremasqueradingas'] = 'あなたは %s としてログインしています。';
 $string['yournewpassword1'] = 'あなたの新しいパスワードです。あなたのパスワードには少なくとも半角 %s 文字必要です。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。%s<br />
-セキュリティ上の理由からパスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上) の言葉をスペースで区切って使用することをお考えください。';
+セキュリティ上の理由からパスフレーズの使用をお考えください。パスフレーズには1つの単語ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上) の言葉をスペースで区切って使用することをお考えください。';
 $string['yournewpasswordagain'] = 'あなたの新しいパスワードをもう一度';
 $string['invalidsesskey'] = '無効なセッションキー';
 $string['cannotremovedefaultemail'] = 'あなたの主メールアドレスは削除できません。';
