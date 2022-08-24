@@ -325,11 +325,11 @@ $string['language'] = '言語';
 $string['cantchangepassword'] = '申し訳ございません、このインターフェースではパスワードを変更できません - 代わりにあなたのインスティテューションのインターフェースを使用してください。';
 $string['forgotusernamepassword'] = 'あなたのユーザ名またはパスワードを忘れましたか?';
 $string['forgotusernamepasswordtext'] = '<p>ユーザ名またはパスワードを忘れた場合、あなたのプロファイルに記載された主メールアドレスを入力してください。あなたが新しいパスワードを作成できるメッセージを送信します。</p>
-<p>あなたがパスワードを忘れてユーザ名を忘れていない場合、代わりにユーザ名を入力することもできます。</p>';
+<p>あなたがパスワードを忘れてユーザ名を忘れていない場合、代わりにユーザ名を入力できます。</p>';
 $string['lostusernamepassword'] = 'ユーザ名/パスワード喪失';
 $string['emailaddressorusername'] = 'メールアドレスまたはユーザ名';
 $string['pwchangerequestsent'] = 'あなたのアカウントのパスワード変更に使用できるリンクを記載したメールがまもなく送信されます。';
-$string['forgotusernamepasswordemailsubject'] = '%s に関するユーザ名/パスワード詳細';
+$string['forgotusernamepasswordemailsubject'] = '%s のユーザ名/パスワード詳細';
 $string['forgotusernamepasswordemailmessagetext'] = '%s さん
 
 あなたの %s のアカウントに関するユーザ名/パスワードのリクエストを受け付けました。
