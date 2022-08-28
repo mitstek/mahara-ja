@@ -215,7 +215,7 @@ $string['databasesize'] = 'データベースサイズ';
 $string['diskusage'] = 'ディスク使用量';
 $string['maharaversion'] = 'Maharaバージョン';
 $string['activeusers'] = 'アクティブユーザ';
-$string['loggedinsince'] = '%s=本日 / %s=%s以降 / %s=全期間';
+$string['loggedinsince'] = '%s=今日 / %s=%s以降 / %s=全期間';
 $string['groupmemberaverage'] = 'それぞれのユーザは平均 %s のグループに属しています。';
 $string['viewsperuser'] = 'ページを作成したユーザはそれぞれ約 %s ページを所有しています。';
 $string['Cron'] = 'cron';
