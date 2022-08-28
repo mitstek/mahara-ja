@@ -556,7 +556,7 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 
 <p>%s サイト管理者</p>';
 $string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは私たちに責任があります。再度お試しください。';
-$string['forgotpassemailsentanyway1'] = 'この人に関して保存されているメールアドレス宛にメールが送信されましたがメールアドレスが正しくないか受信サーバがメッセージを戻しました。メールを受信していない場合、あなたのパスワードをリセットするため %s 管理者にご連絡ください。';
+$string['forgotpassemailsentanyway1'] = 'この人に関して保存されているメールアドレス宛にメールが送信されましたが、メールアドレスが正しくないか受信サーバがメッセージを戻しました。メールを受信していない場合、あなたのパスワードをリセットするため %s 管理者にご連絡ください。';
 $string['forgotpasswordenternew'] = '続けるにはあなたの新しいパスワードを入力してください。';
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';
 $string['passwordresetexpired'] = 'パスワードリセットキーの有効期限が切れました。';
