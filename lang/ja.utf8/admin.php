@@ -261,7 +261,7 @@ $string['databasesize'] = 'データベースサイズ';
 $string['diskusage'] = 'ディスク使用量';
 $string['maharaversion'] = 'Maharaバージョン';
 $string['activeusers'] = 'アクティブユーザ';
-$string['loggedinsince'] = '%s=本日 / %s=%s以降 / %s=全期間';
+$string['loggedinsince'] = '%s=今日 / %s=%s以降 / %s=全期間';
 $string['groupmemberaverage'] = 'それぞれのユーザは平均 %s のグループに属しています。';
 $string['viewsperuser'] = 'ページを作成したユーザはそれぞれ約 %s ページを所有しています。';
 $string['Cron'] = 'cron';
@@ -342,7 +342,7 @@ $string['defaultaccountinactivewarndescription'] = 'ユーザアカウントの�
 $string['defaultregistrationexpirylifetime'] = 'デフォルトの登録存続期間';
 $string['defaultregistrationexpirylifetimedescription'] = '管理者が対応する必要のある登録申請がどのくらいの期間存続するか指定します。';
 $string['defaultaccountlifetime'] = 'デフォルトのアカウント存続期間';
-$string['defaultaccountlifetimedescription'] = 'このオプションを設定した場合、ユーザアカウントは本日または将来的な期間経過後に有効期限切れとなります。';
+$string['defaultaccountlifetimedescription'] = 'このオプションを設定した場合、ユーザアカウントは今日または将来的な期間経過後に有効期限切れとなります。';
 $string['defaultaccountlifetimeupdate'] = 'ユーザアカウント存続期間のオーバーライド';
 $string['defaultaccountlifetimeupdatedescription'] = '「デフォルトのアカウント存続期間」が設定された場合のユーザ有効期限の対応方法を選択してください。';
 $string['defaultaccountlifetimeupdatenone'] = '新しく作成されたユーザのみ';
