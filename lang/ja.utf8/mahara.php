@@ -5,8 +5,8 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-04-19 07:25:07 UTC
- * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
+ * @updated    2022-08-31 06:16:22 UTC
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
@@ -713,7 +713,7 @@ $string['inbox'] = '受信箱';
 $string['unread'] = '%s 未読';
 $string['gotoinbox'] = '受信箱に移動する';
 $string['institutionmembership'] = 'インスティテューションメンバシップ';
-$string['institutionmembershipdescription'] = 'あなたがインスティテューションのメンバである場合、ここにインスティテューションが一覧表示されます。ここにインスティテューションが一覧表示されます。あなたはインスティテューションのメンバシップをリクエストすることもできます。また、保留中のメンバシップ招待を承認または拒否できます。';
+$string['institutionmembershipdescription'] = 'あなたのインスティテューションメンバシップの状態およびインスティテューションメンバシップに関連する操作すべてを確認できます。';
 $string['youareamemberof'] = 'あなたは %s のメンバです。';
 $string['leaveinstitution'] = 'インスティテューションから離脱する';
 $string['reallyleaveinstitution'] = '本当にこのインスティテューションから離脱してもよろしいですか?';
@@ -737,7 +737,7 @@ $string['institutionmembershipfullmessagetext'] = '%s さん
 
 %s - %s の最大アカウント数に達しました。
 
-既存のアカウントを整理するか、このインスティテューションに関する最大アカウント数の増加をご依頼ください。すべてのサイト管理者は制限を増加させることができます。
+既存のアカウントを整理するか、このインスティテューションに関する最大アカウント数の増加をご依頼ください。すべてのサイト管理者は制限を増加できます。
 
 --
 %s チーム';
@@ -746,7 +746,7 @@ $string['institutionmemberrefusedprivacy'] = '%s さん
 %s (ユーザ名: %s ) は %s を拒否しました。アカウントは一時停止されました。
 %s %s
 
-あなたが拒否に関して議論したい場合、人にメール %s でご連絡ください。
+あなたが拒否に関して議論したい場合、その人にメール %s でご連絡ください。
 
 --
 %s チーム';
