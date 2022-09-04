@@ -309,7 +309,7 @@ $string['Site'] = 'サイト';
 $string['emailaddress'] = 'メールアドレス';
 $string['firstname'] = '名';
 $string['lastname'] = '姓';
-$string['studentid'] = 'IDナンバー';
+$string['studentid'] = 'IDナンバ';
 $string['displayname'] = '表示名';
 $string['fullname'] = 'フルネーム';
 $string['registerstep1description'] = 'ようこそ! このサイトを利用するには最初に登録してください。また、あなたは<a href="terms.php">利用条件</a>に同意する必要があります。ここで収集したデータは私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
