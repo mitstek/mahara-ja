@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-08-31 06:10:17 UTC
+ * @updated    2022-09-04 21:56:10 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -502,7 +502,7 @@ $string['firstname'] = '名';
 $string['firstnameall'] = 'すべての名';
 $string['lastname'] = '姓';
 $string['lastnameall'] = 'すべての姓';
-$string['studentid'] = 'IDナンバー';
+$string['studentid'] = 'IDナンバ';
 $string['displayname'] = '表示名';
 $string['fullname'] = 'フルネーム';
 $string['registerwelcome'] = 'ようこそ! このサイトを利用するには最初に登録してください。';

@@ -234,7 +234,7 @@ $string['reportdescuserdetails'] = '<ul>
 <li>名</li>
 <li>姓</li>
 <li>メールアドレス</li>
-<li>IDナンバー</li>
+<li>IDナンバ</li>
 <li>表示名</li>
 <li>ユーザ名</li>
 <li>リモートユーザ名</li>
