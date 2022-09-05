@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-08-04 05:20:40 UTC
+ * @updated    2022-09-05 03:59:28 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -24,7 +24,26 @@ $string['groupmemberrequests'] = '保留中メンバシップリクエスト';
 $string['membershiprequests'] = 'メンバシップリクエスト';
 $string['sendinvitation'] = '招待を送信する';
 $string['invitetogroupsubject'] = 'あなたはグループへの参加を招待されました。';
-$string['invitetogroupmessage'] = '%s がグループ「 %s 」へのあなたの参加を招待しました。詳細は以下のリンクをクリックしてください。';
+$string['invitetogroupmessage1'] = '%s さん
+
+あなたのグループ「 %s 」への参加を招待したいと思います。
+
+ありがとうございます。
+%s
+
+この招待を受理または拒否するにはリンクに従ってください。';
+$string['invitetogroupmessagereason'] = '%s さん
+
+あなたのグループ「 %s 」への参加を招待したいと思います。
+
+私の理由は次のとおりです:
+
+%s
+
+ありがとうございます。
+%s
+
+この招待を受理または拒否するにはリンクに従ってください。';
 $string['inviteuserfailed'] = '招待に失敗しました。';
 $string['userinvited'] = '招待が送信されました。';
 $string['addedtogroupsubject'] = 'あなたはグループに追加されました。';
