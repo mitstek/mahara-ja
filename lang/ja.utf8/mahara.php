@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-09-04 21:56:10 UTC
+ * @updated    2022-09-06 07:17:44 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -763,7 +763,7 @@ $string['spamtrap'] = 'スパムトラップ';
 $string['formerror'] = 'あなたの送信の処理中にエラーが発生しました。再度お試しください。';
 $string['formerroremail'] = 'あなたの問題が続いている場合、%s より私たちにご連絡ください。';
 $string['denylisteddomaininurl'] = 'このフィールドのURLには拒否リストのドメイン %s を含みます。';
-$string['newuserscantpostlinksorimages1'] = '申し訳ございません、匿名または新しく登録された人によるリンクの投稿は許可されていません。リンクまたはURLを取り除くためあなたの投稿を書き換えて再度お試しください。';
+$string['newuserscantpostlinksorimages1'] = '申し訳ございません、匿名または新しく登録された人によるリンクの投稿は許可されていません。あなたの投稿からリンクまたはURLを取り除いた上で再度お試しください。';
 $string['notinstallable'] = 'インストール不可';
 $string['pluginnotinstallable'] = 'プラグイン %s %s はインストールできません:';
 $string['installedplugins'] = 'インストール済みプラグイン';
@@ -835,8 +835,8 @@ $string['clamdeletedfilefailed'] = 'ファイルを削除できませんでし�
 $string['clambroken'] = 'あなたの管理者がファイルアップロードのウイルスチェックを有効にしましたが設定が正しくないようです。あなたのファイルは正常にはアップロードされませんでした。あなたの管理者にメール通知が送信されましたので管理者は問題を修正できます。このファイルのアップロードを後でお試しください。';
 $string['clamemailsubject'] = '%s :: ClamAV通知';
 $string['clamlost'] = 'ClamAVがファイルのアップロード時に動作するよう設定されていますがClamAVに提供されたパス「 %s 」が正しくありません。';
-$string['clamnotset'] = 'あなたはウイルスチェックを有効にしましたが、「ClamAVのパス」を設定していません。あなたのconfig.phpファイルに「$cfg->pathtoclam」を追加してClamAVのパスを設定するまでウイルスチェックは有効になりません。';
-$string['clamfailed'] = 'ClamAVの動作にエラーが発生しました。エラーメッセージは %s です。ClamAVのアウトプットは次のとおりです:';
+$string['clamnotset'] = 'あなたはウイルスチェックを有効にしましたが「ClamAVのパス」を設定していません。あなたのconfig.phpファイルに「$cfg->pathtoclam」を追加してClamAVのパスを設定するまでウイルスチェックは有効になりません。';
+$string['clamfailed'] = 'ClamAVの実行に失敗しました。エラーメッセージは %s です。ClamAVからの出力は次のとおりです:';
 $string['clamunknownerror'] = 'ClamAVに不明なエラーが発生しました。';
 $string['image'] = 'イメージ';
 $string['imageformattingoptions'] = 'イメージフォーマットオプション';
