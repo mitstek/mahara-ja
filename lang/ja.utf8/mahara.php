@@ -527,7 +527,7 @@ $string['clamunknownerror'] = 'ClamAVに不明なエラーが発生しました�
 $string['image'] = 'イメージ';
 $string['filenotimage'] = 'あなたがアップロードしたファイルは有効なイメージではありません。PNG、JPEGまたはGIFファイルをアップロードしてください。';
 $string['uploadedfiletoobig'] = 'ファイルが大き過ぎます。詳細はあなたの管理者にお尋ねください。';
-$string['notphpuploadedfile'] = 'アップロード処理中にファイルが消失しました。これは通常起きることではありません。詳細はあなたの管理者にご連絡ください。';
+$string['notphpuploadedfile'] = 'アップロード処理中にファイルが消失しました。通常これは起こりません。詳細はあなたの管理者にご連絡ください。';
 $string['virusfounduser'] = 'あなたが %s でアップロードしたファイルをウイルスチェッカで検査した結果、感染が発見されました! あなたのファイルは正常にはアップロードされませんでした。';
 $string['fileunknowntype'] = 'あなたがアップロードしたファイルのタイプを判定できませんでした。あなたのファイルが破損しているか設定に問題があります。あなたの管理者にご連絡ください。';
 $string['virusrepeatsubject'] = '警告: %s が繰り返しウイルスをアップロードしています。';
@@ -538,14 +538,14 @@ $string['phpuploaderror_2'] = 'アップロードファイルがHTMLフォーム
 $string['phpuploaderror_3'] = 'アップロードファイルは一部分のみアップロードされました。';
 $string['phpuploaderror_4'] = 'アップロードされたファイルはありません。';
 $string['phpuploaderror_6'] = '一時フォルダがありません。';
-$string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。ファイルのディスク書き込みに失敗しました。あなたのファイルシステムにMaharaデータルートおよびPHP「upload_tmp_dir」ディレクトリへの書き込みに十分なスペースがあるか確認してください。';
+$string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。ファイルのディスク書き込みに失敗しました。あなたのファイルシステムでMaharaデータルートおよびPHP「upload_tmp_dir」ディレクトリへの書き込みに十分なスペースがあるか確認してください。';
 $string['phpuploaderror_8'] = 'ファイルアップロードは拡張子が原因で中止されました。';
 $string['adminphpuploaderror'] = 'ファイルアップロードエラーは恐らくあなたのサーバ設定を原因としています。';
 $string['youraccounthasbeensuspendedtext2'] = 'あなたの %s のアカウントが %s によって利用停止されました。';
 $string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s のアカウントが %s によって利用停止されました。利用停止理由は次のとおりです:
 
 %s';
-$string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用できます。';
+$string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s のアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用できます。';
 $string['sizemb'] = 'MB';
 $string['sizekb'] = 'KB';
 $string['sizegb'] = 'GB';
