@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-09-06 07:17:44 UTC
+ * @updated    2022-09-11 20:38:44 UTC
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -842,7 +842,7 @@ $string['image'] = 'イメージ';
 $string['imageformattingoptions'] = 'イメージフォーマットオプション';
 $string['filenotimage'] = 'あなたがアップロードしたファイルは有効なイメージではありません。PNG、JPEGまたはGIFファイルをアップロードしてください。';
 $string['uploadedfiletoobig1'] = 'ファイルが最大アップロードファイルサイズ %s を超過しました。さらに小さなファイルをアップロードしてください。';
-$string['notphpuploadedfile'] = 'アップロード処理中にファイルが消失しました。これは通常起きることではありません。詳細はあなたの管理者にご連絡ください。';
+$string['notphpuploadedfile'] = 'アップロード処理中にファイルが消失しました。通常これは起こりません。詳細はあなたの管理者にご連絡ください。';
 $string['virusfounduser'] = 'あなたが %s でアップロードしたファイルをウイルスチェッカで検査した結果、感染が発見されました! あなたのファイルは正常にはアップロードされませんでした。';
 $string['fileunknowntype'] = 'あなたがアップロードしたファイルのタイプを判定できませんでした。あなたのファイルが破損しているか設定に問題があります。あなたの管理者にご連絡ください。';
 $string['virusrepeatsubject'] = '警告: %s が繰り返しウイルスをアップロードしています。';
@@ -854,7 +854,7 @@ $string['phpuploaderror_2'] = 'アップロードファイルがHTMLフォーム
 $string['phpuploaderror_3'] = 'アップロードファイルは一部分のみアップロードされました。';
 $string['phpuploaderror_4'] = 'アップロードされたファイルはありません。';
 $string['phpuploaderror_6'] = '一時フォルダがありません。';
-$string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。あなたのファイルシステムにMaharaデータルートおよびPHP「upload_tmp_dir」ディレクトリへの書き込みに十分なスペースがあるか確認してください。';
+$string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。あなたのファイルシステムでMaharaデータルートおよびPHP「upload_tmp_dir」ディレクトリへの書き込みに十分なスペースがあるか確認してください。';
 $string['phpuploaderror_8'] = 'ファイルアップロードは拡張子が原因で中止されました。';
 $string['adminphpuploaderror'] = 'ファイルアップロードエラーは恐らくあなたのサーバ設定を原因としています。';
 $string['noinputnamesupplied'] = '入力名が提供されていません。';
@@ -868,7 +868,7 @@ $string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s のアカウ
 $string['youraccounthasbeensuspendedreasontextcron'] = 'あなたの %s のアカウントが利用停止されました。利用停止理由は次のとおりです:
 
 %s';
-$string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s におけるアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用できます。';
+$string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s のアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用できます。';
 $string['youraccounthasbeensuspendedtext3'] = 'あなたは %s の同意を拒否したため %s のアカウントが利用停止されました。';
 $string['sizemb'] = 'MB';
 $string['sizekb'] = 'KB';
