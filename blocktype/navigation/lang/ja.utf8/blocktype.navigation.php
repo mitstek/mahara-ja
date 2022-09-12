@@ -21,7 +21,7 @@
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
  * @updated    2015-09-20 16:15:29 UTC
- * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL
+ * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL
  * @copyright  (C) 2006 onwards Catalyst IT Ltd https://catalyst.net.nz
  *
  */
