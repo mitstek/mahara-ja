@@ -120,8 +120,8 @@ $string['siteviewscollections1'] = 'サイトポートフォリオ';
 $string['siteviewsdesc'] = 'サイト全体のページ、ページテンプレートおよびコレクションを作成および管理します。';
 $string['networking'] = 'ネットワーキング';
 $string['networkingdesc'] = '別のサイトへのネットワーキングを設定します。';
-$string['cookieconsent'] = 'クッキーコンセント';
-$string['cookieconsentdesc'] = '「クッキーコンセント」プライバシシステムを設定します。';
+$string['cookieconsent'] = 'クッキコンセント';
+$string['cookieconsentdesc'] = '「クッキコンセント」プライバシシステムを設定します。';
 $string['thememissing'] = 'テーマ「 %s 」がありません。このテーマはデフォルトテーマに設定されています。';
 $string['parentthememissing'] = 'テーマ「 %s 」の親テーマ「 %s 」がないため修正する必要があります。このテーマはデフォルトテーマに設定されています。';
 $string['staffusers1'] = 'サイトスタッフ';
@@ -264,7 +264,7 @@ $string['Value'] = '値';
 $string['sendweeklyupdates'] = '週ごとの更新状況を送信する';
 $string['sendweeklyupdatesdescription'] = 'あなたのサイトの統計情報を含む週ごとの更新状況の<a href="https://mahara.org/">mahara.org</a>への送信を許可します。';
 $string['newregistrationpolicyinfo1'] = '<ul>
-<li>Maharaがどのように使用されているかより良い洞察を得るため、私たちは登録データポリシーを更新してサイトの週ごと更新の匿名データ提供のオプトアウトを要求します。</li>
+<li>Maharaがどのように使用されているかより良い洞察を得るため、私たちは登録データポリシを更新してサイトの週ごと更新の匿名データ提供のオプトアウトを要求します。</li>
 <li>私たちは収集する匿名データの内容を変更しました。</li>
 </ul>';
 $string['registerwithmahara1'] = 'データ収集をオプトアウトする';
@@ -285,7 +285,7 @@ $string['notsendingweeklyupdates'] = 'あなたは週ごとの更新状況を送
 $string['siteisregisteredsince1'] = '%s 以来、あなたのサイトは<a href="https://mahara.org/">mahara.org</a>に登録されています。';
 $string['sitenotregistered'] = '現在、あなたのサイトはMaharaプロジェクトに登録されていません。私たちがあなたの利用状況をより詳しく知るために以下でオプトインしてください。';
 $string['siteisregistered1'] = 'あなたのサイトは<a href="https://mahara.org/">mahara.org</a>に登録された上で週別データを送信します。';
-$string['siteregistrationpolicy1'] = '登録ポリシーは次のように変更されました。';
+$string['siteregistrationpolicy1'] = '登録ポリシは次のように変更されました。';
 $string['startsendingdata'] = 'あなたのサイトは週ごとの更新状況を<a href="https://mahara.org/">mahara.org</a>に送信しています。';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
@@ -322,7 +322,7 @@ $string['groupcountsbyjointype'] = 'アクセスタイプ別グループ数';
 $string['blockcountsbytype'] = 'ポートフォリオページで使用頻度の高いブロック';
 $string['uptodate'] = 'あなたのローカルコードベースはMaharaコア最新版です。';
 $string['latestversionis'] = '最新メジャーリリース: <a href="%s">%s</a>';
-$string['latestbranchversionis'] = 'このリリースの最新マイナーバージョン: <a href="%s">%s</a>';
+$string['latestbranchversionis'] = 'このリリースの最新マイナバージョン: <a href="%s">%s</a>';
 $string['versionnotinsupport'] = '%s はサポート対象外です。';
 $string['versionnotinsupportdev'] = '未サポートの開発バージョン';
 $string['viewsbytype'] = 'タイプ別ページ';
@@ -391,8 +391,8 @@ $string['defaultaccountlifetimeupdatedescription'] = '「デフォルトのア�
 $string['defaultaccountlifetimeupdatenone'] = '新しく作成されたアカウントのみ';
 $string['defaultaccountlifetimeupdatesome'] = '新しいアカウントおよびアカウント存続期間未設定のアカウント (サイト管理者を除く)';
 $string['defaultaccountlifetimeupdateall'] = 'すべてのアカウント (サイト管理者を除く)';
-$string['passwordpolicy'] = 'パスワードポリシー';
-$string['passwordpolicydesc'] = 'アカウントが内蔵の内部認証方法を使用するよう設定されている人のパスワードポリシーです。パスワードの最小文字数および複雑さを選択してください。';
+$string['passwordpolicy'] = 'パスワードポリシ';
+$string['passwordpolicydesc'] = 'アカウントが内蔵の内部認証方法を使用するよう設定されている人のパスワードポリシです。パスワードの最小文字数および複雑さを選択してください。';
 $string['passwordpolicylength'] = '最小パスワード長';
 $string['passwordpolicytype'] = 'パスワード複雑性';
 $string['deprecatedmobileapp'] = '申し訳ございません、このモバイルアプリケーションは新しいものに入れ替わりました。あなたは代わりにMaharaモバイルを使用する必要があります。Androidデバイス用は次からダウンロードしてください: https://play.google.com/store/apps/details?id=org.mahara.mobile またAppleデバイス用は次からダウンロードしてください: https://itunes.apple.com/us/app/mahara-mobile/id1172638950';
