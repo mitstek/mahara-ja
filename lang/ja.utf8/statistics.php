@@ -28,7 +28,7 @@ $string['searchplugin'] = '有効検索ログイン';
 $string['eventlogging'] = 'イベントレポート';
 $string['enablenetworking'] = 'ネットワーキング有効';
 $string['moodlehost'] = 'Moodleホスト';
-$string['institutionstrictprivacy'] = '厳密なプライバシー';
+$string['institutionstrictprivacy'] = '厳密なプライバシ';
 $string['licensemetadata'] = 'ライセンスメタデータ';
 $string['institutions_accounts'] = 'インスティテューションおよびアカウント';
 $string['usersallowedmultipleinstitutions'] = '複数インスティテューションを許可された人';
@@ -317,16 +317,16 @@ $string['reportdescuseragreement'] = '<ul>
 <li>表示名</li>
 <li>メールアドレス</li>
 <li>ユーザ名</li>
-<li>サイトプライバシー保護方針</li>
-<li>サイトプライバシー保護方針同意レビュー</li>
+<li>サイトプライバシ保護方針</li>
+<li>サイトプライバシ保護方針同意レビュー</li>
 <li>サイト利用条件</li>
 <li>サイト利用条件同意レビュー</li>
-<li>インスティテューションプライバシー保護方針</li>
-<li>インスティテューションプライバシー保護方針同意レビュー</li>
+<li>インスティテューションプライバシ保護方針</li>
+<li>インスティテューションプライバシ保護方針同意レビュー</li>
 <li>インスティテューション利用条件</li>
 <li>インスティテューション利用条件同意レビュー</li>
 <li>インスティテューション</li>
-</ul><p>選択された期間内にプライバシー保護方針または利用条件に同意または拒否した人が表示されています。</p>';
+</ul><p>選択された期間内にプライバシ保護方針または利用条件に同意または拒否した人が表示されています。</p>';
 $string['blockinstancecommit'] = 'ページにブロックを追加する';
 $string['addfriend'] = 'フレンドを追加する';
 $string['activateuser'] = 'アカウントを有効化する';
