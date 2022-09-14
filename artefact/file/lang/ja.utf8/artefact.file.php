@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-10-01 04:28:55 UTC
+ * @updated    2022-09-14 12:41:36 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -220,7 +220,7 @@ $string['latex'] = 'LaTeXドキュメント';
 $string['m3u'] = 'M3Uオーディオファイル';
 $string['mp3'] = 'MP3オーディオファイル';
 $string['mp4'] = 'MP4メディアファイル';
-$string['mpeg'] = 'MPEGムービー';
+$string['mpeg'] = 'MPEGムービ';
 $string['odb'] = 'OpenOffice / LibreOffice Baseデータベースファイル';
 $string['odc'] = 'OpenOffice / LibreOffice Calcファイル';
 $string['odf'] = 'OpenOffice / LibreOffice formulaファイル';
@@ -238,10 +238,10 @@ $string['ogg'] = 'OGG Vorbisオーディオファイル';
 $string['pdf'] = 'PDFドキュメント';
 $string['png'] = 'PNGイメージ';
 $string['ppt'] = 'MS PowerPointドキュメント';
-$string['quicktime'] = 'QuickTimeムービー';
+$string['quicktime'] = 'QuickTimeムービ';
 $string['ra'] = 'Real Audioファイル';
 $string['rtf'] = 'RTFドキュメント';
-$string['sgi_movie'] = 'SGIムービーファイル';
+$string['sgi_movie'] = 'SGIムービファイル';
 $string['sh'] = 'シェルスクリプト';
 $string['tar'] = 'TAR書庫';
 $string['gz'] = 'Gzip圧縮ファイル';
@@ -253,13 +253,13 @@ $string['m4a'] = 'M4Aオーディオファイル';
 $string['wmv'] = 'WMVビデオファイル';
 $string['xml'] = 'XMLファイル';
 $string['zip'] = 'ZIP書庫';
-$string['swf'] = 'SWF Flashムービー';
-$string['flv'] = 'FLV Flashムービー';
-$string['mov'] = 'MOV QuickTimeムービー';
-$string['mpg'] = 'MPGムービー';
-$string['ram'] = 'RAM RealPlayerムービー';
-$string['rpm'] = 'RPM RealPlayerムービー';
-$string['rm'] = 'RM RealPlayerムービー';
+$string['swf'] = 'SWF Flashムービ';
+$string['flv'] = 'FLV Flashムービ';
+$string['mov'] = 'MOV QuickTimeムービ';
+$string['mpg'] = 'MPGムービ';
+$string['ram'] = 'RAM RealPlayerムービ';
+$string['rpm'] = 'RPM RealPlayerムービ';
+$string['rm'] = 'RM RealPlayerムービ';
 $string['webm'] = 'WEBMビデオファイル';
 $string['3gp'] = '3GPPメディアファイル';
 $string['video'] = 'ビデオファイル';
