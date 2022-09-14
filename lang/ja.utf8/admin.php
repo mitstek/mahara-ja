@@ -90,8 +90,8 @@ $string['siteviews'] = 'サイトページ';
 $string['siteviewsdescription'] = 'サイト全体のページおよびページテンプレートを作成および管理します。';
 $string['networking'] = 'ネットワーキング';
 $string['networkingdescription'] = 'Maharaのネットワーキングを設定します。';
-$string['cookieconsent'] = 'クッキーコンセント';
-$string['cookieconsentdescription'] = '「クッキーコンセント」ユーザプライバシシステムを設定します。';
+$string['cookieconsent'] = 'クッキコンセント';
+$string['cookieconsentdescription'] = '「クッキコンセント」ユーザプライバシシステムを設定します。';
 $string['staffusers'] = 'スタッフユーザ';
 $string['staffusersdescription'] = 'ユーザにスタッフパーミッションを割り当てます。';
 $string['adminusers'] = '管理ユーザ';
@@ -201,7 +201,7 @@ $string['registeryourmaharasitedetail'] = '<p>あなたのMaharaサイトを<a h
 <p>あなたが「更新を週に1回送信しますか?」設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
 <p>登録することによりこの通知が取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更できます。</p>';
 $string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページで</p>サイト更新内容の週ごとの送信を有効または無効にできます。';
-$string['newsiteregistrationpolicy'] = '<p>最近、私たちはmahara.orgへのデータ送信に関するポリシーを更新しました。あなたの登録を確認してください。</p>';
+$string['newsiteregistrationpolicy'] = '<p>最近、私たちはmahara.orgへのデータ送信に関するポリシを更新しました。あなたの登録を確認してください。</p>';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
 $string['closesitedetail'] = 'あなたは管理者を除くすべての人にサイトをクローズできます。これはデータベースアップグレードの準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインできます。';
