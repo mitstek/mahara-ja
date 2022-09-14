@@ -363,7 +363,7 @@ $string['chooseusernamepasswordinfo'] = 'あなたが %s にログインする�
 $string['confirmpassword'] = 'パスワードをもう一度';
 $string['deleteaccount'] = '次のアカウントを削除する: %s / %s';
 $string['javascriptnotenabled'] = 'あなたのブラウザではJavaスクリプトが有効にされていません。あなたがログインするにはこのサイトではJavaスクリプトを有効にする必要があります。';
-$string['cookiesnotenabled'] = 'あなたのブラウザではクッキーが有効にされていないかクッキーがブロックされています。あなたがログインするにはこのサイトではクッキーを有効にする必要があります。';
+$string['cookiesnotenabled'] = 'あなたのブラウザではクッキが有効にされていないかクッキがブロックされています。あなたがログインするにはこのサイトではクッキを有効にする必要があります。';
 $string['institution'] = 'インスティテューション';
 $string['institutioncontacts'] = '「 %s 」連絡先';
 $string['institutionlink'] = '<a href="%s">%s</a>';
