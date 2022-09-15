@@ -156,7 +156,7 @@ $string['allviews'] = 'すべてのページ';
 $string['addaccess'] = '「 %s 」へのアクセスを追加する';
 $string['addaccessinstitution'] = 'インスティテューション「 %s 」へのアクセスを追加する';
 $string['addaccessgroup'] = 'グループ「 %s 」へのアクセスを追加する';
-$string['submitconfirm'] = '評価のために「 %s 」を「 %s 」に送信した場合、チューターが評価を終えるまであなたはコンテンツを編集できません。本当に送信してもよろしいですか?';
+$string['submitconfirm'] = '評価のために「 %s 」を「 %s 」に送信した場合、チュータが評価を終えるまであなたはコンテンツを編集できません。本当に送信してもよろしいですか?';
 $string['collectionsubmitted'] = 'コレクションが送信されました。';
 $string['collectionviewsalreadysubmitted'] = 'このコレクションのページはすでに送信されています: 「 %s 」
 リリースまたはコレクションから削除されるまであなたはコレクションを送信できません。';
@@ -190,7 +190,7 @@ $string['emptylabel'] = 'このラベルのテキストを入力するにはこ�
 $string['empty_block'] = 'ここに配置するアーティファクトを左側のツリーより選択してください。';
 $string['viewinformationsaved'] = 'ページ情報が正常に保存されました。';
 $string['canteditdontown'] = 'あなたの所有ではないためこのページを編集できません。';
-$string['canteditsubmitted'] = '評価を目的として %s に送信されたためあなたはこのページを編集できません。あなたはチューターがページをリリースするまで待つ必要があります。';
+$string['canteditsubmitted'] = '評価を目的として %s に送信されたためあなたはこのページを編集できません。あなたはチュータがページをリリースするまで待つ必要があります。';
 $string['Submitted'] = '送信済み';
 $string['submittedforassessment'] = '評価のため送信済み';
 $string['blocknotinview'] = 'ID「 %d 」のブロックはページにありません。';
