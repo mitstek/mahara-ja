@@ -296,7 +296,7 @@ $string['institutionsmartevidencenotallowed'] = 'あなたがスマートエビ�
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowpublicprofilesdescription1'] = 'ユーザは登録ユーザのみではなく、外部からもアクセスできるプロファイルページを設定できます。';
 $string['allowanonymouspages'] = '匿名ページを許可する';
-$string['allowanonymouspagesdescription1'] = 'ユーザはページ作成者として他のユーザから氏名を隠すことができます。
+$string['allowanonymouspagesdescription1'] = 'ユーザはページ作成者として他のユーザから氏名を秘匿することができます。
 管理者は必要であれば作成者の氏名を確認できます。';
 $string['anonymouscomments'] = '匿名コメント';
 $string['anonymouscommentsdescription1'] = 'パブリックページまたはシークレットURLでアクセスできるページに誰でもコメントを残せます。';
@@ -410,7 +410,7 @@ $string['requireregistrationconfirm'] = '登録を承認する';
 $string['requireregistrationconfirmdescription1'] = 'すべてのインスティテューションに新しい自己登録アカウントの承認を強制します。';
 $string['userscanchooseviewthemes'] = 'ユーザがページテーマを選択できる';
 $string['userscanchooseviewthemesdescription1'] = 'ユーザがポートフォリオページを編集および作成する時にテーマを選択できるようにします。ページは選択されたテーマを使用して他のユーザに表示されます。';
-$string['userscanhiderealnames'] = 'ユーザは実名を隠すことができる';
+$string['userscanhiderealnames'] = 'ユーザは実名を秘匿できる';
 $string['userscanhiderealnamesdescription1'] = 'ユーザが表示名を設定した場合、実名で検索できないようにします。他のユーザは表示名のみで検索できます。サイトのサイト管理セクションでは常に実名でユーザを検索できます。';
 $string['usersseenewthemeonlogin'] = '次回ログイン時、他のユーザに新しいテーマが表示されます。';
 $string['viruschecking'] = 'ウイルスチェック';
