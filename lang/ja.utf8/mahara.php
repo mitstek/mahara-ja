@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-09-11 20:38:44 UTC
+ * @updated    2022-09-19 01:18:57 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1164,7 +1164,7 @@ $string['topicsimfollowing'] = '私がフォローしているトピック';
 $string['inboxblocktitle'] = '受信箱';
 $string['mymessages'] = 'マイメッセージ';
 $string['pleasedonotreplytothismessage'] = 'このメッセージに返信しないでください。';
-$string['deleteduser1'] = '削除済みのアカウント';
+$string['deleteduser1'] = '削除済みアカウント';
 $string['theme'] = 'テーマ';
 $string['choosetheme'] = 'テーマを選択する ...';
 $string['missingparent'] = 'テーマ「 %s 」の親テーマ「 %s 」がありません。';
