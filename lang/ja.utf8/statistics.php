@@ -200,7 +200,7 @@ $string['reportdescaccesslist'] = '<ul>
 <li>アクセスリスト 例) ポートフォリオを閲覧できるパーミッションのある人</li>
 </ul>
 <p>選択された期間中に作成されたポートフォリオが一覧表示されます。それらの現在のアクセスパーミッションが表示されます。</p>';
-$string['reportcompletionverification'] = '完了およびレビュー';
+$string['reportcompletionverification'] = '完了およびレビュ';
 $string['reportdesccompletionverification'] = '<ul>
 <li>ポートフォリオ作成者の個人情報</li>
 <li>ポートフォリオ作成者のメールアドレス</li>
@@ -318,13 +318,13 @@ $string['reportdescuseragreement'] = '<ul>
 <li>メールアドレス</li>
 <li>ユーザ名</li>
 <li>サイトプライバシ保護方針</li>
-<li>サイトプライバシ保護方針同意レビュー</li>
+<li>サイトプライバシ保護方針同意レビュ</li>
 <li>サイト利用条件</li>
-<li>サイト利用条件同意レビュー</li>
+<li>サイト利用条件同意レビュ</li>
 <li>インスティテューションプライバシ保護方針</li>
-<li>インスティテューションプライバシ保護方針同意レビュー</li>
+<li>インスティテューションプライバシ保護方針同意レビュ</li>
 <li>インスティテューション利用条件</li>
-<li>インスティテューション利用条件同意レビュー</li>
+<li>インスティテューション利用条件同意レビュ</li>
 <li>インスティテューション</li>
 </ul><p>選択された期間内にプライバシ保護方針または利用条件に同意または拒否した人が表示されています。</p>';
 $string['blockinstancecommit'] = 'ページにブロックを追加する';
@@ -373,7 +373,7 @@ $string['reportdescgroups'] = '<ul>
 <li>フォーラム数</li>
 <li>フォーラム投稿数</li>
 </ul>
-<p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニューより「すべてのインスティテューション」を選択した場合のみ利用できます。</p>';
+<p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニュより「すべてのインスティテューション」を選択した場合のみ利用できます。</p>';
 $string['reportdesccontent'] = '<ul>
 <li>名称</li>
 <li>期間内の修正数</li>
@@ -386,17 +386,17 @@ $string['reportdescobjectionable'] = '<ul>
 <li>報告者名</li>
 <li>報告説明</li>
 <li>報告日</li>
-<li>レビュー者名</li>
-<li>レビュー説明</li>
-<li>レビュー日</li>
+<li>レビュ者名</li>
+<li>レビュ説明</li>
+<li>レビュ日</li>
 <li>報告ステータス</li>
 </ul>';
 $string['reporter'] = '報告者';
-$string['review'] = 'レビュー';
-$string['reviewer'] = 'レビュー者';
+$string['review'] = 'レビュ';
+$string['reviewer'] = 'レビュ者';
 $string['contentobjectionablereports'] = '好ましくないコンテンツ';
 $string['status.0'] = '&nbsp;';
-$string['status.1'] = '要管理者によるレビュー';
+$string['status.1'] = '要管理者によるレビュ';
 $string['status.2'] = '要作成者による変更';
 $string['informationreports'] = 'インフォメーション概要';
 $string['reportdescinformation'] = '<ul>
@@ -425,13 +425,13 @@ $string['reportdesccomparisons'] = '<ul>
 <li>アーティファクト数</li>
 <li>インスティテューションメンバによるフォーラム投稿数</li>
 </ul>
-<p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニューより「すべてのインスティテューション」を選択した場合のみ利用できます。これは週末のみ更新されます。</p>';
+<p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニュより「すべてのインスティテューション」を選択した場合のみ利用できます。これは週末のみ更新されます。</p>';
 $string['reportdesclogins'] = '<ul>
 <li>インスティテューション</li>
 <li>人を問わないログイン数</li>
 <li>アクティブ人数</li>
 </ul>
-<p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニューより「すべてのインスティテューション」を選択した場合のみ利用できます。</p>';
+<p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニュより「すべてのインスティテューション」を選択した場合のみ利用できます。</p>';
 $string['userscollaborationreports'] = 'コラボレーション';
 $string['usersverifiersummaryreports'] = 'レビュア概要';
 $string['userspageactivityreports'] = 'ページ活動';
@@ -441,7 +441,7 @@ $string['userssmartevidencereports'] = 'スマートエビデンス';
 $string['usersuseractivityreports'] = 'アカウント活動';
 $string['usersuserdetailsreports'] = 'アカウント詳細';
 $string['usersuseragreementreports'] = '法的同意';
-$string['userscompletionverificationreports'] = '完了およびレビュー';
+$string['userscompletionverificationreports'] = '完了およびレビュ';
 $string['usersportfolioswithverifiersreports'] = 'レビュアありポートフォリオ';
 $string['groupsreports'] = 'グループ概要';
 $string['contentreports'] = 'コンテンツ概要';
