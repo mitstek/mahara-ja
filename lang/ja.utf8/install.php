@@ -47,8 +47,8 @@ $string['licenseshortnamebyncsa'] = 'CC-BY-NC-SA-4.0';
 $string['licenseshortnamebync'] = 'CC-BY-NC-4.0';
 $string['licenseshortnamebyncnd'] = 'CC-BY-NC-ND-4.0';
 $string['licenseshortnamegfdl'] = 'GFDL-1.3';
-$string['staticpageconfigdefaults'] = '「管理メニュー」 → 「サイト設定」 → 「<a href="%s"><b>固定ページ</b></a>」';
-$string['versionedpageconfigdefault'] = '「管理メニュー」 → 「サイト設定」 → 「<a href="%s"><b>法律</b></a>」';
-$string['staticpageconfiginstitutions'] = '「管理メニュー」 → 「インスティテューション」 → 「<a href="%s"><b>固定ページ</b></a>」';
+$string['staticpageconfigdefaults'] = '「管理メニュ」 → 「サイト設定」 → 「<a href="%s"><b>固定ページ</b></a>」';
+$string['versionedpageconfigdefault'] = '「管理メニュ」 → 「サイト設定」 → 「<a href="%s"><b>法律</b></a>」';
+$string['staticpageconfiginstitutions'] = '「管理メニュ」 → 「インスティテューション」 → 「<a href="%s"><b>固定ページ</b></a>」';
 
 ?>
