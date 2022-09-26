@@ -183,7 +183,7 @@ $string['plugin_blocktype_signoff_version'] = 'ブロックタイププラグイ
 $string['plugin_blocktype_openbadgedisplayer_version'] = 'ブロックタイププラグイン「オープンバッジ」バージョン';
 $string['plugin_blocktype_placeholder_version'] = 'ブロックタイププラグイン「プレースホルダ」バージョン';
 $string['plugin_blocktype_text_version'] = 'ブロックタイププラグイン「テキスト」バージョン';
-$string['plugin_blocktype_verification_version'] = 'ブロックタイププラグイン「ポートフォリオレビュ」バージョン';
+$string['plugin_blocktype_verification_version'] = 'ブロックタイププラグイン「ポートフォリオレビュー」バージョン';
 $string['plugin_blocktype_wall_version'] = 'ブロックタイププラグイン「ウォール」バージョン';
 $string['plugin_blocktype_watchlist_version'] = 'ブロックタイププラグイン「私が観察しているページ」バージョン';
 $string['plugin_export_html_version'] = 'エクスポートプラグイン「HTML」バージョン';
@@ -240,7 +240,7 @@ $string['reportdescaccesslist'] = '<ul>
 <li>アクセスリスト 例) ポートフォリオを閲覧できるパーミッションのある人</li>
 </ul>
 <p>選択された期間中に作成されたポートフォリオが一覧表示されます。それらの現在のアクセスパーミッションが表示されます。</p>';
-$string['reportcompletionverification'] = '完了およびレビュ';
+$string['reportcompletionverification'] = '完了およびレビュー';
 $string['reportdesccompletionverification'] = '<ul>
 <li>ポートフォリオ作成者の個人情報</li>
 <li>ポートフォリオ作成者のメールアドレス</li>
@@ -358,13 +358,13 @@ $string['reportdescuseragreement'] = '<ul>
 <li>メールアドレス</li>
 <li>ユーザ名</li>
 <li>サイトプライバシ保護方針</li>
-<li>サイトプライバシ保護方針同意レビュ</li>
+<li>サイトプライバシ保護方針同意レビュー</li>
 <li>サイト利用条件</li>
-<li>サイト利用条件同意レビュ</li>
+<li>サイト利用条件同意レビュー</li>
 <li>インスティテューションプライバシ保護方針</li>
-<li>インスティテューションプライバシ保護方針同意レビュ</li>
+<li>インスティテューションプライバシ保護方針同意レビュー</li>
 <li>インスティテューション利用条件</li>
-<li>インスティテューション利用条件同意レビュ</li>
+<li>インスティテューション利用条件同意レビュー</li>
 <li>インスティテューション</li>
 </ul><p>選択された期間内にプライバシ保護方針または利用条件に同意または拒否した人が表示されています。</p>';
 $string['blockinstancecommit'] = 'ページにブロックを追加する';
@@ -426,17 +426,17 @@ $string['reportdescobjectionable'] = '<ul>
 <li>報告者名</li>
 <li>報告説明</li>
 <li>報告日</li>
-<li>レビュ者名</li>
-<li>レビュ説明</li>
-<li>レビュ日</li>
+<li>レビュア名</li>
+<li>レビュー説明</li>
+<li>レビュー日</li>
 <li>報告ステータス</li>
 </ul>';
 $string['reporter'] = '報告者';
-$string['review'] = 'レビュ';
-$string['reviewer'] = 'レビュ者';
+$string['review'] = 'レビュー';
+$string['reviewer'] = 'レビュア';
 $string['contentobjectionablereports'] = '好ましくないコンテンツ';
 $string['status.0'] = '&nbsp;';
-$string['status.1'] = '要管理者によるレビュ';
+$string['status.1'] = '要管理者によるレビュー';
 $string['status.2'] = '要作成者による変更';
 $string['informationreports'] = 'インフォメーション概要';
 $string['reportdescinformation'] = '<ul>
@@ -480,7 +480,7 @@ $string['usersaccesslistreports'] = 'ポートフォリオアクセス';
 $string['usersuseractivityreports'] = 'アカウント活動';
 $string['usersuserdetailsreports'] = 'アカウント詳細';
 $string['usersuseragreementreports'] = '法的同意';
-$string['userscompletionverificationreports'] = '完了およびレビュ';
+$string['userscompletionverificationreports'] = '完了およびレビュー';
 $string['usersportfolioswithverifiersreports'] = 'レビュアありポートフォリオ';
 $string['groupsreports'] = 'グループ概要';
 $string['contentreports'] = 'コンテンツ概要';
