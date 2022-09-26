@@ -118,9 +118,9 @@ $string['objectionablecontentviewartefacttext'] = '「  %s (%s)  」の好まし
 %s
 報告者のプロファイルを閲覧するには次のリンクにアクセスしてください:
 %s';
-$string['objectionablereviewview'] = 'ページ「 %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュー';
-$string['objectionablereviewviewartefact'] = 'ページ「 %s - %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュー';
-$string['objectionablereviewviewhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュー<br />%s</div>
+$string['objectionablereviewview'] = 'ページ「 %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュ';
+$string['objectionablereviewviewartefact'] = 'ページ「 %s - %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュ';
+$string['objectionablereviewviewhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュ<br />%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
@@ -128,7 +128,7 @@ $string['objectionablereviewviewhtml'] = '<div style="padding: 0.5em 0; border-b
 <p>リクエスト対象: <a href="%s">%s</a></p>
 <p>リクエスト者: <a href="%s">%s</a></p>
 </div>';
-$string['objectionablereviewviewtext'] = '「 %s 」の好ましくないコンテンツのレビュー - リクエスト者: %s
+$string['objectionablereviewviewtext'] = '「 %s 」の好ましくないコンテンツのレビュリクエスト者: %s
 %s
 ------------------------------------------------------------------------
 
@@ -139,7 +139,7 @@ $string['objectionablereviewviewtext'] = '「 %s 」の好ましくないコン�
 %s
 オーナのプロファイルを閲覧するには次のリンクにアクセスしてください:
 %s';
-$string['objectionablereviewviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s - %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュー<br />%s</div>
+$string['objectionablereviewviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s - %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュ<br />%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
@@ -147,7 +147,7 @@ $string['objectionablereviewviewartefacthtml'] = '<div style="padding: 0.5em 0; 
 <p>リクエスト対象: <a href="%s">%s</a></p>
 <p>リクエスト者: <a href="%s">%s</a></p>
 </div>';
-$string['objectionablereviewviewartefacttext'] = '「 %s - %s 」の好ましくないコンテンツのレビュー - リクエスト者: %s
+$string['objectionablereviewviewartefacttext'] = '「 %s - %s 」の好ましくないコンテンツのレビュリクエスト者: %s
 %s
 ------------------------------------------------------------------------
 
