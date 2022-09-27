@@ -1170,7 +1170,7 @@ $string['engagesubtitle'] = '人を探してグループに参加する';
 $string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールできます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['blockinstanceownerchange'] = 'このブロックを編集して表示するコンテンツを選択します。';
-$string['blockinstanceconfigownerauto'] = 'このブロックがパーソナルポートフォリオページとしてコピーされた場合、データとともに自動的に追加されます。';
+$string['blockinstanceconfigownerauto'] = 'このブロックがパーソナルポートフォリオページとしてコピーされた場合、データが自動的に追加されます。';
 $string['blockinstanceconfigownerchange'] = 'このブロックがコンテンツを表示するためパーソナルポートフォリオページとしてコピーされた場合、編集/設定する必要があります。';
 $string['filenotfound'] = 'ファイルは見つかりませんでした。';
 $string['filenotfoundmaybeexpired'] = 'ファイルは見つかりませんでした。あなたのエクスポートファイルは作成後24時間のみ存在します。あなたのコンテンツを再度エクスポートする必要があります。';
