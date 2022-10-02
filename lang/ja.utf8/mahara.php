@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-09-27 00:55:14 UTC
+ * @updated    2022-10-02 06:04:58 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -807,7 +807,7 @@ $string['result'] = '結果';
 $string['results'] = '結果';
 $string['nresults'] = '%s 結果';
 $string['Results'] = '結果';
-$string['noresultsfound'] = '該当データはありません。';
+$string['noresultsfound'] = '結果は見つかりませんでした。';
 $string['users'] = '人';
 $string['searchwithin'] = '検索対象';
 $string['artefact'] = 'アーティファクト';
@@ -1194,7 +1194,7 @@ $string['blocks'] = 'ブロック';
 $string['artefacts'] = 'アーティファクト';
 $string['posts'] = '投稿';
 $string['facebookdescription'] = 'Maharaはeポートフォリオおよびソーシャルネットワーキングを構築するためのオープンソースウェブアプリケーションです。
-Maharaは自分の学習に関するポートフォリオを作成および管理するためのツールを人に提供します。また、ソーシャルネットワーキング機能により人同士が相互に交流を図ることができます。';
+Maharaは自分の学習に関するポートフォリオを作成および管理するためのツールを人に提供します。また、ソーシャルネットワーキング機能により人同士が相互に交流を図れます。';
 $string['wanttoleavewithoutsaving?'] = 'あなたは修正しました - 修正を保存せずページを離れてもよろしいですか?';
 $string['attachedimage'] = '添付イメージ';
 $string['imagebrowsertitle'] = 'イメージを挿入または選択する';
@@ -1212,7 +1212,7 @@ $string['inputTooLong'] = '文字が多すぎます。';
 $string['inputTooShort'] = '検索クエリを入力してください。';
 $string['loadingMore'] = 'さらに結果を読み込む ...';
 $string['maximumSelected'] = '最大アイテム数が選択されました。';
-$string['noResults'] = '該当データはありません。';
+$string['noResults'] = '結果は見つかりませんでした。';
 $string['searching'] = '検索中 ...';
 $string['styleguide_title'] = 'スタイルガイド';
 $string['styleguide_description'] = 'このスタイルガイドではMaharaで使用される異なるタイプのコンポーネントすべてに関して説明します。これらは1箇所に入れられるためあなたの新しいテーマまたはプラグインの開発時にスタイリングされているかどうか簡単に確認できます。個々のコンポーネントがどのように表示されるか確認したい場合、あなたのサイトに異なるテーマを適用してください。';
