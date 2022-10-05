@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-08-28 05:34:38 UTC
+ * @updated    2022-10-05 02:08:10 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1367,6 +1367,30 @@ $string['withselectedcontentexport'] = 'アイテムを再度エクスポート�
 $string['withselectedcontentdelete'] = '選択したアイテムをエクスポートキューから削除する';
 $string['withselectedcontentrelease'] = '選択したアイテムをリリースする';
 $string['allothers'] = 'その他すべて';
+$string['cli_portfolio_export_info'] = 'あなたはコマンドラインPHPスクリプトによりアカウント保持者のポートフォリオをHTMLまたはLeap2Aフォーマットでエクスポートできます。';
+$string['cli_portfolio_export_filenotfound'] = 'ファイルが見つかりませんでした。';
+$string['cli_portfolio_export_invalidformat'] = '無効なエクスポートフォーマットです。';
+$string['cli_portfolio_export_invalidfilter'] = '無効なフィルタキーです。';
+$string['cli_portfolio_export_filepath'] = 'ユーザ名一覧を含むCSVファイルのパスです。例) /tmp/accounts_bulkexport.csv';
+$string['cli_portfolio_export_format'] = 'エクスポートフォーマットタイプです。例) 「html」(HTMLフォーマット)、「leap」(Leap2Aフォーマット)、「pdf」(PDFフォーマット)';
+$string['cli_portfolio_export_offset'] = '--filepathが設定されていない場合、データベースから取得する際に使用されるオフセットです。';
+$string['cli_portfolio_export_limit'] = '--filepathが設定されていない場合、データベースから取得する際の結果の制限です。';
+$string['cli_portfolio_export_filterkey'] = '有効なフィルタカラム:firstname, lastname, email, username';
+$string['cli_portfolio_export_filtervalue'] = 'フィルタカラム値の開始文字です。例) --filepathが設定されていない場合、「Test」および「Tesla」を探すには「Tes」を指定します。';
+$string['cli_portfolio_export_infolimitfilter'] = '最大 %s アカウントのポートフォリオをエクスポートする (カラム「%s」- 開始文字「%s」)';
+$string['cli_portfolio_export_infofilter'] = 'すべてのアカウントのポートフォリオをエクスポートする (カラム「%s」- 開始文字「%s」)';
+$string['cli_portfolio_export_infolimit'] = '最大 %s アカウントのポートフォリオをエクスポートする';
+$string['cli_portfolio_export_infoout'] = 'すべての有効なアカウントのポートフォリオをエクスポートする';
+$string['cli_portfolio_export_users'] = 'ドライラン: %s アカウントおよび %s ポートフォリオが「 %s 」フォーマットでエクスポートされます。';
+$string['cli_portfolio_export_fromcsv'] = 'CSVファイルからアカウントを選択する';
+$string['cli_portfolio_export_nousers'] = 'アカウントが見つかりませんでした。';
+$string['cli_portfolio_export_username'] = '次のユーザ名のエクスポートを開始しました: %s';
+$string['cli_portfolio_export_username_skipped'] = '... スキップ: %s のエクスポート対象ポートフォリオはありません。';
+$string['cli_portfolio_export_userfile_failed'] = 'エクスポートに失敗しました。理由: %s';
+$string['cli_portfolio_export_zip'] = '同梱ZIPファイルを作成しています。お待ちください ...';
+$string['cli_portfolio_export_zipout'] = '%s アカウントを %s にエクスポートしました。';
+$string['cli_param_dryrun_export'] = '何が起きるか確認するためのドライランです。デフォルトでは「true」が設定されています。実際にエクスポートを実行するには「-d=false」を設定してください。';
+$string['cli_time_elapsed'] = '所要時間: %s';
 $string['behatvariables'] = 'Behatステップ';
 $string['behatvariablesdesc'] = '利用可能なBehatステップを素早く探すためのツールです。';
 $string['nobehatfeaturefiles'] = 'Behatフィーチャファイルは見つかりませんでした。';
