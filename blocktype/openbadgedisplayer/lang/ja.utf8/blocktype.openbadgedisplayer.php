@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-10-06 02:33:56 UTC
+ * @updated    2022-10-06 23:50:51 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -56,7 +56,7 @@ $string['badgrtokendeleted'] = 'バッジャトークンが削除されました
 $string['badgrtokennotfound'] = '提供された認証情報ではバッジャトークンは見つかりませんでした。';
 $string['nobadgruid2'] = 'あなたがバッジャを使用できるようにするにはトークンを設定する必要があります。バッジャを設定するには「アカウントメニュ → 設定 → アプリ → バッジャ」に移動してください。';
 $string['resetobsoletebadgrtokensubject'] = 'あなたのバッジャトークンをリセットする必要があります。';
-$string['resetobsoletebadgrtokenmessage'] = '%s さん
+$string['resetobsoletebadgrtokenmessage1'] = '%s さん
 
 現在、あなたの %s で使用中のバッジャトークンは廃止されています。
 
