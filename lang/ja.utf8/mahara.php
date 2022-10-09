@@ -1256,7 +1256,7 @@ $string['migrateemailtextexistinguser_html'] = '<p>%s さん、こんにちは�
 <p>この問題を解決するにはインスティテューション「 %s 」の<a href="%s">管理者にご連絡ください</a>。</p>
 
 <p>%s チーム</p>';
-$string['migrateaccountconfirm'] = '%s の別のインスティテューションへのあなたのアカウントの移動を承認します。';
+$string['migrateaccountconfirm'] = '%s の別のインスティテューションへのあなたのアカウント移動を承認します。';
 $string['migrateaccountconfirminfo'] = 'あなたのアカウントは「 %s 」から「 %s 」に移動されます。あなたは古いログイン認証情報であなたのアカウントにログインできないようになります。あなたが古いログインを再度使用する場合、新しいアカウントが作成されます。';
 $string['nomigrateoptions'] = '選択できる移行オプションはありません。';
 $string['invalidkeytoken'] = '問題が発生しました。確認メールの有効期限が切れたか、別の確認メールが送信されました。最新の確認メールを確認するか、新しい確認メールをリクエストしてください。';
