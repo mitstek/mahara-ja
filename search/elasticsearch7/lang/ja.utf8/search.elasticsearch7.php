@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-05-10 12:31:10 UTC
+ * @updated    2022-10-11 23:40:12 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -90,6 +90,7 @@ $string['pluginstatustitlecluster_health'] = 'クラスタヘルス';
 $string['pluginstatustitlecron'] = 'Cron';
 $string['pluginstatustitleindexstatus'] = 'インデックスステータス';
 $string['pluginstatustitleserver_health'] = 'サーバヘルス';
+$string['pluginstatusignoresslerror'] = '<code>productionmode</code>が「true」の場合、<code>ignoressl</code>設定は無視されます。Elasticsearch 7の有効なSSL証明書を使用するか、<code>productionmode</code>を「false」に設定してください。';
 $string['port'] = 'Elasticsearchポート';
 $string['portdescription'] = 'Elasticsearchと通信するためのポートです。デフォルトは次のとおりです: %';
 $string['Portfolio'] = 'ポートフォリオ';
