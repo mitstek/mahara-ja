@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-10-09 22:30:25 UTC
+ * @updated    2022-10-12 03:37:52 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1206,6 +1206,7 @@ $string['constrain'] = '縦横比';
 $string['vspace'] = '垂直方向の余白';
 $string['hspace'] = '水平方向の余白';
 $string['border'] = '罫線幅';
+$string['showcaption'] = 'キャプションを表示する';
 $string['alignment'] = '位置揃え';
 $string['errorLoading'] = '結果を読み込めませんでした。';
 $string['inputTooLong'] = '文字が多すぎます。';
