@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-10-13 03:21:40 UTC
+ * @updated    2022-10-13 07:08:53 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -22,6 +22,6 @@ $string['needspdfcombiner'] = 'PDFを結合できるようにするには「pdfu
 $string['exportpdfdisabled'] = 'PDFエクスポート依存関係が不足しているためPDFエクスーポートは無効にされています。詳細は<a href="%s">「プラグイン管理」</a>をご覧ください。';
 $string['pdffoundcombiner'] = 'PDFコンバイナを使用する: %s';
 $string['beginpdfviewexport'] = 'PDFエクスポート処理を開始する';
-$string['startuppdfchrome'] = 'Chromeブラウザヘッドレス開始中 ...';
-$string['pdfchromestarted'] = 'Chromeブラウザヘッドレス開始中 ... 完了';
+$string['startuppdfchrome'] = 'Chromeブラウザヘッドレス起動中 ...';
+$string['pdfchromestarted'] = 'Chromeブラウザヘッドレス起動中 ... 完了';
 $string['pdfchromestartederror'] = 'Chromeブラウザを開始できません - 詳細情報はログをご覧ください。';
