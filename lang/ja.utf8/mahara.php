@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-10-12 03:37:52 UTC
+ * @updated    2022-10-17 01:16:52 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -233,7 +233,7 @@ $string['norelatedtaggeditemstoview'] = 'あなたがタグ「 %s 」 (オーナ
 $string['norelatedtaggeditemstoviewfiltered'] = 'あなたがタグ「 %s 」 (オーナ「 %s 」) で閲覧できる %s はありません。';
 $string['selfsearch'] = '私のポートフォリオを検索する';
 $string['resultsperpage'] = '1ページあたりの結果数';
-$string['allowinstitutiontags'] = 'インスティテューションタグを許可する';
+$string['allowinstitutiontags'] = 'インスティテューションタグ';
 $string['allowinstitutiontagsdescription'] = '管理者はインスティテューションメンバが使用できる一連のタグを定義できます。';
 $string['cantlistinstitutiontags'] = 'あなたはインスティテューションタグを一覧表示できません。';
 $string['createtag'] = 'タグを作成する';

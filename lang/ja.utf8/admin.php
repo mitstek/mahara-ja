@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-10-05 02:08:10 UTC
+ * @updated    2022-10-17 01:09:23 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -273,7 +273,7 @@ $string['Register'] = '登録';
 $string['Registration'] = '登録';
 $string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/registersite.php">サイト登録ページ</a>にアクセスして登録できます。';
 $string['registrationfailedtrylater'] = 'エラーコード %s により登録が失敗しました。後ほど再度お試しください。';
-$string['registrationoptoutsuccessful'] = '正常に登録がオプトアウトされました - これ以上データは送信されません。';
+$string['registrationoptoutsuccessful'] = '正常に登録がオプトアウトされました。これ以上データは送信されません。';
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます。';
 $string['registermaharasite'] = 'サイト登録';
 $string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することにより私たちが世界中のMaharaインストール状況を把握するための助けとなります。</p>';
@@ -352,12 +352,12 @@ $string['adminsandstaffonly'] = '管理者およびスタッフのみ';
 $string['advanced'] = '高度';
 $string['allowpublicviews1'] = 'パブリックポートフォリオを許可する';
 $string['allowpublicviewsdescription2'] = '人は登録済みの人のみではなく、外部からもアクセスできるポートフォリオを作成できます。';
-$string['allowinstitutionpublicviews1'] = 'パブリックインスティテューションポートフォリオを許可する';
+$string['allowinstitutionpublicviews2'] = 'パブリックインスティテューションポートフォリオ';
 $string['allowinstitutionpublicviewsdescription3'] = '登録済みの人のみではなく、外部からもアクセスできるポートフォリオをインスティテューションメンバが作成できるようにします。';
-$string['allowpeersviewcontent'] = 'ピアによるポートフォリオコンテンツの閲覧を許可する';
+$string['allowpeersviewcontent1'] = 'ピアはポートフォリオコンテンツを閲覧できる';
 $string['allowpeersviewcontentdescription'] = 'ポートフォリオで「ピア」ロールが割り当てられたユーザがポートフォリオのコンテンツすべてを閲覧できるようにします。';
-$string['allowinstitutionsmartevidence'] = 'スマートエビデンスを許可する';
-$string['allowinstitutionsmartevidencedescription'] = 'コレクションをコンピテンシーフレームワークにリンクされるスマートエビデンスコレクションに切り替えます。';
+$string['allowinstitutionsmartevidence1'] = 'スマートエビデンス';
+$string['allowinstitutionsmartevidencedescription'] = 'コレクションをコンピテンシフレームワークにリンクされるスマートエビデンスコレクションに切り替えます。';
 $string['institutionsmartevidencenotallowed'] = 'あなたがスマートエビデンスオプションを設定するには「プラグイン管理」ページで「スマートエビデンス」モジュールを有効にする必要があります。';
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowpublicprofilesdescription1'] = '人は登録済みの人のみではなく、外部からもアクセスできるプロファイルページを設定できます。';
@@ -1384,7 +1384,7 @@ $string['cli_portfolio_export_infoout'] = 'すべての有効なアカウント�
 $string['cli_portfolio_export_users'] = 'ドライラン: %s アカウントおよび %s ポートフォリオが「 %s 」フォーマットでエクスポートされます。';
 $string['cli_portfolio_export_fromcsv'] = 'CSVファイルからアカウントを選択する';
 $string['cli_portfolio_export_nousers'] = 'アカウントが見つかりませんでした。';
-$string['cli_portfolio_export_username'] = '次のユーザ名のエクスポートを開始しました: %s';
+$string['cli_portfolio_export_username'] = 'ユーザ名 %s のエクスポートを開始しました。';
 $string['cli_portfolio_export_username_skipped'] = '... スキップ: %s のエクスポート対象ポートフォリオはありません。';
 $string['cli_portfolio_export_userfile_failed'] = 'エクスポートに失敗しました。理由: %s';
 $string['cli_portfolio_export_zip'] = '同梱ZIPファイルを作成しています。お待ちください ...';

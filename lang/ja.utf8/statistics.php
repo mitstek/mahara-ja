@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-08-15 08:16:34 UTC
+ * @updated    2022-10-17 01:19:26 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -115,7 +115,7 @@ $string['blocktype_creativecommons'] = 'ブロック: クリエイティブ・�
 $string['blocktype_entireresume'] = 'ブロック: レジュメ全体';
 $string['blocktype_externalfeed'] = 'ブロック: 外部フィード';
 $string['blocktype_externalvideo'] = 'ブロック: 外部メディア';
-$string['blocktype_filedownload'] = 'ブロック: ダウンロードできるファイル';
+$string['blocktype_filedownload'] = 'ブロック: ファイル';
 $string['blocktype_folder'] = 'ブロック: フォルダ';
 $string['blocktype_gallery'] = 'ブロック: イメージギャラリ';
 $string['blocktype_googleapps'] = 'ブロック: Google Apps';
@@ -130,7 +130,7 @@ $string['blocktype_myfriends'] = 'ブロック: マイフレンド';
 $string['blocktype_mygroups'] = 'ブロック: マイグループ';
 $string['blocktype_myviews'] = 'ブロック: マイポートフォリオ';
 $string['blocktype_navigation'] = 'ブロック: ナビゲーション';
-$string['blocktype_newviews'] = 'ブロック: 最新ページ';
+$string['blocktype_newviews'] = 'ブロック: 私への共有';
 $string['blocktype_openbadgedisplayer'] = 'ブロック: オープンバッジ';
 $string['blocktype_pdf'] = 'ブロック: PDF';
 $string['blocktype_peerassessment'] = 'ブロック: 相互評価';
