@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['Framework'] = 'スマートエビデンスフレームワーク';
 $string['frameworknav'] = 'スマートエビデンス';
 $string['frameworks'] = 'インストール済みフレームワーク';
-$string['frameworkdesc'] = 'あなたのポートフォリオと関連付けたいコンピテンシーフレームワークを選択してください。';
+$string['frameworkdesc'] = 'あなたのポートフォリオと関連付けたいコンピテンシフレームワークを選択してください。';
 $string['frameworksdesc'] = 'システムにインストールされているフレームワークの一覧です。有効時にコレクションと関連付けられていない限り、無効にされたフレームワークは一覧表示されません。';
 $string['taskscompleted'] = 'タスク完了';
 $string['addpages'] = 'あなたがスマートエビデンスマップに表示させたい場合、さらにこのコレクションにページを追加できます。';
