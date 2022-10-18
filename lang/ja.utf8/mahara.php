@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-10-17 01:16:52 UTC
+ * @updated    2022-10-18 22:51:08 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1305,11 +1305,11 @@ $string['institutionmembershipjoindescription'] = 'あなたはインスティ�
 $string['accountupdated'] = '%s: アカウントが更新されました。';
 $string['accountupdatedheading'] = '%s さん
 
-あなたのアカウントは %s に更新されました。あなたのアカウント名が変更されている可能性があります。変更は以下のとおりです:
+あなたのアカウントは %s に更新されました。途中であなたのアカウント名が変更されている可能性があります。変更は以下のとおりです:
 
 %s';
 $string['accountupdatedheadinghtml'] = '<p>%s さん</p>
-<p>あなたのアカウントは %s に更新されました。あなたのアカウント名が変更されている可能性があります。変更は以下のとおりです:</p>
+<p>あなたのアカウントは %s に更新されました。途中であなたのアカウント名が変更されている可能性があります。変更は以下のとおりです:</p>
 
 <p>%s </p>';
 $string['accountupdatednewinstitution'] = 'あなたはインスティテューション %s に追加されました。';
