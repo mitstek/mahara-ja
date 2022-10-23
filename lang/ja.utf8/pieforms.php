@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-10-12 03:41:31 UTC
+ * @updated    2022-10-23 20:58:23 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -56,7 +56,7 @@ $string['element.select.other'] = 'その他';
 $string['element.select.remove'] = '「 %s 」を削除する';
 $string['element.color.transparent1'] = 'テーマデフォルト';
 $string['element.font.themedefault'] = 'テーマフォントを使用する';
-$string['rule.before.before'] = 'フィールド「 %s 」の後に設定できません';
+$string['rule.before.before'] = 'これはフィールド「 %s 」の後には設定できません';
 $string['rule.email.email'] = 'メールアドレスが有効ではありません';
 $string['rule.integer.integer'] = 'フィールドは整数にしてください';
 $string['rule.float.float'] = 'このフィールドは10進数の値のみを受け付けます。';
