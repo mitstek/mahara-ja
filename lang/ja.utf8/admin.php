@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-10-17 01:09:23 UTC
+ * @updated    2022-10-26 07:44:44 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -224,6 +224,14 @@ $string['section_artefact'] = 'アーティファクトコンテンツ';
 $string['section_interaction'] = 'フォーラム説明';
 $string['section_interactionpost'] = 'フォーラムコンテンツ';
 $string['section_block'] = 'ブロックコンテンツ';
+$string['section_static_pages'] = '固定ページコンテンツ';
+$string['section_wall_post'] = 'ウォールコンテンツ';
+$string['section_artefact_resume_certification'] = 'レジュメ: 証明コンテンツ';
+$string['section_artefact_resume_educationhistory'] = 'レジュメ: 教育履歴';
+$string['section_artefact_resume_book'] = 'レジュメ: 書籍コンテンツ';
+$string['section_verification_comment'] = '検証コメント';
+$string['section_artefact_resume_membership'] = 'レジュメ: メンバーシップ';
+$string['section_artefact_resume_employmenthistory'] = 'レジュメ: 職歴';
 $string['potentialfor'] = '%s の結果';
 $string['warnings'] = '警告';
 $string['applyingchanges'] = '変更を適用する';
