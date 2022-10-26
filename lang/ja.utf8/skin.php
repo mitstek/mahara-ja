@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-15 21:08:48 UTC
+ * @updated    2022-10-26 01:30:20 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -22,7 +22,7 @@ $string['themedefault'] = 'テーマデフォルト';
 $string['blockheaderfontfamily'] = 'ブロックヘッダフォント';
 $string['blockheaderfontcolor'] = 'ブロックヘッダテキスト色';
 $string['headerbackgroundcolor'] = 'ヘッダ背景色';
-$string['headerbackgroundcolordescription'] = 'ページヘッダの背景色です。ヘッダ背景イメージが選択された場合、これは表示されません。';
+$string['headerbackgroundcolordescription'] = 'ページヘッダの背景色です。ヘッダ背景イメージが選択されている場合、これは表示されません。';
 $string['headerbackgroundimage'] = 'ヘッダ背景イメージ';
 $string['headerbackgroundimagedescription'] = '最小幅は1832px、最小高は232pxです。';
 $string['bodybackgroundcolour'] = 'ページ背景色';
