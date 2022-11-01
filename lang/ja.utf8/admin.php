@@ -264,7 +264,7 @@ $string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/reg
 $string['registrationfailedtrylater'] = 'エラーコード %s により登録が失敗しました。後ほど再度お試しください。';
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます。';
 $string['registermaharasite'] = 'サイト登録';
-$string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することにより私たちが世界中のMaharaインストール状況を把握するための助けとなります。</p>';
+$string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することにより、私たちの世界中のMaharaインストール状況把握に役立ちます。</p>';
 $string['registeryourmaharasitedetail'] = '<p>あなたのサイトをMaharaプロジェクトに登録できます。登録は無料であり私たちが世界中のMaharaインストール状況を把握するための助けとなります。</p>
 <p>あなたが週ごとの更新状況の送信を決定した場合、Maharaプロジェクトに送信される予定の情報を確認できます。あなたのサイトのすべての人に関して個人を特定できるものは一切送信されません。</p>';
 $string['sendingweeklyupdates1'] = 'あなたは週ごとの更新状況を送信しています。';
