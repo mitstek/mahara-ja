@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-10-30 06:36:21 UTC
+ * @updated    2022-11-01 00:44:49 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -136,7 +136,7 @@ $string['headerlogoimagenormal'] = 'デフォルトテーマロゴ';
 $string['headerlogoimagelight1'] = '白色Maharaロゴおよびテキスト (暗色のヘッダ背景に適しています)';
 $string['headerlogoimagedark1'] = '暗色Maharaロゴおよびテキスト (明色のヘッダ背景に適しています)';
 $string['normallinkcolor'] = '通常リンク色';
-$string['hoverlinkcolor1'] = 'フォーカス時のリンク色';
+$string['hoverlinkcolor1'] = 'ホバーリンク色';
 $string['normallinkunderlined'] = '下線通常リンク';
 $string['hoverlinkunderlined'] = '下線ホバーリンク';
 $string['tableborder'] = 'テーブル枠線色';
