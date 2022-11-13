@@ -137,7 +137,7 @@ $string['viewskinchanged'] = 'ページスキンが変更されました。';
 $string['manageskins'] = 'スキンを管理する';
 $string['sitefontsmenu'] = 'フォント';
 $string['sitefonts'] = 'フォント';
-$string['sitefontsdescription'] = '<p>あなたのサイトのスキンで使用するため以下のフォントがインストールされています。</p>';
+$string['sitefontsdescription'] = 'あなたのサイトのスキンで使用するため以下のフォントがインストールされています。';
 $string['installfontinstructions'] = '<p>
 CSS @font-faceルールによってウェブページに埋め込むことのできるフォントを追加します。すべての作者/開発者がこれを許可するわけではないことに留意してください。
 </p>
