@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-11-13 22:07:22 UTC
+ * @updated    2022-11-15 23:53:54 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -160,7 +160,7 @@ $string['sitefontsmenu'] = 'フォント';
 $string['sitefonts'] = 'フォント';
 $string['sitefontsdescription'] = 'あなたのサイトのスキンで使用するため以下のフォントがインストールされています。';
 $string['installfontinstructions1'] = '<p>
-CSS @font-faceルールによってウェブページに埋め込めるフォントを追加します。すべての作者/開発者がこれを許可するわけではないことに留意してください。
+ウェブページに埋め込めるフォントをCSS @font-faceルールに準拠した形で追加してください。すべての作者/開発者がこれを許可するわけではないことに留意してください。
 </p>
 <p>
 ウェブページへの埋め込みが許可された適切なフリーフォントを探せた場合、あなたは次のフォーマットに変換する必要があります:
