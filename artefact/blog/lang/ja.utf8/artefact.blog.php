@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-09-14 06:13:57 UTC
+ * @updated    2022-11-18 02:42:25 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -27,7 +27,7 @@ $string['groupblogs'] = 'グループ日誌';
 $string['addblog'] = '日誌を作成する';
 $string['addpost'] = '新しいエントリ';
 $string['addpostspecific'] = '新しいエントリ「 %s 」';
-$string['alignment'] = '配置';
+$string['alignment'] = 'アラインメント';
 $string['allowcommentsonpost'] = 'あなたのエントリへのコメントを許可します。';
 $string['allposts'] = 'すべてのエントリ';
 $string['attach'] = '添付';
