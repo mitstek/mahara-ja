@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-11-20 21:04:20 UTC
+ * @updated    2022-11-20 21:12:11 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -215,8 +215,8 @@ $string['fontuploadinstructions'] = '<br />必要なフォントファイルを�
 <br />EOT、SVG、TTF、WOFFおよびライセンスファイルを個別にアップロードできます。';
 $string['fontfiles'] = 'フォントファイル';
 $string['fontfilemissing'] = 'ZIPファイルに「 %s 」フォントファイルが含まれていません。';
-$string['zipfontfiles'] = 'ZIP書庫内のフォントファイル';
-$string['fontfilezip'] = 'ZIP書庫';
+$string['zipfontfiles'] = 'ZIPアーカイブ内のフォントファイル';
+$string['fontfilezip'] = 'ZIPアーカイブ';
 $string['zipdescription'] = 'EOT、SVG、TTF、WOFFおよびフォントのライセンスファイルを含むZIPファイル';
 $string['fontfileeot'] = 'EOTフォントファイル';
 $string['eotdescription'] = 'Embedded OpenTypeフォント (Internet Explorer 4+)';
@@ -269,7 +269,7 @@ $string['sampletitle21'] = 'Grumpy wizards make...';
 $string['sampletext21'] = 'Grumpy wizards make toxic brew for the evil Queen and Jack.';
 $string['sampletitle22'] = 'The quick brown fox...';
 $string['sampletext22'] = 'The quick brown fox jumps over the lazy dog.';
-$string['archivereadingerror'] = 'ZIP書庫の読み込み中にエラーが発生しました。';
+$string['archivereadingerror'] = 'ZIPアーカイブの読み込み中にエラーが発生しました。';
 $string['notvalidzipfile'] = 'これは有効なZIPファイルではありません。';
 $string['fontlicence'] = 'フォントライセンス';
 $string['fontlicencenotfound'] = 'フォントライセンスは見つかりませんでした。';
