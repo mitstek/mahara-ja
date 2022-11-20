@@ -178,7 +178,7 @@ $string['fontdeleted'] = 'フォントが削除されました。';
 $string['cantdeletefont'] = 'あなたはこのフォントを削除できません。';
 $string['fontname'] = 'フォント名';
 $string['invalidfonttitle'] = '無効なフォントタイトルです。少なくとも1つの半角英数字を含む必要があります。';
-$string['genericfontfamily'] = '総称フォントファミリ';
+$string['genericfontfamily'] = '汎用フォントファミリ';
 $string['fontstyle'] = 'フォントスタイル';
 $string['regular'] = '標準';
 $string['bold'] = '太字';
@@ -187,7 +187,7 @@ $string['bolditalic'] = '太字イタリック';
 $string['fonttype'] = 'フォントタイプ';
 $string['headingandtext'] = 'ヘッディングおよびテキスト';
 $string['headingonly'] = 'ヘッディングのみ';
-$string['fontuploadinstructions'] = '<br />必要なフォントファイルをアップロードする場合、あなたは<a href="https://www.fontsquirrel.com/fontface/generator/">FontSquirrel Online Generator</a>によって生成されたZIPファイルを直接アップロードするか、
+$string['fontuploadinstructions'] = '<br />必要なフォントファイルをアップロードする場合、あなたは<a href="https://www.fontsquirrel.com/fontface/generator/">FontSquirrel Online Generator</a>で生成されたZIPファイルを直接アップロードするか、
 <br />EOT、SVG、TTF、WOFFおよびライセンスファイルを個別にアップロードできます。';
 $string['fontfiles'] = 'フォントファイル';
 $string['fontfilemissing'] = 'ZIPファイルに「 %s 」フォントファイルが含まれていません。';
@@ -206,7 +206,7 @@ $string['fontfilewoff'] = 'WOFFフォントファイル';
 $string['woffdescription'] = 'Web Open Font Formatフォント (Firefox 3.6+, Internet Explorer 9+, Chrome 5+)';
 $string['fontfilelicence'] = 'ライセンスファイル';
 $string['fontnotice'] = 'フォント通知';
-$string['fontnoticedescription'] = 'フォントおよび作者に関する説明1行がCSSファイルに追加されています。';
+$string['fontnoticedescription'] = 'フォントおよび作者に関する説明1行がCSSファイルに追加されます。';
 $string['filepathnotwritable'] = '「 %s 」にファイルを書き込めません。';
 $string['showfonts'] = '表示';
 $string['fonttypes.all'] = 'すべてのフォント';
