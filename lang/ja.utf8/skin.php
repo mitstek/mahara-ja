@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-11-15 23:53:54 UTC
+ * @updated    2022-11-20 21:04:20 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -202,7 +202,7 @@ $string['fontdeleted'] = 'フォントが削除されました。';
 $string['cantdeletefont'] = 'あなたはこのフォントを削除できません。';
 $string['fontname'] = 'フォント名';
 $string['invalidfonttitle'] = '無効なフォントタイトルです。少なくとも1つの半角英数字を含む必要があります。';
-$string['genericfontfamily'] = '総称フォントファミリ';
+$string['genericfontfamily'] = '汎用フォントファミリ';
 $string['fontstyle'] = 'フォントスタイル';
 $string['regular'] = '標準';
 $string['bold'] = '太字';
@@ -211,7 +211,7 @@ $string['bolditalic'] = '太字イタリック';
 $string['fonttype'] = 'フォントタイプ';
 $string['headingandtext'] = 'ヘッディングおよびテキスト';
 $string['headingonly'] = 'ヘッディングのみ';
-$string['fontuploadinstructions'] = '<br />必要なフォントファイルをアップロードする場合、あなたは<a href="https://www.fontsquirrel.com/tools/webfont-generator/">FontSquirrel Online Generator</a>によって生成されたZIPファイルを直接アップロードするか、
+$string['fontuploadinstructions'] = '<br />必要なフォントファイルをアップロードする場合、あなたは<a href="https://www.fontsquirrel.com/tools/webfont-generator/">FontSquirrel Online Generator</a>で生成されたZIPファイルを直接アップロードするか、
 <br />EOT、SVG、TTF、WOFFおよびライセンスファイルを個別にアップロードできます。';
 $string['fontfiles'] = 'フォントファイル';
 $string['fontfilemissing'] = 'ZIPファイルに「 %s 」フォントファイルが含まれていません。';
@@ -230,7 +230,7 @@ $string['fontfilewoff'] = 'WOFFフォントファイル';
 $string['woffdescription'] = 'Web Open Font Formatフォント (Firefox 3.6+, Internet Explorer 9+, Chrome 5+)';
 $string['fontfilelicence'] = 'ライセンスファイル';
 $string['fontnotice'] = 'フォント通知';
-$string['fontnoticedescription'] = 'フォントおよび作者に関する説明1行がCSSファイルに追加されています。';
+$string['fontnoticedescription'] = 'フォントおよび作者に関する説明1行がCSSファイルに追加されます。';
 $string['filepathnotwritable'] = '「 %s 」にファイルを書き込めません。';
 $string['showfonts'] = '表示';
 $string['fonttypes.all'] = 'すべてのフォント';
