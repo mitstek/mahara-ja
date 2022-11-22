@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-10-17 01:19:26 UTC
+ * @updated    2022-11-22 21:47:18 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -24,7 +24,7 @@ $string['license'] = 'ライセンス';
 $string['mathjax'] = 'MathJax';
 $string['exporttoqueue'] = 'キューにエクスポートする';
 $string['allowpublicprofiles'] = 'パブリックプロファイル許可';
-$string['searchplugin'] = '有効検索ログイン';
+$string['searchplugin'] = 'アクティブ検索プラグイン';
 $string['eventlogging'] = 'イベントレポート';
 $string['enablenetworking'] = 'ネットワーキング有効';
 $string['moodlehost'] = 'Moodleホスト';
