@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-10-17 01:10:02 UTC
+ * @updated    2022-11-23 02:08:42 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -152,3 +152,4 @@ $string['fileuploadtoomany'] = 'あなたがアップロードを試みている
 $string['sideblockmenuclash'] = 'サイドブロック名「 %s 」はすでに使用されています。異なる名称を選択してください。';
 $string['isolatedinstitutionsremoverules'] = '隔離インスティテューションが有効にされているため、私たちは %s 件のアクセスルールを非表示にしました。フォームを保存した場合、非表示のルールは削除されます。';
 $string['randomkeyminlength'] = '長さは8桁以上の正の整数にしてください。';
+$string['noviewcontrolaction'] = '不明な編集操作: %s';
