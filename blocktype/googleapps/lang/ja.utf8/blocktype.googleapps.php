@@ -13,10 +13,10 @@
 
 defined('INTERNAL') || die();
 
-$string['title'] = 'Google Apps';
+$string['title'] = 'Googleアプリ';
 $string['description'] = 'Googleカレンダまたはドキュメントを埋め込みます。';
 $string['appscodeorurl'] = 'コードまたはURLを埋め込む';
-$string['appscodeorurldesc'] = '埋め込みコードまたはGoogle Appsが一般公開されているページのURLを貼り付けてください。';
+$string['appscodeorurldesc'] = '埋め込みコードまたはGoogleアプリが一般公開されているページのURLを貼り付けてください。';
 $string['height'] = '高さ';
 $string['badurlerror'] = '埋め込みコードまたはURLを構文解析できません: %s';
 
