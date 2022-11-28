@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-11-22 21:47:18 UTC
+ * @updated    2022-11-28 00:37:44 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -118,7 +118,7 @@ $string['blocktype_externalvideo'] = 'ブロック: 外部メディア';
 $string['blocktype_filedownload'] = 'ブロック: ファイル';
 $string['blocktype_folder'] = 'ブロック: フォルダ';
 $string['blocktype_gallery'] = 'ブロック: イメージギャラリ';
-$string['blocktype_googleapps'] = 'ブロック: Google Apps';
+$string['blocktype_googleapps'] = 'ブロック: Googleアプリ';
 $string['blocktype_groupinfo'] = 'ブロック: グループ情報';
 $string['blocktype_groupmembers'] = 'ブロック: グループメンバ';
 $string['blocktype_groupviews'] = 'ブロック: グループポートフォリオ';
