@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-03-21 02:49:29 UTC
+ * @updated    2022-11-29 01:05:33 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -141,3 +141,4 @@ $string['novalidauthinstanceprovided'] = 'あなたの選択は可能ではあ�
 $string['identityprovider'] = 'アイデンティティプロバイダ';
 $string['selectmigrateto'] = '移動するインスティテューションを選択する ...';
 $string['samlneedtoremovephar'] = '%s ファイルを削除できません。ファイルを削除して再度「make ssphp」を実行してください。';
+$string['instancename'] = 'インスタンス名';
