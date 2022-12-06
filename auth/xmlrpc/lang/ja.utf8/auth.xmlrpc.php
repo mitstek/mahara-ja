@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-12-29 00:43:15 UTC
+ * @updated    2022-12-06 01:51:35 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -21,3 +21,4 @@ $string['networkingdisabledonthissite'] = 'このサイトではネットワー�
 $string['networkservers'] = 'ネットワークサーバ';
 $string['youhaveloggedinfrom1'] = '<a href="%s">%s</a>に戻る';
 $string['authloginmsgtitle'] = '不正ログインメッセージ';
+$string['componentdeprecated'] = 'XML-RPC/MNet認証方法は非推奨です。Maharaの次のリリースで廃止されます。代わりにLTIを使用してください。';
