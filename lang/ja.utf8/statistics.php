@@ -215,7 +215,7 @@ $string['reportdescusers'] = '<ul>
 <li>日付</li>
 <li>ログイン人数</li>
 <li>アカウント作成数</li>
-<li>選択されたインスティテューションの人数</li>
+<li>選択されたインスティテューションの合計人数</li>
 </ul>';
 $string['reportuserdetails'] = 'ユーザ詳細';
 $string['reportdescuserdetails'] = '<ul>
@@ -233,7 +233,7 @@ $string['reportdescuserdetails'] = '<ul>
 $string['reportuseractivity'] = 'ユーザ活動';
 $string['reportdescuseractivity'] = '<ul>
 <li>ユーザ情報</li>
-<li>作成および更新されたアーティファクト数</li>
+<li>作成または更新されたアーティファクト数</li>
 <li>作成されたページ数</li>
 <li>作成されたコレクション数</li>
 <li>作成されたグループ数</li>
