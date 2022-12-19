@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-12-19 05:04:05 UTC
+ * @updated    2022-12-19 09:04:48 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -499,7 +499,7 @@ $string['canteditcollectionlocked'] = 'コレクションがロックされて�
 $string['canteditprogress'] = 'コレクションがロックされているか、ページがテンプレートからコピーされているため、ポートフォリオ完了ページを編集できません。';
 $string['accessdeniedaccesss'] = 'あなたはこれ以上アクセスパーミッションを変更できません。';
 $string['signoff'] = '承認';
-$string['signoffhelp'] = 'ページ承認および検証オプションを表示するためのブロックです。';
+$string['signoffhelp'] = 'あなたが完了したページを表示します。';
 $string['signoffhelppage'] = 'あなたのすべてのエビデンス追加を終了した場合、このページに「承認」をマークしてください。';
 $string['signoffdesc'] = 'すべての必要条件を満たした場合、評価準備が完了したことを示すため、ポートフォリオオーナはページを承認できます。';
 $string['verify'] = '検証';
