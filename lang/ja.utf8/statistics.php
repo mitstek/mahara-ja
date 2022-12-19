@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-12-14 01:33:59 UTC
+ * @updated    2022-12-19 01:46:14 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -270,7 +270,7 @@ $string['reportdesccollaboration'] = '<ul>
 $string['reportverifiersummary'] = 'レビュア概要';
 $string['reportdescverifiersummary'] = '<ul>
 <li>週の時間帯の日付</li>
-<li>例えば「1」カラムの値が「3」の場合、3人のレビュアーがそれぞれ1つのポートフォリオにアクセスできることを意味します。</li>
+<li>例えば「1」カラムの値が「3」の場合、3人のレビュアがそれぞれ1つのポートフォリオにアクセスできることを意味します。</li>
 </ul>';
 $string['date'] = '日付';
 $string['one'] = '1';
