@@ -283,7 +283,7 @@ $string['reportdesccollaboration'] = '<ul>
 $string['reportverifiersummary'] = 'レビュア概要';
 $string['reportdescverifiersummary'] = '<ul>
 <li>週の時間帯の日付</li>
-<li>例えば「1」カラムの値が「3」の場合、3人のレビュアーがそれぞれ1つのポートフォリオにアクセスできることを意味します。</li>
+<li>例えば「1」カラムの値が「3」の場合、3人のレビュアがそれぞれ1つのポートフォリオにアクセスできることを意味します。</li>
 </ul>';
 $string['date'] = '日付';
 $string['one'] = '1';
