@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-12-19 01:46:14 UTC
+ * @updated    2022-12-19 05:06:00 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -140,7 +140,6 @@ $string['blocktype_profileinfo'] = 'ブロック: プロファイル情報';
 $string['blocktype_recentforumposts'] = 'ブロック: 最近のフォーラム投稿';
 $string['blocktype_recentposts'] = 'ブロック: 最近の日誌エントリ';
 $string['blocktype_resumefield'] = 'ブロック: レジュメフィールド';
-$string['blocktype_signoff'] = 'ブロック: 承認';
 $string['blocktype_socialprofile'] = 'ブロック: ソーシャルメディア';
 $string['blocktype_taggedposts'] = 'ブロック: タグ付き日誌エントリ';
 $string['blocktype_text'] = 'ブロック: テキスト';
