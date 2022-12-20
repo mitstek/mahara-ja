@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-11-01 06:27:50 UTC
+ * @updated    2022-12-20 00:29:19 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -438,6 +438,8 @@ $string['pathtoclamdescription'] = 'clamscanまたはclamdscanのファイルシ
 $string['pathtoclamnotset'] = '(未設定)';
 $string['progresscompletion'] = 'ポートフォリオ完了';
 $string['progresscompletiondescription'] = '承認 (および検証) が必要なページのステータス概要を表示するため、コレクションの先頭に「ポートフォリオ完了」ページを追加します。';
+$string['outcomeportfolio'] = 'アウトカムポートフォリオ';
+$string['outcomeportfoliodescription'] = '関連グループによるアウトカムポートフォリオの使用を許可します。';
 $string['registerterms'] = '登録同意';
 $string['registertermsdescription1'] = '登録時に人にプライバシ保護方針および利用条件への同意を強制します。このオプションを有効にする場合、あなたのサイトおよびインスティテューションの法律ページを編集する必要があります。';
 $string['licensemetadata'] = 'ライセンスメタデータ';

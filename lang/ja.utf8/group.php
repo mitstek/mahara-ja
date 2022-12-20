@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-09-05 03:59:28 UTC
+ * @updated    2022-12-20 00:34:06 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -60,12 +60,14 @@ $string['groupurl'] = 'グループホームページURL';
 $string['groupurldescription'] = 'あなたのグループホームページのURLです。このフィールドの長さは半角3-30文字にしてください。';
 $string['groupurltaken'] = 'このURLはすでに別のグループに取得されています。';
 $string['Membership'] = 'メンバシップ';
-$string['Roles'] = 'ロール';
+$string['Roles1'] = 'グループタイプおよびロール';
 $string['Open'] = 'オープン';
 $string['opendescription'] = '人はグループ管理者の承認なしにグループに参加できます。';
 $string['requestdescription'] = '人はグループ管理者にメンバシップリクエストを送信できます。';
 $string['Controlled'] = '管理';
 $string['controlleddescription'] = 'グループ管理者は同意なしにグループに人を追加できます。また、メンバはグループを離れることはできません。';
+$string['Outcomes'] = 'アウトカム';
+$string['outcomesdescription'] = 'TODO';
 $string['membershiptype'] = 'グループメンバシップタイプ';
 $string['membershiptype.controlled'] = '管理メンバシップ';
 $string['membershiptype.approve'] = '承認メンバシップ';
@@ -74,7 +76,11 @@ $string['membershiptype.abbrev.controlled'] = '管理';
 $string['membershiptype.abbrev.approve'] = 'ノーマル';
 $string['membershiptype.abbrev.open'] = 'オープン';
 $string['membershipopencontrolled'] = 'メンバシップをオープンおよび管理の両方にはできません。';
+$string['membershipopenoutcomes'] = 'メンバシップをオープンおよびアウトカムありの両方にはできません。';
 $string['membershipopenrequest'] = 'オープンメンバシップグループではメンバシップリクエストを受け付けません。';
+$string['membershipoutcomesnotcontrolled'] = 'メンバシップをアウトカムありおよび管理なしにはできません。';
+$string['institutionoutcomesnotallowed'] = 'このインスティテューションでは「アウトカム」グループタイプは利用できません。';
+$string['existingoutcomecollections'] = 'グループタイプを変更できません。まだグループ内にアウトカムコレクションがあります。';
 $string['requestmembership'] = 'リクエストメンバシップ';
 $string['pendingmembers'] = '保留中メンバ';
 $string['reason'] = '理由';

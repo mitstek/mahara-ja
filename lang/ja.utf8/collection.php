@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-15 21:06:57 UTC
+ * @updated    2022-12-20 01:13:29 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -92,6 +92,36 @@ $string['noviews'] = 'ページはありません。';
 $string['overrideaccess'] = 'アクセスをオーバーライドする';
 $string['onlyactivetemplatewarning'] = 'これはこのインスティテューション内のみでの自動コピーテンプレートです。この設定の変更によりテンプレートは新しいアカウントに自動的にコピーされないようになります (あなたが設定した場合、cronジョブに基づき処理されます)。';
 $string['updatingautocopytemplatewarning'] = '1つのコレクションのみインスティテューションの有効な自動コピーテンプレートにできます。このコレクションをインスティテューション「 %s 」の自動コピーテンプレートに設定した場合、自動コピーコレクション「 %s 」は無効となります。無効にされた自動コピーコレクションはインスティテューション内で共有されなくなります。';
+$string['manageoutcomes'] = 'アウトカムを管理する';
+$string['addoutcomelink'] = 'アウトカムを追加する';
+$string['confirmdeleteoutcomedb'] = '本当にこのアウトカムを削除してもよろしいですか? この操作は元に戻せません。';
+$string['confirmdeleteoutcome'] = '本当にこのアウトカムを削除してもよろしいですか? このアウトカムはまだ保存されていません。';
+$string['shorttitle'] = '短いタイトル';
+$string['shorttitledesc'] = '短いヘッディングとして使用するために私たちのアウトカムの短いタイトルを入力してください。最大半角70文字入力できます。';
+$string['fulltitle'] = 'フルタイトル';
+$string['outcometype'] = 'アウトカムタイプ';
+$string['outcometypedesc'] = 'あなたのアウトカムのカテゴリを選択してください。';
+$string['outcometitle'] = 'アウトカム %s';
+$string['outcomesaveerror'] = 'アウトカム保存中にエラーが発生しました。';
+$string['outcomesavesuccess'] = 'アウトカムが正常に保存されました。';
+$string['outcomedeleted'] = 'アウトカムが削除されました。';
+$string['completeoutcome'] = 'アウトカム「 %s 」が完了しました。';
+$string['incompleteoutcome'] = 'クリックして「 %s 」アウトカムを完了マークする';
+$string['completeoutcomeaction'] = 'アウトカム「 %s 」が完了しました。リセットするにはクリックしてください。';
+$string['incompleteoutcomeaction'] = '「 %s 」アウトカムを完了マークするにはクリックしてください。';
+$string['supporttitle'] = 'サポート内容';
+$string['outcomeupdated'] = 'アウトカムが更新されました。';
+$string['outcomeupdatefailed'] = 'アウトカムの更新に失敗しました。';
+$string['progress'] = '進捗';
+$string['markcomplete'] = '本当にこのアウトカムを完了マークしてもよろしいですか?';
+$string['markincomplete'] = '本当にこのアウトカムから完了ステータスを削除してもよろしいですか?';
+$string['addactivity'] = '活動を追加する';
+$string['nooutcomesmessage'] = 'このポートフォリオで定義されたアウトカムはありません。';
+$string['nooutcometypes'] = 'このインスティテューションのアウトカムタイプはありません。';
+$string['configureoutcomes'] = 'アウトカムを設定する';
+$string['ondate'] = '- %s';
+$string['manageoutcomesspecific'] = '「 %s 」のアウトカムを管理する';
+$string['outcome_progress_description'] = '最大半角255文字まで入力できます。';
 $string['portfoliocompletion'] = 'ポートフォリオ完了';
 $string['potentialviews'] = '潜在的なページ';
 $string['saveapply'] = '適用して保存する';
@@ -116,6 +146,12 @@ $string['viewnavigationdesc'] = 'このコレクション内すべてのペー�
 $string['viewstobeadded'] = '追加されるページ';
 $string['viewconfirmremove'] = '本当にこのページをコレクションから削除してもよろしいですか?';
 $string['collectioncopywouldexceedquota'] = 'このコレクションのコピーによりあなたのファイルクオータを超過してしまいます。';
+$string['outcomeportfolio'] = 'アウトカムポートフォリオ';
+$string['outcomeportfoliodesc'] = 'コレクションで管理されるアウトカム付きコレクションを作成します。';
+$string['outcomecategory'] = 'アウトカムカテゴリ';
+$string['outcomecategorydesc'] = 'あなたがこのポートフォリオで使用したいアウトカムのカテゴリを選択してください。';
+$string['outcomes'] = 'アウトカム';
+$string['outcomesoverallcompletion'] = 'アウトカムの総合的な完成度';
 $string['copiedparticle'] = 'コピー完了 %s';
 $string['andparticle'] = 'および %s';
 $string['countpages'] = '%d ページ';
