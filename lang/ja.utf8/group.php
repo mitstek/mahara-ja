@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-12-20 00:34:06 UTC
+ * @updated    2022-12-20 01:33:08 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -76,11 +76,11 @@ $string['membershiptype.abbrev.controlled'] = '管理';
 $string['membershiptype.abbrev.approve'] = 'ノーマル';
 $string['membershiptype.abbrev.open'] = 'オープン';
 $string['membershipopencontrolled'] = 'メンバシップをオープンおよび管理の両方にはできません。';
-$string['membershipopenoutcomes'] = 'メンバシップをオープンおよびアウトカムありの両方にはできません。';
+$string['membershipopenoutcomes'] = 'メンバシップをオープンおよびアウトカム付きの両方にはできません。';
 $string['membershipopenrequest'] = 'オープンメンバシップグループではメンバシップリクエストを受け付けません。';
-$string['membershipoutcomesnotcontrolled'] = 'メンバシップをアウトカムありおよび管理なしにはできません。';
+$string['membershipoutcomesnotcontrolled'] = 'メンバシップをアウトカム付きおよび管理なしにはできません。';
 $string['institutionoutcomesnotallowed'] = 'このインスティテューションでは「アウトカム」グループタイプは利用できません。';
-$string['existingoutcomecollections'] = 'グループタイプを変更できません。まだグループ内にアウトカムコレクションがあります。';
+$string['existingoutcomecollections'] = 'グループタイプを変更できません。まだグループ内の一部にアウトカムコレクションがあります。';
 $string['requestmembership'] = 'リクエストメンバシップ';
 $string['pendingmembers'] = '保留中メンバ';
 $string['reason'] = '理由';

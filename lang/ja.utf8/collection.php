@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-12-20 01:13:29 UTC
+ * @updated    2022-12-20 01:30:30 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -151,7 +151,7 @@ $string['outcomeportfoliodesc'] = 'コレクションで管理されるアウト
 $string['outcomecategory'] = 'アウトカムカテゴリ';
 $string['outcomecategorydesc'] = 'あなたがこのポートフォリオで使用したいアウトカムのカテゴリを選択してください。';
 $string['outcomes'] = 'アウトカム';
-$string['outcomesoverallcompletion'] = 'アウトカムの総合的な完成度';
+$string['outcomesoverallcompletion'] = 'アウトカムの総合的完成度';
 $string['copiedparticle'] = 'コピー完了 %s';
 $string['andparticle'] = 'および %s';
 $string['countpages'] = '%d ページ';
