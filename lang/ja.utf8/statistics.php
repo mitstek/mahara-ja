@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-12-19 05:06:00 UTC
+ * @updated    2022-12-25 21:32:51 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -325,7 +325,7 @@ $string['reportdescuseragreement'] = '<ul>
 <li>インスティテューション利用条件</li>
 <li>インスティテューション利用条件同意レビュ</li>
 <li>インスティテューション</li>
-</ul><p>選択された期間内にプライバシ保護方針または利用条件に同意または拒否した人が表示されています。</p>';
+</ul><p>選択された期間内にプライバシ保護方針または利用条件に同意または拒否した人が表示されます。</p>';
 $string['blockinstancecommit'] = 'ページにブロックを追加する';
 $string['addfriend'] = 'フレンドを追加する';
 $string['activateuser'] = 'アカウントを有効化する';
@@ -368,7 +368,7 @@ $string['reportdescgroups'] = '<ul>
 <li>共有ページ数</li>
 <li>グループページのコメント数</li>
 <li>グループページおよびアーティファクトのコメント数</li>
-<li>グループに共有されているページおよびアーティファクトのコメント数</li>
+<li>グループで共有されているページおよびアーティファクトのコメント数</li>
 <li>フォーラム数</li>
 <li>フォーラム投稿数</li>
 </ul>
