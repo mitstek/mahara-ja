@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-12-25 21:32:51 UTC
+ * @updated    2022-12-27 23:12:38 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -372,7 +372,7 @@ $string['reportdescgroups'] = '<ul>
 <li>フォーラム数</li>
 <li>フォーラム投稿数</li>
 </ul>
-<p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニュより「すべてのインスティテューション」を選択した場合のみ利用できます。</p>';
+<p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニュで「すべてのインスティテューション」を選択した場合のみ利用できます。</p>';
 $string['reportdesccontent'] = '<ul>
 <li>名称</li>
 <li>期間内の修正数</li>
@@ -424,13 +424,13 @@ $string['reportdesccomparisons'] = '<ul>
 <li>アーティファクト数</li>
 <li>インスティテューションメンバによるフォーラム投稿数</li>
 </ul>
-<p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニュより「すべてのインスティテューション」を選択した場合のみ利用できます。これは週末のみ更新されます。</p>';
+<p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニュで「すべてのインスティテューション」を選択した場合のみ利用できます。これは週末のみ更新されます。</p>';
 $string['reportdesclogins'] = '<ul>
 <li>インスティテューション</li>
 <li>人を問わないログイン数</li>
 <li>アクティブ人数</li>
 </ul>
-<p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニュより「すべてのインスティテューション」を選択した場合のみ利用できます。</p>';
+<p><strong>注意:</strong> このレポートはあなたが「インスティテューション」ドロップダウンメニュで「すべてのインスティテューション」を選択した場合のみ利用できます。</p>';
 $string['userscollaborationreports'] = 'コラボレーション';
 $string['usersverifiersummaryreports'] = 'レビュア概要';
 $string['userspageactivityreports'] = 'ページ活動';
