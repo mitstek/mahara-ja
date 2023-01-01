@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-12-27 23:12:38 UTC
+ * @updated    2023-01-01 10:53:22 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -471,7 +471,7 @@ $string['lastaction'] = '最終活動';
 $string['lastactiontime'] = '最終活動時間';
 $string['removefilter'] = 'フィルタを削除する';
 $string['weekstartdate'] = 'w.c. %s';
-$string['needadvancedanalytics'] = 'このレポートに高度なアナリティクスを有効にする必要があります。詳細は「サイト設定」の「ロギング設定」をご覧ください。';
+$string['needadvancedanalytics'] = 'このレポートでは高度なアナリティクスを有効にする必要があります。詳細は「サイト設定」の「ロギング設定」をご覧ください。';
 $string['Overview'] = '概要';
 $string['weeklytrend'] = '成長トレンド';
 $string['groupinfo'] = 'グループ概要';
