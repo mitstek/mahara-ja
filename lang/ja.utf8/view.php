@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-12-19 09:04:48 UTC
+ * @updated    2023-01-09 00:52:48 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -46,7 +46,7 @@ $string['stopdatecannotbeinpast1'] = '終了日には過去の日付を設定で
 $string['startdatemustbebeforestopdate'] = '開始日は終了日の前に設定してください。';
 $string['newstopdatecannotbeinpast'] = '「 %s 」へのアクセス終了日には過去の日付を設定できません。';
 $string['newstartdatemustbebeforestopdate'] = '「 %s 」へのアクセス開始日は終了日の前に設定してください。';
-$string['unrecogniseddateformat'] = '不明な日付フォーマット';
+$string['unrecogniseddateformat'] = '認識できない日付フォーマット';
 $string['allowcommentsonview1'] = '人がコメントを投稿できるようにします。';
 $string['ownerformat'] = '氏名表示フォーマット';
 $string['ownerformatdescription'] = '他の人があなたのページを閲覧する場合、あなたの名前をどのように表示しますか?';
