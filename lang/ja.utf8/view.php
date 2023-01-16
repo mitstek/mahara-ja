@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-01-11 02:01:38 UTC
+ * @updated    2023-01-16 01:23:29 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -49,7 +49,7 @@ $string['newstartdatemustbebeforestopdate'] = '「 %s 」へのアクセス開�
 $string['unrecogniseddateformat'] = '認識できない日付フォーマット';
 $string['allowcommentsonview1'] = '人がコメントを残せるようにします。';
 $string['ownerformat'] = '氏名表示フォーマット';
-$string['ownerformatdescription'] = '他の人があなたのページを閲覧する場合、あなたの名前をどのように表示しますか?';
+$string['ownerformatdescription'] = '他の人があなたのページを閲覧する場合、あなたの氏名をどのように表示しますか?';
 $string['createtags'] = 'タグから作成する';
 $string['createtagsdesc1'] = 'あなたのページに自動的にコンテンツを取得するためタグを検索するか入力してください。あなたが2つ以上のタグを入力した場合、すべてのタグがタグ付けされたコンテンツのみページに表示されます。その後、あなたはブロックを再配置および削除できます。';
 $string['anonymise'] = '匿名化する';
