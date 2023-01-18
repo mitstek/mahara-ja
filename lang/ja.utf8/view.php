@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-01-16 01:23:29 UTC
+ * @updated    2023-01-18 01:09:17 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -66,7 +66,7 @@ $string['templateprofile'] = 'プロファイルテンプレート';
 $string['templateprogress'] = 'ポートフォリオ完了テンプレート';
 $string['templateportfolio'] = 'ページテンプレート';
 $string['templateportfoliotitle'] = 'タイトルなし';
-$string['templateportfoliodescription1'] = '作成されるページのデフォルトレイアウトを設定します。あなたはブロックを追加することもできます。あなたがデフォルトページに追加するすべてのコンテンツはあなたの変更後に作成されたすべてのページに追加されることに留意してください。';
+$string['templateportfoliodescription1'] = '作成されるページのデフォルトレイアウトを設定します。あなたはブロックも追加できます。あなたがデフォルトページに追加したコンテンツは変更後に作成されるすべてのページに追加されることに留意してください。';
 $string['artefacts'] = 'アーティファクト';
 $string['groupviews1'] = 'グループポートフォリオ';
 $string['institutionviews'] = 'インスティテューションページ';
@@ -81,7 +81,7 @@ $string['accessfromdate3'] = '%s 以前、誰もこのページを閲覧でき�
 $string['accessuntildate3'] = '%s 以降、誰もこのページを閲覧できません。';
 $string['accessbetweendates3'] = '%s 以前または %s 以降、誰もこのページを閲覧できません。';
 $string['artefactsinthisview'] = 'このページのアーティファクト';
-$string['whocanseethisview'] = '誰がこのページを閲覧できますか';
+$string['whocanseethisview'] = 'このページを閲覧できる人';
 $string['pending'] = 'レビュ中のポートフォリオ';
 $string['panelmenu'] = 'メニュ';
 $string['view'] = 'ページ';
