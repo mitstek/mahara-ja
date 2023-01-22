@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-01-18 01:09:17 UTC
+ * @updated    2023-01-22 20:48:20 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -116,7 +116,7 @@ $string['viewscollectionssharedtogroup1'] = 'このグループで共有され�
 $string['viewssharedtogroup'] = 'このグループで共有されているページ';
 $string['sharedtogroup'] = 'このグループでの共有';
 $string['nosharedviewsyet'] = 'このグループで共有されているページはまだありません。';
-$string['viewssharedtogroupbyothers'] = 'このグループで共有されている他のメンバのページ';
+$string['viewssharedtogroupbyothers'] = '他の人がこのグループと共有しているページ';
 $string['sharedviews'] = '共有ページ';
 $string['submissionstogroup'] = 'このグループへの送信';
 $string['nosubmittedviewscollectionsyet1'] = 'このグループに送信されたポートフォリオはまだありません。';
@@ -127,13 +127,13 @@ $string['youhavesubmitted'] = 'あなたはこのグループに <a href="%s">%s
 $string['youhavesubmittedon'] = 'あなたはこのグループに <a href="%s">%s</a> を %s に送信しました。';
 $string['listedinpages'] = 'ページ内一覧';
 $string['public'] = 'パブリック';
-$string['registeredusers'] = '登録済の人';
+$string['registeredusers'] = '登録済みの人';
 $string['friends'] = 'フレンド';
 $string['users'] = '人';
 $string['friend'] = 'フレンド';
 $string['group'] = 'グループ';
 $string['user'] = '人';
-$string['everyoneingroup'] = 'グループ内の誰でも';
+$string['everyoneingroup'] = 'グループ内全員';
 $string['nospecialrole'] = '特別ロールなし';
 $string['peer'] = 'ピア';
 $string['manager'] = 'マネージャ';
