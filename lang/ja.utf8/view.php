@@ -89,7 +89,7 @@ $string['youhaveoneview'] = 'あなたには 1 件のページがあります。
 $string['youhaveviews'] = 'あなたには %s 件のページがあります。';
 $string['viewsownedbygroup'] = 'このグループが所有するページ';
 $string['viewssharedtogroup'] = 'このグループで共有されているページ';
-$string['viewssharedtogroupbyothers'] = 'このグループで共有されている他のメンバのページ';
+$string['viewssharedtogroupbyothers'] = '他の人がこのグループと共有しているページ';
 $string['submissionstogroup'] = 'このグループへの送信';
 $string['submittogroup'] = 'このグループにページまたはコレクションを送信する';
 $string['youhavesubmitted'] = 'あなたはこのグループに <a href="%s">%s</a> を送信しました。';
@@ -100,7 +100,7 @@ $string['loggedin'] = 'ログインユーザ';
 $string['friends'] = 'フレンド';
 $string['groups'] = 'グループ';
 $string['users'] = 'ユーザ';
-$string['everyoneingroup'] = 'グループ内の誰でも';
+$string['everyoneingroup'] = 'グループ内全員';
 $string['token'] = 'シークレットURL';
 $string['editsecreturlaccess'] = 'シークレットURLアクセスを編集する';
 $string['newsecreturl'] = '新しいシークレットURL';
