@@ -113,7 +113,7 @@ $string['viewscollectionssharedtogroup'] = 'このグループで共有されて
 $string['viewssharedtogroup'] = 'このグループで共有されているページ';
 $string['sharedtogroup'] = 'このグループでの共有';
 $string['nosharedviewsyet'] = 'このグループで共有されているページはまだありません。';
-$string['viewssharedtogroupbyothers'] = 'このグループで共有されている他のメンバのページ';
+$string['viewssharedtogroupbyothers'] = '他の人がこのグループと共有しているページ';
 $string['sharedviews'] = '共有ページ';
 $string['submissionstogroup'] = 'このグループへの送信';
 $string['nosubmittedviewscollectionsyet'] = 'このグループに送信されたページまたはコレクションはまだありません。';
@@ -124,13 +124,13 @@ $string['youhavesubmitted'] = 'あなたはこのグループに <a href="%s">%s
 $string['youhavesubmittedon'] = 'あなたはこのグループに <a href="%s">%s</a> を %s に送信しました。';
 $string['listedinpages'] = 'ページ内一覧';
 $string['public'] = 'パブリック';
-$string['registeredusers'] = '登録済の人';
+$string['registeredusers'] = '登録済みの人';
 $string['friends'] = 'フレンド';
 $string['users'] = '人';
 $string['friend'] = 'フレンド';
 $string['group'] = 'グループ';
 $string['user'] = '人';
-$string['everyoneingroup'] = 'グループ内の誰でも';
+$string['everyoneingroup'] = 'グループ内全員';
 $string['nospecialrole'] = '特別ロールなし';
 $string['peer'] = 'ピア';
 $string['manager'] = 'マネージャ';
