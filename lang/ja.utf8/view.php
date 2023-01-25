@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-01-22 20:48:20 UTC
+ * @updated    2023-01-25 00:07:00 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -67,6 +67,7 @@ $string['templateprogress'] = 'ポートフォリオ完了テンプレート';
 $string['templateportfolio'] = 'ページテンプレート';
 $string['templateportfoliotitle'] = 'タイトルなし';
 $string['templateportfoliodescription1'] = '作成されるページのデフォルトレイアウトを設定します。あなたはブロックも追加できます。あなたがデフォルトページに追加したコンテンツは変更後に作成されるすべてのページに追加されることに留意してください。';
+$string['templateactivity'] = '活動ページテンプレート';
 $string['artefacts'] = 'アーティファクト';
 $string['groupviews1'] = 'グループポートフォリオ';
 $string['institutionviews'] = 'インスティテューションページ';
@@ -524,3 +525,22 @@ $string['removedverifynotification'] = 'ページのオーナ %s が承認を削
 $string['signoffviewupdated'] = '承認ステータスが更新されました。';
 $string['verifyviewupdated'] = '検証ステータスが更新されました。';
 $string['wrongsignoffviewrequest'] = 'あなたにはリクエストされた処理を実行するパーミッションがありません。';
+$string['startdate_rule'] = '開始日は完了日の前に設定してください。';
+$string['add_activity_button'] = '活動ページを追加する';
+$string['activity_info_fieldset'] = '活動情報';
+$string['activity_info_title'] = '活動説明';
+$string['activity_info_desc'] = '学習者が到達すべき活動を記述してください。これはページタイトルの長いバージョンです。';
+$string['activity_info_subject'] = '件名';
+$string['activity_info_subject_desc'] = 'この活動に最も適した件名を選択してください。';
+$string['activity_info_supervisor'] = '担当チュータまたは管理者';
+$string['activity_info_activity_info_supervisor_desc'] = 'この活動を担当するグループチュータまたはグループ管理者を選択してください。';
+$string['activity_info_start_date'] = '開始日';
+$string['activity_info_end_date'] = '終了日';
+$string['activity_info_start_date_desc'] = '学習者がこの活動で作業を開始する日付を選択してください。';
+$string['activity_info_end_date_desc'] = '学習者がこの活動で作業を終了する日付を選択してください。';
+$string['activity_info_achievement_levels'] = '達成レベル';
+$string['activity_info_achievement_levels_desc'] = 'この特定の活動に対する達成レベルを定義してください。';
+$string['activity_info_achievement_level_1'] = 'レベル1';
+$string['activity_info_achievement_level_2'] = 'レベル2';
+$string['activity_info_achievement_level_3'] = 'レベル3';
+$string['activity_info_achievement_level_0'] = '未実証';

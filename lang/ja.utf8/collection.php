@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-12-20 01:30:30 UTC
+ * @updated    2023-01-24 23:57:22 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -122,6 +122,17 @@ $string['configureoutcomes'] = 'アウトカムを設定する';
 $string['ondate'] = '- %s';
 $string['manageoutcomesspecific'] = '「 %s 」のアウトカムを管理する';
 $string['outcome_progress_description'] = '最大半角255文字まで入力できます。';
+$string['activity'] = '活動';
+$string['tabledesc'] = 'TODO';
+$string['noactivities'] = 'このアウトカムにはまだ活動はありません。';
+$string['completeactivityaction'] = '活動「 %s 」の承認を削除する';
+$string['incompleteactivityaction'] = '活動「 %s 」を承認する';
+$string['completeactivity'] = '活動「 %s 」が承認されました。';
+$string['incompleteactivity'] = '活動「 %s 」は承認が必要です。';
+$string['activityupdated'] = '活動ステータスが更新されました。';
+$string['activityeupdatefailed'] = '活動ステータスの更新に失敗しました。';
+$string['activitysignoffundo'] = 'あなたが「Yes」を選択した場合、活動から承認ステータスが削除されます。';
+$string['activitysignoff'] = 'この活動を承認するには「Yes」を選択してください。';
 $string['portfoliocompletion'] = 'ポートフォリオ完了';
 $string['potentialviews'] = '潜在的なページ';
 $string['saveapply'] = '適用して保存する';
@@ -150,6 +161,7 @@ $string['outcomeportfolio'] = 'アウトカムポートフォリオ';
 $string['outcomeportfoliodesc'] = 'コレクションで管理されるアウトカム付きコレクションを作成します。';
 $string['outcomecategory'] = 'アウトカムカテゴリ';
 $string['outcomecategorydesc'] = 'あなたがこのポートフォリオで使用したいアウトカムのカテゴリを選択してください。';
+$string['outcomecategorymissing'] = '<div class="alert alert-warning">「 %s 」インスティテューションのアウトカムカテゴリがありません。このインスティテューションで使用するアウトカムポートフォリオをデータベースに追加してください。アウトカムポートフォリオは次のCLIスクリプトで追加できます: populate_outcome_tables.php</div>';
 $string['outcomes'] = 'アウトカム';
 $string['outcomesoverallcompletion'] = 'アウトカムの総合的完成度';
 $string['copiedparticle'] = 'コピー完了 %s';
@@ -181,6 +193,7 @@ $string['progresspage'] = 'ポートフォリオ完了';
 $string['progresspagedescription'] = 'コレクションのポートフォリオ完了ページのデフォルトレイアウトをセットアップします。';
 $string['progressportfolios'] = 'ポートフォリオカウント';
 $string['progressverifiers'] = 'レビュアパーセンテージ';
+$string['activitypage'] = '活動ページ';
 $string['sharedviewverifiedunchecked'] = '%s (%s) はまだレビュされていません。';
 $string['sharedviewverifiedchecked'] = '%s (%s) はレビュされました。';
 $string['userhasremovedaccesssubject'] = '%s が「 %s 」へのアクセスを削除しました。';
