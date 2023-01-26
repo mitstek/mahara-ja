@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-10-06 23:50:51 UTC
+ * @updated    2023-01-26 22:05:25 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,7 +15,7 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'オープンバッジ';
 $string['description'] = 'あなたのオープンバッジを表示する';
-$string['issuerdetails'] = '発行者詳細';
+$string['issuerdetails'] = 'イシュア詳細';
 $string['badgedetails'] = 'バッジ詳細';
 $string['issuancedetails'] = '発行詳細';
 $string['name'] = '名称';

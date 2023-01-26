@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-09-20 04:46:16 UTC
+ * @updated    2023-01-26 22:04:49 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,7 +18,7 @@ $string['maharaltiadvantage'] = 'LTI Advantage';
 $string['short_name'] = '省略名';
 $string['short_namedescription'] = '最大半角30文字です。この省略名は「現在の提出」テーブルの「提出先」カラムに表示されるLTIプロバイダ名です。';
 $string['short_namecannotbeempty'] = '省略名は空白にできません。';
-$string['issuer'] = '発行者';
+$string['issuer'] = 'イシュア';
 $string['client_id'] = 'クライアントID';
 $string['platform_login_auth_endpoint'] = 'OpenID Connect認証エンドポイント';
 $string['platformvendorkeytitle'] = 'プラットフォームベンダ';
@@ -45,7 +45,7 @@ $string['openidconnectlogin'] = 'OpenID ConnectログインURL';
 $string['keyset'] = 'キーセットURL';
 $string['deployments'] = 'デプロイメント';
 $string['deploymentsdesc'] = 'LTIプラットフォームのデプロイメントIDです。';
-$string['issueralreadyinuse'] = '発行者はすでに別のクライアント接続に設定されています。';
+$string['issueralreadyinuse'] = 'イシュアはすでに別のクライアント接続に設定されています。';
 $string['deploymentidcannotbesame'] = 'デプロイメントIDフィールドは同じにできません。';
 $string['deployment1_idalreadyinuse'] = 'このデプロイメントIDはすでに使用されています。';
 $string['deployment2_idalreadyinuse'] = 'このデプロイメントIDはすでに使用されています。';
