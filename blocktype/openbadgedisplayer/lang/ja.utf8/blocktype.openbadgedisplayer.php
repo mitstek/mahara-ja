@@ -15,7 +15,7 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'オープンバッジ';
 $string['description'] = 'あなたのオープンバッジを表示する';
-$string['issuerdetails'] = '発行者詳細';
+$string['issuerdetails'] = 'イシュア詳細';
 $string['badgedetails'] = 'バッジ詳細';
 $string['issuancedetails'] = '発行詳細';
 $string['name'] = '名称';
