@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['add'] = '追加';
 $string['addone'] = '追加';
 $string['cancel'] = 'キャンセル';
-$string['copytoclipboard'] = 'クリップボードにシークレットURLをコピーする';
+$string['copytoclipboard'] = 'シークレットURLをクリップボードにコピーする';
 $string['delete'] = '削除';
 $string['deletespecific'] = '「 %s 」を削除する';
 $string['deleteitem'] = '削除';
