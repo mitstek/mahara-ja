@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-01-30 00:57:11 UTC
+ * @updated    2023-01-31 22:09:43 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -540,7 +540,39 @@ $string['activity_info_start_date_desc'] = '学習者がこの活動で作業を
 $string['activity_info_end_date_desc'] = '学習者がこの活動で作業を終了する日付を選択してください。';
 $string['activity_info_achievement_levels'] = '達成レベル';
 $string['activity_info_achievement_levels_desc'] = 'この特定の活動に対する達成レベルを定義してください。';
-$string['activity_info_achievement_level_1'] = 'レベル1';
-$string['activity_info_achievement_level_2'] = 'レベル2';
-$string['activity_info_achievement_level_3'] = 'レベル3';
+$string['activity_info_achievement_level'] = 'レベル %s';
 $string['activity_info_achievement_level_0'] = '未実証';
+$string['activity_info_staff'] = '担当スタッフ';
+$string['timeframe'] = '期間';
+$string['subject'] = '件名';
+$string['strategy_support'] = '戦略およびサポート';
+$string['strategy_support_desc'] = '<div class="html form-group">
+<span class="pseudolabel"></span>
+<span class="text-small postedon">
+あなたが学習者をサポートするための戦略およびサポート推奨を説明してください。
+</span>
+</div>';
+$string['resources_support'] = 'リソース';
+$string['resources_support_desc'] = '<div class="html form-group">
+<span class="pseudolabel"></span>
+<span class="text-small postedon">
+使用リソースおよび学習者のサポート方法を説明してください。
+</span>
+</div>';
+$string['learner_support'] = '学習者サポート';
+$string['learner_support_desc'] = '<div class="html form-group">
+<span class="pseudolabel"></span>
+<span class="text-small postedon">
+活動 (パーソナルアウトカム) を達成するために学習者がどのようにサポートされたか説明してください。
+</span>
+</div>';
+$string['last_edited'] = '<div class="html form-group">
+<span class="pseudolabel"></span>
+<span class="text-small postedon">
+<a href="%s">%s</a> - %s
+</span>
+</div>';
+$string['activity_support_submit_button'] = '<span class="pseudolabel"></span>
+<button id="%s_support" class="btn-secondary button btn activity_support">
+保存
+</button>';
