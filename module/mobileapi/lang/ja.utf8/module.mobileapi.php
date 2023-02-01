@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-09-30 05:26:49 UTC
+ * @updated    2023-02-01 06:46:08 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -35,7 +35,7 @@ $string['mytokenspagedesc'] = 'これらのアプリケーションはあなた�
 $string['nopersonaltokens'] = 'あなたはどのアプリケーションにもアクセス権を与えていません。';
 $string['clientinfo'] = 'アプリ';
 $string['token'] = 'アクセストークン';
-$string['tokencreated'] = '作成済み';
+$string['tokencreated'] = '作成日時';
 $string['tokenmanuallycreated'] = '手動作成済み';
 $string['clientnotspecified'] = '(不明)';
 $string['generateusertoken'] = 'アプリアクセストークンを生成する';
