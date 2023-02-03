@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-01-31 21:56:53 UTC
+ * @updated    2023-02-03 04:33:32 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -97,25 +97,26 @@ $string['addoutcomelink'] = 'アウトカムを追加する';
 $string['confirmdeleteoutcomedb'] = '本当にこのアウトカムを削除してもよろしいですか? この操作は元に戻せません。';
 $string['confirmdeleteoutcome'] = '本当にこのアウトカムを削除してもよろしいですか? このアウトカムはまだ保存されていません。';
 $string['shorttitle'] = '短いタイトル';
-$string['shorttitledesc'] = '短いヘッディングとして使用するために私たちのアウトカムの短いタイトルを入力してください。最大半角70文字入力できます。';
+$string['shorttitledesc'] = '短いヘッディングとして使用するためにこのアウトカムの短いタイトルを入力してください。最大半角70文字入力できます。このフィールドは必須です。';
 $string['fulltitle'] = 'フルタイトル';
+$string['fulltitledesc'] = 'このアウトカムのフルタイトルを入力してください。最大半角255文字入力できます。';
 $string['outcometype'] = 'アウトカムタイプ';
-$string['outcometypedesc'] = 'あなたのアウトカムのカテゴリを選択してください。';
+$string['outcometypedesc'] = 'このアウトカムのカテゴリを選択してください。';
 $string['outcome'] = 'アウトカム';
 $string['outcometitle'] = 'アウトカム %s';
 $string['outcomesaveerror'] = 'アウトカム保存中にエラーが発生しました。';
 $string['outcomesavesuccess'] = 'アウトカムが正常に保存されました。';
 $string['outcomedeleted'] = 'アウトカムが削除されました。';
 $string['completeoutcome'] = 'アウトカム「 %s 」が完了しました。';
-$string['incompleteoutcome'] = 'クリックして「 %s 」アウトカムを完了マークする';
+$string['incompleteoutcome'] = '「 %s 」アウトカムを完了マークする';
 $string['completeoutcomeaction'] = 'アウトカム「 %s 」が完了しました。リセットするにはクリックしてください。';
-$string['incompleteoutcomeaction'] = '「 %s 」アウトカムを完了マークするにはクリックしてください。';
-$string['supporttitle'] = 'サポート内容';
+$string['incompleteoutcomeaction'] = 'アウトカム「 %s 」を完了マークする';
+$string['supporttitle'] = 'サポート実施中';
 $string['outcomeupdated'] = 'アウトカムが更新されました。';
 $string['outcomeupdatefailed'] = 'アウトカムの更新に失敗しました。';
 $string['progress'] = '進捗';
 $string['markcomplete'] = '本当にこのアウトカムを完了マークしてもよろしいですか?';
-$string['markincomplete'] = '本当にこのアウトカムから完了ステータスを削除してもよろしいですか?';
+$string['markincomplete'] = '本当にこのアウトカムを元に戻して未完了とマークしてもよろしいですか?';
 $string['addactivity'] = '活動を追加する';
 $string['nooutcomesmessage'] = 'このポートフォリオで定義されたアウトカムはありません。';
 $string['nooutcometypes'] = 'このインスティテューションのアウトカムタイプはありません。';
@@ -162,7 +163,7 @@ $string['outcomeportfolio'] = 'アウトカムポートフォリオ';
 $string['outcomeportfoliodesc'] = 'コレクションで管理されるアウトカム付きコレクションを作成します。';
 $string['outcomecategory'] = 'アウトカムカテゴリ';
 $string['outcomecategorydesc'] = 'あなたがこのポートフォリオで使用したいアウトカムのカテゴリを選択してください。';
-$string['outcomecategorymissing'] = '<div class="alert alert-warning">「 %s 」インスティテューションのアウトカムカテゴリがありません。このインスティテューションで使用するアウトカムポートフォリオをデータベースに追加してください。アウトカムポートフォリオは次のCLIスクリプトで追加できます: populate_outcome_tables.php</div>';
+$string['outcomecategorymissing'] = '<div class="alert alert-warning">インスティテューション「 %s 」のアウトカムカテゴリがありません。このインスティテューションで使用するアウトカムカテゴリをデータベースに追加してください。アウトカムカテゴリは次のCLIスクリプトで追加できます: populate_outcome_tables.php</div>';
 $string['outcomes'] = 'アウトカム';
 $string['outcomesoverallcompletion'] = 'アウトカムの総合的完成度';
 $string['copiedparticle'] = 'コピー完了 %s';

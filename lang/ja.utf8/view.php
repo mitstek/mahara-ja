@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-01-31 22:32:50 UTC
+ * @updated    2023-02-03 05:02:50 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -504,7 +504,7 @@ $string['signoffhelp'] = 'あなたが完了したページを表示します。
 $string['signoffhelppage'] = 'あなたのすべてのエビデンス追加を終了した場合、このページに「承認」をマークしてください。';
 $string['signoffdesc'] = 'すべての必要条件を満たした場合、評価準備が完了したことを示すため、ポートフォリオオーナはページを承認できます。';
 $string['verify'] = '検証';
-$string['verifydesc'] = 'ポートフォリオ評価過程の一環としてモデレータがこのページを検証する必要があるかどうか決定してください。';
+$string['verifydesc1'] = 'ポートフォリオ評価過程の一環としてマネージャがこのページを検証する必要があるかどうか決定してください。';
 $string['signedoff'] = '承認';
 $string['verified'] = '検証';
 $string['signoffpagetitle'] = '承認ページ';
@@ -520,6 +520,7 @@ $string['viewsignoffdetails'] = '承認詳細情報を表示する';
 $string['readyforverification'] = 'このページは検証準備を完了しています。';
 $string['signedoffbyondate'] = '%s がこのページを %s に承認しました。';
 $string['verifiedbyondate'] = '%s がこのページを %s に検証しました。';
+$string['cannoteditaftersignoff'] = 'あなたは承認後に「 %s 」を更新できません。';
 $string['removedverifynotificationsubject'] = '%s の検証が削除されました。';
 $string['removedverifynotification'] = 'ページのオーナ %s が承認を削除しました。そのためあなたの検証も削除されました。再度検証をマークできる状態であるか確認するためページにアクセスしてください。';
 $string['signoffviewupdated'] = '承認ステータスが更新されました。';
@@ -532,7 +533,7 @@ $string['activity_info_title'] = '活動説明';
 $string['activity_info_desc'] = '学習者が到達すべき活動を記述してください。これはページタイトルの長いバージョンです。';
 $string['activity_info_subject'] = '件名';
 $string['activity_info_subject_desc'] = 'この活動に最も適した件名を選択してください。';
-$string['activity_info_supervisor'] = '担当チュータまたは管理者';
+$string['activity_info_supervisor'] = '担当スタッフ';
 $string['activity_info_activity_info_supervisor_desc'] = 'この活動を担当するグループチュータまたはグループ管理者を選択してください。';
 $string['activity_info_start_date'] = '開始日';
 $string['activity_info_end_date'] = '終了日';
@@ -546,33 +547,9 @@ $string['activity_info_staff'] = '担当スタッフ';
 $string['timeframe'] = '期間';
 $string['subject'] = '件名';
 $string['strategy_support'] = '戦略およびサポート';
-$string['strategy_support_desc'] = '<div class="html form-group">
-<span class="pseudolabel"></span>
-<span class="text-small postedon">
-あなたが学習者をサポートするための戦略およびサポート推奨を記述してください。
-</span>
-</div>';
+$string['strategy_support_desc'] = 'あなたが学習者をサポートするための戦略およびサポート推奨を記述してください。';
 $string['resources_support'] = 'リソース';
-$string['resources_support_desc'] = '<div class="html form-group">
-<span class="pseudolabel"></span>
-<span class="text-small postedon">
-使用リソースおよび学習者のサポート方法を記述してください。
-</span>
-</div>';
+$string['resources_support_desc'] = 'あなたの使用リソースおよび学習者のサポート方法を記述してください。';
 $string['learner_support'] = '学習者サポート';
-$string['learner_support_desc'] = '<div class="html form-group">
-<span class="pseudolabel"></span>
-<span class="text-small postedon">
-活動 (パーソナルアウトカム) を達成するために学習者がどのようにサポートされたか記述してください。
-</span>
-</div>';
-$string['last_edited'] = '<div class="html form-group">
-<span class="pseudolabel"></span>
-<span class="text-small postedon">
-<a href="%s">%s</a> - %s
-</span>
-</div>';
-$string['activity_support_submit_button'] = '<span class="pseudolabel"></span>
-<button id="%s_support" class="btn-secondary button btn activity_support">
-保存
-</button>';
+$string['learner_support_desc'] = 'この活動を達成するためにあなたが学習者をどのようにサポートしたか記述してください。';
+$string['supportupdatedfor'] = '「 %s 」更新完了';

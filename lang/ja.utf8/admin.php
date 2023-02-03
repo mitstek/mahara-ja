@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-01-20 06:23:28 UTC
+ * @updated    2023-02-03 04:24:01 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -439,7 +439,7 @@ $string['pathtoclamnotset'] = '(未設定)';
 $string['progresscompletion'] = 'ポートフォリオ完了';
 $string['progresscompletiondescription'] = '承認 (および検証) が必要なページのステータス概要を表示するため、コレクションの先頭に「ポートフォリオ完了」ページを追加します。';
 $string['outcomeportfolio'] = 'アウトカムポートフォリオ';
-$string['outcomeportfoliodescription'] = '関連グループによるアウトカムポートフォリオの使用を許可します。';
+$string['outcomeportfoliodescription'] = 'このインスティテューションの関連グループによるアウトカムポートフォリオの使用を許可します。';
 $string['registerterms'] = '登録同意';
 $string['registertermsdescription1'] = '登録時に人にプライバシ保護方針および利用条件への同意を強制します。このオプションを有効にする場合、あなたのサイトおよびインスティテューションの法律ページを編集する必要があります。';
 $string['licensemetadata'] = 'ライセンスメタデータ';
@@ -1406,14 +1406,14 @@ $string['cli_outcomes_typefile_description'] = 'アウトカムタイプテー�
 $string['cli_outcomes_subjectfile_description'] = 'アウトカム件名テーブルデータを含む読み込み可能なCSVファイルへのパスです。例) /tmp/outcomes_subjects_tables.csv';
 $string['cli_outcomes_institution_description'] = '「delete」と併用することで指定したインスティテューションからのみアイテムを削除します。例) mahara';
 $string['cli_outcomes_institutionnotfound'] = 'インスティテューション「 %s 」が見つかりませんでした。';
-$string['cli_outcomes_info'] = 'アウトカム関連テーブル「outcome_category」「outcome_type」「outcome_subject_category」および「 outcome_subject」に値を設定します。指定されたインスティテューションでは「outcomesportfolio」設定を有効にする必要があります。';
-$string['cli_outcomes_bad_institution'] = '%s インスティテューションが存在およびアウトカム設定が有効である必要があります。';
+$string['cli_outcomes_info'] = 'アウトカム関連テーブル「outcome_category」「outcome_type」「outcome_subject_category」および「 outcome_subject」に値を設定します。指定されたインスティテューションでは「アウトカムポートフォリオ」設定を有効にする必要があります。';
+$string['cli_outcomes_bad_institution'] = 'インスティテューション %s が存在および「アウトカムポートフォリオ」設定が有効である必要があります。';
 $string['cli_outcomes_type_headers_error'] = 'あなたのファイルのヘッダを確認してください。ヘッダは次のようにする必要があります: Outcome category | Institution | Outcome type | Outcome type abbreviation | CSS class';
 $string['cli_outcomes_subject_headers_error'] = 'あなたのファイルのヘッダを確認してください。ヘッダは次のようにする必要があります: Outcome subject category | Institution | Subject | Subject abbreviation';
 $string['cli_outcomes_subject_added'] = '件名データがデータベースに追加されました。';
 $string['cli_outcomes_no_subject_added'] = '件名データはデータベースに追加されませんでした。テーブルにすでに入力されている可能性があります。';
-$string['cli_outcomes_type_added'] = 'タイプデータがデータベースに追加されました。';
-$string['cli_outcomes_no_type_added'] = 'タイプデータはデータベースに追加されませんでした。テーブルにすでに入力されている可能性があります。';
+$string['cli_outcomes_type_added'] = 'アウトカムタイプデータがデータベースに追加されました。';
+$string['cli_outcomes_no_type_added'] = 'アウトカムタイプデータはデータベースに追加されませんでした。テーブルにすでに入力されている可能性があります。';
 $string['cli_outcomes_deleteing'] = '未使用アウトカム関連データを削除する ...';
 $string['cli_outcomes_deleted'] = '%s 行をテーブル「 %s 」から削除しました。';
 $string['cli_outcomes_nothing_deleted'] = '削除するものはありません。';
