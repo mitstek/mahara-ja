@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-01-25 00:08:32 UTC
+ * @updated    2023-02-06 22:46:36 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -43,6 +43,7 @@ $string['update'] = '更新';
 $string['change'] = '変更';
 $string['send'] = '送信';
 $string['go'] = 'Go';
+$string['continue'] = '続ける';
 $string['configfor'] = '設定:';
 $string['infofor'] = '情報:';
 $string['default'] = 'デフォルト';

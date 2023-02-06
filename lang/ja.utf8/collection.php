@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-02-03 04:33:32 UTC
+ * @updated    2023-02-06 22:48:43 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -56,6 +56,7 @@ $string['collectiondeleted'] = 'コレクションが正常に削除されまし
 $string['collectiondescription'] = 'コレクションは相互にリンクして同一のアクセスパーミッションを持つ一連のページです。あなたは好きなだけコレクションを作成できますが、1ページを2つ以上のコレクションには表示できません。';
 $string['collectiontitle'] = 'コレクションタイトル';
 $string['confirmcancelcreatingcollection'] = 'このコレクションは完了していません。本当にキャンセルしてもよろしいですか?';
+$string['continueeditaccess'] = '続ける: アクセスを編集する';
 $string['collectionsaved'] = 'コレクションが正常に保存されました。';
 $string['copyacollection'] = 'コレクションをコピーする';
 $string['created'] = '作成';
@@ -81,7 +82,6 @@ $string['manageviewsspecific'] = '「 %s 」のページを管理する';
 $string['name'] = 'コレクション名';
 $string['needtoselectaview'] = 'あなたはコレクションに追加するページを選択する必要があります。';
 $string['newcollection'] = '新しいコレクション';
-$string['nexteditaccess'] = '次へ: アクセスを編集する';
 $string['nocollections'] = 'まだコレクションはありません。';
 $string['nocollectionsaddone'] = 'まだコレクションはありません。%sコレクションを追加してください%s。';
 $string['nooverride'] = 'オーバーライドはありません。';
@@ -96,6 +96,8 @@ $string['manageoutcomes'] = 'アウトカムを管理する';
 $string['addoutcomelink'] = 'アウトカムを追加する';
 $string['confirmdeleteoutcomedb'] = '本当にこのアウトカムを削除してもよろしいですか? この操作は元に戻せません。';
 $string['confirmdeleteoutcome'] = '本当にこのアウトカムを削除してもよろしいですか? このアウトカムはまだ保存されていません。';
+$string['deleteactivitiesfirst'] = '最初に関連する活動ページを削除する必要があります。';
+$string['deletefailedoutcome'] = '「アウトカム %s」の削除に失敗しました。';
 $string['shorttitle'] = '短いタイトル';
 $string['shorttitledesc'] = '短いヘッディングとして使用するためにこのアウトカムの短いタイトルを入力してください。最大半角70文字入力できます。このフィールドは必須です。';
 $string['fulltitle'] = 'フルタイトル';
@@ -111,6 +113,7 @@ $string['completeoutcome'] = 'アウトカム「 %s 」が完了しました。'
 $string['incompleteoutcome'] = '「 %s 」アウトカムを完了マークする';
 $string['completeoutcomeaction'] = 'アウトカム「 %s 」が完了しました。リセットするにはクリックしてください。';
 $string['incompleteoutcomeaction'] = 'アウトカム「 %s 」を完了マークする';
+$string['deleteoutcome'] = 'アウトカムを削除する';
 $string['supporttitle'] = 'サポート実施中';
 $string['outcomeupdated'] = 'アウトカムが更新されました。';
 $string['outcomeupdatefailed'] = 'アウトカムの更新に失敗しました。';
