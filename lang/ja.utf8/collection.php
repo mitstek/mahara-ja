@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-02-06 22:48:43 UTC
+ * @updated    2023-02-08 23:04:21 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -103,7 +103,7 @@ $string['shorttitledesc'] = '短いヘッディングとして使用するため
 $string['fulltitle'] = 'フルタイトル';
 $string['fulltitledesc'] = 'このアウトカムのフルタイトルを入力してください。最大半角255文字入力できます。';
 $string['outcometype'] = 'アウトカムタイプ';
-$string['outcometypedesc'] = 'このアウトカムのカテゴリを選択してください。';
+$string['outcometypedesc'] = 'このアウトカムのタイプを選択してください。';
 $string['outcome'] = 'アウトカム';
 $string['outcometitle'] = 'アウトカム %s';
 $string['outcomesaveerror'] = 'アウトカム保存中にエラーが発生しました。';
@@ -128,7 +128,7 @@ $string['ondate'] = '- %s';
 $string['manageoutcomesspecific'] = '「 %s 」のアウトカムを管理する';
 $string['outcome_progress_description'] = '最大半角255文字まで入力できます。';
 $string['activity'] = '活動';
-$string['tabledesc'] = 'TODO';
+$string['tabledesc'] = 'このアウトカムに含まれるページ';
 $string['noactivities'] = 'このアウトカムにはまだ活動はありません。';
 $string['completeactivityaction'] = '活動「 %s 」の承認を削除する';
 $string['incompleteactivityaction'] = '活動「 %s 」を承認する';
