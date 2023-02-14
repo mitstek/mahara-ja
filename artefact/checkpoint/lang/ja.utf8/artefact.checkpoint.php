@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-02-08 23:12:46 UTC
+ * @updated    2023-02-14 10:17:55 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -31,3 +31,23 @@ $string['achievementleveltime'] = '検証日時';
 $string['checkpointfeedback'] = 'チェックポイントフィードバック';
 $string['placeassessment'] = 'チェックポイントを投稿する';
 $string['progress_checkpointfeedback'] = '%s のチェックポイントフィードバックを追加する';
+$string['deletednotificationsubject'] = '「 %s 」のチェックポイントコメントが削除されました。';
+$string['deletedauthornotification1'] = 'あなたの「 %s 」のチェックポイントコメントが削除されました。あなたの執筆内容は以下のとおりです:
+%s';
+$string['newfeedbacknotificationsubject'] = 'ページ「 %s 」の新しいチェックポイントコメント';
+$string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が「 %s 」にチェックポイントコメントを追加しました。</strong><br />%s</div>
+
+<div style="margin: 1em 0;">%s</div>
+<div style="font-size: smaller; border-top: 1px solid #999;">
+<p><a href="%s">このチェックポイントコメントをオンラインで閲覧する</a></p>
+</div>';
+$string['feedbacknotificationtext1'] = '%s が「 %s 」にチェックポイントコメントを追加しました。
+%s
+-------------------------------------------------------------------------
+
+%s
+
+-------------------------------------------------------------------------
+このチェックポイントコメントをオンラインで閲覧するには次のリンクにアクセスしてください:
+%s';
+$string['commentremovedbyuser'] = 'コメント削除 by <a href="%s">%s</a>';
