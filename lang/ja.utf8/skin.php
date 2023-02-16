@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-11-20 21:12:11 UTC
+ * @updated    2023-02-16 07:08:48 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -159,7 +159,7 @@ $string['manageskins'] = 'スキンを管理する';
 $string['sitefontsmenu'] = 'フォント';
 $string['sitefonts'] = 'フォント';
 $string['sitefontsdescription'] = 'あなたのサイトのスキンで使用するため以下のフォントがインストールされています。';
-$string['installfontinstructions1'] = '<p>
+$string['installfontinstructions2'] = '<p>
 ウェブページに埋め込めるフォントをCSS @font-faceルールに準拠した形で追加してください。すべての作者/開発者がこれを許可するわけではないことに留意してください。
 </p>
 <p>
@@ -172,7 +172,7 @@ $string['installfontinstructions1'] = '<p>
 <p>
 また、あなたは次の手順でGoogleフォントをインストールできます:
 <ol>
-<li><a href="https://google-webfonts-helper.herokuapp.com">Google webfonts helper</a>にアクセスしてください。ご自分の責任でこの操作を実行してください。このサービスはGoogle Fontsにより提供されているものではありません。</li>
+<li><a href="https://gwfh.mranftl.com">Google webfonts helper</a>にアクセスしてください。ご自分の責任でこの操作を実行してください。このサービスはGoogle Fontsにより提供されているものではありません。</li>
 <li>あなたに表示されているフォントを選択してください。</li>
 <li>あなたに必要な文字セットを選択してください。</li>
 <li>あなたが有効にしたいスタイルを選択してください。</li>
