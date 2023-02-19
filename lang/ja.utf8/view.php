@@ -192,7 +192,7 @@ $string['otherpeople'] = '他の人';
 $string['addaccess'] = '「 %s 」へのアクセスを追加する';
 $string['addaccessinstitution'] = 'インスティテューション「 %s 」へのアクセスを追加する';
 $string['addaccessgroup'] = 'グループ「 %s 」へのアクセスを追加する';
-$string['submitconfirm'] = '評価のために「 %s 」を「 %s 」に送信した場合、チュータが評価を終えるまであなたはコンテンツを編集できません。本当に送信してもよろしいですか?';
+$string['submitconfirm'] = '評価のために「 %s 」を「 %s 」に送信した場合、チュータが評価を終えるまであなたはコンテンツを編集できません。本当に今すぐ送信してもよろしいですか?';
 $string['collectionsubmitted'] = 'コレクションが送信されました。';
 $string['collectionviewsalreadysubmitted'] = 'このコレクションのページはすでに送信されています: 「 %s 」
 リリースまたはコレクションから削除されるまであなたはコレクションを送信できません。';
