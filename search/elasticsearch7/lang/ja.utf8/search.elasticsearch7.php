@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-01-31 21:56:33 UTC
+ * @updated    2023-02-20 04:13:39 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -70,6 +70,7 @@ $string['Media'] = 'メディア';
 $string['monitorfailedqueuesize'] = '1時間以上の失敗レコード数';
 $string['monitorqueuehasolditems'] = 'Elasticsearch 7のキューにある %s 時間以上前の未処理アイテム';
 $string['monitorunprocessedqueuesize'] = '未処理レコード合計数';
+$string['monitorunprocessedqueuerate'] = 'cron制限に対する未処理レコードのパーセンテージ';
 $string['monitorqueuestatus'] = 'Elasticsearch 7キューステータス';
 $string['monitorsubnavtitle'] = 'Elasticsearch 7';
 $string['none'] = 'なし';

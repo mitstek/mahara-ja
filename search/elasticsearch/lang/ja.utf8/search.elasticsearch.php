@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-01-31 21:56:08 UTC
+ * @updated    2023-02-20 04:18:54 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -32,7 +32,7 @@ $string['confignotset'] = '(未設定)';
 $string['contains'] = '含む';
 $string['createdby'] = '作成者: %s';
 $string['createdbyanon'] = '作成者 (作成者名非表示)';
-$string['cronlimit'] = 'cronレコード制限';
+$string['cronlimit'] = 'Cronレコード制限';
 $string['cronlimitdescription'] = 'それぞれのcron実行に関してキューからElasticsearchサーバに送られる最大レコード数です (無制限の場合、空白またはゼロにしてください)。';
 $string['dateoldestfirst'] = '日付 (古い順)';
 $string['daterecentfirst'] = '日付 (新しい順)';
