@@ -201,7 +201,7 @@ $string['submitconfirm'] = '評価のために「 %s 」を「 %s 」に送信�
 $string['viewsubmitted'] = 'ページが送信されました。';
 $string['collectionsubmitted'] = 'コレクションが送信されました。';
 $string['viewnotsubmitted'] = '現在、ポートフォリオは送信されていません。';
-$string['collectionviewsalreadysubmitted'] = 'このコレクションのページはすでに送信されています: 「 %s 」
+$string['collectionviewsalreadysubmitted'] = 'このコレクション内のページはすでに送信されています: 「 %s 」
 リリースまたはコレクションから削除されるまであなたはコレクションを送信できません。';
 $string['viewalreadysubmitted'] = 'このページはすでに別の課題またはグループに送信されています。';
 $string['collectionalreadysubmitted'] = 'このコレクションはすでに別の課題またはグループに送信されています。';
