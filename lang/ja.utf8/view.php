@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-02-19 20:23:53 UTC
+ * @updated    2023-02-21 23:26:17 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -202,7 +202,7 @@ $string['submitconfirm'] = '評価のために「 %s 」を「 %s 」に送信�
 $string['viewsubmitted'] = 'ページが送信されました。';
 $string['collectionsubmitted'] = 'コレクションが送信されました。';
 $string['viewnotsubmitted'] = '現在、ポートフォリオは送信されていません。';
-$string['collectionviewsalreadysubmitted'] = 'このコレクションのページはすでに送信されています: 「 %s 」
+$string['collectionviewsalreadysubmitted'] = 'このコレクション内のページはすでに送信されています: 「 %s 」
 リリースまたはコレクションから削除されるまであなたはコレクションを送信できません。';
 $string['viewalreadysubmitted'] = 'このページはすでに別の課題またはグループに送信されています。';
 $string['collectionalreadysubmitted'] = 'このコレクションはすでに別の課題またはグループに送信されています。';
