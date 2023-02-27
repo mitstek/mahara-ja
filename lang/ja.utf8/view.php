@@ -206,9 +206,9 @@ $string['cantdeleteview'] = 'あなたはこのページを削除できません
 $string['deletespecifiedview'] = 'ページ「 %s 」を削除する';
 $string['deleteviewconfirm1'] = '本当にこのページを削除してもよろしいですか? 元に戻せません。';
 $string['deleteviewconfirmbackup'] = '<a href="%sexport/">エクスポート</a>によるこのページのバックアップ作成をご検討ください。';
-$string['deleteviewconfirmnote3'] = '<strong>注意:</strong> あなたがこのページでリンクしたファイルおよび日誌エントリすべてはまだ利用できます。<br />しかし、このページに投稿されたコメントはすべて削除されます。';
+$string['deleteviewconfirmnote3'] = '<strong>注意:</strong> あなたがこのページでリンクしたファイルおよび日誌エントリすべてはまだ利用可能です。<br />しかし、このページに投稿されたコメントはすべて削除されます。';
 $string['deleteviewconfirmnote2'] = 'このページはコレクション<a href="%s">「 %s 」</a>の一部です。';
-$string['editaccesspagedescription6'] = 'デフォルトではあなたのページおよびコレクションをあなたのみ閲覧できます。このページではあなたに加えて誰がアクセスできるか決定します。';
+$string['editaccesspagedescription6'] = 'デフォルトではあなたのページおよびコレクションをあなたのみ閲覧できます。このページではあなたに加えて誰がポートフォリオにアクセスできるか決定します。';
 $string['editaccessdescription'] = 'あなたは複数アイテムをチェックボックスで選択して同じ設定にできます。選択完了後、続けるにはスクロールダウンして「保存」をクリックしてください。';
 $string['editaccessgrouppagedescription'] = 'デフォルトではページおよびコレクションを追加および編集できるグループメンバのみグループコレクションおよびページを閲覧できます。あなたは複数アイテムをチェックボックスで選択して同じ設定にできます。選択完了後、続けるにはスクロールダウンして「保存」をクリックしてください。';
 $string['editaccessinstitutionpagedescription'] = 'デフォルトではあなたのインスティテューションコレクションおよびページをあなたのインスティテューション管理者のみ閲覧できます。あなたは複数アイテムをチェックボックスで選択して同じ設定にできます。選択完了後、続けるにはスクロールダウンして「保存」をクリックしてください。';
