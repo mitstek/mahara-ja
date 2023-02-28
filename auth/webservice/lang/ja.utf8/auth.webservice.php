@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-08-14 23:34:09 UTC
+ * @updated    2023-02-28 23:59:14 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -117,7 +117,7 @@ $string['oauth'] = 'OAuth';
 $string['rest'] = 'REST';
 $string['soap'] = 'SOAP';
 $string['xmlrpc'] = 'XML-RPC';
-$string['manage_certificates'] = '<a href="%s">ネットワーキング</a>サービスの一部として生成された証明書です。これらの値は特定のウェブサービストークンまたはサービスユーザに対してウェブサービスセキュリティ署名および暗号化が有効にされた場合にMaharaによって使用されます (XML-RPCおよびレガシーMNetのみ)。';
+$string['manage_certificates'] = '<a href="%s">ネットワーキング</a>サービスの一部として生成された証明書です。これらの値は特定のウェブサービストークンまたはサービスユーザに対してウェブサービスセキュリティ署名および暗号化が有効にされた場合にMaharaによって使用されます (XML-RPCおよびレガシMNetのみ)。';
 $string['certificates'] = 'ネットワーク証明書';
 $string['servicefunctiongroups'] = 'サービスグループを管理する';
 $string['servicegroup'] = 'サービスグループ: %s';

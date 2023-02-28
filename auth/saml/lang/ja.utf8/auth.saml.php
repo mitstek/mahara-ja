@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-11-29 01:05:33 UTC
+ * @updated    2023-02-28 23:58:55 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -119,7 +119,7 @@ $string['simplesamlphpconfig'] = 'SimpleSAMLphp設定ディレクトリ';
 $string['weautocreateusers'] = 'こちらでアカウントを自動作成する';
 $string['remoteuser'] = 'ユーザ属性をリモートユーザ名に合致させる';
 $string['selectidp'] = 'あなたがログインに使いたいアイデンティティプロバイダを選択してください。';
-$string['sha1'] = 'レガシーSHA1 (危険)';
+$string['sha1'] = 'レガシSHA1 (危険)';
 $string['sha256'] = 'SHA256 (デフォルト)';
 $string['sha384'] = 'SHA384';
 $string['sha512'] = 'SHA512';
