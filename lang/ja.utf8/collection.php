@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-02-08 23:04:21 UTC
+ * @updated    2023-03-02 07:19:32 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -110,10 +110,11 @@ $string['outcomesaveerror'] = 'アウトカム保存中にエラーが発生し�
 $string['outcomesavesuccess'] = 'アウトカムが正常に保存されました。';
 $string['outcomedeleted'] = 'アウトカムが削除されました。';
 $string['completeoutcome'] = 'アウトカム「 %s 」が完了しました。';
-$string['incompleteoutcome'] = '「 %s 」アウトカムを完了マークする';
+$string['incompleteoutcomedisabled'] = '「 %s 」アウトカムを完了マークできません。';
 $string['completeoutcomeaction'] = 'アウトカム「 %s 」が完了しました。リセットするにはクリックしてください。';
 $string['incompleteoutcomeaction'] = 'アウトカム「 %s 」を完了マークする';
 $string['deleteoutcome'] = 'アウトカムを削除する';
+$string['deletenewoutcome'] = '%s を削除する';
 $string['supporttitle'] = 'サポート実施中';
 $string['outcomeupdated'] = 'アウトカムが更新されました。';
 $string['outcomeupdatefailed'] = 'アウトカムの更新に失敗しました。';
