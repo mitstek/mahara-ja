@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-12-22 01:23:15 UTC
+ * @updated    2023-03-09 02:07:29 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -85,6 +85,8 @@ $string['parameterexception'] = '必須パラメータがありません。';
 $string['wrongparamtype'] = '関数またはメソッドに正しくない種類の引数が渡されました。';
 $string['notfound'] = '不明';
 $string['notfoundexception'] = 'あなたが探しているページは見つかりませんでした。';
+$string['artefactnotfoundexception'] = 'あなたが探しているアーティファクトは見つかりませんでした。';
+$string['artefactmissing'] = 'データルートからアーティファクトを取得できません。';
 $string['accessdenied'] = 'アクセスが拒否されました。';
 $string['accessdeniedobjection'] = 'アクセスが拒否されました。問題点はすでに別の管理者により解決されています。';
 $string['accessdeniedsuspension'] = 'このポートフォリオはレビュ中です。';
