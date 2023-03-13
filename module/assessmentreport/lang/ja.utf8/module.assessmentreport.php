@@ -5,14 +5,15 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-12-21 05:34:09 UTC
- * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
+ * @updated    2023-03-13 04:26:42 UTC
+ * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
 
 defined('INTERNAL') || die();
 
+$string['pluginname'] = '評価レポート';
 $string['message'] = 'これはあなたが「 %s 」 (%s) をグループ「 %s 」 (提出日: %s) に正常に提出したこと確認するためのものです。
 
 この提出に関して質問がある場合、グループ管理者にご連絡ください。';
