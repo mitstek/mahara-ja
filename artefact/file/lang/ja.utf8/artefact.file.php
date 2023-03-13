@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-10-12 03:38:07 UTC
+ * @updated    2021-10-01 04:28:55 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -348,4 +348,3 @@ $string['rotate90img'] = 'イメージを元の位置から時計回りに90度�
 $string['rotate180img'] = 'イメージを元の位置から時計回りに180度回転する';
 $string['rotate270img'] = 'イメージを元の位置から時計回りに270度回転する';
 $string['rotate0img'] = 'イメージを元の位置に回転する';
-$string['caption'] = 'キャプション';

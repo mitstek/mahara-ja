@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-10-17 01:10:02 UTC
+ * @updated    2022-04-26 21:10:49 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -62,7 +62,6 @@ $string['mysqlnotriggerprivilege'] = 'Maharaではデータベーストリガを
 $string['mbstringneeded'] = 'PHPのmbstring拡張モジュールをインストールしてください。あなたがユーザ名にUTF-8文字を使用している場合、この拡張モジュールが必要です。インストールしない場合、人はログインできない可能性があります。';
 $string['cssnotpresent'] = 'あなたのhtdocs/theme/raw/styleディレクトリ内にCSSファイルが存在しません。あなたがgitチェックアウトからMaharaを動作させている場合、CSSファイルを構築するために「make css」を実行してください。あなたがZIPダウンロードよりMaharaを動作させている場合、再度ダウンロードおよび展開をお試しください。';
 $string['mahararootusermissing'] = 'データベースに「root」アカウントが存在しないため私たちは継続できません。このアカウントはMaharaが正常に動作するため必要です。再度rootアカウントを作成するにはあなたが使用しているMaharaのバージョンを別にインストールした上で「usr」および「usr_custom_layout」テーブル内の「user」 (id = 0) に何が含まれているか確認してください。そしてアップグレードを再開する前にあなたのMaharaインスタンスにそのデータを追加してください。';
-$string['outdatedcompiledcssbs'] = 'あなたのコンパイルされたCSSは古いバージョンのBootstrapのものです。「make clean-css && make css」を実行して最新バージョンに更新してください。';
 $string['blocktypenametaken'] = 'ブロックタイプ %s はすでに他のプラグイン (%s) に取得されています。';
 $string['artefacttypenametaken'] = 'アーティファクトタイプ %s はすでに他のプラグイン (%s) に取得されています。';
 $string['artefacttypemismatch'] = 'アーティファクトタイプが一致しません。あなたはこの %s に関して %s としての使用を試みています。';

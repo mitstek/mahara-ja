@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-09-05 03:59:28 UTC
+ * @updated    2022-04-26 20:41:43 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -24,26 +24,7 @@ $string['groupmemberrequests'] = '保留中メンバシップリクエスト';
 $string['membershiprequests'] = 'メンバシップリクエスト';
 $string['sendinvitation'] = '招待を送信する';
 $string['invitetogroupsubject'] = 'あなたはグループへの参加を招待されました。';
-$string['invitetogroupmessage1'] = '%s さん
-
-あなたのグループ「 %s 」への参加を招待したいと思います。
-
-ありがとうございます。
-%s
-
-この招待を受理または拒否するにはリンクに従ってください。';
-$string['invitetogroupmessagereason'] = '%s さん
-
-あなたのグループ「 %s 」への参加を招待したいと思います。
-
-私の理由は次のとおりです:
-
-%s
-
-ありがとうございます。
-%s
-
-この招待を受理または拒否するにはリンクに従ってください。';
+$string['invitetogroupmessage'] = '%s がグループ「 %s 」へのあなたの参加を招待しました。詳細は以下のリンクをクリックしてください。';
 $string['inviteuserfailed'] = '招待に失敗しました。';
 $string['userinvited'] = '招待が送信されました。';
 $string['addedtogroupsubject'] = 'あなたはグループに追加されました。';
@@ -255,10 +236,6 @@ $string['potentialmembers'] = '潜在的なメンバ';
 $string['sendinvitations'] = '招待を送信する';
 $string['userstobeadded'] = '追加される人';
 $string['userstobeinvited'] = '招待される人';
-$string['potentialmemberstorecommend'] = '選択した潜在的なメンバをレコメンデーション送信対象の人にする';
-$string['recommendedtopotentialmembers'] = '選択したレコメンデーション送信対象の人を潜在的なメンバにする';
-$string['potentialmoderatorstomoderators'] = '選択した潜在的なモデレータをモデレータにする';
-$string['moderatorstopotentialmoderators'] = '選択したモデレータを潜在的なモデレータにする';
 $string['reasonoptional'] = '理由 (任意)';
 $string['request'] = 'リクエスト';
 $string['friendformaddsuccess'] = '%s があなたのフレンドリストに追加されました。';
@@ -301,6 +278,7 @@ $string['findnewfriends'] = '新しいフレンドを探す';
 $string['Collections'] = 'コレクション';
 $string['Views'] = 'ページ';
 $string['Portfolios'] = 'ポートフォリオ';
+$string['Viewscollections'] = 'ページおよびコレクション';
 $string['Files'] = 'ファイル';
 $string['noviewstosee'] = 'あなたが閲覧できるものはありません。';
 $string['whymakemeyourfriend'] = 'あなたが私をフレンドにする理由:';
@@ -386,7 +364,7 @@ $string['allowssubmissionsdescription1'] = 'メンバはグループにページ
 $string['allowssubmissionsdescription'] = 'メンバはグループにページを送信できます。';
 $string['allowsarchives'] = '提出のアーカイブを許可する';
 $string['allowsarchiveserror'] = '送信が許可されている場合、あなたはアーカイブのみ許可できます。';
-$string['allowsarchivesdescription2'] = '送信リリース処理中にポートフォリオはZIPファイルとしてアーカイブされます。';
+$string['allowsarchivesdescription1'] = '送信リリース処理中にページおよびコレクションはZIPファイルとしてアーカイブされます。';
 $string['report'] = 'レポート';
 $string['grouphasntcreatedanyviewsyet'] = 'このグループはまだページを作成していません。';
 $string['noviewssharedwithgroupyet'] = 'このグループで共有されているページはまだありません。';
@@ -402,7 +380,7 @@ $string['grouparchivereportsheading'] = '提出アーカイブ';
 $string['grouparchivereports'] = '提出アーカイブへのアクセス';
 $string['grouparchivereportsdesc'] = 'グループ管理者はアーカイブ済み提出ファイルにアクセスできます。';
 $string['grouparchivereportserror'] = '提出が許可されている場合のみ、あなたは提出アーカイブレポートを閲覧できます。';
-$string['returntogroupportfolios1'] = 'グループポートフォリオに戻る';
+$string['returntogroupportfolios'] = 'グループページおよびコレクションに戻る';
 $string['showintroduction'] = '自己紹介';
 $string['addgrouplabel'] = 'グループラベルを追加する';
 $string['addgrouplabeldescription'] = 'あなたのみ閲覧できるようこのグループに1つまたはそれ以上のラベルを追加してください。ラベルを追加した場合、あなたのリンクでグループを整理できます。あなたはどのグループをサイドバーおよびあなたのプロファイルページに表示するかも決定できます。';

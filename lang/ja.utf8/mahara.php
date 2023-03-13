@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-10-18 22:51:08 UTC
+ * @updated    2022-08-31 06:14:41 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -233,7 +233,7 @@ $string['norelatedtaggeditemstoview'] = 'あなたがタグ「 %s 」 (オーナ
 $string['norelatedtaggeditemstoviewfiltered'] = 'あなたがタグ「 %s 」 (オーナ「 %s 」) で閲覧できる %s はありません。';
 $string['selfsearch'] = '私のポートフォリオを検索する';
 $string['resultsperpage'] = '1ページあたりの結果数';
-$string['allowinstitutiontags'] = 'インスティテューションタグ';
+$string['allowinstitutiontags'] = 'インスティテューションタグを許可する';
 $string['allowinstitutiontagsdescription'] = '管理者はインスティテューションメンバが使用できる一連のタグを定義できます。';
 $string['cantlistinstitutiontags'] = 'あなたはインスティテューションタグを一覧表示できません。';
 $string['createtag'] = 'タグを作成する';
@@ -468,7 +468,7 @@ $string['passwordstrength4'] = '非常に強い';
 $string['passworddescriptionbase'] = '最小パスワード長は %s 文字です。';
 $string['passworddescription1.ul'] = '大文字 [A-Z] および小文字 [a-z] を含む必要があります。';
 $string['passworddescription1.uln'] = '大文字 [A-Z]、小文字 [a-z] および数字 [0-9] を含む必要があります。';
-$string['passworddescription1.ulns'] = '大文字 [A-Z]、小文字 [a-z]、数字 [0-9] および記号 [例) ! . @ # $ & * - _ ] を含む必要があります。';
+$string['passworddescription1.ulns'] = '大文字 [A-Z]、小文字 [a-z]、数字 [0-9] および記号 [例)  ! . @ # $ & * - _ ] を含む必要があります。';
 $string['passwordhelp'] = 'あなたがシステムへのアクセスに使用するパスワードです。';
 $string['passwordnotchanged'] = 'あなたはパスワードを変更していません。新しいパスワードを入力してください。';
 $string['passwordsaved'] = 'あなたの新しいパスワードが保存されました。';
@@ -508,8 +508,8 @@ $string['fullname'] = 'フルネーム';
 $string['registerwelcome'] = 'ようこそ! このサイトを利用するには最初に登録してください。';
 $string['registeragreeterms'] = 'また、あなたは<a href="terms.php">利用条件</a>に同意する必要があります。';
 $string['registerprivacy1'] = 'ここで収集したデータは私たちのプライバシ保護方針に準じて保存されます。';
-$string['registerstep3fieldsoptional'] = '<h1>任意のプロファイルイメージを選択する</h1><p>あなたは正常に %s に登録されました。あなたのアバタとして表示する任意のプロファイル画像を選択できます。</p>';
-$string['registerstep3fieldsmandatory'] = '<h1>必須プロファイルフィールドに入力する</h1><p>以下のフィールドは必須です。あなたの登録を完了するにはすべての必須フィールドに入力してください。</p>';
+$string['registerstep3fieldsoptional'] = '<h3>任意のプロファイルイメージを選択する</h3><p>あなたは正常に %s に登録されました。あなたのアバタとして表示する任意のプロファイル画像を選択できます。</p>';
+$string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須です。あなたの登録を完了するにはすべての必須フィールドに入力してください。</p>';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムに登録できません。';
 $string['membershipexpiry'] = 'メンバシップ有効期限切れ';
 $string['institutionfull'] = 'あなたが選択したインスティテューションはこれ以上登録を受け付けていません。';
@@ -836,7 +836,7 @@ $string['clambroken'] = 'あなたの管理者がファイルアップロード�
 $string['clamemailsubject'] = '%s :: ClamAV通知';
 $string['clamlost'] = 'ClamAVがファイルのアップロード時に動作するよう設定されていますがClamAVに提供されたパス「 %s 」が正しくありません。';
 $string['clamnotset'] = 'あなたはウイルスチェックを有効にしましたが「ClamAVのパス」を設定していません。あなたのconfig.phpファイルに「$cfg->pathtoclam」を追加してClamAVのパスを設定するまでウイルスチェックは有効になりません。';
-$string['clamfailed'] = 'ClamAVの実行に失敗しました。エラーメッセージは %s です。ClamAVからの出力は次のとおりです:';
+$string['clamfailed'] = 'ClamAVの実行に失敗しました。エラーメッセージは %s です。ClamAVのアウトプットは次のとおりです:';
 $string['clamunknownerror'] = 'ClamAVに不明なエラーが発生しました。';
 $string['image'] = 'イメージ';
 $string['imageformattingoptions'] = 'イメージフォーマットオプション';
@@ -1206,7 +1206,6 @@ $string['constrain'] = '縦横比';
 $string['vspace'] = '垂直方向の余白';
 $string['hspace'] = '水平方向の余白';
 $string['border'] = '罫線幅';
-$string['showcaption'] = 'キャプションを表示する';
 $string['alignment'] = '位置揃え';
 $string['errorLoading'] = '結果を読み込めませんでした。';
 $string['inputTooLong'] = '文字が多すぎます。';
@@ -1302,28 +1301,3 @@ $string['institutionfilledreplymessage'] = '%s さん、こんにちは。
 $string['institutionmembershiprequestsdescription'] = 'あなたは次のインスティテューションへの参加をリクエストしました。';
 $string['institutionmembershipinvitedescription'] = '管理者があなたに次のインスティテューションへの参加を招待しました。';
 $string['institutionmembershipjoindescription'] = 'あなたはインスティテューションへの参加リクエストを送信できます。「インスティテューションID」フィールドはこのインスティテューションの学籍番号設定用です。';
-$string['accountupdated'] = '%s: アカウントが更新されました。';
-$string['accountupdatedheading'] = '%s さん
-
-あなたのアカウントは %s に更新されました。途中であなたのアカウント名が変更されている可能性があります。変更は以下のとおりです:
-
-%s';
-$string['accountupdatedheadinghtml'] = '<p>%s さん</p>
-<p>あなたのアカウントは %s に更新されました。途中であなたのアカウント名が変更されている可能性があります。変更は以下のとおりです:</p>
-
-<p>%s </p>';
-$string['accountupdatednewinstitution'] = 'あなたはインスティテューション %s に追加されました。';
-$string['accountupdatednewinstitutionhtml'] = '<p>あなたはインスティテューション %s に<strong>追加</strong>されました。</p>';
-$string['accountupdatedremovedinstitutions'] = 'あなたは次のインスティテューションから削除されました: %s';
-$string['accountupdatedremovedinstitutionshtml'] = '<p>あなたは次のインスティテューションから<strong>削除</strong>されました: <br /> %s</p>';
-$string['accountupdatedpasswordreset'] = '以下のリンクを使用してあなたのパスワードを変更してください:
-
-%s
-
-注意: このリンクは1日後の %s に有効期限切れとなります。';
-$string['accountupdatedpasswordresethtml'] = '<p><a href="%s">あなたのパスワードを変更してください</a>。</p>
-
-<p><strong>注意</strong>: このリンクは1日後の %s に有効期限切れとなります。</p>';
-$string['accountupdateresetpasslink'] = '%sforgotpass.php?key=%s';
-$string['accountupdatefooter'] = '%s 管理者';
-$string['accountupdatefooterhtml'] = '<p>%s 管理者</p>';

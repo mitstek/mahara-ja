@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-08-04 05:19:40 UTC
+ * @updated    2022-04-13 23:15:04 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -80,7 +80,7 @@ $string['addedleap2atoexportqueueviews'] = 'あなたのページの一部をエ
 $string['addedleap2atoexportqueueall'] = 'あなたのデータすべてをエクスポートキューに追加しました。';
 $string['exportqueuenotempty'] = 'この人のアイテムがエクスポートキューにあります。アーカイブされるまでお待ちください。';
 $string['requeue'] = '再度キューに追加する';
-$string['unabletoexportportfoliousingoptionsadmin1'] = 'アイテムはポートフォリオオブジェクトではありません。';
+$string['unabletoexportportfoliousingoptionsadmin'] = 'アイテムはページまたはコレクションオブジェクトではありません。';
 $string['exportzipfileerror'] = 'ZIPファイルの生成に失敗しました: %s';
 $string['submissiondirnotwritable'] = '提出アーカイブディレクトリに書き込めません: %s';
 $string['exportarchivesavefailed'] = 'データベースにエクスポートアーカイブ情報を保存できません。';
