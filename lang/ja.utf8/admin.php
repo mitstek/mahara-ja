@@ -5,8 +5,8 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-12 11:23:33 UTC
- * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
+ * @updated    2023-03-13 05:04:24 UTC
+ * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
@@ -62,6 +62,10 @@ $string['clisitename'] = 'サイト名';
 $string['cliupdatesitenamefailed'] = 'サイト名の更新に失敗しました。';
 $string['cliinstallerdescription'] = 'Maharaをインストールして必要なデータディレクトリを作成します。';
 $string['cliinstallingmahara'] = 'Maharaをインストールする';
+$string['versionnumber'] = 'バージョン: %s';
+$string['plugintype'] = 'プラグイン: %s';
+$string['updateeventlogconfigoption'] = 'あなたのconfig.phpファイルで$cfg->eventloglevel設定値を「masq」から「masquerade」に更新する必要があります。';
+$string['registrationisoptout'] = '匿名登録データはオプトアウトになりました。';
 $string['cli_upgrade_description'] = 'インストールされたMaharaのバージョンにMaharaデータベースおよびデータをアップグレードします。';
 $string['cli_upgrade_title'] = 'Maharaをアップグレードする';
 $string['cli_upgrade_force'] = '強制的にアップグレードして戻る';
@@ -198,9 +202,9 @@ $string['generateduserurls'] = '%s プロファイルURLを生成しました。
 $string['generatedgroupurls'] = '%s グループホームページURLを生成しました。';
 $string['generatedviewurls'] = '%s ポートフォリオページURLを生成しました。';
 $string['cleanurlsdescriptionshort'] = '人間が解読可能なURLを使用するようサイトを設定します。';
-$string['embeddedurls'] = '埋め込みURLを更新する';
-$string['embeddedurlsdescription'] = '<p>あなたのURLを変更した場合、埋め込みコンテンツ内の既存のURLは間違った場所を指定することになります。</p><p>あなたはここで古いURLドメインを指定して修正できます。</p>';
-$string['nopotentialembeddedurls'] = '<p>潜在的な古いURLは検出されませんでした。</p>';
+$string['embeddedurls'] = '埋め込みURL';
+$string['embeddedurlsdescription'] = '<p>あなたのURLを変更した場合、サイト上の埋め込みコンテンツ内の既存のリンクが間違った場所を指すことになります。</p><p>あなたはここで古いURLドメインを指定して修正できます。</p>';
+$string['nopotentialembeddedurls'] = '<p>潜在的に古いURLは検出されませんでした。</p>';
 $string['potentialembeddedurls'] = '<p>次のセクションには古いURLが含まれているようです。</p>';
 $string['oldurl'] = '古いサイトURL';
 $string['oldurldescription'] = '古いサイトのURLパスを入力してください。例) 「https://oldsite.com」を入力して何か更新する必要があるか確認します。';
@@ -217,6 +221,14 @@ $string['section_artefact'] = 'アーティファクトコンテンツ';
 $string['section_interaction'] = 'フォーラム説明';
 $string['section_interactionpost'] = 'フォーラムコンテンツ';
 $string['section_block'] = 'ブロックコンテンツ';
+$string['section_static_pages'] = '固定ページコンテンツ';
+$string['section_wall_post'] = 'ウォールコンテンツ';
+$string['section_artefact_resume_certification'] = 'レジュメ: 証明コンテンツ';
+$string['section_artefact_resume_educationhistory'] = 'レジュメ: 教育履歴';
+$string['section_artefact_resume_book'] = 'レジュメ: 書籍コンテンツ';
+$string['section_verification_comment'] = '検証コメント';
+$string['section_artefact_resume_membership'] = 'レジュメ: メンバーシップ';
+$string['section_artefact_resume_employmenthistory'] = 'レジュメ: 職歴';
 $string['potentialfor'] = '%s の結果';
 $string['warnings'] = '警告';
 $string['applyingchanges'] = '変更を適用する';
@@ -254,29 +266,32 @@ $string['filemissing'] = '%s (ファイル不明)';
 $string['filemissingdesc'] = 'ファイル「 %s%s 」がサーバにありません。';
 $string['Field'] = 'フィールド';
 $string['Value'] = '値';
-$string['dataincluded'] = '含まれるデータ';
-$string['datathathavebeensent'] = '送信されたデータ';
 $string['sendweeklyupdates'] = '週ごとの更新状況を送信する';
 $string['sendweeklyupdatesdescription'] = 'あなたのサイトの統計情報を含む週ごとの更新状況の<a href="https://mahara.org/">mahara.org</a>への送信を許可します。';
-$string['newregistrationpolicyinfo'] = '<p>私たちは登録サイトによる週ごとのデータ更新の提供を必須とするよう登録データポリシを変更しました。あなたの登録を承認または削除するには以下のリンクに従ってください。</p>';
-$string['registerwithmahara'] = 'mahara.orgに登録する';
-$string['registerwithmaharadescription'] = 'あなたのサイトがMaharaプロジェクトに登録された場合、登録解除できません。';
+$string['newregistrationpolicyinfo1'] = '<ul>
+<li>Maharaがどのように使用されているかより良い洞察を得るため、私たちは登録データポリシを更新してサイトの週ごと更新の匿名データ提供のオプトアウトを要求します。</li>
+<li>私たちは収集する匿名データの内容を変更しました。</li>
+</ul>';
+$string['registerwithmahara1'] = 'データ収集をオプトアウトする';
+$string['registerwithmaharadescription1'] = 'あなたのサイトの匿名化データをMaharaプロジェクトに送信しないよう設定できます。Maharaプロジェクトチームの製品開発を支援するため、私たちはあなたのサイトの登録継続をお勧めします。';
 $string['Register'] = '登録';
 $string['Registration'] = '登録';
 $string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/registersite.php">サイト登録ページ</a>にアクセスして登録できます。';
 $string['registrationfailedtrylater'] = 'エラーコード %s により登録が失敗しました。後ほど再度お試しください。';
+$string['registrationoptoutsuccessful'] = '正常に登録がオプトアウトされました。これ以上データは送信されません。';
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます。';
 $string['registermaharasite'] = 'サイト登録';
 $string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することにより、私たちの世界中のMaharaインストール状況把握に役立ちます。</p>';
-$string['registeryourmaharasitedetail'] = '<p>あなたのサイトをMaharaプロジェクトに登録できます。登録は無料であり私たちが世界中のMaharaインストール状況を把握するための助けとなります。</p>
-<p>あなたが週ごとの更新状況の送信を決定した場合、Maharaプロジェクトに送信される予定の情報を確認できます。あなたのサイトのすべての人に関して個人を特定できるものは一切送信されません。</p>';
+$string['registeryourmaharasitedetail1'] = '<p>サイトはMaharaプロジェクトに自動的に登録されます。登録は無料であり私たちが世界中のMaharaインストール状況を把握するための助けとなります。</p>
+<p>Maharaプロジェクトは個人情報および個人を特定できるデータを収集しません。ほとんどのデータはプロジェクトが傾向を特定できるよう集約された形で収集されます。あなたは以下でどのようなデータが収集されて週ごとに送信されるか確認できます。</p>
+<p>あなたがデータ収集に関して質問がある場合、<a href="mailto:info@mahara.org?subject=Site registration data collection">ご連絡ください</a>。</p>';
 $string['sendingweeklyupdates1'] = 'あなたは週ごとの更新状況を送信しています。';
 $string['notsendingweeklyupdates'] = 'あなたは週ごとの更新状況を送信していません。';
-$string['siteisregisteredsince'] = '%s 以来、あなたのサイトは<a href="https://mahara.org/">mahara.org</a>に登録されています。';
-$string['siteisregistered'] = 'あなたのサイトは<a href="https://mahara.org/">mahara.org</a>に登録されます。';
-$string['siteregistrationpolicy'] = '<p>どのようにMaharaが使用されているか私たちの統計が正確に表示するため、登録には私たちへの週ごとの更新状況の送信を含みます。あなたの登録を確認した後、以下の「保存」ボタンをクリックして承認してください。</p>';
+$string['siteisregisteredsince1'] = '%s 以来、あなたのサイトは<a href="https://mahara.org/">mahara.org</a>に登録されています。';
+$string['sitenotregistered'] = '現在、あなたのサイトはMaharaプロジェクトに登録されていません。私たちがあなたの利用状況をより詳しく知るために以下でオプトインしてください。';
+$string['siteisregistered1'] = 'あなたのサイトは<a href="https://mahara.org/">mahara.org</a>に登録された上で週別データを送信します。';
+$string['siteregistrationpolicy1'] = '登録ポリシは次のように変更されました。';
 $string['startsendingdata'] = 'あなたのサイトは週ごとの更新状況を<a href="https://mahara.org/">mahara.org</a>に送信しています。';
-$string['stoppedsendingdata'] = '週ごとの更新状況が停止されました。';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
 $string['closesitedetail'] = 'あなたは管理者を除くすべての人にサイトをクローズできます。これはデータベースアップグレードの準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインできます。';
@@ -468,10 +483,10 @@ $string['smallviewheaders'] = 'スモールページヘッダ';
 $string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧および編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
 $string['spamhaus2'] = 'Spamhaus URL拒否リスト';
 $string['spamhausdescription1'] = 'URLをSpamhaus DNSBLと照合します。';
-$string['staffaccessreports'] = 'スタッフによるレポートアクセス';
-$string['staffaccessreportsdescription1'] = 'サイトおよびインスティテューションスタッフがインスティテューションの「アカウント詳細」「ポートフォリオアクセス」および「マスカレーディングセッション」レポートにアクセスできるようにします。通常、これらのレポートは管理者に制限されます。';
-$string['institutionstaffallreports'] = 'インスティテューションスタッフのすべてのレポート';
-$string['institutionstaffallreportsdescription'] = 'インスティテューションスタッフがインスティテューションのすべてのレポートにアクセスできるようにします。通常、これらのレポートは管理者およびサイトスタッフに制限されます。';
+$string['staffaccessreports'] = 'スタッフ用アクセスレポート';
+$string['staffaccessreportsdescription1'] = 'サイトおよびインスティテューションスタッフによるインスティテューション内の「アカウント詳細」「ポートフォリオアクセス」「マスカレードセッション」レポートへのアクセスを許可します。通常、これらのレポートは管理者に制限されています。';
+$string['institutionstaffallreports'] = 'インスティテューションスタッフ用すべてのレポート';
+$string['institutionstaffallreportsdescription'] = 'インスティテューションスタッフにインスティテューションのすべてのレポートへのアクセスを許可します。通常、レポートは管理者およびサイトスタッフに制限されています。';
 $string['surbl2'] = 'SURBL URL拒否リスト';
 $string['surbldescription1'] = 'URLをSURBL DNSBLと照合します。';
 $string['disableexternalresources'] = 'HTML内の外部リソースを無効にする';
@@ -1029,7 +1044,7 @@ $string['nousersupdated'] = '更新されたアカウントはありません。
 $string['errorupdatinginstitutionusers'] = 'インスティテューションメンバ更新中にエラーが発生しました。';
 $string['revokeinvitation'] = '招待を取り消す';
 $string['invitedusers'] = '招待された人';
-$string['userstobeuninvited'] = '招待される人';
+$string['userstobeuninvited'] = '招待を取り消される人';
 $string['moveuserstoadd'] = '選択したメンバリクエストをメンバに変更する';
 $string['moveusersfromadd'] = '選択したメンバをメンバリクエストに変更する';
 $string['moveuserstoinvite'] = '選択した非メンバを招待済みに変更する';
@@ -1058,7 +1073,7 @@ $string['Admins'] = '管理者';
 $string['noinstitutions'] = 'インスティテューションはありません。';
 $string['noinstitutionsdescription'] = 'あなたが人をインスティテューションと関連付けたい場合、最初にインスティテューションを作成してください。';
 $string['noinstitutionreports'] = 'インスティテューションレポートを表示できません。';
-$string['noinstitutionreportsdescription1'] = 'サイトがスタッフにインスティテューションレポートを閲覧できるようにするにはスタッフレポートアクセスを有効にする必要があります。サイト管理者は<a href="%sadmin/site/options.php">サイト設定</a>の「インスティテューション設定」でこの設定を有効にできます。';
+$string['noinstitutionreportsdescription1'] = 'サイトがスタッフによるインスティテューションレポートの閲覧を許可するにはスタッフレポートアクセスを有効にする必要があります。サイト管理者はこの設定を「<a href="%sadmin/site/options.php">サイト設定</a>」配下の「インスティテューション設定」で有効にできます。';
 $string['noinstitutionstaticpages'] = 'あなたにはインスティテューション固定ページを編集するパーミッションがないかまだインスティテューションが作成されていません。';
 $string['noinstitutionstaticpagesadmin'] = 'あなたがサイト管理者の場合、<a href="%s">サイト設定</a>でデフォルト固定ページを編集してください。';
 $string['Lockedfields'] = 'ロックフィールド';
@@ -1148,7 +1163,7 @@ $string['quotapercent'] = 'クオータ使用量';
 $string['userreports'] = '人レポート';
 $string['userreportsdescription'] = 'あなたが検索ページで選択したアカウントに関する情報を表示またはダウンロードします。';
 $string['unabletodeleteself1'] = 'あなた自身を削除できません。';
-$string['unabletodeletealladmins1'] = 'あなたはすべてのサイト管理者を削除できません。';
+$string['unabletodeletealladmins1'] = 'あなたはすべてのサイト管理者を削除できません';
 $string['unabletosuspendself'] = 'あなた自身を利用停止できません。';
 $string['unabletosuspendalladmins'] = 'あなたはすべてのサイト管理者を利用停止できません。';
 $string['verifierload'] = 'レビュア負荷別のポートフォリオのパーセンテージ';
@@ -1296,7 +1311,7 @@ $string['cli_param_dryrun'] = 'ドライランで何が起きるか表示しま�
 $string['cli_deleteinactiveusers_beforedate'] = '最終ログイン日がこの日付より前のアカウントを削除します。日付には次のような日時ストリングを使用できます: 「2018-02-25」または「-6 months」';
 $string['cli_deleteinactiveusers_limit'] = 'それぞれの削除で処理するアカウント数を制限します。';
 $string['cli_deleteinactiveusers_cleanusers'] = '同時に「usr」テーブルからアカウントの削除を試みます。';
-$string['cli_deleteinactiveusers_info'] = 'あなたはこのコマンドラインPHPスクリプトで古いアカウントを削除できます。ログインしていないかフォーラムに一度も投稿していない人のみ処理されます。';
+$string['cli_deleteinactiveusers_info'] = 'あなたはこのコマンドラインPHPスクリプトで古いアカウントを削除できます。これはログインしたことがない人またはフォーラムに投稿したことがない人にのみ機能します。';
 $string['cli_deleteinactiveusers_neverloggedin'] = '管理者によって設定されて一度もログインしていなアカウントを削除します。';
 $string['cli_param_baddate'] = '提供された日付「 %s 」は有効ではありません。';
 $string['cli_deleteinactiveusers_usercount'] = '削除対象アカウントは「 %s 」名です。';
@@ -1342,8 +1357,8 @@ $string['creationdate'] = '作成日時';
 $string['version'] = 'バージョン';
 $string['viewversion'] = 'バージョン %s を表示する';
 $string['editversion'] = 'バージョン %s を編集する';
-$string['privacylastversion'] = 'プライバシ保護方針には半角15文字のユニークなバージョン名が必要です。このプライバシ保護方針の最新バージョンは「 %s 」です。';
-$string['termsandconditionslastversion'] = '利用条件には半角15文字のユニークなバージョン名が必要です。これらの利用条件の最新バージョンは「 %s 」です。';
+$string['privacylastversion'] = 'プライバシ保護方針には最大半角15文字のユニークなバージョン名が必要です。このプライバシ保護方針の最新バージョンは「 %s 」です。';
+$string['termsandconditionslastversion'] = '利用条件には最大半角15文字のユニークなバージョン名が必要です。これらの利用条件の最新バージョンは「 %s 」です。';
 $string['versionalreadyexist'] = 'バージョン %s の「 %s 」はすでに存在します。';
 $string['siteprivacy'] = 'サイトプライバシ保護方針';
 $string['siteprivacyconsentdate'] = 'サイトプライバシ保護方針同意がレビュされました。';
@@ -1402,7 +1417,7 @@ $string['consented'] = '同意済み';
 $string['groupid'] = 'グループID';
 $string['blocktypeupdatedsuccess'] = 'ブロックタイプ並べ替え順を更新しました。';
 $string['groupdefaultsettings'] = 'デフォルトグループ設定';
-$string['introtext'] = 'あなたは新しいグループが作成される場合に使用されるデフォルト設定を変更できます。一部の設定は特定のロールの人のみ利用できます。特定のロールの人に許可されるオプションは新しいグループを作成される場合には無視され代わりにデフォルト値が使用されます。';
+$string['introtext'] = 'あなたは新しいグループが作成される場合に使用されるデフォルト設定を変更できます。一部の設定は特定のロールの人のみ利用できます。特定のロールの人が利用できないオプションは新しいグループ作成時に無視されて代わりにデフォルト値が使用されます。';
 $string['savedgroupconfigsuccessfully'] = 'デフォルトグループ設定を保存しました。';
 $string['defaultreset'] = 'デフォルトにリセットする';
 $string['defaultresetlabel'] = 'リセット';
@@ -1414,3 +1429,13 @@ $string['Path'] = 'パス';
 $string['styleguide'] = 'スタイルガイド';
 $string['thirdpartyplugins'] = 'README.Maharaファイルに基づくサードパーティプラグイン';
 $string['url'] = 'url';
+$string['pluginartefact'] = 'プラグインタイプ: アーティファクト';
+$string['pluginauth'] = 'プラグインタイプ: 認証';
+$string['pluginblocktype'] = 'プラグインタイプ: ブロックタイプ';
+$string['pluginexport'] = 'プラグインタイプ: エクスポート';
+$string['plugingrouptype'] = 'プラグインタイプ: グループタイプ';
+$string['pluginimport'] = 'プラグインタイプ: インポート';
+$string['plugininteraction'] = 'プラグインタイプ: インタラクション';
+$string['pluginmodule'] = 'プラグインタイプ: モジュール';
+$string['pluginnotification'] = 'プラグインタイプ: 通知';
+$string['pluginsearch'] = 'プラグインタイプ: 検索';

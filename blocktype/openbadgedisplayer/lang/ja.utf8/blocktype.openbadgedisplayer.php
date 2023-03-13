@@ -5,8 +5,8 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-09-21 21:39:49 UTC
- * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
+ * @updated    2023-03-13 04:33:41 UTC
+ * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
@@ -55,3 +55,11 @@ $string['badgrtokenadded'] = 'バッジャトークンがアカウントに追�
 $string['badgrtokendeleted'] = 'バッジャトークンが削除されました。';
 $string['badgrtokennotfound'] = '提供された認証情報ではバッジャトークンは見つかりませんでした。';
 $string['nobadgruid2'] = 'あなたがバッジャを使用できるようにするにはトークンを設定する必要があります。バッジャを設定するには「アカウントメニュ → 設定 → アプリ → バッジャ」に移動してください。';
+$string['resetobsoletebadgrtokensubject'] = 'あなたのバッジャトークンをリセットする必要があります。';
+$string['resetobsoletebadgrtokenmessage1'] = '%s さん
+
+現在、あなたの %s で使用中のバッジャトークンは廃止されています。
+
+このトークンはあなたのポートフォリオページ内でバッジャバッジの表示に使用されます。
+
+「アカウントメニュ → 設定 → 接続済みアプリ → バッジャ」にアクセスして新しいものを設定してください。';
