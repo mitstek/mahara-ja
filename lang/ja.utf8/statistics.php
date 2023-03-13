@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-04-27 01:33:53 UTC
+ * @updated    2022-10-17 01:19:26 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,8 +13,46 @@
 
 defined('INTERNAL') || die();
 
-$string['allowpublicprofiles'] = 'パブリックプロファイルの許可';
-$string['allowpublicviews1'] = 'パブリックポートフォリオの許可';
+$string['active'] = 'アクティブ';
+$string['site'] = 'サイト';
+$string['country'] = '国';
+$string['timezone'] = 'タイムゾーン';
+$string['homepageinfo'] = 'ホームページを表示する';
+$string['homepageredirect'] = 'カスタムランディングページ';
+$string['skins'] = 'スキン';
+$string['license'] = 'ライセンス';
+$string['mathjax'] = 'MathJax';
+$string['exporttoqueue'] = 'キューにエクスポートする';
+$string['allowpublicprofiles'] = 'パブリックプロファイル許可';
+$string['searchplugin'] = 'アクティブ検索プラグイン';
+$string['eventlogging'] = 'イベントレポート';
+$string['enablenetworking'] = 'ネットワーキング有効';
+$string['moodlehost'] = 'Moodleホスト';
+$string['institutionstrictprivacy'] = '厳密なプライバシ';
+$string['licensemetadata'] = 'ライセンスメタデータ';
+$string['institutions_accounts'] = 'インスティテューションおよびアカウント';
+$string['usersallowedmultipleinstitutions'] = '複数インスティテューションを許可された人';
+$string['isolatedinstitutions'] = '隔離インスティテューション';
+$string['institutions'] = 'インスティテューション';
+$string['count_usr'] = 'アカウント数';
+$string['siteadmins'] = 'サイト管理者';
+$string['sitestaff'] = 'サイトスタッフ';
+$string['institutionadmins'] = 'インスティテューション管理者';
+$string['institutionsupportadmins'] = 'インスティテューションサポート管理者';
+$string['institutionstaff'] = 'インスティテューションスタッフ';
+$string['groups'] = 'グループ';
+$string['friends'] = 'フレンド関係';
+$string['artefacts'] = 'アーティファクト';
+$string['numberofartefacts'] = 'アーティファクト合計数';
+$string['blocktypes'] = 'ブロック';
+$string['numberofblocks'] = 'ブロック合計数';
+$string['portfolios'] = 'ポートフォリオ';
+$string['allowanonymouspages'] = '匿名ページ許可';
+$string['allowpublicviews'] = 'パブリックポートフォリオ許可';
+$string['numberofpages'] = 'ポートフォリオページ';
+$string['numberofcollections'] = 'ポートフォリオコレクション';
+$string['numberofsecollections'] = 'スマートエビデンスコレクション';
+$string['numberofpccollections'] = 'ポートフォリオ完了コレクション';
 $string['artefact_type_academicgoal'] = 'アーティファクト: アカデミックゴール';
 $string['artefact_type_academicskill'] = 'アーティファクト: アカデミックスキル';
 $string['artefact_type_address'] = 'アーティファクト: 番地以下';
@@ -52,6 +90,7 @@ $string['artefact_type_membership'] = 'アーティファクト: 専門会員資
 $string['artefact_type_mobilenumber'] = 'アーティファクト: 携帯電話';
 $string['artefact_type_occupation'] = 'アーティファクト: 職業';
 $string['artefact_type_officialwebsite'] = 'アーティファクト: オフィシャルウェブサイトアドレス';
+$string['artefact_type_peerassessment'] = 'アーティファクト: 相互評価';
 $string['artefact_type_personalgoal'] = 'アーティファクト: パーソナルゴール';
 $string['artefact_type_personalinformation'] = 'アーティファクト: 個人情報';
 $string['artefact_type_personalskill'] = 'アーティファクト: パーソナルスキル';
@@ -63,6 +102,7 @@ $string['artefact_type_socialprofile'] = 'アーティファクト: ソーシャ
 $string['artefact_type_studentid'] = 'アーティファクト: 学籍番号';
 $string['artefact_type_task'] = 'アーティファクト: タスク';
 $string['artefact_type_town'] = 'アーティファクト: 市区町村';
+$string['artefact_type_userroles'] = 'アーティファクト: ロール';
 $string['artefact_type_video'] = 'アーティファクト: ビデオファイル';
 $string['artefact_type_workskill'] = 'アーティファクト: ワークスキル';
 $string['blocktype_annotation'] = 'ブロック: アノテーション';
@@ -70,11 +110,12 @@ $string['blocktype_blog'] = 'ブロック: 日誌';
 $string['blocktype_blogpost'] = 'ブロック: 日誌エントリ';
 $string['blocktype_comment'] = 'ブロック: コメント';
 $string['blocktype_contactinfo'] = 'ブロック: 連絡先';
+$string['blocktype_courseinfo'] = 'ブロック: コース情報';
 $string['blocktype_creativecommons'] = 'ブロック: クリエイティブ・コモンズ';
 $string['blocktype_entireresume'] = 'ブロック: レジュメ全体';
 $string['blocktype_externalfeed'] = 'ブロック: 外部フィード';
 $string['blocktype_externalvideo'] = 'ブロック: 外部メディア';
-$string['blocktype_filedownload'] = 'ブロック: ダウンロードできるファイル';
+$string['blocktype_filedownload'] = 'ブロック: ファイル';
 $string['blocktype_folder'] = 'ブロック: フォルダ';
 $string['blocktype_gallery'] = 'ブロック: イメージギャラリ';
 $string['blocktype_googleapps'] = 'ブロック: Googleアプリ';
@@ -82,7 +123,6 @@ $string['blocktype_groupinfo'] = 'ブロック: グループ情報';
 $string['blocktype_groupmembers'] = 'ブロック: グループメンバ';
 $string['blocktype_groupviews'] = 'ブロック: グループポートフォリオ';
 $string['blocktype_html'] = 'ブロック: HTML';
-$string['blocktype_pdf'] = 'ブロック: PDF';
 $string['blocktype_image'] = 'ブロック: イメージ';
 $string['blocktype_inbox'] = 'ブロック: マイ受信箱';
 $string['blocktype_internalmedia'] = 'ブロック: 埋め込みメディア';
@@ -90,104 +130,39 @@ $string['blocktype_myfriends'] = 'ブロック: マイフレンド';
 $string['blocktype_mygroups'] = 'ブロック: マイグループ';
 $string['blocktype_myviews'] = 'ブロック: マイポートフォリオ';
 $string['blocktype_navigation'] = 'ブロック: ナビゲーション';
-$string['blocktype_newviews'] = 'ブロック: 最新ページ';
+$string['blocktype_newviews'] = 'ブロック: 私への共有';
+$string['blocktype_openbadgedisplayer'] = 'ブロック: オープンバッジ';
+$string['blocktype_pdf'] = 'ブロック: PDF';
+$string['blocktype_peerassessment'] = 'ブロック: 相互評価';
+$string['blocktype_placeholder'] = 'ブロック: プレースホルダ';
 $string['blocktype_plans'] = 'ブロック: プラン';
 $string['blocktype_profileinfo'] = 'ブロック: プロファイル情報';
 $string['blocktype_recentforumposts'] = 'ブロック: 最近のフォーラム投稿';
 $string['blocktype_recentposts'] = 'ブロック: 最近の日誌エントリ';
 $string['blocktype_resumefield'] = 'ブロック: レジュメフィールド';
+$string['blocktype_signoff'] = 'ブロック: 承認';
+$string['blocktype_socialprofile'] = 'ブロック: ソーシャルメディア';
 $string['blocktype_taggedposts'] = 'ブロック: タグ付き日誌エントリ';
 $string['blocktype_text'] = 'ブロック: テキスト';
 $string['blocktype_textbox'] = 'ブロック: ノート';
-$string['blocktype_socialprofile'] = 'ブロック: ソーシャルメディア';
+$string['blocktype_verification'] = 'ブロック: 検証';
 $string['blocktype_wall'] = 'ブロック: ウォール';
-$string['blocktype_watchlist'] = 'ブロック: ウォッチページ';
-$string['count_block_instance'] = 'ブロック数';
-$string['count_blocktype_wall_post'] = 'ウォール投稿数';
-$string['count_group'] = 'グループ数';
-$string['count_group_member'] = 'グループメンバ数';
-$string['count_host'] = 'Moodleホスト数';
-$string['count_institution'] = 'インスティテューション数';
-$string['count_interaction_forum_post'] = 'フォーラム投稿数';
-$string['count_usr'] = '人数';
-$string['count_usr_friend'] = 'フレンド関係数';
-$string['count_usr_institution'] = 'インスティテューション内人数';
-$string['count_members'] = 'インスティテューションメンバ数';
-$string['count_artefacts'] = 'アーティファクト数';
-$string['count_blocks'] = 'ブロック数';
-$string['count_views'] = 'ページ数';
-$string['dbtype'] = 'データベースタイプ';
-$string['enablenetworking'] = '有効なネットワーキング';
+$string['blocktype_watchlist'] = 'ブロック: 私が観察しているページ';
 $string['grouptypes'] = 'グループタイプ';
 $string['installation_key'] = 'インストレーションキー';
 $string['lang'] = '言語';
 $string['newstats'] = '新しい統計';
-$string['plugin_artefact_blog_version'] = 'アーティファクトプラグイン: 「日誌」バージョン';
-$string['plugin_artefact_comment_version'] = 'アーティファクトプラグイン: 「コメント」バージョン';
-$string['plugin_artefact_file_version'] = 'アーティファクトプラグイン: 「ファイル」バージョン';
-$string['plugin_artefact_internal_version'] = 'アーティファクトプラグイン: 「XXXXXX」バージョン';
-$string['plugin_artefact_plans_version'] = 'アーティファクトプラグイン: 「プラン」バージョン';
-$string['plugin_artefact_resume_version'] = 'アーティファクトプラグイン: 「レジュメ」バージョン';
-$string['plugin_auth_browserid_version'] = '認証プラグイン: 「Persona」バージョン';
-$string['plugin_auth_imap_version'] = '認証プラグイン: 「IMAP」バージョン';
-$string['plugin_auth_internal_version'] = '認証プラグイン: 「内部」バージョン';
-$string['plugin_auth_ldap_version'] = '認証プラグイン: 「LDAP」バージョン';
-$string['plugin_auth_none_version'] = '認証プラグイン: 「なし」バージョン';
-$string['plugin_auth_saml_version'] = '認証プラグイン: 「SAML」 バージョン';
-$string['plugin_auth_xmlrpc_version'] = '認証プラグイン: 「XML-RPC」バージョン';
-$string['plugin_blocktype_blogpost_version'] = 'ブロックタイププラグイン: 「日誌エントリ」バージョン';
-$string['plugin_blocktype_blog_version'] = 'ブロックタイププラグイン: 「日誌」バージョン';
-$string['plugin_blocktype_contactinfo_version'] = 'ブロックタイププラグイン: 「連絡先」バージョン';
-$string['plugin_blocktype_creativecommons_version'] = 'ブロックタイププラグイン: 「クリエイティブ・コモンズ」バージョン';
-$string['plugin_blocktype_entireresume_version'] = 'ブロックタイププラグイン: 「日誌全体」バージョン';
-$string['plugin_blocktype_externalfeed_version'] = 'ブロックタイププラグイン: 「外部フィード」バージョン';
-$string['plugin_blocktype_externalvideo_version'] = 'ブロックタイププラグイン: 「外部メディア」バージョン';
-$string['plugin_blocktype_filedownload_version'] = 'ブロックタイププラグイン: 「ダウンロードできるファイル」バージョン';
-$string['plugin_blocktype_folder_version'] = 'ブロックタイププラグイン: 「フォルダ」バージョン';
-$string['plugin_blocktype_gallery_version'] = 'ブロックタイププラグイン: 「イメージギャラリ」バージョン';
-$string['plugin_blocktype_googleapps_version'] = 'ブロックタイププラグイン: 「Googleアプリ」バージョン';
-$string['plugin_blocktype_groupinfo_version'] = 'ブロックタイププラグイン: 「グループ情報」バージョン';
-$string['plugin_blocktype_groupmembers_version'] = 'ブロックタイププラグイン: 「グループメンバ」バージョン';
-$string['plugin_blocktype_groupviews_version'] = 'ブロックタイププラグイン: 「グループポートフォリオ」バージョン';
-$string['plugin_blocktype_html_version'] = 'ブロックタイププラグイン: 「HTML」バージョン';
-$string['plugin_blocktype_pdf_version'] = 'ブロックタイププラグイン: 「PDF」バージョン';
-$string['plugin_blocktype_image_version'] = 'ブロックタイププラグイン: 「イメージ」バージョン';
-$string['plugin_blocktype_inbox_version'] = 'ブロックタイププラグイン: 「受信箱」バージョン';
-$string['plugin_blocktype_internalmedia_version'] = 'ブロックタイププラグイン: 「埋め込みメディア」バージョン';
-$string['plugin_blocktype_myfriends_version'] = 'ブロックタイププラグイン: 「マイフレンド」バージョン';
-$string['plugin_blocktype_mygroups_version'] = 'ブロックタイププラグイン: 「マイグループ」バージョン';
-$string['plugin_blocktype_myviews_version'] = 'ブロックタイププラグイン: 「マイポートフォリオ」バージョン';
-$string['plugin_blocktype_navigation_version'] = 'ブロックタイププラグイン: 「ナビゲーション」バージョン';
-$string['plugin_blocktype_newviews_version'] = 'ブロックタイププラグイン: 「最新ページ」バージョン';
-$string['plugin_blocktype_plans_version'] = 'ブロックタイププラグイン: 「プラン」バージョン';
-$string['plugin_blocktype_profileinfo_version'] = 'ブロックタイププラグイン: 「プロファイル情報」バージョン';
-$string['plugin_blocktype_recentforumposts_version'] = 'ブロックタイププラグイン: 「最近のフォーラム投稿」バージョン';
-$string['plugin_blocktype_recentposts_version'] = 'ブロックタイププラグイン: 「最近の日誌投稿」バージョン';
-$string['plugin_blocktype_resumefield_version'] = 'ブロックタイププラグイン: 「単一レジュメフィールド」バージョン';
-$string['plugin_blocktype_taggedposts_version'] = 'ブロックタイププラグイン: 「タグ付き日誌エントリ」バージョン';
-$string['plugin_blocktype_textbox_version'] = 'ブロックタイププラグイン: 「ノート」バージョン';
-$string['plugin_blocktype_wall_version'] = 'ブロックタイププラグイン: 「ウォール」バージョン';
-$string['plugin_blocktype_watchlist_version'] = 'ブロックタイププラグイン: 「ウォッチページ」バージョン';
-$string['plugin_export_html_version'] = 'エクスポートプラグイン: 「HTML」バージョン';
-$string['plugin_export_leap_version'] = 'エクスポートプラグイン: 「Leap2A」バージョン';
-$string['plugin_grouptype_course_version'] = 'グループタイププラグイン: 「コース」バージョン';
-$string['plugin_grouptype_standard_version'] = 'グループタイププラグイン: 「標準」バージョン';
-$string['plugin_import_file_version'] = 'インポートプラグイン: 「ファイル」バージョン';
-$string['plugin_import_leap_version'] = 'インポートプラグイン: 「Leap2A」バージョン';
-$string['plugin_interaction_forum_version'] = 'インタラクションプラグイン: 「フォーラム」バージョン';
-$string['plugin_notification_emaildigest_version'] = '通知プラグイン: 「メールダイジェスト」バージョン';
-$string['plugin_notification_email_version'] = '通知プラグイン: 「メール」バージョン';
-$string['plugin_notification_internal_version'] = '通知プラグイン: 「内部」バージョン';
-$string['plugin_search_internal_version'] = '検索プラグイン: 「内部」バージョン';
+$string['phpversion'] = 'PHPバージョン';
+$string['dbversion'] = 'データベースバージョン';
+$string['osversion'] = 'オペレーティングシステムバージョン';
+$string['phpsapi'] = 'PHP SAPI';
+$string['webserver'] = 'ウェブサーバ';
+$string['phpmodules'] = 'インストール済みPHPモジュール';
 $string['release'] = 'リリース';
 $string['sitename'] = 'サイト名';
 $string['theme'] = 'テーマ';
 $string['usersloggedin'] = '先週のログイン人数';
 $string['version'] = 'バージョン';
-$string['view_type_dashboard'] = 'ダッシュボード数';
-$string['view_type_grouphomepage'] = 'グループホームページ数';
-$string['view_type_portfolio'] = 'ポートフォリオページ数';
-$string['view_type_profile'] = 'プロファイルページ数';
 $string['wwwroot'] = 'WWWルート';
 $string['sitedataweekly'] = '週別サイトデータ';
 $string['group-count'] = 'グループ';
@@ -197,6 +172,7 @@ $string['institutiondataweekly'] = 'インスティテューション週別デ�
 $string['usersbytype'] = 'タイプ別の人';
 $string['staff'] = 'スタッフ';
 $string['admins'] = '管理者';
+$string['whatsentinprodmode'] = 'あなたのサイトが<a href="%s">実運用モード</a>の場合のみ登録できます。';
 $string['activeusers'] = 'アクティブアカウント';
 $string['logins'] = 'ログイン';
 $string['reports'] = 'レポート';
@@ -205,6 +181,17 @@ $string['reportsfor'] = '%s のレポート';
 $string['reporttype'] = 'レポートタイプ';
 $string['reportconfig'] = 'レポート設定';
 $string['reportdesctitle'] = 'このレポートには以下を含みます:';
+$string['reportsmartevidence'] = 'スマートエビデンス概要';
+$string['reportdescsmartevidence'] = '<ul>
+<li>スマートエビデンス概要</li>
+<li>個人情報</li>
+<li>メールアドレス</>
+<li>ポートフォリオタイトル</li>
+<li>ポートフォリオ内ページ数</li>
+<li>アクセスリスト 例) ポートフォリオを閲覧できるパーミッションのある人</li>
+<li>個別の標準にかかわらず、ポートフォリオ全体のスマートエビデンス評価のそれぞれのステータスの合計値</li>
+</ul>
+<p>選択された期間中に作成されたポートフォリオが一覧表示されます。それらの現在のアクセスパーミッションが表示されます。</p>';
 $string['reportaccesslist'] = 'ポートフォリオアクセス';
 $string['reportdescaccesslist'] = '<ul>
 <li>ポートフォリオオーナ</li>
@@ -450,6 +437,7 @@ $string['usersverifiersummaryreports'] = 'レビュア概要';
 $string['userspageactivityreports'] = 'ページ活動';
 $string['usersmasqueradingreports'] = 'マスカレーディングセッション';
 $string['usersaccesslistreports'] = 'ポートフォリオアクセス';
+$string['userssmartevidencereports'] = 'スマートエビデンス';
 $string['usersuseractivityreports'] = 'アカウント活動';
 $string['usersuserdetailsreports'] = 'アカウント詳細';
 $string['usersuseragreementreports'] = '法的同意';
@@ -527,5 +515,3 @@ $string['portfoliofilter'] = 'テンプレートでフィルタする';
 $string['portfoliofilterdescription'] = '1つまたはそれ以上のテンプレートで結果をフィルタします。';
 $string['portfolioverifierfilter'] = 'レビュア割り当て';
 $string['portfolioveriferfilterdescription'] = 'レビュアが割り当てられているか否かを基に結果をフィルタします。';
-
-?>
