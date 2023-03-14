@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-03-14 01:46:20 UTC
+ * @updated    2023-03-14 07:40:08 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -33,7 +33,7 @@ $string['canteditinstitutioncollections'] = 'あなたはインスティテュ�
 $string['canteditcollection'] = 'あなたはこのコレクションの編集を許可されていません。';
 $string['cantcreatecollection'] = 'あなたはこのコレクションの作成を許可されていません。';
 $string['cantdeletecollection'] = 'あなたはこのコレクションを削除できません。';
-$string['cantdeletecollectionsubmission'] = '送信状態であるため、あなたはこのコレクションを削除できません。';
+$string['cantdeletecollectionsubmission'] = '提出状態であるため、あなたはこのコレクションを削除できません。';
 $string['canteditdontown'] = 'あなたの所有ではないためこのコレクションを編集できません。';
 $string['canteditsubmitted'] = '評価のため「 %s 」に送信されたため、あなたはこのコレクションを編集できません。あなたはリリースされるまで待つ必要があります。';
 $string['collection'] = 'コレクション';
