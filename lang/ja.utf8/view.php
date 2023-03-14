@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-03-14 01:14:40 UTC
+ * @updated    2023-03-14 02:01:23 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -120,6 +120,8 @@ $string['nosharedviewsyet'] = 'このグループで共有されているペー�
 $string['viewssharedtogroupbyothers'] = '他の人がこのグループと共有しているページ';
 $string['sharedviews'] = '共有ページ';
 $string['submissionstogroup'] = 'このグループへの送信';
+$string['viewsourceportfolio'] = 'オリジナルポートフォリオ「 %s 」';
+$string['originalsubmissiondeleted'] = 'オリジナルポートフォリオ削除済み';
 $string['showsubmissions'] = '送信済みポートフォリオを表示する';
 $string['nosubmittedviewscollectionsyet1'] = 'このグループに送信されたポートフォリオはまだありません。';
 $string['nosubmissionsfrom'] = 'グループに送信していないメンバ';
@@ -199,6 +201,8 @@ $string['addaccessinstitution'] = 'インスティテューション「 %s 」�
 $string['addaccessgroup'] = 'グループ「 %s 」へのアクセスを追加する';
 $string['sharewithmaximum'] = 'あなたはポートフォリオを最大 %d 人またはグループで共有できます。';
 $string['shareallwithmaximum'] = 'あなたは選択されたポートフォリオを最大 %d 人またはグループで共有できます。';
+$string['submitconfirm1'] = 'あなたが「 %s 」を「 %s 」に送信した場合、コピーが作成されて評価のために送信されます。あなたはオリジナルのポートフォリオの編集を継続できます。しかし、あなたはリリースされるまで送信済みのコピーは編集できません。本当にあなたのポートフォリオを送信してもよろしいですか?';
+$string['portfoliosubmitted'] = 'ポートフォリオが送信されました。あなたは<a href="%s">あなたの送信を閲覧</a>できます。';
 $string['viewnotsubmitted'] = '現在、ポートフォリオは送信されていません。';
 $string['collectionviewsalreadysubmitted'] = 'このコレクション内のページはすでに送信されています: 「 %s 」
 リリースまたはコレクションから削除されるまであなたはコレクションを送信できません。';
@@ -206,7 +210,10 @@ $string['viewalreadysubmitted'] = 'このページはすでに別の課題また
 $string['collectionalreadysubmitted'] = 'このコレクションはすでに別の課題またはグループに送信されています。';
 $string['collectionsubmissionexceptiontitle'] = 'コレクションを送信できませんでした。';
 $string['collectionsubmissionexceptionmessage'] = '以下の理由からこのコレクションを送信できません:';
+$string['cantsubmitcopyfailed'] = 'このポートフォリオのコピーを作成できませんでした。何も送信されていません。';
 $string['cantsubmitemptycollection'] = 'このコレクションにはページが含まれていません。';
+$string['cantsubmitneedgrouporsubmittedhost'] = '送信はグループまたは送信済みホストに実行される必要があります。';
+$string['submittedtimetitle'] = '- 送信日時 %s';
 $string['viewsubmissionexceptiontitle'] = 'ページを送信できませんでした。';
 $string['viewsubmissionexceptionmessage'] = '以下の理由からこのページを送信できません:';
 $string['submitviewtogroup'] = '評価のため「 %s 」を「 %s 」に送信する';
@@ -214,6 +221,7 @@ $string['cantsubmitviewtogroup'] = 'あなたは評価を目的としてこの�
 $string['cantsubmitcollectiontogroup'] = 'あなたはこのコレクションを送信できません。';
 $string['cantsubmittogroup'] = 'あなたはこのグループに送信できません。';
 $string['cantdeleteview'] = 'あなたはこのページを削除できません。';
+$string['cantdeleteviewsubmission'] = '送信済みのため、あなたはこのページを削除できません。';
 $string['deletespecifiedview'] = 'ページ「 %s 」を削除する';
 $string['deleteviewconfirm1'] = '本当にこのページを削除してもよろしいですか? 元に戻せません。';
 $string['deleteviewconfirmbackup1'] = '<a href="%sexport/index.php?view=%s">エクスポート</a>によるこのページのバックアップ作成をご検討ください。';
@@ -233,6 +241,7 @@ $string['empty_block'] = 'ここに配置するアーティファクトを左側
 $string['viewinformationsaved'] = 'ページ情報が正常に保存されました。';
 $string['canteditdontown'] = 'あなたの所有ではないためこのページを編集できません。';
 $string['canteditsubmitted'] = '評価を目的として %s に送信されたため、あなたはこのページを編集できません。あなたはチュータがページをリリースするまで待つ必要があります。';
+$string['canteditsubmission'] = '送信済みのため、あなたはこのページを編集できません。';
 $string['Submitted'] = '送信済み';
 $string['submittedforassessment'] = '評価のため送信済み';
 $string['blocknotinview'] = 'ID「 %d 」のブロックはページにありません。';
@@ -494,6 +503,14 @@ $string['linktooriginaltemplatedescriptiondeleted'] = 'このページはテン�
 $string['deletedview'] = 'ページ削除';
 $string['copylocked'] = 'コピーロック';
 $string['copylockeddescription'] = 'これはテンプレートコピーです。このコピーのインストラクションフィールドをロック/ロック解除するにはこの設定を変更してください。';
+$string['linktosubmissionoriginaltitle'] = 'オリジナルポートフォリオ';
+$string['linktosubmissionoriginallink'] = '<a href="%s">%s</a>';
+$string['linktosubmissionoriginaldescription'] = 'このポートフォリオは提出を目的として作成されたコピーです。あなたはリンクでオリジナルポートフォリオに移動できます。';
+$string['linktosubmissionoriginaldeleted'] = '削除済み';
+$string['linktosubmissionoriginaldeleteddescription'] = 'このポートフォリオは提出を目的として作成されたコピーです。オリジナルポートフォリオは削除されました。';
+$string['linkedtosourceportfoliotitle'] = '提出';
+$string['linkedtosourceportfoliodescription'] = 'この設定を「No」に切り替えた場合、オリジナルのポートフォリオとの関連付けが解除されます。あなたが提出を目的として作成したこのコピーは通常のポートフォリオと同様に使用できます。';
+$string['linkedtosourceportfoliodescriptioninacollection'] = 'このページは送信されたコレクションの一部です。コレクション設定でコレクション全体の提出ステータスを変更できます。';
 $string['canteditcollectionlocked'] = 'コレクションがロックされているため、ポートフォリオページを編集できません。';
 $string['canteditprogress'] = 'コレクションがロックされているか、ページがテンプレートからコピーされているため、ポートフォリオ完了ページを編集できません。';
 $string['accessdeniedaccesss'] = 'あなたはこれ以上アクセスパーミッションを変更できません。';

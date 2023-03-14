@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-02-06 22:46:36 UTC
+ * @updated    2023-03-14 01:31:27 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,6 +18,8 @@ $string['add'] = '追加';
 $string['addspecific'] = '「 %s 」を追加する';
 $string['addone'] = '追加';
 $string['cancel'] = 'キャンセル';
+$string['configure'] = '設定';
+$string['configurespecific'] = '「 %s 」を設定する';
 $string['copy'] = 'コピー';
 $string['copytoclipboard'] = 'シークレットURLをクリップボードにコピーする';
 $string['delete'] = '削除';

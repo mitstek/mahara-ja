@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-02-03 04:24:01 UTC
+ * @updated    2023-03-14 01:27:06 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1376,6 +1376,7 @@ $string['cli_deleteinactivegroups_groupunabletoclean'] = 'グループ「 %s 」
 $string['withselectedcontentexport'] = 'アイテムを再度エクスポートキューに追加する';
 $string['withselectedcontentdelete'] = '選択したアイテムをエクスポートキューから削除する';
 $string['withselectedcontentrelease'] = '選択したアイテムをリリースする';
+$string['withselectedcontentreleaseandreturn'] = '選択したアイテムをリリースしてアカウントに戻る';
 $string['allothers'] = 'その他すべて';
 $string['cli_portfolio_export_info'] = 'あなたはコマンドラインPHPスクリプトによりアカウント保持者のポートフォリオをHTMLまたはLeap2Aフォーマットでエクスポートできます。';
 $string['cli_portfolio_export_filenotfound'] = 'ファイルが見つかりませんでした。';

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-05-24 03:07:51 UTC
+ * @updated    2023-03-14 01:26:36 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -39,6 +39,7 @@ $string['completed'] = 'リリース済み';
 $string['revision'] = '見直し';
 $string['evaluated'] = '評価済み';
 $string['unassignedselectboxitem'] = '- 未割り当て -';
+$string['releaseandreturn'] = 'リリースして戻る';
 $string['releasesubmission'] = '評価を完了して提出済みポートフォリオをリリースしますか?';
 $string['fixsubmission'] = '提出を修正しますか?';
 $string['tooltip_success'] = '合格';
