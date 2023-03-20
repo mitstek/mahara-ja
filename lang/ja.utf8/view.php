@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-03-14 02:01:23 UTC
+ * @updated    2023-03-20 01:49:46 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -270,7 +270,7 @@ $string['returntositeportfolios1'] = 'サイトポートフォリオに戻る';
 $string['success.addblocktype'] = 'ブロックが正常に追加されました。';
 $string['err.addblocktype'] = 'あなたのページにブロックを追加できませんでした。';
 $string['success.moveblockinstance'] = 'ブロックが正常に移動されました。';
-$string['err.moveblockinstance'] = '指定されたポジションにブロックを移動できませんでした。';
+$string['err.moveblockinstance'] = '指定した位置にブロックを移動できませんでした。';
 $string['success.removeblockinstance'] = 'ブロックが正常に削除されました。';
 $string['err.removeblockinstance'] = 'ブロックを削除できませんでした。';
 $string['success.addcolumn'] = 'カラムが正常に追加されました。';
