@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-03-14 01:31:27 UTC
+ * @updated    2023-03-27 23:08:28 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -786,6 +786,10 @@ $string['collapsespecific'] = '% を折りたたむ';
 $string['more...'] = 'さらに ...';
 $string['moreoptions'] = '詳細オプション';
 $string['moreoptionsfor'] = '「 %s 」の詳細オプション';
+$string['submittedinfo'] = '提出情報';
+$string['submittedinfofor'] = '「 %s 」の提出情報';
+$string['releasedinfo'] = 'リリースオプション';
+$string['releasedinfofor'] = '「 %s 」のリリースオプション';
 $string['details'] = '詳細';
 $string['Details'] = '詳細';
 $string['nohelpfound'] = 'このアイテムのヘルプはありません。';
