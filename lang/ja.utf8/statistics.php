@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-01-01 10:53:22 UTC
+ * @updated    2023-03-30 23:30:51 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -187,6 +187,7 @@ $string['reportdescsmartevidence'] = '<ul>
 <li>メールアドレス</>
 <li>ポートフォリオタイトル</li>
 <li>ポートフォリオ内ページ数</li>
+<li>提出ステータス</li>
 <li>アクセスリスト 例) ポートフォリオを閲覧できるパーミッションのある人</li>
 <li>個別の標準にかかわらず、ポートフォリオ全体のスマートエビデンス評価のそれぞれのステータスの合計値</li>
 </ul>
@@ -196,6 +197,7 @@ $string['reportdescaccesslist'] = '<ul>
 <li>ポートフォリオオーナ</li>
 <li>ポートフォリオタイトル</li>
 <li>ポートフォリオ内ページ数</li>
+<li>提出ステータス</li>
 <li>アクセスリスト 例) ポートフォリオを閲覧できるパーミッションのある人</li>
 </ul>
 <p>選択された期間中に作成されたポートフォリオが一覧表示されます。それらの現在のアクセスパーミッションが表示されます。</p>';

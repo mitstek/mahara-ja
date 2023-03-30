@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-03-27 00:41:08 UTC
+ * @updated    2023-03-30 23:30:01 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -106,6 +106,7 @@ $string['collectionsubmittedtohost'] = 'このコレクションは評価のた�
 $string['collectionsubmittedtohoston'] = 'このコレクションは %s に送信されました。';
 $string['submittedpendingrelease'] = 'アーカイブ後のリリース保留中です。';
 $string['submittedpendingreleasefailed'] = 'リリースがアーカイブに失敗しました。再キューするには<a href="%s">エクスポートキュー</a>に移動してください。';
+$string['submittedstatus'] = '提出ステータス';
 $string['nobodycanseethisview2'] = 'あなたのみこのページを閲覧できます。';
 $string['noviews2'] = 'ポートフォリオはありません。';
 $string['youhavenoviews2'] = 'あなたにはポートフォリオはありません。';
@@ -243,7 +244,10 @@ $string['viewinformationsaved'] = 'ページ情報が正常に保存されまし
 $string['canteditdontown'] = 'あなたの所有ではないためこのページを編集できません。';
 $string['canteditsubmitted'] = '評価を目的として %s に送信されたため、あなたはこのページを編集できません。あなたはチュータがページをリリースするまで待つ必要があります。';
 $string['canteditsubmission'] = '送信済みのため、あなたはこのページを編集できません。';
+$string['notsubmitted'] = '未送信';
 $string['Submitted'] = '送信済み';
+$string['archiving'] = 'アーカイブ待ち';
+$string['released'] = 'リリース済み';
 $string['submittedforassessment'] = '評価のため送信済み';
 $string['blocknotinview'] = 'ID「 %d 」のブロックはページにありません。';
 $string['viewcreatedsuccessfully'] = 'ページが正常に作成されました。';
