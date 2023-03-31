@@ -1146,7 +1146,7 @@ $string['showprogressbardescription1'] = 'ユーザプロファイルで完了�
 $string['progressbardisablednote'] = '<b>注意</b>: 現在、プロファイル完了は無効にされています。ユーザがプロファイル完了に関して進捗を追跡できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「ユーザ設定」セクションで有効にする必要があります。';
 $string['profilecompletiondesc'] = 'プロファイル完了が有効にされている場合、完了済みプロファイルに反映されるコンテンツを選択してください。';
 $string['profilecompletenessdesc1'] = 'プロファイル完了ではあなたのユーザはプロファイルをどの程度完了しているか確認できるサイドバーのビジュアルインディケータを使用できます。あなたはプロファイル完了に反映させるアーティファクトを選択できます。他のすべてのアーティファクトを使用できますが完了カウントの要素とはなりません。';
-$string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュ」サイドブロックでプロファイル完了がどのように表示されるかプレビュできます。';
+$string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックでプロファイル完了がどのように表示されるかプレビューできます。';
 $string['exporttoqueue'] = 'キューにエクスポートする';
 $string['exporttoqueuedescription2'] = 'サーバ負荷管理を改善するためユーザポートフォリオのLeap2Aによるエクスポートをエクスポートキューが処理するようにします。';
 $string['validating'] = 'データの確認中 ...';
