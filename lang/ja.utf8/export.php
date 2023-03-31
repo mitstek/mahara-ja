@@ -15,7 +15,7 @@ defined('INTERNAL') || die();
 
 $string['allmydata'] = '私のデータすべて';
 $string['chooseanexportformat'] = 'エクスポートフォーマットを選択する';
-$string['clicktopreview'] = 'クリックしてプレビューーする';
+$string['clicktopreview'] = 'クリックしてプレビューーーする';
 $string['collectionstoexport'] = 'エクスポートするコレクション';
 $string['creatingzipfile'] = 'ZIPファイル作成中';
 $string['Done'] = '完了';
