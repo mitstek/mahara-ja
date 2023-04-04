@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-02-14 10:17:55 UTC
+ * @updated    2023-04-04 03:24:39 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -51,3 +51,4 @@ $string['feedbacknotificationtext1'] = '%s が「 %s 」にチェックポイン
 このチェックポイントコメントをオンラインで閲覧するには次のリンクにアクセスしてください:
 %s';
 $string['commentremovedbyuser'] = 'コメント削除 by <a href="%s">%s</a>';
+$string['typefeedback'] = 'チェックポイントのフィードバック';
