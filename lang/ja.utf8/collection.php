@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-03-14 07:40:08 UTC
+ * @updated    2023-04-08 19:51:42 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -47,7 +47,7 @@ $string['sitecollections'] = 'サイトコレクション';
 $string['collectionaccess'] = 'コレクションアクセス';
 $string['collectionaccessrules'] = 'コレクションアクセスルール';
 $string['collectionaccesseditedsuccessfully'] = 'コレクションアクセスが正常に保存されました。';
-$string['collectioneditaccess'] = 'あなたはこのコレクション内の %d ページのアクセスを編集しています。';
+$string['collectioneditaccess1'] = 'あなたはこのコレクション内の %d ページの共有パーミッションを編集しています。';
 $string['collectionconfirmdelete1'] = '<p>本当にこのコレクションを削除してもよろしいですか? このコレクション内のすべてのページも削除されます。あなたが個別のページのみ削除したい場合、この操作を中止して該当するページを削除してください。</p>
 <p>すべてを削除する前に<a href="%sexport/index.php?collection=%s">エクスポート</a>によるあなたのポートフォリオのバックアップ作成をご検討ください。</p>
 <p><strong>注意:</strong> あなたがこのコレクションの削除を決定した場合、あなたがページでリンクしたファイルおよび日誌エントリすべてはまだ利用できます。しかし、ページに置かれたすべてのテキストブロックおよびコメントはページとともに削除されます。</p>';
@@ -57,7 +57,7 @@ $string['collectiondeleted'] = 'コレクションが正常に削除されまし
 $string['collectiondescription'] = 'コレクションは相互にリンクして同一のアクセスパーミッションを持つ一連のページです。あなたは好きなだけコレクションを作成できますが、1ページを2つ以上のコレクションには表示できません。';
 $string['collectiontitle'] = 'コレクションタイトル';
 $string['confirmcancelcreatingcollection'] = 'このコレクションは完了していません。本当にキャンセルしてもよろしいですか?';
-$string['continueeditaccess'] = '続ける: アクセスを編集する';
+$string['continueeditaccess1'] = '続ける: 共有';
 $string['collectionsaved'] = 'コレクションが正常に保存されました。';
 $string['copyacollection'] = 'コレクションをコピーする';
 $string['created'] = '作成';
@@ -75,7 +75,7 @@ $string['edittitleanddesc'] = 'タイトルおよび説明を編集する';
 $string['editviews'] = 'コレクションページを編集する';
 $string['editviewaccess'] = 'ページアクセスを編集する';
 $string['editaccess'] = 'コレクションアクセスを編集する';
-$string['emptycollectionnoeditaccess'] = 'あなたは空のコレクションのアクセスを編集できません。最初にページを追加してください。';
+$string['emptycollectionnoeditaccess1'] = 'あなたは空のコレクションを共有できません。少なくとも1ページを追加してください。';
 $string['emptycollection'] = '空のコレクション';
 $string['manage'] = '管理';
 $string['manageviews'] = 'ページを管理する';

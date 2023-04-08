@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-03-27 23:08:28 UTC
+ * @updated    2023-04-08 19:55:11 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -835,7 +835,7 @@ $string['nopathfound'] = 'このアーティファクトのパスは見つかり
 $string['cantmoveitem'] = 'このアーティファクトを移動できません。';
 $string['belongingto'] = '所属';
 $string['attachment'] = '添付ファイル';
-$string['editaccess'] = 'アクセスを編集する';
+$string['editaccess'] = '共有';
 $string['clammovedfile'] = 'ファイルが隔離ディレクトリに移動されました。';
 $string['clamdeletedfile'] = 'ファイルが削除されました。';
 $string['clamdeletedfilefailed'] = 'ファイルを削除できませんでした。';
