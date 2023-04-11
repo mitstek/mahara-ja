@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-04-08 19:53:56 UTC
+ * @updated    2023-04-11 21:52:41 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -287,7 +287,7 @@ $string['confirmcloseblockinstance'] = '本当にあなたの変更を保存せ�
 $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除してもよろしいですか?';
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
 $string['blockconfigurationrenderingerror'] = 'ブロックを表示できなかったため設定に失敗しました。';
-$string['blocksinstructionajaxlive2'] = 'これはあなたのページのプレビューです。変更は自動的に保存されます。<br />新しいブロックを作成するには「プラス」ボタンをページ上にドラッグしてください。そして、そのブロックのタイプを選択してください。ブロックの位置を変更するにはページ上でドラッグしてください。';
+$string['blocksinstructionajaxlive2'] = 'これはあなたのページのプレビューです。変更は自動的に保存されます。<br />新しいブロックを作成するには「+」ボタンをページ上にドラッグしてください。そして、そのブロックのタイプを選択してください。ブロックの位置を変更するにはページ上でドラッグしてください。';
 $string['blockchangedsuccess'] = 'プレースホルダブロックを「 %s 」ブロックに正常に変更しました。';
 $string['blockchangederror'] = '「 %s 」ブロックへの変更に失敗しました。';
 $string['blockchangedbacksuccess'] = 'ブロックをプレースホルダブロックに戻しました。';
@@ -370,7 +370,7 @@ $string['choosetemplateinstitutionpageandcollectiondescription'] = '<p>ここで
 $string['choosetemplatesitepageandcollectiondescription1'] = '<p>ここでは新しいページ作成の出発点としてサイトレベルでコピー可能なページを検索できます。あなたはページの名称をクリックしてそれぞれのページのプレビューを表示できます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため該当する「ページをコピーする」ボタンをクリックしてコピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックしてページが属しているコレクション全体もコピーできます。</p><p><strong>注意:</strong> 現在、日誌、日誌エントリ、プランおよびレジュメ情報をサイトレベルのページでコピーできません。</p>';
 $string['filescopiedfromviewtemplate'] = '%s からコピーされたファイル';
 $string['viewfilesdirname'] = 'ページファイル';
-$string['viewfilesdirdesc'] = 'コピーされたページのファイル';
+$string['viewfilesdirdesc'] = 'コピーされたページのファイルです。';
 $string['thisviewmaybecopied'] = 'コピーが許可されています。';
 $string['thisviewmaynotbecopied'] = 'コピーは許可されていません。';
 $string['copythisportfolio'] = 'このポートフォリオをコピーする';
