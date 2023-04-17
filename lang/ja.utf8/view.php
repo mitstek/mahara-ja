@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-04-11 21:52:41 UTC
+ * @updated    2023-04-17 00:14:50 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -385,7 +385,7 @@ $string['confirmcopydesc'] = 'あなたがコピーしたいものを選択し�
 $string['Untitled'] = 'タイトルなし';
 $string['copyforexistingmembersprogress'] = 'ポートフォリオを既存のグループメンバにコピーする';
 $string['existinggroupmembercopy'] = '既存のグループメンバにコピーする';
-$string['existinggroupmembercopydesc2'] = '選択されたポートフォリオを既存のすべてのグループメンバの個人ポートフォリオエリアにコピーします。保存後、スライドスイッチはリセットされます。グループメンバはコピーを1回のみ取得します。';
+$string['existinggroupmembercopydesc2'] = '選択されたポートフォリオを既存のすべてのグループメンバの個人ポートフォリオエリアにコピーします。保存後、スライドスイッチはリセットされます。グループメンバはコピーを1回のみ取得できます。';
 $string['copyfornewusers'] = '新しいアカウントにコピーする';
 $string['copyfornewusersdescription3'] = '新しいアカウントが作成された場合、選択したポートフォリオを新しいアカウント内にパーソナルコピーとして自動作成します。選択したポートフォリオをこれらの人が後で同様にコピーできるようにしたい場合、コピーを許可してください。';
 $string['copyfornewmembers'] = '新しいインスティテューションメンバにコピーする';
