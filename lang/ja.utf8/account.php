@@ -59,11 +59,11 @@ $string['disablemultipleblogserror'] = '1つのブログのみ作成していな
 $string['hiderealname'] = '実名を秘匿する';
 $string['hiderealnamedescription'] = 'あなたが表示名を設定した場合、そしてあなたの実名検索により他のユーザから自分を探されたくない場合、このチェックボックスをチェックしてください。';
 $string['showhomeinfo'] = 'ホームページにMaharaに関する情報を表示する';
-$string['prefssaved'] = 'プリファレンスが保存されました。';
-$string['prefsnotsaved'] = 'あなたのプリファレンスの保存に失敗しました!';
+$string['prefssaved'] = 'プレファレンスが保存されました。';
+$string['prefsnotsaved'] = 'あなたのプレファレンスの保存に失敗しました!';
 $string['maildisabled'] = 'メールが無効にされました。';
-$string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたためあなたのメールアドレス宛のメール送信は停止されました。アカウントプリファレンスの %s でメールを有効にする前にあなたのメールアカウントが正常に動作しているか確認してください。';
-$string['maildisableddescription'] = 'あなたのアカウント宛のメール送信が停止されました。アカウントプリファレンスページで<a href="%s">あなたのメールを再度有効</a>にできます。';
+$string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたためあなたのメールアドレス宛のメール送信は停止されました。アカウントプレファレンスの %s でメールを有効にする前にあなたのメールアカウントが正常に動作しているか確認してください。';
+$string['maildisableddescription'] = 'あなたのアカウント宛のメール送信が停止されました。アカウントプレファレンスページで<a href="%s">あなたのメールを再度有効</a>にできます。';
 $string['deleteaccount'] = 'アカウントを削除する';
 $string['deleteaccountdescription'] = 'アカウントを削除した場合、今後、あなたのプロファイル情報およびビューを他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧できますが投稿者名が表示されないようになります。';
 $string['accountdeleted'] = 'あなたのアカウントが削除されました。';
