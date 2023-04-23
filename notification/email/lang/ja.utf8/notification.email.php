@@ -30,7 +30,7 @@ defined('INTERNAL') || die();
 
 $string['emailsubject'] = '%s';
 $string['emailheader'] = 'あなたに %s から通知が送信されました。メッセージは次のとおりです:';
-$string['emailfooter'] = 'これは %s からの自動生成通知です。あなたの通知プリファレンスを更新するには %s にアクセスしてください。';
+$string['emailfooter'] = 'これは %s からの自動生成通知です。あなたの通知プレファレンスを更新するには %s にアクセスしてください。';
 $string['referurl'] = '詳細 %s';
 $string['name'] = 'メール';
 
