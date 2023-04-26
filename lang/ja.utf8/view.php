@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-04-19 03:26:34 UTC
+ * @updated    2023-04-26 00:33:06 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -387,9 +387,9 @@ $string['copyforexistingmembersprogress'] = 'ポートフォリオを既存の�
 $string['existinggroupmembercopy'] = '既存のグループメンバにコピーする';
 $string['existinggroupmembercopydesc2'] = '選択されたポートフォリオを既存のすべてのグループメンバの個人ポートフォリオエリアにコピーします。保存後、スライドスイッチはリセットされます。グループメンバはコピーを1回のみ取得できます。';
 $string['copyfornewusers'] = '新しいアカウントにコピーする';
-$string['copyfornewusersdescription3'] = '新しいアカウントが作成される場合、選択したポートフォリオのパーソナルコピーを新しいアカウント内に自動作成します。選択したポートフォリオをこれらの人が後で同様にコピーできるようにしたい場合、コピーを許可してください。';
+$string['copyfornewusersdescription3'] = '新しいアカウントが作成される場合、選択したポートフォリオのパーソナルコピーを新しいアカウント内に自動作成します。選択したポートフォリオをこれらの人が後で同様にコピーできるようにしたい場合、通常、コピーを許可してください。';
 $string['copyfornewmembers'] = '新しいインスティテューションメンバにコピーする';
-$string['copyfornewmembersdescription3'] = '%s のすべての新しいメンバに対して選択したポートフォリオのパーソナルコピーを自動作成します。選択したポートフォリオをこれらの人が後で同様にコピーできるようにしたい場合、コピーを許可してください。';
+$string['copyfornewmembersdescription3'] = '%s のすべての新しいメンバに対して選択したポートフォリオのパーソナルコピーを自動作成します。選択したポートフォリオをこれらの人が後で同様にコピーできるようにしたい場合、通常、コピーを許可してください。';
 $string['copyfornewgroups'] = '新しいグループにコピーする';
 $string['copyfornewgroupsdescription2'] = '選択したポートフォリオを以下のロールの新しいグループすべてにコピーします:';
 $string['owner'] = 'オーナ';
