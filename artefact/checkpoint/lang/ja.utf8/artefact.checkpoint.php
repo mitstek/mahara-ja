@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-04-04 03:24:39 UTC
+ * @updated    2023-04-28 01:25:47 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,7 +19,7 @@ $string['feedback'] = 'コメント';
 $string['comments'] = 'コメント';
 $string['nfeedback'] = '%s コメント';
 $string['feedbacksubmitted'] = 'チェックポイントコメントが保存されました。';
-$string['reallydeletethisfeedback'] = '本当にこのチェックポイントコメントを削除してもよろしいですか?';
+$string['reallydeletethisfeedback'] = '本当にこのチェックポイントコメントを削除してもよろしいですか? この操作は元に戻せません。';
 $string['feedbackremoved'] = 'チェックポイントコメントが削除されました。';
 $string['assessmentremovedfailed'] = 'チェックポイントコメントの削除に失敗しました。';
 $string['achievementlevel'] = '達成レベル';
