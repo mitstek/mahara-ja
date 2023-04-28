@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-04-08 19:51:42 UTC
+ * @updated    2023-04-28 02:06:57 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -95,7 +95,7 @@ $string['onlyactivetemplatewarning'] = 'これはこのインスティテュー�
 $string['updatingautocopytemplatewarning'] = '1つのコレクションのみインスティテューションの有効な自動コピーテンプレートにできます。このコレクションをインスティテューション「 %s 」の自動コピーテンプレートに設定した場合、自動コピーコレクション「 %s 」は無効となります。無効にされた自動コピーコレクションはインスティテューション内で共有されなくなります。';
 $string['manageoutcomes'] = 'アウトカムを管理する';
 $string['addoutcomelink'] = 'アウトカムを追加する';
-$string['confirmdeleteoutcomedb'] = '本当にこのアウトカムを削除してもよろしいですか? この操作は元に戻せません。';
+$string['confirmdeleteoutcomedb'] = '本当にこのアウトカムを削除してもよろしいですか? あなたはこの操作を元に戻せません。';
 $string['confirmdeleteoutcome'] = '本当にこのアウトカムを削除してもよろしいですか? このアウトカムはまだ保存されていません。';
 $string['deleteactivitiesfirst'] = '最初に関連する活動ページを削除する必要があります。';
 $string['deletefailedoutcome'] = '「アウトカム %s」の削除に失敗しました。';
