@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-04-26 00:33:06 UTC
+ * @updated    2023-05-01 01:05:29 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -402,10 +402,10 @@ $string['listviews'] = 'ページを一覧表示する';
 $string['nocopyableviewsfound'] = 'あなたがコピーできるページはありません。';
 $string['noownersfound'] = 'オーナは見つかりませんでした。';
 $string['Preview'] = 'プレビュー';
-$string['viewscopiedfornewusersmustbecopyable'] = 'あなたは新しいアカウントにページがコピーされるよう設定する前にページのコピーを許可する必要があります。';
-$string['viewswithretainviewrightsmustbecopyable'] = 'あなたはページが閲覧アクセスを保持するよう設定する前にページのコピーを許可する必要があります。';
-$string['viewscopiedfornewgroupsmustbecopyable'] = 'あなたは新しいグループがページをコピーできるよう設定する前にページのコピーを許可する必要があります。';
-$string['copynewusergroupneedsloggedinaccess'] = '新しいアカウントまたはグループにコピーされるページに関して登録済みの人にアクセス権を与える必要があります。';
+$string['viewscopiedfornewusersmustbecopyable'] = 'あなたは新しいアカウントにページがコピーされるよう設定する前にコピーを許可する必要があります。';
+$string['viewswithretainviewrightsmustbecopyable'] = 'あなたはページが閲覧アクセスを保持するよう設定する前にコピーを許可する必要があります。';
+$string['viewscopiedfornewgroupsmustbecopyable'] = 'あなたは新しいグループにページがコピーされるよう設定する前にコピーを許可する必要があります。';
+$string['copynewusergroupneedsloggedinaccess'] = '新しいアカウントまたはグループにコピーされたページは登録済みの人にアクセス権を与える必要があります。';
 $string['viewcopywouldexceedquota'] = 'このページを追加した場合、あなたのファイルクオータを越えてしまいます。';
 $string['viewcreatewouldexceedquota'] = 'このページを作成した場合、あなたのファイルクオータを越えてしまいます。';
 $string['blockcopypermission'] = 'ブロックのコピーパーミッション';
