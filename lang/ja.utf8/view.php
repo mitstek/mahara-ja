@@ -256,7 +256,7 @@ $string['close'] = '閉じる';
 $string['viewscopiedfornewusersmustbecopyable'] = '新しいユーザがビューをコピーできるよう設定する前にあなたはビューのコピーを許可する必要があります。';
 $string['viewscopiedfornewgroupsmustbecopyable'] = '新しいグループがビューをコピーできるよう設定する前にあなたはビューのコピーを許可する必要があります。';
 $string['copynewusergroupneedsloggedinaccess'] = '新しいユーザまたはグループにコピーされるビューに対してログインユーザのアクセス権を与える必要があります。';
-$string['blockcopypermission'] = 'ブロックのコピーパーミッション';
+$string['blockcopypermission'] = 'ブロックコピー許可';
 $string['blockcopypermissiondesc'] = 'このビューを他のユーザがコピーできるようにした場合、あなたはこのブロックをどのようにコピーできるか選択できます。';
 
 ?>
