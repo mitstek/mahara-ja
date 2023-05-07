@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-05-01 01:05:29 UTC
+ * @updated    2023-05-07 21:18:35 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -408,7 +408,7 @@ $string['viewscopiedfornewgroupsmustbecopyable'] = 'あなたは新しいグル�
 $string['copynewusergroupneedsloggedinaccess'] = '新しいアカウントまたはグループにコピーされたページは登録済みの人にアクセス権を与える必要があります。';
 $string['viewcopywouldexceedquota'] = 'このページを追加した場合、あなたのファイルクオータを越えてしまいます。';
 $string['viewcreatewouldexceedquota'] = 'このページを作成した場合、あなたのファイルクオータを越えてしまいます。';
-$string['blockcopypermission'] = 'ブロックのコピーパーミッション';
+$string['blockcopypermission'] = 'ブロックコピー許可';
 $string['blockcopypermissiondesc'] = 'このページを他の人がコピーできるようにした場合、あなたはこのブロックをどのようにコピーできるか選択できます。';
 $string['defaultsort'] = 'アルファベット順';
 $string['latestcreated'] = '作成日時';
