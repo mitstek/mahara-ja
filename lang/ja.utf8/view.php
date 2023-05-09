@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-05-07 21:18:35 UTC
+ * @updated    2023-05-09 23:50:45 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -464,14 +464,14 @@ $string['addcontent'] = 'コンテンツを追加する';
 $string['theme'] = 'テーマ';
 $string['choosethemedesc'] = 'ページのテーマを選択します。';
 $string['lockblocks1'] = 'ブロックの削除を防ぐ';
-$string['lockblocksdescription2'] = 'あなたはページ編集時のブロックの削除を防げます。あなたはまだブロックの場所およびサイズを変更できます。あなたは必要であればブロックを削除するためこの設定をいつでも変更できます。';
+$string['lockblocksdescription2'] = 'あなたはページ編集時のブロックの削除を防げます。あなたはブロックの場所およびサイズをそのまま変更できます。あなたはこの設定をいつでも変更して必要に応じてブロックを削除できます。';
 $string['lockblocksdescriptioninstitution1'] = 'あなたはパーソナルまたはグループポートフォリオエリアへのページコピー時のブロックの削除を防げます。この設定はこのサイトまたはインスティテューションページのあなたの編集に影響しません。';
 $string['instructions'] = 'インストラクション';
 $string['advanced'] = '高度';
 $string['timeline'] = 'タイムライン';
 $string['timelinespecific'] = '%s のタイムライン';
 $string['savetimeline'] = 'タイムラインに保存する';
-$string['savetimelinespecific'] = '%s のタイムラインに保存する';
+$string['savetimelinespecific'] = '%s のタイムラインを保存する';
 $string['noversionsexist'] = 'ページ「 %s 」に表示するための保存されたバージョンはありません。';
 $string['previousversion'] = '前のバージョン';
 $string['nextversion'] = '次のバージョン';
