@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-05-09 23:50:45 UTC
+ * @updated    2023-05-14 22:43:12 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -485,9 +485,9 @@ $string['blockssizeupdated'] = 'ブロックサイズが正常に変更されま
 $string['dimensionsnotset'] = 'ブロックサイズが設定されていません。';
 $string['dontaskagain'] = '承認および記憶する';
 $string['pleaseconfirmtranslate'] = 'ページレイアウトを変換する';
-$string['confirmconversionmessage'] = 'Mahara 19.10の一部として私たちはページレイアウトの新しい作成方法を導入しました。このページを編集するにはあなたは古いレイアウトを新しいレイアウトに変換する必要があります。
+$string['confirmconversionmessage'] = 'Mahara 19.10の一部として私たちはページレイアウトの新しい作成方法を導入しました。このページを編集できるようにするにはあなたは古いレイアウトを新しいレイアウトに変換する必要があります。
 あなたがこのページのみを変換したい場合、「承認」をクリックしてください。すべてのページを変換して再度このメッセージを表示したくない場合、「承認および記憶する」をクリックしてください。このオプションはあなたの<a href="%s">プレファレンス</a>で変更できます。編集せずにページに戻るには「キャンセル」をクリックしてください。';
-$string['accessibleview'] = 'アクセシブルなレイアウト';
+$string['accessibleview'] = 'アクセシブルレイアウト';
 $string['accessibleviewdescription'] = '1カラムページレイアウトを作成してドラッグ＆ドロップの代わりにキーボードで編集します。';
 $string['itemgrabbed'] = 'アイテムグラブ: %s';
 $string['itemdropped'] = 'アイテムドロップ: %s';
@@ -520,7 +520,7 @@ $string['canteditprogress'] = 'コレクションがロックされているか�
 $string['accessdeniedaccesss'] = 'あなたはこれ以上アクセスパーミッションを変更できません。';
 $string['signoff'] = '承認';
 $string['signoffhelp'] = 'あなたが完了したページを表示します。';
-$string['signoffhelppage'] = 'あなたのすべてのエビデンス追加を終了した場合、このページに「承認」をマークしてください。';
+$string['signoffhelppage'] = 'あなたのすべてのエビデンス追加を終了した場合、このページを「承認」マークしてください。';
 $string['signoffdesc'] = 'すべての必要条件を満たした場合、評価準備が完了したことを示すため、ポートフォリオオーナはページを承認できます。';
 $string['verify'] = '検証';
 $string['verifydesc1'] = 'ポートフォリオ評価過程の一環としてマネージャがこのページを検証する必要があるかどうか決定してください。';
@@ -539,7 +539,7 @@ $string['viewsignoffdetails'] = '承認詳細情報を表示する';
 $string['readyforverification'] = 'このページは検証準備を完了しています。';
 $string['signedoffbyondate'] = '%s がこのページを %s に承認しました。';
 $string['verifiedbyondate'] = '%s がこのページを %s に検証しました。';
-$string['cannoteditaftersignoff'] = 'あなたは承認後に「 %s 」を更新できません。';
+$string['cannoteditaftersignoff'] = 'あなたはページ承認後に「 %s 」を更新できません。';
 $string['removedverifynotificationsubject'] = '%s の検証が削除されました。';
 $string['removedverifynotification'] = 'ページのオーナ %s が承認を削除しました。そのためあなたの検証も削除されました。再度検証をマークできる状態であるか確認するためページにアクセスしてください。';
 $string['signoffviewupdated'] = '承認ステータスが更新されました。';
