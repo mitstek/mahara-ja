@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-03-09 02:07:29 UTC
+ * @updated    2023-05-16 10:40:58 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -56,7 +56,6 @@ $string['dbnotutf8'] = 'あなたはUTF-8データベースを使用していま
 $string['dbnotutf8mb4'] = 'あなたはutf8mb4文字セット (4バイト UTF-8ユニコードエンコーディング) データベースを使用していません。Maharaはすべてのデータを内部的にutf8mb4として保存します。あなたのデータベースを削除した後、utf8mb4エンコーディングで再作成してください。';
 $string['dbversioncheckfailed'] = 'あなたのデータベースサーバのバージョンはMaharaを正常に動作させるのに十分な新しいバージョンではありません。あなたのサーバは %s %s ですが、Maharaは少なくともバージョン %s を必要とします。';
 $string['plpgsqlnotavailable'] = 'あなたのPostgresインストレーションではPL/pgSQL言語が有効にされていません。そのためMaharaでもPL/pgSQL言語を有効にできません。あなたのデータベースに手動でPL/pgSQLをインストールしてください。この作業のインストラクションに関して次をご覧ください: https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Enabling_Plpgsql';
-$string['mysqlnotriggerprivilege'] = 'Maharaではデータベーストリガを作成するパーミッションを必要とします。しかし、データベーストリガを作成できません。あなたのMySQLインストレーション内の適切なユーザにトリガ権限が割り当てられていることを確認してください。この作業のインストラクションに関して次をご覧ください: https://wiki.mahara.org//wiki/System_Administrator%27s_Guide/Granting_Trigger_Privilege';
 $string['mbstringneeded'] = 'PHPのmbstring拡張モジュールをインストールしてください。あなたがユーザ名にUTF-8文字を使用している場合、この拡張モジュールが必要です。インストールしない場合、人はログインできない可能性があります。';
 $string['cssnotpresent'] = 'あなたのhtdocs/theme/raw/styleディレクトリ内にCSSファイルが存在しません。あなたがgitチェックアウトからMaharaを動作させている場合、CSSファイルを構築するために「make css」を実行してください。あなたがZIPダウンロードよりMaharaを動作させている場合、再度ダウンロードおよび展開をお試しください。';
 $string['mahararootusermissing'] = 'データベースに「root」アカウントが存在しないため私たちは継続できません。このアカウントはMaharaが正常に動作するため必要です。再度rootアカウントを作成するにはあなたが使用しているMaharaのバージョンを別にインストールした上で「usr」および「usr_custom_layout」テーブル内の「user」 (id = 0) に何が含まれているか確認してください。そしてアップグレードを再開する前にあなたのMaharaインスタンスにそのデータを追加してください。';
@@ -153,3 +152,8 @@ $string['sideblockmenuclash'] = 'サイドブロック名「 %s 」はすでに�
 $string['isolatedinstitutionsremoverules'] = '隔離インスティテューションが有効にされているため、私たちは %s 件のアクセスルールを非表示にしました。フォームを保存した場合、非表示のルールは削除されます。';
 $string['randomkeyminlength'] = '長さは8桁以上の正の整数にしてください。';
 $string['noviewcontrolaction'] = '不明な編集操作: %s';
+$string['peopleinmultipleinstitutions'] = '「隔離インスティテューション」を有効にできません。
+
+すべてのアカウントが1つのインスティテューションのみのメンバであることを確認してください。これらのアカウントを表示するには「管理メニュ → 人 → 人検索」を参照してください。「インスティテューション」カラムには1名につき1エントリのみあることを確認してください。
+
+サイトに戻るにはconfig.phpファイルの隔離インスティテューションを無効にしてください。';

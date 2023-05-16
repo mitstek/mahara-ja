@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-03-14 01:27:06 UTC
+ * @updated    2023-05-16 10:39:55 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -946,7 +946,7 @@ $string['adminauthorities'] = '認証局を管理する';
 $string['addinstitution'] = 'インスティテューションを追加する';
 $string['authplugin'] = '認証プラグイン';
 $string['deleteinstitution'] = 'インスティテューションを削除する';
-$string['deleteinstitutionconfirm'] = '本当にこのインスティテューションを削除してもよろしいですか?';
+$string['deleteinstitutionconfirm1'] = '本当にこのインスティテューションを削除してもよろしいですか? そのインスティテューションがアウトカムポートフォリオを使用している場合、ウェブサービスおよびアウトカム情報は削除されます。グループはサイトと関連付けられます。';
 $string['institutionstillhas'] = 'このインスティテューションにはまだ %s が登録されています。';
 $string['institutionauthinuseby'] = 'このインスティテューションの認証はまだ %s によって使用されています。';
 $string['institutiononly'] = 'インスティテューションのみ';
@@ -1500,7 +1500,8 @@ $string['development'] = '開発';
 $string['exportthirdpartycsv'] = 'プラグイン情報をCSVフォーマットでエクスポートする';
 $string['Path'] = 'パス';
 $string['styleguide'] = 'スタイルガイド';
-$string['thirdpartyplugins'] = 'README.Maharaファイルに基づくサードパーティプラグイン';
+$string['thirdpartypluginstitle'] = 'サードパーティプラグイン';
+$string['thirdpartyplugins1'] = 'README.Maharaファイルに基づくサードパーティプラグインです。注意: この情報は古くなっています。Composer管理のプラグインに関する情報はhtdocs/composer.jsonおよびcomposer.jsonをご確認ください。NPM管理のプラグインに関する情報はpackage.jsonをご確認ください。';
 $string['url'] = 'url';
 $string['pluginartefact'] = 'プラグインタイプ: アーティファクト';
 $string['pluginauth'] = 'プラグインタイプ: 認証';
@@ -1512,3 +1513,4 @@ $string['plugininteraction'] = 'プラグインタイプ: インタラクショ�
 $string['pluginmodule'] = 'プラグインタイプ: モジュール';
 $string['pluginnotification'] = 'プラグインタイプ: 通知';
 $string['pluginsearch'] = 'プラグインタイプ: 検索';
+$string['upgradeproblemwithremoteusername'] = 'リモートユーザ名「 %s 」は正しく更新できなかったため「 %s 」として保存されました。問題を解決するため、あなたのデータベースを確認してください。';

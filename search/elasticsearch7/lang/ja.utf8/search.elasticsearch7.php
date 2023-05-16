@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-02-20 04:13:39 UTC
+ * @updated    2023-05-16 10:45:31 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -39,12 +39,15 @@ $string['cronlimit'] = 'cronレコード制限';
 $string['cronlimitdescription'] = 'それぞれのcron実行に関してキューからElasticsearchサーバに送られる最大レコード数です (無制限の場合、空白またはゼロにしてください)。';
 $string['cronstatetitle'] = 'cronでインデクス作成する';
 $string['cronstatedescription'] = 'これによりあなたはcron実行時にキュー内のアイテムのインデックス作成を有効または無効にできます。';
+$string['cronlocked'] = '現在、cronはキューをインデックス化しています。';
+$string['cronlockedsowillnotreset'] = 'cronがキューのインデックスを作成している間はインデックスをリセットできません。数分後に再度お試しください。';
 $string['dateoldestfirst'] = '日付 (古い順)';
 $string['daterecentfirst'] = '日付 (新しい順)';
 $string['deleted'] = '削除済み';
 $string['deletedforumpost'] = '削除済みフォーラム投稿';
 $string['document'] = 'ドキュメント';
 $string['error'] = 'エラー:';
+$string['errortypenotset'] = 'タイプが設定されていません。';
 $string['errorunknown'] = '不明なエラー';
 $string['filterresultsby'] = '結果をフィルタする';
 $string['forum'] = 'フォーラム';
@@ -102,8 +105,8 @@ $string['relevance'] = '関連性';
 $string['replicashards'] = 'レプリカシャード';
 $string['replicashardsdescription'] = '作成されるシャードのコピー数です。注意: 1ノードのみの場合、レプリカに「0」を設定してください。';
 $string['reset'] = 'リセット';
-$string['resetallindexes'] = 'すべてのインデックスをリセットする';
-$string['resetdescription'] = 'このテーブルではElasticsearchサーバに送信するため現在キューに入れられているそれぞれのタイプのレコード数を表示しています。アイテムは検索プラグインのcronタスクが実行されるたびにElasticsearchサーバに送信されます (5分ごと)。検索インデックスをリセット、すべてのレコードを削除、そしてレコードを再度キューに入れるには下のボタンをクリックしてください。';
+$string['resetallindexes1'] = '検索インデックスを削除および再作成する';
+$string['resetdescription1'] = 'このテーブルでは現在Elasticsearchサーバに送信されるキューにあるそれぞれのタイプのレコード数およびすでにインデックスに登録されているレコード数を表示しています。あなたはIDで個別に再度キューに追加できます。または特定のタイプのインデックスにあるものすべてを再度キューへ追加もできます。アイテムは検索プラグインのcronタスクが実行されるたび (5分ごと) に(Elasticsearchサーバに送信されます。下部の「すべてのインデックスをリセットする」ボタンをクリックした場合、このページの設定変更が保存されて<strong>全体の</strong>検索インデックスがリセットされます。そして、すべてのレコードが削除されて再度キューに追加されます。大規模なインスタンスではかなりの時間を要する場合があります。個別のタイプを再度キューに追加してより的を絞ったリセットを試みてください。';
 $string['resetlegend'] = 'インデックスリセット';
 $string['resettype'] = 'タイプ';
 $string['resetitemsinqueue'] = 'キュー内';
@@ -130,3 +133,9 @@ $string['Users'] = '人';
 $string['xsearchresults'] = '検索結果: %s';
 $string['xsearchresultsfory'] = '検索結果: %s / 検索キーワード: %s';
 $string['ztoa'] = 'Z -> A';
+$string['requeue'] = '再度キューに追加する';
+$string['requeueitem'] = 'IDを入力してください。';
+$string['requeueinputfieldarialabel'] = '再度キューに追加するエントリのIDまたは複数ID (カンマ区切り) を入力してください。すべてを再度キューに追加するには空白のままにしてください。';
+$string['requeuebuttonarialabel'] = '%s エントリすべてまたはこのタイプで選択したIDを再度キューに追加する';
+$string['resetdescription'] = 'このテーブルではElasticsearchサーバに送信するため現在キューに入れられているそれぞれのタイプのレコード数を表示しています。アイテムは検索プラグインのcronタスクが実行されるたびにElasticsearchサーバに送信されます (5分ごと)。検索インデックスをリセット、すべてのレコードを削除、そしてレコードを再度キューに入れるには下のボタンをクリックしてください。';
+$string['resetalltypes'] = 'インデックスをリセットする';

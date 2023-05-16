@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-04-28 02:06:57 UTC
+ * @updated    2023-05-16 10:40:40 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -35,7 +35,7 @@ $string['cantcreatecollection'] = 'あなたはこのコレクションの作成
 $string['cantdeletecollection'] = 'あなたはこのコレクションを削除できません。';
 $string['cantdeletecollectionsubmission'] = '提出状態であるため、あなたはこのコレクションを削除できません。';
 $string['canteditdontown'] = 'あなたの所有ではないためこのコレクションを編集できません。';
-$string['canteditsubmitted'] = '評価のため「 %s 」に送信されたため、あなたはこのコレクションを編集できません。あなたはリリースされるまで待つ必要があります。';
+$string['canteditsubmitted1'] = '評価のために「%s 」提出されているため、あなたはこのコレクションを編集できません。あなたはリリースされるまで待つ必要があります。';
 $string['collection'] = 'コレクション';
 $string['Collection'] = 'コレクション';
 $string['collections'] = 'コレクション';
@@ -221,10 +221,12 @@ $string['undoreportmessage'] = 'ステートメント「 %s 」(ポートフォ�
 $string['accessdeniedundo'] = 'ステートメントはすでにリセットされています。これ以上、あなたはポートフォリオにアクセスできません。';
 $string['undonesubject'] = 'ステートメントのリセットリクエストレビュ完了';
 $string['undonemessage'] = '最初のステートメント承認者からのリクエストにより %s がステートメント「 %s 」(ポートフォリオ「 %s 」) をリセットしました。';
+$string['owngrouponlyremovedaccesssubject'] = '「 %s 」へのアクセスが削除されました。';
 $string['userhasremovedaccess'] = '%s はポートフォリオ「 %s 」にアクセスできないようになりました。';
 $string['userrevokereason'] = '理由は次のとおりです:';
 $string['removemyaccess'] = '私のアクセスを削除する';
 $string['ownerhasremovedaccess'] = '%s がポートフォリオ「 %s 」へのあなたのアクセスを取り消しました。';
+$string['owngrouponlyremovedaccess'] = 'グループメンバシップの変更によりあなたの「 %s 」へのアクセスが削除されました。';
 $string['completionpercentage'] = '完了';
 $string['revokemyaccessformtitle'] = 'ポートフォリオアクセスを取り消す';
 $string['revokemyaccessdescription'] = '続けることにより、あなたはこのポートフォリオ全体へのアクセスを失います。あなたはこのポートフォリオを閲覧または参加できなくなります。このポートフォリオのオーナにはあなたにアクセスがなくなった旨の通知が送信されます。

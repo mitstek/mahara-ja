@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-05-14 22:43:12 UTC
+ * @updated    2023-05-16 10:44:13 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -521,14 +521,14 @@ $string['accessdeniedaccesss'] = 'あなたはこれ以上アクセスパーミ�
 $string['signoff'] = '承認';
 $string['signoffhelp'] = 'あなたが完了したページを表示します。';
 $string['signoffhelppage'] = 'あなたのすべてのエビデンス追加を終了した場合、このページを「承認」マークしてください。';
-$string['signoffdesc'] = 'すべての必要条件を満たした場合、評価準備が完了したことを示すため、ポートフォリオオーナはページを承認できます。';
+$string['signoffdesc1'] = 'ポートフォリオのオーナはすべての要件を満たした場合にこのページを承認して次のステップに進む準備の完了を示せます。これはポートフォリオ完了ページがあるコレクションでの使用が最適です。';
 $string['verify'] = '検証';
-$string['verifydesc1'] = 'ポートフォリオ評価過程の一環としてマネージャがこのページを検証する必要があるかどうか決定してください。';
+$string['verifydesc2'] = 'ポートフォリオ完了手続きの一環としてマネージャがこのページを確認する必要があるかどうかを決定してください。';
 $string['signedoff'] = '承認';
 $string['verified'] = '検証';
 $string['signoffpagetitle'] = '承認ページ';
 $string['signoffpagedesc'] = 'あなたがすべての必要条件を満たしたことを示したい場合、「Yes」を選択してこのページを承認してください。中止するには「No」を選択してください。';
-$string['signoffpageundodesc'] = '「Yes」を選択した場合、あなたは承認ステータスを削除することになります。検証が評価過程の一環である場合、検証も削除されます。中止するには「No」を選択してください。';
+$string['signoffpageundodesc1'] = '「Yes」を選択した場合、あなたは承認のステータスを削除することになります。また、ワークフローの一部である場合、検証も削除されます。中断する場合、「No」を選択してください。';
 $string['signoffpageconfirm'] = 'この処理を実行してもよろしいですか?';
 $string['verifypagetitle'] = 'ページを検証する';
 $string['verifypagedesc'] = 'ポートフォリオのオーナがこのページすべての必要条件を満たしていると検証した場合、「Yes」を選択してください。検証せずにページに戻るには「No」を選択してください。';

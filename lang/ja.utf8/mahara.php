@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-04-08 19:55:11 UTC
+ * @updated    2023-05-16 10:43:20 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1189,6 +1189,7 @@ $string['blockinstanceconfigownerauto'] = 'このブロックがパーソナル�
 $string['blockinstanceconfigownerchange'] = 'このブロックがコンテンツを表示するためパーソナルポートフォリオページとしてコピーされた場合、編集/設定する必要があります。';
 $string['filenotfound'] = 'ファイルは見つかりませんでした。';
 $string['filenotfoundmaybeexpired'] = 'ファイルは見つかりませんでした。あなたのエクスポートファイルは作成後24時間のみ存在します。あなたのコンテンツを再度エクスポートする必要があります。';
+$string['nothingtodownload'] = 'ダウンロードするものはありません。';
 $string['betweenxandy'] = '範囲: %s - %s';
 $string['cleanurlallowedcharacters'] = '半角英数小文字および「-」のみ許可されます。';
 $string['content'] = 'コンテンツ';
@@ -1335,3 +1336,9 @@ $string['accountupdatedpasswordresethtml'] = '<p><a href="%s">あなたのパス
 $string['accountupdateresetpasslink'] = '%sforgotpass.php?key=%s';
 $string['accountupdatefooter'] = '%s 管理者';
 $string['accountupdatefooterhtml'] = '<p>%s 管理者</p>';
+$string['confirmisoinstdbcleanup'] = 'アクセスルールを削除する';
+$string['dbcleanedforisoinst'] = 'データベースが更新されました。サイトは再オープンされました。';
+$string['isolatedinstitutioninstructions'] = 'サイト設定「<b>隔離インスティテューション</b>」が有効にされました。ポートフォリオを他のインスティテューションの人と共有できなくなるため、この設定に準拠するには既存のポートフォリオのアクセスルールの一部をデータベースから永久に削除する必要があります。';
+$string['pleaseconfirmcdcleanforisoinst'] = 'このサイトのインスティテューション隔離を遵守するため、あなたがこれらのポートフォリオアクセスルールを完全に削除したいことを確認してください。<b>あなたはこの操作を元に戻せません。</b>';
+$string['revertisolation'] = 'あなたが継続したくない場合、config.phpファイルの隔離インスティテューション設定を無効にしてください。これによりこのメッセージが表示されなくなります。また、あなたはアクセスルール変更の必要がなくなります。';
+$string['owngroupsonlyprocessingtext'] = '「隔離インスティテューション」に加えて「<b>自分のグループのみ</b>」が有効にされました。この設定に準拠するためポートフォリオのアクセス権を更新する必要があります。少なくとも1つのグループに属していないアカウント保持者間でポートフォリオを共有していた場合、ポートフォリオは他のグループメンバとのみ共有できるため共有権限が削除されます。';
