@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-03-13 04:04:05 UTC
+ * @updated    2023-05-17 22:36:33 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -107,6 +107,7 @@ $string['collectionsubmittedtogroupgrade'] = 'このコレクションは課題�
 $string['collectionsubmittedtohost'] = 'このコレクションは評価のために送信されました。';
 $string['collectionsubmittedtohoston'] = 'このコレクションは %s に送信されました。';
 $string['submittedpendingrelease'] = 'アーカイブ後のリリース保留中です。';
+$string['submittedpendingreleasefailed'] = 'リリースがアーカイブに失敗しました。再キューするには<a href="%s">エクスポートキュー</a>に移動してください。';
 $string['nobodycanseethisview2'] = 'あなたのみこのページを閲覧できます。';
 $string['noviews1'] = 'ページまたはコレクションはありません。';
 $string['youhavenoviews1'] = 'あなたにはページまたはコレクションはありません。';

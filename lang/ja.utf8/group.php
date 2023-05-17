@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-04-26 20:41:43 UTC
+ * @updated    2023-05-17 22:34:02 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -187,7 +187,9 @@ $string['grouprequestmessagereason'] = '%s があなたのグループ「 %s 」
 
 %s';
 $string['cantdeletegroup'] = 'あなたはこのグループを削除できません。';
-$string['groupconfirmdelete'] = 'これによりグループに含まれるすべてのページ、ファイルおよびフォーラムが削除されます。本当にこのグループおよびコンテンツすべてを完全に削除してもよろしいですか?';
+$string['groupdeletegeneral'] = 'このグループに含まれるすべてのポートフォリオ、アーティファクトおよびフォーラムが削除されます。';
+$string['groupconfirmdeleteowngroupsonly'] = '加えて、このグループの削除後、少なくとも1つのグループに属していない限り、アカウント保持者はお互いのポートフォリオを閲覧できないようになります。';
+$string['groupconfirmdelete1'] = '本当にこのグループおよびそのコンテンツを削除してもよろしいですか? あなたはこの操作を元に戻せません。';
 $string['deletegroup'] = 'グループが正常に削除されました。';
 $string['deletegroup1'] = 'グループを削除する';
 $string['allmygroups'] = 'すべてのマイグループ';
@@ -227,6 +229,9 @@ $string['notpublic'] = 'このグループはパブリックではありませ�
 $string['moregroups'] = 'さらにグループを表示する';
 $string['deletegroupnotificationsubject'] = 'グループ「 %s 」が削除されました。';
 $string['deletegroupnotificationmessage'] = 'あなたはグループ %s (%s) のメンバでした。現在、このグループは削除されています。';
+$string['deletegroupnotificationmessageowngroupsonly'] = 'グループまたは個別のグループメンバから共有されたポートフォリオがある場合、グループメンバのみ相互にポートフォリオを共有できるため、あなたはそれ以上アクセスできません。';
+$string['removefromgroupnotificationsubject'] = '「 %s 」のメンバではなくなりました。';
+$string['removefromgroupnotificationmessage'] = 'あなたはグループ「 %s 」のメンバではなくなりました';
 $string['hidegroupmembers'] = 'メンバを秘匿する';
 $string['hideonlygrouptutors'] = 'チュータを秘匿する';
 $string['addmembers'] = 'メンバを追加する';
@@ -254,8 +259,7 @@ $string['removefromfriendslist'] = 'フレンドから削除する';
 $string['removefromfriends'] = '%s をフレンドから削除する';
 $string['removedfromfriendslistsubject'] = 'フレンドリストから削除されました。';
 $string['removedfromfriendslistmessage'] = '%s があなたをフレンドリストから削除しました。';
-$string['removedfromfriendslistmessagereason'] = '%s があなたをフレンドリストから削除しました。
-理由は次のとおりです:';
+$string['removedfromfriendslistmessageauto'] = 'あなたは %s のフレンドリストから削除されました。';
 $string['cantremovefriend'] = 'あなたはこの人をフレンドリストから削除できません。';
 $string['friendshipalreadyrequested'] = 'あなたは %s のフレンドリストへの追加をリクエストしました。';
 $string['friendshipalreadyrequestedowner'] = '%s があなたのフレンドリストへの追加をリクエストしました。';

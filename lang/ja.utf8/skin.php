@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-15 21:08:48 UTC
+ * @updated    2023-05-17 22:36:05 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -38,6 +38,7 @@ $string['importskinsmenu'] = 'インポート';
 $string['importskinsnotice'] = 'インポートするにはスキン定義を含む有効なXMLファイルを選択してください。';
 $string['validxmlfile'] = '有効なXMLファイル';
 $string['notvalidxmlfile'] = 'アップロードされたファイルは有効なXMLファイルではありません。';
+$string['skinnotimported'] = 'スキンのインポートに失敗しました。有効なスキンxml ファイルであるか確認してください。';
 $string['import'] = 'インポート';
 $string['exportthisskin'] = 'このスキンをエクスポートする';
 $string['exportspecific'] = '「 %s 」をエクスポートする';
@@ -273,6 +274,7 @@ $string['archivereadingerror'] = 'ZIPアーカイブの読み込み中にエラ�
 $string['notvalidzipfile'] = 'これは有効なZIPファイルではありません。';
 $string['fontlicence'] = 'フォントライセンス';
 $string['fontlicencenotfound'] = 'フォントライセンスは見つかりませんでした。';
+$string['fontuploaderror'] = 'セキュリティ上のリスクがあるためインポートファイルに含まれるフォントファイルをアップロードできません。ファイルのXMLを確認してください。';
 $string['fontsort.alpha'] = 'アルファベット';
 $string['fontsort.date'] = '追加日時';
 $string['fontsort.popularity'] = '人気度';
