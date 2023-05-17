@@ -5,8 +5,8 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-04-27 03:22:25 UTC
- * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
+ * @updated    2023-05-17 22:42:25 UTC
+ * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
@@ -149,3 +149,8 @@ $string['fileuploadtoomany'] = 'あなたがアップロードを試みている
 $string['sideblockmenuclash'] = 'サイドブロック名「 %s 」はすでに使用されています。異なる名称を選択してください。';
 $string['isolatedinstitutionsremoverules'] = '隔離インスティテューションが有効にされているため、私たちは %s 件のアクセスルールを非表示にしました。フォームを保存した場合、非表示のルールは削除されます。';
 $string['randomkeyminlength'] = '長さは8桁以上の正の整数にしてください。';
+$string['peopleinmultipleinstitutions'] = '「隔離インスティテューション」を有効にできません。
+
+すべてのアカウントが1つのインスティテューションのみのメンバであることを確認してください。これらのアカウントを表示するには「管理メニュ → 人 → 人検索」を参照してください。「インスティテューション」カラムには1名につき1エントリのみあることを確認してください。
+
+サイトに戻るにはconfig.phpファイルの隔離インスティテューションを無効にしてください。';

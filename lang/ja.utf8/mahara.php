@@ -5,8 +5,8 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-08-31 06:14:59 UTC
- * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
+ * @updated    2023-05-17 22:44:13 UTC
+ * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
@@ -1297,3 +1297,9 @@ $string['institutionfilledreplymessage'] = '%s さん、こんにちは。
 $string['institutionmembershiprequestsdescription'] = 'あなたは次のインスティテューションへの参加をリクエストしました。';
 $string['institutionmembershipinvitedescription'] = '管理者があなたに次のインスティテューションへの参加を招待しました。';
 $string['institutionmembershipjoindescription'] = 'あなたはインスティテューションへの参加リクエストを送信できます。「インスティテューションID」フィールドはこのインスティテューションの学籍番号設定用です。';
+$string['confirmisoinstdbcleanup'] = 'アクセスルールを削除する';
+$string['dbcleanedforisoinst'] = 'データベースが更新されました。サイトは再オープンされました。';
+$string['isolatedinstitutioninstructions'] = 'サイト設定「<b>隔離インスティテューション</b>」が有効にされました。ポートフォリオを他のインスティテューションの人と共有できなくなるため、この設定に準拠するには既存のポートフォリオのアクセスルールの一部をデータベースから永久に削除する必要があります。';
+$string['pleaseconfirmcdcleanforisoinst'] = 'このサイトのインスティテューション隔離を遵守するため、あなたがこれらのポートフォリオアクセスルールを完全に削除したいことを確認してください。<b>あなたはこの操作を元に戻せません。</b>';
+$string['revertisolation'] = 'あなたが継続したくない場合、config.phpファイルの隔離インスティテューション設定を無効にしてください。これによりこのメッセージが表示されなくなります。また、あなたはアクセスルール変更の必要がなくなります。';
+$string['owngroupsonlyprocessingtext'] = '「隔離インスティテューション」に加えて「<b>自分のグループのみ</b>」が有効にされました。この設定に準拠するためポートフォリオのアクセス権を更新する必要があります。少なくとも1つのグループに属していないアカウント保持者間でポートフォリオを共有していた場合、ポートフォリオは他のグループメンバとのみ共有できるため共有権限が削除されます。';

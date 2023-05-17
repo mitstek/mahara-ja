@@ -5,8 +5,8 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2021-08-10 02:40:06 UTC
- * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
+ * @updated    2023-05-17 22:42:01 UTC
+ * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
@@ -164,10 +164,12 @@ $string['undoreportmessage'] = 'ステートメント「 %s 」(ポートフォ�
 $string['accessdeniedundo'] = 'ステートメントはすでにリセットされています。これ以上、あなたはポートフォリオにアクセスできません。';
 $string['undonesubject'] = 'ステートメントのリセットリクエストレビュ完了';
 $string['undonemessage'] = '最初のステートメント承認者からのリクエストにより %s がステートメント「 %s 」(ポートフォリオ「 %s 」) をリセットしました。';
+$string['owngrouponlyremovedaccesssubject'] = '「 %s 」へのアクセスが削除されました。';
 $string['userhasremovedaccess'] = '%s はポートフォリオ「 %s 」にアクセスできないようになりました。';
 $string['userrevokereason'] = '理由は次のとおりです:';
 $string['removemyaccess'] = '私のアクセスを削除する';
 $string['ownerhasremovedaccess'] = '%s がポートフォリオ「 %s 」へのあなたのアクセスを取り消しました。';
+$string['owngrouponlyremovedaccess'] = 'グループメンバシップの変更によりあなたの「 %s 」へのアクセスが削除されました。';
 $string['completionpercentage'] = '完了';
 $string['revokemyaccessformtitle'] = 'ポートフォリオアクセスを取り消す';
 $string['revokemyaccessdescription'] = '続けることにより、あなたはこのポートフォリオ全体へのアクセスを失います。あなたはこのポートフォリオを閲覧または参加できなくなります。このポートフォリオのオーナにはあなたにアクセスがなくなった旨の通知が送信されます。
