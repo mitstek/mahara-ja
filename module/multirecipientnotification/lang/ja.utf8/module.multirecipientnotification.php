@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-08-14 23:40:31 UTC
+ * @updated    2023-05-17 22:37:13 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -28,7 +28,7 @@ $string['cantsendemptysubject'] = 'あなたの件名は空です。件名を入
 $string['cantsendemptytext'] = 'あなたのメッセージは空です。メッセージを入力してください。';
 $string['cantsendnorecipients'] = '少なくとも1名の受信者を選択してください。';
 $string['removeduserfromlist'] = 'あなたのメッセージを受信できない人は受信者リストから削除されました。';
-$string['deleteduser'] = '削除済みアカウント';
+$string['deleteduser1'] = '削除済みアカウント';
 $string['fromuser'] = 'From';
 $string['touser'] = 'To';
 $string['reply'] = '返信';
