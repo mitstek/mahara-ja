@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-08-04 05:14:53 UTC
+ * @updated    2023-05-21 19:53:12 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -24,7 +24,7 @@ $string['authuserfirstname'] = '認証済みの人の名';
 $string['authuserfullname'] = '認証済みの人のフルネーム';
 $string['authuserid'] = '認証済みの人のID';
 $string['authuserlastname'] = '認証済みの人の姓';
-$string['authuserusername'] = '認証済みの人のユーザネーム';
+$string['authuserusername'] = '認証済みの人のユーザ名';
 $string['availfunctions'] = '利用可能な関数';
 $string['blog'] = '日誌';
 $string['blogaddress'] = '日誌ウェブアドレス';
