@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-05-29 01:56:03 UTC
+ * @updated    2023-05-31 01:42:06 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -138,7 +138,7 @@ $string['lis_person_name_family'] = 'LTI人の姓';
 $string['lis_person_name_full'] = 'LTI人のフルネーム';
 $string['lis_person_name_given'] = 'LTI人の名';
 $string['lis_person_sourcedid'] = 'LTIペルソナのソースID';
-$string['lock'] = '提出を編集からロックしますか?';
+$string['lock'] = '提出を編集できないようにロックしますか?';
 $string['locked'] = 'ロック';
 $string['lti_message_type'] = 'LTIメッセージタイプ';
 $string['lti_version'] = 'LTIバージョン';
