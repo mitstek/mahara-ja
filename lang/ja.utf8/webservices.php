@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-06-04 20:46:58 UTC
+ * @updated    2023-06-06 20:45:46 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -173,7 +173,7 @@ $string['remoteuserid'] = 'リモートアカウント保持者ID';
 $string['remoteusername'] = 'リモートユーザ名';
 $string['remoteusersconnected'] = 'リモートで接続する人';
 $string['remoteusersubmitportfolio'] = '評価のためにポートフォリオを送信する人のリモートユーザ名';
-$string['requestedapilvl'] = 'APIレベルリクエスト';
+$string['requestedapilvl'] = '要求されるAPIレベル';
 $string['resource_link_description'] = 'LTIリソースリンク説明';
 $string['resource_link_id'] = 'LTIリソースリンクID';
 $string['resource_link_title'] = 'LTIリソースリンクタイトル';
