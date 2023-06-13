@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-06-12 03:39:56 UTC
+ * @updated    2023-06-13 22:12:12 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -229,4 +229,4 @@ $string['yahoochat'] = 'Yahooチャット';
 $string['viewidtotest'] = 'エクスポートする送信済みポートフォリオ';
 $string['submittedhost'] = '送信先外部ホスト';
 $string['liteexporttype'] = '使用するエクスポートタイプです。有効なオプションは「htmllite」または「pdflite」です。';
-$string['fileurl'] = 'ZIPファイルを取得するダウンロードURLです。注意: ファイルをダウンロードするには有効なウェブサービストークンを提供する必要があります。';
+$string['fileurl'] = 'ZIPファイルを取得するダウンロードURLです。注意: あなたがファイルをダウンロードするには有効なウェブサービストークンを提供する必要があります。';
