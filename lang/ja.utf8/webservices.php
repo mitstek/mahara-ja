@@ -229,4 +229,4 @@ $string['yahoochat'] = 'Yahooチャット';
 $string['viewidtotest'] = 'エクスポートする送信済みポートフォリオ';
 $string['submittedhost'] = '送信先外部ホスト';
 $string['liteexporttype'] = '使用するエクスポートタイプです。有効なオプションは「htmllite」または「pdflite」です。';
-$string['fileurl'] = 'ZIPファイルを取得するダウンロードURLです。注意: ファイルをダウンロードするには有効なウェブサービストークンを提供する必要があります。';
+$string['fileurl'] = 'ZIPファイルを取得するダウンロードURLです。注意: あなたがファイルをダウンロードするには有効なウェブサービストークンを提供する必要があります。';
