@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-11-18 02:42:04 UTC
+ * @updated    2023-06-20 20:40:05 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,7 +19,7 @@ $string['frameworks'] = 'インストール済みフレームワーク';
 $string['frameworkdesc'] = 'あなたのポートフォリオと関連付けたいコンピテンシフレームワークを選択してください。';
 $string['frameworksdesc'] = 'システムにインストールされているフレームワークの一覧です。有効時にコレクションと関連付けられていない限り、無効にされたフレームワークは一覧表示されません。';
 $string['taskscompleted'] = 'タスク完了';
-$string['addpages'] = 'あなたがスマートエビデンスマップに表示させたい場合、さらにこのコレクションにページを追加できます。';
+$string['addpages'] = 'あなたがスマートエビデンスマップに表示させたい場合、さらにこのコレクションにページを追加してください。';
 $string['addframework'] = 'フレームワークを追加する';
 $string['frameworkupdated'] = 'フレームワークが更新されました。';
 $string['matrixfile'] = 'マトリクスファイル';
