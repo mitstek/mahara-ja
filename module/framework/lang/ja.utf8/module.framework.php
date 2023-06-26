@@ -28,13 +28,13 @@ $string['notvalidmatrixfile'] = 'これは有効な.matrixファイルではあ�
 $string['matrixfilenotfound'] = '有効な.matrixファイルが選択されていません。';
 $string['invalidjson'] = 'これは有効な.matrixファイルではありません: JSONコンテンツを構文解析できません。';
 $string['jsonmissingvars'] = 'これは有効な.matrixファイルではありません: 「framework」または「framework name」がありません。';
-$string['manuallyremovematrices'] = 'インストールディレクトリ「 %s 」は削除できません。手動で削除してください。';
+$string['manuallyremovematrices'] = 'インストールディレクトリ「 %s 」を削除できません。手動で削除してください。';
 $string['changeframeworkproblems'] = 'あなたはフレームワークを変更できません。次のページにはこのフレームワークと関連付けられたエビデンスがあります:';
 $string['accessdeniednoframework'] = 'このコレクションはスマートエビデンスページを表示できません。これには以下のいずれかの理由が考えられます:
 <ul>
 <li>スマートエビデンスプラグインがインストールまたは有効にされていない。</li>
 <li>あなたが属しているインスティテューションではスマートエビデンスが許可されていない。</li>
-<li>このコレクションにスマートエビデンスフレームワークが設定されていない。</li>
+<li>このコレクションにはスマートエビデンスフレームセットがない。</li>
 <li>このコレクションにページが存在しない。</li>
 </ul>';
 $string['firstviewlink'] = 'コレクションの<a href="%s">最初のページ</a>に移動してください。';
