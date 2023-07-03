@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-05-16 10:39:55 UTC
+ * @updated    2023-07-03 09:57:25 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1501,7 +1501,7 @@ $string['exportthirdpartycsv'] = 'プラグイン情報をCSVフォーマット�
 $string['Path'] = 'パス';
 $string['styleguide'] = 'スタイルガイド';
 $string['thirdpartypluginstitle'] = 'サードパーティプラグイン';
-$string['thirdpartyplugins1'] = 'README.Maharaファイルに基づくサードパーティプラグインです。注意: この情報は古くなっています。Composer管理のプラグインに関する情報はhtdocs/composer.jsonおよびcomposer.jsonをご確認ください。NPM管理のプラグインに関する情報はpackage.jsonをご確認ください。';
+$string['thirdpartyplugins2'] = 'README.Maharaファイルに基づくサードパーティプラグインです。注意: この情報は古くなっています。Composer管理のプラグインに関する情報はhtdocs/composer.jsonおよびcomposer.jsonをご確認ください。NPM管理のプラグインに関する情報はpackage.jsonをご確認ください。';
 $string['url'] = 'url';
 $string['pluginartefact'] = 'プラグインタイプ: アーティファクト';
 $string['pluginauth'] = 'プラグインタイプ: 認証';
