@@ -53,7 +53,7 @@ $string['partialcomplete'] = '標準に一部合致する';
 $string['completed'] = '標準に合致する';
 $string['usedincollections'] = 'コレクションで使用済み';
 $string['selfassess'] = '自己評価';
-$string['uploadframeworkdesc2'] = 'JSONエンコード済みの.matrixファイルをアップロードします。マークアップの例に関して<a href="https://git.mahara.org/mahara/mahara/-/blob/%s/test/behat/upload_files/example.matrix">Mahara git repository</a>、個別のコンポーネントの例に関して<a href="%s">Maharaマニュアル</a>をご覧ください。';
+$string['uploadframeworkdesc2'] = 'JSONエンコード済みの.matrixファイルをアップロードします。マークアップの例に関して<a href="https://git.mahara.org/mahara/mahara/-/blob/%s/test/behat/upload_files/example.matrix">Mahara git repository</a>、個別のコンポーネントの説明に関して<a href="%s">Maharaマニュアル</a>をご覧ください。';
 $string['savematrix'] = 'マトリクスをアップロードする';
 $string['frameworkmissing'] = 'フレームワークは見つかりませんでした。';
 $string['activeframework'] = 'フレームワーク有効化';
