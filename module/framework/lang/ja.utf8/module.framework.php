@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-07-05 01:12:06 UTC
+ * @updated    2023-07-09 23:59:14 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -61,7 +61,7 @@ $string['displaystatusestitle'] = '評価ステータスを表示する';
 $string['displaystatusestitledetail'] = 'あなたが表示したい評価ステータスを決定してください。';
 $string['sumofstatuses'] = 'ステータス合計';
 $string['upgradeplugin'] = 'これらの設定を有効にするにはSmartEvidenceプラグインをアップグレードする必要があります。';
-$string['noannotation'] = 'ページ「 %s 」 (標準エレメント「 %s 」) のアノテーションがありません。';
+$string['noannotation'] = 'ページ「 %s 」には標準エレメント「 %s 」のアノテーションがありません。';
 $string['addannotation'] = '標準「 %s 」のアノテーションをページ「 %s 」に追加する';
 $string['assessmenttypecount'] = '標準エレメントを含むページ数';
 $string['tabledesc'] = '以下、コレクションのスマートエビデンスマトリクスの構造です。';
