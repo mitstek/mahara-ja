@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-02-28 23:58:55 UTC
+ * @updated    2023-07-10 01:18:11 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -142,3 +142,6 @@ $string['identityprovider'] = 'アイデンティティプロバイダ';
 $string['selectmigrateto'] = '移動するインスティテューションを選択する ...';
 $string['samlneedtoremovephar'] = '%s ファイルを削除できません。ファイルを削除して再度「make ssphp」を実行してください。';
 $string['instancename'] = 'インスタンス名';
+$string['oidc_login'] = 'Maharaアイデンティティプロバイダ';
+$string['oidc_loginheader'] = 'ログイン対象: %s';
+$string['oidc_logintext'] = 'このサイトのあなたの認証情報でログインしてください。<br />注意: あなたのアカウントは内部認証を使用する必要があります。';
