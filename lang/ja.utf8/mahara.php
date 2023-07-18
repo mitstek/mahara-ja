@@ -61,12 +61,12 @@ $string['All'] = 'すべて';
 $string['enable'] = '有効にする';
 $string['disable'] = '無効にする';
 $string['show'] = '表示';
-$string['hide'] = '非表示';
+$string['hide'] = '秘匿';
 $string['pluginenabled'] = 'プラグインが表示にされました。';
-$string['plugindisabled'] = 'プラグインが非表示にされました。';
-$string['pluginnotenabled'] = 'プラグインは非表示にされています。あなたはまず %s プラグインを表示にする必要があります。';
-$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるためURLを知っていてアクセスしようと思うユーザはアクセスできます。機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックすることでプラグインを表示または非表示にできます。';
-$string['pluginexplainartefactblocktypes'] = '「アーティファクト」タイプのプラグインを非表示にした場合、Maharaは関連するブロックの表示も停止します。';
+$string['plugindisabled'] = 'プラグインが秘匿されました。';
+$string['pluginnotenabled'] = 'プラグインは秘匿されています。あなたはまず %s プラグインを表示にする必要があります。';
+$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるためURLを知っていてアクセスしようと思うユーザはアクセスできます。機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「秘匿」リンクをクリックすることでプラグインを表示または秘匿できます。';
+$string['pluginexplainartefactblocktypes'] = '「アーティファクト」タイプのプラグインを秘匿した場合、Maharaは関連するブロックの表示も停止します。';
 $string['next'] = '次へ';
 $string['nextpage'] = '次のページ';
 $string['previous'] = '前へ';
@@ -834,7 +834,7 @@ $string['pleasedonotreplytothismessage'] = 'このメッセージに返信しな
 $string['deleteduser'] = '削除済みユーザ';
 $string['theme'] = 'テーマ';
 $string['choosetheme'] = 'テーマを選択する ...';
-$string['Hide'] = '非表示にする';
+$string['Hide'] = '秘匿する';
 $string['createcollect'] = '作成および収集';
 $string['createcollectsubtitle'] = 'あなたのポートフォリオを作成します。';
 $string['updateyourprofile'] = '<a href="%s">プロファイル</a>を編集する';
@@ -849,7 +849,7 @@ $string['sharenetworksubtitle'] = 'フレンドを探してグループに参加
 $string['findfriendslinked'] = '<a href="%s">フレンド</a>を探す';
 $string['joingroups'] = '<a href="%s">グループ</a>に参加する';
 $string['sharenetworkdescription'] = '<br />あなたのプライバシをコントロールします。';
-$string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールできます。';
+$string['howtodisable'] = 'あなたは情報ボックスを秘匿しました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールできます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 
 ?>
