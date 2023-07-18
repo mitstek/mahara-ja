@@ -149,7 +149,7 @@ $string['pluginnotactive1'] = 'プラグイン「 %s 」が有効にされてい
 $string['fileuploadtoobig'] = 'あなたがアップロードを試みているファイルはアップロードを許可されている最大ファイルサイズ「 %s 」を超えています。';
 $string['fileuploadtoomany'] = 'あなたがアップロードを試みているファイル数が多すぎます。あなたは最大 %s 個のファイルをアップロードできます。';
 $string['sideblockmenuclash'] = 'サイドブロック名「 %s 」はすでに使用されています。異なる名称を選択してください。';
-$string['isolatedinstitutionsremoverules'] = '隔離インスティテューションが有効にされているため、私たちは %s 件のアクセスルールを非表示にしました。フォームを保存した場合、非表示のルールは削除されます。';
+$string['isolatedinstitutionsremoverules'] = '隔離インスティテューションが有効にされているため、私たちは %s 件のアクセスルールを秘匿しました。フォームを保存した場合、秘匿ルールは削除されます。';
 $string['randomkeyminlength'] = '長さは8桁以上の正の整数にしてください。';
 $string['peopleinmultipleinstitutions'] = '「隔離インスティテューション」を有効にできません。
 
