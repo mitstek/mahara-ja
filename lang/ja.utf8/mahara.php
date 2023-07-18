@@ -67,13 +67,13 @@ $string['selectnone'] = 'すべての選択を解除する';
 $string['enable'] = '有効にする';
 $string['disable'] = '無効にする';
 $string['show'] = '表示';
-$string['hide'] = '非表示';
+$string['hide'] = '秘匿';
 $string['pluginenabled'] = 'プラグインが表示にされました。';
-$string['plugindisabled'] = 'プラグインが非表示にされました。';
+$string['plugindisabled'] = 'プラグインが秘匿されました。';
 $string['plugindisableduser'] = '%s プラグインは無効にされています。この機能を有効にするにはあなたの管理者にご相談ください。';
-$string['pluginnotenabled'] = 'プラグインは非表示にされています。あなたはまず %s プラグインを表示にする必要があります。';
-$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるためURLを知っていてアクセスしようと思うユーザはアクセスできます。機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「非表示」リンクをクリックしてプラグインを表示または非表示にできます。';
-$string['pluginexplainartefactblocktypes'] = '「アーティファクト」タイプのプラグインを非表示にした場合、Maharaは関連するブロックの表示も停止します。';
+$string['pluginnotenabled'] = 'プラグインは秘匿されています。あなたはまず %s プラグインを表示にする必要があります。';
+$string['pluginexplainaddremove'] = 'Maharaプラグインは常にインストールされるためURLを知っていてアクセスしようと思うユーザはアクセスできます。機能を有効または無効にする代わりに以下のプラグインの横にある「表示」または「秘匿」リンクをクリックしてプラグインを表示または秘匿できます。';
+$string['pluginexplainartefactblocktypes'] = '「アーティファクト」タイプのプラグインを秘匿した場合、Maharaは関連するブロックの表示も停止します。';
 $string['pluginbrokenanddisabledtitle'] = '不完全なプラグイン (%s) が無効にされました。';
 $string['pluginbrokenanddisabled'] = 'ユーザが %s プラグインのロードを試みましたがロードできませんでした。
 さらなるエラーを避けるためこのプラグインは無効にされました。
@@ -932,7 +932,7 @@ $string['after'] = '後';
 $string['before'] = '前';
 $string['Visibility'] = '可視性';
 $string['nusers'] = '%s ユーザ';
-$string['hidden'] = '非表示';
+$string['hidden'] = '秘匿';
 $string['lastupdate'] = '最終更新日時';
 $string['lastupdateorcomment'] = '最終更新日時またはコメント';
 $string['Title'] = 'タイトル';
@@ -972,7 +972,7 @@ $string['sharenetworksubtitle'] = 'フレンドを探してグループに参加
 $string['joinsomegroups'] = 'グループに参加する';
 $string['controlyourprivacy'] = 'あなたのプライバシをコントロールする';
 $string['discusstopics'] = 'トッピックを議論する';
-$string['howtodisable'] = 'あなたは情報ボックスを非表示にしました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールできます。';
+$string['howtodisable'] = 'あなたは情報ボックスを秘匿しました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールできます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['filenotfound'] = 'ファイルは見つかりませんでした。';
 $string['betweenxandy'] = '範囲: %s - %s';
