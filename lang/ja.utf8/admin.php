@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-07-03 02:38:42 UTC
+ * @updated    2023-07-23 23:23:28 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -386,10 +386,10 @@ $string['commentsortorder'] = 'コメント並べ替え順';
 $string['commentsortorderdescription'] = 'ページに表示されるアーティファクトコメントの並べ替え順を設定します。';
 $string['commentthreaded'] = 'スレッドコメント';
 $string['commentthreadeddescription'] = 'ページの個別コメントへのスレッド返信を許可します。';
-$string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
+$string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休止期間';
 $string['defaultaccountinactiveexpiredescription'] = '人がログインしない状態でどのくらいの期間アカウントがアクティブのままであるか指定します。';
-$string['defaultaccountinactivewarn'] = '休眠/有効期限の警告期間';
-$string['defaultaccountinactivewarndescription1'] = 'アカウントの有効期限切れまたは休眠状態になる前に警告メッセージがアカウント保持者の主メールアドレスに送信されるまでの期間です。';
+$string['defaultaccountinactivewarn'] = '休止/有効期限の警告期間';
+$string['defaultaccountinactivewarndescription1'] = 'アカウントの有効期限切れまたは休止状態になる前に警告メッセージがアカウント保持者の主メールアドレスに送信されるまでの期間です。';
 $string['defaultregistrationexpirylifetime'] = 'デフォルトの登録存続期間';
 $string['defaultregistrationexpirylifetimedescription'] = '管理者が対応する必要のある登録申請がどのくらいの期間存続するか指定します。';
 $string['defaultaccountlifetime'] = 'デフォルトのアカウント存続期間';
