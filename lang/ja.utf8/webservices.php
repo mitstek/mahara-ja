@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-06-13 22:12:12 UTC
+ * @updated    2023-07-26 05:31:07 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -83,7 +83,8 @@ $string['favusername'] = 'お気に入りのユーザ名';
 $string['faxnumber'] = 'FAX番号';
 $string['feedbacknotify'] = '許可されるコメント通知:';
 $string['feedbacknotifyexplicit'] = 'コメント通知';
-$string['filedescription'] = 'ファイルの説明 - 例) 2021年101コース修了証';
+$string['filealttext'] = 'ファイルキャプション 例)「木の枝にとまる鳥」';
+$string['filedescription1'] = 'ファイル説明または画像キャプションです。例)「2021年101コース修了証」「夜明けに鳴くスズメ」';
 $string['fileid'] = '新しく作成されたファイルアーティファクトのID';
 $string['filetags'] = '任意タグの配列 例) [2021,101,修了証]';
 $string['filetitle'] = 'ファイルタイトル 例) 修了証101';
