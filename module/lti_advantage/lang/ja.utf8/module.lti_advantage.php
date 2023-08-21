@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-03-14 01:30:52 UTC
+ * @updated    2023-08-21 00:43:02 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -27,7 +27,7 @@ $string['platformvendorkeyoptionbrightspace'] = 'Brightspace';
 $string['platformvendorkeycannotbeempty'] = 'プラットフォームベンダを選択または入力してください。';
 $string['platformvendorissnotfound'] = 'プラットフォームは返却データ内に「iss」を送信していません。キーがありません。';
 $string['platformvendorkeyinvalid'] = 'リクエスト内にプラットフォームベンダキーは見つかりませんでした。返されたリクエスト内のキーは次のとおりです: %s';
-$string['platformvendorkeynotfound'] = 'プラットフォームからの「iss」(%s) には「lti_advantage_registration」データベーステーブル内で合致する「Issuer」がありません。';
+$string['platformvendorkeynotfound'] = 'プラットフォームからの「iss」(%s) には「lti_advantage_registration」データベーステーブル内で合致する「イシュア」がありません。';
 $string['productfamilycodenotfound'] = 'リクエスト内にプラットフォームプロダクトファミリコードは見つかりませんでした。';
 $string['productfamilycodeunknown'] = 'プラットフォームプロダクトファミリコード「 %s 」はMaharaに認識されていません。';
 $string['platform_service_auth_endpoint'] = 'プラットフォームOAuth2アクセストークンURL';
