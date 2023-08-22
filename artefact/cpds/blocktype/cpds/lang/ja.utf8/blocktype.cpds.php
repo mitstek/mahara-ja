@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-08-01 07:34:36 UTC
+ * @updated    2023-08-22 04:47:03 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -23,10 +23,11 @@ $string['cpdstoshow'] = '表示するCPD';
 $string['taglist'] = 'タグ付けされた活動を表示する';
 $string['notagsavailable'] = 'あなたはCPD活動にタグを付けしていません。';
 $string['notagsavailableerror'] = 'タグが選択されていません。あなたがここで選択できるようにするにはCPDエントリにタグを追加する必要があります。';
-$string['startdate'] = 'From';
+$string['startdate'] = '活動開始日';
 $string['startdatedesc'] = '活動開始日がこの日付以降のエントリをフィルタリングします。';
-$string['enddate'] = 'To';
-$string['enddatedesc'] = '活動開始日がこの日付以前のエントリをフィルタリングします。';
+$string['enddate'] = '活動終了日';
+$string['enddatedesc'] = '活動終了日がこの日付以前のエントリをフィルタリングします。';
+$string['startenddate'] = '活動日';
 $string['dateserror'] = '開始日は終了日の前に設定してください。';
 $string['addactivity'] = '活動を追加する';
 $string['addnewactivity'] = '新しい活動を追加する';
