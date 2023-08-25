@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-08-09 00:04:17 UTC
+ * @updated    2023-08-25 01:28:04 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -147,3 +147,4 @@ $string['noframeworkfoundondb'] = 'データベースにフレームワークは
 $string['missingparamframeworkid'] = 'フレームワークIDのパラメータがありません。';
 $string['missingrecordsdb'] = 'データベースに次のレコードは見つかりませんでした: %s';
 $string['delete'] = '%s を削除する';
+$string['everyone'] = 'すべての人';
