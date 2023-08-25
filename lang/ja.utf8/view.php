@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-05-16 07:47:03 UTC
+ * @updated    2023-08-25 03:37:12 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -145,6 +145,7 @@ $string['peer'] = 'ピア';
 $string['manager'] = 'マネージャ';
 $string['peermanager'] = 'ピアおよびマネージャ';
 $string['verifier'] = 'レビュア';
+$string['invalidaccessroleforuser'] = 'アクセスロール「 %s 」を「 %s 」に割り当てできません (%s)。';
 $string['token'] = 'シークレットURL';
 $string['editsecreturlaccess'] = 'シークレットURLアクセスを編集する';
 $string['editsecreturlaccessfor'] = 'シークレットURLアクセスを編集する (ID %s)';

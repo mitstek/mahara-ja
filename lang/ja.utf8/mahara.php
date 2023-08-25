@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-07-10 01:16:38 UTC
+ * @updated    2023-08-25 03:34:09 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1232,6 +1232,7 @@ $string['activitypagedescription'] = 'グループ内アウトカムコレクシ
 $string['scroll_to_top'] = 'トップに戻る';
 $string['tabgroup'] = 'グループ';
 $string['tabinstitution'] = 'インスティテューション';
+$string['Version'] = 'バージョン';
 $string['version.'] = 'v.';
 $string['viewartefact'] = '表示';
 $string['viewartefactdatavuamodal'] = '%s アーティファクト「 %s 」はこの方法では閲覧できなくなりました。閲覧するにはページ「 %s 」に移動してください。';
