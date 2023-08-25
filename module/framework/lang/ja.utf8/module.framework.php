@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-08-25 01:28:04 UTC
+ * @updated    2023-08-25 04:12:19 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -133,7 +133,7 @@ $string['deletelast'] = '最後を削除する';
 $string['deleteall'] = 'すべてを削除する';
 $string['deleteallspecific'] = 'すべての %s を削除する';
 $string['deleteallstandardelements'] = 'すべての標準エレメントを削除する';
-$string['selfassesseddescription'] = 'スタッフメンバが評価を実施できるようにするか (デフォルト)、ポートフォリオ作成者が自己評価の目的で標準を使用して評価ステータスを自分で選択できるようにするか選択してください。';
+$string['selfassesseddescription'] = 'スタッフメンバが評価を実施できるようにするか (デフォルト)、ポートフォリオ作成者も評価を実施できるようにするか選択してください。';
 $string['standardsdescription'] = 'あなたのフレームワークを分けるためのカテゴリを作成します。あなたは後で個別の標準エレメントおよびサブエレメントを標準カテゴリに割り当てできます。あなたは少なくとも1つのカテゴリを持つ必要があります。';
 $string['standardelementsdescription'] = '個別の標準エレメントを作成します 例) コンテンツに位置合わせできる記述子。必要であれば「親ID」オプションを使用して標準エレメントを階層順にできます。';
 $string['parentelementid'] = '親エレメントID';
