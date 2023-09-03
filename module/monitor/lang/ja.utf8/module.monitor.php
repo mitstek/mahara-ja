@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-02-20 04:20:28 UTC
+ * @updated    2023-09-03 23:53:07 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,9 +19,9 @@ $string['configmonitortype_searchlegend'] = '検索設定';
 $string['configmonitortype_searchhoursuntiloldtitle'] = '検索キューが古いとみなされる時間';
 $string['configmonitortype_searchhoursuntilolddescription'] = '検索記録が注目される前に未処理のままにできる時間です。';
 $string['cronlockhours'] = 'cronロック時間';
-$string['cronlockhoursdescription'] = 'cronプロセスを実行する最大時間数です。';
+$string['cronlockhoursdescription'] = 'cronプロセスの最大実行時間です。';
 $string['hourstoconsiderelasticsearchrecordold'] = 'Elasticsearchキューを古いとみなす時間';
-$string['hourstoconsiderelasticsearchrecordolddescription'] = 'Elasticsearchレコードに注目する前に未処理のまま存続できる時間数です。';
+$string['hourstoconsiderelasticsearchrecordolddescription'] = 'Elasticsearchレコードが注目される前に未処理のままにできる時間です。';
 $string['monitormodulenotactive'] = 'モニタプラグインは有効ではありません。「管理メニュー」 → 「拡張機能」 → 「プラグイン管理」ページに移動してプラグインをインストールまたは有効にしてください。';
 $string['allowedips'] = '許可されるIPアドレス';
 $string['allowedipsdescription'] = 'レスポンスをモニタするため、信頼できるIPアドレスを1行あたり1件入力してください。空白のままにした場合、そして「$cfg->urlsecret」が設定されている場合、モニタは「$cfg->urlsecret」に制限されます。';
