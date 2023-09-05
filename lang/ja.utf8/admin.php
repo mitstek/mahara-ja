@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-07-23 23:23:28 UTC
+ * @updated    2023-09-05 00:42:48 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1514,3 +1514,18 @@ $string['pluginmodule'] = 'プラグインタイプ: モジュール';
 $string['pluginnotification'] = 'プラグインタイプ: 通知';
 $string['pluginsearch'] = 'プラグインタイプ: 検索';
 $string['upgradeproblemwithremoteusername'] = 'リモートユーザ名「 %s 」は正しく更新できなかったため「 %s 」として保存されました。問題を解決するため、あなたのデータベースを確認してください。';
+$string['add_block_to_view_block_desc'] = 'コピーする既存のブロックのIDです。';
+$string['add_block_to_view_origin_view'] = 'あなたがコピーしたいブロックが存在するビューIDです。';
+$string['add_block_to_view_dest_view'] = 'あなたがブロックを1:1でコピーしたい場合のみのコピー先のビューIDです。あなたがブロックを1:mでコピーしたい場合、このパラメータを使用しないでください。';
+$string['add_block_to_view_add_anyway'] = '指定された種類のブロックタイプがすでに存在している場合でも追加します。';
+$string['add_block_to_view_add_anyway_notice'] = '[注意] これはブロックが既に存在していても関係なく追加されます。';
+$string['add_block_to_view_announce_blocktype_viewtype'] = '[注意] ブロックタイプ「 %s 」のビュータイプ「 %s 」への追加を検討しています!';
+$string['add_block_to_view_dryrun_notice'] = '- - - - - これはビューにブロックを追加するためのドライランです。- - - - -';
+$string['add_block_to_view_block_to_add'] = 'ビューID「 %s 」のブロックをID「 %s 」のユーザに追加します。';
+$string['add_block_to_view_block_added'] = 'ビューID「 %s 」のブロックがID「 %s 」のユーザに追加されました。';
+$string['add_block_to_view_dry_short'] = 'ドライラン:';
+$string['add_block_to_view_skip'] = 'ビューID「 %s 」をスキップします。次のIDのユーザに対するブロックが存在します: %s';
+$string['add_block_to_view_single'] = '[注意] このブロックはID「 %s 」のビュー (ユーザID「 %s 」のユーザが所有) にのみコピーされます';
+$string['add_block_to_view_mismatch_view_type_warning'] = '宛先ビュー「 %s 」がオリジンビュータイプに合致しません!';
+$string['add_block_to_view_personal_only'] = 'あなたはパーソナルページのみコピーできます!';
+$string['add_block_from_block_not_on_view'] = 'ID「 %s 」のブロックはID「 %s 」のビューにありません。';
