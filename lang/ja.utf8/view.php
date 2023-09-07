@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-09-05 07:28:03 UTC
+ * @updated    2023-09-07 06:11:36 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -332,6 +332,7 @@ $string['blockhelp'] = 'ブロックヘルプ';
 $string['by'] = 'by';
 $string['viewtitleby'] = '%s by <a href="%s">%s</a>';
 $string['viewauthor'] = 'by <a href="%s">%s</a>';
+$string['viewauthornolink'] = 'by %s';
 $string['in'] = '-';
 $string['noblocks'] = '申し訳ございません、このカテゴリにブロックはありません。';
 $string['timeofsubmission'] = '送信日時';

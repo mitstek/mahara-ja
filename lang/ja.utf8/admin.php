@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-09-05 00:42:48 UTC
+ * @updated    2023-09-07 06:23:25 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1336,6 +1336,7 @@ $string['cli_unabletoupdatecron'] = '検索cronデータベースレコードを
 $string['cli_problemindexing'] = 'インデックス化中に問題が発生しました。';
 $string['cli_done'] = 'インデックス化を完了しました。';
 $string['cli_param_dryrun'] = 'ドライランで何が起きるか表示します。デフォルトで「true」が設定されています。実際にデータベースを更新するには「-d=false」を設定してください。';
+$string['cli_param_onlydryrun'] = '-- ドライランのみ - 何も変更されません --';
 $string['cli_deleteinactiveusers_beforedate'] = '最終ログイン日がこの日付より前のアカウントを削除します。日付には次のような日時ストリングを使用できます: 「2018-02-25」または「-6 months」';
 $string['cli_deleteinactiveusers_limit'] = 'それぞれの削除で処理するアカウント数を制限します。';
 $string['cli_deleteinactiveusers_cleanusers'] = '同時に「usr」テーブルからアカウントの削除を試みます。';
@@ -1418,6 +1419,16 @@ $string['cli_outcomes_no_type_added'] = 'アウトカムタイプデータはデ
 $string['cli_outcomes_deleteing'] = '未使用アウトカム関連データを削除する ...';
 $string['cli_outcomes_deleted'] = '%s 行をテーブル「 %s 」から削除しました。';
 $string['cli_outcomes_nothing_deleted'] = '削除するものはありません。';
+$string['cli_audit_groupshortname'] = 'グループ省略名';
+$string['cli_audit_usernames'] = '一覧記載されたユーザ名またはユーザ名を含むCSVファイルです。例) -u=person1 -u=person2 or -u/tmp/usernames.csv';
+$string['cli_audit_startdate'] = 'この日付以降に作成されたポートフォリオ';
+$string['cli_audit_enddate'] = 'この日付以前に作成されたポートフォリオ';
+$string['cli_audit_info'] = '開始および終了日の間に作成されたコレクションを特定のユーザ名の人のためにグループ化して送信します。';
+$string['cli_audit_userfield'] = '任意: ユーザ名用カラム';
+$string['cli_audit_randomfield'] = '任意: ランダム識別子用カラム';
+$string['cli_bad'] = '失敗 %s: %s';
+$string['cli_success'] = '成功: %s';
+$string['cli_process_usernames'] = '処理対象ユーザ名:';
 $string['behatvariables'] = 'Behatステップ';
 $string['behatvariablesdesc'] = '利用可能なBehatステップを素早く探すためのツールです。';
 $string['nobehatfeaturefiles'] = 'Behatフィーチャファイルは見つかりませんでした。';
