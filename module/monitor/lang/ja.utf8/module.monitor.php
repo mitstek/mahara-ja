@@ -5,8 +5,8 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-06-11 13:37:00 UTC
- * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
+ * @updated    2023-09-10 23:22:29 UTC
+ * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
@@ -23,12 +23,15 @@ $string['monitormodulenotactive'] = 'モニタプラグインは有効ではあ�
 $string['allowedips'] = '許可されるIP';
 $string['allowedipsdescription'] = 'レスポンスをモニタするため、安全なIPアドレスを1行あたり1件入力してください。空白のままにした場合、そして「$cfg->urlsecret」が設定されている場合、モニタは「$cfg->urlsecret」に制限されます。';
 $string['accessdeniednotvalidip'] = 'あなたのIPアドレス「 %s 」は許可されたIPリストにありません。あなたはモニタのチェックからブロックされます:';
-$string['croncheckhelp'] = 'どのcronプロセスが長時間実行されているか特定します。
+$string['croncheckhelp'] = 'どのcronプロセスが長時間実行されているか特定します:
 
 croncheck.php [オプション] mahara_path
 
 オプション:
--h, --help このヘルプを表示します。';
+-h, --help このヘルプを表示します。
+
+例:
+sudo -u www-data /usr/bin/php croncheck.php /var/www/mymaharaproject';
 $string['okmessagedisabled'] = 'この設定を有効にした場合、OKメッセージは表示されません。';
 $string['checkingcronprocesses'] = 'cronプロセスを確認する';
 $string['checkingcronprocessessucceed'] = 'OK: %s に長時間実行されているcronプロセスはありません。';
