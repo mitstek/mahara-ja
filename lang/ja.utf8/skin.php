@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-05-16 07:46:18 UTC
+ * @updated    2023-09-11 03:17:45 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -25,6 +25,7 @@ $string['headerbackgroundcolor'] = 'ヘッダ背景色';
 $string['headerbackgroundcolordescription'] = 'ページヘッダの背景色です。ヘッダ背景イメージが選択されている場合、これは表示されません。';
 $string['headerbackgroundimage'] = 'ヘッダ背景イメージ';
 $string['headerbackgroundimagedescription'] = '最小幅は1832px、最小高は232pxです。';
+$string['headerbackgroundrepeat'] = 'ヘッダ背景の繰り返し';
 $string['bodybackgroundcolour'] = 'ページ背景色';
 $string['bodybackgroundimage'] = 'ページ背景イメージ';
 $string['deletethisskin'] = 'このスキンを削除する';
