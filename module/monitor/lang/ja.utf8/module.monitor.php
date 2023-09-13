@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-09-10 23:24:32 UTC
+ * @updated    2023-09-13 00:39:12 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -51,9 +51,9 @@ $string['queuestatus'] = 'キューステータス';
 $string['failedqueuesize'] = '1時間以上の失敗レコード数';
 $string['queuehasolditems'] = '%s 時間以上処理されていないElasticsearchキューのアイテム';
 $string['unprocessedqueuesize'] = '未処理レコード合計数';
-$string['unprocessedqueuerate'] = 'cronの制限値に対する未処理レコードのパーセンテージ';
-$string['unprocessedqueueratecli'] = 'INFO: cronの制限値に対する未処理レコードのパーセンテージ: %s%';
-$string['unprocessedqueueratecliwarn'] = 'WARN: cronの制限値に対する未処理レコードのパーセンテージ: %s% キューのクリアに問題がある場合、cronレコード制限を増やしてください。';
+$string['unprocessedqueuerate'] = 'cron制限に対する未処理レコードのパーセンテージ';
+$string['unprocessedqueueratecli'] = 'INFO: cron制限に対する未処理レコードのパーセンテージ: %s%';
+$string['unprocessedqueueratecliwarn'] = 'WARN: cron制限に対する未処理レコードのパーセンテージ: %s% キューのクリアに問題がある場合、cronレコード制限を増やしてください。';
 $string['wrongsearchtype'] = '「 %s 」をモニタする検索タイプが正しくありません - この CLIは「 %s 」と組み合わせて使用してください。';
 $string['yes'] = 'Yes';
 $string['no'] = 'No';
