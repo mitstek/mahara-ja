@@ -69,7 +69,7 @@ elasticsearchcheck.php [オプション] mahara_path
 sudo -u www-data /usr/bin/php elasticsearchcheck.php /var/www/mymaharaproject';
 $string['searchcheckhelp'] = '検索プロセスキューを確認します:
 
-searchcheck.php [options] mahara_path
+searchcheck.php [オプション] mahara_path
 
 オプション:
 -h, --help このヘルプを表示します。
