@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-09-13 00:39:12 UTC
+ * @updated    2023-09-17 23:46:44 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -73,7 +73,7 @@ elasticsearchcheck.php [オプション] mahara_path
 sudo -u www-data /usr/bin/php elasticsearchcheck.php /var/www/mymaharaproject';
 $string['searchcheckhelp'] = '検索プロセスキューを確認します:
 
-searchcheck.php [options] mahara_path
+searchcheck.php [オプション] mahara_path
 
 オプション:
 -h, --help このヘルプを表示します。
