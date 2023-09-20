@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-09-17 23:46:44 UTC
+ * @updated    2023-09-20 00:18:55 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -98,7 +98,7 @@ $string['ldapstatustabletitle'] = 'LDAPステータス';
 $string['statussuccess'] = 'OK';
 $string['statusfail'] = '失敗';
 $string['ldapsuspendedusers'] = 'LDAP一時停止アカウント';
-$string['ldapsuspendeduserstabletitle'] = '午前零時以降、LDAPアカウント同期により一時停止にできるLDAPアカウントのパーセンテージ';
+$string['ldapsuspendeduserstabletitle'] = '午前0時以降、LDAPアカウント同期により一時停止にできるLDAPアカウントの割合';
 $string['ldapsuspendeduserspercentage'] = 'LDAP一時停止アカウントのパーセンテージ';
 $string['ldapsuspendeduserspercentagedescription'] = '問題であるとフラグ付けされる前、午前零時以降にLDAPアカウント同期により一時停止にできるアカウントの最大パーセンテージです。';
 $string['item'] = 'アイテム';
