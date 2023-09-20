@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-08-01 07:44:18 UTC
+ * @updated    2023-09-20 22:13:10 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -35,7 +35,7 @@ $string['totalhours'] = '合計時間';
 $string['startdate'] = '開始日';
 $string['enddate'] = '終了日';
 $string['hoursdesc1'] = '時間を表す10進数のみ入力してください。例)「2.5」は「2時間30分」を意味します。';
-$string['deleteactivityconfirm'] = '本当にこの活動を削除してもよろしいですか?';
+$string['deleteactivityconfirm1'] = '本当にこの活動を完全に削除してもよろしいですか? この活動を削除した場合、表示されているすべてのポートフォリオからも削除されます。この操作は元に戻せません。';
 $string['deleteactivity'] = '活動を削除する';
 $string['deletethisactivity'] = '活動を削除する: 「 %s 」';
 $string['editactivity'] = '活動を編集する';
