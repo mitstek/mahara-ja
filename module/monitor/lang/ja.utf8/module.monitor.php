@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-09-10 23:22:00 UTC
+ * @updated    2023-09-27 04:51:35 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -104,11 +104,14 @@ $string['ldapsuspendeduserspercentagedescription'] = '問題であるとフラ�
 $string['item'] = 'アイテム';
 $string['status'] = 'ステータス';
 $string['details'] = '詳細';
-$string['ldapsuspendeduserscheckhelp'] = 'LDAPアカウント同期プロセスで一時停止にされた大量のLDAPアカウントをチェックします。
+$string['ldapsuspendeduserscheckhelp'] = 'LDAPアカウント同期プロセスで一時停止された大量のLDAPアカウントをチェックします。
 
 ldapsuspendeduserscheck.php [オプション] mahara_path
 
 オプション:
--h, --help このヘルプを表示します。';
+-h, --help このヘルプを表示します。
+
+例:
+sudo -u www-data /usr/bin/php ldapsuspendeduserscheck.php /var/www/mymaharaproject';
 $string['checkingldapsuspendedusersssucceed'] = 'OK: 一時停止アカウント警告閾値を越えた %s のLDAPインスタンスはありません。';
 $string['checkingldapsuspendedusersfail'] = 'クリティカル: 一時停止アカウント警告閾値を越えた %s のLDAPインスタンスがあります: %s';
