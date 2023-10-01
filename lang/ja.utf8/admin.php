@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-09-07 06:23:25 UTC
+ * @updated    2023-10-01 23:32:42 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1423,9 +1423,13 @@ $string['cli_audit_groupshortname'] = 'グループ省略名';
 $string['cli_audit_usernames'] = '一覧記載されたユーザ名またはユーザ名を含むCSVファイルです。例) -u=person1 -u=person2 or -u/tmp/usernames.csv';
 $string['cli_audit_startdate'] = 'この日付以降に作成されたポートフォリオ';
 $string['cli_audit_enddate'] = 'この日付以前に作成されたポートフォリオ';
-$string['cli_audit_info'] = '開始および終了日の間に作成されたコレクションを特定のユーザ名の人のためにグループ化して送信します。';
+$string['cli_audit_info1'] = '開始日および終了日間に作成されたコレクションをグループの特定のユーザ名の人と共有します。';
 $string['cli_audit_userfield'] = '任意: ユーザ名用カラム';
 $string['cli_audit_randomfield'] = '任意: ランダム識別子用カラム';
+$string['cli_audit_randomname'] = '任意: 1人のみ処理する場合、ランダム名を割当てできます。';
+$string['cli_audit_unshare'] = '任意: 代わりにグループからコレクションの共有を解除します。';
+$string['cli_audit_collection_removed'] = '- removed';
+$string['cli_audit_collection_to_group'] = 'コレクション「 %s 」(作成: %s) をグループで共有する:';
 $string['cli_bad'] = '失敗 %s: %s';
 $string['cli_success'] = '成功: %s';
 $string['cli_process_usernames'] = '処理対象ユーザ名:';
