@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-10-01 23:32:42 UTC
+ * @updated    2023-10-01 23:43:31 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1423,7 +1423,7 @@ $string['cli_audit_groupshortname'] = 'グループ省略名';
 $string['cli_audit_usernames'] = '一覧記載されたユーザ名またはユーザ名を含むCSVファイルです。例) -u=person1 -u=person2 or -u/tmp/usernames.csv';
 $string['cli_audit_startdate'] = 'この日付以降に作成されたポートフォリオ';
 $string['cli_audit_enddate'] = 'この日付以前に作成されたポートフォリオ';
-$string['cli_audit_info1'] = '開始日および終了日間に作成されたコレクションをグループの特定のユーザ名の人と共有します。';
+$string['cli_audit_info1'] = '開始および終了日間に作成されたコレクションを特定のユーザ名の人とグループで共有します。';
 $string['cli_audit_userfield'] = '任意: ユーザ名用カラム';
 $string['cli_audit_randomfield'] = '任意: ランダム識別子用カラム';
 $string['cli_audit_randomname'] = '任意: 1人のみ処理する場合、ランダム名を割当てできます。';
