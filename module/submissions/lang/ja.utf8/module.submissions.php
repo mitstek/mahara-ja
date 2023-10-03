@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-03-14 01:26:36 UTC
+ * @updated    2023-10-03 21:36:43 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -30,8 +30,8 @@ $string['Result'] = '結果';
 $string['State'] = 'ステータス';
 $string['assessor'] = '評価者';
 $string['submitter'] = '作成者';
-$string['release'] = 'リリースする';
-$string['fix'] = '修正する';
+$string['release'] = 'リリース予定';
+$string['fix'] = '修正';
 $string['notevaluated'] = '未評価';
 $string['submitted'] = '提出済み';
 $string['releasing'] = 'リリース中 ...';
