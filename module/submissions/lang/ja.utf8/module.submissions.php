@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-10-03 21:36:43 UTC
+ * @updated    2023-10-09 00:00:15 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -36,7 +36,7 @@ $string['notevaluated'] = '未評価';
 $string['submitted'] = '提出済み';
 $string['releasing'] = 'リリース中 ...';
 $string['completed'] = 'リリース済み';
-$string['revision'] = '見直し';
+$string['revision'] = '改訂';
 $string['evaluated'] = '評価済み';
 $string['unassignedselectboxitem'] = '- 未割り当て -';
 $string['releaseandreturn'] = 'リリースして戻る';
@@ -44,7 +44,7 @@ $string['releasesubmission'] = '評価を完了して提出済みポートフォ
 $string['fixsubmission'] = '提出を修正しますか?';
 $string['tooltip_success'] = '合格';
 $string['tooltip_remove'] = '不合格';
-$string['tooltip_refresh'] = '見直し';
+$string['tooltip_refresh'] = '改訂';
 $string['tooltip_question'] = '未評定';
 $string['emptytable'] = 'テーブルに利用可能なデータはありません。';
 $string['info'] = '_START_ / _END_ (合計 _TOTAL_) エントリ';
@@ -74,7 +74,7 @@ $string['MissingTask'] = 'タスク不明';
 $string['Unassigned'] = '割り当てなし';
 $string['Uncommented'] = 'コメントなし';
 $string['Commented'] = 'コメントあり';
-$string['Revision'] = '見直し';
+$string['Revision'] = '改訂';
 $string['Success'] = '合格';
 $string['Fail'] = '不合格';
 $string['Pending'] = '不明';
@@ -82,7 +82,7 @@ $string['Open'] = 'オープン';
 $string['Completed'] = '完了';
 $string['colvislabel'] = 'カラムを設定する';
 $string['chooseresult'] = '結果を選択する';
-$string['noresult'] = '見直し';
+$string['noresult'] = '改訂';
 $string['fail'] = '不合格';
 $string['success'] = '合格';
 $string['lastsubmissionnoevaluationresultcontactinstructor'] = 'あなたが最後に提出したこのポートフォリオまたはグループタスクに評価結果がありません。この問題を解決するため、あなたのインストラクタにご連絡ください。あなたの提出は自動的にリリースされました。';
