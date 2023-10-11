@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-10-09 00:00:15 UTC
+ * @updated    2023-10-11 00:01:42 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -60,8 +60,8 @@ $string['first'] = '最初のページ';
 $string['last'] = '最後のページ';
 $string['next'] = '次のページ';
 $string['previous'] = '前のページ';
-$string['sortascending'] = ': カラムを昇順に並べ替える場合に有効にする';
-$string['sortdescending'] = ': カラムを降順に並べ替える場合に有効にする';
+$string['sortascending'] = ': カラムを昇順に並べ替える';
+$string['sortdescending'] = ': カラムを降順に並べ替える';
 $string['displayportfolio'] = 'ポートフォリオを表示する';
 $string['quickfilter'] = 'クイックフィルタ';
 $string['quickfiltertooltip'] = 'フィルタをリセットする';
