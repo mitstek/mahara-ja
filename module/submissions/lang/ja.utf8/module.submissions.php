@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-10-11 00:01:42 UTC
+ * @updated    2023-10-16 00:12:45 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -87,7 +87,7 @@ $string['fail'] = '不合格';
 $string['success'] = '合格';
 $string['lastsubmissionnoevaluationresultcontactinstructor'] = 'あなたが最後に提出したこのポートフォリオまたはグループタスクに評価結果がありません。この問題を解決するため、あなたのインストラクタにご連絡ください。あなたの提出は自動的にリリースされました。';
 $string['portfolioortaskalreadyevaluated'] = 'ポートフォリオまたはグループタスクはすでに評価されています。あなたの提出は自動的にリリースされました。';
-$string['portfoliocurrentlybeingreleased'] = 'このタスクへのポートフォリオは現在リリースされています。完全にリリースされるまで再提出はお待ちください。';
+$string['portfoliocurrentlybeingreleased'] = 'このタスクへのポートフォリオは現在リリース中です。完全にリリースされるまで再提出はお待ちください。';
 $string['portfolioalreadysubmitted'] = 'このタスクへのポートフォリオはすでに提出されています。リリースされるまで再提出はお待ちください。';
 $string['submissionnotcreated'] = '提出未作成:';
 $string['submissionnotcreatedorupdated'] = '提出未作成または未更新:';
