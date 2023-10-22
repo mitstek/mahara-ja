@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-10-16 00:12:45 UTC
+ * @updated    2023-10-22 23:14:34 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -94,11 +94,11 @@ $string['submissionnotcreatedorupdated'] = '提出未作成または未更新:';
 $string['notallowedtoassesssubmission'] = 'あなたはこの提出へのアクセスを許可されていません。';
 $string['dependingonstatusmayeditupdatedfields'] = 'あなたは新しいステータスに応じて更新済みフィールドを編集できます。';
 $string['submissionreadonlynotupdated'] = '読み取り専用提出ステータスのため提出は更新されませんでした。';
-$string['submissionnotfixedmissingevaluationresult'] = '評価結果がないため提出は修正されませんでした。';
-$string['submissionnotreleasedorfixedwrongsubmissionstatus'] = '提出ステータスが正しくないため提出はリリースまたは修正されませんでした。';
+$string['submissionnotfixedmissingevaluationresult'] = '評価結果が不明のため提出は確定されませんでした。';
+$string['submissionnotreleasedorfixedwrongsubmissionstatus'] = '提出ステータスが正しくないため提出はリリースまたは確定されませんでした。';
 $string['missingcontrollerhandler'] = 'コントローラコマンドのハンドラがありません。';
 $string['unsupportedsubmissionownertype'] = '未サポートの提出ポートフォリオオーナタイプです。';
-$string['portfoliofieldsmustbesetforsettingtaskfields'] = '提出タスクフィールドの設定のためポートフォリオエレメントフィールドを設定する必要があります。';
+$string['portfoliofieldsmustbesetforsettingtaskfields'] = '提出タスクフィールドを設定するにはポートフォリオエレメントフィールドを設定する必要があります。';
 $string['unsupportedportfoliotype'] = '未サポートの提出ポートフォリオエレメントタイプです。';
 $string['submissionstatuschangedexternally'] = '外部から提出ステータスが変更されました。';
 $string['eventgroupnotfound'] = 'イベントデータでグループ「 %s 」は見つかりませんでした。';
