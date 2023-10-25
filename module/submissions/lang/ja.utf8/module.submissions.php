@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-10-22 23:14:34 UTC
+ * @updated    2023-10-25 01:08:34 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -108,8 +108,8 @@ $string['submissionexceptionmessage'] = '次の理由のため、このポート
 $string['actionreleased'] = 'リリース済み';
 $string['actionfixed'] = '修正済み';
 $string['submissionreleased'] = '提出「 %s 」(作成者 %s) - %s';
-$string['ProceedWithBackRestrictionsToExistingTab'] = '提出済みポートフォリオはすでに別のタブで開かれています。このポートフォリオを開始できますが、あなたが戻った時点で「提出」テーブル内でハイライトされません。別のタブのポートフォリオも同様です。続けても宜しいですか?';
-$string['ProceedWithoutFlashbackFunctionality'] = '提出済みポートフォリオはすでに別のタブで開かれています。このポートフォリオを開始できますが、あなたがブラウザの「戻る」ボタンで戻った時点で「提出」テーブル内でハイライトされません。別のタブのポートフォリオも同様です。続けても宜しいですか?';
+$string['ProceedWithBackRestrictionsToExistingTab'] = '提出済みポートフォリオはすでに別のタブで開かれています。このポートフォリオを開始できますが、あなたが戻った時点で「提出」テーブル内でハイライトされません。別のタブのポートフォリオも同様です。続けてもよろしいですか?';
+$string['ProceedWithoutFlashbackFunctionality'] = '提出済みポートフォリオはすでに別のタブで開かれています。このポートフォリオを開始できますが、あなたがブラウザの「戻る」ボタンで戻った時点で「提出」テーブル内でハイライトされません。別のタブのポートフォリオも同様です。続けてもよろしいですか?';
 $string['shownameaslastnamefirstname'] = '氏名を「姓 名」のように表示する';
 $string['shownameaslastnamefirstnamedescription'] = '提出テーブルのすべての氏名表示を「姓 名」のフォーマットで表示します。';
 $string['showportfoliobuttons'] = 'ポートフォリオリンクをボタンとして表示する';
