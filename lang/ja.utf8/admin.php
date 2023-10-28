@@ -1355,7 +1355,7 @@ $string['cli_deleteinactiveusers_onlydryrun1'] = 'ここでは以下の設定に
 未ログイン数: %s';
 $string['cli_deleteinactiveusers_onlydryrun1_inst_params'] = '含まれるインスティテューション: %s
 除外されるインスティテューション: %s
-インスティテューション外のアカウントを含みますか? %s';
+インスティテューション外のアカウントを含めますか? %s';
 $string['cli_deleteinactivegroups_info'] = 'このコマンドラインPHPスクリプトではあなたが古いグループを削除できます。これは現在メンバがいないグループにのみ動作します。「onlyadmins」フラグが設定された場合、オーナ/管理者が1名のみのグループを対象に含めます。';
 $string['cli_deleteinactivegroups_beforedate'] = 'この日付より最終修正日が前のグループを削除します。日付には次のような日時ストリングを使用できます: 「2018-02-25」または「-6 months」';
 $string['cli_deleteinactivegroups_limit'] = 'それぞれの削除で処理するグループ数を制限します。';
