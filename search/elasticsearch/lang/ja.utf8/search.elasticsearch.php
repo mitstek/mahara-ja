@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-11-05 23:29:42 UTC
+ * @updated    2023-11-07 20:58:35 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,7 +19,7 @@ $string['analyzer'] = 'Elasticsearchアナライザ';
 $string['analyzerdescription'] = '使用するElasticsearchアナライザクラスです。デフォルトはmahara_analyzerです。';
 $string['artefacttypedescription'] = 'あなたがインデックスに含めたいアーティファクトタイプをチェックしてください。階層定義されたアーティファクトタイプのみ有効です。あなたの変更を反映させるにはキュー内のアーティファクトをリセットしてください。';
 $string['artefacttypelegend'] = 'アーティファクトタイプ';
-$string['artefacttypemapdescription'] = 'それぞれのアーティファクトタイプに関して「|」で区切られた階層を入力してください (1行あたり1アーティファクト)。';
+$string['artefacttypemapdescription'] = 'それぞれのアーティファクトタイプの階層を「|」で区切って入力してください (1行あたり1アーティファクト)。';
 $string['artefacttypemaplegend'] = 'アーティファクトタイプ階層';
 $string['atoz'] = 'A -> Z';
 $string['blog'] = '日誌';
