@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-08-29 00:01:06 UTC
+ * @updated    2023-11-08 22:23:50 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -191,6 +191,7 @@ $string['reportdescsmartevidence'] = '<ul>
 <li>提出ステータス</li>
 <li>アクセスリスト 例) ポートフォリオを閲覧できるパーミッションのある人</li>
 <li>個別の標準にかかわらず、ポートフォリオ全体のスマートエビデンス評価のそれぞれのステータスの合計値</li>
+<li>注意: そのステータスオプションがコレクションのフレームワークで利用可能ではない場合、ステータスはゼロを表示します。/li>
 </ul>
 <p>選択された期間中に作成されたポートフォリオが一覧表示されます。それらの現在のアクセスパーミッションが表示されます。</p>';
 $string['reportaccesslist'] = 'ポートフォリオアクセス';
