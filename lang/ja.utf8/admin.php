@@ -283,7 +283,7 @@ $string['registrationfailedtrylater'] = 'エラーコード %s により登録�
 $string['registrationoptoutsuccessful'] = '正常に登録がオプトアウトされました。これ以上データは送信されません。';
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます。';
 $string['registermaharasite'] = 'サイト登録';
-$string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することにより、私たちの世界中のMaharaインストール状況把握に役立ちます。</p>';
+$string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することで私たちの世界中のMaharaインストール状況把握に役立ちます。</p>';
 $string['registeryourmaharasitedetail1'] = '<p>サイトはMaharaプロジェクトに自動的に登録されます。登録は無料であり私たちが世界中のMaharaインストール状況を把握するための助けとなります。</p>
 <p>Maharaプロジェクトは個人情報および個人を特定できるデータを収集しません。ほとんどのデータはプロジェクトが傾向を特定できるよう集約された形で収集されます。あなたは以下でどのようなデータが収集されて週ごとに送信されるか確認できます。</p>
 <p>あなたがデータ収集に関して質問がある場合、<a href="mailto:info@mahara.org?subject=Site registration data collection">ご連絡ください</a>。</p>';
