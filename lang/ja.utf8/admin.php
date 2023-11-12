@@ -96,7 +96,7 @@ $string['uploadcsv'] = 'CSVでユーザを追加する';
 $string['uploadcsvdescription'] = '新しいユーザを含んだCSVファイルをアップロードします。';
 $string['usersearch'] = 'ユーザ検索';
 $string['usersearchdescription'] = 'すべてのユーザを検索して検索されたユーザに対して管理行為を実施します。';
-$string['usersearchinstructions'] = 'ユーザの姓名のイニシャルをクリックするか、検索ボックスに名前を入力することによりあなたはユーザを検索できます。あなたがメールアドレスを検索したい場合、検索ボックスにメールアドレスを入力することもできます。';
+$string['usersearchinstructions'] = 'ユーザの姓名のイニシャルをクリックするか、検索ボックスに名前を入力することであなたはユーザを検索できます。あなたがメールアドレスを検索したい場合、検索ボックスにメールアドレスを入力することもできます。';
 $string['administergroups'] = 'グループを管理する';
 $string['administergroupsdescription'] = 'グループ管理者を割り当ておよびグループを削除します。';
 $string['groupcategoriesdescription'] = 'グループカテゴリを追加および編集します。';
@@ -140,12 +140,12 @@ $string['Register'] = '登録';
 $string['registrationfailedtrylater'] = 'エラーコード %s により登録が失敗しました。後ほど再度お試しください。';
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます!';
 $string['registeryourmaharasite'] = 'あなたのMaharaサイトを登録する';
-$string['registeryourmaharasitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録できます。登録することにより私たちは世界のMaharaインストール状況を作成できます。登録することによりこの通知が取り除かれます。</p>
+$string['registeryourmaharasitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録できます。登録することで私たちは世界のMaharaインストール状況を作成できます。登録することでこの通知が取り除かれます。</p>
 <p>あなたがサイトを登録する場合、送信される情報を<strong><a href="%sadmin/registersite.php">サイト登録ページ</a></strong>でプレビューできます。</p>';
-$string['registeryourmaharasitedetail'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録できます。登録することにより私たちは世界のMaharaインストール状況を作成できます。</p>
+$string['registeryourmaharasitedetail'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録できます。登録することで私たちは世界のMaharaインストール状況を作成できます。</p>
 <p>あなたはmahara.orgに送信された情報を閲覧できます - あなたのユーザに関する個人情報は一切送信されません。</p>
 <p>あなたが「更新を週に1回送信しますか?」設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
-<p>登録することによりこの通知が取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更できます。</p>';
+<p>登録することでこの通知が取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更できます。</p>';
 $string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページで</p>サイト更新内容の週ごとの送信を有効または無効にできます。';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
