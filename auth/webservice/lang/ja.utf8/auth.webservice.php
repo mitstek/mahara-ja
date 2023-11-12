@@ -198,7 +198,7 @@ $string['configsaved'] = '設定が保存されました。';
 $string['webservices_title'] = 'ウェブサービス設定';
 $string['headingusersearchtoken'] = 'ウェブサービス: トークンユーザ検索';
 $string['headingusersearchuser'] = 'ウェブサービス: サービスユーザ検索';
-$string['usersearchinstructions'] = 'アバタをクリックすることによりウェブサービスに関連付けられているユーザを選択してください。あなたはユーザの姓名のイニシャルをクリックまたは検索ボックスに名前を入力することによりユーザを検索できます。メールアドレスで検索したい場合、あなたは検索ボックスにメールアドレスを入力することもできます。';
+$string['usersearchinstructions'] = 'アバタをクリックすることでウェブサービスに関連付けられているユーザを選択してください。あなたはユーザの姓名のイニシャルをクリックまたは検索ボックスに名前を入力することでユーザを検索できます。メールアドレスで検索したい場合、あなたは検索ボックスにメールアドレスを入力することもできます。';
 $string['sha1fingerprint'] = 'SHA1フィンガープリント: %s';
 $string['md5fingerprint'] = 'MD5フィンガープリント: %s';
 $string['publickeyexpireson'] = '公開鍵有効期限: %s';
@@ -338,7 +338,7 @@ $string['serviceshortnamedesc'] = 'このサービスグループに関するコ
 $string['servicecomponentnote'] = 'このサービスはコンポーネント「 %s 」の機能を提供します。';
 $string['simpleauthlog'] = '単純認証ログイン';
 $string['step'] = 'ステップ';
-$string['testclientdescshort'] = 'あなたのサイトに対して関数を実行することによりウェブサービスをテストします。';
+$string['testclientdescshort'] = 'あなたのサイトに対して関数を実行することでウェブサービスをテストします。';
 $string['testclientdescription'] = '* ウェブサービステストクライアントは関数を<strong>実際</strong>に<strong>実行</strong>します。あなたが分からない関数はテストしないでください。
 <br />
 * まだ既存のウェブサービス関数すべてはテストクライアントに実装されていません。
