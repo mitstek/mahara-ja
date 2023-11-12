@@ -264,7 +264,7 @@ $string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/reg
 $string['registrationfailedtrylater'] = 'エラーコード %s により登録が失敗しました。後ほど再度お試しください。';
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます。';
 $string['registermaharasite'] = 'サイト登録';
-$string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することにより、私たちの世界中のMaharaインストール状況把握に役立ちます。</p>';
+$string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することで私たちの世界中のMaharaインストール状況把握に役立ちます。</p>';
 $string['registeryourmaharasitedetail'] = '<p>あなたのサイトをMaharaプロジェクトに登録できます。登録は無料であり私たちが世界中のMaharaインストール状況を把握するための助けとなります。</p>
 <p>あなたが週ごとの更新状況の送信を決定した場合、Maharaプロジェクトに送信される予定の情報を確認できます。あなたのサイトのすべての人に関して個人を特定できるものは一切送信されません。</p>';
 $string['sendingweeklyupdates1'] = 'あなたは週ごとの更新状況を送信しています。';
@@ -1343,7 +1343,7 @@ $string['userprivacypagedescription1'] = '現在のプライバシ保護方針�
 $string['lastupdated'] = '最終更新日時';
 $string['newprivacy'] = 'あなたのアカウントに入る前に以下に表示されている情報をお読みください。';
 $string['privacyagreement'] = '私は % に同意します。';
-$string['privacyagreementdescription'] = 'あなたは「Yes」を選択することにより上記プライバシ保護方針の条項に同意することになります。';
+$string['privacyagreementdescription'] = 'あなたは「Yes」を選択することで上記プライバシ保護方針の条項に同意することになります。';
 $string['privacyagreedto'] = 'あなたは  %s の %s に同意しました。';
 $string['agreementsaved'] = '同意が保存されました。';
 $string['refuseprivacy'] = 'プライバシ保護方針または利用条件を拒否する';
@@ -1378,7 +1378,7 @@ $string['nopendingdeletions'] = 'このインスティテューションにア�
 $string['pendingdeletion'] = '削除保留';
 $string['pendingdeletions'] = '削除保留';
 $string['pendingdeletionspagedescription'] = '<p>あなたはこのページでサイトからのアカウント削除をリクエストした人を確認および削除承認できます。<p>
-<p>アカウント削除を承認することによりアカウントからすべての個人コンテンツが完全に削除されます。アカウント削除後、リクエストした人にメールで理由が通知されます。</p>';
+<p>アカウント削除を承認することでアカウントからすべての個人コンテンツが完全に削除されます。アカウント削除後、リクエストした人にメールで理由が通知されます。</p>';
 $string['userdeletiondeniedsuccessful'] = 'リクエストが正常に拒否されました。';
 $string['userdeletiondeniedunsuccessful'] = 'アカウント削除の拒否に失敗しました。';
 $string['consented'] = '同意済み';
