@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-11-07 20:59:29 UTC
+ * @updated    2023-11-14 23:35:56 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -36,7 +36,7 @@ $string['contains'] = '含む';
 $string['connectionerror'] = '接続エラー';
 $string['createdby'] = '作成者: %s';
 $string['cronlimit'] = 'cronレコード制限';
-$string['cronlimitdescription'] = 'それぞれのcron実行に関してキューからElasticsearchサーバに送られる最大レコード数です (無制限の場合、空白またはゼロにしてください)。';
+$string['cronlimitdescription'] = 'それぞれのcron実行に関してキューからElasticsearchサーバに渡される最大レコード数です (無制限の場合、空白またはゼロにしてください)。';
 $string['cronstatetitle'] = 'cronでインデクス作成する';
 $string['cronstatedescription'] = 'これによりあなたはcron実行時にキュー内のアイテムのインデックス作成を有効または無効にできます。';
 $string['cronlocked'] = '現在、cronはキューをインデックス化しています。';
