@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-08-04 05:14:53 UTC
+ * @updated    2023-11-27 02:02:37 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -63,6 +63,7 @@ $string['context_id'] = 'LTIコンテクストID';
 $string['context_label'] = 'LTIコンテクストラベル';
 $string['context_title'] = 'LTIコンテクストタイトル';
 $string['context_type'] = 'LTコンテクストタイプ';
+$string['copyid'] = '送信済みポートフォリオの新しいコピーのID';
 $string['country'] = '人の国コード (JP、NZ等)';
 $string['deleteuserid'] = '削除対象者のID';
 $string['deleteusername'] = '削除対象者のユーザ名';
@@ -228,5 +229,8 @@ $string['wwwroot'] = 'リモートロッカを識別するためのクライア�
 $string['yahoochat'] = 'Yahooチャット';
 $string['viewidtotest'] = 'エクスポートする送信済みポートフォリオ';
 $string['submittedhost'] = '送信先外部ホスト';
+$string['submittedgroup'] = '送信先内部グループ';
+$string['submittedstatus'] = '現在の提出ステータス';
+$string['submissionoriginal'] = '取得元オリジナルポートフォリオ提出のID';
 $string['liteexporttype'] = '使用するエクスポートタイプです。有効なオプションは「htmllite」または「pdflite」です。';
 $string['fileurl'] = 'ZIPファイルを取得するダウンロードURLです。注意: あなたがファイルをダウンロードするには有効なウェブサービストークンを提供する必要があります。';
