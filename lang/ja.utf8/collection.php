@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-05-17 22:31:49 UTC
+ * @updated    2023-11-27 02:00:49 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -61,6 +61,7 @@ $string['copyacollection'] = 'コレクションをコピーする';
 $string['created'] = '作成';
 $string['deletecollection'] = 'コレクションを削除する';
 $string['deletespecifiedcollection'] = 'コレクション「 %s 」を削除する';
+$string['cannotdeletecollectionduetocopies'] = 'このコレクションを削除できません。%s つの自動コピーされたテンプレートコピーに関連付けられています。';
 $string['deletingcollection'] = 'コレクションの削除';
 $string['deleteview'] = 'コレクションからページを削除する';
 $string['description'] = 'コレクション説明';
