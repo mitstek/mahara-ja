@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-11-14 23:35:56 UTC
+ * @updated    2023-11-27 01:40:27 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -59,11 +59,11 @@ $string['Group'] = 'グループ';
 $string['host'] = 'ホスト';
 $string['hostdescription'] = 'Elasticsearchサーバのホスト名です。デフォルトは次のとおりです: %';
 $string['indexingpassword'] = '認証書き込みパスワード';
-$string['indexingpassworddescription'] = 'インデックスからの読み込みと異なる場合、インデックスへの書きみ時にHTTP基本認証でElasticsearchに渡すパスワードです (任意)。';
+$string['indexingpassworddescription'] = 'インデックスから読み込むパスワードと異なる場合、インデックス書きみ時にHTTP基本認証でElasticsearchに渡すパスワードです (任意)。';
 $string['indexingrunning'] = 'インデックス化cronジョブが動作しています。数分後、再度お試しください。';
 $string['indexingrunningtry'] = 'あなたが実際にcronが動作していないことを把握している場合、./mash search-reset-cron-lockをご覧ください。';
 $string['indexingusername'] = '認証書き込みユーザ名';
-$string['indexingusernamedescription'] = 'インデックスからの読み込みと異なる場合、インデックスへの書きみ時にHTTP基本認証でElasticsearchに渡すユーザ名です (任意)。';
+$string['indexingusernamedescription'] = 'インデックスから読み込むユーザ名と異なる場合、インデックス書きみ時にHTTP基本認証でElasticsearchに渡すユーザ名です (任意)。';
 $string['indexname'] = 'インデックス名';
 $string['indexnamedescription'] = 'Elasticsearchインデックス名です。デフォルトは次のとおりです: %s';
 $string['indexstatusbad'] = 'インデックスステータス (%s): %s';

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-11-21 21:47:26 UTC
+ * @updated    2023-11-27 01:41:11 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -51,9 +51,9 @@ $string['host'] = 'ホスト';
 $string['hostdescription'] = 'Elasticsearchサーバのホスト名です。デフォルトは「127.0.0.1」です。';
 $string['html'] = 'テキスト';
 $string['indexingusername'] = '認証書き込みユーザ名';
-$string['indexingusernamedescription'] = 'インデックスからの読み込みと異なる場合、インデックスへの書きみ時にHTTP基本認証でElasticsearchに渡すユーザ名です (任意)。';
+$string['indexingusernamedescription'] = 'インデックスから読み込むユーザ名と異なる場合、インデックス書きみ時にHTTP基本認証でElasticsearchに渡すユーザ名です (任意)。';
 $string['indexingpassword'] = '認証書き込みパスワード';
-$string['indexingpassworddescription'] = 'インデックスからの読み込みと異なる場合、インデックスへの書きみ時にHTTP基本認証でElasticsearchに渡すパスワードです (任意)。';
+$string['indexingpassworddescription'] = 'インデックスから読み込むパスワードと異なる場合、インデックス書きみ時にHTTP基本認証でElasticsearchに渡すパスワードです (任意)。';
 $string['indexingrunning'] = 'インデックス化cronジョブが動作しています。数分後、再度お試しください。';
 $string['indexname'] = 'インデックス名';
 $string['indexnamedescription'] = 'Elasticsearchインデックス名です。デフォルトは「mahara」です。';
