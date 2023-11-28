@@ -51,7 +51,7 @@ $string['license'] = 'ライセンス';
 $string['Media'] = 'メディア';
 $string['noticeenabled'] = '現在、イラスティック検索プラグインは有効にされています。イラスティック検索プラグインを無効にするには<a href="%s">検索設定</a>で選択解除してください。';
 $string['noticenotactive'] = 'ホスト: %s およびポート %s のElasticsearchサーバにアクセスできません。動作しているか確認してください。';
-$string['noticenotenabled'] = '現在、Elasticsearchプラグインは無効にされています。Elasticsearchプラグインを有効にするには<a href="%s">検索設定</a>で選択してください。';
+$string['noticenotenabled'] = '現在、Elasticsearchプラグインは有効にされていません。Elasticsearchプラグインを有効にするには<a href="%s">検索設定</a>で選択してください。';
 $string['owner'] = 'オーナ';
 $string['page'] = 'ページ';
 $string['pages'] = 'ページ';
