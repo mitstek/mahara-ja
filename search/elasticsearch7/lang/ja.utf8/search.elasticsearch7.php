@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-11-27 01:40:27 UTC
+ * @updated    2023-12-04 03:08:00 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -39,8 +39,8 @@ $string['cronlimit'] = 'cronレコード制限';
 $string['cronlimitdescription'] = 'それぞれのcron実行に関してキューからElasticsearchサーバに渡される最大レコード数です (無制限の場合、空白またはゼロにしてください)。';
 $string['cronstatetitle'] = 'cronでインデクス作成する';
 $string['cronstatedescription'] = 'これによりあなたはcron実行時にキュー内のアイテムのインデックス作成を有効または無効にできます。';
-$string['cronlocked'] = '現在、cronはキューをインデックス化しています。';
-$string['cronlockedsowillnotreset'] = 'cronがキューのインデックスを作成している間はインデックスをリセットできません。数分後に再度お試しください。';
+$string['cronlocked'] = '現在、cronはキューのインデックスを作成しています。';
+$string['cronlockedsowillnotreset'] = 'cronがキューのインデックスを作成している間、あなたはインデックスをリセットできません。数分後に再度お試しください。';
 $string['dateoldestfirst'] = '日付 (古い順)';
 $string['daterecentfirst'] = '日付 (新しい順)';
 $string['deleted'] = '削除済み';
