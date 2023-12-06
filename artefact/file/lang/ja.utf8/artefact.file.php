@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-10-12 03:38:07 UTC
+ * @updated    2023-12-06 05:57:10 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -188,7 +188,8 @@ $string['usecustomagreement'] = 'カスタム同意を使用する';
 $string['youmustagreetothecopyrightnotice'] = 'あなたは著作権表示に同意する必要があります。';
 $string['fileuploadedtofolderas'] = '%s が %s に「 %s 」としてアップロードされました。';
 $string['fileuploadedas'] = '%s が「 %s 」としてアップロードされました。';
-$string['insufficientmemoryforresize'] = '(イメージのリサイズのための十分なメモリがありません。アップロード前に手動でリサイズすることをお考えください)';
+$string['insufficientmemoryforresize1'] = '大きなイメージ (%s %s %sx%s %s-ビット) のリサイズが拒否されています。リサイズされたコピーの生成に必要な %s は許可された %s を超えています。';
+$string['unabletoreadfile'] = 'ファイルを読めません。';
 $string['quotanotifylimitoutofbounds'] = '通知制限はパーセントで入力してください。また、0から100までの数字である必要があります。';
 $string['usernotificationsubject'] = 'あなたのファイルストレージがほぼ満杯です。';
 $string['usernotificationmessage'] = 'あなたはファイルクオータの %s% を使用しています (あなたのファイルクオータ: %s)。あなたの制限を増やすためサイト管理者にご連絡ください。';
