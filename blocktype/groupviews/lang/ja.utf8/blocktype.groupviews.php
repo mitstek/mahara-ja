@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-08-04 08:05:18 UTC
+ * @updated    2023-12-13 01:31:19 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -33,5 +33,8 @@ $string['sortgroupviewstitle2'] = 'グループポートフォリオを並べ替
 $string['sortsharedviewstitle1'] = '共有ポートフォリオを並べ替える';
 $string['sortsubmittedtitle1'] = '送信済みポートフォリオを並べ替える';
 $string['sortviewsbyalphabetical'] = 'アルファベット順';
+$string['sortviewsbycreationdate'] = '最も最近の作成順';
 $string['sortviewsbylastupdate'] = '最も最近の更新順';
+$string['sortviewsbylastupdatedblock'] = '最も最近の更新コンテンツ順';
+$string['sortviewsbyshareddate'] = '最も最近の共有順';
 $string['sortviewsbytimesubmitted'] = '最も最近の送信順';
