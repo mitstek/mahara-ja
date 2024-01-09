@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-01-08 06:47:52 UTC
+ * @updated    2024-01-09 10:17:08 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -312,7 +312,7 @@ $string['loggedinsince'] = '%s=今日 / %s=%s以降 / %s=全期間';
 $string['groupmemberaverage'] = 'それぞれの人は平均 %s のグループに属しています。';
 $string['viewsperuser'] = 'ポートフォリオを作成した人はそれぞれ約 %s ページを所有しています。';
 $string['Cron'] = 'cron';
-$string['cron_normal'] = '通常運用';
+$string['cron_normal'] = '正常動作';
 $string['cron_never_run'] = '<strong class="error text-danger">cronは動作していません。</strong><br>セットアップ方法に関して<a href="https://wiki.mahara.org/wiki/Mahara日本語ドキュメント/システム管理者ガイド/Maharaのインストール">インストレーションガイド</a>をご覧ください。';
 $string['cron_not_running'] = '<strong class="error text-danger">cronは正常に動作していません。</strong>';
 $string['cron_slow'] = 'cronタスク実行遅延:';
