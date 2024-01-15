@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-12-06 01:55:17 UTC
+ * @updated    2024-01-15 01:44:47 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -50,6 +50,7 @@ $string['error'] = 'エラー:';
 $string['errortypenotset'] = 'タイプが設定されていません。';
 $string['errorunknown'] = '不明なエラー';
 $string['filterresultsby'] = '結果をフィルタする';
+$string['Folder'] = 'フォルダ';
 $string['forum'] = 'フォーラム';
 $string['forumpost'] = 'フォーラム投稿';
 $string['forumpostedbylabel'] = '投稿者:';
