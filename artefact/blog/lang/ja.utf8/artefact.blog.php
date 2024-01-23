@@ -57,7 +57,7 @@ $string['bygroup'] = 'by グループ <a href="%s">%s</a>';
 $string['byinstitution'] = 'by インスティテューション <a href="%s">%s</a>';
 $string['cancel'] = 'キャンセル';
 $string['createandpublishdesc'] = 'ここではここでは日誌エントリを作成して他の人が閲覧できるようにします。';
-$string['createasdraftdesc'] = 'ここではここでは日誌エントリを作成しますがあなたが公開するまで他の人は閲覧できません。';
+$string['createasdraftdesc'] = 'ここでは日誌エントリを作成しますが、あなたが公開するまで他の人は閲覧できません。';
 $string['createblog'] = '日誌を作成する';
 $string['dataimportedfrom'] = '%s からインポートされたデータ';
 $string['defaultblogtitle'] = '%s の日誌';
