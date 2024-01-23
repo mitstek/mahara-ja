@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-12-17 23:50:14 UTC
+ * @updated    2024-01-23 21:19:42 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -57,7 +57,7 @@ $string['bygroup'] = 'by グループ <a href="%s">%s</a>';
 $string['byinstitution'] = 'by インスティテューション <a href="%s">%s</a>';
 $string['cancel'] = 'キャンセル';
 $string['createandpublishdesc'] = 'ここではここでは日誌エントリを作成して他の人が閲覧できるようにします。';
-$string['createasdraftdesc'] = 'ここではここでは日誌エントリを作成しますがあなたが公開するまで他の人は閲覧できません。';
+$string['createasdraftdesc'] = 'ここでは日誌エントリを作成しますが、あなたが公開するまで他の人は閲覧できません。';
 $string['createblog'] = '日誌を作成する';
 $string['dataimportedfrom'] = '%s からインポートされたデータ';
 $string['defaultblogtitle'] = '%s の日誌';
