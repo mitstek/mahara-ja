@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-01-23 21:19:42 UTC
+ * @updated    2024-01-28 23:49:14 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -76,10 +76,10 @@ $string['horizontalspace'] = '水平方向のスペース';
 $string['insert'] = '挿入';
 $string['insertimage'] = 'イメージを挿入する';
 $string['moreoptions'] = '詳細オプション';
-$string['mustspecifytitle'] = 'あなたのエントリのタイトルを入力してください。';
-$string['mustspecifycontent'] = 'あなたのエントリのコンテンツを入力してください。';
+$string['mustspecifytitle'] = 'あなたのエントリのタイトルを指定する必要があります。';
+$string['mustspecifycontent'] = 'あなたのエントリのコンテンツを指定する必要があります。';
 $string['name'] = '名称';
-$string['newattachmentsexceedquota'] = 'このエントリにアップロードした新しいファイルの合計サイズがあなたのクオータを超過しました。あなたが追加した添付ファイルを削除することでエントリを保存できます。';
+$string['newattachmentsexceedquota'] = 'このエントリにアップロードした新しいファイルの合計サイズがあなたのクオータを超過しました。あなたが追加した添付ファイルのいくつかを削除することでエントリを保存できるかもしれません。';
 $string['newblog'] = '新しい日誌';
 $string['newblogsite'] = '新しいサイト日誌';
 $string['newbloginstitution'] = '新しい「 %s 」日誌';
