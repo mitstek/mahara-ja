@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-11-08 22:18:50 UTC
+ * @updated    2024-01-30 09:56:22 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -298,7 +298,7 @@ $string['blockcell'] = 'セル';
 $string['blockorder'] = 'ポジション';
 $string['rownr'] = '行 %s';
 $string['nrrows'] = '%s 行';
-$string['addnewblockdrag'] = 'ドラッグして新しいブロックを追加する';
+$string['addnewblockdrag1'] = 'ドラッグまたはクリックして新しいブロックを追加する';
 $string['addnewblockaccessible'] = 'クリックして新しいブロックを追加する';
 $string['addnewblock'] = '新しいブロックを追加する';
 $string['addnewblockhere'] = 'ここに新しいブロックを追加する';
