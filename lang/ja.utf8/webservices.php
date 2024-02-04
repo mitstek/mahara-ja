@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-08-17 00:27:25 UTC
+ * @updated    2024-02-04 22:30:37 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -207,7 +207,7 @@ $string['username'] = 'アカウント保持者のユーザ名';
 $string['usernamesubmitportfolio'] = '評価のためにポートフォリオを送信する人のユーザ名';
 $string['usernamevalid1'] = '半角英数字3～255文字にしてください。半角英数字および標準的な記号を使用できます。';
 $string['userresultslimit'] = '結果の制限';
-$string['userresultsoffset'] = '結果のオフセット';
+$string['userresultsoffset'] = '結果の補正値';
 $string['usersautoadded'] = '人の自動追加';
 $string['userstotalcount'] = '合計結果数';
 $string['view'] = 'ページ';
