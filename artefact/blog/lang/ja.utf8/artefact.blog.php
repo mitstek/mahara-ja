@@ -86,7 +86,7 @@ $string['newblogpost'] = '日誌「 %s 」の新しい日誌エントリ';
 $string['newerposts'] = '新しいエントリ';
 $string['nodefaultblogfound'] = 'デフォルトの日誌は見つかりませんでした。これはシステムのバグです。これを修正するにはあなたは<a href="%saccount/index.php">アカウント設定</a>ページで複数日誌オプションを有効にする必要があります。';
 $string['nopostsyet'] = 'まだエントリはありません。';
-$string['noimageshavebeenattachedtothispost'] = 'このエントリにイメージは追加されませんでした。イメージを挿入するにはイメージをアップロードするかエントリに添付してください。';
+$string['noimageshavebeenattachedtothispost'] = 'このエントリにイメージは追加されませんでした。あなたはエントリにイメージを挿入する前にイメージをアップロードまたは添付する必要があります。';
 $string['nofilesattachedtothispost'] = '添付ファイルなし';
 $string['noresults'] = '日誌エントリはありません。';
 $string['olderposts'] = '古いエントリ';
