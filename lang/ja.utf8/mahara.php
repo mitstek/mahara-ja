@@ -1066,8 +1066,8 @@ $string['url'] = 'イメージURL';
 $string['style'] = 'スタイル (CSS)';
 $string['dimensions'] = 'サイズ';
 $string['constrain'] = '縦横比';
-$string['vspace'] = '垂直方向の余白';
-$string['hspace'] = '水平方向の余白';
+$string['vspace'] = '垂直方向のスペース';
+$string['hspace'] = '水平方向のスペース';
 $string['border'] = '罫線幅';
 $string['alignment'] = '位置揃え';
 
