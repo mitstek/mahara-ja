@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-02-07 01:10:18 UTC
+ * @updated    2024-02-14 00:54:49 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -88,7 +88,7 @@ $string['newblogpost'] = '日誌「 %s 」の新しい日誌エントリ';
 $string['newerposts'] = '新しいエントリ';
 $string['nodefaultblogfound'] = 'デフォルトの日誌は見つかりませんでした。これはシステムのバグです。これを修正するにはあなたは<a href="%saccount/index.php">アカウント設定</a>ページで複数日誌オプションを有効にする必要があります。';
 $string['nopostsyet'] = 'まだエントリはありません。';
-$string['noimageshavebeenattachedtothispost'] = 'このエントリにイメージは追加されませんでした。あなたはエントリにイメージを挿入する前にイメージをアップロードまたは添付する必要があります。';
+$string['noimageshavebeenattachedtothispost'] = 'このエントリにイメージは追加されていません。あなたはエントリにイメージを挿入する前にイメージをアップロードまたは添付する必要があります。';
 $string['nofilesattachedtothispost'] = '添付ファイルなし';
 $string['noresults'] = '日誌エントリはありません。';
 $string['olderposts'] = '古いエントリ';
