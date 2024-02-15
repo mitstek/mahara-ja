@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-01-30 09:56:22 UTC
+ * @updated    2024-02-15 23:49:25 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -317,6 +317,9 @@ $string['closeconfiguration'] = '設定を閉じる';
 $string['removeblock2'] = 'ブロックを削除する';
 $string['removeblock1'] = '%s ブロックを削除する (ID %s)';
 $string['removethisblock1'] = 'このブロックを削除する (ID %s)';
+$string['copyblockId'] = 'このブロックを複製する (ID %s)';
+$string['copyblocktitleId'] = '%s ブロックを複製する (ID %s)';
+$string['copyblock'] = 'このブロックを複製する';
 $string['blocktitle'] = 'ブロックタイトル';
 $string['celltitle'] = 'セル';
 $string['blockrecovery'] = 'バックアップをリストアする';
