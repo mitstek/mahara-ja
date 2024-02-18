@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-02-14 00:54:49 UTC
+ * @updated    2024-02-18 22:54:23 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -119,7 +119,7 @@ $string['savesettings'] = '設定を保存する';
 $string['settings'] = '設定';
 $string['taggedposts'] = 'タグ付き投稿';
 $string['thisisdraft'] = '下書きとして保存する';
-$string['thisisdraftdesc'] = 'あなたのエントリを下書きにした場合、あなた以外の人はエントリを閲覧できません。';
+$string['thisisdraftdesc'] = 'あなたのエントリが下書である場合、あなた以外の人はエントリを閲覧できません。';
 $string['title'] = 'タイトル';
 $string['update'] = '更新';
 $string['verticalspace'] = '垂直方向のスペース';
