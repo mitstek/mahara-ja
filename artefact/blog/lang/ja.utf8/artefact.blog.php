@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-02-18 22:54:23 UTC
+ * @updated    2024-02-20 23:07:46 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -137,7 +137,7 @@ $string['top'] = '上揃え';
 $string['middle'] = '中央揃え';
 $string['bottom'] = '下揃え';
 $string['texttop'] = 'テキスト上揃え';
-$string['textbottom'] = 'テキストボタン';
+$string['textbottom'] = 'テキスト下揃え';
 $string['left'] = '左';
 $string['right'] = '右';
 $string['src'] = 'イメージURL';
