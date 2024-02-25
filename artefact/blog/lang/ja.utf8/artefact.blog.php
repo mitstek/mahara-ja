@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-02-20 23:07:46 UTC
+ * @updated    2024-02-25 23:29:55 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -144,7 +144,7 @@ $string['src'] = 'イメージURL';
 $string['image_list'] = '添付イメージ';
 $string['alt'] = '説明';
 $string['copyfull'] = '他の人はあなたの %s を自分のコピーとして取得できる';
-$string['copyreference'] = '他の人はあなたの %s をページに表示できる';
+$string['copyreference'] = '他の人はあなたの %s を自分のページに表示できる';
 $string['copynocopy'] = 'ページをコピーする場合、このブロックを完全にスキップする';
 $string['copytagsonly'] = '他の人はブロック設定のコピーを取得できる';
 $string['selftagsonly'] = 'あなたのみブロック設定のコピーを取得できる';
