@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-02-25 23:29:55 UTC
+ * @updated    2024-02-28 01:51:40 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -155,7 +155,7 @@ $string['youhavenoblogsaddone'] = 'あなたには日誌がありません。<a 
 $string['youhavenogroupblogs'] = 'このグループには日誌がありません。';
 $string['youhavenogroupblogsaddone'] = 'このグループには日誌がありません。<a href="%s">日誌を追加してください</a>。';
 $string['youhavenoinstitutionblogs1'] = 'このインスティテューションには日誌がありません。<a href="%s">日誌を追加してください</a>。';
-$string['youhavenositeblogs1'] = 'サイト日誌がありません。<a href="%s">日誌を追加してください</a>。';
+$string['youhavenositeblogs1'] = 'サイト日誌はありません。<a href="%s">日誌を追加してください</a>。';
 $string['youhavenblog'] = 'あなたには %d 日誌があります。';
 $string['feedsnotavailable'] = 'このアーティファクトタイプではフィードは利用できません。';
 $string['feedrights'] = '著作権 %s';
