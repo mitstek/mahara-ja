@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-03-02 07:15:28 UTC
+ * @updated    2024-03-03 22:56:38 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,4 +19,4 @@ $string['description'] = 'チェックポイントコメントを表示するた
 $string['addcheckpointfeedback'] = 'チェックポイントコメントを追加する';
 $string['modalcheckpointcomment'] = 'チェックポイント: コメントを追加する';
 $string['save'] = '保存';
-$string['checkpointsitetemplate'] = 'このチェックポイントのコンテンツは所属するグループ内で正しく表示されます。';
+$string['checkpointsitetemplate'] = 'このチェックポイントのコンテンツは属するグループ内で正しく表示されます。';
