@@ -32,7 +32,7 @@ $string['checkpointfeedback'] = 'チェックポイントフィードバック';
 $string['placeassessment'] = 'チェックポイントを投稿する';
 $string['progress_checkpointfeedback'] = '%s のチェックポイントフィードバックを追加する';
 $string['deletednotificationsubject'] = '「 %s 」のチェックポイントコメントが削除されました。';
-$string['deletedauthornotification1'] = 'あなたの「 %s 」のチェックポイントコメントが削除されました。あなたの執筆内容は以下のとおりです:
+$string['deletedauthornotification1'] = 'あなたの「 %s 」のチェックポイントコメントが削除されました。あなたの記述内容は以下のとおりです:
 %s';
 $string['newfeedbacknotificationsubject'] = 'ページ「 %s 」の新しいチェックポイントコメント';
 $string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が「 %s 」にチェックポイントコメントを追加しました。</strong><br />%s</div>
