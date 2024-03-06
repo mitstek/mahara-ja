@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-04-28 02:03:11 UTC
+ * @updated    2024-03-06 01:26:04 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -32,7 +32,7 @@ $string['checkpointfeedback'] = 'チェックポイントフィードバック';
 $string['placeassessment'] = 'チェックポイントを投稿する';
 $string['progress_checkpointfeedback'] = '%s のチェックポイントフィードバックを追加する';
 $string['deletednotificationsubject'] = '「 %s 」のチェックポイントコメントが削除されました。';
-$string['deletedauthornotification1'] = 'あなたの「 %s 」のチェックポイントコメントが削除されました。あなたの執筆内容は以下のとおりです:
+$string['deletedauthornotification1'] = 'あなたの「 %s 」のチェックポイントコメントが削除されました。あなたの記述内容は以下のとおりです:
 %s';
 $string['newfeedbacknotificationsubject'] = 'ページ「 %s 」の新しいチェックポイントコメント';
 $string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が「 %s 」にチェックポイントコメントを追加しました。</strong><br />%s</div>
