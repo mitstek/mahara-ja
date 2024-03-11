@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-02-28 01:51:40 UTC
+ * @updated    2024-03-11 07:10:33 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -70,7 +70,7 @@ $string['dimensions'] = 'サイズ';
 $string['draft'] = '下書き';
 $string['edit'] = '編集';
 $string['editblogpost'] = '日誌エントリを編集する';
-$string['entriesimportedfromleapexport'] = '他の場所でインポートできなかったLeap2Aエクスポートよりインポートされたエントリです。';
+$string['entriesimportedfromleapexport'] = 'Leap2Aエクスポートからインポートされたエントリで他の場所にインポートできなかったものです。';
 $string['errorsavingattachments'] = '日誌エントリの添付ファイル保存中にエラーが発生しました。';
 $string['horizontalspace'] = '水平方向のスペース';
 $string['insert'] = '挿入';
