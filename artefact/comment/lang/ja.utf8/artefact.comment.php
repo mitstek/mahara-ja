@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-03-11 07:10:10 UTC
+ * @updated    2024-03-13 01:23:50 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -48,7 +48,7 @@ $string['editcomment'] = 'コメントを編集する';
 $string['editcommentdescription'] = 'あなたは新しい返信が追加されていない %d 分未満のコメントを更新できます。この時間経過後、あなたはコメントを削除して新たなコメントを追加することはできます。';
 $string['entriesimportedfromleapexport'] = 'Leap2Aエクスポートからインポートされたエントリで他の場所にインポートできなかったものです。';
 $string['feedbackattachdirname'] = 'コメントファイル';
-$string['feedbackattachdirdesc'] = 'あなたのポートフォリオのコメントに添付されたファイル';
+$string['feedbackattachdirdesc'] = 'あなたのポートフォリオのコメントに添付されたファイルです。';
 $string['feedbackattachmessage'] = 'あなたの %s フォルダに添付ファイルが追加されました。';
 $string['commentonviewbyuser'] = '%s のコメント by %s';
 $string['commentsubmitted'] = 'コメントが送信されました。';
