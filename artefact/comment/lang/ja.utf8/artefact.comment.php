@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-03-17 20:00:43 UTC
+ * @updated    2024-03-19 23:33:29 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -135,7 +135,7 @@ $string['feedbackdeletedtext'] = '%s のコメントが削除されました。
 %s をオンラインで閲覧するには次のリンクにアクセスしてください:
 %s';
 $string['artefactdefaultpermissions'] = 'デフォルトのコメントパーミッション';
-$string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトでは作成時にコメントの投稿が有効にされます。作成者は個別のアーティファクトでこれらの設定をオーバーライドできます。';
+$string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトタイプでは作成時にコメントの投稿が有効にされます。作成者は個別のアーティファクトでこれらの設定をオーバーライドできます。';
 $string['commentratings'] = 'コメントレーティングを有効にする';
 $string['ratingicons'] = 'レーティングの表示に使用するアイコン';
 $string['ratinglength'] = 'レーティング選択数';
