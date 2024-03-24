@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-03-19 23:33:29 UTC
+ * @updated    2024-03-24 23:42:52 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -138,7 +138,7 @@ $string['artefactdefaultpermissions'] = 'デフォルトのコメントパーミ
 $string['artefactdefaultpermissionsdescription'] = '選択されたアーティファクトタイプでは作成時にコメントの投稿が有効にされます。作成者は個別のアーティファクトでこれらの設定をオーバーライドできます。';
 $string['commentratings'] = 'コメントレーティングを有効にする';
 $string['ratingicons'] = 'レーティングの表示に使用するアイコン';
-$string['ratinglength'] = 'レーティング選択数';
+$string['ratinglength'] = 'レーティング選択肢数';
 $string['ratingcolour'] = '色';
 $string['ratingcolourdesc'] = 'レーティングの選択に表示する色です。選択されたレーティングは単色のアイコンで表示されます。未選択のレーティングはアイコンの輪郭が単色で表示されます。';
 $string['star'] = '星';
