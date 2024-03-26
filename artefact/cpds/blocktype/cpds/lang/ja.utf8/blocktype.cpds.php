@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-08-28 23:57:13 UTC
+ * @updated    2024-03-26 22:13:43 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -21,7 +21,7 @@ $string['nocpdsaddone'] = 'まだCPDはありません。%s追加してくださ
 $string['oldercpds'] = '古いCPD';
 $string['cpdstoshow'] = '表示するCPD';
 $string['taglist'] = 'タグ付けされた活動を表示する';
-$string['notagsavailable'] = 'あなたはCPD活動にタグを付けしていません。';
+$string['notagsavailable'] = 'あなたはCPD活動にタグ付けしていません。';
 $string['notagsavailableerror'] = 'タグが選択されていません。あなたがここで選択できるようにするにはCPDエントリにタグを追加する必要があります。';
 $string['startdate'] = '活動開始日';
 $string['startdatedesc'] = '活動開始日がこの日付以降のエントリをフィルタリングします。';
