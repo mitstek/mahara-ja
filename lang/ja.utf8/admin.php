@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-02-04 22:30:20 UTC
+ * @updated    2024-04-02 07:13:05 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -308,7 +308,12 @@ $string['databasesize'] = 'データベースサイズ';
 $string['diskusage'] = 'ディスク使用量';
 $string['maharaversion'] = 'Maharaバージョン';
 $string['activeusers'] = 'アクティブな人';
-$string['loggedinsince'] = '%s=今日 / %s=%s以降 / %s=全期間';
+$string['loggedinsince2'] = '<ul>
+<li>今日: %s</li>
+<li>先週: %s</li>
+<li>過去1年: %s</li>
+<li>すべて: %s</li>
+</ul>';
 $string['groupmemberaverage'] = 'それぞれの人は平均 %s のグループに属しています。';
 $string['viewsperuser'] = 'ポートフォリオを作成した人はそれぞれ約 %s ページを所有しています。';
 $string['Cron'] = 'cron';
@@ -382,9 +387,6 @@ $string['loggedinprofileviewaccess1'] = 'すべての登録済みの人による
 $string['loggedinprofileviewaccessdescription1'] = 'プロファイルページをすべての登録済みの人が閲覧できます。';
 $string['antispam'] = 'アンチスパム';
 $string['antispamdescription'] = '一般公開フォームに適用されるスパム防止策のタイプです。';
-$string['dropdownmenu'] = 'ドロップダウンナビゲーション';
-$string['dropdownmenudescription2'] = 'メインMaharaナビゲーションのサブナビゲーションにドロップダウンフォーマットを使用します。';
-$string['dropdownmenudescriptioninstitution2'] = 'メインナビゲーションにドロップダウンメニューを使用します。';
 $string['commentsortorder'] = 'コメント並べ替え順';
 $string['commentsortorderdescription'] = 'ページに表示されるアーティファクトコメントの並べ替え順を設定します。';
 $string['commentthreaded'] = 'スレッドコメント';
