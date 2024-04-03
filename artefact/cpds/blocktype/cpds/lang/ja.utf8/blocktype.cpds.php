@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-03-31 20:34:37 UTC
+ * @updated    2024-04-03 22:42:38 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -26,7 +26,7 @@ $string['notagsavailableerror'] = 'タグが選択されていません。あな
 $string['startdate'] = '活動開始日';
 $string['startdatedesc'] = '活動開始日がこの日付以降のエントリをフィルタリングします。';
 $string['enddate'] = '活動終了日';
-$string['enddatedesc'] = '活動終了日がこの日付以前のエントリをフィルタリングします。';
+$string['enddatedesc'] = '活動開始日がこの日付以前のエントリをフィルタリングします。';
 $string['startenddate'] = '活動日';
 $string['dateserror'] = '開始日は終了日の前に設定してください。';
 $string['addactivity'] = '活動を追加する';
