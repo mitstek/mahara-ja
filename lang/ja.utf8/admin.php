@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-04-02 07:13:05 UTC
+ * @updated    2024-04-07 23:52:24 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1440,6 +1440,21 @@ $string['cli_audit_collection_to_group'] = 'コレクション「 %s 」(作成:
 $string['cli_bad'] = '失敗 %s: %s';
 $string['cli_success'] = '成功: %s';
 $string['cli_process_usernames'] = '処理対象ユーザ名:';
+$string['cli_inactive_users'] = '時間間隔の間にサイトにログインしたアカウント保持者を検索します。
+アカウント保持者がコンテンツを作成していない場合等、管理者が簡単にアカウントを削除できるかどうか判断するのに役立つ時間間隔の間のサイト利用状況に関する基本的な情報が表示されます。';
+$string['cli_inactive_interval'] = '今日より前の非アクティブ時間間隔です。データベースインターバル期間を指定してください。';
+$string['cli_inactive_users_found'] = '%s 名のユーザがログインしました (過去 %s 回内)。';
+$string['cli_no_inactive_users'] = 'ログインしたユーザはいません (過去 %s 回内)。';
+$string['cli_inactive_done'] = 'レビュー完了';
+$string['cli_inactive_id'] = 'Mahara ID';
+$string['cli_inactive_username'] = 'ユーザ名';
+$string['cli_inactive_lastlogin'] = '最終ログイン';
+$string['cli_inactive_only_dashboard_profile'] = 'デフォルトページのみ';
+$string['cli_inactive_new_pages'] = '時間間隔の新しいポートフォリオ';
+$string['cli_inactive_new_artefacts'] = '時間間隔の新しいアーティファクト';
+$string['cli_inactive_in_groups'] = 'グループ参加';
+$string['cli_inactive_quota_used'] = 'クオータ使用量';
+$string['cli_inactive_quota_percent'] = 'クオータ使用量パーセンテージ';
 $string['behatvariables'] = 'Behatステップ';
 $string['behatvariablesdesc'] = '利用可能なBehatステップを素早く探すためのツールです。';
 $string['nobehatfeaturefiles'] = 'Behatフィーチャファイルは見つかりませんでした。';
