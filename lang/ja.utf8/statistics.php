@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-11-08 22:23:50 UTC
+ * @updated    2024-04-08 12:12:10 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -157,6 +157,8 @@ $string['dbversion'] = 'データベースバージョン';
 $string['osversion'] = 'オペレーティングシステムバージョン';
 $string['phpsapi'] = 'PHP SAPI';
 $string['webserver'] = 'ウェブサーバ';
+$string['sessionhandler'] = 'セッションハンドラ';
+$string['samlsessionhandler'] = 'SAMLセッションハンドラ';
 $string['phpmodules'] = 'インストール済みPHPモジュール';
 $string['release'] = 'リリース';
 $string['sitename'] = 'サイト名';
