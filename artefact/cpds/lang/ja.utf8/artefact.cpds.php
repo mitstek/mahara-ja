@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-04-09 01:28:11 UTC
+ * @updated    2024-04-15 00:34:32 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -24,7 +24,7 @@ $string['cpds'] = 'CPD';
 $string['cpdsactivitiestitle'] = 'CPD活動';
 $string['cpdsavedsuccessfully'] = 'CPD活動が正常に保存されました。';
 $string['cpdsactivities'] = 'CPD %s 活動';
-$string['cpdsactivitiesdesc'] = '以下または右側のボタンで活動を追加してあなたのCPDの構築を開始してください。';
+$string['cpdsactivitiesdesc'] = '以下の活動を追加するか、右のボタンであなたのCPD構築を開始してください。';
 $string['duplicatedcpd'] = '重複CPD活動';
 $string['savecpd'] = 'CPDを保存する';
 $string['title'] = 'タイトル';
