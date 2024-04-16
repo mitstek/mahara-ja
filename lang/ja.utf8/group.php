@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-05-16 07:27:21 UTC
+ * @updated    2024-04-16 23:11:19 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -267,6 +267,10 @@ $string['userstobeadded'] = '追加される人';
 $string['userstobeinvited'] = '招待される人';
 $string['potentialmemberstorecommend'] = '選択した潜在的なメンバをレコメンデーション送信対象の人にする';
 $string['recommendedtopotentialmembers'] = '選択したレコメンデーション送信対象の人を潜在的なメンバにする';
+$string['potentialmemberstoinvites'] = '選択した潜在的なメンバを招待メンバにする';
+$string['invitestopotentialmembers'] = '選択した招待メンバを潜在的なメンバにする';
+$string['potentialmemberstomembers'] = '選択した潜在的なメンバをメンバにする';
+$string['memberstopotentialmembers'] = '選択したメンバを潜在的なメンバにする';
 $string['potentialmoderatorstomoderators'] = '選択した潜在的なモデレータをモデレータにする';
 $string['moderatorstopotentialmoderators'] = '選択したモデレータを潜在的なモデレータにする';
 $string['reasonoptional'] = '理由 (任意)';
@@ -339,7 +343,6 @@ $string['friendlistfailure'] = 'あなたのフレンドリストの修正に失
 $string['userdoesntwantfriends'] = 'この人は新しいフレンドを求めていません。';
 $string['cannotrequestfriendshipwithself'] = 'あなたはあなた自身にフレンドシップをリクエストできません。';
 $string['cantrequestfriendship'] = 'あなたはこの人にフレンドシップをリクエストできません。';
-$string['messagebody'] = 'メッセージを送信する';
 $string['sendmessage'] = 'メッセージを送信する';
 $string['messagesent'] = 'メッセージが送信されました。';
 $string['messagenotsent'] = 'メッセージの送信に失敗しました。';
