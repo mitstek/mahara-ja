@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-04-03 22:42:38 UTC
+ * @updated    2024-04-21 21:18:56 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -32,4 +32,4 @@ $string['dateserror'] = '開始日は終了日の前に設定してください�
 $string['addactivity'] = '活動を追加する';
 $string['addnewactivity'] = '新しい活動を追加する';
 $string['sortorder'] = '並べ替え順';
-$string['sortorderdesc'] = '開始日を以下の順序で並べ替える';
+$string['sortorderdesc'] = '活動を開始日の昇順または降順で並べ替えます。';
