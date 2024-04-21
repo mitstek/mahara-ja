@@ -140,6 +140,6 @@ $string['canceldeletionadminemailhtml'] = '<p>管理者さん、こんにちは�
 <p>メールアドレス: %s</p>
 <pre>--
 %s チーム</pre>';
-$string['resizeonuploaduserdefault1'] = 'アップロード時、イメージをリサイズする';
+$string['resizeonuploaduserdefault1'] = 'アップロード時にイメージをリサイズする';
 $string['resizeonuploaduserdefaultdescription2'] = 'デフォルトで「イメージを自動的にリサイズする」オプションが有効にされます。最大高さおよび幅を超えたイメージはアップロード時にリサイズされます。個別のイメージアップロード時、あなたはこのデフォルト設定を無効にできます。';
 $string['noprivacystatementsaccepted'] = 'このアカウントは現在のプライバシ保護方針を受け入れていません。';
