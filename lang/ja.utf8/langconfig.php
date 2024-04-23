@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-10-13 05:32:31 UTC
+ * @updated    2024-04-23 06:34:27 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -46,7 +46,8 @@ $string['datetimeclassdaydate'] = '%%Y/%%m/%%d';
 $string['datetimeclassdaydatetime'] = '%%Y/%%m/%%d %%H:%%M';
 $string['datetimeclassdate_format'] = '%%Y/%%m/%%d';
 $string['strftimew3cdate_format'] = 'yyyy-MM-dd';
-$string['strftimew3cdatetime_format'] = 'yyyy-MM-dd\'T\'HH:mm:ss\'z\'';
+$string['strftimew3cdatetime_format'] = 'yyyy-MM-dd\'T\'HH:mm:ssZZZZZ';
+$string['datefmt_rfc3339datetime_format'] = 'yyyy-MM-dd\'T\'HH:mm:ssxxx';
 $string['thislanguage'] = '日本語';
 $string['locales'] = 'ja_JP.utf8,Japanese_Japan.932';
 $string['fullname_format'] = 'lastname_firstname';
