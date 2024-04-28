@@ -39,6 +39,6 @@ $string['removedverifynotificationsubject'] = '%s の検証が削除されまし
 $string['removedverifynotification'] = 'ページのオーナ %s が承認を削除しました。そのためあなたの検証も削除されました。再度検証をマークできる状態であるか確認するためページにアクセスしてください。';
 $string['signoffviewupdated'] = '承認ステータスが更新されました。';
 $string['verifyviewupdated'] = '検証ステータスが更新されました。';
-$string['wrongsignoffviewrequest'] = 'あなたにはリクエストされた処理を実行するパーミッションがありません。';
+$string['wrongsignoffviewrequest'] = 'あなたにはリクエストされた処理を実行するためのパーミッションがありません。';
 
 ?>
