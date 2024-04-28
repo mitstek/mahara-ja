@@ -58,7 +58,7 @@ $string['dbnotutf8'] = 'あなたはUTF-8データベースを使用していま
 $string['dbnotutf8mb4'] = 'あなたはutf8mb4文字セット (4バイト UTF-8ユニコードエンコーディング) データベースを使用していません。Maharaはすべてのデータを内部的にutf8mb4として保存します。あなたのデータベースを削除した後、utf8mb4エンコーディングで再作成してください。';
 $string['dbversioncheckfailed'] = 'あなたのデータベースサーバのバージョンはMaharaを正常に動作させるのに十分な新しいバージョンではありません。あなたのサーバは %s %s ですが、Maharaは少なくともバージョン %s を必要とします。';
 $string['plpgsqlnotavailable'] = 'あなたのPostgresインストレーションではPL/pgSQL言語が有効にされていません。そのためMaharaでもPL/pgSQL言語を有効にできません。あなたのデータベースに手動でPL/pgSQLをインストールしてください。この作業のインストラクションに関して次をご覧ください: https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Enabling_Plpgsql';
-$string['mysqlnotriggerprivilege'] = 'Maharaではデータベーストリガを作成するパーミッションを必要とします。しかし、データベーストリガを作成できません。あなたのMySQLインストレーション内の適切なユーザにトリガ権限が割り当てられていることを確認してください。この作業のインストラクションに関して次をご覧ください: https://wiki.mahara.org//wiki/System_Administrator%27s_Guide/Granting_Trigger_Privilege';
+$string['mysqlnotriggerprivilege'] = 'Maharaではデータベーストリガを作成するためのパーミッションを必要とします。しかし、データベーストリガを作成できません。あなたのMySQLインストレーション内の適切なユーザにトリガ権限が割り当てられていることを確認してください。この作業のインストラクションに関して次をご覧ください: https://wiki.mahara.org//wiki/System_Administrator%27s_Guide/Granting_Trigger_Privilege';
 $string['mbstringneeded'] = 'PHPのmbstring拡張モジュールをインストールしてください。あなたがユーザ名にUTF-8文字を使用している場合、この拡張モジュールが必要です。インストールしない場合、人はログインできない可能性があります。';
 $string['cssnotpresent'] = 'あなたのhtdocs/theme/raw/styleディレクトリ内にCSSファイルが存在しません。あなたがgitチェックアウトからMaharaを動作させている場合、CSSファイルを構築するために「make css」を実行してください。あなたがZIPダウンロードよりMaharaを動作させている場合、再度ダウンロードおよび展開をお試しください。';
 $string['mahararootusermissing'] = 'データベースに「root」アカウントが存在しないため私たちは継続できません。このアカウントはMaharaが正常に動作するため必要です。再度rootアカウントを作成するにはあなたが使用しているMaharaのバージョンを別にインストールした上で「usr」および「usr_custom_layout」テーブル内の「user」 (id = 0) に何が含まれているか確認してください。そしてアップグレードを再開する前にあなたのMaharaインスタンスにそのデータを追加してください。';
