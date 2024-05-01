@@ -62,7 +62,7 @@ $string['deleteaccount'] = 'アカウントを削除する';
 $string['deleteaccountdescription'] = 'アカウントを削除した場合、あなたのすべてのコンテンツは完全に削除されます。あなたは元に戻せません。あなたのプロファイル情報およびページは他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧できますが投稿者名が表示されないようになります。';
 $string['accountdeleted'] = 'あなたのアカウントが削除されました。';
 $string['resizeonuploaduserdefault1'] = 'アップロード時にイメージをリサイズする';
-$string['resizeonuploaduserdefaultdescription2'] = 'デフォルトで「イメージを自動的にリサイズする」オプションが有効にされます。最大高さおよび幅を超えたイメージはアップロード時にリサイズされます。個別のイメージアップロード時、あなたはこのデフォルト設定を無効にできます。';
+$string['resizeonuploaduserdefaultdescription2'] = 'デフォルトで「イメージを自動的にリサイズする」オプションが有効にされます。最大高および幅を超えたイメージはアップロード時にリサイズされます。個別のイメージアップロード時、あなたはこのデフォルト設定を無効にできます。';
 $string['devicedetection'] = 'デバイス検出';
 $string['devicedetectiondescription'] = 'このサイトの閲覧時のモバイルデバイス検出を有効にします。';
 
