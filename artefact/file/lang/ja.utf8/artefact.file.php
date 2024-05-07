@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-05-06 00:43:48 UTC
+ * @updated    2024-05-07 21:56:55 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -67,7 +67,7 @@ $string['maxquota'] = '最大クオータ';
 $string['maxquotatoolow'] = '最大クオータをデフォルトクオータより小さくできません。';
 $string['maxquotaexceeded'] = 'あなたはこのサイトに設定されている最大利用可能サイズ (%s) を超えてクオータを指定しました。値を小さくするかサイト管理者に連絡して最大クオータを増やしてください。';
 $string['maxquotaexceededform'] = '%s より小さなファイルクオータを指定してください。';
-$string['maxquotadescription'] = 'あなたは管理者が与えることのできる最大クオータを設定できます。既存のアカウントクオータは影響を受けません。';
+$string['maxquotadescription'] = 'あなたは管理者が付与できる最大クオータを設定できます。既存のアカウントクオータは影響を受けません。';
 $string['defaultgroupquota'] = 'デフォルトグループクオータ';
 $string['defaultgroupquotadescription'] = 'あなたは新しいグループがファイルエリアで使用できるディスクスペース総量を設定できます。';
 $string['updategroupquotas'] = 'グループクオータを更新する';
