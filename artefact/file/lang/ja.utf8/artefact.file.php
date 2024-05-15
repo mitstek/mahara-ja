@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-05-12 23:31:15 UTC
+ * @updated    2024-05-15 02:14:14 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -95,7 +95,7 @@ $string['fileadded'] = 'ファイルが選択されました。';
 $string['filealreadyindestination'] = 'あなたが移動しようとしたファイルはすでにフォルダに存在します。';
 $string['fileappearsinviews'] = 'このファイルはあなたの1つまたはそれ以上のページに表示されます。';
 $string['fileappearsinposts'] = 'このファイルはあなたの1つまたはそれ以上のフォーラム投稿に表示されます。';
-$string['fileattachedtoportfolioitems'] = 'このファイルはあなたのポートフォリオ内の他の他の %s アイテムに添付されます。';
+$string['fileattachedtoportfolioitems'] = 'このファイルはあなたのポートフォリオの他の %s アイテムに添付されます。';
 $string['fileappearsinskins'] = 'このファイルはあなたのスキンの1つまたはそれ以上の背景イメージとして使用されます。';
 $string['profileiconattachedtoportfolioitems'] = 'このプロファイル画像はあなたのポートフォリオ内の他のアイテムに添付されます。';
 $string['profileiconappearsinviews'] = 'このプロファイル画像はあなたの1つまたはそれ以上のページに表示されます。';
