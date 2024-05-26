@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-05-21 19:39:05 UTC
+ * @updated    2024-05-26 20:07:29 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -124,7 +124,7 @@ $string['Folders'] = 'フォルダ';
 $string['foldernotempty'] = 'このフォルダは空ではありません。';
 $string['foldercontainsprofileicons'] = 'フォルダには %s 個のプロファイル画像が含まれます。';
 $string['foldercreated'] = 'フォルダが作成されました。';
-$string['foldernamerequired'] = '新しいフォルダ名を入力してください。';
+$string['foldernamerequired'] = '新しいフォルダの名称を入力してください。';
 $string['gotofolder'] = '%s に移動する';
 $string['groupfiles'] = 'グループファイル';
 $string['home'] = 'ホーム';
