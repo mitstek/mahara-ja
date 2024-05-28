@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-06-26 19:36:04 UTC
+ * @updated    2024-05-28 03:37:02 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -47,3 +47,8 @@ $string['append'] = '追加する';
 $string['importfolder'] = 'フォルダをインポートする %s';
 $string['importresult'] = 'インポート結果';
 $string['noimportentry'] = 'インポートエントリはありません。';
+$string['unknownstrategy'] = 'エントリインポートに不明なストラテジが選択されました: ストラテジ番号「 %s 」-「 %s  」';
+$string['unabletomoveicon'] = 'プロファイルアイコンを移動できません: 移動先「 %s」-「 %s 」';
+$string['unknownauthor'] = '「author」オブジェクトは「 %s 」(%s) を含む必要があります。';
+$string['unknownservice'] = 'persondataフィールドは「 %s 」(%s) でしたが、サービスが設定されていません。';
+$string['unknowncommentstrategy'] = 'コメントする「 %s 」(%s) のエントリが見つかりません。';
