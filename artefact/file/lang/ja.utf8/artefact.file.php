@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-06-03 03:54:07 UTC
+ * @updated    2024-06-04 21:20:56 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -192,7 +192,7 @@ $string['insufficientmemoryforresize1'] = '大きなイメージ (%s %s %sx%s %s
 $string['unabletoreadfile'] = 'ファイルを読めません。';
 $string['quotanotifylimitoutofbounds'] = '通知制限はパーセントで入力してください。また、0から100までの数字である必要があります。';
 $string['usernotificationsubject'] = 'あなたのファイルストレージがほぼ満杯です。';
-$string['usernotificationmessage'] = 'あなたはファイルクオータの %s% を使用しています (あなたのファイルクオータ: %s)。あなたの制限を増やすためサイト管理者にご連絡ください。';
+$string['usernotificationmessage'] = 'あなたはファイルクオータの %s% を使用しています (あなたのファイルクオータ: %s)。あなたの制限を増やすためにはサイト管理者にご連絡ください。';
 $string['adm_notificationsubject'] = '誰かがファイルクオータ制限にほぼ達しました。';
 $string['adm_notificationmessage'] = '%s がファイルクオータの %s% パーセントに達しました (ファイルクオータ: %s)。';
 $string['adm_group_notificationsubject'] = 'あなたが管理しているグループがファイルクオータ制限にほぼ達しています。';
