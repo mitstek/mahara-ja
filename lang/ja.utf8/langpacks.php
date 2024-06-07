@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-06-07 05:16:17 UTC
+ * @updated    2024-06-07 05:46:33 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -25,7 +25,7 @@ $string['nolanguageselected'] = '言語未選択';
 $string['languagesyncsuccessfully'] = '言語が正常に更新されました。';
 $string['languagesyncunsuccessful'] = '%s の更新に失敗しました。';
 $string['filetoinstall'] = 'ファイル';
-$string['fileorigin1'] = 'ファイルが必要なオリジン';
+$string['fileorigin1'] = 'ファイル必須オリジン';
 $string['langpackuptodate'] = '%s は最新版です。';
 $string['addlangpack'] = '言語を追加する';
 $string['addlangpackdescription'] = 'サイトに追加する言語を選択してください。';
