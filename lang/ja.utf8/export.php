@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-08-04 05:19:40 UTC
+ * @updated    2024-06-07 04:55:43 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -85,9 +85,10 @@ $string['exportzipfileerror'] = 'ZIPファイルの生成に失敗しました: 
 $string['submissiondirnotwritable'] = '提出アーカイブディレクトリに書き込めません: %s';
 $string['exportarchivesavefailed'] = 'データベースにエクスポートアーカイブ情報を保存できません。';
 $string['archivedsubmissionfailed'] = 'データベースにアーカイブ済み提出情報を保存できません。';
-$string['submissionreleasefailed'] = 'アーカイブ後の提出のリリースに失敗しました。';
+$string['submissionreleasefailed1'] = 'アーカイブ後の提出のリリースに失敗しました。詳細は次のとおりです: エクスポートタイプ: %s, ポートフォリオ名: %s';
+$string['submissionreleasefailedfor'] = 'アーカイブ後のポートフォリオ「 %s 」(ID: %s) のリリースに失敗しました';
 $string['deleteexportqueueitems'] = 'エクスポートキューアイテムデータベーステーブルのアイテムの削除に失敗しました。';
 $string['deleteexportqueuerow'] = 'エクスポートキューデータベーステーブルのアイテムの削除に失敗しました。';
 $string['exportqueueerrorsadminsubject'] = 'キューのエクスポート実行中にエラーが発生しました。';
-$string['exportqueueerrorsadminmessage'] = '行「 %s 」をエクスポートできません: %s';
+$string['exportqueueerrorsadminmessage1'] = '行「 %s 」を完全にエクスポートできません: %s';
 $string['exportlitenotwritable'] = 'エクスポートディレクトリ「 %s 」に書き込めません。';
