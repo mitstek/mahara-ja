@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-04-28 22:10:36 UTC
+ * @updated    2024-06-07 05:23:29 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1176,6 +1176,7 @@ $string['getreports'] = 'レポートを取得する';
 $string['selectuser'] = '人「 %s 」を選択する';
 $string['bulkactions'] = 'バルク処理';
 $string['editselectedusersdescription1'] = 'あなたが検索ページで選択したアカウントの利用停止、削除または認証方法を変更します。';
+$string['editselectedportfoliosdescription'] = 'あなたが検索ページで選択したアカウントに対して選択したコレクションをロックまたはロック解除します。「ロック解除」を選択した場合、あなたはコレクションにレビュアを追加できます。「ロック」を選択した場合、レビュアは削除されます。';
 $string['uneditableusers'] = 'あなたが編集できない %s アカウントを選択しました。アカウントはリストから取り除かれました。';
 $string['exportusersascsv'] = 'アカウントをCSVフォーマットでエクスポートする';
 $string['downloadusersascsv'] = 'CSVフォーマットのアカウント';
@@ -1207,6 +1208,12 @@ $string['allocated'] = '割り当て済み';
 $string['unallocated'] = '未割り当て';
 $string['currentverifiersovertime'] = '現在のレビュアの推移';
 $string['currentverifiers'] = '現在のレビュア';
+$string['manageportfoliosmethod'] = 'ポートフォリオを管理する';
+$string['filterportfolios'] = 'テンプレートでフィルタする';
+$string['locking_collection_locked'] = 'コレクション 「 %s 」 はロックされました。';
+$string['locking_collection_unlocked'] = 'コレクション 「 %s 」 はロック解除されました。';
+$string['locking_collection_verifier_add'] = 'レビュア「 %s 」 が追加されました。';
+$string['locking_collection_verifier_remove'] = 'レビュア「 %s 」 が削除されました。';
 $string['notificationssaved'] = '通知設定が保存されました。';
 $string['onlyshowingfirst'] = '最初に表示する';
 $string['resultsof'] = '検索結果';

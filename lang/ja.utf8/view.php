@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-04-10 08:08:24 UTC
+ * @updated    2024-06-07 05:13:31 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -54,7 +54,10 @@ $string['createtags'] = 'タグから作成する';
 $string['createtagsdesc1'] = 'あなたのページに自動的にコンテンツを取得するためタグを検索するか入力してください。あなたが2つ以上のタグを入力した場合、すべてのタグがタグ付けされたコンテンツのみページに表示されます。その後、あなたはブロックを再配置および削除できます。';
 $string['anonymise'] = '匿名化する';
 $string['anonymisedescription'] = 'ページの作成者としてのあなたの氏名を他の人から秘匿します。必要であれば管理者およびスタッフはあなたの氏名を確認できます。';
+$string['Lock'] = 'ロック';
+$string['Unlock'] = 'ロック解除';
 $string['Locked'] = 'ロック';
+$string['Unlocked'] = 'ロック解除';
 $string['lockedgroupviewdesc'] = 'あなたがこのページをロックした場合、グループ管理者のみ編集できます。';
 $string['profileviewtitle'] = 'プロファイルページ';
 $string['dashboardviewtitle'] = 'ダッシュボードページ';
