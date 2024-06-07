@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-06-07 05:13:31 UTC
+ * @updated    2024-06-07 08:42:09 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -148,6 +148,7 @@ $string['peer'] = 'ピア';
 $string['manager'] = 'マネージャ';
 $string['peermanager'] = 'ピアおよびマネージャ';
 $string['verifier'] = 'レビュア';
+$string['addverifier'] = 'レビュアを選択する';
 $string['invalidaccessroleforuser1'] = '「 %s 」の共有パーミッションが更新されましたが、正しい内部ロールがないため、「 %s 」ロールをあなたのポートフォリオ「 %s 」に対して受け取れません。あなたの管理者に連絡してその人に「 %s 」ロールを与えるための支援をご依頼ください。';
 $string['token'] = 'シークレットURL';
 $string['editsecreturlaccess'] = 'シークレットURLアクセスを編集する';
