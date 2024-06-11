@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2019-08-17 15:37:35 UTC
+ * @updated    2024-06-11 20:03:43 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,7 +18,7 @@ $string['description'] = '表示するプロファイル情報を選択してく
 $string['aboutme'] = '私について';
 $string['fieldstoshow'] = '表示するフィールド';
 $string['introtext'] = '自己紹介テキスト';
-$string['useintroductioninstead'] = '「自己紹介」を有効にしてこのフィールドを空白にすることであなたの「自己紹介」プロファイルフィールドを代わりに使用できます。';
+$string['useintroductioninstead'] = 'このフィールドを空白のまま有効にすることで、あなたの「自己紹介」プロファイルフィールドを代わりに使用できます。';
 $string['dontshowprofileicon'] = 'プロファイル画像を表示しません。';
 $string['dontshowemail'] = 'メールアドレスを表示しません。';
 $string['uploadaprofileicon'] = 'あなたにはプロファイル画像がありません。<a href="%sartefact/file/profileicons.php">アップロードしてください</a>。';
