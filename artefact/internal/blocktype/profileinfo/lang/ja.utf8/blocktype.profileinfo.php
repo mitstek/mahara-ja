@@ -22,7 +22,7 @@ $string['useintroductioninstead'] = 'このフィールドを空白のまま有�
 $string['dontshowprofileicon'] = 'プロファイル画像を表示しません。';
 $string['dontshowemail'] = 'メールアドレスを表示しません。';
 $string['uploadaprofileicon'] = 'あなたにはプロファイル画像がありません。<a href="%sartefact/file/profileicons.php">アップロードしてください</a>。';
-$string['noprofilesselectone'] = '選択されたプロファイルアイテムはありません。';
+$string['noprofilesselectone'] = 'プロファイルアイテムが選択されていません。';
 $string['dontshowsocialprofiles'] = 'ソーシャルメディアアカウントを表示しない';
 $string['showsocialprofiles'] = '選択したソーシャルメディアアカウントを表示する';
 
