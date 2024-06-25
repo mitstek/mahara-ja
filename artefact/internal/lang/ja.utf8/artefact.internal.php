@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-05-03 03:13:07 UTC
+ * @updated    2024-06-25 20:46:19 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,7 +19,7 @@ $string['mandatoryfields'] = '必須フィールド';
 $string['mandatoryfieldsdescription'] = '入力する必要のあるプロファイルフィールドです。';
 $string['searchablefields'] = '検索可能フィールド';
 $string['searchablefieldsdescription'] = '他の人が検索できるプロファイルフィールドです';
-$string['adminusersearchfields'] = '管理人検索';
+$string['adminusersearchfields'] = '管理「人検索」';
 $string['adminusersearchfieldsdescription'] = '管理「人検索」にカラムとして表示されるプロファイルフィールドです。';
 $string['aboutdescription'] = 'あなたの実際の姓名をここに入力してください。システム内の人に異なる名前を表示したい場合、あなたの表示名としてその名前を入力してください。';
 $string['infoisprivate'] = 'あなたが他の人と共有しているページに置かない限り、この情報は非公開となります。';
