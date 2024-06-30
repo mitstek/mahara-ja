@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-06-25 20:46:19 UTC
+ * @updated    2024-06-30 19:45:16 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -57,8 +57,8 @@ $string['jabber.input'] = 'Jabberユーザ名';
 $string['jabber'] = 'Jabber';
 $string['skype.input'] = 'Skypeユーザ名';
 $string['skype'] = 'Skype';
-$string['yahoo.input'] = 'Yahoo!メッセンジャー';
-$string['yahoo'] = 'Yahoo!メッセンジャー';
+$string['yahoo.input'] = 'Yahoo!メッセンジャ';
+$string['yahoo'] = 'Yahoo!メッセンジャ';
 $string['facebook.input'] = 'Facebook URL';
 $string['facebook'] = 'Facebook';
 $string['twitter.input'] = 'Twitterユーザ名';
