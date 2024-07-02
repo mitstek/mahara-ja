@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-06-30 19:45:16 UTC
+ * @updated    2024-07-02 23:01:40 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -116,7 +116,7 @@ $string['emailactivationfailed'] = 'メール有効化に失敗しました。';
 $string['emailactivationdeclined'] = 'メール有効化が正常に拒否されました。';
 $string['verificationlinkexpired'] = '検証リンクの有効期限が切れました。';
 $string['invalidemailaddress'] = '無効なメールアドレスです。';
-$string['unvalidatedemailalreadytaken'] = 'あなたが確認しようとしているメールアドレスはすでに取得されています。';
+$string['unvalidatedemailalreadytaken'] = 'あなたが確認しようとしているメールアドレスはすでに使用されています。';
 $string['addbutton'] = '追加';
 $string['cancelbutton'] = 'キャンセル';
 $string['emailingfailed'] = 'プロファイルが保存されましたが、次のメールアドレス宛にメール送信できませんでした: %s';
