@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-07-07 19:43:00 UTC
+ * @updated    2024-07-09 19:27:18 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -145,7 +145,7 @@ $string['containedin'] = '含まれる場所:';
 $string['currenttitle'] = 'タイトル';
 $string['notesdescription1'] = 'あなたのページのノートブロック内で作成したHTML形式のノートです。';
 $string['editnote'] = 'ノートを編集する';
-$string['confirmdeletenote'] = 'このノートは %d ブロックおよび %d ページで使用されています。あなたがノートを削除した場合、現在このテキストが含まれているすべてのブロックは空白になります。';
+$string['confirmdeletenote'] = 'このノートは %d ブロックおよび %d ページで使用されています。あなたがノートを削除した場合、現在このテキストが含まれるすべてのブロックは空白になります。';
 $string['notedeleted'] = 'ノートが削除されました。';
 $string['noteupdated'] = 'ノートが更新されました。';
 $string['html'] = 'ノート';
@@ -186,7 +186,7 @@ $string['deletethisprofile'] = 'ソーシャルメディアアカウントを削
 $string['deleteprofileconfirm'] = '本当にこのソーシャルメディアアカウントを削除してもよろしいですか?';
 $string['editthisprofile'] = 'ソーシャルメディアアカウントを編集する:「 %s 」';
 $string['newsocialprofile'] = '新しいソーシャルメディアアカウント';
-$string['notvalidprofileurl'] = 'これは有効なソーシャルプロファイルURLではありません。有効なURLを入力するか上記リストより適切なメッセージングサービスを選択してください。';
+$string['notvalidprofileurl'] = 'これは有効なソーシャルプロファイルURLではありません。有効なURLを入力するか、上のリストよりメッセージングサービスを選択してください。';
 $string['profiledeletedsuccessfully'] = 'ソーシャルメディアアカウントが正常に削除されました。';
 $string['profilesavedsuccessfully'] = 'ソーシャルメディアアカウントが正常に保存されました。';
 $string['socialprofilerequired'] = '少なくとも1つのソーシャルメディアアカウントが必要です。';
