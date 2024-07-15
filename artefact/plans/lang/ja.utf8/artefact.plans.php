@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-15 21:06:04 UTC
+ * @updated    2024-07-15 21:14:06 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,7 +17,7 @@ $string['pluginname'] = 'プラン';
 $string['groupplans'] = 'プラン';
 $string['canteditdontownplan'] = 'あなたの所有ではないためこのプランを編集できません。';
 $string['description'] = '説明';
-$string['deleteplanconfirm'] = '本当にこのプランを削除してもよろしいですか? このプランを削除することでプランの中に含まれるすべてのタスクも削除されます。';
+$string['deleteplanconfirm'] = '本当にこのプランを削除してもよろしいですか? このプランを削除した場合、プランに含まれるすべてのタスクも削除されます。';
 $string['deleteplan'] = 'プランを削除する';
 $string['deletethisplan'] = 'プランを削除する: %s';
 $string['editplan'] = 'プランを編集する';
