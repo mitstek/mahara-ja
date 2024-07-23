@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-07-21 20:12:54 UTC
+ * @updated    2024-07-23 19:52:05 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -50,7 +50,7 @@ $string['completed'] = '完了';
 $string['incomplete'] = '未完了';
 $string['overdue'] = '期限切れ';
 $string['completiondate'] = '完了予定日';
-$string['completiondatedescription'] = 'フォーマット %s を使用してください。テンプレートのデフォルト完了日はグループの編集可能終了日より取得されます。';
+$string['completiondatedescription'] = 'フォーマット %s を使用してください。テンプレートタスクの場合、デフォルト完了日はグループの編集可能終了日より取得されます。';
 $string['completeddesc'] = 'あなたのタスクを完了済みにします。';
 $string['deletetaskconfirm'] = '本当にこのタスクを削除してもよろしいですか?';
 $string['deletetask'] = 'タスクを削除する';
