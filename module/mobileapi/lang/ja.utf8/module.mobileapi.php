@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-08-28 01:08:02 UTC
+ * @updated    2024-07-24 22:07:02 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -40,3 +40,4 @@ $string['tokenmanuallycreated'] = '手動作成済み';
 $string['clientnotspecified'] = '(不明)';
 $string['generateusertoken'] = 'アプリアクセストークンを生成する';
 $string['appaccessrevoked'] = 'アクセス取り消し済み';
+$string['redirecting_mobile_token'] = 'あなたをMaharaモバイルにリダイレクトします。';
