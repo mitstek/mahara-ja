@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-04-16 22:10:18 UTC
+ * @updated    2024-07-28 19:48:14 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -43,7 +43,7 @@ $string['editingactivity'] = '活動を編集する';
 $string['myactivities'] = '活動';
 $string['newactivity'] = '新しい活動';
 $string['noactivities'] = '表示する活動はありません。';
-$string['noactivitiesaddone'] = 'まだ活動はありません。%s追加してください%s。';
+$string['noactivitiesaddone'] = 'まだ活動はありません。%s活動を追加してください%s。';
 $string['saveactivity'] = '活動を保存する';
 $string['activitytitle'] = '活動';
 $string['activity'] = '活動';
