@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-07-23 19:52:05 UTC
+ * @updated    2024-07-30 21:05:13 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -71,8 +71,8 @@ $string['ntasks'] = '%s タスク';
 $string['Grouptasks'] = 'グループタスク';
 $string['taskdeletedsuccessfully'] = 'タスクが正常に削除されました。';
 $string['tasksavedsuccessfully'] = 'タスクが正常に保存されました。';
-$string['selectionstatechangedpagereload'] = '選択状態が変更されました。現在の状態を表示するため、このページをリロードしてください。';
-$string['completedstatechangedpagereload'] = '完了状態が変更されました。現在の状態を表示するため、このページをリロードしてください。';
+$string['selectionstatechangedpagereload'] = '選択ステータスが変更されました。現在のステータスを表示するにはこのページをリロードしてください。';
+$string['completedstatechangedpagereload'] = '完了ステータスが変更されました。現在のステータスを表示するにはこのページをリロードしてください。';
 $string['noselectiontask'] = 'これは課題タスクではありません。';
 $string['ownerfieldsnotset'] = 'オーナフィールドが設定されていません。';
 $string['unsupportedportfoliotype'] = 'これはサポートされないポートフォリオタイプです。';
