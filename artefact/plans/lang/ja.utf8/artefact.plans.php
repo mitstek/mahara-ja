@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-08-04 20:19:11 UTC
+ * @updated    2024-08-07 00:31:17 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -91,7 +91,7 @@ $string['showassignedview'] = 'タスクプレビュー';
 $string['showassignedoutcome'] = 'ポートフォリオプレビュー';
 $string['editassignedoutcome'] = 'ポートフォリオを開く';
 $string['submitassignedoutcome'] = '評価のために送信する';
-$string['outcomeiscurrentlysubmitted'] = '現在、このポートフォリオは評価のため送信されています。';
+$string['outcomeiscurrentlysubmitted'] = '現在、このポートフォリオは評価のために送信されています。';
 $string['template'] = 'テンプレート';
 $string['templatedescription'] = 'このプランをグループプラン作成時のテンプレートとして使用します。';
 $string['startdate'] = '開始日';
