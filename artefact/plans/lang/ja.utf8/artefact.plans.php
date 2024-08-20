@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-08-18 22:29:23 UTC
+ * @updated    2024-08-20 20:17:03 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -123,7 +123,7 @@ $string['reminderinfodue'] = '期限切れまで %s 日';
 $string['emailfooter'] = 'これは %s から自動生成された通知です。';
 $string['youhaveremindertasksmessagetext'] = '%s さん、こんにちは。
 
-私たちはあなたに次のプランタスクの完了を希望しています。
+私たちはあなたに次のプランタスクの完了を希望します:
 
 %s
 
