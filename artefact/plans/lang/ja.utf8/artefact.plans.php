@@ -122,7 +122,7 @@ $string['reminderinfodue'] = '期限切れまで %s 日';
 $string['emailfooter'] = 'これは %s から自動生成された通知です。';
 $string['youhaveremindertasksmessagetext'] = '%s さん、こんにちは。
 
-私たちはあなたに次のプランタスクの完了を希望しています。
+私たちはあなたに次のプランタスクの完了を希望します:
 
 %s
 
