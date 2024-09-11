@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-08-22 23:08:53 UTC
+ * @updated    2024-09-11 04:28:14 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -227,6 +227,7 @@ $string['groupnotfound'] = 'ID %s のグループは見つかりませんでし�
 $string['groupnotfoundname'] = 'グループ「 %s 」は見つかりませんでした。';
 $string['groupconfirmleave'] = '本当にこのグループから離脱してもよろしいですか?';
 $string['groupconfirmuserremove'] = '本当にこのグループメンバを削除してもよろしいですか?';
+$string['removememberfromgroup'] = 'このグループから %s %s を削除する';
 $string['cantleavegroup'] = 'あなたはこのグループから離脱できません。';
 $string['usercantleavegroup'] = 'このグループメンバはこのグループから離脱できません。';
 $string['usercannotchangetothisrole'] = 'このグループメンバはこのロールに変更できません。';
