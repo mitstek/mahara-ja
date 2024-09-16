@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-05-16 07:23:27 UTC
+ * @updated    2024-09-16 01:18:05 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -420,3 +420,4 @@ $string['viewnotsubmitted'] = '%s (ID: %s) は送信されていません。';
 $string['viewnotsubmittedtothishost'] = '%s (ID: %s) はホスト「 %s 」に送信されていません。';
 $string['exporttypenotavailable'] = 'エクスポートメソッド「 %s 」は利用できません。そのメソッドが有効であるか確認してください。';
 $string['deprecatedproto'] = '%s プロトコルは非推奨であり、将来のリリースで削除される予定です。別のプロトコルを使用するようあなたのウェブサービスを変換してください。';
+$string['noreturn'] = 'このウェブサービスのコールからは何も返されませんでした。';

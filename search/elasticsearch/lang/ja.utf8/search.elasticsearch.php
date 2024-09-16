@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-12-19 23:10:07 UTC
+ * @updated    2024-09-16 01:04:15 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -30,7 +30,7 @@ $string['clusterstatus'] = 'Elasticsearchクラスタに問題があります。
 $string['collection'] = 'コレクション';
 $string['confignotset'] = '(未設定)';
 $string['contains'] = '含む';
-$string['createdby'] = '作成者: %s';
+$string['createdby1'] = '作成者: <a href="%s">%s</a>';
 $string['createdbyanon'] = '作成者 (作成者名秘匿)';
 $string['cronlimit'] = 'cronレコード制限';
 $string['cronlimitdescription'] = 'それぞれのcron実行に関してキューからElasticsearchサーバに渡される最大レコード数です (無制限の場合、空白またはゼロにしてください)。';
@@ -68,7 +68,7 @@ $string['none'] = 'なし';
 $string['noticeenabled'] = '現在、Elasticsearchプラグインは有効にされています。Elasticsearchプラグインを無効にするには<a href="%s">検索設定</a>で選択解除してください。';
 $string['noticenotactive'] = 'ホスト: %s およびポート %s のElasticsearchサーバにアクセスできません。動作しているか確認してください。';
 $string['noticenotenabled'] = '現在、Elasticsearchプラグインは有効にされていません。Elasticsearchプラグインを有効にするには<a href="%s">検索設定</a>で選択してください。';
-$string['ownedbygroup'] = '作成グループ: %s';
+$string['ownedbygroup1'] = '作成グループ: <a href="%s">%s</a>';
 $string['owner'] = 'オーナ';
 $string['page'] = 'ページ';
 $string['pages'] = 'ページ';
