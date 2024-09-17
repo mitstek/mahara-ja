@@ -56,8 +56,8 @@ $string['usernameinvalidform'] = 'ユーザ名には半角英数字および標�
 $string['usernameinvalidadminform'] = 'ユーザ名には半角英数字および標準的な記号を使用できます。ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
 $string['youmaynotregisterwithouttandc'] = '<a href="#user_acceptterms">利用条件</a>に同意しない限り、あなたは登録できません。';
 $string['confirmcancelregistration'] = '本当にこの登録をキャンセルしてもよろしいですか? キャンセルの結果としてあなたのリクエストがシステムから削除されます。';
-$string['confirmemailsubject'] = '%s 登録のメール確認';
-$string['approvalemailsubject'] = '%s 登録リクエスト受信';
+$string['confirmemailsubject'] = '%s 登録メール確認';
+$string['approvalemailsubject'] = '%s 登録リクエスト受理';
 $string['approvalemailmessagetext'] = '%s さん
 
 %s へのアカウントリクエストありがとうございます。あなたの申請に関してインスティテューション管理者宛に通知されました。申請内容が確認され次第、あなた宛に別のメールが送信されます。
