@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-09-17 23:48:59 UTC
+ * @updated    2024-09-23 01:02:15 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -67,7 +67,7 @@ $string['approvalemailmessagehtml'] = '<p>%s さん</p>
 $string['emailconfirmedok'] = '<p>正常にあなたのメールを確認しました。まもなく登録詳細に関してあなた宛にメールが送信されます。</p>';
 $string['registrationcancelledok'] = 'あなたは正常に登録申請をキャンセルしました。';
 $string['registrationconfirm'] = '登録を承認しますか?';
-$string['registrationconfirmdescription'] = 'インスティテューション管理者により登録が承認される必要があります。';
+$string['registrationconfirmdescription'] = '登録にはインスティテューション管理者の承認が必要です。';
 $string['registrationdeniedemailsubject'] = '%s への登録却下';
 $string['registrationdeniedmessage'] = '%s さん、こんにちは。
 
