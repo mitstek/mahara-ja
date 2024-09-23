@@ -72,7 +72,7 @@ $string['approvalemailmessagehtml'] = '<p>%s さん</p>
 $string['emailconfirmedok'] = '<p>正常にあなたのメールを確認しました。まもなく登録詳細に関してあなた宛にメールが送信されます。</p>';
 $string['registrationcancelledok'] = 'あなたは正常に登録申請をキャンセルしました。';
 $string['registrationconfirm'] = '登録を承認しますか?';
-$string['registrationconfirmdescription'] = 'インスティテューション管理者により登録が承認される必要があります。';
+$string['registrationconfirmdescription'] = '登録にはインスティテューション管理者の承認が必要です。';
 $string['registrationdeniedemailsubject'] = '%s への登録却下';
 $string['registrationdeniedmessage'] = '%s さん、こんにちは。
 
