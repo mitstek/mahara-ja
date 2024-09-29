@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-09-25 07:05:10 UTC
+ * @updated    2024-09-29 19:43:46 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -87,7 +87,7 @@ $string['registrationdeniedmessagereason'] = '%s さん、こんにちは。
 %s';
 $string['registeredokawaitingemail2'] = 'あなたの登録申請が正常に送信されました。インスティテューション管理者に通知されました。申請が処理され次第、あなた宛にメールが送信されます。';
 $string['registrationreason'] = '登録理由';
-$string['registrationreasondesc1'] = 'あなたが選択したインスティテューションへの登録申請理由および管理者があなたの申請を処理することに関して有益であると思われる詳細を記述してください。';
+$string['registrationreasondesc1'] = 'あなたが選択したインスティテューションへの登録申請理由および管理者があなたの申請を処理する上で有益であると思われる詳細を記述してください。';
 $string['pendingregistrationadminemailsubject'] = 'インスティテューション「 %s 」( %s )への新しいアカウント登録';
 $string['pendingregistrationadminemailtext'] = '%s さん、こんにちは。
 
