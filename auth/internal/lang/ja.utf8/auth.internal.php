@@ -102,7 +102,7 @@ $string['registrationdeniedmessagereason'] = '%s さん、こんにちは。
 %s';
 $string['registeredokawaitingemail2'] = 'あなたの登録申請が正常に送信されました。インスティテューション管理者に通知されました。申請が処理され次第、あなた宛にメールが送信されます。';
 $string['registrationreason'] = '登録理由';
-$string['registrationreasondesc1'] = 'あなたが選択したインスティテューションへの登録申請理由および管理者があなたの申請を処理することに関して有益であると思われる詳細を記述してください。';
+$string['registrationreasondesc1'] = 'あなたが選択したインスティテューションへの登録申請理由および管理者があなたの申請を処理する上で有益であると思われる詳細を記述してください。';
 $string['pendingregistrationadminemailsubject'] = 'インスティテューション「 %s 」( %s )への新しいユーザ登録';
 $string['pendingregistrationadminemailtext'] = '%s さん、こんにちは。
 
