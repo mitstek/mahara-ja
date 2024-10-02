@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-09-11 03:17:45 UTC
+ * @updated    2024-10-02 23:31:27 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -161,25 +161,27 @@ $string['manageskins'] = 'スキンを管理する';
 $string['sitefontsmenu'] = 'フォント';
 $string['sitefonts'] = 'フォント';
 $string['sitefontsdescription'] = 'あなたのサイトのスキンで使用するため以下のフォントがインストールされています。';
-$string['installfontinstructions2'] = '<p>
+$string['installfontinstructions3'] = '<p>
 ウェブページに埋め込めるフォントをCSS @font-faceルールに準拠した形で追加してください。すべての作者/開発者がこれを許可するわけではないことに留意してください。
 </p>
 <p>
 ウェブページへの埋め込みが許可された適切なフリーフォントを探せた場合、あなたは次のフォーマットに変換する必要があります:
-<br />TrueTypeフォント、Embedded OpenTypeフォント、Web Open Font FormatフォントおよびScalable Vector Graphicフォント。
+<br />TrueTypeフォント (TTF)、Embedded OpenTypeフォント (EOT)、Web Open Font Formatフォント (WOFF) およびScalable Vector Graphicフォント (SVG)。
 </p>
 <p>
 あなたは変換に<a href="https://www.fontsquirrel.com/tools/webfont-generator/">FontSquirrel Online Generator</a>を利用できます。
 </p>
 <p>
 また、あなたは次の手順でGoogleフォントをインストールできます:
+<p>あなたは以下の手順でGoogleフォントをインストールできます:</p>
 <ol>
-<li><a href="https://gwfh.mranftl.com">Google webfonts helper</a>にアクセスしてください。ご自分の責任でこの操作を実行してください。このサービスはGoogle Fontsにより提供されているものではありません。</li>
-<li>あなたに表示されているフォントを選択してください。</li>
-<li>あなたに必要な文字セットを選択してください。</li>
-<li>あなたが有効にしたいスタイルを選択してください。</li>
-<li>ページのステップ4で生成されたZIPファイルをダウンロードしてください。</li>
-<li>そのZIPファイルをこのフォームでアップロードしてください。</li>
+<li><a href="https://gwfh.mranftl.com">Google webfonts helper</a>にアクセスしてください。これをあなたの自己責任で実施してください。このサービスはGoogle Fontsが提供するものではありません。</li>
+<li>あなたが探しているフォントを選択してください。</li>
+<li>ステップ1で必要な文字セットを選択してください。</li>
+<li>ステップ2で利用可能にしたいスタイルを選択してください。</li>
+<li>ステップ3で「Historic Support」を選択した後、アップロードが必要なすべてのフォントファイルを取得してください。</li>
+<li>ステップ4で生成されたフォントのZIPファイルをダウンロードしてください。</li>
+<li>そのZIPファイルをこのフォームにアップロードしてください。</li>
 </ol>
 </p>';
 $string['nofonts'] = 'フォントがありません。';
@@ -213,8 +215,7 @@ $string['bolditalic'] = '太字イタリック';
 $string['fonttype'] = 'フォントタイプ';
 $string['headingandtext'] = 'ヘッディングおよびテキスト';
 $string['headingonly'] = 'ヘッディングのみ';
-$string['fontuploadinstructions'] = '<br />必要なフォントファイルをアップロードする場合、あなたは<a href="https://www.fontsquirrel.com/tools/webfont-generator/">FontSquirrel Online Generator</a>で生成されたZIPファイルを直接アップロードするか、
-<br />EOT、SVG、TTF、WOFFおよびライセンスファイルを個別にアップロードできます。';
+$string['fontuploadinstructions2'] = '<br />必要なフォントファイルをアップロードする場合、あなたは上の手順で生成されたZIPファイルをアップロードするか、<br />EOT、SVG、TTF、WOFFおよびライセンスファイルを個別にアップロードできます。';
 $string['fontfiles'] = 'フォントファイル';
 $string['fontfilemissing'] = 'ZIPファイルに「 %s 」フォントファイルが含まれていません。';
 $string['zipfontfiles'] = 'ZIPアーカイブ内のフォントファイル';
