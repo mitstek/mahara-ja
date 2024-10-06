@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-10-01 22:21:49 UTC
+ * @updated    2024-10-06 19:19:24 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -49,13 +49,13 @@ $string['nocreatemissinggroups'] = 'まだインスティテューションにLD
 $string['nomatchingauths'] = 'このインスティテューションのLDAP認証プラグインは見つかりませんでした。';
 $string['starttls'] = 'TLS暗号化';
 $string['password'] = 'パスワード';
-$string['searchcontexts'] = 'これらのコンテクストにおける検索を制限します (認証プラグインで設定された値をオーバライドします)。';
+$string['searchcontexts'] = 'これらのコンテクストでの検索を制限します (認証プラグインで設定された値をオーバライドします)。';
 $string['searchsubcontexts'] = 'サブコンテクストを検索する';
 $string['searchsubcontextscliparam'] = 'サブコンテクスト内で (1) または (0) ではないものを検索します (認証プラグインで設定された値をオーバライドします)。';
 $string['syncgroupsautocreate'] = '未作成のグループを自動作成する';
 $string['syncgroupsbyclass'] = 'LDAPオブジェクトとして保存されているグループを同期する';
 $string['syncgroupsbyuserfield'] = 'ユーザ属性として保存されているグループを同期する';
-$string['syncgroupscontexts'] = 'これらのコンテクストのみ同期する';
+$string['syncgroupscontexts'] = 'これらのコンテクストでのみ同期する';
 $string['syncgroupscontextsdesc'] = 'ユーザ認証コンテクストをデフォルトとするには空白のままにしてください。';
 $string['syncgroupscron'] = 'cronジョブでグループを自動同期する';
 $string['syncgroupsexcludelist'] = 'これらの名称のLDAPグループを除く';
