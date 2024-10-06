@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-02-04 22:30:37 UTC
+ * @updated    2024-10-06 21:45:59 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -235,3 +235,4 @@ $string['submittedstatus'] = '現在の提出ステータス';
 $string['submissionoriginal'] = '取得元オリジナルポートフォリオ提出のID';
 $string['liteexporttype'] = '使用するエクスポートタイプです。有効なオプションは「htmllite」または「pdflite」です。';
 $string['fileurl'] = 'ZIPファイルを取得するダウンロードURLです。注意: あなたがファイルをダウンロードするには有効なウェブサービストークンを提供する必要があります。';
+$string['errorincorrectexporttype'] = 'エクスポートタイプ「 %s 」のパラメータ値が正しくありません。';
