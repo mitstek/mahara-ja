@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-04-09 01:53:25 UTC
+ * @updated    2024-10-14 02:48:53 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,8 +18,8 @@ $string['title'] = 'OpenID Connect';
 $string['description'] = 'OpenID Connectで認証する';
 $string['login'] = 'OpenID Connect';
 $string['errorauthnoauthcode'] = '認証コードを受信していません。';
-$string['errorauthnocreds'] = 'OpenID Connectクライアントの認証情報を設定してください。';
-$string['errorauthnoendpoints'] = 'OpenID Connectサーバのエンドポイントを設定してください。';
+$string['errorauthnocreds'] = 'OpenID Connectクライアント認証情報を設定してください。';
+$string['errorauthnoendpoints'] = 'OpenID Connectサーバエンドポイントを設定してください。';
 $string['errorauthinvalididtoken'] = '無効なid_tokenを受信しました。';
 $string['errorauthnoidtoken'] = 'OpenID Connect id_tokenを受信していません。';
 $string['errorauthunknownstate'] = '不明なステータス';
