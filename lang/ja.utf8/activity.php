@@ -75,7 +75,7 @@ $string['ongroup'] = 'グループ:';
 $string['ownedby'] = 'オーナ:';
 $string['objectionablecontentview'] = 'ページ「 %s 」の好ましくないコンテンツ - 報告者: %s';
 $string['objectionablecontentviewartefact'] = 'ページ「 %s (%s) 」の好ましくないコンテンツ - 報告者: %s';
-$string['objectionablecontentviewhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」の好ましくないコンテンツ - 報告者: %s<strong></strong><br />%s</div>
+$string['objectionablecontentviewhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」の好ましくないコンテンツ - 報告者: %s<strong></strong><br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
@@ -93,7 +93,7 @@ $string['objectionablecontentviewtext'] = '「 %s 」の好ましくないコン
 %s
 報告者のプロファイルを閲覧するには次のリンクにアクセスしてください:
 %s';
-$string['objectionablecontentviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「  %s (%s)  」の好ましくないコンテンツ - 報告者: %s<strong></strong><br />%s</div>
+$string['objectionablecontentviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「  %s (%s)  」の好ましくないコンテンツ - 報告者: %s<strong></strong><br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
@@ -113,7 +113,7 @@ $string['objectionablecontentviewartefacttext'] = '「  %s (%s)  」の好まし
 %s';
 $string['objectionablereviewview'] = 'ページ「 %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュ';
 $string['objectionablereviewviewartefact'] = 'ページ「 %s - %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュ';
-$string['objectionablereviewviewhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュ<br />%s</div>
+$string['objectionablereviewviewhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュ<br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
@@ -132,7 +132,7 @@ $string['objectionablereviewviewtext'] = '「 %s 」の好ましくないコン�
 %s
 オーナのプロファイルを閲覧するには次のリンクにアクセスしてください:
 %s';
-$string['objectionablereviewviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s - %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュ<br />%s</div>
+$string['objectionablereviewviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s - %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュ<br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
