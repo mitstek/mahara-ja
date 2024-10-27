@@ -261,18 +261,18 @@ $string['groupmemberaverage'] = 'それぞれのユーザは平均 %s のグル�
 $string['viewsperuser'] = 'ページを作成したユーザはそれぞれ約 %s ページを所有しています。';
 $string['Cron'] = 'cron';
 $string['runningnormally'] = '正常動作';
-$string['cronnotrunning2'] = '<strong class="error text-danger">cronは動作していません。</strong><br />cronの設定に関するインストラクションは<a href="https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronを設定している場合、直近の1つまたはそれ以前の処理が正しく実行されませんでした。';
-$string['cronnotrunningsiteclosed1'] = '<strong class="error text-danger">cronは動作していません。</strong><br />現在、サイトはクローズされています。cronを実行するにはサイトを再度オープンしてください。';
+$string['cronnotrunning2'] = '<strong class="error text-danger">cronは動作していません。</strong><br>cronの設定に関するインストラクションは<a href="https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronを設定している場合、直近の1つまたはそれ以前の処理が正しく実行されませんでした。';
+$string['cronnotrunningsiteclosed1'] = '<strong class="error text-danger">cronは動作していません。</strong><br>現在、サイトはクローズされています。cronを実行するにはサイトを再度オープンしてください。';
 $string['Loggedin'] = 'ログイン';
 $string['youraverageuser'] = 'あなたの平均的なユーザ ...';
-$string['statsmaxfriends1'] = 'フレンド数: %2$s<br />(<a href="%3$s">%4$s には最大 %1$d 人のフレンドがいます</a>)';
+$string['statsmaxfriends1'] = 'フレンド数: %2$s<br>(<a href="%3$s">%4$s には最大 %1$d 人のフレンドがいます</a>)';
 $string['statsnofriends'] = 'フレンド数: 0';
-$string['statsmaxviews1'] = '作成ページ数: %2$s<br />(<a href="%3$s">%4$s は最大 %1$d ページを所有しています</a>)';
+$string['statsmaxviews1'] = '作成ページ数: %2$s<br>(<a href="%3$s">%4$s は最大 %1$d ページを所有しています</a>)';
 $string['statsnoviews'] = '作成ページ数: 0';
-$string['statsmaxgroups1'] = '所属グループ数: %2$s<br />(<a href="%3$s">%4$s は最大 %1$d のグループに属しています</a>)';
+$string['statsmaxgroups1'] = '所属グループ数: %2$s<br>(<a href="%3$s">%4$s は最大 %1$d のグループに属しています</a>)';
 $string['statsnogroups'] = '所属グループ数: 0';
 $string['statsnoquota'] = 'ストレージ未使用';
-$string['statsmaxquotaused1'] = 'ディスククオータ使用: %s<br />(<a href="%s">%s は最大 %s のディスククオータを使用しています</a>)';
+$string['statsmaxquotaused1'] = 'ディスククオータ使用: %s<br>(<a href="%s">%s は最大 %s のディスククオータを使用しています</a>)';
 $string['groupcountsbytype'] = 'グループタイプ別グループ数';
 $string['groupcountsbyjointype'] = 'アクセスタイプ別グループ数';
 $string['blockcountsbytype'] = 'ポートフォリオページで使用頻度の高いブロック';
@@ -414,7 +414,7 @@ $string['sitelanguagedescription'] = 'サイトのデフォルトの言語です
 $string['sitecountrydescription'] = 'サイトのデフォルトの国です。';
 $string['sitename'] = 'サイト名';
 $string['sitenamedescription'] = 'サイト名はサイトの特定の場所およびサイトから送信されるメールに表示されます。';
-$string['siteoptionspagedescription'] = 'ここであなたはサイト全体にデフォルトとして適用されるグローバルオプションを設定できます。<br />メモ: 無効にされたオプションはあなたのconfig.phpファイルでオーバーライドできます。';
+$string['siteoptionspagedescription'] = 'ここであなたはサイト全体にデフォルトとして適用されるグローバルオプションを設定できます。<br>メモ: 無効にされたオプションはあなたのconfig.phpファイルでオーバーライドできます。';
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['sitethemedescription'] = 'サイトのデフォルトテーマです。あなたのテーマがリストにない場合、エラーログを確認してください。';
 $string['skins'] = 'ページスキン';
@@ -588,7 +588,7 @@ $string['emailnoreplyaddressdescription'] = 'このメールアドレスから�
 $string['internalnotificationexpire'] = '内部通知有効期限';
 $string['internalnotificationexpiredescription'] = '内部通知を保持する日数です。';
 $string['notificationsettings'] = '通知設定';
-$string['notificationsettingsdescription'] = 'ここであなたは新しいユーザが受信する通知のデフォルトオプションを設定できます。ユーザはこれらの設定を自分の「設定 → 通知」ページでオーバーライドできます。<br />あなたがメールオプションのどちらかを選択した場合、通知はユーザの受信ボックスにも到着しますが自動的に既読マークされます。';
+$string['notificationsettingsdescription'] = 'ここであなたは新しいユーザが受信する通知のデフォルトオプションを設定できます。ユーザはこれらの設定を自分の「設定 → 通知」ページでオーバーライドできます。<br>あなたがメールオプションのどちらかを選択した場合、通知はユーザの受信ボックスにも到着しますが自動的に既読マークされます。';
 $string['csvfile'] = 'CSVファイル';
 $string['emailusersaboutnewaccount'] = 'ユーザにアカウント情報をメール送信する';
 $string['emailusersaboutnewaccountdescription'] = 'この設定を有効にした場合、新しいアカウント詳細情報がユーザにメール送信されます。';
@@ -708,7 +708,7 @@ $string['bulkleap2aimport'] = 'Leap2Aファイルからユーザをインポー�
 $string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある複数のLeap2Aファイルからユーザを一度にインポートできます。あなたはサーバのファイルシステムにあるすべてのLeap2A ZIPファイルおよびユーザ名をファイル名にマッピングしたusernames.csvと呼ばれる単一CSVファイルを含むZIPファイルを指定する必要があります。</p>
 <p>usernames.csvは以下のようになります:</p>
 <pre>
-&nbsp;&nbsp;bob,mahara-export-leap-user8-1265165366.zip<br />
+&nbsp;&nbsp;bob,mahara-export-leap-user8-1265165366.zip<br>
 &nbsp;&nbsp;nigel,mahara-export-leap-user1-1266458159.zip
 </pre>
 <p>上記、mahara-export-leap-user8-1265165366.zipおよびmahara-export-leap-user1-1266458159.zipはusersと呼ばれるサブディレクトリ内にあるファイルです。</p>
@@ -1043,7 +1043,7 @@ $string['suspendinstitution'] = 'インスティテューションを利用停�
 $string['suspendinstitutiondescription'] = 'ここであなたはインスティテューションを利用停止できます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまでログインできません。';
 $string['suspendedinstitutionmessage'] = 'このインスティテューションは利用停止されています。';
 $string['unsuspendinstitution'] = 'インスティテューションの利用停止を解除する';
-$string['unsuspendinstitutiondescription'] = 'ここであなたはインスティテューションの利用停止を解除できます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまでログインできません。<br /><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止されることになります。';
+$string['unsuspendinstitutiondescription'] = 'ここであなたはインスティテューションの利用停止を解除できます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまでログインできません。<br><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止されることになります。';
 $string['unsuspendinstitutiondescription_warning'] = '<strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止されることになります。';
 $string['unsuspendinstitutiondescription_instadmin'] = '利用停止されたインスティテューションのユーザはログインできません。インスティテューションの利用停止を解除するには管理者にご連絡ください。';
 $string['bulkexport'] = 'ユーザをエクスポートする';
