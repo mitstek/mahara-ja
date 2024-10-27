@@ -144,7 +144,7 @@ $string['addaccessinstitution'] = 'インスティテューション「 %s 」�
 $string['addaccessgroup'] = 'グループ「 %s 」へのアクセスを追加する';
 $string['submitconfirm'] = '評価のために「 %s 」を「 %s 」に送信した場合、チュータが評価を終えるまであなたはコンテンツを編集できません。本当に今すぐ送信してもよろしいですか?';
 $string['collectionsubmitted'] = 'コレクションが送信されました。';
-$string['viewsalreadysubmitted'] = 'このコレクション内の一部のページはすでに送信されています:<br />%s<br />それらのページがリリースされるまであなたはコレクションを送信できません。';
+$string['viewsalreadysubmitted'] = 'このコレクション内の一部のページはすでに送信されています:<br>%s<br>それらのページがリリースされるまであなたはコレクションを送信できません。';
 $string['submitviewtogroup'] = '評価のため「 %s 」を「 %s 」に送信する';
 $string['cantsubmitviewtogroup'] = 'あなたは評価を目的としてこのページをこのグループに送信できません。';
 $string['cantsubmitcollectiontogroup'] = 'あなたはこのコレクションを送信できません。';
@@ -153,7 +153,7 @@ $string['cantdeleteview'] = 'あなたはこのページを削除できません
 $string['deletespecifiedview'] = 'ページ「 %s 」を削除する';
 $string['deleteviewconfirm1'] = '本当にこのページを削除してもよろしいですか? 元に戻せません。';
 $string['deleteviewconfirmbackup'] = '<a href="%sexport/" target="_blank">エクスポート</a>によるこのページのバックアップ作成をご検討ください。';
-$string['deleteviewconfirmnote1'] = '<strong>注意:</strong> このページにリンクしたすべてのファイルおよび日誌を利用することはできます。<br />しかし、このページに投稿されたすべてのフィードバックは削除されます。';
+$string['deleteviewconfirmnote1'] = '<strong>注意:</strong> このページにリンクしたすべてのファイルおよび日誌を利用することはできます。<br>しかし、このページに投稿されたすべてのフィードバックは削除されます。';
 $string['deleteviewconfirmnote2'] = 'このページはコレクション<a href="%s">「 %s 」</a>の一部です。';
 $string['editaccesspagedescription3'] = 'デフォルトではあなたのページをあなたのみ閲覧できます。このページにアクセスルールを追加することであなたは他のユーザとページを共有できます。アクセスルールを追加した後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editaccessdescription'] = 'あなたは複数アイテムをチェックボックスで選択して同じ設定にできます。選択完了後、続けるにはスクロールダウンして「保存」をクリックしてください。';
@@ -198,7 +198,7 @@ $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除し
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
 $string['blockconfigurationrenderingerror'] = 'ブロックを表示できなかったため設定に失敗しました。';
 $string['blocksintructionnoajax'] = 'あなたのページに追加するブロックおよび場所を選択してください。あなたはタイトルバーの矢印ボタンを使ってブロックの配置を変更できます。';
-$string['blocksinstructionajax'] = 'このエリアではあなたのページがどのように表示されるかプレビューを表示します。<br />あなたのページレイアウトにブロックを追加するにはこの行の下にドラッグしてください。あなたのページ内でドラッグすることでブロックの配置を変更できます。';
+$string['blocksinstructionajax'] = 'このエリアではあなたのページがどのように表示されるかプレビューを表示します。<br>あなたのページレイアウトにブロックを追加するにはこの行の下にドラッグしてください。あなたのページ内でドラッグすることでブロックの配置を変更できます。';
 $string['addblock'] = 'ブロックを追加する: %s';
 $string['blockcell'] = 'セル';
 $string['cellposition'] = '行 %s カラム %s';
