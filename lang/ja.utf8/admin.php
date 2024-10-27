@@ -235,7 +235,7 @@ $string['sitelanguagedescription'] = 'サイトのデフォルトの言語です
 $string['sitecountrydescription'] = 'サイトのデフォルトの国です。';
 $string['sitename'] = 'サイト名';
 $string['sitenamedescription'] = 'サイト名はサイトの特定の場所およびサイトから送信されるメールに表示されます。';
-$string['siteoptionspagedescription'] = 'ここであなたはサイト全体にデフォルトとして適用されるグローバルオプションを設定できます。<br />メモ: 無効にされたオプションはあなたのconfig.phpファイルでオーバーライドできます。';
+$string['siteoptionspagedescription'] = 'ここであなたはサイト全体にデフォルトとして適用されるグローバルオプションを設定できます。<br>メモ: 無効にされたオプションはあなたのconfig.phpファイルでオーバーライドできます。';
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['sitethemedescription'] = 'サイトのデフォルトテーマです。';
 $string['smallviewheaders'] = 'スモールビューページヘッダ';
@@ -380,7 +380,7 @@ $string['bulkleap2aimport'] = 'Leap2Aファイルからユーザをインポー�
 $string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある複数のLeap2Aファイルからユーザを一度にインポートできます。あなたはサーバのファイルシステムにあるすべてのLeap2A ZIPファイルおよびユーザ名をファイル名にマッピングしたusernames.csvと呼ばれる単一CSVファイルを含むZIPファイルを指定する必要があります。</p>
 <p>usernames.csvは以下のようになります:</p>
 <pre>
-&nbsp;&nbsp;bob,mahara-export-leap-user8-1265165366.zip<br />
+&nbsp;&nbsp;bob,mahara-export-leap-user8-1265165366.zip<br>
 &nbsp;&nbsp;nigel,mahara-export-leap-user1-1266458159.zip
 </pre>
 <p>上記、mahara-export-leap-user8-1265165366.zipおよびmahara-export-leap-user1-1266458159.zipはusersと呼ばれるサブディレクトリ内にあるファイルです。</p>
@@ -573,7 +573,7 @@ $string['suspendinstitution'] = 'インスティテューションを利用停�
 $string['suspendinstitutiondescription'] = 'ここであなたはインスティテューションを利用停止できます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまでログインできません。';
 $string['suspendedinstitutionmessage'] = 'このインスティテューションは利用停止されています。';
 $string['unsuspendinstitution'] = 'インスティテューションの利用停止を解除する';
-$string['unsuspendinstitutiondescription'] = 'ここであなたはインスティテューションの利用停止を解除できます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまでログインできません。<br /><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止されることになります。';
+$string['unsuspendinstitutiondescription'] = 'ここであなたはインスティテューションの利用停止を解除できます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまでログインできません。<br><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止されることになります。';
 $string['unsuspendinstitutiondescription_top'] = '<strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止されることになります。';
 $string['unsuspendinstitutiondescription_top_instadmin'] = '利用停止されたインスティテューションのユーザはログインできません。インスティテューションの利用停止を解除するには管理者にご連絡ください。';
 $string['bulkexport'] = 'ユーザをエクスポートする';
