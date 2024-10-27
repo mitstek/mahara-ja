@@ -250,12 +250,12 @@ $string['timeleftnoticeexpired'] = '編集時間が終了しました。あな�
 $string['timeleftnoticeexpiredmoderator'] = 'あなたの変更は編集通知とともに保存されます。';
 $string['objectionablecontentpost'] = 'フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者: %s';
 $string['objectionablecontentposthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者:%s
-<br />%s</div>
+<br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
 <div style="padding: 0.5em 0; border-bottom: 1px solid #999;">好ましくない投稿コンテンツは次のとおりです:
-<br />%s</div>
+<br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
@@ -316,7 +316,7 @@ $string['rejectedpostbody'] = '%s が %s による承認待ちの投稿を確認
 投稿コンテンツは次のとおりです:
 %s';
 $string['rejectedposthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">フォーラム「 %s 」のフォーラム投稿が拒否されました。
-<br />%s</div>
+<br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
