@@ -428,7 +428,7 @@ $string['accountinactivewarninghtml1'] = '<p>%s さん</p>
 <p>サイトにログインすることであなたのアカウントが無効になることを防げます。</p>
 
 <p>%s サイト管理者</p>';
-$string['accountsuspended'] = '%s 現在、あなたのアカウントは利用停止されています。<br />あなたの利用停止理由は次のとおりです: %s';
+$string['accountsuspended'] = '%s 現在、あなたのアカウントは利用停止されています。<br>あなたの利用停止理由は次のとおりです: %s';
 $string['youraccounthasbeensuspended'] = 'あなたのアカウントが利用停止されました。';
 $string['youraccounthasbeenunsuspended'] = 'あなたのアカウントの利用停止が解除されました。';
 $string['changepasswordinfo'] = '開始するにはあなたのパスワードを変更する必要があります。';
@@ -475,7 +475,7 @@ $string['username'] = 'ユーザ名';
 $string['preferredname'] = '表示名';
 $string['usernamehelp'] = 'あなたがこのシステムにアクセスするために付与されたユーザ名です。';
 $string['youaremasqueradingas'] = 'あなたは %s としてログインしています。';
-$string['yournewpassword1'] = 'あなたの新しいパスワードです。あなたのパスワードには少なくとも半角 %s 文字必要です。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。%s<br />
+$string['yournewpassword1'] = 'あなたの新しいパスワードです。あなたのパスワードには少なくとも半角 %s 文字必要です。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。%s<br>
 セキュリティ上の理由からパスフレーズの使用をお考えください。パスフレーズには1つの単語ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上) の言葉をスペースで区切って使用することをお考えください。';
 $string['yournewpasswordagain'] = 'あなたの新しいパスワードをもう一度';
 $string['invalidsesskey'] = '無効なセッションキー';
@@ -517,7 +517,7 @@ $string['forgotusernamepasswordtextprimaryemail'] = '<p>ユーザ名またはパ
 <p>あなたがパスワードを忘れてユーザ名を忘れていない場合、代わりにユーザ名を入力できます。</p>';
 $string['lostusernamepassword'] = 'ユーザ名/パスワード喪失';
 $string['emailaddressorusername'] = 'メールアドレスまたはユーザ名';
-$string['pwchangerequestsentfullinfo'] = 'あなたのアカウントのパスワード変更に使用できるリンクを記載したメールがまもなく送信されます。<br />メールを受信できない場合、あなたが入力した内容が間違っているかサイトへのアクセスに外部認証を使用しています。';
+$string['pwchangerequestsentfullinfo'] = 'あなたのアカウントのパスワード変更に使用できるリンクを記載したメールがまもなく送信されます。<br>メールを受信できない場合、あなたが入力した内容が間違っているかサイトへのアクセスに外部認証を使用しています。';
 $string['forgotusernamepasswordemailsubject'] = '%s のユーザ名/パスワード詳細';
 $string['forgotusernamepasswordemailmessagetext'] = '%s さん
 

@@ -27,19 +27,19 @@ $string['expires'] = '有効期限';
 $string['desc'] = '説明';
 $string['criteria'] = 'クライテリア';
 $string['nbadges'] = '%s バッジ';
-$string['nobackpack'] = 'バックパックは見つかりませんでした。<br />あなたの<a href="%s">バックパック</a>のメールアドレスを<a href="%s">プロファイル</a>に追加してください。';
+$string['nobackpack'] = 'バックパックは見つかりませんでした。<br>あなたの<a href="%s">バックパック</a>のメールアドレスを<a href="%s">プロファイル</a>に追加してください。';
 $string['nobadgegroups'] = 'パブリックバッジコレクション / バッジは見つかりませんでした。';
 $string['nobadgesselectone'] = '選択されたバッジはありません。';
 $string['nobackpackidin1'] = 'あなたのメールアドレス「 %s 」はサービス「 %s 」内に見つかりませんでした。';
 $string['nobadgegroupsin1'] = '次のサービス内にパブリックバッジコレクション / バッジは見つかりませんでした: %s (メールアドレス: %s)';
-$string['confighelp'] = 'このブロックで表示するバッジコレクションを選択してください。<br />あなたのコレクションおよびバッジを管理するには次のサービスにアクセスしてください:<br />%s';
+$string['confighelp'] = 'このブロックで表示するバッジコレクションを選択してください。<br>あなたのコレクションおよびバッジを管理するには次のサービスにアクセスしてください:<br>%s';
 $string['obppublicbadges'] = 'オープンバッジパスポート内すべてのパブリックバッジ';
 $string['title_backpack'] = 'Mozillaバックパック';
 $string['title_passport'] = 'オープンバッジパスポート';
 $string['fetchingbadges'] = 'エントリを取得しています。しばらくお待ちください。';
 $string['missingbadgesources'] = 'ソース設定がありません。あなたのconfig.phpファイルに追加してください。例:
-<br />
-<br />
+<br>
+<br>
 $cfg->openbadgedisplayer_source = \'{"backpack":"https://backpack.openbadges.org/"}\'';
 $string['selectall'] = 'すべてを選択する';
 $string['selectnone'] = 'すべての選択を解除する';
