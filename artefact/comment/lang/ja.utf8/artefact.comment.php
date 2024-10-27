@@ -75,7 +75,7 @@ $string['thiscommentisprivate'] = 'このコメントは非公開です。';
 $string['typefeedback'] = 'フィードバック';
 $string['viewcomment'] = 'コメントを表示する';
 $string['youhaverequestedpublic'] = 'あなたはこのコメントをパブリックにするようリクエストしました。';
-$string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が %s にコメントを投稿しました。</strong><br />%s</div>
+$string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が %s にコメントを投稿しました。</strong><br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
@@ -91,7 +91,7 @@ $string['feedbacknotificationtext'] = '%s が %s にコメントを投稿しま�
 ------------------------------------------------------------------------
 オンラインでコメントを閲覧および返信するには次のリンクにアクセスしてください:
 %s';
-$string['feedbackdeletedhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s のコメントが削除されました。</strong><br />%s</div>
+$string['feedbackdeletedhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s のコメントが削除されました。</strong><br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
