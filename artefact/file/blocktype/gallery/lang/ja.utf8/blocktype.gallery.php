@@ -43,7 +43,7 @@ $string['flickrapikeydesc'] = 'あなたがFlickrのフォトセットを表示�
 $string['flickrsets'] = 'Flickrセット';
 $string['pbsettings'] = 'Photobucket設定';
 $string['pbapikey'] = 'Photobucket APIキー';
-$string['pbapikeydesc'] = 'あなたがPhotobucketのフォトアルバムを表示するには有効なAPIキーおよびAPI秘密鍵が必要です。<br /><a href="https://developer.photobucket.com/">Photobucket開発者ウェブサイト</a>にアクセスして利用規約に同意、サインアップした後、APIキーを取得してください。';
+$string['pbapikeydesc'] = 'あなたがPhotobucketのフォトアルバムを表示するには有効なAPIキーおよびAPI秘密鍵が必要です。<br><a href="https://developer.photobucket.com/">Photobucket開発者ウェブサイト</a>にアクセスして利用規約に同意、サインアップした後、APIキーを取得してください。';
 $string['pbapiprivatekey'] = 'Photobucket API秘密鍵';
 $string['photobucketphotosandalbums'] = 'Photobucketユーザ写真およびアルバム';
 $string['picasaalbums'] = 'Picasaアルバム';
@@ -52,7 +52,7 @@ $string['externalnotsupported'] = 'あなたが提供した外部URLはサポー
 $string['CLOSE'] = '閉じる';
 $string['NEXT'] = '次へ';
 $string['PREV'] = '前へ';
-$string['ERROR'] = 'リクエストされたコンテンツを読み込めません。<br />後で再度お試しください。';
+$string['ERROR'] = 'リクエストされたコンテンツを読み込めません。<br>後で再度お試しください。';
 $string['PLAY_START'] = 'スライドショーを開始する';
 $string['PLAY_STOP'] = 'スライドショーを一時停止する';
 $string['FULL_SCREEN'] = 'フルスクリーン';
