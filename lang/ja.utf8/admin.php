@@ -232,8 +232,8 @@ $string['groupmemberaverage'] = 'それぞれのユーザは平均 %s のグル�
 $string['viewsperuser'] = 'ページを作成したユーザはそれぞれ約 %s ページを所有しています。';
 $string['Cron'] = 'cron';
 $string['runningnormally'] = '正常動作';
-$string['cronnotrunning1'] = '<span class="error">cronは動作していません。</span><br />cronの設定に関するインストラクションは<a href="https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronを設定している場合、直近の1つまたはそれ以前の処理が正しく実行されませんでした。';
-$string['cronnotrunningsiteclosed'] = '<span class="error">cronは動作していません。</span><br />現在、サイトはクローズされています。cronを実行するにはサイトを再度オープンしてください。';
+$string['cronnotrunning1'] = '<span class="error">cronは動作していません。</span><br>cronの設定に関するインストラクションは<a href="https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronを設定している場合、直近の1つまたはそれ以前の処理が正しく実行されませんでした。';
+$string['cronnotrunningsiteclosed'] = '<span class="error">cronは動作していません。</span><br>現在、サイトはクローズされています。cronを実行するにはサイトを再度オープンしてください。';
 $string['Loggedin'] = 'ログイン';
 $string['youraverageuser'] = 'あなたの平均的なユーザ ...';
 $string['statsmaxfriends'] = '平均フレンド数: %s (最もフレンドの多いユーザ: <a href="%s">%s</a> - フレンド数: %d)';
@@ -356,7 +356,7 @@ $string['sitelanguagedescription'] = 'サイトのデフォルトの言語です
 $string['sitecountrydescription'] = 'サイトのデフォルトの国です。';
 $string['sitename'] = 'サイト名';
 $string['sitenamedescription'] = 'サイト名はサイトの特定の場所およびサイトから送信されるメールに表示されます。';
-$string['siteoptionspagedescription'] = 'ここであなたはサイト全体にデフォルトとして適用されるグローバルオプションを設定できます。<br />メモ: 無効にされたオプションはあなたのconfig.phpファイルでオーバーライドできます。';
+$string['siteoptionspagedescription'] = 'ここであなたはサイト全体にデフォルトとして適用されるグローバルオプションを設定できます。<br>メモ: 無効にされたオプションはあなたのconfig.phpファイルでオーバーライドできます。';
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['sitethemedescription'] = 'サイトのデフォルトテーマです。あなたのテーマがリストにない場合、エラーログを確認してください。';
 $string['skins'] = 'ページスキン';
@@ -507,7 +507,7 @@ $string['emailsmtpsecuretls'] = 'TLS';
 $string['emailnoreplyaddress'] = 'システムメールアドレス';
 $string['emailnoreplyaddressdescription'] = 'このメールアドレスからメールが送信されます。';
 $string['notificationsettings'] = '通知設定';
-$string['notificationsettingsdescription'] = 'ここであなたは新しいユーザが受信する通知のデフォルトオプションを設定できます。ユーザはこれらの設定を自分の「設定 → 通知」ページでオーバーライドできます。<br />あなたがメールオプションのどちらか選択した場合、通知はユーザの受信ボックスにも到着しますが自動的に既読マークされます。';
+$string['notificationsettingsdescription'] = 'ここであなたは新しいユーザが受信する通知のデフォルトオプションを設定できます。ユーザはこれらの設定を自分の「設定 → 通知」ページでオーバーライドできます。<br>あなたがメールオプションのどちらか選択した場合、通知はユーザの受信ボックスにも到着しますが自動的に既読マークされます。';
 $string['csvfile'] = 'CSVファイル';
 $string['emailusersaboutnewaccount'] = 'ユーザにアカウント情報をメール送信する';
 $string['emailusersaboutnewaccountdescription'] = 'この設定を有効にした場合、新しいアカウント詳細情報がユーザにメール送信されます。';
@@ -528,7 +528,7 @@ $string['uploadcsverrorunspecifiedproblem1'] = '何らかの理由によりあ�
 $string['uploadcsverrorwrongnumberoffields'] = 'あなたのファイルの %s 行目にエラーがあります: フィールド数が正しくありません。';
 $string['uploadcsverrorinvalidemail'] = 'あなたのファイルの %s 行目にエラーがあります: このユーザのメールアドレスは正しい形式ではありません。';
 $string['uploadcsverrorincorrectnumberoffields'] = 'あなたのファイルの %s 行目にエラーがあります: この行には正しい数のフィールドが含まれていません。';
-$string['uploadcsverrorinvalidpassword'] = 'あなたのファイルの %s 行目にエラーがあります: パスワードは少なくとも半角英数字6文字にしてください。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。<br />
+$string['uploadcsverrorinvalidpassword'] = 'あなたのファイルの %s 行目にエラーがあります: パスワードは少なくとも半角英数字6文字にしてください。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。<br>
 セキュリティ上の理由からパスフレーズの使用をお考えください。パスフレーズには1つの単語ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。';
 $string['uploadcsverrorinvalidusername'] = 'あなたのファイルの %s 行目にエラーがあります: このユーザのユーザ名は正しい形式ではありません。';
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には必須の「 %s 」フィールドが含まれていません。';
@@ -613,7 +613,7 @@ $string['bulkleap2aimport'] = 'Leap2Aファイルからユーザをインポー�
 $string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある複数のLeap2Aファイルからユーザを一度にインポートできます。あなたはサーバのファイルシステムにあるすべてのLeap2A ZIPファイルおよびユーザ名をファイル名にマッピングしたusernames.csvと呼ばれる単一CSVファイルを含むZIPファイルを指定する必要があります。</p>
 <p>usernames.csvは以下のようになります:</p>
 <pre>
-&nbsp;&nbsp;bob,mahara-export-leap-user8-1265165366.zip<br />
+&nbsp;&nbsp;bob,mahara-export-leap-user8-1265165366.zip<br>
 &nbsp;&nbsp;nigel,mahara-export-leap-user1-1266458159.zip
 </pre>
 <p>上記、mahara-export-leap-user8-1265165366.zipおよびmahara-export-leap-user1-1266458159.zipはusersと呼ばれるサブディレクトリ内にあるファイルです。</p>
@@ -915,7 +915,7 @@ $string['suspendinstitution'] = 'インスティテューションを利用停�
 $string['suspendinstitutiondescription'] = 'ここであなたはインスティテューションを利用停止できます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまでログインできません。';
 $string['suspendedinstitutionmessage'] = 'このインスティテューションは利用停止されています。';
 $string['unsuspendinstitution'] = 'インスティテューションの利用停止を解除する';
-$string['unsuspendinstitutiondescription'] = 'ここであなたはインスティテューションの利用停止を解除できます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまでログインできません。<br /><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止されることになります。';
+$string['unsuspendinstitutiondescription'] = 'ここであなたはインスティテューションの利用停止を解除できます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまでログインできません。<br><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止されることになります。';
 $string['unsuspendinstitutiondescription_top'] = '<strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止されることになります。';
 $string['unsuspendinstitutiondescription_top_instadmin'] = '利用停止されたインスティテューションのユーザはログインできません。インスティテューションの利用停止を解除するには管理者にご連絡ください。';
 $string['bulkexport'] = 'ユーザをエクスポートする';
