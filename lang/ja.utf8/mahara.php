@@ -848,7 +848,7 @@ $string['sharenetwork'] = '共有およびネットワーク';
 $string['sharenetworksubtitle'] = 'フレンドを探してグループに参加します。';
 $string['findfriendslinked'] = '<a href="%s">フレンド</a>を探す';
 $string['joingroups'] = '<a href="%s">グループ</a>に参加する';
-$string['sharenetworkdescription'] = '<br />あなたのプライバシをコントロールします。';
+$string['sharenetworkdescription'] = '<br>あなたのプライバシをコントロールします。';
 $string['howtodisable'] = 'あなたは情報ボックスを秘匿しました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールできます。';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 

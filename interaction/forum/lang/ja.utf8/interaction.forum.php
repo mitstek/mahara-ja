@@ -73,7 +73,7 @@ $string['edittitle'] = 'フォーラムを編集する';
 $string['edittopic'] = 'トピックを編集する';
 $string['edittopicsuccess'] = 'トピックが正常に編集されました。';
 $string['forumname'] = 'フォーラム名';
-$string['forumposthtmltemplate'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s by %s</strong><br />%s</div>
+$string['forumposthtmltemplate'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s by %s</strong><br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
