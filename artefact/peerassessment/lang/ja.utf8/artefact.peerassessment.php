@@ -32,7 +32,7 @@ $string['deletedauthornotification1'] = 'あなたの相互評価者 %s がペ�
 相互評価者は以下のように書いていました:
 %s';
 $string['newassessmentnotificationsubject'] = 'ページ「 %s 」の新しい相互評価';
-$string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が相互評価を追加しました - %s</strong><br />%s</div>
+$string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が相互評価を追加しました - %s</strong><br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
