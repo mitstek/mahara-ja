@@ -166,7 +166,7 @@ $string['installfontinstructions3'] = '<p>
 </p>
 <p>
 ウェブページへの埋め込みが許可された適切なフリーフォントを探せた場合、あなたは次のフォーマットに変換する必要があります:
-<br />TrueTypeフォント (TTF)、Embedded OpenTypeフォント (EOT)、Web Open Font Formatフォント (WOFF) およびScalable Vector Graphicフォント (SVG)。
+<br>TrueTypeフォント (TTF)、Embedded OpenTypeフォント (EOT)、Web Open Font Formatフォント (WOFF) およびScalable Vector Graphicフォント (SVG)。
 </p>
 <p>
 あなたは変換に<a href="https://www.fontsquirrel.com/tools/webfont-generator/">FontSquirrel Online Generator</a>を利用できます。
@@ -215,7 +215,7 @@ $string['bolditalic'] = '太字イタリック';
 $string['fonttype'] = 'フォントタイプ';
 $string['headingandtext'] = 'ヘッディングおよびテキスト';
 $string['headingonly'] = 'ヘッディングのみ';
-$string['fontuploadinstructions2'] = '<br />必要なフォントファイルをアップロードする場合、あなたは上の手順で生成されたZIPファイルをアップロードするか、<br />EOT、SVG、TTF、WOFFおよびライセンスファイルを個別にアップロードできます。';
+$string['fontuploadinstructions2'] = '<br>必要なフォントファイルをアップロードする場合、あなたは上の手順で生成されたZIPファイルをアップロードするか、<br>EOT、SVG、TTF、WOFFおよびライセンスファイルを個別にアップロードできます。';
 $string['fontfiles'] = 'フォントファイル';
 $string['fontfilemissing'] = 'ZIPファイルに「 %s 」フォントファイルが含まれていません。';
 $string['zipfontfiles'] = 'ZIPアーカイブ内のフォントファイル';

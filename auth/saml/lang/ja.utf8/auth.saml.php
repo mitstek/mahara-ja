@@ -25,7 +25,7 @@ $string['newpublickey'] = '新しい公開鍵';
 $string['ssphpnotconfigured'] = 'SimpleSAMLphpが設定されていません。';
 $string['manage_certificate2'] = 'これはSAMLサービスプロバイダの一部として生成された証明書です。';
 $string['manage_new_certificate'] = 'これはSAMLサービスプロバイダの一部として生成された新しい証明書です。
-<br />
+<br>
 新旧証明書ともに有効です。すべてのアデンティティプロバイダに新しい証明書を通知した後、あなたは「古い証明書を削除する」ボタンで古い証明書を削除できます。';
 $string['nullprivatecert'] = '秘密鍵を生成または保存できませんでした。';
 $string['nullpubliccert'] = '公開鍵を生成または保存できませんでした。';
@@ -40,8 +40,8 @@ $string['errorextrarequiredfield'] = '「こちらでアカウントを自動作
 $string['errorretryexceeded'] = '再試行の最大回数 (%s) を越えました: アイデンティティサービスに問題があります。';
 $string['errnosamluser'] = 'アカウントは見つかりませんでした。';
 $string['errorssphpsetup'] = 'SAMLが正しく設定されていません。あなたは最初にコマンドラインから「make ssphp」を実行する必要があります。';
-$string['errorbadlib'] = 'SimpleSAMLphpライブラリの「autoloader」ファイルが %s で見つかりませんでした。<br />「make ssphp」でSimpleSAMLphpをインストールしてファイルを読み込めることを確認してください。';
-$string['errorbadmodule'] = 'SimpleSAMLPHPモジュール「 %s 」が見つかりませんでした。<br />モジュールのインストールおよび有効化を確認してください。';
+$string['errorbadlib'] = 'SimpleSAMLphpライブラリの「autoloader」ファイルが %s で見つかりませんでした。<br>「make ssphp」でSimpleSAMLphpをインストールしてファイルを読み込めることを確認してください。';
+$string['errorbadmodule'] = 'SimpleSAMLPHPモジュール「 %s 」が見つかりませんでした。<br>モジュールのインストールおよび有効化を確認してください。';
 $string['errorupdatelib'] = 'あなたの現在のSimpleSAMLphpライブラリは旧バージョンです。あなたは「make cleanssphp && make ssphp」を実行する必要があります。';
 $string['errornovalidsessionhandler'] = 'SimpleSAMLphpセッションハンドラの設定が正しくないか現在サーバを利用できません。';
 $string['errornomemcache'] = 'auth/samlのためのMemcacheの設定が正しくないか、現在Memcacheサーバを利用できません。';
@@ -145,4 +145,4 @@ $string['samlneedtoremovephar'] = '%s ファイルを削除できません。フ
 $string['instancename'] = 'インスタンス名';
 $string['oidc_login'] = 'Maharaアイデンティティプロバイダ';
 $string['oidc_loginheader'] = 'ログイン対象: %s';
-$string['oidc_logintext'] = 'このサイトのあなたの認証情報でログインしてください。<br />注意: あなたのアカウントは内部認証を使用する必要があります。';
+$string['oidc_logintext'] = 'このサイトのあなたの認証情報でログインしてください。<br>注意: あなたのアカウントは内部認証を使用する必要があります。';

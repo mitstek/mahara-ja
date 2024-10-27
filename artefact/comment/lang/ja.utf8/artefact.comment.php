@@ -87,7 +87,7 @@ $string['privatetopubliccomment'] = 'ポートフォリオオーナがあなた�
 $string['youhaverequestedpublic'] = 'あなたはこのコメントをパブリックにするようリクエストしました。';
 $string['commentsnotincluded'] = 'コメントはこのエクスポートに含まれませんでした。';
 $string['feedbackmoderationnotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">
-<strong>あなたはページ「 %s 」のモデレーションを有効にしています。</strong><br />
+<strong>あなたはページ「 %s 」のモデレーションを有効にしています。</strong><br>
 あなたにコメントをパブリックにするよう %s が依頼しました。以下依頼内容です:
 </div>
 <div style="margin: 1em 0;">%s</div>
@@ -95,14 +95,14 @@ $string['feedbackmoderationnotificationhtml'] = '<div style="padding: 0.5em 0; b
 <p>あなたは<a href="%s">このコメントをパブリックにできます</a>。</p>
 </div>';
 $string['feedbackmoderationnotificationtext'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">
-<strong>あなたはページ「 %s 」のモデレーションを有効にしています。</strong><br />
+<strong>あなたはページ「 %s 」のモデレーションを有効にしています。</strong><br>
 あなたにコメントをパブリックにするよう %s が依頼しました。以下依頼内容です:
 </div>
 <div style="margin: 1em 0;">%s</div>
 <div style="font-size: smaller; border-top: 1px solid #999;">
 <p>あなたは<a href="%s">このコメントをパブリックにできます</a>。</p>
 </div>';
-$string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が %s にコメントを投稿しました。</strong><br />%s</div>
+$string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が %s にコメントを投稿しました。</strong><br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
@@ -118,7 +118,7 @@ $string['feedbacknotificationtext'] = '%s が %s にコメントを投稿しま�
 ------------------------------------------------------------------------
 オンラインでコメントを閲覧および返信するには次のリンクにアクセスしてください:
 %s';
-$string['feedbackdeletedhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s のコメントが削除されました。</strong><br />%s</div>
+$string['feedbackdeletedhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s のコメントが削除されました。</strong><br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
