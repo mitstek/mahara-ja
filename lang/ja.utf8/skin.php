@@ -135,7 +135,7 @@ CSS @font-faceルールによってウェブページに埋め込むことので
 </p>
 <p>
 ウェブページへの埋め込みが許可された適切なフリーフォントを見つけた場合、あなたは次のフォーマットに変換する必要があります:
-<br />TrueTypeフォント、Embedded OpenTypeフォント、Web Open Font FormatフォントおよびScalable Vector Graphicフォント。
+<br>TrueTypeフォント、Embedded OpenTypeフォント、Web Open Font FormatフォントおよびScalable Vector Graphicフォント。
 </p>
 <p>
 あなたは<a href="https://www.fontsquirrel.com/fontface/generator/" target="_blank">FontSquirrel Online Generator</a>を変換に利用できます。
