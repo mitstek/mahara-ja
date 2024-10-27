@@ -208,7 +208,7 @@ $string['cantdeleteview'] = 'あなたはこのページを削除できません
 $string['deletespecifiedview'] = 'ページ「 %s 」を削除する';
 $string['deleteviewconfirm1'] = '本当にこのページを削除してもよろしいですか? 元に戻せません。';
 $string['deleteviewconfirmbackup'] = '<a href="%sexport/">エクスポート</a>によるこのページのバックアップ作成をご検討ください。';
-$string['deleteviewconfirmnote3'] = '<strong>注意:</strong> あなたがこのページでリンクしたファイルおよび日誌エントリすべてはまだ利用可能です。<br />しかし、このページに投稿されたコメントはすべて削除されます。';
+$string['deleteviewconfirmnote3'] = '<strong>注意:</strong> あなたがこのページでリンクしたファイルおよび日誌エントリすべてはまだ利用可能です。<br>しかし、このページに投稿されたコメントはすべて削除されます。';
 $string['deleteviewconfirmnote2'] = 'このページはコレクション<a href="%s">「 %s 」</a>の一部です。';
 $string['editaccesspagedescription6'] = 'デフォルトではあなたのページおよびコレクションをあなたのみ閲覧できます。このページではあなたに加えて誰がポートフォリオにアクセスできるか決定します。';
 $string['editaccessdescription'] = 'あなたは複数アイテムをチェックボックスで選択して同じ設定にできます。選択完了後、続けるにはスクロールダウンして「保存」をクリックしてください。';
@@ -264,7 +264,7 @@ $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除し
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
 $string['blockconfigurationrenderingerror'] = 'ブロックを表示できなかったため設定に失敗しました。';
 $string['blocksintructionnoajax'] = 'あなたのページに追加するブロックおよび場所を選択してください。あなたはタイトルバーの矢印ボタンを使ってブロックの配置を変更できます。';
-$string['blocksinstructionajaxlive1'] = 'このエリアではあなたのページがどのように見えるのかプレビューを表示しています。変更は自動的に保存されます。<br />ブロックを追加するには「新しいブロックを追加する」をページにドラッグしてください。その後、あなたはそれがどのタイプのブロックであるか選択できます。あなたはページ内でブロックをドラッグして位置を変更することもできます。';
+$string['blocksinstructionajaxlive1'] = 'このエリアではあなたのページがどのように見えるのかプレビューを表示しています。変更は自動的に保存されます。<br>ブロックを追加するには「新しいブロックを追加する」をページにドラッグしてください。その後、あなたはそれがどのタイプのブロックであるか選択できます。あなたはページ内でブロックをドラッグして位置を変更することもできます。';
 $string['blockchangedsuccess'] = 'プレースホルダブロックを「 %s 」ブロックに正常に変更しました。';
 $string['blockchangederror'] = '「 %s 」ブロックへの変更に失敗しました。';
 $string['blockchangedbacksuccess'] = 'ブロックをプレースホルダブロックに戻しました。';
