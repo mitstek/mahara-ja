@@ -149,7 +149,7 @@ $string['cantdeleteview'] = 'あなたはこのページを削除できません
 $string['deletespecifiedview'] = 'ページ「 %s 」を削除する';
 $string['deleteviewconfirm1'] = '本当にこのページを削除してもよろしいですか? 元に戻せません。';
 $string['deleteviewconfirmbackup'] = '<a href="%sexport/" target="_blank">エクスポート</a>によるこのページのバックアップ作成をご検討ください。';
-$string['deleteviewconfirmnote1'] = '<strong>注意:</strong> このページにリンクしたすべてのファイルおよび日誌を利用することはできます。<br />しかし、このページに投稿されたすべてのフィードバックは削除されます。';
+$string['deleteviewconfirmnote1'] = '<strong>注意:</strong> このページにリンクしたすべてのファイルおよび日誌を利用することはできます。<br>しかし、このページに投稿されたすべてのフィードバックは削除されます。';
 $string['editaccesspagedescription3'] = 'デフォルトではあなたのページをあなたのみ閲覧できます。このページにアクセスルールを追加することであなたは他のユーザとページを共有できます。アクセスルールを追加した後、ページ下部の「保存」ボタンをクリックしてください。';
 $string['editsecreturlsintable'] = '個別に生成する必要があるためこのページでは<b>シークレットURL</b>を設定できません。シークレットURLを設定するには<a href="%sview/share.php">コレクションおよびページの一覧</a>に戻ってください。';
 $string['editaccessinvalidviewset'] = '無効な一連のページおよびコレクションのアクセスを編集しようとしました。';
@@ -188,7 +188,7 @@ $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除し
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
 $string['blockconfigurationrenderingerror'] = 'ブロックを表示できなかったため設定に失敗しました。';
 $string['blocksintructionnoajax'] = 'あなたのページに追加するブロックおよび場所を選択してください。あなたはタイトルバーの矢印ボタンを使ってブロックの配置を変更できます。';
-$string['blocksinstructionajax'] = 'このエリアではあなたのページがどのように表示されるかプレビューを表示します。<br />あなたのページレイアウトにブロックを追加するにはこの行の下にドラッグしてください。あなたのページ内でドラッグすることでブロックの配置を変更できます。';
+$string['blocksinstructionajax'] = 'このエリアではあなたのページがどのように表示されるかプレビューを表示します。<br>あなたのページレイアウトにブロックを追加するにはこの行の下にドラッグしてください。あなたのページ内でドラッグすることでブロックの配置を変更できます。';
 $string['addnewblockhere'] = 'ここに新しいブロックを追加する';
 $string['add'] = '追加';
 $string['addcolumn'] = 'カラムを追加する';
