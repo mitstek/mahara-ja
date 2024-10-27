@@ -82,7 +82,7 @@ $string['ongroup'] = 'グループ:';
 $string['ownedby'] = 'オーナ:';
 $string['objectionablecontentview'] = 'ページ「 %s 」の好ましくないコンテンツ - 報告者: %s';
 $string['objectionablecontentviewartefact'] = 'ページ「 %s (%s) 」の好ましくないコンテンツ - 報告者: %s';
-$string['objectionablecontentviewhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」の好ましくないコンテンツ - 報告者: %s<strong></strong><br />%s</div>
+$string['objectionablecontentviewhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」の好ましくないコンテンツ - 報告者: %s<strong></strong><br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
@@ -100,7 +100,7 @@ $string['objectionablecontentviewtext'] = '「 %s 」の好ましくないコン
 %s
 報告者のプロファイルを閲覧するには次のリンクにアクセスしてください:
 %s';
-$string['objectionablecontentviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「  %s (%s)  」の好ましくないコンテンツ - 報告者: %s<strong></strong><br />%s</div>
+$string['objectionablecontentviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「  %s (%s)  」の好ましくないコンテンツ - 報告者: %s<strong></strong><br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
