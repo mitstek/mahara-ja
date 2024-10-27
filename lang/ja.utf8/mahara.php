@@ -354,7 +354,7 @@ $string['accountinactivewarninghtml'] = '<p>%s さん</p>
 <p>サイトにログインすることであなたのアカウントが無効になることを防げます。</p>
 
 <p>%s サイト管理者</p>';
-$string['accountsuspended'] = '%s 現在、あなたのアカウントは利用停止されています。<br />あなたの利用停止理由は次のとおりです: %s';
+$string['accountsuspended'] = '%s 現在、あなたのアカウントは利用停止されています。<br>あなたの利用停止理由は次のとおりです: %s';
 $string['youraccounthasbeensuspended'] = 'あなたのアカウントが利用停止されました。';
 $string['youraccounthasbeenunsuspended'] = 'あなたのアカウントの利用停止が解除されました。';
 $string['changepasswordinfo'] = '開始するにはあなたのパスワードを変更する必要があります。';
@@ -391,7 +391,7 @@ $string['username'] = 'ユーザ名';
 $string['preferredname'] = '表示名';
 $string['usernamehelp'] = 'あなたがこのシステムにアクセスするために付与されたユーザ名です。';
 $string['youaremasqueradingas'] = 'あなたは %s としてログインしています。';
-$string['yournewpassword'] = 'あなたの新しいパスワードです。パスワードは少なくとも半角英数字6文字にしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。<br />良いセキュリティのためパスフレーズの使用をご検討ください。パスフレーズは単一の単語ではなく文です。あなたが好きな名言・格言またはスペースで区切られた2つ (またはそれ以上) の好きなものの使用をご検討ください。';
+$string['yournewpassword'] = 'あなたの新しいパスワードです。パスワードは少なくとも半角英数字6文字にしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。<br>良いセキュリティのためパスフレーズの使用をご検討ください。パスフレーズは単一の単語ではなく文です。あなたが好きな名言・格言またはスペースで区切られた2つ (またはそれ以上) の好きなものの使用をご検討ください。';
 $string['yournewpasswordagain'] = 'あなたの新しいパスワードをもう一度';
 $string['invalidsesskey'] = '無効なセッションキー';
 $string['cannotremovedefaultemail'] = 'あなたの主メールアドレスは削除できません。';

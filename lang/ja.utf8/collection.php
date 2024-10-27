@@ -58,7 +58,7 @@ $string['deletespecifiedcollection'] = 'コレクション「 %s 」を削除す
 $string['deletingcollection'] = 'コレクションの削除';
 $string['deleteview'] = 'コレクションからページを削除する';
 $string['description'] = 'コレクション説明';
-$string['collectiondragupdate1'] = '「コレクション内のページ」にページを移動するには「ページをコレクションに追加する」ボックスからページ名をドラッグするか、チェックボックスをチェックして「ページを追加する」ボタンをクリックしてください。<br />
+$string['collectiondragupdate1'] = '「コレクション内のページ」にページを移動するには「ページをコレクションに追加する」ボックスからページ名をドラッグするか、チェックボックスをチェックして「ページを追加する」ボタンをクリックしてください。<br>
 あなたはページ名をドラッグまたは矢印ボタンを使用することで「コレクション内のページ」エリアのページを並べ替えることができます。';
 $string['viewsincollection'] = 'コレクション内のページ';
 $string['editcollection'] = 'コレクションを編集する';

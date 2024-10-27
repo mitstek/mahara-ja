@@ -17,7 +17,7 @@ $string['title'] = 'Googleアプリ';
 $string['description'] = 'Googleカレンダまたはドキュメントを埋め込みます。';
 $string['appscodeorurl'] = 'コードまたはURLを埋め込む';
 $string['appscodeorurldesc'] = 'Googleコンテンツ埋め込み方法のインストラクションに関して<a href="https://manual.mahara.org/en/15.10/blocks/external.html#google-apps">ユーザマニュアル</a>をご覧ください。
-<br />
+<br>
 埋め込みコードまたはGoogleアプリが一般公開されているページのURLを貼り付けてください。';
 $string['height'] = '高さ';
 $string['badurlerror'] = '埋め込みコードまたはURLを構文解析できません: %s';

@@ -51,7 +51,7 @@ $string['newannotationfeedbacknotificationsubject'] = '%s の新しいフィー�
 $string['reallydeletethisannotationfeedback'] = '本当にこのフィードバックを削除してもよろしいですか?';
 $string['annotationfeedbackisprivate'] = 'このフィードバックはプライベートです。';
 $string['youhaverequestedpublic'] = 'あなたはこのフィードバックをパブリックにするようリクエストしました。';
-$string['annotationfeedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s がアノテーション %s にフィードバックを投稿しました。</strong><br />%s</div>
+$string['annotationfeedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s がアノテーション %s にフィードバックを投稿しました。</strong><br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
@@ -67,7 +67,7 @@ $string['annotationfeedbacknotificationtext'] = '%s がアノテーション %s 
 ------------------------------------------------------------------------
 フィードバックをオンラインで閲覧および返信するには次のリンクにアクセスしてください:
 %s';
-$string['annotationfeedbackdeletedhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>アノテーション %s のフィードバックが削除されました。</strong><br />%s</div>
+$string['annotationfeedbackdeletedhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>アノテーション %s のフィードバックが削除されました。</strong><br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
