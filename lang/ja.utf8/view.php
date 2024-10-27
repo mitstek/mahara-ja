@@ -226,7 +226,7 @@ $string['cantdeleteviewsubmission'] = '送信済みのため、あなたはこ�
 $string['deletespecifiedview'] = 'ページ「 %s 」を削除する';
 $string['deleteviewconfirm1'] = '本当にこのページを削除してもよろしいですか? 元に戻せません。';
 $string['deleteviewconfirmbackup1'] = '<a href="%sexport/index.php?view=%s">エクスポート</a>によるこのページのバックアップ作成をご検討ください。';
-$string['deleteviewconfirmnote3'] = '<strong>注意:</strong> あなたがこのページでリンクしたファイルおよび日誌エントリすべてはまだ利用可能です。<br />しかし、このページに投稿されたコメントはすべて削除されます。';
+$string['deleteviewconfirmnote3'] = '<strong>注意:</strong> あなたがこのページでリンクしたファイルおよび日誌エントリすべてはまだ利用可能です。<br>しかし、このページに投稿されたコメントはすべて削除されます。';
 $string['deleteviewconfirmnote2'] = 'このページはコレクション<a href="%s">「 %s 」</a>の一部です。';
 $string['editaccesspagedescription7'] = 'デフォルトではあなたのポートフォリオはあなたのみ閲覧できます。このページではあなたに加えて誰がポートフォリオにアクセスできるか決定します。';
 $string['editaccessdescription'] = 'あなたは複数アイテムをチェックボックスで選択して同じ設定にできます。選択完了後、続けるにはスクロールダウンして「保存」をクリックしてください。';
@@ -287,7 +287,7 @@ $string['confirmcloseblockinstance'] = '本当にあなたの変更を保存せ�
 $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除してもよろしいですか?';
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
 $string['blockconfigurationrenderingerror'] = 'ブロックを表示できなかったため設定に失敗しました。';
-$string['blocksinstructionajaxlive2'] = 'これはあなたのページのプレビューです。変更は自動的に保存されます。<br />新しいブロックを作成するには「+」ボタンをページ上にドラッグしてください。そして、そのブロックのタイプを選択してください。ブロックの位置を変更するにはページ上でドラッグしてください。';
+$string['blocksinstructionajaxlive2'] = 'これはあなたのページのプレビューです。変更は自動的に保存されます。<br>新しいブロックを作成するには「+」ボタンをページ上にドラッグしてください。そして、そのブロックのタイプを選択してください。ブロックの位置を変更するにはページ上でドラッグしてください。';
 $string['blockchangedsuccess'] = 'プレースホルダブロックを「 %s 」ブロックに正常に変更しました。';
 $string['blockchangederror'] = '「 %s 」ブロックへの変更に失敗しました。';
 $string['blockchangedbacksuccess'] = 'ブロックをプレースホルダブロックに戻しました。';
@@ -493,7 +493,7 @@ $string['itemgrabbed'] = 'アイテムグラブ: %s';
 $string['itemdropped'] = 'アイテムドロップ: %s';
 $string['itemreorder'] = 'リストが並べ替えられました。%s アイテムのポジションが %s / %s になりました。';
 $string['reordercancelled'] = '並べ替えがキャンセルされました。';
-$string['accessibilitymodedescription1'] = 'このページではアクセシブルレイアウトが有効にされています。ページにブロックを追加するには「新しいブロックを追加する」ボタンをクリックしてください。<br />
+$string['accessibilitymodedescription1'] = 'このページではアクセシブルレイアウトが有効にされています。ページにブロックを追加するには「新しいブロックを追加する」ボタンをクリックしてください。<br>
 このモードではページはページ幅一杯に次々と表示されます。ブロックの位置を変更するにはそのブロックに移動して「Enter」キーでそのブロックを掴んだ後、あなたのキーボードの矢印キーでブロックのリストを上下に動かしてください。';
 $string['blocktypeis'] = '%s ブロックタイプ';
 $string['coverimage'] = 'カバーイメージ';

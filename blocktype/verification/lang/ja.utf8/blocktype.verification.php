@@ -61,7 +61,7 @@ $string['verifiedonby'] = '<a href="%s">%s</a> - %s';
 $string['savedraft'] = '下書きを保存する';
 $string['publish'] = '公開';
 $string['cancel'] = 'キャンセル';
-$string['addcommentdescriptionhtml'] = '<div><strong>下書きとして保存する:</strong> あなたのみあなたのコメントを閲覧できます。あなたはまだ変更できます。<br />
+$string['addcommentdescriptionhtml'] = '<div><strong>下書きとして保存する:</strong> あなたのみあなたのコメントを閲覧できます。あなたはまだ変更できます。<br>
 <strong>公開:</strong> ポートフォリオにアクセスできる人は誰でもあなたのコメントを閲覧できます。あなたは公開済みコメントを下書きステータスには戻せません。</div>';
 $string['addcommentchecklist'] = 'あなたがこのステートメントを公開した場合、元に戻せません。';
 $string['addcommentchecklistnames'] = 'あなたがこのステートメントを公開した場合、元に戻せません。元に戻したい場合、「詳細オプション」ボタンをクリックしてステートメントのリセットを次のいずれかの人に依頼してください: %s';

@@ -487,7 +487,7 @@ $string['preferredname'] = '表示名';
 $string['preferrednamedisplay'] = '表示名';
 $string['usernamehelp'] = 'あなたがこのシステムにアクセスするために付与されたユーザ名です。';
 $string['youaremasqueradingas'] = 'あなたは %s としてログインしています。';
-$string['yournewpassword1'] = 'あなたの新しいパスワードです。あなたのパスワードには少なくとも半角 %s 文字必要です。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。%s<br />
+$string['yournewpassword1'] = 'あなたの新しいパスワードです。あなたのパスワードには少なくとも半角 %s 文字必要です。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。%s<br>
 セキュリティ上の理由からパスフレーズの使用をお考えください。パスフレーズには1つの単語ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上) の言葉をスペースで区切って使用することをお考えください。';
 $string['yournewpasswordagain'] = 'あなたの新しいパスワードをもう一度';
 $string['invalidsesskey'] = '無効なセッションキー';
@@ -529,7 +529,7 @@ $string['forgotusernamepasswordtextprimaryemail'] = '<p>ユーザ名またはパ
 <p>あなたがパスワードを忘れてユーザ名を忘れていない場合、代わりにユーザ名を入力できます。</p>';
 $string['lostusernamepassword'] = 'ユーザ名/パスワード喪失';
 $string['emailaddressorusername'] = 'メールアドレスまたはユーザ名';
-$string['pwchangerequestsentfullinfo'] = 'あなたのアカウントのパスワード変更に使用できるリンクを記載したメールがまもなく送信されます。<br />メールを受信できない場合、あなたが入力した内容が間違っているかサイトへのアクセスに外部認証を使用しています。';
+$string['pwchangerequestsentfullinfo'] = 'あなたのアカウントのパスワード変更に使用できるリンクを記載したメールがまもなく送信されます。<br>メールを受信できない場合、あなたが入力した内容が間違っているかサイトへのアクセスに外部認証を使用しています。';
 $string['forgotusernamepasswordemailsubject'] = '%s のユーザ名/パスワード詳細';
 $string['forgotusernamepasswordemailmessagetext'] = '%s さん
 
@@ -1324,7 +1324,7 @@ $string['accountupdatedheadinghtml'] = '<p>%s さん</p>
 $string['accountupdatednewinstitution'] = 'あなたはインスティテューション %s に追加されました。';
 $string['accountupdatednewinstitutionhtml'] = '<p>あなたはインスティテューション %s に<strong>追加</strong>されました。</p>';
 $string['accountupdatedremovedinstitutions'] = 'あなたは次のインスティテューションから削除されました: %s';
-$string['accountupdatedremovedinstitutionshtml'] = '<p>あなたは次のインスティテューションから<strong>削除</strong>されました: <br /> %s</p>';
+$string['accountupdatedremovedinstitutionshtml'] = '<p>あなたは次のインスティテューションから<strong>削除</strong>されました: <br> %s</p>';
 $string['accountupdatedpasswordreset'] = '以下のリンクを使用してあなたのパスワードを変更してください:
 
 %s

@@ -35,7 +35,7 @@ $string['deletednotificationsubject'] = '「 %s 」のチェックポイント�
 $string['deletedauthornotification1'] = 'あなたの「 %s 」のチェックポイントコメントが削除されました。あなたの記述内容は以下のとおりです:
 %s';
 $string['newfeedbacknotificationsubject'] = 'ページ「 %s 」の新しいチェックポイントコメント';
-$string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が「 %s 」にチェックポイントコメントを追加しました。</strong><br />%s</div>
+$string['feedbacknotificationhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>%s が「 %s 」にチェックポイントコメントを追加しました。</strong><br>%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 <div style="font-size: smaller; border-top: 1px solid #999;">
