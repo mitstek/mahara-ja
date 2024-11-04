@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['attributemapfilenotamap'] = '属性マップファイル「 %s 」で属性マップが定義されていません。';
-$string['attributemapfilenotfound'] = '属性マップファイルがないか書き込み権がありません: %s';
+$string['attributemapfilenotfound'] = '属性マップファイルがないか、書き込み権がありません: %s';
 $string['currentcertificate'] = 'SAMLサービスプロバイダ署名および暗号化証明書';
 $string['oldcertificate'] = '古いSAMLサービスプロバイダ署名および暗号化証明書';
 $string['newcertificate'] = '新しいSAMLサービスプロバイダ署名および暗号化証明書';
