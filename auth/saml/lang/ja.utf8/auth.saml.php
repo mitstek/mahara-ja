@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-08-17 05:23:14 UTC
+ * @updated    2024-11-04 01:55:27 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['attributemapfilenotamap'] = '属性マップファイル「 %s 」で属性マップが定義されていません。';
-$string['attributemapfilenotfound'] = '属性マップファイルがないか書き込み権がありません: %s';
+$string['attributemapfilenotfound'] = '属性マップファイルがないか、書き込み権がありません: %s';
 $string['currentcertificate'] = 'SAMLサービスプロバイダ署名および暗号化証明書';
 $string['oldcertificate'] = '古いSAMLサービスプロバイダ署名および暗号化証明書';
 $string['newcertificate'] = '新しいSAMLサービスプロバイダ署名および暗号化証明書';
