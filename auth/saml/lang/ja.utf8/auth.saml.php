@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-11-05 15:26:06 UTC
+ * @updated    2024-11-10 19:38:35 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -26,7 +26,7 @@ $string['ssphpnotconfigured'] = 'SimpleSAMLphpが設定されていません。'
 $string['manage_certificate2'] = 'これはSAMLサービスプロバイダの一部として生成された証明書です。';
 $string['manage_new_certificate'] = 'これはSAMLサービスプロバイダの一部として生成された新しい証明書です。
 <br>
-新旧証明書ともに有効です。すべてのアデンティティプロバイダに新しい証明書を通知した後、あなたは「古い証明書を削除する」ボタンで古い証明書を削除できます。';
+新旧証明書ともに有効です。すべてのアイデンティティプロバイダに新しい証明書を通知した後、あなたは「古い証明書を削除する」ボタンで古い証明書を削除できます。';
 $string['nullprivatecert'] = '秘密鍵を生成または保存できませんでした。';
 $string['nullpubliccert'] = '公開鍵を生成または保存できませんでした。';
 $string['defaultinstitution'] = 'デフォルトインスティテューション';
