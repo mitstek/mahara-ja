@@ -15,8 +15,8 @@ defined('INTERNAL') || die();
 
 $string['certificate1'] = 'SAMLサービスプロバイダ署名および暗号化認証';
 $string['manage_certificate1'] = 'これはSAMLサービスプロバイダ<a href="%s">メタデータ</a>の一部として生成された証明書です。';
-$string['nullprivatecert'] = '秘密鍵を生成または保存できませんでした。';
-$string['nullpubliccert'] = '公開鍵を生成または保存できませんでした。';
+$string['nullprivatecert'] = '秘密鍵を保存できませんでした。';
+$string['nullpubliccert'] = '公開鍵を保存できませんでした。';
 $string['defaultinstitution'] = 'デフォルトインスティテューション';
 $string['description'] = 'SAML 2.0アイデンティティプロバイダサービスで認証する';
 $string['disco'] = 'アイデンティティプロバイダディスカバリ';
