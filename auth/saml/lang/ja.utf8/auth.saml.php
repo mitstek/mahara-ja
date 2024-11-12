@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-11-10 19:38:35 UTC
+ * @updated    2024-11-12 15:20:54 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -27,8 +27,8 @@ $string['manage_certificate2'] = 'これはSAMLサービスプロバイダの一
 $string['manage_new_certificate'] = 'これはSAMLサービスプロバイダの一部として生成された新しい証明書です。
 <br>
 新旧証明書ともに有効です。すべてのアイデンティティプロバイダに新しい証明書を通知した後、あなたは「古い証明書を削除する」ボタンで古い証明書を削除できます。';
-$string['nullprivatecert'] = '秘密鍵を生成または保存できませんでした。';
-$string['nullpubliccert'] = '公開鍵を生成または保存できませんでした。';
+$string['nullprivatecert'] = '秘密鍵保存できませんでした。';
+$string['nullpubliccert'] = '公開鍵保存できませんでした。';
 $string['defaultinstitution'] = 'デフォルトインスティテューション';
 $string['description'] = 'SAML 2.0アイデンティティプロバイダサービスで認証する';
 $string['disco'] = 'アイデンティティプロバイダディスカバリ';
