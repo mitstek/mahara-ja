@@ -74,4 +74,4 @@ $string['warninstitutionregistrationinstitutions'] = '次のインスティテ�
 $string['warnmultiinstitutionsoff'] = '$cfg->usersuniquebyusernameが有効にされていますがサイトオプション「人に複数インスティテューションを許可する」は無効にされています。ログインするたびに人はインスティテューションを変える必要があるためこれは意味をなしません。この設定を「管理 → サイト設定 → インスティテューション設定」で有効にしてください。';
 $string['alternativelogins'] = '管理ログイン';
 $string['nullprivatecert'] = '秘密鍵を生成できませんでした。';
-$string['nullpubliccert'] = '公開鍵を生成できませんでした。';
+$string['nullpubliccert'] = '公開証明書を生成できませんでした。';
