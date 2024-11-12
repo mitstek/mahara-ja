@@ -21,7 +21,7 @@ $string['metadatavewlink'] = '<a href="%s">メタデータを表示する</a>';
 $string['ssphpnotconfigured'] = 'SimpleSAMLphpが設定されていません。';
 $string['manage_certificate2'] = 'これはSAMLサービスプロバイダの一部として生成された証明書です。';
 $string['nullprivatecert'] = '秘密鍵を保存できませんでした。';
-$string['nullpubliccert'] = '公開鍵を保存できませんでした。';
+$string['nullpubliccert'] = '公開証明書を保存できませんでした。';
 $string['defaultinstitution'] = 'デフォルトインスティテューション';
 $string['description'] = 'SAML 2.0アイデンティティプロバイダサービスで認証する';
 $string['disco'] = 'アイデンティティプロバイダディスカバリ';
