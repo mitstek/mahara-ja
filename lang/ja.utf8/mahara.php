@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-09-30 06:25:18 UTC
+ * @updated    2024-11-14 23:16:56 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -85,7 +85,7 @@ $string['reportissue'] = 'このイシューを報告する';
 $string['reportissueadmin'] = 'このイシューを管理者に報告する';
 $string['issuereport_pieform_success'] = 'イシューレポートが送信されました。あなたに管理者から連絡される予定です。';
 $string['provideinfo'] = 'このイシューが発生する前にとった措置';
-$string['issuereportinfotitle'] = 'このイシューが発生する前にとった措置';
+$string['issuereportinfotitle'] = 'このイシューが発生する前にとった措置:';
 $string['issuereporterroroccurred'] = '---
 発生したエラー:
 
