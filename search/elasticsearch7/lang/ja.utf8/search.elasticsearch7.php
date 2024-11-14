@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-09-16 01:04:39 UTC
+ * @updated    2024-11-14 23:07:19 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -115,6 +115,7 @@ $string['resetitemsinindex'] = 'インデックス内';
 $string['resume'] = 'レジュメ';
 $string['scheme'] = 'スキーマ';
 $string['schemedescription'] = 'Elasticsearch 7サーバのスキーマです。デフォルトは次のとおりです: %';
+$string['searchpagetitle'] = '人およびコンテンツを検索する';
 $string['servererror'] = 'サーバへの接続時にエラーが発生しました: %s';
 $string['shards'] = 'シャード';
 $string['shardsdescription'] = '作成されるインデックスの個数 (シャード) です。';
