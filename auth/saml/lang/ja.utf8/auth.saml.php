@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-11-12 15:20:54 UTC
+ * @updated    2024-11-17 20:25:20 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -32,7 +32,7 @@ $string['nullpubliccert'] = '公開鍵保存できませんでした。';
 $string['defaultinstitution'] = 'デフォルトインスティテューション';
 $string['description'] = 'SAML 2.0アイデンティティプロバイダサービスで認証する';
 $string['disco'] = 'アイデンティティプロバイダディスカバリ';
-$string['errorbadinstitution'] = 'アカウント接続のインスティテューションが解決されませんでした。';
+$string['errorbadinstitution'] = 'アカウント接続のためのインスティテューションが解決されていません。';
 $string['errorbadssphp'] = '無効なSimpleSAMLphpセッションハンドラです: PHPセッションを使用しないでください。';
 $string['errorbadssphpmetadata'] = '無効なSimpleSAMLphp設定です: 設定されたアイデンティティプロバイダメタデータがありません。';
 $string['errorbadssphpspentityid'] = '無効なサービスプロバイダエンティティIDです。';
