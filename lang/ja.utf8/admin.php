@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-10-09 01:42:59 UTC
+ * @updated    2024-11-24 03:41:31 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -53,7 +53,7 @@ $string['upgradeinprogress'] = '%s に開始されたアップグレードは完
 $string['Plugin'] = 'プラグイン';
 $string['jsrequiredforupgrade'] = 'あなたがインストールまたはアップグレードを実行するにはJavaスクリプトを有効にする必要があります。';
 $string['dbnotutf8warning'] = 'あなたはUTF-8データベースを使用していません。Maharaはすべてのデータを内部的にUTF-8で保存します。あなたはこのアップグレードを試せますがデータベースのUTF-8へのコンバートをお勧めします。';
-$string['dbnotutf8mb4warning'] = 'あなたはutf8mb4文字セット (4バイト UTF-8ユニコードエンコーディング) データベースを使用していません。Maharaはすべてのデータを内部的にutf8mb4として保存します。あなたはこのアップグレードを試せますが、データベースのutf8mb4への変換をお勧めします。';
+$string['dbnotutf8mb4_binwarning'] = 'あなたはutf8mb4文字セット (4バイト UTF-8ユニコードエンコーディング) データベースを使用していません。Maharaはすべてのデータを内部的にutf8mb4として保存します。あなたはこのアップグレードを試せますが、あなたのデータベースを文字セット「utf8mb4」 および照合順序 「utf8mb4_bin」 を使用するよう変換をお勧めします';
 $string['dbcollationmismatch'] = 'あなたのデータベースカラムはデータベースデフォルトとは異なるコレーションを使用しています。すべてのカラムがデータベースと同じコレーションを使用することを確実にしてください。';
 $string['maharainstalled'] = 'Maharaはすでにインストールされています。';
 $string['cliadminpassword1'] = '管理アカウントのパスワード';
