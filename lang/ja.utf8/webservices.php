@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-10-06 21:45:59 UTC
+ * @updated    2024-11-28 03:16:14 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -160,6 +160,7 @@ $string['passwordvalid'] = '少なくとも半角英数字6文字にしてくだ
 $string['personalwebsite'] = 'パーソナルウェブサイト';
 $string['plaintxtpassword'] = '任意の文字で構成されるプレインテキストパスワード';
 $string['portfolioowneremail'] = 'ポートフォリオオーナのメールアドレス';
+$string['portfolioshowaccess'] = 'ポートフォリオのトークンアクセスを含む';
 $string['portfolioownerid'] = 'ポートフォリオオーナのMahara ID';
 $string['portfolioownerusername'] = 'ポートフォリオオーナのユーザ名';
 $string['portfolioquery'] = '適用するポートフォリオクエリフィルタ';
@@ -211,6 +212,8 @@ $string['userresultsoffset'] = '結果の補正値';
 $string['usersautoadded'] = '人の自動追加';
 $string['userstotalcount'] = '合計結果数';
 $string['view'] = 'ページ';
+$string['viewaccess'] = 'アクセスルール一覧';
+$string['viewaccesstoken'] = 'アクセストークン';
 $string['viewcollid'] = 'ページのコレクションID';
 $string['viewcreatetime'] = 'ページ作成日時';
 $string['viewdesc'] = 'ページ説明';
