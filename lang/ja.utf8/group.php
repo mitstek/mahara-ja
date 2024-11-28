@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-09-11 04:28:14 UTC
+ * @updated    2024-11-28 03:33:37 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -331,6 +331,7 @@ $string['addtomyfriends'] = 'マイフレンドに追加する';
 $string['friendshiprequested'] = 'フレンドシップがリクエストされました。';
 $string['existingfriend'] = '現在のフレンド';
 $string['nosearchresultsfound'] = '結果は見つかりませんでした。';
+$string['trydoublequotes'] = 'あなたがスペースを含むものを検索する場合、二重引用符で囲んで検索してください。例) "Tāne Mahuta"';
 $string['friend'] = 'フレンド';
 $string['friends'] = 'フレンド';
 $string['nfriends'] = '%s フレンド';
