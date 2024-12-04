@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-11-28 22:57:17 UTC
+ * @updated    2024-12-04 03:27:08 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -914,7 +914,7 @@ $string['disableemail'] = 'メールを無効にする';
 $string['exportqueue'] = 'エクスポートキュー';
 $string['exportqueuedesc'] = '保留中のコンテンツエクスポートを表示します。';
 $string['exportcontentname'] = 'エクスポートコンテンツ';
-$string['selectuserexport'] = 'エクスポートするコンテンツ「 %s 」を選択する';
+$string['selectuserexport1'] = 'エクスポートのために再度キューに追加するコンテンツ「 %s 」を選択する';
 $string['selectuserexportdelete'] = 'エクスポートキューから削除するコンテンツ「 %s 」を選択する';
 $string['exportpending'] = '%s 現在の保留';
 $string['exportfailed'] = '失敗 %s';
