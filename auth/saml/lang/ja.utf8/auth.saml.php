@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2024-12-15 15:13:47 UTC
+ * @updated    2024-12-17 22:24:48 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -59,7 +59,7 @@ $string['idpentityid'] = 'アイデンティティプロバイダエンティテ
 $string['idpentityadded'] = 'このSAMLインスタンスのアイデンティティプロバイダメタデータを追加しました。';
 $string['idpentityupdated'] = 'このSAMLインスタンスのアイデンティティプロバイダメタデータを更新しました。';
 $string['idpentityupdatedduplicates'] = 'このSAMLインスタンスおよび他の %s インスタンスのアイデンティティプロバイダメタデータを更新しました。';
-$string['metarefresh_metadata_url'] = '自動更新のためのメタデータURL';
+$string['metarefresh_metadata_url'] = '自動更新用メタデータURL';
 $string['metarefresh_metadata_signature'] = 'メタデータ署名正当性確認';
 $string['metadatarefreshfailed_subject'] = 'メタデータ自動更新失敗';
 $string['metadatarefreshfailed_body'] = 'SAMLメタデータの自動更新を完了できませんでした。詳細はcronログを確認してください。エラーレスポンスは次のように表示される場合があります:';
