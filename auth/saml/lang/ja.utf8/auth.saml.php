@@ -1,13 +1,28 @@
 <?php
 /**
+ * Mahara: Electronic portfolio, weblog, resume builder and social networking
+ * Copyright (C) 2006 onwards Catalyst IT Ltd (http://www.catalyst.net.nz)
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @package    mahara
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2015-08-06 15:35:38 UTC
- * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
- * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
+ * @updated    2024-12-31 17:06:29 UTC
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
+ * @copyright  (C) 2006 onwards Catalyst IT Ltd http://catalyst.net.nz
  *
  */
 
@@ -25,10 +40,9 @@ $string['errorbadconfig'] = 'SimpleSAMLphp設定ディレクトリ %s が正し�
 $string['errorbadcombo'] = 'リモートユーザを選択していない場合のみ、あなたはユーザ自動作成を選択できます。';
 $string['errorbadinstitutioncombo'] = 'このインスティテューション属性およびインスティテューション値の組み合わせの認証インスタンスはすでに存在します。';
 $string['errormissinguserattributes1'] = 'あなたは認証されたようですが私たちは必要なユーザ属性を受信していません。あなたのアイデンティティプロバイダ (IdP) が姓名およびメールアドレスへのSSOフィールドを %s にリリースしているか確認してください。または管理者にご連絡ください。';
-$string['errorregistrationenabledwithautocreate'] = 'インスティテューションが登録を有効にしています。セキュリティ上の理由からユーザ自動作成を除きます。';
 $string['errorremoteuser'] = '「usersuniquebyusername」が無効にされた場合、リモートユーザとの合致は必須です。';
 $string['institutionattribute'] = 'インスティテューション属性 (%s を含む)';
-$string['institutionvalue'] = '属性をチェックするためのインスティテューション値';
+$string['institutionvalue'] = '属性と照合するインスティテューション値';
 $string['link'] = 'アカウントをリンクする';
 $string['linkaccounts'] = 'リモートアカウント %s をローカルアカウント %s とリンクしてもよろしいですか?';
 $string['loginlink'] = 'ユーザに自分のアカウントのリンクを許可する';
