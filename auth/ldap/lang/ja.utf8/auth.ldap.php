@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-11-30 01:09:43 UTC
+ * @updated    2024-12-31 16:05:20 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -43,7 +43,7 @@ $string['ldapfieldforfirstname'] = '名のLDAPフィールド';
 $string['ldapfieldforsurname'] = '姓のLDAPフィールド';
 $string['ldapfieldforstudentid'] = '学籍番号のLDAPフィールド';
 $string['ldapversion'] = 'LDAPバージョン';
-$string['loginlink'] = '人に自分のアカウントのリンクを許可する';
+$string['loginlink'] = '人に自分のアカウントへのリンクを許可する';
 $string['nocreate'] = '新しいアカウントを作成しない';
 $string['nocreatemissinggroups'] = 'まだインスティテューションにLDAPグループが設定されていない場合は作成しません。';
 $string['nomatchingauths'] = 'このインスティテューションのLDAP認証プラグインは見つかりませんでした。';
