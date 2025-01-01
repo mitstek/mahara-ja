@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-02-28 23:58:55 UTC
+ * @updated    2025-01-01 08:44:47 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -74,7 +74,7 @@ $string['link'] = 'アカウントをリンクする';
 $string['linkaccounts'] = 'リモートアカウント「 %s 」をローカルアカウント「 %s 」とリンクしてもよろしいですか?';
 $string['loginlink'] = '人に自分のアカウントへのリンクを許可する';
 $string['logintolink'] = 'リモートアカウントにリンクするため %s にローカルログインする';
-$string['logintolinkdesc'] = '<p><b>現在、あなたはリモートアカウント「 %s 」としてログインしています。リモートアカウントとリンクするためあなたのローカルアカウントを使ってログインしてください。あなたが %s にアカウントを持っていない場合、登録してください。</b></p>';
+$string['logintolinkdesc'] = '<p><b>現在、あなたはリモートアカウント「 %s 」としてログインしています。リモートアカウントとリンクするにはあなたのローカルアカウントでログインしてください。あなたが %s にアカウントを持っていない場合、登録してください。</b></p>';
 $string['logo'] = 'ロゴ';
 $string['institutionregex'] = 'インスティテューション省略名を部分的に文字列一致させる';
 $string['login'] = 'SSO';
