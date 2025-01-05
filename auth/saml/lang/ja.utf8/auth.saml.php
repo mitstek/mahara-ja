@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-01-05 22:45:27 UTC
+ * @updated    2025-01-05 22:49:00 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -77,7 +77,7 @@ $string['loginlink'] = '人に自分のアカウントへのリンクを許可�
 $string['logintolink'] = '%s にローカルログインしてリモートアカウントにリンクする';
 $string['logintolinkdesc'] = '<p><b>現在、あなたはリモートアカウント「 %s 」としてログインしています。リモートアカウントとリンクするにはあなたのローカルアカウントでログインしてください。あなたが %s にアカウントを持っていない場合、登録してください。</b></p>';
 $string['logo'] = 'ロゴ';
-$string['institutionregex'] = 'インスティテューション省略名を部分的に文字列一致させる';
+$string['institutionregex'] = 'インスティテューション省略名で部分的に文字列一致させる';
 $string['login'] = 'SSO';
 $string['newidpentity'] = '新しいアイデンティティプロバイダを追加する';
 $string['notusable'] = 'SimpleSAMLphpライブラリをインストールしてセッション用にMemcacheサーバを設定ください。';
