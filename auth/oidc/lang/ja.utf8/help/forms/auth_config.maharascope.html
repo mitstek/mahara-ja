@@ -1,0 +1,45 @@
+<!-- @license https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later -->
+<!-- @copyright For copyright information on Mahara, please see the README file distributed with this software. -->
+<h1>「mahara」スコープ</h1>
+<p>あなたがアイデンティティプロバイダ (IdP) に「mahara」スコープを持つように設定できた場合、以下のことが可能となります:</p>
+<ul>
+    <li>インスティテューションごとのOIDCログイン
+    <li>アカウント作成時にbase64アバタ画像を提供する機能
+    <li>新しく作成されるアカウントが持つことになるロールの提示
+</ul>
+<p>あなたのIdPに「mahara」スコープを設定するには次のようなものを設定する必要があります:</p>
+<p><strong>スコープクレーム設定</strong></p>
+<code>
+$custom_scopes = [
+    'mahara' => [
+        'description' => 'mahara',
+        'claim_name_prefix' => '',
+        'are_multiple_claim_values_allowed' => true,
+        'claims' => [
+            'institution',
+            'avatar',
+            'roles'
+        ]
+    ]
+];
+</code>
+<p><strong>クレームを内部値にマッピングする</strong></p>
+<code>
+$scope_mappings = [
+    'institution' => [
+        'eduPersonAffiliation',
+    ],
+    'roles' => [
+        'userroles',
+    ],
+    'avatar' => [
+        'avatar',
+    ]
+];
+</code>
+<p>MaharaサイトをIdPとして使用する場合の例を次のファイルでご覧ください: htdocs/auth/saml/config/module_oidc.php</p>
+<p>IdP側でインスティテューションマッピングが実施された場合、あなたは「インスティテューションマッチ属性」および「インスティテューションマッチ値」のフィールドに入力できます。</p>
+<p>前述のサンプルコードを使用した場合:</p>
+<p>インスティテューションマッチ属性 = 'eduPersonAffiliation'<br>インスティテューションマッチ値 = あなたがIdP側でそのキーに設定した値となります。</p>
+<p>あなたがサイトレベルで人にMaharaにログインさせたい場合、このフィールドは「mahara」に設定できます。そして、インスティテューション属性に渡される値「mahara」を持つことができます。</p>
+<p>あなたが人に特定のインスティテューションにログインさせたい場合、このフィールドにはインスティテューションの「インスティテューション省略名」、例えば「myinstitution」が設定されます。そして、インスティテューション属性には「myinstitution」という値が渡されます。</p>

@@ -5,24 +5,24 @@
 <div id="type_help_file_content"></div>
 
 <script type="application/javascript">
-	$(function () {
-		const collection =
-			location.search != "" && location.search.split("?id=")[1];
-		if (collection) {
-			sendjsonrequest(
-				"gettypehelpfilecontent.json.php",
-				{ collectionid: collection },
-				"GET",
-				function (data) {
-					if (data) {
-						$("#type_help_file_content").html(data.data.html);
-					}
-				},
-				function (error) {
-					console.log(error);
-				},
-				true
-			);
-		}
-	});
+\t$(function () {
+\t\tconst collection =
+\t\t\tlocation.search != "" && location.search.split("?id=")[1];
+\t\tif (collection) {
+\t\t\tsendjsonrequest(
+\t\t\t\t"gettypehelpfilecontent.json.php",
+\t\t\t\t{ collectionid: collection },
+\t\t\t\t"GET",
+\t\t\t\tfunction (data) {
+\t\t\t\t\tif (data) {
+\t\t\t\t\t\t$("#type_help_file_content").html(data.data.html);
+\t\t\t\t\t}
+\t\t\t\t},
+\t\t\t\tfunction (error) {
+\t\t\t\t\tconsole.log(error);
+\t\t\t\t},
+\t\t\t\ttrue
+\t\t\t);
+\t\t}
+\t});
 </script>

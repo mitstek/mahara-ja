@@ -9,7 +9,7 @@
     const params = new URLSearchParams(location.search);
     const view = params.get('id');
     const block = $(contextualHelpLink).closest('form').prop('id');
-    const blockid = block.match(/(\d+)/)[0];
+    const blockid = block.match(/(\\d+)/)[0];
     if (view) {
       sendjsonrequest(
         config.wwwroot + "artefact/checkpoint/get_achievement_result.json.php",

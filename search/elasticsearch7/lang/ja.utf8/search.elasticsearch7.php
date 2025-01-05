@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-05-16 10:45:31 UTC
+ * @updated    2025-01-05 22:32:06 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -28,19 +28,19 @@ $string['bypassindexnamedescription'] = '設定された場合、Maharaはメイ
 $string['clusterconfig'] = 'クラスタ設定';
 $string['clusterstatus'] = 'クラスタステータス: %s';
 $string['cligetfailedqueuesizemessage'] = 'Elasticsearch 7のキューに 1 時間以上前の失敗したレコードがあります。';
-$string['cliisqueueolderthanmessage'] = 'Elasticsearch 7のキューに %s 時間以上前の未処理レコードがあります。';
+$string['cliisqueueolderthanmessage'] = 'Elasticsearch 7のキューに %s 時間以上前の失敗したレコードがあります。';
 $string['clicheckingsearchsucceededmessage'] = 'Elasticsearch 7のキューには未処理または失敗したレコードはありません。';
 $string['collection'] = 'コレクション';
 $string['confignotset'] = '(未設定)';
 $string['contains'] = '含む';
 $string['connectionerror'] = '接続エラー';
-$string['createdby'] = '作成者: %s';
+$string['createdby1'] = '作成者: <a href="%s">%s</a>';
 $string['cronlimit'] = 'cronレコード制限';
 $string['cronlimitdescription'] = 'それぞれのcron実行に関してキューからElasticsearchサーバに渡される最大レコード数です (無制限の場合、空白またはゼロにしてください)。';
 $string['cronstatetitle'] = 'cronでインデクス作成する';
 $string['cronstatedescription'] = 'これによりあなたはcron実行時にキュー内のアイテムのインデックス作成を有効または無効にできます。';
 $string['cronlocked'] = '現在、cronはキューのインデックスを作成しています。';
-$string['cronlockedsowillnotreset'] = 'cronがキューのインデックスを作成している間、あなたはインデックスをリセットできません。数分後に再度お試しください。';
+$string['cronlockedsowillnotreset'] = 'cronがキューのインデックスを作成している間、あなたはインデックスをリセットできません。';
 $string['dateoldestfirst'] = '日付 (古い順)';
 $string['daterecentfirst'] = '日付 (新しい順)';
 $string['deleted'] = '削除済み';
@@ -50,6 +50,7 @@ $string['error'] = 'エラー:';
 $string['errortypenotset'] = 'タイプが設定されていません。';
 $string['errorunknown'] = '不明なエラー';
 $string['filterresultsby'] = '結果をフィルタする';
+$string['Folder'] = 'フォルダ';
 $string['forum'] = 'フォーラム';
 $string['forumpost'] = 'フォーラム投稿';
 $string['forumpostedbylabel'] = '投稿者:';
@@ -71,7 +72,7 @@ $string['indexstatusunknown'] = '現在のインデックス「 %s 」のステ�
 $string['license'] = 'ライセンス';
 $string['Media'] = 'メディア';
 $string['monitorfailedqueuesize'] = '1時間以上の失敗レコード数';
-$string['monitorqueuehasolditems'] = 'Elasticsearch 7のキューにある %s 時間以上前の未処理アイテム';
+$string['monitorqueuehasolditems'] = '%s 時間以上処理されていないElasticsearch 7キューのアイテム';
 $string['monitorunprocessedqueuesize'] = '未処理レコード合計数';
 $string['monitorunprocessedqueuerate'] = 'cron制限に対する未処理レコードのパーセンテージ';
 $string['monitorqueuestatus'] = 'Elasticsearch 7キューステータス';
@@ -80,7 +81,7 @@ $string['none'] = 'なし';
 $string['noticeenabled'] = '現在、Elasticsearch 7プラグインは有効です。無効にするには<a href="%s" class="elasticsearch-status">「検索設定」</a>で選択解除してください。';
 $string['noticenotactive'] = 'Elasticsearch 7 サーバにホスト %s およびポート %s で到達できません。Elasticsearch 7 サーバが動作していることを確認してください。';
 $string['noticenotenabled'] = '現在、Elasticsearch 7プラグインは有効にされていません。有効化するには<a href="%s">「検索設定」</a>で選択してください。';
-$string['ownedbygroup'] = '作成グループ: %s';
+$string['ownedbygroup1'] = '作成グループ: <a href="%s">%s</a>';
 $string['owner'] = 'オーナ';
 $string['page'] = 'ページ';
 $string['pages'] = 'ページ';
@@ -114,6 +115,7 @@ $string['resetitemsinindex'] = 'インデックス内';
 $string['resume'] = 'レジュメ';
 $string['scheme'] = 'スキーマ';
 $string['schemedescription'] = 'Elasticsearch 7サーバのスキーマです。デフォルトは次のとおりです: %';
+$string['searchpagetitle'] = '人およびコンテンツを検索する';
 $string['servererror'] = 'サーバへの接続時にエラーが発生しました: %s';
 $string['shards'] = 'シャード';
 $string['shardsdescription'] = '作成されるインデックスの個数 (シャード) です。';

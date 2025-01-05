@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-01-01 08:44:47 UTC
+ * @updated    2025-01-05 22:45:27 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -26,7 +26,7 @@ $string['ssphpnotconfigured'] = 'SimpleSAMLphpが設定されていません。'
 $string['manage_certificate2'] = 'これはSAMLサービスプロバイダの一部として生成された証明書です。';
 $string['manage_new_certificate'] = 'これはSAMLサービスプロバイダの一部として生成された新しい証明書です。
 <br>
-新旧証明書ともに有効です。すべてのアイデンティティプロバイダに新しい証明書を通知した後、あなたは「古い証明書を削除する」ボタンで古い証明書を削除できます。';
+新旧証明書ともに有効です。すべてのアデンティティプロバイダに新しい証明書を通知した後、あなたは「古い証明書を削除する」ボタンで古い証明書を削除できます。';
 $string['nullprivatecert'] = '秘密鍵を保存できませんでした。';
 $string['nullpubliccert'] = '公開証明書を保存できませんでした。';
 $string['defaultinstitution'] = 'デフォルトインスティテューション';
@@ -40,7 +40,8 @@ $string['errorextrarequiredfield'] = '「こちらでアカウントを自動作
 $string['errorretryexceeded'] = '再試行の最大回数 (%s) を越えました: アイデンティティサービスに問題があります。';
 $string['errnosamluser'] = 'アカウントは見つかりませんでした。';
 $string['errorssphpsetup'] = 'SAMLが正しく設定されていません。あなたは最初にコマンドラインから「make ssphp」を実行する必要があります。';
-$string['errorbadlib'] = 'SimpleSAMLphpライブラリの「autoloader」ファイルが %s にありません。<br>「make ssphp」でSimpleSAMLphpをインストールできること、また、ファイルを読み込めることを確認してください。';
+$string['errorbadlib'] = 'SimpleSAMLphpライブラリの「autoloader」ファイルが %s で見つかりませんでした。<br>「make ssphp」でSimpleSAMLphpをインストールしてファイルを読めることを確認してください。';
+$string['errorbadmodule'] = 'SimpleSAMLPHPモジュール「 %s 」が見つかりませんでした。<br>モジュールのインストールおよび有効化を確認してください。';
 $string['errorupdatelib'] = 'あなたの現在のSimpleSAMLphpライブラリは旧バージョンです。あなたは「make cleanssphp && make ssphp」を実行する必要があります。';
 $string['errornovalidsessionhandler'] = 'SimpleSAMLphpセッションハンドラの設定が正しくないか、現在サーバを利用できません。';
 $string['errornomemcache'] = 'auth/samlのためのMemcacheの設定が正しくないか、現在Memcacheサーバを利用できません。';
@@ -50,7 +51,7 @@ $string['errorbadmetadata1'] = '不正なSAMLメタデータです。次の問�
 $string['errorbadinstitutioncombo'] = 'このインスティテューション属性およびインスティテューション値の組み合わせの認証インスタンスはすでに存在します。';
 $string['errormissingmetadata'] = 'あなたは新しいアイデンティティプロバイダメタデータの追加を選択しましたが何も提供されていません。';
 $string['errormissinguserattributes1'] = 'あなたは認証されているようですが、私たちは必要なユーザ属性を受け取っていません。あなたのアイデンティティプロバイダがSSOの姓名およびメールアドレスフィールドを %s にリリースしているか確認してください。または管理者にご連絡ください。';
-$string['errorregistrationenabledwithautocreate1'] = 'インスティテューションが登録を有効にしています。セキュリティ上の理由から、あなたがリモートユーザ名を使用している場合を除き、アカウント自動作成は除外されます。';
+$string['errorregistrationenabledwithautocreate1'] = 'セキュリティ上の理由から、あなたがリモートユーザ名を使用している場合を除き、アカウント自動作成は除外されます。';
 $string['errorremoteuser1'] = '「usersuniquebyusername」が無効にされた場合、「remoteuser」との合致は必須です。';
 $string['IdPSelection'] = 'アイデンティティプロバイダ選択';
 $string['noidpsfound'] = 'アイデンティティプロバイダなし';
@@ -73,7 +74,7 @@ $string['libchecks'] = '正しいライブラリがインストールされて�
 $string['link'] = 'アカウントをリンクする';
 $string['linkaccounts'] = 'リモートアカウント「 %s 」をローカルアカウント「 %s 」とリンクしてもよろしいですか?';
 $string['loginlink'] = '人に自分のアカウントへのリンクを許可する';
-$string['logintolink'] = 'リモートアカウントにリンクするため %s にローカルログインする';
+$string['logintolink'] = '%s にローカルログインしてリモートアカウントにリンクする';
 $string['logintolinkdesc'] = '<p><b>現在、あなたはリモートアカウント「 %s 」としてログインしています。リモートアカウントとリンクするにはあなたのローカルアカウントでログインしてください。あなたが %s にアカウントを持っていない場合、登録してください。</b></p>';
 $string['logo'] = 'ロゴ';
 $string['institutionregex'] = 'インスティテューション省略名を部分的に文字列一致させる';
@@ -142,3 +143,6 @@ $string['identityprovider'] = 'アイデンティティプロバイダ';
 $string['selectmigrateto'] = '移動するインスティテューションを選択する ...';
 $string['samlneedtoremovephar'] = '%s ファイルを削除できません。ファイルを削除して再度「make ssphp」を実行してください。';
 $string['instancename'] = 'インスタンス名';
+$string['oidc_login'] = 'Maharaアイデンティティプロバイダ';
+$string['oidc_loginheader'] = 'ログイン対象: %s';
+$string['oidc_logintext'] = 'このサイトのあなたの認証情報でログインしてください。<br>注意: あなたのアカウントは内部認証を使用する必要があります。';

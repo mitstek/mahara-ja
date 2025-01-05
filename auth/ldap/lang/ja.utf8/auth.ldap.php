@@ -1,24 +1,9 @@
 <?php
-/**
- *
- * @package    mahara
- * @subpackage lang (Japanese)
- * @translator Mitsuhiro Yoshida (https://mitstek.com/)
- * @started    2008-01-19 11:25:00 UTC
- * @updated    2020-11-30 01:09:43 UTC
- * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
- * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
- *
- */
 
 defined('INTERNAL') || die();
 
-$string['title'] = 'LDAP';
-$string['ldapconfig'] = 'LDAP設定';
-$string['description'] = 'LDAPサーバで認証する';
-$string['notusable'] = 'PHP LDAP拡張モジュールをインストールしてください。';
-$string['emailmissing'] = 'メールアドレスがありません。';
 $string['attributename'] = '値を基にグループを同期する場合に使用するLDAP属性名です (必須および大文字小文字を区別します)。';
+$string['cannotconnect'] = 'LDAPホストに接続できません。';
 $string['cannotdeleteandsuspend'] = '「-d」および「-s」は同時に指定できません。';
 $string['cli_info_sync_groups'] = 'このコマンドラインPHPスクリプトはLDAPディレクトリとグループのインスティテューションリストの同期を試みます。
 存在しないグループは「インスティテューション名 : LDAPグループ名」のような名称で作成されます。';
@@ -26,32 +11,36 @@ $string['cli_info_sync_groups_attribute'] = 'このコマンドラインPHPス�
 存在しないグループは「インスティテューション名 : LDAP属性値」のような名称で作成されます。';
 $string['cli_info_sync_users'] = 'このコマンドラインPHPスクリプトはLDAPディレクトリとMaharaアカウントのインスティテューションリストの同期を試みます。';
 $string['contexts'] = 'コンテクスト';
+$string['description'] = 'LDAPサーバで認証する';
 $string['distinguishedname'] = '識別名';
 $string['dodelete'] = 'LDAPに存在しなくなったアカウントを削除する';
 $string['dosuspend'] = 'LDAPに存在しなくなったアカウントを利用停止する';
 $string['doupdate'] = '既存のアカウントをLDAPデータ (long) で更新する';
 $string['dryrun'] = 'ダミー実行です。データベース処理は実行されません。';
+$string['emailmissing'] = 'メールアドレスがありません。';
 $string['excludelist'] = 'これらの正規表現に名称が合致するLDAPグループを除く';
 $string['extrafilterattribute'] = 'アカウント検索を制限するための追加LDAPフィルタ';
 $string['grouptype'] = '作成するMaharaグループタイプ - デフォルト「standard」';
 $string['hosturl'] = 'ホストURL';
 $string['includelist'] = 'これらの正規表現に名称が合致するLDAPグループのみ処理する';
 $string['institutionname'] = '処理するインスティテューション名 (必須)';
-$string['ldapfieldforpreferredname'] = '表示名のLDAPフィールド';
+$string['ldapconfig'] = 'LDAP設定';
 $string['ldapfieldforemail'] = 'メールアドレスのLDAPフィールド';
 $string['ldapfieldforfirstname'] = '名のLDAPフィールド';
-$string['ldapfieldforsurname'] = '姓のLDAPフィールド';
+$string['ldapfieldforpreferredname'] = '表示名のLDAPフィールド';
 $string['ldapfieldforstudentid'] = '学籍番号のLDAPフィールド';
+$string['ldapfieldforsurname'] = '姓のLDAPフィールド';
 $string['ldapversion'] = 'LDAPバージョン';
 $string['loginlink'] = '人に自分のアカウントへのリンクを許可する';
 $string['nocreate'] = '新しいアカウントを作成しない';
 $string['nocreatemissinggroups'] = 'まだインスティテューションにLDAPグループが設定されていない場合は作成しません。';
 $string['nomatchingauths'] = 'このインスティテューションのLDAP認証プラグインは見つかりませんでした。';
-$string['starttls'] = 'TLS暗号化';
+$string['notusable'] = 'PHP LDAP拡張モジュールをインストールしてください。';
 $string['password'] = 'パスワード';
 $string['searchcontexts'] = 'これらのコンテクストでの検索を制限します (認証プラグインで設定された値をオーバライドします)。';
 $string['searchsubcontexts'] = 'サブコンテクストを検索する';
 $string['searchsubcontextscliparam'] = 'サブコンテクスト内で (1) または (0) ではないものを検索します (認証プラグインで設定された値をオーバライドします)。';
+$string['starttls'] = 'TLS暗号化';
 $string['syncgroupsautocreate'] = '未作成のグループを自動作成する';
 $string['syncgroupsbyclass'] = 'LDAPオブジェクトとして保存されているグループを同期する';
 $string['syncgroupsbyuserfield'] = 'ユーザ属性として保存されているグループを同期する';
@@ -73,14 +62,14 @@ $string['syncgroupsusergroupnamesdesc'] = 'すべての値を受け入れるに�
 $string['syncuserscreate'] = 'cronジョブでアカウントを自動作成する';
 $string['syncuserscron'] = 'cronジョブでアカウントを自動同期する';
 $string['syncusersextrafilterattribute'] = '同期のための追加LDAPフィルタ';
-$string['syncuserssettings'] = 'アカウント同期';
-$string['syncusersupdate'] = 'cronジョブでアカウント情報を更新する';
 $string['syncusersgonefromldap'] = 'アカウントがLDAPに存在しなくなった場合';
+$string['syncusersgonefromldapdelete'] = 'アカウントおよびコンテンツすべてを削除する';
 $string['syncusersgonefromldapdonothing'] = '何もしない';
 $string['syncusersgonefromldapsuspend'] = 'アカウントを利用停止する';
-$string['syncusersgonefromldapdelete'] = 'アカウントおよびコンテンツすべてを削除する';
+$string['syncuserssettings'] = 'アカウント同期';
+$string['syncusersupdate'] = 'cronジョブでアカウント情報を更新する';
+$string['title'] = 'LDAP';
+$string['updateuserinfoonlogin'] = 'ログイン時、アカウント情報を更新する';
 $string['userattribute'] = 'ユーザ属性';
 $string['usertype'] = 'ユーザタイプ';
 $string['weautocreateusers'] = 'こちらでアカウントを自動作成する';
-$string['updateuserinfoonlogin'] = 'ログイン時、アカウント情報を更新する';
-$string['cannotconnect'] = 'LDAPホストに接続できません。';

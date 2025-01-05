@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2022-02-15 21:06:04 UTC
+ * @updated    2025-01-05 22:34:17 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -86,7 +86,7 @@ $string['existingplans'] = '既存プラン';
 $string['duplicatedtask'] = '複製タスク';
 $string['existingtasks'] = '既存タスク';
 $string['progress_plan'] = '%s プランを追加する';
-$string['progress_task'] = '%s タスクをプランに追加する';
+$string['progress_task'] = '%s  タスクをプランを追加する';
 $string['showassignedview'] = 'タスクプレビュー';
 $string['showassignedoutcome'] = 'ポートフォリオプレビュー';
 $string['editassignedoutcome'] = 'ポートフォリオを開く';
@@ -119,7 +119,7 @@ $string['remindersubject'] = 'プランのタスク完了に関するリマイ�
 $string['URL'] = 'タスクにリンクする';
 $string['reminderinfo'] = '情報';
 $string['reminderinfonearlydue'] = '残り %s 日';
-$string['reminderinfodue'] = '期限切れまで %s 日';
+$string['reminderinfodue'] = '%s 日超過';
 $string['emailfooter'] = 'これは %s から自動生成された通知です。';
 $string['youhaveremindertasksmessagetext'] = '%s さん、こんにちは。
 
