@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-01-10 00:24:40 UTC
+ * @updated    2025-01-10 08:21:53 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,8 +13,8 @@
 
 defined('INTERNAL') || die();
 
-$string['title'] = '相互評価';
-$string['description'] = '相互評価を表示するためのブロックです。';
+$string['title'] = '評価';
+$string['description'] = '相互評価または自己評価を表示するためのブロックです。';
 $string['blockcontent'] = 'インストラクション';
 $string['nopeerassessment'] = '評価フィードバックはありません。';
 $string['addpeerassessment'] = '相互評価を追加する';
