@@ -80,6 +80,6 @@ $string['simplesamlphplib'] = 'SimpleSAMLphpライブラリディレクトリ';
 $string['simplesamlphpconfig'] = 'SimpleSAMLphp設定ディレクトリ';
 $string['weautocreateusers'] = 'こちらでユーザを自動作成する';
 $string['remoteuser'] = 'ユーザ属性をリモートユーザに合致させる';
-$string['selectidp'] = 'あなたがログインに使いたいアイデンティティプロバイダを選択してください。';
+$string['selectidp'] = 'あなたログインしたいアイデンティティプロバイダを選択してください。';
 
 ?>
