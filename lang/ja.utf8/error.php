@@ -7,7 +7,7 @@ $string['accessdeniedbadge'] = 'あなたにはこのバッジを閲覧するた
 $string['accessdeniedexception'] = 'あなたにはこのページを閲覧するためのアクセス権がありません。';
 $string['accessdeniednourlsecret'] = 'あなたにはこの機能へのアクセス権がありません。あなたのconfig.phpファイルからURLの一部として「urlsecret」の値を提供してください。';
 $string['accessdeniedobjection'] = 'アクセスが拒否されました。問題点はすでに別の管理者により解決されています。';
-$string['accessdeniedsuspension'] = 'このポートフォリオはレビュ中です。';
+$string['accessdeniedsuspension'] = 'このポートフォリオはレビュー中です。';
 $string['apcstatoff'] = 'あなたのサーバはapc.stat=0によりAPCを動作しているようです。Maharaはこの設定をサポートしていません。php.iniファイルでapc.stat=1に設定してください。
 
 あなたが共有ホスティングを利用している場合、ホスティングプロバイダに依頼する以外、apc.statを有効にするためにできることは多くありません。別のホストへの移行を考えても良いでしょう。';
