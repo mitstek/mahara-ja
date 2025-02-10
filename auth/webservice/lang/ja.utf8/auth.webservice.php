@@ -15,7 +15,7 @@ defined('INTERNAL') || die();
 
 $string['webservice'] = 'ウェブサービス';
 $string['title'] = 'ウェブサービス';
-$string['description'] = 'ウェブサービスのみのユーザをMaharaのデータベースで認証する';
+$string['description'] = 'Maharaデータベースで認証されたウェブサービスのみのユーザ';
 $string['webservicesconfig'] = '設定';
 $string['webservicesconfigdesc'] = 'ここであなたは様々なウェブサービスルールを変更、有効または無効にできます。';
 $string['completeregistration'] = '登録を完了する';
@@ -197,7 +197,7 @@ $string['errorinvalidparam'] = 'パラメータ「 %s 」が有効ではあり�
 $string['errorinvalidparamsapi'] = '無効な外部APIパラメータです。';
 $string['errorinvalidparamsdesc'] = '無効な外部APIレスポンス記述です。';
 $string['errorinvalidresponseapi'] = '無効な外部APIレスポンスです。';
-$string['errorinvalidresponsedesc'] = '無効な外部APIレスポンスウェブサービスのみのユーザをMaharaのデータベースで認証するです。';
+$string['errorinvalidresponsedesc'] = '無効な外部APIレスポンスMaharaデータベースで認証されたウェブサービスのみのユーザです。';
 $string['errormissingkey'] = '単一構造の必須キーがありません: %s';
 $string['errornotemptydefaultparamarray'] = '名称「 %s 」のウェブサービス記述パラメータは単一または複数構造です。デフォルトは空の配列にのみできます。ウェブサービス記述を確認してください。';
 $string['erroronlyarray'] = '配列のみ許可されます。';
