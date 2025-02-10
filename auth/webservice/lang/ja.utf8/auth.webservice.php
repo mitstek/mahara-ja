@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['title'] = 'ウェブサービス';
 $string['webservice'] = 'ウェブサービス';
 $string['externalapp'] = '外部アプリ:';
-$string['description'] = 'ウェブサービスのみのユーザをMaharaのデータベースで認証する';
+$string['description'] = 'Maharaデータベースで認証されたウェブサービスのみのユーザ';
 $string['webservicesconfig'] = '設定';
 $string['webservicesconfigdesc'] = 'ここであなたは様々なウェブサービスルールを設定、有効または無効にできます。';
 $string['webservicesconfigdescshort'] = 'あなたのサイトのウェブサービスアクセスを設定および管理します。';
