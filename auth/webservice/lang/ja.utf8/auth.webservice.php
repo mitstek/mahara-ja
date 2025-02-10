@@ -5,8 +5,8 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2016-09-29 16:48:56 UTC
- * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
+ * @updated    2025-02-10 01:23:40 UTC
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
  */
@@ -197,7 +197,7 @@ $string['errorinvalidparam'] = 'パラメータ「 %s 」が有効ではあり�
 $string['errorinvalidparamsapi'] = '無効な外部APIパラメータです。';
 $string['errorinvalidparamsdesc'] = '無効な外部APIレスポンス記述です。';
 $string['errorinvalidresponseapi'] = '無効な外部APIレスポンスです。';
-$string['errorinvalidresponsedesc'] = '無効な外部APIレスポンスMaharaデータベースで認証されたウェブサービスのみのユーザです。';
+$string['errorinvalidresponsedesc'] = '無効な外部APIレスポンス記述です。';
 $string['errormissingkey'] = '単一構造の必須キーがありません: %s';
 $string['errornotemptydefaultparamarray'] = '名称「 %s 」のウェブサービス記述パラメータは単一または複数構造です。デフォルトは空の配列にのみできます。ウェブサービス記述を確認してください。';
 $string['erroronlyarray'] = '配列のみ許可されます。';
