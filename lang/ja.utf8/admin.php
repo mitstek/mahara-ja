@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-01-06 23:47:26 UTC
+ * @updated    2025-02-10 05:16:51 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1313,6 +1313,17 @@ $string['cli_pwreset_prompt2'] = '新しいパスワードを再度入力して�
 $string['cli_pwreset_success'] = '「 %s 」のパスワードが正常にリセットされました。';
 $string['cli_pwreset_success_forcepasswordchange'] = '次回ログイン時、人はパスワードのリセットを強制されます。';
 $string['cli_pwreset_typo'] = '申し訳ございません、パスワードが合致しません。';
+$string['cli_updateemail_info'] = 'あなたはこのコマンドラインPHPスクリプトで人のメールアドレスを追加または更新できます。あなたは新しいメールアドレスの主アドレスへの設定もできます。';
+$string['cli_updateemail_email'] = '新しいメールアドレス';
+$string['cli_updateemail_oldemail'] = '置換対象メールアドレス';
+$string['cli_updateemail_makeprimary'] = '新しいメールアドレスを主アドレスにする';
+$string['cli_updateemail_added_email'] = 'メールアドレス「 %s 」が「 %s 」に追加されました。';
+$string['cli_updateemail_update_email'] = 'メールアドレスが「 %s 」から「 %s 」に更新されました (ユーザ: %s)。';
+$string['cli_updateemail_oldemail_not_found'] = '置換対象メールアドレスが見つかりませんでした。';
+$string['cli_updateemail_email_primary'] = 'メールアドレス「 %s 」が主メールアドレスとして設定されました。';
+$string['cli_updateemail_email_alredy_exists'] = 'メールアドレスがすでに存在します。あなたがメールアドレスを主アドレスに設定したい場合、以下のコマンドを実行してください:
+sudo -u www-data php update_email.php -u=%s -e=%s -oe=%s -mp=true';
+$string['cli_updateemail_done'] = '完了';
 $string['cli_close_site_info'] = 'このコマンドラインPHPスクリプトによりあなたが非サイト管理者であってもサイトをクローズおよび再オープンできます (これは管理ホームページで「サイトをクローズする」ボタンをクリックした場合と同じです)。';
 $string['cli_close_site_siteclosed'] = 'メンテナンスのためサイトがクローズされました。';
 $string['cli_close_site_siteopen'] = 'サイトがオープンされました。';

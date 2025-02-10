@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-02-07 04:18:17 UTC
+ * @updated    2025-02-10 05:17:11 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -201,6 +201,7 @@ $string['youhavenottaggedanythingyet'] = 'あなたはまだ何もタグ付け�
 $string['mytags'] = 'マイタグ';
 $string['Tag'] = 'タグ';
 $string['itemstaggedwith'] = '「 %s 」でタグ付けされたアイテム';
+$string['nitems'] = '%s アイテム';
 $string['searchresultsfor'] = '検索結果:';
 $string['alltags'] = 'すべてのタグ';
 $string['sortalpha'] = 'タグをアルファベット順に並べ替える';
