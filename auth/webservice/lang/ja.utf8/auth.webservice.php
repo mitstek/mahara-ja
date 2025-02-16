@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-02-12 01:13:27 UTC
+ * @updated    2025-02-16 22:18:15 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -69,7 +69,7 @@ $string['registeredemailmessagehtml'] = '<p>%s さん</p>
 
 <pre>--
 %s チーム</pre>';
-$string['registeredok'] = '<p>あなたは正常に登録されました。あなたのメールアカウントでアカウントを有効にするためのインストラクションを確認してください。</p>';
+$string['registeredok'] = '<p>あなたは正常に登録されました。あなたのアカウントを有効化するためのインストラクションをメールアカウントでご確認ください。</p>';
 $string['registrationnosuchkey'] = '申し訳ございません、このキーでの登録はできないようです。恐らく、あなたが登録を完了するため24時間以上待機していたと思われます。そうでない場合、これは私たちに責任があります。';
 $string['registrationunsuccessful'] = '申し訳ございません、あなたの登録は正常に完了しませんでした。これはあなたではなく、私たちに責任があります。後ほど再度お試しください。';
 $string['usernameinvalidform'] = 'ユーザ名には空白を除く半角英数字および標準的な記号を使用できます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
