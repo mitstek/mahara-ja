@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2023-05-16 10:44:13 UTC
+ * @updated    2025-02-17 05:56:44 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -427,6 +427,8 @@ $string['Grouphomepage'] = 'グループホームページ';
 $string['grouphomepage'] = 'グループホームページ';
 $string['Progress'] = 'ポートフォリオ完了';
 $string['progress'] = 'ポートフォリオ完了';
+$string['activity'] = '活動';
+$string['Activity'] = '活動';
 $string['grouphomepagedescription'] = 'グループホームページにはこのグループのAboutタブに表示されるコンテンツを含みます。';
 $string['pageaccessrules'] = 'ページアクセスルール';
 $string['sharedwithme'] = '私への共有';
