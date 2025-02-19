@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-02-16 22:18:15 UTC
+ * @updated    2025-02-19 00:36:48 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -74,7 +74,7 @@ $string['registrationnosuchkey'] = '申し訳ございません、このキー�
 $string['registrationunsuccessful'] = '申し訳ございません、あなたの登録は正常に完了しませんでした。これはあなたではなく、私たちに責任があります。後ほど再度お試しください。';
 $string['usernameinvalidform'] = 'ユーザ名には空白を除く半角英数字および標準的な記号を使用できます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
 $string['usernameinvalidadminform'] = 'ユーザ名には空白を除く半角英数字および標準的な記号を使用できます。また、ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
-$string['youmaynotregisterwithouttandc'] = '<a href="terms.php">利用条件</a>に従うことを同意しない限り、あなたは登録できません。';
+$string['youmaynotregisterwithouttandc'] = '<a href="terms.php">利用条件</a>に従うことに同意しない限り、あなたは登録できません。';
 $string['pluginconnections'] = '接続オブジェクト';
 $string['nodefinedconnections'] = 'プラグインで定義されているウェブサービス接続はありません。最初に接続を定義してください。';
 $string['instancelistempty'] = 'このインスティテューションの接続オブジェクトはありません。';
