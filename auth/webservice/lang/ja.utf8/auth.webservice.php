@@ -47,7 +47,7 @@ $string['registrationunsuccessful'] = '申し訳ございません、あなた�
 $string['usernamealreadytaken'] = '申し訳ございません、このユーザ名はすでに取得されています。';
 $string['usernameinvalidform'] = 'ユーザ名には空白を除く半角英数字および標準的な記号を使用できます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
 $string['usernameinvalidadminform'] = 'ユーザ名には空白を除く半角英数字および標準的な記号を使用できます。また、ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
-$string['youmaynotregisterwithouttandc'] = '<a href="terms.php">利用条件</a>に従うことを同意しない限り、あなたは登録できません。';
+$string['youmaynotregisterwithouttandc'] = '<a href="terms.php">利用条件</a>に従うことに同意しない限り、あなたは登録できません。';
 $string['control_webservices'] = 'ウェブサービスをOnまたはOffに切り替える:';
 $string['masterswitch'] = 'ウェブサービスマスタスイッチ';
 $string['protocolswitches'] = 'プロトコルをOnまたはOffに切り替える';
