@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-02-19 00:36:48 UTC
+ * @updated    2025-02-23 15:42:00 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -84,7 +84,7 @@ $string['clientconnections'] = 'クライアント接続';
 $string['plugin'] = '接続プラグイン';
 $string['clienturl'] = 'ウェブサービスURL';
 $string['password'] = 'パスワード';
-$string['parameters'] = '渡すための固定パラメータ';
+$string['parameters'] = '渡す固定パラメータ';
 $string['certificate'] = 'XML-RPCパートナ証明書';
 $string['enable'] = '接続有効';
 $string['json'] = 'JSONエンコード';
