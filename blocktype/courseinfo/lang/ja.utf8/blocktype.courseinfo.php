@@ -53,7 +53,7 @@ $string['plugininfo'] = '<p>外部サイトから人のコース完了に関す�
 <li>認証タイプ: 「トークン」を選択してください。</li>
 <li>ウェブサービスURL: 外部ソースのRESTサーバのURLを設定してください。例) https://moodle/webservice/rest/server.php</li>
 <li>トークン: 外部関数に接続するためにここで必要なアクセス権のある外部ソース側で生成されたトークンを設定してください。</li>
-<li>渡すための固定パラメータ: URLで渡す必要のある特別パラメータを追加してください。例) Moodleの場合、あなたは「moodlewsrestformat=json」を追加する必要があります。</li>
+<li>渡す固定パラメータ: URLで渡す必要のある特別パラメータを追加してください。例) Moodleの場合、あなたは「moodlewsrestformat=json」を追加する必要があります。</li>
 <li>JSONエンコード: 「Yes」を設定してください。</li>
 <li>アカウントIDの外部関数: 提供されたメールアドレスを基に外部ウェブサービスの関数がアカウントIDを戻せる場合、これを設定してください。例) Moodleの場合「core_user_get_users_by_field」です。</li>
 <li>コース完了の外部関数: 提供されたアカウントIDを基に外部ウェブサービスの関数がコース完了情報を戻せる場合、これを設定してください。例) Moodleの場合、「local_wdhb_get_course_completion_data」のようなカスタム関数です。</li>
