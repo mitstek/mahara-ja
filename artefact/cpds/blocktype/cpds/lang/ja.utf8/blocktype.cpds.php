@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-02-26 03:30:45 UTC
+ * @updated    2025-02-26 07:07:08 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,7 +13,7 @@
 
 defined('INTERNAL') || die();
 
-$string['title'] = 'CPD';
+$string['title'] = 'CPD活動';
 $string['description'] = 'あなたの継続的専門能力開発 (CPD) の記録を表示します。';
 $string['defaulttitledescription'] = '空白の場合、CPDのタイトルが使用されます。';
 $string['nocpdsaddone'] = 'まだCPDはありません。%sCPDを追加してください%s!';
