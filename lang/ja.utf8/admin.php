@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-02-10 05:16:51 UTC
+ * @updated    2025-02-27 06:48:30 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1527,6 +1527,7 @@ $string['registerrefusal'] = 'あなたが %s に同意しない場合、アカ�
 $string['registerprivacy'] = 'プライバシ保護方針をお読みください。プライバシ保護方針に同意しない場合、あなたはサイトでアカウントを作成できません。';
 $string['registertermsandconditions'] = '利用条件をお読みください。利用条件に同意しない場合、あなたはサイトでアカウントを作成できません。';
 $string['enterreason'] = '拒否理由をここに入力してください ...';
+$string['privacyrefusalnoreason'] = 'プライバシ保護方針または利用規約に同意しない場合、あなたは理由を提示する必要があります。';
 $string['privacylowcase'] = 'プライバシ保護方針';
 $string['termsandconditionslowcase'] = '利用条件';
 $string['hasrefused'] = 'は %s を拒否しました。';
