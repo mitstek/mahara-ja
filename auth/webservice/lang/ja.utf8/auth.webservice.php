@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-02-23 15:42:00 UTC
+ * @updated    2025-03-02 22:53:57 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -98,7 +98,7 @@ $string['emptycert'] = '証明書を提供する必要があります。';
 $string['header'] = 'ヘッダ名';
 $string['useheader'] = 'ヘッダに認証を付加する';
 $string['invalidauthtypecombination'] = '%s に無効な認証タイプが選択されました。';
-$string['emptycertextended'] = '証明書ベースの認証を使用する場合、あなたはトークまたはユーザ名/パスワードも入力する必要があります。';
+$string['emptycertextended'] = '証明書ベースの認証を使用する場合、あなたはトークンまたはユーザ名/パスワードも入力する必要があります。';
 $string['emptyoauthkey'] = 'OAuth1.xにコンシューマキーを提供する必要があります。';
 $string['emptyoauthsecret'] = 'OAuth1.xにシークレットを提供する必要があります。';
 $string['consumer'] = 'コンシューマキー';
