@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-02-27 06:48:30 UTC
+ * @updated    2025-03-04 04:06:43 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -943,7 +943,7 @@ $string['newusercreated'] = '新しいアカウントが正常に作成されま
 $string['noleap2axmlfiledetected'] = 'leap2a.xmlファイルが検出されませんでした - 再度あなたのエクスポートファイルを確認してください。';
 $string['Or'] = 'または';
 $string['userwillreceiveemailandhastochangepassword'] = '新しいアカウント詳細を記載したメールが送信されます。初回ログイン時、パスワードの変更を求められます。';
-$string['uploadleap2afile'] = 'Leap2Aファイルをアップロードする';
+$string['uploadzipfile'] = 'エクスポート済みZIPファイルをアップロードする';
 $string['usercreationmethod'] = '1 - 作成方法';
 $string['basicdetails'] = '2 - 基本情報';
 $string['create'] = '3 - 作成';
