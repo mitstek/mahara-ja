@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-03-02 22:53:57 UTC
+ * @updated    2025-03-09 23:28:36 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -117,7 +117,7 @@ $string['oauth'] = 'OAuth';
 $string['rest'] = 'REST';
 $string['soap'] = 'SOAP';
 $string['xmlrpc'] = 'XML-RPC';
-$string['manage_certificates'] = '<a href="%s">ネットワーキング</a>サービスの一部として生成された証明書です。これらの値は特定のウェブサービストークンまたはサービスユーザに対してウェブサービスセキュリティ署名および暗号化が有効にされた場合にMaharaによって使用されます (XML-RPCおよびレガシMNetのみ)。';
+$string['manage_certificates'] = '<a href="%s">ネットワーキング</a>サービスの一部として生成された証明書です。これらの値は特定のウェブサービストークンまたはサービスユーザに対してウェブサービスセキュリティ署名および暗号化が有効にされた場合にMaharaで使用されます (XML-RPCおよびレガシMNetのみ)。';
 $string['certificates'] = 'ネットワーク証明書';
 $string['servicefunctiongroups'] = 'サービスグループを管理する';
 $string['servicegroup'] = 'サービスグループ: %s';
@@ -128,8 +128,8 @@ $string['customservicegroup'] = '(カスタム)';
 $string['functions'] = '関数';
 $string['functionlist'] = '関数リスト';
 $string['enableservice'] = 'サービスを有効または無効にする';
-$string['restricteduserswarning'] = '警告: このサービスには既存のトークンユーザが存在するためあなたが「 %s 」を有効にした場合、アクセスできないようになります。';
-$string['tokenuserswarning'] = '警告: このサービスには既存のトークンユーザが存在するためあなたが「 %s 」を無効にした場合、アクセスできないようになります。';
+$string['restricteduserswarning'] = '警告: このサービスには既存のトークンユーザが存在するため、あなたが「 %s 」を有効にした場合、アクセスできないようになります。';
+$string['tokenuserswarning'] = '警告: このサービスには既存のトークンユーザが存在するため、あなたが「 %s 」を無効にした場合、アクセスできないようになります。';
 $string['usersonly'] = 'ユーザのみ';
 $string['tokensonly'] = 'トークンのみ';
 $string['switchtousers'] = 'ユーザにスイッチする';
