@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-03-09 23:28:36 UTC
+ * @updated    2025-03-10 03:16:59 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -421,3 +421,5 @@ $string['viewnotsubmittedtothishost'] = '%s (ID: %s) はホスト「 %s 」に�
 $string['exporttypenotavailable'] = 'エクスポートメソッド「 %s 」は利用できません。そのメソッドが有効であるか確認してください。';
 $string['deprecatedproto'] = '%s プロトコルは非推奨であり、将来のリリースで削除される予定です。別のプロトコルを使用するようあなたのウェブサービスを変換してください。';
 $string['noreturn'] = 'このウェブサービスのコールからは何も返されませんでした。';
+$string['useraccountsuspended'] = 'ID「 %s 」のアカウントは %s の時点で利用停止されました。';
+$string['useraccountexpired'] = 'ID「 %s 」のアカウントは %s の時点で有効期限切れとなりました。';
