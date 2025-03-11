@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-03-10 03:16:59 UTC
+ * @updated    2025-03-11 20:19:01 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -136,7 +136,7 @@ $string['switchtousers'] = 'ユーザにスイッチする';
 $string['switchtotokens'] = 'トークンにスイッチする';
 $string['invalidservice'] = '無効なサービスが選択されました。';
 $string['invalidfunction'] = '無効な関数が選択されました。';
-$string['tokengenerationfailed'] = 'トークンの生成に失敗しました。';
+$string['tokengenerationfailed'] = 'トークン生成に失敗しました。';
 $string['parametercannotbevalueoptional'] = 'パラメータは任意の値にできません。';
 $string['invalidresponse'] = '無効なレスポンス';
 $string['invalidstatedetected'] = '無効な状態が検出されました。';
