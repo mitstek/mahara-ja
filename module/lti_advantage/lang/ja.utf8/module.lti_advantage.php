@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-03-19 01:44:59 UTC
+ * @updated    2025-03-20 04:28:35 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -58,6 +58,6 @@ $string['deployment3_description'] = '必要であれば、追加デプロイメ
 $string['deeplinkportfoliostitle'] = 'ポートフォリオ';
 $string['deeplinknoportfolios'] = 'あなたにはポートフォリオがありません。';
 $string['confirmareyousure'] = '本当によろしいですか?';
-$string['confirmwarning1'] = 'あなたが「 %s 」を送信した場合、コピーが作成されて評価のために送信されます。あなたはオリジナルのポートフォリオの編集を継続できます。しかし、あなたはリリースされるまで送信済みのコピーは編集できません。続けてもよろしいですか?';
+$string['confirmwarning2'] = 'あなたが「<span class="title" id="submissionTitle">ページ</span>」を送信した場合、コピーが作成されて評価のために送信されます。あなたはオリジナルのポートフォリオの編集を継続できます。しかし、あなたはリリースされるまで送信済みのコピーは編集できません。続けてもよろしいですか?';
 $string['confirmbtntxtconfirm'] = '確認';
 $string['confirmbtntxtcancel'] = 'キャンセル';
