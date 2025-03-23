@@ -36,7 +36,7 @@ $string['confighelp'] = 'このブロックで表示するバッジコレクシ�
 $string['obppublicbadges'] = 'オープンバッジパスポート内すべてのパブリックバッジ';
 $string['title_backpack'] = 'Mozillaバックパック';
 $string['title_passport'] = 'オープンバッジパスポート';
-$string['title_badgr'] = 'バッジャパッケージ';
+$string['title_badgr'] = 'Badgrバックパック';
 $string['fetchingbadges'] = 'エントリを取得しています。しばらくお待ちください。';
 $string['missingbadgesources'] = 'ソース設定がありません。あなたのconfig.phpファイルに追加してください。例:
 <br>
@@ -45,14 +45,14 @@ $cfg->openbadgedisplayer_source = \'{"backpack":"https://backpack.openbadges.org
 $string['selectall'] = 'すべてを選択する';
 $string['selectnone'] = 'すべての選択を解除する';
 $string['featuredisabled'] = 'openbadgedisplayerブロックタイプが有効ではありません。';
-$string['badgrsourcemissing1'] = 'あなたのconfig.phpファイルのソース設定にバッジャがありません。';
-$string['badgrusername'] = 'バッジャユーザ名';
-$string['badgrpassword'] = 'バッジャパスワード';
-$string['badgrtokentitle'] = 'バッジャ';
-$string['badgrtoken'] = 'バッジャトークン: %s';
-$string['badgrtokenadded'] = 'バッジャトークンがアカウントに追加されました。';
-$string['badgrtokendeleted'] = 'バッジャトークンが削除されました。';
-$string['badgrtokennotfound'] = '提供された認証情報ではバッジャトークンは見つかりませんでした。';
-$string['nobadgruid1'] = 'あなたがバッジャを使用できるようにするにはトークンを設定する必要があります。バッジャを設定するには「ユーザメニュー → 設定 → アプリ → バッジャ」に移動してください。';
+$string['badgrsourcemissing1'] = 'あなたのconfig.phpファイルのソース設定にBadgrがありません。';
+$string['badgrusername'] = 'Badgrユーザ名';
+$string['badgrpassword'] = 'Badgrパスワード';
+$string['badgrtokentitle'] = 'Badgr';
+$string['badgrtoken'] = 'Badgrトークン: %s';
+$string['badgrtokenadded'] = 'Badgrトークンがアカウントに追加されました。';
+$string['badgrtokendeleted'] = 'Badgrトークンが削除されました。';
+$string['badgrtokennotfound'] = '提供された認証情報ではBadgrトークンは見つかりませんでした。';
+$string['nobadgruid1'] = 'あなたがBadgrを使用できるようにするにはトークンを設定する必要があります。Badgrを設定するには「ユーザメニュー → 設定 → アプリ → Badgr」に移動してください。';
 
 ?>
