@@ -36,7 +36,7 @@ $string['confighelp'] = 'このブロックで表示するバッジコレクシ�
 $string['obppublicbadges'] = 'オープンバッジパスポート内すべてのパブリックバッジ';
 $string['title_backpack'] = 'Mozillaバックパック';
 $string['title_passport'] = 'オープンバッジパスポート';
-$string['title_badgr'] = 'バッジャパッケージ';
+$string['title_badgr'] = 'Badgrバックパック';
 $string['fetchingbadges'] = 'エントリを取得しています。しばらくお待ちください。';
 $string['missingbadgesources'] = 'ソース設定がありません。あなたのconfig.phpファイルに追加してください。例:
 <br>
@@ -46,22 +46,22 @@ $string['selectall'] = 'すべてを選択する';
 $string['selectnone'] = 'すべての選択を解除する';
 $string['deprecatedhost'] = '<p class="alert alert-warning">次のサービスからのバッジは廃止されたため表示されません: %s</p>';
 $string['featuredisabled'] = 'openbadgedisplayerブロックタイプが有効ではありません。';
-$string['badgrsourcemissing1'] = 'あなたのconfig.phpファイルのソース設定にバッジャがありません。';
-$string['badgrusername'] = 'バッジャユーザ名';
-$string['badgrpassword'] = 'バッジャパスワード';
-$string['badgrtokentitle'] = 'バッジャ';
-$string['badgrtoken'] = 'バッジャトークン: %s';
-$string['badgrtokenadded'] = 'バッジャトークンがアカウントに追加されました。';
-$string['badgrtokendeleted'] = 'バッジャトークンが削除されました。';
-$string['badgrtokennotfound'] = '提供された認証情報ではバッジャトークンは見つかりませんでした。';
-$string['nobadgruid2'] = 'あなたがバッジャを使用できるようにするにはトークンを設定する必要があります。バッジャを設定するには「アカウントメニュー → 設定 → アプリ → バッジャ」に移動してください。';
-$string['resetobsoletebadgrtokensubject'] = 'あなたのバッジャトークンをリセットする必要があります。';
+$string['badgrsourcemissing1'] = 'あなたのconfig.phpファイルのソース設定にBadgrがありません。';
+$string['badgrusername'] = 'Badgrユーザ名';
+$string['badgrpassword'] = 'Badgrパスワード';
+$string['badgrtokentitle'] = 'Badgr';
+$string['badgrtoken'] = 'Badgrトークン: %s';
+$string['badgrtokenadded'] = 'Badgrトークンがアカウントに追加されました。';
+$string['badgrtokendeleted'] = 'Badgrトークンが削除されました。';
+$string['badgrtokennotfound'] = '提供された認証情報ではBadgrトークンは見つかりませんでした。';
+$string['nobadgruid2'] = 'あなたがBadgrを使用できるようにするにはトークンを設定する必要があります。Badgrを設定するには「アカウントメニュー → 設定 → アプリ → Badgr」に移動してください。';
+$string['resetobsoletebadgrtokensubject'] = 'あなたのBadgrトークンをリセットする必要があります。';
 $string['resetobsoletebadgrtokenmessage1'] = '%s さん
 
-現在、あなたの %s で使用中のバッジャトークンは廃止されています。
+現在、あなたの %s で使用中のBadgrトークンは廃止されています。
 
-このトークンはあなたのポートフォリオページ内でバッジャバッジの表示に使用されます。
+このトークンはあなたのポートフォリオページ内でBadgrバッジの表示に使用されます。
 
-「アカウントメニュー → 設定 → 接続済みアプリ → バッジャ」にアクセスして新しいものを設定してください。';
+「アカウントメニュー → 設定 → 接続済みアプリ → Badgr」にアクセスして新しいものを設定してください。';
 
 ?>
