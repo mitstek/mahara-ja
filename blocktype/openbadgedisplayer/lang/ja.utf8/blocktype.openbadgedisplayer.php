@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-03-23 15:56:58 UTC
+ * @updated    2025-03-25 02:31:25 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -26,6 +26,7 @@ $string['issuedon'] = '発行日';
 $string['expires'] = '有効期限';
 $string['desc'] = '説明';
 $string['criteria'] = 'クライテリア';
+$string['nbadges'] = '%s バッジ';
 $string['nobackpack'] = 'バックパックは見つかりませんでした。<br>あなたの<a href="%s">バックパック</a>のメールアドレスを<a href="%s">プロファイル</a>に追加してください。';
 $string['nobadgegroups'] = 'パブリックバッジコレクション / バッジは見つかりませんでした。';
 $string['nobadgesselectone'] = '選択されたバッジはありません。';
