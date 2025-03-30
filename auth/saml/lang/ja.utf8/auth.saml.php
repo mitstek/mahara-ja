@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['attributemapfilenotamap'] = '属性マップファイル「 %s 」で属性マップが定義されていません。';
-$string['attributemapfilenotfound'] = '属性マップファイルがないか、書き込み権がありません: %s';
+$string['attributemapfilenotfound'] = '属性マップファイルがないか書き込み権がありません: %s';
 $string['certificate1'] = 'SAMLサービスプロバイダ署名および暗号化認証';
 $string['confirmdeleteidp'] = '本当にこのアイデンティティプロバイダを削除してもよろしいですか?';
 $string['spmetadata'] = 'サービスプロバイダメタデータ';
@@ -36,9 +36,9 @@ $string['errnosamluser'] = 'ユーザは見つかりませんでした。';
 $string['errorssphpsetup'] = 'SAMLが正しく設定されていません。あなたは最初にコマンドラインから「make ssphp」を実行する必要があります。';
 $string['errorbadlib'] = 'SimpleSAMLphpライブラリの「autoloader」ファイルが %s にありません。<br>「make ssphp」でSimpleSAMLphpをインストールできること、また、ファイルを読み込めることを確認してください。';
 $string['errorupdatelib'] = 'あなたの現在のSimpleSAMLphpライブラリは旧バージョンです。あなたは「make cleanssphp && make ssphp」を実行する必要があります。';
-$string['errornovalidsessionhandler'] = 'SimpleSAMLphpセッションハンドラの設定が正しくないか、現在サーバを利用できません。';
-$string['errornomemcache'] = 'auth/samlのためのMemcacheの設定が正しくないか、現在Memcacheサーバを利用できません。';
-$string['errornomemcache7php'] = 'auth/samlのためのMemcacheの設定が正しくないか、現在Memcacheサーバを利用できません。';
+$string['errornovalidsessionhandler'] = 'SimpleSAMLphpセッションハンドラの設定が正しくないか現在サーバを利用できません。';
+$string['errornomemcache'] = 'auth/samlのためのMemcacheの設定が正しくないか現在Memcacheサーバを利用できません。';
+$string['errornomemcache7php'] = 'auth/samlのためのMemcacheの設定が正しくないか現在Memcacheサーバを利用できません。';
 $string['errorbadconfig'] = 'SimpleSAMLphp設定ディレクトリ %s が正しくありません。';
 $string['errorbadmetadata'] = '不正なSAMLメタデータです。XMLに1つの有効なアイデンティティプロバイダが含まれていることを確認してください。';
 $string['errorbadinstitutioncombo'] = 'このインスティテューション属性およびインスティテューション値の組み合わせの認証インスタンスはすでに存在します。';
