@@ -1,4 +1,15 @@
 <?php
+/**
+ *
+ * @package    mahara
+ * @subpackage lang (Japanese)
+ * @translator Mitsuhiro Yoshida (https://mitstek.com/)
+ * @started    2008-01-19 11:25:00 UTC
+ * @updated    2025-03-31 02:07:54 UTC
+ * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
+ * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
+ *
+ */
 
 defined('INTERNAL') || die();
 
@@ -32,14 +43,14 @@ $string['blogpost'] = '日誌エントリ';
 $string['blogpostauthor'] = '日誌エントリ作成者';
 $string['blogpostcount'] = '日誌エントリ数';
 $string['blogpostcreatetime'] = '日誌エントリ作成日時';
-$string['blogpostdesc'] = ' 日誌エントリ説明';
+$string['blogpostdesc'] = '日誌エントリ説明';
 $string['blogpostdraft'] = '日誌エントリ下書きモード';
 $string['blogpostid'] = '日誌エントリID';
 $string['blogpostmodtime'] = '日誌エントリ修正日時';
 $string['blogpostowner'] = '日誌エントリオーナ';
 $string['blogposts'] = '日誌エントリ';
 $string['blogpostsids'] = '日誌エントリID';
-$string['blogposttitle'] = ' 日誌エントリタイトル';
+$string['blogposttitle'] = '日誌エントリタイトル';
 $string['blogs'] = '日誌';
 $string['blogscount'] = '日誌数';
 $string['blogsids'] = '日誌ID';
@@ -60,11 +71,10 @@ $string['displayname'] = '人の表示名';
 $string['displaytitle'] = 'ページ表示タイトル';
 $string['emailaddress'] = '人のメールアドレス';
 $string['emailvalid'] = '有効およびユニークなメールアドレス';
-$string['errorincorrectexporttype'] = 'エクスポートタイプ「 %s 」のパラメータ値が正しくありません。';
 $string['ext_lms'] = 'LTI外部学習管理システム';
 $string['ext_user_username'] = 'LTI外部ユーザ名';
-$string['externalfilesource'] = 'ファイルアップロード元のストリングIDです。';
 $string['externalfullurl'] = '提出元サイトのフルURLパスです。';
+$string['externalfilesource'] = 'ファイルアップロード元のストリングIDです。';
 $string['favourites'] = 'お気に入り';
 $string['favshortname'] = 'お気に入りの省略名';
 $string['favsownerid'] = 'お気に入りのオーナID';
@@ -72,7 +82,7 @@ $string['favsownerusername'] = 'お気に入りオーナのユーザ名';
 $string['favuserid'] = 'お気に入りの人のID';
 $string['favusername'] = 'お気に入りのユーザ名';
 $string['faxnumber'] = 'FAX番号';
-$string['feedbacknotify'] = '許可されるコメント通知: ';
+$string['feedbacknotify'] = '許可されるコメント通知:';
 $string['feedbacknotifyexplicit'] = 'コメント通知';
 $string['filealttext'] = 'ファイルキャプション 例)「木の枝にとまる鳥」';
 $string['filedescription1'] = 'ファイル説明または画像キャプションです。例)「2021年101コース修了証」「夜明けに鳴くスズメ」';
@@ -81,11 +91,10 @@ $string['filetags'] = '任意タグの配列 例) [2021,101,修了証]';
 $string['filetitle'] = 'ファイルタイトル 例) 修了証101';
 $string['filetoupload'] = 'ファイル名';
 $string['fileuploadfail'] = 'ファイルのアップロードに失敗しました。';
-$string['fileuploadmessagebody'] = 'ファイル「 %s 」が %s によって自動的にアップロードされました。ファイルは「 %s 」フォルダ内にあります。';
-$string['fileuploadmessagesubject'] = 'あなたの「ファイル」エリアに新しいファイルがアップロードされました。';
 $string['fileuploadstatus'] = 'ファイルアップロードの成否';
 $string['fileuploadsuccess'] = 'ファイルが正常にアップロードされました。';
-$string['fileurl'] = 'ZIPファイルを取得するダウンロードURLです。注意: あなたがファイルをダウンロードするには有効なウェブサービストークンを提供する必要があります。';
+$string['fileuploadmessagesubject'] = 'あなたの「ファイル」エリアに新しいファイルがアップロードされました。';
+$string['fileuploadmessagebody'] = 'ファイル「 %s 」が %s によって自動的にアップロードされました。ファイルは「 %s 」フォルダ内にあります。';
 $string['firstname'] = '人の名';
 $string['foldername'] = 'ファイルを保存するフォルダ名です。フォルダが存在しない場合、自動的に作成されます。';
 $string['forcegroupcategory'] = '存在しない場合、グループカテゴリを作成する';
@@ -93,7 +102,7 @@ $string['forcepasswordchange'] = '初回ログイン時、パスワード変更�
 $string['fullurl'] = 'フルURL';
 $string['functiondocuri'] = '関数ドキュメンテーションURL';
 $string['functionname'] = '関数名';
-$string['groupcaneditroles'] = '許可される編集ロール: ';
+$string['groupcaneditroles'] = '許可される編集ロール:';
 $string['groupcategory'] = 'グループカテゴリ - 既存のグループカテゴリのタイトル';
 $string['groupdesc'] = 'グループ説明';
 $string['grouphidden'] = 'グループを秘匿する';
@@ -131,16 +140,15 @@ $string['lis_person_name_family'] = 'LTI人の姓';
 $string['lis_person_name_full'] = 'LTI人のフルネーム';
 $string['lis_person_name_given'] = 'LTI人の名';
 $string['lis_person_sourcedid'] = 'LTIペルソナのソースID';
-$string['liteexporttype'] = '使用するエクスポートタイプです。有効なオプションは「htmllite」です。';
 $string['lock'] = '提出を編集できないようにロックしますか?';
 $string['locked'] = 'ロック';
 $string['lti_message_type'] = 'LTIメッセージタイプ';
 $string['lti_version'] = 'LTIバージョン';
 $string['mahara'] = 'Mahara';
 $string['memberactionexplicit'] = 'メンバアクション: 追加または削除';
-$string['memberrole'] = 'メンバロール: ';
+$string['memberrole'] = 'メンバロール:';
 $string['memberroleexplicit'] = 'メンバロール: 管理者、チュータ、メンバ';
-$string['memberroleonlyadmin'] = 'メンバロール: 管理者 ';
+$string['memberroleonlyadmin'] = 'メンバロール: 管理者';
 $string['memberuserid'] = 'メンバID';
 $string['memberusername'] = 'メンバユーザ名';
 $string['mobilenumber'] = '携帯電話番号';
@@ -152,11 +160,11 @@ $string['passwordvalid'] = '少なくとも半角英数字6文字にしてくだ
 $string['personalwebsite'] = 'パーソナルウェブサイト';
 $string['plaintxtpassword'] = '任意の文字で構成されるプレインテキストパスワード';
 $string['portfolioowneremail'] = 'ポートフォリオオーナのメールアドレス';
+$string['portfolioshowaccess'] = 'ポートフォリオのトークンアクセスを含む';
 $string['portfolioownerid'] = 'ポートフォリオオーナのMahara ID';
 $string['portfolioownerusername'] = 'ポートフォリオオーナのユーザ名';
 $string['portfolioquery'] = '適用するポートフォリオクエリフィルタ';
 $string['portfolioremoteuser'] = 'ポートフォリオオーナのリモートユーザ名';
-$string['portfolioshowaccess'] = 'ポートフォリオのトークンアクセスを含む';
 $string['preferredname'] = 'アカウント保持者の優先名';
 $string['relativeurl'] = '相対URL';
 $string['releaseremail'] = 'この提出をリリースした人のメールアドレスです。';
@@ -183,10 +191,6 @@ $string['studentid'] = '学生の任意のIDコードナンバ';
 $string['studentidinst'] = 'インスティテューションからの任意のIDコードナンバ';
 $string['submissionextid'] = '提出に関連する外部IDです。';
 $string['submissionextname'] = '提出に関連する外部名です。';
-$string['submissionoriginal'] = '取得元オリジナルポートフォリオ提出のID';
-$string['submittedgroup'] = '送信先内部グループ';
-$string['submittedhost'] = '送信先外部ホスト';
-$string['submittedstatus'] = '現在の提出ステータス';
 $string['submittedtime'] = '提出日時';
 $string['tag'] = 'タグ';
 $string['tags'] = 'タグ';
@@ -216,9 +220,8 @@ $string['viewdesc'] = 'ページ説明';
 $string['viewfullurl'] = 'ページのフルURL';
 $string['viewid'] = 'ページID';
 $string['viewidsubmit1'] = '提出されたポートフォリオのMahara IDです。';
-$string['viewidtotest'] = 'エクスポートする送信済みポートフォリオ';
 $string['viewmodtime'] = 'ページ修正日時';
-$string['viewnotify'] = '許可される共有ページ通知: ';
+$string['viewnotify'] = '許可される共有ページ通知:';
 $string['viewoutcomes'] = 'このポートフォリオに関連するアウトカム';
 $string['viewrelativeurl'] = 'ページ相対URL';
 $string['views'] = 'ページ';
@@ -228,3 +231,13 @@ $string['viewtitle'] = 'ページタイトル';
 $string['viewtype'] = 'ページタイプ';
 $string['wwwroot'] = 'リモートロッカを識別するためのクライアントURN';
 $string['yahoochat'] = 'Yahooチャット';
+$string['viewidtotest'] = 'エクスポートする送信済みポートフォリオ';
+$string['submittedhost'] = '送信先外部ホスト';
+$string['submittedgroup'] = '送信先内部グループ';
+$string['submittedstatus'] = '現在の提出ステータス';
+$string['submissionoriginal'] = '取得元オリジナルポートフォリオ提出のID';
+$string['liteexporttype'] = '使用するエクスポートタイプです。有効なオプションは「htmllite」です。';
+$string['fileurl'] = 'ZIPファイルを取得するダウンロードURLです。注意: あなたがファイルをダウンロードするには有効なウェブサービストークンを提供する必要があります。';
+$string['errorincorrectexporttype'] = 'エクスポートタイプ「 %s 」のパラメータ値が正しくありません。';
+$string['cantaddextapp'] = '新しい外部アプリを追加できません。LTI 1.1等の互換性のあるプラグインが有効であることを確認してください。';
+$string['cantaddextappnoprotocol'] = 'OAuthウェブサービスプロトコルが有効であることを確認してください。';
