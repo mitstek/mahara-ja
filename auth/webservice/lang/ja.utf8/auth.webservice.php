@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-03-11 20:19:01 UTC
+ * @updated    2025-04-02 00:18:18 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -148,7 +148,7 @@ $string['invalidparamdesc'] = '無効なパラメータの記述です。';
 $string['missingretvaldesc'] = '戻り値の記述がありません。';
 $string['missingparamdesc'] = 'パラメータの記述がありません。';
 $string['missingimplofmeth'] = '「 %s 」のメソッドが実装されていません。';
-$string['cannotfindimplfile'] = '外部関数の実装されたファイルを見つけることができませんでした。';
+$string['cannotfindimplfile'] = '外部関数を実装したファイルが見つかりません。';
 $string['servicenamemustbeunique'] = 'この名称はすでに別のサービスグループで使用されています。';
 $string['serviceshortnamemustbeunique'] = 'この省略名はすでに別のサービスグループで使用されています。';
 $string['apptokens'] = 'アプリケーション接続';
