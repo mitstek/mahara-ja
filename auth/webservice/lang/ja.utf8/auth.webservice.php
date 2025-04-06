@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-02 00:18:18 UTC
+ * @updated    2025-04-06 15:21:02 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -231,7 +231,7 @@ $string['unabletoruntestclient'] = 'ウェブサービステストクライア�
 $string['accesstokens'] = 'OAuthアクセストークン';
 $string['notokens'] = 'あなたにはアプリケーショントークンがありません。';
 $string['externalapps'] = '外部アプリケーション';
-$string['externalappsdesc'] = 'ウェブサービスアクセスの外部アプリケーションを登録します。';
+$string['externalappsdesc'] = 'ウェブサービスにアクセスするための外部アプリケーションを登録します。';
 $string['oauth1'] = 'OAuth1.x';
 $string['externalappsregister'] = '外部アプリケーション登録';
 $string['userapplications1'] = '外部アプリケーション設定';
