@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-08 05:28:20 UTC
+ * @updated    2025-04-08 07:24:42 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -37,6 +37,6 @@ $string['showdescriptionsdescription'] = 'それぞれのイメージにキャ�
 $string['cannotdisplayslideshow'] = 'スライドショーを表示できません。';
 $string['gallerysettings'] = 'ギャラリー設定';
 $string['usefancybox1'] = 'Bootstrapモーダルを使用する';
-$string['usefancyboxdesc1'] = 'あなたのギャラリでBootstrapモーダルを使用します。あなたのギャラリのイメージをクリックした場合、オーバーレイで開きます。';
+$string['usefancyboxdesc1'] = 'あなたのギャラリーでBootstrapモーダルを使用します。あなたのギャラリーのイメージをクリックした場合、オーバーレイで開きます。';
 $string['previewwidth'] = '最大写真幅';
 $string['previewwidthdesc1'] = 'Bootstrapモーダルでの写真表示時の最大リサイズ幅を設定します。';
