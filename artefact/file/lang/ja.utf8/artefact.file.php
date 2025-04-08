@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-02-17 05:24:31 UTC
+ * @updated    2025-04-08 05:16:36 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -33,7 +33,7 @@ $string['editfolderspecific'] = 'フォルダ「 %s 」を編集する';
 $string['deletefolderspecific'] = 'フォルダ「 %s 」を削除する';
 $string['editfilespecific'] = 'ファイル「 %s 」を編集する';
 $string['selectspecific'] = '「 %s 」を選択する';
-$string['foldercontents'] = 'フォルダコンテンツ';
+$string['foldercontents1'] = 'フォルダ/ギャラリコンテンツ';
 $string['copyrightnotice'] = '著作権表示';
 $string['create'] = '作成';
 $string['Created'] = '作成日時';
@@ -45,6 +45,7 @@ $string['confirmdeletefolder'] = '本当にこのフォルダを削除しても�
 $string['confirmdeletefolderandcontents'] = '本当にこのフォルダおよびそのコンテンツを削除してもよろしいですか?';
 $string['customagreement'] = 'カスタム同意';
 $string['Date'] = '登録日';
+$string['datemodified'] = '修正日時';
 $string['resizeonupload'] = 'アップロード時にイメージをリサイズする';
 $string['resizeonuploaddescription'] = 'アップロード時に大きなイメージを自動的にリサイズします。';
 $string['resizeonuploaduseroption1'] = 'パーソナルオプション';
@@ -118,6 +119,7 @@ $string['fileuploadinstructions1'] = 'あなたは複数のファイルを選択
 $string['filethingdeleted'] = '%s が削除されました。';
 $string['filewithnameexists'] = '名称「 %s 」のファイルまたはフォルダはすでに存在します。';
 $string['folder'] = 'フォルダ';
+$string['selectedfolder'] = '選択済みフォルダ';
 $string['Folder'] = 'フォルダ';
 $string['folderappearsinviews'] = 'このフォルダはあなたの1つまたはそれ以上のページに使用されています。';
 $string['Folders'] = 'フォルダ';
@@ -133,6 +135,7 @@ $string['htmlremovedmessagenoowner'] = 'あなたはファイル「 <strong>%s</
 $string['image'] = 'イメージ';
 $string['Image'] = 'イメージ';
 $string['Images'] = 'イメージ';
+$string['selectedimages'] = '選択済みイメージ';
 $string['imagesdir'] = 'イメージ';
 $string['imagesdirdesc'] = 'イメージファイル';
 $string['modified'] = '更新日時';
@@ -152,6 +155,8 @@ $string['movefailed'] = '移動に失敗しました。';
 $string['movingfailed'] = '移動に失敗しました: ファイルまたはフォルダはもう存在していません。';
 $string['nametoolong'] = '名称が長すぎます。さらに短い名称を入力してください。';
 $string['nofilesfound'] = 'ファイルは見つかりませんでした。';
+$string['nofoldersfound'] = 'フォルダは見つかりませんでした。';
+$string['nofilesselected'] = '未選択';
 $string['notpublishable'] = 'あなたにはこのファイルを公開するためのパーミッションがありません。';
 $string['overwrite'] = '上書き';
 $string['Owner'] = 'オーナ';
