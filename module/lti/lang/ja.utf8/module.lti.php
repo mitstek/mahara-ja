@@ -1,4 +1,15 @@
 <?php
+/**
+ *
+ * @package    mahara
+ * @subpackage lang (Japanese)
+ * @translator Mitsuhiro Yoshida (https://mitstek.com/)
+ * @started    2008-01-19 11:25:00 UTC
+ * @updated    2025-04-08 01:12:09 UTC
+ * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
+ * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
+ *
+ */
 
 defined('INTERNAL') || die();
 
@@ -9,6 +20,7 @@ $string['autoconfiguretitle'] = 'LTI自動設定';
 $string['autocreateusers'] = 'アカウント自動作成';
 $string['autocreationnotenabled'] = 'アカウントの自動作成は有効にされていません。';
 $string['autocreationnotenabledredirect'] = 'あなたのインスティテューションではLTI経由のアカウント作成を許可していないため、あなたはログインできませんでした。すでにアカウントがある場合、あなたは通常のログインフォームでログインできます。質問がある場合、サイト管理者にご連絡ください。';
+$string['portfolioname'] = 'ポートフォリオタイトル';
 $string['configstep'] = '設定アイテム';
 $string['configstepstatus'] = 'ステータス';
 $string['configuration'] = '評価設定';
@@ -28,30 +40,31 @@ $string['ltiserviceexists'] = 'LTIサービスグループ登録済み';
 $string['maharalti'] = 'LTI 1.1';
 $string['maharaltimoodleassign'] = 'Moodle課題提出';
 $string['nocollections'] = 'あなたには評価のために提出できるポートフォリオはありません。';
-$string['notconfigured'] = '現在、この活動は提出を許可していません。後で確認してください。';
 $string['noticeenabled'] = 'LTI APIは有効にされています。';
 $string['noticenotenabled'] = 'LTI APIは有効にされて<b>いません</b>。';
+$string['notconfigured'] = '現在、この活動は提出を許可していません。後で確認してください。';
 $string['notreadylabel'] = '準備未了';
 $string['oauthprotocolenabled'] = 'OAuthプロトコル有効';
 $string['parentauthforlti'] = '親認証局';
-$string['portfolioname'] = 'ポートフォリオタイトル';
 $string['portfoliosubmittedforgrading1'] = 'あなたは評価のためにポートフォリオの<a href="%s">コピー</a>を %s に提出しました。';
 $string['portfoliosubmittedforgradingoriginaldelete'] = 'あなたは評価のために利用できないポートフォリオの<a href="%s">コピー</a>を %s に提出しました。';
 $string['portfoliosubmittedheader'] = 'ポートフォリオ提出済み';
 $string['readylabel'] = '準備完了';
 $string['restprotocolenabled'] = 'RESTプロトコル有効';
 $string['revokesubmission'] = '提出を取り消す';
+$string['usernameexists2'] = 'ユーザ名「 %s 」は有効ではありません。';
 $string['saveandrelease'] = '保存して提出を許可する';
-$string['submitintro1'] = 'あなたがこの活動に提出したいポートフォリオを選択してください。あなたにまだポートフォリオがない場合、<strong><a href="%sview/index.php" target="_blank">作成してください</a></strong>。あなたの作成後、LMSから活動を再度読み込んでください。';
 $string['submitportfolio'] = '評価のためにポートフォリオを提出する';
 $string['submitto'] = 'このポートフォリオを評価のために %s に提出します。%s';
+$string['submitintro1'] = 'あなたがこの活動に提出したいポートフォリオを選択してください。あなたにまだポートフォリオがない場合、<strong><a href="%sview/index.php" target="_blank">作成してください</a></strong>。あなたの作成後、LMSから活動を再度読み込んでください。';
 $string['timegraded'] = '評定日時';
 $string['timesubmitted'] = '提出日時';
 $string['usernameexists1'] = 'ユーザ名「 %s 」はすでに存在します。';
-$string['usernameexists2'] = 'ユーザ名「 %s 」は有効ではありません。';
 $string['viewsubmittedmessage1'] = '%s が「 %s 」を %s に提出しました。
 
 あなたのLMSで活動「 %s 」をクリックしてこの提出を評定してください。';
 $string['viewsubmittedsubject1'] = '%s への評価提出';
 $string['webserviceauthdisabled'] = 'このインスティテューションのウェブサービス認証は有効にされていません。';
 $string['webserviceproviderenabled'] = '内向きのウェブサービスリクエスト許可';
+$string['returntitlefor'] = 'コース「 %s 」に戻る';
+$string['returntitle'] = '外部サイトに戻る';
