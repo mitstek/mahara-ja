@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-08 05:16:36 UTC
+ * @updated    2025-04-08 07:27:40 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -33,7 +33,7 @@ $string['editfolderspecific'] = 'フォルダ「 %s 」を編集する';
 $string['deletefolderspecific'] = 'フォルダ「 %s 」を削除する';
 $string['editfilespecific'] = 'ファイル「 %s 」を編集する';
 $string['selectspecific'] = '「 %s 」を選択する';
-$string['foldercontents1'] = 'フォルダ/ギャラリコンテンツ';
+$string['foldercontents1'] = 'フォルダ/ギャラリーコンテンツ';
 $string['copyrightnotice'] = '著作権表示';
 $string['create'] = '作成';
 $string['Created'] = '作成日時';
