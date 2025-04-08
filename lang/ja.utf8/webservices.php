@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-03-31 02:07:54 UTC
+ * @updated    2025-04-08 01:24:31 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -75,6 +75,7 @@ $string['ext_lms'] = 'LTI外部学習管理システム';
 $string['ext_user_username'] = 'LTI外部ユーザ名';
 $string['externalfullurl'] = '提出元サイトのフルURLパスです。';
 $string['externalfilesource'] = 'ファイルアップロード元のストリングIDです。';
+$string['externalid'] = '外部システムID';
 $string['favourites'] = 'お気に入り';
 $string['favshortname'] = 'お気に入りの省略名';
 $string['favsownerid'] = 'お気に入りのオーナID';
@@ -140,6 +141,7 @@ $string['lis_person_name_family'] = 'LTI人の姓';
 $string['lis_person_name_full'] = 'LTI人のフルネーム';
 $string['lis_person_name_given'] = 'LTI人の名';
 $string['lis_person_sourcedid'] = 'LTIペルソナのソースID';
+$string['listofids'] = '外部システムIDのカンマ区切りリスト';
 $string['lock'] = '提出を編集できないようにロックしますか?';
 $string['locked'] = 'ロック';
 $string['lti_message_type'] = 'LTIメッセージタイプ';
