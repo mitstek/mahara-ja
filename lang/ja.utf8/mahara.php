@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-08 04:13:29 UTC
+ * @updated    2025-04-08 07:42:38 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -106,7 +106,7 @@ $string['issuereport_escalation_title_element'] = 'イシュー概略';
 $string['issuereport_escalation_email_element'] = 'このレポートの送信先:';
 $string['issuereport_escalation_email_element_sender'] = '返信はあなたの主メールアドレスに送信されます:';
 $string['issuereport_escalation_email_element_error'] = 'メールフィールドに入力してください。';
-$string['issuereport_escalation_element_warning'] = 'センシティブな情報を匿名化します。例) 氏名およびメールアドレス等、特にあなたのインスティテューションの外に送信されるもの。';
+$string['issuereport_escalation_element_warning'] = 'センシティブな情報を匿名化します。例) 氏名およびメールアドレス等、特にあなたのインスティテューションの外に送信される情報。';
 $string['complaint'] = 'クレーム';
 $string['notifyadministrator'] = '管理者に通知する';
 $string['notifyadministratorconfirm'] = '本当にこのページを好ましくないコンテンツを含んでいるとして報告しますか?';
