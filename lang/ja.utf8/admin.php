@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-03-21 00:02:28 UTC
+ * @updated    2025-04-08 04:05:29 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -668,6 +668,9 @@ $string['notificationsettings'] = '通知設定';
 $string['notificationsettingsdescription1'] = 'ここであなたは新しいアカウント保持者が受信する通知のデフォルトオプションを設定できます。人はこれらの設定を自分の「アカウントメニュー → 設定 → 通知」ページでオーバーライドできます。<br>あなたがメールオプションのどちらを選択した場合でも通知は受信ボックスに到着しますが、自動的に既読マークされます。';
 $string['allow_inst_admins_to_manage_issue_reports'] = 'インスティテューション管理者がイシューレポートを受信する';
 $string['allow_inst_admins_to_manage_issue_reports_desc'] = 'インスティテューション管理者はイシューレポートを通知として受信できます。インスティテューション管理者はサイト管理者と同様にレポートを受信するかどうか決定できます。';
+$string['allow_inst_admins_to_escalate_issue_reports'] = 'インスティテューション管理者がイシューレポートをエスカレーションできる';
+$string['allow_escalation'] = 'エスカレーションを有効にする';
+$string['escalation_email'] = 'エスカレーションメール';
 $string['csvfile'] = 'CSVファイル';
 $string['emailusersaboutnewaccount1'] = 'アカウント詳細をメール送信する';
 $string['emailusersaboutnewaccountdescription1'] = 'この設定を有効にした場合、人に新しいアカウントの作成またはアカウントの更新を知らせるためのメールが送信されます。';
