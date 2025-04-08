@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-08 07:42:38 UTC
+ * @updated    2025-04-08 09:02:24 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1371,6 +1371,7 @@ $string['accountupdatedpasswordresethtml'] = '<p><a href="%s">あなたのパス
 $string['accountupdateresetpasslink'] = '%sforgotpass.php?key=%s';
 $string['accountupdatefooter'] = '%s 管理者';
 $string['accountupdatefooterhtml'] = '<p>%s 管理者</p>';
+$string['action'] = '操作';
 $string['confirmisoinstdbcleanup'] = 'アクセスルールを削除する';
 $string['dbcleanedforisoinst'] = 'データベースが更新されました。サイトは再オープンされました。';
 $string['isolatedinstitutioninstructions'] = 'サイト設定「<b>隔離インスティテューション</b>」が有効にされました。ポートフォリオを他のインスティテューションの人と共有できなくなるため、この設定に準拠するには既存のポートフォリオのアクセスルールの一部をデータベースから永久に削除する必要があります。';
