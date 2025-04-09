@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-08 09:02:24 UTC
+ * @updated    2025-04-09 01:43:34 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -84,8 +84,8 @@ $string['disabled'] = '無効';
 $string['reportissue'] = 'このイシューを報告する';
 $string['reportissueadmin'] = 'このイシューを管理者に報告する';
 $string['issuereport_pieform_success1'] = 'このイシューは報告されています。あなたに管理者から連絡される予定です。';
-$string['provideinfo'] = 'このイシューが発生する前にとった措置';
-$string['issuereportinfotitle'] = 'このイシューが発生する前にとった措置:';
+$string['provideinfo'] = 'このイシュー発生前にあなたが実施した手順';
+$string['issuereportinfotitle'] = 'このイシュー発生前にあなたが実施した手順:';
 $string['issuereporterroroccurred_str'] = '発生したエラー:';
 $string['issuereporterroroccurred'] = '---
 発生したエラー:
@@ -97,7 +97,6 @@ $string['issuereportemailbody'] = '%s がイシューを報告しました。あ
 $string['issuereport_deleted'] = '(イシューレポート削除済み)';
 $string['issuereport_escalate'] = 'イシューレポートをエスカレーションする';
 $string['issuereport_escalate_report_form_title'] = 'イシューレポートをエスカレーションする';
-$string['issuereport_escalate_submit'] = 'ノートを送信する';
 $string['issuereport_escalate_notes'] = 'ノート';
 $string['issuereport_escalate_pieform_success'] = 'イシューレポートがエスカレーションされました。';
 $string['issuereport_escalate_pieform_error'] = 'エスカレーションされたイシューレポートはありません。';
@@ -106,7 +105,7 @@ $string['issuereport_escalation_title_element'] = 'イシュー概略';
 $string['issuereport_escalation_email_element'] = 'このレポートの送信先:';
 $string['issuereport_escalation_email_element_sender'] = '返信はあなたの主メールアドレスに送信されます:';
 $string['issuereport_escalation_email_element_error'] = 'メールフィールドに入力してください。';
-$string['issuereport_escalation_element_warning'] = 'センシティブな情報を匿名化します。例) 氏名およびメールアドレス等、特にあなたのインスティテューションの外に送信される情報。';
+$string['issuereport_escalation_element_warning'] = '特にあなたのインスティテューションの外にレポートが送信される場合、氏名およびメールアドレス等のセンシティブな情報を匿名化します。';
 $string['complaint'] = 'クレーム';
 $string['notifyadministrator'] = '管理者に通知する';
 $string['notifyadministratorconfirm'] = '本当にこのページを好ましくないコンテンツを含んでいるとして報告しますか?';

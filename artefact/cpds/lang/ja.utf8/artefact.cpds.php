@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-02-26 04:06:18 UTC
+ * @updated    2025-04-09 01:02:13 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -34,7 +34,7 @@ $string['totalhourscompleted'] = '合計時間完了';
 $string['startdate'] = '開始日';
 $string['enddate'] = '終了日';
 $string['hoursdesc1'] = '時間を表す10進数のみ入力してください。例)「2.5」は「2時間30分」を意味します。';
-$string['deleteactivityconfirm1'] = '本当にこの活動を完全に削除してもよろしいですか? この活動を削除した場合、表示されているすべてのポートフォリオから削除されます。この操作は元に戻せません。';
+$string['deleteactivityconfirm2'] = '本当にこの活動を完全に削除してもよろしいですか? 表示されているすべてのポートフォリオから削除されます。あなたは活動のコンテンツを元に戻せません。';
 $string['deleteactivity'] = '活動を削除する';
 $string['deletethisactivity'] = '活動を削除する: 「 %s 」';
 $string['editactivity'] = '活動を編集する';
@@ -63,8 +63,8 @@ $string['contactphone'] = '担当者電話番号';
 $string['contactphonedesc'] = '担当者の電話番号を入力してください。';
 $string['reflection'] = '内省';
 $string['experiencehours'] = '詳細経験時間';
-$string['experiencesubmittederror'] = 'ポートフォリオで提出された経験は選択できません。';
-$string['categoryerror'] = '経験を選択する場合、カテゴリを選択する必要があります。';
+$string['experiencesubmittederror1'] = 'あなたはポートフォリオで提出された経験を選択できません。';
+$string['categoryerror1'] = 'あなたが経験を選択した場合、カテゴリを選択する必要があります。';
 $string['submitted'] = '送信済み';
 $string['Experience'] = '経験';
 $string['Experiencedesc'] = 'あなたが活動を追加したいCPD経験を選択してください。';
@@ -92,7 +92,7 @@ $string['active'] = 'アクティブ';
 $string['inactive'] = '非アクティブ';
 $string['cpdexperiencesavedsuccessfully'] = 'CPD経験が正常に保存されました。';
 $string['editexperience'] = '経験を編集する';
-$string['deleteexperienceconfirm1'] = '本当にこの経験を永久に削除してもよろしいですか? この体験を削除した場合、この体験が表示されているすべてのポートフォリオから削除されます。この操作は元に戻せません。';
+$string['deleteexperienceconfirm2'] = '本当にこの経験を永久に削除してもよろしいですか? 表示されているすべてのポートフォリオから削除されます。あなたは削除後にコンテンツを元に戻せません。';
 $string['editexperienceconfirm1'] = '本当に本当にこの経験を編集してもよろしいですか? %s アカウント保持者はこの経験に対して活動を記録しています。この経験を変更した場合、これらの変更はアカウント保持者に影響します。あなたが大きな変更を加えたい場合、別の経験を設定した方が良いでしょう。';
 $string['deleteexperience'] = '経験を削除する';
 $string['deletethisexperience'] = '経験を削除する: \'%s\'';
@@ -114,7 +114,7 @@ $string['categorymaxhoursdesc'] = 'カテゴリで達成する必要のある最
 $string['categorynumreflec'] = '内省数';
 $string['categorynumreflecdesc'] = 'このカテゴリ全体で必要な内省数を入力してください。';
 $string['categoryhashours'] = '時間付きカテゴリ';
-$string['categoryhashoursdesc'] = 'このカテゴリを選択して時間を設定できますか?';
+$string['categoryhashoursdesc1'] = 'ポートフォリオ作成者はこのカテゴリを選択して時間を設定できますか?';
 $string['addcategorylink'] = 'カテゴリを追加する';
 $string['cannotdeleteinexperience'] = '一度経験が使用されたカテゴリは削除できません。';
 $string['cannotdeleteonlycategory'] = '唯一のカテゴリは削除できません。';

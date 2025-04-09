@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-08 04:05:29 UTC
+ * @updated    2025-04-09 01:37:01 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -512,7 +512,7 @@ $string['usersallowedmultipleinstitutionsdescription1'] = '人が同時に複数
 $string['institutionstrictprivacy'] = '厳密なプライバシ';
 $string['institutionstrictprivacydescription'] = 'あなたのサイトが<a href="https://www.eugdpr.org/">GDPR</a>を順守する必要がある場合、このオプションを有効にしてください。';
 $string['institutionstrictprivacysuspendaccount'] = 'アカウントを利用停止する';
-$string['institutionstrictprivacysuspendaccountdescription'] = 'ユーザが法的同意を拒否した場合、アカウントを利用停止します。';
+$string['institutionstrictprivacysuspendaccountdescription'] = '人が法的同意を拒否した場合、アカウントを利用停止します。';
 $string['requireregistrationconfirm'] = '登録を承認する';
 $string['requireregistrationconfirmdescription1'] = 'すべてのインスティテューションに新しい自己登録アカウントの承認を強制します。';
 $string['userscanchooseviewthemes'] = '作成者がページテーマを選択できる';
@@ -1505,8 +1505,8 @@ $string['cli_auth_method_unable_to_move_account_skipped_missing'] = 'アカウ�
 $string['cli_auth_method_unable_to_continue'] = '続行できません。ドライランで問題を発見および修正するか、「スキップ 」オプションで実行してください。';
 $string['cli_auth_method_skipped_list'] = '問題のある行を手動で削除する必要があります。';
 $string['cli_auth_method_to_move'] = '「 %s 」アカウントをID「 %s 」の認証方法に移動しています。';
-$string['cli_auth_method_dry_run_only'] = 'ドライランのみ - %s アカウントが認証方法を変更したため、%s を手動更新する必要があります。';
-$string['cli_auth_method_change_done'] = '%s アカウントが認証方法を変更したため、%s アカウントを手動更新する必要があります。';
+$string['cli_auth_method_dry_run_only'] = 'ドライランのみ - %s アカウントが認証方法を変更しました。%s アカウントを手動更新する必要があります。';
+$string['cli_auth_method_change_done'] = '%s アカウントが認証方法を変更しました。%s アカウントを手動更新する必要があります。';
 $string['cli_auth_method_ignore_admins'] = '認証方法変更時にサイト管理者を無視します。';
 $string['behatvariables'] = 'Behatステップ';
 $string['behatvariablesdesc'] = '利用可能なBehatステップを素早く探すためのツールです。';
@@ -1615,7 +1615,7 @@ $string['add_block_to_view_add_to_top'] = 'これはコピー先ページのト�
 $string['add_block_to_view_add_to_top_notice'] = '[注意] これはコピー先ページのトップにブロックを追加します。';
 $string['add_block_to_view_replace'] = '合致するブロックのインスタンスが存在する場合、それをページから置換します。';
 $string['add_block_to_view_re_add_notice'] = '[注意] 合致するブロックが存在する場合、それを削除して再度ページに追加します。';
-$string['add_block_to_view_announce_blocktype_viewtype'] = '[注意] ブロックタイプ「 %s 」のビュータイプ「 %s 」への追加を検討しています!';
+$string['add_block_to_view_announce_blocktype_viewtype'] = '[注意] ブロックタイプ「 %s 」のページタイプ「 %s 」への追加を検討しています!';
 $string['add_block_to_view_dryrun_notice'] = '- - - - - これはページにブロックを追加するためのドライランです。- - - - -';
 $string['add_block_to_view_block_to_add'] = 'ページID「 %s 」のブロックをID「 %s 」のアカウントに追加します。';
 $string['add_block_to_view_block_replaced'] = 'ページID「 %s 」のブロックをID「 %s 」のアカウントに置き換えました。';
@@ -1635,14 +1635,14 @@ $string['add_block_to_view_info'] = 'ブロックおよびその設定を他の�
 例えば「私に共有されているポートフォリオ」ブロックは他の 
 ダッシュボードページにまだない場合にコピーされます。';
 $string['reset_view_to_template_dry_short'] = 'ドライラン:';
-$string['reset_view_to_template_complete'] = 'ビューID「 %s 」(%s 所有) がテンプレートID「 %s 」と一致しました。';
+$string['reset_view_to_template_complete'] = 'ページID「 %s 」(%s 所有) がテンプレートID「 %s 」と一致しました。';
 $string['reset_page_to_template_info'] = '指定されたテンプレートIDのコンテンツと一致するようページをリセットします。';
-$string['reset_page_to_template_view'] = 'ブロックを含むページのビューIDがコピーされます。';
-$string['reset_page_to_template_target_view'] = '(任意) ページのビューIDです。1つのページだけをリセットする場合に使用します。そうでない場合、テンプレートと同じタイプのすべてのページがリセットされます。';
-$string['reset_view_to_template_dryrun_notice'] = '- - - - - これはテンプレートに合わせてビューをリセットするためのDRY RUNです。- - - - -';
+$string['reset_page_to_template_view'] = 'ブロックを含むページのページIDがコピーされます。';
+$string['reset_page_to_template_target_view'] = '(任意) ページのページIDです。1つのページだけをリセットする場合に使用します。そうでない場合、テンプレートと同じタイプのすべてのページがリセットされます。';
+$string['reset_view_to_template_dryrun_notice'] = '- - - - - これはテンプレートに合わせてページをリセットするためのDRY RUNです。- - - - -';
 $string['reset_view_to_template_single'] = '[注意] テンプレートはID「 %s 」のアカウントが所有するID「 %s 」のページのコンテンツだけをリセットします。';
-$string['reset_view_to_template_not_single'] = '[エラー] あなたはすべてのポートフォリオページのリセットを許可されていません。リセット先のビューIDを指定してください。';
-$string['reset_view_to_template_batch'] = 'リセットするビューの上限です。最初に小さなバッチでのリセットをお勧めします。';
+$string['reset_view_to_template_not_single'] = '[エラー] あなたはすべてのポートフォリオページのリセットを許可されていません。リセット先のページIDを指定してください。';
+$string['reset_view_to_template_batch'] = 'リセットするページの上限です。最初に小さなバッチでのリセットをお勧めします。';
 $string['reset_view_to_template_batch_complete'] = 'バッチコピー完了!';
 $string['reset_view_to_template_batch_info'] = '[注意] 「 %s 」のバッチのみ実行しています。';
 $string['reset_view_to_template_info'] = '[ログ] 処理中です: タイプ「 %s 」に一致するページのコンテンツをテンプレート (ID %s - 所有: %s 「 %s 」) に置き換えます。';
