@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-09 01:10:51 UTC
+ * @updated    2025-04-12 17:48:20 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -174,12 +174,13 @@ $string['progress_faxnumber'] = 'あなたのFAX番号を追加する';
 $string['progress_messaging'] = 'あなたのメッセージング情報を追加する';
 $string['progress_occupation'] = 'あなたの職業を追加する';
 $string['progress_industry'] = 'あなたの職種を追加する';
+$string['progress_joingroup'] = '%s グループに参加する';
+$string['progress_makefriend'] = '%s フレンドを作る';
 $string['socialprofile'] = 'ソーシャルメディア';
-$string['socialprofiledesc'] = 'ソーシャルメディアのアカウント名です。';
 $string['socialprofiles'] = 'ソーシャルメディアアカウント';
 $string['servicedesc'] = 'ソーシャルメディアネットワーク名を入力してください。例) Facebook、LinkedIn等';
-$string['profileurl1'] = 'アカウントURL';
-$string['profileurldesc1'] = 'あなたのソーシャルメディアアカウントの公開ページのURLです。';
+$string['profileurl'] = 'あなたのURLまたはユーザ名';
+$string['profileurldesc'] = 'あなたのプロファイルページのURLまたはユーザ名です。';
 $string['deleteprofile'] = 'ソーシャルメディアアカウントを削除する';
 $string['deletethisprofile'] = 'ソーシャルメディアアカウントを削除する:「 %s 」';
 $string['deleteprofileconfirm'] = '本当にこのソーシャルメディアアカウントを削除してもよろしいですか?';

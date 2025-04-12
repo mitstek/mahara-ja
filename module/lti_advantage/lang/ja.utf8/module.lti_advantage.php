@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-03-20 04:28:35 UTC
+ * @updated    2025-04-12 17:30:20 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -28,6 +28,7 @@ $string['platformvendorkeycannotbeempty'] = 'プラットフォームベンダ�
 $string['platformvendorissnotfound'] = 'プラットフォームは返却データ内に「iss」を送信していません。キーがありません。';
 $string['platformvendorkeyinvalid'] = 'リクエスト内にプラットフォームベンダキーは見つかりませんでした。返されたリクエスト内のキーは次のとおりです: %s';
 $string['platformvendorkeynotfound'] = 'プラットフォームからの「iss」(%s) には「lti_advantage_registration」データベーステーブル内で合致する「イシュア」がありません。';
+$string['productfamilycodenotfound'] = 'リクエスト内にプラットフォームプロダクトファミリコードは見つかりませんでした。';
 $string['productfamilycodeunknown'] = 'プラットフォームプロダクトファミリコード「 %s 」はMaharaに認識されていません。';
 $string['platform_service_auth_endpoint'] = 'プラットフォームOAuth2アクセストークンURL';
 $string['platform_jwks_endpoint'] = 'プラットフォームキーセットURL';
@@ -44,7 +45,7 @@ $string['openidconnectlogin'] = 'OpenID ConnectログインURL';
 $string['keyset'] = 'キーセットURL';
 $string['deployments'] = 'デプロイメント';
 $string['deploymentsdesc'] = 'LTIプラットフォームのデプロイメントIDです。';
-$string['issueralreadyinuseforinstitution'] = 'イシュアは別の接続でインスティテューション「 %s 」に対して既に設定されています。';
+$string['issueralreadyinuse'] = 'イシュアにはすでに別のクライアント接続が設定されています。';
 $string['deploymentidcannotbesame'] = '両方のデプロイメントIDフィールドを同一にできません。';
 $string['deployment1_idalreadyinuse'] = 'この基本起動デプロイメントIDはすでに使用されています。';
 $string['deployment2_idalreadyinuse'] = 'このNRPSデプロイメントIDはすでに使用されています。';
@@ -58,6 +59,6 @@ $string['deployment3_description'] = '必要であれば、追加デプロイメ
 $string['deeplinkportfoliostitle'] = 'ポートフォリオ';
 $string['deeplinknoportfolios'] = 'あなたにはポートフォリオがありません。';
 $string['confirmareyousure'] = '本当によろしいですか?';
-$string['confirmwarning2'] = 'あなたが「<span class="title" id="submissionTitle">ページ</span>」を送信した場合、コピーが作成されて評価のために送信されます。あなたはオリジナルのポートフォリオの編集を継続できます。しかし、あなたはリリースされるまで送信済みのコピーは編集できません。続けてもよろしいですか?';
+$string['confirmwarning1'] = 'あなたが「 %s 」を送信した場合、コピーが作成されて評価のために送信されます。あなたはオリジナルのポートフォリオの編集を継続できます。しかし、あなたはリリースされるまで送信済みのコピーは編集できません。続けてもよろしいですか?';
 $string['confirmbtntxtconfirm'] = '確認';
 $string['confirmbtntxtcancel'] = 'キャンセル';

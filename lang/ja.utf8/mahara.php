@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-09 01:43:34 UTC
+ * @updated    2025-04-12 17:32:32 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -83,10 +83,9 @@ $string['enabled'] = '有効';
 $string['disabled'] = '無効';
 $string['reportissue'] = 'このイシューを報告する';
 $string['reportissueadmin'] = 'このイシューを管理者に報告する';
-$string['issuereport_pieform_success1'] = 'このイシューは報告されています。あなたに管理者から連絡される予定です。';
+$string['issuereport_pieform_success'] = 'イシュー報告が送信されました。あなたに管理者から連絡される予定です。';
 $string['provideinfo'] = 'このイシュー発生前にあなたが実施した手順';
 $string['issuereportinfotitle'] = 'このイシュー発生前にあなたが実施した手順:';
-$string['issuereporterroroccurred_str'] = '発生したエラー:';
 $string['issuereporterroroccurred'] = '---
 発生したエラー:
 
@@ -94,18 +93,6 @@ $string['issuereporterroroccurred'] = '---
 $string['issuereportemailbody'] = '%s がイシューを報告しました。あなたの通知を閲覧するには次にアクセスしてください:
 
 %s';
-$string['issuereport_deleted'] = '(イシューレポート削除済み)';
-$string['issuereport_escalate'] = 'イシューレポートをエスカレーションする';
-$string['issuereport_escalate_report_form_title'] = 'イシューレポートをエスカレーションする';
-$string['issuereport_escalate_notes'] = 'ノート';
-$string['issuereport_escalate_pieform_success'] = 'イシューレポートがエスカレーションされました。';
-$string['issuereport_escalate_pieform_error'] = 'エスカレーションされたイシューレポートはありません。';
-$string['issuereport_escalation_other_info'] = 'その他の情報';
-$string['issuereport_escalation_title_element'] = 'イシュー概略';
-$string['issuereport_escalation_email_element'] = 'このレポートの送信先:';
-$string['issuereport_escalation_email_element_sender'] = '返信はあなたの主メールアドレスに送信されます:';
-$string['issuereport_escalation_email_element_error'] = 'メールフィールドに入力してください。';
-$string['issuereport_escalation_element_warning'] = '特にあなたのインスティテューションの外にレポートが送信される場合、氏名およびメールアドレス等のセンシティブな情報を匿名化します。';
 $string['complaint'] = 'クレーム';
 $string['notifyadministrator'] = '管理者に通知する';
 $string['notifyadministratorconfirm'] = '本当にこのページを好ましくないコンテンツを含んでいるとして報告しますか?';
@@ -252,7 +239,6 @@ $string['edittag'] = '<a href="%s">%s</a> を編集する';
 $string['editthistag'] = 'このタグを編集する';
 $string['edittagdescription'] = 'あなたのポートフォリオの「 %s 」でタグ付けされたアイテムすべてが更新されます。';
 $string['deletetag'] = '<a href="%s">%s</a> を削除する';
-$string['deletetagname'] = 'タグ %s を削除する';
 $string['confirmdeletetag'] = '本当にあなたのポートフォリオのすべてのアイテムからこのタグを削除してもよろしいですか?';
 $string['deletetagdescription'] = 'あなたのポートフォリオのすべてのアイテムからこのタグを削除します。';
 $string['tagupdatedsuccessfully'] = 'タグが正常に更新されました。';
@@ -739,7 +725,6 @@ $string['about'] = 'About';
 $string['contactus'] = 'お問い合わせ';
 $string['legal'] = '法律';
 $string['externalmanual'] = '外部マニュアル';
-$string['manualhelp_structure'] = 'Maharaマニュアル構造を使用する';
 $string['account'] = '設定';
 $string['accountprefs'] = 'プレファレンス';
 $string['preferences'] = 'プレファレンス';
@@ -1262,7 +1247,6 @@ $string['progresspagedescription'] = 'コレクションのポートフォリオ
 $string['activitypagedescription'] = 'グループ内アウトカムコレクションの活動ページです。';
 $string['scroll_to_top'] = 'トップに戻る';
 $string['tabgroup'] = 'グループ';
-$string['group'] = 'グループ';
 $string['tabinstitution'] = 'インスティテューション';
 $string['Version'] = 'バージョン';
 $string['version.'] = 'v.';
@@ -1370,12 +1354,10 @@ $string['accountupdatedpasswordresethtml'] = '<p><a href="%s">あなたのパス
 $string['accountupdateresetpasslink'] = '%sforgotpass.php?key=%s';
 $string['accountupdatefooter'] = '%s 管理者';
 $string['accountupdatefooterhtml'] = '<p>%s 管理者</p>';
-$string['action'] = '操作';
 $string['confirmisoinstdbcleanup'] = 'アクセスルールを削除する';
 $string['dbcleanedforisoinst'] = 'データベースが更新されました。サイトは再オープンされました。';
 $string['isolatedinstitutioninstructions'] = 'サイト設定「<b>隔離インスティテューション</b>」が有効にされました。ポートフォリオを他のインスティテューションの人と共有できなくなるため、この設定に準拠するには既存のポートフォリオのアクセスルールの一部をデータベースから永久に削除する必要があります。';
 $string['pleaseconfirmcdcleanforisoinst'] = 'このサイトのインスティテューション隔離を遵守するため、あなたがこれらのポートフォリオアクセスルールを完全に削除したいことを確認してください。<b>あなたはこの操作を元に戻せません。</b>';
 $string['revertisolation'] = 'あなたが継続したくない場合、config.phpファイルの隔離インスティテューション設定を無効にしてください。これによりこのメッセージが表示されなくなります。また、あなたはアクセスルール変更の必要がなくなります。';
 $string['owngroupsonlyprocessingtext'] = '「隔離インスティテューション」に加えて「<b>自分のグループのみ</b>」が有効にされました。この設定に準拠するためポートフォリオのアクセス権を更新する必要があります。少なくとも1つのグループに属していないアカウント保持者間でポートフォリオを共有していた場合、ポートフォリオは他のグループメンバとのみ共有できるため共有権限が削除されます。';
-$string['maharaversion'] = 'Maharaバージョン';
 $string['unabletopasteimage'] = 'あなたはドラッグ&ドロップではイメージを挿入できません。こちらのエディタのツールバーにある「画像の挿入・編集」ボタンから追加してください。';

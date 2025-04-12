@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-09 01:44:42 UTC
+ * @updated    2025-04-12 17:33:01 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -54,10 +54,7 @@ $string['createtags'] = 'タグから作成する';
 $string['createtagsdesc1'] = 'あなたのページに自動的にコンテンツを取得するためタグを検索するか入力してください。あなたが2つ以上のタグを入力した場合、すべてのタグがタグ付けされたコンテンツのみページに表示されます。その後、あなたはブロックを再配置および削除できます。';
 $string['anonymise'] = '匿名化する';
 $string['anonymisedescription'] = 'ページの作成者としてのあなたの氏名を他の人から秘匿します。必要であれば管理者およびスタッフはあなたの氏名を確認できます。';
-$string['Lock'] = 'ロック';
-$string['Unlock'] = 'ロック解除';
 $string['Locked'] = 'ロック';
-$string['Unlocked'] = 'ロック解除';
 $string['lockedgroupviewdesc'] = 'あなたがこのページをロックした場合、グループ管理者のみ編集できます。';
 $string['profileviewtitle'] = 'プロファイルページ';
 $string['dashboardviewtitle'] = 'ダッシュボードページ';
@@ -109,9 +106,6 @@ $string['collectionsubmittedtohost'] = 'このコレクションは評価のた�
 $string['collectionsubmittedtohoston'] = 'このコレクションは %s に送信されました。';
 $string['submittedpendingrelease'] = 'アーカイブ後のリリース保留中です。';
 $string['submittedpendingreleasefailed'] = 'リリースがアーカイブに失敗しました。再キューするには<a href="%s">エクスポートキュー</a>に移動してください。';
-$string['archivenow'] = 'ポートフォリオ「 %s 」はアーカイブ後にリリースされます。';
-$string['archivefailed'] = '提出のアーカイブに失敗しました。';
-$string['archivesuccess'] = '正常にアーカイブしました。';
 $string['submittedstatus'] = '提出ステータス';
 $string['nobodycanseethisview2'] = 'あなたのみこのページを閲覧できます。';
 $string['noviews2'] = 'ポートフォリオはありません。';
@@ -151,7 +145,6 @@ $string['peer'] = 'ピア';
 $string['manager'] = 'マネージャ';
 $string['peermanager'] = 'ピアおよびマネージャ';
 $string['verifier'] = 'レビュア';
-$string['addverifier'] = 'レビュアを選択する';
 $string['invalidaccessroleforuser1'] = '「 %s 」の共有パーミッションが更新されましたが、正しい内部ロールがないため、「 %s 」ロールをあなたのポートフォリオ「 %s 」に対して受け取れません。あなたの管理者に連絡してその人に「 %s 」ロールを与えるための支援をご依頼ください。';
 $string['token'] = 'シークレットURL';
 $string['editsecreturlaccess'] = 'シークレットURLアクセスを編集する';
@@ -287,18 +280,10 @@ $string['success.removeblockinstance'] = 'ブロックが正常に削除され�
 $string['err.removeblockinstance'] = 'ブロックを削除できませんでした。';
 $string['success.addcolumn'] = 'カラムが正常に追加されました。';
 $string['err.addcolumn'] = '新しいカラムの追加に失敗しました。';
+$string['success.removecolumn'] = 'カラムが正常に削除されました。';
+$string['err.removecolumn'] = 'カラムの削除に失敗しました。';
 $string['success.changetheme'] = 'テーマが正常に更新されました。';
 $string['err.changetheme'] = 'テーマを更新できませんでした。';
-$string['success.copyblockinstance'] = 'ブロックを正常にコピーしました。';
-$string['err.copyblockinstance'] = 'ブロックのコピーに失敗しました。';
-$string['success.changeblockinstance'] = '正常にプレースホルダブロックを変更しました。';
-$string['err.changeblockinstance'] = 'プレースホルダブロックの変更に失敗しました。';
-$string['success.revertblockinstance'] = 'ブロックを正常に元に戻しました。';
-$string['err.revertblockinstance'] = 'ブロックを元に戻せませんでした。';
-$string['success.configureblockinstance'] = 'ブロックを正常に設定しました。';
-$string['err.configureblockinstance'] = 'ブロックの設定に失敗しました。';
-$string['success.acsearch'] = '正常に検索できました。';
-$string['err.acsearch'] = '検索に失敗しました。';
 $string['confirmcloseblockinstance'] = '本当にあなたの変更を保存せずに続けてもよろしいですか?';
 $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除してもよろしいですか?';
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
@@ -320,6 +305,7 @@ $string['addnewblockhere'] = 'ここに新しいブロックを追加する';
 $string['add'] = '追加';
 $string['addcolumn'] = 'カラムを追加する';
 $string['remove'] = '削除';
+$string['removecolumn'] = 'このカラムを削除する';
 $string['moveblock2'] = 'ブロックを移動する';
 $string['moveblock'] = '%s ブロックを移動する';
 $string['movethisblock'] = 'このブロックを移動する';
@@ -405,7 +391,6 @@ $string['confirmaddtitle1'] = 'ポートフォリオを作成する';
 $string['confirmadddesc'] = 'あなたが作成したいものを選択してください:';
 $string['confirmcopytitle'] = 'コピーを確認する';
 $string['confirmcopydesc'] = 'あなたがコピーしたいものを選択してください:';
-$string['confirmcopydesctogroup'] = 'アウトカムポートフォリオをコピーしたいグループを選択してください:';
 $string['Untitled'] = 'タイトルなし';
 $string['copyforexistingmembersprogress'] = 'ポートフォリオを既存のグループメンバにコピーする';
 $string['existinggroupmembercopy'] = '既存のグループメンバにコピーする';
@@ -505,7 +490,6 @@ $string['versionnumber'] = 'バージョン %s';
 $string['gotonextversion'] = '次のバージョンに移動する';
 $string['gotopreviousversion'] = '前のバージョンに移動する';
 $string['loadingtimelinecontent'] = '「 %s 」のタイムラインを読み込んでいます。ページに多くのバージョンがある場合、この処理に時間を要する場合があります。';
-$string['timelinemissingcontent'] = '一部のコンテンツが不足しているため %s を表示できません (バージョン %s)。';
 $string['bottom'] = '最下部';
 $string['top'] = '最上部';
 $string['blockssizeupdated'] = 'ブロックサイズが正常に変更されました。';

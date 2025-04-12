@@ -1,12 +1,18 @@
 <?php
+/**
+ *
+ * @package    mahara
+ * @subpackage lang (Japanese)
+ * @translator Mitsuhiro Yoshida (https://mitstek.com/)
+ * @started    2008-01-19 11:25:00 UTC
+ * @updated    2025-04-12 17:25:55 UTC
+ * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
+ * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
+ *
+ */
 
 defined('INTERNAL') || die();
 
-$string['Group'] = 'グループ';
-$string['Media'] = 'メディア';
-$string['Portfolio'] = 'ポートフォリオ';
-$string['Text'] = 'テキスト';
-$string['Users'] = '人';
 $string['admin'] = '管理者';
 $string['all'] = 'すべて';
 $string['analyzer'] = 'Elasticsearchアナライザ';
@@ -24,7 +30,7 @@ $string['clusterstatus'] = 'Elasticsearchクラスタに問題があります。
 $string['collection'] = 'コレクション';
 $string['confignotset'] = '(未設定)';
 $string['contains'] = '含む';
-$string['createdby1'] = '作成者: <a href="%s">%s</a>';
+$string['createdby'] = '作成者: %s';
 $string['createdbyanon'] = '作成者 (作成者名秘匿)';
 $string['cronlimit'] = 'cronレコード制限';
 $string['cronlimitdescription'] = 'それぞれのcron実行に関してキューからElasticsearchサーバに渡される最大レコード数です (無制限の場合、空白またはゼロにしてください)。';
@@ -37,33 +43,32 @@ $string['elasticsearchtooold'] = 'あなたのElasticsearchのバージョン %s
 $string['filterresultsby'] = '結果をフィルタする';
 $string['forum'] = 'フォーラム';
 $string['forumpost'] = 'フォーラム投稿';
-$string['forumpostedby'] = '%s - %s';
 $string['forumpostedbylabel'] = '投稿者:';
+$string['forumpostedby'] = '%s - %s';
 $string['forumtopic'] = 'フォーラムトピック';
+$string['Group'] = 'グループ';
 $string['host'] = 'ホスト';
 $string['hostdescription'] = 'Elasticsearchサーバのホスト名です。デフォルトは「127.0.0.1」です。';
 $string['html'] = 'テキスト';
+$string['indexingusername'] = '認証書き込みユーザ名';
+$string['indexingusernamedescription'] = 'インデックスから読み込むユーザ名と異なる場合、インデックス書きみ時にHTTP基本認証でElasticsearchに渡すユーザ名です (任意)。';
 $string['indexingpassword'] = '認証書き込みパスワード';
 $string['indexingpassworddescription'] = 'インデックスから読み込むパスワードと異なる場合、インデックス書きみ時にHTTP基本認証でElasticsearchに渡すパスワードです (任意)。';
 $string['indexingrunning'] = 'インデックス化cronジョブが動作しています。数分後、再度お試しください。';
-$string['indexingusername'] = '認証書き込みユーザ名';
-$string['indexingusernamedescription'] = 'インデックスから読み込むユーザ名と異なる場合、インデックス書きみ時にHTTP基本認証でElasticsearchに渡すユーザ名です (任意)。';
 $string['indexname'] = 'インデックス名';
 $string['indexnamedescription'] = 'Elasticsearchインデックス名です。デフォルトは「mahara」です。';
-$string['indexstatusbad'] = '現在のインデックス「 %s 」のステータスは「 %s 」です。修正する必要があります。';
 $string['indexstatusok'] = '現在のインデックス「 %s 」のステータスは「 グリーン 」です。Elasticsearchは動作しています。';
+$string['indexstatusbad'] = '現在のインデックス「 %s 」のステータスは「 %s 」です。修正する必要があります。';
 $string['indexstatusunknown'] = '現在のインデックス「 %s 」のステータスはHTTPレスポンス「 %s 」のため不明です。';
 $string['license'] = 'ライセンス';
+$string['Media'] = 'メディア';
 $string['newindextype'] = 'あなたのElasticsearch設定に新しいインデックスタイプ「 %s 」が追加されました。これが適用されるためにはあなたのサイトを再インデックス化する必要があります。';
 $string['newversion'] = '新しいElasticsearch PHPバージョン %s がMaharaに追加されました。これはElasticsearchサーバ %s またはそれ以上と互換性があります。これを適用するにはあなたのサイトを再インデックス化する必要があります。';
 $string['none'] = 'なし';
 $string['noticeenabled'] = '現在、Elasticsearchプラグインは有効にされています。Elasticsearchプラグインを無効にするには<a href="%s">検索設定</a>で選択解除してください。';
 $string['noticenotactive'] = 'ホスト: %s およびポート %s のElasticsearchサーバにアクセスできません。動作しているか確認してください。';
 $string['noticenotenabled'] = '現在、Elasticsearchプラグインは有効にされていません。Elasticsearchプラグインを有効にするには<a href="%s">検索設定</a>で選択してください。';
-$string['nrecords'] = array(
-    0 => '%s レコード',
-);
-$string['ownedbygroup1'] = '作成グループ: <a href="%s">%s</a>';
+$string['ownedbygroup'] = '作成グループ: %s';
 $string['owner'] = 'オーナ';
 $string['page'] = 'ページ';
 $string['pages'] = 'ページ';
@@ -73,8 +78,10 @@ $string['passworddescription'] = '(任意) HTTP基本認証でElasticsearchに�
 $string['passwordlength'] = '(パスワード長: %s)';
 $string['port'] = 'Elasticsearchポート';
 $string['portdescription'] = 'Elasticsearchが使用するポートです。デフォルトは「9200」です。';
+$string['Portfolio'] = 'ポートフォリオ';
 $string['record'] = 'レコード';
 $string['records'] = 'レコード';
+$string['nrecords'] = '%s レコード';
 $string['relevance'] = '関連性';
 $string['replicashards'] = 'レプリカシャード';
 $string['replicashardsdescription'] = '作成されるシャードのコピー数です。注意: 1ノードのみの場合、レプリカに「0」を設定してください。';
@@ -85,19 +92,20 @@ $string['resetlegend'] = 'インデックスリセット';
 $string['resume'] = 'レジュメ';
 $string['scheme'] = 'スキーマ';
 $string['schemedescription'] = 'Elasticsearchサーバのスキーマです。デフォルトは「http」です。';
-$string['searchpagetitle'] = '人およびコンテンツを検索する';
 $string['servererror'] = 'サーバへの接続に問題が発生しました: %s';
 $string['shards'] = 'シャード';
 $string['shardsdescription'] = '作成されるインデックスの個数 (シャード) です。';
 $string['sortby'] = '並べ替え';
 $string['tags'] = 'タグ';
 $string['tagsonly'] = 'タグのみ';
+$string['Text'] = 'テキスト';
 $string['types'] = 'Elasticsearchタイプ';
 $string['typesdescription'] = 'インデックス化するカンマ区切りのエレメント一覧です。デフォルトは次のとおりです: usr,interaction_instance,interaction_forum_post,group,view,artefact';
 $string['usedonpage'] = '使用ページ';
 $string['usedonpages'] = '使用ページ';
 $string['username'] = '認証ユーザ名';
 $string['usernamedescription'] = 'HTTP基本認証でElasticsearchに渡すユーザ名です (任意)。';
+$string['Users'] = '人';
 $string['wallpost'] = 'ウォール投稿';
 $string['xsearchresults'] = '検索結果: %s';
 $string['xsearchresultsfory'] = '検索結果: %s / 検索キーワード: %s';
