@@ -241,5 +241,5 @@ $string['submissionoriginal'] = '取得元オリジナルポートフォリオ�
 $string['liteexporttype'] = '使用するエクスポートタイプです。有効なオプションは「htmllite」です。';
 $string['fileurl'] = 'ZIPファイルを取得するダウンロードURLです。注意: あなたがファイルをダウンロードするには有効なウェブサービストークンを提供する必要があります。';
 $string['errorincorrectexporttype'] = 'エクスポートタイプ「 %s 」のパラメータ値が正しくありません。';
-$string['cantaddextapp'] = '新しい外部アプリを追加できません。LTI 1.1等の互換性のあるプラグインが有効であることを確認してください。';
+$string['cantaddextapp'] = '新しい外部アプリケーションを追加できません。LTI 1.1等の互換性のあるプラグインが有効であることを確認してください。';
 $string['cantaddextappnoprotocol'] = 'OAuthウェブサービスプロトコルが有効であることを確認してください。';
