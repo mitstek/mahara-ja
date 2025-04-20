@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-15 21:27:57 UTC
+ * @updated    2025-04-20 23:41:38 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -256,7 +256,7 @@ $string['needtosetowner'] = 'このサービスのオーナを設定する必要
 $string['confirmdeleteexternalapp'] = '本当にこの外部アプリケーションを削除してもよろしいですか?';
 $string['confirmupdate'] = 'あなたは正常に外部アプリケーション「 %s 」を更新しました。';
 $string['cannotdelete'] = 'まだこのアプリケーションのトークンを認証手段として使用している人がいるため、あなたは外部アプリケーション「 %s 」を削除できません。';
-$string['accesstofunctionnotallowed'] = '関数「 %s() 」へのアクセスは許可されていません。サービスが関数を含むことを有効にされているかどうか確認してください。サービス設定において: サービスが制限されている場合でもユーザがリストに記載されているかどうか確認してください。さらにサービス設定ではIP制限およびサービスにケイパビリティが必要か確認してください。';
+$string['accesstofunctionnotallowed'] = '関数「 %s() 」へのアクセスは許可されていません。その関数を含むサービスが有効にされているかどうか確認してください。サービス設定において: サービスが制限されている場合でもユーザがリストに記載されているかどうか確認してください。さらにサービス設定ではIP制限およびサービスにケイパビリティが必要か確認してください。';
 $string['accessexception'] = 'アクセスコントロール例外';
 $string['accessnotallowed'] = 'ウェブサービスへのアクセスは許可されていません。';
 $string['addfunction'] = '関数を追加する';
