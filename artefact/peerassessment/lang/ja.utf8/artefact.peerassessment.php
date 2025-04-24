@@ -33,7 +33,7 @@ $string['feedbacknotificationtext1'] = '%s が相互評価を追加しました 
 %s';
 $string['importedassessment'] = 'インポート済み相互評価';
 $string['makeassessmentpublic'] = '評価を公開する';
-$string['messageempty'] = '相互評価は空です。';
+$string['messageempty'] = '評価は空です。';
 $string['nassessments'] = array(
     0 => '%s 評価',
 );
