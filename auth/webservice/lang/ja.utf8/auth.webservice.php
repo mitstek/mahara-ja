@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-22 15:02:38 UTC
+ * @updated    2025-04-27 23:49:30 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -288,7 +288,7 @@ $string['errornotemptydefaultparamarray'] = '名称「 %s 」のウェブサー�
 $string['erroronlyarray'] = '配列のみ許可されます。';
 $string['erroroptionalparamarray'] = '名称「 %s 」のウェブサービス記述パラメータは単一または多重構造です。VALUE_OPTIONALとしては設定できません。ウェブサービス記述を確認してください。';
 $string['errorresponsemissingkey'] = 'レスポンスエラー: 次の単一構造の必須キーがありません: %s';
-$string['errorscalartype'] = 'スカラ型が要求されましたが、配列またはオブジェクトを受信しました。';
+$string['errorscalartype'] = 'スカラ型が要求されましたが、配列またはオブジェクトを受け取りました。';
 $string['errorunexpectedkey'] = 'パラメータ配列に予期されないキー (%s) が検出されました。';
 $string['errorunexpectedcustomkey'] = 'パラメータ配列に予期されないカスタムキー (%s) が検出されました。これらはMaharaでは無視されます。このメッセージはあなたがパラメータをレビューしてパラメータが無視されることに気付けるようにするだめだけの情報です。';
 $string['execute'] = '実行';
