@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-09 01:44:42 UTC
+ * @updated    2025-04-29 04:06:19 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -303,6 +303,9 @@ $string['confirmcloseblockinstance'] = '本当にあなたの変更を保存せ�
 $string['confirmdeleteblockinstance'] = '本当にこのブロックを削除してもよろしいですか?';
 $string['blockinstanceconfiguredsuccessfully'] = 'ブロックが正常に設定されました。';
 $string['blockconfigurationrenderingerror'] = 'ブロックを表示できなかったため設定に失敗しました。';
+$string['blocks_edit_one_column_node'] = '警告: あなたはレスポンシブ表示モードです。
+
+あなたは安全にコンテンツを編集できます。ブロックを追加または移動した場合、保存されたレイアウトが更新されます。';
 $string['blocksinstructionajaxlive2'] = 'これはあなたのページのプレビューです。変更は自動的に保存されます。<br>新しいブロックを作成するには「+」ボタンをページ上にドラッグしてください。そして、そのブロックのタイプを選択してください。ブロックの位置を変更するにはページ上でドラッグしてください。';
 $string['blockchangedsuccess'] = 'プレースホルダブロックを「 %s 」ブロックに正常に変更しました。';
 $string['blockchangederror'] = '「 %s 」ブロックへの変更に失敗しました。';
