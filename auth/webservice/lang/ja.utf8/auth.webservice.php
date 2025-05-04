@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-27 23:49:30 UTC
+ * @updated    2025-05-04 23:29:28 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -294,7 +294,7 @@ $string['errorunexpectedcustomkey'] = 'パラメータ配列に予期されな�
 $string['execute'] = '実行';
 $string['expires'] = '有効期限';
 $string['externalservice'] = '外部サービス';
-$string['generalstructure'] = '一般構造';
+$string['generalstructure'] = '全体構成';
 $string['information'] = '情報';
 $string['invalidlogin'] = 'ログインに失敗しました。あなたのユーザ名およびパスワードを確認してください。';
 $string['invalidaccount'] = '無効なウェブサービスアカウント: サービスユーザ設定を確認してください。';
