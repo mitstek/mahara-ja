@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-05-04 23:29:28 UTC
+ * @updated    2025-05-06 22:57:13 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -301,7 +301,7 @@ $string['invalidaccount'] = '無効なウェブサービスアカウント: サ�
 $string['invalidextparam'] = '無効な外部APIパラメータ: %s';
 $string['invalidextresponse'] = '無効な外部APIレスポンス: %s';
 $string['invalidiptoken'] = '無効なトークン: あなたのIPはサポートされていません。';
-$string['invalidpermission'] = 'あなたには「 %s 」で指定されたアカウントにファイルをアップロードするためのパーミッションがありません。';
+$string['invalidpermission'] = 'あなたには「 %s 」で識別されたアカウントにファイルをアップロードするためのパーミッションがありません。';
 $string['invalidtimedtoken'] = '無効なトークン: トークンの有効期限が切れています。';
 $string['invalidtokensession'] = '無効なセッションベースのトークン: セッションが見つからないか有効期限が切れています。';
 $string['iprestriction'] = 'IP制限';
