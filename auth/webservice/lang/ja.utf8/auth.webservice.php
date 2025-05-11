@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-05-06 22:57:13 UTC
+ * @updated    2025-05-11 23:15:16 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -311,7 +311,7 @@ $string['missingpassword'] = 'パスワードがありません。';
 $string['missingusername'] = 'ユーザ名がありません。';
 $string['notoken'] = 'トークンリストが空です。';
 $string['nosites'] = 'どのインスティテューションにもアクセスはありません。';
-$string['nowsprotocolsenabled'] = '有効にされているウェブサービスプロトコルがありません。あなたは少なくとも1つの<a href="%s">プロトコル</a>を有効にする必要があります。';
+$string['nowsprotocolsenabled'] = '有効にされているウェブサービスプロトコルはありません。あなたは少なくとも1つの<a href="%s">プロトコル</a>を有効にする必要があります。';
 $string['onesystemcontrolling'] = '1システムがMahraをトークンでコントロールする';
 $string['operation'] = '操作';
 $string['optional'] = '任意';
