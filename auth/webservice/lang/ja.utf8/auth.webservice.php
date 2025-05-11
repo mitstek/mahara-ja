@@ -222,7 +222,7 @@ $string['key'] = 'キー';
 $string['missingpassword'] = 'パスワードがありません。';
 $string['missingusername'] = 'ユーザ名がありません。';
 $string['notoken'] = 'トークンリストが空です。';
-$string['nowsprotocolsenabled'] = '有効にされているウェブサービスプロトコルがありません。あなたは少なくとも1つの<a href="%s">プロトコル</a>を有効にする必要があります。';
+$string['nowsprotocolsenabled'] = '有効にされているウェブサービスプロトコルはありません。あなたは少なくとも1つの<a href="%s">プロトコル</a>を有効にする必要があります。';
 $string['onesystemcontrolling'] = '1システムがMahraをトークンでコントロールする';
 $string['operation'] = '操作';
 $string['optional'] = '任意';
