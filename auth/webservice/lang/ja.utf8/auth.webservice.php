@@ -248,7 +248,7 @@ $string['selectedcapability'] = '選択済み';
 $string['selectspecificuser'] = '特定のユーザを選択する';
 $string['service'] = 'サービス';
 $string['serviceusers'] = '認証済みユーザ';
-$string['simpleauthlog'] = '単純認証ログイン';
+$string['simpleauthlog'] = 'シンプル認証ログイン';
 $string['step'] = 'ステップ';
 $string['testclientdescription'] = '* ウェブサービステストクライアントは関数を<strong>実際</strong>に<strong>実行</strong>します。あなたが分からない関数はテストしないでください。
 <br>
