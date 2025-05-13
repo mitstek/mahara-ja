@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-05-11 23:15:16 UTC
+ * @updated    2025-05-13 19:47:03 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -341,11 +341,11 @@ $string['selectspecificuser'] = '特定のユーザを選択する';
 $string['service'] = 'サービス';
 $string['serviceusers'] = '認証済みユーザ';
 $string['servicenamelabel'] = '名称';
-$string['servicenamedesc'] = 'このサービスグループに関する人間が読解可能な名称です。';
+$string['servicenamedesc'] = 'このサービスグループに関する人間に解読可能な名称です。';
 $string['serviceshortnamelabel'] = '省略名';
-$string['serviceshortnamedesc'] = 'このサービスグループに関するコンピュータが解読可能な名称です。これは外部サービスがこのサービスグループを参照する必要がある場合に使用される名称です。';
+$string['serviceshortnamedesc'] = 'このサービスグループに関するコンピュータに解読可能な名称です。これは外部サービスがこのサービスグループを参照する必要がある場合に使用される名称です。';
 $string['servicecomponentnote'] = 'このサービスはコンポーネント「 %s 」の機能を提供します。';
-$string['simpleauthlog'] = '単純認証ログイン';
+$string['simpleauthlog'] = 'シンプル認証ログイン';
 $string['step'] = 'ステップ';
 $string['testclientdescshort'] = 'あなたのサイトに対して関数を実行することでウェブサービスをテストします。';
 $string['testclientdescription'] = '* ウェブサービステストクライアントは関数を<strong>実際</strong>に<strong>実行</strong>します。あなたが分からない関数はテストしないでください。\r
