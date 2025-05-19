@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-05-13 19:47:03 UTC
+ * @updated    2025-05-19 00:54:46 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -348,14 +348,14 @@ $string['servicecomponentnote'] = 'このサービスはコンポーネント「
 $string['simpleauthlog'] = 'シンプル認証ログイン';
 $string['step'] = 'ステップ';
 $string['testclientdescshort'] = 'あなたのサイトに対して関数を実行することでウェブサービスをテストします。';
-$string['testclientdescription'] = '* ウェブサービステストクライアントは関数を<strong>実際</strong>に<strong>実行</strong>します。あなたが分からない関数はテストしないでください。\r
-<br>\r
-* まだ既存のウェブサービス関数すべてはテストクライアントに実装されていません。\r
-<br>\r
-* ユーザが関数にアクセスできないことを確認するためあなたは許可していない関数をテストできます。\r
-<br>\r
-* クリアなエラーメッセージを表示するには {$a->atag} でデバッギングを <strong>{$a->mode}</strong> に設定してください。\r
-<br>\r
+$string['testclientdescription'] = '* ウェブサービステストクライアントは関数を<strong>実際</strong>に<strong>実行</strong>します。あなたが分からない関数はテストしないでください。
+<br>
+* まだ既存のウェブサービス関数すべてはテストクライアントに実装されていません。
+<br>
+* ユーザが関数にアクセスできないことを確認するためあなたは許可していない関数をテストできます。
+<br>
+* クリアなエラーメッセージを表示するには {$a->atag} でデバッギングを <strong>{$a->mode}</strong> に設定してください。
+<br>
 * {$a->amfatag}にアクセスしてください。';
 $string['testwithtestclient'] = 'サービスをテストする';
 $string['tokenauthlog'] = 'トークン認証';

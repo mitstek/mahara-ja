@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-09 01:37:01 UTC
+ * @updated    2025-05-19 00:57:02 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -272,9 +272,9 @@ $string['Field'] = 'フィールド';
 $string['Value'] = '値';
 $string['sendweeklyupdates'] = '週ごとの更新状況を送信する';
 $string['sendweeklyupdatesdescription'] = 'あなたのサイトの統計情報を含む週ごとの更新状況の<a href="https://mahara.org/">mahara.org</a>への送信を許可します。';
-$string['newregistrationpolicyinfo1'] = '<ul>\r\r
-<li>Maharaがどのように使用されているかより良い洞察を得るため、私たちは登録データポリシを更新してサイトの週ごと更新の匿名データ提供のオプトアウトを要求します。</li>\r\r
-<li>私たちは収集する匿名データの内容を変更しました。</li>\r\r
+$string['newregistrationpolicyinfo1'] = '<ul>
+<li>Maharaがどのように使用されているかより良い洞察を得るため、私たちは登録データポリシを更新してサイトの週ごと更新の匿名データ提供のオプトアウトを要求します。</li>
+<li>私たちは収集する匿名データの内容を変更しました。</li>
 </ul>';
 $string['registerwithmahara1'] = 'データ収集をオプトアウトする';
 $string['registerwithmaharadescription1'] = 'あなたのサイトの匿名化データをMaharaプロジェクトに送信しないよう設定できます。Maharaプロジェクトチームの製品開発を支援するため、私たちはあなたのサイトの登録継続をお勧めします。';
@@ -310,11 +310,11 @@ $string['databasesize'] = 'データベースサイズ';
 $string['diskusage'] = 'ディスク使用量';
 $string['maharaversion'] = 'Maharaバージョン';
 $string['activeusers'] = 'アクティブアカウント保持者';
-$string['loggedinsince2'] = '<ul>\r
-<li>今日: %s</li>\r
-<li>先週: %s</li>\r
-<li>過去1年: %s</li>\r
-<li>すべて: %s</li>\r
+$string['loggedinsince2'] = '<ul>
+<li>今日: %s</li>
+<li>先週: %s</li>
+<li>過去1年: %s</li>
+<li>すべて: %s</li>
 </ul>';
 $string['groupmemberaverage'] = 'それぞれの人は平均 %s のグループに属しています。';
 $string['viewsperuser'] = 'ポートフォリオを作成した人はそれぞれ約 %s ページを所有しています。';
