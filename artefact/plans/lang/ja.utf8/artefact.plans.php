@@ -5,7 +5,11 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
+<<<<<<< HEAD
  * @updated    2025-01-05 22:34:17 UTC
+=======
+ * @updated    2016-05-24 02:45:22 UTC
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,7 +18,10 @@
 defined('INTERNAL') || die();
 
 $string['pluginname'] = 'プラン';
+<<<<<<< HEAD
 $string['groupplans'] = 'プラン';
+=======
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['canteditdontownplan'] = 'あなたの所有ではないためこのプランを編集できません。';
 $string['description'] = '説明';
 $string['deleteplanconfirm'] = '本当にこのプランを削除してもよろしいですか? このプランを削除した場合、プランに含まれるすべてのタスクも削除されます。';
@@ -31,33 +38,51 @@ $string['Plan'] = 'プラン';
 $string['Plans'] = 'プラン';
 $string['plan'] = 'プラン';
 $string['plans'] = 'プラン';
+<<<<<<< HEAD
 $string['nplans'] = '%s プラン';
+=======
+$string['Plans'] = 'プラン';
+$string['Plan'] = 'プラン';
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['plandeletedsuccessfully'] = 'プランが正常に削除されました。';
 $string['plannotdeletedsuccessfully'] = 'このプランの削除中にエラーが発生しました。';
 $string['plannotsavedsuccessfully'] = 'このフォームの送信中にエラーが発生しました。マークされたフィールドを確認して再度お試しください。';
 $string['plansavedsuccessfully'] = 'プランが正常に保存されました。';
+<<<<<<< HEAD
 $string['planstasks1'] = 'プラン %s 「 %s 」のタスク';
 $string['templateplan'] = 'テンプレート';
+=======
+$string['planstasks'] = 'プラン「 %s 」のタスク';
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['planstasksdescription'] = 'あなたのプランの作成を開始するには以下でタスクを追加するか「 %s 」ボタンを使用してください。';
 $string['saveplan'] = 'プランを保存する';
 $string['title'] = 'タイトル';
 $string['titledesc'] = 'タイトルはプランブロックタイプ内のそれぞれのタスクの表示に使用されます。';
+<<<<<<< HEAD
 $string['addtask'] = 'タスクを追加する';
 $string['addtaskspecific'] = '「 %s 」にタスクを追加する';
+=======
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['alltasks'] = 'すべてのタスク';
 $string['canteditdontowntask'] = 'あなたの所有ではないためこのタスクを編集できません。';
 $string['completed'] = '完了';
 $string['incomplete'] = '未完了';
 $string['overdue'] = '期限切れ';
 $string['completiondate'] = '完了予定日';
+<<<<<<< HEAD
 $string['completiondatedescription'] = 'フォーマット %s を使用してください。テンプレートタスクの場合、デフォルト完了日はグループの編集可能終了日より取得されます。';
+=======
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['completeddesc'] = 'あなたのタスクを完了済みにします。';
 $string['deletetaskconfirm'] = '本当にこのタスクを削除してもよろしいですか?';
 $string['deletetask'] = 'タスクを削除する';
 $string['deletethistask'] = 'タスクを削除する: %s';
 $string['edittask'] = 'タスクを編集する';
 $string['editingtask'] = 'タスクを編集する';
+<<<<<<< HEAD
 $string['editthistask'] = 'タスクを編集する: 「 %s 」';
+=======
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['mytasks'] = 'マイタスク';
 $string['newtask'] = '新しいタスク';
 $string['notasks'] = '表示するタスクはありません。';
@@ -66,7 +91,9 @@ $string['savetask'] = 'タスクを保存する';
 $string['Task'] = 'タスク';
 $string['Tasks'] = 'タスク';
 $string['task'] = 'タスク';
+$string['Task'] = 'タスク';
 $string['tasks'] = 'タスク';
+<<<<<<< HEAD
 $string['ntasks'] = '%s タスク';
 $string['Grouptasks'] = 'グループタスク';
 $string['taskdeletedsuccessfully'] = 'タスクが正常に削除されました。';
@@ -81,11 +108,18 @@ $string['grouptaskselected'] = 'プランおよび選択済みタスクはあな
 $string['grouptaskunselected'] = 'プランおよび選択済みタスクはあなたのパーソナルポートフォリオエリアから削除されました。該当する場合、未編集の課題ポートフォリオも同様に削除されています。';
 $string['unselecttaskconfirm'] = '本当にあなたのプランからこのタスクを削除してもよろしいですか?';
 $string['wrongfunctionrole'] = 'あなたのロールが許可しないため、あなたはこの操作を完了できません。';
+=======
+$string['Tasks'] = 'タスク';
+$string['taskdeletedsuccessfully'] = 'タスクが正常に削除されました。';
+$string['tasksavedsuccessfully'] = 'タスクが正常に保存されました。';
+$string['ntasks'] = '%s タスク';
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['duplicatedplan'] = '複製プラン';
 $string['existingplans'] = '既存プラン';
 $string['duplicatedtask'] = '複製タスク';
 $string['existingtasks'] = '既存タスク';
 $string['progress_plan'] = '%s プランを追加する';
+<<<<<<< HEAD
 $string['progress_task'] = '%s  タスクをプランを追加する';
 $string['showassignedview'] = 'タスクプレビュー';
 $string['showassignedoutcome'] = 'ポートフォリオプレビュー';
@@ -122,6 +156,9 @@ $string['reminderinfonearlydue'] = '残り %s 日';
 $string['reminderinfodue'] = '%s 日超過';
 $string['emailfooter'] = 'これは %s から自動生成された通知です。';
 $string['youhaveremindertasksmessagetext'] = '%s さん、こんにちは。
+=======
+$string['progress_task'] = '%s タスクをプランに追加する';
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 
 私たちはあなたに次のプランタスクの完了を希望します:
 

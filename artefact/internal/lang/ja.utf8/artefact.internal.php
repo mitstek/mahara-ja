@@ -5,7 +5,11 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
+<<<<<<< HEAD
  * @updated    2025-04-12 17:48:17 UTC
+=======
+ * @updated    2017-10-30 12:07:20 UTC
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,6 +22,7 @@ $string['profile'] = 'プロファイル';
 $string['mandatoryfields'] = '必須フィールド';
 $string['mandatoryfieldsdescription'] = '入力する必要のあるプロファイルフィールドです。';
 $string['searchablefields'] = '検索可能フィールド';
+<<<<<<< HEAD
 $string['searchablefieldsdescription'] = '他の人が検索できるプロファイルフィールドです';
 $string['adminusersearchfields'] = '管理「人検索」';
 $string['adminusersearchfieldsdescription'] = '管理「人検索」にカラムとして表示されるプロファイルフィールドです。';
@@ -25,6 +30,15 @@ $string['aboutdescription'] = 'あなたの実際の姓名をここに入力し�
 $string['infoisprivate'] = 'あなたが他の人と共有しているページに置かない限り、この情報は非公開となります。';
 $string['viewmyprofile'] = '私のプロファイルを表示する';
 $string['aboutprofilelinkdescription'] = '<p>他の人に表示したい情報を編集するにはあなたの<a href="%s">プロファイル</a>ページに移動してください。</p>';
+=======
+$string['searchablefieldsdescription'] = '他の人が検索できるプロファイルフィールドです。';
+$string['adminusersearchfields'] = '管理ユーザ検索';
+$string['adminusersearchfieldsdescription'] = '管理ユーザ検索リストにカラムとして表示されるプロファイルフィールドです。';
+$string['aboutdescription'] = 'あなたの実際の姓名をここに入力してください。システム内の人に異なる名前を表示したい場合、あなたの表示名としてその名前を入力してください。';
+$string['infoisprivate'] = 'あなたが他のユーザと共有しているページに置かない限り、この情報は非公開となります。';
+$string['viewmyprofile'] = '私のプロファイルを表示する';
+$string['aboutprofilelinkdescription'] = '<p>他のユーザに表示したい情報を編集するにはあなたの<a href="%s">プロファイル</a>ページにアクセスしてください。</p>';
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['aboutme'] = '私について';
 $string['contact'] = '連絡先';
 $string['social'] = 'ソーシャルメディア';
@@ -83,6 +97,7 @@ $string['profilefailedsaved'] = 'プロファイルの保存に失敗しまし�
 $string['emailvalidation_subject'] = 'メール確認';
 $string['emailvalidation_body1'] = '%s さん、こんにちは。
 
+<<<<<<< HEAD
 %s のあなたのアカウントにメールアドレス %s が追加されました。以下のリンクにアクセスしてこのメールアドレスを有効にしてください。
 
 %s
@@ -94,15 +109,34 @@ $string['newemailalert_subject'] = 'あなたの %s アカウントに新しい�
 $string['newemailalert_body_text1'] = '%s さん、こんにちは。
 
 あなたは %s のアカウントに次のメールアドレスを追加しました:
+=======
+%s のあなたのユーザアカウントにメールアドレス %s が追加されました。以下のリンクにアクセスしてこのメールアドレスを有効にしてください。
+
+%s
+
+このメールアドレスがあなたのメールアドレスであり、あなたがMaharaのアカウント作成をリクエストしていない場合、以下のリンクをクリックしてメール有効化を拒否してください。
+
+%s';
+$string['newemailalert_subject'] = 'あなたの %s アカウントに新しいメールアドレスが追加されました。';
+$string['newemailalert_body_text'] = '%s さん、こんにちは。
+
+あなたは %s のあなたのユーザアカウントにメールアドレスを追加しました。
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 
 %s
 
 あなたがこの %a アカウントの変更をリクエストしていない場合、サイト管理者にご連絡ください。
 
 %scontact.php';
+<<<<<<< HEAD
 $string['newemailalert_body_html1'] = '<p>%s さん、こんにちは。</p>
 
 <p>あなたは %s のアカウントに次のメールアドレスを追加しました:</p>
+=======
+$string['newemailalert_body_html'] = '<p>%s さん、こんにちは。</p>
+
+<p>あなたは %s のあなたのユーザアカウントにメールアドレスを追加しました:</p>
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 
 <p>%s</p>
 
@@ -177,11 +211,21 @@ $string['progress_industry'] = 'あなたの職種を追加する';
 $string['progress_joingroup'] = '%s グループに参加する';
 $string['progress_makefriend'] = '%s フレンドを作る';
 $string['socialprofile'] = 'ソーシャルメディア';
+<<<<<<< HEAD
 $string['socialprofiledesc'] = 'ソーシャルメディアのアカウント名です。';
 $string['socialprofiles'] = 'ソーシャルメディアアカウント';
 $string['servicedesc'] = 'ソーシャルメディアネットワーク名を入力してください。例) Facebook、LinkedIn等';
 $string['profileurl1'] = 'アカウントURL';
 $string['profileurldesc1'] = 'あなたのソーシャルメディアアカウントの公開ページのURLです。';
+=======
+$string['socialprofiles'] = 'ソーシャルメディアアカウント';
+$string['service'] = 'ソーシャルネットワーク';
+$string['servicedesc'] = 'ソーシャルメディアネットワーク名を入力してください。例) Facebook、LinkedIn、Twitter等';
+$string['profileurl'] = 'あなたのURLまたはユーザ名';
+$string['profileurldesc'] = 'あなたのプロファイルページのURLまたはユーザ名です。';
+$string['profileurlexists'] = 'あなたがすでに入力したユーザ名またはURLと重複しているため、このソーシャルメディアアカウントを追加できません。';
+$string['profiletype'] = 'ソーシャルネットワーク';
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['deleteprofile'] = 'ソーシャルメディアアカウントを削除する';
 $string['deletethisprofile'] = 'ソーシャルメディアアカウントを削除する:「 %s 」';
 $string['deleteprofileconfirm'] = '本当にこのソーシャルメディアアカウントを削除してもよろしいですか?';
@@ -191,6 +235,12 @@ $string['notvalidprofileurl'] = 'これは有効なソーシャルプロファ�
 $string['profiledeletedsuccessfully'] = 'ソーシャルメディアアカウントが正常に削除されました。';
 $string['profilesavedsuccessfully'] = 'ソーシャルメディアアカウントが正常に保存されました。';
 $string['socialprofilerequired'] = '少なくとも1つのソーシャルメディアアカウントが必要です。';
+<<<<<<< HEAD
 $string['duplicateurl'] = 'すでに入力したものとユーザ名またはURLが重複しているため、あなたはこのソーシャルメディアアカウントを追加できません。';
 $string['notes'] = 'ノート';
 $string['supportadmin'] = 'サポート管理者';
+=======
+$string['duplicateurl'] = 'あなたがすでに入力したものとソーシャルメディアアカウントユーザ名またはURLが重複しています。';
+
+?>
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091

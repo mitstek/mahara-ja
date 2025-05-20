@@ -5,7 +5,11 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
+<<<<<<< HEAD
  * @updated    2025-05-19 00:55:32 UTC
+=======
+ * @updated    2020-01-03 08:18:33 UTC
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -29,18 +33,27 @@ $string['criteria'] = 'クライテリア';
 $string['nbadges'] = '%s バッジ';
 $string['nobackpack'] = 'バックパックは見つかりませんでした。<br>あなたの<a href="%s">バックパック</a>のメールアドレスを<a href="%s">プロファイル</a>に追加してください。';
 $string['nobadgegroups'] = 'パブリックバッジコレクション / バッジは見つかりませんでした。';
+<<<<<<< HEAD
 $string['nobadgesselectone'] = '選択されたバッジはありません。';
 $string['nobackpackidin1'] = 'あなたのメールアドレス「 %s 」はサービス「 %s 」内に見つかりませんでした。';
 $string['nobadgegroupsin1'] = '次のサービス内にパブリックバッジコレクションまたはバッジは見つかりませんでした: %s (メールアドレス: %s)';
+=======
+$string['nobackpackidin1'] = 'あなたのメールアドレス「 %s 」はサービス「 %s 」内に見つかりませんでした。';
+$string['nobadgegroupsin1'] = '次のサービス内にパブリックバッジコレクション / バッジは見つかりませんでした: %s (メールアドレス: %s)';
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['confighelp'] = 'このブロックで表示するバッジコレクションを選択してください。<br>あなたのコレクションおよびバッジを管理するには次のサービスにアクセスしてください:<br>%s';
 $string['obppublicbadges'] = 'オープンバッジパスポート内すべてのパブリックバッジ';
 $string['title_backpack'] = 'Mozillaバックパック';
 $string['title_passport'] = 'オープンバッジパスポート';
+<<<<<<< HEAD
 $string['title_badgr'] = 'Badgrバックパック';
+=======
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['fetchingbadges'] = 'エントリを取得しています。しばらくお待ちください。';
 $string['missingbadgesources'] = 'ソース設定がありません。あなたのconfig.phpファイルに追加してください。例:
 <br>
 <br>
+<<<<<<< HEAD
 $cfg->openbadgedisplayer_source = \'{"backpack":"https://backpack.provider.org/"}\'';
 $string['selectall'] = 'すべてを選択する';
 $string['selectnone'] = 'すべての選択を解除する';
@@ -63,3 +76,10 @@ $string['resetobsoletebadgrtokenmessage1'] = '%s さん
 このトークンはあなたのポートフォリオページ内でBadgrバッジの表示に使用されます。
 
 「アカウントメニュー → 設定 → 接続済みアプリ → Badgr」にアクセスして新しいものを設定してください。';
+=======
+$cfg->openbadgedisplayer_source = \'{"backpack":"https://backpack.openbadges.org/"}\'';
+$string['selectall'] = 'すべてを選択する';
+$string['selectnone'] = 'すべての選択を解除する';
+
+?>
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091

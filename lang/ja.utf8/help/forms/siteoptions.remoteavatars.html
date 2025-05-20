@@ -1,11 +1,18 @@
 <!-- @license https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later -->
 <!-- @copyright For copyright information on Mahara, please see the README file distributed with this software. -->
+<<<<<<< HEAD
 <h1>リモートアバタを表示する</h1>
 
 <p>このオプションが有効にされた場合、プロファイル画像を設定していない人の画像を表示するため<a href="https://www.gravatar.com">Gravatar</a>オンラインサービスが利用されます。このサービスによりすべてのMaharaサイトおよびオンラインサービス個々にプロファイル画像を設定するのではなく、Gravatarにのみプロファイル画像を設定できます (その人の画像がGravatarに存在しない場合、デフォルトのMahara画像が表示されます)。</p>
+=======
+<h3>リモートアバタを表示する</h3>
+
+<p>このオプションが有効にされた場合、プロファイル画像を設定していないユーザの画像を表示するため<a href="https://www.gravatar.com">Gravatar</a>オンラインサービスが利用されます。このサービスによりすべてのMaharaサイトおよびオンラインサービス個々にプロファイル画像を設定するのではなく、Gravatarにのみプロファイル画像を設定できます (Gravatarにユーザ画像が存在しない場合、デフォルトのMahara画像が表示されます)。</p>
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 
 <h2>無効にする理由</h2>
 
+<<<<<<< HEAD
 <p>このオプションは<strong>人</strong>および<strong>ウェブサーバ</strong>の両方がGravatarサーバ (<code>https://gravatar.com</code>) にアクセスする場合に必要です。このようなアクセスを利用できない閉鎖されたイントラネット等でこのオプションを有効にした場合、単に遅延が発生することになります。</p>
 
 <p>同様に<strong>https経由でサイトが表示される場合</strong>、Gravatarプロファイル画像を有効にすることで一部のブラウザではセキュリティ上の警告が表示されることになります。これは暗号化されない一般的なhttp経由でGravatarイメージが提供されることに起因します。</p>
@@ -15,3 +22,14 @@
 <p>Gravatarプロトコルを実装するカスタムアバタサーバを持っている場合、あなたのconfig.php内にベースURLを指定できます:</p>
 
 <p><code>$cfg->remoteavatarbaseurl = 'https://example.com/avatar/';</code></p>
+=======
+<p><b>ユーザが (固定されたイントラネット等において) 広範囲のインターネットにアクセスできない場合</b>、インストール時、このオプションは無効にされるべきです。そのような環境ではGravatarの使用により単に余分な遅延が発生するのみとなります。</p>
+
+<p>同様に<b>https経由でサイトが表示される場合</b>、Gravatarプロファイル画像を有効にすることで一部のブラウザではセキュリティ上の警告が表示されることになります。これは暗号化されない一般的なhttp経由でGravatarイメージが提供されることに起因します。</p>
+
+<h4>カスタムアバタサーバ</h4>
+
+<p>Gravatarプロトコルを実装するカスタムアバタサーバを持っている場合、あなたのconfig.php内にベースURLを指定できます:</p>
+
+<p><code>$cfg->remoteavatarbaseurl = 'https://example.com/avatar/';</code></p>
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091

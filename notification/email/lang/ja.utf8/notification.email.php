@@ -1,10 +1,30 @@
 <?php
+<<<<<<< HEAD
+=======
+/**
+ *
+ * @package    mahara
+ * @subpackage lang (Japanese)
+ * @translator Mitsuhiro Yoshida (https://mitstek.com/)
+ * @started    2008-01-19 11:25:00 UTC
+ * @updated    2017-08-21 04:02:27 UTC
+ * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
+ * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
+ *
+ */
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 
 defined('INTERNAL') || die();
 
 $string['emailfooter'] = 'これは %s から自動的に生成された通知メールです。あなたの通知プレファレンスを更新するには %s にアクセスしてください。';
 $string['emailheader'] = 'あなたに %s から通知が送信されました。メッセージは次のとおりです:';
 $string['emailsubject'] = '%s';
+<<<<<<< HEAD
+=======
+$string['emailheader'] = 'あなたに %s から通知が送信されました。メッセージは次のとおりです:';
+$string['emailfooter'] = 'これは %s からの自動生成通知です。あなたの通知プレファレンスを更新するには %s にアクセスしてください。';
+$string['referurl'] = '詳細 %s';
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['name'] = 'メール';
 $string['referurl'] = '詳細 %s';
 $string['unsubscribe'] = '購読解除するには %s にアクセスしてください。';

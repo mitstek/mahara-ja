@@ -5,7 +5,11 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
+<<<<<<< HEAD
  * @updated    2025-04-08 01:12:09 UTC
+=======
+ * @updated    2018-06-01 17:19:28 UTC
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,6 +17,7 @@
 
 defined('INTERNAL') || die();
 
+<<<<<<< HEAD
 $string['archive'] = '評定済みをアーカイブする';
 $string['archivedescription'] = '評点が与えられた後、ポートフォリオのスナップショットが取得されます。';
 $string['autoconfiguredesc'] = 'LTIに必要な設定を自動的に有効にします。';
@@ -68,3 +73,25 @@ $string['webserviceauthdisabled'] = 'このインスティテューションの�
 $string['webserviceproviderenabled'] = '内向きのウェブサービスリクエスト許可';
 $string['returntitlefor'] = 'コース「 %s 」に戻る';
 $string['returntitle'] = '外部サイトに戻る';
+=======
+$string['autoconfiguredesc'] = 'LTIに必要な設定を自動的に有効にします。';
+$string['autoconfiguretitle'] = 'LTI自動設定';
+$string['autocreateusers'] = 'ユーザ自動作成';
+$string['autocreationnotenabled'] = 'ユーザアカウントの自動作成は有効にされていません。';
+$string['configstep'] = '設定アイテム';
+$string['configstepstatus'] = 'ステータス';
+$string['ltiserviceexists'] = 'LTIサービスグループ登録済み';
+$string['noticeenabled'] = 'LTI APIは有効にされています。';
+$string['noticenotenabled'] = 'LTI APIは有効にされて<b>いません</b>。';
+$string['oauthprotocolenabled'] = 'OAuthプロトコル有効';
+$string['restprotocolenabled'] = 'RESTプロトコル有効';
+$string['usernameexists2'] = 'ユーザ名「 %s 」は有効ではありません。';
+$string['webserviceauthdisabled'] = 'このインスティテューションのウェブサービス認証は有効にされていません。';
+$string['webserviceproviderenabled'] = '内向きのウェブサービスリクエスト許可';
+$string['institutiondenied'] = '「 %s 」へのアクセスが拒否されました。あなたのインスティテューション管理者にご連絡ください。';
+$string['notreadylabel'] = '準備未了';
+$string['readylabel'] = '準備完了';
+$string['parentauthforlti'] = '親認証局';
+
+?>
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091

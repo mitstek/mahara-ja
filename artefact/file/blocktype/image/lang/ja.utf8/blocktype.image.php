@@ -5,7 +5,11 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
+<<<<<<< HEAD
  * @updated    2025-04-08 08:45:40 UTC
+=======
+ * @updated    2012-03-02 15:14:59 UTC
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,6 +19,7 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'イメージ';
 $string['description'] = 'あなたのファイルエリアの単一イメージです。';
+<<<<<<< HEAD
 $string['showdescription1'] = 'キャプションを表示する';
 $string['showdescriptiondescription'] = 'イメージの下にキャプションを表示します。';
 $string['width'] = '幅';
@@ -40,3 +45,10 @@ $string['usefancybox1'] = 'Bootstrapモーダルを使用する';
 $string['usefancyboxdesc1'] = 'あなたのギャラリーでBootstrapモーダルを使用します。あなたのギャラリーのイメージをクリックした場合、オーバーレイで開きます。';
 $string['previewwidth'] = '最大写真幅';
 $string['previewwidthdesc1'] = 'Bootstrapモーダルでの写真表示時の最大リサイズ幅を設定します。';
+=======
+$string['showdescription'] = '説明を表示する';
+$string['width'] = '幅';
+$string['widthdescription1'] = 'あなたのイメージの幅 (ピクセル) を指定してください。イメージはこの幅にサイズ変更されます。イメージのオリジナルサイズを使用する場合、空白のままにしてください。オリジナルサイズが大きすぎる場合、ブロック幅に縮小されます。';
+
+?>
+>>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
