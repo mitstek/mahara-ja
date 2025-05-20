@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-05-19 00:58:28 UTC
+ * @updated    2025-05-20 23:23:27 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -146,6 +146,7 @@ $string['suggesttofriends'] = 'フレンドに勧める';
 $string['userstosendrecommendationsto'] = 'レコメンデーションが送信される人';
 $string['suggestgroupnotificationsubject'] = 'あなたのグループ参加を %s が提案しました。';
 $string['suggestgroupnotificationmessage'] = 'あなたのグループ参加を %s が提案しました: グループ「 %s 」(%s)';
+$string['nrecommendationssent'] = '%d レコメンデーションが送信されました。';
 $string['suggestinvitefriends'] = 'あなたはフレンド招待およびレコメンデーションを同時に有効にできません。';
 $string['suggestfriendsrequesterror'] = 'あなたはオープンまたはリクエストグループでのみフレンドのレコメンデーションを有効にできます。';
 $string['editwindowendbeforestart'] = '終了日時は開始日時の後に設定してください。';
@@ -153,6 +154,12 @@ $string['editgroupmembership'] = 'グループメンバシップを編集する'
 $string['editmembershipforuser'] = '%s のグループメンバシップを編集する';
 $string['changedgroupmembership'] = 'グループメンバシップが正常に更新されました。';
 $string['changedgroupmembershipsubject'] = 'あなたのグループメンバシップが変更されました。';
+$string['addedtongroupsmessage'] = '%2$s があなたをグループに追加しました:
+
+%3$s';
+$string['removedfromngroupsmessage'] = '%2$s があなたをグループから削除しました:
+
+%3$s';
 $string['cantremovememberfromgroup'] = 'あなたは %s からメンバを削除できません。';
 $string['current'] = '現在';
 $string['requests'] = 'リクエスト';
@@ -160,6 +167,7 @@ $string['invites'] = '招待';
 $string['member'] = 'メンバ';
 $string['members'] = 'メンバ';
 $string['Members'] = 'メンバ';
+$string['nmembers1'] = '%s メンバ';
 $string['memberrequests'] = 'メンバシップリクエスト';
 $string['declinerequest'] = 'リクエストを拒否する';
 $string['submittedviews'] = '送信済みページ';
@@ -240,6 +248,7 @@ $string['nogroupsfound'] = 'グループは見つかりませんでした。';
 $string['group'] = 'グループ';
 $string['Group'] = 'グループ';
 $string['groups'] = 'グループ';
+$string['ngroups'] = '%s グループ';
 $string['notamember'] = 'あなたはこのグループのメンバではありません。';
 $string['notmembermayjoin'] = 'このページを閲覧するにはあなたはグループ「 %s 」に参加する必要があります。';
 $string['declinerequestsuccess'] = 'グループメンバシップのリクエストが正常に拒否されました。';
@@ -326,8 +335,10 @@ $string['nosearchresultsfound'] = '結果は見つかりませんでした。';
 $string['trydoublequotes'] = 'あなたがスペースを含むものを検索する場合、二重引用符で囲んで検索してください。例) "Tāne Mahuta"';
 $string['friend'] = 'フレンド';
 $string['friends'] = 'フレンド';
+$string['nfriends'] = '%s フレンド';
 $string['user'] = '人';
 $string['users'] = '人';
+$string['nusers'] = '%s 人';
 $string['Friends'] = 'フレンド';
 $string['friendrequests'] = 'フレンドリクエスト';
 $string['Everyone'] = '誰でも';
@@ -397,6 +408,7 @@ $string['grouphasntcreatedanyviewsyet'] = 'このグループはまだページ�
 $string['noviewssharedwithgroupyet'] = 'このグループで共有されているページはまだありません。';
 $string['groupsharedviewsscrolled'] = 'あなたは共有ページリストの最後までスクロールしました。';
 $string['groupcreatedviewsscrolled'] = 'あなたはグループページリストの最後までスクロールしました。';
+$string['nnonmembers'] = '%s 非メンバ';
 $string['membercommenters'] = '関係メンバ';
 $string['extcommenters'] = '関係非メンバ';
 $string['groupparticipationreports'] = '参加者レポート';

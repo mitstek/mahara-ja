@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-05-19 00:54:46 UTC
+ * @updated    2025-05-20 23:28:48 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -352,7 +352,7 @@ $string['testclientdescription'] = '* ウェブサービステストクライア
 <br>
 * まだ既存のウェブサービス関数すべてはテストクライアントに実装されていません。
 <br>
-* ユーザが関数にアクセスできないことを確認するためあなたは許可していない関数をテストできます。
+* ユーザが関数にアクセスできないことを確認するためあなたが許可していない関数をテストできます。
 <br>
 * クリアなエラーメッセージを表示するには {$a->atag} でデバッギングを <strong>{$a->mode}</strong> に設定してください。
 <br>
