@@ -491,12 +491,12 @@ $string['invalidauthtype'] = '無効な認証タイプ「 %s 」です。';
 $string['invalidauthtypeuser'] = '無効な認証タイプ「 %s (ユーザ: %s)」 です。';
 >>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['invalidsocialprofile'] = '無効なソーシャルプロファイル「 %s 」です。';
-$string['instexceedmax'] = '最大ユーザアカウント数を超えたインスティテューション「 %s 」';
-$string['cannotdeleteaccount'] = '使用中および未保留のアカウントは削除できません。ユーザID「 %s 」';
+$string['instexceedmax'] = 'インスティテューションが許容される最大値 「 %s 」 を超えました。';
+$string['cannotdeleteaccount'] = '使用中および未保留のアカウントは削除できません。アカウントID「 %s 」';
 $string['nousernameorid'] = 'ユーザ名またはIDがありません。';
 $string['nousernameoridgroup'] = 'グループ「 %s 」のユーザ名またはIDがありません。';
-$string['invaliduser'] = '無効なユーザ「 %s 」です。';
-$string['invaliduserid'] = '無効なユーザID「 %s 」です。';
+$string['invaliduser'] = '無効なアカウント「 %s 」です。';
+$string['invaliduserid'] = '無効なアカウントID「 %s 」です。';
 <<<<<<< HEAD
 $string['invalidusergroup'] = '無効なアカウント「 %s (グループ: %s)」 です。';
 $string['mustsetauth'] = 'あなたがアカウント保持者「 %s 」の認証方法を更新するには認証方法およびインスティテューションを設定する必要があります。';
