@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-05-25 23:35:29 UTC
+ * @updated    2025-05-28 00:49:09 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -379,12 +379,12 @@ $string['usernameexists2'] = 'ユーザ名「 %s 」は有効ではありませ�
 $string['invalidauthtype'] = '無効な認証タイプ「 %s 」です。';
 $string['invalidauthtypeuser'] = '無効な認証タイプ「 %s (アカウント: %s)」 です。';
 $string['invalidsocialprofile'] = '無効なソーシャルプロファイル「 %s 」です。';
-$string['instexceedmax'] = '最大ユーザアカウント数を超えたインスティテューション「 %s 」';
-$string['cannotdeleteaccount'] = '使用中および未保留のアカウントは削除できません。ユーザID「 %s 」';
+$string['instexceedmax'] = 'インスティテューションが許容される最大値 「 %s 」 を超えました。';
+$string['cannotdeleteaccount'] = '使用中および未保留のアカウントは削除できません。アカウントID「 %s 」';
 $string['nousernameorid'] = 'ユーザ名またはIDがありません。';
 $string['nousernameoridgroup'] = 'グループ「 %s 」のユーザ名またはIDがありません。';
-$string['invaliduser'] = '無効なユーザ「 %s 」です。';
-$string['invaliduserid'] = '無効なユーザID「 %s 」です。';
+$string['invaliduser'] = '無効なアカウント「 %s 」です。';
+$string['invaliduserid'] = '無効なアカウントID「 %s 」です。';
 $string['invalidusergroup'] = '無効なアカウント「 %s (グループ: %s)」 です。';
 $string['mustsetauth'] = 'あなたがアカウント保持者「 %s 」の認証方法を更新するには認証方法およびインスティテューションを設定する必要があります。';
 $string['invalidusername'] = '無効なユーザ名です。「 %s 」は存在しません。';
