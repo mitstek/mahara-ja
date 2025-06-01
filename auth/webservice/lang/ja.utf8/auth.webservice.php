@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-05-28 00:49:09 UTC
+ * @updated    2025-06-01 23:32:00 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -223,7 +223,7 @@ $string['oauth1auth'] = 'OAuth1.x';
 $string['authtype'] = '認証タイプ';
 $string['sauthtype'] = '認証タイプ';
 $string['enterparameters'] = '関数パラメータを入力してください。';
-$string['testclientinstructions'] = 'これはウェブサービスのためのインタラクティブテストクライアント機能です。あなたは現在のシステムに対して関数を選択および実際に実行できます。あなたが実行するすべての関数は実際に動作することに留意してください。';
+$string['testclientinstructions'] = 'これはウェブサービスのためのインタラクティブテストクライアント機能です。あなたは現在のシステムに対して関数を選択および実際に実行できます。あなたが実行する「すべて」の関数は実際に動作することに留意してください。';
 $string['executed'] = '関数コールが実行されました。';
 $string['invaliduserpass'] = '「 %s 」に対して無効なウェブサービス名およびウェブサービスパスワードが提供されました。';
 $string['iterationtitle'] = '%s イテレーション: %s';
