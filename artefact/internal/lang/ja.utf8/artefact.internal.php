@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-12 17:48:17 UTC
+ * @updated    2025-06-03 22:24:29 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['pluginname'] = 'プロファイル';
-$string['profile'] = 'プロファイル';
+$string['profile1'] = '個人情報';
 $string['mandatoryfields'] = '必須フィールド';
 $string['mandatoryfieldsdescription'] = '入力する必要のあるプロファイルフィールドです。';
 $string['searchablefields'] = '検索可能フィールド';
@@ -77,9 +77,9 @@ $string['autogroupadmin'] = '自動グループ管理者';
 $string['name'] = '名称';
 $string['principalemailaddress'] = '主メールアドレス';
 $string['emailaddress'] = '代替メールアドレス';
-$string['saveprofile'] = 'プロファイルを保存する';
-$string['profilesaved'] = 'プロファイルが正常に保存されました。';
-$string['profilefailedsaved'] = 'プロファイルの保存に失敗しました。';
+$string['saveprofile1'] = '個人情報を保存する';
+$string['profilesaved1'] = '個人情報が正常に保存されました。';
+$string['profilefailedsaved1'] = '個人情報の保存に失敗しました。';
 $string['emailvalidation_subject'] = 'メール確認';
 $string['emailvalidation_body1'] = '%s さん、こんにちは。
 
@@ -130,11 +130,11 @@ $string['Owner'] = 'オーナ';
 $string['Preview'] = 'プレビュー';
 $string['Size'] = 'サイズ';
 $string['Type'] = 'タイプ';
-$string['profileinformation'] = 'プロファイル情報';
+$string['profileinformation1'] = '個人情報';
 $string['profilepage'] = 'プロファイルページ';
 $string['profileimagefor'] = '%s のプロファイル画像';
 $string['viewprofilepage'] = 'プロファイルページを表示する';
-$string['viewallprofileinformation'] = 'すべてのプロファイル情報を表示する';
+$string['viewallprofileinformation1'] = 'すべての個人情報を表示する';
 $string['Note'] = 'ノート';
 $string['noteTitle'] = 'ノートタイトル';
 $string['blockTitle'] = 'ブロックタイトル';

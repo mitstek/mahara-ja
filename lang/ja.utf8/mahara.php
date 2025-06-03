@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-05-19 00:59:51 UTC
+ * @updated    2025-06-03 22:24:43 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -717,9 +717,11 @@ $string['home'] = 'ホーム';
 $string['Content'] = 'コンテンツ';
 $string['myportfolio'] = 'ポートフォリオ';
 $string['Create'] = '作成';
+$string['Reusable_content'] = '再利用可能コンテンツ';
 $string['Engage'] = '参加';
 $string['Manage'] = '管理';
 $string['settings'] = '設定';
+$string['personalise'] = 'パーソナライズ';
 $string['people'] = '人';
 $string['myfriends'] = 'マイフレンド';
 $string['findpeople'] = '人を探す';
@@ -1198,6 +1200,7 @@ $string['profiledescription'] = 'プロファイルページはあなたの表�
 $string['mydashboard'] = 'マイダッシュボード';
 $string['editdashboard'] = 'ダッシュボードを編集する';
 $string['usersdashboard'] = '%s のダッシュボード';
+$string['yourdashboard'] = 'ダッシュボード';
 $string['dashboarddescription1'] = 'ダッシュボードページはあなたのログイン時、ホームページに表示されるページです。このページはあなたのみアクセスできます。';
 $string['topicsimfollowing'] = '私がフォローしているトピック';
 $string['inboxblocktitle'] = '受信箱';

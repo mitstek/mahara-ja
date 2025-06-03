@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-05-19 00:59:17 UTC
+ * @updated    2025-06-03 22:19:02 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,6 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['Import'] = 'インポート';
+$string['Import_portfolio'] = 'コンテンツをインポートする';
 $string['importexceedquota'] = 'あなたがアップロードしたLeap2Aファイル内の新しいファイルの合計サイズにより、あなたのクオータを超えることになります。ファイルの一部を削除して再度お試しください。';
 $string['importsuccessfully'] = 'あなたのポートフォリオが正常にインポートされました。';
 $string['importfailed'] = '<p><strong>申し訳ございません - あなたのLeap2Aファイルのインポートに失敗しました。</strong></p>
