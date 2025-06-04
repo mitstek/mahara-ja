@@ -39,8 +39,8 @@ $string['deletespecificfrom'] = '「 %s 」(URL %s) を削除する';
 >>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['deleteitem'] = '削除';
 $string['deleted'] = '削除';
-$string['moveitemup'] = '上へ';
-$string['moveitemdown'] = '下へ';
+$string['moveitemup'] = '上に移動する';
+$string['moveitemdown'] = '下に移動する';
 $string['edit'] = '編集';
 <<<<<<< HEAD
 $string['editspecificfrom'] = '「 %s 」(URL %s) を編集する';

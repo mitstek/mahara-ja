@@ -20,9 +20,9 @@ defined('INTERNAL') || die();
 $string['title'] = 'アノテーション';
 $string['description'] = 'なぜあなたのエビデンスが標準を満たすかに関するアノテーションを表示するためのブロックです。';
 <<<<<<< HEAD
-$string['annotationreadonlymessage1'] = 'フィードバックが投稿されたため、あなたはこのアノテーションを編集できません。';
+$string['annotationreadonlymessage1'] = 'フィードバックが投稿されたためあなたはこのアノテーションを編集できません。';
 =======
-$string['annotationreadonlymessage'] = 'フィードバックが投稿されたため、これ以上アノテーションを編集できません。';
+$string['annotationreadonlymessage'] = 'フィードバックが投稿されたためこれ以上アノテーションを編集できません。';
 
 ?>
 >>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
