@@ -80,7 +80,7 @@ $string['workskill'] = 'ワークスキル';
 $string['goalandskillsaved'] = '正常に保存されました。';
 $string['resume'] = 'レジュメ';
 $string['current'] = '現在';
-$string['moveup'] = '上へ';
-$string['movedown'] = '下へ';
+$string['moveup'] = '上に移動する';
+$string['movedown'] = '下に移動する';
 
 ?>
