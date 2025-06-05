@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-05-19 00:57:02 UTC
+ * @updated    2025-06-05 03:49:32 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -298,6 +298,7 @@ $string['siteregistrationpolicy1'] = '登録ポリシは次のように変更さ
 $string['startsendingdata'] = 'あなたのサイトは週ごとの更新状況を<a href="https://mahara.org/">mahara.org</a>に送信しています。';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
+$string['closesitemessage'] = 'メンテナンスメッセージ';
 $string['closesitedetail'] = 'あなたは管理者を除くすべての人にサイトをクローズできます。これはデータベースアップグレードの準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインできます。';
 $string['closesitemsglbl'] = 'メンテナンスメッセージ:';
 $string['Open'] = 'オープン';
