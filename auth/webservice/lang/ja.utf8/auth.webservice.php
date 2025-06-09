@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-06-01 23:32:00 UTC
+ * @updated    2025-06-09 04:05:41 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -251,7 +251,7 @@ $string['erroruser'] = '無効なユーザが指定されました。';
 $string['authorise'] = 'アプリケーションアクセス権を与える';
 $string['oauth_access'] = 'このアプリケーションはあなたのユーザ詳細およびリソースにアクセスできます。';
 $string['oauth_instructions'] = 'あなたがこのアプリケーションにアクセス権を与えたい場合、「アプリケーションアクセス権を与える」をクリックしてください。あなたがアクセス権を与えたくない場合、「キャンセル」をクリックしてください。';
-$string['setauthinstancefailed'] = 'インスティテューション「 %s 」の「ウェブサービス」認証設定に失敗しました。「管理 -> インスティテューション -> 設定」ページで再度追加してください。';
+$string['setauthinstancefailed'] = 'インスティテューション「 %s 」の「ウェブサービス」認証設定に失敗しました。「管理 -> インスティテューション -> 設定」ページで追加してください。';
 $string['needtosetowner'] = 'このサービスのオーナを設定する必要があります。';
 $string['confirmdeleteexternalapp'] = '本当にこの外部アプリケーションを削除してもよろしいですか?';
 $string['confirmupdate'] = 'あなたは正常に外部アプリケーション「 %s 」を更新しました。';
