@@ -71,7 +71,7 @@ $string['View'] = 'ページ';
 $string['Views'] = 'ページ';
 $string['viewsubmittedtogroup'] = 'このページは<a href="%s">%s</a>に送信されました。';
 $string['viewsubmittedtogroupon'] = 'このページは<a href="%s">%s</a>に対して %s に送信されました。';
-$string['nobodycanseethisview2'] = 'あなたのみ、このページを閲覧できます。';
+$string['nobodycanseethisview2'] = 'あなたのみこのページを閲覧できます。';
 $string['noviews'] = 'ページはありません。';
 $string['youhavenoviews'] = 'あなたのページはありません。';
 $string['youhaventcreatedanyviewsyet'] = 'あなたはまだページを作成していません。';
