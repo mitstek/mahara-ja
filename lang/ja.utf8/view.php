@@ -70,7 +70,7 @@ $string['views'] = 'ビュー';
 $string['View'] = 'ビュー';
 $string['Views'] = 'ビュー';
 $string['viewsubmittedtogroup'] = 'このビューは<a href="%s">%s</a>に送信されました。';
-$string['nobodycanseethisview2'] = 'あなたのみ、このビューを閲覧できます。';
+$string['nobodycanseethisview2'] = 'あなたのみこのビューを閲覧できます。';
 $string['noviews'] = 'ビューはありません。';
 $string['youhavenoviews'] = 'あなたのビューはありません。';
 $string['youhaveoneview'] = 'あなたには 1 件のビューがあります。';
