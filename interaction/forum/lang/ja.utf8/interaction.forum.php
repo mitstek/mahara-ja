@@ -166,7 +166,7 @@ $string['indentmodedescription'] = 'このフォーラム内のトピックが�
 $string['maxindent'] = '最大インデントレベル';
 $string['maxindentdescription'] = 'トピックの最大インデントレベルを設定してください。この設定はインデントモードが「最大まで広げる」に設定された場合のみ適用されます。';
 $string['closetopics'] = '新しいトピックをクローズする';
-$string['closetopicsdescription'] = 'この設定を有効にした場合、このフォーラム内の新しいトピックがデフォルトでクローズされます。モデレータおよびグループ管理者のみ、閉鎖トピックに返信できます。';
+$string['closetopicsdescription'] = 'この設定を有効にした場合、このフォーラム内の新しいトピックがデフォルトでクローズされます。モデレータおよびグループ管理者のみ閉鎖トピックに返信できます。';
 $string['activetopicsdescription'] = 'あなたのグループ内で最近更新されたトピックです。';
 $string['timeleftnotice'] = 'あなたには編集を終了するまで %s 分あります。';
 
