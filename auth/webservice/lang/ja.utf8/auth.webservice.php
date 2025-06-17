@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-06-11 01:24:12 UTC
+ * @updated    2025-06-17 23:33:07 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -278,7 +278,7 @@ $string['enableprotocols'] = 'プロトコルを有効にする';
 $string['enablews'] = 'ウェブサービスを有効にする';
 $string['error'] = 'エラー: %s';
 $string['errorcodes'] = 'エラーメッセージ';
-$string['errorinvalidparam'] = 'パラメータ「 %s 」が有効ではありません。';
+$string['errorinvalidparam'] = 'パラメータ「 %s 」は無効です。';
 $string['errorinvalidparamsapi'] = '無効な外部APIパラメータです。';
 $string['errorinvalidparamsdesc'] = '無効な外部API記述です。';
 $string['errorinvalidresponseapi'] = '無効な外部APIレスポンスです。';
