@@ -370,8 +370,8 @@ $string['erroroptionalparamarray'] = '名称「 %s 」のウェブサービス�
 >>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['errorresponsemissingkey'] = 'レスポンスエラー: 次の単一構造の必須キーがありません: %s';
 $string['errorscalartype'] = 'スカラ型が要求されましたが、配列またはオブジェクトを受け取りました。';
-$string['errorunexpectedkey'] = 'パラメータ配列に予期されないキー (%s) が検出されました。';
-$string['errorunexpectedcustomkey'] = 'パラメータ配列に予期されないカスタムキー (%s) が検出されました。これらはMaharaでは無視されます。このメッセージはあなたがパラメータをレビューしてパラメータが無視されることに気付けるようにするだめだけの情報です。';
+$string['errorunexpectedkey'] = 'パラメータ配列に予期しないキー (%s) が検出されました。';
+$string['errorunexpectedcustomkey'] = 'パラメータ配列に予期しないカスタムキー (%s) が検出されました。これらはMaharaでは無視されます。このメッセージはあなたがパラメータをレビューしてパラメータが無視されることに気付けるようにするだめだけの情報です。';
 $string['execute'] = '実行';
 $string['expires'] = '有効期限';
 $string['externalservice'] = '外部サービス';
