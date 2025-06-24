@@ -387,7 +387,7 @@ $string['invalidpermission'] = 'あなたには「 %s 」で識別されたア�
 =======
 >>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['invalidtimedtoken'] = '無効なトークン: トークンの有効期限が切れています。';
-$string['invalidtokensession'] = '無効なセッションベースのトークン: セッションが見つからないか有効期限が切れています。';
+$string['invalidtokensession'] = '無効なセッションベーストークン: セッションが見つからないか有効期限が切れています。';
 $string['iprestriction'] = 'IP制限';
 $string['list'] = 'リスト';
 $string['key'] = 'キー';
@@ -400,7 +400,7 @@ $string['nowsprotocolsenabled'] = '有効にされているウェブサービス
 =======
 $string['nowsprotocolsenabled'] = '有効にされているウェブサービスプロトコルがありません。あなたは少なくとも1つの<a href="%s">プロトコル</a>を有効にする必要があります。';
 >>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['onesystemcontrolling'] = '1システムがMahraをトークンでコントロールする';
+$string['onesystemcontrolling'] = '1システムがMaharaをトークンでコントロールする';
 $string['operation'] = '操作';
 $string['optional'] = '任意';
 $string['phpparam'] = 'XML-RPC (PHP構造体)';
@@ -492,7 +492,7 @@ $string['invalidauthtypeuser'] = '無効な認証タイプ「 %s (ユーザ: %s)
 >>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['invalidsocialprofile'] = '無効なソーシャルプロファイル「 %s 」です。';
 $string['instexceedmax'] = 'インスティテューションが許容される最大値 「 %s 」 を超えました。';
-$string['cannotdeleteaccount'] = '使用中および未保留のアカウントは削除できません。アカウントID「 %s 」';
+$string['cannotdeleteaccount'] = '使用中および利用停止されていないアカウントは削除できません。アカウントID「 %s 」';
 $string['nousernameorid'] = 'ユーザ名またはIDがありません。';
 $string['nousernameoridgroup'] = 'グループ「 %s 」のユーザ名またはIDがありません。';
 $string['invaliduser'] = '無効なアカウント「 %s 」です。';
@@ -542,7 +542,7 @@ $string['invalidviewiduser'] = '無効な %s ID:「 %s 」です。インステ�
 $string['viewnotsubmitted'] = '%s (ID: %s) は送信されていません。';
 $string['viewnotsubmittedtothishost'] = '%s (ID: %s) はホスト「 %s 」に送信されていません。';
 $string['exporttypenotavailable'] = 'エクスポートメソッド「 %s 」は利用できません。そのメソッドが有効であるか確認してください。';
-$string['deprecatedproto'] = '%s プロトコルは非推奨であり、将来のリリースで削除される予定です。別のプロトコルを使用するようあなたのウェブサービスを変換してください。';
+$string['deprecatedproto'] = '%s プロトコルは非推奨であり将来のリリースで削除される予定です。別のプロトコルを使用するようあなたのウェブサービスを変換してください。';
 $string['noreturn'] = 'このウェブサービスのコールからは何も返されませんでした。';
 $string['useraccountsuspended'] = 'ID「 %s 」のアカウントは %s の時点で利用停止されました。';
 $string['useraccountexpired'] = 'ID「 %s 」のアカウントは %s の時点で有効期限切れとなりました。';
