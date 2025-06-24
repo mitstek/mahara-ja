@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-06-23 00:05:04 UTC
+ * @updated    2025-06-24 23:02:03 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -303,7 +303,7 @@ $string['invalidextresponse'] = '無効な外部APIレスポンス: %s';
 $string['invalidiptoken'] = '無効なトークン: あなたのIPはサポートされていません。';
 $string['invalidpermission'] = 'あなたには「 %s 」で識別されたアカウントにファイルをアップロードするためのパーミッションがありません。';
 $string['invalidtimedtoken'] = '無効なトークン: トークンの有効期限が切れています。';
-$string['invalidtokensession'] = '無効なセッションベースのトークン: セッションが見つからないか有効期限が切れています。';
+$string['invalidtokensession'] = '無効なセッションベーストークン: セッションが見つからないか有効期限が切れています。';
 $string['iprestriction'] = 'IP制限';
 $string['list'] = 'リスト';
 $string['key'] = 'キー';
@@ -312,7 +312,7 @@ $string['missingusername'] = 'ユーザ名がありません。';
 $string['notoken'] = 'トークンリストが空です。';
 $string['nosites'] = 'どのインスティテューションにもアクセスはありません。';
 $string['nowsprotocolsenabled'] = '有効にされているウェブサービスプロトコルはありません。あなたは少なくとも1つの<a href="%s">プロトコル</a>を有効にする必要があります。';
-$string['onesystemcontrolling'] = '1システムがMahraをトークンでコントロールする';
+$string['onesystemcontrolling'] = '1システムがMaharaをトークンでコントロールする';
 $string['operation'] = '操作';
 $string['optional'] = '任意';
 $string['phpparam'] = 'XML-RPC (PHP構造体)';
@@ -380,7 +380,7 @@ $string['invalidauthtype'] = '無効な認証タイプ「 %s 」です。';
 $string['invalidauthtypeuser'] = '無効な認証タイプ「 %s (アカウント: %s)」 です。';
 $string['invalidsocialprofile'] = '無効なソーシャルプロファイル「 %s 」です。';
 $string['instexceedmax'] = 'インスティテューションが許容される最大値 「 %s 」 を超えました。';
-$string['cannotdeleteaccount'] = '使用中および未保留のアカウントは削除できません。アカウントID「 %s 」';
+$string['cannotdeleteaccount'] = '使用中および利用停止されていないアカウントは削除できません。アカウントID「 %s 」';
 $string['nousernameorid'] = 'ユーザ名またはIDがありません。';
 $string['nousernameoridgroup'] = 'グループ「 %s 」のユーザ名またはIDがありません。';
 $string['invaliduser'] = '無効なアカウント「 %s 」です。';
@@ -419,7 +419,7 @@ $string['invalidviewiduser'] = '無効な %s ID:「 %s 」です。インステ�
 $string['viewnotsubmitted'] = '%s (ID: %s) は送信されていません。';
 $string['viewnotsubmittedtothishost'] = '%s (ID: %s) はホスト「 %s 」に送信されていません。';
 $string['exporttypenotavailable'] = 'エクスポートメソッド「 %s 」は利用できません。そのメソッドが有効であるか確認してください。';
-$string['deprecatedproto'] = '%s プロトコルは非推奨であり、将来のリリースで削除される予定です。別のプロトコルを使用するようあなたのウェブサービスを変換してください。';
+$string['deprecatedproto'] = '%s プロトコルは非推奨であり将来のリリースで削除される予定です。別のプロトコルを使用するようあなたのウェブサービスを変換してください。';
 $string['noreturn'] = 'このウェブサービスのコールからは何も返されませんでした。';
 $string['useraccountsuspended'] = 'ID「 %s 」のアカウントは %s の時点で利用停止されました。';
 $string['useraccountexpired'] = 'ID「 %s 」のアカウントは %s の時点で有効期限切れとなりました。';
