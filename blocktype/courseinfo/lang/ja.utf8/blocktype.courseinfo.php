@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['title'] = 'コース完了';
 $string['name'] = 'コース情報';
 $string['description'] = '外部ソースからコース完了に関する情報を表示します。';
-$string['defaulttitledescription'] = 'あなたがこれを空白にした場合、デフォルトタイトルが生成されます。';
+$string['defaulttitledescription'] = 'ここを空白にした場合、デフォルトタイトルが生成されます。';
 $string['blocktitleforowner'] = '%s のコース完了';
 $string['placeholdermessage'] = 'このブロックは使用する前に完全に設定する必要があります。ブロックがパーソナルポートフォリオページにある場合のみ完全に設定できます。';
 $string['completeconfiguration'] = 'このブロックを有効化するには完全に設定してください。';
