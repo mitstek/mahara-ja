@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-06-29 23:23:06 UTC
+ * @updated    2025-07-02 01:33:06 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,7 +18,7 @@ $string['name'] = 'コース情報';
 $string['description'] = '外部ソースからコース完了に関する情報を表示します。';
 $string['defaulttitledescription'] = 'ここを空白にした場合、デフォルトタイトルが生成されます。';
 $string['blocktitleforowner'] = '%s のコース完了';
-$string['placeholdermessage'] = 'このブロックは使用する前に完全に設定する必要があります。ブロックがパーソナルポートフォリオページにある場合のみ完全に設定できます。';
+$string['placeholdermessage'] = 'このブロックは使用可能になる前に完全に設定する必要があります。完全に設定できるのはブロックがパーソナルポートフォリオページにある場合のみです。';
 $string['completeconfiguration1'] = '表示するコース情報はありません。コース完了を表示するにはこのブロックを編集してください。';
 $string['completeconfigurationnotpossible'] = 'このブロックのインスティテューションウェブサービス接続を構築する必要があります。ウェブサービスの設定に関してサイト管理者にお尋ねください。';
 $string['unabletofetchdata'] = 'このページオーナのデータを取得できません。';
