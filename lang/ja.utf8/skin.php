@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-06-03 22:21:19 UTC
+ * @updated    2025-07-04 01:46:22 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -216,22 +216,18 @@ $string['bolditalic'] = '太字イタリック';
 $string['fonttype'] = 'フォントタイプ';
 $string['headingandtext'] = 'ヘッディングおよびテキスト';
 $string['headingonly'] = 'ヘッディングのみ';
-$string['fontuploadinstructions2'] = '<br>必要なフォントファイルをアップロードする場合、あなたは上の手順で生成されたZIPファイルをアップロードするか、<br>EOT、SVG、TTF、WOFFおよびライセンスファイルを個別にアップロードできます。';
+$string['fontuploadinstructions3'] = '<br>必要なフォントファイルをアップロードする場合、あなたは上の手順で生成されたZIPファイルをアップロードするか、<br>TTF、WOFFおよびライセンスファイルを個別にアップロードできます。';
 $string['fontfiles'] = 'フォントファイル';
 $string['fontfilemissing'] = 'ZIPファイルに「 %s 」フォントファイルが含まれていません。';
 $string['zipfontfiles'] = 'ZIPアーカイブ内のフォントファイル';
 $string['fontfilezip'] = 'ZIPアーカイブ';
-$string['zipdescription'] = 'EOT、SVG、TTF、WOFFおよびフォントのライセンスファイルを含むZIPファイル';
-$string['fontfileeot'] = 'EOTフォントファイル';
-$string['eotdescription'] = 'Embedded OpenTypeフォント (Internet Explorer 4+)';
+$string['zipdescription1'] = 'TTF、WOFFおよびフォントのライセンスファイルを含むZIPファイル';
 $string['notvalidfontfile'] = 'これは有効な %s フォントファイルではありません。';
 $string['nosuchfont'] = '提供された名称のフォントはありません。';
-$string['fontfilesvg'] = 'SVGフォントファイル';
-$string['svgdescription'] = 'Scalable Vector Graphicsフォント (iPadおよびiPhone)';
 $string['fontfilettf'] = 'TTFフォントファイル';
 $string['ttfdescription'] = 'TrueTypeフォント (Firefox 3.5+, Opera 10+, Safari 3.1+, Chrome 4.0.249.4+)';
-$string['fontfilewoff'] = 'WOFFフォントファイル';
-$string['woffdescription'] = 'Web Open Font Formatフォント (Firefox 3.6+, Internet Explorer 9+, Chrome 5+)';
+$string['fontfilewoff1'] = 'WOFF2フォントファイル';
+$string['woffdescription1'] = 'Web Open Font Formatフォント2.0 (Firefox 39+, Edge 14+, Chrome 36+, Safari 12+, Opera 23+, iOS 10+)';
 $string['fontfilelicence'] = 'ライセンスファイル';
 $string['fontnotice'] = 'フォント通知';
 $string['fontnoticedescription'] = 'フォントおよび作者に関する説明1行がCSSファイルに追加されます。';
