@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-07-02 01:33:06 UTC
+ * @updated    2025-07-06 21:28:53 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -23,9 +23,9 @@ $string['completeconfiguration1'] = '表示するコース情報はありませ�
 $string['completeconfigurationnotpossible'] = 'このブロックのインスティテューションウェブサービス接続を構築する必要があります。ウェブサービスの設定に関してサイト管理者にお尋ねください。';
 $string['unabletofetchdata'] = 'このページオーナのデータを取得できません。';
 $string['fromdate'] = '開始日';
-$string['fromdatedescription'] = 'この日付以降に開始されたコースのみ表示します。フォーマット %s を使用します。';
+$string['fromdatedescription'] = 'この日付以降に開始されたコースのみ表示します。次のフォーマットを使用してください: %s';
 $string['todate'] = '終了日';
-$string['todatedescription'] = 'この日付以前に開始されたコースのみ表示します。フォーマット %s を使用します。';
+$string['todatedescription'] = 'この日付以前に開始されたコースのみ表示します。次のフォーマットを使用してください: %s';
 $string['externaluserid'] = '外部アカウントID';
 $string['dateoutofsync'] = 'これは「終了日」より古くする必要があります。';
 $string['nocourses1'] = 'まだ設定されたコース情報はありません。';
