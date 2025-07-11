@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-08 01:12:09 UTC
+ * @updated    2025-07-11 00:11:28 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -66,5 +66,6 @@ $string['viewsubmittedmessage1'] = '%s が「 %s 」を %s に提出しました
 $string['viewsubmittedsubject1'] = '%s への評価提出';
 $string['webserviceauthdisabled'] = 'このインスティテューションのウェブサービス認証は有効にされていません。';
 $string['webserviceproviderenabled'] = '内向きのウェブサービスリクエスト許可';
+$string['ltioutcomesubmissionfailure'] = '提出失敗: %s';
 $string['returntitlefor'] = 'コース「 %s 」に戻る';
 $string['returntitle'] = '外部サイトに戻る';
