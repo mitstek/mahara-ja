@@ -28,8 +28,8 @@ $string['authpassword'] = 'HTTPパスワード';
 $string['authpassworddesc'] = 'このフィードへのアクセスに必要なパスワード (HTTP基本認証) です (必要であれば)。';
 $string['feedlocation'] = 'フィードロケーション';
 $string['feedlocationdesc'] = '有効なRSSまたはATOMフィードのURL';
-$string['insecuresslmode'] = '安全でないSSLモード';
-$string['insecuresslmodedesc'] = 'SSL証明書認証を無効にします。これはお勧めできる設定ではありませんが有効ではないまたは信頼できない証明書を使用してフィードが提供されている場合に必要です。';
+$string['insecuresslmode'] = '安全ではないSSLモード';
+$string['insecuresslmodedesc'] = 'SSL証明書認証を無効にします。これはお勧めできる設定ではありませんが、有効ではないまたは信頼できない証明書を使用してフィードが提供されている場合に必要です。';
 <<<<<<< HEAD
 $string['invalidfeed1'] = 'このURLでは有効なフィードは検出されませんでした。';
 $string['invalidurl'] = '指定されたURLが有効ではありません。あなたはhttpおよびhttpsのURLのみフィードを表示できます。';
