@@ -24,6 +24,6 @@ $string['vimeo'] = 'Vimeo';
 $string['voicethread'] = 'VoiceThread';
 $string['voki'] = 'Voki';
 $string['width'] = '幅';
-$string['widthheightdescription'] = '「幅」および「高さ」フィールドはURLにのみ使用されます。上でembedまたはiframeコードを入力している場合、あなたはコード内で幅および高さを更新する必要があります。';
+$string['widthheightdescription'] = '「幅」および「高さ」フィールドはURLにのみ使用されます。上でembedまたはiframeコードを入力した場合、あなたはコード内で幅および高さを更新する必要があります。';
 $string['wikieducator'] = 'WikiEducator';
 $string['youtube'] = 'YouTube';
