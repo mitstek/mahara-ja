@@ -12,7 +12,7 @@ $string['blockheadingtagsomitonly'] = array(
     0 => '「 %2$s 」がタグ付けされていない日誌エントリ',
 );
 $string['configerror'] = 'ブロック設定中にエラーが発生しました。';
-$string['defaulttitledescription'] = 'あなたがここを空白にした場合、日誌のタイトルが使用されます。';
+$string['defaulttitledescription'] = 'ここを空白にした場合、日誌のタイトルが使用されます。';
 $string['description'] = '特定のタグが付けられた日誌エントリを表示します (「コンテンツ -> 日誌」をご覧ください)。';
 $string['excludetag'] = '除外タグ: ';
 $string['itemstoshow'] = '表示するアイテム数';
