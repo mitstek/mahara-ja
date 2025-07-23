@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-07-20 23:19:50 UTC
+ * @updated    2025-07-23 02:34:06 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,6 +15,9 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'タグ付き日誌エントリ';
 $string['description'] = '特定のタグが付けられた日誌エントリを表示します (「コンテンツ -> 日誌」をご覧ください)。';
+$string['blockheadingtags'] = '「 %2$s 」がタグ付けされた日誌エントリ';
+$string['blockheadingtagsomitboth'] = '(「 %2$ 」を除外)';
+$string['blockheadingtagsomitonly'] = '「 %2$s 」がタグ付けされていない日誌エントリ';
 $string['defaulttitledescription'] = 'ここを空白にした場合、日誌のタイトルが使用されます。';
 $string['postsperpage'] = '1ページあたりのエントリ数';
 $string['taglist'] = '次のタグが付けられたエントリを表示する';
