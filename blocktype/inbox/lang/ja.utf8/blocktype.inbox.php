@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = '受信箱';
-$string['description'] = 'あなたの受信箱より選択された最近のメッセージを表示します。';
+$string['description'] = 'あなたの最近の受信箱メッセージから選択したものを表示します。';
 $string['messagetypes'] = '表示するメッセージタイプ';
 $string['maxitems'] = '表示するアイテムの最大数';
 $string['maxitemsdescription'] = '設定範囲: 1～100';
