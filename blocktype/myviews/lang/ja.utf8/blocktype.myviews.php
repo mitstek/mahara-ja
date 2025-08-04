@@ -3,7 +3,7 @@
 
 defined('INTERNAL') || die();
 
-$string['description1'] = 'あなたのプロファイルを閲覧している人に閲覧可能なポートフォリオすべてを表示します。';
+$string['description1'] = 'あなたのプロファイル閲覧者に対して閲覧可能なすべてのポートフォリオを表示します。';
 $string['otherusertitle1'] = '%s のポートフォリオ';
 $string['title1'] = 'マイポートフォリオ';
 =======
@@ -23,7 +23,7 @@ defined('INTERNAL') || die();
 
 $string['title1'] = 'マイポートフォリオ';
 $string['otherusertitle1'] = '%s のポートフォリオ';
-$string['description1'] = 'あなたのプロファイルを閲覧している人に閲覧可能なポートフォリオすべてを表示します。';
+$string['description1'] = 'あなたのプロファイル閲覧者に対して閲覧可能なすべてのポートフォリオを表示します。';
 
 ?>
 >>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
