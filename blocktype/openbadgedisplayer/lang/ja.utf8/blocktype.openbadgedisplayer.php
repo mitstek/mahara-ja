@@ -37,7 +37,7 @@ $string['obppublicbadges'] = 'オープンバッジパスポート内すべて�
 $string['title_backpack'] = 'Mozillaバックパック';
 $string['title_passport'] = 'オープンバッジパスポート';
 $string['title_badgr'] = 'Badgrバックパック';
-$string['fetchingbadges'] = 'エントリを取得しています。しばらくお待ちください。';
+$string['fetchingbadges'] = 'エントリを取得しています。この処理に時間を要する場合があります。';
 $string['missingbadgesources'] = 'ソース設定がありません。あなたのconfig.phpファイルに追加してください。例:
 <br>
 <br>
