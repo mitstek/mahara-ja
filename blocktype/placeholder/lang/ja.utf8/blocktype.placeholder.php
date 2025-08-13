@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'プレースホルダ';
-$string['description'] = 'あなたが希望するブロックタイプをプレースホルダブロックで選択できます。';
+$string['description'] = 'あなたは希望するブロックタイプをプレースホルダブロックで選択できます。';
 $string['placeholdertext'] = 'タイプを選択するためこのブロックを設定してください。';
 $string['defaulttitledescription'] = 'タイトルフィールドを空白にした場合、デフォルトタイトルが生成されます。';
 $string['contenttypes'] = 'コンテンツタイプ';
