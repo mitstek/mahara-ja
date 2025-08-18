@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-02-05 02:15:47 UTC
+ * @updated    2025-08-18 00:08:37 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['title'] = 'ポートフォリオレビュー';
 $string['description'] = 'レビュー詳細を表示する';
 $string['primarystatement'] = '主ステートメント';
-$string['primarystatementdescription'] = 'あなたがこのステートメントを主ステートメントにした場合、ページの目立つ位置に表示されます。すでに主ステートメントが存在する場合、あなたは新しいステートメントを追加できません。';
+$string['primarystatementdescription'] = 'あなたがこのステートメントを主ステートメントにした場合、ページの目立つ位置に表示されます。すでに主ステートメントがページに存在する場合、あなたは新しいステートメントを追加できません。';
 $string['blockcontent'] = 'ステートメントテキスト';
 $string['blockcontentdescription'] = 'あなたが承認を希望するステートメントのテキストを記述してください。レビュアにはステートメントを承認するためのチェックボックスが表示されます。あなたがこのフィールドを空白にする場合、レビュアが自分のステートメントを記述できるようコメントフィールドを有効にしてください。';
 $string['textdescription'] = 'あなたのステートメントのテキストを記述してください。レビュアにはステートメントを承認するためのチェックボックスが表示されます。あなたがこのフィールドを空白にする場合、レビュアが自分のステートメントを記述できるようコメントフィールドを有効にしてください。';
