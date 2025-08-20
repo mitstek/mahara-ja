@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-08-18 00:08:37 UTC
+ * @updated    2025-08-20 02:36:20 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -25,7 +25,7 @@ $string['addcommentdescription'] = 'あなたがコメントを許可した場�
 $string['displayverifiername'] = 'レビュア名を表示する';
 $string['displayverifiernamedescription'] = 'ステートメントが承認された場合にレビュア名を表示するかどうか決定してください。タイムスタンプは常に表示されます。';
 $string['availableto'] = '利用可能';
-$string['availabletodescription'] = '人がステートメントを承認するために必要なロールを選択してください。ロールが選択されない場合、ポートフォリオにアクセスできる誰でもステートメントを承認またはコメントを提供できます。ロールは累積されません。';
+$string['availabletodescription'] = 'レビュアがステートメントを承認するために必要なロールを選択してください。ロールが選択されない場合、ポートフォリオにアクセスできる誰でもステートメントを承認またはコメントを提供できます。ロールは累積されません。';
 $string['groupadmin'] = 'グループ管理者';
 $string['grouptutor'] = 'グループチュータ';
 $string['groupmember'] = 'グループメンバ';
