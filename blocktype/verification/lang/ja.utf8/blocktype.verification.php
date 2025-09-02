@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-08-31 22:03:48 UTC
+ * @updated    2025-09-02 22:12:09 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -45,13 +45,13 @@ $string['verificationchecklist'] = '<p>あなたがこのステートメント�
 $string['verificationchecklistnames'] = '<p>あなたがこのステートメントを承認した場合、自分の決定を元に戻せません。あなたがそうしたい場合、「詳細オプション」ボタンをクリックしてステートメントのリセットを次のいずれかの人に依頼してください: %s</p>';
 $string['verificationchecklistlocking'] = '<p>あなたがこのステートメントを承認した場合</p>
 <ul>
-<li>ポートフォリオ作成者は自分のポートフォリオを変更できません</li>
+<li>ポートフォリオ作成者は自分のポートフォリオを変更できません。</li>
 <li>ポートフォリオ作成者は新たなレビュアを追加できません。</li>
 <li>あなたは自分の決定を元に戻せません。</li>
 </ul>';
 $string['verificationchecklistlockingnames'] = '<p>あなたがこのステートメントを承認した場合</p>
 <ul>
-<li>ポートフォリオ作成者は自分のポートフォリオを変更できません</li>
+<li>ポートフォリオ作成者は自分のポートフォリオを変更できません。</li>
 <li>ポートフォリオ作成者は新たなレビュアを追加できません。</li>
 <li>あなたは自分の決定を元に戻せません。あなたがそうしたい場合、「詳細オプション」ボタンをクリックしてステートメントのリセットを次のいずれかの人に依頼してください: %s</li>
 </ul>';
