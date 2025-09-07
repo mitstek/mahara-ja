@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-09-02 22:12:09 UTC
+ * @updated    2025-09-07 23:27:03 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -78,7 +78,7 @@ $string['verifycomment'] = 'コメントを追加する';
 $string['addcommentsuccess'] = '「 %s 」へのコメントが正常に追加されました。';
 $string['addcommentsuccessdraft'] = '「 %s 」への下書きコメントが正常に追加されました。';
 $string['resetcomment'] = 'コメントをリセットする';
-$string['verifymessagesubjectnoname'] = 'あなたのポートフォリオにステートメントが承認されました:';
+$string['verifymessagesubjectnoname'] = 'あなたのポートフォリオでステートメントが承認されました:';
 $string['verifymessagenoname'] = '次のステートメントが %s に承認されました:
 %s';
 $string['verifymessagesubject'] = '%s があなたのポートフォリオのステートメントを承認しました。';
