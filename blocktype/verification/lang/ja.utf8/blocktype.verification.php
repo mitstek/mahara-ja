@@ -78,7 +78,7 @@ $string['verifycomment'] = 'コメントを追加する';
 $string['addcommentsuccess'] = '「 %s 」へのコメントが正常に追加されました。';
 $string['addcommentsuccessdraft'] = '「 %s 」への下書きコメントが正常に追加されました。';
 $string['resetcomment'] = 'コメントをリセットする';
-$string['verifymessagesubjectnoname'] = 'あなたのポートフォリオにステートメントが承認されました:';
+$string['verifymessagesubjectnoname'] = 'あなたのポートフォリオでステートメントが承認されました:';
 $string['verifymessagenoname'] = '次のステートメントが %s に承認されました:
 %s';
 $string['verifymessagesubject'] = '%s があなたのポートフォリオのステートメントを承認しました。';
