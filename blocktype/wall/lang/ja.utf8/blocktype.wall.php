@@ -15,7 +15,7 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'ウォール';
 $string['otherusertitle'] = '%s のウォール';
-$string['description'] = '人がコメントをあなたに残せるエリアを表示します。';
+$string['description'] = '人があなたにコメントを残せるエリアを表示します。';
 $string['noposts'] = '表示できるウォール投稿はありません。';
 $string['makeyourpostprivate'] = 'あなたの投稿をプライベートにする';
 $string['viewwall'] = 'ウォールを表示する';
