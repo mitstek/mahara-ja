@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-09-10 01:22:58 UTC
+ * @updated    2025-09-14 20:31:43 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -37,7 +37,7 @@ $string['postsizelimit'] = '投稿サイズ制限';
 $string['postsizelimitdescription'] = 'ここであなたはウォールの投稿サイズを制限できます。既存の投稿は変更されません。';
 $string['postsizelimitmaxcharacters'] = '最大文字数';
 $string['postsizelimitinvalid'] = 'これは有効な数字ではありません。';
-$string['postsizelimittoosmall'] = '制限はゼロより下にできません。';
+$string['postsizelimittoosmall'] = '制限はゼロより小さくできません。';
 $string['newwallpostnotificationsubject'] = 'あなたのウォールの新しい投稿';
 $string['newwallpostnotificationmessage'] = '%s';
 $string['typewallpost'] = 'ウォール投稿';
