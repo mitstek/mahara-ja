@@ -18,7 +18,7 @@ defined('INTERNAL') || die();
 
 $string['buildingindexpage'] = 'インデックスページ構築中';
 $string['copyingextrafiles'] = '追加ファイルコピー中';
-$string['description'] = 'あなたのポートフォリオデータを内蔵したウェブサイトを作成します。あなたはこのファイルをインポートできませんが、標準的なウェブブラウザで閲覧できます。';
+$string['description'] = 'あなたのポートフォリオデータを内蔵したウェブサイトを作成します。あなたはこのファイルを再度インポートできませんが、標準的なウェブブラウザで閲覧できます。';
 $string['duplicatepagetitle'] = 'ページタイトル重複のためエクスポートに失敗しました。タイトルがユニークであることを確認してください。';
 $string['exportingdatafor'] = '%s データエクスポート中';
 $string['preparing'] = '%s 準備中';
@@ -26,7 +26,7 @@ $string['title'] = 'スタンドアロンHTMLウェブサイト';
 <<<<<<< HEAD
 $string['usersportfolio'] = '%s - ポートフォリオ';
 =======
-$string['description'] = 'あなたのポートフォリオデータを内蔵したウェブサイトを作成します。あなたはこのファイルをインポートできませんが、標準的なウェブブラウザで閲覧できます。';
+$string['description'] = 'あなたのポートフォリオデータを内蔵したウェブサイトを作成します。あなたはこのファイルを再度インポートできませんが、標準的なウェブブラウザで閲覧できます。';
 $string['usersportfolio'] = '%s - ポートフォリオ';
 $string['preparing'] = '%s 準備中';
 $string['exportingdatafor'] = '%s データエクスポート中';
