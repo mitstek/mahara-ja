@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-07-09 03:06:05 UTC
+ * @updated    2025-09-29 06:16:39 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -149,7 +149,7 @@ $string['missingparamdesc'] = 'パラメータの記述がありません。';
 $string['missingimplofmeth'] = '「 %s 」のメソッドが実装されていません。';
 $string['cannotfindimplfile'] = '外部関数を実装したファイルが見つかりません。';
 $string['servicenamemustbeunique'] = 'この名称はすでに別のサービスグループで使用されています。';
-$string['serviceshortnamemustbeunique'] = 'この省略名はすでに別のサービスグループで使用されています。';
+$string['serviceshortnamemustbeunique1'] = 'この省略名はすでに別のサービスグループで使用されています。代わりに「 %s 」を使用してください。';
 $string['apptokens'] = 'アプリケーション接続';
 $string['apptokensdesc'] = 'ウェブサービスアクセスのトークンを生成します。';
 $string['connections'] = '接続マネージャ';
