@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'ページおよびコレクションのPDFファイル';
-$string['description'] = 'この作成されたZIPファイルにはあなたのポートフォリオが含まれます。あなたはこれを再度インポートできませんが、標準的なPDFビューアで閲覧できます。';
+$string['description'] = 'これによりあなたのポートフォリオのPDFファイルを含むZIPファイルが作成されます。あなたはこれを再度インポートできませんが、標準的なPDFビューアで閲覧できます。';
 $string['needspdfconfig'] = 'config.php設定「usepdfexport」を「true」にする必要があります。';
 $string['needschromeheadless'] = 'PDF出力にHeadless Chromeを利用する実験的エクスポートオプションです。このプラグインを使用するにはサーバに最新版のChromeまたはChromiumブラウザをインストールしてください。';
 $string['needschromeheadlessphp'] = '「chrome-php」が必要です。あなたはこれを「make pdfexport」でインストールできます。';
