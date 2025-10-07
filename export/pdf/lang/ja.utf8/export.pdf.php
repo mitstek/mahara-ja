@@ -19,6 +19,6 @@ $string['needspdfconfig'] = 'config.php設定「usepdfexport」を「true」に�
 $string['needschromeheadless'] = 'PDF出力にHeadless Chromeを利用する実験的エクスポートオプションです。このプラグインを使用するにはサーバに最新版のChromeまたはChromiumブラウザをインストールしてください。';
 $string['needschromeheadlessphp'] = '「chrome-php」が必要です。あなたはこれを「make pdfexport」でインストールできます。';
 $string['needspdfcombiner'] = 'PDFを結合できるようにするには「pdfunite」または「ghostscript」が必要です。あなたは「apt-get install poppler-utils」で「pdfunite」をインストールできます。';
-$string['exportpdfdisabled'] = 'PDFエクスポート依存関係が不足しているためPDFエクスーポートは無効にされています。詳細は<a href="%s">「プラグイン管理」</a>をご覧ください。';
+$string['exportpdfdisabled'] = 'PDFエクスポート依存関係が不足してます。PDFエクスーポートは無効にされています。詳細は<a href="%s">「プラグイン管理」</a>をご覧ください。';
 
 ?>
