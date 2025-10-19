@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-10-14 21:33:21 UTC
+ * @updated    2025-10-19 22:00:20 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -21,7 +21,7 @@ $string['addtopicsuccess'] = 'トピックが正常に追加されました。';
 $string['allowunsubscribe'] = 'グループメンバの購読解除を許可する';
 $string['allowunsubscribedescription'] = 'グループメンバがフォーラムおよびトピックから購読解除できるかどうか選択してください。';
 $string['autosubscribeusers'] = 'グループメンバを自動的に購読させる';
-$string['autosubscribeusersdescription'] = 'グループメンバがこのフォーラムを自動的に購読するかどうか選択してください。';
+$string['autosubscribeusersdescription'] = 'グループメンバにこのフォーラムを自動的に購読させるかどうか選択してください。';
 $string['awaitingapproval'] = '承認待ち';
 $string['Body'] = '本文';
 $string['cantaddposttoforum'] = 'あなたはこのフォーラムに投稿できません。';
@@ -206,6 +206,7 @@ $string['Topic'] = 'トピック';
 $string['Topics'] = 'トピック';
 $string['topiclower'] = 'トピック';
 $string['topicslower'] = 'トピック';
+$string['ntopicslower'] = '%s トピック';
 $string['topicclosedsuccess'] = 'トピックが正常にクローズされました。';
 $string['topicisclosed'] = 'このトピックはクローズされました。モデレータおよびグループ管理者のみ新しい返信を投稿できます。';
 $string['topicopenedsuccess'] = 'トピックが正常にオープンされました。';
@@ -228,6 +229,7 @@ $string['youcannotunsubscribeotherusers'] = 'あなたは他の人を購読解�
 $string['youarenotsubscribedtothisforum'] = 'あなたはこのフォーラムを購読していません。';
 $string['youarenotsubscribedtothistopic'] = 'あなたはこのトピックを購読していません。';
 $string['Moveto'] = '移動';
+$string['topicmovedsuccess'] = '%d トピックが正常に移動されました。';
 $string['today'] = '今日';
 $string['yesterday'] = '昨日';
 $string['strftimerecentrelative'] = '%%v - %%H:%%M';
