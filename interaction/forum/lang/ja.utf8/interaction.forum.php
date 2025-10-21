@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-10-19 22:00:20 UTC
+ * @updated    2025-10-21 22:30:01 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -47,7 +47,7 @@ $string['Close'] = 'クローズ';
 $string['closeddescription'] = '閉鎖トピックではモデレータおよびグループ管理者のみ返信できます。';
 $string['complaint'] = 'クレーム';
 $string['Count'] = 'カウント';
-$string['createtopicusersdescription'] = '「すべてのグループメンバ」を設定した場合、すべてのメンバが新しいトピックを作成および既存のトピックに返信できます。「モデレータおよびグループ管理者のみ」を設定した場合、モデレータおよびグループ管理者のみ新しいトピックを開始できます。しかし、「モデレータおよびグループ管理者のみ」を設定してトピックが存在するようになった場合、すべてのグループメンバが返信できます。';
+$string['createtopicusersdescription'] = '「すべてのグループメンバ」を設定した場合、誰でも新しいトピックを作成および既存のトピックに返信できます。「モデレータおよびグループ管理者のみ」を設定した場合、モデレータおよびグループ管理者のみ新しいトピックを開始できます。しかし、「モデレータおよびグループ管理者のみ」を設定してトピックが存在する場合、すべてのグループメンバが返信できます。';
 $string['currentmoderators'] = '現在のモデレータ';
 $string['defaultforumtitle'] = '一般的なディスカッション';
 $string['defaultforumdescription'] = '%s 一般的なディスカッションフォーラム';
