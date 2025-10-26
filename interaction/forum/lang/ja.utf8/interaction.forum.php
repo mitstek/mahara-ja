@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-10-21 22:30:01 UTC
+ * @updated    2025-10-26 20:05:26 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -96,7 +96,7 @@ $string['forumposttemplate'] = 'フォーラム: %s (%s)
 %s
 
 ------------------------------------------------------------------------
-オンラインで投稿を閲覧するには次のリンクにアクセスしてください:
+オンラインで投稿を閲覧および返信するには次のリンクにアクセスしてください:
 %s
 
 この %s から購読解除するには次のリンクにアクセスしてください:
@@ -110,7 +110,7 @@ $string['forumpostattachmenttemplate'] = 'フォーラム: %s (%s)
 添付:
 %s
 ------------------------------------------------------------------------
-オンラインで投稿を閲覧するには次のリンクにアクセスしてください:
+オンラインで投稿を閲覧および返信するには次のリンクにアクセスしてください:
 %s
 
 この %s から購読解除するには次のリンクにアクセスしてください:
