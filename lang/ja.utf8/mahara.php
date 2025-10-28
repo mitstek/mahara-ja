@@ -264,7 +264,7 @@ $string['institutiontagdesc'] = 'あなたは1度に1個のタグを追加でき
 $string['institutiontagdeleted'] = 'インスティテューションタグが正常に削除されました。';
 $string['institutiontagdeletefail'] = 'インスティテューションタグの削除に失敗しました。';
 $string['institutiontags'] = 'インスティテューションタグ';
-$string['institutiontagsdescription'] = 'インスティテューションタグはインスティテューションによって事前に定義されます。インスティテューションのすべてのメンバはインスティテューションタグを利用できます。あなたは好きなだけタグを作成できます。';
+$string['institutiontagsdescription'] = 'インスティテューションタグはインスティテューションにより事前に定義されます。インスティテューションのすべてのメンバはインスティテューションタグを利用できます。あなたは好きなだけタグを作成できます。';
 $string['institutiontagsaved'] = 'インスティテューションタグが保存されました。';
 $string['notags'] = 'このインスティテューションにタグはありません。';
 $string['tag'] = 'タグ';
@@ -884,9 +884,9 @@ $string['adminphpuploaderror'] = 'ファイルアップロードエラーは恐�
 $string['noinputnamesupplied'] = '入力名が提供されていません。';
 $string['cannotrenametempfile'] = '一時ファイルをリネームできません。';
 $string['failedmovingfiletodataroot'] = 'アップロードされたファイルをdatarootに移動できません。';
-$string['youraccounthasbeensuspendedtext2'] = 'あなたの %s のアカウントが %s によって利用停止されました。';
+$string['youraccounthasbeensuspendedtext2'] = 'あなたの %s のアカウントが %s により利用停止されました。';
 $string['youraccounthasbeensuspendedtextcron'] = 'あなたの %s のアカウントが利用停止されました。';
-$string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s のアカウントが %s によって利用停止されました。利用停止理由は次のとおりです:
+$string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s のアカウントが %s により利用停止されました。利用停止理由は次のとおりです:
 
 %s';
 $string['youraccounthasbeensuspendedreasontextcron'] = 'あなたの %s のアカウントが利用停止されました。利用停止理由は次のとおりです:

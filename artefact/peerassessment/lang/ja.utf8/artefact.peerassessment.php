@@ -48,7 +48,7 @@ $string['progress_verify'] = array(
     0 => '%s 確認を他の人の相互評価ページに与える',
 );
 $string['reallydeletethisassessment'] = 'この相互評価を削除する';
-$string['signedoffalertpeermsg'] = 'このページは %s によって承認されました。これ以上、あなたの相互評価を追加、編集または削除できません。あなたがまだ相互評価を仕上げたい場合、%s にご連絡ください。';
+$string['signedoffalertpeermsg'] = 'このページは %s により承認されました。これ以上、あなたの相互評価を追加、編集または削除できません。あなたがまだ相互評価を仕上げたい場合、%s にご連絡ください。';
 $string['thisassessmentisprivate'] = '下書きとして保存されました。';
 $string['typeassessmentfeedback'] = '相互評価';
 $string['verifyassessment'] = '評価を確認する';

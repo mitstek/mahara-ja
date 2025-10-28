@@ -8,4 +8,4 @@ $string['description'] = '埋め込み表示するファイルを選択してく
 $string['flashanimation'] = 'Flashアニメーション';
 $string['media'] = 'メディア';
 $string['title'] = '埋め込みメディア';
-$string['typeremoved'] = 'このブロックは管理者によって許可されていないメディアタイプを指定しています。';
+$string['typeremoved'] = 'このブロックは管理者により許可されていないメディアタイプを指定しています。';
