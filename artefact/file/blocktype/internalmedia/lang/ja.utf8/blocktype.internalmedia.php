@@ -9,7 +9,7 @@ $string['description'] = '埋め込み表示するファイルを選択してく
 $string['flashanimation'] = 'Flashアニメーション';
 $string['media'] = 'メディア';
 $string['title'] = '埋め込みメディア';
-$string['typeremoved'] = 'このブロックは管理者によって許可されていないメディアタイプを指定しています。';
+$string['typeremoved'] = 'このブロックは管理者により許可されていないメディアタイプを指定しています。';
 =======
 /**
  *
@@ -29,7 +29,7 @@ $string['title'] = '埋め込みメディア';
 $string['description'] = '埋め込み表示するファイルを選択してください。';
 $string['media'] = 'メディア';
 $string['flashanimation'] = 'Flashアニメーション';
-$string['typeremoved'] = 'このブロックは管理者によって許可されていないメディアタイプを指定しています。';
+$string['typeremoved'] = 'このブロックは管理者により許可されていないメディアタイプを指定しています。';
 $string['configdesc1'] = 'どのファイルタイプをユーザがこのブロックに埋め込むことができるか設定します。あなたがすでにブロックで使用しているファイルタイプを無効にした場合、表示されないようになります。';
 $string['browsercannotplay1'] = 'あなたのブラウザではこのメディアファイルを再生できません。';
 

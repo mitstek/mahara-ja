@@ -87,10 +87,10 @@ $string['messageaccessfromto1'] = 'あなたは %s から %s の間アクセス�
 $string['messageaccessfrom1'] = 'あなたは %s の後アクセスできます。';
 $string['messageaccessto1'] = 'あなたは %s までアクセスできます。';
 =======
-$string['newcollectionaccessmessage'] = 'あなたはコレクション「 %s 」のアクセスリストに %s によって追加されました。';
-$string['newcollectionaccessmessageviews'] = 'あなたはページ「 %s 」 (コレクション「 %3$s 」) のアクセスリストに %2$s によって追加されました。';
-$string['newviewaccessmessage'] = 'あなたはページ「 %s 」のアクセスリストに %s によって追加されました。';
-$string['newviewaccessmessageviews'] = 'あなたはページ「 %s 」のアクセスリストに %s によって追加されました。';
+$string['newcollectionaccessmessage'] = 'あなたはコレクション「 %s 」のアクセスリストに %s により追加されました。';
+$string['newcollectionaccessmessageviews'] = 'あなたはページ「 %s 」 (コレクション「 %3$s 」) のアクセスリストに %2$s により追加されました。';
+$string['newviewaccessmessage'] = 'あなたはページ「 %s 」のアクセスリストに %s により追加されました。';
+$string['newviewaccessmessageviews'] = 'あなたはページ「 %s 」のアクセスリストに %s により追加されました。';
 $string['newcollectionaccessmessagenoowner'] = 'あなたはコレクション「 %s 」のアクセスリストに追加されました。';
 $string['newcollectionaccessmessagenoownerviews'] = 'あなたはページ「 %s 」 (コレクション「 %s 」) のアクセスリストに追加されました。';
 $string['newviewaccessmessagenoowner'] = 'あなたはページ「 %s 」のアクセスリストに追加されました。';
