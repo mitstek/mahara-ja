@@ -104,12 +104,12 @@ $string['noforumpostsyet'] = 'まだこのグループに投稿はありませ�
 $string['noforums'] = 'このグループにフォーラムはありません。';
 $string['notopics'] = 'このフォーラムにトピックはありません。';
 $string['notifyadministrator'] = '管理者に通知する';
-$string['objectionablepostdeletedsubject'] = 'フォーラムトピック「 %s 」の好ましくない投稿は %s によって削除されました。';
+$string['objectionablepostdeletedsubject'] = 'フォーラムトピック「 %s 」の好ましくない投稿は %s により削除されました。';
 $string['objectionablepostdeletedbody'] = '%s は前に好ましくないコンテンツであると報告された %s による投稿を調査して削除しました。
 
 好ましくない投稿コンテンツは次のとおりです:
 %s';
-$string['objectionabletopicdeletedsubject'] = '好ましくないフォーラムトピック「 %s 」は %s によって削除されました。';
+$string['objectionabletopicdeletedsubject'] = '好ましくないフォーラムトピック「 %s 」は %s により削除されました。';
 $string['objectionabletopicdeletedbody'] = '%s は前に好ましくないコンテンツであると報告された %s によるトピックを調査して削除しました。
 
 好ましくないトピックコンテンツは次のとおりです:
@@ -128,7 +128,7 @@ $string['Poster'] = '投稿者';
 $string['postobjectionable'] = 'この投稿はあなたにより好ましくないコンテンツを含んでいると報告されました。';
 $string['postnotobjectionable'] = 'この投稿は好ましくないコンテンツを含んでいると報告されました。事実とは異なる場合、あなたはボタンをクリックして通知を削除した後、他の管理者に知らせることができます。';
 $string['postnotobjectionablebody'] = '%s は前に好ましくないコンテンツであると報告された %s による投稿を調査してもはや好ましくないコンテンツは含まれていないとマークしました。';
-$string['postnotobjectionablesubject'] = 'フォーラムトピック「 %s 」の投稿は %s によって好ましくない投稿ではないとマークされました。';
+$string['postnotobjectionablesubject'] = 'フォーラムトピック「 %s 」の投稿は %s により好ましくない投稿ではないとマークされました。';
 $string['postnotobjectionablesuccess'] = '投稿が好ましくない投稿ではないとマークされました。';
 $string['postnotobjectionablesubmit'] = '好ましくない投稿ではない';
 $string['postreply'] = '返信';
