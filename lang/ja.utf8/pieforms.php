@@ -74,7 +74,7 @@ $string['switchbox.on'] = 'On';
 $string['switchbox.off'] = 'Off';
 $string['switchbox.yes'] = 'Yes';
 $string['switchbox.no'] = 'No';
-$string['requiredfields'] = '「 %s 」によってマークされたフィールドは必須です。';
+$string['requiredfields'] = '「 %s 」によりマークされたフィールドは必須です。';
 $string['oneoffields'] = '「 %s 」がマークされたフィールドの1つは必須です。';
 
 ?>
