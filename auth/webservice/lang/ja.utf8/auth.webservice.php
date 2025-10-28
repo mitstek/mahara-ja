@@ -51,7 +51,7 @@ $string['youmaynotregisterwithouttandc'] = '<a href="terms.php">利用条件</a>
 $string['control_webservices1'] = 'ウェブサービスを使用する:';
 $string['masterswitch'] = 'ウェブサービスマスタスイッチ';
 $string['protocolswitches'] = 'プロトコルをOnまたはOffに切り替える';
-$string['manage_protocols'] = 'このインストレーションによってサポートされるプロトコルを有効または無効にします:';
+$string['manage_protocols'] = 'このインストレーションによりサポートされるプロトコルを有効または無効にします:';
 $string['protocol'] = 'プロトコル';
 $string['rest'] = 'REST';
 $string['soap'] = 'SOAP';
