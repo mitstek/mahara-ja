@@ -161,7 +161,7 @@ $string['sitefontsmenu'] = 'フォント';
 $string['sitefonts'] = 'フォント';
 $string['sitefontsdescription'] = 'あなたのサイトのスキンで使用するため以下のフォントがインストールされています。';
 $string['installfontinstructions'] = '<p>
-CSS @font-faceルールによってウェブページに埋め込むことのできるフォントを追加します。すべての作者/開発者がこれを許可するわけではないことに留意してください。
+CSS @font-faceルールによりウェブページに埋め込むことのできるフォントを追加します。すべての作者/開発者がこれを許可するわけではないことに留意してください。
 </p>
 <p>
 ウェブページへの埋め込みが許可された適切なフリーフォントを見つけた場合、あなたは次のフォーマットに変換する必要があります:
@@ -200,7 +200,7 @@ $string['bolditalic'] = '太字イタリック';
 $string['fonttype'] = 'フォントタイプ';
 $string['headingandtext'] = 'ヘッディングおよびテキスト';
 $string['headingonly'] = 'ヘッディングのみ';
-$string['fontuploadinstructions'] = '<br>必要なフォントファイルをアップロードする場合、あなたは<a href="https://www.fontsquirrel.com/tools/webfont-generator/">FontSquirrel Online Generator</a>によって生成されたZIPファイルを直接アップロードするか、
+$string['fontuploadinstructions'] = '<br>必要なフォントファイルをアップロードする場合、あなたは<a href="https://www.fontsquirrel.com/tools/webfont-generator/">FontSquirrel Online Generator</a>により生成されたZIPファイルを直接アップロードするか、
 <br>EOT、SVG、TTF、WOFFおよびライセンスファイルを個別にアップロードできます。';
 $string['fontfiles'] = 'フォントファイル';
 $string['fontfilemissing'] = 'ZIPファイルに「 %s 」フォントファイルが含まれていません。';
