@@ -214,7 +214,7 @@ $string['reportdesccompletionverification'] = '<ul>
 <li>レビュアがポートフォリオにアクセスできるようになった日付</li>
 <li>レビュアがポートフォリオの主ステートメントを承認した日付</li>
 <li>レビュアがポートフォリオへの自分のアクセスを削除した日付</li>
-<li>レビュアのポートフォリオへのアクセスがシステムによって削除された日付</li>
+<li>レビュアのポートフォリオへのアクセスがシステムにより削除された日付</li>
 <li>個人ごとのポートフォリオごと完了パーセンテージ</li>';
 $string['reportportfolioswithverifiers'] = 'レビュアありポートフォリオ';
 $string['reportdescportfolioswithverifiers'] = '<ul>
