@@ -50,7 +50,7 @@ $string['feedbacknotificationtext1'] = '%s が相互評価を追加しました 
 %s';
 $string['typeassessmentfeedback'] = '相互評価';
 $string['nopeerassessmentrequired'] = '相互評価を必要としないためあなたはこのページでコンテンツを閲覧できません。';
-$string['signedoffalertpeermsg'] = 'このページは %s によって承認されました。これ以上、あなたの相互評価を追加、編集または削除できません。あなたがまだ相互評価を仕上げたい場合、%s にご連絡ください。';
+$string['signedoffalertpeermsg'] = 'このページは %s により承認されました。これ以上、あなたの相互評価を追加、編集または削除できません。あなたがまだ相互評価を仕上げたい場合、%s にご連絡ください。';
 $string['placeassessment'] = '評価を入力する';
 $string['verifyassessment'] = '評価を確認する';
 $string['progress_peerassessment'] = '%s 相互評価をページに追加する';
