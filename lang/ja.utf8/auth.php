@@ -73,8 +73,8 @@ $string['xmlrpccouldnotlogyouindetail'] = '申し訳ございません、今回�
 $string['requiredfields'] = '必須プロファイルフィールド';
 $string['requiredfieldsset'] = '必須プロファイルフィールドセット';
 $string['noauthpluginconfigoptions'] = 'このプラグインに関する設定オプションはありません。';
-$string['hostwwwrootinuse'] = 'すでに別のインスティテューション (%s) によってWWWルートが使用されています。';
-$string['duplicateremoteusername'] = '外部認証ユーザ名はすでにユーザ %s によって使用されています。外部認証ユーザ名は認証方法内でユニークである必要があります。';
+$string['hostwwwrootinuse'] = 'すでに別のインスティテューション (%s) によりWWWルートが使用されています。';
+$string['duplicateremoteusername'] = '外部認証ユーザ名はすでにユーザ %s により使用されています。外部認証ユーザ名は認証方法内でユニークである必要があります。';
 $string['duplicateremoteusernameformerror'] = '外部認証ユーザ名は認証方法内でユニークである必要があります。';
 $string['cannotjumpasmasqueradeduser'] = '別のユーザとして代理ログインしているためあなたは他のアプリケーションにジャンプできません。';
 

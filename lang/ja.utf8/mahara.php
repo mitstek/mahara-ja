@@ -546,8 +546,8 @@ $string['phpuploaderror_6'] = '一時フォルダがありません。';
 $string['phpuploaderror_7'] = 'ファイルのディスク書き込みに失敗しました。ファイルのディスク書き込みに失敗しました。あなたのファイルシステムでMaharaデータルートおよびPHP「upload_tmp_dir」ディレクトリへの書き込みに十分なスペースがあるか確認してください。';
 $string['phpuploaderror_8'] = 'ファイルアップロードは拡張子が原因で中止されました。';
 $string['adminphpuploaderror'] = 'ファイルアップロードエラーは恐らくあなたのサーバ設定を原因としています。';
-$string['youraccounthasbeensuspendedtext2'] = 'あなたの %s のアカウントが %s によって利用停止されました。';
-$string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s のアカウントが %s によって利用停止されました。利用停止理由は次のとおりです:
+$string['youraccounthasbeensuspendedtext2'] = 'あなたの %s のアカウントが %s により利用停止されました。';
+$string['youraccounthasbeensuspendedreasontext'] = 'あなたの %s のアカウントが %s により利用停止されました。利用停止理由は次のとおりです:
 
 %s';
 $string['youraccounthasbeenunsuspendedtext2'] = 'あなたの %s のアカウントの利用停止が解除されました。あなたは再度ログインしてこのサイトを利用できます。';
