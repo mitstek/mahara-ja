@@ -400,7 +400,7 @@ $string['reportobjectionablematerial'] = '報告';
 $string['reportpost'] = '投稿報告';
 $string['reportpostsuccess'] = '投稿が正常に報告されました。';
 $string['sendnow'] = '今すぐメッセージを送信する';
-$string['sendnowdescription'] = '送信に少なくとも %s 分待つのではなく、すぐにメッセージを送信します。';
+$string['sendnowdescription'] = '少なくとも %s 分間送信を待機する代わりにメッセージをすぐに送信します。';
 <<<<<<< HEAD
 $string['stickydescription'] = 'スティッキトピックはすべてのページの再上部に表示されます。';
 $string['stickytopics'] = 'スティッキートピック';
