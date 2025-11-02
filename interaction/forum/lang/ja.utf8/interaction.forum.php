@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-10-28 20:45:49 UTC
+ * @updated    2025-11-02 19:25:17 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -193,7 +193,7 @@ $string['reportobjectionablematerial'] = '報告';
 $string['reportpost'] = '投稿報告';
 $string['reportpostsuccess'] = '投稿が正常に報告されました。';
 $string['sendnow'] = '今すぐメッセージを送信する';
-$string['sendnowdescription'] = '送信に少なくとも %s 分待つのではなく、すぐにメッセージを送信します。';
+$string['sendnowdescription'] = '少なくとも %s 分間送信を待機する代わりにメッセージをすぐに送信します。';
 $string['Sticky'] = 'スティッキ';
 $string['stickydescription'] = 'スティッキトピックはすべてのページの再上部に表示されます。';
 $string['stickytopics'] = 'スティッキートピック';
