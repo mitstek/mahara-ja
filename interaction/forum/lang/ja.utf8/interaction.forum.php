@@ -427,7 +427,7 @@ $string['topiclower'] = 'トピック';
 $string['topicslower'] = 'トピック';
 >>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['topicclosedsuccess'] = 'トピックが正常にクローズされました。';
-$string['topicisclosed'] = 'このトピックはクローズされました。モデレータおよびグループ管理者のみ新しい返信を投稿できます。';
+$string['topicisclosed'] = 'このトピックはクローズされています。モデレータおよびグループ管理者のみ新しい返信を投稿できます。';
 $string['topiclower'] = 'トピック';
 $string['topicmovedsuccess'] = array(
     0 => '%d トピックが正常に移動されました。',
