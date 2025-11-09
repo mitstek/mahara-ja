@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-11-04 20:29:24 UTC
+ * @updated    2025-11-09 20:08:53 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -208,7 +208,7 @@ $string['topiclower'] = 'トピック';
 $string['topicslower'] = 'トピック';
 $string['ntopicslower'] = '%s トピック';
 $string['topicclosedsuccess'] = 'トピックが正常にクローズされました。';
-$string['topicisclosed'] = 'このトピックはクローズされました。モデレータおよびグループ管理者のみ新しい返信を投稿できます。';
+$string['topicisclosed'] = 'このトピックはクローズされています。モデレータおよびグループ管理者のみ新しい返信を投稿できます。';
 $string['topicopenedsuccess'] = 'トピックが正常にオープンされました。';
 $string['topicstickysuccess'] = 'トピックが正常にスティッキ設定されました。';
 $string['topicsubscribesuccess'] = 'トピックが正常に購読されました。';
