@@ -60,7 +60,7 @@ $string['settings_logoutendpoint_default'] = 'トークンのヒントでログ�
 <br>\\r
 例: https://mahara.example/auth/saml/sp/module.php/oidc/logout.php';
 $string['settings_maharascope'] = '「mahara」スコープを使用する';
-$string['settings_maharascope_description'] = '「mahara」スコープを使用する場合、アイデンティティプロバイダはこのスコープを受け入れた上で、私たちが以下で照合するインスティテューションに対するクレームを返す必要があります。';
+$string['settings_maharascope_description'] = '「mahara」スコープを使用する場合、アイデンティティプロバイダはこのスコープを受け入れた上で私たちが以下で照合するインスティテューションに対するクレームを返す必要があります。';
 $string['settings_resource'] = 'リソース';
 $string['settings_resource_default'] = 'イシュア名<br>例: https://mahara.example/';
 $string['settings_title'] = 'インスタンス名';
