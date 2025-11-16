@@ -13,4 +13,4 @@ $string['noprofilesselectone'] = 'プロファイルアイテムが選択され�
 $string['showsocialprofiles'] = '選択したソーシャルメディアアカウントを表示する';
 $string['title'] = 'プロファイル情報';
 $string['uploadaprofileicon'] = 'あなたにはプロファイル画像がありません。<a href="%sartefact/file/profileicons.php">アップロードしてください</a>。';
-$string['useintroductioninstead'] = 'このフィールドを空白のまま有効にすることで、あなたの「自己紹介」プロファイルフィールドを代わりに使用できます。';
+$string['useintroductioninstead'] = 'このフィールドを空白のまま有効にした場合、あなたの「自己紹介」プロファイルフィールドを代わりに使用できます。';
