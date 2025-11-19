@@ -37,7 +37,7 @@ $string['chooseanaction'] = '処理を選択する';
 $string['clicksetsubject'] = '件名を設定するにはここをクリックしてください。';
 $string['Closed'] = '閉鎖';
 $string['Close'] = 'クローズ';
-$string['closeddescription'] = '閉鎖トピックではモデレータおよびグループ管理者のみ返信できます。';
+$string['closeddescription'] = 'クローズ済みトピックではモデレータおよびグループ管理者のみ返信できます。';
 $string['Count'] = 'カウント';
 $string['createtopicusersdescription'] = '「すべてのグループメンバ」を設定した場合、誰でも新しいトピックを作成および既存のトピックに返信できます。「モデレータおよびグループ管理者のみ」を設定した場合、モデレータおよびグループ管理者のみ新しいトピックを開始できます。しかし、「モデレータおよびグループ管理者のみ」を設定してトピックが存在する場合、すべてのユーザが返信できます。';
 $string['currentmoderators'] = '現在のモデレータ';
@@ -166,7 +166,7 @@ $string['indentmodedescription'] = 'このフォーラム内のトピックを�
 $string['maxindent'] = '最大インデントレベル';
 $string['maxindentdescription'] = 'トピックの最大インデントレベルを設定してください。この設定はインデントモードが「最大まで広げる」に設定された場合のみ適用されます。';
 $string['closetopics'] = '新しいトピックをクローズする';
-$string['closetopicsdescription'] = 'この設定を有効にした場合、このフォーラム内の新しいトピックがデフォルトでクローズされます。モデレータおよびグループ管理者のみ閉鎖トピックに返信できます。';
+$string['closetopicsdescription'] = 'この設定を有効にした場合、このフォーラム内の新しいトピックがデフォルトでクローズされます。モデレータおよびグループ管理者のみクローズ済みトピックに返信できます。';
 $string['activetopicsdescription'] = 'あなたのグループ内で最近更新されたトピックです。';
 $string['timeleftnotice'] = 'あなたには編集を終了するまで %s 分あります。';
 
