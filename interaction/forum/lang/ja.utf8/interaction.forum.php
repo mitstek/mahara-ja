@@ -245,7 +245,7 @@ $string['approvalofposts'] = '投稿の承認';
 $string['moderatenewposts'] = '新しい投稿をモデレートする';
 $string['moderatenewpostsdescription1'] = '新しい投稿はフォーラムモデレータまたは管理者により承認される必要があります。';
 $string['activetopicsdescription'] = 'あなたのグループ内で最近更新されたトピックです。';
-$string['timeleftnotice1'] = 'あなたには編集を終了するまで <span class="num">%s</span> 分あります。';
+$string['timeleftnotice1'] = 'あなたには編集を終了するまで残り <span class="num">%s</span> 分あります。';
 $string['timeleftnoticeexpired'] = '編集時間が終了しました。あなたの変更は保存されません。';
 $string['timeleftnoticeexpiredmoderator'] = 'あなたの変更は編集通知とともに保存されます。';
 $string['objectionablecontentpost'] = 'フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者: %s';
