@@ -408,7 +408,7 @@ $string['strftimerecentfullrelative'] = '%%v - %%H:%%M';
 $string['strftimerecentrelative'] = '%%v - %%H:%%M';
 $string['subscribetoforum'] = 'フォーラムを購読する';
 $string['subscribetotopic'] = 'トピックを購読する';
-$string['timeleftnotice1'] = 'あなたには編集を終了するまで <span class="num">%s</span> 分あります。';
+$string['timeleftnotice1'] = 'あなたには編集を終了するまで残り <span class="num">%s</span> 分あります。';
 $string['timeleftnoticeexpired'] = '編集時間が終了しました。あなたの変更は保存されません。';
 $string['timeleftnoticeexpiredmoderator'] = 'あなたの変更は編集通知とともに保存されます。';
 $string['today'] = '今日';
@@ -481,7 +481,7 @@ $string['maxindentdescription'] = 'トピックの最大インデントレベル
 $string['closetopics'] = '新しいトピックをクローズする';
 $string['closetopicsdescription1'] = 'すべての新しいトピックをデフォルトでクローズします。モデレータおよびグループ管理者のみクローズ済みトピックに返信できます。';
 $string['activetopicsdescription'] = 'あなたのグループ内で最近更新されたトピックです。';
-$string['timeleftnotice'] = 'あなたには編集を終了するまで %s 分あります。';
+$string['timeleftnotice'] = 'あなたには編集を終了するまで残り %s 分あります。';
 $string['objectionablecontentpost'] = 'フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者: %s';
 $string['objectionablecontentposthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者:%s
 <br>%s</div>
