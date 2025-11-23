@@ -197,7 +197,7 @@ $string['maxindentdescription'] = 'トピックの最大インデントレベル
 $string['closetopics'] = '新しいトピックをクローズする';
 $string['closetopicsdescription1'] = 'すべての新しいトピックをデフォルトでクローズします。モデレータおよびグループ管理者のみクローズ済みトピックに返信できます。';
 $string['activetopicsdescription'] = 'あなたのグループ内で最近更新されたトピックです。';
-$string['timeleftnotice1'] = 'あなたには編集を終了するまで <span class="num">%s</span> 分あります。';
+$string['timeleftnotice1'] = 'あなたには編集を終了するまで残り <span class="num">%s</span> 分あります。';
 $string['timeleftnoticeexpired'] = '編集時間が終了しました。あなたの変更は保存されません。';
 $string['timeleftnoticeexpiredmoderator'] = 'あなたの変更は編集通知とともに保存されます。';
 $string['objectionablecontentpost'] = 'フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者: %s';
