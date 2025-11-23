@@ -317,7 +317,7 @@ $string['strftimerecentfullrelative'] = '%%v - %%H:%%M';
 $string['strftimerecentrelative'] = '%%v - %%H:%%M';
 $string['subscribetoforum'] = 'フォーラムを購読する';
 $string['subscribetotopic'] = 'トピックを購読する';
-$string['timeleftnotice1'] = 'あなたには編集を終了するまで <span class="num">%s</span> 分あります。';
+$string['timeleftnotice1'] = 'あなたには編集を終了するまで残り <span class="num">%s</span> 分あります。';
 $string['timeleftnoticeexpired'] = '編集時間が終了しました。あなたの変更は保存されません。';
 $string['timeleftnoticeexpiredmoderator'] = 'あなたの変更は編集通知とともに保存されます。';
 $string['today'] = '今日';
