@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-11-23 19:29:19 UTC
+ * @updated    2025-11-25 19:43:43 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -249,7 +249,7 @@ $string['moderatenewpostsdescription1'] = '新しい投稿はフォーラムモ�
 $string['activetopicsdescription'] = 'あなたのグループ内で最近更新されたトピックです。';
 $string['timeleftnotice1'] = 'あなたには編集を終了するまで残り <span class="num">%s</span> 分あります。';
 $string['timeleftnoticeexpired'] = '編集時間が終了しました。あなたの変更は保存されません。';
-$string['timeleftnoticeexpiredmoderator'] = 'あなたの変更は編集通知とともに保存されます。';
+$string['timeleftnoticeexpiredmoderator'] = 'あなたの変更は編集通知付きで保存されます。';
 $string['objectionablecontentpost'] = 'フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者: %s';
 $string['objectionablecontentposthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">フォーラムトピック「 %s 」の好ましくないコンテンツ - 報告者:%s
 <br>%s</div>
