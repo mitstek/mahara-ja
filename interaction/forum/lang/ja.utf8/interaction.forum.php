@@ -285,9 +285,9 @@ $string['objectionablecontentposttext'] = 'フォーラムトピック「 %s 」
 %s';
 $string['postsandreplies'] = '投稿および返信';
 $string['postneedapprovalsubject'] = 'フォーラム「 %s 」の新しい投稿にモデレーションが必要です。';
-$string['postneedapprovalbody'] = '%s がフォーラム「 %s 」に投稿してモデレーションを待っています。
+$string['postneedapprovalbody'] = '%s がフォーラム「 %s 」に投稿しました。モデレーション待ちです。
 
-投稿のコンテンツは次のとおりです:
+投稿コンテンツは次のとおりです::
 %s';
 $string['postneedapprovalhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」によるフォーラム「 %s 」での新しい投稿にモデレーションが必要です。
 
