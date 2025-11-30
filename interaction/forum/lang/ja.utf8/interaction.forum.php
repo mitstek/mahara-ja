@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-11-25 19:43:43 UTC
+ * @updated    2025-11-30 15:27:25 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -286,9 +286,9 @@ $string['objectionablecontentposttext'] = 'フォーラムトピック「 %s 」
 %s';
 $string['postsandreplies'] = '投稿および返信';
 $string['postneedapprovalsubject'] = 'フォーラム「 %s 」の新しい投稿にモデレーションが必要です。';
-$string['postneedapprovalbody'] = '%s がフォーラム「 %s 」に投稿してモデレーションを待っています。
+$string['postneedapprovalbody'] = '%s がフォーラム「 %s 」に投稿しました。モデレーション待ちです。
 
-投稿のコンテンツは次のとおりです:
+投稿コンテンツは次のとおりです:
 %s';
 $string['postneedapprovalhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」によるフォーラム「 %s 」での新しい投稿にモデレーションが必要です。
 
