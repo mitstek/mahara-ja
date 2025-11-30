@@ -219,9 +219,9 @@ $string['postbyuserwasdeleted'] = '%s による投稿が削除されました。
 $string['postdelay'] = '投稿遅延';
 $string['postdelaydescription'] = '新しい投稿が購読者に送信される前に経過する必要のある最小時間 (分) です。投稿者はこの時間内に投稿内容を編集できます。';
 $string['postedin'] = '%s が %s に投稿しました。';
-$string['postneedapprovalbody'] = '%s がフォーラム「 %s 」に投稿してモデレーションを待っています。
+$string['postneedapprovalbody'] = '%s がフォーラム「 %s 」に投稿しました。モデレーション待ちです。
 
-投稿のコンテンツは次のとおりです:
+投稿コンテンツは次のとおりです::
 %s';
 $string['postneedapprovalhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」によるフォーラム「 %s 」での新しい投稿にモデレーションが必要です。
 
