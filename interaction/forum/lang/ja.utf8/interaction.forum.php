@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-11-30 15:27:25 UTC
+ * @updated    2025-12-02 15:01:14 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -290,7 +290,7 @@ $string['postneedapprovalbody'] = '%s がフォーラム「 %s 」に投稿し�
 
 投稿コンテンツは次のとおりです:
 %s';
-$string['postneedapprovalhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」によるフォーラム「 %s 」での新しい投稿にモデレーションが必要です。
+$string['postneedapprovalhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」によるフォーラム「 %s 」の新しい投稿にモデレーションが必要です。
 
 <div style="padding: 0.5em 0; border-bottom: 1px solid #999;">投稿コンテンツは次のとおりです:
 <br>%s</div>
@@ -300,7 +300,7 @@ $string['postneedapprovalhtml'] = '<div style="padding: 0.5em 0; border-bottom: 
 <div style="font-size: smaller; border-top: 1px solid #999;">
 <p>投稿者: <a href="%s">%s</a></p>
 </div>';
-$string['postneedapprovaltext'] = '「 %s 」によるフォーラム「 %s 」での新しい投稿にモデレーションが必要です。
+$string['postneedapprovaltext'] = '「 %s 」によるフォーラム「 %s 」の新しい投稿にモデレーションが必要です。
 %s
 ------------------------------------------------------------------------
 
