@@ -288,7 +288,7 @@ $string['postneedapprovalbody'] = '%s がフォーラム「 %s 」に投稿し�
 
 投稿コンテンツは次のとおりです::
 %s';
-$string['postneedapprovalhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」によるフォーラム「 %s 」での新しい投稿にモデレーションが必要です。
+$string['postneedapprovalhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」によるフォーラム「 %s 」の新しい投稿にモデレーションが必要です。
 
 <div style="padding: 0.5em 0; border-bottom: 1px solid #999;">投稿コンテンツは次のとおりです:
 <br>%s</div>
@@ -298,7 +298,7 @@ $string['postneedapprovalhtml'] = '<div style="padding: 0.5em 0; border-bottom: 
 <div style="font-size: smaller; border-top: 1px solid #999;">
 <p>投稿者: <a href="%s">%s</a></p>
 </div>';
-$string['postneedapprovaltext'] = '「 %s 」によるフォーラム「 %s 」での新しい投稿にモデレーションが必要です。
+$string['postneedapprovaltext'] = '「 %s 」によるフォーラム「 %s 」の新しい投稿にモデレーションが必要です。
 %s
 ------------------------------------------------------------------------
 
