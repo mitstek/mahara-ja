@@ -36,7 +36,7 @@ $string['changepassworddesc'] = '新しいパスワード';
 $string['changepasswordotherinterface'] = 'あなたは異なるインタフェースで<a href="%s">パスワードを変更できます</a>。';
 $string['changeprofileurl'] = 'プロファイルURLを変更する';
 $string['changeusername'] = '新しいユーザ名';
-$string['changeusernamedesc'] = 'あなたが %s へのログインに使用するユーザ名です。ユーザ名の長さは半角3-30文字にしてください。ユーザ名には空白を除く半角英数字および標準的な記号を使用できます。';
+$string['changeusernamedesc'] = 'あなたが %s へのログインに使用するユーザ名です。ユーザ名の長さは半角3-30文字にしてください。ユーザ名には空白を除く半角英数字および一般的な記号を使用できます。';
 $string['changeusernameheading'] = 'ユーザ名を変更する';
 $string['deleteaccountdescription'] = 'あなたのアカウントを削除した場合、あなたのすべてのコンテンツは完全に削除されます。あなたは元に戻せません。あなたのプロファイル情報およびポートフォリオは他の人が閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧できますが投稿者名が表示されないようになります。';
 $string['deleteaccountuser'] = '%s のアカウントを削除する';
@@ -70,7 +70,7 @@ $string['changepasswordotherinterface'] = 'あなたは異なるインタフェ�
 $string['oldpasswordincorrect'] = 'これはあなたの現在のパスワードではありません。';
 $string['changeusernameheading'] = 'ユーザ名を変更する';
 $string['changeusername'] = '新しいユーザ名';
-$string['changeusernamedesc'] = 'あなたが %s へのログインに使用するユーザ名です。ユーザ名の長さは半角3-30文字にしてください。ユーザ名には空白を除く半角英数字および標準的な記号を使用できます。';
+$string['changeusernamedesc'] = 'あなたが %s へのログインに使用するユーザ名です。ユーザ名の長さは半角3-30文字にしてください。ユーザ名には空白を除く半角英数字および一般的な記号を使用できます。';
 $string['usernameexists1'] = 'あなたはこのユーザ名を使用できません。別のユーザ名を選択してください。';
 $string['accountoptionsdesc'] = '一般アカウントオプション';
 $string['changeprofileurl'] = 'プロファイルURLを変更する';
