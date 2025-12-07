@@ -71,8 +71,8 @@ $string['registeredemailmessagehtml'] = '<p>%s さん</p>
 $string['registeredok'] = '<p>あなたは正常に登録されました。あなたのアカウントを有効化するためのインストラクションをメールアカウントでご確認ください。</p>';
 $string['registrationnosuchkey'] = '申し訳ございません、このキーでの登録はできないようです。恐らく、あなたが登録を完了するため24時間以上待機していたと思われます。そうでない場合、これは私たちに責任があります。';
 $string['registrationunsuccessful'] = '申し訳ございません、あなたの登録は正常に完了しませんでした。これはあなたではなく、私たちに責任があります。後ほど再度お試しください。';
-$string['usernameinvalidform'] = 'ユーザ名には空白を除く半角英数字および標準的な記号を使用できます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
-$string['usernameinvalidadminform'] = 'ユーザ名には空白を除く半角英数字および標準的な記号を使用できます。また、ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
+$string['usernameinvalidform'] = 'ユーザ名には空白を除く半角英数字および一般的な記号を使用できます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
+$string['usernameinvalidadminform'] = 'ユーザ名には空白を除く半角英数字および一般的な記号を使用できます。また、ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
 $string['youmaynotregisterwithouttandc'] = '<a href="terms.php">利用条件</a>に従うことに同意しない限り、あなたは登録できません。';
 $string['pluginconnections'] = '接続オブジェクト';
 $string['nodefinedconnections'] = 'プラグインで定義されているウェブサービス接続はありません。最初に接続を定義してください。';
