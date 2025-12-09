@@ -75,7 +75,7 @@ $string['usernameexists1'] = 'あなたはこのユーザ名を使用できま�
 $string['accountoptionsdesc'] = '一般アカウントオプション';
 $string['changeprofileurl'] = 'プロファイルURLを変更する';
 $string['profileurl'] = 'プロファイルURL';
-$string['profileurldescription'] = 'あなたのプロファイルページの独自URLです。このフィールドの長さは半角3-30文字にしてください。';
+$string['profileurldescription'] = 'あなたのプロファイルページの専用URLです。このフィールドの長さは半角3-30文字にしてください。';
 $string['urlalreadytaken'] = 'このプロファイルURLはすでに取得されています。別のURLを選択してください。';
 $string['friendsnobody'] = '誰も私をフレンドとして追加できません。';
 $string['friendsauth'] = '新しいフレンドになるには私の承認が必要です。';
@@ -133,7 +133,7 @@ $string['pendingdeletionsince'] = '%s 以来のアカウント削除保留';
 $string['prefsnotsaved'] = 'あなたのプレファレンスの保存に失敗しました。';
 $string['prefssaved'] = 'プレファレンスが保存されました。';
 $string['profileurl'] = 'プロファイルURL';
-$string['profileurldescription'] = 'あなたのプロファイルページの独自URLです。このフィールドの長さは半角3-30文字にしてください。';
+$string['profileurldescription'] = 'あなたのプロファイルページの専用URLです。このフィールドの長さは半角3-30文字にしてください。';
 $string['resenddeletionadminemailhtml'] = '<p>管理者さん、こんにちは。</p>
 <p>これは %s によるサイトからのアカウント削除リクエストに関するリマインダです。</p>
 <p>あなたはこの人が属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定できます。これを実行するには次のリンクにアクセスしてください: <a href=\'%s\'>%s</a></p>
