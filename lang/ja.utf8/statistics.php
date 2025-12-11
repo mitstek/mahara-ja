@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-11-26 16:03:55 UTC
+ * @updated    2025-12-11 09:56:20 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -50,6 +50,7 @@ $string['numberofblocks'] = 'ブロック合計数';
 $string['portfolios'] = 'ポートフォリオ';
 $string['allowanonymouspages'] = '匿名ページ許可';
 $string['allowpublicviews'] = 'パブリックポートフォリオ許可';
+$string['allowsecreturls'] = 'シークレットURL許可';
 $string['numberofpages'] = 'ポートフォリオページ';
 $string['numberofcollections'] = 'ポートフォリオコレクション';
 $string['numberofsecollections'] = 'スマートエビデンスコレクション';

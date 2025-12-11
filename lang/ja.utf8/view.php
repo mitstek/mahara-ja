@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-29 04:06:19 UTC
+ * @updated    2025-12-11 10:11:36 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -163,7 +163,11 @@ $string['secreturlupdated'] = 'シークレットURLが更新されました。'
 $string['generatesecreturl'] = '「 %s 」の新しいシークレットURLを生成します。';
 $string['secreturls'] = 'シークレットURL';
 $string['existingURLS'] = '既存のURL';
-$string['publicaccessnotallowed'] = 'あなたのインスティテューションまたはサイト管理者がパブリックページおよびシークレットURLを無効にしました。あなたがここで閲覧できるシークレットURL一覧すべては現在休止中です。';
+$string['publicaccessandsecreturlnotallowed'] = 'あなたのインスティテューションまたはサイト管理者はパブリックポートフォリオおよびシークレットURLを無効にしています。';
+$string['existingsecreturlsnotavailable'] = 'ここに一覧表示されているあなたのシークレットURLは現在無効です。';
+$string['existingpublicaccessnotavailable'] = 'あなたの公開されているポートフォリオにはアクセスできなくなりました。';
+$string['secreturlnotallowed'] = 'あなたのインスティテューションまたはサイト管理者はパブリックポートフォリオおよびシークレットURLを無効にしています。';
+$string['publicaccessnotallowed1'] = 'あなたのインスティテューションまたはサイト管理者はパブリックポートフォリオを無効にしています。';
 $string['publicaccessnotallowedforprobation'] = '申し訳ございません、新しく登録された人はシークレットURLの作成を許可されていません。';
 $string['copyingsecreturl'] = 'シークレットURLをクリップボードにコピーしました。';
 $string['inviteusertojoingroup'] = 'この人をグループへの参加に招待する';

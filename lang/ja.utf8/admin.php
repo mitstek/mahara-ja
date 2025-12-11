@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-10-31 00:27:25 UTC
+ * @updated    2025-12-11 09:55:08 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -371,8 +371,12 @@ $string['adminsandstaffonly'] = '管理者およびスタッフのみ';
 $string['advanced'] = '高度';
 $string['allowpublicviews1'] = 'パブリックポートフォリオを許可する';
 $string['allowpublicviewsdescription2'] = '人は登録済みの人のみではなく、外部からもアクセスできるポートフォリオを作成できます。';
+$string['allowsecreturls'] = 'シークレットURLを許可する';
+$string['allowsecreturlsdescription'] = 'ポートフォリオ作成者はアカウントなしの人とシークレットURL経由でポートフォリオを共有できます。';
 $string['allowinstitutionpublicviews2'] = 'パブリックインスティテューションポートフォリオ';
 $string['allowinstitutionpublicviewsdescription3'] = '登録済みの人のみではなく、外部からもアクセスできるポートフォリオをインスティテューションメンバが作成できるようにします。';
+$string['allowinstitutionsecreturls'] = 'シークレットURL';
+$string['allowinstitutionsecreturlsdescription'] = 'インスティテューションメンバがシークレットURL経由でポートフォリオを共有できるようにします。';
 $string['allowpeersviewcontent1'] = 'ピアはポートフォリオコンテンツを閲覧できる';
 $string['allowpeersviewcontentdescription'] = 'ポートフォリオで「ピア」ロールが割り当てられたユーザがポートフォリオのコンテンツすべてを閲覧できるようにします。';
 $string['allowinstitutionsmartevidence1'] = 'スマートエビデンス';
