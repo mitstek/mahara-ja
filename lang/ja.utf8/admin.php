@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-12-11 09:55:08 UTC
+ * @updated    2025-12-12 05:12:43 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1498,6 +1498,7 @@ $string['cli_inactive_quota_percent'] = 'クオータ使用量パーセンテー
 $string['cli_auth_method_info'] = 'あなたはこのコマンドラインPHPスクリプトでアカウント認証方法を一括更新できます。';
 $string['cli_auth_method_from'] = '切り替え元アカウント認証方法ID';
 $string['cli_auth_method_to'] = '切り替え先アカウント認証方法ID';
+$string['cli_auth_method_default_remote'] = '欠落しているリモート名をアカウントユーザ名に設定する';
 $string['cli_auth_method_list'] = '利用可能な認証方法を一覧表示する';
 $string['cli_auth_method_skip'] = '更新時に問題のあるアカウントをスキップして最後にプリントアウトする';
 $string['cli_auth_method_auth_ids_required'] = 'あなたは認証方法に「from」IDおよび「to」IDの両方を指定する必要があります。';
