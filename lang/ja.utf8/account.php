@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-12-09 15:27:52 UTC
+ * @updated    2025-12-14 22:01:17 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -26,7 +26,7 @@ $string['profileurl'] = 'プロファイルURL';
 $string['profileurldescription'] = 'あなたのプロファイルページの専用URLです。このフィールドの長さは半角3-30文字にしてください。';
 $string['urlalreadytaken'] = 'このプロファイルURLはすでに取得されています。別のURLを選択してください。';
 $string['friendsnobody'] = '誰も私をフレンドとして追加できません。';
-$string['friendsauth'] = '新しいフレンドになるには私の承認が必要です。';
+$string['friendsauth'] = '新しいフレンドは私の承認が必要です。';
 $string['friendsauto'] = '新しいフレンドは自動的に承認されます。';
 $string['friendsdescr'] = 'フレンドコントロール';
 $string['updatedfriendcontrolsetting'] = 'フレンドコントロールが更新されました。';
