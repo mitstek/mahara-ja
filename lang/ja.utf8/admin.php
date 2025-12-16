@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-12-12 05:12:43 UTC
+ * @updated    2025-12-16 10:56:08 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -743,15 +743,15 @@ $string['uploadgroupcsverroropenrequest'] = '%s 行目: オープンメンバシ
 $string['uploadgroupcsverrorviewnotifyrequest'] = '%s 行目: viewnotifyの値は %s-%s の間の数字にしてください。';
 $string['uploadgroupcsverrordoesnotallowgroupcategory1'] = '%s 行目: このサイトではグループカテゴリを許可していません。あなたがグループカテゴリを使用したい場合、サイト管理者は「管理エリア → グループ → グループカテゴリ」で有効にできます。';
 $string['uploadgroupcsverrorcategorydoesnotexist'] = '%s 行目: カテゴリ「 %s 」が存在しません。';
-$string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいグループをアップロードできます。</p>
+$string['uploadgroupcsvpagedescription3'] = '<p>このページを使用して<acronym title="Comma Separated Values">CSV</acronym>ファイルで新しいグループをアップロードできます。</p>
 
-<p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば以下のようになります:</p>
+<p>あなたのCSVファイルの先頭行にはデータのフォーマットを記述してください。必須フィールドは以下のとおりです:</p>
 
-<pre>shortname,displayname,roles</pre>
+<pre>shortname,displayname,roles</pre
 
-<p>この先頭行には<tt>shortname</tt>、<tt>displayname</tt>および<tt>roles</tt>フィールドを含んでください。</p>
+<p>それぞれの「shortname」の長さは半角2-255文字にしてください。「shortname」には半角英数字小文字、「.」、「-」および「_」を使用できます。</p>
 
-<p>rolesフィールドには以下の設定値を含めます: %s</p>
+<p>「roles」フィールドには以下の設定値を含めます: %s</p>
 
 %s
 
