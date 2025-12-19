@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-12-16 10:56:08 UTC
+ * @updated    2025-12-19 07:18:45 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1488,6 +1488,7 @@ $string['cli_no_inactive_users'] = 'ログインしたユーザはいません (
 $string['cli_inactive_done'] = 'レビューー完了';
 $string['cli_inactive_id'] = 'Mahara ID';
 $string['cli_inactive_username'] = 'ユーザ名';
+$string['cli_inactive_ctime'] = '作成';
 $string['cli_inactive_lastlogin'] = '最終ログイン';
 $string['cli_inactive_only_dashboard_profile'] = 'デフォルトページのみ';
 $string['cli_inactive_new_pages'] = '時間間隔の新しいポートフォリオ';
