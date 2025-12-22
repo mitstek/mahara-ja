@@ -49,7 +49,7 @@ $string['friendsauto'] = '新しいフレンドは自動的に承認されます
 $string['friendsdescr'] = 'フレンドコントロール';
 $string['friendsnobody'] = '誰も私をフレンドとして追加できません。';
 $string['hiderealname'] = '実名を秘匿する';
-$string['hiderealnamedescription'] = 'あなたが表示名を設定した場合、そしてあなたの実名検索により他の人から自分を探されたくない場合、このチェックボックスをチェックしてください。';
+$string['hiderealnamedescription'] = 'あなたが表示名を設定した場合、そして実名検索で他の人から自分を探されたくない場合、このチェックボックスをチェックしてください。';
 =======
 /**
  *
