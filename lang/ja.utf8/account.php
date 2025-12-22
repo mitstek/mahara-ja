@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-12-14 22:01:17 UTC
+ * @updated    2025-12-22 00:57:55 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -44,7 +44,7 @@ $string['tagssideblockmaxtagsdescription'] = 'あなたのタグクラウドに�
 $string['enablemultipleblogs1'] = '複数日誌';
 $string['enablemultipleblogsdescription1'] = 'デフォルトではあなたは1つの日誌のみ作成できます。2つ以上の日誌を作成したい場合、このオプションを有効にしてください。';
 $string['hiderealname'] = '実名を秘匿する';
-$string['hiderealnamedescription'] = 'あなたが表示名を設定した場合、そしてあなたの実名検索により他の人から自分を探されたくない場合、このチェックボックスをチェックしてください。';
+$string['hiderealnamedescription'] = 'あなたが表示名を設定した場合、そして実名検索で他の人から自分を探されたくない場合、このチェックボックスをチェックしてください。';
 $string['showhomeinfo2'] = 'ダッシュボード情報';
 $string['showhomeinfodescription1'] = 'ダッシュボード上に %s の使用方法に関する情報を表示します。';
 $string['showlayouttranslatewarning'] = 'ページレイアウト変更前に確認する';
