@@ -3,7 +3,7 @@
 defined('INTERNAL') || die();
 
 $string['accessiblepagecreation'] = 'アクセシブルなページ作成';
-$string['accessiblepagecreationdescription'] = 'このオプションによりあなたはスクリーンリーダまたはキーボードのみでページを作成および編集できるようになります。';
+$string['accessiblepagecreationdescription'] = 'あなたはこのオプションでスクリーンリーダまたはキーボードのみでページを作成および編集できるようになります。';
 $string['accountdeleted'] = 'あなたのアカウントが削除されました。';
 $string['accountoptionsdesc'] = '一般アカウントオプション';
 $string['canceldeletionadminemailhtml'] = '<p>管理者さん、こんにちは。</p>
