@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-12-22 00:57:55 UTC
+ * @updated    2025-12-24 11:24:56 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -50,7 +50,7 @@ $string['showhomeinfodescription1'] = 'ダッシュボード上に %s の使用�
 $string['showlayouttranslatewarning'] = 'ページレイアウト変更前に確認する';
 $string['showlayouttranslatewarningdescription'] = 'ページ編集時、ページレイアウトの新しいレイアウトへの変更前に警告および確認リクエストを表示します。';
 $string['accessiblepagecreation'] = 'アクセシブルなページ作成';
-$string['accessiblepagecreationdescription'] = 'このオプションによりあなたはスクリーンリーダまたはキーボードのみでページを作成および編集できるようになります。';
+$string['accessiblepagecreationdescription'] = 'あなたはこのオプションでスクリーンリーダまたはキーボードのみでページを作成および編集できるようになります。';
 $string['showprogressbar'] = 'プロファイル完了プログレスバー';
 $string['showprogressbardescription'] = 'プログレスバーおよびあなたの %s プロファイルを完了するためのヒントを表示します。';
 $string['prefssaved'] = 'プレファレンスが保存されました。';
