@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-12-29 01:26:46 UTC
+ * @updated    2025-12-30 19:27:21 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -57,7 +57,7 @@ $string['prefssaved'] = 'プレファレンスが保存されました。';
 $string['prefsnotsaved'] = 'あなたのプレファレンスの保存に失敗しました。';
 $string['maildisabled'] = 'メールが無効にされました。';
 $string['disableemail'] = 'メールを無効にする';
-$string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたためあなたのメールアドレス宛のメール送信は停止されました。メールを有効にする前にあなたのメールアカウントが正常に動作しているか %s のアカウントプレファレンスで確認してください。';
+$string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたためあなたのメールアドレス宛のメール送信は停止されました。%s のあなたのアカウントプレファレンスでメールを再有効化する前にメールアカウントが正常に動作しているかご確認ください。';
 $string['maildisableddescription'] = 'あなたのアカウント宛のメール送信が停止されました。アカウントプレファレンスページで<a href="%s">あなたのメールを再度有効</a>にできます。';
 $string['deleteaccountuser'] = '%s のアカウントを削除する';
 $string['deleteaccountdescription'] = 'あなたのアカウントを削除した場合、あなたのすべてのコンテンツは完全に削除されます。あなたは元に戻せません。あなたのプロファイル情報およびポートフォリオは他の人が閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧できますが投稿者名が表示されないようになります。';
