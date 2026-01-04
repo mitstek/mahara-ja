@@ -59,7 +59,7 @@ $string['prefsnotsaved'] = 'あなたのプレファレンスの保存に失敗�
 $string['maildisabled'] = 'メールが無効にされました。';
 $string['disableemail'] = 'メールを無効にする';
 $string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたためあなたのメールアドレス宛のメール送信は停止されました。%s のあなたのアカウントプレファレンスでメールを再有効化する前にメールアカウントが正常に動作しているかご確認ください。';
-$string['maildisableddescription'] = 'あなたのアカウント宛のメール送信が停止されました。アカウントプレファレンスページで<a href="%s">あなたのメールを再度有効</a>にできます。';
+$string['maildisableddescription'] = 'あなたのアカウント宛のメール送信が停止されました。アカウントプレファレンスページで<a href="%s">あなたのメールを再度有効化</a>できます。';
 $string['deleteaccount'] = 'アカウントを削除する';
 $string['deleteaccountdescription'] = 'アカウントを削除した場合、今後、あなたのプロファイル情報およびページを他のユーザが閲覧できないようになります。あなたが投稿したフォーラム投稿のコンテンツは閲覧できますが投稿者名が表示されないようになります。';
 $string['accountdeleted'] = 'あなたのアカウントが削除されました。';
