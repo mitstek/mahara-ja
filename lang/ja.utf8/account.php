@@ -55,7 +55,7 @@ $string['licensedefaultdescription'] = 'あなたのコンテンツのデフォ�
 $string['licensedefaultinherit'] = 'インスティテューションデフォルトを使用する';
 $string['maildisabled'] = 'メールが無効にされました。';
 $string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたためあなたのメールアドレス宛のメール送信は停止されました。%s のあなたのアカウントプレファレンスでメールを再有効化する前にメールアカウントが正常に動作しているかご確認ください。';
-$string['maildisableddescription'] = 'あなたのアカウント宛のメール送信が停止されました。アカウントプレファレンスページで<a href="%s">あなたのメールを再度有効</a>にできます。';
+$string['maildisableddescription'] = 'あなたのアカウント宛のメール送信が停止されました。アカウントプレファレンスページで<a href="%s">あなたのメールを再度有効化</a>できます。';
 $string['messagesallow'] = '誰でも私にメッセージを送信できます。';
 $string['messagesdescr'] = '他の人からのメッセージ';
 $string['messagesfriends'] = 'マイフレンドリストに登録した人は私にメッセージを送信できます。';
