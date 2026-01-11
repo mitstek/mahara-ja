@@ -129,7 +129,7 @@ $string['pendingdeletionadminemailtext'] = '管理者さん、こんにちは。
 --
 %s チーム';
 $string['pendingdeletionemailsent'] = 'インスティテューション管理者に通知を送信しました。';
-$string['pendingdeletionsince'] = '%s 以来のアカウント削除保留';
+$string['pendingdeletionsince'] = '%s 以降アカウント削除保留中';
 $string['prefsnotsaved'] = 'あなたのプレファレンスの保存に失敗しました。';
 $string['prefssaved'] = 'プレファレンスが保存されました。';
 $string['profileurl'] = 'プロファイルURL';
