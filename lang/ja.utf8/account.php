@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-01-11 22:46:45 UTC
+ * @updated    2026-01-13 23:13:31 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -72,7 +72,7 @@ $string['pendingdeletionadminemailtext'] = '管理者さん、こんにちは。
 
 あなたはこの人が属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定できます。これを実行するには次のリンクにアクセスしてください: %s
 
-アカウント削除リクエストの詳細は次のとおりです:
+アカウント削除リクエスト詳細は次のとおりです:
 
 氏名: %s
 メールアドレス: %s
@@ -83,7 +83,7 @@ $string['pendingdeletionadminemailtext'] = '管理者さん、こんにちは。
 $string['pendingdeletionadminemailhtml'] = '<p>管理者さん、こんにちは。</p>
 <p>%s がサイトからの自分のアカウント削除をリクエストしました。</p>
 <p>あなたはこの人が属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定できます。これを実行するには次のリンクにアクセスしてください: <a href=\'%s\'>%s</a></p>
-<p>アカウント削除リクエストの詳細は次のとおりです:</p>
+<p>アカウント削除リクエスト詳細は次のとおりです:</p>
 <p>氏名: %s</p>
 <p>メールアドレス: %s</p>
 <p>理由: %s</p>
@@ -97,7 +97,7 @@ $string['resenddeletionadminemailtext'] = '管理者さん、こんにちは。
 
 あなたはこの人が属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定できます。これを実行するには次のリンクにアクセスしてください: %s
 
-アカウント削除リクエストの詳細は次のとおりです:
+アカウント削除リクエスト詳細は次のとおりです:
 
 氏名: %s
 メールアドレス: %s
@@ -108,7 +108,7 @@ $string['resenddeletionadminemailtext'] = '管理者さん、こんにちは。
 $string['resenddeletionadminemailhtml'] = '<p>管理者さん、こんにちは。</p>
 <p>これは %s によるサイトからのアカウント削除リクエストに関するリマインダです。</p>
 <p>あなたはこの人が属しているインスティテューションの管理者として記載されています。あなたは削除リクエストの承認または拒否を決定できます。これを実行するには次のリンクにアクセスしてください: <a href=\'%s\'>%s</a></p>
-<p>アカウント削除リクエストの詳細は次のとおりです:</p>
+<p>アカウント削除リクエスト詳細は次のとおりです:</p>
 <p>氏名: %s</p>
 <p>メールアドレス: %s</p>
 <p>メッセージ: %s</p>
