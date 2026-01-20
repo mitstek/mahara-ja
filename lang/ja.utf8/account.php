@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-01-18 15:29:01 UTC
+ * @updated    2026-01-20 15:02:35 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -142,4 +142,4 @@ $string['canceldeletionadminemailhtml'] = '<p>管理者さん、こんにちは�
 %s チーム</pre>';
 $string['resizeonuploaduserdefault1'] = 'アップロード時にイメージをリサイズする';
 $string['resizeonuploaduserdefaultdescription2'] = 'デフォルトで「イメージを自動的にリサイズする」オプションが有効にされます。最大高および幅を超えたイメージはアップロード時にリサイズされます。個別のイメージアップロード時、あなたはこのデフォルト設定を無効にできます。';
-$string['noprivacystatementsaccepted'] = 'このアカウントは現在のプライバシ保護方針を受け入れていません。';
+$string['noprivacystatementsaccepted'] = 'このアカウントは現在のプライバシ保護方針を一切受け入れていません。';
