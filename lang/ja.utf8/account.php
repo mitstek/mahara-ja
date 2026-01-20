@@ -60,7 +60,7 @@ $string['messagesallow'] = '誰でも私にメッセージを送信できます�
 $string['messagesdescr'] = '他の人からのメッセージ';
 $string['messagesfriends'] = 'マイフレンドリストに登録した人は私にメッセージを送信できます。';
 $string['messagesnobody'] = '誰も私にメッセージを送信できません。';
-$string['noprivacystatementsaccepted'] = 'このアカウントは現在のプライバシ保護方針を受け入れていません。';
+$string['noprivacystatementsaccepted'] = 'このアカウントは現在のプライバシ保護方針を一切受け入れていません。';
 $string['oldpasswordincorrect'] = 'これはあなたの現在のパスワードではありません。';
 $string['pendingdeletionadminemailhtml'] = '<p>管理者さん、こんにちは。</p>
 <p>%s がサイトからの自分のアカウント削除をリクエストしました。</p>
