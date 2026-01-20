@@ -141,6 +141,6 @@ $string['resizeonuploaduserdefault1'] = 'アップロード時にイメージを
 $string['resizeonuploaduserdefaultdescription2'] = 'デフォルトで「イメージを自動的にリサイズする」オプションが有効にされます。最大高および幅を超えたイメージはアップロード時にリサイズされます。個別のイメージアップロード時、あなたはこのデフォルト設定を無効にできます。';
 $string['devicedetection'] = 'デバイス検出';
 $string['devicedetectiondescription'] = 'このサイトの閲覧時のモバイルデバイス検出を有効にします。';
-$string['noprivacystatementsaccepted'] = 'このアカウントは現在のプライバシ保護方針を受け入れていません。';
+$string['noprivacystatementsaccepted'] = 'このアカウントは現在のプライバシ保護方針を一切受け入れていません。';
 
 ?>
