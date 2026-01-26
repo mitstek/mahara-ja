@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-08 04:03:58 UTC
+ * @updated    2026-01-26 04:14:44 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -27,7 +27,7 @@ $string['typeadminmessages'] = '管理メッセージ';
 $string['typeinstitutionmessage'] = 'インスティテューションメッセージ';
 $string['typegroupmessage'] = 'グループメッセージ';
 $string['typenewpost'] = 'フォーラム投稿';
-$string['typeissuereport'] = 'イシュ―レポート';
+$string['typeissuereport'] = 'イシュレポート';
 $string['type'] = '活動タイプ';
 $string['attime'] = '-';
 $string['prefsdescr'] = 'あなたがメールオプションのどちらを選択した場合でも受信箱には通知が到着しますが、到着した通知は自動的に既読にされます。';
@@ -175,5 +175,5 @@ $string['viewsubmittedmessage1'] = '%s が「 %s 」を %s に送信しました
 $string['reportedby'] = '報告者: %s';
 $string['adminnotificationerror1'] = '通知エラーは恐らくあなたのサーバ設定に起因します。';
 $string['escalateissuereportprompt'] = '潜在的にセンシティブな情報の匿名化を確認してください。';
-$string['failurefindissuereportwithid'] = 'ID「 %s 」のイシュ―レポートが見つかりませんでした。';
-$string['no_valid_reports_to_escalate'] = 'エスカレーションすべき有効なイシュ―レポートがありません。';
+$string['failurefindissuereportwithid'] = 'ID「 %s 」のイシュレポートが見つかりませんでした。';
+$string['no_valid_reports_to_escalate'] = 'エスカレーションすべき有効なイシュレポートがありません。';
