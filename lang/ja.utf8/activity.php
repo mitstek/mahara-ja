@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-01-27 15:25:03 UTC
+ * @updated    2026-02-01 15:04:40 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -30,13 +30,13 @@ $string['typenewpost'] = 'フォーラム投稿';
 $string['typeissuereport'] = 'イシュレポート';
 $string['type'] = '活動タイプ';
 $string['attime'] = '-';
-$string['prefsdescr'] = 'あなたがメールオプションのどちらを選択した場合でも受信箱には通知が到着しますが、到着した通知は自動的に既読にされます。';
+$string['prefsdescr'] = 'あなたがメールオプションのどちらを選択した場合でも受信箱には通知が到着しますが、到着した通知は自動的に既読マークされます。';
 $string['messagetype'] = 'メッセージタイプ';
 $string['subject'] = '件名';
 $string['date'] = '日時';
 $string['read'] = '既読';
 $string['unread'] = '未読';
-$string['markasread'] = '既読にする';
+$string['markasread'] = '既読マークする';
 $string['selectall'] = 'すべてを選択する';
 $string['selectallread'] = 'すべての未読通知';
 $string['selectalldelete'] = 'すべての削除通知';
