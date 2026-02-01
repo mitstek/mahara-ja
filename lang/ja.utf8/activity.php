@@ -41,13 +41,13 @@ $string['typeissuereport'] = 'イシュ―レポート';
 >>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['type'] = '活動タイプ';
 $string['attime'] = '-';
-$string['prefsdescr'] = 'あなたがメールオプションのどちらを選択した場合でも受信箱には通知が到着しますが、到着した通知は自動的に既読にされます。';
+$string['prefsdescr'] = 'あなたがメールオプションのどちらを選択した場合でも受信箱には通知が到着しますが、到着した通知は自動的に既読マークされます。';
 $string['messagetype'] = 'メッセージタイプ';
 $string['subject'] = '件名';
 $string['date'] = '日時';
 $string['read'] = '既読';
 $string['unread'] = '未読';
-$string['markasread'] = '既読にする';
+$string['markasread'] = '既読マークする';
 $string['selectall'] = 'すべてを選択する';
 $string['selectallread'] = 'すべての未読通知';
 $string['selectalldelete'] = 'すべての削除通知';
