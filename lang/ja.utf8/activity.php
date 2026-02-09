@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-02-04 02:27:04 UTC
+ * @updated    2026-02-09 09:18:27 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -153,7 +153,7 @@ $string['objectionablereviewviewartefacttext'] = '「 %s - %s 」の好ましく
 オーナのプロファイルを閲覧するには次のリンクにアクセスしてください:
 %s';
 $string['stillobjectionablecontent'] = 'コンテンツには好ましくない内容が含まれています。';
-$string['stillobjectionablecontentsuspended'] = '好ましくないコンテンツが解決されるまでページへのアクセスは一時的に停止されています。';
+$string['stillobjectionablecontentsuspended'] = '好ましくないコンテンツが解消されるまでページへのアクセスは一時的に停止されています。';
 $string['newgroupmembersubj'] = '%s がグループメンバになりました。';
 $string['removedgroupmembersubj'] = '%s はグループメンバではなくなりました。';
 $string['addtowatchlist'] = 'ウォッチリストに追加する';
