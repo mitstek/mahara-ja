@@ -159,7 +159,7 @@ $string['objectionablereviewviewartefacttext'] = '「 %s - %s 」の好ましく
 オーナのプロファイルを閲覧するには次のリンクにアクセスしてください:
 %s';
 $string['stillobjectionablecontent'] = 'コンテンツには好ましくない内容が含まれています。';
-$string['stillobjectionablecontentsuspended'] = '好ましくないコンテンツが解決されるまでページへのアクセスは一時的に停止されています。';
+$string['stillobjectionablecontentsuspended'] = '好ましくないコンテンツが解消されるまでページへのアクセスは一時的に停止されています。';
 $string['newgroupmembersubj'] = '%s がグループメンバになりました。';
 $string['removedgroupmembersubj'] = '%s はグループメンバではなくなりました。';
 $string['addtowatchlist'] = 'ウォッチリストに追加する';
