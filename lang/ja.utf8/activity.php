@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-02-09 09:18:27 UTC
+ * @updated    2026-02-10 15:09:10 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -158,13 +158,13 @@ $string['newgroupmembersubj'] = '%s がグループメンバになりました�
 $string['removedgroupmembersubj'] = '%s はグループメンバではなくなりました。';
 $string['addtowatchlist'] = 'ウォッチリストに追加する';
 $string['removefromwatchlist'] = 'ウォッチリストから削除する';
-$string['missingparam'] = '次の活動タイプに関する必須パラメータ %s が空です: %s';
+$string['missingparam'] = '次の活動タイプの必須パラメータ %s が空です: %s';
 $string['institutionrequestsubject'] = '%s が %s のメンバシップをリクエストしました。';
 $string['institutionrequestmessage'] = 'あなたは「インスティテューションメンバ」ページで人をインスティテューションに追加できます:';
 $string['institutioninvitesubject'] = 'あなたはインスティテューション %s への参加を招待されました。';
 $string['institutioninvitemessage'] = 'あなたは「インスティテューション設定」ページでこのインスティテューションのメンバシップを承認できます:';
 $string['deleteallnotifications'] = 'すべての通知を削除する';
-$string['reallydeleteallnotifications'] = '本当にこの活動タイプに関してあなたの通知すべてを削除してもよろしいですか?';
+$string['reallydeleteallnotifications'] = '本当にこの活動タイプのあなたの通知すべてを削除してもよろしいですか?';
 $string['escalate_issue_escalated_by_you'] = 'あなたによるエスカレーション';
 $string['escalate_issue_escalated'] = 'エスカレーション';
 $string['escalate_issue_escalated_by'] = '報告者: %s';
@@ -176,4 +176,4 @@ $string['reportedby'] = '報告者: %s';
 $string['adminnotificationerror1'] = '通知エラーは恐らくあなたのサーバ設定に起因します。';
 $string['escalateissuereportprompt'] = '潜在的にセンシティブな情報の匿名化を確認してください。';
 $string['failurefindissuereportwithid'] = 'ID「 %s 」のイシュレポートが見つかりませんでした。';
-$string['no_valid_reports_to_escalate'] = 'エスカレーションすべき有効なイシュレポートがありません。';
+$string['no_valid_reports_to_escalate'] = 'エスカレーションすべき有効なイシュレポートはありません。';
