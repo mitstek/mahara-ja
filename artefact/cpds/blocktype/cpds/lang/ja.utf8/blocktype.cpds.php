@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-02-26 07:07:08 UTC
+ * @updated    2026-02-16 03:41:03 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -33,6 +33,7 @@ $string['sortorder'] = '並べ替え順';
 $string['sortorderdesc'] = '開始日を以下の順序で並べ替える';
 $string['Experiencedesc'] = 'あなたの活動を表示したいCPD経験を選択してください。';
 $string['Categorydesc'] = 'あなたが完了した時間を表示したいカテゴリを選択してください。';
+$string['postsperpage'] = '1ページあたりのエントリ数';
 $string['experiencedesctitle'] = '%s 経験要件:';
 $string['categorydesctitle'] = '%s カテゴリ要件:';
 $string['requirementsminimum'] = '最小時間';
