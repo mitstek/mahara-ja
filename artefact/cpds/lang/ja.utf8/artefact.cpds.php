@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-09 01:02:13 UTC
+ * @updated    2026-02-17 23:47:33 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -33,7 +33,6 @@ $string['totalhours'] = '合計時間';
 $string['totalhourscompleted'] = '合計時間完了';
 $string['startdate'] = '開始日';
 $string['enddate'] = '終了日';
-$string['hoursdesc1'] = '時間を表す10進数のみ入力してください。例)「2.5」は「2時間30分」を意味します。';
 $string['deleteactivityconfirm2'] = '本当にこの活動を完全に削除してもよろしいですか? 表示されているすべてのポートフォリオから削除されます。あなたは活動のコンテンツを元に戻せません。';
 $string['deleteactivity'] = '活動を削除する';
 $string['deletethisactivity'] = '活動を削除する: 「 %s 」';
@@ -66,6 +65,12 @@ $string['experiencehours'] = '詳細経験時間';
 $string['experiencesubmittederror1'] = 'あなたはポートフォリオで提出された経験を選択できません。';
 $string['categoryerror1'] = 'あなたが経験を選択した場合、カテゴリを選択する必要があります。';
 $string['submitted'] = '送信済み';
+$string['shortformathours'] = '%s 時間';
+$string['shortformatminutes'] = '%s 分';
+$string['shortformathoursminutes'] = '%s 時間 %s 分';
+$string['longformathours'] = '%s 時間';
+$string['longformatminutes'] = '%s 分';
+$string['longformathoursminutes'] = '%s 時間 %s 分';
 $string['Experience'] = '経験';
 $string['Experiencedesc'] = 'あなたが活動を追加したいCPD経験を選択してください。';
 $string['Experienceoverviewdesc'] = 'あなたが視覚化したいCPD経験を選択してください。';
