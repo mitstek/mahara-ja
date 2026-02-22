@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-12-19 07:18:45 UTC
+ * @updated    2026-02-22 20:28:05 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -32,8 +32,8 @@ $string['toversion'] = 'アップグレード後';
 $string['localdatasuccess'] = 'ローカルカスタマイゼーションを正常にインストールしました。';
 $string['notinstalled'] = 'インストール未了';
 $string['nothingtoupgrade'] = 'アップグレードするものはありません。';
-$string['performinginstallation'] = 'インストール処理中 ...';
-$string['performingupgrades'] = 'アップグレード処理中 ...';
+$string['performinginstallation'] = 'インストール実行中 ...';
+$string['performingupgrades'] = 'アップグレード実行中 ...';
 $string['runupgrade'] = 'アップグレードを実行する';
 $string['gotoinstallpage'] = '拡張機能ページでインストールする';
 $string['successfullyinstalled'] = 'Maharaが正常にインストールされました。';
