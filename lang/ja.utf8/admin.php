@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-02-22 20:28:05 UTC
+ * @updated    2026-02-24 15:39:48 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -45,7 +45,7 @@ $string['upgrades'] = 'アップグレード';
 $string['newplugins'] = '新しいプラグイン';
 $string['upgradingplugin'] = '%s のアップグレード';
 $string['upgradesuccess'] = 'アップグレードが正常に完了しました。';
-$string['upgradesuccesstoversion'] = '次のバージョンへ正常にアップグレードしました:';
+$string['upgradesuccesstoversion'] = '次のバージョンへのアップグレードが正常に完了しました:';
 $string['upgradefailure'] = 'アップグレードに失敗しました。';
 $string['noupgrades'] = 'アップグレードするものはありません。あなたは最新版を使用しています。';
 $string['youcanupgrade'] = 'あなたはMaharaを %s (%s) から %s (%s) へアップグレードできます。';
