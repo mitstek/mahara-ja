@@ -59,7 +59,7 @@ $string['upgradesuccesstoversion'] = '次のバージョンへのアップグレ
 $string['upgradefailure'] = 'アップグレードに失敗しました。';
 $string['noupgrades'] = 'アップグレードするものはありません。あなたは最新版を使用しています。';
 $string['youcanupgrade'] = 'あなたはMaharaを %s (%s) から %s (%s) へアップグレードできます。';
-$string['upgradeinprogress'] = '%s に開始されたアップグレードは完了していません。<a href="?rerun=1">このアップグレードを実行します</a>。';
+$string['upgradeinprogress'] = 'アップグレードは %s に開始されたましたが完了しませんでした。<a href="?rerun=1">このアップグレードを実行します</a>。';
 $string['Plugin'] = 'プラグイン';
 $string['jsrequiredforupgrade'] = 'あなたがインストールまたはアップグレードを実行するにはJavaスクリプトを有効にする必要があります。';
 $string['dbnotutf8warning'] = 'あなたはUTF-8データベースを使用していません。Maharaはすべてのデータを内部的にUTF-8で保存します。あなたはこのアップグレードを試せますがデータベースのUTF-8へのコンバートをお勧めします。';
