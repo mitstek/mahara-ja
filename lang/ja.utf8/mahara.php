@@ -572,13 +572,13 @@ $string['confirmpassword'] = 'パスワードをもう一度';
 <<<<<<< HEAD
 $string['deleteaccount1'] = 'アカウントを削除する';
 $string['senddeletenotification'] = 'リクエストを送信する';
-$string['javascriptnotenabled'] = 'あなたのブラウザはJavaスクリプトが有効にされていません。あなたがログインするにはこのサイトではJavaスクリプトを有効にする必要があります。';
+$string['javascriptnotenabled'] = 'あなたのブラウザはJavaScriptが有効にされていません。あなたがログインするにはこのサイトではJavaScriptを有効にする必要があります。';
 $string['cookiesnotenabled'] = 'あなたのブラウザはクッキーが有効にされていないかクッキーがブロックされています。あなたがログインするにはこのサイトではクッキーを有効にする必要があります。';
 $string['institution'] = 'インスティテューション';
 $string['institutionnotfound'] = 'インスティテューション「 %s 」は見つかりませんでした。';
 =======
 $string['deleteaccount'] = '次のアカウントを削除する: %s / %s';
-$string['javascriptnotenabled'] = 'あなたのブラウザはJavaスクリプトが有効にされていません。あなたがログインするにはこのサイトではJavaスクリプトを有効にする必要があります。';
+$string['javascriptnotenabled'] = 'あなたのブラウザはJavaScriptが有効にされていません。あなたがログインするにはこのサイトではJavaScriptを有効にする必要があります。';
 $string['cookiesnotenabled'] = 'あなたのブラウザはクッキーが有効にされていないかクッキーがブロックされています。あなたがログインするにはこのサイトではクッキーを有効にする必要があります。';
 $string['institution'] = 'インスティテューション';
 >>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
