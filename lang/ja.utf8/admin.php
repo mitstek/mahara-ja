@@ -137,7 +137,7 @@ $string['shareinstitutionfilesdesc1'] = 'インスティテューションポー
 $string['sitefiles'] = 'サイトファイル';
 $string['sitefonts'] = 'フォント';
 <<<<<<< HEAD
-$string['sitefontsdesc'] = '誰でもスキンで利用できるフォントをアップロードおよび管理します。';
+$string['sitefontsdesc'] = 'スキン内で誰でも利用できるフォントをアップロードおよび管理します。';
 $string['sitelicenses'] = 'ライセンス';
 $string['sitelicensesadd'] = 'ライセンスを追加する';
 $string['sitelicensesdesc'] = '人が自分のコンテンツに使用できるライセンス一覧を設定します。';
