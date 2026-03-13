@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-12-11 10:11:36 UTC
+ * @updated    2026-03-13 09:59:15 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -579,6 +579,7 @@ $string['removedverifynotification'] = 'ページのオーナ %s が承認を削
 $string['signoffviewupdated'] = '承認ステータスが更新されました。';
 $string['verifyviewupdated'] = '検証ステータスが更新されました。';
 $string['wrongsignoffviewrequest'] = 'あなたにはリクエストされた処理を実行するためのパーミッションがありません。';
+$string['nocontent'] = '表示するコンテンツはありません。';
 $string['startdate_rule'] = '開始日は完了日の前に設定してください。';
 $string['add_activity_button'] = '活動ページを追加する';
 $string['activity_info_fieldset'] = '活動情報';
