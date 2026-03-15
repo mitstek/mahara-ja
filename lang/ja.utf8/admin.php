@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-03-10 15:05:34 UTC
+ * @updated    2026-03-15 20:59:24 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -110,7 +110,7 @@ $string['sitefonts'] = 'フォント';
 $string['sitefontsdesc'] = 'スキン内で誰でも利用できるフォントをアップロードおよび管理します。';
 $string['sitelicenses'] = 'ライセンス';
 $string['sitelicensesadd'] = 'ライセンスを追加する';
-$string['sitelicensesdesc'] = '人が自分のコンテンツに使用できるライセンス一覧を設定します。';
+$string['sitelicensesdesc'] = '人が自分のコンテンツで使用できるライセンス一覧を設定します。';
 $string['sitelicensesdisablednote1'] = '<b>注意</b>: 現在、ライセンスメタデータは無効にされています。人がライセンスを指定できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「サイト設定」セクションでライセンスメタデータを有効にする必要があります。';
 $string['sitelicensesedit'] = 'ライセンスを編集する';
 $string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトページに配置できるファイルをアップロードおよび管理します。';
