@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-04-14 15:08:39 UTC
+ * @updated    2026-04-19 19:38:33 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -248,7 +248,7 @@ $string['groupcategoryadded'] = 'カテゴリが追加されました。';
 $string['confirmdeletecategory'] = '本当にこのカテゴリを削除してもよろしいですか?';
 $string['groupcategoriespagedescription'] = 'ここで一覧表示されているカテゴリはグループ作成時に割り当てできます。また、検索時にグループのフィルタとして使用できます。';
 $string['groupquotas'] = '「 %s 」のグループクオータ';
-$string['groupfilequotadescription'] = 'グループファイルエリアで利用可能な合計保存領域です';
+$string['groupfilequotadescription'] = 'グループのファイルエリアで利用可能な合計保存領域です。';
 $string['groupadminsforgroup'] = '「 %s 」のグループ管理者';
 $string['makeusersintoadmins'] = '選択した一般アカウントを管理者アカウントにする';
 $string['makeadminsintousers'] = '選択した管理者アカウントを一般アカウントに戻す';
