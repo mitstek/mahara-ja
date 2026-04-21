@@ -265,7 +265,7 @@ $string['Value'] = '値';
 $string['sendweeklyupdates'] = '週ごとの更新状況を送信する';
 $string['sendweeklyupdatesdescription'] = 'あなたのサイトの統計情報を含む週ごとの更新状況の<a href="https://mahara.org/">mahara.org</a>への送信を許可します。';
 $string['newregistrationpolicyinfo1'] = '<ul>
-<li>Maharaがどのように使用されているかより良い洞察を得るため、私たちは登録データポリシを更新してサイトの週ごと更新の匿名データ提供のオプトアウトを要求します。</li>
+<li>Maharaがどのように使用されているかをより良く把握するため、私たちは登録データポリシを更新しました。これによりサイトは匿名データを週ごとに提供しない場合、オプトアウトする必要があります。</li>
 <li>私たちは収集する匿名データの内容を変更しました。</li>
 </ul>';
 $string['registerwithmahara1'] = 'データ収集をオプトアウトする';
