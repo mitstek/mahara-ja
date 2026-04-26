@@ -872,7 +872,7 @@ $string['issuenotificationsubject'] = 'イシューレポート %s';
 $string['issuereportmessageemailbody'] = '%s があなたにイシューレポートを送信しました。このメッセージを閲覧するには次にアクセスしてください:
 
 %s';
-$string['phpuploaderror'] = 'ファイルアップロード中にエラーが発生しました: %s (エラーコード %s)';
+$string['phpuploaderror'] = 'ファイルアップロード中にエラーが発生しました: %s (エラーコード: %s)';
 $string['phpuploaderror_1'] = 'アップロードファイルがphp.iniのupload_max_filesizeディレクティブを超過しました。';
 $string['phpuploaderror_2'] = 'アップロードファイルがHTMLフォームで指定されたmax_file_sizeディレクティブを超過しました。';
 $string['phpuploaderror_3'] = 'アップロードファイルは一部分のみアップロードされました。';
