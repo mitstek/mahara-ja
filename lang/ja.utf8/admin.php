@@ -238,7 +238,7 @@ $string['registerwithmaharadescription'] = 'あなたのサイトがMaharaプロ
 $string['Register'] = '登録';
 $string['Registration'] = '登録';
 $string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/registersite.php">サイト登録ページ</a>にアクセスして登録できます。';
-$string['registrationfailedtrylater'] = 'エラーコード %s により登録が失敗しました。後ほど再度お試しください。';
+$string['registrationfailedtrylater'] = '登録に失敗しました (エラーコード: %s)。後ほど再度お試しください。';
 $string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます。';
 $string['registermaharasite'] = 'サイト登録';
 $string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することで私たちの世界中のMaharaインストール状況把握に役立ちます。</p>';
