@@ -424,7 +424,7 @@ $string['siteregistrationpolicy1'] = '登録ポリシは次のように変更さ
 $string['startsendingdata'] = 'あなたのサイトは週ごとの更新状況を<a href="https://mahara.org/">mahara.org</a>に送信しています。';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
-$string['closesitedetail'] = 'あなたは管理者を除くすべての人にサイトをクローズできます。これはデータベースアップグレードの準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインできます。';
+$string['closesitedetail'] = 'あなたは管理者を除くすべての人に対してサイトをクローズできます。これはデータベースアップグレードの準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインできます。';
 $string['closesitemsglbl'] = 'メンテナンスメッセージ';
 =======
 $string['datathatwillbesent'] = '送信されるデータ';
@@ -446,7 +446,7 @@ $string['siteregistered'] = 'あなたのサイトが正常に登録されまし
 $string['newsiteregistrationpolicy'] = '<p>私たちはMahara 15.10においてmahara.orgへのデータ送信に関するポリシを更新しました。あなたの登録を確認してください。</p>';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
-$string['closesitedetail'] = 'あなたは管理者を除くすべての人にサイトをクローズできます。これはデータベースアップグレードの準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインできます。';
+$string['closesitedetail'] = 'あなたは管理者を除くすべての人に対してサイトをクローズできます。これはデータベースアップグレードの準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインできます。';
 >>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['Open'] = 'オープン';
 $string['reopensite'] = 'サイトを再オープンする';
