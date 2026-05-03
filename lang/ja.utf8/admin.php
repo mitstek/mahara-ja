@@ -296,7 +296,7 @@ $string['siteregistrationpolicy1'] = '登録ポリシは次のように変更さ
 $string['startsendingdata'] = 'あなたのサイトは週ごとの更新状況を<a href="https://mahara.org/">mahara.org</a>に送信しています。';
 $string['Close'] = 'クローズ';
 $string['closesite'] = 'サイトをクローズする';
-$string['closesitedetail'] = 'あなたは管理者を除くすべての人にサイトをクローズできます。これはデータベースアップグレードの準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインできます。';
+$string['closesitedetail'] = 'あなたは管理者を除くすべての人に対してサイトをクローズできます。これはデータベースアップグレードの準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインできます。';
 $string['Open'] = 'オープン';
 $string['reopensite'] = 'サイトを再オープンする';
 $string['reopensitedetail'] = 'あなたのサイトはクローズされています。アップグレードが検出されるまでサイト管理者はログインしたままにできます。';
