@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-05 15:11:55 UTC
+ * @updated    2026-05-10 15:01:50 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -321,11 +321,11 @@ $string['groupmemberaverage'] = '1人あたり平均して %s グループに属
 $string['viewsperuser'] = 'ポートフォリオを作成している人は1人あたり約 %s ページを保有しています。';
 $string['Cron'] = 'cron';
 $string['cron_normal'] = '正常動作';
-$string['cron_never_run1'] = '<strong class="error text-danger">cronは動作していません。</strong><br>セットアップ方法に関して<a href="https://git.mahara.org/catalyst/mahara/-/wikis/System-administration/Installing-Mahara">インストレーションガイド</a>をご覧ください。';
-$string['cron_not_running'] = '<strong class="error text-danger">cronは正常に動作していません。</strong>';
+$string['cron_never_run1'] = '<strong class="error text-danger">cronが動作していません。</strong><br>セットアップ方法に関して<a href="https://git.mahara.org/catalyst/mahara/-/wikis/System-administration/Installing-Mahara">インストレーションガイド</a>をご覧ください。';
+$string['cron_not_running'] = '<strong class="error text-danger">cronが正常に動作していません。</strong>';
 $string['cron_slow'] = 'cronタスク実行遅延:';
 $string['cron_stuck'] = '非常に遅いcronタスクは壊れている可能性があります:';
-$string['cron_paused'] = '<strong class="error text-danger">cronは動作していません。</strong><br>現在、サイトはクローズされています。cronを実行するにはサイトを再度オープンしてください。';
+$string['cron_paused'] = '<strong class="error text-danger">cronが動作していません。</strong><br>現在、サイトはクローズされています。cronを実行するにはサイトを再度オープンしてください。';
 $string['Loggedin'] = 'ログイン';
 $string['youraverageuser'] = 'あなたの平均的な人 ...';
 $string['statsmaxfriends1'] = 'フレンド数: %2$s<br>(<a href="%3$s">%4$s には最大 %1$d 人のフレンドがいます</a>)';
