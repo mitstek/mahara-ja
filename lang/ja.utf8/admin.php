@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-10 15:01:50 UTC
+ * @updated    2026-05-12 21:13:26 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -343,7 +343,7 @@ $string['uptodate'] = 'あなたのローカルコードベースはMaharaコア
 $string['latestversionis'] = '最新メジャーリリース: <a href="%s">%s</a>';
 $string['latestbranchversionis'] = 'このリリースの最新マイナバージョン: <a href="%s">%s</a>';
 $string['versionnotinsupport'] = '%s はサポート対象外です。';
-$string['versionnotinsupportdev'] = '未サポートの開発バージョン';
+$string['versionnotinsupportdev'] = 'サポート対象外の開発バージョン';
 $string['viewsbytype'] = 'タイプ別ページ';
 $string['institutionloginstabletitle'] = 'アクティブインスティテューション';
 $string['institutionloginstablesubtitle'] = '%s - %s';
