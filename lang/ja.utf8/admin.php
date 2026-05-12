@@ -280,7 +280,7 @@ $string['uptodate'] = '最新';
 $string['latestversionis'] = '最新バージョン: <a href="%s">%s</a>';
 $string['latestbranchversionis'] = 'このリリースの最新マイナバージョン: <a href="%s">%s</a>';
 $string['versionnotinsupport'] = '%s はサポート対象外です。';
-$string['versionnotinsupportdev'] = '未サポートの開発バージョン';
+$string['versionnotinsupportdev'] = 'サポート対象外の開発バージョン';
 $string['viewsbytype'] = 'タイプ別ページ';
 $string['institutionloginstabletitle'] = 'アクティブインスティテューション';
 $string['institutionloginstablesubtitle'] = '%s - %s';
