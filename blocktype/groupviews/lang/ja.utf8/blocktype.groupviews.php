@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-07-23 02:41:23 UTC
+ * @updated    2026-05-19 01:36:07 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,14 +16,10 @@ defined('INTERNAL') || die();
 $string['title1'] = 'グループポートフォリオ';
 $string['description2'] = 'このグループに関連するポートフォリオを表示します。';
 $string['displaygroupviews2'] = 'グループポートフォリオを表示する';
-$string['displaygroupviewsdesc2'] = 'このグループで作成されたポートフォリオの一覧を表示します。';
 $string['displaysharedviews'] = '共有ページを表示する';
-$string['displaysharedviewsdesc1'] = 'このグループと共有されているページ (コレクション内ページを除く) の一覧を表示します。';
 $string['displaysharedcollections'] = '共有コレクションを表示する';
-$string['displaysharedcollectionsdesc'] = 'このグループで共有されているコレクションの一覧を表示します。';
 $string['displaysubmissions1'] = '送信済みポートフォリオを表示する';
-$string['displaysubmissionsdesc1'] = 'このグループに送信されたポートフォリオの一覧を表示します。';
-$string['defaulttitledescription'] = 'タイトルフィールドを空白にした場合、デフォルトタイトルが生成されます。';
+$string['title_help'] = '<h1>セクションタイトル</h1><p>これを空白のままにした場合、タイトルが生成されます。</p>';
 $string['itemstoshow'] = '1ページあたりのエントリ数';
 $string['itemstoshowdesc1'] = 'それぞれのセクションで表示されるポートフォリオ数です。最大: 100';
 $string['showbyanybody'] = '誰でも';
