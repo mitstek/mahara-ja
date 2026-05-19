@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-01-10 08:21:53 UTC
+ * @updated    2026-05-19 03:45:20 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,6 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = '評価';
+$string['title_help'] = '<h1>セクションタイトル</h1><p>あなたがヘッディングを表示したくない場合、このフィールドを空白のままにできます。</p>';
 $string['description'] = '相互評価または自己評価を表示するためのブロックです。';
 $string['blockcontent'] = 'インストラクション';
 $string['nopeerassessment'] = '評価フィードバックはありません。';
@@ -27,4 +28,3 @@ $string['savepublishhelp1'] = '<p><strong>下書きを保存する:</strong> あ
 $string['type'] = '評価タイプ';
 $string['self'] = '自己評価';
 $string['peer'] = '相互評価';
-$string['typedescription'] = 'このブロックの評価タイプを選択してください。';
