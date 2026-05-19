@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-19 01:54:35 UTC
+ * @updated    2026-05-19 03:20:22 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -30,3 +30,4 @@ $string['chartlabel_completed'] = '適正';
 $string['chartlabel_remaining'] = '残り';
 $string['chartlabel_additional'] = '追加 (適正)';
 $string['chartlabel_excess'] = '超過';
+$string['instconf.experience_help'] = '<h1>経験</h1><p>表示するCPD経験を選択してください。</p>';
