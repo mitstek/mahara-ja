@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-07-08 23:12:32 UTC
+ * @updated    2026-05-19 01:58:09 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,7 +16,7 @@ defined('INTERNAL') || die();
 $string['title'] = 'コース完了';
 $string['name'] = 'コース情報';
 $string['description'] = '外部ソースからコース完了に関する情報を表示します。';
-$string['defaulttitledescription'] = 'ここを空白にした場合、デフォルトタイトルが生成されます。';
+$string['title_help'] = '<h1>セクションタイトル</h1><p>これを空白のままにした場合、タイトルが生成されます。</p>';
 $string['blocktitleforowner'] = '%s のコース完了';
 $string['placeholdermessage'] = 'このブロックは使用可能になる前に完全に設定する必要があります。完全に設定できるのはブロックがパーソナルポートフォリオページにある場合のみです。';
 $string['completeconfiguration1'] = '表示するコース情報はありません。コース完了を表示するにはこのブロックを編集してください。';
