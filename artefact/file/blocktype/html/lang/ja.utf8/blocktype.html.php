@@ -15,4 +15,4 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'HTML';
 $string['description'] = 'あなたのファイルエリアの単一HTMLファイルです。';
-$string['title_help'] = '<h1>セクションタイトル</h1><p>これを空白のままにした場合、タイトルが生成されます。</p>';
+$string['title_help'] = '<h1>セクションタイトル</h1><p>このフィールドを空白のままにした場合、タイトルが生成されます。</p>';
