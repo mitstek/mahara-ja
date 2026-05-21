@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-24 01:48:20 UTC
+ * @updated    2026-05-21 00:05:54 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -52,7 +52,8 @@ $string['typeassessmentfeedback'] = '相互評価';
 $string['nopeerassessmentrequired'] = '相互評価を必要としないためあなたはこのページでコンテンツを閲覧できません。';
 $string['signedoffalertpeermsg'] = 'このページは %s により承認されました。これ以上、あなたの相互評価を追加、編集または削除できません。あなたがまだ相互評価を仕上げたい場合、%s にご連絡ください。';
 $string['placeassessment'] = '評価を入力する';
-$string['verifyassessment'] = '評価を確認する';
+$string['verifypages'] = 'ページを検証する';
 $string['progress_peerassessment'] = '%s 相互評価をページに追加する';
 $string['progress_verify'] = '他の人の相互評価ページに %s 確認を与える';
 $string['importedassessment'] = 'インポート済み相互評価';
+$string['typeassessmentfeedback_help'] = '<h1>相互評価</h1><p>「評価」セクションにおける新しい相互評価の通知です。</p>';

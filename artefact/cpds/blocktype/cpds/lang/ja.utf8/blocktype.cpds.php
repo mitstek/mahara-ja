@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-19 01:54:56 UTC
+ * @updated    2026-05-21 00:09:56 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -29,6 +29,7 @@ $string['addactivity'] = '活動を追加する';
 $string['addnewactivity'] = '新しい活動を追加する';
 $string['sortorder'] = '並べ替え順';
 $string['postsperpage'] = '1ページあたりのエントリ数';
+$string['count_desc'] = '1から100までの値を入力してください。';
 $string['experiencedesctitle'] = '%s 経験要件:';
 $string['categorydesctitle'] = '%s カテゴリ要件:';
 $string['requirementsminimum'] = '最小時間';
