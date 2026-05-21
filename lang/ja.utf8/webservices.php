@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-03-13 09:54:13 UTC
+ * @updated    2026-05-20 23:51:04 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -65,8 +65,12 @@ $string['context_title'] = 'LTIコンテクストタイトル';
 $string['context_type'] = 'LTコンテクストタイプ';
 $string['copyid'] = '送信済みポートフォリオの新しいコピーのID';
 $string['country'] = '人の国コード (JP、NZ等)';
+$string['databaseusage'] = 'データベース使用量 (バイト)';
+$string['databaseusageformatted'] = 'データベース使用量 (フォーマット済み)';
 $string['deleteuserid'] = '削除対象者のID';
 $string['deleteusername'] = '削除対象者のユーザ名';
+$string['diskusage'] = 'ディスク使用量 (バイト)';
+$string['diskusageformatted'] = 'ディスク使用量 (フォーマット済み)';
 $string['displayname'] = '人の表示名';
 $string['displaygroup'] = 'グループの表示名';
 $string['displaytitle'] = 'ページ表示タイトル';
