@@ -19,4 +19,4 @@ $string['messagetypes'] = '表示するメッセージタイプ';
 $string['maxitems'] = '表示するアイテムの最大数';
 $string['maxitemsdescription'] = '設定範囲: 1～100';
 $string['More'] = 'さらに';
-$string['title_help'] = '<h1>セクションタイトル</h1><p>これを空白のままにした場合、タイトルが生成されます。</p>';
+$string['title_help'] = '<h1>セクションタイトル</h1><p>このフィールドを空白のままにした場合、タイトルが生成されます。</p>';

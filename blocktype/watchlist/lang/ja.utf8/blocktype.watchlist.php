@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['title1'] = '私が観察中のページ';
-$string['title_help'] = '<h1>セクションタイトル</h1><p>これを空白のままにした場合、タイトルが生成されます。</p>';
+$string['title_help'] = '<h1>セクションタイトル</h1><p>このフィールドを空白のままにした場合、タイトルが生成されます。</p>';
 $string['description'] = 'あなたのウォッチリストのページを表示します。';
 $string['nopages'] = 'あなたのウォッチリストにページはありません。';
 $string['itemstoshow'] = '表示するアイテム数';

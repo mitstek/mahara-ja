@@ -17,4 +17,4 @@ $string['title2'] = '私に共有されているポートフォリオ';
 $string['description3'] = 'あなたがこのサイトでアクセスした中から最も最近に更新されたポートフォリオを一覧表示します。';
 $string['viewstoshow1'] = '表示する結果の最大数';
 $string['viewstoshowdescription'] = '設定範囲: 1～100';
-$string['title_help'] = '<h1>セクションタイトル</h1><p>これを空白のままにした場合、タイトルが生成されます。</p>';
+$string['title_help'] = '<h1>セクションタイトル</h1><p>このフィールドを空白のままにした場合、タイトルが生成されます。</p>';

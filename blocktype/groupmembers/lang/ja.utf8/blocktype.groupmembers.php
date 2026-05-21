@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['title'] = 'グループメンバ';
-$string['title_help'] = '<h1>セクションタイトル</h1><p>これを空白のままにした場合、タイトルが生成されます。</p>';
+$string['title_help'] = '<h1>セクションタイトル</h1><p>このフィールドを空白のままにした場合、タイトルが生成されます。</p>';
 $string['description'] = 'このグループのメンバ一覧を表示します。';
 $string['show_all'] = 'このグループのメンバすべてを表示する';
 $string['options_numtoshow_title'] = '表示メンバ';
