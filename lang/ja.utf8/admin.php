@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-22 04:40:39 UTC
+ * @updated    2026-05-22 13:41:03 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -142,6 +142,9 @@ $string['institutionauth'] = 'インスティテューション認証局';
 $string['institutionsettingsdesc'] = 'インスティテューションを設定および管理します。';
 $string['lastinstitution'] = '前のインスティテューション';
 $string['adminnotifications'] = '管理者通知';
+$string['administratornotifications'] = '管理者通知';
+$string['notifications_help'] = '<h1>管理者通知</h1>
+<p>Tこのページにはすべての管理者および管理通知に関する管理者の通知設定が一覧表示されています。それぞれのタイプの通知に関して、少なくとも1人の管理者が受信するよう設定する必要があります。</p>';
 $string['adminnotificationsdescription'] = '管理者が受信するシステム通知の概要です。';
 $string['uploadcsv1'] = 'CSVでアカウントを追加または更新する';
 $string['uploadcsvbutton'] = 'アカウントを追加または更新する';
@@ -156,6 +159,7 @@ $string['emailaddresshidden'] = 'メールアドレス秘匿';
 $string['inactive'] = 'アカウント非アクティブ';
 $string['inactivefor1'] = '現在、「 %s 」 はアクティブアカウントではありません。';
 $string['noadminspecified'] = '少なくとも1名の現在の管理者が必要です。';
+$string['adminmenu_back'] = 'ダッシュボードに戻る';
 $string['administergroups'] = 'グループを管理する';
 $string['administergroupsdesc'] = 'グループ、その管理者および利用可能なスペースを管理します。';
 $string['groupcategoriesdescription'] = 'グループカテゴリを追加および編集します。';
@@ -917,6 +921,8 @@ $string['institutionmembers'] = 'インスティテューションメンバ';
 $string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
 $string['institutionmemberspagedescription'] = 'このページではあなたのインスティテューションにメンバシップをリクエストした人を確認およびメンバとして追加できます。また、あなたのインスティテューションから人を削除および招待できます。';
 $string['suspendordeletethisuser'] = 'このアカウントを利用停止または削除する';
+$string['mergeaccount'] = 'アカウントをマージする';
+$string['mergeaccounts'] = 'アカウントをマージする';
 $string['merge_displayname'] = '表示名';
 $string['merge_firstname'] = '名';
 $string['merge_lastname'] = '姓';

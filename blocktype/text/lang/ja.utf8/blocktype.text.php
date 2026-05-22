@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-08-18 00:04:34 UTC
+ * @updated    2026-05-22 13:34:05 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -28,3 +28,4 @@ $string['convertdescriptionfeatures'] = 'あなたは高度な機能を使用し
 $string['convertdescription'] = '%d ノートをコンバートできます。これらのノートをコンバートするオプションを選択した場合、時間を要することに留意してください。コンバート完了後、このページであなたに成功メッセージが表示されます。';
 $string['convertibleokmessage'] = '正常に %d 「ノート」ブロックを「テキスト」ブロックに変換しました。';
 $string['switchdescription'] = '拡張機能を使用しない「ノート」ブロックすべてをシンプルな「テキスト」ブロックにコンバートします。';
+$string['componentdeprecated'] = 'これらのテキストブロックは現在非推奨であるため、代わりにプラグイン「internal/textbox」のテキストセクションを使用してください。';
