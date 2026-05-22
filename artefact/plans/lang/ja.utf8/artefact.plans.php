@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-01-05 22:34:17 UTC
+ * @updated    2026-05-22 04:28:28 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -24,7 +24,8 @@ $string['editplan'] = 'プランを編集する';
 $string['editingplan'] = 'プランを編集する';
 $string['managetasks'] = 'タスクを管理する';
 $string['managetasksspecific'] = '「 %s 」のタスクを管理する';
-$string['newplan'] = '新しいプラン';
+$string['createplan'] = 'プランを作成する';
+$string['createaplan'] = 'プランを作成する';
 $string['noplansaddone'] = 'まだプランはありません。%sプランを追加してください%s。';
 $string['noplans'] = '表示するプランはありません。';
 $string['Plan'] = 'プラン';
@@ -41,7 +42,6 @@ $string['templateplan'] = 'テンプレート';
 $string['planstasksdescription'] = 'あなたのプランの作成を開始するには以下でタスクを追加するか「 %s 」ボタンを使用してください。';
 $string['saveplan'] = 'プランを保存する';
 $string['title'] = 'タイトル';
-$string['titledesc'] = 'タイトルはプランブロックタイプ内のそれぞれのタスクの表示に使用されます。';
 $string['addtask'] = 'タスクを追加する';
 $string['addtaskspecific'] = '「 %s 」にタスクを追加する';
 $string['alltasks'] = 'すべてのタスク';
@@ -50,8 +50,6 @@ $string['completed'] = '完了';
 $string['incomplete'] = '未完了';
 $string['overdue'] = '期限切れ';
 $string['completiondate'] = '完了予定日';
-$string['completiondatedescription'] = 'フォーマット %s を使用してください。テンプレートタスクの場合、デフォルト完了日はグループの編集可能終了日より取得されます。';
-$string['completeddesc'] = 'あなたのタスクを完了済みにします。';
 $string['deletetaskconfirm'] = '本当にこのタスクを削除してもよろしいですか?';
 $string['deletetask'] = 'タスクを削除する';
 $string['deletethistask'] = 'タスクを削除する: %s';
@@ -93,17 +91,11 @@ $string['editassignedoutcome'] = 'ポートフォリオを開く';
 $string['submitassignedoutcome'] = '評価のために送信する';
 $string['outcomeiscurrentlysubmitted'] = '現在、このポートフォリオは評価のために送信されています。';
 $string['template'] = 'テンプレート';
-$string['templatedescription'] = 'このプランをグループプラン作成時のテンプレートとして使用します。';
 $string['startdate'] = '開始日';
-$string['startdatedescription'] = 'フォーマット %s を使用してください。テンプレートタスクとしてデフォルト開始日はグループの編集可能開始日より取得されます。';
 $string['reminder'] = 'リマインダ';
-$string['reminderdescription'] = '完了日に関するリマインダ通知を送信します。';
 $string['taskview'] = 'タスクページ';
-$string['taskviewdescription'] = 'このタスクと詳細タスク説明ページを結びつけます。';
 $string['outcome'] = '課題ポートフォリオ';
-$string['outcomedescription'] = 'このタスクを終了するためのポートフォリオを結びつけてください。注意: このポートフォリオは1つのタスクでのみ使用できます。';
 $string['selectionplan'] = '課題タスク';
-$string['selectionplandescription'] = 'このテンプレートプランに基づいてグループ内でプランが作成された後、グループメンバは課題を完了するためこのプランのタスクを選択できます。このオプションはテンプレートが作成時のみ利用できます。';
 $string['none'] = 'なし';
 $string['startdatemustbebeforecompletiondate'] = '開始日は完了日の前にする必要があります。';
 $string['completiondatemustbeinfuture'] = '完了日は未来の日付にする必要があります。';
