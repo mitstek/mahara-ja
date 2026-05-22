@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-20 23:51:04 UTC
+ * @updated    2026-05-22 07:56:14 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -130,6 +130,7 @@ $string['icqnumber'] = 'ICQナンバ';
 $string['idownersubmitportfolio'] = '評価のためにポートフォリオを送信する人のMahara ID';
 $string['industry'] = '業種';
 $string['institution'] = 'Maharaインスティテューション';
+$string['institutiondisplayname'] = 'インスティテューション表示名';
 $string['institutioncontextauthuser'] = '認証済みの人のインスティテューションコンテクスト';
 $string['institutionforctrlgroups'] = 'Maharaインスティテューション - API管理グループに必要です。';
 $string['institutionnameauthuser'] = '認証済みの人のインスティテューションフルネームコンテクスト';
