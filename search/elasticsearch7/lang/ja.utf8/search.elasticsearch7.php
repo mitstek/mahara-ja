@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-21 02:06:31 UTC
+ * @updated    2026-05-23 14:30:29 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -114,6 +114,7 @@ $string['tags'] = 'タグ';
 $string['tagsonly'] = 'タグのみ';
 $string['Text'] = 'テキスト';
 $string['types'] = 'Elasticsearchタイプ';
+$string['typesdescription1'] = 'デフォルト: %s';
 $string['unassignedshards'] = '未割り当てシャード: %s';
 $string['usedonpage'] = '使用ページ';
 $string['usedonpages'] = '使用ページ';
