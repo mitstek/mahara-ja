@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-07-04 01:46:22 UTC
+ * @updated    2026-05-25 11:19:44 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,7 +15,6 @@ defined('INTERNAL') || die();
 
 $string['pluginname'] = 'スキン';
 $string['myskins'] = 'スキン';
-$string['mystyles'] = 'スタイル';
 $string['siteskinmenu'] = 'スキン';
 $string['header'] = 'ヘッダ';
 $string['blockheading'] = 'ブロックヘッディング';
@@ -23,9 +22,7 @@ $string['themedefault'] = 'テーマデフォルト';
 $string['blockheaderfontfamily'] = 'ブロックヘッダフォント';
 $string['blockheaderfontcolor'] = 'ブロックヘッダテキスト色';
 $string['headerbackgroundcolor'] = 'ヘッダ背景色';
-$string['headerbackgroundcolordescription'] = 'ページヘッダの背景色です。ヘッダ背景イメージが選択されている場合、これは表示されません。';
 $string['headerbackgroundimage'] = 'ヘッダ背景イメージ';
-$string['headerbackgroundimagedescription'] = '最小幅は1832px、最小高は232pxです。';
 $string['headerbackgroundrepeat'] = 'ヘッダ背景の繰り返し';
 $string['bodybackgroundcolour'] = 'ページ背景色';
 $string['bodybackgroundimage'] = 'ページ背景イメージ';
@@ -82,6 +79,8 @@ $string['publicskins'] = 'パブリックスキン';
 $string['currentskin'] = '現在のスキン';
 $string['skinnotselected'] = 'スキン未選択';
 $string['noskin'] = 'スキンなしにする';
+$string['removeskin'] = 'スキンを削除する';
+$string['noskinselected'] = '選択されたスキンはありません。';
 $string['skingeneraloptions'] = '一般';
 $string['skinbackgroundoptions1'] = '背景';
 $string['viewbackgroundoptions'] = 'ページ背景';
@@ -100,9 +99,7 @@ $string['backgroundcolor'] = '背景色';
 $string['bodybgcolor1'] = '背景色';
 $string['viewbgcolor'] = 'ページ背景色';
 $string['textcolor'] = 'テキスト色';
-$string['textcolordescription'] = 'これは通常テキストの色です。';
 $string['headingcolor1'] = 'ヘッダテキスト色';
-$string['headingcolordescription2'] = 'これはヘッダエリアのテキスト色です。';
 $string['emphasizedcolor'] = '強調テキスト色';
 $string['emphasizedcolordescription'] = 'これはページサブヘッディングおよび強調テキストの色です。';
 $string['bodybgimage1'] = '背景イメージ';
@@ -140,8 +137,6 @@ $string['headerlogoimagelight1'] = '白色Maharaロゴおよびテキスト (暗
 $string['headerlogoimagedark1'] = '暗色Maharaロゴおよびテキスト (明色のヘッダ背景に適しています)';
 $string['normallinkcolor'] = '通常リンク色';
 $string['hoverlinkcolor1'] = 'ホバーリンク色';
-$string['normallinkunderlined'] = '下線通常リンク';
-$string['hoverlinkunderlined'] = '下線ホバーリンク';
 $string['tableborder'] = 'テーブル枠線色';
 $string['tableheader'] = 'ヘッダ背景色';
 $string['tableheadertext'] = 'ヘッダテキスト色';
@@ -151,7 +146,6 @@ $string['normalbuttoncolor'] = '通常ボタン色';
 $string['hoverbuttoncolor'] = 'ハイライトボタン色';
 $string['buttontextcolor'] = 'ボタンテキスト色';
 $string['skincustomcss'] = 'カスタムCSS';
-$string['skincustomcssdescription'] = 'カスタムCSSはスキンプレビューイメージには反映されません。';
 $string['chooseviewskin'] = 'ページスキンを選択する';
 $string['chooseskin'] = 'スキンを選択する';
 $string['notsavedyet'] = 'まだ保存されていません。';
@@ -221,16 +215,12 @@ $string['fontfiles'] = 'フォントファイル';
 $string['fontfilemissing'] = 'ZIPファイルに「 %s 」フォントファイルが含まれていません。';
 $string['zipfontfiles'] = 'ZIPアーカイブ内のフォントファイル';
 $string['fontfilezip'] = 'ZIPアーカイブ';
-$string['zipdescription1'] = 'TTF、WOFFおよびフォントのライセンスファイルを含むZIPファイル';
 $string['notvalidfontfile'] = 'これは有効な %s フォントファイルではありません。';
 $string['nosuchfont'] = '提供された名称のフォントはありません。';
 $string['fontfilettf'] = 'TTFフォントファイル';
-$string['ttfdescription'] = 'TrueTypeフォント (Firefox 3.5+, Opera 10+, Safari 3.1+, Chrome 4.0.249.4+)';
 $string['fontfilewoff1'] = 'WOFF2フォントファイル';
-$string['woffdescription1'] = 'Web Open Font Formatフォント2.0 (Firefox 39+, Edge 14+, Chrome 36+, Safari 12+, Opera 23+, iOS 10+)';
 $string['fontfilelicence'] = 'ライセンスファイル';
 $string['fontnotice'] = 'フォント通知';
-$string['fontnoticedescription'] = 'フォントおよび作者に関する説明1行がCSSファイルに追加されます。';
 $string['filepathnotwritable'] = '「 %s 」にファイルを書き込めません。';
 $string['showfonts'] = '表示';
 $string['fonttypes.all'] = 'すべてのフォント';

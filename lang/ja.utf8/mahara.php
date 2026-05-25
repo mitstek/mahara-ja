@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-23 13:38:26 UTC
+ * @updated    2026-05-25 11:32:02 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -28,7 +28,9 @@ $string['deletespecificfrom'] = '「 %s 」(URL %s) を削除する';
 $string['deleteitem'] = '削除';
 $string['deleted'] = '削除';
 $string['moveitemup'] = '上に移動する';
+$string['moveitemup_name'] = '「 %s 」を上に移動する';
 $string['moveitemdown'] = '下に移動する';
+$string['moveitemdown_name'] = '「 %s 」を下に移動する';
 $string['edit'] = '編集';
 $string['editspecificfrom'] = '「 %s 」(URL %s) を編集する';
 $string['editspecific'] = '「 %s 」を編集する';
@@ -1367,3 +1369,14 @@ $string['revertisolation'] = 'あなたが継続したくない場合、config.p
 $string['owngroupsonlyprocessingtext'] = '「隔離インスティテューション」に加えて「<b>自分のグループのみ</b>」が有効にされました。この設定に準拠するためポートフォリオのアクセス権を更新する必要があります。少なくとも1つのグループに属していないアカウント保持者間でポートフォリオを共有していた場合、ポートフォリオは他のグループメンバとのみ共有できるため共有権限が削除されます。';
 $string['maharaversion'] = 'Maharaバージョン';
 $string['unabletopasteimage'] = 'あなたはドラッグ&ドロップではイメージを挿入できません。こちらのエディタのツールバーにある「画像の挿入・編集」ボタンから追加してください。';
+$string['accordions'] = 'アコーディオン';
+$string['accordionexample1'] = 'アコーディオン例1';
+$string['accordionexample2'] = 'アコーディオン例2';
+$string['accordionexample3'] = 'アコーディオン例3';
+$string['accordioncontent'] = 'アコーディオンコンテンツ';
+$string['alerts'] = 'アラート';
+$string['alertswarning'] = '警告アラート';
+$string['alertsdanger'] = '危険アラート';
+$string['attachmentsnumber'] = '3添付ファイル';
+$string['attachmentsfile'] = 'ファイル名';
+$string['attachmentsdescription'] = 'ファイル説明';
