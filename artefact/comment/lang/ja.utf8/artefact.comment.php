@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-23 14:22:03 UTC
+ * @updated    2026-05-25 09:57:09 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -140,9 +140,11 @@ $string['feedbackdeletedtext'] = '%s のコメントが削除されました。
 %s をオンラインで閲覧するには次のリンクにアクセスしてください:
 %s';
 $string['artefactdefaultpermissions'] = 'デフォルトのコメントパーミッション';
+$string['commentratingsettings'] = 'コメントレーティング';
 $string['ratingicons'] = 'レーティングの表示に使用するアイコン';
 $string['ratinglength'] = 'レーティング選択肢数';
 $string['ratingcolour'] = '色';
+$string['pluginconfig.ratingcolour_help'] = '<h1>色</h1><p>選択されたレーティングは選択した色の実線アイコンで表示されます。選択されていないものは輪郭線のみのアイコンで表示されます。必ずライトモードおよびダークモードの両方で色のコントラストを満たす色を選択してください。</p>';
 $string['star'] = '星';
 $string['heart'] = 'ハート';
 $string['thumbsup'] = 'サムズアップ';
@@ -151,12 +153,43 @@ $string['smile'] = 'スマイル';
 $string['ratingexample'] = '生成例';
 $string['removerating'] = 'レーティングを削除する';
 $string['ratingoption'] = 'レーティング %s / %s を設定する';
+$string['pluginconfig.recordrtcactive_help'] = '<h1>オーディオおよびビデオレコーディング</h1>
+<p><strong>すべてのブラウザでサポートしているわけではないため、これは実験的な機能です。</strong></p>
+<p>この設定を有効にした場合、コメント用ビジュアルエディタフィールド内だけでなく、日誌エントリ等の他のエリアでもオーディオおよびビデオを直接記録できるようになります。</p>
+<p>オーディオおよびビデオコメントでは<a href="https://webrtc.org">WebRTC</a> (「Web Real-Time Communication」) 技術およびMediaStream Recording APIが使用されています。これらはまだすべてのブラウザでサポートされているわけではありません。Google Chrome、Mozilla Firefox、Operaではサポートされていますが、Microsoft EdgeまたはAppleベースのブラウザではサポートされていません。</p>';
+$string['insecureconnection'] = 'これは安全な接続ではありません。あなたのブラウザではこのプラグインが正常に動作しない可能性があります。別のブラウザをお試しください。';
+$string['insecureconnectionadmin'] = '安全ではない接続が検出されました。この機能を利用するにはあなたのサイトをHTTPS経由で提供する必要があります。';
+$string['experimentalplugin'] = 'この実験的な機能はWebRTCおよびMediaStreamレコーディング技術に対するブラウザのサポートに依存しています。現在、Chrome、Firefox、Operaでのみ利用可能です。';
+$string['nowebrtc'] = 'あなたのブラウザはオーディオまたはビデオのレコーディングをサポートしていません。Google Chrome、Mozilla Firefox、Opera等の別のブラウザに切り替えてください。';
+$string['gumabort'] = '予期せぬ事態が発生したため、マイクまたはウェブカメラを使用できなくなりました。';
+$string['gumnotallowed'] = 'あなたはブラウザがウェブカメラおよびマイクにアクセスできるように設定する必要があります。';
+$string['gumnotfound'] = '入力デバイスが接続されていないか、有効にされていません。';
+$string['gumnotreadable'] = '何らかの理由でブラウザがウェブカメラまたはマイクにアクセスできません。';
+$string['gumoverconstrained'] = '現在のウェブカメラまたはマイクではレコーディングできません。あなたの管理者にご連絡ください。';
+$string['gumsecurity'] = 'あなたのブラウザはセキュリティ保護されていない接続でのレコーディングをサポートしていません。あなたはレコーディング機能を使用できません。';
+$string['gumtype'] = 'ウェブカメラおよびマイクからのストリームを取得しようとしましたが、制約が指定されていませんでした。';
 $string['startrecording'] = 'レコーディングを開始する';
 $string['stoprecording'] = 'レコーディングを停止する';
 $string['recordagain'] = 'もう一度レコーディングする';
+$string['recordingfailed'] = 'レコーディング失敗、再度お試しください。';
+$string['attachrecording'] = 'あなたのテキストにレコーディングを追加する';
+$string['norecordingfound'] = '問題が発生しました。何もレコーディングされませんでした。';
+$string['uploadfailed'] = 'アップロード失敗:';
+$string['uploadfailed404'] = 'アップロード失敗: ファイルが大きすぎます。';
+$string['uploadaborted'] = 'アップロード中断:';
+$string['nearingmaxsize'] = 'あなたはファイルアップロードサイズの上限に達しました。';
 $string['uploadprogress'] = '完了';
 $string['annotationprompt'] = 'レコーディングタイプ';
 $string['annotation:audio'] = 'オーディオレコーディング';
 $string['annotation:video'] = 'ビデオレコーディング';
+$string['downloadfor'] = '「 %s 」のダウンロードリンク';
+$string['commentrecordrtcsettings'] = 'オーディオおよびビデオコメント';
+$string['recordrtcactive'] = 'オーディオおよびビデオレコーディング';
+$string['recordrtctimelimit'] = 'レコーディング時間制限 (秒)';
 $string['audiobitrate'] = 'オーディオレコーディングビットレート';
 $string['videobitrate'] = 'ビデオレコーディングビットレート';
+$string['pluginconfig.commentratings_help'] = '<h1>コメントレーティング</h1>
+<p>この設定を有効にした場合、ユーザはアーティファクトおよびページへのコメント追加時に視覚的評価を付加できます。</p>
+<p>あなたはレーティング尺度数 (3～12アイテム)、アイコンおよびアイコン色を選択できます。</p>
+<p>あなたがレーティング選択肢の数を変更する場合、レーティングそのものは新しい尺度に合わせて再計算されない点に留意してください。</p>
+<p>レーティングする場合、コメント追加またはファイルアップロードが必要です。</p>';
