@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-25 11:31:58 UTC
+ * @updated    2026-05-25 11:42:17 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -144,10 +144,14 @@ $string['selected'] = '選択済み';
 $string['admin'] = '管理';
 $string['menu'] = 'メニュー';
 $string['adminmenu'] = '管理メニュー';
+$string['adminmenushort'] = 'サイト概要';
+$string['instadminmenushort'] = 'インスティテューション管理メニュー';
+$string['staffadminmenushort'] = 'スタッフ管理メニュー';
 $string['usermenu1'] = 'アカウントメニュー';
 $string['profilepage'] = 'プロファイルページ';
 $string['mainmenu'] = 'メインメニュー';
 $string['showmainmenu'] = 'メインメニューを表示する';
+$string['togglemenu'] = 'トグルメニュー';
 $string['showusermenu1'] = 'アカウントメニューを表示する';
 $string['showsearch'] = '検索を表示する';
 $string['showmenu'] = '%s のメニューを表示する';
@@ -217,6 +221,8 @@ $string['sortfreq'] = 'タグを使用頻度順に並べ替える';
 $string['sortresultsby'] = '並べ替え:';
 $string['sortedby'] = '並べ替え';
 $string['sortby'] = '並べ替え:';
+$string['tagsort_all'] = 'すべてのタグ';
+$string['tagsort_name'] = 'タグ名';
 $string['adminfirst'] = '管理者を最初に';
 $string['nameatoz'] = '名: A -> Z';
 $string['nameztoa'] = '名: Z -> A';
@@ -1383,3 +1389,8 @@ $string['attachments'] = '添付';
 $string['attachmentsnumber'] = '3添付ファイル';
 $string['attachmentsfile'] = 'ファイル名';
 $string['attachmentsdescription'] = 'ファイル説明';
+$string['textlinkicon_example2'] = '標準リンク';
+$string['buttonclose'] = '閉じるボタン';
+$string['pagetitle'] = 'ページタイトル';
+$string['carddefault'] = 'デフォルトカード';
+$string['carddefault_example'] = 'これはデフォルトカードです。';
