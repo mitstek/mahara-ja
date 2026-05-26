@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-22 04:23:56 UTC
+ * @updated    2026-05-26 06:32:45 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -83,8 +83,8 @@ $string['instconf.tagselect_help'] = '<h1>タグ選択</h1>
 <p>あなたが:</p>
 <ul>
 <li>タグ「動物」を選択した場合、そのブロックにすべての日誌エントリが表示されます。</li>
-<li>タグ「猫」と「大型」を選択すると、日誌エントリ3および6が表示されます。</li>
-<li>タグ「動物」と「大型」を選択すると、日誌エントリ3、6および9が表示されます。</li>
+<li>タグ「猫」と「大型」を選択した場合、日誌エントリ3および6が表示されます。</li>
+<li>タグ「動物」と「大型」を選択した場合、日誌エントリ3、6および9が表示されます。</li>
 </ul>
 <h2>除外タグ</h2>
 <p>あなたはまた除外したいタグの前にマイナス記号を付けることで検索結果からそのタグを除外できます。</p>
