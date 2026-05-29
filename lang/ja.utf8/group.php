@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-22 09:36:47 UTC
+ * @updated    2026-05-27 01:34:43 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -254,6 +254,8 @@ $string['group'] = 'グループ';
 $string['Group'] = 'グループ';
 $string['groups'] = 'グループ';
 $string['ngroups'] = '%s グループ';
+$string['groupmenu_back'] = 'グループに戻る';
+$string['groupmenu'] = 'グループメニュー';
 $string['notamember'] = 'あなたはこのグループのメンバではありません。';
 $string['notmembermayjoin'] = 'このページを閲覧するにはあなたはグループ「 %s 」に参加する必要があります。';
 $string['declinerequestsuccess'] = 'グループメンバシップのリクエストが正常に拒否されました。';
