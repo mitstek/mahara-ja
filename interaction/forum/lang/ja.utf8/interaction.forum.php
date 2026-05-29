@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-12-02 15:01:14 UTC
+ * @updated    2026-05-27 01:31:05 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -19,9 +19,7 @@ $string['addtitle'] = 'フォーラムを追加する';
 $string['addtopic'] = 'トピックを追加する';
 $string['addtopicsuccess'] = 'トピックが正常に追加されました。';
 $string['allowunsubscribe'] = 'グループメンバの購読解除を許可する';
-$string['allowunsubscribedescription'] = 'グループメンバがフォーラムおよびトピックから購読解除できるかどうか選択してください。';
 $string['autosubscribeusers'] = 'グループメンバを自動的に購読させる';
-$string['autosubscribeusersdescription'] = 'グループメンバにこのフォーラムを自動的に購読させるかどうか選択してください。';
 $string['awaitingapproval'] = '承認待ち';
 $string['Body'] = '本文';
 $string['cantaddposttoforum'] = 'あなたはこのフォーラムに投稿できません。';
@@ -44,10 +42,8 @@ $string['chooseanaction'] = '処理を選択する';
 $string['clicksetsubject'] = '件名を設定するにはここをクリックしてください。';
 $string['Closed'] = '閉鎖';
 $string['Close'] = 'クローズ';
-$string['closeddescription'] = 'クローズ済みトピックではモデレータおよびグループ管理者のみ返信できます。';
 $string['complaint'] = 'クレーム';
 $string['Count'] = 'カウント';
-$string['createtopicusersdescription'] = '「すべてのグループメンバ」を設定した場合、誰でも新しいトピックを作成および既存のトピックに返信できます。「モデレータおよびグループ管理者のみ」を設定した場合、モデレータおよびグループ管理者のみ新しいトピックを開始できます。しかし、「モデレータおよびグループ管理者のみ」を設定してトピックが存在する場合、すべてのグループメンバが返信できます。';
 $string['currentmoderators'] = '現在のモデレータ';
 $string['defaultforumtitle'] = '一般的なディスカッション';
 $string['defaultforumdescription'] = '%s 一般的なディスカッションフォーラム';
@@ -132,7 +128,6 @@ $string['latestforumposts'] = '最新のフォーラム投稿';
 $string['Moderators'] = 'モデレータ';
 $string['moderatorsandgroupadminsonly'] = 'モデレータおよびグループ管理者のみ';
 $string['moderatorslist'] = 'モデレータ:';
-$string['moderatorsdescription'] = 'モデレータはトピックおよび投稿を編集および削除できます。オープン、クローズ、トピックのスティッキ設定および設定解除もできます。';
 $string['name'] = 'フォーラム';
 $string['nameplural'] = 'フォーラム';
 $string['newforum'] = '新しいフォーラム';
@@ -159,7 +154,6 @@ $string['objectionabletopicdeletedbody'] = '%s は前に好ましくないコン
 %s';
 $string['Open'] = 'オープン';
 $string['Order'] = '並べ替え順';
-$string['orderdescription'] = 'このフォーラムがフォーラム一覧に表示される場合のポジションを選択してください。';
 $string['Post'] = '投稿';
 $string['postaftertimeout'] = 'あなたは %s 分のタイムアウト後に変更を送信しました。あなたの変更は適用されませんでした。';
 $string['postapprovesuccessful'] = '投稿が承認されました。';
@@ -167,7 +161,6 @@ $string['postbyuserwasdeleted'] = '%s による投稿が削除されました。
 $string['postnotapprovederror'] = '投稿の承認済みマーク中にエラーが発生しました。';
 $string['postsbyuserweredeleted'] = '%s 件の投稿 (投稿者: %s) が削除されました。';
 $string['postdelay'] = '投稿遅延';
-$string['postdelaydescription'] = '新しい投稿が購読者に送信される前に経過する必要のある最小時間 (分) です。投稿者はこの時間内に投稿内容を編集できます。';
 $string['postedin'] = '%s が %s に投稿しました。';
 $string['Poster'] = '投稿者';
 $string['postobjectionable'] = 'この投稿はあなたにより好ましくないコンテンツを含んでいると報告されました。';
@@ -193,9 +186,6 @@ $string['reportobjectionablematerial'] = '報告';
 $string['reportpost'] = '投稿報告';
 $string['reportpostsuccess'] = '投稿が正常に報告されました。';
 $string['sendnow'] = '今すぐメッセージを送信する';
-$string['sendnowdescription'] = '少なくとも %s 分間送信を待機する代わりにメッセージをすぐに送信します。';
-$string['Sticky'] = 'スティッキ';
-$string['stickydescription'] = 'スティッキトピックはすべてのページの再上部に表示されます。';
 $string['stickytopics'] = 'スティッキトピック';
 $string['Subscribe'] = '購読';
 $string['Subscribed'] = '購読済み';
@@ -219,7 +209,6 @@ $string['topicupdatefailed'] = 'トピックの更新に失敗しました。';
 $string['typenewpost'] = '新しいフォーラム投稿';
 $string['typereportpost'] = 'フォーラム内の好ましくないコンテンツ';
 $string['typepostmoderation'] = 'フォーラムモデレーション';
-$string['Unsticky'] = 'スティッキ解除';
 $string['Unsubscribe'] = '購読解除';
 $string['unsubscribefromforum'] = 'フォーラムを購読解除する';
 $string['unsubscribefromtopic'] = 'トピックを購読解除する';
@@ -238,14 +227,10 @@ $string['indentmode'] = 'フォーラムのインデントモード';
 $string['indentfullindent'] = '完全に広げる';
 $string['indentmaxindent'] = '最大まで広げる';
 $string['indentflatindent'] = 'インデントなし';
-$string['indentmodedescription'] = 'このフォーラム内のトピックをどのようにインデントするか指定してください。';
 $string['maxindent'] = '最大インデントレベル';
 $string['maxindentdescription'] = 'トピックの最大インデントレベルを設定してください。この設定はインデントモードが「最大まで広げる」に設定された場合のみ適用されます。';
 $string['closetopics'] = '新しいトピックをクローズする';
-$string['closetopicsdescription1'] = 'すべての新しいトピックをデフォルトでクローズします。モデレータおよびグループ管理者のみクローズ済みトピックに返信できます。';
 $string['approvalofposts'] = '投稿の承認';
-$string['moderatenewposts'] = '新しい投稿をモデレートする';
-$string['moderatenewpostsdescription1'] = '新しい投稿はフォーラムモデレータまたは管理者により承認される必要があります。';
 $string['activetopicsdescription'] = 'あなたのグループ内で最近更新されたトピックです。';
 $string['timeleftnotice1'] = 'あなたには編集を終了するまで残り <span class="num">%s</span> 分あります。';
 $string['timeleftnoticeexpired'] = '編集時間が終了しました。あなたの変更は保存されません。';
@@ -284,7 +269,7 @@ $string['objectionablecontentposttext'] = 'フォーラムトピック「 %s 」
 %s
 報告者のプロファイルを閲覧するには次のリンクにアクセスしてください:
 %s';
-$string['postsandreplies'] = '投稿および返信';
+$string['topicsandreplies'] = 'トピックおよび返信';
 $string['postneedapprovalsubject'] = 'フォーラム「 %s 」の新しい投稿にモデレーションが必要です。';
 $string['postneedapprovalbody'] = '%s がフォーラム「 %s 」に投稿しました。モデレーション待ちです。
 

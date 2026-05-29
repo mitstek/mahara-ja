@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-26 13:49:38 UTC
+ * @updated    2026-05-29 05:33:00 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -74,20 +74,35 @@ $string['longformathours'] = '%s 時間';
 $string['longformatminutes'] = '%s 分';
 $string['longformathoursminutes'] = '%s 時間 %s 分';
 $string['Experience'] = '経験';
+$string['experience_help'] = '<h1>経験</h1><p>あなたの活動を追加したいCPD経験を選択してください。</p>
+<hr>
+<h2>詳細</h2>
+<p>あなたの活動を経験に関連付けた場合、ポートフォリオページでその経験に関連するすべての活動をすばやく選択できます。また、完了した時間数をグラフ概要で確認もできます。</p>';
 $string['experience'] = '経験';
 $string['experiences'] = '経験';
 $string['cpdsexperiences'] = 'CPD %s 経験';
+$string['cpdsexperiencesdesc1'] = 'まだCPD経験はありません。';
+$string['noexperiencesaddone1'] = '%s設定してください%s。';
 $string['newexperience'] = '新しい経験';
 $string['newcpdexperience'] = '新しいCPD経験';
 $string['cpdsexperiencestitle'] = 'CPD経験';
 $string['experiencetitle'] = '経験タイトル';
-$string['experiencedescdesc'] = 'このCPD経験について目的、オーディエンス、最終更新日等の簡単な説明を入力してください。';
+$string['experiencenotes'] = '経験ノート';
+$string['description_help'] = '<h1>経験ノート</h1><p>あなたはこのフィールドにこの体験に関する情報を編集権限のある他の管理者に伝えるための下書きノート、更新日等を記入できます。</p>';
+$string['experiencedescdesc'] = '<h1>経験</h1><p>あなたの活動を追加したいCPD経験を選択してください。</p>
+<hr>
+<h2>詳細</h2>
+<p>あなたの活動を経験に関連付けた場合、ポートフォリオページでその経験に関連するすべての活動をすばやく選択できます。また、完了した時間数をグラフ概要で確認もできます。</p>';
 $string['experienceminhours'] = '最小時間数';
+$string['minimumhours_help'] = '<h1>最小時間数</h1><p>この経験全体で達成すべき最小時間数 (整数) を入力してください。</p>';
 $string['experiencemaxhours'] = '最大時間数';
+$string['maximumhours_help'] = '<h1>最大時間数</h1><p>この経験全体で達成すべき最大時間数 (整数) を入力してください。</p>';
 $string['saveexperience'] = '経験を保存する';
 $string['saveexperienceconfirmation'] = '本当にこの経験の設定を変更してもよろしいですか? あなたの変更はすでにこの経験を使用しているすべてのアカウント保持者に影響します。';
 $string['experiencetabletitle'] = 'CPD経験';
 $string['active'] = 'アクティブ';
+$string['experience.isactive_help'] = '<h1>アクティブ</h1>
+<p>アクティブにされている場合、経験はあなたのインスティテューションのすべての人に表示されます。また、時間の記録が可能となります。非アクティブにされている場合、まだ利用開始していない人には非表示になりますが、すでに時間を記録している人は引き続きアクセスできます。</p>';
 $string['inactive'] = '非アクティブ';
 $string['cpdexperiencesavedsuccessfully'] = 'CPD経験が正常に保存されました。';
 $string['editexperience'] = '経験を編集する';
@@ -102,13 +117,19 @@ $string['categorydoesnotexist'] = 'カテゴリが存在しません。';
 $string['categorytitle'] = 'カテゴリタイトル';
 $string['Category'] = 'カテゴリ';
 $string['categories'] = 'カテゴリ';
+$string['category_help'] = '<h1>カテゴリ</h1>
+<p>あなたの活動を追加したいカテゴリ/サブカテゴリを選択してください。あなたは時間を入力できるカテゴリのみ選択可能です。</p>';
 $string['categoryparent'] = 'サブカテゴリ';
+$string['category_parent_help'] = '<h1>サブカテゴリ</h1><p>あなたの経験をより整理しやすくするために現在のカテゴリを特定のカテゴリのサブカテゴリにしたい場合、カテゴリを選択してください。</p>';
 $string['categoryminhours'] = '最小時間数';
-$string['categoryminhoursdesc'] = 'カテゴリで達成する必要のある最小時間数 (整数) を入力してください。';
+$string['categoryminhoursdesc'] = '整数のみ入力してください。';
 $string['categorymaxhours'] = '最大時間数';
-$string['categorymaxhoursdesc'] = 'カテゴリで達成する必要のある最大時間数 (整数) を入力してください。';
+$string['categorymaxhoursdesc'] = '整数のみ入力してください。';
 $string['categorynumreflec'] = '内省数';
+$string['categorynumreflec_desc'] = '整数のみ入力してください。';
+$string['category_numreflections_help'] = '<h1>内省</h1><p>あなたは活動の一環として学習者に内省を提出するよう依頼できます。その内容は活動上で直接確認できます。「CPD概要」セクションには提出されたすべての内省の累計数が表示されます。</p>';
 $string['categoryhashours'] = '時間付きカテゴリ';
+$string['categoryhashours_help'] = '<h1>時間付きカテゴリ</h1><p>ポートフォリオ作成者はこのカテゴリを選択して時間設定できますか?</p>';
 $string['addcategorylink'] = 'カテゴリを追加する';
 $string['cannotdeleteinexperience'] = '一度経験が使用されたカテゴリは削除できません。';
 $string['cannotdeleteonlycategory'] = '唯一のカテゴリは削除できません。';
@@ -122,3 +143,12 @@ $string['onlycategory'] = '他のカテゴリは存在しない';
 $string['noneselected'] = '選択なし';
 $string['cpdactivity'] = 'CPD活動';
 $string['progress_cpdactivity'] = '%s CPD活動を追加する';
+$string['cpds_help'] = '<h1>CPD</h1>
+<p>継続的専門能力開発 (CPD) 活動はこちらまたはページのCPDセクションから直接登録してください。それぞれの活動に関してタイトル、日付、場所、説明および所要時間を記録できます。あなたの合計時間は自動的に計算されます。</p>
+<p>タグおよび開始日を使用してページのCPDセクションに表示される活動をフィルタできます。<p>
+<p>あなたのサイト上でCPD経験が設定されている場合、それを利用して活動をグループ分けして進捗状況を視覚的に把握してください。</p>';
+$string['cpdsexperience_help'] = '<h1>CPD経験</h1>
+<p>CPD経験を設定してプログラム内の活動をカテゴリ分けできるようにします。また、経験全体およびカテゴリの進捗状況を視覚的に把握できるようにします。</p>
+<p>タグおよび開始日を使用してページのCPDセクションに表示される活動をフィルタできます。<p><p>あなたのサイト上でCPD経験が設定されている場合、それを利用して活動をグループ分けして進捗状況を視覚的に把握してください。</p>';
+$string['reflection_help'] = '<h1>内省</h1>
+<p>このスペースを利用して、自分が何をしたか、次回はどのように改善すべきか、そして何が上手くできたかを振り返ってみてください。また、あなたが得た学びを仕事または私生活の他の分野にどう活かせるか考えてみましょう。</p><p>内省が形式的要件である場合、あなたのポートフォリオのインストラクションを確認して具体的にどのような点について記述すべきか確認してください。</p>';

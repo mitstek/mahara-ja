@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-22 04:44:18 UTC
+ * @updated    2026-05-27 01:39:49 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -157,6 +157,7 @@ $string['progress_joingroup'] = '%s グループに参加する';
 $string['progress_makefriend'] = '%s フレンドを作る';
 $string['socialprofile'] = 'ソーシャルメディア';
 $string['profileurl1'] = 'アカウントURL';
+$string['profileurl_help'] = '<h1>アカウントURL</h1><p>あなたのソーシャルメディアアカウントの公開ページのURLです。</p>';
 $string['deleteprofile'] = 'ソーシャルメディアアカウントを削除する';
 $string['deletethisprofile'] = 'ソーシャルメディアアカウントを削除する:「 %s 」';
 $string['deleteprofileconfirm'] = '本当にこのソーシャルメディアアカウントを削除してもよろしいですか?';
