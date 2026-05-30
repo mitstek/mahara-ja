@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-02-02 19:37:44 UTC
+ * @updated    2026-05-30 13:47:29 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -88,11 +88,11 @@ $string['reset'] = 'メタデータをリセットする';
 $string['resetmetadata'] = 'Maharaのメタデータの証明書をリセットします。これは元には戻せません。また、あなたのメタデータをアイデンティティプロバイダと再共有する必要があります。';
 $string['samlconfig'] = 'SAML設定';
 $string['samlfieldforemail'] = 'メールアドレスのSSOフィールド';
-$string['samlfieldforfirstname'] = '名のSSOフィールド';
-$string['samlfieldforsurname'] = '姓のSSOフィールド';
-$string['samlfieldforstudentid'] = '学籍番号のSSOフィールド';
-$string['samlfieldforavatar'] = 'アバタアイコンのSSOフィールド';
-$string['samlfieldforavatardescription'] = '提供されるアバタにはBase64エンコードされたイメージストリングを含む必要があります。';
+$string['samlfieldforfirstname'] = '名属性';
+$string['samlfieldforsurname'] = '姓属性';
+$string['samlfieldforstudentid'] = 'ID属性';
+$string['samlfieldforavatar'] = 'アバタアイコン属性';
+$string['auth_config.avatar_help'] = '<h1>アバタアイコン属性</h1><p>IDプロバイダから渡されるアバタアイコン属性を含む属性名です。</p><p>アバタはBase64エンコードされた画像文字列でなければなりません。</p>';
 $string['samlfieldforrole'] = 'ロールのSSOフィールド';
 $string['samlfieldforroleprefix'] = 'ロール接頭辞のSSOフィールド';
 $string['samlfieldforidaffiliations'] = 'アフィリエーションIDのSSOフィールド';
@@ -109,7 +109,6 @@ $string['populaterolestoallsaml'] = 'すべてのSAMLインスタンスにロー
 $string['populaterolestoallsamldescription'] = 'この設定が有効にされた場合、フォーム送信時にすべての「ロール」フィールドの値が同じアイデンティティプロバイダを使用する他のすべてのSAML認証インスタンスにコピーされます。その後、このフィールドは「No」にリセットされます。';
 $string['samlfieldforautogroups'] = '「自動グループ管理者」のロールマッピング';
 $string['samlfieldforautogroupsall'] = 'サイトのすべてのグループの自動グループ管理';
-$string['samlfieldforautogroupsalldescription'] = 'この設定を有効にした場合、「自動グループ管理」ロールを持つ人はサイト全体のすべてのグループにグループ管理者として追加されます。そうでない場合、自分のインスティテューション内のグループのグループ管理者として追加されます。';
 $string['samlfieldauthloginmsg'] = '不正ログインメッセージ';
 $string['spentityid'] = 'サービスプロバイダエンティティID';
 $string['title'] = 'SAML';
@@ -126,9 +125,7 @@ $string['sha384'] = 'SHA384';
 $string['sha512'] = 'SHA512';
 $string['sigalgo'] = '署名アルゴリズム';
 $string['keypass'] = '秘密鍵パスフレーズ';
-$string['keypassdesc'] = '秘密鍵を保護するためのパスフレーズです。';
 $string['newkeypass'] = '新しい秘密鍵パスフレーズ';
-$string['newkeypassdesc'] = 'あなたが現在のパスフレーズと異なるものにしたい場合の新しい秘密鍵を保護するためのパスフレーズです。';
 $string['createnewkeytext'] = '新しい鍵/証明書を作成する';
 $string['newkeycreated'] = '新しい鍵/証明書が作成されました。';
 $string['deleteoldkeytext'] = '古い鍵/証明書を削除する';
