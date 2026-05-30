@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-27 01:28:58 UTC
+ * @updated    2026-05-29 17:34:52 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -318,8 +318,12 @@ $string['filepermission.republish'] = '公開';
 $string['zipdownloadheading'] = 'フォルダダウンロード';
 $string['downloadfolderzip'] = 'フォルダをZIPファイルとしてダウンロードする';
 $string['downloadfolderzipblock'] = 'ダウンロードリンクを表示する';
+$string['downloadfolderziplink1'] = 'フォルダをダウンロードする';
 $string['folderdownloadnofolderfound'] = 'ID %d のフォルダが見つかりません。';
 $string['zipfilenameprefix'] = 'フォルダ';
+$string['keepzipfor1'] = 'ZIPファイル保持期間';
+$string['keepzipfordescription1'] = '秒';
+$string['pluginconfig.folderdownloadkeepzipfor_help'] = '<h1>ZIPファイル保持期間</h1><p>フォルダをダウンロードする際に作成されるZIPファイルを保持する期間 (秒) です。</p>';
 $string['progress_archive'] = '%s アーカイブファイルを追加する';
 $string['progress_audio'] = '%s オーディオファイルを追加する';
 $string['progress_file'] = '%s ファイルを追加する';
@@ -328,6 +332,7 @@ $string['progress_image'] = '%s イメージを追加する';
 $string['progress_profileicon'] = '%s プロファイル画像を追加する';
 $string['progress_video'] = '%s ビデオを追加する';
 $string['count_file'] = '%s ファイル';
+$string['count_folder'] = '%s フォルダ';
 $string['anytypeoffile'] = 'ファイル (すべてのタイプ)';
 $string['viruszipfile'] = 'ClamAVはウイルスに感染しているファイルを発見しました。圧縮ファイルは隔離されて、あなたのアカウントから削除されました。';
 $string['filetypenotallowed'] = '拡張子「 %s 」のファイルは許可されません。';

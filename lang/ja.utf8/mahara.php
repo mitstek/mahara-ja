@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-27 01:33:18 UTC
+ * @updated    2026-05-30 07:14:52 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1391,7 +1391,31 @@ $string['buttonclose'] = '閉じるボタン';
 $string['pagetitle'] = 'ページタイトル';
 $string['carddefault'] = 'デフォルトカード';
 $string['carddefault_example'] = 'これはデフォルトカードです。';
+$string['cardportfolio'] = 'ポートフォリオカード';
+$string['cardportfolio_info1'] = 'ダッシュボード、プロファイルページおよびグループのホームページを除く、ポートフォリオページで使用されるカードです。';
+$string['cardportfolio_info2'] = 'これらのカードには枠線またはヘッダアイコンがありません。';
+$string['cardportfolio_info3'] = '折りたたみ式のものもあり、カードヘッダが付いているものと付いていないものがあります。';
+$string['cardportfolio_example'] = 'これはポートフォリオカードです。';
+$string['cardside'] = 'サイドカード';
+$string['cardside_info'] = 'サイドカードはサイドバー (例えばダッシュボードの右側等) で使用されます。一部のテーマでは強調するためにこれらを異なるスタイルで表示する場合があります。';
+$string['sidecardlink'] = 'サイドカードリンク';
+$string['deleteconfirmationheader'] = '削除確認';
+$string['dropdowns'] = 'ドロップダウンメニュー';
+$string['dropdown'] = 'ドロップダウンメニュー';
+$string['inputfilebrowser'] = 'ファイルブラウザ';
+$string['fileupload'] = 'ファイルをアップロードする';
+$string['inputcheckbox'] = 'チェックボックス';
+$string['radiobuttons'] = 'ラジオボタン';
+$string['modals'] = 'モーダル';
+$string['modals_info'] = 'モーダルウィンドウはブラウザウィンドウの中央に表示されて自動的にリサイズされます。';
+$string['modalheader'] = 'モーダルヘッダ';
+$string['addcontent'] = 'コンテンツを追加する';
+$string['navigation'] = 'ナビゲーション';
 $string['mainnavitem'] = 'メインナビゲーションアイテム';
 $string['groupmenu'] = 'グループメニュー';
 $string['groupnavitem'] = 'グループナビゲーションアイテム';
 $string['adminnavitem'] = '管理ナビゲーションアイテム';
+$string['profilepicture'] = 'プロファイル画像';
+$string['totalresults'] = '合計結果';
+$string['pagetag'] = 'ページタグ';
+$string['typography'] = 'タイポグラフィ';
