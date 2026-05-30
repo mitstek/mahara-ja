@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-27 01:39:49 UTC
+ * @updated    2026-05-29 15:36:07 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,9 +15,13 @@ defined('INTERNAL') || die();
 
 $string['pluginname'] = 'プロファイル';
 $string['profile1'] = '個人情報';
+$string['mandatoryprofilefields'] = '必須プロファイルフィールド';
+$string['pluginconfig.mandatory_help'] = '<h1>必須プロファイルフィールド</h1>
+<p>必須フィールドはアカウント作成用CSVファイルに含むか、アカウント作成後の初回ログイン時に人が自分で入力する必要があります。</p>';
 $string['searchablefields'] = '検索可能フィールド';
 $string['searchablefieldsdescription'] = '他の人が検索できるプロファイルフィールドです';
 $string['adminusersearchfields'] = '管理「人検索」';
+$string['aboutdescription1'] = 'あなたの実際の姓名をここに入力してください。システム内の人に異なる名前を表示したい場合、あなたの表示名としてその名前を入力してください。';
 $string['infoisprivate'] = 'あなたが他の人と共有しているページに置かない限り、この情報は非公開となります。';
 $string['viewmyprofile'] = '私のプロファイルを表示する';
 $string['aboutprofilelinkdescription'] = '<p>他の人に表示したい情報を編集するにはあなたの<a href="%s">プロファイル</a>ページに移動してください。</p>';
