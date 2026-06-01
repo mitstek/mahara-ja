@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-27 01:42:47 UTC
+ * @updated    2026-05-30 14:23:21 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -468,7 +468,14 @@ $string['moderate'] = 'モデレート';
 $string['moderatecomments'] = 'コメントをモデレートする';
 $string['review'] = 'レビュー';
 $string['sharedby'] = '共有';
-$string['retractable'] = '格納';
+$string['retractable'] = 'コンテンツを格納する';
+$string['retractable_help'] = '<h1>コンテンツを格納する</h1>
+<p>セクションの表示方法を選択してください:</p>
+<dl>
+<dt>No<dt><dd>セクションのタイトルおよびコンテンツはすべて表示されます。</dd>
+<dt>Yes</dt><dd>あなたがページを表示している間、このセクションを格納できます。次回アクセス時、再び展開された状態になります。</dd>
+<dt>自動格納</dt> <dd>あなたがセクションを展開して内容を確認するまでタイトルのみ表示されます。セクションにタイトルが設定されている場合のみ、あなたはこのオプションを利用できます。</dd>
+</dl>';
 $string['retractedonload'] = '自動格納';
 $string['textbox1'] = 'ノート';
 $string['image'] = 'イメージ';
