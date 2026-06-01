@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-29 17:34:52 UTC
+ * @updated    2026-06-01 09:13:31 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -50,6 +50,7 @@ $string['datemodified'] = '修正日時';
 $string['resizeonupload'] = 'アップロード時にイメージをリサイズする';
 $string['resizeonuploaddescription'] = 'アップロード時に大きなイメージを自動的にリサイズします。';
 $string['resizeonuploaduseroption1'] = 'パーソナルオプション';
+$string['pluginconfig.resizeonuploaduseroption_help'] = '<h1>パーソナルオプション</h1><p>この設定を有効にした場合、作成者はアップロード時に大きなイメージを自動的にリサイズするかどうかを選択できるようになります。</p>';
 $string['resizeonuploadenable2'] = '自動イメージリサイズ';
 $string['resizeonuploadenablefilebrowser1'] = '%sx%s pxより大きなイメージを自動的にリサイズします (推奨)。';
 $string['resizeonuploadmaxwidth'] = '最大幅';
@@ -57,6 +58,7 @@ $string['resizeonuploadmaxheight'] = '最大高';
 $string['pluginconfig.resizeonuploadenable_help'] = '<h1>自動イメージリサイズ</h1><p>この設定を有効にした場合、最大幅および最大高さを超えるイメージはアップロード時にリサイズされます。</p>';
 $string['defaultagreement'] = 'デフォルト同意';
 $string['defaultquota'] = 'デフォルトクオータ';
+$string['defaultquotadescription1'] = 'アカウントのデフォルトのファイル保存クオータを設定します';
 $string['defaultuserquota1'] = 'アカウントクオータ';
 $string['updateuserquotas'] = 'アカウントクオータを更新する';
 $string['institutionoverride1'] = 'インスティテューションオーバーライド';
@@ -66,7 +68,7 @@ $string['maxquotatoolow'] = '最大クオータをデフォルトクオータよ
 $string['maxquotaexceeded'] = 'あなたはこのサイトに設定されている最大利用可能サイズ (%s) を超えてクオータを指定しました。値を小さくするかサイト管理者に連絡して最大クオータを増やしてください。';
 $string['maxquotaexceededform'] = '%s より小さなファイルクオータを指定してください。';
 $string['defaultgroupquota1'] = 'グループクオータ';
-$string['defaultgroupquotadescription'] = 'あなたは新しいグループがファイルエリアで使用できるディスクスペース総量を設定できます。';
+$string['defaultgroupquotadescription'] = 'グループのデフォルトのファイル保存クオータを設定します。';
 $string['updategroupquotas'] = 'グループクオータを更新する';
 $string['deletingfailed'] = '削除に失敗しました: ファイルまたはフォルダはもう存在していません。';
 $string['deletefile?'] = '本当にこのファイルを削除してもよろしいですか?';
