@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-01 03:43:10 UTC
+ * @updated    2026-06-02 15:06:45 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -393,7 +393,7 @@ $string['embeddedcontent'] = '埋め込みコンテンツ';
 $string['embeddedcontentdescription'] = '人がポートフォリオにビデオまたは他のサイトのコンテンツを埋め込めるようにしたい場合、あなたは以下で信頼できるサイトを選択できます。';
 $string['Everyone'] = '誰でも';
 $string['generatesitemap1'] = 'サイトマップ';
-$string['homepageinfo1'] = 'ホームページ/ダッシュボード情報を表示する';
+$string['homepageinfo1'] = 'ホームページおよびダッシュボード情報を表示する';
 $string['homepageredirect'] = 'カスタムランディングページ';
 $string['homepageredirecturl'] = 'ランディングページ';
 $string['homepageredirecturldescription'] = 'この設定を動作させるにはすべての登録済みの人がページにアクセスできる必要があります。';
