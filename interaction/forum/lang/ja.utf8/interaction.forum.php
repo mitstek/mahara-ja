@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-27 01:31:05 UTC
+ * @updated    2026-06-01 12:33:28 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -60,10 +60,12 @@ $string['editpost'] = '投稿を編集する';
 $string['editpostsuccess'] = '投稿が正常に編集されました。';
 $string['editstothispost'] = 'この投稿の編集:';
 $string['edittitle'] = 'フォーラムを編集する';
+$string['edit'] = '編集';
 $string['edittopic'] = 'トピックを編集する';
 $string['edittopicspecific'] = 'トピック「 %s 」を編集する';
 $string['edittopicsuccess'] = 'トピックが正常に編集されました。';
 $string['forumname'] = 'フォーラム名';
+$string['forum_topics'] = 'フォーラムトピック';
 $string['forumposthtmltemplate'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;"><strong>フォーラム: %s (%s)</strong></div>
 
 <div style="margin: 1em 0;">%s</div>
@@ -115,6 +117,7 @@ $string['forumpostattachmentinternal'] = '%s
 
 添付:
 %s';
+$string['createdby'] = '作成者:';
 $string['forumsettings'] = 'フォーラム設定';
 $string['forumsuccessfulsubscribe'] = 'フォーラムが正常に購読されました。';
 $string['forumfailunsubscribe'] = 'あなたは購読解除を許可されていません。';

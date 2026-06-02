@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-30 07:14:49 UTC
+ * @updated    2026-06-02 07:47:13 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -843,6 +843,10 @@ $string['Results'] = '結果';
 $string['noresultsfound'] = '結果は見つかりませんでした。';
 $string['users'] = '人';
 $string['searchwithin'] = '検索対象';
+$string['header_introduction'] = '自己紹介';
+$string['header_portfolios'] = 'ポートフォリオ';
+$string['header_roles'] = 'ロール';
+$string['header_friendship'] = 'フレンドシップ';
 $string['artefact'] = 'アーティファクト';
 $string['Artefact'] = 'アーティファクト';
 $string['Artefacts'] = 'アーティファクト';
@@ -1391,6 +1395,12 @@ $string['attachmentsfile'] = 'ファイル名';
 $string['attachmentsdescription'] = 'ファイル説明';
 $string['textlinkicon_example2'] = '標準リンク';
 $string['buttonclose'] = '閉じるボタン';
+$string['buttoncolour'] = '色ボタン';
+$string['buttoninfo'] = '情報ボタン';
+$string['buttonsuccess'] = '成功ボタン';
+$string['buttonwarning'] = '警告ボタン';
+$string['buttondanger'] = '危険ボタン';
+$string['buttongroups'] = 'ボタングループ';
 $string['pagetitle'] = 'ページタイトル';
 $string['carddefault'] = 'デフォルトカード';
 $string['carddefault_example'] = 'これはデフォルトカードです。';
