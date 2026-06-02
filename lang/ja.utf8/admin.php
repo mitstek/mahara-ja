@@ -626,7 +626,7 @@ $string['embeddedcontentdescription'] = 'ユーザがポートフォリオにビ
 $string['Everyone'] = '誰でも';
 $string['generatesitemap1'] = 'サイトマップ';
 $string['generatesitemapdescription'] = 'パブリックにアクセス可能なページ、グループおよびフォーラムトピックからサイトマップファイルを生成します。';
-$string['homepageinfo1'] = 'ホームページ/ダッシュボード情報を表示する';
+$string['homepageinfo1'] = 'ホームページおよびダッシュボード情報を表示する';
 <<<<<<< HEAD
 $string['homepageinfodescription4'] = 'サイト情報および利用状況をホームページに表示します。登録済みの人はこの情報を自分のダッシュボードで秘匿できます。';
 $string['homepageredirect'] = 'カスタムランディングページ';
