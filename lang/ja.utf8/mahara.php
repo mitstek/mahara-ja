@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-02 07:47:13 UTC
+ * @updated    2026-06-04 04:56:53 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -291,7 +291,16 @@ $string['licensenone1'] = 'All rights reserved';
 $string['licensenonedetailed1'] = '© %s, all rights reserved';
 $string['licensingadvanced'] = '高度なライセンス';
 $string['licensor'] = 'ライセンス許諾者';
+$string['licensor_help'] = '<h1>ライセンサ</h1>
+<p>あなたが作成者ではない場合、コンテンツのオリジナルの作成者です。あなたがコンテンツの再利用許可を得ていることを確認してください。</p>';
+$string['instconf_artefactids_licensor_help'] = '<h1>ライセンサ</h1>
+<p>あなたが作成者ではない場合、コンテンツのオリジナルの作成者です。あなたがコンテンツの再利用許可を得ていることを確認してください。</p>';
+$string['editpost_filebrowser_licensor_help'] = '<h1>ライセンサ</h1>
+<p>あなたが作成者ではない場合、コンテンツのオリジナルの作成者です。あなたがコンテンツの再利用許可を得ていることを確認してください。</p>';
 $string['licensorurl'] = 'オリジナルURL';
+$string['licensorurl_help'] = '<h1>オリジナルURL</h1><p>このコンテンツが最初に公開されたURLです。</p>';
+$string['instconf_artefactids_licensorurl_help'] = '<h1>オリジナルURL</h1><p>このコンテンツが最初に公開されたURLです。</p>';
+$string['editpost_filebrowser_licensorurl_help'] = '<h1>オリジナルURL</h1><p>このコンテンツが最初に公開されたURLです。</p>';
 $string['licensemandatoryerror'] = 'ライセンスフィールドは必須です。';
 $string['licensenocustomerror'] = 'これはこのサイトで許可されているライセンスではありません。';
 $string['quota'] = 'クオータ';
