@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-19 01:53:39 UTC
+ * @updated    2026-06-03 07:54:26 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -28,3 +28,10 @@ $string['savepublishhelp1'] = '<p><strong>下書きを保存する:</strong> あ
 $string['type'] = '評価タイプ';
 $string['self'] = '自己評価';
 $string['peer'] = '相互評価';
+$string['type_help'] = '<h1>評価タイプ</h1><p>このセクションの評価タイプを選択してください。</p><hr><h2>詳細</h2><p>あなたに適切な権限がある場合、選択できる評価には2種類あります:</p>
+<dl>
+<dt>相互評価</dt>
+<dd>あなたのポートフォリオを共有する際に相手に「ピア」ロールを付与した場合、その相手はページ上の指定されたスペースに評価を記入できるようになります。所属するインスティテューションの設定により相手があなたの記入内容を確認できる場合とできない場合があります。</dd>
+<dt>自己評価</dt>
+<dd>このオプションを使用した場合、あなたは独自評価を記入できます。これはチュータまたは評価者から詳細な説明を求められた際に有用です。あなたはオリジナルの評価を変更することなく新しい自己評価を追加できるため、後から追加した内容を明確に確認できます。</dd>
+</dl>';
