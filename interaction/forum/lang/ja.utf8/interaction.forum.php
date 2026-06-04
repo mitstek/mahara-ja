@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-01 12:33:31 UTC
+ * @updated    2026-06-04 07:09:59 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -157,6 +157,7 @@ $string['objectionabletopicdeletedbody'] = '%s は前に好ましくないコン
 %s';
 $string['Open'] = 'オープン';
 $string['Order'] = '並べ替え順';
+$string['edit_interaction.weight_help'] = '<h1>並べ替え順</h1><p>フォーラム一覧でのこのフォーラムの位置を選択してください。</p>';
 $string['Post'] = '投稿';
 $string['postaftertimeout'] = 'あなたは %s 分のタイムアウト後に変更を送信しました。あなたの変更は適用されませんでした。';
 $string['postapprovesuccessful'] = '投稿が承認されました。';
@@ -189,6 +190,7 @@ $string['reportobjectionablematerial'] = '報告';
 $string['reportpost'] = '投稿報告';
 $string['reportpostsuccess'] = '投稿が正常に報告されました。';
 $string['sendnow'] = '今すぐメッセージを送信する';
+$string['showallforums'] = 'すべてのフォーラムを表示する';
 $string['stickytopics'] = 'スティッキトピック';
 $string['Subscribe'] = '購読';
 $string['Subscribed'] = '購読済み';
