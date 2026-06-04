@@ -26,7 +26,7 @@ $string['postedin'] = '-';
 $string['postedon'] = '-';
 $string['postsperpage'] = '1ページあたりのエントリ数';
 $string['showjournalitemsinfull'] = '日誌アイテムをフルに表示する';
-$string['showjournalitemsinfulldesc1'] = 'この設定を有効にした場合、日誌エントリが表示されます。そうでない場合、日誌エントリのタイトルのみ表示されます。';
+$string['showjournalitemsinfulldesc1'] = 'この設定を有効にした場合、日誌エントリが表示されます。そうではない場合、日誌エントリのタイトルのみ表示されます。';
 $string['tag'] = 'タグ';
 $string['taglist'] = '次のタグが付けられたエントリを表示する';
 $string['taglistdesc1'] = 'あなたが除外したいそれぞれのタグの前にマイナス記号を入力してください。これらのタグは背景色赤色で表示されます。';
@@ -68,7 +68,7 @@ $string['updatedon'] = '最終更新日時';
 $string['itemstoshow'] = '表示するアイテム数';
 $string['configerror'] = 'ブロック設定中にエラーが発生しました。';
 $string['showjournalitemsinfull'] = '日誌アイテムをフルに表示する';
-$string['showjournalitemsinfulldesc1'] = 'この設定を有効にした場合、日誌エントリが表示されます。そうでない場合、日誌エントリのタイトルのみ表示されます。';
+$string['showjournalitemsinfulldesc1'] = 'この設定を有効にした場合、日誌エントリが表示されます。そうではない場合、日誌エントリのタイトルのみ表示されます。';
 $string['tag'] = 'タグ';
 
 ?>
