@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-22 04:28:28 UTC
+ * @updated    2026-06-04 06:53:37 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -50,6 +50,7 @@ $string['completed'] = '完了';
 $string['incomplete'] = '未完了';
 $string['overdue'] = '期限切れ';
 $string['completiondate'] = '完了予定日';
+$string['completiondate_desc'] = 'フォーマット %s を使用する';
 $string['deletetaskconfirm'] = '本当にこのタスクを削除してもよろしいですか?';
 $string['deletetask'] = 'タスクを削除する';
 $string['deletethistask'] = 'タスクを削除する: %s';
@@ -92,6 +93,7 @@ $string['submitassignedoutcome'] = '評価のために送信する';
 $string['outcomeiscurrentlysubmitted'] = '現在、このポートフォリオは評価のために送信されています。';
 $string['template'] = 'テンプレート';
 $string['startdate'] = '開始日';
+$string['startdate_desc'] = 'フォーマット %s を使用する';
 $string['reminder'] = 'リマインダ';
 $string['taskview'] = 'タスクページ';
 $string['outcome'] = '課題ポートフォリオ';

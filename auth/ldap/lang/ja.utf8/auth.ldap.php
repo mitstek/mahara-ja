@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-30 14:08:53 UTC
+ * @updated    2026-06-04 07:00:31 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -86,6 +86,8 @@ $string['syncusersgonefromldapsuspend'] = 'アカウントを利用停止する'
 $string['syncusersgonefromldapdelete'] = 'アカウントおよびコンテンツすべてを削除する';
 $string['userattribute'] = 'アカウント属性';
 $string['usertype'] = 'アカウントタイプ';
-$string['weautocreateusers'] = 'こちらでアカウントを自動作成する';
+$string['weautocreateusers'] = 'アカウント自動作成';
+$string['weautocreateusers_help'] = '<h1>アカウント自動作成</h1>
+<p>この設定を有効にした場合、認証に成功したもののまだアカウントのない人に自動的にアカウントが作成されます。</p>';
 $string['updateuserinfoonlogin'] = 'ログイン時、アカウント情報を更新する';
 $string['cannotconnect'] = 'LDAPホストに接続できません。';

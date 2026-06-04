@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-29 15:36:07 UTC
+ * @updated    2026-06-04 07:14:27 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -35,6 +35,7 @@ $string['fullname'] = 'フルネーム';
 $string['institution'] = 'インスティテューション';
 $string['studentid'] = '学籍番号';
 $string['preferredname'] = '表示名';
+$string['profileform.preferredname_help'] = '<h1>表示名</h1><p>あなたは表示名の使用を選択できます。あなたは表示名を自由に設定できます。これにより表示されるあなたのフルネームが置換されます。スタッフ、インスティテューションおよびインスティテューションサポート管理者およびサイト管理者は引き続きあなたのフルネームを確認できます。</p>';
 $string['introduction'] = '自己紹介';
 $string['email'] = 'メールアドレス';
 $string['maildisabled'] = 'メール無効';
