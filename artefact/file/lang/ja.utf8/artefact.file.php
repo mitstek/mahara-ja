@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-04 00:13:32 UTC
+ * @updated    2026-06-04 04:55:58 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -382,3 +382,29 @@ $string['alttext_help'] = '<h1>代替テキスト (altテキスト)</h1>
 <p>これは画像のツールチップとして表示されるテキストです。</p>
 <p>このテキストは画像が何を「表現」しているかではなく、実際に何が写っているか説明することを目的としています。</p>
 <p>例えばスズメの画像の代替テキストは「木の枝に止まっている鳥」とします。説明文 (画像キャプション) は「夜明けにさえずるスズメ」とできます。</p>';
+$string['altiscaption_help'] = '<h1>キャプションとしてのaltテキスト</h1>
+<p>この設定を有効にした場合、「キャプション」フィールドのテキストの代わりに、代替テキストがキャプションとして使用されます。既存のキャプションテキストは無視されます。</p>';
+$string['tags_help'] = '<h1>タグ</h1>
+<p>アーティファクト、ページ、コレクションにタグを追加した場合、検索しやすくなります。</p><hr><h2>詳細</h2><p>検索ボックスに文字を入力して一致するタグを表示した後、追加したいタグを1つまたはそれ以上選択してください。</p><p>新しいタグを作成するには用語を入力して「Enter」キーを押してください。タグを削除するには横にある<strong>「x」</strong>を選択してください。</p>
+<p><strong>ヒント:</strong>「profile」タグを追加した場合、ダッシュボードのあなたのプロファイルサイドバーにそのタグが付けられたアイテムがショートカットとして表示されます。</p>';
+$string['groupquota_message_help'] = '<h1>グループクオータ</h1>
+<p>このグループにはファイルアップロード用の保存クオータが設定されています。制限の引き上げが必要な場合、あなたのサイト管理者にご連絡ください。</p>';
+$string['quota_message_help'] = '<h1>クオータ</h1>
+<p>ファイルのアップロードには設定された容量制限があります。</p><p>制限の引き上げが必要な場合、あなたの管理者にご連絡ください。</p>';
+$string['pluginconfig.resizeonuploadmaxwidth_help'] = '<h1>最大幅</h1>
+<p>アップロードするイメージの最大幅 (ピクセル) です。このサイズを超えるイメージはイメージのリサイズが有効にされている場合、アップロード時にリサイズされます。</p>';
+$string['pluginconfig.resizeonuploadmaxheight_help'] = '<h1>最大高</h1>
+<p>アップロードするイメージの最大高 (ピクセル) です。このサイズを超えるイメージはイメージのリサイズが有効にされている場合、アップロード時にリサイズされます。</p>';
+$string['files_filebrowser_edit_licensor_help'] = '<h1>ライセンサ</h1>
+<p>あなたが作成者ではない場合、コンテンツのオリジナルの作成者です。あなたがコンテンツの再利用許可を得ていることを確認してください。</p>';
+$string['addactivities_filebrowser_licensor_help'] = '<h1>ライセンサ</h1>
+<p>あなたが作成者ではない場合、コンテンツのオリジナルの作成者です。あなたがコンテンツの再利用許可を得ていることを確認してください。</p>';
+$string['edittopic_filebrowser.edittopic_filebrowser_licensor_help'] = '<h1>ライセンサ</h1>
+<p>あなたが作成者ではない場合、コンテンツのオリジナルの作成者です。あなたがコンテンツの再利用許可を得ていることを確認してください。</p>';
+$string['files_filebrowser.files_filebrowser_licensor_help'] = '<h1>ライセンサ</h1>
+<p>あなたが作成者ではない場合、コンテンツのオリジナルの作成者です。あなたがコンテンツの再利用許可を得ていることを確認してください。</p>';
+$string['files_filebrowser.files_filebrowser_licensorurl_help'] = '<h1>オリジナルURL</h1><p>このコンテンツが最初に公開されたURLです。</p>';
+$string['addactivities_filebrowser_licensorurl_help'] = '<h1>オリジナルURL</h1><p>このコンテンツが最初に公開されたURLです。</p>';
+$string['edittopic_filebrowser.edittopic_filebrowser_licensorurl_help'] = '<h1>オリジナルURL</h1><p>このコンテンツが最初に公開されたURLです。</p>';
+$string['files_filebrowser.files_filebrowser_filebrowser_licensorurl_help'] = '<h1>オリジナルURL</h1><p>このコンテンツが最初に公開されたURLです。</p>';
+$string['files_filebrowser_edit.files_filebrowser_edit_licensorurl_help'] = '<h1>オリジナルURL</h1><p>このコンテンツが最初に公開されたURLです。</p>';
