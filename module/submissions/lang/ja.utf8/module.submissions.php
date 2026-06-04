@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-08 01:19:23 UTC
+ * @updated    2026-06-03 01:13:12 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -31,6 +31,7 @@ $string['State'] = 'ステータス';
 $string['assessor'] = '評価者';
 $string['submitter'] = '作成者';
 $string['release'] = 'リリース予定';
+$string['complete_assessment'] = '提出をリリースする';
 $string['fix'] = '修正';
 $string['notevaluated'] = '未評価';
 $string['submitted'] = '提出済み';
@@ -39,15 +40,11 @@ $string['completed'] = 'リリース済み';
 $string['revision'] = '改訂';
 $string['evaluated'] = '評価済み';
 $string['unassignedselectboxitem'] = '- 未割り当て -';
+$string['select_assessor'] = '評定者を選択する';
 $string['releaseandreturn'] = 'リリースして戻る';
 $string['releasesubmission'] = '評価を完了して提出済みポートフォリオをリリースしますか?';
 $string['releasesubmissionnoresult'] = '評価を完了して提出済みポートフォリオをリリースしますか? 注意: あなたはまだ結果を選択していません。';
 $string['fixsubmission'] = '提出を修正しますか?';
-$string['tooltip_success'] = '合格';
-$string['tooltip_remove'] = '不合格';
-$string['tooltip_external'] = '外部';
-$string['tooltip_refresh'] = '改訂';
-$string['tooltip_question'] = '未評定';
 $string['emptytable'] = 'テーブルに利用可能なデータはありません。';
 $string['info'] = '_START_ / _END_ (合計 _TOTAL_) エントリ';
 $string['infoempty'] = '0 エントリ';
@@ -85,6 +82,8 @@ $string['Open'] = 'オープン';
 $string['Completed'] = '完了';
 $string['colvislabel'] = 'カラムを設定する';
 $string['chooseresult'] = '結果を選択する';
+$string['grade_portfolio'] = 'ポートフォリオを評定する';
+$string['not_graded'] = '未評定';
 $string['noresult'] = '改訂';
 $string['fail'] = '不合格';
 $string['external'] = '外部';
@@ -112,11 +111,9 @@ $string['submissionexceptionmessage'] = '次の理由のため、このポート
 $string['actionreleased'] = 'リリース済み';
 $string['actionfixed'] = '修正済み';
 $string['submissionreleased'] = '提出「 %s 」(作成者 %s) - %s';
+$string['feedbackmodaltitle'] = '提出フィードバック';
+$string['closefeedbackmodal'] = '提出フィードバックを閉じる';
 $string['ProceedWithBackRestrictionsToExistingTab'] = '提出済みポートフォリオはすでに別のタブで開かれています。このポートフォリオを開始できますが、あなたが戻った時点で「提出」テーブル内でハイライトされません。別のタブのポートフォリオも同様です。続けてもよろしいですか?';
 $string['ProceedWithoutFlashbackFunctionality'] = '提出済みポートフォリオはすでに別のタブで開かれています。このポートフォリオを開始できますが、あなたがブラウザの「戻る」ボタンで戻った時点で「提出」テーブル内でハイライトされません。別のタブのポートフォリオも同様です。続けてもよろしいですか?';
 $string['shownameaslastnamefirstname'] = '氏名を「姓 名」のように表示する';
-$string['shownameaslastnamefirstnamedescription'] = '提出テーブルのすべての氏名表示を「姓 名」のフォーマットで表示します。';
 $string['showportfoliobuttons'] = 'ポートフォリオリンクをボタンとして表示する';
-$string['showportfoliobuttonsdescription'] = '「提出」テーブルの「アーカイブとしてダウンロードする機能」の差別化のため標準的なMaharaのポートフォリオリンクの表示をボタンに変更します。';
-$string['retentionperiod'] = '提出およびアーカイブ済みポートフォリオの保存期間';
-$string['retentionperioddescription'] = 'ポートフォリオおよび関連するアーカイブ済みポートフォリオが削除されるリリース翌年から始まる年単位の期間です。この値にゼロに設定された場合、ポートフォリオ作成者のアカウントが削除された時点ですべての投稿および関連するポートフォリオが削除されます。';

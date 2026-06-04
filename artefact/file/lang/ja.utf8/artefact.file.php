@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-02 07:40:43 UTC
+ * @updated    2026-06-04 00:13:32 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -378,3 +378,7 @@ $string['isdecorative_help'] = '<h1>装飾イメージ</h1>
 <p>このオプションはボーダまたはキラキラしたイメージ等、純粋に装飾的なイメージに対してのみ控えめに使用してください。</p>
 <p>通常、イメージに表示されている内容を説明するaltテキストを設定しておくべきです。これによりスクリーンリーダを使用している人が内容を把握しやすくなります。</p>
 <p>イメージに必ずしもキャプションが必要というわけではありません。</p>';
+$string['alttext_help'] = '<h1>代替テキスト (altテキスト)</h1>
+<p>これは画像のツールチップとして表示されるテキストです。</p>
+<p>このテキストは画像が何を「表現」しているかではなく、実際に何が写っているか説明することを目的としています。</p>
+<p>例えばスズメの画像の代替テキストは「木の枝に止まっている鳥」とします。説明文 (画像キャプション) は「夜明けにさえずるスズメ」とできます。</p>';
