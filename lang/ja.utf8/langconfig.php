@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-02-20 00:02:41 UTC
+ * @updated    2026-06-05 12:36:08 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -29,12 +29,6 @@ $string['strftimedaytime'] = '(%%a) %%H:%%M';
 $string['strftimedaytimesuffix'] = '(%%a) %%H:%%M (%%P)';
 $string['strftimemonthyear'] = '%%Y年 %%m月';
 $string['strftimenotspecified'] = '未指定';
-$string['strftimerecent'] = '%%m月 %%d日 %%H:%%M';
-$string['strftimerecentsuffix'] = '%%m月 %%d日 %%H:%%M (%%P)';
-$string['strftimerecentyear'] = '%%Y年 %%m月 %%d日 %%H:%%M';
-$string['strftimerecentyearsuffix'] = '%%Y年 %%m月 %%d日 %%H:%%M (%%P)';
-$string['strftimerecentfull'] = '%%Y年 %%m月 %%d日 (%%a) %%H:%%M';
-$string['strftimerecentfullsuffix'] = '%%Y年 %%m月 %%d日 (%%a) %%H:%%M  (%%P)';
 $string['strftimetime'] = '%%H:%%M';
 $string['strftimetimesuffix'] = '%%H:%%M  (%%P)';
 $string['strfdaymonthyearshort'] = '%%Y/%%m/%%d';
@@ -48,6 +42,7 @@ $string['datetimeclassdate_format'] = '%%Y/%%m/%%d';
 $string['strftimew3cdate_format'] = 'yyyy-MM-dd';
 $string['strftimew3cdatetime_format'] = 'yyyy-MM-dd\'T\'HH:mm:ssZZZZZ';
 $string['strftimedatetime_format'] = 'yyyy/MM/dd HH:mm';
+$string['strftimedatetime_relative_format'] = 'HH:mm';
 $string['strftimedate_format'] = 'yyyy/MM/dd';
 $string['datetimeclass_format_default'] = 'yyyy/MM/dd H:mm';
 $string['strftimedate_timeline_format'] = 'yyyy/MM';

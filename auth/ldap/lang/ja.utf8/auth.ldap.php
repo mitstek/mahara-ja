@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-04 07:00:35 UTC
+ * @updated    2026-06-05 13:02:15 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -53,7 +53,9 @@ $string['ldapfieldforstudentid'] = '学籍番号のLDAPフィールド';
 $string['studentidfield_help'] = '<h1>学籍番号のLDAPフィールド</h1>
 <p>人 (学生) の学籍番号が格納されているLDAPフィールド名です。</p>';
 $string['ldapversion'] = 'LDAPバージョン';
-$string['loginlink'] = '人に自分のアカウントへのリンクを許可する';
+$string['ldapversion_help'] = '<h1>LDAPバージョン</h1><p>あなたのサーバが使用しているLDAPプロトコルのバージョンです。</p>';
+$string['loginlink'] = '自分の内部アカウントをリンクする';
+$string['loginlink_help'] = '<h1>自分の内部アカウントをリンクする</h1><p>この設定を有効にした場合、LDAPから提供されたメールアドレスがMaharaアカウントと一致する場合に限り、人は内部認証方法を使用するアカウントを自身のLDAPアカウントと連携できます。</p>';
 $string['nocreate'] = '新しいアカウントを作成しない';
 $string['nocreatemissinggroups'] = 'まだインスティテューションにLDAPグループが設定されていない場合は作成しません。';
 $string['nomatchingauths'] = 'このインスティテューションのLDAP認証プラグインは見つかりませんでした。';
