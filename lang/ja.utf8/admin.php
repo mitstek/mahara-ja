@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-04 06:42:59 UTC
+ * @updated    2026-06-04 13:16:45 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1517,3 +1517,4 @@ $string['adduser.multipleblogs_help'] = '<h1>複数日誌</h1><p>デフォルト
 $string['uploadcsv.multipleblogs_help'] = '<h1>複数日誌</h1><p>デフォルトではあなたはサイトに1つの日誌を持てます。複数日誌を有効にした場合、タグの使用だけではなく、あなたのコンテンツをより簡単に整理できるようになります。</p>';
 $string['adduser.resizeonuploaduserdefault_help'] = '<h1>アップロード時に大きなイメージをリサイズする</h1><p>この設定を有効にした場合、最大サイズを超えるイメージはアップロード時にリサイズされます。あなたは個別のアップロードでこれを無効にできます。</p>';
 $string['uploadcsv.resizeonuploaduserdefault_help'] = '<h1>アップロード時に大きなイメージをリサイズする</h1><p>この設定を有効にした場合、最大サイズを超えるイメージはアップロード時にリサイズされます。あなたは個別のアップロードでこれを無効にできます。</p>';
+$string['siteoptions.country_help'] = '<h1>国</h1><p>選択された国はサイト全体での国選択におけるデフォルトとなります。</p><hr><h2>詳細</h2><p>国名は国際標準化機構 (ISO) が発行した<a href="https://www.iso.org/iso-3166-country-codes.html">ISO 3166</a>で定義されているとおりに表示されます。</p><p>あなたのサイト内の国名を変更するにはそれぞれの翻訳の「mahara.php」言語ファイルを編集するか、<a href="https://git.mahara.org/catalyst/mahara/-/wikis/Development/Language-strings#custom-lang-strings-in-local">ローカルディレクトリ</a>にストリングを作成してください。</p>';

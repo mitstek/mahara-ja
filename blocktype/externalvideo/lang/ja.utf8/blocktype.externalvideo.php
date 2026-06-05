@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-19 03:44:21 UTC
+ * @updated    2026-06-04 12:25:06 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -21,7 +21,9 @@ $string['videourldescription3'] = 'コンテンツが設置されているペー
 $string['validiframesites'] = '&lt;iframe&gt;タグを含む次のサイトの<strong>埋め込みコード</strong>が許可されます:';
 $string['validurlsites'] = '次のサイトの<strong>URL</strong>が許可されます:';
 $string['width'] = '幅';
+$string['width_help'] = '<h1>幅</h1><p>あなたがURLを使用する場合、メディアアイテムの幅を入力してください。あなたが埋め込みコードを使用する場合、上のコード内で直接幅を変更してください。</p>';
 $string['height'] = '高さ';
+$string['height_help'] = '<h1>高さ</h1><p>あなたがURLを使用する場合、メディアアイテムの高さを入力してください。あなたが埋め込みコードを使用する場合、上のコード内で直接高さを変更してください。</p>';
 $string['invalidurl'] = '無効なURL';
 $string['invalidurlorembed'] = '無効なURLまたは埋め込みコード';
 $string['googlevideo'] = 'Googleビデオ';
