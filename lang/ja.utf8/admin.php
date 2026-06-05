@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-04 13:16:45 UTC
+ * @updated    2026-06-05 12:47:54 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -875,6 +875,7 @@ $string['institutionshortname'] = 'インスティテューション省略名';
 $string['institutionnamealreadytaken'] = 'このインスティテューション名はすでに取得されています。';
 $string['institutiondisplayname'] = 'インスティテューション表示名';
 $string['institutionexpiry'] = 'インスティテューション有効期限';
+$string['institution.expiry_help'] = '<h1>有効期限</h1><p>次のフォーマットを使用してください: YYYY/MM/DD</p>';
 $string['institutionlanguage'] = '言語';
 $string['includedinstitutions'] = '含まれるインスティテューション (省略名)';
 $string['excludedinstitutions'] = '除外されるインスティテューション (省略名)';

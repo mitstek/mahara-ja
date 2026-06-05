@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-23 14:30:25 UTC
+ * @updated    2026-06-05 12:54:01 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -42,6 +42,7 @@ $string['dateoldestfirst'] = '日付 (古い順)';
 $string['daterecentfirst'] = '日付 (新しい順)';
 $string['deleted'] = '削除済み';
 $string['deletedforumpost'] = '削除済みフォーラム投稿';
+$string['deletedgroup'] = '削除済みグループ';
 $string['document'] = 'ドキュメント';
 $string['error'] = 'エラー:';
 $string['errortypenotset'] = 'タイプが設定されていません。';
@@ -105,6 +106,7 @@ $string['resetitemsinqueue'] = 'キュー内';
 $string['resetitemsinindex'] = 'インデックス内';
 $string['resume'] = 'レジュメ';
 $string['scheme'] = 'スキーマ';
+$string['schemedescription1'] = 'デフォルト: %s';
 $string['searchpagetitle'] = '人およびコンテンツを検索する';
 $string['servererror'] = 'サーバへの接続時にエラーが発生しました: %s';
 $string['shards'] = 'シャード';
