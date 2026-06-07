@@ -456,7 +456,7 @@ $string['remoteavatars'] = 'リモートアバタを表示する';
 $string['remoteavatarsdescription1'] = 'デフォルトプロファイル画像に<a href="https://www.gravatar.com">Gravatar</a>サービスを利用します。';
 $string['searchplugin'] = '検索プラグイン';
 $string['searchplugindescription'] = '使用する検索プラグイン';
-$string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「プラグインタイプ: search」の設定を確認してください。設定確認後、あなたはsearchの「リセット」ボタンをクリックする必要があります。';
+$string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「プラグインタイプ: search」の設定を確認してください。設定確認後、あなたは検索の「リセット」ボタンを押す必要がある場合があります。';
 $string['searchuserspublic'] = 'パブリック検索に人を表示する';
 $string['searchuserspublicdescription'] = 'パブリック検索結果に氏名の表示を許可します。これには「publicsearchallowed」を「true」に設定してパブリック検索を許可する検索プラグイン (例 Elasticsearch) を使用する必要があります。この設定を変更した場合、検索インデックスの再構築が必要です。';
 $string['sessionlifetime'] = 'セッションライフタイム';
