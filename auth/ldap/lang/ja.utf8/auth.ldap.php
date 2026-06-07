@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-05 13:02:15 UTC
+ * @updated    2026-06-06 17:27:32 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -79,7 +79,9 @@ $string['syncgroupsmemberattributeisdn'] = 'メンバ属性はDNですか?';
 $string['syncgroupsnestedgroups'] = 'ネストグループを処理する';
 $string['syncgroupssettings'] = 'グループ同期';
 $string['syncgroupsuserattribute'] = 'グループ名が保存されるアカウント属性';
-$string['syncgroupsusergroupnames'] = 'これらのグループ名のみ';
+$string['syncgroupsusergroupnames'] = '許可されるグループ名';
+$string['auth_config.syncgroupsusergroupnames_help'] = '<h1>許可されるグループ名</h1>
+<p>アカウント属性からグループを同期する場合、指定された名称のグループのみ作成します。<p>空白のままにした場合、任意の値を受け入れます。グループ名はカンマで区切ってください。</p><p>これは「LDAPオブジェクトとして保存されているグループを同期する」設定を通して作成されたグループには影響しません。</p>';
 $string['syncusersextrafilterattribute'] = '同期のための追加LDAPフィルタ';
 $string['syncuserssettings'] = 'アカウント同期';
 $string['syncusersgonefromldap'] = 'アカウントがLDAPに存在しなくなった場合';

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-05 12:48:00 UTC
+ * @updated    2026-06-07 12:45:24 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -424,7 +424,7 @@ $string['recaptchaprivatekey1'] = 'reCAPTCHAシークレットキー';
 $string['recaptchapublickey1'] = 'reCAPTCHAサイト鍵';
 $string['remoteavatars'] = 'リモートアバタを表示する';
 $string['searchplugin'] = '検索プラグイン';
-$string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「プラグインタイプ: search」の設定を確認してください。設定確認後、あなたはsearchの「リセット」ボタンをクリックする必要があります。';
+$string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「プラグインタイプ: search」の設定を確認してください。設定確認後、あなたは検索の「リセット」ボタンを押す必要がある場合があります。';
 $string['searchuserspublic'] = 'パブリック検索に人を表示する';
 $string['sessionlifetime'] = 'セッションライフタイム';
 $string['sessionlifetimedescription'] = 'ログイン済みで活動していない人が自動的にログアウトされるまでの時間 (分) です。';
