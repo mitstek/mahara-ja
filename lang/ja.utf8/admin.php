@@ -322,7 +322,7 @@ $string['remoteavatars'] = 'リモートアバタを表示する';
 $string['remoteavatarsdescription'] = 'この設定を有効にした場合、ユーザのデフォルトプロファイル画像に<a href="https://www.gravatar.com">Gravatar</a>サービスが利用されます。';
 $string['searchplugin'] = '検索プラグイン';
 $string['searchplugindescription'] = '使用する検索プラグイン';
-$string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「プラグインタイプ: search」の設定を確認してください。設定確認後、あなたはsearchの「リセット」ボタンをクリックする必要があります。';
+$string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「プラグインタイプ: search」の設定を確認してください。設定確認後、あなたは検索の「リセット」ボタンを押す必要がある場合があります。';
 $string['searchusernames'] = 'ユーザ名を検索する';
 $string['searchusernamesdescription'] = '「ユーザを検索する」の対象としてユーザ名も検索されるようにします。';
 $string['searchuserspublic'] = 'パブリック検索にユーザを表示する';
