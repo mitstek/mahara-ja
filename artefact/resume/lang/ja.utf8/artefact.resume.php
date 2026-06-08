@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-08 00:36:00 UTC
+ * @updated    2026-06-08 04:16:56 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -52,8 +52,8 @@ $string['book'] = '著書および出版物';
 $string['addbook'] = '著書および出版物を追加する';
 $string['membership'] = '専門会員資格';
 $string['addmembership'] = '専門会員資格を追加する';
-$string['startdate'] = '開始年月日';
-$string['enddate'] = '終了年月日';
+$string['startdate'] = '開始日';
+$string['enddate'] = '終了日';
 $string['date'] = '日付';
 $string['position'] = '役職';
 $string['qualification'] = '資格';
