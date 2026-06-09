@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-07 12:45:24 UTC
+ * @updated    2026-06-09 00:19:47 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -95,6 +95,7 @@ $string['staticpages'] = '固定ページ';
 $string['institutionstaticpages'] = 'インスティテューション固定ページ';
 $string['staticpageinstitutionbad'] = 'あなたはインスティテューション「 %s 」の固定ページにアクセスまたは編集できません。';
 $string['usedefault'] = 'サイトデフォルトを使用する';
+$string['editsitepage.pageusedefault_help'] = '<h1>サイトデフォルトを使用する</h1><p>このページにサイトのデフォルトコンテンツを表示します。</p>';
 $string['staticpagesdesc'] = 'ホームページおよび「About」のコンテンツを編集します。';
 $string['staticpagesinstdesc'] = 'インスティテューション固定ページのコンテンツを編集します。';
 $string['institutionprivacypagedescription'] = 'サイトプライバシ保護方針に加えてあなたのインスティテューションに表示されるプライバシ保護方針を編集してください。あなたが最後に編集したバージョンは自動的に最新のプライバシ保護方針となります。あなたには参考として最新のサイトプライバシ保護方針が表示されています。';
@@ -567,8 +568,10 @@ $string['proxyauthcredntialsset'] = 'プロクシ認証情報セット';
 $string['emailsettings'] = 'メール設定';
 $string['emailsmtphosts'] = 'SMTPホスト';
 $string['emailsmtpport'] = 'SMTPポート';
-$string['emailsmtpuser'] = 'ユーザ';
+$string['emailsmtpuser'] = 'ユーザ名';
+$string['smtpuser_help'] = '<h1>ユーザ名</h1><p>あなたのサーバで認証が必要な場合、SMTPユーザ名を入力してください。</p>';
 $string['emailsmtppass'] = 'パスワード';
+$string['smtppass_help'] = '<h1>パスワード</h1><p>あなたのサーバで認証が必要な場合、SMTPパスワードを入力してください。</p>';
 $string['emailsmtpsecure'] = 'SMTP暗号化';
 $string['emailsmtpsecuressl'] = 'SSL';
 $string['emailsmtpsecuretls'] = 'TLS';
