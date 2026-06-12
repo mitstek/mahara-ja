@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-05 13:17:33 UTC
+ * @updated    2026-06-11 04:38:39 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -55,9 +55,11 @@ $string['auth_config.logoutendpoint_help'] = '<h1>ログアウトエンドポイ
 $string['settings_tokenendpoint'] = 'トークンエンドポイント';
 $string['auth_config.tokenendpoint_help'] = '<h1>トークンエンドポイント</h1><p>トークンがリフレッシュされるエンドポイントです。例えば次のようになります: <em>https://mahara.example/auth/saml/sp/module.php/oidc/token.php</em></p>';
 $string['settings_username'] = 'ユーザ名属性';
-$string['auth_config.usernamefield_help'] = '<h1>ユーザ名属性</h1><p>IDプロバイダから提供されるデフォルトのOIDC一意識別子ではなく、ユーザ名と照合します。これをクレームパラメータ (例: \'oid\') またはプロファイルフィールド (例: \'email\') と照合するように設定します。</p>';
+$string['auth_config.usernamefield_help'] = '<h1>ユーザ名属性</h1><p>アイデンティティプロバイダから提供されるデフォルトのOIDC一意識別子ではなく、ユーザ名と照合します。これをクレームパラメータ (例: \'oid\') またはプロファイルフィールド (例: \'email\') と照合するように設定します。</p>';
 $string['settings_resource'] = 'リソース';
+$string['auth_config.resource_help'] = '<h1>リソース</h1><p>イシュア名です。<br>例) https://mahara.example/</p>';
 $string['settings_maharascope'] = '「mahara」スコープを使用する';
+$string['auth_config.maharascope_help'] = '<h1>「mahara」スコープを使用する</h1><p>「mahara」スコープを使用する場合、アイデンティティプロバイダはこのスコープを受け入れて以下に一致するインスティテューションのクレームを返す必要があります。</p>';
 $string['settings_institutionattribute'] = 'インスティテューション合致属性';
 $string['settings_institutionvalue'] = 'インスティテューション合致値';
 $string['settings_domainhint'] = 'ドメインヒント';
@@ -80,3 +82,48 @@ $string['oidc_idp_missing_settings1'] = '<strong>OIDCをアイデンティティ
 $string['oidc_idp_not_set'] = 'このサイトはIDサーバとして有効にされていません。有効にするには$cfg->saml_as_idpをtrueに設定してください。';
 $string['oidc_idp_admin_not_set'] = 'サイトIDサーバのパスワードが設定されていません。有効にするには$cfg->saml_admin_passwordに強力なパスワードを設定してください。';
 $string['oidc_idp_admin_all_set'] = '設定されたすべての設定変数';
+$string['maharascope_help'] = '<h1>「mahara」スコープ</h1>
+<p>あなたがアイデンティティプロバイダ (IdP) に「mahara」スコープを設定できる場合、以下のことが可能になります:</p>
+<ul>
+    <li>インスティテューションごとにOIDCログインする
+    <li>アカウント作成時にBase64のアバタ画像を登録できる
+    <li>新しく作成するアカウントにどのようなロールを割り当てるか指定する
+</ul>
+<p>あなたのIdPで「mahara」スコープを設定するにはこのような設定が必要です:</p>
+<p><strong>スコープクレイム設定</strong></p>
+<code>
+&dollar;custom_scopes = [
+    \'mahara\' => [
+        \'description\' => \'mahara\',
+        \'claim_name_prefix\' => \'\',
+        \'are_multiple_claim_values_allowed\' => true,
+        \'claims\' => [
+            \'institution\',
+            \'avatar\',
+            \'roles\'
+        ]
+    ]
+];
+</code>
+<p><strong>クレームを内部値にマッピングする</strong></p>
+<code>
+&dollar;scope_mappings = [
+    \'institution\' => [
+        \'eduPersonAffiliation\',
+    ],
+    \'roles\' => [
+        \'userroles\',
+    ],
+    \'avatar\' => [
+        \'avatar\',
+    ]
+];
+</code>
+<p>MaharaサイトをIdPとして使用する場合の実例にに関して次ファイルをご覧ください: htdocs/auth/saml/config/module_oidc.php</p>
+<p>IdP側でインスティテューションのマッピングが設定され次第、あなたは<strong>インスティテューションの一致属性</strong>および<strong>インスティテューションの一致値</strong>フィールドに入力できます。</p>
+<p>あなたが上のサンプルコードを使用する場合、以下のようになります:</p>
+<p>インスティテューションの一致属性 = 「eduPersonAffiliation」<br>インスティテューションの一致値 = あなたがIdP側でそのキーに設定した値</p>
+<p>あなたが人に対してサイトレベルでMaharaログインさせたい場合、このフィールドに「mahara」を設定してインスティテューション属性に値「mahara」を渡してください。</p>
+<p>あなたが人に対して特定のインスティテューションにMaharaログインさせたい場合、このフィールドに「インスティテューション省略名」(例 「myinstitution」) を設定してインスティテューション属性に値「myinstitution」を渡してください。</p>';
+$string['parent_help'] = '<h1>親認証局</h1>
+<p>既存のアカウントがSAML等の別の認証方法を使用している場合、その認証方法をこの認証方法の親として設定することでOIDC認証を使用してユーザを既存のアカウントにログインできるようにします。OIDCユニークIDまたは「preferred_username」の値はそのアカウントのMaharaユーザ名またはリモートユーザ名のいずれかと一致する必要があります。</p>';
