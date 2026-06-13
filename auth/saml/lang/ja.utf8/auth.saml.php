@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-12 05:57:55 UTC
+ * @updated    2026-06-12 16:34:16 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -80,6 +80,8 @@ $string['auth_config.institutionidp_help'] = '<h1>インスティテューショ
 $string['institutionidpentity'] = '利用可能なアイデンティティプロバイダ';
 $string['institutions'] = 'インスティテューション';
 $string['institutionvalue'] = 'インスティテューションチェック値';
+$string['auth_config.institutionvalue_help'] = '<h1>インスティテューションチェック値</h1>
+<p>アイデンティティプロバイダの「インスティテューション属性」と照合して人がどのインスティテューションに属しているかを判断する値です。「インスティテューション省略名で部分的に文字列一致させる」が有効にされている場合、この値は正規表現にできます。</p>';
 $string['libchecks'] = '正しいライブラリがインストールされているか確認する: %s';
 $string['link'] = 'アカウントをリンクする';
 $string['linkaccounts'] = 'リモートアカウント「 %s 」をローカルアカウント「 %s 」とリンクしてもよろしいですか?';
