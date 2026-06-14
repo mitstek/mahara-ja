@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-04-05 14:31:03 UTC
+ * @updated    2026-06-14 22:32:38 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -475,7 +475,7 @@ $string['setsiteoptionsfailednotice'] = '%s フィールドオプションの設
 $string['showstudentid'] = '学籍番号を表示する';
 $string['showstudentiddescription1'] = 'サイトでの人の氏名表示時に学籍番号を表示します。';
 $string['showonlineuserssideblock'] = 'オンライン中の人を表示する';
-$string['showonlineuserssideblockdescriptionmessage2'] = '人は過去10分間にオンラインであった人の一覧をサイドバーで確認できます。';
+$string['showonlineuserssideblockdescriptionmessage2'] = '人は過去10分間にオンラインであったすべての人の一覧をサイドバーで確認できます。';
 $string['showselfsearchsideblock1'] = 'ポートフォリオ検索';
 $string['showselfsearchsideblockdescription1'] = 'サイト内の一部の場所に「私のポートフォリオを検索する」サイドバーを表示します。';
 $string['showtagssideblock1'] = 'タグクラウド';
