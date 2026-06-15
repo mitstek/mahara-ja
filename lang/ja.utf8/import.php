@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-06-03 22:19:02 UTC
+ * @updated    2026-06-15 01:20:03 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -28,7 +28,8 @@ $string['importfooter'] = 'フッタのインポート';
 $string['importviews'] = 'ページのインポート';
 $string['importviewsprogress'] = 'ページのインポート: %s/%s';
 $string['importportfoliodescription1'] = 'あなたにエクスポートZIPファイルがある場合、ここで別のMaharaサイトからあなたのポートフォリオコンテンツをインポートできます。ファイルをアップロードした後、どのコンテンツをあなたのアカウントに追加するか決定できます。';
-$string['importyourportfolio'] = 'あなたのポートフォリオをインポートする';
+$string['importyourportfolio'] = 'コンテンツをインポートする';
+$string['index_help'] = '<h1>ポートフォリオをインポートする</h1><p>ZIPファイル全体 (Leap2Aファイルだけでなく) をアップロードして別のMaharaサイトからのLeap2Aポートフォリオをインポートします。インポート中、あなたのアカウントに追加するコンテンツおよび無視するコンテンツを選択できます。あなたのコンテンツを含むHTMLファイルは無視されます。</p>';
 $string['howimportyourportfolio'] = 'あなたのポートフォリオアイテムのインポート方法を選択する';
 $string['howimportportfoliodescription'] = 'このステップではあなたの既存のコンテンツとインポートコンテンツをどのように統合するか決定します。';
 $string['noimportpluginsenabled'] = 'サイト管理者はインポートプラグインを有効にしていません。そのためあなたは使用できません。';
