@@ -50,9 +50,14 @@ $string['completed'] = '完了';
 $string['incomplete'] = '未完了';
 $string['overdue'] = '期限切れ';
 $string['completiondate'] = '完了日';
+<<<<<<< HEAD
 $string['completiondate_desc'] = 'フォーマット %s を使用する';
 $string['completiondate_help'] = '<h1>完了日</h1><p>あなたが編集可能な終了日が設定されているグループ内でテンプレートタスクを作成した場合、それがこのタスクのデフォルトの完了日として使用されます。</p>';
 $string['edittask.completed_help'] = '<h1>完了ステータス</h1><p>あなたのタスクを完了マークします。</p>';
+=======
+$string['completiondatedescription'] = 'フォーマット %s を使用してください。テンプレートタスクの場合、デフォルト完了日はグループの編集可能終了日より取得されます。';
+$string['completeddesc'] = 'あなたのタスクを完了済みにします。';
+>>>>>>> 5ec862c7d13a1fd4a3325846835b650e7e7018c2
 $string['deletetaskconfirm'] = '本当にこのタスクを削除してもよろしいですか?';
 $string['deletetask'] = 'タスクを削除する';
 $string['deletethistask'] = 'タスクを削除する: %s';

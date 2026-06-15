@@ -16,17 +16,26 @@ defined('INTERNAL') || die();
 $string['title'] = 'コース完了';
 $string['name'] = 'コース情報';
 $string['description'] = '外部ソースからコース完了に関する情報を表示します。';
+<<<<<<< HEAD
 $string['title_help'] = '<h1>セクションタイトル</h1><p>このフィールドを空白のままにした場合、タイトルが生成されます。</p>';
+=======
+$string['defaulttitledescription'] = 'ここを空白にした場合、デフォルトタイトルが生成されます。';
+>>>>>>> 5ec862c7d13a1fd4a3325846835b650e7e7018c2
 $string['blocktitleforowner'] = '%s のコース完了';
 $string['placeholdermessage'] = 'このブロックは使用可能になる前に完全に設定する必要があります。完全に設定できるのはブロックがパーソナルポートフォリオページにある場合のみです。';
 $string['completeconfiguration1'] = '表示するコース情報はありません。コース完了を表示するにはこのブロックを編集してください。';
 $string['completeconfigurationnotpossible'] = 'このブロックのインスティテューションウェブサービス接続を構築する必要があります。ウェブサービスの設定に関してサイト管理者にお尋ねください。';
 $string['unabletofetchdata'] = 'このページオーナのデータを取得できません。';
 $string['fromdate'] = '開始日';
+<<<<<<< HEAD
 $string['fromdate_help'] = '<h1>開始日</h1><p>この日付以降に開始されたコースのみ表示します。</p>';
 $string['fromdatedescription'] = 'この日付以降に開始されたコースのみ表示します。次のフォーマットを使用してください: %s';
 $string['todate'] = '終了日';
 $string['todate_help'] = '<h1>終了日</h1><p>この日付より前に開始されたコースのみ表示します。</p>';
+=======
+$string['fromdatedescription'] = 'この日付以降に開始されたコースのみ表示します。次のフォーマットを使用してください: %s';
+$string['todate'] = '終了日';
+>>>>>>> 5ec862c7d13a1fd4a3325846835b650e7e7018c2
 $string['todatedescription'] = 'この日付以前に開始されたコースのみ表示します。次のフォーマットを使用してください: %s';
 $string['externaluserid'] = '外部アカウントID';
 $string['dateoutofsync'] = 'これは「終了日」より古くする必要があります。';

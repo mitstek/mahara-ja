@@ -28,9 +28,13 @@ $string['deletespecificfrom'] = '「 %s 」(URL %s) を削除する';
 $string['deleteitem'] = '削除';
 $string['deleted'] = '削除';
 $string['moveitemup'] = '上に移動する';
+<<<<<<< HEAD
 $string['moveitemup_name'] = '「 %s 」を上に移動する';
 $string['moveitemdown'] = '下に移動する';
 $string['moveitemdown_name'] = '「 %s 」を下に移動する';
+=======
+$string['moveitemdown'] = '下に移動する';
+>>>>>>> 5ec862c7d13a1fd4a3325846835b650e7e7018c2
 $string['edit'] = '編集';
 $string['editspecificfrom'] = '「 %s 」(URL %s) を編集する';
 $string['editspecific'] = '「 %s 」を編集する';

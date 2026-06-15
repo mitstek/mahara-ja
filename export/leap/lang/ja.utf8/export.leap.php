@@ -13,5 +13,9 @@
 
 defined('INTERNAL') || die();
 
+<<<<<<< HEAD
+=======
+$string['description1'] = 'ここでは<a href="https://web.archive.org/web/20140912151415/http://wiki.leapspecs.org/2A/specification">Leap2A標準フォーマット</a>のエクスポートを作成します。エクスポートは人間にとって難読ですが、後でこのエクスポートを使用してあなたのデータを<a href="https://wiki.mahara.org/wiki/Developer_Area/Import/Export/Interoperability">他のLeap2A準拠システム</a>にインポートできます。';
+>>>>>>> 5ec862c7d13a1fd4a3325846835b650e7e7018c2
 $string['title'] = 'Leap2A';
 $string['description1'] = 'ここでは<a href="https://web.archive.org/web/20140912151415/http://wiki.leapspecs.org/2A/specification">Leap2A標準フォーマット</a>のエクスポートを作成します。エクスポートは人間にとって難読ですが、後でこのエクスポートを使用してあなたのデータを<a href="https://wiki.mahara.org/wiki/Developer_Area/Import/Export/Interoperability">他のLeap2A準拠システム</a>にインポートできます。';

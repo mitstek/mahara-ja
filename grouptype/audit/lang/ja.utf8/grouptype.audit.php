@@ -14,7 +14,11 @@
 defined('INTERNAL') || die();
 
 $string['name'] = '監査';
+<<<<<<< HEAD
 $string['admin'] = '管理者';
+=======
+$string['portfoliorandomtitle'] = '%s による監査対象ポートフォリオ';
+>>>>>>> 5ec862c7d13a1fd4a3325846835b650e7e7018c2
 $string['tutor'] = 'チュータ';
 $string['member'] = 'メンバ';
 $string['youaregrouptutor'] = 'あなたはこのグループのチュータです。';

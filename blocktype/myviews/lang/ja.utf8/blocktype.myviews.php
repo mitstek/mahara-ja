@@ -13,6 +13,11 @@
 
 defined('INTERNAL') || die();
 
+<<<<<<< HEAD
+=======
+$string['description1'] = 'あなたのプロファイル閲覧者に対して閲覧可能なすべてのポートフォリオを表示します。';
+$string['otherusertitle1'] = '%s のポートフォリオ';
+>>>>>>> 5ec862c7d13a1fd4a3325846835b650e7e7018c2
 $string['title1'] = 'マイポートフォリオ';
 $string['otherusertitle1'] = '%s のポートフォリオ';
 $string['description1'] = 'あなたのプロファイル閲覧者に対して閲覧可能なすべてのポートフォリオを表示します。';

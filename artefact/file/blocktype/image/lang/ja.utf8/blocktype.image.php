@@ -30,6 +30,12 @@ $string['styleslideshow'] = 'スライドショー';
 $string['cannotdisplayslideshow'] = 'スライドショーを表示できません。';
 $string['gallerysettings'] = 'ギャラリー設定';
 $string['usefancybox1'] = 'Bootstrapモーダル';
+<<<<<<< HEAD
 $string['pluginconfig.usefancybox_help'] = '<h1>Bootstrapモーダル</h1><p>この設定を有効にした場合、あなたのギャラリー内イメージ選択時にBootstrapモーダルオーバーレイでイメージが開きます。</p>';
 $string['previewwidth'] = '最大幅';
 $string['pluginconfig.previewwidth_help'] = '<h1>最大幅</h1><p>Bootstrapのモーダルで表示される際にイメージがリサイズされる最大幅です。</p>';
+=======
+$string['usefancyboxdesc1'] = 'あなたのギャラリーでBootstrapモーダルを使用します。あなたのギャラリーのイメージをクリックした場合、オーバーレイで開きます。';
+$string['previewwidth'] = '最大幅';
+$string['previewwidthdesc1'] = 'Bootstrapモーダルでの写真表示時の最大リサイズ幅を設定します。';
+>>>>>>> 5ec862c7d13a1fd4a3325846835b650e7e7018c2

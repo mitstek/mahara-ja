@@ -38,9 +38,15 @@ $string['title_backpack'] = 'Mozillaバックパック';
 $string['title_passport'] = 'オープンバッジパスポート';
 $string['title_badgr'] = 'Badgrバックパック';
 $string['fetchingbadges'] = 'エントリを取得しています。この処理に時間を要する場合があります。';
+<<<<<<< HEAD
 $string['missingbadgesources'] = 'ソース設定がありません。あなたのconfig.phpファイルに追加してください。例:
 <br>
 <br>
+=======
+$string['missingbadgesources'] = 'ソース設定がありません。あなたのconfig.phpファイルに追加してください。例:\r
+<br>\r
+<br>\r
+>>>>>>> 5ec862c7d13a1fd4a3325846835b650e7e7018c2
 $cfg->openbadgedisplayer_source = \'{"backpack":"https://backpack.provider.org/"}\'';
 $string['selectall'] = 'すべてを選択する';
 $string['selectnone'] = 'すべての選択を解除する';
