@@ -20,8 +20,4 @@ $string['preparing'] = '%s 準備中';
 $string['exportingdatafor'] = '%s データエクスポート中';
 $string['buildingindexpage'] = 'インデックスページ構築中';
 $string['copyingextrafiles'] = '追加ファイルコピー中';
-<<<<<<< HEAD
-=======
-$string['description'] = 'あなたのポートフォリオデータを内蔵したウェブサイトを作成します。あなたはこのファイルを再度インポートできませんが、標準的なウェブブラウザで閲覧できます。';
->>>>>>> 5ec862c7d13a1fd4a3325846835b650e7e7018c2
 $string['duplicatepagetitle'] = 'ページタイトル重複のためエクスポートに失敗しました。タイトルがユニークであることを確認してください。';

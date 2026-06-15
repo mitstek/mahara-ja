@@ -177,8 +177,4 @@ $string['reportedby'] = '報告者: %s';
 $string['adminnotificationerror1'] = '通知エラーは恐らくあなたのサーバ設定に起因します。';
 $string['escalateissuereportprompt'] = '潜在的にセンシティブな情報の匿名化を確認してください。';
 $string['failurefindissuereportwithid'] = 'ID「 %s 」のイシュレポートが見つかりませんでした。';
-<<<<<<< HEAD
 $string['no_valid_reports_to_escalate'] = 'エスカレーションすべき有効なイシュレポートはありません。';
-=======
-$string['no_valid_reports_to_escalate'] = 'エスカレーションすべき有効なイシュレポートがありません。';
->>>>>>> 5ec862c7d13a1fd4a3325846835b650e7e7018c2

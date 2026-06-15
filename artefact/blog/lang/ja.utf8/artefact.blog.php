@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-15 00:20:17 UTC
+ * @updated    2026-05-20 00:37:39 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -35,7 +35,7 @@ $string['attachedfiles'] = '添付ファイル';
 $string['attachment'] = '添付ファイル';
 $string['attachments'] = '添付ファイル';
 $string['alldraftposts'] = '日誌エントリはまだ公開されていません。';
-$string['blogcopiedfromanotherview'] = '注意: このセクションは別のページからコピーされました。あなたはこのブロックを移動したり削除できますが %s の内容は変更できません。';
+$string['blogcopiedfromanotherview'] = '注意: このブロックは別のページからコピーされました。あなたはこのブロックを移動したり削除できますが %s の内容は変更できません。';
 $string['blogdesc'] = '説明';
 $string['blogdoesnotexist'] = 'あなたは存在しない日誌へのアクセスを試みています。';
 $string['blogpostdoesnotexist'] = 'あなたは存在しない日誌エントリへのアクセスを試みています。';

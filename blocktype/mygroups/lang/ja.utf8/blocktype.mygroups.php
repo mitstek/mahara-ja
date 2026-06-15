@@ -19,18 +19,12 @@ $string['description'] = 'あなたが属しているグループの一覧を表
 $string['sortgroups'] = 'グループを並べ替える';
 $string['earliest'] = '参加の古い順';
 $string['latest'] = '参加の新しい順';
-<<<<<<< HEAD
 $string['alphabetical'] = 'A -> Z';
 $string['limitto1'] = '表示する最大グループ数';
 $string['limittodesc'] = 'ブロックに表示する最大グループ数です。あなたのグループすべてを表示するには、空白のままにしてください。';
 $string['groupsideblockmaxgroups_help'] = '<h1>表示する最大グループ数</h1><p>この設定ではダッシュボードの「マイグループ」セクションにアカウント保持者のグループのいくつを表示するか指定します。このフィールドを空白のままにした場合、アカウント保持者がメンバであるすべてのグループが表示されます。</p>';
 $string['adduser.groupsideblockmaxgroups_help'] = '<h1>表示する最大グループ数</h1><p>この設定ではダッシュボードの「マイグループ」セクションにアカウント保持者のグループのいくつを表示するか指定します。このフィールドを空白のままにした場合、アカウント保持者がメンバであるすべてのグループが表示されます。</p>';
 $string['accountprefs.groupsideblockmaxgroups_help'] = '<h1>表示する最大グループ数</h1><p>この設定ではダッシュボードの「マイグループ」セクションにあなたのグループのいくつを表示するか指定します。このフィールドを空白のままにした場合、あなたがメンバであるすべてのグループが表示されます。</p>';
-=======
-$string['limitto1'] = '表示する最大グループ数';
-$string['limittodesc'] = 'ブロックに表示する最大グループ数です。あなたのグループすべてを表示するには、空白のままにしてください。';
-$string['limittodescsideblock1'] = 'あなたのサイドバーの「マイグループ」リストに表示される最大グループ数です。あなたのグループすべてを表示するには、空白のままにしてください。';
->>>>>>> 5ec862c7d13a1fd4a3325846835b650e7e7018c2
 $string['numberofmygroupsshowing'] = 'グループ表示中 (%s/%s)';
 $string['numberofmygroupsshowingearliest'] = '参加の古いグループ表示中 (%s/%s)';
 $string['numberofmygroupsshowinglatest'] = '参加の新しいグループ表示中 (%s/%s)';

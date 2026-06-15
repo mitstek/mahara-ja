@@ -5,11 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
-<<<<<<< HEAD
  * @updated    2025-07-23 02:34:06 UTC
-=======
- * @updated    2025-07-23 02:34:17 UTC
->>>>>>> 5ec862c7d13a1fd4a3325846835b650e7e7018c2
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *

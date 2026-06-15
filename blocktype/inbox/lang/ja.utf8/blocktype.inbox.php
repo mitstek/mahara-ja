@@ -13,15 +13,9 @@
 
 defined('INTERNAL') || die();
 
-<<<<<<< HEAD
 $string['title'] = '受信箱';
 $string['description'] = 'あなたの最近の受信箱メッセージから選択したものを表示します。';
 $string['messagetypes'] = '表示するメッセージタイプ';
-=======
-$string['More'] = 'さらに';
-$string['defaulttitledescription'] = 'タイトルフィールドを空白にした場合、デフォルトタイトルが生成されます。';
-$string['description'] = 'あなたの最近の受信箱メッセージから選択したものを表示します。';
->>>>>>> 5ec862c7d13a1fd4a3325846835b650e7e7018c2
 $string['maxitems'] = '表示するアイテムの最大数';
 $string['maxitemsdescription'] = '設定範囲: 1～100';
 $string['More'] = 'さらに';

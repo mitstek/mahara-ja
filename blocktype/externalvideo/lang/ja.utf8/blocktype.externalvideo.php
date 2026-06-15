@@ -21,7 +21,6 @@ $string['videourldescription3'] = 'コンテンツが設置されているペー
 $string['validiframesites'] = '&lt;iframe&gt;タグを含む次のサイトの<strong>埋め込みコード</strong>が許可されます:';
 $string['validurlsites'] = '次のサイトの<strong>URL</strong>が許可されます:';
 $string['width'] = '幅';
-<<<<<<< HEAD
 $string['width_help'] = '<h1>幅</h1><p>あなたがURLを使用する場合、メディアアイテムの幅を入力してください。あなたが埋め込みコードを使用する場合、上のコード内で直接幅を変更してください。</p>';
 $string['height'] = '高さ';
 $string['height_help'] = '<h1>高さ</h1><p>あなたがURLを使用する場合、メディアアイテムの高さを入力してください。あなたが埋め込みコードを使用する場合、上のコード内で直接高さを変更してください。</p>';
@@ -29,10 +28,6 @@ $string['invalidurl'] = '無効なURL';
 $string['invalidurlorembed'] = '無効なURLまたは埋め込みコード';
 $string['googlevideo'] = 'Googleビデオ';
 $string['scivee'] = 'SciVee';
-=======
-$string['widthheightdescription'] = '「幅」および「高さ」フィールドはURLにのみ使用されます。上でembedまたはiframeコードを入力した場合、あなたはコード内で幅および高さを更新する必要があります。';
-$string['wikieducator'] = 'WikiEducator';
->>>>>>> 5ec862c7d13a1fd4a3325846835b650e7e7018c2
 $string['youtube'] = 'YouTube';
 $string['teachertube'] = 'TeacherTube';
 $string['slideshare'] = 'SlideShare';

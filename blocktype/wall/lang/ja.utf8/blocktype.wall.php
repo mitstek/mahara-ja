@@ -28,26 +28,9 @@ $string['delete'] = '投稿を削除する';
 $string['deletepost'] = '投稿を削除する';
 $string['Post'] = '投稿';
 $string['deletepostsure'] = '本当にこの処理を実行してもよろしいですか? 元に戻せません。';
-<<<<<<< HEAD
 $string['deletepostsuccess'] = '投稿が正常に削除されました。';
 $string['addpostsuccess'] = '投稿が正常に追加されました。';
 $string['maxcharacters'] = '1投稿あたり最大 %s 文字入力可能です。';
-=======
-$string['description'] = '人があなたにコメントを残せるエリアを表示します。';
-$string['makeyourpostprivate'] = 'あなたの投稿をプライベートにする';
-$string['maxcharacters'] = '1投稿あたり最大 %s 文字入力可能です。';
-$string['newwallpostnotificationmessage'] = '%s';
-$string['newwallpostnotificationsubject'] = 'あなたのウォールの新しい投稿';
-$string['noposts'] = '表示できるウォール投稿はありません。';
-$string['otherusertitle'] = '%s のウォール';
-$string['postsizelimit'] = '投稿サイズ制限';
-$string['postsizelimitdescription'] = 'ここであなたはウォールの投稿サイズを制限できます。既存の投稿は変更されません。';
-$string['postsizelimitinvalid'] = 'これは有効な数字ではありません。';
-$string['postsizelimitmaxcharacters'] = '最大文字数';
-$string['postsizelimittoosmall'] = '制限はゼロより小さくできません。';
-$string['posttextrequired'] = 'このフィールドは必須です。';
-$string['reply'] = '返信';
->>>>>>> 5ec862c7d13a1fd4a3325846835b650e7e7018c2
 $string['sorrymaxcharacters'] = '申し訳ございません、あなたは %s 文字以上投稿できません。';
 $string['posttextrequired'] = 'このフィールドは必須です。';
 $string['postsizelimit'] = '投稿サイズ制限';
