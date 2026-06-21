@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-19 13:38:02 UTC
+ * @updated    2026-06-21 14:59:08 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,9 +18,10 @@ $string['addpostsuccess'] = '投稿が正常に追加されました。';
 $string['addtitle'] = 'フォーラムを追加する';
 $string['addtopic'] = 'トピックを追加する';
 $string['addtopicsuccess'] = 'トピックが正常に追加されました。';
-$string['allowunsubscribe'] = 'グループメンバの購読解除を許可する';
+$string['allowunsubscribe'] = 'グループメンバは購読解除できる';
 $string['edit_interaction.allowunsubscribe_help'] = '<h1>グループメンバの購読解除を許可する</h1><p>この設定を有効にした場合、メンバはこのフォーラムの購読を解除できます。</p><p>この設定を無効にした場合、メンバは購読解除できなくなります。そして現在購読解除しているメンバは自動的に購読登録されます。</p>';
 $string['autosubscribeusers'] = 'グループメンバを自動的に購読させる';
+$string['edit_interaction.autosubscribe_help'] = '<h1>グループメンバを自動的に購読させる</h1><p>このフォーラムをグループメンバに自動購読させます。購読者は新しい投稿および返信の通知を受け取ります。「グループメンバは購読解除できる」が有効にされている場合、メンバは通知の受信をオプトアウトできます。</p>';
 $string['awaitingapproval'] = '承認待ち';
 $string['Body'] = '本文';
 $string['cantaddposttoforum'] = 'あなたはこのフォーラムに投稿できません。';

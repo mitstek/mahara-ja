@@ -444,7 +444,7 @@ $string['siteoptionsset'] = 'サイトオプションが更新されました。
 $string['theme_help'] = '<h1>テーマ</h1><p>サイトのデフォルトテーマです。</p><hr><h2>詳細</h2><p>あなたのテーマがリストにない場合、エラーログをご確認ください。</p><p>インスティテューションは<a href="../users/institutions.php">インスティテューション</a>セクションで設定された独自のデフォルトテーマを持てます。</p>';
 $string['skins'] = 'スキン';
 $string['smallviewheaders'] = 'スモールページヘッダ';
-$string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧および編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
+$string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧または編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
 $string['spamhaus2'] = 'Spamhaus URL拒否リスト';
 $string['staffaccessreports1'] = 'スタッフおよびサポート管理者によるレポートアクセス';
 $string['institutionstaffallreports1'] = 'インスティテューションスタッフおよびサポート管理者のすべてのレポート';
