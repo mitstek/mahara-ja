@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-09 00:19:47 UTC
+ * @updated    2026-06-21 15:02:04 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -444,7 +444,7 @@ $string['siteoptionsset'] = 'サイトオプションが更新されました。
 $string['theme_help'] = '<h1>テーマ</h1><p>サイトのデフォルトテーマです。</p><hr><h2>詳細</h2><p>あなたのテーマがリストにない場合、エラーログをご確認ください。</p><p>インスティテューションは<a href="../users/institutions.php">インスティテューション</a>セクションで設定された独自のデフォルトテーマを持てます。</p>';
 $string['skins'] = 'スキン';
 $string['smallviewheaders'] = 'スモールページヘッダ';
-$string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧および編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
+$string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧または編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
 $string['spamhaus2'] = 'Spamhaus URL拒否リスト';
 $string['staffaccessreports1'] = 'スタッフおよびサポート管理者によるレポートアクセス';
 $string['institutionstaffallreports1'] = 'インスティテューションスタッフおよびサポート管理者のすべてのレポート';
