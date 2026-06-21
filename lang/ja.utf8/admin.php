@@ -746,7 +746,7 @@ $string['skins'] = 'ページスキン';
 <<<<<<< HEAD
 $string['skinsinstitutiondescription2'] = 'このインスティテューションのメンバは自分のページにスキンを使用できます。';
 $string['smallviewheaders'] = 'スモールページヘッダ';
-$string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧および編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
+$string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧または編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
 $string['spamhaus2'] = 'Spamhaus URL拒否リスト';
 $string['spamhausdescription1'] = 'URLをSpamhaus DNSBLと照合します。';
 $string['staffaccessreports1'] = 'スタッフおよびサポート管理者によるレポートアクセス';
@@ -786,7 +786,7 @@ $string['wysiwyguserdefined'] = '人による決定';
 =======
 $string['skinsinstitutiondescription2'] = 'このインスティテューションのメンバは自分のページに「スキン」を使用できます。';
 $string['smallviewheaders'] = 'スモールページヘッダ';
-$string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧および編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
+$string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧または編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
 $string['spamhaus1'] = 'Spamhaus URLブラックリスト';
 $string['spamhausdescription1'] = 'URLをSpamhaus DNSBLと照合します。';
 $string['staffaccessreports'] = 'スタッフによるレポートアクセス';
