@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-16 09:43:42 UTC
+ * @updated    2026-06-21 13:33:04 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -492,7 +492,7 @@ $string['sitethemedescription'] = 'サイトのデフォルトテーマです。
 $string['skins'] = 'ページスキン';
 $string['skinsinstitutiondescription2'] = 'このインスティテューションのメンバは自分のページにスキンを使用できます。';
 $string['smallviewheaders'] = 'スモールページヘッダ';
-$string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧および編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
+$string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧または編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
 $string['spamhaus2'] = 'Spamhaus URL拒否リスト';
 $string['spamhausdescription1'] = 'URLをSpamhaus DNSBLと照合します。';
 $string['staffaccessreports1'] = 'スタッフおよびサポート管理者によるレポートアクセス';
