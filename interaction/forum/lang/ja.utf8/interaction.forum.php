@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-21 14:59:08 UTC
+ * @updated    2026-06-21 15:58:17 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -44,8 +44,17 @@ $string['chooseanaction'] = '処理を選択する';
 $string['clicksetsubject'] = '件名を設定するにはここをクリックしてください。';
 $string['Closed'] = '閉鎖';
 $string['Close'] = 'クローズ';
+$string['edittopic.closed_help'] = '<h1>クローズ</h1><p>モデレータおよびグループ管理者のみクローズトピックに返信できます。</p>';
 $string['complaint'] = 'クレーム';
 $string['Count'] = 'カウント';
+$string['edit_interaction.createtopicusers_help'] = '<h1>トピックを作成する</h1>
+<p>フォーラムトピックを作成できる人を決定してください。</p>
+<dl>
+  <dt>すべてのグループメンバ</dt>
+  <dd>すべてのグループメンバがトピックを作成および返信できます。</dd>
+  <dt>モデレータおよびグループ管理者</dt>
+  <dd>モデレータおよび管理者のみトピックを作成できますが、すべてのメンバが返信できます。</dd>
+</dl>';
 $string['currentmoderators'] = '現在のモデレータ';
 $string['defaultforumtitle'] = '一般的なディスカッション';
 $string['defaultforumdescription'] = '%s 一般的なディスカッションフォーラム';
@@ -133,6 +142,7 @@ $string['latestforumposts'] = '最新のフォーラム投稿';
 $string['Moderators'] = 'モデレータ';
 $string['moderatorsandgroupadminsonly'] = 'モデレータおよびグループ管理者のみ';
 $string['moderatorslist'] = 'モデレータ:';
+$string['edit_interaction.moderator_help'] = '<h1>モデレータ</h1><p>モデレータはトピックおよび投稿を編集および削除できます。オープン、クローズ、設定およびピン留め解除もできます。</p>';
 $string['name'] = 'フォーラム';
 $string['nameplural'] = 'フォーラム';
 $string['newforum'] = '新しいフォーラム';
@@ -164,9 +174,12 @@ $string['Post'] = '投稿';
 $string['postaftertimeout'] = 'あなたは %s 分のタイムアウト後に変更を送信しました。あなたの変更は適用されませんでした。';
 $string['postapprovesuccessful'] = '投稿が承認されました。';
 $string['postbyuserwasdeleted'] = '%s による投稿が削除されました。';
+$string['postedby'] = '投稿者:';
 $string['postnotapprovederror'] = '投稿の承認済みマーク中にエラーが発生しました。';
 $string['postsbyuserweredeleted'] = '%s 件の投稿 (投稿者: %s) が削除されました。';
 $string['postdelay'] = '投稿遅延';
+$string['postdelay_desc'] = '時間を分単位で入力してください。デフォルト: 30';
+$string['pluginconf.postdelay_help'] = '<h1>投稿遅延</h1><p>新しいフォーラム投稿が購読者にメール送信されるまでの最短時間 (分) です。投稿者はこの時間内に投稿を編集できます。</p>';
 $string['postedin'] = '%s が %s に投稿しました。';
 $string['Poster'] = '投稿者';
 $string['postobjectionable'] = 'この投稿はあなたにより好ましくないコンテンツを含んでいると報告されました。';
@@ -191,12 +204,18 @@ $string['reportedpostdetails'] = '<strong>報告 by %s - %s:</strong><p>%s</p>';
 $string['reportobjectionablematerial'] = '報告';
 $string['reportpost'] = '投稿報告';
 $string['reportpostsuccess'] = '投稿が正常に報告されました。';
-$string['sendnow'] = '今すぐメッセージを送信する';
+$string['sendnow'] = '今すぐ送信する';
+$string['sendnow_help'] = '<h1>今すぐ送信する</h1><p>送信されるまで少なくとも %s 分待つのではなく、あなたのトピックまたは返信をすぐに送信します。</p>';
 $string['showallforums'] = 'すべてのフォーラムを表示する';
+$string['Pin'] = 'ピン留めする';
+$string['edittopic.sticky_help'] = '<h1>ピン留めする</h1><p>ピン留めされたトピックはすべてのページのフォーラムトピックのリスト上部に表示されます。</p>';
 $string['stickytopics'] = 'スティッキトピック';
 $string['Subscribe'] = '購読';
 $string['Subscribed'] = '購読済み';
+$string['subscribeforum_help'] = '<h1>フォーラムを購読する</h1>
+<p>購読した場合、あなたにこのフォーラムの新しい投稿の通知が届きます。購読解除した場合、これらの通知は停止されます。</p>';
 $string['subscribetoforum'] = 'フォーラムを購読する';
+$string['subscribetoforum_specific'] = 'フォーラム (%s) を購読する';
 $string['subscribetotopic'] = 'トピックを購読する';
 $string['Subject'] = '件名';
 $string['Topic'] = 'トピック';
@@ -220,7 +239,7 @@ $string['Unsubscribe'] = '購読解除';
 $string['unsubscribefromforum'] = 'フォーラムを購読解除する';
 $string['unsubscribefromtopic'] = 'トピックを購読解除する';
 $string['updateselectedtopics'] = '選択したトピックを更新する';
-$string['whocancreatetopics'] = '誰がトピックを作成できますか?';
+$string['whocancreatetopics'] = 'トピックを作成する';
 $string['youcannotunsubscribeotherusers'] = 'あなたは他の人を購読解除できません。';
 $string['youarenotsubscribedtothisforum'] = 'あなたはこのフォーラムを購読していません。';
 $string['youarenotsubscribedtothistopic'] = 'あなたはこのトピックを購読していません。';
