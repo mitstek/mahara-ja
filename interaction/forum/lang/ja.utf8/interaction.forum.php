@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-21 15:58:16 UTC
+ * @updated    2026-06-25 14:02:39 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -232,13 +232,44 @@ $string['topicsuccessfulunsubscribe'] = 'トピックが正常に購読解除さ
 $string['topicunstickysuccess'] = 'トピックが正常にスティッキ設定解除されました。';
 $string['topicunsubscribesuccess'] = 'トピックが正常に購読解除されました。';
 $string['topicupdatefailed'] = 'トピックの更新に失敗しました。';
-$string['typenewpost'] = '新しいフォーラム投稿';
+$string['typenewpost'] = 'フォーラム投稿';
+$string['typenewpost_help'] = '<h1>フォーラム投稿</h1><p>あなたが購読しているフォーラムの新しいトピックまたは返信の通知です。</p>';
 $string['typereportpost'] = 'フォーラム内の好ましくないコンテンツ';
+$string['typereportpost_help'] = '<h1>フォーラム内の好ましくないコンテンツ</h1><p>グループ管理者、フォーラムモデレータ、インスティテューション管理者およびサイト管理者はフォーラムトピックおよび投稿にある好ましくないコンテンツに関する苦情を受け付けできます。</p>';
 $string['typepostmoderation'] = 'フォーラムモデレーション';
+$string['typepostmoderation_help'] = '<h1>フォーラムモデレーション</h1><p>モデレートされたフォーラムで投稿がレビュー待ちの場合にモデレータに送信される通知です。</p>';
+$string['Unpin'] = 'ピン留め解除';
 $string['Unsubscribe'] = '購読解除';
+$string['unsubscribefromforum_specific'] = 'フォーラムを購読解除する (%s)';
 $string['unsubscribefromforum'] = 'フォーラムを購読解除する';
 $string['unsubscribefromtopic'] = 'トピックを購読解除する';
 $string['updateselectedtopics'] = '選択したトピックを更新する';
+$string['updateselectedtopicsmod_help'] = '<h1>選択したトピックを更新する</h1>
+<p>Select topics using the checkboxes, then choose an action to apply to the selected topics.</p>
+<dl>
+  <dt>購読</dt>
+  <dd>選択したトピックへの投稿の通知を受け取ります。あなたがまだフォーラム全体を購読していない場合のみ利用可能です。</dd>
+  <dt>購読解除</dt>
+  <dd>選択したトピックへの投稿に関する通知の受信を停止します。あなたがフォーラム全体を購読している場合のみ利用可能です。</dd>
+  <dt>ピン留めする</dt>
+  <dd>選択したトピックはすべてのページの上部に表示されます。</dd>
+  <dt>ピン留め解除する</dt>
+  <dd>選択したトピックはすべてのページの上部に表示されなくなります。</dd>
+  <dt>オープン</dt>
+  <dd>すべてのグループメンバは選択したトピックに投稿できます。</dd>
+  <dt>クローズ</dt>
+  <dd>グループ管理者およびフォーラムモデレータのみ選択したトピックに投稿できます。</dd>
+  <dt>移動</dt>
+  <dd>グループ管理者およびフォーラムモデレータは選択したトピックを別のフォーラム (存在する場合) に移動できます。</dd>
+</dl>';
+$string['updateselectedtopics_help'] = '<h1>更新</h1>
+<p>チェックボックスを使用してトピックを選択した後、適用するアクションを選択してください。</p>
+<dl>
+  <dt>購読</dt>
+  <dd>選択したトピックの投稿に関する通知を受け取ります。</dd>
+  <dt>購読解除</dt>
+  <dd>選択したトピックの投稿に関する通知の受信を停止します。</dd>
+</dl>';
 $string['whocancreatetopics'] = 'トピックを作成する';
 $string['youcannotunsubscribeotherusers'] = 'あなたは他の人を購読解除できません。';
 $string['youarenotsubscribedtothisforum'] = 'あなたはこのフォーラムを購読していません。';
@@ -247,14 +278,36 @@ $string['Moveto'] = '移動';
 $string['topicmovedsuccess'] = '%d トピックが正常に移動されました。';
 $string['today'] = '今日';
 $string['yesterday'] = '昨日';
-$string['indentmode'] = 'フォーラムのインデントモード';
+$string['indentmode'] = 'フォーラムインデントモード';
+$string['edit_interaction.indentmode_help'] = '<h1>フォーラムインデントモード</h1><p>このフォーラムのトピックのインデント方法を指定してください。</p><hr><h2>詳細</h2>
+<dl>
+  <dt>完全に広げる</dt>
+  <dd>すべての投稿を親/子の順に表示します。返信は親投稿の下にネストされます。</dd>
+  <dt>最大まで広げる</dt>
+  <dd>上と同じですが、ネストは「最大インデントレベル」の値に制限されます。</dd>
+  <dt>インデントなし</dt>
+  <dd>投稿をスレッドの最後に返信が追加された形で時系列に表示します。</dd>
+</dl>';
 $string['indentfullindent'] = '完全に広げる';
 $string['indentmaxindent'] = '最大まで広げる';
 $string['indentflatindent'] = 'インデントなし';
 $string['maxindent'] = '最大インデントレベル';
 $string['maxindentdescription'] = 'トピックの最大インデントレベルを設定してください。この設定はインデントモードが「最大まで広げる」に設定された場合のみ適用されます。';
 $string['closetopics'] = '新しいトピックをクローズする';
+$string['edit_interaction.closetopics_help'] = '<h1>新しいトピックをクローズする</h1><p>この設定を有効にした場合、新しいトピックはデフォルトでクローズされます。モデレータおよび管理者のみ返信できます。</p>';
 $string['approvalofposts'] = '投稿の承認';
+$string['moderation'] = 'モデレーション';
+$string['edit_interaction.moderateposts_help'] = '<h1>モデレーション</h1><p>モデレーションが必要なタイミングを決定してください:</p>
+<dl>
+  <dt>なし</dt>
+  <dd>モデレーションなし。トピックおよび返信はすべてのグループメンバにすぐに表示されます。</dd>
+  <dt>トピック</dt>
+  <dd>新しいトピックはグループ管理者またはフォーラムモデレータの承認が必要です。</dd>
+  <dt>返信</dt>
+  <dd>新しい返信はグループ管理者またはフォーラムモデレータの承認が必要です。</dd>
+  <dt>トピックおよび返信</dt>
+  <dd>新しいトピックおよび返信は表示される前に承認される必要があります。</dd>
+</dl>';
 $string['activetopicsdescription'] = 'あなたのグループ内で最近更新されたトピックです。';
 $string['timeleftnotice1'] = 'あなたには編集を終了するまで残り <span class="num">%s</span> 分あります。';
 $string['timeleftnoticeexpired'] = '編集時間が終了しました。あなたの変更は保存されません。';
