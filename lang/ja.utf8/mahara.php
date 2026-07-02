@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-04 05:48:39 UTC
+ * @updated    2026-07-01 07:32:15 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -739,6 +739,7 @@ $string['processing'] = '処理中';
 $string['unknownerror'] = '不明なエラーが発生しました (0x20f91a0)。';
 $string['skipmenu'] = 'メインコンテンツにスキップする';
 $string['overview'] = '概要';
+$string['admin_overview'] = '管理ダッシュボード';
 $string['home'] = 'ホーム';
 $string['Content'] = 'コンテンツ';
 $string['myportfolio'] = 'ポートフォリオ';
@@ -1408,6 +1409,9 @@ $string['revertisolation'] = 'あなたが継続したくない場合、config.p
 $string['owngroupsonlyprocessingtext'] = '「隔離インスティテューション」に加えて「<b>自分のグループのみ</b>」が有効にされました。この設定に準拠するためポートフォリオのアクセス権を更新する必要があります。少なくとも1つのグループに属していないアカウント保持者間でポートフォリオを共有していた場合、ポートフォリオは他のグループメンバとのみ共有できるため共有権限が削除されます。';
 $string['maharaversion'] = 'Maharaバージョン';
 $string['unabletopasteimage'] = 'あなたはドラッグ&ドロップではイメージを挿入できません。こちらのエディタのツールバーにある「画像の挿入・編集」ボタンから追加してください。';
+$string['welcome'] = 'ようこそ';
+$string['site_messages'] = 'サイトメッセージ';
+$string['dashboard_ally_description'] = 'ウェルカムメッセージ';
 $string['accordions'] = 'アコーディオン';
 $string['accordionexample1'] = 'アコーディオン例1';
 $string['accordionexample2'] = 'アコーディオン例2';
