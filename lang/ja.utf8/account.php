@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-02 07:38:25 UTC
+ * @updated    2026-07-03 06:18:19 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -56,7 +56,9 @@ $string['ANY.hiderealname_help'] = '<h1>実名を秘匿する</h1><p>あなた�
 $string['showhomeinfo2'] = 'ダッシュボード情報';
 $string['accountprefs.showhomeinfo_help'] = '<h1>ダッシュボード情報</h1><p>サイトに関する一般情報をダッシュボードに表示します。その情報はサイト管理者により設定されます。</p>';
 $string['showlayouttranslatewarning'] = 'ページレイアウト変更前に確認する';
+$string['accountprefs.showlayouttranslatewarning_help'] = '<h1>ページレイアウト変更を確認する</h1><p>ページ編集時、ページレイアウトを新しいレイアウトに変更する前に警告を表示および確認を要求します。この設定は2018年以前に作成されてレイアウト更新未了のポートフォリオにのみ適用されます</p>';
 $string['accessiblepagecreation'] = 'アクセシブルなページ作成';
+$string['accountprefs.accessibilityprofile_help'] = '<h1>アクセシブルなページ作成</h1><p>このオプションを使用した場合、あなたはスクリーンリーダまたはキーボードでページを作成および編集できます。ドラッグ＆ドロップによるページ編集コントロールは無効されます。</p>';
 $string['showprogressbar'] = 'プロファイル完了プログレスバー';
 $string['prefssaved'] = 'プレファレンスが保存されました。';
 $string['prefsnotsaved'] = 'あなたのプレファレンスの保存に失敗しました。';
