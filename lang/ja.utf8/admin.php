@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-02 07:42:02 UTC
+ * @updated    2026-07-03 15:36:22 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -276,6 +276,7 @@ $string['registerwithmahara1'] = 'データ収集をオプトアウトする';
 $string['registerwithmaharadescription1'] = 'あなたのサイトの匿名化データをMaharaプロジェクトに送信しないよう設定できます。Maharaプロジェクトチームの製品開発を支援するため、私たちはあなたのサイトの登録継続をお勧めします。';
 $string['Register'] = '登録';
 $string['Registration'] = '登録';
+$string['view_registration'] = '登録を表示する';
 $string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/registersite.php">サイト登録ページ</a>にアクセスして登録できます。';
 $string['registrationfailedtrylater'] = '登録に失敗しました (エラーコード: %s)。後ほど再度お試しください。';
 $string['registrationoptoutsuccessful'] = '正常に登録がオプトアウトされました。これ以上データは送信されません。';
@@ -946,6 +947,18 @@ $string['merge_displayname'] = '表示名';
 $string['merge_firstname'] = '名';
 $string['merge_lastname'] = '姓';
 $string['merge_username'] = 'ユーザ名';
+$string['merge_primary_email'] = '主メールアドレス';
+$string['merge_emails'] = '副メールアドレス';
+$string['merge_institutions'] = 'インスティテューションメンバシップ';
+$string['merge_institution_roles'] = 'インスティテューションロール';
+$string['merge_counts'] = 'アイテム数';
+$string['mergeaccountoptions'] = '<strong>メモ:</strong> 以下のコンテンツは移動されません:
+<ul><li>ダッシュボードページ</li>
+<li>プロファイルページ</li>
+<li>表示名</li>
+<li>姓名</li>
+<li>プロファイル画像</li></ul>
+<p>メールアドレスはターゲットアカウントの副メールアドレスとして保存されます。</p>';
 $string['institutionusersinstructionsrequesters2'] = '「 %1$s 」フィールドの一覧ではあなたのインスティテューションへの参加をリクエストした人すべてが表示されます。あなたは特定の人を探すため検索ボックスを使用できます。あなたがインスティテューションに人を追加したい場合、またはメンバシップリクエストを拒否したい場合、最初に「 %1$s 」フィールドで選択して右矢印ボタンをクリックして「 %2$s 」フィールドに移動してください。「メンバを追加する」ボタンにより「 %2$s 」フィールド内の人すべてをインスティテューションに追加します。「リンクエストを拒否する」ボタンにより「 %2$s 」フィールドに表示されているメンバシップリクエストを削除します。';
 $string['institutionusersinstructionsnonmembers2'] = '「 %1$s 」フィールドの一覧ではまだあなたのインスティテューションのメンバではない人すべてが表示されます。あなたは特定の人を探すため検索ボックスを使用できます。インスティテューションへの参加に人を招待したい場合、最初に「 %1$s 」フィールドで選択して右矢印ボタンをクリックして「 %2$s 」フィールドに移動してください。「人を招待する」ボタンにより「 %2$s 」フィールド内の人すべてに招待を送信します。これらの人は招待を受け入れるまであなたのインスティテューションと関連付けられません。サイト管理者には「メンバを追加する」ボタンが表示されすぐにインスティテューションに人を追加できます。';
 $string['institutionusersinstructionslastinstitution2'] = '「 %1$s 」フィールドの一覧ではまだあなたのインスティテューションのメンバではない人、選択されたインスティテューションを離脱した人すべてが表示されます。あなたは特定の人を探すため検索ボックスを使用できます。インスティテューションへの参加に人を招待したい場合、最初に「 %1$s 」フィールドで選択して右矢印ボタンをクリックして「 %2$s 」フィールドに移動してください。「人を招待する」ボタンにより「 %2$s 」フィールド内の人すべてに招待を送信します。これらの人は招待を受け入れるまであなたのインスティテューションと関連付けられません。サイト管理者には「メンバを追加する」ボタンが表示されすぐにインスティテューションに人を追加できます。';
@@ -1526,3 +1539,5 @@ $string['uploadcsv.multipleblogs_help'] = '<h1>複数日誌</h1><p>デフォル�
 $string['adduser.resizeonuploaduserdefault_help'] = '<h1>アップロード時に大きなイメージをリサイズする</h1><p>この設定を有効にした場合、最大サイズを超えるイメージはアップロード時にリサイズされます。あなたは個別のアップロードでこれを無効にできます。</p>';
 $string['uploadcsv.resizeonuploaduserdefault_help'] = '<h1>アップロード時に大きなイメージをリサイズする</h1><p>この設定を有効にした場合、最大サイズを超えるイメージはアップロード時にリサイズされます。あなたは個別のアップロードでこれを無効にできます。</p>';
 $string['siteoptions.country_help'] = '<h1>国</h1><p>選択された国はサイト全体での国選択におけるデフォルトとなります。</p><hr><h2>詳細</h2><p>国名は国際標準化機構 (ISO) が発行した<a href="https://www.iso.org/iso-3166-country-codes.html">ISO 3166</a>で定義されているとおりに表示されます。</p><p>あなたのサイト内の国名を変更するにはそれぞれの翻訳の「mahara.php」言語ファイルを編集するか、<a href="https://git.mahara.org/catalyst/mahara/-/wikis/Development/Language-strings#custom-lang-strings-in-local">ローカルディレクトリ</a>にストリングを作成してください。</p>';
+$string['edituser_site.email_help'] = '<h1>主メールアドレス</h1>
+<p>この人の新しい主メールアドレスを入力してください。これはユニークであり、まだ使用されていないものである必要があります。</p><p>この新しいアドレスは人が変更するまですべての通信に使用されます。</p><p>以前の主メールアドレスは副アドレスとして保持されます。</p>';

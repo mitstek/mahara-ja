@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-02 07:50:01 UTC
+ * @updated    2026-07-03 15:09:44 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -187,6 +187,7 @@ $string['profileicon'] = 'プロファイル画像';
 $string['Updatedon'] = '更新日時:';
 $string['Createdon'] = '作成日時:';
 $string['Added'] = '追加済み';
+$string['sharedbyme2'] = '私からの共有';
 $string['whosharewith'] = '誰と共有しますか?';
 $string['accesslist'] = 'アクセスリスト';
 $string['defaultaccesslistmessage1'] = 'あなた以外、あなたの選択されたポートフォリオを閲覧できません。アクセス権を与えるには人を追加してください。';
@@ -591,3 +592,5 @@ $string['resources_support_desc'] = 'あなたの使用リソースおよび学�
 $string['learner_support'] = '学習者サポート';
 $string['learner_support_desc'] = 'この活動を達成するためにあなたが学習者をどのようにサポートしたか記述してください。';
 $string['supportupdatedfor'] = '「 %s 」更新完了';
+$string['share_help'] = '<h1>私からの共有</h1>
+<p>「共有」ボタンでアカウント保持者のアクセス権限を設定するか、ポートフォリオを公開することであなたのポートフォリオを他の人と共有できます。</p><p>「シークレットURL」ボタンでアカウントのない人のアクセスを設定してください。あなたのポートフォリオが検索エンジンで検索可能になることはありません。</p>';
