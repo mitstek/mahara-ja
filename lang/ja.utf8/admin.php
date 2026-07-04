@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-30 15:02:49 UTC
+ * @updated    2026-07-04 15:16:54 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -501,7 +501,7 @@ $string['institutionstaffallreports1'] = 'インスティテューションス�
 $string['institutionstaffallreportsdescription1'] = 'インスティテューションスタッフおよびおよびサポート管理者がインスティテューションのすべてのレポートにアクセスできるようにします。通常、これらのレポートは管理者およびサイトスタッフに制限されています。';
 $string['surbl2'] = 'SURBL URL拒否リスト';
 $string['surbldescription1'] = 'URLをSURBL DNSBLと照合します。';
-$string['disableexternalresources'] = 'HTML内の外部リソースを無効にする';
+$string['disableexternalresources'] = 'HTMLで外部リソースを無効にする';
 $string['disableexternalresourcesdescription1'] = '作成者による別のホストからのイメージ等の埋め込みを防ぐため外部リソースの埋め込みを無効にします。';
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'タグクラウド内に表示されるデフォルトのタグ数です。';
