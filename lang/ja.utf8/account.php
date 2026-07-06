@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-03 06:18:22 UTC
+ * @updated    2026-07-06 00:40:21 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -60,10 +60,12 @@ $string['accountprefs.showlayouttranslatewarning_help'] = '<h1>ページレイ�
 $string['accessiblepagecreation'] = 'アクセシブルなページ作成';
 $string['accountprefs.accessibilityprofile_help'] = '<h1>アクセシブルなページ作成</h1><p>このオプションを使用した場合、あなたはスクリーンリーダまたはキーボードでページを作成および編集できます。ドラッグ＆ドロップによるページ編集コントロールは無効されます。</p>';
 $string['showprogressbar'] = 'プロファイル完了プログレスバー';
+$string['accountprefs.showprogressbar_help'] = '<h1>プロファイル完了</h1><p>この設定を有効にした場合、プロファイル完了のヒントを含むプログレスバーがサイドバーに表示されます。これはアカウント設定で無効にできます。</p>';
 $string['prefssaved'] = 'プレファレンスが保存されました。';
 $string['prefsnotsaved'] = 'あなたのプレファレンスの保存に失敗しました。';
 $string['maildisabled'] = 'メールが無効にされました。';
 $string['disableemail'] = 'メールを無効にする';
+$string['accountprefs.maildisabled_help'] = '<h1>メールを無効にする</h1><p>あなたの主メールアドレスへの通知の送信を停止します。</p>';
 $string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたためあなたのメールアドレス宛のメール送信は停止されました。%s のあなたのアカウントプレファレンスでメールを再有効化する前にメールアカウントが正常に動作しているかご確認ください。';
 $string['maildisableddescription'] = 'あなたのアカウント宛のメール送信が停止されました。アカウントプレファレンスページで<a href="%s">あなたのメールを再度有効化</a>できます。';
 $string['accountprefs.theme_help'] = '<h1>テーマ</h1>

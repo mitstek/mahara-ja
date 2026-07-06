@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-03 15:36:22 UTC
+ * @updated    2026-07-06 00:46:13 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1530,6 +1530,8 @@ $string['reset_view_to_template_batch'] = 'リセットするページの上限�
 $string['reset_view_to_template_batch_complete'] = 'バッチコピー完了!';
 $string['reset_view_to_template_batch_info'] = '[注意] 「 %s 」のバッチのみ実行しています。';
 $string['reset_view_to_template_info'] = '[ログ] 処理中です: タイプ「 %s 」に一致するページのコンテンツをテンプレート (ID %s - 所有: %s 「 %s 」) に置き換えます。';
+$string['adduser.maildisabled_help'] = '<h1>メールを無効にする</h1><p>新しいアカウント保持者に対する主メールアドレスへの通知の送信を停止します。</p>';
+$string['uploadcsv.maildisabled_help'] = '<h1>メールを無効にする</h1><p>新しいアカウント保持者に対する主メールアドレスへの通知の送信を停止します。</p>';
 $string['adduser.theme_help'] = '<h1>テーマ</h1>
 <p>あなたがサイトを閲覧する際のテーマを選択してください。この設定は他の人があなたのポートフォリオを閲覧する際のテーマには影響しません。ポートフォリオは常にインスティテューションテーマまたはページごとに選択可能な場合はあなたがページで指定した特定のテーマに基づいて表示されます。</p>';
 $string['uploadcsv.theme_help'] = '<h1>テーマ</h1>

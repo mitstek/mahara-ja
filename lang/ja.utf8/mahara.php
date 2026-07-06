@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-01 07:32:15 UTC
+ * @updated    2026-07-06 01:12:24 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,6 +17,7 @@ $string['active'] = 'アクティブ';
 $string['add'] = '追加';
 $string['addspecific'] = '「 %s 」を追加する';
 $string['addone'] = '追加';
+$string['confirm'] = '確認';
 $string['cancel'] = 'キャンセル';
 $string['configure'] = '設定';
 $string['configurespecific'] = '「 %s 」を設定する';
@@ -83,6 +84,7 @@ $string['enabled'] = '有効';
 $string['disabled'] = '無効';
 $string['reportissue'] = 'このイシューを報告する';
 $string['reportissueadmin'] = 'このイシューを管理者に報告する';
+$string['issuereportsent'] = 'イシューレポート送信済み';
 $string['issuereport_pieform_success1'] = 'このイシューは報告されています。あなたに管理者から連絡される予定です。';
 $string['provideinfo'] = 'このイシュー発生前にあなたが実施した手順';
 $string['issuereportinfotitle'] = 'このイシュー発生前にあなたが実施した手順:';
@@ -152,6 +154,7 @@ $string['profilepage'] = 'プロファイルページ';
 $string['mainmenu'] = 'メインメニュー';
 $string['showmainmenu'] = 'メインメニューを表示する';
 $string['togglemenu'] = 'トグルメニュー';
+$string['go_to_admin_area'] = '管理エリアに移動する';
 $string['showusermenu1'] = 'アカウントメニューを表示する';
 $string['showsearch'] = '検索を表示する';
 $string['showmenu'] = '%s のメニューを表示する';
@@ -159,7 +162,9 @@ $string['at'] = '@';
 $string['From'] = 'From';
 $string['To'] = 'To';
 $string['ascending'] = '昇順';
+$string['chronological'] = '古い順';
 $string['descending'] = '降順';
+$string['reversechronological'] = '新しい順';
 $string['sortorder'] = 'ファイル並べ替え順';
 $string['All'] = 'すべて';
 $string['Allinstitutions'] = 'すべてのインスティテューション';
