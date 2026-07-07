@@ -81,16 +81,16 @@ $string['true'] = 'True';
 $string['false'] = 'False';
 $string['enabled'] = '有効';
 $string['disabled'] = '無効';
-$string['reportissue'] = 'このイシューを報告する';
-$string['reportissueadmin'] = 'このイシューを管理者に報告する';
-$string['issuereport_pieform_success'] = 'イシュー報告が送信されました。あなたに管理者から連絡される予定です。';
-$string['provideinfo'] = 'このイシュー発生前にあなたが実施した手順';
-$string['issuereportinfotitle'] = 'このイシュー発生前にあなたが実施した手順:';
+$string['reportissue'] = 'このイシュを報告する';
+$string['reportissueadmin'] = 'このイシュを管理者に報告する';
+$string['issuereport_pieform_success'] = 'イシュ報告が送信されました。あなたに管理者から連絡される予定です。';
+$string['provideinfo'] = 'このイシュ発生前にあなたが実施した手順';
+$string['issuereportinfotitle'] = 'このイシュ発生前にあなたが実施した手順:';
 $string['issuereporterroroccurred'] = '---
 発生したエラー:
 
 %s';
-$string['issuereportemailbody'] = '%s がイシューを報告しました。あなたの通知を閲覧するには次にアクセスしてください:
+$string['issuereportemailbody'] = '%s がイシュを報告しました。あなたの通知を閲覧するには次にアクセスしてください:
 
 %s';
 $string['complaint'] = 'クレーム';
@@ -868,8 +868,8 @@ $string['fileunknowntype'] = 'あなたがアップロードしたファイル�
 $string['virusrepeatsubject'] = '警告: %s が繰り返しウイルスをアップロードしています。';
 $string['virusrepeatmessage'] = '%s がアップロードした複数のファイルをウイルスチェッカで検査した結果、感染が発見されました。';
 $string['exportfiletoobig'] = '生成されようとしているファイルが大きすぎます。ディスクスペースを空けてください。';
-$string['issuenotificationsubject'] = 'イシューレポート %s';
-$string['issuereportmessageemailbody'] = '%s があなたにイシューレポートを送信しました。このメッセージを閲覧するには次にアクセスしてください:
+$string['issuenotificationsubject'] = 'イシュレポート %s';
+$string['issuereportmessageemailbody'] = '%s があなたにイシュレポートを送信しました。このメッセージを閲覧するには次にアクセスしてください:
 
 %s';
 $string['phpuploaderror'] = 'ファイルアップロード中にエラーが発生しました: %s (エラーコード: %s)';
