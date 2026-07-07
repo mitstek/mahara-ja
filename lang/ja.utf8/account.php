@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-06 00:40:21 UTC
+ * @updated    2026-07-07 05:20:30 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -68,6 +68,12 @@ $string['disableemail'] = 'メールを無効にする';
 $string['accountprefs.maildisabled_help'] = '<h1>メールを無効にする</h1><p>あなたの主メールアドレスへの通知の送信を停止します。</p>';
 $string['maildisabledbounce'] = '多くのメッセージがサーバに戻ってきたためあなたのメールアドレス宛のメール送信は停止されました。%s のあなたのアカウントプレファレンスでメールを再有効化する前にメールアカウントが正常に動作しているかご確認ください。';
 $string['maildisableddescription'] = 'あなたのアカウント宛のメール送信が停止されました。アカウントプレファレンスページで<a href="%s">あなたのメールを再度有効化</a>できます。';
+$string['accountprefs.lang_help'] = '<h1>言語</h1>
+<p>あなたが希望するコンテクストヘルプを含むインタフェースの表示言語を選択してください。あなたはいつでも任意の言語で独自のテキストを入力できます。</p>';
+$string['adduser.lang_help'] = '<h1>言語</h1>
+<p>コンテクストヘルプを含むアカウント保持者に表示されるインタフェースの言語を選択してください。後からアカウントプレファレンスでその設定を変更できます。いつでも任意の言語でテキストを入力できます。</p>';
+$string['uploadcsv.lang_help'] = '<h1>言語</h1>
+<p>コンテクストヘルプを含むアカウント保持者に表示されるインタフェースの言語を選択してください。後からアカウントプレファレンスでその設定を変更できます。いつでも任意の言語でテキストを入力できます。</p>';
 $string['accountprefs.theme_help'] = '<h1>テーマ</h1>
 <p>あなたがサイトを閲覧する際のテーマを選択してください。この設定は他の人があなたのポートフォリオを閲覧する際のテーマには影響しません。ポートフォリオは常にインスティテューションテーマまたはページごとに選択可能な場合はあなたがページで指定した特定のテーマに基づいて表示されます。</p>';
 $string['deleteaccountuser'] = '%s のアカウントを削除する';
@@ -155,3 +161,10 @@ $string['canceldeletionadminemailhtml'] = '<p>管理者さん、こんにちは�
 $string['resizeonuploaduserdefault1'] = 'アップロード時にイメージをリサイズする';
 $string['accountprefs.resizeonuploaduserdefault_help'] = '<h1>アップロード時に大きなイメージをリサイズする</h1><p>この設定を有効にした場合、最大サイズを超えるイメージはアップロード時にリサイズされます。あなたは個別のアップロードでこれを無効にできます。</p>';
 $string['noprivacystatementsaccepted'] = 'このアカウントは現在のプライバシ保護方針を一切受け入れていません。';
+$string['notifications_help'] = '<p><h1>通知タイプ</h1>
+<p>あなたは活動タイプごとに通知の受信方法を選択できます。</p>
+<p><strong>受信箱:</strong> サイトの受信トレイにはあなたが受信した活動通知のリストが表示されます。</p>
+<p><strong>メール:</strong>活動が発生するたびにあなたの主メールアドレスにメールが到着します。</p>
+<p><strong>メール概要:</strong> あなたの主メールアドレスには過去24時間の活動リストが記載されたメールが毎日到着します。</p>
+<p><strong>メモ:</strong> あなたがいずれかのメールオプションを選択した場合、すべての活動はあなたの受信トレイにもリアルタイムで記録されます。それらは常に既読マークされます。</p>
+<p>あなたがメール通知オプションを選択した場合、次の通知は自動的に期限切れとなります。また、「管理メニュー → サイト設定 → 通知設定 → 通知有効期限」で指定された日数が経過した時点で受信トレイから通知が削除されます。</p><ul><li>ページアクセス通知</li><li>ウォッチリスト通知</li><li>インスティテューション通知</li></ul>';

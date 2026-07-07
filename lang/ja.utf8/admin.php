@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-06 00:46:13 UTC
+ * @updated    2026-07-07 05:32:33 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -439,6 +439,7 @@ $string['showselfsearchsideblock1'] = 'ポートフォリオ検索';
 $string['showtagssideblock1'] = 'タグクラウド';
 $string['simple'] = 'シンプル';
 $string['sitedefault'] = 'サイトデフォルト';
+$string['lang_help'] = '<h1>言語</h1><p>サイトのデフォルト言語を選択してください。</p><hr><h2>詳細</h2><p>選択した言語はあなたのサイト全体のメニューアイテムおよびコンテクストヘルプのサイトデフォルト言語です。あなたが追加言語をインストールした場合、人はアカウント設定から言語プレファレンスを変更できます。</p>';
 $string['sitecountrydescription'] = 'サイトのデフォルトの国です。';
 $string['sitename'] = 'サイト名';
 $string['siteoptionspagedescription'] = 'ここであなたはサイト全体にデフォルトとして適用されるグローバルオプションを設定できます。<br>メモ: 無効にされたオプションはあなたのconfig.phpファイルでオーバーライドできます。';
@@ -579,11 +580,18 @@ $string['emailsmtpsecure'] = 'SMTP暗号化';
 $string['emailsmtpsecuressl'] = 'SSL';
 $string['emailsmtpsecuretls'] = 'TLS';
 $string['emailnoreplyaddress'] = 'システムメールアドレス';
-$string['internalnotificationexpire'] = '内部通知有効期限';
+$string['noreplyaddress_help'] = '<h1>システムメールアドレス</h1><p>サイトメールが送信される送信元メールアドレスです。</p>';
+$string['internalnotificationexpire'] = '通知有効期限';
+$string['internalnotificationexpire_help'] = '<h1>通知有効期限</h1><p>指定された日数が経過した場合、あなたの受信トレイから以下の通知タイプが削除されます:</p>
+<ul>
+<li>ページアクセス通知</li>
+<li>ウォッチリスト通知</li>
+<li>インスティテューション通知</li>
+</ul>';
 $string['notificationsettings'] = '通知設定';
 $string['notificationsettingsdescription1'] = 'ここであなたは新しいアカウント保持者が受信する通知のデフォルトオプションを設定できます。人はこれらの設定を自分の「アカウントメニュー → 設定 → 通知」ページでオーバーライドできます。<br>あなたがメールオプションのどちらを選択した場合でも通知は受信ボックスに到着しますが、自動的に既読マークされます。';
-$string['allow_inst_admins_to_manage_issue_reports'] = 'インスティテューション管理者がイシューレポートを受信する';
-$string['allow_inst_admins_to_escalate_issue_reports'] = 'インスティテューション管理者がイシューレポートをエスカレーションできる';
+$string['allow_inst_admins_to_manage_issue_reports'] = 'インスティテューション管理者がイシュレポートを受信する';
+$string['allow_inst_admins_to_escalate_issue_reports'] = 'インスティテューション管理者がイシュレポートをエスカレーションできる';
 $string['escalation_email'] = 'エスカレーションメール';
 $string['csvfile'] = 'CSVファイル';
 $string['emailusersaboutnewaccount1'] = 'アカウント詳細をメール送信する';
@@ -883,6 +891,8 @@ $string['institutiondisplayname'] = 'インスティテューション表示名'
 $string['institutionexpiry'] = 'インスティテューション有効期限';
 $string['institution.expiry_help'] = '<h1>有効期限</h1><p>次のフォーマットを使用してください: YYYY/MM/DD</p>';
 $string['institutionlanguage'] = '言語';
+$string['institution.lang_help'] = '<h1>言語</h1>
+<p>インスティテューションメンバのデフォルト言語です。</p><p>それぞれのメンバはアカウントプレファレンスまたは言語スイッチャでこれを変更できます.</p>';
 $string['includedinstitutions'] = '含まれるインスティテューション (省略名)';
 $string['excludedinstitutions'] = '除外されるインスティテューション (省略名)';
 $string['noinstitution'] = 'どのインスティテューションのメンバでもないアカウントを含む';
@@ -892,6 +902,9 @@ $string['registrationallowed'] = '登録を許可する';
 $string['registrationconfirm'] = '登録を承認する';
 $string['defaultmembershipperiod'] = 'デフォルトのメンバシップ期間';
 $string['showonlineusers'] = 'オンライン中の人を表示する';
+$string['licensemandatory1'] = '必須ライセンス選択';
+$string['institution.licensemandatory_help'] = '<h1>必須ライセンス選択</h1>
+<p>この設定を有効にした場合、作成者は作成またはアップロードするすべてのアーティファクトのライセンスを選択する必要があります。</p>';
 $string['licensedefault'] = 'デフォルトライセンス';
 $string['institution.licensedefault_help'] = '<h1>デフォルトライセンス</h1>
 <p>インスティテューションメンバが作成またはアップロードしたコンテンツのデフォルトライセンスを設定してください。メンバはアカウント設定または個々のアーティファクトでこれをオーバーライドできます。どのライセンスを選択するかわからない場合、あなたの組織の法務チームにご相談ください。</p>';

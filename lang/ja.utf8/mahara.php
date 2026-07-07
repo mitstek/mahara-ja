@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-06 01:12:24 UTC
+ * @updated    2026-07-07 05:35:25 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -82,28 +82,28 @@ $string['true'] = 'True';
 $string['false'] = 'False';
 $string['enabled'] = '有効';
 $string['disabled'] = '無効';
-$string['reportissue'] = 'このイシューを報告する';
-$string['reportissueadmin'] = 'このイシューを管理者に報告する';
-$string['issuereportsent'] = 'イシューレポート送信済み';
-$string['issuereport_pieform_success1'] = 'このイシューは報告されています。あなたに管理者から連絡される予定です。';
-$string['provideinfo'] = 'このイシュー発生前にあなたが実施した手順';
-$string['issuereportinfotitle'] = 'このイシュー発生前にあなたが実施した手順:';
+$string['reportissue'] = 'このイシュを報告する';
+$string['reportissueadmin'] = 'このイシュを管理者に報告する';
+$string['issuereportsent'] = 'イシュレポート送信済み';
+$string['issuereport_pieform_success1'] = 'このイシュは報告されています。あなたに管理者から連絡される予定です。';
+$string['provideinfo'] = 'このイシュ発生前にあなたが実施した手順';
+$string['issuereportinfotitle'] = 'このイシュ発生前にあなたが実施した手順:';
 $string['issuereporterroroccurred'] = '---
 発生したエラー:
 
 %s';
-$string['issuereportemailbody'] = '%s がイシューを報告しました。あなたの通知を閲覧するには次にアクセスしてください:
+$string['issuereportemailbody'] = '%s がイシュを報告しました。あなたの通知を閲覧するには次にアクセスしてください:
 
 %s';
 $string['issuereporterroroccurred_str'] = '発生したエラー:';
-$string['issuereport_deleted'] = '(イシューレポート削除済み)';
-$string['issuereport_escalate'] = 'イシューレポートをエスカレーションする';
-$string['issuereport_escalate_report_form_title'] = 'イシューレポートをエスカレーションする';
+$string['issuereport_deleted'] = '(イシュレポート削除済み)';
+$string['issuereport_escalate'] = 'イシュレポートをエスカレーションする';
+$string['issuereport_escalate_report_form_title'] = 'イシュレポートをエスカレーションする';
 $string['issuereport_escalate_notes'] = 'ノート';
-$string['issuereport_escalate_pieform_success'] = 'イシューレポートがエスカレーションされました。';
-$string['issuereport_escalate_pieform_error'] = 'エスカレーションされたイシューレポートはありません。';
+$string['issuereport_escalate_pieform_success'] = 'イシュレポートがエスカレーションされました。';
+$string['issuereport_escalate_pieform_error'] = 'エスカレーションされたイシュレポートはありません。';
 $string['issuereport_escalation_other_info'] = 'その他の情報';
-$string['issuereport_escalation_title_element'] = 'イシュー概略';
+$string['issuereport_escalation_title_element'] = 'イシュ概略';
 $string['issuereport_escalation_email_element'] = 'このレポートの送信先:';
 $string['issuereport_escalation_email_element_sender'] = '返信はあなたの主メールアドレスに送信されます:';
 $string['issuereport_escalation_email_element_error'] = 'メールフィールドに入力してください。';
@@ -920,8 +920,8 @@ $string['fileunknowntype'] = 'あなたがアップロードしたファイル�
 $string['virusrepeatsubject'] = '警告: %s が繰り返しウイルスをアップロードしています。';
 $string['virusrepeatmessage'] = '%s がアップロードした複数のファイルをウイルスチェッカで検査した結果、感染が発見されました。';
 $string['exportfiletoobig'] = '生成されようとしているファイルが大きすぎます。ディスクスペースを空けてください。';
-$string['issuenotificationsubject'] = 'イシューレポート %s';
-$string['issuereportmessageemailbody'] = '%s があなたにイシューレポートを送信しました。このメッセージを閲覧するには次にアクセスしてください:
+$string['issuenotificationsubject'] = 'イシュレポート %s';
+$string['issuereportmessageemailbody'] = '%s があなたにイシュレポートを送信しました。このメッセージを閲覧するには以下にアクセスしてください:
 
 %s';
 $string['phpuploaderror'] = 'ファイルアップロード中にエラーが発生しました: %s (エラーコード: %s)';
