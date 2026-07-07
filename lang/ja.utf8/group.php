@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-02 07:21:04 UTC
+ * @updated    2026-07-06 01:07:25 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -189,6 +189,7 @@ $string['portfolioreleasedpending'] = 'ポートフォリオはアーカイブ�
 $string['portfolioreleasedpendingwithname'] = 'ポートフォリオ「 %s 」はアーカイブ後にリリースされます。';
 $string['leavegroup'] = 'このグループから離脱する';
 $string['joingroup'] = 'このグループに参加する';
+$string['joinspecifiedgroup'] = 'グループ「 %s 」に参加する';
 $string['requestjoingroup'] = 'このグループへの参加をリクエストする';
 $string['grouphaveinvite'] = 'あなたはこのグループへの参加を招待されました。';
 $string['grouphaveinvitewithrole'] = 'あなたはこのグループへの参加を次のロールで招待されました';
@@ -220,6 +221,12 @@ $string['deletegroup'] = 'グループが正常に削除されました。';
 $string['deletegroup1'] = 'グループを削除する';
 $string['deletegroup_full'] = 'グループ「 %s 」を削除する';
 $string['delete'] = '削除';
+$string['confirmdelete'] = '確認';
+$string['cancel'] = 'キャンセル';
+$string['canceldelete'] = 'キャンセル';
+$string['groupsettings'] = 'グループ設定';
+$string['groupsettings_full'] = '「 %s 」のグループ設定';
+$string['group_homepage_edit'] = 'ページを編集する';
 $string['group_homepage_edit_full'] = 'グループホームページを編集する';
 $string['allmygroups'] = 'すべてのマイグループ';
 $string['groupsimin'] = '私が参加しているグループ';
@@ -275,6 +282,7 @@ $string['invitationssent'] = '%d 件の招待が送信されました。';
 $string['newmembersadded'] = '%d 名の新しいメンバが追加されました。';
 $string['potentialmembers'] = '潜在的なメンバ';
 $string['sendinvitations'] = '招待を送信する';
+$string['invitemembers'] = 'メンバを招待する';
 $string['userstobeadded'] = '追加される人';
 $string['userstobeinvited'] = '招待される人';
 $string['potentialmemberstorecommend'] = '選択した潜在的なメンバをレコメンデーション送信対象の人にする';
@@ -293,7 +301,9 @@ $string['friendformrequestsuccess'] = '%s にフレンドシップリクエス�
 $string['friendformacceptsuccess'] = '承認されたフレンドリクエスト';
 $string['friendformrejectsuccess'] = '拒否されたフレンドリクエスト';
 $string['addtofriendslist'] = 'フレンドに追加する';
+$string['addusertofriendslist'] = '%s をフレンドリストに追加する';
 $string['requestfriendship'] = 'フレンドシップをリクエストする';
+$string['emptystatenofriendstitle'] = 'あなたはまだフレンドを追加していません。';
 $string['addedtofriendslistsubject'] = '%s があなたをフレンドとして追加しました。';
 $string['addedtofriendslistmessage'] = '%s があなたをフレンドとして追加しました。これはあなたのフレンドリストに %s が追加されたことも意味します。追加された人のプロファイルページを閲覧するには以下のリンクをクリックしてください。';
 $string['requestedfriendlistsubject'] = '新しいフレンドリクエスト';
@@ -328,15 +338,21 @@ $string['Views'] = 'ページ';
 $string['Portfolios'] = 'ポートフォリオ';
 $string['Files'] = 'ファイル';
 $string['noviewstosee'] = 'あなたが閲覧できるものはありません。';
+$string['noviewsemptystatetitle'] = 'あなたにはポートフォリオがありません。';
+$string['noviewsemptystatemessage'] = '新しいポートフォリオを作成します。';
 $string['whymakemeyourfriend'] = 'あなたが私をフレンドにする理由:';
 $string['approverequest'] = 'リクエストを承認する';
 $string['denyrequest'] = 'リクエストを拒否する';
+$string['approve_friend_request_from'] = '%s からのフレンドリクエストを承認する';
+$string['deny_friend_request_from'] = '%s からのフレンドリクエストを拒否する';
 $string['pending'] = '保留中';
 $string['pendingsince'] = '%s より保留中';
 $string['requestedsince'] = '%s よりリクエスト中';
+$string['requested_on'] = 'リクエスト日時: %s';
 $string['trysearchingforfriends'] = 'あなたのネットワークを広げるため%s新しいフレンドの検索%sをお試しください。';
 $string['nobodyawaitsfriendapproval'] = 'あなたのフレンドになるため承認を待っている人はいません。';
 $string['sendfriendrequest'] = 'フレンドリクエストを送信する';
+$string['sendfriendrequestto'] = '%s にフレンドリクエストを送信する';
 $string['addtomyfriends'] = 'マイフレンドに追加する';
 $string['friendshiprequested'] = 'フレンドシップがリクエストされました。';
 $string['existingfriend'] = '現在のフレンド';
