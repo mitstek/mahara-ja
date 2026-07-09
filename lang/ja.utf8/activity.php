@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-23 12:46:37 UTC
+ * @updated    2026-07-09 07:11:44 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -13,22 +13,35 @@
 
 defined('INTERNAL') || die();
 
-$string['typemaharamessage'] = 'システムメッセージ';
+$string['typemaharamessage'] = 'システム通知';
+$string['typemaharamessage_help'] = '<h1>システム通知</h1><p>アカウント確認、インスティテューションメンバシップ確認およびポートフォリオ提出確認等、システムが生成する通知です。</p>';
 $string['typeusermessage'] = '他の人からのメッセージ';
+$string['typeusermessage_help'] = '<h1>他の人からのメッセージ</h1><p>サイトの他のアカウント保持者からの通知です。</p>';
 $string['typefeedback'] = 'コメント';
 $string['typefeedback_help'] = '<h1>コメント</h1><p>あなたのポートフォリオ内のページ、アーティファクトまたは日誌へのコメントに関する通知です。</p>';
 $string['typewatchlist'] = 'ウォッチリスト';
-$string['typeviewaccess'] = '新しいページアクセス';
-$string['typeviewaccessrevoke'] = '取り消し済みページアクセス';
+$string['typewatchlist_help'] = '<h1>ウォッチリスト</h1><p>あなたが監視中のページの活動に関する通知です。</p>';
+$string['typeviewaccess'] = 'ポートフォリオアクセス';
+$string['typeviewaccess_help'] = '<h1>ポートフォリオアクセス</h1><p>あなたまたはあなたのグループの1人にポートフォリオへのアクセス権が付与された場合の通知です。すべてのアカウント保持者、あなたのインスティテューションまたは一般の人がアクセスできるポートフォリオに関する通知は受信しません。</p>';
+$string['typeviewaccessrevoke'] = 'ポートフォリオアクセス取り消し';
+$string['typeviewaccessrevoke_help'] = '<h1>ポートフォリオアクセス取り消し</h1><p>あなたがポートフォリオを共有している人がアクセス権を直接削除した場合の通知です。</p>';
 $string['typecontactus'] = 'お問い合わせ';
+$string['typecontactus_help'] = '<h1>お問い合わせ</h1><p>「お問い合わせ」フォームを経由で管理者に送信された通知です。</p><p>インスティテューションメンバからのメッセージはインスティテューション管理者に送信されます。それ以外のメッセージすべてはサイト管理者に送信されます。</p>';
 $string['typeobjectionable'] = '好ましくないコンテンツ';
+$string['typeobjectionable_help'] = '<h1>好ましくないコンテンツ</h1><p>ページまたはアーティファクトに好ましくないコンテンツが含まれているとフラグが立てられた場合に管理者に送信される通知です。</p>';
 $string['typevirusrepeat'] = 'ウイルスアップロードの繰り返し';
+$string['typevirusrepeat_help'] = '<h1>ウイルスアップロードの繰り返し</h1><p>誰かがウイルスに感染したファイルを繰り返しアップロードした場合に管理者に送信される通知です。これにはウイルスチェックが有効にされている必要があります。</p>';
 $string['typevirusrelease'] = 'ウイルスフラグ解除';
+$string['typevirusrelease_help'] = '<h1>ウイルスフラグ解除</h1><p>ファイルがウイルススキャナにリリースされた場合に管理者に送信される通知です。</p>';
 $string['typeadminmessages'] = '管理メッセージ';
-$string['typeinstitutionmessage'] = 'インスティテューションメッセージ';
-$string['typegroupmessage'] = 'グループメッセージ';
+$string['typeinstitutionmessage'] = 'インスティテューション通知';
+$string['typeinstitutionmessage_help'] = '<h1>インスティテューション通知</h1><p>インスティテューション確認、削除およびメンバシップリクエスト通知等、システムが生成するメッセージです。</p>';
+$string['typegroupmessage'] = 'グループ通知';
+$string['typegroupmessage_help'] = '<h1>グループ通知n</h1><p>グループへの参加リクエスト等、システムが生成する通知です。</p>';
 $string['typenewpost'] = 'フォーラム投稿';
 $string['typeissuereport'] = 'イシュレポート';
+$string['accountprefs.typeviewaccessrevoke_help'] = '<h1>イシュレポート</h1><p>アカウント保持者から報告されたイシュまたはエラーメッセージを含むインスティテューションまたはサイト管理者へのメッセージです。</p>';
+$string['typeissuereport_help'] = '<h1>イシュレポート</h1><p>アカウント保持者から報告されたイシュまたはエラーメッセージを含む管理者に送信される通知です。デフォルトは「なし」であるため、新しい管理者はそれらを受信するかどうか選択できます。</p><p>デフォルトの変更は新しいサイト管理者アカウント (およびレポートを受信するよう設定されている場合はインスティテューション管理者アカウント) に適用されます。</p>';
 $string['type'] = '活動タイプ';
 $string['attime'] = '-';
 $string['prefsdescr'] = 'あなたがメールオプションのどちらを選択した場合でも受信箱には通知が到着しますが、到着した通知は自動的に既読マークされます。';
@@ -38,6 +51,7 @@ $string['date'] = '日時';
 $string['read'] = '既読';
 $string['unread'] = '未読';
 $string['markasread'] = '既読マークする';
+$string['markasunread'] = '未読マークする';
 $string['selectall'] = 'すべてを選択する';
 $string['selectallread'] = 'すべての未読通知';
 $string['selectalldelete'] = 'すべての削除通知';
@@ -178,3 +192,4 @@ $string['adminnotificationerror1'] = '通知エラーは恐らくあなたのサ
 $string['escalateissuereportprompt'] = '潜在的にセンシティブな情報の匿名化を確認してください。';
 $string['failurefindissuereportwithid'] = 'ID「 %s 」のイシュレポートが見つかりませんでした。';
 $string['no_valid_reports_to_escalate'] = 'エスカレーションすべき有効なイシュレポートはありません。';
+$string['from'] = '報告者';
