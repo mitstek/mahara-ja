@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-07 05:35:25 UTC
+ * @updated    2026-07-09 07:42:19 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -253,8 +253,10 @@ $string['tagfilter_task'] = 'プランタスク';
 $string['tagfilter_external'] = '外部';
 $string['tagfilter_resume'] = 'レジュメ';
 $string['edittags'] = 'タグを編集する';
+$string['edittagname'] = 'タグ「 %s 」を編集する';
 $string['selectatagtoedit'] = '編集するタグを選択してください';
 $string['edittag'] = '<a href="%s">%s</a> を編集する';
+$string['edittagplaceholder'] = 'タグ「 %s 」を編集する';
 $string['editthistag'] = 'このタグを編集する';
 $string['edittagdescription'] = 'あなたのポートフォリオの「 %s 」でタグ付けされたアイテムすべてが更新されます。';
 $string['deletetag'] = '<a href="%s">%s</a> を削除する';
@@ -1428,6 +1430,17 @@ $string['alertsdanger'] = '危険アラート';
 $string['attachmentsnumber'] = '3添付ファイル';
 $string['attachmentsfile'] = 'ファイル名';
 $string['attachmentsdescription'] = 'ファイル説明';
+$string['primary'] = '主';
+$string['secondary'] = '第2';
+$string['success'] = '成功';
+$string['warning'] = '警告';
+$string['danger'] = '危険';
+$string['info'] = '情報';
+$string['beacon'] = 'ビーコン';
+$string['buttons'] = 'ボタン';
+$string['buttonprimary'] = '主ボタン';
+$string['buttonsecondary'] = '第2ボタン';
+$string['buttonlink'] = 'リンクボタン';
 $string['textlinkicon_example2'] = '標準リンク';
 $string['buttonclose'] = '閉じるボタン';
 $string['buttoncolour'] = '色ボタン';

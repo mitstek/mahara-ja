@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-07 05:32:33 UTC
+ * @updated    2026-07-09 07:34:38 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -93,6 +93,14 @@ $string['sitesettings'] = 'サイト設定';
 $string['sitesettingssdesc'] = 'サイト名、言語、テーマ等の基本的な内容を設定します。';
 $string['staticpages'] = '固定ページ';
 $string['institutionstaticpages'] = 'インスティテューション固定ページ';
+$string['institutionstaticpages_help'] = '<h1>インスティテューション固定ページ</h1><p>変更はあなたのインスティテューションメンバにのみに表示されます。あなたがメンバに代わりにサイトのデフォルトコンテンツを表示させたいページでは「サイトデフォルトを使用する」を有効にしてください。</p><hr><h2>詳細情報</h2>
+<p>サイトにはいくつかのページが組み込まれています:</p>
+<dl>
+  <dt>About<dt><dd>あなたのインスティテューションに関する重要な情報をフッタにリンクして共有します。</dd>
+  <dt>ホーム (ダッシュボード)<dt> <dd>あなたのインスティテューションメンバのダッシュボードのパーソナライズされたセクションの上にコンテンツを追加してください。これはインスティテューション全体のお知らせに役立ちます。</dd>
+  <dt>ログアウトホーム</dt> <dd>あなたのインスティテューションメンバに表示されるコンテンツをホームページに追加してください。</dd>
+</dl>
+<p>ある人が複数インスティテューションに属している場合、Maharaは固定ページの主インスティテューションとして1つのインスティテューションを割り当てます。その人はどのインスティテューションを主インスティテューションにするか選択できません。</p>';
 $string['staticpageinstitutionbad'] = 'あなたはインスティテューション「 %s 」の固定ページにアクセスまたは編集できません。';
 $string['usedefault'] = 'サイトデフォルトを使用する';
 $string['editsitepage.pageusedefault_help'] = '<h1>サイトデフォルトを使用する</h1><p>このページにサイトのデフォルトコンテンツを表示します。</p>';
@@ -181,11 +189,15 @@ $string['installedpluginsmissing'] = '次のプラグインがインストール
 $string['ensurepluginsexist'] = 'あなたのすべてインストール済みプラグインが %s 配下で利用可能およびウェブサーバから読み込めることを確認してください。';
 $string['plugintypedescription_blocktype'] = 'ページに配置するプレースホルダブロック内で表示されるブロックの表示順を変更するには個別のブロックを移動してください。数字は特定のブロックタイプがサイトですでに何回使用されているか示します。';
 $string['htmlfilters'] = 'HTMLフィルタ';
+$string['htmlfiltersdescription1'] = 'HTML Purifierのフィルタをインストールします。';
+$string['newfiltersdescription1'] = '新しいHTMLフィルタをインストールするにはファイルをフォルダ %s に展開して「インストール」ボタンを選択してください。';
 $string['filtersinstalled'] = 'フィルタがインストールされました。';
 $string['nofiltersinstalled'] = 'インストールされたHTMLフィルタはありません。';
 $string['allowediframesites1'] = 'iframeソース';
 $string['iframemanagement'] = 'iframeソース管理';
 $string['iframesitesdescriptionshort'] = 'iframe経由で利用可能な外部コンテンツの埋め込みを許可します。';
+$string['allowediframesitesdescription1'] = 'これらのサイトからのiframe経由のコンテンツ埋め込みは許可されています。';
+$string['newurl.url_help'] = '<h1>サイト</h1><p>iframeソースURLの先頭で一致するテキスト (https://なし) です。使用できるのは文字、数字および記号 (\'.\', \'/\', \'_\', \'-\' ) のみです。</p>';
 $string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含めます。';
 $string['iframeiconhost'] = 'アイコンホスト';
 $string['urlalreadyexists'] = 'このURLはすでに存在します。あなたはURLを重複して追加できません。';
