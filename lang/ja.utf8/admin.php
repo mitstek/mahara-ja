@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-06 20:08:51 UTC
+ * @updated    2026-07-11 13:45:10 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -509,7 +509,7 @@ $string['trustedsites'] = '信頼できるサイト';
 $string['updatesiteoptions'] = 'サイトオプションを更新する';
 $string['usersallowedmultipleinstitutions'] = '人に複数インスティテューションを許可する';
 $string['usersallowedmultipleinstitutionsdescription1'] = '人が同時に複数のインスティテューションのメンバになれるようにします。';
-$string['institutionstrictprivacy'] = '厳密なプライバシ';
+$string['institutionstrictprivacy'] = '厳格なプライバシ';
 $string['institutionstrictprivacydescription'] = 'あなたのサイトが<a href="https://www.eugdpr.org/">GDPR</a>を順守する必要がある場合、このオプションを有効にしてください。';
 $string['institutionstrictprivacysuspendaccount'] = 'アカウントを利用停止する';
 $string['institutionstrictprivacysuspendaccountdescription'] = '人が法的同意を拒否した場合、アカウントを利用停止します。';
