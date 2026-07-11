@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-09 07:34:38 UTC
+ * @updated    2026-07-11 15:03:19 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -469,7 +469,7 @@ $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'タグクラウド内に表示されるデフォルトのタグ数です。';
 $string['trustedsites'] = '信頼できるサイト';
 $string['usersallowedmultipleinstitutions'] = '人に複数インスティテューションを許可する';
-$string['institutionstrictprivacy'] = '厳密なプライバシ';
+$string['institutionstrictprivacy'] = '厳格なプライバシ';
 $string['institutionstrictprivacysuspendaccount'] = 'アカウントを利用停止する';
 $string['requireregistrationconfirm'] = '登録を承認する';
 $string['userscanchooseviewthemes'] = '作成者がページテーマを選択できる';
