@@ -499,7 +499,7 @@ $string['trustedsites'] = '信頼できるサイト';
 $string['updatesiteoptions'] = 'サイトオプションを更新する';
 $string['usersallowedmultipleinstitutions'] = '人に複数インスティテューションを許可する';
 $string['usersallowedmultipleinstitutionsdescription1'] = '人が同時に複数のインスティテューションのメンバになれるようにします。';
-$string['institutionstrictprivacy'] = '厳密なプライバシ';
+$string['institutionstrictprivacy'] = '厳格なプライバシ';
 $string['institutionstrictprivacydescription'] = 'あなたのサイトが<a href="https://www.eugdpr.org/">GDPR</a>を順守する必要がある場合、このオプションを有効にしてください。';
 $string['requireregistrationconfirm'] = '登録を承認する';
 $string['requireregistrationconfirmdescription1'] = 'すべてのインスティテューションに新しい自己登録アカウントの承認を強制します。';
