@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-09 07:34:35 UTC
+ * @updated    2026-07-13 16:00:07 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -198,9 +198,13 @@ $string['iframemanagement'] = 'iframeソース管理';
 $string['iframesitesdescriptionshort'] = 'iframe経由で利用可能な外部コンテンツの埋め込みを許可します。';
 $string['allowediframesitesdescription1'] = 'これらのサイトからのiframe経由のコンテンツ埋め込みは許可されています。';
 $string['newurl.url_help'] = '<h1>サイト</h1><p>iframeソースURLの先頭で一致するテキスト (https://なし) です。使用できるのは文字、数字および記号 (\'.\', \'/\', \'_\', \'-\' ) のみです。</p>';
+$string['newurl.name_help'] = '<h1>表示名</h1>
+<p>「外部メディア」セクション設定時に作成者に表示されるサイト名です。</p>';
 $string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含めます。';
 $string['iframeiconhost'] = 'アイコンホスト';
 $string['urlalreadyexists'] = 'このURLはすでに存在します。あなたはURLを重複して追加できません。';
+$string['newurl.iframeiconhost_help'] = '<h1>アイコン</h1>
+<p>必要に応じてファビコンイメージに別のホストを指定してください。同じサイト名のすべてのサイトはこのアイコンを使用します。</p>';
 $string['cleanurls'] = 'クリーンURL';
 $string['cleanurlsdescription'] = '<p>あなたのサイトのプロファイル、グループホームページおよびポートフォリオページを人間に解読可能なURLを使用するよう設定できます。例えば以下のようになります:
 <ul>
@@ -221,10 +225,14 @@ $string['generatedgroupurls'] = '%s グループホームページURLを生成�
 $string['generatedviewurls'] = '%s ポートフォリオページURLを生成しました。';
 $string['cleanurlsdescriptionshort'] = '人間が解読可能なURLを使用するようサイトを設定します。';
 $string['embeddedurlstitle1'] = '埋め込みURL';
+$string['embeddedurls_help'] = '<h1>埋め込みURL</h1>
+<p>あなたのサイトURLを変更した場合、テキストセクション、日誌エントリ、インストラクション、フォーラム投稿および同様のコンテンツに埋め込まれたイメージおよびリンクが破損してしまいます。</p><p>古いURLを指定して更新が必要かどうか指定してください。</p>';
 $string['embeddedurlsdescription1'] = '<p>あなたのサイトのURLを変更した場合、ページインストラクション、テキストブロックおよびフォーラム等のテキスト内にあるサイトコンテンツへの既存のリンクは間違った場所を指定することになります。</p><p>潜在的に古いURLが検出された場合、あなたはここで古いURLのドメインを指定および更新して修正できます。</p>';
 $string['nopotentialembeddedurls1'] = '<p>潜在的な古いURLは検出されませんでした。</p>';
 $string['potentialembeddedurls1'] = '<p>古いURLが検出されました。</p>';
 $string['oldurl'] = '古いサイトURL';
+$string['checkurl.from_help'] = '<h1>古いサイトURLをチェックする</h1>
+<p>古いサイトのURL (例:「https://oldsite.com」) を入力して更新が必要なものがないか確認してください。</p>';
 $string['checkurl'] = 'URLをチェックする';
 $string['domigrateurls'] = 'URLを更新する';
 $string['migrateurlsdescription'] = '「 %s 」で始まる埋め込みURLすべてを「 %s 」で始まるよう変更します。';
@@ -251,6 +259,10 @@ $string['warnings'] = '警告';
 $string['applyingchanges'] = '変更を適用する';
 $string['groupcategories'] = 'グループカテゴリ';
 $string['allowgroupcategories'] = 'グループカテゴリを許可する';
+$string['groupcategories.allowgroupcategories_help'] = '<h1>グループカテゴリ</h1>
+<p>この設定を有効にした場合、あなたはグループをカテゴリに分類して見つけやすくできます。</p><p>あなたがグループを作成または編集する場合、それぞれのグループに単一のカテゴリを割り当てできます。</p><p>カテゴリはすべてのインスティテューションに適用されるため、個々のインスティテューションに制限できないことに留意してください。</p>';
+$string['sitecategories'] = 'サイトのカテゴリ';
+$string['siteoptions.allowgroupcategories_help'] = '<h1>グループカテゴリ</h1><p>この設定を有効にした場合、サイト管理者はグループに割り当てるカテゴリを作成できます。</p>';
 $string['groupoptionsset'] = 'グループオプションが更新されました。';
 $string['groupcategorydeleted'] = 'カテゴリが削除されました。';
 $string['groupcategoryupdated'] = 'カテゴリが更新されました。';
