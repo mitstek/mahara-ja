@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-11 13:45:10 UTC
+ * @updated    2026-07-14 15:30:16 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -537,7 +537,7 @@ $string['eventloglevelnone'] = 'なし';
 $string['eventloglevelmasq'] = 'マスカレーディング';
 $string['eventloglevelall'] = 'すべて';
 $string['eventlogenhancedsearch'] = 'イベントログレポーティング';
-$string['eventlogenhancedsearchdescription1'] = 'あなたのサイトの活動に関してさらに記録するため高度なアナリティクス機能を使用したい場合、これは必須です。あなたは同時に「検索設定」でElasticsearchを有効にする必要があります。';
+$string['eventlogenhancedsearchdescription1'] = 'あなたのサイトでより多くの活動を報告するために高度なアナリティクス機能を使用したい場合、これは必須です。あなたは同時に「検索設定」でElasticsearchを有効にする必要があります。';
 $string['sitefilesaccess'] = 'サイトファイルへのアクセス';
 $string['sitefilesaccessdescription1'] = '登録済みの人がサブフォルダ内のサイトファイルにアクセスできるようにします。デフォルトではトップレベルのディレクトリ内のファイルにのみアクセスできます。';
 $string['defaultmultipleblogs'] = '複数日誌';
