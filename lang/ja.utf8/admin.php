@@ -828,7 +828,7 @@ $string['eventloglevelnone'] = 'なし';
 $string['eventloglevelmasq'] = 'マスカレーディング';
 $string['eventloglevelall'] = 'すべて';
 $string['eventlogenhancedsearch'] = 'イベントログレポーティング';
-$string['eventlogenhancedsearchdescription1'] = 'あなたのサイトの活動に関してさらに記録するため高度なアナリティクス機能を使用したい場合、これは必須です。あなたは同時に「検索設定」でElasticsearchを有効にする必要があります。';
+$string['eventlogenhancedsearchdescription1'] = 'あなたのサイトでより多くの活動を報告するために高度なアナリティクス機能を使用したい場合、これは必須です。あなたは同時に「検索設定」でElasticsearchを有効にする必要があります。';
 $string['sitefilesaccess'] = 'サイトファイルへのアクセス';
 <<<<<<< HEAD
 $string['sitefilesaccessdescription1'] = '登録済みの人がサブフォルダ内のサイトファイルにアクセスできるようにします。デフォルトではトップレベルのディレクトリ内のファイルにのみアクセスできます。';
