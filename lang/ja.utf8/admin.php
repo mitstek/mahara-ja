@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-13 16:00:07 UTC
+ * @updated    2026-07-15 07:43:47 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -361,6 +361,7 @@ $string['groupcountsbytype'] = 'グループタイプ別グループ数';
 $string['groupcountsbyjointype'] = 'アクセスタイプ別グループ数';
 $string['blockcountsbytype'] = 'ポートフォリオページで使用頻度の高いブロック';
 $string['uptodate'] = 'あなたのローカルコードベースはMaharaコア最新版です。';
+$string['latestversionis1'] = '最新メジャリリース: <a href="%s">Mahara %s</a>';
 $string['latestbranchversionis'] = 'このリリースの最新マイナバージョン: <a href="%s">%s</a>';
 $string['versionnotinsupport'] = '%s はサポート対象外です。';
 $string['versionnotinsupportdev'] = 'サポート対象外の開発バージョン';
@@ -389,17 +390,31 @@ $string['siteadminsonly'] = 'サイト管理者のみ';
 $string['adminsonly'] = '管理者のみ';
 $string['adminsandstaffonly'] = '管理者およびスタッフのみ';
 $string['advanced'] = '高度';
-$string['allowpublicviews1'] = 'パブリックポートフォリオを許可する';
-$string['allowsecreturls'] = 'シークレットURLを許可する';
+$string['allowpublicviews1'] = 'パブリックポートフォリオ';
+$string['siteoptions.allowpublicviews_help'] = '<h1>パブリックポートフォリオ</h1><p>この設定を有効にした場合、人は自分のポートフォリオをアカウント保持者だけでなく、一般に公開できます。</p><p>「パブリックプロファイル」が有効にされている場合、これを無効にしてもパブリックプロファイルには影響しません。</p>';
+$string['allowsecreturls'] = 'シークレットURL';
+$string['siteoptions.allowsecreturls_help'] = '<h1>シークレットURL</h1><p>この設定を有効にした場合、ポートフォリオ作成者はポートフォリオを完全に公開する代わりにシークレットURLを介してアカウントのない人とポートフォリオを共有できます。</p>';
+$string['institution.allowinstitutionpublicviews_help'] = '<h1>パブリックポートフォリオ</h1>
+<p>この設定を有効にした場合、インスティテューションメンバはポートフォリオを公開できます。</p><p>この設定を無効にした場合、メンバは所属する別のインスティテューションで公開ポートフォリオを作成したり、自分のポートフォリオのシークレットURLを設定できる場合があります。</p>';
 $string['allowinstitutionsecreturls'] = 'シークレットURL';
+$string['institution.allowinstitutionsecreturls_help'] = '<h1>シークレットURL</h1><p>この設定を有効にした場合、ポートフォリオ作成者はポートフォリオを完全に公開する代わりにシークレットURLを介してアカウントのない人とポートフォリオを共有できます。</p><p>この設定を無効にした場合、メンバは所属する別のインスティテューションを経由でシークレットURLを使用できる場合があります。</p>';
 $string['allowpeersviewcontent1'] = 'ピアはポートフォリオコンテンツを閲覧できる';
+$string['institution.allowpeersviewcontent_help'] = '<h1>ピアはポートフォリオコンテンツを閲覧できる</h1>
+<p>この設定を有効にした場合、ピアはピア評価が必要なページのすべてのコンテンツを閲覧できます。</p><p>この設定を無効にした場合、ピアはそれらのページのセクションヘッディングのみ閲覧できます。また、ピア評価のないページには何も表示されません。</p><p>「ピアおよびマネージャ」ロールを持つアカウント保持者は「マネージャ」ロールにより、この設定に関係なく常にポートフォリオ全体を閲覧できます。</p>';
 $string['allowinstitutionsmartevidence1'] = 'スマートエビデンス';
+$string['institution.allowinstitutionsmartevidence_help'] = '<h1>スマートエビデンス</h1><p>この設定を有効にした場合、ポートフォリオ作成者はコレクションの冒頭にコンピテンシフレームワークを追加できます。</p><hr><h2>詳細</h2>
+<p>スマートエビデンスでは学習者はポートフォリオでコンピテンシフレームワークを使用して作業できます。概要ページにはエビデンスのあるコンピテンシ、評価者または自分自身 (自己評価が許可されている場合) に承認されたコンピテンシおよびまだ取り組む必要のあるコンピテンシが表示されます。</p>';
 $string['institutionsmartevidencenotallowed'] = 'あなたがスマートエビデンスオプションを設定するには「プラグイン管理」ページで「スマートエビデンス」モジュールを有効にする必要があります。';
-$string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
-$string['allowanonymouspages'] = '匿名ページを許可する';
-$string['allowcommentsbydefault'] = 'デフォルトでページコメントを許可する';
+$string['allowpublicprofiles'] = 'パブリックプロファイル';
+$string['siteoptions.allowpublicprofiles_help'] = '<h1>パブリックプロファイル</h1><p>この設定を有効にした場合、人はプロファイルページをアカウント保持者のみに表示するのではなく、一般公開できます。</p>';
+$string['allowanonymouspages'] = '匿名ポートフォリオ';
+$string['siteoptions.allowanonymouspages_help'] = '<h1>匿名ポートフォリオ</h1><p>この設定を有効にした場合、ページ作成者としての自分の氏名を非表示にできます。管理者およびスタッフは引き続き作成者の氏名を確認できます。</p>';
+$string['allowcommentsbydefault'] = 'ページコメントデフォルト';
+$string['siteoptions.allowcommentsbydefault_help'] = '<h1>ページコメントデフォルト</h1><p>ページでの会話を促進するためにデフォルトでページへのコメントを許可します。ポートフォリオ作成者は個々のページの設定をいつでも変更できます。</p>';
 $string['anonymouscomments'] = '匿名コメント';
-$string['loggedinprofileviewaccess1'] = 'すべての登録済みの人によるプロファイルアクセス';
+$string['siteoptions.anonymouscomments_help'] = '<h1>匿名コメント</h1><p>誰でもパブリックページまたはシークレットURLでアクセスできるページにコメントを残せます。</p>';
+$string['loggedinprofileviewaccess1'] = 'すべてのアカウント保持者のプロファイルアクセス';
+$string['siteoptions.loggedinprofileviewaccess_help'] = '<h1>すべてのアカウント保持者のプロファイルアクセス</h1><p>この設定を有効にした場合、すべてのアカウント保持者はお互いのプロファイルページを閲覧できます。</p><p>この設定を無効にした場合、最初プロファイルページはすべてのアカウント保持者に表示されますが、オーナはアクセスをより少人数のグループに制限できます。</p><p>同じインスティテューションのメンバは常にお互いのプロファイルを閲覧できます。</p><p>config.phpで隔離インスティテューションが有効にされている場合、ユーザは自分のインスティテューションのメンバおよびサイト管理者のプロファイルのみ閲覧できます。</p>';
 $string['antispam'] = 'アンチスパム';
 $string['commentsortorder'] = 'コメント並べ替え順';
 $string['commentthreaded'] = 'スレッドコメント';
@@ -503,7 +518,7 @@ $string['defaultmultipleblogs'] = '複数日誌';
 $string['siteoptions.defaultmultipleblogs_help'] = '<h1>複数日誌</h1><p>この設定を有効にした場合、新しいアカウント保持者はデフォルトで複数日誌を作成できるようになります。アカウント設定ページでこの設定を変更できます。</p>';
 $string['defaultreviewsselfdeletion'] = '自己削除の前にアカウントをレビューする';
 $string['reviewsselfdeletion'] = '自己削除の前にアカウントをレビューする';
-$string['mathjax'] = 'MathJaxを有効にする';
+$string['mathjax'] = 'MathJax';
 $string['mathjaxconfig'] = 'MathJax設定';
 $string['timezone'] = 'タイムゾーン';
 $string['notimezoneselected'] = 'タイムゾーン未選択';
@@ -880,6 +895,7 @@ $string['noleap2axmlfiledetected'] = 'leap2a.xmlファイルが検出されま�
 $string['Or'] = 'または';
 $string['userwillreceiveemailandhastochangepassword'] = '新しいアカウント詳細を記載したメールが送信されます。初回ログイン時、パスワードの変更を求められます。';
 $string['uploadzipfile'] = 'エクスポート済みZIPファイルをアップロードする';
+$string['importaccount'] = 'アカウントをインポートする';
 $string['usercreationmethod'] = '1 - 作成方法';
 $string['basicdetails'] = '2 - 基本情報';
 $string['create'] = '3 - 作成';
@@ -1100,8 +1116,8 @@ $string['suspendinstitution'] = 'インスティテューションを利用停�
 $string['suspendinstitutiondescription'] = 'ここであなたはインスティテューションを利用停止できます。利用停止されたインスティテューションの人はインスティテューションが利用停止解除されるまでログインできません。';
 $string['suspendedinstitutionmessage'] = 'このインスティテューションは利用停止されています。';
 $string['unsuspendinstitution'] = 'インスティテューションの利用停止を解除する';
-$string['unsuspendinstitutiondescription'] = 'ここであなたはインスティテューションの利用停止を解除できます。利用停止されたインスティテューションの人はインスティテューションが利用停止解除されるまでログインできません。<br><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止されることになります。';
-$string['unsuspendinstitutiondescription_warning'] = '<strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止されることになります。';
+$string['unsuspendinstitutiondescription'] = 'ここであなたはインスティテューションの利用停止を解除できます。利用停止されたインスティテューションの人はインスティテューションが利用停止解除されるまでログインできません。<br><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止される可能性があります。';
+$string['unsuspendinstitutiondescription_warning'] = '<strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止される可能性があります。';
 $string['unsuspendinstitutiondescription_instadmin'] = '利用停止されたインスティテューションの人はログインできません。インスティテューションの利用停止を解除するには管理者にご連絡ください。';
 $string['bulkexport'] = 'アカウントをエクスポートする';
 $string['bulkexportempty'] = 'エクスポートに合致するものはありません。ユーザ名のリストを再度確認してください。';
