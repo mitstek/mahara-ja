@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-04 06:02:06 UTC
+ * @updated    2026-07-15 06:52:11 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -182,7 +182,7 @@ $string['typefile'] = 'ファイル';
 $string['typefolder'] = 'フォルダ';
 $string['upload'] = 'アップロード';
 $string['uploadagreement'] = 'アップロード同意';
-$string['pluginconfig.uploadagreement_help'] = '<h1>アップロード同意</h1><p>この設定を有効にした場合、アカウント所有者はファイルをアップロードする前に以下の内容に同意する必要があります。</p>';
+$string['pluginconfig.uploadagreement_help'] = '<h1>アップロード同意</h1><p>この設定を有効にした場合、アカウント保持者はファイルをアップロードする前に以下の内容に同意する必要があります。</p>';
 $string['uploadexceedsquota'] = 'このファイルをアップロードすることであなたのディスククオータを超えてしまいます。あなたがアップロードしたファイルの一部を削除してください。';
 $string['uploadexceedsquotagroup'] = 'このファイルをアップロードすることでこのグループのディスククオータを超えてしまいます。あなたがアップロードしたファイルの一部を削除してください。';
 $string['uploadfile'] = 'ファイルをアップロードする';
