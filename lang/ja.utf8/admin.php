@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-18 15:55:34 UTC
+ * @updated    2026-07-20 15:55:58 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -416,10 +416,22 @@ $string['siteoptions.anonymouscomments_help'] = '<h1>匿名コメント</h1><p>�
 $string['loggedinprofileviewaccess1'] = 'すべてのアカウント保持者のプロファイルアクセス';
 $string['siteoptions.loggedinprofileviewaccess_help'] = '<h1>すべてのアカウント保持者のプロファイルアクセス</h1><p>この設定を有効にした場合、すべてのアカウント保持者はお互いのプロファイルページを閲覧できます。</p><p>この設定を無効にした場合、最初プロファイルページはすべてのアカウント保持者に表示されますが、オーナはアクセスをより少人数のグループに制限できます。</p><p>同じインスティテューションのメンバは常にお互いのプロファイルを閲覧できます。</p><p>config.phpで隔離インスティテューションが有効にされている場合、ユーザは自分のインスティテューションのメンバおよびサイト管理者のプロファイルのみ閲覧できます。</p>';
 $string['antispam'] = 'アンチスパム';
+$string['antispam_help'] = '<h1>アンチスパム</h1><p>「お問い合わせ」および「登録」等の公開フォームには3段階の保護が用意されています。スパムとして分類された送信は決して黙って拒否されることはありません。エラーメッセージが表示された上で再試行を求められます。</p>
+<ul>
+<li><strong>なし:</strong> チェックは実行されません。</li>
+<li><strong>シンプル:</strong> 不正なメールアドレスまたは過剰な数のURLを含む送信を拒否します。</li>
+<li><strong>高度:</strong> インターネット接続が必須です。メールアドレスの確認および禁止URLの検出のために追加のチェックを実行します。</li>
+</ul>';
 $string['commentsortorder'] = 'コメント並べ替え順';
+$string['commentsortorder_help'] = '<h1>コメント並べ替え順</h1>
+<p>アーティファクトのコメントを最も古いものから表示するか、最も新しいものから表示するか設定します。</p>';
 $string['commentthreaded'] = 'スレッドコメント';
+$string['institution.commentthreaded_help'] = '<h1>スレッドコメント</h1>
+<p>この設定を有効にした場合、コメントリストの最後に返信を追加するのではなく、個々のコメントに直接返信できます。</p>';
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休止期間';
-$string['defaultaccountinactivewarn'] = '休止/有効期限の警告期間';
+$string['defaultaccountinactiveexpire_help'] = '<h1>デフォルトのアカウント休止期間</h1><p>この設定を有効にした場合、この期間ログインしていない人は非アクティブとしてマークされた上でログインできなくなります。</p><p>期間を日、週、月または年で設定してください。「終了日なし」を選択した場合、非アクティブ時間は無効となります。</p>';
+$string['defaultaccountinactivewarn'] = '休止および有効期限の警告期間';
+$string['defaultaccountinactivewarn_help'] = '<h1>休止および有効期限の警告期間</h1><p>この設定を有効にした場合、アカウント有効期限が切れるか、非アクティブになる前に登録済み主メールアドレス宛に警告通知が送信されます。</p><<p>期間を日、週、月または年で設定してください。「終了日なし」を選択した場合、警告は無効となります。</p>';
 $string['defaultregistrationexpirylifetime'] = 'デフォルトの登録存続期間';
 $string['defaultaccountlifetime'] = 'デフォルトのアカウント存続期間';
 $string['defaultaccountlifetimeupdate'] = 'アカウント存続期間のオーバーライド';
@@ -1120,7 +1132,7 @@ $string['unsuspendinstitutiondescription'] = 'ここであなたはインステ�
 $string['unsuspendinstitutiondescription_warning'] = '<strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止される可能性があります。';
 $string['unsuspendinstitutiondescription_instadmin'] = '利用停止されたインスティテューションの人はログインできません。インスティテューションの利用停止を解除するには管理者にご連絡ください。';
 $string['bulkexport'] = 'アカウントをエクスポートする';
-$string['bulkexportempty'] = 'エクスポートに合致するものはありません。ユーザ名のリストを再度確認してください。';
+$string['bulkexportempty'] = 'エクスポートに適したものはありません。ユーザ名のリストを再度確認してください。';
 $string['bulkexportinstitution'] = 'すべてのメンバをエクスポートするインスティテューション';
 $string['bulkexporttitle1'] = 'アカウントをバルクエクスポートする';
 $string['bulkexportdescription1'] = 'エクスポートフォーマットを選択してエクスポートするインスティテューションを選択<b>または</b>ユーザ名のリストを指定してください。';
