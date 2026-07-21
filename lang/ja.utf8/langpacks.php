@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-16 21:29:08 UTC
+ * @updated    2026-07-21 05:44:39 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -17,6 +17,12 @@ $string['bulkselect'] = '更新する言語を選択する';
 $string['code'] = '言語コード';
 $string['langpacks'] = '言語';
 $string['languagepacks_title'] = '言語';
+$string['site.langpacks_help'] = '<h1>言語</h1>
+<p>このページにはインストールされている言語およびこのインタフェース経由で最後に更新された日時が一覧表示されます。CLI経由または言語パックをサーバに直接追加する更新ではこの日付は更新されません。</p>
+<p>ドロップダウンメニューから新しい言語を選択してインストールしてください。あなたのMaharaのバージョンの翻訳が自動的に選択されます。</p>
+<p>翻訳はコミュニティにより管理されているため、一部の言語は不完全な場合があります。<a href="https://git.mahara.org/catalyst/mahara/-/wikis/Translations/Language-packs">翻訳チームにご参加ください</a>。翻訳の更新が言語パックに反映されるまでには最大24時間かかります。最新の日付に関して<a href="https://langpacks.mahara.org">言語パックサイト</a>をご確認ください。</p>
+<p>言語をインストールできない場合、あなたのサーバから手動で削除する場所がエラーメッセージに表示されます。エラーなしでインストールに失敗した場合、「管理エリア → サイト概要 → 管理ダッシュボード」でキャッシュをクリアした後、翻訳を再度インストールしてみてください。</p>
+<p>言語を削除するにはサーバから直接削除してください。このインタフェースからは言語を削除できません。</p>';
 $string['languagepackdescription'] = 'アカウント保持者がサイトで使用できる言語を追加および更新します。';
 $string['selectlang'] = '言語「 %s 」を選択する';
 $string['confirmsync'] = '本当にインストール済み言語を更新してもよろしいですか?';
