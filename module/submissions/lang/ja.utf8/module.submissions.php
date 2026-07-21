@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-05 13:07:17 UTC
+ * @updated    2026-07-21 05:34:16 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,6 +15,8 @@ defined('INTERNAL') || die();
 
 $string['pluginname'] = '提出';
 $string['Submissions'] = '提出';
+$string['index_help'] = '<h1>提出</h1><p>このテーブルにはあなたが評価のために提出したポートフォリオまたは評価を依頼されたポートフォリオが一覧表示されます。</p><hr><h2>詳細</h2><p>作成者名、ポートフォリオタイトルまたは評価者で検索してください。</p><p>スティッキー「クイックフィルタ」を使用してグループ、ロール、タスク、評価者、フィードバック、結果またはステータスでフィルタリングしてください。</p><p>「カラムを設定する」を使用して表示するカラムを選択してください。昇順または降順に並べ替えるには任意のカラムヘッダをクリックしてください。</p>';
+$string['groupindex_help'] = '<h1>提出</h1><p>このテーブルには評価のためにこのグループに提出されたポートフォリオが一覧表示されています。</p><hr><h2>詳細</h2><p>作成者名、ポートフォリオタイトルまたは評価者で検索してください。</p><p>スティッキー「クイックフィルタ」を使用してグループ、ロール、タスク、評価者、フィードバック、結果またはステータスでフィルタリングしてください。</p><p>「カラムを設定する」を使用して表示するカラムを選択してください。昇順または降順に並べ替えるには任意のカラムヘッダをクリックしてください。</p><p>管理者またはチュータは特定の評価者にポートフォリオを割り当てできます。</p>';
 $string['submissionstitlegroup'] = '%s - 提出';
 $string['Group'] = 'グループ';
 $string['Role'] = 'ロール';
@@ -45,7 +47,12 @@ $string['releaseandreturn'] = 'リリースして戻る';
 $string['releasesubmission'] = '評価を完了して提出済みポートフォリオをリリースしますか?';
 $string['releasesubmissionnoresult'] = '評価を完了して提出済みポートフォリオをリリースしますか? 注意: あなたはまだ結果を選択していません。';
 $string['fixsubmission'] = '提出を修正しますか?';
-$string['emptytable'] = 'テーブルに利用可能なデータはありません。';
+$string['tooltip_result_pass'] = '合格';
+$string['tooltip_result_fail'] = '不合格';
+$string['tooltip_result_external'] = '外部';
+$string['tooltip_result_revise'] = '改訂';
+$string['tooltip_not_graded'] = '未評定';
+$string['emptytable'] = 'エントリなし';
 $string['info'] = '_START_ / _END_ (合計 _TOTAL_) エントリ';
 $string['infoempty'] = '0 エントリ';
 $string['thousands'] = ',';
@@ -116,6 +123,8 @@ $string['closefeedbackmodal'] = '提出フィードバックを閉じる';
 $string['ProceedWithBackRestrictionsToExistingTab'] = '提出済みポートフォリオはすでに別のタブで開かれています。このポートフォリオを開始できますが、あなたが戻った時点で「提出」テーブル内でハイライトされません。別のタブのポートフォリオも同様です。続けてもよろしいですか?';
 $string['ProceedWithoutFlashbackFunctionality'] = '提出済みポートフォリオはすでに別のタブで開かれています。このポートフォリオを開始できますが、あなたがブラウザの「戻る」ボタンで戻った時点で「提出」テーブル内でハイライトされません。別のタブのポートフォリオも同様です。続けてもよろしいですか?';
 $string['shownameaslastnamefirstname'] = '氏名を「姓 名」のように表示する';
+$string['pluginconf.shownameaslastnamefirstname_help'] = '<h1>氏名を「姓 名」のように表示する</h1><p>この設定を有効にした場合、グループの提出テーブルの氏名は「姓 名」のフォーマットで表示されます。</p>';
 $string['showportfoliobuttons'] = 'ポートフォリオリンクをボタンとして表示する';
+$string['pluginconf.showportfoliobuttons_help'] = '<h1>ポートフォリオリンクをボタンとして表示する</h1><p>この設定を有効にした場合、「提出」テーブルのポートフォリオリンクがボタンとして表示されます。これにより「アーカイブとしてダウンロードする」オプションと区別しやすくなります。</p>';
 $string['retentionperiod1'] = '保持期間 (年)';
 $string['pluginconf.retentionperiod_help'] = '<h1>保持期間</h1><p>Tリリースから起算してポートフォリオおよび関連アーカイブ提出が削除されるまでの年数です。</p><p>ゼロが設定された場合、ポートフォリオ作成者のアカウントが削除された時点ですべての投稿および関連ポートフォリオが削除されます。</p>';
