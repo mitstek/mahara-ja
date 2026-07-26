@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-20 01:44:34 UTC
+ * @updated    2026-07-24 05:36:11 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -431,14 +431,18 @@ $string['institution.commentthreaded_help'] = '<h1>スレッドコメント</h1>
 $string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休止期間';
 $string['defaultaccountinactiveexpire_help'] = '<h1>デフォルトのアカウント休止期間</h1><p>この設定を有効にした場合、この期間ログインしていない人は非アクティブとしてマークされた上でログインできなくなります。</p><p>期間を日、週、月または年で設定してください。「終了日なし」を選択した場合、非アクティブ時間は無効となります。</p>';
 $string['defaultaccountinactivewarn'] = '休止および有効期限の警告期間';
-$string['defaultaccountinactivewarn_help'] = '<h1>休止および有効期限の警告期間</h1><p>この設定を有効にした場合、アカウント有効期限が切れるか、非アクティブになる前に登録済み主メールアドレス宛に警告通知が送信されます。</p><<p>期間を日、週、月または年で設定してください。「終了日なし」を選択した場合、警告は無効となります。</p>';
+$string['defaultaccountinactivewarn_help'] = '<h1>休止および有効期限の警告期間</h1><p>この設定を有効にした場合、アカウント有効期限が切れるか、非アクティブになる前に登録済み主メールアドレス宛に警告通知が送信されます。</p><p>期間を日、週、月または年で設定してください。「終了日なし」を選択した場合、警告は無効となります。</p>';
 $string['defaultregistrationexpirylifetime'] = 'デフォルトの登録存続期間';
+$string['defaultregistrationexpirylifetime_help'] = '<h1>デフォルトの登録存続期間</h1><p>保留中の登録申請が有効期限切れになるまでの期間です。</p><p>期間を日、週、月または年で設定してください。「終了日なし」を選択した場合、登録期限は無効となります。</p>';
 $string['defaultaccountlifetime'] = 'デフォルトのアカウント存続期間';
+$string['defaultaccountlifetime_help'] = '<h1>デフォルトのアカウント存続期間</h1><p>この設定を有効にした場合、アカウントは作成日から指定された期間後に有効期限切れとなります。アカウントの有効期限が切れた人はログインできません。</p><p>期間を日、週、月または年で設定してください。「終了日なし」を選択した場合、アカウントの有効期限は無効となります。</p>';
 $string['defaultaccountlifetimeupdate'] = 'アカウント存続期間のオーバーライド';
+$string['defaultaccountlifetimeupdate_help'] = '<h1>アカウント存続期間のオーバーライド</h1><p>既存のアカウントに対してデフォルトのアカウント有効期間を適用する方法を選択してください。</p>';
 $string['defaultaccountlifetimeupdatenone'] = '新しく作成されたアカウントのみ';
 $string['defaultaccountlifetimeupdatesome'] = '新しいアカウントおよびアカウント存続期間未設定のアカウント (サイト管理者を除く)';
 $string['defaultaccountlifetimeupdateall'] = 'すべてのアカウント (サイト管理者を除く)';
 $string['passwordpolicy'] = 'パスワードポリシ';
+$string['passwordpolicytitle_help'] = '<h1>パスワードポリシ</h1><p>組み込み「内部」認証方法を使用してアカウントのパスワード最小文字数および複雑さの要件を設定します。</p>';
 $string['passwordpolicylength'] = '最小パスワード長';
 $string['passwordpolicytype'] = 'パスワード複雑性';
 $string['deprecatedmobileapp'] = '申し訳ございません、このモバイルアプリケーションは廃止されました。あなたは代わりにMaharaモバイルを使用する必要があります。Androidデバイス用は次からダウンロードしてください: https://play.google.com/store/apps/details?id=org.mahara.mobile またAppleデバイス用は次からダウンロードしてください: https://itunes.apple.com/us/app/mahara-mobile/id1172638950';
@@ -446,12 +450,16 @@ $string['embeddedcontent'] = '埋め込みコンテンツ';
 $string['embeddedcontentdescription'] = '人がポートフォリオにビデオまたは他のサイトのコンテンツを埋め込めるようにしたい場合、あなたは以下で信頼できるサイトを選択できます。';
 $string['Everyone'] = '誰でも';
 $string['generatesitemap1'] = 'サイトマップ';
+$string['siteoptions.generatesitemap_help'] = '<h1>サイトマップ</h1><p>この設定を有効にした場合、公開されているすべてのページ、グループおよびフォーラムトピックの機械可読サイトマップが生成されます。サイトマップは検索エンジンに送信できます。</p><hr>
+<h2>詳細</h2><p>サイトマップは<a href="https://www.sitemaps.org">sitemaps.org</a>フォーマットの一連のXMLファイルです。サイトマップインデックスは<code>[yoursite]/download.php?type=sitemap</code>にあります。前日に変更されたページを含む毎日のスナップショットが一覧表示されます。</p>';
 $string['homepageinfo1'] = 'ホームページおよびダッシュボード情報';
 $string['siteoptions.homepageinfo_help'] = '<h1>ホームページおよびダッシュボード情報</h1><p>サイトに関する情報およびホームページでの使用方法を表示します。アカウント保持者はダッシュボードでその情報を秘匿できます。</p>';
 $string['homepageredirect'] = 'カスタムランディングページ';
+$string['siteoptions.homepageredirect_help'] = '<h1>カスタムランディングページ</h1><p>ログイン後に最初に表示されるページとしてダッシュボード以外のページを設定します。誰かが要ログインのリンクにアクセスした場合、そのリダイレクトが優先されます。</p>';
 $string['homepageredirecturl'] = 'ランディングページ';
 $string['homepageredirecturldescription'] = 'この設定を動作させるにはすべての登録済みの人がページにアクセスできる必要があります。';
 $string['hstsoverride'] = 'HSTSオーバーライド';
+$string['siteoptions.hstsoverride_help'] = '<h1>HSTSオーバーライド</h1><p>ダウンストリームサービスがすでにHTTP Strict Transport Security (HSTS) ヘッダを設定している場合、この設定を有効にして、2回設定されないようにします。</p>';
 $string['islandingpage'] = 'このページがサイトのカスタムランディングページとして使用されます。';
 $string['landingpagegone'] = 'あなたがパーミッションを変更する前、ページ「 %s 」はサイトのカスタムランディングページでした。このページはカスタムランディングページとしてはサイト設定より削除されました。';
 $string['landingpagegonesubject'] = 'カスタムランディングページが削除されました。';
@@ -1135,7 +1143,7 @@ $string['bulkexport'] = 'アカウントをエクスポートする';
 $string['bulkexportempty'] = 'エクスポートに適したものはありません。ユーザ名のリストを再度確認してください。';
 $string['bulkexportinstitution'] = 'すべてのメンバをエクスポートするインスティテューション';
 $string['bulkexporttitle1'] = 'アカウントをバルクエクスポートする';
-$string['bulkexportdescription1'] = 'エクスポートフォーマットを選択してエクスポートするインスティテューションを選択<b>または</b>ユーザ名のリストを指定してください。';
+$string['bulkexportdescription1'] = 'エクスポートフォーマットを選択した後、エクスポートするインスティテューションを選択<strong>または</strong>ユーザ名のリストを指定してください。';
 $string['bulkexportusernames'] = 'エクスポートするユーザ名';
 $string['bulkexportusernamesdescription'] = 'データとともにエクスポートされるアカウントのリストです (1行あたり1ユーザ名)。';
 $string['couldnotexportusers'] = '次のアカウントをエクスポートできませんでした: %s';
