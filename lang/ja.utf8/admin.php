@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-18 15:52:08 UTC
+ * @updated    2026-07-26 21:00:14 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1169,7 +1169,7 @@ $string['bulkexport'] = 'アカウントをエクスポートする';
 $string['bulkexportempty'] = 'エクスポートに適したものはありません。ユーザ名のリストを再度確認してください。';
 $string['bulkexportinstitution'] = 'すべてのメンバをエクスポートするインスティテューション';
 $string['bulkexporttitle1'] = 'アカウントをバルクエクスポートする';
-$string['bulkexportdescription1'] = 'エクスポートフォーマットを選択してエクスポートするインスティテューションを選択<b>または</b>ユーザ名のリストを指定してください。';
+$string['bulkexportdescription1'] = 'エクスポートフォーマットを選択した後、エクスポートするインスティテューションを選択<strong>または</strong>ユーザ名のリストを指定してください。';
 $string['bulkexportusernames'] = 'エクスポートするユーザ名';
 $string['bulkexportusernamesdescription'] = 'データとともにエクスポートされるアカウントのリストです (1行あたり1ユーザ名)。';
 $string['couldnotexportusers'] = '次のアカウントをエクスポートできませんでした: %s';
