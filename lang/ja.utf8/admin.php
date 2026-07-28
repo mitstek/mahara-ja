@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-26 21:01:59 UTC
+ * @updated    2026-07-28 23:55:37 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -465,14 +465,21 @@ $string['landingpagegone'] = 'あなたがパーミッションを変更する�
 $string['landingpagegonesubject'] = 'カスタムランディングページが削除されました。';
 $string['landingpagegonemessage'] = 'ログインしてサイト設定で新しいカスタムランディングページを選択してください。';
 $string['landingpagegonemessagedeleted'] = 'ページが削除されたためサイトのカスタムランディングページとしてのページ「 %s 」は削除されました。ログインしてサイト設定で新しいカスタムランディングページを選択してください。';
-$string['institutionautosuspend'] = '有効期限切れのインスティテューションを自動停止する';
-$string['institutionexpirynotification'] = 'インスティテューション有効期限の警告期間';
+$string['institutionautosuspend'] = '有効期限切れインスティテューションの自動停止';
+$string['siteoptions.institutionautosuspend_help'] = '<h1>有効期限切れインスティテューションの自動停止</h1>
+<p>この設定を有効にした場合、有効期限切れのインスティテューションは毎日の有効期限チェック中に自動的に一時停止されます。一時停止されたインスティテューションのメンバは一時停止が解除されるまでログインできません。</p>';
+$string['institutionexpirynotification'] = 'インスティテューション有効期限警告';
+$string['institutionexpirynotification_help'] = '<h1>インスティテューション有効期限警告</h1>
+<p>この設定を有効にした場合、インスティテューションの有効期限が切れるかなり前にサイト管理者およびインスティテューションに警告通知が送信されます。</p><p>期間を日、週、月、年または「終了日なし」で選択してください。</p>';
 $string['language'] = '言語';
 $string['none'] = 'なし';
 $string['nousernames'] = 'ユーザ名を表示しない';
+$string['siteoptions.nousernames_help'] = '<h1>ユーザ名を表示しない</h1><p>この設定を有効にした場合、アカウント保持者はユーザ名で他のユーザを表示または検索できません。この制限はスタッフおよび管理者には適用されません。クリーンURLが有効されている場合、プロファイルページのURLにはユーザ名の代わりに表示名または実名が使用されます。</p>';
 $string['onlineuserssideblockmaxusers1'] = '「オンライン中の人」の制限';
+$string['onlineuserssideblockmaxusers_help'] = '<h1>「オンライン中の人」の制限</h1><p>「オンライン中の人」ダッシュボードのサイドバーに表示される最大ユーザ数です。</p>';
 $string['country'] = '国';
 $string['pathtoclam'] = 'ClamAVのパス';
+$string['pathtoclam_help'] = '<h1>ClamAVのパス</h1><p>T「<code>clamscan</code>」または「<code>clamdscan</code>」へのファイルシステムパスです。ClamAVが実行されない場合、ファイルは感染したものとして扱われた上で自動的に隔離されます。セキュリティ上の理由から、この設定は「pathtoclam」変数を使用したWeb経由ではなく、config.phpで設定する必要があります。</p>';
 $string['pathtoclamnotset'] = '(未設定)';
 $string['progresscompletion'] = 'ポートフォリオ完了';
 $string['outcomeportfolio'] = 'アウトカムポートフォリオ';
@@ -949,6 +956,8 @@ $string['institutionshortname'] = 'インスティテューション省略名';
 $string['institutionnamealreadytaken'] = 'このインスティテューション名はすでに取得されています。';
 $string['institutiondisplayname'] = 'インスティテューション表示名';
 $string['institutionexpiry'] = 'インスティテューション有効期限';
+$string['expiry_help'] = '<h1>インスティテューション有効期限</h1>
+<p>有効期限が設定されている場合、サイトおよびインスティテューション管理者は「インスティテューション有効期限警告」設定に基づいてインスティテューションの有効期限が切れる前に通知を受け取ります。</p><p>「有効期限切れインスティテューションの自動停止」が有効にされている場合、インスティテューションは有効期限に自動的に停止されます。そのインスティテューションのメンバはログインできなくなります。</p><p>サイト管理者は「<a href="options.php">サイト設定</a> → インスティテューション設定」で両方の設定を確認できます。</p>';
 $string['institution.expiry_help'] = '<h1>有効期限</h1><p>次のフォーマットを使用してください: YYYY/MM/DD</p>';
 $string['institutionlanguage'] = '言語';
 $string['institution.lang_help'] = '<h1>言語</h1>
@@ -1145,7 +1154,7 @@ $string['bulkexportinstitution'] = 'すべてのメンバをエクスポート�
 $string['bulkexporttitle1'] = 'アカウントをバルクエクスポートする';
 $string['bulkexportdescription1'] = 'エクスポートフォーマットを選択した後、エクスポートするインスティテューションを選択<strong>または</strong>ユーザ名のリストを指定してください。';
 $string['bulkexportusernames'] = 'エクスポートするユーザ名';
-$string['bulkexportusernamesdescription'] = 'データとともにエクスポートされるアカウントのリストです (1行あたり1ユーザ名)。';
+$string['bulkexportusernamesdescription'] = 'データとともにエクスポートするアカウントのリストです (1行あたり1ユーザ名)。';
 $string['couldnotexportusers'] = '次のアカウントをエクスポートできませんでした: %s';
 $string['exportingusername'] = 'エクスポート %s ...';
 $string['ignoringbulkexportuser'] = 'ユーザ名「 %s 」の人が見つからなかったため無視します。';
