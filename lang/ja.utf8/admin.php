@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-28 23:55:37 UTC
+ * @updated    2026-08-02 15:13:39 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -482,9 +482,13 @@ $string['pathtoclam'] = 'ClamAVのパス';
 $string['pathtoclam_help'] = '<h1>ClamAVのパス</h1><p>T「<code>clamscan</code>」または「<code>clamdscan</code>」へのファイルシステムパスです。ClamAVが実行されない場合、ファイルは感染したものとして扱われた上で自動的に隔離されます。セキュリティ上の理由から、この設定は「pathtoclam」変数を使用したWeb経由ではなく、config.phpで設定する必要があります。</p>';
 $string['pathtoclamnotset'] = '(未設定)';
 $string['progresscompletion'] = 'ポートフォリオ完了';
+$string['institution.progresscompletion_help'] = '<h1>ポートフォリオ完了</h1><p>この設定を有効にした場合、コレクションの先頭にページ承認および検証ステータスを表示する「ポートフォリオ完了」ページを追加できます。</p>';
 $string['outcomeportfolio'] = 'アウトカムポートフォリオ';
+$string['institution.outcomeportfolio_help'] = '<h1>アウトカムポートフォリオ</h1><p>この設定を有効にした場合、このインスティテューションに関連付けられたグループはアウトカムポートフォリオを作成できます。</p>';
 $string['registerterms'] = '登録同意';
+$string['siteoptions.registerterms_help'] = '<h1>登録同意</h1><p>登録を完了する前にサイトのプライバシに関するステートメントおよび利用規約に同意するよう人に要求します。このオプションを有効にする前にあなたのサイト (および追加の同意が必要なインスティテューション) の法的ページを編集してください。</p>';
 $string['licensemetadata'] = 'ライセンスメタデータ';
+$string['siteoptions.licensemetadata_help'] = '<h1>ライセンスメタデータ</h1><p>この設定を有効にした場合、ポートフォリオ作成者は作成またはアップロードするコンテンツのライセンス情報 (ライセンス、および任意でライセンサおよび元URLを含む) を入力するよう求められます。</p><hr><h2>詳細</h2><p>ライセンスはURLとして保存されます。</p><p>サイト管理者がライセンスのリストを設定している場合、それぞれの名称およびアイコンが表示されます。</p>';
 $string['licenseallowcustom1'] = 'カスタムライセンス';
 $string['recaptchakeysmissing1'] = 'reCAPTCHAは有効にされましたが、あなたがサイトキーおよびシークレットキーを提供するまで機能しません。';
 $string['recaptchanotpassed'] = 'reCAPTCHAが正しく入力されていません。再度お試しください。';
@@ -1182,7 +1186,7 @@ $string['suspendusers'] = '人を利用停止する';
 $string['Suspend'] = '利用停止';
 $string['bulksuspenduserssuccess'] = '%d 名の人を利用停止しました。';
 $string['changeauthmethod'] = '認証方法を変更する';
-$string['someusersnotinauthinstanceinstitution'] = 'あなたが選択した何名かの人はこの認証方法に関連付けられたインスティテューションに属していません。';
+$string['someusersnotinauthinstanceinstitution'] = 'あなたが選択した人の一部はこの認証方法に関連付けられたインスティテューションに属していません。';
 $string['bulkchangeauthmethodsuccess'] = '%d 名のアカウントの認証方法をリセットしました。';
 $string['bulkchangeauthmethodresetpassword'] = 'あなたはパスワードを必要とする認証方法を選択しました。%d 名の人にはパスワードが割り当てられていないためパスワードがリセットされるまでログインできません。';
 $string['bulkdeleteuserssuccess'] = '%d 名のアカウントを削除しました。';
