@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-06 01:07:36 UTC
+ * @updated    2026-08-03 03:48:14 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -425,6 +425,9 @@ $string['details'] = '詳細';
 $string['description'] = '説明';
 $string['actions'] = '操作';
 $string['status'] = 'ステータス';
+$string['header_name'] = '名称';
+$string['header_introduction'] = '自己紹介';
+$string['header_joined'] = '登録';
 $string['header_role'] = 'ロール';
 $string['invitemembersdescription'] = 'あなたはプロファイルページ経由または<a href="%s">複数招待の同時送信</a>により人にこのグループへの参加を招待できます。';
 $string['membersdescription:controlled'] = 'これは「管理メンバシップ」グループです。あなたは人をプロファイルページより直接追加または<a href="%s">一度に多くの人を追加できます</a>。';
@@ -448,6 +451,8 @@ $string['grouparchivereports'] = '提出アーカイブへのアクセス';
 $string['grouparchivereportserror'] = '提出が許可されている場合のみあなたは提出アーカイブレポートを閲覧できます。';
 $string['returntogroupportfolios1'] = 'グループポートフォリオに戻る';
 $string['showintroduction'] = '自己紹介';
+$string['addgrouplabel1'] = 'パーソナルグループラベルを管理する';
+$string['addgrouplabeldescription1'] = '<p>このグループにあなただけに表示されるラベルを1つまたはそれ以上追加してください。ラベルでグループをフィルタリングして、このページ、ダッシュボードおよびあなたのプロファイルページに一部のみを表示します。</p><p>あなたはラベルの前にある「<strong>x</strong>」を選択して選択済みグループからラベルを削除できます。</p>';
 $string['addgrouplabelfilter'] = 'グループラベルフィルタ「 %s 」を追加する';
 $string['addlabel1'] = 'ラベルを追加または削除する';
 $string['displayonlylabels'] = '次でラベル付けされたグループのみ表示する';

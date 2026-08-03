@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-02 15:13:39 UTC
+ * @updated    2026-08-03 03:59:32 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -490,12 +490,20 @@ $string['siteoptions.registerterms_help'] = '<h1>登録同意</h1><p>登録を�
 $string['licensemetadata'] = 'ライセンスメタデータ';
 $string['siteoptions.licensemetadata_help'] = '<h1>ライセンスメタデータ</h1><p>この設定を有効にした場合、ポートフォリオ作成者は作成またはアップロードするコンテンツのライセンス情報 (ライセンス、および任意でライセンサおよび元URLを含む) を入力するよう求められます。</p><hr><h2>詳細</h2><p>ライセンスはURLとして保存されます。</p><p>サイト管理者がライセンスのリストを設定している場合、それぞれの名称およびアイコンが表示されます。</p>';
 $string['licenseallowcustom1'] = 'カスタムライセンス';
+$string['siteoptions.licenseallowcustom_help'] = '<h1>カスタムライセンス</h1><p>この設定を有効にした場合、作成者はライセンスとして任意のURLを入力できます。この設定を無効にした場合、サイト管理者が設定したライセンスからのみ選択できます。</p>';
 $string['recaptchakeysmissing1'] = 'reCAPTCHAは有効にされましたが、あなたがサイトキーおよびシークレットキーを提供するまで機能しません。';
 $string['recaptchanotpassed'] = 'reCAPTCHAが正しく入力されていません。再度お試しください。';
-$string['recaptchaonregisterform1'] = 'アカウント登録/お問い合わせフォームのreCAPTCHA';
+$string['recaptchaonregisterform1'] = '登録およびお問い合わせフォームのreCAPTCHA';
+$string['siteoptions.recaptchaonregisterform_help'] = '<h1>登録およびお問い合わせフォームのreCAPTCHA</h1><p>この設定を有効にした場合、未ログイン時に自己登録または「お問い合わせ」フォームに入力する人はスパムアカウントまたはメッセージを減らすためにreCAPTCHAテストに合格する必要があります。</p><p>あなたは<a href="https://cloud.google.com/security/products/recaptcha">Google reCAPTCHA</a>から入手可能なreCAPTCHAサイトキーおよびシークレットキーが必要です。</p>';
 $string['recaptchaprivatekey1'] = 'reCAPTCHAシークレットキー';
-$string['recaptchapublickey1'] = 'reCAPTCHAサイト鍵';
-$string['remoteavatars'] = 'リモートアバタを表示する';
+$string['recaptchaprivatekey_help'] = '<h1>reCAPTCHAシークレットキー</h1><p>あなたのサイトのreCAPTCHAアカウントのシークレットキーです。</p>';
+$string['recaptchapublickey1'] = 'reCAPTCHAサイトキー';
+$string['recaptchapublickey_help'] = '<h1>reCAPTCHAサイトキー</h1><p>あなたのサイトのreCAPTCHAアカウントのサイトキーです。</p>';
+$string['remoteavatars'] = 'リモートアバタ';
+$string['siteoptions.remoteavatars_help'] = '<h1>リモートアバタ</h1><p>この設定を有効にした場合、<a href="https://www.gravatar.com">Gravatar</a>はプロファイル画像を設定していない人にプロファイル画像を提供します。Gravatarにその人の画像がない場合、デフォルトのMahara画像が表示されます。</p>
+<h2>使用しない場合</h2><p>このオプションを使用するには人とウェブサーバの両方がGravatarにアクセスできる必要があります。外部アクセスのないイントラネット専用サイトでこのオプションを有効にした場合、不要なページ読み込みの遅延が発生します。</p>
+<h2>カスタムアバタサーバ</h2>
+<p>Gravatarプロトコルをサポートするカスタムアバタサーバを使用するにはconfig.phpでベースURLを設定してください。</p>';
 $string['searchplugin'] = '検索プラグイン';
 $string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「プラグインタイプ: search」の設定を確認してください。設定確認後、あなたは検索の「リセット」ボタンを押す必要がある場合があります。';
 $string['searchuserspublic'] = 'パブリック検索に人を表示する';
