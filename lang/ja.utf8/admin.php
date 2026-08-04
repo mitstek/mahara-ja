@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-03 03:59:32 UTC
+ * @updated    2026-08-04 15:02:15 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1037,6 +1037,10 @@ $string['mergeaccounts'] = 'アカウントをマージする';
 $string['mergeuserfrom'] = '1 - マージするアカウントを選択する';
 $string['mergeuserto'] = '2 - ターゲットアカウントを選択する';
 $string['mergeusersubmit'] = '3 - アカウントをマージする';
+$string['mergeuserfromaccount'] = '別のアカウントにマージするアカウントを選択してください。';
+$string['mergeusertoaccount'] = '他のアカウントからコンテンツを受け取るアカウントを選択してください。';
+$string['mergeusertoaccountnote'] = '<strong>注意:</strong>このアカウントは更新されます。';
+$string['merge_title'] = 'あなたがこのアカウントにマージするアカウントに関する情報です。';
 $string['merge_displayname'] = '表示名';
 $string['merge_firstname'] = '名';
 $string['merge_lastname'] = '姓';
@@ -1053,6 +1057,12 @@ $string['mergeaccountoptions'] = '<strong>メモ:</strong> 以下のコンテン
 <li>姓名</li>
 <li>プロファイル画像</li></ul>
 <p>メールアドレスはターゲットアカウントの副メールアドレスとして保存されます。</p>';
+$string['deleteaccount_help'] = '<h1>マージするアカウントを削除する</h1>
+<p>この設定を有効にした場合、アカウントはターゲットとマージされた後、削除されます。</p><p>この設定を無効にした場合、アカウントは統合されて保持されますが、コンテンツは含まれなくなります。</p>';
+$string['searchforaccount'] = 'アカウントを検索する';
+$string['usermergedfromto'] = '%s アカウントを %s アカウントにマージしました。';
+$string['usermergedfromtoanddeleted'] = '%s アカウントを %s アカウントにマージして %s アカウントを削除しました。';
+$string['merge_deleteaccount'] = 'マージするアカウントを削除する';
 $string['institutionusersinstructionsrequesters2'] = '「 %1$s 」フィールドの一覧ではあなたのインスティテューションへの参加をリクエストした人すべてが表示されます。あなたは特定の人を探すため検索ボックスを使用できます。あなたがインスティテューションに人を追加したい場合、またはメンバシップリクエストを拒否したい場合、最初に「 %1$s 」フィールドで選択して右矢印ボタンをクリックして「 %2$s 」フィールドに移動してください。「メンバを追加する」ボタンにより「 %2$s 」フィールド内の人すべてをインスティテューションに追加します。「リンクエストを拒否する」ボタンにより「 %2$s 」フィールドに表示されているメンバシップリクエストを削除します。';
 $string['institutionusersinstructionsnonmembers2'] = '「 %1$s 」フィールドの一覧ではまだあなたのインスティテューションのメンバではない人すべてが表示されます。あなたは特定の人を探すため検索ボックスを使用できます。インスティテューションへの参加に人を招待したい場合、最初に「 %1$s 」フィールドで選択して右矢印ボタンをクリックして「 %2$s 」フィールドに移動してください。「人を招待する」ボタンにより「 %2$s 」フィールド内の人すべてに招待を送信します。これらの人は招待を受け入れるまであなたのインスティテューションと関連付けられません。サイト管理者には「メンバを追加する」ボタンが表示されすぐにインスティテューションに人を追加できます。';
 $string['institutionusersinstructionslastinstitution2'] = '「 %1$s 」フィールドの一覧ではまだあなたのインスティテューションのメンバではない人、選択されたインスティテューションを離脱した人すべてが表示されます。あなたは特定の人を探すため検索ボックスを使用できます。インスティテューションへの参加に人を招待したい場合、最初に「 %1$s 」フィールドで選択して右矢印ボタンをクリックして「 %2$s 」フィールドに移動してください。「人を招待する」ボタンにより「 %2$s 」フィールド内の人すべてに招待を送信します。これらの人は招待を受け入れるまであなたのインスティテューションと関連付けられません。サイト管理者には「メンバを追加する」ボタンが表示されすぐにインスティテューションに人を追加できます。';
@@ -1067,6 +1077,9 @@ $string['membershipexpirydescription'] = '人がインスティテューショ�
 $string['studentid'] = 'IDナンバ';
 $string['institutionstudentiddescription'] = 'インスティテューション固有の任意の識別子です。インスティテューションメンバはこのフィールドを編集できません。';
 $string['userstodisplay'] = '表示する人:';
+$string['institutionusersrequesters1'] = 'リクエストされたインスティテューションメンバシップ';
+$string['institutionusersnonmembers1'] = 'リクエストされていないインスティテューションメンバシップ';
+$string['institutionusersmembers1'] = '現在のインスティテューションメンバ';
 $string['addnewmembers'] = '新しいメンバを追加する';
 $string['usersrequested'] = 'メンバシップをリクエストした人';
 $string['userstobeadded'] = 'メンバとして追加される人';
@@ -1185,7 +1198,7 @@ $string['selectuser'] = '人「 %s 」を選択する';
 $string['bulkactions'] = 'バルク処理';
 $string['editselectedusersdescription1'] = 'あなたが検索ページで選択したアカウントの利用停止、削除または認証方法を変更します。';
 $string['editselectedportfoliosdescription'] = 'あなたが検索ページで選択したアカウントに対して選択したコレクションをロックまたはロック解除します。「ロック解除」を選択した場合、あなたはコレクションにレビュアを追加できます。「ロック」を選択した場合、レビュアは削除されます。';
-$string['uneditableusers'] = 'あなたが編集できない %s アカウントを選択しました。アカウントはリストから取り除かれました。';
+$string['uneditableusers'] = 'あなたは編集できない %s アカウントを選択しました。アカウントはリストから取り除かれました。';
 $string['exportusersascsv'] = 'アカウントをCSVフォーマットでエクスポートする';
 $string['downloadusersascsv'] = 'CSVフォーマットのアカウント';
 $string['downloaddataascsv'] = 'CSVフォーマットの %s 統計';
