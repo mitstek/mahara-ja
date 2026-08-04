@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-26 21:00:14 UTC
+ * @updated    2026-08-04 14:50:57 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1190,7 +1190,7 @@ $string['selectuser'] = '人「 %s 」を選択する';
 $string['bulkactions'] = 'バルク処理';
 $string['editselectedusersdescription1'] = 'あなたが検索ページで選択したアカウントの利用停止、削除または認証方法を変更します。';
 $string['editselectedportfoliosdescription'] = 'あなたが検索ページで選択したアカウントに対して選択したコレクションをロックまたはロック解除します。「ロック解除」を選択した場合、あなたはコレクションにレビュアを追加できます。「ロック」を選択した場合、レビュアは削除されます。';
-$string['uneditableusers'] = 'あなたが編集できない %s アカウントを選択しました。アカウントはリストから取り除かれました。';
+$string['uneditableusers'] = 'あなたは編集できない %s アカウントを選択しました。アカウントはリストから取り除かれました。';
 $string['exportusersascsv'] = 'アカウントをCSVフォーマットでエクスポートする';
 $string['downloadusersascsv'] = 'CSVフォーマットのアカウント';
 $string['downloaddataascsv'] = 'CSVフォーマットの %s 統計';
