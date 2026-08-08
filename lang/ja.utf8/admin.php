@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-04 15:02:15 UTC
+ * @updated    2026-08-08 15:18:41 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1208,9 +1208,9 @@ $string['Suspend'] = '利用停止';
 $string['bulksuspenduserssuccess'] = '%d 名の人を利用停止しました。';
 $string['changeauthmethod'] = '認証方法を変更する';
 $string['someusersnotinauthinstanceinstitution'] = 'あなたが選択した人の一部はこの認証方法に関連付けられたインスティテューションに属していません。';
-$string['bulkchangeauthmethodsuccess'] = '%d 名のアカウントの認証方法をリセットしました。';
+$string['bulkchangeauthmethodsuccess'] = '%d アカウントの認証方法をリセットしました。';
 $string['bulkchangeauthmethodresetpassword'] = 'あなたはパスワードを必要とする認証方法を選択しました。%d 名の人にはパスワードが割り当てられていないためパスワードがリセットされるまでログインできません。';
-$string['bulkdeleteuserssuccess'] = '%d 名のアカウントを削除しました。';
+$string['bulkdeleteuserssuccess'] = '%d アカウントを削除しました。';
 $string['bulkprobationpointssuccess'] = '%1$d アカウントに保護観察ポイント %2$d を設定しました。';
 $string['selectedusers'] = '選択済みのアカウント';
 $string['selectednusers'] = '%s 人が選択されました。';
