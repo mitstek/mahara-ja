@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-23 14:29:08 UTC
+ * @updated    2026-08-10 00:11:22 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -75,7 +75,7 @@ $string['switchbox.on'] = 'On';
 $string['switchbox.off'] = 'Off';
 $string['switchbox.yes'] = 'Yes';
 $string['switchbox.no'] = 'No';
-$string['requiredfields'] = '「 * 」がマークされたフィールドは必須です。';
+$string['requiredfields'] = '「 %s 」がマークされたフィールドは必須です。';
 $string['oneoffields'] = '「 %s 」がマークされたフィールドの1つは必須です。';
 $string['isdecorative'] = '装飾イメージ';
 $string['alttext'] = '代替テキスト';

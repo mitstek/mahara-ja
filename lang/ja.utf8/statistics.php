@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-12-11 09:56:20 UTC
+ * @updated    2026-08-10 00:22:52 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -178,6 +178,7 @@ $string['admins'] = '管理者';
 $string['whatsentinprodmode'] = 'あなたのサイトが<a href="%s">実運用モード</a>の場合のみ登録できます。';
 $string['activeusers'] = 'アクティブアカウント';
 $string['logins'] = 'ログイン';
+$string['reports_title'] = '統計';
 $string['reports'] = 'レポート';
 $string['reportsdesc'] = 'サイトに関する統計および学習アナリティクスデータを表示します。';
 $string['reportsfor'] = '%s のレポート';

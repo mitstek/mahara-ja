@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-04 05:33:59 UTC
+ * @updated    2026-08-10 01:02:09 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -200,7 +200,7 @@ $string['allowediframesitesdescription1'] = 'これらのサイトからのifram
 $string['newurl.url_help'] = '<h1>サイト</h1><p>iframeソースURLの先頭で一致するテキスト (https://なし) です。使用できるのは文字、数字および記号 (\'.\', \'/\', \'_\', \'-\' ) のみです。</p>';
 $string['newurl.name_help'] = '<h1>表示名</h1>
 <p>「外部メディア」セクション設定時に作成者に表示されるサイト名です。</p>';
-$string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含めます。';
+$string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ使用できます。';
 $string['iframeiconhost'] = 'アイコンホスト';
 $string['urlalreadyexists'] = 'このURLはすでに存在します。あなたはURLを重複して追加できません。';
 $string['newurl.iframeiconhost_help'] = '<h1>アイコン</h1>
@@ -715,7 +715,7 @@ $string['uploadcsvpagedescription8'] = '<p>あなたは<acronym title="Comma Sep
 
 <p>あなたが外部認証方式を使用するアカウントを設定した場合でも「password」フィールドは必要です。その場合、パスワード変更を強制しないよう注意してください。既存のアカウントを更新する場合、「password」フィールドは省略できます。</p>
 
-<p>あなたのCSVファイルには初期値を事前設定するための他のプロファイルフィールドを含めます。任意フィールドは以下のとおりです:</p>
+<p>あなたのCSVファイルには初期値を事前設定するための他のプロファイルフィールドを使用できます。任意フィールドは以下のとおりです:</p>
 
 %s';
 $string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれる行が多すぎます。あなたのファイルに %s 以上含めません。';
@@ -740,14 +740,16 @@ $string['uploadgroupcsvpagedescription3'] = '<p>このページを使用して<a
 
 <p>それぞれの「shortname」の長さは半角2-255文字にしてください。「shortname」には半角英数字小文字、「.」、「-」および「_」を使用できます。</p>
 
-<p>「roles」フィールドには以下の設定値を含めます: %s</p>
+<p>「roles」フィールドには以下の設定値を使用できます: %s</p>
 
 %s
 
-<p>必要に応じてあなたのCSVファイルには他のフィールドを含めます。フィールドの完全なリストは以下のとおりです:</p>
+<p>必要に応じてあなたのCSVファイルには他のフィールドを使用できます。フィールドの完全なリストは以下のとおりです:</p>
 
 %s';
-$string['uploadgroupcsveditrolesdescription'] = '<p>editrolesフィールドには次のいずれかを含めます: %s</p>
+$string['uploadgroupcsveditrolesdescription'] = '<p>editrolesフィールドには次のいずれかを使用できます: %s</p>
+%s';
+$string['editgroup.editroles_help'] = '<p>editrolesフィールドには次のいずれかを使用できます: %s</p>
 %s';
 $string['uploadgroupmemberscsverrorduplicateusername'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname) 「 %s 」およびユーザ名 (username) 「 %s 」はすでにこのファイルで指定されています。';
 $string['uploadgroupmemberscsverrorinvalidrole'] = 'あなたのファイルの %s 行目にエラーがあります: 指定されたグループにロール「 %s 」は有効ではありません。';
