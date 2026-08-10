@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-09 07:42:19 UTC
+ * @updated    2026-08-10 00:45:04 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -559,6 +559,8 @@ $string['mustspecifyoldpassword'] = 'あなたの現在のパスワードを入�
 $string['mustspecifycurrentpassword'] = 'あなたのユーザ名を変更するには現在のパスワードを入力してください。';
 $string['Site'] = 'サイト';
 $string['maildisabled'] = 'メール無効';
+$string['my_actions'] = 'マイアクション';
+$string['masquerade'] = '代理ログイン';
 $string['profileicon'] = 'プロファイルイメージ';
 $string['bulkselect'] = '編集/報告のために人を選択する';
 $string['emailaddress'] = 'メールアドレス';
@@ -1460,9 +1462,35 @@ $string['cardportfolio_example'] = 'これはポートフォリオカードで�
 $string['cardside'] = 'サイドカード';
 $string['cardside_info'] = 'サイドカードはサイドバー (例えばダッシュボードの右側等) で使用されます。一部のテーマでは強調するためにこれらを異なるスタイルで表示する場合があります。';
 $string['sidecardlink'] = 'サイドカードリンク';
+$string['cardcollapsible'] = '折りたたみ可能カード';
+$string['cardcollapsible_info'] = '折りたたみ可能カードで設定オプション等の長いアイテムリストをグループ化してページ上で管理しやすくします。';
+$string['cardattachment'] = '添付カード';
+$string['cardattachment_info'] = '添付カードを使用してアーティファクトに添付されたファイルにアクセスできるようにします。';
+$string['carddelete'] = '削除カード';
+$string['carddelete_info'] = '削除の確認には削除カードを使用してください。可能であれば、ボタンに等しい視覚的な重みを与えてください。例えば「Yes」ボタンおよび「No」ボタンは両方とも塗りつぶしにするか輪郭線にする必要があります。色を使用した区別もできます。';
 $string['deleteconfirmationheader'] = '削除確認';
+$string['deleteconfirmation'] = 'これを削除してもよろしいですか?';
+$string['cardwarning'] = '警告カード';
+$string['cardwarning_info'] = '注意が必要だが完全な削除には至らない場合、警告カードを使用してください。';
+$string['addfriend'] = 'このフレンドを追加しますか?';
+$string['cardinfo'] = '情報カード';
+$string['cardinfo_info'] = '情報コンテンツを表示するには情報カードを使用してください。';
+$string['someinfo'] = 'このカードに情報提供用のコンテンツを表示します。';
+$string['cardsuccess'] = '成功カード';
+$string['cardsuccess_info'] = '閲覧者の注意をポジティブなものに向けたい場合、成功カードを使用してください。';
+$string['somesuccess'] = 'これは何かポジティブなことが起きたことを示します。';
+$string['colours'] = '色';
+$string['colours_info'] = '例えば提出済みポートフォリオ等のアイテムの状態を示すには色およびテキストを使用してください。色のみを使用しないでください。常にテキストおよびアイコンと組み合わせてください。';
 $string['dropdowns'] = 'ドロップダウンメニュー';
 $string['dropdown'] = 'ドロップダウンメニュー';
+$string['item'] = 'アイテム';
+$string['itemdelete'] = 'アイテムを削除する';
+$string['itemactive'] = 'アクティブアイテム';
+$string['dropdown_info'] = '基本的なドロップダウンメニューです。アイテムにはアイコンを使用できます。';
+$string['dropdowntext'] = 'テキスト入力可能ドロップダウンメニュー';
+$string['dropdowntext_info'] = '検索に使用されるドロップダウン切り替え可能なテキスト入力です。';
+$string['inputfloating'] = 'フローティングラベル';
+$string['inputtextarea'] = 'テキストエリア';
 $string['inputfilebrowser'] = 'ファイルブラウザ';
 $string['fileupload'] = 'ファイルをアップロードする';
 $string['inputcheckbox'] = 'チェックボックス';
@@ -1470,6 +1498,7 @@ $string['radiobuttons'] = 'ラジオボタン';
 $string['modals'] = 'モーダル';
 $string['modals_info'] = 'モーダルウィンドウはブラウザウィンドウの中央に表示されて自動的にリサイズされます。';
 $string['modalheader'] = 'モーダルヘッダ';
+$string['required'] = '「 * 」がマークされたフィールドは必須です。';
 $string['addcontent'] = 'コンテンツを追加する';
 $string['navigation'] = 'ナビゲーション';
 $string['mainnavitem'] = 'メインナビゲーションアイテム';
@@ -1477,6 +1506,14 @@ $string['groupmenu'] = 'グループメニュー';
 $string['groupnavitem'] = 'グループナビゲーションアイテム';
 $string['adminnavitem'] = '管理ナビゲーションアイテム';
 $string['profilepicture'] = 'プロファイル画像';
+$string['popovers'] = 'ポップオーバ';
+$string['popovers_info'] = 'ポップオーバを選択した場合、ヘルプコンテンツが表示されます。';
+$string['popoverheading'] = 'ポップオーバヘッディング';
+$string['popovercontent'] = 'ポップオーバコンテンツにはコンテンツをグループ化するHTMLコードを使用できます。';
 $string['totalresults'] = '合計結果';
 $string['pagetag'] = 'ページタグ';
 $string['typography'] = 'タイポグラフィ';
+$string['paragraphtext'] = '段落テキスト';
+$string['paragraphtext_info'] = 'これは標準テキストです。';
+$string['smalltext'] = 'スモールテキスト';
+$string['smalltext_info'] = '説明または二次的な情報には小さなテキストを使用してください。';

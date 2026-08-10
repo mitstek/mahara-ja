@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-12-11 09:56:20 UTC
+ * @updated    2026-08-10 00:22:48 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -26,7 +26,6 @@ $string['exporttoqueue'] = 'キューにエクスポートする';
 $string['allowpublicprofiles'] = 'パブリックプロファイル許可';
 $string['searchplugin'] = 'アクティブ検索プラグイン';
 $string['eventlogging'] = 'イベントレポート';
-$string['enablenetworking'] = 'ネットワーキング有効';
 $string['moodlehost'] = 'Moodleホスト';
 $string['institutionstrictprivacy'] = '厳密なプライバシ';
 $string['licensemetadata'] = 'ライセンスメタデータ';
@@ -69,6 +68,7 @@ $string['artefact_type_book'] = 'アーティファクト: 著書および出版
 $string['artefact_type_businessnumber'] = 'アーティファクト: 勤務先電話';
 $string['artefact_type_careergoal'] = 'アーティファクト: キャリアゴール';
 $string['artefact_type_certification'] = 'アーティファクト: 証明、認定および受賞';
+$string['artefact_type_checkpointfeedback'] = 'チェックポイントフィードバック';
 $string['artefact_type_city'] = 'アーティファクト: 都道府県';
 $string['artefact_type_comment'] = 'アーティファクト: コメント';
 $string['artefact_type_contactinformation'] = 'アーティファクト: 連絡先';
@@ -149,6 +149,7 @@ $string['blocktype_textbox'] = 'ブロック: ノート';
 $string['blocktype_verification'] = 'ブロック: 検証';
 $string['blocktype_wall'] = 'ブロック: ウォール';
 $string['blocktype_watchlist'] = 'ブロック: 私が観察しているページ';
+$string['enablenetworking'] = 'ネットワーキング有効';
 $string['grouptypes'] = 'グループタイプ';
 $string['installation_key'] = 'インストレーションキー';
 $string['lang'] = '言語';
@@ -178,6 +179,7 @@ $string['admins'] = '管理者';
 $string['whatsentinprodmode'] = 'あなたのサイトが<a href="%s">実運用モード</a>の場合のみ登録できます。';
 $string['activeusers'] = 'アクティブアカウント';
 $string['logins'] = 'ログイン';
+$string['reports_title'] = '統計';
 $string['reports'] = 'レポート';
 $string['reportsdesc'] = 'サイトに関する統計および学習アナリティクスデータを表示します。';
 $string['reportsfor'] = '%s のレポート';
