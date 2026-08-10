@@ -148,7 +148,7 @@ $string['allowediframesitesdescription'] = 'ユーザはHTML &lt;iframe&gt; エ�
 $string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、ユーザにアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが、サイト内におけるiframeソーステキストのマッチングは許可されます。';
 $string['iframeurldescription'] = 'iframeソースURL (https:// なし) の先頭に合致するテキストです。半角英数字、「.」「/」「_」および「-」のみ許可されます。';
 $string['iframedisplaynamedescription'] = 'ユーザに表示されるサイト名です。';
-$string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含めます。';
+$string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ使用できます。';
 $string['iframeiconhost'] = 'アイコンホスト';
 $string['urlalreadyexists'] = 'このURLはすでに存在します。あなたはURLを重複して追加できません。';
 $string['iframeiconhostdescription'] = '必要であれば、あなたはファビコンイメージ用の異なるホストを指定できます。同一名称のすべてのサイトでこのアイコンが使用されます。';
@@ -556,7 +556,7 @@ $string['uploadcsvpagedescription4'] = '<p>あなたはこの機能により<acr
 
 <p>この行には<tt>username</tt>、<tt>password</tt>、<tt>email</tt>、<tt>firstname</tt>および<tt>lastname</tt>フィールドを含んでください。</p>
 
-<p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを含めます。フィールドの完全なリストは以下のとおりです:</p>
+<p>必要に応じてあなたのCSVファイルには他のプロファイルフィールドを使用できます。フィールドの完全なリストは以下のとおりです:</p>
 
 %s';
 $string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれる行が多すぎます。あなたのファイルに %s 以上含めません。';
@@ -577,14 +577,14 @@ $string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能によ�
 
 <p>この先頭行には<tt>shortname</tt>、<tt>displayname</tt>および<tt>roles</tt>フィールドを含んでください。</p>
 
-<p>rolesフィールドには以下の設定値を含めます: %s</p>
+<p>rolesフィールドには以下の設定値を使用できます: %s</p>
 
 %s
 
-<p>必要に応じてあなたのCSVファイルには他のフィールドを含めます。フィールドの完全なリストは以下のとおりです:</p>
+<p>必要に応じてあなたのCSVファイルには他のフィールドを使用できます。フィールドの完全なリストは以下のとおりです:</p>
 
 %s';
-$string['uploadgroupcsveditrolesdescription'] = '<p>editrolesフィールドには次のいずれかを含めます: %s</p>
+$string['uploadgroupcsveditrolesdescription'] = '<p>editrolesフィールドには次のいずれかを使用できます: %s</p>
 %s';
 $string['uploadgroupmemberscsverrorduplicateusername'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname) 「 %s 」およびユーザ名 (username) 「 %s 」はすでにこのファイルで指定されています。';
 $string['uploadgroupmemberscsverrorinvalidrole'] = 'あなたのファイルの %s 行目にエラーがあります: 指定されたグループにロール「 %s 」は有効ではありません。';
@@ -678,7 +678,7 @@ $string['usersreactivated'] = 'ユーザを復活しました。';
 $string['accountsettings'] = 'アカウント設定';
 $string['siteaccountsettings'] = 'サイトアカウント設定';
 $string['changeusername'] = 'ユーザ名を変更する';
-$string['changeusernamedescription'] = 'このユーザのユーザ名を変更します。ユーザ名の長さは半角3-236文字にしてください。ユーザ名にはスペースを除く文字、数字および一般的な記号を含めます。';
+$string['changeusernamedescription'] = 'このユーザのユーザ名を変更します。ユーザ名の長さは半角3-236文字にしてください。ユーザ名にはスペースを除く文字、数字および一般的な記号を使用できます。';
 $string['resetpassword'] = 'パスワードをリセットする';
 $string['resetpassworddescription'] = 'ここにテキストを入力した場合、ユーザの現在のパスワードと入れ替えられます。';
 $string['forcepasswordchange'] = '次回ログイン時、パスワード変更を強制する';
