@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-10 00:42:25 UTC
+ * @updated    2026-08-11 15:01:14 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1220,9 +1220,9 @@ $string['remoteuser'] = 'リモートユーザ名';
 $string['quotapercent'] = 'クオータ使用量';
 $string['userreports'] = '人レポート';
 $string['userreportsdescription'] = 'あなたが検索ページで選択したアカウントに関する情報を表示またはダウンロードします。';
-$string['unabletodeleteself1'] = 'あなた自身を削除できません。';
+$string['unabletodeleteself1'] = 'あなたは自分自身を削除できません。';
 $string['unabletodeletealladmins1'] = 'あなたはすべてのサイト管理者を削除できません。';
-$string['unabletosuspendself'] = 'あなた自身を利用停止できません。';
+$string['unabletosuspendself'] = 'あなたは自分自身を利用停止できません。';
 $string['unabletosuspendalladmins'] = 'あなたはすべてのサイト管理者を利用停止できません。';
 $string['verifierload'] = 'レビュア負荷別のポートフォリオのパーセンテージ';
 $string['verifierpercentage'] = 'レビュアに割り当てられたポートフォリオのパーセンテージ';
@@ -1397,7 +1397,7 @@ $string['cli_deleteinactiveusers_onlydryrun1'] = 'ここでは以下の設定に
 未ログイン数: %s';
 $string['cli_deleteinactiveusers_onlydryrun1_inst_params'] = '含まれるインスティテューション: %s
 除外されるインスティテューション: %s
-インスティテューション外のアカウントを含めますか?';
+インスティテューション外のアカウントを含めますか? %s';
 $string['cli_deleteinactivegroups_info'] = 'このコマンドラインPHPスクリプトではあなたが古いグループを削除できます。これは現在メンバがいないグループにのみ動作します。「onlyadmins」フラグが設定された場合、オーナ/管理者が1名のみのグループを対象に含めます。';
 $string['cli_deleteinactivegroups_beforedate'] = 'この日付より最終修正日が前のグループを削除します。日付には次のような日時ストリングを使用できます: 「2018-02-25」または「-6 months」';
 $string['cli_deleteinactivegroups_limit'] = 'それぞれの削除で処理するグループ数を制限します。';
