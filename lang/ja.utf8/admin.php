@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-11 15:01:14 UTC
+ * @updated    2026-08-15 15:21:18 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -505,36 +505,55 @@ $string['siteoptions.remoteavatars_help'] = '<h1>リモートアバタ</h1><p>�
 <h2>カスタムアバタサーバ</h2>
 <p>Gravatarプロトコルをサポートするカスタムアバタサーバを使用するにはconfig.phpでベースURLを設定してください。</p>';
 $string['searchplugin'] = '検索プラグイン';
+$string['searchplugin_help'] = '<h1>検索プラグイン</h1><p>追加検索プラグインがインストールされている場合、使用する検索エンジンを選択してください。</p><p>Elasticsearchは高度な分析にも必要な全文検索プラグインです。これらの追加レポートを利用できるようにするには「ロギング設定」で「イベントログレポート」を有効にしてください。</p>';
 $string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「プラグインタイプ: search」の設定を確認してください。設定確認後、あなたは検索の「リセット」ボタンを押す必要がある場合があります。';
-$string['searchuserspublic'] = 'パブリック検索に人を表示する';
+$string['searchuserspublic'] = 'パブリック検索内の人';
+$string['siteoptions.searchuserspublic_help'] = '<h1>パブリック検索内の人</h1><p>この設定を有効にした場合、パブリックプロファイルのあるアカウント保持者がパブリック検索結果に表示される可能性があります。</p><p>ここではconfig.phpで「publicsearchallowed」を設定した上でElasticsearch等のパブリック検索をサポートする検索プラグインが必要です。この設定を変更するにはElasticsearchを再インデックス化する必要があります。</p>';
 $string['sessionlifetime'] = 'セッションライフタイム';
-$string['sessionlifetimedescription'] = 'ログイン済みで活動していない人が自動的にログアウトされるまでの時間 (分) です。';
+$string['sessionlifetimedescription'] = '時間 (分)';
+$string['sessionlifetime_help'] = '<h1>セッションライフタイム</h1><p>人が自動的にログアウトされるまでの非アクティブ時間 (分) です。</p>';
 $string['setsiteoptionsfailed1'] = 'このオプションの設定に失敗しました。';
 $string['setsiteoptionsfailednotice'] = '%s フィールドオプションの設定に失敗しました。';
-$string['showstudentid'] = '学籍番号を表示する';
-$string['showonlineuserssideblock'] = 'オンライン中の人を表示する';
+$string['showstudentid'] = '学籍番号表示';
+$string['siteoptions.showstudentid_help'] = '<h1>学籍番号表示</h1><p>この設定を有効にした場合、サイト全体で氏名の横に人の学籍番号が表示されます。</p>';
+$string['showonlineuserssideblock'] = '「オンライン中」表示';
+$string['siteoptions.showonlineuserssideblock_help'] = '<h1>「オンライン中」表示</h1><p>この設定を有効にした場合、アカウント保持者はダッシュボードのサイドバー「オンラインの人」で過去10分間にオンラインであった人のリストを確認できます。</p>';
 $string['showselfsearchsideblock1'] = 'ポートフォリオ検索';
+$string['siteoptions.showselfsearchsideblock_help'] = '<h1>ポートフォリオ検索</h1><p>この設定を有効にした場合、「マイポートフォリオを検索する」サイドバーがダッシュボードに表示されます。</p>';
 $string['showtagssideblock1'] = 'タグクラウド';
+$string['siteoptions.showtagssideblock_help'] = '<h1>タグクラウド</h1><p>この設定を有効にした場合、アカウント保持者はダッシュボードのサイドバーで最も頻繁に使用するタグのリストを確認できます。</p>';
 $string['simple'] = 'シンプル';
 $string['sitedefault'] = 'サイトデフォルト';
 $string['lang_help'] = '<h1>言語</h1><p>サイトのデフォルト言語を選択してください。</p><hr><h2>詳細</h2><p>選択した言語はあなたのサイト全体のメニューアイテムおよびコンテクストヘルプのサイトデフォルト言語です。あなたが追加言語をインストールした場合、人はアカウント設定から言語プレファレンスを変更できます。</p>';
 $string['sitecountrydescription'] = 'サイトのデフォルトの国です。';
 $string['sitename'] = 'サイト名';
+$string['sitename_help'] = '<h1>サイト名</h1>
+<p>サイト名はサイト内の様々な場所 (ブラウザのタブ等) に表示されます。あなたのサイトが参照されている場合、「Mahara」と表示されるのではなく、システムが生成した通知に表示されます。</p>';
 $string['siteoptionspagedescription'] = 'ここであなたはサイト全体にデフォルトとして適用されるグローバルオプションを設定できます。<br>メモ: 無効にされたオプションはあなたのconfig.phpファイルでオーバーライドできます。';
 $string['siteoptionsset'] = 'サイトオプションが更新されました。';
 $string['theme_help'] = '<h1>テーマ</h1><p>サイトのデフォルトテーマです。</p><hr><h2>詳細</h2><p>あなたのテーマがリストにない場合、エラーログをご確認ください。</p><p>インスティテューションは<a href="../users/institutions.php">インスティテューション</a>セクションで設定された独自のデフォルトテーマを持てます。</p>';
 $string['skins'] = 'スキン';
+$string['institution.skins_help'] = '<h1>スキン</h1><p>このインスティテューションのメンバは自分のページでスキンを使用できます。</p>';
 $string['smallviewheaders'] = 'スモールページヘッダ';
 $string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧または編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
 $string['spamhaus2'] = 'Spamhaus URL拒否リスト';
+$string['siteoptions.spamhaus_help'] = '<h1>Spamhaus URL拒否リスト</h1><p>Spamhaus DNSBLと照合してURLを確認します。Spamhaus拒否リストは非営利目的で低トラフィックの利用の場合は無料です。このオプションを有効にする前に<a href="https://www.spamhaus.org/organization/dnsblusage/">Spamhaus DNSブロックリストのフェアユースポリシ</a>をお読みください。</p>';
 $string['staffaccessreports1'] = 'スタッフおよびサポート管理者によるレポートアクセス';
-$string['institutionstaffallreports1'] = 'インスティテューションスタッフおよびサポート管理者のすべてのレポート';
+$string['siteoptions.staffreports_help'] = '<h1>スタッフおよびサポート管理者によるレポートアクセス</h1><p>この設定を有効にした場合、サイトおよびインスティテューションスタッフおよびサポート管理者は自インスティテューションの「アカウント詳細」「法的同意」「マスカレーディングセッション」および「ポートフォリオアクセス」レポートにアクセスできます。それ以外の場合、これらのレポートは管理者のみアクセスできます。</p>';
+$string['institutionstaffallreports1'] = 'インスティテューションスタッフおよびサポート管理者によるすべてのレポートアクセス';
+$string['siteoptions.staffstats_help'] = '<h1>インスティテューションスタッフおよびサポート管理者によるすべてのレポートアクセス</h1><p>インスティテューションスタッフおよびサポート管理者がインスティテューションのすべてのレポートにアクセスできるようにします。</p><p>それ以外の場合、これらのレポートは管理者に制限されます。</p>';
 $string['surbl2'] = 'SURBL URL拒否リスト';
+$string['siteoptions.surbl_help'] = '<h1>SURBL URL拒否リスト</h1><p>SURBL拒否リストと照合してURLを確認します。1,000人未満の組織は無料です。このオプションを有効にする前に<a href="https://www.surbl.org/usage-policy">SURBL使用ポリシ</a>をお読みください。</p>';
 $string['disableexternalresources'] = 'HTML内の外部リソースを無効にする';
+$string['siteoptions.disableexternalresources_help'] = '<h1>HTML内の外部リソースを無効にする</h1><p>この設定を有効にした場合、作成者はイメージ等の外部サイトのコンテンツをテキストおよびその他のHTMLコンテンツに埋め込みできなくなります。これはフィッシング攻撃を防ぐのに役立つため、セキュリティ上の理由から推奨されます。詳細は<a href="http://htmlpurifier.org/live/configdoc/plain.html#URI.DisableExternalResources">HTML Purifierドキュメンテーション</a>をご覧ください。</p>';
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
 $string['tagssideblockmaxtagsdescription'] = 'タグクラウド内に表示されるデフォルトのタグ数です。';
 $string['trustedsites'] = '信頼できるサイト';
+$string['updatesitesettings'] = 'サイト設定を更新する';
 $string['usersallowedmultipleinstitutions'] = '人に複数インスティテューションを許可する';
+$string['siteoptions.usersallowedmultipleinstitutions_help'] = '<h1>人に複数インスティテューションを許可する</h1>
+<p>この設定を有効にした場合、人は一度に複数のインスティテューションに所属できます。人は承認を条件としていつでもインスティテューションへの参加を申請できます。また、インスティテューションは人の承認を条件として人を招待できます。</p>
+<p>隔離インスティテューションが有効にされている場合、人は1つのインスティテューションにしか所属できません。</p>';
 $string['institutionstrictprivacy'] = '厳格なプライバシ';
 $string['institutionstrictprivacysuspendaccount'] = 'アカウントを利用停止する';
 $string['requireregistrationconfirm'] = '登録を承認する';
@@ -1232,12 +1251,12 @@ $string['unallocated'] = '未割り当て';
 $string['currentverifiersovertime'] = '現在のレビュアの推移';
 $string['currentverifiers'] = '現在のレビュア';
 $string['manageportfoliosmethod'] = 'ポートフォリオを管理する';
-$string['locking_collection_locked'] = 'コレクション 「 %s 」 はロックされました。';
+$string['locking_collection_locked'] = 'コレクション 「 %s 」 は現在ロックされています。';
 $string['locking_collection_unlocked'] = 'コレクション 「 %s 」 はロック解除されました。';
 $string['locking_collection_verifier_add'] = 'レビュア「 %s 」 が追加されました。';
 $string['locking_collection_verifier_remove'] = 'レビュア「 %s 」 が削除されました。';
 $string['notificationssaved'] = '通知設定が保存されました。';
-$string['onlyshowingfirst'] = '最初に表示する';
+$string['onlyshowingfirst'] = '最初のみ表示する';
 $string['resultsof'] = '検索結果';
 $string['deprecated'] = '- 非推奨';
 $string['installed'] = 'インストール済み';
