@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-04 14:50:57 UTC
+ * @updated    2026-08-15 15:20:29 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1223,12 +1223,12 @@ $string['currentverifiersovertime'] = '現在のレビュアの推移';
 $string['currentverifiers'] = '現在のレビュア';
 $string['manageportfoliosmethod'] = 'ポートフォリオを管理する';
 $string['filterportfolios'] = 'テンプレートでフィルタする';
-$string['locking_collection_locked'] = 'コレクション 「 %s 」 はロックされました。';
+$string['locking_collection_locked'] = 'コレクション 「 %s 」 は現在ロックされています。';
 $string['locking_collection_unlocked'] = 'コレクション 「 %s 」 はロック解除されました。';
 $string['locking_collection_verifier_add'] = 'レビュア「 %s 」 が追加されました。';
 $string['locking_collection_verifier_remove'] = 'レビュア「 %s 」 が削除されました。';
 $string['notificationssaved'] = '通知設定が保存されました。';
-$string['onlyshowingfirst'] = '最初に表示する';
+$string['onlyshowingfirst'] = '最初のみ表示する';
 $string['resultsof'] = '検索結果';
 $string['deprecated'] = '- 非推奨';
 $string['installed'] = 'インストール済み';
