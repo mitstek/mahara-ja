@@ -1916,7 +1916,7 @@ $string['currentverifiersovertime'] = '現在のレビュアの推移';
 $string['currentverifiers'] = '現在のレビュア';
 $string['manageportfoliosmethod'] = 'ポートフォリオを管理する';
 $string['filterportfolios'] = 'テンプレートでフィルタする';
-$string['locking_collection_locked'] = 'コレクション 「 %s 」 はロックされました。';
+$string['locking_collection_locked'] = 'コレクション 「 %s 」 は現在ロックされています。';
 $string['locking_collection_unlocked'] = 'コレクション 「 %s 」 はロック解除されました。';
 $string['locking_collection_verifier_add'] = 'レビュア「 %s 」 が追加されました。';
 $string['locking_collection_verifier_remove'] = 'レビュア「 %s 」 が削除されました。';
@@ -1953,7 +1953,7 @@ $string['unabletodeleteself1'] = 'あなたは自分自身を削除できませ�
 $string['unabletodeletealladmins1'] = 'あなたはすべてのサイト管理者を削除できません。';
 >>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['notificationssaved'] = '通知設定が保存されました。';
-$string['onlyshowingfirst'] = '最初に表示する';
+$string['onlyshowingfirst'] = '最初のみ表示する';
 $string['resultsof'] = '検索結果';
 $string['deprecated'] = '- 非推奨';
 $string['installed'] = 'インストール済み';
