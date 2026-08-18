@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-15 15:20:29 UTC
+ * @updated    2026-08-18 04:19:23 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1270,9 +1270,9 @@ $string['objectionablefilter'] = '好ましくないコンテンツの人';
 $string['noemailfound'] = 'メールアドレスは見つかりませんでした。';
 $string['lastlogin'] = '最終ログイン';
 $string['masqueradingreasonrequired'] = 'マスカレーディングの理由を要求する';
-$string['masqueradingreasonrequireddescription3'] = '管理者は別の人としてマスカレーディングする理由を入力する必要があります。「人にマスカレーディングを通知する」設定が有効にされている場合、マスカレーディングに関する人への通知に理由が含まれます。これを動作させるためには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
+$string['masqueradingreasonrequireddescription3'] = '管理者は別の人としてマスカレーディングする理由を入力する必要があります。「人にマスカレーディングを通知する」設定が有効にされている場合、マスカレーディングに関する人への通知に理由が含まれます。これを動作させるには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
 $string['masqueradingnotified'] = '人にマスカレーディングを通知する';
-$string['masqueradingnotifielddescription'] = '管理者がマスカレーディングする場合、人に通知します。通知には「誰が」「いつ」、それから「マスカレーディングの理由を要求する」が有効にされている場合、「なぜ」が含まれます。これを動作させるためには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
+$string['masqueradingnotifielddescription'] = '管理者がマスカレーディングする場合、人に通知します。通知には「誰が」「いつ」、それから「マスカレーディングの理由を要求する」が有効にされている場合、「なぜ」が含まれます。これを動作させるには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
 $string['masquerade'] = '続ける';
 $string['masqueradeas'] = '代理ログイン';
 $string['masqueradeasperson'] = '%s %s として代理ログインする';
