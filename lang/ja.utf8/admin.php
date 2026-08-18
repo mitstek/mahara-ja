@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-15 14:24:20 UTC
+ * @updated    2026-08-17 01:22:53 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -555,8 +555,12 @@ $string['siteoptions.usersallowedmultipleinstitutions_help'] = '<h1>人に複数
 <p>この設定を有効にした場合、人は一度に複数のインスティテューションに所属できます。人は承認を条件としていつでもインスティテューションへの参加を申請できます。また、インスティテューションは人の承認を条件として人を招待できます。</p>
 <p>隔離インスティテューションが有効にされている場合、人は1つのインスティテューションにしか所属できません。</p>';
 $string['institutionstrictprivacy'] = '厳格なプライバシ';
-$string['institutionstrictprivacysuspendaccount'] = 'アカウントを利用停止する';
-$string['requireregistrationconfirm'] = '登録を承認する';
+$string['siteoptions.institutionstrictprivacy_help'] = '<h1>厳格なプライバシ</h1>
+<p>EUのGDPRまたは同様の法律を遵守するため等、サイトの利用規約およびプライバシに関する声明への全員の同意を義務付けます。独自の声明のあるインスティテューションのメンバはそれらにも同意する必要があります。</p> <p>サイトに複数のインスティテューションに属する人がいる場合、このオプションは使用できません。このオプションを有効にするには最初にアカウントを単一のインスティテューションに移動する必要があります。</p><p>法的声明に必要な変更に関して、あなたの弁護士にご相談ください。Maharaプロジェクトでは法的アドバイスを提供していません。</p>';
+$string['institutionstrictprivacysuspendaccount'] = 'アカウント利用停止';
+$string['siteoptions.institutionstrictprivacysuspendaccount_help'] = '<h1>アカウント利用停止</h1><p>この設定を有効にした場合、すべての法的声明に同意しない人はポップアップフォームを経由で自分のアカウントを一時停止できます。</p><p>この設定を無効にした場合、利用規約への同意を拒否した場合でもアカウントを停止できません。</p><p>いずれの場合でも、すべての法的声明に同意するまで人は自分のアカウントにアクセスできません。</p>';
+$string['requireregistrationconfirm'] = '登録承認';
+$string['siteoptions.requireregistrationconfirm_help'] = '<h1>登録承認</h1><p>すべてのインスティテューションに新しい自己登録アカウントの承認を義務付けます。これによりスパマおよび権限のない人の気付かないアカウント作成を防げます。</p><hr><h2>詳細</h2><p>このオプションが有効されていない場合、それぞれのインスティテューションは承認を必要とするかどうか決定できます。サイトおよびインスティテューションが承認を必要としない場合、インスティテューション管理者が登録を承認しない場合でも、アカウントは自動的に「インスティテューションなし」で作成されます。</p><p>サイトで隔離インスティテューションが有効にされている場合、この設定はデフォルトで有効にされます。サイト管理者またはインスティテューション管理者は変更できません。すべてのアカウントは承認が必要となります。</p>';
 $string['userscanchooseviewthemes'] = '作成者がページテーマを選択できる';
 $string['userscanhiderealnames'] = '実名を秘匿する';
 $string['adduser.hiderealname_help'] = '<h1>実名を秘匿する</h1><p>この設定を有効にした場合、表示名のある人は実名ではなく表示名でのみ検索できます。</p><p>サイトのインスティテューション管理では常に実名で人を検索できます。</p>';
@@ -1001,7 +1005,9 @@ $string['noinstitution'] = 'どのインスティテューションのメンバ�
 $string['defaultlangforinstitution'] = '%s デフォルト';
 $string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
 $string['registrationallowed'] = '登録を許可する';
-$string['registrationconfirm'] = '登録を承認する';
+$string['registrationconfirm'] = '登録承認';
+$string['institution.registerconfirm_help'] = '<h1>登録承認</h1>
+<p>この設定を有効にした場合、インスティテューション管理者はそれぞれの登録を承認する必要があります。</p> <p>このオプションを変更できない場合、サイト管理者がすべてのインスティテューションに対してこのオプションを必須にしています。</p>';
 $string['defaultmembershipperiod'] = 'デフォルトのメンバシップ期間';
 $string['showonlineusers'] = 'オンライン中の人を表示する';
 $string['licensemandatory1'] = '必須ライセンス選択';
