@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-17 01:22:53 UTC
+ * @updated    2026-08-21 07:00:32 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -562,12 +562,17 @@ $string['siteoptions.institutionstrictprivacysuspendaccount_help'] = '<h1>アカ
 $string['requireregistrationconfirm'] = '登録承認';
 $string['siteoptions.requireregistrationconfirm_help'] = '<h1>登録承認</h1><p>すべてのインスティテューションに新しい自己登録アカウントの承認を義務付けます。これによりスパマおよび権限のない人の気付かないアカウント作成を防げます。</p><hr><h2>詳細</h2><p>このオプションが有効されていない場合、それぞれのインスティテューションは承認を必要とするかどうか決定できます。サイトおよびインスティテューションが承認を必要としない場合、インスティテューション管理者が登録を承認しない場合でも、アカウントは自動的に「インスティテューションなし」で作成されます。</p><p>サイトで隔離インスティテューションが有効にされている場合、この設定はデフォルトで有効にされます。サイト管理者またはインスティテューション管理者は変更できません。すべてのアカウントは承認が必要となります。</p>';
 $string['userscanchooseviewthemes'] = '作成者がページテーマを選択できる';
+$string['siteoptions.userscanchooseviewthemes_help'] = '<h1>作成者がページテーマを選択できる/h1><p>この設定を有効にした場合、作成者はポートフォリオページごとにテーマを選択できます。他の人には選択したテーマでページが表示されます。</p>';
 $string['userscanhiderealnames'] = '実名を秘匿する';
 $string['adduser.hiderealname_help'] = '<h1>実名を秘匿する</h1><p>この設定を有効にした場合、表示名のある人は実名ではなく表示名でのみ検索できます。</p><p>サイトのインスティテューション管理では常に実名で人を検索できます。</p>';
+$string['siteoptions.userscanhiderealnames_help'] = '<h1>実名を秘匿する</h1><p>この設定を有効にした場合、表示名のある人は実名ではなく表示名でのみ検索できます。他の人は表示名でのみ検索できます。</p><p>サイトのインスティテューション管理では常に実名で人を検索できます。</p>';
 $string['usersseenewthemeonlogin'] = '次回ログイン時、他の人に新しいテーマが表示されます。';
 $string['viruschecking'] = 'ウイルスチェック';
-$string['whocancreategroups'] = 'グループを作成する';
-$string['whocancreatepublicgroups'] = 'パブリックグループを作成する';
+$string['siteoptions.viruschecking_help'] = '<h1>ウイルスチェック</h1><p>この設定を有効にした場合、アップロードされたすべてのファイルがClamAVを使用してウイルスチェックされます。あなたのサーバにClamAVをインストールする必要があります。多くのLinuxディストリビューションには<code>clamav</code>パッケージが含まれています。あなたは<a href="https://www.clamav.net">ClamAVウェブサイト</a>からダウンロードもできます。</p>';
+$string['whocancreategroups'] = 'グループ作成';
+$string['whocancreategroups_help'] = '<h1>グループ作成</h1><p>新しいグループを作成できる人を選択してください。</p>';
+$string['whocancreatepublicgroups'] = 'パブリックグループ作成';
+$string['createpublicgroups_help'] = '<h1>パブリックグループ作成</h1><p>公開表示可能なグループを作成できる人を選択してください。</p><hr><h2>詳細</h2><p>パブリックグループでは誰でも (検索エンジンを含む)「About」ページおよびフォーラムディスカッションを閲覧できますが、フォーラム投稿またはプロファイル表示にはアカウントが必要です。</p><p>グループ管理者はメンバ一覧へのアクセスを制限できます。</p><p>config.phpで隔離インスティテューションが有効にされている場合、サイト管理者のみパブリックグループを作成できます。</p>';
 $string['wysiwyg'] = 'HTMLエディタ';
 $string['wysiwyguserdefined'] = '人による決定';
 $string['eventloglevel'] = 'イベントログ';
@@ -575,6 +580,8 @@ $string['eventlogexpiry'] = 'イベントログ有効期限';
 $string['eventloglevelnone'] = 'なし';
 $string['eventloglevelmasq'] = 'マスカレーディング';
 $string['eventloglevelall'] = 'すべて';
+$string['eventlogadvancedanalytics'] = '高度なアナリティクス';
+$string['siteoptions.eventlogenhancedsearch_help'] = '<h1>高度なアナリティクス</h1><p>高度なアナリティクスにはElasticsearchの有効化およびすべてのイベントの記録が必要です。追加レポートは「レポート」セクションで利用可能です。</p>';
 $string['sitefilesaccess'] = 'サイトファイルへのアクセス';
 $string['defaultmultipleblogs'] = '複数日誌';
 $string['siteoptions.defaultmultipleblogs_help'] = '<h1>複数日誌</h1><p>この設定を有効にした場合、新しいアカウント保持者はデフォルトで複数日誌を作成できるようになります。アカウント設定ページでこの設定を変更できます。</p>';
@@ -1183,7 +1190,7 @@ $string['registrationapprovedsuccessfully'] = '登録が正常に承認されま
 $string['registrationapprovedmessage'] = '登録メッセージ:';
 $string['registrationapproveddesc'] = '新しく登録した人への追加情報です。';
 $string['registrationdeniedreason'] = '拒否理由';
-$string['registrationdeniedreasondesc'] = '申請拒否理由に関する情報です。';
+$string['registrationdeniedreasondesc'] = 'サイト名が拒否された理由に関する情報です。';
 $string['registrationdeniedsuccessful'] = '登録が正常に拒否されました';
 $string['registrationdeniedunsuccessful'] = '登録拒否に失敗しました。';
 $string['registrationreason'] = '登録理由';

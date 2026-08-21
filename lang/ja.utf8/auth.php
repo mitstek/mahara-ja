@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-05-20 23:20:20 UTC
+ * @updated    2026-08-21 07:26:38 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -24,25 +24,43 @@ $string['saveinstitutiondetailsfirst'] = '認証プラグインを設定する�
 $string['editauthority'] = '認証局を編集する';
 $string['addauthority'] = '認証局を追加する';
 $string['updateuserinfoonlogin'] = 'ログイン時、個人情報を更新する';
+$string['auth_config.updateuserinfoonlogin_help'] = '<h1>ログイン時、アカウント情報を更新する</h1>
+<p>この設定を有効にした場合、ログイン時にリモートサイトからアカウントデータが取得されて変更がローカルアカウントに適用されます。</p>';
 $string['updateuserinfoonlogindescription'] = 'リモートサーバの個人情報を検索して人がログインするたびにあなたのローカルレコードを更新します。';
 $string['xmlrpcserverurl'] = 'XML-RPCサーバURL';
 $string['ipaddress'] = 'IPアドレス';
 $string['shortname'] = 'あなたのサイトの省略名';
 $string['name'] = 'サイト名';
+$string['auth_config.name_help'] = '<h1>サイト名</h1>
+<p>リモートサイトを識別するために表示される名称です。</p>';
 $string['nodataforinstance1'] = '認証インスタンス「 %s 」のデータは見つかりませんでした。';
 $string['authname'] = '認証局名';
+$string['auth_config.instancename_help'] = '<h1>認証局名</h1><p>この認証プロバイダを識別するのに役立つ名称です。</p>';
 $string['weautocreateusers'] = 'こちらでアカウントを自動作成する';
+$string['auth_config.weautocreateusers_help'] = '<h1>こちらでアカウントを自動作成する</h1>
+<p>この設定を有効にした場合、認証に成功したもののまだアカウントのない人にアカウントが自動作成されます。</p>';
 $string['theyautocreateusers'] = 'あちらでアカウントを自動作成させる';
+$string['auth_config.theyautocreateusers_help'] = '<h1>あちらでアカウントを自動作成させる</h1>
+<p>この設定を有効にした場合、リモートサイトに初めてアクセスした人のアカウントが自動作成されます。</p>';
 $string['parent'] = '親認証局';
+$string['auth_config.parent_help'] = '<h1>親認証局</h1>
+<p>親認証を設定した場合、人はその認証またはMoodle等のリモートアプリケーションのいずれかを使用してログインできます。例えばLDAPを親として設定した場合、人はLDAP認証情報を使用してこのサイトのログインフォームまたはMoodle経由でログインできます。どちらの方法でも同じアカウントにアクセスできます。</p>
+<p>親権限が設定されていない場合、人はこのフォームで設定されたリモートアプリケーションを経由でのみログインできます。</p>';
 $string['wessoout'] = 'あちらへSSOする';
 $string['weimportcontent'] = 'こちらにコンテンツをインポートさせる';
+$string['auth_config.weimportcontent_help'] = '<h1>こちらにコンテンツをインポートさせる</h1>
+<p>この設定を有効にした場合、リモートサイトの人はMaharaにコンテンツをインポートできます。これには「こちらにSSOさせる」を有効にする必要があります。また、「アカウント自動作成」も有効にすることをお勧めします。すべてのネットワーク対応アプリケーションがこの機能をサポートしているわけではありません。</p>';
 $string['weimportcontentdescription'] = '(一部のアプリケーションのみ)';
 $string['theyssoin'] = 'こちらにSSOさせる';
 $string['authloginmsg2'] = 'あなたが親認証局を選択していない場合、ログインフォームでログインを試みる誰かに表示されるメッセージを入力してください。';
-$string['authloginmsgnoparent'] = '誰かがログインフォームでログインを試みた場合に表示するメッセージを入力してください。';
 $string['application'] = 'アプリケーション';
+$string['auth_config.appname_help'] = '<h1>アプリケーション</h1>
+<p>あなたが通信を希望するリモートサイトで実行されているアプリケーションです。</p>';
 $string['cantretrievekey'] = 'リモートサーバの公開鍵検索中にエラーが発生しました。<br>アプリケーションおよびWWWルートフィールドが正しいことを確認してください。また、リモートホストのネットワーキングが有効にされていることを確認してください。';
 $string['ssodirection'] = 'SSOの方向';
+$string['auth_config.ssodirection_help'] = '<h1>SSOの方向</h1><p>どのアプリケーションをメインにするか決定してください。結果として人はそれを出発点として使用します。</p>
+<dl><dt>こちらにSSOさせる</dt><dd>この設定を有効にした場合、リモートサイトの人はユーザ名およびパスワードを入力せずにMaharaサイトにアクセスできます。</dd></dt>
+<dt>あちらへSSOする</dt><dd>この設定を有効にした場合、人は再度サインインすることなくMaharaからリモートサイトに移動できます。</dd></dt></dl>';
 $string['active'] = 'アクティブ';
 $string['errorunabletologin'] = 'あなたはログインできません。';
 $string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s への使用を試みています。';
