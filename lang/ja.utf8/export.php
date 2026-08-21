@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-06-03 22:18:46 UTC
+ * @updated    2026-08-21 07:44:03 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,7 +15,7 @@ defined('INTERNAL') || die();
 
 $string['allmydata'] = '私のデータすべて';
 $string['chooseanexportformat'] = 'エクスポートフォーマットを選択する';
-$string['exportarchivedescription1'] = 'あなたはエクスポート時に選択したコンテンツを含むHTMLおよびLeap2AのZIPアーカイブを受け取ります。あなたのポートフォリオをブラウザでindex.htmlファイル経由で閲覧するか、Leap2Aフォーマットをサポートする別のポートフォリオプラットフォームにコンテンツをインポートできます。';
+$string['exportarchivedescription2'] = 'あなたがエクスポートしたコンテンツがHTMLおよびLeap2Aフォーマットの両方で含まれたZIPファイルが届きます。index.htmlを開いてブラウザであなたのポートフォリオを表示するか、Leap2Aファイルを別のMaharaサイトまたはLeap2Aをサポートするポートフォリオプラットフォームにインポートしてください。';
 $string['exportarchivedescriptionpdf'] = 'あなたはエクスポート時に選択したコンテンツを含むHTML、Leap2AおよびPDFのZIPアーカイブを受け取ります。あなたのポートフォリオをブラウザでindex.htmlファイル経由で閲覧するか、エクスポートされたPDFファイルを閲覧するか、Leap2Aフォーマットをサポートする別のポートフォリオプラットフォームにコンテンツをインポートできます。';
 $string['clicktopreview'] = 'クリックしてプレビューする';
 $string['collectionstoexport'] = 'エクスポートするコレクション';
@@ -40,16 +40,17 @@ $string['exportingcollections'] = 'コレクションのエクスポート中';
 $string['exportingviewsprogresshtml'] = 'ページのHTMLへのエクスポート中: %s/%s';
 $string['exportingviewsprogressleap'] = 'ページのLeap2Aへのエクスポート中: %s/%s';
 $string['exportingviewsprogresspdf'] = 'PDFの作成中: %s/%s';
-$string['exportportfoliodescription1'] = '<p class="lead">このツールではあなたのポートフォリオ情報およびページすべてをエクスポートします。あなたのサイト設定およびあなたがグループにアップロードまたは作成したコンテンツはエクスポートされません。</p><p class="lead">あなたの個人ポートフォリオコンテンツをエクスポートできます。あなたのアカウント設定、アップロードされたコンテンツおよび作成されたグループはエクスポートされません。</p>';
+$string['exportportfoliodescription2'] = '<p class="lead">あなたのパーソナルエリアまたはポートフォリオからコンテンツをエクスポートできますが、あなたの設定またはグループで作成されたコンテンツはエクスポートできません。</p>';
 $string['exportyourportfolio'] = 'あなたのポートフォリオをエクスポートする';
+$string['index_help'] = '<h1>あなたのポートフォリオをエクスポートする</h1><p>あなたのポートフォリオをいつでもエクスポートしてファイルおよびコンテンツをオフラインで保持できます。あなたには次のいずれかまたは両方のフォーマットでZIPファイルが届きます:</p><p><strong>HTML:</strong>標準のブラウザでオフライン表示できる閲覧可能なウェブサイトです。ZIPファイルを展開してHTMLフォルダ内のindex.htmlファイルを開いてください。このフォーマットはMaharaまたは別のポートフォリオシステムに再度インポートはできません。</p><p><strong>Leap2A:</strong> Maharaに再度インポートできます。Leap2A.xmlファイルだけでなく、ZIPファイル全体をアップロードしてください。</p><p>インポートはMaharaの同じバージョンまたは新しいバージョンでサポートされています。古いバージョンではすべてのコンテンツが表示されない場合があります。</p>';
 $string['generateexport'] = 'エクスポートを生成する';
 $string['noexportpluginsenabled'] = '管理者によりエクスポートプラグインが有効にされていないためあなたはこの機能を使用できません。';
 $string['justsomecollections'] = '私のコレクションの一部';
 $string['justsomeviews'] = '私のページの一部';
 $string['includecomments'] = 'コメントを含む';
-$string['includecommentsdescription'] = 'すべてのコメントがHTMLエクスポートに含まれます。';
+$string['export.includefeedback_help'] = '<h1>コメントを含む</h1><p>すべてのコメントはHTMLエクスポートに含まれます。</p>';
 $string['includeprivatefeedback'] = 'プライベートコメントを含む';
-$string['includeprivatefeedbackdesc1'] = 'あなたのエクスポートにプライベートコメントを含めた場合、このエクスポートを共有している人も閲覧できてしまいます。コメントをプライベートにするにはコメントなしのエクスポートを作成するか、プライベートコメントを含めないようにしてください。';
+$string['export.includeprivatefeedback_help'] = '<h1>プライベートコメントを含む</h1><p>あなたのエクスポートにプライベートコメントを含めた場合、このエクスポートを共有する人にはそれらが表示されます。それらをプライベートにするにはコメントなしでエクスポートを作成するか、あなたが共有するエクスポートにプライベートコメントを含めないでください。</p>';
 $string['nonexistentfile'] = '存在しないファイル「 %s 」の追加を試みました。';
 $string['nonexistentprofileicon'] = '存在しないプロファイルアイコン「 %s 」の追加を試みました。';
 $string['nonexistentresizedprofileicon'] = '存在しないリサイズ済みプロファイルアイコン「 %s 」の追加を試みました。';
