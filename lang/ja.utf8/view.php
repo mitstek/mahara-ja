@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-23 07:49:57 UTC
+ * @updated    2026-08-21 07:29:59 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -431,6 +431,11 @@ $string['latestmodified'] = '最終更新日時';
 $string['latestviewed'] = '最終閲覧日時';
 $string['mostvisited'] = '閲覧回数';
 $string['mostcomments1'] = 'コメント数';
+$string['header_type'] = 'タイプ';
+$string['header_title'] = 'タイトル';
+$string['header_pages'] = 'ページ';
+$string['header_description'] = '説明';
+$string['header_tags'] = 'タグ';
 $string['dashboard'] = 'ダッシュボード';
 $string['Profile'] = 'プロファイル';
 $string['profile'] = 'プロファイル';
