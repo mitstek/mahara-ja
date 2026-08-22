@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-22 15:13:43 UTC
+ * @updated    2026-08-22 16:55:39 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -590,10 +590,16 @@ $string['siteoptions.sitefilesaccess_help'] = '<h1>サイトファイルへの�
 $string['defaultmultipleblogs'] = '複数日誌';
 $string['siteoptions.defaultmultipleblogs_help'] = '<h1>複数日誌</h1><p>この設定を有効にした場合、新しいアカウント保持者はデフォルトで複数日誌を作成できるようになります。アカウント設定ページでこの設定を変更できます。</p>';
 $string['defaultreviewsselfdeletion'] = '自己削除の前にアカウントをレビューする';
+$string['siteoptions.defaultreviewselfdeletion_help'] = '<h1>自己削除の前にアカウントをレビューする</h1><p>この設定を有効にした場合、アカウント削除リクエスト実行前にすべてのインスティテューションによるレビューおよび承認を必要とします。</p>';
 $string['reviewsselfdeletion'] = '自己削除の前にアカウントをレビューする';
+$string['institution.reviewselfdeletion_help'] = '<h1>自己削除の前にアカウントをレビューする</h1><p>この設定を有効にした場合、アカウント削除リクエスト実行前にインスティテューション管理者によるレビューおよび承認を必要とします。</p>';
 $string['mathjax'] = 'MathJax';
+$string['siteoptions.mathjax_help'] = '<h1>MathJax</h1><p>MathJaxはポートフォリオページで数学的マークアップをフォーマットされた方程式にレンダリングします。</p><hr><h2>詳細</h2>
+<p>デフォルトではMathJax CDNの最新安定バージョンが使用されます。代わりにローカルインストールを使用するにはconfig.phpで<code>$cfg->mathjaxpath</code>を設定してください。詳細は<a href="https://docs.mathjax.org/en/latest/web/hosting.html">インストール手順</a>をご覧ください。</p>
+<p>あなたのconfig.phpの<code>$cfg->mathjaxconfig</code>設定パラメータに追加オプションを追加できます。デフォルトの設定はMathML、AsciiMath、TeXおよびLaTeX入力をサポートします。また、化学式用のmhchem拡張機能が含まれます。詳細は<a href="https://docs.mathjax.org/en/latest/input/tex/extensions.html#tex-and-latex-extensions">拡張機能ドキュメンテーション</a>をご覧ください。</p>';
 $string['mathjaxconfig'] = 'MathJax設定';
 $string['timezone'] = 'タイムゾーン';
+$string['timezone_help'] = '<h1>タイムゾーン</h1><p>サイトのデフォルトタイムゾーンです。何も選択されていない場合、選択された国に基づいて選択されます。複数のタイムゾーンのある国では不正確な場合があります。</p>';
 $string['notimezoneselected'] = 'タイムゾーン未選択';
 $string['about'] = 'About';
 $string['discardpageedits'] = 'このページの変更を破棄しますか?';
