@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-21 07:00:36 UTC
+ * @updated    2026-08-22 15:13:43 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -574,15 +574,19 @@ $string['whocancreategroups_help'] = '<h1>グループ作成</h1><p>新しいグ
 $string['whocancreatepublicgroups'] = 'パブリックグループを作成する';
 $string['createpublicgroups_help'] = '<h1>パブリックグループ作成</h1><p>公開表示可能なグループを作成できる人を選択してください。</p><hr><h2>詳細</h2><p>パブリックグループでは誰でも (検索エンジンを含む)「About」ページおよびフォーラムディスカッションを閲覧できますが、フォーラム投稿またはプロファイル表示にはアカウントが必要です。</p><p>グループ管理者はメンバ一覧へのアクセスを制限できます。</p><p>config.phpで隔離インスティテューションが有効にされている場合、サイト管理者のみパブリックグループを作成できます。</p>';
 $string['wysiwyg'] = 'HTMLエディタ';
+$string['siteoptions.wysiwyg_help'] = '<h1>HTMLエディタ</h1><p>HTMLエディタをデフォルトで有効にするかどうか設定してください。「人による決定」に設定されている場合、それぞれの人はアカウント設定で選択できます。それ以外の場合、設定はサイト全体に適用されます。</p>';
 $string['wysiwyguserdefined'] = '人による決定';
 $string['eventloglevel'] = 'イベントログ';
+$string['eventloglevel_help'] = '<h1>イベントログ</h1><p>データベースに記録するイベントを選択してください: すべてのイベントまたはマスカレーディングセッションのみ。</p><hr><h2>詳細</h2><p>高度なアナリティクスにはすべてのイベントのログが必要ですが、混雑したサイトでは大量のデータが生成される可能性があります。</p><p>マスカレーディングセッションレポートは「レポート」セクションで利用可能です。</p><p>この設定に関係なく、すべてのイベントは常にアクセスログに記録されます。</p>';
 $string['eventlogexpiry'] = 'イベントログ有効期限';
+$string['eventlogexpiry_help'] = '<h1>イベントログ有効期限</h1><p>イベントログデータを保持する期間を設定してください。</p><p>期間を日、週、月または年で選択するか、「終了日なし」を選択してすべてのデータを無期限に保持します。ログを無期限に保持する場合、あなたのデータベースが急速に大きくなる可能性があることに留意してください。</p>';
 $string['eventloglevelnone'] = 'なし';
 $string['eventloglevelmasq'] = 'マスカレーディング';
 $string['eventloglevelall'] = 'すべて';
 $string['eventlogadvancedanalytics'] = '高度なアナリティクス';
 $string['siteoptions.eventlogenhancedsearch_help'] = '<h1>高度なアナリティクス</h1><p>高度なアナリティクスにはElasticsearchの有効化およびすべてのイベントの記録が必要です。追加レポートは「レポート」セクションで利用可能です。</p>';
 $string['sitefilesaccess'] = 'サイトファイルへのアクセス';
+$string['siteoptions.sitefilesaccess_help'] = '<h1>サイトファイルへのアクセス</h1><p>アカウント保持者がサブフォルダ内のサイトファイルにアクセスできるようにします。デフォルトではトップレベルのディレクトリにあるファイルのみ利用可能です。</p>';
 $string['defaultmultipleblogs'] = '複数日誌';
 $string['siteoptions.defaultmultipleblogs_help'] = '<h1>複数日誌</h1><p>この設定を有効にした場合、新しいアカウント保持者はデフォルトで複数日誌を作成できるようになります。アカウント設定ページでこの設定を変更できます。</p>';
 $string['defaultreviewsselfdeletion'] = '自己削除の前にアカウントをレビューする';
@@ -1318,7 +1322,7 @@ $string['masqueradenotificationdone'] = 'このマスカレーディングセッ
 $string['masqueradetime'] = 'マスカレーディング開始日時';
 $string['masquerader'] = 'マスカレーディング管理者';
 $string['masqueradee'] = '人';
-$string['nomasquerades'] = 'マスカレーディングセッションのロギングが有効にされているため別の誰かとして代理ログインした管理者はいません。';
+$string['nomasquerades'] = 'マスカレーディングセッションのログが有効にされて以降、別の誰かとして代理ログインした管理者はいません。';
 $string['loginaslog'] = 'マスカレーディングセッション';
 $string['masqueradingnotloggedwarning'] = '<b>注意</b>: マスカレーディングセッションのロギングは現在無効にされています。このテーブルのデータを閲覧するには管理者が「 <a href="%sadmin/site/options.php">サイト設定</a> 」の「ロギング設定」を有効にする必要があります。';
 $string['masqueradenotificationsubject'] = '管理者があなたとしてログインしました。';

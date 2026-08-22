@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-21 07:29:59 UTC
+ * @updated    2026-08-21 13:00:22 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -309,28 +309,29 @@ $string['blockcell'] = 'セル';
 $string['blockorder'] = 'ポジション';
 $string['rownr'] = '行 %s';
 $string['nrrows'] = '%s 行';
-$string['addnewblockdrag1'] = 'ドラッグまたはクリックして新しいブロックを追加する';
-$string['addnewblockaccessible'] = 'クリックして新しいブロックを追加する';
-$string['addnewblock'] = '新しいブロックを追加する';
+$string['addnewblockdrag1'] = 'ドラッグまたはクリックして新しいセクションを追加する';
+$string['addnewblockdragfor'] = 'ボタンをドラッグまたは選択して新しい「 %s 」セクションを追加する';
+$string['addnewblockaccessible'] = 'ボタンを選択して新しいセクションを追加する';
+$string['addnewblock'] = '新しいセクションを追加する';
 $string['addnewblockfor'] = '新しい %s セクションを追加する';
-$string['addnewblockhere'] = 'ここに新しいブロックを追加する';
+$string['addnewblockhere'] = 'ここに新しいセクションを追加する';
 $string['add'] = '追加';
 $string['addcolumn'] = 'カラムを追加する';
 $string['addpage'] = 'ページを追加する';
 $string['remove'] = '削除';
-$string['moveblock2'] = 'ブロックを移動する';
-$string['moveblock'] = '%s ブロックを移動する';
-$string['movethisblock'] = 'このブロックを移動する';
+$string['moveblock2'] = 'セクションを移動する';
+$string['moveblock'] = '%s セクションを移動する';
+$string['movethisblock'] = 'このセクションを移動する';
 $string['Configure1'] = '編集';
-$string['configureblock3'] = 'ブロックを編集する';
-$string['configureblock1'] = '%s ブロックを設定する (ID %s)';
-$string['configurethisblock1'] = 'このブロックを設定する (ID %s)';
+$string['configureblock3'] = 'セクションを編集する';
+$string['configureblock1'] = '%s セクションを設定する (ID %s)';
+$string['configurethisblock1'] = 'このセクションを設定する (ID %s)';
 $string['closeconfiguration'] = '設定を閉じる';
-$string['removeblock2'] = 'ブロックを削除する';
-$string['removeblock1'] = '%s ブロックを削除する (ID %s)';
-$string['removethisblock1'] = 'このブロックを削除する (ID %s)';
-$string['copyblockId'] = 'ブロックをコピーする (ID %s)';
-$string['copyblocktitleId'] = '%s ブロックをコピーする (ID %s)';
+$string['removeblock2'] = 'セクションを削除する';
+$string['removeblock1'] = '%s セクションを削除する (ID %s)';
+$string['removethisblock1'] = 'このセクションを削除する (ID %s)';
+$string['copyblockId'] = 'セクションをコピーする (ID %s)';
+$string['copyblocktitleId'] = '%s セクションをコピーする (ID %s)';
 $string['copyblock'] = 'コピーする';
 $string['sectiontitle'] = 'セクションタイトル';
 $string['celltitle'] = 'セル';

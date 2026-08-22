@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-10 00:45:04 UTC
+ * @updated    2026-08-21 12:55:55 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1505,6 +1505,10 @@ $string['mainnavitem'] = 'メインナビゲーションアイテム';
 $string['groupmenu'] = 'グループメニュー';
 $string['groupnavitem'] = 'グループナビゲーションアイテム';
 $string['adminnavitem'] = '管理ナビゲーションアイテム';
+$string['dragtext'] = 'ボタンをドラッグまたは選択して新しい「テキスト」セクションを追加する';
+$string['dragfiles'] = 'ボタンをドラッグまたは選択して新しい「ファイル」セクションを追加する';
+$string['dragfolder'] = 'ボタンをドラッグまたは選択して新しい「フォルダ」セクションを追加する';
+$string['dragembedded'] = 'ボタンをドラッグまたは選択して新しい「埋め込みメディア」セクションを追加する';
 $string['profilepicture'] = 'プロファイル画像';
 $string['popovers'] = 'ポップオーバ';
 $string['popovers_info'] = 'ポップオーバを選択した場合、ヘルプコンテンツが表示されます。';
