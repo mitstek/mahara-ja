@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-22 16:55:39 UTC
+ * @updated    2026-08-23 20:26:05 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -619,8 +619,10 @@ $string['termsandconditions'] = '利用条件';
 $string['uploadcopyright'] = 'アップロード著作権宣言文';
 $string['privacypagedescription'] = 'サイト全体のプライバシ保護方針を編集してください。あなたが最後に編集したバージョンが自動的に最新のプライバシ保護方針となります。';
 $string['termspagedescription'] = 'サイト全体の利用条件を編集してください。あなたが最後に編集したバージョンが自動的に最新の利用条件となります。';
-$string['owngroupsonly'] = '自分のグループのみ表示する';
+$string['owngroupsonly'] = '自分のグループのみ';
+$string['siteoptions.owngroupsonly_help'] = '<h1>自分のグループのみ</h1><p>この設定を有効にした場合、人は自分が所有しているか所属しているグループと同じグループにいる他の人のみ閲覧または検索できます。この設定では隔離インスティテューションを有効にする必要があります。</p>';
 $string['sitefile'] = 'サイトファイル';
+$string['adminsitefile_help'] = '<h1>サイトファイル</h1><p>あなたがリンクしたい単語を「名称」フィールドに入力してください。そして「リンク先」ドロップダウンリストからファイルを選択してください。</p>';
 $string['adminpublicdirname'] = 'パブリック';
 $string['adminpublicdirdescription'] = 'ログアウトした人からアクセス可能なファイルです。';
 $string['adminpublicdirduplicatewarning'] = 'サイトの「公開」ディレクトリを自動的に設定できません。<br>
@@ -635,9 +637,19 @@ $string['deletingmenuitem'] = 'アイテムの削除中';
 $string['deletefailed'] = 'アイテムの削除に失敗しました。';
 $string['deletefailedonlyadmin'] = 'あなたはこのアカウントを削除できません。これは唯一のシステム管理者アカウントです。';
 $string['externallink'] = '外部リンク';
+$string['adminexternallink_help'] = '<h1>リンク</h1><p>あなたがリンクしたい単語を「名称」フィールドに入力してください。そしてURLを「リンク先」フィールドに入力してください。</p>';
 $string['editlinksandresources'] = '「リンクおよびリソース」を編集する';
 $string['linkedto'] = 'リンク先';
 $string['linksandresourcesmenu'] = 'リンクおよびリソースメニュー';
+$string['linksandresourcesmenupagedescription1'] = '他のウェブサイトおよび%s管理ファイル%sエリアにアップロードされたファイルへのリンクを追加してください。';
+$string['menutoupdate'] = '更新するメニュー';
+$string['adminmenuselect_help'] = '<h1>更新するメニュー</h1><p>編集するメニューを選択してください:</p><dl>
+  <dt>ログインリンクおよびリソース</dt>
+  <dd>ログイン済みのアカウント保持者に表示されます。</dd>
+  <dt>パブリックリンクおよびリソース</dt>
+  <dd>サイトにアクセスするすべての人に表示されます。</dd>
+</dl>';
+$string['adminmenuedit_help'] = '<h1>メニュー編集</h1><p>リンクを変更するか、表示する管理者ファイルを変更してください。</p>';
 $string['loadingmenuitems'] = 'アイテムの読み込み中';
 $string['loadmenuitemsfailed'] = 'アイテムの読み込みに失敗しました。';
 $string['loggedinmenu'] = 'ログイン後の「リンクおよびリソース」';
