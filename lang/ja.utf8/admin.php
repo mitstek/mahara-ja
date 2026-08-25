@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-23 20:26:01 UTC
+ * @updated    2026-08-25 16:08:06 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -665,6 +665,8 @@ $string['type'] = 'タイプ';
 $string['footermenu'] = 'フッタメニュー';
 $string['footermenudescription'] = 'フッタ内のリンクを有効または無効にします。';
 $string['footerupdated'] = 'フッタが更新されました。';
+$string['footerlinks_help'] = '<h1>カスタムページ</h1><p>デフォルトのページ「 %s 」を置き換えるには「https://」を含む完全なURLを入力してください。デフォルトを使用する場合、空白のままにしてください。</p>';
+$string['adminfilespagedescription3'] = 'サイトファイルを管理します。あなたは例えば %s「リンクおよびリソース」%sメニューに含めることができます。これはアカウント保持者も使用できます。';
 $string['extralicensesdescription'] = '注意: 次のライセンスは一部のコンテンツで使用されていますが設定されていません。';
 $string['licensenamelabel'] = 'URL';
 $string['licensedisplaynamelabel'] = '表示名';
@@ -681,14 +683,19 @@ $string['publickey'] = '公開鍵';
 $string['publickeydescription2'] = 'この公開鍵は自動的に生成され %s 日ごとにローテートされます。';
 $string['publickeyexpires'] = '公開鍵有効期限';
 $string['enablenetworking'] = 'ネットワーキングを有効にする';
+$string['networkingform.enablenetworking_help'] = '<h1>ネットワーキングを有効にする</h1><p>この設定を有効にした場合、Maharaサイトは他のMaharaサイトまたはMoodleサイトと通信できます。</p>';
 $string['networkingenabled'] = 'ネットワーキングが有効にされました。';
 $string['networkingdisabled'] = 'ネットワーキングが無効にされました。';
 $string['networkingpagedescription'] = 'Maharaのネットワーキング機能では同一または別サーバで稼動中のMaharaまたはMoodleと連携できるようにします。ネットワーキングが有効にされた場合、あなたはMoodleまたはMaharaにログインする人のシングルサインオン設定にネットワーキングを使用できます。';
 $string['networkingunchanged'] = 'ネットワーク設定は変更されませんでした。';
-$string['promiscuousmode'] = 'すべてのホストを自動登録する';
+$string['promiscuousmode'] = 'すべてのホストの自動登録';
 $string['promiscuousmodedisabled'] = '自動登録が無効にされました。';
 $string['promiscuousmodeenabled'] = '自動登録が有効にされました。';
+$string['networkingform.promiscuousmode_help'] = '<h1>すべてのホストの自動登録</h1><p>あなたのサイトに接続するホストのインスティテューションレコードを作成します。そのアカウント保持者がMaharaにログインできるようにします。</p>';
 $string['wwwroot'] = 'WWWルート';
+$string['auth_config.wwwroot_help'] = '<h1>WWWルート</h1>
+<p>リモートアプリケーションのWebアドレスです。例: https://www.example.com</em></p>';
+$string['networkingform.wwwroot_help'] = '<h1>WWWルート</h1><p>SSLキーが生成されるこのMaharaサイトのURLです。</p>';
 $string['deletekey'] = 'この鍵を削除する';
 $string['keydeleted'] = '公開鍵が削除および再生成されました。';
 $string['proxysettings'] = 'プロクシ設定';
