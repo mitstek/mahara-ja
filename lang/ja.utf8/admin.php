@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-25 16:08:06 UTC
+ * @updated    2026-08-27 20:17:58 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -700,11 +700,13 @@ $string['deletekey'] = 'この鍵を削除する';
 $string['keydeleted'] = '公開鍵が削除および再生成されました。';
 $string['proxysettings'] = 'プロクシ設定';
 $string['proxyaddress'] = 'プロクシアドレス';
+$string['proxyaddress_help'] = '<h1>プロクシアドレス</h1><p>あなたのサイトがプロクシサーバを使用してインターネットにアクセスしている場合、「hostname:portnumber」のフォーマットで入力してください。</p>';
 $string['proxyaddressset'] = 'プロクシアドレスセット';
 $string['proxyauthmodel'] = 'プロクシ認証モデル';
 $string['proxyauthmodelbasic'] = 'Basic (NCSA)';
 $string['proxyauthmodelset'] = 'プロクシ認証モデルが設定されました。';
 $string['proxyauthcredentials'] = 'プロクシ認証情報';
+$string['proxyauthcredentials_help'] = '<h1>プロクシ認証情報</h1><p>あなたのプロクシ認証モデルを選択してください。</p>';
 $string['proxyauthcredntialsset'] = 'プロクシ認証情報セット';
 $string['emailsettings'] = 'メール設定';
 $string['emailsmtphosts'] = 'SMTPホスト';
