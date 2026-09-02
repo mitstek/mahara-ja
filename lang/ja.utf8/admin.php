@@ -2057,7 +2057,7 @@ $string['profilecompletiondesc'] = 'プロファイル完了が有効にされ�
 $string['profilecompletenessdesc1'] = 'プロファイル完了では人がプロファイルをどの程度完了しているか確認できるサイドバーのビジュアルインディケータを使用できるようにします。あなたはプロファイル完了にカウントさせるアーティファクトを選択できます。他のすべてのアーティファクトを使用できますが完了カウントの要素とはなりません。';
 $string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックでプロファイル完了がどのように表示されるかプレビューできます。';
 $string['exporttoqueue'] = 'キューにエクスポートする';
-$string['exporttoqueuedescription3'] = 'サーバ負荷管理を改善するためポートフォリオのエクスポートをエクスポートキューが処理するようにします。';
+$string['exporttoqueuedescription3'] = 'サーバの負荷管理を改善するため、エクスポートキューにポートフォリオのエクスポートを処理させます。';
 =======
 $string['progressbar'] = 'プロファイル完了';
 $string['showprogressbar'] = 'プロファイル完了を表示する';
