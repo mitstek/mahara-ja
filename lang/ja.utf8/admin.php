@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-27 20:17:58 UTC
+ * @updated    2026-09-03 06:42:47 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -703,6 +703,7 @@ $string['proxyaddress'] = 'プロクシアドレス';
 $string['proxyaddress_help'] = '<h1>プロクシアドレス</h1><p>あなたのサイトがプロクシサーバを使用してインターネットにアクセスしている場合、「hostname:portnumber」のフォーマットで入力してください。</p>';
 $string['proxyaddressset'] = 'プロクシアドレスセット';
 $string['proxyauthmodel'] = 'プロクシ認証モデル';
+$string['proxyauthmodel_help'] = '<h1>プロクシ認証情報</h1><p>あなたのプロクシ認証モデルを選択してください。</p>';
 $string['proxyauthmodelbasic'] = 'Basic (NCSA)';
 $string['proxyauthmodelset'] = 'プロクシ認証モデルが設定されました。';
 $string['proxyauthcredentials'] = 'プロクシ認証情報';
@@ -710,12 +711,15 @@ $string['proxyauthcredentials_help'] = '<h1>プロクシ認証情報</h1><p>あ�
 $string['proxyauthcredntialsset'] = 'プロクシ認証情報セット';
 $string['emailsettings'] = 'メール設定';
 $string['emailsmtphosts'] = 'SMTPホスト';
+$string['smtphosts_help'] = '<h1>SMTPホスト</h1><p>ホスト名を入力してサイトがシステムのデフォルトではなく特定のSMTPサーバを使用するよう要求します。</p><p>複数のホストを指定するにはセミコロンで区切ってください。例: <em>smtp1.example.com;smtp2.example.com</em></p><p>認証資格情報およびポート番号等、他のすべての設定はリストされているすべてのサーバに適用されることに留意してください。</p>';
 $string['emailsmtpport'] = 'SMTPポート';
+$string['smtpport_help'] = '<h1>SMTPポート</h1><p>あなたのSMTPサーバがデフォルトのポート番号25を使用していない場合、ポート番号を指定してください。</p><p>暗号化が有効にされている場合、デフォルトのポートはSSLで465、TLSで587です。不明な場合、メールサービスプロバイダにご確認ください。</p>';
 $string['emailsmtpuser'] = 'ユーザ名';
 $string['smtpuser_help'] = '<h1>ユーザ名</h1><p>あなたのサーバで認証が必要な場合、SMTPユーザ名を入力してください。</p>';
 $string['emailsmtppass'] = 'パスワード';
 $string['smtppass_help'] = '<h1>パスワード</h1><p>あなたのサーバで認証が必要な場合、SMTPパスワードを入力してください。</p>';
 $string['emailsmtpsecure'] = 'SMTP暗号化';
+$string['smtpsecure_help'] = '<h1>SMTP暗号化</h1><p>あなたのSMTPサーバでサポートされている暗号化方式を選択してください。</p>';
 $string['emailsmtpsecuressl'] = 'SSL';
 $string['emailsmtpsecuretls'] = 'TLS';
 $string['emailnoreplyaddress'] = 'システムメールアドレス';
@@ -729,12 +733,40 @@ $string['internalnotificationexpire_help'] = '<h1>通知有効期限</h1><p>指�
 </ul>';
 $string['notificationsettings'] = '通知設定';
 $string['notificationsettingsdescription1'] = 'ここであなたは新しいアカウント保持者が受信する通知のデフォルトオプションを設定できます。人はこれらの設定を自分の「アカウントメニュー → 設定 → 通知」ページでオーバーライドできます。<br>あなたがメールオプションのどちらを選択した場合でも通知は受信ボックスに到着しますが、自動的に既読マークされます。';
-$string['allow_inst_admins_to_manage_issue_reports'] = 'インスティテューション管理者がイシュレポートを受信する';
-$string['allow_inst_admins_to_escalate_issue_reports'] = 'インスティテューション管理者がイシュレポートをエスカレーションできる';
+$string['allow_inst_admins_to_manage_issue_reports'] = 'インスティテューション管理者用イシュレポート';
+$string['siteoptions.allow_inst_admins_to_manage_issue_reports_help'] = '<h1>インスティテューション管理者用イシュレポート</h1><p>この設定を有効にした場合、インスティテューション管理者はサイト管理者と一緒にイシュレポート通知の受信を選択できます。</p><hr>
+<h2>詳細</h2>
+<p>イシュレポートを受信するには管理者は「アカウントメニュー → 設定 → 通知」で「イシュレポート」通知タイプの配信方法を設定します。</p>
+<p>イシュレポート通知を受信する管理者は受信箱でレポート全体を表示できます。管理者が通知方法として「メール」または「メールダイジェスト」を選択した場合、新しいレポートの到着を知らせる通知メールが送信されますが、機密性の高い情報が漏洩する可能性を考慮して詳細情報は受信箱でのみ表示されます。</p>';
+$string['allow_inst_admins_to_escalate_issue_reports'] = 'インスティテューション管理者用イシュレポートエスカレーション';
+$string['siteoptions.allow_inst_admins_to_escalate_issue_reports_help'] = '<h1>インスティテューション管理者用イシュレポートエスカレーション</h1><p>この設定を有効にした場合、イシュレポートを受信したインスティテューション管理者はサイト管理者を介さずにテクニカルチームにエスカレーションできます。</p><p>これはインスティテューション管理者がほとんどの管理業務を処理するマルチテナントサイトで役立ちます。</p>';
+$string['allow_escalation1'] = 'イシュレポートのエスカレーション';
+$string['siteoptions.allow_escalation_help'] = '<h1>イシュレポートのエスカレーション</h1>
+<p>この設定を有効にした場合、サイト管理者はイシュレポート通知をテクニカルサポートチームにエスカレーションできます。</p><p>アカウント保持者が問題を報告するための「報告」ボタンが表示されるには少なくとも1人のサイト管理者がイシュレポートを受信する必要があります。</p>
+<h2>エスカレーション方法</h2>
+<p>あなたの受信箱でエスカレーションする通知を選択して「バルクオプション」メニューから「イシュレポートをエスカレーションする」を選択してください。</p>';
 $string['escalation_email'] = 'エスカレーションメール';
+$string['escalation_email_help'] = '<h1>エスカレーションメールアドレス</h1>
+<p>テクニカルサポートチームにイシュレポートをエスカレーションするためのメールアドレスを1つ入力してください。</p>
+<h2>デフォルトエスカレーション</h2>
+<p>デフォルトではエスカレーションメールはMaharaプロジェクトチーム (servicedesk@mahara.org) に送信された上でMahara GitLabインスタンスにイシュが作成されます。チームに質問がある場合、レポートをエスカレーションした人にメールを送信します。そのため、その人のメールアドレスが有効であることをご確認ください。</p>
+<p>Maharaプロジェクトチームにエスカレーションする場合、以下の点に留意してください:</p>
+<ul>
+<li>最初に技術サポートチームまたはMaharaサービスプロバイダと問題について話し合ってください。</li>
+<li>カスタム変更またはサポートリクエストで引き起こされた問題をエスカレーションしないでください。</li>
+<li>Maharaプロジェクトチームは最善の努力をもってエスカレーションをレビューしますが、重大な問題の修正を保証するものではありません。</li>
+</ul>
+<h2>カスタムエスカレーションメール</h2>
+<p>エスカレーションを別のアドレス (あなたの組織内技術チーム等) に送信するには代わりにそのメールアドレスを入力してください。</p>
+<h2>レポート情報</h2>
+<p>レポートを送信する前にレビューおよび編集 (機密情報の削除等) を実施できます。トラブルシューティングに役立つ一般的な環境情報も含まれているため、編集はできません。</p>';
 $string['csvfile'] = 'CSVファイル';
-$string['emailusersaboutnewaccount1'] = 'アカウント詳細をメール送信する';
-$string['forceuserstochangepassword'] = 'パスワード変更を強制する';
+$string['emailusersaboutnewaccount1'] = 'メールアカウント詳細';
+$string['uploadcsv.emailusers_help'] = '<h1>メールアカウント詳細</h1>
+<p>新しくまたは更新されたアカウント詳細メールを人に送信します。</p>';
+$string['forceuserstochangepassword'] = '次回ログイン時にパスワードを変更する';
+$string['uploadcsv.forcepasswordchange_help'] = '<h1>次回ログイン時にパスワードを変更する</h1>
+<p>この設定を有効にした場合、アカウント保持者は次回ログイン時にパスワードを変更する必要があります。これは内部認証を使用して新しいアカウントを作成する場合、または内部認証方式を使用する別のインスティテューションにアカウントを移動する場合に推奨されます。</p><p>あなたがLTI、SAML、OIDC等の外部認証方式でアカウントを設定する場合、これを有効にしないでください。</p>';
 $string['configureauthplugin'] = 'あなたが人を追加するには最初に認証プラグインを設定する必要があります。';
 $string['csvmaxusersdescription'] = 'このファイルには %s 以上含めません。';
 $string['csverroremptyfile'] = 'CSVファイルが空です。';
