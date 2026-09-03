@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-03 06:42:53 UTC
+ * @updated    2026-09-03 21:48:39 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -767,6 +767,11 @@ $string['uploadcsv.emailusers_help'] = '<h1>メールアカウント詳細</h1>
 $string['forceuserstochangepassword'] = '次回ログイン時にパスワードを変更する';
 $string['uploadcsv.forcepasswordchange_help'] = '<h1>次回ログイン時にパスワードを変更する</h1>
 <p>この設定を有効にした場合、アカウント保持者は次回ログイン時にパスワードを変更する必要があります。これは内部認証を使用して新しいアカウントを作成する場合、または内部認証方式を使用する別のインスティテューションにアカウントを移動する場合に推奨されます。</p><p>あなたがLTI、SAML、OIDC等の外部認証方式でアカウントを設定する場合、これを有効にしないでください。</p>';
+$string['authinstance_help'] = '<h1>認証方法</h1>
+<p>新しいまたは更新アカウントに割り当てるインスティテューションおよび認証方法です。アカウントを新しいインスティテューションに移動した場合、他のすべてのインスティテューションから削除されます。</p>';
+$string['edituser_site.authinstance_help'] = '<h1>認証方法</h1>
+<p>それぞれの人には1つの主認証方法がありますが、場合によっては2次的な方法も可能です。あなたにはここで主認証方法のみ表示されます。</p>
+<p>誰かが認証方法の切り替えを必要とする場合 (例えば以前はLDAPを使用していたものの、LDAPサーバで認識されなくなった場合)、あなたはインスティテューションで利用可能な別の方法を割り当てできます。</p>';
 $string['configureauthplugin'] = 'あなたが人を追加するには最初に認証プラグインを設定する必要があります。';
 $string['csvmaxusersdescription'] = 'このファイルには %s 以上含めません。';
 $string['csverroremptyfile'] = 'CSVファイルが空です。';
@@ -1047,7 +1052,13 @@ $string['admininstitutions'] = 'インスティテューションを管理する
 $string['editinstitution'] = 'インスティテューションを編集する';
 $string['adminauthorities'] = '認証局を管理する';
 $string['addinstitution'] = 'インスティテューションを追加する';
-$string['authplugin'] = '認証プラグイン';
+$string['authplugin'] = '認証方法';
+$string['authplugin_help'] = '<h1>認証方法</h1>
+<p>インスティテューションのメンバがサイトで認証する方法を選択してください。それぞれのインスティテューションには少なくとも1つの認証方法が必要です。</p>
+<p><strong>内部</strong> データベースでユーザ名およびパスワードを確認します。人によるログインにはアカウントが存在する必要があります。登録フォーム、<a href="add.php">アカウントを追加する</a>、または<a href="uploadcsv.php">CSVでアカウントを追加または更新する</a>で作成してください。</p>
+<p><strong>なし</strong> 誰でも任意のユーザ名およびパスワードでログインできます。テストのみに使用してください。</p>
+<p><strong>他のすべての方法</strong> IdPまたはリモートアプリケーション等の外部ソースに対して認証します。追加時に設定を構成します。</p><p>必要なPHP拡張機能がない場合、または外部ソースへの接続を確立できない場合、一部の認証方法を使用できない可能性があります。</p>
+<p>ほとんどの外部認証方法では管理者が事前にアカウントを作成する必要がなく、誰かが初めてログインした時点での自動アカウント作成をサポートしています。</p>';
 $string['deleteinstitution'] = 'インスティテューションを削除する';
 $string['deleteinstitutionconfirm1'] = '本当にこのインスティテューションを削除してもよろしいですか? そのインスティテューションがアウトカムポートフォリオを使用している場合、ウェブサービスおよびアウトカム情報は削除されます。グループはサイトと関連付けられます。';
 $string['institutionstillhas'] = 'このインスティテューションにはまだ %s が登録されています。';
