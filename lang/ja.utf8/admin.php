@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-31 02:58:02 UTC
+ * @updated    2026-09-03 06:42:53 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -746,9 +746,27 @@ $string['siteoptions.allow_escalation_help'] = '<h1>イシュレポートのエ�
 <h2>エスカレーション方法</h2>
 <p>あなたの受信箱でエスカレーションする通知を選択して「バルクオプション」メニューから「イシュレポートをエスカレーションする」を選択してください。</p>';
 $string['escalation_email'] = 'エスカレーションメール';
+$string['escalation_email_help'] = '<h1>エスカレーションメールアドレス</h1>
+<p>テクニカルサポートチームにイシュレポートをエスカレーションするためのメールアドレスを1つ入力してください。</p>
+<h2>デフォルトエスカレーション</h2>
+<p>デフォルトではエスカレーションメールはMaharaプロジェクトチーム (servicedesk@mahara.org) に送信された上でMahara GitLabインスタンスにイシュが作成されます。チームに質問がある場合、レポートをエスカレーションした人にメールを送信します。そのため、その人のメールアドレスが有効であることをご確認ください。</p>
+<p>Maharaプロジェクトチームにエスカレーションする場合、以下の点に留意してください:</p>
+<ul>
+<li>最初に技術サポートチームまたはMaharaサービスプロバイダと問題について話し合ってください。</li>
+<li>カスタム変更またはサポートリクエストで引き起こされた問題をエスカレーションしないでください。</li>
+<li>Maharaプロジェクトチームは最善の努力をもってエスカレーションをレビューしますが、重大な問題の修正を保証するものではありません。</li>
+</ul>
+<h2>カスタムエスカレーションメール</h2>
+<p>エスカレーションを別のアドレス (あなたの組織内技術チーム等) に送信するには代わりにそのメールアドレスを入力してください。</p>
+<h2>レポート情報</h2>
+<p>レポートを送信する前にレビューおよび編集 (機密情報の削除等) を実施できます。トラブルシューティングに役立つ一般的な環境情報も含まれているため、編集はできません。</p>';
 $string['csvfile'] = 'CSVファイル';
-$string['emailusersaboutnewaccount1'] = 'アカウント詳細をメール送信する';
-$string['forceuserstochangepassword'] = 'パスワード変更を強制する';
+$string['emailusersaboutnewaccount1'] = 'メールアカウント詳細';
+$string['uploadcsv.emailusers_help'] = '<h1>メールアカウント詳細</h1>
+<p>新しくまたは更新されたアカウント詳細メールを人に送信します。</p>';
+$string['forceuserstochangepassword'] = '次回ログイン時にパスワードを変更する';
+$string['uploadcsv.forcepasswordchange_help'] = '<h1>次回ログイン時にパスワードを変更する</h1>
+<p>この設定を有効にした場合、アカウント保持者は次回ログイン時にパスワードを変更する必要があります。これは内部認証を使用して新しいアカウントを作成する場合、または内部認証方式を使用する別のインスティテューションにアカウントを移動する場合に推奨されます。</p><p>あなたがLTI、SAML、OIDC等の外部認証方式でアカウントを設定する場合、これを有効にしないでください。</p>';
 $string['configureauthplugin'] = 'あなたが人を追加するには最初に認証プラグインを設定する必要があります。';
 $string['csvmaxusersdescription'] = 'このファイルには %s 以上含めません。';
 $string['csverroremptyfile'] = 'CSVファイルが空です。';
