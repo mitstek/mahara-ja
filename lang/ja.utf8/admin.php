@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-03 21:48:36 UTC
+ * @updated    2026-09-03 21:51:43 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -773,6 +773,8 @@ $string['edituser_site.authinstance_help'] = '<h1>認証方法</h1>
 <p>それぞれの人には1つの主認証方法がありますが、場合によっては2次的な方法も可能です。あなたにはここで主認証方法のみ表示されます。</p>
 <p>誰かが認証方法の切り替えを必要とする場合 (例えば以前はLDAPを使用していたものの、LDAPサーバで認識されなくなった場合)、あなたはインスティテューションで利用可能な別の方法を割り当てできます。</p>';
 $string['configureauthplugin'] = 'あなたが人を追加するには最初に認証プラグインを設定する必要があります。';
+$string['uploadcsv_accounts.file_help'] = '<h1>CSVファイル</h1>
+<p>あなたがアップロードしたいアカウントを含むCSVファイルを選択してください。</p>';
 $string['csvmaxusersdescription'] = 'このファイルには %s 以上含めません。';
 $string['csverroremptyfile'] = 'CSVファイルが空です。';
 $string['invalidfilename'] = 'ファイル「 %s 」が存在しません。';
@@ -1412,7 +1414,7 @@ $string['committingchanges'] = '変更の保存中 ...';
 $string['cli_pwreset_authupdated'] = '認証方法が「内部」に更新されました。';
 $string['cli_pwreset_failure'] = 'エラー: 「 %s 」のパスワードを正常にリセットできませんでした。';
 $string['cli_pwreset_forcepasswordchange'] = '次回ログイン時、パスワードの変更を強制します (あなたが「--password」オプションを使用する場合、デフォルトは「true」です。そうではない場合、「false」を使用してください)。';
-$string['cli_pwreset_info'] = 'コマンドラインPHPスクリプトによりあなたは人のパスワードをリセットできます。これはパスワードのリセットが許可されている認証方法の人にのみ動作します (例:「内部」)。';
+$string['cli_pwreset_info'] = 'あなたはこのコマンドラインPHPスクリプトで人のパスワードをリセットできます。これはパスワードのリセットが許可されている認証方法の人にのみ動作します (例:「内部」)。';
 $string['cli_pwreset_makeinternal'] = '人の認証方法を「内部」に変更します (デフォルトは「false」です)。';
 $string['cli_pwreset_nointernalauth'] = 'エラー: デフォルト「内部」認証方法は見つかりませんでした。';
 $string['cli_pwreset_nosuchuser'] = 'エラー: ユーザ名「 %s 」の人はデータベース内に存在しません。';
@@ -1434,7 +1436,7 @@ $string['cli_updateemail_email_primary'] = 'メールアドレス「 %s 」が�
 $string['cli_updateemail_email_alredy_exists'] = 'メールアドレスがすでに存在します。あなたがメールアドレスを主アドレスに設定したい場合、以下のコマンドを実行してください:
 sudo -u www-data php update_email.php -u=%s -e=%s -oe=%s -mp=true';
 $string['cli_updateemail_done'] = '完了';
-$string['cli_close_site_info'] = 'このコマンドラインPHPスクリプトによりあなたが非サイト管理者であってもサイトをクローズおよび再オープンできます (これは管理ホームページで「サイトをクローズする」ボタンをクリックした場合と同じです)。';
+$string['cli_close_site_info'] = 'あなたはこのコマンドラインPHPスクリプトで管理者以外の人に対してサイトをクローズおよび再オープンできます。これは管理ホームページで「サイトをクローズする」ボタンをクリックした場合と同じです。';
 $string['cli_close_site_siteclosed'] = 'メンテナンスのためサイトがクローズされました。';
 $string['cli_close_site_siteopen'] = 'サイトがオープンされました。';
 $string['cli_backupdir_notwritable'] = '言語バックアップディレクトリ「 %s 」に書き込み権がありません。';
@@ -1526,7 +1528,7 @@ $string['withselectedcontentdelete'] = '選択したアイテムをエクスポ�
 $string['withselectedcontentrelease'] = '選択したアイテムをリリースする';
 $string['withselectedcontentreleaseandreturn'] = '選択したアイテムをリリースしてアカウントに戻る';
 $string['allothers'] = 'その他すべて';
-$string['cli_portfolio_export_info'] = 'あなたはコマンドラインPHPスクリプトによりアカウント保持者のポートフォリオをHTMLまたはLeap2Aフォーマットでエクスポートできます。';
+$string['cli_portfolio_export_info'] = 'あなたはこのコマンドラインPHPスクリプトでアカウント保持者のポートフォリオをHTMLまたはLeap2Aフォーマットでエクスポートできます。';
 $string['cli_portfolio_export_filenotfound'] = 'ファイルが見つかりませんでした。';
 $string['cli_portfolio_export_invalidformat'] = '無効なエクスポートフォーマットです。';
 $string['cli_portfolio_export_invalidfilter'] = '無効なフィルタキーです。';
@@ -1758,6 +1760,10 @@ $string['adduser.multipleblogs_help'] = '<h1>複数日誌</h1><p>デフォルト
 $string['uploadcsv.multipleblogs_help'] = '<h1>複数日誌</h1><p>デフォルトではあなたはサイトに1つの日誌を持てます。複数日誌を有効にした場合、タグの使用だけではなく、あなたのコンテンツをより簡単に整理できるようになります。</p>';
 $string['adduser.resizeonuploaduserdefault_help'] = '<h1>アップロード時に大きなイメージをリサイズする</h1><p>この設定を有効にした場合、最大サイズを超えるイメージはアップロード時にリサイズされます。あなたは個別のアップロードでこれを無効にできます。</p>';
 $string['uploadcsv.resizeonuploaduserdefault_help'] = '<h1>アップロード時に大きなイメージをリサイズする</h1><p>この設定を有効にした場合、最大サイズを超えるイメージはアップロード時にリサイズされます。あなたは個別のアップロードでこれを無効にできます。</p>';
+$string['uploadcsv.file_help'] = '<h1>CSVファイル</h1>
+<p>あなたがアップロードしたいグループを含むCSVファイルを選択してください。</p>';
+$string['uploadmemberscsv.file_help'] = '<h1>CSVファイル</h1>
+<p>あなたがアップロードしたいグループメンバを含むCSVファイルを選択してください。</p>';
 $string['siteoptions.country_help'] = '<h1>国</h1><p>選択された国はサイト全体での国選択におけるデフォルトとなります。</p><hr><h2>詳細</h2><p>国名は国際標準化機構 (ISO) が発行した<a href="https://www.iso.org/iso-3166-country-codes.html">ISO 3166</a>で定義されているとおりに表示されます。</p><p>あなたのサイト内の国名を変更するにはそれぞれの翻訳の「mahara.php」言語ファイルを編集するか、<a href="https://git.mahara.org/catalyst/mahara/-/wikis/Development/Language-strings#custom-lang-strings-in-local">ローカルディレクトリ</a>にストリングを作成してください。</p>';
 $string['edituser_site.email_help'] = '<h1>主メールアドレス</h1>
 <p>この人の新しい主メールアドレスを入力してください。これはユニークであり、まだ使用されていないものである必要があります。</p><p>この新しいアドレスは人が変更するまですべての通信に使用されます。</p><p>以前の主メールアドレスは副アドレスとして保持されます。</p>';
