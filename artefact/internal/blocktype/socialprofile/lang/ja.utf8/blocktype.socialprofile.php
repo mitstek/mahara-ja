@@ -21,7 +21,7 @@ $string['displayaddressesas'] = '次のようにソーシャルメディアア�
 $string['optionicononly'] = 'アイコンのみのボタン';
 $string['optiontexticon'] = 'アイコンおよびテキストのボタン';
 $string['optiontextonly'] = 'テキストのみのボタン';
-$string['displaydefaultemail'] = 'デフォルトメールアドレスのリンクをボタンとして表示しますか?';
-$string['displaymsgservices'] = 'メッセージングサービスをボタンとして表示しますか?';
+$string['displaydefaultemail'] = 'デフォルトメールアドレスのリンクをボタンとして表示してもよろしいですか?';
+$string['displaymsgservices'] = 'メッセージングサービスをボタンとして表示してもよろしいですか?';
 
 ?>
