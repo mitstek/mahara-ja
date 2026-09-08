@@ -203,7 +203,7 @@ $string['Field'] = 'フィールド';
 $string['Value'] = '値';
 $string['datathatwillbesent'] = '送信されるデータ';
 $string['datathathavebeensent'] = '送信されたデータ';
-$string['sendweeklyupdates'] = '更新を週に1回送信しますか?';
+$string['sendweeklyupdates'] = '更新を週に1回送信してもよろしいですか?';
 $string['sendweeklyupdatesdescription1'] = 'この設定を有効にした場合、あなたのサイト統計に関する週ごとの更新状況をmahara.orgに送信します。';
 $string['Register'] = '登録';
 $string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/registersite.php">サイト登録ページ</a>にアクセスして登録できます。';
@@ -214,7 +214,7 @@ $string['registeryourmaharasitesummary'] = '<p>あなたのMaharaサイトを<a 
 <p>あなたがサイトを登録する場合、送信される情報を<strong><a href="%sadmin/registersite.php">サイト登録ページ</a></strong>でプレビューできます。</p>';
 $string['registeryourmaharasitedetail'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録できます。登録することで私たちは世界のMaharaインストール状況を作成できます。</p>
 <p>あなたはmahara.orgに送信された情報を閲覧できます - あなたのユーザに関する個人情報は一切送信されません。</p>
-<p>あなたが「更新を週に1回送信しますか?」設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
+<p>あなたが「更新を週に1回送信してもよろしいですか?」設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
 <p>登録することでこの通知が取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更できます。</p>';
 $string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページで</p>サイト更新内容の週ごとの送信を有効または無効にできます。';
 $string['newsiteregistrationpolicy'] = '<p>私たちはMahara 15.10においてmahara.orgへのデータ送信に関するポリシを更新しました。あなたの登録を確認してください。</p>';
@@ -411,7 +411,7 @@ $string['wysiwyg'] = 'HTMLエディタ';
 $string['wysiwygdescription'] = 'サイト全体としてHTMLエディタを有効にするか、ユーザ自身がHTMLエディタを有効または無効にできるか指定します。';
 $string['wysiwyguserdefined'] = 'ユーザ設定';
 $string['eventloglevel'] = 'イベントログ';
-$string['eventlogleveldescription'] = 'どのイベントを記録しますか?';
+$string['eventlogleveldescription'] = 'どのイベントを記録してもよろしいですか?';
 $string['eventlogexpiry'] = 'イベントログ有効期限';
 $string['eventlogexpirydescription'] = 'イベントログの保存期間を指定します。';
 $string['eventloglevelnone'] = 'なし';
@@ -427,7 +427,7 @@ $string['mathjax'] = 'MathJaxを有効にする';
 $string['mathjaxdescription'] = 'MathJaxは適切にフォーマットされた数式および化学式としてLaTeXマークアップをポートフォリオページに表示します。';
 $string['mathjaxconfig'] = 'MathJax設定';
 $string['about'] = 'About';
-$string['discardpageedits'] = 'このページの変更を破棄しますか?';
+$string['discardpageedits'] = 'このページの変更を破棄してもよろしいですか?';
 $string['staticpagespagedescription'] = 'ここであなたはログインユーザのダッシュボード、ログアウトユーザのホームページ、フッタのページリンク等、Mahara一部の内蔵ページのコンテンツを編集できます。';
 $string['home'] = 'ホーム (ダッシュボード)';
 $string['loadsitecontentfailed'] = 'サイトページコンテンツの読み込みに失敗しました。';
@@ -765,7 +765,7 @@ $string['createuser'] = 'ユーザを作成する';
 $string['failedtoobtainuploadedleapfile'] = 'アップロードされたLeap2Aファイルの取得に失敗しました。';
 $string['failedtounzipleap2afile'] = 'Leap2Aファイルの展開に失敗しました。詳細はエラーログを確認してください。';
 $string['fileisnotaziporxmlfile'] = 'このファイルはZIPファイルまたはXMLファイルとして認識されませんでした。';
-$string['howdoyouwanttocreatethisuser'] = 'どのようにこのユーザを作成しますか?';
+$string['howdoyouwanttocreatethisuser'] = 'どのようにこのユーザを作成してもよろしいですか?';
 $string['leap2aimportfailed'] = '<p><strong>申し訳ございません、Leap2Aファイルのインポートに失敗しました。</strong></p><p>これはあなたが有効なLeap2Aファイルをアップロードに選択しなかったから、またはこのMaharaのバージョンではあなたのLeap2Aファイルがサポートされていないからだと考えられます。また、Leap2Aファイルが有効な場合、Maharaのバグがあなたのファイルのアップロードを失敗させていることも考えられます。</p><p><a href="add.php">戻ってファイルのアップロードを再度お試しください</a>。この問題が続く場合、エラー状況を<a href="https://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。その場合、あなたのファイルのコピーを準備してください。</p>';
 $string['newuseremailnotsent'] = '新しいユーザへのウェルカムメールの送信に失敗しました。';
 $string['newusercreated'] = '新しいユーザアカウントが正常に作成されました。';
