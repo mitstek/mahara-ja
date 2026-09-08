@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-08 16:19:09 UTC
+ * @updated    2026-09-08 17:07:59 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -876,6 +876,8 @@ $string['updateusers'] = 'アカウントを更新する';
 $string['uploadcsv.updateusers_help'] = '<h1>アカウントを更新する</h1>
 <p>この設定を有効にした場合、ユーザ名がCSVファイルのユーザ名と一致する既存のアカウントは新しいデータで更新されます。</p><p>アカウントを別のインスティテューションに移動する場合、あなたはこれを有効にする必要があります。</p>';
 $string['updategroups'] = 'グループを更新する';
+$string['uploadcsv.updatedgroups_help'] = '<h1>グループを更新する</h1>
+<p>省略名がCSVファイルと一致する既存のグループは新しいデータで上書きされます。注意して使用してください。</p>';
 $string['csvfileprocessedsuccessfully'] = 'あなたのCSVファイルが正常に処理されました。';
 $string['nousersadded'] = '誰も追加されませんでした。';
 $string['nogroupsadded'] = 'グループは追加されませんでした。';
@@ -963,14 +965,23 @@ $string['usersreactivated'] = 'アカウントが再有効化されました。'
 $string['accountsettings'] = 'アカウント設定';
 $string['siteaccountsettings'] = 'サイトアカウント設定';
 $string['changeusername'] = 'ユーザ名を変更する';
+$string['changeusername_help'] = '<h1>ユーザ名を変更する</h1><p>この人のユーザ名を変更します。ユーザ名は半角3～30文字にしてください。文字、数字およびスペースを除く最も一般的な記号を設定できます。</p>';
 $string['resetpassword'] = 'パスワードをリセットする';
-$string['forcepasswordchange'] = '次回ログイン時、パスワード変更を強制する';
+$string['resetpassword_help'] = '<h1>パスワードをリセットする</h1>
+<p>パスワードをリセットした場合、その人の現在のパスワードが置き換えられます。</p>';
+$string['forcepasswordchange'] = '次回ログイン時にパスワードを変更する';
+$string['forcepasswordchange_help'] = '<h1>次回ログイン時にパスワードを変更する</h1>
+<p>この設定を有効にした場合、人は次回ログイン時にパスワードを変更するよう求められます。</p>';
 $string['primaryemail'] = '主メールアドレス';
 $string['sitestaff'] = 'サイトスタッフ';
 $string['siteadmins'] = 'サイト管理者';
 $string['siteadmin'] = 'サイト管理者';
+$string['member'] = 'メンバ';
 $string['accountexpiry'] = 'アカウント有効期限';
+$string['edituser_site.expiry_help'] = '<h1>アカウント有効期限</h1>
+<p>その人のログインが自動的に無効となる日付を設定してください。</p><p>次のフォーマットを使用してください: YYYY/MM/DD</p>';
 $string['suspended'] = '利用停止中';
+$string['suspend_accounts'] = '選択したアカウントを利用停止する';
 $string['suspendedreason'] = '利用停止理由';
 $string['suspendedreasondescription'] = '次回ログイン時、人に表示されるテキストです。';
 $string['unsuspenduser'] = '人の利用停止を解除する';
@@ -983,6 +994,8 @@ $string['userdeletedsuccessfully'] = 'アカウントが正常に削除されま
 $string['confirmdeleteuser'] = '本当にこのアカウントを削除してもよろしいですか?';
 $string['filequota1'] = 'ファイルクオータ';
 $string['quotaused'] = 'クオータ使用量';
+$string['ANY.quota_help'] = '<h1>ファイルクオータ</h1><p>人が「ファイル」エリアで利用可能な総ストレージ容量です。</p>';
+$string['groupquotasform.quota_help'] = '<h1>ファイルクオータ</h1><p>グループが「ファイル」エリアで利用可能な総ストレージ容量です。</p>';
 $string['recalculatequota'] = 'クオータを再計算する';
 $string['recalculatequotadescription'] = 'クオータが同期されていない場合にクオータをリセットします。';
 $string['probationbulkconfirm'] = '本当にこれらのアカウントのスパム保護観察ステータスを変更してもよろしいですか?';
