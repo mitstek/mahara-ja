@@ -95,7 +95,7 @@ $string['issuereportemailbody'] = '%s がイシュを報告しました。あな
 %s';
 $string['complaint'] = 'クレーム';
 $string['notifyadministrator'] = '管理者に通知する';
-$string['notifyadministratorconfirm'] = '本当にこのページを好ましくないコンテンツを含んでいるとして報告しますか?';
+$string['notifyadministratorconfirm'] = '本当にこのページを好ましくないコンテンツを含んでいるとして報告してもよろしいですか?';
 $string['notifyadministratorreview'] = '本当に管理者がこのページを再度レビューするための準備ができましたか?';
 $string['notobjectionable'] = '好ましくないコンテンツではない';
 $string['reportobjectionablematerial'] = '好ましくないコンテンツを報告する';

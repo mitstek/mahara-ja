@@ -32,7 +32,7 @@ $string['installoidc'] = 'OIDCをクライアントとして使用したい場�
 あなたはOIDCのcronタスクを設定して期限切れのトークンを消去できます。cron設定情報は<a href="%s">cron情報ページ</a>から入手できます。
 <br><br>';
 $string['link'] = 'アカウントをOpenID Connectにリンクする';
-$string['linkaccounts'] = 'OpenID Connectアカウント <b>%s</b> とローカルアカウント <b>%s</b> をリンクしますか?\\r\\r
+$string['linkaccounts'] = 'OpenID Connectアカウント <b>%s</b> とローカルアカウント <b>%s</b> をリンクしてもよろしいですか?\\r\\r
 <br><br>\\r\\r
 リンク完了後、あなたはOpenID Connectでログインできるようになります。';
 $string['login'] = 'OpenID Connect';
