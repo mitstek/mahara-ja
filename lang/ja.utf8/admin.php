@@ -185,7 +185,7 @@ $string['groupquotaupdated'] = 'グループクオータが更新されました
 $string['Field'] = 'フィールド';
 $string['Value'] = '値';
 $string['datathatwillbesent'] = '送信されるデータ';
-$string['sendweeklyupdates'] = '更新を週に1回送信しますか?';
+$string['sendweeklyupdates'] = '更新を週に1回送信してもよろしいですか?';
 $string['sendweeklyupdatesdescription'] = 'この設定を有効にした場合、あなたのサイトは週に1回、統計資料とともに更新内容をmahara.orgに送信します。';
 $string['Register'] = '登録';
 $string['registrationfailedtrylater'] = '登録に失敗しました (エラーコード: %s)。後ほど再度お試しください。';
@@ -195,7 +195,7 @@ $string['registeryourmaharasitesummary'] = '<p>あなたのMaharaサイトを<a 
 <p>あなたがサイトを登録する場合、送信される情報を<strong><a href="%sadmin/registersite.php">サイト登録ページ</a></strong>でプレビューできます。</p>';
 $string['registeryourmaharasitedetail'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録できます。登録することで私たちは世界のMaharaインストール状況を作成できます。</p>
 <p>あなたはmahara.orgに送信された情報を閲覧できます - あなたのユーザに関する個人情報は一切送信されません。</p>
-<p>あなたが「更新を週に1回送信しますか?」設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
+<p>あなたが「更新を週に1回送信してもよろしいですか?」設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
 <p>登録することでこの通知が取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更できます。</p>';
 $string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページで</p>サイト更新内容の週ごとの送信を有効または無効にできます。';
 $string['Close'] = 'クローズ';
@@ -349,7 +349,7 @@ $string['wysiwyg'] = 'HTMLエディタ';
 $string['wysiwygdescription'] = 'サイト全体としてHTMLエディタを有効にするか、ユーザ自身がHTMLエディタを有効または無効にできるようにするか指定します。';
 $string['wysiwyguserdefined'] = 'ユーザ設定';
 $string['about'] = 'About';
-$string['discardpageedits'] = 'このページの変更を破棄しますか?';
+$string['discardpageedits'] = 'このページの変更を破棄してもよろしいですか?';
 $string['editsitepagespagedescription'] = 'ここでは(ログインおよびログアウトユーザ別に) ホームページおよびフッタのページリンク等、サイト全体の一部のページコンテンツを編集できます。';
 $string['home'] = 'ホーム (ダッシュボード)';
 $string['loadsitepagefailed'] = 'サイトページを読み込めませんでした。';
@@ -649,7 +649,7 @@ $string['createuser'] = 'ユーザを作成する';
 $string['failedtoobtainuploadedleapfile'] = 'アップロードされたLeap2Aファイルの取得に失敗しました。';
 $string['failedtounzipleap2afile'] = 'Leap2Aファイルの展開に失敗しました。詳細はエラーログを確認してください。';
 $string['fileisnotaziporxmlfile'] = 'このファイルはZIPファイルまたはXMLファイルとして認識されませんでした。';
-$string['howdoyouwanttocreatethisuser'] = 'どのようにこのユーザを作成しますか?';
+$string['howdoyouwanttocreatethisuser'] = 'どのようにこのユーザを作成してもよろしいですか?';
 $string['leap2aimportfailed'] = '<p><strong>申し訳ございません - Leap2Aファイルのインポートに失敗しました。</strong></p><p>これはあなたが有効なLeap2Aファイルをアップロードに選択しなかったから、またはこのMaharaのバージョンではあなたのLeap2Aファイルがサポートされていないからだと考えられます。また、Leap2Aファイルが有効な場合、Maharaのバグがあなたのファイルのアップロードを失敗させていることも考えられます。</p><p><a href="add.php">戻ってファイルのアップロードを再度お試しください</a>。この問題が続く場合、エラー状況を<a href="https://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。その場合、あなたのファイルのコピーを準備してください。</p>';
 $string['newuseremailnotsent'] = '新しいユーザへのウェルカムメールの送信に失敗しました。';
 $string['newusercreated'] = '新しいユーザアカウントが正常に作成されました。';
@@ -688,9 +688,9 @@ $string['institutiondisplayname'] = 'インスティテューション表示名'
 $string['institutionexpiry'] = 'インスティテューション有効期限';
 $string['institutionexpirydescription'] = 'この %s のインスティテューションメンバシップが利用停止される日付です。';
 $string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
-$string['registrationallowed'] = 'ユーザ登録を許可しますか?';
+$string['registrationallowed'] = 'ユーザ登録を許可してもよろしいですか?';
 $string['registrationalloweddescription3'] = 'この設定を有効にした場合、人は登録フォームを使用してこのインスティテューションに登録できます。登録が無効にされた場合、非メンバはインスティテューションのメンバシップをリクエストできません。同様にメンバはインスティテューションから離脱できない、または自分のユーザアカウントを削除できないようになります。';
-$string['registrationconfirm'] = '登録を承認しますか?';
+$string['registrationconfirm'] = '登録を承認してもよろしいですか?';
 $string['registrationconfirmdescription'] = 'この設定を有効にした場合、インスティテューション管理者により登録が承認される必要があります。';
 $string['defaultmembershipperiod'] = 'デフォルトのメンバシップ期間';
 $string['defaultmembershipperioddescription'] = '新しいメンバはどのくらいの期間インスティテューションとの関係を維持できますか。';
