@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-07 06:53:00 UTC
+ * @updated    2026-09-08 16:19:09 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -602,7 +602,7 @@ $string['timezone'] = 'タイムゾーン';
 $string['timezone_help'] = '<h1>タイムゾーン</h1><p>サイトのデフォルトタイムゾーンです。何も選択されていない場合、選択された国に基づいて選択されます。複数のタイムゾーンのある国では不正確な場合があります。</p>';
 $string['notimezoneselected'] = 'タイムゾーン未選択';
 $string['about'] = 'About';
-$string['discardpageedits'] = 'このページの変更を破棄しますか?';
+$string['discardpageedits'] = 'このページの変更を破棄してもよろしいですか?';
 $string['staticpagespagedescription1'] = 'ここであなたはホームページ、登録済みの人のダッシュボード、フッタ内でリンクされている「About」ページ等、一部の内蔵ページのコンテンツを編集できます。';
 $string['home'] = 'ホーム (ダッシュボード)';
 $string['loadsitecontentfailed'] = 'サイトページコンテンツの読み込みに失敗しました。';
@@ -873,6 +873,8 @@ $string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能�
 $string['uploadcsvsomeuserscouldnotbeemailed'] = '一部の人にメール送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを適切に送信できるよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらの人には手動で連絡してください:';
 $string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内の人が多過ぎるため誰も追加されませんでした。許可されたインスティテューションの最大数をメンバ数が超過しました。';
 $string['updateusers'] = 'アカウントを更新する';
+$string['uploadcsv.updateusers_help'] = '<h1>アカウントを更新する</h1>
+<p>この設定を有効にした場合、ユーザ名がCSVファイルのユーザ名と一致する既存のアカウントは新しいデータで更新されます。</p><p>アカウントを別のインスティテューションに移動する場合、あなたはこれを有効にする必要があります。</p>';
 $string['updategroups'] = 'グループを更新する';
 $string['csvfileprocessedsuccessfully'] = 'あなたのCSVファイルが正常に処理されました。';
 $string['nousersadded'] = '誰も追加されませんでした。';
@@ -1440,7 +1442,7 @@ $string['cli_close_site_info'] = 'あなたはこのコマンドラインPHPス�
 $string['cli_close_site_siteclosed'] = 'メンテナンスのためサイトがクローズされました。';
 $string['cli_close_site_siteopen'] = 'サイトがオープンされました。';
 $string['cli_backupdir_notwritable'] = '言語バックアップディレクトリ「 %s 」に書き込み権がありません。';
-$string['cli_langpack'] = '言語コード一覧 例) 「ja,de,pt_BR,fr」';
+$string['cli_langpack'] = '言語コード一覧です (例: ja,de,pt_BR,fr)。';
 $string['cli_langpack_backup'] = '任意: アップデートの前に言語ディレクトリをバックアップします。';
 $string['cli_langpack_backup_done'] = '言語「 %s 」のバックアップを完了しました。';
 $string['cli_langpack_backup_failed'] = '*** 警告 *** 「 %s 」のバックアップを作成できません。';
@@ -1471,7 +1473,7 @@ Maharaシステム内で設定されているため「en」言語のアップデ
 $string['cli_langpack_missing'] = '言語パックが指定されていません。';
 $string['cli_langpack_revert'] = '最新バックアップバージョンの言語に戻します。';
 $string['cli_langdir_notwritable'] = '言語ディレクトリ「 %s 」に書き込み権がありません。';
-$string['cli_language_make_backup'] = 'バックアップを作成しますか? %s';
+$string['cli_language_make_backup'] = 'バックアップを作成してもよろしいですか? %s';
 $string['cli_language_status'] = 'すでに言語「 %s 」はインストールされています: %s';
 $string['cli_langpack_url'] = '言語パックURL「 %s 」';
 $string['cli_langpack_url_failed'] = '*** 警告 *** 「 %s 」の言語パックが存在しないかダウンロードできません。リターンコード: %s';
