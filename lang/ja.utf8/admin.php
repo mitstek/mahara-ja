@@ -106,7 +106,7 @@ $string['nofiltersinstalled'] = 'インストールされたHTMLフィルタは�
 $string['Field'] = 'フィールド';
 $string['Value'] = '値';
 $string['datathatwillbesent'] = '送信されるデータ';
-$string['sendweeklyupdates'] = '更新を週に1回送信しますか?';
+$string['sendweeklyupdates'] = '更新を週に1回送信してもよろしいですか?';
 $string['sendweeklyupdatesdescription'] = 'この設定を有効にした場合、あなたのサイトは週に1回、統計資料とともに更新内容をmahara.orgに送信します。';
 $string['Register'] = '登録';
 $string['registrationfailedtrylater'] = '登録に失敗しました (エラーコード: %s)。後ほど再度お試しください。';
@@ -114,7 +114,7 @@ $string['registrationsuccessfulthanksforregistering'] = '正常に登録され�
 $string['registeryourmaharasite'] = 'あなたのMaharaサイトを登録する';
 $string['registeryourmaharasitedetail'] = '<p>あなたは<a href="https://mahara.org/">mahara.org</a>にあなたのMaharaサイトを登録できます。登録は無料です。また、登録することで私たちは世界のMaharaインストール状況を作成できます。</p>
 <p>あなたはmahara.orgに送信された情報を閲覧できます - あなたのユーザに関する個人情報は一切送信されません。</p>
-<p>あなたが「更新を週に1回送信しますか?」を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
+<p>あなたが「更新を週に1回送信してもよろしいですか?」を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
 <p>サイトを登録した後、この通知は取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更できます。</p>';
 $string['adminsonly'] = '管理者のみ';
 $string['allowpublicviews'] = 'パブリックビューを許可する';
@@ -156,7 +156,7 @@ $string['viruscheckingdescription'] = 'この設定を有効にした場合、�
 $string['whocancreatepublicgroups'] = '誰がパブリックグループを作成できますか?';
 $string['whocancreatepublicgroupsdescription'] = '一般の人も閲覧可能なグループを作成できるユーザを選択します。';
 $string['about'] = 'About';
-$string['discardpageedits'] = 'このページの変更を破棄しますか?';
+$string['discardpageedits'] = 'このページの変更を破棄してもよろしいですか?';
 $string['editsitepagespagedescription'] = 'ここでは(ログインおよびログアウトユーザ別に) ホームページおよびフッタのページリンク等、サイト全体の一部のページコンテンツを編集できます。';
 $string['home'] = 'ホーム';
 $string['loadsitepagefailed'] = 'サイトページを読み込めませんでした。';
@@ -221,9 +221,9 @@ $string['proxyauthcredentials'] = 'プロクシ資格情報';
 $string['proxyauthcredentialsdescription'] = 'あなたのプロクシがウェブサーバを認証するために必要な認証情報を「ユーザ名:パスワード」のフォーマットで指定してください。';
 $string['proxyauthcredntialsset'] = 'プロクシ認証情報セット';
 $string['csvfile'] = 'CSVファイル';
-$string['emailusersaboutnewaccount'] = 'ユーザにアカウント情報をメール送信しますか?';
+$string['emailusersaboutnewaccount'] = 'ユーザにアカウント情報をメール送信してもよろしいですか?';
 $string['emailusersaboutnewaccountdescription'] = '新しいアカウント詳細情報をユーザにメール送信するかどうか設定します。';
-$string['forceuserstochangepassword'] = 'パスワード変更を強制しますか?';
+$string['forceuserstochangepassword'] = 'パスワード変更を強制してもよろしいですか?';
 $string['forceuserstochangepassworddescription'] = '初回ログイン時、ユーザにパスワードの変更を強制するかどうか設定します。';
 $string['uploadcsvinstitution'] = '新しいユーザのインスティテューションおよび認証方法';
 $string['configureauthplugin'] = 'あなたがユーザを追加するには最初に認証プラグインを設定する必要があります。';
@@ -346,7 +346,7 @@ $string['institutionname'] = 'インスティテューション名';
 $string['institutionnamealreadytaken'] = 'このインスティテューション名はすでに取得されています。';
 $string['institutiondisplayname'] = 'インスティテューション表示名';
 $string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
-$string['registrationallowed'] = 'ユーザ登録を許可しますか?';
+$string['registrationallowed'] = 'ユーザ登録を許可してもよろしいですか?';
 $string['registrationalloweddescription2'] = 'あなたのシステム内にあるこのインスティテューションに対してユーザが登録フォームで登録できるかどうか設定します。';
 $string['defaultmembershipperiod'] = 'デフォルトのメンバシップ期間';
 $string['defaultmembershipperioddescription'] = '新しいメンバはどのくらいの期間インスティテューションとの関係を維持できますか。';
