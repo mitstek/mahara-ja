@@ -188,14 +188,14 @@ $string['smartevidencedesc'] = 'スマートエビデンスフレームワーク
 $string['template'] = 'テンプレート';
 $string['templatedesc'] = 'あなたがこのコレクション内ページをページごとに切り替えなくてもすべてテンプレートにしたい場合、この設定を有効にしてください。テンプレートにコピーされたページも自動的にテンプレートに変更されます。ブロックの削除は自動的に停止されますが、停止を無効にもできます。';
 $string['update'] = '更新';
-$string['usecollectionname'] = 'コレクション名を使用しますか?';
+$string['usecollectionname'] = 'コレクション名を使用してもよろしいですか?';
 $string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしたままにしてください。';
 $string['numviewsincollection'] = 'コレクション %s ページ';
 $string['viewsaddedtocollection1'] = '%s ページをコレクションに追加する';
 $string['viewsaddedtocollection1different'] = '%s ページがコレクションに追加されました。コレクション内すべてのページの共有アクセスが変更されました。';
 =======
 $string['update'] = '更新';
-$string['usecollectionname'] = 'コレクション名を使用しますか?';
+$string['usecollectionname'] = 'コレクション名を使用してもよろしいですか?';
 $string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしたままにしてください。';
 $string['numviewsincollection'] = 'コレクション内ページ数: %s';
 $string['viewsaddedtocollection1'] = '%s ページがコレクションに追加されました。';

@@ -37,7 +37,7 @@ $string['erroroidcclientnouserinfoendpoint'] = 'ユーザ情報エンドポイ�
 $string['erroroidcclientnotokenendpoint'] = 'トークンエンドポイントが提供されていません。';
 $string['confirm'] = 'アカウントをリンクする';
 $string['link'] = 'アカウントをOpenID Connectにリンクする';
-$string['linkaccounts'] = 'OpenID Connectアカウント <b>%s</b> とローカルアカウント <b>%s</b> をリンクしますか?
+$string['linkaccounts'] = 'OpenID Connectアカウント <b>%s</b> とローカルアカウント <b>%s</b> をリンクしてもよろしいですか?
 <br><br>
 リンク完了後、あなたはOpenID Connectでログインできるようになります。';
 $string['logintolink'] = '%s アカウントをOpenID Connectにリンクする';

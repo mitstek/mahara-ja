@@ -128,7 +128,7 @@ $string['issuereport_escalation_email_element_error'] = 'メールフィール�
 $string['issuereport_escalation_element_warning'] = '特にあなたのインスティテューションの外にレポートが送信される場合、氏名およびメールアドレス等のセンシティブな情報を匿名化します。';
 $string['complaint'] = 'クレーム';
 $string['notifyadministrator'] = '管理者に通知する';
-$string['notifyadministratorconfirm'] = '本当にこのページを好ましくないコンテンツを含んでいるとして報告しますか?';
+$string['notifyadministratorconfirm'] = '本当にこのページを好ましくないコンテンツを含んでいるとして報告してもよろしいですか?';
 $string['notifyadministratorreview'] = '本当に管理者がこのページを再度レビューするための準備ができましたか?';
 $string['notobjectionable'] = '好ましくないコンテンツではない';
 $string['reportobjectionablematerial'] = '好ましくないコンテンツを報告する';
@@ -161,7 +161,7 @@ $string['removeaccessdesc'] = '好ましくない内容が削除されるまで�
 =======
 $string['complaint'] = 'クレーム';
 $string['notifyadministrator'] = '管理者に通知する';
-$string['notifyadministratorconfirm'] = '本当にこのページを好ましくないコンテンツを含んでいるとして報告しますか?';
+$string['notifyadministratorconfirm'] = '本当にこのページを好ましくないコンテンツを含んでいるとして報告してもよろしいですか?';
 $string['notobjectionable'] = '好ましくないコンテンツではない';
 $string['reportobjectionablematerial'] = '好ましくないコンテンツを報告する';
 $string['reportsent'] = 'あなたの報告が送信されました。';

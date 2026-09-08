@@ -429,7 +429,7 @@ $string['closesitemsglbl'] = 'メンテナンスメッセージ';
 =======
 $string['datathatwillbesent'] = '送信されるデータ';
 $string['datathathavebeensent'] = '送信されたデータ';
-$string['sendweeklyupdates'] = '更新を週に1回送信しますか?';
+$string['sendweeklyupdates'] = '更新を週に1回送信してもよろしいですか?';
 $string['sendweeklyupdatesdescription2'] = 'あなたのサイト統計に関する週ごとの更新状況をmahara.orgに送信します。';
 $string['Register'] = '登録';
 $string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/registersite.php">サイト登録ページ</a>にアクセスして登録できます。';
@@ -440,7 +440,7 @@ $string['registeryourmaharasitesummary'] = '<p>あなたのMaharaサイトを<a 
 <p>あなたがサイトを登録する場合、送信される情報を<strong><a href="%sadmin/registersite.php">サイト登録ページ</a></strong>でプレビューできます。</p>';
 $string['registeryourmaharasitedetail'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録できます。登録することで私たちは世界のMaharaインストール状況を作成できます。</p>
 <p>あなたはmahara.orgに送信された情報を閲覧できます - あなたのユーザに関する個人情報は一切送信されません。</p>
-<p>あなたが「更新を週に1回送信しますか?」設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
+<p>あなたが「更新を週に1回送信してもよろしいですか?」設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
 <p>登録することでこの通知が取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更できます。</p>';
 $string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページで</p>サイト更新内容の週ごとの送信を有効または無効にできます。';
 $string['newsiteregistrationpolicy'] = '<p>私たちはMahara 15.10においてmahara.orgへのデータ送信に関するポリシを更新しました。あなたの登録を確認してください。</p>';
@@ -821,7 +821,7 @@ $string['wysiwygdescription'] = 'サイト全体としてHTMLエディタを有�
 $string['wysiwyguserdefined'] = 'ユーザ設定';
 >>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['eventloglevel'] = 'イベントログ';
-$string['eventlogleveldescription'] = 'どのイベントを記録しますか?';
+$string['eventlogleveldescription'] = 'どのイベントを記録してもよろしいですか?';
 $string['eventlogexpiry'] = 'イベントログ有効期限';
 $string['eventlogexpirydescription'] = 'イベントログの保存期間を指定します。';
 $string['eventloglevelnone'] = 'なし';
@@ -845,7 +845,7 @@ $string['timezone'] = 'タイムゾーン';
 $string['sitetimezonedescription'] = 'サイトのデフォルトタイムゾーンです。何もが選択されていない場合、選択済みの国をもとにタイムゾーンが選択されます。国に複数のタイムゾーンがある場合、これは正確ではない場合があります。';
 $string['notimezoneselected'] = 'タイムゾーン未選択';
 $string['about'] = 'About';
-$string['discardpageedits'] = 'このページの変更を破棄しますか?';
+$string['discardpageedits'] = 'このページの変更を破棄してもよろしいですか?';
 $string['staticpagespagedescription1'] = 'ここであなたはホームページ、登録済みの人のダッシュボード、フッタ内でリンクされている「About」ページ等、一部の内蔵ページのコンテンツを編集できます。';
 =======
 $string['sitefilesaccessdescription1'] = '登録ユーザがサブフォルダ内のサイトファイルにアクセスできるようにします。デフォルトではトップレベルのディレクトリ内のファイルにのみアクセスできます。';
@@ -857,7 +857,7 @@ $string['mathjax'] = 'MathJaxを有効にする';
 $string['mathjaxdescription'] = 'MathJaxは適切にフォーマットされた数式および化学式としてLaTeXマークアップをポートフォリオページに表示します。';
 $string['mathjaxconfig'] = 'MathJax設定';
 $string['about'] = 'About';
-$string['discardpageedits'] = 'このページの変更を破棄しますか?';
+$string['discardpageedits'] = 'このページの変更を破棄してもよろしいですか?';
 $string['staticpagespagedescription'] = 'ここであなたはログインユーザのダッシュボード、ログアウトユーザのホームページ、フッタのページリンク等、Mahara一部の内蔵ページのコンテンツを編集できます。';
 >>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['home'] = 'ホーム (ダッシュボード)';
@@ -1483,7 +1483,7 @@ $string['createuser'] = 'ユーザを作成する';
 $string['failedtoobtainuploadedleapfile'] = 'アップロードされたLeap2Aファイルの取得に失敗しました。';
 $string['failedtounzipleap2afile'] = 'Leap2Aファイルの展開に失敗しました。詳細はエラーログを確認してください。';
 $string['fileisnotaziporxmlfile'] = 'このファイルはZIPファイルまたはXMLファイルとして認識されませんでした。';
-$string['howdoyouwanttocreatethisuser'] = 'どのようにこのユーザを作成しますか?';
+$string['howdoyouwanttocreatethisuser'] = 'どのようにこのユーザを作成してもよろしいですか?';
 $string['leap2aimportfailed'] = '<p><strong>申し訳ございません、Leap2Aファイルのインポートに失敗しました。</strong></p><p>これはあなたが有効なLeap2Aファイルをアップロードに選択しなかったから、またはこのMaharaのバージョンではあなたのLeap2Aファイルがサポートされていないからだと考えられます。また、Leap2Aファイルが有効な場合、Maharaのバグがあなたのファイルのアップロードを失敗させていることも考えられます。</p><p><a href="add.php">戻ってファイルのアップロードを再度お試しください</a>。この問題が続く場合、エラー状況を<a href="https://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。その場合、あなたのファイルのコピーを準備してください。</p>';
 $string['newuseremailnotsent'] = '新しいユーザへのウェルカムメールの送信に失敗しました。';
 $string['newusercreated'] = '新しいユーザアカウントが正常に作成されました。';
@@ -2118,7 +2118,7 @@ $string['cli_close_site_info'] = 'このコマンドラインPHPスクリプト�
 $string['cli_close_site_siteclosed'] = 'メンテナンスのためサイトがクローズされました。';
 $string['cli_close_site_siteopen'] = 'サイトがオープンされました。';
 $string['cli_backupdir_notwritable'] = '言語バックアップディレクトリ「 %s 」に書き込み権がありません。';
-$string['cli_langpack'] = '言語コード一覧 例) 「ja,de,pt_BR,fr」';
+$string['cli_langpack'] = '言語コード一覧です (例: ja,de,pt_BR,fr)。';
 $string['cli_langpack_backup'] = '任意: アップデートの前に言語ディレクトリをバックアップします。';
 $string['cli_langpack_backup_done'] = '言語「 %s 」のバックアップを完了しました。';
 $string['cli_langpack_backup_failed'] = '*** 警告 *** 「 %s 」のバックアップを作成できません。';
@@ -2151,7 +2151,7 @@ Maharaシステム内で設定されているため「en」言語のアップデ
 $string['cli_langpack_missing'] = '言語パックが指定されていません。';
 $string['cli_langpack_revert'] = '最新バックアップバージョンの言語に戻します。';
 $string['cli_langdir_notwritable'] = '言語ディレクトリ「 %s 」に書き込み権がありません。';
-$string['cli_language_make_backup'] = 'バックアップを作成しますか? %s';
+$string['cli_language_make_backup'] = 'バックアップを作成してもよろしいですか? %s';
 $string['cli_language_status'] = 'すでに言語「 %s 」はインストールされています: %s';
 $string['cli_langpack_url'] = '言語パックURL「 %s 」';
 $string['cli_langpack_url_failed'] = '*** 警告 *** 「 %s 」の言語パックが存在しないかダウンロードできません。リターンコード: %s';
@@ -2185,7 +2185,7 @@ Maharaシステム内で設定されているため「en」言語のアップデ
 $string['cli_langpack_missing'] = '言語パックが指定されていません。';
 $string['cli_langpack_revert'] = '最新バックアップバージョンの言語に戻します。';
 $string['cli_langdir_notwritable'] = '言語ディレクトリ「 %s 」に書き込み権がありません。';
-$string['cli_language_make_backup'] = 'バックアップを作成しますか? %s';
+$string['cli_language_make_backup'] = 'バックアップを作成してもよろしいですか? %s';
 $string['cli_language_status'] = 'すでに言語「 %s 」はインストールされています: %s';
 $string['cli_langpack_url'] = '言語パックURL「 %s 」';
 $string['cli_langpack_url_failed'] = '*** 警告 *** 「 %s 」の言語パックが存在しないかダウンロードできません。リターンコード: %s';
