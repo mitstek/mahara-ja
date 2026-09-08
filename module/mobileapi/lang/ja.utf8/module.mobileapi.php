@@ -14,7 +14,7 @@
 defined('INTERNAL') || die();
 
 $string['autoconfiguredesc'] = 'モバイルアプリAPIに必要な設定を自動的に有効にします。';
-$string['autoconfiguretitle'] = 'モバイルアプリAPIを自動設定しますか?';
+$string['autoconfiguretitle'] = 'モバイルアプリAPIを自動設定してもよろしいですか?';
 $string['configstep'] = '設定アイテム';
 $string['configstepstatus'] = 'ステータス';
 $string['manualtokensdesc'] = 'アプリにコピー＆ペーストするためユーザは手動でウェブサービスアクセストークンを生成できます。通常、アプリはユーザのトークンを自動生成できる必要があります。しかし、一部の認証プラグインでは自動生成できない場合もあります。';
