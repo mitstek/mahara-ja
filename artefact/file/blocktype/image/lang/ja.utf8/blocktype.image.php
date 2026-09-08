@@ -30,7 +30,7 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'イメージ';
 $string['description'] = 'あなたのファイルエリアの単一イメージです。';
-$string['showdescription'] = '説明を表示しますか?';
+$string['showdescription'] = '説明を表示してもよろしいですか?';
 $string['width'] = '幅';
 $string['widthdescription'] = 'あなたのイメージの幅 (ピクセル) を指定してください。イメージはこの幅にサイズ変更されます。イメージのオリジナルサイズを使用する場合、空白のままにしてください。';
 
