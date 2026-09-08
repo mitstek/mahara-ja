@@ -30,9 +30,9 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'グループページ';
 $string['description'] = 'グループに関連するページを表示します。';
-$string['displaygroupviews'] = 'グループページを表示しますか?';
+$string['displaygroupviews'] = 'グループページを表示してもよろしいですか?';
 $string['displaygroupviewsdesc'] = 'グループページ - グループ内で作成されたポートフォリオ';
-$string['displaysharedviews'] = '共有ページを表示しますか?';
+$string['displaysharedviews'] = '共有ページを表示してもよろしいですか?';
 $string['displaysharedviewsdesc'] = '共有ページ - グループメンバにより共有される個人のポートフォリオ';
 $string['defaulttitledescription'] = 'タイトルフィールドを空白にした場合、デフォルトタイトルが生成されます。';
 
