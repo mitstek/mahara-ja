@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-03 03:48:14 UTC
+ * @updated    2026-09-09 20:56:48 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -468,3 +468,12 @@ $string['removegrouplabelfilter'] = 'グループラベルフィルタ「 %s 」
 $string['agrouplabeltooshort'] = '1つまたはそれ以上のグループラベルが短すぎます。少なくとも %s 文字必要です。';
 $string['agrouplabeltoolong'] = '1つまたはそれ以上のグループラベルが長すぎます。最大 %s 文字にできます。';
 $string['currentarchivereleasedsubmittedhostmessage'] = 'あなたのポートフォリオ「 %s 」は「 %s 」から %s によりリリースされました。必要であれば、あなたのポートフォリオを再度提出できます。';
+$string['index_help'] = '<h1>グループ</h1>
+<p>あなたが自身が所有しているグループ、所属しているグループ、招待されたグループまたは参加リクエストしたグループを検索します。秘匿グループは招待された場合にのみ表示されます。</p> <p>あなたはグループ内でポートフォリオを共有およびディスカッションフォーラム等の活動に参加できます。</p>';
+$string['institution_help'] = '<h1>インスティテューションと関連付ける</h1>
+<p>それぞれのグループはインスティテューションに属していますが、他のインスティテューションのメンバを招待してコラボレーションを可能にできます。これはあなたのサイトが隔離インスティテューションを使用している場合にのみ制限されます。</p>';
+$string['shareviews_help'] = '<h1>共有</h1>
+<p>「共有」ボタンを使用して、アカウント保持者のアクセス権限を設定するか、グループポートフォリオを公開することで他の人と共有できます。</p><p>アカウントのない人のアクセスを「シークレットURL」ボタンで設定できますが、あなたのポートフォリオを検索エンジンに発見されることはありません。</p>';
+$string['sharewith_help'] = '<h1>共有</h1>
+<p>グループポートフォリオを閲覧できる人、閲覧期間および閲覧権限を設定します。</p>
+<p>あなたは共有権限を一括設定できます。</p>';
