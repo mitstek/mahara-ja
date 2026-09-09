@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-21 13:00:25 UTC
+ * @updated    2026-09-09 21:07:08 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -49,6 +49,7 @@ $string['newstartdatemustbebeforestopdate'] = '「 %s 」へのアクセス開�
 $string['unrecogniseddateformat'] = '認識できない日付フォーマット';
 $string['allowcomments'] = 'コメントを許可する';
 $string['ownerformat'] = '氏名表示フォーマット';
+$string['ownerformat_help'] = '<h1>氏名表示フォーマット</h1><p>他の人があなたのポートフォリオ閲覧時に確認できる表示名を選択してください。</p>';
 $string['createtags'] = 'タグから作成する';
 $string['anonymise'] = '匿名化する';
 $string['Lock'] = 'ロック';
@@ -187,6 +188,7 @@ $string['profileicon'] = 'プロファイル画像';
 $string['Updatedon'] = '更新日時:';
 $string['Createdon'] = '作成日時:';
 $string['Added'] = '追加済み';
+$string['sharewith_help'] = '<h1>共有</h1><p>あなたのポートフォリオを閲覧できる人、閲覧期間およびアクセス権限を設定します。</p><p>あなたは共有権限を一括設定できます。</p>';
 $string['sharedbyme2'] = '私からの共有';
 $string['whosharewith'] = '誰と共有しますか?';
 $string['accesslist'] = 'アクセスリスト';
@@ -601,3 +603,7 @@ $string['learner_support_desc'] = 'この活動を達成するためにあなた
 $string['supportupdatedfor'] = '「 %s 」更新完了';
 $string['share_help'] = '<h1>私からの共有</h1>
 <p>「共有」ボタンでアカウント保持者のアクセス権限を設定するか、ポートフォリオを公開することであなたのポートフォリオを他の人と共有できます。</p><p>「シークレットURL」ボタンでアカウントのない人のアクセスを設定してください。あなたのポートフォリオが検索エンジンで検索可能になることはありません。</p>';
+$string['editaccess_help'] = '<h1>共有</h1>
+<p>デフォルトではポートフォリオを閲覧できるのはあなただけです。ドロップダウンメニューの「共有対象」→「検索」からパブリック、登録済みアカウント保持者、インスティテューション、グループまたは個人と共有してください。</p>
+<p>オプションでアクセス日を設定して特定の期間に利用制限できます。アクセスルールは重複する可能性があるため、個人は複数のルールでアクセスできる場合があります。</p>
+<p><strong>例:</strong> Paulaさんが「The Portfolio Club」に参加している場合、今日個人アクセス権、そして明日グループアクセス権を付与することで両日にポートフォリオにアクセスできるようになります。</p>';
