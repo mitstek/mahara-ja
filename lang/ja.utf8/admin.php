@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-08 17:08:01 UTC
+ * @updated    2026-09-12 00:07:35 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -996,12 +996,17 @@ $string['filequota1'] = 'ファイルクオータ';
 $string['quotaused'] = 'クオータ使用量';
 $string['ANY.quota_help'] = '<h1>ファイルクオータ</h1><p>人が「ファイル」エリアで利用可能な総ストレージ容量です。</p>';
 $string['groupquotasform.quota_help'] = '<h1>ファイルクオータ</h1><p>グループが「ファイル」エリアで利用可能な総ストレージ容量です。</p>';
-$string['recalculatequota'] = 'クオータを再計算する';
+$string['recalculatequota'] = 'クオータをリセットする';
+$string['edituser_site.recalculatequota_help'] = '<h1>クオータをリセットする</h1><p>クォータが同期していない場合、リセットしてください。例えばアカウント保持者から不正確なクォータが表示されていると報告がある場合です。</p><p>クォータを超えた場合、エラーメッセージが表示さます。あなたはクォータを増やすか一部のファイルを削除するよう依頼する必要があります。</p>';
 $string['recalculatequotadescription'] = 'クオータが同期されていない場合にクオータをリセットします。';
 $string['probationbulkconfirm'] = '本当にこれらのアカウントのスパム保護観察ステータスを変更してもよろしいですか?';
 $string['probationbulksetspamprobation'] = 'スパム保護観察を設定する';
 $string['probationbulkset'] = '設定';
-$string['probationtitle'] = 'スパム発信者保護観察ステータス';
+$string['probationtitle'] = 'アカウント保護観察ステータス';
+$string['edituser_site.probationpoints_help'] = '<h1>アカウント保護観察ステータス</h1>
+<p>新しく自己登録した人はスパム発信者による迷惑行為を防ぐため、一定の保護観察ポイントからスタートします。</p><p>保護観察ポイントがある間、公開ポートフォリオの作成、コメント、ウォール投稿またはフォーラム投稿へのリンクまたはイメージを投稿できません。</p>
+<p>保護観察期間中の人がフォーラムに投稿および非保護観察中の人が返信するたびにその人は保護観察期間ポイントを1ポイント失います。ポイントがゼロになった場合、公開ポートフォリオを作成および投稿にリンクを含めることができます。</p>
+<p>保護観察ポイントはスタッフまたは管理者には適用されません。</p>';
 $string['probationzeropoints'] = '保護観察なし';
 $string['probationxpoints'] = '%d ポイント';
 $string['probationreportcolumn'] = '保護観察';
@@ -1009,6 +1014,7 @@ $string['addusertoinstitution1'] = 'インスティテューションに追加�
 $string['removeuserfrominstitution1'] = 'このインスティテューションから削除する';
 $string['confirmremoveuserfrominstitution'] = '本当にこの人をこのインスティテューションから削除してもよろしいですか?';
 $string['usereditdescription1'] = 'あなたはここでこのアカウントを管理できます。アカウント管理には詳細変更、利用停止、削除およびインスティテューションのメンバシップ変更を含みます。';
+$string['usereditwarning2'] = 'このアカウントの設定を変更した場合、アカウント保持者が現在ログインしている場合はログアウトされます。';
 $string['suspenduserdescription'] = 'アカウントの利用停止が解除されるまで利用停止された人はログインできません。';
 $string['deleteusernote'] = 'この処理は<strong>元に戻せません</strong>ので注意してください。';
 $string['youcannotadministerthisuser'] = 'あなたはこのアカウントを管理できません。';
@@ -1052,12 +1058,14 @@ $string['Or'] = 'または';
 $string['userwillreceiveemailandhastochangepassword'] = '新しいアカウント詳細を記載したメールが送信されます。初回ログイン時、パスワードの変更を求められます。';
 $string['uploadzipfile'] = 'エクスポート済みZIPファイルをアップロードする';
 $string['importaccount'] = 'アカウントをインポートする';
+$string['adduser.leap2afile_help'] = '<h1>アカウントをインポートするt</h1><p>このオプションを使用した場合、あなたは以前にエクスポートしたファイルを別のMaharaサイトからインポートできます。デフォルトではZIPファイルにはコンテンツに関する構造情報を含む「Leap2A」ファイルが含まれています。これにより別のサイトからあなたのサイトにポートフォリオコンテンツをインポートできるようになります。</p><p>ファイルを含むすべてのコンテンツがアップロードされるようにLeap2Aファイルだけでなく、ZIPファイル全体をアップロードしてください。</p>';
 $string['usercreationmethod'] = '1 - 作成方法';
 $string['basicdetails'] = '2 - 基本情報';
 $string['create'] = '3 - 作成';
 $string['loginas'] = '代理ログイン';
 $string['loginasthisuser'] = 'この人としてログインする';
 $string['loginasuser'] = '%s としてログインする';
+$string['becomeadminagain1'] = '再度あなたになる (%s)';
 $string['loginasdenied'] = '許可なく別の人としてのログインを試みました。';
 $string['loginastwice'] = 'すでにログインしているにもかかわらず、別の人としてのログインを試みました。';
 $string['loginasrestorenodata'] = 'リストアするデータがありません。';
