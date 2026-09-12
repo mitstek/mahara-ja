@@ -2098,7 +2098,7 @@ $string['cli_updateemail_email_primary'] = 'メールアドレス「 %s 」が�
 $string['cli_updateemail_email_alredy_exists'] = 'メールアドレスがすでに存在します。あなたがメールアドレスを主アドレスに設定したい場合、以下のコマンドを実行してください:
 sudo -u www-data php update_email.php -u=%s -e=%s -oe=%s -mp=true';
 $string['cli_updateemail_done'] = '完了';
-$string['cli_close_site_info'] = 'このコマンドラインPHPスクリプトによりあなたが非サイト管理者であってもサイトをクローズおよび再オープンできます (これは管理ホームページで「サイトをクローズする」ボタンをクリックした場合と同じです)。';
+$string['cli_close_site_info'] = 'このコマンドラインPHPスクリプトによりあなたが非サイト管理者であってもサイトをクローズおよび再オープンできます (これは管理ホームページで「サイトをクローズする」ボタンを押すのと同じです)。';
 =======
 $string['cli_pwreset_failure'] = 'エラー: ユーザ「 %s 」のパスワードを正常にリセットできませんでした。';
 $string['cli_pwreset_forcepasswordchange'] = '次回ログイン時、パスワードの変更を強制します (あなたが「--password」オプションを使用する場合、デフォルトは「true」です。そうではない場合、「false」を使用してください)。';
@@ -2113,7 +2113,7 @@ $string['cli_pwreset_prompt2'] = '新しいパスワードを再度入力して�
 $string['cli_pwreset_success'] = 'ユーザ「 %s 」のパスワードが正常にリセットされました。';
 $string['cli_pwreset_success_forcepasswordchange'] = '次回ログイン時、ユーザはパスワードのリセットを強制されます。';
 $string['cli_pwreset_typo'] = '申し訳ございません、パスワードが合致しません。';
-$string['cli_close_site_info'] = 'このコマンドラインPHPスクリプトによりあなたが非サイト管理ユーザであってもサイトをクローズおよび再オープンできます (これは管理ホームページで「サイトをクローズする」ボタンをクリックした場合と同じです)。';
+$string['cli_close_site_info'] = 'このコマンドラインPHPスクリプトによりあなたが非サイト管理ユーザであってもサイトをクローズおよび再オープンできます (これは管理ホームページで「サイトをクローズする」ボタンを押すのと同じです)。';
 >>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['cli_close_site_siteclosed'] = 'メンテナンスのためサイトがクローズされました。';
 $string['cli_close_site_siteopen'] = 'サイトがオープンされました。';
@@ -2204,9 +2204,9 @@ $string['cli_deleteinactiveusers_beforedate'] = '最終ログイン日がこの�
 $string['cli_deleteinactiveusers_limit'] = 'それぞれの削除で処理するアカウント数を制限します。';
 $string['cli_deleteinactiveusers_cleanusers'] = '同時に「usr」テーブルからアカウントの削除を試みます。';
 $string['cli_deleteinactiveusers_info1'] = 'あなたはこのコマンドラインPHPスクリプトで特定の条件 (特定の日付以降にログインしていない、特定のグループに属している等) に基づき古いアカウントを削除できます。アカウントが共同作業に参加していない場合のみあなたは「cleanusers」フラグでデータベースからアカウントを完全に削除できます。';
-$string['cli_deleteinactiveusers_neverloggedin'] = '管理者により設定されて一度もログインしていなアカウントを削除します。';
+$string['cli_deleteinactiveusers_neverloggedin'] = 'ログインしたことのないアカウント (管理者が設定したもの) を削除します。';
 $string['cli_param_baddate'] = '提供された日付「 %s 」は有効ではありません。';
-$string['cli_deleteinactiveusers_usercount'] = '削除対象アカウントは「 %s 」名です。';
+$string['cli_deleteinactiveusers_usercount'] = '削除対象アカウントが「 %s 」件あります。';
 $string['cli_deleteinactiveusers_userunabletoclean'] = 'アカウント「 %s 」(ID %s) を完全に削除できません。';
 $string['cli_deleteinactiveusers_userunabletodelete'] = 'アカウント「 %s 」(ID %s) を削除できません。';
 $string['cli_deleteinactiveusers_nouserstodelete'] = '削除するアカウントはありません。';
