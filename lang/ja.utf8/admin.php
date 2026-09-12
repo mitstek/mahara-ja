@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-12 00:07:35 UTC
+ * @updated    2026-09-12 15:53:57 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1073,7 +1073,10 @@ $string['loginasoverridepasswordchange'] = 'あなたは別の人としてログ
 $string['loginasoverridelegalaccept'] = 'あなたは別の人としてログインしているため法的表示に同意せずに%sとにかくログインすること%sを選択できます。';
 $string['Add'] = '追加';
 $string['all'] = 'すべて';
-$string['admininstitutions'] = 'インスティテューションを管理する';
+$string['admininstitutions'] = 'インスティテューション管理';
+$string['institutions_help'] = '<h1>インスティテューション管理</h1>
+<p>インスティテューションは人およびコンテンツを論理ユニットにグループ化して管理権限およびインスティテューション全体の設定をコントロールできるようにします。これにより複数の組織が1つのMaharaサイトで独立して運営することができるようになります。それぞれが独自のアカウント保持者およびグループを管理ができます。</p>
+<p>サイト管理者は任意のインスティテューションを作成および編集できます。インスティテューション管理者は自分が管理するインスティテューションのみ編集できます。</p>';
 $string['editinstitution'] = 'インスティテューションを編集する';
 $string['adminauthorities'] = '認証局を管理する';
 $string['addinstitution'] = 'インスティテューションを追加する';
@@ -1094,6 +1097,8 @@ $string['institutiondeletedsuccessfully'] = 'インスティテューション�
 $string['noauthpluginforinstitution'] = 'あなたのサイト管理者はこのインスティテューションの認証プラグインを設定していません。';
 $string['adminnoauthpluginforinstitution'] = 'このインスティテューションの認証プラグインを設定してください。';
 $string['institutionname'] = 'インスティテューション名';
+$string['displayname_help'] = '<h1>インスティテューション名</h1>
+<p>サイト全体でこのインスティテューションに表示される名称です。</p><p><strong>ヒント</strong>: インスティテューション名が長い場合、自動生成される省略名が扱いやすいように略称の使用を検討してください。</p>';
 $string['institutionnameinvalid'] = 'インスティテューション名が有効ではありません。';
 $string['institutionshortname'] = 'インスティテューション省略名';
 $string['institutionnamealreadytaken'] = 'このインスティテューション名はすでに取得されています。';
@@ -1101,6 +1106,7 @@ $string['institutiondisplayname'] = 'インスティテューション表示名'
 $string['institutionexpiry'] = 'インスティテューション有効期限';
 $string['expiry_help'] = '<h1>インスティテューション有効期限</h1>
 <p>有効期限が設定されている場合、サイトおよびインスティテューション管理者は「インスティテューション有効期限警告」設定に基づいてインスティテューションの有効期限が切れる前に通知を受け取ります。</p><p>「有効期限切れインスティテューションの自動停止」が有効にされている場合、インスティテューションは有効期限に自動的に停止されます。そのインスティテューションのメンバはログインできなくなります。</p><p>サイト管理者は「<a href="options.php">サイト設定</a> → インスティテューション設定」で両方の設定を確認できます。</p>';
+$string['institution.shortname_help'] = '<h1>インスティテューション省略名</h1><p>省略名は自動的に生成されます。変更はできません。</p>';
 $string['institution.expiry_help'] = '<h1>有効期限</h1><p>次のフォーマットを使用してください: YYYY/MM/DD</p>';
 $string['institutionlanguage'] = '言語';
 $string['institution.lang_help'] = '<h1>言語</h1>
@@ -1111,6 +1117,9 @@ $string['noinstitution'] = 'どのインスティテューションのメンバ�
 $string['defaultlangforinstitution'] = '%s デフォルト';
 $string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
 $string['registrationallowed'] = '登録を許可する';
+$string['institution.registerallowed_help'] = '<h1>登録を許可する</h1>
+<p>この設定を有効にした場合、人はこのインスティテューションに自己登録できます。</p>
+<p>シングルサインオンまたはLTI等の外部認証方法でアカウント作成を制御する場合、または<a href="add.php">「アカウントを追加する」</a>または<a href="uploadcsv.php">「CSVでアカウントを追加または更新する」</a>を介して手動でアカウントを作成する場合、これを無効にしてください。</p><p>登録が無効にされている場合、メンバはインスティテューションを離脱できません。</p>';
 $string['registrationconfirm'] = '登録承認';
 $string['institution.registerconfirm_help'] = '<h1>登録承認</h1>
 <p>この設定を有効にした場合、インスティテューション管理者はそれぞれの登録を承認する必要があります。</p> <p>このオプションを変更できない場合、サイト管理者がすべてのインスティテューションに対してこのオプションを必須にしています。</p>';
