@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-21 12:55:55 UTC
+ * @updated    2026-09-14 00:56:18 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -349,7 +349,7 @@ $string['peopleonline'] = 'オンライン中の人';
 $string['lastminutes'] = '直近の %s 分間';
 $string['allpeopleonline'] = 'オンライン中の人を表示する';
 $string['allpeopleonlineshort'] = 'すべてを表示する';
-$string['allpeopleonlineshortaria'] = 'オンライン中の人すべてを表示する';
+$string['allpeopleonlineshortaria'] = 'すべてのオンライン中の人を表示する';
 $string['nopeopleonlinefound'] = 'オンライン中の人は見つかりませんでした。';
 $string['linksandresources'] = 'リンクおよびリソース';
 $string['accesstotallydenied_institutionsuspended'] = 'あなたのインスティテューション %s は現在利用停止されています。利用再開されるまで %s にログインできません。詳細はあなたのインスティテューションにご連絡ください。';
