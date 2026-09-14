@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-12 15:53:57 UTC
+ * @updated    2026-09-14 01:10:42 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1123,8 +1123,11 @@ $string['institution.registerallowed_help'] = '<h1>登録を許可する</h1>
 $string['registrationconfirm'] = '登録承認';
 $string['institution.registerconfirm_help'] = '<h1>登録承認</h1>
 <p>この設定を有効にした場合、インスティテューション管理者はそれぞれの登録を承認する必要があります。</p> <p>このオプションを変更できない場合、サイト管理者がすべてのインスティテューションに対してこのオプションを必須にしています。</p>';
-$string['defaultmembershipperiod'] = 'デフォルトのメンバシップ期間';
-$string['showonlineusers'] = 'オンライン中の人を表示する';
+$string['defaultmembershipperiod'] = 'デフォルトメンバシップ期間';
+$string['defaultmembershipperiod_help'] = '<h1>デフォルトメンバシップ期間</h1>
+<p>人がこのインスティテューションのメンバであり続ける期間を設定してください。メンバは削除される前に通知を受け取ります。アカウントは削除されません。単にインスティテューションとの関連付けが解除されるだけです。</p>';
+$string['showonlineusers'] = '「オンライン中の人」表示';
+$string['showonlineusers_help'] = '<h1>「オンライン中の人」表示</h1><p>この設定を有効にした場合、インスティテューションのメンバはダッシュボードのサイドバー「オンライン中の人」に過去10分間にオンラインだった人のリストを確認できます。</p><p>人が異なる設定の複数のインスティテューションに属している場合、最も制限の少ない設定が適用されます。</p>';
 $string['licensemandatory1'] = '必須ライセンス選択';
 $string['institution.licensemandatory_help'] = '<h1>必須ライセンス選択</h1>
 <p>この設定を有効にした場合、作成者は作成またはアップロードするすべてのアーティファクトのライセンスを選択する必要があります。</p>';
@@ -1137,6 +1140,10 @@ $string['institution.theme_help'] = '<h1>テーマ</h1>
 <p>ログイン済みのインスティテューションメンバに表示されるテーマです。「サイトデフォルト」が選択された場合、サイト管理者がデフォルトテーマを更新するたびにテーマが変更されます。設定可能なテーマを選択した場合、あなたはテーマの一部の色をカスタマイズできます。</p>';
 $string['Logo'] = 'ロゴ';
 $string['Logomobile'] = 'モバイルロゴ';
+$string['logo_help'] = '<h1>ロゴ</h1>
+<p>インスティテューションロゴとして表示する画像をアップロードしてください。利用可能なスペースに合わせてサイズ変更されます。</p>';
+$string['logoxs_help'] = '<h1>モバイルロゴ</h1>
+<p>スペースが限られているモバイルデバイスに表示するための正方形のロゴをアップロードしてください。</p>';
 $string['deletelogo'] = 'ロゴを削除する';
 $string['deletelogoxsmobile'] = 'モバイルロゴを削除する';
 $string['deletelogodescription2'] = 'あなたのインスティテューションテーマの標準的なヘッダロゴに戻します。';
@@ -1159,6 +1166,18 @@ $string['resetcolours'] = '色をリセットする';
 $string['resetcoloursdesc2'] = 'デフォルト色をリストアします。';
 $string['authenticatedby'] = '認証方法';
 $string['remoteusername'] = '外部認証のユーザ名';
+$string['edituser_site.remoteusername_help'] = '<h1>外部認証のユーザ名</h1>
+<p>この人がリモートサイトから %s にサインインする場合、これがそのリモートサイトでのユーザ名です。</p>
+<hr>
+<h2>詳細</h2>
+<p>人が外部サービス (シングルサインオン等) 経由で認証する場合、このフィールドにはそのサービス上のその人の識別子が格納されます。1人の人がMaharaに複数のリモートユーザ名を持てますが、それぞれが異なる認証方法に関連付けられている必要があります。</p>
+<p>ここに表示されるのは主認証方法のリモートユーザ名のみです。</p>
+<dl>
+<dt>このフィールドをクリアする</dt>
+<dd>選択した認証方法の外部ユーザ名を内部ユーザ名にリセットします。</dd>
+<dt>このフィールドを更新する</dt>
+<dd>選択した認証方法の外部ユーザ名を変更するか、存在しない場合は新しいユーザ名を作成します。</dd>
+</dl>';
 $string['institutionsettings'] = 'インスティテューション設定';
 $string['institutionsettingsdescription'] = 'あなたが管理者であるインスティテューションに関してこの人のメンバシップ設定を変更できます。';
 $string['changeinstitution'] = 'インスティテューションを変更する';
@@ -1174,8 +1193,11 @@ $string['institutionmembers'] = 'インスティテューションメンバ';
 $string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
 $string['institutionmemberspagedescription'] = 'このページではあなたのインスティテューションにメンバシップをリクエストした人を確認およびメンバとして追加できます。また、あなたのインスティテューションから人を削除および招待できます。';
 $string['suspendordeletethisuser'] = 'このアカウントを利用停止または削除する';
+$string['invalidpermission'] = 'あなたには「 %s 」で識別されたアカウントを編集するためのパーミッションがありません。';
 $string['mergeaccount'] = 'アカウントをマージする';
 $string['mergeaccounts'] = 'アカウントをマージする';
+$string['cannotmergetoself'] = 'あなたはアカウントをそれ自体にマージできません。あなたが「 %s 」アカウントを別のアカウントにマージする場合、「ターゲットアカウント」フィールドでその人を選択してください';
+$string['cannotmergetoselftarget'] = 'あなたはアカウントをそれ自体にマージできません。あなたが「 %s 」アカウントを別のアカウントにマージする場合、「マージするアカウントを選択する」ステップでその人を選択してください';
 $string['mergeuserfrom'] = '1 - マージするアカウントを選択する';
 $string['mergeuserto'] = '2 - ターゲットアカウントを選択する';
 $string['mergeusersubmit'] = '3 - アカウントをマージする';
