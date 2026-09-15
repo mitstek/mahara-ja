@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-14 01:10:42 UTC
+ * @updated    2026-09-15 06:53:08 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1226,6 +1226,7 @@ $string['deleteaccount_help'] = '<h1>マージするアカウントを削除す�
 $string['searchforaccount'] = 'アカウントを検索する';
 $string['usermergedfromto'] = '%s アカウントを %s アカウントにマージしました。';
 $string['usermergedfromtoanddeleted'] = '%s アカウントを %s アカウントにマージして %s アカウントを削除しました。';
+$string['confirmaccountmerge'] = '注意: あなたが2つのアカウントのマージを選択した場合、ターゲットアカウントが他方のアカウントのコンテンツを所有することになります。';
 $string['merge_deleteaccount'] = 'マージするアカウントを削除する';
 $string['institutionusersinstructionsrequesters2'] = '「 %1$s 」フィールドの一覧ではあなたのインスティテューションへの参加をリクエストした人すべてが表示されます。あなたは特定の人を探すため検索ボックスを使用できます。あなたがインスティテューションに人を追加したい場合、またはメンバシップリクエストを拒否したい場合、最初に「 %1$s 」フィールドで選択して右矢印ボタンをクリックして「 %2$s 」フィールドに移動してください。「メンバを追加する」ボタンにより「 %2$s 」フィールド内の人すべてをインスティテューションに追加します。「リンクエストを拒否する」ボタンにより「 %2$s 」フィールドに表示されているメンバシップリクエストを削除します。';
 $string['institutionusersinstructionsnonmembers2'] = '「 %1$s 」フィールドの一覧ではまだあなたのインスティテューションのメンバではない人すべてが表示されます。あなたは特定の人を探すため検索ボックスを使用できます。インスティテューションへの参加に人を招待したい場合、最初に「 %1$s 」フィールドで選択して右矢印ボタンをクリックして「 %2$s 」フィールドに移動してください。「人を招待する」ボタンにより「 %2$s 」フィールド内の人すべてに招待を送信します。これらの人は招待を受け入れるまであなたのインスティテューションと関連付けられません。サイト管理者には「メンバを追加する」ボタンが表示されすぐにインスティテューションに人を追加できます。';
@@ -1243,7 +1244,9 @@ $string['institutionstudentiddescription'] = 'インスティテューション�
 $string['userstodisplay'] = '表示する人:';
 $string['institutionusersrequesters1'] = 'リクエストされたインスティテューションメンバシップ';
 $string['institutionusersnonmembers1'] = 'リクエストされていないインスティテューションメンバシップ';
+$string['institutionuserslastinstitution1'] = '指定されたインスティテューションを離れた人';
 $string['institutionusersmembers1'] = '現在のインスティテューションメンバ';
+$string['institutionusersinvited1'] = '招待済み';
 $string['addnewmembers'] = '新しいメンバを追加する';
 $string['usersrequested'] = 'メンバシップをリクエストした人';
 $string['userstobeadded'] = 'メンバとして追加される人';
@@ -1279,11 +1282,13 @@ $string['institutionusersupdated_declineRequestFromUser'] = 'リクエストが�
 $string['institutionusersupdated_removeMembers'] = '人が削除されました。';
 $string['institutionusersupdated_inviteUser'] = '招待が送信されました。';
 $string['institutionusersupdated_uninvite_users'] = '招待が取り消されました。';
-$string['maxuseraccounts1'] = '許可される最大アカウント数';
+$string['maxuseraccounts1'] = '最大アカウント数';
+$string['maxuseraccounts_help'] = '<h1>最大アカウント数</h1><p>このインスティテューションで許可されているアカウントの最大数です。制限を設けない場合、空白のままにしてください。</p>';
 $string['institutionmaxusersexceeded'] = 'このインスティテューションはメンバ数が上限に達しました。この人を追加できるようにするにはあなたはこのインスティテューションが許可するメンバ数を増やす必要があります。';
 $string['institutionuserserrortoomanyusers'] = 'これらの人は追加されませんでした。メンバ数はインスティテューションで許可される最大メンバ数を超えることはできません。あなたは少数の人を追加するか、インスティテューションから人を削除するか、サイト管理者に最大メンバ数を増やすよう依頼できます。';
 $string['institutionuserserrortoomanyinvites'] = 'あなたの招待は送信されませんでした。既存のメンバ + 未処理の招待者数はインスティテューションで許可される最大メンバ数を超えることはできません。あなたは少数の人を招待するか、インスティテューションから人を削除するか、サイト管理者に最大メンバ数を増やすよう依頼できます。';
-$string['maxnumberofgroups'] = '許可される最大グループ数';
+$string['maxnumberofgroups'] = '最大グループ数';
+$string['maxgroups_help'] = '<h1>最大グループ数</h1><p>このインスティテューションで許可されているグループの最大数です。制限を設けない場合、空白のままにしてください。</p>';
 $string['institutionmaxgroupsexceeded'] = 'このインスティテューションにはすでに %s のグループが登録されています。一部のグループを削除するか、グループ上限を増やしてください。';
 $string['maxmembersexceeded'] = 'このインスティテューションにはすでに %s のメンバが登録されています。一部のメンバを削除するか、アカウント上限を増やしてください。';
 $string['Shortname'] = '省略名';
@@ -1299,6 +1304,12 @@ $string['noinstitutionreports'] = 'インスティテューションレポート
 $string['noinstitutionreportsdescription2'] = 'サイトがスタッフまたはサポート管理者にインスティテューションレポートを閲覧できるようにするにはインスティテューションレポートアクセスを有効にする必要があります。サイト管理者は<a href="%sadmin/site/options.php">サイト設定</a>の「インスティテューション設定」でこの設定を有効にできます。';
 $string['noinstitutionstaticpages'] = 'あなたにはインスティテューション固定ページを編集するためのパーミッションがないかまだインスティテューションが作成されていません。';
 $string['noinstitutionstaticpagesadmin'] = 'あなたがサイト管理者の場合、<a href="%s">サイト設定</a>でデフォルト固定ページを編集してください。';
+$string['readonlyfields'] = '読み取り専用フィールド';
+$string['readonlyfieldsintro'] = 'インスティテューションメンバは読み取り専用フィールドのコンテンツを変更できません。例えばデータが外部ソースから取得されている場合、またはフィールドに情報を入力してほしくない場合です。あなたがオプションを変更できない場合、プロファイルフィールドは「 %s 」設定でサイトレベルのすべての人に対して読み取り専用として設定されます。';
+$string['institution.defaultquota_help'] = '<h1>デフォルトクオータ</h1>
+<p>このインスティテューションの新しいメンバのファイルストレージのクォータを設定します。</p>';
+$string['institution.updateuserquotas_help'] = '<h1>アカウントクオータを更新するs</h1>
+<p>上のデフォルトクォータを既存のすべてのメンバに適用します。</p>';
 $string['institutiontagsdesc'] = 'インスティテューションタグが有効にされている場合、メンバが利用できるタグを設定します。';
 $string['approve'] = '承認';
 $string['deny'] = '拒否';
@@ -1309,6 +1320,8 @@ $string['denyregistrationmessage'] = '人の登録を拒否します。本当に
 $string['nopendingregistrations'] = 'このインスティテューションの登録保留はありません。';
 $string['pendingregistration'] = '登録保留';
 $string['pendingregistrations'] = '登録保留';
+$string['pendingaccountregistrations'] = 'アカウント登録保留';
+$string['pendingregistrations_help'] = '<h1>インスティテューション登録保留</h2><p>選択したインスティテューションで自己登録が有効にされている場合、保留中の登録が表示されます。</p><p>あなたがリクエストを承認した場合、その人はアカウントを有効にするための手順が記載されたメールを受け取ります。アクティベーションリンクをクリックした時点でメンバとして追加されます。リンクは24時間後に期限切れとなります。その後も参加を希望する場合、再度登録する必要があります。</p><p>あなたがリクエストを却下した場合、その人に自動的にメールで通知されます。</p>';
 $string['pendingregistrationspagedescription2'] = '<p>このページではあなたのインスティテューションで自己登録およびメンバシップをリクエストした人を閲覧できます。あなたは登録リクエストを承認または拒否できます。<p>
 <p>登録を承認した場合、人にはアカウントの有効化に関して詳細なインストラクションを記載した通知が送信されます。人が有効化リンクをクリックした場合、インスティテューションのメンバとして追加されます。有効化リンクは24時間で有効期限切れとなり人の詳細は削除されます。まだ登録したい場合、同じ手続きを再度開始する必要があります。</p>
 <p>登録を拒否した場合、人に自動的に通知されます。</p>';
@@ -1394,6 +1407,7 @@ $string['unallocated'] = '未割り当て';
 $string['currentverifiersovertime'] = '現在のレビュアの推移';
 $string['currentverifiers'] = '現在のレビュア';
 $string['manageportfoliosmethod'] = 'ポートフォリオを管理する';
+$string['filterportfolios1'] = 'テンプレートでポートフォリオをフィルタする';
 $string['locking_collection_locked'] = 'コレクション 「 %s 」 は現在ロックされています。';
 $string['locking_collection_unlocked'] = 'コレクション 「 %s 」 はロック解除されました。';
 $string['locking_collection_verifier_add'] = 'レビュア「 %s 」 が追加されました。';
@@ -1733,6 +1747,7 @@ $string['denyuserdeletionmessage'] = '続けた場合、あなたはアカウン
 $string['nopendingdeletions'] = 'このインスティテューションにアカウント削除リクエストの保留はありません。';
 $string['pendingdeletion'] = '削除保留';
 $string['pendingdeletions'] = '削除保留';
+$string['pendingdeletions1'] = 'アカウント削除保留';
 $string['pendingdeletionspagedescription'] = '<p>あなたはこのページでサイトからのアカウント削除をリクエストした人を確認および削除承認できます。<p>
 <p>アカウント削除承認によりアカウントからすべての個人コンテンツが完全に削除されます。アカウント削除後、リクエストした人にメールで理由が通知されます。</p>';
 $string['userdeletiondeniedsuccessful'] = 'リクエストが正常に拒否されました。';
