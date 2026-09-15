@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-15 06:53:12 UTC
+ * @updated    2026-09-15 07:11:16 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1561,8 +1561,8 @@ $string['cli_deleteinactiveusers_info1'] = 'あなたはこのコマンドライ
 $string['cli_deleteinactiveusers_neverloggedin'] = 'ログインしたことのないアカウント (管理者が設定したもの) を削除します。';
 $string['cli_param_baddate'] = '提供された日付「 %s 」は有効ではありません。';
 $string['cli_deleteinactiveusers_usercount'] = '削除対象アカウントは「 %s 」名です。';
-$string['cli_deleteinactiveusers_userunabletoclean'] = 'アカウント「 %s 」(ID %s) を完全に削除できません。';
-$string['cli_deleteinactiveusers_userunabletodelete'] = 'アカウント「 %s 」(ID %s) を削除できません。';
+$string['cli_deleteinactiveusers_userunabletoclean'] = '「 %s 」(ID %s) のアカウントを完全に削除できません。';
+$string['cli_deleteinactiveusers_userunabletodelete'] = '「 %s 」(ID %s) のアカウントを削除できません。';
 $string['cli_deleteinactiveusers_nouserstodelete'] = '削除するアカウントはありません。';
 $string['cli_deleteinactiveusers_problem'] = 'インスティテューションパラメータが多すぎます。「--institution」または「--incl_inst」または「--excl_inst」でインスティテューションをフィルタしてください。';
 $string['cli_deleteinactiveusers_onlydryrun1'] = 'ここでは以下の設定によるドライランのみ実行します。
