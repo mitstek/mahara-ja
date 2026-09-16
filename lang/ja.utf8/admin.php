@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-15 06:53:08 UTC
+ * @updated    2026-09-16 22:39:24 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1441,6 +1441,7 @@ $string['groupvisible'] = '可視性';
 $string['groupmanage'] = '管理';
 $string['groupmanagespecific'] = '「 %s 」を管理する';
 $string['groupdelete'] = '削除';
+$string['managegroupdescription2'] = '管理者になれるグループメンバが一覧表示されています。';
 $string['loggedinfilter'] = 'ログイン日時でフィルタする:';
 $string['anyuser'] = 'すべての人';
 $string['usershaveloggedin'] = 'ログインしたことのある人';
@@ -1452,13 +1453,17 @@ $string['objectionable'] = '好ましくないコンテンツ';
 $string['objectionablefilter'] = '好ましくないコンテンツの人';
 $string['noemailfound'] = 'メールアドレスは見つかりませんでした。';
 $string['lastlogin'] = '最終ログイン';
-$string['masqueradingreasonrequired'] = 'マスカレーディングの理由を要求する';
-$string['masqueradingnotified'] = '人にマスカレーディングを通知する';
+$string['masqueradingreasonrequired'] = 'マスカレーディングが必要な理由';
+$string['siteoptions.masqueradingreasonrequired_help'] = '<h1>マスカレーディングが必要な理由</h1><p>管理者が別の人にマスカレーディングする前に理由を入力するよう求めます。</p><p>「マスカレーディング通知」が有効にされている場合、その人に送信される通知には理由が記載されます。</p><p>これを機能させるには「ロギング設定」でマスカレーディングセッションロギングを有効にする必要があります。</p>';
+$string['masqueradingnotified'] = 'マスカレーディング通知';
+$string['siteoptions.masqueradingnotified_help'] = '<h1>マスカレーディング通知</h1><p>管理者が人のマスカレーディングをした場合、その人に通知します。</p><p>通知には「誰が」「いつ」および有効にされている場合は「理由」が含まれます。これを機能させるには「ロギング設定」でマスカレーディングセッションロギングを有効にする必要があります。</p>';
 $string['masquerade'] = '続ける';
 $string['masqueradeas'] = '代理ログイン';
 $string['masqueradeasperson'] = '%s %s として代理ログインする';
 $string['masqueradereason'] = '理由';
+$string['masqueradereasondescription1'] = 'この理由は記録されますが、その人には共有されません。';
 $string['masqueradenotificationdone'] = 'このマスカレーディングセッションが人に通知されました。';
+$string['masqueradenotifiedreasondescription1'] = '相手にはあなたの氏名、日付、時刻および代理ログインする理由が記載された通知が届きます。';
 $string['masqueradetime'] = 'マスカレーディング開始日時';
 $string['masquerader'] = 'マスカレーディング管理者';
 $string['masqueradee'] = '人';
@@ -1470,11 +1475,14 @@ $string['masqueradenotificationnoreason'] = '管理者「 %s 」が %s のあな
 $string['masqueradenotificationreason'] = '管理者「 %s 」が %s のあなたのアカウントにログインしました。理由は次のとおりです: %s';
 $string['nomasqueradeasself'] = 'あなた自身として代理ログインできません。';
 $string['progressbar'] = 'プロファイル完了';
+$string['siteoptions.progressbar_help'] = '<h1>プロファイル完了</h1><p>この設定を有効にした場合、ダッシュボードのサイドバーにプロファイル完成のヒントを含む進捗バーが表示されます。アカウント保持者はアカウントプレファレンスでこれを無効にできます。</p>';
 $string['progressbarsaved'] = 'プログレスバーが正常に保存されました。';
 $string['progressbardisablednote2'] = '<b>注意</b>: 現在、プロファイル完了は無効にされています。人がプロファイル完了に関して進捗を追跡できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「サイドブロック設定」セクションで有効にする必要があります。';
 $string['profilecompletiondesc'] = 'プロファイル完了が有効にされている場合、完了済みプロファイルにカウントされるコンテンツを選択してください。';
+$string['progressbar_help'] = '<h1>インスティテューションプロファイル完了</h1><p>それぞれのインスティテューションメンバのプロファイル完了にカウントされるアーティファクトを選択してください。他のアーティファクトは引き続き作成できますが、完了カウントには影響しません。</p>';
 $string['profilecompletenessdesc1'] = 'プロファイル完了では人がプロファイルをどの程度完了しているか確認できるサイドバーのビジュアルインディケータを使用できるようにします。あなたはプロファイル完了にカウントさせるアーティファクトを選択できます。他のすべてのアーティファクトを使用できますが完了カウントの要素とはなりません。';
 $string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックでプロファイル完了がどのように表示されるかプレビューできます。';
+$string['institution_progressbar'] = 'インスティテューションプロファイル完了';
 $string['exporttoqueue'] = 'キューにエクスポートする';
 $string['validating'] = 'データの確認中 ...';
 $string['checkingupdates'] = '更新データの確認中 ...';
