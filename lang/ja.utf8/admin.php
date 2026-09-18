@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-16 22:39:24 UTC
+ * @updated    2026-09-18 10:46:12 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1484,6 +1484,7 @@ $string['profilecompletenessdesc1'] = 'プロファイル完了では人がプ�
 $string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックでプロファイル完了がどのように表示されるかプレビューできます。';
 $string['institution_progressbar'] = 'インスティテューションプロファイル完了';
 $string['exporttoqueue'] = 'キューにエクスポートする';
+$string['siteoptions.exporttoqueue_help'] = '<h1>キューにエクスポートする</h1><p>この設定を有効にした場合、ポートフォリオのエクスポートはキューに入れられた上でバックグラウンドで処理されます。エクスポートがダウンロードできるようになった時点で作成者に通知されます。これは大規模なサイトのサーバ負荷を管理するのに役立ちます。</p>';
 $string['validating'] = 'データの確認中 ...';
 $string['checkingupdates'] = '更新データの確認中 ...';
 $string['committingchanges'] = '変更の保存中 ...';
@@ -1695,6 +1696,9 @@ $string['cli_auth_method_dry_run_only'] = 'ドライランのみ - %s アカウ�
 $string['cli_auth_method_change_done'] = '%s アカウントが認証方法を変更しました。%s アカウントを手動更新する必要があります。';
 $string['cli_auth_method_ignore_admins'] = '認証方法変更時にサイト管理者を無視します。';
 $string['behatvariables'] = 'Behatステップ';
+$string['behatvariables_help'] = '<h1>Behatステップ</h1>
+<p>利用可能なすべてのBehatステップおよびそれらがテストのどこで使用されているか表示します。すべてのテストはコードベースの<code>/test/behat/features</code>にあります。機能行の変数はグループ化を容易にするために「？」として表示されます。実際の行には正しい値が表示されます。</p>';
+$string['behatvariablesdesc1'] = 'このツールを使用してあなた独自の自動化テストを書くためのBehatステップを探します。';
 $string['nobehatfeaturefiles'] = 'Behatフィーチャファイルは見つかりませんでした。';
 $string['behatmatchingrows'] = '%s -';
 $string['behatnocoresteps'] = '<p>behat.ymlファイルからBehatステップを読めません。読めるようにするには<a href="https://git.mahara.org/catalyst/mahara/-/wikis/Testing/Behat-testing/Setting-up-Behat">あなたのBehatデータルートディレクトリのオーナを「www-data」にしてください</a>。</p>';
@@ -1705,6 +1709,7 @@ $string['creationdate'] = '作成日時';
 $string['version'] = 'バージョン';
 $string['viewversion'] = 'バージョン %s を表示する';
 $string['editversion'] = 'バージョン %s を編集する';
+$string['version_help'] = '<h1>バージョン</h1><p>バージョン名はユニークおよび15文字以下にする必要があります。最新バージョンは「 %s 」です。</p>';
 $string['versionalreadyexist'] = 'バージョン %s の「 %s 」はすでに存在します。';
 $string['siteprivacy'] = 'サイトプライバシ保護方針';
 $string['siteprivacyconsentdate'] = 'サイトプライバシ保護方針同意がレビューされました。';
@@ -1717,6 +1722,7 @@ $string['institutionprivacystatement'] = 'インスティテューションプ�
 $string['institutiontermsandconditions'] = 'インスティテューション利用条件';
 $string['institutionprivacyconsentdate'] = 'インスティテューションプライバシ保護方針同意がレビューされました。';
 $string['institutiontermsconsentdate'] = 'インスティテューション利用条件同意がレビューされました。';
+$string['userprivacypagedescription2'] = 'これらは現在のプライバシ保護方針および利用規約です。';
 $string['lastupdated'] = '最終更新日時';
 $string['newprivacy'] = 'あなたのアカウントに入る前に以下に表示されている情報をお読みください。';
 $string['privacyagreement'] = '私は % に同意します。';
