@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-05-21 04:06:52 UTC
+ * @updated    2026-09-20 23:00:31 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,14 +16,11 @@ defined('INTERNAL') || die();
 $string['Framework'] = 'スマートエビデンスフレームワーク';
 $string['frameworknav'] = 'スマートエビデンス';
 $string['frameworks'] = 'インストール済みフレームワーク';
-$string['frameworkdesc'] = 'あなたのポートフォリオと関連付けたいコンピテンシフレームワークを選択してください。';
-$string['frameworksdesc'] = 'システムにインストールされているフレームワークの一覧です。有効時にコレクションと関連付けられていない限り、無効にされたフレームワークは一覧表示されません。';
 $string['taskscompleted'] = 'タスク完了';
 $string['addpages'] = 'あなたがスマートエビデンスマップに表示させたい場合、さらにこのコレクションにページを追加してください。';
 $string['addframework'] = 'フレームワークを追加する';
 $string['frameworkupdated'] = 'フレームワークが更新されました。';
 $string['matrixfile'] = 'マトリクスファイル';
-$string['matrixfiledesc'] = 'JSONエンコード済みフレームワークを含む.matrixファイルです。';
 $string['notvalidmatrixfile'] = 'これは有効な.matrixファイルではありません。';
 $string['matrixfilenotfound'] = '有効な.matrixファイルが選択されていません。';
 $string['invalidjson'] = 'これは有効な.matrixファイルではありません: JSONコンテンツを構文解析できません。';
@@ -48,7 +45,6 @@ $string['needtoactivate'] = 'アノテーションプラグインを有効にす
 $string['studentannotation'] = 'アノテーション:';
 $string['assessment'] = '評価';
 $string['assessments'] = '評価';
-$string['readyforassessment'] = '評価準備完了';
 $string['incomplete'] = '標準に合致しない';
 $string['partialcomplete'] = '標準に一部合致する';
 $string['completed'] = '標準に合致する';
@@ -100,6 +96,7 @@ $string['descriptioninfo'] = 'フレームワークを説明する詳細情報�
 $string['selfassessed'] = '自己評価';
 $string['evidencestatuses'] = 'エビデンスステータス';
 $string['evidencedesc'] = 'フレームワークの一部がどのように完了しているか示す異なる状態に名称を付けてください。エビデンスの送信を示す「開始」を含む4つのオプションがあります。他の3つは評価ステータスです。';
+$string['evidenceroles'] = 'エビデンスロール';
 $string['Begun'] = '開始';
 $string['Incomplete'] = '未完了';
 $string['Partialcomplete'] = '一部完了';

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-16 04:45:35 UTC
+ * @updated    2026-09-20 22:56:42 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -112,7 +112,6 @@ $string['webservice_provider_enabled_label2'] = '内向きのウェブサービ�
 $string['webservice_master_switches1'] = '全体の利用可能状況';
 $string['connectionsswitch'] = '管理クライアント接続をOnまたはOffに切り替える';
 $string['manage_protocols2'] = 'ウェブサービスプロバイダとしてサポートされているプロトコル';
-$string['protocol'] = 'プロトコル';
 $string['oauth'] = 'OAuth';
 $string['rest'] = 'REST';
 $string['xmlrpc'] = 'XML-RPC';
@@ -162,7 +161,6 @@ $string['owner'] = 'オーナ';
 $string['servicename'] = 'サービス';
 $string['servicenamemissing'] = '利用可能なサービスはありません。この認証タイプに有効なウェブサービスが割り当てられていることを確認してください。';
 $string['generate'] = 'トークンを生成する';
-$string['invalidtoken'] = '無効なトークン: トークンは見つかりませんでした。';
 $string['invalidtokennotsupplied'] = '無効なトークンが選択されたかトークンが提供されていません。';
 $string['token'] = 'トークン';
 $string['tokenid'] = 'トークン「 %s 」';
@@ -206,11 +204,9 @@ $string['usersearchinstructions'] = 'アバタをクリックすることでウ�
 $string['sha1fingerprint'] = 'SHA1フィンガープリント: %s';
 $string['md5fingerprint'] = 'MD5フィンガープリント: %s';
 $string['publickeyexpireson'] = '公開鍵有効期限: %s';
-$string['function'] = '関数';
 $string['wsdocdescription'] = '説明';
 $string['method'] = 'メソッド';
 $string['class'] = 'クラス';
-$string['arguments'] = '変数';
 $string['invalidparameter'] = '無効なパラメータ値が検出されたため実行を継続できません。';
 $string['wsdoc'] = 'ウェブサービスドキュメンテーション';
 $string['testclient'] = 'ウェブサービステストクライアント';
@@ -220,7 +216,6 @@ $string['userauth'] = 'ユーザ';
 $string['certauth'] = '証明書';
 $string['wsseauth'] = 'WSSE';
 $string['oauth1auth'] = 'OAuth1.x';
-$string['authtype'] = '認証タイプ';
 $string['sauthtype'] = '認証タイプ';
 $string['enterparameters'] = '関数パラメータを入力してください。';
 $string['testclientinstructions'] = 'これはウェブサービスのためのインタラクティブテストクライアント機能です。あなたは現在のシステムに対して関数を選択および実際に実行できます。あなたが実行する「すべて」の関数は実際に動作することに留意してください。';
@@ -266,6 +261,7 @@ $string['addfunctions'] = '関数を追加する';
 $string['addservice'] = '新しいサービスを追加する: {$a->name} (id: {$a->id})';
 $string['allsites'] = 'すべてのインスティテューションにアクセスする';
 $string['apiexplorer'] = 'APIエクスプローラ';
+$string['arguments'] = '変数';
 $string['authmethod'] = '認証方法';
 $string['context'] = 'コンテクスト';
 $string['createtoken'] = 'トークンを作成する';
@@ -296,6 +292,7 @@ $string['errorunexpectedcustomkey'] = 'パラメータ配列に予期しない�
 $string['execute'] = '実行';
 $string['expires'] = '有効期限';
 $string['externalservice'] = '外部サービス';
+$string['function'] = '関数';
 $string['generalstructure'] = '全体構造';
 $string['information'] = '情報';
 $string['invalidlogin'] = 'ログインに失敗しました。あなたのユーザ名およびパスワードを確認してください。';
@@ -305,6 +302,7 @@ $string['invalidextresponse'] = '無効な外部APIレスポンス: %s';
 $string['invalidiptoken'] = '無効なトークン: あなたのIPはサポートされていません。';
 $string['invalidpermission'] = 'あなたには「 %s 」で識別されたアカウントにファイルをアップロードするためのパーミッションがありません。';
 $string['invalidtimedtoken'] = '無効なトークン: トークンの有効期限が切れています。';
+$string['invalidtoken'] = '無効なトークン: トークンは見つかりませんでした。';
 $string['invalidtokensession'] = '無効なセッションベーストークン: セッションが見つからないか有効期限が切れています。';
 $string['iprestriction'] = 'IP制限';
 $string['list'] = 'リスト';
@@ -320,6 +318,7 @@ $string['optional'] = '任意';
 $string['phpparam'] = 'XML-RPC (PHP構造体)';
 $string['potusers'] = '認証済みユーザではありません。';
 $string['print'] = 'すべてを印刷する';
+$string['protocol'] = 'プロトコル';
 $string['removefunction'] = '削除';
 $string['required'] = '必須';
 $string['resettokenconfirm'] = '本当にこのウェブサービスキー (<strong>{%s}</strong> - <strong>{%s}</strong>) をリセットしてもよろしいですか?';
@@ -415,6 +414,7 @@ $string['unabletodeleteadmin'] = 'ID「 %s 」のアカウントは管理者で�
 $string['notuserblog'] = '日誌は「 %s 」により所有されていません。';
 $string['oneof'] = 'どれか1つ';
 $string['servicetype'] = 'サービスタイプ';
+$string['authtype'] = '認証タイプ';
 $string['jsonenabled'] = 'JSONレスポンス';
 $string['customfields'] = 'カスタムフィールド';
 $string['invalidviewid'] = '無効な %s ID:「 %s 」です。';
@@ -429,3 +429,4 @@ $string['useraccountexpired'] = 'ID「 %s 」のアカウントは %s の時点�
 $string['connections_help'] = '<h1>接続マネージャ</h1>
 <p>接続オブジェクトを使用した場合、Maharaのプラグインはウェブサービス経由で外部システムとやり取りできます。それぞれのプラグインは送信される情報、呼び出すウェブサービスおよびレスポンスの処理方法を扱います。</p>
 <p>接続を追加する場合、適用するインスティテューション、ウェブサービスが外部サイトにアクセスする方法および呼び出すカスタムウェブサービス関数を定義してください。</p>';
+$string['webserviceauthemailmismatch'] = '入力されたメールアドレスはこの認証方法を使用していない既存のアカウントと一致しています。アカウントに正しい認証方法を設定するにはあなたの管理者にお問い合わせください。';

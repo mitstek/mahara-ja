@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-15 06:52:11 UTC
+ * @updated    2026-09-20 23:05:15 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -218,6 +218,7 @@ $string['aiff'] = 'AIFFオーディオファイル';
 $string['application'] = '不明なアプリケーション';
 $string['au'] = 'AUオーディオファイル';
 $string['audio'] = 'オーディオファイル';
+$string['Audio'] = 'オーディオ';
 $string['avi'] = 'AVIビデオファイル';
 $string['bmp'] = 'ビットマップイメージ';
 $string['doc'] = 'MS Wordドキュメント';
@@ -273,7 +274,8 @@ $string['rpm'] = 'RPM RealPlayerムービ';
 $string['rm'] = 'RM RealPlayerムービ';
 $string['webm'] = 'WEBMビデオファイル';
 $string['3gp'] = '3GPPメディアファイル';
-$string['video'] = 'ビデオファイル';
+$string['video'] = 'ビデオ';
+$string['Video'] = 'ビデオ';
 $string['cantcreatetempprofileiconfile'] = '一時プロファイル画像イメージを %s に書き込めませんでした。';
 $string['profileiconsize'] = 'プロファイル画像サイズ';
 $string['profileicons'] = 'プロファイル画像';

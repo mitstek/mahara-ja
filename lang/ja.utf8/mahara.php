@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-14 00:56:18 UTC
+ * @updated    2026-09-20 23:09:20 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -213,12 +213,19 @@ $string['sendrequest'] = 'リクエストを送信する';
 $string['reason'] = '理由';
 $string['select'] = '選択';
 $string['tags'] = 'タグ';
+$string['header_tag'] = 'タグ';
+$string['header_tags'] = 'タグ';
+$string['header_tag_actions'] = 'タグアクション';
+$string['header_tagged_content'] = 'タグ付きコンテンツ';
+$string['header_description'] = '説明';
 $string['viewtags'] = 'ページタグ';
 $string['youhavenottaggedanythingyet'] = 'あなたはまだ何もタグ付けしていません。';
 $string['mytags'] = 'マイタグ';
 $string['Tag'] = 'タグ';
 $string['itemstaggedwith'] = '「 %s 」でタグ付けされたアイテム';
 $string['nitems'] = '%s アイテム';
+$string['switchviewtaggedcontent'] = 'タグ付きコンテンツを表示する';
+$string['switchviewtags'] = 'タグを表示する';
 $string['searchresultsfor'] = '検索結果:';
 $string['alltags'] = 'すべてのタグ';
 $string['sortalpha'] = 'タグをアルファベット順に並べ替える';
@@ -228,6 +235,7 @@ $string['sortedby'] = '並べ替え';
 $string['sortby'] = '並べ替え:';
 $string['tagsort_all'] = 'すべてのタグ';
 $string['tagsort_name'] = 'タグ名';
+$string['tagsort_content'] = 'タグ付きコンテンツ';
 $string['adminfirst'] = '管理者を最初に';
 $string['nameatoz'] = '名: A -> Z';
 $string['nameztoa'] = '名: Z -> A';
@@ -629,6 +637,7 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 $string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは私たちに責任があります。再度お試しください。';
 $string['forgotpassemailsentanyway1'] = 'この人に関して保存されているメールアドレス宛にメールが送信されましたが、メールアドレスが正しくないか受信サーバがメッセージを戻しました。メールを受信していない場合、あなたのパスワードをリセットするため %s 管理者にご連絡ください。';
 $string['forgotpasswordenternew'] = '続けるにはあなたの新しいパスワードを入力してください。';
+$string['forgotpasswordredo'] = '指定されたリンクの有効期限が切れているか、リンクをリクエストしたブラウザではありません。新しいパスワード喪失リンクをリクエストした上でこのブラウザ内で使用してください。';
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';
 $string['passwordresetexpired'] = 'パスワードリセットキーの有効期限が切れました。';
 $string['passwordchangedok'] = 'あなたのパスワードが正常に変更されました。';
@@ -788,7 +797,6 @@ $string['inbox'] = '受信箱';
 $string['unread'] = '%s 未読';
 $string['gotoinbox'] = '受信箱に移動する';
 $string['institutionmembership'] = 'インスティテューションメンバシップ';
-$string['institutionmembershipdescription'] = 'あなたのインスティテューションメンバシップの状態およびインスティテューションメンバシップに関連する操作すべてを確認できます。';
 $string['youareamemberof'] = 'あなたは %s のメンバです。';
 $string['leaveinstitution'] = 'インスティテューションから離脱する';
 $string['reallyleaveinstitution'] = '本当にこのインスティテューションから離脱してもよろしいですか?';
@@ -1382,6 +1390,7 @@ $string['institutionfilledreplymessage'] = '%s さん、こんにちは。
 %s
 
 %s チーム';
+$string['institutionmembershipdescription'] = 'あなたのインスティテューションメンバシップの状態およびインスティテューションメンバシップに関連する操作すべてを確認できます。';
 $string['institutionmembershiprequestsdescription'] = 'あなたは次のインスティテューションへの参加をリクエストしました。';
 $string['institutionmembershipinvitedescription'] = '管理者があなたに次のインスティテューションへの参加を招待しました。';
 $string['institutionmembershipjoindescription'] = 'あなたはインスティテューションへの参加リクエストを送信できます。「インスティテューションID」フィールドはこのインスティテューションの学籍番号設定用です。';

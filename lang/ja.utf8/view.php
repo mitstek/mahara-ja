@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-09 21:07:20 UTC
+ * @updated    2026-09-20 22:53:57 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -47,6 +47,7 @@ $string['startdatemustbebeforestopdate'] = '開始日は終了日の前に設定
 $string['newstopdatecannotbeinpast'] = '「 %s 」へのアクセス終了日には過去の日付を設定できません。';
 $string['newstartdatemustbebeforestopdate'] = '「 %s 」へのアクセス開始日は終了日の前に設定してください。';
 $string['unrecogniseddateformat'] = '認識できない日付フォーマット';
+$string['editaccess.allowcomments_help'] = '<h1>コメントを許可する</h1><p>人がコメントを残せるようにします。</p>';
 $string['allowcomments'] = 'コメントを許可する';
 $string['ownerformat'] = '氏名表示フォーマット';
 $string['ownerformat_help'] = '<h1>氏名表示フォーマット</h1><p>他の人があなたのポートフォリオ閲覧時に確認できる表示名を選択してください。</p>';
@@ -219,7 +220,6 @@ $string['collectionsubmissionexceptiontitle'] = 'コレクションを送信で�
 $string['collectionsubmissionexceptionmessage'] = '以下の理由からこのコレクションを送信できません:';
 $string['cantsubmitcopyfailed'] = 'このポートフォリオのコピーを作成できませんでした。何も送信されていません。';
 $string['cantsubmitemptycollection'] = 'このコレクションにはページが含まれていません。';
-$string['cantsubmitneedgrouporsubmittedhost'] = '送信はグループまたは送信済みホストに実行される必要があります。';
 $string['submittedtimetitle'] = '- 送信日時 %s';
 $string['viewsubmissionexceptiontitle'] = 'ページを送信できませんでした。';
 $string['viewsubmissionexceptionmessage'] = '以下の理由からこのページを送信できません:';
@@ -384,8 +384,6 @@ $string['quickedit'] = 'クイック編集';
 $string['Template'] = 'テンプレート';
 $string['allowcopying'] = 'コピーを許可する';
 $string['retainviewrights2'] = 'ポートフォリオのコピー時にアクセスを保持する';
-$string['retainviewrightsdescription3'] = '他の人によりコピーされたポートフォリオからあなたが選択したものを閲覧できるようアクセス権を与えます。希望すればコピー後に閲覧アクセスを無効にできます。このポートフォリオのコピーから作成されたポートフォリオが同じアクセス権を保持することはありません。';
-$string['retainviewrightsgroupdescription3'] = '他の人がコピーしたポートフォリオの中から選択したものをこのグループのメンバが閲覧できるようアクセス権を与えます。希望すればコピー後に閲覧アクセスを無効にできます。このポートフォリオのコピーから作成されたポートフォリオが同じアクセス権を保持することはありません。';
 $string['choosetemplategrouppageandcollectiondescription'] = '<p>ここでは新しいページ作成の出発点としてこのグループがコピーを許可されているページを検索できます。あなたはページの名称をクリックしてそれぞれのページのプレビューを表示できます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため該当する「ページをコピーする」ボタンをクリックしてコピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックしてページが属しているコレクション全体をコピーできます。</p><p><strong>注意:</strong> 現在、日誌、日誌エントリ、プランおよびレジュメ情報をグループでコピーできません。</p>';
 $string['choosetemplateinstitutionpageandcollectiondescription'] = '<p>ここでは新しいページ作成の出発点としてこのインスティテューションがコピーを許可されているページを検索できます。あなたはページの名称をクリックしてそれぞれのページのプレビューを表示できます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため該当する「ページをコピーする」ボタンをクリックしてコピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックしてページが属しているコレクション全体をコピーできます。</p><p><strong>注意:</strong> 現在、日誌、日誌エントリ、プランおよびレジュメ情報をインスティテューションでコピーできません。</p>';
 $string['choosetemplatesitepageandcollectiondescription1'] = '<p>ここでは新しいページ作成の出発点としてサイトレベルでコピー可能なページを検索できます。あなたはページの名称をクリックしてそれぞれのページのプレビューを表示できます。あなたがコピーしたいページを見つけた場合、ページのコピーを作成するため該当する「ページをコピーする」ボタンをクリックしてコピーされたページの修正を開始してください。あなたは関連する「コレクションをコピーする」ボタンをクリックしてページが属しているコレクション全体をコピーできます。</p><p><strong>注意:</strong> 現在、日誌、日誌エントリ、プランおよびレジュメ情報をサイトレベルのページでコピーできません。</p>';
@@ -409,7 +407,6 @@ $string['copyforexistingmembersprogress'] = 'ポートフォリオを既存の�
 $string['existinggroupmembercopy'] = '既存のグループメンバにコピーする';
 $string['copyfornewusers'] = '新しいアカウントにコピーする';
 $string['copyfornewmembers'] = '新しいインスティテューションメンバにコピーする';
-$string['copyfornewmembersdescription3'] = '%s のすべての新しいメンバに対して選択したポートフォリオのパーソナルコピーを自動作成します。選択したポートフォリオをこれらの人が後で同様にコピーできるようにしたい場合、通常、コピーを許可してください。';
 $string['copyfornewgroups'] = '新しいグループにコピーする';
 $string['owner'] = 'オーナ';
 $string['Owner'] = 'オーナ';
@@ -558,8 +555,6 @@ $string['signoffpagetitle'] = '承認ページ';
 $string['unsignoffpagetitle'] = '承認を削除する';
 $string['verifypagetitle'] = 'ページを検証する';
 $string['verifypagedesc'] = 'ポートフォリオのオーナがこのページすべての必要条件を満たしていると検証した場合、「Yes」を選択してください。検証せずにページに戻るには「No」を選択してください。';
-$string['signoffpagedesc'] = 'あなたがすべての必要条件を満たしたことを示したい場合、「Yes」を選択してこのページを承認してください。中止するには「No」を選択してください。';
-$string['signoffpageundodesc1'] = '「Yes」を選択した場合、あなたは承認のステータスを削除することになります。また、ワークフローの一部である場合、検証も削除されます。中断する場合、「No」を選択してください。';
 $string['signoffpageconfirm'] = 'この処理を実行してもよろしいですか?';
 $string['updatesignoff'] = 'ページ承認を更新する';
 $string['updateverify'] = 'ページ検証を更新する';
@@ -580,13 +575,9 @@ $string['activity_info_fieldset'] = '活動情報';
 $string['activity_info_title'] = '活動説明';
 $string['activity_info_desc'] = '学習者が到達すべき活動を記述してください。これはページタイトルの長いバージョンです。';
 $string['activity_info_subject'] = '件名';
-$string['activity_info_subject_desc'] = 'この活動に最も適した件名を選択してください。';
 $string['activity_info_supervisor'] = '担当スタッフ';
-$string['activity_info_activity_info_supervisor_desc'] = 'この活動を担当するグループチュータまたはグループ管理者を選択してください。';
 $string['activity_info_start_date'] = '開始日';
 $string['activity_info_end_date'] = '終了日';
-$string['activity_info_start_date_desc'] = '学習者がこの活動で作業を開始する日付を選択してください。';
-$string['activity_info_end_date_desc'] = '学習者がこの活動で作業を終了する日付を選択してください。';
 $string['activity_info_achievement_levels'] = '達成レベル';
 $string['activity_info_achievement_levels_desc'] = 'この特定の活動に対する達成レベルを定義してください。';
 $string['activity_info_achievement_level'] = 'レベル %s';

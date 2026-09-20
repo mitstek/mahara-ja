@@ -1573,7 +1573,7 @@ $string['cli_deleteinactiveusers_usercount'] = '削除対象アカウントは�
 $string['cli_deleteinactiveusers_userunabletoclean'] = '「 %s 」(ID %s) のアカウントを完全に削除できません。';
 $string['cli_deleteinactiveusers_userunabletodelete'] = '「 %s 」(ID %s) のアカウントを削除できません。';
 $string['cli_deleteinactiveusers_nouserstodelete'] = '削除するアカウントはありません。';
-$string['cli_deleteinactiveusers_problem'] = 'インスティテューションパラメータが多すぎます。「--institution」または「--incl_inst」または「--excl_inst」でインスティテューションをフィルタしてください。';
+$string['cli_deleteinactiveusers_problem'] = 'インスティテューションパラメータが多すぎます。インスティテューションでフィルタするには「--institution」または「--incl_inst」または「--excl_inst」を使用してください。';
 $string['cli_deleteinactiveusers_onlydryrun1'] = 'ここでは以下の設定によるドライランのみ実行します。
 インスティテューション: %s
 グループ: %s
