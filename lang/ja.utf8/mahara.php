@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-04-09 01:43:34 UTC
+ * @updated    2026-09-20 22:59:16 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -594,6 +594,7 @@ $string['forgotusernamepasswordemailmessagehtml'] = '<p>%s さん</p>
 $string['forgotpassemailsendunsuccessful'] = '申し訳ございません、メールを正常に送信できませんでした。これは私たちに責任があります。再度お試しください。';
 $string['forgotpassemailsentanyway1'] = 'この人に関して保存されているメールアドレス宛にメールが送信されましたが、メールアドレスが正しくないか受信サーバがメッセージを戻しました。メールを受信していない場合、あなたのパスワードをリセットするため %s 管理者にご連絡ください。';
 $string['forgotpasswordenternew'] = '続けるにはあなたの新しいパスワードを入力してください。';
+$string['forgotpasswordredo'] = '指定されたリンクの有効期限が切れているか、リンクをリクエストしたブラウザではありません。新しいパスワード喪失リンクをリクエストした上でこのブラウザ内で使用してください。';
 $string['nosuchpasswordrequest'] = 'そのようなパスワードリクエストはありません。';
 $string['passwordresetexpired'] = 'パスワードリセットキーの有効期限が切れました。';
 $string['passwordchangedok'] = 'あなたのパスワードが正常に変更されました。';

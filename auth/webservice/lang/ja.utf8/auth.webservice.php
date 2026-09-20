@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2025-10-19 21:52:26 UTC
+ * @updated    2026-09-20 22:56:46 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -423,3 +423,4 @@ $string['deprecatedproto'] = '%s プロトコルは非推奨であり将来の�
 $string['noreturn'] = 'このウェブサービスのコールからは何も返されませんでした。';
 $string['useraccountsuspended'] = 'ID「 %s 」のアカウントは %s の時点で利用停止されました。';
 $string['useraccountexpired'] = 'ID「 %s 」のアカウントは %s の時点で有効期限切れとなりました。';
+$string['webserviceauthemailmismatch'] = '入力されたメールアドレスはこの認証方法を使用していない既存のアカウントと一致しています。アカウントに正しい認証方法を設定するにはあなたの管理者にお問い合わせください。';
