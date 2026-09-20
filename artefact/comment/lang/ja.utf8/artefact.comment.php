@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-25 09:57:09 UTC
+ * @updated    2026-09-20 23:03:42 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -27,7 +27,8 @@ $string['comments_and_details'] = 'メディアレコーディング';
 $string['addyourcomment'] = 'あなたのコメントを追加する';
 $string['commentsanddetails'] = 'コメント (%d) および詳細';
 $string['Allow'] = '許可';
-$string['allowcomments'] = 'コメントを許可する';
+$string['allowcomments'] = 'ページコメントを許可する';
+$string['allowsectioncomments'] = 'コメントを許可する';
 $string['approvalrequired'] = 'コメントはモデレートされます。あなたがこのコメントをパブリックにした場合、オーナに承認されるまで他の人に表示されることはありません。';
 $string['attachfile'] = '添付ファイル';
 $string['Attachments'] = '添付ファイル';
@@ -71,7 +72,6 @@ $string['groupadmins'] = 'グループ管理者';
 $string['messageempty'] = 'あなたのメッセージは空白です。メッセージを入力するかファイルを添付してください。';
 $string['Moderate'] = 'モデレート';
 $string['moderatecomments'] = 'コメントをモデレートする';
-$string['moderatecommentsdescription2'] = 'あなたに承認されるまでページおよびアーティファクトのコメントは非公開のままにされます。アカウントにログインしていない人のコメントは常にモデレーションキューに入り、承認される必要があります。';
 $string['commentmoderatenotificationsubject'] = '新しいコメントをモデレートする';
 $string['newcommentnotificationsubject'] = '%s の新しいコメント';
 $string['progress_feedback'] = '%s 人のページにコメントする';

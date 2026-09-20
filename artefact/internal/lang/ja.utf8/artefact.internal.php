@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-04 14:07:31 UTC
+ * @updated    2026-09-20 23:05:47 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -109,6 +109,8 @@ $string['cancelbutton'] = 'キャンセル';
 $string['emailingfailed'] = 'プロファイルが保存されましたが、次のメールアドレス宛にメール送信できませんでした: %s';
 $string['loseyourchanges'] = 'あなたの変更内容を失ってもよろしいですか?';
 $string['Title'] = 'タイトル';
+$string['Text'] = 'テキスト';
+$string['text'] = 'テキスト';
 $string['Created'] = '作成日時';
 $string['Description'] = '説明';
 $string['Download'] = 'ダウンロード';
@@ -123,25 +125,8 @@ $string['profilepage'] = 'プロファイルページ';
 $string['profileimagefor'] = '%s のプロファイル画像';
 $string['viewprofilepage'] = 'プロファイルページを表示する';
 $string['viewallprofileinformation1'] = 'すべての個人情報を表示する';
-$string['Note'] = 'ノート';
-$string['noteTitle'] = 'ノートタイトル';
-$string['blockTitle'] = 'ブロックタイトル';
-$string['Notes'] = 'ノート';
-$string['mynotes'] = 'マイノート';
-$string['notesfor'] = '%s のノート';
-$string['note_action_delete'] = 'ノート (%s) を削除する';
-$string['note_action_edit'] = 'ノート (%s) を編集する';
-$string['containedin'] = '含まれる場所:';
-$string['currenttitle'] = 'タイトル';
-$string['notesdescription1'] = 'あなたのページのノートブロック内で作成したHTML形式のノートです。';
-$string['editnote'] = 'ノートを編集する';
-$string['confirmdeletenote'] = 'このノートは %d ブロックおよび %d ページで使用されています。あなたがノートを削除した場合、現在このテキストが含まれるすべてのブロックは空白になります。';
-$string['notedeleted'] = 'ノートが削除されました。';
-$string['noteupdated'] = 'ノートが更新されました。';
-$string['html'] = 'ノート';
 $string['duplicatedprofilefieldvalue'] = '複製値';
 $string['existingprofilefieldvalues'] = '既存値';
-$string['emptystatenotestitle'] = 'あなたにノートはありません';
 $string['progressbaritem_messaging'] = 'メッセージング';
 $string['progressbaritem_joingroup'] = 'グループに参加する';
 $string['progressbaritem_makefriend'] = 'フレンドを作る';
@@ -181,7 +166,6 @@ $string['profiledeletedsuccessfully'] = 'ソーシャルメディアアカウン
 $string['profilesavedsuccessfully'] = 'ソーシャルメディアアカウントが正常に保存されました。';
 $string['socialprofilerequired'] = '少なくとも1つのソーシャルメディアアカウントが必要です。';
 $string['duplicateurl'] = 'すでに入力したものとユーザ名またはURLが重複しているため、あなたはこのソーシャルメディアアカウントを追加できません。';
-$string['notes'] = 'ノート';
 $string['supportadmin'] = 'サポート管理者';
 $string['pluginconfig.allowcomments_help'] = '<h1>デフォルトのコメントパーミッション</h1>
 <p>選択したアーティファクトタイプではデフォルトでコメントが有効にされています。作成者は個々のアーティファクトごとにこれを変更できます。</p>';
@@ -190,8 +174,6 @@ $string['pluginconfig.searchable_help'] = '<h1>検索可能フィールド</h1>
 $string['pluginconfig.adminusersearch_help'] = '<h1>管理者の「人検索」</h1>
 <p>管理画面の「人検索」に表示するプロファイルフィールドを選択してください。</p>
 <p>姓、名、メールアドレスおよび表示名は常に表示されます。</p>';
-$string['notes_help'] = '<h1>ノート</h1>
-<p>ノートはページ全体をコピーすることなく、あなたがポートフォリオ間で再利用できる短いテキストです<p>';
 $string['index_help'] = '<h1>個人情報</h1>
 <p>一部のフィールドの中には編集できないものがあるかもしれません。その場合、管理者によってロックされているためです。</p>
 <p><strong>警告:</strong> 一般公開されるページに連絡先情報を掲載する場合、あなた自身の安全を十分に考慮してください。<p>';

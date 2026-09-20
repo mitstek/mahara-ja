@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-29 05:33:00 UTC
+ * @updated    2026-09-20 23:04:20 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -142,6 +142,7 @@ $string['parentcannotbesubcategory'] = 'このカテゴリは親カテゴリで�
 $string['onlycategory'] = '他のカテゴリは存在しない';
 $string['noneselected'] = '選択なし';
 $string['cpdactivity'] = 'CPD活動';
+$string['Cpdactivity'] = 'CPD活動';
 $string['progress_cpdactivity'] = '%s CPD活動を追加する';
 $string['cpds_help'] = '<h1>CPD</h1>
 <p>継続的専門能力開発 (CPD) 活動はこちらまたはページのCPDセクションから直接登録してください。それぞれの活動に関してタイトル、日付、場所、説明および所要時間を記録できます。あなたの合計時間は自動的に計算されます。</p>
