@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-18 10:51:00 UTC
+ * @updated    2026-09-22 22:28:08 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -90,7 +90,6 @@ $string['manageinstitutions'] = 'インスティテューション管理';
 $string['webservicesmenu'] = 'ウェブサービス設定';
 $string['embeddedurls'] = '埋め込みURL';
 $string['sitesettings'] = 'サイト設定';
-$string['sitesettingssdesc'] = 'サイト名、言語、テーマ等の基本的な内容を設定します。';
 $string['staticpages'] = '固定ページ';
 $string['institutionstaticpages'] = 'インスティテューション固定ページ';
 $string['institutionstaticpages_help'] = '<h1>インスティテューション固定ページ</h1><p>変更はあなたのインスティテューションメンバにのみに表示されます。あなたがメンバに代わりにサイトのデフォルトコンテンツを表示させたいページでは「サイトデフォルトを使用する」を有効にしてください。</p><hr><h2>詳細情報</h2>
@@ -457,7 +456,6 @@ $string['siteoptions.homepageinfo_help'] = '<h1>ホームページおよびダ�
 $string['homepageredirect'] = 'カスタムランディングページ';
 $string['siteoptions.homepageredirect_help'] = '<h1>カスタムランディングページ</h1><p>ログイン後に最初に表示されるページとしてダッシュボード以外のページを設定します。誰かが要ログインのリンクにアクセスした場合、そのリダイレクトが優先されます。</p>';
 $string['homepageredirecturl'] = 'ランディングページ';
-$string['homepageredirecturldescription'] = 'この設定を動作させるにはすべての登録済みの人がページにアクセスできる必要があります。';
 $string['hstsoverride'] = 'HSTSオーバーライド';
 $string['siteoptions.hstsoverride_help'] = '<h1>HSTSオーバーライド</h1><p>ダウンストリームサービスがすでにHTTP Strict Transport Security (HSTS) ヘッダを設定している場合、この設定を有効にして、2回設定されないようにします。</p>';
 $string['islandingpage'] = 'このページがサイトのカスタムランディングページとして使用されます。';
@@ -547,7 +545,6 @@ $string['siteoptions.surbl_help'] = '<h1>SURBL URL拒否リスト</h1><p>SURBL�
 $string['disableexternalresources'] = 'HTML内の外部リソースを無効にする';
 $string['siteoptions.disableexternalresources_help'] = '<h1>HTML内の外部リソースを無効にする</h1><p>この設定を有効にした場合、作成者はイメージ等の外部サイトのコンテンツをテキストおよびその他のHTMLコンテンツに埋め込みできなくなります。これはフィッシング攻撃を防ぐのに役立つため、セキュリティ上の理由から推奨されます。詳細は<a href="http://htmlpurifier.org/live/configdoc/plain.html#URI.DisableExternalResources">HTML Purifierドキュメンテーション</a>をご覧ください。</p>';
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
-$string['tagssideblockmaxtagsdescription'] = 'タグクラウド内に表示されるデフォルトのタグ数です。';
 $string['trustedsites'] = '信頼できるサイト';
 $string['updatesitesettings'] = 'サイト設定を更新する';
 $string['usersallowedmultipleinstitutions'] = '人に複数インスティテューションを許可する';
@@ -570,7 +567,6 @@ $string['usersseenewthemeonlogin'] = '次回ログイン時、他の人に新し
 $string['viruschecking'] = 'ウイルスチェック';
 $string['siteoptions.viruschecking_help'] = '<h1>ウイルスチェック</h1><p>この設定を有効にした場合、アップロードされたすべてのファイルがClamAVを使用してウイルスチェックされます。あなたのサーバにClamAVをインストールする必要があります。多くのLinuxディストリビューションには<code>clamav</code>パッケージが含まれています。あなたは<a href="https://www.clamav.net">ClamAVウェブサイト</a>からダウンロードもできます。</p>';
 $string['whocancreategroups'] = 'グループ作成';
-$string['whocancreategroups_help'] = '<h1>グループ作成</h1><p>新しいグループを作成できる人を選択してください。</p>';
 $string['whocancreatepublicgroups'] = 'パブリックグループを作成する';
 $string['createpublicgroups_help'] = '<h1>パブリックグループ作成</h1><p>公開表示可能なグループを作成できる人を選択してください。</p><hr><h2>詳細</h2><p>パブリックグループでは誰でも (検索エンジンを含む)「About」ページおよびフォーラムディスカッションを閲覧できますが、フォーラム投稿またはプロファイル表示にはアカウントが必要です。</p><p>グループ管理者はメンバ一覧へのアクセスを制限できます。</p><p>config.phpで隔離インスティテューションが有効にされている場合、サイト管理者のみパブリックグループを作成できます。</p>';
 $string['wysiwyg'] = 'HTMLエディタ';
@@ -1185,9 +1181,7 @@ $string['institutionstaff'] = 'インスティテューションスタッフ';
 $string['institutionadmin'] = 'インスティテューション管理者';
 $string['institutionadmins'] = 'インスティテューション管理者';
 $string['institutionadministrator'] = 'インスティテューション管理者';
-$string['institutionadmindescription1'] = 'この人がこのインスティテューションのすべての人を管理できるようにします。';
 $string['institutionsupportadmin'] = 'インスティテューションサポート管理者';
-$string['institutionsupportadmindescription'] = 'この人がこのインスティテューションの権限の少ない他の人 (例 メンバおよびスタッフ) として代理ログインすることを許可します。';
 $string['settingsfor'] = '設定:';
 $string['institutionmembers'] = 'インスティテューションメンバ';
 $string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
@@ -1238,9 +1232,7 @@ $string['editstaff1'] = 'スタッフを管理する';
 $string['editsupportadmins1'] = 'サポート管理者を管理する';
 $string['editadmins1'] = '管理者を管理する';
 $string['membershipexpiry'] = 'メンバシップ有効期限';
-$string['membershipexpirydescription'] = '人がインスティテューションから自動的に削除される日付です。';
 $string['studentid'] = 'IDナンバ';
-$string['institutionstudentiddescription'] = 'インスティテューション固有の任意の識別子です。インスティテューションメンバはこのフィールドを編集できません。';
 $string['userstodisplay'] = '表示する人:';
 $string['institutionusersrequesters1'] = 'リクエストされたインスティテューションメンバシップ';
 $string['institutionusersnonmembers1'] = 'リクエストされていないインスティテューションメンバシップ';
@@ -1333,7 +1325,6 @@ $string['registrationapprovedsuccessfully'] = '登録が正常に承認されま
 $string['registrationapprovedmessage'] = '登録メッセージ:';
 $string['registrationapproveddesc'] = '新しく登録した人への追加情報です。';
 $string['registrationdeniedreason'] = '拒否理由';
-$string['registrationdeniedreasondesc'] = 'サイト名が拒否された理由に関する情報です。';
 $string['registrationdeniedsuccessful'] = '登録が正常に拒否されました';
 $string['registrationdeniedunsuccessful'] = '登録拒否に失敗しました。';
 $string['registrationreason'] = '登録理由';
@@ -1585,9 +1576,9 @@ $string['cli_deleteinactiveusers_onlydryrun1_inst_params'] = '含まれるイン
 インスティテューション外のアカウントを含めますか? %s';
 $string['cli_deleteinactivegroups_info'] = 'このコマンドラインPHPスクリプトではあなたが古いグループを削除できます。これは現在メンバがいないグループにのみ動作します。「onlyadmins」フラグが設定された場合、オーナ/管理者が1名のみのグループを対象に含めます。';
 $string['cli_deleteinactivegroups_beforedate'] = 'この日付より最終修正日が前のグループを削除します。日付には次のような日時ストリングを使用できます: 「2018-02-25」または「-6 months」';
-$string['cli_deleteinactivegroups_limit'] = 'それぞれの削除で処理するグループ数を制限します。';
-$string['cli_deleteinactivegroups_cleangroups'] = '同時に「group」テーブルからグループの削除を試みます。';
-$string['cli_deleteinactivegroups_onlyadmins'] = 'メンバがオーナ/管理者のみのグループも含みます。';
+$string['cli_deleteinactivegroups_limit'] = 'それぞれの削除で処理するグループ数の制限です。';
+$string['cli_deleteinactivegroups_cleangroups'] = '「group」テーブルからもグループの削除を試みます。';
+$string['cli_deleteinactivegroups_onlyadmins'] = 'オーナ/管理者のみをメンバとするグループも含みます。';
 $string['cli_deleteinactivegroups_onlydryrun'] = 'ここでは以下の設定によるドライランのみ実行します。
 インスティテューション: %s
 次の日付以前: %s
