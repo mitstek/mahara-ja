@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-25 14:02:36 UTC
+ * @updated    2026-09-23 00:52:51 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -295,6 +295,7 @@ $string['indentmaxindent'] = '最大まで広げる';
 $string['indentflatindent'] = 'インデントなし';
 $string['maxindent'] = '最大インデントレベル';
 $string['maxindentdescription'] = 'トピックの最大インデントレベルを設定してください。この設定はインデントモードが「最大まで広げる」に設定された場合のみ適用されます。';
+$string['jumptolatestreply'] = '最新の返信に移動する';
 $string['closetopics'] = '新しいトピックをクローズする';
 $string['edit_interaction.closetopics_help'] = '<h1>新しいトピックをクローズする</h1><p>この設定を有効にした場合、新しいトピックはデフォルトでクローズされます。モデレータおよび管理者のみ返信できます。</p>';
 $string['approvalofposts'] = '投稿の承認';

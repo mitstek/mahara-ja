@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-16 04:45:34 UTC
+ * @updated    2026-09-23 00:51:31 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -429,3 +429,4 @@ $string['useraccountexpired'] = 'ID「 %s 」のアカウントは %s の時点�
 $string['connections_help'] = '<h1>接続マネージャ</h1>
 <p>接続オブジェクトを使用した場合、Maharaのプラグインはウェブサービス経由で外部システムとやり取りできます。それぞれのプラグインは送信される情報、呼び出すウェブサービスおよびレスポンスの処理方法を扱います。</p>
 <p>接続を追加する場合、適用するインスティテューション、ウェブサービスが外部サイトにアクセスする方法および呼び出すカスタムウェブサービス関数を定義してください。</p>';
+$string['webserviceauthemailmismatch'] = '入力されたメールアドレスはこの認証方法を使用していない既存のアカウントと一致しています。アカウントに正しい認証方法を設定するにはあなたの管理者にお問い合わせください。';

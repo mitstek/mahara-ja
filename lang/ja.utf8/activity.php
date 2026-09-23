@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-07-09 07:11:44 UTC
+ * @updated    2026-09-23 01:05:20 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -193,3 +193,4 @@ $string['escalateissuereportprompt'] = '潜在的にセンシティブな情報�
 $string['failurefindissuereportwithid'] = 'ID「 %s 」のイシュレポートが見つかりませんでした。';
 $string['no_valid_reports_to_escalate'] = 'エスカレーションすべき有効なイシュレポートはありません。';
 $string['from'] = '報告者';
+$string['to'] = '報告先';
