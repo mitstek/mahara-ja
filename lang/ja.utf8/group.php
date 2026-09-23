@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-09 20:56:48 UTC
+ * @updated    2026-09-23 01:12:00 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -152,7 +152,9 @@ $string['suggestinvitefriends'] = 'あなたはフレンド招待およびレコ
 $string['suggestfriendsrequesterror'] = 'あなたはオープンまたはリクエストグループでのみフレンドのレコメンデーションを有効にできます。';
 $string['editwindowendbeforestart'] = '終了日時は開始日時の後に設定してください。';
 $string['editgroupmembership'] = 'グループメンバシップを編集する';
-$string['editmembershipforuser'] = '%s のグループメンバシップを編集する';
+$string['editgroupmembershipforuser'] = '%s のグループメンバシップを編集する';
+$string['addorremovefromthesegroups'] = 'これらのグループへ追加または削除する';
+$string['invitetothesegroups'] = 'これらのグループに招待する';
 $string['changedgroupmembership'] = 'グループメンバシップが正常に更新されました。';
 $string['changedgroupmembershipsubject'] = 'あなたのグループメンバシップが変更されました。';
 $string['addedtongroupsmessage'] = '%2$s があなたをグループに追加しました:
@@ -343,7 +345,9 @@ $string['noviewsemptystatemessage'] = '新しいポートフォリオを作成�
 $string['whymakemeyourfriend'] = 'あなたが私をフレンドにする理由:';
 $string['approverequest'] = 'リクエストを承認する';
 $string['denyrequest'] = 'リクエストを拒否する';
+$string['approve_friend_request'] = 'レンドリクエストを承認する';
 $string['approve_friend_request_from'] = '%s からのフレンドリクエストを承認する';
+$string['deny_friend_request'] = 'フレンドリクエストを拒否する';
 $string['deny_friend_request_from'] = '%s からのフレンドリクエストを拒否する';
 $string['pending'] = '保留中';
 $string['pendingsince'] = '%s より保留中';

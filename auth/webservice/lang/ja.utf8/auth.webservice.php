@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-20 22:56:42 UTC
+ * @updated    2026-09-23 00:56:08 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -388,6 +388,7 @@ $string['nousernameoridgroup'] = 'グループ「 %s 」のユーザ名または
 $string['invaliduser'] = '無効なアカウント「 %s 」です。';
 $string['invaliduserid'] = '無効なアカウントID「 %s 」です。';
 $string['invalidusergroup'] = '無効なアカウント「 %s (グループ: %s)」 です。';
+$string['invalidstudentid'] = '無効な学籍番号「 %s 」です。';
 $string['mustsetauth'] = 'あなたがアカウント保持者「 %s 」の認証方法を更新するには認証方法およびインスティテューションを設定する必要があります。';
 $string['invalidusername'] = '無効なユーザ名です。「 %s 」は存在しません。';
 $string['invalidremoteusername'] = '無効なリモートユーザ名「 %s 」です。';

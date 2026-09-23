@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-10 00:11:31 UTC
+ * @updated    2026-09-23 01:00:14 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -80,6 +80,7 @@ $string['oneoffields'] = '「 %s 」がマークされたフィールドの1つ�
 $string['isdecorative'] = '装飾イメージ';
 $string['alttext'] = '代替テキスト';
 $string['altiscaption'] = 'イメージキャプションとして代替テキストを使用する';
+$string['text_input_with_dropdown'] = 'ドロップダウンボタン付きテキスト入力';
 $string['select_search_type'] = '検索タイプを選択する';
 $string['search'] = '検索:';
 $string['validrange'] = '%s と %s の間に設定してください。';

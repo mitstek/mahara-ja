@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-21 00:16:41 UTC
+ * @updated    2026-09-23 01:04:03 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,7 +14,6 @@
 defined('INTERNAL') || die();
 
 $string['archive'] = '評定済みをアーカイブする';
-$string['archivedescription'] = '評点が与えられた後、ポートフォリオのスナップショットが取得されます。';
 $string['autoconfiguredesc'] = 'LTIに必要な設定を自動的に有効にします。';
 $string['autoconfiguretitle'] = 'LTI自動設定';
 $string['autocreateusers'] = 'アカウント自動作成';
@@ -35,7 +34,7 @@ $string['gradesubmitted'] = '評定が正常に提出されました。';
 $string['groupname'] = '「 %s 」-「 %s 」';
 $string['institutiondenied'] = '「 %s 」へのアクセスが拒否されました。あなたのインスティテューション管理者にご連絡ください。';
 $string['lock'] = '評定後、ポートフォリオのロックを継続する';
-$string['lockdescription'] = '評定後、ユーザはポートフォリオを変更します。';
+$string['lock_help'] = '<h1>評定後、ポートフォリオのロックを継続する</h1><p>ポートフォリオ作成者は評定後、提出したポートフォリオに変更を加えることはできません。</p>';
 $string['ltiserviceexists'] = 'LTIサービスグループ登録済み';
 $string['maharalti'] = 'LTI 1.1';
 $string['maharaltimoodleassign'] = 'Moodle課題提出';

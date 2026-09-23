@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-11 04:38:39 UTC
+ * @updated    2026-09-23 01:11:23 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -56,6 +56,12 @@ $string['settings_tokenendpoint'] = 'トークンエンドポイント';
 $string['auth_config.tokenendpoint_help'] = '<h1>トークンエンドポイント</h1><p>トークンがリフレッシュされるエンドポイントです。例えば次のようになります: <em>https://mahara.example/auth/saml/sp/module.php/oidc/token.php</em></p>';
 $string['settings_username'] = 'ユーザ名属性';
 $string['auth_config.usernamefield_help'] = '<h1>ユーザ名属性</h1><p>アイデンティティプロバイダから提供されるデフォルトのOIDC一意識別子ではなく、ユーザ名と照合します。これをクレームパラメータ (例: \'oid\') またはプロファイルフィールド (例: \'email\') と照合するように設定します。</p>';
+$string['settings_email'] = 'メール属性';
+$string['auth_config.emailfield_help'] = '<h1>メール属性</h1><p>IDプロバイダが提供するデフォルト以外のメールアドレスフィールドと照合します。</p>';
+$string['settings_firstname'] = '名属性';
+$string['auth_config.firstnamefield_help'] = '<h1>名属性</h1><p>IDプロバイダが提供するデフォルト以外の名フィールドと照合します。</p>';
+$string['settings_lastname'] = '姓属性';
+$string['auth_config.lastnamefield_help'] = '<h1>姓属性</h1><p>IDプロバイダが提供するデフォルト以外の姓フィールドと照合します。</p>';
 $string['settings_resource'] = 'リソース';
 $string['auth_config.resource_help'] = '<h1>リソース</h1><p>イシュア名です。<br>例) https://mahara.example/</p>';
 $string['settings_maharascope'] = '「mahara」スコープを使用する';
