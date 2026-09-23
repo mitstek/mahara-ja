@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-10 00:22:48 UTC
+ * @updated    2026-09-23 23:12:19 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -74,6 +74,9 @@ $string['artefact_type_comment'] = 'アーティファクト: コメント';
 $string['artefact_type_contactinformation'] = 'アーティファクト: 連絡先';
 $string['artefact_type_country'] = 'アーティファクト: 国';
 $string['artefact_type_coverletter'] = 'アーティファクト: カバーレター';
+$string['artefact_type_cpdactivity'] = 'CPD活動';
+$string['artefact_type_cpdcategory'] = 'CPDカテゴリ';
+$string['artefact_type_cpdexperience'] = 'CPD経験';
 $string['artefact_type_educationhistory'] = 'アーティファクト: 教育履歴';
 $string['artefact_type_email'] = 'アーティファクト: メールアドレス';
 $string['artefact_type_employmenthistory'] = 'アーティファクト: 職歴';
@@ -82,7 +85,6 @@ $string['artefact_type_file'] = 'アーティファクト: ファイル';
 $string['artefact_type_firstname'] = 'アーティファクト: 名';
 $string['artefact_type_folder'] = 'アーティファクト: フォルダ';
 $string['artefact_type_homenumber'] = 'アーティファクト: 自宅電話';
-$string['artefact_type_html'] = 'アーティファクト: HTMLファイル';
 $string['artefact_type_image'] = 'アーティファクト: イメージファイル';
 $string['artefact_type_industry'] = 'アーティファクト: 職種';
 $string['artefact_type_interest'] = 'アーティファクト: 興味';
@@ -103,6 +105,7 @@ $string['artefact_type_profileicon'] = 'アーティファクト: プロファ�
 $string['artefact_type_socialprofile'] = 'アーティファクト: ソーシャルメディア';
 $string['artefact_type_studentid'] = 'アーティファクト: 学籍番号';
 $string['artefact_type_task'] = 'アーティファクト: タスク';
+$string['artefact_type_html'] = 'アーティファクト: HTMLファイル';
 $string['artefact_type_town'] = 'アーティファクト: 市区町村';
 $string['artefact_type_userroles'] = 'アーティファクト: ロール';
 $string['artefact_type_video'] = 'アーティファクト: ビデオファイル';
@@ -112,9 +115,12 @@ $string['blocktype_blog'] = 'ブロック: 日誌';
 $string['blocktype_blog__all'] = 'ブロック: 日誌 (すべてのエントリ)';
 $string['blocktype_blog__specific'] = 'ブロック: 日誌 (特定エントリ)';
 $string['blocktype_blog__tagged'] = 'ブロック: 日誌 (タグ付きエントリ)';
+$string['blocktype_checkpoint'] = 'チェックポイント';
 $string['blocktype_comment'] = 'ブロック: コメント';
 $string['blocktype_contactinfo'] = 'ブロック: 連絡先';
 $string['blocktype_courseinfo'] = 'ブロック: コース情報';
+$string['blocktype_cpds'] = 'CPD活動';
+$string['blocktype_cpdoverview'] = 'CPD経験概要';
 $string['blocktype_creativecommons'] = 'ブロック: クリエイティブ・コモンズ';
 $string['blocktype_entireresume'] = 'ブロック: レジュメ全体';
 $string['blocktype_externalfeed'] = 'ブロック: 外部フィード';
@@ -208,6 +214,15 @@ $string['reportdescaccesslist'] = '<ul>
 <li>アクセスリスト 例) ポートフォリオを閲覧できるパーミッションのある人</li>
 </ul>
 <p>選択された期間中に作成されたポートフォリオが一覧表示されます。それらの現在のアクセスパーミッションが表示されます。</p>';
+$string['accesslist.accessrules_help'] = '<h1>アクセスリスト</h1>
+<p>
+選択した期間に作成されたポートフォリオにアクセスできる人、インスティテューションおよびグループが一覧表示されます。</p>
+<p>秘密のURLの数も記載されていますが、プライバシ上の理由からURL自体は表示されません。
+</p>';
+$string['accesslist.numviews_help'] = '<h1>ページ</h1>
+<p>
+選択した期間中に作成されたポートフォリオに含まれるページ数です。
+</p>';
 $string['reportcompletionverification'] = '完了およびレビュー';
 $string['reportdesccompletionverification'] = '<ul>
 <li>ポートフォリオ作成者の個人情報</li>

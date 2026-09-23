@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-05 12:39:44 UTC
+ * @updated    2026-09-23 23:11:22 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,3 +18,5 @@ $string['collaboration.users_help'] = '<h1>人</h1>
 <p>選択した期間中に特定の人と直接共有されたすべてのポートフォリオの合計数です。</p>';
 $string['completionverification.completionpercentage_help'] = '<h1>完了パーセンテージ</h1>
 <p>これはポートフォリオ内で「承認済み」(および必要に応じて検証済み) とマークされたページの割合です。</p>';
+$string['comparisons.views_help'] = '<h1>ページ</h1>
+<p>選択した期間におけるインスティテューション内のページ数です。</p>';
