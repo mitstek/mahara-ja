@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-14 00:56:07 UTC
+ * @updated    2026-09-25 23:03:19 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -69,6 +69,7 @@ $string['applychanges'] = '変更を適用する';
 $string['general'] = '一般';
 $string['units'] = 'ユニット';
 $string['status'] = 'ステータス';
+$string['toggletoolbars'] = 'ツールバーを切り替えてボタンのフルリストを表示/非表示する';
 $string['defaulthint'] = '検索語を入力する';
 $string['imagexofy'] = 'イメージ {x} / {y}';
 $string['clickformore'] = '(詳細情報を表示するには「Enter」を押してください)';
@@ -149,6 +150,7 @@ $string['adminmenu'] = '管理メニュー';
 $string['adminmenushort'] = 'サイト概要';
 $string['instadminmenushort'] = 'インスティテューション管理メニュー';
 $string['staffadminmenushort'] = 'スタッフ管理メニュー';
+$string['inststaffadminmenushort'] = 'インスティテューションスタッフおよびサポートメニュー';
 $string['usermenu1'] = 'アカウントメニュー';
 $string['profilepage'] = 'プロファイルページ';
 $string['mainmenu'] = 'メインメニュー';
@@ -213,12 +215,20 @@ $string['sendrequest'] = 'リクエストを送信する';
 $string['reason'] = '理由';
 $string['select'] = '選択';
 $string['tags'] = 'タグ';
+$string['header_tag'] = 'タグ';
+$string['header_tags'] = 'タグ';
+$string['header_tag_actions'] = 'タグアクション';
+$string['header_tagged_content'] = 'タグ付きコンテンツ';
+$string['header_description'] = '説明';
+$string['header_last_updated'] = '最終更新日時';
 $string['viewtags'] = 'ページタグ';
 $string['youhavenottaggedanythingyet'] = 'あなたはまだ何もタグ付けしていません。';
 $string['mytags'] = 'マイタグ';
 $string['Tag'] = 'タグ';
 $string['itemstaggedwith'] = '「 %s 」でタグ付けされたアイテム';
 $string['nitems'] = '%s アイテム';
+$string['switchviewtaggedcontent'] = 'タグ付きコンテンツを表示する';
+$string['switchviewtags'] = 'タグを表示する';
 $string['searchresultsfor'] = '検索結果:';
 $string['alltags'] = 'すべてのタグ';
 $string['sortalpha'] = 'タグをアルファベット順に並べ替える';
@@ -228,6 +238,7 @@ $string['sortedby'] = '並べ替え';
 $string['sortby'] = '並べ替え:';
 $string['tagsort_all'] = 'すべてのタグ';
 $string['tagsort_name'] = 'タグ名';
+$string['tagsort_content'] = 'タグ付きコンテンツ';
 $string['adminfirst'] = '管理者を最初に';
 $string['nameatoz'] = '名: A -> Z';
 $string['nameztoa'] = '名: Z -> A';
@@ -240,6 +251,7 @@ $string['dateformatguide1'] = 'フォーマット %s を使用する';
 $string['dateofbirthformatguide1'] = 'フォーマット %s を使用する';
 $string['datetimeformatguide1'] = 'フォーマット %s を使用する';
 $string['filterresultsby'] = '結果をフィルタする:';
+$string['tagfilterlabel'] = 'タグをタグ付きコンテンツでフィルタする';
 $string['tagfilter_all'] = 'すべて';
 $string['tagfilter_file'] = 'ファイル';
 $string['tagfilter_image'] = 'イメージ';
@@ -261,10 +273,15 @@ $string['editthistag'] = 'このタグを編集する';
 $string['edittagdescription'] = 'あなたのポートフォリオの「 %s 」でタグ付けされたアイテムすべてが更新されます。';
 $string['deletetag'] = '<a href="%s">%s</a> を削除する';
 $string['deletetagname'] = 'タグ %s を削除する';
+$string['deletetagnamespan'] = 'タグ「 <span class="tag">%s</span> 」を削除する';
 $string['confirmdeletetag'] = '本当にあなたのポートフォリオのすべてのアイテムからこのタグを削除してもよろしいですか?';
+$string['confirmdeletetagspecific'] = '本当にあなたのポートフォリオのすべてのアイテムからタグ「 %s 」を削除してもよろしいですか?';
 $string['deletetagdescription'] = 'あなたのポートフォリオのすべてのアイテムからこのタグを削除します。';
 $string['tagupdatedsuccessfully'] = 'タグが正常に更新されました。';
+$string['tagnotupdated'] = 'タグ未更新';
+$string['tagnotchanged'] = 'タグ未更新 (更新未送信)';
 $string['tagdeletedsuccessfully'] = 'タグが正常に削除されました。';
+$string['tagnotdeleted'] = 'タグ未削除';
 $string['relatedtags'] = '%s のタグ付きコンテンツ';
 $string['relatedtagsinview'] = '%s のタグ付きコンテンツ (ポートフォリオ「 %s 」)';
 $string['norelatedtaggeditemstoview'] = 'あなたがタグ「 %s 」 (オーナ「 %s 」) で閲覧できるものはありません。';
@@ -872,6 +889,7 @@ $string['acccountchooseappsdescription'] = 'あなたのアプリケーション
 $string['search'] = '検索';
 $string['searchtype'] = '検索タイプ';
 $string['searchusers1'] = '人を探す';
+$string['performsearchusers'] = '検索を実行する';
 $string['Query'] = '検索';
 $string['query'] = '検索';
 $string['querydescription'] = '検索語';
@@ -1418,9 +1436,14 @@ $string['revertisolation'] = 'あなたが継続したくない場合、config.p
 $string['owngroupsonlyprocessingtext'] = '「隔離インスティテューション」に加えて「<b>自分のグループのみ</b>」が有効にされました。この設定に準拠するためポートフォリオのアクセス権を更新する必要があります。少なくとも1つのグループに属していないアカウント保持者間でポートフォリオを共有していた場合、ポートフォリオは他のグループメンバとのみ共有できるため共有権限が削除されます。';
 $string['maharaversion'] = 'Maharaバージョン';
 $string['unabletopasteimage'] = 'あなたはドラッグ&ドロップではイメージを挿入できません。こちらのエディタのツールバーにある「画像の挿入・編集」ボタンから追加してください。';
+$string['welcome_back'] = 'おかえりなさい';
 $string['welcome'] = 'ようこそ';
+$string['pagination'] = 'ページネーション';
+$string['dashboard_greeting'] = 'おかえりなさい %s さん!';
 $string['site_messages'] = 'サイトメッセージ';
+$string['dashboard_ally_welcome'] = 'ウェルカムグリーティング';
 $string['dashboard_ally_description'] = 'ウェルカムメッセージ';
+$string['page_actions_region_aria'] = 'ページアクション';
 $string['accordions'] = 'アコーディオン';
 $string['accordionexample1'] = 'アコーディオン例1';
 $string['accordionexample2'] = 'アコーディオン例2';
@@ -1493,8 +1516,12 @@ $string['itemactive'] = 'アクティブアイテム';
 $string['dropdown_info'] = '基本的なドロップダウンメニューです。アイテムにはアイコンを使用できます。';
 $string['dropdowntext'] = 'テキスト入力可能ドロップダウンメニュー';
 $string['dropdowntext_info'] = '検索に使用されるドロップダウン切り替え可能なテキスト入力です。';
+$string['dropdownsearch'] = '検索:';
+$string['formelements'] = 'フォームエレメント';
+$string['formelements_info'] = 'いくつかのフォームエレメントが利用可能です。';
 $string['input'] = '入力';
 $string['inputtext'] = 'テキスト入力';
+$string['placeholdertext'] = 'プレースホルダテキスト';
 $string['inputfloating'] = 'フローティングラベル';
 $string['inputtextarea'] = 'テキストエリア';
 $string['inputfilebrowser'] = 'ファイルブラウザ';

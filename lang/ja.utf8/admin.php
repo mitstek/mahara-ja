@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-18 10:46:12 UTC
+ * @updated    2026-09-25 23:13:53 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -90,7 +90,7 @@ $string['manageinstitutions'] = 'インスティテューション管理';
 $string['webservicesmenu'] = 'ウェブサービス設定';
 $string['embeddedurls'] = '埋め込みURL';
 $string['sitesettings'] = 'サイト設定';
-$string['sitesettingssdesc'] = 'サイト名、言語、テーマ等の基本的な内容を設定します。';
+$string['sitesettingsdesc'] = '名称、言語およびテーマ等の基本的なサイト設定を設定します。';
 $string['staticpages'] = '固定ページ';
 $string['institutionstaticpages'] = 'インスティテューション固定ページ';
 $string['institutionstaticpages_help'] = '<h1>インスティテューション固定ページ</h1><p>変更はあなたのインスティテューションメンバにのみに表示されます。あなたがメンバに代わりにサイトのデフォルトコンテンツを表示させたいページでは「サイトデフォルトを使用する」を有効にしてください。</p><hr><h2>詳細情報</h2>
@@ -456,8 +456,8 @@ $string['homepageinfo1'] = 'ホームページおよびダッシュボード情�
 $string['siteoptions.homepageinfo_help'] = '<h1>ホームページおよびダッシュボード情報</h1><p>サイトに関する情報およびホームページでの使用方法を表示します。アカウント保持者はダッシュボードでその情報を秘匿できます。</p>';
 $string['homepageredirect'] = 'カスタムランディングページ';
 $string['siteoptions.homepageredirect_help'] = '<h1>カスタムランディングページ</h1><p>ログイン後に最初に表示されるページとしてダッシュボード以外のページを設定します。誰かが要ログインのリンクにアクセスした場合、そのリダイレクトが優先されます。</p>';
-$string['homepageredirecturl'] = 'ランディングページ';
-$string['homepageredirecturldescription'] = 'この設定を動作させるにはすべての登録済みの人がページにアクセスできる必要があります。';
+$string['homepageredirecturl'] = 'ランディングページURL';
+$string['siteoptions.homepageredirecturl_help'] = '<h1>ランディングページのRL</h1><p>ページがすべての人と共有されていることを確認してください。</p>';
 $string['hstsoverride'] = 'HSTSオーバーライド';
 $string['siteoptions.hstsoverride_help'] = '<h1>HSTSオーバーライド</h1><p>ダウンストリームサービスがすでにHTTP Strict Transport Security (HSTS) ヘッダを設定している場合、この設定を有効にして、2回設定されないようにします。</p>';
 $string['islandingpage'] = 'このページがサイトのカスタムランディングページとして使用されます。';
@@ -547,7 +547,7 @@ $string['siteoptions.surbl_help'] = '<h1>SURBL URL拒否リスト</h1><p>SURBL�
 $string['disableexternalresources'] = 'HTML内の外部リソースを無効にする';
 $string['siteoptions.disableexternalresources_help'] = '<h1>HTML内の外部リソースを無効にする</h1><p>この設定を有効にした場合、作成者はイメージ等の外部サイトのコンテンツをテキストおよびその他のHTMLコンテンツに埋め込みできなくなります。これはフィッシング攻撃を防ぐのに役立つため、セキュリティ上の理由から推奨されます。詳細は<a href="http://htmlpurifier.org/live/configdoc/plain.html#URI.DisableExternalResources">HTML Purifierドキュメンテーション</a>をご覧ください。</p>';
 $string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
-$string['tagssideblockmaxtagsdescription'] = 'タグクラウド内に表示されるデフォルトのタグ数です。';
+$string['tagssideblockmaxtags_help'] = '<h1>クラウド内の最大タグ数</h1><p>あなたのタグクラウドに表示するタグの最大数です。</p>';
 $string['trustedsites'] = '信頼できるサイト';
 $string['updatesitesettings'] = 'サイト設定を更新する';
 $string['usersallowedmultipleinstitutions'] = '人に複数インスティテューションを許可する';
@@ -570,7 +570,7 @@ $string['usersseenewthemeonlogin'] = '次回ログイン時、他の人に新し
 $string['viruschecking'] = 'ウイルスチェック';
 $string['siteoptions.viruschecking_help'] = '<h1>ウイルスチェック</h1><p>この設定を有効にした場合、アップロードされたすべてのファイルがClamAVを使用してウイルスチェックされます。あなたのサーバにClamAVをインストールする必要があります。多くのLinuxディストリビューションには<code>clamav</code>パッケージが含まれています。あなたは<a href="https://www.clamav.net">ClamAVウェブサイト</a>からダウンロードもできます。</p>';
 $string['whocancreategroups'] = 'グループ作成';
-$string['whocancreategroups_help'] = '<h1>グループ作成</h1><p>新しいグループを作成できる人を選択してください。</p>';
+$string['siteoptions.creategroups_help'] = '<h1>グループ作成</h1><p>新しいグループを作成できる人を選択してください。</p>';
 $string['whocancreatepublicgroups'] = 'パブリックグループ作成';
 $string['createpublicgroups_help'] = '<h1>パブリックグループ作成</h1><p>公開表示可能なグループを作成できる人を選択してください。</p><hr><h2>詳細</h2><p>パブリックグループでは誰でも (検索エンジンを含む)「About」ページおよびフォーラムディスカッションを閲覧できますが、フォーラム投稿またはプロファイル表示にはアカウントが必要です。</p><p>グループ管理者はメンバ一覧へのアクセスを制限できます。</p><p>config.phpで隔離インスティテューションが有効にされている場合、サイト管理者のみパブリックグループを作成できます。</p>';
 $string['wysiwyg'] = 'HTMLエディタ';
@@ -1185,9 +1185,9 @@ $string['institutionstaff'] = 'インスティテューションスタッフ';
 $string['institutionadmin'] = 'インスティテューション管理者';
 $string['institutionadmins'] = 'インスティテューション管理者';
 $string['institutionadministrator'] = 'インスティテューション管理者';
-$string['institutionadmindescription1'] = 'この人がこのインスティテューションのすべての人を管理できるようにします。';
+$string['edituser_institution.admin_help'] = '<h1>インスティテューション管理者</h1><p>この人がこのインスティテューションの他のすべてのメンバを管理できるようにします。</p>';
 $string['institutionsupportadmin'] = 'インスティテューションサポート管理者';
-$string['institutionsupportadmindescription'] = 'この人がこのインスティテューションの権限の少ない他の人 (例 メンバおよびスタッフ) として代理ログインすることを許可します。';
+$string['edituser_institution.supportadmin_help'] = '<h1>インスティテューションサポート管理者</h1><p>この人によるこのインスティテューションの他のメンバまたはスタッフへの代理ログインを許可します。</p>';
 $string['settingsfor'] = '設定:';
 $string['institutionmembers'] = 'インスティテューションメンバ';
 $string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
@@ -1238,9 +1238,9 @@ $string['editstaff1'] = 'スタッフを管理する';
 $string['editsupportadmins1'] = 'サポート管理者を管理する';
 $string['editadmins1'] = '管理者を管理する';
 $string['membershipexpiry'] = 'メンバシップ有効期限';
-$string['membershipexpirydescription'] = '人がインスティテューションから自動的に削除される日付です。';
+$string['membershipexpiry_help'] = '<h1>メンバーシップ有効期限</h1><p>人がインスティテューションから自動的に削除される日付です。</p>';
 $string['studentid'] = 'IDナンバ';
-$string['institutionstudentiddescription'] = 'インスティテューション固有の任意の識別子です。インスティテューションメンバはこのフィールドを編集できません。';
+$string['institutionstudentid_help'] = '<h1>IDナンバ</h1><p>インスティテューション固有のオプションIDです。このフィールドはインスティテューションメンバが編集できません。</p>';
 $string['userstodisplay'] = '表示する人:';
 $string['institutionusersrequesters1'] = 'リクエストされたインスティテューションメンバシップ';
 $string['institutionusersnonmembers1'] = 'リクエストされていないインスティテューションメンバシップ';
@@ -1333,7 +1333,6 @@ $string['registrationapprovedsuccessfully'] = '登録が正常に承認されま
 $string['registrationapprovedmessage'] = '登録メッセージ:';
 $string['registrationapproveddesc'] = '新しく登録した人への追加情報です。';
 $string['registrationdeniedreason'] = '拒否理由';
-$string['registrationdeniedreasondesc'] = 'サイト名が拒否された理由に関する情報です。';
 $string['registrationdeniedsuccessful'] = '登録が正常に拒否されました';
 $string['registrationdeniedunsuccessful'] = '登録拒否に失敗しました。';
 $string['registrationreason'] = '登録理由';
@@ -1727,15 +1726,12 @@ $string['lastupdated'] = '最終更新日時';
 $string['newprivacy'] = 'あなたのアカウントに入る前に以下に表示されている情報をお読みください。';
 $string['privacyagreement'] = '私は % に同意します。';
 $string['privacyagreementdescription'] = 'あなたは「Yes」の選択により上のプライバシ保護方針の条項に同意することになります。';
-$string['privacyagreedto'] = 'あなたは  %s の %s に同意しました。';
 $string['agreementsaved'] = '同意が保存されました。';
 $string['refuseprivacy'] = 'プライバシ保護方針または利用条件を拒否する';
 $string['privacyrefusaldetails'] = 'プライバシ保護方針または利用条件に同意しない場合、あなたのアカウントは利用停止されます。';
 $string['legalconsentrefusaldetails'] = '法的表示に同意しない場合、あなたのアカウントにアクセスできません。';
 $string['privacyrefusal'] = 'プライバシ保護方針を拒否しました。';
 $string['registerrefusal'] = 'あなたが %s に同意しない場合、アカウントは作成されません。';
-$string['registerprivacy'] = 'プライバシ保護方針をお読みください。プライバシ保護方針に同意しない場合、あなたはサイトでアカウントを作成できません。';
-$string['registertermsandconditions'] = '利用条件をお読みください。利用条件に同意しない場合、あなたはサイトでアカウントを作成できません。';
 $string['enterreason'] = '拒否理由をここに入力してください ...';
 $string['privacyrefusalnoreason'] = 'プライバシ保護方針または利用規約に同意しない場合、あなたは理由を提示する必要があります。';
 $string['privacylowcase'] = 'プライバシ保護方針';
