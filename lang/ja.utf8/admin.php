@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-25 23:13:53 UTC
+ * @updated    2026-09-27 23:09:45 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1333,6 +1333,7 @@ $string['registrationapprovedsuccessfully'] = '登録が正常に承認されま
 $string['registrationapprovedmessage'] = '登録メッセージ:';
 $string['registrationapproveddesc'] = '新しく登録した人への追加情報です。';
 $string['registrationdeniedreason'] = '拒否理由';
+$string['registrationdeniedreason_desc'] = 'あなたが登録を承認しない理由を提供してください。';
 $string['registrationdeniedsuccessful'] = '登録が正常に拒否されました';
 $string['registrationdeniedunsuccessful'] = '登録拒否に失敗しました。';
 $string['registrationreason'] = '登録理由';
@@ -1726,12 +1727,15 @@ $string['lastupdated'] = '最終更新日時';
 $string['newprivacy'] = 'あなたのアカウントに入る前に以下に表示されている情報をお読みください。';
 $string['privacyagreement'] = '私は % に同意します。';
 $string['privacyagreementdescription'] = 'あなたは「Yes」の選択により上のプライバシ保護方針の条項に同意することになります。';
+$string['privacyagreedto_help'] = '<h1>ステートメント同意</h1><p>あなたはこの %sに対して %s に同意しました。</p>';
 $string['agreementsaved'] = '同意が保存されました。';
 $string['refuseprivacy'] = 'プライバシ保護方針または利用条件を拒否する';
 $string['privacyrefusaldetails'] = 'プライバシ保護方針または利用条件に同意しない場合、あなたのアカウントは利用停止されます。';
 $string['legalconsentrefusaldetails'] = '法的表示に同意しない場合、あなたのアカウントにアクセスできません。';
 $string['privacyrefusal'] = 'プライバシ保護方針を拒否しました。';
 $string['registerrefusal'] = 'あなたが %s に同意しない場合、アカウントは作成されません。';
+$string['agreetoprivacy.privacy_help'] = '<h1>プライバシ保護方針</h1><p>プライバシ保護方針に同意しない場合、あなたはこのサイトでアカウントを作成できません。</p>';
+$string['agreetoprivacy.termsandconditions_help'] = '<h1>利用条件</h1><p>利用条件に同意しない場合、あなたはこのサイトでアカウントを作成できません。</p>';
 $string['enterreason'] = '拒否理由をここに入力してください ...';
 $string['privacyrefusalnoreason'] = 'プライバシ保護方針または利用規約に同意しない場合、あなたは理由を提示する必要があります。';
 $string['privacylowcase'] = 'プライバシ保護方針';
@@ -1829,8 +1833,14 @@ $string['reset_view_to_template_batch'] = 'リセットするページの上限�
 $string['reset_view_to_template_batch_complete'] = 'バッチコピー完了!';
 $string['reset_view_to_template_batch_info'] = '[注意] 「 %s 」のバッチのみ実行しています。';
 $string['reset_view_to_template_info'] = '[ログ] 処理中です: タイプ「 %s 」に一致するページのコンテンツをテンプレート (ID %s - 所有: %s 「 %s 」) に置き換えます。';
+$string['groupsettings.defaultreset_help'] = '<h1>デフォルトにリセットする</h1><p>上のすべてのオプションをデフォルト値にリセットします。</p>';
+$string['groupsettings.category_help'] = '<h1>グループカテゴリ</h1><p>グループを探しやすくするためにカテゴリを選択してください。</p>';
 $string['adduser.maildisabled_help'] = '<h1>メールを無効にする</h1><p>新しいアカウント保持者に対する主メールアドレスへの通知の送信を停止します。</p>';
 $string['uploadcsv.maildisabled_help'] = '<h1>メールを無効にする</h1><p>新しいアカウント保持者に対する主メールアドレスへの通知の送信を停止します。</p>';
+$string['adduser.wysiwyg_help'] = '<h1>HTMLエディタ</h1>
+<p>HTMLエディタはサイトの多くの場所で利用できます。テキストを<strong>太字</strong>または<i>イタリック</i>にする等、人はテキストを書式設定できます。これがない場合、あなたはプレインテキストのみで入力できます。</p>';
+$string['uploadcsv.wysiwyg_help'] = '<h1>HTMLエディタ</h1>
+<p>HTMLエディタはサイトの多くの場所で利用できます。テキストを<strong>太字</strong>または<i>イタリック</i>にする等、人はテキストを書式設定できます。これがない場合、あなたはプレインテキストのみで入力できます。</p>';
 $string['adduser.theme_help'] = '<h1>テーマ</h1>
 <p>あなたがサイトを閲覧する際のテーマを選択してください。この設定は他の人があなたのポートフォリオを閲覧する際のテーマには影響しません。ポートフォリオは常にインスティテューションテーマまたはページごとに選択可能な場合はあなたがページで指定した特定のテーマに基づいて表示されます。</p>';
 $string['uploadcsv.theme_help'] = '<h1>テーマ</h1>
