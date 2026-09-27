@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-12 14:21:09 UTC
+ * @updated    2026-09-27 15:35:07 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1438,7 +1438,7 @@ $string['cli_portfolio_export_users'] = 'ドライラン: %s アカウントお�
 $string['cli_portfolio_export_fromcsv'] = 'CSVファイルからアカウントを選択する';
 $string['cli_portfolio_export_nousers'] = 'アカウントが見つかりませんでした。';
 $string['cli_portfolio_export_username'] = 'ユーザ名 %s のエクスポートを開始しました。';
-$string['cli_portfolio_export_username_skipped'] = '... スキップ: %s のエクスポート対象ポートフォリオはありません。';
+$string['cli_portfolio_export_username_skipped'] = '... スキップ: %s のエクスポート対象ポートフォリオがありません。';
 $string['cli_portfolio_export_userfile_failed'] = 'エクスポートに失敗しました。理由: %s';
 $string['cli_portfolio_export_zip'] = '同梱ZIPファイルを作成しています。お待ちください ...';
 $string['cli_portfolio_export_zipout'] = '%s アカウントを %s にエクスポートしました。';
