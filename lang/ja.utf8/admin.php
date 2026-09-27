@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-27 15:35:28 UTC
+ * @updated    2026-09-27 23:21:07 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1333,6 +1333,7 @@ $string['registrationapprovedsuccessfully'] = '登録が正常に承認されま
 $string['registrationapprovedmessage'] = '登録メッセージ:';
 $string['registrationapproveddesc'] = '新しく登録した人への追加情報です。';
 $string['registrationdeniedreason'] = '拒否理由';
+$string['registrationdeniedreason_desc'] = 'あなたが登録を承認しない理由を提供してください。';
 $string['registrationdeniedsuccessful'] = '登録が正常に拒否されました';
 $string['registrationdeniedunsuccessful'] = '登録拒否に失敗しました。';
 $string['registrationreason'] = '登録理由';
@@ -1694,6 +1695,16 @@ $string['cli_auth_method_to_move'] = '「 %s 」アカウントをID「 %s 」�
 $string['cli_auth_method_dry_run_only'] = 'ドライランのみ - %s アカウントが認証方法を変更しました。%s アカウントを手動更新する必要があります。';
 $string['cli_auth_method_change_done'] = '%s アカウントが認証方法を変更しました。%s アカウントを手動更新する必要があります。';
 $string['cli_auth_method_ignore_admins'] = '認証方法変更時にサイト管理者を無視します。';
+$string['cli_get_config_info'] = 'このコマンドラインPHPスクリプトはMahara設定から値を取得します。';
+$string['cli_get_config_option_key'] = '取得する成設定名です。この引数を省略した場合、すべての設定値が表示されます。';
+$string['cli_get_config_option_default'] = '指定された「--key」が設定に存在しない場合に出力する値です。';
+$string['cli_get_config_option_init'] = 'Maharaを初期化してランタイム設定にアクセスします。';
+$string['cli_get_config_option_json'] = 'JSON値をデコードしないでください (JSONを表示します)。これは出力フォーマッタではありません (「--format」をご覧ください)。';
+$string['cli_get_config_option_unserialize'] = '表示する前にPHP unserialize()で値をシリアライズ解除します。';
+$string['cli_get_config_option_format'] = '値をどのように出力するか決定します。サポートされている値は次のとおりです:「print」はprint_r()を使用します (デフォルト)。「php」はvar_export()を使用します。「printx」はほとんどの値にprint_r()を使用しますが、ブール値の場合またはprint_r()が空の文字列を返す場合はvar_export()を使用します。「json」はjson_encode()を使用します。';
+$string['cli_get_config_error_init_json'] = '致命的エラー: --initオプションおよび--jsonオプションには互換性がありません。
+Maharaの初期化ではすべてのJSON設定値をデコードします。';
+$string['cli_get_config_error_unserialize'] = '致命的エラー: シリアライズを解除できません。';
 $string['behatvariables'] = 'Behatステップ';
 $string['behatvariables_help'] = '<h1>Behatステップ</h1>
 <p>利用可能なすべてのBehatステップおよびそれらがテストのどこで使用されているか表示します。すべてのテストはコードベースの<code>/test/behat/features</code>にあります。機能行の変数はグループ化を容易にするために「？」として表示されます。実際の行には正しい値が表示されます。</p>';
@@ -1733,6 +1744,8 @@ $string['privacyrefusaldetails'] = 'プライバシ保護方針または利用�
 $string['legalconsentrefusaldetails'] = '法的表示に同意しない場合、あなたのアカウントにアクセスできません。';
 $string['privacyrefusal'] = 'プライバシ保護方針を拒否しました。';
 $string['registerrefusal'] = 'あなたが %s に同意しない場合、アカウントは作成されません。';
+$string['agreetoprivacy.privacy_help'] = '<h1>プライバシ保護方針</h1><p>プライバシ保護方針に同意しない場合、あなたはこのサイトでアカウントを作成できません。</p>';
+$string['agreetoprivacy.termsandconditions_help'] = '<h1>利用条件</h1><p>利用条件に同意しない場合、あなたはこのサイトでアカウントを作成できません。</p>';
 $string['enterreason'] = '拒否理由をここに入力してください ...';
 $string['privacyrefusalnoreason'] = 'プライバシ保護方針または利用規約に同意しない場合、あなたは理由を提示する必要があります。';
 $string['privacylowcase'] = 'プライバシ保護方針';
@@ -1830,8 +1843,14 @@ $string['reset_view_to_template_batch'] = 'リセットするページの上限�
 $string['reset_view_to_template_batch_complete'] = 'バッチコピー完了!';
 $string['reset_view_to_template_batch_info'] = '[注意] 「 %s 」のバッチのみ実行しています。';
 $string['reset_view_to_template_info'] = '[ログ] 処理中です: タイプ「 %s 」に一致するページのコンテンツをテンプレート (ID %s - 所有: %s 「 %s 」) に置き換えます。';
+$string['groupsettings.defaultreset_help'] = '<h1>デフォルトにリセットする</h1><p>上のすべてのオプションをデフォルト値にリセットします。</p>';
+$string['groupsettings.category_help'] = '<h1>グループカテゴリ</h1><p>グループを探しやすくするためにカテゴリを選択してください。</p>';
 $string['adduser.maildisabled_help'] = '<h1>メールを無効にする</h1><p>新しいアカウント保持者に対する主メールアドレスへの通知の送信を停止します。</p>';
 $string['uploadcsv.maildisabled_help'] = '<h1>メールを無効にする</h1><p>新しいアカウント保持者に対する主メールアドレスへの通知の送信を停止します。</p>';
+$string['adduser.wysiwyg_help'] = '<h1>HTMLエディタ</h1>
+<p>HTMLエディタはサイトの多くの場所で利用できます。テキストを<strong>太字</strong>または<i>イタリック</i>にする等、人はテキストを書式設定できます。これがない場合、あなたはプレインテキストのみで入力できます。</p>';
+$string['uploadcsv.wysiwyg_help'] = '<h1>HTMLエディタ</h1>
+<p>HTMLエディタはサイトの多くの場所で利用できます。テキストを<strong>太字</strong>または<i>イタリック</i>にする等、人はテキストを書式設定できます。これがない場合、あなたはプレインテキストのみで入力できます。</p>';
 $string['adduser.theme_help'] = '<h1>テーマ</h1>
 <p>あなたがサイトを閲覧する際のテーマを選択してください。この設定は他の人があなたのポートフォリオを閲覧する際のテーマには影響しません。ポートフォリオは常にインスティテューションテーマまたはページごとに選択可能な場合はあなたがページで指定した特定のテーマに基づいて表示されます。</p>';
 $string['uploadcsv.theme_help'] = '<h1>テーマ</h1>
@@ -1840,6 +1859,7 @@ $string['adduser.multipleblogs_help'] = '<h1>複数日誌</h1><p>デフォルト
 $string['uploadcsv.multipleblogs_help'] = '<h1>複数日誌</h1><p>デフォルトではあなたはサイトに1つの日誌を持てます。複数日誌を有効にした場合、タグの使用だけではなく、あなたのコンテンツをより簡単に整理できるようになります。</p>';
 $string['adduser.resizeonuploaduserdefault_help'] = '<h1>アップロード時に大きなイメージをリサイズする</h1><p>この設定を有効にした場合、最大サイズを超えるイメージはアップロード時にリサイズされます。あなたは個別のアップロードでこれを無効にできます。</p>';
 $string['uploadcsv.resizeonuploaduserdefault_help'] = '<h1>アップロード時に大きなイメージをリサイズする</h1><p>この設定を有効にした場合、最大サイズを超えるイメージはアップロード時にリサイズされます。あなたは個別のアップロードでこれを無効にできます。</p>';
+$string['uploadcsv.showhomeinfo_help'] = '<h1>このサイトに関する情報をダッシュボードに表示する</h1> <p>この設定を有効にした場合、このサイトに関する情報がダッシュボードに表示されます。</p>';
 $string['uploadcsv.file_help'] = '<h1>CSVファイル</h1>
 <p>あなたがアップロードしたいグループを含むCSVファイルを選択してください。</p>';
 $string['uploadmemberscsv.file_help'] = '<h1>CSVファイル</h1>
