@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-27 23:21:07 UTC
+ * @updated    2026-09-28 22:46:00 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1860,6 +1860,20 @@ $string['uploadcsv.multipleblogs_help'] = '<h1>複数日誌</h1><p>デフォル�
 $string['adduser.resizeonuploaduserdefault_help'] = '<h1>アップロード時に大きなイメージをリサイズする</h1><p>この設定を有効にした場合、最大サイズを超えるイメージはアップロード時にリサイズされます。あなたは個別のアップロードでこれを無効にできます。</p>';
 $string['uploadcsv.resizeonuploaduserdefault_help'] = '<h1>アップロード時に大きなイメージをリサイズする</h1><p>この設定を有効にした場合、最大サイズを超えるイメージはアップロード時にリサイズされます。あなたは個別のアップロードでこれを無効にできます。</p>';
 $string['uploadcsv.showhomeinfo_help'] = '<h1>このサイトに関する情報をダッシュボードに表示する</h1> <p>この設定を有効にした場合、このサイトに関する情報がダッシュボードに表示されます。</p>';
+$string['usersearch_help'] = '<h1>人検索</h1>
+<p>管理者およびスタッフはロールに基づいてアカウントを検索できます:</p>
+<dl>
+  <dt>サイト管理者</dt>
+  <dd>サイト上の人を検索してアカウント設定を表示およびバルク操作を実行します。</dd>
+  <dt>インスティテューション管理者</dt>
+  <dd>インスティテューション内の人を検索してアカウント設定を表示およびバルク操作を実行します。</dd>
+  <dt>インスティテューションサポートスタッフ</dt>
+  <dd>インスティテューション内で自分よりパーミッションが少ない人を検索してアカウント設定にアクセスします。</dd>
+  <dt>サイトスタッフ</dt>
+  <dd>すべてのアカウント保持者に関する基本情報を表示して報告対象者を選択します。</dd>
+  <dt>インスティテューションスタッフ</dt>
+  <dd>インスティテューション内のアカウント保持者に関する基本情報を表示して報告対象者を選択します。</dd>
+</dl>';
 $string['uploadcsv.file_help'] = '<h1>CSVファイル</h1>
 <p>あなたがアップロードしたいグループを含むCSVファイルを選択してください。</p>';
 $string['uploadmemberscsv.file_help'] = '<h1>CSVファイル</h1>
