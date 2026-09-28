@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-25 23:03:19 UTC
+ * @updated    2026-09-28 22:25:06 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -224,6 +224,7 @@ $string['header_last_updated'] = '最終更新日時';
 $string['viewtags'] = 'ページタグ';
 $string['youhavenottaggedanythingyet'] = 'あなたはまだ何もタグ付けしていません。';
 $string['mytags'] = 'マイタグ';
+$string['show_tag_frequency'] = 'タグ頻度を表示する';
 $string['Tag'] = 'タグ';
 $string['itemstaggedwith'] = '「 %s 」でタグ付けされたアイテム';
 $string['nitems'] = '%s アイテム';
@@ -278,6 +279,7 @@ $string['confirmdeletetag'] = '本当にあなたのポートフォリオのす�
 $string['confirmdeletetagspecific'] = '本当にあなたのポートフォリオのすべてのアイテムからタグ「 %s 」を削除してもよろしいですか?';
 $string['deletetagdescription'] = 'あなたのポートフォリオのすべてのアイテムからこのタグを削除します。';
 $string['tagupdatedsuccessfully'] = 'タグが正常に更新されました。';
+$string['tagrenamedtofrom'] = 'タグを「 %s 」(変更前: %s) を正常にリネームしました。';
 $string['tagnotupdated'] = 'タグ未更新';
 $string['tagnotchanged'] = 'タグ未更新 (更新未送信)';
 $string['tagdeletedsuccessfully'] = 'タグが正常に削除されました。';
@@ -1530,10 +1532,15 @@ $string['inputcheckbox'] = 'チェックボックス';
 $string['radiobuttons'] = 'ラジオボタン';
 $string['modals'] = 'モーダル';
 $string['modals_info'] = 'モーダルウィンドウはブラウザウィンドウの中央に表示されて自動的にリサイズされます。';
+$string['modallaunch'] = 'デモモーダルを起動する';
 $string['modalheader'] = 'モーダルヘッダ';
 $string['required'] = '「 * 」がマークされたフィールドは必須です。';
 $string['addcontent'] = 'コンテンツを追加する';
 $string['navigation'] = 'ナビゲーション';
+$string['headermenu'] = 'ヘッダメニュートグル';
+$string['headermenu_info'] = 'ヘッダにはメインナビゲーションの一部ではないアイコントグルが含まれています。';
+$string['navigationleft'] = '左ナビゲーション';
+$string['navigationleft_info'] = 'メインナビゲーションはブラウザウィンドウの左側にあります。ヘッダのトグルを使用して展開または折りたたみできます。ナビゲーションメニューには「メイン」「グループ」「管理者」の3つがあります。';
 $string['mainnavitem'] = 'メインナビゲーションアイテム';
 $string['groupmenu'] = 'グループメニュー';
 $string['groupnavitem'] = 'グループナビゲーションアイテム';
