@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-28 23:37:45 UTC
+ * @updated    2026-09-29 15:08:20 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1631,7 +1631,7 @@ $string['cli_param_dryrun_export'] = '何が起きるか確認するためのド
 $string['cli_time_elapsed'] = '所要時間: %s';
 $string['cli_outcomes_delete_description'] = '既存のアウトカムにリンクされていない場合、アウトカム関連テーブルからデータを削除します。';
 $string['cli_outcomes_typefile_description'] = 'アウトカムタイプテーブルデータを含む読み込み可能なCSVファイルへのパスです。例) /tmp/outcome_types_tables.csv';
-$string['cli_outcomes_subjectfile_description'] = 'アウトカム件名テーブルデータを含む読み込み可能なCSVファイルへのパスです。例) /tmp/outcomes_subjects_tables.csv';
+$string['cli_outcomes_subjectfile_description'] = 'アウトカムテーマテーブルデータを含む読み込み可能なCSVファイルへのパスです。例) /tmp/outcomes_subjects_tables.csv';
 $string['cli_outcomes_institution_description'] = '「delete」と併用することで指定したインスティテューションからのみアイテムを削除します。例) mahara';
 $string['cli_outcomes_institutionnotfound'] = 'インスティテューション「 %s 」が見つかりませんでした。';
 $string['cli_outcomes_institution_enable'] = 'インスティテューションの「アウトカムポートフォリオ」設定を有効にします。';
@@ -1639,8 +1639,8 @@ $string['cli_outcomes_info'] = 'アウトカム関連テーブル「outcome_cate
 $string['cli_outcomes_bad_institution'] = 'インスティテューション %s の「アウトカムポートフォリオ」設定が有効である必要があります。この設定を自動的に有効にするにはコマンドを「--enable」付きで実行してください。';
 $string['cli_outcomes_type_headers_error'] = 'あなたのファイルのヘッダを確認してください。ヘッダは次のようにする必要があります: Outcome category | Institution | Outcome type | Outcome type abbreviation | CSS class';
 $string['cli_outcomes_subject_headers_error'] = 'あなたのファイルのヘッダを確認してください。ヘッダは次のようにする必要があります: Outcome subject category | Institution | Subject | Subject abbreviation';
-$string['cli_outcomes_subject_added'] = '件名データがデータベースに追加されました。';
-$string['cli_outcomes_no_subject_added'] = '件名データはデータベースに追加されませんでした。テーブルにすでに入力されている可能性があります。';
+$string['cli_outcomes_subject_added'] = 'テーマデータがデータベースに追加されました。';
+$string['cli_outcomes_no_subject_added'] = 'テーマデータはデータベースに追加されませんでした。テーブルにすでに入力されている可能性があります。';
 $string['cli_outcomes_type_added'] = 'アウトカムタイプデータがデータベースに追加されました。';
 $string['cli_outcomes_no_type_added'] = 'アウトカムタイプデータはデータベースに追加されませんでした。テーブルにすでに入力されている可能性があります。';
 $string['cli_outcomes_deleteing'] = '未使用アウトカム関連データを削除する ...';
