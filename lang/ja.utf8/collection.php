@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-12 00:41:29 UTC
+ * @updated    2026-10-05 01:53:08 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -23,8 +23,9 @@ $string['accessignored'] = '一部のシークレットURLアクセスタイプ�
 $string['add'] = '追加';
 $string['addviews'] = 'ページを追加する';
 $string['addviewstocollection'] = 'ページをコレクションに追加する';
-$string['autocopytemplate'] = '現在の自動コピーテンプレート';
-$string['autocopytemplatedesc'] = 'このコレクションをすべての新しいアカウントにコピーしたい場合、この設定を有効にしてください (あなたが設定した場合、cronジョブに基づき処理されます)。コレクションのコピーを許可するための共有パーミッションが自動的に設定されます。あなたはテンプレートも「Yes」に設定する必要があります。';
+$string['autocopytemplate'] = '現在の自動コピーコレクションテンプレート';
+$string['edit.autocopytemplate_help'] = '<h1>現在の自動コピーコレクションテンプレート</h1>
+<p>この設定を有効にした場合、あなたがcronジョブを設定している場合はcronジョブに基づいてすべての新しいアカウントにこのコレクションが自動的にコピーされます。共有権限はコレクションのコピーを許可するよう自動的に設定されます。あなたは上の「テンプレート」も有効にする必要があります。</p>';
 $string['autocopytemplate_short'] = '自動コピー';
 $string['back'] = '戻る';
 $string['cantlistgroupcollections'] = 'あなたはグループコレクションの一覧表示を許可されていません。';
@@ -52,6 +53,8 @@ $string['collectioneditaccess1'] = 'あなたはこのコレクション内の %
 $string['collectionconfirmdelete1'] = '<p>本当にこのコレクションを削除してもよろしいですか? このコレクション内のすべてのページも削除されます。あなたが個別のページのみ削除したい場合、この操作を中止して該当するページを削除してください。</p>
 <p>すべてを削除する前に<a href="%sexport/index.php?collection=%s">エクスポート</a>によるあなたのポートフォリオのバックアップ作成をご検討ください。</p>
 <p><strong>注意:</strong> あなたがこのコレクションの削除を決定した場合、あなたがページでリンクしたファイルおよび日誌エントリすべてはまだ利用できます。しかし、ページに置かれたすべてのテキストブロックおよびコメントはページとともに削除されます。</p>';
+$string['collection_delete_confirm'] = 'これによりコレクションおよびそのすべてのページが完全に削除されます。
+<p>最初に<a href="%sexport/index.php?collection=%s">あなたのポートフォリオをエクスポート</a>してバックアップを保持できます。</p> <p>テキストセクションおよびコメントは削除されます。リンクされたファイルおよび日誌は保持されます。';
 $string['collectioncreatedsuccessfully'] = 'コレクションが正常に作成されました。';
 $string['collectioncreatedsuccessfullyshare'] = 'あなたのコレクションが正常に作成されました。以下のアクセスリンクを使用してあなたのコレクションを他の人と共有してください。';
 $string['collectiondeleted'] = 'コレクションが正常に削除されました。';
@@ -98,6 +101,7 @@ $string['noviews'] = 'ページはありません。';
 $string['overrideaccess'] = 'アクセスをオーバーライドする';
 $string['onlyactivetemplatewarning'] = 'これはこのインスティテューション内のみでの自動コピーテンプレートです。この設定の変更によりテンプレートは新しいアカウントに自動的にコピーされないようになります (あなたが設定した場合、cronジョブに基づき処理されます)。';
 $string['updatingautocopytemplatewarning'] = '1つのコレクションのみインスティテューションの有効な自動コピーテンプレートにできます。このコレクションをインスティテューション「 %s 」の自動コピーテンプレートに設定した場合、自動コピーコレクション「 %s 」は無効となります。無効にされた自動コピーコレクションはインスティテューション内で共有されなくなります。';
+$string['confirm_delete_collection'] = '削除を承認する';
 $string['manageoutcomes'] = 'アウトカムを管理する';
 $string['addoutcomelink'] = 'アウトカムを追加する';
 $string['confirmdeleteoutcomedb'] = '本当にこのアウトカムを削除してもよろしいですか? あなたはこの操作を元に戻せません。';
@@ -105,11 +109,10 @@ $string['confirmdeleteoutcome'] = '本当にこのアウトカムを削除して
 $string['deleteactivitiesfirst'] = '最初に関連する活動ページを削除する必要があります。';
 $string['deletefailedoutcome'] = '「アウトカム %s」の削除に失敗しました。';
 $string['shorttitle'] = '短いタイトル';
-$string['shorttitledesc'] = '短いヘッディングとして使用するためにこのアウトカムの短いタイトルを入力してください。最大半角70文字入力できます。このフィールドは必須です。';
+$string['shorttitle_help'] = '<h1>短いタイトル</h1><p>このアウトカムの短いタイトルを入力して短いヘッディングとして使用します。最大半角70文字まで入力できます。このフィールドは必須です。</p>';
 $string['fulltitle'] = 'フルタイトル';
-$string['fulltitledesc'] = 'このアウトカムのフルタイトルを入力してください。最大半角255文字入力できます。';
+$string['fulltitle_help'] = '<h1>フルタイトル</h1><p>このアウトカムの完全なタイトルを入力してください。</p>';
 $string['outcometype'] = 'アウトカムタイプ';
-$string['outcometypedesc'] = 'このアウトカムのタイプを選択してください。';
 $string['outcome'] = 'アウトカム';
 $string['outcometitle'] = 'アウトカム %s';
 $string['outcomesaveerror'] = 'アウトカム保存中にエラーが発生しました。';
@@ -153,7 +156,6 @@ $string['savecollection'] = 'コレクションを保存する';
 $string['smartevidence'] = 'スマートエビデンス';
 $string['smartevidencedesc'] = 'スマートエビデンスフレームワークを管理します。';
 $string['template'] = 'テンプレート';
-$string['templatedesc'] = 'あなたがこのコレクション内ページをページごとに切り替えなくてもすべてテンプレートにしたい場合、この設定を有効にしてください。テンプレートにコピーされたページも自動的にテンプレートに変更されます。ブロックの削除は自動的に停止されますが、停止を無効にもできます。';
 $string['update'] = '更新';
 $string['usecollectionname'] = 'コレクション名を使用してもよろしいですか?';
 $string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしたままにしてください。';
@@ -199,16 +201,9 @@ $string['verified'] = '検証済み';
 $string['needsverified'] = '要検証';
 $string['verification'] = '検証';
 $string['progresspage'] = 'ポートフォリオ完了';
-$string['progresspagedescription'] = 'コレクションのポートフォリオ完了ページのデフォルトレイアウトをセットアップします。';
 $string['progressportfolios'] = 'ポートフォリオカウント';
 $string['progressverifiers'] = 'レビュアパーセンテージ';
 $string['activitypage'] = '活動ページ';
-$string['sharedviewverifiedunchecked'] = '%s (%s) はまだレビューされていません。';
-$string['sharedviewverifiedchecked'] = '%s (%s) はレビューされました。';
-$string['userhasremovedaccesssubject'] = '%s が「 %s 」へのアクセスを削除しました。';
-$string['ownerhasremovedaccesssubject'] = '%s が「 %s 」へのあなたのアクセスを取り消しました。';
-$string['revokedbyowner'] = 'オーナがアクセスを取り消しました。';
-$string['youhavebeengivenaccess'] = 'あなたには次のアクセスが与えられています';
 $string['undoverification'] = 'ステートメントをリセットする';
 $string['undoverificationformtitle'] = 'ステートメントをリセットする';
 $string['undoverificationdescription'] = 'あなたがリセットしたいステートメントの1つを選択してください。続けた場合、あなたのステートメントのリセットを許可された人に通知されます。リクエストが処理された場合、承認は削除されます。また、あなたはステートメントを再度承認できます。';
@@ -223,7 +218,13 @@ $string['undoreportmessage'] = 'ステートメント「 %s 」(ポートフォ�
 $string['accessdeniedundo'] = 'ステートメントはすでにリセットされています。これ以上、あなたはポートフォリオにアクセスできません。';
 $string['undonesubject'] = 'ステートメントのリセットリクエストレビュー完了';
 $string['undonemessage'] = '最初のステートメント承認者からのリクエストにより %s がステートメント「 %s 」(ポートフォリオ「 %s 」) をリセットしました。';
+$string['sharedviewverifiedunchecked'] = '%s (%s) はまだレビューされていません。';
+$string['sharedviewverifiedchecked'] = '%s (%s) はレビューされました。';
+$string['userhasremovedaccesssubject'] = '%s が「 %s 」へのアクセスを削除しました。';
+$string['ownerhasremovedaccesssubject'] = '%s が「 %s 」へのあなたのアクセスを取り消しました。';
 $string['owngrouponlyremovedaccesssubject'] = '「 %s 」へのアクセスが削除されました。';
+$string['revokedbyowner'] = 'オーナがアクセスを取り消しました。';
+$string['youhavebeengivenaccess'] = 'あなたには次のアクセスが与えられています';
 $string['userhasremovedaccess'] = '%s はポートフォリオ「 %s 」にアクセスできないようになりました。';
 $string['userrevokereason'] = '理由は次のとおりです:';
 $string['removemyaccess'] = '私のアクセスを削除する';
