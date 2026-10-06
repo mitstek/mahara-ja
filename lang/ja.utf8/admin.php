@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-04 15:00:19 UTC
+ * @updated    2026-10-06 00:24:06 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1682,11 +1682,11 @@ $string['cli_auth_method_default_remote'] = '欠落しているリモート名�
 $string['cli_auth_method_list'] = '利用可能な認証方法を一覧表示する';
 $string['cli_auth_method_skip'] = '更新時に問題のあるアカウントをスキップして最後にプリントアウトする';
 $string['cli_auth_method_auth_ids_required'] = 'あなたは認証方法に「from」IDおよび「to」IDの両方を指定する必要があります。';
-$string['cli_auth_method_only_one_auth'] = '認証方法は1つのみです。ウェブサイトから新しい認証方法を追加してください。';
+$string['cli_auth_method_only_one_auth'] = '認証方法は1つしかありません。ウェブサイトから新しい認証方法を追加してください。';
 $string['cli_auth_method_auth_ids_matching'] = '認証方法が重複しています。あなたは「from」および「to」に異なるIDを指定する必要があります。';
 $string['cli_auth_method_from_invalid'] = '「from 」認証IDが無効です。';
 $string['cli_auth_method_to_invalid'] = '「to」認証IDが無効です。';
-$string['cli_auth_method_done'] = '新しい認証方法へのアカウント移動を完了しました!';
+$string['cli_auth_method_done'] = 'アカウントが新しい認証方法に移行されました。';
 $string['cli_auth_method_unable_to_move_account_skipped'] = '「 %s 」アカウントをID「 %s 」の認証方法に移動できません。アカウント「 %s 」はすでにリモートユーザ名「 %s 」を使用しています。';
 $string['cli_auth_method_unable_to_move_account_skipped_missing'] = 'アカウントにリモートユーザ名が設定されていないため、「 %s 」アカウントをID「 %s 」の認証方法に移動できません。';
 $string['cli_auth_method_unable_to_continue'] = '続行できません。ドライランで問題を発見および修正するか、「スキップ 」オプションで実行してください。';
