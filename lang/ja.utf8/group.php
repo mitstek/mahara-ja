@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-09 20:56:44 UTC
+ * @updated    2026-10-07 06:42:05 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -139,7 +139,7 @@ $string['hiddengroup'] = 'グループを秘匿する';
 $string['hidden_help'] = 'このグループを「グループ」ページで秘匿します。';
 $string['hidemembers'] = 'メンバシップを秘匿する';
 $string['hidemembersfrommembers'] = 'メンバからメンバシップを秘匿する';
-$string['friendinvitations'] = 'フレンドの招待';
+$string['friendinvitations'] = 'フレンド招待';
 $string['invitefriends'] = 'フレンドを招待する';
 $string['Recommendations'] = 'レコメンデーション';
 $string['suggesttofriends'] = 'フレンドに勧める';
