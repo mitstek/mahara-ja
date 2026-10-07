@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-05 01:53:08 UTC
+ * @updated    2026-10-07 06:35:07 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -156,10 +156,12 @@ $string['savecollection'] = 'コレクションを保存する';
 $string['smartevidence'] = 'スマートエビデンス';
 $string['smartevidencedesc'] = 'スマートエビデンスフレームワークを管理します。';
 $string['template'] = 'テンプレート';
+$string['edit.template_help'] = '<h1>テンプレート</h1><p>この設定を有効にした場合、このコレクション内のすべてのページがテンプレートに変更されるため、それぞれのページを個別に更新する必要がなくなります。コレクションに追加されたページも自動的にテンプレートページになります。</p>';
 $string['update'] = '更新';
 $string['usecollectionname'] = 'コレクション名を使用してもよろしいですか?';
 $string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしたままにしてください。';
 $string['numviewsincollection'] = 'コレクション %s ページ';
+$string['numviewsincollection_ally'] = '選択してコレクション %s ページを表示する';
 $string['viewsaddedtocollection1'] = '%s ページをコレクションに追加する';
 $string['viewsaddedtocollection1different'] = '%s ページがコレクションに追加されました。コレクション内すべてのページの共有アクセスが変更されました。';
 $string['viewsaddedaccesschanged'] = '次のページのアクセスパーミッションが変更されました:';
@@ -174,6 +176,7 @@ $string['outcomeportfolio'] = 'アウトカムポートフォリオ';
 $string['outcomeportfoliodesc'] = 'コレクションで管理されるアウトカム付きコレクションを作成します。';
 $string['outcomecategory'] = 'アウトカムカテゴリ';
 $string['outcomecategorydesc'] = 'あなたがこのポートフォリオで使用したいアウトカムのカテゴリを選択してください。';
+$string['outcomecategorymissing1'] = 'インスティテューション「 %s 」のアウトカムカテゴリがありません。このインスティテューションで使用するアウトカムカテゴリをデータベースに追加してください。これらは「populate_outcome_tables.php」CLIスクリプトで追加できます。';
 $string['outcomes'] = 'アウトカム';
 $string['outcomesoverallcompletion'] = 'アウトカムの総合的完成度';
 $string['copiedparticle'] = 'コピー完了 %s';
@@ -195,12 +198,16 @@ $string['viewingpage'] = 'あなたの現在地 - ページ';
 $string['navtopage'] = 'ページに移動する:';
 $string['pageincollectiontitle'] = 'このページはコレクション「 %s 」の一部です。';
 $string['overallcompletion'] = '承認および検証の全体的な完了状況';
+$string['edit.progresscompletion_help'] = '<h1>ポートフォリオ完了</h1> <p>この設定を有効にした場合、「ポートフォリオ完了」ページがこのコレクションの先頭に追加されます。</p>';
 $string['signedoff'] = '承認済み';
 $string['needssignedoff'] = '要承認';
 $string['verified'] = '検証済み';
 $string['needsverified'] = '要検証';
 $string['verification'] = '検証';
 $string['progresspage'] = 'ポートフォリオ完了';
+$string['progress_help'] = '<h1>ポートフォリオ完了</h1>
+<p>このページにはポートフォリオ作成者により承認され検証待ち (必要な場合) のコレクション内すべてのページが表示されます。プログレスバーには承認および検証の両方を考慮した全体的な進捗状況が表示されます。</p>
+<p>ポートフォリオ作成者のみここまたは個々のページでページを承認できます。「マネージャ」アクセス権のある人はページを検証できます。検証はポートフォリオ作成者が承認を取り消した場合のみ取り消せます。</p>';
 $string['progressportfolios'] = 'ポートフォリオカウント';
 $string['progressverifiers'] = 'レビュアパーセンテージ';
 $string['activitypage'] = '活動ページ';
@@ -253,3 +260,4 @@ $string['linktosubmissionoriginallink'] = '<a href="%s">%s</a>';
 $string['linktosubmissionoriginaldeleted'] = '削除済み';
 $string['linktosubmissionoriginaldescription'] = 'このポートフォリオは提出を目的として作成されたコピーです。あなたはリンクでオリジナルポートフォリオに移動できます。';
 $string['linktosubmissionoriginaldeleteddescription'] = 'このポートフォリオは提出を目的として作成されたコピーです。オリジナルポートフォリオは削除されました。';
+$string['edit.framework_help'] = '<h1>スマートエビデンスフレームワーク</h1><p>あなたのポートフォリオに関連付けるコンピテンシフレームワークを選択してください。</p>';
