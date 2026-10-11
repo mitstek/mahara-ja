@@ -1,54 +1,70 @@
 <?php
-/**
- *
- * @package    mahara
- * @subpackage lang (Japanese)
- * @translator Mitsuhiro Yoshida (https://mitstek.com/)
- * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-03-05 01:39:34 UTC
- * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
- * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
- *
- */
 
 defined('INTERNAL') || die();
 
-$string['aboutdefaultcontent'] = '<h2>私たちについて</h2>
+$string['aboutdefaultcontent'] = '<h2>Maharaとは</h2>
 
 <p>あなたの組織またはインストールに関するテキストをここに追加してください。</p>
 
-<p>[<b>あなたの組織名</b>]は<a href="https://mahara.org">Mahara</a>により構築されています。Maharaは (GNU General Public License 一般公衆利用許諾契約書の下)、無償のオープンソースソフトウェアとして提供されます。つまり、以下の条件に同意することであなたにMaharaのコピー、使用および修正が許可されていることを意味します:</p>
+<p>[<b>あなたの組織名</b>]は<a href="https://mahara.org">Mahara</a>により構築されています。Maharaは (GNU General Public License 一般公衆利用許諾契約書の下)、無償のオープンソースソフトウェアとして提供されます。つまり、以下の条件に同意することによりあなたにMaharaのコピー、使用および修正が許可されていることを意味します:</p>
 
 <ul>
 <li>他の人にソースコードを提供する。</li>
 <li>オリジナルのライセンスおよび著作権表示を修正または削除しない。</li>
 <li>これと同じライセンスを派生物にも適用する。</li>
-</ul>';
+</ul>
+';
 $string['homedefaultcontent'] = '<h1>ようこそ</h1>
 
 <p>このテキストを %s で編集してください。</p>';
+$string['licensedisplaynameby'] = 'クリエイティブ・コモンズ 表示 4.0 非移植';
+$string['licensedisplaynamebync'] = 'クリエイティブ・コモンズ 表示-非営利 4.0 非移植';
+$string['licensedisplaynamebyncnd'] = 'クリエイティブ・コモンズ 表示-非営利-改変禁止 4.0 非移植';
+$string['licensedisplaynamebyncsa'] = 'クリエイティブ・コモンズ 表示-非営利-継承 4.0 非移植';
+$string['licensedisplaynamebynd'] = 'クリエイティブ・コモンズ 表示-非営利-改変禁止 4.0 非移植';
+$string['licensedisplaynamebysa'] = 'クリエイティブ・コモンズ 表示-継承 4.0 非移植';
+$string['licensedisplaynamegfdl'] = 'GNU自由文書ライセンス v1.3';
+$string['licenseshortnameby'] = 'CC-BY-4.0';
+$string['licenseshortnamebync'] = 'CC-BY-NC-4.0';
+$string['licenseshortnamebyncnd'] = 'CC-BY-NC-ND-4.0';
+$string['licenseshortnamebyncsa'] = 'CC-BY-NC-SA-4.0';
+$string['licenseshortnamebynd'] = 'CC-BY-ND-4.0';
+$string['licenseshortnamebysa'] = 'CC-BY-SA-4.0';
+$string['licenseshortnamegfdl'] = 'GFDL-1.3';
 $string['loggedouthomedefaultcontent'] = '<h1>ようこそ</h1>
 
 <p>このテキストを %s で編集してください。</p>';
-$string['privacydefaultcontent'] = '<p>あなたのサイトの<b>プライバシ保護方針</b>を %s に追加してください。</p>';
-$string['termsandconditionsdefaultcontent'] = '<p>あなたのサイトの<b>利用条件</b>を %s に追加してください。</p>';
-$string['uploadcopyrightdefaultcontent'] = 'はい: 私がアップロードを試みているファイルは私に所有権があるファイル、または私に複製および配布が明確に許可されたファイルです。私がこのファイルを使用することで国内の著作権法を侵害することはありません。また、このファイルはサイトの利用条件に合致しています。';
-$string['licensedisplaynamebysa'] = 'クリエイティブ・コモンズ 表示-継承 4.0 非移植';
-$string['licensedisplaynameby'] = 'クリエイティブ・コモンズ 表示 4.0 非移植';
-$string['licensedisplaynamebynd'] = 'クリエイティブ・コモンズ 表示-非営利-改変禁止 4.0 非移植';
-$string['licensedisplaynamebyncsa'] = 'クリエイティブ・コモンズ 表示-非営利-継承 4.0 非移植';
-$string['licensedisplaynamebync'] = 'クリエイティブ・コモンズ 表示-非営利 4.0 非移植';
-$string['licensedisplaynamebyncnd'] = 'クリエイティブ・コモンズ 表示-非営利-改変禁止 4.0 非移植';
-$string['licensedisplaynamegfdl'] = 'GNU自由文書ライセンス v1.3';
-$string['licenseshortnamebysa'] = 'CC-BY-SA-4.0';
-$string['licenseshortnameby'] = 'CC-BY-4.0';
-$string['licenseshortnamebynd'] = 'CC-BY-ND-4.0';
-$string['licenseshortnamebyncsa'] = 'CC-BY-NC-SA-4.0';
-$string['licenseshortnamebync'] = 'CC-BY-NC-4.0';
-$string['licenseshortnamebyncnd'] = 'CC-BY-NC-ND-4.0';
-$string['licenseshortnamegfdl'] = 'GFDL-1.3';
+$string['privacydefaultcontent'] = '<p>あなたのサイトの<b>プライバシー保護方針</b>を %s に追加してください。</p>';
 $string['staticpageconfigdefaults'] = '「管理メニュー」 → 「サイト設定」 → 「<a href="%s"><b>固定ページ</b></a>」';
-$string['versionedpageconfigdefault'] = '「管理メニュー」 → 「サイト設定」 → 「<a href="%s"><b>法律</b></a>」';
 $string['staticpageconfiginstitutions'] = '「管理メニュー」 → 「インスティテューション」 → 「<a href="%s"><b>固定ページ</b></a>」';
-
-?>
+$string['termsandconditionsdefaultcontent'] = '<p>[これはあなたの法務部門が編集するためのデフォルトの利用条件です]</p>\\r
+\\r
+<p>[<b>サイト名</b>]を使用することであなたは以下の利用条件に同意したものとします。</p>\\r
+\\r
+<h2>私たちの義務</h2>\\r
+\\r
+<p>[<b>サイト名</b>]サイト管理者はすべてのユーザに対して安全で常に利用可能なeポートフォリオシステムを提供するためあらゆる適切な措置をとることを保証します。あなたのユーザとしての権利が保護されていないと思われた場合、また以下の内容に関してご質問をお持ちの場合、すぐに私たちに<a href="contact.php">ご連絡ください</a>。\\r
+\\r
+<p>新しい機能をリリースするため[<b>サイト名</b>]を短時間利用できない場合があります。すべての定期的な利用停止に関して私たちは少なくとも3就業日前にお伝えいたします。</p>\\r
+\\r
+<p>好ましくないコンテンツまたは不適切な言動に関してすぐに<a href="contact.php">サイト管理者にご連絡ください</a>。ご報告の内容を私たちは迅速に調査させていただきます。</p>\\r
+\\r
+<p>サイト管理者は常にあなたのポートフォリオおよびコンテンツにアクセスできます。しかし、サイト管理者はあなたの[<b>サイト名</b>]使用のサポートに関して特別に必要な場合を除いて、または利用条件に基づき、そのような行為を避けます。</p>\\r
+\\r
+<h2>あなたの義務</h2>\\r
+\\r
+<p>すべてのユーザは利用条件に加えて、<a href="privacy.php">プライバシー保護方針</a>を読んだ上、その内容を考慮する必要があります。</p>\\r
+\\r
+<p>サイト管理者により設定された一定期間または一定の休眠期間によりあなたの[<b>サイト名</b>]アカウントは無効となります。あなたのアカウントの有効期限が切れる前、メールによるリマインダが送信されます。将来的に再利用できるようあなたのパーソナルコンピュータに最新のポートフォリオを保存されることをお勧めします。</p>\\r
+\\r
+<p>あなたが[<b>サイト名</b>]にアップロードした、すべてのファイルおよびコンテンツは国内の著作権法に従うものとします。あなたは自分のものではない著作物に対して複製および公開できる適切な許諾があることを保証する義務があります。著作物の盗用はあなたの属する教育機関のポリシーに従い処分されるものとします。</p>\\r
+\\r
+<p>不快感を与えるコンテンツを保存、または表示することを目的として、あなたのポートフォリオを使用することはできません。あなたのポートフォリオ内に不適切なコンテンツがあるとの報告をサイト管理者が受けた場合、学生運営ポリシーまたは同等のあなたの教育機関のポリシーに従った調査のためあなたのアカウントは停止され、[<b>サイト名</b>]へのアクセスは凍結されます。運営ポリシーが存在しない場合、適切なスタッフメンバー、またはあなたの教育機関または組織に付託されます。</p>\\r
+\\r
+<p>不適切な行動には好ましくないコンテンツの乱用、ウイルスを含んだファイルの意図的なアップロード、好ましくないまたは過度のフィードバックまたはコメントを他のポートフォリオユーザに投稿、および管理者から迷惑または攻撃的と判断されるすべての行為を含みます。</p>\\r
+\\r
+<p>あなたのポートフォリオを経由して公開した個人情報を原因とすはあなたが受信する未承諾のコンタクトにはあなたに責任があるものとします。システム内のユーザによる不正行為がある場合、ただちに<a href="contact.php">サイト管理者にご連絡ください</a>。</p>\\r
+\\r
+<p>システム変更およびユーザのフィードバックに基づき、私たちは利用条件を若干変更する場合があります。あなたがこのサイトを訪問するたび、利用条件の確認をお勧めします。利用条件の主要な変更に関して私たちは[<b>サイト名</b>]ホームページでユーザに告知します。</p>';
+$string['uploadcopyrightdefaultcontent'] = 'はい: 私がアップロードを試みているファイルは私に所有権があるファイル、または私に複製および配布が明確に許可されたファイルです。私がこのファイルを使用することで国内の著作権法を侵害することはありません。また、このファイルはサイトの利用条件に合致しています。';
+$string['versionedpageconfigdefault'] = '「管理メニュー」 → 「サイト設定」 → 「<a href="%s"><b>法律</b></a>」';

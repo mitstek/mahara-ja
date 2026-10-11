@@ -1,120 +1,115 @@
 <?php
-/**
- *
- * @package    mahara
- * @subpackage lang (Japanese)
- * @translator Mitsuhiro Yoshida (https://mitstek.com/)
- * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-09-16 09:03:30 UTC
- * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
- * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
- *
- */
 
 defined('INTERNAL') || die();
 
-$string['pluginname'] = 'コレクション';
+$string['Collection'] = 'コレクション';
+$string['Collections'] = 'コレクション';
 $string['about'] = 'About';
 $string['access'] = 'アクセス';
-$string['accesscantbeused'] = 'アクセスオーバーライドは保存されませんでした。選択されたページアクセス (シークレットURL) は複数ページには使用できません。';
+$string['accesscantbeused'] = 'アクセスオーバーライドは保存されませんでした。選択されたページアクセス (シークレットURL) は複数のページで使用できません。';
+$string['accessignored'] = 'いくつかのシークレットURLタイプは無視されました。';
 $string['accessoverride'] = 'アクセスオーバーライド';
 $string['accesssaved'] = 'コレクションアクセスが正常に保存されました。';
-$string['accessignored'] = '一部のシークレットURLアクセスタイプは無視されました。';
 $string['add'] = '追加';
 $string['addviews'] = 'ページを追加する';
 $string['addviewstocollection'] = 'ページをコレクションに追加する';
 $string['back'] = '戻る';
-$string['cantlistgroupcollections'] = 'あなたはグループコレクションの一覧表示を許可されていません。';
-$string['cantlistinstitutioncollections'] = 'あなたはインスティテューションコレクションの一覧表示を許可されていません。';
+$string['by'] = 'by';
+$string['cantcreatecollection'] = 'あなたはこのコレクションの作成を許可されていません。';
+$string['cantdeletecollection'] = 'あなたはこのコレクションの削除を許可されていません。';
+$string['canteditcollection'] = 'あなたはこのコレクションの編集を許可されていません。';
+$string['canteditdontown'] = 'あなたの所有ではないためこのコレクションを編集することはできません。';
 $string['canteditgroupcollections'] = 'あなたはグループコレクションの編集を許可されていません。';
 $string['canteditinstitutioncollections'] = 'あなたはインスティテューションコレクションの編集を許可されていません。';
-$string['canteditcollection'] = 'あなたはこのコレクションの編集を許可されていません。';
-$string['cantcreatecollection'] = 'あなたはこのコレクションの作成を許可されていません。';
-$string['cantdeletecollection'] = 'あなたはこのコレクションを削除できません。';
-$string['canteditdontown'] = 'あなたの所有ではないためこのコレクションを編集できません。';
-$string['canteditsubmitted'] = '評価のため「 %s 」に送信されたためあなたはこのコレクションを編集できません。あなたはリリースされるまで待つ必要があります。';
+$string['canteditsubmitted'] = '評価のため「 %s 」に送信されたためあなたはこのコレクションを編集することはできません。あなたはリリースされるまで待つ必要があります。';
+$string['cantlistgroupcollections'] = 'あなたはグループコレクションの一覧表示を許可されていません。';
+$string['cantlistinstitutioncollections'] = 'あなたはインスティテューションコレクションの一覧表示を許可されていません。';
 $string['collection'] = 'コレクション';
-$string['Collection'] = 'コレクション';
-$string['collections'] = 'コレクション';
-$string['Collections'] = 'コレクション';
-$string['groupcollections'] = 'グループコレクション';
-$string['institutioncollections'] = 'インスティテューションコレクション';
-$string['sitecollections'] = 'サイトコレクション';
 $string['collectionaccess'] = 'コレクションアクセス';
-$string['collectionaccessrules'] = 'コレクションアクセスルール';
 $string['collectionaccesseditedsuccessfully'] = 'コレクションアクセスが正常に保存されました。';
-$string['collectioneditaccess'] = 'あなたはこのコレクション内の %d ページのアクセスを編集しています。';
-$string['collectionconfirmdelete'] = 'このコレクションに登録済みのページは削除されません。本当にこのコレクションを削除してもよろしいですか?';
+$string['collectionaccessrules'] = 'コレクションアクセスルール';
+$string['collectionconfirmdelete'] = 'このコレクション内のページは削除されません。本当にこのコレクションを削除してもよろしいですか?';
+$string['collectioncopywouldexceedquota'] = 'このコレクションをコピーすることであなたのファイルクオータを超過します。';
 $string['collectioncreatedsuccessfully'] = 'コレクションが正常に作成されました。';
 $string['collectioncreatedsuccessfullyshare'] = 'あなたのコレクションが正常に作成されました。以下のアクセスリンクを使用してあなたのコレクションを他のユーザと共有してください。';
 $string['collectiondeleted'] = 'コレクションが正常に削除されました。';
-$string['collectiondescription'] = 'コレクションは相互にリンクして同一のアクセスパーミッションを持つ一連のページです。あなたは好きなだけコレクションを作成できますが、1ページを2つ以上のコレクションには表示できません。';
+$string['collectiondescription'] = 'コレクションは相互にリンクして同一のアクセスパーミッションを持つ一連のページです。あなたが好きなだけコレクションを作成できますが、ページを1つ以上のコレクションに表示することはできません。';
+$string['collectiondragupdate1'] = '「コレクション内のページ」にページを移動するには「ページをコレクションに追加する」ボックスからページ名をドラッグするか、チェックボックスをチェックして「ページを追加する」ボタンをクリックしてください。<br />
+あなたはページ名をドラッグまたは矢印ボタンを使用することにより「コレクション内のページ」エリアのページを並べ替えることができます。';
+$string['collectioneditaccess'] = 'あなたにはこのコレクション内の %d 件のページのアクセス権を編集しています。';
+$string['collections'] = 'コレクション';
+$string['collectionsaved'] = 'コレクションが正常に保存されました。';
+$string['collectionssharedtogroup'] = 'このグループで共有されているコレクション';
 $string['collectiontitle'] = 'コレクションタイトル';
 $string['confirmcancelcreatingcollection'] = 'このコレクションは完了していません。本当にキャンセルしてもよろしいですか?';
-$string['collectionsaved'] = 'コレクションが正常に保存されました。';
+$string['copiedblogpoststonewjournal'] = 'コピーされた日誌エントリは新しい別の日誌に登録されました。';
+$string['copiedpagesblocksandartefactsfromtemplate'] = '%d ページ、%d ブロックおよび %d アーティファクトを %s からコピーしました。';
 $string['copyacollection'] = 'コレクションをコピーする';
+$string['copycollection'] = 'コレクションをコピーする';
 $string['created'] = '作成';
 $string['deletecollection'] = 'コレクションを削除する';
 $string['deletespecifiedcollection'] = 'コレクション「 %s 」を削除する';
-$string['deletingcollection'] = 'コレクションの削除';
 $string['deleteview'] = 'コレクションからページを削除する';
+$string['deletingcollection'] = 'コレクションの削除';
 $string['description'] = 'コレクション説明';
-$string['collectiondragupdate1'] = '「コレクションに登録済みのページ」にページを移動するには「ページをコレクションに追加する」ボックスからページ名をドラッグするか、チェックボックスをチェックして「ページを追加する」ボタンをクリックしてください。<br>
-あなたはページ名をドラッグまたは矢印ボタンにより「コレクションに登録済みのページ」エリアのページを並べ替えれます。';
-$string['viewsincollection'] = 'コレクションに登録済みのページ';
-$string['editcollection'] = 'コレクションを編集する';
-$string['editingcollection'] = 'コレクションを編集する';
-$string['edittitleanddesc'] = 'タイトルおよび説明を編集する';
-$string['editviews'] = 'コレクションページを編集する';
-$string['editviewaccess'] = 'ページアクセスを編集する';
 $string['editaccess'] = 'コレクションアクセスを編集する';
-$string['emptycollectionnoeditaccess'] = 'あなたは空のコレクションのアクセスを編集できません。最初にページを追加してください。';
+$string['editcollection'] = 'コレクションを編集する';
+$string['editingcollection'] = 'コレクションの編集';
+$string['edittitleanddesc'] = 'タイトルおよび説明を編集する';
+$string['editviewaccess'] = 'ページアクセスを編集する';
+$string['editviews'] = 'コレクションページを編集する';
 $string['emptycollection'] = '空のコレクション';
+$string['emptycollectionnoeditaccess'] = 'あなたは空のコレクションのアクセスを編集することはできません。最初にページを追加してください。';
+$string['groupcollections'] = 'グループコレクション';
+$string['institutioncollections'] = 'インスティテューションコレクション';
 $string['manage'] = '管理';
 $string['manageviews'] = 'ページを管理する';
 $string['manageviewsspecific'] = '「 %s 」のページを管理する';
 $string['name'] = 'コレクション名';
+$string['navtopage'] = 'ページに移動する:';
 $string['needtoselectaview'] = 'あなたはコレクションに追加するページを選択する必要があります。';
 $string['newcollection'] = '新しいコレクション';
+$string['nextpage'] = '次のページ';
 $string['nocollections'] = 'まだコレクションはありません。';
 $string['nocollectionsaddone'] = 'まだコレクションはありません。%sコレクションを追加してください%s。';
 $string['nooverride'] = 'オーバーライドはありません。';
-$string['noviewsavailable'] = '追加できるページはありません。';
-$string['noviewsaddsome'] = 'コレクションにページはありません。%sページを追加してください%s。';
+$string['nosharedcollectionsyet'] = 'まだこのグループで共有されているコレクションはありません。';
 $string['noviews'] = 'ページはありません。';
+$string['noviewsaddsome'] = 'コレクションにページはありません。%sページを追加してください%s。';
+$string['noviewsavailable'] = '追加できるページはありません。';
+$string['numviewsincollection'] = array(
+    0 => 'コレクション内ページ数: %s',
+);
 $string['overrideaccess'] = 'アクセスをオーバーライドする';
+$string['pluginname'] = 'コレクション';
 $string['potentialviews'] = '潜在的なページ';
+$string['prevpage'] = '前のページ';
 $string['saveapply'] = '適用して保存する';
 $string['savecollection'] = 'コレクションを保存する';
+$string['sitecollections'] = 'サイトコレクション';
 $string['smartevidence'] = 'スマートエビデンス';
 $string['smartevidencedesc'] = 'スマートエビデンスフレームワークを管理します。';
 $string['update'] = '更新';
-$string['usecollectionname'] = 'コレクション名を使用してもよろしいですか?';
+$string['usecollectionname'] = 'コレクション名を使用しますか?';
 $string['usecollectionnamedesc'] = 'あなたがブロックタイトルの代わりにコレクション名を使用したい場合、このチェックボックスをチェックしたままにしてください。';
-$string['numviewsincollection'] = 'コレクション内ページ数: %s';
-$string['viewsaddedtocollection1'] = '%s ページがコレクションに追加されました。';
-$string['viewsaddedtocollection1different'] = '%s ページがコレクションに追加されました。コレクション内ページすべての共有アクセスが変更されました。';
-$string['viewsaddedaccesschanged'] = '次のページのアクセスパーミッションが変更されました:';
 $string['viewaddedsecreturl'] = 'シークレットURL経由でパブリックに利用可';
 $string['viewcollection'] = 'コレクション詳細を表示する';
+$string['viewconfirmremove'] = '本当にこのページをコレクションから削除してもよろしいですか?';
 $string['viewcount'] = 'ページ';
-$string['viewremovedsuccessfully'] = 'ページが正常に削除されました。';
+$string['viewingpage'] = 'あなたの現在地 - ページ ';
 $string['viewnavigation'] = 'ページナビゲーションバー';
 $string['viewnavigationdesc'] = 'このコレクション内すべてのページに水平ナビゲーションバーをデフォルトで追加します。';
+$string['viewremovedsuccessfully'] = 'ページが正常に削除されました。';
+$string['viewsaddedaccesschanged'] = '次のページのアクセスパーミッションが変更されました:';
+$string['viewsaddedtocollection1'] = array(
+    0 => '%s ページがコレクションに追加されました。',
+);
+$string['viewsaddedtocollection1different'] = array(
+    0 => '%s ページがコレクションに追加されました。コレクション内のページすべての共有アクセスが変更されました。',
+);
+$string['viewsincollection'] = 'コレクション内のページ';
 $string['viewstobeadded'] = '追加されるページ';
-$string['viewconfirmremove'] = '本当にこのページをコレクションから削除してもよろしいですか?';
-$string['collectioncopywouldexceedquota'] = 'このコレクションのコピーによりあなたのファイルクオータを超過してしまいます。';
-$string['copiedpagesblocksandartefactsfromtemplate'] = '%d ページ、%d ブロックおよび %d アーティファクトを %s からコピーしました。';
-$string['copiedblogpoststonewjournal'] = 'コピーされた日誌投稿は新しい別の日誌に登録されました。';
-$string['by'] = 'by';
-$string['copycollection'] = 'コレクションをコピーする';
-$string['youhavencollections'] = 'あなたには %d コレクションがあります。';
+$string['youhavencollections'] = array(
+    0 => 'あなたには %d 件のコレクションがあります。',
+);
 $string['youhavenocollections'] = 'あなたにはコレクションがありません。';
-$string['collectionssharedtogroup'] = 'このグループで共有されているコレクション';
-$string['nosharedcollectionsyet'] = 'まだこのグループで共有されているコレクションはありません。';
-$string['nextpage'] = '次のページ';
-$string['prevpage'] = '前のページ';
-$string['viewingpage'] = 'あなたの現在地 - ページ';
-$string['navtopage'] = 'ページに移動する:';
-
-?>
