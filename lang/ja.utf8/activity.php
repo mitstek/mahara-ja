@@ -1,106 +1,58 @@
 <?php
-/**
- *
- * @package    mahara
- * @subpackage lang (Japanese)
- * @translator Mitsuhiro Yoshida (https://mitstek.com/)
- * @started    2008-01-19 11:25:00 UTC
- * @updated    2018-08-10 00:34:36 UTC
- * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
- * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
- *
- */
 
 defined('INTERNAL') || die();
 
-$string['typemaharamessage'] = 'システムメッセージ';
-$string['typeusermessage'] = '他のユーザからのメッセージ';
-$string['typefeedback'] = 'コメント';
-$string['typewatchlist'] = 'ウォッチリスト';
-$string['typeviewaccess'] = '新しいページアクセス';
-$string['typecontactus'] = 'お問い合わせ';
-$string['typeobjectionable'] = '好ましくないコンテンツ';
-$string['typevirusrepeat'] = 'ウイルスアップロードの繰り返し';
-$string['typevirusrelease'] = 'ウイルスフラグ解除';
-$string['typeadminmessages'] = '管理メッセージ';
-$string['typeinstitutionmessage'] = 'インスティテューションメッセージ';
-$string['typegroupmessage'] = 'グループメッセージ';
-$string['typenewpost'] = 'フォーラム投稿';
-$string['type'] = '活動タイプ';
-$string['attime'] = '-';
-$string['prefsdescr'] = 'あなたがメールオプションのどちらを選択した場合でも受信箱には通知が到着しますが、到着した通知は自動的に既読マークされます。';
-$string['messagetype'] = 'メッセージタイプ';
-$string['subject'] = '件名';
-$string['date'] = '日時';
-$string['read'] = '既読';
-$string['unread'] = '未読';
-$string['markasread'] = '既読マークする';
-$string['selectall'] = 'すべてを選択する';
-$string['selectallread'] = 'すべての未読通知';
-$string['selectalldelete'] = 'すべての削除通知';
-$string['recurseall'] = 'すべてを再帰的に処理する';
+$string['addtowatchlist'] = 'ウォッチリストに追加する';
+$string['adminnotificationerror'] = 'ユーザ通知エラーは恐らくあなたのサーバ設定に起因します。';
 $string['alltypes'] = 'すべてのタイプ';
-$string['nodelete'] = '削除する通知はありません。';
-$string['youroutboxisempty'] = 'あなたの送信箱は空です。';
-$string['yourinboxisempty'] = 'あなたの受信箱は空です。';
-$string['noresultsfound'] = 'あなたの検索クライテリアに合致するメッセージは見つかりませんでした。';
-$string['markedasread'] = 'あなたの通知を既読マークしました。';
-$string['failedtomarkasread'] = 'あなたの通知を既読マークできませんでした。';
-$string['deletednotifications1'] = '%s 件の通知が削除されました。';
-$string['failedtodeletenotifications'] = 'あなたの通知の削除に失敗しました。';
-$string['stopmonitoring'] = 'モニタリングを停止する';
 $string['artefacts'] = 'アーティファクト';
-$string['groups'] = 'グループ';
-$string['monitored'] = 'モニタ';
-$string['stopmonitoringsuccess'] = 'モニタリングを正常に停止しました。';
-$string['stopmonitoringfailed'] = 'モニタリングの停止に失敗しました。';
-$string['newwatchlistmessage'] = 'あなたのウォッチリストの新しい活動';
-$string['newwatchlistmessageview1'] = 'ページ「 %s 」 (作成者: %s) が変更されました。';
+$string['attime'] = '-';
 $string['blockinstancenotification'] = 'ブロック「 %s 」が追加または変更されました。';
-$string['newwatchlistmessageunsubscribe'] = 'ページ「 %s 」の変更に関する通知の受信を停止するには購読解除リンク %s に従ってください。';
-$string['nonamegiven'] = '名称がありません。';
-$string['newviewsubject'] = '新しいページが作成されました。';
-$string['newviewmessage'] = '%s が新しいページ「 %s 」を作成しました。';
-$string['newcontactusfrom'] = '新しいお問い合わせ:';
-$string['newcontactus'] = '新しいお問い合わせ';
-$string['newcollectionaccessmessage'] = 'あなたはコレクション「 %s 」のアクセスリストに %s により追加されました。';
-$string['newcollectionaccessmessageviews'] = 'あなたはページ「 %s 」 (コレクション「 %3$s 」) のアクセスリストに %2$s により追加されました。';
-$string['newviewaccessmessage'] = 'あなたはページ「 %s 」のアクセスリストに %s により追加されました。';
-$string['newviewaccessmessageviews'] = 'あなたはページ「 %s 」のアクセスリストに %s により追加されました。';
+$string['date'] = '日時';
+$string['deleteallnotifications'] = 'すべての通知を削除する';
+$string['deletednotifications1'] = array(
+    0 => '%s 件の通知が削除されました。',
+);
+$string['failedtodeletenotifications'] = 'あなたの通知の削除に失敗しました。';
+$string['failedtomarkasread'] = 'あなたの通知を既読にできませんでした。';
+$string['groups'] = 'グループ';
+$string['institutioninvitemessage'] = 'あなたは「インスティテューション設定」ページでこのインスティテューションのメンバーシップを承認できます:';
+$string['institutioninvitesubject'] = 'あなたはインスティテューション %s への参加を招待されました。';
+$string['institutionrequestmessage'] = 'あなたは「インスティテューションメンバー」ページでユーザをインスティテューションに追加できます:';
+$string['institutionrequestsubject'] = '%s が %s のメンバーシップをリクエストしました。';
+$string['markasread'] = '既読にする';
+$string['markedasread'] = 'あなたの通知を既読にしました。';
+$string['messageaccessfrom1'] = 'あなたは %s の後アクセスできます。';
+$string['messageaccessfromto1'] = 'あなたは %s から %s の間アクセスできます。';
+$string['messageaccessto1'] = 'あなたは %s までアクセスできます。';
+$string['messagetype'] = 'メッセージタイプ';
+$string['missingparam'] = '次の活動タイプに関する必須パラメータ %s が空です: %s';
+$string['monitored'] = 'モニタ';
+$string['newcollectionaccessmessage'] = 'あなたはコレクション「 %s 」のアクセスリストに %s によって追加されました。';
 $string['newcollectionaccessmessagenoowner'] = 'あなたはコレクション「 %s 」のアクセスリストに追加されました。';
 $string['newcollectionaccessmessagenoownerviews'] = 'あなたはページ「 %s 」 (コレクション「 %s 」) のアクセスリストに追加されました。';
+$string['newcollectionaccessmessageviews'] = 'あなたはページ「 %s 」 (コレクション「 %3$s 」) のアクセスリストに %2$s によって追加されました。';
+$string['newcollectionaccesssubject'] = 'コレクション「 %s 」への新しいアクセス';
+$string['newcontactus'] = '新しいお問い合わせ';
+$string['newcontactusfrom'] = '新しいお問い合わせ:';
+$string['newgroupmembersubj'] = '%s がグループメンバーになりました。';
+$string['newviewaccessmessage'] = 'あなたはページ「 %s 」のアクセスリストに %s によって追加されました。';
 $string['newviewaccessmessagenoowner'] = 'あなたはページ「 %s 」のアクセスリストに追加されました。';
 $string['newviewaccessmessagenoownerviews'] = 'あなたはページ「 %s 」のアクセスリストに追加されました。';
-$string['newcollectionaccesssubject'] = 'コレクション「 %s 」への新しいアクセス';
+$string['newviewaccessmessageviews'] = 'あなたはページ「 %s 」のアクセスリストに %s によって追加されました。';
 $string['newviewaccesssubject1'] = 'ページ「 %s 」への新しいアクセス';
 $string['newviewaccesssubjectviews'] = 'ページ「 %s 」への新しいアクセス';
-$string['messageaccessfromto1'] = 'あなたはこのページを %s から %s の間閲覧できます。';
-$string['messageaccessfrom1'] = 'あなたはこのページを %s の後閲覧できます。';
-$string['messageaccessto1'] = 'あなたはこのページを %s まで閲覧できます。';
-$string['viewmodified'] = 'がページを変更しました。';
-$string['ongroup'] = 'グループ:';
-$string['ownedby'] = 'オーナ:';
+$string['newviewmessage'] = '%s が新しいページ「 %s 」を作成しました。';
+$string['newviewsubject'] = '新しいページが作成されました。';
+$string['newwatchlistmessage'] = 'あなたのウォッチリストの新しい活動';
+$string['newwatchlistmessageunsubscribe'] = 'ページ「 %s 」の変更に関する通知の受信を停止するには購読解除リンク %s に従ってください。';
+$string['newwatchlistmessageview1'] = 'ページ「 %s 」 (作成者: %s) が変更されました。';
+$string['nodelete'] = '削除する通知はありません。';
+$string['nonamegiven'] = '名称がありません。';
+$string['noresultsfound'] = 'あなたの検索クライテリアに合致するメッセージは見つかりませんでした。';
 $string['objectionablecontentview'] = 'ページ「 %s 」の好ましくないコンテンツ - 報告者: %s';
 $string['objectionablecontentviewartefact'] = 'ページ「 %s (%s) 」の好ましくないコンテンツ - 報告者: %s';
-$string['objectionablecontentviewhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」の好ましくないコンテンツ - 報告者: %s<strong></strong><br>%s</div>
-
-<div style="margin: 1em 0;">%s</div>
-
-<div style="font-size: smaller; border-top: 1px solid #999;">
-<p>クレーム対象: <a href="%s">%s</a></p>
-<p>報告者: <a href="%s">%s</a></p>
-</div>';
-$string['objectionablecontentviewtext'] = '「 %s 」の好ましくないコンテンツ - 報告者: %s
-------------------------------------------------------------------------
-
-%s
-
-------------------------------------------------------------------------
-ページを閲覧するには次のリンクにアクセスしてください:
-%s
-報告者のプロファイルを閲覧するには次のリンクにアクセスしてください:
-%s';
-$string['objectionablecontentviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「  %s (%s)  」の好ましくないコンテンツ - 報告者: %s<strong></strong><br>%s</div>
+$string['objectionablecontentviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「  %s (%s)  」の好ましくないコンテンツ - 報告者: %s<strong></strong><br />%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
@@ -114,13 +66,31 @@ $string['objectionablecontentviewartefacttext'] = '「  %s (%s)  」の好まし
 %s
 
 ------------------------------------------------------------------------
-ページを閲覧するには次のリンクにアクセスしてください:
+ページを閲覧するには次のリンクをクリックしてください:
+%s
+報告者のプロファイルを閲覧するには次のリンクにアクセスしてください:
+%s';
+$string['objectionablecontentviewhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」の好ましくないコンテンツ - 報告者: %s<strong></strong><br />%s</div>
+
+<div style="margin: 1em 0;">%s</div>
+
+<div style="font-size: smaller; border-top: 1px solid #999;">
+<p>クレーム対象: <a href="%s">%s</a></p>
+<p>報告者: <a href="%s">%s</a></p>
+</div>';
+$string['objectionablecontentviewtext'] = '「 %s 」の好ましくないコンテンツ - 報告者: %s
+------------------------------------------------------------------------
+
+%s
+
+------------------------------------------------------------------------
+ページを閲覧するには次のリンクをクリックしてください:
 %s
 報告者のプロファイルを閲覧するには次のリンクにアクセスしてください:
 %s';
 $string['objectionablereviewview'] = 'ページ「 %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュー';
 $string['objectionablereviewviewartefact'] = 'ページ「 %s - %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュー';
-$string['objectionablereviewviewhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュー<br>%s</div>
+$string['objectionablereviewviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s - %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュー<br />%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
@@ -128,18 +98,18 @@ $string['objectionablereviewviewhtml'] = '<div style="padding: 0.5em 0; border-b
 <p>リクエスト対象: <a href="%s">%s</a></p>
 <p>リクエスト者: <a href="%s">%s</a></p>
 </div>';
-$string['objectionablereviewviewtext'] = '「 %s 」の好ましくないコンテンツのレビューリクエスト者: %s
+$string['objectionablereviewviewartefacttext'] = '「 %s - %s 」の好ましくないコンテンツのレビュー - リクエスト者: %s
 %s
 ------------------------------------------------------------------------
 
 %s
 
 ------------------------------------------------------------------------
-ページを閲覧するには次のリンクにアクセスしてください:
+ページを閲覧するには次のリンクをクリックしてください:
 %s
-オーナのプロファイルを閲覧するには次のリンクにアクセスしてください:
+オーナーのプロファイルを閲覧するには次のリンクにアクセスしてください:
 %s';
-$string['objectionablereviewviewartefacthtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s - %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュー<br>%s</div>
+$string['objectionablereviewviewhtml'] = '<div style="padding: 0.5em 0; border-bottom: 1px solid #999;">「 %s 」(リクエスト者: %s) の好ましくないコンテンツのレビュー<br />%s</div>
 
 <div style="margin: 1em 0;">%s</div>
 
@@ -147,32 +117,51 @@ $string['objectionablereviewviewartefacthtml'] = '<div style="padding: 0.5em 0; 
 <p>リクエスト対象: <a href="%s">%s</a></p>
 <p>リクエスト者: <a href="%s">%s</a></p>
 </div>';
-$string['objectionablereviewviewartefacttext'] = '「 %s - %s 」の好ましくないコンテンツのレビューリクエスト者: %s
+$string['objectionablereviewviewtext'] = '「 %s 」の好ましくないコンテンツのレビュー - リクエスト者: %s
 %s
 ------------------------------------------------------------------------
 
 %s
 
 ------------------------------------------------------------------------
-ページを閲覧するには次のリンクにアクセスしてください:
+ページを閲覧するには次のリンクをクリックしてください:
 %s
-オーナのプロファイルを閲覧するには次のリンクにアクセスしてください:
+オーナーのプロファイルを閲覧するには次のリンクにアクセスしてください:
 %s';
-$string['stillobjectionablecontent'] = 'コンテンツには好ましくない内容が含まれています。';
-$string['stillobjectionablecontentsuspended'] = '好ましくないコンテンツが解消されるまでページへのアクセスは一時的に停止されています。';
-$string['newgroupmembersubj'] = '%s がグループメンバになりました。';
-$string['removedgroupmembersubj'] = '%s はグループメンバではなくなりました。';
-$string['addtowatchlist'] = 'ウォッチリストに追加する';
+$string['ongroup'] = 'グループ:';
+$string['ownedby'] = 'オーナー:';
+$string['prefsdescr'] = 'あなたがメールオプションのどちらを選択した場合でも受信箱には通知が到着しますが、到着した通知は自動的に既読にされます。';
+$string['read'] = '既読';
+$string['reallydeleteallnotifications'] = '本当にこの活動タイプに関してあなたの通知すべてを削除してもよろしいですか?';
+$string['recurseall'] = 'すべての選択を解除する';
+$string['removedgroupmembersubj'] = '%s はグループメンバーではなくなりました。';
 $string['removefromwatchlist'] = 'ウォッチリストから削除する';
-$string['missingparam'] = '次の活動タイプの必須パラメータ %s が空です: %s';
-$string['institutionrequestsubject'] = '%s が %s のメンバシップをリクエストしました。';
-$string['institutionrequestmessage'] = 'あなたは「インスティテューションメンバ」ページでユーザをインスティテューションに追加できます:';
-$string['institutioninvitesubject'] = 'あなたはインスティテューション %s への参加を招待されました。';
-$string['institutioninvitemessage'] = 'あなたは「インスティテューション設定」ページでこのインスティテューションのメンバシップを承認できます:';
-$string['deleteallnotifications'] = 'すべての通知を削除する';
-$string['reallydeleteallnotifications'] = '本当にこの活動タイプのあなたの通知すべてを削除してもよろしいですか?';
-$string['viewsubmittedsubject1'] = '%s への送信';
+$string['selectall'] = 'すべてを選択する';
+$string['selectalldelete'] = 'すべての削除通知';
+$string['selectallread'] = 'すべての未読通知';
+$string['stillobjectionablecontent'] = 'コンテンツには好ましくない内容が含まれています。';
+$string['stillobjectionablecontentsuspended'] = '好ましくないコンテンツが解決されるまでページへのアクセスは一時的に停止されています。';
+$string['stopmonitoring'] = 'モニタリングを停止する';
+$string['stopmonitoringfailed'] = 'モニタリングの停止に失敗しました。';
+$string['stopmonitoringsuccess'] = 'モニタリングを正常に停止しました。';
+$string['subject'] = '件名';
+$string['type'] = '活動タイプ';
+$string['typeadminmessages'] = '管理メッセージ';
+$string['typecontactus'] = 'お問い合わせ';
+$string['typefeedback'] = 'コメント';
+$string['typegroupmessage'] = 'グループメッセージ';
+$string['typeinstitutionmessage'] = 'インスティテューションメッセージ';
+$string['typemaharamessage'] = 'システムメッセージ';
+$string['typenewpost'] = 'フォーラム投稿';
+$string['typeobjectionable'] = '好ましくないコンテンツ';
+$string['typeusermessage'] = '他のユーザからのメッセージ';
+$string['typeviewaccess'] = '新しいページアクセス';
+$string['typevirusrelease'] = 'ウイルスフラグ解除';
+$string['typevirusrepeat'] = 'ウイルスアップロードの繰り返し';
+$string['typewatchlist'] = 'ウォッチリスト';
+$string['unread'] = '未読';
+$string['viewmodified'] = 'がページを変更しました。';
 $string['viewsubmittedmessage1'] = '%s が「 %s 」を %s に送信しました。';
-$string['adminnotificationerror'] = 'ユーザ通知エラーは恐らくあなたのサーバ設定に起因します。';
-
-?>
+$string['viewsubmittedsubject1'] = '%s への送信';
+$string['yourinboxisempty'] = 'あなたの受信箱は空です。';
+$string['youroutboxisempty'] = 'あなたの送信箱は空です。';
