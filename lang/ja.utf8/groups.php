@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-08 02:49:21 UTC
+ * @updated    2026-10-11 15:55:57 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -27,3 +27,20 @@ $string['editgroup.allowarchives_help'] = '<h1>提出をアーカイブする</h
 <p>このオプションは「提出」が選択された上でサイトでZIPファイルの作成が許可されている場合にのみ利用できます。</p>
 <p>一般的にポートフォリオをエクスポートできる場合、サイトはアーカイブを作成できます。そうでない場合、あなたのサイト管理者に連絡してサーバにPHP ZIP拡張機能のインストールを依頼してください。</p>';
 $string['editgroup.grouparchivereports_help'] = '<h1>提出アーカイブにアクセスする</h1><p>この設定を有効にした場合、グループ管理者はアーカイブされたサブミッションにアクセスおよびダウンロードできます。</p>';
+$string['editgroup.public_help'] = '<h1>一般の人も閲覧可能なグループ</h1>
+<p>この設定を有効にした場合、オンラインの誰でもこのグループのフォーラムを閲覧できます。しかし、グループに投稿するには引き続きグループのメンバである必要があります。グループ管理者はグループメンバを表示できるユーザを制限できます。</p>';
+$string['editgroup.hidden_help'] = '<h1>秘匿グループ</h1><p>「グループ」概要ページでこのグループを秘匿します。</p>';
+$string['hidemembers_help'] = '<h1>非メンバへのメンバシップ表示</h1><p>グループのメンバリストを非メンバから秘匿します。メンバのみまたはチュータのみを秘匿できます。例えばあなたが監査目的でグループを設定して監査担当者が誰であるかを誰にも知られたくない場合、チュータを秘匿すると便利です。</p>';
+$string['editgroup.hidemembers_help'] = '<h1>非メンバへのメンバシップ表示<</h1><p>あなたのCSVファイルに選択するオプションに対応する数値を入力してください:</p>
+<ul>
+    <li>0 = なし</li>
+    <li>1 = メンバを秘匿する</li>
+    <li>2 = チュータを秘匿する</li>
+</ul><hr><h2>詳細</h2>
+<p>グループのメンバリストを非メンバから秘匿します。メンバのみまたはチュータのみを秘匿できます。例えばあなたが監査目的でグループを設定して監査担当者が誰であるかを誰にも知られたくない場合、チュータを秘匿すると便利です。</p>';
+$string['groupsettings.hidemembersfrommembers_help'] = '<h1>メンバへのメンバシップ表示</h1><p>このグループのメンバを秘匿します。</p><p>グループのメンバはグループ管理者のみ確認できます。それ以外の人はグループ管理者が誰であるかのみ確認できます。</p>';
+$string['editgroup.groupparticipationreports_help'] = '<h1>参加者レポート</h1><p>この設定を有効にした場合、グループ管理者はすべてのグループおよび共有ポートフォリオおよびそのコメントに関するレポートを閲覧できます。</p>';
+$string['editwindowstart_help'] = '<h1>開始日</h1><p>この日付より前は通常グループメンバはグループを編集できません。この日付はインポートされたプラン活動のデフォルトの開始日としても使用されます。</p>';
+$string['editwindowend_help'] = '<h1>終了日</h1><p>この日付より後は通常グループメンバはグループを編集できません。この日付はインポートされたプラン活動のデフォルトの完了日としても使用されます。</p>';
+$string['editgroup.category_help'] = '<h1>グループカテゴリ</h1><p>グループを探しやすくするためにカテゴリを選択してください。</p>';
+$string['editgroup.usersautoadded_help'] = '<h1>自動的に人を追加する/h1><p>この設定を有効にした場合、サイトに参加するすべての人が自動的にこのグループに追加されます。</p><p>グループタイプによりグループを脱退できる場合もあります。</p>';
