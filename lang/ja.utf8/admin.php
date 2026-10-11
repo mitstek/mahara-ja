@@ -1,1090 +1,1046 @@
 <?php
-/**
- *
- * @package    mahara
- * @subpackage lang (Japanese)
- * @translator Mitsuhiro Yoshida (https://mitstek.com/)
- * @started    2008-01-19 11:25:00 UTC
-<<<<<<< HEAD
- * @updated    2025-05-19 00:57:02 UTC
- * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
-=======
- * @updated    2021-12-26 09:25:56 UTC
- * @license    http://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
- * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
- *
- */
 
 defined('INTERNAL') || die();
 
-$string['administration'] = '管理';
-$string['installation'] = 'インストレーション';
-$string['release'] = 'バージョン %s (%s)';
-<<<<<<< HEAD
-$string['copyright'] = 'Copyright &copy; 2006 onwards, <a href="https://mahara.org/community/contributors">Catalyst IT Limited and others</a>';
-=======
-$string['copyright'] = 'Copyright &copy; 2006 onwards, <a href="https://wiki.mahara.org/Contributors">Catalyst IT and others</a>';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['installmahara'] = 'Maharaをインストールする';
-$string['component'] = 'コンポーネントまたはプラグイン';
-$string['componentdeprecated'] = 'コンポーネント「 %s 」非推奨';
-$string['plugindeprecated'] = 'プラグイン非推奨';
-$string['continue'] = '続ける';
-$string['coredata'] = 'コアデータ';
-$string['coredatasuccess'] = 'コアデータを正常にインストールしました。';
-$string['fromversion'] = 'アップグレード前';
-$string['Information'] = 'インフォメーション';
-$string['installingplugin'] = '%s のインストール';
-$string['installsuccess'] = '次のバージョンを正常にインストールしました:';
-$string['toversion'] = 'アップグレード後';
-$string['localdatasuccess'] = 'ローカルカスタマイゼーションを正常にインストールしました。';
-$string['notinstalled'] = 'インストール未了';
-$string['nothingtoupgrade'] = 'アップグレードするものはありません。';
-$string['performinginstallation'] = 'インストール実行中 ...';
-$string['performingupgrades'] = 'アップグレード実行中 ...';
-$string['runupgrade'] = 'アップグレードを実行する';
-$string['gotoinstallpage'] = '拡張機能ページでインストールする';
-$string['successfullyinstalled'] = 'Maharaが正常にインストールされました。';
-$string['thefollowingupgradesareready'] = '以下のアップグレードの準備ができました:';
-$string['thefollowingpluginsareready'] = '以下の新しいプラグインを利用できます:';
-$string['registerthismaharasite'] = 'このMaharaサイトを登録する';
-$string['upgradeloading'] = '読み込み中 ...';
-$string['upgrades'] = 'アップグレード';
-$string['newplugins'] = '新しいプラグイン';
-$string['upgradingplugin'] = '%s のアップグレード';
-$string['upgradesuccess'] = 'アップグレードが正常に完了しました。';
-$string['upgradesuccesstoversion'] = '次のバージョンへのアップグレードが正常に完了しました:';
-$string['upgradefailure'] = 'アップグレードに失敗しました。';
-$string['noupgrades'] = 'アップグレードするものはありません。あなたは最新版を使用しています。';
-$string['youcanupgrade'] = 'あなたはMaharaを %s (%s) から %s (%s) へアップグレードできます。';
-$string['upgradeinprogress'] = 'アップグレードは %s に開始されたましたが完了しませんでした。<a href="?rerun=1">このアップグレードを実行します</a>。';
-$string['Plugin'] = 'プラグイン';
-$string['jsrequiredforupgrade'] = 'あなたがインストールまたはアップグレードを実行するにはJavaScriptを有効にする必要があります。';
-$string['dbnotutf8warning'] = 'あなたはUTF-8データベースを使用していません。Maharaはすべてのデータを内部的にUTF-8で保存します。あなたはこのアップグレードを試せますが、データベースのUTF-8へのコンバートをお勧めします。';
-<<<<<<< HEAD
-$string['dbnotutf8mb4_binwarning'] = 'あなたはutf8mb4文字セット (4-Byte UTF-8 Unicode Encoding) データベースを使用していません。Maharaは内部的にすべてのデータをutf8mb4として保存します。あなたはこのアップグレードを試せますが、あなたのデータベースを文字セット「utf8mb4」 および照合順序 「utf8mb4_bin」 を使用するよう変換をお勧めします。';
-$string['dbcollationmismatch'] = 'あなたのデータベースカラムはデータベースデフォルトとは異なるコレーションを使用しています。すべてのカラムがデータベースと同じコレーションを使用することを確実にしてください。';
-$string['maharainstalled'] = 'Maharaはすでにインストールされています。';
-$string['cliadminpassword1'] = '管理アカウントのパスワード';
-$string['cliadminemail1'] = '管理アカウンのメールアドレス';
-=======
-$string['dbcollationmismatch'] = 'あなたのデータベースカラムはデータベースデフォルトとは異なるコレーションを使用しています。すべてのカラムがデータベースと同じコレーションを使用することを確実にしてください。';
-$string['maharainstalled'] = 'Maharaはすでにインストールされています。';
-$string['cliadminpassword'] = '管理ユーザのパスワード';
-$string['cliadminemail'] = '管理ユーザのメールアドレス';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['clisitename'] = 'サイト名';
-$string['cliupdatesitenamefailed'] = 'サイト名の更新に失敗しました。';
-$string['cliinstallerdescription'] = 'Maharaをインストールして必要なデータディレクトリを作成します。';
-$string['cliinstallingmahara'] = 'Maharaをインストールする';
-<<<<<<< HEAD
-$string['cli_list_empty'] = 'リストする結果はありません。';
-$string['versionnumber'] = 'バージョン: %s';
-$string['plugintype'] = 'プラグイン: %s';
-$string['updateeventlogconfigoption'] = 'あなたのconfig.phpファイルで$cfg->eventloglevel設定値を「masq」から「masquerade」に更新する必要があります。';
-$string['registrationisoptout'] = '匿名登録データはオプトアウトになりました。';
-$string['cli_upgrade_description'] = 'インストールされたMaharaのバージョンにMaharaデータベースおよびデータをアップグレードします。';
-$string['cli_upgrade_title'] = 'Maharaをアップグレードする';
-$string['cli_upgrade_force'] = '強制的にアップグレードして戻る';
-$string['cli_upgrade_flag'] = '未完了のアップグレードが検出されました。再度アップグレードするにはコマンドに「-f」オプションを追加してください。';
-=======
-$string['cliupgraderdescription'] = 'インストールされるMaharaバージョンにデータベースおよびデータをアップグレードします。';
-$string['cliupgradingmahara'] = 'Maharaをアップグレードする';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['cliclearingcaches'] = 'Maharaキャッシュをクリアする';
-$string['cliclearcachesdescription'] = 'キャッシュのクリアによりサーバにキャッシュされたデータが削除されます。キャッシュのクリアに危険性はありませんが、サーバおよびクライアントが新しい情報を計算してキャッシュするまであなたのサイトが遅くなる場合があります。';
-$string['clearcachesheading'] = 'キャッシュをクリアする';
-$string['clearcachessubmit'] = 'キャッシュをクリアする';
-$string['clearingcachessucceed'] = 'すべてのキャッシュがクリアされました。';
-$string['clearingcacheserror'] = 'キャッシュのクリア中にエラーが発生しました。このエラーに関する詳細情報を取得するにはログを確認してください。';
-$string['maharanotinstalled'] = '現在、Maharaはインストールされていません。アップグレードの前にMaharaをインストールしてください。';
-$string['adminhome'] = '管理ホーム';
-$string['configsite'] = 'サイト設定';
-$string['configusers'] = '人の管理';
-$string['groups'] = 'グループ';
-$string['managegroups'] = 'グループ管理';
-$string['Extensions'] = '拡張機能';
-$string['configextensions'] = '拡張機能管理';
-$string['manageinstitutions'] = 'インスティテューション管理';
-$string['embeddedurls'] = '埋め込みURL';
-$string['siteoptions'] = 'サイトオプション';
-<<<<<<< HEAD
-$string['siteoptionsdesc'] = '名称、言語およびテーマ等の基本的なサイトオプションを設定します。';
-=======
-$string['siteoptionsdescription'] = '名称、言語およびテーマ等、基本的なサイトオプションを設定します。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['staticpages'] = '固定ページ';
-$string['institutionstaticpages'] = 'インスティテューション固定ページ';
-$string['staticpageinstitutionbad'] = 'あなたはインスティテューション「 %s 」の固定ページにアクセスまたは編集できません。';
-$string['usedefault'] = 'サイトデフォルトを使用する';
-$string['usedefaultdescription3'] = '選択されたページタイプにサイトのデフォルトテキストを使用します。';
-<<<<<<< HEAD
-$string['staticpagesdesc'] = 'ホームページおよび「About」のコンテンツを編集します。';
-$string['staticpagesinstdesc'] = 'インスティテューション固定ページのコンテンツを編集します。';
-$string['institutionprivacypagedescription'] = 'サイトプライバシ保護方針に加えてあなたのインスティテューションに表示されるプライバシ保護方針を編集してください。あなたが最後に編集したバージョンは自動的に最新のプライバシ保護方針となります。あなたには参考として最新のサイトプライバシ保護方針が表示されています。';
-$string['institutiontermspagedescription'] = 'サイト利用条件に加えてあなたのインスティテューションに表示される利用条件を編集してください。あなたが最後に編集したバージョンは自動的に最新の利用条件となります。あなたには参考として最新のサイト利用条件が表示されています。';
-$string['institutionprivacytermsdesc'] = 'インスティテューションのプライバシ保護方針または利用条件を追加または編集します。';
-$string['noinstitutionprivacy'] = 'このインスティテューションにはまだプライバシ保護方針がありません。';
-$string['noinstitutionterms'] = 'このインスティテューションにはまだ利用条件がありません。';
-=======
-$string['staticpagesdescription'] = 'Mahara内の固定ページのコンテンツを編集します (ホーム、利用条件等)。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['menus'] = 'メニュー';
-$string['menusdescription'] = '「リンクおよびリソースメニュー」およびフッタメニュー内のリンクおよびファイルを管理します。';
-$string['sharesitefilesdesc1'] = 'サイトポートフォリオを共有します。';
-$string['shareinstitutionfilesdesc1'] = 'インスティテューションポートフォリオを共有します。';
-$string['sitefiles'] = 'サイトファイル';
-$string['sitefonts'] = 'フォント';
-<<<<<<< HEAD
-$string['sitefontsdesc'] = 'スキン内で誰でも利用できるフォントをアップロードおよび管理します。';
-$string['sitelicenses'] = 'ライセンス';
-$string['sitelicensesadd'] = 'ライセンスを追加する';
-$string['sitelicensesdesc'] = '人が自分のコンテンツで使用できるライセンス一覧を設定します。';
-$string['sitelicensesdisablednote1'] = '<b>注意</b>: 現在、ライセンスメタデータは無効にされています。人がライセンスを指定できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「サイト設定」セクションでライセンスメタデータを有効にする必要があります。';
-$string['sitelicensesedit'] = 'ライセンスを編集する';
-$string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトページに配置できるファイルをアップロードおよび管理します。';
-$string['siteskins'] = 'サイトスキン';
-$string['siteskinsdesc'] = '誰でも利用できるページスキンを作成および管理します。';
-$string['siteviews'] = 'サイトページ';
-$string['siteviewscollections1'] = 'サイトポートフォリオ';
-$string['siteviewsdesc'] = 'サイト全体のページ、ページテンプレートおよびコレクションを作成および管理します。';
-$string['networking'] = 'ネットワーキング';
-$string['networkingdesc'] = '別のサイトへのネットワーキングを設定します。';
-$string['cookieconsent'] = 'クッキーコンセント';
-$string['cookieconsentdesc'] = '「クッキーコンセント」プライバシシステムを設定します。';
-$string['thememissing'] = 'テーマ「 %s 」がありません。このテーマはデフォルトテーマに設定されています。';
-$string['parentthememissing'] = 'テーマ「 %s 」の親テーマ「 %s 」がないため修正する必要があります。このテーマはデフォルトテーマに設定されています。';
-$string['staffusers1'] = 'サイトスタッフ';
-$string['staffusersdesc1'] = 'サイトスタッフのパーミッションを割り当てます。';
-$string['adminusers1'] = 'サイト管理者';
-=======
-$string['sitefontsdescription'] = 'サイト内のユーザすべてがスキンで使用できるフォントをアップロードおよび管理します。';
-$string['sitelicenses'] = 'ライセンス';
-$string['sitelicensesadd'] = 'ライセンスを追加する';
-$string['sitelicensesdescription'] = 'ユーザがコンテンツに使用できるライセンス一覧を設定します。';
-$string['sitelicensesdisablednote'] = '<b>注意</b>: 現在、ライセンスメタデータは無効にされています。ユーザがライセンスを指定できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「一般設定」セクションでライセンスメタデータを有効にする必要があります。';
-$string['sitelicensesedit'] = 'ライセンスを編集する';
-$string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトページに配置できるファイルをアップロードおよび管理します。';
-$string['siteskins'] = 'サイトスキン';
-$string['siteskinsdescription'] = 'サイト内のユーザすべてが使用できるページスキンを作成および管理します。';
-$string['siteviews'] = 'サイトページ';
-$string['siteviewscollections'] = 'サイトページおよびコレクション';
-$string['siteviewsdescription'] = 'サイト全体のページおよびページテンプレートを作成および管理します。';
-$string['networking'] = 'ネットワーキング';
-$string['networkingdescription'] = 'Maharaのネットワーキングを設定します。';
-$string['cookieconsent'] = 'クッキーコンセント';
-$string['cookieconsentdescription'] = '「クッキーコンセント」ユーザプライバシシステムを設定します。';
-$string['thememissing'] = 'テーマ「 %s 」がありません。このテーマはデフォルトテーマに設定されています。';
-$string['staffusers'] = 'スタッフユーザ';
-$string['staffusersdescription'] = 'ユーザにスタッフパーミッションを割り当てます。';
-$string['adminusers'] = '管理ユーザ';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['adminusersdescription'] = 'サイト管理者アクセス権を割り当てます。';
-$string['settings'] = '設定';
-$string['institution'] = 'インスティテューション';
-$string['institutions'] = 'インスティテューション';
-$string['Institutions'] = 'インスティテューション';
-<<<<<<< HEAD
-$string['ninstitutions'] = '%s インスティテューション';
-$string['institutiondetails'] = 'インスティテューション詳細';
-$string['institutionauth'] = 'インスティテューション認証局';
-$string['institutionsettingsdesc'] = 'インスティテューションを設定および管理します。';
-$string['lastinstitution'] = '前のインスティテューション';
-$string['adminnotifications'] = '管理者通知';
-$string['adminnotificationsdescription'] = '管理者が受信するシステム通知の概要です。';
-$string['uploadcsv1'] = 'CSVでアカウントを追加または更新する';
-$string['uploadcsvbutton'] = 'アカウントを追加または更新する';
-$string['uploadcsvdesc'] = '新しいアカウントの詳細または既存アカウントの更新を含むCSVファイルをアップロードします。';
-$string['uploadgroupcsv'] = 'CSVでグループを追加する';
-$string['uploadgroupmemberscsv'] = 'CSVでグループメンバを更新する';
-$string['usersearch'] = '人検索';
-$string['searchforaperson'] = '人を探す';
-$string['usersearchdescription1'] = 'すべての人を検索してアカウントに管理行為を実施します。';
-$string['peoplesearchinstructions'] = 'あなたは氏名またはメールアドレスを検索ボックスに入力して人を検索できます。あなたの検索を絞り込むためのオプションを表示するには「高度なオプション」をクリックしてください。';
-$string['emailaddresshidden'] = 'メールアドレス秘匿';
-$string['inactive'] = 'アカウント非アクティブ';
-$string['inactivefor1'] = '現在、「 %s 」 はアクティブアカウントではありません。';
-$string['noadminspecified'] = '少なくとも1名の現在の管理者が必要です。';
-=======
-$string['institutiondetails'] = 'インスティテューション詳細';
-$string['institutionauth'] = 'インスティテューション認証局';
-$string['institutionsdescription'] = 'インスティテューションの設置および設置済みインスティテューションを管理します。';
-$string['lastinstitution'] = '前のインスティテューション';
-$string['adminnotifications'] = '管理者通知';
-$string['adminnotificationsdescription'] = '管理者が受信するシステム通知の概要です。';
-$string['uploadcsv'] = 'CSVでユーザを追加する';
-$string['uploadcsvdescription'] = '新しいユーザを含んだCSVファイルをアップロードします。';
-$string['uploadgroupcsv'] = 'CSVでグループを追加する';
-$string['uploadgroupmemberscsv'] = 'CSVでグループメンバを更新する';
-$string['usersearch'] = 'ユーザ検索';
-$string['usersearchdescription'] = 'すべてのユーザを検索して検索されたユーザに対して管理行為を実施します。';
-$string['usersearchinstructions'] = 'ユーザの姓名のイニシャルをクリックするか、検索ボックスに名前を入力することであなたはユーザを検索できます。あなたがメールアドレスを検索したい場合、検索ボックスにメールアドレスを入力することもできます。';
-$string['emailaddresshidden'] = 'メールアドレス秘匿';
-$string['inactive'] = 'ユーザ非アクティブ';
-$string['inactivefor'] = '現在、ユーザ「 %s 」 はアクティブではありません。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['administergroups'] = 'グループを管理する';
-$string['administergroupsdesc'] = 'グループ、その管理者および利用可能なスペースを管理します。';
-$string['groupcategoriesdescription'] = 'グループカテゴリを追加および編集します。';
-<<<<<<< HEAD
-$string['uploadgroupcsvdesc'] = '新しいグループまたは既存のグループの更新を含むCSVファイルをアップロードします。';
-$string['uploadgroupmemberscsvdescription'] = 'グループメンバを含むCSVファイルをアップロードします。';
-$string['institutionmembersdescription'] = '人をインスティテューションに関連付けます。';
-$string['institutionstaffdesc1'] = 'インスティテューションスタッフのパーミッションを割り当てます。';
-=======
-$string['uploadgroupcsvdescription'] = '新しいグループを含むCSVファイルをアップロードします。';
-$string['uploadgroupmemberscsvdescription'] = 'グループメンバを含むCSVファイルをアップロードします。';
-$string['institutionmembersdescription'] = 'ユーザをインスティテューションに関連付けます。';
-$string['institutionstaffdescription'] = 'ユーザにスタッフパーミッションを割り当てます。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['institutionadminsdescription'] = 'インスティテューション管理者アクセス権を割り当てます。';
-$string['institutionviews'] = 'インスティテューションページ';
-$string['institutionviewsdesc'] = 'インスティテューションのページ、ページテンプレートおよびコレクションを作成および管理します。';
-$string['institutionfiles'] = 'インスティテューションファイル';
-$string['institutionfilesdescription'] = 'インスティテューションページで使用するファイルをアップロードおよび管理します。';
-$string['pluginsfields'] = 'プラグイン設定';
-$string['pluginadmin'] = 'プラグイン管理';
-$string['pluginadmindescription'] = 'プラグインをインストールおよび設定します。';
-$string['missingplugindisabled1'] = 'インストール済みプラグイン「 %s 」が見つからなかったため、無効にされました。';
-$string['installedpluginsmissing'] = '次のプラグインがインストールされていますが、見つかりませんでした。';
-$string['ensurepluginsexist'] = 'あなたのすべてインストール済みプラグインが %s 配下で利用可能およびウェブサーバから読み込めることを確認してください。';
-<<<<<<< HEAD
-$string['plugintypedescription_blocktype'] = 'ページに配置するプレースホルダブロック内で表示されるブロックの表示順を変更するには個別のブロックを移動してください。数字は特定のブロックタイプがサイトですでに何回使用されているか示します。';
-=======
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['htmlfilters'] = 'HTMLフィルタ';
-$string['htmlfiltersdescription'] = 'HTML Purifierの新しいフィルタを有効にします。';
-$string['newfiltersdescription'] = 'あなたが一連の新しいHTMLフィルタをダウンロードした場合、%s フォルダ内にファイルを展開した後、下のボタンをクリックしてインストールできます。';
-$string['filtersinstalled'] = 'フィルタがインストールされました。';
-$string['nofiltersinstalled'] = 'インストールされたHTMLフィルタはありません。';
-$string['allowediframesites'] = '許可されるiframeソース';
-<<<<<<< HEAD
-$string['iframesitesdescriptionshort'] = 'iframeで利用可能な外部コンテンツの埋め込みを許可します。';
-$string['allowediframesitesdescription'] = '人はHTML &lt;iframe&gt; エレメント内に以下の外部サイトからコンテンツを埋め込めます。これは一般的に他の場所で提供されているコンテンツを表示するため使用されます。許可されるサイト一覧はこのページで修正できます。';
-$string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、作成者にアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが、サイト内におけるiframeソーステキストのマッチングは許可されます。';
-$string['iframeurldescription'] = 'iframeソースURL (https:// なし) の先頭に合致するテキストです。半角英数字、「.」「/」「_」および「-」のみ許可されます。';
-$string['iframedisplaynamedescription'] = '作成者に表示されるサイト名です。';
-=======
-$string['allowediframesitesdescriptionshort'] = '埋め込み外部iframeコンテンツのパーミッションを設定します。';
-$string['allowediframesitesdescription'] = 'ユーザはHTML &lt;iframe&gt; エレメント内に以下の外部サイトからコンテンツを埋め込めます。これは一般的に他の場所で提供されているコンテンツを表示するため使用されます。許可されるサイト一覧はこのページで修正できます。';
-$string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、ユーザにアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが、サイト内におけるiframeソーステキストのマッチングは許可されます。';
-$string['iframeurldescription'] = 'iframeソースURL (https:// なし) の先頭に合致するテキストです。半角英数字、「.」「/」「_」および「-」のみ許可されます。';
-$string['iframedisplaynamedescription'] = 'ユーザに表示されるサイト名です。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ使用できます。';
-$string['iframeiconhost'] = 'アイコンホスト';
-$string['urlalreadyexists'] = 'このURLはすでに存在します。あなたはURLを重複して追加できません。';
-$string['iframeiconhostdescription'] = '必要であれば、あなたはファビコンイメージ用の異なるホストを指定できます。同一名称のすべてのサイトでこのアイコンが使用されます。';
-$string['cleanurls'] = 'クリーンURL';
-<<<<<<< HEAD
-$string['cleanurlsdescription'] = '<p>あなたのサイトのプロファイル、グループホームページおよびポートフォリオページを人間に解読可能なURLを使用するよう設定できます。例えば以下のようになります:
-=======
-$string['cleanurlsdescription'] = '<p>ユーザあなたのサイトのプロファイル、グループホームページおよびポートフォリオページを人間に解読可能なURLを使用するよう設定できます。例えば以下のようになります:
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-<ul>
-<li>https://mahara.example.com/user/bob</li>
-<li>https://mahara.example.com/group/bobs-group</li>
-<li>https://mahara.example.com/user/bob/bobs-portfolio-page</li>
-</ul>
-
-あなたのサーバ管理者はこのオプションを有効にする前に受信リクエストのURLを書き換えれるようウェブサーバを設定する必要があります。</p>
-<<<<<<< HEAD
-<p>この作業のインストラクションに関してMahara wikiの<a href="https://git.mahara.org/catalyst/mahara/-/wikis/System-administration/Configuring-clean-URLs">「クリーンURL設定 (英語)」</a>をご覧ください。</p>';
-=======
-<p>この作業のインストラクションに関してMahara wikiの<a href="https://wiki.mahara.org/wiki/System_Administrator\'s_Guide/Clean_URL_Configuration">「クリーンURL設定 (英語)」</a>をご覧ください。</p>';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['cleanurlsdisabled'] = 'クリーンURLは無効にされています。';
-$string['cleanurlsettings'] = 'クリーンURL設定';
-$string['regenerateurls'] = 'URLを再生成する';
-$string['regenerateurlsdescription'] = 'すべてのクリーンURLをサイトから削除した後、ユーザ名、グループ名およびページタイトルを使用してクリーンURLを自動的に再生成します。';
-<<<<<<< HEAD
-$string['regenerateurlsconfirm1'] = '本当にこの処理を実行してもよろしいですか? 既存のカスタムURLすべてが置換されます。';
-$string['generateduserurls'] = '生成済みプロファイルURL: %s';
-$string['generatedgroupurls'] = '生成済みグループホームページURL: %s';
-$string['generatedviewurls'] = '生成済みプロファイルページURL: %s';
-$string['cleanurlsdescriptionshort'] = '人間が解読可能なURLを使用するようサイトを設定します。';
-$string['embeddedurlstitle1'] = '埋め込みURL';
-$string['embeddedurlsdescription1'] = '<p>あなたのサイトのURLを変更した場合、ページインストラクション、テキストブロックおよびフォーラム等のテキスト内のサイトのコンテンツへの既存のリンクは間違った場所を指定することになります。</p><p>潜在的に古いURLが検出された場合、あなたはここで古いURLのドメインを指定および更新して修正できます。</p>';
-$string['nopotentialembeddedurls1'] = '<p>潜在的な古いURLは検出されませんでした。</p>';
-$string['potentialembeddedurls1'] = '<p>潜在的な古いURLは検出されませんでした。</p>';
-$string['oldurl'] = '古いサイトURL';
-$string['oldurldescription'] = '古いサイトのURLパスを入力してください。例) 「https://oldsite.com」を入力して何か更新する必要があるか確認します。';
-$string['checkurl'] = 'URLをチェックする';
-$string['domigrateurls'] = 'URLを更新する';
-$string['migrateurlsdescription'] = '「 %s 」で始まる埋め込みURLすべてを「 %s 」で始まるよう変更します。';
-$string['migrateurlsconfirm1'] = 'URLの更新を承認する';
-$string['migratedbasicurls'] = '%s コンテンツURLを更新しました。';
-$string['migratedblockurls'] = '%s ブロックコンテンツURLを更新しました。';
-$string['section_view_instructions'] = 'ページインストラクション';
-$string['section_view_description'] = 'ページ説明';
-$string['section_group'] = 'グループ説明';
-$string['section_artefact'] = 'アーティファクトコンテンツ';
-$string['section_interaction'] = 'フォーラム説明';
-$string['section_interactionpost'] = 'フォーラムコンテンツ';
-$string['section_block'] = 'ブロックコンテンツ';
-$string['section_static_pages'] = '固定ページコンテンツ';
-$string['section_wall_post'] = 'ウォールコンテンツ';
-$string['section_artefact_resume_certification'] = 'レジュメ: 証明コンテンツ';
-$string['section_artefact_resume_educationhistory'] = 'レジュメ: 教育履歴';
-$string['section_artefact_resume_book'] = 'レジュメ: 書籍コンテンツ';
-$string['section_verification_comment'] = '検証コメント';
-$string['section_artefact_resume_membership'] = 'レジュメ: メンバーシップ';
-$string['section_artefact_resume_employmenthistory'] = 'レジュメ: 職歴';
-$string['potentialfor'] = '%s の結果';
-=======
-$string['regenerateurlsconfirm'] = '本当にこの処理を実行してもよろしいですか? ユーザにより選択された既存のURLすべてが置換されます。';
-$string['generateduserurls'] = '%s プロファイルURLを生成しました。';
-$string['generatedgroupurls'] = '%s グループホームページURLを生成しました。';
-$string['generatedviewurls'] = '%s ポートフォリオページURLを生成しました。';
-$string['cleanurlsdescriptionshort'] = '人間が解読可能なURLを使用するようサイトを設定しますす。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['warnings'] = '警告';
-$string['applyingchanges'] = '変更を適用する';
-$string['groupcategories'] = 'グループカテゴリ';
-$string['allowgroupcategories'] = 'グループカテゴリを許可する';
-$string['enablegroupcategories'] = 'グループカテゴリを有効にする';
-$string['addcategories'] = 'カテゴリを追加する';
-<<<<<<< HEAD
-$string['allowgroupcategoriesdescription2'] = 'サイト管理者がグループに割り当て可能なカテゴリを作成できるようにします。';
-=======
-$string['allowgroupcategoriesdescription1'] = 'サイト管理者がユーザのグループを割り当てるためのカテゴリを作成できるようにします。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['groupoptionsset'] = 'グループオプションが更新されました。';
-$string['groupcategorydeleted'] = 'カテゴリが削除されました。';
-$string['groupcategoryupdated'] = 'カテゴリが更新されました。';
-$string['groupcategoryadded'] = 'カテゴリが追加されました。';
-$string['confirmdeletecategory'] = '本当にこのカテゴリを削除してもよろしいですか?';
-$string['groupcategoriespagedescription'] = 'ここで一覧表示されているカテゴリはグループ作成時に割り当てできます。また、検索時にグループのフィルタとして使用できます。';
-$string['groupquotas'] = '「 %s 」のグループクオータ';
-<<<<<<< HEAD
-$string['groupfilequotadescription'] = 'グループのファイルエリアで利用可能な合計保存領域です。';
-$string['groupadminsforgroup'] = '「 %s 」のグループ管理者';
-$string['makeusersintoadmins'] = '選択した一般アカウントを管理者アカウントにする';
-$string['makeadminsintousers'] = '選択した管理者アカウントを一般アカウントに戻す';
-$string['groupadminsupdated'] = 'グループ管理者が更新されました。';
-$string['groupquotaupdated'] = 'グループクオータが更新されました。';
-$string['addnewgroupcategory'] = '新しいグループカテゴリを入力する';
-$string['submissions'] = '提出';
-$string['archivedsubmissions'] = 'アーカイブ済み提出';
-$string['archivedsubmissionsdesc'] = 'アーカイブ済み提出を管理します。';
-$string['currentsubmissions'] = '現在の提出';
-$string['releasesubmissionlabel'] = 'リリース';
-$string['submittedto'] = '提出先';
-$string['submittedon'] = '送信日時';
-$string['ID'] = 'ID';
-$string['filenameleap'] = 'Leap2Aファイル';
-$string['filenameleaphtml'] = 'アーカイブファイル';
-=======
-$string['groupfilequotadescription'] = 'グループのファイルエリアで利用可能な合計保存領域です。。';
-$string['groupadminsforgroup'] = '「 %s 」のグループ管理者';
-$string['potentialadmins'] = '潜在的な管理者';
-$string['currentadmins'] = '現在の管理者';
-$string['makeusersintoadmins'] = '選択したユーザを管理者にする';
-$string['makeadminsintousers'] = '選択した管理者をユーザに戻す';
-$string['groupadminsupdated'] = 'グループ管理者が更新されました。';
-$string['groupquotaupdated'] = 'グループクオータが更新されました。';
-$string['addnewgroupcategory'] = '新しいグループカテゴリを入力する';
-$string['archivedsubmissions'] = 'アーカイブ済み提出';
-$string['submittedto'] = '提出先';
-$string['ID'] = 'ID';
-$string['filenameleap'] = 'Leap2Aファイル';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['archivedon'] = 'アーカイブ';
-$string['filemissing'] = '%s (ファイル不明)';
-$string['filemissingdesc'] = 'ファイル「 %s%s 」がサーバにありません。';
-$string['Field'] = 'フィールド';
-$string['Value'] = '値';
-<<<<<<< HEAD
-$string['sendweeklyupdates'] = '週ごとの更新状況を送信する';
-$string['sendweeklyupdatesdescription'] = 'あなたのサイトの統計情報を含む週ごとの更新状況の<a href="https://mahara.org/">mahara.org</a>への送信を許可します。';
-$string['newregistrationpolicyinfo1'] = '<ul>
-<li>Maharaがどのように使用されているかより良い洞察を得るため、私たちは登録データポリシを更新してサイトの週ごと更新の匿名データ提供のオプトアウトを要求します。</li>
-<li>私たちは収集する匿名データの内容を変更しました。</li>
-</ul>';
-$string['registerwithmahara1'] = 'データ収集をオプトアウトする';
-$string['registerwithmaharadescription1'] = 'あなたのサイトの匿名化データをMaharaプロジェクトに送信しないよう設定できます。Maharaプロジェクトチームの製品開発を支援するため、私たちはあなたのサイトの登録継続をお勧めします。';
-$string['Register'] = '登録';
-$string['Registration'] = '登録';
-$string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/registersite.php">サイト登録ページ</a>にアクセスして登録できます。';
-$string['registrationfailedtrylater'] = '登録に失敗しました (エラーコード: %s)。後ほど再度お試しください。';
-$string['registrationoptoutsuccessful'] = '正常に登録がオプトアウトされました。これ以上データは送信されません。';
-$string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます。';
-$string['registermaharasite'] = 'サイト登録';
-$string['registeryoursitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録することで私たちの世界中のMaharaインストール状況把握に役立ちます。</p>';
-$string['registeryourmaharasitedetail1'] = '<p>サイトはMaharaプロジェクトに自動的に登録されます。登録は無料であり私たちが世界中のMaharaインストール状況を把握するための助けとなります。</p>
-<p>Maharaプロジェクトは個人情報および個人を特定できるデータを収集しません。ほとんどのデータはプロジェクトが傾向を特定できるよう集約された形で収集されます。あなたは以下でどのようなデータが収集されて週ごとに送信されるか確認できます。</p>
-<p>あなたがデータ収集に関して質問がある場合、<a href="mailto:info@mahara.org?subject=Site registration data collection">ご連絡ください</a>。</p>';
-$string['sendingweeklyupdates1'] = 'あなたは週ごとの更新状況を送信しています。';
-$string['notsendingweeklyupdates'] = 'あなたは週ごとの更新状況を送信していません。';
-$string['siteisregisteredsince1'] = '%s 以来、あなたのサイトは<a href="https://mahara.org/">mahara.org</a>に登録されています。';
-$string['sitenotregistered'] = '現在、あなたのサイトはMaharaプロジェクトに登録されていません。私たちがあなたの利用状況をより詳しく知るために以下でオプトインしてください。';
-$string['siteisregistered1'] = 'あなたのサイトは<a href="https://mahara.org/">mahara.org</a>に登録された上で週別データを送信します。';
-$string['siteregistrationpolicy1'] = '登録ポリシは次のように変更されました。';
-$string['startsendingdata'] = 'あなたのサイトは週ごとの更新状況を<a href="https://mahara.org/">mahara.org</a>に送信しています。';
+$string['Add'] = '追加';
+$string['Admins'] = '管理者';
+$string['Advanced'] = '高度';
 $string['Close'] = 'クローズ';
-$string['closesite'] = 'サイトをクローズする';
-$string['closesitedetail'] = 'あなたは管理者を除くすべての人に対してサイトをクローズできます。これはデータベースアップグレードの準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインできます。';
-$string['closesitemsglbl'] = 'メンテナンスメッセージ';
-=======
-$string['datathatwillbesent'] = '送信されるデータ';
-$string['datathathavebeensent'] = '送信されたデータ';
-$string['sendweeklyupdates'] = '更新を週に1回送信してもよろしいですか?';
-$string['sendweeklyupdatesdescription2'] = 'あなたのサイト統計に関する週ごとの更新状況をmahara.orgに送信します。';
-$string['Register'] = '登録';
-$string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/registersite.php">サイト登録ページ</a>にアクセスして登録できます。';
-$string['registrationfailedtrylater'] = '登録に失敗しました (エラーコード: %s)。後ほど再度お試しください。';
-$string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます。';
-$string['registeryourmaharasite'] = 'あなたのMaharaサイトを登録する';
-$string['registeryourmaharasitesummary'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録できます。登録することで私たちは世界のMaharaインストール状況を作成できます。登録することでこの通知が取り除かれます。</p>
-<p>あなたがサイトを登録する場合、送信される情報を<strong><a href="%sadmin/registersite.php">サイト登録ページ</a></strong>でプレビューできます。</p>';
-$string['registeryourmaharasitedetail'] = '<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録できます。登録することで私たちは世界のMaharaインストール状況を作成できます。</p>
-<p>あなたはmahara.orgに送信された情報を閲覧できます - あなたのユーザに関する個人情報は一切送信されません。</p>
-<p>あなたが「更新を週に1回送信してもよろしいですか?」設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
-<p>登録することでこの通知が取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更できます。</p>';
-$string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページで</p>サイト更新内容の週ごとの送信を有効または無効にできます。';
-$string['newsiteregistrationpolicy'] = '<p>私たちはMahara 15.10においてmahara.orgへのデータ送信に関するポリシを更新しました。あなたの登録を確認してください。</p>';
-$string['Close'] = 'クローズ';
-$string['closesite'] = 'サイトをクローズする';
-$string['closesitedetail'] = 'あなたは管理者を除くすべての人に対してサイトをクローズできます。これはデータベースアップグレードの準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインできます。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['Open'] = 'オープン';
-$string['reopensite'] = 'サイトを再オープンする';
-$string['reopensitedetail'] = 'あなたのサイトはクローズされています。アップグレードが検出されるまでサイト管理者はログインしたままにできます。';
-$string['siteinformation'] = 'サイト情報';
-$string['viewfullsitestatistics'] = 'サイト統計詳細を表示する';
-$string['institutioncreated_all'] = 'サイトインストール';
-$string['databasesize'] = 'データベースサイズ';
-$string['diskusage'] = 'ディスク使用量';
-$string['maharaversion'] = 'Maharaバージョン';
-<<<<<<< HEAD
-$string['activeusers'] = 'アクティブアカウント保持者';
-$string['loggedinsince2'] = '<ul>
-<li>今日: %s</li>
-<li>先週: %s</li>
-<li>過去1年: %s</li>
-<li>すべて: %s</li>
-</ul>';
-$string['groupmemberaverage'] = 'それぞれの人は平均 %s のグループに属しています。';
-$string['viewsperuser'] = 'ポートフォリオを作成した人はそれぞれ約 %s ページを所有しています。';
-$string['Cron'] = 'cron';
-$string['cron_normal'] = '正常動作';
-$string['cron_never_run1'] = '<strong class="error text-danger">cronが動作していません。</strong><br>セットアップ方法に関して<a href="https://git.mahara.org/catalyst/mahara/-/wikis/System-administration/Installing-Mahara">インストレーションガイド</a>をご覧ください。';
-$string['cron_not_running'] = '<strong class="error text-danger">cronが正常に動作していません。</strong>';
-$string['cron_slow'] = 'cronタスク実行遅延:';
-$string['cron_stuck'] = '非常に遅いcronタスクは壊れている可能性があります:';
-$string['cron_paused'] = '<strong class="error text-danger">cronが動作していません。</strong><br>現在、サイトはクローズされています。cronを実行するにはサイトを再度オープンしてください。';
-$string['Loggedin'] = 'ログイン';
-$string['youraverageuser'] = 'あなたの平均的な人 ...';
-=======
-$string['activeusers'] = 'アクティブユーザ';
-$string['loggedinsince'] = '%s=今日 / %s=%s以降 / %s=全期間';
-$string['groupmemberaverage'] = 'それぞれのユーザは平均 %s のグループに属しています。';
-$string['viewsperuser'] = 'ページを作成したユーザはそれぞれ約 %s ページを所有しています。';
-$string['Cron'] = 'cron';
-$string['runningnormally'] = '正常動作';
-$string['cronnotrunning2'] = '<strong class="error text-danger">cronが動作していません。</strong><br>cronの設定に関するインストラクションは<a href="https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronを設定している場合、直近の1つまたはそれ以前の処理が正しく実行されませんでした。';
-$string['cronnotrunningsiteclosed1'] = '<strong class="error text-danger">cronが動作していません。</strong><br>現在、サイトはクローズされています。cronを実行するにはサイトを再度オープンしてください。';
-$string['Loggedin'] = 'ログイン';
-$string['youraverageuser'] = 'あなたの平均的なユーザ ...';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['statsmaxfriends1'] = 'フレンド数: %2$s<br>(<a href="%3$s">%4$s には最大 %1$d 人のフレンドがいます</a>)';
-$string['statsnofriends'] = 'フレンド数: 0';
-$string['statsmaxviews1'] = '作成ページ数: %2$s<br>(<a href="%3$s">%4$s は最大 %1$d ページを所有しています</a>)';
-$string['statsnoviews'] = '作成ページ数: 0';
-$string['statsmaxgroups1'] = '所属グループ数: %2$s<br>(<a href="%3$s">%4$s は最大 %1$d のグループに属しています</a>)';
-$string['statsnogroups'] = '所属グループ数: 0';
-$string['statsnoquota'] = 'ストレージ未使用';
-$string['statsmaxquotaused1'] = 'ディスククオータ使用: %s<br>(<a href="%s">%s は最大 %s のディスククオータを使用しています</a>)';
-$string['groupcountsbytype'] = 'グループタイプ別グループ数';
-$string['groupcountsbyjointype'] = 'アクセスタイプ別グループ数';
-$string['blockcountsbytype'] = 'ポートフォリオページで使用頻度の高いブロック';
-<<<<<<< HEAD
-$string['uptodate'] = 'あなたのローカルコードベースはMaharaコア最新版です。';
-$string['latestversionis'] = '最新メジャーリリース: <a href="%s">%s</a>';
-$string['latestbranchversionis'] = 'このリリースの最新マイナバージョン: <a href="%s">%s</a>';
-$string['versionnotinsupport'] = '%s はサポート対象外です。';
-$string['versionnotinsupportdev'] = 'サポート対象外の開発バージョン';
-=======
-$string['uptodate'] = '最新';
-$string['latestversionis'] = '最新バージョン: <a href="%s">%s</a>';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['viewsbytype'] = 'タイプ別ページ';
-$string['institutionloginstabletitle'] = 'アクティブインスティテューション';
-$string['institutionloginstablesubtitle'] = '%s - %s';
-$string['visitedtimesrank'] = '訪問回数: %s 回 / ランク数: %s 件';
-$string['pageownedby'] = 'オーナ';
-$string['contentstats'] = '今週の修正数: %s 回 / 合計修正数: %s 回';
-$string['exportstatsascsv'] = '統計をCSVフォーマットでエクスポートする';
-$string['downloadstatsascsv'] = 'CSVフォーマットの統計';
-$string['nostats'] = '利用可能な統計はありません。';
-$string['site'] = 'サイト';
-$string['exportgroupscsv'] = 'グループをCSVフォーマットでエクスポートする';
-$string['exportgroupmembershipscsv'] = 'グループメンバシップをCSVフォーマットでエクスポートする';
-$string['exportgroupmembershipscsvspecific'] = '「 %s 」のグループメンバシップをCSVフォーマットでエクスポートする';
-$string['nostatistics'] = '現在、このインスティテューションに表示できる統計はありません。';
-$string['institutionstatisticsfor'] = '「 %s 」のインスティテューション統計';
-$string['institutioncreated'] = 'インスティテューション作成';
-$string['People'] = '人';
-$string['Groups'] = 'グループ';
-$string['Content'] = 'コンテンツ';
-$string['configurereport'] = 'レポートを設定する';
 $string['Columns'] = 'カラム';
-<<<<<<< HEAD
-$string['siteadminsonly'] = 'サイト管理者のみ';
-$string['adminsonly'] = '管理者のみ';
+$string['Content'] = 'コンテンツ';
+$string['Cron'] = 'cron';
+$string['Download'] = 'ダウンロード';
+$string['Everyone'] = '誰でも';
+$string['Extensions'] = '拡張機能';
+$string['Field'] = 'フィールド';
+$string['Groups'] = 'グループ';
+$string['ID'] = 'ID';
+$string['Import'] = 'インポート';
+$string['Information'] = 'インフォメーション';
+$string['Institution'] = 'インスティテューション';
+$string['Institutions'] = 'インスティテューション';
+$string['Lockedfields'] = 'ロックフィールド';
+$string['Loggedin'] = 'ログイン';
+$string['Logo'] = 'ロゴ';
+$string['Logosmall'] = 'スモールロゴ';
+$string['Maximum'] = '最大';
+$string['Members'] = 'メンバー';
+$string['Non-members'] = '非メンバー';
+$string['None'] = 'なし';
+$string['Open'] = 'オープン';
+$string['Or'] = 'または';
+$string['People'] = '人';
+$string['Plugin'] = 'プラグイン';
+$string['Register'] = '登録';
+$string['Search'] = '検索';
+$string['Shortname'] = '省略名';
+$string['Simple'] = 'シンプル';
+$string['Staff'] = 'スタッフ';
+$string['Suspend'] = '利用停止';
+$string['Value'] = '値';
+$string['about'] = 'About';
+$string['accountexpiry'] = 'アカウント有効期限';
+$string['accountexpirydescription'] = 'ユーザのログインが自動的に無効にされる日付です。';
+$string['accountsettings'] = 'アカウント設定';
+$string['accountsettingslegend'] = 'アカウント設定';
+$string['activeusers'] = 'アクティブユーザ';
+$string['addcategories'] = 'カテゴリを追加する';
+$string['addinstitution'] = 'インスティテューションを追加する';
+$string['addmembers'] = 'メンバーを追加する';
+$string['addnewgroupcategory'] = '新しいグループカテゴリを入力する';
+$string['addnewmembers'] = '新しいメンバーを追加する';
+$string['addsitelicense'] = 'ライセンスを追加する';
+$string['adduser'] = 'ユーザを追加する';
+$string['adduserdescription'] = '新しいユーザを作成します。';
+$string['addusertoinstitution'] = 'インスティテューションにユーザを追加する';
+$string['adminauthorities'] = '認証局を管理する';
+$string['adminfilespagedescription2'] = 'これらは%s「リンクおよびリソース」メニュー%sに含むことのできるファイルです。あなたはホームディレクトリからログインメニューにファイルを追加できます。また、「パブリック」フォルダからパブリックメニューにファイルを追加することもできます。';
+$string['adminhome'] = '管理ホーム';
+$string['admininstitutions'] = 'インスティテューションを管理する';
+$string['administergroups'] = 'グループを管理する';
+$string['administergroupsdescription'] = 'グループ管理者を割り当ておよびグループを削除します。';
+$string['administration'] = '管理';
+$string['adminnoauthpluginforinstitution'] = 'このインスティテューションの認証プラグインを設定してください。';
+$string['adminnotifications'] = '管理者通知';
+$string['adminnotificationsdescription'] = '管理者が受信するシステム通知の概要です。';
+$string['adminpublicdirdescription'] = 'ログアウトしたユーザからアクセス可能なファイルです。';
+$string['adminpublicdirname'] = 'パブリック';
 $string['adminsandstaffonly'] = '管理者およびスタッフのみ';
+$string['adminsonly'] = '管理者のみ';
+$string['adminusers'] = '管理ユーザ';
+$string['adminusersdescription'] = 'サイト管理者アクセス権を割り当てます。';
+$string['adminuserspagedescription1'] = '<p>ここであなたはどのユーザをサイトの管理者にするか選択できます。現在の管理者は「現在の管理者」フィールドに潜在的な管理者は「潜在的な管理者」フィールドに一覧表示されます。</p><p>システムには少なくとも1名の管理者を設定する必要があります。</p>';
+$string['adminusersupdated'] = '管理者が更新されました。';
 $string['advanced'] = '高度';
-$string['allowpublicviews1'] = 'パブリックポートフォリオを許可する';
-$string['allowpublicviewsdescription2'] = '人は登録済みの人のみではなく、外部からもアクセスできるポートフォリオを作成できます。';
-$string['allowinstitutionpublicviews2'] = 'パブリックインスティテューションポートフォリオ';
-$string['allowinstitutionpublicviewsdescription3'] = '登録済みの人のみではなく、外部からもアクセスできるポートフォリオをインスティテューションメンバが作成できるようにします。';
-$string['allowpeersviewcontent1'] = 'ピアはポートフォリオコンテンツを閲覧できる';
-$string['allowpeersviewcontentdescription'] = 'ポートフォリオで「ピア」ロールが割り当てられたユーザがポートフォリオのコンテンツすべてを閲覧できるようにします。';
-$string['allowinstitutionsmartevidence1'] = 'スマートエビデンス';
-$string['allowinstitutionsmartevidencedescription'] = 'コレクションをコンピテンシフレームワークと連携したスマートエビデンスコレクションに切り替えます。';
-$string['institutionsmartevidencenotallowed'] = 'あなたがスマートエビデンスオプションを設定するには「プラグイン管理」ページで「スマートエビデンス」モジュールを有効にする必要があります。';
-$string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
-$string['allowpublicprofilesdescription1'] = '人は登録済みの人のみではなく、外部からもアクセスできるプロファイルページを設定できます。';
+$string['all'] = 'すべて';
+$string['allothers'] = 'その他すべて';
 $string['allowanonymouspages'] = '匿名ページを許可する';
-$string['allowanonymouspagesdescription1'] = '人はページ作成者として他の人から氏名を秘匿できます。管理者およびスタッフは必要であれば作成者の氏名を確認できます。';
-$string['allowcommentsbydefault'] = 'デフォルトでページコメントを許可する';
-$string['allowcommentsbydefaultdescription'] = 'デフォルトでページのコメントを許可します。';
-$string['anonymouscomments'] = '匿名コメント';
-$string['anonymouscommentsdescription1'] = 'パブリックページまたはシークレットURLでアクセスできるページに誰でもコメントを残せます。';
-$string['loggedinprofileviewaccess1'] = 'すべての登録済みの人によるプロファイルアクセス';
-$string['loggedinprofileviewaccessdescription1'] = 'プロファイルページをすべての登録済みの人が閲覧できます。';
-$string['antispam'] = 'アンチスパム';
-$string['antispamdescription'] = '一般公開フォームに適用されるスパム防止策のタイプです。';
-=======
-$string['adminsonly'] = '管理者のみ';
-$string['adminsandstaffonly'] = '管理者およびスタッフのみ';
-$string['advanced'] = '高度';
-$string['allowpublicviews'] = 'パブリックページを許可する';
-$string['allowpublicviewsdescription1'] = 'ユーザはログインユーザのみではなく、外部からもアクセスできるポートフォリオページを作成できます。';
+$string['allowanonymouspagesdescription1'] = 'ユーザはページ作成者として他のユーザから氏名を隠すことができます。
+必要であれば、管理者は作成者の氏名を確認できます。';
+$string['allowediframesites'] = '許可されるiframeソース';
+$string['allowediframesitesdescription'] = 'ユーザはHTML &lt;iframe&gt; エレメント内に以下の外部サイトからコンテンツを埋め込むことができます。これは一般的に他の場所で提供されているコンテンツを表示するため使用されます。このページで許可されるサイト一覧を修正できます。';
+$string['allowediframesitesdescriptiondetail'] = '外部メディアブロック設定時、ユーザにアイコンおよび表示名が表示されます。同一表示名のサイトすべてが設定フォーム内でグルーピングされますが、同一サイト内におけるiframeソーステキストの一部合致は許可されます。';
+$string['allowediframesitesdescriptionshort'] = '埋め込み外部iframeコンテンツのパーミッションを設定します。';
+$string['allowgroupcategories'] = 'グループカテゴリを許可する';
+$string['allowgroupcategoriesdescription1'] = 'サイト管理者がユーザのグループを割り当てるためのカテゴリを作成できるようにします。';
 $string['allowinstitutionpublicviews'] = 'インスティテューションパブリックページを許可する';
 $string['allowinstitutionpublicviewsdescription2'] = 'このインスティテューションに属するユーザは登録ユーザのみではなく、外部からもアクセスできるポートフォリオページを作成できます。';
 $string['allowinstitutionsmartevidence'] = 'スマートエビデンスを許可する';
-$string['allowinstitutionsmartevidencedescription'] = 'コレクションをコンピテンシフレームワークと連携したスマートエビデンスコレクションに切り替えます。';
-$string['institutionsmartevidencenotallowed'] = 'あなたがスマートエビデンスオプションを設定するには「プラグイン管理」ページで「スマートエビデンス」モジュールを有効にする必要があります。';
+$string['allowinstitutionsmartevidencedescription'] = 'コレクションをコンピテンシーフレームワークにリンクされるスマートエビデンスコレクションに変更します。';
+$string['allowmobileuploads1'] = 'モバイルアップロード';
+$string['allowmobileuploadsdescription1'] = 'Maharaモバイルアプリを使用するためユーザは認証トークンを設定できます。このトークンでアップロードされたコンテンツはアーティファクトとして保存されます。';
 $string['allowpublicprofiles'] = 'パブリックプロファイルを許可する';
 $string['allowpublicprofilesdescription1'] = 'ユーザは登録ユーザのみではなく、外部からもアクセスできるプロファイルページを設定できます。';
-$string['allowanonymouspages'] = '匿名ページを許可する';
-$string['allowanonymouspagesdescription1'] = 'ユーザはページ作成者として他のユーザから氏名を秘匿することができます。
-管理者は必要であれば作成者の氏名を確認できます。';
+$string['allowpublicviews'] = 'パブリックページを許可する';
+$string['allowpublicviewsdescription1'] = 'ユーザはログインユーザのみではなく、外部からもアクセスできるポートフォリオページを作成できます。';
 $string['anonymouscomments'] = '匿名コメント';
-$string['anonymouscommentsdescription1'] = 'パブリックページまたはシークレットURLでアクセスできるページに誰でもコメントを残せます。';
-$string['loggedinprofileviewaccess1'] = 'すべての登録ユーザによるプロファイルアクセス';
-$string['loggedinprofileviewaccessdescription1'] = 'ユーザのプロファイルページを登録ユーザすべてが閲覧できます。';
+$string['anonymouscommentsdescription1'] = 'パブリックページまたはシークレットURLでアクセスできるページに誰でもコメントを残すことができます。';
 $string['antispam'] = 'アンチスパム';
-$string['antispamdescription'] = '一般公開フォームに適用されるスパム防止策のタイプです。';
-$string['dropdownmenu'] = 'ドロップダウンナビゲーション';
-$string['dropdownmenudescription2'] = 'メインナビゲーションにドロップダウンメニューを使用します。';
-$string['dropdownmenudescriptioninstitution2'] = 'メインナビゲーションにドロップダウンメニューを使用します。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['commentsortorder'] = 'コメント並べ替え順';
-$string['commentsortorderdescription'] = 'ページに表示されるアーティファクトコメントの並べ替え順を設定します。';
+$string['antispamdescription'] = 'パブリックに表示されるフォームに適用されるアンチスパム基準タイプです。';
+$string['anyuser'] = 'すべてのユーザ';
+$string['approve'] = '承認';
+$string['approveregistrationfor2'] = '「 %s %s <%s> 」の登録を承認する';
+$string['approveregistrationmessage'] = 'ユーザの登録を承認してインスティテューション「 %s 」に追加します。本当にこの登録を承認してもよろしいですか?';
+$string['archivedon'] = 'アーカイブ';
+$string['archivedsubmissions'] = 'アーカイブ済み提出';
+$string['authenticatedby'] = '認証方法';
+$string['authenticatedbydescription'] = 'このユーザに関するMaharaへの認証方法を設定します。';
+$string['authplugin'] = '認証プラグイン';
+$string['badmenuitemtype'] = '不明なアイテムタイプ';
+$string['badurl'] = '無効なリンクが提供されました。';
+$string['basicdetails'] = '2 - 基本情報';
+$string['basicinformationforthisuser'] = 'このユーザの基本情報です。';
+$string['becomeadminagain'] = '%s に戻る';
+$string['blockcountsbytype'] = 'ポートフォリオページで最も使用されたブロック';
+$string['bulkactions'] = 'バルク処理';
+$string['bulkchangeauthmethodresetpassword'] = 'あなたはパスワードを必要とする認証方法を選択しました。%d 名のユーザにはパスワードが割り当てられていないためパスワードがリセットされるまでログインすることはできません。';
+$string['bulkchangeauthmethodsuccess'] = '%d 名のユーザの認証方法をリセットしました。';
+$string['bulkdeleteuserssuccess'] = '%d 名のユーザを削除しました。';
+$string['bulkexport'] = 'ユーザをエクスポートする';
+$string['bulkexportdescription'] = 'エクスポートするインスティテューションを選択<b>または</b>ユーザ名のリストを指定してください:';
+$string['bulkexportempty'] = 'エクスポートに合致するユーザはありません。ユーザ名のリストを再度確認してください。';
+$string['bulkexportinstitution'] = 'すべてのユーザをエクスポートするインスティテューション';
+$string['bulkexporttitle'] = 'ユーザをLeap2Aファイルにエクスポートする';
+$string['bulkexportusernames'] = 'エクスポートするユーザ名';
+$string['bulkexportusernamesdescription'] = 'データとともにエクスポートされるユーザのリストです (1行あたり1ユーザ)。';
+$string['bulkimportdirdoesntexist'] = 'ディレクトリ %s が存在しません。';
+$string['bulkleap2aimport'] = 'Leap2Aファイルからユーザをインポートする';
+$string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある複数のLeap2Aファイルからユーザを一度にインポートできます。あなたはサーバのファイルシステムにあるすべてのLeap2A ZIPファイルおよびユーザ名をファイル名にマッピングしたusernames.csvと呼ばれる単一CSVファイルを含むZIPファイルを指定する必要があります。</p>
+<p>usernames.csvは以下のようになります:</p>
+<pre>
+&nbsp;&nbsp;bob,mahara-export-leap-user8-1265165366.zip<br />
+&nbsp;&nbsp;nigel,mahara-export-leap-user1-1266458159.zip
+</pre>
+<p>上記、mahara-export-leap-user8-1265165366.zipおよびmahara-export-leap-user1-1266458159.zipはusersと呼ばれるサブディレクトリ内にあるファイルです。</p>
+<p>通常、ZIPファイルはMaharaに実装されているバルクエクスポートを使用して生成されます。</p>
+<p>あなたが多くのユーザをインポートする場合、注意してください。インポート処理には長時間を要する場合があります。</p>';
+$string['bulkleap2aimportfiledescription'] = 'あなたのサーバのZIPファイルにはエクスポートされたユーザすべて (Leap2Aフォーマット) およびユーザ名のCSVリストが含まれます。';
+$string['bulkprobationpointssuccess'] = array(
+    0 => '%1$d ユーザに保護観察ポイント %2$d を設定しました。',
+);
+$string['bulksuspenduserssuccess'] = '%d 名のユーザを利用停止しました。';
+$string['changeauthmethod'] = '認証方法を変更する';
+$string['changeinstitution'] = 'インスティテューションを変更する';
+$string['changeusername'] = 'ユーザ名を変更する';
+$string['changeusernamedescription'] = 'このユーザのユーザ名を変更します。ユーザ名の長さは半角3-236文字にしてください。ユーザ名にはスペースを除く文字、数字および一般的な記号を含むことができます。';
+$string['checkingupdates'] = '更新データの確認中 ...';
+$string['cleanurls'] = 'クリーンURL';
+$string['cleanurlsdescription'] = '
+<p>ユーザプロファイル、グループホームページおよびポートフォリオページに関して人間が解読可能なURLを使用するようあなたのサイトを設定できます。例えば以下のようになります:
+<ul>
+<li>http://mahara.example.com/user/bob</li>
+<li>http://mahara.example.com/group/bobs-group</li>
+<li>http://mahara.example.com/user/bob/bobs-portfolio-page</li>
+</ul>
+
+受信リクエストのURLを書き換えることができるようあなたのサーバ管理者はこのオプションを有効にする前にウェブサーバを設定する必要があります。</p>
+<p>この作業のインストラクションに関してMahara wikiの<a href="https://wiki.mahara.org/wiki/System_Administrator\\\'s_Guide/Clean_URL_Configuration">「クリーンURL設定 (英語)」</a>をご覧ください。</p>
+';
+$string['cleanurlsdescriptionshort'] = '人間が解読可能なURLを設定します。';
+$string['cleanurlsdisabled'] = 'クリーンURLは無効にされています。';
+$string['cleanurlsettings'] = 'クリーンURL設定';
+$string['clearcachesheading'] = 'キャッシュをクリアする';
+$string['clearcachessubmit'] = 'キャッシュをクリアする';
+$string['clearingcacheserror'] = 'キャッシュのクリア中にエラーが発生しました。このエラーに関する詳細情報を取得するにはログを確認してください。';
+$string['clearingcachessucceed'] = 'すべてのキャッシュがクリアされました。';
+$string['cli_backupdir_notwritable'] = '言語バックアップディレクトリ「 %s 」に書き込み権がありません。';
+$string['cli_close_site_info'] = 'このコマンドラインPHPスクリプトにより、あなたが非サイト管理ユーザであってもサイトをクローズおよび再オープンできます (これは管理ホームページで「サイトをクローズする」ボタンをクリックした場合と同じです)。';
+$string['cli_close_site_siteclosed'] = 'メンテナンスのためサイトがクローズされました。';
+$string['cli_close_site_siteopen'] = 'サイトがオープンされました。';
+$string['cli_lang_branch'] = 'シリーズ「 %s 」の言語パックを取得するためのMaharaシリーズバージョン';
+$string['cli_langdir_notwritable'] = '言語ディレクトリ「 %s 」に書き込み権がありません。';
+$string['cli_langpack'] = '言語コード一覧 例) 「ja,de,pt_BR,fr」';
+$string['cli_langpack_backup'] = '任意: アップデートの前に言語ディレクトリをバックアップします。';
+$string['cli_langpack_backup_done'] = '言語「 %s 」のバックアップを完了しました。';
+$string['cli_langpack_backup_failed'] = '*** 警告 *** 「 %s 」のバックアップを作成できません。';
+$string['cli_langpack_en'] = 'Mahara自体でストリングが定義されているため英語言語パックを更新する必要はありません。あなたは「local/lang/」で特別言語ストリングを設定することができます。';
+$string['cli_langpack_extract_done'] = '新しい「 %s 」言語パックが所定の位置にコピーされました。';
+$string['cli_langpack_extract_failed'] = '*** 警告 *** 「 %s 」からファイルを展開できません - 理由: %s';
+$string['cli_langpack_info'] = 'あなたの言語パックをコマンドラインで更新するには次のことができます:
+
+1) 言語をコードでリストアップして言語パックをインストールまたは更新します。例)ja = 日本語、de = ドイツ語、fr = フランス語
+
+sudo -u www-data php admin/cli/sync_langpacks.php -l=ja,de,fr
+
+これにより「dataroot」内の「langpacks_backup」ディレクトリに既存の言語 (すでに存在する場合) のバックアップが作成されます。
+
+2) あなたがバックアップを作成したくない場合、「-b=false」フラグを追加してください。
+
+例)
+sudo -u www-data php admin/cli/sync_langpacks.php -l=ja,de,fr -b=false
+
+3) バックアップを元に戻す必要がある場合、あなたは「-r=true」フラグを使用できます。
+
+例)
+sudo -u www-data php admin/cli/sync_langpacks.php -l=ja,de,fr -r=true
+
+Maharaシステム内で設定されているため「en」言語のアップデートは無視されます。';
+$string['cli_langpack_missing'] = '言語パックが指定されていません。';
+$string['cli_langpack_revert'] = '最新バックアップバージョンの言語に戻します。';
+$string['cli_langpack_upload'] = '一時ディレクトリに言語パック「 %s 」を保存しています。';
+$string['cli_langpack_url'] = '言語パックURL「 %s 」';
+$string['cli_langpack_url_failed'] = '*** 警告 *** 「 %s 」の言語パックが存在しないかダウンロードできません。リターンコード: %s';
+$string['cli_language_make_backup'] = 'バックアップを作成しますか? %s';
+$string['cli_language_status'] = 'すでに言語「 %s 」はインストールされています: %s';
+$string['cli_pwreset_authupdated'] = '認証方法が「内部」に更新されました。';
+$string['cli_pwreset_failure'] = 'エラー: ユーザ「 %s 」のパスワードを正常にリセットできませんでした。';
+$string['cli_pwreset_forcepasswordchange'] = '次回ログイン時、パスワードの変更を強制します (あなたが「--password」オプションを使用する場合、デフォルトは「true」です。そうでない場合、「false」を使用してください)。';
+$string['cli_pwreset_info'] = 'コマンドラインPHPスクリプトにより、あなたはユーザのパスワードをリセットできます。これはパスワードのリセットが許可されている認証方法のみ動作します (例:「内部」)。';
+$string['cli_pwreset_makeinternal'] = 'ユーザ認証方法を「内部」に変更します (デフォルトは「false」です)。';
+$string['cli_pwreset_nointernalauth'] = 'エラー: デフォルト「内部」認証方法が見つかりませんでした。';
+$string['cli_pwreset_nosuchuser'] = 'エラー: ユーザ名「 %s 」のユーザはデータベース内に存在しません。';
+$string['cli_pwreset_notsupported'] = 'エラー: ユーザ「 %s 」はパスワードリセットをサポートしない認証方法を使用しています。あなたが「内部」認証に変更したい場合、「-i=true」オプションを使用してください。';
+$string['cli_pwreset_password'] = '新しいパスワードです。このパラメータが提供されていない場合、スクリプトはあなたにパスワードの入力を促します。';
+$string['cli_pwreset_prompt1'] = '新しいパスワードを入力してください。';
+$string['cli_pwreset_prompt2'] = '新しいパスワードを再度入力してください。';
+$string['cli_pwreset_success'] = 'ユーザ「 %s 」のパスワードが正常にリセットされました。';
+$string['cli_pwreset_success_forcepasswordchange'] = '次回ログイン時、ユーザはパスワードのリセットを強制されます。';
+$string['cli_pwreset_typo'] = '申し訳ございません、パスワードが合致しません。';
+$string['cli_restore_done'] = '「 %s 」のバックアップのリストアを完了しました。';
+$string['cli_restore_warning'] = '*** 警告 *** 「 %s 」のバックアップをリストアできません。';
+$string['cli_tmpdir_notwritable'] = '一時アップロードディレクトリ「 %s 」に書き込み権がありません。';
+$string['cliadminemail'] = '管理ユーザのメールアドレス';
+$string['cliadminpassword'] = '管理ユーザのパスワード';
+$string['clickthebuttontocreatetheuser'] = 'ユーザを作成するにはボタンをクリックしてください。';
+$string['cliclearcachesdescription'] = 'キャッシュをクリアすることによりサーバにキャッシュされたデータが削除されます。キャッシュのクリアに危険性はありませんが、サーバおよびクライアントが新しい情報を計算してキャッシュするまであなたのサイトが遅くなる場合があります。';
+$string['cliclearingcaches'] = 'Maharaキャッシュをクリアする';
+$string['cliinstallerdescription'] = 'Maharaをインストールして必要なデータディレクトリを作成します。';
+$string['cliinstallingmahara'] = 'Maharaのインストール';
+$string['clisitename'] = 'サイト名';
+$string['cliupdatesitenamefailed'] = 'サイト名の更新に失敗しました。';
+$string['cliupgraderdescription'] = 'インストールされるMaharaバージョンにデータベースおよびデータをアップグレードします。';
+$string['cliupgradingmahara'] = 'Maharaのアップグレード';
+$string['closesite'] = 'サイトをクローズする';
+$string['closesitedetail'] = 'あなたは管理者を除くすべてのユーザに対してサイトをクローズできます。これはデータベースアップグレード処理の準備に有用です。あなたがサイトを再オープンするか、アップグレードが正常に完了するまで管理者のみログインできます。';
+$string['commentsortorder'] = 'コメント並び順';
+$string['commentsortorderdescription'] = 'ページに表示する場合のアーティファクトコメントの並び順を設定します。';
 $string['commentthreaded'] = 'スレッドコメント';
 $string['commentthreadeddescription'] = 'ページの個別コメントへのスレッド返信を許可します。';
-$string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休止期間';
-<<<<<<< HEAD
-$string['defaultaccountinactiveexpiredescription'] = '人がログインしない状態でどのくらいの期間アカウントがアクティブのままであるか指定します。';
-$string['defaultaccountinactivewarn'] = '休止/有効期限の警告期間';
-$string['defaultaccountinactivewarndescription1'] = 'アカウントの有効期限切れまたは休止状態になる前に警告メッセージがアカウント保持者の主メールアドレスに送信されるまでの期間です。';
-$string['defaultregistrationexpirylifetime'] = 'デフォルトの登録存続期間';
-$string['defaultregistrationexpirylifetimedescription'] = '管理者が対応する必要のある登録申請がどのくらいの期間存続するか指定します。';
-$string['defaultaccountlifetime'] = 'デフォルトのアカウント存続期間';
-$string['defaultaccountlifetimedescription'] = 'このオプションを設定した場合、アカウントは今日または将来的な期間経過後に有効期限切れとなります。';
-$string['defaultaccountlifetimeupdate'] = 'アカウント存続期間のオーバーライド';
-$string['defaultaccountlifetimeupdatedescription'] = '「デフォルトのアカウント存続期間」が設定された場合のアカウント有効期限の適用方法を選択してください。';
-$string['defaultaccountlifetimeupdatenone'] = '新しく作成されたアカウントのみ';
-$string['defaultaccountlifetimeupdatesome'] = '新しいアカウントおよびアカウント存続期間未設定のアカウント (サイト管理者を除く)';
-$string['defaultaccountlifetimeupdateall'] = 'すべてのアカウント (サイト管理者を除く)';
-$string['passwordpolicy'] = 'パスワードポリシ';
-$string['passwordpolicydesc'] = 'アカウントが内蔵の内部認証方法を使用するよう設定されている人のパスワードポリシです。パスワードの最小文字数および複雑さを選択してください。';
-$string['passwordpolicylength'] = '最小パスワード長';
-$string['passwordpolicytype'] = 'パスワード複雑性';
-$string['deprecatedmobileapp'] = '申し訳ございません、このモバイルアプリケーションは廃止されました。あなたは代わりにMaharaモバイルを使用する必要があります。Androidデバイス用は次からダウンロードしてください: https://play.google.com/store/apps/details?id=org.mahara.mobile またAppleデバイス用は次からダウンロードしてください: https://itunes.apple.com/us/app/mahara-mobile/id1172638950';
-$string['embeddedcontent'] = '埋め込みコンテンツ';
-$string['embeddedcontentdescription'] = '人がポートフォリオにビデオまたは他のサイトのコンテンツを埋め込めるようにしたい場合、あなたは以下で信頼できるサイトを選択できます。';
-=======
+$string['committingchanges'] = '変更の保存中 ...';
+$string['component'] = 'コンポーネントまたはプラグイン';
+$string['configextensions'] = '拡張機能管理';
+$string['configsite'] = 'サイト設定';
+$string['configureauthplugin'] = 'あなたがユーザを追加するには最初に認証プラグインを設定する必要があります。';
+$string['configurereport'] = 'レポートを設定する';
+$string['configusers'] = 'ユーザ管理';
+$string['confirm'] = '承認';
+$string['confirmdeletecategory'] = '本当にこのカテゴリを削除してもよろしいですか?';
+$string['confirmdeletemenuitem'] = '本当にこのアイテムを削除してもよろしいですか?';
+$string['confirmdeleteuser'] = '本当にこのユーザを削除してもよろしいですか?';
+$string['confirmdeleteusers'] = '本当に選択されたユーザを削除してもよろしいですか?';
+$string['confirmremoveuserfrominstitution'] = '本当にこのインスティテューションからユーザを削除してもよろしいですか?';
+$string['contentstats'] = '今週の修正数: %s 回 / 合計修正数: %s 回';
+$string['continue'] = '続ける';
+$string['cookieconsent'] = 'クッキーコンセント';
+$string['cookieconsentdescription'] = '「クッキーコンセント」ユーザプライバシーシステムを設定します。';
+$string['copyright'] = 'Copyright &copy; 2006 onwards, <a href="https://wiki.mahara.org/Contributors">Catalyst IT and others</a>';
+$string['coredata'] = 'コアデータ';
+$string['coredatasuccess'] = 'コアデータを正常にインストールしました。';
+$string['couldnotexportusers'] = '次のユーザをエクスポートできませんでした: %s';
+$string['country'] = '国';
+$string['create'] = '3 - 作成';
+$string['createnewuserfromscratch'] = 'ユーザを最初から作成する';
+$string['createuser'] = 'ユーザを作成する';
+$string['cronnotrunning2'] = '<strong class="error text-danger">cronが動作していません。</strong><br />cronのセットアップに関するインストラクションは<a href="https://wiki.mahara.org/wiki/System_Administrator\'s_Guide/Installing_Mahara">installation guide</a>をご覧ください。あなたがすでにcronをセットアップしている場合、直近の1つまたはそれ以前の処理が正しく実行されませんでした。';
+$string['cronnotrunningsiteclosed1'] = '<strong class="error text-danger">cronが動作していません。</strong><br />現在、サイトはクローズされています。cronを実行するにはサイトを再度オープンしてください。';
+$string['csverroremptyfile'] = 'CSVファイルが空です。';
+$string['csvfile'] = 'CSVファイル';
+$string['csvfiledescription'] = '追加するユーザを含むファイル';
+$string['csvfileprocessedsuccessfully'] = 'あなたのCSVファイルが正常に処理されました。';
+$string['csvmaxusersdescription'] = 'このファイルには %s 以上含むことができません。';
+$string['currentadmins'] = '現在の管理者';
+$string['currentmembers'] = '現在のメンバー';
+$string['currentstaff'] = '現在のスタッフ';
+$string['customstylesforinstitution'] = '%s のカスタムスタイル';
+$string['customtheme'] = 'カスタムテーマ設定';
+$string['customtheme.background'] = 'ヘッダ背景色';
+$string['customtheme.backgroundfg'] = 'テキスト背景色';
+$string['customtheme.headings'] = 'ヘッディング';
+$string['customtheme.link'] = 'リンク';
+$string['customtheme.navbg'] = 'ナビゲーション背景色';
+$string['customtheme.navfg'] = 'ナビゲーションテキスト';
+$string['customtheme.rowbg'] = '列背景色';
+$string['customtheme.sidebarbg'] = 'サイドバー背景色';
+$string['customtheme.sidebarfg'] = 'サイドバーコンテンツ背景色';
+$string['customtheme.sidebarlink'] = 'サイドバーリンク';
+$string['customtheme.subbg'] = 'サブナビゲーション背景色';
+$string['customtheme.subfg'] = 'サブナビゲーションテキスト';
+$string['databasesize'] = 'データベースサイズ';
+$string['datathathavebeensent'] = '送信されたデータ';
+$string['datathatwillbesent'] = '送信されるデータ';
+$string['dbcollationmismatch'] = 'あなたのデータベースカラムはデータベースデフォルトとは異なるコレーションを使用しています。すべてのカラムがデータベースと同じコレーションを使用していることを確認してください。';
+$string['dbnotutf8warning'] = 'あなたはUTF-8データベースを使用していません。Maharaはすべてのデータを内部的にUTF-8で保存します。あなたはこのアップグレードを試みることもできますが、データベースをUTF-8にコンバートすることをお勧めします。';
+$string['declinerequests'] = 'リクエストを拒否する';
+$string['defaultaccountinactiveexpire'] = 'デフォルトのアカウント休眠期間';
 $string['defaultaccountinactiveexpiredescription'] = 'ユーザログインがない状態でどのくらいの期間ユーザアカウントがアクティブのままか指定します。';
-$string['defaultaccountinactivewarn'] = '休止/有効期限の警告期間';
-$string['defaultaccountinactivewarndescription'] = 'ユーザアカウントの有効期限切れまたは休止状態に関するメッセージがユーザに送信されるまでの期間です。';
-$string['defaultregistrationexpirylifetime'] = 'デフォルトの登録存続期間';
-$string['defaultregistrationexpirylifetimedescription'] = '管理者が対応する必要のある登録申請がどのくらいの期間存続するか指定します。';
+$string['defaultaccountinactivewarn'] = '休眠/有効期限の警告期間';
+$string['defaultaccountinactivewarndescription'] = 'ユーザアカウントの有効期限切れまたは休眠状態に関するメッセージがユーザに送信されるまでの期間です。';
 $string['defaultaccountlifetime'] = 'デフォルトのアカウント存続期間';
-$string['defaultaccountlifetimedescription'] = 'このオプションを設定した場合、ユーザアカウントは今日または将来的な期間経過後に有効期限切れとなります。';
+$string['defaultaccountlifetimedescription'] = 'このオプションを設定した場合、ユーザアカウントは本日または将来的な期間経過後に有効期限切れとなります。';
 $string['defaultaccountlifetimeupdate'] = 'ユーザアカウント存続期間のオーバーライド';
+$string['defaultaccountlifetimeupdateall'] = 'すべてのユーザアカウント (サイト管理者を除く)';
 $string['defaultaccountlifetimeupdatedescription'] = '「デフォルトのアカウント存続期間」が設定された場合のユーザ有効期限の対応方法を選択してください。';
 $string['defaultaccountlifetimeupdatenone'] = '新しく作成されたユーザのみ';
 $string['defaultaccountlifetimeupdatesome'] = '新しいユーザおよびアカウント存続期間が設定されていないユーザ (サイト管理者を除く)';
-$string['defaultaccountlifetimeupdateall'] = 'すべてのユーザアカウント (サイト管理者を除く)';
-$string['embeddedcontent'] = '埋め込みコンテンツ';
-$string['embeddedcontentdescription'] = 'ユーザがポートフォリオにビデオまたは他のサイトのコンテンツを埋め込むことができるようにしたい場合、あなたは以下で信頼できるサイトを選択できます。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['Everyone'] = '誰でも';
-$string['generatesitemap1'] = 'サイトマップ';
-$string['generatesitemapdescription'] = 'パブリックにアクセス可能なページ、グループおよびフォーラムトピックからサイトマップファイルを生成します。';
-$string['homepageinfo1'] = 'ホームページおよびダッシュボード情報を表示する';
-<<<<<<< HEAD
-$string['homepageinfodescription4'] = 'サイト情報および利用状況をホームページに表示します。登録済みの人はこの情報を自分のダッシュボードで秘匿できます。';
-$string['homepageredirect'] = 'カスタムランディングページ';
-$string['homepageredirectdescription'] = 'あなたが人のログイン後に表示する最初のページをダッシュボード以外のページにしたい場合、この設定を有効にしてください。注意: ログインが必要なリンクがクリックされた場合、そのリダイレクトが優先されます。';
-$string['homepageredirecturl'] = 'ランディングページ';
-$string['homepageredirecturldescription'] = 'この設定を動作させるにはすべての登録済みの人がページにアクセスできる必要があります。';
-$string['hstsoverride'] = 'HSTSオーバーライド';
-$string['hstsoverridedesc'] = '下流サービスで設定されている場合の重複設定を避けるため、HTTP Strict Transport Security (HSTS) 設定値をオーバーライドします。';
-$string['islandingpage'] = 'このページがサイトのカスタムランディングページとして使用されます。';
-$string['landingpagegone'] = 'あなたがパーミッションを変更する前、ページ「 %s 」はサイトのカスタムランディングページでした。このページはカスタムランディングページとしてはサイト設定より削除されました。';
-$string['landingpagegonesubject'] = 'カスタムランディングページが削除されました。';
-$string['landingpagegonemessage'] = 'ログインしてサイト設定で新しいカスタムランディングページを選択してください。';
-$string['landingpagegonemessagedeleted'] = 'ページが削除されたためサイトのカスタムランディングページとしてのページ「 %s 」は削除されました。ログインしてサイト設定で新しいカスタムランディングページを選択してください。';
-=======
-$string['homepageinfodescription3'] = 'Maharaに関する情報および利用状況がMaharaホームページに表示されます。登録済みユーザにはこれらの情報を自分のダッシュボードに表示しないオプションがあります。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['institutionautosuspend'] = '有効期限切れのインスティテューションを自動停止する';
-$string['institutionautosuspenddescription1'] = '有効期限切れのインスティテューションを自動的に利用停止します。';
-$string['institutionexpirynotification'] = 'インスティテューション有効期限の警告期間';
-$string['institutionexpirynotificationdescriptioninfo'] = 'サイトおよびインスティテューション管理者にインスティテューション有効期限切れ前に通知メッセージが送信されます。';
-$string['language'] = '言語';
-$string['none'] = 'なし';
-$string['nousernames'] = 'ユーザ名を表示しない';
-<<<<<<< HEAD
-$string['nousernamesdescription1'] = '一般アカウント保持者は他の人のユーザ名を閲覧したりユーザ名で人を検索できなくなります。これらの制限はスタッフおよび管理者には適用されません。加えてクリーンURL (有効にされている場合) はユーザ名ではなく、表示名 (提供されている場合) または実名を使用して生成されます。';
-$string['onlineuserssideblockmaxusers1'] = '「オンライン中の人」の制限';
-$string['onlineuserssideblockmaxusersdescription1'] = 'サイドバー「オンライン中の人」に表示する最大人数です。';
-=======
-$string['nousernamesdescription1'] = '通常のユーザは他のユーザのユーザ名を閲覧したりユーザ名でユーザを検索できません。これらの制限はスタッフおよび管理者には適用されません。加えてクリーンURL (有効にされている場合) はユーザ名ではなく、表示名 (提供されている場合) または実名を使用して生成されます。';
-$string['onlineuserssideblockmaxusers'] = 'オンラインユーザ制限';
-$string['onlineuserssideblockmaxusersdescription'] = 'オンラインユーザサイドバーに表示される最大ユーザ数です。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['country'] = '国';
-$string['pathtoclam'] = 'ClamAVのパス';
-$string['pathtoclamdescription'] = 'clamscanまたはclamdscanのファイルシステムパスです。';
-$string['pathtoclamnotset'] = '(未設定)';
-<<<<<<< HEAD
-$string['progresscompletion'] = 'ポートフォリオ完了';
-$string['progresscompletiondescription'] = '承認 (および検証) が必要なページのステータス概要を表示するため、コレクションの先頭に「ポートフォリオ完了」ページを追加します。';
-$string['outcomeportfolio'] = 'アウトカムポートフォリオ';
-$string['outcomeportfoliodescription'] = 'このインスティテューションの関連グループによるアウトカムポートフォリオの使用を許可します。';
-$string['registerterms'] = '登録同意';
-$string['registertermsdescription1'] = '登録時に人にプライバシ保護方針および利用条件への同意を強制します。このオプションを有効にする場合、あなたのサイトおよびインスティテューションの法律ページを編集する必要があります。';
-$string['licensemetadata'] = 'ライセンスメタデータ';
-$string['licensemetadatadescription1'] = '作成またはアップロードされたコンテンツに関してライセンスメタデータを要求および保存します。';
-$string['licenseallowcustom1'] = 'カスタムライセンス';
-$string['licenseallowcustomdescription'] = 'ライセンスメタデータに関して作成者がライセンスのURLを入力できるようにします。この設定を有効にしない場合、作成者はサイト管理者が設定したライセンスに制限されます。';
-$string['recaptchakeysmissing1'] = 'reCAPTCHAは有効にされましたが、あなたがサイトキーおよびシークレットキーを提供するまで機能しません。';
-$string['recaptchanotpassed'] = 'reCAPTCHAが正しく入力されていません。再度お試しください。';
-$string['recaptchaonregisterform1'] = 'アカウント登録/お問い合わせフォームのreCAPTCHA';
-$string['recaptchaonregisterformdesc3'] = '新しいアカウントを自己登録または「お問い合わせ」フォームを使用する人は<a href="https://www.google.com/recaptcha/">reCAPTCHA</a>テストに合格して自分が人間であることを証明する必要があります。';
-=======
-$string['registerterms'] = '登録同意';
-$string['registertermsdescription'] = 'ユーザ登録の前、ユーザに利用条件への同意を強制します。このオプションを有効にする場合、あなたのサイト利用条件ページを編集する必要があります。';
-$string['licensemetadata'] = 'ライセンスメタデータ';
-$string['licensemetadatadescription'] = 'ユーザ作成コンテンツに関してライセンスメタデータを要求および保存します。';
-$string['licenseallowcustom1'] = 'カスタムライセンス';
-$string['licenseallowcustomdescription'] = 'ライセンスメタデータに関してユーザがライセンスのURLを入力できるようにします。この設定を有効にしない場合、ユーザはサイト管理者が設定したライセンスに制限されます。';
-$string['allowmobileuploads1'] = 'モバイルアップロード';
-$string['allowmobileuploadsdescription1'] = 'Maharaモバイルアプリを使用するためユーザは認証トークンを設定できます。このトークンでアップロードされたコンテンツはアーティファクトとして保存されます。';
-$string['recaptchakeysmissing1'] = 'reCAPTCHAは有効にされましたが、あなたがサイトキーおよびシークレットキーを提供するまで機能しません。';
-$string['recaptchanotpassed'] = 'reCAPTCHAが正しく入力されていません。再度お試しください。';
-$string['recaptchaonregisterform'] = 'ユーザ登録フォームのreCAPTCHA';
-$string['recaptchaonregisterformdesc1'] = '自己登録の新しいユーザは<a href="https://recaptcha.org/">reCAPTCHA</a>テストに合格することより、自分が人間であることを証明する必要があります。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['recaptchaprivatekey1'] = 'reCAPTCHAシークレットキー';
-$string['recaptchaprivatekeydesc1'] = 'あなたのサイト用reCAPTCHAアカウントのシークレットキーです。';
-$string['recaptchapublickey1'] = 'reCAPTCHAサイト鍵';
-$string['recaptchapublickeydesc1'] = 'あなたのサイト用reCAPTCHAアカウントのサイト鍵です。';
-$string['remoteavatars'] = 'リモートアバタを表示する';
-<<<<<<< HEAD
-$string['remoteavatarsdescription1'] = 'デフォルトプロファイル画像に<a href="https://www.gravatar.com">Gravatar</a>サービスを利用します。';
-$string['searchplugin'] = '検索プラグイン';
-$string['searchplugindescription'] = '使用する検索プラグイン';
-$string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「プラグインタイプ: search」の設定を確認してください。設定確認後、あなたは検索の「リセット」ボタンを押す必要がある場合があります。';
-$string['searchuserspublic'] = 'パブリック検索に人を表示する';
-$string['searchuserspublicdescription'] = 'パブリック検索結果に氏名の表示を許可します。これには「publicsearchallowed」を「true」に設定してパブリック検索を許可する検索プラグイン (例 Elasticsearch) を使用する必要があります。この設定を変更した場合、検索インデックスの再構築が必要です。';
-$string['sessionlifetime'] = 'セッションライフタイム';
-$string['sessionlifetimedescription'] = 'ログイン済みで活動していない人が自動的にログアウトされるまでの時間 (分) です。';
-$string['setsiteoptionsfailed1'] = 'このオプションの設定に失敗しました。';
-$string['setsiteoptionsfailednotice'] = '%s フィールドオプションの設定に失敗しました。';
-$string['showstudentid'] = '学籍番号を表示する';
-$string['showstudentiddescription1'] = 'サイトでの人の氏名表示時に学籍番号を表示します。';
-$string['showonlineuserssideblock'] = 'オンライン中の人を表示する';
-$string['showonlineuserssideblockdescriptionmessage2'] = '人は過去10分間にオンラインであった人の一覧をサイドバーで確認できます。';
-$string['showselfsearchsideblock1'] = 'ポートフォリオ検索';
-$string['showselfsearchsideblockdescription1'] = 'サイト内の一部の場所に「私のポートフォリオを検索する」サイドバーを表示します。';
-$string['showtagssideblock1'] = 'タグクラウド';
-$string['showtagssideblockdescription2'] = '人は使用頻度の高いタグ一覧のサイドバーをサイト内の一部の場所で閲覧できます。';
-=======
-$string['remoteavatarsdescription1'] = 'ユーザのデフォルトプロファイル画像に<a href="https://www.gravatar.com">Gravatar</a>サービスを利用します。';
-$string['searchplugin'] = '検索プラグイン';
-$string['searchplugindescription'] = '使用する検索プラグイン';
-$string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「プラグインタイプ: search」の設定を確認してください。設定確認後、あなたは検索の「リセット」ボタンを押す必要がある場合があります。';
-$string['searchuserspublic'] = 'パブリック検索にユーザを表示する';
-$string['searchuserspublicdescription'] = 'パブリック検索結果にユーザの氏名の表示を許可します。これには「publicsearchallowed」を「true」に設定してパブリック検索を許可する検索プラグイン (例 Elasticsearch) を使用する必要があります。この設定を変更した場合、検索インデックスの再構築が必要です。';
-$string['sessionlifetime'] = 'セッションライフタイム';
-$string['sessionlifetimedescription'] = '活動していないログインユーザが自動的にログアウトされる時間 (分) です。';
-$string['setsiteoptionsfailed'] = '%s オプションの設定に失敗しました。';
-$string['showonlineuserssideblock'] = 'オンラインユーザを表示する';
-$string['showonlineuserssideblockdescriptionmessage1'] = 'ユーザにオンラインユーザ一覧のサイドバーが表示されます。';
-$string['showselfsearchsideblock1'] = 'ポートフォリオ検索';
-$string['showselfsearchsideblockdescription1'] = 'サイト内の一部の場所に「私のポートフォリオを検索する」サイドバーを表示します。';
-$string['showtagssideblock1'] = 'タグクラウド';
-$string['showtagssideblockdescription2'] = '人は使用頻度の高いタグ一覧のサイドバーをサイト内の一部の場所で確認できます。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['simple'] = 'シンプル';
-$string['sitedefault'] = 'サイトデフォルト';
-$string['sitelanguagedescription'] = 'サイトのデフォルトの言語です。';
-$string['sitecountrydescription'] = 'サイトのデフォルトの国です。';
-$string['sitename'] = 'サイト名';
-$string['sitenamedescription'] = 'サイト名はサイトの特定の場所およびサイトから送信されるメールに表示されます。';
-$string['siteoptionspagedescription'] = 'ここであなたはサイト全体にデフォルトとして適用されるグローバルオプションを設定できます。<br>メモ: 無効にされたオプションはあなたのconfig.phpファイルでオーバーライドできます。';
-$string['siteoptionsset'] = 'サイトオプションが更新されました。';
-$string['sitethemedescription'] = 'サイトのデフォルトテーマです。あなたのテーマがリストにない場合、エラーログを確認してください。';
-$string['skins'] = 'ページスキン';
-<<<<<<< HEAD
-$string['skinsinstitutiondescription2'] = 'このインスティテューションのメンバは自分のページにスキンを使用できます。';
-$string['smallviewheaders'] = 'スモールページヘッダ';
-$string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧または編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
-$string['spamhaus2'] = 'Spamhaus URL拒否リスト';
-$string['spamhausdescription1'] = 'Spamhaus DNSBLとURLを照合します。';
-$string['staffaccessreports1'] = 'スタッフおよびサポート管理者によるレポートアクセス';
-$string['staffaccessreportsdescription2'] = 'サイトスタッフ、インスティテューションスタッフおよびサポート管理者がインスティテューションの「アカウント詳細」「法的同意」「マスカレーディングセッション」および「ポートフォリオアクセス」レポートにアクセスできるようにします。通常、これらのレポートは管理者に制限されています。';
-$string['institutionstaffallreports1'] = 'インスティテューションスタッフおよびサポート管理者のすべてのレポート';
-$string['institutionstaffallreportsdescription1'] = 'インスティテューションスタッフおよびおよびサポート管理者がインスティテューションのすべてのレポートにアクセスできるようにします。通常、これらのレポートは管理者およびサイトスタッフに制限されています。';
-$string['surbl2'] = 'SURBL URL拒否リスト';
-$string['surbldescription1'] = 'URLをSURBL DNSBLと照合します。';
-$string['disableexternalresources'] = 'HTMLで外部リソースを無効にする';
-$string['disableexternalresourcesdescription1'] = '作成者による別ホストからのイメージ等の埋め込みを防ぐため、外部リソースの埋め込みを無効にします。';
-$string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
-$string['tagssideblockmaxtagsdescription'] = 'タグクラウド内に表示するデフォルトのタグ数です。';
-$string['trustedsites'] = '信頼できるサイト';
-$string['updatesiteoptions'] = 'サイトオプションを更新する';
-$string['usersallowedmultipleinstitutions'] = '人に複数インスティテューションを許可する';
-$string['usersallowedmultipleinstitutionsdescription1'] = '人が同時に複数のインスティテューションのメンバになれるようにします。';
-$string['institutionstrictprivacy'] = '厳格なプライバシ';
-$string['institutionstrictprivacydescription'] = 'あなたのサイトが<a href="https://www.eugdpr.org/">GDPR</a>を順守する必要がある場合、このオプションを有効にしてください。';
-$string['institutionstrictprivacysuspendaccount'] = 'アカウントを利用停止する';
-$string['institutionstrictprivacysuspendaccountdescription'] = '人が法的同意を拒否した場合、アカウントを利用停止します。';
-$string['requireregistrationconfirm'] = '登録を承認する';
-$string['requireregistrationconfirmdescription1'] = 'すべてのインスティテューションに新しい自己登録アカウントの承認を強制します。';
-$string['userscanchooseviewthemes'] = '作成者がページテーマを選択できる';
-$string['userscanchooseviewthemesdescription1'] = '作成者がポートフォリオページ編集および作成時にテーマを選択できるようにします。ページは選択されたテーマを使用して他の人に表示されます。';
-$string['userscanhiderealnames'] = '人は実名を秘匿できる';
-$string['userscanhiderealnamesdescription1'] = '人が表示名を設定している場合、実名で検索できないようにします。他の人は表示名のみで検索できます。サイトのサイト管理セクションでは常に実名で人を検索できます。';
-$string['usersseenewthemeonlogin'] = '次回ログイン時、他の人に新しいテーマが表示されます。';
-$string['viruschecking'] = 'ウイルスチェック';
-$string['viruscheckingdescription1'] = 'ClamAVを使用してすべてのアップロードファイルのウイルスをチェックします。';
-$string['whocancreategroups'] = 'グループを作成する';
-$string['whocancreategroupsdescription'] = '誰が新しいグループを作成できるか決定します。';
-$string['whocancreatepublicgroups'] = 'パブリックグループを作成する';
-$string['whocancreatepublicgroupsdescription'] = '誰が一般の人も閲覧可能なグループを作成できるか決定します。';
-$string['wysiwyg'] = 'HTMLエディタ';
-$string['wysiwygdescription'] = 'サイト全体としてHTMLエディタを有効にするか、人がHTMLエディタを有効または無効にできるようにするか決定します。';
-$string['wysiwyguserdefined'] = '人による決定';
-=======
-$string['skinsinstitutiondescription2'] = 'このインスティテューションのメンバは自分のページに「スキン」を使用できます。';
-$string['smallviewheaders'] = 'スモールページヘッダ';
-$string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧または編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
-$string['spamhaus1'] = 'Spamhaus URLブラックリスト';
-$string['spamhausdescription1'] = 'Spamhaus DNSBLとURLを照合します。';
-$string['staffaccessreports'] = 'スタッフによるレポートアクセス';
-$string['staffaccessreportsdescription1'] = 'サイトおよびインスティテューションスタッフがインスティテューションの「ユーザ詳細」「ポートフォリオアクセス」および「マスカレーディングセッション」レポートにアクセスできるようにします。通常、これらのレポートは管理者に制限されています。';
-$string['institutionstaffallreports'] = 'インスティテューションスタッフのすべてのレポート';
-$string['institutionstaffallreportsdescription'] = 'インスティテューションスタッフがインスティテューションのすべてのレポートにアクセスできるようにします。通常、これらのレポートは管理者およびサイトスタッフに制限されています。';
-$string['surbl1'] = 'SURBL URLブラックリスト';
-$string['surbldescription1'] = 'URLをSURBL DNSBLと照合します。';
-$string['disableexternalresources'] = 'ユーザHTMLで外部リソースを無効にする';
-$string['disableexternalresourcesdescription1'] = 'ユーザによる別のホストからのイメージ等の埋め込みを防ぐため外部リソースの埋め込みを無効にします。';
-$string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
-$string['tagssideblockmaxtagsdescription'] = 'ユーザタグクラウドに表示されるデフォルトのタグ数です。';
-$string['trustedsites'] = '信頼できるサイト';
-$string['updatesiteoptions'] = 'サイトオプションを更新する';
-$string['usersallowedmultipleinstitutions'] = 'ユーザに複数インスティテューションを許可する';
-$string['usersallowedmultipleinstitutionsdescription1'] = 'ユーザが同時に複数のインスティテューションのメンバになることができるようにします。';
-$string['requireregistrationconfirm'] = '登録を承認する';
-$string['requireregistrationconfirmdescription1'] = 'すべてのインスティテューションに新しい自己登録アカウントの承認を強制します。';
-$string['userscanchooseviewthemes'] = 'ユーザがページテーマを選択できる';
-$string['userscanchooseviewthemesdescription1'] = 'ユーザがポートフォリオページを編集および作成する時にテーマを選択できるようにします。ページは選択されたテーマを使用して他のユーザに表示されます。';
-$string['userscanhiderealnames'] = 'ユーザは実名を秘匿できる';
-$string['userscanhiderealnamesdescription1'] = 'ユーザが表示名を設定した場合、実名で検索できないようにします。他のユーザは表示名のみで検索できます。サイトのサイト管理セクションでは常に実名でユーザを検索できます。';
-$string['usersseenewthemeonlogin'] = '次回ログイン時、他のユーザに新しいテーマが表示されます。';
-$string['viruschecking'] = 'ウイルスチェック';
-$string['viruscheckingdescription1'] = 'ClamAVを使用してすべてのアップロードファイルのウイルスをチェックします。';
-$string['whocancreategroups'] = 'グループを作成する';
-$string['whocancreategroupsdescription'] = '新しいグループを作成できるユーザを決定します。';
-$string['whocancreatepublicgroups'] = 'パブリックグループを作成する';
-$string['whocancreatepublicgroupsdescription'] = '一般の人も閲覧可能なグループを作成できるユーザを選択します。';
-$string['wysiwyg'] = 'HTMLエディタ';
-$string['wysiwygdescription'] = 'サイト全体としてHTMLエディタを有効にするか、ユーザ自身がHTMLエディタを有効または無効にできるようにするか指定します。';
-$string['wysiwyguserdefined'] = 'ユーザ設定';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['eventloglevel'] = 'イベントログ';
-$string['eventlogleveldescription'] = 'どのイベントを記録してもよろしいですか?';
-$string['eventlogexpiry'] = 'イベントログ有効期限';
-$string['eventlogexpirydescription'] = 'イベントログの保存期間を指定します。';
-$string['eventloglevelnone'] = 'なし';
-$string['eventloglevelmasq'] = 'マスカレーディング';
-$string['eventloglevelall'] = 'すべて';
-$string['eventlogenhancedsearch'] = 'イベントログレポーティング';
-$string['eventlogenhancedsearchdescription1'] = 'あなたのサイトでより多くの活動を報告するために高度なアナリティクス機能を使用したい場合、これは必須です。あなたは同時に「検索設定」でElasticsearchを有効にする必要があります。';
-$string['sitefilesaccess'] = 'サイトファイルへのアクセス';
-<<<<<<< HEAD
-$string['sitefilesaccessdescription1'] = '登録済みの人がサブフォルダ内のサイトファイルにアクセスできるようにします。デフォルトではトップレベルのディレクトリ内のファイルにのみアクセスできます。';
-$string['defaultmultipleblogs'] = '複数日誌';
-$string['defaultmultipleblogsdescription1'] = 'デフォルトで人が日誌を複数持てるようにします。人はこれをアカウント設定ページでオーバーライドできます。';
-$string['defaultreviewsselfdeletion'] = '自己削除の前にアカウントをレビューする';
-$string['defaultreviewsselfdeletiondescription'] = 'すべてのインスティテューションにアカウント削除リクエストのレビューを強制します。';
-$string['reviewsselfdeletion'] = '自己削除の前にアカウントをレビューする';
-$string['reviewsselfdeletiondescription'] = 'インスティテューション管理者は自分のアカウントを削除したい人のリクエストを承認する必要があります。';
-$string['mathjax'] = 'MathJaxを有効にする';
-$string['mathjaxdescription'] = 'MathJaxは適切にフォーマットされた数式および化学式としてLaTeXマークアップをポートフォリオページに表示します。';
-$string['mathjaxconfig'] = 'MathJax設定';
-$string['timezone'] = 'タイムゾーン';
-$string['sitetimezonedescription'] = 'サイトのデフォルトタイムゾーンです。何もが選択されていない場合、選択済みの国をもとにタイムゾーンが選択されます。国に複数のタイムゾーンがある場合、これは正確ではない場合があります。';
-$string['notimezoneselected'] = 'タイムゾーン未選択';
-$string['about'] = 'About';
-$string['discardpageedits'] = 'このページの変更を破棄してもよろしいですか?';
-$string['staticpagespagedescription1'] = 'ここであなたはホームページ、登録済みの人のダッシュボード、フッタ内でリンクされている「About」ページ等、一部の内蔵ページのコンテンツを編集できます。';
-=======
-$string['sitefilesaccessdescription1'] = '登録ユーザがサブフォルダ内のサイトファイルにアクセスできるようにします。デフォルトではトップレベルのディレクトリ内のファイルにのみアクセスできます。';
-$string['watchlistdelaydescription'] = 'ウォッチリストの変更に関するメールを送信する遅延時間 (分) です。';
-$string['watchlistdelaytitle'] = 'ウォッチリスト通知遅延';
+$string['defaultinstitutionquotadescription'] = 'あなたはこのインスティテューションの新しいユーザにクオータとして割り当てられるディスクスペース総量を設定できます。';
+$string['defaultlangforinstitution'] = '%s デフォルト';
+$string['defaultmembershipperiod'] = 'デフォルトのメンバーシップ期間';
+$string['defaultmembershipperioddescription'] = 'どのくらいの期間、新しいメンバーはインスティテューションに参加できますか。';
 $string['defaultmultipleblogs'] = '複数日誌';
 $string['defaultmultipleblogsdescription1'] = 'デフォルトでユーザが日誌を複数持てるようにします。ユーザはこれをアカウント設定ページでオーバーライドできます。';
-$string['mathjax'] = 'MathJaxを有効にする';
-$string['mathjaxdescription'] = 'MathJaxは適切にフォーマットされた数式および化学式としてLaTeXマークアップをポートフォリオページに表示します。';
-$string['mathjaxconfig'] = 'MathJax設定';
-$string['about'] = 'About';
-$string['discardpageedits'] = 'このページの変更を破棄してもよろしいですか?';
-$string['staticpagespagedescription'] = 'ここであなたはログインユーザのダッシュボード、ログアウトユーザのホームページ、フッタのページリンク等、Mahara一部の内蔵ページのコンテンツを編集できます。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['home'] = 'ホーム (ダッシュボード)';
-$string['loadsitecontentfailed'] = 'サイトページコンテンツの読み込みに失敗しました。';
-$string['loggedouthome'] = 'ログアウトホーム';
-$string['pagename'] = 'ページ名';
-$string['pagesaved'] = 'ページが保存されました。';
-$string['pagetext'] = 'ページテキスト';
-$string['privacy'] = 'プライバシ保護方針';
-<<<<<<< HEAD
-$string['legal'] = '法律';
-=======
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['savechanges'] = '変更を保存する';
-$string['savefailed'] = '保存に失敗しました。';
-$string['sitepageloaded'] = 'サイトページが読み込まれました。';
-$string['termsandconditions'] = '利用条件';
-$string['uploadcopyright'] = 'アップロード著作権宣言文';
-$string['privacypagedescription'] = 'サイト全体のプライバシ保護方針を編集してください。あなたが最後に編集したバージョンが自動的に最新のプライバシ保護方針となります。';
-$string['termspagedescription'] = 'サイト全体の利用条件を編集してください。あなたが最後に編集したバージョンが自動的に最新の利用条件となります。';
-$string['owngroupsonly'] = '自分のグループのみ表示する';
-$string['owngroupsonlydescription'] = '人が所有または所属しているグループのみ閲覧できるようにします。人はグループ内の他の人のみ検索できます。この設定にはconfig.phpファイルで隔離インスティテューションを有効にする必要があります。';
-$string['sitefile'] = 'サイトファイル';
-$string['adminpublicdirname'] = 'パブリック';
-<<<<<<< HEAD
-$string['adminpublicdirdescription'] = 'ログアウトした人からアクセス可能なファイルです。';
-$string['adminpublicdirduplicatewarning'] = 'サイトの「公開」ディレクトリを自動的に設定できません。<br>
-「管理メニュー → サイト設定 → ファイル」にアクセスして「Name」カラムのリンクをコピーしてください。「folder=」の後の数字を抜き出すことであなたが「public」フォルダにしたいフォルダのIDを見つけてください。<br>
-次にデータベース設定テーブルでその値を手動で設定してください。例えば次の行を実行します ([folder_ID]をフォルダ番号に置き換えてください): %s<br>
-最後にあなたが公開したいファイルをこのフォルダに移動してください。';
-=======
-$string['adminpublicdirdescription'] = 'ログアウトしたユーザからアクセス可能なファイルです。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['badmenuitemtype'] = '不明なアイテムタイプ';
-$string['badurl'] = '無効なリンクが提供されました。';
-$string['oneormorelinksarebad'] = '1つまたはそれ以上のリンクが有効ではありません。';
-$string['confirmdeletemenuitem'] = '本当にこのアイテムを削除してもよろしいですか?';
-$string['deletingmenuitem'] = 'アイテムの削除中';
-$string['deletefailed'] = 'アイテムの削除に失敗しました。';
-<<<<<<< HEAD
-$string['deletefailedonlyadmin'] = 'あなたはこのアカウントを削除できません。これは唯一のシステム管理者アカウントです。';
-=======
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['externallink'] = '外部リンク';
+$string['defaultregistrationexpirylifetime'] = 'デフォルトの登録存続期間';
+$string['defaultregistrationexpirylifetimedescription'] = '管理者が対応する必要のある登録申請がどのくらいの期間存続するか指定します。';
+$string['deletefailed'] = 'メニューアイテムの削除に失敗しました。';
+$string['deleteinstitution'] = 'インスティテューションを削除する';
+$string['deleteinstitutionconfirm'] = '本当にこのインスティテューションを削除してもよろしいですか?';
+$string['deletekey'] = 'このキーを削除する';
+$string['deletelogo'] = 'ロゴを削除する';
+$string['deletelogodescription2'] = 'あなたのインスティテューションテーマの標準的なヘッダロゴに戻します。';
+$string['deletelogoxs'] = 'スモールロゴを削除する';
+$string['deletelogoxsdescription2'] = 'あなたのインスティテューションテーマの標準的なヘッダスモールロゴに戻します。';
+$string['deleteuser'] = 'ユーザを削除する';
+$string['deleteusernote'] = 'この処理は<b>元に戻すことができません</b>ので注意してください。';
+$string['deleteusers'] = 'ユーザを削除する';
+$string['deletingmenuitem'] = 'メニューアイテムの削除中';
+$string['deny'] = '拒否';
+$string['denyregistrationfor'] = '「 %s %s 」の登録を拒否する';
+$string['denyregistrationmessage'] = 'ユーザの登録を拒否します。本当にこの登録を拒否してもよろしいですか?';
+$string['deprecated'] = '- 廃止予定';
+$string['disabledlockedfieldhelp1'] = '注意: あなたがオプションを変更できない場合、プロファイルフィールドは「 %s 」のインスティテューション設定でロックされています。これらのプロファイルフィールドはサイトレベルでロックされているためここでロック解除することはできません。';
+$string['disableemail'] = 'メールを無効にする';
+$string['disableexternalresources'] = 'ユーザHTMLの外部リソースを無効にする';
+$string['disableexternalresourcesdescription1'] = 'ユーザによる別のホストからのイメージ等の埋め込みを防ぐため外部リソースの埋め込みを無効にします。';
+$string['discardpageedits'] = 'このページの変更を破棄しますか?';
+$string['diskusage'] = 'ディスク使用量';
+$string['downloaddataascsv'] = 'CSVフォーマットの %s 統計';
+$string['downloadstatsascsv'] = 'CSVフォーマットの統計';
+$string['downloadusersascsv'] = 'CSVフォーマットのユーザ';
+$string['dropdownmenu'] = 'ドロップダウンナビゲーション';
+$string['dropdownmenudescription2'] = 'メインMaharaナビゲーションがサブナビゲーションとしてドロップダウンフォーマットを使用します。';
+$string['dropdownmenudescriptioninstitution2'] = 'メインナビゲーションがドロップダウンメニューを使用します。';
+$string['duplicateemailfilter1'] = '重複メールアドレス';
+$string['editadmins'] = '管理者を編集する';
 $string['editlinksandresources'] = '「リンクおよびリソース」を編集する';
-$string['linkedto'] = 'リンク先';
-$string['linksandresourcesmenu'] = 'リンクおよびリソースメニュー';
-<<<<<<< HEAD
-$string['linksandresourcesmenupagedescription'] = '「リンクおよびリソース」メニューはほとんどのページですべての人に表示されます。あなたは他のウェブサイトへのリンクおよび%s管理ファイル%sセクションにアップロードしたファイルへのリンクを追加できます。';
-=======
-$string['linksandresourcesmenupagedescription'] = '「リンクおよびリソース」メニューはほとんどのページですべてのユーザに表示されます。あなたは他のウェブサイトへのリンクおよび%s管理ファイル%sセクションにアップロードしたファイルへのリンクを追加できます。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['loadingmenuitems'] = 'アイテムの読み込み中';
-$string['loadmenuitemsfailed'] = 'アイテムの読み込みに失敗しました。';
-$string['loggedinmenu'] = 'ログイン後の「リンクおよびリソース」';
-$string['loggedoutmenu'] = 'パブリックの「リンクおよびリソース」';
-$string['menuitemdeleted'] = 'アイテムが削除されました。';
-$string['menuitemsaved'] = 'アイテムが保存されました。';
-$string['menuitemsloaded'] = 'アイテムが読み込まれました。';
-$string['name'] = '名称';
-$string['nositefiles'] = '利用できるサイトファイルはありません。';
-$string['public'] = 'パブリック';
-$string['savingmenuitem'] = 'アイテムの保存中';
-$string['type'] = 'タイプ';
-$string['footermenu'] = 'フッタメニュー';
-$string['footermenudescription'] = 'フッタ内のリンクを有効または無効にします。';
-$string['footerupdated'] = 'フッタが更新されました。';
-<<<<<<< HEAD
-$string['footercustomlink1'] = 'あなたはデフォルトページ「 %s 」をオーバーライドして独自URLを指定できます。URLが正しい場所に送信されるよう「https://」を含む完全なURLを入力してください。デフォルト値を使用する場合、このフィールドを空白のままにしてください。';
-=======
-$string['footercustomlink'] = 'あなたはここにURLを入力してデフォルトページ「 %s 」をオーバーライドできます。デフォルト値を使用する場合、空白のままにしてください。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['adminfilespagedescription2'] = 'あなたが%s「リンクおよびリソース」メニュー%sに含めれるファイルです。あなたはホームディレクトリからログインメニューにファイルを追加できます。また、「パブリック」フォルダからパブリックメニューにもファイルを追加できます。';
-$string['extralicensesdescription'] = '注意: 次のライセンスは一部のコンテンツで使用されていますが設定されていません。';
-$string['licensenamelabel'] = 'URL';
-$string['licensedisplaynamelabel'] = '表示名';
-$string['licenseshortnamelabel'] = '頭字語';
-$string['licenseiconlabel'] = 'アイコン';
-$string['addsitelicense'] = 'ライセンスを追加する';
-$string['licensedeleted'] = 'ライセンスが削除されました。';
-$string['licensesave'] = '保存';
-$string['licensesaved'] = 'ライセンスが保存されました。';
-$string['licenseurldup'] = 'URLはユニークである必要があります。ここでは %s が繰り返し使用されています。';
-$string['licenseurlnone'] = '%s のURLを指定してください。';
-$string['networkingextensionsmissing'] = '申し訳ございません、あなたのインストール済みPHPでは1つまたはそれ以上の必須拡張モジュールが不足しているため、Maharaネットワーキングを設定できません:';
-$string['publickey'] = '公開鍵';
-$string['publickeydescription2'] = 'この公開鍵は自動的に生成され %s 日ごとにローテートされます。';
-$string['publickeyexpires'] = '公開鍵有効期限';
-$string['enablenetworkingdescription'] = 'あなたのMaharaサーバがMoodleおよび他のアプリケーション稼動中のサーバと通信できるようにします。';
-$string['enablenetworking'] = 'ネットワーキングを有効にする';
-$string['networkingenabled'] = 'ネットワーキングが有効にされました。';
-$string['networkingdisabled'] = 'ネットワーキングが無効にされました。';
-<<<<<<< HEAD
-$string['networkingpagedescription'] = 'Maharaのネットワーキング機能では同一または別サーバで稼動中のMaharaまたはMoodleと連携できるようにします。ネットワーキングが有効にされた場合、あなたはMoodleまたはMaharaにログインする人のシングルサインオン設定にネットワーキングを使用できます。';
-=======
-$string['networkingpagedescription'] = 'Maharaのネットワーキング機能では同一または別サーバで稼動中のMaharaまたはMoodleと連携できるようにします。ネットワーキングが有効にされた場合、MoodleまたはMaharaにログインしたユーザのシングルサインオンを設定できます。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['networkingunchanged'] = 'ネットワーク設定は変更されませんでした。';
-$string['promiscuousmode'] = 'すべてのホストを自動登録する';
-$string['promiscuousmodedisabled'] = '自動登録が無効にされました。';
-$string['promiscuousmodeenabled'] = '自動登録が有効にされました。';
-<<<<<<< HEAD
-$string['promiscuousmodedescription'] = 'あなたに接続するすべてのホスト用にインスティテューションレコードを作成してホストのアカウント保持者がMaharaにログインできるようにします。';
-$string['wwwroot'] = 'WWWルート';
-$string['wwwrootdescription1'] = 'これはこのMaharaインストレーションのSSLキーを生成するためのURLです。';
-=======
-$string['promiscuousmodedescription'] = 'あなたに接続するすべてのホストにインスティテューションレコードを作成して、そのユーザがMaharaにログインできるようにします。';
-$string['wwwroot'] = 'WWWルート';
-$string['wwwrootdescription'] = 'これはユーザがこのMaharaインストレーションにアクセスするためおよびSSLキーを生成するためのURLです。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['deletekey'] = 'この鍵を削除する';
-$string['keydeleted'] = '公開鍵が削除および再生成されました。';
-$string['proxysettings'] = 'プロクシ設定';
-$string['proxyaddress'] = 'プロクシアドレス';
-$string['proxyaddressdescription'] = 'あなたのサイトがインターネットへのアクセスにプロクシサーバを使用している場合、「ホスト名:ポート番号」の表記法でプロクシを指定してください。';
-$string['proxyaddressset'] = 'プロクシアドレスセット';
-$string['proxyauthmodel'] = 'プロクシ認証モデル';
-$string['proxyauthmodeldescription'] = '必要な場合、あなたのプロクシ認証モデルを選択してください。';
-$string['proxyauthmodelbasic'] = 'Basic (NCSA)';
-$string['proxyauthmodelset'] = 'プロクシ認証モデルが設定されました。';
-<<<<<<< HEAD
-$string['proxyauthcredentials'] = 'プロクシ認証情報';
-=======
-$string['proxyauthcredentials'] = 'プロクシ資格情報';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['proxyauthcredentialsdescription'] = 'あなたのプロクシがウェブサーバを認証するために必要な認証情報を「ユーザ名:パスワード」のフォーマットで指定してください。';
-$string['proxyauthcredntialsset'] = 'プロクシ認証情報セット';
-$string['emailsettings'] = 'メール設定';
+$string['editmembers'] = 'メンバーを編集する';
+$string['editselectedusersdescription1'] = 'あなたがユーザ検索ページで選択したユーザの利用停止、削除または認証方法を変更します。';
+$string['editstaff'] = 'スタッフを編集する';
+$string['emailaddresshidden'] = 'メールアドレス非表示';
+$string['emailnoreplyaddress'] = 'システムメールアドレス';
+$string['emailnoreplyaddressdescription'] = 'このメールアドレスからEメールが送信されることになります。';
+$string['emailsettings'] = 'Eメール設定';
 $string['emailsmtphosts'] = 'SMTPホスト';
 $string['emailsmtphostsdescription'] = 'メール送信に使用するSMTPサーバです。例) smtp1.example.com';
-$string['emailsmtpport'] = 'SMTPポート';
-$string['emailsmtpportdescription'] = 'SMTPサーバが25と異なるポートを使用する場合、ポート番号を指定してください。';
-$string['emailsmtpuser'] = 'ユーザ';
-<<<<<<< HEAD
-$string['emailsmtpuserdescription'] = 'SMTPサーバに認証が必要な場合、該当するフィールドにアカウント認証情報を入力してください。';
-=======
-$string['emailsmtpuserdescription'] = 'SMTPサーバに認証が必要な場合、該当するフィールドにユーザ認証情報を入力してください。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 $string['emailsmtppass'] = 'パスワード';
+$string['emailsmtpport'] = 'SMTPポート';
+$string['emailsmtpportdescription'] = 'SMTPサーバが25とは異なるポートを使用する場合、ポート番号を指定してください。';
 $string['emailsmtpsecure'] = 'SMTP暗号化';
 $string['emailsmtpsecuredescription'] = 'SMTPサーバが暗号化をサポートする場合、ここで有効にしてください。';
 $string['emailsmtpsecuressl'] = 'SSL';
 $string['emailsmtpsecuretls'] = 'TLS';
-$string['emailnoreplyaddress'] = 'システムメールアドレス';
-$string['emailnoreplyaddressdescription'] = 'このメールアドレスからメールが送信されます。';
-<<<<<<< HEAD
-$string['internalnotificationexpire'] = '内部通知有効期限';
-$string['internalnotificationexpiredescription'] = '内部通知を保持する日数です。';
-$string['notificationsettings'] = '通知設定';
-$string['notificationsettingsdescription1'] = 'ここであなたは新しいアカウント保持者が受信する通知のデフォルトオプションを設定できます。人はこれらの設定を自分の「アカウントメニュー → 設定 → 通知」ページでオーバーライドできます。<br>あなたがメールオプションのどちらを選択した場合でも通知は受信ボックスに到着しますが、自動的に既読マークされます。';
-$string['allow_inst_admins_to_manage_issue_reports'] = 'インスティテューション管理者がイシューレポートを受信する';
-$string['allow_inst_admins_to_manage_issue_reports_desc'] = 'インスティテューション管理者はイシューレポートを通知として受信できます。インスティテューション管理者はサイト管理者と同様にレポートを受信するかどうか決定できます。';
-$string['allow_inst_admins_to_escalate_issue_reports'] = 'インスティテューション管理者がイシューレポートをエスカレーションできる';
-$string['allow_escalation'] = 'エスカレーションを有効にする';
-$string['escalation_email'] = 'エスカレーションメール';
-$string['csvfile'] = 'CSVファイル';
-$string['emailusersaboutnewaccount1'] = 'アカウント詳細をメール送信する';
-$string['emailusersaboutnewaccountdescription1'] = 'この設定を有効にした場合、人に新しいアカウントの作成またはアカウントの更新を知らせるためのメールが送信されます。';
-$string['forceuserstochangepassword'] = 'パスワード変更を強制する';
-$string['forceuserstochangepassworddescription1'] = 'アカウント保持者は次回ログイン時に強制的にパスワードを変更することになります。これはアカウント保持者が別のインスティテューションに移動および「内部」認証方法が設定されている場合に特に推奨されます。外部認証方式を使用する場合、このオプションは「Yes」に設定しないでください。';
-$string['uploadcsvinstitution1'] = '新しく作成されたアカウントまたは更新されたアカウントに割り当てるインスティテューションおよび認証方法です。<br>注意: あなたがアカウントを新しいインスティテューションに移動した場合、そのアカウントは他のすべてのインスティテューションから削除された上でここで指定したインスティテューションに追加されます。';
-$string['configureauthplugin'] = 'あなたが人を追加するには最初に認証プラグインを設定する必要があります。';
-$string['csvfiledescription1'] = '追加または更新するアカウントを含むファイルです。';
-=======
-$string['notificationsettings'] = '通知設定';
-$string['notificationsettingsdescription'] = 'ここであなたは新しいユーザが受信する通知のデフォルトオプションを設定できます。ユーザはこれらの設定を自分の「設定 → 通知」ページでオーバーライドできます。<br>あなたがメールオプションのどちらかを選択した場合、通知はユーザの受信ボックスにも到着しますが自動的に既読マークされます。';
-$string['csvfile'] = 'CSVファイル';
+$string['emailsmtpuser'] = 'ユーザ';
+$string['emailsmtpuserdescription'] = 'SMTPサーバに認証が必要な場合、対応するフィールドにユーザ認証情報を入力してください。';
 $string['emailusersaboutnewaccount'] = 'ユーザにアカウント情報をメール送信する';
 $string['emailusersaboutnewaccountdescription'] = 'この設定を有効にした場合、新しいアカウント詳細情報がユーザにメール送信されます。';
+$string['embeddedcontent'] = '埋め込みコンテンツ';
+$string['embeddedcontentdescription'] = 'ユーザがポートフォリオにビデオまたは他のサイトのコンテンツを埋め込むことができるようにしたい場合、あなたは以下より信頼できるサイトを選択できます。';
+$string['enablegroupcategories'] = 'グループカテゴリを有効にする';
+$string['enablenetworking'] = 'ネットワーキングを有効にする';
+$string['enablenetworkingdescription'] = 'Moodleおよび他のアプリケーションを動作させているサーバとあなたのMaharaサーバが通信することを許可します。';
+$string['ensurepluginsexist'] = 'あなたのインストール済みプラグインが %s 配下に設置されてウェブサーバから読むことができることを確認してください。';
+$string['errors'] = 'エラー';
+$string['errorupdatinginstitutionusers'] = 'インスティテューションユーザ更新中にエラーが発生しました。';
+$string['errorwhilesuspending'] = '利用停止中にエラーが発生しました。';
+$string['errorwhileunsuspending'] = '利用停止解除中にエラーが発生しました。';
+$string['eventlogenhancedsearch'] = 'イベントログレポーティング';
+$string['eventlogenhancedsearchdescription1'] = 'あなたのサイトの活動に関してさらに記録するため高度なアナリティクス機能を使用したい場合、これは必須です。また、あなたは「検索設定」でElasticsearchを有効にする必要があります。';
+$string['eventlogexpiry'] = 'イベントログ有効期限';
+$string['eventlogexpirydescription'] = 'イベントログの保存期間を指定します。';
+$string['eventloglevel'] = 'イベントログ';
+$string['eventloglevelall'] = 'すべて';
+$string['eventlogleveldescription'] = 'どのイベントを記録しますか?';
+$string['eventloglevelmasq'] = 'マスカレーディング';
+$string['eventloglevelnone'] = 'なし';
+$string['expired'] = '有効期限切れ';
+$string['expiredinfo'] = 'このユーザのアカウントは %s に有効期限切れとなりました。';
+$string['expiredusers'] = '有効期限切れユーザ';
+$string['exportcontentname'] = 'エクスポートコンテンツ';
+$string['exportdataascsv'] = 'すべてのデータをCSVフォーマットでエクスポートする';
+$string['exportdownloademailmessage'] = '%s さん、あなたの「 %s 」のLeap2Aエクスポートのダウンロード準備ができました。このファイルは生成後24時間のみ利用できます。ファイルをダウンロードするには次のリンクにアクセスしてください:';
+$string['exportdownloademailsubject'] = 'あなたの「 %s 」のLeap2Aエクスポートのダウンロード準備ができました。';
+$string['exportdownloadurl'] = 'エクスポート済みファイルをダウンロードする';
+$string['exportfailed'] = '失敗 %s';
+$string['exportgroupmembershipscsv'] = 'グループメンバーシップをCSVフォーマットでエクスポートする';
+$string['exportgroupmembershipscsvspecific'] = '「 %s 」のグループメンバーシップをCSVフォーマットでエクスポートする';
+$string['exportgroupscsv'] = 'グループをCSVフォーマットでエクスポートする';
+$string['exportingnotsupportedyet'] = 'ユーザプロファイルのエクスポートはまだサポートされていません。';
+$string['exportingusername'] = 'エクスポート %s ...';
+$string['exportpending'] = '%s 現在の保留';
+$string['exportqueue'] = 'エクスポートキュー';
+$string['exportqueuearchived'] = array(
+    0 => '%s 行が正常に更新されました。',
+);
+$string['exportqueuedeleted'] = array(
+    0 => '%s 行が正常に削除されました。',
+);
+$string['exportstatsascsv'] = '統計をCSVフォーマットでエクスポートする';
+$string['exporttoqueue'] = 'キューにエクスポートする';
+$string['exporttoqueuedescription2'] = 'サーバ負荷管理を改善するためユーザポートフォリオのLeap2Aによるエクスポートをエクスポートキューが処理するようにします。';
+$string['exportuserprofiles'] = 'ユーザプロファイルをエクスポートする';
+$string['exportusersascsv'] = 'ユーザをCSVフォーマットでエクスポートする';
+$string['externallink'] = '外部リンク';
+$string['extralicensesdescription'] = '注意: 次のライセンスはいくつかのコンテンツで使用されていますが、設定されていません。';
+$string['failedtoobtainuploadedleapfile'] = 'アップロードされたLeap2Aファイルの取得に失敗しました。';
+$string['failedtounzipleap2afile'] = 'Leap2Aファイルの展開に失敗しました。詳細はエラーログを確認してください。';
+$string['fileisnotaziporxmlfile'] = 'このファイルはZIPファイルまたはXMLファイルとして認識されませんでした。';
+$string['filemissing'] = '%s (ファイル不明)';
+$string['filemissingdesc'] = 'ファイル「 %s%s 」がサーバにありません。';
+$string['filenameleap'] = 'Leap2Aファイル';
+$string['filequota1'] = 'ファイルクオータ';
+$string['filequotadescription'] = 'ユーザのファイルエリアで利用可能な合計保存領域です。';
+$string['filtersinstalled'] = 'フィルタがインストールされました。';
+$string['footercustomlink'] = 'ここにURLを入力することであなたはデフォルトページ「 %s 」に優先させることができます。デフォルト値を使用する場合、空白のままにしてください。';
+$string['footermenu'] = 'フッタメニュー';
+$string['footermenudescription'] = 'フッタメニュー内のリンクを有効または無効にします。';
+$string['footerupdated'] = 'フッタが更新されました。';
+$string['forcepasswordchange'] = '次回ログイン時、パスワード変更を強制する';
+$string['forcepasswordchangedescription'] = '次回ログイン時、ユーザは「パスワードを変更する」ページにリダイレクトされます。';
 $string['forceuserstochangepassword'] = 'パスワード変更を強制する';
 $string['forceuserstochangepassworddescription'] = 'この設定を有効にした場合、初回ログイン時、ユーザにパスワード変更を強制します。';
-$string['uploadcsvinstitution'] = '新しいユーザのインスティテューションおよび認証方法';
-$string['configureauthplugin'] = 'あなたがユーザを追加するには最初に認証プラグインを設定する必要があります。';
-$string['csvfiledescription'] = '追加するユーザを含むファイル';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['csvmaxusersdescription'] = 'このファイルには %s 以上含めません。';
-$string['groupcsvfiledescription'] = '追加するグループを含むファイルです。';
-$string['groupmemberscsvfiledescription'] = '更新するグループメンバを含むファイルです。';
-$string['csverroremptyfile'] = 'CSVファイルが空です。';
+$string['fromversion'] = 'アップグレード前';
+$string['generalsettingslegend'] = '一般設定';
+$string['generatedgroupurls'] = array(
+    0 => '%s グループホームページURLを生成しました。',
+);
+$string['generateduserurls'] = array(
+    0 => '%s プロファイルURLを生成しました。',
+);
+$string['generatedviewurls'] = array(
+    0 => '%s ポートフォリオページURLを生成しました。',
+);
+$string['generatesitemap1'] = 'サイトマップ';
+$string['generatesitemapdescription'] = 'パブリックにアクセス可能なページ、グループおよびフォーラムトピックからサイトマップファイルを生成します。';
+$string['getreports'] = 'レポートを取得する';
+$string['gotoinstallpage'] = '拡張機能ページ経由でインストールする';
+$string['groupadmins'] = '管理者';
+$string['groupadminsforgroup'] = '「 %s 」のグループ管理者';
+$string['groupadminsupdated'] = 'グループ管理者が更新されました。';
+$string['groupcategories'] = 'グループカテゴリ';
+$string['groupcategoriesdescription'] = 'グループカテゴリを追加および編集します。';
+$string['groupcategoriespagedescription'] = 'グループ作成時、ここで一覧表示されているカテゴリにグループを割り当てることができます。また、グループ検索時、グループのフィルタにカテゴリを使用できます。';
+$string['groupcategorydeleted'] = 'カテゴリが削除されました。';
+$string['groupcountsbyjointype'] = 'アクセスタイプ別グループ数';
+$string['groupcountsbytype'] = 'グループタイプ別グループ数';
+$string['groupcsvfiledescription'] = '追加するグループを含むファイル';
+$string['groupdelete'] = '削除';
+$string['groupfilequotadescription'] = 'グループファイルエリアでの利用可能な合計保存領域です。';
+$string['groupmanage'] = '管理';
+$string['groupmanagespecific'] = '「 %s 」を管理する';
+$string['groupmemberaverage'] = 'それぞれのユーザは平均 %s のグループに属しています。';
+$string['groupmembers'] = 'メンバー';
+$string['groupmemberscsvfiledescription'] = '更新するグループメンバーを含むファイル';
+$string['groupname'] = 'グループ名';
+$string['groupoptionsset'] = 'グループオプションが更新されました。';
+$string['groupquotas'] = '「 %s 」のグループクオータ';
+$string['groupquotaupdated'] = 'グループクオータが更新されました。';
+$string['groups'] = 'グループ';
+$string['groupsettingslegend'] = 'グループ設定';
+$string['groupshortname'] = '省略名';
+$string['grouptype'] = 'グループタイプ';
+$string['groupvisible'] = '可視性';
+$string['home'] = 'ホーム (ダッシュボード)';
+$string['homepageinfo1'] = 'ホームページ/ダッシュボード情報を表示する';
+$string['homepageinfodescription3'] = 'Maharaに関する情報および利用状況がMaharaホームページに表示されます。登録済みユーザにはこれらの情報を自分のダッシュボードに表示しないオプションがあります。';
+$string['howdoyouwanttocreatethisuser'] = 'どのようにこのユーザを作成しますか?';
+$string['htmlfilters'] = 'HTMLフィルタ';
+$string['htmlfiltersdescription'] = 'HTML Purifierの新しいフィルタを有効にします。';
+$string['iframedisplaynamedescription'] = 'ユーザに表示されるサイト名です。';
+$string['iframeiconhost'] = 'アイコンホスト';
+$string['iframeiconhostdescription'] = '必要であれば、あなたはファビコン (favicon) イメージ用の異なるホストを指定できます。同一名称のすべてのサイトでこのアイコンが使用されます。';
+$string['iframeinvalidsite'] = 'このフィールドには有効なホストおよび任意のパスを入力してください。フィールドには半角英数字、「.」「/」「_」および「-」のみ含むことができます。';
+$string['iframeurldescription'] = 'iframeソースURL (http:// なし) の先頭に合致するテキストです。半角英数字、「.」「/」「_」および「-」のみ許可されます。';
+$string['importednuserssuccessfully'] = '%d / %d のユーザを正常にインポートしました。';
+$string['importfailedfornusers'] = '%d / %d のユーザのインポートに失敗しました。';
+$string['importfile'] = 'バルクエクスポートファイル';
+$string['importfileisnotazipfile'] = 'インポートファイル %s はZIPファイルではないようです。';
+$string['importfilemissinglisting'] = 'バルクエクスポートファイルのファイル名が「usernames.csv」ではありません。これらのユーザをエクスポートするためあなたはMaharaバルクエクスポータを使用しましたか?';
+$string['importfilenotafile'] = '送信中にエラーが発生しました: ファイルを認識できませんでした。';
+$string['importfilenotreadable'] = 'Leap2Aファイル %s を読むことができません。';
+$string['importing'] = 'インポート中';
+$string['inactive'] = 'ユーザ非アクティブ';
+$string['inactivefor'] = '現在、ユーザ「 %s 」 はアクティブではありません。';
+$string['install'] = 'インストール';
+$string['installation'] = 'インストレーション';
+$string['installed'] = 'インストール済み';
+$string['installedpluginsmissing'] = '次のプラグインがインストールされていますが見つけることができませんでした。';
+$string['installingplugin'] = '%s のインストール';
+$string['installmahara'] = 'Maharaをインストールする';
+$string['installsuccess'] = '次のバージョンを正常にインストールしました: ';
+$string['institution'] = 'インスティテューション';
+$string['institutionaddedsuccessfully2'] = 'インスティテューションが正常に追加されました。';
+$string['institutionadmin'] = 'インスティテューション管理者';
+$string['institutionadmindescription1'] = 'ユーザがこのインスティテューションのユーザすべてを管理できるようにします。';
+$string['institutionadministrator'] = 'インスティテューション管理者';
+$string['institutionadmins'] = 'インスティテューション管理者';
+$string['institutionadminsdescription'] = 'インスティテューション管理者アクセス権を割り当てます。';
+$string['institutionadminuserspagedescription1'] = 'ここであなたはどのユーザをインスティテューションの管理者するか選択できます。現在の管理者は「現在の管理者」フィールドに潜在的な管理者は「インスティテューションメンバー」フィールドに一覧表示されます。';
+$string['institutionauth'] = 'インスティテューション認証局';
+$string['institutionauthinuseby'] = 'このインスティテューションの認証はまだ %s によって使用されています。';
+$string['institutionautosuspend'] = '有効期限切れのインスティテューションを自動停止する';
+$string['institutionautosuspenddescription1'] = '有効期限切れのインスティテューションを自動的に利用停止します。';
+$string['institutioncreated'] = 'インスティテューション作成';
+$string['institutioncreated_all'] = 'サイトインストール';
+$string['institutiondeletedsuccessfully'] = 'インスティテューションが正常に削除されました。';
+$string['institutiondetails'] = 'インスティテューション詳細';
+$string['institutiondisplayname'] = 'インスティテューション表示名';
+$string['institutionexpiry'] = 'インスティテューション有効期限';
+$string['institutionexpirydescription'] = 'この %s のインスティテューションメンバーシップが利用停止される日付です。';
+$string['institutionexpirynotification'] = 'インスティテューション有効期限の警告期間';
+$string['institutionexpirynotificationdescriptioninfo'] = 'サイトおよびインスティテューション管理者に対してインスティテューション有効期限切れ前に通知メッセージが送信されます。';
+$string['institutionfiles'] = 'インスティテューションファイル';
+$string['institutionfilesdescription'] = 'インスティテューションページで使用するためのファイルをアップロードおよび管理します。';
+$string['institutionlanguage'] = '言語';
+$string['institutionlanguagedescription'] = 'このインスティテューションのユーザのデフォルト言語です。';
+$string['institutionloginstablesubtitle'] = '%s - %s';
+$string['institutionloginstabletitle'] = 'アクティブインスティテューション';
+$string['institutionlogoutusers'] = array(
+    0 => 'ログアウト %s ユーザ',
+);
+$string['institutionmaxusersexceeded'] = 'このインスティテューションはユーザ数が上限に達しました。このユーザを追加できるようにするにはあなたはこのインスティテューションが許可するユーザ数を増やす必要があります。';
+$string['institutionmembers'] = 'インスティテューションメンバー';
+$string['institutionmembersdescription'] = 'ユーザをインスティテューションに関連付けます。';
+$string['institutionmemberspagedescription'] = 'このページではあなたのインスティテューションにメンバーシップをリクエストしたユーザを確認およびメンバーとして追加できます。また、あなたのインスティテューションからユーザを削除および招待できます。';
+$string['institutionname'] = 'インスティテューション名';
+$string['institutionnamealreadytaken'] = 'このインスティテューション名はすでに取得されています。';
+$string['institutiononly'] = 'インスティテューションのみ';
+$string['institutions'] = 'インスティテューション';
+$string['institutionsdescription'] = 'インスティテューションの設置および設置済みインスティテューションを管理します。';
+$string['institutionsettings'] = 'インスティテューション設定';
+$string['institutionsettingsdescription'] = 'あなたが管理者をしているインスティテューションに関してこのユーザのメンバーシップ設定を変更できます。';
+$string['institutionsettingslegend'] = 'インスティテューション設定';
+$string['institutionshortname'] = 'インスティテューション省略名';
+$string['institutionshortnamedescription'] = '省略名は自動的に生成されます。変更することはできません。';
+$string['institutionsmartevidencenotallowed'] = 'あなたがスマートエビデンスオプションを設定するには「プラグイン管理」ページで「スマートエビデンス」モジュールを有効にする必要があります。';
+$string['institutionstaff'] = 'インスティテューションスタッフ';
+$string['institutionstaffallreports'] = 'インスティテューションスタッフのすべてのレポート';
+$string['institutionstaffallreportsdescription'] = 'インスティテューションスタッフがインスティテューションのすべてのレポートにアクセスできるようにします。通常、このレポートは管理者およびサイトスタッフに制限されます。';
+$string['institutionstaffdescription'] = 'ユーザにスタッフパーミッションを割り当てます。';
+$string['institutionstaffuserspagedescription1'] = 'ここであなたはどのユーザをあなたのインスティテューションのスタッフにするか選択できます。現在のスタッフは「インスティテューションスタッフ」フィールドに潜在的なスタッフは「インスティテューションメンバー」フィールドに一覧表示されます。';
+$string['institutionstaticpages'] = 'インスティテューション固定ページ';
+$string['institutionstatisticsfor'] = '「 %s 」のインスティテューション統計';
+$string['institutionstillhas'] = 'このインスティテューションにはまだ %s が登録されています。';
+$string['institutionstudentiddescription'] = 'インスティテューションを識別するための任意の識別子です。ユーザはこのフィールドを編集することはできません。';
+$string['institutionsuspended'] = 'インスティテューションが利用停止されました。';
+$string['institutionunsuspended'] = 'インスティテューションの利用停止が解除されました。';
+$string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
+$string['institutionuserserrortoomanyinvites'] = 'あなたの招待は送信されませんでした。既存のユーザ + 未処理の招待者数はインスティテューションで許可される最大ユーザアカウント数を超えることはできません。あなたは少数のユーザを招待するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼できます。';
+$string['institutionuserserrortoomanyusers'] = 'ユーザは追加されませんでした。メンバー数はインスティテューションで許可される最大ユーザ数を超えることはできません。あなたは少数のユーザを追加するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼できます。';
+$string['institutionusersinstructionsinvited1'] = '「 %1$s 」フィールドのユーザ一覧ではインスティテューションに参加するよう招待が送信されてまだ承認または拒否されていないユーザすべてが表示されます。表示されるユーザ数を減らすためあなたは検索ボックスを使用できます。インスティテューションへの招待を取り消すには1名またはそれ以上のユーザを選択して右矢印をクリックすることにより最初にユーザを「 %2$s 」フィールドに移動してください。あなたが選択したユーザは「 %2$s 」フィールドに移動されます。「招待を取り消す」ボタンにより「 %2$s 」フィールド内のユーザすべてに対する招待を削除します。他のユーザのインスティテューションへの招待は保持されいつでも参加できます。';
+$string['institutionusersinstructionslastinstitution1'] = '「 %1$s 」フィールドのユーザ一覧ではあなたのインスティテューションへの参加をまだリクエストしていないユーザおよび選択されたインスティテューションを離れたユーザすべてが表示されます。表示されるユーザ数を減らすためあなたは検索ボックスを使用できます。ユーザをインスティテューションに参加するよう招待するには1名またはそれ以上のユーザを選択して右矢印をクリックすることにより最初にユーザを「 %2$s 」フィールドに移動してください。「ユーザを招待する」ボタンにより、「 %2$s 」フィールド内のユーザすべてに招待を送信します。招待を受け入れるまでこれらのユーザはインスティテューションと関連付けられません。';
+$string['institutionusersinstructionsmembers1'] = '「 %1$s 」フィールドのユーザ一覧ではインスティテューションのメンバーすべてを表示します。表示されるユーザ数を減らすためあなたは検索ボックスを使用できます。インスティテューションからユーザを削除するには1名またはそれ以上のユーザを選択して右矢印をクリックすることにより最初にユーザを「 %2$s 」フィールドに移動してください。あなたが選択したユーザは「 %2$s 」フィールドに移動されます。「ユーザを削除する」ボタンにより、「 %2$s 」フィールド内のユーザすべてをインスティテューションから削除します。';
+$string['institutionusersinstructionsnonmembers1'] = '「 %1$s 」フィールドのユーザ一覧ではあなたのインスティテューションへの参加をまだリクエストしていないユーザすべてが表示されます。表示されるユーザ数を減らすためあなたは検索ボックスを使用できます。ユーザをインスティテューションに参加するよう招待するには1名またはそれ以上のユーザを選択して右矢印をクリックすることにより最初にユーザを「 %2$s 」フィールドに移動してください。「ユーザを招待する」ボタンにより、「 %2$s 」フィールド内のユーザすべてに招待を送信します。招待を受け入れるまでこれらのユーザはインスティテューションと関連付けられません。';
+$string['institutionusersinstructionsrequesters1'] = '「 %1$s 」フィールドのユーザ一覧ではあなたのインスティテューションへの参加をリクエストしたユーザすべてが表示されます。表示されるユーザ数を減らすためあなたは検索ボックスを使用できます。あなたがユーザをインスティテューションに追加したい場合、またはメンバーシップリクエストを拒否したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることにより最初にユーザを「 %2$s 」フィールドに移動してください。「メンバーを追加する」ボタンにより、「 %2$s 」フィールド内のユーザすべてをインスティテューションに追加します。「リンクエストを拒否する」ボタンにより、「 %2$s 」フィールド内のユーザのメンバーシップリクエストを削除します。';
+$string['institutionusersinvited'] = '招待された人';
+$string['institutionuserslastinstitution'] = 'インスティテューションを離れた人';
+$string['institutionusersmembers'] = 'すでにインスティテューションのメンバーになっている人';
+$string['institutionusersnonmembers'] = 'まだインスティテューションのメンバーシップをリクエストしていない人';
+$string['institutionusersrequesters'] = 'インスティテューションのメンバーシップをリクエストした人';
+$string['institutionusersupdated_addUserAsMember'] = 'ユーザが追加されました。';
+$string['institutionusersupdated_declineRequestFromUser'] = 'リクエストが拒否されました。';
+$string['institutionusersupdated_inviteUser'] = '招待が送信されました。';
+$string['institutionusersupdated_removeMembers'] = 'ユーザが削除されました。';
+$string['institutionusersupdated_uninvite_users'] = '招待が取り消されました。';
+$string['institutionviews'] = 'インスティテューションページ';
+$string['institutionviewsdescription'] = 'インスティテューションのページおよびページテンプレートを作成および管理します。';
 $string['invalidfilename'] = 'ファイル「 %s 」が存在しません。';
-$string['invalidfilenameformatforcsv'] = 'ファイルフォーマット「 %s 」が有効ではありません。有効なカンマ区切り値 (.csv) のファイルをアップロードしてください。';
-$string['uploadcsverrorinvalidfieldname'] = 'フィールド名「 %s 」が無効、またはヘッダ行より多いフィールドが指定されています。';
-$string['uploadcsverrorrequiredfieldnotspecified'] = '必須フィールド「 %s 」がフォーマット行で指定されていません。';
-$string['uploadcsverrornorecords'] = 'ファイルにレコードが含まれていないようです (ヘッダに問題はありません)。';
-$string['uploadcsverrorunspecifiedproblem1'] = '何らかの理由によりあなたのCSVファイルのレコードを追加できませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href="https://bugs.launchpad.net/mahara/+filebug">バクレポートを作成してください</a> (忘れずにパスワードを空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
-$string['uploadcsverrorwrongnumberoffields'] = 'あなたのファイルの %s 行目にエラーがあります: フィールド数が正しくありません。';
-<<<<<<< HEAD
-$string['uploadcsverrorinvalidemail'] = 'あなたのファイルの %s 行目にエラーがあります: この人のメールアドレスは正しいフォーマットではありません。';
+$string['invalidlistingfile'] = '無効なユーザ名リストです。これらのユーザをエクスポートするためあなたはMaharaバルクエクスポータを使用しましたか?';
+$string['invitationsent'] = '招待が送信されました。';
+$string['invitedby'] = '招待者';
+$string['invitedusers'] = '招待されたユーザ';
+$string['inviteusers'] = 'ユーザを招待する';
+$string['inviteuserstojoin'] = 'ユーザにインスティテューションへの参加を招待する';
+$string['jsrequiredforupgrade'] = 'あなたがインストールまたはアップグレードを実行するにはJavaスクリプトを有効にする必要があります。';
+$string['keydeleted'] = '公開鍵が削除および再生成されました。';
+$string['language'] = '言語';
+$string['lastinstitution'] = '前のインスティテューション';
+$string['lastlogin'] = '最終ログイン';
+$string['latestversionis'] = '最新バージョン: <a href="%s">%s</a>';
+$string['leap2aimportfailed'] = '<p><strong>申し訳ございません、Leap2Aファイルのインポートに失敗しました。</strong></p><p>これはあなたが有効なLeap2Aファイルをアップロードに選択しなかったから、またはこのMaharaのバージョンではあなたのLeap2Aファイルがサポートされていないからだと考えられます。また、Leap2Aファイルが有効な場合、Maharaのバグがあなたのファイルのアップロードを失敗させていることも考えられます。</p><p><a href="add.php">戻ってファイルのアップロードを再度お試しください</a>。この問題が続く場合、エラー状況を<a href="https://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。その場合、あなたのファイルのコピーを準備してください。</p>';
+$string['licenseallowcustom1'] = 'カスタムライセンス';
+$string['licenseallowcustomdescription'] = 'ライセンスメタデータに関してユーザがライセンスのURLを入力できるようにします。この設定を有効にしない場合、ユーザはサイト管理者が設定したライセンスに制限されます。';
+$string['licensedefault'] = 'デフォルトライセンス';
+$string['licensedefaultdescription'] = 'インスティテューションメンバーにより作成またはアップロードされたコンテンツのデフォルトのライセンスです。ユーザはアカウント設定ページおよび個別のアイテムでこの設定をオーバーライドできます。';
+$string['licensedefaultmandatory'] = 'ユーザがライセンスの選択を要求される場合、あなたはここでデフォルトライセンスを選択する必要があります。あなたがデフォルトライセンスを選択したくない場合、ユーザにライセンスを要求しないでください。';
+$string['licensedeleted'] = 'ライセンスが削除されました。';
+$string['licensedisplaynamelabel'] = '表示名';
+$string['licenseiconlabel'] = 'アイコン';
+$string['licensemandatory'] = 'ライセンス情報を要求する';
+$string['licensemandatorydescription1'] = 'ユーザはアーティファクト作成時にライセンスを選択する必要があります。そうでない場合、ライセンスフィールドを空白のままにできます。';
+$string['licensemetadata'] = 'ラインセンスメタデータ';
+$string['licensemetadatadescription'] = 'ユーザ作成コンテンツに関してライセンスメタデータを要求および保存します。';
+$string['licensenamelabel'] = 'URL';
+$string['licensesave'] = '保存';
+$string['licensesaved'] = 'ライセンスが保存されました。';
+$string['licenseshortnamelabel'] = '頭字語';
+$string['licenseurldup'] = 'URLはユニークである必要があります。ここで %s は繰り返し使用されています。';
+$string['licenseurlnone'] = '%s のURLを指定してください。';
+$string['linkedto'] = 'リンク先';
+$string['linksandresourcesmenu'] = 'リンクおよびリソースメニュー';
+$string['linksandresourcesmenupagedescription'] = '「リンクおよびリソース」メニューはほとんどのページですべてのユーザに表示されます。あなたは他のウェブサイトのリンクおよび%s管理ファイル%sセクションでアップロードしたファイルへのリンクを追加できます。';
+$string['loadingmenuitems'] = 'メニューアイテムの読み込み中';
+$string['loadmenuitemsfailed'] = 'メニューアイテムの読み込みに失敗しました。';
+$string['loadsitecontentfailed'] = 'サイトページコンテンツを読み込むことができませんでした。';
+$string['localdatasuccess'] = 'ローカルカスタマイゼーションを正常にインストールしました。';
+$string['loggedinfilter'] = 'ログイン日時でフィルタする:';
+$string['loggedinmenu'] = 'ログイン後の「リンクおよびリソース」';
+$string['loggedinprofileviewaccess1'] = 'すべての登録ユーザによるプロファイルアクセス';
+$string['loggedinprofileviewaccessdescription1'] = 'ユーザのプロファイルページは登録ユーザすべてが閲覧できます。';
+$string['loggedinsince'] = '%s=本日 / %s=%s以降 / %s=全期間';
+$string['loggedouthome'] = 'ログアウトホーム';
+$string['loggedoutmenu'] = 'パブリックの「リンクおよびリソース」';
+$string['loggingsettingslegend'] = 'ロギング設定';
+$string['loginas'] = '代理ログイン';
+$string['loginasdenied'] = 'パーミッションなしで別のユーザとしてのログインを試みました。';
+$string['loginaslog'] = 'マスカレーディングセッション';
+$string['loginasoverridepasswordchange'] = '別のユーザとしてログインしているため、あなたはパスワード変更画面を無視して%s常にログインすること%sを選択できます。';
+$string['loginasrestorenodata'] = 'リストアするユーザデータがありません。';
+$string['loginasthisuser'] = 'このユーザとしてログインする';
+$string['loginastwice'] = 'すでにログインしているにもかかわらず、別のユーザとしてのログインを試みました。';
+$string['loginasuser'] = '%s としてログインする';
+$string['logodescription1'] = 'あなたのテーマのロゴとしてインスティテューションメンバーに表示されるイメージをここでアップロードできます。ロゴは利用可能なスペースに合わせてリサイズされます。';
+$string['logoxsdescription'] = 'あなたは大きなスペースがない場合にスモールデバイスで使用される2番目のロゴをアップロードできます。最良の結果のためロゴは正方形にしてください。';
+$string['maharainstalled'] = 'Maharaはすでにインストールされています。';
+$string['maharanotinstalled'] = '現在、Maharaはインストールされていません。アップグレードの前にMaharaをインストールしてください。';
+$string['maharaversion'] = 'Maharaバージョン';
+$string['makeadminsintousers'] = '選択した管理者をユーザに戻す';
+$string['makestaffintousers'] = '選択したスタッフをユーザに戻す';
+$string['makeuserinstitutionstaff'] = '初回ログイン時、このメールアドレスのオーナーにインスティテューションスタッフのパーミッションを自動的に割り当てます。';
+$string['makeusersintoadmins'] = '選択したユーザを管理者にする';
+$string['makeusersintostaff'] = '選択したユーザをスタッフにする';
+$string['managegroupdescription1'] = 'このグループの管理者を昇格および降格する場合、このフォームを使用してください。あなたがグループ管理者を削除した場合、そのユーザはグループメンバーとして残ります。';
+$string['managegroupquotadescription1'] = 'このグループのグループファイルクオータを変更する場合、このフォームを使用してください。';
+$string['managegroups'] = 'グループ管理';
+$string['manageinstitutions'] = 'インスティテューション管理';
+$string['masquerade'] = '続ける';
+$string['masqueradee'] = 'ユーザ';
+$string['masqueradenotificationdone'] = 'このマスカレーディングセッションがユーザに通知されました。';
+$string['masqueradenotificationnoreason'] = '管理者「 %s 」が %s のあなたのアカウントにログインしました。';
+$string['masqueradenotificationreason'] = '管理者「 %s 」が %s のあなたのアカウントにログインしました。理由は次のとおりです: %s';
+$string['masqueradenotificationsubject'] = '管理者があなたとしてログインしました。';
+$string['masqueradenotifiedreasondescription'] = 'このユーザとしてログインする理由を入力してください。注意: ユーザにはマスカレーディングの理由とともにあなたの氏名、日時を含むメッセージが送信されます。';
+$string['masquerader'] = 'マスカレーディング管理者';
+$string['masqueradereason'] = '理由';
+$string['masqueradereasondescription'] = 'このユーザとしてログインする理由を入力してください。注意: この理由はユーザに通知されませんが、ログとして記録されます。';
+$string['masqueradetime'] = 'マスカレーディング開始日時';
+$string['masqueradingnotified'] = 'ユーザにマスカレーディングを通知する';
+$string['masqueradingnotifielddescription'] = '管理者がマスカレーディングする場合、ユーザに通知します。通知には「誰が」「いつ」、それから「マスカレーディングの理由を要求する」が有効にされている場合、「なぜ」が含まれます。これを動作させるためには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
+$string['masqueradingnotloggedwarning'] = '<b>注意</b>: マスカレーディングセッションのロギングは現在無効にされています。このテーブルのデータを閲覧するには管理者が「 <a href="%sadmin/site/options.php">サイト設定</a> 」の「ロギング設定」を有効にする必要があります。';
+$string['masqueradingreasonrequired'] = 'マスカレーディングの理由を要求する';
+$string['masqueradingreasonrequireddescription3'] = '管理者は別のユーザとしてマスカレーディングする理由を入力する必要があります。「ユーザにマスカレーディングを通知する」設定が有効にされている場合、マスカレーディングに関するユーザへの通知に理由が含まれます。これを動作させるためには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
+$string['mathjax'] = 'MathJaxを有効にする';
+$string['mathjaxconfig'] = 'MathJax設定';
+$string['mathjaxdescription'] = 'MathJaxはLaTeXマークアップを適切にフォーマットした数式および化学式としてポートフォリオページに表示します。';
+$string['maxuseraccounts'] = '許可される最大ユーザアカウント数';
+$string['maxuseraccountsdescription'] = 'インスティテューションに関連付けることのできる最大ユーザアカウント数です。制限がない場合、このフィールドは空白にしてください。';
+$string['membershipexpiry'] = 'メンバーシップ有効期限';
+$string['membershipexpirydescription'] = 'ユーザがインスティテューションから自動的に削除される日付です。';
+$string['menuitemdeleted'] = 'アイテムが削除されました。';
+$string['menuitemsaved'] = 'アイテムが保存されました。';
+$string['menuitemsloaded'] = 'アイテムが読み込まれました。';
+$string['menus'] = 'メニュー';
+$string['menusdescription'] = '「リンクおよびリソースメニュー」およびフッタメニュー内のリンクおよびファイルを管理します。';
+$string['missingplugindisabled1'] = 'インストール済みプラグイン「 %s 」が見つからないため無効にされました。';
+$string['movemembersfromremove'] = '選択した削除済みメンバーをメンバーに変更する';
+$string['movememberstoremove'] = '選択したメンバーを削除済みメンバーに変更する';
+$string['moveusersfromadd'] = '選択したメンバーをメンバーリクエストに変更する';
+$string['moveusersfrominvite'] = '選択した招待済みを非メンバーに変更する';
+$string['moveusersfrominviteinstitution'] = '選択した招待済みユーザを旧 %s のユーザに変更する';
+$string['moveusersfromuninvited'] = '選択した未招待ユーザを招待済みに変更する';
+$string['moveuserstoadd'] = '選択したメンバーリクエストをメンバーに変更する';
+$string['moveuserstoinvite'] = '選択した非メンバーを招待済みに変更する';
+$string['moveuserstoinviteinstitution'] = '選択した旧 %s のユーザを招待済みに変更する';
+$string['moveuserstouninvited'] = '選択した招待済みユーザを未招待に変更する';
+$string['name'] = '名称';
+$string['networking'] = 'ネットワーキング';
+$string['networkingdescription'] = 'Maharaのネットワーキングを設定します。';
+$string['networkingdisabled'] = 'ネットワーキングが無効にされました。 ';
+$string['networkingenabled'] = 'ネットワーキングが有効にされました。 ';
+$string['networkingextensionsmissing'] = '申し訳ございません、インストール済みPHPでいくつかの必須拡張モジュールが不足しているためあなたはMaharaネットワーキングを設定できません:';
+$string['networkingpagedescription'] = 'Maharaのネットワーキング機能では同じサーバまたは別のサーバで動作しているMaharaまたはMoodleと連携できます。ネットワーキングが有効にされた場合、MoodleまたはMaharaにログインしたユーザのシングルサインオンを設定できます。';
+$string['networkingunchanged'] = 'ネットワーク設定は変更されませんでした。';
+$string['newfiltersdescription'] = 'あなたが新しいHTMLフィルタをダウンロードした場合、%s フォルダ内にファイルを展開した後、下のボタンをクリックしてインストールできます。';
+$string['newplugins'] = '新しいプラグイン';
+$string['newsiteregistrationpolicy'] = '私たちはMahara 15.10においてmahara.orgへのデータ送信に関するポリシーを更新しました。';
+$string['newusercreated'] = '新しいユーザアカウントが正常に作成されました。';
+$string['newuseremailnotsent'] = '新しいユーザへのウェルカムメール送信に失敗しました。';
+$string['noauthpluginforinstitution'] = 'あなたのサイト管理者はこのインスティテューションの認証プラグインを設定していません。';
+$string['nocsvresults'] = 'CSVファイルの結果が見つかりませんでした。';
+$string['noemailfound'] = 'メールアドレスが見つかりませんでした。';
+$string['nofiltersinstalled'] = 'HTMLフィルタはインストールされませんでした。';
+$string['nogroupsadded'] = 'グループは追加されませんでした。';
+$string['noinstitutionreports'] = 'インスティテューションレポートを表示できません。';
+$string['noinstitutionreportsdescription'] = 'サイトがスタッフにインスティテューションレポートを閲覧できるようにするにはスタッフレポートアクセスを有効にする必要があります。サイト管理者は<a href="%sadmin/site/options.php">サイト設定</a>の「ユーザ設定」でこの設定を有効にできます。';
+$string['noinstitutions'] = 'インスティテューションはありません。';
+$string['noinstitutionsdescription'] = 'あなたがユーザをインスティテューションと関連付けたい場合、最初にインスティテューションを作成してください。';
+$string['noinstitutionstaticpages'] = 'あなたにはインスティテューション固定ページを編集するパーミッションがないかまだインスティテューションが作成されていません。';
+$string['noinstitutionstaticpagesadmin'] = 'あなたがサイト管理者の場合、<a href="%s">サイト設定</a>でデフォルト固定ページを編集してください。';
+$string['noleap2axmlfiledetected'] = 'leap2a.xmlファイルが見つかりませんでした - 再度、あなたのエクスポートファイルを確認してください。';
+$string['nomasquerades'] = 'マスカレーディングセッションのロギングが有効にされているため別のユーザとして代理ログインした管理者はいません。';
+$string['none'] = 'なし';
+$string['nopendingregistrations'] = 'このインスティテューションの登録保留はありません。';
+$string['nositefiles'] = '利用できるサイトファイルはありません。';
+$string['nostatistics'] = '現在、このインスティテューションに表示できる統計はありません。';
+$string['nostats'] = '利用可能な統計はありません。';
+$string['nosuchinstitution'] = 'そのようなインスティテューションはありません。';
+$string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
+$string['nothingtoupgrade'] = 'アップグレードするものはありません。';
+$string['notificationsettings'] = '通知設定';
+$string['notificationsettingsdescription'] = 'ここであなたは新しいユーザが受信する通知のデフォルトオプションを設定できます。ユーザはこれらの設定を自分の「設定 → 通知」ページでオーバーライドできます。<br />あなたがメールオプションのどちらかを選択した場合、通知はユーザの受信ボックスにも到着しますが、自動的に既読としてマークされます。';
+$string['notificationssaved'] = '通知設定が保存されました。';
+$string['notinstalled'] = 'インストール未了';
+$string['noupgrades'] = 'アップグレードするものはありません。あなたは最新版を使用しています。';
+$string['nousernames'] = 'ユーザ名を表示しない';
+$string['nousernamesdescription1'] = '通常のユーザは他のユーザのユーザ名を閲覧したりユーザ名でユーザを検索することはできません。これらの制限はスタッフおよび管理者には適用されません。加えてクリーンURL (有効にされている場合) はユーザ名ではなく、表示名 (提供されている場合) または実名を使用して生成されます。';
+$string['nousersadded'] = 'ユーザは追加されませんでした。';
+$string['nousersselected'] = 'ユーザが選択されていません。';
+$string['nousersupdated'] = '更新されたユーザはありません。';
+$string['numbergroupsupdated'] = 'グループが更新されました: %d';
+$string['numbernewgroupsadded'] = '新しいグループが追加されました: %s';
+$string['numbernewusersadded'] = '新しいユーザが追加されました: %s';
+$string['numberusersupdated'] = 'ユーザが更新されました: %d';
+$string['oneormorelinksarebad'] = '1つまたはそれ以上のリンクが有効ではありません。';
+$string['onlineuserssideblockmaxusers'] = 'オンラインユーザ制限';
+$string['onlineuserssideblockmaxusersdescription'] = 'オンラインユーザサイドバーに表示される最大ユーザ数です。';
+$string['onlyshowingfirst'] = '最初に表示する';
+$string['pagename'] = 'ページ名';
+$string['pageownedby'] = 'オーナー';
+$string['pagesaved'] = 'ページが保存されました。';
+$string['pagetext'] = 'ページテキスト';
+$string['passwordchangenotallowed'] = '選択された認証方法ではパスワードの変更が許可されていません。';
+$string['pathtoclam'] = 'ClamAVのパス';
+$string['pathtoclamdescription'] = 'clamscanまたはclamdscanのファイルシステムパスです。';
+$string['pathtoclamnotset'] = '(未設定)';
+$string['pendingregistration'] = '登録保留';
+$string['pendingregistrations'] = '登録保留';
+$string['pendingregistrationspagedescription'] = '<p>このページでは自己登録およびあなたのインスティテューションのメンバーシップをリクエストしたユーザを閲覧すること、登録を承認または拒否できます。<p>
+
+<p>登録を承認することであなたはユーザをインスティテューションのメンバーに追加することになります。承認されたユーザにはアカウントの有効化に関してさらなるインストラクションを記載したメールが送信されます。登録を拒否した場合、申請が拒否された旨の自動返信メールが送信されます。</p>';
+$string['performinginstallation'] = 'インストール処理中 ...';
+$string['performingupgrades'] = 'アップグレード処理中 ...';
+$string['pluginadmin'] = 'プラグイン管理';
+$string['pluginadmindescription'] = 'プラグインをインストールおよび設定します。';
+$string['pluginsfields'] = 'プラグイン設定';
+$string['potentialadmins'] = '潜在的な管理者';
+$string['potentialstaff'] = '潜在的なスタッフ';
+$string['primaryemail'] = '主メールアドレス';
+$string['privacy'] = 'プライバシー保護方針';
+$string['probationbulkconfirm'] = '本当にこれらのユーザのスパム保護観察ステータスを変更してもよろしいですか?';
+$string['probationbulkset'] = '設定';
+$string['probationbulksetspamprobation'] = 'スパム保護観察を設定する';
+$string['probationreportcolumn'] = '保護観察';
+$string['probationtitle'] = 'スパム発信者保護観察ステータス';
+$string['probationxpoints'] = array(
+    0 => '%d ポイント',
+);
+$string['probationzeropoints'] = '保護観察なし';
+$string['profilecompletenessdesc1'] = 'プロファイル完了ではあなたのユーザはプロファイルをどの程度完了しているか確認できるサイドバーのビジュアルインディケータを使用できます。あなたはプロファイル完了に反映させるアーティファクトを選択できます。他のすべてのアーティファクトを使用できますが、完了カウントの要素とはなりません。';
+$string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックでプロファイル完了がどのように表示されるかプレビューできます。';
+$string['progressbar'] = 'プロファイル完了';
+$string['progressbardisablednote'] = '<b>注意</b>: 現在、プロファイル完了は無効にされています。ユーザがプロファイル完了に関して進捗を追跡できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「ユーザ設定」セクションで有効にする必要があります。';
+$string['progressbarsaved'] = 'プログレスバーが正常に保存されました。';
+$string['promiscuousmode'] = 'すべてのホストを自動登録する';
+$string['promiscuousmodedescription'] = 'あなたに接続するすべてのホストにインスティテューションレコードを作成して、そのユーザがMaharaにログインできるようにします。';
+$string['promiscuousmodedisabled'] = '自動登録が無効にされました。 ';
+$string['promiscuousmodeenabled'] = '自動登録が有効にされました。 ';
+$string['proxyaddress'] = 'プロクシアドレス';
+$string['proxyaddressdescription'] = 'あなたのサイトがインターネットにアクセスするためプロクシサーバを使用している場合、プロクシを「ホスト名:ポート番号」表記法で指定してください。';
+$string['proxyaddressset'] = 'プロクシアドレスセット';
+$string['proxyauthcredentials'] = 'プロクシ証明書';
+$string['proxyauthcredentialsdescription'] = 'あなたのプロクシがウェブサーバで認証するため必要な証明書を「ユーザ名:パスワード」のフォーマットで指定してください。';
+$string['proxyauthcredntialsset'] = 'プロクシ認証証明書セット';
+$string['proxyauthmodel'] = 'プロクシ認証モデル';
+$string['proxyauthmodelbasic'] = 'Basic (NCSA)';
+$string['proxyauthmodeldescription'] = '必要な場合、あなたのプロクシ認証モデルを選択してください。';
+$string['proxyauthmodelset'] = 'プロクシ認証モデルが設定されました。';
+$string['proxysettings'] = 'プロクシ設定';
+$string['public'] = 'パブリック';
+$string['publickey'] = '公開鍵';
+$string['publickeydescription2'] = 'この公開鍵は自動的に生成され %s 日ごとにローテートされます。';
+$string['publickeyexpires'] = '公開鍵の有効期限';
+$string['quotaused'] = 'クオータ使用量';
+$string['recaptchakeysmissing1'] = 'reCAPTCHAは有効にされましたが、あなたがサイト鍵および秘密鍵を提供するまで機能しません。';
+$string['recaptchanotpassed'] = 'reCAPTCHAが正しく入力されていません。再度お試しください。';
+$string['recaptchaonregisterform'] = 'ユーザ登録フォームのreCAPTCHA';
+$string['recaptchaonregisterformdesc1'] = '自己登録の新しいユーザは<a href="http://recaptcha.org/">reCAPTCHA</a>テストに合格することより、自分が人間であることを証明する必要があります。';
+$string['recaptchaprivatekey1'] = 'reCAPTCHA秘密鍵';
+$string['recaptchaprivatekeydesc1'] = 'あなたのサイトのreCAPTCHAアカウントの秘密鍵です。';
+$string['recaptchapublickey1'] = 'reCAPTCHAサイト鍵';
+$string['recaptchapublickeydesc1'] = 'あなたのサイトのreCAPTCHAアカウントのサイト鍵です。';
+$string['regenerateurls'] = 'URLを再生成する';
+$string['regenerateurlsconfirm'] = '本当にこの処理を実行してもよろしいですか? ユーザによって選択された既存のURLすべてが置換されます。';
+$string['regenerateurlsdescription'] = 'サイトからクリーンURLすべてを削除した後、ユーザ名、グループ名およびページタイトルを使用して自動的に再生成します。';
+$string['registerterms'] = '登録同意';
+$string['registertermsdescription'] = 'ユーザ登録の前、ユーザにプライバシー保護方針および利用条件への同意を強制します。このオプションを有効にする前、あなたのサイトおよびインスティテューションの法律ページを編集する必要があります。';
+$string['registerthismaharasite'] = 'このMaharaサイトを登録する';
+$string['registeryourmaharasite'] = 'あなたのMaharaサイトを登録する';
+$string['registeryourmaharasitedetail'] = '
+<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録できます。登録することにより私たちは世界のMaharaインストール状況を作成できます。</p>
+<p>あなたはmahara.orgに送信された情報を閲覧できます - あなたのユーザに関する個人情報は一切送信されません。</p>
+<p>あなたが「更新を週に1回送信しますか?」設定を有効にした場合、Maharaは週に1回、あなたのインストール済みMaharaに関する更新情報をmahara.orgに自動送信します。</p>
+<p>登録することによりこの通知が取り除かれます。あなたは更新内容を週に1回送信するかどうか、<a href="%sadmin/site/options.php">サイトオプション</a>ページで変更できます。</p>';
+$string['registeryourmaharasitesummary'] = '
+<p>あなたのMaharaサイトを<a href="https://mahara.org/">mahara.org</a>に登録できます。登録することにより私たちは世界のMaharaインストール状況を作成できます。登録することによりこの通知が取り除かれます。</p>
+<p>あなたがサイトを登録する場合、送信される情報を<strong><a href="%sadmin/registersite.php">サイト登録ページ</a></strong>でプレビューできます。</p>';
+$string['registrationallowed'] = '登録を許可する';
+$string['registrationalloweddescription5'] = '登録フォームを使用してこのインスティテューションに登録できます。登録が無効にされた場合、非メンバーはインスティテューションのメンバーシップをリクエストすることはできません。また、メンバーはインスティテューションを離れたり自分のユーザアカウントを削除することはできません。';
+$string['registrationapprovedsuccessfully'] = '登録が正常に承認されました。';
+$string['registrationcancelled'] = 'あなたはいつでも<a href="%sadmin/registersite.php">サイト登録ページ</a>にアクセスして登録できます。';
+$string['registrationconfirm'] = '登録を承認する';
+$string['registrationconfirmdescription3'] = '登録はインスティテューション管理者によって承認される必要があります。あなたがこのオプションを変更できない場合、サイト管理者がすべてのインスティテューションに対してこのオプションを有効にすることを求めています。';
+$string['registrationdeniedreason'] = '拒否理由';
+$string['registrationdeniedreasondesc'] = '申請拒否理由に関するユーザ向けの情報です。';
+$string['registrationdeniedsuccessful'] = '登録が正常に拒否されました';
+$string['registrationdeniedunsuccessful'] = '登録拒否に失敗しました。';
+$string['registrationfailedtrylater'] = 'エラーコード %s により、登録が失敗しました。後ほど再度お試しください。';
+$string['registrationreason'] = '登録理由';
+$string['registrationsuccessfulthanksforregistering'] = '正常に登録されました - ご登録ありがとうございます。';
+$string['reinstall'] = '再インストール';
+$string['release'] = 'バージョン %s (%s)';
+$string['remoteavatars'] = 'リモートアバタを表示する';
+$string['remoteavatarsdescription1'] = 'ユーザのデフォルトプロファイル画像に<a href="http://www.gravatar.com">Gravatar</a>サービスを利用します。';
+$string['remoteuser'] = 'リモートユーザ名';
+$string['remoteusername'] = '外部認証のユーザ名';
+$string['remoteusernamedescription1'] = '外部認証プラグインを使用してユーザがリモートサイトから %s にログインした場合、これはリモートサイトのユーザを識別するユーザ名となります。';
+$string['removeuserfrominstitution'] = 'このインスティテューションからユーザを削除する';
+$string['removeusers'] = 'ユーザを削除する';
+$string['removeusersfrominstitution'] = 'インスティテューションからユーザを削除する';
+$string['reopensite'] = 'サイトを再オープンする';
+$string['reopensitedetail'] = 'あなたのサイトはクローズされています。アップグレードが検出されるまでサイト管理者はログインできます。';
+$string['requestto'] = 'リクエスト先';
+$string['requireregistrationconfirm'] = '登録を承認する';
+$string['requireregistrationconfirmdescription1'] = 'すべてのインスティテューションに新しい自己登録アカウントの承認を強制します。';
+$string['resetcolours'] = '色をリセットする';
+$string['resetcoloursdesc2'] = 'デフォルト色をリストアします。';
+$string['resetpassword'] = 'パスワードをリセットする';
+$string['resetpassworddescription'] = 'ここにテキストを入力した場合、ユーザの現在のパスワードと入れ替えられます。';
+$string['resultsof'] = '検索結果';
+$string['revokeinvitations'] = '招待を取り消す';
+$string['runningnormally'] = '正常動作';
+$string['runupgrade'] = 'アップグレードを実行する';
+$string['savechanges'] = '変更を保存する';
+$string['savefailed'] = '保存に失敗しました。';
+$string['savingmenuitem'] = 'アイテムの保存中';
+$string['searchconfigerror1'] = '検索プラグイン「 %s 」の設定が正しくありません。「拡張機能」 → 「プラグインタイプ: search」の設定を確認してください。確認後、あなたはsearchの「リセット」ボタンをクリックする必要があります。';
+$string['searchplugin'] = '検索プラグイン';
+$string['searchplugindescription'] = '使用する検索プラグイン';
+$string['searchsettingslegend'] = '検索設定';
+$string['searchuserspublic'] = 'パブリック検索にユーザを表示する';
+$string['searchuserspublicdescription'] = 'パブリック検索結果にユーザの氏名の表示を許可します。これには「publicsearchallowed」を「true」に設定してパブリック検索を許可する検索プラグイン (例 Elasticsearch) を使用する必要があります。この設定を変更するには検索インデックスの再構築が必要です。';
+$string['securitysettingslegend'] = 'セキュリティ設定';
+$string['selectednusers'] = array(
+    0 => '1 ユーザが選択されました。',
+);
+$string['selectedusers'] = '選択済みユーザ';
+$string['selectuser'] = 'ユーザ「 %s 」を選択する';
+$string['selectuserexport'] = 'エクスポートするコンテンツ「 %s 」を選択する';
+$string['selectuserexportdelete'] = 'エクスポートキューから削除するコンテンツ「 %s 」を選択する';
+$string['sendweeklyupdates'] = '更新を週に1回送信しますか?';
+$string['sendweeklyupdatesdescription2'] = 'あなたのサイト統計に関する週ごとの更新をmahara.orgに送信します。';
+$string['sessionlifetime'] = 'セッションライフタイム';
+$string['sessionlifetimedescription'] = '活動していないログインユーザが自動的にログアウトされる時間 (分) です。';
+$string['setsiteoptionsfailed'] = '%s オプションの設定に失敗しました。';
+$string['settings'] = '設定';
+$string['settingsfor'] = '設定:';
+$string['showonlineusers'] = 'オンラインユーザを表示する';
+$string['showonlineusersdescription'] = 'このインスティテューションのメンバーに表示されるオンラインユーザです。ユーザに複数インスティテューションが許可されている場合、そしてインスティテューションの設定が異なる場合、最も制約の少ないインスティテューションの設定が使用されます。';
+$string['showonlineuserssideblock'] = 'オンラインユーザを表示する';
+$string['showonlineuserssideblockdescriptionmessage1'] = 'ユーザにオンラインユーザ一覧のサイドバーが表示されます。';
+$string['showprogressbar'] = 'プロファイル完了を表示する';
+$string['showprogressbardescription1'] = 'ユーザプロファイルで完了する必要のある内容に関してサイドバーとしてユーザにヒント付のプログレスバーを表示します。これには無効にするオプションがあります。';
+$string['showselfsearchsideblock1'] = 'ポートフォリオ検索';
+$string['showselfsearchsideblockdescription1'] = 'サイト内のいくつかの場所に「私のポートフォリオを検索する」サイドバーが表示されます。';
+$string['showtagssideblock1'] = 'タグクラウド';
+$string['showtagssideblockdescription2'] = 'サイト内のいくつかの場所に最も使用されたタグ一覧のサイドバーが表示されます。';
+$string['showupdatedetails'] = '更新詳細を表示する';
+$string['simple'] = 'シンプル';
+$string['site'] = 'サイト';
+$string['siteaccountsettings'] = 'サイトアカウント設定';
+$string['siteadmin'] = 'サイト管理者';
+$string['siteadmins'] = 'サイト管理者';
+$string['sitecountrydescription'] = 'サイトのデフォルトの国です。';
+$string['sitedefault'] = 'サイトデフォルト';
+$string['sitefile'] = 'サイトファイル';
+$string['sitefiles'] = 'サイトファイル';
+$string['sitefilesaccess'] = 'サイトファイルにアクセスする';
+$string['sitefilesaccessdescription1'] = '登録ユーザがサブフォルダ内のサイトファイルにアクセスできるようにします。デフォルトではトップレベルのディレクトリ内のファイルにのみアクセスできます。';
+$string['sitefilesdescription'] = '「リンクおよびリソースメニュー」およびサイトページに置くことのできるファイルをアップロードおよび管理します。';
+$string['sitefonts'] = 'フォント';
+$string['sitefontsdescription'] = 'サイト内のユーザすべてがスキンで使用できるフォントをアップロードおよび管理します。';
+$string['siteinformation'] = 'サイト情報';
+$string['sitelanguagedescription'] = 'サイトのデフォルトの言語です。';
+$string['sitelicenses'] = 'ライセンス';
+$string['sitelicensesadd'] = 'ライセンスを追加する';
+$string['sitelicensesdescription'] = 'ユーザがコンテンツに使用できるライセンスのリストを設定します。';
+$string['sitelicensesdisablednote'] = '<b>注意</b>: 現在、ライセンスメタデータは無効にされています。ユーザがライセンスを指定できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「一般設定」セクションでライセンスメタデータを有効にする必要があります。';
+$string['sitelicensesedit'] = 'ライセンスを編集する';
+$string['sitename'] = 'サイト名';
+$string['sitenamedescription'] = 'サイト名はサイトの特定の場所およびサイトから送信されるメールに表示されます。';
+$string['siteoptions'] = 'サイトオプション';
+$string['siteoptionsdescription'] = '名称、言語およびテーマ等、基本的なサイトオプションを設定します。';
+$string['siteoptionspagedescription'] = 'ここであなたははサイト全体にデフォルトとして適用されるグローバルオプションを設定できます。<br />メモ: 無効にされたオプションはあなたのconfig.phpファイルでオーバーライドできます。';
+$string['siteoptionsset'] = 'サイトオプションが更新されました。';
+$string['sitepageloaded'] = 'サイトページが読み込まれました。';
+$string['siteregistered'] = 'あなたのサイトが正常に登録されました。あなたは<a href="%sadmin/site/options.php">サイトオプション</a>ページで</p>サイト更新内容の週ごとの送信を有効または無効にできます。';
+$string['sitesettingslegend'] = 'サイト設定';
+$string['siteskins'] = 'サイトスキン';
+$string['siteskinsdescription'] = 'サイト内のユーザすべてが使用できるページスキンを作成および管理します。';
+$string['sitestaff'] = 'サイトスタッフ';
+$string['sitethemedescription'] = 'サイトのデフォルトテーマです。あなたのテーマがリストにない場合、エラーログを確認してください。';
+$string['siteviews'] = 'サイトページ';
+$string['siteviewscollections'] = 'サイトページおよびコレクション';
+$string['siteviewsdescription'] = 'サイト全体のページおよびページテンプレートを作成および管理します。';
+$string['skins'] = 'ページスキン';
+$string['skinsinstitutiondescription2'] = 'このインスティテューションのメンバーは自分のページに「スキン」を使用できます。';
+$string['smallviewheaders'] = 'スモールページヘッダ';
+$string['smallviewheadersdescription1'] = 'ポートフォリオページの閲覧および編集時にスモールヘッダおよびサイトナビゲーションを表示します。';
+$string['someusersnotinauthinstanceinstitution'] = 'あなたが選択した何名かのユーザはこの認証方法を使用するインスティテューションに属していません。';
+$string['spamhaus1'] = 'Spamhaus URLブラックリスト';
+$string['spamhausdescription1'] = 'Spamhaus DNSBLを照合してURLをチェックします。';
+$string['staffaccessreports'] = 'スタッフによるレポートアクセス';
+$string['staffaccessreportsdescription1'] = 'サイトおよびインスティテューションスタッフがインスティテューションの「ユーザ詳細」「ポートフォリオアクセス」および「マスカレーディングセッション」レポートにアクセスできるようにします。通常、このレポートは管理者に制限されます。';
+$string['staffusers'] = 'スタッフユーザ';
+$string['staffusersdescription'] = 'ユーザにスタッフパーミッションを割り当てます。';
+$string['staffuserspagedescription1'] = 'ここであなたはどのユーザをサイトのスタッフにするか選択できます。現在のスタッフは「現在のスタッフ」フィールドに潜在的なスタッフは「潜在的なスタッフ」フィールドに一覧表示されます。';
+$string['staffusersupdated'] = 'スタッフユーザが更新されました。';
+$string['staticpageinstitutionbad'] = 'あなたはインスティテューション「 %s 」の固定ページにアクセスまたは編集することはできません。';
+$string['staticpages'] = '固定ページ';
+$string['staticpagesdescription'] = 'Mahara内の固定ページのコンテンツを編集します (ホーム、利用条件等)。';
+$string['staticpagespagedescription'] = 'ここであなたはログインユーザのダッシュボード、ログアウトユーザのホームページ、フッタのページリンク等、Mahara内蔵ページのコンテンツを編集できます。';
+$string['statsmaxfriends1'] = array(
+    0 => 'フレンド数: %2$s<br>(<a href="%3$s">%4$s には最大 %1$d 名のフレンドがいます</a>)',
+);
+$string['statsmaxgroups1'] = array(
+    0 => '所属グループ数: %2$s<br>(<a href="%3$s">%4$s は最大 %1$d のグループに属しています</a>)',
+);
+$string['statsmaxquotaused1'] = 'ディスククオータ使用: %s<br />(<a href="%s">%s は最大 %s のディスククオータを使用しました</a>)';
+$string['statsmaxviews1'] = array(
+    0 => '作成ページ数: %2$s<br>(<a href="%3$s">%4$s は最大 %1$d ページを所有しています</a>)',
+);
+$string['statsnofriends'] = 'フレンド数: 0';
+$string['statsnogroups'] = '所属グループ数: 0';
+$string['statsnoquota'] = 'ストレージ未使用';
+$string['statsnoviews'] = '作成ページ数: 0';
+$string['studentid'] = 'IDナンバー';
+$string['submittedto'] = '提出先';
+$string['successfullyinstalled'] = 'Maharaが正常にインストールされました!';
+$string['surbl1'] = 'SURBL URLブラックリスト';
+$string['surbldescription1'] = 'SURBL DNSBLを照合してURLをチェックします。';
+$string['suspended'] = '利用停止中';
+$string['suspendedinfo'] = 'このユーザは %s によって %s に利用停止されました。';
+$string['suspendedinstitution'] = '利用停止';
+$string['suspendedinstitutionmessage'] = 'このインスティテューションは利用停止されています。';
+$string['suspendedreason'] = '利用停止の理由';
+$string['suspendedreasondescription'] = '次回ログイン時、ユーザに表示されるテキストです。';
+$string['suspendedusers'] = '利用停止ユーザ';
+$string['suspendedusersdescription'] = 'サイト利用に関してユーザを利用停止または停止解除します。';
+$string['suspendeduserstitle'] = '利用停止および有効期限切れユーザ';
+$string['suspendingadmin'] = '利用停止を実施した管理者';
+$string['suspendinstitution'] = 'インスティテューションを利用停止する';
+$string['suspendinstitutiondescription'] = 'ここであなたはインスティテューションを利用停止できます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまでログインすることはできません。';
+$string['suspendordeletethisuser'] = 'このユーザを利用停止または削除する';
+$string['suspenduser'] = 'ユーザを利用停止する';
+$string['suspenduserdescription'] = 'アカウントの利用停止が解除されるまで利用停止ユーザはログインできません。';
+$string['suspendusers'] = 'ユーザを利用停止する';
+$string['suspensionreason'] = '利用停止理由';
+$string['tagssideblockmaxtags'] = 'クラウド内の最大タグ数';
+$string['tagssideblockmaxtagsdescription'] = 'ユーザタグクラウド内に表示されるタグのデフォルト数です。';
+$string['termsandconditions'] = '利用条件';
+$string['thefollowingpluginsareready'] = '次の新しいプラグインを利用できます:';
+$string['thefollowingupgradesareready'] = '下記アップグレードの準備ができました:';
+$string['thememissing'] = 'テーマ「 %s 」がありません。テーマはデフォルトテーマに設定されました。';
+$string['thisuserdeleted'] = 'このユーザは削除されました。';
+$string['thisuserissuspended'] = 'このユーザは利用停止されました。';
+$string['toversion'] = 'アップグレード後';
+$string['trustedsites'] = '信頼できるサイト';
+$string['type'] = 'タイプ';
+$string['unabletodeletealladmins1'] = 'あなたはサイト管理者すべてを削除することはできません。';
+$string['unabletodeleteself1'] = 'あなた自身を削除することはできません。';
+$string['unabletoreadbulkimportdir'] = 'ディレクトリ %s を読むことができません。';
+$string['unabletoreadcsvfile'] = 'CSVファイル %s を読むことができません。';
+$string['uneditableusers'] = array(
+    0 => 'あなたは編集できない %s ユーザを選択しました選択されたユーザはリストから取り除かれました。',
+);
+$string['unexpiredesc'] = 'このアカウントを再度有効化するには下の「アカウント有効期限」フィールドのチェックを外してあなたの変更を保存してください。';
+$string['unexpireusers'] = '有効期限切れユーザを復活させる';
+$string['unsuspendinstitution'] = 'インスティテューションの利用停止を解除する';
+$string['unsuspendinstitutiondescription'] = 'ここであなたはインスティテューションの利用停止を解除できます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまでログインすることはできません。<br /><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止されることになります。';
+$string['unsuspendinstitutiondescription_top'] = '<strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止されることになります。';
+$string['unsuspendinstitutiondescription_top_instadmin'] = '利用停止されたインスティテューションのユーザはログインできません。インスティテューションの利用停止を解除するには管理者にご連絡ください。';
+$string['unsuspenduser'] = 'ユーザの利用停止を解除する';
+$string['unsuspendusers'] = 'ユーザの利用停止を解除する';
+$string['unzipfailed'] = 'Leap2Aファイル %s の展開に失敗しました。詳細情報はエラーログをご覧ください。';
+$string['updategroups'] = 'グループを更新する';
+$string['updategroupsdescription2'] = 'CSVファイル内のグループ省略名に合致するグループ詳細がCSVファイル内の情報で上書きされます。注意して使用してください。';
+$string['updateinstitutionuserquotasdesc2'] = 'あなたが上で選択したデフォルトクオータが既存のメンバーすべてに適用されます。';
+$string['updatesiteoptions'] = 'サイトオプションを更新する';
+$string['updateusers'] = 'ユーザを更新する';
+$string['updateusersdescription'] = 'あなたのCSVファイルに指定したインスティテューションのメンバーのユーザ名が含まれている場合、ファイルのデータによりユーザ詳細が上書きされることになります。注意して使用してください。';
+$string['upgradefailure'] = 'アップグレードに失敗しました。';
+$string['upgradeinprogress'] = '%s に開始されたアップグレードは完了していません。<a href="?rerun=1">このアップグレードを実行します</a>。';
+$string['upgradeloading'] = '読み込み中 ...';
+$string['upgrades'] = 'アップグレード';
+$string['upgradesuccess'] = 'アップグレードが正常に完了しました。';
+$string['upgradesuccesstoversion'] = '次のバージョンへ正常にアップグレードしました: ';
+$string['upgradingplugin'] = '%s のアップグレード';
+$string['uploadcopyright'] = 'アップロード著作権宣言文';
+$string['uploadcsv'] = 'CSVでユーザを追加する';
+$string['uploadcsvdescription'] = '新しいユーザを含んだCSVファイルをアップロードします。';
+$string['uploadcsverrorduplicateremoteuser'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでに他のユーザにより取得されています。';
+$string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」はすでに他のユーザにより取得されています。';
 $string['uploadcsverrorincorrectnumberoffields'] = 'あなたのファイルの %s 行目にエラーがあります: この行には正しい数のフィールドが含まれていません。';
-$string['uploadcsverrorinvalidpassword1'] = 'あなたのファイルの %s 行目にエラーがあります: %s';
-$string['uploadcsverrorinvalidusername'] = 'あなたのファイルの %s 行目にエラーがあります: この人のユーザ名は正しいフォーマットではありません。';
-$string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には必須の「 %s 」フィールドが含まれていません。';
-$string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」はすでに存在します。';
-$string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」はすでに他の人に取得されています。';
-$string['uploadcsverrorduplicateremoteuser'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでに他の人に取得されています。';
-$string['uploadcsverrorremoteusertaken'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでに「 %s 」に取得されています。';
-$string['uploadcsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーがあります: 「 %s 」はインスティテューション「 %s 」のメンバではありません。';
-$string['uploadcsverroruserinaninstitution'] = 'あなたのファイルの %s 行目にエラーがあります: 「 %s 」は次のインスティテューションのメンバです: %s あなたはこの人の認証方法を「No Institution」に変更できません。';
-$string['uploadcsverrorinvalidexpirydate'] = 'あなたのファイルの %s 行目にエラーがあります: 有効期限「 %s 」が有効ではありません。有効な日付フォーマットを使用してください。';
-$string['uploadcsverroruserrolemissing'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザロール「 %s 」のクラスがありません。「UserRole%s」クラスが存在してアクセス可能であることを確認してください。';
-$string['uploadcsverrorexpirydateinpast'] = 'あなたのファイルの %s 行目にエラーがあります: 有効期限「 %s 」を過去にはできません。';
-$string['uploadcsvpagedescription8'] = '<p>あなたは<acronym title="Comma Separated Values">CSV</acronym>ファイルのアップロードで新しいアカウントを作成または既存のアカウントを更新できます。</p>
-=======
 $string['uploadcsverrorinvalidemail'] = 'あなたのファイルの %s 行目にエラーがあります: このユーザのメールアドレスは正しい形式ではありません。';
-$string['uploadcsverrorincorrectnumberoffields'] = 'あなたのファイルの %s 行目にエラーがあります: この行には正しい数のフィールドが含まれていません。';
-$string['uploadcsverrorinvalidpassword'] = 'あなたのファイルの %s 行目にエラーがあります: パスワードは少なくとも半角英数字6文字にしてください。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。<br>
-セキュリティ上の理由からパスフレーズの使用をお考えください。パスフレーズには1つの単語ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。';
+$string['uploadcsverrorinvalidfieldname'] = 'フィールド名「 %s 」が無効、またはヘッダ行より多いフィールドが指定されています。';
+$string['uploadcsverrorinvalidpassword'] = 'あなたのファイルの %s 行目にエラーがあります: パスワードは少なくとも半角英数字6文字にしてください。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。<br />
+セキュリティ上の理由からパスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。';
 $string['uploadcsverrorinvalidusername'] = 'あなたのファイルの %s 行目にエラーがあります: このユーザのユーザ名は正しい形式ではありません。';
 $string['uploadcsverrormandatoryfieldnotspecified'] = 'このファイルの %s 行目には必須の「 %s 」フィールドが含まれていません。';
+$string['uploadcsverrornorecords'] = 'ファイルにレコードが含まれていないようです (ヘッダに問題はありません)。';
+$string['uploadcsverrorremoteusertaken'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでにユーザ「 %s 」により取得されています。';
+$string['uploadcsverrorrequiredfieldnotspecified'] = '必須入力フィールド「 %s 」がフォーマット行で指定されていません。';
+$string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれる行が多すぎます。あなたは %s 以上含むことができません。';
+$string['uploadcsverrorunspecifiedproblem1'] = '何らかの理由により、あなたのCSVファイルのレコードを追加できませんでした。あなたのファイルが正しいフォーマットの場合、これはバグだと思われます。CSVファイルを添付した<a href="https://bugs.launchpad.net/mahara/+filebug">バクレポートを作成してください</a> (パスワードは空白にしてください!)。また、可能でしたら、エラーログファイルも添付してください。';
 $string['uploadcsverroruseralreadyexists'] = 'このファイルの %s 行目で指定されているユーザ名「 %s 」はすでに存在します。';
-$string['uploadcsverroremailaddresstaken'] = 'このファイルの %s 行目で指定されているメールアドレス「 %s 」はすでに他のユーザに取得されています。';
-$string['uploadcsverrorduplicateremoteuser'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでに他のユーザに取得されています。';
-$string['uploadcsverrorremoteusertaken'] = 'このファイルの %s 行目で指定されているリモートユーザ名「 %s 」はすでにユーザ「 %s 」に取得されています。';
-$string['uploadcsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ「 %s 」はインスティテューション「 %s 」のメンバではありません。';
-$string['uploadcsverroruserinaninstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ「 %s 」は次のインスティテューションのメンバです: %s あなたはこのユーザの認証方法を「No Institution」に変更できません。';
+$string['uploadcsverroruserinaninstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ「 %s 」は次のインスティテューションのメンバーです: %s あなたはこのユーザの認証方法を「No Institution」に変更することはできません。';
+$string['uploadcsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ「 %s 」はインスティテューション「 %s 」のメンバーではありません。';
+$string['uploadcsverrorwrongnumberoffields'] = 'あなたのファイルの %s 行目にエラーがあります: フィールド数が正しくありません。';
+$string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるためユーザは追加されませんでした。許可されたインスティテューションの最大ユーザ数を超過しました。';
+$string['uploadcsvinstitution'] = '新しいユーザのインスティテューションおよび認証方法';
 $string['uploadcsvpagedescription6'] = '<p>ここであなたは<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいユーザをアップロードできます。</p>
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 
 <p>あなたのCSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば以下のようになります:</p>
 
 <pre>username,password,email,firstname,lastname,studentid</pre>
 
-<<<<<<< HEAD
-<p>あなたが新しいアカウントを作成する場合、この行には以下のフィールドを含む必要があります:</p>
-=======
 <p>あなたが新しいユーザを作成する場合、この行には以下のフィールドを含む必要があります:</p>
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 <ul class="fieldslist">
 <li>username</li>
 <li>firstname</li>
@@ -1093,36 +1049,26 @@ $string['uploadcsvpagedescription6'] = '<p>ここであなたは<acronym title="
 <li>password</li>
 </ul>
 
-<<<<<<< HEAD
-<p>あなたが外部認証方式を使用するアカウントを設定した場合でも「password」フィールドは必要です。その場合、パスワード変更を強制しないよう注意してください。既存のアカウントを更新する場合、「password」フィールドは省略できます。</p>
-=======
 <p>既存のユーザを更新する場合、あなたは「password」を除外できます。</p>
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
 
-<p>あなたのCSVファイルには初期値を事前設定するための他のプロファイルフィールドを使用できます。任意フィールドは以下のとおりです:</p>
+<p>あなたのCSVファイルには初期値を事前設定するための他のプロファイルフィールドを含むことができます。任意フィールドは以下のとおりです:</p>
 
 %s';
-$string['uploadcsverrortoomanyusers'] = 'あなたのCSVファイルに含まれる行が多すぎます。あなたのファイルに %s 以上含めません。';
-<<<<<<< HEAD
-$string['uploadcsverrordatamustbenumeric'] = '%s 行目: カテゴリ (category) の値は数字にしてください。';
-=======
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['uploadgroupcsverrordisplaynamealreadyexists'] = 'あなたのファイルの %s 行目にエラーがあります: 表示名 (displayname ) 「 %s 」 はすでに存在します。';
-$string['uploadgroupcsverrorinvalidshortname'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname) 「 %s 」が有効ではありません。';
-$string['uploadgroupcsverrorshortnamemissing'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname) 「 %s 」のグループは存在しません。';
-$string['uploadgroupcsverrorinvalidgrouptype'] = 'あなたのファイルの %s 行目にエラーがあります: グループタイプ (grouptype) 「 %s 」が有効ではありません。';
-$string['uploadgroupcsverrorinvalideditroles'] = 'あなたのファイルの %s 行目にエラーがあります: 編集ロール (editroles) 「 %s 」が有効ではありません。';
-$string['uploadgroupcsverrorshortnamealreadytaken1'] = 'あなたのファイルの %s 行目にエラーがあります: 省略名「 %s 」 (shortname) はすでに取得されています。有効な代替は「 %s 」です。';
+$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを送信するよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動で連絡してください:';
+$string['uploadgroupcsv'] = 'CSVでグループを追加する';
+$string['uploadgroupcsvdescription'] = '新しいグループを含むCSVファイルをアップロードします。';
+$string['uploadgroupcsveditrolesdescription'] = '<p>editrolesフィールドには次のいずれかを含むことができます: %s</p>
+%s';
+$string['uploadgroupcsverrordisplaynamealreadyexists'] = 'あなたのファイルの %s行目に誤りがあります: 表示名「 %s 」はすでに存在します。';
+$string['uploadgroupcsverrorinvalideditroles'] = 'あなたのファイルの %s 行目に誤りがあります: 編集ロール (editroles) 「 %s 」が有効ではありません。';
+$string['uploadgroupcsverrorinvalidgrouptype'] = 'あなたのファイルの %s 行目に誤りがあります: グループタイプ (grouptype) 「 %s 」が有効ではありません。';
+$string['uploadgroupcsverrorinvalidshortname'] = 'あなたのファイルの %s 行目に誤りがあります: グループ省略名 (shortname) 「 %s 」が有効ではありません。';
+$string['uploadgroupcsverroropencontrolled'] = '%s 行目: グループにはオープンおよび管理メンバーシップの両方を設定することはできません。';
+$string['uploadgroupcsverroropenrequest'] = '%s 行目: オープンメンバーシップのグループにメンバーシップのリクエストを許可することはできません。';
+$string['uploadgroupcsverrorshortnamealreadytaken1'] = 'あなたのファイルの %s 行目に誤りがあります: 省略名「 %s 」はすでに取得されています。有効な代替は「 %s 」です。';
+$string['uploadgroupcsverrorshortnamemissing'] = 'あなたのファイルの %s 行目に誤りがあります: 省略名「 %s 」のグループは存在しません。';
 $string['uploadgroupcsverrorusernamesnotlastfield'] = '「usernames」フィールドはヘッダの最終フィールドにしてください。';
-$string['uploadgroupcsverroropencontrolled'] = '%s 行目: グループにはオープンおよび管理メンバシップを同時に設定できません。';
-$string['uploadgroupcsverroropenrequest'] = '%s 行目: オープンメンバシップのグループではメンバシップをリクエストできません。';
-<<<<<<< HEAD
-$string['uploadgroupcsverrorviewnotifyrequest'] = '%s 行目: viewnotifyの値は %s-%s の間の数字にしてください。';
-$string['uploadgroupcsverrordoesnotallowgroupcategory1'] = '%s 行目: このサイトではグループカテゴリを許可していません。あなたがグループカテゴリを使用したい場合、サイト管理者は「管理エリア → グループ → グループカテゴリ」で有効にできます。';
-$string['uploadgroupcsverrorcategorydoesnotexist'] = '%s 行目: カテゴリ「 %s 」が存在しません。';
-=======
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能により<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいグループをアップロードできます。</p>
+$string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用して新しいグループをアップロードできます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば以下のようになります:</p>
 
@@ -1130,1342 +1076,106 @@ $string['uploadgroupcsvpagedescription2'] = '<p>あなたはこの機能によ�
 
 <p>この先頭行には<tt>shortname</tt>、<tt>displayname</tt>および<tt>roles</tt>フィールドを含んでください。</p>
 
-<p>rolesフィールドには以下の設定値を使用できます: %s</p>
+<p>rolesフィールドには以下の設定値を含むことができます: %s</p>
 
 %s
 
-<p>必要に応じてあなたのCSVファイルには他のフィールドを使用できます。フィールドの完全なリストは以下のとおりです:</p>
+<p>必要に応じてあなたのCSVファイルには他のフィールドを含むことができます。フィールドの完全なリストは以下のとおりです:</p>
 
 %s';
-$string['uploadgroupcsveditrolesdescription'] = '<p>editrolesフィールドには次のいずれかを使用できます: %s</p>
-%s';
-$string['uploadgroupmemberscsverrorduplicateusername'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname) 「 %s 」およびユーザ名 (username) 「 %s 」はすでにこのファイルで指定されています。';
-$string['uploadgroupmemberscsverrorinvalidrole'] = 'あなたのファイルの %s 行目にエラーがあります: 指定されたグループにロール「 %s 」は有効ではありません。';
-<<<<<<< HEAD
-$string['uploadgroupmemberscsverrornoadminlisted'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname) 「 %s 」にはロール「admin」を指定されたグループメンバはいませんでした。';
-=======
-$string['uploadgroupmemberscsverrornoadminlisted'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname) 「 %s 」にはロール「admin」を指定されたユーザがありません。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['uploadgroupmemberscsverrornosuchshortname'] = 'あなたのファイルの %s 行目にエラーがあります: グループ省略名 (shortname) 「 %s 」が存在しないかインスティテューション「 %s 」に属していません。';
-$string['uploadgroupmemberscsverrornosuchusername'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ名 (username) 「 %s 」は存在しません。';
-$string['uploadgroupmemberscsverrorusernotininstitution'] = 'あなたのファイルの %s 行目にエラーがあります: ユーザ名 (username) 「 %s 」はインスティテューション「 %s 」に属していません。';
-$string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能を使用してこのインスティテューションで管理されるグループ内のグループメンバを更新できます。あなたは<acronym title="Comma Separated Values">CSV</acronym>ファイルで新しいメンバをアップロードできます。</p>
+$string['uploadgroupmemberscsv'] = 'CSVでグループメンバーを更新する';
+$string['uploadgroupmemberscsvdescription'] = 'グループメンバーを含むCSVファイルをアップロードします。';
+$string['uploadgroupmemberscsverrorduplicateusername'] = 'あなたのファイルの %s 行目に誤りがあります: グループ省略名 (shortname)「 %s 」およびユーザ名 (username)「 %s 」はすでにこのファイルで指定されています。';
+$string['uploadgroupmemberscsverrorinvalidrole'] = 'あなたのファイルの %s 行目に誤りがあります: 指定されたグループに対してロール「 %s 」は有効ではありません。';
+$string['uploadgroupmemberscsverrornoadminlisted'] = 'あなたのファイルの %s 行目に誤りがあります: グループ省略名 (shortname)「 %s 」にはロール「admin」を指定されたユーザがありません。';
+$string['uploadgroupmemberscsverrornosuchshortname'] = 'あなたのファイルの %s 行目に誤りがあります グループ省略名 (shortname)「 %s 」が存在しないかインスティテューション「 %s 」に属していません。';
+$string['uploadgroupmemberscsverrornosuchusername'] = 'あなたのファイルの %s 行目に誤りがあります: ユーザ名 (username)「 %s 」は存在しません。';
+$string['uploadgroupmemberscsverrorusernotininstitution'] = 'あなたのファイルの %s 行目に誤りがあります: ユーザ名 (username)「 %s 」はインスティテューション「 %s 」に属していません。';
+$string['uploadgroupmemberscsvpagedescription3'] = '<p>あなたはこの機能により、<acronym title="Comma Separated Values">CSV</acronym>ファイルを使用してこのインスティテューションで管理されるグループのグループメンバーを更新できます。</p>
 
 <p>CSVファイルの先頭行にはCSVデータのフォーマットを記述してください。例えば以下のようになります:</p>
 
 <pre>shortname,username,role</pre>
 
-<p>この行には上のフィールドすべてを含む必要がありますが、順序は自由に記述してください。</p>
+<p>この行は上記のフィールドすべてを含む必要がありますが、順序は自由に記述してください。</p>
 
-<p>shortnameフィールドはあなたが<a href="%s" title="%s">ここ</a>でグループを作成した時に使用した省略名と同じにする必要があります。</p>
+<p>shortnameフィールドはあなたが<a href="%s" title="%s">ここ</a>でグループを作成した時に使用した名称と同じにする必要があります。</p>
 
 <p>roleフィールドにはグループタイプに応じて次の設定値を使用できます: <tt>admin</tt>、<tt>member</tt>または<tt>tutor</tt></p>
 
-<div class="warning">CSVファイルアップロードにより毎回グループ管理者を含む既存のすべてのグループメンバが完全に削除されます。あなたのCSVファイル内に少なくとも1名の管理者が存在することを確認してください。</div>';
-<<<<<<< HEAD
-$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部の人にメール送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを適切に送信できるよう設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらの人には手動で連絡してください:';
-$string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内の人が多過ぎるため誰も追加されませんでした。許可されたインスティテューションの最大数をメンバ数が超過しました。';
-$string['updateusers'] = 'アカウントを更新する';
-$string['updateusersdescription1'] = 'あなたのCSVファイルに既存のユーザ名の人が含まれる場合、その人の詳細がCSVファイルのデータで上書きされることになります。あなたが上で選択した別のインスティテューションにアカウントを移動したい場合、このオプションを選択する必要があります。';
-$string['updategroups'] = 'グループを更新する';
-$string['updategroupsdescription2'] = 'CSVファイル内のグループ省略名に合致するグループ詳細がCSVファイル内の情報で上書きされます。注意して使用してください。';
-$string['csvfileprocessedsuccessfully'] = 'あなたのCSVファイルが正常に処理されました。';
-$string['nousersadded'] = '誰も追加されませんでした。';
-$string['nogroupsadded'] = 'グループは追加されませんでした。';
-$string['numbernewusersadded'] = '新しいアカウントが追加されました: %s';
-$string['numbernewgroupsadded'] = '新しいグループが追加されました: %s';
-$string['numberusersupdated'] = 'アカウントが更新されました: %d';
-$string['numbergroupsupdated'] = 'グループが更新されました: %d';
-$string['showupdatedetails'] = '更新詳細を表示する';
-$string['uploadcsvemailingnewusers'] = '新しいアカウント保持者に通知する';
-$string['uploadcsvemailingupdatedusers'] = '更新アカウント保持者に通知する';
-$string['uploadcsvdone'] = '処理完了';
-$string['bulkleap2aimport'] = 'Leap2Aファイルからアカウントをインポートする';
-$string['bulkleap2aimportdescription1'] = '<p>あなたのサーバ内にある複数のLeap2Aファイルからアカウントを一度にインポートできます。あなたはサーバのファイルシステムにあるすべてのLeap2A ZIPファイルおよびユーザ名をファイル名にマッピングしたusernames.csvと呼ばれる単一CSVファイルを含むZIPファイルを指定する必要があります。</p>
-=======
-$string['uploadcsvsomeuserscouldnotbeemailed'] = '一部のユーザにメールを送信できませんでした。メールアドレスが有効ではないかMaharaが動作しているサーバがメールを適切に送信できるように設定されていません。サーバのエラーログにはさらに詳細が記録されています。現在のところ、これらのユーザに手動で連絡してください:';
-$string['uploadcsvfailedusersexceedmaxallowed'] = 'あなたのファイル内のユーザが多過ぎるためユーザは追加されませんでした。許可されたインスティテューションの最大ユーザ数を超過しました。';
-$string['updateusers'] = 'ユーザを更新する';
-$string['updateusersdescription'] = 'あなたのCSVファイルに指定したインスティテューションのメンバのユーザ名が含まれている場合、ファイルのデータによりユーザ詳細が上書きされることになります。注意して使用してください。';
-$string['updategroups'] = 'グループを更新する';
-$string['updategroupsdescription2'] = 'CSVファイル内のグループ省略名に合致するグループ詳細がCSVファイル内の情報で上書きされます。注意して使用してください。';
-$string['csvfileprocessedsuccessfully'] = 'あなたのCSVファイルが正常に処理されました。';
-$string['nousersadded'] = 'ユーザは追加されませんでした。';
-$string['nogroupsadded'] = 'グループは追加されませんでした。';
-$string['numbernewusersadded'] = '新しいユーザが追加されました: %s';
-$string['numbernewgroupsadded'] = '新しいグループが追加されました: %s';
-$string['numberusersupdated'] = 'ユーザが更新されました: %d';
-$string['numbergroupsupdated'] = 'グループが更新されました: %d';
-$string['showupdatedetails'] = '更新詳細を表示する';
-$string['bulkleap2aimport'] = 'Leap2Aファイルからユーザをインポートする';
-$string['bulkleap2aimportdescription'] = '<p>あなたのサーバ内にある複数のLeap2Aファイルからユーザを一度にインポートできます。あなたはサーバのファイルシステムにあるすべてのLeap2A ZIPファイルおよびユーザ名をファイル名にマッピングしたusernames.csvと呼ばれる単一CSVファイルを含むZIPファイルを指定する必要があります。</p>
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-<p>usernames.csvは以下のようになります:</p>
-<pre>
-&nbsp;&nbsp;bob,mahara-export-leap-user8-1265165366.zip<br>
-&nbsp;&nbsp;nigel,mahara-export-leap-user1-1266458159.zip
-</pre>
-<<<<<<< HEAD
-<p>mahara-export-leap-user8-1265165366.zipおよびmahara-export-leap-user1-1266458159.zipはサブディレクトリusers内のファイルです:</p>
-<p>あなたのZIPファイルの構造 例) 「import.zip」は以下のようになります:</p>
-<pre>
-import.zip<br>
-<span class="icon icon-file icon-regular"></span> usernames.csv<br>
-<span class="icon icon-folder-open icon-regular"></span> users<br>
-<span class="icon icon-file icon-regular"></span> mahara-export-leap-user8-1265165366.zip<br>
-<span class="icon icon-file icon-regular"></span> mahara-export-leap-user1-1266458159.zip<br>
-</pre>
-<p>通常、このZIPファイルはMahara内蔵のバルクエクスポートを使用して生成されます。</p>
-<p>あなたが多くのアカウントをインポートする場合、注意してください。インポート処理に長時間を要する場合があります。</p>';
-$string['importfile'] = 'バルクエクスポートファイル';
-$string['emailimportedusersaboutnewaccountdescription'] = '人に新しいアカウント詳細を知らせるためのメールを送信します。';
-$string['importfilemissinglisting'] = 'ファイル名「usernames.csv」のバルクエクスポートファイルがありません。あなたはこれらのアカウントのエクスポートにMaharaバルクエクスポータを使用しましたか?';
-$string['importfilenotafile'] = 'フォーム送信中にエラーが発生しました: ファイルを認識できませんでした。';
-$string['importfilenotreadable'] = 'フォーム送信中にエラーが発生しました: ファイルを読み込めませんでした。';
-$string['bulkleap2aimportfiledescription1'] = 'あなたのサーバ内にあるエクスポートされたアカウントすべて (Leap2Aフォーマット) およびユーザ名のCSVリストを含むZIPファイルのパスを入力してください。例) 「/home/example/data/import.zip」';
-$string['importednuserssuccessfully'] = '%d / %d のアカウントを正常にインポートしました。';
-=======
-<p>上記、mahara-export-leap-user8-1265165366.zipおよびmahara-export-leap-user1-1266458159.zipはusersと呼ばれるサブディレクトリ内にあるファイルです。</p>
-<p>通常、このZIPファイルはMahara内蔵のバルクエクスポートを使用して生成されます。</p>
-<p>あなたが多くのユーザをインポートする場合、注意してください。インポート処理に長時間を要する場合があります。</p>';
-$string['importfile'] = 'バルクエクスポートファイル';
-$string['importfilemissinglisting'] = 'ファイル名「usernames.csv」のバルクエクスポートファイルがありません。これらのユーザをエクスポートするためあなたはMaharaバルクエクスポータを使用しましたか?';
-$string['importfilenotafile'] = 'フォーム送信中にエラーが発生しました: ファイルを認識できませんでした。';
-$string['importfilenotreadable'] = 'フォーム送信中にエラーが発生しました: ファイルを読み込めませんでした。';
-$string['bulkleap2aimportfiledescription'] = 'あなたのサーバのZIPファイルにはエクスポートされたユーザすべて (Leap2Aフォーマット) およびユーザ名のCSVリストが含まれます。';
-$string['importednuserssuccessfully'] = '%d / %d のユーザを正常にインポートしました。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['Import'] = 'インポート';
-$string['bulkimportdirdoesntexist'] = 'ディレクトリ %s が存在しません。';
-$string['unabletoreadbulkimportdir'] = 'ディレクトリ %s を読めません。';
-$string['unabletoreadcsvfile'] = 'CSVファイル %s を読めません。';
-$string['importfileisnotazipfile'] = 'インポートファイル %s はZIPファイルとして検出されませんでした。';
-$string['unzipfailed'] = 'Leap2Aファイル %s の展開に失敗しました。詳細はエラーログをご覧ください。';
-<<<<<<< HEAD
-$string['importfailedfornusers'] = '%d / %d のアカウントのインポートに失敗しました。';
-$string['invalidlistingfile'] = '無効なユーザ名リストです。あなたはこれらのアカウントのエクスポートにMaharaバルクエクスポータを使用しましたか?';
-$string['importing'] = 'インポート中';
-$string['adminuserspagedescription1'] = '<p>ここであなたはどの人をサイトの管理者にするか選択できます。現在の管理者は「現在の管理者」フィールドに潜在的な管理者は「潜在的な管理者」フィールドに一覧表示されます。</p><p>システムには少なくとも1名のサイト管理者を設定する必要があります。</p>';
-$string['institutionadminuserspagedescription1'] = 'ここであなたはどのインスティテューションメンバをインスティテューション管理者にするか選択できます。現在の管理者は「現在の管理者」フィールドに潜在的な管理者は「インスティテューションメンバ」フィールドに一覧表示されます。';
-$string['potentialadmins'] = '潜在的な管理者';
-$string['currentadmins'] = '現在の管理者';
-$string['adminusersupdated'] = '管理者が更新されました。';
-$string['institutionsupportadminpagedescription'] = 'ここではあなたのインスティテューションでインスティテューションサポート管理者になるインスティテューションメンバを選択できます。現在のサポート管理者は「インスティテューションサポート管理者」フィールドに表示されます。潜在的なサポート管理者は「インスティテューションメンバ」フィールドに表示されます。';
-$string['supportadminusersupdated'] = 'サポート管理者が更新されました。';
-$string['staffuserspagedescription1'] = 'ここであなたはどの人をサイトのスタッフにするか選択できます。現在のスタッフは「現在のスタッフ」フィールドに潜在的なスタッフは「潜在的なスタッフ」フィールドに一覧表示されます。';
-$string['institutionstaffuserspagedescription1'] = 'ここであなたはどのインスティテューションメンバをあなたのインスティテューションのスタッフにするか選択できます。現在のスタッフは「インスティテューションスタッフ」フィールドに潜在的なスタッフは「インスティテューションメンバ」フィールドに一覧表示されます。';
-$string['potentialstaff'] = '潜在的なスタッフ';
-$string['currentstaff'] = '現在のスタッフ';
-$string['makeusersintostaff'] = '選択したインスティテューションメンバをスタッフにする';
-$string['makestaffintousers'] = '選択したスタッフを通常のインスティテューションメンバに戻す';
-$string['staffusersupdated'] = 'スタッフが更新されました。';
-$string['deleteusers'] = 'アカウントを削除する';
-$string['deleteaccountuser'] = '%s %s のアカウントを削除する';
-$string['confirmdeleteusers1'] = '本当に選択された人のアカウントを削除してもよろしいですか?';
-$string['exportingnotsupportedyet'] = 'プロファイルのエクスポートはまだサポートされていません。';
-$string['exportuserprofiles'] = 'プロファイルをエクスポートする';
-$string['nousersselected'] = '誰も選択されていません。';
-$string['nocontentselected'] = 'ポートフォリオが選択されていません。';
-$string['suspenduser'] = '人を利用停止する';
-$string['suspendthisuser'] = '%s %s のアカウントを利用停止する';
-$string['suspendeduserstitle'] = '利用停止および有効期限切れアカウント';
-$string['suspendedusers'] = '利用停止された人';
-$string['suspensionreason'] = '利用停止理由';
-$string['errorwhilesuspending'] = '利用停止中にエラーが発生しました。';
-$string['suspendedusersdesc'] = '利用停止および有効期限切れアカウントを表示して再有効化または削除します。';
-$string['unsuspendusers'] = '人の利用停止を解除する';
-$string['usersdeletedsuccessfully'] = 'アカウントが正常に削除されました。';
-$string['usersunsuspendedsuccessfully'] = '人の利用停止が正常に解除されました。';
-$string['suspendingadmin'] = '利用停止担当管理者';
-$string['usersuspended'] = '人が利用停止されました。';
-$string['userunsuspended'] = '人の利用停止が解除されました。';
-$string['expiredusers'] = '有効期限切れアカウント';
-$string['expired'] = '有効期限切れ';
-$string['expires'] = '有効期限切れ';
-$string['unexpireusers'] = '有効期限切れアカウントを再有効化する';
-$string['usersreactivated'] = 'アカウントが再有効化されました。';
-$string['accountsettings'] = 'アカウント設定';
-$string['siteaccountsettings'] = 'サイトアカウント設定';
-$string['changeusername'] = 'ユーザ名を変更する';
-$string['changeusernamedescription'] = 'この人のユーザ名を変更します。ユーザ名の長さは半角3-236文字にしてください。ユーザ名にはスペースを除く文字、数字および一般的な記号を使用できます。';
-$string['resetpassword'] = 'パスワードをリセットする';
-$string['resetpassworddescription'] = 'あなたがここにテキストを入力した場合、その人の現在のパスワードと置換されます。';
-$string['forcepasswordchange'] = '次回ログイン時、パスワード変更を強制する';
-$string['forcepasswordchangedescription'] = '次回ログイン時、人は「パスワードを変更する」ページにリダイレクトされます。';
-=======
-$string['importfailedfornusers'] = '%d / %d のユーザのインポートに失敗しました。';
-$string['invalidlistingfile'] = '無効なユーザ名リストです。これらのユーザをエクスポートするためあなたはMaharaバルクエクスポータを使用しましたか?';
-$string['importing'] = 'インポート中';
-$string['adminuserspagedescription1'] = '<p>ここであなたはどのユーザをサイトの管理者にするか選択できます。現在の管理者は「現在の管理者」フィールドに潜在的な管理者は「潜在的な管理者」フィールドに一覧表示されます。</p><p>システムには少なくとも1名のサイト管理者を設定する必要があります。</p>';
-$string['institutionadminuserspagedescription1'] = 'ここであなたはどのユーザをインスティテューションの管理者するか選択できます。現在の管理者は「現在の管理者」フィールドに潜在的な管理者は「インスティテューションメンバ」フィールドに一覧表示されます。';
-$string['adminusersupdated'] = '管理者が更新されました。';
-$string['staffuserspagedescription1'] = 'ここであなたはどのユーザをサイトのスタッフにするか選択できます。現在のスタッフは「現在のスタッフ」フィールドに潜在的なスタッフは「潜在的なスタッフ」フィールドに一覧表示されます。';
-$string['institutionstaffuserspagedescription1'] = 'ここであなたはどのユーザをあなたのインスティテューションのスタッフにするか選択できます。現在のスタッフは「インスティテューションスタッフ」フィールドに潜在的なスタッフは「インスティテューションメンバ」フィールドに一覧表示されます。';
-$string['potentialstaff'] = '潜在的なスタッフ';
-$string['currentstaff'] = '現在のスタッフ';
-$string['makeusersintostaff'] = '選択したユーザをスタッフにする';
-$string['makestaffintousers'] = '選択したスタッフをユーザに戻す';
-$string['staffusersupdated'] = 'スタッフユーザが更新されました。';
-$string['deleteusers'] = 'ユーザを削除する';
-$string['deleteuser'] = 'ユーザを削除する';
-$string['confirmdeleteusers'] = '本当に選択されたユーザを削除してもよろしいですか?';
-$string['exportingnotsupportedyet'] = 'ユーザプロファイルのエクスポートはまだサポートされていません。';
-$string['exportuserprofiles'] = 'ユーザプロファイルをエクスポートする';
-$string['nousersselected'] = 'ユーザが選択されていません。';
-$string['suspenduser'] = 'ユーザを利用停止する';
-$string['suspendeduserstitle'] = '利用停止および有効期限切れユーザ';
-$string['suspendedusers'] = '利用停止ユーザ';
-$string['suspensionreason'] = '利用停止理由';
-$string['errorwhilesuspending'] = '利用停止中にエラーが発生しました。';
-$string['suspendedusersdescription'] = 'サイト利用に関してユーザを利用停止または停止解除します。';
-$string['unsuspendusers'] = 'ユーザの利用停止を解除する';
-$string['usersdeletedsuccessfully'] = 'ユーザが正常に削除されました。';
-$string['usersunsuspendedsuccessfully'] = 'ユーザの利用停止が正常に解除されました。';
-$string['suspendingadmin'] = '利用停止担当管理者';
-$string['usersuspended'] = 'ユーザが利用停止されました。';
-$string['userunsuspended'] = 'ユーザの利用停止が解除されました。';
-$string['expiredusers'] = '有効期限切れユーザ';
-$string['expired'] = '有効期限切れ';
-$string['unexpireusers'] = '有効期限切れユーザを復活させる';
-$string['usersreactivated'] = 'ユーザを復活しました。';
-$string['accountsettings'] = 'アカウント設定';
-$string['siteaccountsettings'] = 'サイトアカウント設定';
-$string['changeusername'] = 'ユーザ名を変更する';
-$string['changeusernamedescription'] = 'このユーザのユーザ名を変更します。ユーザ名の長さは半角3-236文字にしてください。ユーザ名にはスペースを除く文字、数字および一般的な記号を使用できます。';
-$string['resetpassword'] = 'パスワードをリセットする';
-$string['resetpassworddescription'] = 'ここにテキストを入力した場合、ユーザの現在のパスワードと入れ替えられます。';
-$string['forcepasswordchange'] = '次回ログイン時、パスワード変更を強制する';
-$string['forcepasswordchangedescription'] = '次回ログイン時、ユーザは「パスワードを変更する」ページにリダイレクトされます。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['primaryemail'] = '主メールアドレス';
-$string['sitestaff'] = 'サイトスタッフ';
-$string['siteadmins'] = 'サイト管理者';
-$string['siteadmin'] = 'サイト管理者';
-$string['accountexpiry'] = 'アカウント有効期限';
-<<<<<<< HEAD
-$string['accountexpirydescription'] = '人のログインが自動的に無効にされる日付です。';
-$string['suspended'] = '利用停止中';
-$string['suspendedreason'] = '利用停止理由';
-$string['suspendedreasondescription'] = '次回ログイン時、人に表示されるテキストです。';
-$string['unsuspenduser'] = '人の利用停止を解除する';
-$string['thisuserissuspended'] = 'この人は利用停止されました。';
-$string['suspendedinfo'] = 'この人は %s により %s に利用停止されました。';
-$string['expiredinfo'] = 'このアカウントは %s に有効期限切れとなりました。';
-$string['unexpiredesc1'] = 'このアカウントを再有効化するには下の「アカウント有効期限」フィールドのチェックを外してあなたの変更を保存してください。';
-$string['deleteuser'] = 'アカウントを削除する';
-$string['userdeletedsuccessfully'] = 'アカウントが正常に削除されました。';
-$string['confirmdeleteuser'] = '本当にこのアカウントを削除してもよろしいですか?';
-$string['filequota1'] = 'ファイルクオータ';
-$string['quotaused'] = 'クオータ使用量';
-$string['filequotadescription'] = '人のファイルエリアで利用可能な合計保存領域です。';
-$string['recalculatequota'] = 'クオータを再計算する';
-$string['recalculatequotadescription'] = 'クオータが同期されていない場合にクオータをリセットします。';
-$string['probationbulkconfirm'] = '本当にこれらのアカウントのスパム保護観察ステータスを変更してもよろしいですか?';
-=======
-$string['accountexpirydescription'] = 'ユーザのログインが自動的に無効にされる日付です。';
-$string['suspended'] = '利用停止中';
-$string['suspendedreason'] = '利用停止理由';
-$string['suspendedreasondescription'] = '次回ログイン時、ユーザに表示されるテキストです。';
-$string['unsuspenduser'] = 'ユーザの利用停止を解除する';
-$string['thisuserissuspended'] = 'このユーザは利用停止されました。';
-$string['suspendedinfo'] = 'このユーザは %s により %s に利用停止されました。';
-$string['expiredinfo'] = 'このユーザのアカウントは %s に有効期限切れとなりました。';
-$string['unexpiredesc'] = 'このアカウントを再有効化するには下の「アカウント有効期限」フィールドのチェックを外してあなたの変更を保存してください。';
+<div class="warning">すべてのCSVファイルアップロードにより、グループ管理者を含む既存のすべてのグループメンバーが完全に削除されます。あなたのCSVファイル内に少なくとも1名の管理者が存在することを確認してください。</div>';
+$string['uploadleap2afile'] = 'Leap2Aファイルをアップロードする';
+$string['uptodate'] = '最新';
+$string['urlalreadyexists'] = 'このURLはすでに存在します。あなたは2度追加することはできません。';
+$string['usedefault'] = 'サイトデフォルトを使用する';
+$string['usedefaultdescription3'] = '選択されたページタイプにサイトのデフォルトテキストを使用します。';
+$string['useradded'] = 'ユーザが追加されました。';
+$string['usercreationmethod'] = '1 - ユーザ作成方法';
 $string['userdeletedsuccessfully'] = 'ユーザが正常に削除されました。';
-$string['confirmdeleteuser'] = '本当にこのユーザを削除してもよろしいですか?';
-$string['filequota1'] = 'ファイルクオータ';
-$string['quotaused'] = 'クオータ使用量';
-$string['filequotadescription'] = 'ユーザのファイルエリアで利用可能な合計保存領域です。';
-$string['probationbulkconfirm'] = '本当にこれらのユーザのスパム保護観察ステータスを変更してもよろしいですか?';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['probationbulksetspamprobation'] = 'スパム保護観察を設定する';
-$string['probationbulkset'] = '設定';
-$string['probationtitle'] = 'スパム発信者保護観察ステータス';
-$string['probationzeropoints'] = '保護観察なし';
-$string['probationxpoints'] = '%d ポイント';
-$string['probationreportcolumn'] = '保護観察';
-<<<<<<< HEAD
-$string['addusertoinstitution1'] = 'インスティテューションに追加する';
-$string['removeuserfrominstitution1'] = 'このインスティテューションから削除する';
-$string['confirmremoveuserfrominstitution'] = '本当にこの人をこのインスティテューションから削除してもよろしいですか?';
-$string['usereditdescription1'] = 'あなたはここでこのアカウントを管理できます。アカウント管理には詳細変更、利用停止、削除およびインスティテューションのメンバシップ変更を含みます。';
-$string['usereditwarning1'] = '<strong>注意</strong>: あなたがこのアカウントに変更を加えた場合、現在ログインしているアカウント保持者はログアウトされます。';
-$string['suspenduserdescription'] = 'アカウントの利用停止が解除されるまで利用停止された人はログインできません。';
-$string['deleteusernote'] = 'この処理は<strong>元に戻せません</strong>ので注意してください。';
-$string['youcannotadministerthisuser'] = 'あなたはこのアカウントを管理できません。';
-$string['userinstitutionjoined'] = '人がインスティテューション「 %s 」に追加されました。';
-$string['userinstitutionremoved'] = '人がインスティテューション「 %s 」から削除されました。';
-$string['userinstitutionupdated'] = 'インスティテューション「 %s 」のアカウント設定が更新されました。';
-$string['usernamechangenotallowed'] = '選択された認証方法ではユーザ名の変更が許可されていません。';
-$string['usersitesettingschanged'] = 'サイトアカウント設定が更新されました。';
-$string['passwordchangenotallowed'] = '選択された認証方法ではパスワードの変更が許可されていません。';
-$string['thisuserdeleted'] = 'このアカウントは削除されました。';
-$string['disableemail'] = 'メールを無効にする';
-$string['exportqueue'] = 'エクスポートキュー';
-$string['exportqueuedesc'] = '保留中のコンテンツエクスポートを表示します。';
-$string['exportcontentname'] = 'エクスポートコンテンツ';
-$string['selectuserexport1'] = 'エクスポートのために再度キューに追加するコンテンツ「 %s 」を選択する';
-=======
-$string['addusertoinstitution'] = 'インスティテューションにユーザを追加する';
-$string['removeuserfrominstitution'] = 'このインスティテューションからユーザを削除する';
-$string['confirmremoveuserfrominstitution'] = '本当にこのインスティテューションからユーザを削除してもよろしいですか?';
-$string['usereditdescription1'] = 'あなたはここでこのユーザアカウントを管理できます。アカウント管理には詳細変更、利用停止、削除およびインスティテューションのメンバシップ変更を含みます。';
+$string['usereditdescription1'] = 'あなたはここでこのユーザアカウントを管理できます。管理には詳細変更、利用停止、削除およびインスティテューションのメンバーシップ変更を含みます。';
 $string['usereditwarning'] = '注意: アカウントの変更を保存することで (現在ログインしている場合) ユーザがログアウトされることになります。';
-$string['suspenduserdescription'] = 'アカウントの利用停止が解除されるまで利用停止ユーザはログインできません。';
-$string['deleteusernote'] = 'この処理は<strong>元に戻せません</strong>ので注意してください。';
-$string['youcannotadministerthisuser'] = 'あなたはこのユーザを管理できません。';
 $string['userinstitutionjoined'] = 'ユーザがインスティテューション「 %s 」に追加されました。';
 $string['userinstitutionremoved'] = 'ユーザがインスティテューション「 %s 」から削除されました。';
 $string['userinstitutionupdated'] = 'インスティテューション「 %s 」のユーザ設定が更新されました。';
 $string['usernamechangenotallowed'] = '選択された認証方法ではユーザ名の変更が許可されていません。';
+$string['userreports'] = 'ユーザレポート';
+$string['userreportsdescription'] = 'あなたが検索ページで選択したユーザ情報を表示またはダウンロードします。';
+$string['usersallowedmultipleinstitutions'] = 'ユーザに複数インスティテューションを許可する';
+$string['usersallowedmultipleinstitutionsdescription1'] = 'ユーザが同時に複数のインスティテューションのメンバーになることができるようにします。';
+$string['userscanchooseviewthemes'] = 'ユーザがページテーマを選択できる';
+$string['userscanchooseviewthemesdescription1'] = 'ユーザがポートフォリオページを編集および作成する時にテーマを選択できるようにします。ページは選択されたテーマを使用して他のユーザに表示されます。';
+$string['userscandisabledevicedetection'] = 'ユーザがデバイス検出を無効にできる';
+$string['userscandisabledevicedetectiondescription1'] = 'ユーザがこのサイトを閲覧するときにモバイルデバイス検出を無効にできるようにします。';
+$string['userscanhiderealnames'] = 'ユーザは実名を隠すことができる';
+$string['userscanhiderealnamesdescription1'] = 'ユーザが表示名を設定した場合、実名で検索できないようにします。他のユーザは表示名のみで検索できます。サイトのサイト管理セクションでは常に実名でユーザを検索できます。';
+$string['usersdeletedsuccessfully'] = 'ユーザが正常に削除されました。';
+$string['usersearch'] = 'ユーザ検索';
+$string['usersearchdescription'] = 'すべてのユーザを検索して検索されたユーザに対して管理行為を実施します。';
+$string['usersearchinstructions'] = 'ユーザの姓名のイニシャルをクリックするか、検索ボックスに名前を入力することによりあなたはユーザを検索できます。あなたがメールアドレスを検索したい場合、検索ボックスにメールアドレスを入力することもできます。';
+$string['usersettingslegend'] = 'ユーザ設定';
+$string['usershaveloggedin'] = 'ログインしたことのあるユーザ';
+$string['usershaveloggedinsince'] = '次の日時以降ログインしたことのあるユーザ';
+$string['usershaveneverloggedin'] = 'ログインしたことのないユーザ';
+$string['usershavenotloggedinsince'] = '次の日時以降ログインしたことのないユーザ';
 $string['usersitesettingschanged'] = 'サイトアカウント設定が更新されました。';
-$string['passwordchangenotallowed'] = '選択された認証方法ではパスワードの変更が許可されていません。';
-$string['thisuserdeleted'] = 'このユーザは削除されました。';
-$string['disableemail'] = 'メールを無効にする';
-$string['exportqueue'] = 'エクスポートキュー';
-$string['exportcontentname'] = 'エクスポートコンテンツ';
-$string['selectuserexport'] = 'エクスポートするコンテンツ「 %s 」を選択する';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['selectuserexportdelete'] = 'エクスポートキューから削除するコンテンツ「 %s 」を選択する';
-$string['exportpending'] = '%s 現在の保留';
-$string['exportfailed'] = '失敗 %s';
-$string['exportqueuedeleted'] = '%s 行が正常に削除されました。';
-$string['exportqueuearchived'] = '%s 行が正常に更新されました。';
-$string['exportdataascsv'] = 'すべてのデータをCSVフォーマットでエクスポートする';
-$string['nocsvresults'] = 'CSVファイルの結果は見つかりませんでした。';
-<<<<<<< HEAD
-$string['exportdownloademailsubject1'] = 'あなたの「 %s 」のエクスポートのダウンロード準備ができました。';
-$string['exportdownloademailmessage1'] = '%s さん、あなたの「 %s 」のエクスポートのダウンロード準備ができました。このファイルは生成後、最大24時間のみ利用できます。ファイルをダウンロードするには次のリンクにアクセスしてください:';
-$string['exportdownloadurl'] = 'エクスポートされたファイルをダウンロードする';
-$string['addaccount'] = 'アカウントを追加する';
-$string['adduserdescription'] = '新しいアカウントを作成します。';
-$string['basicinformationforthisuser'] = 'このアカウントの基本情報です。';
-$string['clickthebuttontocreatetheuser'] = 'アカウントを作成するにはボタンをクリックしてください。';
-$string['createnewuserfromscratch'] = '新しいアカウントを最初から作成する';
-$string['createuser'] = 'アカウントを作成する';
-$string['failedtoobtainuploadedleapfile'] = 'アップロードされたLeap2Aファイルの取得に失敗しました。';
-$string['failedtounzipleap2afile'] = 'Leap2Aファイルの展開に失敗しました。詳細はエラーログを確認してください。';
-$string['fileisnotaziporxmlfile'] = 'このファイルはZIPファイルまたはXMLファイルとして認識されませんでした。';
-$string['howdoyouwanttocreatethisuser'] = 'このアカウントをどのように作成しますか?';
-$string['leap2aimportfailed'] = '<p><strong>申し訳ございません、Leap2Aファイルのインポートに失敗しました。</strong></p><p>これはあなたが有効なLeap2Aファイルをアップロードに選択しなかったから、またはこのMaharaのバージョンではあなたのLeap2Aファイルがサポートされていないからだと考えられます。また、Leap2Aファイルが有効な場合、Maharaのバグがあなたのファイルのアップロードを失敗させていることも考えられます。</p><p><a href="add.php">戻ってファイルのアップロードを再度お試しください</a>。この問題が続く場合、エラー状況を<a href="https://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。その場合、あなたのファイルのコピーを準備してください。</p>';
-$string['newuseremailnotsent'] = 'ウェルカムメールの送信に失敗しました。';
-$string['newusercreated'] = '新しいアカウントが正常に作成されました。';
-$string['noleap2axmlfiledetected'] = 'leap2a.xmlファイルが検出されませんでした - 再度あなたのエクスポートファイルを確認してください。';
-$string['Or'] = 'または';
-$string['userwillreceiveemailandhastochangepassword'] = '新しいアカウント詳細を記載したメールが送信されます。初回ログイン時、パスワードの変更を求められます。';
-$string['uploadzipfile'] = 'エクスポート済みZIPファイルをアップロードする';
-$string['usercreationmethod'] = '1 - 作成方法';
-$string['basicdetails'] = '2 - 基本情報';
-$string['create'] = '3 - 作成';
-$string['loginas'] = '代理ログイン';
-$string['loginasthisuser'] = 'この人としてログインする';
-$string['loginasuser'] = '%s としてログインする';
-$string['becomeadminagain'] = '%s に戻る';
-$string['loginasdenied'] = '許可なく別の人としてのログインを試みました。';
-$string['loginastwice'] = 'すでにログインしているにもかかわらず、別の人としてのログインを試みました。';
-$string['loginasrestorenodata'] = 'リストアするデータがありません。';
-$string['loginasoverridepasswordchange'] = 'あなたは別の人としてログインしているためパスワード変更画面を無視して%とにかくログインすること%sを選択できます。';
-$string['loginasoverridelegalaccept'] = 'あなたは別の人としてログインしているため法的表示に同意せずに%sとにかくログインすること%sを選択できます。';
-$string['Add'] = '追加';
-$string['all'] = 'すべて';
-$string['admininstitutions'] = 'インスティテューションを管理する';
-$string['editinstitution'] = 'インスティテューションを編集する';
-=======
-$string['exportdownloademailsubject'] = 'あなたの「 %s 」のLeap2Aエクスポートのダウンロードが準備できました。';
-$string['exportdownloademailmessage'] = '%s さん、あなたの「 %s 」のLeap2Aエクスポートのダウンロードが準備できました。このファイルは生成後、最大24時間のみ利用できます。ファイルをダウンロードするには次のリンクにアクセスしてください:';
-$string['exportdownloadurl'] = 'エクスポートされたファイルをダウンロードする';
-$string['adduser'] = 'ユーザを追加する';
-$string['adduserdescription'] = '新しいユーザを作成します。';
-$string['basicinformationforthisuser'] = 'このユーザの基本情報です。';
-$string['clickthebuttontocreatetheuser'] = 'ユーザを作成するにはボタンをクリックしてください。';
-$string['createnewuserfromscratch'] = 'ユーザを最初から作成する';
-$string['createuser'] = 'ユーザを作成する';
-$string['failedtoobtainuploadedleapfile'] = 'アップロードされたLeap2Aファイルの取得に失敗しました。';
-$string['failedtounzipleap2afile'] = 'Leap2Aファイルの展開に失敗しました。詳細はエラーログを確認してください。';
-$string['fileisnotaziporxmlfile'] = 'このファイルはZIPファイルまたはXMLファイルとして認識されませんでした。';
-$string['howdoyouwanttocreatethisuser'] = 'どのようにこのユーザを作成してもよろしいですか?';
-$string['leap2aimportfailed'] = '<p><strong>申し訳ございません、Leap2Aファイルのインポートに失敗しました。</strong></p><p>これはあなたが有効なLeap2Aファイルをアップロードに選択しなかったから、またはこのMaharaのバージョンではあなたのLeap2Aファイルがサポートされていないからだと考えられます。また、Leap2Aファイルが有効な場合、Maharaのバグがあなたのファイルのアップロードを失敗させていることも考えられます。</p><p><a href="add.php">戻ってファイルのアップロードを再度お試しください</a>。この問題が続く場合、エラー状況を<a href="https://mahara.org/forums/">Maharaフォーラム</a>に投稿してください。その場合、あなたのファイルのコピーを準備してください。</p>';
-$string['newuseremailnotsent'] = '新しいユーザへのウェルカムメールの送信に失敗しました。';
-$string['newusercreated'] = '新しいユーザアカウントが正常に作成されました。';
-$string['noleap2axmlfiledetected'] = 'leap2a.xmlファイルが検出されませんでした - 再度あなたのエクスポートファイルを確認してください。';
-$string['Or'] = 'または';
-$string['userwillreceiveemailandhastochangepassword'] = '新しいアカウント詳細を記載したメールがユーザに送信されます。新しく作成されたユーザは初回ログイン時にパスワードの変更を求められます。';
-$string['uploadleap2afile'] = 'Leap2Aファイルをアップロードする';
-$string['usercreationmethod'] = '1 - ユーザ作成方法';
-$string['basicdetails'] = '2 - 基本情報';
-$string['create'] = '3 - 作成';
-$string['loginas'] = '代理ログイン';
-$string['loginasthisuser'] = 'このユーザとしてログインする';
-$string['loginasuser'] = '%s としてログインする';
-$string['becomeadminagain'] = '%s に戻る';
-$string['loginasdenied'] = 'パーミッションなしで別のユーザとしてのログインを試みました。';
-$string['loginastwice'] = 'すでにログインしているにもかかわらず、別のユーザとしてのログインを試みました。';
-$string['loginasrestorenodata'] = 'リストアするユーザデータがありません。';
-$string['loginasoverridepasswordchange'] = '別のユーザとしてログインしているためあなたはパスワード変更画面を無視して%sとにかくログインすること%sを選択できます。';
-$string['Add'] = '追加';
-$string['all'] = 'すべて';
-$string['admininstitutions'] = 'インスティテューションを管理する';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['adminauthorities'] = '認証局を管理する';
-$string['addinstitution'] = 'インスティテューションを追加する';
-$string['authplugin'] = '認証プラグイン';
-$string['deleteinstitution'] = 'インスティテューションを削除する';
-<<<<<<< HEAD
-$string['deleteinstitutionconfirm1'] = '本当にこのインスティテューションを削除してもよろしいですか? そのインスティテューションがアウトカムポートフォリオを使用している場合、ウェブサービスおよびアウトカム情報は削除されます。グループはサイトと関連付けられます。';
-=======
-$string['deleteinstitutionconfirm'] = '本当にこのインスティテューションを削除してもよろしいですか?';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['institutionstillhas'] = 'このインスティテューションにはまだ %s が登録されています。';
-$string['institutionauthinuseby'] = 'このインスティテューションの認証はまだ %s により使用されています。';
-$string['institutiononly'] = 'インスティテューションのみ';
-$string['institutionaddedsuccessfully2'] = 'インスティテューションが正常に追加されました。';
-$string['institutiondeletedsuccessfully'] = 'インスティテューションが正常に削除されました。';
-$string['noauthpluginforinstitution'] = 'あなたのサイト管理者はこのインスティテューションの認証プラグインを設定していません。';
-$string['adminnoauthpluginforinstitution'] = 'このインスティテューションの認証プラグインを設定してください。';
-$string['institutionname'] = 'インスティテューション名';
-<<<<<<< HEAD
-$string['institutionnameinvalid'] = 'インスティテューション名が有効ではありません。';
-=======
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['institutionshortname'] = 'インスティテューション省略名';
-$string['institutionnamealreadytaken'] = 'このインスティテューション名はすでに取得されています。';
-$string['institutiondisplayname'] = 'インスティテューション表示名';
-$string['institutionexpiry'] = 'インスティテューション有効期限';
-$string['institutionshortnamedescription'] = '省略名は自動的に生成されます。また、省略名は変更できません。';
-$string['institutionexpirydescription'] = 'この %s のインスティテューションメンバシップが利用停止される日付です。';
-$string['institutionlanguage'] = '言語';
-<<<<<<< HEAD
-$string['institutionlanguagedescription'] = 'インスティテューションメンバのデフォルト言語です。';
-$string['includedinstitutions'] = '含まれるインスティテューション (省略名)';
-$string['excludedinstitutions'] = '除外されるインスティテューション (省略名)';
-$string['noinstitution'] = 'どのインスティテューションのメンバでもないアカウントを含む';
-$string['defaultlangforinstitution'] = '%s デフォルト';
-$string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
-$string['registrationallowed'] = '登録を許可する';
-$string['registrationalloweddescription5'] = '人は登録フォームを使用してこのインスティテューションに登録できます。登録が無効にされた場合、非メンバはインスティテューションのメンバシップをリクエストできません。また、メンバは自分でインスティテューション離脱またはアカウント削除できません。';
-=======
-$string['institutionlanguagedescription'] = 'このインスティテューションのユーザのデフォルト言語です。';
-$string['defaultlangforinstitution'] = '%s デフォルト';
-$string['institutionupdatedsuccessfully'] = 'インスティテューションが正常に更新されました。';
-$string['registrationallowed'] = '登録を許可する';
-$string['registrationalloweddescription5'] = '人は登録フォームを使用してこのインスティテューションに登録できます。登録が無効にされた場合、非メンバはインスティテューションのメンバシップをリクエストできません。また、メンバはインスティテューションを離れたり自分のユーザアカウントを削除できません。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['registrationconfirm'] = '登録を承認する';
-$string['registrationconfirmdescription3'] = '登録はインスティテューション管理者により承認される必要があります。あなたがこのオプションを変更できない場合、サイト管理者がすべてのインスティテューションに対してこのオプションを有効にすることを求めています。';
-$string['defaultmembershipperiod'] = 'デフォルトのメンバシップ期間';
-$string['defaultmembershipperioddescription'] = '新しいメンバはどのくらいの期間インスティテューションとの関係を維持できますか。';
-<<<<<<< HEAD
-$string['showonlineusers'] = 'オンライン中の人を表示する';
-$string['showonlineusersdescription'] = 'このインスティテューションのメンバに表示されるオンライン中の人です。人に複数インスティテューションが許可されている場合、そしてインスティテューションの設定が異なる場合、最も制約の少ないインスティテューション設定が使用されます。';
-$string['licensemandatory'] = 'ライセンス情報を要求する';
-$string['licensemandatorydescription1'] = '作成者はアーティファクト作成時にライセンスを選択する必要があります。そうではない場合、ライセンスフィールドを空白のままにできます。';
-$string['licensedefault'] = 'デフォルトライセンス';
-$string['licensedefaultdescription'] = 'インスティテューションメンバにより作成またはアップロードされたコンテンツのデフォルトのライセンスです。インスティテューションメンバはアカウント設定ページおよび個別のアイテムでこの設定をオーバーライドできます。';
-$string['licensedefaultmandatory'] = '作成者にライセンスの選択を要求する場合、あなたはここでデフォルトライセンスを選択する必要があります。あなたがデフォルトライセンスを選択したくない場合、あなたのインスティテューションメンバにライセンスを要求しないでください。';
-$string['Logo'] = 'ロゴ';
-$string['Logomobile'] = 'モバイルロゴ';
-$string['logodescription1'] = 'あなたのテーマのロゴとしてインスティテューションメンバに表示されるイメージをここでアップロードできます。ロゴは利用可能なスペースに合わせてリサイズされます。';
-$string['logoxsdescription'] = 'あなたは十分なスペースがないモバイルデバイスで使用される2番目のロゴをアップロードできます。最良の結果のためロゴは正方形にしてください。';
-$string['deletelogo'] = 'ロゴを削除する';
-$string['deletelogoxsmobile'] = 'モバイルロゴを削除する';
-$string['deletelogodescription2'] = 'あなたのインスティテューションテーマの標準的なヘッダロゴに戻します。';
-$string['deletelogoxsdescription3'] = 'あなたのインスティテューションテーマの標準ヘッダモバイルロゴに戻します。';
-=======
-$string['showonlineusers'] = 'オンラインユーザを表示する';
-$string['showonlineusersdescription'] = 'このインスティテューションのメンバに表示されるオンラインユーザです。ユーザに複数インスティテューションが許可されている場合、そしてインスティテューションの設定が異なる場合、最も制約の少ないインスティテューション設定が使用されます。';
-$string['licensemandatory'] = 'ライセンス情報を要求する';
-$string['licensemandatorydescription1'] = 'ユーザはアーティファクト作成時にライセンスを選択する必要があります。そうではない場合、ライセンスフィールドを空白のままにできます。';
-$string['licensedefault'] = 'デフォルトライセンス';
-$string['licensedefaultdescription'] = 'インスティテューションメンバにより作成またはアップロードされたコンテンツのデフォルトのライセンスです。ユーザはアカウント設定ページおよび個別のアイテムでこの設定をオーバーライドできます。';
-$string['licensedefaultmandatory'] = 'ユーザがライセンスの選択を要求される場合、あなたはここでデフォルトライセンスを選択する必要があります。あなたがデフォルトライセンスを選択したくない場合、ユーザにライセンスを要求しないでください。';
-$string['Logo'] = 'ロゴ';
-$string['Logosmall'] = 'スモールロゴ';
-$string['logodescription1'] = 'あなたのテーマのロゴとしてインスティテューションメンバに表示されるイメージをここでアップロードできます。ロゴは利用可能なスペースに合わせてリサイズされます。';
-$string['logoxsdescription'] = 'あなたは大きなスペースがない場合にスモールデバイスで使用される2番目のロゴをアップロードできます。最良の結果のためロゴは正方形にしてください。';
-$string['deletelogo'] = 'ロゴを削除する';
-$string['deletelogoxs'] = 'スモールロゴを削除する';
-$string['deletelogodescription2'] = 'あなたのインスティテューションテーマの標準的なヘッダロゴに戻します。';
-$string['deletelogoxsdescription2'] = 'あなたのインスティテューションテーマの標準的なヘッダスモールロゴに戻します。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['customtheme'] = 'カスタムテーマ設定';
-$string['customtheme.background'] = 'ヘッダ背景色';
-$string['customtheme.backgroundfg'] = 'ヘッダテキスト背景色';
-$string['customtheme.link'] = 'リンク';
-$string['customtheme.headings'] = 'ヘッディング';
-$string['customtheme.navbg'] = 'ナビゲーション背景色';
-$string['customtheme.navfg'] = 'ナビゲーションテキスト';
-$string['customtheme.subbg'] = 'サブナビゲーション背景色';
-$string['customtheme.subfg'] = 'サブナビゲーションテキスト';
-$string['customtheme.sidebarbg'] = 'サイドバー背景色';
-$string['customtheme.sidebarfg'] = 'サイドバーコンテンツ背景色';
-$string['customtheme.sidebarlink'] = 'サイドバーリンク';
-$string['customtheme.rowbg'] = '列背景色';
-$string['customstylesforinstitution'] = '%s のカスタムスタイル';
-$string['resetcolours'] = '色をリセットする';
-$string['resetcoloursdesc2'] = 'デフォルト色をリストアします。';
-$string['authenticatedby'] = '認証方法';
-$string['authenticatedbydescription'] = 'この人がMaharaでどのように認証されるか設定します。';
-$string['remoteusername'] = '外部認証のユーザ名';
-<<<<<<< HEAD
-$string['remoteusernamedescription1'] = 'この人が外部認証プラグインを使用してリモートサイトから %s にログインする場合、これはリモートサイトの人を識別するユーザ名となります。';
-$string['institutionsettings'] = 'インスティテューション設定';
-$string['institutionsettingsdescription'] = 'あなたが管理者であるインスティテューションに関してこの人のメンバシップ設定を変更できます。';
-=======
-$string['remoteusernamedescription1'] = '外部認証プラグインを使用してユーザがリモートサイトから %s にログインした場合、これはリモートサイトのユーザを識別するユーザ名となります。';
-$string['institutionsettings'] = 'インスティテューション設定';
-$string['institutionsettingsdescription'] = 'あなたが管理者をしているインスティテューションに関してこのユーザのメンバシップ設定を変更できます。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['changeinstitution'] = 'インスティテューションを変更する';
-$string['institutionstaff'] = 'インスティテューションスタッフ';
-$string['institutionadmin'] = 'インスティテューション管理者';
-$string['institutionadmins'] = 'インスティテューション管理者';
-$string['institutionadministrator'] = 'インスティテューション管理者';
-<<<<<<< HEAD
-$string['institutionadmindescription1'] = 'この人がこのインスティテューションのすべての人を管理できるようにします。';
-$string['institutionsupportadmin'] = 'インスティテューションサポート管理者';
-$string['institutionsupportadmindescription'] = 'この人がこのインスティテューションの権限の少ない他の人 (例 メンバおよびスタッフ) として代理ログインすることを許可します。';
-$string['settingsfor'] = '設定:';
-$string['institutionmembers'] = 'インスティテューションメンバ';
-$string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
-$string['institutionmemberspagedescription'] = 'このページではあなたのインスティテューションにメンバシップをリクエストした人を確認およびメンバとして追加できます。また、あなたのインスティテューションから人を削除および招待できます。';
-$string['suspendordeletethisuser'] = 'このアカウントを利用停止または削除する';
-$string['institutionusersinstructionsrequesters2'] = '「 %1$s 」フィールドの一覧ではあなたのインスティテューションへの参加をリクエストした人すべてが表示されます。あなたは特定の人を探すため検索ボックスを使用できます。あなたがインスティテューションに人を追加したい場合、またはメンバシップリクエストを拒否したい場合、最初に「 %1$s 」フィールドで選択して右矢印ボタンをクリックして「 %2$s 」フィールドに移動してください。「メンバを追加する」ボタンにより「 %2$s 」フィールド内の人すべてをインスティテューションに追加します。「リンクエストを拒否する」ボタンにより「 %2$s 」フィールドに表示されているメンバシップリクエストを削除します。';
-$string['institutionusersinstructionsnonmembers2'] = '「 %1$s 」フィールドの一覧ではまだあなたのインスティテューションのメンバではない人すべてが表示されます。あなたは特定の人を探すため検索ボックスを使用できます。インスティテューションへの参加に人を招待したい場合、最初に「 %1$s 」フィールドで選択して右矢印ボタンをクリックして「 %2$s 」フィールドに移動してください。「人を招待する」ボタンにより「 %2$s 」フィールド内の人すべてに招待を送信します。これらの人は招待を受け入れるまであなたのインスティテューションと関連付けられません。サイト管理者には「メンバを追加する」ボタンが表示されすぐにインスティテューションに人を追加できます。';
-$string['institutionusersinstructionslastinstitution2'] = '「 %1$s 」フィールドの一覧ではまだあなたのインスティテューションのメンバではない人、選択されたインスティテューションを離脱した人すべてが表示されます。あなたは特定の人を探すため検索ボックスを使用できます。インスティテューションへの参加に人を招待したい場合、最初に「 %1$s 」フィールドで選択して右矢印ボタンをクリックして「 %2$s 」フィールドに移動してください。「人を招待する」ボタンにより「 %2$s 」フィールド内の人すべてに招待を送信します。これらの人は招待を受け入れるまであなたのインスティテューションと関連付けられません。サイト管理者には「メンバを追加する」ボタンが表示されすぐにインスティテューションに人を追加できます。';
-$string['institutionusersinstructionsmembers2'] = '「 %1$s 」フィールドの一覧ではあなたのインスティテューションのメンバすべてが表示されます。あなたは特定の人を探すため検索ボックスを使用できます。インスティテューションからメンバを削除したい場合、最初に「 %1$s 」フィールドで選択して右矢印ボタンをクリックして「 %2$s 」フィールドに移動してください。「メンバを削除する」ボタンにより「 %2$s 」フィールド内の人すべてをインスティテューションから削除します。アカウントは削除されません。';
-$string['institutionusersinstructionsinvited2'] = '「 %1$s 」フィールドの一覧ではインスティテューションへの参加の招待が送信されてまだ受け入れまたは拒否していない人すべてが表示されます。あなたは特定の人を探すため検索ボックスを使用できます。ある人へのインスティテューション招待を取り消したい場合、最初に「 %1$s 」フィールドで選択して右矢印ボタンをクリックして「 %2$s 」フィールドに移動してください。「招待を取り消す」ボタンにより「 %2$s 」フィールド内の人のあなたのインスティテューションへの招待を取り消します。「 %1$s 」フィールドに表示されている他の人はまだあなたのインスティテューションに参加できます。';
-=======
-$string['institutionadmindescription1'] = 'ユーザがこのインスティテューションのユーザすべてを管理できるようにします。';
-$string['settingsfor'] = '設定:';
-$string['institutionmembers'] = 'インスティテューションメンバ';
-$string['notadminforinstitution'] = 'あなたはこのインスティテューションの管理者ではありません。';
-$string['institutionmemberspagedescription'] = 'このページではあなたのインスティテューションにメンバシップをリクエストしたユーザを確認およびメンバとして追加できます。また、あなたのインスティテューションからユーザを削除および招待できます。';
-$string['suspendordeletethisuser'] = 'このユーザを利用停止または削除する';
-$string['institutionusersinstructionsrequesters1'] = '「 %1$s 」フィールドのユーザ一覧ではあなたのインスティテューションへの参加をリクエストしたユーザすべてが表示されます。表示されるユーザ数を減らすためあなたは検索ボックスを使用できます。あなたがユーザをインスティテューションに追加したい場合、またはメンバシップリクエストを拒否したい場合、1名またはそれ以上のユーザを選択して右矢印をクリックすることで最初にユーザを「 %2$s 」フィールドに移動してください。「メンバを追加する」ボタンにより「 %2$s 」フィールド内のユーザすべてをインスティテューションに追加します。「リンクエストを拒否する」ボタンにより「 %2$s 」フィールド内のユーザのメンバシップリクエストを削除します。';
-$string['institutionusersinstructionsnonmembers1'] = '「 %1$s 」フィールドのユーザ一覧ではあなたのインスティテューションへの参加をまだリクエストしていないユーザすべてが表示されます。表示されるユーザ数を減らすためあなたは検索ボックスを使用できます。ユーザをインスティテューションに参加するよう招待するには1名またはそれ以上のユーザを選択して右矢印をクリックすることで最初にユーザを「 %2$s 」フィールドに移動してください。「ユーザを招待する」ボタンにより「 %2$s 」フィールド内のユーザすべてに招待を送信します。招待を受け入れるまでこれらのユーザはインスティテューションと関連付けられません。';
-$string['institutionusersinstructionslastinstitution1'] = '「 %1$s 」フィールドのユーザ一覧ではあなたのインスティテューションへの参加をまだリクエストしていないユーザおよび選択されたインスティテューションを離れたユーザすべてが表示されます。表示されるユーザ数を減らすためあなたは検索ボックスを使用できます。ユーザをインスティテューションに参加するよう招待するには1名またはそれ以上のユーザを選択して右矢印をクリックすることで最初にユーザを「 %2$s 」フィールドに移動してください。「ユーザを招待する」ボタンにより「 %2$s 」フィールド内のユーザすべてに招待を送信します。招待を受け入れるまでこれらのユーザはインスティテューションと関連付けられません。';
-$string['institutionusersinstructionsmembers1'] = '「 %1$s 」フィールドのユーザ一覧ではインスティテューションのメンバすべてを表示します。表示されるユーザ数を減らすためあなたは検索ボックスを使用できます。インスティテューションからユーザを削除するには1名またはそれ以上のユーザを選択して右矢印をクリックすることで最初にユーザを「 %2$s 」フィールドに移動してください。あなたが選択したユーザは「 %2$s 」フィールドに移動されます。「ユーザを削除する」ボタンにより「 %2$s 」フィールド内のユーザすべてをインスティテューションから削除します。';
-$string['institutionusersinstructionsinvited1'] = '「 %1$s 」フィールドのユーザ一覧ではインスティテューションに参加するよう招待が送信されてまだ承認または拒否されていないユーザすべてが表示されます。表示されるユーザ数を減らすためあなたは検索ボックスを使用できます。インスティテューションへの招待を取り消すには1名またはそれ以上のユーザを選択して右矢印をクリックすることで最初にユーザを「 %2$s 」フィールドに移動してください。あなたが選択したユーザは「 %2$s 」フィールドに移動されます。「招待を取り消す」ボタンにより「 %2$s 」フィールド内のユーザすべてへの招待を削除します。他のユーザのインスティテューションへの招待は保持されいつでも参加できます。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['editmembers'] = 'メンバを編集する';
-$string['editstaff'] = 'スタッフを編集する';
-$string['editsupportadmins'] = 'サポート管理者を編集する';
-$string['editadmins'] = '管理者を編集する';
-$string['membershipexpiry'] = 'メンバシップ有効期限';
-<<<<<<< HEAD
-$string['membershipexpirydescription'] = '人がインスティテューションから自動的に削除される日付です。';
-$string['studentid'] = 'IDナンバ';
-$string['institutionstudentiddescription'] = 'インスティテューション固有の任意の識別子です。インスティテューションメンバはこのフィールドを編集できません。';
-$string['userstodisplay'] = '表示する人:';
-=======
-$string['membershipexpirydescription'] = 'ユーザがインスティテューションから自動的に削除される日付です。';
-$string['studentid'] = 'IDナンバ';
-$string['institutionstudentiddescription'] = 'インスティテューション固有の任意の識別子です。ユーザはこのフィールドを編集できません。';
-$string['userstodisplay'] = '表示するユーザ:';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['institutionusersrequesters'] = 'インスティテューションのメンバシップをリクエストした人';
-$string['institutionusersnonmembers'] = 'まだインスティテューションのメンバシップをリクエストしていない人';
-$string['institutionuserslastinstitution'] = 'インスティテューションから離脱した人';
-$string['institutionusersmembers'] = 'すでにインスティテューションのメンバになっている人';
-$string['institutionusersinvited'] = '招待された人';
-$string['addnewmembers'] = '新しいメンバを追加する';
-<<<<<<< HEAD
-$string['usersrequested'] = 'メンバシップをリクエストした人';
-$string['userstobeadded'] = 'メンバとして追加される人';
-$string['userstoaddorreject'] = '追加/拒否される人';
-$string['addmembers'] = 'メンバを追加する';
-$string['inviteuserstojoin'] = '人にインスティテューションへの参加を招待する';
-$string['userswhohaveleft'] = 'インスティテューション %s から離脱した人';
-$string['Non-members'] = '非メンバ';
-$string['userstobeinvited'] = '招待される人';
-$string['inviteusers'] = '人を招待する';
-$string['removeusersfrominstitution'] = 'インスティテューションから人を削除する';
-$string['currentmembers'] = '現在のメンバ';
-$string['userstoberemoved'] = '削除されるメンバ';
-$string['removeusers'] = '人を削除する';
-$string['declinerequests'] = 'リクエストを拒否する';
-$string['nousersupdated'] = '更新されたアカウントはありません。';
-$string['errorupdatinginstitutionusers'] = 'インスティテューションメンバ更新中にエラーが発生しました。';
-$string['revokeinvitation'] = '招待を取り消す';
-$string['invitedusers'] = '招待された人';
-$string['userstobeuninvited'] = '招待を取り消される人';
-=======
-$string['usersrequested'] = 'メンバシップをリクエストしたユーザ';
-$string['userstobeadded'] = 'メンバとして追加されるユーザ';
+$string['usersreactivated'] = 'ユーザを復活しました。';
+$string['usersrequested'] = 'メンバーシップをリクエストしたユーザ';
+$string['usersseenewthemeonlogin'] = '次回ログイン時、他のユーザに新しいテーマが表示されます。';
 $string['userstoaddorreject'] = '追加/拒否されるユーザ';
-$string['addmembers'] = 'メンバを追加する';
-$string['inviteuserstojoin'] = 'ユーザにインスティテューションへの参加を招待する';
-$string['userswhohaveleft'] = 'インスティテューション %s を離れたユーザ';
-$string['Non-members'] = '非メンバ';
+$string['userstobeadded'] = 'メンバーとして追加されるユーザ';
 $string['userstobeinvited'] = '招待されるユーザ';
-$string['inviteusers'] = 'ユーザを招待する';
-$string['removeusersfrominstitution'] = 'インスティテューションからユーザを削除する';
-$string['currentmembers'] = '現在のメンバ';
 $string['userstoberemoved'] = '削除されるユーザ';
-$string['removeusers'] = 'ユーザを削除する';
-$string['declinerequests'] = 'リクエストを拒否する';
-$string['nousersupdated'] = '更新されたユーザはありません。';
-$string['errorupdatinginstitutionusers'] = 'インスティテューションユーザ更新中にエラーが発生しました。';
-$string['revokeinvitations'] = '招待を取り消す';
-$string['invitedusers'] = '招待されたユーザ';
-$string['userstobeuninvited'] = '招待を取り消されるユーザ';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['moveuserstoadd'] = '選択したメンバリクエストをメンバに変更する';
-$string['moveusersfromadd'] = '選択したメンバをメンバリクエストに変更する';
-$string['moveuserstoinvite'] = '選択した非メンバを招待済みに変更する';
-$string['moveusersfrominvite'] = '選択した招待済みを非メンバに変更する';
-<<<<<<< HEAD
-$string['moveuserstoinviteinstitution'] = '選択した旧 %s のメンバを招待済みに変更する';
-$string['moveusersfrominviteinstitution'] = '選択した招待済みの人を旧 %s のメンバに変更する';
-$string['movememberstoremove'] = '選択したメンバを削除済みメンバに変更する';
-$string['movemembersfromremove'] = '選択した削除済みメンバをメンバに変更する';
-$string['moveuserstouninvited'] = '選択した招待済みの人を未招待に変更する';
-$string['moveusersfromuninvited'] = '選択した未招待の人を招待済みに変更する';
-$string['institutionusersupdated_addUserAsMember'] = '人が追加されました。';
-=======
-$string['moveuserstoinviteinstitution'] = '選択した旧 %s のユーザを招待済みに変更する';
-$string['moveusersfrominviteinstitution'] = '選択した招待済みユーザを旧 %s のユーザに変更する';
-$string['movememberstoremove'] = '選択したメンバを削除済みメンバに変更する';
-$string['movemembersfromremove'] = '選択した削除済みメンバをメンバに変更する';
-$string['moveuserstouninvited'] = '選択した招待済みユーザを未招待に変更する';
-$string['moveusersfromuninvited'] = '選択した未招待ユーザを招待済みに変更する';
-$string['institutionusersupdated_addUserAsMember'] = 'ユーザが追加されました。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['institutionusersupdated_declineRequestFromUser'] = 'リクエストが拒否されました。';
-$string['institutionusersupdated_removeMembers'] = '人が削除されました。';
-$string['institutionusersupdated_inviteUser'] = '招待が送信されました。';
-$string['institutionusersupdated_uninvite_users'] = '招待が取り消されました。';
-<<<<<<< HEAD
-$string['maxuseraccounts1'] = '許可される最大アカウント数';
-$string['maxuseraccountsdescription'] = 'インスティテューションに関連付けることのできる最大アカウント数です。制限がない場合、このフィールドは空白にしてください。';
-$string['institutionmaxusersexceeded'] = 'このインスティテューションはメンバ数が上限に達しました。この人を追加できるようにするにはあなたはこのインスティテューションが許可するメンバ数を増やす必要があります。';
-$string['institutionuserserrortoomanyusers'] = 'これらの人は追加されませんでした。メンバ数はインスティテューションで許可される最大メンバ数を超えることはできません。あなたは少数の人を追加するか、インスティテューションから人を削除するか、サイト管理者に最大メンバ数を増やすよう依頼できます。';
-$string['institutionuserserrortoomanyinvites'] = 'あなたの招待は送信されませんでした。既存のメンバ + 未処理の招待者数はインスティテューションで許可される最大メンバ数を超えることはできません。あなたは少数の人を招待するか、インスティテューションから人を削除するか、サイト管理者に最大メンバ数を増やすよう依頼できます。';
-$string['maxnumberofgroups'] = '許可される最大グループ数';
-$string['maxgroupsdescription'] = 'インスティテューションと関連付けられる最大グループ数です。制限がない場合、このフィールドは空白にしてください。';
-$string['institutionmaxgroupsexceeded'] = 'このインスティテューションにはすでに %s のグループが登録されています。一部のグループを削除するか、グループ上限を増やしてください。';
-$string['maxmembersexceeded'] = 'このインスティテューションにはすでに %s のメンバが登録されています。一部のメンバを削除するか、アカウント上限を増やしてください。';
-$string['Shortname'] = '省略名';
-$string['Members'] = 'メンバ';
-$string['Maximummembers'] = '最大メンバ数';
-$string['Maximumgroups'] = '最大グループ数';
-=======
-$string['maxuseraccounts'] = '許可される最大ユーザアカウント数';
-$string['maxuseraccountsdescription'] = 'インスティテューションに関連付けることのできる最大ユーザアカウント数です。制限がない場合、このフィールドは空白にしてください。';
-$string['institutionmaxusersexceeded'] = 'このインスティテューションはユーザ数が上限に達しました。このユーザを追加できるようにするにはあなたはこのインスティテューションが許可するユーザ数を増やす必要があります。';
-$string['institutionuserserrortoomanyusers'] = 'ユーザは追加されませんでした。メンバ数はインスティテューションで許可される最大ユーザ数を超えることはできません。あなたは少数のユーザを追加するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼できます。';
-$string['institutionuserserrortoomanyinvites'] = 'あなたの招待は送信されませんでした。既存のユーザ + 未処理の招待者数はインスティテューションで許可される最大ユーザアカウント数を超えることはできません。あなたは少数のユーザを招待するか、インスティテューションからユーザを削除するか、サイト管理者に最大ユーザ数の増加を依頼できます。';
-$string['Shortname'] = '省略名';
-$string['Members'] = 'メンバ';
-$string['Maximum'] = '最大';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['Staff'] = 'スタッフ';
-$string['Admins'] = '管理者';
-$string['Supportadmins'] = 'サポート管理者';
-$string['noinstitutions'] = 'インスティテューションはありません。';
-<<<<<<< HEAD
-$string['noinstitutionsdescription'] = 'あなたが人をインスティテューションと関連付けたい場合、最初にインスティテューションを作成してください。';
-$string['noinstitutionreports'] = 'インスティテューションレポートを表示できません。';
-$string['noinstitutionreportsdescription2'] = 'サイトがスタッフまたはサポート管理者にインスティテューションレポートを閲覧できるようにするにはインスティテューションレポートアクセスを有効にする必要があります。サイト管理者は<a href="%sadmin/site/options.php">サイト設定</a>の「インスティテューション設定」でこの設定を有効にできます。';
-=======
-$string['noinstitutionsdescription'] = 'あなたがユーザをインスティテューションと関連付けたい場合、最初にインスティテューションを作成してください。';
-$string['noinstitutionreports'] = 'インスティテューションレポートを表示できません。';
-$string['noinstitutionreportsdescription'] = 'サイトがスタッフにインスティテューションレポートを閲覧できるようにするにはスタッフレポートアクセスを有効にする必要があります。サイト管理者は<a href="%sadmin/site/options.php">サイト設定</a>の「ユーザ設定」でこの設定を有効にできます。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['noinstitutionstaticpages'] = 'あなたにはインスティテューション固定ページを編集するためのパーミッションがないかまだインスティテューションが作成されていません。';
-$string['noinstitutionstaticpagesadmin'] = 'あなたがサイト管理者の場合、<a href="%s">サイト設定</a>でデフォルト固定ページを編集してください。';
-$string['Lockedfields'] = 'ロックフィールド';
-$string['disabledlockedfieldhelp1'] = '注意: あなたがオプションを変更できない場合、プロファイルフィールドは「 %s 」のインスティテューション設定でロックされています。これらのプロファイルフィールドはサイトレベルでロックされているためここでロック解除できません。';
-<<<<<<< HEAD
-$string['defaultinstitutionquotadescription'] = 'あなたはこのインスティテューションの新しいメンバにクオータとして割り当てられるディスクスペース総量を設定できます。';
-$string['updateinstitutionuserquotasdesc2'] = 'あなたが上で選択したデフォルトクオータを既存のメンバすべてに適用します。';
-$string['institutiontagsdesc'] = 'インスティテューションタグが有効にされている場合、メンバが利用できるタグを設定します。';
-$string['approve'] = '承認';
-$string['deny'] = '拒否';
-$string['approveregistrationfor2'] = '「 %s %s <%s> 」の登録を承認する';
-$string['approveregistrationmessage'] = '人の登録を承認してインスティテューション「 %s 」に追加します。本当にこの登録を承認してもよろしいですか?';
-$string['denyregistrationfor'] = '「 %s %s 」の登録を拒否する';
-$string['denyregistrationmessage'] = '人の登録を拒否します。本当にこの登録を拒否してもよろしいですか?';
-$string['nopendingregistrations'] = 'このインスティテューションの登録保留はありません。';
-$string['pendingregistration'] = '登録保留';
-$string['pendingregistrations'] = '登録保留';
-$string['pendingregistrationspagedescription2'] = '<p>このページではあなたのインスティテューションで自己登録およびメンバシップをリクエストした人を閲覧できます。あなたは登録リクエストを承認または拒否できます。<p>
-<p>登録を承認した場合、人にはアカウントの有効化に関して詳細なインストラクションを記載した通知が送信されます。人が有効化リンクをクリックした場合、インスティテューションのメンバとして追加されます。有効化リンクは24時間で有効期限切れとなり人の詳細は削除されます。まだ登録したい場合、同じ手続きを再度開始する必要があります。</p>
-<p>登録を拒否した場合、人に自動的に通知されます。</p>';
-$string['pendingregistrationdesc'] = 'あなたのインスティテューションへの自己登録した人のメンバシップを承認または拒否します。';
-$string['pendingdeletiondesc'] = '自分のアカウントを削除したい人の削除を承認または拒否します。';
-$string['pendingusercompletion1'] = '承認が送信されました。人の登録処理の完了を待っています。';
-$string['nosuchinstitution'] = 'そのようなインスティテューションはありません。';
-$string['registrationapprovedsuccessfully'] = '登録が正常に承認されました。';
-$string['registrationapprovedmessage'] = '登録メッセージ:';
-$string['registrationapproveddesc'] = '新しく登録した人への追加情報です。';
-$string['registrationdeniedreason'] = '拒否理由';
-$string['registrationdeniedreasondesc'] = '申請拒否理由に関する情報です。';
-=======
-$string['defaultinstitutionquotadescription'] = 'あなたはこのインスティテューションの新しいユーザにクオータとして割り当てられるディスクスペース総量を設定できます。';
-$string['updateinstitutionuserquotasdesc2'] = 'あなたが上で選択したデフォルトクオータを既存のメンバすべてに適用します。';
-$string['approve'] = '承認';
-$string['deny'] = '拒否';
-$string['approveregistrationfor2'] = '「 %s %s <%s> 」の登録を承認する';
-$string['approveregistrationmessage'] = 'ユーザの登録を承認してインスティテューション「 %s 」に追加します。本当にこの登録を承認してもよろしいですか?';
-$string['denyregistrationfor'] = '「 %s %s 」の登録を拒否する';
-$string['denyregistrationmessage'] = 'ユーザの登録を拒否します。本当にこの登録を拒否してもよろしいですか?';
-$string['nopendingregistrations'] = 'このインスティテューションの登録保留はありません。';
-$string['pendingregistration'] = '登録保留';
-$string['pendingregistrations'] = '登録保留';
-$string['pendingregistrationspagedescription'] = '<p>このページでは自己登録およびあなたのインスティテューションのメンバシップをリクエストしたユーザを閲覧すること、登録を承認または拒否できます。<p>
-
-<p>登録を承認することであなたはユーザをインスティテューションのメンバに追加することになります。承認されたユーザにはアカウントの有効化に関してさらなるインストラクションを記載したメールが送信されます。登録を拒否した場合、申請が拒否された旨の自動返信メールが送信されます。</p>';
-$string['nosuchinstitution'] = 'そのようなインスティテューションはありません。';
-$string['registrationapprovedsuccessfully'] = '登録が正常に承認されました。';
-$string['registrationdeniedreason'] = '拒否理由';
-$string['registrationdeniedreasondesc'] = '申請拒否理由に関するユーザ向けの情報です。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['registrationdeniedsuccessful'] = '登録が正常に拒否されました';
-$string['registrationdeniedunsuccessful'] = '登録拒否に失敗しました。';
-$string['registrationreason'] = '登録理由';
-$string['makeuserinstitutionstaff'] = '初回ログイン時、このメールアドレスのオーナにインスティテューションスタッフのパーミッションを自動的に割り当てます。';
-$string['errorwhileunsuspending'] = '利用停止解除中にエラーが発生しました。';
-$string['institutionsuspended'] = 'インスティテューションが利用停止されました。';
-$string['institutionunsuspended'] = 'インスティテューションの利用停止が解除されました。';
-<<<<<<< HEAD
-$string['institutionlogoutusers'] = 'ログアウト %s 人';
-$string['suspendedinstitution'] = '利用停止';
-$string['suspendinstitution'] = 'インスティテューションを利用停止する';
-$string['suspendinstitutiondescription'] = 'ここであなたはインスティテューションを利用停止できます。利用停止されたインスティテューションの人はインスティテューションが利用停止解除されるまでログインできません。';
-$string['suspendedinstitutionmessage'] = 'このインスティテューションは利用停止されています。';
-$string['unsuspendinstitution'] = 'インスティテューションの利用停止を解除する';
-$string['unsuspendinstitutiondescription'] = 'ここであなたはインスティテューションの利用停止を解除できます。利用停止されたインスティテューションの人はインスティテューションが利用停止解除されるまでログインできません。<br><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止される可能性があります。';
-$string['unsuspendinstitutiondescription_warning'] = '<strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止される可能性があります。';
-$string['unsuspendinstitutiondescription_instadmin'] = '利用停止されたインスティテューションの人はログインできません。インスティテューションの利用停止を解除するには管理者にご連絡ください。';
-$string['bulkexport'] = 'アカウントをエクスポートする';
-$string['bulkexportempty'] = 'エクスポートに適したものはありません。ユーザ名のリストを再度確認してください。';
-$string['bulkexportinstitution'] = 'すべてのメンバをエクスポートするインスティテューション';
-$string['bulkexporttitle1'] = 'アカウントをバルクエクスポートする';
-$string['bulkexportdescription1'] = 'エクスポートフォーマットを選択した後、エクスポートするインスティテューションを選択<strong>または</strong>ユーザ名のリストを指定してください。';
-$string['bulkexportusernames'] = 'エクスポートするユーザ名';
-$string['bulkexportusernamesdescription'] = 'データとともにエクスポートされるアカウントのリストです (1行あたり1ユーザ名)。';
-$string['couldnotexportusers'] = '次のアカウントをエクスポートできませんでした: %s';
-=======
-$string['institutionlogoutusers'] = 'ログアウト %s ユーザ';
-$string['suspendedinstitution'] = '利用停止';
-$string['suspendinstitution'] = 'インスティテューションを利用停止する';
-$string['suspendinstitutiondescription'] = 'ここであなたはインスティテューションを利用停止できます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまでログインできません。';
-$string['suspendedinstitutionmessage'] = 'このインスティテューションは利用停止されています。';
-$string['unsuspendinstitution'] = 'インスティテューションの利用停止を解除する';
-$string['unsuspendinstitutiondescription'] = 'ここであなたはインスティテューションの利用停止を解除できます。利用停止されたインスティテューションのユーザはインスティテューションが利用停止解除されるまでログインできません。<br><strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止される可能性があります。';
-$string['unsuspendinstitutiondescription_top'] = '<strong>注意:</strong> 有効期限をリセットまたは無効にしないまま利用停止を解除した場合、毎日、再度利用停止される可能性があります。';
-$string['unsuspendinstitutiondescription_top_instadmin'] = '利用停止されたインスティテューションのユーザはログインできません。インスティテューションの利用停止を解除するには管理者にご連絡ください。';
-$string['bulkexport'] = 'ユーザをエクスポートする';
-$string['bulkexportempty'] = 'エクスポートに合致するユーザはありません。ユーザ名のリストを再度確認してください。';
-$string['bulkexportinstitution'] = 'すべてのユーザをエクスポートするインスティテューション';
-$string['bulkexporttitle'] = 'ユーザをLeap2Aファイルにエクスポートする';
-$string['bulkexportdescription'] = 'エクスポートするインスティテューションを選択<b>または</b>ユーザ名のリストを指定してください:';
-$string['bulkexportusernames'] = 'エクスポートするユーザ名';
-$string['bulkexportusernamesdescription'] = 'データとともにエクスポートされるユーザのリストです (1行あたり1ユーザ)。';
-$string['couldnotexportusers'] = '次のユーザをエクスポートできませんでした: %s';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['exportingusername'] = 'エクスポート %s ...';
-$string['ignoringbulkexportuser'] = 'ユーザ名「 %s 」の人が見つからなかったため無視します。';
-$string['Search'] = '検索';
-$string['Institution'] = 'インスティテューション';
-$string['confirm'] = '承認';
-$string['invitedby'] = '招待者';
-$string['requestto'] = 'リクエスト先';
-<<<<<<< HEAD
-$string['useradded'] = '人が追加されました。';
-$string['invitationsent'] = '招待が送信されました。';
-$string['withselectedusers'] = '選択したアカウントに対して';
-$string['withselectedusersedit'] = '選択したアカウントを編集する';
-$string['withselectedusersreports'] = '選択したアカウントのレポートを取得する';
-$string['getreports'] = 'レポートを取得する';
-$string['selectuser'] = '人「 %s 」を選択する';
-$string['bulkactions'] = 'バルク処理';
-$string['editselectedusersdescription1'] = 'あなたが検索ページで選択したアカウントの利用停止、削除または認証方法を変更します。';
-$string['editselectedportfoliosdescription'] = 'あなたが検索ページで選択したアカウントに対して選択したコレクションをロックまたはロック解除します。「ロック解除」を選択した場合、あなたはコレクションにレビュアを追加できます。「ロック」を選択した場合、レビュアは削除されます。';
-$string['uneditableusers'] = 'あなたは編集できない %s アカウントを選択しました。アカウントはリストから取り除かれました。';
-$string['exportusersascsv'] = 'アカウントをCSVフォーマットでエクスポートする';
-$string['downloadusersascsv'] = 'CSVフォーマットのアカウント';
-$string['downloaddataascsv'] = 'CSVフォーマットの %s 統計';
-$string['Download'] = 'ダウンロード';
-$string['suspendusers'] = '人を利用停止する';
-$string['Suspend'] = '利用停止';
-$string['bulksuspenduserssuccess'] = '%d 名の人を利用停止しました。';
-$string['changeauthmethod'] = '認証方法を変更する';
-$string['someusersnotinauthinstanceinstitution'] = 'あなたが選択した何名かの人はこの認証方法に関連付けられたインスティテューションに属していません。';
-$string['bulkchangeauthmethodsuccess'] = '%d アカウントの認証方法をリセットしました。';
-$string['bulkchangeauthmethodresetpassword'] = 'あなたはパスワードを必要とする認証方法を選択しました。%d 名の人にはパスワードが割り当てられていないためパスワードがリセットされるまでログインできません。';
-$string['bulkdeleteuserssuccess'] = '%d アカウントを削除しました。';
-$string['bulkprobationpointssuccess'] = '%1$d アカウントに保護観察ポイント %2$d を設定しました。';
-$string['selectedusers'] = '選択済みのアカウント';
-$string['selectednusers'] = '%s 人が選択されました。';
-$string['remoteuser'] = 'リモートユーザ名';
-$string['quotapercent'] = 'クオータ使用量';
-$string['userreports'] = '人レポート';
-$string['userreportsdescription'] = 'あなたが検索ページで選択したアカウントに関する情報を表示またはダウンロードします。';
-$string['unabletodeleteself1'] = 'あなたは自分自身を削除できません。';
-$string['unabletodeletealladmins1'] = 'あなたはすべてのサイト管理者を削除できません。';
-$string['unabletosuspendself'] = 'あなたは自分自身を利用停止できません。';
-$string['unabletosuspendalladmins'] = 'あなたはすべてのサイト管理者を利用停止できません。';
-$string['verifierload'] = 'レビュア負荷別のポートフォリオのパーセンテージ';
-$string['verifierpercentage'] = 'レビュアに割り当てられたポートフォリオのパーセンテージ';
-$string['countportfolios'] = '%s テンプレートポートフォリオ選択済み';
-$string['allocated'] = '割り当て済み';
-$string['unallocated'] = '未割り当て';
-$string['currentverifiersovertime'] = '現在のレビュアの推移';
-$string['currentverifiers'] = '現在のレビュア';
-$string['manageportfoliosmethod'] = 'ポートフォリオを管理する';
-$string['filterportfolios'] = 'テンプレートでフィルタする';
-$string['locking_collection_locked'] = 'コレクション 「 %s 」 は現在ロックされています。';
-$string['locking_collection_unlocked'] = 'コレクション 「 %s 」 はロック解除されました。';
-$string['locking_collection_verifier_add'] = 'レビュア「 %s 」 が追加されました。';
-$string['locking_collection_verifier_remove'] = 'レビュア「 %s 」 が削除されました。';
-=======
-$string['useradded'] = 'ユーザが追加されました。';
-$string['invitationsent'] = '招待が送信されました。';
+$string['userstobeuninvited'] = '招待されるユーザ';
+$string['userstodisplay'] = '表示するユーザ:';
+$string['usersunsuspendedsuccessfully'] = 'ユーザの利用停止が正常に解除されました。';
+$string['usersuspended'] = 'ユーザが利用停止されました。';
+$string['userswhohaveleft'] = 'インスティテューション %s を離れたユーザ';
+$string['userunsuspended'] = 'ユーザの利用停止が解除されました。';
+$string['userwillreceiveemailandhastochangepassword'] = '新しいアカウント詳細を記載したメールがユーザに送信されます。新しく作成されたユーザは初回ログイン時にパスワードの変更を求められます。';
+$string['validating'] = 'データの確認中 ...';
+$string['viewfullsitestatistics'] = 'サイト統計詳細を表示する';
+$string['viewsbytype'] = 'タイプ別ページ';
+$string['viewsperuser'] = 'ページを作成したユーザはそれぞれ約 %s ページを持っています。';
+$string['viruschecking'] = 'ウイルスチェック';
+$string['viruscheckingdescription1'] = 'ClamAVを使用してアップロードファイルすべてのウイルスをチェックします。';
+$string['visitedtimesrank'] = '訪問回数: %s 回 / ランク数: %s 件';
+$string['warnings'] = '警告';
+$string['watchlistdelaydescription'] = 'ウォッチリストの変更に関するメールを送信する遅延時間 (分) です。';
+$string['watchlistdelaytitle'] = 'ウォッチリスト通知遅延';
+$string['whocancreategroups'] = 'グループを作成する';
+$string['whocancreategroupsdescription'] = '新しいグループを作成できるユーザを決定します。';
+$string['whocancreatepublicgroups'] = 'パブリックグループを作成する';
+$string['whocancreatepublicgroupsdescription'] = '一般の人も閲覧可能なグループを作成できるユーザを選択します。';
+$string['withselectedcontentdelete'] = '選択したアイテムをエクスポートキューから削除する';
+$string['withselectedcontentexport'] = 'アイテムを再度エクスポートキューに入れる';
 $string['withselectedusers'] = '選択したユーザに対して';
 $string['withselectedusersedit'] = '選択したユーザを編集する';
 $string['withselectedusersreports'] = '選択したユーザのレポートを取得する';
-$string['getreports'] = 'レポートを取得する';
-$string['selectuser'] = 'ユーザ「 %s 」を選択する';
-$string['bulkactions'] = 'バルク処理';
-$string['editselectedusersdescription1'] = 'あなたがユーザ検索ページで選択したユーザの利用停止、削除または認証方法を変更します。';
-$string['uneditableusers'] = 'あなたは編集できない %s ユーザを選択しました。選択されたユーザはリストから取り除かれました。';
-$string['exportusersascsv'] = 'ユーザをCSVフォーマットでエクスポートする';
-$string['downloadusersascsv'] = 'CSVフォーマットのユーザ';
-$string['downloaddataascsv'] = 'CSVフォーマットの %s 統計';
-$string['Download'] = 'ダウンロード';
-$string['suspendusers'] = 'ユーザを利用停止する';
-$string['Suspend'] = '利用停止';
-$string['bulksuspenduserssuccess'] = '%d 名のユーザを利用停止しました。';
-$string['changeauthmethod'] = '認証方法を変更する';
-$string['someusersnotinauthinstanceinstitution'] = 'あなたが選択した何名かのユーザはこの認証方法に関連付けられたインスティテューションに属していません。';
-$string['bulkchangeauthmethodsuccess'] = '%d 名のユーザの認証方法をリセットしました。';
-$string['bulkchangeauthmethodresetpassword'] = 'あなたはパスワードを必要とする認証方法を選択しました。%d 名のユーザにはパスワードが割り当てられていないためパスワードがリセットされるまでログインできません。';
-$string['bulkdeleteuserssuccess'] = '%d 名のユーザを削除しました。';
-$string['bulkprobationpointssuccess'] = '%1$d ユーザに保護観察ポイント %2$d を設定しました。';
-$string['selectedusers'] = '選択済みユーザ';
-$string['selectednusers'] = '%s ユーザが選択されました。';
-$string['remoteuser'] = 'リモートユーザ名';
-$string['userreports'] = 'ユーザレポート';
-$string['userreportsdescription'] = 'あなたが検索ページで選択したユーザ情報を表示またはダウンロードします。';
-$string['unabletodeleteself1'] = 'あなたは自分自身を削除できません。';
-$string['unabletodeletealladmins1'] = 'あなたはすべてのサイト管理者を削除できません。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['notificationssaved'] = '通知設定が保存されました。';
-$string['onlyshowingfirst'] = '最初のみ表示する';
-$string['resultsof'] = '検索結果';
-$string['deprecated'] = '- 非推奨';
-$string['installed'] = 'インストール済み';
-$string['errors'] = 'エラー';
-$string['install'] = 'インストール';
-$string['reinstall'] = '再インストール';
-$string['None'] = 'なし';
-$string['Simple'] = 'シンプル';
-$string['Advanced'] = '高度';
-$string['sitesettingslegend'] = 'サイト設定';
-$string['accesssettingslegend'] = 'アクセス設定';
-$string['groupsettingslegend'] = 'グループ設定';
-$string['searchsettingslegend'] = '検索設定';
-$string['institutionsettingslegend'] = 'インスティテューション設定';
-$string['accountsettingslegend'] = 'アカウント設定';
-$string['securitysettingslegend'] = 'セキュリティ設定';
-<<<<<<< HEAD
-$string['sideblocksettingslegend'] = 'サイドブロック設定';
-=======
-$string['generalsettingslegend'] = '一般設定';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['loggingsettingslegend'] = 'ロギング設定';
-$string['groupname'] = 'グループ名';
-$string['groupshortname'] = '省略名';
-$string['groupmembers'] = 'メンバ';
-$string['groupadmins'] = '管理者';
-$string['grouptype'] = 'グループタイプ';
-$string['groupvisible'] = '可視性';
-$string['groupmanage'] = '管理';
-$string['groupmanagespecific'] = '「 %s 」を管理する';
-$string['groupdelete'] = '削除';
-$string['managegroupquotadescription1'] = 'このグループのグループファイルクオータを変更する場合、このフォームを使用してください。';
-<<<<<<< HEAD
-$string['managegroupdescription1'] = 'このグループの管理者を昇格および降格する場合、このフォームを使用してください。あなたがグループ管理者を削除した場合、その人はグループメンバとして残ります。';
-$string['loggedinfilter'] = 'ログイン日時でフィルタする:';
-$string['anyuser'] = 'すべての人';
-$string['usershaveloggedin'] = 'ログインしたことのある人';
-$string['usershaveneverloggedin'] = 'ログインしたことのない人';
-$string['usershaveloggedinsince'] = '次の日時以降ログインしたことのある人';
-$string['usershavenotloggedinsince'] = '次の日時以降ログインしたことのない人';
-$string['duplicateemailfilter1'] = '重複メールアドレス';
-$string['objectionable'] = '好ましくないコンテンツ';
-$string['objectionablefilter'] = '好ましくないコンテンツの人';
-$string['noemailfound'] = 'メールアドレスは見つかりませんでした。';
-$string['lastlogin'] = '最終ログイン';
-$string['masqueradingreasonrequired'] = 'マスカレーディングの理由を要求する';
-$string['masqueradingreasonrequireddescription3'] = '管理者は別の人としてマスカレーディングする理由を入力する必要があります。「人にマスカレーディングを通知する」設定が有効にされている場合、マスカレーディングに関する人への通知に理由が含まれます。これを動作させるには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
-$string['masqueradingnotified'] = '人にマスカレーディングを通知する';
-$string['masqueradingnotifielddescription'] = '管理者がマスカレーディングする場合、人に通知します。通知には「誰が」「いつ」、それから「マスカレーディングの理由を要求する」が有効にされている場合、「なぜ」が含まれます。これを動作させるには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
-$string['masquerade'] = '続ける';
-$string['masqueradeas'] = '代理ログイン';
-$string['masqueradeasperson'] = '%s %s として代理ログインする';
-$string['masqueradereason'] = '理由';
-$string['masqueradereasondescription'] = 'この人としてログインする理由を入力してください。注意: この理由は人に通知されませんが、ログとして記録されます。';
-$string['masqueradenotificationdone'] = 'このマスカレーディングセッションが人に通知されました。';
-$string['masqueradenotifiedreasondescription'] = 'この人としてログインする理由を入力してください。注意: 人にはマスカレーディングの理由とともにあなたの氏名、日時を含むメッセージが送信されます。';
-$string['masqueradetime'] = 'マスカレーディング開始日時';
-$string['masquerader'] = 'マスカレーディング管理者';
-$string['masqueradee'] = '人';
-$string['nomasquerades'] = 'マスカレーディングセッションのロギングが有効にされているため別の誰かとして代理ログインした管理者はいません。';
-=======
-$string['managegroupdescription1'] = 'このグループの管理者を昇格および降格する場合、このフォームを使用してください。あなたがグループ管理者を削除した場合、そのユーザはグループメンバとして残ります。';
-$string['userscandisabledevicedetection'] = 'ユーザがデバイス検出を無効にできる';
-$string['userscandisabledevicedetectiondescription1'] = 'ユーザがこのサイトを閲覧するときにモバイルデバイス検出を無効にできるようにします。';
-$string['loggedinfilter'] = 'ログイン日時でフィルタする:';
-$string['anyuser'] = 'すべてのユーザ';
-$string['usershaveloggedin'] = 'ログインしたことのあるユーザ';
-$string['usershaveneverloggedin'] = 'ログインしたことのないユーザ';
-$string['usershaveloggedinsince'] = '次の日時以降ログインしたことのあるユーザ';
-$string['usershavenotloggedinsince'] = '次の日時以降ログインしたことのないユーザ';
-$string['duplicateemailfilter1'] = '重複メールアドレス';
-$string['noemailfound'] = 'メールアドレスは見つかりませんでした。';
-$string['lastlogin'] = '最終ログイン';
-$string['masqueradingreasonrequired'] = 'マスカレーディングの理由を要求する';
-$string['masqueradingreasonrequireddescription3'] = '管理者は別のユーザとしてマスカレーディングする理由を入力する必要があります。「ユーザにマスカレーディングを通知する」設定が有効にされている場合、マスカレーディングに関するユーザへの通知に理由が含まれます。これを動作させるには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
-$string['masqueradingnotified'] = 'ユーザにマスカレーディングを通知する';
-$string['masqueradingnotifielddescription'] = '管理者がマスカレーディングする場合、ユーザに通知します。通知には「誰が」「いつ」、それから「マスカレーディングの理由を要求する」が有効にされている場合、「なぜ」が含まれます。これを動作させるには「ロギング設定」でマスカレーディングセッションのロギングを有効にする必要があります。';
-$string['masquerade'] = '続ける';
-$string['masqueradereason'] = '理由';
-$string['masqueradereasondescription'] = 'このユーザとしてログインする理由を入力してください。注意: この理由はユーザに通知されませんが、ログとして記録されます。';
-$string['masqueradenotificationdone'] = 'このマスカレーディングセッションがユーザに通知されました。';
-$string['masqueradenotifiedreasondescription'] = 'このユーザとしてログインする理由を入力してください。注意: ユーザにはマスカレーディングの理由とともにあなたの氏名、日時を含むメッセージが送信されます。';
-$string['masqueradetime'] = 'マスカレーディング開始日時';
-$string['masquerader'] = 'マスカレーディング管理者';
-$string['masqueradee'] = 'ユーザ';
-$string['nomasquerades'] = 'マスカレーディングセッションのロギングが有効にされているため別のユーザとして代理ログインした管理者はいません。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['loginaslog'] = 'マスカレーディングセッション';
-$string['masqueradingnotloggedwarning'] = '<b>注意</b>: マスカレーディングセッションのロギングは現在無効にされています。このテーブルのデータを閲覧するには管理者が「 <a href="%sadmin/site/options.php">サイト設定</a> 」の「ロギング設定」を有効にする必要があります。';
-$string['masqueradenotificationsubject'] = '管理者があなたとしてログインしました。';
-$string['masqueradenotificationnoreason'] = '管理者「 %s 」が %s のあなたのアカウントにログインしました。';
-$string['masqueradenotificationreason'] = '管理者「 %s 」が %s のあなたのアカウントにログインしました。理由は次のとおりです: %s';
-<<<<<<< HEAD
-$string['nomasqueradeasself'] = 'あなた自身として代理ログインできません。';
-$string['progressbar'] = 'プロファイル完了';
-$string['showprogressbar'] = 'プロファイル完了を表示する';
-$string['progressbarsaved'] = 'プログレスバーが正常に保存されました。';
-$string['showprogressbardescription2'] = 'プロファイルで完了する必要のある内容に関してサイドバーにヒント付きのプログレスバーを表示します。これはアカウントプレファレンスで無効にできます。';
-$string['progressbardisablednote2'] = '<b>注意</b>: 現在、プロファイル完了は無効にされています。人がプロファイル完了に関して進捗を追跡できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「サイドブロック設定」セクションで有効にする必要があります。';
-$string['profilecompletiondesc'] = 'プロファイル完了が有効にされている場合、完了済みプロファイルにカウントされるコンテンツを選択してください。';
-$string['profilecompletenessdesc1'] = 'プロファイル完了では人がプロファイルをどの程度完了しているか確認できるサイドバーのビジュアルインディケータを使用できるようにします。あなたはプロファイル完了にカウントさせるアーティファクトを選択できます。他のすべてのアーティファクトを使用できますが完了カウントの要素とはなりません。';
-$string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックでプロファイル完了がどのように表示されるかプレビューできます。';
-$string['exporttoqueue'] = 'キューにエクスポートする';
-$string['exporttoqueuedescription3'] = 'サーバの負荷管理を改善するため、エクスポートキューにポートフォリオのエクスポートを処理させます。';
-=======
-$string['progressbar'] = 'プロファイル完了';
-$string['showprogressbar'] = 'プロファイル完了を表示する';
-$string['progressbarsaved'] = 'プログレスバーが正常に保存されました。';
-$string['showprogressbardescription1'] = 'ユーザプロファイルで完了する必要のある内容に関してサイドバーとしてユーザにヒント付のプログレスバーを表示します。これには無効にするオプションがあります。';
-$string['progressbardisablednote'] = '<b>注意</b>: 現在、プロファイル完了は無効にされています。ユーザがプロファイル完了に関して進捗を追跡できるようにするにはあなたは「<a href="%sadmin/site/options.php">サイト設定</a>」の「ユーザ設定」セクションで有効にする必要があります。';
-$string['profilecompletenessdesc1'] = 'プロファイル完了ではあなたのユーザはプロファイルをどの程度完了しているか確認できるサイドバーのビジュアルインディケータを使用できます。あなたはプロファイル完了にカウントさせるアーティファクトを選択できます。他のすべてのアーティファクトを使用できますが完了カウントの要素とはなりません。';
-$string['profilecompletenesspreview'] = 'あなたは「プロファイル完了プレビュー」サイドブロックでプロファイル完了がどのように表示されるかプレビューできます。';
-$string['exporttoqueue'] = 'キューにエクスポートする';
-$string['exporttoqueuedescription2'] = 'サーバ負荷管理を改善するためユーザポートフォリオのLeap2Aによるエクスポートをエクスポートキューが処理するようにします。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['validating'] = 'データの確認中 ...';
-$string['checkingupdates'] = '更新データの確認中 ...';
-$string['committingchanges'] = '変更の保存中 ...';
-$string['cli_pwreset_authupdated'] = '認証方法が「内部」に更新されました。';
-<<<<<<< HEAD
-$string['cli_pwreset_failure'] = 'エラー: 「 %s 」のパスワードを正常にリセットできませんでした。';
-$string['cli_pwreset_forcepasswordchange'] = '次回ログイン時、パスワードの変更を強制します (あなたが「--password」オプションを使用する場合、デフォルトは「true」です。そうではない場合、「false」を使用してください)。';
-$string['cli_pwreset_info'] = 'コマンドラインPHPスクリプトによりあなたは人のパスワードをリセットできます。これはパスワードのリセットが許可されている認証方法の人にのみ動作します (例:「内部」)。';
-$string['cli_pwreset_makeinternal'] = '人の認証方法を「内部」に変更します (デフォルトは「false」です)。';
-$string['cli_pwreset_nointernalauth'] = 'エラー: デフォルト「内部」認証方法は見つかりませんでした。';
-$string['cli_pwreset_nosuchuser'] = 'エラー: ユーザ名「 %s 」の人はデータベース内に存在しません。';
-$string['cli_pwreset_notsupported'] = 'エラー: 「 %s 」はパスワードリセットをサポートしない認証方法を使用しています。あなたが認証方法を「内部」認証に変更したい場合、「-i=true」オプションを使用してください。';
-$string['cli_pwreset_password'] = '新しいパスワードです。このパラメータが提供されていない場合、スクリプトはあなたにパスワードの入力を促します。';
-$string['cli_pwreset_prompt1'] = '新しいパスワードを入力してください。';
-$string['cli_pwreset_prompt2'] = '新しいパスワードを再度入力してください。';
-$string['cli_pwreset_success'] = '「 %s 」のパスワードが正常にリセットされました。';
-$string['cli_pwreset_success_forcepasswordchange'] = '次回ログイン時、人はパスワードのリセットを強制されます。';
-$string['cli_pwreset_typo'] = '申し訳ございません、パスワードが合致しません。';
-$string['cli_updateemail_info'] = 'あなたはこのコマンドラインPHPスクリプトで人のメールアドレスを追加または更新できます。あなたは新しいメールアドレスの主アドレスへの設定もできます。';
-$string['cli_updateemail_email'] = '新しいメールアドレス';
-$string['cli_updateemail_oldemail'] = '置換対象メールアドレス';
-$string['cli_updateemail_makeprimary'] = '新しいメールアドレスを主アドレスにする';
-$string['cli_updateemail_added_email'] = 'メールアドレス「 %s 」が「 %s 」に追加されました。';
-$string['cli_updateemail_update_email'] = 'メールアドレスが「 %s 」から「 %s 」に更新されました (ユーザ: %s)。';
-$string['cli_updateemail_oldemail_not_found'] = '置換対象メールアドレスが見つかりませんでした。';
-$string['cli_updateemail_email_primary'] = 'メールアドレス「 %s 」が主メールアドレスとして設定されました。';
-$string['cli_updateemail_email_alredy_exists'] = 'メールアドレスがすでに存在します。あなたがメールアドレスを主アドレスに設定したい場合、以下のコマンドを実行してください:
-sudo -u www-data php update_email.php -u=%s -e=%s -oe=%s -mp=true';
-$string['cli_updateemail_done'] = '完了';
-$string['cli_close_site_info'] = 'このコマンドラインPHPスクリプトによりあなたが非サイト管理者であってもサイトをクローズおよび再オープンできます (これは管理ホームページで「サイトをクローズする」ボタンを押すのと同じです)。';
-=======
-$string['cli_pwreset_failure'] = 'エラー: ユーザ「 %s 」のパスワードを正常にリセットできませんでした。';
-$string['cli_pwreset_forcepasswordchange'] = '次回ログイン時、パスワードの変更を強制します (あなたが「--password」オプションを使用する場合、デフォルトは「true」です。そうではない場合、「false」を使用してください)。';
-$string['cli_pwreset_info'] = 'コマンドラインPHPスクリプトによりあなたはユーザのパスワードをリセットできます。これはパスワードのリセットが許可されている認証方法の人にのみ動作します (例:「内部」)。';
-$string['cli_pwreset_makeinternal'] = 'ユーザ認証方法を「内部」に変更します (デフォルトは「false」です)。';
-$string['cli_pwreset_nointernalauth'] = 'エラー: デフォルト「内部」認証方法は見つかりませんでした。';
-$string['cli_pwreset_nosuchuser'] = 'エラー: ユーザ名「 %s 」のユーザはデータベース内に存在しません。';
-$string['cli_pwreset_notsupported'] = 'エラー: ユーザ「 %s 」はパスワードリセットをサポートしない認証方法を使用しています。あなたが認証方法を「内部」認証に変更したい場合、「-i=true」オプションを使用してください。';
-$string['cli_pwreset_password'] = '新しいパスワードです。このパラメータが提供されていない場合、スクリプトはあなたにパスワードの入力を促します。';
-$string['cli_pwreset_prompt1'] = '新しいパスワードを入力してください。';
-$string['cli_pwreset_prompt2'] = '新しいパスワードを再度入力してください。';
-$string['cli_pwreset_success'] = 'ユーザ「 %s 」のパスワードが正常にリセットされました。';
-$string['cli_pwreset_success_forcepasswordchange'] = '次回ログイン時、ユーザはパスワードのリセットを強制されます。';
-$string['cli_pwreset_typo'] = '申し訳ございません、パスワードが合致しません。';
-$string['cli_close_site_info'] = 'このコマンドラインPHPスクリプトによりあなたが非サイト管理ユーザであってもサイトをクローズおよび再オープンできます (これは管理ホームページで「サイトをクローズする」ボタンを押すのと同じです)。';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-$string['cli_close_site_siteclosed'] = 'メンテナンスのためサイトがクローズされました。';
-$string['cli_close_site_siteopen'] = 'サイトがオープンされました。';
-$string['cli_backupdir_notwritable'] = '言語バックアップディレクトリ「 %s 」に書き込み権がありません。';
-$string['cli_langpack'] = '言語コード一覧です (例: ja,de,pt_BR,fr)。';
-$string['cli_langpack_backup'] = '任意: アップデートの前に言語ディレクトリをバックアップします。';
-$string['cli_langpack_backup_done'] = '言語「 %s 」のバックアップを完了しました。';
-$string['cli_langpack_backup_failed'] = '*** 警告 *** 「 %s 」のバックアップを作成できません。';
-$string['cli_langpack_en'] = 'Mahara自体でストリングが定義されているため英語言語パックを更新する必要はありません。あなたは「local/lang/」で特別言語ストリングを設定できます。';
-$string['cli_langpack_extract_done'] = '新しい「 %s 」言語パックが所定の位置にコピーされました。';
-$string['cli_langpack_extract_failed'] = '*** 警告 *** 「 %s 」からファイルを展開できません - 理由: %s';
-<<<<<<< HEAD
-$string['cli_langpack_ignore'] = '言語パック「 %s 」はすでに最新版のためアップデートをスキップします。';
-$string['cli_langpack_info'] = 'あなたの言語パックをコマンドラインで更新するには次のことができます:
-=======
-$string['cli_langpack_info'] = 'あなたの言語パックをコマンドラインで更新するには次のことができます:
-
-1) 言語をコードでリストアップして言語パックをインストールまたは更新します。例)ja = 日本語、de = ドイツ語、fr = フランス語
-
-sudo -u www-data php admin/cli/sync_langpacks.php -l=ja,de,fr
-
-これにより「dataroot」内の「langpacks_backup」ディレクトリに既存の言語 (すでに存在する場合) のバックアップが作成されます。
-
-2) あなたがバックアップを作成したくない場合、「-b=false」フラグを追加してください。
-
-例)
-sudo -u www-data php admin/cli/sync_langpacks.php -l=ja,de,fr -b=false
-
-3) バックアップを元に戻す必要がある場合、あなたは「-r=true」フラグを使用できます。
-
-例)
-sudo -u www-data php admin/cli/sync_langpacks.php -l=ja,de,fr -r=true
-
-Maharaシステム内で設定されているため「en」言語のアップデートは無視されます。';
-$string['cli_langpack_missing'] = '言語パックが指定されていません。';
-$string['cli_langpack_revert'] = '最新バックアップバージョンの言語に戻します。';
-$string['cli_langdir_notwritable'] = '言語ディレクトリ「 %s 」に書き込み権がありません。';
-$string['cli_language_make_backup'] = 'バックアップを作成してもよろしいですか? %s';
-$string['cli_language_status'] = 'すでに言語「 %s 」はインストールされています: %s';
-$string['cli_langpack_url'] = '言語パックURL「 %s 」';
-$string['cli_langpack_url_failed'] = '*** 警告 *** 「 %s 」の言語パックが存在しないかダウンロードできません。リターンコード: %s';
-$string['cli_langpack_upload'] = '一時ディレクトリに言語パック「 %s 」を保存しています。';
-$string['cli_restore_done'] = '「 %s 」のバックアップのリストアを完了しました。';
-$string['cli_restore_warning'] = '*** 警告 *** 「 %s 」のバックアップをリストアできません。';
-$string['cli_tmpdir_notwritable'] = '一時アップロードディレクトリ「 %s 」に書き込み権がありません。';
-$string['cli_lang_branch'] = 'シリーズ「 %s 」の言語パックを取得するためのMaharaシリーズバージョン';
-$string['withselectedcontentexport'] = 'アイテムを再度エクスポートキューに追加する';
-$string['withselectedcontentdelete'] = '選択したアイテムをエクスポートキューから削除する';
-$string['allothers'] = 'その他すべて';
->>>>>>> 92099ba5d5a5390b497675e7809f65e21f9a5091
-
-1) 言語をコードでリストアップして言語パックをインストールまたは更新します。例)ja = 日本語、de = ドイツ語、fr = フランス語
-
-sudo -u www-data php admin/cli/sync_langpacks.php -l=ja,de,fr
-
-これにより「dataroot」内の「langpacks_backup」ディレクトリに既存の言語 (すでに存在する場合) のバックアップが作成されます。
-
-2) あなたがバックアップを作成したくない場合、「-b=false」フラグを追加してください。
-
-例)
-sudo -u www-data php admin/cli/sync_langpacks.php -l=ja,de,fr -b=false
-
-3) バックアップを元に戻す必要がある場合、あなたは「-r=true」フラグを使用できます。
-
-例)
-sudo -u www-data php admin/cli/sync_langpacks.php -l=ja,de,fr -r=true
-
-Maharaシステム内で設定されているため「en」言語のアップデートは無視されます。';
-$string['cli_langpack_missing'] = '言語パックが指定されていません。';
-$string['cli_langpack_revert'] = '最新バックアップバージョンの言語に戻します。';
-$string['cli_langdir_notwritable'] = '言語ディレクトリ「 %s 」に書き込み権がありません。';
-$string['cli_language_make_backup'] = 'バックアップを作成してもよろしいですか? %s';
-$string['cli_language_status'] = 'すでに言語「 %s 」はインストールされています: %s';
-$string['cli_langpack_url'] = '言語パックURL「 %s 」';
-$string['cli_langpack_url_failed'] = '*** 警告 *** 「 %s 」の言語パックが存在しないかダウンロードできません。リターンコード: %s';
-$string['cli_langpack_upload'] = '一時ディレクトリに言語パック「 %s 」を保存しています。';
-$string['cli_restore_done'] = '「 %s 」のバックアップのリストアを完了しました。';
-$string['cli_restore_warning'] = '*** 警告 *** 「 %s 」のバックアップをリストアできません。';
-$string['cli_tmpdir_notwritable'] = '一時アップロードディレクトリ「 %s 」に書き込み権がありません。';
-$string['cli_lang_branch'] = 'シリーズ「 %s 」の言語パックを取得するためのMaharaシリーズバージョン';
-$string['cli_fast_index'] = 'Elasticsearchファーストインデックサは次のcron実行を待たずにサイトのインデックス化をすぐに実行できます。代わりに最初の終了直後に次の実行を開始します。';
-$string['cli_unabletoupdatecron'] = '検索cronデータベースレコードを更新できません。';
-$string['cli_problemindexing'] = 'インデックス化中に問題が発生しました。';
-$string['cli_done'] = 'インデックス化を完了しました。';
-$string['cli_param_dryrun'] = 'ドライランで何が起きるか表示します。デフォルトで「true」が設定されています。実際にデータベースを更新するには「-d=false」を設定してください。';
-$string['cli_param_onlydryrun'] = '-- ドライランのみ - 何も変更されません --';
-$string['cli_deleteinactiveusers_beforedate'] = '最終ログイン日がこの日付より前のアカウントを削除します。日付には次のような日時ストリングを使用できます: 「2018-02-25」または「-6 months」';
-$string['cli_deleteinactiveusers_limit'] = 'それぞれの削除で処理するアカウント数を制限します。';
-$string['cli_deleteinactiveusers_cleanusers'] = '同時に「usr」テーブルからアカウントの削除を試みます。';
-$string['cli_deleteinactiveusers_info1'] = 'あなたはこのコマンドラインPHPスクリプトで特定の条件 (特定の日付以降にログインしていない、特定のグループに属している等) に基づき古いアカウントを削除できます。アカウントが共同作業に参加していない場合のみあなたは「cleanusers」フラグでデータベースからアカウントを完全に削除できます。';
-$string['cli_deleteinactiveusers_neverloggedin'] = 'ログインしたことのないアカウント (管理者が設定したもの) を削除します。';
-$string['cli_param_baddate'] = '提供された日付「 %s 」は有効ではありません。';
-$string['cli_deleteinactiveusers_usercount'] = '削除対象アカウントが「 %s 」件あります。';
-$string['cli_deleteinactiveusers_userunabletoclean'] = '「 %s 」(ID %s) のアカウントを完全に削除できません。';
-$string['cli_deleteinactiveusers_userunabletodelete'] = '「 %s 」(ID %s) のアカウントを削除できません。';
-$string['cli_deleteinactiveusers_nouserstodelete'] = '削除するアカウントはありません。';
-$string['cli_deleteinactiveusers_problem'] = 'インスティテューションパラメータが多すぎます。インスティテューションでフィルタするには「--institution」または「--incl_inst」または「--excl_inst」を使用してください。';
-$string['cli_deleteinactiveusers_onlydryrun1'] = 'ここでは以下の設定によるドライランのみ実行します。
-インスティテューション: %s
-グループ: %s
-次の日付以前: %s
-「usr」テーブルから削除するアカウント数: %s
-未ログイン数: %s';
-$string['cli_deleteinactiveusers_onlydryrun1_inst_params'] = '含まれるインスティテューション: %s
-除外されるインスティテューション: %s
-インスティテューション外のアカウントを含めますか? %s';
-$string['cli_deleteinactivegroups_info'] = 'このコマンドラインPHPスクリプトではあなたが古いグループを削除できます。これは現在メンバがいないグループにのみ動作します。「onlyadmins」フラグが設定された場合、オーナ/管理者が1名のみのグループを対象に含めます。';
-$string['cli_deleteinactivegroups_beforedate'] = 'この日付より最終修正日が前のグループを削除します。日付には次のような日時ストリングを使用できます: 「2018-02-25」または「-6 months」';
-$string['cli_deleteinactivegroups_limit'] = 'それぞれの削除で処理するグループ数の制限です。';
-$string['cli_deleteinactivegroups_cleangroups'] = '「group」テーブルからもグループの削除を試みます。';
-$string['cli_deleteinactivegroups_onlyadmins'] = 'オーナ/管理者のみをメンバとするグループも含みます。';
-$string['cli_deleteinactivegroups_onlydryrun'] = 'ここでは以下の設定によるドライランのみ実行します。
-インスティテューション: %s
-次の日付以前: %s
-「group」テーブルから削除するグループ数: %s
-オーナ/管理者のみのグループも削除する: %s
-%s';
-$string['cli_deleteinactivegroups_danger'] = '*** 選択された設定によりすべてのグループを削除します ***
-あなたがこれを希望する場合、未来の日付に「--beforedate」を設定してください。';
-$string['cli_deleteinactivegroups_groupcount'] = '削除対象グループ数: %s';
-$string['cli_deleteinactivegroups_nogroupstodelete'] = '削除するグループはありません。';
-$string['cli_deleteinactivegroups_emptygroups'] = 'メンバなしのグループのみ削除します。';
-$string['cli_deleteinactivegroups_groupunabletoclean'] = 'グループ「 %s 」(ID %s) を完全に削除できません。';
-$string['withselectedcontentexport'] = 'アイテムを再度エクスポートキューに追加する';
-$string['withselectedcontentdelete'] = '選択したアイテムをエクスポートキューから削除する';
-$string['withselectedcontentrelease'] = '選択したアイテムをリリースする';
-$string['withselectedcontentreleaseandreturn'] = '選択したアイテムをリリースしてアカウントに戻る';
-$string['allothers'] = 'その他すべて';
-$string['cli_portfolio_export_info'] = 'あなたはコマンドラインPHPスクリプトによりアカウント保持者のポートフォリオをHTMLまたはLeap2Aフォーマットでエクスポートできます。';
-$string['cli_portfolio_export_filenotfound'] = 'ファイルが見つかりませんでした。';
-$string['cli_portfolio_export_invalidformat'] = '無効なエクスポートフォーマットです。';
-$string['cli_portfolio_export_invalidfilter'] = '無効なフィルタキーです。';
-$string['cli_portfolio_export_filepath'] = 'ユーザ名一覧を含むCSVファイルのパスです。例) /tmp/accounts_bulkexport.csv';
-$string['cli_portfolio_export_format'] = 'エクスポートフォーマットタイプです。例) 「html」(HTMLフォーマット)、「leap」(Leap2Aフォーマット)、「pdf」(PDFフォーマット)';
-$string['cli_portfolio_export_offset'] = '--filepathが設定されていない場合、データベースから取得する際に使用される補正値です。';
-$string['cli_portfolio_export_limit'] = '--filepathが設定されていない場合、データベースから取得する際の結果の制限です。';
-$string['cli_portfolio_export_filterkey'] = '有効なフィルタカラム:firstname, lastname, email, username';
-$string['cli_portfolio_export_filtervalue'] = 'フィルタカラム値の開始文字です。例) --filepathが設定されていない場合、「Test」および「Tesla」を探すには「Tes」を指定します。';
-$string['cli_portfolio_export_infolimitfilter'] = '最大 %s アカウントのポートフォリオをエクスポートする (カラム「%s」- 開始文字「%s」)';
-$string['cli_portfolio_export_infofilter'] = 'すべてのアカウントのポートフォリオをエクスポートする (カラム「%s」- 開始文字「%s」)';
-$string['cli_portfolio_export_infolimit'] = '最大 %s アカウントのポートフォリオをエクスポートする';
-$string['cli_portfolio_export_infoout'] = 'すべての有効なアカウントのポートフォリオをエクスポートする';
-$string['cli_portfolio_export_users'] = 'ドライラン: %s アカウントおよび %s ポートフォリオが「 %s 」フォーマットでエクスポートされます。';
-$string['cli_portfolio_export_fromcsv'] = 'CSVファイルからアカウントを選択する';
-$string['cli_portfolio_export_nousers'] = 'アカウントが見つかりませんでした。';
-$string['cli_portfolio_export_username'] = 'ユーザ名 %s のエクスポートを開始しました。';
-$string['cli_portfolio_export_username_skipped'] = '... スキップ: %s のエクスポート対象ポートフォリオがありません。';
-$string['cli_portfolio_export_userfile_failed'] = 'エクスポートに失敗しました。理由: %s';
-$string['cli_portfolio_export_zip'] = '同梱ZIPファイルを作成しています。お待ちください ...';
-$string['cli_portfolio_export_zipout'] = '%s アカウントを %s にエクスポートしました。';
-$string['cli_param_dryrun_export'] = '何が起きるか確認するためのドライランです。デフォルトでは「true」が設定されています。実際にエクスポートを実行するには「-d=false」を設定してください。';
-$string['cli_time_elapsed'] = '所要時間: %s';
-$string['cli_outcomes_delete_description'] = '既存のアウトカムにリンクされていない場合、アウトカム関連テーブルからデータを削除します。';
-$string['cli_outcomes_typefile_description'] = 'アウトカムタイプテーブルデータを含む読み込み可能なCSVファイルへのパスです。例) /tmp/outcome_types_tables.csv';
-$string['cli_outcomes_subjectfile_description'] = 'アウトカム件名テーブルデータを含む読み込み可能なCSVファイルへのパスです。例) /tmp/outcomes_subjects_tables.csv';
-$string['cli_outcomes_institution_description'] = '「delete」と併用することで指定したインスティテューションからのみアイテムを削除します。例) mahara';
-$string['cli_outcomes_institutionnotfound'] = 'インスティテューション「 %s 」が見つかりませんでした。';
-$string['cli_outcomes_institution_enable'] = 'インスティテューションの「アウトカムポートフォリオ」設定を有効にします。';
-$string['cli_outcomes_info'] = 'アウトカム関連テーブル「outcome_category」「outcome_type」「outcome_subject_category」および「 outcome_subject」に値を設定します。指定されたインスティテューションでは「アウトカムポートフォリオ」設定を有効にする必要があります。';
-$string['cli_outcomes_bad_institution'] = 'インスティテューション %s の「アウトカムポートフォリオ」設定が有効である必要があります。この設定を自動的に有効にするにはコマンドを「--enable」付きで実行してください。';
-$string['cli_outcomes_type_headers_error'] = 'あなたのファイルのヘッダを確認してください。ヘッダは次のようにする必要があります: Outcome category | Institution | Outcome type | Outcome type abbreviation | CSS class';
-$string['cli_outcomes_subject_headers_error'] = 'あなたのファイルのヘッダを確認してください。ヘッダは次のようにする必要があります: Outcome subject category | Institution | Subject | Subject abbreviation';
-$string['cli_outcomes_subject_added'] = '件名データがデータベースに追加されました。';
-$string['cli_outcomes_no_subject_added'] = '件名データはデータベースに追加されませんでした。テーブルにすでに入力されている可能性があります。';
-$string['cli_outcomes_type_added'] = 'アウトカムタイプデータがデータベースに追加されました。';
-$string['cli_outcomes_no_type_added'] = 'アウトカムタイプデータはデータベースに追加されませんでした。テーブルにすでに入力されている可能性があります。';
-$string['cli_outcomes_deleteing'] = '未使用アウトカム関連データを削除する ...';
-$string['cli_outcomes_deleted'] = '%s 行をテーブル「 %s 」から削除しました。';
-$string['cli_outcomes_nothing_deleted'] = '削除するものはありません。';
-$string['cli_audit_groupshortname'] = 'グループ省略名';
-$string['cli_audit_usernames'] = '一覧記載されたユーザ名またはユーザ名を含むCSVファイルです。例) -u=person1 -u=person2 or -u/tmp/usernames.csv';
-$string['cli_audit_startdate'] = 'この日付以降に作成されたポートフォリオ';
-$string['cli_audit_enddate'] = 'この日付以前に作成されたポートフォリオ';
-$string['cli_audit_info1'] = '開始および終了日間に作成されたコレクションを特定のユーザ名の人とグループで共有します。';
-$string['cli_audit_userfield'] = '任意: ユーザ名用カラム';
-$string['cli_audit_randomfield'] = '任意: ランダム識別子用カラム';
-$string['cli_audit_randomname'] = '任意: 1人のみ処理する場合、ランダム名を割当てできます。';
-$string['cli_audit_unshare'] = '任意: 代わりにグループからコレクションの共有を解除します。';
-$string['cli_audit_collection_removed'] = '- removed';
-$string['cli_audit_collection_to_group'] = 'コレクション「 %s 」(作成: %s) をグループで共有する:';
-$string['cli_bad'] = '失敗 %s: %s';
-$string['cli_success'] = '成功: %s';
-$string['cli_process_usernames'] = '処理対象ユーザ名:';
-$string['cli_inactive_users'] = '時間間隔の間にサイトにログインしたアカウント保持者を検索します。
-アカウント保持者がコンテンツを作成していない場合等、管理者が簡単にアカウントを削除できるかどうか判断するのに役立つ時間間隔の間のサイト利用状況に関する基本的な情報が表示されます。';
-$string['cli_inactive_interval'] = '今日より前の非アクティブ時間間隔です。データベースインターバル期間を指定してください。';
-$string['cli_inactive_users_found'] = '%s 名のユーザがログインしました (過去 %s 回内)。';
-$string['cli_no_inactive_users'] = 'ログインしたユーザはいません (過去 %s 回内)。';
-$string['cli_inactive_done'] = 'レビューー完了';
-$string['cli_inactive_id'] = 'Mahara ID';
-$string['cli_inactive_username'] = 'ユーザ名';
-$string['cli_inactive_lastlogin'] = '最終ログイン';
-$string['cli_inactive_only_dashboard_profile'] = 'デフォルトページのみ';
-$string['cli_inactive_new_pages'] = '時間間隔の新しいポートフォリオ';
-$string['cli_inactive_new_artefacts'] = '時間間隔の新しいアーティファクト';
-$string['cli_inactive_in_groups'] = 'グループ参加';
-$string['cli_inactive_quota_used'] = 'クオータ使用量';
-$string['cli_inactive_quota_percent'] = 'クオータ使用量パーセンテージ';
-$string['cli_auth_method_info'] = 'あなたはこのコマンドラインPHPスクリプトでアカウント認証方法を一括更新できます。';
-$string['cli_auth_method_from'] = '切り替え元アカウント認証方法ID';
-$string['cli_auth_method_to'] = '切り替え先アカウント認証方法ID';
-$string['cli_auth_method_list'] = '利用可能な認証方法を一覧表示する';
-$string['cli_auth_method_skip'] = '更新時に問題のあるアカウントをスキップして最後にプリントアウトする';
-$string['cli_auth_method_auth_ids_required'] = 'あなたは認証方法に「from」IDおよび「to」IDの両方を指定する必要があります。';
-$string['cli_auth_method_only_one_auth'] = '認証方法は1つのみです。ウェブサイトから新しい認証方法を追加してください。';
-$string['cli_auth_method_auth_ids_matching'] = '認証方法が重複しています。あなたは「from」および「to」に異なるIDを指定する必要があります。';
-$string['cli_auth_method_from_invalid'] = '「from 」認証IDが無効です。';
-$string['cli_auth_method_to_invalid'] = '「to」認証IDが無効です。';
-$string['cli_auth_method_done'] = '新しい認証方法へのアカウント移動を完了しました!';
-$string['cli_auth_method_unable_to_move_account_skipped'] = '「 %s 」アカウントをID「 %s 」の認証方法に移動できません。アカウント「 %s 」はすでにリモートユーザ名「 %s 」を使用しています。';
-$string['cli_auth_method_unable_to_move_account_skipped_missing'] = 'アカウントにリモートユーザ名が設定されていないため、「 %s 」アカウントをID「 %s 」の認証方法に移動できません。';
-$string['cli_auth_method_unable_to_continue'] = '続行できません。ドライランで問題を発見および修正するか、「スキップ 」オプションで実行してください。';
-$string['cli_auth_method_skipped_list'] = '問題のある行を手動で削除する必要があります。';
-$string['cli_auth_method_to_move'] = '「 %s 」アカウントをID「 %s 」の認証方法に移動しています。';
-$string['cli_auth_method_dry_run_only'] = 'ドライランのみ - %s アカウントが認証方法を変更しました。%s アカウントを手動更新する必要があります。';
-$string['cli_auth_method_change_done'] = '%s アカウントが認証方法を変更しました。%s アカウントを手動更新する必要があります。';
-$string['cli_auth_method_ignore_admins'] = '認証方法変更時にサイト管理者を無視します。';
-$string['behatvariables'] = 'Behatステップ';
-$string['behatvariablesdesc'] = '利用可能なBehatステップを素早く探すためのツールです。';
-$string['nobehatfeaturefiles'] = 'Behatフィーチャファイルは見つかりませんでした。';
-$string['behatmatchingrows'] = '%s -';
-$string['behatnocoresteps'] = '<p>behat.ymlファイルからBehatステップを読めません。読めるようにするには<a href="https://git.mahara.org/catalyst/mahara/-/wikis/Testing/Behat-testing/Setting-up-Behat">あなたのBehatデータルートディレクトリのオーナを「www-data」にしてください</a>。</p>';
-$string['behatstepnotused'] = '現在、このBehatステップは使用されていません。';
-$string['author'] = '作成者';
-$string['content'] = 'コンテンツ';
-$string['creationdate'] = '作成日時';
-$string['version'] = 'バージョン';
-$string['viewversion'] = 'バージョン %s を表示する';
-$string['editversion'] = 'バージョン %s を編集する';
-$string['privacylastversion'] = 'プライバシ保護方針には最大半角15文字のユニークなバージョン名が必要です。このプライバシ保護方針の最新バージョンは「 %s 」です。';
-$string['termsandconditionslastversion'] = '利用条件には最大半角15文字のユニークなバージョン名が必要です。これらの利用条件の最新バージョンは「 %s 」です。';
-$string['versionalreadyexist'] = 'バージョン %s の「 %s 」はすでに存在します。';
-$string['siteprivacy'] = 'サイトプライバシ保護方針';
-$string['siteprivacyconsentdate'] = 'サイトプライバシ保護方針同意がレビューされました。';
-$string['sitetermsandconditions'] = 'サイト利用条件';
-$string['sitetermsconsentdate'] = 'サイト利用条件同意がレビューされました。';
-$string['addoneversionlink'] = '必要であれば<a href="%s">追加してください</a>。';
-$string['privacyversionfor'] = 'プライバシ保護方針のバージョン「 %s 」は次のとおりです:';
-$string['termsversionfor'] = '利用条件のバージョン「 %s 」は次のとおりです:';
-$string['institutionprivacystatement'] = 'インスティテューションプライバシ保護方針';
-$string['institutiontermsandconditions'] = 'インスティテューション利用条件';
-$string['institutionprivacyconsentdate'] = 'インスティテューションプライバシ保護方針同意がレビューされました。';
-$string['institutiontermsconsentdate'] = 'インスティテューション利用条件同意がレビューされました。';
-$string['userprivacypagedescription1'] = '現在のプライバシ保護方針および利用条件が表示されています。';
-$string['lastupdated'] = '最終更新日時';
-$string['newprivacy'] = 'あなたのアカウントに入る前に以下に表示されている情報をお読みください。';
-$string['privacyagreement'] = '私は % に同意します。';
-$string['privacyagreementdescription'] = 'あなたは「Yes」の選択により上のプライバシ保護方針の条項に同意することになります。';
-$string['privacyagreedto'] = 'あなたは  %s の %s に同意しました。';
-$string['agreementsaved'] = '同意が保存されました。';
-$string['refuseprivacy'] = 'プライバシ保護方針または利用条件を拒否する';
-$string['confirmprivacyrefusal'] = '本当に続けてもよろしいですか?';
-$string['privacyrefusaldetails'] = 'プライバシ保護方針または利用条件に同意しない場合、あなたのアカウントは利用停止されます。';
-$string['legalconsentrefusaldetails'] = '法的表示に同意しない場合、あなたのアカウントにアクセスできません。';
-$string['privacyrefusal'] = 'プライバシ保護方針を拒否しました。';
-$string['registerrefusal'] = 'あなたが %s に同意しない場合、アカウントは作成されません。';
-$string['registerprivacy'] = 'プライバシ保護方針をお読みください。プライバシ保護方針に同意しない場合、あなたはサイトでアカウントを作成できません。';
-$string['registertermsandconditions'] = '利用条件をお読みください。利用条件に同意しない場合、あなたはサイトでアカウントを作成できません。';
-$string['enterreason'] = '拒否理由をここに入力してください ...';
-$string['privacyrefusalnoreason'] = 'プライバシ保護方針または利用規約に同意しない場合、あなたは理由を提示する必要があります。';
-$string['privacylowcase'] = 'プライバシ保護方針';
-$string['termsandconditionslowcase'] = '利用条件';
-$string['hasrefused'] = 'は %s を拒否しました。';
-$string['suspendaccount'] = 'アカウントを利用停止する';
-$string['privacyandtotheterms'] = 'プライバシ保護方針および利用条件';
-$string['privacyandtheterms'] = 'プライバシ保護方針および利用条件';
-$string['consentdate'] = '同意/拒否日付';
-$string['legalconsent'] = '法的同意';
-$string['userprivacyagreements'] = '以下、人が同意したすべてのプライバシ保護方針が表示されています。';
-$string['usertermsagreements'] = '以下、人が同意したすべての利用条件が表示されています。';
-$string['privacytermsdesc'] = 'あなたのサイトのプライバシ保護方針および利用条件を編集します。';
-$string['approveuserdeletionfor'] = '%s %s <%s> のアカウント削除を承認する';
-$string['approveuserdeletionmessage'] = '続けた場合、あなたはアカウント「 %s 」を削除することになります。すべての個人コンテンツは完全に削除されます。本当にこのリクエストを承認してもよろしいですか?';
-$string['deletionapprovedsuccessfully'] = 'アカウント削除が正常に承認されました。';
-$string['deletionapprovedfailed'] = 'アカウント削除に失敗しました。';
-$string['deletiondeniedreason'] = '拒否理由';
-$string['deletiondeniedreasondesc'] = '削除リクエストが拒否された理由に関する情報です。';
-$string['deletionreason'] = '削除理由';
-$string['denyuserdeletionfor'] = '「 %s %s 」のアカウント削除を拒否する';
-$string['denyuserdeletionmessage'] = '続けた場合、あなたはアカウントの削除を拒否することになります。理由を提供してください。';
-$string['nopendingdeletions'] = 'このインスティテューションにアカウント削除リクエストの保留はありません。';
-$string['pendingdeletion'] = '削除保留';
-$string['pendingdeletions'] = '削除保留';
-$string['pendingdeletionspagedescription'] = '<p>あなたはこのページでサイトからのアカウント削除をリクエストした人を確認および削除承認できます。<p>
-<p>アカウント削除承認によりアカウントからすべての個人コンテンツが完全に削除されます。アカウント削除後、リクエストした人にメールで理由が通知されます。</p>';
-$string['userdeletiondeniedsuccessful'] = 'リクエストが正常に拒否されました。';
-$string['userdeletiondeniedunsuccessful'] = 'アカウント削除の拒否に失敗しました。';
-$string['consented'] = '同意済み';
-$string['groupid'] = 'グループID';
-$string['blocktypeupdatedsuccess'] = 'ブロックタイプ並べ替え順を更新しました。';
-$string['groupdefaultsettings'] = 'デフォルトグループ設定';
-$string['introtext'] = 'あなたは新しいグループが作成される場合に使用されるデフォルト設定を変更できます。一部の設定は特定のロールの人のみ利用できます。特定のロールの人が利用できないオプションは新しいグループ作成時に無視されて代わりにデフォルト値が使用されます。';
-$string['savedgroupconfigsuccessfully'] = 'デフォルトグループ設定を保存しました。';
-$string['defaultreset'] = 'デフォルトにリセットする';
-$string['defaultresetlabel'] = 'リセット';
-$string['defaultresetdesc'] = '上のオプションすべてをデフォルト値にリセットします。';
-$string['componentmap'] = 'コンポーネントライブラリ';
-$string['development'] = '開発';
-$string['exportthirdpartycsv'] = 'プラグイン情報をCSVフォーマットでエクスポートする';
-$string['Path'] = 'パス';
-$string['styleguide'] = 'スタイルガイド';
-$string['thirdpartypluginstitle'] = 'サードパーティプラグイン';
-$string['thirdpartyplugins4'] = 'これはNPM、Composerおよびmanual dependenciesで管理されているサードパーティプラグインのリストです。';
-$string['url'] = 'url';
-$string['pluginartefact'] = 'プラグインタイプ: アーティファクト';
-$string['pluginauth'] = 'プラグインタイプ: 認証';
-$string['pluginblocktype'] = 'プラグインタイプ: ブロックタイプ';
-$string['pluginexport'] = 'プラグインタイプ: エクスポート';
-$string['plugingrouptype'] = 'プラグインタイプ: グループタイプ';
-$string['pluginimport'] = 'プラグインタイプ: インポート';
-$string['plugininteraction'] = 'プラグインタイプ: インタラクション';
-$string['pluginmodule'] = 'プラグインタイプ: モジュール';
-$string['pluginnotification'] = 'プラグインタイプ: 通知';
-$string['pluginsearch'] = 'プラグインタイプ: 検索';
-$string['upgradeproblemwithremoteusername'] = 'リモートユーザ名「 %s 」は正しく更新できなかったため「 %s 」として保存されました。問題を解決するため、あなたのデータベースを確認してください。';
-$string['add_block_to_view_block_desc'] = 'コピーする既存のブロックのIDです。';
-$string['add_block_to_view_origin_view'] = 'あなたがコピーしたいブロックが存在するページのページIDです。';
-$string['add_block_to_view_dest_view'] = 'あなたがブロックをコピーしたいページのコピー先ページIDです。あなたが多くのページにブロックをコピーしたい場合、このパラメータを使用しないでください。';
-$string['add_block_to_view_block_added_another'] = '指定された種類のブロックタイプがすでに存在している場合でも別のブロックタイプを追加します。';
-$string['add_block_to_view_add_anyway_notice'] = '[注意] これはブロックが既に存在していても関係なく追加されます。';
-$string['add_block_to_view_add_to_top'] = 'これはコピー先ページのトップにブロックを追加します。';
-$string['add_block_to_view_add_to_top_notice'] = '[注意] これはコピー先ページのトップにブロックを追加します。';
-$string['add_block_to_view_replace'] = '合致するブロックのインスタンスが存在する場合、それをページから置換します。';
-$string['add_block_to_view_re_add_notice'] = '[注意] 合致するブロックが存在する場合、それを削除して再度ページに追加します。';
-$string['add_block_to_view_announce_blocktype_viewtype'] = '[注意] ブロックタイプ「 %s 」のページタイプ「 %s 」への追加を検討しています!';
-$string['add_block_to_view_dryrun_notice'] = '- - - - - これはページにブロックを追加するためのドライランです。- - - - -';
-$string['add_block_to_view_block_to_add'] = 'ページID「 %s 」のブロックをID「 %s 」のアカウントに追加します。';
-$string['add_block_to_view_block_replaced'] = 'ページID「 %s 」のブロックをID「 %s 」のアカウントに置き換えました。';
-$string['add_block_to_view_block_added'] = 'ページID「 %s 」のブロックがID「 %s 」のアカウントに追加されました。';
-$string['add_block_to_view_skip_exists_not_add'] = 'ページ ID 「 %s 」をスキップします。「 %s 」ブロックがID「 %s 」のアカウントに既に存在しているため、私たちはそれを置換または追加しません。';
-$string['add_block_to_view_dry'] = 'ドライラン:';
-$string['add_block_to_view_unable_to_replace'] = '一致するブロックが複数あるため、「 %s 」が所有するページ 「 %s 」のブロックを置換できません。-f を使用して余分なブロックを追加するか、ダブルアップを手動で削除してください。';
-$string['add_block_to_view_skip'] = 'ページID「 %s 」をスキップします。次のIDのアカウントに対するブロックが存在します: %s';
-$string['add_block_to_view_single'] = '[注意] このブロックはID「 %s 」のページ (アカウントID「 %s 」のユーザが所有) にのみコピーされます';
-$string['add_block_to_view_mismatch_view_type_warning'] = '宛先ページ「 %s 」がオリジンページタイプに合致しません。';
-$string['add_block_to_view_personal_only'] = 'あなたはパーソナルページのみコピーできます。';
-$string['add_block_from_block_not_on_view'] = 'ID「 %s 」のブロックはID「 %s 」のページにありません。';
-$string['add_block_to_view_old_layout'] = 'ID「 %s 」のオリジンページを新しいGridstackレイアウトに更新する必要があります。変換するにはページを編集してください。';
-$string['add_block_to_view_info'] = 'ブロックおよびその設定を他の人のページまたは特定の人のページにコピーします。
-ブロックは同じページタイプにコピーされます。例えばオリジナルブロックがダッシュボードページにある場合、ブロックはダッシュボードページにのみコピーされます。
-コピー先のページにすでに同じタイプのブロックがある場合、ブロックはコピーされません。
-例えば「私に共有されているポートフォリオ」ブロックは他の 
-ダッシュボードページにまだない場合にコピーされます。';
-$string['reset_view_to_template_dry_short'] = 'ドライラン:';
-$string['reset_view_to_template_complete'] = 'ページID「 %s 」(%s 所有) がテンプレートID「 %s 」と一致しました。';
-$string['reset_page_to_template_info'] = '指定されたテンプレートIDのコンテンツと一致するようページをリセットします。';
-$string['reset_page_to_template_view'] = 'ブロックを含むページのページIDがコピーされます。';
-$string['reset_page_to_template_target_view'] = '(任意) ページのページIDです。1つのページだけをリセットする場合に使用します。そうではない場合、テンプレートと同じタイプのすべてのページがリセットされます。';
-$string['reset_view_to_template_dryrun_notice'] = '- - - - - これはテンプレートに合わせてページをリセットするためのDRY RUNです。- - - - -';
-$string['reset_view_to_template_single'] = '[注意] テンプレートはID「 %s 」のアカウントが所有するID「 %s 」のページのコンテンツだけをリセットします。';
-$string['reset_view_to_template_not_single'] = '[エラー] あなたはすべてのポートフォリオページのリセットを許可されていません。リセット先のページIDを指定してください。';
-$string['reset_view_to_template_batch'] = 'リセットするページの上限です。最初に小さなバッチでのリセットをお勧めします。';
-$string['reset_view_to_template_batch_complete'] = 'バッチコピー完了!';
-$string['reset_view_to_template_batch_info'] = '[注意] 「 %s 」のバッチのみ実行しています。';
-$string['reset_view_to_template_info'] = '[ログ] 処理中です: タイプ「 %s 」に一致するページのコンテンツをテンプレート (ID %s - 所有: %s 「 %s 」) に置き換えます。';
+$string['wwwroot'] = 'WWWルート';
+$string['wwwrootdescription'] = 'これはユーザがこのMaharaインストレーションにアクセスするためおよびSSLキーを生成するためのURLです。';
+$string['wysiwyg'] = 'HTMLエディタ';
+$string['wysiwygdescription'] = 'サイト全体としてHTMLエディタを有効にするか、ユーザ自身がHTMLエディタを有効または無効にできるようにするか指定します。';
+$string['wysiwyguserdefined'] = 'ユーザ設定';
+$string['youcannotadministerthisuser'] = 'あなたはこのユーザを管理することはできません。';
+$string['youcanupgrade'] = 'あなたはMaharaを %s (%s) から %s (%s) へアップグレードできます。';
+$string['youraverageuser'] = 'あなたの平均的なユーザ';
