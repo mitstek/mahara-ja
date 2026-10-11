@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-06 00:24:06 UTC
+ * @updated    2026-10-11 15:21:48 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1689,8 +1689,8 @@ $string['cli_auth_method_to_invalid'] = '「to」認証IDが無効です。';
 $string['cli_auth_method_done'] = 'アカウントが新しい認証方法に移行されました。';
 $string['cli_auth_method_unable_to_move_account_skipped'] = '「 %s 」アカウントをID「 %s 」の認証方法に移動できません。アカウント「 %s 」はすでにリモートユーザ名「 %s 」を使用しています。';
 $string['cli_auth_method_unable_to_move_account_skipped_missing'] = 'アカウントにリモートユーザ名が設定されていないため、「 %s 」アカウントをID「 %s 」の認証方法に移動できません。';
-$string['cli_auth_method_unable_to_continue'] = '続行できません。ドライランで問題を発見および修正するか、「スキップ 」オプションで実行してください。';
-$string['cli_auth_method_skipped_list'] = '問題のある行を手動で削除する必要があります。';
+$string['cli_auth_method_unable_to_continue'] = '続行できません。ドライランで問題を特定および修正するか、「スキップ 」オプションで実行してください。';
+$string['cli_auth_method_skipped_list'] = 'あなたが手動修正する必要のある問題のある行です。';
 $string['cli_auth_method_to_move'] = '「 %s 」アカウントをID「 %s 」の認証方法に移動しています。';
 $string['cli_auth_method_dry_run_only'] = 'ドライランのみ - %s アカウントが認証方法を変更しました。%s アカウントを手動更新する必要があります。';
 $string['cli_auth_method_change_done'] = '%s アカウントが認証方法を変更しました。%s アカウントを手動更新する必要があります。';
