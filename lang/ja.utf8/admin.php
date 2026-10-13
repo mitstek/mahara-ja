@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-11 15:21:48 UTC
+ * @updated    2026-10-13 15:02:01 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1692,7 +1692,7 @@ $string['cli_auth_method_unable_to_move_account_skipped_missing'] = 'アカウ�
 $string['cli_auth_method_unable_to_continue'] = '続行できません。ドライランで問題を特定および修正するか、「スキップ 」オプションで実行してください。';
 $string['cli_auth_method_skipped_list'] = 'あなたが手動修正する必要のある問題のある行です。';
 $string['cli_auth_method_to_move'] = '「 %s 」アカウントをID「 %s 」の認証方法に移動しています。';
-$string['cli_auth_method_dry_run_only'] = 'ドライランのみ - %s アカウントが認証方法を変更しました。%s アカウントを手動更新する必要があります。';
+$string['cli_auth_method_dry_run_only'] = 'ドライランのみ - %s アカウントが認証方法を変更されます。%s アカウントを手動更新する必要があります。';
 $string['cli_auth_method_change_done'] = '%s アカウントが認証方法を変更しました。%s アカウントを手動更新する必要があります。';
 $string['cli_auth_method_ignore_admins'] = '認証方法変更時にサイト管理者を無視します。';
 $string['cli_get_config_info'] = 'このコマンドラインPHPスクリプトはMahara設定から値を取得します。';
