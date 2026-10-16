@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-11 15:55:57 UTC
+ * @updated    2026-10-16 04:47:17 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -44,3 +44,14 @@ $string['editwindowstart_help'] = '<h1>開始日</h1><p>この日付より前は
 $string['editwindowend_help'] = '<h1>終了日</h1><p>この日付より後は通常グループメンバはグループを編集できません。この日付はインポートされたプラン活動のデフォルトの完了日としても使用されます。</p>';
 $string['editgroup.category_help'] = '<h1>グループカテゴリ</h1><p>グループを探しやすくするためにカテゴリを選択してください。</p>';
 $string['editgroup.usersautoadded_help'] = '<h1>自動的に人を追加する/h1><p>この設定を有効にした場合、サイトに参加するすべての人が自動的にこのグループに追加されます。</p><p>グループタイプによりグループを脱退できる場合もあります。</p>';
+$string['viewnotify_help'] = '<h1>共有ポートフォリオ通知</h1><p>グループポートフォリオが作成された場合、またはメンバがグループとポートフォリオを共有した場合に通知を受けるユーザを選択してください。</p><p>共有する人は通知を受け取りません。</p><p>大規模なグループの場合、通知が過剰にならないようチュータおよび/または管理者に限定してください。</p>';
+$string['editgroup.viewnotify_help'] = '<h1>共有ポートフォリオ通知</h1><p>グループポートフォリオが作成された場合、またはメンバがグループとポートフォリオを共有した場合に通知を受けるユーザを選択してください。</p><p>共有する人は通知を受け取りません。</p><p>大規模なグループの場合、通知が過剰にならないようチュータおよび/または管理者に限定してください。</p>
+<p>選択するオプションに対応する数値をCSVファイルに入力してください。</p>
+オプションは以下のとおりです:
+<ul>
+<li>0 = なし</li>
+<li>1 = すべてのグループメンバ</li>
+<li>2 = 一般メンバを除く全員</li>
+<li>3 = グループ管理者</li>
+</ul>';
+$string['feedbacknotify_help'] = '<h1>コメント通知</h1><p>グループページおよびアーティファクトにコメントが投稿された際に通知を受信するユーザを選択してください。</p>';
