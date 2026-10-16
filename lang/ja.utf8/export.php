@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-23 01:01:50 UTC
+ * @updated    2026-10-16 04:39:22 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -16,7 +16,12 @@ defined('INTERNAL') || die();
 $string['allmydata'] = '私のデータすべて';
 $string['chooseanexportformat'] = 'エクスポートフォーマットを選択する';
 $string['exportarchivedescription2'] = 'あなたがエクスポートしたコンテンツがHTMLおよびLeap2Aフォーマットの両方で含まれたZIPファイルが届きます。index.htmlを開いてブラウザであなたのポートフォリオを表示するか、Leap2Aファイルを別のMaharaサイトまたはLeap2Aをサポートするポートフォリオプラットフォームにインポートしてください。';
+$string['exportarchivedescription2browser'] = 'ブラウザで表示する: ZIPを解凍してHTMLフォルダ内のindex.htmlを開きます。';
+$string['exportarchivedescription2import'] = '別のMaharaサイトにインポートする: ZIPファイル全体をアップロードします (Leap2A.xmlのみではありません)。';
 $string['exportarchivedescriptionpdf'] = 'あなたはエクスポート時に選択したコンテンツを含むHTML、Leap2AおよびPDFのZIPアーカイブを受け取ります。あなたのポートフォリオをブラウザでindex.htmlファイル経由で閲覧するか、エクスポートされたPDFファイルを閲覧するか、Leap2Aフォーマットをサポートする別のポートフォリオプラットフォームにコンテンツをインポートできます。';
+$string['exportarchivedescriptionpdfbrowser'] = 'ブラウザで表示する: ZIPを解凍してHTMLフォルダ内のindex.htmlを開きます。';
+$string['exportarchivedescriptionpdfpdf'] = 'PDFを表示する: PDFフォルダ内のファイルを開きます。';
+$string['exportarchivedescriptionpdfimport'] = '別のMaharaサイトにインポートする: ZIPファイル全体をアップロードします (Leap2A.xmlのみではありません)。';
 $string['clicktopreview'] = 'クリックしてプレビューする';
 $string['collectionstoexport'] = 'エクスポートするコレクション';
 $string['creatingzipfile'] = 'ZIPファイル作成中';
