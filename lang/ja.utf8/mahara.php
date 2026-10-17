@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-17 05:34:15 UTC
+ * @updated    2026-10-17 05:48:17 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -547,7 +547,7 @@ $string['orloginvia'] = 'または次の認証でログインする:';
 $string['newpassword'] = '新しいパスワード';
 $string['nosessionreload'] = 'ログインするにはページをリロードしてください。';
 $string['oldpassword'] = '現在のパスワード';
-$string['oldpassword_help'] = '<h1>パスワード</h1><p>あなたの現在のパスワードを入力した後、下に新しいパスワードを2回入力してください。</p><p>あなたの新しいパスワードはパスワードポリシを満たす必要があります。セキュリティを強化するため、パスフレーズ (文章や好きなものを2つ以上組み合わせたもの等) の使用をご検討ください。</p>';
+$string['oldpassword_help'] = '<h1>パスワード</h1><p>あなたの現在のパスワードを入力した後、下に新しいパスワードを2回入力してください。</p><p>あなたの新しいパスワードはパスワードポリシを満たす必要があります。セキュリティを強化するため、パスフレーズ (文章または好きなものを2つ以上組み合わせたもの等) の使用をご検討ください。</p>';
 $string['password'] = 'パスワード';
 $string['passwordstrength1'] = '非常に弱い';
 $string['passwordstrength2'] = '弱い';
@@ -573,6 +573,7 @@ $string['preferredname'] = '表示名';
 $string['preferrednamedisplay'] = '表示名';
 $string['usernamehelp'] = 'あなたがこのシステムにアクセスするために付与されたユーザ名です。';
 $string['youaremasqueradingas'] = 'あなたは %s としてログインしています。';
+$string['masquerading_as'] = '代理ログイン:';
 $string['yournewpassword1'] = 'あなたの新しいパスワードです。あなたのパスワードには少なくとも半角 %s 文字必要です。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。%s<br>
 セキュリティ上の理由からパスフレーズの使用をお考えください。パスフレーズには1つの単語ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上) の言葉をスペースで区切って使用することをお考えください。';
 $string['yournewpasswordagain'] = 'あなたの新しいパスワードをもう一度';
@@ -584,10 +585,12 @@ $string['mustspecifyoldpassword'] = 'あなたの現在のパスワードを入�
 $string['mustspecifycurrentpassword'] = 'あなたのユーザ名を変更するには現在のパスワードを入力してください。';
 $string['Site'] = 'サイト';
 $string['maildisabled'] = 'メール無効';
+$string['actions'] = '操作';
 $string['my_actions'] = 'マイアクション';
 $string['masquerade'] = '代理ログイン';
 $string['profileicon'] = 'プロファイルイメージ';
 $string['bulkselect'] = '編集/報告のために人を選択する';
+$string['rowdetails'] = 'この行の詳細をさらに表示する';
 $string['emailaddress'] = 'メールアドレス';
 $string['firstname'] = '名';
 $string['firstnameall'] = 'すべての名';
@@ -800,12 +803,14 @@ $string['siteclosedlogindisabled'] = 'データベースアップグレードの
 $string['termsandconditions'] = '利用条件';
 $string['privacystatement'] = 'プライバシ保護方針';
 $string['about'] = 'About';
+$string['about_sitename'] = '%s について';
 $string['contactus'] = 'お問い合わせ';
 $string['legal'] = '法律';
 $string['externalmanual'] = '外部マニュアル';
 $string['manualhelp_structure'] = 'Maharaマニュアル構造を使用する';
 $string['account'] = '設定';
 $string['accountprefs'] = 'プレファレンス';
+$string['accountprefs_help'] = '<h1>プレファレンス</h1><p>あなたは「プレファレンス」エリアでサイトを利用する際の希望オプションを選択できます。</p>';
 $string['preferences'] = 'プレファレンス';
 $string['activityprefs'] = '活動プレファレンス';
 $string['changepassword'] = 'パスワードを変更する';
@@ -814,6 +819,8 @@ $string['inbox'] = '受信箱';
 $string['unread'] = '%s 未読';
 $string['gotoinbox'] = '受信箱に移動する';
 $string['institutionmembership'] = 'インスティテューションメンバシップ';
+$string['institution_current_memberships'] = '現在のメンバシップ';
+$string['institutionmembership_help'] = '<h1>インスティテューションメンバシップ</h1><p>あなたがメンバのインスティテューションを確認できます。</p><p>あなたは現在のインスティテューションを離れて自己登録を許可している他のインスティテューションに参加できる場合があります。あなたのインスティテューションを脱退できない場合、インスティテューション管理者にあなたを削除するようご依頼ください。</p>';
 $string['youareamemberof'] = 'あなたは %s のメンバです。';
 $string['leaveinstitution'] = 'インスティテューションから離脱する';
 $string['reallyleaveinstitution'] = '本当にこのインスティテューションから離脱してもよろしいですか?';
@@ -828,6 +835,7 @@ $string['institutionmemberconfirmmessage'] = 'あなたは %s にメンバとし
 $string['institutionmemberrejectsubject'] = 'インスティテューションメンバシップのリクエストが拒否されました。';
 $string['institutionmemberrejectmessage'] = 'あなたの %s へのメンバシップリクエストは拒否されました。';
 $string['noinstitutionstafffound'] = 'インスティテューションスタッフは見つかりませんでした。';
+$string['noinstitutionsupportadminfound'] = 'インスティテューションサポート管理者は見つかりませんでした。';
 $string['noinstitutionadminfound'] = 'インスティテューション管理者は見つかりませんでした。';
 $string['Memberships'] = 'メンバシップ';
 $string['Requests'] = 'リクエスト';
@@ -876,6 +884,7 @@ $string['collapse'] = '折りたたむ';
 $string['collapsespecific'] = '% を折りたたむ';
 $string['more...'] = 'さらに ...';
 $string['moreoptions'] = '詳細オプション';
+$string['moreoptionsfor1'] = '「 %s 」のオプションを選択してください';
 $string['submittedinfo'] = '提出情報';
 $string['submittedinfofor'] = '「 %s 」の提出情報';
 $string['releasedinfo'] = 'リリースオプション';
