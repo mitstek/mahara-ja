@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-28 22:25:11 UTC
+ * @updated    2026-10-17 05:34:15 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -169,9 +169,11 @@ $string['descending'] = '降順';
 $string['reversechronological'] = '新しい順';
 $string['sortorder'] = 'ファイル並べ替え順';
 $string['All'] = 'すべて';
+$string['Any'] = 'どれでも';
 $string['Allinstitutions'] = 'すべてのインスティテューション';
 $string['none'] = 'なし';
 $string['samepage'] = '同一ページ';
+$string['select_please'] = '選択してください';
 $string['selectall'] = 'すべてを選択する';
 $string['selectnone'] = 'すべての選択を解除する';
 $string['enable'] = '有効にする';
@@ -220,9 +222,11 @@ $string['header_tags'] = 'タグ';
 $string['header_tag_actions'] = 'タグアクション';
 $string['header_tagged_content'] = 'タグ付きコンテンツ';
 $string['header_description'] = '説明';
+$string['header_used_on'] = '使用';
 $string['header_last_updated'] = '最終更新日時';
 $string['viewtags'] = 'ページタグ';
 $string['youhavenottaggedanythingyet'] = 'あなたはまだ何もタグ付けしていません。';
+$string['notagsfound'] = 'タグが見つかりません';
 $string['mytags'] = 'マイタグ';
 $string['show_tag_frequency'] = 'タグ頻度を表示する';
 $string['Tag'] = 'タグ';
@@ -348,7 +352,8 @@ $string['editpost_filebrowser_license_help'] = '<h1>ライセンス</h1>
 <p>あなた自身のコンテンツに関して、他の人がどのように再利用できるか選択してください。他の人が作成したコンテンツに関して、あなたが再利用を許可されているライセンスを選択してください。</p>
 <p>不明な点がある場合、コンテンの作成者またはあなたの組織にご確認ください。デフォルトのライセンスは標準的な著作権 (「All rights reserved」) ですが、あなたの組織によっては異なるライセンスが求められる場合があります。判断に迷う場合、あなたの組織の法務部門にご相談ください。</p>';
 $string['quota'] = 'クオータ';
-$string['quotausage'] = 'あなたのクオータ使用量は<span id="quota_used">%s</span> / <span id="quota_total">%s</span>です。';
+$string['quotausage'] = '<span id="quota_used">%s</span> / <span id="quota_total">%s</span> 使用中';
+$string['quotausagegroup1'] = '<span id="quota_used">%s</span> / <span id="quota_total">%s</span> 使用中';
 $string['groupquota'] = 'グループクオータ';
 $string['updatefailed'] = 'アップデートに失敗しました。';
 $string['invitedgroup'] = 'グループ招待';
@@ -542,6 +547,7 @@ $string['orloginvia'] = 'または次の認証でログインする:';
 $string['newpassword'] = '新しいパスワード';
 $string['nosessionreload'] = 'ログインするにはページをリロードしてください。';
 $string['oldpassword'] = '現在のパスワード';
+$string['oldpassword_help'] = '<h1>パスワード</h1><p>あなたの現在のパスワードを入力した後、下に新しいパスワードを2回入力してください。</p><p>あなたの新しいパスワードはパスワードポリシを満たす必要があります。セキュリティを強化するため、パスフレーズ (文章や好きなものを2つ以上組み合わせたもの等) の使用をご検討ください。</p>';
 $string['password'] = 'パスワード';
 $string['passwordstrength1'] = '非常に弱い';
 $string['passwordstrength2'] = '弱い';

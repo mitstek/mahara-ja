@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-16 04:47:21 UTC
+ * @updated    2026-10-17 05:24:34 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -55,3 +55,19 @@ $string['editgroup.viewnotify_help'] = '<h1>共有ポートフォリオ通知</h
 <li>3 = グループ管理者</li>
 </ul>';
 $string['feedbacknotify_help'] = '<h1>コメント通知</h1><p>グループページおよびアーティファクトにコメントが投稿された際に通知を受信するユーザを選択してください。</p>';
+$string['editgroup.sendnow_help'] = '<h1>フォーラム投稿をすぐに送信する</h1><p>この設定を有効にした場合、どのメンバもすぐにフォーラムに投稿できます。この設定が有効ではない場合、管理者、チュータおよびモデレータのみ投稿できます。</p>';
+$string['editgroup.grouptype_help'] = '<h1>ロール</h1>
+<p>グループで利用可能なロールを選択してください。</p>
+<dl>
+<dt>監査</dt>
+<dd>管理者、チュータおよびメンバ。サーバ上のスクリプトを経由で仮名が設定されている場合、チュータおよび管理者はポートフォリオ作成者名を確認せずに共有ポートフォリオを表示できます。</dd>
+<dt>コース</dt>
+<dd>管理者、チュータおよびメンバ。チュータおよび管理者は提出されたページを評価およびフィードバックを提供できます。</dd>
+<dt>アウトカム</dt>
+<dd>管理者、チュータおよびメンバ。すべての人がポートフォリオを編集できます。管理者はアウトカムコレクションを管理、チュータはアクティビティページを設定してコメントを追加できます。メンバは活動ページにコンテンツを追加できますが、承認はできません。</dd>
+<dt>標準</dt>
+<dd>管理者およびメンバ。管理者はグループ設定およびメンバシップを管理、メンバはフォーラムに投稿またはグループページまたはファイルを編集できます。</dd> </dl>';
+$string['submissions.archiveid_help'] = '<h1>アーカイブID</h1>
+<p>サーバ上のアーカイブファイルのIDです。CSVダウンロードの対応するエントリと照合するために使用されます。</p>';
+$string['submissions.specialid_help'] = '<h1>ID</h1>
+<p>ポートフォリオが提出されたグループまたはホストのIDです。LTI Advantageモジュールが有効およびホストが登録済みの外部アプリケーションである場合、その省略名が使用されます。</p>';
