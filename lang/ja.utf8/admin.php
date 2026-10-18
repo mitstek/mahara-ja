@@ -1401,7 +1401,7 @@ $string['cli_param_dryrun_export'] = '何が起きるか確認するためのド
 $string['cli_time_elapsed'] = '所要時間: %s';
 $string['behatvariables'] = 'Behatステップ';
 $string['behatvariablesdesc'] = '利用可能なBehatステップを素早く探すためのツールです。';
-$string['nobehatfeaturefiles'] = 'Behatフィーチャファイルは見つかりませんでした。';
+$string['nobehatfeaturefiles'] = 'Behatフィーチャファイルが見つかりませんでした。';
 $string['behatmatchingrows'] = '%s -';
 $string['behatnocoresteps'] = '<p>behat.ymlファイルからBehatステップを読めません。読めるようにするには<a href="https://wiki.mahara.org/wiki/Testing_Area/Behat_Testing/Setup#chown">あなたのBehatデータルートディレクトリのオーナを「www-data」にしてください</a>。</p>';
 $string['behatstepnotused'] = '現在、このBehatステップは使用されていません。';
@@ -1429,7 +1429,7 @@ $string['userprivacypagedescription1'] = '現在のプライバシ保護方針�
 $string['lastupdated'] = '最終更新日時';
 $string['newprivacy'] = 'あなたのアカウントに入る前に以下に表示されている情報をお読みください。';
 $string['privacyagreement'] = '私は % に同意します。';
-$string['privacyagreementdescription'] = 'あなたは「Yes」の選択により上のプライバシ保護方針の条項に同意することになります。';
+$string['privacyagreementdescription'] = '「Yes」を選択した場合、あなたは上のプライバシ保護方針の条項に同意したものとみなされます。';
 $string['privacyagreedto'] = 'あなたは  %s の %s に同意しました。';
 $string['agreementsaved'] = '同意が保存されました。';
 $string['refuseprivacy'] = 'プライバシ保護方針または利用条件を拒否する';
