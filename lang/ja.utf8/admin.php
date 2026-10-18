@@ -1699,7 +1699,7 @@ $string['behatvariables'] = 'Behatステップ';
 $string['behatvariables_help'] = '<h1>Behatステップ</h1>
 <p>利用可能なすべてのBehatステップおよびそれらがテストのどこで使用されているか表示します。すべてのテストはコードベースの<code>/test/behat/features</code>にあります。機能行の変数はグループ化を容易にするために「？」として表示されます。実際の行には正しい値が表示されます。</p>';
 $string['behatvariablesdesc1'] = 'このツールを使用してあなた独自の自動化テストを書くためのBehatステップを探します。';
-$string['nobehatfeaturefiles'] = 'Behatフィーチャファイルは見つかりませんでした。';
+$string['nobehatfeaturefiles'] = 'Behatフィーチャファイルが見つかりませんでした。';
 $string['behatmatchingrows'] = '%s -';
 $string['behatnocoresteps'] = '<p>behat.ymlファイルからBehatステップを読めません。読めるようにするには<a href="https://git.mahara.org/catalyst/mahara/-/wikis/Testing/Behat-testing/Setting-up-Behat">あなたのBehatデータルートディレクトリのオーナを「www-data」にしてください</a>。</p>';
 $string['behatstepnotused'] = '現在、このBehatステップは使用されていません。';
@@ -1726,7 +1726,7 @@ $string['userprivacypagedescription2'] = 'これらは現在のプライバシ�
 $string['lastupdated'] = '最終更新日時';
 $string['newprivacy'] = 'あなたのアカウントに入る前に以下に表示されている情報をお読みください。';
 $string['privacyagreement'] = '私は % に同意します。';
-$string['privacyagreementdescription'] = 'あなたは「Yes」の選択により上のプライバシ保護方針の条項に同意することになります。';
+$string['privacyagreementdescription'] = '「Yes」を選択した場合、あなたは上のプライバシ保護方針の条項に同意したものとみなされます。';
 $string['privacyagreedto_help'] = '<h1>ステートメント同意</h1><p>あなたはこの %sに対して %s に同意しました。</p>';
 $string['agreementsaved'] = '同意が保存されました。';
 $string['refuseprivacy'] = 'プライバシ保護方針または利用条件を拒否する';
@@ -1737,7 +1737,7 @@ $string['registerrefusal'] = 'あなたが %s に同意しない場合、アカ�
 $string['agreetoprivacy.privacy_help'] = '<h1>プライバシ保護方針</h1><p>プライバシ保護方針に同意しない場合、あなたはこのサイトでアカウントを作成できません。</p>';
 $string['agreetoprivacy.termsandconditions_help'] = '<h1>利用条件</h1><p>利用条件に同意しない場合、あなたはこのサイトでアカウントを作成できません。</p>';
 $string['enterreason'] = '拒否理由をここに入力してください ...';
-$string['privacyrefusalnoreason'] = 'プライバシ保護方針または利用規約に同意しない場合、あなたは理由を提示する必要があります。';
+$string['privacyrefusalnoreason'] = 'プライバシ保護方針または利用規約に同意しない場合、あなたは理由を明記する必要があります。';
 $string['privacylowcase'] = 'プライバシ保護方針';
 $string['termsandconditionslowcase'] = '利用条件';
 $string['hasrefused'] = 'は %s を拒否しました。';
