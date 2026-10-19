@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-17 05:48:11 UTC
+ * @updated    2026-10-19 01:29:04 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -885,9 +885,12 @@ $string['collapsespecific'] = '% を折りたたむ';
 $string['more...'] = 'さらに ...';
 $string['moreoptions'] = '詳細オプション';
 $string['moreoptionsfor1'] = '「 %s 」のオプションを選択してください';
+$string['submitted'] = '送信済み';
 $string['submittedinfo'] = '提出情報';
 $string['submittedinfofor'] = '「 %s 」の提出情報';
+$string['released'] = 'リリース済み';
 $string['releasedinfo'] = 'リリースオプション';
+$string['released_at'] = 'リリース済みポートフォリオ %s';
 $string['releasedinfofor'] = '「 %s 」のリリースオプション';
 $string['details'] = '詳細';
 $string['Details'] = '詳細';
@@ -917,6 +920,7 @@ $string['Results'] = '結果';
 $string['noresultsfound'] = '結果は見つかりませんでした。';
 $string['users'] = '人';
 $string['searchwithin'] = '検索対象';
+$string['header_name'] = '名称';
 $string['header_introduction'] = '自己紹介';
 $string['header_portfolios'] = 'ポートフォリオ';
 $string['header_roles'] = 'ロール';
@@ -1260,6 +1264,7 @@ $string['lastupdateorcomment'] = '最終更新日時またはコメント';
 $string['Title'] = 'タイトル';
 $string['anonymoususer'] = '(作成者名秘匿)';
 $string['removefooterlinksupgradewarning'] = 'あなたのサイトは利用条件またはプライバシ保護方針のカスタムリンクを使用します。次のリンク「 %s 」は削除されました。あなたはサイトの「管理メニュー」 → 「サイト設定」 → 「法律」セクションに直接コンテンツを入力する必要があります。';
+$string['myprofile1'] = 'マイ「プロファイル」タグ付きアイテム';
 $string['importedfrom'] = 'インポート元 %s';
 $string['incomingfolderdesc'] = '他のネットワークホストからインポートされたファイル';
 $string['remotehost'] = 'リモートホスト %s';
@@ -1290,6 +1295,7 @@ $string['sharesubtitle'] = 'あなたのプライバシを管理する';
 $string['engage'] = '参加';
 $string['engagesubtitle'] = '人を探してグループに参加する';
 $string['howtodisable'] = 'あなたは情報ボックスを秘匿しました。あなたは情報ボックスの可視性を<a href="%s">設定</a>ページでコントロールできます。';
+$string['section'] = 'セクション';
 $string['setblocktitle'] = 'ブロックタイトルを設定する';
 $string['blockinstanceownerchange'] = 'このブロックを編集して表示するコンテンツを選択します。';
 $string['blockinstanceconfigownerauto'] = 'このブロックがパーソナルポートフォリオページとしてコピーされた場合、データが自動的に追加されます。';
@@ -1460,22 +1466,38 @@ $string['dashboard_greeting'] = 'おかえりなさい %s さん!';
 $string['site_messages'] = 'サイトメッセージ';
 $string['dashboard_ally_welcome'] = 'ウェルカムグリーティング';
 $string['dashboard_ally_description'] = 'ウェルカムメッセージ';
+$string['heading_area_actions'] = 'ヘッディングエリアおよびトップページのアクション';
 $string['page_actions_region_aria'] = 'ページアクション';
+$string['tags_help'] = '<h1>タグ</h1>
+<p>アーティファクト、ページ、コレクションにタグを追加した場合、検索しやすくなります。</p><hr><h2>詳細</h2><p>検索ボックスに文字を入力して一致するタグを表示した後、追加したいタグを1つまたはそれ以上選択してください。</p><p>新しいタグを作成するには用語を入力して「Enter」キーを押してください。タグを削除するには横にある<strong>「x」</strong>を選択してください。</p>
+<p><strong>ヒント:</strong>「profile」タグを追加した場合、ダッシュボードのあなたのプロファイルサイドバーにそのタグが付けられたアイテムがショートカットとして表示されます。</p>';
 $string['accordions'] = 'アコーディオン';
+$string['accordioninfo'] = '大量の情報をカテゴリに分類することで1つのページに情報を詰め込みすぎることなく、簡単に情報を探しやすくなります。';
 $string['accordionexample1'] = 'アコーディオン例1';
 $string['accordionexample2'] = 'アコーディオン例2';
 $string['accordionexample3'] = 'アコーディオン例3';
 $string['accordioncontent'] = 'アコーディオンコンテンツ';
 $string['alerts'] = 'アラート';
 $string['alertswarning'] = '警告アラート';
+$string['alertswarning_desc'] = '推奨変更を実施する必要があることを示すには警告アラートを使用してください。';
+$string['alertswarning_example'] = 'これは警告アラートです。<a href="#">これは警告アラート内のリンクです。</a>';
 $string['alertsdanger'] = '危険アラート';
+$string['alertsdanger_desc'] = '続行する前に修正する必要があるエラーを危険アラートを使用して示します。';
+$string['alertsdanger_example'] = 'これは危険アラートです。<a href="#">これは危険アラート内のリンクです。</a>';
 $string['alertssuccess'] = '成功アラート';
+$string['alertssuccess_desc'] = 'アクションが成功したことを示すには成功アラートを使用します。';
+$string['alertssuccess_example'] = 'これは成功アラートです。<a href="#">これは成功アラート内のリンクです。</a>';
 $string['alertsinfo'] = '情報アラート';
+$string['alertsinfo_desc'] = '情報アラートを使用して通常は管理者のみに表示されるMaharaに関する情報を表示します。';
+$string['alertsinfo_example'] = 'これ情報アラートです。<a href="#">これは情報アラート内のリンクです。</a>';
 $string['attachments'] = '添付';
+$string['attachments_desc'] = '主にコメントおよび投稿に使用されます。「.card」クラスおよび「.list-group」クラスを組み合わせています。';
 $string['attachmentsnumber'] = '3添付ファイル';
 $string['attachmentsfile'] = 'ファイル名';
 $string['attachmentsdescription'] = 'ファイル説明';
 $string['badges'] = 'バッジ';
+$string['badges_desc'] = 'バッジを使用してタイプまたはカウントを強調表示します。通常はテキストの前にアイコンが付けられます。';
+$string['badgesnotification'] = 'ヘッダの通知トグルにはドットバッジが使用されます。これは標準のバッジクラスではなく、「.navbar-messages-dot」クラスを使用します。';
 $string['primary'] = '主';
 $string['secondary'] = '第2';
 $string['success'] = '成功';
