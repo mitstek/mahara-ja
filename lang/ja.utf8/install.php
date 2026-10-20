@@ -37,6 +37,6 @@ $string['loggedouthomedefaultcontent'] = '<h1>ようこそ</h1>
 $string['privacydefaultcontent'] = '<p>あなたのサイトの<strong>プライバシ保護方針</strong>を %s に追加してください。</p>';
 $string['staticpageconfigdefaults'] = '「管理メニュー」 → 「サイト設定」 → 「<a href="%s"><strong>固定ページ</strong></a>」';
 $string['staticpageconfiginstitutions'] = '「管理メニュー」 → 「インスティテューション」 → 「<a href="%s"><strong>固定ページ</strong></a>」';
-$string['termsandconditionsdefaultcontent'] = '<p>あなたのサイトの<b>利用条件</b>を %s に追加してください。</p>';
-$string['uploadcopyrightdefaultcontent'] = 'はい: 私がアップロードを試みているファイルは私に所有権があるファイル、または私に複製および配布が明確に許可されたファイルです。私がこのファイルを使用することで国内の著作権法を侵害することはありません。また、このファイルはサイトの利用条件に合致しています。';
+$string['termsandconditionsdefaultcontent'] = '<p>あなたのサイトの<b>利用規約</b>を %s に追加してください。</p>';
+$string['uploadcopyrightdefaultcontent'] = 'はい: 私がアップロードを試みているファイルは私に所有権があるファイル、または私に複製および配布が明確に許可されたファイルです。私がこのファイルを使用することで国内の著作権法を侵害することはありません。また、このファイルはサイトの利用規約に合致しています。';
 $string['versionedpageconfigdefault'] = '「管理メニュー」 → 「サイト設定」 → 「<a href="%s"><strong>法律</strong></a>」';
