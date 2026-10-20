@@ -31,8 +31,8 @@ $string['loggedouthomedefaultcontent'] = '<h1>ようこそ</h1>
 
 <p>このテキストを %s で編集してください。</p>';
 $string['privacydefaultcontent'] = '<p>あなたのサイトの<b>プライバシ保護方針</b>を %s に追加してください。</p>';
-$string['termsandconditionsdefaultcontent'] = '<p>あなたのサイトの<b>利用条件</b>を %s に追加してください。</p>';
-$string['uploadcopyrightdefaultcontent'] = 'はい: 私がアップロードを試みているファイルは私に所有権があるファイル、または私に複製および配布が明確に許可されたファイルです。私がこのファイルを使用することで国内の著作権法を侵害することはありません。また、このファイルはサイトの利用条件に合致しています。';
+$string['termsandconditionsdefaultcontent'] = '<p>あなたのサイトの<b>利用規約</b>を %s に追加してください。</p>';
+$string['uploadcopyrightdefaultcontent'] = 'はい: 私がアップロードを試みているファイルは私に所有権があるファイル、または私に複製および配布が明確に許可されたファイルです。私がこのファイルを使用することで国内の著作権法を侵害することはありません。また、このファイルはサイトの利用規約に合致しています。';
 $string['licensedisplaynamebysa'] = 'クリエイティブ・コモンズ 表示-継承 4.0 非移植';
 $string['licensedisplaynameby'] = 'クリエイティブ・コモンズ 表示 4.0 非移植';
 $string['licensedisplaynamebynd'] = 'クリエイティブ・コモンズ 表示-非営利-改変禁止 4.0 非移植';
