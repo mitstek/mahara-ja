@@ -21,7 +21,7 @@ $string['webservicesconfigdesc'] = 'ここであなたは様々なウェブサ�
 $string['webserviceconnectionsconfigdesc'] = '登録済みプラグインが外部システムとの通信に使用できる接続オブジェクトを設定します。';
 $string['completeregistration'] = '登録を完了する';
 $string['emailalreadytaken'] = 'このメールアドレスはすでにここで登録されています。';
-$string['iagreetothetermsandconditions'] = '私は利用条件に同意します。';
+$string['iagreetothetermsandconditions'] = '私は利用規約に同意します。';
 $string['passwordformdescription'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
 $string['passwordinvalidform'] = 'あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。';
 $string['registeredemailsubject'] = 'あなたは %s に登録されました。';
@@ -47,7 +47,7 @@ $string['registrationnosuchkey'] = '申し訳ございません、このキー�
 $string['registrationunsuccessful'] = '申し訳ございません、あなたの登録は正常に完了しませんでした。これは私たちに責任があります。再度お試しください。';
 $string['usernameinvalidform'] = 'ユーザ名には空白を除く半角英数字および一般的な記号を使用できます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
 $string['usernameinvalidadminform'] = 'ユーザ名には空白を除く半角英数字および一般的な記号を使用できます。また、ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
-$string['youmaynotregisterwithouttandc'] = '<a href="terms.php">利用条件</a>に従うことに同意しない限り、あなたは登録できません。';
+$string['youmaynotregisterwithouttandc'] = '<a href="terms.php">利用規約</a>に従うことに同意しない限り、あなたは登録できません。';
 $string['pluginconnections'] = '接続オブジェクト';
 $string['nodefinedconnections'] = 'ウェブサービス接続が定義されているプラグインはありません。最初に接続を定義してください。';
 $string['instancelistempty'] = 'このインスティテューションの接続オブジェクトはありません。';
