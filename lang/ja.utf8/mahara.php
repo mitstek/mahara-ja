@@ -983,7 +983,7 @@ $string['quotausagegroup'] = 'このグループのクオータ使用量は<span
 $string['reallyleaveinstitution'] = '本当にこのインスティテューションを離れてもよろしいですか?';
 $string['reason'] = '理由';
 $string['register'] = '登録';
-$string['registeragreeterms'] = 'また、あなたは<a href="terms.php">利用条件</a>に同意する必要があります。';
+$string['registeragreeterms'] = 'また、あなたは<a href="terms.php">利用規約</a>に同意する必要があります。';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムに登録できません。';
 $string['registerprivacy1'] = 'ここで収集したデータは私たちのプライバシー保護方針に準じて保存されます。';
 $string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須です。あなたの登録を完了するにはすべての必須入力フィールドに入力してください。</p>';
@@ -995,7 +995,7 @@ $string['reject'] = '拒否';
 $string['reloadtoview'] = 'ページを表示するにはリロードしてください。';
 $string['remotehost'] = 'リモートホスト %s';
 $string['remove'] = '削除';
-$string['removefooterlinksupgradewarning'] = 'あなたのサイトは利用条件またはプライバシー保護方針のカスタムリンクを使用します。次のリンク「 %s 」は削除されました。あなたはサイトの「管理 → サイト設定 → 法律」セクションに直接コンテンツを入力する必要があります。';
+$string['removefooterlinksupgradewarning'] = 'あなたのサイトは利用規約またはプライバシー保護方針のカスタムリンクを使用します。次のリンク「 %s 」は削除されました。あなたはサイトの「管理 → サイト設定 → 法律」セクションに直接コンテンツを入力する必要があります。';
 $string['reportobjectionablematerial'] = '好ましくないコンテンツを報告する';
 $string['reportsent'] = 'あなたの報告が送信されました。';
 $string['republish'] = '公開';
@@ -1081,7 +1081,7 @@ $string['tags'] = 'タグ';
 $string['tagsdesc'] = 'このアイテムのタグを検索または入力してください。';
 $string['tagsdescprofile'] = 'このアイテムのタグを検索または入力してください。「プロファイル」がタグ付けされたアイテムはあなたのサイドバーに表示されます。';
 $string['tagupdatedsuccessfully'] = 'タグが正常に更新されました。';
-$string['termsandconditions'] = '利用条件';
+$string['termsandconditions'] = '利用規約';
 $string['theme'] = 'テーマ';
 $string['thereasonis'] = 'ユーザの理由は次のとおりです:';
 $string['timelapsestringhour'] = array(

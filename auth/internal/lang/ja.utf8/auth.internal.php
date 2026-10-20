@@ -21,7 +21,7 @@ $string['description'] = 'Maharaデータベースで認証する';
 $string['emailalreadytaken'] = 'このメールアドレスはすでにここで登録されています。';
 $string['emailalreadytakenbyothers'] = 'このメールアドレスはすでに別のユーザによって取得されています。';
 $string['emailconfirmedok'] = '<p>正常にあなたのメールを確認しました。まもなく登録詳細に関してあなた宛にメールが送信されます。</p>';
-$string['iagreetothetermsandconditions'] = '私は利用条件に同意します。';
+$string['iagreetothetermsandconditions'] = '私は利用規約に同意します。';
 $string['internal'] = '内部';
 $string['passwordinvalidform1'] = 'あなたのパスワードは少なくとも半角英数字 %s 文字にしてください。パスワードでは大文字小文字を区別します。また、あなたのユーザ名と異なるものにしてください。あなたのパスワードには %s を含む必要があります。';
 $string['pendingregistrationadminemailhtml'] = '<p>%s さん、こんにちは。</p>
@@ -140,4 +140,4 @@ $string['userdeletionnosuchid'] = '申し訳ございません、この削除リ
 $string['usernamealreadytaken1'] = '申し訳ございません、あなたはこのユーザ名を使用できません。新しいユーザ名を選択してください。';
 $string['usernameinvalidadminform'] = 'ユーザ名には半角英数字および標準的な記号を使用できます。ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。';
 $string['usernameinvalidform'] = 'ユーザ名には半角英数字および標準的な記号を使用できます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。';
-$string['youmaynotregisterwithouttandc'] = '<a href="#user_acceptterms">利用条件</a>の順守に同意しない限り、あなたはユーザ登録されません。';
+$string['youmaynotregisterwithouttandc'] = '<a href="#user_acceptterms">利用規約</a>の順守に同意しない限り、あなたはユーザ登録されません。';
