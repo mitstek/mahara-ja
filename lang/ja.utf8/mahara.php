@@ -962,7 +962,7 @@ $string['quotausagegroup'] = 'このグループのクオータ使用量は<span
 $string['reallyleaveinstitution'] = '本当にこのインスティテューションを離れてもよろしいですか?';
 $string['reason'] = '理由';
 $string['register'] = '登録';
-$string['registeragreeterms'] = 'また、あなたは<a href="terms.php">利用条件</a>に同意する必要があります。';
+$string['registeragreeterms'] = 'また、あなたは<a href="terms.php">利用規約</a>に同意する必要があります。';
 $string['registeringdisallowed'] = '申し訳ございません、現在、あなたはこのシステムに登録できません。';
 $string['registerprivacy'] = 'ここで収集したデータは私たちの<a href="privacy.php">プライバシー保護方針</a>に従って保存されます。';
 $string['registerstep3fieldsmandatory'] = '<h3>必須プロファイルフィールドに入力する</h3><p>以下のフィールドは必須入力です。あなたの登録を完了するにはすべての必須入力フィールドに入力してください。</p>';
@@ -1058,7 +1058,7 @@ $string['tags'] = 'タグ';
 $string['tagsdesc'] = 'このアイテムのタグを検索または入力してください。';
 $string['tagsdescprofile'] = 'このアイテムのタグを検索または入力してください。「プロファイル」がタグ付けされたアイテムはあなたのサイドバーに表示されます。';
 $string['tagupdatedsuccessfully'] = 'タグが正常に更新されました。';
-$string['termsandconditions'] = '利用条件';
+$string['termsandconditions'] = '利用規約';
 $string['theme'] = 'テーマ';
 $string['timelapsestringhour'] = array(
     0 => '%2$s 時間 %s 分前',
