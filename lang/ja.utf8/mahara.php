@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-19 01:29:04 UTC
+ * @updated    2026-10-21 07:39:03 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1507,6 +1507,8 @@ $string['info'] = '情報';
 $string['beacon'] = 'ビーコン';
 $string['buttons'] = 'ボタン';
 $string['buttonprimary'] = '主ボタン';
+$string['buttonprimary_info'] = 'フォームおよびページ用の「送信」等の主アクションボタンです。通常、アイコン付きで3つのサイズがあります。';
+$string['buttonicons'] = 'ボタンアイコンイメージには次を追加してください: <code>role="presentation" aria-hidden="true"</code>';
 $string['buttonsecondary'] = '第2ボタン';
 $string['buttonlink'] = 'リンクボタン';
 $string['textlinkicon_example2'] = '標準リンク';
