@@ -25,7 +25,7 @@ $string['editauthority'] = '認証局を編集する';
 $string['addauthority'] = '認証局を追加する';
 $string['updateuserinfoonlogin'] = 'ログイン時、個人情報を更新する';
 $string['auth_config.updateuserinfoonlogin_help'] = '<h1>ログイン時、アカウント情報を更新する</h1>
-<p>この設定を有効にした場合、ログイン時にリモートサイトからアカウントデータが取得されて変更がローカルアカウントに適用されます。</p>';
+<p>この設定を有効にした場合、ログイン時にリモートサイトからアカウントデータが取得された上で変更がローカルアカウントに適用されます。</p>';
 $string['updateuserinfoonlogindescription'] = 'リモートサーバの個人情報を検索して人がログインするたびにあなたのローカルレコードを更新します。';
 $string['xmlrpcserverurl'] = 'XML-RPCサーバURL';
 $string['ipaddress'] = 'IPアドレス';
