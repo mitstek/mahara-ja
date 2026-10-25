@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-08-21 07:26:42 UTC
+ * @updated    2026-10-25 15:05:49 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -25,7 +25,7 @@ $string['editauthority'] = '認証局を編集する';
 $string['addauthority'] = '認証局を追加する';
 $string['updateuserinfoonlogin'] = 'ログイン時、個人情報を更新する';
 $string['auth_config.updateuserinfoonlogin_help'] = '<h1>ログイン時、アカウント情報を更新する</h1>
-<p>この設定を有効にした場合、ログイン時にリモートサイトからアカウントデータが取得されて変更がローカルアカウントに適用されます。</p>';
+<p>この設定を有効にした場合、ログイン時にリモートサイトからアカウントデータが取得された上で変更がローカルアカウントに適用されます。</p>';
 $string['updateuserinfoonlogindescription'] = 'リモートサーバの個人情報を検索して人がログインするたびにあなたのローカルレコードを更新します。';
 $string['xmlrpcserverurl'] = 'XML-RPCサーバURL';
 $string['ipaddress'] = 'IPアドレス';
@@ -74,7 +74,6 @@ $string['errnoxmlrpcuser1'] = '現時点ではあなたを認証できません�
 *あなたのSSOセッションが失効しました。他のアプリケーションに戻って %s にログインするためのリンクを再度クリックしてください。
 *あなたの %s へのSSOが許可されていません。あなたがSSOできるかどうか管理者に確認してください。';
 $string['toomanytries'] = 'あなたは最大ログイン試行回数を超過しました。このアカウントは5分間ロックされます。';
-$string['unabletosigninviasso'] = '外部認証 (SSO) 経由でサインインできません。';
 $string['xmlrpccouldnotlogyouin'] = '申し訳ございません、あなたをログインさせることができませんでした。';
 $string['xmlrpccouldnotlogyouindetail1'] = '申し訳ございません、今回はあなたを %s にログインさせることができませんでした。しばらくして再度ログインをお試しください。
 問題が続く場合、あなたの管理者にご連絡ください。';
@@ -92,5 +91,6 @@ $string['warninstitutionregistrationinstitutions'] = '次のインスティテ�
 %2$s';
 $string['warnmultiinstitutionsoff'] = '$cfg->usersuniquebyusernameが有効にされていますがサイトオプション「人に複数インスティテューションを許可する」は無効にされています。ログインするたびに人はインスティテューションを変える必要があるためこれは意味をなしません。この設定を「管理 → サイト設定 → インスティテューション設定」で有効にしてください。';
 $string['alternativelogins'] = '管理ログイン';
+$string['unabletosigninviasso'] = '外部認証 (SSO) 経由でサインインできません。';
 $string['nullprivatecert'] = '秘密鍵を生成できませんでした。';
 $string['nullpubliccert'] = '公開証明書を生成できませんでした。';
