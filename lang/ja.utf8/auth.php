@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-25 15:05:49 UTC
+ * @updated    2026-10-27 15:05:47 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -56,7 +56,7 @@ $string['authloginmsg2'] = 'あなたが親認証局を選択していない場�
 $string['application'] = 'アプリケーション';
 $string['auth_config.appname_help'] = '<h1>アプリケーション</h1>
 <p>あなたが通信を希望するリモートサイトで実行されているアプリケーションです。</p>';
-$string['cantretrievekey'] = 'リモートサーバの公開鍵検索中にエラーが発生しました。<br>アプリケーションおよびWWWルートフィールドが正しいことを確認してください。また、リモートホストのネットワーキングが有効にされていることを確認してください。';
+$string['cantretrievekey'] = 'リモートサーバから公開鍵を取得中にエラーが発生しました。<br>アプリケーションおよびWWWルートフィールドが正しいことを確認してください。また、リモートホストのネットワーキングが有効にされていることを確認してください。';
 $string['ssodirection'] = 'SSOの方向';
 $string['auth_config.ssodirection_help'] = '<h1>SSOの方向</h1><p>どのアプリケーションをメインにするか決定してください。結果として人はそれを出発点として使用します。</p>
 <dl><dt>こちらにSSOさせる</dt><dd>この設定を有効にした場合、リモートサイトの人はユーザ名およびパスワードを入力せずにMaharaサイトにアクセスできます。</dd></dt>
