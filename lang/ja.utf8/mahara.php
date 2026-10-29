@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-21 07:39:09 UTC
+ * @updated    2026-10-29 14:33:18 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -308,8 +308,8 @@ $string['institutiontagdesc'] = 'あなたは1度に1個のタグを追加でき
 $string['institutiontagdeleted'] = 'インスティテューションタグが正常に削除されました。';
 $string['institutiontagdeletefail'] = 'インスティテューションタグの削除に失敗しました。';
 $string['institutiontags'] = 'インスティテューションタグ';
-$string['institutiontagsdescription'] = 'インスティテューションタグはインスティテューションにより事前に定義されます。インスティテューションのすべてのメンバはインスティテューションタグを利用できます。あなたは好きなだけタグを作成できます。';
 $string['institutiontagsaved'] = 'インスティテューションタグが保存されました。';
+$string['institutiontagsdescription1'] = 'このインスティテューションのすべての人がコンテンツに使用できるタグを作成します。';
 $string['notags'] = 'このインスティテューションにタグはありません。';
 $string['tag'] = 'タグ';
 $string['timesused'] = '使用回数';
@@ -527,7 +527,6 @@ $string['youraccounthasbeenunsuspended'] = 'あなたのアカウントの利用
 $string['changepasswordinfo'] = '開始するにはあなたのパスワードを変更する必要があります。';
 $string['chooseinstitution'] = 'あなたのインスティテューションを選択する';
 $string['chooseusernamepassword'] = 'あなたのユーザ名およびパスワードを選択する';
-$string['chooseusernamepasswordinfo'] = 'あなたが %s にログインするにはユーザ名およびパスワードが必要です。あなたのユーザ名およびパスワードを選択してください。';
 $string['confirmpassword'] = 'パスワードをもう一度';
 $string['deleteaccount1'] = 'アカウントを削除する';
 $string['senddeletenotification'] = 'リクエストを送信する';
@@ -576,7 +575,6 @@ $string['youaremasqueradingas'] = 'あなたは %s としてログインして�
 $string['masquerading_as'] = '代理ログイン:';
 $string['yournewpassword1'] = 'あなたの新しいパスワードです。あなたのパスワードには少なくとも半角 %s 文字必要です。パスワードは大文字小文字を区別します。また、あなたのユーザ名とは異なる必要があります。%s<br>
 セキュリティ上の理由からパスフレーズの使用をお考えください。パスフレーズには1つの単語ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上) の言葉をスペースで区切って使用することをお考えください。';
-$string['yournewpasswordagain'] = 'あなたの新しいパスワードをもう一度';
 $string['invalidsesskey'] = '無効なセッションキー';
 $string['cannotremovedefaultemail'] = 'あなたの主メールアドレスは削除できません。';
 $string['emailtoolong'] = 'メールアドレスの長さは半角255文字より長くできません。';
@@ -1510,19 +1508,33 @@ $string['buttons'] = 'ボタン';
 $string['buttonprimary'] = '主ボタン';
 $string['buttonprimary_info'] = 'フォームおよびページ用の「送信」等の主アクションボタンです。通常、アイコン付きで3つのサイズがあります。';
 $string['buttonicons'] = 'ボタンアイコンイメージには次を追加してください: <code>role="presentation" aria-hidden="true"</code>';
+$string['novisibletext'] = 'ボタンに表示されるテキストがない場合、晴眼者およびスクリーンリーダのために「title」属性を追加してください。';
 $string['buttonsecondary'] = '第2ボタン';
+$string['buttonsecondary_info'] = 'リストまたはテーブルにアイテムを追加する等の機能用の第2アクションボタンです。多くの場合、テキストなしのアイコンのみです。3つのサイズから選択できます。';
 $string['buttonlink'] = 'リンクボタン';
+$string['buttonlink_info'] = 'より適切な配置のために「キャンセル」または「リセット」ボタンを他のボタンと一緒に使用してください。アイコンの追加は避けてください。代わりに「<code>.icon-link</code>」を使用してください。';
+$string['textlinkicon'] = 'アイコン付きテキストリンク';
+$string['textlinkicon_info'] = '「さらに」ボタンまたはフォーラム投稿アクション等のリストまたはカードのボタンに使用します。ホバーインタラクションを含む場合があります。';
+$string['textlinkicon_example1'] = 'その他 (ホバー時にマイクロインタラクションあり)';
 $string['textlinkicon_example2'] = '標準リンク';
 $string['buttonclose'] = '閉じるボタン';
+$string['buttonclose_info'] = '主にモーダルヘッダで使用します。ここでパディングが少しずれて見える場合がありますが、モーダルでは正しく表示されます。';
 $string['buttoncolour'] = '色ボタン';
+$string['buttoncolour_info'] = 'Bootstrapの色変数はボタンの機能を強調するために使用できます。';
 $string['buttoninfo'] = '情報ボタン';
 $string['buttonsuccess'] = '成功ボタン';
 $string['buttonwarning'] = '警告ボタン';
 $string['buttondanger'] = '危険ボタン';
 $string['buttongroups'] = 'ボタングループ';
+$string['buttongroups_info'] = '表およびリストグループのアイテム内でボタングループを使用します。境界線の半径がきれいに揃わないフォームの場合、「<code>.btn-group</code>」を削除して代わりにスタンドアロンボタンを使用してください。';
+$string['button'] = 'ボタン';
+$string['buttonspagetop'] = 'ページ上部ボタン';
+$string['buttonspagetop_info'] = 'ページタイトルの右側にある主要アクションボタンのグループです。ボタンのテキストはモバイルの画面幅では秘匿されるため、アイコンだけでアクションが明確に分かるようにしてください。';
 $string['pagetitle'] = 'ページタイトル';
+$string['cards'] = 'カード';
 $string['carddefault'] = 'デフォルトカード';
 $string['carddefault_example'] = 'これはデフォルトカードです。';
+$string['more'] = 'さらに';
 $string['cardportfolio'] = 'ポートフォリオカード';
 $string['cardportfolio_info1'] = 'ダッシュボード、プロファイルページおよびグループのホームページを除く、ポートフォリオページで使用されるカードです。';
 $string['cardportfolio_info2'] = 'これらのカードには枠線またはヘッダアイコンがありません。';
