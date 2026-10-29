@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-21 07:39:03 UTC
+ * @updated    2026-10-29 14:33:15 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1509,19 +1509,33 @@ $string['buttons'] = 'ボタン';
 $string['buttonprimary'] = '主ボタン';
 $string['buttonprimary_info'] = 'フォームおよびページ用の「送信」等の主アクションボタンです。通常、アイコン付きで3つのサイズがあります。';
 $string['buttonicons'] = 'ボタンアイコンイメージには次を追加してください: <code>role="presentation" aria-hidden="true"</code>';
+$string['novisibletext'] = 'ボタンに表示されるテキストがない場合、晴眼者およびスクリーンリーダのために「title」属性を追加してください。';
 $string['buttonsecondary'] = '第2ボタン';
+$string['buttonsecondary_info'] = 'リストまたはテーブルにアイテムを追加する等の機能用の第2アクションボタンです。多くの場合、テキストなしのアイコンのみです。3つのサイズから選択できます。';
 $string['buttonlink'] = 'リンクボタン';
+$string['buttonlink_info'] = 'より適切な配置のために「キャンセル」または「リセット」ボタンを他のボタンと一緒に使用してください。アイコンの追加は避けてください。代わりに「<code>.icon-link</code>」を使用してください。';
+$string['textlinkicon'] = 'アイコン付きテキストリンク';
+$string['textlinkicon_info'] = '「さらに」ボタンまたはフォーラム投稿アクション等のリストまたはカードのボタンに使用します。ホバーインタラクションを含む場合があります。';
+$string['textlinkicon_example1'] = 'その他 (ホバー時にマイクロインタラクションあり)';
 $string['textlinkicon_example2'] = '標準リンク';
 $string['buttonclose'] = '閉じるボタン';
+$string['buttonclose_info'] = '主にモーダルヘッダで使用します。ここでパディングが少しずれて見える場合がありますが、モーダルでは正しく表示されます。';
 $string['buttoncolour'] = '色ボタン';
+$string['buttoncolour_info'] = 'Bootstrapの色変数はボタンの機能を強調するために使用できます。';
 $string['buttoninfo'] = '情報ボタン';
 $string['buttonsuccess'] = '成功ボタン';
 $string['buttonwarning'] = '警告ボタン';
 $string['buttondanger'] = '危険ボタン';
 $string['buttongroups'] = 'ボタングループ';
+$string['buttongroups_info'] = '表およびリストグループのアイテム内でボタングループを使用します。境界線の半径がきれいに揃わないフォームの場合、「<code>.btn-group</code>」を削除して代わりにスタンドアロンボタンを使用してください。';
+$string['button'] = 'ボタン';
+$string['buttonspagetop'] = 'ページ上部ボタン';
+$string['buttonspagetop_info'] = 'ページタイトルの右側にある主要アクションボタンのグループです。ボタンのテキストはモバイルの画面幅では秘匿されるため、アイコンだけでアクションが明確に分かるようにしてください。';
 $string['pagetitle'] = 'ページタイトル';
+$string['cards'] = 'カード';
 $string['carddefault'] = 'デフォルトカード';
 $string['carddefault_example'] = 'これはデフォルトカードです。';
+$string['more'] = 'さらに';
 $string['cardportfolio'] = 'ポートフォリオカード';
 $string['cardportfolio_info1'] = 'ダッシュボード、プロファイルページおよびグループのホームページを除く、ポートフォリオページで使用されるカードです。';
 $string['cardportfolio_info2'] = 'これらのカードには枠線またはヘッダアイコンがありません。';
