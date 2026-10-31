@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-23 00:56:08 UTC
+ * @updated    2026-10-31 01:18:06 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -21,6 +21,7 @@ $string['webservicesconfig'] = '設定';
 $string['webservicesconfigdesc'] = 'ここであなたは様々なウェブサービスルールを設定、有効または無効にできます。';
 $string['webservicesconfigdescshort'] = 'あなたのサイトのウェブサービスアクセスを設定および管理します。';
 $string['webserviceconnectionsconfigdesc'] = '登録済みプラグインが外部システムとの通信に使用できる接続オブジェクトを設定します。';
+$string['webservicesconnections'] = 'ウェブサービス接続';
 $string['completeregistration'] = '登録を完了する';
 $string['emailalreadytaken'] = 'このメールアドレスはすでにここで登録されています。';
 $string['iagreetothetermsandconditions'] = '私は利用規約に同意します。';
@@ -225,6 +226,10 @@ $string['iterationtitle'] = '%s イテレーション: %s';
 $string['unabletoruntestclient'] = 'ウェブサービステストクライアントはhttpsの下で実運用モードで動作させるか、あなたのconfig.php内に「$cfg->productionmode = false」を記述する必要があります。';
 $string['accesstokens'] = 'OAuthアクセストークン';
 $string['notokens'] = 'あなたにはアプリケーショントークンがありません。';
+$string['notokensstart'] = 'あなたにはアプリケーショントークンがありません。始めるには以下でトークンを作成してください。';
+$string['usertokenactions'] = 'ユーザトークンアクション';
+$string['apptokenactions'] = 'アプリケーショントークンアクション';
+$string['reallydeletetoken'] = '本当にこのトークンを削除してもよろしいですか?';
 $string['externalapps'] = '外部アプリケーション';
 $string['externalappsdesc'] = 'ウェブサービスにアクセスするための外部アプリケーションを登録します。';
 $string['oauth1'] = 'OAuth1.x';
