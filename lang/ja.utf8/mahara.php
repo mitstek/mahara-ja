@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-29 14:33:15 UTC
+ * @updated    2026-10-31 01:22:31 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1534,7 +1534,10 @@ $string['buttonspagetop_info'] = 'ページタイトルの右側にある主要�
 $string['pagetitle'] = 'ページタイトル';
 $string['cards'] = 'カード';
 $string['carddefault'] = 'デフォルトカード';
+$string['carddefault_info1'] = 'ダッシュボード、プロファイルページおよびグループホームページを除く、ポートフォリオページ以外で使用されるカードです。';
+$string['carddefault_info2'] = 'デフォルトのスタイルにはカードクラスで自動的に挿入されるカードヘッダ前の境界線およびアイコンが含まれます。';
 $string['carddefault_example'] = 'これはデフォルトカードです。';
+$string['listgroupitem'] = 'リストグループアイテム';
 $string['more'] = 'さらに';
 $string['cardportfolio'] = 'ポートフォリオカード';
 $string['cardportfolio_info1'] = 'ダッシュボード、プロファイルページおよびグループのホームページを除く、ポートフォリオページで使用されるカードです。';
@@ -1583,6 +1586,10 @@ $string['inputfilebrowser'] = 'ファイルブラウザ';
 $string['fileupload'] = 'ファイルをアップロードする';
 $string['inputcheckbox'] = 'チェックボックス';
 $string['radiobuttons'] = 'ラジオボタン';
+$string['icons'] = 'アイコン';
+$string['listgroups'] = 'リストグループ';
+$string['listgroupsheading'] = 'リストグループアイテムヘッディング';
+$string['context'] = 'コンテクスト';
 $string['modals'] = 'モーダル';
 $string['modals_info'] = 'モーダルウィンドウはブラウザウィンドウの中央に表示されて自動的にリサイズされます。';
 $string['modallaunch'] = 'デモモーダルを起動する';
