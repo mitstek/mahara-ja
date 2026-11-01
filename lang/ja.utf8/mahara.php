@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-31 01:22:56 UTC
+ * @updated    2026-11-01 23:36:14 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1579,14 +1579,35 @@ $string['formelements_info'] = 'いくつかのフォームエレメントが利
 $string['input'] = '入力';
 $string['inputtext'] = 'テキスト入力';
 $string['placeholdertext'] = 'プレースホルダテキスト';
+$string['inputdisabled'] = '入力無効';
+$string['inputicon'] = '左側にアイコンのある入力フィールド';
+$string['inputbutton'] = 'ボタン付き入力';
 $string['inputfloating'] = 'フローティングラベル';
 $string['inputtextarea'] = 'テキストエリア';
 $string['inputfilebrowser'] = 'ファイルブラウザ';
 $string['fileupload'] = 'ファイルをアップロードする';
+$string['inputselect'] = '選択';
+$string['inputselect_info'] = '選択ボックスです。ドロップダウンはブラウザのデフォルトであるため、そのオプションのスタイルは設定できません。';
+$string['option'] = 'オプション';
+$string['inputselectbutton'] = 'ボタン付き選択';
+$string['inputselect2_info'] = '「Select2」ライブラリを使用したドロップダウン選択ボックスです。例に関して、受信トレイのメッセージ作成ページをご覧ください。';
 $string['inputcheckbox'] = 'チェックボックス';
 $string['radiobuttons'] = 'ラジオボタン';
+$string['switch'] = 'スイッチ/トグル';
+$string['switchenabled'] = '有効';
+$string['emptystates'] = '空の状態';
+$string['emptystates_info'] = '空の状態では結果がない場合にスペースで埋めるためにイラストおよびテキストが使用されます。';
+$string['emptystatesimages'] = 'いくつかのイラストが用意されています。それぞれにダークモード版があります。';
+$string['forum'] = 'フォーラム';
+$string['forumpost'] = 'フォーラム投稿';
+$string['forumpost_info'] = '標準のフォーラム投稿レイアウトです。投稿はインデントされたスレッドとして表示できます。';
+$string['forumpostsubject'] = 'これは件名です。';
+$string['forumpostcontent'] = 'フォーラム投稿コンテンツは短くまたは長くできます。';
+$string['attachedfile1'] = '添付ファイル: 1';
 $string['icons'] = 'アイコン';
 $string['listgroups'] = 'リストグループ';
+$string['listgroups_info1'] = 'リストグループはカード内で使用されます。ほとんどの場合、ホバー背景には「<code>.list-group-flush</code>」および「<code>.list-group-item-action</code>」が使用されます。';
+$string['listgroups_info2'] = 'アイテムはレスポンシブレイアウトの柔軟性のために「<code>.d-flex</code>」を使用します。';
 $string['listgroupsheading'] = 'リストグループアイテムヘッディング';
 $string['context'] = 'コンテクスト';
 $string['modals'] = 'モーダル';
@@ -1600,6 +1621,7 @@ $string['headermenu'] = 'ヘッダメニュートグル';
 $string['headermenu_info'] = 'ヘッダにはメインナビゲーションの一部ではないアイコントグルが含まれています。';
 $string['navigationleft'] = '左ナビゲーション';
 $string['navigationleft_info'] = 'メインナビゲーションはブラウザウィンドウの左側にあります。ヘッダのトグルを使用して展開または折りたたみできます。ナビゲーションメニューには「メイン」「グループ」「管理者」の3つがあります。';
+$string['navigationleft_infomobile'] = 'モバイルではこのメニューはドロップダウンメニューとして表示されます。';
 $string['mainnavitem'] = 'メインナビゲーションアイテム';
 $string['groupmenu'] = 'グループメニュー';
 $string['groupnavitem'] = 'グループナビゲーションアイテム';

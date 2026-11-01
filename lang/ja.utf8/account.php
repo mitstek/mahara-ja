@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-23 00:59:08 UTC
+ * @updated    2026-11-01 23:04:42 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -18,6 +18,7 @@ $string['changepasswordotherinterface'] = 'あなたは異なるインタフェ�
 $string['oldpasswordincorrect'] = 'これはあなたの現在のパスワードではありません。';
 $string['changeusernameheading'] = 'ユーザ名を変更する';
 $string['changeusername'] = '新しいユーザ名';
+$string['requiredfields.username_help'] = '<h1>新しいユーザ名</h1><p>ユーザ名にはスペースを除く半角英数字および標準的な記号を使用できます</p>';
 $string['username_help'] = '<h1>ユーザ名</h1><p>あなたのユーザ名はスペースを除き、文字、数字および最も一般的な記号で構成される3〜30文字にする必要があります。</p>';
 $string['usernameexists2'] = 'このユーザ名はすでに取得されています。別のものを選択してください。';
 $string['accountoptionsdesc'] = '一般アカウントオプション';

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-07 06:35:07 UTC
+ * @updated    2026-11-01 23:17:05 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -78,9 +78,11 @@ $string['collectiondragupdate1'] = '「コレクションに登録済みのペ�
 あなたはページ名をドラッグまたは矢印ボタンを使用することで「コレクションに登録済みのページ」エリアのページを並べ替えることができます。';
 $string['viewsincollection'] = 'コレクションに登録済みのページ';
 $string['editcollection'] = 'コレクションを編集する';
+$string['edit_help'] = '<h1>コレクション詳細</h1><p>ここであなたはコレクションにタイトルおよび説明を付けてコレクションの内容を人に伝えれます。</p>';
 $string['editingcollection'] = 'コレクションを編集する';
 $string['edittitleanddesc'] = 'タイトルおよび説明を編集する';
 $string['editviews'] = 'コレクションページを編集する';
+$string['views_help'] = '<h1>コレクションページ</h1><p>ここであなたはコレクションにページを追加およびコレクションナビゲーションに表示される順序を設定できます。</p><p>あなたがコレクションにページを追加した場合、ページに付随するアクセス権がコレクション全体に追加されます。</p>';
 $string['editviewaccess'] = 'ページアクセスを編集する';
 $string['editaccess'] = 'コレクションアクセスを編集する';
 $string['emptycollectionnoeditaccess1'] = 'あなたは空のコレクションを共有できません。少なくとも1ページを追加してください。';

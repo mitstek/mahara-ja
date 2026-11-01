@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-20 15:05:43 UTC
+ * @updated    2026-11-01 23:12:25 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1318,8 +1318,8 @@ $string['approveregistrationmessage'] = '人の登録を承認してインステ
 $string['denyregistrationfor'] = '「 %s %s 」の登録を拒否する';
 $string['denyregistrationmessage'] = '人の登録を拒否します。本当にこの登録を拒否してもよろしいですか?';
 $string['nopendingregistrations'] = 'このインスティテューションの登録保留はありません。';
-$string['pendingregistration'] = '登録保留';
 $string['pendingregistrations'] = '登録保留';
+$string['pendingregistration'] = '登録保留';
 $string['pendingaccountregistrations'] = 'アカウント登録保留';
 $string['pendingregistrations_help'] = '<h1>インスティテューション登録保留</h2><p>選択したインスティテューションで自己登録が有効にされている場合、保留中の登録が表示されます。</p><p>あなたがリクエストを承認した場合、その人はアカウントを有効にするための手順が記載されたメールを受け取ります。アクティベーションリンクをクリックした時点でメンバとして追加されます。リンクは24時間後に期限切れとなります。その後も参加を希望する場合、再度登録する必要があります。</p><p>あなたがリクエストを却下した場合、その人に自動的にメールで通知されます。</p>';
 $string['pendingregistrationspagedescription2'] = '<p>このページではあなたのインスティテューションで自己登録およびメンバシップをリクエストした人を閲覧できます。あなたは登録リクエストを承認または拒否できます。<p>
@@ -1407,6 +1407,8 @@ $string['unallocated'] = '未割り当て';
 $string['currentverifiersovertime'] = '現在のレビュアの推移';
 $string['currentverifiers'] = '現在のレビュア';
 $string['manageportfoliosmethod'] = 'ポートフォリオを管理する';
+$string['manageportfolioschooseverifier'] = '「 %s 」(%s) のレビュアを選択する';
+$string['manageportfoliosselectlock'] = '「 %s 」(%s) を選択してロックまたはロック解除する';
 $string['filterportfolios1'] = 'テンプレートでポートフォリオをフィルタする';
 $string['locking_collection_locked'] = 'コレクション 「 %s 」 は現在ロックされています。';
 $string['locking_collection_unlocked'] = 'コレクション 「 %s 」 はロック解除されました。';
@@ -1760,6 +1762,7 @@ $string['userprivacyagreements'] = '以下、人が同意したすべてのプ�
 $string['usertermsagreements'] = '以下、人が同意したすべての利用規約が表示されています。';
 $string['privacytermsdesc'] = 'あなたのサイトのプライバシ保護方針および利用規約を編集します。';
 $string['approveuserdeletionfor'] = '%s %s <%s> のアカウント削除を承認する';
+$string['approveuserdeletionfor1'] = '%s (%s) のアカウント削除を承認する';
 $string['approveuserdeletionmessage'] = '続けた場合、あなたはアカウント「 %s 」を削除することになります。すべての個人コンテンツは完全に削除されます。本当にこのリクエストを承認してもよろしいですか?';
 $string['deletionapprovedsuccessfully'] = 'アカウント削除が正常に承認されました。';
 $string['deletionapprovedfailed'] = 'アカウント削除に失敗しました。';
@@ -1767,9 +1770,15 @@ $string['deletiondeniedreason'] = '拒否理由';
 $string['deletiondeniedreasondesc'] = '削除リクエストが拒否された理由に関する情報です。';
 $string['deletionreason'] = '削除理由';
 $string['denyuserdeletionfor'] = '「 %s %s 」のアカウント削除を拒否する';
+$string['denyuserdeletionfor1'] = '「 %s 」のアカウント削除を拒否する';
 $string['denyuserdeletionmessage'] = '続けた場合、あなたはアカウントの削除を拒否することになります。理由を提供してください。';
+$string['denypendingdeletionmessage'] = '次のアカウントの削除は拒否されます。';
+$string['keepaccountuser'] = '%s のアカウントを保持する';
+$string['keep'] = 'アカウントを保持する';
+$string['deleteaccountconfirmation'] = '本当にこのアカウントを完全に削除してもよろしいですか?';
+$string['deleteaccountwarning'] = 'これは元に戻せません。すべてのアカウントデータは完全に削除されます。';
+$string['keepaccountmessage'] = '本当にこのアカウントの削除をキャンセルしてもよろしいですか?';
 $string['nopendingdeletions'] = 'このインスティテューションにアカウント削除リクエストの保留はありません。';
-$string['pendingdeletion'] = '削除保留';
 $string['pendingdeletions'] = '削除保留';
 $string['pendingdeletions1'] = 'アカウント削除保留';
 $string['pendingdeletionspagedescription'] = '<p>あなたはこのページでサイトからのアカウント削除をリクエストした人を確認および削除承認できます。<p>
@@ -1937,3 +1946,4 @@ $string['languagepacks_help'] = '<h1>言語</h1>
 $string['footerlinks.manualhelp_structure_help'] = '<h1>Maharaマニュアル構成</h1>
 <p>外部マニュアルが公式MaharaマニュアルまたはMaharaマニュアル構造に従ったカスタマイズ版である場合、このオプションを有効にしてください。これによりフッタのコンテクスト依存の「ヘルプ」リンクが維持されます。</p>
 <p>ドキュメントがPDF、一連のページまたは別のウェブサイトである場合、「ヘルプ」リンクが常に指定されたURLに移動するよう、このオプションを有効にしないでください。</p>';
+$string['viewprofile'] = 'プロファイルを表示する';
