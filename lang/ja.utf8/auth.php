@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-27 15:05:47 UTC
+ * @updated    2026-11-01 15:00:10 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -66,7 +66,7 @@ $string['errorunabletologin'] = 'あなたはログインできません。';
 $string['errorcertificateinvalidwwwroot'] = 'これは %s の証明書ですが、あなたは %s への使用を試みています。';
 $string['errorcouldnotgeneratenewsslkey'] = '新しいSSLキーを生成できませんでした。本当にこのマシンに OpenSSLおよびOpenSSL用PHPモジュールがインストールされていますか?';
 $string['errnoauthinstances'] = '私たちには %s のホストに認証プラグインインスタンスが設定されていないようです。';
-$string['errornotvalidsslcertificate'] = '有効なSSLサーバ証明書ではありません。';
+$string['errornotvalidsslcertificate'] = 'これは有効なSSL証明書ではありません。';
 $string['errnoxmlrpcinstances'] = '私たちには %s のホストにXMLRPCプラグインインスタンスが設定されていないようです。';
 $string['errnoxmlrpcwwwroot'] = '私たちには %s のホストにレコードがありません。';
 $string['errnoxmlrpcuser1'] = '現時点ではあなたを認証できませんでした。可能性のある理由として以下が考えられます:
