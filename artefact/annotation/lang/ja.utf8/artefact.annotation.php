@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-05-19 01:26:55 UTC
+ * @updated    2026-11-03 14:04:55 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -20,7 +20,6 @@ $string['annotation'] = 'アノテーション';
 $string['annotations'] = 'アノテーション';
 $string['Annotationfeedback'] = 'フィードバック';
 $string['annotationfeedback'] = 'フィードバック';
-$string['nannotationfeedback'] = '%s フィードバック';
 $string['typeannotationfeedback'] = 'アノテーションのフィードバック';
 $string['typeannotationfeedback_help'] = '<h1>アノテーションのフィードバック</h1><p>スマートエビデンスコレクション内のアノテーションに対するフィードバックを受信した際の通知です。</p>';
 $string['allowannotationfeedback'] = 'フィードバックを許可する';
@@ -97,6 +96,7 @@ $string['invalidannotationfeedbacklinkerror'] = 'フィードバックはアー�
 $string['entriesimportedfromleapexport'] = '他の場所でインポートできなかったLeap2Aエクスポートからインポートされたエントリです。';
 $string['unknownstrategyforimport'] = 'エントリのインポートに不明な方法が選択されました。';
 $string['invalidcreateannotationfeedback'] = '自分のためのフィードバックは作成できません。';
+$string['nannotationfeedback'] = '%s フィードバック';
 $string['progress_annotation'] = 'ページに %s アノテーションを追加する';
 $string['progress_annotationfeedback'] = '他の人のアノテーションに %s フィードバックを投稿する';
 $string['duplicatedannotation'] = '重複アノテーション';
@@ -108,4 +108,5 @@ $string['public'] = 'パブリック';
 $string['enteredon'] = '投稿日時';
 $string['noreflectionentryfound'] = 'アノテーションの内省エントリが見つかりません。';
 $string['nofeedback'] = 'このアノテーションにまだフィードバックはありません。';
+$string['feedbacknotenabled'] = 'このアノテーションでフィードバックは有効にされていません。';
 $string['assessmentchangedto'] = '評価: %s';
