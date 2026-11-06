@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-23 01:00:14 UTC
+ * @updated    2026-11-06 16:10:04 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -84,3 +84,4 @@ $string['text_input_with_dropdown'] = 'ドロップダウンボタン付きテ�
 $string['select_search_type'] = '検索タイプを選択する';
 $string['search'] = '検索:';
 $string['validrange'] = '%s と %s の間に設定してください。';
+$string['characters'] = '文字';

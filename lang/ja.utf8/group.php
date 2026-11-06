@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-10-07 06:42:22 UTC
+ * @updated    2026-11-06 15:55:56 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -279,6 +279,9 @@ $string['removefromgroupnotificationsubject'] = '「 %s 」のメンバではな
 $string['removefromgroupnotificationmessage'] = 'あなたはグループ「 %s 」のメンバではなくなりました';
 $string['hidegroupmembers'] = 'メンバを秘匿する';
 $string['hideonlygrouptutors'] = 'チュータを秘匿する';
+$string['accessruleschanged'] = '「 %s 」グループにないロールの共有ルールを削除しました。オーナに通知されました。';
+$string['accessrulesremoved'] = 'グループ「 %s 」の共有ルールが削除されました。';
+$string['accessrulesremovedmessage'] = 'グループ「 %s 」が「 %s 」ロールのないグループタイプに更新されました。グループに共有されていた次のポートフォリオの共有パーミッションが削除されました:';
 $string['addmembers'] = 'メンバを追加する';
 $string['invitationssent'] = '%d 件の招待が送信されました。';
 $string['newmembersadded'] = '%d 名の新しいメンバが追加されました。';

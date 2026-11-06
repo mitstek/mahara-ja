@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-11-01 23:36:14 UTC
+ * @updated    2026-11-06 16:06:57 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1626,15 +1626,24 @@ $string['mainnavitem'] = 'メインナビゲーションアイテム';
 $string['groupmenu'] = 'グループメニュー';
 $string['groupnavitem'] = 'グループナビゲーションアイテム';
 $string['adminnavitem'] = '管理ナビゲーションアイテム';
+$string['portfoliotoolbar'] = 'ポートフォリオ表示および編集ツールバー';
+$string['portfoliotoolbar_info'] = 'ポートフォリオページを表示する場合、ブラウザウィンドウの右側にツールバーが表示された上で「表示」モードまたは「編集」モード機能が用意されています。「表示」モードではデフォルトでメインカラーが使用されます。「編集」モードではセカンダリカラーが使用されます。デフォルトはグレーです。';
 $string['dragtext'] = 'ボタンをドラッグまたは選択して新しい「テキスト」セクションを追加する';
 $string['dragfiles'] = 'ボタンをドラッグまたは選択して新しい「ファイル」セクションを追加する';
 $string['dragfolder'] = 'ボタンをドラッグまたは選択して新しい「フォルダ」セクションを追加する';
 $string['dragembedded'] = 'ボタンをドラッグまたは選択して新しい「埋め込みメディア」セクションを追加する';
+$string['gridlocke'] = 'グリッドロック';
+$string['collectionnav'] = 'コレクションナビゲーション';
+$string['collectionnav_info'] = 'コレクションナビゲーションはコレクション内ページのインデックスであり、デスクトップではページ左側、モバイルではページ上部に表示されます。';
+$string['collectionnav_infomobile'] = 'モバイルではコンパクトに表示するためにドロップダウンセレクトが使用されます。';
 $string['profilepicture'] = 'プロファイル画像';
 $string['popovers'] = 'ポップオーバ';
 $string['popovers_info'] = 'ポップオーバを選択した場合、ヘルプコンテンツが表示されます。';
 $string['popoverheading'] = 'ポップオーバヘッディング';
 $string['popovercontent'] = 'ポップオーバコンテンツにはコンテンツをグループ化するHTMLコードを使用できます。';
+$string['progressbars'] = 'プログレスバー';
+$string['progressbars_info'] = 'プログレスバーを使用してファイルストレージ利用状況、パスワード強度、ポートフォリオ完了状況、プロファイル完了状況等を表示します。';
+$string['tables'] = 'テーブル';
 $string['totalresults'] = '合計結果';
 $string['pagetag'] = 'ページタグ';
 $string['typography'] = 'タイポグラフィ';
