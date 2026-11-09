@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-11-06 16:06:51 UTC
+ * @updated    2026-11-09 02:09:05 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1637,18 +1637,51 @@ $string['gridlocke'] = 'グリッドロック';
 $string['collectionnav'] = 'コレクションナビゲーション';
 $string['collectionnav_info'] = 'コレクションナビゲーションはコレクション内ページのインデックスであり、デスクトップではページ左側、モバイルではページ上部に表示されます。';
 $string['collectionnav_infomobile'] = 'モバイルではコンパクトに表示するためにドロップダウンセレクトが使用されます。';
+$string['pagination_info'] = 'ページネーションには「前へ」ボタンおよび「次へ」ボタン、場合によっては1ページに表示される結果数を設定するためのドロップダウンメニューが含まれます。総数を表示することもできます。例として10件を超える結果を含むほとんどの概要テーブルをご覧ください。';
 $string['profilepicture'] = 'プロファイル画像';
+$string['profilepictures_info'] = 'アップロードされたプロファイル画像はxsからxxlまでの6つのサイズで利用できます。デフォルトサイズは40x40ピクセルです。すべてのプロファイル画像の境界半径は「<code>_mahara-variables.scss</code>」で変更できます。';
 $string['popovers'] = 'ポップオーバ';
 $string['popovers_info'] = 'ポップオーバを選択した場合、ヘルプコンテンツが表示されます。';
 $string['popoverheading'] = 'ポップオーバヘッディング';
 $string['popovercontent'] = 'ポップオーバコンテンツにはコンテンツをグループ化するHTMLコードを使用できます。';
 $string['progressbars'] = 'プログレスバー';
 $string['progressbars_info'] = 'プログレスバーを使用してファイルストレージ利用状況、パスワード強度、ポートフォリオ完了状況、プロファイル完了状況等を表示します。';
+$string['tabs_info1'] = '「保存」ボタンが1つしかないセクション内のページを切り替える場合、タブを使用してください。';
+$string['tabs_info2'] = '通常、タブの後には「<code>.tab-content</code>」コンテナまたはテーブルの上にある「<code>.search-filter-container</code>」が続きます。';
+$string['tabssmall_info'] = 'アーティファクト選択タブおよびその他のコンパクトなフォーム内タブにはより小さなタブスタイルが用意されています。';
 $string['tables'] = 'テーブル';
+$string['tables_info'] = '<p>テーブルはMahara全体で使用されています。ほとんどのテーブルは応答性を高めるためにデータテーブルを使用しています。</p>
+<p>テーブルプロパティ:</p>
+<ul>
+<li>テーブルはデフォルトで縞模様になっています。アクセシビリティのためにホバー時の背景色が含まれています。</li>
+<li>すべてのサイズで表示されたままにする必要があるメインカラムは太字にする必要があります。</li>
+<li>数字は「<code>.text-end</code>」を使用して右揃えにする必要があります。</li>
+<li>アクションボタンは一番右のカラムに配置してください。すべてのサイズで表示されるようにする必要があります。</li>
+</ul>
+
+<p>それぞれの行に「状態」クラスを設定して、背景色を変更した上ですばやく識別できるようにできます:</p> <ul> <li>「<code>.table-row-folder</code>」: ファイルテーブルで使用されるフォルダを示します</li>
+<li>「<code>.table-row-highlighted</code>」: 新しく追加されたファイルまたは選択されたファイルです。</li>
+<li>「<code>.table-row-submitted</code>」: 提出されたポートフォリオ用です。</li>
+<li>「<code>.table-row-released</code>」: 提出からリリースされたポートフォリオ用です。</li> </ul>
+
+<p>検索およびフィルタコンテナ (<code>.search-filter-container</code>) はテーブルの上にあります。「通知」エリアのようにこの上にタブが表示される場合があります。</p><p>テーブルの下にあるフッタコンテナ (「<code>.table-footer-container</code>」) には結果数およびページネーションが表示されます。</p>';
+$string['number'] = 'ナンバ';
+$string['center'] = '中央';
 $string['totalresults'] = '合計結果';
+$string['tags_info'] = 'タグスタイルには2種類あります: 1つは標準タグ用、もう1つはポートフォリオページ用です。';
 $string['pagetag'] = 'ページタグ';
 $string['typography'] = 'タイポグラフィ';
+$string['textheadings'] = 'テキストヘッディング';
+$string['textheadings_info'] = 'ヘッディング「<code>&lt;h1&gt;</code>」から「<code>&lt;h3&gt;</code>」までは組み込みのページヘッディング用に予約されています。本文中のヘッディングは「<code>&lt;h4&gt;</code>」から始める必要があります。ビジュアルエディタではヘディングレベルが「<code>&lt;h4&gt;</code>」以下に制限されます。';
+$string['heading'] = 'ヘッディング';
+$string['leadparagraph'] = 'リードパラグラフ';
+$string['leadparagraph_info'] = '概要ページではヘルプテキストではなく直接表示すべき短い重要な情報をリードパラグラフで記載してください。';
 $string['paragraphtext'] = '段落テキスト';
 $string['paragraphtext_info'] = 'これは標準テキストです。';
 $string['smalltext'] = 'スモールテキスト';
 $string['smalltext_info'] = '説明または二次的な情報には小さなテキストを使用してください。';
+$string['loginbox_help'] = '<h1>ログイン</h1>
+<p>登録時に作成またはあなたに管理者が割り当てたユーザ名およびパスワードを使用してください。Moodleまたはシングルサインオン等、あなたが別の方法でログインする必要がある場合があります。これに該当する場合、ログイン場所について管理者があなたに知らせているはずです。</p>
+<p>パスワードリセットをリクエストするには<a href="forgotpass.php">ユーザ名/パスワード喪失</a>を選択してください。認証が別の場所で管理されている場合、あなたの管理者に連絡して詳細をリセットしてください。</p>
+<p>セキュリティのため、一定時間操作がない場合に自動的にログアウトされます。そして、再度ログインするよう求められます。</p>
+<p><strong>注意:</strong>このサイトにはMozilla Firefox、Google Chrome、Microsoft EdgeまたはSafariの最新バージョンが必要です。</p>';
