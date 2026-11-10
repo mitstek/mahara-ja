@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-11-08 15:11:13 UTC
+ * @updated    2026-11-10 15:38:07 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -58,11 +58,10 @@ $string['errnoxmlrpcuser1'] = '現時点ではあなたを認証できません�
 $string['toomanytries'] = 'あなたは最大ログイン試行回数を超過しました。このアカウントは最大5分間ロックされています。';
 $string['unabletosigninviasso'] = '外部認証 (SSO) 経由でサインインできません。';
 $string['xmlrpccouldnotlogyouin'] = '申し訳ございません、あなたをログインさせることができませんでした。';
-$string['xmlrpccouldnotlogyouindetail1'] = '申し訳ございません、今回はあなたを %s にログインさせることができませんでした。しばらくして再度ログインをお試しください。\r
-問題が続く場合、あなたの管理者にご連絡ください。';
+$string['xmlrpccouldnotlogyouindetail1'] = '申し訳ございません、今回はあなたを %s にログインさせることができませんでした。しばらくして再度ログインをお試しください。問題が続く場合、あなたの管理者にご連絡ください。';
 $string['requiredfields'] = '必須プロファイルフィールド';
 $string['requiredfieldsset'] = '必須プロファイルフィールドセット';
-$string['primaryemaildescription'] = '主メールアドレスです。あなたの主メールアドレス宛にクリック可能なリンクを含むメールが送信されます - メールアドレスを有効にするためこのリンクをクリックした後、システムにログインしてください。';
+$string['primaryemaildescription'] = '主メールアドレスです。あなたの主メールアドレス宛にクリック可能なリンクを含むメールが送信されます - こちらに従ってメールアドレスを認証した後、システムにログインしてください。';
 $string['validationprimaryemailsent'] = '確認メールが送信されました。メールアドレスを有効にするためメール内のリンクをクリックしてください。';
 $string['noauthpluginconfigoptions'] = 'このプラグインに関する設定オプションはありません。';
 $string['hostwwwrootinuse'] = 'すでに別のインスティテューション (%s) によりWWWルートが使用されています。';
@@ -70,6 +69,8 @@ $string['duplicateremoteusername'] = '外部認証ユーザ名はすでに %s �
 $string['duplicateremoteusernameformerror'] = '外部認証ユーザ名は認証方法内でユニークである必要があります。';
 $string['cannotjumpasmasqueradeduser'] = '別の誰かとして代理ログインしているためあなたは他のアプリケーションにジャンプできません。';
 $string['warninstitutionregistration'] = '$cfg->usersuniquebyusernameが有効にされていますがインスティテューションの登録が許可されています。セキュリティ上の理由からすべてのインスティテューションでは「登録を許可する」を無効にする必要があります。これをウェブインタフェースで調整するためあなたは一時的に「$cfg->usersuniquebyusername = false」を設定する必要があります。';
+$string['warninstitutionregistrationinstitutions'] = '次のインスティテューションでは登録が有効にされています:
+%2$s';
 $string['warnmultiinstitutionsoff'] = '$cfg->usersuniquebyusernameが有効にされていますがサイトオプション「人に複数インスティテューションを許可する」は無効にされています。ログインするたびに人はインスティテューションを変える必要があるためこれは意味をなしません。この設定を「管理 → サイト設定 → インスティテューション設定」で有効にしてください。';
 $string['alternativelogins'] = '管理ログイン';
 $string['nullprivatecert'] = '秘密鍵を生成できませんでした。';
