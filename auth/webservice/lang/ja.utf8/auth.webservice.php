@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-23 00:51:31 UTC
+ * @updated    2026-11-11 01:27:56 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -131,7 +131,7 @@ $string['restricteduserswarning'] = '警告: このサービスには既存の�
 $string['tokenuserswarning'] = '警告: このサービスには既存のトークンユーザが存在するため、あなたが「 %s 」を無効にした場合、アクセスできないようになります。';
 $string['usersonly'] = 'ユーザのみ';
 $string['tokensonly'] = 'トークンのみ';
-$string['switchtousers'] = 'ユーザにスイッチする';
+$string['switchtousers'] = 'アカウントにスイッチする';
 $string['switchtotokens'] = 'トークンにスイッチする';
 $string['invalidservice'] = '無効なサービスが選択されました。';
 $string['invalidfunction'] = '無効な関数が選択されました。';

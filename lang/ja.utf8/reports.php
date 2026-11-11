@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-09-23 23:10:48 UTC
+ * @updated    2026-11-11 01:20:04 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -14,6 +14,16 @@
 defined('INTERNAL') || die();
 
 $string['icon_help'] = '<h1>ライセンスアイコン</h1><p>画像のURLを入力するか、ファイル名を使用してMaharaテーマ内のアイコンを指定してください。例えば、<code>license:gfdl.png</code> はテーマ内の <code>images/license/gfdl.png</code> を参照します。</p>';
+$string['useractivity.artefacts_help'] = '<h1>アーティファクト</h1>
+<p>選択した期間中にインスティテューションのメンバが作成したアーティファクトの数です。</p>';
+$string['useractivity.pages_help'] = '<h1>ページ</h1>
+<p>選択した期間中に人が作成したページの数です。</p>
+<p>これは選択した期間外にページを作成または削除したかどうかにより、アカウント合計数よりも少ない場合も、多い場合もあります。</p>';
+$string['useractivity.collections_help'] = '<h1>コレクション</h1>
+<p>選択した期間中に人が作成したコレクションの数です。</p>';
+$string['useractivity.groups_help'] = '<h1>グループ</h1>
+<p>選択した期間中に人が作成したグループの数です。</p>';
+$string['useractivity.logins_help'] = '<h1>ログイン</h1> <p>選択した期間中に人がアカウントにログインした回数です。</p>';
 $string['collaboration.users_help'] = '<h1>人</h1>
 <p>選択した期間中に特定の人と直接共有されたすべてのポートフォリオの合計数です。</p>';
 $string['completionverification.completionpercentage_help'] = '<h1>完了パーセンテージ</h1>
