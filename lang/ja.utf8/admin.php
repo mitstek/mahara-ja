@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-11-01 23:12:25 UTC
+ * @updated    2026-11-11 01:47:20 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -359,7 +359,7 @@ $string['statsnoquota'] = 'ストレージ未使用';
 $string['statsmaxquotaused1'] = 'ディスククオータ使用: %s<br>(<a href="%s">%s は最大 %s のディスククオータを使用しています</a>)';
 $string['groupcountsbytype'] = 'グループタイプ別グループ数';
 $string['groupcountsbyjointype'] = 'アクセスタイプ別グループ数';
-$string['blockcountsbytype'] = 'ポートフォリオページで使用頻度の高いブロック';
+$string['blockcountsbytype'] = 'ポートフォリオページで使用頻度の高いセクション';
 $string['uptodate'] = 'あなたのローカルコードベースはMaharaコア最新版です。';
 $string['latestversionis1'] = '最新メジャリリース: <a href="%s">Mahara %s</a>';
 $string['latestbranchversionis'] = 'このリリースの最新マイナバージョン: <a href="%s">%s</a>';
@@ -1425,7 +1425,7 @@ $string['reinstall'] = '再インストール';
 $string['None'] = 'なし';
 $string['Simple'] = 'シンプル';
 $string['Advanced'] = '高度';
-$string['sitesettingslegend'] = 'サイト設定';
+$string['sitesettingslegend'] = '一般設定';
 $string['accesssettingslegend'] = 'アクセス設定';
 $string['groupsettingslegend'] = 'グループ設定';
 $string['searchsettingslegend'] = '検索設定';
@@ -1748,7 +1748,7 @@ $string['privacyrefusal'] = 'プライバシ保護方針を拒否しました。
 $string['registerrefusal'] = 'あなたが %s に同意しない場合、アカウントは作成されません。';
 $string['agreetoprivacy.privacy_help'] = '<h1>プライバシ保護方針</h1><p>プライバシ保護方針に同意しない場合、あなたはこのサイトでアカウントを作成できません。</p>';
 $string['agreetoprivacy.termsandconditions_help'] = '<h1>利用規約</h1><p>利用規約に同意しない場合、あなたはこのサイトでアカウントを作成できません。</p>';
-$string['enterreason'] = '拒否理由をここに入力してください ...';
+$string['enterreason'] = 'あなたが保護方針に同意しない理由を説明してください。';
 $string['privacyrefusalnoreason'] = 'プライバシ保護方針または利用規約に同意しない場合、あなたは理由を明記する必要があります。';
 $string['privacylowcase'] = 'プライバシ保護方針';
 $string['termsandconditionslowcase'] = '利用規約';
@@ -1781,15 +1781,14 @@ $string['keepaccountmessage'] = '本当にこのアカウントの削除をキ�
 $string['nopendingdeletions'] = 'このインスティテューションにアカウント削除リクエストの保留はありません。';
 $string['pendingdeletions'] = '削除保留';
 $string['pendingdeletions1'] = 'アカウント削除保留';
-$string['pendingdeletionspagedescription'] = '<p>あなたはこのページでサイトからのアカウント削除をリクエストした人を確認および削除承認できます。<p>
-<p>アカウント削除承認によりアカウントからすべての個人コンテンツが完全に削除されます。アカウント削除後、リクエストした人にメールで理由が通知されます。</p>';
+$string['pendingdeletionspagedescription'] = 'あなたがリクエストを承認した場合、すべての個人コンテンツが完全に削除された上で人にメール通知されます。';
 $string['userdeletiondeniedsuccessful'] = 'リクエストが正常に拒否されました。';
 $string['userdeletiondeniedunsuccessful'] = 'アカウント削除の拒否に失敗しました。';
 $string['consented'] = '同意済み';
 $string['groupid'] = 'グループID';
 $string['blocktypeupdatedsuccess'] = 'ブロックタイプ並べ替え順を更新しました。';
 $string['groupdefaultsettings'] = 'デフォルトグループ設定';
-$string['introtext'] = 'あなたは新しいグループが作成される場合に使用されるデフォルト設定を変更できます。一部の設定は特定のロールの人のみ利用できます。特定のロールの人が利用できないオプションは新しいグループ作成時に無視されて代わりにデフォルト値が使用されます。';
+$string['introtext'] = '特定のロールに設定が利用できない場合、グループ作成時にその設定は無視された上でデフォルト値が適用されます。';
 $string['savedgroupconfigsuccessfully'] = 'デフォルトグループ設定を保存しました。';
 $string['defaultreset'] = 'デフォルトにリセットする';
 $string['defaultresetlabel'] = 'リセット';
@@ -1803,7 +1802,7 @@ $string['thirdpartyplugins4'] = 'これはNPMおよびComposerに管理される
 $string['url'] = 'url';
 $string['pluginartefact'] = 'プラグインタイプ: アーティファクト';
 $string['pluginauth'] = 'プラグインタイプ: 認証';
-$string['pluginblocktype'] = 'プラグインタイプ: ブロックタイプ';
+$string['pluginblocktype'] = 'プラグインタイプ: セクションタイプ';
 $string['pluginexport'] = 'プラグインタイプ: エクスポート';
 $string['plugingrouptype'] = 'プラグインタイプ: グループタイプ';
 $string['pluginimport'] = 'プラグインタイプ: インポート';
@@ -1812,12 +1811,12 @@ $string['pluginmodule'] = 'プラグインタイプ: モジュール';
 $string['pluginnotification'] = 'プラグインタイプ: 通知';
 $string['pluginsearch'] = 'プラグインタイプ: 検索';
 $string['upgradeproblemwithremoteusername'] = 'リモートユーザ名「 %s 」が正しく更新できなかったため「 %s 」として保存されました。問題を解決するため、あなたのデータベースを確認してください。';
-$string['add_block_to_view_block_desc'] = 'コピーする既存のブロックのIDです。';
-$string['add_block_to_view_origin_view'] = 'あなたがコピーしたいブロックが存在するページのページIDです。';
-$string['add_block_to_view_dest_view'] = 'あなたがブロックをコピーしたいページのコピー先ページIDです。あなたが多くのページにブロックをコピーしたい場合、このパラメータを使用しないでください。';
-$string['add_block_to_view_block_added_another'] = '指定された種類のブロックタイプがすでに存在している場合でも別のブロックタイプを追加します。';
-$string['add_block_to_view_add_anyway_notice'] = '[注意] これはブロックが既に存在していても関係なく追加されます。';
-$string['add_block_to_view_add_to_top'] = 'これはコピー先ページのトップにブロックを追加します。';
+$string['add_block_to_view_block_desc'] = 'コピーする既存のセクションのIDです。';
+$string['add_block_to_view_origin_view'] = 'あなたがコピーしたいセクションが存在するページのページIDです。';
+$string['add_block_to_view_dest_view'] = 'あなたがセクションをコピーしたいページのコピー先ページIDです。あなたが多くのページにセクションをコピーしたい場合、このパラメータを使用しないでください。';
+$string['add_block_to_view_block_added_another'] = '指定された種類のセクションタイプがすでに存在している場合でも別のセクションタイプを追加します。';
+$string['add_block_to_view_add_anyway_notice'] = '[注意] これはセクションが既に存在していても関係なく追加されます。';
+$string['add_block_to_view_add_to_top'] = 'これはコピー先ページのトップにセクションを追加します。';
 $string['add_block_to_view_add_to_top_notice'] = '[注意] これはコピー先ページのトップにブロックを追加します。';
 $string['add_block_to_view_replace'] = '合致するブロックのインスタンスが存在する場合、それをページから置換します。';
 $string['add_block_to_view_re_add_notice'] = '[注意] 合致するブロックが存在する場合、それを削除して再度ページに追加します。';

@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-05 12:54:05 UTC
+ * @updated    2026-11-11 01:24:38 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -120,6 +120,8 @@ $string['typesdescription1'] = 'デフォルト: %s';
 $string['unassignedshards'] = '未割り当てシャード: %s';
 $string['usedonpage'] = '使用ページ';
 $string['usedonpages'] = '使用ページ';
+$string['usernamereading'] = '読み取り用ユーザ名';
+$string['username_help'] = '<h1>読み取り用ユーザ名</h1><p><code>config.php</code>でElasticsearch 7 HTTP基本認証用のオプションのユーザ名を設定してください。</p>';
 $string['Users'] = '人';
 $string['xsearchresults'] = '検索結果: %s';
 $string['xsearchresultsfory'] = '検索結果: %s / 検索キーワード: %s';
