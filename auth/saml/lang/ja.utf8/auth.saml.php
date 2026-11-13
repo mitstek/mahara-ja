@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-15 00:41:04 UTC
+ * @updated    2026-11-13 18:03:04 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -41,7 +41,7 @@ $string['errorretryexceeded'] = '再試行の最大回数 (%s) を越えまし�
 $string['errnosamluser'] = 'アカウントは見つかりませんでした。';
 $string['errorssphpsetup'] = 'SAMLが正しく設定されていません。あなたは最初にコマンドラインから「make ssphp」を実行する必要があります。';
 $string['errorbadlib'] = 'SimpleSAMLphpライブラリの「autoloader」ファイルが %s で見つかりませんでした。<br>「make ssphp」でSimpleSAMLphpをインストールしてファイルを読めることを確認してください。';
-$string['errorbadmodule'] = 'SimpleSAMLPHPモジュール「 %s 」が見つかりませんでした。<br>モジュールのインストールおよび有効化を確認してください。';
+$string['errorbadmodule'] = 'SimpleSAMLPHPモジュール「 %s 」が見つかりませんでした。モジュールのインストールおよび有効化を確認してください。';
 $string['errorupdatelib'] = 'あなたの現在のSimpleSAMLphpライブラリは旧バージョンです。あなたは「make cleanssphp && make ssphp」を実行する必要があります。';
 $string['errornovalidsessionhandler'] = 'SimpleSAMLphpセッションハンドラの設定が正しくないか現在サーバを利用できません。';
 $string['errornomemcache'] = 'auth/samlのためのMemcacheの設定が正しくないか現在Memcacheサーバを利用できません。';
