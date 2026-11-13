@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-06-04 14:07:35 UTC
+ * @updated    2026-11-13 17:35:35 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -123,6 +123,7 @@ $string['profileinformation1'] = '個人情報';
 $string['Profilepage'] = 'プロファイルページ';
 $string['profilepage'] = 'プロファイルページ';
 $string['profileimagefor'] = '%s のプロファイル画像';
+$string['anonprofilepicture'] = '秘匿作成者';
 $string['viewprofilepage'] = 'プロファイルページを表示する';
 $string['viewallprofileinformation1'] = 'すべての個人情報を表示する';
 $string['duplicatedprofilefieldvalue'] = '複製値';

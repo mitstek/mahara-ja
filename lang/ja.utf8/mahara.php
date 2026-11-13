@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-11-09 02:09:06 UTC
+ * @updated    2026-11-13 17:34:31 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -1260,7 +1260,8 @@ $string['hidden'] = '秘匿';
 $string['lastupdate'] = '最終更新日時';
 $string['lastupdateorcomment'] = '最終更新日時またはコメント';
 $string['Title'] = 'タイトル';
-$string['anonymoususer'] = '(作成者名秘匿)';
+$string['anonymoususer1'] = '(作成者秘匿)';
+$string['revealauthor'] = '作成者を公開する';
 $string['removefooterlinksupgradewarning'] = 'あなたのサイトは利用規約またはプライバシ保護方針のカスタムリンクを使用します。次のリンク「 %s 」は削除されました。あなたはサイトの「管理メニュー」 → 「サイト設定」 → 「法律」セクションに直接コンテンツを入力する必要があります。';
 $string['myprofile1'] = 'マイ「プロファイル」タグ付きアイテム';
 $string['importedfrom'] = 'インポート元 %s';

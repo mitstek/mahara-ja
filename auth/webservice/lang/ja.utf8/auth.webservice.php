@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-11-11 01:27:59 UTC
+ * @updated    2026-11-13 18:18:01 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -93,7 +93,7 @@ $string['isfatal'] = 'エラー時に致命的にする';
 $string['type'] = 'ウェブサービスタイプ';
 $string['nameexists'] = '名称がすでに使用されています。';
 $string['emptytoken'] = 'トークンを提供する必要があります。';
-$string['emptyuser'] = 'ユーザを提供する必要があります。';
+$string['emptyuser'] = 'アカウントを提供する必要があります。';
 $string['emptyuserpass'] = 'パスワードを提供する必要があります。';
 $string['emptycert'] = '証明書を提供する必要があります。';
 $string['header'] = 'ヘッダ名';
@@ -129,7 +129,7 @@ $string['functionlist'] = '関数リスト';
 $string['enableservice1'] = 'サービス利用可能状況';
 $string['restricteduserswarning'] = '警告: このサービスには既存のトークンユーザが存在するため、あなたが「 %s 」を有効にした場合、アクセスできないようになります。';
 $string['tokenuserswarning'] = '警告: このサービスには既存のトークンユーザが存在するため、あなたが「 %s 」を無効にした場合、アクセスできないようになります。';
-$string['usersonly'] = 'ユーザのみ';
+$string['usersonly'] = 'アカウントのみ';
 $string['tokensonly'] = 'トークンのみ';
 $string['switchtousers'] = 'アカウントにスイッチする';
 $string['switchtotokens'] = 'トークンにスイッチする';
@@ -166,7 +166,7 @@ $string['invalidtokennotsupplied'] = '無効なトークンが選択されたか
 $string['token'] = 'トークン';
 $string['tokenid'] = 'トークン「 %s 」';
 $string['invaliduserselected'] = '無効なユーザが選択されました。';
-$string['invaliduserselectedinstitution'] = 'ユーザ検索から無効なユーザのトークンインスティテューションが選択されました。';
+$string['invaliduserselectedinstitution'] = 'アカウント検索から無効なアカウントのトークンインスティテューションが選択されました。';
 $string['noservices'] = 'サービスが設定されていません。';
 $string['wssigenc'] = 'ウェブサービスセキュリティを有効にする (XML-RPCのみ)';
 $string['titlewssigenc'] = 'ウェブサービスセキュリティ';
@@ -188,9 +188,9 @@ $string['serviceuser'] = 'サービスオーナ';
 $string['webservice_oauth_server.user_help'] = '<h1>サービスオーナ</h1>
 <p>インスティテューション管理者権限のあるアカウントを選択してください。このアカウントでログインした場合、人をログアウトするトークンが使用されるため、専用の「Webサービス」アカウントの作成をお勧めします。別のアカウント使用でこの問題を回避できます。</p>';
 $string['serviceusername'] = 'サービスオーナ「 %s 」';
-$string['invalidserviceuser'] = '無効なサービスユーザが選択されました。';
-$string['nouser'] = 'ユーザを選択してください。';
-$string['duplicateuser'] = 'すでにウェブサービスにユーザアカウントが設定されています。';
+$string['invalidserviceuser'] = '無効なサービスアカウントが選択されました。';
+$string['nouser'] = 'アカウントを選択してください。';
+$string['duplicateuser'] = 'すでにウェブサービスにアカウントが設定されています。';
 $string['servicefunctionlist'] = 'サービスに割り当てられている関数';
 $string['sfldescription'] = 'このサービスで利用可能な関数一覧を作成します。';
 $string['functionname'] = '関数名';
@@ -201,7 +201,7 @@ $string['configsaved'] = '設定が保存されました。';
 $string['webservices_title'] = 'ウェブサービス設定';
 $string['headingusersearchtoken'] = 'ウェブサービス: トークンユーザ検索';
 $string['headingusersearchuser'] = 'ウェブサービス: サービスユーザ検索';
-$string['usersearchinstructions'] = 'アバタをクリックすることでウェブサービスに関連付けられているユーザを選択してください。あなたはユーザの姓名のイニシャルをクリックまたは検索ボックスに名前を入力することでユーザを検索できます。メールアドレスで検索したい場合、あなたは検索ボックスにメールアドレスを入力することもできます。';
+$string['usersearchinstructions'] = 'アバタをクリックすることでウェブサービスに関連付けられているアカウントを選択してください。あなたはアカウントの姓名のイニシャルをクリックまたは検索ボックスに名前を入力することでアカウントを検索できます。メールアドレスで検索したい場合、あなたは検索ボックスにメールアドレスを入力することもできます。';
 $string['sha1fingerprint'] = 'SHA1フィンガープリント: %s';
 $string['md5fingerprint'] = 'MD5フィンガープリント: %s';
 $string['publickeyexpireson'] = '公開鍵有効期限: %s';
@@ -249,16 +249,16 @@ $string['webservice_oauth_server.application_uri_help'] = '<h1>アプリケー�
 <p>このサイトからのメールリンクをたどったときにアプリケーションのホームページにリダイレクトするURLを入力してください。config.phpで「$cfg-&gt;emailexternalredirect」を「true」に設定する必要があります。</p><p>これはポートフォリオ作成者がLMS経由でのみログインする場合に使用します。その後、新しいページの通知はLTIリンクを含むLMS活動にリダイレクトされます。</p>';
 $string['application_title'] = 'アプリケーションタイトル';
 $string['errorupdate'] = '更新に失敗しました。';
-$string['erroruser'] = '無効なユーザが指定されました。';
+$string['erroruser'] = '無効なアカウントが指定されました。';
 $string['authorise'] = 'アプリケーションアクセス権を与える';
-$string['oauth_access'] = 'このアプリケーションはあなたのユーザ詳細およびリソースにアクセスできます。';
+$string['oauth_access'] = 'このアプリケーションはあなたのアカウント詳細およびリソースにアクセスできます。';
 $string['oauth_instructions'] = 'あなたがこのアプリケーションにアクセス権を与えたい場合、「アプリケーションアクセス権を与える」をクリックしてください。あなたがアクセス権を与えたくない場合、「キャンセル」をクリックしてください。';
 $string['setauthinstancefailed'] = 'インスティテューション「 %s 」の「ウェブサービス」認証設定に失敗しました。「管理 -> インスティテューション -> 設定」ページで追加してください。';
 $string['needtosetowner'] = 'このサービスのオーナを設定する必要があります。';
 $string['confirmdeleteexternalapp'] = '本当にこの外部アプリケーションを削除してもよろしいですか?';
 $string['confirmupdate'] = 'あなたは正常に外部アプリケーション「 %s 」を更新しました。';
 $string['cannotdelete'] = 'まだこのアプリケーションのトークンを認証方法として使用している人がいるため、あなたは外部アプリケーション「 %s 」を削除できません。';
-$string['accesstofunctionnotallowed'] = '関数「 %s() 」へのアクセスは許可されていません。その関数を含むサービスが有効にされているかどうか確認してください。サービス設定において: サービスが制限されている場合でもユーザがリストに記載されているかどうか確認してください。さらにサービス設定ではIP制限およびサービスにケイパビリティが必要か確認してください。';
+$string['accesstofunctionnotallowed'] = '関数「 %s() 」へのアクセスは許可されていません。その関数を含むサービスが有効にされているかどうか確認してください。サービス設定において: サービスが制限されている場合でもアカウントがリストに記載されているかどうか確認してください。さらにサービス設定ではIP制限およびサービスにケイパビリティが必要か確認してください。';
 $string['accessexception'] = 'アクセスコントロール例外';
 $string['accessnotallowed'] = 'ウェブサービスへのアクセスは許可されていません。';
 $string['addfunction'] = '関数を追加する';
@@ -270,8 +270,8 @@ $string['arguments'] = '変数';
 $string['authmethod'] = '認証方法';
 $string['context'] = 'コンテクスト';
 $string['createtoken'] = 'トークンを作成する';
-$string['createtokenforuser'] = 'ユーザのトークンを作成する';
-$string['createuser'] = '特定のユーザを作成する';
+$string['createtokenforuser'] = 'アカウントのトークンを作成する';
+$string['createuser'] = '特定のアカウントを作成する';
 $string['default'] = '「 %s 」のデフォルト';
 $string['deleteservice'] = 'サービスを削除する: {$a->name} (id: {$a->id})';
 $string['doc'] = 'ドキュメンテーション';
@@ -301,7 +301,7 @@ $string['function'] = '関数';
 $string['generalstructure'] = '全体構造';
 $string['information'] = '情報';
 $string['invalidlogin'] = 'ログインに失敗しました。あなたのユーザ名およびパスワードを確認してください。';
-$string['invalidaccount'] = '無効なウェブサービスアカウント: サービスユーザ設定を確認してください。';
+$string['invalidaccount'] = '無効なウェブサービスアカウント: サービスアカウント設定を確認してください。';
 $string['invalidextparam'] = '無効な外部APIパラメータ: %s';
 $string['invalidextresponse'] = '無効な外部APIレスポンス: %s';
 $string['invalidiptoken'] = '無効なトークン: あなたのIPはサポートされていません。';
@@ -321,7 +321,7 @@ $string['onesystemcontrolling'] = '1システムがMaharaをトークンでコ�
 $string['operation'] = '操作';
 $string['optional'] = '任意';
 $string['phpparam'] = 'XML-RPC (PHP構造体)';
-$string['potusers'] = '認証済みユーザではありません。';
+$string['potusers'] = '認証済みアカウントではありません。';
 $string['print'] = 'すべてを印刷する';
 $string['protocol'] = 'プロトコル';
 $string['removefunction'] = '削除';
@@ -359,7 +359,7 @@ $string['testclientdescription'] = '* ウェブサービステストクライア
 <br>
 * まだ既存のウェブサービス関数すべてはテストクライアントに実装されていません。
 <br>
-* ユーザが関数にアクセスできないことを確認するためあなたが許可していない関数をテストできます。
+* アカウントが関数にアクセスできないことを確認するためあなたが許可していない関数をテストできます。
 <br>
 * クリアなエラーメッセージを表示するには {$a->atag} でデバッギングを <strong>{$a->mode}</strong> に設定してください。
 <br>
@@ -375,7 +375,7 @@ $string['wsdocumentation'] = 'ウェブサービスドキュメンテーショ�
 $string['wspassword'] = 'ウェブサービスパスワード';
 $string['wsusername'] = 'ウェブサービスユーザ名';
 $string['webservicesenabled'] = 'ウェブサービス有効化済み';
-$string['webservicesnotenabled'] = 'あなたは少なくとも1つのプロトコルを有効にする必要があります。';
+$string['webservicesnotenabled'] = '少なくとも1つのプロトコルを有効にしてください。';
 $string['nooauth'] = 'OAuthには有効にされていません。';
 $string['accessdenied'] = 'アクセスが拒否されました。';
 $string['accessdeniedforinst'] = 'インスティテューション「 %s 」へのアクセスが拒否されました。';
@@ -408,7 +408,7 @@ $string['catinvalid'] = 'カテゴリ「 %s 」が有効ではありません。
 $string['invalidjointype'] = '無効なJOINタイプの組み合わせです: %s';
 $string['correctjointype'] = '正しいJOINタイプ (open, request, controlled) を選択する必要があります。';
 $string['groupeditroles'] = '「 %s 」で指定したグループ編集ロールは次の中の1つである必要があります: %s';
-$string['invalidmemroles'] = '無効なグループメンバシップロール「 %s (ユーザ: %s) 」です。';
+$string['invalidmemroles'] = '無効なグループメンバシップロール「 %s (アカウント: %s) 」です。';
 $string['groupnotexist'] = 'グループ「 %s 」は存在しません。';
 $string['instmustset'] = '「 %s 」にインスティテューションを設定する必要があります。';
 $string['nogroup'] = 'グループが指定されていません。';
