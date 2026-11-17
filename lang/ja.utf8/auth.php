@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-11-15 15:00:59 UTC
+ * @updated    2026-11-17 15:00:42 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -80,7 +80,7 @@ $string['xmlrpccouldnotlogyouindetail1'] = '申し訳ございません、今回
 $string['requiredfields'] = '必須プロファイルフィールド';
 $string['requiredfieldsset'] = '必須プロファイルフィールドセット';
 $string['primaryemaildescription'] = '主メールアドレスです。あなたはクリック可能なリンクを含むメールを受信します。 こちらに従ってメールアドレスを認証した後、システムにログインしてください。';
-$string['validationprimaryemailsent'] = '確認メールが送信されました。メールアドレスを有効にするためメール内のリンクをクリックしてください。';
+$string['validationprimaryemailsent'] = '確認メールが送信されました。メールアドレスを認証するにはメールに記載されているリンクをクリックしてください。';
 $string['noauthpluginconfigoptions'] = 'このプラグインに関する設定オプションはありません。';
 $string['hostwwwrootinuse'] = 'すでに別のインスティテューション (%s) によりWWWルートが使用されています。';
 $string['duplicateremoteusername'] = '外部認証ユーザ名はすでに %s により使用されています。外部認証ユーザ名は認証方法内でユニークである必要があります。';
