@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-11-08 15:08:03 UTC
+ * @updated    2026-11-22 14:27:38 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -311,6 +311,7 @@ $string['addtofriendslist'] = 'フレンドに追加する';
 $string['addusertofriendslist'] = '%s をフレンドリストに追加する';
 $string['requestfriendship'] = 'フレンドシップをリクエストする';
 $string['emptystatenofriendstitle'] = 'あなたはまだフレンドを追加していません。';
+$string['emptystatenofriendstitleother'] = '%s はまだフレンドを追加していません。';
 $string['addedtofriendslistsubject'] = '%s があなたをフレンドとして追加しました。';
 $string['addedtofriendslistmessage'] = '%s があなたをフレンドとして追加しました。これはあなたのフレンドリストに %s が追加されたことも意味します。追加された人のプロファイルページを閲覧するには以下のリンクをクリックしてください。';
 $string['requestedfriendlistsubject'] = '新しいフレンドリクエスト';
@@ -325,6 +326,7 @@ $string['cantremovefriend'] = 'あなたはこの人をフレンドリストか�
 $string['friendshipalreadyrequested'] = 'あなたは %s のフレンドリストへの追加をリクエストしました。';
 $string['friendshipalreadyrequestedowner'] = '%s があなたのフレンドリストへの追加をリクエストしました。';
 $string['rejectfriendshipreason'] = 'リクエストを拒否する理由';
+$string['friendreasonsent'] = '私たちはこれを通知で送信します。';
 $string['alreadyfriends'] = 'あなたはすでに %s のフレンドです。';
 $string['friendrequestacceptedsubject'] = 'フレンドリクエストが承認されました。';
 $string['friendrequestacceptedmessage'] = '%s があなたのフレンドリクエストを承認しました。同時にあなたのフレンドリストに追加されました。';
@@ -391,7 +393,6 @@ $string['viewmessage'] = 'メッセージを表示する';
 $string['Reply'] = '返信';
 $string['denyfriendrequest'] = 'フレンドシップリクエストを拒否する';
 $string['deny'] = '拒否';
-$string['sendfriendshiprequest'] = '%s にフレンドシップリクエストを送信する';
 $string['cantdenyrequest'] = 'これは有効なフレンドシップリクエストではありません。';
 $string['cantmessageuser'] = 'あなたはこの人にメッセージを送信できません。';
 $string['cantmessageuserdeleted'] = 'アカウントが削除されているため、あなたはこの人にメッセージを送信できません。';

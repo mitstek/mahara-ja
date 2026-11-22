@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-11-13 18:18:01 UTC
+ * @updated    2026-11-22 14:25:57 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -15,7 +15,7 @@ defined('INTERNAL') || die();
 
 $string['title'] = 'ウェブサービス';
 $string['webservice'] = 'ウェブサービス';
-$string['externalapp'] = '外部アプリケーション:';
+$string['externalappfor'] = '外部アプリ: %s';
 $string['description'] = 'Maharaデータベースで認証されたウェブサービスのみのユーザ';
 $string['webservicesconfig'] = '設定';
 $string['webservicesconfigdesc'] = 'ここであなたは様々なウェブサービスルールを設定、有効または無効にできます。';
