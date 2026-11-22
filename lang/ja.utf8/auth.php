@@ -67,7 +67,7 @@ $string['noauthpluginconfigoptions'] = 'このプラグインに関する設定�
 $string['hostwwwrootinuse'] = 'すでに別のインスティテューション (%s) によりWWWルートが使用されています。';
 $string['duplicateremoteusername'] = '外部認証ユーザ名はすでに %s により使用されています。外部認証ユーザ名は認証方法内でユニークである必要があります。';
 $string['duplicateremoteusernameformerror'] = '外部認証ユーザ名は認証方法内でユニークである必要があります。';
-$string['cannotjumpasmasqueradeduser'] = '別の誰かとして代理ログインしているためあなたは他のアプリケーションにジャンプできません。';
+$string['cannotjumpasmasqueradeduser'] = '他の人として代理ログインしている間、あなたは別のアプリケーションに移動できません。';
 $string['warninstitutionregistration'] = '$cfg->usersuniquebyusernameが有効にされていますがインスティテューションの登録が許可されています。セキュリティ上の理由からすべてのインスティテューションでは「登録を許可する」を無効にする必要があります。これをウェブインタフェースで調整するためあなたは一時的に「$cfg->usersuniquebyusername = false」を設定する必要があります。';
 $string['warninstitutionregistrationinstitutions'] = '次のインスティテューションでは登録が有効にされています:
 %2$s';
