@@ -52,12 +52,12 @@ $string['unabletosigninviasso'] = '外部認証 (SSO) 経由でサインイン�
 $string['updateuserinfoonlogin'] = 'ログイン時、個人情報を更新する';
 $string['updateuserinfoonlogindescription'] = 'リモートサーバの個人情報を検索して人がログインするたびにあなたのローカルレコードを更新します。';
 $string['validationprimaryemailsent'] = '確認メールが送信されました。メールアドレスを認証するにはメールに記載されているリンクをクリックしてください。';
-$string['warninstitutionregistration'] = '$cfg->usersuniquebyusernameが有効にされていますがインスティテューションの登録が許可されています。セキュリティ上の理由からすべてのインスティテューションでは「登録を許可する」を無効にする必要があります。これをウェブインタフェースで調整するためあなたは一時的に「$cfg->usersuniquebyusername = false」を設定する必要があります。';
+$string['warninstitutionregistration'] = '$cfg->usersuniquebyusernameが有効にされていますが、インスティテューションの登録が許可されています。セキュリティ上の理由からすべてのインスティテューションでは「登録を許可する」を無効にする必要があります。これをウェブインタフェースで調整する場合、あなたは一時的に「$cfg->usersuniquebyusername = false」を設定する必要があります。';
 $string['warninstitutionregistrationinstitutions'] = array(
     0 => '次のインスティテューションでは登録が有効にされています:
 %2$s',
 );
-$string['warnmultiinstitutionsoff'] = '$cfg->usersuniquebyusernameが有効にされていますがサイトオプション「人に複数インスティテューションを許可する」は無効にされています。ログインするたびに人はインスティテューションを変える必要があるためこれは意味をなしません。この設定を「管理 → サイト設定 → インスティテューション設定」で有効にしてください。';
+$string['warnmultiinstitutionsoff'] = '$cfg->usersuniquebyusernameが有効にされていますが、サイトオプション「人に複数インスティテューションを許可する」は無効にされています。ログインするたびに人はインスティテューションを変える必要があるためこれは意味をなしません。この設定を「管理 → サイト設定 → インスティテューション設定」で有効にしてください。';
 $string['weautocreateusers'] = 'こちらでアカウントを自動作成する';
 $string['weimportcontent'] = 'こちらにコンテンツをインポートさせる';
 $string['weimportcontentdescription'] = '(一部のアプリケーションのみ)';
