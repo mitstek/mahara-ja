@@ -5,7 +5,7 @@
  * @subpackage lang (Japanese)
  * @translator Mitsuhiro Yoshida (https://mitstek.com/)
  * @started    2008-01-19 11:25:00 UTC
- * @updated    2026-11-13 18:00:12 UTC
+ * @updated    2026-11-25 04:46:34 UTC
  * @license    https://www.gnu.org/licenses/gpl-3.0.html GNU GPL version 3 or later
  * @copyright  For copyright information on Mahara, please see the README file distributed with this software.
  *
@@ -114,6 +114,13 @@ $string['collaboration.annotations_help'] = '<h1>アノテーション</h1>
 <p>選択した期間中にアノテーションに投稿されたアノテーションに関するフィードバック総数です。</p>';
 $string['collaboration.users_help'] = '<h1>人</h1>
 <p>選択した期間中に特定の人と直接共有されたすべてのポートフォリオの合計数です。</p>';
+$string['collaboration.groups_help'] = '<h1>グループ</h1> <p>選択した期間中にグループと共有されたポートフォリオの合計数です。</p>';
+$string['collaboration.institutions_help'] = '<h1>インスティテューション</h1> <p>選択した期間中にインスティテューションと共有されたポートフォリオの合計数です。</p>';
+$string['collaboration.registered_help'] = '<h1>登録済みの人</h1> <p>選択した期間中に登録済みの人と共有されたポートフォリオの合計数です。</p>';
+$string['collaboration.public_help'] = '<h1>パブリック</h1> <p>選択した期間中にパブリックで共有されたポートフォリオの合計数です。</p>';
+$string['collaboration.secreturls_help'] = '<h1>シークレットURL</h1> <p>選択した期間中にシークレットURLで共有されたポートフォリオの合計数です。</p>';
+$string['collaboration.friends_help'] = '<h1>フレンド</h1> <p>選択した期間中にフレンドと共有されたポートフォリオの合計数です。</p>';
+$string['completionverification.portfoliotitle_help'] = '<h1>ポートフォリオ</h1> <p>ポートフォリオのタイトルです。</p>';
 $string['completionverification.completionpercentage_help'] = '<h1>完了パーセンテージ</h1>
 <p>これはポートフォリオ内で「承認済み」(および必要に応じて検証済み) とマークされたページの割合です。</p>';
 $string['comparisons.views_help'] = '<h1>ページ</h1>
